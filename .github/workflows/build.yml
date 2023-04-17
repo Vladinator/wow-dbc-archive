@@ -13,12 +13,14 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
-    - name: Setup Lua, LuaRocks and wowcig
+    - name: Setup Lua and LuaRocks
       uses: ljmf00/setup-lua@v1.0.0
       with:
-        lua-version: '5.1'
+        lua-version: '5.1.5'
         install-luarocks: true
-        run: luarocks install wowcig
+
+    - name: Setup wowcig
+      run: luarocks install wowcig
 
     - name: Run wowcig on wow
       run: wowcig --db2 all --skip-framexml --product wow
@@ -28,27 +30,30 @@ jobs:
       with:
         dotnet-version: 7.0.x
 
-    - name: Extract latest DBC2CSV release
+    - name: Download latest DBC2CSV release
       uses: andy-v-h/get-release-asset-action@v1.1.0
       with:
         repo: 'Marlamin/DBC2CSV'
         match: '.*linux.*'
-        run: |
-            unzip *.zip
-            chmod +x DBC2CSV
+
+    - name: Extract latest DBC2CSV release
+      run: |
+        unzip *.zip
+        chmod +x DBC2CSV
 
     - name: Run DBC2CSV
+      working-directory: extracts/wow/db2
       run: |
-          DBC2CSV extracts/wow/db2
-          find extracts/wow/db2 -type f ! -iname "*.csv" -delete
+        ../../../DBC2CSV .
+        find . -type f ! -iname "*.csv" -delete
 
     - name: Create branch for release
       working-directory: extracts/wow/db2
       run: |
-          $build = basename $(readlink -f ../wow)
-          git checkout -b "release/wow_$build"
-          git config user.name "GitHub Actions"
-          git config user.email noreply@github.com
-          git add
-          git commit --message "wow $build"
-          git push origin "release/wow_$build"
+        $build = basename $(readlink -f ../wow)
+        git checkout -b "release/wow_$build"
+        git config user.name "GitHub Actions"
+        git config user.email noreply@github.com
+        git add
+        git commit --message "wow $build"
+        git push origin "release/wow_$build"
