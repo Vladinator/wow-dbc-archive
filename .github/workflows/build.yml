@@ -54,14 +54,21 @@ jobs:
         find . -type f ! -iname "*.csv" -delete
 
     - name: Create branch for release
-      working-directory: extracts/wow/db2
       run: |
-        build=$(basename $(readlink -f ../../wow))
+        cd extracts
+        build=$(basename $(readlink -f wow))
         branch="release/wow_$build"
         if [ "$(git ls-remote --head origin "$branch" | wc -l)" == "1" ]; then exit 0; fi
+        cd wow/db2
+        tmpzip="/tmp/$build.zip"
+        zip $tmpzip *.csv
+        cd ../../../
+        git reset --hard
+        git clean -d -f -x
         git checkout -b "$branch"
         git config user.name "GitHub Actions"
         git config user.email noreply@github.com
-        git add
+        unzip $tmpzip
+        git add .
         git commit --message "wow $build"
         git push origin "$branch"
