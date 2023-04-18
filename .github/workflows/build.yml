@@ -13,6 +13,24 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
+
+
+
+    - name: Download latest DBC2CSV release
+      uses: robinraju/release-downloader@v1.7
+      with:
+        repository: 'Marlamin/DBC2CSV'
+        latest: true
+        fileName: '.*linux.*'
+
+    - name: Extract latest DBC2CSV release
+      run: |
+        unzip *.zip
+        chmod +x DBC2CSV
+
+
+
+
     - name: Setup Lua and LuaRocks
       uses: ljmf00/setup-lua@v1.0.0
       with:
@@ -35,16 +53,14 @@ jobs:
       with:
         dotnet-version: 7.0.x
 
-    - name: Download latest DBC2CSV release
-      uses: andy-v-h/get-release-asset-action@v1.1.0
-      with:
-        repo: 'Marlamin/DBC2CSV'
-        match: '.*linux.*'
 
-    - name: Extract latest DBC2CSV release
-      run: |
-        unzip *.zip
-        chmod +x DBC2CSV
+
+
+
+
+
+
+
 
     - name: Run DBC2CSV
       working-directory: extracts/wow/db2
