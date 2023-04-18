@@ -74,8 +74,4 @@ jobs:
         git add .
         git commit --message "wow $build"
         git push origin "$branch"
-        branch="release/wow_latest"
-        git checkout -b "$branch"
-        git add .
-        git commit --message "wow $build"
-        git push --force origin "$branch"
+        git push --force origin "release/wow_latest"
