@@ -68,7 +68,8 @@ jobs:
         git checkout -b "$branch"
         git config user.name "GitHub Actions"
         git config user.email noreply@github.com
-        rm -rf {,.[!.],..?}*
+        rm -rf *
+        rm -rf .github
         unzip $tmpzip
         git add .
         git commit --message "wow $build"
