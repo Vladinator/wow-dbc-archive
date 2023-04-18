@@ -20,7 +20,9 @@ jobs:
         install-luarocks: true
 
     - name: Setup lua-zip
-      run: luarocks install --server=http://luarocks.org/dev lua-zip
+      run: |
+        sudo apt-get install libzip-dev
+        luarocks install --server=http://luarocks.org/dev lua-zip
 
     - name: Setup wowcig
       run: luarocks install wowcig
