@@ -56,8 +56,8 @@ jobs:
     - name: Create branch for release
       working-directory: extracts/wow/db2
       run: |
-        $build = $(basename $(readlink -f ../wow))
-        $branch = "release/wow_$build"
+        build=$(basename $(readlink -f ../../wow))
+        branch="release/wow_$build"
         if [ "$(git ls-remote --head origin "$branch" | wc -l)" == "1" ]; then exit 0; fi
         git checkout -b "$branch"
         git config user.name "GitHub Actions"
