@@ -28,7 +28,7 @@ jobs:
       run: luarocks install wowcig
 
     - name: Run wowcig on wow
-      run: wowcig --db2 map --skip-framexml --product wow
+      run: wowcig --db2 all --skip-framexml --product wow
 
     - name: Setup .NET 7
       uses: actions/setup-dotnet@v3
@@ -68,6 +68,7 @@ jobs:
         git checkout -b "$branch"
         git config user.name "GitHub Actions"
         git config user.email noreply@github.com
+        rm -rf *
         unzip $tmpzip
         git add .
         git commit --message "wow $build"
