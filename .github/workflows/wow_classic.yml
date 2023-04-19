@@ -1,0 +1,77 @@
+name: Create release branch for wow_classic
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '00 09 * * *'
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Setup Lua and LuaRocks
+      uses: ljmf00/setup-lua@v1.0.0
+      with:
+        lua-version: '5.1.5'
+        install-luarocks: true
+
+    - name: Setup lua-zip
+      run: |
+        sudo apt-get install libzip-dev
+        luarocks install --server=http://luarocks.org/dev lua-zip
+
+    - name: Setup wowcig
+      run: luarocks install wowcig
+
+    - name: Run wowcig on wow_classic
+      run: wowcig --db2 all --skip-framexml --product wow_classic
+
+    - name: Setup .NET 7
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: 7.0.x
+
+    - name: Download latest DBC2CSV release
+      uses: robinraju/release-downloader@v1.7
+      with:
+        repository: 'Marlamin/DBC2CSV'
+        latest: true
+        fileName: '.*linux.*'
+
+    - name: Extract latest DBC2CSV release
+      run: |
+        unzip *.zip
+        chmod +x DBC2CSV
+
+    - name: Run DBC2CSV
+      working-directory: extracts/wow_classic/db2
+      run: |
+        ../../../DBC2CSV .
+        find . -type f ! -iname "*.csv" -delete
+
+    - name: Create branch for release
+      run: |
+        cd extracts
+        build=$(basename $(readlink -f wow_classic))
+        branch="release/wow_classic_$build"
+        if [ "$(git ls-remote --head origin "$branch" | wc -l)" == "1" ]; then exit 0; fi
+        cd wow_classic/db2
+        tmpzip="/tmp/$build.zip"
+        zip $tmpzip *.csv
+        cd ../../../
+        git reset --hard
+        git clean -d -f -x
+        git checkout -b "$branch"
+        git config user.name "GitHub Actions"
+        git config user.email noreply@github.com
+        rm -rf *
+        rm -rf .github
+        unzip $tmpzip
+        git add .
+        git commit --message "wow_classic $build"
+        git push origin "$branch"
+        git push --force origin HEAD:"release/wow_classic_latest"
