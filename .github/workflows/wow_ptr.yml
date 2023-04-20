@@ -59,6 +59,7 @@ jobs:
         cd extracts
         product=wow_ptr
         build=$(basename $(readlink -f "wowt"))
+        message="${product} ${build}"
         branch="release/${product}_${build}"
         create_branch=false
         cd "wowt/db2"
@@ -74,12 +75,13 @@ jobs:
           local branch_name=$1
           if git rev-parse --verify "${branch_name}" >/dev/null 2>&1; then
             git checkout "${branch_name}"
+            git fetch origin "${branch_name}"
             git pull --rebase origin "${branch_name}"
           else
             git checkout --orphan "${branch_name}"
+            git commit --allow-empty --message "${message}"
+            git push --set-upstream origin "${branch_name}"
           fi
-          git fetch origin "${branch_name}"
-          git pull origin "${branch_name}"
         }
         unzip_release() {
           find . -maxdepth 1 -mindepth 1 ! -name .git -exec rm -rf {} +
@@ -90,7 +92,7 @@ jobs:
           unzip_release
           if ! git diff --quiet; then
             git add .
-            git commit --message "${product} ${build}"
+            git commit --message "${message}"
             git push --set-upstream origin "${branch}"
           fi
         fi
@@ -102,7 +104,7 @@ jobs:
         unzip_release
         if ! git diff --quiet; then
           git add .
-          if git commit --message "${product} ${build}" >/dev/null 2>&1; then
+          if git commit --message "${message}" >/dev/null 2>&1; then
             git push --force-with-lease --set-upstream origin "${latest_branch}"
           fi
         fi
