@@ -60,6 +60,7 @@ jobs:
         product=wow_classic_beta
         build=$(basename $(readlink -f "${product}"))
         message="${product} ${build}"
+        tag="${product}_${build}"
         branch="release/${product}_${build}"
         create_branch=false
         cd "${product}/db2"
@@ -93,7 +94,8 @@ jobs:
           if ! git diff --quiet; then
             git add .
             git commit --message "${message}"
-            git push --set-upstream origin "${branch}"
+            git tag "${tag}"
+            git push --set-upstream origin "${branch}" --tags
           fi
         fi
         latest_branch="release/${product}_latest"
@@ -105,6 +107,7 @@ jobs:
         if ! git diff --quiet; then
           git add .
           if git commit --message "${message}" >/dev/null 2>&1; then
-            git push --force-with-lease --set-upstream origin "${latest_branch}"
+            git tag "${tag}"
+            git push --force-with-lease --set-upstream origin "${latest_branch}" --tags
           fi
         fi
