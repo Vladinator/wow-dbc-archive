@@ -76,6 +76,7 @@ jobs:
         }
         checkout_branch() {
           local branch_name=$1
+          git fetch
           if git rev-parse --verify "${branch_name}" >/dev/null 2>&1; then
             git checkout "${branch_name}"
             git fetch origin "${branch_name}"
