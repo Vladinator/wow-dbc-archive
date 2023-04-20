@@ -79,6 +79,7 @@ jobs:
             git checkout --orphan "${branch_name}"
           fi
           git fetch origin "${branch_name}"
+          git pull origin "${branch_name}"
         }
         unzip_release() {
           find . -maxdepth 1 -mindepth 1 ! -name .git -exec rm -rf {} +
