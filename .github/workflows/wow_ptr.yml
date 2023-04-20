@@ -61,7 +61,7 @@ jobs:
         build=$(basename $(readlink -f $product))
         branch="release/${product}_${build}"
         create_branch=false
-        cd "${product}/db2"
+        cd "wowt/db2"
         tmpzip="/tmp/${build}.zip"
         if ! zip "${tmpzip}" *.csv; then
           echo "Failed to create zip file" >&2
