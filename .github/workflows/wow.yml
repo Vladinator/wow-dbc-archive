@@ -78,7 +78,7 @@ jobs:
           local branch_name=$1
           if git branch --list --remote "${branch_name}" >/dev/null 2>&1; then
             echo "Re-using existing branch..."
-            git checkout "${branch_name}"
+            git checkout --branch "${branch_name}" "origin/${branch_name}"
             git fetch origin "${branch_name}"
             git pull --rebase origin "${branch_name}"
           else
@@ -93,10 +93,15 @@ jobs:
         latest_branch="release/${product}_latest"
         checkout_branch "${latest_branch}"
         unzip -q "${tmpzip}"
+        echo "Checking if there are changes to be commited and pushed..."
         if [[ -n $(git status --porcelain) ]] || ! git diff --quiet; then
           git add .
           if git commit --message "${message}" >/dev/null 2>&1; then
+            echo "Commiting, tagging and pushing..."
             git tag "${tag}"
             git push --force-with-lease --set-upstream origin "${latest_branch}" --tags
+          else
+            echo "Nothing to commit."
           fi
         fi
+        echo "Done!"
