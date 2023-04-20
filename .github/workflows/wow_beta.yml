@@ -44,7 +44,7 @@ jobs:
 
     - name: Extract latest DBC2CSV release
       run: |
-        unzip *.zip
+        unzip -q *.zip
         chmod +x DBC2CSV
 
     - name: Run DBC2CSV
@@ -64,7 +64,7 @@ jobs:
         tag="${product}_${build}"
         cd "${folder}/db2"
         tmpzip="/tmp/${build}.zip"
-        if ! zip "${tmpzip}" *.csv; then
+        if ! zip -q "${tmpzip}" *.csv; then
           echo "Failed to create zip file" >&2
           exit 1
         fi
@@ -90,7 +90,7 @@ jobs:
         }
         latest_branch="release/${product}_latest"
         checkout_branch "${latest_branch}"
-        unzip "${tmpzip}"
+        unzip -q "${tmpzip}"
         if ! git diff --quiet; then
           git add .
           if git commit --message "${message}" >/dev/null 2>&1; then
