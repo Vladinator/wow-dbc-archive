@@ -10,15 +10,20 @@ A daily workflow ensures that the archive is up-to-date and includes new files, 
 - [wow_latest](https://github.com/Vladinator/wow-dbc-archive/tree/release/wow_latest)
 - [wow_ptr_latest](https://github.com/Vladinator/wow-dbc-archive/tree/release/wow_ptr_latest)
 - [wow_beta_latest](https://github.com/Vladinator/wow-dbc-archive/tree/release/wow_beta_latest)
+- _[live vs ptr](https://github.com/Vladinator/wow-dbc-archive/compare/release/wow_latest..release/wow_ptr_latest)_
+- _[live vs beta](https://github.com/Vladinator/wow-dbc-archive/compare/release/wow_latest..release/wow_beta_latest)_
 
 **Classic**
 - [wow_classic_latest](https://github.com/Vladinator/wow-dbc-archive/tree/release/wow_classic_latest)
 - [wow_classic_ptr_latest](https://github.com/Vladinator/wow-dbc-archive/tree/release/wow_classic_ptr_latest)
 - [wow_classic_beta_latest](https://github.com/Vladinator/wow-dbc-archive/tree/release/wow_classic_beta_latest)
+- _[classic vs ptr](https://github.com/Vladinator/wow-dbc-archive/compare/release/wow_classic_latest..release/wow_classic_ptr_latest)_
+- _[classic vs beta](https://github.com/Vladinator/wow-dbc-archive/compare/release/wow_classic_latest..release/wow_classic_beta_latest)_
 
 **Classic Era**
 - [wow_classic_era_latest](https://github.com/Vladinator/wow-dbc-archive/tree/release/wow_classic_era_latest)
 - [wow_classic_era_ptr_latest](https://github.com/Vladinator/wow-dbc-archive/tree/release/wow_classic_era_ptr_latest)
+- _[classic era vs ptr](https://github.com/Vladinator/wow-dbc-archive/compare/release/wow_classic_era_latest..release/wow_classic_era_ptr_latest)_
 
 ## Other Resources
 
