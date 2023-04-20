@@ -58,7 +58,7 @@ jobs:
         set -euo pipefail
         cd extracts
         product=wow_classic_ptr
-        build=$(basename $(readlink -f $product))
+        build=$(basename $(readlink -f "${product}"))
         branch="release/${product}_${build}"
         create_branch=false
         cd "${product}/db2"
