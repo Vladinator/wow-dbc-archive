@@ -91,7 +91,7 @@ jobs:
         latest_branch="release/${product}_latest"
         checkout_branch "${latest_branch}"
         unzip -q "${tmpzip}"
-        if ! git diff --quiet; then
+        if [[ -n $(git status --porcelain) ]] || ! git diff --quiet; then
           git add .
           if git commit --message "${message}" >/dev/null 2>&1; then
             git tag "${tag}"
