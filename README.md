@@ -8,7 +8,7 @@ A daily workflow ensures that the archive is up-to-date and includes new files, 
 
 **Live**
 - [wow_latest](https://github.com/Vladinator/wow-dbc-archive/tree/release/wow_latest)
-- [wowt_latest](https://github.com/Vladinator/wow-dbc-archive/tree/release/wowt_latest)
+- [wow_ptr_latest](https://github.com/Vladinator/wow-dbc-archive/tree/release/wow_ptr_latest)
 - [wow_beta_latest](https://github.com/Vladinator/wow-dbc-archive/tree/release/wow_beta_latest)
 
 **Classic**
