@@ -80,7 +80,7 @@ jobs:
           fi
         }
         unzip_release() {
-          find . -maxdepth 1 ! -name .git -exec rm -rf {} +
+          find . -maxdepth 1 -mindepth 1 ! -name .git -exec rm -rf {} +
           unzip "${tmpzip}"
         }
         if $create_branch; then
