@@ -102,6 +102,7 @@ jobs:
         unzip_release
         if ! git diff --quiet; then
           git add .
-          git commit --message "${product} ${build}"
-          git push --set-upstream origin "${latest_branch}"
+          if git commit --message "${product} ${build}" >/dev/null 2>&1; then
+            git push --force-with-lease --set-upstream origin "${latest_branch}"
+          fi
         fi
