@@ -58,12 +58,12 @@ jobs:
         set -euo pipefail
         cd extracts
         product=wow_classic_beta
-        build=$(basename $(readlink -f "${product}"))
+        folder=$product
+        build=$(basename $(readlink -f "${folder}"))
         message="${product} ${build}"
         tag="${product}_${build}"
         branch="release/${product}_${build}"
-        create_branch=false
-        cd "${product}/db2"
+        cd "${folder}/db2"
         tmpzip="/tmp/${build}.zip"
         if ! zip "${tmpzip}" *.csv; then
           echo "Failed to create zip file" >&2
@@ -72,6 +72,9 @@ jobs:
         cd ../../../
         git config user.name "GitHub Actions"
         git config user.email noreply@github.com
+        cleanup() {
+          find . -maxdepth 1 -mindepth 1 ! -name .git -exec rm -rf {} +
+        }
         checkout_branch() {
           local branch_name=$1
           if git rev-parse --verify "${branch_name}" >/dev/null 2>&1; then
@@ -80,29 +83,17 @@ jobs:
             git pull --rebase origin "${branch_name}"
           else
             git checkout --orphan "${branch_name}"
+            cleanup
             git commit --allow-empty --message "${message}"
             git push --set-upstream origin "${branch_name}"
           fi
         }
         unzip_release() {
-          find . -maxdepth 1 -mindepth 1 ! -name .git -exec rm -rf {} +
+          cleanup
           unzip "${tmpzip}"
         }
-        if $create_branch; then
-          checkout_branch "${branch}"
-          unzip_release
-          if ! git diff --quiet; then
-            git add .
-            git commit --message "${message}"
-            git tag "${tag}"
-            git push --set-upstream origin "${branch}" --tags
-          fi
-        fi
         latest_branch="release/${product}_latest"
         checkout_branch "${latest_branch}"
-        if $create_branch; then
-          git merge --no-commit --no-ff "${branch}"
-        fi
         unzip_release
         if ! git diff --quiet; then
           git add .
