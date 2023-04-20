@@ -55,23 +55,51 @@ jobs:
 
     - name: Create branch for release
       run: |
+        set -euo pipefail
         cd extracts
-        build=$(basename $(readlink -f wow_classic_ptr))
-        branch="release/wow_classic_ptr_$build"
-        if [ "$(git ls-remote --head origin "$branch" | wc -l)" == "1" ]; then exit 0; fi
-        cd wow_classic_ptr/db2
-        tmpzip="/tmp/$build.zip"
-        zip $tmpzip *.csv
+        product=wow_classic_ptr
+        build=$(basename $(readlink -f $product))
+        branch="release/${product}_${build}"
+        create_branch=false
+        cd "${product}/db2"
+        tmpzip="/tmp/${build}.zip"
+        if ! zip "${tmpzip}" *.csv; then
+          echo "Failed to create zip file" >&2
+          exit 1
+        fi
         cd ../../../
-        git reset --hard
-        git clean -d -f -x
-        git checkout -b "$branch"
         git config user.name "GitHub Actions"
         git config user.email noreply@github.com
-        rm -rf *
-        rm -rf .github
-        unzip $tmpzip
-        git add .
-        git commit --message "wow_classic_ptr $build"
-        git push origin "$branch"
-        git push --force origin HEAD:"release/wow_classic_ptr_latest"
+        checkout_branch() {
+          local branch_name=$1
+          if git rev-parse --verify "${branch_name}" >/dev/null 2>&1; then
+            git checkout "${branch_name}"
+            git pull origin "${branch_name}"
+          else
+            git checkout --orphan "${branch_name}"
+          fi
+        }
+        unzip_release() {
+          find . -maxdepth 1 ! -name .git -exec rm -rf {} +
+          unzip "${tmpzip}"
+        }
+        if $create_branch; then
+          checkout_branch "${branch}"
+          unzip_release
+          if ! git diff --quiet; then
+            git add .
+            git commit --message "${product} ${build}"
+            git push --set-upstream origin "${branch}"
+          fi
+        fi
+        latest_branch="release/${product}_latest"
+        checkout_branch "${latest_branch}"
+        if $create_branch; then
+          git merge --no-commit --no-ff "${branch}"
+        fi
+        unzip_release
+        if ! git diff --quiet; then
+          git add .
+          git commit --message "${product} ${build}"
+          git push --set-upstream origin "${latest_branch}"
+        fi

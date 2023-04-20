@@ -1,4 +1,4 @@
-name: Create release branch for wow_classic_beta
+name: Create release branch for wow_ptr
 
 on:
   workflow_dispatch:
@@ -27,8 +27,8 @@ jobs:
     - name: Setup wowcig
       run: luarocks install wowcig
 
-    - name: Run wowcig on wow_classic_beta
-      run: wowcig --db2 all --skip-framexml --product wow_classic_beta
+    - name: Run wowcig on wow_ptr
+      run: wowcig --db2 all --skip-framexml --product wowt
 
     - name: Setup .NET 7
       uses: actions/setup-dotnet@v3
@@ -48,7 +48,7 @@ jobs:
         chmod +x DBC2CSV
 
     - name: Run DBC2CSV
-      working-directory: extracts/wow_classic_beta/db2
+      working-directory: extracts/wowt/db2
       run: |
         ../../../DBC2CSV .
         find . -type f ! -iname "*.csv" -delete
@@ -57,7 +57,7 @@ jobs:
       run: |
         set -euo pipefail
         cd extracts
-        product=wow_classic_beta
+        product=wow_ptr
         build=$(basename $(readlink -f $product))
         branch="release/${product}_${build}"
         create_branch=false
