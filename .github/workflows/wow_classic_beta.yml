@@ -78,7 +78,7 @@ jobs:
           local branch_name=$1
           if git branch --list --remote "${branch_name}" >/dev/null 2>&1; then
             echo "Re-using existing branch..."
-            git checkout --branch "${branch_name}" "origin/${branch_name}"
+            git checkout -b "${branch_name}" "origin/${branch_name}"
             git fetch origin "${branch_name}"
             git pull --rebase origin "${branch_name}"
           else
