@@ -81,6 +81,8 @@ jobs:
             git fetch origin "${branch_name}"
             git checkout -b "${branch_name}" "origin/${branch_name}"
             git pull --rebase origin "${branch_name}"
+            git rm -rf .
+            cleanup
           else
             echo "Creating new branch..."
             cleanup
