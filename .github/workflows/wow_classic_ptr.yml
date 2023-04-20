@@ -62,7 +62,6 @@ jobs:
         build=$(basename $(readlink -f "${folder}"))
         message="${product} ${build}"
         tag="${product}_${build}"
-        branch="release/${product}_${build}"
         cd "${folder}/db2"
         tmpzip="/tmp/${build}.zip"
         if ! zip "${tmpzip}" *.csv; then
@@ -82,19 +81,16 @@ jobs:
             git fetch origin "${branch_name}"
             git pull --rebase origin "${branch_name}"
           else
-            git checkout --orphan "${branch_name}"
             cleanup
-            git commit --allow-empty --message "${message}"
+            git rm -rf .
+            git checkout --orphan "${branch_name}"
+            git commit --allow-empty --message "Initialize"
             git push --set-upstream origin "${branch_name}"
           fi
         }
-        unzip_release() {
-          cleanup
-          unzip "${tmpzip}"
-        }
         latest_branch="release/${product}_latest"
         checkout_branch "${latest_branch}"
-        unzip_release
+        unzip "${tmpzip}"
         if ! git diff --quiet; then
           git add .
           if git commit --message "${message}" >/dev/null 2>&1; then
