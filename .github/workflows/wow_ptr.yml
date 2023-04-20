@@ -72,10 +72,11 @@ jobs:
         git config user.name "GitHub Actions"
         git config user.email noreply@github.com
         cleanup() {
-          find . -maxdepth 1 -mindepth 1 ! -name .git -exec rm -rfv {} +
+          find . -maxdepth 1 -mindepth 1 ! -name .git -exec rm -rf {} +
         }
         checkout_branch() {
           local branch_name=$1
+          git fetch origin
           if git branch --list --remote "${branch_name}" >/dev/null 2>&1; then
             echo "Re-using existing branch..."
             git fetch origin "${branch_name}"
