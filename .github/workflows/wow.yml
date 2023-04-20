@@ -94,8 +94,9 @@ jobs:
         }
         latest_branch="release/${product}_latest"
         checkout_branch "${latest_branch}"
+        echo "Extract the ZIP then queue the files..."
         unzip -q "${tmpzip}"
-        git add .
+        git add -v .
         echo "Checking if there are changes to be commited and pushed..."
         if [[ -n $(git status --porcelain) ]] || ! git diff --quiet; then
           if git commit --message "${message}" >/dev/null 2>&1; then
@@ -103,7 +104,9 @@ jobs:
             git tag "${tag}"
             git push --force-with-lease --set-upstream origin "${latest_branch}" --tags
           else
-            echo "Nothing to commit."
+            echo "Unable to commit."
           fi
+        else
+          echo "Nothing to commit."
         fi
         echo "Done!"
