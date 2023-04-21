@@ -22,15 +22,21 @@ jobs:
     - name: Check CDN and latest release versions
       id: check
       run: |
-        product=${{ inputs.PRODUCT }}
+        product=${{ inputs.NAME }}
         latest_branch="release/${product}_latest"
-        latest_build=$(curl -s "http://us.patch.battle.net:1119/${product}/versions" | awk -F '|' '$1 == "us" {print $6}')
+        latest_build=$(curl -s "http://us.patch.battle.net:1119/${{ inputs.PRODUCT }}/versions" | awk -F '|' '$1 == "us" {print $6}')
         latest_build_number=$(echo ${latest_build} | awk -F '.' '{print $NF}')
         echo "CDN -> ${latest_build} (${latest_build_number})"
-        latest_commit_build=$(curl -s "https://api.github.com/repos/Vladinator/wow-dbc-archive/commits/${latest_branch}" | grep -oP '(?<="message": ")[^"]*' | sed -E "s/${product} ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)/\1/")
+        latest_commit_build=$(curl -s "https://api.github.com/repos/${{ github.repository }}/commits/${latest_branch}" | grep -oP '(?<="message": ")[^"]*' | sed -E "s/${product} ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)/\1/")
         latest_commit_build_number=$(echo ${latest_commit_build} | awk -F '.' '{print $NF}')
         echo "${latest_branch} -> ${latest_commit_build} (${latest_commit_build_number})"
-        if [[ "${latest_commit_build_number}" -ge "${latest_build_number}" ]]; then
+        if [[ ! "${latest_build_number}" =~ ^[0-9]+$ ]]; then
+          echo "Unable to extract build from CDN."
+          echo "skip=true" >> $GITHUB_OUTPUT
+        elif [[ ! "${latest_commit_build_number}" =~ ^[0-9]+$ ]]; then
+          echo "Unable to extract build from ${latest_branch}."
+          echo "skip=true" >> $GITHUB_OUTPUT
+        elif [[ "${latest_commit_build_number}" -ge "${latest_build_number}" ]]; then
           echo "${latest_branch} is already up-to-date."
           echo "skip=true" >> $GITHUB_OUTPUT
         fi
