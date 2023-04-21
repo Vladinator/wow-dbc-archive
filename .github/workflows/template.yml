@@ -18,6 +18,21 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
+    - name: Check CDN and latest release versions
+      run: |
+        product=${{ inputs.PRODUCT }}
+        latest_branch="release/${product}_latest"
+        latest_build=$(curl -s "http://us.patch.battle.net:1119/${product}/versions" | awk -F '|' '$1 == "us" {print $6}')
+        latest_build_number=$(echo ${latest_build} | awk -F '.' '{print $NF}')
+        echo "CDN -> ${latest_build} (${latest_build_number})"
+        latest_commit_build=$(curl -s "https://api.github.com/repos/Vladinator/wow-dbc-archive/commits/${latest_branch}" | grep -oP '(?<="message": ")[^"]*' | sed -E "s/${product} ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)/\1/")
+        latest_commit_build_number=$(echo ${latest_commit_build} | awk -F '.' '{print $NF}')
+        echo "${latest_branch} -> ${latest_commit_build} (${latest_commit_build_number})"
+        if [[ "${latest_commit_build_number}" >= "${latest_build_number}" ]]; then
+          echo "${latest_branch} is already up-to-date."
+          exit 0
+        fi
+
     - name: Setup Lua and LuaRocks
       uses: ljmf00/setup-lua@v1.0.0
       with:
