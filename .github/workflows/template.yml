@@ -12,11 +12,9 @@ on:
 
 jobs:
 
-  build:
+  check:
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v3
 
     - name: Check CDN and latest release versions
       run: |
@@ -30,8 +28,18 @@ jobs:
         echo "${latest_branch} -> ${latest_commit_build} (${latest_commit_build_number})"
         if [[ "${latest_commit_build_number}" -ge "${latest_build_number}" ]]; then
           echo "${latest_branch} is already up-to-date."
-          exit 0
+          echo "::set-output name=skip::true"
         fi
+
+  build:
+
+    needs: check
+    if: ${{ needs.check.outputs.skip != 'true' }}
+
+    runs-on: ubuntu-latest
+    steps:
+
+    - uses: actions/checkout@v3
 
     - name: Setup Lua and LuaRocks
       uses: ljmf00/setup-lua@v1.0.0
