@@ -2,10 +2,10 @@ name: Create release branch for ${{ parameters.NAME }}
 
 parameters:
   NAME:
-    description: 'wow, wow_ptr, wow_beta, etc.'
+    description: 'the branch name like wow, wow_ptr, wow_beta, etc.'
     required: true
   PRODUCT:
-    description: 'wow, wowt, wow_beta, etc.'
+    description: 'wowcig product flag like wow, wowt, wow_beta, etc.'
     required: true
 
 on:
