@@ -22,8 +22,6 @@ A daily workflow ensures that the archive is up-to-date and includes new files, 
 
 **Classic Era**
 - [wow_classic_era_latest](https://github.com/Vladinator/wow-dbc-archive/tree/release/wow_classic_era_latest)
-- [wow_classic_era_ptr_latest](https://github.com/Vladinator/wow-dbc-archive/tree/release/wow_classic_era_ptr_latest)
-- _[classic era vs ptr](https://github.com/Vladinator/wow-dbc-archive/compare/release/wow_classic_era_latest..release/wow_classic_era_ptr_latest)_
 
 ## Other Resources
 
