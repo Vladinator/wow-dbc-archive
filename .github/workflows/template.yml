@@ -1,13 +1,14 @@
 name: Creating release branch
 
-inputs:
-  NAME:
-    required: true
-  PRODUCT:
-    required: true
-
 on:
   workflow_call:
+    inputs:
+      NAME:
+        required: true
+        type: string
+      PRODUCT:
+        required: true
+        type: string
 
 jobs:
 

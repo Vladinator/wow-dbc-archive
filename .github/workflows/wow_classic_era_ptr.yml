@@ -8,6 +8,6 @@ on:
 jobs:
   build:
     uses: Vladinator/wow-dbc-archive/.github/workflows/template.yml@main
-    inputs:
+    with:
       NAME: wow_classic_era_ptr
       PRODUCT: wow_classic_era_ptr
