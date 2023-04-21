@@ -8,6 +8,6 @@ on:
 jobs:
   build:
     uses: Vladinator/wow-dbc-archive/.github/workflows/template.yml@main
-    with:
+    inputs:
       NAME: wow
       PRODUCT: wow
