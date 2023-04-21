@@ -5,14 +5,10 @@ on:
   schedule:
     - cron: '00 09 * * *'
 
-env:
-  NAME: wow_classic_era
-  PRODUCT: wow_classic_era
-
 jobs:
   build:
     uses: Vladinator/wow-dbc-archive/.github/workflows/template.yml@main
     with:
-      NAME: ${{ env.NAME }}
-      PRODUCT: ${{ env.PRODUCT }}
+      NAME: wow_classic_era
+      PRODUCT: wow_classic_era
     runs-on: ubuntu-latest
