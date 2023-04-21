@@ -1,12 +1,14 @@
-name: Create release branch for ${{ parameters.NAME }}
+name: Create release for ${{ inputs.NAME }}
 
-parameters:
+inputs:
   NAME:
-    description: 'the branch name like wow, wow_ptr, wow_beta, etc.'
+    description: 'branch label'
     required: true
+    type: string
   PRODUCT:
-    description: 'wowcig product flag like wow, wowt, wow_beta, etc.'
+    description: 'wowcig product'
     required: true
+    type: string
 
 on:
   workflow_call:
@@ -33,8 +35,8 @@ jobs:
     - name: Setup wowcig
       run: luarocks install wowcig
 
-    - name: Run wowcig on ${{ parameters.NAME }}
-      run: wowcig --db2 all --skip-framexml --product ${{ parameters.PRODUCT }}
+    - name: Run wowcig on ${{ inputs.NAME }}
+      run: wowcig --db2 all --skip-framexml --product ${{ inputs.PRODUCT }}
 
     - name: Setup .NET 7
       uses: actions/setup-dotnet@v3
@@ -58,7 +60,7 @@ jobs:
         echo "Not yet implemented."
 
     - name: Run DBC2CSV
-      working-directory: extracts/${{ parameters.PRODUCT }}/db2
+      working-directory: extracts/${{ inputs.PRODUCT }}/db2
       run: |
         ../../../DBC2CSV .
         find . -type f ! -iname "*.csv" -delete
@@ -67,8 +69,8 @@ jobs:
       run: |
         set -euo pipefail
         cd extracts
-        product=${{ parameters.NAME }}
-        folder=${{ parameters.PRODUCT }}
+        product=${{ inputs.NAME }}
+        folder=${{ inputs.PRODUCT }}
         build=$(basename $(readlink -f "${folder}"))
         message="${product} ${build}"
         tag="${product}_${build}"
