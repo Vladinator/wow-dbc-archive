@@ -11,9 +11,8 @@ env:
 
 jobs:
   build:
+    uses: Vladinator/wow-dbc-archive/.github/workflows/template.yaml@main
+    with:
+      NAME: ${{ env.NAME }}
+      PRODUCT: ${{ env.PRODUCT }}
     runs-on: ubuntu-latest
-    steps:
-      - uses: Vladinator/wow-dbc-archive/.github/workflows/template.yaml@main
-        with:
-          NAME: ${{ env.NAME }}
-          PRODUCT: ${{ env.PRODUCT }}
