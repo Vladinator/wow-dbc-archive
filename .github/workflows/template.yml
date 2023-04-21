@@ -8,6 +8,9 @@ parameters:
     description: 'wow, wowt, wow_beta, etc.'
     required: true
 
+on:
+  workflow_call:
+
 jobs:
 
   build:
