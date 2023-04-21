@@ -1,0 +1,120 @@
+name: Create release branch for ${{ parameters.NAME }}
+
+parameters:
+  NAME:
+    description: 'wow, wow_ptr, wow_beta, etc.'
+    required: true
+  PRODUCT:
+    description: 'wow, wowt, wow_beta, etc.'
+    required: true
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Setup Lua and LuaRocks
+      uses: ljmf00/setup-lua@v1.0.0
+      with:
+        lua-version: '5.1.5'
+        install-luarocks: true
+
+    - name: Setup lua-zip
+      run: |
+        sudo apt-get install libzip-dev
+        luarocks install --server=http://luarocks.org/dev lua-zip
+
+    - name: Setup wowcig
+      run: luarocks install wowcig
+
+    - name: Run wowcig on ${{ parameters.NAME }}
+      run: wowcig --db2 all --skip-framexml --product ${{ parameters.PRODUCT }}
+
+    - name: Setup .NET 7
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: 7.0.x
+
+    - name: Download latest DBC2CSV release
+      uses: robinraju/release-downloader@v1.7
+      with:
+        repository: 'Marlamin/DBC2CSV'
+        latest: true
+        fileName: '.*linux.*'
+
+    - name: Extract latest DBC2CSV release
+      run: |
+        unzip -q *.zip
+        chmod +x DBC2CSV
+
+    - name: Download latest hotfixes
+      run: |
+        echo "Not yet implemented."
+
+    - name: Run DBC2CSV
+      working-directory: extracts/${{ parameters.PRODUCT }}/db2
+      run: |
+        ../../../DBC2CSV .
+        find . -type f ! -iname "*.csv" -delete
+
+    - name: Create branch for release
+      run: |
+        set -euo pipefail
+        cd extracts
+        product=${{ parameters.NAME }}
+        folder=${{ parameters.PRODUCT }}
+        build=$(basename $(readlink -f "${folder}"))
+        message="${product} ${build}"
+        tag="${product}_${build}"
+        cd "${folder}/db2"
+        tmpzip="/tmp/${build}.zip"
+        if ! zip -q "${tmpzip}" *.csv; then
+          echo "Failed to create zip file" >&2
+          exit 1
+        fi
+        cd ../../../
+        git config user.name "GitHub Actions"
+        git config user.email noreply@github.com
+        cleanup() {
+          find . -maxdepth 1 -mindepth 1 ! -name .git -exec rm -rf {} +
+        }
+        checkout_branch() {
+          local branch_name=$1
+          git fetch --prune origin
+          if git show-ref --quiet "refs/remotes/origin/${branch_name}"; then
+            echo "Re-using existing branch..."
+            git fetch origin "${branch_name}"
+            git checkout -b "${branch_name}" "origin/${branch_name}"
+            git pull --rebase origin "${branch_name}"
+            git rm -rfq .
+            cleanup
+          else
+            echo "Creating new branch..."
+            cleanup
+            git rm -rfq .
+            git checkout --orphan "${branch_name}"
+            git commit --allow-empty --message "Initialize"
+            git push --set-upstream origin "${branch_name}"
+          fi
+        }
+        latest_branch="release/${product}_latest"
+        checkout_branch "${latest_branch}"
+        echo "Extract the ZIP then queue the files..."
+        unzip -q "${tmpzip}"
+        git add -v .
+        echo "Checking if there are changes to be commited and pushed..."
+        if [[ -n $(git status --porcelain) ]] || ! git diff --quiet; then
+          if git commit --message "${message}" >/dev/null 2>&1; then
+            echo "Commiting, tagging and pushing..."
+            git tag "${tag}"
+            git push --force-with-lease --set-upstream origin "${latest_branch}" --tags
+          else
+            echo "Unable to commit."
+          fi
+        else
+          echo "Nothing to commit."
+        fi
+        echo "Done!"
