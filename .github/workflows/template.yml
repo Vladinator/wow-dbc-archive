@@ -28,7 +28,7 @@ jobs:
         latest_commit_build=$(curl -s "https://api.github.com/repos/Vladinator/wow-dbc-archive/commits/${latest_branch}" | grep -oP '(?<="message": ")[^"]*' | sed -E "s/${product} ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)/\1/")
         latest_commit_build_number=$(echo ${latest_commit_build} | awk -F '.' '{print $NF}')
         echo "${latest_branch} -> ${latest_commit_build} (${latest_commit_build_number})"
-        if [[ "${latest_commit_build_number}" >= "${latest_build_number}" ]]; then
+        if [[ "${latest_commit_build_number}" -ge "${latest_build_number}" ]]; then
           echo "${latest_branch} is already up-to-date."
           exit 0
         fi
