@@ -81706,8 +81706,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 142820,Talk to Drek'thar to Begin,140751,1,0,57998,0,0
 142821,10.0.7 Orc Heritage - Alterac Valley Scenario - Step 4 (ECV),0,0,4,0,0,0
 142822,Defeat the Elemental Projection,142821,1,0,57999,0,0
-142839,Suffusion Crucible looted,0,0,4,0,0,4096
-142840,,142839,0,0,58000,0,0
+142839,Suffusion Crucible looted,0,1,8,0,0,4096
+142840,,142839,1,0,58000,0,0
 142848,"Complete ""The Storm's Fury"" event within the Primalist Future.",0,0,4,0,0,4096
 142849,,142848,0,0,58006,0,0
 142850,"""A Worthy Hunt"" Completed",0,0,4,0,0,0
@@ -82611,7 +82611,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 144049,,144048,1,0,58710,0,0
 144050,Hearthstone Gameboard flipped,0,0,4,0,0,8193
 144051,,144050,1,0,58711,0,0
-144052,10.1 Fyrakk Assaults - Quest - Suffusion Mold (ZTO),0,0,4,0,0,4096
+144052,10.1 Fyrakk Assaults - Quest - Suffusion Mold (ZTO),0,1,8,0,0,4096
 144053,,144052,1,0,58712,0,0
 144054,10.1 Fyrakk Assaults - Quest - Suffusion Camp: Iceburn - Suffusion Mold (ZTO),0,0,4,0,0,4096
 144055,,144054,1,0,58713,0,0
@@ -82867,12 +82867,12 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 144566,Player Loaded In,144565,1,0,58253,0,0
 144581,"""Reconcilable Dissidents"" Completed",0,0,4,0,0,0
 144582,Completed Reconciable Dissidents.,144581,0,0,59094,0,0
-144585,Fires doused,0,100,8,0,0,8193
-144586,,144585,1,0,59096,0,2
-144587,,144585,1,0,59097,1,2
-144588,,144585,5,0,59098,2,2
-144589,,144585,1,0,59099,3,2
-144590,,144585,1,0,59100,4,2
+144585,Fires doused,0,100,5,0,0,8193
+144586,,144585,1,0,59096,0,0
+144587,,144585,1,0,59097,1,0
+144588,,144585,5,0,59098,2,0
+144589,,144585,1,0,59099,3,0
+144590,,144585,1,0,59100,4,0
 144591,10.1 Underground - Campaign - Ch 1 - Q06a - Spot 3 Complete (JSS),0,1,8,0,0,4096
 144592,Unnamed Branch,144591,0,4,0,0,0
 144593,,144592,2,0,59101,0,0
@@ -83370,9 +83370,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 145172,Magic Battler of Zaralek Cavern,145164,1,0,59402,7,0
 145173,Mechanical Battler of Zaralek Cavern,145164,1,0,59403,8,0
 145174,Undead Battler of Zaralek Cavern,145164,1,0,59404,9,0
-145175,Suffusion Crucible looted,0,0,4,0,0,4096
-145176,,145175,0,0,59405,0,0
-145177,Suffusion Mold looted,0,0,4,0,0,4096
+145175,Suffusion Crucible looted,0,1,8,0,0,4096
+145176,,145175,1,0,59405,0,0
+145177,Suffusion Mold looted,0,1,8,0,0,4096
 145178,,145177,1,0,59406,0,0
 145181,Complete Loamm Niffen Activities,0,0,4,0,0,4096
 145182,,145181,0,0,59409,0,0
@@ -84306,3 +84306,13 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 146388,,145066,0,0,60105,8,0
 146389,,145066,0,0,60106,9,0
 146390,,145066,0,0,60108,10,0
+146399,Legend: Dragonflight Season 1 Pennant Fix-Up [Login],0,0,4,0,0,0
+146400,,146399,1,0,60114,0,2
+146407,,145175,1,0,60118,1,0
+146408,,145177,1,0,60119,1,0
+146409,,142839,1,0,60120,1,0
+146410,,144052,1,0,60121,1,0
+146413,Achievement: Dragonflight Season 2 Hero,0,1,8,0,0,0
+146414,,146413,0,0,59590,0,32
+146415,,146413,0,0,60123,1,32
+146416,,146413,0,0,60122,2,32
