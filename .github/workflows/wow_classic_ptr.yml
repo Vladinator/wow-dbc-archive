@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    uses: Vladinator/wow-dbc-archive/.github/workflows/template.yml@main
+    uses: ./.github/workflows/template.yml
     with:
       NAME: wow_classic_ptr
       PRODUCT: wow_classic_ptr
