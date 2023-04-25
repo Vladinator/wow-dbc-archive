@@ -51801,7 +51801,7 @@ Deals increasing Frost damage per second."
 
 |cFFFFFFFFProtection:|r If cast on yourself, healing increased by up to $315921s1% based on your missing health.][]$?a315924[
 
-|cFFFFFFFFProtection:|r Healing increased by up to $315921s1% based on the target's missing health.][]",
+|cFFFFFFFFProtection:|r Healing increased by up to $315921s1% based on your missing health, or up to $315924s1% if cast on another target.][]",
 85678,,,
 85679,,Inflicts $s1 Shadow damage.,Inflicts $s1 Shadow damage.
 85680,,,
@@ -252391,7 +252391,7 @@ Will attack nearby enemies automatically."
 315921,Rank 2,"When you cast Word of Glory on yourself, it is increased by up to $s1% based on your missing health.",
 315922,,,
 315923,,,
-315924,,"Word of Glory's healing is increased by the target's missing health, on any target.",
+315924,,"When you cast Word of Glory on someone other than yourself, its healing is increased by up to $s1% based on the target's missing health.",
 315925,,,
 315926,,,
 315927,,$@spelldesc309980,
@@ -280275,9 +280275,9 @@ Does not apply to self."
 343524,,,
 343525,,,
 343526,,,
-343527,,"A hammer slowly falls from the sky upon the target, after $d, they suffer ${$387113s1*$<mult>} Holy damage$?s387196[ and enemies within $387200a2 yards will suffer $387196s1% of the damage taken from your abilities in that time.][, plus $s2% of damage taken from your abilities in that time.]
+343527,,"A hammer slowly falls from the sky upon the target, after $d, they suffer $s2% of the damage taken from your abilities as Holy damage during that time.
 
-$?s406158 [|cFFFFFFFFGenerates $406158s1 Holy Power.][]",Sentenced to suffer an additional $w1 Holy damage.
+$?s406158 [|cFFFFFFFFGenerates $406158s1 Holy Power.][]",Sentenced to suffer $s2% of the damage your abilities deal during its duration as Holy damage.
 343528,,,
 343529,,,
 343531,,,"Infused with anima.
@@ -334793,3 +334793,5 @@ $@spelldesc385126
 Deals reduced damage beyond 8 targets.",
 409977,,,
 410507,,$@spelldesc398292,"Your harmful spells and abilities deal an additional $w1 Nature damage, increased if aura wearer is a Furbolg."
+412299,,,
+412314,,,

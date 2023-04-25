@@ -116,11 +116,11 @@ $mending=${(1+($SP*0.666))*$pctH*$<mult2>}
 $damage=${(($SP*0.50)*0.657)+$M1}"
 215,"$rapture=$?a47536[${(1+$47536s1/100)}][${1}]
 $shadow=$?a137033[${1.00}][${1}]
+$disc=$?a137032[${1.25}][${1}]
 $pvp=$?a134735[${1}][${1}]
 $shadowinpvp=$?a134735&a137033[${0.8}][${1}]
 $weal=$?a390787[${1+$390787s2/100}][${1}]
-$shield=${$SP*3.36*(1+$@versadmg)*$<rapture>*$<shadow>*$<pvp>*$<weal>*$<shadowinpvp>}
-"
+$shield=${$SP*3.36*(1+$@versadmg)*$<rapture>*$<shadow>*$<disc>*$<pvp>*$<weal>*$<shadowinpvp>}"
 216,$damage=${$M1+(($RAP*0.40)*0.10)}
 217,$damage=${$m2}
 218,$damage=${$RAP*0.273+$M1}
