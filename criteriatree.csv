@@ -50974,21 +50974,21 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 66587,Cragmaw the Infested defeated,66585,1,0,39712,1,0
 66588,Sporecaller Zancha defeated,66585,1,0,39713,2,0
 66589,Unbound Abomination defeated,66585,1,0,39714,3,0
-66590,Enemy Forces,66585,252,9,0,4,0
+66590,Enemy Forces,66585,300,9,0,4,0
 66591,,66590,1,0,40422,3,0
-66592,,66590,6,0,40423,4,0
-66593,,66590,4,0,40424,5,0
-66594,,66590,4,0,40425,6,0
-66595,,66590,4,0,40426,7,0
-66596,,66590,4,0,40427,8,0
-66597,,66590,4,0,40428,9,0
+66592,,66590,10,0,40423,4,0
+66593,,66590,5,0,40424,5,0
+66594,,66590,5,0,40425,6,0
+66595,,66590,5,0,40426,7,0
+66596,,66590,10,0,40427,8,0
+66597,,66590,5,0,40428,9,0
 66598,,66590,4,0,40429,10,0
 66599,,66590,4,0,40430,11,0
-66600,,66590,4,0,40431,12,0
-66601,,66590,4,0,40432,13,0
-66602,,66590,6,0,40433,14,0
-66603,,66590,4,0,40434,15,0
-66604,,66590,6,0,40435,16,0
+66600,,66590,3,0,40431,12,0
+66601,,66590,3,0,40432,13,0
+66602,,66590,8,0,40433,14,0
+66603,,66590,7,0,40434,15,0
+66604,,66590,10,0,40435,16,0
 66605,8.0 Dungeon - The Underrot - Challenge (More Trash),0,0,4,0,0,0
 66606,Elder Leaxa defeated,66605,1,0,39711,0,0
 66607,Cragmaw the Infested defeated,66605,1,0,39712,1,0
@@ -82607,6 +82607,10 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 144041,Creatures slain,0,0,4,0,0,1
 144042,Creatures slain,144041,30,0,58704,0,1
 144043,Use Murglasses around the Dragon Isles,0,0,4,0,0,1
+144044,Valdrakken,144843,1,0,58705,0,1
+144045,Iskaara,144847,1,0,58706,1,0
+144046,Maruukai,144849,1,0,58707,1,0
+144047,Dragonscale Basecamp,144851,1,0,58708,1,0
 144048,/dance with a player wearing Murglasses,0,0,4,0,0,8193
 144049,,144048,1,0,58710,0,0
 144050,Hearthstone Gameboard flipped,0,0,4,0,0,8193
@@ -82870,7 +82874,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 144585,Fires doused,0,100,5,0,0,8193
 144586,,144585,1,0,59096,0,0
 144587,,144585,1,0,59097,1,0
-144588,,144585,5,0,59098,2,0
+144588,,144585,1,0,59098,2,0
 144589,,144585,1,0,59099,3,0
 144590,,144585,1,0,59100,4,0
 144591,10.1 Underground - Campaign - Ch 1 - Q06a - Spot 3 Complete (JSS),0,1,8,0,0,4096
@@ -83086,11 +83090,15 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 144841,10.1 Unlock the Winding Slitherdrake,0,0,4,0,0,0
 144842,,144841,1,0,59177,0,0
 144843,Valdrakken,144043,1,8,0,0,8193
+144844,,144843,1,0,59178,1,1
 144845,Unearthed Fragrant Coins,0,0,4,0,0,0
 144846,,144845,200,0,59179,0,1
 144847,Iskaara,144043,1,8,0,1,8193
+144848,,144847,1,0,59180,0,1
 144849,Maruukai,144043,1,8,0,2,8193
+144850,,144849,1,0,59181,0,1
 144851,Dragonscale Basecamp,144043,1,8,0,3,8193
+144852,,144851,1,0,59182,0,1
 144859,Adventurer's Journey: Zaralek Cavern,0,10,8,0,0,0
 144860,Alcanon,144859,1,0,59188,0,0
 144861,Aquifon,144859,1,0,59185,1,0
@@ -83940,7 +83948,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 145804,,145803,1,0,59736,0,0
 145805,,145803,1,0,59737,1,0
 145806,Are You Even Trying?,0,0,4,0,0,0
-145807,,145806,1,0,59738,0,0
+145807,Ember Mouse,145806,1,0,59738,0,0
 145808,10.1 Raid - Aberrus - Kazzara - Achievement - AD,0,0,4,0,0,0
 145809,,145808,1,0,59739,0,0
 145810,/cheer for the Bands on Darkmoon Island,0,0,4,0,0,0
@@ -84212,13 +84220,11 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 146091,,146090,0,0,59935,0,0
 146092,Continue the Embers of Neltharion campaign to access Sniffenseeking,0,1,5,0,0,4096
 146093,,146092,0,0,59937,0,0
-146094,Zaqali Boltthrower,146098,1,0,59938,2,0
-146095,Magma Slug,146098,1,0,59939,0,0
-146096,Rock Snail,146098,1,0,59940,3,0
-146097,Siege Mammoth,146098,1,0,59941,1,0
-146098,Cave Pebble,145806,0,4,0,1,0
-146099,Cave Beetle,146098,1,0,59942,4,0
-146100,Ember Mouse,146098,1,0,59943,5,0
+146094,Siege Mammoth,145806,1,0,60161,1,0
+146095,Cave Beetle,145806,1,0,60165,5,0
+146097,Magma Slug,145806,1,0,60164,4,0
+146098,Zaqali Boltthrower,145806,1,0,60163,3,0
+146099,Rock Snail,145806,1,0,60162,2,0
 146132,Player has completed 10.1 Upgrade System tutorial quests,0,0,4,0,0,0
 146133,,146132,0,0,59961,0,0
 146176,New Criteria Tree,0,0,4,0,0,0
@@ -84263,7 +84269,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 146269,,65647,30,0,50192,1,0
 146270,,65647,9999,0,48468,2,0
 146271,,66590,3,0,50191,0,0
-146272,,66590,26,0,50192,1,0
+146272,,66590,30,0,50192,1,0
 146273,,66590,9999,0,48468,2,0
 146287,"Defeat Wise Mari without being hit by Corrupted Water, Hydrolance, or Wash Away in Temple of the Jade Serpent on Heroic Difficulty.",15115,1,0,60063,1,2
 146288,Wise Mari,24603,1,0,55874,32,0
