@@ -3642,7 +3642,7 @@ This ability always goes first.",134434,8,6,0,2
 Attacks the enemy 3 times, dealing [StandardDamage(1,1)] [School()] damage per attack.
 
 Each time you use this ability, your speed increases by 20% at the end of the round.",650636,1,0,0,0
-2468,Mike's Test Ability,,656595,5,0,0,0
+2468,[DNT] TRAP HELP,Sets target to 1% of max health and stuns it.,646380,5,0,0,0
 2469,Reaping Hook,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
 Deals [StandardDamage(1,1)] [School()] damage and forces the opponent's lowest health pet to swap into battle.",134226,9,4,0,0
@@ -3730,3 +3730,10 @@ Damage increases by [FormatDamage(10*AttackBonus())] each time it is used. Max [
 2499,Quantum Strike,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
 Strikes at the enemy, dealing [StandardDamage(1,1)] [petTypeName(abilityPetType())] damage.",1392544,5,0,0,0
+2502,[DNT] INSTADEAD,Sets a pet's health to 0%.,133728,5,0,0,0
+2504,Hatred Manifest,"Adds [abs(abilityStateMod(71,2504))*AttackBonus()] damage to every attack against the target.",4050664,5,0,530,3
+2505,Hatred Manifest,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Immeasurable hatred overwhelms the target, adding [abs(abilityStateMod(71,2504))*AttackBonus()] damage to every attack against the target. 
+
+Lasts [duration(1,1)] |4round:rounds;.",4050664,5,5,0,2

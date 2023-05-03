@@ -187,13 +187,13 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 326,test,test,244,0,0,0,0,2,0
 327,Disorients the target for $d.,Disoriented.,6,5,0,3,0,0,0
 329,Inflicts $s@effectindex Shadow damage to all enemies within $A@effectindex yards of the caster every $t@effectindex sec for $d.,$s@effectindex Shadow damage inflicted every $t@effectindex sec.,6,3,1,7,32,50,50
-330,Inflicts Fire damage.,,2,0,1,1,4,50,50
+330,Inflicts $s@effectindex Fire damage to an enemy.,,2,0,1,1,4,50,50
 331,Inflicts Spellstrike damage.,,2,0,1,1,65,50,50
-332,Inflicts Shadow damage.,,2,0,1,1,32,50,50
+332,Inflicts $s@effectindex Shadow damage to an enemy.,,2,0,1,1,32,50,50
 333,Inflicts Physical damage.,,2,0,1,1,1,50,50
 334,Inflicts Nature damage.,,2,0,1,1,8,50,50
 335,Inflicts Holy damage.,,2,0,1,1,2,50,50
-336,Inflicts Frost damage.,,2,0,1,1,16,50,50
+336,Inflicts $s@effectindex Frost damage to an enemy.,,2,0,1,1,16,50,50
 337,Inflicts Chaos damage.,,2,0,1,1,127,50,50
 338,Inflicts Arcane damage.,,2,0,1,1,64,50,50
 339,Inflicts Shadow damage to all enemies in front of the caster every $t@effectindex sec for $d.,Shadow damage inflicted every $t@effectindex sec.,6,70,1,9,32,50,50
@@ -395,3 +395,55 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 551,"Pacifies all enemies within $A@effectindex yards, preventing them from attacking for $d.",Unable to attack.,6,25,0,7,0,0,0
 552,Silences and pacifies an enemy preventing attacking and spell casting for $d.,Unable to attack or cast spells.,6,60,0,3,0,30,0
 553,"Silences and pacifies all enemies within $A@effectindex yards, preventing them from attacking or casting spells for $d.",Unable to attack or cast spells.,6,60,0,7,0,0,0
+554,Silences an enemy preventing spell casting for $d.,Unable to cast spells.,6,27,0,1,0,30,0
+555,Pacifies an enemy preventing attacks for $d.,Unable to attack.,6,25,0,1,0,30,0
+556,Silences and pacifies an enemy preventing attacking and spell casting for $d.,Unable to attack or cast spells.,6,60,0,1,0,30,0
+557,Inflicts $s@effectindex Shadowflame damage to an enemy.,,2,0,1,1,36,50,50
+558,Inflicts Shadowflame damage to all enemies in a cone in front of the caster.,,165,0,1,9,36,50,50
+559,Inflicts Shadowflame damage to enemies within $A@effectindex yards of the impact.,,165,0,1,5,36,50,50
+560,Inflicts Shadowflame damage to all enemies in front of the caster.,,31,0,1,9,36,50,50
+561,Inflicts Shadowflame damage to all enemies within $A@effectindex yards.,,31,0,1,7,36,50,50
+562,Inflicts Shadowflame damage to all enemies within $A@effectindex yards of the impact.,,31,0,1,5,36,50,50
+563,Inflicts Shadowflame damage to an enemy.,,31,0,1,3,36,50,50
+564,Inflicts $s@effectindex% of maximum health as Shadowflame damage to an enemy every $t@effectindex sec for $d.,$s@effectindex% of maximum health inflicted as Shadowflame damage inflicted every $t@effectindex sec.,6,89,1,1,36,20,20
+565,Causes all enemies within $A@effectindex yards to take $s@effectindex% increased Shadowflame damage for $d.,Shadowflame damage taken increased by $s@effectindex%.,6,87,1,7,36,0,0
+566,Causes all enemies within $A@effectindex yards of the impact to take $s@effectindex% increased Shadowflame damage for $d.,Shadowflame damage taken increased by $s@effectindex%.,6,87,1,5,36,10,10
+567,Causes an enemy to take $s@effectindex% increased Shadowflame damage for $d.,Shadowflame damage taken increased by $s@effectindex%.,6,87,1,3,36,0,0
+568,Causes an enemy to take $s@effectindex% increased Shadowflame damage for $d.,Shadowflame damage taken increased by $s@effectindex%.,6,87,1,1,36,0,0
+569,Causes an enemy to inflict $s@effectindex% decreased Shadowflame damage.,Shadowflame damage done decreased by $s@effectindex%.,6,79,2,3,36,20,20
+570,Causes the caster to inflict $s@effectindex% increased Shadowflame damage.,Shadowflame damage done increased by $s@effectindex%.,6,79,1,1,36,30,30
+571,Inflicts Shadowflame damage to all enemies in front of the caster every $t@effectindex sec for $d.,Shadowflame damage inflicted every $t@effectindex sec.,6,70,1,9,36,50,50
+572,Inflicts Shadowflame damage to all enemies within $A@effectindex yards every $t@effectindex sec for $d.,Shadowflame damage inflicted every $t@effectindex sec.,6,70,1,7,36,50,50
+573,Causes all enemies within $A@effectindex yards of the impact to take Shadowflame damage every $t@effectindex sec for $d.,Shadowflame damage inflicted every $t@effectindex sec.,6,70,1,5,36,50,50
+574,Inflicts Shadowflame damage to an enemy every $t@effectindex sec for $d.,Shadowflame damage inflicted every $t@effectindex sec.,6,70,1,3,36,50,50
+575,Inflicts Shadowflame damage to an enemy every $t@effectindex sec for $d.,Shadowflame damage inflicted every $t@effectindex sec.,6,70,1,1,36,50,50
+576,Surrounds the target with a shield that lasts $d and can absorb up to $s@effectindex Shadowflame damage.,Absorbs $s@effectindex Shadowflame damage.,6,69,1,3,36,0,0
+577,Surrounds the caster with a shield that lasts $d and can absorb up to $s@effectindex Shadowflame damage.,Absorbs $s@effectindex Shadowflame damage.,6,69,1,1,36,0,0
+578,Inflicts Frost damage to enemies within $A@effectindex yards of the impact.,,165,0,1,5,16,50,50
+579,Inflicts $s@effectindex Cosmic damage to all enemies in front of the caster.,,2,0,1,9,106,50,50
+580,Inflicts $s@effectindex Cosmic damage to enemies within $A@effectindex yards.,,2,0,1,7,106,50,50
+581,Inflicts $s@effectindex Cosmic damage to enemies within $A@effectindex yards of the impact.,,2,0,1,5,106,50,50
+582,Inflicts $s@effectindex Cosmic damage to an enemy.,,2,0,1,3,106,50,50
+583,Inflicts $s@effectindex Cosmic damage to an enemy.,,2,0,1,1,106,50,50
+584,Inflicts Cosmic damage to all enemies in a cone in front of the caster.,,165,0,1,9,106,50,50
+585,Inflicts Cosmic damage to enemies within $A@effectindex yards of the impact.,,165,0,1,5,106,50,50
+586,Inflicts Cosmic damage to all enemies in front of the caster.,,31,0,1,9,106,50,50
+587,Inflicts Cosmic damage to all enemies within $A@effectindex yards.,,31,0,1,7,106,50,50
+588,Inflicts Cosmic damage to all enemies within $A@effectindex yards of the impact.,,31,0,1,5,106,50,50
+589,Inflicts Cosmic damage to an enemy.,,31,0,1,3,106,50,50
+590,Inflicts $s@effectindex% of maximum health as Cosmic damage to an enemy every $t@effectindex sec for $d.,$s@effectindex% of maximum health inflicted as Cosmic damage inflicted every $t@effectindex sec.,6,89,1,1,106,20,20
+591,Causes all enemies within $A@effectindex yards to take $s@effectindex% increased Cosmic damage for $d.,Cosmic damage taken increased by $s@effectindex%.,6,87,1,7,106,0,0
+592,Causes all enemies within $A@effectindex yards of the impact to take $s@effectindex% increased Cosmic damage for $d.,Cosmic damage taken increased by $s@effectindex%.,6,87,1,5,106,10,10
+593,Causes an enemy to take $s@effectindex% increased Cosmic damage for $d.,Cosmic damage taken increased by $s@effectindex%.,6,87,1,3,106,0,0
+594,Causes an enemy to take $s@effectindex% increased Cosmic damage for $d.,Cosmic damage taken increased by $s@effectindex%.,6,87,1,1,106,0,0
+595,Causes an enemy to inflict $s@effectindex% decreased Cosmic damage.,Cosmic damage done decreased by $s@effectindex%.,6,79,2,3,106,20,20
+596,Causes the caster to inflict $s@effectindex% increased Cosmic damage.,Cosmic damage done increased by $s@effectindex%.,6,79,1,1,106,30,30
+597,Inflicts Cosmic damage to all enemies in front of the caster every $t@effectindex sec for $d.,Cosmic damage inflicted every $t@effectindex sec.,6,70,1,9,106,50,50
+598,Inflicts Cosmic damage to all enemies within $A@effectindex yards every $t@effectindex sec for $d.,Cosmic damage inflicted every $t@effectindex sec.,6,70,1,7,106,50,50
+599,Causes all enemies within $A@effectindex yards of the impact to take Cosmic damage every $t@effectindex sec for $d.,Cosmic damage inflicted every $t@effectindex sec.,6,70,1,5,106,50,50
+600,Inflicts Cosmic damage to an enemy every $t@effectindex sec for $d.,Cosmic damage inflicted every $t@effectindex sec.,6,70,1,3,106,50,50
+601,Inflicts Cosmic damage to an enemy every $t@effectindex sec for $d.,Cosmic damage inflicted every $t@effectindex sec.,6,70,1,1,106,50,50
+602,Surrounds the target with a shield that lasts $d and can absorb up to $s@effectindex Cosmic damage.,Absorbs $s@effectindex Cosmic damage.,6,69,1,3,106,0,0
+603,Surrounds the caster with a shield that lasts $d and can absorb up to $s@effectindex Cosmic damage.,Absorbs $s@effectindex Cosmic damage.,6,69,1,1,106,0,0
+604,Inflicts Shadow damage to enemies within $A@effectindex yards of the impact.,,165,0,1,5,32,50,50
+605,Inflicts Shadow damage to an enemy every $t@effectindex sec for $d.,Shadow damage inflicted every $t@effectindex sec.,6,70,1,1,32,50,50

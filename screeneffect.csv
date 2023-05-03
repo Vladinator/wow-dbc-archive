@@ -972,7 +972,7 @@ ID,Name,Param[0],Param[1],Param[2],Param[3],Effect,FullScreenEffectID,LightParam
 1971,9.2 Raid - Progenitor - Dragoon - Storm - 09 Skybox - TJS,0,0,0,0,0,0,5415,2000,2000,0,0,-1,2,1
 1972,9.2 Raid - Sepulcher - Jailer - End Maker 6. Effect,1250067,3500,500,1,4,0,0,0,0,0,0,-1,1,0
 1973,Generic - Fade to White - .25/0 sec,-1,250,0,1,4,0,0,0,0,0,0,-1,1,0
-1974,JDP - Test - ScreenEffect,0,0,0,0,8,182,0,0,0,0,0,-1,1,0
+1974,JDP - Test - ScreenEffect,0,0,0,0,8,10,0,0,0,0,0,-1,1,0
 1975,World - Area Denial - Generic Frost,0,0,0,0,8,175,0,0,0,0,0,-1,1,0
 1976,Generic - Brown Out - 1 sec Fade In/Out,-12900244,1000,1000,0,4,0,0,0,0,0,0,-1,1,0
 1977,Generic - Blue In (2 fade in),-26112,2000,0,0,4,0,0,0,0,0,0,-1,1,0
@@ -1071,9 +1071,11 @@ ID,Name,Param[0],Param[1],Param[2],Param[3],Effect,FullScreenEffectID,LightParam
 2071,10.0 World Boss - Zone 02 - Storm Proto Dragon - Thunderstorm,0,0,0,0,6,0,5495,3000,1500,1711,0,0,6,1
 2072,10.0 Thal - Eon's Fringe - Time Frozen Anomoly - Swirling Fog - (LWB),-2835389,5,1,1,3,0,1616,3,3,0,0,-1,5,0
 2073,10.0.0 [AWA] Fake DOF - IGC,0,0,0,0,8,186,4405,1000,1000,2183,2397,1410,1,0
+2075,SK - Test - ScreenEffect,0,0,0,0,8,188,0,0,0,0,0,-1,1,0
 2076,10.0 Raid - Primalist - Raszageth - Raging Storm (75% darkness),4723323,1000,1000,0,6,0,0,0,0,0,0,-1,1,0
 2077,10.0 Raid - Primalist - Raszageth - Raging Storm (50% darkness),4723324,1000,1000,0,6,0,0,0,0,0,0,-1,1,0
 2078,10.0 Food / Drink - Flavor - Vendor - Valdrakken City - Dragon's Hoard VIP - Green Tea - (LWB),1308659,500,250,0,6,0,1904,250,250,0,0,-1,1,0
+2079,10.0 - Generic - Cosmic Void - EZ,0,0,0,0,8,189,0,0,0,0,0,-1,1,0
 2080,10.0 Professions - Engineering - Toy - Rocket Helmet X-TREME - Twisting Nether,0,0,0,0,0,0,508,2000,2000,401,0,0,3,0
 2081,PvP Talent - Rogue - Subtlety - Shadowy Duel - Effect,0,0,100,0,2,0,0,0,0,2585,0,-1,-1,0
 2082,10.0 Raid - Primalist - Ice Spider - Webbing - KLH,0,0,0,0,8,176,0,0,0,0,0,-1,1,0
@@ -1083,8 +1085,19 @@ ID,Name,Param[0],Param[1],Param[2],Param[3],Effect,FullScreenEffectID,LightParam
 2089,10.0.7 Human Heritage - Q12 - Northshire - Onyxia's Will - 1 (LAS),9371903,0,60,0,2,0,0,0,0,0,0,-1,1,0
 2090,10.0.7 Human Heritage - Q12 - Northshire - Onyxia's Will - 2 (LAS),9371903,0,100,0,2,0,0,0,0,0,0,-1,1,0
 2091,10.0.7 Human Heritage - Q12 - Northshire - Onyxia's Will - 0 (LAS),9371903,0,20,0,2,0,0,0,0,0,0,-1,1,0
+2095,10.1 WQ - Deepflayer Nest - Scent Trail (LAS),-2964398,5,0,0,3,0,966,0,0,0,0,-1,5,0
 2096,World - Area Denial - Fire (10 - Raid - Kurog Grimtotem),0,0,0,0,8,10,0,0,0,0,0,-1,1,0
+2097,1 Second - Blackout,-16777216,1000,1000,0,4,0,0,0,0,41,0,-1,-1,0
 2099,"Generic - Blackout (.5 fade in, .5 fade out)",-16777216,300,300,0,4,0,0,0,0,0,0,-1,-1,0
 2100,10.0.7 Forbidden Reach - Treasure Room - Void Marked - Aura - Player Visuals (MDE) - State / Aura,0,0,0,0,2,0,3231,3,2,1717,0,0,-1,0
+2101,10.1 Raid - Aberrus - Cosmic Void Test - KLH,0,0,0,0,8,189,5183,1000,500,0,0,-1,3,1
 2102,10.0.7 Professions - Zul'Gurub Restoration - Toy - Brazier of Madness - Edge of Madness,0,0,0,0,0,0,374,3000,3000,0,0,-1,2,1
+2105,10.1 Professions - Alchemy - Fun Potion - Bright Potion - Peaceful Day,0,0,0,0,0,0,1587,1000,1000,2582,0,930,10,0
+2106,10.1 Fyrakk Assaults - Aura of Fyrakk (ZTO),0,0,0,0,8,10,3760,0,3,2615,0,-1,7,0
+2107,10.1 Raid - Aberrus - Shadowflame,0,0,0,0,8,195,0,0,0,0,0,-1,1,0
 2108,10.0.7 [HAH] Time of Day - Noon - Blue Tint,5062471,500,500,0,6,0,0,3000,3000,0,0,720,9,0
+2109,Generic - Fade to Orange - .25/.25 sec - IGC,-16724225,250,250,0,4,0,0,0,0,0,0,-1,1,0
+2110,Generic - Fade to Orange - .15/.15 sec - IGC,-16724225,150,150,0,4,0,0,0,0,0,0,-1,1,0
+2116,10.1 Fyrakk Assaults - Azure Span - Suffusion Camp: Frostburn (ZTO),1151140087,1,2,0,3,0,5933,2000,1000,505,0,0,2,1
+2117,10.1 Fyrakk Assaults - Ohn'ahran Plains - Suffusion Camp: Cinderwind (ZTO),1151140087,1,2,0,3,0,5934,2000,1000,505,0,0,2,1
+2118,Generic - Dip to White - 0.7/0.3 sec - IGC,1778384895,330,700,0,4,0,0,0,0,0,0,-1,1,0

@@ -1121,7 +1121,7 @@ ID,Name_lang,HordeName_lang,ParentTradeSkillCategoryID,SkillLineID,OrderIndex,Fl
 1564,Raptora,,1548,2819,100,0
 1565,Dragon Isles Blacksmithing - Header,,0,164,910,0
 1566,Dragon Isles Plans,,1565,2822,910,1
-1567,Armor,,1566,164,10,0
+1567,Armor,,1566,164,30,0
 1570,Dragon Isles Alchemy - Header,,0,171,910,0
 1571,Dragon Isles Mining - Header,,0,186,910,0
 1572,Dragon Isles Cuisine - Header,,0,185,910,0
@@ -1176,16 +1176,16 @@ ID,Name_lang,HordeName_lang,ParentTradeSkillCategoryID,SkillLineID,OrderIndex,Fl
 1644,Frost Phials,,1582,171,45,0
 1645,Frost Potions,,1582,171,35,0
 1646,Elemental Phials and Potions,,1582,171,37,0
-1648,Weapons,,1587,165,5,0
-1649,Optional Reagents,,1587,165,10,0
-1650,Finishing Reagents,,1587,165,11,0
-1651,Armor Kits,,1587,165,12,0
-1652,Toys,,1587,165,14,0
-1654,Reagents,,1587,165,9,0
-1655,Drums,,1587,165,13,0
-1656,Profession Equipment,,1587,165,4,0
-1657,Leather Armor,,1587,165,2,0
-1658,Mail Armor,,1587,165,3,0
+1648,Weapons,,1587,165,50,0
+1649,Optional Reagents,,1587,165,100,0
+1650,Finishing Reagents,,1587,165,110,0
+1651,Armor Kits,,1587,165,120,0
+1652,Toys,,1587,165,140,0
+1654,Reagents,,1587,165,90,0
+1655,Drums,,1587,165,130,0
+1656,Profession Equipment,,1587,165,40,0
+1657,Leather Armor,,1587,165,20,0
+1658,Mail Armor,,1587,165,30,0
 1660,DI Gems (placeholder/bugged?),,1593,755,8,0
 1662,Garments,,1591,197,15,0
 1665,Azureweave Garments,,1591,197,20,0
@@ -1198,17 +1198,17 @@ ID,Name_lang,HordeName_lang,ParentTradeSkillCategoryID,SkillLineID,OrderIndex,Fl
 1672,Spellthread,,1591,197,31,0
 1673,Optional Reagents,,1591,197,11,0
 1674,Embroidered Bags,,1591,197,45,0
-1675,Weapons,,1566,164,15,0
+1675,Weapons,,1566,164,50,0
 1676,Finishing Reagents,,1566,164,7,0
-1677,Profession Tools and Accessories,,1566,164,20,0
-1678,Smelting,,1566,164,5,0
-1679,Optional Reagents,,1566,164,8,0
+1677,Profession Tools and Accessories,,1566,164,60,0
+1678,Smelting,,1566,164,10,0
+1679,Optional Reagents,,1566,164,20,0
 1680,Pets,,1566,164,40,0
 1681,Alchemy Essentials,,1582,171,5,0
-1682,Consumable Tools,,1566,164,25,0
-1683,Dragonriding,,1566,164,45,0
+1682,Consumable Tools,,1566,164,70,0
+1683,Dragonriding,,1566,164,80,0
 1684,Stonework,,1566,164,26,0
-1685,Jewelcrafting Essentials,,1593,755,1,0
+1685,Jewelcrafting Essentials,,1593,755,2,0
 1686,Quest Designs,,1593,755,0,0
 1687,Quest Recipes,,1582,171,0,0
 1688,Quest Plans,,1566,164,0,0
@@ -1250,7 +1250,7 @@ ID,Name_lang,HordeName_lang,ParentTradeSkillCategoryID,SkillLineID,OrderIndex,Fl
 1727,Prospecting,,372,755,1,0
 1728,Milling,,410,773,1,0
 1729,Prospecting,,373,755,1,0
-1730,Inscription Essentials,,1592,773,1,0
+1730,Inscription Essentials,,1592,773,2,0
 1731,Milling,,759,773,1,0
 1732,Prospecting,,805,755,1,0
 1733,Milling,,450,773,1,0
@@ -1300,7 +1300,7 @@ ID,Name_lang,HordeName_lang,ParentTradeSkillCategoryID,SkillLineID,OrderIndex,Fl
 1783,Shatters,,1588,333,130,0
 1784,Recrafting,,1595,202,1,0
 1785,Recrafting,,1587,165,1,0
-1786,Shields,,1566,164,11,0
+1786,Shields,,1566,164,40,0
 1788,Appendix II - Overload,,1584,186,110,0
 1789,Crafting Tool Missives,,1592,773,21,0
 1790,Gathering Tool Missives,,1592,773,22,0
@@ -1323,9 +1323,9 @@ ID,Name_lang,HordeName_lang,ParentTradeSkillCategoryID,SkillLineID,OrderIndex,Fl
 1807,Saltwater,,1805,356,3,0
 1808,Specialty Fishing,,1805,356,4,0
 1809,General Fishing,,1805,356,1,0
-1810,Decayed Patterns,,1587,165,8,0
-1811,Elemental Patterns,,1587,165,6,0
-1812,Bestial Patterns,,1587,165,7,0
+1810,Decayed Patterns,,1587,165,80,0
+1811,Elemental Patterns,,1587,165,60,0
+1812,Bestial Patterns,,1587,165,70,0
 1813,Recrafting,,1588,333,1,0
 1814,Appendix I - Boundless Knowledge,,1584,186,100,0
 1815,Appendix I - Boundless Knowledge,,1594,182,100,0
@@ -1349,3 +1349,13 @@ ID,Name_lang,HordeName_lang,ParentTradeSkillCategoryID,SkillLineID,OrderIndex,Fl
 1863,Artisan Curios,,1592,773,500,0
 1864,Delicious and Nutritious,,1585,185,55,0
 1870,Primordial Stones,,1593,755,500,0
+1871,Infusions of Power,,1588,333,150,0
+1872,EZ-Thro,,1595,202,101,0
+1873,Dragonriding - Winding Slitherdrake,,1592,773,59,0
+1874,Glyphs,,1592,773,29,0
+1877,Legendary,,1566,164,1,0
+1878,Legendary,,1593,755,1,0
+1879,Bestial - Obsidian Combatant,,1587,165,71,0
+1880,Bestial - Crimson Combatant,,1587,165,72,0
+1881,The Ruby Feast,,1585,185,35,0
+1882,Legendary,,1595,202,1,0

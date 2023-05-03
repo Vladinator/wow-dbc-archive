@@ -71,14 +71,14 @@ ID,BaseTag,TagText_lang,Flags
 9674,BAGSLOTTEXT,Bag Slots,1
 9675,BANKSLOTPURCHASE_LABEL,Do you wish to purchase space for an additional bag?,1
 9676,BANKSLOTPURCHASE,Purchase,1
-9677,ADD_FRIEND,Add Friend,1
-9678,ADD_IGNORE_LABEL,Enter name of player to ignore\nor\nShift-Click a name from the chat window:,1
+9677,ADD_FRIEND,Add Friend,3
+9678,ADD_IGNORE_LABEL,Enter name of player to ignore\nor\nShift click a name from the chat window:,1
 9679,REMOVE_FRIEND,Remove Friend,1
 9680,GROUP_INVITE,Group Invite,1
-9681,SEND_MESSAGE,Send Message,1
+9681,SEND_MESSAGE,Send Message,3
 9682,FRIENDS,Friends,3
 9683,FRIENDS_LIST,Friends List,1
-9684,IGNORE,Ignore,1
+9684,IGNORE,Ignore,3
 9685,IGNORE_PLAYER,Ignore Player,1
 9686,GROUPS,Groups,1
 9687,WHO,Who,1
@@ -984,7 +984,7 @@ ID,BaseTag,TagText_lang,Flags
 10772,BINDING_NAME_TARGETPARTYPET3,Target Party Pet 3,1
 10773,BINDING_NAME_TARGETPARTYPET4,Target Party Pet 4,1
 10774,BINDING_NAME_TARGETLASTHOSTILE,Target Last Hostile,1
-10775,BINDING_NAME_NAMEPLATES,Show Enemy Name Plates,1
+10775,BINDING_NAME_NAMEPLATES,Show Enemy Nameplates,1
 10776,BINDING_NAME_ATTACKTARGET,Attack Target,1
 10777,BINDING_NAME_PETATTACK,Pet Attack,1
 10778,KEY_BUTTON4,Mouse Button 4,1
@@ -1040,7 +1040,7 @@ ID,BaseTag,TagText_lang,Flags
 10835,ERR_CHAT_WHILE_DEAD,You can't chat when you're dead!,1
 10836,ERR_BANKSLOT_FAILED_TOO_MANY,You've reached your limit of bag slots!,1
 10839,ERR_CANT_WRAP_EQUIPPED,Equipped items can't be wrapped.,1
-10842,LASTONLINE_HOURS,%d |4hour:hours;,1
+10842,LASTONLINE_HOURS,%d |4hour:hours;,3
 10844,ERR_GUILD_RANKS_LOCKED,Temporary guild error.  Please try again!,1
 10845,ERR_GUILD_RANK_IN_USE,That guild rank is currently in use.,1
 10846,SET_GUILDMOTD_LABEL,Set Guild Message of the Day:,1
@@ -1660,9 +1660,9 @@ ID,BaseTag,TagText_lang,Flags
 11515,EMOTE153_CMD1,/moo,1
 11516,VOICEMACRO_1_Ta_1,On your guard!,1
 11517,SKILL_DESCRIPTION,|cffffffff%s|r %s,1
-11518,LASTONLINE_YEARS,%d |4year:years;,1
-11519,LASTONLINE_MONTHS,%d |4month:months;,1
-11520,LASTONLINE_DAYS,%d |4day:days;,1
+11518,LASTONLINE_YEARS,%d |4year:years;,3
+11519,LASTONLINE_MONTHS,%d |4month:months;,3
+11520,LASTONLINE_DAYS,%d |4day:days;,3
 11521,GUILD_OFFICERNOTES_LABEL,Officer's Notes,1
 11522,RANK,Rank,1
 11523,NOTE,Public Note,1
@@ -1987,7 +1987,7 @@ ID,BaseTag,TagText_lang,Flags
 11881,QUEST_ACCEPT,%s is starting %s\nWould you like to as well?,1
 11882,TWOHANDEDWEAPONBEINGWIELDED,"Cannot wield in second hand, you are holding a 2-handed item!",1
 11884,ADD_FRIEND_LABEL,Enter your friend's character name:,1
-11885,FRIENDS_LIST_OFFLINE_TEMPLATE,|cff999999%s - Offline|r,1
+11885,FRIENDS_LIST_OFFLINE_TEMPLATE,|cff999999%s - Offline|r,3
 11886,ITEM_MIN_LEVEL,Requires Level %d,1
 11887,ITEM_QUALITY0_DESC,Poor,1
 11888,ITEM_QUALITY6_DESC,Artifact,1
@@ -3728,7 +3728,7 @@ ID,BaseTag,TagText_lang,Flags
 13914,NOTE_SUBMITTED,Note submitted,1
 13915,NOTE_SUBMIT_FAILED,Note submission failed,1
 13916,ERR_LOOT_PLAYER_NOT_FOUND,Player not found,1
-13917,LOOT_ROLL_PASSED_SELF,|HlootHistory:%d|h[Loot]|h: You passed on: %s,1
+13917,LOOT_ROLL_PASSED_SELF,|HlootHistory:%d|h[Loot]|h: You passed on: %s |HlootHistory:%d|h|cnLOOT_LINK_COLOR:[View Loot Rolls]|r|h,1
 13918,LOOT_THRESHOLD,Loot Threshold,1
 13919,GIVE_LOOT,Give Loot To:,1
 13920,TERRAIN_HIGHLIGHTS,Specular Lighting,3
@@ -4364,7 +4364,7 @@ ID,BaseTag,TagText_lang,Flags
 15145,BINDING_NAME_MULTIACTIONBAR4BUTTON10,Action Bar 5 Button 10,1
 15146,BINDING_NAME_MULTIACTIONBAR4BUTTON11,Action Bar 5 Button 11,1
 15147,BINDING_NAME_MULTIACTIONBAR4BUTTON12,Action Bar 5 Button 12,1
-15161,LOCK_ACTIONBAR_TEXT,Lock ActionBars,1
+15161,LOCK_ACTIONBAR_TEXT,Lock Action Bars,1
 15162,OPTION_TOOLTIP_LOCK_ACTIONBAR,Prevents the user from picking up/dragging spells on the action bar. This function can be bound to a function key in the keybindings interface.,1
 15163,OPTION_TOOLTIP_SHOW_MULTIBAR2,Centered and attached above Action Bar 2 by default,1
 15164,OPTION_TOOLTIP_SHOW_MULTIBAR3,On the right side of the screen by default,1
@@ -4386,7 +4386,7 @@ ID,BaseTag,TagText_lang,Flags
 15244,CHAT_BUBBLES_TEXT,Chat Bubbles,1
 15245,OPTION_TOOLTIP_CHAT_BUBBLES,Shows bubbles of text above the head of the speaker.,1
 15246,PARTY_CHAT_BUBBLES_TEXT,Party Chat Bubbles,1
-15248,QUEST_WATCH_TOOLTIP,Shift-click a quest to add or remove a quest from your quest watch list.,1
+15248,QUEST_WATCH_TOOLTIP,Shift click a quest to add or remove a quest from your quest watch list.,1
 15249,QUEST_WATCH_TOO_MANY,You may only watch %d quests at a time.,1
 15250,QUEST_WATCH_NO_OBJECTIVES,This quest has no objectives to track,1
 15261,EMOTE168_CMD1,/wink,1
@@ -4435,7 +4435,7 @@ ID,BaseTag,TagText_lang,Flags
 15412,CHANGE_INSTANCE,Change Instance,1
 15413,BATTLEFIELD_IN_QUEUE,You are in the queue for %s\nAverage wait time: %s\nTime in queue: %s,1
 15414,BATTLEFIELD_QUEUE_CONFIRM,You are eligible to enter %s\nYou will be removed from the queue in %s,1
-15415,BATTLEFIELD_IN_BATTLEFIELD,You are in %s\n|cffffffff<Left-Click To Show Score>\n<Shift-Click To Show Zone Map>|r,1
+15415,BATTLEFIELD_IN_BATTLEFIELD,You are in %s\n|cffffffff<Left Click To Show Score>\n<Shift Click To Show Zone Map>|r,1
 15416,HONOR_THIS_SESSION,Today,1
 15417,HONORABLE_KILLS,Honorable Kills,1
 15418,DISHONORABLE_KILLS,Dishonorable Kills,1
@@ -4561,8 +4561,8 @@ ID,BaseTag,TagText_lang,Flags
 15902,DRESSUP_FRAME,Dressing Room,1
 15903,DISPLAY_ON_CHARACTER,Display on Character,1
 15904,DISPLAY_ON_CHAR_TOOLTIP,Checking this will show any selected auction items on your character.\n\nCTRL-Left Clicking any equippable item in the game will also allow you to try it on your character.,1
-15905,LOOT_ROLL_GREED_SELF,|HlootHistory:%d|h[Loot]|h: You have selected Greed for: %s,1
-15906,LOOT_ROLL_NEED_SELF,|HlootHistory:%d|h[Loot]|h: You have selected Need for: %s,1
+15905,LOOT_ROLL_GREED_SELF,|HlootHistory:%d|h[Loot]|h: You have selected Greed for: %s |HlootHistory:%d|h|cnLOOT_LINK_COLOR:[View Loot Rolls]|r|h,1
+15906,LOOT_ROLL_NEED_SELF,|HlootHistory:%d|h[Loot]|h: You have selected Need for: %s |HlootHistory:%d|h|cnLOOT_LINK_COLOR:[View Loot Rolls]|r|h,1
 15907,LOOT_ROLL_GREED,%s has selected Greed for: %s,1
 15908,LOOT_ROLL_NEED,%s has selected Need for: %s,1
 15911,LOOT_ROLL_ROLLED_NEED,Need Roll - %d for %s by %s,1
@@ -4929,8 +4929,8 @@ ID,BaseTag,TagText_lang,Flags
 16333,OPTION_TOOLTIP_AUTO_SELF_CAST,"When this is enabled, friendly target spells that you cast while you have a non friendly target or no target will automatically be self cast.",1
 16334,HIDE_OUTDOOR_WORLD_STATE_TEXT,Hide Zone Objective Tracker,1
 16335,OPTION_TOOLTIP_HIDE_OUTDOOR_WORLD_STATE,Checking this will hide the interface for tracking zone wide objectives.,1
-16336,BINDING_NAME_FRIENDNAMEPLATES,Show Friendly Name Plates,1
-16337,BINDING_NAME_ALLNAMEPLATES,Show All Name Plates,1
+16336,BINDING_NAME_FRIENDNAMEPLATES,Show Friendly Nameplates,1
+16337,BINDING_NAME_ALLNAMEPLATES,Show All Nameplates,1
 16338,CHAT_THROTTLED_NOTICE,"|Hchannel:%d|h[%s]|h The number of messages that can be sent to this channel is limited, please wait to send another message.",1
 16339,COMBAT_TEXT_COMBO_POINTS,<%d Combo |4Point:Points;>,1
 16341,COMBAT_TEXT_SHOW_REACTIVES_TEXT,Spell Alerts,1
@@ -5408,7 +5408,7 @@ ID,BaseTag,TagText_lang,Flags
 16924,PET_BONUS_TOOLTIP_WARLOCK_SPELLDMG_FIRE,Your Fire Damage increases your pet's Attack Power by %d and Spell Damage by %d,1
 16925,BINDING_NAME_TARGETLASTTARGET,Target Last Target,1
 16926,ERR_CANT_DO_THAT_IN_A_GROUP,You can't do that while in a group.,1
-16928,ERR_BATTLEGROUND_TOO_MANY_QUEUES,You can only be queued for 2 battles at once,1
+16928,ERR_BATTLEGROUND_TOO_MANY_QUEUES,You can only be queued for 3 battles at once,1
 16929,ERR_BATTLEDGROUND_QUEUED_FOR_RATED,You cannot queue for another battle while queued for a rated match,1
 16930,ERR_BATTLEGROUND_CANNOT_QUEUE_FOR_RATED,You cannot queue for a rated match while queued for other battles,1
 16931,ARENA_MASTER_TEXT,"Let the games begin!  The door is open to all who wish to find glory in the arena, and the Steamwheedle Cartel is prepared to accept your entry into the games.  If victory is your destiny, then register a team with an Arena Organizer, or join one that has already been registered!",1
@@ -5795,7 +5795,7 @@ ID,BaseTag,TagText_lang,Flags
 17364,OPENING,Opening,1
 17365,PET_INFO,Pet Info,1
 17367,MUTED_LIST,Muted List,1
-17368,ADD_MUTE_LABEL,Enter name of player to mute\nor\nShift-Click a name from the chat window:,1
+17368,ADD_MUTE_LABEL,Enter name of player to mute\nor\nShift click a name from the chat window:,1
 17369,MUTE_PLAYER,Mute Player,1
 17370,NEWBIE_TOOLTIP_MUTEPLAYER,Adds a player to your mute list. You will no longer hear voice chat from players on your mute list.,1
 17371,ERR_DANCE_CREATE_DUPLICATE,You already have a dance by that name,1
@@ -5961,7 +5961,7 @@ ID,BaseTag,TagText_lang,Flags
 17548,GROUND_DENSITY,Ground Clutter Density,3
 17549,NEAR,Near,3
 17550,FAR,Far,3
-17551,LOOT_ROLL_PASSED_SELF_AUTO,|HlootHistory:%d|h[Loot]|h: You automatically passed on: %s because you cannot loot that item.,1
+17551,LOOT_ROLL_PASSED_SELF_AUTO,|HlootHistory:%d|h[Loot]|h: You automatically passed on: %s because you cannot loot that item. |HlootHistory:%d|h|cnLOOT_LINK_COLOR:[View Loot Rolls]|r|h,1
 17552,LOOT_ROLL_PASSED_AUTO,%s automatically passed on: %s because he cannot loot that item.,1
 17553,LOOT_ROLL_PASSED_AUTO_FEMALE,%s automatically passed on: %s because she cannot loot that item.,1
 17554,STATUS_TEXT,Status Text,1
@@ -7079,7 +7079,7 @@ ID,BaseTag,TagText_lang,Flags
 18804,UNUSED,Unused,1
 18805,SHOW_ON_BACKPACK,Show on Backpack,1
 18806,TOKEN_MOVE_TO_UNUSED,Moves this currency to the bottom of your list under the unused heading. Useful for currencies you are no longer interested in tracking.,1
-18807,TOKEN_SHOW_ON_BACKPACK,Checking this option will allow you to track this currency type on your backpack.\n\nYou can also Shift-click a currency to add or remove it from your backpack.,1
+18807,TOKEN_SHOW_ON_BACKPACK,Checking this option will allow you to track this currency type on your backpack.\n\nYou can also shift click a currency to add or remove it from your backpack.,1
 18808,ENCRYPTED,Encrypted,1
 18809,RUNIC_POWER,Runic Power,1
 18810,BINDING_NAME_STOPCASTING,Stop Casting,1
@@ -7111,7 +7111,7 @@ ID,BaseTag,TagText_lang,Flags
 18837,CALENDAR_ERROR_NEEDS_TITLE,Enter a title.,1
 18838,CALENDAR_ERROR_EVENT_INVALID,Event not found.,1
 18839,CALENDAR_ERROR_NOT_INVITED,You are not invited to this event.,1
-18840,CALENDAR_ERROR_EVENT_PASSED,This event has already occured.,1
+18840,CALENDAR_ERROR_EVENT_PASSED,This event has already occurred.,1
 18841,CALENDAR_ERROR_EVENT_LOCKED,This event is locked.,1
 18842,CALENDAR_ERROR_DELETE_CREATOR_FAILED,You cannot remove the creator of the event.,1
 18843,CALENDAR_ERROR_INVITES_DISABLED,You cannot invite players to this event.,1
@@ -7929,7 +7929,7 @@ ID,BaseTag,TagText_lang,Flags
 19709,CALENDAR_TOOLTIP_INVITE_RESPONDED,Responded on:,1
 19710,LEARN,Learn,1
 19713,GEARSETS_POPUP_TEXT,Enter Set Name (Max 16 Characters):,1
-19714,TALENT_TOOLTIP_ADDPREVIEWPOINT,Left click to select this talent.,1
+19714,TALENT_TOOLTIP_ADDPREVIEWPOINT,Click to learn,1
 19716,CONFIRM_LEARN_PREVIEW_TALENTS,Are you sure you want to learn these talents?,1
 19717,CONFIRM_DELETE_EQUIPMENT_SET,Are you sure you want to delete the equipment set %s?,1
 19718,CONFIRM_OVERWRITE_EQUIPMENT_SET,You already have an equipment set named %s. Would you like to overwrite it?,1
@@ -8149,7 +8149,7 @@ ID,BaseTag,TagText_lang,Flags
 19945,ACTION_UNIT_DISSIPATES,dissipates,1
 19946,ACTION_UNIT_DISSIPATES_FULL_TEXT,%4$s dissipates.,1
 19947,ACTION_UNIT_DISSIPATES_POSSESSIVE,0,1
-19948,BIND_TRADE_TIME_REMAINING,You may trade this item with players that were also eligible to loot this item for the next %s.,1
+19948,BIND_TRADE_TIME_REMAINING,You may trade this item with players that were also eligible to loot this item for the next %s (including time offline).,1
 19949,ERR_TRADE_NOT_ON_TAPLIST,You may only trade bound items to players that were originally eligible to loot the item,1
 19952,ITEM_REQ_ARENA_RATING_3V3,Requires personal arena rating of %d|nin the 3v3 bracket.,1
 19953,ITEM_REQ_ARENA_RATING_5V5,Requires personal arena rating of %d|nin 5v5 brackets,1
@@ -8651,7 +8651,7 @@ ID,BaseTag,TagText_lang,Flags
 20480,ERR_QUEST_FORCE_REMOVED_S,The quest %s has been removed from your quest log.,1
 20481,VOTE_BOOT_REASON_REQUIRED,Please enter the reason to vote kick %s:,1
 20482,CHAT_PARTY_GUIDE_GET,|Hchannel:PARTY|h[Dungeon Guide]|h %s:\32,1
-20483,OPTION_TOOLTIP_MAP_TRACK_QUEST,Add or remove the selected quest from your quest watch list.|nYou can also shift-click on a quest or its icon.,1
+20483,OPTION_TOOLTIP_MAP_TRACK_QUEST,Add or remove the selected quest from your quest watch list.|nYou can also shift click on a quest or its icon.,1
 20484,BINDING_NAME_TOGGLEWORLDMAPSIZE,Toggle World Map Size,1
 20485,SPELL_FAILED_CUSTOM_ERROR_91,You have already destroyed the KTC Oil Platform.,1
 20486,SPELL_FAILED_CUSTOM_ERROR_92,You have already launched enough cages.,1
@@ -8740,7 +8740,7 @@ ID,BaseTag,TagText_lang,Flags
 20577,DESERTER,Deserter,1
 20578,LFG_DESERTER_YOU,You recently deserted a group and may not queue again for:,1
 20579,LFG_DESERTER_OTHER,One of your group members has recently deserted a group and may not yet queue for another.,1
-20580,ITEM_VENDOR_STACK_BUY,<Shift-Click to buy a different amount>,1
+20580,ITEM_VENDOR_STACK_BUY,<Shift click to buy a different amount>,1
 20581,SPELL_FAILED_CUSTOM_ERROR_100,Three fawns are already following you!,1
 20582,SPELL_FAILED_CUSTOM_ERROR_101,You already have a River Boat.,1
 20583,POWER_TYPE_SUN_ENERGY,Sun Energy,1
@@ -8767,7 +8767,7 @@ ID,BaseTag,TagText_lang,Flags
 20607,BLOCK_INVITES_CONFIRMATION,Are you sure you want to block any further invitations from %s?,1
 20609,BLOCK_INVITES,Block Invites,1
 20611,FRIENDS_LIST_ONLINE,Online,1
-20612,FRIENDS_LIST_OFFLINE,Offline,1
+20612,FRIENDS_LIST_OFFLINE,Offline,3
 20613,FRIENDS_LIST_AWAY,Away,1
 20614,FRIENDS_LIST_BUSY,Busy,1
 20615,FRIENDS_LIST_ENTER_TEXT,Tell your friends what you're doing,1
@@ -8845,9 +8845,9 @@ ID,BaseTag,TagText_lang,Flags
 20698,TRANSFER_ABORT_UNIQUE_MESSAGE2,You must fulfill your destiny and that of the Bilgewater Cartel before you can leave.,1
 20699,TRANSFER_ABORT_UNIQUE_MESSAGE3,The fate of Gilneas has not yet been decided.  You cannot escape yet.,1
 20700,SPELL_FAILED_CUSTOM_ERROR_108,Ambassador Slaghammer is already your prisoner.,1
-20701,LASTONLINE_SECS,< a minute,1
-20702,LASTONLINE_MINUTES,%d |4minute:minutes;,1
-20703,BNET_LAST_ONLINE_TIME,last online %s ago,1
+20701,LASTONLINE_SECS,< a minute,3
+20702,LASTONLINE_MINUTES,%d |4minute:minutes;,3
+20703,BNET_LAST_ONLINE_TIME,last online %s ago,3
 20704,SPELL_FAILED_CUSTOM_ERROR_109_MIXED,Requires a location that is attuned with the Naz'jar Battlemaiden.,1
 20705,POWER_TYPE_BLUE_POWER,Lightning Power,1
 20706,POWER_TYPE_PURPLE_POWER,Arcane Power,1
@@ -9936,9 +9936,9 @@ ID,BaseTag,TagText_lang,Flags
 21885,ITEM_BNETACCOUNTBOUND,Blizzard Account Bound,1
 21886,ITEM_BIND_TO_BNETACCOUNT,Binds to Blizzard account,1
 21887,AUCTION_MAIL_ITEM_STACK,%s (%d),1
-21888,OPTION_TOOLTIP_PICKUP_ACTION_ALT_KEY,"Use the ""ALT"" key to pick up/drag spells from locked actionbars.",1
-21889,OPTION_TOOLTIP_PICKUP_ACTION_CTRL_KEY,"Use the ""CTRL"" key to pick up/drag spells from locked actionbars.",1
-21890,OPTION_TOOLTIP_PICKUP_ACTION_SHIFT_KEY,"Use the ""SHIFT"" key to pick up/drag spells from locked actionbars.",1
+21888,OPTION_TOOLTIP_PICKUP_ACTION_ALT_KEY,"Use the ""ALT"" key to pick up/drag spells from locked action bars.",1
+21889,OPTION_TOOLTIP_PICKUP_ACTION_CTRL_KEY,"Use the ""CTRL"" key to pick up/drag spells from locked action bars.",1
+21890,OPTION_TOOLTIP_PICKUP_ACTION_SHIFT_KEY,"Use the ""SHIFT"" key to pick up/drag spells from locked action bars.",1
 21891,OPTION_TOOLTIP_PICKUP_ACTION_NONE_KEY,No key set.,1
 21892,PICKUP_ACTION_KEY_TEXT,Pick Up Action Key,1
 21893,LOOT_DISENCHANT_CREDIT,%s was disenchanted for loot by %s.,1
@@ -11915,7 +11915,7 @@ You can find trainers for them in some settlements and cities.",1
 24081,SHOW_PET_BATTLES_ON_MAP_TEXT,Pet Battles,1
 24084,WEB_BROWSER_IME_ENTRY_TEXT,Please enter text here,1
 24085,CAN_NOT_RELEASE_IN_COMBAT,A member of your group is in combat.,1
-24086,CONFIRM_UPGRADE_ITEM,Are you sure you wish to spend %s to upgrade the following item? Upgrading will cause this item to become soulbound.,1
+24086,CONFIRM_UPGRADE_ITEM,Are you sure you wish to spend %s to upgrade the following item?,1
 24087,BATTLEGROUND_IS_READY,Your Battleground is ready!,1
 24088,ITEM_UPGRADE_BONUS_FORMAT,(+%d) ,1
 24089,POWER_TYPE_TITAN_ENERGY,Titan Energy,1
@@ -14561,7 +14561,7 @@ You can find trainers for them in some settlements and cities.",1
 34007,CHAR_DELETE_FAILED_GUILD_LEADER,This character is a Guild Master and cannot be deleted until the rank is transferred to another character.,2
 34008,CHAR_DELETE_FAILED_HAS_HEIRLOOM_OR_MAIL,This character has mail and cannot be deleted.,2
 34009,CHAR_DELETE_FAILED_HAS_WOW_TOKEN,"This character cannot be deleted while a WoW Token is in their inventory, mailbox, or on the auction house.",2
-34010,CHAR_DELETE_FAILED_LOCKED_FOR_TRANSFER,You cannot log in until the character update process you recently initiated is complete.  ,2
+34010,CHAR_DELETE_FAILED_CHARACTER_SERVICE_PENDING,This character cannot be deleted while a character service is under way.,2
 34011,CHAR_DELETE_IN_PROGRESS,Deleting character,2
 34012,CHAR_DELETE_SUCCESS,Character deleted,2
 34013,CHAR_FACTION_CHANGE_ARENA_LEADER,You may not change race or faction while still the captain of an arena team.,2
@@ -15332,7 +15332,7 @@ You can find trainers for them in some settlements and cities.",1
 34837,SPELL_FAILED_CUSTOM_ERROR_297,Requires 1 Withered Berserker,1
 34838,SPELL_FAILED_CUSTOM_ERROR_298,Requires 2 Withered Berserkers,1
 34839,ARTIFACTS_NUM_PURCHASED_RANKS,Artifact Level: %d,1
-34844,LOOT_ROLL_NEED_SELF_OFF_SPEC,|HlootHistory:%d|h[Loot]|h: You have selected Need (Off-Spec) for: %s,1
+34844,LOOT_ROLL_NEED_SELF_OFF_SPEC,|HlootHistory:%d|h[Loot]|h: You have selected Need (Off-Spec) for: %s |HlootHistory:%d|h|cnLOOT_LINK_COLOR:[View Loot Rolls]|r|h,1
 34845,BOOST2_ROGUEASSN_REMIND_GARROTE,Use |cFFFFFFFFGarrote|r.,1
 34846,LOOT_ROLL_WON_NO_SPAM_NEED_OFF_SPEC,"|HlootHistory:%d|h[Loot]|h: %s (Need - %d, Off-Spec) Won: %s",1
 34847,LOOT_ROLL_YOU_WON_NO_SPAM_NEED_OFF_SPEC,"|HlootHistory:%d|h[Loot]|h: You (Need - %d, Off-Spec) Won: %s",1
@@ -15471,7 +15471,7 @@ You can find trainers for them in some settlements and cities.",1
 34989,TRANSMOG_SPECS_BUTTON_TUTORIAL,"You can apply this look to all your specializations, or just your current one.",1
 34990,TRANSMOG_JOURNAL_TAB_TUTORIAL,The Appearances tab shows all the item appearances you can use for transmogrification.,1
 34991,TRANSMOG_OUTFIT_DROPDOWN_TUTORIAL,Created the perfect outfit? Save it for future use.,1
-34992,TRANSMOG_MOUSE_CLICK_TUTORIAL,Right-click to favorite an appearance. Ctrl-click to view it on your character.,1
+34992,TRANSMOG_MOUSE_CLICK_TUTORIAL,Right click to favorite an appearance. Ctrl click to view it on your character.,1
 34994,SPELL_FAILED_CUSTOM_ERROR_304,You are in the wrong class specialization.,1
 34995,HUNTER_PET_FEROCITY_CORE_ABILITY_1,"While your pet is active, you both gain Leech.",1
 34996,HUNTER_PET_FEROCITY_CORE_ABILITY_2,Ability that grants Haste to you and your allies for a short time.,1
@@ -18575,10 +18575,10 @@ You can find trainers for them in some settlements and cities.",1
 42351,NPEV2_RESOURCE_CALLOUT_HUNTER,"Some abilities use |cFFFF8040Focus|r, which recharges over time",1
 42353,NPEV2_APPROACH_INJURED_CREWMEMBER,Get close to the |cFFFFD200Injured Crewmember|r,1
 42354,MAP_PIN_SHARING,Map Pin Sharing,1
-42355,MAP_PIN_SHARING_TOOLTIP,You can share this location with other players by inserting a link into chat.|n|n|cff20ff20<Shift-Click to share pin in chat>|r,1
+42355,MAP_PIN_SHARING_TOOLTIP,You can share this location with other players by inserting a link into chat.|n|n|cff20ff20<Shift click to share pin in chat>|r,1
 42356,MAP_PIN,Map Pin,1
 42357,MAP_PIN_TOOLTIP,Place a locational pin on the map that can be tracked and shared with other players.,1
-42358,MAP_PIN_TOOLTIP_INSTRUCTIONS,Click this button and then the map to drop a pin or <Control-Click directly on the map>,1
+42358,MAP_PIN_TOOLTIP_INSTRUCTIONS,Click this button and then the map to drop a pin or <Ctrl click directly on the map>,1
 42360,NPEV2_APPROACH_WANDERING_BOAR,Get close to the |cFFFFD200Wandering Boar|r,1
 42361,RUNEFORGE_LEGENDARY_COST_FORMAT,Costs: %s%s|r |cffffffff/ %s|r,1
 42362,RUNEFORGE_LEGENDARY_MODIFIER_UNAVAIBLE_TOOLTIP,None in inventory,1
@@ -19012,13 +19012,13 @@ You can find trainers for them in some settlements and cities.",1
 42818,SUBSCRIPTION_INTERSTITIAL_SUBSCRIBE_THIRD_LINE,ADVENTURE,1
 42819,SUBSCRIPTION_INTERSTITIAL_SUBSCRIBE_BUTTON,SUBSCRIBE NOW,1
 42820,SUBSCRIPTION_INTERSTITIAL_UPGRADE_TITLE,UPGRADE NOW,1
-42821,SUBSCRIPTION_INTERSTITIAL_UPGRADE_TITLE_SUBTEXT,to unlock these epic features,1
-42822,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET1,PLAY TO LEVEL 50,1
-42823,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET2,EMBARK ON THOUSANDS OF ADDITIONAL QUESTS,1
-42824,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET3,FINISH THE BATTLE FOR AZEROTH,1
-42825,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET4,ACCESS TO WOW CLASSIC,1
-42826,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET5,AND MUCH MORE!,1
-42827,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BUTTON,UPGRADE NOW,1
+42821,SUBSCRIPTION_INTERSTITIAL_UPGRADE_TITLE_SUBTEXT,Subscribe to continue your epic journey,1
+42822,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET1,PLAY TO LEVEL 60,1
+42823,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET2,EMBARK ON DARING ADVENTURES ACROSS AZEROTH AND BEYOND,1
+42824,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET3,GET ACCESS TO WOW CLASSIC,1
+42825,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET4,AND MORE!,1
+42826,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET5,,1
+42827,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BUTTON,SUBSCRIBE NOW,1
 42828,NPEV2_CHAT_WELCOME_TO_CHANNEL_NEWCOMER1,|A:newplayerchat-chaticon-guide:0:0:0:0|a|cff81b558Guides|r are here to help if you have any questions.,1
 42829,NPEV2_CHAT_WELCOME_TO_CHANNEL_NEWCOMER2,"To chat, type |cff00ff00%s|r and your message.",1
 42830,SOULBIND_APPLY_CONDUITS_BUTTON,Apply Conduits,1
@@ -19143,7 +19143,7 @@ You can find trainers for them in some settlements and cities.",1
 42951,CONDUIT_ITEM_LOOT_LABEL,You received,1
 42952,COVENANT_MISSIONS_COMBAT_LOG_HEADER,Combat Log,1
 42953,AUCTION_HOUSE_FILTER_RUNECARVING,|cff00ccffRunecarving|r,1
-42954,MAP_PIN_REMOVE,<Control-Click to remove pin>,1
+42954,MAP_PIN_REMOVE,<Ctrl click to remove pin>,1
 42955,NPEV2_CHAT_HELP_HINT_HERE,Type here to ask questions in Newcomer Chat,1
 42956,NPEV2_CHAT_HELP_HINT_DIFFERENT,Type %s to ask questions in Newcomer Chat,1
 42957,BOOST2_SHAMANENHANCE_FLAMETONGUEWEAPON,Use |cFFFFFFFFFlametongue Weapon|r.,1
@@ -19595,7 +19595,7 @@ You can find trainers for them in some settlements and cities.",1
 44005,TORGHAST_DOMINANCE_BAR_TIP,"Slay enemies, free souls, and break urns to fill your Empowerment bar",1
 44006,TORGHAST_DOMINANCE_BAR_CUTOFF_TIP,"Cross this line to gain the Empowered ability, fill the bar completely for the ability to last longer",1
 44007,SPELL_FAILED_CUSTOM_ERROR_601,Speak to the Archivist to turn in relic fragments.,1
-44008,DUNGEON_SCORE_INCREASE_PARTY_MEMBERS,Rating increased for %s! Bonus Valor earned.,1
+44008,DUNGEON_SCORE_INCREASE_PARTY_MEMBERS,Rating increased for %s!,1
 44009,VOICE_GENERIC_FORMAT,English Voice %d,1
 44010,SPELL_FAILED_CUSTOM_ERROR_602,Requires knowledge from Research Reports: Ancient Shrines,1
 44011,SLASH_TEXTTOSPEECH_ON,on,1
@@ -19821,7 +19821,7 @@ You can find trainers for them in some settlements and cities.",1
 44254,GROUP_FINDER_PVP_RATING_REQ_TOOLTIP,PvP Rating Required: |cffffffff%d|r,1
 44255,OPTION_TOOLTIP_ENABLE_MOUSEOVER_CAST,"Once enabled, mousing over a unit frame and casting a spell using a keyboard hotkey will cast it directly on that unit without having it targeted.",1
 44262,ITEM_UPGRADE_COST_LABEL,Total Cost:,1
-44263,ITEM_UPGRADE_DROPDOWN_LEVEL_FORMAT,Level %d,1
+44263,ITEM_UPGRADE_DROPDOWN_LEVEL_FORMAT,Level %d/%d,1
 44264,ITEM_UPGRADE_ITEM_LEVEL_BONUS_STAT_FORMAT,Item Level |cff20ff20%1$d (+%2$d)|r,1
 44265,ITEM_UPGRADE_ITEM_LEVEL_STAT_FORMAT,Item Level %d,1
 44266,ITEM_UPGRADE_INACTIVE_BONUS_STAT_FORMAT,|cff7f7f7f%1$d (+%2$d) %3$s|r,1
@@ -19889,12 +19889,13 @@ You can find trainers for them in some settlements and cities.",1
 44341,REGIONAL_RESTRICT_CHAT_DIALOG_ENABLE,Turn Chat On,1
 44342,REGIONAL_RESTRICT_CHAT_DIALOG_DISABLE,Leave Chat Off,1
 44343,RESTRICT_CHAT_MESSAGE_SUPPRESSED,You can't send or receive messages while chat is disabled.,1
-44345,RESTRICT_CHAT_CONFIG_HYPERLINK,Chat Settings,1
-44346,RESTRICT_CHAT_CONFIG_TOOLTIP,"Click ""%s"" to restore chat options.",1
+44345,RESTRICT_CHAT_CONFIG_HYPERLINK,Chat Options,1
+44346,RESTRICT_CHAT_CONFIG_TOOLTIP,"|cnRED_FONT_COLOR:You can't edit chat settings while chat is disabled.|r
+|cnGREEN_FONT_COLOR:<Shift Click to View Options>|r",1
 44347,RESTRICT_CHAT_CONFIG_ENABLE,Enable Chat,1
 44348,RESTRICT_CHAT_CONFIG_DISABLE,Disable Chat,1
 44349,RESTRICT_CHAT_CONFIG_DIALOG_MESSAGE,Are you sure you want to disable chat completely?\n\nYou won't be able to send or receive any messages.,1
-44350,RESTRICT_CHAT_COMMUNITIES_TOOLTIP_INSTRUCTION,<Shift Click to View Chat Settings>,1
+44350,RESTRICT_CHAT_COMMUNITIES_TOOLTIP_INSTRUCTION,<Shift Click to View Chat Options>,1
 44351,RESTRICT_CHAT_CONFIG_DIALOG_DISABLE,Disable Chat,1
 44352,RESTRICT_CHAT_CONFIG_DIALOG_CANCEL,Cancel,1
 44357,SPELL_FAILED_CUSTOM_ERROR_627,You already have that much Renown with your active Covenant.,1
@@ -19974,7 +19975,7 @@ You can find trainers for them in some settlements and cities.",1
 44434,VIDEO_OPTIONS_RESAMPLE_QUALITY_POINT,"An upscale resulting in a hard, pixelated image.",3
 44435,VIDEO_OPTIONS_RESAMPLE_QUALITY_BILINEAR,An upscale resulting in a very soft image or standard quality SSAA if above 100% render scale.,3
 44436,VIDEO_OPTIONS_RESAMPLE_QUALITY_BICUBIC,An upscale resulting in a soft image or improved quality SSAA if above 100% render scale.,3
-44437,VIDEO_OPTIONS_RESAMPLE_QUALITY_FSR,AMD FidelityFX Super Resolution 1.0 is a cutting edge super-optimized spatial upscaling technoloy that produces impressive image quality at fast framerates.,3
+44437,VIDEO_OPTIONS_RESAMPLE_QUALITY_FSR,AMD FidelityFX Super Resolution 1.0 is a cutting edge super-optimized spatial upscaling technology that produces impressive image quality at fast framerates.,3
 44438,PCT_FLOW_DESTINATION_ACCOUNT_DROPDOWN_DIFFERENT,A Different Blizzard Account,2
 44439,RESAMPLE_SHARPNESS,Resample Sharpness,3
 44440,OPTION_TOOLTIP_SHARPNESS,Adjusts the strength of the FidelityFX Super Resolution sharpness effect. 0 is full strength.,3
@@ -20139,7 +20140,7 @@ You can find trainers for them in some settlements and cities.",1
 48749,NOTCH_MODE_WINDOW_BELOW,Window Below,3
 48750,VIDEO_OPTIONS_NOTCH_MODE_WINDOW_BELOW,Window is below notch with a black bar,3
 48751,PLAYER_CHOICE_QUALITY_STRING_EMPTY,|n|n,1
-48752,PROFESSIONS_MODIFIED_CRAFTING_REAGENT_OPTIONAL,Optional Crafting Reagent,1
+48752,PROFESSIONS_MODIFIED_CRAFTING_REAGENT_MODIFYING,Optional Crafting Reagent,1
 48753,PROFESSIONS_MODIFIED_CRAFTING_REAGENT_BASIC,Crafting Reagent,1
 48754,PROFESSIONS_MODIFIED_CRAFTING_REAGENT_FINISHING,Finishing Crafting Reagent,1
 48755,JAILERS_TOWER_LEVEL_TOAST_BOSS_RUSH,The Jailer's Gauntlet,1
@@ -20298,15 +20299,15 @@ You can find trainers for them in some settlements and cities.",1
 48935,ERR_CANT_TARGET_UNFRIENDLY_IN_OVERWORLD,You can't target this player outside of an instance,1
 48936,TRACKER_HEADER_MONTHLY_ACTIVITIES,Traveler's Log,1
 48937,SPELL_FAILED_CUSTOM_ERROR_642,The Waygate is still recharging.,1
-48938,MONTHLY_ACTIVITIES_TRACK,<Shift-click to track activity>,1
-48939,MONTHLY_ACTIVITIES_UNTRACK,<Shift-click to stop tracking>,1
+48938,MONTHLY_ACTIVITIES_TRACK,<Shift click to track activity>,1
+48939,MONTHLY_ACTIVITIES_UNTRACK,<Shift click to stop tracking>,1
 48941,SPELL_FAILED_CUSTOM_ERROR_643,Incorrect Ancient Waygate.,1
 48942,PERKS_PROGRAM_FREEZE_ITEM_INSTRUCTIONS,Drag an item here to freeze it and prevent it from expiring,1
 48943,PERKS_PROGRAM_FROZEN_ITEM_SET,Freezing:\n%s,1
 48944,INVTYPE_EQUIPABLESPELL_DEFENSIVE,Equipable Spell - Defensive,1
 48945,INVTYPE_EQUIPABLESPELL_UTILITY,Equipable Spell - Utility,1
 48946,INVTYPE_EQUIPABLESPELL_OFFENSIVE,Equipable Spell - Offensive,1
-48947,INVTYPE_EQUIPABLESPELL_MOBILITY,Equipable Spell - Mobility,1
+48947,INVTYPE_EQUIPABLESPELL_WEAPON,Equipable Spell - Weapon,1
 48948,SOCIAL_CONTRACT_TITLE_BAR,Social Contract,2
 48949,SOCIAL_CONTRACT_ACCEPT_BUTTON,Accept,2
 48950,SOCIAL_CONTRACT_DECLINE_BUTTON,Exit Game,2
@@ -20589,15 +20590,15 @@ It comes from your base profession skill, specializations, high quality reagents
 49279,TRANSFER_ABORT_UNIQUE_MESSAGE6,You must complete the Evoker starting experience before you can leave!,1
 49281,PROFESSION_TOOL_TOOLTIP_LINE,%s Tool,1
 49282,PROFESSION_ACCESSORY_TOOLTIP_LINE,%s Accessory,1
-49283,PROFESSIONS_SPECS_TOOLTIP_SPEND,Shift-click to improve.,1
-49284,PROFESSIONS_SPECS_TOOLTIP_UNLOCK,Shift-click to learn this sub-specialization.,1
+49283,PROFESSIONS_SPECS_TOOLTIP_SPEND,Shift click to improve.,1
+49284,PROFESSIONS_SPECS_TOOLTIP_UNLOCK,Shift click to learn this sub-specialization.,1
 49286,SPELL_FAILED_CUSTOM_ERROR_797,You have no Arcane Essences in your inventory.,1
 49294,CHARACTER_CUSTOMIZE_POPOUT_UNSELECTED_OPTION,-Select-,3
 49296,PROFESSIONS_SPECS_ADD_KNOWLEDGE,Apply Knowledge,1
 49297,CHAR_CREATE_CLASS_TRIAL_NEWCOMER,You do not currently meet the requirements to start a class trial.,2
 49298,PROFESSIONS_SPECS_OUT_OF_KNOWLEDGE,You do not have any %s to spend.,1
 49299,TRADESKILL_UNLEARNED_RECIPE_HEADER,Recipe Unlearned,1
-49300,HUD_EDIT_MODE_SHOW_GRID,Grid,1
+49300,HUD_EDIT_MODE_SHOW_GRID,Show Grid,1
 49301,PROFESSIONS_SPECS_CAN_UNLOCK_SPEC,You can unlock a new specialization.,1
 49302,PROFESSIONS_SPECS_PENDING_POINTS,You have unapplied changes to your specializations.,1
 49303,PROFESSIONS_FLYOUT_SHOW_NAME,Show Name,1
@@ -20657,7 +20658,7 @@ It comes from your base profession skill, specializations, high quality reagents
 49365,PRESS_AND_HOLD_CASTING_OPTION,Press and Hold Casting,1
 49366,PRESS_AND_HOLD_CASTING_OPTION_TOOLTIP,"If enabled, allows the player to press and hold a keyboard hotkey to continually cast a spell on an ActionBar without having to repeatedly press the button. This only supports keyboard hotkeys, clicking a spell with the mouse will still cast the spell a single time.",1
 49367,OPTIONAL_REAGENT_TOOLTIP_CLICK_TO_EXCHANGE,|cnDISABLED_FONT_COLOR:Left Click to exchange this Optional Reagent|r,1
-49368,PROFESSIONS_RECRAFTING_REPLACE_OPTIONAL,Do you want to replace %s?\nThis Optional Reagent will be destroyed upon Recrafting.,1
+49368,PROFESSIONS_RECRAFTING_REPLACE_OPTIONAL,Do you want to replace %s?\nIt will be destroyed upon Recrafting.,1
 49369,CHAR_CREATE_EVOKER_LEVEL_REQUIREMENT,"To create an Evoker, you must first have a level 50 character on this realm",2
 49370,CHAR_CREATE_EVOKER_DUPLICATE,You can't have more than one Evoker on this realm,2
 49372,SPELL_FAILED_CUSTOM_ERROR_802,The duck refuses to play while another maestro is nearby.,1
@@ -20739,7 +20740,7 @@ Try using higher quality reagents, improving your skill, or specializing to reac
 49468,MAJOR_FACTION_RENOWN_TOOLTIP_PROGRESS,Continue earning reputation with the %s to increase Renown and unlock rewards,1
 49469,PROFESSIONS_RECIPE_UNLEARNED,Recipe Unlearned,1
 49471,MAJOR_FACTION_RENOWN_CURRENT_PROGRESS,Current Progress: |cffffffff%d/%d|r,1
-49472,MONTHLY_ACTIVITIES_DAYS,|A:activities-clock:0:0:0:0|a Ends in: %d days,1
+49472,MONTHLY_ACTIVITIES_DAYS,|A:activities-clock:0:0:0:0|a Ends in: %s,1
 49473,HUD_EDIT_MODE_SETTING_AURA_FRAME_ICON_WRAP,Icon Wrap,1
 49474,HUD_EDIT_MODE_SETTING_AURA_FRAME_ICON_WRAP_DOWN,Down,1
 49475,HUD_EDIT_MODE_SETTING_AURA_FRAME_ICON_WRAP_UP,Up,1
@@ -20792,7 +20793,7 @@ Try using higher quality reagents, improving your skill, or specializing to reac
 49522,PROFESSIONS_ITEM_RECRAFT_UNLEARNED,You need to know an item's recipe to recraft it,1
 49523,TALENT_FRAME_EXPORT_TEXT,Loadout code copied to clipboard.,1
 49524,TALENT_FRAME_DROP_DOWN_IMPORT,Import,1
-49525,TALENT_FRAME_DROP_DOWN_EXPORT,Share |cnLIGHTGRAY_FONT_COLOR:(copy to clipboard)|r,1
+49525,TALENT_FRAME_DROP_DOWN_EXPORT,Share,1
 49526,HUD_EDIT_MODE_TALKING_HEAD_FRAME_LABEL,Talking Head,1
 49527,PERKS_PROGRAM_SERVER_ERROR,There was an error communicating with the Server.  Please try again later.,1
 49528,HUD_EDIT_MODE_VEHICLE_LEAVE_BUTTON_LABEL,Vehicle Exit Button,1
@@ -20853,7 +20854,7 @@ All loadouts that have this option enabled will share the same action bars.",1
 49599,PROFESSIONS_ORDER_CANCEL_FAILED_CLAIMED,"Failed to cancel order. Once an order has been claimed, it can no longer be cancelled.",1
 49600,POWER_TYPE_STORMENERGY,Storm Energy,0
 49602,TALENT_FRAME_NEW_LOADOUT_DISABLED_TOOLTIP,You've reached the maximum number of loadouts. Delete a loadout from any of your specializations to free up a slot.,1
-49605,PROFESSIONS_CUSTOMER_ORDER_REAGENT_PROVIDED,This reagent was provided in the order.,1
+49605,PROFESSIONS_CUSTOMER_ORDER_REAGENT_PROVIDED,This reagent was provided by the customer.,1
 49606,PROFESSIONS_CUSTOMER_NO_ORDERS,No orders found,1
 49607,TALENT_FRAME_SEARCH_TOOLTIP_NOT_ON_ACTIONBAR,Not on action bar,1
 49608,TALENT_FRAME_SEARCH_PREVIEW_OVERFLOW_FORMAT,And %s more,1
@@ -20881,9 +20882,9 @@ All loadouts that have this option enabled will share the same action bars.",1
 49632,PROFESSIONS_ORDER_ABOUT_TO_EXPIRE,This order is about to expire. Claiming it will not consume one of your daily orders.,1
 49633,SPELL_FAILED_CUSTOM_ERROR_811,You already have a caged soul of that type.,1
 49634,TALENT_FRAME_DROP_DOWN_TOOLTIP_EDIT,Loadout Settings,1
-49635,EDIT_MODE_HELPTIPS_1,Select from a preset or create a custom layout using this dropdown.,1
-49636,EDIT_MODE_HELPTIPS_2,Use the checkboxes to customize UI elements that are not normally visible.,1
-49637,EDIT_MODE_HELPTIPS_3,Click on any highlighted UI element on the HUD to get started.,1
+49635,EDIT_MODE_HELPTIPS_LAYOUTS,Select from a preset or create a custom layout using this dropdown.,1
+49636,EDIT_MODE_HELPTIPS_SHOW_HIDDEN_FRAMES,Use the checkboxes to customize UI elements that are not normally visible.,1
+49637,EDIT_MODE_HELPTIPS_SELECT_FRAMES,Click on any highlighted UI element on the HUD to get started.,1
 49638,SPELL_FAILED_CUSTOM_ERROR_812,You can't do that here.,1
 49639,EDIT_MODE_HELPTIP_BUTTON_TOOLTIP,Click on this to toggle on/off the help system for Edit Mode.,1
 49640,HUD_CLASS_TALENTS_NEW_LOADOUT_DIALOG_TITLE,New Loadout,1
@@ -20997,7 +20998,7 @@ All loadouts that have this option enabled will share the same action bars.",1
 49751,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYPOWERBAR,Display the power bars of your party members,1
 49752,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYAGGROHIGHLIGHT,Display red outline if player has aggro,1
 49753,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_USECLASSCOLORS,"Display class specific colors. If unchecked, default role colors will be used.",1
-49754,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYPETS,Display the summoned pets of your party members,1
+49754,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYPETS,Display the summoned pets of your raid and party members,1
 49755,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYMAINTANKANDASSIST,Highlight the main tank and the secondary tank in your party,1
 49756,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYNONBOSSDEBUFFS,Display any debuffs on your party members,1
 49757,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYONLYDISPELLABLEDEBUFFS,Display only dispellable debuffs on your party members,1
@@ -21048,7 +21049,7 @@ All loadouts that have this option enabled will share the same action bars.",1
 49802,HUD_EDIT_MODE_SETTING_UNIT_FRAME_GROUPS_COMBINE_GROUPS_HORIZONTAL,Combine Groups (Horizontal),1
 49803,HUD_EDIT_MODE_SETTING_UNIT_FRAME_GROUPS_COMBINE_GROUPS_VERTICAL,Combine Groups (Vertical),1
 49804,HUD_EDIT_MODE_SETTING_UNIT_FRAME_COLUMN_SIZE,Column Size,1
-49805,HUD_EDIT_MODE_ENABLE_SNAP,Snap,1
+49805,HUD_EDIT_MODE_ENABLE_SNAP,Snap to Elements,1
 49806,PROFESSIONS_CRAFTING_NO_LEARNED_RECIPES,You have not learned %s yet.|n|nTo view %s recipes apply the Unlearned Recipes filter to your search.,1
 49807,NPEV2_SELECT_TALENTS_TAB,Select the |cFF00FFFFTalents|r Tab,1
 49808,NPEV2_TALENTS_STARTER_BUILD,Can't decide what to choose? Try the |cFF00FFFFStarter Build|r preset.,1
@@ -21349,7 +21350,8 @@ Are you sure you want to place this order?",1
 50094,PROFESSIONS_AUTO_EQUIP_INSCRIPTION_ONLY,That item can only be equipped in Inscription equipment slots.,1
 50095,PROFESSIONS_CRAFTING_RECRAFTING,Recrafting,1
 50096,CRAFTING_ORDER_ILVL_DISPLAY_RANGE,%d - %d,1
-50097,PROFESSIONS_OPTIONAL_REAGENTS_ILVL_DISCLAIMER,Some recipes may be crafted at a higher item level using Optional Reagents.,1
+50097,PROFESSIONS_OPTIONAL_REAGENTS_ILVL_DISCLAIMER,Some recipes may be crafted at a higher item level using certain special or Optional Reagents.,1
+50098,SPELL_FAILED_CUSTOM_ERROR_823,The shadowflame is too strong to bear.,1
 50099,SLASH_TALENT_LOADOUT_BY_NAME1,/loadoutname,1
 50100,SLASH_TALENT_LOADOUT_BY_NAME2,/loadoutname,1
 50101,SLASH_TALENT_LOADOUT_BY_NAME3,/lon,1
@@ -21393,7 +21395,7 @@ Are you sure you want to place this order?",1
 50142,HUD_EDIT_MODE_SETTING_MICRO_MENU_ORDER,Order,1
 50143,HUD_EDIT_MODE_SETTING_MICRO_MENU_ORDER_DEFAULT,Default,1
 50144,HUD_EDIT_MODE_SETTING_MICRO_MENU_ORDER_REVERSE,Reverse,1
-50145,HUD_EDIT_MODE_SETTING_MICRO_MENU_SIZE,Size,1
+50145,HUD_EDIT_MODE_SETTING_MICRO_MENU_SIZE,Menu Size,1
 50146,PLAYER_DIFFICULTY_MYTHIC_PLUS,Mythic+,1
 50161,HUD_EDIT_MODE_SETTING_BAGS_ORIENTATION,Orientation,1
 50162,HUD_EDIT_MODE_SETTING_BAGS_ORIENTATION_HORIZONTAL,Horizontal,1
@@ -21416,18 +21418,17 @@ Are you sure you want to place this order?",1
 50182,PROFESSIONS_CRAFTING_ORDERS_FAVORITES_FULL,Your favorites list is full. Unfavorite a recipe to add this one.,1
 50184,TALENT_FRAME_INSPECT_COPY_BUTTON_TEXT,Copy Loadout Code,1
 50185,HUD_EDIT_MODE_EXPERIENCE_BAR_LABEL,Experience Bar,1
-50186,HUD_EDIT_MODE_REPUTATION_BAR_LABEL,Reputation Bar,1
 50190,MONTHLY_ACTIVITIES_RESTRICTED,"You must have an active subscription or game time
 to complete activities and earn rewards at the Trading Post",1
 50197,HUD_EDIT_MODE_DURABILITY_FRAME_LABEL,Equipment Durability,1
 50198,HUD_EDIT_MODE_SETTING_DURABILITY_FRAME_SIZE,Size,1
 50199,MONTHLY_ACTIVITIES_PROGRESSED,Traveler's Log Progress,1
 50200,MONTHLY_ACTIVITIES_UNAVAILABLE_TOOLTIP,Visit the Trading Post in %s to access the Traveler's Log.,1
-50201,BATTLEGROUND_MATCHMAKING_VALUE,Matchmaking|nValue,1
+50201,BATTLEGROUND_MATCHMAKING_VALUE,Starting|nMMV,1
 50202,MONTHLY_ACTIVITIES_HELP_1,"Complete your Traveler's Activities each month to earn tender and a special reward in your Collector's Cache.
 
 Progress made is account-wide.",1
-50203,MONTHLY_ACTIVITIES_HELP_2,Shift-click on activities to track them,1
+50203,MONTHLY_ACTIVITIES_HELP_2,Shift click on activities to track them,1
 50204,MONTHLY_ACTIVITIES_HELP_3,"Complete your Travelers Activities each month to earn tender and a special reward in your Collector's Cache.
 
 Progress made is account-wide.",1
@@ -21484,11 +21485,13 @@ Progress made is account-wide.",1
 50274,CENSOR_SOURCE_EXCLUDE,Censor Messages,1
 50275,OPTION_TOOLTIP_CENTER_SOURCE_EXCLUDE,Controls whose messages will be censored if found to be inappropriate,1
 50276,MONTHLY_ACTIVITIES_POINTS,Travel Points,1
+50277,POWER_TYPE_SHADOWLAVA_ENERGY,Shadowlava Energy,1
 50291,ERR_DIFFICULTY_CHANGE_PLAYER_ON_VEHICLE,Raid difficulty cannot be changed at this time. A player is on a vehicle.,1
 50292,CRAFTING_ORDERS_OWN_REAGENTS_CONFIRMATION,You are about to fill a Crafting Order that includes some of your own reagents. Are you sure?,1
 50293,CHAT_LANGUAGE_NAME_TAG,[%s] ,1
 50294,ERR_SOCKETING_REQUIRES_PRIMORDIAL_GEM,That slot requires a Primordial gem.,1
 50295,ERR_SOCKETING_PRIMORDIAL_GEM_ONLY_IN_PRIMORDIALSLOT,Primordial gems can only be placed in Primordial sockets.,1
+50297,SPELL_FAILED_CUSTOM_ERROR_827,You do not have the correct battle pet summoned.,1
 50299,BLIZZARD_STORE_CURRENCY_FORMAT_HKD,HK$%s,3
 50301,LANGUAGE_PROFICIENCY_FORMAT,%s (Proficiency %d/%d),1
 50302,PROF_SPECIALIZATION_HIGHLIGHTS,Specialization Highlights:,1
@@ -21514,31 +21517,178 @@ Auto-detect best available Graphics API.",3
 50327,GXAPI_TOOLTIP_CURRENT_API,Current Graphics API.,3
 50328,GXAPI_TOOLTIP_FAILED_SELECTED,"Selected Graphics API.
 Failed to load, next attempt on restart.",3
+50329,CHARACTER_CREATION_REQUIREMENTS_MISSING_REQUIRED_OPTIONS,You must choose an option in the marked categories,2
 50332,CENSORED_MESSAGE_REPORT,|cffffff00|Hreportcensoredmessage:%d|h |W[Report]|w|h|r,1
+50334,TALENTS_LINK_FORMAT,Linked Talents (%s %s),1
+50336,PRC_CUSTOMIZE_DIALOG_TEXT,You will now choose your new race and customize your character. Your race change will be permanently applied once you finish this process.,2
+50337,TALENT_FRAME_DROP_DOWN_EXPORT_CHAT_LINK,Post in Chat,1
+50338,TALENT_FRAME_DROP_DOWN_EXPORT_CLIPBOARD,Copy to Clipboard |cnNORMAL_FONT_COLOR:(to share online)|r,1
+50339,ITEM_UPGRADE_TOOLTIP_FORMAT_STRING,Upgrade Level: %s %d/%d,1
+50340,TALENT_BUILD_CHAT_LINK_TEXT,Talents: %s %s,1
+50341,ITEM_UPGRADE_DROPDOWN_LEVEL_FORMAT_STRING,%s %d/%d,1
+50342,ITEM_UPGRADE_FRAME_CURRENT_UPGRADE_FORMAT_STRING,Upgrade Level: %s %s/%s,1
 50346,MONTHLY_ACTIVITIES_RESTRICTED_TOOLTIP,Requires active game time.,1
 50347,INTERFACE_ACTION_BLOCKED_TOOLTIP,Interface actions failed because of this AddOn: %d,1
 50351,OPTION_TOOLTIP_VRS_STANDARD,Almost no loss to visual quality,3
 50352,OPTION_TOOLTIP_VRS_AGGRESSIVE,Minor loss to fine detail,3
+50353,CHAR_CUSTOMIZATION_TOOLTIP_PLAY_VOICE_SAMPLE,Play Sample Voice Line,3
+50354,CHAR_CUSTOMIZATION_TOOLTIP_MUTE_SOUND,Mute Sound,3
+50355,CHAR_CUSTOMIZATION_TOOLTIP_UNMUTE_SOUND,Unmute Sound,3
+50357,PROFESSIONS_MODIFIED_CRAFTING_REAGENT_MODIFYING_REQUIRED,Crafting Reagent,1
+50359,SPELL_FAILED_CUSTOM_ERROR_1000,You must be near one of the five dragonflight oathstones in the Dragon Isles.,1
+50361,OPTION_TOOLTIP_DISABLE_CHAT,Disables chat. You will not be able to send or receive messages.,1
 50362,PROF_ORDER_CANT_IGNORE_IN_PROGRESS,This player cannot be ignored until the order has been cancelled or completed.,1
 50363,PROF_ORDER_CANT_IGNORE_ALREADY_IGNORED,This player is already being ignored.,1
 50364,PROF_ORDER_CANT_WHISPER_OFFLINE,This player is offline.,1
 50365,PROF_ORDER_CANT_WHISPER_WRONG_FACTION,This player is the opposite faction.,1
+50366,SPELL_FAILED_CUSTOM_ERROR_1001,You can only use this item while airborne.,1
 50367,PROF_VIEW_TREE_OVERVIEW,Overview,1
+50368,SPELL_FAILED_CUSTOM_ERROR_828,You already have at least one conjured phial.,1
+50369,BINDING_NAME_TEXT_TO_SPEECH_STOP,Stop Text To Speech Playback,1
 50374,GLUE_TIMEEVENT_TITLE,Active TimeEvent,2
+50375,HUD_EDIT_MODE_SETTING_CAST_BAR_SHOW_CAST_TIME,Show Cast Time,1
+50376,SLASH_EDITMODE1,/editmode,1
+50377,ERROR_SLASH_EDITMODE_CANNOT_ENTER,Cannot enter edit mode at this time,1
+50378,CAST_BAR_CAST_TIME,%.1f s,1
 50379,SPELL_FAILED_CUSTOM_ERROR_830,You have already marked too many treasures in the Forbidden Reach. Collect a few before unsealing more Forbidden Reach treasure scrolls.,1
 50380,RAF_LEGACY_REWARDS_DESC,Legacy recruits can no longer be added but existing recruits will continue to provide RAF rewards.,1
+50381,PRC_FLOW_FINISH_LABEL,Accept,2
 50382,RAF_NEW_VERSION_PROMPT,Add friends to get rewards for this season!,1
+50383,PRC_FLOW_CUSTOMIZE_CHARACTER_STEP,You'll customize your character in the next step.,2
 50384,PLAIN_STRING_FORMAT,%s,1
+50387,HUD_EDIT_MODE_STATUS_TRACKING_BAR_LABEL,Status Bar %d,1
 50388,XP_TEXT_BANKED_XP_HEADER,Banked XP,1
 50389,RAF_CLAIM_MULTIPLE_REWARDS,Claim %d Rewards,1
+50390,HUD_EDIT_MODE_SETTING_MINIMAP_SIZE,Size,1
 50391,RAF_NEXT_REWARD_HELP_TEXT,Recruit friends to begin earning rewards when your friends start a subscription.,1
 50392,RAF_LEGACY_REWARDS_HELP_TEXT,Current Active Legacy Recruits: |cnHIGHLIGHT_FONT_COLOR:%d|r|nUnclaimed Rewards: |cnHIGHLIGHT_FONT_COLOR:%d|r,1
 50393,RAF_LATEST_REWARDS_HELP_TEXT,Current Active Recruits: |cnHIGHLIGHT_FONT_COLOR:%d|r|nUnclaimed Rewards: |cnHIGHLIGHT_FONT_COLOR:%d|r,1
+50394,BASE_SETTINGS_TAB,Base,3
+50395,BASE_GRAPHICS_QUALITY,Base Game Quality,3
 50399,RAF_NEXT_EARN_DATE,Next Earn Date: %s,1
+50400,HUD_EDIT_MODE_SETTING_MICRO_MENU_EYE_SIZE,Eye Size,1
 50401,EXPANSION_TRIAL_THANKS_TEXT_FINISHED_CAMPAIGN,You have reached the end of the Waking Shores campaign.|n|nContinue exploring the Dragon Isles on your own or purchase Dragonflight to continue the campaign!,1
 50402,EXPANSION_TRIAL_GAINED_LEVEL_HEADER,Buy the Expansion to Unlock,1
 50403,EXPANSION_TRIAL_GAINED_LEVEL_TEXT,Level %d,1
 50404,EXPANSION_TRIAL_THANKS_TEXT_GAINED_BANKED_LEVEL,"You can't level past 60 during this trial, but any experience you earn will be banked.|n|nBuy Dragonflight to apply your banked XP and continue leveling to 70!",1
+50405,SPELL_FAILED_CUSTOM_ERROR_831,Requires a Djaradin Pillar Shard.,1
 50409,VISITABLE_URL58,https://www.battlenet.com.cn/support/zh/help/home,2
 50410,VISITABLE_URL59,https://www.battlenet.com.cn/support/zh/ticket/status?loc,2
 50411,VISITABLE_URL60,https://www.battlenet.com.cn/support/zh/ticket/submit?loc,2
+50422,HUD_EDIT_MODE_ENABLE_ADVANCED_OPTIONS,Advanced Options,1
+50425,HUD_EDIT_MODE_SETTINGS_CATEGORY_TITLE_FRAMES,Frames,1
+50426,HUD_EDIT_MODE_SETTINGS_CATEGORY_TITLE_COMBAT,Combat,1
+50427,HUD_EDIT_MODE_SETTINGS_CATEGORY_TITLE_MISC,Misc,1
+50428,SPELL_FAILED_CUSTOM_ERROR_832,Requires a Resilient Stone. ,1
+50429,EDIT_MODE_HELPTIPS_ADVANCED_OPTIONS,Use the advanced options to see more UI elements,1
+50430,HUD_EDIT_MODE_BUFFS_AND_DEBUFFS_LABEL,Buffs and Debuffs,1
+50435,HUD_EDIT_MODE_PET_FRAME_LABEL,Pet Frame,1
+50436,SELF_CAST,Self Cast,1
+50437,SELF_CAST_AUTO,Auto,1
+50438,SELF_CAST_KEY_PRESS,Key Press,1
+50439,SELF_CAST_AUTO_AND_KEY_PRESS,Auto and Key Press,1
+50440,OPTIONS_TOOLTIP_SELF_CAST_AUTO,Automatically cast friendly spells on yourself if you do not have a friendly target.,1
+50441,OPTIONS_TOOLTIP_SELF_CAST_KEY_PRESS,"Hold down the selected key to cast spells on yourself, regardless of target.",1
+50442,OPTIONS_TOOLTIP_SELF_CAST_AUTO_AND_KEY_PRESS,"Automatically cast friendly spells on yourself if you do not have a friendly target. You can also hold down the selected key to cast spells on yourself, regardless of target.",1
+50443,OPTIONS_TOOLTIP_SELF_CAST_NONE,Disable self casting.,1
+50444,BINDING_HEADER_ACTIONBAR2,Action Bar 2,1
+50445,BINDING_HEADER_ACTIONBAR3,Action Bar 3,1
+50446,BINDING_HEADER_ACTIONBAR4,Action Bar 4,1
+50447,BINDING_HEADER_ACTIONBAR5,Action Bar 5,1
+50448,BINDING_HEADER_ACTIONBAR6,Action Bar 6,1
+50449,BINDING_HEADER_ACTIONBAR7,Action Bar 7,1
+50450,BINDING_HEADER_ACTIONBAR8,Action Bar 8,1
+50451,SPELL_FAILED_TARGET_IS_NOT_SWIMMING,Target is not swimming.,1
+50452,REQUIRED_REAGENT_TOOLTIP_CLICK_TO_ADD,Left Click to add a required Reagent,1
+50453,VAS_TOKEN_TOOLTIP_STATUS_DISABLED_ON_REALM,[PH] Character service not available in this realm.,2
+50454,PROFESSIONS_REQUIRES_REAGENTS,Requires: %s,1
+50457,BATTLEGROUND_MATCHMAKING_VALUE_TOOLTIP,Your Matchmaking Value determines which players join your match. Players with similar Matchmaking Values are more likely to be matched together.,1
+50458,BATTLEGROUND_NEW_RATING_TOOLTIP,Your Personal Rating at the end of this match,1
+50461,SPELL_FAILED_CUSTOM_ERROR_2222,You must be in visage form to do this.,1
+50462,MATCHMAKING_YOUR_UPDATED_MATCHMAKING_VALUE,Your Matchmaking Value: %s |TInterface\\CHATFRAME\\ChatFrameExpandArrow:16:16|t %s,1
+50463,BATTLEGROUND_ROLE_AVERAGE_MMV,Role Average Matchmaking Value: %s,1
+50464,HUD_EDIT_MODE_RAID_FRAME_SETTINGS,Raid Frame Settings,1
+50465,SEARCH_RESULTS_STRING_WITH_COUNT,"Search Results for \""%s\""(%d)",1
+50466,KILLING_BLOW_TOOLTIP_TITLE,Killing Blows,1
+50467,HONORABLE_KILLS_TOOLTIP_TITLE,Honorable Kills,1
+50468,DEATHS_TOOLTIP_TITLE,Deaths,1
+50469,DAMAGE_DONE_TOOLTIP_TITLE,Damage Done,1
+50470,HEALING_DONE_TOOLTIP_TITLE,Healing Done,1
+50471,BATTLEGROUND_MATCHMAKING_VALUE_TOOLTIP_TITLE,Start of Match Matchmaking Value,1
+50472,BATTLEGROUND_RATING_TOOLTIP_TITLE,Current Rating,1
+50473,BATTLEGROUND_NEW_RATING_TOOLTIP_TITLE,New Rating,1
+50474,RATING_CHANGE_TOOLTIP_TITLE,Rating Change,1
+50475,RATING_CHANGE_TOOLTIP_SOLO_SHUFFLE,"Personal Rating is gained or lost based on your performance against opponents of the same role
+",1
+50476,SEARCH_RESULTS_SHOW_COUNT,Show All %d Results,1
+50478,ITEM_UPGRADE_PROGRESS_LEVEL_FORMAT,Level %d/%d  %d |cnDISABLED_FONT_COLOR:(%d-%d)|r,1
+50479,ITEM_UPGRADE_PROGRESS_LEVEL_FORMAT_STRING,%s %d/%d  %d |cnDISABLED_FONT_COLOR:(%d-%d)|r,1
+50480,ITEM_UPGRADE_PROGRESS_ITEM_LEVEL_FORMAT,%d |cnDISABLED_FONT_COLOR:(%d-%d)|r,1
+50481,ITEM_UPGRADE_ERROR_NOT_ENOUGH_CURRENCY,Not enough %s.,1
+50482,ITEM_UPGRADE_ERROR_NOT_ENOUGH_CURRENCY_TWO,Not enough %s and %s.,1
+50483,ITEM_UPGRADE_ERROR_NOT_ENOUGH_CURRENCY_MULTIPLE,Not enough upgrade currency.,1
+50484,HUD_EDIT_MODE_SETTING_OBJECTIVE_TRACKER_OPACITY,Opacity,1
+50485,ITEM_LEVEL_UPGRADE_MAX,Item Level %d,1
+50486,COMMUNITY_MEMBER_LIST_CROSS_FACTION,"%s|r
+You can't do outdoor and queued content with this character.",1
+50487,SPELL_FAILED_CUSTOM_ERROR_650,You cannot cast that while Aura of Reckoning is talented.,1
+50488,COMPACT_UNIT_FRAME_PROFILE_DISPLAYONLYHEALERPOWERBARS,Display Only Healer Power Bars,1
+50489,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYONLYHEALERPOWERBARS,Display only healer power bars. Non-healer power bars will be hidden.,1
+50490,PVP_FRAMES_LABEL,PVP Enemy Frames,1
+50491,PVP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYPOWERBAR,Display Power Bars,1
+50492,OPTION_TOOLTIP_PVP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYPOWERBAR,Display the power bars of pvp opponents,1
+50493,PVP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYONLYHEALERPOWERBARS,Display Only Healer Power Bars,1
+50494,OPTION_TOOLTIP_PVP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYONLYHEALERPOWERBARS,Display only healer power bars. Non-healer power bars will be hidden.,1
+50495,PVP_COMPACT_UNIT_FRAME_PROFILE_USECLASSCOLORS,Display Class Colors,1
+50496,OPTION_TOOLTIP_PVP_COMPACT_UNIT_FRAME_PROFILE_USECLASSCOLORS,"Display class specific colors. If unchecked, default colors will be used.",1
+50497,PVP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYPETS,Display Pets,1
+50498,OPTION_TOOLTIP_PVP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYPETS,Display the summoned pets of your pvp opponents.,1
+50499,PVP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT_NONE,None,1
+50500,OPTION_TOOLTIP_PVP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT_NONE,Do not display any health text,1
+50501,PVP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT_HEALTH,Health Remaining,1
+50502,OPTION_TOOLTIP_PVP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT_HEALTH,Display remaining health as a number,1
+50503,PVP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT_LOSTHEALTH,Health Lost,1
+50504,OPTION_TOOLTIP_PVP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT_LOSTHEALTH,Display a number only when health is lost,1
+50505,OPTION_TOOLTIP_PVP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT_PERC,Display remaining health as a percentage,1
+50506,PVP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT_PERC,Health Percentage,1
+50507,PVP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT,Display Health Text,1
+50508,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT,Determines what type of health text to show in raid frames.,1
+50509,OPTION_TOOLTIP_PVP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT,Determines what type of health text to show in pvp frames.,1
+50516,ITEM_UPGRADE_DISCOUNT_TOOLTIP_CURRENT_CHARACTER,This upgrade costs fewer %s because you have already acquired an item with higher item level (%d) in this slot.,1
+50517,ITEM_UPGRADE_DISCOUNT_TOOLTIP_OTHER_CHARACTER,This upgrade costs fewer %s because a character on your account has already acquired an item with higher item level (%d) in this slot.,1
+50518,ITEM_UPGRADE_DISCOUNT_TOOLTIP_TWO_SLOT_CURRENT_CHARACTER,This upgrade costs fewer %s because you have already acquired two %s with higher item level (%d).,1
+50519,ITEM_UPGRADE_DISCOUNT_TOOLTIP_TWO_SLOT_OTHER_CHARACTER,This upgrade costs fewer %s because a character on your account has already acquired two %s with higher item level (%d).,1
+50520,ITEM_UPGRADE_DISCOUNT_TOOLTIP_PARTIAL_TWO_HAND_CURRENT_CHARACTER,This upgrade costs fewer %s because you have already acquired a weapon set with higher item level (%d).,1
+50521,ITEM_UPGRADE_DISCOUNT_TOOLTIP_PARTIAL_TWO_HAND_OTHER_CHARACTER,This upgrade costs fewer %s because a character on your account has already acquired a weapon set with higher item level (%d).,1
+50522,ITEM_UPGRADE_DISCOUNT_TOOLTIP_TITLE,%s Discount,1
+50523,ITEM_UPGRADE_DISCOUNT_TOOLTIP_ACCOUNT_WIDE,Account-Wide,1
+50524,ITEM_UPGRADE_DISCOUNT_ITEM_TYPE_TRINKET,trinkets,1
+50525,ITEM_UPGRADE_DISCOUNT_ITEM_TYPE_FINGER,rings,1
+50526,ITEM_UPGRADE_DISCOUNT_ITEM_TYPE_ONE_HANDED_WEAPON,one-handed weapons,1
+50533,LOOT_HISTORY_CURRENT_WINNER,%s (%d),1
+50534,LOOT_HISTORY_PASSED,Passed,1
+50535,SPELL_FAILED_CUSTOM_ERROR_850,Requires Niffen Cave Dive Key and shield disabled.,1
+50554,LOOT_HISTORY_WAITING_ON,Waiting on: ,1
+50555,LOOT_HISTORY_INFO_TEXT,Loot rolls from dungeons and raids are displayed here,1
+50556,LOOT_HISTORY_PLAYER_DELIMITER,", ",1
+50557,LOOT_HISTORY_OFF_SPEC_FMT,%s |cnDISABLED_FONT_COLOR:(Off-Spec)|r,1
+50559,LOOT_HISTORY_ROLL_TIE,Tie,1
+50570,LOOT_HISTORY_ROLL_TUTORIAL,Your loot rolls appear here.|n|nItems you win will go to your bags automatically. ,1
+50576,ITEM_UPGRADE_ERROR_NOT_ENOUGH_CURRENCY_DOWNGRADE,Higher level Shadowflame Crests can be downgraded at Vaskarn in Loamm.,1
+50577,PROFESSIONS_CUSTOMER_ORDER_REAGENT_NOTPROVIDED,You will be providing this reagent.,1
+50578,PROFESSIONS_CUSTOMER_ORDER_REAGENTS_SOME,You will be providing some of the reagents.,1
+50579,PROFESSIONS_CUSTOMER_ORDER_REAGENTS_NONE,You will be providing all of the reagents.,1
+50580,PROFESSIONS_CUSTOMER_ORDER_REAGENTS_ALL,All reagents provided by customer.,1
+50583,TRANSMOGRIFICATION,Transmogrification,1
+50584,LOOT_ROLL_YOU_WON_NO_SPAM_TRANSMOG,|HlootHistory:%d|h[Loot]|h: You (Transmogrification - %d) Won: %s,1
+50585,LOOT_ROLL_WON_NO_SPAM_TRANSMOGRIFICATION,|HlootHistory:%d|h[Loot]|h: %s (Transmogrification - %d) Won: %s,1
+50588,BATTLEFIELD_BONUS_REWARDS,Honor and Conquest gains increased by %d%%,1
+50589,SPELL_FAILED_CUSTOM_ERROR_835,Myrrit cannot carry any more maps. Go on a dig with him!,1
+50590,PROFESSIONS_PREREQUISITE_REAGENTS_CUSTOMER,One or more optional reagents is missing a requirement.,1
+50591,PROFESSIONS_PREREQUISITE_REAGENTS,One or more optional reagents is missing a requirement.,1
+50592,CONFIRM_UPGRADE_ITEM_BIND,Are you sure you wish to spend %s to upgrade the following item? Upgrading will cause this item to become soulbound.,1
+50593,SPELL_FAILED_CUSTOM_ERROR_851,You cannot lure anything in this area for a few minutes. Elusive Creature Bait was recently used.,1
+50594,SPELL_FAILED_CUSTOM_ERROR_2424,You can't begin a molten ritual this close to another one.,1
+50596,ITEM_UPGRADE_FRAGMENTS_TOTAL,Fragments Earned: |c%s%s/%s|r,1
+50597,WEEKLY_REWARDS_MYTHIC_KEYSTONE,Mythic Keystone,1
+51168,PROFESSIONS_DISALLOW_DOWNGRADE,You cannot recraft this item to use a less powerful Spark,1
