@@ -2316,7 +2316,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 4528,,248,1640
 4529,,239,1640
 4530,,249,1640
-4531,,19,1914
+4531,Long Text Test Test Test,19,1914
 4532,Test Widget Tooltip,208,1914
 4533,,273,1914
 4534,%2389fn,273,1625
@@ -6315,9 +6315,15 @@ ID,Value_lang,ReqID,ParentWidgetID
 12262,Dragon Isles,19,4556
 12263,Top gnomes are tracking down the boat's current location.,208,4556
 12264,Unknown Arrival Time,273,4556
+12268,,19,4558
+12269,Collect Dragon Isles Supplies from various activities around the Isles. (addCurrency 2003 10000),208,4558
+12270,Construction Progress,273,4558
 12271,Elemental Portals active,19,4559
 12272,,273,4559
 12273,Close Elemental Portals to cut off power to the Primalist's ritual.,208,4559
+12274,Construction Progress,19,4560
+12275,Collect Dragon Isles Supplies from various activities around the Isles. (addCurrency 2003 10000),208,4560
+12276,Dragon Isles Supplies,273,4560
 12398,,19,4602
 12399,Use Primal Motes to break through the barrier and destroy this conduit!,208,4602
 12400,Primal Barrier Strength,273,4602
@@ -6366,7 +6372,22 @@ ID,Value_lang,ReqID,ParentWidgetID
 12468,,394,4616
 12539, |TInterface\Icons\INV_TreasureVault_Key01.BLP:16:16:0:-3|t Keys available: |cFFFFFFFF%38805e|r,52,4642
 12540,,394,4642
+12602,Recovered Strength,19,4651
+12603,,273,4651
+12604,Ebyssian needs to recover his strength before he can extinguish more fires.,208,4651
 12616,Test,275,4653
+12617,Fyrakk Assaults,19,4654
+12618,Fyrakk will arive with reinforcements to decimate those who have stolen from him.,208,4654
+12619,Time Until Fyrakk's Arrival,273,4654
+12620,Conduit Energy,19,4655
+12621,%w,273,4655
+12622,,208,4655
+12623,,19,4656
+12624,,208,4656
+12625,,273,4656
+12626,,19,4657
+12627,,208,4657
+12628,,273,4657
 12629,Trial begins in: %23175x,52,4658
 12630,,394,4658
 12631,Trial In Progress,52,4659
@@ -6398,6 +6419,12 @@ ID,Value_lang,ReqID,ParentWidgetID
 12752,,19,4698
 12753,Time Remaining,273,4698
 12754,,208,4698
+12770,Researchers Objectives Completed: ,19,4700
+12771,,273,4700
+12772,|Hspell:409646|h,208,4700
+12843,Fyrakk's Fury,19,4706
+12844,Interferring with Fyrakk's forces will earn his fury and he will send a greater foe to stop you all.,208,4706
+12845,Next Fyrakk Attack,273,4706
 12849,,212,4708
 12850,,277,4708
 12851,,212,4709
@@ -6414,6 +6441,11 @@ ID,Value_lang,ReqID,ParentWidgetID
 12862,,277,4714
 12863,,212,4715
 12864,,277,4715
+12865,Fyrakk is approaching.,433,4716
+12866,Fyrakk will arive with reinforcements to decimate those who have stolen from him.,434,4716
+12875,Show the Elderwing that you really care.,208,4720
+12876,Speed Dating,273,4720
+12877,,19,4720
 12878,Creatures here may drop a |TInterface\Icons\ability_shawaterelemental_reform.blp:16:16:0:-3|t |cFFFFFFFF[Primal Water Core]|r.,52,4721
 12879,,394,4721
 12880,Creatures here may drop a |TInterface\Icons\inv_elemental_primal_fire.blp:16:16:0:-3|t |cFFFFFFFF[Primal Fire Core]|r.,52,4722
@@ -6434,12 +6466,21 @@ ID,Value_lang,ReqID,ParentWidgetID
 12895,,394,4731
 12896,The cooking is over... but the soup is |nready to eat!!|nTime Left: %22515ht,52,4732
 12897,,394,4732
+12898,Fyrakk's Fury,19,4733
+12899,Interferring with Fyrakk's forces will earn his fury and he will send a greater foe to stop you all.,208,4733
+12900,Next Fyrakk Attack,273,4733
+12906,,19,4736
+12907,Bring ingredients to contribute to the pot of incense!,208,4736
+12908,Smelliness,273,4736
 12909,WS1 (23519),19,4737
 12910,,273,4737
 12911,,208,4737
 12912,WS2 (23520),19,4738
 12913,,273,4738
 12914,,208,4738
+12915,,19,4739
+12916,Grab the jars of Snuffer Powder and help put out the fires!,208,4739
+12917,Fires,273,4739
 12918,WS1 (23519) Remaining Time: %23519ht,52,4740
 12919,,394,4740
 12920,WS2 (23520) Remaining Time: %23520ha,52,4741
@@ -6453,17 +6494,293 @@ ID,Value_lang,ReqID,ParentWidgetID
 12931,,19,4745
 12932,The Envoy will give out their next task when the timer is complete.,208,4745
 12933,Next Quest In,273,4745
+12936,,19,4746
+12937,Repel Amythora's attacks.,208,4746
+12938,Sparring,273,4746
+12939,Rewards available:,52,4747
+12940,,394,4747
+12941,Fyrakk's Fury,19,4748
+12942,Interferring with Fyrakk's forces will earn his fury and he will send a greater foe to stop you all.,208,4748
+12943,Next Fyrakk Attack,273,4748
+12944,Fyrakk Assaults,19,4749
+12945,Fyrakk will arive with reinforcements to decimate those who have stolen from him.,208,4749
+12946,Time Until Fyrakk's Arrival,273,4749
+12947,|TInterface\ICONS\inv_misc_coinbag10.BLP:24|t  |cFFC845FADraconic Treasures|r,52,4750
+12948,,394,4750
 12953,,19,4753
 12954,The spirit senses impending danger...,208,4753
 12955,Ancestral Foresight,273,4753
+12956,,19,4754
+12957,Bring Mustmettle's Smellibubbles back to the pot!,208,4754
+12958,Smelliness,273,4754
 12959,Dissipate the storm to earn |TInterface\Icons\INV_10_WorldDropLevelingOptionalReagent_misc_orb_Ice.BLP:16:16:0:-3|t |cFFA335EE[Condensed Frost Magic]|r.,52,4755
 12960,,394,4755
+12961,,19,4756
+12962,Ritual Disruption,273,4756
+12963,Disrupt the ritual to prevent a magmaclaw population explosion!,208,4756
 12964,Dissipate the storm to earn |TInterface\Icons\INV_Misc_Orb_05.blp:16:16:0:-3|t |cFFA335EE[Condensed Fire Magic]|r.,52,4758
 12965,,394,4758
 12966,Dissipate the storm to earn |TInterface\Icons\INV_10_WorldDropLevelingOptionalReagent_misc_orb_Earth.BLP:16:16:0:-3|t |cFFA335EE[Condensed Earth Magic]|r.,52,4759
 12967,,394,4759
 12968,Dissipate the storm to earn |TInterface\ICONS\INV_Misc_Orb_01.blp:16:16:0:-3|t |cFFA335EE[Condensed Nature Magic]|r.,52,4760
 12969,,394,4760
+12970,,19,4761
+12971,Defeat Agitated Crystallines to contribute to the geological survey!,208,4761
+12972,Survey Progress,273,4761
+12979,,19,4764
+12980,Satiation,273,4764
+12981,Feed the hydra nearby enemies!,208,4764
 12982,,19,4744
 12983,Next Quest In,273,4744
 12984,The Envoy will give out their next task when the timer is complete.,208,4744
+12985,%0ss,433,4765
+12986,,434,4765
+13001,Titan forces arrive in:,19,4771
+13002,,273,4771
+13003,,208,4771
+13007,The Sundered Flame return in:,19,4772
+13008,,273,4772
+13009,,208,4772
+13010,|A:minimap-genericevent-hornicon:20:20|a Researchers Under Fire,19,4773
+13011,,273,4773
+13012,The Sundered Flame threat is building and will force the researchers to withdraw soon.,208,4773
+13039,Boulder Chunks Cleared,19,4781
+13040,,273,4781
+13041,Place Boulder Chunks here to clear the testing area. ,208,4781
+13188,,19,4782
+13189,Lift weights to earn points!,208,4782
+13190,Challenge Points,273,4782
+13193,Repair Progress,19,4784
+13194,,273,4784
+13195,Bring titan parts to the station to repair it so it can power other titan equipment.,208,4784
+13196,Repair Progress,19,4785
+13197,,273,4785
+13198,Bring titan parts to Greta to help her repair the console for testing. ,208,4785
+13202,Ore Samples Gathered,19,4787
+13203,,273,4787
+13204,Bring Ore Samples to the sulfur pool to help Greta identify the contaminant. ,208,4787
+13205,Ore Samples Gathered,19,4788
+13206,,273,4788
+13207,Bring Ore Samples to the sulfur pool to help Greta neutralize the contaminant. ,208,4788
+13208,Pillar Shards Restored,19,4789
+13209,,273,4789
+13210,Bring pillar shards to restore the elmental pillar. ,208,4789
+13211,Altar Stones Restored,19,4790
+13212,,273,4790
+13213,Bring resilient stones to restore the Zaqali altar. ,208,4790
+13214,Starting Soon,19,4791
+13215,,208,4791
+13216,,273,4791
+13220,Event begins in: %23697x,52,4792
+13221,,394,4792
+13222,Help Doopurt's wagon reach Loamm!,52,4793
+13223,,394,4793
+13224,,19,4794
+13225,,208,4794
+13226,Active,273,4794
+13227,Starting Soon,52,4795
+13228,,394,4795
+13232,|TInterface\ICONS\INV_Collections_Armor_Ammopouch_C_01_green.blp:24|t  |cFFa335eeClanging Dirt-Covered Pouch|r,52,4799
+13233,,394,4799
+13234,Rewards available:,52,4800
+13235,,394,4800
+13236,|TInterface\ICONS\INV_Collections_Armor_Ammopouch_C_01_darkbrown.blp:24|t  |cFF0070ddClinking Dirt-Covered Pouch|r,52,4802
+13237,,394,4802
+13238,Starting Soon,19,4803
+13239,,208,4803
+13240,,273,4803
+13241,Agitated Crystallines are attacking Ironjaw's |nGeological Survey!,52,4804
+13242,,394,4804
+13243,Starting Soon,19,4805
+13244,,208,4805
+13245,,273,4805
+13246,The Smellomancer has begun brewing his stink!,52,4806
+13247,,394,4806
+13248,Delvert's smelly cart is on the move!,52,4807
+13249,,394,4807
+13250,Starting Soon,19,4808
+13251,,208,4808
+13252,,273,4808
+13253,Help save Big Ol' Bessie from the fire!,52,4809
+13254,,394,4809
+13255,Starting Soon,19,4810
+13256,,208,4810
+13257,,273,4810
+13258,%0ss,433,4811
+13259,Time remaining until Titan forces arrive to reinstate the lockdown.,434,4811
+13260,%0ss,433,4812
+13261,Time until the Sundered Flame return with a larger force.,434,4812
+13262,%0ss,433,4813
+13263,Time remainig before Rannan is forced to withdraw.,434,4813
+13264,Time until next expedition: %23756ha,52,4814
+13265,,394,4814
+13266,The Glimmerogg drogbar are harvesting crystals |nfrom the Giant Glimmerfish!,52,4815
+13267,,394,4815
+13271,Starting Soon,19,4817
+13272,,208,4817
+13273,,273,4817
+13274,Starting Soon,19,4818
+13275,,273,4818
+13276,,208,4818
+13277,Destroy the djaradin's dragonkilling weapons!,52,4819
+13278,,394,4819
+13279,The Primalists have begun summoning a |nmassive water elemental!,52,4820
+13280,,394,4820
+13281,Starting Soon,19,4821
+13282,,208,4821
+13283,,273,4821
+13284,A weightlifting competition is underway |nin Glimmerogg!,52,4822
+13285,,394,4822
+13286,Starting Soon,19,4823
+13287,,208,4823
+13288,,273,4823
+13289,Starting Soon,19,4824
+13290,,273,4824
+13291,,208,4824
+13292,Commune with the fiery spirits of the caldera to |ncomplete the Zaqali ritual.,52,4825
+13293,,394,4825
+13294,Time Remaining: %23298ha,52,4826
+13295,,394,4826
+13296,Deactivate the Primalist runestones!,52,4827
+13297,,394,4827
+13298,Starting Soon,19,4828
+13299,,273,4828
+13300,,208,4828
+13301,Complete the ritual to summon and defeat |nthe elemental!,52,4829
+13302,,394,4829
+13303,Starting Soon,19,4830
+13304,,273,4830
+13305,,208,4830
+13311,Charges Remaining,19,4833
+13312,,273,4833
+13313,,208,4833
+13314,Charges Remaining,19,4834
+13315,,273,4834
+13316,,208,4834
+13317,Empowered,19,4835
+13318,,273,4835
+13319,Channel into the skull to empower the ritual component.,208,4835
+13320,Starting Soon,19,4836
+13321,,273,4836
+13322,,208,4836
+13323,A magmaclaw spawning swarm threatens to |noverrun the cavern!,52,4837
+13324,,394,4837
+13325,Starting Soon,19,4838
+13326,,273,4838
+13327,,208,4838
+13328,Starting Soon,19,4839
+13329,,273,4839
+13330,,208,4839
+13331,Starting Soon,19,4840
+13332,,273,4840
+13333,,208,4840
+13334,Starting Soon,19,4841
+13335,,273,4841
+13336,,208,4841
+13337,Starting Soon,19,4842
+13338,,273,4842
+13339,,208,4842
+13340,Feed enemies to the hungry hydra to keep it satisfied!,52,4843
+13341,,394,4843
+13342,Replace Neltharion's banners with your own!,52,4844
+13343,,394,4844
+13344,Primalists have set up pylons and are infusing |nthe crystal fields!,52,4845
+13345,,394,4845
+13346,Invasive crystals are driving nearby crystalline creatures mad!,52,4846
+13347,,394,4846
+13348,A crumbling titan statue needs some repair!,52,4847
+13349,,394,4847
+13371,,19,4705
+13372,,273,4705
+13373,,208,4705
+13386,Optional: Magmaclaw Snappers stomped,19,4859
+13387,,273,4859
+13388,Stomp on the magmaclaw snappers to keep the ritual area clear for Thaelin. ,208,4859
+13389,Fighting Sarkareth's forces:,19,4860
+13390,,273,4860
+13391,,208,4860
+13392,|A:minimap-genericevent-hornicon:20:20|a Researchers Under Fire,52,4861
+13393,The Sundered Flame threat is building and will force the researchers to withdraw soon.,394,4861
+13394,%23298ht,52,4862
+13395,,394,4862
+13396,Lava Infusion,19,4863
+13397,,273,4863
+13398,Stand in the lava ritual circle to infuse the elemental with lava.,208,4863
+13399,Earth Infusion,19,4864
+13400,,273,4864
+13401,Stand in the earth ritual circle to infuse the elemental with earth.,208,4864
+13402,|cnNORMAL_FONT_COLOR:- Zaralek Cavern:|r %39731e/%39732e,52,4865
+13403,,394,4865
+13418,Researchers Objectives Completed: ,52,4867
+13419,|Hspell:409646|h,394,4867
+13420,%23296w/%23734w,52,4868
+13421,|Hspell:411691|h,394,4868
+13422,Possible Rewards: ,52,4869
+13423,,394,4869
+13424,|TInterface\ICONS\INV_Misc_Bag_19.blp|t  |cFFC845FAIndebted Researcher's Gift|r,52,4870
+13425,,394,4870
+13426,|TInterface\ICONS\INV_Misc_Bag_19.blp|t |cFF0070ddThankful Researcher's Gift|r,52,4871
+13427,,394,4871
+13428,|TInterface\ICONS\INV_Misc_Bag_19.blp|t |cFF1eff00Appreciative Researcher's Gift|r,52,4872
+13429,,394,4872
+13430,|TInterface\ICONS\INV_Misc_Bag_19.blp|t |cFFffffffResearcher's Gift|r,52,4873
+13431,,394,4873
+13432,You have not completed the event this week. ,52,4874
+13433,,394,4874
+13437,,19,4876
+13438,Maps allow Myrrit to take you on an adventure! Ask him how to find more.,208,4876
+13439,Dig Maps,273,4876
+13445,Maps allow Myrrit to take you on an adventure! Ask him how to find more.,212,4875
+13446,,277,4875
+13449,Dig Maps: %39771e,56,4877
+13450,Maps allow Myrrit to take you on an adventure! Ask him how to find more.,57,4877
+13451,,59,4877
+13452,,60,4877
+13453,,62,4877
+13454,,63,4877
+13455,,67,4877
+13456,,66,4877
+13457,,72,4877
+13458,,73,4877
+13459,,74,4877
+13460,,75,4877
+13461,Dig Maps: %39771e,52,4878
+13462,Maps allow Myrrit to take you on an adventure! Ask him how to find more.,394,4878
+13463,Dig maps allow Myrrit to take you on an adventure! Ask him how to find more.,212,4879
+13464,,277,4879
+13465,Dig maps allow Myrrit to take you on an adventure! Ask him how to find more.,212,4880
+13466,,277,4880
+13467,Dig maps allow Myrrit to take you on an adventure! Ask him how to find more.,212,4881
+13468,,277,4881
+13469,Dig maps allow Myrrit to take you on an adventure! Ask him how to find more.,212,4882
+13470,,277,4882
+13471,Fyrakk's Fury,19,4883
+13472,Interferring with Fyrakk's forces will earn his fury and he will send a greater foe to stop you all.,208,4883
+13473,Next Fyrakk Attack,273,4883
+13474,You have earned the Tier 1 Researcher's Gift |nfor your assistance this week. ,52,4884
+13475,,394,4884
+13476,You have earned the Tier 2 Researcher's Gift |nfor your assistance this week. ,52,4885
+13477,,394,4885
+13478,You have earned the Tier 3 Researcher's Gift |nfor your assistance this week. ,52,4886
+13479,,394,4886
+13480,You have earned the Tier 4 Researcher's Gift |nfor your assistance this week. ,52,4887
+13481,,394,4887
+13482,- Renown Rank: |cFFFFFFFF%2402c|r,52,4888
+13483,,394,4888
+13484,Loamm Niffen:,52,4889
+13485,,394,4889
+13486,- Completing all steps in the |cFFFFFFFFResearchers Under Fire|r|n event will grant bonus rewards.,52,4890
+13487,,394,4890
+13488,- |cFFFFFFFFMyrrit|r can go on additional Sniffenseeking digs this week.,52,4891
+13489,,394,4891
+13490,,19,4892
+13491,Attack the Giant Glimmerfish to send the crystal scales flying!,208,4892
+13492,Scales Collected,273,4892
+13505,Myrrit is collecting dig maps to go on his next adventure. Ask him about it!,212,4897
+13506,,277,4897
+13507,,19,4898
+13508,,208,4898
+13509,Something is coming...,273,4898
+13527,,621,4904
+13528,,622,4904
+13529,Item Level 500,627,4904

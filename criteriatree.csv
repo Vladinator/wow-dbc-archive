@@ -10505,7 +10505,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 14730,Claim victory in the Gunship Battle,14729,1,0,13353,1,0
 14732,Defeat Sapphiron in Naxxramas without any member of the raid having a frost resist value over 100 in 25-player mode.,0,0,4,0,0,0
 14733,Sapphiron,14732,1,0,7568,1,2
-14735,Use Spring Flowers to place rabbit ears upon players of at least 10th level.,0,0,4,0,0,0
+14735,Use Spring Flowers to place rabbit ears upon players.,0,0,4,0,0,0
 14736,Blood Elf,14735,1,0,9124,0,0
 14737,Draenei,14735,1,0,9143,1,0
 14738,Human,14735,1,0,9144,5,0
@@ -10789,7 +10789,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 15110,Shadowmourne,15109,1,0,14760,1,2
 15112,Complete 100 victories in Twin Peaks.,0,0,4,0,0,0
 15113,Complete 100 victories in Twin Peaks,15112,100,0,16512,1,1
-15115,"Defeat Wise Mari without being hit by Corrupted Water, Hydrolance, or Wash Away in Temple of the Jade Serpent on Heroic Difficulty.",0,0,4,0,0,0
+15115,"Defeat Wise Mari without being hit by Corrupted Water, Hydrolance, or Wash Away in Temple of the Jade Serpent on Heroic Difficulty.",0,1,8,0,0,0
 15117,Trigger 15 explosions within 15 seconds during the Saboteur Kip'tilak encounter on Heroic Difficulty.,0,0,4,0,0,0
 15118,Trigger 15 explosions within 15 seconds.,15117,15,0,19135,0,0
 15120,Defeat the Deathbringer before Mark of the Fallen Champion is cast five times in 25-player mode.,0,1,8,0,0,0
@@ -15592,7 +15592,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 22071,,21083,8,0,19591,14,0
 22072,,21083,8,0,19592,12,0
 22073,,21083,8,0,19593,13,0
-22074,Wise Mari,21078,1,0,19230,0,0
+22074,Wise Mari,21078,1,8,0,0,8192
 22076,,21083,12,0,19583,3,0
 22077,Sha of Doubt,21078,1,0,19234,3,0
 22078,Liu Flameheart,21078,1,0,19235,2,0
@@ -17385,30 +17385,30 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 24610,High Inquisitor Whitemane,24603,1,0,533,6,0
 24611,Darkmaster Gandling,24603,1,0,19263,7,0
 24612,Wing Leader Ner'onok,24603,1,0,19252,8,0
-24613,Wise Mari,24603,1,0,19230,9,0
-24614,Zao Sunseeker,24603,1,0,19231,10,0
-24615,Strife and Peril,24603,1,0,20673,11,0
-24616,Ook-ook,24603,1,0,19236,12,0
-24617,Hoptallus,24603,1,0,19237,13,0
-24618,Trial of the King,24603,1,0,20674,14,0
-24619,Gekkan,24603,1,0,19256,15,0
-24620,Gu Cloudstrike,24603,1,0,19239,16,0
-24621,Master Snowdrift,24603,1,0,19244,17,0
-24622,Sha of Violence,24603,1,0,19240,18,0
-24623,Saboteur Kip'tilak,24603,1,0,19245,19,0
-24624,Striker Ga'dok,24603,1,0,19246,20,0
-24625,Commander Ri'mok,24603,1,0,19247,21,0
-24626,Houndmaster Braun,24603,1,0,19266,22,0
-24627,Armsmaster Harlan,24603,1,0,19268,23,0
-24628,Thalnos the Soulrender,24603,1,0,19270,24,0
-24629,Brother Korloff,24603,1,0,19271,25,0
-24630,Instructor Chillheart,24603,1,0,19259,26,0
-24631,Jandice Barov,24603,1,0,19260,27,0
-24632,Rattlegore,24603,1,0,19261,28,0
-24633,Lilian Voss,24603,1,0,19262,29,0
-24634,Vizier Jin'bak,24603,1,0,19249,30,0
-24635,Commander Vo'jak,24603,1,0,19250,31,0
-24636,General Pa'valak,24603,1,0,19251,32,0
+24613,Wise Mari,24603,1,5,0,33,8192
+24614,Zao Sunseeker,24603,1,0,19231,9,0
+24615,Strife and Peril,24603,1,0,20673,10,0
+24616,Ook-ook,24603,1,0,19236,11,0
+24617,Hoptallus,24603,1,0,19237,12,0
+24618,Trial of the King,24603,1,0,20674,13,0
+24619,Gekkan,24603,1,0,19256,14,0
+24620,Gu Cloudstrike,24603,1,0,19239,15,0
+24621,Master Snowdrift,24603,1,0,19244,16,0
+24622,Sha of Violence,24603,1,0,19240,17,0
+24623,Saboteur Kip'tilak,24603,1,0,19245,18,0
+24624,Striker Ga'dok,24603,1,0,19246,19,0
+24625,Commander Ri'mok,24603,1,0,19247,20,0
+24626,Houndmaster Braun,24603,1,0,19266,21,0
+24627,Armsmaster Harlan,24603,1,0,19268,22,0
+24628,Thalnos the Soulrender,24603,1,0,19270,23,0
+24629,Brother Korloff,24603,1,0,19271,24,0
+24630,Instructor Chillheart,24603,1,0,19259,25,0
+24631,Jandice Barov,24603,1,0,19260,26,0
+24632,Rattlegore,24603,1,0,19261,27,0
+24633,Lilian Voss,24603,1,0,19262,28,0
+24634,Vizier Jin'bak,24603,1,0,19249,29,0
+24635,Commander Vo'jak,24603,1,0,19250,30,0
+24636,General Pa'valak,24603,1,0,19251,31,0
 24637,Statistic: Pandaria Different Dungeon Bosses Killed,0,1,7,0,0,0
 24638,Sha of Doubt,24637,1,0,19234,0,0
 24639,Yan-Zhu the Uncasked,24637,1,0,19108,1,0
@@ -17419,30 +17419,30 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 24644,High Inquisitor Whitemane,24637,1,0,533,6,0
 24645,Darkmaster Gandling,24637,1,0,19263,7,0
 24646,Wing Leader Ner'onok,24637,1,0,19252,8,0
-24647,Wise Mari,24637,1,0,19230,9,0
-24648,Zao Sunseeker,24637,1,0,19231,10,0
-24649,Strife and Peril,24637,1,0,20673,11,0
-24650,Ook-ook,24637,1,0,19236,12,0
-24651,Hoptallus,24637,1,0,19237,13,0
-24652,Trial of the King,24637,1,0,20674,14,0
-24653,Gekkan,24637,1,0,19256,15,0
-24654,Gu Cloudstrike,24637,1,0,19239,16,0
-24655,Master Snowdrift,24637,1,0,19244,17,0
-24656,Sha of Violence,24637,1,0,19240,18,0
-24657,Saboteur Kip'tilak,24637,1,0,19245,19,0
-24658,Striker Ga'dok,24637,1,0,19246,20,0
-24659,Commander Ri'mok,24637,1,0,19247,21,0
-24660,Houndmaster Braun,24637,1,0,19266,22,0
-24661,Armsmaster Harlan,24637,1,0,19268,23,0
-24662,Thalnos the Soulrender,24637,1,0,19270,24,0
-24663,Brother Korloff,24637,1,0,19271,25,0
-24664,Instructor Chillheart,24637,1,0,19259,26,0
-24665,Jandice Barov,24637,1,0,19260,27,0
-24666,Rattlegore,24637,1,0,19261,28,0
-24667,Lilian Voss,24637,1,0,19262,29,0
-24668,Vizier Jin'bak,24637,1,0,19249,30,0
-24669,Commander Vo'jak,24637,1,0,19250,31,0
-24670,General Pa'valak,24637,1,0,19251,32,0
+24647,Wise Mari,24637,1,5,0,32,8192
+24648,Zao Sunseeker,24637,1,0,19231,9,0
+24649,Strife and Peril,24637,1,0,20673,10,0
+24650,Ook-ook,24637,1,0,19236,11,0
+24651,Hoptallus,24637,1,0,19237,12,0
+24652,Trial of the King,24637,1,0,20674,13,0
+24653,Gekkan,24637,1,0,19256,14,0
+24654,Gu Cloudstrike,24637,1,0,19239,15,0
+24655,Master Snowdrift,24637,1,0,19244,16,0
+24656,Sha of Violence,24637,1,0,19240,17,0
+24657,Saboteur Kip'tilak,24637,1,0,19245,18,0
+24658,Striker Ga'dok,24637,1,0,19246,19,0
+24659,Commander Ri'mok,24637,1,0,19247,20,0
+24660,Houndmaster Braun,24637,1,0,19266,21,0
+24661,Armsmaster Harlan,24637,1,0,19268,22,0
+24662,Thalnos the Soulrender,24637,1,0,19270,23,0
+24663,Brother Korloff,24637,1,0,19271,24,0
+24664,Instructor Chillheart,24637,1,0,19259,25,0
+24665,Jandice Barov,24637,1,0,19260,26,0
+24666,Rattlegore,24637,1,0,19261,27,0
+24667,Lilian Voss,24637,1,0,19262,28,0
+24668,Vizier Jin'bak,24637,1,0,19249,29,0
+24669,Commander Vo'jak,24637,1,0,19250,30,0
+24670,General Pa'valak,24637,1,0,19251,31,0
 24671,Statistic: Pandaria Dungeon Boss Killed the Most,0,1,6,0,0,0
 24672,Sha of Doubt,24671,1,0,19234,0,0
 24673,Yan-Zhu the Uncasked,24671,1,0,19108,1,0
@@ -17453,30 +17453,30 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 24678,High Inquisitor Whitemane,24671,1,0,533,6,0
 24679,Darkmaster Gandling,24671,1,0,19263,7,0
 24680,Wing Leader Ner'onok,24671,1,0,19252,8,0
-24681,Wise Mari,24671,1,0,19230,9,0
-24682,Zao Sunseeker,24671,1,0,19231,10,0
-24683,Strife and Peril,24671,1,0,20673,11,0
-24684,Ook-ook,24671,1,0,19236,12,0
-24685,Hoptallus,24671,1,0,19237,13,0
-24686,Trial of the King,24671,1,0,20674,14,0
-24687,Gekkan,24671,1,0,19256,15,0
-24688,Gu Cloudstrike,24671,1,0,19239,16,0
-24689,Master Snowdrift,24671,1,0,19244,17,0
-24690,Sha of Violence,24671,1,0,19240,18,0
-24691,Saboteur Kip'tilak,24671,1,0,19245,19,0
-24692,Striker Ga'dok,24671,1,0,19246,20,0
-24693,Commander Ri'mok,24671,1,0,19247,21,0
-24694,Houndmaster Braun,24671,1,0,19266,22,0
-24695,Armsmaster Harlan,24671,1,0,19268,23,0
-24696,Thalnos the Soulrender,24671,1,0,19270,24,0
-24697,Brother Korloff,24671,1,0,19271,25,0
-24698,Instructor Chillheart,24671,1,0,19259,26,0
-24699,Jandice Barov,24671,1,0,19260,27,0
-24700,Rattlegore,24671,1,0,19261,28,0
-24701,Lilian Voss,24671,1,0,19262,29,0
-24702,Vizier Jin'bak,24671,1,0,19249,30,0
-24703,Commander Vo'jak,24671,1,0,19250,31,0
-24704,General Pa'valak,24671,1,0,19251,32,0
+24681,Wise Mari,24671,1,5,0,32,8192
+24682,Zao Sunseeker,24671,1,0,19231,9,0
+24683,Strife and Peril,24671,1,0,20673,10,0
+24684,Ook-ook,24671,1,0,19236,11,0
+24685,Hoptallus,24671,1,0,19237,12,0
+24686,Trial of the King,24671,1,0,20674,13,0
+24687,Gekkan,24671,1,0,19256,14,0
+24688,Gu Cloudstrike,24671,1,0,19239,15,0
+24689,Master Snowdrift,24671,1,0,19244,16,0
+24690,Sha of Violence,24671,1,0,19240,17,0
+24691,Saboteur Kip'tilak,24671,1,0,19245,18,0
+24692,Striker Ga'dok,24671,1,0,19246,19,0
+24693,Commander Ri'mok,24671,1,0,19247,20,0
+24694,Houndmaster Braun,24671,1,0,19266,21,0
+24695,Armsmaster Harlan,24671,1,0,19268,22,0
+24696,Thalnos the Soulrender,24671,1,0,19270,23,0
+24697,Brother Korloff,24671,1,0,19271,24,0
+24698,Instructor Chillheart,24671,1,0,19259,25,0
+24699,Jandice Barov,24671,1,0,19260,26,0
+24700,Rattlegore,24671,1,0,19261,27,0
+24701,Lilian Voss,24671,1,0,19262,28,0
+24702,Vizier Jin'bak,24671,1,0,19249,29,0
+24703,Commander Vo'jak,24671,1,0,19250,30,0
+24704,General Pa'valak,24671,1,0,19251,31,0
 24705,Statistic: Pandaria Raid Bosses Killed,0,1,5,0,0,0
 24706,,24705,1,0,19115,0,2
 24707,,24705,1,0,19634,1,2
@@ -26450,8 +26450,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 36338,,36337,1,0,24786,0,2
 36339,Wailing Caverns - Dungeon Scenario - Bonus - Verdan the Everling,0,0,4,0,0,0
 36340,Verdan the Everliving defeated,36339,1,0,24787,0,0
-36341,Wise Mari defeated,36325,1,0,19230,0,0
-36342,Wise Mari defeated,36333,1,0,19230,0,0
+36341,Wise Mari defeated,36325,1,0,55874,0,0
+36342,Wise Mari defeated,36333,1,0,55874,0,0
 36343,Blackrock Caverns Bosses,0,0,4,0,0,0
 36344,Rom'ogg Bonecrusher defeated,36343,1,0,24792,0,0
 36345,"Corla, Herald of Twilight defeated",36343,1,0,24793,1,0
@@ -50140,9 +50140,6 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 65590,75% of required killed,65589,75,0,39935,0,0
 65591,8.0 Vol'dun - Aided Escape - Nisha Rescued (JAP),0,1,5,0,0,6144
 65592,Nisha rescued,65591,1,0,39936,0,0
-65593,Earn License - Battle for Azeroth | Allied Races Early Access,0,1,8,0,0,0
-65594,,65593,0,0,39937,0,0
-65595,,65593,0,0,39938,1,0
 65596,8.0 Zandalar Intro Breadcrumb Launch,0,0,4,0,0,0
 65597,,65596,1,0,39939,0,0
 65598,,65596,1,0,39940,1,0
@@ -50193,30 +50190,30 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 65644,Council o' Captains defeated,65642,1,0,37367,1,0
 65645,Ring of Booty defeated,65642,1,0,37368,2,0
 65646,Harlan Sweete defeated,65642,1,0,37369,3,0
-65647,Enemy Forces,65642,261,9,0,4,0
-65648,,65647,4,0,39957,0,0
-65649,,65647,4,0,39958,1,0
-65650,,65647,4,0,39959,2,0
-65651,,65647,4,0,39960,3,0
-65652,,65647,6,0,39961,4,0
-65654,,65647,6,0,39963,5,0
-65655,,65647,4,0,39964,6,0
-65656,,65647,4,0,39965,7,0
-65657,,65647,2,0,39966,8,0
-65658,,65647,1,0,39967,9,0
-65659,,65647,4,0,39968,10,0
-65662,,65647,4,0,39971,11,0
-65663,,65647,4,0,39972,12,0
-65664,,65647,4,0,39973,13,0
-65665,,65647,4,0,39974,14,0
-65666,,65647,1,0,39975,15,0
-65667,,65647,4,0,39976,16,0
-65668,,65647,3,0,39977,17,0
-65669,,65647,3,0,39978,18,0
-65670,,65647,6,0,39979,19,0
-65671,,65647,4,0,39980,20,0
-65672,,65647,4,0,39981,21,0
-65673,,65647,6,0,39982,22,0
+65647,Enemy Forces,65642,296,9,0,4,0
+65648,,65647,4,0,39957,3,0
+65649,,65647,4,0,39958,4,0
+65650,,65647,4,0,39959,5,0
+65651,,65647,4,0,39960,6,0
+65652,,65647,6,0,39961,7,0
+65654,,65647,6,0,39963,8,0
+65655,,65647,4,0,39964,9,0
+65656,,65647,4,0,39965,10,0
+65657,,65647,2,0,39966,11,0
+65658,,65647,1,0,39967,12,0
+65659,,65647,4,0,39968,13,0
+65662,,65647,4,0,39971,14,0
+65663,,65647,4,0,39972,15,0
+65664,,65647,4,0,39973,16,0
+65665,,65647,4,0,39974,17,0
+65666,,65647,1,0,39975,18,0
+65667,,65647,4,0,39976,19,0
+65668,,65647,3,0,39977,20,0
+65669,,65647,3,0,39978,21,0
+65670,,65647,6,0,39979,22,0
+65671,,65647,4,0,39980,23,0
+65672,,65647,4,0,39981,24,0
+65673,,65647,6,0,39982,25,0
 65674,8.0 Dungeon - Outlaw Town - Challenge (More Trash),0,0,4,0,0,0
 65675,Skycap'n Kragg defeated,65674,1,0,37366,0,0
 65676,Council o' Captains defeated,65674,1,0,37367,1,0
@@ -50977,21 +50974,21 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 66587,Cragmaw the Infested defeated,66585,1,0,39712,1,0
 66588,Sporecaller Zancha defeated,66585,1,0,39713,2,0
 66589,Unbound Abomination defeated,66585,1,0,39714,3,0
-66590,Enemy Forces,66585,252,9,0,4,0
-66591,,66590,1,0,40422,0,0
-66592,,66590,6,0,40423,1,0
-66593,,66590,4,0,40424,2,0
-66594,,66590,4,0,40425,3,0
-66595,,66590,4,0,40426,4,0
-66596,,66590,4,0,40427,5,0
-66597,,66590,4,0,40428,6,0
-66598,,66590,4,0,40429,7,0
-66599,,66590,4,0,40430,8,0
-66600,,66590,4,0,40431,9,0
-66601,,66590,4,0,40432,10,0
-66602,,66590,6,0,40433,11,0
-66603,,66590,4,0,40434,12,0
-66604,,66590,6,0,40435,13,0
+66590,Enemy Forces,66585,300,9,0,4,0
+66591,,66590,1,0,40422,3,0
+66592,,66590,10,0,40423,4,0
+66593,,66590,5,0,40424,5,0
+66594,,66590,5,0,40425,6,0
+66595,,66590,5,0,40426,7,0
+66596,,66590,10,0,40427,8,0
+66597,,66590,5,0,40428,9,0
+66598,,66590,4,0,40429,10,0
+66599,,66590,4,0,40430,11,0
+66600,,66590,3,0,40431,12,0
+66601,,66590,3,0,40432,13,0
+66602,,66590,8,0,40433,14,0
+66603,,66590,7,0,40434,15,0
+66604,,66590,10,0,40435,16,0
 66605,8.0 Dungeon - The Underrot - Challenge (More Trash),0,0,4,0,0,0
 66606,Elder Leaxa defeated,66605,1,0,39711,0,0
 66607,Cragmaw the Infested defeated,66605,1,0,39712,1,0
@@ -53689,9 +53686,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 69654,Bane of the Chain,69648,1,0,41906,5,0
 69655,Ruined the Ruins,69648,1,0,41922,6,0
 69656,,69453,0,0,42242,10,32
-69657,,65647,1,0,42243,23,0
-69658,,65647,4,0,42244,24,0
-69659,,65647,4,0,42245,25,0
+69657,,65647,1,0,42243,26,0
+69658,,65647,4,0,42244,27,0
+69659,,65647,4,0,42245,28,0
 69660,,65679,4,0,42245,23,0
 69661,,65679,4,0,42244,24,0
 69662,,65679,1,0,42243,25,0
@@ -62234,7 +62231,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 78729,TK5,78721,1,0,44300,7,16
 78730,TK6,78721,1,0,44301,8,16
 78731,TK7,78721,1,0,44302,9,16
-78786,,65647,4,0,44450,26,0
+78786,,65647,4,0,44450,29,0
 78787,,65679,4,0,44450,26,0
 78788,Talk to the witness,78638,1,0,44451,1,0
 79053,Hearthstone Tavern - Buddy Cop - Swap to Arthur (JLW),0,0,4,0,0,0
@@ -64719,13 +64716,13 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 82006,,66322,4,0,46659,26,0
 82007,,66460,4,0,46657,24,0
 82008,,66490,4,0,46659,24,0
-82009,,65647,4,0,46657,27,0
+82009,,65647,4,0,46657,30,0
 82010,,65679,4,0,46659,27,0
 82011,,66630,9,0,46657,21,0
 82012,,66653,9,0,46659,21,0
 82013,,66554,4,0,46657,23,0
 82014,,66572,4,0,46659,23,0
-82015,,66590,4,0,46657,14,0
+82015,,66590,4,0,46657,17,0
 82016,,66610,4,0,46659,14,0
 82020,"M.C., Hammered",0,0,4,0,0,0
 82021,,82020,0,0,46431,0,0
@@ -64987,8 +64984,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 82471,,65729,7,0,46659,24,0
 82472,,65750,7,0,46658,23,0
 82473,,65750,7,0,46657,24,0
-82474,,66590,4,0,46658,15,0
-82475,,66590,4,0,46659,16,0
+82474,,66590,4,0,46658,18,0
+82475,,66590,4,0,46659,19,0
 82476,,66610,4,0,46658,15,0
 82477,,66610,4,0,46657,16,0
 82478,,66554,4,0,46658,24,0
@@ -65007,8 +65004,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 82491,,66288,4,0,46659,28,0
 82492,,66322,4,0,46658,27,0
 82493,,66322,4,0,46657,28,0
-82494,,65647,4,0,46658,28,0
-82495,,65647,4,0,46659,29,0
+82494,,65647,4,0,46658,31,0
+82495,,65647,4,0,46659,32,0
 82496,,65679,4,0,46658,28,0
 82497,,65679,4,0,46657,29,0
 82498,,66377,4,0,46658,33,0
@@ -65585,10 +65582,10 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 83116,,65750,10,0,46950,26,0
 83117,,65750,10,0,46951,27,0
 83118,,65750,10,0,46952,28,0
-83119,,65647,4,0,46949,30,0
-83120,,65647,4,0,46950,31,0
-83121,,65647,4,0,46951,32,0
-83122,,65647,4,0,46952,33,0
+83119,,65647,4,0,46949,33,0
+83120,,65647,4,0,46950,34,0
+83121,,65647,4,0,46951,35,0
+83122,,65647,4,0,46952,36,0
 83123,,65679,6,0,46949,30,0
 83124,,65679,6,0,46950,31,0
 83125,,65679,6,0,46951,32,0
@@ -65609,10 +65606,10 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 83140,,66414,6,0,46950,36,0
 83141,,66414,6,0,46951,37,0
 83142,,66414,6,0,46952,38,0
-83143,,66590,4,0,46949,17,0
-83144,,66590,4,0,46950,18,0
-83145,,66590,4,0,46951,19,0
-83146,,66590,4,0,46952,20,0
+83143,,66590,4,0,46949,20,0
+83144,,66590,4,0,46950,21,0
+83145,,66590,4,0,46951,22,0
+83146,,66590,4,0,46952,23,0
 83147,,66610,6,0,46949,17,0
 83148,,66610,6,0,46950,18,0
 83149,,66610,6,0,46951,19,0
@@ -72029,8 +72026,6 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 90954,Grievous Tormentor defeated,90953,1,0,51676,0,0
 90955,Tormentor defeated,0,0,4,0,0,0
 90956,Grievous Tormentor defeated,90955,1,0,51676,0,0
-90957,9.1 Ch 3 - Free Primus Scenario - Stage 1 -  (STM),0,0,4,0,0,0
-90958,Speak with the Primus,90957,1,0,51677,0,0
 90959,9.1 Ch 3 - Free Primus Stage 2 - (STM),0,0,4,0,0,0
 90960,Repel Mawsworn,90959,100,9,0,1,0
 90961,,90960,2,0,51678,0,0
@@ -77098,7 +77093,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 137527,,137522,0,0,54679,4,0
 137528,,137522,0,0,54680,5,0
 137529,,137522,0,0,54681,6,0
-137530,Timewalking Dungeons completed,0,5,8,0,0,8193
+137530,Timewalking Dungeons completed,0,5,5,0,0,8193
 137531,,137530,0,0,54682,0,0
 137532,,137530,0,0,54683,1,0
 137533,,137530,0,0,54684,2,0
@@ -81076,7 +81071,6 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 141977,,141971,1,0,57371,5,0
 141978,,141971,1,0,57372,6,0
 141979,Elemental Overflow obtained,0,3,4,0,0,0
-141980,Elemental Overflow obtained,141979,500,0,57373,0,1
 141981,Dragon races completed,0,15,5,0,0,8193
 141982,,141981,0,0,57374,0,0
 141983,Intricately-Painted Eggs or Magnificently-Painted Egg placed,0,1,8,0,0,1
@@ -81387,6 +81381,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 142300,Public Crafting Orders fulfilled,142299,5,0,57623,0,1
 142301,Catch 100 fish with Oversized Bobber,0,0,4,0,0,0
 142302,Catch 100 fish with the Oversized Bobber active.,142301,100,0,57625,0,1
+142303,Personal Crafting Orders fulfilled,0,0,4,0,0,0
+142304,Personal Crafting Orders fulfilled,142303,5,0,57626,0,1
 142305,Waking Shores - Reverse - Bronze,0,0,4,0,0,0
 142306,,142305,1,0,57481,0,48
 142307,,142305,1,0,57482,1,48
@@ -81594,6 +81590,11 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 142622,Iskaara Elder Sik'ek in Thaldraszus,142615,1,0,57845,6,0
 142623,Elder Razlok in Thaldraszus,142615,1,0,57846,7,0
 142624,Evoker,68043,1,0,57850,3,0
+142625,10.1 Underground - Campaign - Ch 1 - Q05 - The Throughway - S1 - Completion Critera (JSS),0,0,4,0,0,0
+142627,10.1 UG - Ch 1 - Primalist Blockade - S4 - Boss Arena Entered (JSS),0,0,4,0,0,0
+142628,Boss Arena Entered,142627,1,0,58230,0,0
+142629,10.1 Underground - Campaign - Ch 1 - Q05 - The Throughway - SCENARIO - S5 - Completion Critera (JSS),0,0,4,0,0,0
+142630,Summitshaper Lorac slain,142629,1,0,57855,0,0
 142647,10.07 - Forbidden Reach - Treasure Room - Mysterious Cache Looted (MDE),0,0,4,0,0,4096
 142648,Mysterious Cache Looted,142647,1,0,57869,0,16
 142649,10.07 - Forbidden Reach - Treasure Room - Gold Pile Looted (MDE),0,0,4,0,0,4096
@@ -81684,6 +81685,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 142761,,140434,1,0,57960,8,0
 142762,Win 100 Rated Solo Shuffle rounds while at Elite rank during Dragonflight Season 1.,0,0,4,0,0,0
 142763,,142762,100,0,57961,0,1
+142764,10.1 UG - Ch 1 - Primalist Blockade - Step 6C - End Scenario (JSS),0,0,4,0,0,0
+142765,Speak with Sabellian,142764,1,0,57962,0,0
 142768,Kill all of the Primalist monsters that can appear during the Storm's Fury event within the Primalist Future.,0,0,4,0,0,0
 142769,"Glakis, Winter's Wrath",142768,1,0,57965,0,0
 142770,"Nimbulatus, Storm's Wrath",142768,1,0,57966,1,0
@@ -81703,10 +81706,16 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 142820,Talk to Drek'thar to Begin,140751,1,0,57998,0,0
 142821,10.0.7 Orc Heritage - Alterac Valley Scenario - Step 4 (ECV),0,0,4,0,0,0
 142822,Defeat the Elemental Projection,142821,1,0,57999,0,0
+142839,Suffusion Crucible looted,0,1,8,0,0,4096
+142840,,142839,1,0,58000,0,0
 142848,"Complete ""The Storm's Fury"" event within the Primalist Future.",0,0,4,0,0,4096
 142849,,142848,0,0,58006,0,0
 142850,"""A Worthy Hunt"" Completed",0,0,4,0,0,0
 142851,Unlocks Dragon Shards of Knowledge dropping account-wide,142850,0,0,54580,0,0
+142852,Slay the Disciple of Fyrakk.,0,1,8,0,0,8192
+142853,Kretchenwrath slain,142852,1,0,58007,0,0
+142854,10.1 Fyrakk Assaults - Scenario Step 1 - Fyrakk Arrives (ZTO),0,0,4,0,0,0
+142855,Fyrakk arrived,142854,1,0,58008,0,0
 142856,The elements begin churning,0,0,4,0,0,0
 142857,The elements begin churning,142856,1,0,58009,0,0
 142858,Charge the lightning conduits,0,0,4,0,0,0
@@ -81837,10 +81846,10 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 142995,Darkbrew Lager,12078,1,0,58118,259,2
 142996,10.0.7 Professions - Zul'Gurub Restoration - Quest Complete,0,0,4,0,0,0
 142997,,142996,1,0,58119,0,0
-142998,,137872,0,0,58120,5,0
-142999,,137872,0,0,58121,6,0
-143000,,137872,0,0,58122,7,0
-143001,,137872,0,0,58123,8,0
+142998,,137872,0,0,58120,6,0
+142999,,137872,0,0,58121,7,0
+143000,,137872,0,0,58122,8,0
+143001,,137872,0,0,58123,9,0
 143002,,141057,0,0,58124,1,0
 143003,Fish up a Gurubashi Cache in Zul'Gurub,0,1,8,0,0,0
 143004,,143003,1,0,58126,0,0
@@ -81861,9 +81870,41 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 143171,Paws of Thunder,143165,1,0,58217,5,0
 143172,A New Vocation,143165,1,0,58218,6,0
 143173,They're Full of Stars!,143165,1,0,58219,7,0
+143177,10.1 UG - Ch 1 - Primalist Blockade - Step 1A - Assure Friends (JSS),0,0,4,0,0,0
+143178,Assure Friends/Boss RP,143177,1,0,57853,0,0
+143179,10.1 Underground - Campaign - Ch 1 - Q05 - The Throughway - S1 - Battle RP Begins (JSS),0,0,4,0,0,0
+143180,Start RP Ends/Battle RP Begins,143179,1,0,57963,0,0
+143181,10.1 Underground - Campaign - Ch 1 - Q05 - The Throughway - S1 - Discuss Plan (JSS),0,0,4,0,0,0
+143182,Discuss Plan,143181,1,0,58232,0,0
+143183,10.1 UG - Ch 1 - Primalist Blockade - Step 2A - Fire Portals Destroyed (JSS),0,0,4,0,0,0
+143184,Fire Portals Destroyed,143183,2,0,58223,0,0
+143185,10.1 Underground - Campaign - Ch 1 - Q05 - The Throughway - S2 - Completion Criteria (JSS),0,0,4,0,0,0
+143187,10.1 UG - Ch 1 - Primalist Blockade - Step 3A1 - Acquire Portalkeeper's Fire Key (JSS),0,0,4,0,0,0
+143189,Fire Key Acquired,143187,1,0,58224,0,0
+143190,10.1 UG - Ch 1 - Primalist Blockade - Step 3B - Earth Portal Destroyed (JSS),0,0,4,0,0,0
+143191,Earth Portal Destroyed,143190,1,0,58225,0,0
+143192,10.1 UG - Ch 1 - Primalist Blockade - Step 2B - Grand Fire Portal Destroyed (JSS),0,0,4,0,0,0
+143193,Grand Fire Portal Destroyed,143192,1,0,58226,0,0
+143194,10.1 UG - Ch 1 - Primalist Blockade - Step 3D - Step 3 Ends (JSS),0,0,4,0,0,0
+143197,10.1 UG - Ch 1 - Primalist Blockade - Step 4A - Earth Pylon Destroyed (JSS),0,0,4,0,0,0
+143198,Earth Pylon Destroyed,143197,1,0,58227,0,0
+143199,10.1 UG - Ch 1 - Primalist Blockade - Step 4B - Fire Pylon Destroyed (JSS),0,0,4,0,0,0
+143200,Fire Pylon Destroyed,143199,1,0,58228,0,0
+143201,10.1 Underground - Campaign - Ch 1 - Q05 - The Throughway - SCENARIO - S3 - Completion Criteria (JSS),0,0,4,0,0,0
+143203,10.1 Underground - Campaign - Ch 1 - Q05 - The Throughway - SCENARIO - S4 - Lorac Slain (JSS),0,0,4,0,0,0
+143204,Lorac Slain,143203,1,0,58231,0,0
+143205,10.1 UG - Ch 1 - Primalist Blockade - Step 5C - Fire Portal Destroyed (JSS),0,0,4,0,0,0
+143206,Fire Portal Destroyed,143205,1,0,58232,0,0
+143207,10.1 UG - Ch 1 - Primalist Blockade - Step 6A - Begin RTC (JSS),0,0,4,0,0,0
+143208,Begin RTC,143207,1,0,58233,0,0
+143209,10.1 UG - Ch 1 - Primalist Blockade - Step 6B - End RTC (JSS),0,0,4,0,0,0
+143210,End RTC,143209,1,0,58234,0,0
 143211,"Complete Quest ID 74485 ""Try and Try Again?""",0,0,4,0,0,0
 143212,,143211,1,0,58235,0,0
 143213,,143211,1,1,58236,1,0
+143214,10.1 Underground - Side - Snailies - Snailspiration - Shimmershell Snail (JLW),0,0,4,0,0,4096
+143215,Max Level Shimmershell Snail Summoned,143214,1,0,58237,0,0
+143217,Discuss the plan with Sabellian,142625,1,0,58683,0,0
 143219,Dragonriding Glyphs - Forbidden Reach,0,0,4,0,0,0
 143220,,143219,1,0,58238,0,48
 143221,,143219,1,0,58239,1,48
@@ -81875,8 +81916,66 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 143227,,143219,1,0,58245,7,48
 143230,Unlock 150 doors within the Zskera Vaults using Zskera Vault Keys.,0,0,4,0,0,0
 143231,,143230,150,0,58209,0,1
+143233,10.1 Underground - Campaign - Ch 1 - Q05 - The Throughway - S1 - RTC Ends (JSS),0,0,4,0,0,0
+143234,IZCb Ends,143233,1,0,59089,0,0
+143235,Defeat the Sundered Flame Patrols,0,90,4,0,0,0
+143236,Northern patrol defeated,144107,5,0,58254,0,0
+143237,10.1 Research Scenario - Step Last - Ending the Expedition,0,0,4,0,0,0
+143238,Talk to Rannan to complete this expedition,143237,1,0,58255,0,0
+143239,Titan forces cleared,0,60,4,0,0,0
+143240,,144961,2,0,58256,2,1
+143241,Clear out the hostilie forces and wildlife on the Molten Stair to the west.,0,15,5,0,0,8192
+143242,,143241,1,0,58267,0,0
+143243,10.1 Research Scenario - Step 4 - Sample Rich Environment,0,0,4,0,0,0
+143244,Clear out the most hostile wildlife to the north so we can get in there and start our research,143243,14,0,58258,0,0
+143245,Slay Earth Primalists,144023,8,0,58691,0,1
+143246,10.1 UG - Ch 1 - Primalist Blockade - Step 2B - Portalkeeper Cindra Defeated (JSS),0,0,4,0,0,0
+143247,Portalkeeper Cindra Defeated,143246,1,0,58259,0,0
 143248,"Complete ""Go with Honor, Friend""",0,0,4,0,0,0
 143249,,143248,1,0,58260,0,0
+143250,Reach your companions,143201,1,0,58227,0,0
+143258,Acquire Portalkeeper's Fire Shard,143194,1,0,58224,0,0
+143259,Acquire Portalkeeper's Earth Shard,143194,1,0,58222,1,0
+143260,10.1 UG - Ch 1 - Primalist Blockade - Step 3A2 - Acquire Portalkeeper's Earth Key (JSS),0,0,4,0,0,0
+143261,Earth Key Acquired,143260,1,0,58222,0,0
+143262,,143241,1,0,58268,1,0
+143263,,143241,1,0,58269,2,0
+143264,,143241,1,0,58270,3,0
+143265,,143241,1,0,58271,4,0
+143266,,143241,1,0,58272,5,0
+143267,,143241,1,0,58273,6,0
+143268,,143241,1,0,58274,7,0
+143269,10.1 Underground - Side - Snailies - Snailspiration - Shimmershell Snail (JLW),0,0,4,0,0,4096
+143270,Max Level Shimmershell Snail Summoned,143269,1,0,58275,0,0
+143271,10.1 Underground - Side - Snailies - Snailspiration - Shimmershell Snail (JLW),0,0,4,0,0,4096
+143272,Max Level Shimmershell Snail Summoned,143271,1,0,58276,0,0
+143273,10.1 Underground - Side - Snailies - Snailspiration - Shimmershell Snail (JLW),0,0,4,0,0,4096
+143274,Max Level Shimmershell Snail Summoned,143273,1,0,58277,0,0
+143275,10.1 Underground - Side - Snailies - Snailspiration - Shimmershell Snail (JLW),0,0,4,0,0,4096
+143276,Max Level Shimmershell Snail Summoned,143275,1,0,58278,0,0
+143277,Complete the following Quests to start the RTC:,0,0,4,0,0,4096
+143278,,143277,1,0,58279,0,0
+143279,,143277,1,0,58280,1,0
+143281,10.1 Underground - Side - Snailies - Snailspiration - Shimmershell Snail (JLW),0,0,4,0,0,4096
+143282,Max Level Shimmershell Snail Summoned,143281,1,0,58282,0,0
+143283,10.1 Underground - Side - Snailies - Snailspiration - Shimmershell Snail (JLW),0,0,4,0,0,4096
+143284,Max Level Shimmershell Snail Summoned,143283,1,0,58283,0,0
+143285,10.1 Underground - Side - Snailies - Snailspiration - Shimmershell Snail (JLW),0,0,4,0,0,4096
+143286,Max Level Shimmershell Snail Summoned,143285,1,0,58284,0,0
+143287,10.1 Underground - Side - Snailies - Snailspiration - Shimmershell Snail (JLW),0,0,4,0,0,4096
+143288,Max Level Shimmershell Snail Summoned,143287,1,0,58285,0,0
+143289,10.1 Underground - Side - Snailies - Snailspiration - Shimmershell Snail (JLW),0,0,4,0,0,4096
+143290,Max Level Shimmershell Snail Summoned,143289,1,0,58286,0,0
+143291,10.1 Underground - Side - Snailies - Snailspiration - Shimmershell Snail (JLW),0,0,4,0,0,4096
+143292,Max Level Shimmershell Snail Summoned,143291,1,0,58287,0,0
+143293,10.1 Underground - Side - Snailies - Snailspiration - Shimmershell Snail (JLW),0,0,4,0,0,4096
+143294,Max Level Shimmershell Snail Summoned,143293,1,0,58288,0,0
+143295,10.1 Underground - Side - Snailies - Snailspiration - Shimmershell Snail (JLW),0,0,4,0,0,4096
+143296,Max Level Shimmershell Snail Summoned,143295,1,0,58289,0,0
+143297,10.1 Underground - Side - Snailies - Snailspiration - Shimmershell Snail (JLW),0,0,4,0,0,4096
+143298,Max Level Shimmershell Snail Summoned,143297,1,0,58290,0,0
+143299,10.1 Underground - Side - Snailies - Snailspiration - Shimmershell Snail (JLW),0,0,4,0,0,4096
+143300,Max Level Shimmershell Snail Summoned,143299,1,0,58291,0,0
 143301,10.0.7 Forbidden Reach Returns - Achievement - A - Echoes from the Reach,0,0,4,0,0,0
 143302,Journal Entry: Experiments,143301,0,0,58292,0,0
 143303,Journal Entry: Relics,143301,0,0,57812,1,0
@@ -81886,8 +81985,12 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 143307,Receiving Stone: Protest,143301,0,0,57816,5,0
 143308,Receiving Stone: Initial Report,143301,0,0,57817,6,0
 143309,Receiving Stone: The Prisoner,143301,0,0,57818,7,0
+143310,10.1 Underground - Side - Snailies - Snailspiration - Archetype of Vigilance (JLW),0,0,4,0,0,4096
+143311,Max Level Archetype of Vigilance Summoned,143310,1,0,58293,0,0
 143312,Trial of Tyr Ineligible For Spark Skip,0,0,4,0,0,2
 143313,,143312,0,0,56166,0,0
+143314,10.1 UG - Ch 1 - Primalist Blockade - Step 1C1 - First Earth Portal Destroyed,0,0,4,0,0,0
+143315,First Earth Portal Destroyed,143314,1,0,57964,0,0
 143316,Artisan's Consortium reputation is at Valued (Rank 3),0,0,4,0,0,2
 143317,Artisan's Consortium reputation is at Valued.,143316,5500,0,55655,0,2
 143318,Artisan's Consortium reputation is at Respected (Rank 2),0,0,4,0,0,2
@@ -81903,6 +82006,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 143328,,143343,1,0,57816,0,512
 143329,,143345,1,0,57817,0,512
 143330,,143347,1,0,57818,0,512
+143331,10.1 UG - Ch 1 - Primalist Blockade - Step 1C2 - First Rune Drops Begins (JSS),0,0,4,0,0,0
+143332,First Rune Drops,143331,1,0,58294,0,0
 143333,Journal Entry: The Creches,143322,1,8,0,0,8192
 143334,,143333,1,0,58296,1,1024
 143335,Journal Entry: Experiments,143322,1,8,0,1,8192
@@ -81919,9 +82024,14 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 143346,,143345,1,0,58300,1,1024
 143347,Sending Stone: The Prisoner,143322,1,8,0,7,8192
 143348,,143347,1,0,58301,1,1024
+143349,10.1 UG - Ch 1 - Primalist Blockade - Step 2A1b - First Fire Portal Destroyed (JSS),0,0,4,0,0,0
+143350,Fire Portals Destroyed,143349,1,0,58223,0,0
 143351,,134118,0,0,33148,16,2
 143353,,67813,0,0,58302,1,2
 143354,,67815,0,0,58303,1,2
+143360,10.1 UG - Ch 1 - Primalist Blockade - Step 4B1 - Both Pylons Destroyed (JSS),0,0,4,0,0,0
+143361,Fire Pylon Destroyed,143360,1,0,58228,0,0
+143362,Earth Pylon Destroyed,143360,1,0,58227,1,0
 143363,Obtain Thousandbite Piranha Collar,0,0,4,0,0,0
 143364,Purchase Thousandbite Piranha Collar from Junnik,143363,1,0,58305,0,0
 143365,Obtain Lunker Bits,0,0,4,0,0,0
@@ -82020,22 +82130,143 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 143458,Pour Rations: Dragonbreath Chili in the pot,143457,1,0,58352,0,0
 143471,Player learned pet Volatile Self-Driving Toolbox,0,0,4,0,0,0
 143472,,143471,0,0,58359,0,0
+143482,10.1 Research Scenario - Step 5 (Blockout),0,0,4,0,0,0
+143483,Rebuild 4 Elemental Pillars in the Molten Steps Research Area,143482,4,0,58361,0,0
+143484,Push back the riled up wildlife in the Molten Stair Research Area,143482,9,5,0,1,8192
+143485,,143484,1,0,58268,0,0
+143486,,143484,1,0,58362,1,0
+143487,,143484,1,0,58267,3,0
+143488,,143484,1,0,58363,2,0
+143489,,143484,1,0,58364,4,0
+143490,,143484,1,0,58273,5,0
+143491,,143484,1,0,58365,6,0
+143494,10.1 UG - Ch 1 - Primalist Blockade - Step 2B - Giant Fire Elemental Defeated (JSS),0,0,4,0,0,0
+143495,Big Elemental Defeated,143494,1,0,58366,0,0
 143496,Enormous Lionfish,0,0,4,0,0,0
 143497,Get meat from the Enormous Lionfish,143496,1,0,58368,0,0
+143498,10.1 UG - Ch 1 - Primalist Blockade - Step 1C3 - Grand Earth Rune Drops (JSS),0,0,4,0,0,0
+143499,Grand Earth Rune Drops,143498,1,0,58369,0,0
+143500,10.1 UG - Ch 1 - Primalist Blockade - Step 1C4 - Grand Earth Portal Down (JSS),0,0,4,0,0,0
+143501,Grand Earth Portal Down,143500,1,0,58225,0,0
 143502,Enormous Mantacorn,0,0,4,0,0,0
 143503,Get meat from the Enormous Mantacorn,143502,1,0,58370,0,0
 143504,Enormous Thresher,0,0,4,0,0,0
 143505,Get meat from the Enormous Thresher,143504,1,0,58371,0,0
+143506,10.1 Underground - Campaign - Ch 1 - Q05 - The Throughway - SCENARIO - S3B - Activate Bouldani Barrier (JSS),0,0,4,0,0,0
+143507,Activate Bouldani Barrier,143506,1,0,58259,0,0
 143508,Language: Furbolg (Winterpelt) at 100,0,0,4,0,0,0
 143509,Achieve rank 100 in the Winterpelt language.,143508,100,0,58373,0,0
 143510,Completed Winterpelt and Rustpine Lines,0,0,4,0,0,0
 143511,,143510,0,0,55346,0,0
 143512,,143510,0,0,55345,1,0
+143513,Zaralek Cavern - Bronze,0,0,4,0,0,0
+143514,,143513,1,0,58374,0,48
+143515,,143513,1,0,58375,1,48
+143516,,143513,1,0,58376,2,48
+143517,,143513,1,0,58377,3,48
+143518,,143513,1,0,58378,4,48
+143519,,143513,1,0,58379,5,48
+143520,Zaralek Cavern - Silver,0,0,4,0,0,0
+143521,,143520,1,0,58380,0,48
+143522,,143520,1,0,58381,1,48
+143523,,143520,1,0,58382,2,48
+143524,,143520,1,0,58383,3,48
+143525,,143520,1,0,58384,4,48
+143526,,143520,1,0,58385,5,48
+143527,Zaralek Cavern - Gold,0,0,4,0,0,0
+143528,,143527,1,0,58386,0,48
+143529,,143527,1,0,58387,1,48
+143530,,143527,1,0,58388,2,48
+143531,,143527,1,0,58389,3,48
+143532,,143527,1,0,58390,4,48
+143533,,143527,1,0,58391,5,48
+143534,Zaralek Cavern Advanced - Bronze,0,0,4,0,0,0
+143535,,143534,1,0,58392,0,48
+143536,,143534,1,0,58393,1,48
+143537,,143534,1,0,58394,2,48
+143538,,143534,1,0,58395,3,48
+143539,,143534,1,0,58396,4,48
+143540,,143534,1,0,58397,5,48
+143541,Zaralek Cavern Advanced - Silver,0,0,4,0,0,0
+143542,,143541,1,0,58398,0,48
+143543,,143541,1,0,58399,1,48
+143544,,143541,1,0,58400,2,48
+143545,,143541,1,0,58401,3,48
+143546,,143541,1,0,58402,4,48
+143547,,143541,1,0,58403,5,48
+143548,Zaralek Cavern Advanced - Gold,0,0,4,0,0,0
+143549,,143548,1,0,58404,0,48
+143550,,143548,1,0,58405,1,48
+143551,,143548,1,0,58406,2,48
+143552,,143548,1,0,58407,3,48
+143553,,143548,1,0,58408,4,48
+143554,,143548,1,0,58409,5,48
+143555,Zaralek Cavern Reverse - Bronze,0,0,4,0,0,0
+143556,,143555,1,0,58410,0,48
+143557,,143555,1,0,58411,1,48
+143558,,143555,1,0,58412,2,48
+143559,,143555,1,0,58413,3,48
+143560,,143555,1,0,58414,4,48
+143561,,143555,1,0,58415,5,48
+143562,Zaralek Cavern Reverse - Silver,0,0,4,0,0,0
+143563,,143562,1,0,58416,0,48
+143564,,143562,1,0,58417,1,48
+143565,,143562,1,0,58418,2,48
+143566,,143562,1,0,58419,3,48
+143567,,143562,1,0,58420,4,48
+143568,,143562,1,0,58421,5,48
+143569,Zaralek Cavern Reverse - Gold,0,0,4,0,0,0
+143570,,143569,1,0,58422,0,48
+143571,,143569,1,0,58423,1,48
+143572,,143569,1,0,58424,2,48
+143573,,143569,1,0,58425,3,48
+143574,,143569,1,0,58426,4,48
+143575,,143569,1,0,58427,5,48
+143576,Zaralek Cavern Dragon Racing Completionist,0,0,4,0,0,0
+143577,,143576,1,0,58428,0,32
+143578,,143576,1,0,58429,1,32
+143579,,143576,1,0,58430,2,32
+143580,Zaralek Cavern Dragon Racing Completionist - Silver,0,0,4,0,0,0
+143581,,143580,1,0,58431,0,32
+143582,,143580,1,0,58432,1,32
+143583,,143580,1,0,58433,2,32
+143584,Zaralek Cavern Dragon Racing Completionist - Gold,0,0,4,0,0,0
+143585,,143584,1,0,58434,0,32
+143586,,143584,1,0,58435,1,32
+143587,,143584,1,0,58436,2,32
 143588,[DNT] 10.0.5 Hotfix - Revival Catalyst - Account Breadcrumb (MPK),0,1,8,0,0,8194
 143589,,143588,1,0,58438,0,0
 143590,,143588,1,0,58437,1,0
+143602,Get killed by Fyrakk.,0,0,8,0,0,0
+143603,,143602,1,0,58448,0,2
 143604,Unlock every door in a single Askera Vault within one week.,0,0,4,0,0,16
 143605,,143604,1,0,58449,0,0
+143608,10.1 UG - Ch 1 - Primalist Blockade - Step 2A1a - First Fire Revenant Slain (JSS),0,0,4,0,0,0
+143609,First Fire Revenant Slain,143608,1,0,58451,0,0
+143614,4.0 - Dungeon - The Vortex Pinnacle (Challenge),0,0,4,0,0,0
+143615,Grand Vizier Ertan,143614,1,0,24810,0,0
+143616,Altairus,143614,1,0,24811,1,0
+143617,"Asaad, Caliph of Zephyrs",143614,1,0,34415,2,0
+143620,Enemy Forces,143614,360,9,0,3,0
+143621,,143620,3,0,50191,0,0
+143622,,143620,36,0,50192,1,0
+143623,,143620,9999,0,48468,2,0
+143624,,143620,5,0,58576,3,0
+143625,,143620,5,0,58577,4,0
+143626,,143620,3,0,58578,5,0
+143627,,143620,3,0,58579,6,0
+143628,,143620,15,0,58580,7,0
+143629,,143620,5,0,58581,8,0
+143630,,143620,15,0,58582,9,0
+143631,,143620,5,0,58583,10,0
+143632,,143620,5,0,58584,11,0
+143633,,143620,5,0,58585,12,0
+143634,,143620,5,0,58586,13,0
+143636,,143620,15,0,58587,14,0
+143648,,143620,1,0,58588,15,0
+143669,[TEST] Shane's Scenario Branch1,0,0,4,0,0,2064
+143670,Unnamed Branch,143669,0,4,0,0,0
+143671,Temp description 1,143670,1,0,4944,0,0
 143672,Adventurer's Journey: Forbidden Reach,0,10,8,0,0,0
 143673,Vraken the Hunter,143672,1,0,58458,0,0
 143674,Gahz'raxes,143672,1,0,58459,1,0
@@ -82127,8 +82358,32 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 143770,,143769,10,0,58508,0,1
 143771,Map Treasures: Forbidden Reach (50),0,20,4,0,0,0
 143772,,143771,50,0,58508,0,1
+143773,10.0 Dungeon - Brackenhide Hollow (Challenge),0,0,4,0,0,0
+143774,Hackclaw's War-Band defeated,143773,1,0,54020,0,0
+143775,Treemouth defeated,143773,1,0,54021,1,0
+143776,Gutshot defeated,143773,1,0,54022,2,0
+143777,Decatriarch Wratheye defeated,143773,1,0,54023,3,0
+143778,10.0 Dungeon - Uldaman (Challenge),0,0,4,0,0,0
+143779,The Lost Dwarves defeated,143778,1,0,54045,0,0
+143780,Bromach defeated,143778,1,0,54046,1,0
+143781,Sentinel Talondras defeated,143778,1,0,54047,2,0
+143782,Emberon defeated,143778,1,0,54048,3,0
+143783,Chrono-Lord Deios defeated,143778,1,0,54049,4,0
+143784,10.0 Dungeon - Neltharus (Challenge),0,0,4,0,0,0
+143785,Chargath defeated,143784,1,0,54028,0,0
+143786,Forgemaster Gorek defeated,143784,1,0,54029,1,0
+143787,Magmatusk defeated,143784,1,0,54030,2,0
+143788,Warlord Sargha defeated,143784,1,0,54031,3,0
+143789,10.0 Dungeon - Halls of Infusion (Challenge),0,0,4,0,0,0
+143790,Watcher Irideus defeated,143789,1,0,54024,0,0
+143791,Gulping Goliath defeated,143789,1,0,54025,1,0
+143792,Khajin the Unyielding defeated,143789,1,0,54026,2,0
+143793,Primal Tsunami defeated,143789,1,0,54027,3,0
 143794,Travel Network - Node Unlock: The Forbidden Reach,0,0,4,0,0,0
 143795,,143794,1,0,58509,0,2
+143796,[TEST] Shane's Scenario Branch2,0,0,4,0,0,2064
+143797,Unnamed Branch,143796,0,4,0,0,0
+143798,Temp Description 2,143797,2,0,58457,0,0
 143799,10.0.7 Forbidden Reach - Achievement - Explorer of the Forbidden Reach (ZTO),0,0,4,0,0,0
 143800,The War Creche,143799,1,0,58510,0,0
 143801,Stormsunder Crater,143799,1,0,58511,1,0
@@ -82144,15 +82399,42 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 143811,,143806,1,0,58520,4,0
 143812,,143806,1,0,58521,5,0
 143813,"Finish ""A Creche Divided"" questline",0,0,4,0,0,0
-143814,,143813,1,0,58522,0,0
-143815,,143813,1,0,58523,1,0
-143816,,143813,1,0,58524,2,0
-143817,,143813,1,0,58525,3,0
-143818,,143813,1,0,58526,4,0
-143819,,143813,1,0,58527,5,0
-143820,,143813,1,0,58528,6,0
-143821,,143813,1,0,58529,7,0
-143822,,143813,1,0,58530,8,0
+143822,,143813,1,0,58530,0,0
+143823,Enemy Forces,143773,750,9,0,4,0
+143824,,143823,3,0,50191,0,0
+143825,,143823,25,0,50192,1,0
+143826,,143823,9999,0,48468,2,0
+143827,,143823,5,0,58531,3,0
+143828,,143823,3,0,58532,4,0
+143829,,143823,5,0,58533,5,0
+143830,,143823,5,0,58534,6,0
+143831,,143823,15,0,58535,7,0
+143832,,143823,15,0,58536,8,0
+143833,,143823,5,0,58537,9,0
+143834,,143823,15,0,58538,10,0
+143835,,143823,30,0,58539,11,0
+143836,,143823,15,0,58540,12,0
+143837,,143823,20,0,58541,13,0
+143839,,143823,1,0,58542,14,0
+143840,,143823,5,0,58543,15,0
+143841,,143823,1,0,58544,16,0
+143842,,143823,5,0,58545,17,0
+143843,,143823,15,0,58546,18,0
+143844,,143823,25,0,58547,19,0
+143845,,143823,3,0,58548,20,0
+143846,,143823,15,0,58549,21,0
+143847,,143823,5,0,58550,22,0
+143848,,143823,5,0,58551,23,0
+143849,,143823,5,0,58552,24,0
+143850,,143823,30,0,58553,25,0
+143851,,143823,15,0,58554,26,0
+143852,,143823,15,0,58555,27,0
+143853,,143823,15,0,58556,28,0
+143854,,143823,1,0,58557,29,0
+143855,,143823,1,0,58558,30,0
+143856,,143823,5,0,58559,31,0
+143857,,143823,5,0,58560,32,0
+143858,,143823,5,0,58561,33,0
 143859,Monk,20487,70,0,58562,8,0
 143860,Monk,13891,70,0,58563,8,0
 143861,Monk,17869,1,0,58564,8,0
@@ -82167,6 +82449,34 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 143870,Tremblor,143868,1,0,58573,1,0
 143871,Wildfire,143868,1,0,58574,2,0
 143872,Flow,143868,1,0,58575,3,0
+143873,Enemy Forces,143789,390,9,0,4,0
+143874,,143873,7,0,50191,0,0
+143875,,143873,67,0,50192,1,0
+143876,,143873,9999,0,48468,2,0
+143878,,143873,5,0,58589,3,0
+143879,,143873,5,0,58590,4,0
+143880,,143873,5,0,58591,5,0
+143881,,143873,1,0,58593,6,0
+143882,,143873,5,0,58594,7,0
+143883,,143873,4,0,58595,8,0
+143884,,143873,5,0,58596,9,0
+143885,,143873,25,0,58597,10,0
+143886,,143873,25,0,58598,11,0
+143887,,143873,15,0,58599,12,0
+143888,,143873,15,0,58600,13,0
+143889,,143873,15,0,58601,14,0
+143890,,143873,5,0,58602,15,0
+143891,,143873,5,0,58603,16,0
+143892,,143873,5,0,58604,17,0
+143893,,143873,50,0,58606,18,0
+143894,Clear the console and repair it,0,0,4,0,0,0
+143895,Titan Parts gathered,143894,50,0,58836,1,0
+143896,Fend off the Titan counterattack.,0,80,4,0,0,0
+143897,Titan forces defeated,144276,2,0,59128,1,1
+143900,Sundered Flame Leaders Defeated,0,0,4,0,0,0
+143901,Captain Reykal defeated,143900,1,0,58609,0,0
+143904,Sundered Flame forces defeated,0,100,4,0,0,0
+143905,Sundered Flame forces defeated,144960,3,0,58612,0,1
 143906,Zskera Vault doors unlocked,0,10,5,0,0,8193
 143907,,143906,1,0,58613,0,1
 143908,Complete all of the Forbidden Reach achievements listed below.,0,0,4,0,0,0
@@ -82197,18 +82507,26 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 143933,,143930,0,0,58634,2,0
 143934,,143930,0,0,58635,3,0
 143935,,143930,0,0,58636,4,0
-143936,Primal Storm bosses killed,0,4,5,0,0,1
+143936,Primal Storm bosses killed,0,4,4,0,0,1
 143937,Khirna Cragheart defeated,143936,1,0,58637,0,0
 143938,Fael'lin defeated,143936,1,0,58638,1,0
 143939,Shukoro Rapidstamer defeated,143936,1,0,58639,2,0
 143940,Han'thul defeated,143936,1,0,58640,3,0
+143941,Southern patrol defeated,144110,5,0,58759,0,0
+143942,Western patrol defeated,144111,6,0,58758,0,0
+143943,,144961,4,0,58643,0,1
+143944,,144961,1,0,58644,3,1
+143945,Titan forces defeated,144276,4,0,59129,0,1
+143946,Titan forces defeated,144276,1,0,59127,2,1
+143947,Sundered Flame forces defeated,144960,5,0,58641,2,1
+143948,Sundered Flame forces defeated,144960,1,0,58642,3,1
 143949,"""Sparks of Life"" quests completed",0,2,5,0,0,8193
 143950,,143949,0,0,58649,0,0
 143951,,143949,0,0,58650,1,0
 143952,,143949,0,0,58651,2,0
 143953,,143949,0,0,58652,3,0
 143954,,143949,0,0,58653,4,0
-143955,Zskere Vault weekly quests completed,0,2,5,0,0,8193
+143955,Zskera Vault weekly quests completed,0,2,5,0,0,8193
 143956,,143955,0,0,58654,0,0
 143957,Heritage: Core - Heritage Armor Quest Launch [Login],0,0,4,0,0,8194
 143958,,143957,1,0,58655,0,0
@@ -82221,15 +82539,15 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 143965,The Old Gods and the Ordering of Azeroth (Annotated),143761,1,0,58507,8,16
 143966,Shuffling Sands used,0,1,8,0,0,8193
 143967,,143966,1,0,58662,0,0
-143968,Children's Week quest chain complete,0,1,8,0,0,8193
-143969,,143968,1,0,58663,0,0
-143970,,143968,1,0,58664,1,0
-143971,,143968,1,0,58665,2,0
-143972,,143968,1,0,58666,3,0
-143973,,143968,1,0,58667,4,0
-143974,,143968,1,0,58668,5,0
-143975,,143968,1,0,58669,6,0
-143976,,143968,1,0,58670,7,0
+143968,Children's Week quest completed,0,1,8,0,0,1
+143969,A Warden of the Alliance,143968,1,0,58663,0,0
+143970,A Warden of the Horde,143968,1,0,58664,1,0
+143971,Back to the Orphanage with Dornaa,143968,1,0,58665,2,0
+143972,Back to the Orphanage with Salandria,143968,1,0,58666,3,0
+143973,Back to the Orphanage with Roo,143968,1,0,58667,4,0
+143974,Back to the Orphanage with Kekek,143968,1,0,58668,5,0
+143975,Return to the Orphanage with Liam,143968,1,0,58669,6,0
+143976,Return to the Hall of Castes with Azala,143968,1,0,58670,7,0
 143977,Daily quests completed,0,10,4,0,0,8193
 143978,,143977,10,0,58671,0,1
 143979,Reputation earned throughout Dragon Isles,0,3000,5,0,0,4096
@@ -82246,17 +82564,21 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 143990,,143989,0,0,55404,0,0
 143992,Achievement - A New Beginning,0,0,4,0,0,2
 143993,,143992,0,0,58681,0,0
+143996,Suffusion Crucible looted,0,0,4,0,0,4096
+143997,,143996,0,0,58684,0,0
 143998,Lunkers landed,0,5,5,0,0,8193
 143999,,143998,0,0,58685,0,0
-144000,Children's Week quest chains complete,0,4,5,0,0,8193
-144001,,144000,1,0,58663,0,0
-144002,,144000,1,0,58664,1,0
-144003,,144000,1,0,58665,2,0
-144004,,144000,1,0,58666,3,0
-144005,,144000,1,0,58667,4,0
-144006,,144000,1,0,58668,5,0
-144007,,144000,1,0,58669,6,0
-144008,,144000,1,0,58670,7,0
+144000,Children's Week quests completed,0,4,5,0,0,1
+144001,A Warden of the Alliance,144000,1,0,58663,0,1
+144002,A Warden of the Horde,144000,1,0,58664,1,1
+144003,Back to the Orphanage with Dornaa,144000,1,0,58665,2,1
+144004,Back to the Orphanage with Salandria,144000,1,0,58666,3,1
+144005,Back to the Orphanage with Roo,144000,1,0,58667,4,1
+144006,Back to the Orphanage with Kekek,144000,1,0,58668,5,1
+144007,Return to the Orphanage with Liam,144000,1,0,58669,6,1
+144008,Return to the Hall of Castes with Azala,144000,1,0,58670,7,1
+144009,10.1 Underground - Campaign - Ch 1 - Q05 - The Throughway - S4,0,0,4,0,0,0
+144010,Portalkeeper Cimbra slain,144009,1,0,58372,1,0
 144011,/cheer for Paera,0,1,4,0,0,8193
 144012,,144011,0,0,58686,0,0
 144013,2 Mythic+ dungeons complete,0,1,4,0,0,1
@@ -82265,21 +82587,38 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 144016,,144015,1,0,58688,0,1
 144017,Fshoo Helped,0,0,4,0,0,8193
 144018,,144017,0,0,58689,0,0
+144019,Cliffkeeper Bouldani slain,143185,1,0,58225,1,0
+144020,,144033,8,0,58695,0,1
 144021,Tonk Commander completed,0,0,4,0,0,1
 144022,Tonk Commander completed,144021,1,0,58690,0,1
+144023,Earth Primalists slain,143185,100,9,0,0,0
+144024,,144023,6,0,58692,1,1
+144025,,144023,4,0,58693,2,1
 144028,DMF Pony and Balloon Ride Trading Post,0,0,4,0,0,0
 144029,Darkmoon Faire Boardwalk,144028,1,0,58700,0,1
 144030,Darkmoon Path,144028,1,0,58702,1,1
 144031,The Darkmoon Faire,144028,1,0,58701,2,1
-144039,Fish up 10 items with Rubber Duck bobber,0,0,4,0,0,0
+144033,Fire Primalists slain,144009,100,9,0,0,0
+144034,,144033,6,0,58699,1,1
+144035,,144033,4,0,58698,2,1
+144036,,144033,10,0,58697,3,1
+144039,Fish up 10 items with Squeaky Duck bobber,0,0,4,0,0,0
 144040,Items fished up,144039,10,0,58703,0,1
 144041,Creatures slain,0,0,4,0,0,1
 144042,Creatures slain,144041,30,0,58704,0,1
 144043,Use Murglasses around the Dragon Isles,0,0,4,0,0,1
+144044,Valdrakken,144843,1,0,58705,0,1
+144045,Iskaara,144847,1,0,58706,1,0
+144046,Maruukai,144849,1,0,58707,1,0
+144047,Dragonscale Basecamp,144851,1,0,58708,1,0
 144048,/dance with a player wearing Murglasses,0,0,4,0,0,8193
 144049,,144048,1,0,58710,0,0
 144050,Hearthstone Gameboard flipped,0,0,4,0,0,8193
 144051,,144050,1,0,58711,0,0
+144052,10.1 Fyrakk Assaults - Quest - Suffusion Mold (ZTO),0,1,8,0,0,4096
+144053,,144052,1,0,58712,0,0
+144054,10.1 Fyrakk Assaults - Quest - Suffusion Camp: Iceburn - Suffusion Mold (ZTO),0,0,4,0,0,4096
+144055,,144054,1,0,58713,0,0
 144056,Iskarra Tug Sled used,0,1,5,0,0,8193
 144057,,144056,1,0,58714,0,0
 144058,,144056,1,0,58715,1,0
@@ -82291,39 +82630,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 144064,Tarr the Terrible defeated,144059,1,0,58720,4,1
 144065,Vesharr defeated,144059,1,0,58721,5,1
 144066,Dragonrider Racing daily quests complete,0,8,5,0,0,8193
-144067,,144066,0,0,58722,0,0
-144068,,144066,0,0,58723,1,0
-144069,,144066,0,0,58724,2,0
-144070,,144066,0,0,58725,3,0
-144071,,144066,0,0,58726,4,0
-144072,,144066,0,0,58727,5,0
-144073,,144066,0,0,58728,6,0
-144074,,144066,0,0,58729,7,0
-144075,,144066,0,0,58627,8,0
-144076,,144066,0,0,58730,9,0
-144077,,144066,0,0,58731,10,0
-144078,,144066,0,0,58732,11,0
-144079,,144066,0,0,58733,12,0
-144080,,144066,0,0,58734,13,0
-144081,,144066,0,0,58735,14,0
-144082,,144066,0,0,58736,15,0
-144083,,144066,0,0,58737,16,0
-144084,,144066,0,0,58738,17,0
-144085,,144066,0,0,58739,18,0
-144086,,144066,0,0,58740,19,0
-144087,,144066,0,0,58741,20,0
-144088,,144066,0,0,58742,21,0
-144089,,144066,0,0,58626,22,0
-144090,,144066,0,0,58743,23,0
-144091,,144066,0,0,58744,24,0
-144092,,144066,0,0,58745,25,0
-144093,,144066,0,0,58746,26,0
-144094,,144066,0,0,58747,27,0
-144095,,144066,0,0,58628,28,0
-144096,,144066,0,0,58748,29,0
-144097,,144066,0,0,58749,30,0
-144098,,144066,0,0,58750,31,0
-144099,,144066,0,0,58751,32,0
+144090,,144066,0,0,60079,0,0
 144100,Dragonriding Reverse courses complete,0,8,5,0,0,8193
 144101,,144100,0,0,58752,0,0
 144102,,144100,0,0,58753,1,0
@@ -82331,8 +82638,24 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 144104,,144100,0,0,58755,3,0
 144105,,144100,0,0,58756,4,0
 144106,,144100,0,0,58757,5,0
+144107,Northern patrol defeated,143235,0,4,0,0,8192
+144110,Southern patrol defeated,143235,0,4,0,1,8192
+144111,Western patrol defeated,143235,0,4,0,2,8192
+144116,10.1 Underground - Campaign - Ch 1 - Q05 - The Throughway - SCENARIO - S2 - Sabellian Spot 1 (JSS),0,0,4,0,0,0
+144117,Sabellian in Spot 1,144116,1,0,57853,0,0
+144118,Large Boulders destroyed,143894,2,0,58766,0,0
+144121,10.1 Underground - Campaign - Ch 1 - Q05 - The Throughway - SCENARIO - S2 - Bouldani Spawned (JSS),0,0,4,0,0,0
+144122,Bouldani Spawned,144121,1,0,58768,0,0
 144123,Admirers summoned,137793,1,0,58769,1,1
 144124,Admirers summoned,137793,1,0,58770,2,1
+144127,10.1 Underground - Campaign - Ch 1 - Q05 - The Throughway - SCENARIO - S2 - Sabellian Spot 2 (JSS),0,0,4,0,0,0
+144128,Sabellian in Spot 2,144127,1,0,58772,0,0
+144129,10.1 Underground - Campaign - Ch 1 - Q05 - The Throughway - SCENARIO - S3 - Sabellian Spot 2 (JSS),0,0,4,0,0,0
+144130,Sabellian Spot 2,144129,1,0,58773,0,0
+144131,10.1 Underground - Campaign - Ch 1 - Q05 - The Throughway - SCENARIO - S3 - Cimbra Spawn (JSS),0,0,4,0,0,0
+144132,Cimbra Spawns,144131,1,0,58774,0,0
+144133,,144023,50,0,58225,3,1
+144134,,144033,40,0,58372,4,1
 144135,,16857,100,0,58775,9,0
 144136,,16859,100,0,58776,9,0
 144137,,70916,100,0,58777,9,0
@@ -82359,17 +82682,1643 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 144158,,71091,100,0,58785,9,0
 144159,,71100,100,0,58786,9,0
 144160,,71109,100,0,58787,9,0
+144161,Shadeisethal slain,142852,1,0,58788,1,0
+144187,10.1 Underground - LQ07 - Q05 - Voraxian Quest - (POC),0,0,4,0,0,4096
+144188,,144187,1,0,58793,0,0
+144190,10.1 Underground - Campaign - Ch 1 - Q05 - The Throughway - S1 - Battle RP Set Up (JSS),0,0,4,0,0,0
+144191,Battle RP Set Up --> Rock Throw,144190,1,0,58796,0,0
+144192,10.1 Underground - LQ07 - Q05 - Veritistrasz Quest - (POC),0,0,4,0,0,4096
+144193,,144192,1,0,58794,0,0
+144194,10.1 Underground - LQ07 - Q05 - Butterfingers Quest - (POC),0,0,4,0,0,4096
+144195,,144194,1,0,58797,0,0
+144196,10.1 Underground - LQ07 - Q05 - Narvra Quest - (POC),0,0,4,0,0,4096
+144197,,144196,1,0,58798,0,0
+144198,10.1 Underground - LQ07 - Q05 - Rupert Quest - (POC),0,0,4,0,0,4096
+144199,,144198,1,0,58795,0,0
+144200,10.1 Underground - LQ07 - Q05 - Tellywin Quest - (POC),0,0,4,0,0,4096
+144201,,144200,1,0,58799,0,0
+144202,Ancient Stones of the Dragon Isles,0,0,4,0,0,0
+144203,Ancient Stones of the Waking Shores,144202,0,0,58800,0,0
+144204,Ancient Stones of the Ohn'ahran Plains,144202,0,0,58801,1,0
+144205,Ancient Stones of the Azure Span,144202,0,0,58802,2,0
+144206,Ancient Stones of Thaldraszus,144202,0,0,58803,3,0
+144207,Ancient Stones of the Waking Shores,0,0,4,0,0,0
+144208,"So Close, So Far",144207,0,0,58804,0,0
+144209,One Small Part,144207,0,0,58805,1,0
+144210,Neltharus Stands,144207,0,0,58806,2,0
+144211,Welcoming the First,144207,0,0,58807,3,0
+144212,Learn and Grow,144207,0,0,58808,4,0
+144213,Ancient Stones of the Ohn'ahran Plains,0,0,4,0,0,0
+144214,The Gnoll Wars,144213,0,0,58809,0,0
+144215,Your Dreamer,144213,0,0,58810,1,0
+144216,Dreams in Emerald,144213,0,0,58811,2,0
+144217,The First Kurnal,144213,0,0,58812,3,0
+144218,"Wind, Wood, Water",144213,0,0,58813,4,0
+144219,Ancient Stones of the Azure Span,0,0,4,0,0,0
+144220,Im'bunata's Blessing,144219,0,0,58814,0,0
+144221,A Solid Foundation,144219,0,0,58815,1,0
+144222,Attention: Immediate Evacuation,144219,0,0,58816,2,0
+144223,The Vow,144219,0,0,58817,3,0
+144224,Vakthros Maintenance,144219,0,0,58818,4,0
+144225,Ancient Stones of Thaldraszus,0,0,4,0,0,0
+144226,Mighty Ducks,144225,0,0,58819,0,0
+144227,A Timely Message,144225,0,0,58820,1,0
+144228,Keeper's Blessing,144225,0,0,58821,2,0
+144229,Guardian Wings,144225,0,0,58822,3,0
+144230,Together Bound,144225,0,0,58823,4,0
+144231,Caretaker's Notes,144225,0,0,58824,5,0
+144232,Valdrakken,144225,0,0,58825,6,0
+144233,Ancient Stones of Zaralek,0,0,4,0,0,0
+144234,Demanding Perfection,144233,0,0,58826,0,0
+144235,Binding Oaths,144233,0,0,58827,1,0
+144236,Primal Power,144233,0,0,58828,2,0
+144237,Gather Ore Samples,0,0,4,0,0,0
+144239,Curious Ore Samples collected,144237,60,0,58837,0,0
+144240,Attacking wildlife defeated,0,45,4,0,0,0
+144241,Break into the cave,0,0,4,0,0,0
+144242,Cave boulders destroyed,144241,12,0,58841,0,0
+144244,Protect Greta and gather more ore samples,0,0,4,0,0,0
+144246,Contaminated Wildlife destroyed,144244,15,0,59051,0,0
+144247,Destroy the animated contaminant,0,0,4,0,0,0
+144249,Animated Contaminant destroyed,144247,1,0,59050,0,0
+144252,Wildlife cleared,0,18,4,0,0,0
+144253,Wildlife cleared,145335,2,0,58846,1,0
+144254,Defeat the flayer matriarch,0,0,4,0,0,0
+144255,Flayer Matriarch defeated,144254,1,0,58849,0,0
+144256,Ruin wildlife cleared,0,70,4,0,0,0
+144257,Ruin wildlife cleared,145277,2,0,59130,0,1
+144258,Repair the djaradin pillars,0,0,4,0,0,0
+144259,Northwest pillar rebuilt,144258,1,0,58361,0,0
+144260,Southwest pillar rebuilt,144258,1,0,58844,1,0
+144261,Northeast pillar rebuilt,144258,1,0,58845,2,0
+144262,Southeast pillar rebuilt,144258,1,0,58843,3,0
+144263,Clear critters,0,0,4,0,0,0
+144264,Thaelin defended,144263,1,0,58865,0,0
+144265,Defeat the monstrous magmaclaw snapper,0,0,4,0,0,0
+144266,Monstrous Magmaclaw Snapper defeated,144265,1,0,58884,0,0
+144267,Repair the Djaradin altar,0,0,4,0,0,0
+144268,Zaqali altar restored,144267,1,0,59069,0,0
+144270,Zaqali forces defeated,0,50,4,0,0,0
+144271,Zaqali forces defeated,145278,4,0,59066,0,1
+144272,Stop the Zaqali Ritualmaster,0,0,4,0,0,0
+144273,Ritualmaster Skarna slain,144272,1,0,59065,0,0
+144274,Ritual distrupted,144272,1,0,59064,1,0
+144275,Attacking wildlife Defeated,144962,2,0,58846,0,1
+144276,Titan forces defeated,143896,55,9,0,0,0
+144277,Response Team Watcher defeated,143896,1,0,58864,1,0
 144278,Loot Specialist,143672,1,0,58830,29,0
 144279,Loot Specialist,143702,1,0,58830,29,0
+144280,Enemy Forces,143784,525,9,0,4,0
+144281,,144280,5,0,50191,0,0
+144282,,144280,50,0,50192,1,0
+144283,,144280,9999,0,48468,2,0
+144284,,144280,10,0,58831,3,0
+144285,,144280,5,0,58832,4,0
+144286,,144280,3,0,58833,5,0
+144287,,144280,5,0,58834,6,0
+144288,,144280,5,0,58835,7,0
+144289,,144280,5,0,58850,8,0
+144290,,144280,1,0,58851,9,0
+144291,,144280,25,0,58852,10,0
+144292,,144280,5,0,58853,11,0
+144293,,144280,5,0,58854,12,0
+144294,,144280,3,0,58855,13,0
+144295,Attacking wildlife defeated,144962,1,0,58848,1,1
+144296,Attacking wildlife defeated,144962,5,0,58847,2,1
+144297,Contaminated Titan Watcher defeated,0,0,4,0,0,0
+144298,Contaminated Titan Watcher defeated,144297,1,0,58842,0,0
+144299,Ruin wildlife cleared,145277,1,0,59131,2,1
+144300,Ruin wildlife cleared,145277,5,0,59132,1,1
+144301,Wildlife cleared,145335,1,0,58848,0,0
+144302,Wildlife cleared,145335,4,0,58847,2,0
+144303,,144280,5,0,58856,14,0
+144304,,144280,5,0,58857,15,0
+144305,,144280,5,0,58858,16,0
+144306,,144280,30,0,58859,17,0
+144307,,144280,15,0,58860,18,0
+144308,,144280,15,0,58861,19,0
+144309,,144280,15,0,58862,20,0
+144310,,144280,15,0,58863,21,0
+144313,Response Team Overseer Defeated,144276,10,0,58864,3,1
+144314,Response Team Overseer Defeated,144961,10,0,58864,1,1
+144315,10.1 Raid - Aberrus - LFR Wing 1,0,0,4,0,0,0
+144316,Kazzara defeated,144315,1,0,58866,0,0
+144317,Amalgamation Chamber defeated,144315,1,0,58867,1,0
+144318,Forgotten Experiment defeated,144315,1,0,58868,2,0
+144319,10.1 Raid - Aberrus - LFR Wing 2,0,0,4,0,0,0
+144320,Assault of the Zaqali defeated,144319,1,0,58869,0,0
+144321,Rashok defeated,144319,1,0,58870,1,0
+144322,Zskarn defeated,144319,1,0,58871,2,0
+144323,Enemy Forces,143778,575,9,0,5,0
+144324,,144323,3,0,50191,0,0
+144325,,144323,36,0,50192,1,0
+144326,,144323,9999,0,48468,2,0
+144327,,144323,1,0,58872,3,0
+144328,,144323,5,0,58873,4,0
+144329,,144323,3,0,58874,5,0
+144330,,144323,15,0,58875,6,0
+144331,,144323,5,0,58876,7,0
+144332,,144323,4,0,58877,8,0
+144333,,144323,15,0,58878,9,0
+144334,,144323,5,0,58879,10,0
+144335,,144323,5,0,58905,11,0
+144336,,144323,25,0,58906,12,0
+144337,,144323,4,0,58907,13,0
+144338,,144323,4,0,58908,14,0
+144339,,144323,15,0,58909,15,0
+144341,10.0 Raid - Aberrus - LFR Wing 3,0,0,4,0,0,0
+144342,Magmorax defeated,144341,1,0,58881,0,0
+144343,Neltharion defeated,144341,1,0,58882,1,0
+144344,10.0 Raid - Aberrus - LFR Wing 4,0,0,4,0,0,0
+144345,Sarkareth defeated,144344,1,0,58883,0,0
+144350,10.1 Upgrade System - Tutorial - Loamm - Q02 - 2. use fragments to create any crest (SH),0,1,5,0,0,4112
+144351,Modifier tree is looking for any of the crests,144350,1,0,58887,0,0
+144352,10.1 Upgrade System - Tutorial - Loamm - Q02 - TO DEPRECATE,0,1,5,0,0,4096
+144371,,144323,15,0,58910,16,0
+144372,,144323,5,0,58911,17,0
+144373,,144323,15,0,58912,18,0
+144374,,144323,1,0,58913,19,0
+144527,10.1 Upgrade System - Tutorial - Loamm - Q01 - 2. upgrade any piece of equipment (SH),0,1,4,0,0,4096
+144528,Explorer level gear,144533,1,0,59053,0,0
+144529,Adventurer,144533,1,0,59054,3,0
+144530,Veteran,144533,1,0,59057,4,0
+144531,Champion,144533,1,0,59058,2,0
+144532,Hero,144533,1,0,59059,1,0
+144533,10.1 Upgrade System - Tutorial - Loamm - Q01 - 2. upgrade any piece of equipment (SH),144527,1,8,0,0,0
+144542,10.1 Upgrade System - Tutorial - Loamm - Q03 - 2. upgrade the trinket or explorer equipment (SH),0,1,5,0,0,4096
+144543,Zaqali forces defeated,145278,1,0,59067,1,1
+144544,Earn Conquest While Combatant (A) - Saddle (37),0,0,4,0,0,1
+144545,Win Rated PvP matches while at Combatant or higher,144544,2400,0,59068,0,1
+144546,Earn Conquest While Combatant (H) - Saddle (37),0,0,4,0,0,1
+144547,Win Rated PvP matches while at Combatant or higher,144546,2400,0,59070,0,1
+144548,Earn Rated Participation Currency in Dragonflight Season 2 (A) - Mount,0,0,4,0,0,0
+144549,Win Rated PvP matches during Dragonflight Season 2 while at 1000 rating or higher,144548,2400,0,59071,0,1
+144550,10.1 Upgrade System - Tutorial - Loamm - Q03 - 1. have the omni trinket (SH),0,1,5,0,0,4096
+144551,,144550,1,0,59072,0,16
+144552,Earn Rated Participation Currency in Dragonflight Season 2 (H) - Mount,0,0,4,0,0,0
+144553,Win Rated PvP matches during Dragonflight Season 2 while at 1000 rating or higher,144552,2400,0,59071,0,1
+144554,,144542,1,0,59073,0,0
 144555,Login A,0,0,4,0,0,2
 144556,,144555,0,0,59074,0,2
 144557,Login B,0,0,4,0,0,2
 144558,,144557,0,0,59075,0,2
+144559,Fish Caught in Dragon Isle Lava Areas,0,20,5,0,0,8193
+144560,,144559,0,0,59085,0,0
+144561,,144559,0,0,59086,1,0
+144563,10.1 Upgrade System - Tutorial - Loamm - Q01 - 1. get flightstones (SH),0,50,5,0,0,4112
+144564,,144563,1,0,59088,0,0
+144565,10.1 Underground - Campaign - Ch 1 - Q05 - The Throughway - S1 - Player Loaded In/Start RTC (JSS),0,0,4,0,0,0
+144566,Player Loaded In,144565,1,0,58253,0,0
+144581,"""Reconcilable Dissidents"" Completed",0,0,4,0,0,0
+144582,Completed Reconciable Dissidents.,144581,0,0,59094,0,0
+144585,Fires doused,0,100,5,0,0,8193
+144586,,144585,1,0,59096,0,0
+144587,,144585,1,0,59097,1,0
+144588,,144585,1,0,59098,2,0
+144589,,144585,1,0,59099,3,0
+144590,,144585,1,0,59100,4,0
+144591,10.1 Underground - Campaign - Ch 1 - Q06a - Spot 3 Complete (JSS),0,1,8,0,0,4096
+144592,Unnamed Branch,144591,0,4,0,0,0
+144593,,144592,2,0,59101,0,0
+144594,Unnamed Branch,144591,0,4,0,1,0
+144595,,144594,1,0,59102,0,0
+144596,Player has Spark of Ingenuity (MA),0,0,4,0,0,4096
+144597,,144596,1,0,59103,0,0
+144600,Rats Fed,0,50,5,0,0,8193
+144601,Rats Fed,144600,50,0,59105,0,1
+144614,Honor the flames of the Dragon Isles. (A),0,0,4,0,0,0
+144615,The Waking Shores,144614,1,0,59113,0,0
+144616,Ohn'ahran Plains,144614,1,0,59114,1,0
+144617,The Azure Span,144614,1,0,59115,2,0
+144618,Thaldraszus,144614,1,0,59116,3,0
+144619,The Forbidden Reach,144614,1,0,59117,4,0
+144620,Zaralek Cavern,144614,1,0,59118,5,0
+144621,Honor the flames of the Dragon Isles. (H),0,0,4,0,0,0
+144622,The Waking Shores,144621,1,0,59113,0,0
+144623,Ohn'ahran Plains,144621,1,0,59114,1,0
+144624,The Azure Span,144621,1,0,59115,2,0
+144625,Thaldraszus,144621,1,0,59116,3,0
+144626,The Forbidden Reach,144621,1,0,59117,4,0
+144627,Zaralek Cavern,144621,1,0,59118,5,0
+144628,Vigor Recovered While Ground Skimming,0,30,5,0,0,8193
+144629,,144628,0,0,59119,0,0
+144630,Dragonscale Expedition world quests completed,0,2,5,0,0,8193
+144631,,144630,0,0,59120,0,0
+144640,[DNT] Dragonflight dungeon completed,0,1,8,0,0,8193
+144641,Algeth'ar Academy,144640,1,0,59112,0,2
+144642,10.1 Underground - Campaign Credit,0,0,4,0,0,0
+144643,Breaking Ground,144642,1,8,0,1,8208
+144644,,144643,0,0,59133,0,0
+144645,Sundered Legacy,144642,1,8,0,2,8208
+144646,,144645,0,0,59134,0,0
+144647,The Ancient Bargain,144642,1,8,0,3,8208
+144648,,144647,0,0,59135,0,0
+144649,Inherited Sin,144642,2,8,0,4,8208
+144650,,144649,0,0,59136,0,0
+144651,,144649,0,0,59137,1,0
+144652,Inevitable Confrontation,144642,1,8,0,5,8208
+144653,,144652,0,0,59139,0,0
+144654,"A Flame, Extinguished",144642,1,8,0,6,8208
+144655,,144654,0,0,59426,0,0
+144664,Sundered Flame forces defeated,144960,15,0,59145,1,1
+144665,Win 50 Games as a Gladiator in Dragonflight Season 2 in 3v3,0,0,4,0,0,0
+144666,,144665,50,0,59147,0,1
+144669,"Toss treats to a racing snail in Glimmerogg, and have that snail win the race.",0,0,4,0,0,16
+144670,Bashful wins,144669,1,0,59148,0,0
+144671,Tricky wins,144669,1,0,59149,1,0
+144672,Brulee wins,144669,1,0,59150,2,0
+144673,Roggy wins,144669,1,0,59151,3,0
+144674,Loamm Niffen reputation earned,0,1500,5,0,0,4096
+144675,,144674,1,0,59152,0,0
+144676,,144674,1,0,59153,1,0
+144677,10.1 Raid - Kill Raid Boss (SHY),0,1,5,0,0,4096
+144678,,144677,1,0,59154,0,0
+144681,10.1 Renown - Loamm Niffen - Rank 01,0,0,4,0,0,0
+144682,,144681,1,0,59155,0,0
+144683,10.1 Renown - Loamm Niffen - Rank 02,0,0,4,0,0,0
+144684,,144683,2,0,59155,0,0
+144685,10.1 Renown - Loamm Niffen - Rank 03,0,0,4,0,0,0
+144686,,144685,3,0,59155,0,0
+144687,10.1 Renown - Loamm Niffen - Rank 04,0,0,4,0,0,0
+144688,,144687,4,0,59155,0,0
+144689,10.1 Renown - Loamm Niffen - Rank 05,0,0,4,0,0,0
+144690,,144689,5,0,59155,0,0
+144691,10.1 Renown - Loamm Niffen - Rank 06,0,0,4,0,0,0
+144692,,144691,6,0,59155,0,0
+144693,10.1 Renown - Loamm Niffen - Rank 07,0,0,4,0,0,0
+144694,,144693,7,0,59155,0,0
+144695,10.1 Renown - Loamm Niffen - Rank 08,0,0,4,0,0,0
+144696,,144695,8,0,59155,0,0
+144697,10.1 Renown - Loamm Niffen - Rank 09,0,0,4,0,0,0
+144698,,144697,9,0,59155,0,0
+144699,10.1 Renown - Loamm Niffen - Rank 10,0,0,4,0,0,0
+144700,,144699,10,0,59155,0,0
+144701,10.1 Renown - Loamm Niffen - Rank 11,0,0,4,0,0,0
+144702,,144701,11,0,59155,0,0
+144703,10.1 Renown - Loamm Niffen - Rank 12,0,0,4,0,0,0
+144704,,144703,12,0,59155,0,0
+144705,10.1 Renown - Loamm Niffen - Rank 13,0,0,4,0,0,0
+144706,,144705,13,0,59155,0,0
+144707,10.1 Renown - Loamm Niffen - Rank 14,0,0,4,0,0,0
+144708,,144707,14,0,59155,0,0
+144709,10.1 Renown - Loamm Niffen - Rank 15,0,0,4,0,0,0
+144710,,144709,15,0,59155,0,0
+144711,10.1 Renown - Loamm Niffen - Rank 16,0,0,4,0,0,0
+144712,,144711,16,0,59155,0,0
+144713,10.1 Renown - Loamm Niffen - Rank 17,0,0,4,0,0,0
+144714,,144713,17,0,59155,0,0
+144715,10.1 Renown - Loamm Niffen - Rank 18,0,0,4,0,0,0
+144716,,144715,18,0,59155,0,0
+144717,10.1 Renown - Loamm Niffen - Rank 19,0,0,4,0,0,0
+144718,,144717,19,0,59155,0,0
+144719,10.1 Renown - Loamm Niffen - Rank 20,0,0,4,0,0,0
+144720,,144719,20,0,59155,0,0
+144721,10.1 Placeholder BD Tree - (STM),0,0,4,0,0,0
+144722,Speak to Kalecgos,144721,0,0,59156,0,0
+144725,10.1 Renown - Loamm Niffen - Rank 20v2,0,0,4,0,0,0
+144726,,144725,20,0,59155,0,0
+144727,Obtain the Obsidian Gladiator's Slitherdrake from Dragonflight Season 2.,0,0,4,0,0,0
+144728,,144727,0,0,59158,0,2
+144729,Collect a Tier 30 Set on at least 1 class.,0,0,4,0,0,0
+144730,,144729,1,0,59164,0,2
+144731,Explore Zaralek Cavern,0,0,4,0,0,0
+144732,Aberrus Approach,144731,1,0,59159,0,0
+144733,Buried Vault,144731,1,0,59160,1,0
+144734,Glimmerogg,144731,1,0,59161,2,0
+144735,Loamm,144731,1,0,59162,3,0
+144736,Nal ks'kol,144731,1,0,59163,4,0
+144737,Sulfur Wastes,144731,1,0,59165,5,0
+144738,The Throughway,144731,1,0,59166,6,0
+144739,Zaqali Caldera,144731,1,0,59167,7,0
+144740,Duelist Dragonflight Season 2,0,1,8,0,0,2
+144741,,144740,2100,0,59168,0,2
+144742,,144740,2100,0,59172,1,2
+144743,,144740,2100,0,59169,2,2
+144744,,144740,2100,0,59170,3,2
+144745,Rival II Dragonflight Season 2,0,1,8,0,0,2
+144746,,144745,1950,0,59168,0,2
+144747,,144745,1950,0,59172,1,2
+144748,,144745,1950,0,59169,2,2
+144749,,144745,1950,0,59170,3,2
+144750,Rival I Dragonflight Season 2,0,1,8,0,0,2
+144751,,144750,1800,0,59168,0,2
+144752,,144750,1800,0,59172,1,2
+144753,,144750,1800,0,59169,2,2
+144754,,144750,1800,0,59170,3,2
+144755,Challenger II Dragonflight Season 2,0,1,8,0,0,2
+144756,,144755,1600,0,59168,0,2
+144757,,144755,1600,0,59172,1,2
+144758,,144755,1600,0,59169,2,2
+144759,,144755,1600,0,59170,3,2
+144760,Challenger I Dragonflight Season 2,0,1,8,0,0,2
+144761,,144760,1400,0,59168,0,2
+144762,,144760,1400,0,59172,1,2
+144763,,144760,1400,0,59169,2,2
+144764,,144760,1400,0,59170,3,2
+144765,Combatant II Dragonflight Season 2,0,1,8,0,0,2
+144766,,144765,1200,0,59168,0,2
+144767,,144765,1200,0,59172,1,2
+144768,,144765,1200,0,59169,2,2
+144769,,144765,1200,0,59170,3,2
+144770,Combatant I Dragonflight Season 2,0,1,8,0,0,2
+144771,,144770,1000,0,59168,0,2
+144772,,144770,1000,0,59172,1,2
+144773,,144770,1000,0,59169,2,2
+144774,,144770,1000,0,59170,3,2
+144775,A Creche Divided,144642,1,8,0,0,0
+144776,,144775,0,0,58530,0,0
+144777,Blue Dragonflight Aided,0,0,4,0,0,8194
+144778,,144777,1,0,59171,0,0
+144779,Earn a 1500 personal rating in Rated Solo Shuffle in Season 35 (Dragonflight 2),0,0,4,0,0,0
+144780,1500 rating,144779,1500,0,59170,0,2
+144781,Earn a 2000 personal rating in Rated Solo Shuffle in Season 35 (Dragonflight 2),0,0,4,0,0,0
+144782,2000 rating,144781,2000,0,59170,0,2
+144783,Earn a 2200 personal rating in Rated Solo Shuffle in Season 35 (Dragonflight 2),0,0,4,0,0,0
+144784,2200 rating,144783,2200,0,59170,0,2
+144785,Earn a 2400 personal rating in Rated Solo Shuffle in Season 35 (Dragonflight 2),0,0,4,0,0,0
+144786,2400 rating,144785,2400,0,59170,0,2
+144787,Earn a 2600 personal rating in Rated Solo Shuffle in Season 35 (Dragonflight 2),0,0,4,0,0,0
+144788,2600 rating,144787,2600,0,59170,0,2
+144789,Earn a 2800 personal rating in Rated Solo Shuffle in Season 35 (Dragonflight 2),0,0,4,0,0,0
+144790,2800 rating,144789,2800,0,59170,0,2
+144791,Earn a 3000 personal rating in Rated Solo Shuffle in Season 35 (Dragonflight 2),0,0,4,0,0,0
+144792,3000 rating,144791,3000,0,59170,0,2
+144793,Earn a 1500 personal rating in the 2v2 bracket of the arena in Season 35 (Dragonflight 2),0,0,4,0,0,0
+144794,1500 rating,144793,1500,0,59168,0,2
+144795,Earn a 2000 personal rating in the 2v2 bracket of the arena in Season 35 (Dragonflight 2),0,0,4,0,0,0
+144796,2000 rating,144795,2000,0,59168,0,2
+144797,Earn a 3000 personal rating in the 2v2 bracket of the arena in Season 35 (Dragonflight 2),0,0,4,0,0,0
+144798,3000 rating,144797,3000,0,59168,0,2
+144799,Earn a 2800 personal rating in the 2v2 bracket of the arena in Season 35 (Dragonflight 2),0,0,4,0,0,0
+144800,2800 rating,144799,2800,0,59168,0,2
+144801,Earn a 2600 personal rating in the 2v2 bracket of the arena in Season 35 (Dragonflight 2),0,0,4,0,0,0
+144802,2600 rating,144801,2600,0,59168,0,2
+144803,Earn a 2400 personal rating in the 2v2 bracket of the arena in Season 35 (Dragonflight 2),0,0,4,0,0,0
+144804,2400 rating,144803,2400,0,59168,0,2
+144805,Earn a 2200 personal rating in the 2v2 bracket of the arena in Season 35 (Dragonflight 2),0,0,4,0,0,0
+144806,2200 rating,144805,2200,0,59168,0,2
+144807,Earn a 1500 personal rating in the 3v3 bracket of the arena in Season 35 (Dragonflight 2),0,0,4,0,0,0
+144808,1500 rating,144807,1500,0,59172,0,2
+144809,Earn a 2000 personal rating in the 3v3 bracket of the arena in Season 35 (Dragonflight 2),0,0,4,0,0,0
+144810,2000 rating,144809,2000,0,59172,0,2
+144811,Earn a 2200 personal rating in the 3v3 bracket of the arena in Season 35 (Dragonflight 2),0,0,4,0,0,0
+144812,2200 rating,144811,2200,0,59172,0,2
+144813,Earn a 2600 personal rating in the 3v3 bracket of the arena in Season 35 (Dragonflight 2),0,0,4,0,0,0
+144814,2600 rating,144813,2600,0,59172,0,2
+144815,Earn a 2800 personal rating in the 3v3 bracket of the arena in Season 35 (Dragonflight 2),0,0,4,0,0,0
+144816,2800 rating,144815,2800,0,59172,0,2
+144817,Earn a 3000 personal rating in the 3v3 bracket of the arena in Season 35 (Dragonflight 2),0,0,4,0,0,0
+144818,3000 rating,144817,3000,0,59172,0,2
+144819,Earn a 3000 personal rating in rated battlegrounds in Season 35 (Dragonflight 2),0,0,4,0,0,0
+144820,3000 rating,144819,3000,0,59169,0,2
+144821,Earn a 2400 personal rating in the 3v3 bracket of the arena in Season 35 (Dragonflight 2),0,0,4,0,0,0
+144822,2400 rating,144821,2400,0,59172,0,2
+144823,Earn a 2000 personal rating in rated battlegrounds in Season 35 (Dragonflight 2),0,0,4,0,0,0
+144824,2000 rating,144823,2000,0,59169,0,2
+144825,Earn a 2200 personal rating in rated battlegrounds in Season 35 (Dragonflight 2),0,0,4,0,0,0
+144826,2200 rating,144825,2200,0,54436,0,2
+144827,Earn a 2400 personal rating in rated battlegrounds in Season 35 (Dragonflight 2),0,0,4,0,0,0
+144828,2400 rating,144827,2400,0,59169,0,2
+144829,Earn a 2600 personal rating in rated battlegrounds in Season 35 (Dragonflight 2),0,0,4,0,0,0
+144830,2600 rating,144829,2600,0,59169,0,2
+144831,Earn a 2800 personal rating in rated battlegrounds in Season 35 (Dragonflight 2),0,0,4,0,0,0
+144832,2800 rating,144831,2800,0,59169,0,2
+144833,Earn a 1500 personal rating in rated battlegrounds in Season 35 (Dragonflight 2),0,0,4,0,0,0
+144834,1500 rating,144833,1500,0,59169,0,2
+144835,Lava Lunkers Landed,0,5,5,0,0,8193
+144836,,144835,0,0,59173,0,0
+144841,10.1 Unlock the Winding Slitherdrake,0,0,4,0,0,0
+144842,,144841,1,0,59177,0,0
 144843,Valdrakken,144043,1,8,0,0,8193
 144844,,144843,1,0,59178,1,1
+144845,Unearthed Fragrant Coins,0,0,4,0,0,0
+144846,,144845,200,0,59179,0,1
 144847,Iskaara,144043,1,8,0,1,8193
 144848,,144847,1,0,59180,0,1
 144849,Maruukai,144043,1,8,0,2,8193
 144850,,144849,1,0,59181,0,1
 144851,Dragonscale Basecamp,144043,1,8,0,3,8193
 144852,,144851,1,0,59182,0,1
+144859,Adventurer's Journey: Zaralek Cavern,0,10,8,0,0,0
+144860,Alcanon,144859,1,0,59188,0,0
+144861,Aquifon,144859,1,0,59185,1,0
+144862,Brulsef the Stronk,144859,1,0,59202,2,0
+144863,Colossian,144859,1,0,59212,3,0
+144864,Emberdusk,144859,1,0,59209,4,0
+144865,Flowfy,144859,1,0,59207,5,0
+144866,General Zskorro,144859,1,0,59190,6,0
+144867,Goopal,144859,1,0,59186,7,0
+144868,Hadexia,144859,1,0,59197,8,0
+144869,Invohq,144859,1,0,59200,9,0
+144870,Jrumm,144859,1,0,59206,10,0
+144871,Kairoktra,144859,1,0,59199,11,0
+144872,Kaprachu,144859,1,0,59184,12,0
+144873,Klakatak,144859,1,0,59198,13,0
+144874,Kob'rok,144859,1,0,59183,14,0
+144875,Kronkapace,144859,1,0,59204,15,0
+144876,Lavermix,144859,1,0,59201,16,0
+144877,Magmanesha,144859,1,0,59203,17,0
+144878,Professor Gastrinax,144859,1,0,59189,18,0
+144879,Shadowforge Mole Machine,144859,1,0,59211,19,0
+144880,Skornak,144859,1,0,59205,20,0
+144881,Spinmarrow,144859,1,0,59187,21,0
+144882,Subterrax,144859,1,0,59208,22,0
+144883,Underlight Queen,144859,1,0,59191,23,0
+144884,Veridian King,144859,1,0,59210,24,0
+144885,Complete all of the Zaralek Cavern achievements listed below.,0,0,4,0,0,0
+144886,,144885,0,0,59213,0,32
+144887,,144885,0,0,59214,1,32
+144888,,144885,0,0,59215,2,32
+144889,,144885,0,0,59216,3,32
+144890,,144885,0,0,59217,4,32
+144891,,144885,0,0,59218,5,32
+144892,Unique Treasures: Zaralek Cavern,0,0,4,0,0,0
+144893,Ancient Zaqali Chest,144892,1,0,59222,0,0
+144894,Blazing Shadowflame Chest,144892,1,0,59220,1,0
+144895,Bloody Body,144892,1,0,59225,2,0
+144896,Charred Egg,144892,1,0,59226,3,0
+144897,Chest of the Flights,144892,1,0,59224,4,0
+144898,Crystal-Encased Chest,144892,1,0,59228,5,0
+144899,Long-Lost Cache,144892,1,0,59223,6,0
+144900,Old Trunk,144892,1,0,59227,7,0
+144901,Seething Cache,144892,1,0,59221,8,0
+144902,Well-Chewed Chest,144892,1,0,59219,9,0
+144903,,144885,0,0,59229,6,32
+144904,Current Patch - Login Video [DNT] (Updated Every Patch),0,0,4,0,0,0
+144905,,144904,0,0,59230,0,0
+144914,2000 Flightstones,0,0,4,0,0,0
+144915,Earn 2000 Flightstones.,144914,2000,0,59235,0,1
+144916,Players Slain,0,0,4,0,0,1
+144917,Players Slain,144916,15,0,59236,0,1
+144918,Win 100 Rated Solo Shuffle rounds while at Elite rank during Dragonflight Season 2.,0,0,4,0,0,0
+144919,,144918,100,0,59237,0,1
+144922,Elite Dragonflight Season 2,0,1,8,0,0,2
+144923,,144922,2400,0,59168,0,2
+144924,,144922,2400,0,59172,1,2
+144925,,144922,2400,0,59169,2,2
+144926,,144922,2400,0,59170,3,2
+144927,Sniff out five special items while exploring caves alongside a niffen companion.,0,5,8,0,0,8193
+144928,,144927,0,0,59239,0,0
+144929,,144927,0,0,59240,1,0
+144930,,144927,0,0,59241,2,0
+144931,,144927,0,0,59242,3,0
+144932,,144927,0,0,59243,4,0
+144933,,144927,0,0,59244,5,0
+144934,,144927,0,0,59245,6,0
+144935,,144927,0,0,59246,7,0
+144936,,144927,0,0,59247,8,0
+144937,Sniff out all possible special items while exploring caves alongside a niffen companion.,0,5,4,0,0,8193
+144938,,144937,1,0,59239,0,0
+144939,,144937,1,0,59240,1,0
+144940,,144937,1,0,59241,2,0
+144941,,144937,1,0,59242,3,0
+144942,,144937,1,0,59243,4,0
+144943,,144937,1,0,59244,5,0
+144944,,144937,1,0,59245,6,0
+144945,,144937,1,0,59246,7,0
+144946,,144937,1,0,59247,8,0
+144947,Statistic: Flightstones earned,0,0,4,0,0,0
+144948,,144947,0,0,59235,0,0
+144949,Statistic: Whelpling crest fragments earned,0,0,4,0,0,0
+144950,,144949,0,0,59249,0,0
+144951,Statistic: Drake crest fragments earned,0,0,4,0,0,0
+144952,,144951,0,0,59250,0,0
+144953,Statistic: Wyrm crest fragments earned,0,0,4,0,0,0
+144954,,144953,0,0,59251,0,0
+144955,Statistic: Aspect crest fragments earned,0,0,4,0,0,0
+144956,,144955,0,0,59252,0,0
+144957,,144885,0,0,59248,7,32
+144959,,144885,0,0,59253,8,32
+144960,Sundered Flame forces defeated,143904,85,9,0,0,0
+144961,Titan forces cleared,143239,55,9,0,0,0
+144962,Attacking Wildlife defeated,144240,45,9,0,0,0
+144970,Pyramid Scheme - Get The Hat,0,0,4,0,0,0
+144971,,144970,1,0,59255,0,2
+144972,Reputation earned throughout Dragon Isles,0,3000,5,0,0,4096
+144973,,144972,1,0,59256,0,0
+144974,,144972,1,0,59257,1,0
+144975,,144972,1,0,59258,2,0
+144976,,144972,1,0,59259,3,0
+144977,,144972,1,0,59260,4,0
+144978,,144972,1,0,59261,5,0
+144979,,144972,1,0,59262,6,0
+144980,,144972,1,0,59263,7,0
+144981,,144972,1,0,59264,8,0
+144982,Reputation earned throughout Dragon Isles,0,3000,5,0,0,4096
+144983,,144982,1,0,59265,1,0
+144984,,144982,1,0,59266,3,0
+144985,,144982,1,0,59267,5,0
+144986,,144982,1,0,59268,7,0
+144987,,144982,1,0,59269,0,0
+144988,,144982,1,0,59270,2,0
+144989,,144982,1,0,59271,4,0
+144990,,144982,1,0,59272,6,0
+144991,,144982,1,0,59273,8,0
+144992,Reputation earned throughout Dragon Isles,0,3000,5,0,0,4096
+144993,,144992,1,0,59274,0,0
+144994,,144992,1,0,59275,1,0
+144995,,144992,1,0,59276,2,0
+144996,,144992,1,0,59277,3,0
+144997,,144992,1,0,59278,4,0
+144998,,144992,1,0,59279,5,0
+144999,,144992,1,0,59280,6,0
+145000,,144992,1,0,59281,7,0
+145001,,144992,1,0,59282,8,0
+145002,,144992,1,0,59283,9,0
+145003,,144992,1,0,59284,10,0
+145014,,144982,1,0,59285,10,0
+145015,,144982,1,0,59286,9,0
+145016,,144972,1,0,59287,9,0
+145017,,144972,1,0,59288,10,0
+145018,,143979,1,0,59289,9,0
+145019,,143979,1,0,59290,10,0
+145020,,140434,1,0,59291,9,0
+145021,,140434,1,0,59292,10,0
+145022,,140427,1,0,59293,9,0
+145023,,140427,1,0,59294,10,0
+145024,,140422,1,0,59295,9,0
+145025,,140422,1,0,59296,10,0
+145026,,140416,1,0,59297,9,0
+145027,,140416,1,0,59298,10,0
+145028,,138588,1,0,59299,9,0
+145029,,138588,1,0,59300,10,0
+145030,Achievement - Keystone 5: Dragonflight Dungeons Season 2,0,0,4,0,0,2
+145031,Rating Requirement,145030,750,0,59301,0,2
+145032,Achievement - Keystone 10: Dragonflight Dungeons Season 2,0,0,4,0,0,2
+145033,Rating Requirement,145032,1500,0,59301,0,2
+145034,Achievement - Keystone 15: Dragonflight Dungeons Season 2,0,0,4,0,0,2
+145035,Rating Requirement,145034,2000,0,59301,0,2
+145036,Achievement - Keystone 20: Dragonflight Dungeons Season 2,0,0,4,0,0,2
+145037,Rating Requirement,145036,2500,0,59301,0,2
+145038,Achievement - Dragonflight Season 2 Hero (Top 0.1%),0,0,4,0,0,0
+145039,,145038,1,0,59302,0,2
+145040,,145038,1,1,59303,1,2
+145041,Achievement - Freehold Keystone Hero (20+),0,0,4,0,0,0
+145042,,145041,1,0,59304,0,2
+145043,Achievement - Vortex Pinnacle Keystone Hero (20+),0,0,4,0,0,0
+145044,,145043,1,0,59305,0,2
+145045,Achievement - Underrot Keystone Hero (20+),0,0,4,0,0,0
+145046,,145045,1,0,59306,0,2
+145047,Achievement - Neltharion's Lair Keystone Hero (20+),0,0,4,0,0,0
+145048,,145047,1,0,59307,0,2
+145057,Earn 1000 honor in Zaralek Cavern while in War Mode.,0,0,4,0,0,0
+145058,Earn 1000 honor in Zaralek Cavern while in War Mode.,145057,1000,0,59312,0,1
+145059,Kill a player while infused with each of the conjured elements.,0,0,4,0,0,0
+145060,Emerald Infusion,145059,1,0,59313,0,32
+145061,Crimson Infusion,145059,1,0,59314,1,32
+145062,Primordial Infusion,145059,1,0,59315,2,32
+145063,Prismatic Infusion,145059,1,0,59317,3,32
+145064,Stone Infusion,145059,1,0,59318,4,32
+145065,Temporal Infusion,145059,1,0,59316,5,32
+145066,Midsummer Fire Festival daily quests completed,0,10,5,0,0,8193
+145067,,145066,0,0,59319,0,0
+145068,,145066,0,0,59320,1,0
+145069,,145066,0,0,59321,2,0
+145070,,145066,0,0,59322,3,0
+145071,,145066,0,0,59323,4,0
+145072,Flames honored in Pandaria,0,0,4,0,0,1
+145073,Jade Forest,145072,1,0,59324,0,1
+145074,Valley of the Four Winds,145072,1,0,59325,1,1
+145075,Krasarang Wilds,145072,1,0,59326,2,1
+145076,Kun-Lai Summit,145072,1,0,59327,3,1
+145077,Townlong Steppes,145072,1,0,59328,4,1
+145078,Dread Wastes,145072,1,0,59329,5,1
+145080,Vale of Eternal Blossoms,145072,1,8,0,6,8193
+145081,,145080,0,0,59330,0,1
+145082,,145080,0,0,59331,1,1
+145083,Has Eaten the Forbidden Flounder and survived,0,0,4,0,0,0
+145084,,145083,0,0,59332,0,0
+145085,Defeat Scalecommander Sarkareth after cultivating a Mysterious Lump and hurling it into the Emptiness Between Stars on Normal difficulty or higher.,0,0,4,0,0,0
+145086,Hurl a Lump of Flesh into the Emptiness Between Stars.,145085,1,0,59333,0,0
+145087,Fire desecrated in Pandaria,0,1,8,0,0,8193
+145088,,145087,0,0,59334,0,1
+145089,,145087,0,0,59335,1,1
+145090,Dragon Isles flames honored,0,0,4,0,0,1
+145091,The Waking Shores,145090,1,0,59336,0,0
+145092,Ohn'ahran Plains,145090,1,0,59337,1,0
+145093,The Azure Span,145090,1,0,59338,2,0
+145094,Thaldraszus,145090,1,0,59339,3,0
+145095,The Forbidden Reach,145090,1,0,59340,4,0
+145096,Zaralek Cavern,145090,1,0,59341,5,0
+145097,Use the /dance emote on a Brazier of Dancing Flames toy at the Obsidian Throne,0,0,4,0,0,8193
+145098,,145097,0,0,59410,0,1
+145099,Catch Zaralek Cavern Pets,0,0,4,0,0,0
+145100,Puddlehopper,145099,0,0,59342,0,0
+145101,Rock Martin,145099,0,0,59343,1,0
+145102,Yellabon,145099,0,0,59344,2,0
+145103,Endmite,145099,0,0,59345,3,0
+145104,Stonewhisker,145099,0,0,59346,4,0
+145105,Cobbleshell,145099,0,0,59347,5,0
+145106,Boulderfang,145099,0,0,59348,6,0
+145107,Slabwing,145099,0,0,59349,7,0
+145108,Hollow Moth,145099,0,0,59350,8,0
+145109,10.1 Pet Battles - Zaralek Cavern - Defeat All Pet Battle World Quests,0,4,8,0,0,0
+145110,To a Land Down Under,145109,1,0,59352,0,0
+145111,Are They Not Beautiful?,145109,1,0,59351,1,0
+145112,Delver Mardei,145109,1,0,59354,2,0
+145113,Do you Even Train?,145109,1,0,59353,3,0
+145114,10.1 Pet Battles - Zaralek Cavern - Defeat Trainers with Aquatic lvl 25,0,4,8,0,0,0
+145115,Explorer Bezzert,145114,1,0,59355,0,0
+145116,Shinmura,145114,1,0,59356,1,0
+145117,Delver Mardei,145114,1,0,59357,2,0
+145118,Trainer Orlogg,145114,1,0,59358,3,0
+145119,10.1 Pet Battles - Zaralek Cavern - Defeat Trainers with Beast lvl 25,0,4,8,0,0,0
+145120,Explorer Bezzert,145119,1,0,59359,0,0
+145121,Shinmura,145119,1,0,59360,1,0
+145122,Delver Mardei,145119,1,0,59361,2,0
+145123,Trainer Orlogg,145119,1,0,59362,3,0
+145124,10.1 Pet Battles - Zaralek Cavern - Defeat Trainers with Critter lvl 25,0,4,8,0,0,0
+145125,Explorer Bezzert,145124,1,0,59363,0,0
+145126,Shinmura,145124,1,0,59364,1,0
+145127,Delver Mardei,145124,1,0,59365,2,0
+145128,Trainer Orlogg,145124,1,0,59366,3,0
+145129,10.1 Pet Battles - Zaralek Cavern - Defeat Trainers with Dragonkin lvl 25,0,4,8,0,0,0
+145130,Explorer Bezzert,145129,1,0,59367,0,0
+145131,Shinmura,145129,1,0,59368,1,0
+145132,Delver Mardei,145129,1,0,59369,2,0
+145133,Trainer Orlogg,145129,1,0,59370,3,0
+145134,10.1 Pet Battles - Zaralek Cavern - Defeat Trainers with Elemental lvl 25,0,4,8,0,0,0
+145135,Explorer Bezzert,145134,1,0,59371,0,0
+145136,Shinmura,145134,1,0,59372,1,0
+145137,Delver Mardei,145134,1,0,59373,2,0
+145138,Trainer Orlogg,145134,1,0,59374,3,0
+145139,10.1 Pet Battles - Zaralek Cavern - Defeat Trainers with Flying lvl 25,0,4,8,0,0,0
+145140,Explorer Bezzert,145139,1,0,59375,0,0
+145141,Shinmura,145139,1,0,59376,1,0
+145142,Delver Mardei,145139,1,0,59377,2,0
+145143,Trainer Orlogg,145139,1,0,59378,3,0
+145144,10.1 Pet Battles - Zaralek Cavern - Defeat Trainers with Humanoid lvl 25,0,4,8,0,0,0
+145145,Explorer Bezzert,145144,1,0,59379,0,0
+145146,Shinmura,145144,1,0,59380,1,0
+145147,Delver Mardei,145144,1,0,59381,2,0
+145148,Trainer Orlogg,145144,1,0,59382,3,0
+145149,10.1 Pet Battles - Zaralek Cavern - Defeat Trainers with Magic lvl 25,0,4,8,0,0,0
+145150,Explorer Bezzert,145149,1,0,59383,0,0
+145151,Shinmura,145149,1,0,59384,1,0
+145152,Delver Mardei,145149,1,0,59385,2,0
+145153,Trainer Orlogg,145149,1,0,59386,3,0
+145154,10.1 Pet Battles - Zaralek Cavern - Defeat Trainers with Mechanical lvl 25,0,4,8,0,0,0
+145155,Explorer Bezzert,145154,1,0,59387,0,0
+145156,Shinmura,145154,1,0,59388,1,0
+145157,Delver Mardei,145154,1,0,59389,2,0
+145158,Trainer Orlogg,145154,1,0,59390,3,0
+145159,10.1 Pet Battles - Zaralek Cavern - Defeat Trainers with Undead lvl 25,0,4,8,0,0,0
+145160,Explorer Bezzert,145159,1,0,59391,0,0
+145161,Shinmura,145159,1,0,59392,1,0
+145162,Delver Mardei,145159,1,0,59393,2,0
+145163,Trainer Orlogg,145159,1,0,59394,3,0
+145164,Family Battler of Zaralek Cavern,0,0,4,0,0,0
+145165,Aquatic Battler of Zaralek Cavern,145164,1,0,59395,0,0
+145166,Beast Battler of Zaralek Cavern,145164,1,0,59396,1,0
+145167,Critter Battler of Zaralek Cavern,145164,1,0,59397,2,0
+145168,Dragonkin Battler of Zaralek Cavern,145164,1,0,59398,3,0
+145169,Elemental Battler of Zaralek Cavern,145164,1,0,59399,4,0
+145170,Flying Battler of Zaralek Cavern,145164,1,0,59400,5,0
+145171,Humanoid Battler of Zaralek Cavern,145164,1,0,59401,6,0
+145172,Magic Battler of Zaralek Cavern,145164,1,0,59402,7,0
+145173,Mechanical Battler of Zaralek Cavern,145164,1,0,59403,8,0
+145174,Undead Battler of Zaralek Cavern,145164,1,0,59404,9,0
+145175,Suffusion Crucible looted,0,1,8,0,0,4096
+145176,,145175,1,0,59405,0,0
+145177,Suffusion Mold looted,0,1,8,0,0,4096
+145178,,145177,1,0,59406,0,0
+145181,Complete Loamm Niffen Activities,0,0,4,0,0,4096
+145182,,145181,0,0,59409,0,0
+145183,5000 Flightstones,0,0,4,0,0,0
+145184,Earn 5000 Flightstones.,145183,5000,0,59235,0,1
+145185,20000 Flightstones,0,0,4,0,0,0
+145186,Earn 20000 Flightstones.,145185,20000,0,59235,0,1
+145187,Slay Ahune,0,2,5,0,0,8193
+145188,,145187,1,0,59411,0,1
+145189,Quests complete,0,15,5,0,0,8193
+145190,,145189,0,0,59412,0,0
+145191,,145189,0,0,59413,1,0
+145192,,145189,0,0,59415,2,0
+145193,,145189,0,0,59414,3,0
+145194,,145189,0,0,59416,4,0
+145195,,145189,0,0,59417,5,0
+145196,,145189,0,0,59418,6,0
+145197,,145189,0,0,59419,7,0
+145198,Timewalking Dungeons completed,0,5,5,0,0,8193
+145199,,145198,0,0,59420,0,0
+145200,,145198,0,0,59421,1,0
+145201,,145198,0,0,59422,2,0
+145202,,145198,0,0,59423,3,0
+145203,,145198,0,0,59424,4,0
+145204,,145198,0,0,59425,5,0
+145205,Achievement: Dragonflight Season 2 Master,0,1,8,0,0,0
+145206,,145205,0,0,60067,0,32
+145207,,145205,0,0,59427,1,32
+145208,,145205,0,0,59428,2,32
+145213,10.1 Underground - Campaign - Ch 1 - Q05 - The Throughway - S1 - Sabellian Casts Buff (JSS),0,0,4,0,0,0
+145214,Sabellian Casts Play Buff,145213,1,0,59431,0,0
+145217,10.1 Underground - Campaign - Ch 1 - Q05 - The Throughway - SCENARIO - S2 - Lorac Boulder Thrown (JSS),0,0,4,0,0,0
+145218,Lorac boulder thrown and impacts,145217,1,0,59433,0,0
+145221,Fish caught,0,50,5,0,0,8193
+145222,,145221,0,0,59435,0,0
+145223,,145221,0,0,59436,1,0
+145224,,145221,0,0,59437,2,0
+145225,,145221,0,0,59438,3,0
+145226,,145221,0,0,59439,4,0
+145227,,145221,0,0,59440,5,0
+145228,,145221,0,0,59441,6,0
+145229,,145221,0,0,59442,7,0
+145230,,145221,0,0,59443,8,0
+145231,,145221,0,0,59444,9,0
+145232,Master tamers defeated,0,3,8,0,0,1
+145233,Hyuna of the Shrines,145232,1,0,59445,0,1
+145234,Farmer Nishi,145232,1,0,59446,1,1
+145235,Mo'ruk,145232,1,0,59447,2,1
+145236,Courageous Yon,145232,1,0,59448,3,1
+145237,Seeker Zusshi,145232,1,0,59449,4,1
+145238,Wastewalker Shu,145232,1,0,59450,5,1
+145239,Small boat created,0,0,4,0,0,8193
+145240,,145239,0,0,59451,0,0
+145241,Dragon Isle zones sailed in,0,4,4,0,0,1
+145242,The Waking Shores,145241,1,0,59452,0,1
+145243,Ohn'ahran Plains,145241,1,0,59453,1,1
+145244,The Azure Span,145241,1,0,59454,2,1
+145245,Thaldraszus,145241,1,0,59455,3,1
+145246,,145181,0,0,59456,1,0
+145247,,145181,0,0,59457,2,0
+145248,,145181,0,0,59458,3,0
+145249,,145181,0,0,59459,4,0
+145250,,145181,0,0,59460,5,0
+145251,,145181,0,0,59461,6,0
+145252,,145181,0,0,59462,7,0
+145253,,145181,0,0,59463,8,0
+145254,,145181,0,0,59464,9,0
+145255,,145181,0,0,59465,10,0
+145256,,145181,0,0,59466,11,0
+145257,,145181,0,0,59467,12,0
+145258,,145181,0,0,59468,13,0
+145259,,145181,0,0,59469,14,0
+145260,,145181,0,0,59470,15,0
+145261,,145181,0,0,59471,16,0
+145262,,145181,0,0,59472,17,0
+145263,,145181,0,0,59473,18,0
+145264,,145181,0,0,59474,19,0
+145265,,145181,0,0,59475,20,0
+145266,,145181,0,0,59476,21,0
+145267,,145181,0,0,59477,22,0
+145268,,145181,0,0,59478,23,0
+145269,,145181,0,0,59479,24,0
+145270,,145181,0,0,59480,25,0
+145271,,145181,0,0,59481,26,0
+145272,,145181,0,0,59482,27,0
+145273,,145181,0,0,59483,28,0
+145274,,145181,0,0,59484,29,0
+145275,Awe at another UNIQUE player,0,0,4,0,0,1
+145276,Awe at another UNIQUE player,145275,10,0,59485,0,1
+145277,Ruin wildlife cleared,144256,60,9,0,0,0
+145278,Zaqali forces defeated,144270,50,9,0,0,0
+145279,10.1 Research Scenario - Step Last - Ending the Expedition v2,0,0,4,0,0,0
+145280,Talk to Rannan to complete this expedition,145279,1,0,58255,0,0
+145281,Firebird's Challenge complete,0,0,4,0,0,8193
+145282,,145281,1,0,59486,0,0
+145285,Flaming Hoop toy used at the Darkmoon Faire and in Valdrakken,0,0,4,0,0,1
+145286,Darkmoon Faire,145285,1,0,59488,0,0
+145287,Valdrakken,145285,1,0,59489,1,0
+145290,Kokia Blazehoof defeated after heating up 4 life pools with Molten Boulder in Ruby Life Pools on Mythic difficulty,0,0,4,0,0,1
+145291,Heat up 4 life pools,145290,1,0,59490,0,0
+145292,Players resurrected,0,10,5,0,0,8193
+145293,,145292,0,0,54762,0,0
+145294,,145292,0,0,54763,1,0
+145295,,145292,0,0,54764,2,0
+145296,,145292,0,0,54765,3,0
+145297,,145292,0,0,54766,4,0
+145298,,145292,0,0,54767,5,0
+145299,,145292,0,0,54768,6,0
+145300,,145292,0,0,54769,7,0
+145301,,145292,0,0,57873,8,0
+145302,,145292,0,0,57874,9,0
+145303,,145292,0,0,57875,10,0
+145304,,145292,0,0,58132,11,0
+145305,,145292,0,0,58133,12,0
+145306,,145292,0,0,58134,13,0
+145307,Cavern Clawbbering,0,10,4,0,0,0
+145308,Alcanon,145307,1,0,59491,0,0
+145309,Aquifon,145307,1,0,59492,1,0
+145310,Brulsef the Stronk,145307,1,0,59493,2,0
+145311,Colossian,145307,1,0,59494,3,0
+145312,Emberdusk,145307,1,0,59495,4,0
+145313,Flowfy,145307,1,0,59496,5,0
+145314,General Zskorro,145307,1,0,59497,6,0
+145315,Goopal,145307,1,0,59498,7,0
+145316,Invohq,145307,1,0,59499,8,0
+145317,Jrumm,145307,1,0,59500,9,0
+145318,Kairoktra,145307,1,0,59501,10,0
+145319,Kaprachu,145307,1,0,59502,11,0
+145320,Klakatak,145307,1,0,59503,12,0
+145321,Kob'rok,145307,1,0,59504,13,0
+145322,Magmanesha,145307,1,0,59505,14,0
+145323,Professor Gastrinax,145307,1,0,59506,15,0
+145324,Skornak,145307,1,0,59507,16,0
+145325,Spinmarrow,145307,1,0,59508,17,0
+145326,Subterrax,145307,1,0,59509,18,0
+145327,Underlight Queen,145307,1,0,59510,19,0
+145328,Veridian King,145307,1,0,59511,20,0
+145335,Wildlife cleared,144252,35,9,0,0,0
+145343,<DNT> Loamm Niffen - Renown 01 - Character,0,0,4,0,0,0
+145344,,145343,1,0,59155,0,0
+145345,,145343,1,1,59516,1,0
+145346,<DNT> Loamm Niffen - Renown 02 - Character,0,0,4,0,0,0
+145347,,145346,2,0,59155,0,0
+145348,,145346,1,1,59517,1,0
+145349,<DNT> Loamm Niffen - Renown 03 - Character,0,0,4,0,0,0
+145350,,145349,3,0,59155,0,0
+145351,,145349,1,1,59518,1,0
+145352,<DNT> Loamm Niffen - Renown 04 - Character,0,0,4,0,0,0
+145353,,145352,4,0,59155,0,0
+145354,,145352,1,1,59519,1,0
+145355,<DNT> Loamm Niffen - Renown 05 - Character,0,0,4,0,0,0
+145356,,145355,5,0,59155,0,0
+145357,,145355,1,1,59520,1,0
+145358,<DNT> Loamm Niffen - Renown 06 - Character,0,0,4,0,0,0
+145359,,145358,6,0,59155,0,0
+145360,,145358,1,1,59521,1,0
+145361,<DNT> Loamm Niffen - Renown 07 - Character,0,0,4,0,0,0
+145362,,145361,7,0,59155,0,0
+145363,,145361,1,1,59522,1,0
+145364,<DNT> Loamm Niffen - Renown 08 - Character,0,0,4,0,0,0
+145365,,145364,8,0,59155,0,0
+145366,,145364,1,1,59523,1,0
+145367,<DNT> Loamm Niffen - Renown 09 - Character,0,0,4,0,0,0
+145368,,145367,9,0,59155,0,0
+145369,,145367,1,1,59524,1,0
+145370,<DNT> Loamm Niffen - Renown 10 - Character,0,0,4,0,0,0
+145371,,145370,10,0,59155,0,0
+145372,,145370,1,1,59525,1,0
+145373,<DNT> Loamm Niffen - Renown 11 - Character,0,0,4,0,0,0
+145374,,145373,11,0,59155,0,0
+145375,,145373,1,1,59526,1,0
+145376,<DNT> Loamm Niffen - Renown 12 - Character,0,0,4,0,0,0
+145377,,145376,12,0,59155,0,0
+145378,,145376,1,1,59527,1,0
+145379,<DNT> Loamm Niffen - Renown 13 - Character,0,0,4,0,0,0
+145380,,145379,13,0,59155,0,0
+145381,,145379,1,1,59528,1,0
+145382,<DNT> Loamm Niffen - Renown 14 - Character,0,0,4,0,0,0
+145383,,145382,14,0,59155,0,0
+145384,,145382,1,1,59529,1,0
+145385,<DNT> Loamm Niffen - Renown 15 - Character,0,0,4,0,0,0
+145386,,145385,15,0,59155,0,0
+145387,,145385,1,1,59530,1,0
+145388,<DNT> Loamm Niffen - Renown 16 - Character,0,0,4,0,0,0
+145389,,145388,16,0,59155,0,0
+145390,,145388,1,1,59531,1,0
+145391,<DNT> Loamm Niffen - Renown 17 - Character,0,0,4,0,0,0
+145392,,145391,17,0,59155,0,0
+145393,,145391,1,1,59532,1,0
+145394,<DNT> Loamm Niffen - Renown 18 - Character,0,0,4,0,0,0
+145395,,145394,18,0,59155,0,0
+145396,,145394,1,1,59533,1,0
+145397,<DNT> Loamm Niffen - Renown 19 - Character,0,0,4,0,0,0
+145398,,145397,19,0,59155,0,0
+145399,,145397,1,1,59534,1,0
+145400,<DNT> Loamm Niffen - Renown 20 - Character,0,0,4,0,0,0
+145401,,145400,20,0,59155,0,0
+145402,,145400,1,1,59535,1,0
+145403,Dragon races completed,0,15,5,0,0,8193
+145404,,145403,0,0,59536,0,0
+145405,Players Slain,0,0,4,0,0,1
+145406,Players Slain,145405,15,0,59537,0,1
+145407,Defeat All Pet Battle World Quests in Zaralek Caverns,0,4,8,0,0,1
+145408,To a Land Down Under,145407,1,0,59538,0,0
+145409,Are They Not Beautiful?,145407,1,0,59539,1,0
+145410,Delver Mardei,145407,1,0,59540,2,0
+145411,Do you Even Train?,145407,1,0,59541,3,0
+145412,10.1 Raid - Aberrus - Achievement - Neltharion,0,0,4,0,0,0
+145413,"Shatter the Expired Experiment, Stack of Scrolls, Neverburning Ebon Candle, and ""Portable"" Ebon Anvil.",145412,1,0,59543,0,0
+145414,Climbing world quest complete,0,4,5,0,0,1
+145415,Spearheading Acquisition,145414,1,0,59542,0,1
+145416,A Veritable Dumping Ground,145414,1,0,59122,1,1
+145417,No Mushroom For Ever,145414,1,0,59121,2,1
+145418,Crystalline Conundrum,145414,1,0,59123,3,1
+145419,Dragonriding Glyphs - Zaralek,0,0,4,0,0,0
+145420,,145419,1,0,59544,0,48
+145421,,145419,1,0,59545,1,48
+145422,,145419,1,0,59546,2,48
+145423,,145419,1,0,59547,3,48
+145424,,145419,1,0,59548,4,48
+145425,,145419,1,0,59549,5,48
+145426,,145419,1,0,59550,6,48
+145427,,145419,1,0,59551,7,48
+145430,Timewalking Dungeons completed,0,1,8,0,0,8193
+145431,,145430,0,0,54682,0,0
+145432,,145430,0,0,54683,1,0
+145433,,145430,0,0,54684,2,0
+145434,,145430,0,0,54685,3,0
+145435,,145430,0,0,54686,4,0
+145436,,145430,0,0,54687,5,0
+145437,,145430,0,0,54688,6,0
+145438,,145430,0,0,54689,7,0
+145441,Timewalking Dungeons completed,0,1,8,0,0,8193
+145442,,145441,0,0,54786,0,0
+145443,,145441,0,0,54787,1,0
+145444,,145441,0,0,54788,2,0
+145445,,145441,0,0,54789,3,0
+145446,Violet Hold,145441,1,8,0,4,0
+145447,,145446,0,0,54790,0,0
+145448,,145446,0,0,54791,1,0
+145449,,145441,0,0,54792,5,0
+145450,,145441,0,0,54793,6,0
+145451,,145441,0,0,54794,7,0
+145452,,145441,0,0,54795,8,0
+145453,,145441,0,0,54796,9,0
+145454,,145441,0,0,54797,10,0
+145455,,145441,0,0,54799,11,0
+145456,,145441,0,0,59554,12,0
+145457,Timewalking Dungeons completed,0,5,5,0,0,8193
+145458,,145457,0,0,54786,0,0
+145459,,145457,0,0,54787,1,0
+145460,,145457,0,0,54788,2,0
+145461,,145457,0,0,54789,3,0
+145462,Violet Hold,145457,1,8,0,4,0
+145463,,145462,0,0,54790,0,0
+145464,,145462,0,0,54791,1,0
+145465,,145457,0,0,54792,5,0
+145466,,145457,0,0,54793,6,0
+145467,,145457,0,0,54794,7,0
+145468,,145457,0,0,54795,8,0
+145469,,145457,0,0,54796,9,0
+145470,,145457,0,0,54797,10,0
+145471,,145457,0,0,54799,11,0
+145472,,145457,0,0,59554,12,0
+145477,Pet Battle Dungeon Complete,0,1,8,0,0,1
+145478,Pet Battle Challenge: Wailing Caverns,145477,1,0,59558,0,0
+145479,Pet Battle Challenge: Deadmines,145477,1,0,59559,1,0
+145480,Pet Battle Challenge: Gnomeregan,145477,1,0,59560,2,0
+145481,Pet Battle Challenge: Stratholme,145477,1,0,59561,3,0
+145482,Pet Battle Challenge: Blackrock Depths,145477,1,0,59562,4,0
+145485,"Achievement: Mythic: Kazzara, the Hellforged",0,0,4,0,0,0
+145486,,145485,1,0,59564,0,2
+145487,Achievement: Mythic: The Amalgamation Chamber,0,0,4,0,0,0
+145488,,145487,1,0,59565,0,2
+145489,Achievement: Mythic: Scalecommander Sarkareth,0,0,4,0,0,0
+145490,Achievement: Mythic: The Forgotten Experiments,0,0,4,0,0,0
+145491,,145490,1,0,59566,0,0
+145492,Achievement: Mythic: Assault of the Zaqali,0,0,4,0,0,0
+145493,,145492,1,0,59567,0,0
+145494,"Achievement: Mythic: Rashok, the Elder",0,0,4,0,0,0
+145495,,145494,1,0,59568,0,0
+145496,"Achievement: Mythic: The Vigilant Steward, Zskarn",0,0,4,0,0,0
+145497,,145496,1,0,59569,0,0
+145498,Achievement: Mythic: Magmorax,0,0,4,0,0,0
+145499,,145498,1,0,59570,0,0
+145500,Achievement: Mythic: Echo of Neltharion,0,0,4,0,0,0
+145501,,145500,1,0,59571,0,0
+145502,,145489,1,0,59572,0,0
+145503,"Aberrus, the Shadowed Crucible",0,0,4,0,0,0
+145504,"Kazzara, the Hellforged",145503,1,0,58866,0,0
+145505,The Amalgamation Chamber,145503,1,0,58867,1,0
+145506,The Forgotten Experiments,145503,1,0,58868,2,0
+145507,Assault of the Zaqali,145503,1,0,58869,3,0
+145508,"Rashok, the Elder",145503,1,0,58870,4,0
+145509,"The Vigilant Stewart, Zskarn",145503,1,0,58871,5,0
+145510,Memorax,145503,1,0,58881,6,0
+145511,Echo of Neltharion,145503,1,0,58882,7,0
+145512,Scalecommander Sarkareth,145503,1,0,58883,8,0
+145513,"Heroic: Aberrus, the Shadowed Crucible",0,0,4,0,0,0
+145515,The Amalgamation Chamber,145513,1,0,59574,1,16
+145516,The Forgotten Experiments,145513,1,0,59575,2,16
+145517,Assault of the Zaqali,145513,1,0,59576,3,16
+145518,"Rashok, the Elder",145513,1,0,59577,4,16
+145519,"The Vigilant Stewart, Zskarn",145513,1,0,59578,5,16
+145520,Memorax,145513,1,0,59579,6,16
+145521,Echo of Neltharion,145513,1,0,59580,7,16
+145522,Scalecommander Sarkareth,145513,1,0,59581,8,16
+145523,"Mythic:  Aberrus, the Shadowed Crucible",0,0,4,0,0,0
+145524,,145523,0,0,59582,0,32
+145525,,145523,0,0,59583,1,32
+145526,,145523,0,0,59584,2,32
+145527,,145523,0,0,59585,3,32
+145528,,145523,0,0,59586,4,32
+145529,,145523,0,0,59587,5,32
+145530,,145523,0,0,59588,6,32
+145531,,145523,0,0,59589,7,32
+145532,,145523,0,0,59590,8,32
+145533,"Achievement - Aberrus, the Shadowed Crucible - Discarded Works",0,0,4,0,0,0
+145534,"Kazzara, the Hellforged",145533,1,0,58866,0,0
+145535,The Amalgamation Chamber,145533,1,0,58867,1,0
+145536,The Forgotten Experiments,145533,1,0,58868,2,0
+145537,"Achievement - Aberrus, the Shadowed Crucible - Fury of Giants",0,0,4,0,0,0
+145538,Assault of the Zaqali,145537,1,0,58869,0,0
+145539,"Rashok, the Elder",145537,1,0,58870,1,0
+145540,"The Vigilant Stewart, Zskarn",145537,1,0,58871,2,0
+145541,"Achievement - Aberrus, the Shadowed Crucible - Neltharion's Shadow",0,0,4,0,0,0
+145542,Magmorax,145541,1,0,58881,0,0
+145543,Echo of Neltharion,145541,1,0,58882,1,0
+145544,"Achievement - Aberrus, the Shadowed Crucible - Edge of the Void",0,0,4,0,0,0
+145545,Scalecommander Sarkareth,145544,1,0,58883,0,0
+145546,Use the /dance emote on Revelers,0,0,4,0,0,1
+145547,Stormwind,145546,1,0,59591,0,1
+145548,Orgrimmar,145546,1,0,59592,1,1
+145549,Booty Bay,145546,1,0,59593,2,1
+145550,Creatures slain,0,0,4,0,0,1
+145551,Creatures slain,145550,30,0,59594,0,1
+145552,Owner of the Shimmershell Snail pet.,0,1,8,0,0,0
+145553,,145552,1,0,59595,0,2
+145554,Creatures slain,0,0,4,0,0,1
+145555,Creatures slain,145554,200,0,59596,0,1
+145556,10.1 Underground - Campaign Credit,0,0,4,0,0,0
+145557,Wake of Ashes,145556,1,8,0,0,8194
+145558,,145557,0,0,59135,0,0
+145559,Purchase Jelly Jam,0,0,4,0,0,1
+145560,Jelly Jam,145559,1,0,59597,0,1
+145563,Purchase Submersible Propulsion Device,0,0,4,0,0,1
+145564,Submersible Propulsion Device,145563,1,0,59599,0,1
+145565,Purchase Damaged Diving Helmet,0,0,4,0,0,1
+145566,Damaged Diving Helmet,145565,1,0,59600,0,1
+145567,Emote /cold at a player on fire from the Set of Matches toy,0,0,4,0,0,1
+145568,Emote /cold at a player on fire from the Set of Matches toy,145567,1,0,59601,0,1
+145569,/disagree with Angry Trader,0,0,4,0,0,8193
+145570,,145569,1,0,59602,0,1
+145571,"Set of Matches used in Valdrakken, Iskaara, Dragonscale Basecamp, and Maruukai",0,0,4,0,0,1
+145572,Valdrakken,145571,1,0,59603,0,1
+145573,Iskaara,145571,1,0,59604,1,1
+145574,Dragonscale Basecamp,145571,1,0,59605,2,1
+145575,Maruukai,145571,1,0,59606,3,1
+145576,10.1 Underground - Campaign Credit - LQ07,0,0,4,0,0,0
+145577,Stain Removal,145576,1,8,0,0,8194
+145578,,145577,0,0,59135,0,0
+145579,10.1 Upgrade System - Tutorial - Loamm - Q02 - 1. acquire a shadowflame crest (SH),0,1,8,0,0,4112
+145580,,145579,1,0,59607,0,0
+145581,,145579,1,0,59608,1,0
+145582,,145579,1,0,59609,2,0
+145583,,145579,1,0,59610,3,0
+145586,Gain Happy Feet,0,0,4,0,0,8193
+145587,,145586,1,0,59612,0,1
+145588,Flame stolen,0,1,8,0,0,8193
+145589,,145588,1,0,59613,0,1
+145590,,145588,1,0,59614,1,1
+145591,10.1 Raid - Aberrus - Achievement - Lava Hydra,0,0,4,0,0,0
+145592,Feed Magmorax 20 Spicy Lava Snails.,145591,1,0,59615,0,0
+145593,10.1 Raid - Aberrus - The Forgotten Experiments - Achievement,0,0,4,0,0,0
+145594,Rend Nutraal 3 times.,145593,1,0,60082,0,0
+145595,Slime Nutraal 3 times.,145593,1,0,60083,1,0
+145596,Singe Nutraal 3 times,145593,1,0,60084,2,0
+145597,Use the /cheer emote on Trading Post Merchants and Merchandise,0,0,4,0,0,1
+145598,Trading Post Traders,145597,1,0,59616,0,1
+145599,Trading Post mannequin,145597,1,0,59617,1,1
+145600,Use the /cheer emote on Super Shellkhan Gang,0,0,4,0,0,1
+145601,Super Shellkhan Gang,145600,1,0,59618,0,1
+145602,Use the /cheer emote on Dragon Aspects,0,0,4,0,0,1
+145603,Alexstrasza,145602,1,0,59619,0,1
+145604,Kalecgos,145602,1,0,59620,1,1
+145605,Nozdormu,145602,1,0,59621,2,1
+145606,Use the Insulated Dancing Insoles,0,0,4,0,0,1
+145607,Loamm,145606,1,0,59622,0,0
+145608,Valdrakken,145606,1,0,59623,1,0
+145609,Animated Contaminant defeated,0,0,4,0,0,0
+145610,Animated Contaminant defeated,145609,1,0,59624,0,0
+145613,/huzzah at player of the opposite faction using Insulated Dancing Insoles,0,0,4,0,0,1
+145614,Player huzzahed at,145613,0,0,59626,0,0
+145615,Achievement - Hall of Fame: Scalecommander Sarkareth,0,0,4,0,0,0
+145616,,145615,1,0,59627,0,2
+145617,"Guild Achievement - Aberrus, the Shadowed Crucible",0,0,4,0,0,0
+145618,,145617,1,0,59628,0,32
+145619,,145617,1,0,59629,1,32
+145620,,145617,1,0,59630,2,32
+145621,,145617,1,0,59631,3,32
+145622,,145617,1,0,59632,4,32
+145623,,145617,1,0,59633,5,32
+145624,,145617,1,0,59634,6,32
+145625,,145617,1,0,59635,7,32
+145626,,145617,1,0,59636,8,32
+145627,"Heroic: Guild Achievement - Aberrus, the Shadowed Crucible",0,0,4,0,0,0
+145628,,145627,1,0,59637,0,32
+145629,,145627,1,0,59638,1,32
+145630,,145627,1,0,59639,2,32
+145631,,145627,1,0,59640,3,32
+145632,,145627,1,0,59641,4,32
+145633,,145627,1,0,59642,5,32
+145634,,145627,1,0,59643,6,32
+145635,,145627,1,0,59644,7,32
+145636,,145627,1,0,59645,8,32
+145637,"Mythic: Aberrus, the Shadowed Crucible Guild Run",0,0,4,0,0,0
+145638,,145637,1,0,59646,0,2
+145639,Statistic - 10.1 Raid - Aberrus - Kazzara - LFR,0,0,4,0,0,0
+145640,,145639,0,0,59647,0,2
+145641,Statistic - 10.1 Raid - Aberrus - Shadowflame - LFR,0,0,4,0,0,0
+145642,,145641,0,0,59648,0,2
+145643,Statistic - 10.1 Raid - Aberrus - Evolution of Dracthyr - LFR,0,0,4,0,0,0
+145644,,145643,0,0,59649,0,2
+145645,Statistic - 10.1 Raid - Aberrus - Djaradin Assault - LFR,0,0,4,0,0,0
+145646,,145645,0,0,59650,0,2
+145647,Statistic - 10.1 Raid - Aberrus - Djaradin Elder - LFR,0,0,4,0,0,0
+145648,,145647,0,0,59651,0,2
+145649,Statistic - 10.1 Raid - Aberrus - Zskarn - LFR,0,0,4,0,0,0
+145650,,145649,0,0,59652,0,2
+145651,Statistic - 10.1 Raid - Aberrus - Lava Hydra - LFR,0,0,4,0,0,0
+145652,,145651,0,0,59653,0,2
+145653,Statistic - 10.1 Raid - Aberrus - Neltharion - LFR,0,0,4,0,0,0
+145654,,145653,0,0,59654,0,2
+145655,Statistic - 10.1 Raid - Aberrus - Sarkareth - LFR,0,0,4,0,0,0
+145656,,145655,0,0,59655,0,2
+145657,Statistic - 10.1 Raid - Aberrus - Kazarra - Normal,0,0,4,0,0,0
+145658,,145657,0,0,59656,0,2
+145659,Statistic - 10.1 Raid - Aberrus - Shadowflame Elemental - Normal,0,0,4,0,0,0
+145660,,145659,0,0,59657,0,2
+145661,Statistic - 10.1 Raid - Aberrus - Evolution of Dracthyr - Normal,0,0,4,0,0,0
+145662,,145661,0,0,59663,0,2
+145663,Statistic - 10.1 Raid - Aberrus - Djaradin Assault - Normal,0,0,4,0,0,0
+145664,,145663,0,0,59658,0,2
+145665,Statistic - 10.1 Raid - Aberrus - Djaradin elder - Normal,0,0,4,0,0,0
+145666,,145665,0,0,59659,0,2
+145667,Statistic - 10.1 Raid - Aberrus - Zskarn - Normal,0,0,4,0,0,0
+145668,,145667,0,0,59660,0,2
+145669,Statistic - 10.1 Raid - Aberrus - Lava Hydra - Normal,0,0,4,0,0,0
+145670,,145669,0,0,59661,0,2
+145671,Statistic - 10.1 Raid - Aberrus - Neltharion - Normal,0,0,4,0,0,0
+145672,,145671,0,0,59662,0,2
+145673,Statistic - 10.1 Raid - Aberrus - Sarkareth - Normal,0,0,4,0,0,0
+145674,,145673,0,0,59664,0,2
+145675,Ritualmaster Skarna and Elder Magma Serpent defeated,0,0,4,0,0,0
+145676,Ritualmaster Skarna defeated,145675,1,0,59665,0,0
+145677,Elder Magma Serpent defeated,145675,1,0,59666,1,0
+145680,Statistic - 10.1 Raid - Aberrus - Kazzara - Heroic,0,0,4,0,0,0
+145681,,145680,0,0,59637,0,2
+145682,Statistic - 10.1 Raid - Aberrus - Shadowflame Elemental - Heroic,0,0,4,0,0,0
+145683,,145682,0,0,59638,0,2
+145684,Statistic - 10.1 Raid - Aberrus - Evolution of Dracthyr - Heroic,0,0,4,0,0,0
+145685,,145684,0,0,59639,0,2
+145686,Statistic - 10.1 Raid - Aberrus - Djaradin Assault - Heroic,0,0,4,0,0,0
+145687,,145686,0,0,59640,0,2
+145688,Statistic - 10.1 Raid - Aberrus - Djaradin Elder - Heroic,0,0,4,0,0,0
+145689,,145688,0,0,59641,0,2
+145690,Statistic - 10.1 Raid - Aberrus - Zskarn - Heroic,0,0,4,0,0,0
+145691,,145690,0,0,59642,0,2
+145692,Contaminated Titan Watcher defeated,0,0,4,0,0,0
+145693,Contaminated Titan Watcher defeated,145692,1,0,59668,0,0
+145694,Monstrous Magmaclaw Snapper defeated,0,0,4,0,0,0
+145695,Monstrous Magmaclaw Snapper defeated,145694,1,0,59669,0,0
+145696,Captain Reykal defeated,0,0,4,0,0,0
+145697,Captain Reykal defeated,145696,1,0,59670,0,0
+145698,Statistic - 10.1 Raid - Aberrus - Lava Hydra - Heroic,0,0,4,0,0,0
+145699,,145698,0,0,59579,0,2
+145700,Statistic - 10.1 Raid - Aberrus - Neltharion - Heroic,0,0,4,0,0,0
+145701,,145700,0,0,59580,0,2
+145702,Suffusion Camp quests completed,0,5,5,0,0,8193
+145703,,145702,1,0,59671,0,1
+145704,,145702,1,0,59672,1,1
+145705,,145702,1,0,59673,2,1
+145706,,145702,1,0,59674,3,1
+145707,,145702,1,0,59675,4,1
+145708,,145702,1,0,59676,5,1
+145709,,145702,1,0,59677,6,1
+145710,,145702,1,0,59678,7,1
+145711,,145702,1,0,59679,8,1
+145712,,145702,1,0,59680,9,1
+145713,,145702,1,0,59681,10,1
+145714,,145702,1,0,59682,11,1
+145715,,145702,1,0,59683,12,1
+145716,,145702,1,0,59684,13,1
+145717,,145702,1,0,59685,14,1
+145718,,145702,1,0,59686,15,1
+145719,,145702,1,0,59687,16,1
+145720,,145702,1,0,59688,17,1
+145721,Statistic - 10.1 Raid - Aberrus - Sarkareth - Heroic,0,0,4,0,0,0
+145722,,145721,0,0,59581,0,2
+145723,Use the Happy Tuskarr Palooza,0,0,4,0,0,1
+145724,Loamm,145723,1,0,59689,0,0
+145725,Valdrakken,145723,1,0,59690,1,0
+145726,Complete all of the Researchers Under Fire event achievements listed below.,0,0,4,0,0,0
+145727,,145726,0,0,59691,0,32
+145728,,145726,0,0,59692,1,32
+145729,,145726,0,0,59693,2,32
+145730,,145726,0,0,59694,3,32
+145731,,145726,0,0,59695,4,32
+145732,,145726,0,0,59696,5,32
+145733,,145726,0,0,59697,6,32
+145734,,145726,0,0,59699,7,32
+145735,,145726,0,0,59700,8,32
+145736,Snails cheered for,0,10,5,0,0,8193
+145737,,145736,1,0,59698,0,1
+145738,,145736,1,0,59701,1,1
+145739,,145736,1,0,59702,2,1
+145740,,145736,1,0,59703,3,1
+145741,Use the Shuffling Sands,0,0,4,0,0,1
+145742,Loamm,145741,1,0,59704,0,0
+145743,Valdrakken,145741,1,0,59705,1,0
+145744,Morqut Village,145741,1,0,59706,2,0
+145745,/dance at player of the opposite faction using Shuffling Sands,0,0,4,0,0,1
+145746,Player danced with,145745,0,0,59707,0,1
+145747,Statistic - 10.1 Raid - Aberrus - Kazzara - Mythic,0,0,4,0,0,0
+145748,,145747,0,0,59564,0,2
+145749,Statistic - 10.1 Raid - Aberrus - Shadowflame Elemental - Mythic,0,0,4,0,0,0
+145750,,145749,0,0,59565,0,2
+145751,Statistic - 10.1 Raid - Aberrus - Evolution of Dracthyr - Mythic,0,0,4,0,0,0
+145752,,145751,0,0,59566,0,2
+145753,Statistic - 10.1 Raid - Aberrus - Djaradin Assault - Mythic,0,0,4,0,0,0
+145754,,145753,0,0,59567,0,2
+145755,Statistic - 10.1 Raid - Aberrus - Djaradin Elder - Mythic,0,0,4,0,0,0
+145756,,145755,0,0,59568,0,2
+145757,Statistic - 10.1 Raid - Aberrus - Zskarn - Mythic,0,0,4,0,0,0
+145758,,145757,0,0,59569,0,2
+145759,Statistic - 10.1 Raid - Aberrus - Lava Hydra - Mythic,0,0,4,0,0,0
+145760,,145759,0,0,59570,0,2
+145761,Statistic - 10.1 Raid - Aberrus - Neltharion - Mythic,0,0,4,0,0,0
+145762,,145761,0,0,59571,0,2
+145763,Statistic - 10.1 Raid - Aberrus - Sarkareth - Mythic,0,0,4,0,0,0
+145764,,145763,0,0,59572,0,2
+145765,Use Fireflights in Valdrakken and SW or OR,0,0,4,0,0,1
+145766,Valdrakken,145765,10,0,60080,0,1
+145767,Stormwind or Orgrimmar,145765,10,5,0,1,8193
+145768,Stormwind,145767,0,0,59709,0,0
+145769,Orgrimmar,145767,0,0,59710,1,0
+145770,Niffen treasure chests looted,0,5,5,0,0,8193
+145771,,145770,0,0,59711,0,1
+145788,Use Fireflights in Dragonflight Dungeons,0,0,4,0,0,1
+145789,Fireflights launched,145788,10,0,59708,0,1
+145790,Use Fireflights in Dragonflight Raids,0,0,4,0,0,1
+145791,Fireflights launched,145790,10,0,59728,0,1
+145792,Use the Dance Dance Darkmoon toy,0,0,4,0,0,1
+145793,Loamm,145792,1,0,59729,0,0
+145794,Use the Dragon Tea Set,0,0,4,0,0,1
+145795,Valdrakken,145794,1,0,59730,0,0
+145796,Obsidian Throne,145794,1,0,59733,1,0
+145797,Iskaara,145794,1,0,59734,2,0
+145798,Morqut Village,145794,1,0,59731,3,0
+145799,10.1 Raid - Aberrus - Achievement - Shadowflame Elemental,0,0,4,0,0,0
+145800,Defeat the Shadowflame Remnant.,145799,1,0,59732,0,0
+145801,Use the D.I.S.C.O. toy,0,0,4,0,0,1
+145802,Valdrakken,145801,1,0,59735,0,0
+145803,Stormwind or Orgrimmar,145801,1,8,0,1,8192
+145804,,145803,1,0,59736,0,0
+145805,,145803,1,0,59737,1,0
+145806,Are You Even Trying?,0,0,4,0,0,0
+145807,Ember Mouse,145806,1,0,59738,0,0
+145808,10.1 Raid - Aberrus - Kazzara - Achievement - AD,0,0,4,0,0,0
+145809,,145808,1,0,59739,0,0
+145810,/cheer for the Bands on Darkmoon Island,0,0,4,0,0,0
+145811,Blight Boar,145810,0,0,59741,1,0
+145812,The Tauren Chieftains,145810,1,0,59740,0,0
+145813,Elemental Overflow obtained,0,0,4,0,0,0
+145814,Elemental Overflow obtained,145813,5000,0,57373,0,1
+145815,Zaqali Elders,141021,0,4,0,4,8193
+145816,Vakan,145815,1,0,59742,0,1
+145817,Gholna,145815,1,0,59743,1,1
+145818,10.1 - Niffen Cave Dive - Complete Puzzle 1,0,0,4,0,0,0
+145819,,145818,1,0,59744,0,0
+145820,10.1 - Niffen Cave Dive - Complete Puzzle 2,0,0,4,0,0,0
+145821,,145820,1,0,59745,0,0
+145822,10.1 - Niffen Cave Dive - Complete Puzzle 4,0,0,4,0,0,0
+145823,,145822,1,0,59746,0,0
+145824,10.1 - Niffen Cave Dive - Complete Puzzle 8,0,0,4,0,0,0
+145825,,145824,1,0,59755,0,0
+145826,10.1 - Niffen Cave Dive - Complete Puzzle 11,0,0,4,0,0,0
+145827,,145826,1,0,59747,0,0
+145828,10.1 - Niffen Cave Dive - Complete Puzzle 12,0,0,4,0,0,0
+145829,,145828,1,0,59748,0,0
+145830,10.1 - Niffen Cave Dive - Complete Puzzle 14,0,0,4,0,0,0
+145831,,145830,1,0,59749,0,0
+145832,10.1 - Niffen Cave Dive - Complete Puzzle 16,0,0,4,0,0,0
+145833,,145832,1,0,59750,0,0
+145834,10.1 - Niffen Cave Dive - Complete Puzzle 17,0,0,4,0,0,0
+145835,,145834,1,0,59751,0,0
+145836,10.1 - Niffen Cave Dive - Complete Puzzle 18,0,0,4,0,0,0
+145837,,145836,1,0,59752,0,0
+145838,10.1 - Niffen Cave Dive - Complete Puzzle 20,0,0,4,0,0,0
+145839,,145838,1,0,59754,0,0
+145840,10.1 - Niffen Cave Dive - Complete Puzzle 23,0,0,4,0,0,0
+145841,,145840,1,0,59753,0,0
+145842,10.1 - Niffen Cave Dive - Complete Puzzle 24,0,0,4,0,0,0
+145843,,145842,1,0,59756,0,0
+145844,10.1 - Niffen Cave Dive - Complete Puzzle 25,0,0,4,0,0,0
+145845,,145844,1,0,59757,0,0
+145846,10.1 - Niffen Cave Dive - Complete Puzzle 26,0,0,4,0,0,0
+145847,,145846,1,0,59758,0,0
+145848,10.1 - Niffen Cave Dive - Complete Puzzle 27,0,0,4,0,0,0
+145849,,145848,1,0,59759,0,0
+145850,10.1 - Niffen Cave Dive - Complete Puzzle 28,0,0,4,0,0,0
+145851,,145850,1,0,59760,0,0
+145852,10.1 - Niffen Cave Dive - Complete Tutorial Objectives,0,0,4,0,0,0
+145853,,145852,1,0,59761,0,0
+145854,,140432,0,0,59762,4,0
+145855,Suffusion crucibles looted,0,3,5,0,0,8193
+145856,,145855,1,0,59763,0,1
+145857,Ancient stones discovered,0,0,4,0,0,1
+145858,Demanding Perfection,145857,0,0,59764,0,1
+145859,Binding Oaths,145857,0,0,59765,1,1
+145860,Primal Power,145857,0,0,59766,2,1
+145861,,140908,0,0,59767,31,0
+145862,Titan parts gathered,0,50,5,0,0,8193
+145863,,145862,1,0,59768,0,1
+145864,"10.1 Dragonflight - Bonus Event Weekend, Season 2 - Complete 4 Mythic Dungeons",0,4,5,0,0,4096
+145865,,145864,4,0,59777,0,2
+145866,,145864,4,0,59778,1,2
+145867,,145864,4,0,59779,2,2
+145868,,145864,4,0,59780,3,2
+145869,,145864,4,0,59781,4,2
+145870,,145864,4,0,59782,5,2
+145871,,145864,4,0,59783,6,2
+145872,,145864,4,0,59784,7,2
+145873,,145864,4,0,59769,8,2
+145874,,145864,4,0,59770,9,2
+145875,,145864,4,0,59771,10,2
+145876,,145864,4,0,59772,11,2
+145877,,145864,4,0,59773,12,2
+145878,,145864,4,0,59774,13,2
+145879,,145864,4,0,59775,14,2
+145880,,145864,4,0,59776,15,2
+145881,PvP Season 35 - Set Collection,0,0,4,0,0,2
+145892,Collect any armor set from Dragonflight Season 2 (PvP Season 35).,145881,1,0,59786,0,2
+145893,,145864,4,0,59787,16,2
+145894,,145864,4,0,59788,17,2
+145895,,145864,4,0,59789,18,2
+145896,,145864,4,0,59790,19,2
+145897,,145864,4,0,59791,20,2
+145898,,145864,4,0,59792,21,2
+145899,,145864,4,0,59793,22,2
+145900,,145864,4,0,59794,23,2
+145901,Achievement - Glory of the Aberrus Raider,0,0,4,0,0,0
+145902,,145901,0,0,59802,0,32
+145903,,145901,0,0,59804,1,32
+145904,,145901,0,0,59805,2,32
+145905,,145901,0,0,59806,3,32
+145906,,145901,0,0,59807,4,32
+145907,,145901,0,0,59808,5,32
+145908,,145901,0,0,59810,6,32
+145909,,145901,0,0,59811,7,32
+145910,10.1 Underground - Side - Snailies - Snailspiration - Prismatic Softshell (JLW),0,0,4,0,0,4096
+145911,Max Level Prismatic Softshell Summoned,145910,1,0,59795,0,0
+145912,10.1 Underground - Side - Snailies - Snailspiration - Predatory Helicid (JLW),0,0,4,0,0,4096
+145913,Max Level Predatory Helicid Summoned,145912,1,0,59796,0,0
+145914,10.1 Underground - Side - Snailies - Snailspiration - Mudshell Conch (JLW),0,0,4,0,0,4096
+145915,Max Level Mudshell Conch Summoned,145914,1,0,59797,0,0
+145916,10.1 Underground - Side - Snailies - Snailspiration - Microlicid (JLW),0,0,4,0,0,4096
+145917,Max Level Microlicid Summoned,145916,1,0,59798,0,0
+145918,10.1 Underground - Side - Snailies - Snailspiration - Blackchasm Crawler (JLW),0,0,4,0,0,4096
+145919,Max Level Blackchasm Crawler Summoned,145918,1,0,59799,0,0
+145920,10.1 Underground - Side - Snailies - Snailspiration - Amethyst Softshell (JLW),0,0,4,0,0,4096
+145921,Max Level Amethyst Softshell Summoned,145920,1,0,59800,0,0
+145922,10.1 Underground - Side - Snailies - Snailspiration - Zoom (JLW),0,0,4,0,0,4096
+145923,Max Level Zoom Summoned,145922,1,0,59801,0,0
+145924,10.1 Underground - Side - Snailies - Snailspiration - Spireshell Snail (JLW),0,0,4,0,0,4096
+145925,Max Level Spireshell Snail Summoned,145924,1,0,59803,0,0
+145926,10.1 Underground - Side - Snailies - Snailspiration - Silkbead Snail (JLW),0,0,4,0,0,4096
+145927,Max Level Silkbead Snail Summoned,145926,1,0,59809,0,0
+145928,10.1 Underground - Side - Snailies - Snailspiration - Shelly (JLW),0,0,4,0,0,4096
+145929,Max Level Shelly Summoned,145928,1,0,59813,0,0
+145930,10.1 Underground - Side - Snailies - Snailspiration - Scooter the Snail (JLW),0,0,4,0,0,4096
+145931,Max Level Scooter the Snail Summoned,145930,1,0,59814,0,0
+145932,,145901,0,0,59812,8,32
+145933,10.1 Underground - Side - Snailies - Snailspiration - Rusty Snail (JLW),0,0,4,0,0,4096
+145934,Max Level Rusty Snail Summoned,145933,1,0,59815,0,0
+145935,10.1 Underground - Side - Snailies - Snailspiration - Rapana Whelk (JLW),0,0,4,0,0,4096
+145936,Max Level Rapana Whelk Summoned,145935,1,0,59816,0,0
+145937,Achievement - Ahead of the Curve: Scalecommander Sarkareth,0,1,8,0,0,0
+145938,,145937,1,0,59817,0,2
+145939,,58604,1,0,59818,61,0
+145940,Achievement - Cutting Edge: Scalecommander Sarkareth,0,1,8,0,0,0
+145941,,145940,1,0,59819,0,2
+145942,10.1 - Niffen Cave Diving - Achievements - Sniffenseek Digs (LQM),0,0,4,0,0,0
+145943,Brand New Digs,145942,1,0,59761,0,16
+145944,Vertical Anomaly,145942,1,0,59744,1,16
+145945,Flapping and Screaming,145942,1,0,59745,2,16
+145946,Scratch and Sniff,145942,1,0,59746,3,16
+145947,Element Whispers,145942,1,0,59755,4,16
+145948,Successful Interventions,145942,1,0,59747,5,16
+145949,Those Rascally Worms,145942,1,0,59749,6,16
+145950,Your Weight in Gold,145942,1,0,59750,7,16
+145951,Sneak and Sniff,145942,1,0,59751,8,16
+145952,The Living Drill,145942,1,0,59752,9,16
+145953,Thieving Critters,145942,1,0,59754,10,16
+145954,Making Scents,145942,1,0,59753,11,16
+145955,Living Statue,145942,1,0,59756,12,16
+145956,Heart of Iron,145942,1,0,59757,13,16
+145957,Liars in Light,145942,1,0,59758,14,16
+145958,Frostfire Finesse,145942,1,0,59759,15,16
+145959,Liars of Spirit,145942,1,0,59760,16,16
+145963,10.1 Valdrakken - Weekly Dungeon - E - Complete Heroics (MPK),0,5,5,0,0,4096
+145964,,145963,0,0,59822,0,2
+145965,,145963,0,0,59823,1,2
+145966,,145963,0,0,59824,2,2
+145967,,145963,0,0,59825,3,2
+145968,,145963,0,0,59826,4,2
+145969,,145963,0,0,59827,5,2
+145970,,145963,0,0,59828,6,2
+145971,,145963,0,0,59829,7,2
+145972,10.1 - Niffen Cave Diving - Complete Many Digs (LQM),0,0,4,0,0,0
+145973,digs completed.,145972,50,0,59830,0,1
+145974,Owner of the Baal'ial promotional pet,0,0,4,0,0,0
+145975,,145974,1,0,59831,0,2
+145976,Use the /sniff emote on Myrrit,0,1,4,0,0,8193
+145977,,145976,0,0,59833,0,1
+145978,Complete the Ouroboros Tablet and perform its ritual.,0,0,4,0,0,0
+145979,Complete the Ouroboros Tablet and perform its ritual.,145978,0,0,59832,0,0
+145980,Excited fans defeated,0,5,5,0,0,8193
+145981,,145980,0,0,59834,0,0
+145982,10.1 - Niffen Cave Diving - Meta Achievement,0,0,4,0,0,0
+145984,,145982,0,0,59838,0,32
+145986,,145982,0,0,59836,1,32
+145987,,145982,0,0,59835,2,32
+145988,Defeat creatures during the researchers under fire event,0,50,5,0,0,8193
+145989,,145988,0,0,59839,0,0
+145990,,145988,0,0,59840,1,0
+145991,,145988,0,0,59841,2,0
+145992,,145988,0,0,59842,3,0
+145993,,145988,0,0,59843,4,0
+145994,,145988,0,0,59844,5,0
+145995,,145988,0,0,59845,6,0
+145996,,145988,0,0,59846,7,0
+145997,,145988,0,0,59847,8,0
+145998,,145988,0,0,59850,9,0
+145999,,145988,0,0,59848,10,0
+146000,,145988,0,0,59849,11,0
+146001,,145988,0,0,59851,12,0
+146002,,145988,0,0,59852,13,0
+146003,,145988,0,0,59853,14,0
+146004,,145988,0,0,59854,15,0
+146005,,145988,0,0,59855,16,0
+146006,,145988,0,0,59856,17,0
+146007,,145988,0,0,59857,18,0
+146008,,145988,0,0,59858,19,0
+146009,,145988,0,0,59859,20,0
+146010,,145988,0,0,59860,21,0
+146011,,145988,0,0,59861,22,0
+146012,,145988,0,0,59862,23,0
+146013,,145988,0,0,59863,24,0
+146014,,145988,0,0,59864,25,0
+146015,,145988,0,0,59866,26,0
+146016,,145988,0,0,59867,27,0
+146017,,145988,0,0,59868,28,0
+146018,,145988,0,0,59869,29,0
+146019,,145988,0,0,59870,30,0
+146020,,145988,0,0,59871,31,0
+146021,,145988,0,0,59872,32,0
+146022,,145988,0,0,59873,33,0
+146023,,145988,0,0,59874,34,0
+146024,,145988,0,0,59875,35,0
+146025,,145988,0,0,59876,36,0
+146026,,145988,0,0,59877,37,0
+146027,,145988,0,0,59878,38,0
+146028,,145988,0,0,59879,39,0
+146029,,145988,0,0,59880,40,0
+146030,,145988,0,0,59881,41,0
+146031,,145988,0,0,59882,42,0
+146032,,145988,0,0,59883,43,0
+146033,,145988,0,0,59884,44,0
+146034,,145988,0,0,59885,45,0
+146035,,145988,0,0,59886,46,0
+146036,,145988,0,0,59887,47,0
+146037,,145988,0,0,59888,48,0
+146038,,145988,0,0,59889,49,0
+146039,,145988,0,0,59890,50,0
+146040,,145988,0,0,59891,51,0
+146041,,145988,0,0,59892,52,0
+146042,,145988,0,0,59893,53,0
+146043,,145988,0,0,59894,54,0
+146044,,145988,0,0,59895,55,0
+146045,,145988,0,0,59896,56,0
+146046,,145988,0,0,59897,57,0
+146047,,145988,0,0,59898,58,0
+146048,,145988,0,0,59899,59,0
+146049,,145988,0,0,59900,60,0
+146050,,145988,0,0,59901,61,0
+146051,,145988,0,0,59902,62,0
+146052,,145988,0,0,59903,63,0
+146053,,145988,0,0,59904,64,0
+146054,,145988,0,0,59905,65,0
+146055,,145988,0,0,59906,66,0
+146056,,145988,0,0,59907,67,0
+146057,,145988,0,0,59908,68,0
+146058,,145988,0,0,59909,69,0
+146059,,145988,0,0,59910,70,0
+146060,,145988,0,0,59911,71,0
+146061,,145988,0,0,59912,72,0
+146062,,145988,0,0,59913,73,0
+146063,,145988,0,0,59914,74,0
+146064,,145988,0,0,59915,75,0
+146065,,145988,0,0,59916,76,0
+146066,,145988,0,0,59917,77,0
+146067,,145988,0,0,59918,78,0
+146068,,145988,0,0,59919,79,0
+146069,,145988,0,0,59920,80,0
+146070,,145988,0,0,59921,81,0
+146071,,145988,0,0,59922,82,0
+146072,,145988,0,0,59923,83,0
+146073,,145988,0,0,59924,84,0
+146074,,145988,0,0,59925,85,0
+146075,Storm event pets defeated,0,2,4,0,0,1
+146076,Tremblor,146075,1,0,59926,1,1
+146077,Flow,146075,1,0,59927,0,1
+146078,Vortex,146075,1,0,59928,2,1
+146079,Wildfire,146075,1,0,59929,3,1
+146080,Reputation earned with the Loamm Niffen,0,1500,5,0,0,8193
+146081,,146080,1,0,59930,0,0
+146082,,146080,0,0,59931,1,0
+146083,Secured Shipment Looted,0,1,8,0,0,4096
+146084,,146083,1,0,59932,0,0
+146085,,146083,1,0,59933,1,0
+146086,,137872,1,0,59930,5,0
+146087,,137872,0,0,59931,10,0
+146088,Scorchlings emoted /bow at,0,0,4,0,0,8193
+146089,,146088,0,0,59934,0,1
+146090,"Continue the Embers of Neltharion campaign to access the ""Researchers under Fire"" event",0,1,5,0,0,4096
+146091,,146090,0,0,59935,0,0
+146092,Continue the Embers of Neltharion campaign to access Sniffenseeking,0,1,5,0,0,4096
+146093,,146092,0,0,59937,0,0
+146094,Siege Mammoth,145806,1,0,60161,1,0
+146095,Cave Beetle,145806,1,0,60165,5,0
+146097,Magma Slug,145806,1,0,60164,4,0
+146098,Zaqali Boltthrower,145806,1,0,60163,3,0
+146099,Rock Snail,145806,1,0,60162,2,0
+146132,Player has completed 10.1 Upgrade System tutorial quests,0,0,4,0,0,0
+146133,,146132,0,0,59961,0,0
+146176,New Criteria Tree,0,0,4,0,0,0
+146177,Hit the Lost Lunker with Searing Slam 5 times.,146176,1,0,59999,0,0
+146197,"The critters of Zaralek Cavern avoid the light of the sun, but not of your /love.",0,0,4,0,0,0
+146198,Hissing Dustmoth,146197,0,0,60010,0,0
+146199,Pygmy Dawdler,146197,0,0,60009,1,0
+146200,Rock Martin,146197,0,0,60008,2,0
+146201,Skittering Pincher,146197,0,0,60007,3,0
+146202,Hatchling Dawdler,146197,0,0,60011,4,0
+146203,Aimless Snail,146197,0,0,60006,5,0
+146204,Incense Cinder,146197,0,0,60005,6,0
+146205,Magma Bubble,146197,0,0,60004,7,0
+146206,Phoenix Hatchling,146197,0,0,60003,8,0
+146207,Scuttering Bettle,146197,0,0,60002,9,0
+146210,Boulders destroyed,0,100,5,0,0,8193
+146211,,146210,1,0,60015,0,1
+146212,,146210,1,0,60016,1,1
+146213,,146210,1,0,60017,2,1
+146214,,146210,1,0,60018,3,1
+146215,,146210,1,0,60019,4,1
+146216,Pillar Shards delivered,0,100,4,0,0,1
+146217,Pillar Shards delivered,146216,100,0,60020,0,1
+146218,Resilient Stones delivered,0,0,4,0,0,0
+146219,Resilient Stones delivered,146218,50,0,60021,0,1
+146220,Curious Ore Samples delivered,0,0,4,0,0,0
+146222,Curious Ore Samples delivered,146256,100,0,60023,0,1
+146225,Magmaclaw Snappers stomped,0,0,4,0,0,0
+146226,Magmaclaw Snappers stomped,146225,200,0,60024,0,1
+146227,Enemies defeated,0,500,4,0,0,0
+146251,Enemies defeated,146257,1,0,60048,0,0
+146252,Treasure goblins defeated,0,2,4,0,0,1
+146253,Treasure goblins defeated,146252,2,0,60049,0,1
+146254,10.1 Raid - Aberrus - Zskarn - Achievement - JRN,0,0,4,0,0,0
+146255,"Defeat The Vigilant Steward, Zskarn while a member of your raid is carrying the Delicate Experimental Egg",146254,1,0,60050,0,0
+146256,Curious Ore Samples delivered,146220,0,4,0,0,0
+146257,Enemies defeated,146227,500,5,0,0,8193
+146264,10.1 UG - Ch 1 - Primalist Blockade - S4 - Boss Arena Entered (JSS),0,0,4,0,0,0
+146265,Boss Arena Entered,146264,1,0,59092,0,0
+146267,,143813,1,0,58529,1,0
+146268,,65647,3,0,50191,0,0
+146269,,65647,30,0,50192,1,0
+146270,,65647,9999,0,48468,2,0
+146271,,66590,3,0,50191,0,0
+146272,,66590,30,0,50192,1,0
+146273,,66590,9999,0,48468,2,0
+146287,"Defeat Wise Mari without being hit by Corrupted Water, Hydrolance, or Wash Away in Temple of the Jade Serpent on Heroic Difficulty.",15115,1,0,60063,1,2
+146288,Wise Mari,24603,1,0,55874,32,0
+146289,Wise Mari,24647,1,0,55874,0,0
+146290,Wise Mari,24613,1,0,19230,0,0
+146291,Wise Mari,24613,1,0,55874,1,0
+146292,Wise Mari,24681,1,0,19230,0,0
+146293,Wise Mari,24681,1,0,55874,1,0
+146294,Wise Mari,24647,1,0,19230,1,0
+146295,Wise Mari,22074,1,0,19230,0,2
+146296,Wise Mari,22074,1,0,55874,1,2
+146307,,145189,0,0,60070,8,0
+146308,,145189,0,0,60071,9,0
+146309,,145189,0,0,60072,10,0
+146310,,137567,0,0,60073,21,0
+146311,,137567,0,0,60074,22,0
+146312,,137567,0,0,60075,23,0
+146313,,137522,0,0,60076,7,0
+146314,,137522,0,0,60077,8,0
+146315,,143949,0,0,60078,5,0
+146350,,141012,1,0,60086,8,0
+146368,,145181,0,0,60087,30,0
+146369,,145181,0,0,60088,31,0
+146370,,145181,0,0,60089,32,0
+146371,,145181,0,0,60090,33,0
+146372,,145181,0,0,60091,34,0
+146373,,140526,0,0,60092,39,0
+146374,,140563,0,0,60093,12,0
+146375,,145181,0,0,60094,35,0
+146376,,145181,0,0,60095,36,0
+146377,,145181,0,0,60096,37,0
+146378,,145181,0,0,60097,38,0
+146379,,145181,0,0,60098,39,0
+146380,,139865,0,0,60099,91,0
+146381,,145181,0,0,60100,40,0
+146384,,58604,1,0,60102,62,0
+146385,,145066,0,0,60103,5,0
+146386,,145066,0,0,60104,6,0
+146387,,145066,0,0,60107,7,0
+146388,,145066,0,0,60105,8,0
+146389,,145066,0,0,60106,9,0
+146390,,145066,0,0,60108,10,0
+146399,Legend: Dragonflight Season 1 Pennant Fix-Up [Login],0,0,4,0,0,0
+146400,,146399,1,0,60114,0,2
+146407,,145175,1,0,60118,1,0
+146408,,145177,1,0,60119,1,0
+146409,,142839,1,0,60120,1,0
+146410,,144052,1,0,60121,1,0
+146413,Achievement: Dragonflight Season 2 Hero,0,1,8,0,0,0
+146414,,146413,0,0,59590,0,32
+146415,,146413,0,0,60123,1,32
+146416,,146413,0,0,60122,2,32
