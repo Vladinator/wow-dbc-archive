@@ -303737,7 +303737,7 @@ While quaking, you can sense nearby tectonic weak points. Moving over a weak poi
 367823,,,
 367824,,,
 367825,,,
-367826,,Summons and dismisses this mount.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
+367826,,"Summons and dismisses a rideable Savage Green Battle Turtle. This mount swims fast and can't move very quickly on land, but it doesn't need to. It has cannons.",Increases swim speed.
 367827,,,
 367828,,,
 367831,,$@spelldesc172,
@@ -310083,10 +310083,12 @@ Any nearby allies are also knocked up into the air.",Upon expiration inflicts $3
 375050,,$@spelldesc369505,$@spellaura369505
 375051,,$@spelldesc369505,$@spellaura369505
 375054,,,
-375055,,$@spelldesc375056,Inflicting $384019s1 Physical damage to enemies within $384019A1 yards every $t5 sec. Erupting with $@spellname375397.
+375055,,$@spelldesc375056,Inflicting $384019s1 Physical damage to enemies within $s5 yards every $t5 sec. Erupting with $@spellname375397.
 375056,,"Upon reaching 100 energy, Chargath fixates on his primary target, unleashing a flurry of magma attacks for $375055d. 
 
-While|Hspell:375056|h $@spellname375056|h is in effect, Chargath inflicts $384019s1 Physical damage to players within $384019A1 yards and emits|Hspell:375397|h Lava Splashes|h every $375055t3 sec.",
+While|Hspell:375056|h $@spellname375056|h is in effect, Chargath inflicts $384019s1 Physical damage to players within $375055s5 yards and emits|Hspell:375397|h Lava Splashes|h every $375055t3 sec.
+
+Chargath unleashes a wave of magma if $@spellname375056 is not interrupted, afflicting all players with $@spellname414585.",
 375057,,,
 375058,,,
 375059,,Inflicts $375061s1 Fire damage to players within $375061A1 yards of impact.,
@@ -316885,7 +316887,7 @@ Breath of Fire damage increased by up to $s2% based on your level of Stagger.",
 384002,,,
 384003,,,
 384004,,$@spelldesc382139,
-384009,,,
+384009,,Throw into a cooking fire in the Dragonscale Basecamp to make Charred Zandali Chilis.,
 384010,,,
 384011,,,
 384012,,Increases the remaining stock of fish by $s0.,Increases the remaining stock of fish by $s0.
@@ -334104,7 +334106,7 @@ Movement speed reduced by $s2%."
 
 At Low Tide, your next harmful spell or ranged ability grants you $s2 Critical Strike for $402897d. 
 
-At High Tide, your next harmful spell or ranged ability launches a lava wave to crash upon your target dealing $s1 Volcanic damage split between all nearby enemies.",
+At High Tide, your next harmful spell or ranged ability launches a lava wave to crash upon your target dealing $s1 Volcanic damage split between all nearby enemies. This damage is reduced if the lava wave travels less than $s5 yds.",
 402814,,$@spelldesc401129,Summoning Shadow Elemental Totems.
 402815,,$@spelldesc402812,
 402819,,$@spelldesc402798,"$s1 Arcane damage inflicted every $t1 sec.
@@ -334525,7 +334527,7 @@ Increases haste by $s2%."
 403367,,"Gholna causes magma to erupt at $402985s1 random player destinations, inflicting $s2 Volcanic damage to players within $A2 yards of impact and creating a $@spellname403384.",
 403368,,"Casting spells and abilities has a chance to grant you a stack of Domineering Arrogance up to $411661u.
 
-$?a137040[Summoning your Fire or Storm Elemental][]$?a137041[Summoning your Feral Spirit][]$?a137039[Summoning your Healing Tide, Mana Tide, or Spirit Link Totem][]$?a137022[Invoking your Celestial][]$?a137046[Summoning your Infernal][]$?a137044[Summoning your Demonic Tyrant][]$?a137043[Summoning your Darkglare][]$?a137017[Casting Stampede or Coordinated Assault][]$?a137016[Casting Stampede][]$?a137015[Summoning your Dire Beast or casting Stampede][]$?a137047|a137034|a137030|a137026|a137018|a353167|a137009|a212611|a137005[Using your major cooldown][] grants you $s1 $pri per stack and reduces your movement speed by $s2% for $403380d.",
+$?a137040[Summoning your Fire or Storm Elemental][]$?a137041[Summoning your Feral Spirit][]$?a137039[Summoning your Healing Tide, Mana Tide, or Spirit Link Totem][]$?a137022[Invoking your Celestial][]$?a137046[Summoning your Infernal][]$?a137044[Summoning your Demonic Tyrant][]$?a137043[Summoning your Darkglare][]$?a137017[Casting Coordinated Assault][]$?a137016[Casting Trueshot][]$?a137015[Casting Bestial Wrath][]$?a137047|a137034|a137030|a137026|a137018|a353167|a137009|a212611|a137005[Using your major cooldown][] grants you $s1 $pri per stack and reduces your movement speed by $s2% for $403380d.",
 403369,,$@spelldesc403358,
 403371,,$@spelldesc403201,Targetted for Expulsion.
 403375,,,
@@ -338402,10 +338404,8 @@ The player's body colliding with a segment of $@spellname402902 causes it to $@s
 407910,,,
 407911,,"$@spelldesc407879
 ",
-407912,,$@spelldesc110744,
 407913,,$@spelldesc407914,$pri increased by $w1.
 407914,,"Your melee attacks have a chance to imbue you with drogbar might, increasing your $pri for $407913d. You may also shout about this uncontrollably.",
-407915,,$@spelldesc122121,
 407917,,"Neltharion draws upon his might and blasts all players for $s1 Volcanic damage, and an additional $s2 Fire damage every $t2 sec.$?DIFF17[][ for $d.]
 
 This power dispels any $@spellname407919 near players.",$s2 Volcanic damage inflicted every $t2 sec.
@@ -338997,7 +338997,7 @@ Critically striking $408770u times triggers a flash of inspiration, allowing you
 408672,,,
 408673,,$@spelldesc405535,Building up to Flame's Fury.
 408674,,$@spelldesc405535,Your next direct damage spell cast on a target with Charring Embers will grant you Flame's Fury.
-408675,,,IT GONNA BLOW!
+408675,,,IT'S GONNA BLOW!
 408676,,"Raising their shield the dracthyr protects their allies within $a1 yards, reducing their damage received by $s1%.",Damage received reduced by $s1%.
 408677,,$@spelldesc408676,Reducing damage by $408676s1% for allies within $408676a1 yards.
 408679,,,
@@ -340561,9 +340561,9 @@ The magical barrier disperses inflicting $404687s2 Shadowflame damage to all pla
 410945,,,
 410946,,,
 410951,,"Upon reaching $409462s1% health or full energy, Dragonfire Golems become $@spellname409463, preventing interrupts and crowd control effects.",$@spellaura409463
-410953,,"Neltharion infuses players with volcanic energy that explodes after $410966d, inflicting $s1 Volcanic damage to players $?DIFF16[in line of sight][within $A1 yards], and an additional $s2 Volcanic damage every $t2 sec for $d.$?DIFF17[][
+410953,,"Neltharion infuses players with volcanic energy that explodes after $410966d, inflicting $s1 Volcanic damage to players within $A1 yards, and an additional $s2 Volcanic damage every $t2 sec for $d.
 
-This effect stacks.]",$s2 Volcanic damage inflicted every $t2 sec.
+This effect stacks.",$s2 Volcanic damage inflicted every $t2 sec.
 410954,,,
 410956,Shapeshift,,
 410962,PvP Talent,"Sleep Walk no longer has a cooldown, but its cast time is increased by ${$s2/1000}.1 sec.",
@@ -342025,4 +342025,17 @@ Each glob that fails to hit a player explodes, inflicting $413365s1 Fire damage 
 414403,,"Give Myrrit the map, allowing him to go on another dig with you.
 
 Must be used near Myrrit in Loamm. Myrrit can hold up to 3 maps at a time.",
+414474,,,
 414529,,,
+414573,,,
+414574,,,
+414585,,"Chargath unleashes a wave of lava, inflicting $s1 Fire damage to all players every $t1 sec for $d.",$s1 Fire damage every $t1 sec.
+414611,,,"Energy Generation increased by $s1%.
+Cooldown Rate increased by $s2%."
+414613,,$@spelldesc204066,
+414622,,,
+414810,,,
+414811,,,
+414828,,,
+414847,,,
+414911,,,

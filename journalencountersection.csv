@@ -8378,15 +8378,15 @@ $bullet;Molten Charskins do continuous damage to the party while moving with |cF
 $bullet;Take cover behind |cFF2959D3|Hspell:200551|h[Crystal Spikes]|h|r to avoid taking damage from |cFF2959D3|Hspell:200418|h[Magma Wave]|h|r.",1687,3,12584,0,13912,3,0,0,0,0,3,4,1
 12587,Tanks,"$bullet;Use defensive abilities to survive |cFF2959D3|Hspell:200732|h[Molten Crash]|h|r.
 $bullet;Take cover behind |cFF2959D3|Hspell:200551|h[Crystal Spikes]|h|r to avoid taking damage from |cFF2959D3|Hspell:200418|h[Magma Wave]|h|r.",1687,5,12584,0,13913,3,0,0,0,0,3,1,1
-12589,Section 6,,1687,8,0,0,12593,2,0,0,200732,0,0,1,-1
+12589,Section 6,,1687,8,0,0,12598,2,0,0,200732,0,0,1,-1
 12590,Section 8,,1687,7,0,0,12589,2,0,0,200721,0,0,0,-1
-12591,Section 7,,1687,18,0,0,13576,2,0,0,200551,0,0,32,-1
-12592,Section 9,,1687,15,0,13574,12591,2,0,0,200418,0,0,16,-1
-12593,Section 10,,1687,9,0,12596,12592,2,0,0,200637,0,0,0,-1
-12595,Section 12,,1687,12,12596,0,13577,2,0,0,200154,0,0,0,-1
-12596,Molten Charskin,Summoned by Dargrul during the encounter.,1687,10,12593,12598,0,1,12232,0,0,0,0,2,-1
+12591,Section 7,,1687,20,0,0,0,2,0,0,200551,0,0,32,-1
+12592,Section 9,,1687,17,0,13574,12591,2,0,0,200418,0,0,16,-1
+12593,Section 10,,1687,10,0,12596,12592,2,0,0,200637,0,0,0,-1
+12595,Section 12,,1687,13,12596,0,13577,2,0,0,200154,0,0,0,-1
+12596,Molten Charskin,Summoned by Dargrul during the encounter.,1687,11,12593,27197,0,1,12232,0,0,0,0,2,-1
 12597,Section 10,,1686,8,0,0,12583,2,0,0,201256,0,2,0,2
-12598,Section 14,,1687,11,12596,0,12595,2,0,0,209920,0,2,0,1
+12598,Section 14,,1687,9,0,0,12593,2,0,0,209920,0,0,0,-1
 12599,Unnerving Howl,"$[!2,8,23
 
  In this difficulty, after being wounded, Unnerving Howl calls 3 Ebonclaw Worgs to assist Fenryr.$]",1487,6,0,12600,12291,2,0,0,196543,0,0,32,-1
@@ -9311,10 +9311,10 @@ $bullet;Try to stay in melee range as often as possible to prevent Levantus from
 13561,Section 35,,1738,33,13193,0,13838,2,0,0,215971,0,2,4096,0
 13570,Shriveled Eyestalk,,1738,35,13192,13571,0,1,70725,0,0,0,2,4096,0
 13571,Section 43,,1738,36,13570,0,0,2,0,0,208697,0,0,0,-1
-13574,Section 15,,1687,16,12592,13575,0,2,0,0,216407,0,2,8,2
-13575,Section 17,,1687,17,13574,0,0,2,0,0,216376,0,2,8,2
-13576,Section 16,,1687,19,0,0,0,2,0,0,216368,0,2,8,2
-13577,Section 14,,1687,13,12596,0,13604,2,0,0,216369,0,2,8,2
+13574,Section 15,,1687,18,12592,13575,0,2,0,0,216407,0,2,8,2
+13575,Section 17,,1687,19,13574,0,0,2,0,0,216376,0,2,12,2
+13576,Section 16,,1687,16,12596,0,0,2,0,0,216368,0,2,8,2
+13577,Section 14,,1687,14,12596,0,13604,2,0,0,216369,0,2,8,2
 13578,Section 35,,1751,26,13418,0,0,2,0,0,216256,0,2,0,0
 13579,Section 9,,1711,9,0,13580,0,2,0,0,210879,0,3,8,2
 13580,Section 10,,1711,10,13579,0,0,2,0,0,210916,0,0,0,-1
@@ -9336,7 +9336,7 @@ $bullet;Try to stay in melee range as often as possible to prevent Levantus from
 13601,Section 41,,1732,28,13046,0,0,2,0,0,216768,0,2,4096,0
 13602,Section 42,,1732,41,13053,13603,0,2,0,0,216909,0,2,4096,0
 13603,Section 43,,1732,42,13602,0,0,2,0,0,217048,0,2,4096,0
-13604,Section 18,,1687,14,12596,0,0,2,0,0,200672,0,0,0,-1
+13604,Section 18,,1687,15,12596,0,13576,2,0,0,200672,0,0,0,-1
 13606,Section 6,,1769,10,0,0,0,2,0,0,217229,0,1,33,-1
 13607,Section 7,,1769,6,0,0,13631,2,0,0,217235,0,0,0,-1
 13631,Section 8,,1769,7,0,0,13632,2,0,0,217277,0,0,16,-1
@@ -19849,9 +19849,9 @@ $bullet;While not next to an active Primal Altar, Kurog Grimtotem casts |cFF2959
 25039,Section 8,,2491,12,25038,0,0,2,0,0,374864,0,1,0,-1
 25040,Altar of Flame,,2491,15,25036,25041,25061,3,0,0,0,0,0,0,-1
 25041,Section 10,,2491,16,25040,0,25059,2,0,0,374881,0,0,0,-1
-25044,Section 5,,2490,22,0,0,25046,2,0,0,373733,0,0,8192,-1
-25046,Section 7,,2490,23,0,0,0,2,0,0,373767,0,0,0,-1
-25052,Section 12,,2490,20,0,25646,25044,2,0,0,375056,0,3,1,0
+25044,Section 5,,2490,24,0,0,25046,2,0,0,373733,0,0,8192,-1
+25046,Section 7,,2490,25,0,0,0,2,0,0,373767,0,0,0,-1
+25052,Section 12,,2490,21,0,25646,25044,2,0,0,375056,0,3,1,0
 25056,Section 2,,2489,5,0,25085,25088,2,0,0,374635,0,1,0,-1
 25057,Section 12,,2491,13,25036,0,25037,2,0,0,390548,0,0,1,-1
 25058,Section 13,,2491,29,25061,0,26086,2,0,0,373678,0,0,0,-1
@@ -20411,7 +20411,7 @@ On Mythic difficulty, Vault Runes become inactive after protecting players from 
 25642,Section 27,,2499,32,25641,0,25643,2,0,0,385541,0,2,10,0
 25643,Section 28,,2499,33,25641,0,0,2,0,0,385553,0,0,64,-1
 25645,Section 11,,2492,6,25097,0,25705,2,0,0,374523,0,0,0,-1
-25646,Section 12,,2490,21,25052,0,0,2,0,0,375397,0,0,0,-1
+25646,Section 12,,2490,22,25052,0,27194,2,0,0,375397,0,0,0,-1
 25648,Section 18,,2500,9,25317,0,25318,2,0,0,386400,0,0,0,-1
 25649,Surging Ruiner,,2499,25,25638,25650,25639,1,102516,0,0,0,0,0,-1
 25650,Section 30,,2499,26,25649,25772,26040,2,0,0,382530,0,0,0,-1
@@ -20501,13 +20501,13 @@ On Heroic difficulty, Volatile begins with $388631U charges. Upon removal, it cr
 25743,Nullification Device,,2504,15,25744,25768,0,1,109168,0,0,0,0,0,-1
 25744,Stage Two: Watcher's Last Stand,,2504,11,0,25390,0,0,0,0,0,0,1,0,-1
 25745,Stage One: A Chance at Redemption,,2504,5,0,25756,25744,0,0,0,0,0,1,0,-1
-25747,Section 13,,2490,12,25108,0,0,2,0,0,395656,0,2,16,0
+25747,Section 13,,2490,12,25108,0,0,2,0,0,395656,0,3,32,0
 25748,Section 14,"$[!8,23 
 On Mythic difficulty, 3 stacks of Fetter stuns Chargath and increases his damage taken by $388523s2% for $388523d.$]",2490,11,25108,0,25747,2,0,0,389080,0,2,4096,0
 25749,Section 12,"$
 
 If interrupted early, Chargath gains|Hspell:388523|h Fetter|h|r for an extended effect, taking $388523s2% increased damage for $388523d.$]",2490,18,0,25750,25052,2,0,0,375056,0,3,1,3
-25750,Section 12,,2490,19,25749,0,0,2,0,0,375397,0,0,0,-1
+25750,Section 12,,2490,19,25749,0,27193,2,0,0,375397,0,0,0,-1
 25751,Section 13,,2490,13,0,25752,25749,2,0,0,373424,0,3,32,3
 25752,Section 15,,2490,14,25751,0,25753,2,0,0,374471,0,0,0,-1
 25753,Section 14,,2490,15,25751,25754,0,2,0,0,374482,0,1,0,-1
@@ -20778,7 +20778,7 @@ On Mythic difficulty, Eranog also opens a Greater Flamerift that creates a Flame
 26007,Section 14,,2480,16,26001,0,26033,2,0,0,396023,0,0,4,-1
 26017,Section 15,,2497,9,25221,0,0,2,0,0,394875,0,2,32,0
 26018,Section 32,,2502,28,25356,0,0,2,0,0,391717,0,2,0,0
-26019,Section 13,,2490,17,25753,0,0,2,0,0,389059,0,2,4,3
+26019,Section 13,,2490,17,25753,0,0,2,0,0,389059,0,2,0,3
 26020,Section 18,,2475,17,24783,0,25113,2,0,0,395647,0,2,4096,0
 26021,Section 17,,2478,15,25547,0,0,2,0,0,395668,0,2,4096,0
 26022,Section 80,"$[!16 
@@ -20807,7 +20807,7 @@ $[!15
 26040,Section 88,,2499,28,25649,0,0,2,0,0,396037,0,2,8,0
 26041,Overview,"As an expert in hunting winged beasts, Chargath utilizes |cFF2959D3|Hspell:373424|h[Grounding Spears]|h|r rigged with |cFF2959D3|Hspell:374482|h[Grounding Chains]|h|r to lock his foes down.
 
-Upon reaching 100 energy, Chargath unleashes |cFF2959D3|Hspell:375056|h[Fiery Focus]|h|r on his target. During this time, Chargath loses sight of his surroundings and falls vulnerable to |cFF2959D3|Hspell:388523|h[Fetter]|h|r.",2490,1,0,26042,25087,3,0,0,0,0,2,0,3
+Upon reaching 100 energy, Chargath unleashes |cFF2959D3|Hspell:375056|h[Fiery Focus]|h|r on his target. During this time, Chargath loses sight of his surroundings and falls vulnerable to |cFF2959D3|Hspell:388523|h[Fetter]|h|r.",2490,1,0,26042,25087,3,0,0,0,0,0,0,-1
 26042,Tanks,"$bullet; |cFF2959D3|Hspell:375056|h[Fiery Focus]|h|r inflicts heavy damage and can be interrupted with |cFF2959D3|Hspell:374638|h[Fetter]|h|r.
 $bullet; |cFF2959D3|Hspell:373767|h[Magma Wave]|h|r travels out in a straight line in front of Chargath.",2490,2,26041,0,25030,3,0,0,0,0,2,1,3
 26043,Healers,"$bullet; |cFF2959D3|Hspell:373733|h[Dragon Strike]|h|r inflicts high damage and causes the target to bleed.
@@ -20958,7 +20958,7 @@ $bullet;Upon reaching 100 energy, |cFF2959D3|Hspell:400430|h[Hellbeam]|h|r is un
 $bullet;|cFF2959D3|Hspell:407069|h[Rays of Anguish]|h|r crossing onto an existing |cFF2959D3|Hspell:402421|h[Molten Scar]|h|r cause |cFF2959D3|Hspell:408147|h[Infernal Fusion]|h|r.
 $bullet;|cFF2959D3|Hspell:403326|h[Wings of Extinction]|h|r and |cFF2959D3|Hspell:408367|h[Infernal Heart]|h|r inflict heavy raidwide damage.",2522,8,26173,0,0,3,0,0,0,0,2,4,0
 26177,Elementium Plating,,2522,9,0,26549,26240,2,0,0,401319,0,0,32,-1
-26178,Hellbeam,,2522,25,0,0,26204,2,0,0,400430,0,0,16,-1
+26178,Hellbeam,,2522,25,0,27184,26204,2,0,0,400430,0,0,16,-1
 26179,Section 36,,2520,15,26153,0,0,2,0,0,401905,0,0,16,-1
 26180,Section 37,,2520,23,26152,0,0,2,0,0,402052,0,0,0,-1
 26183,Section 9,"$[!16  
@@ -20980,10 +20980,10 @@ $bullet; Twisted Aberrations periodically emerge from the portals created by |cF
 $bullet; Players hit by |cFF2959D3|Hspell:407790|h[Sunder Shadow]|h|r, are vulnerable just before |cFF2959D3|Hspell:407856|h[Shadow Strike]|h|r.
 $bullet; |cFF2959D3|Hspell:401825|h[Shatter]|h|r inflicts damage to all players each time a wall is shattered.",2523,4,26188,0,0,3,0,0,0,0,1,4,-1
 26192,Stage One: The Earth-Warder,,2523,5,0,26434,26776,0,0,0,0,0,1,0,-1
-26194,Section 7,,2523,72,26422,26454,0,2,0,0,401022,0,0,1,-1
-26195,Section 8,,2523,67,26422,26535,26194,2,0,0,407221,0,0,0,-1
+26194,Section 7,,2523,70,26422,26454,0,2,0,0,401022,0,0,1,-1
+26195,Section 8,,2523,65,26422,26535,26194,2,0,0,407221,0,0,0,-1
 26203,Section 40,,2520,12,26149,0,26679,2,0,0,403319,0,2,0,0
-26204,Section 12,,2522,26,0,0,26420,2,0,0,403326,0,0,4,-1
+26204,Section 12,,2522,27,0,0,26420,2,0,0,403326,0,0,4,-1
 26205,Overview,"As the battle begins, Warlord Kagni calls upon his Zaqali warband to assault the two protruding battlements. Warlord Kagni periodically sends himself onto the opposing battlement with |cFF2959D3|Hspell:408959|h[Devastating Leap]|h|r and causes |cFF2959D3|Hspell:400450|h[Cave Rubble]|h|r to fall with |cFF2959D3|Hspell:401258|h[Heavy Cudgel]|h|r.
 
 Upon reaching $397514s2% remaining health, Warlord Kagni stages a final desparate assault on the Elder's Door with |cFF2959D3|Hspell:410535|h[Catastrophic Slams]|h|r.",2524,1,0,26206,26280,3,0,0,0,0,0,0,-1
@@ -21162,19 +21162,19 @@ $bullet; |cFF2959D3|Hspell:404007|h[Unstable Embers]|h|r inflicts high damage to
 
 In Mythic difficulty, Rending Charge does not expire.$]",2530,8,26316,0,26317,2,0,0,406358,0,2,12320,0
 26417,Section 18,,2530,14,26322,0,26734,2,0,0,405042,0,2,160,0
-26420,Section 13,,2522,27,0,0,0,2,0,0,404744,0,0,1,-1
-26421,Stage Two: Corruption Takes Hold,,2523,28,0,26456,26422,0,0,0,0,0,1,0,-1
-26422,Stage Three: Reality Fractures,,2523,57,0,26432,0,0,0,0,0,0,1,0,-1
-26426,Section 17,,2523,27,26776,0,0,2,0,0,403057,0,0,0,-1
-26428,Section 19,,2523,44,26421,0,27117,2,0,0,404068,0,0,16,-1
-26430,Section 6,,2523,10,26192,26786,26783,2,0,0,402115,0,0,0,-1
-26431,Section 7,,2523,18,26192,26455,0,2,0,0,401022,0,0,1,-1
-26432,Section 24,,2523,58,26422,26701,26534,2,0,0,403908,0,0,32,-1
+26420,Section 13,,2522,28,0,0,0,2,0,0,404744,0,0,1,-1
+26421,Stage Two: Corruption Takes Hold,,2523,27,0,26456,26422,0,0,0,0,0,1,0,-1
+26422,Stage Three: Reality Fractures,,2523,55,0,26432,0,0,0,0,0,0,1,0,-1
+26426,Section 17,,2523,26,26776,0,0,2,0,0,403057,0,0,0,-1
+26428,Section 19,,2523,42,26421,0,27117,2,0,0,404068,0,0,16,-1
+26430,Section 6,,2523,9,26192,26786,26783,2,0,0,402115,0,0,0,-1
+26431,Section 7,,2523,17,26192,26455,0,2,0,0,401022,0,0,1,-1
+26432,Section 24,,2523,56,26422,26701,26534,2,0,0,403908,0,0,32,-1
 26434,Section 14,,2523,6,26192,26435,26781,2,0,0,402902,0,1,32,-1
 26435,Section 10,,2523,7,26434,0,0,2,0,0,402831,0,0,0,-1
 26439,Twisted Aberration,"Twisted Aberrations hunger for flesh, endlessly hunting down life to shred and devour with their razor sharp claws and teeth.
 
-Twisted Aberrations grow continuously stronger from |cFF2959D3|Hspell:409876|h[Unstable Mutation.]|h|r",2523,62,26432,26652,26944,1,94374,0,0,0,2,0,0
+Twisted Aberrations grow continuously stronger from |cFF2959D3|Hspell:409876|h[Unstable Mutation.]|h|r",2523,60,26432,26652,26944,1,94374,0,0,0,2,0,0
 26444,Section 51,,2520,18,26150,0,26636,2,0,0,406989,0,0,0,-1
 26449,Section 14,,2522,14,26240,0,27102,2,0,0,406530,0,0,0,-1
 26450,Section 9,,2522,16,0,26451,26452,2,0,0,407069,0,2,0,0
@@ -21182,13 +21182,13 @@ Twisted Aberrations grow continuously stronger from |cFF2959D3|Hspell:409876|h[U
 26452,Section 9,"$[!15  
 On Heroic and Mythic difficulties, Rays of Anguish will continue to hunt players until they are consumed by a Dread Rift.$]",2522,18,0,26707,26183,2,0,0,407069,0,3,8,0
 26453,Section 10,,2522,20,26452,0,0,2,0,0,402421,0,0,0,-1
-26454,Section 33,,2523,73,26194,26654,26957,2,0,0,401825,0,2,0,0
-26455,Section 33,,2523,19,26431,26641,26951,2,0,0,401825,0,2,0,0
-26456,Voice From Beyond,,2523,29,26421,26457,26780,1,90743,0,0,0,0,32,-1
-26457,Section 47,,2523,30,26456,26946,26873,2,0,0,407039,0,0,32,-1
+26454,Section 33,,2523,71,26194,26654,26957,2,0,0,401825,0,2,0,0
+26455,Section 33,,2523,18,26431,26641,26951,2,0,0,401825,0,2,0,0
+26456,Voice From Beyond,,2523,28,26421,26457,26780,1,90743,0,0,0,0,32,-1
+26457,Section 47,,2523,29,26456,26946,26873,2,0,0,407039,0,0,32,-1
 26494,Section 66,"$
 $
-Voices From Beyond Hidden in Void can only be attacked by players afflicted by Corruption.",2523,36,26456,26536,0,2,0,0,407036,0,2,0,0
+Voices From Beyond Hidden in Void can only be attacked by players afflicted by Corruption.",2523,35,26456,26536,0,2,0,0,407036,0,2,0,0
 26496,Section 24,,2530,12,26321,0,0,2,0,0,407302,0,1,0,-1
 26497,Section 25,,2530,25,26328,0,0,2,0,0,407302,0,1,0,-1
 26498,Section 26,,2530,33,26335,0,0,2,0,0,407302,0,1,0,-1
@@ -21205,14 +21205,14 @@ In Mythic difficulty, Temporal Anomalies apply Temporal Fracture.$]",2530,29,263
 26509,Section 23,,2529,46,26346,0,0,2,0,0,405645,0,0,0,-1
 26529,Section 26,,2524,15,26209,0,26222,2,0,0,398938,0,0,32,-1
 26530,Section 24,,2529,16,26336,0,26341,2,0,0,407640,0,2,8,0
-26532,Section 8,,2523,46,26421,26533,26537,2,0,0,407221,0,0,0,-1
-26533,Section 33,,2523,47,26532,26640,26784,2,0,0,401825,0,2,0,0
-26534,Section 46,,2523,66,26422,0,26195,2,0,0,407917,0,0,16,-1
-26535,Section 33,,2523,68,26195,26653,26955,2,0,0,401825,0,2,0,0
-26536,Section 48,,2523,37,26494,0,0,2,0,0,408131,0,0,0,-1
-26537,Section 47,,2523,51,26421,26538,0,2,0,0,407790,0,0,1,-1
-26538,Section 48,,2523,52,26537,26539,0,2,0,0,407856,0,0,1,-1
-26539,Section 33,,2523,53,26538,26954,26953,2,0,0,401825,0,2,0,0
+26532,Section 8,,2523,44,26421,26533,26537,2,0,0,407221,0,0,0,-1
+26533,Section 33,,2523,45,26532,26640,26784,2,0,0,401825,0,2,0,0
+26534,Section 46,,2523,64,26422,0,26195,2,0,0,407917,0,0,16,-1
+26535,Section 33,,2523,66,26195,26653,26955,2,0,0,401825,0,2,0,0
+26536,Section 48,,2523,36,26494,0,0,2,0,0,408131,0,0,0,-1
+26537,Section 47,,2523,49,26421,26538,0,2,0,0,407790,0,0,1,-1
+26538,Section 48,,2523,50,26537,26539,0,2,0,0,407856,0,0,1,-1
+26539,Section 33,,2523,51,26538,26954,26953,2,0,0,401825,0,2,0,0
 26541,Section 25,,2529,47,26338,0,27111,2,0,0,408193,0,2,8,0
 26546,Section 12,,2527,6,0,0,26790,2,0,0,408358,0,1,16,-1
 26549,Section 19,,2522,10,26177,0,26285,2,0,0,408367,0,0,4,-1
@@ -21271,12 +21271,12 @@ In Mythic difficulty, Overcharged does not expire and triggers Conduit Flare upo
 26636,Section 56,,2520,19,26150,0,0,2,0,0,409927,0,2,4112,0
 26637,Section 57,,2520,31,26155,0,0,2,0,0,409927,0,2,4112,0
 26638,Section 58,,2520,55,26160,0,0,2,0,0,409927,0,2,4112,0
-26640,Section 55,,2523,48,26533,0,0,2,0,0,401883,0,0,0,-1
-26641,Section 54,,2523,20,26455,0,0,2,0,0,401883,0,0,0,-1
-26652,Section 58,,2523,63,26439,0,0,2,0,0,409876,0,2,0,0
-26653,Section 57,,2523,69,26535,0,0,2,0,0,401883,0,0,0,-1
-26654,Section 56,,2523,74,26454,0,0,2,0,0,401883,0,0,0,-1
-26657,Section 61,,2523,12,26430,0,0,2,0,0,409058,0,0,0,-1
+26640,Section 55,,2523,46,26533,0,0,2,0,0,401883,0,0,0,-1
+26641,Section 54,,2523,19,26455,0,0,2,0,0,401883,0,0,0,-1
+26652,Section 58,,2523,61,26439,0,0,2,0,0,409876,0,2,0,0
+26653,Section 57,,2523,67,26535,0,0,2,0,0,401883,0,0,0,-1
+26654,Section 56,,2523,72,26454,0,0,2,0,0,401883,0,0,0,-1
+26657,Section 61,,2523,11,26430,0,0,2,0,0,409058,0,0,0,-1
 26658,Section 26,,2525,19,26229,26659,26352,2,0,0,410070,0,2,4096,0
 26659,Section 27,,2525,20,26658,0,0,2,0,0,410075,0,3,4096,0
 26660,Section 12,"$[!16
@@ -21299,10 +21299,10 @@ In Heroic difficulty and above, Lava Vortexes erupt with Lava Waves more frequen
 26685,Section 35,,2524,37,26684,0,0,2,0,0,406585,0,1,4,-1
 26686,Section 31,,2524,35,26683,0,26684,2,0,0,410351,0,0,1,-1
 26694,Section 32,,2524,34,26801,0,0,2,0,0,404616,0,3,8,0
-26695,Section 14,,2523,40,26421,26696,27114,2,0,0,402902,0,0,0,-1
-26696,Section 10,,2523,41,26695,0,0,2,0,0,402831,0,0,0,-1
+26695,Section 14,,2523,38,26421,26696,27114,2,0,0,402902,0,0,0,-1
+26696,Section 10,,2523,39,26695,0,0,2,0,0,402831,0,0,0,-1
 26697,Section 13,,2527,24,26282,0,26750,2,0,0,410676,0,2,4,0
-26701,Twisted Aberration,"Twisted Aberrations hunger for flesh and chaos, endlessly hunting down life to shred and devour with their razor sharp claws and teeth.",2523,59,26432,0,27112,1,94374,0,0,0,2,0,0
+26701,Twisted Aberration,"Twisted Aberrations hunger for flesh and chaos, endlessly hunting down life to shred and devour with their razor sharp claws and teeth.",2523,57,26432,0,27112,1,94374,0,0,0,2,0,0
 26707,Section 21,,2522,19,26452,0,26453,2,0,0,410511,0,2,8,0
 26708,Section 22,,2522,23,26183,0,26184,2,0,0,410511,0,2,8,0
 26709,Damage Dealers,"$bullet;|cFF2959D3|Hspell:407069|h[Rays of Anguish]|h|r hunt players and leave behind a |cFF2959D3|Hspell:402421|h[Molten Scar]|h|r.
@@ -21349,25 +21349,19 @@ $bullet;Rionthus gains a shield that absorbs damage if |cFF2959D3|Hspell:407552|
 26775,Healers,"$bullet;Neldris' |cFF2959D3|Hspell:406358|h[Rending Charge]|h|r inflicts heavy bleed damage on several targets.
 $bullet;|cFF2959D3|Hspell:405375|h[Violent Eruption]|h|r inflicts heavy damage to all players.
 $bullet;|cFF2959D3|Hspell:405042|h[Unstable Essence]|h|r creates an explosion upon removal and jumps to a nearby player.",2530,4,26308,0,0,3,0,0,0,0,0,4,-1
-26776,Intermission: Giving in to Darkness,,2523,23,0,26779,26421,0,0,0,0,0,1,0,-1
-26777,Section 47,,2523,43,26421,0,26428,2,0,0,410972,0,2,0,0
-26778,Section 47,"$[!16
-
-On Mythic difficulty, damage is inflicted to all players in line of sight of the targeted players.$]",2523,39,26421,0,26695,2,0,0,410953,0,2,4096,0
-26779,Section 46,,2523,24,26776,26787,26426,2,0,0,409313,0,0,0,-1
-26780,Section 47,,2523,38,26421,0,26778,2,0,0,410953,0,2,0,0
-26781,Section 47,,2523,8,26192,0,26782,2,0,0,410953,0,2,0,0
-26782,Section 47,"$[!16
-
-On Mythic difficulty, Volcanic Heart affects all players within line of sight.$]",2523,9,26192,0,26430,2,0,0,410953,0,2,4096,0
-26783,Section 8,,2523,13,26192,26947,26431,2,0,0,407221,0,0,0,-1
+26776,Intermission: Giving in to Darkness,,2523,22,0,26779,26421,0,0,0,0,0,1,0,-1
+26777,Section 47,,2523,41,26421,0,26428,2,0,0,410972,0,2,0,0
+26779,Section 46,,2523,23,26776,26787,26426,2,0,0,409313,0,0,0,-1
+26780,Section 47,,2523,37,26421,0,26695,2,0,0,410953,0,2,0,0
+26781,Section 47,,2523,8,26192,0,26430,2,0,0,410953,0,2,0,0
+26783,Section 8,,2523,12,26192,26947,26431,2,0,0,407221,0,0,0,-1
 26784,Section 33,"$[!16
 
-On Mythic difficulty, each impact against Twisted Earth increases damage taken from Shatter by $411430s1%.$]",2523,49,26532,26785,0,2,0,0,401825,0,2,4096,0
-26785,Section 55,,2523,50,26784,0,0,2,0,0,401883,0,0,0,-1
-26786,Section 53,,2523,11,26430,0,26657,2,0,0,402120,0,0,0,-1
-26787,Section 52,,2523,25,26779,0,26788,2,0,0,402831,0,0,0,-1
-26788,Section 51,,2523,26,26779,0,0,2,0,0,402120,0,0,0,-1
+On Mythic difficulty, each impact against Twisted Earth increases damage taken from Shatter by $411430s1%.$]",2523,47,26532,26785,0,2,0,0,401825,0,2,4096,0
+26785,Section 55,,2523,48,26784,0,0,2,0,0,401883,0,0,0,-1
+26786,Section 53,,2523,10,26430,0,26657,2,0,0,402120,0,0,0,-1
+26787,Section 52,,2523,24,26779,0,26788,2,0,0,402831,0,0,0,-1
+26788,Section 51,,2523,25,26779,0,0,2,0,0,402120,0,0,0,-1
 26789,Section 68,,2520,7,26148,0,27125,2,0,0,411224,0,2,4112,0
 26790,Section 8,,2527,7,0,26791,26272,2,0,0,402989,0,2,32,0
 26791,Section 12,"$[!16
@@ -21389,38 +21383,38 @@ In Heroic difficulty, Catastrophic Slam causes Weakened Vitality.$]",2524,33,266
 26804,Section 40,,2524,27,26210,0,26805,2,0,0,408620,0,2,4,0
 26805,Section 8,,2524,28,26210,0,26211,2,0,0,401866,0,2,8,0
 26806,Section 33,,2525,28,26635,0,0,2,0,0,405828,0,2,4096,0
-26873,Section 66,,2523,32,26456,26874,27115,2,0,0,407036,0,2,0,0
-26874,Section 48,,2523,33,26873,0,0,2,0,0,408131,0,0,0,-1
+26873,Section 66,,2523,31,26456,26874,27115,2,0,0,407036,0,2,0,0
+26874,Section 48,,2523,32,26873,0,0,2,0,0,408131,0,0,0,-1
 26941,Section 16,,2525,12,26350,26942,26960,2,0,0,406160,0,2,0,0
 26942,Section 22,,2525,13,26941,0,0,2,0,0,403543,0,0,0,-1
-26944,Section 55,,2523,64,26432,0,26945,2,0,0,407919,0,2,32,0
+26944,Section 55,,2523,62,26432,0,26945,2,0,0,407919,0,2,32,0
 26945,Section 55,"$[!16
 
-On Mythic difficulty, each portal dissipates after protecting a single player from Ebon Destruction.$]",2523,65,26432,0,0,2,0,0,407919,0,2,4128,0
-26946,Section 57,,2523,31,26457,0,0,2,0,0,403049,0,0,0,-1
-26947,Section 33,,2523,14,26783,26948,26949,2,0,0,401825,0,2,0,0
-26948,Section 55,,2523,15,26947,0,0,2,0,0,401883,0,0,0,-1
+On Mythic difficulty, each portal dissipates after protecting a single player from Ebon Destruction.$]",2523,63,26432,0,0,2,0,0,407919,0,2,4128,0
+26946,Section 57,,2523,30,26457,0,0,2,0,0,403049,0,0,0,-1
+26947,Section 33,,2523,13,26783,26948,26949,2,0,0,401825,0,2,0,0
+26948,Section 55,,2523,14,26947,0,0,2,0,0,401883,0,0,0,-1
 26949,Section 33,"$[!16
 
-On Mythic difficulty, each impact against a segment of Twisted Earth increases damage taken from Shatter.$]",2523,16,26783,26950,0,2,0,0,401825,0,2,4096,0
-26950,Section 55,,2523,17,26949,0,0,2,0,0,401883,0,0,0,-1
+On Mythic difficulty, each impact against a segment of Twisted Earth increases damage taken from Shatter.$]",2523,15,26783,26950,0,2,0,0,401825,0,2,4096,0
+26950,Section 55,,2523,16,26949,0,0,2,0,0,401883,0,0,0,-1
 26951,Section 33,"$[!16
 
-On Mythic difficulty, each impact against Twisted Earth increases damage taken from Shatter by $411430s1%.$]",2523,21,26431,26952,0,2,0,0,401825,0,2,4096,0
-26952,Section 55,,2523,22,26951,0,0,2,0,0,401883,0,0,0,-1
+On Mythic difficulty, each impact against Twisted Earth increases damage taken from Shatter by $411430s1%.$]",2523,20,26431,26952,0,2,0,0,401825,0,2,4096,0
+26952,Section 55,,2523,21,26951,0,0,2,0,0,401883,0,0,0,-1
 26953,Section 33,"$[!16
 
-On Mythic difficulty, each impact against Twisted Earth increases damage taken from Shatter by $411430s1%.$]",2523,55,26538,26959,0,2,0,0,401825,0,2,4096,0
-26954,Section 55,,2523,54,26539,0,0,2,0,0,401883,0,0,0,-1
+On Mythic difficulty, each impact against Twisted Earth increases damage taken from Shatter by $411430s1%.$]",2523,53,26538,26959,0,2,0,0,401825,0,2,4096,0
+26954,Section 55,,2523,52,26539,0,0,2,0,0,401883,0,0,0,-1
 26955,Section 33,"$[!16
 
-On Mythic difficulty, each impact against Twisted Earth increases damage taken from Shatter by $411430s1%.$]",2523,70,26195,26956,0,2,0,0,401825,0,2,4096,0
-26956,Section 55,,2523,71,26955,0,0,2,0,0,401883,0,0,0,-1
+On Mythic difficulty, each impact against Twisted Earth increases damage taken from Shatter by $411430s1%.$]",2523,68,26195,26956,0,2,0,0,401825,0,2,4096,0
+26956,Section 55,,2523,69,26955,0,0,2,0,0,401883,0,0,0,-1
 26957,Section 33,"$[!16
 
-On Mythic difficulty, each impact against Twisted Earth increases damage taken from Shatter by $411430s1%.$]",2523,75,26194,26958,0,2,0,0,401825,0,2,4096,0
-26958,Section 55,,2523,76,26957,0,0,2,0,0,401883,0,0,0,-1
-26959,Section 55,,2523,56,26953,0,0,2,0,0,401883,0,0,0,-1
+On Mythic difficulty, each impact against Twisted Earth increases damage taken from Shatter by $411430s1%.$]",2523,73,26194,26958,0,2,0,0,401825,0,2,4096,0
+26958,Section 55,,2523,74,26957,0,0,2,0,0,401883,0,0,0,-1
+26959,Section 55,,2523,54,26953,0,0,2,0,0,401883,0,0,0,-1
 26960,Section 16,"$[!15
 
 In Heroic difficulty and above, Lava Vortexes erupt with Lava Waves more frequently.",2525,14,26350,26961,26360,2,0,0,406160,0,2,8,0
@@ -21448,14 +21442,14 @@ In Mythic difficulty, Swirling Flame expels more projectiles.$]",2529,27,26337,0
 27111,Section 45,,2529,48,26338,0,26358,2,0,0,408193,0,2,0,0
 27112,Twisted Aberration,"Twisted Aberrations hunger for flesh, endlessly hunting down life to shred and devour with their razor sharp claws and teeth.
 
-$[!15,16 In Heroic difficulty, Twisted Aberrations grow continuously stronger from |cFF2959D3|Hspell:409876|h[Unstable Mutation.]|h|r",2523,60,26432,27113,26439,1,94374,0,0,0,2,8,0
-27113,Section 58,,2523,61,27112,0,0,2,0,0,409876,0,2,8,0
-27114,Section 47,,2523,42,26421,0,26777,2,0,0,410972,0,2,8,0
+$[!15,16 In Heroic difficulty, Twisted Aberrations grow continuously stronger from |cFF2959D3|Hspell:409876|h[Unstable Mutation.]|h|r",2523,58,26432,27113,26439,1,94374,0,0,0,2,8,0
+27113,Section 58,,2523,59,27112,0,0,2,0,0,409876,0,2,8,0
+27114,Section 47,,2523,40,26421,0,26777,2,0,0,410972,0,2,8,0
 27115,Section 66,"$[!15,16
 
-In Heroic difficulty, Voices From Beyond Hidden in Void can only be attacked by players afflicted by Corruption.$]",2523,34,26456,27116,26494,2,0,0,407036,0,2,8,0
-27116,Section 48,,2523,35,27115,0,0,2,0,0,408131,0,0,0,-1
-27117,Section 76,,2523,45,26421,0,26532,2,0,0,409598,0,0,0,-1
+In Heroic difficulty, Voices From Beyond Hidden in Void can only be attacked by players afflicted by Corruption.$]",2523,33,26456,27116,26494,2,0,0,407036,0,2,8,0
+27116,Section 48,,2523,34,27115,0,0,2,0,0,408131,0,0,0,-1
+27117,Section 76,,2523,43,26421,0,26532,2,0,0,409598,0,0,0,-1
 27118,Section 28,,2527,15,26797,0,0,2,0,0,412078,0,2,24,0
 27119,Section 29,,2527,10,26792,0,0,2,0,0,412078,0,2,24,0
 27120,Section 30,,2527,21,26748,0,0,2,0,0,412078,0,2,24,0
@@ -21483,3 +21477,7 @@ $bullet;The combination of |cFF2959D3|Hspell:405914|h[Withering Vulnerability]|h
 27143,Null Blast,,2520,43,27141,0,0,2,0,0,404754,0,0,64,-1
 27145,Section 40,,2525,25,26634,0,0,2,0,0,405827,0,2,8,0
 27146,Tank Hit,,2525,23,26229,0,26634,2,0,0,400777,0,2,0,0
+27184,Section 28,,2522,26,26178,0,0,2,0,0,404789,0,0,0,-1
+27193,Section 24,,2490,20,25749,0,0,2,0,0,414585,0,0,16,-1
+27194,Section 24,,2490,23,25052,0,0,2,0,0,414585,0,0,16,-1
+27197,Section 14,,1687,12,12596,0,12595,2,0,0,209920,0,2,0,1
