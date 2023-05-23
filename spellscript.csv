@@ -936,3 +936,37 @@ end
 
 
 ",Alex Ringe,0,46
+84892,10.1 Legendary - Acquisition - Cosmetic Visual - Movement,"function legendary_acquisition_cosmetic_visual_movement(elapsedMs, x, y, z, roll, pitch, yaw)
+
+	local timeToFall = 40000
+	local heightToFall = 200
+	
+	local fallPos = math.max(0,((timeToFall - elapsedMs)/timeToFall)*heightToFall)
+	
+	return 0,0,fallPos,0,0,0
+
+end",Evan Lind,0,46
+85105,10.1 Legendary - Acquisition - Cosmetic Missile - Movement,"function legendary_acquisition_cosmetic_missile_movement(elapsedMs, x, y, z, roll, pitch, yaw)
+
+	local stallTime = 5000
+	local timeToMove = 10000
+	local distance = 1000
+	
+	if (elapsedMs < stallTime) then return 0,0,0,0,0,0 end
+	
+	local xPos = ((elapsedMs-stallTime)/timeToMove)*distance*math.cos(yaw)
+	local yPos = ((elapsedMs-stallTime)/timeToMove)*distance*math.sin(yaw)
+	
+	return xPos,yPos,0,0,0,0
+
+end",Evan Lind,0,46
+85107,10.1 Legendary - Acquisition - Cosmetic Visual - Falling - Movement,"function legendary_acquisition_cosmetic_visual_falling_movement(elapsedMs, x, y, z, roll, pitch, yaw)
+
+	local timeToFall = 20000
+	local heightToFall = 400
+	prints(elapsedMs)
+	local fallPos = math.max(0,((timeToFall - elapsedMs)/timeToFall)*heightToFall)
+	
+	return 0,0,fallPos,0,0,0
+
+end",Evan Lind,0,46
