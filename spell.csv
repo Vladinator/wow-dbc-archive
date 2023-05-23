@@ -334262,7 +334262,7 @@ Upon removal the player explodes, inflicting $404721s1 Fire damage to players wi
 403037,,,
 403039,,,
 403040,,Deals $s1 Lava damage to enemies within $A1 yards of where it is thrown.,
-403042,,"Increases the range of your $?s53595[Hammer of the Righteous][Crusader Strike], Rebuke and auto-attacks by $s2 yds. Using $?s53595[Hammer of the Righteous]?s204019[Blessed Hammer][Crusader Strike] heals you for $403044s1% of your maximum health.",
+403042,,"Increases the range of your $?s53595[Hammer of the Righteous and ]?s204019[][Crusader Strike, ]Rebuke $?!c2[and auto-attacks ][]by $s2 yds. Using $?s53595[Hammer of the Righteous]?s204019[Blessed Hammer][Crusader Strike] heals you for $403044s1% of your maximum health.",
 403043,,Pick up a pot of molten slag.,Carrying a pot of boiling metal. Throw it at your enemies!
 403044,,$@spelldesc403042,
 403046,,,
@@ -334463,6 +334463,7 @@ Increases haste by $s2%."
 403272,,,
 403273,,$@spelldesc402930,Burning for $w1 Chaos damage every second.
 403274,,,
+403275,,$@spelldesc405061,$pri increased by $s1. Speed increased by $s2.
 403276,,,
 403277,,,
 403278,,,
@@ -334602,6 +334603,7 @@ Upon reaching 2 stacks of Blazing Strike a Catastrophic Eruption will occur, inf
 403466,,,
 403468,,,
 403469,,,
+403477,,,
 403479,,Divine Storm heals you and up to $s2 nearby allies for $407467s1% of maximum health.,
 403481,,,
 403482,,,
@@ -334618,10 +334620,12 @@ If you have Greater Judgment, Judgment slows enemies by $408383s1% for $408383d.
 403496,,,
 403497,,Sarkareth pulls several asteroids out of space to crash into the ground. These formations inflict $s1 Shadow damage to nearby players every $t1 sec.,$s1 Shadow damage inflicted every $t1 sec.
 403499,,$@spelldesc403559,
+403500,,,
 403502,,,
 403503,,$@spelldesc402943,Restoring $w1 mana per second.
 403505,,,
 403507,,,
+403508,,,
 403509,,Auto-attack speed increased by $s1%.,
 403510,,$@spelldesc403497,
 403512,,Auto-attack speed increased by $s1% and Leech increased by $s2%.,
@@ -334867,6 +334871,7 @@ Also disperses any $@spellname403384 a player stands within.
 
 Causes a bleeding wound, inflicting an additional $s2 Physical damage every $t2 sec for $d.",Inflicts $s2 Physical damage every $t2 sec.
 403791,,,
+403792,,,
 403794,,The caster swipes in a large area to their right. Enemies hit suffer $s1 Physical damage.,
 403795,,,
 403797,,,
@@ -334907,12 +334912,14 @@ Deals reduced damage beyond 5 targets.",
 
 The resulting explosion launches more flames, inflicting $404383s1 Fire damage to players within $404383A1 yards of the impact location.",
 403836,,Inflicts $s1 Shadow damage to enemies in front of the caster.,
+403837,,Return to where you started.,
 403838,,Draining power from the Sundered Flame.,Losing life force.
 403845,,"The Failed Experiment fixates a target, making their way toward them.
 
 If it collides with the player its unstable energies react with mortal energies, causing the Failed Experiment to violently explode afflicting all players within $A1 yds with residue inflicting $s1 Arcane damage every $t1 sec. This effect stacks.
 ",$s1 Arcane damage inflicted every $t1 sec.
 403846,,"Neltharion flings out shadowy power in a sweeping strike, inflicting $s1 Shadow damage to all players in front of him, and an additional $s2 Shadow damage every $t2 sec. for $d.",$s2 Shadow damage every $t2 sec.
+403847,,,
 403849,,,
 403853,,"$@spelldesc403834
 ",
@@ -334948,9 +334955,16 @@ If it collides with the player its unstable energies react with mortal energies,
 Players standing in portals gain $@spellname407919.",
 403909,,,
 403911,,,
+403913,,Absorb the lingering memories in an area using your connection to bronze magic.,
 403915,,,
 403916,,,
+403917,,,
 403922,,$@spelldesc383013,Cleansing all Poison effects from a nearby party or raid member within $a yards every $t1 sec.
+403923,,"Teach a player of the appropriate profession how to craft part of the new version of the Oathmaker.
+
+Blacksmithing - Part Name
+Jewelcrafting - Part Name
+Engineering - Part Name",
 403928,,,
 403931,,Inflicts $s1 Nature damage to the target and afflicts them with $@spellname403952.,
 403934,,,
@@ -334970,6 +334984,7 @@ $@spelldesc403959",
 403955,,While Divine Steed is active you radiate $s1 Holy enemy damaging all nearby enemies for $s1 every $s2 sec.,
 403957,,Draining power from the Sundered Flame.,Losing life force.
 403959,,,
+403960,,,
 403961,,Holding a rune packed with earth energy.,Holding a rune packed with earth energy.
 403964,,,
 403965,,"Throws an alchemical concoction at a friendly player target, healing them for $403990s1 and increasing their haste by $403990s2% for $403990d.",
@@ -335054,6 +335069,7 @@ $@spelldesc403959",
 404052,,,
 404053,,,
 404054,,,
+404055,,,
 404058,,The Fire Bomb is going to explode!,The Fire Bomb is going to explode!
 404059,,,
 404060,,$@spelldesc401500,
@@ -335065,6 +335081,7 @@ $@spelldesc403959",
 404067,,,
 404068,,"Neltharion draws in dark power to annihilate players, inflicting $404038s1 Shadow damage to all players. Each cast increases damage done by $@spellname404068 by $404045s1%. This effect stacks.",
 404069,,,
+404070,,,
 404071,,,
 404072,,$@spelldesc404019,Healing received from $@auracaster increased by $s1%.
 404073,,,
@@ -335145,13 +335162,19 @@ $@spelldesc403959",
 404154,,"The bomb erupts with void energy, inflicting $s1 Shadow damage to all players every $t1 sec for $d.",$s1 Shadow damage inflicted every $t1 sec.
 404155,,,
 404156,,,
+404157,,Absorbs the last essence of Deathwing.,Absorbing the last essence of Deathwing.
+404158,,,
+404160,,,
 404161,,Inflicts $s1 Frost damage to the current target and reduces their movement speed by $s2% for $d.,Movement speed reduced by $s2%.
+404162,,,
 404165,,,
 404166,,,
 404167,,,
 404168,,,
+404169,,,
 404170,,,
 404171,,$@spelldesc404176,
+404172,,,
 404173,,,
 404174,,,
 404175,,,
@@ -335162,6 +335185,7 @@ $@spelldesc403959",
 Inflicts $s1 Nature damage to enemies within $A1 yards.",
 404179,,,
 404180,,,
+404181,,,
 404182,,,
 404183,Dragonriding,"When dragonriding near the ground, you regenerate $s1 Vigor every $s2 sec.
 
@@ -335195,19 +335219,24 @@ Inflicts $s1 Fire damage to enemies in the eruption zone and an additional $4042
 404211,,,
 404212,,,
 404213,,,
+404214,,,
 404215,,,
 404216,,"Draws in enemies within $A1 yards.
 
 A vortex of arcane winds draws in enemies and the caster casts $@spellname404220 every $t6 seconds for $d.",
 404217,,,
 404218,,"A player stepping into the $@spellname404027 causes the void energy to dissipate into the player. Upon removal, the void energy erupts with a $@spellname404154 unless that player is within the $@spellname401215.",Triggers a $@spellname404154 upon expiration unless within the $@spellname401215.
+404219,,Absorbs the last essence of Deathwing.,Absorbing the last essence of Deathwing.
 404220,,,
+404221,,Absorbs the last essence of Deathwing.,Absorbing the last essence of Deathwing.
 404222,,Judgment hits an additional ${$s1-1} targets but deals $s2% reduced damage to secondary targets.,
 404223,,$@spelldesc404208,
 404224,,Reveal your inner child.,You are a child.
 404225,,,
 404226,,Reveal your inner child.,You are a child.
+404227,,,
 404228,,,
+404229,,,
 404230,,,
 404231,,,
 404233,,"Attacking Neltharion's $@spellname403049 inflicts $s1 Shadow damage, and an additional $s2 Shadow damage every $t2 sec for $d.
@@ -335220,6 +335249,7 @@ This effect stacks.",$s2 Shadow damage every $t2 sec.
 404238,,Increases the attack speed of the caster and allies by $s1%.,Attack speed increased by $s1%.
 404239,,Attempt to repair a broken waygate.,Repairs underway.
 404241,,,
+404242,,,
 404243,,Ground Skimming regenerates $s1 Vigor every $s2 sec.,Ground Skimming regenerates $s1 Vigor every $s2 sec.
 404244,,,
 404245,,,
@@ -335230,6 +335260,7 @@ This effect stacks.",$s2 Shadow damage every $t2 sec.
 404250,,,
 404251,,,
 404253,,,
+404254,,,
 404256,,,
 404257,,,
 404258,,"Pulls all enemies to be near the caster's location, then begin casting Pull Under. Once cast, enemies near the caster suffer $s1 Shadow damage.",
@@ -335241,6 +335272,7 @@ $@spelldesc404284",
 404262,,,
 404263,,,
 404264,,,
+404265,,,
 404266,,$@spelldesc404216,
 404267,,,
 404268,,,
@@ -336038,9 +336070,11 @@ Tiger Palm also applies an effect which increases your critical strike chance by
 405058,,,
 405059,,,
 405060,,,
+405061,,"Your Empower spells activate the Order magic within, releasing a sphere of Order that seeks a powerful ally, increasing their primary stat by $403275s1 and Speed by $403275s2 for $?a356809[$s2]?a356810[$s3][$s4] sec.",
 405062,,,
 405063,,$@spelldesc405077 ,
 405064,,Throw a small Darkened Elemental Core at the target location dealing $405165s1 Shadowflame damage split between all enemies.,
+405065,,$@spelldesc405061,
 405066,,"Slowly build up stacks of titan energy. The amount of stacks gained per second can vary but when fully charged at $s3 stacks the Buzzing Orb Core will increase a random secondary stat by $s0, as well as your movement speed by $s1 for $405202d seconds.",
 405068,,"Shield an ally for $405098s2 while channeling a beam of molten flame dealing ${$405098s1*($d/($t1))}  Fire damage over $d to them. If they survive the channel, heal them for $405098s3.","Cauterizing the wound, dealing ${$w1*($d/($t1))}  Fire damage over $d."
 405069,,$@spelldesc106951,
@@ -337437,6 +337471,7 @@ Health and damage increased by 100%, damage taken is reduced by 40%, and heal a 
 
 Health and damage increased by 100%, damage taken is reduced by 40%, and heal a few seconds after being hit."
 406601,,$@spelldesc404744,
+406604,,Teaches player how to use special recipes,
 406606,,$@spelldesc406556,
 406608,,Dragon riding is not possible with so many hostile Primalists nearby.,Dragon riding is not possible with so many hostile Primalists nearby.
 406609,,Picking up a boulder chunk.,Carrying a boulder chunk to a cleared boulder pile.
@@ -337510,6 +337545,7 @@ Or finish the combo with Judgment to cause a Blessed Hammer to spiral outward de
 406681,,,
 406682,,,
 406683,,Drop the boulder at the collection spot.,
+406684,,,
 406686,,"Empowers Primal Lava Elementals within $A1 yards, increasing their haste by $406694s1% for $406694d.",
 406687,,$@spelldesc406527,
 406690,,$@spelldesc406671,Damage suffered from Eradicate Foe is increased by $s1%.
@@ -337578,6 +337614,16 @@ Deal $s2 Frostfire damage.",
 406786,,,
 406787,,,
 406788,,Mind Blast gains an additional charge.,
+406791,,"Teach a player of the appropriate profession how to craft part of the new version of the Oathbinder.
+
+Blacksmithing: 
+- Reclaimed Gauntlet Chassis
+
+Jewelcrafting:
+ - Immaculate Coalescing Dracothyst
+
+Engineering:
+ - Inspired Order Recalibrator",
 406792,,Inflicts $s1 Volcanic damage to enemies within $A1 yards.,
 406793,,$@spelldesc405226,Suffering $w1 Nature damage every $t.
 406795,,$@spelldesc405226,Absorbs $w1 damage.
@@ -337756,6 +337802,7 @@ Enemies in the area suffer $406977s1 Holy damage every $406977t1 sec for $406980
 406988,,,
 406989,,"When a $@spellname401500 erupts, it creates a patch of $@spellname406989. This ground inflicts $s1 Fire damage every $t1 sec to players within.",$s1 Fire damage inflicted every $t1 sec.
 406991,,,
+406996,,,
 406999,,,
 407003,,,
 407004,,Summons an Overcharged Mana Entity for Ruins of Karnthar.,
@@ -337823,6 +337870,9 @@ Other enemies that are hit by the explosion are affected by Tar Bomb but this ef
 407079,,,
 407080,,,
 407081,,,
+407082,,The shared memories of the Blacksmith's anvil and hammer inspire you.,"The shared memories of the Blacksmith's anvil and hammer inspire you.
+
+While inspired, you are now able to craft the Reclaimed Gauntlet Chassis."
 407083,,,
 407084,,,
 407086,,"The slam sends reverberations through the ground, causing a pillar to erupt inflicting $407015s2 Nature damage and knocking back all players $407015A2 yds from the impact location.
@@ -337884,6 +337934,7 @@ Each pillar inflicts up to $s1 nature damage to all players every $s3 sec. This 
 407157,,Consumed by black dragon fire.,Consumed by black dragon fire.
 407158,,,
 407160,,,
+407161,,,
 407162,,,
 407163,,,
 407164,,,
@@ -337892,10 +337943,18 @@ Each pillar inflicts up to $s1 nature damage to all players every $s3 sec. This 
 407167,,,
 407168,,,
 407169,,,
+407170,,,
+407171,,,
 407172,,,
 407175,,Return to where you started.,
 407176,,Return to where you started.,
 407177,,Return to where you started.,
+407178,,The shared memories of a Master Jewelcrafter from long ago inspire you.,"The shared memories of a Master Jewelcrafter from long ago inspire you.
+
+While inspired, you are now able to craft the Immaculate Coalescing Dracothyst."
+407179,,The shared memories of a Master Engineer from long ago inspire you.,"The shared memories of a Master Engineer from long ago inspire you.
+
+While inspired, you are now able to craft the Inspired Order Recalibrator."
 407180,,,
 407182,,,Targeted for Rushing Shadows.
 407183,,,
@@ -337906,7 +337965,10 @@ Each pillar inflicts up to $s1 nature damage to all players every $s3 sec. This 
 407188,,,
 407189,,$@spelldesc407351,$@spellaura407351
 407190,,$@spelldesc407352,$@spellaura407352
+407191,,Teaches player how to use special recipes,
 407192,,,
+407194,,Teaches player how to use special recipes,
+407195,,Teaches player how to use special recipes,
 407196,,"Kazzara releases a furious roar that incites a burning mark within several players. After $406525d, unworldly rifts tear open beneath these players in a torrent of dreadfire inflicting $406526s1 Shadowflame damage within $406526A1 yards.
 
 Kazzara's exposed core causes $@spellname407196 to target an additional player for each piece of armor that has been shattered.",
@@ -338787,8 +338849,13 @@ After receiving $410226u stacks, your next ability will release the stored energ
 408398,,,
 408399,,$@spelldesc405547,Dealing $w1 damage per second and healing you for $405547s3% of damage dealt.
 408400,,$@spelldesc405547,$@spelldesc405547
+408401,,,
+408402,,"Tap into the presence of Nozdormu to teleport closer to his location.
+",
 408403,,,
 408404,,,
+408405,,,
+408406,,Tap into the presence of Nozdormu to teleport some distance away.,
 408407,,,
 408409,,,
 408410,,Requires a Djaradin Emberstone to begin rebuilding the shrine. ,
@@ -338822,6 +338889,7 @@ Upon expiration, erupts inflicting $w1 Shadow damage to players, based on damage
 408450,,$@spelldesc408451,$@spelldesc408451
 408451,,Heal allies within $A1yds for $s1 every $408450t2 sec.,
 408455,,,
+408456,,,
 408457,,"A void nova erupts from the target, inflicting $s2% of the total Shadow damage taken from $@spellname408422 to all players as Shadow damage.",
 408458,,$@spelldesc408459,Your next Holy Power ability is free and deals $s2% increased damage and healing.
 408459,,Holy Power abilities have a $s1% chance to make your next Holy Power ability free and deal $408458s2% increased damage and healing.,
@@ -338885,6 +338953,8 @@ Consuming Ranger's Finesse reduces the remaining cooldown of Aspect of the Turtl
 408545,,,
 408546,,$@spelldesc405517,Heal over time spells are healing $m3% faster.
 408547,,Polish a crystal shardling to a lovely shine.,Sparkly!
+408548,,,
+408549,,,
 408550,,,
 408551,,Break apart then reform into smaller fragments that attack nearby enemies for $d.,
 408553,,,
@@ -338934,8 +339004,10 @@ Lava Surge has an additional $s2% chance to trigger and instead reduces the cast
 408589,,,
 408590,,,Reach 100 points to win!
 408591,PvP Talent,$@spelldesc408572,
+408594,,,
 408595,,Combine $M2 Dracothyst Shards into a whole Dracothyst.,
 408596,,Teleports the caster.,
+408597,,,
 408598,,Teleports the caster.,
 408599,,Teleports the caster.,
 408600,,Teleports the caster.,
@@ -338950,6 +339022,7 @@ Lava Surge has an additional $s2% chance to trigger and instead reduces the cast
 408610,,,
 408611,,,
 408612,,"Strengthen your resolve, increasing Versatility by $s1 for $d.",Versatility increased by $w1.
+408613,,,
 408614,,"The caster unleashes a pillar of flame at a random player location, inflicting $408619s1 Fire damage to players within $408619A1 yards.",
 408615,,,You are participating in the Champion's Challenge.
 408616,,,
@@ -339040,8 +339113,11 @@ After a short delay, Residual Shadowflame rains on a random enemy within 15 yard
 408735,,,
 408737,,$@spelldesc405505,Agility increased by $w1%.
 408738,,,
+408739,,,You did all this work just to jump off into the Maelstrom? Are you trying to test Nozdormu's patience?
+408741,,,
 408743,,,
 408744,,,
+408746,,,
 408747,,,Grown too large for its old shell after gorging on succulent deepcaps.
 408748,,,
 408750,,,
@@ -339413,14 +339489,19 @@ This effect stacks.",$s2 Spellstrike damage inflicted every $t2 sec.
 409212,,,
 409216,,Inflicts $s1 Arcane damage to an enemy.,
 409217,,"Empowers an ally, increasing their damage done by $s1%.",Damage done increased by $s1%.
+409218,,"Bestow a Temporal Gossamer to friendly players. Empowering the Temporal Gossamer can further assist the Evoker in finding Temporal Vestigials.
+
+Ancient Memories will also teach a friendly Blacksmith, Jewelcrafter, or Engineer how to craft a piece of the Oathbinder. ",
 409219,,,
 409220,,,
 409221,,,
 409222,,,
 409223,,,
+409224,,A suitable vessel for a new legacy.,
 409225,,,
 409226,,Draining power from the Sundered Flame.,Losing life force.
 409227,,Attacking.,Attacking.
+409229,,,
 409230,,,
 409231,,"The construct ruptures the ground in a line towards a random player, inflicting $409233s1 Nature damage to all players caught in the effect.",
 409232,,,
@@ -340291,6 +340372,7 @@ Warlord Kagni expends up to 100 energy, reduced by the number of players hit. If
 410539,,$@spelldesc410537,
 410540,,$@spelldesc410535,
 410541,,,
+410543,,Wait for the Rugged Dragonscale to arrive.,This boat travels between Stormwind and the Dragon Isles.
 410544,PvP Talent,"Enemies that dispel your Moonfire or  Sunfire suffer $410559s1% additional damage from their effects for $410559d. If already vulnerable, $s3% of the remaining duration is applied to the dispeller.",
 410545,,,
 410546,,,
@@ -340825,6 +340907,7 @@ Rip, Ferocious Bite, and Maim deal $s3% additional damage and generate ${$411269
 411293,,Summons a Titan Knowledge Matrix to assist the caster.,
 411294,,,
 411296,,,
+411298,,,
 411299,,"$@spelldesc369846
 ",
 411301,,"Pick up a lasso, allowing the capture of Cave Screechers.",Ready to lasso a Cave Screecher.
@@ -340857,6 +340940,7 @@ The bat screeches periodically, shattering nearby crystals."
 411361,,,
 411362,,,
 411363,,,
+411364,,,
 411367,,"Picks up a Spicy Lava Snail. The snail radiates heat, inflicting $413311s1 Fire damage every $t3 sec until dropped.","Holding a spicy lava snail.
 Inflicting $413311s1 Fire damage every $t3 sec."
 411368,,Toss a tasty treat to Magmorax!,
@@ -340872,6 +340956,7 @@ Inflicting $413311s1 Fire damage every $t3 sec."
 411378,,Empowered Protector get charged with light empowering all damage done by $s2% and absorbing $s1 damage.,Absorbs $w1 damage and increases all damage done by $s2%.
 411382,,,
 411384,,,
+411387,,,
 411388,,"Even when a hologram, even when very small... He's still the Destroyer.","Even when a hologram, even when very small... He's still the Destroyer."
 411389,,"Even when a hologram, even when very small... He's still the Destroyer.","Even when a hologram, even when very small... He's still the Destroyer."
 411390,,,
@@ -341097,7 +341182,7 @@ Able to see the Flame-Engulfed Key Fragment."
 411657,,Inflicts Spellfrost damage and then deals additional damage every $t1 sec. to enemies in a cone in front of the caster. Lasts $d.,$s1 Spellfrost damage inflicted every $t1 sec.
 411658,,Belaphon conjures multiple Relentless Quills to aid in enforcing her agenda!,
 411660,,Right Click to summon and dismiss Baa'lial.,
-411661,,$@spelldesc403368,"$?a137040[Summoning your Fire or Storm Elemental][]$?a137041[Summoning your Feral Spirit][]$?a137039[Summoning your Healing Tide, Mana Tide, or Spirit Link Totem][]$?a137022[Invoking your Celestial][]$?a137046[Summoning your Infernal][]$?a137044[Summoning your Demonic Tyrant][]$?a137043[Summoning your Darkglare][]$?a137017[Casting Stampede or Coordinated Attack][]$?a137016[Casting Stampede][]$?a137015[Summoning your Dire Beast or casting Stampede][]$?a137047|a137034|a137030|a137026|a137018|a353167|a137009|a212611|a137005[This trinket's effect is class restricted to Warlock, Hunter, Monk, and Shaman.][] grants you $403368w1 $pri per stack and reduces your movement speed by $403368w2% for $403380d."
+411661,,$@spelldesc403368,"$?a137040[Summoning your Fire or Storm Elemental][]$?a137041[Summoning your Feral Spirit][]$?a137039[Summoning your Healing Tide, Mana Tide, or Spirit Link Totem][]$?a137022[Invoking your Celestial][]$?a137046[Summoning your Infernal][]$?a137044[Summoning your Demonic Tyrant][]$?a137043[Summoning your Darkglare][]$?a137017[Casting Coordinated Assault][]$?a137016[Casting Trueshot][]$?a137015[Casting Bestial Wrath][]$?a137047|a137034|a137030|a137026|a137018|a353167|a137009|a212611|a137005[This trinket's effect is class restricted to Warlock, Hunter, Monk, and Shaman.][] grants you $403368w1 $pri per stack and reduces your movement speed by $403368w2% for $403380d."
 411662,,Combine the Ouroboros Tablet with Designs of Bone.,
 411663,,Combine the Ouroboros Tablet with Designs of Mind.,
 411664,,,
@@ -341225,6 +341310,7 @@ While Enraged, suffering loss of control effects have a chance to grant you Reck
 411797,,,
 411798,,$@spelldesc411799,
 411799,,"The ooze bursts, creating an expanding pool of slime that inflicts $s1 Shadow damage every $t1 sec to players that stand within it.",Inflicts $s1 Shadow damage every $t1 sec.
+411800,,Right Click to summon and dismiss this companion.,
 411801,,,"Voraxian has empowered you with the strength of his flight.
 Armor is increased by $s1.
 Maximum Health is increased by $s2%."
@@ -341235,10 +341321,12 @@ Can be neutralized with an elemental base."
 411805,,,"Dangerously basic!
 Can be neutralized with an elemental acid."
 411806,,,
+411807,,,
 411808,,"The slime infuses several players with volatile goop for $d. Upon expiration, infused players inflict $411813s1 Nature damage to players within $411813a1 yards.","Upon expiration, inflicts $411813s1 Nature damage to enemies within $411813a1 yards."
 411809,,$@spelldesc396639,
 411810,,,
 411811,,$@spelldesc411808,
+411812,,"Summon the essence of Fyrakk to unleash a deep breath, devastating critters caught in the flames.",
 411813,,$@spelldesc411808,
 411815,,,
 411816,,,
@@ -341381,6 +341469,7 @@ Haste reduced by $s2%."
 412006,,,
 412007,,,
 412008,,,
+412010,,,
 412013,,Combine the Ouroboros Tablet with the Kob'rok's Luminescent Scale.,
 412014,,,
 412015,,Represent your victories with a pennant.,Represent.
@@ -341475,6 +341564,7 @@ The force of the knockup is reduced by the amount of damage mitigated by the pri
 412251,,,
 412252,,,
 412254,,,
+412255,,,
 412257,,Throw your lava orb! Only usable while you are carrying a lava orb.,
 412258,,,
 412259,,$@spelldesc412177,
@@ -341516,7 +341606,9 @@ Periodically inflicting $412312s1 Shadowflame damage."
 412342,,,
 412343,,,
 412346,,Inflicts Physical damage.,
+412350,,"Empower an Evoker's Ancient Memories artifact, increasing the rate at which they earn Temporal Vestigials by $s1%.",
 412357,,,
+412359,,"Empower an Evoker's Ancient Memories artifact, increasing the rate at which they earn Temporal Vestigials by $s1%.",Increasing the rate at which you earn Temporal Vestigials by $s1%.
 412360,,"Inflicts $s1 Nature damage to an enemy.
 
 Applies a disease that stuns after $d seconds.","Turning to stone.
@@ -341692,9 +341784,10 @@ While Enraged, suffering loss of control effects have a chance to grant you Reck
 412615,,,
 412616,,,
 412617,,,
-412618,,Increases movement speed by $s1% for $d.,Movement increased speed by $s1%
+412618,,Increases movement speed by $s1% for $d.,Movement speed increased by $s1%.
 412620,,"Creates a storm that travels in a line from the caster and then rotates for $d, inflicting $412310s1 Shadowflame damage and knocking enemies into the air.",
 412622,,"The broken tank spews its contents every $t1 sec, inflicting $412627s1 Shadowflame damage within $412617A1 yards and creating a pool of $@spellname412625.","The broken tank spews its contents every $t1 sec, inflicting $412627s1 Shadowflame damage within $412617A1 yards and creating a pool of $@spellname412625."
+412624,,,
 412625,,A pool of Shadowflame energy that inflicts $s1 Shadowflame damage every $t1 sec to players within the effect.,Inflicting $s1 Shadowflame damage every $t1 sec.
 412626,,General Zskorro drops a banner to call allies to arms.,
 412627,,$@spelldesc412622,
@@ -341709,11 +341802,14 @@ $@spellname183435: Increases healing received by $s3% while its effect is active
 
 $@spellname317920: Affected allies immune to interrupts and silences.][]",Aura effectiveness increased.
 412631,,$@spelldesc412626,Calling nearby allies to arms.
+412632,,Inspect the Mote of Nasz'uro.,
 412633,,$@spelldesc412626,Haste increased by $w1%.
 412636,,Increases the caster's attack and movement speeds by $s2% and all damage it deals by $s1%.,"All damage dealt is increased by $s1%.
 Attack and Movement speeds increased by $s2%."
+412637,,,
 412644,,$@spelldesc408080,
 412645,,,
+412648,,,
 412651,,$@spelldesc395201,
 412652,,,
 412653,,"Conjure an Explosive orb at $395196i enemies' locations. After a short delay, the orb explodes, inflicting $s1 Fire damage to enemies caught in the blast.",
@@ -341923,7 +342019,9 @@ Movement speed reduced by $s2%."
 413177,,,
 413191,,,
 413206,,,
+413212,,,
 413214,,,
+413225,,,
 413230,,"Neltharion blasts several players for $s1 Shadow damage and knocks them away$?DIFF17[.][, inflicting an additional $407220s1 Shadow damage to any players between Neltharion and his targets and silencing them for $d.]
 
 Colliding with a segment of $@spellname402902 causes it to $@spellname401825.",
@@ -341933,6 +342031,8 @@ Colliding with a segment of $@spellname402902 causes it to $@spellname401825.",
 Devastate, Thunder Clap, Revenge, and Execute have a $231834s1% chance to reset the cooldown of Shield Slam.][]
 
 |cFFFFFFFFGenerates $/10;s3 Rage.|r",
+413233,,,
+413244,,,
 413255,,,
 413256,,,
 413257,Racial,,
@@ -342027,6 +342127,7 @@ Each glob that fails to hit a player explodes, inflicting $413365s1 Fire damage 
 Must be used near Myrrit in Loamm. Myrrit can hold up to 3 maps at a time.",
 414474,,,
 414529,,,
+414536,,,
 414573,,,
 414574,,,
 414585,,"Chargath unleashes a wave of lava, inflicting $s1 Fire damage to all players every $t1 sec for $d.",$s1 Fire damage every $t1 sec.
@@ -342039,3 +342140,30 @@ Cooldown Rate increased by $s2%."
 414828,,,
 414847,,,
 414911,,,
+414949,,$@spelldesc383328,Hammer of Wrath can be used on any target.
+414966,,,Heals $114919s2 and damages $114919s1 every $114919t1 seconds.
+414972,,,Carrying a titan statue piece. It's heavy!
+414980,,,Carrying a titan statue piece. It's heavy!
+414981,,,Carrying a titan statue piece. It's heavy!
+415032,,,Grown huge and contented on Snail Snacks.
+415041,,"Movement speed increased by $s1%.
+
+Entering combat cancels this effect.","Movement speed increased by $s1%.
+
+Entering combat cancels this effect."
+415048,,Throw a tasty treat to a snail!,
+415158,,"Movement and swim speed increased by $s1%.
+
+Entering combat cancels this effect.","Movement and swim speed increased by $s1%.
+
+Entering combat cancels this effect."
+415187,,,
+415214,,,
+415446,,Your healing spells and abilities have a chance to fire a Healing Dart toward an ally target. The first ally hit will be healed for $s1.,
+415451,,Completing World Quests will grant additional reputation gains with the related factions.,"|cFF00AA99Bonus Event: World Quests|r
+
+Reputation gains from World Quests increased by $s1%."
+415489,,,
+415506,,,
+415537,,,
+415571,,$@spelldesc355313,Absorbing $w1 damage.

@@ -82029,6 +82029,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 143351,,134118,0,0,33148,16,2
 143353,,67813,0,0,58302,1,2
 143354,,67815,0,0,58303,1,2
+143358,10.1 DL - Step 1 - Speak to Nozdormu - (STM),0,0,4,0,0,0
+143359,Speak to Nozdormu to view Deathwing's final moment,143358,1,0,58304,0,0
 143360,10.1 UG - Ch 1 - Primalist Blockade - Step 4B1 - Both Pylons Destroyed (JSS),0,0,4,0,0,0
 143361,Fire Pylon Destroyed,143360,1,0,58228,0,0
 143362,Earth Pylon Destroyed,143360,1,0,58227,1,0
@@ -82128,6 +82130,14 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 143456,Pour Rations: Westfall Stew in the pot,143455,1,0,58351,0,0
 143457,Throw Rations: Dragonbreath Chili,0,0,4,0,0,0
 143458,Pour Rations: Dragonbreath Chili in the pot,143457,1,0,58352,0,0
+143459,10.1 DL - Step 2 - Absorb Essence - (STM),0,0,4,0,0,0
+143460,Approach the cliff and absorb Deathwing's essence,143459,1,0,58353,0,0
+143461,10.1 DL - Step 3 - Defeat Faceless One - (STM),0,0,4,0,0,0
+143462,Faceless One slain,143461,1,0,58354,0,0
+143467,10.1 DL - Step 4 - Claim Artifact - (STM),0,0,4,0,0,0
+143468,Deathwing's essence claimed,143467,1,0,58357,0,0
+143469,10.1 DL - Step 5 - Leave - (STM),0,0,4,0,0,0
+143470,Speak with Nozdormu to leave,143469,1,0,58358,0,0
 143471,Player learned pet Volatile Self-Driving Toolbox,0,0,4,0,0,0
 143472,,143471,0,0,58359,0,0
 143482,10.1 Research Scenario - Step 5 (Blockout),0,0,4,0,0,0
@@ -83672,8 +83682,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 145506,The Forgotten Experiments,145503,1,0,58868,2,0
 145507,Assault of the Zaqali,145503,1,0,58869,3,0
 145508,"Rashok, the Elder",145503,1,0,58870,4,0
-145509,"The Vigilant Stewart, Zskarn",145503,1,0,58871,5,0
-145510,Memorax,145503,1,0,58881,6,0
+145509,"The Vigilant Steward, Zskarn",145503,1,0,58871,5,0
+145510,Magmorax,145503,1,0,58881,6,0
 145511,Echo of Neltharion,145503,1,0,58882,7,0
 145512,Scalecommander Sarkareth,145503,1,0,58883,8,0
 145513,"Heroic: Aberrus, the Shadowed Crucible",0,0,4,0,0,0
@@ -83682,8 +83692,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 145516,The Forgotten Experiments,145513,1,0,59575,2,16
 145517,Assault of the Zaqali,145513,1,0,59576,3,16
 145518,"Rashok, the Elder",145513,1,0,59577,4,16
-145519,"The Vigilant Stewart, Zskarn",145513,1,0,59578,5,16
-145520,Memorax,145513,1,0,59579,6,16
+145519,"The Vigilant Steward, Zskarn",145513,1,0,59578,5,16
+145520,Magmorax,145513,1,0,59579,6,16
 145521,Echo of Neltharion,145513,1,0,59580,7,16
 145522,Scalecommander Sarkareth,145513,1,0,59581,8,16
 145523,"Mythic:  Aberrus, the Shadowed Crucible",0,0,4,0,0,0
@@ -83703,7 +83713,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 145537,"Achievement - Aberrus, the Shadowed Crucible - Fury of Giants",0,0,4,0,0,0
 145538,Assault of the Zaqali,145537,1,0,58869,0,0
 145539,"Rashok, the Elder",145537,1,0,58870,1,0
-145540,"The Vigilant Stewart, Zskarn",145537,1,0,58871,2,0
+145540,"The Vigilant Steward, Zskarn",145537,1,0,58871,2,0
 145541,"Achievement - Aberrus, the Shadowed Crucible - Neltharion's Shadow",0,0,4,0,0,0
 145542,Magmorax,145541,1,0,58881,0,0
 145543,Echo of Neltharion,145541,1,0,58882,1,0
@@ -83745,6 +83755,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 145581,,145579,1,0,59608,1,0
 145582,,145579,1,0,59609,2,0
 145583,,145579,1,0,59610,3,0
+145584,10.1 DL - Completed Campaign Chapter - (STM) (109809),0,0,4,0,0,4096
+145585,,145584,1,0,59611,0,0
 145586,Gain Happy Feet,0,0,4,0,0,8193
 145587,,145586,1,0,59612,0,1
 145588,Flame stolen,0,1,8,0,0,8193
@@ -83842,7 +83854,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 145684,Statistic - 10.1 Raid - Aberrus - Evolution of Dracthyr - Heroic,0,0,4,0,0,0
 145685,,145684,0,0,59575,0,2
 145686,Statistic - 10.1 Raid - Aberrus - Djaradin Assault - Heroic,0,0,4,0,0,0
-145687,,145686,0,0,59574,0,2
+145687,,145686,0,0,59576,0,2
 145688,Statistic - 10.1 Raid - Aberrus - Djaradin Elder - Heroic,0,0,4,0,0,0
 145689,,145688,0,0,59577,0,2
 145690,Statistic - 10.1 Raid - Aberrus - Zskarn - Heroic,0,0,4,0,0,0
@@ -84088,6 +84100,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 145957,Liars in Light,145942,1,0,59758,13,16
 145958,Frostfire Finesse,145942,1,0,59759,14,16
 145959,Liars of Spirit,145942,1,0,59760,15,16
+145960,"Wielder of Nasz'uro, the Unbound Legacy.",0,0,4,0,0,0
+145961,"Nasz'uro, the Unbound Legacy",145960,1,0,59820,0,2
+145962,,145960,0,0,59821,1,2
 145963,10.1 Valdrakken - Weekly Dungeon - E - Complete Heroics (MPK),0,5,5,0,0,4096
 145964,,145963,0,0,59822,0,2
 145965,,145963,0,0,59823,1,2
@@ -84364,3 +84379,13 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 146997,,145770,0,0,60288,1,1
 146998,,145189,0,0,60289,11,0
 146999,,145189,0,0,60290,12,0
+147005,Flightstones obtained,0,0,4,0,0,0
+147006,Flightstones obtained,147005,400,0,60299,0,1
+147009,Shadowflame Crests created,0,3,5,0,0,8193
+147010,,147009,0,0,60301,0,0
+147011,,147009,0,0,60302,1,0
+147012,,147009,0,0,60303,2,0
+147013,,147009,0,0,60304,3,0
+147087,,145205,0,0,59427,2,32
+147088,Achievement - Keystone 15: Dragonflight Dungeons Season 2 - Character-Specific,0,0,4,0,0,2
+147089,Rating Requirement,147088,2000,0,59301,0,2
