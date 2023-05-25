@@ -72026,6 +72026,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 90954,Grievous Tormentor defeated,90953,1,0,51676,0,0
 90955,Tormentor defeated,0,0,4,0,0,0
 90956,Grievous Tormentor defeated,90955,1,0,51676,0,0
+90957,9.1 Ch 3 - Free Primus Scenario - Stage 1 -  (STM),0,0,4,0,0,0
+90958,Speak with the Primus,90957,1,0,51677,0,0
 90959,9.1 Ch 3 - Free Primus Stage 2 - (STM),0,0,4,0,0,0
 90960,Repel Mawsworn,90959,100,9,0,1,0
 90961,,90960,2,0,51678,0,0
@@ -81554,6 +81556,10 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 142561,Sending Stone: Initial Report,142554,0,0,57817,6,0
 142562,Sending Stone: Silence,142554,0,0,57818,7,0
 142575,,136224,0,0,57826,17,0
+142577,Speak to Kalecgos,0,0,4,0,0,0
+142578,Speak to Kalecgos,142577,1,0,57829,0,0
+142579,Defeat Sindragosa,0,0,4,0,0,0
+142580,Defeat Sindragosa,142579,1,0,57830,0,0
 142581,10.0.7 - Forbidden Reach - Froststone Vault - Storm - Water - Boss (OJF),0,0,4,0,0,0
 142582,Fulfill 500 Public Crafting Orders from within the Dragon Isles,0,500,4,0,0,0
 142583,,142582,500,0,57831,0,1
@@ -82652,10 +82658,14 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 144116,10.1 Underground - Campaign - Ch 1 - Q05 - The Throughway - SCENARIO - S2 - Sabellian Spot 1 (JSS),0,0,4,0,0,0
 144117,Sabellian in Spot 1,144116,1,0,57853,0,0
 144118,Large Boulders destroyed,143894,2,0,58766,0,0
+144119,10.1 BD - Ch 4 - Spawn Sindragosa and Malygos - (STM),0,0,4,0,0,0
+144120,,144119,0,0,58767,0,0
 144121,10.1 Underground - Campaign - Ch 1 - Q05 - The Throughway - SCENARIO - S2 - Bouldani Spawned (JSS),0,0,4,0,0,0
 144122,Bouldani Spawned,144121,1,0,58768,0,0
 144123,Admirers summoned,137793,1,0,58769,1,1
 144124,Admirers summoned,137793,1,0,58770,2,1
+144125,10.0 Azure - Azure Vaults - Complete the Vaults - (STM),0,0,4,0,0,6144
+144126,,144125,0,0,58771,0,0
 144127,10.1 Underground - Campaign - Ch 1 - Q05 - The Throughway - SCENARIO - S2 - Sabellian Spot 2 (JSS),0,0,4,0,0,0
 144128,Sabellian in Spot 2,144127,1,0,58772,0,0
 144129,10.1 Underground - Campaign - Ch 1 - Q05 - The Throughway - SCENARIO - S3 - Sabellian Spot 2 (JSS),0,0,4,0,0,0
@@ -83526,6 +83536,13 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 145327,Underlight Queen,145307,1,0,59510,19,0
 145328,Veridian King,145307,1,0,59511,20,0
 145335,Wildlife cleared,144252,35,9,0,0,0
+145336,"Blue Dragonflight Aided, Player Has Completed Azsuna Senegos Quests",0,0,4,0,0,8194
+145337,,145336,0,0,59171,0,0
+145338,,145336,0,0,31301,1,0
+145339,"Blue Dragonflight Aided, Player Has NOT Completed Azsuna Senegos Quests",0,0,4,0,0,8194
+145340,,145339,0,0,59171,0,0
+145341,,145339,0,1,31301,1,0
+145342,,145336,0,1,59515,2,0
 145343,<DNT> Loamm Niffen - Renown 01 - Character,0,0,4,0,0,0
 145344,,145343,1,0,59155,0,0
 145345,,145343,1,1,59516,1,0
