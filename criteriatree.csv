@@ -7950,7 +7950,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 125563,,0,0,4,0,0,0
 125564,Dance at the ribbon pole for 60 seconds while wearing completed Midsummer set.,125563,1,0,6804,0,2
 125565,Kill all The Nexus bosses,0,0,4,0,0,0
-125566,Keristrasza,125565,1,0,7315,2,0
+125566,Keristrasza,125565,1,0,5609,2,0
 125567,Grand Magus Telestra,125565,1,0,5245,3,0
 125568,Anomalus,125565,1,0,5246,1,0
 125569,Ormorok the Tree-Shaper,125565,1,0,5247,0,0
@@ -10367,7 +10367,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 127981,Brother Cassius in Stormwind,127974,1,0,6234,0,0
 127982,Brother Wilhelm in Goldshire,127974,1,0,6229,0,0
 127983,Brother Benjamin in Stormwind,127974,1,0,6235,0,0
-127984,,0,0,4,0,0,0
+127984,Use your Hearthstone while your orphan is with you.,0,1,8,0,0,0
 127985,,127984,1,0,10391,0,2
 127986,,0,1,8,0,0,0
 127987,Gladiator,127986,1,0,7412,0,2
@@ -10683,11 +10683,11 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 128297,Undead,128289,1,0,9151,6,0
 128298,Blood Elf,128289,1,0,9124,7,0
 128299,Night Elf,128289,1,0,9147,3,0
-128300,,0,1,8,0,0,0
-128301,Kel'Thuzad,128300,1,0,7617,0,2
-128302,The Four Horsemen,128300,1,0,13237,0,2
-128303,Maexxna,128300,1,0,13238,0,2
-128304,Loatheb,128300,1,0,13239,0,2
+128300,Kill all bosses in Naxxramas (10N) without anyone dying in a single raid lockout.,0,1,8,0,0,2
+128301,Kel'Thuzad,128300,1,0,7617,3,2
+128302,The Four Horsemen,128300,1,0,13237,4,2
+128303,Maexxna,128300,1,0,13238,1,2
+128304,Loatheb,128300,1,0,13239,2,2
 128305,Thaddius,128300,1,0,13240,0,2
 128306,,0,0,4,0,0,0
 128307,Thaddius,128306,1,0,7165,0,2
@@ -11262,13 +11262,12 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 128879,Participate in slaying Ancient Rune Giant,128876,1,0,10312,0,0
 128880,,0,0,4,0,0,0
 128881,Deadly Gladiator,128880,1,0,10881,0,2
-128882,,0,0,4,0,0,0
-128883,"Hail To The King, Baby",128882,0,0,6749,0,0
+128882,Complete the Children's Week achievements listed below.,0,0,4,0,0,0
+128883,"Hail To The King, Baby",128882,0,0,6749,3,0
 128884,Daily Chores,128882,0,0,6745,0,0
-128885,Bad Example,128882,0,0,6744,0,0
-128886,"Aw, Isn't It Cute?",128882,0,0,6746,0,0
-128887,School of Hard Knocks,128882,0,0,6747,0,0
-128888,Home Alone,128882,0,0,6674,0,0
+128885,Bad Example,128882,0,0,6744,4,0
+128886,"Aw, Isn't It Cute?",128882,0,0,6746,2,0
+128888,Home Alone,128882,0,0,6674,1,0
 128889,,0,0,4,0,0,0
 128890,Sous Chef,128889,0,0,6756,0,0
 128891,The Cake Is Not A Lie,128889,0,0,5764,0,0
@@ -11451,11 +11450,11 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 129068,Trollgore,129067,1,0,7579,0,2
 129069,,0,0,4,0,0,0
 129070,Sartharion the Onyx Guardian,129069,1,0,7333,0,2
-129071,,0,1,8,0,0,0
-129072,Kel'Thuzad,129071,1,0,7616,0,2
-129073,The Four Horsemen,129071,1,0,13233,0,2
-129074,Maexxna,129071,1,0,13234,0,2
-129075,Thaddius,129071,1,0,13235,0,2
+129071,Kill all bosses in Naxxramas (25N) without anyone dying in one raid lockout.,0,1,8,0,0,2
+129072,Kel'Thuzad,129071,1,0,7616,3,2
+129073,The Four Horsemen,129071,1,0,13233,4,2
+129074,Maexxna,129071,1,0,13234,1,2
+129075,Thaddius,129071,1,0,13235,2,2
 129076,Loatheb,129071,1,0,13236,0,2
 129077,,0,0,4,0,0,0
 129078,Jedoga Shadowseeker,129077,1,0,7359,0,2
@@ -16519,3 +16518,63 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 142514,Defense Protocol Alpha: The Violet Hold,142502,0,0,57785,11,0
 142651,[DNT] Joyous Journeys - Reach Level 80 with buff Joyous Journeys (hidden),0,0,4,0,0,2
 142652,,142651,80,0,57872,0,2
+143130,New Criteria Tree,0,0,4,0,0,0
+143131,,143130,1,0,58182,0,2
+143132,Complete all Hard Mode bosses In Ulduar Pre-Nerf before the next raid tier opens.,0,0,4,0,0,2
+143133,Flame Leviathan - Hard Mode,143132,1,8,0,0,2
+143134,,143133,0,0,58183,0,2
+143135,,143133,0,0,58184,1,2
+143136,XT-002 - Hard Mode,143132,1,8,0,1,2
+143137,,143136,0,0,58185,0,2
+143138,,143136,0,0,58186,1,2
+143139,Steelbreaker - Hard Mode,143132,1,8,0,2,2
+143140,,143139,0,0,58187,0,2
+143141,,143139,0,0,58188,1,2
+143142,Hodir - Hard Mode,143132,1,8,0,3,2
+143143,,143142,0,0,58189,0,2
+143144,,143142,0,0,58190,1,2
+143145,Thorim - Hard Mode,143132,1,8,0,4,2
+143146,,143145,0,0,58191,0,2
+143147,,143145,0,0,58192,1,2
+143148,Freya - Hard Mode,143132,1,8,0,5,2
+143149,,143148,0,0,58193,0,2
+143150,,143148,0,0,58194,1,2
+143151,Mimiron - Hard Mode,143132,1,8,0,6,2
+143152,,143151,0,0,58195,0,2
+143153,,143151,0,0,58196,1,2
+143154,General Vezax - Hard Mode,143132,1,8,0,7,2
+143155,,143154,0,0,58197,0,2
+143156,,143154,0,0,58198,1,2
+143157,Yogg-Saron - Hard Mode,143132,1,8,0,8,2
+143158,,143157,0,0,58199,0,2
+143159,,143157,0,0,58200,1,2
+143160,Algalon - Hard Mode,143132,1,8,0,9,2
+143161,,143160,0,0,58201,0,2
+143162,,143160,0,0,58202,1,2
+143606,Kill Yogg-Saron with 0 Keepers on 25 player difficulty,0,0,4,0,0,2
+143607,Yogg-Saron,143606,1,0,58450,0,2
+143649,[DNT] Booty Bay Exalted,0,0,4,0,0,0
+143650,,143649,42000,0,8819,0,2
+143651,[DNT] Everlook Exalted,0,0,4,0,0,0
+143652,,143651,42000,0,8820,0,2
+143653,[DNT] Ratchet Exalted,0,0,4,0,0,0
+143654,,143653,42000,0,8822,0,2
+143655,[DNT] Gadgetzan Exalted,0,0,4,0,0,0
+143656,,143655,42000,0,8821,0,2
+143657,[DNT] Bloodsail Honored,0,1,4,0,0,0
+143658,,143657,9000,0,8818,0,2
+143660,[DNT] Raise your reputation with the areas listed below.,0,0,4,0,0,0
+143661,[DNT] Exalted with Gadgetzan,143660,1,0,58452,0,2
+143662,[DNT] Exalted with Ratchet,143660,1,0,58453,1,2
+143663,[DNT] Exalted with Booty Bay,143660,1,0,58454,2,2
+143664,[DNT] Exalted with Ravenholdt,143660,42000,0,8824,3,2
+143665,[DNT] Exalted with Shen'dralar,143660,42000,0,8825,4,2
+143666,[DNT] Exalted with Everlook,143660,1,0,58455,5,2
+143667,[DNT] Honored with Bloodsail Buccaneers,143660,1,0,58456,6,2
+143668,[DNT] Exalted with Darkmoon Faire,143660,42000,0,8823,7,2
+146403,[DNT] Joyous Journeys - Reach Level 80 with buff Joyous Journeys (hidden),0,0,4,0,0,2
+146404,,146403,80,0,60116,0,2
+146405,[DNT] Joyous Journeys - Reach Level 80 with buff Joyous Journeys (hidden),0,0,4,0,0,2
+146406,,146405,80,0,60117,0,2
+146817,,127984,1,0,60238,2,2
+146818,,127984,1,0,60239,1,2

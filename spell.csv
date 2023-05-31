@@ -47495,7 +47495,7 @@ Movement speed reduced by $s3%."
 64788,,,
 64790,,Increases attack power by $s1 for $d.,Increases attack power by $s1.
 64791,,Inflicts $s1 Arcane damage.,Inflicts $s1 Arcane damage.
-64792,,Chance on melee and ranged critical strike to increase your attack power by 1284 for 10 secs.,
+64792,,Chance on melee and ranged critical strike to increase your attack power by $64790s1 for 10 secs.,
 64793,,Inflicts Arcane damage around the Device.,Inflicts Arcane damage around the Device.
 64794,,,
 64795,,,
@@ -47627,7 +47627,7 @@ Movement speed slowed by $s3%."
 64931,,Increases the damage done by your Unstable Affliction by $s1% and your Immolate by $s2%.,
 64932,,Increases the critical strike chance of your Shadow Bolt and Incinerate spells by $s1%.,
 64933,,Increases the critical strike chance of your Devastate ability by $s1%.,
-64936,,Shield Block also grants you $64934s1% reduction to magical damage taken.,
+64936,,Shield Block also grants you ${$64934s1*-2}% reduction to magical damage taken.,
 64937,,Increases haste rating by $s1 for $d1.,Increases haste rating by $s1.
 64938,,Heroic Strike and Slam critical strikes have a chance to grant you $64937s1 haste rating for $64937d.,
 64939,,Increases the critical strike chance of Mortal Strike and Bloodthirst by $s1%.,
@@ -47682,7 +47682,7 @@ Movement speed slowed by $s3%."
 64995,,,
 64996,,,
 64997,,This creates an effect on the casting NPC that makes it appear as though they just arrived.,
-64999,,Each spell cast within 20 seconds will grant a stacking bonus of 60 mana regen per 5 sec. Expires after 20 seconds.  Abilities with no mana cost will not trigger this trinket.,Chance to gain increased mana regeneration.
+64999,,Each spell cast within 20 seconds will grant a stacking bonus of $65000s1 mana regen per 5 sec. Expires after 20 seconds.  Abilities with no mana cost will not trigger this trinket.,Chance to gain increased mana regeneration.
 65000,,Restores $s1 mana per 5 sec.,Increased mana regeneration by $s1 mana per 5 sec.
 65002,,"Each time you cast a spell, there is a chance you will gain up to $65003s1 mana per 5 for $65003d.","Each time you cast a spell, there is a chance you will gain up to $65003s1 mana per 5 for $65003d."
 65003,,Mana Regen increased by $s1.,Mana Regen increased by $s1.
@@ -52909,3 +52909,23 @@ Health increased by $s2%."
 401398,,,
 402663,,Cannot benefit from Bloodlust.,Cannot benefit from Bloodlust.
 402823,,Cannot benefit from Heroism.,Cannot benefit from Heroism.
+402915,,Increases damage done by $s1% and reduces damage taken from all sources by $s2%.,"Damage done increased by $s1%.
+Damage taken from all sources reduced by $s2%."
+402919,,Increases all damage done by $s1% and total health by $s2%.,"Damage done increased by $s1%.
+Total health increased by $s2%."
+402920,,Increases all damage done by $s1% and healing received from all sources by $s2%.,"Damage done increased by $s1%.
+Healing received increased by $s2%."
+402921,,Increases all damage done by $s1% and movement speed by $s2%.,"Damage done increased by $s1%.
+Movement speed increased by $s2%."
+402969,,,
+403285,,,
+403323,,,
+403504,,,
+404057,,,
+405003,,Your Hand of Reckoning spell no longer taunts the target and can deal damage to untauntable targets.,
+405004,,Your Hand of Reckoning spell no longer taunts the target and can deal damage to untauntable targets.,
+405005,,,
+405867,,,
+406280,,,
+408079,,,
+408119,,,
