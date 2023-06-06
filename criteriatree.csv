@@ -32510,8 +32510,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 43408,Wyrmrest Temple,43389,0,0,27880,14,0
 43409,,15229,50000,0,27881,8,3
 43410,Obtain a Cindermane Charger mount through the Recruit-a-Friend program.,0,1,8,0,0,0
-43411,,43410,0,0,27882,0,2
-43412,,43410,1,0,27883,1,2
+43412,,43410,1,0,27883,0,2
 43413,Obtain the Grave Golem pet from the Heroes of the Storm promotion.,0,1,4,0,0,0
 43414,,43413,1,0,27884,0,2
 43415,Broken Shore - Alliance - Stage 2b - Portal,0,0,4,0,0,0
@@ -79894,6 +79893,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 140705,,52453,12,0,56779,17,0
 140706,,21083,1,0,56780,4,0
 140707,,21083,5,0,56781,7,0
+140708,10.1 Tyr Campaign - Tirisfal Glades - Tyr's Fall Scenario - Stage 1 - (AKG),0,0,4,0,0,0
+140709,Flesh Spawn slain,140708,6,0,57819,0,0
 140710,Ruby Lifeshrine Loop,0,0,4,0,0,4096
 140711,,140710,1,0,56782,0,32
 140712,10.0.5 Trading Post - Tutorial Quest - A/H - Quest Completed (Good Version),0,1,8,0,0,0
@@ -81555,6 +81556,18 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 142560,Sending Stone: Protest,142554,0,0,57816,5,0
 142561,Sending Stone: Initial Report,142554,0,0,57817,6,0
 142562,Sending Stone: Silence,142554,0,0,57818,7,0
+142563,10.1 Tyr Campaign - Tirisfal Glades - Tyr's Fall Scenario - Stage 2 - (AKG),0,0,4,0,0,0
+142564,10.1 Tyr Campaign - Tirisfal Glades - Tyr's Fall Scenario - Stage 3 - (AKG),0,0,4,0,0,0
+142565,10.1 Tyr Campaign - Tirisfal Glades - Tyr's Fall Scenario - Stage 4 - (AKG),0,100,4,0,0,0
+142566,10.1 Tyr Campaign - Tirisfal Glades - Tyr's Fall Scenario - Stage 5 - (AKG),0,0,4,0,0,0
+142567,10.1 Tyr Campaign - Tirisfal Glades - Tyr's Fall Scenario - Stage 6 - (AKG),0,0,4,0,0,0
+142568,10.1 Tyr Campaign - Tirisfal Glades - Tyr's Fall Scenario - Stage 7 - (AKG),0,0,4,0,0,0
+142569,Old God forces defeated,142563,100,9,0,0,0
+142570,Kith'ix defeated,142564,1,0,57821,0,0
+142571,Minions of the Old Gods slain,142944,1,0,57819,3,1
+142572,Approach Zakajz,142566,1,0,57823,0,0
+142573,Illusion of Neltharion defeated,142567,1,0,57824,0,0
+142574,Zakajz defeated,142568,1,0,57825,0,0
 142575,,136224,0,0,57826,17,0
 142577,Speak to Kalecgos,0,0,4,0,0,0
 142578,Speak to Kalecgos,142577,1,0,57829,0,0
@@ -81730,6 +81743,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 142861,Defeat the Charged Drake,142860,1,0,58011,0,0
 142862,Loot the Chest of Storms,0,0,4,0,0,0
 142863,Loot the Chest of Storms,142862,1,0,58012,0,0
+142872,Forces of the Old Gods slain,142944,6,0,58791,0,1
+142873,Horrific forces of the Old Gods slain,142944,13,0,58792,2,1
+142874,Old God forces slain,142944,16,0,58031,4,1
 142875,Ursius Flank,13185,1,0,55941,498,2
 142876,Ursius Flank,13185,1,0,55931,499,2
 142877,Ursius Flank,13185,1,0,58020,500,2
@@ -81799,6 +81815,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 142941,Ursius Flank,13185,1,0,58084,564,2
 142942,Ursius Flank,13185,1,0,58085,565,2
 142943,Ursius Flank,13185,1,0,58086,566,2
+142944,Old God forces defeated,142565,100,9,0,0,0
 142945,10.0 Professions Onboarding Skip Completed (DNT),0,0,4,0,0,0
 142946,,142945,1,0,58087,0,2
 142947,Darkbrew Lager,12078,1,0,58088,211,2
@@ -81859,6 +81876,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 143002,,141057,0,0,58124,1,0
 143003,Fish up a Gurubashi Cache in Zul'Gurub,0,1,8,0,0,0
 143004,,143003,1,0,58126,0,0
+143006,Illusion of Malygos defeated,142567,1,0,58127,1,0
+143007,Illusion of Ysera defeated,142567,1,0,58128,2,0
+143008,Illusion of Nozdormu defeated,142567,1,0,58129,3,0
 143010,,143003,1,0,58125,1,0
 143013,,137636,0,0,57874,9,0
 143014,,137636,0,0,57875,10,0
@@ -82487,6 +82507,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 143895,Titan Parts gathered,143894,50,0,58836,1,0
 143896,Fend off the Titan counterattack.,0,80,4,0,0,0
 143897,Titan forces defeated,144276,2,0,59128,1,1
+143898,10.1 Renown - Tyr 2,0,0,4,0,0,0
+143899,,143898,1,0,58608,0,0
 143900,Sundered Flame Leaders Defeated,0,0,4,0,0,0
 143901,Captain Reykal defeated,143900,1,0,58609,0,0
 143904,Sundered Flame forces defeated,0,100,4,0,0,0
@@ -82701,8 +82723,15 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 144159,,71100,100,0,58786,9,0
 144160,,71109,100,0,58787,9,0
 144161,Shadeisethal slain,142852,1,0,58788,1,0
+144169,Rally the Vrykul,142944,2,0,58790,1,1
+144170,Old God forces slain,142569,16,0,58031,0,1
+144174,Rally the Vrykul,142569,4,0,58790,1,1
+144175,Minions of the Old Gods slain,142569,3,0,57819,2,1
+144176,Forces of the Old Gods slain,142569,12,0,58791,3,1
+144177,Horrific forces of the Old Gods slain,142569,25,0,58792,4,1
 144187,10.1 Underground - LQ07 - Q05 - Voraxian Quest - (POC),0,0,4,0,0,4096
 144188,,144187,1,0,58793,0,0
+144189,Rally the Iron Vrykul,140708,4,0,58790,1,0
 144190,10.1 Underground - Campaign - Ch 1 - Q05 - The Throughway - S1 - Battle RP Set Up (JSS),0,0,4,0,0,0
 144191,Battle RP Set Up --> Rock Throw,144190,1,0,58796,0,0
 144192,10.1 Underground - LQ07 - Q05 - Veritistrasz Quest - (POC),0,0,4,0,0,4096
