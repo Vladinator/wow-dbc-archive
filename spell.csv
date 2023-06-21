@@ -32846,7 +32846,7 @@ Attributes reduced by $s2%."
 49025,,"Destroys shredder, doing damage to nearby enemies.",
 49026,,"Causes an enemy to fixate upon the caster for $d. While the target is fixated upon the caster, the target will not attack anything else.",Focused on you.
 49027,Rank 1,"Your weapon hits have a $h% chance to cause the target to spawn 2-4 Bloodworms.  Bloodworms attack your enemies, healing you as they do damage for 20 sec or until killed.",
-49028,,"Summons a second rune weapon that fights on its own for $d, doing the same attacks as the Death Knight but for $51906s3% reduced damage.",You have recently summoned a rune weapon.
+49028,,"Summons a second rune weapon that fights on its own for $d, doing the same attacks as the Death Knight but for $51906s3% reduced damage and healing.",You have recently summoned a rune weapon.
 49029,,"Forces the target to fixate on you. When the effect wears off, he will attack the thing he hates the most.","Fixated.
 Attack speed increased by $s1%."
 49030,,,
@@ -35065,8 +35065,8 @@ Attack speed increased by $s2%."
 51520,,,
 51521,Rank 1,"When you Stormstrike, you have a $h% chance to immediately grant you $63375s1% of your base mana.",
 51522,Rank 2,"When you Stormstrike, you have a $h% chance to immediately grant you $63375s1% of your base mana.",
-51523,Rank 1,"Your Earthbind Totem's pulses have a $s1% chance to also remove all snare effects from you and nearby friendly targets, and your Earth Shock reduces enemy attack speed by an additional $/10;s2%.",
-51524,Rank 2,"Your Earthbind Totem's pulses have a $s1% chance to also remove all snare effects from you and nearby friendly targets, and your Earth Shock reduces enemy attack speed by an additional $/10;s2%.",
+51523,Rank 1,"Your Earthbind Totem's pulses have a $s1% chance to also remove a snare effect from you and nearby friendly targets, and your Earth Shock reduces enemy attack speed by an additional $/10;s2%.",
+51524,Rank 2,"Your Earthbind Totem's pulses have a $s1% chance to also remove a snare effect from you and nearby friendly targets, and your Earth Shock reduces enemy attack speed by an additional $/10;s2%.",
 51525,Rank 1,"You have a $s1% chance to hit your target with a Lightning Shield orb charge when you deal damage with melee attacks and abilities, and your Lightning Shield gains $s2 additional charges.",
 51526,Rank 2,"You have a $s1% chance to hit your target with a Lightning Shield orb charge when you deal damage with melee attacks and abilities, and your Lightning Shield gains $s2 additional charges.",
 51527,Rank 3,"You have a $s1% chance to hit your target with a Lightning Shield orb charge when you deal damage with melee attacks and abilities, and your Lightning Shield gains $s2 additional charges.",
@@ -42801,7 +42801,7 @@ Casting speed increased by $s2%."
 59563,,,You are waiting for your bomber to arrive.
 59564,,Stuns nearby Scourge minion at the base of Mord'rethar and inflicts damage to them every $t1 sec. for $d.,
 59565,,Uses Chilled Abomination Guts to create a Reanimated Abomination that will obey your command for a short time.,
-59566,,Your Earthbind Totem has a chance to also remove all snare effects from you and nearby friendly targets when it pulses.,
+59566,,Your Earthbind Totem has a chance to also remove a snare effect from you and nearby friendly targets when it pulses.,
 59567,,Summons and dismisses a rideable Azure Drake.  This is a very fast mount.  This mount can only be summoned in Outland or Northrend.,Increases flight speed by $s2%.
 59568,,Summons and dismisses a rideable Blue Drake.  This is a very fast mount.  This mount can only be summoned in Outland or Northrend.,Increases flight speed by $s2%.
 59569,,Summons and dismisses a rideable Bronze Drake.  This is a very fast mount.  This mount can only be summoned in Outland or Northrend.,Increases flight speed by $s2%.
@@ -46423,7 +46423,7 @@ Increases damage done by $62277s1% when broken by damage."
 Melee attacks will release waves of electrical energy."
 63529,,Gives your Avenger's Shield ability a chance to silence your target.,Silenced.
 63531,,Causes $s1 Holy damage to any enemy that strikes a party or raid member within $a1 yards.  Players may only have one Aura on them per Paladin at any one time.,Does $s1 Holy damage to anyone who strikes you.
-63532,,Your Earthbind Totem has a chance to also remove all snare effects and make you and nearby friendly targets immune to them for $63532d when it pulses.,Immune to snare effects.
+63532,,Your Earthbind Totem has a chance to also remove a snare effect and make you and nearby friendly targets immune to them for $63532d when it pulses.,Immune to snare effects.
 63533,,Deals $s1 Nature damage to all enemies within $a1 yards.,
 63534,Rank 1,"Your Renew spell gains an additional $s1% of your bonus healing effects, and your Renew will instantly heal the target for $s2% of the total periodic effect.",
 63535,,"Charges and grabs a random enemy target, tossing them into the caster's slag pot. The target is unable to attack the caster and takes $63477s1 Fire damage every second for $63477d. If the target survives, they are imbued with the magical slag, increasing their movement speed by $62836s1% and haste by $62836s2% for $62836d.",
@@ -52375,6 +52375,13 @@ Enemy chance to dodge reduced by $s2%."
 80864,,,
 81744,,,Disguised as a member of the Horde.
 81748,,,Disguised as a member of the Alliance.
+86457,,,
+86458,,,
+86459,,,
+86460,,,
+86461,,,
+86496,,,
+95664,,,
 110310,,Reduces healing and absorption effects.,Healing effects received reduced by $w1%.
 158263,,,You left an Arena without entering combat and must wait before entering another one.
 186403,,Honor gains increased by $s1%.,"|cFF00AA99Bonus Event: Honor|r
@@ -52889,7 +52896,7 @@ Damage taken increased by $s2%."
 397567,,Cures all Diseases on nearby allies and deals $s1 damage to nearby Undead and Demons.,
 398066,,"Target encased in webs and Stunned for $d. If the webs surrounding the target are killed, the target will be released.",Stunned and encased by webs for $d. Webs can be destroyed for early release.
 398068,,,
-398140,,,"$s1% Frost damage inflicted every $t2 sec.
+398140,,,"$s1% Frost damage inflicted every $t1 sec.
 Movement speed reduced by $s2%."
 398145,,,Frost damage taken increased by $s2%.
 398189,,,Healing for $s1% of all damage done.
@@ -52929,3 +52936,167 @@ Movement speed increased by $s2%."
 406280,,,
 408079,,,
 408119,,,
+412397,,,
+412398,,,
+412399,,Defense Protocol Alpha,
+412470,,,"Damage increased by $s1%.
+Health increased by $s2%.
+Attacks have a chance to Webwrap a victim."
+412543,,,
+412544,,"Target encased in webs and Stunned for $d. If the webs surrounding the target are killed, the target will be released.","Stunned and encased by webs for $d.
+
+Something definitely just bit you!"
+412553,,,
+412668,,,"You can enter the classic, level 60 version of Onyxia's Lair."
+412671,,,
+412770,,,"Damage increased by $s1%.
+Health increased by $s2%.
+Melee attacks have a chance to Glaciate and Fire Blast a random nearby target."
+412849,,,
+412850,,,
+412867,,,"Damage increased by $s1%.
+Health increased by $s2%
+Damaging attacks can infect victims with the Zombie Plague."
+412869,,"Throw at a target scourged enemy or zombie-fied player to return them to their human form.
+
+Will not function on targets above level 81.",
+412935,,,
+412938,,,
+412947,,,"$s2% of your maximum HP taken as Fire damage every second for ten seconds. 
+
+Find a way to cool yourself off!"
+412961,,"Throw at a target scourged enemy or zombie-fied player to return them to their human form.
+
+Will not function on targets above level 81.",
+412964,,"Coat the victim with Frost, causing them to leave a Icy Trail that damage and Snares their allies.",Leaving an Icy Trail that damages and snares allies.
+412965,,,"$s1% Frost damage inflicted every $t1 sec.
+Movement speed reduced by $s2%."
+412991,,,"Damage increased by $s1%.
+Health increased by $s2%.
+Attacks have a chance summon Mirror Images of the caster."
+413000,,"Creates 3 copies of the caster nearby, which cast Arcane Missiles and attack the caster's enemies.",
+413001,,"Creates 3 copies of the caster nearby, which cast Arcane Missiles and attack the caster's enemies.",
+413002,,"Creates 3 copies of the caster nearby, which cast Arcane Missiles and attack the caster's enemies.",
+413003,,"Creates 3 copies of the caster nearby, which cast Arcane Missiles and attack the caster's enemies.",
+413078,,Imbued with Purified Titan energy that pulses increases to player damage done. Perhaps enough energy will grant assistance from the Keepers themselves.,"Damage increased by $s1%.
+Health increased by $s2%.
+Pulsing Purified Titan energy that increases player damage done by $413079s1% per stack for $413079d. Perhaps enough energy will grant assistance from the Keepers themselves."
+413079,,"Filled with the purified power of the Titans, increasing damage done by $s1% per stack, stacking up to $u times.",Damage done increased by $s1%.
+413082,,Increases all damage done by $s1% and total health by $s2%.,"Damage done increased by $s1%.
+Total health increased by $s2%. Instantly kill Immortal enemies with $s4% or less health."
+413083,,Increases all damage done by $s1% and healing received from all sources by $s2%. Regenerating $s5% of maximum mana every 5 sec.,"Damage done increased by $s1%.
+Healing received increased by $s2%.
+Regenerate $s5% of maximum mana every 5 sec.
+Regain $s4 Sanity every $413093t sec if you use no spells and abilities for $413093t sec."
+413084,,Increases damage done by $s1% and reduces damage taken from all sources by $s2%.,"Damage done increased by $s1%.
+Damage taken from all sources reduced by $s2%. Hodir will prevent your death once every $413179d."
+413085,,Increases all damage done by $s1% and movement speed by $s2%.,"Damage done increased by $s1%.
+Movement speed increased by $s2%. Chance on dealing damage to Destabilize Saronite-based enemies."
+413091,,"Causes an explosion of holy light around the caster, causing $s1 Holy damage to all enemy targets within $a1 yards and healing all party members within $29514a2 yards for $29514s2.  These effects cause no threat.",
+413093,,Indicates your overall level of Sanity. If Sanity reaches zero your mind will be permanently under the control of Yogg-Saron.,$s1% Sane. If all Sanity is lost Yogg-Saron will control your mind.
+413097,,,
+413099,,,
+413116,,Yogg-Saron takes control of the target's mind. Damage is increased by $s3% and health is increased by $s2% for $d. The target dies horribly when this effect is removed.,"Damage increased by $s3%.
+Health increased by $s2%."
+413118,,"Destabilizes the molecular structure of certain Saronite based creatures, reducing attack speed by $s1% and casting speed by $s2%. Lasts $d.","Attack speed reduced by $s1%.
+Casting speed reduced by $s2%."
+413120,,Allows Hodir to save a friendly target who sustains fatal damage by encasing them in a nearly impenetrable block of ice for up to $12345d.  Hodir must rest after performing this action.,Hodir will save you if you sustain damage that would otherwise kill you.
+413124,,Channels a storm of titan energy that periodically strikes at enemy targets with bolts of lightning strong enough to destroy weakened immortal creatures.,
+413168,,,
+413169,,,"Damage increased by $s1%.
+Health increased by $s2%.
+$s3% Lifesteal when standing in Blood of the Loa."
+413170,,"Crushes enemy targets along the path of the tentacle's attack, dealing $s1 Physical damage to affected units.",
+413172,,"Weakens enemy units in a large area around the caster, reducing the damage they do by $s2%.  Channeled.",All damage done reduced by $s2%.
+413174,,,Healing for $s1% of all damage done.
+413265,,,$s2% Nature damage taken every second.
+413268,,,
+413357,,,
+413376,,Don't eat me.,"You definitely don't feel so good and are leaking poisoned blood all over the place...
+
+$s2% Nature damage taken every five seconds."
+413430,,You champion the cause of the Sons of Hodir.  All reputation gains while in level 80 dungeons will be applied to your standing with them.,All reputation gains while in level 80 dungeons are applied to your Sons of Hodir standing.
+413433,,"Degreelessness enabled. Immune to all CC.
+Fatal damage is absorbed.
+$s2% Health healed every $t2 sec.","Degreelessness enabled. Immune to all CC.
+Fatal damage is absorbed.
+$s2% Health healed every $t2 sec."
+413573,,,"Damage increased by $s1%.
+Health increased by $s2%.
+Spectators look to be more fired up than usual."
+413586,,,
+413763,,Your critical strikes cause the opponent to bleed.,Bleeding.
+413764,,Bleeding.,
+413798,,,
+413800,,,
+413841,,Your critical strikes from Fire damage spells cause the target to burn for an additional percentage of your spell's damage over $12654d.,Deals Fire damage every $t1 sec.
+413843,,Your critical strikes from Fire damage spells cause the target to burn for an additional percentage of your spell's damage over $12654d.,
+413848,,"Your critical Aimed, Steady and Chimera Shots cause the target to bleed an amount of damage dealt over $63468d.",Bleeding.
+413861,,"Your critical Aimed, Steady and Chimera Shots cause the target to bleed an amount of damage dealt over $63468d.",
+413874,,Your critical strikes from Starfire and Wrath cause the target languish for an additional $70723s1% of your spell's damage over $71023d.,
+413895,,Your Omen of Clarity talent has a $s1% chance to be triggered by successfully casting Faerie Fire (Feral). Does not trigger on players or player-controlled pets.,
+413897,,,
+413898,,Your Omen of Clarity talent has a $413895s1% chance to be triggered by successfully casting Faerie Fire (Feral). Does not trigger on players or player-controlled pets.,
+413935,,,
+413962,,,
+413978,,,"Reduces damage and healing done by $s2%.
+
+Hopefully this will come out in the wash!"
+413979,,,
+413991,,,Slipped on a banana peel.
+413994,,,
+413995,,,
+414011,,,Movement speed slowed by $s1%.
+414013,,,
+414014,,,
+414015,,,$s2 Fire damage every $t2 seconds.
+414044,,,
+414047,,,
+414050,,,Restores Health and Mana.
+414053,,,
+414055,,,
+414057,,,Increases all damage caused by $s1% and all damage taken by $s2%.
+414066,,,
+414067,,,
+414070,,,
+414071,,,
+414074,,,"You have some admirers!
+
+Damage done increased by $s1%.
+Melee, ranged, and spell casting speed increased by $s1%."
+414095,,,
+414198,,,
+414206,,Your Plague Strikes have a chance to cause the Grasp of the Dead effect for 7 yards around the target.  Targets in the area are slowed by $s1%.,"Standing upon unholy ground. 
+Movement speed is reduced by $s1%."
+414207,,Your Plague Strikes have a chance to cause the Grasp of the Dead effect for 7 yards around the target.  Targets in the area are slowed by $s1%.,"Standing upon unholy ground. 
+Movement speed is reduced by $s1%."
+414266,,Your Plague Strikes have a chance to cause the Grasp of the Dead effect for 7 yards around the target.  Targets in the area are slowed by $s1%.,"Standing upon unholy ground. 
+Movement speed is reduced by $s1%."
+414268,,Your Plague Strikes have a chance to cause the Grasp of the Dead effect for 7 yards around the target.  Targets in the area are slowed by $s1%.,"Standing upon unholy ground. 
+Movement speed is reduced by $s1%."
+414277,,,Did someone just throw a chair??
+414278,,,
+414702,,,"Melee, ranged, and spell casting speed increased by $s1%.
+
+Movement speed increased by $s2%."
+414771,,,
+414812,,"Your Shattering Throw is now instant and can be used in any stance, but it no longer removes invulnerabilities and cannot be used on players or player-controlled targets.",
+414813,,"Your Shattering Throw is now instant and can be used in any stance, but it no longer removes invulnerabilities and cannot be used on players or player-controlled targets.",
+414814,,,
+414832,,,
+414836,,,
+415081,,,Your next ability is imbued by shadows and will have its damage or healing effect duplicated on the target at 60% effectiveness?
+415098,,,
+415306,,,
+415308,,,
+415312,,,Your next ability is imbued by shadows and will have its damage or healing effect duplicated on the target at 150% effectiveness.
+415331,,,
+415498,,The Light Ball releases its energies inflicting $s1 Light damage to enemies within $a1 yards.,The Light Ball releases its energies inflicting $s1 Light damage to enemies within $a1 yards.
+415625,,The Concentrated Darkness releases its energies inflicting $s1 Dark damage to enemies within $a1 yards.,The Concentrated Darkness releases its energies inflicting $s1 Dark damage to enemies within $a1 yards.
+415672,,,
+415675,,,Damage from Area Effect abilities reduced by 80%
+416059,,,
+417332,,,
+418337,,,
+418431,,,All damage and healing caused increased by $s1%.
+418501,,,Increases chance to critically hit by $s1%.
