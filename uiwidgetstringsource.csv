@@ -2248,7 +2248,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 4015,|Hcurrency:1540|h,198,1752
 4016,Test1,205,1753
 4017,Test2,204,1753
-4037,|Hitem:181342|hMood: Miserable,212,1758
+4037,,212,1758
 4038,,221,1759
 4039,,223,1759
 4040,Left Icon 3 State 1 Tooltip,225,1759
@@ -2316,7 +2316,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 4528,,248,1640
 4529,,239,1640
 4530,,249,1640
-4531,Long Text Test Test Test,19,1914
+4531,,19,1914
 4532,Test Widget Tooltip,208,1914
 4533,,273,1914
 4534,%2389fn,273,1625
@@ -5188,7 +5188,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 9469,,277,3551
 9470,Ultimus Locus Arrangement,212,3552
 9471,,277,3552
-9472,Test,540,3553
+9472,,540,3553
 9473,,541,3553
 9487,,19,3554
 9488,Azeroth's Health,273,3554
@@ -6330,6 +6330,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 12398,,19,4602
 12399,Use Primal Motes to break through the barrier and destroy this conduit!,208,4602
 12400,Primal Barrier Strength,273,4602
+12413,Vigor recharges while grounded and while flying at high speeds.,581,4604
 12414,,19,4605
 12415,Use Primal Motes to destroy all nearby Primalist Totems to close this portal!,208,4605
 12416,Portal Stability,273,4605
@@ -6555,12 +6556,17 @@ ID,Value_lang,ReqID,ParentWidgetID
 13188,,19,4782
 13189,Lift weights to earn points!,208,4782
 13190,Challenge Points,273,4782
+13191,%0ss,433,4783
+13192,,434,4783
 13193,Repair Progress,19,4784
 13194,,273,4784
 13195,Bring titan parts to the station to repair it so it can power other titan equipment.,208,4784
 13196,Repair Progress,19,4785
 13197,,273,4785
 13198,Bring titan parts to Greta to help her repair the console for testing. ,208,4785
+13199,,19,4786
+13200,Time Remaining,273,4786
+13201,,208,4786
 13202,Ore Samples Gathered,19,4787
 13203,,273,4787
 13204,Bring Ore Samples to the sulfur pool to help Greta identify the contaminant. ,208,4787
@@ -6621,6 +6627,9 @@ ID,Value_lang,ReqID,ParentWidgetID
 13265,,394,4814
 13266,The Glimmerogg drogbar are harvesting crystals |nfrom the Giant Glimmerfish!,52,4815
 13267,,394,4815
+13268,Construction Progress,19,4816
+13269,,273,4816
+13270,,208,4816
 13271,Starting Soon,19,4817
 13272,,208,4817
 13273,,273,4817
@@ -6656,6 +6665,9 @@ ID,Value_lang,ReqID,ParentWidgetID
 13303,Starting Soon,19,4830
 13304,,273,4830
 13305,,208,4830
+13306,Temporal Essence:,19,4831
+13307,,273,4831
+13308,,208,4831
 13311,Charges Remaining,19,4833
 13312,,273,4833
 13313,,208,4833
@@ -6695,12 +6707,42 @@ ID,Value_lang,ReqID,ParentWidgetID
 13347,,394,4846
 13348,A crumbling titan statue needs some repair!,52,4847
 13349,,394,4847
+13350,Murlocs Saved,19,4848
+13351,,273,4848
+13352,,208,4848
+13353,,19,4849
+13354,Time Remaining,273,4849
+13355,,208,4849
+13356,,19,4850
+13357,Time Remaining,273,4850
+13358,,208,4850
+13359,,19,4851
+13360,Time Remaining,273,4851
+13361,,208,4851
+13362,,19,4852
+13363,Time Remaining,273,4852
+13364,,208,4852
+13365,,19,4853
+13366,Time Remaining,273,4853
+13367,,208,4853
+13368,Concentration,19,4854
+13369,,273,4854
+13370,,208,4854
 13371,,19,4705
 13372,,273,4705
 13373,,208,4705
 13374,Blue dragons will arrive in:,19,4855
 13375,,273,4855
 13376,Kalecgos is working on finding more blue dragons.,208,4855
+13377,Murlocs Escorted,19,4856
+13378,,273,4856
+13379,,208,4856
+13380,Murlocs Saved,19,4857
+13381,,273,4857
+13382,,208,4857
+13383,Charge Remaining,19,4858
+13384,,273,4858
+13385,,208,4858
 13386,Optional: Magmaclaw Snappers stomped,19,4859
 13387,,273,4859
 13388,Stomp on the magmaclaw snappers to keep the ritual area clear for Thaelin. ,208,4859
@@ -6719,6 +6761,9 @@ ID,Value_lang,ReqID,ParentWidgetID
 13401,Stand in the earth ritual circle to infuse the elemental with earth.,208,4864
 13402,|cnNORMAL_FONT_COLOR:- Zaralek Cavern:|r %39731e/%39732e,52,4865
 13403,,394,4865
+13406,Bubble Shield Integrity,19,4866
+13407,,273,4866
+13408,Pop the bubbles to break the shield!,208,4866
 13418,Researchers Objectives Completed: ,52,4867
 13419,|Hspell:409646|h,394,4867
 13420,%23296w/%23734w,52,4868
@@ -6733,7 +6778,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 13429,,394,4872
 13430,|TInterface\ICONS\INV_Misc_Bag_19.blp|t |cFFffffffResearcher's Gift|r,52,4873
 13431,,394,4873
-13432,You have not completed the event this week. ,52,4874
+13432,You have not yet earned a reward from this event this week. ,52,4874
 13433,,394,4874
 13437,,19,4876
 13438,Maps allow Myrrit to take you on an adventure! Ask him how to find more.,208,4876
@@ -6784,6 +6829,15 @@ ID,Value_lang,ReqID,ParentWidgetID
 13490,,19,4892
 13491,Attack the Giant Glimmerfish to send the crystal scales flying!,208,4892
 13492,Scales Collected,273,4892
+13493,Pesky Beasts Stomped,19,4893
+13494,,273,4893
+13495,,208,4893
+13496,Insects Struck,19,4894
+13497,,273,4894
+13498,,208,4894
+13499,Device Overloaded,19,4895
+13500,,273,4895
+13501,,208,4895
 13505,Myrrit is collecting dig maps to go on his next adventure. Ask him about it!,212,4897
 13506,,277,4897
 13507,,19,4898
@@ -6792,6 +6846,154 @@ ID,Value_lang,ReqID,ParentWidgetID
 13527,,621,4904
 13528,,622,4904
 13529,Item Level 500,627,4904
+13531,Charge,19,4906
+13532,,273,4906
+13533,Whack the Malfunctioning Capacitors to build charge!,208,4906
+13539,Health,19,4910
+13540,,273,4910
+13541,[DNT] Shoot with lasers to damage!,208,4910
 13577,,19,4922
 13578,,208,4922
 13579,Repairs,273,4922
+13580,Time Rifts Closed: %24216w/18,2,4923
+13581,,3,4923
+13582,,4,4923
+13583,Next Time Rift: %24358ha,52,4924
+13584,,394,4924
+13585,Enemies from other realities have|nentered our timeline.,52,4925
+13586,,394,4925
+13587,,477,4926
+13588,$2236cursm,480,4926
+13589,Time +%1945c,485,4926
+13590,,490,4926
+13591,,495,4926
+13598,Bloodmines disarmed,19,4929
+13599,,273,4929
+13600,,208,4929
+13601,Blessed Inquisitor's Shield Integrity,19,4930
+13602,,273,4930
+13603,Crash into the shield to break it!,208,4930
+13604,Flying Machines destroyed,19,4931
+13605,,273,4931
+13606,,208,4931
+13612,- Murloc Invaders,52,4935
+13613,,394,4935
+13614,- Titan Invaders,52,4936
+13615,,394,4936
+13616,- Scourge Invaders,52,4937
+13617,,394,4937
+13618,- Demon Invaders,52,4938
+13619,,394,4938
+13620,- Old God Invaders,52,4939
+13621,,394,4939
+13622,- Horde and Alliance Invaders,52,4940
+13623,,394,4940
+13624,- Robot Invaders,52,4941
+13625,,394,4941
+13626,|nTime Left: %23654ha,52,4942
+13627,,394,4942
+13649,,19,4948
+13650,Time Remaining,273,4948
+13651,,208,4948
+13652,,19,4949
+13653,Time Remaining,273,4949
+13654,,208,4949
+13655,,19,4950
+13656,Time Remaining,273,4950
+13657,,208,4950
+13658,,19,4951
+13659,Time Remaining,273,4951
+13660,,208,4951
+13661,,19,4952
+13662,Time Remaining,273,4952
+13663,,208,4952
+13664,,19,4953
+13665,Time Remaining,273,4953
+13666,,208,4953
+13667,,19,4954
+13668,Time Remaining,273,4954
+13669,,208,4954
+13670,,19,4955
+13671,Time Remaining,273,4955
+13672,,208,4955
+13673,,19,4956
+13674,Time Remaining,273,4956
+13675,,208,4956
+13676,,19,4957
+13677,Time Remaining,273,4957
+13678,,208,4957
+13679,,19,4958
+13680,Time Remaining,273,4958
+13681,,208,4958
+13682,,19,4959
+13683,Time Remaining,273,4959
+13684,,208,4959
+13685,,19,4960
+13686,Time Remaining,273,4960
+13687,,208,4960
+13688,,19,4961
+13689,Time Remaining,273,4961
+13690,,208,4961
+13691,,19,4962
+13692,Time Remaining,273,4962
+13693,,208,4962
+13697,,621,4963
+13698,,622,4963
+13699,,627,4963
+13700,Next Reward:,52,4964
+13701,,394,4964
+13702,,621,4965
+13703,,622,4965
+13704,,627,4965
+13705,,621,4966
+13706,,622,4966
+13707,,627,4966
+13711,Large Felwort vines pulled,19,4968
+13712,,273,4968
+13713,,208,4968
+13734,%0ss,433,4976
+13735,,434,4976
+13736,Boss portal open! Help Soridormi set|nthe timeways straight.,52,4977
+13737,,394,4977
+13738,|nTime Left: %23762ha,52,4978
+13739,,394,4978
+13743,- Murloc Invaders,52,4980
+13744,,394,4980
+13745,- Titan Invaders,52,4981
+13746,,394,4981
+13747,- Scourge Invaders,52,4982
+13748,,394,4982
+13749,- Demon Invaders,52,4983
+13750,,394,4983
+13751,- Old God Invaders,52,4984
+13752,,394,4984
+13753,- Horde and Alliance Invaders,52,4985
+13754,,394,4985
+13755,- Robot Invaders,52,4986
+13756,,394,4986
+13757,Active,52,4987
+13758,,394,4987
+13759,|nWeekly Quest Reward from Soridormi:,52,4988
+13760,,394,4988
+13761,,621,4989
+13762,,622,4989
+13763,"A collection of valuables,|nprepared for you by the Bronze|nDragonflight.",627,4989
+13766,Eye Pokes,19,4991
+13767,,273,4991
+13768,,208,4991
+13769,Starting Soon,52,4992
+13770,,394,4992
+13807,Void Prisons,19,5006
+13808,,273,5006
+13809,,208,5006
+13810,Skies Protected,19,5007
+13811,,273,5007
+13812,,208,5007
+13813,Tentacles Destroyed,19,5008
+13814,,273,5008
+13815,,208,5008
+13843,Time until next next secret surfaces: %24525ha,52,5015
+13844,,394,5015
+13862,Rift Stability,19,5021
+13863,,273,5021
+13864,Progress toward stabilizing the Temporal Rift.,208,5021
