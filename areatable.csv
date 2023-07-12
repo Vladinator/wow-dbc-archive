@@ -796,7 +796,7 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 1998,TalonbranchGlade,Talonbranch Glade ,1,361,794,0,0,0,675,697,0,0,0,0,0.15,15,-1,0,0,0,0,1073758272,8192,0,0,0,0
 2017,Stratholme,Stratholme,329,0,795,0,0,37,675,0,0,0,0,0,0.15,15,-1,0,0,0,214,0,12,0,0,0,0
 2037,Quel'thalas,Quel'thalas,0,0,796,0,0,0,675,0,0,0,0,0,0.15,15,-1,0,0,0,825,16448,0,0,0,0,0
-2057,Scholomance,ScholomanceOLD,289,0,797,0,0,37,675,15,0,0,0,0,0.15,15,-1,0,0,0,212,0,0,0,0,0,0
+2057,Scholomance,Scholomance,289,0,797,0,0,37,675,15,0,0,0,0,0.15,15,-1,0,0,0,212,0,0,0,0,0,0
 2077,TwilightVale,Twilight Vale,1,148,798,0,0,623,675,867,0,0,0,0,0.15,15,-1,0,0,0,5,1073758272,0,0,0,0,0
 2078,TwilightShore,Twilight Shore,1,148,799,0,0,583,675,873,0,0,0,0,0.15,15,-1,0,0,0,5,1073758272,0,0,0,0,0
 2079,AlcazIsland,Alcaz Island,1,15,800,0,89,600,675,684,0,0,0,0,0.15,13,-1,0,0,0,23,1073758272,8192,0,0,0,0
@@ -3107,7 +3107,7 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 5732,HallsofOrigination,Halls of Origination,1,5034,4445,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,55,1073758272,8192,0,0,0,0
 5733,MoltenFront,Molten Front,861,0,4446,0,0,733,0,1010,0,0,0,0,0.15,13,-1,0,0,0,165,64,0,0,0,0,0
 5734,Sarahland,Sarahland,451,4019,4447,0,0,0,0,0,0,0,0,0,0.15,15,-1,0,0,0,798,1073758272,0,0,0,0,0
-5736,TheWanderingIsle,The Wandering Isle,860,0,4449,86,0,930,675,1050,0,0,0,0,0.15,15,-1,0,0,0,80,16384,0,0,0,0,0
+5736,TheWanderingIsle,The Wandering Isle,860,0,4449,86,0,930,675,1050,0,0,0,0,0.15,15,-1,0,0,0,80,540672,0,0,0,0,0
 5737,Pei-WuForest,Pei-Wu Forest,860,5736,4450,0,0,802,0,1051,0,0,0,0,0.15,15,-1,0,0,0,80,1073741824,8192,0,0,0,0
 5738,Malfurion'sBreach,Malfurion's Breach,861,5733,4451,0,0,0,0,1000,0,909,0,0,0.15,13,-1,0,0,0,165,1075841024,8192,0,0,0,0
 5739,AshenFields,Ashen Fields,861,5733,4452,0,0,0,0,1001,0,0,0,0,0.15,13,-1,0,0,0,165,1073741888,8192,0,0,0,0
@@ -8405,7 +8405,7 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 14093,EpochsRest,[PH] Epoch's Rest,2444,13647,0,0,0,2459,0,0,0,0,0,0,0,15,-1,0,0,0,0,1073741888,128,0,0,0,0
 14094,TheAylaagSteppe,Wanderer's Steppe,2444,13645,0,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,2523,1140867136,8320,0,0,0,0
 14095,VaultoftheIncarnates,Vault of the Incarnates,2444,13647,12168,0,0,0,0,2677,0,0,0,0,0,15,-1,0,0,0,0,1073741888,0,0,0,0,0
-14096,WhelpDaycare,Little Scales Daycare,2444,13862,12639,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,0,1073743936,0,0,0,0,0
+14096,WhelpDaycare,Little Scales Daycare,2444,13862,12639,0,0,0,0,2790,0,0,0,0,0,15,-1,0,0,0,0,1073743936,0,0,0,0,0
 14097,SundappleCopse,Sundapple Copse,2444,13645,0,0,0,0,0,2645,0,0,0,0,0,15,-1,0,0,0,2523,1140867136,8320,0,0,0,0
 14098,AzmerlothNoMansLand,Azmerloth - Timeless Area,2512,0,0,0,0,2580,0,0,0,0,0,0,0,13,-1,0,0,0,0,64,128,0,0,0,0
 14099,QuakingCavern,Quaking Cavern,2444,13644,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,2523,1073759296,8320,0,0,0,0
@@ -8515,9 +8515,10 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 14510,DragonIslesForbiddenReachTheGreatSea,The Great Sea,2570,0,0,0,0,1496,675,1705,0,0,0,0,0.15,15,-1,25,25,0,0,16448,384,0,0,0,0
 14511,WingrestBay,Wingrest Bay,2444,13644,0,0,0,2451,675,0,0,0,0,0,0,15,-1,0,0,0,2523,1142964288,8320,0,0,0,0
 14513,TheRuggedDragonscale,The Rugged Dragonscale,2524,0,0,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,2307,64,128,0,0,0,0
+14514,DungeonDawnoftheInfinite,Dawn of the Infinite,2579,0,0,84,0,2624,0,0,0,0,0,0,0,15,-1,0,0,0,2155,268435456,136,0,0,0,0
 14515,LeyPools,Ley Pools,2444,13646,0,0,0,2481,2511,0,0,0,0,0,0,15,-1,0,0,0,0,1073758272,8320,0,0,0,0
 14516,LostCanal,Lost Canal,2444,13644,0,0,0,2451,675,0,0,0,0,0,0,15,-1,0,0,0,2523,1142964288,8320,0,0,0,0
-14518,TheEasternGlades,The Eastern Glades,2583,0,0,82,0,2620,0,0,0,0,0,0,0,13,-1,0,0,0,2586,20480,128,0,0,0,0
+14518,TheEasternGlades,The Eastern Glades,2583,0,0,82,0,2620,0,2788,0,0,0,0,0,13,-1,0,0,0,2586,20480,128,0,0,0,0
 14520,NiffinHub,Loamm,2454,14022,12669,73,0,2611,0,2761,0,0,0,0,0,15,-1,0,0,0,0,1073758272,0,0,0,0,0
 14524,UktulutOutpost,Uktulut Outpost,2444,13644,12596,0,0,0,0,2657,0,0,0,0,0,15,-1,0,0,0,2523,1140867136,8192,0,0,0,0
 14525,AlteracValleyOrcHeritage,Alterac Valley,2582,0,0,0,0,42,675,242,0,0,0,0,0.5,13,-1,0,0,0,1281,81920,128,0,0,0,0
@@ -8636,7 +8637,39 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 14738,MysteriousCave09,Mysterious Cave I,2454,14022,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,1073758272,128,0,0,0,0
 14739,MysteriousCave10,Mysterious Cave J,2454,14022,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,1073758272,128,0,0,0,0
 14740,ZaralekSecondaryEntrance,Warder's Teeth,2454,14022,12679,0,0,0,0,2766,0,0,0,0,0,15,-1,0,0,0,0,1073758272,0,0,0,0,0
+14742,EverywhenInn,Everywhen Inn,2444,13647,0,0,0,0,0,2680,0,0,0,0,0,0,-1,0,0,0,2154,1086326816,128,0,0,0,0
 14743,101UndergroundOPTunnelDISide,Old Loamm Road,2444,13645,0,73,0,2595,2598,2766,0,0,0,0,0,15,-1,0,0,0,0,1073741888,128,0,0,0,0
 14744,101UndergroundOPTunnel,Old Loamm Road,2454,14022,12675,73,0,2595,2598,2766,0,0,0,0,0,15,-1,0,0,0,0,1073758272,0,0,0,0,0
 14745,101UndergroundASTunnel,Lookout Breach,2454,14022,12670,73,0,2595,2598,2766,0,0,0,0,0,15,-1,0,0,0,0,1073758272,0,0,0,0,0
 14746,101UndergroundASTunnellDISide,Lookout Breach,2444,13646,0,73,0,2595,2598,2766,0,0,0,0,0,15,-1,0,0,0,0,1073741888,128,0,0,0,0
+14750,DragonIsles,Dragon Isles,2637,0,0,0,0,0,0,0,0,0,0,0,0,15,-1,25,25,0,0,16448,128,0,0,0,0
+14751,TheWakingShores,The Waking Shores,2637,0,0,0,0,2444,2480,2638,0,0,0,0,0,15,-1,25,25,0,2151,16448,128,0,0,0,0
+14770,AzmerlothTimeRifts,Azmerloth,2586,0,0,0,0,2580,0,2706,0,0,0,0,0,13,-1,0,0,0,0,524352,128,0,0,0,0
+14840,AzerothRobotTimeRifts,A.Z.E.R.O.T.H.,2587,0,0,0,0,2580,0,2706,0,0,0,0,0,13,-1,0,0,0,0,524352,128,0,0,0,0
+14841,AzqRothTimeRifts,Azq'roth,2593,0,0,67,0,2187,0,2706,0,0,0,0,0,13,-1,0,0,0,0,524352,128,0,0,0,0
+14842,UlderothTimeRifts,Ulderoth,2594,0,0,0,0,2580,0,2706,0,0,0,0,0,13,-1,0,0,0,0,524352,128,0,0,0,0
+14843,AzewrathTimeRifts,Azewrath,2595,0,0,86,0,1565,0,2706,0,0,0,0,0,13,-1,0,0,0,0,524352,128,0,0,0,0
+14844,AzmourneTimeRifts,Azmourne,2639,0,0,0,0,2633,0,2706,0,0,0,0,0,13,-1,0,0,0,0,524352,128,0,0,0,0
+14845,TheWarlands,The Warlands,2634,0,0,0,0,2580,0,2706,0,0,0,0,0,13,-1,0,0,0,0,524352,128,0,0,0,0
+14846,UlderothTimeRiftsReal,Ulderoth,2635,0,0,0,0,1591,0,2706,0,0,0,0,0,13,-1,0,0,0,0,524352,128,0,0,0,0
+14872,ScarletCathedral1015,Scarlet Monastery,2645,0,0,0,0,0,0,0,0,0,0,0,0.15,0,-1,0,0,0,211,0,12,0,0,0,0
+14873,ChapelGardens1015,Chapel Gardens,2645,14872,0,86,0,40,675,1199,0,1044,0,0,0.6,13,-1,0,0,0,211,1073741888,8,0,0,0,0
+14874,ForlornCloister1015,Forlorn Cloister,2645,14872,0,86,0,1006,0,1198,0,1043,0,0,0.6,15,-1,0,0,0,211,1073741888,8,0,0,0,0
+14885,DungeonDawnoftheInfiniteAntechamber,Temporal Vestibule,2579,14514,0,0,0,0,675,0,0,0,0,0,0,13,-1,0,0,0,0,1342177280,140,0,0,0,0
+14886,DungeonDawnoftheInfiniteInnerChamber,Sanctum of Chronology,2579,14514,0,0,0,0,675,0,0,0,0,0,0,13,-1,0,0,0,0,1342177280,140,0,0,0,0
+14887,DungeonDawnoftheInfiniteTimewaysMain,Millennia's Threshold,2579,14514,0,0,0,0,675,2803,0,0,0,0,0,13,-1,0,0,0,0,1342177280,140,0,0,0,0
+14888,DungeonDawnoftheInfiniteTimeways,The Timeways,2579,14514,0,0,0,0,675,2803,0,0,0,0,0,13,-1,0,0,0,0,1342177280,140,0,0,0,0
+14889,DungeonDawnoftheInfiniteTimewaysHub,Locus of Eternity,2579,14514,0,0,0,0,675,2803,0,0,0,0,0,13,-1,0,0,0,0,1342177280,140,0,0,0,0
+14890,DungeonDawnoftheInfiniteTimewaysDragonblight,Spoke of Endless Winter,2579,14514,0,0,0,0,675,2803,0,0,0,0,0,13,-1,0,0,0,0,1342177280,140,0,0,0,0
+14891,DungeonDawnoftheInfiniteGalakrondClaw,Galakrond's Fall,2579,14514,0,0,0,0,675,2806,0,0,0,0,0,13,-1,0,0,0,0,1342177280,140,0,0,0,0
+14892,DungeonDawnoftheInfiniteGalakrondCave,Crossroads of Fate,2579,14514,0,0,0,0,675,2806,0,0,0,0,0,13,-1,0,0,0,0,1342177280,140,0,0,0,0
+14893,DungeonDawnoftheInfiniteGalakrondCaveHallway,Gelid Caverns,2579,14514,0,0,0,0,675,2801,0,0,0,0,0,13,-1,0,0,0,0,1342177280,140,0,0,0,0
+14894,DungeonDawnoftheInfiniteGalakrondIridikron,Iridikron's Precipice,2579,14514,0,0,0,0,675,2801,0,0,0,0,0,13,-1,0,0,0,0,1342177280,140,0,0,0,0
+14895,DungeonDawnoftheInfiniteFront,Infinite Conflux,2579,14514,0,0,0,0,675,0,0,0,0,0,0,13,-1,0,0,0,0,1342177280,140,0,0,0,0
+14896,DungeonDawnoftheInfiniteTimewaysChromie,Twisting Approach,2579,14514,0,0,0,0,675,0,0,0,0,0,0,13,-1,0,0,0,0,1342177280,140,0,0,0,0
+14897,DungeonDawnoftheInfiniteTimewaysBattlefield,Immemorial Battlefield,2579,14514,0,0,0,0,675,0,0,0,0,0,0,13,-1,0,0,0,0,1342177280,140,0,0,0,0
+14898,DungeonDawnoftheInfiniteGalakrondDeios,Murozond's Rise,2579,14514,0,0,0,0,675,2806,0,1622,0,0,0,13,-1,0,0,0,0,1342177280,140,0,0,0,0
+14899,DungeonDawnoftheInfiniteFrontZoneTrees,The Flowing Forest,2579,14514,0,0,0,0,675,0,0,0,0,0,0,13,-1,0,0,0,0,1342177280,140,0,0,0,0
+14900,DungeonDawnoftheInfiniteFrontSand,Shifting Sands,2579,14514,0,0,0,0,675,0,0,0,0,0,0,13,-1,0,0,0,0,1342177280,140,0,0,0,0
+14934,TheChronosmithsForge,The Chronosmith's Forge,2444,13647,0,0,0,0,0,2680,0,0,0,0,0,15,-1,0,0,0,0,1073743936,128,0,0,0,0
+14935,IronormusVault,Ironormu's Vault,2444,13647,0,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,0,1073741888,128,0,0,0,0
