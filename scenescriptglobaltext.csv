@@ -283,6 +283,26 @@ function ActorFadeRegionSettings:Default()
 end
 
 --
+-- ActorPlayerMount Functions
+--
+
+-- backwards compatibility
+if (not ActorPlayerMount) then
+	ActorPlayerMount = { }
+end
+
+function ActorPlayerMount:Default()
+	local m = 
+	{
+		dragonRidingMount = false;
+	}
+	if (self.__meta) then
+		setmetatable(m, self.__meta)
+	end
+	return m
+end
+
+--
 -- ActorCreateData Functions
 --
 function ActorCreateData:Default()
@@ -296,6 +316,7 @@ function ActorCreateData:Default()
 		creatureDisplaySetIndex = 0,
 		creatureDisplayID = 0,
 		playerSummon = false,
+		playerMount = ActorPlayerMount:Default(),
 		wmoFileDataID = 0, -- deprecated
 		wmoGameObjectDisplayID = 0,
 		model = """",
@@ -338,18 +359,7 @@ function ActorCreateData:New(_id, _trans, _scale)
 	return c
 end
 
-function ActorCreateData:NewDisplay(_creatureID, _displayId, _trans, _scale)
-	local c = ActorCreateData:Default()
-
-	c.creatureID = _creatureID or c.creatureID
-	c.creatureDisplayID = _displayID or c.creatureDisplayID
-	c.scale = _scale or c.scale
-	c.transform = _trans
-
-	return c
-end
-
-function ActorCreateData:NewModel(_name, _modelFile, _trans, "
+function "
 10,Global Functions - Math,"--
 -- Math
 -- These Scripts have been added to SVN, if you make a change here, update it
@@ -2486,7 +2496,18 @@ local env = getfenv();
 for t, shortcut in pairs(wrappers) do
 	env[shortcut] = function(id) return id end;
 end"
-26422,[1] Global Functions - Actor,"_scale)
+26422,[1] Global Functions - Actor,"ActorCreateData:NewDisplay(_creatureID, _displayId, _trans, _scale)
+	local c = ActorCreateData:Default()
+
+	c.creatureID = _creatureID or c.creatureID
+	c.creatureDisplayID = _displayID or c.creatureDisplayID
+	c.scale = _scale or c.scale
+	c.transform = _trans
+
+	return c
+end
+
+function ActorCreateData:NewModel(_name, _modelFile, _trans, _scale)
 	local c = ActorCreateData:Default()
 
 	if type(_modelFile) == ""number"" then

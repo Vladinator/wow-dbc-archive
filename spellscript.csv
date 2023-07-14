@@ -222,7 +222,7 @@ end
 
 
 ",Jared Gillis,0,46
-57290,9.0 Maw - Area Trigger Test - Spinning Axe - PRK,"function maw_area_trigger_test_spinning_axe(elapsedMs)
+57290,9.0 Maw - Area Trigger Test - Spinning Axe - PRK,"function maw_area_trigger_test_spinning_axe(elapsedMs, x, y, z, roll, pitch, yaw)
 	------------------------------------
 	-- Area Trigger Movement Script:  --
 	------------------------------------
@@ -249,10 +249,7 @@ end
 	local angle = (elapsedMs/rotationTime)*2*math.pi
 
 	return 0,0, zOffset, 0, angle, 0;
-end
-
-
-",Jared Gillis,0,46
+end",Paul Kubit,0,46
 57291,9.0 Maw - Area Trigger Test - Random Axe - PRK,"function maw_area_trigger_test_random_axe(elapsedMs, x, y, z, roll, pitch, yaw)
 	------------------------------------
 	-- Area Trigger Movement Script:  --
@@ -936,3 +933,103 @@ end
 
 
 ",Alex Ringe,0,46
+84892,10.1 Legendary - Acquisition - Cosmetic Visual - Movement,"function legendary_acquisition_cosmetic_visual_movement(elapsedMs, x, y, z, roll, pitch, yaw)
+
+	local timeToFall = 40000
+	local heightToFall = 200
+	
+	local fallPos = math.max(0,((timeToFall - elapsedMs)/timeToFall)*heightToFall)
+	
+	return 0,0,fallPos,0,0,0
+
+end",Evan Lind,0,46
+84954,10.1.5 Time Rifts - Titan - Impurity Cleanser Beam - PRK,"function time_rifts_titan_impurity_cleanser_beam(elapsedMs, x, y, z, roll, pitch, yaw)
+	------------------------------------
+	-- Area Trigger Movement Script:  --
+	------------------------------------
+	-- Inputs: 
+	--    elapsedMs: the amount of milliseconds since the 'm_creationTime' of this AreaTrigger
+	--
+	-- Output:
+	--    x - x offset from the m_center of AreaTrigger
+	--    y - y offset from the m_center of AreaTrigger
+	--    z - z offset from the m_center of AreaTrigger
+	--    roll - rotation around z axis
+	--    pitch - rotation around y axis
+	--    yaw - rotation around x axis - also known as 'facing'
+	--
+	--    return values in this specific order.  If you don't want to change a specific value, return 0
+	--    example: if you want to adjust only 'pitch' you need to 'return 0,0,0,0,pitch'.
+	--
+	--
+--[[
+	-- Constants
+	local rotationTime = 10000; -- in milliseconds
+	local zOffset = 2;
+	local horizontalOffset = 5
+	
+	local angle = (elapsedMs/rotationTime)*2*math.pi
+
+	return horizontalOffset*math.cos(angle),horizontalOffset*math.sin(angle), zOffset, 0, 0, angle;
+--]]
+
+	-- Constants
+	local horizontalOffset = 5
+	local period = 10000 --in ms
+	local rotMax = 2*math.pi -- maximum rotation value for pitch, roll, or yaw
+	local zOffset = 2
+	
+	-- Pseudorandom functon
+	-- This function simulates a random number ""close enough"" for our purposes
+	-- It also does the work of multiplying in the max in
+	-- Seed: use a timestamp that is known or easily derivable
+	-- Index: use a fixed index for each offset/rotation
+	-- Max: transMax or rotMax
+	local function SetRandomNumber(seed, index, max)
+		local product = 571.1862*seed+718.4814*index+14.4813*seed*index
+		local decimal = product - math.floor(product)
+		return max * (2*decimal-1)
+	end
+	
+	-- Determine the last locked position
+	-- First, get a timestamp of the last 3 second tick
+	-- Then, use that as a seed to set x y z pitch roll yaw
+	local seed = math.floor((elapsedMs - period)/period)
+	local pitch1 = SetRandomNumber(seed, 1, rotMax)
+
+	-- Now, do the same, using the next 3 second tick as the seed
+	seed = math.floor(elapsedMs/period)
+	local pitch2= SetRandomNumber(seed, 1, rotMax)
+	
+	-- Now, lerp between those two numbers
+	local progress = (elapsedMs%period)/period
+	local angle = pitch1 + (pitch2-pitch1)*progress
+	
+
+	return horizontalOffset*math.cos(angle),horizontalOffset*math.sin(angle), zOffset, 0, 0, angle;
+
+end",Paul Kubit,0,46
+85105,10.1 Legendary - Acquisition - Cosmetic Missile - Movement,"function legendary_acquisition_cosmetic_missile_movement(elapsedMs, x, y, z, roll, pitch, yaw)
+
+	local stallTime = 5000
+	local timeToMove = 10000
+	local distance = 1000
+	
+	if (elapsedMs < stallTime) then return 0,0,0,0,0,0 end
+	
+	local xPos = ((elapsedMs-stallTime)/timeToMove)*distance*math.cos(yaw)
+	local yPos = ((elapsedMs-stallTime)/timeToMove)*distance*math.sin(yaw)
+	
+	return xPos,yPos,0,0,0,0
+
+end",Evan Lind,0,46
+85107,10.1 Legendary - Acquisition - Cosmetic Visual - Falling - Movement,"function legendary_acquisition_cosmetic_visual_falling_movement(elapsedMs, x, y, z, roll, pitch, yaw)
+
+	local timeToFall = 20000
+	local heightToFall = 400
+	prints(elapsedMs)
+	local fallPos = math.max(0,((timeToFall - elapsedMs)/timeToFall)*heightToFall)
+	
+	return 0,0,fallPos,0,0,0
+
+end",Evan Lind,0,46

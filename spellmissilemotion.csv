@@ -1,4 +1,4 @@
-ID,Field_10_1_0_48480_000,Field_10_1_0_48480_001,Field_10_1_0_48480_002,Field_10_1_0_48480_003
+ID,Name,ScriptBody,Flags,MissileCount
 13,Parabola,"local angle = 0
 local maxMagnitude = startDistance * .15
 
@@ -24441,6 +24441,18 @@ transRight = -(sin(progress*180))*math.pow(startDistance,.3)
 
 modelRoll=270
 modelYaw = progress * 500",0,1
+4586,10.1.5 Dungeon - Infinite - Infinite Drakonid - Eon Chop - Weapon Throw - SRC,"local angle = 0
+local maxMagnitude = startDistance * 0.1
+local spinRateP = 720
+local spinRateY = 10
+
+transAngle = angle
+--transMag = (progress * 2) - 1
+--transMag = (1 - (transMag * transMag)) * maxMagnitude
+
+
+modelPitch = time * spinRateP
+modelYaw = time * spinRateY",0,1
 4587,10.1 Raid - Aberrus - Sarkareth - Asteroid - 07 Missile To Hole - KLH,"local angle = 0
 local maxMagnitude = startDistance * .10
 
@@ -24504,6 +24516,13 @@ if progress > 0.999 then
 	progress = 1.0
 	
 end",0,0
+4593,10.1.5 Dungeon - Infinite - Boss - Evil Chromie - Tank Hit Line 2b. Cosmetic Missile (CHTL),"local growFactor = 3
+local speedFactor = 2.5
+
+scale = 0.6 + math.pow(progress,growFactor)
+
+speedScalar = 0.3 + speedFactor * progress
+",0,1
 4594,10.1 Raid - Aberrus - Djaradin Assault - LT - Hunter - Spear 03a Radial Visual,"local radius=(progress*60)
 local curAngle=0
 local anglePerMissile = 360/missileCount
@@ -24547,6 +24566,17 @@ transMag = (1 - (transMag * transMag)) * maxMagnitude
 --modelYaw = progress * 180
 
 scale = 1",0,1
+4599,Evoker - Spec 3 - Core - Echoing Strike,"local angle = rand2 * 100
+
+if rand1 > 0.5 then
+	angle = angle * -1
+end
+
+local maxMagnitude = startDistance * .15
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude",0,0
 4600,10.1 Raid - Aberrus - Sarkareth - P3 Supernova - 09 Dummy Miss - KLH,"local maxMagnitude = 0.25
 local minSpeedScalar = 0.75
 local maxSpeedScalar = 1.25
@@ -24562,6 +24592,7 @@ transRight = (sin((rand1 * 1000) + (time * 1000)) + cos((rand2 * 1000) + (time *
 transUp = (sin((rand2 * 1000) + (time * 700)) + cos((rand1 * 1000) + (time * 300))) * magnitude
 speedScalar = minSpeedScalar + ((maxSpeedScalar - minSpeedScalar) * rand3)
 ",0,1
+4601,Test - Ken - Motion 1,modelPitch = time * 360,0,1
 4602,10.1 - Niffen Cave Dive - Sniff - Missile (LQM),"modelYaw = 90
 scale = 1
 colorA = 1
@@ -24745,6 +24776,17 @@ modelRoll = -time * spinRate",0,0
 transRight = magnitude/-2 * (1-progress)
 transUp = magnitude * ( 1 - progress )
 transFront = distanceToImpactPos",0,1
+4612,10.1.5 Dungeon - Infinite - Boss 4 - Iridikron - Add Creation Missile - SRC,"local function parabola(a,b,m) return (4*m*((1-progress)*a)*((progress)*b)) end
+
+local height = 7
+local variance = 1
+height = height + (rand1 * variance)
+
+transUp = parabola(1,1,height)
+
+local factor = 1
+transFront = math.pow(progress,factor) * distanceToFirePos
+transFront = transFront - distanceToFirePos",0,1
 4613,"Parabola (Pitch Spin, low speed, low)","local angle = 0
 local maxMagnitude = startDistance * 0.1
 local spinRate = 0
@@ -24865,6 +24907,42 @@ if progress > 0.999 then
 	progress = 1.0
 	
 end",0,0
+4624,10.1.5 Dungeon - Infinite - Deios - Focusing Ritual Dragon to Nozdormu Missile,"local function parabola(m) return (4*m*(1-progress)*progress) end
+
+local maxHeight = 10
+local direction = 1
+local noiseAmt = parabola(10)
+
+function noise (time)
+	return math.sin(time)*math.sin(time*3)*math.sin(time*.54)*math.sin(time*7)*math.sin(time*12)*math.sin(time*.5)
+end
+local progressMult = math.sin(math.pi * progress)
+
+local t1 = (time+(rand1*300))
+local noise1 = noise(t1)
+
+local t2 = (time+(rand2*300))
+local noise2 = noise(t2)
+
+local t3 = (time+(rand3*300))
+local noise3 = noise(t3)
+
+
+transFront		= transFront + parabola(progressMult*noise1*(noiseAmt*.25))
+transRight		= transRight + parabola(progressMult*noise2*(noiseAmt*.25))
+transUp			= transUp + (progressMult*noise3*(noiseAmt*.25)) + parabola(maxHeight)
+
+
+local mult = 2
+local factor = 3
+local maxRotationDegrees = 180
+local progressMult = sin(progress*180)*(1-progress)*mult
+local progressSpeed = math.pow(progress,factor)
+
+
+transFront = (-cos(progressSpeed * maxRotationDegrees)+1) * startDistance * math.pow(1 - progressSpeed ,0.7) * 0.5
+transRight = sin(progressSpeed * maxRotationDegrees) * startDistance * math.pow(1 - progressSpeed ,0.7) * 0.5
+",0,0
 4625,10.1 Raid - Aberrus - Djaradin Assault - LT - Lavacaster - Magma Shield 04 Cosmetic Missile - KRY,"local angle = 30
 local maxMagnitude = startDistance * .5
 
@@ -24899,3 +24977,233 @@ transUp=sin(progress*180)*maxHeight
 transRight=sin(progress*180)*MaxHorizontalMag]]--
 
 ",0,1
+4626,10.1.5 Time Rifts - Despawn FX - Missile - PRK,"local maxMagnitude = startDistance * .05
+local startRiseHeight = 0.5
+local startRiseProgress = 0.3
+
+faceImpactPos = 1
+
+transUp = (progress * 2) - 1
+transUp = (1 - (transUp * transUp)) * maxMagnitude
+if progress<startRiseProgress then
+	transUp = transUp + startRiseHeight*progress/startRiseProgress
+	transFront = -totalDistance*progress
+else
+	transUp = transUp + startRiseHeight
+	transFront = -totalDistance*(1-progress)*(startRiseProgress/(1-startRiseProgress))
+end
+
+
+",0,0
+4627,Chaotic Missile Slight Up Arc,"
+local function sinapprox(v)
+     local t1 = 1.1*v/360
+     local t2 = (t1*0.5 - math.floor(t1*0.5))*2-1
+     return -4*(t2 - t2 * math.abs(t2))
+     --return sin(v)
+end
+
+
+local progressMult = math.min(0.6,sin(progress*180))*(1-progress)
+
+local t1 = (time+rand1*4)*50
+local noise1 = sinapprox(t1)*sinapprox(t1*3)*sinapprox(t1*.54)*sinapprox(t1*7)*sinapprox(t1*12)*sinapprox(t1*.5)
+
+local t2 = (time+rand2*4)*50
+local noise2 = sinapprox(t2)*sinapprox(t2*3)*sinapprox(t2*.54)*sinapprox(t2*7)*sinapprox(t2*10)*sinapprox(t2*.5)
+
+local t3 = (time+rand3*4)*50
+local noise3 = sinapprox(t3)*sinapprox(t3*3)*sinapprox(t3*.54)*sinapprox(t3*7)*sinapprox(t3*10)*sinapprox(t3*.5)
+
+local factor = 1.4
+transRight = progressMult*noise1*14*factor
+transUp = progressMult*noise2*4*factor + (progress*(1-progress))*10
+transFront = progressMult*noise3*14*factor 
+
+",0,0
+4628,10.1.5 Dungeon - Infinite - Boss 4 - Iridikron - Vessel Effects - Missile Motion,"local function parabola(m) return (4*m*(1-progress)*progress) end
+
+local overallMagnitudeOfRandomTranslations = 4
+overallMagnitudeOfRandomTranslations = parabola(overallMagnitudeOfRandomTranslations)
+
+local angleMax = 360 -- the angle functions seem to take degrees, not radians
+local minSpeedScalar = 1
+local maxSpeedScalar = 2
+
+transRight = (sin((rand1 * angleMax) + (time * 10)) + cos((rand2 * angleMax)) + (time * 2)) * overallMagnitudeOfRandomTranslations
+transUp = (sin((rand2 * angleMax) + (time * 7)) + cos((rand1 * angleMax)) + (time * 3)) * overallMagnitudeOfRandomTranslations
+
+--transRight = (sin((rand1 * 1000) + (time * 1000)) + cos((rand2 * 1000) + (time * 200))) * overallMagnitudeOfRandomTranslations
+--transUp = (sin((rand2 * 1000) + (time * 700)) + cos((rand1 * 1000) + (time * 300))) * overallMagnitudeOfRandomTranslations
+
+-- purely a visual missle, so there aren't issues with using this
+speedScalar = minSpeedScalar + ((maxSpeedScalar - minSpeedScalar) * rand3)
+",0,1
+4629,10.1.5 Dungeon - Infinite - Boss 4 - Iridikron - Vessel Effects - Missile Up Parabola,"local maxMagnitude = 3.0
+local minSpeedScalar = .7
+local maxSpeedScalar = 1.5
+
+local magnitude = (progress * 1.9) - 1
+magnitude = 1 - (magnitude * magnitude * magnitude * magnitude)
+
+transRight = (sin((rand1 * 1000) + (time * 1000)) + cos((rand2 * 1000) + (time * 200))) * magnitude
+transUp = (sin((rand2 * 1000) + (time * 700)) + cos((rand1 * 1000) + (time * 300))) * magnitude
+speedScalar = minSpeedScalar + ((maxSpeedScalar - minSpeedScalar) * rand3)
+
+local function parabola(m) return (4*m*(1-progress)*progress) end
+
+local height = 3
+local variance = 2
+height = height + (rand1 * variance)
+
+transUp = parabola(height)
+",0,1
+4630,10.1.5 Dungeon - Infinite - Clock - Achievement Portal Line Missile,"local function parabola(m) return (4*m*((1-progress))*(progress)) end
+
+local height = 4
+local variance = 2
+height = height + (rand1 * variance)
+
+transUp = parabola(height)
+
+local factor = 3
+transFront = math.pow(progress,factor) * distanceToFirePos
+transFront = transFront - distanceToFirePos
+
+local transMag = parabola(1) * parabola(5)
+local transAngle = rand2 * 360
+
+faceImpactPos = 1
+scale = 0.25 + parabola(0.75)",0,1
+4631,10.1.5 Time Rifts - Crankshot - PRK,"	if missileIndex == 1 then
+		out_speedScale = rand1/1.5 + 1
+		transRight = progress * (rand1 - .50) + .5
+		transUp = progress * (rand2 - .50)
+	elseif missileIndex == 2 then
+		out_speedScale = rand2/1.5 + 1
+		transRight = progress * (rand2 - .50) - .5
+		transUp = progress * (rand3 - .50)
+	else
+		out_speedScale = rand3/1.5 + 1
+		transRight = progress * (rand2 - .50)
+		transUp = progress * (rand1 - .50) + .5
+	end",0,0
+4632,"Meteor Strike (50 Yards, Spin slow)","local magnitude = 50
+local spinRate = 700
+
+transUp = magnitude * ( 1 - progress )
+modelPitch = time * spinRate
+",0,1
+4634,Warlock - Malefic Rapture,"
+
+transMag = (1 - math.pow(progress * 2 - 1,2)) * startDistance * .1
+
+
+
+scale = 0.1 + (progress*1)
+local randomSpeedAmount = 0.25
+out_speedScale = (1 - randomSpeedAmount) + (rand1 * randomSpeedAmount)",0,1
+4635,10.1.5 Dungeon - Infinite - Boss - Evil Chromie - Tank Hit Line 2b. Cosmetic Missile (CHTL),"local spread = 10
+
+local startAngle = 360 * missileIndex / missileCount + 180;
+local degreesPerSec = 360
+
+transAngle = startAngle + (time * degreesPerSec)
+transMag = spread --* (1-progress);
+
+local pause = 0.2	
+
+if ( progress < pause ) then 
+	transFront = 0;
+else
+	progress = progress - pause + pause * progress
+    transFront = progress*progress*progress
+end
+
+local spinRate = 360
+modelRoll = time * spinRate
+",0,20
+4636,Paladin - Daybreak Missile,"-- Start slow, end faster
+out_speedScale = 0.5 + (0.5 * (1 + progress) * (1 + progress))
+
+-- Add some wibblewobble, courtesy of Incinerate.
+local waveHeight = 1.8 * (startDistance / 30)
+local wavesPerSec = 1 * (.8 + (.4 * rand2))
+
+transRight = ((waveHeight * sin((time + rand1) * wavesPerSec * 360)) * sin(progress * 180)) * math.pow(1-progress,0.4) * 2
+if rand2 > 0.5 then
+	transRight = -1 * transRight
+end",0,1
+4637,10.1.5 Dungeon - Infinite - Boss 5 - Tyr - Spark of Tyr - Missile Motion - SAHM,"local angle = 180
+local maxMagnitude = startDistance * .3 --0.6
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = 1 - ((transMag * transMag) * maxMagnitude)",0,1
+4639,10.1.5 Dungeon - Infinite - Deios - Infinite Corruption Small Missile,"local function parabola(a,b,m) return (4*m*((1-progress)*a)*((progress)*b)) end
+
+local height = 10
+local variance = 2
+height = height + (rand1 * variance)
+
+transUp = parabola(1,1,height)
+
+local factor = 3
+local maxWidth = 10
+local direction = 1
+
+if rand3>0.5 then
+	direction = -1
+end
+
+transRight = direction * math.min(startDistance/maxWidth,maxWidth) * rand2",0,1
+4640,10.1.5 Dungeon - Infinite - Deios - Infinite Corruption Large Missile,"local function parabola(a,b,m) return (4*m*((1-progress)*a)*((progress)*b)) end
+
+local height = 10
+local variance = 2
+height = height + (rand1 * variance)
+
+transUp = parabola(1,1,height)
+
+local factor = 3
+local maxWidth = 3
+local direction = 1
+
+if rand3>0.5 then
+	direction = -1
+end
+
+transRight = direction * math.min(startDistance/maxWidth,maxWidth) * rand2",0,1
+4643,"Parabola (Fixed Height - 3-5 yards, With Noise) - KJD","local function parabola(m) return (4*m*(1-progress)*progress) end
+
+local height = 3
+local variance = 2
+height = height + (rand1 * variance)
+
+transUp = parabola(height)
+
+---[[
+local factor = 2
+local maxWidth = 5
+local noiseAmt = startDistance * 0.4
+
+function noise (time)
+	return math.sin(time)*math.sin(time*3)*math.sin(time*.54)*math.sin(time*7)*math.sin(time*12)*math.sin(time*.5)
+end
+local progressMult = math.sin(math.pi * progress)
+
+local t1 = (time+(rand1*300))
+local noise1 = noise(t1)
+
+local t2 = (time+(rand2*300))
+local noise2 = noise(t2)
+
+local t3 = (time+(rand3*300))
+local noise3 = noise(t3)
+
+
+transRight = transRight + (progressMult*noise1*noiseAmt)
+transUp    = transUp + (progressMult*noise2*(noiseAmt*.25))
+transFront = math.pow(progress,factor) * distanceToFirePos + ((progressMult*noise3) *noiseAmt)
+transFront = transFront - distanceToFirePos
+--]]",0,1

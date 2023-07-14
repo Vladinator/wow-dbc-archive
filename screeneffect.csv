@@ -288,7 +288,7 @@ ID,Name,Param[0],Param[1],Param[2],Param[3],Effect,FullScreenEffectID,LightParam
 1097,Spires of Arak: (DLA) - Elixir of Shadows,0,5,25,0,3,0,0,1,1,0,0,-1,1,0
 1098,Darkmoon Faire - Haunting Memento,1518019,5,0,0,3,0,897,1000,1000,500,558,-1,-1,0
 1099,Darkmoon Faire - Haunting Memento 2,9181123,5,0,0,3,0,1362,1000,1000,500,556,-1,-1,0
-1100,Blasted Lands - Dark Portal - Skybox,0,0,0,0,0,0,1872,3000,3000,0,0,-1,-1,0
+1100,Blasted Lands - Dark Portal - Skybox,0,0,0,0,0,0,1872,3000,3000,0,0,-1,13,0
 1101,Parchment Filter,0,1000,1000,0,5,0,838,0,0,0,0,-1,1,0
 1102,IGC - Lightly Dark Ambient,-1,1,0,0,3,0,1989,0,0,0,0,-1,14,0
 1103,REUSE1103,-16777216,8000,3000,0,4,0,0,0,0,0,0,-1,-1,0
@@ -636,7 +636,7 @@ ID,Name,Param[0],Param[1],Param[2],Param[3],Effect,FullScreenEffectID,LightParam
 1492,8.0 Islands - Weather - Fog,16777215,0,2000,1,4,0,3565,3000,1500,0,0,1080,2,1
 1493,8.0 Islands - Weather - Miasma,16777215,0,2000,1,4,0,3759,3000,1500,0,0,1080,2,1
 1494,8.08.0 Drustvar Dungeon - Witch Council - Aura of Dread 04 Screen Effect - RZN,6947015,6,0,0,3,0,0,0,0,0,0,-1,1,0
-1495,PRK Test - Deep Water,0,0,0,0,0,0,3739,1,1,0,0,-1,2,0
+1495,PRK Test,0,0,0,0,0,0,2575,0,0,0,0,-1,2,0
 1496,8.0.1 [ZZF] Red Sky - IGC,16777215,-1000,2000,1,4,0,1041,0,0,0,0,1140,10,1
 1497,"[OLD, Look for ""World - Area Denial""] Generic - Standing in Sand",-342387353,4,4,0,3,0,164,0,0,0,0,-1,1,0
 1498,8.0 Islands - Skybox - Time of Day - 5 - 2030,0,0,0,0,0,0,2589,0,0,0,0,1230,8,0
@@ -1085,6 +1085,9 @@ ID,Name,Param[0],Param[1],Param[2],Param[3],Effect,FullScreenEffectID,LightParam
 2089,10.0.7 Human Heritage - Q12 - Northshire - Onyxia's Will - 1 (LAS),9371903,0,60,0,2,0,0,0,0,0,0,-1,1,0
 2090,10.0.7 Human Heritage - Q12 - Northshire - Onyxia's Will - 2 (LAS),9371903,0,100,0,2,0,0,0,0,0,0,-1,1,0
 2091,10.0.7 Human Heritage - Q12 - Northshire - Onyxia's Will - 0 (LAS),9371903,0,20,0,2,0,0,0,0,0,0,-1,1,0
+2092,Color Shade - Pink,-4167242,0,0,1,3,0,1616,3,3,0,0,-1,1,0
+2093,Test - JLW,1308662,0,0,1,6,0,5561,3,3,0,0,-1,3,0
+2094,10.1.5 Thal - Whelp Daycare - Blue - P2 - 01 - Personality - Pink Shades Aura (JLW),1308662,0,0,1,6,0,5561,3,3,0,0,-1,3,0
 2095,10.1 WQ - Deepflayer Nest - Scent Trail (LAS),-2964398,5,0,0,3,0,966,0,0,0,0,-1,5,0
 2096,World - Area Denial - Fire (10 - Raid - Kurog Grimtotem),0,0,0,0,8,10,0,0,0,0,0,-1,1,0
 2097,1 Second - Blackout,-16777216,1000,1000,0,4,0,0,0,0,41,0,-1,-1,0
@@ -1092,12 +1095,26 @@ ID,Name,Param[0],Param[1],Param[2],Param[3],Effect,FullScreenEffectID,LightParam
 2100,10.0.7 Forbidden Reach - Treasure Room - Void Marked - Aura - Player Visuals (MDE) - State / Aura,0,0,0,0,2,0,3231,3,2,1717,0,0,-1,0
 2101,10.1 Raid - Aberrus - Cosmic Void Test - KLH,0,0,0,0,8,189,5183,1000,500,0,0,-1,3,1
 2102,10.0.7 Professions - Zul'Gurub Restoration - Toy - Brazier of Madness - Edge of Madness,0,0,0,0,0,0,374,3000,3000,0,0,-1,2,1
+2103,10.1.5 Dungeon - Infinite - Infinite Drakonid - Time Pool - SRC,-8555985,7,30,1,3,0,1616,3,3,1674,0,-1,1,0
 2105,10.1 Professions - Alchemy - Fun Potion - Bright Potion - Peaceful Day,0,0,0,0,0,0,1587,1000,1000,2582,0,930,10,0
 2106,10.1 Fyrakk Assaults - Aura of Fyrakk (ZTO),0,0,0,0,8,10,3760,0,3,2615,0,-1,7,0
 2107,10.1 Raid - Aberrus - Shadowflame,0,0,0,0,8,195,0,0,0,0,0,-1,1,0
 2108,10.0.7 [HAH] Time of Day - Noon - Blue Tint,5062471,500,500,0,6,0,0,3000,3000,0,0,720,9,0
 2109,Generic - Fade to Orange - .25/.25 sec - IGC,-16724225,250,250,0,4,0,0,0,0,0,0,-1,1,0
 2110,Generic - Fade to Orange - .15/.15 sec - IGC,-16724225,150,150,0,4,0,0,0,0,0,0,-1,1,0
+2112,Goggles on Desaturate Screen Effect (SMART),1308654,0,0,6,6,0,5554,0,0,462,36,0,3,0
+2113,Attune - Time Skip Screen Effect (SMART),0,0,75,6,3,0,5533,0,0,462,36,0,8,0
+2114,Goggles on SEEKER Screen Effect (SMART),1308663,0,0,6,6,0,5554,0,0,462,36,0,3,0
+2115,NJS - Warlock Expansion - Darkness Effect (NJS),0,0,0,0,6,0,11,0,0,633,0,-1,14,0
 2116,10.1 Fyrakk Assaults - Azure Span - Suffusion Camp: Frostburn (ZTO),1151140087,1,2,0,3,0,5933,2000,1000,505,0,0,2,1
 2117,10.1 Fyrakk Assaults - Ohn'ahran Plains - Suffusion Camp: Cinderwind (ZTO),1151140087,1,2,0,3,0,5934,2000,1000,505,0,0,2,1
 2118,Generic - Dip to White - 0.7/0.3 sec - IGC,1778384895,330,700,0,4,0,0,0,0,0,0,-1,1,0
+2120,10.1.5 Naxxramas Restoration - Shade Event,0,0,0,0,1,0,5349,1000,1000,0,2564,-1,4,0
+2121,10.1.5 Time Rifts - General - Screen Effect and Weather - PRK,1151140087,1,2,0,3,0,5809,2000,1000,505,0,0,2,1
+2122,10.0 - Generic - Bronze - Screen Effect,0,0,0,0,8,199,0,0,0,0,0,-1,1,0
+2123,10.1.5 [WDU] - Arcane Vision - IGC,0,0,0,0,8,200,164,0,0,0,0,-1,1,0
+2124,10.1.7 Dowsing - TUTORIAL - Goggle Auto-Adjuster (SMART),0,1000,100,0,2,0,0,0,0,0,0,-1,1,0
+2126,10.1.7 Dreamsurge - Aura Swap Screen Effect (DTM),-15350934,4,0,0,3,0,0,0,0,0,0,-1,-1,0
+2128,Generic - Time of Day 6:00PM with Fade to Black (1/0 sec),0,0,2000,0,4,0,0,0,0,0,0,1080,9,0
+2129,World - Area Denial - Poison - Quieter,0,0,0,0,8,122,0,0,0,2632,0,-1,5,0
+2130,10.1.5 Dungeon - Infinite - Battlefield - Encounter Arena Player Color Grading,5279254,1000,1000,0,6,0,0,0,0,0,0,-1,1,0
