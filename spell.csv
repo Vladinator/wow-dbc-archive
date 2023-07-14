@@ -29865,7 +29865,7 @@ Attaching a Titanium Shield Spike to your shield causes it to become soulbound. 
 56362,,Deals $s1 Shadow damage to a nearby random target.,
 56377,,"Your Ice Lance and Icicles now deal $s3% increased damage, and hit a second nearby target for $s2% of their damage.
 
-Your Ebonbolt and Glacial Spike also hit a second nearby target for $s4% of its damage.",
+Your Glacial Spike also hits a second nearby target for $s4% of its damage.",
 56378,,,
 56379,,,
 56382,,"When cast on critters, your Polymorph spells now last 1 day and can be cast on multiple targets.",
@@ -323793,7 +323793,7 @@ A $@spellname390716 spills forth from each $@spellname390717, leaving behind a $
 390758,,,
 390760,,Strikes an enemy with lightning inflicting $s1 Nature damage and an additional $s2 Nature damage every $t2 sec for $d.,
 390761,,,
-390762,,,
+390762,,$@spelldesc390643,
 390763,,"The energy clinging to the target explodes after $d, applying $@spellname391285 to the target and inflicting up to $390817s1 Nature damage to all players. This damage is reduced by reducing the damage taken from $@spellname386410.",Inflicts $w1 Nature damage to all players upon expiration.
 390764,,,
 390765,,Light's Wrath deals an additional $s1% damage per ally affected by your Atonement.,
@@ -323883,7 +323883,7 @@ Stuns enemies within $A1 yards of the impact.",Stunned.
 390832,,"Increases the damage of Mind Blast and Shadow Word: Death by $s1%.
 
 Mind Blast and Shadow Word: Death consume $s2 sec of Shadow Word: Pain or Purge the Wicked, instantly dealing that damage.",
-390833,,,
+390833,,$@spelldesc390643,
 390834,,"Inflicts $s2 Physical damage to all enemies in front of the caster.
 
 Inflicts Physical damage to all enemies in front of the caster every $t3 sec for $d.",$w3 Physical damage inflicted every $t3 sec.
@@ -323920,7 +323920,7 @@ Stuns all enemies within $A2 yards, rendering them unable to move or attack for 
 390865,,,Drifting downward. Catch herbs swept up in the breeze during your descent!
 390866,,,
 390867,,,
-390868,,,
+390868,,$@spelldesc390643,
 390869,,@spelldesc390643,Your helpful and harmful abilities have a chance to heal you or an ally near your target for $w1.
 390870,,,
 390871,,,
@@ -323953,7 +323953,7 @@ Moving away from Gnarls will cancel the effect."
 390894,,,
 390896,,$@spelldesc383812,
 390897,,Inflicts $s1 Fire damage and an additional $s2 Fire damage every $t2 sec. for $d to all players in front of the caster in a $A1 yard cone.,$s2 Fire damage inflicted every $t2 sec.
-390898,,,
+390898,,$@spelldesc390643,
 390899,,@spelldesc390643,Your harmful spells and abilities have a chance to grant you $w1 mastery for $390936d.
 390901,,,
 390902,,Tiger's Fury's damage bonus is increased by $s1%.,
@@ -339480,7 +339480,7 @@ Haste reduced by $408044s2%."
 408138,,,
 408139,,,
 408140,,,
-408141,,"Dazhak breaths necrotic flames, inflicting $408177s1 Fire damage every $408177t1 sec for $d to players in front her.",
+408141,,"Dazhak breathes necrotic flames, inflicting $408177s1 Fire damage every $408177t1 sec for $d to players in front of her.",
 408142,,,
 408143,,,
 408144,,Start the ritual to allow the failed experiments and ghostly inhabitants of the Sulfur Wastes to pass on.,Performing the ritual to allow the failed experiments and ghostly inhabitants of the Sulfur Wastes to pass on.
@@ -341189,11 +341189,9 @@ Damage done increased by $s3%."
 410248,PvP Talent,"While an enemy player is affected by your Polymorph or Mass Polymorph, your movement speed is increased by $410259s1% and your Versatility is increased by $410259s2%. 
 
 Additionally, Polymorph and Mass Polymorph no longer heal enemies.",
-410249,,"Tyr shields himself with Infinite magic, absorbing $s1 damage.
+410249,,"Tyr shields himself with Infinite magic, absorbing $M1 damage.
 
-When $@spellname410249 activates or is refreshed, it inflicts $414493s1 damage to all enemies and pushes them back.","Absorbing $w1 damage.
-
-Inflicting $414493s1 Arcane damage to all enemies and pushing them back every $t2 sec while active."
+When $@spellname410249 activates or is refreshed, it inflicts $414493M1 damage to all enemies and pushes them back.",Absorbing $w1 damage.
 410250,,Myrrit uses soothing incense to heal your wounds.,
 410251,,,
 410252,,,
@@ -342453,7 +342451,7 @@ The Mole Machine causes $@spellname411593 every $s3 sec, inflicting $411593s1 Ph
 The Big One is so powerful, it can destroy any machinery it damages.",
 411607,,,
 411609,,,
-411610,,$@spelldesc41107,
+411610,,$@spelldesc411407,
 411611,,,
 411612,,,
 411613,,Set the dungeon map of a Mythic Keystone to The Vortex Pinnacle.,
@@ -344995,7 +344993,7 @@ Every $415301d, the pumpkin seeks a new enemy's head until every head has had th
 415324,,,
 415329,,$@spelldesc415300,
 415330,,,
-415339,,$@spelldesk415284,
+415339,,$@spelldesc415284,Suffering $w1 Nature damage every 1 sec split between all nearby enemies.
 415347,,,
 415348,,,
 415350,,,
@@ -345007,7 +345005,7 @@ Every $415301d, the pumpkin seeks a new enemy's head until every head has had th
 415373,,,
 415388,,$@spelldesc415364,
 415395,,$@spelldesc415284,
-415403,,,Dealing damage to a Lightning Conduit has a high chance to unleashes a bolt of forked lighting dealing $s2 Nature damage split between them and up to four additonal nearby targets.
+415403,,$@spelldesc415284,Dealing damage to a Lightning Conduit has a high chance to unleashes a bolt of forked lighting dealing $w1 Nature damage split between them and up to four additonal nearby targets.
 415410,,,
 415411,,,
 415412,,$@spelldesc415284,
@@ -346619,9 +346617,9 @@ If the target is in your party or raid, all party and raid members will be affec
 419251,,,
 419257,,,
 419261,,,
-419262,,,Bleeding for $w1 every $t sec.
+419262,,"Striking a demon with melee abilities has a chance to rend their flesh, dealing Physical damage over $d.",Bleeding for $w1 every $t sec.
 419267,,,
-419268,,,
+419268,,"Striking an undead with a melee ability has a chance to smite them with righteous fury, dealing Holy damage.",
 419271,,"Enter stasis, trapping yourself in a single moment.",Trapped in a single moment.
 419273,,,
 419276,,,
@@ -346855,3 +346853,26 @@ Damage taken reduced by $s4%."
 420470,,,
 420471,,,
 420473,,,
+420532,,$@spelldesc419162,
+420662,,,
+420675,,,
+420733,,,
+420738,,,
+420773,,,
+420905,,,
+420989,,,
+421012,,,
+421057,,$@spelldesc419447,$@spellaura419447
+421072,,$@spelldesc356517,
+421079,,,
+421080,,,
+421109,,,
+421175,,,
+421177,,,
+421361,,,
+421372,,,
+421485,,Collect the appearances of the Azure Renewal Finery set.,
+421486,,Collect the appearances of the Azure Renewal Finery set.,
+421487,,Collect the appearances of the Azure Renewal Finery set.,
+421500,,,
+421525,,,
