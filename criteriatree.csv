@@ -4171,7 +4171,6 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 5003,Rotten Hallow,29056,0,0,5825,0,0
 5004,That Sparkling Smile,4995,0,0,5836,4,0
 5005,The Masquerade,4995,0,0,5840,8,0
-5006,Bring Me The Head of... Oh Wait,4995,0,0,5833,2,0
 5008,Kill one of the extremely rare and hard to find Outland creatures listed below.,0,1,8,0,0,0
 5009,Ambassador Jerrikar,5008,1,0,4504,1,0
 5010,Bog Lurker,5008,1,0,4505,2,0
@@ -85786,10 +85785,6 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 147682,Setup the Dig,0,0,4,0,0,0
 147683,Setup the Dig!,147682,1,0,60758,0,0
 147702,,145864,4,0,60759,24,2
-147703,6193 - Clear Restweed from the site,0,100,9,0,0,0
-147704,,147703,10,0,60772,0,1
-147707,6194 - Protect the site from Gnolls,0,100,9,0,0,0
-147708,,147707,10,0,60774,0,1
 147709,,137522,0,0,60775,9,0
 147728,Brewfest Prize Tokens earned,0,0,4,0,0,1
 147729,Brewfest Prize Tokens earned,147728,100,0,60780,0,1
@@ -85855,15 +85850,15 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 147795,,147789,0,0,60797,5,0
 147796,Logged in during WoW's 19th Anniversary.,0,0,4,0,0,0
 147797,Logged in during WoW's 19th Anniversary.,147796,1,0,60798,0,2
-147798,Kill Coren Direbrew,0,0,4,0,0,1
+147798,Coren Direbrew defeated,0,0,4,0,0,8193
 147799,Coren Direbrew,147798,1,0,60799,0,2
-147800,DeMeza's crew joined,0,0,4,0,0,1
+147800,DeMeza's crew joined,0,0,4,0,0,8193
 147801,,147800,1,0,60800,0,2
-147802,Quest completed,0,0,4,0,0,1
+147802,Quest completed,0,0,4,0,0,8193
 147803,,147802,1,0,60801,0,2
-147804,Harlan Sweete defeated,0,0,4,0,0,1
+147804,Harlan Sweete defeated,0,0,4,0,0,8193
 147805,,147804,1,0,60802,0,2
-147806,Quest completed,0,1,8,0,0,1
+147806,Quest completed,0,1,8,0,0,8193
 147807,,147806,1,0,60803,0,2
 147808,,147806,1,0,60804,1,2
 147809,Emote /bow,0,0,4,0,0,1
@@ -85910,10 +85905,10 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 147850,Druids of the Flame fight progress,0,1000,9,0,0,1
 147851,,147850,15,0,60832,0,0
 147852,,147811,1,0,60833,1,0
-147853,Secret discovered,0,3,5,0,0,8193
+147853,Secrets discovered,0,3,5,0,0,8193
 147854,,147853,1,0,60806,0,1
 147855,,147853,1,0,60833,1,0
-147856,Secret discovered,0,7,5,0,0,8193
+147856,Secrets discovered,0,7,5,0,0,8193
 147857,,147856,1,0,60806,0,1
 147858,,147856,1,0,60833,1,0
 147859,Dragonriding Challenge Races completed,0,1,5,0,0,8193
@@ -86490,14 +86485,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 148467,,148463,1,0,61192,3,48
 148468,,148463,1,0,61193,4,48
 148469,,148463,1,0,61194,5,48
-148470,Stage 1 - 6200 - Repair Shovels,0,100,9,0,0,0
-148471,Shovel Repaired,148470,10,0,61195,0,1
 148472,Advanced dragonriding races complete,148100,1,0,61196,1,1
 148473,Advanced dragonriding races complete,148100,1,0,61197,2,1
 148474,Advanced dragonriding races complete,148100,1,0,60920,3,1
-148475,Stage 1 - 6201 - Breaking Boulders,0,100,9,0,0,0
-148476,Boulders Broken Down,148475,10,0,61199,0,1
-148477,Throw Boulder Fragments,148475,5,0,61198,1,1
 148482,Camping Trip,0,0,4,0,0,0
 148483,Place a Gnoll Tent,148482,1,0,61200,0,0
 148484,Cure Rugged Hide,148482,1,0,61203,1,0
@@ -86517,19 +86507,14 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 148506,Warlock,19618,70,0,61220,9,0
 148507,Warlock,21623,70,0,61221,8,0
 148508,Warlock,21652,70,0,61222,8,0
-148509,Stage 1 - 6202 - Sort Nirobin's Tomes,0,100,9,0,0,0
-148510,Tomes Sorted,148509,10,0,61223,0,1
 148517,Complete all of the Embers of Neltharion achievements below.,0,0,4,0,0,0
 148518,,148517,0,0,61225,0,32
 148519,,148517,0,0,61226,1,32
 148520,,148517,0,0,59214,2,32
-148521,,148517,0,0,61226,3,32
-148522,,148517,0,0,61227,4,32
-148523,,148517,0,0,61228,5,32
-148524,,148517,0,0,61229,6,32
-148525,,148517,0,0,61230,7,32
-148526,,148517,0,0,61231,8,32
-148527,,148517,0,0,59691,9,32
+148523,,148517,0,0,61228,3,32
+148524,,148517,0,0,61229,4,32
+148525,,148517,0,0,61230,5,32
+148527,,148517,0,0,59691,6,32
 148528,"Herbs, ores, and skins gathered",0,50,5,0,0,8193
 148529,"Herbs, ores, and skins gathered",148528,1,0,61359,0,1
 148532,Dragonriding quests completed,0,2,8,0,0,1
@@ -86614,9 +86599,6 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 148611,Fireworks launched,0,10,5,0,0,8193
 148612,Fireflight,148611,1,0,61282,0,0
 148613,Celebration firework,148611,1,0,61283,1,0
-148614,Stage 2 - 6406 - Deliver Azer-broth and return the empty bowls,0,100,9,0,0,0
-148615,Deliver Bowls of Azer-Broth to Azerothian Archivists,148614,8,0,61287,0,1
-148616,Return Empty Bowls to the Lunch Station,148614,8,0,61288,1,1
 148617,Spirit of Sharing gained,0,0,4,0,0,8193
 148618,,148617,1,0,61289,0,0
 148619,Spirit of Sharing gained,0,0,4,0,0,1
@@ -86745,8 +86727,6 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 148743,"Herbs, ores, and skins gathered",0,250,5,0,0,8193
 148744,"Herbs, ores, and skins gathered",148743,1,0,61359,0,1
 148745,"Herbs, ores, and skins gathered",148743,1,0,61232,1,1
-148746,Stage 1 - 6407 - Prep the Otters,0,100,9,0,0,0
-148747,Prep the Familiars for Clue Seeking,148746,1,0,61360,0,1
 148748,Geologist's Ledger - Serevite,0,0,4,0,0,0
 148749,,148748,1,0,61361,0,0
 148750,,148748,1,0,61362,1,0
@@ -87056,7 +87036,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 149090,,149089,15000,0,61617,0,1
 149091,Craft 100 Engineering Items,0,0,4,0,0,0
 149092,,149091,100,0,61618,0,1
-149093,,148517,0,0,61624,10,32
+149093,,148517,0,0,61624,7,32
 149094,Craft 1000 Engineering Items,0,0,4,0,0,0
 149095,,149094,1000,0,61618,0,1
 149096,Craft 5000 Engineering Items,0,0,4,0,0,0
@@ -87375,19 +87355,57 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 149445,,136202,0,0,60283,14,0
 149446,,136202,0,0,60284,15,0
 149447,,136202,0,0,60286,16,0
-149450,6593 - Protect the Site! (Djaradin Ghosts),0,100,9,0,0,0
-149451,Slay Djaradin Phantasms,149450,10,0,61881,0,1
-149452,Slay Hound Phantasms,149450,5,0,61882,1,1
 149455,6541 - Protect the Site! (Elementals),0,100,9,0,0,0
 149456,Slay Disturbed Frost Elementals,149455,8,0,61891,0,1
 149457,Slay Disturbed Earth Elementals,149455,8,0,61892,1,1
-149470,Stage 2 - 6542 - Collect Research Clues,0,100,9,0,0,0
-149471,Clue Spots Collected,149470,5,0,61898,0,1
-149472,Stage 2 - 6543 - Catch Research Clues,0,100,9,0,0,0
-149473,Juicy Clues Collected,149472,12,0,61899,0,1
-149474,Stage 2 - 6544 - Defeat Research Clues,0,100,9,0,0,0
-149475,Morsel Clues Collected,149474,5,0,61900,0,1
 149478,Heat of Battle Brawl rounds participated in,0,0,5,0,0,0
 149479,,149478,0,0,61902,0,0
 149481,Heat of Battle Brawl rounds participated in,0,0,5,0,0,0
 149482,,149481,0,0,61903,0,0
+149485,Eastern Kingdoms Dragon Racing Completionist,0,0,4,0,0,0
+149486,,149485,1,0,61905,0,32
+149487,,149485,1,0,60554,1,32
+149488,,149485,1,0,60555,2,32
+149489,Eastern Kingdoms Dragon Racing Completionist - Silver,0,0,4,0,0,0
+149490,,149489,1,0,61907,0,32
+149491,,149489,1,0,61908,1,32
+149492,,149489,1,0,61910,2,32
+149493,Craft Jeweled Whelplings,0,0,4,0,0,0
+149494,Jeweled Ruby Whelpling,149493,1,0,61906,0,0
+149495,Jeweled Emerald Whelpling,149493,1,0,61909,1,0
+149496,Jeweled Sapphire Whelpling,149493,1,0,61911,2,0
+149497,Jeweled Onyx Whelpling,149493,1,0,61912,3,0
+149498,Jeweled Amber Whelpling,149493,1,0,61913,4,0
+149499,Eastern Kingdoms Dragon Racing Completionist - Gold,0,0,4,0,0,0
+149500,,149499,1,0,61914,0,32
+149501,,149499,1,0,61915,1,32
+149502,,149499,1,0,61916,2,32
+149509,6553 - Set Up Tents,0,100,9,0,0,0
+149510,Set up tents around the digsite!,149509,12,0,61919,0,1
+149511,6552 - Recruit Eager Elementals,0,100,9,0,0,0
+149512,Grant archeologist hats to Eager Elementals to turn them into Assistant Archivists!,149511,15,0,61920,0,1
+149513,6551 - Throw hats at archeologists,0,100,9,0,0,0
+149514,Throw hats to cool off sun-baked archeologists.,149513,15,0,61921,0,1
+149547,Kill the Headless Horseman.,0,1,8,0,0,0
+149548,Headless Horseman,149547,1,0,5833,0,2
+149549,Kill the Headless Horseman while all 4 wicker curses are applied,0,0,4,0,0,0
+149550,Headless Horseman,149549,1,0,61939,0,2
+149552,"Don't Lose Your Head, Man",4995,0,0,61940,2,0
+149553,Headless Horseman,149547,1,0,61941,1,2
+149554,Kill the Headless Horseman.,0,1,4,0,0,0
+149555,Headless Horseman,149554,1,0,61938,0,2
+149556,Secured Shipment Looted,0,1,8,0,0,4096
+149557,,149556,1,0,61942,0,0
+149558,,149556,1,0,61943,1,0
+149559,Reputation earned throughout Dragon Isles,0,3000,5,0,0,4096
+149560,,149559,1,0,61944,0,0
+149561,,149559,1,0,61945,1,0
+149562,,149559,1,0,61946,2,0
+149563,,149559,1,0,61947,3,0
+149564,,149559,1,0,61948,4,0
+149565,,149559,1,0,61949,5,0
+149566,,149559,1,0,61950,6,0
+149567,,149559,1,0,61951,7,0
+149568,,149559,1,0,61952,8,0
+149569,,149559,1,0,61953,9,0
+149570,,149559,1,0,61954,10,0
