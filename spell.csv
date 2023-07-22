@@ -470,7 +470,7 @@ Gain a shield that absorbs $382289s1% of your maximum health for $382290d after 
 2110,,,
 2118,Rank 1,Increases your chance to dodge by 1%.,
 2119,Rank 1,Increase Nature resistance by 4.,
-2120,,"Calls down a pillar of fire, burning all enemies within the area for $s1 Fire damage and reducing their movement speed by $s2% for $d.$?a205037[
+2120,,"Calls down a pillar of fire, burning all enemies within the area for $s1 Fire damage and reducing their movement speed by $s2% for $d. Deals reduced damage beyond $s3 targets.$?a205037[
 
 Leaves behind a patch of flames that burns enemies within it for ${8*$205472s1} Fire damage over $205470d.][]",Movement speed slowed by $s2%.
 2123,Rank 1,Increases your Holy Magic skill by $s1 and reduces your Shadow Resistance by $s2.,
@@ -146586,7 +146586,7 @@ Enemies affected by either Conflagration or Ignite have a $s1% chance to flare u
 205032,,Immediately grants $s1 Arcane Charges.,
 205033,,"When you gain Heating Up, you have a $s1% chance to instantly activate Hot Streak.",
 205036,,Frost Nova now has ${1+$m1} charges.,
-205037,,Flamestrike leaves behind a patch of flames that burns enemies within it for ${8*$205472s1} Fire damage over $205470d. ,
+205037,,Flamestrike leaves behind a patch of flames that burns enemies within it for ${8*$205472s1} Fire damage over $205470d. Deals reduced damage beyond $205472s2 targets.,
 205038,,Increases Blizzard's damage by $s1% and its area of effect by $s2%.,
 205039,,"Your attacks erode the target's resistances, increasing all damage the target takes from your spells by $210134s1%, stacking up to $210134u times. After $210154d of not taking damage from your spells, this effect decreases by $210134s1% every $210154t1 sec.",
 205040,,"A portal stone given by Magus Solgaze to Ranger-General Vereesa Windrunner. ""There's no place like Dalaran.""",
@@ -343313,7 +343313,7 @@ $@spellname317920: Affected allies immune to interrupts and silences.][]",Aura e
 Attack and Movement speeds increased by $s2%."
 412637,,,
 412641,,,
-412643,,Summon an Ethereal Warpweaver to transmogrify your gear for $d.,
+412643,,Summon an Ethereal Warpweaver for $d to transmogrify your gear.,
 412644,,$@spelldesc408080,
 412645,,,
 412648,,,
@@ -346877,6 +346877,7 @@ Damage taken reduced by $s4%."
 421500,,,
 421525,,,
 421629,,,
+421640,,,
 421659,,,
 421662,,Guarantees that the next Time Rift you complete will grant you a reward.,The next time rift you complete is guaranteed to grant you a reward.
 421685,,,
@@ -346917,3 +346918,7 @@ Damage taken reduced by $s4%."
 421751,,,
 421801,,,
 421832,,,
+421833,,Open to gain $s1 Paracausal Flakes.,
+421860,,Crush to gain $s1 Paracausal Flakes.,
+421862,,Read to gain ${$s1/100} reputation with Soridormi.,
+421870,,,
