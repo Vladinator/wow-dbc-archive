@@ -19489,7 +19489,7 @@ $bullet; |cFF2959D3|Hspell:374186|h[Decaying Strength]|h|r grants Wratheye more 
 24735,Rotfang Hyena,,2472,6,25633,25416,0,1,2711,0,0,0,0,0,-1
 24736,Overview,"The Lost Dwarves begin the fight on foot and assault players with bow, sword, and shield. 
 
-Upon reaching 100 energy they activate their ultimate, Longboat Raid! The magical dwarven longboat shoots players with |cFF2959D3|Hspell:375286|h[Searing Cannofire]|h|r, increasing in rate of fire for each dwarf within it. 
+Upon reaching 100 energy they activate their ultimate, Longboat Raid! The magical dwarven longboat shoots players with |cFF2959D3|Hspell:375286|h[Searing Cannonfire]|h|r, increasing in rate of fire for each dwarf within it. 
 
 When a Lost Dwarf reaches $375339s1% health remaining, he retreats to the longboat for the rest of the battle.",2475,1,0,24737,24740,3,0,0,0,0,0,0,-1
 24737,Tanks,"$bullet;|cFF2959D3|Hspell:369573|h[Heavy Arrow]|h|r inflicts high damage to players in front of Baelog.
@@ -21062,13 +21062,14 @@ On Mythic difficulty, one of the targets instead explodes with Explosive Magma. 
 26288,Tank Hit,,2525,26,26229,26635,26560,2,0,0,400777,0,2,4096,0
 26289,Section 14,,2525,35,26237,0,26962,2,0,0,404445,0,2,4,0
 26291,Overview,"The Timeways coalesce in response to Nozdormu's intervention. Fields of |cFF2959D3|Hspell:403910|h[Decaying Time]|h|r and |cFF2959D3|Hspell:403912|h[Accelerating Time]|h|r continually tick around the Manifested Timestream, manipulating how their abilities execute.",2528,1,0,26292,26295,3,0,0,0,0,0,0,-1
-26292,Tanks,"$bullet;|cFF2959D3|Hspell:404663|h[Unwind]|h|r's secondary damage effect is delayed when afflicted by |cFF2959D3|Hspell:403910|h[Decaying Time]|h|r.
-$bullet;|cFF2959D3|Hspell:403910|h[Decaying Time]|h|r and |cFF2959D3|Hspell:403912|h[Accelerating Time]|h|r impactfully manipulate |cFF2959D3|Hspell:405431|h[Fragments of Time]|h|r's travel speed.",2528,2,26291,0,26294,3,0,0,0,0,0,1,-1
+26292,Tanks,"$bullet;|cFF2959D3|Hspell:403910|h[Decaying Time]|h|r and |cFF2959D3|Hspell:403912|h[Accelerating Time]|h|r impactfully manipulate |cFF2959D3|Hspell:405431|h[Fragments of Time]|h|r's travel speed.
+$bullet;Manifested Timeways casts |cFF2959D3|Hspell:414307|h[Radiant]|h|r when there are no valid targets in melee range.
+$[23$bullet;|cFF2959D3|Hspell:414303|h[Unwind]|h|r's secondary damage effect is delayed when afflicted by |cFF2959D3|Hspell:403910|h[Decaying Time]|h|r.$]",2528,2,26291,0,26294,3,0,0,0,0,0,1,-1
 26293,Damage Dealers,"$bullet;|cFF2959D3|Hspell:404141|h[Chrono-faded]|h|r's |cFF2959D3|Hspell:405448|h[Chronofade]|h|r is dangerous when afflicted with |cFF2959D3|Hspell:403910|h[Decaying Time]|h|r.
 $bullet;|cFF2959D3|Hspell:403910|h[Decaying Time]|h|r and |cFF2959D3|Hspell:403912|h[Accelerating Time]|h|r impactfully manipulate |cFF2959D3|Hspell:405431|h[Fragments of Time]|h|r's travel speed.",2528,4,26291,0,0,3,0,0,0,0,0,2,-1
 26294,Healers,"$bullet;|cFF2959D3|Hspell:404141|h[Chrono-faded]|h|r's released |cFF2959D3|Hspell:405448|h[Chronofade]|h|r travels notably faster when dispelled inside |cFF2959D3|Hspell:403912|h[Accelerating Time]|h|r.
-$bullet;|cFF2959D3|Hspell:404663|h[Unwind]|h|r's additional damage is dangeous when the target is afflicted by |cFF2959D3|Hspell:403912|h[Accelerating Time]|h|r.
-$bullet;|cFF2959D3|Hspell:403910|h[Decaying Time]|h|r and |cFF2959D3|Hspell:403912|h[Accelerating Time]|h|r impactfully manipulate |cFF2959D3|Hspell:405431|h[Fragments of Time]|h|r's travel speed.",2528,3,26291,0,26293,3,0,0,0,0,0,4,-1
+$bullet;|cFF2959D3|Hspell:403910|h[Decaying Time]|h|r and |cFF2959D3|Hspell:403912|h[Accelerating Time]|h|r impactfully manipulate |cFF2959D3|Hspell:405431|h[Fragments of Time]|h|r's travel speed.
+$[23$bullet;|cFF2959D3|Hspell:414303|h[Unwind]|h|r's additional damage is dangeous when the target is afflicted by |cFF2959D3|Hspell:403912|h[Accelerating Time]|h|r.$]",2528,3,26291,0,26293,3,0,0,0,0,0,4,-1
 26295,Timeways Conflux,"Shifting fields of time energy surrounds the Manifested Timeways, applying Accelerating Time or Decaying Time.",2528,5,0,26296,26298,0,0,0,0,0,1,32,-1
 26296,Section 6,,2528,6,26295,0,26297,2,0,0,403910,0,0,0,-1
 26297,Section 6,,2528,7,26295,0,0,2,0,0,403912,0,0,0,-1
@@ -21291,7 +21292,7 @@ $bullet; |cFF2959D3|Hspell:407159|h[Blight Reclamation]|h|r removes |cFF2959D3|H
 26549,Section 19,,2522,10,26177,0,26285,2,0,0,408367,0,0,4,-1
 26550,Section 20,,2522,22,26183,0,26708,2,0,0,408147,0,2,4096,0
 26551,Section 20,,2522,12,26177,0,0,2,0,0,404789,0,0,0,-1
-26552,,"Rashok gradually gains energy over time while outside the Elder's Conduit. At 100 energy, Rashok gains |cFF2959D3|Hspell:405316|h[Ancient Fury]|h|r and begins to pulse deadly Shadowflame damage.
+26552,Overview,"Rashok gradually gains energy over time while outside the Elder's Conduit. At 100 energy, Rashok gains |cFF2959D3|Hspell:405316|h[Ancient Fury]|h|r and begins to pulse deadly Shadowflame damage.
 
 Rashok's powerful |cFF2959D3|Hspell:405821|h[Searing Slam]|h|r creates a |cFF2959D3|Hspell:406160|h[Lava Vortex]|h|r which pours forth |cFF2959D3|Hspell:403556|h[Lava Wave]|h|r across the chamber.",2525,1,0,26553,26229,3,0,0,0,0,1,0,-1
 26553,Tank,"$bullet; Rashok gains |cFF2959D3|Hspell:405316|h[Ancient Fury]|h|r at 100 energy and begins to pulse deadly Shadowflame to all players.
@@ -21340,7 +21341,7 @@ $bullet; |cFF2959D3|Hspell:414535|h[Stonecracker Barrage]|h|r inflicts lethal da
 $bullet; |cFF2959D3|Hspell:409456|h[Earthsurge]|h|r radiates damaging energy waves while Iridikron remains shielded.",2537,6,26577,0,0,3,0,0,0,0,2,1,2
 26581,Overview,"Deios begins the infinite dawn, summoning Infinite Keepers who create stable time rifts, invading this timeline with Time-Displaced Troopers from other timelines. After summoning 4 Infinite Keepers, Deios takes to the skies.
 
-Deios lands once all portals close, beginning his onslaught against Nozdormu while the the other proto-dragon allies pelt Deios from the skies. 
+Deios lands once all portals close, beginning his onslaught against Nozdormu while the other proto-dragon allies pelt Deios from the skies. 
 
 When Deios reaches $416276s1% health the proto-dragon allies land and free Nozdormu, battling Deios head on.",2538,1,0,26582,26751,3,0,0,0,0,0,0,-1
 26582,Tanks,"$bullet;Aim |cFF2959D3|Hspell:416139|h[Temporal Breath]|h|r away from allies.
@@ -21493,7 +21494,7 @@ Upon reaching $412335s1% health Deios lands.",2538,5,0,26752,26757,0,0,0,0,0,1,0
 26755,Section 11,,2538,23,26758,0,0,2,0,0,416139,0,0,1,-1
 26757,Stage 2: Lord of the Infinite,"Deios periodically blasts Nozdormu with |cFF2959D3|Hspell:416264|h[Infinite Corruption]|h|r.
 
-Upon reaching $416276s1% health, the proto-dagon allies land and free Nozdormu.",2538,17,0,26758,0,0,0,0,0,0,0,0,-1
+Upon reaching $416276s1% health, the proto-dragon allies land and free Nozdormu.",2538,17,0,26758,0,0,0,0,0,0,0,0,-1
 26758,Chrono-Lord Deios,,2538,18,26757,27204,0,1,106056,0,0,0,1,0,-1
 26773,Desolate Blossom,,2520,45,26142,0,26166,2,0,0,404403,0,2,0,0
 26774,Damage Dealers,"$bullet;Neldris dashes between marked players with |cFF2959D3|Hspell:406358|h[Rending Charge]|h|r, affecting anyone in her path. 
