@@ -21835,7 +21835,7 @@ Are you sure you want to proceed?",1
 51342,PING_TYPE_ATTACK,Attack,1
 51343,PING_TYPE_ON_MY_WAY,On My Way,1
 51344,PING_TYPE_WARNING,Warning,1
-51345,PING_ERROR,Can't ping this.,1
+51345,PING_FAILED_GENERIC,Can't ping this.,1
 51346,PING_FAILED_SPAMMING,"Could not send ping, too many pings sent at once.",1
 51347,PING_FAILED_INVALID_TARGET,"Could not send ping, invalid target.",1
 51348,PING_FAILED_DISABLED_BY_LEADER,"Could not send ping, pings restricted by party leader.",1
@@ -21882,3 +21882,9 @@ Are you sure you want to proceed?",1
 51399,BLIZZARD_STORE_DISCLAIMER_GUILD_TRANSFER,This process may take %s to complete.|n|HurlIndex:44|h|cff006995Frequently Asked Questions|r|h,3
 51408,SELL_ALL_JUNK_ITEMS_EXCLUDE_FLAG,Keep Junk,1
 51409,SELL_ALL_JUNK_ITEMS_EXCLUDE_HEADER,Vendor Junk,1
+51414,PING_MODE_KEY_DOWN,Quick Ping,1
+51415,PING_MODE_CLICK_DRAG,Relaxed Ping,1
+51416,PING_MODE,Ping Mode,1
+51417,OPTION_TOOLTIP_PING_MODE,Determines which mode is used to interact with the ping system.,1
+51419,OPTION_TOOLTIP_PING_MODE_CLICK_DRAG,"When pressing the ping keybind, click to contextually ping, or click and drag to trigger the ping radial menu.",1
+51420,OPTION_TOOLTIP_PING_MODE_KEY_DOWN,"Press and release the ping keybind to contextually ping, or press and hold to trigger the ping radial menu.",1
