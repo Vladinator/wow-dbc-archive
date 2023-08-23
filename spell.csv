@@ -619,7 +619,7 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
 1094,Rank 3,Burns the enemy for $s2 Fire damage and then an additional $o1 Fire damage over $d.,$s1 Fire damage every $t1 seconds.
 1095,Rank 3,Teaches Immolate (Rank 3).,
 1096,,Blasts a target for $s1 Fire damage.,
-1098,Rank 1,"Enslaves the target demon, up to level $m1, forcing it to do your bidding.  While enslaved, the time between the demon's attacks is increased by $s2% and its casting speed is slowed by $s3%.  Lasts up to $d.  If you repeatedly enslave the same demon, it will become more difficult to control with each attempt.",Enslaved.
+1098,Rank 1,"Subjugates the target demon, up to level $m1, forcing it to do your bidding.  While subjugated, the time between the demon's attacks is increased by $s2% and its casting speed is slowed by $s3%.  Lasts up to $d.  If you repeatedly subjugate the same demon, it will become more difficult to control with each attempt.",Enslaved.
 1101,Rank 1,Teaches Mana Funnel.,
 1105,Rank 3,Teaches Seal of Wisdom (Rank 3).,
 1106,Rank 5,"Sends a shadowy bolt at the enemy, causing $s1 Shadow damage.",
@@ -632,7 +632,7 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
 1117,Rank 1,,
 1120,Rank 1,"Drains the soul of the target, causing $o2 Shadow damage over $d.  If the target dies while being drained, and yields experience or honor, the caster gains a Soul Shard.  Soul Shards are required for other spells.",$s2 Shadow damage every $t2 seconds.
 1121,,,Entangled
-1122,Summon,"Summons a meteor from the Twisting Nether, causing $22699s1 Fire damage and stunning all enemy targets in the area for $20310d.  An Infernal rises from the crater, under the command of the caster for $20882d.  Once control is lost, the Infernal must be Enslaved to maintain control.  Can only be used outdoors.",
+1122,Summon,"Summons a meteor from the Twisting Nether, causing $22699s1 Fire damage and stunning all enemy targets in the area for $20310d.  An Infernal rises from the crater, under the command of the caster for $20882d.  Once control is lost, the Infernal must be Subjugated to maintain control.  Can only be used outdoors.",
 1123,,Teaches Ritual of Doom.,
 1124,,Blasts all enemies in a 10 yard radius with $s1 flame damage.,
 1126,Rank 1,Increases the friendly target's armor by $s1 for $d.,Increases armor by $s1.
@@ -8729,8 +8729,8 @@ Strength reduced by $s3%."
 11722,Rank 3,"Curses the target for $d, reducing Fire and Frost resistances by $s1 and increasing Fire and Frost damage taken by $s2%.  Only one Curse per Warlock can be active on any one target.",Reduces Fire and Frost resistances by $s1.  Increases Fire and Frost damage taken by $s2%.
 11723,Rank 2,,
 11724,Rank 3,,
-11725,Rank 2,"Enslaves the target demon, up to level $m1, forcing it to do your bidding.  While enslaved, the time between the demon's attacks is increased by $s2% and its casting speed is slowed by $s3%.  Lasts up to $d.  If you repeatedly enslave the same demon, it will become more difficult to control with each attempt.",Enslaved.
-11726,Rank 3,"Enslaves the target demon, up to level $m1, forcing it to do your bidding.  While enslaved, the time between the demon's attacks is increased by $s2% and its casting speed is slowed by $s3%.  Lasts up to $d.  If you repeatedly enslave the same demon, it will become more difficult to control with each attempt.",Enslaved.
+11725,Rank 2,"Subjugates the target demon, up to level $m1, forcing it to do your bidding.  While subjugated, the time between the demon's attacks is increased by $s2% and its casting speed is slowed by $s3%.  Lasts up to $d.  If you repeatedly subjugate the same demon, it will become more difficult to control with each attempt.",Enslaved.
+11726,Rank 3,"Subjugates the target demon, up to level $m1, forcing it to do your bidding.  While subjugated, the time between the demon's attacks is increased by $s2% and its casting speed is slowed by $s3%.  Lasts up to $d.  If you repeatedly subjugate the same demon, it will become more difficult to control with each attempt.",Enslaved.
 11727,Rank 2,,
 11728,Rank 3,,
 11729,,"Creates a Greater Healthstone that can be used to instantly restore $5723s1 health.
@@ -13802,7 +13802,7 @@ Attack speed increased by $s2%."
 18535,Rank 5,"Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by $/1000;S1 sec.",
 18536,,Teaches you how to sew a Robe of the Archmage.,
 18537,,Teaches you how to sew a Robe of the Void.,
-18540,,"Begins a ritual that sacrifices a random participant to summon a doomguard.  The doomguard must be immediately enslaved or it will attack the ritual participants.  Requires the caster and 4 additional party members to complete the ritual.  In order to participate, all players must right-click the portal and not move until the ritual is complete.",
+18540,,"Begins a ritual that sacrifices a random participant to summon a doomguard.  The doomguard must be immediately subjugated or it will attack the ritual participants.  Requires the caster and 4 additional party members to complete the ritual.  In order to participate, all players must right-click the portal and not move until the ritual is complete.",
 18541,,,
 18542,,,
 18543,,"Burns an enemy, then inflicts additional Fire damage every $t1 sec. for $d.",Fire damage inflicted every $t1 sec.
@@ -14050,11 +14050,11 @@ Felhunter: Restores $18792s1% of total Mana every $18792t1 sec.",
 18818,,,
 18819,,"Inflicts weapon damage plus $s1 to an enemy and its nearest allies, affecting up to $x1 targets.",
 18820,,Reduces the cost of your next spell cast within $d by up to 500 mana.,Reduced mana cost.
-18821,Rank 1,Reduces the Attack Speed and Casting Speed penalty of your Enslave Demon spell by $s1% and reduces the resist chance by $s3%.,
-18822,Rank 2,Reduces the Attack Speed and Casting Speed penalty of your Enslave Demon spell by $s1% and reduces the resist chance by $s3%.,
-18823,Rank 3,Reduces the Attack Speed and Casting Speed penalty of your Enslave Demon spell by $s1% and reduces the resist chance by $s3%.,
-18824,Rank 4,Reduces the Attack Speed and Casting Speed penalty of your Enslave Demon spell by $s1% and reduces the resist chance by $s3%.,
-18825,Rank 5,Reduces the Attack Speed and Casting Speed penalty of your Enslave Demon spell by $s1% and reduces the resist chance by $s3%.,
+18821,Rank 1,Reduces the Attack Speed and Casting Speed penalty of your Subjugate Demon spell by $s1% and reduces the resist chance by $s3%.,
+18822,Rank 2,Reduces the Attack Speed and Casting Speed penalty of your Subjugate Demon spell by $s1% and reduces the resist chance by $s3%.,
+18823,Rank 3,Reduces the Attack Speed and Casting Speed penalty of your Subjugate Demon spell by $s1% and reduces the resist chance by $s3%.,
+18824,Rank 4,Reduces the Attack Speed and Casting Speed penalty of your Subjugate Demon spell by $s1% and reduces the resist chance by $s3%.,
+18825,Rank 5,Reduces the Attack Speed and Casting Speed penalty of your Subjugate Demon spell by $s1% and reduces the resist chance by $s3%.,
 18826,,Increases armor by $s1 for $d.,Increased armor.
 18827,Rank 1,Increases the damage done by your Curse of Agony by $s1%.,
 18828,,"When struck in combat has a 3% chance to encase the caster in bone, increasing armor by $s1 for $d.",Increased armor.
@@ -15809,7 +15809,7 @@ Strength reduced by $s3%."
 20879,,Teaches you how to make Fiery Chain Shoulders.,
 20880,,Teaches you how to make Dark Iron Bracers.,
 20881,,Teaches you how to make Dark Iron Leggings.,
-20882,,"Enslaves the target demon, up to level $m1, forcing it to do your bidding.  While enslaved, the time between the demon's attacks is increased by $s2% and its casting speed is slowed by $s3%.  Lasts up to $d.",Enslaved.
+20882,,"Subjugates the target demon, up to level $m1, forcing it to do your bidding.  While subjugated, the time between the demon's attacks is increased by $s2% and its casting speed is slowed by $s3%.  Lasts up to $d.",Enslaved.
 20883,,Blasts a target for $s1 Arcane damage.,
 20884,,$s1% chance to stun a victim struck in combat for $23454d.,
 20885,Rank 1,Restores $s1 health per 5 sec.,Restores $s1 health per 5 sec.
@@ -18693,7 +18693,7 @@ Healing increased by up to $s2."
 24667,,Increases damage done by Frost spells and effects by up to $s1.,
 24668,,"Hurls a bolt of dark magic at an enemy, inflicting Shadow damage.",
 24669,,"Calls down a molten rain, burning all enemies in a selected area for $s1 Fire damage every $t1 sec. for $d.",$s1 Fire damage inflicted every $t1 sec.
-24670,,"Summons a meteor from the Twisting Nether, causing $22699s1 Fire damage and stunning all enemy targets in the area for $20310d.  An Infernal rises from the crater, under the command of the caster for $20882d.  Once control is lost, the Infernal must be Enslaved to maintain control.  Can only be used outdoors.",
+24670,,"Summons a meteor from the Twisting Nether, causing $22699s1 Fire damage and stunning all enemy targets in the area for $20310d.  An Infernal rises from the crater, under the command of the caster for $20882d.  Once control is lost, the Infernal must be Subjugated to maintain control.  Can only be used outdoors.",
 24671,,"Inflicts $s2 damage to an enemy, stunning it for $d.",Stunned.
 24672,,"Increases an ally's attack speed by $s1% for $d., but also inflicts $s2 Nature damage to that ally every $t2 sec.","Attack speed increased by $s1%.
 $s2 Nature damage inflicted every $t2 sec."
@@ -22219,7 +22219,7 @@ Health increased by $s1%."
 Health increased by $s1%."
 363880,,$@spelldesc24427,
 363881,,Restores $s2 health every $t2 sec and increases your Strength by $s1.  Lasts $d.,Restores $s2 health every $t2 sec and Strength increased by $s1.
-364001,,,"|cFFffd200Season of Mastery|r
+364001,,,"|cFFffd200Hardcore|r
 $?$W1!=0[$@spelldesc348779$@spellicon364090 $@spellname364090][]$?$W2!=0[$@spelldesc348779$@spellicon364095 $@spellname364095][]$?$W3!=0[$@spelldesc348779$@spellicon364339 $@spellname364339][]$?$W4!=0[$@spelldesc348779$@spellicon364340 $@spellname364340][]$?$W5!=0[$@spelldesc348779$@spellicon364341 $@spellname364341][]"
 364043,,,
 364060,,,
@@ -22672,4 +22672,23 @@ Health increased by $s2%."
 384135,,"Grants all raid members the chance to discover additional rewards from Kel'Thuzad and his lieutenants.
 
 This effect stacks and lasts for an entire week.",
+402265,,,
 407501,,,Stunned
+410657,,,
+413548,,"Degreelessness enabled. Immune to all CC.
+Fatal damage is absorbed.
+$s2% Health healed every $t2 sec.","Degreelessness enabled. Immune to all CC.
+Fatal damage is absorbed.
+$s2% Health healed every $t2 sec."
+416221,,,
+416262,,,
+417463,,,Your brush with death temporarily reveals the spectral realm.
+417627,,Drink in the Tanaris Graveyard.,
+417684,,,
+417803,,,"Your eyes are filled with spectral flame, granting sight beyond the mortal veil."
+419126,,Display how many trophies you've gathered from victories while Dueling to the Death.,$w $?$w=1[trophy][trophies] gathered as victories while Dueling to the Death.
+419427,,,
+420855,,,
+420862,,,
+422621,,Reduces the power cost of spells and abilities by $s1%.,Reduces the power cost of spells and abilities by $s1%.
+422978,,,"Decreases all attributes by $s1%, all damage caused by $s2%, armor and resistance by $s3%."
