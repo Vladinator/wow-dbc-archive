@@ -11343,7 +11343,7 @@ You can find trainers for them in some settlements and cities.",1
 23441,SHADOW_ORBS_POWER,|4Shadow Orb:Shadow Orbs;,1
 23443,FAVORITES_FILTER,Only Favorites,1
 23444,ERR_BONUS_ROLL_EMPTY,You were not eligible to receive any loot from this boss. You have not been charged for your bonus roll.,1
-23445,MAIN_HELP_BUTTON_TOOLTIP,Click this to toggle on/off the help system for this frame.,1
+23445,MAIN_HELP_BUTTON_TOOLTIP,Click this to toggle on/off the help system for this frame.,3
 23446,CR_RANGED_EXPERTISE_TOOLTIP,Reduces chance to be dodged by %s\nExpertise %s (+%.2F%% expertise),1
 23447,ADD_CHARACTER_FRIEND,Add Character Friend,1
 23448,ACCOUNT_WIDE_ACHIEVEMENT_COMPLETED,All of your characters have credit\nfor earning this achievement.,1
@@ -21815,7 +21815,7 @@ Are you sure you want to proceed?",1
 51313,OPTION_TOOLTIP_REPLACE_MY_PLAYER_PORTRAIT,Replace your player unit frame portrait with your class icon,1
 51314,PING_SUBJECT_TYPE_ON_MY_WAY_UNIT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_onmyway:0:0:0:0|aOn my way to: %s,1
 51315,PING_SUBJECT_TYPE_ATTACK_UNIT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_attack:0:0:0:0|aAttack: %s,1
-51316,PING_SUBJECT_TYPE_ASSIST_UNIT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_assist:0:0:0:0|aHelp: %s,1
+51316,PING_SUBJECT_TYPE_ASSIST_UNIT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_assist:0:0:0:0|aAssist: %s,1
 51317,PING_SUBJECT_TYPE_WARNING_UNIT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_warning:0:0:0:0|aWarning: %s,1
 51318,PING_SUBJECT_TYPE_ALERT_THREAT_UNIT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_threat:0:0:0:0|aThreatening alert: %s,1
 51319,PING_SUBJECT_TYPE_ALERT_NOT_THREAT_UNIT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_nonthreat:0:0:0:0|a%s,1
@@ -21836,10 +21836,10 @@ Are you sure you want to proceed?",1
 51343,PING_TYPE_ON_MY_WAY,On My Way,1
 51344,PING_TYPE_WARNING,Warning,1
 51345,PING_FAILED_GENERIC,Can't ping this.,1
-51346,PING_FAILED_SPAMMING,"Could not send ping, too many pings sent at once.",1
-51347,PING_FAILED_INVALID_TARGET,"Could not send ping, invalid target.",1
-51348,PING_FAILED_DISABLED_BY_LEADER,"Could not send ping, pings restricted by party leader.",1
-51349,PING_FAILED_UNSPECIFIED,"Could not send ping, something went wrong.",1
+51346,PING_FAILED_SPAMMING,Could not send ping: too many pings sent at once.,1
+51347,PING_FAILED_INVALID_TARGET,Could not send ping: invalid target.,1
+51348,PING_FAILED_DISABLED_BY_LEADER,Could not send ping: pings restricted by party leader.,1
+51349,PING_FAILED_UNSPECIFIED,Could not send ping: something went wrong.,1
 51351,PNC_FLOW_CUSTOMIZE_CHARACTER_STEP,You'll customize your character in the next step.,2
 51352,PNC_FLOW_FINISH_LABEL,Accept,2
 51354,SLASH_PING1,/ping,1
@@ -21853,7 +21853,7 @@ Are you sure you want to proceed?",1
 51363,PING_SUBJECT_TYPE_ALERT_NOT_THREAT_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_nonthreat:0:0:0:0|aLook here,1
 51364,PING_SUBJECT_TYPE_ALERT_THREAT_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_threat:0:0:0:0|aThreatening alert,1
 51365,PING_SUBJECT_TYPE_WARNING_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_warning:0:0:0:0|aWarning,1
-51366,PING_SUBJECT_TYPE_ASSIST_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_assist:0:0:0:0|aHelp,1
+51366,PING_SUBJECT_TYPE_ASSIST_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_assist:0:0:0:0|aAssist,1
 51367,PING_SUBJECT_TYPE_ATTACK_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_attack:0:0:0:0|aAttack,1
 51368,PING_SUBJECT_TYPE_ON_MY_WAY_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_onmyway:0:0:0:0|aOn my way,1
 51374,ENABLE_PING_SOUNDS,Ping Sounds,1
@@ -21861,7 +21861,7 @@ Are you sure you want to proceed?",1
 51376,PING_VOLUME,Ping Volume,1
 51377,OPTION_TOOLTIP_PING_VOLUME,Adjusts ping sounds volume,1
 51378,PING_SYSTEM_LABEL,Ping System,1
-51379,PING_FAILED_OUT_OF_PING_AREA,"Could not send ping, target is out of range.",1
+51379,PING_FAILED_OUT_OF_PING_AREA,Could not send ping: target is out of range.,1
 51380,ERR_CANT_BULK_SELL_ITEM_WITH_REFUND,Items that can be refunded can't be bulk sold.,1
 51381,ENABLE_PINGS,Enable Pings,1
 51382,OPTION_TOOLTIP_ENABLE_PINGS,Toggles the ping system on and off,1
@@ -21876,11 +21876,11 @@ Are you sure you want to proceed?",1
 51391,BINDING_NAME_PINGASSIST,Assist,1
 51392,SLASH_TEXTTOSPEECH_PING,ping,1
 51393,SLASH_TEXTTOSPEECH_HELP_PING,Enable or disable ping messages,1
-51394,PING_FAILED_DISABLED_BY_SETTINGS,"Could not send ping, pings are disabled in settings.",1
+51394,PING_FAILED_DISABLED_BY_SETTINGS,Could not send ping: pings are disabled in settings.,1
 51395,PING_SYSTEM_SETTINGS,Ping System Settings,1
 51398,BLIZZARD_STORE_CLICK_TO_OPEN_FAQ,|cnPURE_GREEN_COLOR:<Shift click to view Frequently Asked Questions in your browser>|r,3
 51399,BLIZZARD_STORE_DISCLAIMER_GUILD_TRANSFER,This process may take %s to complete.|n|HurlIndex:44|h|cff006995Frequently Asked Questions|r|h,3
-51408,SELL_ALL_JUNK_ITEMS_EXCLUDE_FLAG,Keep Junk,1
+51408,SELL_ALL_JUNK_ITEMS_EXCLUDE_FLAG,Sell Junk,1
 51409,SELL_ALL_JUNK_ITEMS_EXCLUDE_HEADER,Vendor Junk,1
 51414,PING_MODE_KEY_DOWN,Quick Ping,1
 51415,PING_MODE_CLICK_DRAG,Relaxed Ping,1
@@ -21888,3 +21888,15 @@ Are you sure you want to proceed?",1
 51417,OPTION_TOOLTIP_PING_MODE,Determines which mode is used to interact with the ping system.,1
 51419,OPTION_TOOLTIP_PING_MODE_CLICK_DRAG,"When pressing the ping keybind, click to contextually ping, or click and drag to trigger the ping radial menu.",1
 51420,OPTION_TOOLTIP_PING_MODE_KEY_DOWN,"Press and release the ping keybind to contextually ping, or press and hold to trigger the ping radial menu.",1
+51433,PING_FAILED_SQUELCHED,Could not send ping: chat is temporarily suspended.,1
+51434,PING_SYSTEM_TUTORIAL_CONTEXTUAL,|cnTUTORIAL_BLUE_FONT_COLOR:Press|r the Ping key to drop quick pings in the world.,1
+51435,PING_SYSTEM_TUTORIAL_RADIAL,|cnTUTORIAL_BLUE_FONT_COLOR:Press and Hold|r your ping key to select a specific ping.,1
+51436,PING_SYSTEM_TUTORIAL_TARGETS,|cnTUTORIAL_BLUE_FONT_COLOR:Ping directly|r onto a creature or character.,1
+51437,PING_SYSTEM_TUTORIAL_MACRO_1,|cnTUTORIAL_BLUE_FONT_COLOR:Set up macros|r using Pings.,1
+51438,PING_SYSTEM_TUTORIAL_MACRO_2,Type |cnNORMAL_FONT_COLOR:/macro|r in chat,1
+51439,PING_SYSTEM_TUTORIAL_MACRO_3,Macro command:,1
+51440,PING_SYSTEM_TUTORIAL_MACRO_4,|cnNORMAL_FONT_COLOR:/ping [@target] Ping Type|r,1
+51441,PING_SYSTEM_TUTORIAL_TOOLTIP,About the Ping System,1
+51442,PING_SYSTEM_TUTORIAL_LABEL,Ping System,1
+51443,INSPECT_REQUIREMENTS,<Ctrl-Click to view requirements>,1
+51444,ERR_BATTLEGROUND_INVITATION_DECLINED_BY,Your War Game invitation has been declined by %s.,1
