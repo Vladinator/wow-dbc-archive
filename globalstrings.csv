@@ -11839,7 +11839,7 @@ ID,BaseTag,TagText_lang,Flags
 23565,SPELL_PASSIVE_SECOND,Passive,1
 23566,LOOT_ROLL_LOST_ROLL,|HlootHistory:%d|h[Loot]|h: You have rolled %s - %d for: %s,1
 23567,BATTLE_PETS_TOTAL_PETS,Total Pets,1
-23569,BATTLE_PETS_TOTAL_PETS_TOOLTIP,Total number of pets owned.  You can have up to %d total pets and three of the same pet.,1
+23569,BATTLE_PETS_TOTAL_PETS_TOOLTIP,Total number of pets owned. ,1
 23570,BATTLE_PETS_ACHIEVEMENT,Battle Pet Achievements,1
 23571,BATTLE_PETS_FIND_BATTLE_TOOLTIP,Matches you against a player of similar skill in a pet battle.,1
 23572,BATTLE_PETS_ACHIEVEMENT_TOOLTIP,Your total pet achievements score.  Some pet achievements unlock additional functionality.,1
@@ -14061,12 +14061,12 @@ ID,BaseTag,TagText_lang,Flags
 25986,COLORBLIND_ITEM_QUALITY,Item Quality,1
 25987,BLIZZARD_STORE_CONFIRMATION_VAS_NAME_CHANGE_KR,"This service is nonrefundable after clicking the button below, and the service will automatically be applied when processing has been completed.",3
 25988,POWER_TYPE_INSANITY,Insanity,1
-25989,BLIZZARD_STORE_DISCLAIMER_FACTION_CHANGE,This process may take %s to complete. |HurlIndex:23|h|cff006995Frequently Asked Questions|r|h,2
+25989,BLIZZARD_STORE_DISCLAIMER_FACTION_CHANGE,This process may take %s to complete. |HurlIndex:23|h|cff006995Frequently Asked Questions|r|h,3
 25990,BLIZZARD_STORE_DISCLAIMER_RACE_CHANGE,|HurlIndex:24|h|cff006995Frequently Asked Questions|r|h,3
 25991,BLIZZARD_STORE_DISCLAIMER_APPEARANCE_CHANGE,|HurlIndex:25|h|cff006995Frequently Asked Questions|r|h,3
 25992,BLIZZARD_STORE_DISCLAIMER_NAME_CHANGE,|HurlIndex:26|h|cff006995Frequently Asked Questions|r|h,3
 25993,POWER_TYPE_MAELSTROM,Maelstrom,1
-25994,BLIZZARD_STORE_DISCLAIMER_FACTION_CHANGE_CN,This process may take %s to complete. |HurlIndex:27|h|cff006995Frequently Asked Questions|r|h,2
+25994,BLIZZARD_STORE_DISCLAIMER_FACTION_CHANGE_CN,This process may take %s to complete. |HurlIndex:27|h|cff006995Frequently Asked Questions|r|h,3
 25995,BLIZZARD_STORE_DISCLAIMER_RACE_CHANGE_CN,|HurlIndex:28|h|cff006995Frequently Asked Questions|r|h,3
 25996,BLIZZARD_STORE_DISCLAIMER_APPEARANCE_CHANGE_CN,|HurlIndex:29|h|cff006995Frequently Asked Questions|r|h,3
 25997,BLIZZARD_STORE_DISCLAIMER_NAME_CHANGE_CN,|HurlIndex:30|h|cff006995Frequently Asked Questions|r|h,3
@@ -14804,8 +14804,8 @@ ID,BaseTag,TagText_lang,Flags
 33870,BILLING_TIME_LEFT_30_MINS,"You currently have 30 minutes or less left on your account.  If you have not already done so, please go to the billing pages and purchase more time.",2
 33871,BILLING_TIME_LEFT_DAYS,You have %d days of play time remaining.,2
 33872,BILLING_TIME_LEFT_LAST_DAY,Your play time will expire in less than 1 day.,2
-33873,BLIZZARD_STORE_DISCLAIMER_CHARACTER_TRANSFER,This process may take %s to complete. |HurlIndex:31|h|cff006995Frequently Asked Questions|r|h,2
-33874,BLIZZARD_STORE_DISCLAIMER_CHARACTER_TRANSFER_CN,This process may take %s to complete. |HurlIndex:32|h|cff006995Frequently Asked Questions|r|h,2
+33873,BLIZZARD_STORE_DISCLAIMER_CHARACTER_TRANSFER,This process may take %s to complete. |HurlIndex:31|h|cff006995Frequently Asked Questions|r|h,3
+33874,BLIZZARD_STORE_DISCLAIMER_CHARACTER_TRANSFER_CN,This process may take %s to complete. |HurlIndex:32|h|cff006995Frequently Asked Questions|r|h,3
 33875,BLIZZARD_STORE_LOG_OUT_NOW,Log Out Now,2
 33876,BLIZZARD_STORE_VAS_PRODUCT_READY,Your %s is ready!,2
 33877,BLIZZ_DISCLAIMER,Copyright 2004-2021  Blizzard Entertainment. All Rights Reserved.,2
@@ -17424,6 +17424,7 @@ ID,BaseTag,TagText_lang,Flags
 41523,OPTION_TOOLTIP_SHOW_MINIMAP_CLOCK,Uncheck this to hide the clock below the minimap.,1
 41543,ERR_GENERIC_THROTTLE,You're doing that too fast,1
 41570,ERR_BATTLEGROUND_JOIN_MEMBER_DISQUALIFIED,A party member has been disqualified from this bracket.,1
+41600,ENTER_LFG,Enter,1
 41608,ERR_BATTLEGROUND_JOIN_DISQUALIFIED_NO_NAME,A player has been disqualified from ranked play in this bracket.,1
 41615,CREDITS_WOW_CLASSIC,World of Warcraft Classic Credits,2
 41640,BNET_FRIEND_ZONE_WOW_CLASSIC,WoW Classic: %s,1
@@ -17638,7 +17639,10 @@ ID,BaseTag,TagText_lang,Flags
 43295,CONFIRM_TEXT_TO_SPEECH_RESET,Do you want to reset all text to speech settings to default?,1
 43297,TEXT_TO_SPEECH_PLAY_SAMPLE,Play Sample,1
 43298,TEXT_TO_SPEECH_SAMPLE_TEXT,This is an example of text to speech,1
+43299,SLASH_TEXTTOSPEECH1,/tts,1
 43301,TEXT_TO_SPEECH_ALTERNATE_SYSTEM_VOICE,Use alternate voice for System Messages,1
+43302,BINDING_NAME_TOGGLETEXTTOSPEECH,Toggle Text To Speech Config,1
+43303,SLASH_TEXTTOSPEECH_PLAYENTER,playenter,1
 43304,SLASH_TEXTTOSPEECH_PLAYLINE,playline,1
 43305,SLASH_TEXTTOSPEECH_PLAYACTIVITY,playactivity,1
 43306,SLASH_TEXTTOSPEECH_SAYNAME,sayname,1
@@ -17658,6 +17662,8 @@ ID,BaseTag,TagText_lang,Flags
 43320,SLASH_TEXTTOSPEECH_INSTANCELEADER,instanceleader,1
 43321,SLASH_TEXTTOSPEECH_INSTANCE,instance,1
 43322,SLASH_TEXTTOSPEECH_BLIZZARD,blizzard,1
+43323,SLASH_TEXTTOSPEECH_VOICEMALE,voicemale,1
+43324,SLASH_TEXTTOSPEECH_VOICEFEMALE,voicefemale,1
 43325,SLASH_TEXTTOSPEECH_DEFAULT,default,1
 43332,CHAR_LOGIN_LOCKED_FOR_REALM_PLAYTYPE,This character isn't activated for this realm type.,2
 43338,REPORT_BAD_ARENA_TEAM_NAME,Arena Team Name,1
@@ -17710,8 +17716,12 @@ ID,BaseTag,TagText_lang,Flags
 44003,COLORBLIND_MODE_LABEL,Colorblind Mode,1
 44004,COLORBLIND_MODE_SUBTEXT,Adjusts colors and adds information to aid in color blindness.,1
 44009,VOICE_GENERIC_FORMAT,English Voice %d,1
+44011,SLASH_TEXTTOSPEECH_ON,on,1
+44012,SLASH_TEXTTOSPEECH_OFF,off,1
 44013,SLASH_TEXTTOSPEECH_SAMPLE,sample,1
 44014,SLASH_TEXTTOSPEECH_SETTINGS,settings,1
+44015,SLASH_TEXTTOSPEECH_ENABLED,Enabled,1
+44016,SLASH_TEXTTOSPEECH_DISABLED,Disabled,1
 44017,SLASH_TEXTTOSPEECH_CONFIRMATION,%s set to %s,1
 44018,SLASH_TEXTTOSPEECH_CONFIRMATION_RESET,Text to Speech settings have been restored to defaults.,1
 44019,TEXT_TO_SPEECH,Text To Speech,1
@@ -17721,20 +17731,24 @@ ID,BaseTag,TagText_lang,Flags
 44026,SLASH_TEXTTOSPEECH_HELP,help,1
 44027,SLASH_TEXTTOSPEECH_MENU,menu,1
 44028,SLASH_TEXTTOSPEECH_CHANNEL,channel,1
+44029,SLASH_TEXTTOSPEECH_CHANNEL_USAGE,Usage: /tts channel <channelName>|nSee '/tts menu' for names of valid channels.,1
 44030,SLASH_VOICE_TEXT1,/vt,1
 44031,ERR_PARTY_MEMBER_SILENCED,Can't do that when someone in your group is silenced.,1
 44032,ERR_PARTY_MEMBER_SILENCED_LFG_DELIST,Your group has been delisted because someone in your group is silenced.,1
 44033,SLASH_TEXTTOSPEECH_MYMESSAGES,mymessages,1
 44034,TEXT_TO_SPEECH_VOICE_OPTIONS,Voice Options,1
 44045,TEXT_TO_SPEECH_MORE_VOICES,For more voice options see our |cff00aaff|HurlIndex:56|hSupport Page|h|r,1
+44051,TEXTTOSPEECH_HELP_OVERVIEW,Text to Speech Commands: |nType /tts to enable Text to Speech or set an option by typing /tts followed by one of the commands below:,1
 44052,SLASH_TEXTTOSPEECH_HELP_ALTVOICE,[%d - %d] - Set alternate voice option to the given voice,1
 44053,SLASH_TEXTTOSPEECH_HELP_BLIZZARD,Enable or disable blizzard whisper messages,1
 44054,SLASH_TEXTTOSPEECH_HELP_CHANNEL,Enable or disable the given channel,1
 44055,SLASH_TEXTTOSPEECH_HELP_DEFAULT,Restore Text to Speech defaults,1
 44056,SLASH_TEXTTOSPEECH_HELP_EMOTE,Enable or disable emote messages,1
 44057,SLASH_TEXTTOSPEECH_HELP_GUILD,Enable or disable guild messages,1
+44058,SLASH_TEXTTOSPEECH_HELP_GUILDANNOUNCE,Enable or disable guild announce,1
 44059,SLASH_TEXTTOSPEECH_HELP_INSTANCE,Enable or disable instance messages,1
 44060,SLASH_TEXTTOSPEECH_HELP_INSTANCELEADER,Enable or disable instance leader messages,1
+44061,SLASH_TEXTTOSPEECH_HELP_MENU,Opens the Text to Speech config menu,1
 44062,SLASH_TEXTTOSPEECH_HELP_MYMESSAGES,Enable or disable self-narration,1
 44063,SLASH_TEXTTOSPEECH_HELP_CREATURE_SAY,Enable or disable creature messages,1
 44064,SLASH_TEXTTOSPEECH_HELP_GUILDLEADER,Enable or disable officer messages,1
@@ -17757,12 +17771,20 @@ ID,BaseTag,TagText_lang,Flags
 44081,SLASH_TEXTTOSPEECH_HELP_ACHIEVEMENT,Enable or disable achievement announce,1
 44083,MSAA_LABEL,Multisample Techniques,3
 44084,FXAA_CMAA_LABEL,Image-Based Techniques,3
+44085,SLASH_TEXTTOSPEECH_CONFIRMATION_ENABLED,%s set to Enabled,1
+44086,SLASH_TEXTTOSPEECH_CONFIRMATION_DISABLED,%s set to Disabled,1
 44088,SLASH_TEXTTOSPEECH_HELP_HELP,Show the help menu that lists all commands,1
+44089,SLASH_TEXTTOSPEECH_HELP_FORMATSTRING,%s - %s,1
 44091,SLASH_TEXTTOSPEECH_VOICE_CHANGED_CONFIRMATION,Voice set to %s,1
+44093,TEXTTOSPEECH_COMMAND_SYNTAX_ERROR,"Invalid Text to Speech command. Type ""/tts help"" to see a list of commands.",1
+44094,TEXTTOSPEECH_NEGATIVE_QUANTITY_FORMAT,negative %d,1
 44095,SLASH_TEXTTOSPEECH_GUILD_ANNOUNCE,guildannounce,1
 44097,TEXT_TO_SPEECH_DEFAULTS,Text to Speech Defaults,1
 44098,GAMEMENU_OPTIONS,Options,3
 44099,TEXT_TO_SPEECH_NARRATE_MY_MESSAGES,Read my own messages out loud,1
+44103,CHAT_HELP_TEXT_LINE17,/tts - enable/disable your chat messages read out loud,1
+44104,HELP_TEXT_LINE16,- For a list of Text to Speech commands type /tts help,1
+44107,SLASH_TEXTTOSPEECH_HELP_FORMATSTRING_RANGE,%s %s,1
 44109,SLASH_TEXTTOSPEECH_ACHIEVEMENT,achievement,1
 44110,SLASH_TEXTTOSPEECH_RAID_WARNING,raidwarning,1
 44111,SLASH_TEXTTOSPEECH_HELP_RAID_WARNING,Enable or disable raid warning messages,1
@@ -17863,6 +17885,14 @@ ID,BaseTag,TagText_lang,Flags
 48702,LFG_ACTIVITY_DROPDOWN_INSTRUCTIONS,Select activity,1
 48714,BLIZZARD_STORE_VAS_ERROR_ARENA_TEAM_CAPTAIN,- This character is an arena team captain.  Please transfer the rank to another character and try again.,3
 48717,TOGGLE_BATTLEFIELDMINIMAP_TOOLTIP_NO_SHORTCUT,Toggle on/off the in game Zone Map.,1
+48743,NOTCH_MODE,Notch Mode,3
+48744,OPTION_TOOLTIP_NOTCH_MODE,Controls how notch overlap is handled,3
+48745,NOTCH_MODE_OVERLAP,Overlap,3
+48746,VIDEO_OPTIONS_NOTCH_MODE_OVERLAP,Notch is in view and may overlap with user interface,3
+48747,NOTCH_MODE_SHIFT_UI,Shift UI Down,3
+48748,VIDEO_OPTIONS_NOTCH_MODE_SHIFT_UI,Shift user interface down to avoid notch,3
+48749,NOTCH_MODE_WINDOW_BELOW,Window Below,3
+48750,VIDEO_OPTIONS_NOTCH_MODE_WINDOW_BELOW,Window is below notch with a black bar,3
 48783,INVTYPE_PROFESSION_TOOL,Profession Tool,1
 48784,INVTYPE_PROFESSION_GEAR,Profession Equipment,1
 48785,ITEM_MOD_INSPIRATION_SHORT,Inspiration,1
@@ -18043,7 +18073,6 @@ ID,BaseTag,TagText_lang,Flags
 49738,VRS_MODE,VRS Mode,3
 49739,OPTION_TOOLTIP_VRS_MODE,Controls intensity of Variable Rate Shading (VRS) features. VRS is a GPU hardware feature that reduces the GPU workload without significantly reducing visual quality. Enabling this feature on supported hardware may improve FPS.,3
 49743,SETTING_GROUP_GAMEPLAY,Gameplay,1
-49744,SETTING_GROUP_SYSTEM,System,3
 49745,SETTING_GROUP_ACCESSIBILITY,Accessibility,3
 49751,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPLAYPOWERBAR,Display the power bars of your party members,1
 49753,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_USECLASSCOLORS,"Display class specific colors. If unchecked, default role colors will be used.",1
@@ -18169,5 +18198,19 @@ ID,BaseTag,TagText_lang,Flags
 50571,AUDIO_LABEL,Audio,3
 51176,PVE_AND_PVP,PvE and PvP,1
 51181,COMPACT_UNIT_FRAME_PROFILE_LABEL,Raid Profile,1
+51193,ERR_MOUNT_NO_MOUNTS,You have no valid mounts.,0
+51219,SLASH_TEXTTOSPEECH_HELP_LOOT,Enable or disable achievement item loot messages,1
+51220,SLASH_TEXTTOSPEECH_HELP_CURRENCY,Enable or disable achievement currency messages,1
+51221,SLASH_TEXTTOSPEECH_HELP_MONEY,Enable or disable achievement money loot messages,1
+51222,SLASH_TEXTTOSPEECH_LOOT,itemloot,1
+51223,SLASH_TEXTTOSPEECH_CURRENCY,currency,1
+51224,SLASH_TEXTTOSPEECH_MONEY,moneyloot,1
 51308,ERR_CHAR_TOO_NEW_FOR_DUNGEONS,This character may not enter dungeons yet.,1
 51309,ERR_CHAR_TOO_NEW_FOR_RAIDS,This character may not enter raids yet.,1
+51330,BATTLE_PET_NAME_11,Non-Combat,0
+51392,SLASH_TEXTTOSPEECH_PING,ping,1
+51393,SLASH_TEXTTOSPEECH_HELP_PING,Enable or disable ping messages,1
+51411,BLIZZARD_STORE_CLICK_TO_OPEN_FAQ,|cnPURE_GREEN_COLOR:<Shift click to view Frequently Asked Questions in your browser>|r,3
+51446,ERR_BATTLEGROUND_INVITATION_DECLINED_BY,Your War Game invitation has been declined by %s.,1
+51453,OPTION_TOOLTIP_RESTRICT_CALENDAR_INVITES,Only allow calendar invites from friends or guild members. ,1
+51454,RESTRICT_CALENDAR_INVITES,Restrict Calendar Invites ,1
