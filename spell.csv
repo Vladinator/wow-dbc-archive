@@ -344262,6 +344262,7 @@ Immobilized."
 414003,,,A powerful ritual renders the caster immune.
 414004,,,
 414007,,,
+414008,,,
 414009,,,
 414010,,"The caster pulls enemies near it and inflicts $414041s1 Nature damage to enemies within $414041A1 yards.
 
@@ -344313,6 +344314,11 @@ This effect stacks."
 414098,,"Repair a piece of Lamented Crusader's equipment with corrupted materials, partially restoring it to its former glory.|n|nThe resulting item will become Bind on Account and the desecration can be purified by a Druid or Rogue who is willing to acquire the necessary reagents.",
 414099,,"Repair a piece of Lamented Crusader's equipment with corrupted materials, partially restoring it to its former glory.|n|nThe resulting item will become Bind on Account and the desecration can be purified by a Hunter or Shaman who is willing to acquire the necessary reagents.",
 414100,,"Repair a piece of Lamented Crusader's equipment with corrupted materials, partially restoring it to its former glory.|n|nThe resulting item will become Bind on Account and the desecration can be purified by a Paladin or Warrior who is willing to acquire the necessary reagents.",
+414103,,"Equip your Tricked-Out Thinking Cap to start tracking from your location, and listen for any stray thoughts. ","""Psst, it's me!
+
+You're at (${$w2-50000}, ${$w1-50000}) Cogs-Bolts
+
+<Re-equip to recalibrate to (0,0) Location>"
 414105,,Purify the helmet with $M2 Phylacterweave and $M3 Righteous Orbs to acquire a highly coveted head piece for your class.,
 414106,,Purify the spaulders with $M2 Phylacterweave and $M3 Righteous Orbs to acquire highly coveted shoulders for your class.,
 414107,,Purify the chestpiece with $M2 Phylacterweave and $M3 Righteous Orbs to acquire a highly coveted chestpiece for your class.,
@@ -344418,6 +344424,7 @@ At $s1 stacks of Awakening, your next Judgment deals $414193s1% increased damage
 414267,Black,"Cause a violent eruption beneath an enemy's feet, dealing $s1 Volcanic damage split between them and nearby enemies.",
 414269,,,
 414270,,,
+414272,,,$w1-cogs $w2-bolts
 414273,,"Call upon the Light to empower your spells, causing your next $n Holy Lights to heal $s1% more, cost $s3% less mana, and be instant cast.","Your next Holy Light heals $s1% more, costs $s3% less mana, and is instant cast."
 414274,,,
 414275,,,
@@ -344446,6 +344453,8 @@ Chromie can only do this once without risking permanent timeline convergence.",G
 414314,,,"Holding an Emergency Bomb Override Stick, use in case of an accidentally activated Annihilo-bomb 9000."
 414315,,,
 414316,,Summons and dismisses a rideable White War Wolf.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
+414320,,,
+414322,,,
 414323,,Summons and dismisses this mount.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
 414324,,Summons and dismisses this mount.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
 414325,,,
@@ -344461,6 +344470,7 @@ When $@spellname414330 ends, Chromie is $@spellname414353."
 414333,,$@spelldesc414330,Damage taken reduced by $s1%.
 414334,,Summons and dismisses a rideable Scourgebound Frostbrood Vanquisher.  This is a flying mount.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
 414337,,"When Goblin Shredder's  health drops below x%, Nixke Voltscroll will jump out of the damaged Shredder.",
+414338,,Throw above your head!,Looking for objects of interest.
 414341,,Drop the Emergency Bomb Override Stick.,
 414343,,Focuses the Emergency Bomb Override Stick on a nearby Annihilo-bomb 9000 to shut it down. Goes faster the more Emergency Bomb Override Sticks are used.,
 414345,,,
@@ -344698,6 +344708,7 @@ $?a415945[]
 414697,,Heal the summoner for $s1% percent of their maximum health.,
 414698,,Auto attacks heal the summoner.,Auto attacks heal the summoner.
 414699,,,
+414701,,,"""${$w1-50000} cogs, ${$w2-50000} bolts"""
 414708,,"Glimmer of Light's healing and damage is increased by $s2%, but it can only affect ${$s1+3} target at a time.",
 414709,,,
 414710,,,
@@ -344758,6 +344769,7 @@ Additionally emit flames at the caster's location, inflicting $414851s Fire dama
 
 ",
 414847,,,
+414848,,,
 414851,,$@spelldesc414844,Suffering $w Fire damage every $t sec.
 414856,,"Your melee swings have a chance to deal $s1 additional Fire damage. Your harmful melee abilities have a chance to make the Fragment erupt, dealing $s2 Fire damage split between all nearby enemies. The Fragment also has a chance to react to your damage taken, counterattacking for $s3 Fire damage.",
 414857,,$@spelldesc414976,
@@ -344767,9 +344779,12 @@ Additionally emit flames at the caster's location, inflicting $414851s Fire dama
 414864,,$@spelldesc414856,
 414865,,$@spelldesc414856,
 414866,,$@spelldesc414856,
+414868,,,
+414869,,,
 414872,,"Your healing spells have a chance to grant you Blessing of Eternal Kings for $414873d, allowing your heals to shield the target up to ten times for $s1 damage. The shield lasts for $414875d.",
 414873,,$@spelldesc414872,Your heals shield the target absorbing up to $414872w1 damage for $414875d.
 414875,,$@spelldesc414872,Absorb $w1 damage.
+414876,,,
 414877,,Ebon Might increases the damage of your empower spells by $s1%.,
 414878,,Ebon Might increases allies' primary stat by an additional ${$s1}.1% of your own.,
 414879,,,
@@ -344795,9 +344810,11 @@ Additionally emit flames at the caster's location, inflicting $414851s Fire dama
 414936,,Let loose a five-hit combo upon your current target dealing a total of ${$414928s2*$s2} Physical damage and unleashing a $?FAC=[Doomstrike][Kingstrike] with each blow.,
 414937,Red,"Casting Ebon Might grants Burnout immediately and every $419240t1 sec for $419240d, reducing the cast time of Living Flame by $375802s1%.",
 414940,,,
+414948,,,
 414949,,$@spelldesc383328,Hammer of Wrath can be used on any target.
 414950,,,
 414951,,$@spelldesc414936,
+414954,,,
 414955,,$@spelldesc414928,
 414956,,,
 414958,,,
@@ -344905,6 +344922,7 @@ This effect can differ based on your Specialization.",
 415132,,"Let the Scourge coarse through and corrupt you consuming all Lost Souls, transforming into a Lich for $415133d during which your harmful spell and abilities have a chance to slow the target by $415132s1% for $415132d. Begin to gather ice and form it into a Pillar of Frost, after $415006s10 sec launch the Pillar at your target dealing $415006s4 Frost damage split between all nearby enemies.",Slowed by $w1%.
 415133,,$@spelldesc415130,"Your harmful spell and abilities have a chance to slow the target by $415132w1% for $415132d. Begin to gather ice and form it into a Pillar of Frost, after $415006w10 sec launch the Pillar at your target dealing $415006w4 Frost damage split between all nearby enemies."
 415136,,"Let the Scourge coarse through and corrupt you consuming all Lost Souls, transforming into a Lich for $415133d during which your harmful spell and abilities have a chance to slow the target by $415132s1% for $415132d. Begin to gather ice and form it into a Pillar of Frost, after $415006s10 sec launch the Pillar at your target dealing $415006s4 Frost damage split between all nearby enemies.","Gain one stack per second. At $u, launch the Pillar of Frost at your target dealing $415006s4 Frost damage split between all nearby enemies."
+415137,,,
 415139,,,
 415141,,Calming Baby Vorquin,Calming Baby Vorquin
 415142,,"Let the Scourge coarse through and corrupt you consuming all Lost Souls, transforming into a Lich for $415133d during which your harmful spell and abilities have a chance to slow the target by $415132s1% for $415132d. Begin to gather ice and form it into a Pillar of Frost, after $415006s10 sec launch the Pillar at your target dealing $415006s4 Frost damage split between all nearby enemies.",
@@ -345085,6 +345103,7 @@ $@switch<$w5>[No Attempts][Bronze (${$w6/1000}.3 sec) |A:challenges-medal-small-
 415579,,,
 415581,,"Unlocks the ability to ride dragonriding mounts, using momentum and paired abilities to traverse the skies.",
 415582,,Speak with the powers of the Earth to unbind the forces of a former Earth-Warder.,Communing with the power of the Earth to unbind the forces of a former Earth-Warder.
+415588,,"[PH] Reset your thinking cap's coordinates to 0 cogs, 0 bolts.",
 415603,,Guarantees that the next Time Rift you complete will grant you a reward.,The next time rift you complete is guaranteed to grant you a reward.
 415611,,,Accepted the Wicker Man of Thorns' curse.
 415612,,,Accepted the Wicker Man of Shadow's curse.
@@ -345203,6 +345222,7 @@ $413219s1 Arcane damage to players within $413219A1 yards upon removal."
 415821,,,
 415823,,Unlock the appearances of the Lifegiver's Garms.,
 415824,,Unlock the appearances of the Decorous Garments.,
+415826,,Zero in on your Thinking Cap's signal.,
 415828,,,
 415829,,"Shoots at an enemy, inflicting Physical damage.",
 415830,,,
@@ -345283,6 +345303,8 @@ This effect stacks."
 415960,,,
 415961,,$@spelldesc415865,
 415963,,$@spelldesc416060,
+415964,,,
+415965,,,
 415966,,,
 415970,,,
 415984,,,
@@ -345484,6 +345506,7 @@ Ignoring the hallucination inflicts two stacks of Wicker Man's Shadow to the ene
 416694,Warlock,$@spelldesc416219,An ally's soul is tethered to your soulstone.
 416695,,Learn how to summon Pallibrius.,Learn how to summon Pallibrius.
 416696,,Learn how to summon Somnius.,Learn how to summon Somnius.
+416697,,,
 416698,,,
 416699,,$@spelldesc416621,
 416700,,,
@@ -345542,6 +345565,7 @@ Ignoring the hallucination inflicts two stacks of Wicker Man's Shadow to the ene
 416783,,,
 416784,,Kick the Pulsing Crystal forward.,
 416787,,,You're thawed out and cant be numbed again.
+416795,,,
 416797,,,
 416799,,"Your allies with Glimmer of Light take $s1% reduced damage, split evenly among them.",
 416801,,,
@@ -345556,6 +345580,8 @@ Jumping removes a stack of $@spellname413538.."
 416819,,,
 416821,,,
 416822,,,
+416823,,,
+416824,,,
 416828,,,
 416829,,"Your damage brands the target, increasing magic damage taken by $1490s1%.",
 416830,,$@spelldesc255260,Magic damage taken increased by $s1%.
@@ -345583,8 +345609,10 @@ Jumping removes a stack of $@spellname413538.."
 416862,,,
 416864,,Insidious Cackle shackles the souls of cursed enemies in fear. The shackled soul slowly moves towards consuming flames. Souls that reach the flames before their shackles are destroyed inflict two stacks of Wicker Man's Shadow to the afflicted enemy.,
 416865,,,
+416866,,,
 416869,,Hammer of Wrath has $s1 extra charge and on enemies below $s2% health generates ${$403081s1} additional Holy Power.  ,
 416874,,,
+416878,,,$w1-cogs $w2-bolts
 416879,,$@spelldesc416880,
 416880,,"cone in front of it, inflicting Nature damage",
 416882,,Attempting to open a dormant temporal rift.,
@@ -345606,6 +345634,7 @@ Jumping removes a stack of $@spellname413538.."
 416999,,"Summons a patch of holy ground at targeted locations for $D, inflicting $407906s1 Holy damage every $407906T1 sec.",$407906s1 Holy damage every $407906T1 sec.
 417002,,$@spelldesc416999,$@spellaura416999
 417011,,"An efficient spell, healing $s1 of a friendly target’s health.",
+417015,,,
 417017,,,
 417018,,"Conjures icy shards from above for $D, inflicting $417026s1 Frost damage every $417026T2 sec. to enemies in the area.",$417026s1 Frost damage every $417026T1 sec.
 417019,,$@spelldesc416864,
@@ -345794,6 +345823,7 @@ Once the glass is empty, your next offensive ability performs a flurry of Accele
 417460,,,Trapped in a single moment.
 417461,,Unlocks the Infinite Dragonflight scale color customization options at the Rostrum of Transformation.,
 417462,,,
+417464,,Right Click to summon and dismiss this companion.,
 417467,,Hot Streak increases the amount of Ignite damage from Pyroblast or Flamestrike by an additional $s1%.,
 417468,,$@spelldesc414968,
 417469,,"With the majority of the blight's power residing in Loszkeleth, Dazhak assists by targeting random players with $@spellname408141 and $@spellname413590.",Targets random players with $@spellname413590 and $@spellname408141.
@@ -345877,6 +345907,7 @@ Enables Dragonriding skills."
 $@spellicon417517
 $@spellname417517
 $@spelldesc417517",
+417558,,,
 417560,,,
 417563,,,
 417564,,,
@@ -345897,6 +345928,7 @@ $@spelldesc417517",
 417598,,"Inflicts $s1 Shadow damage to enemies within $A1 yards and applies Maddening Blast. When an enemy reaches $u stacks, they are feared for $417626d.
 
 ",Reaching $U stacks fears you for $417626d.
+417608,,,
 417611,,,
 417613,,,
 417614,,,
@@ -345954,8 +345986,10 @@ Do you wish to accept?
 
 
 ",
+417705,,,
 417706,,$@spelldesc417691,Fleeing in fear!
 417708,,,
+417709,,,
 417710,,Attacking an enemy with Shred fixates your attention on it for $417713d. You can fixate on a single target at once. Your attacks deal $417713s1% increased damage to your fixated target.,
 417711,,Channel power into the portal.,Channeling power into the portal.
 417712,,"Increases your damage and healing by $417714s1% during the day.
@@ -345966,6 +346000,7 @@ Increases your Versatility by $417715s1% during the night.",
 417715,,Increases your Versatility by $s1% during the night.,Versatility increased by $s1%.
 417717,,,
 417721,,,Damage taken increased by $s1%.
+417722,,,
 417725,,"Creates several growths, which shield the caster, reducing damage taken by $417735s1% while they still live.",
 417731,,$@spelldesc417725,
 417732,,Mind the recoil!,
@@ -345973,6 +346008,7 @@ Increases your Versatility by $417715s1% during the night.",
 417736,,,
 417737,,,
 417738,,Deals $s3 Physical damage. Slows by $s2% for $d.,Slowed by $s2% for $d.
+417739,,,
 417740,,Shoots a cone of flame at the target.,Kill it with fire - it is the only way to make sure.
 417748,,,
 417751,,,$w2 Physical damage inflicted every $t2 sec.
@@ -345988,6 +346024,7 @@ Increases your Versatility by $417715s1% during the night.",
 417769,,,
 417770,,$@spelldesc417763,
 417774,,Lord Banehollow summons an Empowered Felguard to strike down his enemies.,
+417775,,Add a Downy Liner and Crystal Ocular Lenses to the Thought Calculating Apparatus.,
 417776,,Saved by the sands of time! ,"Stunned.
 Damage taken reduced by $s4%."
 417778,,$@spelldesc417759,"Movement speed reduced by $s2%.
@@ -346193,7 +346230,11 @@ Why would you do that?",
 418176,,Saved by the sands of time! ,"Stunned.
 Damage taken reduced by $s4%."
 418178,,"Strikes fear in an enemy, causing it to flee in terror for up to $d.",Fleeing in fear.
+418179,,Collect the appearances of the Plate of the Light Avenger.,
 418180,,$@spelldesc418184,
+418181,,Collect the appearances of the Armaments of the Light Avenger.,
+418182,,Collect the appearances of the Armaments of the Unnamed Cult.,
+418183,,Collect the appearances of the Blood Onyx Armaments.,
 418184,,"The caster rushes to the aid of their glorious king, shielding him for $s1 damage for $d.",Absorbs $w1 damage.
 418186,,,
 418188,,Deals $s1 Frostfire damage every $d.,Taking $s1 Frostfire damage every $d.
@@ -346296,6 +346337,7 @@ Upon reaching $418361u stacks, your next cast of Rising Sun Kick or Keg Smash co
 
 The pool slows players who remain inside of it by $401794s2% and reduces their haste by $401794s3%.",
 418421,,,
+418422,,,
 418424,,,
 418425,,Lord Banehollow summons an Empowered Imp to attack his enemies.,
 418426,,Lord Banehollow summons an Empowered Felhunter to attack his enemies.,
@@ -346606,6 +346648,7 @@ If the target is in your party or raid, all party and raid members will be affec
 419213,,,
 419215,,Gain access to the Little Scales Daycare in Valdrakken. Help raise adorable whelps.,
 419218,,,
+419220,,Collect the appearances of the Blood Onyx Uniform.,
 419221,,Increases Haste by $s1% for $d.,Haste increased by $s1%.
 419223,,,
 419224,,,
@@ -346619,6 +346662,7 @@ If the target is in your party or raid, all party and raid members will be affec
 419241,,,
 419243,,,
 419247,,,
+419249,,Collect the appearances of the High Scholar's Arcana armor set.,
 419250,,,
 419251,,,
 419257,,,
@@ -346842,6 +346886,7 @@ Damage taken reduced by $s4%."
 420227,,,
 420228,,,
 420230,,Tear pages from the book to stop the run-on sentence!,
+420233,,,
 420247,,,
 420249,,,
 420258,,,
@@ -346931,3 +346976,4 @@ Damage taken reduced by $s4%."
 422571,,,
 422575,,,
 423782,,,
+424007,,,
