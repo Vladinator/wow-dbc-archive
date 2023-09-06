@@ -1,6 +1,6 @@
 ID,Directory,MapName_lang,MapDescription0_lang,MapDescription1_lang,PvpShortDescription_lang,PvpLongDescription_lang,Corpse[0],Corpse[1],MapType,InstanceType,ExpansionID,AreaTableID,LoadingScreenID,TimeOfDayOverride,ParentMapID,CosmeticParentMapID,TimeOffset,MinimapIconScale,CorpseMapID,MaxPlayers,WindSettingsID,ZmpFileDataID,WdtFileDataID,NavigationMaxDistance,Flags[0],Flags[1],Flags[2]
-0,Azeroth,Eastern Kingdoms,,,,,0,0,1,0,0,0,4,-1,-1,-1,0,1,-1,0,17,804940,775971,0,142622301,134479888,8
-1,Kalimdor,Kalimdor,,,,,0,0,1,0,0,0,3,-1,-1,-1,0,1,-1,0,17,804935,782779,0,142622301,134479888,8
+0,Azeroth,Eastern Kingdoms,,,,,0,0,1,0,0,0,4,-1,-1,-1,0,1,-1,0,17,804940,775971,0,142622301,134479888,136
+1,Kalimdor,Kalimdor,,,,,0,0,1,0,0,0,3,-1,-1,-1,0,1,-1,0,17,804935,782779,0,142622301,134479888,136
 30,PVPZone01,Alterac Valley,"Hidden within the Alterac Mountains, Alterac Valley is the home of the Frostwolf clan.  The Stormpike dwarves have established a foothold in the valley and seek to plumb its depths for riches and links to their ancestral past.
 
 A large-scale battleground, each side attempts to destroy each other's tower fortifications and slay the enemy General (Vanndar Stormpike or Drek'Thar).","Hidden within the Alterac Mountains, Alterac Valley is the home of the Frostwolf clan.  The Stormpike dwarves have established a foothold in the valley and seek to plumb its depths for riches and links to their ancestral past.
@@ -29,10 +29,10 @@ A large-scale battleground, each side attempts to destroy each other's tower for
 309,Zul'gurub,Ancient Zul'Gurub,,,,,-11916.06,-1224.5771,1,1,0,1977,161,-1,-1,-1,0,1,0,20,0,0,791432,0,525841,134479880,0
 329,Stratholme,Stratholme,,,,,3392.317,-3378.4832,1,1,0,0,101,-1,-1,-1,0,1,0,5,0,0,791063,0,1553,134479880,0
 349,Mauradon,Maraudon,,,,,-1432.6971,2924.9775,2,1,0,2100,81,-1,-1,-1,0,1,1,10,0,0,788656,0,1553,134479880,0
-369,DeeprunTram,Deeprun Tram,,,,,-8349.224,517.34796,2,0,0,2257,205,-1,-1,-1,0,1,0,0,0,0,780788,0,268437009,134480384,0
+369,DeeprunTram,Deeprun Tram,,,,,-8349.224,517.34796,2,0,0,2257,205,-1,-1,-1,0,1,0,0,0,0,780788,0,268437009,134480384,128
 389,OrgrimmarInstance,Ragefire Chasm,,,,,1816.7559,-4423.3716,2,1,0,2437,195,-1,-1,-1,0,1,1,10,0,0,789981,0,1553,134479880,0
 409,MoltenCore,Molten Core,,,,,-7510.565,-1036.6981,2,2,0,2717,192,-1,-1,-1,0,1,0,40,0,0,788659,0,1553,134479880,0
-429,DireMaul,Dire Maul,,,,,-3908.03,1130,2,1,0,2557,82,-1,-1,-1,0,1,1,5,0,0,780814,0,1537,134479880,0
+429,DireMaul,Dire Maul,,,,,-3908.03,1130,2,1,0,2557,82,-1,-1,-1,0,1,1,5,0,0,780814,0,1537,134479880,128
 449,AlliancePVPBarracks,Alliance PVP Barracks,,,,,0,0,2,0,0,2918,181,-1,-1,-1,0,1,-1,0,0,0,775968,0,1553,134479880,0
 450,HordePVPBarracks,Horde PVP Barracks,,,,,0,0,2,0,0,2917,182,-1,-1,-1,0,1,-1,0,0,0,782776,0,1553,134479880,0
 469,BlackwingLair,Blackwing Lair,,,,,-7663.4126,-1218.6665,1,2,0,2677,141,-1,-1,-1,0,1,0,40,0,0,780178,0,1553,134479880,0
@@ -62,7 +62,7 @@ The League of Arathor seek to reclaim lost lands for their benefactors in Stormw
 
 Meanwhile, the Defilers' elite troopers seek to sever the vital connection between the humans and their dwarven allies to the south.",Capture the objectives,"- Capture and hold the objectives
 - Earn 1500 resources",0,0,1,3,0,3358,183,-1,-1,-1,0,1.25,-1,0,0,0,790377,0,1553,135004160,0
-530,Expansion01,Outland,,,,,0,0,1,0,1,0,198,-1,-1,-1,0,1,-1,0,0,804943,828395,0,1553,134479880,0
+530,Expansion01,Outland,,,,,0,0,1,0,1,0,198,-1,-1,-1,0,1,-1,0,0,804943,828395,0,1553,134479880,128
 531,AhnQirajTemple,Ahn'Qiraj Temple,,,,,-8111.724,1526.7858,1,2,0,3428,185,-1,-1,-1,0,1,1,40,0,0,775840,0,1553,134479880,0
 532,Karazahn,Karazhan,,,,,-11110.407,-2004.0653,1,2,1,3457,200,-1,-1,-1,0,1,0,10,0,0,834192,0,1553,134479880,0
 533,Stratholme Raid,Naxxramas,,,,,0,0,1,2,2,3456,197,-1,-1,-1,0,1,-1,25,0,0,827115,0,34321,134479880,0
@@ -104,7 +104,7 @@ This battlefield is coveted by the blood elves for its rich energy deposits.",Ca
 - Capture the center flag
 - Earn 1500 resources",0,0,1,3,0,0,210,-1,-1,-1,0,1,-1,0,0,0,788893,0,1553,135004168,0
 568,ZulAman,Zul'Aman,,,,,6851.021,-7989.7134,1,1,3,0,276,-1,-1,-1,0,1,530,10,0,0,815727,0,1553,134479880,0
-571,Northrend,Northrend,,,,,0,0,1,0,2,0,216,-1,-1,-1,0,1,-1,0,0,804939,822688,0,9757,134479896,0
+571,Northrend,Northrend,,,,,0,0,1,0,2,0,216,-1,-1,-1,0,1,-1,0,0,804939,822688,0,9757,134479896,128
 572,PVPLordaeron,Ruins of Lordaeron,,,,,0,0,1,4,0,0,217,-1,-1,-1,0,1,-1,0,0,0,789984,0,1553,135004168,0
 574,Valgarde70,Utgarde Keep,,,,,1211.7594,-4868.422,1,1,2,0,220,-1,-1,-1,0,1,571,5,0,0,825743,0,9757,134479880,0
 575,UtgardePinnacle,Utgarde Pinnacle,,,,,1232.4098,-4860.9536,1,1,2,0,221,-1,-1,-1,0,1,571,5,0,0,827661,0,67101,134479880,0
@@ -224,7 +224,7 @@ Silvershard Mines is a 10 vs 10 escort battleground, in which each side attempts
 Silvershard Mines is a 10 vs 10 escort battleground, in which each side attempts to control diamond carts until they reach the mine depot.",Capture the mine carts,"- Capture and hold the mine carts
 - Escort them to the end of the track",0,0,1,3,4,0,317,-1,-1,-1,0,1,-1,0,0,0,810604,0,1565,135004168,0
 730,MaelstromZone,Maelstrom Zone,,,,,0,0,1,0,3,0,272,-1,-1,-1,0,1,-1,0,0,0,816998,0,1629,134479880,0
-731,DesolaceBomb,Stonetalon Bomb,,,,,0,0,1,0,0,0,3,-1,1,-1,0,1,-1,0,0,0,780791,0,8521309,134479896,0
+731,DesolaceBomb,Stonetalon Bomb,,,,,0,0,1,0,0,0,3,-1,1,-1,0,1,-1,0,0,0,780791,0,8390237,134479896,0
 732,TolBarad,Tol Barad,,,,,0,0,1,0,3,0,265,-1,-1,-1,0,1,-1,0,0,0,815182,0,9821,134479880,0
 734,AhnQirajTerrace,Ahn'Qiraj Terrace,,,,,0,0,1,1,2,0,184,-1,-1,-1,0,1,-1,0,0,0,818455,0,1565,134479880,0
 736,TwilightHighlandsDragonmawPhase,Twilight Highlands Dragonmaw Phase,,,,,0,0,1,0,0,0,0,-1,0,-1,0,1,-1,0,0,804947,791346,0,132637,134479896,0
@@ -234,7 +234,7 @@ Silvershard Mines is a 10 vs 10 escort battleground, in which each side attempts
 741,Transport200103,Twilight Highlands Horde Transport,,,,,0,0,3,0,3,0,0,-1,-1,-1,0,1,-1,0,0,0,0,0,1553,134479880,0
 742,Transport203729,Vashj'ir Sub - Horde - Circling Abyssal Maw,,,,,0,0,3,0,3,0,0,-1,-1,-1,0,1,-1,0,0,0,0,0,1553,134479880,0
 743,Transport203730,Vashj'ir Sub - Alliance circling Abyssal Maw,,,,,0,0,3,0,3,0,0,-1,-1,-1,0,1,-1,0,0,0,0,0,1553,134479880,0
-746,UldumPhaseOasis,Uldum Phase Oasis,,,,,0,0,1,0,0,0,0,-1,1,-1,0,1,-1,0,0,0,791398,0,8521309,134479896,0
+746,UldumPhaseOasis,Uldum Phase Oasis,,,,,0,0,1,0,0,0,0,-1,1,-1,0,1,-1,0,0,0,791398,0,8390237,134479896,0
 747,Transport 203732,Transport: Deepholm Gunship,,,,,0,0,3,0,3,0,0,-1,-1,-1,0,1,-1,0,0,0,0,0,1553,134479880,0
 748,Transport203858,Transport: Onyxia/Nefarian Elevator,,,,,0,0,3,0,3,0,0,-1,-1,-1,0,1,-1,0,0,0,0,0,1537,134479880,0
 749,Transport203859,Transport: Gilneas Moving Gunship,,,,,0,0,3,0,0,0,0,-1,-1,-1,0,1,-1,0,0,0,0,0,1553,134479884,0
@@ -245,7 +245,7 @@ Silvershard Mines is a 10 vs 10 escort battleground, in which each side attempts
 754,SkywallRaid,Throne of the Four Winds,,,,,-11360.603,72.083336,1,2,3,0,271,-1,-1,-1,0,1,1,0,0,0,817149,0,34333,134479880,0
 755,UldumDungeon,Lost City of the Tol'vir,,,,,-10686.149,-1308.6233,1,1,3,0,264,-1,-1,-1,0,1,1,0,0,0,817548,0,1565,134479880,0
 757,BaradinHold,Baradin Hold,,,,,0,0,1,2,3,0,269,-1,-1,-1,0,1,-1,0,0,0,814917,0,36413,-2013003768,0
-759,UldumPhasedEntrance,Uldum Phased Entrance,,,,,0,0,1,0,0,0,0,-1,1,-1,0,1,-1,0,0,0,791375,0,8523357,134479896,0
+759,UldumPhasedEntrance,Uldum Phased Entrance,,,,,0,0,1,0,0,0,0,-1,1,-1,0,1,-1,0,0,0,791375,0,8392285,134479896,0
 760,TwilightHighlandsPhasedEntrance,Twilight Highlands Phased Entrance,,,,,0,0,1,0,0,0,0,-1,0,-1,0,1,-1,0,0,0,791359,0,134749,134479896,0
 761,Gilneas_BG_2,The Battle for Gilneas,"As the Greymane wall collapses, the inevitable conflict between the Forsaken and Worgen reaches a new climax.
 
@@ -255,14 +255,14 @@ The Battle for Gilneas is a 10 vs 10 domination battleground, where each side at
 - Earn 1500 resources",0,0,1,3,0,0,270,1110,-1,-1,0,1,-1,0,0,0,782690,0,3677,135004168,0
 762,Transport 203861,Twilight Highlands Zeppelin 1,,,,,0,0,3,0,3,0,0,-1,-1,-1,0,1,-1,0,0,0,0,0,3585,134479880,0
 763,Transport 203862,Twilight Highlands Zeppelin 2,,,,,0,0,3,0,3,0,0,-1,-1,-1,0,1,-1,0,0,0,0,0,3585,134479880,0
-764,UldumPhaseWreckedCamp,Uldum - Phase Wrecked Camp,,,,,0,0,1,0,0,0,0,-1,1,-1,0,1,-1,0,0,0,791406,0,8527453,134479896,0
+764,UldumPhaseWreckedCamp,Uldum - Phase Wrecked Camp,,,,,0,0,1,0,0,0,0,-1,1,-1,0,1,-1,0,0,0,791406,0,8396381,134479896,0
 765,Transport203863,Krazzworks Attack Zeppelin,,,,,0,0,3,0,3,0,0,-1,-1,-1,0,1,-1,0,0,0,0,0,7681,134479880,0
 766,Transport 2033864,Transport: Gilneas Moving Gunship 02,,,,,0,0,3,0,0,0,0,-1,-1,-1,0,1,-1,0,0,0,0,0,7681,134479884,0
 767,Transport 2033865,Transport: Gilneas Moving Gunship 03,,,,,0,0,3,0,0,0,0,-1,-1,-1,0,1,-1,0,0,0,0,0,7681,134479884,0
 859,Zul_Gurub5Man,Zul'Gurub,,,,,-11916.229,-1219.8385,1,1,3,0,161,720,-1,-1,0,1,0,0,0,0,815855,0,7701,134479880,0
 860,NewRaceStartZone,The Wandering Isle,,,,,0,0,1,0,0,0,289,960,-1,-1,0,1,-1,0,0,0,789076,0,8666653,134479880,0
 861,FirelandsDailies,Molten Front,,,,,0,0,1,0,3,0,274,720,-1,-1,0,1,-1,0,0,0,815281,0,2104861,134479896,0
-870,HawaiiMainLand,Pandaria,,,,,0,0,1,0,4,0,327,-1,-1,-1,0,1,-1,0,0,804938,805681,0,8404573,134479896,0
+870,HawaiiMainLand,Pandaria,,,,,0,0,1,0,4,0,327,-1,-1,-1,0,1,-1,0,0,804938,805681,0,8404573,134479896,128
 930,ScenarioAlcazIsland,A Dark Place,,,,,0,0,1,5,6,0,25,0,-1,-1,0,1,-1,0,0,0,810354,0,7765,134479872,0
 938,COTDragonblight,End Time,,,,,-8288.6045,-4454.0923,1,1,3,0,286,0,-1,-1,0,1,1,0,0,0,813090,0,15957,134479880,0
 939,COTWarOfTheAncients,Well of Eternity,,,,,-8595.837,-3994.9358,1,1,3,0,287,-1,-1,-1,0,1,1,0,0,0,813203,0,7773,134479880,0
@@ -311,7 +311,7 @@ Temple of Kotmogu is a 10 vs 10 powerball battleground where each side attempts 
 1009,MantidRaid,Heart of Fear,,,,,0,0,1,2,4,0,310,-1,-1,-1,0,1,-1,0,0,0,811209,0,8404573,134479880,0
 1011,MantidDungeon,Siege of Niuzao Temple,,,,,0,0,1,1,4,0,316,-1,-1,-1,0,1,-1,0,0,0,808873,0,9453149,134479880,0
 1014,MonkAreaScenario,Peak of Serenity,,,,,0,0,1,5,6,0,327,-1,-1,-1,0,1,-1,0,0,0,812460,0,680541789,134479880,0
-1019,RuinsOfTheramore,Ruins of Theramore,,,,,0,0,1,0,4,0,3,-1,1,-1,0,1,-1,0,0,0,812470,0,8535645,134480152,0
+1019,RuinsOfTheramore,Ruins of Theramore,,,,,0,0,1,0,4,0,3,-1,1,-1,0,1,-1,0,0,0,812470,0,8404573,134480152,0
 1024,PandaFishingVillageScenario,Greenstone Village,,,,,0,0,1,5,4,0,331,-1,-1,-1,0,1,-1,0,0,0,811933,0,8404573,134479880,0
 1028,MoguRuinsScenario,(UNUSED) Scenario: Mogu Ruins,,,,,0,0,1,5,4,0,0,-1,-1,-1,0,1,-1,0,0,0,809095,0,8404573,134479880,0
 1029,AncientMoguCryptScenario,(UNUSED) Scenario: Mogu Crypt,,,,,0,0,1,5,4,0,0,-1,-1,-1,0,1,-1,0,0,0,805433,0,8396317,134479880,0
@@ -349,7 +349,7 @@ Gold Rush is a 15 vs 15 resource battle",Capture the objectives,"- Capture and h
 1107,WarlockArea,Dreadscar Rift,,,,,0,0,1,0,6,0,401,-1,-1,-1,0,1,-1,0,0,0,848152,0,10493533,134479880,0
 1112,BlackTempleScenario,Pursuing the Black Harvest,,,,,0,0,1,5,4,0,215,-1,-1,-1,0,1,-1,0,0,0,806915,0,7709,134479880,0
 1113,DarkmoonCarousel,Transport: DarkmoonCarousel,,,,,0,0,3,0,0,0,0,-1,-1,-1,0,1,-1,0,0,0,0,0,3601,134479880,0
-1116,Draenor,Draenor,,,,,0,0,1,0,5,0,360,-1,-1,-1,0,1,-1,0,0,918540,842315,0,8404573,134479896,0
+1116,Draenor,Draenor,,,,,0,0,1,0,5,0,360,-1,-1,-1,0,1,-1,0,0,918540,842315,0,8404573,134479896,128
 1120,ThunderKingHordeHub,Thunder King Horde Hub,,,,,0,0,1,0,4,0,0,-1,1064,-1,0,1,-1,0,0,0,846613,0,8535645,134479880,0
 1121,ThunderIslandAllianceHub,Thunder Island Alliance Hub,,,,,0,0,1,0,4,0,0,-1,1064,-1,0,1,-1,0,0,0,848029,0,8535645,134479880,0
 1122,CitySiegeMoguIslandProgressionScenario,City Siege - Mogu Island Progression Scenario,,,,,0,0,1,5,4,0,0,-1,-1,-1,0,1,-1,0,0,0,844357,0,8404573,134479880,0
@@ -369,14 +369,14 @@ Gold Rush is a 15 vs 15 resource battle",Capture the objectives,"- Capture and h
 1136,OrgrimmarRaid,Siege of Orgrimmar,,,,,0,0,1,2,4,0,359,-1,-1,-1,0,1,-1,0,0,0,847443,0,8396381,134479880,0
 1144,HeartOfTheOldGodScenario,Heart of the Old God Scenario,,,,,0,0,1,5,4,0,351,-1,-1,-1,0,1,-1,0,0,0,844626,0,8396381,134479880,0
 1148,ProvingGrounds,Proving Grounds,,,,,0,0,1,5,4,0,348,-1,-1,-1,0,1,-1,0,0,0,849996,0,41950813,134479880,0
-1152,FWHordeGarrisonLevel1,FW Horde Garrison Level 1,,,,,0,0,1,1,5,0,373,-1,1116,1116,0,1,-1,0,0,0,876612,0,612384349,134479896,0
-1153,FWHordeGarrisonLevel2,FW Horde Garrison Level 3,,,,,0,0,1,1,5,0,373,-1,1116,1116,0,1,-1,0,0,0,876623,0,612384349,134479896,0
-1154,FWHordeGarrisonLevel3,FW Horde Garrison Level 4,,,,,0,0,1,1,5,0,373,-1,1116,1116,0,1,-1,0,0,0,876609,0,612384349,134479896,0
+1152,FWHordeGarrisonLevel1,FW Horde Garrison Level 1,,,,,0,0,1,1,5,0,373,-1,1116,1116,0,1,-1,0,0,0,876612,0,612384349,134479896,128
+1153,FWHordeGarrisonLevel2,FW Horde Garrison Level 3,,,,,0,0,1,1,5,0,373,-1,1116,1116,0,1,-1,0,0,0,876623,0,612384349,134479896,128
+1154,FWHordeGarrisonLevel3,FW Horde Garrison Level 4,,,,,0,0,1,1,5,0,373,-1,1116,1116,0,1,-1,0,0,0,876609,0,612384349,134479896,128
 1155,Stormgarde Keep,Stromgarde Keep,,,,,0,0,1,5,4,0,0,-1,-1,-1,0,1,-1,0,0,0,876745,0,7773,134479880,0
 1157,HalfhillScenario,Halfhill Scenario,,,,,0,0,1,5,4,0,327,-1,-1,-1,0,1,-1,0,0,0,879398,0,8404573,134479880,0
-1158,SMVAllianceGarrisonLevel1,SMV Alliance Garrison Level 1,,,,,0,0,1,1,5,0,374,-1,1116,1116,0,1,-1,0,0,0,879512,0,746602077,134479896,0
-1159,SMVAllianceGarrisonLevel2,SMV Alliance Garrison Level 3,,,,,0,0,1,1,5,0,374,-1,1116,1116,0,1,-1,0,0,0,879360,0,746602077,134479896,0
-1160,SMVAllianceGarrisonLevel3,SMV Alliance Garrison Level 4,,,,,0,0,1,1,5,0,374,-1,1116,1116,0,1,-1,0,0,0,879511,0,746602077,134479896,0
+1158,SMVAllianceGarrisonLevel1,SMV Alliance Garrison Level 1,,,,,0,0,1,1,5,0,374,-1,1116,1116,0,1,-1,0,0,0,879512,0,746602077,134479896,128
+1159,SMVAllianceGarrisonLevel2,SMV Alliance Garrison Level 3,,,,,0,0,1,1,5,0,374,-1,1116,1116,0,1,-1,0,0,0,879360,0,746602077,134479896,128
+1160,SMVAllianceGarrisonLevel3,SMV Alliance Garrison Level 4,,,,,0,0,1,1,5,0,374,-1,1116,1116,0,1,-1,0,0,0,879511,0,746602077,134479896,128
 1161,CelestialChallenge,Celestial Tournament,,,,,0,0,1,5,4,0,327,1200,-1,-1,0,1,-1,0,0,0,879578,0,8404573,134479880,0
 1168,ThePurgeOfGrommarScenario,The Purge Of Grommar - Scenario,,,,,0,0,1,5,5,0,0,-1,-1,1116,0,1,-1,0,0,0,902997,0,8404573,134479896,0
 1170,SmallBattlegroundC,Shado-Pan Showdown,,,,,0,0,1,4,6,0,353,-1,-1,-1,0,1,-1,0,0,0,904354,0,8404573,135004168,0
@@ -409,7 +409,7 @@ Gold Rush is a 15 vs 15 resource battle",Capture the objectives,"- Capture and h
 1217,garrison_alliance_inscription,Garrison - Alliance - Inscription 1,,,,,0,0,4,0,5,0,0,-1,-1,-1,0,1,-1,0,0,0,952336,0,3585,134479880,0
 1218,garrison_alliance_jewelcrafting,Garrison - Alliance - Jewelcrafting 1,,,,,0,0,4,0,5,0,0,-1,-1,-1,0,1,-1,0,0,0,952218,0,3585,134479880,0
 1219,garrison_alliance_leatherworking,Garrison - Alliance - Leatherworking 1,,,,,0,0,4,0,5,0,0,-1,-1,-1,0,1,-1,0,0,0,952225,0,3585,134479880,0
-1220,Troll Raid,Broken Isles,,,,,0,0,1,0,6,0,411,-1,-1,-1,0,1,-1,0,12,1092881,957721,0,142622301,134479888,0
+1220,Troll Raid,Broken Isles,,,,,0,0,1,0,6,0,411,-1,-1,-1,0,1,-1,0,12,1092881,957721,0,142622301,134479888,128
 1221,garrison_alliance_mine_1,Garrison - Alliance Mine 1,,,,,0,0,4,0,5,0,0,-1,-1,-1,0,1,-1,0,0,0,952357,0,3585,134479880,0
 1222,garrison_alliance_mine_2,Garrison - Alliance Mine 2,,,,,0,0,4,0,5,0,0,-1,-1,-1,0,1,-1,0,0,0,952384,0,3585,134479880,0
 1223,garrison_alliance_mine_3,Garrison - Alliance Mine 3,,,,,0,0,4,0,5,0,0,-1,-1,-1,0,1,-1,0,0,0,952367,0,3585,134479880,0
@@ -508,8 +508,8 @@ Gold Rush is a 15 vs 15 resource battle",Capture the objectives,"- Capture and h
 1327,outdoorGarrisonConstructionPlotHorde,"Outdoor Garrison - Construction Plot, Medium - Horde",,,,,0,0,4,0,5,0,0,-1,-1,-1,0,1,-1,0,0,0,998092,0,3585,134479880,0
 1328,outdoorGarrisonConstructionPlotAlliance,"Outdoor Garrison - Construction Plot, Medium - Alliance",,,,,0,0,4,0,5,0,0,-1,-1,-1,0,1,-1,0,0,0,999310,0,3585,134479880,0
 1329,GrommasharScenario,Grommashar Scenario,,,,,0,0,1,5,5,0,0,-1,-1,1116,0,1,-1,0,0,0,1001396,0,545275485,134479896,0
-1330,FWHordeGarrisonLeve2new,FW Horde Garrison Level 2,,,,,0,0,1,1,5,0,373,-1,1116,1116,0,1,-1,0,0,0,1001652,0,612384349,134479896,0
-1331,SMVAllianceGarrisonLevel2new,SMV Alliance Garrison Level 2,,,,,0,0,1,1,5,0,374,-1,1116,1116,0,1,-1,0,0,0,1001653,0,746602077,134479896,0
+1330,FWHordeGarrisonLeve2new,FW Horde Garrison Level 2,,,,,0,0,1,1,5,0,373,-1,1116,1116,0,1,-1,0,0,0,1001652,0,612384349,134479896,128
+1331,SMVAllianceGarrisonLevel2new,SMV Alliance Garrison Level 2,,,,,0,0,1,1,5,0,374,-1,1116,1116,0,1,-1,0,0,0,1001653,0,746602077,134479896,128
 1332,garrison_horde_barracks2,Garrison - Horde - Barracks 2,,,,,0,0,4,0,5,0,0,-1,-1,-1,0,1,-1,0,0,0,1001914,0,3585,134479880,0
 1333,garrison_horde_armory2,Garrison - Horde - Armory 2,,,,,0,0,4,0,5,0,0,-1,-1,-1,0,1,-1,0,0,0,1001918,0,3585,134479880,0
 1334,garrison_horde_barn2,Garrison - Horde - Barn 2,,,,,0,0,4,0,5,0,0,-1,-1,-1,0,1,-1,0,0,0,1001901,0,3585,134479880,0
@@ -736,8 +736,8 @@ Gold Rush is a 15 vs 15 resource battle",Capture the objectives,"- Capture and h
 1637,TransportAllianceShipPhaseableMO,Transport: Alliance Ship PhaseableMO,,,,,0,0,3,0,6,0,0,-1,-1,-1,0,1,-1,0,0,0,0,0,3585,134479872,0
 1638,TransportHordeShipPhaseableMO,Transport: Horde Ship PhaseableMO,,,,,0,0,3,0,6,0,0,-1,-1,-1,0,1,-1,0,0,0,0,0,3585,134479872,0
 1639,TransportKvaldirShipPhaseableMO,Transport: Kvaldir Ship PhaseableMO,,,,,0,0,3,0,6,0,0,-1,-1,-1,0,1,-1,0,0,0,0,0,3585,134479872,0
-1642,Zandalar,Zandalar,,,,,0,0,1,0,7,0,552,-1,-1,-1,0,1,-1,0,12,1602425,1436413,0,142622301,134218768,0
-1643,KulTiras,Kul Tiras,,,,,0,0,1,0,7,0,551,-1,-1,-1,0,1,-1,0,12,1602424,1433921,0,142622301,134218768,0
+1642,Zandalar,Zandalar,,,,,0,0,1,0,7,0,552,-1,-1,-1,0,1,-1,0,12,1602425,1436413,0,142622301,134218768,128
+1643,KulTiras,Kul Tiras,,,,,0,0,1,0,7,0,551,-1,-1,-1,0,1,-1,0,12,1602424,1433921,0,142622301,134218768,128
 1644,PlunderIsle,Plunder Isle,,,,,0,0,1,0,6,0,0,-1,-1,-1,0,1,-1,0,12,0,1440315,0,142622301,134479888,0
 1646,BlackRookSenario,Black Rook Hold [Scenario],,,,,0,0,1,5,6,0,404,-1,-1,-1,0,1,-1,0,14,0,1446568,0,142622301,134479888,0
 1647,VoljinsFuneralPyre,Vol'jin's Funeral Pyre,,,,,0,0,4,0,6,0,0,-1,-1,-1,0,1,-1,0,0,0,1777356,0,3585,134479872,0
@@ -847,7 +847,7 @@ Gold Rush is a 15 vs 15 resource battle",Collect Azerite from Silithus,- Collect
 1813,Islands801,Un'gol Ruins (Islands 1),,,Test - Islands - Un'gol Ruins,,0,0,1,5,7,0,549,-1,-1,-1,0,1,-1,0,12,0,1702779,0,411057757,138839600,0
 1814,Islands802,Havenswood (Islands 2),,,,,0,0,1,5,7,0,549,-1,-1,-1,0,1,-1,0,12,0,1705997,0,411057757,138839600,0
 1815,Silithus,Silithus Phase,,,,,0,0,1,0,6,0,3,-1,-1,-1,0,1,-1,0,0,0,1708051,0,142622301,134479888,0
-1817,SilithusPhase01,Silithus: The Wound,,,,,0,0,1,0,0,0,3,-1,1,-1,0,1,-1,0,0,1771936,1711065,0,8535645,134480144,0
+1817,SilithusPhase01,Silithus: The Wound,,,,,0,0,1,0,0,0,3,-1,1,-1,0,1,-1,0,0,1771936,1711065,0,8404573,134480144,0
 1818,SilvermoonCity,Silvermoon City,,,,,0,0,1,5,0,0,0,-1,-1,-1,0,1,-1,0,12,0,1711924,0,134233693,134479896,0
 1822,BoralusDungeon,Siege of Boralus,,,,,0,0,1,1,7,0,542,-1,-1,1643,0,1,-1,0,12,0,1721709,0,-2139079075,-2013002960,0
 1825,KulTirasArena,Hook Point,,,,,0,0,1,4,7,0,545,0,-1,-1,0,1,-1,0,12,0,1712797,0,8396381,135005456,0
@@ -888,7 +888,7 @@ Gold Rush is a 15 vs 15 resource battle",Collect Azerite from Silithus,- Collect
 1913,PhaseableMONazmirTriangulationPlatform,PhaseableMO: Nazmir - Triangulation Platform,,,,,0,0,4,0,7,0,0,-1,-1,-1,0,1,-1,0,0,0,2449169,0,3585,134479872,0
 1916,PhaseableMONazmirShipWorldQuest,PhaseableMO: Nazmir - Ship World Quest,,,,,0,0,4,0,7,0,0,-1,-1,-1,0,1,-1,0,0,0,2449181,0,3585,134479872,0
 1917,GorgrondOrcs,Gorgrond - Mag'har Scenario,,,,,0,0,1,5,7,0,360,1080,-1,-1,0,1,-1,0,12,0,1923857,0,134233693,134479888,0
-1918,Kalimdor 2,Kalimdor Darkshore Phase,,,,,0,0,1,0,7,0,3,-1,1,1,0,1,-1,0,12,804935,1938745,0,142753373,134479888,0
+1918,Kalimdor 2,Kalimdor Darkshore Phase,,,,,0,0,1,0,7,0,3,-1,1,1,0,1,-1,0,12,804935,1938745,0,142622301,134479888,0
 1919,Islands_KL_Skywall_Entrance_Building_03,8.0 Islands - Platform - KL Skywall Entrance Building 03,,,,,0,0,4,0,7,0,0,-1,-1,-1,0,1,-1,0,0,0,2449177,0,3585,134479872,0
 1920,Islands_MD_Flamegate_E,8.0 Islands - Platform - MD Flamegate E,,,,,0,0,4,0,7,0,0,-1,-1,-1,0,1,-1,0,0,0,2449162,0,3585,134479872,0
 1921,Islands_8HU_Kultiras_ShipMedium01,8.0 Islands - Ship - Player Alliance - Kul'Tiras Medium 01 With Gangplank,,,,,0,0,4,0,7,0,0,-1,-1,-1,0,1,-1,0,0,0,2449163,0,3585,134479872,0
@@ -980,7 +980,7 @@ Meanwhile, the Defilers' elite troopers seek to sever the vital connection betwe
 2110,IncursionAirshipAlliance,8.1.0 Incursion Airship Alliance,,,,,0,0,4,0,7,0,0,-1,-1,-1,0,1,-1,0,0,0,2449204,0,3585,134479872,0
 2111,WarfrontsDarkshoreHorde,Warfronts Darkshore - Horde,,,,,0,0,1,5,7,0,557,0,-1,1,0,1,-1,0,12,0,2268682,0,-931119523,134483216,0
 2114,Scourge Procedural Dungeon,Maw Prototype,,,,,0,0,1,0,7,0,3,-1,-1,-1,0,1,-1,0,12,0,2314213,0,276831837,134218768,0
-2115,DarkshoreTyrandeScenario,8.1 Darkshore Scenario,,,,,0,0,1,5,7,0,434,0,1,1,0,1,-1,0,12,0,2317283,0,679624285,134480144,0
+2115,DarkshoreTyrandeScenario,8.1 Darkshore Scenario,,,,,0,0,1,5,7,0,434,0,1,1,0,1,-1,0,12,0,2317283,0,679493213,134480144,0
 2118,WintergraspEpic,Battle for Wintergrasp,"An ancient Titan stronghold built to protect the Vault of Archavon.  Horde and Alliance forces battle furiously for control of the place, eager to seize the artifacts and relics held within the vault for their battle against the Lich King.
 An ancient Titan stronghold built to protect the Vault of Archavon.  Horde and Alliance forces battle furiously for control of the place, eager to seize the artifacts and relics held within the vault for their battle against the Lich King.","An ancient Titan stronghold built to protect the Vault of Archavon.  Horde and Alliance forces battle furiously for control of the place, eager to seize the artifacts and relics held within the vault for their battle against the Lich King.",Defend or Assault Wintergrasp,"- Defend the Fortress as Defense
 - Destroy the final wall in the Fortress as Offense",0,0,1,3,2,0,243,-1,-1,571,0,1,-1,0,0,0,2334062,0,8396381,134218768,0
@@ -991,7 +991,7 @@ An ancient Titan stronghold built to protect the Vault of Archavon.  Horde and A
 2125,ZandalariTreasury,Zandalari Treasury,,,,,0,0,1,5,7,0,552,-1,-1,-1,0,1,-1,0,0,0,2355286,0,8396381,134218768,0
 2128,DaggerRealm,Dagger Realm,,,,,0,0,1,0,7,0,434,-1,-1,-1,0,1,-1,0,12,0,2368135,0,142614109,134217744,0
 2129,DarkshoreHordeQuests,8.1 Darkshore Horde Quests,,,,,0,0,1,0,7,0,434,0,-1,1,0,1,-1,0,12,0,2373017,0,-1467990435,134480144,0
-2131,DarkshoreOutdoorPhase,8.1 Darkshore Outdoor Final Phase,,,,,0,0,1,0,7,0,434,0,1,1,0,1,-1,0,12,0,2393025,0,142753373,134480144,0
+2131,DarkshoreOutdoorPhase,8.1 Darkshore Outdoor Final Phase,,,,,0,0,1,0,7,0,434,0,1,1,0,1,-1,0,12,0,2393025,0,142622301,134480144,0
 2134,TolDagorScenario,Tol Dagor Scenario,,,,,0,0,1,5,7,0,550,-1,-1,1643,0,1,-1,0,13,0,2397997,0,-2139079075,134481680,0
 2136,ZuldazarRaidShipTransport,Transport: Zuldazar Raid Ship,,,,,0,0,3,0,0,0,0,-1,-1,-1,0,1,-1,0,0,0,0,0,3585,134479880,0
 2145,Transport312214,Transport: Night Elf Warship,,,,,0,0,3,0,7,0,0,-1,-1,-1,0,1,-1,0,12,0,0,0,3585,134479872,0
@@ -1051,7 +1051,7 @@ A large-scale battleground, each side attempts to destroy each other's tower for
 2214,2214,The Maelstrom - Heart of Azeroth,,,,,0,0,1,5,7,0,272,-1,-1,-1,0,1,-1,0,12,0,2832121,0,1629,134479872,0
 2215,2215,Chamber of Heart - Repaired,,,,,0,0,1,0,7,0,434,-1,-1,-1,0,1,-1,0,12,0,2832122,0,142614109,134479888,0
 2217,2217,"Ny'alotha, the Waking City",,,,,0,0,1,2,7,0,575,-1,-1,-1,0,1,-1,0,12,0,2842322,0,142614109,263696,0
-2222,2222,The Shadowlands,,,,,0,0,1,0,8,0,576,-1,-1,-1,0,1,-1,0,11,0,2852007,0,145759837,679478288,8
+2222,2222,The Shadowlands,,,,,0,0,1,0,8,0,576,-1,-1,-1,0,1,-1,0,11,0,2852007,0,145759837,679478288,136
 2223,2223,The Eye of Eternity - HoA Scenario,,,,,3869.9814,6984.33,1,5,7,0,236,-1,-1,-1,0,1,571,5,12,0,2887359,0,1565,134479872,0
 2232,2232,Karazhan Catacombs - HoA Scenario,,,,,0,0,1,5,7,0,200,-1,-1,0,0,1,-1,0,12,0,2915729,0,679493213,134479889,0
 2233,2233,Temple of the Jade Serpent - HoA Scenario,,,,,957.706,-2473.41,1,1,7,0,311,-1,-1,-1,0,1,870,0,12,0,2915791,0,8404573,134479872,0
@@ -1114,11 +1114,11 @@ A large-scale battleground, each side attempts to destroy each other's tower for
 2375,2375,9.0 Bastion Arena - Path of Ascension,,,,,0,0,1,5,8,0,583,720,-1,-1,0,1,-1,0,12,0,3557117,0,8396381,1207960592,0
 2439,2439,De Other Side (Ardenweald Campaign),,,,,0,0,1,0,8,0,585,1320,-1,-1,0,1,-1,0,12,0,3643212,0,8396381,1040,0
 2441,2441,"Tazavesh, the Veiled Market",,,,,0,0,1,1,8,0,592,720,-1,-1,0,1,-1,0,0,0,3649248,0,8396381,788016,0
-2444,2444,Dragon Isles,,,,,0,0,1,0,9,0,603,-1,-1,-1,0,1,-1,0,11,4763832,3694921,1600,160448093,134218768,12
+2444,2444,Dragon Isles,,,,,0,0,1,0,9,0,603,-1,-1,-1,0,1,-1,0,11,4763832,3694921,1600,160448093,134218768,140
 2450,2450,Sanctum of Domination,,,,,0,0,1,2,8,0,591,720,-1,-1,0,1,-1,0,12,0,3753685,0,144711261,671352336,0
-2451,2451,Uldaman: Legacy of Tyr,,,,,0,0,1,1,9,0,597,-1,-1,-1,0,1,-1,0,12,0,3760927,0,9444957,1040,0
+2451,2451,Uldaman: Legacy of Tyr,,,,,0,0,1,1,9,0,597,-1,-1,-1,0,1,-1,0,12,0,3760927,0,143662685,33808,0
 2453,2453,Torghast,,,,,0,0,1,0,8,0,576,-1,-1,-1,0,1,-1,0,12,0,3777022,0,8396381,263184,0
-2454,2454,Zaralek Cavern,,,,,0,0,1,0,9,0,603,-1,-1,-1,0,1,-1,0,12,0,3846618,0,25173597,134218768,4
+2454,2454,Zaralek Cavern,,,,,0,0,1,0,9,0,603,-1,-1,-1,0,1,-1,0,12,0,3846618,0,25173597,134218768,140
 2456,2456,The Maw,,,,,0,0,1,0,8,0,576,-1,-1,-1,0,1,-1,0,12,0,3889778,0,145759837,679478288,0
 2464,2464,9.1 Battle of Ardenweald,,,,,0,0,1,5,8,0,576,-1,-1,2222,0,1,-1,0,12,0,3994581,0,-2139087267,134218768,0
 2465,2465,9.1 Andorhal - Kyrian Chapter Scenario,,,,,0,0,1,5,8,0,4,-1,-1,0,0,1,-1,0,12,804940,3995304,0,7773,134479920,0
@@ -1138,25 +1138,25 @@ A large-scale battleground, each side attempts to destroy each other's tower for
 2511,2511,Enigma Arena,,,,,0,0,1,4,8,0,596,720,-1,-1,0,1,-1,0,11,0,4269073,0,8396381,1040,0
 2512,2512,Grand Time Adventure,,,,,0,0,1,0,9,0,603,-1,-1,-1,0,1,-1,0,12,0,4269080,0,25173597,1040,0
 2515,2515,The Azure Vault,,,,,0,0,1,1,9,0,598,-1,-1,2444,0,1,-1,0,12,0,4278714,0,-2139087267,671875632,0
-2516,2516,The Nokhud Offensive,,,,,0,0,1,1,9,0,604,720,-1,2444,0,1,-1,0,12,0,4284073,0,-2003812771,1040,0
+2516,2516,The Nokhud Offensive,,,,,0,0,1,1,9,0,604,720,-1,2444,0,1,-1,0,12,0,4284073,0,-2003812771,33808,0
 2518,2518,Old Beyfir,,,,,0,0,3,0,9,0,0,-1,-1,-1,0,1,-1,0,12,0,0,0,1553,262144,0
-2519,2519,Neltharus,,,,,0,0,1,1,9,0,605,600,-1,-1,0,1,-1,0,12,0,4289128,0,10493533,671351344,0
-2520,2520,Brackenhide Hollow,,,,,0,0,1,1,9,0,606,-1,-1,2444,0,1,-1,0,11,0,4289164,0,143670877,671089680,0
-2521,2521,Ruby Life Pools,,,,,0,0,1,1,9,0,600,-1,-1,2444,0,1,-1,0,12,0,4289279,0,8404573,1040,4
+2519,2519,Neltharus,,,,,0,0,1,1,9,0,605,600,-1,-1,0,1,-1,0,12,0,4289128,0,144711261,671384112,0
+2520,2520,Brackenhide Hollow,,,,,0,0,1,1,9,0,606,-1,-1,2444,0,1,-1,0,11,0,4289164,0,143670877,671122448,0
+2521,2521,Ruby Life Pools,,,,,0,0,1,1,9,0,600,-1,-1,2444,0,1,-1,0,12,0,4289279,0,142622301,33808,4
 2522,2522,Vault of the Incarnates,,,,,0,0,1,2,9,0,602,-1,-1,-1,0,1,-1,0,12,0,4289702,0,8396381,1040,0
 2523,2523,The Defiant Dragonscale,,,,,0,0,3,0,9,0,0,-1,-1,-1,0,1,-1,0,12,0,0,0,1553,262144,0
 2524,2524,The Rugged Dragonscale,,,,,0,0,3,0,9,0,0,-1,-1,-1,0,1,-1,0,12,0,0,0,1553,262144,0
-2526,2526,Algeth'ar Academy,,,,,0,0,1,1,9,0,599,-1,-1,2444,0,1,-1,0,12,0,4290605,0,8404573,1296,4
-2527,2527,Halls of Infusion,,,,,0,0,1,1,9,0,601,720,-1,-1,0,1,-1,0,12,0,4290690,0,8404573,1040,0
+2526,2526,Algeth'ar Academy,,,,,0,0,1,1,9,0,599,-1,-1,2444,0,1,-1,0,12,0,4290605,0,142622301,34064,4
+2527,2527,Halls of Infusion,,,,,0,0,1,1,9,0,601,720,-1,-1,0,1,-1,0,12,0,4290690,0,142622301,33808,0
 2529,2529,Young Belvo,,,,,0,0,3,0,9,0,0,-1,-1,-1,0,1,-1,0,12,0,0,0,1553,262144,0
-2532,2532,Tirisfal Glades,,,,,0,0,1,0,8,0,4,-1,-1,0,0,1,-1,0,12,0,4395716,0,8396381,1040,0
+2532,2532,Ruins of Lordaeron,,,,,0,0,1,0,8,0,4,-1,-1,0,0,1,-1,0,12,0,4395716,0,8396381,1040,0
 2534,2534,10.0 Dragon Isles -  Black Dragon Citadel - Narrative Version,,,,,0,0,1,0,9,0,603,-1,-1,2444,0,1,-1,0,12,0,4485109,0,143670877,134218768,0
 2547,2547,Enigma Crucible,,,,,0,0,1,4,8,0,596,720,-1,-1,0,1,-1,0,11,0,4536896,0,8396381,1040,0
 2556,2556,Emerald Dreamway,,,,,0,0,1,5,9,0,418,0,-1,-1,0,1,-1,0,12,0,4541813,0,8404573,134480912,0
 2559,2559,Shadowlands,,,,,0,0,1,2,8,0,576,-1,-1,-1,0,1,-1,0,12,0,4550305,0,144711261,671352336,0
 2563,2563,Nokhudon Proving Grounds,,,,,0,0,1,4,9,0,607,-1,-1,-1,0,1,-1,0,12,0,4579690,0,8396381,1040,0
 2569,2569,"Aberrus, the Shadowed Crucible",,,,,0,0,1,2,9,0,609,-1,-1,-1,0,1,-1,0,12,0,4636233,0,-2139087267,1040,0
-2570,2570,10.0 The Forbidden Reach (Child of 2444),,,,,0,0,1,0,8,0,603,-1,-1,2444,0,1,-1,0,12,0,4637866,0,143933021,134218768,0
+2570,2570,10.0 The Forbidden Reach (Child of 2444),,,,,0,0,1,0,8,0,603,-1,-1,2444,0,1,-1,0,12,0,4637866,0,143933021,134218768,8
 2573,2573,Lost Arvillo,,,,,0,0,3,0,9,0,0,-1,-1,-1,0,1,-1,0,12,0,0,0,1553,262144,0
 2574,2574,Dragon Isles,,,,,0,0,1,2,9,0,411,-1,-1,-1,0,1,-1,0,12,0,4668131,0,144711261,671352336,0
 2576,2576,Sully Test Space,,,,,0,0,1,0,9,0,205,-1,-1,-1,0,1,-1,0,12,0,4676136,0,8404575,1040,0
@@ -1165,7 +1165,7 @@ A large-scale battleground, each side attempts to destroy each other's tower for
 2583,2583,Tyr's Fall Scenario,,,,,0,0,1,5,9,0,603,-1,-1,0,0,1,-1,0,12,0,4757755,0,8396381,134218768,0
 2586,2586,10.1.5 Time Rifts - Murloc (Azmerloth),,,,,0,0,1,5,9,0,212,-1,571,571,0,1,-1,0,12,0,4862221,0,26230365,134218768,12
 2587,2587,10.1.5 Time Rifts - Robot (A.Z.E.R.O.T.H.),,,,,0,0,1,5,9,0,212,-1,-1,-1,0,1,-1,0,12,0,4862222,0,25173597,1024,0
-2590,2590,The Azure Vault,,,,,0,0,1,5,9,0,598,-1,-1,-1,0,1,-1,0,12,0,4885845,0,-2136990115,537657904,0
+2590,2590,The Azure Vault,,,,,0,0,1,5,9,0,598,-1,-1,-1,0,1,-1,0,12,0,4885845,0,-2002772387,537690672,0
 2593,2593,10.1.5 Time Rifts - Black Empire (Azq'roth),,,,,0,0,1,5,9,0,212,-1,-1,-1,0,1,-1,0,12,0,4899338,0,25173597,1040,16
 2594,2594,10.1.5 Time Rifts - Argus Raid UNUSED,,,,,0,0,1,1,9,0,209,-1,-1,-1,0,1,-1,0,12,0,4899339,0,8396381,1040,0
 2595,2595,10.1.5 Time Rifts - Demon (Azewrath),,,,,0,0,1,5,9,0,212,-1,-1,-1,0,1,-1,0,12,0,4899340,0,25173597,1040,0
@@ -1177,5 +1177,7 @@ A large-scale battleground, each side attempts to destroy each other's tower for
 2634,2634,10.1.5 Time Rifts - HvA (The Warlands),,,,,0,0,1,5,9,0,212,-1,1642,1642,0,1,-1,0,12,0,5096986,0,159399517,134218768,0
 2635,2635,10.1.5 Time Rifts - Titan (Ulderoth),,,,,0,0,1,5,9,0,212,-1,-1,-1,0,1,-1,0,12,0,5104091,0,159399517,1040,0
 2636,2636,Dragon Isles,,,,,0,0,1,0,9,0,603,-1,-1,-1,0,1,-1,0,12,4763832,5105540,1600,160448095,1040,12
+2637,2637,Dragon Isles,,,,,0,0,1,0,9,0,603,-1,-1,2444,0,1,-1,0,12,4763832,5105580,1600,160448093,134218768,12
 2639,2639,10.1.5 Time Rifts - Scourge (Azmourne),,,,,0,0,1,5,9,0,212,-1,-1,-1,0,1,-1,0,12,0,5141708,0,25173597,1040,0
 2645,2645,10.1.5 Scarlet Monastery - Headless Horseman Revamp,,,,,0,0,1,1,9,0,333,-1,-1,-1,0,1,-1,0,12,0,5169538,0,9444957,262144,0
+2668,2668,10.1.7 Tyr Scenario - Black Empire,,,,,0,0,1,0,9,0,212,-1,-1,-1,0,1,-1,0,12,0,5347738,0,25173597,1040,16
