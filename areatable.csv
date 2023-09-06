@@ -22,7 +22,7 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 22,ProgrammerIsle,Programmer Isle,451,0,547,0,11,38,675,2,0,0,0,0,0.15,14,3499,0,0,0,798,16448,0,1,0,0,0
 23,NorthshireRiver,Northshire River,0,12,134,0,11,35,675,0,0,0,0,0,0.15,15,-1,0,0,0,73,1074806848,0,0,0,0,0
 24,Northshireabbey,Northshire Abbey,0,6170,135,73,11,35,675,1,0,0,0,0,0.15,15,-1,0,0,0,73,1076904000,0,0,0,0,0
-25,BlackrockMountain,Blackrock Mountain,0,0,136,0,11,46,675,10,0,0,0,0,0.15,15,-1,15,17,0,1203,16448,0,0,0,0,0
+25,BlackrockMountain,Blackrock Mountain,0,0,136,0,11,2636,675,10,0,0,0,0,0.15,15,-1,15,17,0,1203,16448,0,0,0,0,0
 26,Lighthouse,Lighthouse,0,40,602,0,11,0,675,7,0,0,0,0,0.15,15,-1,0,0,0,6,1073758272,0,0,0,0,0
 28,WesternPlaguelands,Western Plaguelands,0,0,137,0,11,634,675,635,0,0,0,0,0.3,15,-1,10,11,0,25,16448,0,0,0,0,0
 30,Nine,Nine,0,0,138,0,11,0,675,0,0,0,0,0,0.15,15,-1,0,0,0,339,16448,0,0,0,0,0
@@ -42,7 +42,7 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 46,BurningSteppes,Burning Steppes,0,0,151,0,11,596,675,725,0,0,0,0,0.1,15,-1,15,16,0,30,16448,0,0,0,0,0
 47,TheHinterlands,The Hinterlands,0,0,152,0,11,605,675,1,0,0,0,0,0.4,15,-1,11,12,0,20,16448,0,0,0,0,0
 49,DeadMansHole,Dead Man's Hole,451,22,153,0,11,0,675,0,0,0,0,0,0.15,13,-1,0,0,0,798,1073741888,0,0,0,0,0
-51,SearingGorge,Searing Gorge,0,0,154,0,11,46,675,10,0,0,0,0,0.15,15,-1,13,14,0,29,16448,0,0,0,0,0
+51,SearingGorge,Searing Gorge,0,0,154,0,11,2636,675,10,0,0,0,0,0.15,15,-1,13,14,0,29,16448,0,0,0,0,0
 53,ThievesCamp,Thieves Camp,0,12,155,0,11,35,675,1,0,0,0,0,0.15,15,-1,0,0,0,73,1073758272,0,0,0,0,0
 54,JasperlodeMine,Jasperlode Mine,0,12,550,0,11,35,675,1,0,0,0,0,0.15,15,-1,0,0,0,73,1073758272,8192,0,0,0,0
 55,ValleyofHeroesUNUSED,Valley of Heroes UNUSED,0,12,156,0,11,35,675,13,0,61,0,0,0.15,15,-1,0,0,0,73,1073758272,0,0,0,0,0
@@ -189,7 +189,7 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 224,RavagedCaravan,Ravaged Caravan,1,215,277,0,11,0,675,9,0,0,0,0,0.15,15,-1,0,0,0,71,1073758272,8192,0,0,0,0
 225,RedRocks,Red Rocks,1,215,278,0,11,0,675,9,0,685,0,0,0.15,15,-1,0,0,0,71,1073758272,8192,0,0,0,0
 226,TheSkitteringDark,The Skittering Dark,0,130,551,0,11,0,675,0,0,0,0,0,0.15,15,-1,0,0,0,7,1073758272,8192,0,0,0,0
-227,Valgan'sField,Valgan's Field,0,130,279,0,11,0,675,2,0,0,0,0,0.15,15,-1,0,0,0,7,1073758272,8192,0,0,0,0
+227,ValgansField,Valgan's Field,0,130,279,0,11,0,675,2,0,0,0,0,0.15,15,-1,0,0,0,7,1073758272,8192,0,0,0,0
 228,TheSepulcher,The Sepulcher,0,130,280,0,11,0,675,749,0,0,0,0,0.15,15,-1,0,0,0,7,1076904000,8192,0,0,0,0
 229,Olsen'sFarthing,Olsen's Farthing,0,130,281,0,11,0,675,0,0,161,0,0,0.15,15,-1,0,0,0,7,1073758272,8192,0,0,0,0
 230,TheGreymaneWall,The Greymane Wall,0,130,282,0,11,0,675,0,0,0,0,0,0.15,15,-1,0,0,0,7,1073758272,8192,0,0,0,0
@@ -754,7 +754,7 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 1767,IrontreeWoods,Irontree Woods,1,361,752,0,0,0,675,0,0,0,0,0,0.15,15,-1,0,0,0,26,1073758272,8192,0,0,0,0
 1768,IrontreeCavern,Irontree Cavern,1,361,753,0,0,0,675,0,0,0,0,0,0.15,15,-1,0,0,0,26,1073758272,0,0,0,0,0
 1769,TimbermawHold,Timbermaw Hold,1,361,754,0,0,0,675,0,0,0,0,0,0.15,15,-1,0,0,0,26,1073758272,8192,0,0,0,0
-1770,ShadowHold,Shadow Hold,1,361,755,0,0,0,675,0,0,0,0,0,0.15,15,-1,0,0,0,26,1073758272,0,0,0,0,0
+1770,ShadowHold,Shadow Hold,1,361,755,0,0,0,675,193,0,0,0,0,0.15,15,-1,0,0,0,26,1073758272,0,0,0,0,0
 1771,ShrineoftheDeceiver,Shrine of the Deceiver,1,361,756,0,0,0,675,0,0,0,0,0,0.15,15,-1,0,0,0,26,1073758272,0,0,0,0,0
 1777,Itharius'sCave,Purespring Cavern,0,8,757,0,0,0,675,0,0,0,0,0,0.15,15,-1,0,0,0,31,1073758272,8192,0,0,0,0
 1778,Sorrowmurk,Sorrowmurk,0,8,758,0,0,0,675,0,0,0,0,0,0.15,15,-1,0,0,0,31,1073758272,8192,0,0,0,0
@@ -8673,3 +8673,8 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 14900,DungeonDawnoftheInfiniteFrontSand,Shifting Sands,2579,14514,0,0,0,0,675,0,0,0,0,0,0,13,-1,0,0,0,0,1342177280,140,0,0,0,0
 14934,TheChronosmithsForge,The Chronosmith's Forge,2444,13647,0,0,0,0,0,2680,0,0,0,0,0,15,-1,0,0,0,0,1073743936,128,0,0,0,0
 14935,IronormusVault,Ironormu's Vault,2444,13647,0,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,0,1073741888,128,0,0,0,0
+14963,DevMapQuestTraining,Dev Map - Quest Training,2658,0,0,0,0,2444,2480,2638,0,0,0,0,0,15,-1,25,25,0,2145,16448,8320,0,0,0,0
+14966,DevMapExilesReach,Dev Map - Exile's Reach,2658,0,0,0,0,2444,2480,2638,0,0,0,0,0,15,-1,25,25,0,2145,16448,8320,0,0,0,0
+14967,DevMapZerethMortis,Dev Map - Zereth Mortis,2658,0,0,0,0,2444,2480,2638,0,0,0,0,0,15,-1,25,25,0,2145,16448,8320,0,0,0,0
+14968,DevMapMechagon,Dev Map - Mechagon,2658,0,0,0,0,2444,2480,2638,0,0,0,0,0,15,-1,25,25,0,2145,16448,8320,0,0,0,0
+14970,TheBlackEmpireTyrScenario,The Black Empire,2668,0,0,67,0,2187,0,2706,0,0,0,0,0,13,-1,0,0,0,0,524352,128,0,0,0,0
