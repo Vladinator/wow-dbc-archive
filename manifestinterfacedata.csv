@@ -24109,6 +24109,7 @@ ID,FilePath,FileName
 804639,Interface\FrameXML\,FrameLocks.lua
 804640,Interface\FrameXML\,ItemTextFrame.xml
 804641,Interface\FrameXML\,HealthBar.lua
+804642,Interface\FrameXML\,LFGFrame.lua
 804644,Interface\FrameXML\,ItemTextFrame.lua
 804650,Interface\FrameXML\,LootHistory.xml
 804652,Interface\FrameXML\,LootFrame.lua
@@ -24117,7 +24118,9 @@ ID,FilePath,FileName
 804657,Interface\FrameXML\,ItemRef.xml
 804658,Interface\FrameXML\,MainMenuBar.xml
 804660,Interface\FrameXML\,LootHistory.lua
+804663,Interface\FrameXML\,LFGFrame.xml
 804664,Interface\FrameXML\,MailFrame.lua
+804665,Interface\FrameXML\,LFDFrame.xml
 804667,Interface\FrameXML\,MainMenuBarBagButtons.xml
 804668,Interface\FrameXML\,MainMenuBarBagButtons.lua
 804669,Interface\FrameXML\,ItemButtonTemplate.lua
@@ -24125,6 +24128,7 @@ ID,FilePath,FileName
 804672,Interface\FrameXML\,LootFrame.xml
 804673,Interface\FrameXML\,LocalizationPost.xml
 804676,Interface\FrameXML\,MoneyFrame.xml
+804677,Interface\FrameXML\,LFDFrame.lua
 804680,Interface\FrameXML\,MailFrame.xml
 804682,Interface\FrameXML\,MovieFrame.lua
 804683,Interface\FrameXML\,MoneyInputFrame.xml
@@ -24159,12 +24163,15 @@ ID,FilePath,FileName
 804725,Interface\FrameXML\,OverrideActionBar.lua
 804727,Interface\FrameXML\,PetPopup.xml
 804728,Interface\FrameXML\,OptionsPanelTemplates.xml
+804729,Interface\FrameXML\,PVEFrame.xml
 804730,Interface\FrameXML\,PetStable.lua
 804731,Interface\FrameXML\,PartyMemberFrame.lua
 804732,Interface\FrameXML\,PVPFrame.xml
 804733,Interface\FrameXML\,PlayerFrame.lua
+804734,Interface\FrameXML\,QueueStatusFrame.lua
 804736,Interface\FrameXML\,PartyFrameTemplates.xml
 804739,Interface\FrameXML\,PVPFrame.lua
+804740,Interface\FrameXML\,PVEFrame.lua
 804741,Interface\FrameXML\,RatingMenuFrame.xml
 804745,Interface\FrameXML\,PossessActionBar.xml
 804746,Interface\FrameXML\,PossessActionBar.lua
@@ -24173,6 +24180,7 @@ ID,FilePath,FileName
 804753,Interface\FrameXML\,ReputationFrame.lua
 804754,Interface\FrameXML\,PVPFrameTemplates.xml
 804755,Interface\FrameXML\,RaidFrame.lua
+804757,Interface\FrameXML\,QueueStatusFrame.xml
 804759,Interface\FrameXML\,RuneFrame.lua
 804760,Interface\FrameXML\,RestrictedEnvironment.lua
 804762,Interface\FrameXML\,ReputationFrame.xml
@@ -25101,6 +25109,8 @@ ID,FilePath,FileName
 969834,Interface\PlayerFrame\,MonkUIAtlas.blp
 973338,Interface\TradeSkillFrame\,CapacitanceUIGeneral.blp
 973339,Interface\TradeSkillFrame\,CapacitanceUIBlacksmithing.blp
+974810,Interface\FrameXML\,LFGList.lua
+974811,Interface\FrameXML\,LFGList.xml
 974947,Interface\Glues\Common\,Glues-WoW-ChineseWODLOGO.blp
 974948,Interface\Glues\COMMON\,Glues-WoW-TaiwanWODLOGO.blp
 974985,Interface\LevelUp\,MinorTalents.blp
@@ -34588,6 +34598,7 @@ ID,FilePath,FileName
 1579941,Interface\EncounterJournal\,UI-EJ-BOSS-Sivash.blp
 1579942,Interface\EncounterJournal\,UI-EJ-BOSS-ThrashbitetheScornful.blp
 1579943,Interface\EncounterJournal\,UI-EJ-BOSS-Veliskarr.blp
+1580407,Interface\FrameXML\,WorldMapPOIQuantizer.lua
 1580476,Interface\WorldMap\ColdridgeValleyScenario\,ColdridgeValleyScenario9.blp
 1580477,Interface\WorldMap\ColdridgeValleyScenario\,ColdridgeValleyScenario8.blp
 1580478,Interface\WorldMap\ColdridgeValleyScenario\,ColdridgeValleyScenario7.blp
@@ -36670,6 +36681,8 @@ ID,FilePath,FileName
 2005627,Interface\AddOns\Blizzard_SharedMapDataProviders\,DeathMapDataProvider.xml
 2009181,Interface\AddOns\Blizzard_WorldMap\,WM_DebugDataProvider.lua
 2009183,Interface\AddOns\Blizzard_WorldMap\,WM_DebugDataProvider.xml
+2009184,Interface\AddOns\Blizzard_SharedMapDataProviders\,QuestBlobDataProvider.lua
+2009186,Interface\AddOns\Blizzard_SharedMapDataProviders\,QuestBlobDataProvider.xml
 2012268,Interface\AddOns\Blizzard_SharedMapDataProviders\,ScenarioDataProvider.lua
 2012271,Interface\AddOns\Blizzard_UIWidgets\,Blizzard_UIWidgetTemplateDoubleIconAndText.lua
 2012272,Interface\AddOns\Blizzard_UIWidgets\,Blizzard_UIWidgetTemplateDoubleIconAndText.xml
@@ -37262,6 +37275,7 @@ ID,FilePath,FileName
 3067399,Interface\GLUES\CREDITS\,ClassicGryphon4.blp
 3067400,Interface\GLUES\CREDITS\,ClassicGryphon8.blp
 3151383,Interface\UIEditorIcons\,UIEditorIcons.BLP
+3169802,Interface\FrameXML\,QueueUpdater.lua
 3183835,Interface\SharedXML\,DropDownToggleButton.lua
 3183837,Interface\SharedXML\,DropDownToggleButton.xml
 3187436,Interface\SharedXML\,ModelSceneControlFrameMixin.lua
@@ -38314,6 +38328,8 @@ ID,FilePath,FileName
 4877746,Interface_Wrath\FrameXML\,RaidFrame.lua
 4877748,Interface_Wrath\FrameXML\,RaidFrame.xml
 4885715,Interface\AddOns\Blizzard_APIDocumentationGenerated\,ExpansionLandingPageConstantsDocumentation.lua
+4952338,Interface_Wrath\AddOns\Blizzard_WorldMap\,Blizzard_WorldMap.lua
+4952340,Interface_Wrath\AddOns\Blizzard_WorldMap\,Blizzard_WorldMap.xml
 4954330,Interface\AddOns\Blizzard_AccountSaveUI\,Blizzard_AccountSaveUI.lua
 4954331,Interface\AddOns\Blizzard_AccountSaveUI\,Blizzard_AccountSaveUI.xml
 4954332,Interface\AddOns\Blizzard_AccountSaveUI\,Blizzard_AccountSaveUI.toc
@@ -38409,8 +38425,10 @@ ID,FilePath,FileName
 5171391,Interface\SharedXML\Settings\,Blizzard_SettingsPanelTemplates.xml
 5171843,Interface\LFGFrame\,UILFGPrompts.BLP
 5174607,Interface\AddOns\Blizzard_APIDocumentationGenerated\,FrameAPISimpleCheckoutDocumentation.lua
+5175018,Interface\AddOns\Blizzard_APIDocumentationGenerated\,FrameAPIBlobDocumentation.lua
 5177499,Interface\AddOns\QA_LibsGlue\,GlueScreenHelper.lua
 5177502,Interface\AddOns\QA_LibsGlue\,QA_LibsGlue.toc
+5185084,Interface\AddOns\Blizzard_APIDocumentationGenerated\,FrameAPIQuestPOIDocumentation.lua
 5193714,Interface\AddOns\QA_Libs\Utilities\,GameDataLookupInteractions.lua
 5194010,Interface\AddOns\AnimationViewer\,AnimationViewerAdmin.lua
 5196726,Interface\AddOns\Blizzard_APIDocumentationGenerated\,FrameAPIUnitPositionFrameDocumentation.lua
@@ -38555,3 +38573,12 @@ ID,FilePath,FileName
 5372218,Interface\AddOns\Blizzard_APIDocumentationObject\,SimpleAnimRotationAPIDocumentation.lua
 5372219,Interface\AddOns\Blizzard_APIDocumentationObject\,FrameAPIModelSceneFrameSharedDocumentation.lua
 5372220,Interface\AddOns\Blizzard_APIDocumentationObject\,SimpleControlPointAPIDocumentation.lua
+5387575,Interface\AddOns\Blizzard_APIDocumentationGenerated\,PowerTypeConstantsDocumentation.lua
+5394944,Interface\AddOns\Blizzard_SharedMapDataProviders\,BonusObjectiveDataProvider_Wrath.lua
+5394945,Interface_Wrath\FrameXML\,QuestMapFrame.xml
+5394946,Interface_Wrath\FrameXML\,QuestPOI.xml
+5394947,Interface_Wrath\FrameXML\,WorldMapFrame.xml
+5394948,Interface_Wrath\FrameXML\,QuestMapFrame.lua
+5394949,Interface_Wrath\FrameXML\,QuestLogOwnerMixin.lua
+5394950,Interface_Wrath\FrameXML\,QuestPOI.lua
+5404030,Interface\AddOns\Blizzard_APIDocumentationGenerated\,SocialConstantsDocumentation.lua

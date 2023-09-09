@@ -12099,11 +12099,11 @@ ID,BaseTag,TagText_lang,Flags
 23852,ENCHANTED_TOOLTIP_LINE,Enchanted: %s,1
 23853,DELETE_GOOD_QUEST_ITEM,"Do you want to destroy %s?\n|cffff2020Destroying this item will also abandon any related quests.|r\n\nType ""DELETE"" into the field to confirm.",1
 23855,POWER_TYPE_FURY,Fury,1
-23856,INSTANCE_CHAT,Battleground,1
-23857,INSTANCE_CHAT_LEADER,Battleground Leader,1
-23858,CHAT_INSTANCE_CHAT_GET,|Hchannel:INSTANCE_CHAT|h[Battleground]|h %s:\32,1
-23859,CHAT_INSTANCE_CHAT_SEND,Battleground:\32,1
-23860,CHAT_INSTANCE_CHAT_LEADER_GET,|Hchannel:INSTANCE_CHAT|h[Battleground Leader]|h %s:\32,1
+23856,INSTANCE_CHAT,Instance,1
+23857,INSTANCE_CHAT_LEADER,Instance Leader,1
+23858,CHAT_INSTANCE_CHAT_GET,|Hchannel:INSTANCE_CHAT|h[Instance]|h %s:\32,1
+23859,CHAT_INSTANCE_CHAT_SEND,Instance:\32,1
+23860,CHAT_INSTANCE_CHAT_LEADER_GET,|Hchannel:INSTANCE_CHAT|h[Instance Leader]|h %s:\32,1
 23863,SLASH_INSTANCE_CHAT1,/instance,1
 23864,SLASH_INSTANCE_CHAT2,/instance,1
 23865,SLASH_INSTANCE_CHAT3,/bg,1
@@ -12111,7 +12111,7 @@ ID,BaseTag,TagText_lang,Flags
 23867,SLASH_INSTANCE_CHAT5,/bg,1
 23868,SLASH_INSTANCE_CHAT6,/battleground,1
 23869,SLASH_INSTANCE_CHAT7,/instance_chat,1
-23870,INSTANCE_CHAT_MESSAGE,Battleground,1
+23870,INSTANCE_CHAT_MESSAGE,Instance,1
 23871,ERR_NOT_IN_INSTANCE_GROUP,You aren't in an instance group.,1
 23872,PET_BATTLE_COMBAT_LOG_CAST,%s %s cast %s.,1
 23873,MIN_DAMAGE,Min Damage,1
@@ -18214,3 +18214,8 @@ ID,BaseTag,TagText_lang,Flags
 51446,ERR_BATTLEGROUND_INVITATION_DECLINED_BY,Your War Game invitation has been declined by %s.,1
 51453,OPTION_TOOLTIP_RESTRICT_CALENDAR_INVITES,Only allow calendar invites from friends or guild members. ,1
 51454,RESTRICT_CALENDAR_INVITES,Restrict Calendar Invites ,1
+51485,PNC_FLOW_SLECT_NAME_ACTIVE,Select new name,2
+51486,PNC_FLOW_SLECT_NAME_RESULTS,New name:,2
+51487,PNC_FLOW_FINISH_LABEL,Accept,2
+51488,PNC_FLOW_NEW_NAME_LABEL,New Name,2
+51489,PNC_CUSTOMIZE_DIALOG_TEXT,Your name change will be permanently applied once you accept.,2
