@@ -347120,10 +347120,13 @@ The pool slows players who remain inside of it by $401794s2% and reduces their h
 418543,,Lord Banehollow summons a pair of Dreadstalkers to hunt down players.,
 418544,,Lord Banehollow summons a Pit Lord to decimate players.,
 418547,,$@spelldesc418527,
+418549,,Teleports the user to the Vindicaar. Does not work outside of your capital city.,
 418550,,,Globs of decaying slime hold the target in place.
+418552,,,
 418553,,"Illidan leaps at a location, inflicting $s1 Chaos damage and stunning to all players within $A1 yards for $d sec.",Stunned!
 418554,,Lord Banehollow calls down a burning $@spellname418554 that inflicts $s1 Fire damage every $t1 sec to players in the area.,
 418555,,Burns players in the area inflicting $s1 Fire damage every $t1 sec.,$s1 Fire damage inflicted every $t1 sec.
+418557,,Teleports the user to Krokul Hovel in Krokuun.,
 418558,,"Lord Banehollow unleashes a devastating blast of chaos, inflicting $s1 Chaos damage.
 ",
 418560,,,
@@ -347162,6 +347165,7 @@ The pool slows players who remain inside of it by $401794s2% and reduces their h
 418611,,"Lord Banehollow shields himself with the souls he drained, granting $s2% of his health in an absorb shield.",Absorbs $w1 damage.
 418616,,"Lord Banehollow shields himself with the souls he drained, granting $s2% of his health in an absorb shield.",Absorbs $w1 damage.
 418617,,Lord Banehollow drains the souls of all captured Warlock souls to empower himself with all of their abilities and shielding him for $418616s2% of his health.,
+418618,,.,
 418619,,,
 418620,,,
 418621,,Increases attack damage by $s1%. Stacks up to $u times.,Attack damage increased by $s1%.
@@ -347194,10 +347198,13 @@ The pool slows players who remain inside of it by $401794s2% and reduces their h
 418721,,,
 418723,,,
 418726,,,
+418731,,,
+418732,,,
 418733,,Ray of Frost deals $s1% of its damage to ${$384685i} nearby enemies.,
 418735,,$@spelldesc418733,
 418744,,Experience and reputation gains increased by $s3%.,Experience and reputation gains increased by $s3%.
 418758,,,
+418761,,,
 418769,,"Slip partially into the Emerald Dream, becoming harder to detect when not in combat and empowering your next attacks.","Slip partially into the Emerald Dream, becoming harder to detect when not in combat and empowering your next attacks."
 418770,,,Stealthed.
 418773,,$@spelldesc418527,
@@ -347382,13 +347389,16 @@ Delusions][]"
 Healing done increased by $s3%.
 Haste increased by $s4%."
 419002,,Display your dragon racing prowess.,You feel different...
+419049,,,
 419050,,$@spelldesc419000,"Damage done increased by $419000s1%.
 Healing done increased by $419000s3%.
 Haste increased by $419000s4%."
 419052,,$@spelldesc419162,
 419055,,,
 419063,,,
+419064,,,
 419065,,,
+419067,,,
 419075,,"Compelled by the will of Loken, Prime Designate.","Compelled by the will of Loken, Prime Designate."
 419077,,Damage increased by $s1% for $d.,Damage increased by $s1%.
 419079,,"Periodically attract a Dreamsurge Defender, who will absorb one attack directed at you before returning to the Dream.","Periodically attract a Dreamsurge Defender, who will absorb one attack directed at you before returning to the Dream."
@@ -347399,6 +347409,8 @@ Haste increased by $419000s4%."
 419088,,,
 419090,,,
 419092,,,
+419093,,,
+419096,q,,
 419097,,"Inflicts $s1 Fire Damage, then inflicts $s2 additional Fire damage every $t1 sec. for $d.",$s2 Fire damage inflicted every $t1 sec.
 419098,,,
 419099,,,
@@ -347532,7 +347544,10 @@ If the target is in your party or raid, all party and raid members will be affec
 419310,,,
 419311,,,
 419312,,,
+419313,,,
+419314,,,
 419315,,,
+419316,,,
 419318,,,
 419319,,,Ready to unpause time.
 419320,,,
@@ -347566,6 +347581,7 @@ Inflicts $419338s1 Chaos damage to enemies every $t5 sec."
 419349,,,
 419350,,,
 419351,,Ejects bronze magic in a frontal cone inflicting $419351s2 Arcane damage plus an additional $419351s3 Arcane damage every $419351T3 sec. for $419351D.,$419351s3 Arcane damage every $419351T3 sec.
+419353,,,
 419355,,Spawns Infernal Boulders upon taking damage.,"This Infernal has become brittle after travelling through temporal portal. Every 10% damage taken, it will chip off living Infernal Boulders."
 419356,,"Chips off a living Infernal Boulder of this Infernal, making it slightly smaller, but no less deadly.",
 419357,,,
@@ -347575,6 +347591,7 @@ Inflicts $419338s1 Chaos damage to enemies every $t5 sec."
 419363,,,
 419364,,,
 419365,,,
+419366,,,
 419370,,"Condenses Fel magic from the surrounding area beneath the target, inflicting $419289s1 Chaos Damage every $419289t1 sec.",
 419371,,,
 419373,,,
@@ -347594,6 +347611,7 @@ The smaller bolts inflict $419380s1 Arcane damage to targets within $419380A1 ya
 419410,,$@spelldesc419411,
 419411,,"Charges an enemy, striking all enemies on the way to the target for $419410s1 Physical damage, split between every enemy struck, and knocking them back.",
 419412,,,
+419414,,,
 419415,,,
 419421,,"Exert authority over the domain of the titans, gaining $s2% movement speed and granting your abilities a chance to deal bonus Holy damage. Only active while in Uldaman, Ulduar, Uldum, Uldir, Uldorus, and Uldaz.",
 419423,,$@spelldesc419421,
@@ -347607,6 +347625,7 @@ The smaller bolts inflict $419380s1 Arcane damage to targets within $419380A1 ya
 419437,,,
 419441,,,
 419442,,,
+419443,,,
 419447,,Inflicts $s1 Arcane damage every $T1 sec.,$s1 Arcane damage every $T1 sec.
 419448,,$@spelldesc419447,$@spellaura419447
 419449,,,
@@ -347640,6 +347659,7 @@ The smaller bolts inflict $419380s1 Arcane damage to targets within $419380A1 ya
 419497,,,
 419498,,Add an appearance of this type to your collection (from the Past).,
 419499,,Add an appearance of this type to your collection (from the Past).,
+419500,,Teleports the user to The Vindicaar. Does not work outside of Valdrakken.,
 419507,,,
 419508,,,
 419509,,$@spelldesc419356,"An Infernal Boulder has chipped off of this Infernal, making it slightly smaller, but no less deadly."
@@ -347689,6 +347709,7 @@ $s3% of incoming $?$w1>0[healing][]$?$w2>0[damage][] pierces this effect."
 419590,,The race has been reset.,The race has been reset.
 419591,,Attacks the enemy.,
 419593,,,
+419594,,,
 419595,,Molten General summons a Magma Spawn to assist him in battle.,
 419596,,"Empowered by the Timeways, Deios radiates with increased might. Increases damage done by $s1%.","Empowered by the Timeways.
 Damage done increased by $s1%."
@@ -347765,6 +347786,7 @@ This effect stacks."
 419683,,,
 419685,,,
 419686,,"The Renegade Looter throws a $@spellname419686 at the ground, knocking them and players away.",
+419687,,,
 419689,,$@spelldesc419686,
 419690,,$@spellname419686,
 419691,,,
@@ -347775,6 +347797,7 @@ This effect stacks."
 419697,,Sunny creates a Sunling every $t1 sec for $d. Sunlings prevent damage to Sunny.,
 419700,,,Wearing a Head costume.
 419701,,The Renegade Looter rapidly constructs a tower to gain the high ground.,
+419704,,,
 419706,,$@spelldesc419701,
 419707,,$@spelldesc419701,
 419708,,$@spelldesc419701,
@@ -348191,6 +348214,7 @@ On contact with a player, these spheres inflict $s1 Frost damage and stun for $d
 420322,,,
 420323,,,
 420337,,"The caster raises a shield veiling themselves in flames. If this barrier is broken, the caster blasts flames ahead of themselves inflicting $s1 Fire damage.",
+420343,,Take on the form of a repentant man'ari eredar.,Transformed into a repentant man'ari eredar.
 420350,,,
 420353,,,
 420354,,,
@@ -348321,6 +348345,7 @@ Strength reduced by $s3%."
 420972,,,
 420973,,,
 420974,,,
+420981,,,
 420982,,,
 420983,,,
 420984,,,
@@ -348346,17 +348371,33 @@ Strength reduced by $s3%."
 421092,,,
 421093,,,
 421094,,,
+421100,,,
+421107,,Gaal will now sell a selection of recovered eredar artifacts from Argus's golden age before the coming of Sargeras and the schism of the draenei people.,
+421108,,,
 421109,,,
+421113,,,
+421114,,,
+421116,,,
+421117,,,
 421128,,,
 421175,,,
 421177,,,
 421179,,,
 421180,,,
+421220,,.,
 421238,,,
 421255,,Obtain the appearance of the new incarnation of Tyr's Titan Key.,
 421270,,,
+421280,,,
+421290,,,
+421291,,,
+421349,,,
+421353,,,
 421361,,,
 421372,,,
+421433,,,
+421435,,,
+421445,,,
 421483,,,
 421485,,Collect the appearances of the Azure Renewal Finery set.,
 421486,,Collect the appearances of the Azure Renewal Finery set.,
@@ -348411,6 +348452,7 @@ Cooldown reduced during Brewfest.",Your drake looks stylish.
 421726,,,
 421728,,,
 421729,,,
+421730,,,
 421731,,,
 421732,,,
 421733,,,
@@ -348420,6 +348462,7 @@ Cooldown reduced during Brewfest.",Your drake looks stylish.
 421738,,,
 421739,,,
 421742,,,
+421743,,,
 421751,,,
 421753,,Create a soulbound item for your class.,
 421756,,Create a soulbound item for your class.,
@@ -348436,15 +348479,23 @@ Cooldown reduced during Brewfest.",Your drake looks stylish.
 421775,,Create a soulbound item for your class.,
 421776,,Create a soulbound item for your class.,
 421783,,,Being empowered by the Dreamsurge.
+421786,,,
 421801,,,
+421802,,,
 421804,,,
 421807,,Increases the Barrel's movement speed.,Movement speed increased.
 421832,,,
 421833,,Open to gain $s1 Paracausal Flakes.,
 421860,,Crush to gain $s1 Paracausal Flakes.,
 421862,,Read to gain ${$s1/100} reputation with Soridormi.,
+421869,,,
 421870,,,
+421881,,,
+421882,,,
+421890,,,
 421899,,,
+421921,,,
+421926,,,
 421947,,,
 421999,,Deliver enough brew to the Artisan's Market!,
 422031,,Mana Tea now channels $s1% faster and generates $s2% more Mana.,
@@ -348465,6 +348516,7 @@ Cooldown reduced during Brewfest.",Your drake looks stylish.
 422238,,,
 422239,,,
 422240,,,
+422244,,,Bound by the Light.
 422248,,Add the Dusty Red Pellets to the weapon mold. ,
 422252,,,
 422254,,Add the Igneous Flux to the weapon mold. ,
@@ -348499,6 +348551,7 @@ Treants from Grove Guardians also cast Wild Growth when summoned.",
 422384,,,
 422385,,,
 422386,,,
+422396,,"Strikes the target with fel-infused blades, inflicting $s1 Fire damage.",
 422437,,Collect the appearances of the Forsaken Champion's Attire set. This set can only be used by Forsaken characters.,
 422460,,,$w1
 422465,,Summon and ride a rolling barrel for $d.,
@@ -348525,6 +348578,7 @@ Treants from Grove Guardians also cast Wild Growth when summoned.",
 422552,,,
 422553,,,
 422554,,Collect all colors of engineering Holo-Gogs usable by all armor types.,
+422555,,,
 422556,,Collect all colors of engineering Bio-Optic Killshades usable by all armor types.,
 422557,,Collect all colors of engineering Holo-Gogs usable by all armor types.,
 422562,,,
@@ -348559,18 +348613,28 @@ Treants from Grove Guardians also cast Wild Growth when summoned.",
 422687,,,
 422688,,,
 422697,,,
+422705,,,
 422726,,,
 422734,,,
 422735,,,
 422739,,Combine 20 Charred Elemental Remains to create something new.,
 422745,,,
+422749,,,
 422782,,,
+422787,,,
+422788,,,
+422789,,,
+422790,,,
+422791,,,
+422792,,,
 422801,,,
 422804,,,
 422808,,,
 422814,,$@spelldesc392088,
 422816,,,
 422817,,"Leap at an enemy and crush them with your body, dealing $s1 Physical damage and knocking enemies back.",
+422818,,,
+422822,,,
 422844,,"Your maximum item level is throttled to $w1 for purposes of testing.
 ",Your item level is scaled to $w1 for purposes of testing.
 422845,,,
@@ -348630,6 +348694,7 @@ Attacking will cancel this effect."
 423139,,,
 423146,,,
 423167,,,
+423208,,,
 423235,,,Accepted the Wicker Man of Ember's curse.
 423236,,,Accepted the Wicker Man of Ember's curse.
 423247,,,
@@ -348641,15 +348706,29 @@ Attacking will cancel this effect."
 423358,,,
 423398,,,
 423412,,,
+423413,,Inflicts $s1 Fire damage to an enemy and an additional $s2 Fire damage every $t2 sec for $d.,Inflicts $s2 Fire damage every $t2 sec.
+423417,,"Attacks nearby enemies in a whirlwind of blazing steel, inflicting $s1 Fire damage to all enemies within $A1 yards every $423423t1 sec for $423423d.",
+423423,,$@spelldesc423417,
 423425,,,
 423426,,,
 423430,,,
+423431,,"Crushes the enemy with a massive blow, dealing $423432s1 Physical damage and causing the target to bleed for $s1 Physical damage every $t1 sec for $d.",$s1 Physical damage inflicted every $t1 sec.
+423432,,$@spelldesc423431,
+423464,,"Hurls a devastating ball of fel fire at an enemy, inflicting $s1 Fire damage.",
+423465,,"Calls down a pillar of fel fire, inflicting $s2 Fire damage and burning all enemies within the area for $423466s1 Fire damage every $423466t1 sec for $d.",
+423466,,$@spelldesc423465,Inflicts $s1 Fire damage every $t1 sec.
+423467,,"Burns the enemy's soul, inflicting $s1 Fire damage and increasing Fire damage taken by 10% for $d.",Fire damage taken increased by 10%.
+423468,,,
+423470,,"Pounces an enemy, inflicting $s1 Physical damage to all enemies near the point of impact.",
+423471,,"Spits up a vile liquid, inflicting $s1 Nature damage to the current target.",
 423477,,,Alert to anything out of place.
 423483,,,
 423492,,,
 423493,,,
 423535,,,
 423540,,,
+423576,,"Enters into a rage, increasing attack speed by $S1%.",Attack speed increased by $S1%.
+423587,,,
 423589,,,
 423594,,,
 423595,,,
@@ -348657,6 +348736,8 @@ Attacking will cancel this effect."
 423600,,,
 423603,,,
 423604,,,
+423619,,$@spelldesc407359,
+423620,,,
 423621,,"Create flaming pumpkins that seek the head of each enemy. The pumpkins periodically ignite the ground, inflicting $415329s Fire damage every $415329t sec to enemies standing in the flames.
 ",
 423623,,$@spelldesc423621,Igniting the ground every $t sec.
@@ -348712,6 +348793,7 @@ Completing Timewalking dungeons  refreshes the duration."
 423969,,,
 423970,,,
 423971,,,
+423996,,,"Time to twirl, everybody!"
 424007,,,
 424011,,,
 424021,,,
@@ -348754,6 +348836,8 @@ $s1 Arcane damage dealt every $t1 sec."
 424449,,,
 424453,,,
 424473,,,
+424485,,,
+424486,,,
 424515,,,
 424543,,,
 424639,,,
@@ -348766,3 +348850,8 @@ $s1 Arcane damage dealt every $t1 sec."
 425238,,,
 425326,,,
 426338,,,
+426812,,,
+426816,,,
+426861,,,
+426907,,,
+426908,,,
