@@ -17846,7 +17846,10 @@ ID,BaseTag,TagText_lang,Flags
 44352,RESTRICT_CHAT_CONFIG_DIALOG_CANCEL,Cancel,1
 44403,RESTRICT_CHAT_TOOLTIP_FORMAT,%s\n%s,1
 44404,RESTRICT_CHAT_CHATFRAME_FORMAT,%s %s,1
+44405,GROUP_FINDER_DELIST,Delist,1
+44406,GROUP_FINDER_BROWSE,Browse Groups,1
 44408,ENABLE_MOUSEOVER_CAST,Mouseover Cast,1
+44421,GROUP_FINDER_BACK_TO_GROUP,Back to Group,1
 44422,PCT_FLOW_TITLE,Character Transfer,2
 44423,PCT_FLOW_FINISH_LABEL,Accept,2
 44424,PCT_FLOW_SLECT_CHARACTER_ACTIVE,Choose your character,2
@@ -17856,6 +17859,8 @@ ID,BaseTag,TagText_lang,Flags
 44428,PCT_FLOW_DESTINATION_REALM_LABEL,Destination Realm,2
 44439,RESAMPLE_SHARPNESS,Resample Sharpness,3
 44440,OPTION_TOOLTIP_SHARPNESS,Adjusts the strength of the FidelityFX Super Resolution sharpness effect. 0 is full strength.,3
+44451,LFG_LIST_ITEM_LEVEL_PVP,Min. PvP Item Level,1
+44452,LFG_LIST_ITEM_LEVEL_PVP_INSTR_SHORT,PvP Item Level,1
 44464,PCT_DESTINATION_REALM_LABEL_COMPLETE,|cffffd200Realm:|r %s,2
 44465,PCT_TOKEN_TOOLTIP_TITLE,Character Transfer,2
 44467,PCT_TOKEN_TOOLTIP_TEXT,Transfer your character to another realm or account,2
@@ -17893,6 +17898,10 @@ ID,BaseTag,TagText_lang,Flags
 48748,VIDEO_OPTIONS_NOTCH_MODE_SHIFT_UI,Shift user interface down to avoid notch,3
 48749,NOTCH_MODE_WINDOW_BELOW,Window Below,3
 48750,VIDEO_OPTIONS_NOTCH_MODE_WINDOW_BELOW,Window is below notch with a black bar,3
+48774,LFG_LIST_CROSS_FACTION,Limit to %s,1
+48775,LFG_LIST_CROSS_FACTION_TOOLTIP,Only %s players will see your group.|n|nThis may reduce the number of applicants you recieve.,1
+48779,LFG_LIST_TOOLTIP_LEADER_FACTION,Leader: |cffffffff%s (%s)|r,1
+48780,UNIT_TYPE_LEVEL_FACTION_TEMPLATE,Level %d %s (%s),1
 48783,INVTYPE_PROFESSION_TOOL,Profession Tool,1
 48784,INVTYPE_PROFESSION_GEAR,Profession Equipment,1
 48785,ITEM_MOD_INSPIRATION_SHORT,Inspiration,1
@@ -17931,6 +17940,7 @@ ID,BaseTag,TagText_lang,Flags
 48850,REPORT_CLUB_MEMBER,Report Player,1
 48851,REPORT_FRIEND,Report Player,1
 48852,REPORT_GROUP_MEMBER,Report Player,1
+48853,LFG_LIST_CROSS_FACTION_DISABLE_TOOLTIP,This activity doesn't support cross-faction groups.|n|nYour group will only appear to %s players.,1
 48855,REPORTING_MINOR_CATEGORY_CHARACTER_NAME,Character Name,1
 48856,REPORTING_MINOR_CATEGORY_GUILD_NAME,Guild Name,1
 48857,REPORTING_MINOR_CATEGORY_DESCRIPTION,Description,1
@@ -18188,7 +18198,7 @@ ID,BaseTag,TagText_lang,Flags
 50560,AUDIO_OUTPUT_DEVICE,Output Device,3
 50561,OPTION_TOOLTIP_AUDIO_OUTPUT,Selects where you would like to hear your game audio.,3
 50562,OPTION_TOOLTIP_FX_VOLUME,Adjusts the sound effect volume.,3
-50563,FX_VOLUME,Adjusts the sound effect volume.,3
+50563,FX_VOLUME,Effects,3
 50564,AUDIO_CHANNELS,Audio Channels,3
 50565,OPTION_TOOLTIP_AUDIO_CHANNELS,Changes the number of active software audio channels.,3
 50566,AUDIO_CACHE_SIZE,Audio Cache Size,3
