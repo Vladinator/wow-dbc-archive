@@ -2040,6 +2040,7 @@ local progressAtFirstBounce = .45;
 local heightOfFirstBounce = 10;
 local progressAtSecondBounce = .75;
 local heightOfSecondBounce = 7;
+--local throwFloor = -throwHeight;
 local spinRate = 360
 
 modelPitch = time * spinRate
@@ -2069,8 +2070,13 @@ else
 	curHeight = (1 - (curHeight * curHeight)) * heightOfSecondBounce;
 
 	transUp = (transUp - throwHeight) + curHeight;
+	
 
-end",0,1
+end
+
+--print(transUp)
+--if transUp < throwFloor then transUp = throwFloor end
+",0,1
 2834,Creature - Broken Frostmourne Soul Missiles (Arthas Enc,"local numSpirals = 5
 local minRadius = 10
 local radius = minRadius + (10 * progress * (rand1 * 2))
