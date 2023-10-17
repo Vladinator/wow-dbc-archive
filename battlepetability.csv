@@ -3730,7 +3730,13 @@ Damage increases by [FormatDamage(10*AttackBonus())] each time it is used. Max [
 2499,Quantum Strike,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
 Strikes at the enemy, dealing [StandardDamage(1,1)] [petTypeName(abilityPetType())] damage.",1392544,5,0,0,0
+2500,Deadly Dreaming,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Arfus slumbers. His deadly dreams haunt the target, dealing [StandardDamage(1,1,653)] [School()] damage every round. 
+
+While Arfus slumbers, he is considered dead.",236798,3,4,0,0
 2502,[DNT] INSTADEAD,Sets a pet's health to 0%.,133728,5,0,0,0
+2503,Elune's Grace,"Elune blesses your team, restoring [StandardHealing(1,1)] health to all allies.",4640501,5,5,0,2
 2504,Hatred Manifest,"Adds [abs(abilityStateMod(71,2504))*AttackBonus()] damage to every attack against the target.",4050664,5,0,530,3
 2505,Hatred Manifest,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
@@ -3738,6 +3744,12 @@ Immeasurable hatred overwhelms the target, adding [abs(abilityStateMod(71,2504))
 
 Lasts [duration(1,1)] |4round:rounds;.",4050664,5,5,0,2
 2506,Surrender in Terror,,132296,3,0,0,2
+2510,Hubris,"Your damage taken has been increased by [abs(abilityStateMod( 24, 185 ))]%.",1390945,5,0,530,3
+2511,Hubris,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Lash out blindly with no thought of defense. What can these puny mortals do to you anyway?
+
+Deals [StandardDamage(1, 1)] [School()] damage, but increases the damage you take for [duration(1,3)] round by [abs(abilityStateMod(24, 2510 ))]%.",1390945,5,1,0,0
 2512,Ice Age,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
 Deals [StandardDamage(1,1)] [School()] damage and has a 25% chance to stun the target.",4226156,6,5,0,0
