@@ -300240,6 +300240,7 @@ If no players are struck by this effect, the Gravitational Collapse hits all pla
 364448,,,
 364449,,Inflicts Shadow damage to nearby units every $t1 seconds.,
 364450,,,
+364451,,Right Click to summon and dismiss this companion.,
 364452,,,
 364453,,,
 364454,,Damage dealt by Immolation Aura has a $s1% chance to generate a Lesser Soul Fragment.,
@@ -333603,6 +333604,7 @@ Impact damage is increased per enemy struck, up to 5 enemies.",
 400973,,,
 400974,,,
 400975,,"Water soothes the target, sometimes healing them when they take damage.","Water soothes the target, sometimes healing them when they take damage."
+400976,,Summons and dismisses this mount.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
 400977,,Grant an ally a shield absorbing $s1 damage. When the shield is destroyed launch a volley of fire inflicting $400978s1 Fire damage to enemies in the area.,"Absorbs $w1 damage.
 Erupts in a shower of fire when destroyed."
 400978,,$@spelldesc400977,
@@ -343928,6 +343930,7 @@ $s2% reduced maximum health."
 413047,,"The caster calls to the void, inflicting $s1 Shadow damage to all players every $413044t1 sec for $413044d.",
 413048,,,
 413049,,,
+413050,,"While near walls, you collect Static Charge, stacking every $s1 sec, up to $s2. At max stacks, Lightning Rush is enabled.",
 413051,,,
 413053,,,
 413055,,,
@@ -346839,6 +346842,8 @@ Damage taken reduced by $s4%."
 417883,,Unlocks these customization options for the Cliffside Wylderdrake at the Rostrum of Transformation.,
 417884,,Unlock a new brand of imps to serve. You can customize them in the barbershop.,
 417887,,Your cool under fire has rallied your comrades! Haste increased by 10% while in the Lonely Falls.,Your cool under fire has rallied your comrades! Haste increased by 10% while in the Lonely Falls.
+417888,,Summons and dismisses a rideable Algarian Stormrider. This is a dragonriding mount.,"Increases flight speed by up to $s2%.
+Enables Dragonriding skills."
 417889,,,
 417890,,$@spelldesc417893,
 417891,,,
@@ -347237,6 +347242,10 @@ The pool slows players who remain inside of it by $401794s2% and reduces their h
 418582,,"Illidan infuses himself with chaos energy, inflicting $s1 Chaos damage to all players within $A1 every $418578t1 sec for $418578d.",
 418586,,,
 418588,,"Cleaves nearby enemies, dealing Physical damage.",
+418590,,"While near walls, you collect Static Charge, recharging Vigor as if you were Ground Skimming and stacking every 1 sec, up to 10. At max stacks, Lightning Rush becomes available.","Gaining power. At $u stacks, enables Lightning Rush."
+418592,,"Activate to engage a sustained boost for $d. Only available at $s7 stacks of Static Charge. 
+
+Replaces Whirling Surge.",Boosted speed and limited handling.
 418593,,"Observe the Quantum Courser, causing it to take the form of a random mount (from the Past).
 
 ",
@@ -347594,6 +347603,8 @@ If the target is in your party or raid, all party and raid members will be affec
 419249,,Collect the appearances of the High Scholar's Arcana armor set.,
 419250,,,
 419251,,,
+419252,,"While near walls, you collect Static Charge, recharging Vigor as if you were Ground Skimming and stacking every 1 sec, up to 10. At max stacks, Lightning Rush becomes available.",
+419254,,$@spelldesc413050,You may not benefit from Static Charge.
 419257,,,
 419261,,,
 419262,,"Striking a demon with melee abilities has a chance to rend their flesh, dealing Physical damage over $d.",Bleeding for $w1 every $t sec.
@@ -347783,6 +347794,7 @@ $s3% of incoming $?$w1>0[healing][]$?$w2>0[damage][] pierces this effect."
 419567,,Summons and dismisses this mount.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
 419570,,,
 419571,,,
+419580,,,
 419581,,The race has been reset.,The race has been reset.
 419582,,,
 419584,,,You are racing!
@@ -348327,6 +348339,7 @@ On contact with a player, these spheres inflict $s1 Frost damage and stun for $d
 420403,,Rotpaw concentrates Decay into an animated blob to assail their enemies.,
 420414,,,
 420417,,,
+420418,,Returns you to $z. Speak to an Innkeeper in a different place to change your home location.,
 420420,,,
 420423,,,
 420428,,Deceiver Hr'qoth brings forth a shade of his foes to assist him in battle.,
@@ -348382,6 +348395,8 @@ Haste reduced by $s2%"
 420532,,$@spelldesc419162,
 420572,,,
 420613,,"Hel'Nurathian Felmaw infuses their next bite to inflict $s1 Chaos damage, and $s2 Chaos Damage every $t2 sec.",Inflicting $s2 Chaos damage every $t2 sec.
+420620,,,
+420624,,,
 420630,,"Hel'nurathian Felguard sunders their targets armor, inflicting $s1 Physical damage, and increasing Physical damage taken by $s2% for $d.",Physical damage taken increased by $s2%.
 420632,,,
 420633,,,
@@ -348406,6 +348421,8 @@ Haste reduced by $s2%"
 420736,,,
 420738,,,
 420741,,,
+420742,,,
+420759,,Right Click to summon and dismiss this companion.,
 420773,,,
 420784,,"Today's herb shipment requests a selection of Pandaria herbs, and $M1 additional herbs for general restocking purposes.",
 420806,,"A cresting wave of chaotic magic splashes over enemies in front of the caster, dealing $s1 Shadow damage and an additional $s2 Shadow damage every $t2 sec for $d.",Inflicts $s2 Shadow damage every $t2 sec.
@@ -348421,13 +348438,16 @@ Strength reduced by $s3%."
 420902,,,
 420903,,,
 420905,,,
+420917,,,
 420927,,,
 420928,,,
 420957,,,
+420965,,,
 420970,,,
 420972,,,
 420973,,,
 420974,,,
+420975,,,
 420981,,,
 420982,,,
 420983,,,
@@ -348435,10 +348455,12 @@ Strength reduced by $s3%."
 420985,,,
 420986,,,
 420987,,,
+420988,,,
 420989,,,
 421003,,,
 421012,,,
 421057,,$@spelldesc419447,$@spellaura419447
+421060,,,
 421062,,,
 421066,,,
 421070,,Collect the appearances of the Traditionalist's Kaldorei Blades.,
@@ -348467,6 +348489,7 @@ Strength reduced by $s3%."
 421177,,,
 421179,,,
 421180,,,
+421218,,,
 421220,,.,
 421238,,,
 421255,,Obtain the appearance of the new incarnation of Tyr's Titan Key.,
@@ -348511,6 +348534,7 @@ Cooldown reduced during Brewfest.",Your drake looks stylish.
 421679,,,
 421685,,,
 421690,,,
+421692,,"Bounce gently atop this springy toy gryphon, or raise your weapon and call down the thunder for a rollicking ride.",
 421695,,,
 421697,,,
 421698,,,
@@ -348569,6 +348593,7 @@ Cooldown reduced during Brewfest.",Your drake looks stylish.
 421804,,,
 421807,,Increases the Barrel's movement speed.,Movement speed increased.
 421822,,,
+421823,,Collect the appearances contained in the Cosmic Weapons Cache.,
 421824,,,
 421832,,,
 421833,,Open to gain $s1 Paracausal Flakes.,
@@ -348697,6 +348722,7 @@ Treants from Grove Guardians also cast Wild Growth when summoned.",
 422630,,,
 422646,,,
 422647,,,
+422666,,Collect the appearances of the Stormrider's Attire.,
 422670,,,
 422671,,,
 422672,,,
@@ -348706,6 +348732,7 @@ Treants from Grove Guardians also cast Wild Growth when summoned.",
 422688,,,
 422697,,,
 422705,,,
+422722,,Collect the appearances of the Thundering Stormrider's Attire.,
 422726,,,
 422734,,,
 422735,,,
@@ -348713,12 +348740,14 @@ Treants from Grove Guardians also cast Wild Growth when summoned.",
 422745,,,
 422749,,,
 422782,,,
+422785,,A member of your group can ride along with you on your drake.,A member of your group can ride along with you on your drake.
 422787,,,
 422788,,,
 422789,,,
 422790,,,
 422791,,,
 422792,,,
+422797,,You feel different...,You feel different...
 422801,,,
 422804,,,
 422808,,,
@@ -348786,9 +348815,12 @@ Attacking will cancel this effect."
 423101,,,
 423112,,,
 423123,,,
+423132,,,
+423134,,,
 423137,,,
 423138,,,
 423139,,,
+423141,,,
 423146,,,
 423155,,,
 423156,,,
@@ -348796,6 +348828,7 @@ Attacking will cancel this effect."
 423163,,,
 423165,,,
 423167,,,
+423181,,,
 423208,,,
 423235,,,Accepted the Wicker Man of Ember's curse.
 423236,,,Accepted the Wicker Man of Ember's curse.
@@ -348862,6 +348895,10 @@ Attacking will cancel this effect."
 423483,,,
 423492,,,
 423493,,,
+423504,,,
+423506,,,
+423507,,,
+423508,,,
 423535,,,
 423540,,,
 423576,,"Enters into a rage, increasing attack speed by $S1%.",Attack speed increased by $S1%.
@@ -348894,6 +348931,9 @@ Attacking will cancel this effect."
 423775,,$@spelldesc422686,
 423782,,,
 423792,,Gain the favor of Tyr!,Allows one to navigate the lower tiers of Tyrhold unfettered by its keepers.
+423827,,You feel different...,You feel different...
+423828,,You feel different...,You feel different...
+423829,,You feel different...,You feel different...
 423860,,"Increases experience gained from killing monsters and completing quests by $s1%.
 
 Completing Timewalking dungeons increases the effect and refreshes the duration.
@@ -348925,6 +348965,10 @@ Completing Timewalking dungeons  refreshes the duration."
 423951,,Make a giant leap.,
 423952,,Make a giant leap.,
 423955,,Make a giant leap.,
+423958,,,
+423959,,,
+423960,,,
+423963,,,
 423966,,,
 423967,,,
 423968,,,
@@ -348934,6 +348978,7 @@ Completing Timewalking dungeons  refreshes the duration."
 423996,,,"Time to twirl, everybody!"
 424007,,,
 424011,,,
+424017,,,
 424021,,,
 424022,,Plant your frosty banner.,
 424023,,Demonstrate that you can chill and celebrate at the same time.,Chilling and celebrating at the same time!
@@ -348979,6 +349024,7 @@ $s1 Arcane damage dealt every $t1 sec."
 424485,,,
 424486,,,
 424515,,,
+424531,,,
 424543,,,
 424639,,,
 424716,,,
@@ -348989,6 +349035,7 @@ $s1 Arcane damage dealt every $t1 sec."
 425174,,,
 425238,,,
 425326,,,
+425453,,"While near walls, you collect Static Charge, recharging Vigor as if you were Ground Skimming and stacking every 1 sec, up to 10. At max stacks, Lightning Rush becomes available.",
 426338,,,
 426812,,,
 426816,,,
