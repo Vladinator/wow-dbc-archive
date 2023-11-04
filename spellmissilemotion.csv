@@ -23710,6 +23710,14 @@ local magnitude = transMag * .1
 
 transUp = ((sin((rand2 * 7000) + (time * 450)) + sin((rand1 * 7000) + (time * 150))) * magnitude)
 ",0,0
+4509,Battle Pet - Dive Bomb (Meteor High Slow),"local magnitude = totalDistance * 5
+
+out_speedScale = 0.60
+modelRoll = 180
+
+transUp = magnitude * ( 1 - progress )
+transFront = distanceToImpactPos + 1
+",0,1
 4511,"Parabola (Up and Left, Slight)","local angle = 65
 local maxMagnitude = startDistance * .05
 

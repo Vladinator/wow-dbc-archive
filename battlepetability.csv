@@ -3637,6 +3637,14 @@ Slash the enemy's pets with your talons, causing each pet to |cFF970000Bleed|r f
 2460,Shell Fortress,"Draws upon the power of the user's shell to defend against all attacks for the current round and the next round. User cannot act while projecting the shield.
 
 This ability always goes first.",134434,8,6,0,2
+2462,Arm Cannon Blast,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Blasts the enemy with a beam of energy, dealing [StandardDamage(1,1)] [School()] damage. 
+
+Damage increases by [FormatDamage(5*AttackBonus())] each time it is used. Max [FormatDamage(25 *AttackBonus())] [School()] damage.",132868,9,0,0,0
+2463,Dive Bomb,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Order your flying machine to dive bomb your enemies, dealing [StandardDamage(1,1)] [School()] damage, split evenly amongst them.",1141394,9,5,0,0
 2465,Furious Surge,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
 Attacks the enemy 3 times, dealing [StandardDamage(1,1)] [School()] damage per attack.
@@ -3744,6 +3752,11 @@ Immeasurable hatred overwhelms the target, adding [abs(abilityStateMod(71,2504))
 
 Lasts [duration(1,1)] |4round:rounds;.",4050664,5,5,0,2
 2506,Surrender in Terror,,132296,3,0,0,2
+2508,Storm Breath,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Breathes a lightning storm at the enemy, dealing [StandardDamage(1, 1)] [School()] damage.
+
+Attacks a second time for [StandardDamage(1,3)] [School()] damage when the weather is Lightning Storm.",236392,6,0,0,0
 2510,Hubris,"Your damage taken has been increased by [abs(abilityStateMod( 24, 185 ))]%.",1390945,5,0,530,3
 2511,Hubris,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
