@@ -169,7 +169,7 @@ ID,BaseTag,TagText_lang,Flags
 9789,ACCEPT,Accept,5
 9790,ARMOR,Armor,7
 9791,CANCEL,Cancel,7
-9792,CHARACTER,Character,1
+9792,CHARACTER,Character,3
 9793,CHARACTER_INFO,Character Info,1
 9794,COMPLETE,Complete,5
 9795,COPPER_AMOUNT,%d Copper,1
@@ -210,7 +210,7 @@ ID,BaseTag,TagText_lang,Flags
 9830,DAYS_ABBR,%d |4Day:Days;,3
 9832,HOURS_ABBR,%d |4Hr:Hr;,3
 9836,FRAMERATE_LABEL,FPS:,1
-9837,SCREENSHOT_SUCCESS,Screen Captured,1
+9837,SCREENSHOT_SUCCESS,Screen Captured,3
 9838,VIDEOOPTIONS_MENU,Video,3
 9839,QUIT,Quit,3
 9840,CONTINUE,Continue,7
@@ -1956,7 +1956,7 @@ ID,BaseTag,TagText_lang,Flags
 11844,SILVER_AMOUNT,%d Silver,1
 11845,TIME_TWELVEHOURAM,%d:%02d AM,1
 11846,SECONDS_ABBR,%d |4Sec:Sec;,3
-11847,SCREENSHOT_FAILURE,Screen Capture Failed,1
+11847,SCREENSHOT_FAILURE,Screen Capture Failed,3
 11848,ANISOTROPIC,Texture Filtering,3
 11849,PET_RENAME_CONFIRMATION,Name your pet '%s'?,1
 11850,SPELLBOOK_ABILITIES_BUTTON,Spellbook & Professions,1
@@ -14854,7 +14854,7 @@ You can find trainers for them in some settlements and cities.",1
 34300,DRIVER_OUTOFDATE,"<html><body><p align=""CENTER"">Your graphics driver is out of date. Please see <a href=""http://nydus.battle.net/WoW/enUS/launcher/driverupdates"">http://nydus.battle.net/WoW/enUS/launcher/driverupdates</a> for more information.</p></body></html>",2
 34301,DRUID_DISABLED,You must choose a different race to be this class.,2
 34302,EMAIL_ADDRESS,E-Mail Address,2
-34303,ENABLED_FOR_SOME,This addon is only enabled for some characters.,2
+34303,ENABLED_FOR_SOME,This addon is only enabled for some characters.,3
 34304,ENTER_AUTHCODE_INFO,Enter the generated digital code.,2
 34305,ENTER_AUTHCODE_TITLE,Authenticator Code,2
 34306,ENTER_CAPTCHA_INFO,Please enter the text seen below to prove that you are not a rogue Gnomish creation.,2
@@ -19035,15 +19035,15 @@ You can find trainers for them in some settlements and cities.",1
 42841,CONDUIT_COLLECTION_ITEM_PENDING,Pending,1
 42842,CONDUIT_RESET_INELIGIBLE,No conduits socketed,1
 42843,GREAT_VAULT_REWARDS,Great Vault Rewards,1
-42844,GREAT_VAULT_REWARDS_MYTHIC_INCOMPLETE,Complete a Mythic+ dungeon this week to unlock a Great Vault reward.|n|nThe item level of your reward will be based on your highest run this week.,1
-42845,GREAT_VAULT_REWARDS_MYTHIC_COMPLETED_FIRST,Complete %1$d more Mythic+ |4dungeon:dungeons; this week to unlock a second Great Vault reward.|n|nThe item level of this reward will be based on the lowest of your top %2$d runs this week (currently Mythic Level %3$d).,1
-42846,GREAT_VAULT_REWARDS_MYTHIC_COMPLETED_SECOND,Complete %1$d more Mythic+ |4dungeon:dungeons; this week to unlock a third Great Vault reward.|n|nThe item level of this reward will be based on the lowest of your top %2$d runs this week (currently Mythic Level %3$d).,1
+42844,GREAT_VAULT_REWARDS_MYTHIC_INCOMPLETE,Complete a Heroic or Mythic max level dungeon this week to unlock a Great Vault reward. Timewalking dungeons count as Heroic.|n|nThe item level of your reward will be based on your highest run this week.,1
+42845,GREAT_VAULT_REWARDS_MYTHIC_COMPLETED_FIRST,Complete %1$d more Heroic or Mythic max level |4dungeon:dungeons; this week to unlock a second Great Vault reward. Timewalking dungeons count as Heroic.,1
+42846,GREAT_VAULT_REWARDS_MYTHIC_COMPLETED_SECOND,Complete %1$d more Heroic or Mythic max level |4dungeon:dungeons; this week to unlock a third Great Vault reward. Timewalking dungeons count as Heroic.,1
 42847,GREAT_VAULT_REWARDS_MYTHIC_COMPLETED_THIRD,You've unlocked all available rewards for this week. Visit the Great Vault at the start of next week to choose from the rewards you've unlocked!,1
 42848,GREAT_VAULT_IMPROVE_REWARD,Improve Your Reward,1
 42849,GREAT_VAULT_REWARDS_MYTHIC_IMPROVE,Complete %1$d Mythic Level %2$d or higher dungeons to improve your reward.,1
 42850,GREAT_VAULT_REWARDS_WAITING,You have rewards waiting for you at the Great Vault.,1
 42853,JAILERS_TOWER_LEVEL_PICKER_PARTY_LOCK,You or a party member must defeat the previous layer,1
-42854,CONQUEST_PVP_WEEK_NO_CONQUEST,Earn Conquest to purchase Rated PvP items in Valdrakken. Rated PvP items can be upgraded with Honor.,1
+42854,CONQUEST_PVP_WEEK_NO_CONQUEST,Earn Conquest to purchase Rated PvP items in Valdrakken.,1
 42855,GAIN_MAW_POWER,%s has gained Anima Power: %s,1
 42856,MAW_POWER_DESCRIPTION,Anima Power,1
 42857,CHROMIE_TIME_CAMPAIGN_COMPLETE,Campaign completed,1
@@ -19129,7 +19129,7 @@ You can find trainers for them in some settlements and cities.",1
 42937,ERR_GROUPS_VOICE_CHAT_DISABLED,"Groups Voice Chat is currently disabled while we update the system. In the meantime, you can use voice chat through the Battle.net Desktop App.",1
 42938,BOOST2_WARLOCKAFF_MAELIFICRAPTURE,Use |cFFFFFFFFMalefic Rapture|r.,1
 42939,TORGHAST_LEVEL_PICKER_LEADER_ERROR,You are not the party leader.,1
-42940,LOOT_JOURNAL_POWERS,Powers,1
+42940,LOOT_JOURNAL_POWERS,Shadowlands Powers,1
 42941,OPTIONAL_REAGENT_TOOLTIP_SLOT_LOCKED_FORMAT,Locked until skill rank %s.,1
 42942,FLIGHT_MAP_CLICK_TO_ZOOM_OUT_HINT,Right-Click to Zoom Out,1
 42943,COVENANT_SANCTUM_UPGRADE_ACTIVE,Active,1
@@ -20303,7 +20303,7 @@ You can find trainers for them in some settlements and cities.",1
 48939,MONTHLY_ACTIVITIES_UNTRACK,<Shift click to stop tracking>,1
 48941,SPELL_FAILED_CUSTOM_ERROR_643,Incorrect Ancient Waygate.,1
 48942,PERKS_PROGRAM_FREEZE_ITEM_INSTRUCTIONS,Drag an item here to freeze it and prevent it from expiring,1
-48943,PERKS_PROGRAM_FROZEN_ITEM_SET,Freezing:\n%s,1
+48943,PERKS_PROGRAM_FROZEN_ITEM_SET,|cffffffffFreezing:|r\n%s,1
 48944,INVTYPE_EQUIPABLESPELL_DEFENSIVE,Equipable Spell - Defensive,1
 48945,INVTYPE_EQUIPABLESPELL_UTILITY,Equipable Spell - Utility,1
 48946,INVTYPE_EQUIPABLESPELL_OFFENSIVE,Equipable Spell - Offensive,1
@@ -20581,7 +20581,7 @@ It comes from your base profession skill, specializations, high quality reagents
 49262,PROFESSIONS_USE_HIGHEST_QUALITY_REAGENTS,Check to always use the highest quality reagents available.,1
 49263,PROFESSIONS_USE_LOWEST_QUALITY_REAGENTS,Uncheck to always use the lowest quality reagents available.,1
 49264,HUD_EDIT_MODE_SETTING_ACTION_BAR_ALWAYS_SHOW_BUTTONS,Always Show Buttons,1
-49267,OPTION_TOOLTIP_CAMERA_FOV,Field of View.,1
+49267,OPTION_TOOLTIP_CAMERA_FOV,Adjust the camera field of view,3
 49268,PROFESSIONS_HIDE_UNOWNED_REAGENTS,Hide Unavailable,1
 49269,PROFESSIONS_PICKER_NO_AVAILABLE_REAGENTS,You do not own any suitable reagents.,1
 49270,COMBAT_TEXT_ABSORB_AMOUNT,Absorb (%s),1
@@ -20639,7 +20639,7 @@ It comes from your base profession skill, specializations, high quality reagents
 49346,UNITNAME_SUMMON_TITLE51,%s's Arcane Clone,1
 49347,INSTANCE_UNAVAILABLE_SELF_PVP_GEAR_TOO_LOW,You need a higher average PvP item level to join the queue.|n(Requires: %2$d. Currently %3$d.),1
 49348,RECRAFT_REAGENT_TOOLTIP_CLICK_TO_REPLACE,|cnDISABLED_FONT_COLOR:Left Click to replace this Equipment|r,1
-49349,ERR_SOLO_SHUFFLE_MIN_ITEM_LEVEL,You need a higher average PvP item level.,1
+49349,ERR_SOLO_MIN_ITEM_LEVEL,You need a higher average PvP item level.,1
 49350,HUD_EDIT_MODE_CAST_BAR_LABEL,Cast Bar,1
 49351,HUD_EDIT_MODE_SETTING_CAST_BAR_SIZE,Bar Size,1
 49352,HUD_EDIT_MODE_SETTING_CAST_BAR_LOCK_TO_PLAYER_FRAME,Lock To Player Frame,1
@@ -21434,17 +21434,17 @@ Progress made is account-wide.",1
 Progress made is account-wide.",1
 50205,PROFESSIONS_UNIQUE_EQUIP_LIMITATION_DISC,You are attempting to recraft this item with a Unique-Equip limitation. Unequip it first to recraft it.,1
 50206,TRADESKILL_CHARGES_REMAINING_NEXT_USE,Available Crafts: %i / %i. Additional craft in %s.,1
-50208,MOTION_SICKNESS_DRAGONRIDING,Dragonriding Motion Sickness,1
+50208,MOTION_SICKNESS_DRAGONRIDING,Motion Sickness,1
 50209,GAMEPAD_CONNECTED,GamePad %d connected: %s,1
 50210,GAMEPAD_DISCONNECTED,GamePad %d disconnected: %s,1
 50212,MOTION_SICKNESS_DRAGONRIDING_FOCAL_CIRCLE,Focal Circle,1
 50213,MOTION_SICKNESS_DRAGONRIDING_BOTH,Darkening and Circle,1
 50214,MOTION_SICKNESS_DRAGONRIDING_LANDSCAPE_DARKENING,Landscape Darkening,1
-50217,OPTION_TOOLTIP_MOTION_SICKNESS_DRAGONRIDING,"Helps to address motion sickness while flying Drakes in Dragon Isles
+50217,OPTION_TOOLTIP_MOTION_SICKNESS_DRAGONRIDING,"Helps to address motion sickness while dragonriding.
 
-|cffffffffLandscape Darkening:|r applies a darkening effect around the outside of the screen as the player Dragonrides
+|cffffffffLandscape Darkening:|r applies a darkening effect around the outside of the screen as the player dragonrides.
 
-|cffffffffFocal Circle:|r adds a focal circle crosshair to the center of the screen",1
+|cffffffffFocal Circle:|r adds a focal circle crosshair to the center of the screen.",1
 50229,PERSONAL_CRAFTING_ORDERS_AVAIL_FMT,You have %d personal %s |4order.:orders.,1
 50230,PROFESSIONS_ORDER_CANCELLED,Order Cancelled,1
 50231,PROFESSIONS_ORDER_EXPIRED,Order Expired,1
@@ -21472,8 +21472,8 @@ Progress made is account-wide.",1
 50254,CONFIRM_LEAVE_RATED_MATCH_WITH_PENALTY,Leaving the match now will cause you to lose at least |cnORANGE_FONT_COLOR:%d|r rating and you will be afflicted by %s of %s.|n|nYou will not receive Honor or Conquest for your completed rounds if you leave now.|n|nAre you sure you want to leave the match?,1
 50255,SPELL_FAILED_CUSTOM_ERROR_826,This recipe is currently disabled. Please try again later.,1
 50258,CENSORED_MESSAGE_HIDDEN,|cffff7f3fMessage from %s is potentially inappropriate.|h|cffffff00|Hcensoredmessage:%d|h |W[Show Message]|w|h|r,1
-50263,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS,Dragonriding Speed Effects,1
-50264,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS_TOOLTIP,Disabling visual speed effects may help with motion sickness.,1
+50263,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS,Speed Effects,1
+50264,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS_TOOLTIP,Disabling visual speed effects may help with motion sickness while dragonriding.,1
 50266,ACCOUNT_SAVE_FILE_BUTTON,Open Folder,2
 50267,ACCOUNT_SAVE_CLOSE_BUTTON,Close,2
 50268,ACCOUNT_SAVE_SUCCESS_DETAILS,Please copy this file to a safe location for future use:,2
@@ -21683,7 +21683,7 @@ You can't do outdoor and queued content with this character.",1
 50557,LOOT_HISTORY_OFF_SPEC_FMT,%s |cnDISABLED_FONT_COLOR:(Off-Spec)|r,1
 50559,LOOT_HISTORY_ROLL_TIE,Tie,1
 50570,LOOT_HISTORY_ROLL_TUTORIAL,Your loot rolls appear here.|n|nItems you win will go to your bags automatically. ,1
-50576,ITEM_UPGRADE_ERROR_NOT_ENOUGH_CURRENCY_DOWNGRADE,Higher level Shadowflame Crests can be downgraded at Vaskarn in Loamm.,1
+50576,ITEM_UPGRADE_ERROR_NOT_ENOUGH_CURRENCY_DOWNGRADE,Higher level Crests can be downgraded at Vaskarn in Loamm.,1
 50577,PROFESSIONS_CUSTOMER_ORDER_REAGENT_NOTPROVIDED,You will be providing this reagent.,1
 50578,PROFESSIONS_CUSTOMER_ORDER_REAGENTS_SOME,You will be providing some of the reagents.,1
 50579,PROFESSIONS_CUSTOMER_ORDER_REAGENTS_NONE,You will be providing all of the reagents.,1
@@ -21857,6 +21857,7 @@ Are you sure you want to proceed?",1
 51366,PING_SUBJECT_TYPE_ASSIST_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_assist:0:0:0:0|aAssist,1
 51367,PING_SUBJECT_TYPE_ATTACK_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_attack:0:0:0:0|aAttack,1
 51368,PING_SUBJECT_TYPE_ON_MY_WAY_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_onmyway:0:0:0:0|aOn my way,1
+51373,SPELL_FAILED_CUSTOM_ERROR_1010,You don't know how to gather this.,1
 51374,ENABLE_PING_SOUNDS,Ping Sounds,1
 51375,OPTION_TOOLTIP_ENABLE_PING_SOUNDS,Toggles ping sounds on and off,1
 51376,PING_VOLUME,Ping Volume,1
@@ -21887,8 +21888,10 @@ Are you sure you want to proceed?",1
 51415,PING_MODE_CLICK_DRAG,Relaxed Ping,1
 51416,PING_MODE,Ping Mode,1
 51417,OPTION_TOOLTIP_PING_MODE,Determines which mode is used to interact with the ping system.,1
+51418,SPELL_FAILED_CUSTOM_ERROR_858,Enough Moonkin Hatchlings already follow you. ,1
 51419,OPTION_TOOLTIP_PING_MODE_CLICK_DRAG,"When pressing the ping keybind, click to contextually ping, or click and drag to trigger the ping radial menu.",1
 51420,OPTION_TOOLTIP_PING_MODE_KEY_DOWN,"Press and release the ping keybind to contextually ping, or press and hold to trigger the ping radial menu.",1
+51421,SPELL_FAILED_CUSTOM_ERROR_840,You should not eat too many desserts if you wish to be invited to the next party.,1
 51433,PING_FAILED_SQUELCHED,Could not send ping: chat is temporarily suspended.,1
 51434,PING_SYSTEM_TUTORIAL_CONTEXTUAL,|cnTUTORIAL_BLUE_FONT_COLOR:Press|r the Ping key to drop quick pings in the world.,1
 51435,PING_SYSTEM_TUTORIAL_RADIAL,|cnTUTORIAL_BLUE_FONT_COLOR:Press and Hold|r your ping key to select a specific ping.,1
@@ -21901,3 +21904,66 @@ Are you sure you want to proceed?",1
 51442,PING_SYSTEM_TUTORIAL_LABEL,Ping System,1
 51443,INSPECT_REQUIREMENTS,<Ctrl-Click to view requirements>,1
 51444,ERR_BATTLEGROUND_INVITATION_DECLINED_BY,Your War Game invitation has been declined by %s.,1
+51445,CURRENCY_GAINED_MULTIPLE_OVERFLOW,You receive currency: %sx%d (You've earned the maximum amount of %s),1
+51448,LFG_FOLLOWER_NAME_PREFIX,*%s,1
+51449,TALENT_FRAME_REFUND_INVALID_ERROR,You must fix all errors. Unlearn talents to free up points and use them elsewhere to create a valid build.,1
+51450,TALENT_BUTTON_TOOLTIP_REFUND_INVALID_LINKS_ERROR,No active links. Reconnect or unlearn this talent.,1
+51451,TALENT_BUTTON_TOOLTIP_REFUND_INVALID_CONDITIONS_ERROR,Spend more points to restore this talent or right click to unlearn it,1
+51452,PERKS_PROGRAM_FROZEN,"|cffffffffFrozen|r
+",1
+51457,MAP_FILTER,Map Filter,1
+51472,SPELL_FAILED_CUSTOM_ERROR_891,You are already at full Vigor,1
+51473,SPELL_FAILED_CUSTOM_ERROR_1006,The nutrients of this soil must replenish before further growth.,1
+51480,PERSONALTABARDVENDORGREETING,Greetings! Choose the symbol and colors for your personal tabard.,1
+51484,RAID_MANAGER_RESTRICT_PINGS_PARTY,Restrict Pings to Lead,1
+51495,SPELL_FAILED_CUSTOM_ERROR_1007,The target has already had some feathers plucked. It would be rude to take more.,1
+51496,WEEKLY_REWARDS_THRESHOLD_DUNGEONS,"Complete %d Heroic, Mythic, or Timewalking |4Dungeon:Dungeons",1
+51498,SPELL_FAILED_CUSTOM_ERROR_859,You can only open this chest in your dreams.,1
+51499,PING_CHAT_SETTINGS,Chat Settings,1
+51503,ADV_FLY_PITCH_CONTROL,Pitch Control,1
+51504,ADV_FLY_PITCH_CONTROL_FORWARD_UP,Forward/Up,1
+51505,ADV_FLY_PITCH_CONTROL_BACKWARD_UP,Backward/Up,1
+51506,OPTION_TOOLTIP_ADV_FLY_PITCH_CONTROL,"Helps to address hand motor function while dragonriding.
+
+|cffffffffBackward/Up:|r Makes the Move Backward input also Pitch Up and the Move Forward input also Pitch Down while dragonriding.
+
+|cffffffffForward/Up:|r Makes the Move Forward input also Pitch Up and the Move Backward input also Pitch Down while dragonriding.",1
+51507,SPELL_FAILED_CUSTOM_ERROR_1008,This creature has already been attuned with recently.,1
+51508,SPELL_FAILED_CUSTOM_ERROR_646,You cannot hold more crests of this type.,1
+51514,PERKS_PROGRAM_PURCHASED_TIME_REMAINING,|cff808080--|r,1
+51516,ACCESSIBILITY_ADV_FLY_LABEL,Dynamic Flight,1
+51517,ADV_FLY_MINIMUM_PITCH_TEXT,Min Keyboard Pitch Speed,1
+51518,ADV_FLY_MAXIMUM_PITCH_TEXT,Max Keyboard Pitch Speed,1
+51519,ADV_FLY_MINIMUM_TURN_TEXT,Min Keyboard Turn Speed,1
+51520,ADV_FLY_MAXIMUM_TURN_TEXT,Max Keyboard Turn Speed,1
+51521,OPTION_TOOLTIP_ADV_FLY_MINIMUM_PITCH,Adjusts the minimum pitch speed of keyboard input.,1
+51522,OPTION_TOOLTIP_ADV_FLY_MAXIMUM_PITCH,Adjusts the maximum pitch speed of keyboard input.,1
+51523,OPTION_TOOLTIP_ADV_FLY_MINIMUM_TURN,Adjusts the minimum turn speed of keyboard input.,1
+51524,OPTION_TOOLTIP_ADV_FLY_MAXIMUM_TURN,Adjusts the maximum turn speed of keyboard input.,1
+51525,ERR_BATTLEGROUND_JOIN_GROUP_QUEUE_WITHOUT_HEALER,You can not enter this battleground as a group without a healer.,1
+51526,ADV_FLY_CAMERA_PITCH_CHASE_TEXT,Keyboard Pitch Camera Follow,1
+51527,OPTION_TOOLTIP_ADV_FLY_CAMERA_PITCH_CHASE,Adjusts the speed that the camera pitches to follow the player when using Move Forward and Move Backward inputs to control pitch.,1
+51528,ADV_FLY_PITCH_CONTROL_GROUND_DEBOUNCE,Debounce Pitch Input,1
+51529,OPTION_TOOLTIP_ADV_FLY_PITCH_CONTROL_GROUND_DEBOUNCE,"If enabled while using Move Forward and Move Backward to control pitch, this setting will require those inputs to be pressed again when transitioning between grounded and dragonriding. ",1
+51530,ACCESSIBILITY_MOUNT_LABEL,Mounts,1
+51535,PERKS_PROGRAM_ERROR_INDICATOR,The Trading Post is experiencing difficulty communicating with the server. Please try again later.,1
+51536,PERKS_PROGRAM_PURCHASING_UNAVAILABLE,Purchasing Unavailable,1
+51540,SPELL_FAILED_CUSTOM_ERROR_1011,You don't have any items of this type.,1
+51543,KIOSK_ENTER,Enter World,2
+51552,WEEKLY_REWARDS_HEROIC,Heroic,1
+51553,WEEKLY_REWARDS_COMPLETE_HEROIC_SHORT,Complete a dungeon on Mythic difficulty to increase this reward's item level.,1
+51554,WEEKLY_REWARDS_ITEM_LEVEL_HEROIC,Item Level %1$d - Heroic,1
+51555,WEEKLY_REWARDS_UNLOCK_REWARD,Unlock Reward,1
+51558,GREAT_VAULT_REWARDS_CURRENT_LEVEL_MYTHIC,The item level of this reward will be based on the lowest of your top %1$d runs this week (currently Mythic Level %2$d).,1
+51559,GREAT_VAULT_REWARDS_CURRENT_LEVEL_HEROIC,The item level of this reward will be based on the lowest of your top %1$d runs this week (currently Heroic).,1
+51560,QUEST_BG_DEFAULT,Default,1
+51561,QUEST_BG_LIGHT1,Light 1,1
+51562,QUEST_BG_LIGHT2,Light 2,1
+51563,QUEST_BG_DARK,Dark,1
+51565,QUEST_BG_LIGHT3,Light 3,1
+51566,GREAT_VAULT_REWARDS_HEROIC_IMPROVE,Complete %1$d dungeons on Mythic difficulty to improve your reward.,1
+51567,AUCTION_HOUSE_ITEM_QUANTITY_FORMAT,|cff808080x%s|r,1
+51568,SPELL_FAILED_CUSTOM_ERROR_860,You have not proven yourself to this spirit.,1
+51573,CANNOT_UNEQUIP_ERR,Cannot change equip status at this time,1
+51575,SPELL_FAILED_RADIANT_ASH_MAX,You have enough Radiant Fleck of Ash.,1
+51576,ERR_ITEM_INTERACTION_NO_CONVERSION_OUTPUT,This item cannot be transformed by your character.,1

@@ -145,14 +145,14 @@ Scorches the ground, dealing [StandardDamage(1,1)] [School()] damage and dealing
 During Scorched Earth, all pets count as |cFFFF2020Burning|r.",237588,1,3,0,0
 173,Cauterize,"Restores [StandardDamage(1,1)] health plus half of the last hit taken by the user.",236218,6,3,0,2
 174,Stunned,Unable to give this pet commands.,135860,-1,0,103,3
-175,Volcano,"After 2 |4round:rounds;, the ground erupts for 2 |4round:rounds;, causing the current enemy pet to take [StandardDamage(3,1,175)] [School()] damage and has a 25% chance to be stunned for the next [duration(3,3,175)] round.
+175,Volcano,"After 1 |4round:rounds;, the ground erupts for 2 |4round:rounds;, causing the current enemy pet to take [StandardDamage(3,1,175)] [School()] damage and has a 25% chance to be stunned for the next [duration(3,3,175)] round.
 
 [StandardAccuracy(3,1)] |cffffffffHit Chance|r",524305,6,0,288,1
 176,Volcano,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
 Causes the ground beneath the enemy team to tremble. 
 
-After 2 rounds, the ground erupts for 2 rounds, causing the current enemy pet to take [StandardDamage(3,1,175)] [School()] damage and have a 25% chance to be stunned for 1 round.",524305,6,5,0,0
+After 1 round, the ground erupts for 2 rounds, causing the current enemy pet to take [StandardDamage(3,1,175)] [School()] damage and have a 25% chance to be stunned for 1 round.",524305,6,5,0,0
 177,Immolate,"Deals [StandardDamage(1,1)] Elemental damage every round.
 
 |cFFFF2020Burning|r",135817,6,0,28,0
@@ -716,14 +716,14 @@ Instantly deals [StandardDamage(1,1)] [School()] damage and |cFF1EFF00Poisons|r 
 Causes a thick nest of vines to begin growing around the enemy team. 
 
 Next round, the opponent's pet will take [StandardDamage(2,1,399)] [School()] damage and be rooted for [duration(2,2,399)] rounds.",136100,6,3,0,0
-401,Stun Seed,"Detonates after [numTurns()] |4round:rounds, dealing [StandardDamage(3,1)] Elemental damage to the current enemy pet and stunning the target for 1 round.
+401,Stun Seed,"Detonates after [numTurns()-1] |4round:rounds, dealing [StandardDamage(3,1)] Elemental damage to the current enemy pet and stunning the target for 1 round.
 
 [StandardAccuracy(3,1)] |cffffffffHit Chance|r",464030,6,0,0,0
 402,Stun Seed,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
 Plants a seed in the enemy. 
 
-After 3 |4round:rounds;, the seed blooms, causing the current enemy pet to take [StandardDamage(3,1,401)] [School()] damage and be stunned for [duration(3,2,401)] |4round:rounds;.",464030,6,5,0,0
+After 2 |4round:rounds;, the seed blooms, causing the current enemy pet to take [StandardDamage(3,1,401)] [School()] damage and be stunned for [duration(3,2,401)] |4round:rounds;.",464030,6,5,0,0
 403,Sunny Day,"Increases the maximum health of all pets by [abs(abilityStateMod(99,403))]%.
 
 Increases healing done by [abs(abilityStateMod(65,403))]%.",535593,6,0,179,2
@@ -1239,12 +1239,12 @@ Restores increasing health every round.",135745,-1,0,78,0
 600,Time Stop,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
 Stun the target for [duration(1,1)] |4round:rounds;.",136106,5,5,0,2
-601,Time Bomb,"Detonates after 3 |4round:rounds;, dealing [StandardDamage(1,1)] Magic damage and stunning the target for 1 round.",237538,5,0,0,1
+601,Time Bomb,"Detonates after 3 |4round:rounds;, dealing [StandardDamage(4,1)] Magic damage and stunning the target for 1 round.",237538,5,0,0,1
 602,Time Bomb,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
 Places a temporal rift beneath the enemy team. 
 
-After [duration(1,1)] |4round:rounds the rift erupts, causing the current enemy pet to take [StandardDamage(getProcIndex(PROC_ON_AURA_REMOVED, 601),1,601)] [School()] damage and be stunned for [duration(1,2,601)] round.",237538,5,5,0,0
+After 3 |4round:rounds, the rift erupts, causing the current enemy pet to take [StandardDamage(4,1,601)] [School()] damage and be stunned for [duration(4,2,601)] round.",237538,5,5,0,0
 603,Temporal Lapse,"Your team's attacks are doubled for [duration(1,1)] |4round:rounds.",609811,1,20,0,2
 604,Extreme Power,"Your team's attacks deal [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 604 ))]% additional damage.",648206,-1,0,0,2
 605,Elementium Bolt,"Detonates after [numTurns()-1] |4round:rounds, dealing [StandardDamage(1,1,2372)] [School()] damage to the current enemy pet and stunning the target for [duration(3,2)] |4round:rounds;.
@@ -1291,14 +1291,14 @@ Hits an additional time if the user attacks first.",348560,6,0,0,0
 621,Stone Rush,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
 Slams into the enemy, dealing [StandardDamage(1,1)] [School()] damage and dealing [SimpleDamage(1,3)] [School()] damage to themselves.",237002,6,1,0,0
-623,Ice Tomb,"Detonates after [numTurns()] |4round:rounds, dealing [StandardDamage(3,1)] Elemental damage to the current enemy pet and stunning the target for 1 round.
+623,Ice Tomb,"Detonates after [numTurns()-1] |4round:rounds, dealing [StandardDamage(3,1)] Elemental damage to the current enemy pet and stunning the target for 1 round.
 
 [StandardAccuracy(3,1)] |cffffffffHit Chance|r",609814,6,0,0,0
 624,Ice Tomb,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
 Launches an orb of freezing energy at the target. 
 
-After 3 |4round:rounds;, the ice hits, causing the current enemy pet to take [StandardDamage(3,1,623)] [School()] damage and be stunned for [duration(3,2,623)] round.",609814,6,5,0,0
+After 2 |4round:rounds;, the ice hits, causing the current enemy pet to take [StandardDamage(3,1,623)] [School()] damage and be stunned for [duration(3,2,623)] round.",609814,6,5,0,0
 625,Ice Spike,"Impales the target, dealing [StandardDamage(1,1)] [School()] damage.
 
 This ability has a high chance to miss.",135855,6,0,0,0
@@ -3766,3 +3766,11 @@ Deals [StandardDamage(1, 1)] [School()] damage, but increases the damage you tak
 2512,Ice Age,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
 Deals [StandardDamage(1,1)] [School()] damage and has a 25% chance to stun the target.",4226156,6,5,0,0
+2513,Ravenholdt Rush,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Lil' Wrathion leads 2 waves of assassins to destroy his enemy.
+
+Lil' Wrathion deals [FormatDamage(SimpleDamage(1,1))] [School()] damage
+
+Each wave of assassins deals [FormatDamage(SimpleDamage(1,2))] [School()] damage.",458726,0,0,0,0
+2514,[DNT] TEST,,897140,5,0,0,18
