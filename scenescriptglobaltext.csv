@@ -303,6 +303,32 @@ function ActorPlayerMount:Default()
 end
 
 --
+-- ActorDecalSettings Functions
+--
+
+-- backwards compatibility
+if (not ActorDecalSettings) then
+	ActorDecalSettings = { }
+end
+
+function ActorDecalSettings:Default()
+	local m = 
+	{
+		decalPropertiesID = 0,
+		shapeType = 0,
+		radius = 0.0,
+		length = 0.0,
+		width = 0.0,
+		fadeInOverride = 0.0,
+		fadeOutOverride = 0.0,
+	}
+	if (self.__meta) then
+		setmetatable(m, self.__meta)
+	end
+	return m
+end
+
+--
 -- ActorCreateData Functions
 --
 function ActorCreateData:Default()
@@ -339,27 +365,7 @@ function ActorCreateData:Default()
 		noShadow = false,
 		disableUpdates = false,
 		aoiSettings = ActorAOISettings:Default(),
-		overrideReaction = ReactionType.Default,
-		overrideMinLod = 0,
-		overrideLinkage = Linkage.Default,
-		sceneEditorActorID = 0,
-		fadeRegionSettings = ActorFadeRegionSettings:Default(),
-	}
-	setmetatable(c, self.__meta)
-	return c
-end
-
-function ActorCreateData:New(_id, _trans, _scale)
-	local c = ActorCreateData:Default()
-
-	c.creatureID = _id or c.creatureID
-	c.scale = _scale or c.scale
-	c.transform = _trans
-
-	return c
-end
-
-function "
+		overrideReaction = "
 10,Global Functions - Math,"--
 -- Math
 -- These Scripts have been added to SVN, if you make a change here, update it
@@ -2481,6 +2487,7 @@ local wrappers =
     cameraMode = 'cmid',
     creature = 'cid',
     creatureDisplayInfo = 'cdiid',
+    decalProperties = 'dpid',
 	fileData = 'fid',
 	gameObjectDisplayInfo = 'gdi',
 	item = 'iid',
@@ -2496,7 +2503,27 @@ local env = getfenv();
 for t, shortcut in pairs(wrappers) do
 	env[shortcut] = function(id) return id end;
 end"
-26422,[1] Global Functions - Actor,"ActorCreateData:NewDisplay(_creatureID, _displayId, _trans, _scale)
+26422,[1] Global Functions - Actor,"ReactionType.Default,
+		overrideMinLod = 0,
+		overrideLinkage = Linkage.Default,
+		sceneEditorActorID = 0,
+		fadeRegionSettings = ActorFadeRegionSettings:Default(),
+	}
+	setmetatable(c, self.__meta)
+	return c
+end
+
+function ActorCreateData:New(_id, _trans, _scale)
+	local c = ActorCreateData:Default()
+
+	c.creatureID = _id or c.creatureID
+	c.scale = _scale or c.scale
+	c.transform = _trans
+
+	return c
+end
+
+function ActorCreateData:NewDisplay(_creatureID, _displayId, _trans, _scale)
 	local c = ActorCreateData:Default()
 
 	c.creatureID = _creatureID or c.creatureID

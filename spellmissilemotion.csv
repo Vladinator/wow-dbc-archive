@@ -26,7 +26,6 @@ magnitude = 1 - (magnitude * magnitude * magnitude * magnitude)
 
 transRight = (sin((rand1 * 1000) + (time * 1000)) + cos((rand2 * 1000) + (time * 200))) * magnitude
 transUp = (sin((rand2 * 1000) + (time * 700)) + cos((rand1 * 1000) + (time * 300))) * magnitude
-speedScalar = minSpeedScalar + ((maxSpeedScalar - minSpeedScalar) * rand3)
 ",0,5
 22,Metawheel,"local outerWheelSpinRate = 600
 local outerWheelMag = 1.5
@@ -731,7 +730,6 @@ magnitude = (1 - (magnitude * magnitude * magnitude * magnitude)) * maxMagnitude
 
 transRight = (sin((rand1 * 1000) + (time * 700)) + cos((rand2 * 1000) + (time * 100))) * magnitude
 transUp = (sin((rand2 * 1000) + (time * 700)) + cos((rand1 * 1000) + (time * 300))) * magnitude
-speedScalar = minSpeedScalar + ((maxSpeedScalar - minSpeedScalar) * rand3)
 
 transAngle = angle
 transMag = (progress * 2) - 1
@@ -871,7 +869,6 @@ magnitude = 1 - (magnitude * magnitude * magnitude * magnitude)
 
 transRight = (sin((rand1 * 1000) + (time * 1000)) + cos((rand2 * 1000) + (time * 200))) * magnitude
 transUp = (sin((rand2 * 1000) + (time * 700)) + cos((rand1 * 1000) + (time * 300))) * magnitude
-speedScalar = minSpeedScalar + ((maxSpeedScalar - minSpeedScalar) * rand3)
 
 local angle = 0
 local maxMagnitude = startDistance * .30
@@ -1306,7 +1303,6 @@ magnitude = 1 - (magnitude * magnitude * magnitude * magnitude)
 
 transRight = (sin((rand1 * 1000) + (time * 1000)) + cos((rand2 * 1000) + (time * 200))) * magnitude
 transUp = (sin((rand2 * 1000) + (time * 700)) + cos((rand1 * 1000) + (time * 300))) * magnitude
-speedScalar = minSpeedScalar + ((maxSpeedScalar - minSpeedScalar) * rand3)
 ",0,2
 1724,Twin Waves - Double - Large,"
 local waveHeight = 15
@@ -1793,7 +1789,7 @@ transUp = (sin((rand2 * 1000) + (time * 300)) + cos((rand1 * 1000) + (time * 100
 transFront = transFront +
 	(sin((rand3 * 1000) + (time * 300)) + cos((rand2 * 1000) + (time * 100))) * magnitude
 
-speedScalar = 1 - (progress * .5)",0,5
+",0,5
 2444,Creature - Summon Ice Ring (Arthas Encounter),"local angle = 0
 local maxMagnitude = startDistance * .8
 --local spinRate = 1080
@@ -1923,7 +1919,7 @@ transUp = (sin((rand2 * 1000) + (time * 300)) + cos((rand1 * 1000) + (time * 100
 transFront = transFront +
 	(sin((rand3 * 1000) + (time * 300)) + cos((rand2 * 1000) + (time * 100))) * magnitude
 
---speedScalar = 1 - (progress * .5)",0,1
+",0,1
 2644,Creature - Gunship Cannon Fire (Arthas Dungeon),"transUp = (progress * (rand1 - .5)) * 20
 transRight = (progress * (rand2 - .5)) * 20
 
@@ -2025,8 +2021,7 @@ transRight = (sin((rand1 * 1000) + (time * 400)) + cos((rand3 * 1000) + (time * 
 transUp = (sin((rand2 * 1000) + (time * 300)) + cos((rand1 * 1000) + (time * 100))) * magnitude
 transFront = transFront +
 	(sin((rand3 * 1000) + (time * 300)) + cos((rand2 * 1000) + (time * 100))) * magnitude
-
-speedScalar = 1 - (progress * .5)",0,3
+",0,3
 2825,Spiral + Parabola,"local waveHeight = 1
 local wavesPerSec = 2
 local angle = 2
@@ -2046,7 +2041,6 @@ magnitude = 1 - (magnitude * magnitude * magnitude * magnitude)
 
 transRight = (sin((rand1 * 1000) + (time * 1000)) + cos((rand2 * 1000) + (time * 200))) * magnitude
 transUp = (sin((rand2 * 1000) + (time * 700)) + cos((rand1 * 1000) + (time * 300))) * magnitude
-speedScalar = minSpeedScalar + ((maxSpeedScalar - minSpeedScalar) * rand3)
 ",0,1
 2829,Parabola (Back Spin),"local angle = 0
 local maxMagnitude = startDistance * .15
@@ -2476,7 +2470,7 @@ transUp = (sin((rand2 * 1000) + (time * 300)) + cos((rand1 * 1000) + (time * 100
 transFront = transFront +
 	(sin((rand3 * 1000) + (time * 300)) + cos((rand2 * 1000) + (time * 100))) * magnitude
 
-speedScalar = 1 - (progress * .5)",0,3
+",0,3
 2869,Missile Swarm (Nefarian),"local magnitude = (progress * 1.9) - 1
 magnitude = 1 - (magnitude * magnitude * magnitude * magnitude)
 
@@ -2993,7 +2987,7 @@ transUp = (sin((rand2 * 1000) + (time * 300)) + cos((rand1 * 1000) + (time * 100
 transFront = transFront +
 	(sin((rand3 * 1000) + (time * 300)) + cos((rand2 * 1000) + (time * 100))) * magnitude
 
-speedScalar = 1 - (progress * .5)",0,3
+",0,3
 2918,Spear Thrust,"	speedScalar = 1 - progress
 end",0,1
 2919,"Parabola (Roll Spin, High)","local angle = 0
@@ -3248,7 +3242,7 @@ transUp = (sin((rand2 * 1000) + (time * 300)) + cos((rand1 * 1000) + (time * 100
 transFront = transFront +
 	(sin((rand3 * 1000) + (time * 300)) + cos((rand2 * 1000) + (time * 100))) * magnitude
 
-speedScalar = 1 - (progress * .5)",0,5
+",0,5
 2943,Execution Sentence Hammer Strike,"local magnitude = 15
 
 transUp = magnitude * ( 1 - progress )
@@ -3388,7 +3382,7 @@ transUp = (sin((rand2 * 1000) + (time * 300)) + cos((rand1 * 1000) + (time * 100
 transFront = transFront +
 	(sin((rand3 * 1000) + (time * 300)) + cos((rand2 * 1000) + (time * 100))) * magnitude
 
-speedScalar = 1 - (progress * .5)",0,1
+",0,1
 2955,Parabola (High) (Accelerate),"local angle = 0
 local maxMagnitude = startDistance * .30
 
@@ -3950,7 +3944,7 @@ transUp = (sin((rand2 * 1000) + (time * 300)) + cos((rand1 * 1000) + (time * 100
 transFront = transFront +
 	(sin((rand3 * 1000) + (time * 300)) + cos((rand2 * 1000) + (time * 100))) * magnitude
 
-speedScalar = 1 - (progress * .5)",0,3
+",0,3
 2993,Spiral (Small) Flat Reverse,"local radius = (progress * 8)
 
 local curAngle = progress * 90
@@ -4403,7 +4397,6 @@ magnitude = 1 - (magnitude * magnitude * magnitude * magnitude)
 
 transRight = (sin((rand1 * 1000) + (time * 1000)) + cos((rand2 * 1000) + (time * 200))) * magnitude
 transUp = (sin((rand2 * 1000) + (time * 700)) + cos((rand1 * 1000) + (time * 300))) * magnitude
-speedScalar = minSpeedScalar + ((maxSpeedScalar - minSpeedScalar) * rand3)
 
 if (missileIndex == 1) then
 	transRight = transRight + (5*progress*progress*progress)*sin(rand1 * 1000)
@@ -5607,7 +5600,7 @@ transUp = (sin((rand2 * 1000) + (time * 300)) + cos((rand1 * 1000) + (time * 100
 transFront = transFront +
 	(sin((rand3 * 1000) + (time * 300)) + cos((rand2 * 1000) + (time * 100))) * magnitude
 
-speedScalar = 1 - (progress * .5)",0,1
+",0,1
 3192,"Lightning Spark (3 Missiles, Pull out and fire)","local startAngle = -90
 local degreesPerSec = 0
 local maxMagnitude = 2.5
@@ -7300,7 +7293,6 @@ magnitude = (1 - (magnitude * magnitude * magnitude * magnitude)) * maxMagnitude
 
 transRight = (sin((rand1 * 1000) + (time * 700)) + cos((rand2 * 1000) + (time * 100))) * magnitude
 transUp = (sin((rand2 * 1000) + (time * 700)) + cos((rand1 * 1000) + (time * 300))) * magnitude
-speedScalar = minSpeedScalar + ((maxSpeedScalar - minSpeedScalar) * rand3)
 
 transAngle = angle
 transMag = (progress * 2) - 1
@@ -9351,7 +9343,6 @@ magnitude = 1 - (magnitude * magnitude * magnitude * magnitude)
 
 transRight = (sin((rand1 * 1000) + (time * 1000)) + cos((rand2 * 1000) + (time * 200))) * magnitude
 transUp = (sin((rand2 * 1000) + (time * 700)) + cos((rand1 * 1000) + (time * 300))) * magnitude
-speedScalar = minSpeedScalar + ((maxSpeedScalar - minSpeedScalar) * rand3)
 
 local angle = 0
 local maxMagnitude = startDistance * .30
@@ -9429,7 +9420,7 @@ transUp = (sin((rand2 * 1000) + (time * 300)) + cos((rand1 * 1000) + (time * 100
 transFront = transFront +
 	(sin((rand3 * 1000) + (time * 300)) + cos((rand2 * 1000) + (time * 100))) * magnitude
 
-speedScalar = 1 - (progress * .5)",0,3
+",0,3
 3398,Chi Wave Low,"local angle = 0
 local maxMagnitude = startDistance * .125
 
@@ -10307,7 +10298,7 @@ transUp = (sin((rand2 * 1000) + (time * 300)) + cos((rand1 * 1000) + (time * 100
 transFront = transFront +
 	(sin((rand3 * 1000) + (time * 300)) + cos((rand2 * 1000) + (time * 100))) * magnitude
 
-speedScalar = 1 - (progress * .5)",0,5
+",0,5
 3432,Spires of Arak - Solar Zone - Missile Telegraph,"	local DesiredHeight=17
 	transFront=-distanceToFirePos
 	transUp=DesiredHeight-(progress*DesiredHeight+4)
@@ -12719,7 +12710,7 @@ transUp = (sin((rand2 * 1000) + (time * 300)) + cos((rand1 * 1000) + (time * 100
 transFront = transFront +
 	(sin((rand3 * 1000) + (time * 300)) + cos((rand2 * 1000) + (time * 100))) * magnitude
 
-speedScalar = 1 - (progress * .5)",0,5
+",0,5
 3603,"Parabola (Pitch Spin, med speed, low) copy","local angle = 0
 local maxMagnitude = startDistance * .1
 local spinRate = 360
@@ -14000,7 +13991,7 @@ transUp = (sin((rand2 * 1000) + (time * 300)) + cos((rand1 * 1000) + (time * 100
 transFront = transFront +
 	(sin((rand3 * 1000) + (time * 300)) + cos((rand2 * 1000) + (time * 100))) * magnitude
 
-speedScalar = 1 - (progress * .5)",0,3
+",0,3
 3683,Renewing Mist Upside Down Tornado Missile 1,"local numSpirals = 10
 local radius = 3 * progress * .7
 
@@ -15782,7 +15773,7 @@ modelRoll=(Rolls*rand3)*360*progress",0,0
 3822,Priest - Penance,"speedScalar = .5*(progress+0.1)+1
 scale = math.min(1,progress*5)
 
---this used to random left or right, switched to more of a more organic feel
+--this used to random left or right, switched to more of a organic feel
 local angle1 = rand1*60-30
 
 local maxMagnitude = startDistance * .025
@@ -16812,7 +16803,6 @@ transUp = (sin((rand2 * 1000) + (time * 300)) + cos((rand1 * 1000) + (time * 100
 transFront = transFront +
 	(sin((rand3 * 1000) + (time * 300)) + cos((rand2 * 1000) + (time * 100))) * magnitude
 
-speedScalar = 1 - (rand1)
 ",0,3
 3887,Demon Hunter - Vengeance - Spirit Bomb Missile,"scale = 0.4
 transRight = -sin(progress*180) * 0.25 * startDistance",0,0
@@ -17376,7 +17366,6 @@ magnitude = magnitude * 0.25
 
 transRight = (sin((rand1 * 1000) + (time * 1000)) + cos((rand2 * 1000) + (time * 200))) * magnitude
 transUp = (sin((rand2 * 1000) + (time * 700)) + cos((rand1 * 1000) + (time * 300))) * magnitude
-speedScalar = minSpeedScalar + ((maxSpeedScalar - minSpeedScalar) * rand3)
 
 local angle = 0
 local maxMagnitude = startDistance * .10
@@ -19454,7 +19443,7 @@ transUp = (sin((rand2 * 1000) + (time * 300)) + cos((rand1 * 1000) + (time * 100
 transFront = transFront +
 	(sin((rand3 * 1000) + (time * 300)) + cos((rand2 * 1000) + (time * 100))) * magnitude
 
---speedScalar = 1 - (progress * .5)",0,1
+",0,1
 4194,"Drunken Fountain (1 Missile, Low)","local angle = 0
 local maxMagnitude = startDistance * .4
 
@@ -19471,7 +19460,7 @@ transUp = (sin((rand2 * 1000) + (time * 300)) + cos((rand1 * 1000) + (time * 100
 transFront = transFront +
 	(sin((rand3 * 1000) + (time * 300)) + cos((rand2 * 1000) + (time * 100))) * magnitude
 
-speedScalar = 1 - (progress * .5)",0,1
+",0,1
 4195,Meteor Strike (15 Yards) Falls Straight Down + Set Pitch to -90,"local magnitude = 15
 
 transUp = magnitude * ( 1 - progress )
@@ -19660,7 +19649,7 @@ transUp = (sin((rand2 * 1000) + (time * 300)) + cos((rand1 * 1000) + (time * 100
 transFront = transFront +
 	(sin((rand3 * 1000) + (time * 300)) + cos((rand2 * 1000) + (time * 100))) * magnitude
 
-speedScalar = 1 - (progress * .5)",0,1
+",0,1
 4207,Item - 8.0 Raid - Uldir - Trinket Intellect - Vigilant's Bloodsh,"--transUp = sin(progress*180*3) * 2
 --transRight = cos(progress*180*3) * 2",0,1
 4208,Sarah - Test - Test missile playground,"transFront = progress - distanceToFirePos
@@ -19844,7 +19833,7 @@ transUp = (sin((rand2 * 1000) + (time * 300)) + cos((rand1 * 1000) + (time * 100
 transFront = transFront +
 	(sin((rand3 * 1000) + (time * 300)) + cos((rand2 * 1000) + (time * 100))) * magnitude
 
---speedScalar = 1 - (progress * .5)",0,5
+",0,5
 4214,8.0 Azerite Armor - M.E.N.D. - Saw - Poison Vial,"modelPitch = 90
 modelRoll = 0
 modelYaw = 0
@@ -19962,7 +19951,6 @@ magnitude = 1 - (magnitude * magnitude * magnitude * magnitude)
 
 transRight = (sin((rand1 * 1000) + (time * 1000)) + cos((rand2 * 1000) + (time * 200))) * magnitude
 transUp = (sin((rand2 * 1000) + (time * 700)) + cos((rand1 * 1000) + (time * 300))) * magnitude
-speedScalar = minSpeedScalar + ((maxSpeedScalar - minSpeedScalar) * rand3)
 
 local angle = 0
 local maxMagnitude = startDistance * .30
@@ -20289,7 +20277,6 @@ magnitude = 1 - (magnitude * magnitude * magnitude * magnitude)
 
 transRight = (sin((rand1 * 1000) + (time * 1000)) + cos((rand2 * 1000) + (time * 200))) * magnitude
 transUp = (sin((rand2 * 1000) + (time * 700)) + cos((rand1 * 1000) + (time * 300))) * magnitude
-speedScalar = minSpeedScalar + ((maxSpeedScalar - minSpeedScalar) * rand3)
 
 local angle = 0
 local maxMagnitude = startDistance * .30
@@ -20848,13 +20835,11 @@ magnitude = (1 - (magnitude * magnitude * magnitude * magnitude)) * maxMagnitude
 
 transRight = (sin((rand1 * 1000) + (time * 700)) + cos((rand2 * 1000) + (time * 100))) * magnitude
 transUp = (sin((rand2 * 1000) + (time * 700)) + cos((rand1 * 1000) + (time * 300))) * magnitude
-speedScalar = minSpeedScalar + ((maxSpeedScalar - minSpeedScalar) * rand3)
 
 transAngle = angle
 transMag = (progress * 2) - 1
 transMag = (1 - (transMag * transMag)) * maxArcMagnitude
 
-out_speedScale = 0.1 + 35 * progress * progress
 transUp  = (1.4 - 2 * rand1) * (1 - progress)",0,1
 4288,Azerite - Unbound - Missiles,"local angle = 0
 local maxMagnitude = startDistance * .25
@@ -21126,7 +21111,6 @@ magnitude = magnitude * magnitudeReduction
 
 transRight = (sin((rand1 * 1000) + (time * 1000)) + cos((rand2 * 1000) + (time * 200))) * magnitude
 transUp = (sin((rand2 * 1000) + (time * 700)) + cos((rand1 * 1000) + (time * 300))) * magnitude
-speedScalar = minSpeedScalar + ((maxSpeedScalar - minSpeedScalar) * rand3)
 ",0,1
 4310,"Parabola (Roll 600, Med, not based on distance)","local angle = 0
 local maxMagnitude = 6
@@ -21232,7 +21216,6 @@ magnitude = magnitude * magnitudeReduction
 
 transRight = (sin((rand1 * 1000) + (time * 1000)) + cos((rand2 * 1000) + (time * 200))) * magnitude
 transUp = (sin((rand2 * 1000) + (time * 700)) + cos((rand1 * 1000) + (time * 300))) * magnitude
-speedScalar = minSpeedScalar + ((maxSpeedScalar - minSpeedScalar) * rand3)
 ",0,3
 4321,Paladin - Hammer of Wrath,"local angle = -30
 
@@ -22440,7 +22423,6 @@ magnitude = magnitude * 0.25
 
 transRight = (sin((rand1 * 1000) + (time * 1000)) + cos((rand2 * 1000) + (time * 200))) * magnitude
 transUp = (sin((rand2 * 1000) + (time * 700)) + cos((rand1 * 1000) + (time * 300))) * magnitude
-speedScalar = minSpeedScalar + ((maxSpeedScalar - minSpeedScalar) * rand3)
 
 local angle = 0
 local maxMagnitude = startDistance * .30
@@ -22520,7 +22502,7 @@ transUp = (sin((rand2 * 1000) + (time * 300)) + cos((rand1 * 1000) + (time * 100
 transFront = transFront +
 	(sin((rand3 * 1000) + (time * 300)) + cos((rand2 * 1000) + (time * 100))) * magnitude
 
-speedScalar = 1 - (progress * .5)",0,5
+",0,5
 4419,9.1 Dungeon - Broker City - Fan Mail Missile Motion - RZN,"local radius = progress * totalDistance
 
 local anglePerMissile = 360 / (missileCount)
@@ -22940,7 +22922,7 @@ transUp = (sin((rand2 * 1000) + (time * 300)) + cos((rand1 * 1000) + (time * 100
 transFront = transFront +
 	(sin((rand3 * 1000) + (time * 300)) + cos((rand2 * 1000) + (time * 100))) * magnitude
 
-speedScalar = 1 - (progress * .5)",0,1
+",0,1
 4450,9.1 Raid - Torghast - Ner'zhul - Orb of Torment - Summon - Missi,"scale = 1 + (2 * progress)
 transMag = 2*progress",0,1
 4451,Falls Straight Down (Actually does!)(Lower),"local magnitude = 10
@@ -24013,7 +23995,6 @@ magnitude = 1 - (magnitude * magnitude * magnitude * magnitude)
 
 transRight = (sin((rand1 * 1000) + (time * 1000)) + cos((rand2 * 1000) + (time * 200))) * magnitude
 transUp = (sin((rand2 * 1000) + (time * 700)) + cos((rand1 * 1000) + (time * 300))) * magnitude
-speedScalar = minSpeedScalar + ((maxSpeedScalar - minSpeedScalar) * rand3)
 ",0,1
 4547,Kali testing 3,"faceImpactPos = 0
 
@@ -25148,6 +25129,8 @@ local maxMagnitude = startDistance * .3 --0.6
 transAngle = angle
 transMag = (progress * 2) - 1
 transMag = 1 - ((transMag * transMag) * maxMagnitude)",0,1
+4638,Descend from Above - 100 yds,"
+transUp = (1 - progress) * 100",0,0
 4639,10.1.5 Dungeon - Infinite - Deios - Infinite Corruption Small Missile,"local function parabola(a,b,m) return (4*m*((1-progress)*a)*((progress)*b)) end
 
 local height = 10
@@ -25182,6 +25165,23 @@ if rand3>0.5 then
 end
 
 transRight = direction * math.min(startDistance/maxWidth,maxWidth) * rand2",0,1
+4641,Priest - Heaven's Wrath,"speedScalar = .5*(progress+0.1)+1
+scale = math.min(1,progress*5)
+transUp=sin(progress*180)*startDistance*2/5
+--this used to random left or right, switched to more of a organic feel
+local angle1 = rand1*60-30
+
+local maxMagnitude = startDistance * .025
+
+transAngle = angle1
+
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+
+
+",0,1
+4642,Descend from Above - 300 yds,"
+transUp = (1 - progress) * 300",0,0
 4643,"Parabola (Fixed Height - 3-5 yards, With Noise) - KJD","local function parabola(m) return (4*m*(1-progress)*progress) end
 
 local height = 3
@@ -25215,3 +25215,294 @@ transUp    = transUp + (progressMult*noise2*(noiseAmt*.25))
 transFront = math.pow(progress,factor) * distanceToFirePos + ((progressMult*noise3) *noiseAmt)
 transFront = transFront - distanceToFirePos
 --]]",0,1
+4646,10.2 Raid - Dream - Boss - Emerald Council - Dryad - Poisonous Javelin - 02. Missile - ARB ,"modelYaw = 180
+scale = 1.5
+
+local angle = 0
+local maxMagnitude = startDistance * .10
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude",0,0
+4647,10.2 Raid - Dream - Weaver - Rain - 02 Missile - KRY,"local magnitude = 40
+scale = .5 + 1*rand1
+transUp = (magnitude * ( 1 - progress )) - .5
+transFront=distanceToImpactPos
+",0,0
+4648,10.2 Raid - Dream - Weaver - Tank Hit Missile - KRY,"local angle = 360*rand1
+local maxMagnitude = startDistance * .2
+local spinRate = 720
+scale = .75
+modelRoll = 90
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+modelRoll = time * spinRate
+",0,0
+4649,Parabola (-90 degree angle),"local angle = -90
+local maxMagnitude = startDistance * .5
+local spinRate = 720
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+
+modelYaw = -90
+modelRoll = time * spinRate
+",0,1
+4650,10.2 Raid - Dream - Weaver - Continuum - Beam Cast - KRY,faceImpactPos=1,0,1
+4651,"Parabola (Fixed Height - 10 yards, Fast Out Inverted) - CHTL","local function parabola(a,b,m) return (4*m*((1-progress)*a)*((progress)*b)) end
+
+local height = 10
+local variance = 0
+height = height + (rand1 * variance)
+
+transUp = parabola(1,1,height)
+
+local factor = 5
+transFront = math.pow(progress,1/factor) * distanceToFirePos
+transFront = transFront - distanceToFirePos",0,1
+4655,10.2 Raid - Dream - Igira Channeler - Missile Motion,"local function parabola(m) return (4*m*(1-progress)*progress) end
+
+local overallMagnitudeOfRandomTranslations = 4
+overallMagnitudeOfRandomTranslations = parabola(overallMagnitudeOfRandomTranslations)
+
+local angleMax = 360 -- the angle functions seem to take degrees, not radians
+local minSpeedScalar = 1
+local maxSpeedScalar = 1.5
+
+transRight = (sin((rand1 * angleMax) + (time * 10)) + cos((rand2 * angleMax)) + (time * 2)) * overallMagnitudeOfRandomTranslations
+transUp = (sin((rand2 * angleMax/2) + (time * 7)) + cos((rand1 * angleMax/2)) + (time * 3)) * overallMagnitudeOfRandomTranslations
+
+--transRight = (sin((rand1 * 1000) + (time * 1000)) + cos((rand2 * 1000) + (time * 200))) * overallMagnitudeOfRandomTranslations
+--transUp = (sin((rand2 * 1000) + (time * 700)) + cos((rand1 * 1000) + (time * 300))) * overallMagnitudeOfRandomTranslations
+
+-- purely a visual missle, so there aren't issues with using this
+speedScalar = minSpeedScalar + ((maxSpeedScalar - minSpeedScalar) * rand3)
+",0,1
+4656,10.2 Raid - Dream - Boss - Fiery Ancient - Intermission - Boss Debuff 01 Effect - CHTL,"local maxMagnitude = 4
+local minSpeedScalar = .8
+local maxSpeedScalar = 1.2
+
+local magnitude = (progress * 1.9) - 1
+magnitude = 1 - (magnitude * magnitude * magnitude * magnitude)
+
+transRight = (sin((rand1 * 1000) + (time * 1000)) + cos((rand2 * 1000) + (time * 200))) * magnitude
+transUp = (sin((rand2 * 1000) + (time * 700)) + cos((rand1 * 1000) + (time * 300))) * magnitude*0.5
+speedScalar = minSpeedScalar + ((maxSpeedScalar - minSpeedScalar) * rand3)
+
+local angle = 0
+local maxMagnitude = startDistance * .30
+local spinRate = 360
+
+modelPitch = time * spinRate
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+transRight = (1+3*rand3) * sin(time * 2 * 360) * ( 1 - progress ) * 8",0,0
+4657,9.0 - Drunken Missile - Long Range Drunk - FX - EZ,"local r1 = rand1*12-2
+local r2 = rand2*6-2
+
+if progress < 0.9999 then
+	progress = progress*progress 
+ 
+	transRight = math.sin(progress*12) * r1 + (rand3-0.5)*2
+	transUp = math.sin(progress*11) * 3 *  (rand2-0.4)*2
+	transFront = (rand3*15-10)*(1-progress)*progress
+end
+
+if progress > 0.9999 then
+	progress = 1.0
+	
+end",0,0
+4658,Spin (Roll) - 1080 (Throw Glaive Left Hand),"--[[
+speed = 50
+launchDelay = .15
+
+travelTime = totalDistance / speed
+totalTime = launchDelay + travelTime
+actualProgress = (launchProgress*launchDelay + progress*travelTime) / (totalTime)
+
+transFrontExpected =  totalDistance * actualProgress 
+transFrontTravelled = totalDistance * progress
+transFront = transFrontExpected - transFrontTravelled
+--]]
+
+transRight = (sin(progress*180))*math.pow(startDistance,.3)
+
+modelYaw  = 60",0,1
+4660,10.2 Raid - Dream - Weaver - Add Summon - Visual Missile - KRY,"local angle = 90
+local maxMagnitude = startDistance * .10
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+
+modelPitch = progress * 540
+modelRoll = progress * 720
+modelYaw = progress * 360
+
+scale = 3
+
+
+",0,1
+4661,Parabola (25 Pitch),"local angle = 0
+local maxMagnitude = startDistance * .15
+modelPitch = 25
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude",0,1
+4662,10.2 Raid - Dream - Boss - Keeper of the Flame - P1 Soak - Falling Ember - SAHM,"
+-- [[
+-- fall down
+
+local magnitude = 18 -- match offset in spell script 87462
+
+transUp = magnitude * ( 1 - progress )
+transFront = distanceToImpactPos
+
+
+modelPitch = 90
+modelRoll = 180
+modelYaw = 0
+
+-- snake 1/2 freq
+--local waveHeight = .8
+--local wavesPerSec = 1
+
+--transRight = waveHeight * sin(time * wavesPerSec * 360) * ( 1 - progress ) * 2
+--]]
+--[[
+--rotation function
+local function rotate(t,d) return (math.cos(t)+((d or 1)*math.sin(t))) end
+local rightMaxSway = 5
+local rightPower = 3
+local upTotalDist = 20
+local upMaxSway = 2
+local upPower = 2
+local numCycles = 4
+local theta = time * numCycles
+--shift the missile left/right over time
+local leftRightDirection = rotate(theta,-1)
+transRight = rightMaxSway * leftRightDirection
+transRight = transRight * (1 - (progress ^ rightPower))
+--drop the missile in place over time, but add some vertical goosing based on the left/right movement
+transUp = (upTotalDist * (1 - progress)) + math.abs((leftRightDirection ^ upPower) * (upMaxSway * (1 - progress)))
+--move the missile ahead to be above the impact pos
+transFront = distanceToImpactPos
+--Adjust the missile orientation
+modelPitch = 90
+modelRoll = 180
+modelYaw = 0
+--]]",0,0
+4664,10.2 Raid - Dream - Zone - RP - Fyrakk Visual Stalker - Periodic VFX Missile Motion - SRC,"local function parabola(m) return (4*m*(1-progress)*progress) end
+
+local overallMagnitudeOfRandomTranslations = 4
+overallMagnitudeOfRandomTranslations = parabola(overallMagnitudeOfRandomTranslations)
+
+local angleMax = 360 -- the angle functions seem to take degrees, not radians
+local minSpeedScalar = 1
+local maxSpeedScalar = 2
+
+transRight = (sin((rand1 * angleMax) + (time * 10)) + cos((rand2 * angleMax)) + (time * 2)) * overallMagnitudeOfRandomTranslations
+transUp = (sin((rand2 * angleMax) + (time * 7)) + cos((rand1 * angleMax)) + (time * 3)) * overallMagnitudeOfRandomTranslations
+
+--transRight = (sin((rand1 * 1000) + (time * 1000)) + cos((rand2 * 1000) + (time * 200))) * overallMagnitudeOfRandomTranslations
+--transUp = (sin((rand2 * 1000) + (time * 700)) + cos((rand1 * 1000) + (time * 300))) * overallMagnitudeOfRandomTranslations
+
+-- purely a visual missle, so there aren't issues with using this
+speedScalar = minSpeedScalar + ((maxSpeedScalar - minSpeedScalar) * rand3)
+",0,1
+4665,Spiral Vortex (3 Missiles) (Randomized) + Grow (3x),"local startAngle = 0
+local degreesPerSec = 360*rand1
+local maxMagnitude = 3*rand2
+local maxKickBack = 10*rand3
+
+transAngle = startAngle + ((missileIndex / missileCount) * 360) + (time * degreesPerSec)
+transMag = 1 - progress
+transMag = (transMag * transMag * 2) - 1
+transMag = (1 - (transMag * transMag))
+transFront = transMag * -maxKickBack
+transMag = transMag * maxMagnitude
+scale=1+(2*progress)
+",0,3
+4666,10.2 Dream - Rare Elite - Greedy Gessie - Look for Food - 03. Missile: Orangeroot - ARB ,"local angle = 0
+local maxMagnitude = startDistance * .3
+local spinRate = 180
+scale = 0.75
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+
+modelPitch = time * spinRate
+
+",0,0
+4669,Descend from Above - 30 yds,"
+transUp = (1 - progress) * 30",0,0
+4670,Descend from Above - 20 yds,"
+transUp = (1 - progress) * 20",0,0
+4671,Descend from Above - 10 yds,"
+transUp = (1 - progress) * 10",0,0
+4672,Parabola (Fixed Height - 12-30 yards) - SRC,"local function parabola(a,b,m) return (4*m*((1-progress)*a)*((progress)*b)) end
+
+local height = 12
+local variance = 18
+height = height + (rand1 * variance)
+
+transUp = parabola(1,1,height)",0,1
+4675,Liang Test,"local function parabola(a,b,m) return (4*m*((1-progress)*a)*((progress)*b)) end
+
+local height = 20
+local variance = 6
+height = height + (rand1 * variance)
+
+transUp = parabola(1.2,1.2,height)
+
+local factor = 2
+transFront = math.pow(progress,factor) * distanceToFirePos
+transFront = transFront - distanceToFirePos",0,1
+4676,10.2 Raid - Dream - Weaver - Full Bloom - 2 Cosmetic Missile - KRY,"
+local waveHeight = 1.2
+local wavesPerSec = 1.6
+
+--modelPitch = 90+15
+
+transRight = waveHeight * (1-progress) * sin(time * wavesPerSec * 360)
+
+if rand2>0.5 then transRight = -1*transRight end
+
+scale = 0.8 + (progress)
+
+--speedAbs = rand1*10-5
+--local randomSpeedAmount = 0.25
+--out_speedScale = (1 - randomSpeedAmount) + (rand1 * randomSpeedAmount)",0,1
+4677,10.2 Raid - Dream - Boss - Fiery Ancient - Area Denial - 01 Cover - Chloe Test,"local outerWheelSpinRate = 180 	-- 1 spin / sec
+local outerWheelMag = 10			-- 1 yard
+local missileAngle = outerWheelSpinRate * time
+
+if (missileIndex > 0) then
+	local anglePerMissile = 360 / (missileCount)
+	missileAngle = missileAngle + anglePerMissile * missileIndex
+end
+
+transFront = outerWheelMag * cos ( missileAngle )
+transRight = outerWheelMag * sin ( missileAngle )
+transUp = -distanceToFirePos",0,6
+4678,10.2 Raid - Dream - Boss - Fiery Ancient - Intermission - Soaks - Missile (CHTL),"local angle = 0
+local maxMagnitude = startDistance * .75
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+
+scale = progress
+
+transFront = -distanceToFirePos * (1 - progress)",0,1
+4680,7.0 Nightmare Dungeon - Corrupted Water Elemental - Water Bomb 1. Missile,"local magnitude = 15
+scale = 2
+
+transUp = magnitude * ( 1 - progress )
+transFront = distanceToImpactPos	",0,0
