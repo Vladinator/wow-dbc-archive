@@ -109,7 +109,7 @@ ID,NameSubtext_lang,Description_lang,AuraDescription_lang
 348,Rank 1,Burns the enemy for $s2 Fire damage and then an additional $o1 Fire damage over $d.,$s1 Fire damage every $t1 seconds.
 355,,"Taunts the target to attack you, but has no effect if the target is already attacking you.",
 370,Rank 1,"Purges the enemy target, removing $m1 magic $leffect:effects;.",
-379,,,
+379,,"Protects the target with an earthen shield, giving a chance of ignoring spell interruption when damaged and causing attacks to heal the shielded target.  This effect can only occur once every few seconds.  Limited charges. Earth Shield can only be placed on one target at a time and only one Elemental Shield can be active on a target at a time.",
 403,Rank 1,Casts a bolt of lightning at the target for $s1 Nature damage.,
 408,Rank 1,"Finishing move that stuns the target.  Lasts longer per combo point:
    1 point  : 1 second
@@ -529,6 +529,7 @@ Damage dealt is increased by $s3%."
 970,Rank 3,A word of darkness that causes $o1 Shadow damage over $d.,$s1 Shadow damage every $t1 seconds.
 971,Rank 3,Teaches Shadow Word: Pain (Rank 3).,
 973,Rank 1,Teaches Holy Protection.,
+974,Rank 1,"Protects the target with an earthen shield, reducing casting or channeling time lost when damaged by $s2%  and causing attacks to heal the shielded target for $<heal>.  This effect can only occur once every few seconds.  $n charges.  Lasts $d.  Earth Shield can only be placed on one target at a time and only one Elemental Shield can be active on a target at a time.",Reduces casting or channeling time lost when damaged by $s2% and attacks heal the shielded target for $s1.
 976,Rank 1,Increases the target's resistance to Shadow spells by $s1 for $d.,Shadow resistance increased by $s1.
 977,Rank 1,Teaches Shadow Protection.,
 979,Rank 3,Teaches Corruption (Rank 3).,
@@ -796,7 +797,7 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
 1326,Rank 2,,
 1327,Rank 3,,
 1328,,,
-1329,,,
+1329,Rank 1,Instantly attacks with both weapons for $<percent>% weapon damage plus an additional $5374s1 with each weapon.  Damage is increased by 20% against Poisoned targets.  Awards 2 combo points.,
 1330,,,
 1331,Rank 1,,
 1332,,,
@@ -4347,6 +4348,7 @@ Movement speed reduced by $s2%."
 5935,Rank 1,Decreases the mana cost of Holy spells by 1.,
 5936,Rank 2,Decreases the mana cost of Holy spells by 1.,
 5937,Rank 3,Decreases the mana cost of Holy spells by 1.,
+5938,,Performs an instant off-hand weapon attack that automatically applies the poison from your off-hand weapon to the target.  Slower weapons require more Energy.  Neither Shiv nor the poison it applies can be a critical strike.  Awards 1 combo point.,
 5941,Rank 1,Increases your defense by $s1.,
 5942,Rank 2,Increases your defense by $s1.,
 5943,Rank 3,Increases your defense by $s1.,
@@ -14644,7 +14646,7 @@ Nature damage inflicted every $t2 sec."
 19610,Rank 2,Increases the Armor rating of your pets by $s1%.,
 19612,Rank 3,Increases the Armor rating of your pets by $s1%.,
 19614,,,
-19615,Rank 1,,Attack speed increased by $s1%.
+19615,Rank 1,Gives your pet a chance to gain a $19615s1% attack speed increase for $19615d after dealing a critical strike.,Attack speed increased by $s1%.
 19616,Rank 1,Increases the damage done by your pets by $s1%.,
 19617,Rank 2,Increases the damage done by your pets by $s1%.,
 19618,Rank 3,Increases the damage done by your pets by $s1%.,
@@ -15198,7 +15200,7 @@ Unleashing this Seal's energy will judge an enemy for $20186d, granting attacks 
 20238,Rank 2,Increases the amount healed by your Holy Light and Flash of Light spells by $s1%.,
 20239,Rank 3,Increases the amount healed by your Holy Light and Flash of Light spells by $s1%.,
 20240,,Designer note:  This costs 1 rage to prevent its damage from generating rage.,
-20243,Rank 1,Devastate tooltip.,
+20243,Rank 1,"Sunder the target's armor causing the Sunder Armor effect.  In addition, causes $s2% of weapon damage plus $s3 for each application of Sunder Armor on the target.  The Sunder Armor effect can stack up to $u times.",Armor decreased by $s1.
 20244,Rank 1,Increases the effect of your Blessing of Wisdom spell by $s1%.,
 20245,Rank 2,Increases the effect of your Blessing of Wisdom spell by $s1%.,
 20249,Rank 1,Increases the critical effect chance of your Flash of Light spell by $s1%.,
@@ -15642,7 +15644,7 @@ $s2 Nature damage inflicted every $t2 sec."
 20704,Rank 5,,
 20705,,"When the victim of a critical hit in combat, $s1% chance to be sheathed in a magical shield absorbing the next $20706s1 damage.",
 20706,Rank 7,"Draws on the soul of the target to shield them, absorbing $s1 damage.  Lasts $d.  While the shield holds, spellcasting will not be interrupted by damage.  Once shielded, the target cannot be shielded again for $6788d.",Absorbs damage.
-20707,,"Stores the friendly target's soul.  If the target dies while his soul is stored, he will be able to resurrect with $3026s1 health and $3026q1 mana.",Soul is stored.
+20707,,"Stores the friendly target's soul.  If the target dies while their soul is stored, they will be able to resurrect with $3026s1 health and $3026q1 mana.",Soul is stored.
 20708,,,
 20709,,Allows opening of hard locks.  The skeleton key is consumed in the process.,
 20710,,+$s1% chance to resist Fear spells and effects.,
@@ -15702,10 +15704,10 @@ Conjured items disappear if logged out for more than 15 minutes.",
 20759,,,
 20760,,,
 20761,,,
-20762,,"Stores the friendly target's soul.  If the target dies while his soul is stored, he will be able to resurrect with $20758s1 health and $20758q1 mana.",Soul is stored.
-20763,,"Stores the friendly target's soul.  If the target dies while his soul is stored, he will be able to resurrect with $20759s1 health and $20759q1 mana.",Soul is stored.
-20764,,"Stores the friendly target's soul.  If the target dies while his soul is stored, he will be able to resurrect with $20760s1 health and $20760q1 mana.",Soul is stored.
-20765,,"Stores the friendly target's soul.  If the target dies while his soul is stored, he will be able to resurrect with $20761s1 health and $20761q1 mana.",Soul is stored.
+20762,,"Stores the friendly target's soul.  If the target dies while their soul is stored, they will be able to resurrect with $20758s1 health and $20758q1 mana.",Soul is stored.
+20763,,"Stores the friendly target's soul.  If the target dies while their soul is stored, they will be able to resurrect with $20759s1 health and $20759q1 mana.",Soul is stored.
+20764,,"Stores the friendly target's soul.  If the target dies while their soul is stored, they will be able to resurrect with $20760s1 health and $20760q1 mana.",Soul is stored.
+20765,,"Stores the friendly target's soul.  If the target dies while their soul is stored, they will be able to resurrect with $20761s1 health and $20761q1 mana.",Soul is stored.
 20766,,,
 20767,,,
 20768,,,
@@ -17979,7 +17981,7 @@ Felhunter - Increases all resistances by 1 per level.",
 23900,Rank 4,,
 23918,,"Inflicts normal damage plus $s1 on nearby enemies, preventing them from spellcasting for $d.",Cannot cast spells.
 23919,,"Inflicts normal damage plus $s1 to enemies in a cone in front of the caster, stunning them for $d.",Stunned.
-23920,,A passive ability that grants a $s1% chance to reflect spells while a shield is equipped.,
+23920,,"Raise your shield, reflecting the next spell cast on you.  Lasts $d.",Reflects the next spell cast on you.
 23921,,A passive ability that grants a $s1% chance to reflect spells while a shield is equipped.,
 23922,Rank 1,"Slam the target with your shield, causing $s2 damage, modified by your shield block value, and has a 50% chance of dispelling $s1 magic effect on the target.  Also causes a high amount of threat.",
 23923,Rank 2,"Slam the target with your shield, causing $s2 damage, modified by your shield block value, and has a 50% chance of dispelling $s1 magic effect on the target.  Also causes a high amount of threat.",
@@ -18162,7 +18164,7 @@ Armor reduced by $s2."
 24128,,Teaches you how to craft Primal Batskin Bracers.,
 24129,,Teaches you how to craft a Blood Tiger Breastplate.,
 24130,,Teaches you how to craft a Blood Tiger Shoulders.,
-24131,Rank 1,,$s1 Nature damage every $t1 seconds.
+24131,Rank 1,"A stinging shot that puts the target to sleep for $19386d.  Any damage will cancel the effect.  When the target wakes up, the Sting causes $24131o1 Nature damage over $24131d.  Only one Sting per Hunter can be active on the target at a time.",$s1 Nature damage every $t1 seconds.
 24132,Rank 2,"A stinging shot that puts the target to sleep for $d.  Any damage will cancel the effect.  When the target wakes up, the Sting causes $24134o1 Nature damage over $24134d.  Only usable out of combat.  Only one Sting per Hunter can be active on the target at a time.",Asleep.
 24133,Rank 3,"A stinging shot that puts the target to sleep for $d.  Any damage will cancel the effect.  When the target wakes up, the Sting causes $24135o1 Nature damage over $24135d.  Only usable out of combat.  Only one Sting per Hunter can be active on the target at a time.",Asleep.
 24134,Rank 2,,$s1 Nature damage every $t1 seconds.
@@ -22137,6 +22139,8 @@ $h% chance to spread Retching Plague on hit."
 31954,,,
 32061,,,
 32309,,"Shoots poison at an enemy, inflicting Nature damage, then additional damage every $t2 sec. for $d.",Nature damage inflicted every $t2 sec.
+41637,,,
+42896,Rank 3,"Blasts the target with energy, dealing $s1 Arcane damage.  Each time you cast Arcane Blast, the damage of all Arcane spells is increased by $36032s1% and mana cost of Arcane Blast is increased by $36032s2%.  Effect stacks up to $36032u times and lasts $36032d or until any Arcane damage spell except Arcane Blast is cast.",
 43680,,Your teammates have reported you for laziness!  Enter PvP combat or you will be marked Inactive and unable to receive Honor Points.,Your teammates have reported you for laziness!  Enter PvP combat or you will be marked Inactive and unable to receive Honor Points.
 43681,,"Cannot receive Honor Points until you enter PvP combat.
 You will be kicked from the battleground if you remain Inactive.","Cannot receive Honor Points until you enter PvP combat.
@@ -22198,7 +22202,8 @@ $@null",
 349863,,Restores your suspended world effects.,
 349981,,,"World effects suspended:
 
-$?$W1!=0[$@spelldesc348779 $@spellicon22817 $@spellname22817 (${$w1/60}m)][]$?$W2!=0[$@spelldesc348779 $@spellicon22818 $@spellname22818 (${$w2/60}m)][]$?$W3!=0[$@spelldesc348779 $@spellicon22820 $@spellname22820 (${$w3/60}m)][]$?$W4!=0[$@spelldesc348779 $@spellicon22888 $@spellname22888 (${$w4/60}m)][]$?$W5!=0[$@spelldesc348779 $@spellicon16609 $@spellname16609 (${$w5/60}m)][]$?$W6!=0[$@spelldesc348779 $@spellicon24425 $@spellname24425 (${$w6/60}m)][]$?$W7!=0[$@spelldesc348779 $@spellicon15366 $@spellname15366 (${$w7/60}m)][]$?$W8!=0[$@spelldesc348779 $@spellicon23768 $@spellname353694 (${$w8/60}m)][]
+$?$W1!=0[$@spelldesc348779 $@spellicon22817 $@spellname22817 (${$w1/60}m)][]$?$W2!=0[$@spelldesc348779 $@spellicon22818 $@spellname22818 (${$w2/60}m)][]$?$W3!=0[$@spelldesc348779 $@spellicon22820 $@spellname22820 (${$w3/60}m)][]$?$W4!=0[$@spelldesc348779 $@spellicon22888 $@spellname22888 (${$w4/60}m)][]$?$W5!=0[$@spelldesc348779 $@spellicon16609 $@spellname16609 (${$w5/60}m)][]$?$W6!=0[$@spelldesc348779 $@spellicon24425 $@spellname24425 (${$w6/60}m)][]$?$W7!=0[$@spelldesc348779 $@spellicon15366 $@spellname15366 (${$w7/60}m)][]$?$W8!=0[$@spelldesc348779 $@spellicon23768 $@spellname353694 (${$w8/60}m)][]$?$W10!=0[$@spelldesc348779 $@spellicon430947 $@spellname430947 (${$w10/60}m)][]
+
 
 While a world effect is suspended, you cannot benefit from it."
 350025,,"Launches a bolt of frost at the enemy, causing $s2 Frost damage and slowing movement speed by $s1% for $d.",Movement slowed by $s1%.
@@ -22672,24 +22677,2374 @@ Health increased by $s2%."
 384135,,"Grants all raid members the chance to discover additional rewards from Kel'Thuzad and his lieutenants.
 
 This effect stacks and lasts for an entire week.",
+398061,,Gain 1 combo point whenever you avoid any attack or spell from an enemy target that is not your current target.,
+398115,,Take $s3% damage to remove a disease or poison effect from yourself.,
+398117,,"Open the bag of treats and palm it into your target's pocket, increasing the damage of Beasts against this target by $s2.",Smells delicious!  Beasts deal $s2 extra damage.
+398196,,"Draw your ranged weapon and fire a quick shot at an enemy, causing normal ranged weapon damage and reducing the target's movement speed by $s2% for $d. Awards $s3 combo $lpoint:points;.
+
+Quick Draw benefits from all talents and effects that trigger from or modify Sinister Strike.
+",Movement speed reduced by $s2%.
+398197,,"Gain the Quick Draw ability:
+
+$@spellicon398196
+$@spelldesc398196",
+398198,,"Finishing move that increases parry chance. Lasts longer and increases parry chance per combo point:
+   1 point  : 10 seconds, 12% Parry
+   2 points: 15 seconds, 14% Parry
+   3 points: 20 seconds, 16% Parry
+   4 points: 25 seconds, 18% Parry
+   5 points: 30 seconds, 20% Parry",Melee attack speed increased by $w2%.
+398199,,,
+398538,,Permanently enchant bracers so that the defense skill of the wearer is increased by 1.,
+398603,,Affix powerful runes to your armor.,
+398604,,,
+398608,Rank 1,"Coats a weapon with poison that lasts for 30 minutes.
+Each strike has a $h% chance of poisoning the enemy, slowing their movement speed by $3409s1% for $3409d.",
+398609,Rank 1,"Coats a weapon with poison that lasts for 30 minutes.
+Each strike has a 30% chance of poisoning the enemy, slowing their movement speed by $3409s1% for $3409d.",
+399699,,Increase critical chance on a helm by 2% for 30 minutes.,
+399954,,Equip a Chest slot item with a Rune engraved to activate an ability in this slot.,
+399956,,"Instantly attacks with both weapons for 100% weapon damage plus an additional ${$399960m1/100*$<base>} with each weapon.  Damage is increased by 20% against Poisoned targets.  Awards 2 combo points.
+
+Mutilate benefits from all talents and effects that trigger from or modify Backstab unless otherwise specified.",
+399960,,Instantly attacks with both weapons for 100% weapon damage plus additional ${$399960m1/100*$<base>} with each weapon.  Damage is increased by 20% against Poisoned targets.  Awards 2 combo points.,
+399961,,Instantly attacks with both weapons for 100% weapon damage plus additional $${$399960m1/100*$<base>} with each weapon.  Damage is increased by 20% against Poisoned targets.  Awards 2 combo points.,
+399962,,"Gain the Mutilate ability:
+
+$@spellicon399956
+$@spelldesc399956",
+399963,,"Finishing move that deals instant poison damage based on your Deadly Poison doses on the target.  Following the Envenom attack you have a $s2% increased frequency of applying Instant Poison for 1 sec plus an additional 1 sec per combo point. One dose is activated per combo point:
+  1 dose:  ${($<base>*$m1/100)*1+$AP*0.09} damage
+  2 doses: ${($<base>*$m1/100)*2+$AP*0.18} damage
+  3 doses: ${($<base>*$m1/100)*3+$AP*0.27} damage
+  4 doses: ${($<base>*$m1/100)*4+$AP*0.36} damage
+  5 doses: ${($<base>*$m1/100)*5+$AP*0.45} damage",Chance to apply Instant Poison increased by $s2%.
+399965,,"When you inflict any other poison on a target, you also inflict Deadly Poison.",
+399966,,Equip a Legs slot item with a Rune engraved to activate an ability in this slot.,
+399967,,Equip a Hands slot item with a Rune engraved to activate an ability in this slot.,
+399968,,"Gain the Envenom ability:
+
+$@spellicon399963
+$@spelldesc399963",
+399969,,"Gain the Deadly Brew ability:
+
+$@spellicon399965
+$@spelldesc399965",
+399985,,"Teleport behind your target and strike, causing $s3% weapon damage to the target.  Must be stealthed.  Awards $s4 combo $lpoint:points;.",
+400009,,"Ranged Finishing move that causes damage per combo point, increased by Attack Power, and Stuns the target:
+
+   1 point:   ${$m1/100*($<base>+$<percombo>)} to ${$M1/100*($<base>+$<percombo>)} damage, 1 sec Stun
+   2 points: ${$m1/100*($<base>+$<percombo>*2)} to ${$M1/100*($<base>+$<percombo>*2)} damage, 2 sec Stun
+   3 points: ${$m1/100*($<base>+$<percombo>*3)} to ${$M1/100*($<base>+$<percombo>*3)} damage, 3 sec Stun
+   4 points: ${$m1/100*($<base>+$<percombo>*4)} to ${$M1/100*($<base>+$<percombo>*4)} damage, 4 sec Stun
+   5 points: ${$m1/100*($<base>+$<percombo>*5)} to ${$M1/100*($<base>+$<percombo>*5)} damage, 5 sec Stun
+
+Cooldown shared with Kidney Shot.",Stunned.
+400012,,"Finishing move that increases your Parry chance.  Lasts longer and grants more Parry chance per combo point:
+
+   1 point  : 14 seconds, 6% Parry
+   2 points: 18 seconds, 7% Parry
+   3 points: 22 seconds, 8% Parry
+   4 points: 26 seconds, 9% Parry
+   5 points: 30 seconds, 10% Parry",Parry chance increased by $w2%.$?$w3<0[ Physical damage taken reduced by $w3%.][]
+400014,,"You take $s1% reduced Physical damage while Blade Dance is active. Additionally, you have $s3% reduced chance to be critically hit by melee attacks, the threat generated by all your actions is massively increased, and your Feint ability is replaced with Tease, which Taunts the target to attack you.
+
+$@spellicon410412
+$@spelldesc410412",
+400024,,"Any attack which would otherwise kill you will instead reduce you to 10% of your maximum health. In addition, all damage taken will be reduced by up to $400024s1% for $400024d.  This effect cannot occur more than once per minute.",All damage taken reduced by $s1%.
+400031,,"Gain the Shadowstrike ability:
+
+$@spellicon399985
+$@spelldesc399985",
+400033,,"Gain the Between the Eyes ability:
+
+$@spellicon400009
+$@spelldesc400009",
+400038,,"Gain the Blade Dance ability:
+
+$@spellicon400012
+$@spelldesc400012",
+400039,,"Gain the Just a Flesh Wound ability:
+
+$@spellicon400014
+$@spelldesc400014",
+400080,,"Engrave your chest or robe with the Deadly Brew rune:
+
+$@spellicon399965
+$@spelldesc399965",
+400081,,"Engrave your pants with the Between the Eyes rune:
+
+$@spellicon400009
+$@spelldesc400009",
+400082,,"Engrave your chest or robe with the Just a Flesh Wound rune:
+
+$@spellicon400014
+$@spelldesc400014",
+400094,,"Engrave your gloves with the Mutilate rune:
+
+$@spellicon399956
+$@spelldesc399956",
+400095,,"Engrave your chest or robe with the Quick Draw rune:
+
+$@spellicon398196
+$@spelldesc398196",
+400099,,"Engrave your pants with the Blade Dance rune:
+
+$@spellicon400012
+$@spelldesc400012",
+400102,,"Engrave your pants with the Envenom rune:
+
+$@spellicon399963
+$@spelldesc399963",
+400105,,"Engrave your gloves with the Shadowstrike rune:
+
+$@spellicon399985
+$@spelldesc399985",
+400573,,"Blasts the target with energy, dealing Arcane damage.  Each time you cast Arcane Blast, the damage and healing of all other Arcane spells is increased by $400573s1% and mana cost of Arcane Blast is increased by $400573s2%.  Effect stacks up to $400573u times and lasts $400573d.",Arcane spell damage and healing from all spells but Arcane Blast increased by $s1% and mana cost of Arcane Blast increased by $s2%.
+400574,,"Blasts the target with energy, dealing ${$<power>*$m1/100} to ${$<power>*$M1/100} Arcane damage.  Each time you cast Arcane Blast, the damage and healing of all other Arcane spells is increased by $400573s1% and mana cost of Arcane Blast is increased by $400573s2%.  Effect stacks up to $400573u times and lasts $400573d or until any other Arcane damage or healing spell is cast.",
+400586,,"Blasts the target with energy, dealing Arcane damage.  Each time you cast Arcane Blast, the damage of all other Arcane spells is increased by $400573s1% and mana cost of Arcane Blast is increased by $400573s2%.  Effect stacks up to $400573u times and lasts $400573d.",Non-Arcane Blast Arcane spell damage increased by $s1% and mana cost of Arcane Blast increased by $s2%.
+400613,,"The target becomes a Living Bomb, taking ${$<power>*$400613m1/100*4} Fire damage over $d.  After $d or when the spell is dispelled, the target explodes dealing ${$<power>*$400614m1/100} Fire damage to all enemies within $400614a1 yards","Causes $w1 Fire damage every $t1 sec.  After $d or when the spell is dispelled, the target explodes causing ${$<power>*$400614m1/100} Fire damage to all enemies within $400614a1 yards."
+400614,,"The target becomes a Living Bomb, taking ${$<power>*$400613m1/100*4} Fire damage over $d.  After $d or when the spell is dispelled, the target explodes dealing ${$<power>*$400614m1/100} Fire damage to all enemies within $400614a1 yards.",
+400616,Rank 3,Blasts the enemy for $s1 Fire damage.,
+400618,Rank 1,Blasts the enemy for $s1 Fire damage.,
+400619,Rank 2,Blasts the enemy for $s1 Fire damage.,
+400620,Rank 4,Blasts the enemy for $s1 Fire damage.,
+400621,Rank 5,Blasts the enemy for $s1 Fire damage.,
+400622,Rank 6,Blasts the enemy for $s1 Fire damage.,
+400623,Rank 7,Blasts the enemy for $s1 Fire damage.,
+400640,,Deals ${$<power>*$m1/100} to ${$<power>*$M1/100} Frost damage to an enemy target.  Causes triple damage against Frozen targets.,
+400647,,"Gives your Chill effects a $s1% chance to grant you the Fingers of Frost effect, which treats your next $400669s1 spells cast as if the target were Frozen.  Lasts $400669d.",
+400669,,"Gives your Chill effects a chance to grant you the Fingers of Frost effect, which treats your next spells cast as if the target were Frozen.  Lasts $d.",Your next $s1 spells treat the target as if it were Frozen.
+400670,,"Gives your Chill effects a chance to grant you the Fingers of Frost effect, which treats your next spells cast as if the target were Frozen.  Lasts $d.",Your spells treat the target as if it were Frozen. $s1 $Lcharge:charges;.
+400730,,Your next Fireball or Frostfire Bolt spell is instant and costs no mana.,Your next Fireball or Frostfire Bolt spell is instant and costs no mana.
+400735,,Records the subject's space-time position. $s4% of all Arcane damage done by the caster will be converted to chronomantic healing and divided among the caster's current Temporal Beacon targets.,Records the subject's position in time and space. Damage done by caster will be result in this subject receiving chronomantic healing.$?$w1>0[ Healing for $w1 health per sec.][]
+401405,,,
+401417,,"Heals the target for ${$<healpower>*$m1/100*3} health over $d and applies Temporal Beacon for $400735s3 sec. After casting this spell, you will suffer from Tangled Causality for $432069d, reducing your Fire and Frost spell damage done by $432069s1% and preventing the use of Ice Block.
+
+Temporal Beacon
+$@spellicon400735
+$@spelldesc400735",Healing ${$w1*3} health over $d.
+401460,,"Heals the target for ${$<healpower>*$m1/100*3} health over $d and applies Temporal Beacon for ${$400735m3*2/3} sec.
+
+$@spellicon400735
+$@spelldesc400735",Healing ${$w1*3} health over $d.
+401462,,Your current target with your Temporal Beacon instantly heals all damage taken over the last $s1 seconds. Ineffective on targets that did not have a Temporal Beacon $s1 seconds ago.,
+401488,,"Engrave your pants with the Shadowstrike rune:
+
+$@spellicon399985
+$@spelldesc399985",
+401489,,,
+401495,,,
+401556,,"Summons a spellfire flame that moves toward the target, leaving a trail of spellfire. This trail deals ${$<power>*$401558m1/100} Spellfire damage every second to nearby enemies. Lasts $d.",
+401558,,Deals ${$<power>*$m1/100} Fire damage every $t1 sec.,Deals $w1 Fire damage every $t1 sec.
+401559,,,
+401617,,Dig up treasure at the marked location,
+401645,,Teaches you how to enchant your gear with Rune A.,
+401681,,Decipher the spell notes with a Comphrehension Primer to learn a new Engraving spell.,
+401683,,Attempt to translate the spell notes into a new runecarving recipe.,
+401684,,Attempt to translate the spell notes into a new runecarving recipe.,
+401699,,Combine 8 Azora Apprentice Notes to discover a new runecarving recipe.,
+401729,,"Gain the Arcane Blast ability:
+
+$@spellicon400574
+$@spelldesc400574",
+401731,,"Gain the Living Bomb ability:
+
+$@spellicon400613
+$@spelldesc400613",
+401732,,"Gain the Ice Lance ability:
+
+$@spellicon400640
+$@spelldesc400640",
+401734,,"Gain the Rewind Time ability:
+
+$@spellicon401462
+$@spelldesc401462",
+401741,,"Gain the Fingers of Frost ability:
+
+$@spellicon400647
+$@spelldesc400647",
+401743,,"Gain the Regeneration ability:
+
+$@spellicon401417
+$@spelldesc401417",
+401744,,"Gain the Living Flame ability:
+
+$@spellicon401556
+$@spelldesc401556",
+401757,,"Engrave your gloves with the Arcane Blast rune:
+
+$@spellicon400574
+$@spelldesc400574",
+401759,,"Engrave your chest with the Burnout rune:
+
+$@spellicon412286
+$@spelldesc412286",
+401760,,"Engrave your gloves with the Ice Lance rune:
+
+$@spellicon400640
+$@spelldesc400640",
+401761,,"Engrave your gloves with the Rewind Time rune:
+
+$@spellicon401462
+$@spelldesc401462",
+401765,,"Engrave your chest or robe with the Fingers of Frost rune:
+
+$@spellicon400647
+$@spelldesc400647",
+401767,,"Engrave your chest or robe with the Regeneration rune:
+
+$@spellicon401417
+$@spelldesc401417",
+401768,,"Engrave your pants with the Living Flame rune:
+
+$@spellicon401556
+$@spelldesc401556",
+401798,,,
+401847,,Combine with 3 other pieces to make the full map.,
+401859,,"Places a spell on the target that heals them for ${$<healpower>*$m1/100} the next time they take damage or receive healing.  When the heal occurs, Prayer of Mending jumps to a party or raid member within $401880a1 yards.  Jumps up to $s2 times and lasts $401877d after each jump.  This spell can only be placed on one target at a time.
+",
+401863,,"Places a spell on the target that heals them the next time they take damage.  When the heal occurs, Prayer of Mending jumps to a party or raid member within $41635a1 yards. Jumps up to $48113n times and lasts $48111d after each jump. This spell can only be placed on one target at a time.
+",
+401877,,"Places a spell on the target that heals them the next time they take damage or receive healing.  When the heal occurs, Prayer of Mending jumps to a party or raid member within $a1 yards.  Jumps up to $n times and lasts $d after each jump.  This spell can only be placed on one target at a time.",
+401880,,,
+401882,,,
+401946,,Heals all of target player's party members within $a1 yards of target player for ${$<healpower>*$m1/100} to ${$<healpower>*$M1/100}.,
+401955,,"A word of dark binding that inflicts ${$<damagepower>*$m1/100} to ${$<damagepower>*$M1/100} Shadow damage to the target.  If the target is not killed by Shadow Word: Death, the caster takes damage equal to the damage inflicted upon the target.",
+401956,,,Encased in a quickly-regenerating block of ice.
+401962,,"A word of dark binding that inflicts Shadow damage to the target.  If the target is not killed by Shadow Word: Death, the caster takes damage equal to the damage inflicted upon the target.",
+401969,,Your Shadow Word: Pain now also afflicts up to ${$m1-1} additional nearby targets within $s2 yards.,
+401980,,,
+401981,,,Still not hot enough!  More heat!
+401984,,"The Shadowfiend's melee attacks siphon energy from the target, converting it into mana for its master.",Converts Shadow damage to mana.
+401988,,"The Shadowfiend's melee attacks siphon energy from the target, converting it into mana for its master.",
+401990,,"Crawls through the shadows to the target enemy, and increases damage done by the Shadowfiend by $s2% for $d.",Damage increased by $s2%.
+401991,,,
+402010,,Transformed back into its normal form.,Transformed back into its normal form.
+402069,,,
+402174,,"Launches a volley of holy light at the target, causing ${$<damagepower>*$402284m1/100} Holy damage to an enemy, or ${$<healpower>*$402289m1/100} healing to an ally, instantly and every $402261t2 sec for $402261d.",
+402261,,,
 402265,,,
+402277,,,
+402284,,"Launches a volley of holy light at the target, causing ${$<damagepower>*$402284m1/100} Holy damage to an enemy, or ${$<healpower>*$402289m1/100} healing to an ally, instantly and every $402261t2 sec for $402261d.",
+402289,,"Launches a volley of holy light at the target, causing ${$<damagepower>*$402284m1/100} Holy damage to an enemy, or ${$<healpower>*$402289m1/100} healing to an ally, instantly and every $402261t2 sec for $402261d.",
+402308,,Decipher the spell notes with a Comprehension Charm to learn a new Engraving spell.,
+402311,,Decipher the spell notes with a Comprehension Charm to learn a new Engraving spell.,
+402319,,Combine 6 Azora Apprentice Notes to create a new runecarving recipe.,
+402362,,,Healing done increased by $s1%.
+402368,,,Spell damage done increased by $s1%.
+402392,,,
+402686,,,This creature has been transformed.
+402755,,,
+402760,,,
+402790,,"Hurls a bolt of dark magic at an enemy, inflicting Shadow damage.",
+402791,,"Curses the target for $d, reducing Shadow and Arcane resistances by $s1 and increasing Shadow and Arcane damage taken by $s2%.  Only one Curse per Warlock can be active on any one target.",Shadow and Arcane resistances reduced by $s1.  Shadow and Arcane damage taken increased by $s2%.
+402792,,"Curses the target for $d, reducing Fire and Frost resistances by $s1 and increasing Fire and Frost damage taken by $s2%.  Only one Curse per Warlock can be active on any one target.",Reduces Fire and Frost resistances by $s1.  Increases Fire and Frost damage taken by $s2%.
+402794,,"Forces the target to speak in Demonic, slowing the casting time of all spells by $s1%.  Only one Curse per Warlock can be active on any one target.  Lasts $d.",Speaking Demonic increasing casting time by $s1%.
+402799,,"Break off splinters of your soul to animate $s1 miniature copies of yourself that attempt to attack your current target with a mace, sword, and axe, reducing the attack speed, attack power, and armor respectively of any target they hit.",
+402801,,"Animate $s1 skeletons that attack your current target with a mace, sword, and axe, reducing the target's attack speed, attack power, and armor respectively.",
+402802,,"Animate $s1 skeletons that attack your current target with a mace, sword, and axe, reducing the target's attack speed, attack power, and armor respectively.",
+402808,,Increases the time between an enemy's attacks by $s1%. Lasts $d.,Time between attacks increased by $s1%.
+402811,,Reduces the target's Attack Power by $s1. Lasts $d.,Attack Power decreased by $s1.
+402818,,Reduces an enemy's armor by $s1. Lasts $d.,Armor decreased by $s1.
+402832,,"Gain the Prayer of Mending ability:
+
+$@spellicon401859
+$@spelldesc401859",
+402833,,"Gain the Shadow Word: Death ability:
+
+$@spellicon401955
+$@spelldesc401955",
+402836,,"Gain the Homunculi ability:
+
+$@spellicon402799
+$@spelldesc402799",
+402838,,"Gain the Shared Pain ability:
+
+$@spellicon401969
+$@spelldesc401969",
+402842,,"Gain the Circle of Healing ability:
+
+$@spellicon401946
+$@spelldesc401946",
+402844,,"Gain the Penance ability:
+
+$@spellicon402174
+$@spelldesc402174",
+402848,,"Engrave your pants with the Prayer of Mending rune:
+
+$@spellicon401859
+$@spelldesc401859",
+402849,,"Engrave your gloves with the Shadow Word: Death rune:
+
+$@spellicon401955
+$@spelldesc401955",
+402852,,"Engrave your pants with the Homunculi rune:
+
+$@spellicon402799
+$@spelldesc402799",
+402854,,"Engrave your pants with the Shared Pain rune:
+
+$@spellicon401969
+$@spelldesc401969",
+402859,,"Engrave your gloves with the Circle of Healing rune:
+
+$@spellicon401946
+$@spelldesc401946",
+402862,,"Engrave your gloves with the Penance rune:
+
+$@spellicon402174
+$@spelldesc402174",
+402877,,Gain a $402906s1% bonus to Physical damage done for $402906d after activating Bloodrage or Berserker Rage.,
+402906,,,Physical damage done increased by $s1%.
+402911,,"A ferocious strike that deals $s1% weapon damage, but can only be used while Enrage, Berserker Rage, or Bloodrage is active.",
+402927,,Instantly attack the target causing ${1+$AP*$m3/100} damage and healing you for $s2% of your maximum health.  Only useable within $402975d after you kill an enemy that yields experience or honor.,
+402974,,,
+402975,,Follows killing an enemy.,
+403172,,,
+403195,,"While you are in Defensive Stance and have a shield equipped, Sunder Armor also deals $403196s1% weapon damage, increased by $403196s2% per application of Sunder Armor already on the target.",
+403196,,"Sunder Armor also deals $s1% weapon damage, increased by $s2% per application of Sunder Armor already on the target.",
+403218,,You generate $s1% more Rage from all damage you deal.,
+403219,,Thunder Clap now increases the time between attacks by an additional $s1% and can be used in any stance.,
+403332,,Fire at the target for $s2% ranged weapon damage. Generates ${$m3/10} Rage.,Silenced.
+403344,,"Gain the Flagellation ability:
+
+$@spellicon402877
+$@spelldesc402877",
+403349,,"Gain the Endless Rage ability:
+
+$@spellicon403218
+$@spelldesc403218",
+403352,,"Gain the Blood Frenzy ability:
+
+$@spellicon412507
+$@spelldesc412507",
+403355,,"Gain the Devastate ability:
+
+$@spellicon403195
+$@spelldesc403195",
+403356,,"Gain the Furious Thunder ability:
+
+$@spellicon403219
+$@spelldesc403219",
+403434,,"Gain the Victory Rush ability:
+
+$@spellicon402927
+$@spelldesc402927",
+403470,,"Engrave your gloves with the Victory Rush rune:
+
+$@spellicon402927
+$@spelldesc402927",
+403474,,"Engrave your chest with the Blood Frenzy rune:
+
+$@spellicon412507
+$@spelldesc412507",
+403475,,"Engrave your gloves with the Devastate rune:
+
+$@spellicon403195
+$@spelldesc403195",
+403476,,"Engrave your pants with the Furious Thunder rune:
+
+$@spellicon403219
+$@spelldesc403219",
+403480,,"Engrave your chest with the Flagellation rune:
+
+$@spellicon402877
+$@spelldesc402877",
+403489,,"Engrave your gloves with the Endless Rage rune:
+
+$@spellicon403218
+$@spelldesc403218",
+403501,,"Unleash a ghostly soul on an enemy, dealing ${$<power>*$m1/100} to ${$<power>*$M1/100} damage, and increasing all Shadow damage over time you deal to that target by $s2%. When the Haunt ends or is dispelled, you will be healed for all the damage it dealt to your target.",Damage taken from Shadow damage over time effects from the caster increased by $s2%.
+403506,,,
+403511,,"Increases the amount drained by your Drain Life and Drain Soul spells by an additional $s1% for each of your Warlock Shadow effects afflicting the target, up to a maximum of ${3*$m1}% additional effect.",
+403628,,"Your Shadow Bolt now strikes up to $s1 targets within a chain distance of $s2 yards, but for $s3% reduced damage.",
+403629,,"Sends a bolt of chaotic fire at the enemy, dealing ${$<power>*$m1/100} to ${$<power>*$M1/100} Fire damage.  Chaos Bolt always hits, cannot be resisted, and its knowledge causes all your Fire spells to pierce through absorption effects.",
+403630,,,
+403650,,Rain of Fire also leaves a Lake of Fire on the ground that increases all Fire damage you deal and your Demon pet deals to affected enemies by $s1%.,Fire damage taken increased by $s1%.
+403666,,Rain of Fire also leaves a Lake of Fire on the ground that increases all Fire damage you deal and your Demon pet deals to affected enemies by $403650s1% for $403650d.,
+403668,,"Your Drain Life is no longer channeled, lasts $403677d with a $403677d cooldown, costs $s2% more mana, and heals you for $s1% more each time it deals damage.",
+403677,Rank 1,Transfers $s1 health every second from the target to the caster.  Lasts $d.,Drains $s1 health each second to the caster.
+403680,,,
+403683,,,
+403685,Rank 2,Transfers $s1 health every second from the target to the caster.  Lasts $d.,Drains $s1 health each second to the caster.
+403686,Rank 3,Transfers $s1 health every second from the target to the caster.  Lasts $d.,Drains $s1 health each second to the caster.
+403687,Rank 4,Transfers $s1 health every second from the target to the caster.  Lasts $d.,Drains $s1 health each second to the caster.
+403688,Rank 5,Transfers $s1 health every second from the target to the caster.  Lasts $d.,Drains $s1 health each second to the caster.
+403689,Rank 6,Transfers $s1 health every second from the target to the caster.  Lasts $d.,Drains $s1 health each second to the caster.
+403789,Shapeshift,"Transform into a Demon, increasing Armor by $403816s1%, reducing the chance you will be critically hit by $403816s2%, increasing your threat by $403816s3%, increasing mana gained from Life Tap by $403816s4%, transforming the functionality of some of your abilities, and granting some new abilities:
+
+Searing Pain: Now instant.
+
+Shadow Bolt: Becomes Shadow Cleave, a Shadow melee attack that hits up to $403835x1 nearby enemies, but has a $s6 sec cooldown.
+
+Curse of Recklessness: Now also taunts your target to attack you for $403828d, but gains a ${$m4/1000} sec cooldown and range is reduced to melee.
+
+
+Demon Charge
+
+$@spellicon412788
+$@spelldesc412788
+
+
+Demonic Howl
+
+$@spellicon412789
+$@spelldesc412789","Armor increased by $403816s1%, chance to be critically hit reduced by $403816s2%, threat increased by $403816s3%, mana gained from Life Tap increased by $403816s4%, some abilities modified, and some new abilities granted."
+403816,Shapeshift,"Transform into a Demon, increasing Armor by $s1%, reducing the chance you will be critically hit by $s2%, increasing your threat by $s3%, increasing mana gained from Life Tap by $s4%, and transforming the functionality of some of your abilities:
+
+Searing Pain: Now instant.
+
+Shadow Bolt: Becomes Shadow Cleave, a Shadow melee attack that hits up to $s1 nearby enemies.
+
+Curse of Recklessness: Now also taunts your target to attack you for $d.
+
+Howl of Terror: Now also forces all nearby enemies to attack you for $d, but cooldown increased to 10 minutes.","Armor increased by $s1%, chance to be critically hit reduced by $s2%, threat increased by $s3%, mana gained from Life Tap increased by $s4%, and some abilities modified."
+403828,,"Taunts the target to attack you, but has no effect if the target is already attacking you.",Taunted.
+403835,Rank 1,"Punish up to $x1 nearby enemies with a Shadow lash, dealing $s1 to each.
+
+Shadow Cleave benefits from and triggers most talents and effects that Shadow Bolt benefits from and triggers.",
+403839,Rank 2,"Punish up to $x1 nearby enemies with a Shadow lash, dealing $s1 to each.
+
+Shadow Cleave benefits from and triggers most talents and effects that Shadow Bolt benefits from and triggers.
+",
+403840,Rank 3,"Punish up to $x1 nearby enemies with a Shadow lash, dealing $s1 to each.
+
+Shadow Cleave benefits from and triggers most talents and effects that Shadow Bolt benefits from and triggers.
+",
+403841,Rank 4,"Punish up to $x1 nearby enemies with a Shadow lash, dealing $s1 to each.
+
+Shadow Cleave benefits from and triggers most talents and effects that Shadow Bolt benefits from and triggers.
+",
+403842,Rank 5,"Punish up to $x1 nearby enemies with a Shadow lash, dealing $s1 to each.
+
+Shadow Cleave benefits from and triggers most talents and effects that Shadow Bolt benefits from and triggers.
+",
+403843,Rank 6,"Punish up to $x1 nearby enemies with a Shadow lash, dealing $s1 to each.
+
+Shadow Cleave benefits from and triggers most talents and effects that Shadow Bolt benefits from and triggers.
+",
+403844,Rank 7,"Punish up to $x1 nearby enemies with a Shadow lash, dealing $s1 to each.
+
+Shadow Cleave benefits from and triggers most talents and effects that Shadow Bolt benefits from and triggers.
+",
+403848,Rank 8,"Punish up to $x1 nearby enemies with a Shadow lash, dealing $s1 to each.
+
+Shadow Cleave benefits from and triggers most talents and effects that Shadow Bolt benefits from and triggers.
+",
+403851,Rank 9,"Punish up to $x1 nearby enemies with a Shadow lash, dealing $s1 to each.
+
+Shadow Cleave benefits from and triggers most talents and effects that Shadow Bolt benefits from and triggers.
+",
+403852,Rank 10,"Punish up to $x1 nearby enemies with a Shadow lash, dealing $s1 to each.
+
+Shadow Cleave benefits from and triggers most talents and effects that Shadow Bolt benefits from and triggers.
+",
+403858,,"Gain the Haunt ability:
+
+$@spellicon403501
+$@spelldesc403501",
+403860,,"Gain the Chaos Bolt ability:
+
+$@spellicon403629
+$@spelldesc403629",
+403863,,"Gain the Soul Siphon ability:
+
+$@spellicon403511
+$@spelldesc403511",
+403868,,"Gain the Master Channeler ability:
+
+$@spellicon403668
+$@spelldesc403668",
+403871,,"Gain the Shadow Bolt Volley ability:
+
+$@spellicon403628
+$@spelldesc403628",
+403872,,"Gain the Lake of Fire ability:
+
+$@spellicon403666
+$@spelldesc403666",
+403873,,"Gain the Metamorphosis ability:
+
+$@spellicon403789
+$@spelldesc403789",
+403919,,"Engrave your gloves with the Haunt rune:
+
+$@spellicon403501
+$@spelldesc403501",
+403920,,"Engrave your chest or robe with the Soul Siphon rune:
+
+$@spellicon403511
+$@spelldesc403511",
+403925,,"Engrave your gloves with the Chaos Bolt rune:
+
+$@spellicon403629
+$@spelldesc403629",
+403932,,"Engrave your chest or robe with the Master Channeler rune:
+
+$@spellicon403868
+$@spelldesc403868",
+403936,,"Engrave your gloves with the Shadow Bolt Volley rune:
+
+$@spellicon403871
+$@spelldesc403871",
+403937,,"Engrave your chest or robe with the Lake of Fire rune:
+
+$@spellicon403872
+$@spelldesc403872",
+403938,,"Engrave your gloves with the Metamorphosis rune:
+
+$@spellicon403789
+$@spelldesc403789",
+403993,,,
+404000,,,
+404275,,"Inflicts Frost damage to nearby enemies, immobilizing them for up to $d.",Immobilized.
+404316,,,Movement slowed by $s2%.
+404373,,,
+404433,,,"$s1 damage every $t1 seconds, and increasing the time between attacks by $s2%."
+404805,,,
+404806,,,Unstable particles of water coalesce around your body.
+405092,,Underwater breath is reduced by  $s1%.,You're struggling for air. Underwater breath is reduced by ${$abs($s1)}%.
+405168,,,
+405194,,,
+405303,,,
+405321,,,
+405324,,,
+405325,,Dig up the buried cache at the marked location,
+405360,,,
+405663,,,Protected by nearby elemental energies.
+405688,,,Movement speed increased by rapid underwater currents.
+405695,,,
+405717,,,
+405951,,,
+405953,,,$s1 damage every $t1 seconds.
+405998,,,
+405999,,,
+406112,,,
+406113,,,
+406116,,,
+406599,,,
+406634,,Summons and dismisses a rideable Animated Lobster Molt.,Increases speed by $s2%.
+406651,,Combine with 2 other pieces to make the full rune.,
+406662,,,
+406680,,,Movement slowed by $s2%.
+406731,,,
+406745,,,
+406746,,Blasts all enemies in front of you with pressurized water.,
+406794,,,
+406970,,,Damage taken reduced by 50%.
+406973,,,Damage taken reduced by $s1%.
+406985,,,
+406992,,,
+407010,,,
+407014,,,
+407025,,,"Vulnerable and furious.
+
+Damage taken increased by $s1%.
+Melee haste increased by $s2%."
+407077,,,Unleashes a devastating combo of three Physical attacks in rapid succession.
+407085,,,
+407095,,,Armor reduced by ${$abs($s2)}%.
+407102,,,
+407264,,,
 407501,,,Stunned
+407546,,Frozen solid.,Frozen solid.
+407548,,,Movement speed slowed by $s2%.
+407551,,,
+407553,,,
+407568,,,
+407580,,Summon Soboz,
+407610,,,
+407613,,The target becomes a Beacon of Light to all members of your party or raid within a 60 yard radius.  Any heals you cast on party or raid members will also heal the Beacon for $s1% of the amount healed.  Only one target can be the Beacon of Light at a time. Lasts $d.,Beacon of Light.
+407614,,The target becomes a Beacon of Light to all targets within a 60 yard radius.  Any heals you cast on those targets will also heal the Beacon for $s1% of the amount healed.,The paladin's heals on you also heal the Beacon of Light.
+407615,,The target becomes a Beacon of Light to all targets within a 40 yard radius.  Any heals you cast on those targets will also heal the Beacon for $53563s1% of the amount healed.  Only one target can be the Beacon of Light at a time. Lasts $53563d.,
+407627,,"Increases the threat generated by your Holy spells by $s5% and gives you mana when healed by other friendly targets' spells equal to $s4% of the amount healed. Additionally, damage which takes you below $407627s6% health is reduced by $407627s7%. Lasts $d.
+",Increases the threat generated by your Holy spells by $w5%.
+407628,,Gaining mana from healing received.,
+407631,,"Taunts the target to attack you, but has no effect if the target is already attacking you.
+
+While you know this ability, the threat bonus from Righteous Fury is increased to $407627s5% and Righteous Fury causes you gain mana when healed by others equal to $407627s4% of the amount healed. Additionally, while Righteous Fury is active, damage which takes you below $407627s6% health is reduced by $407627s7%. Righteous Fury will remain active until cancelled.",Taunted.
+407653,,"Strikes an enemy with a lightning bolt that arcs to another nearby enemy. The spell affects up to $x1 targets, causing Nature damage to each.",Static energy fills the air around you.
+407667,,"Strikes an enemy with a lightning bolt that forks to all nearby targets, causing Nature damage to each.",
+407669,,"Hurls a holy shield at the enemy, dealing ${$m1*$<damagepower>/100+0.091*$SPH+0.091*$AP} to ${$M1*$<damagepower>/100+0.091*$SPH+0.091*$AP} Holy damage, Dazing them and then jumping to additional nearby enemies.  Affects $x1 total targets.  Lasts $d.",Dazed.
+407676,,An instant strike that causes $m2% weapon damage and regenerates $s3% of your maximum mana.,
+407720,,"Strikes an enemy with a lightning bolt that arcs to another nearby enemy. The spell affects up to $x1 targets, causing Nature damage to each.",
+407736,,"Strikes an enemy with a lightning bolt that arcs to another nearby enemy. The spell affects up to $x1 targets, causing Nature damage to each.",
+407745,,"Strikes an enemy with a lightning bolt that forks to all nearby targets, causing Nature damage to each.",
+407767,,,Static energy fills the air around you.
+407771,,,
+407774,,,
+407778,,An instant weapon attack that causes $s1% of weapon damage to up to ${$i-1} enemies within $a3 yards.  The Divine Storm heals up to 3 party or raid members totaling $s2% of the damage caused.,
+407782,,Divine Storm damage heals friendly targets.,
+407784,, Divine Storm damage dealt heals nearby friendly targets.,
+407791,,Increases the Physical damage dealt by the caster by $s1 and speeds its attacks by $s2% for $d.,"Physical damage dealt is increased by $s1.
+Attack speed increased by $s2%."
+407794,,Inflicts Physical damage to an enemy every $t1 sec. for $d.,Physical damage inflicted every $t1 sec.
+407798,,"Fills you with holy spirit for $d, causing each of your melee attacks to deal $407799s1% weapon damage to up to $407799i nearby targets, but you lose health equal to $s2% of the damage inflicted. While this seal is active, your party members within $407802a1 yards each gain mana equal to $s2% of all damage you take.
+
+
+Unleashing this Seal's energy will judge an enemy, instantly causing $407803s1% weapon damage at the cost of health equal to $s2% of the damage inflicted.","Melee attacks deal additional damage to $407799i nearby enemies, but also damage you and generate mana for your party."
+407799,,,
+407800,,Seal of Martyrdom damage also damages the Paladin.,
+407802,,Gaining mana from damage received by the Paladin.,
+407803,,,
+407804,,$s1% of all damage taken by party members within $a1 yards is redirected to the Paladin for $d. Damage which reduces the Paladin below $s2% health will break the effect and grant the paladin $407805s1% increased damage and healing done for $407805d.,$s1% of all damage taken by party members redirected to the Paladin.
+407805,,Damage and healing increased after your sacrifice.,All damage and healing caused increased by $s1%.
+407811,,"Inflicts weapon damage plus $s1 to an enemy and its nearest allies, affecting up to $x1 targets.",
+407812,,,Immune to the effects of Freezing Arrow.
+407813,,"Shoots at an enemy, inflicting Physical damage.",
+407819,,"Shoots at an enemy, inflicting Physical damage.",Reduced movement speed.
+407821,,"Shoots at an enemy, inflicting Physical damage.",
+407822,,,
+407880,,Your inspiring presence periodically dispels Fear and Sleep effects on nearby party members.,Periodically dispelling Fear and Sleep effects on nearby party members.
+407881,,Your inspiring presence periodically dispels Fear and Sleep effects on nearby party members.,
+407973,,Extra Attack.,
+407975,,"Party members within $8514a1 yards gain increased combat ferocity.  Each melee hit has a $h% chance of granting the attacker an extra attack with $s1% additional Attack Power. No effect if the party member is already benefitting from Windfury Totem.
+",Chance to gain extra attacks.
+407977,,"While you are in Cat Form, Bear Form, or Dire Bear Form, party members within $407975a1 yards gain increased combat ferocity.  Each melee hit has a $407975h% chance of granting the attacker an extra attack with $407975s1% additional Attack Power. No effect if the party member is already benefitting from Windfury Totem.
+",Chance to gain extra attacks.
+407988,,"Finishing move that increases physical damage done by $s2% while in Cat Form.  Lasts longer per combo point:
+   1 point  : 14 seconds
+   2 points: 19 seconds
+   3 points: 24 seconds
+   4 points: 29 seconds
+   5 points: 34 seconds",Physical damage done increased by $s2%.
+407989,,"Finishing move that increases physical damage done by $s1%.  Lasts longer per combo point:
+   1 point  : 14 seconds
+   2 points: 19 seconds
+   3 points: 24 seconds
+   4 points: 29 seconds
+   5 points: 34 seconds",Physical damage done increased by $s2%.
+407993,Cat,Mangle the target for $s2% normal damage and cause the target to take $s4% additional damage from Bleed effects and Shred for $d.  Awards $s3 combo $lpoint:points;. This ability benefits from and triggers all effects associated with Claw and Maul.,All bleed effects and Shred cause $s4% additional damage.
+407995,Bear,Mangle the target for $s2% normal damage and cause the target to take $s3% additional damage from Bleed effects and Shred for $d. This ability benefits from and triggers all effects associated with Claw and Maul.,All Bleed effects and Shred cause $s3% additional damage.
+408013,,,
+408014,,,
+408030,,,
+408035,,,
+408120,,"Heals all of target player's party members within $a1 yards of target player for ${$m1/100*7*$<healpower>} over $d. The amount healed is applied quickly at first, and slows down as Wild Growth reaches its full duration.",Heals $w1 damage every $t1 second.
+408124,,"Heals the target for ${$m1/100*7*$<healpower>} over $d.  When Lifebloom completes its duration or is dispelled, the target instantly heals for ${$m2/100*$<healpower>} and the Druid regains half the cost of the spell.  This effect can stack up to $u times on the same target.
+",Heals $w1 every second and $w2 when effect finishes or is dispelled.
+408245,,"Heals the target over 7 sec.  When Lifebloom completes its duration or is dispelled, the target instantly heals.  This effect can stack up to 3 times on the same target.",
+408246,,Gaining mana when Lifebloom expires.,
+408307,,Increases your healing power by $s2% of your Nature spell damage for $d.,Healing power increased by $w2.
+408309,,Increases your spell damage by $s2% of the difference between your healing power and spell damage. Lasts $d.,Spell damage increased by $w2.
+408438,,"Gives your Lightning Bolt, Chain Lightning, Chain Heal, Healing Wave, and Lava Burst spells a $h% chance to cast a second, similar spell on the same target at no additional cost that causes half damage or healing and no threat.
+",
+408439,Rank 1,Casts a bolt of lightning at the target for $s1 Nature damage.,
+408440,Rank 2,Casts a bolt of lightning at the target for $s1 Nature damage.,
+408441,Rank 3,Casts a bolt of lightning at the target for $s1 Nature damage.,
+408442,Rank 4,Casts a bolt of lightning at the target for $s1 Nature damage.,
+408443,Rank 5,Casts a bolt of lightning at the target for $s1 Nature damage.,
+408472,Rank 6,Casts a bolt of lightning at the target for $s1 Nature damage.,
+408473,Rank 7,Casts a bolt of lightning at the target for $s1 Nature damage.,
+408474,Rank 8,Casts a bolt of lightning at the target for $s1 Nature damage.,
+408475,Rank 9,Casts a bolt of lightning at the target for $s1 Nature damage.,
+408477,Rank 10,Casts a bolt of lightning at the target for $s1 Nature damage.,
+408479,Rank 1,"Hurls a lightning bolt at the enemy, dealing $s1 Nature damage and then jumping to additional nearby enemies.  Each jump reduces the damage by 30%.  Affects $x1 total targets.",
+408481,Rank 2,"Hurls a lightning bolt at the enemy, dealing $s1 Nature damage and then jumping to additional nearby enemies.  Each jump reduces the damage by 30%.  Affects $x1 total targets.",
+408482,Rank 3,"Hurls a lightning bolt at the enemy, dealing $s1 Nature damage and then jumping to additional nearby enemies.  Each jump reduces the damage by 30%.  Affects $x1 total targets.",
+408484,Rank 4,"Hurls a lightning bolt at the enemy, dealing $s1 Nature damage and then jumping to additional nearby enemies.  Each jump reduces the damage by 30%.  Affects $x1 total targets.",
+408490,,"You hurl molten lava at the target, dealing ${$m1/100*$<damagepower>} to ${$M1/100*$<damagepower>} Fire damage. If your Flame Shock is on the target, Lava Burst will deal a critical strike.",
+408491,,"You hurl molten lava at the target, dealing ${$m1/100*$<damagepower>} to ${$M1/100*$<damagepower>} Fire damage. If your Flame Shock is on the target, Lava Burst will deal a critical strike.",
+408496,,Increases your chance to hit with both spells and melee attacks by $s1% while dual wielding and your Stormstrike ability now hits with both weapons while dual wielding.,
+408501,,,
+408507,,"You charge your off-hand weapon with lava, instantly dealing $s1% off-hand Weapon damage. Damage is increased by $s2% if your off-hand weapon is enchanted with Flametongue.",
+408510,,"The caster is surrounded by $n globes of water, granting $s2% of your maximum mana per 5 sec.  When a spell, melee or ranged attack hits the caster, $408511s1% of maximum mana is restored to the caster. This expends one water globe.  Only one globe will activate every few seconds.  Lasts $d.  Only one Elemental Shield can be active on the Shaman at any one time.
+",$s2% of maximum mana per 5 sec.  Attacks and spells used against you restore $408511s1% of your maximum mana.  $n charges.
+408511,,Gaining mana when hit while Water Shield is active.,
+408514,,"Protects the target with an earthen shield, reducing casting or channeling time lost when damaged by $s2%  and causing attacks to heal the shielded target for $m1.  This effect can only occur once every few seconds.  $n charges.  Lasts $d.  Earth Shield can only be placed on one target at a time and only one Elemental Shield can be active on a target at a time.
+",Reduces casting or channeling time lost when damaged by $s2% and attacks heal the shielded target for $s1.
+408519,,Healed by Earth Shield.,
+408524,,"Each time you Block, you regenerate mana equal to $408525s2% of your maximum mana and you gain Armor equal to $408525s1% of your shield's armor value, stacking up to $408525u times. You also always gain $s1% increased chance to Block and $s2% increased Block value.",
+408525,,"Increases armor by $s1% of your shield's Armor value for $d, stacking up to $u times.",Armor increased by $w1.
+408531,,"While Rockbiter Weapon is active on your main hand weapon, you deal $408680s1% increased threat, gain $408680s2% increased health, take $408680s4% reduced damage, gain $408680s5% reduced chance to be critically hit by melee attacks, and Earth Shock taunts targets to attack you and has a separate cooldown from other Shock spells but has its range reduced to melee range.",
+408680,,"While Rockbiter Weapon is active on your main hand weapon, you deal $s1% increased threat, gain $s2% increased health, take $s4% reduced damage, gain $s5% reduced chance to be critically hit by melee attacks, and Earth Shock taunts targets to attack you and has a separate cooldown from other Shock spells.
+",Dealing $s1% increased threat. Health increased by $s2%. Earth Shock Taunts targets to attack you. $s4% reduced damage taken. $s5% reduced chance to be critically hit by melee attacks.
+408681,Rank 1,"Instantly shocks the target with concussive force, causing $s1 Nature damage.  It also interrupts spellcasting and prevents any spell in that school from being cast for $d.  Causes a high amount of threat and taunts the target.",Taunted.
+408683,Rank 2,"Instantly shocks the target with concussive force, causing $s1 Nature damage.  It also interrupts spellcasting and prevents any spell in that school from being cast for $d.  Causes a high amount of threat and taunts the target.",Taunted.
+408685,Rank 3,"Instantly shocks the target with concussive force, causing $s1 Nature damage.  It also interrupts spellcasting and prevents any spell in that school from being cast for $d.  Causes a high amount of threat and taunts the target.",Taunted.
+408687,Rank 4,"Instantly shocks the target with concussive force, causing $s1 Nature damage.  It also interrupts spellcasting and prevents any spell in that school from being cast for $d.  Causes a high amount of threat and taunts the target.",Taunted.
+408688,Rank 5,"Instantly shocks the target with concussive force, causing $s1 Nature damage.  It also interrupts spellcasting and prevents any spell in that school from being cast for $d.  Causes a high amount of threat and taunts the target.",Taunted.
+408689,Rank 6,"Instantly shocks the target with concussive force, causing $s1 Nature damage.  It also interrupts spellcasting and prevents any spell in that school from being cast for $d.  Causes a high amount of threat and taunts the target.",Taunted.
+408690,Rank 7,"Instantly shocks the target with concussive force, causing $s1 Nature damage.  It also interrupts spellcasting and prevents any spell in that school from being cast for $d.  Causes a high amount of threat and taunts the target.",Taunted.
+408693,,"Taunts the target to attack you, but has no effect if the target is already attacking you.",Taunted.
+408752,,,
+408755,,Offer your blood to power the artifact.,"Decreases all attributes by $s3%, all damage caused by $s3%, armor and resistance by $s4%."
+408793,,,
+408802,,,
+408824,,,
+408828,,,Filled with inspiration.
+408833,,,Filled with inspiration.
+408889,,,
+408916,,,Encased in a quickly-regenerating block of ice.
+408953,,,Building inspiration.
+409064,,,
+409073,,Your melee attacks generate ${$409073m1/10} Rage.,
+409075,,,
+409214,,,
+409215,,,
+409317,,,
+409324,,"For the next $d, $s1% of your damage is converted to healing on up to 3 nearby party, and $s2% of your healing is converted to damage on your most recent Flame Shock target.","Damage converted to healing on nearby party members, and healing converted to damage on Flame Shock target."
+409333,,"For the next $409324d, $409324s1% of your damage is converted to healing on up to 3 nearby party members, and $409324s2% of your healing is converted to damage on your most recent Flame Shock target.",
+409337,,"For the next $409324d, $409324s1% of your damage is converted to healing on up to 3 nearby party members, and $409324s2% of your healing is converted to damage on your most recent Flame Shock target.",
+409365,,,Attack speed.
+409368,,"Your pet's damage and health are increased by $s1%, and its Focus regeneration by $s3%. In addition, your pet's Growl now also Taunts the target to attack it for $409372d.",
+409372,,"Taunts the target to attack you, but has no effect if the target is already attacking you.",Taunted.
+409379,,"Give the command to kill, increasing your pet's damage done from special attacks by ${$409396M1*3}% for $409396d.  Each special attack done by the pet reduces the damage bonus by $409396s1%.",
+409396,,"Give the command to kill, increasing your pet's damage done from special attacks by ${$409396M1*3}% for $409396d.  Each special attack done by the pet reduces the damage bonus by $409396s1%.",Damage done by pet special abilities increased by $s1%.
+409418,,"Give the command to kill, increasing your pet's damage done from special attacks by ${$409396M1*3}% for $409396d.  Each special attack done by the pet reduces the damage bonus by $409396s1%.",Increases damage done by pet special abilities by $409396s1%.
+409423,,,
+409428,,"Increases your critical strike chance by $s1%, and reduces the Mana cost of all your Shot abilities by $s2%.",
+409433,,"You deal $409433s3% weapon damage, refreshing the current Sting on your target and triggering an effect:
+
+Serpent Sting - Instantly deals $409493s1% of the damage done by your Serpent Sting.
+
+Viper Sting - Instantly restores mana to you equal to $409494s1% of the total amount drained by your Viper Sting.
+
+Scorpid Sting - Attempts to Disarm the target for $409495d. This effect cannot occur more than once per 1 minute.",
+409493,,"You deal $409433s3% weapon damage, refreshing the current Sting on your target and triggering an effect:
+
+Serpent Sting - Instantly deals $409493s1% of the damage done by your Serpent Sting.
+
+Viper Sting - Instantly restores mana to you equal to $409494s1% of the total amount drained by your Viper Sting.
+
+Scorpid Sting - Attempts to Disarm the target for $409495d. This effect cannot occur more than once per 1 minute.",
+409494,,"You deal $409433s3% weapon damage, refreshing the current Sting on your target and triggering an effect:
+
+Serpent Sting - Instantly deals $409493s1% of the damage done by your Serpent Sting.
+
+Viper Sting - Instantly restores mana to you equal to $409494s1% of the total amount drained by your Viper Sting.
+
+Scorpid Sting - Attempts to Disarm the target for $409495d. This effect cannot occur more than once per 1 minute.",
+409495,,"You deal $409433s3% weapon damage, refreshing the current Sting on your target and triggering an effect:
+
+Serpent Sting - Instantly deals $409493s1% of the damage done by your Serpent Sting.
+
+Viper Sting - Instantly restores mana to you equal to $409494s1% of the total amount drained by your Viper Sting.
+
+Scorpid Sting - Attempts to Disarm the target for $409495d. This effect cannot occur more than once per 1 minute.",Disarmed.
+409510,Rank 1,"Place a frost trap at a nearby location that freezes the first enemy that approaches, preventing all action for up to $3355d.  Any damage caused will break the ice.  Trap will exist for $d. Only one trap can be active at a time.",
+409512,Rank 2,"Place a frost trap at a nearby location that freezes the first enemy that approaches, preventing all action for up to $14308d.  Any damage caused will break the ice.  Trap will exist for $d.  Only one trap can be active at a time.",
+409519,Rank 3,"Place a frost trap at a nearby location that freezes the first enemy that approaches, preventing all action for up to $14309d.  Any damage caused will break the ice.  Trap will exist for $d.  Only one trap can be active at a time.",
+409520,,Place a frost trap at a nearby location that creates an ice slick around itself for $13810d when the first enemy approaches it.  All enemies within $13810a1 yards will be slowed by $14207s1% while in the area of effect.  Trap will exist for $d. Only one trap can be active at a time.,
+409521,Rank 1,Place a fire trap at a nearby location that will burn the first enemy to approach for $13797o1 Fire damage over $13797d.  Trap will exist for $d.  Only one trap can be active at a time.,
+409524,Rank 2,Place a fire trap at a nearby location that will burn the first enemy to approach for $14298o1 Fire damage over $14298d.  Trap will exist for $d.  Only one trap can be active at a time.,
+409526,Rank 3,Place a fire trap at a nearby location that will burn the first enemy to approach for $14299o1 Fire damage over $14299d.  Trap will exist for $d.  Only one trap can be active at a time.,
+409528,Rank 4,Place a fire trap at a nearby location that will burn the first enemy to approach for $14300o1 Fire damage over $14300d.  Trap will exist for $d. Only one trap can be active at a time.,
+409530,Rank 5,Place a fire trap at a nearby location that will burn the first enemy to approach for $14301o1 Fire damage over $14301d.  Trap will exist for $d.  Only one trap can be active at a time.,
+409532,Rank 1,"Place a fire trap at a nearby location that explodes when an enemy approaches, causing $13812s1 Fire damage and $13812o2 additional Fire damage over $13812d to all within $13812a1 yards.  Trap will exist for $d.  Only one trap can be active at a time.",
+409534,Rank 2,"Place a fire trap at a nearby location that explodes when an enemy approaches, causing $14314s1 Fire damage and $14314o2 additional Fire damage over $14314d to all within $14314a1 yards.  Trap will exist for $d.  Only one trap can be active at a time.",
+409535,Rank 3,"Place a fire trap at a nearby location that explodes when an enemy approaches, causing $14315s1 Fire damage and $14315o2 additional Fire damage over $14315d to all within $14315a1 yards.  Trap will exist for $d.  Only one trap can be active at a time.",
+409552,,"You fire an explosive charge into the enemy target, dealing ${$RAP*0.14+$m1/100*$<damagepower>}-${$RAP*0.14+$M1/100*$<damagepower>} Fire damage. The charge will blast the target every second for an additional $d. Cooldown shared with Arcane Shot.",Taking $w1 Fire damage every second.
+409554,,"You fire an explosive charge into the enemy target, dealing ${$RAP*0.14+$m1}-${$RAP*0.14+$M1} Fire damage. The charge will blast the target every second for an additional $d. Cooldown shared with Arcane Shot.",Taking Fire damage every second.
+409580,,"The hunter takes on the aspects of a lion, increasing total stats by $409583s1% for all nearby allies, and increasing total stats for the Hunter by an additional $409580s1%.  Only one Aspect can be active at a time.",Increases Hunter's stats by $s1%.
+409583,,"The hunter takes on the aspects of a lion, increasing total stats by $409583s1% for all nearby allies, and increasing total stats for the Hunter by an additional $409580s1%.  Only one Aspect can be active at a time.",Increases stats by $s1%.
+409691,Rank 1,A strong attack that increases melee damage by $s1.,
+409693,Rank 2,A strong attack that increases melee damage by $s1.,
+409748,Rank 3,A strong attack that increases melee damage by $s1.,
+409750,Rank 4,A strong attack that increases melee damage by $s1.,
+409751,Rank 5,A strong attack that increases melee damage by $s1.,
+409752,Rank 6,A strong attack that increases melee damage by $s1.,
+409754,Rank 7,A strong attack that increases melee damage by $s1.,
+409755,Rank 8,A strong attack that increases melee damage by $s1.,
+409805,,"Gain the Wild Strikes ability:
+
+$@spellicon407977
+$@spelldesc407977",
+409810,,"Gain the Wild Growth ability:
+
+$@spellicon408120
+$@spelldesc408120",
+409819,,"Gain the Savage Roar ability:
+
+$@spellicon407988
+$@spelldesc407988",
+409824,,"Reduces the global cooldown on your  Rejuvenation and Lifebloom abilities by ${$m2/-1000}.1 sec and you gain the Lifebloom ability:
+
+$@spellicon408124
+$@spelldesc408124",
+409826,,"Gain the Nature's Fury ability:
+
+$@spellicon408307
+$@spelldesc408307",
+409828,,"Gain the Mangle (Bear) ability and replace your Claw ability with Mangle (Cat). This ability benefits from and triggers all effects associated with Claw and Maul.
+
+$@spellicon407995
+$@spelldesc407995
+
+$@spellicon407993
+$@spelldesc407993
+",
+409832,,"Gain the Fury of Stormrage ability:
+
+$@spellicon414799
+$@spelldesc414799
+",
+409856,,Begins a ritual to free the spirit of a fallen adventurer.,
+409858,,,
+409906,,"Gain the Beacon of Light ability:
+
+$@spellicon407613
+$@spelldesc407613",
+409911,,"Gain the Hand of Reckoning ability:
+
+$@spellicon407631
+$@spelldesc407631",
+409914,,"Gain the Crusader Strike ability:
+
+$@spellicon407676
+$@spelldesc407676",
+409918,,,Filled with inspiration.
+409920,,,
+409924,,"Gain the Divine Storm ability:
+
+$@spellicon407778
+$@spelldesc407778",
+409925,,"Gain the Seal of Martyrdom ability:
+
+$@spellicon407798
+$@spelldesc407798",
+409930,,,Filled with inspiration.
+409933,,"Gain the Avenger's Shield ability:
+
+$@spellicon407669
+$@spelldesc407669",
+409935,,"Gain the Divine Sacrifice ability:
+
+$@spellicon407804
+$@spelldesc407804",
+409936,,"Gain the Inspiration Exemplar
+ ability:
+
+$@spellicon407880
+$@spelldesc407880",
+409940,,"Gain the Dual Wield Specialization ability:
+
+$@spellicon408496
+$@spelldesc408496",
+409941,,"Gain the Water Shield ability:
+
+$@spellicon408510
+$@spelldesc408510",
+409943,,"Gain the Shield Mastery ability:
+
+$@spellicon408524
+$@spelldesc408524",
+409944,,"Gain the Ancestral Guidance ability:
+
+$@spellicon409324
+$@spelldesc409324",
+409945,,"Gain the Overload ability:
+
+$@spellicon408438
+$@spelldesc408438",
+409947,,"Gain the Earth Shield ability:
+
+$@spellicon408514
+$@spelldesc408514",
+409952,,"Gain the Lava Burst ability:
+
+$@spellicon408490
+$@spelldesc408490",
+409953,,"Gain the Lava Lash ability:
+
+$@spellicon408507
+$@spelldesc408507",
+409955,,"Gain the Way of Earth ability:
+
+$@spellicon408531
+$@spelldesc408531",
+409958,,"Gain the Master Marksman ability:
+
+$@spellicon409428
+$@spelldesc409428",
+409960,,"Gain the Aspect of the Lion ability:
+
+$@spellicon409580
+$@spelldesc409580",
+409962,,"Gain the Beast Mastery ability:
+
+$@spellicon409368
+$@spelldesc409368",
+409963,,,
+409974,,"Gain the Kill Command ability:
+
+$@spellicon409379
+$@spelldesc409379",
+409976,,"Gain the Chimera Shot ability:
+
+$@spellicon409433
+$@spelldesc409433",
+409978,,"Gain the Explosive Shot ability:
+
+$@spellicon409552
+$@spelldesc409552",
+409979,,"Gain the Lone Wolf ability:
+
+$@spellicon415370
+$@spelldesc415370",
+409988,,,
+409999,,"Engrave your gloves with the Beacon of Light rune:
+
+$@spellicon407613
+$@spelldesc407613",
+410001,,"Engrave your gloves with the Hand of Reckoning rune:
+
+$@spellicon407631
+$@spelldesc407631",
+410002,,"Engrave your gloves with the Crusader Strike rune:
+
+$@spellicon407676
+$@spelldesc407676",
+410008,,"Engrave your pants with the Avenger's Shield rune:
+
+$@spellicon407669
+$@spelldesc407669",
+410010,,"Engrave your pants with the Divine Sacrifice rune:
+
+$@spellicon407804
+$@spelldesc407804",
+410011,,"Engrave your pants with the Inspiration Exemplar rune:
+
+$@spellicon407880
+$@spelldesc407880",
+410014,,"Engrave your chest with the Divine Storm rune:
+
+$@spellicon407778
+$@spelldesc407778",
+410015,,"Engrave your chest with the Seal of Martyrdom rune:
+
+$@spellicon407798
+$@spelldesc407798",
+410021,,"Engrave your chest or robe with the Wild Strikes rune:
+
+$@spellicon407977
+$@spelldesc407977",
+410023,,"Engrave your pants with the Savage Roar rune:
+
+$@spellicon407988
+$@spelldesc407988",
+410025,,"Engrave your gloves with the Mangle rune:
+
+$@spellicon407995
+$@spelldesc407995",
+410028,,"Engrave your gloves with the Wild Growth rune:
+
+$@spellicon408120
+$@spelldesc408120",
+410033,,"Engrave your pants with the Lifebloom rune:
+
+$@spelldesc409824",
+410061,,"Engrave your chest or robe with the Fury of Stormrage rune:
+
+$@spellicon414799
+$@spelldesc414799",
+410094,,"Engrave your chest or robe with the Overload rune:
+
+$@spellicon408438
+$@spelldesc408438",
+410095,,"Engrave your gloves with the Lava Burst rune:
+
+$@spellicon408490
+$@spelldesc408490",
+410096,,"Engrave your chest or robe with the Dual Wield Specialization rune:
+
+$@spellicon408496
+$@spelldesc408496",
+410097,,"Engrave your gloves with the Water Shield rune:
+
+$@spellicon408510
+$@spelldesc408510",
+410098,,"Engrave your chest or robe with the Shield Mastery rune:
+
+$@spellicon408524
+$@spelldesc408524",
+410099,,"Engrave your pants with the Ancestral Guidance rune:
+
+$@spellicon409324
+$@spelldesc409324",
+410101,,"Engrave your pants with the Earth Shield rune:
+
+$@spellicon408514
+$@spelldesc408514",
+410104,,"Engrave your gloves with the Lava Lash rune:
+
+$@spellicon408507
+$@spelldesc408507",
+410107,,"Engrave your pants with the Way of Earth rune:
+
+$@spellicon408531
+$@spelldesc408531",
+410110,,"Engrave your gloves with the Beast Mastery rune:
+
+$@spellicon409368
+$@spelldesc409368",
+410111,,"Engrave your pants with the Kill Command rune:
+
+$@spellicon409379
+$@spelldesc409379",
+410113,,"Engrave your chest or robe with the Master Marksman rune:
+
+$@spellicon409428
+$@spelldesc409428",
+410115,,"Engrave your chest or robe with the Aspect of the Lion rune:
+
+$@spellicon409580
+$@spelldesc409580",
+410121,,"Engrave your gloves with the Chimera Shot rune:
+
+$@spellicon409433
+$@spelldesc409433",
+410122,,"Engrave your chest or robe with the Lone Wolf rune:
+
+$@spellicon415370
+$@spelldesc415370",
+410123,,"Engrave your gloves with the Explosive Shot rune:
+
+$@spellicon409552
+$@spelldesc409552",
+410140,,,Incapacitated by the venom of a cave spider
+410156,Rank 1,"Gives you an extra attack.  In addition, the next 2 sources of Nature damage dealt to the target are increased by $17364s2%.  Lasts $17364d.",
+410163,,,His wounds are badly infected
+410169,,,
+410176,,"Charge to a target within 13 yards and bash the target's skull, interrupting spellcasting and preventing any spell in that school from being cast for $414621d.",
+410262,,,
+410272,,,
+410275,,,
+410412,,"Taunts the target to attack you, but has no effect if the target is already attacking you.",
 410657,,,
+410659,,,
+410662,,,
+410718,,,
+410738,,,
+410829,,,
+410881,,,"The Light infuses this place, calming your thoughts."
+410935,,,"Your mind is expanded by your meditation, granting you the clarity to learn new spells from Memories found throughout the world."
+410958,,Focus on the Memory to learn a new spell.  Requires a mind cleared by meditating on the spiritual mysteries of Azeroth.,
+410970,,,"The shadows of the Void grant you dark precognition, allowing you to learn new spells from Prophecies found throughout the world."
+410971,,Focus on the Prophecy to learn a new spell.  Requires a mind focused by meditating on two spiritual mysteries of Azeroth.,
+411115,,Reduces the chance you'll be critically hit by melee attacks by $s2% and reduces all damage taken by $s1%. Damage taken reduced by an additional $411124s1% while in Bear Form or Dire Bear Form.,
+411124,,Reduces all damage taken by $s1%.,
+411173,,,
+411186,,Place as bait near a mountain cat's dwelling.,
+411210,,,
+411220,,,
+411239,,,
+411249,,Place as bait near a beast's dwelling,
+411253,,,
+411263,,Place as bait near a beast's dwelling,
+411272,,Place as bait near a beast's dwelling,
+411280,,,
+411282,,,
+411284,,,
+411583,,,
+411608,,,You've made a friend!
+411622,,Your Tame Beast ability also works on prairie dogs (as companion pet),Your Tame Beast ability also works on prairie dogs (as companion pet)
+411624,,"Begins taming a beast to be your companion.  Your armor is reduced by $1515s3% while you focus on taming the beast for $1515d.  If you lose the beast's attention for any reason, the taming process will fail.  Once tamed, the beast will be very unhappy and disloyal.  Try feeding the pet immediately to make it happy.",Taming pet.
+411631,,"Begins taming a beast to be your companion.  Your armor is reduced by $s3% while you focus on taming the beast for $d.  If you lose the beast's attention for any reason, the taming process will fail.  Once tamed, the beast will be very unhappy and disloyal.  Try feeding the pet immediately to make it happy.",Taming pet.
+411684,,"Charge an enemy, generate $/10;s2 rage, and stun it for $7922d.  ",
+411688,,,Stunned.
+411774,,Attacks nearby enemies in a whirlwind of steel that lasts $d. and inflicts normal damage plus $15576s1.,Attacking all nearby enemies for normal damage plus $15576s1.
+411775,,,
+411777,,,
+411956,,"Curses the target with agony, causing $o1 Shadow damage over $d.  This damage is dealt slowly at first, and builds up as the Curse reaches its full duration.",$o1 Shadow damage over $d.
+411959,,"Strikes fear in an enemy, causing it to flee in terror for $d. Only 1 target can be feared at a time.",Fleeing in fear.
+411961,,,
+411973,,,
+411978,,,
+411990,,,
+411991,,,
+411992,,,
+411993,,,Someone's hiding in here...
+411995,,Deals $s1 Shadow damage every $t1 sec.,Deals $s1 Shadow damage every $t1 sec.
+412009,,,
+412020,,Heal over time.,Healing over $d.
+412040,,,
+412072,,,Shadow damage taken increased by ${$abs($s2)}%.
+412079,,,Shadow damage taken increased by ${$abs($s2)}%.
+412080,,,Shadow damage taken increased by ${$abs($s2)}%.
+412107,,,
+412113,,Removes $m1 Curse and $m2 harmful Magic effect from a friendly target.,
+412114,,,
+412116,Rank 1,"Absorbs $s1 physical damage on a friendly target, draining mana instead.  Drains $s2 mana from the casting Mage per damage absorbed.  Lasts $d.","Absorbs physical damage, draining mana instead."
+412118,Rank 2,"Absorbs $s1 physical damage on a friendly target, draining mana instead.  Drains $s2 mana from the casting Mage per damage absorbed.  Lasts $d.","Absorbs physical damage, draining mana instead."
+412120,Rank 3,"Absorbs $s1 physical damage on a friendly target, draining mana instead.  Drains $s2 mana from the casting Mage per damage absorbed.  Lasts $d.","Absorbs physical damage, draining mana instead."
+412121,Rank 4,"Absorbs $s1 physical damage on a friendly target, draining mana instead.  Drains $s2 mana from the casting Mage per damage absorbed.  Lasts $d.","Absorbs physical damage, draining mana instead."
+412122,Rank 5,"Absorbs $s1 physical damage on a friendly target, draining mana instead.  Drains $s2 mana from the casting Mage per damage absorbed.  Lasts $d.","Absorbs physical damage, draining mana instead."
+412123,Rank 6,"Absorbs $s1 physical damage on a friendly target, draining mana instead.  Drains $s2 mana from the casting Mage per damage absorbed.  Lasts $d.","Absorbs physical damage, draining mana instead."
+412179,,,Wearing a disguise of dubious effectiveness.
+412202,Rank 1,Absorbs $s1 Frost damage.  Lasts $d.,Absorbs Frost damage.
+412205,Rank 2,Absorbs $s1 Frost damage.  Lasts $d.,Absorbs Frost damage.
+412207,Rank 3,Absorbs $s1 Frost damage.  Lasts $d.,Absorbs Frost damage.
+412209,Rank 4,Absorbs $s1 Frost damage.  Lasts $d.,Absorbs Frost damage.
+412210,Rank 5,Absorbs $s1 Frost damage.  Lasts $d.,Absorbs Frost damage.
+412214,Rank 1,Absorbs $s1 Fire damage.  Lasts $d.,Absorbs Fire damage.
+412218,Rank 2,Absorbs $s1 Fire damage.  Lasts $d.,Absorbs Fire damage.
+412230,Rank 3,Absorbs $s1 Fire damage.  Lasts $d.,Absorbs Fire damage.
+412231,Rank 4,Absorbs $s1 Fire damage.  Lasts $d.,Absorbs Fire damage.
+412232,Rank 5,Absorbs $s1 Fire damage.  Lasts $d.,Absorbs Fire damage.
+412248,,,
+412270,,,
+412272,,,
+412278,,,
+412286,,"Increases your spell critical strike chance with all spells by $s1%, but your non-periodic spell critical strikes now have an additional mana cost of $s2% of your base mana.",
+412296,,,
+412324,,You deal $s1% more damage while you have more than $s2% mana. While below $s3% mana $s4% of your mana regeneration continues while casting.,
+412325,,Allows $s1% of your Mana regeneration to continue while casting.,Allows $s1% of your Mana regeneration to continue while casting.
+412326,,Increases all spell damage done by $s1%.,Increases all spell damage done by $s1%.
+412365,,,
+412421,,,
+412427,,,
+412428,,Grind 8 Windfury Cones together to create a venomous weapon salve.  In theory.,
+412437,,"Launches a bolt of frost at the enemy, causing ${$m1/100*$<power>} to ${$M1/100*$<power>} Frost damage.",
+412443,,,
+412456,,,
+412466,,,
+412507,,"Each time you deal Bleed damage, you gain ${$412508s1/10} Rage.
+",
+412508,,,
+412510,,"Heals all of target player's party members within $a1 yards of target player for ${$<healpower>*$m1/100*3} health over $d and applies Temporal Beacon to each target for ${$400735m3/2} sec. After casting this spell, you will suffer from Tangled Causality for $432069d, reducing your Fire and Frost spell damage done by $432069s1% and preventing the use of Ice Block.
+
+Temporal Beacon
+$@spellicon400735
+$@spelldesc400735",Healing ${$w1*3} health over $d.
+412526,,Inflicts Shadow damage to an enemy and reduces its movement speed for $d.,"$s1 Shadow damage inflicted every second for $d.
+Movement speed reduced to $s2% of normal."
+412527,,,
+412528,,,
+412538,,,Deals fire damage every $t1 sec.
+412545,,,Deals fire damage every $t1 sec.
+412569,,,
+412570,,,
+412609,,,Bleeding.
+412613,,Bleeding.,
+412689,,"Drain Life, Drain Soul, Shadowbolt, Shadow Cleave, Searing Pain, Incinerate, and Haunt refresh the duration of your Corruption on the target back to its maximum duration.",
+412698,,,
+412718,,Attempt to fillet a Raw Brilliant Smallfish.,
+412727,,Increases the melee and spell critical strike chance of you and your pet by $s1%.,
+412729,,,
+412758,,Burn your enemy for ${$m1/100*$<power>} to ${$M1/100*$<power>} damage and increase all Fire damage you deal by $s2% for the next $d.,Increases all Fire damage you deal by $s2%.
+412783,,,
+412784,,,
+412787,,"Choke your enemy with a surge of Shadowy energy that deals $s1 damage, interrupts spellcasting, and prevents any spell in that school from being cast for $d.",
+412788,,Charge an enemy and stun it for $7922d.  Cannot be used in combat.,
+412789,,Forces all nearby enemies to focus attacks on you for $d.,Taunted.
+412790,,"Leap through the air and slam down on all enemies within $a2 yards of the target area, causing $s2 Shadow damage and Stunning them for $d.",Stunned.
+413031,,,
+413045,,,
+413052,,,
+413247,,,"Cast time of next Lesser Heal, Heal, Greater Heal, or Prayer of Healing reduced by $s1%."
+413248,,"Healing with Flash Heal reduces the cast time of your next Lesser Heal, Heal, Greater Heal, or Prayer of Healing by $413247s1% for $413247d, stacking up to $413247u times.",
+413259,,"Causes an explosion of shadow magic around the enemy target, causing ${$413260m1/100*$<damagepower>} to ${$413260M1/100*$<damagepower>} Shadow damage every $T1 sec for $d to all enemies within $413260a1 yards around the target.",Causing shadow damage to all targets within $413260a1 yards.
+413260,,"Causes an explosion of shadow magic around the enemy target, causing $s1 Shadow damage every 1 sec for $48045d to all enemies within $a1 yards around the target.",Causing shadow damage to all targets within $a1 yards.
+413301,,"Killing an enemy worth experience or Honor generates ${$413302s1/10} Rage.
+",
+413302,,,
+413338,,,Filled with inspiration.
+413404,,"While dual-wielding, your Physical damage and movement speed are increased by $430472s1%.
+",
+413429,,,Filled with inspiration.
+413432,,,Filled with inspiration.
+413446,Bow,Automatically shoots the target with your bow until cancelled.,Firing at the target.
+413476,,,
+413479,,,
 413548,,"Degreelessness enabled. Immune to all CC.
 Fatal damage is absorbed.
 $s2% Health healed every $t2 sec.","Degreelessness enabled. Immune to all CC.
 Fatal damage is absorbed.
 $s2% Health healed every $t2 sec."
+413589,,,Time between attacks increased by $s2%.
+413651,,Combine 3 Prairie Flowers to make a crown.,
+413664,,,
+413671,,,
+413685,,"Your connection to the Light has been damaged. All Holy healing you deal decreased by $s2%, but all non-Holy damage you deal increased by $s1%.","All Holy healing you deal decreased by $s2%, but all non-Holy damage you deal increased by $s1%."
+413698,,,
+413839,,,Filled with inspiration.
+414119,,,
+414120,,,
+414121,,,
+414122,,,
+414123,,,
+414124,,,
+414370,,,Ghamoo-ra's Aqua Shell has cracked!
+414621,,"You bash the target's skull, interrupting spellcasting and preventing any spell in that school from being cast for $d.",
+414644,,"Lacerates the enemy target, making them bleed for ${$<damagepower>*$m1/100*5} damage over $d plus $s2% weapon damage per existing application of Lacerate on the target. Causes a high amount of threat. This effect stacks up to $u times on the same target.",$w1 damage every $t sec
+414647,,,
+414677,,When you critically heal your target with any healing spell you plant a Living Seed on the target for $s1% of the amount healed. The Living Seed will bloom when the target is next attacked. Lasts $414680d.,
+414680,,,Healed for $w1 health the next time damage is taken.
+414683,,Heals a friendly target for $s1.,
+414684,,Burns the enemy for ${$m2*$<damagepower>/100} to ${$M2*$<damagepower>/100} Nature damage and then an additional ${$m1*4*$<damagepower>/100} Nature damage over $d.,$w1 Nature damage every $t1 seconds.
+414687,,Burns the enemy for ${$m2*$<damagepower>/100} to ${$M2*$<damagepower>/100} Nature damage and then an additional ${$m1*4*$<damagepower>/100} Nature damage over $d.,$w1 Nature damage every $t1 seconds.
+414689,,"Burns the enemy for ${$m2*$<damagepower>/100} to ${$M2*$<damagepower>/100} Nature damage and then an additional ${$m1*4*$<damagepower>/100} Nature damage over $d. Awards $s3 combo $lpoint:points;.
+",$w1 Nature damage every $t1 seconds.
+414691,,,
+414692,,"Gain the Sunfire ability and while in Bear Form, Cat Form, or Dire Bear Form your Moonfire is replaced with Sunfire (Bear) or Sunfire (Cat). This spell benefits from and triggers all effects associated with Moonfire.
+
+$@spellicon414684
+$@spelldesc414684
+
+$@spellicon414687
+$@spelldesc414687
+
+$@spellicon414689
+$@spelldesc414689
+",
+414696,,,
+414700,,,
+414722,,,Its head seems to be missing something...
+414723,,,
+414724,,Awaken a spirit of the plains ,
+414730,,,"Weapon enchanted by wind, granting extra attacks."
+414739,,,
+414760,,,"Surrounded by a shield of lightning, striking back all attackers with Nature damage."
+414763,,,
+414782,,,
+414783,,,
+414786,,,
+414791,,,
+414799,,Reduces the mana cost of Wrath by $s1% and each time you deal damage with Wrath you have a $h% chance for your next cast of Healing Touch within $414800d to be instant.,
+414800,,,Your next Healing Touch is instant cast.
+414824,,,Attuned to the mysteries of nature
+414825,,,
+414826,,,
+414827,,,In a bestial rage
+414887,,,
+414900,,Deals $s1 Fire damage every $t1 sec.,Deals $s1 Fire damage every $t1 sec.
+414901,,,
+414907,,,
+414908,,,
+414952,,,
+414953,,,
+415003,,,
+415004,,,Depleted of magical energy
+415005,,,Surging with magical energy
+415012,,,Filled with inspiration.
+415013,,,
+415015,,,Filled with inspiration.
+415018,,,
+415019,,,
+415028,,,
+415068,Rank 1,Causes $s1 Holy damage to an enemy target and has $s2% chance to crit against Demons and Undead.,
+415069,Rank 2,Causes $s1 Holy damage to an enemy target and has $s2% chance to crit against Demons and Undead.,
+415070,Rank 3,Causes $s1 Holy damage to an enemy target and has $s2% chance to crit against Demons and Undead.,
+415071,Rank 4,Causes $s1 Holy damage to an enemy target and has $s2% chance to crit against Demons and Undead.,
+415072,Rank 5,Causes $s1 Holy damage to an enemy target and has $s2% chance to crit against Demons and Undead.,
+415073,Rank 6,Causes $s1 Holy damage to an enemy target and has $s2% chance to crit against Demons and Undead.,
+415076,,Exorcism can now be cast on any target and has $415068s2% increased critical strike chance against Undead and Demons.,
+415093,,,
+415112,,,
+415113,,,
+415233,,"Turns the Shaman into a Ghost Wolf, increasing speed by $s2% and decreasing all damage taken by $s3%.","Increases movement speed by $s2%.
+Decreases damage taken by $s3%."
+415236,,"Selects the area $415242a1 yards around target player, and heals all of target player's party members within that area for ${$<healpower>*$415242m1/100} every second.",Healing target player's party within your Healing Rain for ${$<healpower>*$415242m1/100} every second.
+415240,,,Within a Shaman's Healing Rain.
+415242,,Heals up to 5 friendly party or raid members within $a1 yards of the target for ${$<healpower>*$m1/100}.,
+415292,,"Heals ${$m1/100*$<healpower>*4} over $d sec.
+
+",Heals $w1 every $t1 sec.
+415320,,"You and your pet deal simultaneous instant $s2% melee damage. Afterward, your Mongoose Bite and Raptor Strike deal $s3% increased damage for $d, stacking up to $u times. Raptor Strike has a $s4% chance to reset the cooldown on Flanking Strike.",Mongoose Bite and Raptor Strike damage increased by $s3%.
+415326,,"You and your pet deal simultaneous instant $s2% melee damage. Afterward, your Mongoose Bite and Raptor Strike deal $s3% increased damage for $d, stacking up to $u times. Raptor Strike has a $s4% chance to reset the cooldown on Flanking Strike.",
+415327,,,
+415335,Rank 1,A strong attack that increases melee damage by $s1.,
+415336,Rank 2,A strong attack that increases melee damage by $s1.,
+415337,Rank 3,A strong attack that increases melee damage by $s1.,
+415338,Rank 4,A strong attack that increases melee damage by $s1.,
+415340,Rank 5,A strong attack that increases melee damage by $s1.,
+415341,Rank 6,A strong attack that increases melee damage by $s1.,
+415342,Rank 7,A strong attack that increases melee damage by $s1.,
+415343,Rank 8,A strong attack that increases melee damage by $s1.,
+415370,,You deal $s1% increased damage with all attacks while you do not have an active pet.,
+415372,,,
+415399,,Your Shot abilities gain $415401s1% increased critical strike chance while you have not moved for the last $s1 sec.,
+415401,,,Critical strike chance with Shot abilities increased by $s1%.
+415429,,,
+415431,,,
+415449,,Equip a Waist slot item with a Rune engraved to activate an ability in this slot.,
+415450,,Equip a Feet slot item with a Rune engraved to activate an ability in this slot.,
+415460,,"Gain the Burnout ability:
+
+$@spellicon412286
+$@spelldesc412286",
+415467,,"Gain the Mass Regeneration ability:
+
+$@spellicon412510
+$@spelldesc412510",
+415599,,"Gain the Single-Minded Fury ability:
+
+$@spellicon413404
+$@spelldesc413404",
+415604,,"Gain the Everlasting Affliction ability:
+
+$@spellicon412689
+$@spelldesc412689",
+415605,,"Gain the Demonic Tactics ability:
+
+$@spellicon412727
+$@spelldesc412727",
+415709,,"Gain the Survival of the Fittest ability:
+
+$@spellicon411115
+$@spelldesc411115",
+415714,,"Gain the Healing Rain ability:
+
+$@spellicon415236
+$@spelldesc415236",
+415729,,"Gain the Enlightenment ability:
+
+$@spellicon412324
+$@spelldesc412324",
+415737,,"Gain the Serendipity ability:
+
+$@spellicon413248
+$@spelldesc413248",
+415738,,"Gain the Mind Sear ability:
+
+$@spellicon413259
+$@spelldesc413259",
+415739,,"Lesser Heal, Heal, Greater Heal, and Flash Heal reduce the remaining duration of Weakened Soul on targets they heal by $409317s1 sec.",
+415740,,"Gain the Strength of Soul ability:
+
+$@spellicon415739
+$@spelldesc415739",
+415750,,"Gain the Incinerate ability:
+
+$@spellicon412758
+$@spelldesc412758",
+415756,,"Gain the Exorcist ability:
+
+$@spellicon415076
+$@spelldesc415076",
+415759,,"Gain the Skull Bash ability:
+
+$@spellicon410176
+$@spelldesc410176",
+415760,,"Gain the Lacerate ability:
+
+$@spellicon414644
+$@spelldesc414644",
+415761,,"Gain the Living Seed ability:
+
+$@spellicon414677
+$@spelldesc414677",
+415818,,"Gain the Sniper Training ability:
+
+$@spellicon415399
+$@spelldesc415399",
+415936,,"Engrave your gloves with the Living Bomb rune:
+
+$@spellicon400613
+$@spelldesc400613",
+415939,,"Engrave your pants with the Mass Regeneration rune:
+
+$@spellicon412510
+$@spelldesc412510",
+415942,,"Engrave your chest or robe with the Enlightenment rune:
+
+$@spellicon412324
+$@spelldesc412324",
+415988,,,
+415995,,"Engrave your chest or robe with the Serendipity rune:
+
+$@spellicon413248
+$@spelldesc413248",
+415996,,"Engrave your gloves with the Mind Sear rune:
+
+$@spellicon413259
+$@spelldesc413259",
+415997,,"Engrave your chest or robe with the Strength of Soul rune:
+
+$@spellicon415739
+$@spelldesc415739",
+416003,,"Engrave your gloves with the Single-Minded Fury rune:
+
+$@spellicon413404
+$@spelldesc413404",
+416008,,"Engrave your pants with the Everlasting Affliction rune:
+
+$@spellicon412689
+$@spelldesc412689",
+416009,,"Engrave your chest or robe with the Demonic Tactics rune:
+
+$@spellicon412727
+$@spelldesc412727",
+416015,,"Engrave your pants with the Incinerate rune:
+
+$@spellicon412758
+$@spelldesc412758",
+416037,,"Engrave your pants with the Exorcist rune:
+
+$@spellicon415076
+$@spelldesc415076",
+416042,,"Engrave your chest or robe with the Survival of the Fittest rune:
+
+$@spellicon411115
+$@spelldesc411115",
+416044,,"Engrave your gloves with the Sunfire rune:
+
+$@spellicon414684
+$@spelldesc414684
+
+In addition, while in Bear Form, Cat Form, or Dire Bear Form, your Moonfire is replaced with Sunfire (Bear) or Sunfire (Cat). This spell benefits from and triggers all effects associated with Moonfire.
+
+Sunfire (Bear)
+$@spelldesc414687
+
+Sunfire (Cat)
+$@spelldesc414689",
+416046,,"Engrave your pants with the Skull Bash rune:
+
+$@spellicon410176
+$@spelldesc410176",
+416049,,"Engrave your gloves with the Lacerate
+ rune:
+
+$@spellicon414644
+$@spelldesc414644",
+416050,,"Engrave your chest or robe with the Living Seed rune:
+
+$@spellicon414677
+$@spelldesc414677",
+416057,,"Engrave your chest or robe with the Healing Rain
+ rune:
+
+$@spellicon415236
+$@spelldesc415236",
+416091,,"Engrave your pants with the Sniper Training rune:
+
+$@spellicon415399
+$@spelldesc415399",
+416116,,,
+416186,,,
+416189,,,
 416221,,,
+416244,Rank 1,"Heals the friendly target for $s1, then jumps to heal additional nearby targets.  If cast on a party member, the heal will only jump to other party members.  Each jump is $*100;F1% as effective as the previous target.  Heals $x1 total targets.",
+416245,Rank 2,"Heals the friendly target for $s1, then jumps to heal additional nearby targets.  If cast on a party member, the heal will only jump to other party members.  Each jump is $*100;F1% as effective as the previous target.  Heals $x1 total targets.",
+416246,Rank 3,"Heals the friendly target for $s1, then jumps to heal additional nearby targets.  If cast on a party member, the heal will only jump to other party members.  Each jump is $*100;F1% as effective as the previous target.  Heals $x1 total targets.",
+416247,Rank 1,Heals a friendly target for $s1.,
 416262,,,
+416278,,,
+416288,,Combine with 3 other pieces to make the full map.,
+416297,,,
+416304,,Dig up treasure at the marked location,
+416316,Rank 2,Heals a friendly target for $s1.,
+416317,Rank 3,Heals a friendly target for $s1.,
+416318,Rank 4,Heals a friendly target for $s1.,
+416319,Rank 5,Heals a friendly target for $s1.,
+416320,Rank 6,Heals a friendly target for $s1.,
+416322,Rank 7,Heals a friendly target for $s1.,
+416323,Rank 8,Heals a friendly target for $s1.,
+416324,Rank 9,Heals a friendly target for $s1.,
+416325,Rank 10,Heals a friendly target for $s1.,
+416441,,,
+416505,,,
+416553,,,
+416768,,,
+416772,,Place as bait near an island cat's dwelling,
+416825,,,
+416837,,,You've made a friend!
+416861,,Your Tame Beast ability also works on adders (as companion pet),Your Tame Beast ability also works on adders (as companion pet)
+417045,,Increases damage done by $s1% for $d and instantly grants you $s2 Energy.,Increases damage done by $s1%.
+417051,,"Increases your dodge chance by $s1%, and you regenerate $s2 rage every time you dodge while in Bear Form or Dire Bear Form, $s3 energy while in Cat Form, or $s4% of your maximum mana while in any other form.",
+417052,,,
+417053,,,
+417054,,,
+417056,,Summon Soboz,
+417057,Rank 1,Heals the target for $o1 over $d.,Heals $s1 damage every $t1 seconds.
+417058,Rank 2,Heals the target for $o1 over $d.,Heals $s1 damage every $t1 seconds.
+417059,Rank 3,Heals the target for $o1 over $d.,Heals $s1 damage every $t1 seconds.
+417060,Rank 4,Heals the target for $o1 over $d.,Heals $s1 damage every $t1 seconds.
+417061,Rank 5,Heals the target for $o1 over $d.,Heals $s1 damage every $t1 seconds.
+417062,Rank 6,Heals the target for $o1 over $d.,Heals $s1 damage every $t1 seconds.
+417063,Rank 7,Heals the target for $o1 over $d.,Heals $s1 damage every $t1 seconds.
+417064,Rank 8,Heals the target for $o1 over $d.,Heals $s1 damage every $t1 seconds.
+417065,Rank 9,Heals the target for $o1 over $d.,Heals $s1 damage every $t1 seconds.
+417066,Rank 10,Heals the target for $o1 over $d.,Heals $s1 damage every $t1 seconds.
+417068,Rank 11,Heals the target for $o1 over $d.,Heals $s1 damage every $t1 seconds.
+417123,,Your Rejuvenation can now be active on targets affected by another Druid's Rejuvenation.,
+417135,,"Increases the damage done by your Hurricane by $s1%, it no longer has a cooldown, and its mana cost is reduced by $s4%.",
+417145,,"Striking a target with Lacerate, Swipe, or Maul has a $h% chance to reset the cooldown on Mangle (Bear).",
+417146,,,Within a Druid's Efflorescence.
+417147,,Heals the 3 most injured party or raid members within $417148a1 yards of the selected area for ${$<healpower>*$417148m1/100} every $417147t1 sec for $d.,Healing up to 3 targets within your Efflorescence every $t1 sec for${$<healpower>*$417148m1/100}.
+417148,,Heals up to 3 friendly party or raid members within $a1 yards of the target for ${$<healpower>*$m1/100}.,
+417149,,"Your Swiftmend now also causes Efflorescence, healing the 3 most injured party members within $417148a1 yards of the Swiftmend's target location for ${$<healpower>*$417148m1/100} every $417147t1 sec for $417147d.",
+417157,,"Launch surging stellar energies that causes ${$m1/100*$<damagepower>} to ${$M1/100*$<damagepower>} Arcane damage.
+
+Starsurge benefits from and triggers most talents and effects that trigger or benefit from Wrath or Starfire.",
+417159,,"Instantly heal yourself for $s1% of you maximum health. Useable in all forms.
+",
+417192,,,Kneel before the Loa to receive their wisdom.
+417202,,,
+417293,,,
+417315,,Summon Soboz,
+417316,,,"Your mind is expanded by your meditation, granting you the clarity to learn new spells from Memories found throughout the world."
+417345,,Equip a Helm slot item with a Rune engraved to activate an ability in this slot.,
+417346,,Equip a Bracer slot item with a Rune engraved to activate an ability in this slot.,
+417347,,Equip a Cloak slot item with a Rune engraved to activate an ability in this slot.,
+417348,,Equip a Shoulder slot item with a Rune engraved to activate an ability in this slot.,
+417410,,,
+417433,,Dig up treasure at the marked location,
+417434,,Combine with 3 other pieces to make the full map.,
+417437,,,
+417440,,"Strikes all nearby enemies, dealing ${$m1*$<damagepower>/100+0.092*$AP} Bleed damage and an additional ${$417441m1*$<damagepower>/100*5+0.125*$AP} Bleed damage over $417441d. When applied from Bear Form, this effect can stack up to $417441u times.",
+417441,,,Bleeding for $w1 damage every $t1 seconds.
+417448,,"Strikes all nearby enemies, dealing ${$m1*$<damagepower>/100+0.104*$AP} Bleed damage and an additional ${$m2*$<damagepower>/100*5+0.0661*5*$AP} Bleed damage over $d. Awards $417450s1 combo $lpoint:points;.",Bleeding for $w2 damage every $t2 sec.
+417450,,,
+417453,,"Gain several new demonic abilities: Disrupt, Demon Charge, Demonic Howl, and Infernal Strike.
+
+$@spellicon412787
+$@spelldesc412787
+
+$@spellicon412788
+$@spelldesc412788
+
+$@spellicon412789
+$@spelldesc412789
+
+$@spellicon412790
+$@spelldesc412790",
 417463,,,Your brush with death temporarily reveals the spectral realm.
 417627,,Drink in the Tanaris Graveyard.,
 417684,,,
+417743,,Create forged documents implicating the Scarlet Crusade against the Alliance.  Requires writing supplies found in Brill's town hall.,
+417750,,,
 417803,,,"Your eyes are filled with spectral flame, granting sight beyond the mortal veil."
+417856,,,Pray to the Light to receive wisdom
+417858,,,
+418017,,,
+418018,,,
+418019,,,
+418065,,Summon Soboz,
+418138,,,
+418139,,,
+418140,,,
+418232,,,You've made a friend!
+418236,,Your Tame Beast ability also works on rabbits (as companion pet),Your Tame Beast ability also works on rabbits (as companion pet)
+418334,,Transformed back into its normal form.,Transformed back into its normal form.
+418347,,Combine 6 Apothecary Notes to create a new engraving recipe.,
+418358,,,
+418408,,,
+418441,,,Will soon become a Leper Gnome
+418442,,,Incapacitated by the toxic gasses of Gnomeregan
+418459,,,"Your mind is expanded by your meditation, granting you the clarity to learn new spells from Memories found throughout the world."
+418460,,,"Whispers from beyond death linger nearby, calming your thoughts. You may kneel here to meditate."
+418481,,,
+418483,,,
+418486,,,
+418487,,,
+418489,,Place as bait inside a great bear's den,
+418508,,Your next attack will critically strike.,Your next attack will critically strike.
+418509,,"On landing a killing blow that grants experience or honor, your next attack will critically strike.","On landing a killing blow that grants experience or honor, your next attack will critically strike."
+418545,,,
+418548,,,"Whispers from beyond death linger nearby, calming your thoughts. You may kneel here to meditate."
+418598,,,
+418599,,Dig up treasure at the marked location,
+418600,,Combine with 3 other pieces to make the full map.,
+418641,,,
+418767,,,
 419126,,Display how many trophies you've gathered from victories while Dueling to the Death.,$w $?$w=1[trophy][trophies] gathered as victories while Dueling to the Death.
+419288,,,Filled with inspiration.
+419307,,,"Your mind is expanded by your meditation, granting you the clarity to learn new spells from Memories found throughout the world."
+419308,,,The waters of the moonwell calm your thoughts. Kneel here to meditate on Elune's mysteries.
 419427,,,
+419636,,,
+419649,,,
+419652,,,
+420355,,,
+420484,,,
+420493,,,Filled with inspiration.
+420526,,Inflicts Frost damage to an enemy and reduces its movement speed for $d.,Reduced movement speed.
+420543,,,Moving too fast to be hit
+420657,,,
+420664,,,
+420666,,,
+420667,,,"Carrying a banner of the Horde.
+(Drops on death)"
+420673,,,
+420687,,,
+420709,,,
+420711,,,
+420725,,,
+420728,,,
+420729,,,
+420744,,,Your sacrifice will be grueling...
+420749,,,
+420758,,,
+420794,,Decipher the spell notes with a Comprehension Charm to learn a new Engraving spell.,
+420799,,,Filled with inspiration.
+420803,,,
+420804,,,
+420805,,,
+420818,,,An illusion of the barren land
+420825,,,An illusion of the barren land
+420843,,Teleports the caster 20 yd. backward unless something is in the way. Also frees the caster from any bonds.,Blinking...
+420850,,,
 420855,,,
+420861,,,
 420862,,,
+420868,,,
+420872,,,
+420873,,,
+420877,,,The hand will open for a savior
+420878,,,The hand has opened for you
+420879,,,
+420882,Rank 5,Brings a dead player back to life with $s1 health and $q1 mana.  Cannot be cast when in combat.,
+420883,Rank 4,Brings a dead player back to life with $s1 health and $q1 mana.  Cannot be cast when in combat.,
+420884,Rank 3,Brings a dead player back to life with $s1 health and $q1 mana.  Cannot be cast when in combat.,
+420885,Rank 2,Brings a dead player back to life with $s1 health and $q1 mana.  Cannot be cast when in combat.,
+420899,,,
+420901,,,
+420964,,Throw harpoon at target (40 yd. range),Max health and damage greatly reduced.
+420990,,,
+420993,,,
+421023,,,
+421041,,,
+421058,,,
+421063,,,You are on the path
+421084,,,You are on the path
+421096,,,
+421188,,,
+421197,,Toss into a nearby well to make a wish,
+421239,,,Dare you kneel before it?
+421242,,,
+421248,Rank 1,"The caster is surrounded by shadows.  When a spell, melee or ranged attack hits the caster, the attacker will be struck for $28377s1 Shadow damage.  Attackers can only be damaged once every few seconds.  This damage causes no threat.  $n charges.  Lasts $d.",Causes $s1 Shadow damage to attacker on hit.  This damage causes no threat.  $n charges.
+421262,,,That pie isn't sitting right...
+421268,,,
+421276,,,
+421289,,,
+421295,,Place as bait inside a great bear's den,
+421299,,,
+421303,,,
+421304,,,
+421311,,Your Tame Beast ability also works on deer (as companion pet),Your Tame Beast ability also works on deer (as companion pet)
+421312,,,You've made a friend!
+421322,,,The bones hunger for cursed energy
+421338,,,
+421352,,,
+421406,,Challenge a Tauren to a duel,Taking increased physical damage
+421423,,,
+421424,,Dig up treasure at the marked location,
+421425,,Combine with 3 other pieces to make the full map.,
+421436,,Combine 3 Glade Flowers to make a crown.,
+421476,,,
+421478,,,
+421479,,,
+421508,,,
+421510,,,Filled with inspiration.
+421513,,,
+421535,,,Filled with inspiration.
+421545,,,
+421596,,Decipher the spell notes with a Comprehension Charm to learn a new Engraving spell.,
+421599,,Feed chum to target.,
+421600,,,
+421609,,,
+422171,,Feed treat to target.,
+422268,,,
+422269,,,
+422350,,,
+422387,,Plant Pumpkin Seeds,
+422390,,,
+422397,,Throw harpoon at target (40 yd. range),Max health and damage greatly reduced.
+422410,,,Needs a new engine
+422477,,Combine spare reaper parts with an elemental core to create a prototype engine.,
+422478,,Install into a harvest reaper prototype.,
+422487,,,
+422488,,Place as bait near a coyote dwelling,
+422549,,,Building unholy energy to return to life...
+422563,,,
+422598,,,Will flee if they sense danger
+422600,,,
+422603,,,
+422609,,,
+422612,,,
+422613,,,
 422621,,Reduces the power cost of spells and abilities by $s1%.,Reduces the power cost of spells and abilities by $s1%.
+422746,,,Chance to harvest slain Murloc souls
 422978,,,"Decreases all attributes by $s1%, all damage caused by $s2%, armor and resistance by $s3%."
+422996,,Splash the target with ancient corrosive poison that deals $m1 Nature damage every 3 sec and lowers the target's armor by $m2 for $d.,Lowered armor and periodic Nature damage.
+423002,,"+$s1 Attack Power in Cat, Bear, and Dire Bear forms only.",
+423003,,Discharge a mote of thunder dealing $s1 Nature damage.,
+423004,,Blast a gust of wind dealing $s1 Nature damage.,
+423088,,Open Waterlogged Captain's Chest,
+423133,,,
+423135,,,
+423140,,,
+423168,,,
+423186,,,Balancing yourself with the powers of nature.
+423187,,"Balance the Powers of the Moon, Emereld Dream, and Wild to learn a new ability.",
+423191,,,Slaying enemies after they were afflicted by Moonfire increases your balance with the Moon.
+423192,,,Healing injuries can increases your balance with the Emereld Dream.
+423194,,,Shapeshifting increases your balance with the Wild.
+423212,,,
+423298,,Increases swim speed by $s1%.,Increases swim speed by $s1%.
+423299,,Increases damage done to Beasts with physical attacks by $s1. ,
+423300,,"M'grrgl will accompany you for $d1, providing minor protection against shadow.","M'grrgl likes you! 
+Increases Shadow Resistance by 5."
+423304,,"Leech life from your victim, healing for $s1 damage.",
+423415,,,
+423434,,,
+423435,,,
+423474,,Increases the damage of your Imp's Firebolt spell by $s1.,
+423478,,,Able to tame Young Pridewings in the Stonetalon Mountains
+423481,,Slightly increases your stealth detection.,Slightly increased stealth detection.
+423484,,Increases the damage done by your pets by $s1%.,
+423549,,Imbue a Greater Magic Wand with wild magic.,
+423558,,,
+423561,,,
+423592,,,
+423631,,,
+423632,,Open the Waterlogged Captain's Chest.,
+423646,,,
+423785,,,
+423786,,,
+423907,,,
+424015,,,
+424016,,,
+424019,,,
+424035,,Allows you to meditate on the mysteries of the Light in holy places.,
+424036,,Allows you to meditate on the mysteries of Elune at moonwells.,
+424037,,Allows you to meditate on the mysteries of the loa at altars.,
+424041,,Allows you to meditate on the mysteries of undeath in graveyards.,
+424137,,,
+424160,,,
+424181,,,Seek the other twin.
+424182,,,Seek the other twin.
+424190,,,Balancing yourself with the powers of the moon.
+424191,,,Find the other twin.
+424250,,,
+424251,,,
+424252,,,
+424253,,,
+424308,,,
+424310,,,Can see spirit beasts in Duskwood.
+424336,,,Balancing yourself with the powers of nature.
+424339,,,
+424378,,,
+424397,,,
+424472,,,At the precipice of death.
+424553,,,Warning! Expert Marksman Only!
+424563,,,
+424570,,,
+424631,,,
+424641,,,
+424645,,Translate the spell notes into a new runecarving recipe.  Requires a reference for the author's shorthand.,
+424684,,,
+424715,,"Gain the Starsurge ability:
+
+$@spellicon417157
+$@spelldesc417157",
+424718,,"Engrave your pants with the Starsurge rune:
+
+$@spellicon417157
+$@spelldesc417157",
+424732,,,
+424735,,,
+424785,,"Viciously slash an enemy for $s2% weapon damage, and cause the target to bleed for ${$AP*$m4/100} damage every $t4 sec for $d, stacking up to $u times.  Awards $s3 combo $lpoint:points;.
+
+Saber Slash benefits from all talents and effects that trigger from or modify Sinister Strike.",Bleeding for $w4 damage every $t4 sec.
+424788,,Salvage the wreckage of a shredder for spare parts.,
+424799,,"Instantly attack with your off-hand weapon to deal normal off-hand weapon damage with a 100% chance to apply the poison from your off-hand weapon to the target. Slower weapons require more energy. Awards $s2 combo $lpoint:points;.
+
+Shiv benefits from all talents and effects that trigger from or modify Sinister Strike.",
+424800,,"Instantly attack with your off-hand weapon with a 100% chance to apply the poison from your off-hand weapon to the target. Slower weapons require more energy. Awards $s2 combo $lpoint:points;.
+",
+424919,,"Instantly strike with your off-hand weapon for normal off-hand weapon damage and increase your chance to parry by $s2% for $d.  Awards $s3 combo $lpoint:points;.
+
+Main Gauche benefits from all talents and effects that trigger from or modify Sinister Strike.",Parry chance increased by $s2%.
+424925,,Reduces the Energy cost of your Backstab and Ambush abilities by $s1. $?s400094[Does not apply to Mutilate.][Does not apply to abilities learned from other runes.],
+424941,,,
+424976,,,
+424979,,"Gain the Saber Slash ability:
+
+$@spellicon424785
+$@spelldesc424785",
+424980,,"Gain the Shiv ability:
+
+$@spellicon424799
+$@spelldesc424799",
+424982,,"Gain the Main Gauche ability:
+
+$@spellicon424919
+$@spelldesc424919",
+424983,,"Gain the Slaughter from the Shadows ability:
+
+$@spellicon424925
+$@spelldesc424925",
+424984,,"Engrave your gloves with the Saber Slash rune:
+
+$@spellicon424785
+$@spelldesc424785",
+424988,,"Engrave your gloves with the Shiv rune:
+
+$@spellicon424799
+$@spelldesc424799",
+424990,,"Engrave your gloves with the Main Gauche rune:
+
+$@spellicon424919
+$@spelldesc424919",
+424992,,"Engrave your chest or robe with the Slaughter from the Shadows rune:
+
+$@spellicon424925
+$@spelldesc424925",
+425016,,,
+425067,,"Open a heavy gate, goblin-style!",
+425078,,,
+425094,,Combine Brother and Sister Half-Keys.,
+425121,,"Hastens your spellcasting, increasing spell casting speed by $s1% and reduces the pushback suffered from damaging attacks while casting by $s2%. Lasts $d.",Casting speed of all spells increased by $s1% and pushback suffered from damaging attacks while casting reduced by $s2%.
+425124,,"Unleash all of your remaining mana in a surge of energy focused at the target dealing ${$<power>*$m1/100} to ${$<power>*$M1/100} Arcane damage, increased by up to $s4% based on your mana remaining. Afterward, your normal mana regeneration is activated and increased by $s2% for $d.",Normal mana regeneration activated and increased by $s2%.
+425147,,,
+425151,,,
+425168,,"Gain the Arcane Surge ability:
+
+$@spellicon425124
+$@spelldesc425124",
+425169,,"Gain the Icy Veins ability:
+
+$@spellicon425121
+$@spelldesc425121",
+425170,,"Engrave your pants with the Icy Veins rune:
+
+$@spellicon425121
+$@spelldesc425121",
+425171,,"Engrave your pants with the Arcane Surge rune:
+
+$@spellicon425124
+$@spelldesc425124",
+425198,,Mind Flay and Mind Blast deal $s1% increased damage to targets afflicted with your Shadow Word: Pain.,
+425204,,Afflicts the target with a disease that causes ${$<damagepower>*$m1/100*6} Shadow damage over $d.,Causes $w1 damage every $t1 seconds.
+425205,,,Damage taken reduced by $s1% and damaging attacks will not cause spellcasting delays.
+425207,,"Summons a holy barrier to protect all party members at the target location for $d, reducing all damage taken by $425205s1% and preventing damage from delaying spellcasting. ",
+425210,,"Gain the Twisted Faith ability:
+
+$@spellicon425198
+$@spelldesc425198",
+425211,,"Gain the Void Plague ability:
+
+$@spellicon425204
+$@spelldesc425204",
+425212,,"Gain the Power Word: Barrier ability:
+
+$@spellicon425207
+$@spelldesc425207",
+425213,,"Engrave your pants with the Power Word: Barrier rune:
+
+$@spellicon425207
+$@spelldesc425207",
+425215,,"Engrave your chest or robe with the Twisted Faith rune:
+
+$@spellicon425198
+$@spelldesc425198",
+425216,,"Engrave your chest or robe with the Void Plague rune:
+
+$@spellicon425204
+$@spelldesc425204",
+425233,,"Inflicts Shadow damage to an enemy, but causes a high amount of threat.",
+425234,,,"Unstable magical energy coalesces around Kelris.
+
+Increases shadow damage by $s1%."
+425236,,,
+425237,,,
+425239,,,"Movement slowed by $s2%.
+Shadow damage inflicted every $t3 sec."
+425265,,,[PH] needs a tooltip
+425268,Rank 1,Heals the target of $o1 damage over $d.,Healing $s1 damage every $t1 seconds.
+425269,Rank 2,Heals the target of $o1 damage over $d.,Healing $s1 damage every $t1 seconds.
+425270,Rank 3,Heals the target of $o1 damage over $d.,Healing $s1 damage every $t1 seconds.
+425271,Rank 4,Heals the target of $o1 damage over $d.,Healing $s1 damage every $t1 seconds.
+425272,Rank 5,Heals the target of $o1 damage over $d.,Healing $s1 damage every $t1 seconds.
+425273,Rank 6,Heals the target of $o1 damage over $d.,Healing $s1 damage every $t1 seconds.
+425274,Rank 7,Heals the target of $o1 damage over $d.,Healing $s1 damage every $t1 seconds.
+425275,Rank 8,Heals the target of $o1 damage over $d.,Healing $s1 damage every $t1 seconds.
+425276,Rank 9,Heals the target of $o1 damage over $d.,Healing $s1 damage every $t1 seconds.
+425277,Rank 10,Heals the target of $o1 damage over $d.,Healing $s1 damage every $t1 seconds.
+425285,,Call to the spirits of the elements.,
+425301,,,
+425321,,,
+425336,,"Reduces all damage you take by $s1% and you regenerate mana every second for $d. Mana regenerated per second is equal to $s2% of your Attack Power, $s3% of your spell power, or $s4% of your healing power, whichever value is greatest.",Damage taken reduced by $s1%. Regenerating $w2 mana every $t2 sec.
+425339,,Blast enemies in a cone in front of you for ${$<damagepower>*$m1/100+$m2/100*$AP} to ${$<damagepower>*$M1/100+$m2/100*$AP} Fire damage. This ability generates a high amount of threat. Flame Shock periodic damage has a $s3% chance to reset the cooldown on Molten Blast.,
+425340,,"Gain the Molten Blast ability:
+
+$@spellicon425339
+$@spelldesc425339",
+425341,,"Gain the Shamanistic Rage ability:
+
+$@spellicon425336
+$@spelldesc425336",
+425343,,"Engrave your pants with the Shamanistic Rage rune:
+
+$@spellicon425336
+$@spelldesc425336",
+425344,,"Engrave your gloves with the Molten Smash rune:
+
+$@spellicon425339
+$@spelldesc425339",
+425412,,"While wielding 2-handed weapons, your attack speed is increased by $s1%.
+",
+425415,,,Melee damage increased by $s1%.
+425418,,Enrages you and grants you a $425415s1% melee damage bonus for $425415d or up to a maximum of $425415n swings after you exceed $s1 Rage.,
+425421,,"Your Charge, Intercept, and Intervene abilities are now usable while in combat and in any stance, and will all remove movement impairing effects when activated.",
+425428,,"Gain the Quick Strike ability:
+
+$@spellicon429765
+$@spelldesc429765",
+425429,,"Gain the Raging Blow ability:
+
+$@spellicon402911
+$@spelldesc402911",
+425430,,"Gain the Warbringer ability:
+
+$@spellicon425421
+$@spelldesc425421",
+425431,,,
+425440,,"Gain the Consumed by Rage ability:
+
+$@spellicon425418
+$@spelldesc425418",
+425442,,"Gain the Frenzied Assault ability:
+
+$@spellicon425412
+$@spelldesc425412",
+425443,,"Engrave your gloves with the Quick Strike rune:
+
+$@spellicon429765
+$@spelldesc429765",
+425444,,"Engrave your chest with the Raging Blow rune:
+
+$@spellicon402911
+$@spelldesc402911",
+425445,,"Engrave your chest with the Warbringer rune:
+
+$@spellicon425421
+$@spelldesc425421",
+425446,,"Engrave your pants with the Consumed by Rage rune:
+
+$@spellicon425418
+$@spelldesc425418",
+425447,,"Engrave your pants with the Frenzied Assault rune:
+
+$@spellicon425412
+$@spelldesc425412",
+425460,,,The dream is collapsing.
+425462,,,
+425463,,"Surge with fel energy, increasing your pet's and your own dodge chance by $s1%, and your chance to critically strike with all attacks by $s2%. Lasts $d.","Dodge chance increased by $s1%. 
+Master's critical strike chance increased by $s2%."
+425464,,"Your pet's critical strikes apply the Demonic Pact effect to your party members for $425467d. Demonic Pact increases spell damage and healing by $s1% of your spell damage or ${$PL/2}, whichever is higher. Does not work on Subjugated demons.
+",
+425465,,,
+425466,,,
+425467,,,Spell damage and healing increased by $w1.
+425473,,"Gain the Demonic Pact ability:
+
+$@spellicon425464
+$@spelldesc425464",
+425474,,"Gain the Demonic Grace ability:
+
+$@spellicon425463
+$@spelldesc425463",
+425476,,"Engrave your pants with the Demonic Pact rune:
+
+$@spellicon425464
+$@spelldesc425464",
+425477,,"Engrave your pants with the Demonic Grace rune:
+
+$@spellicon425463
+$@spelldesc425463",
+425480,,,
+425497,,Toss bait.,
+425585,,,Block chance increased by $s1%.  Lasts maximum of $n blocks.
+425589,,Increases your block value by $s2% and damaging melee and ranged attacks against you have a $h% chance to increase your chance to block by $425585s1%.  Lasts $425585d or $425585n blocks. Effect not cumulative with Redoubt.,
+425600,,"The Paladin blows the Horn of Lordaeron, which increases total Strength and Agility of all party members within $a1 yards by ${$cond($gte($PL,60),89,$cond($gte($PL,56),74,$cond($gte($PL,52),60,$cond($gte($PL,42),45,$cond($gte($PL,32),26,$cond($gte($PL,22),17,$cond($gte($PL,12),11,6)))))))}. Lasts $d. Exclusive with Blessing of Might.",Increases your total Strength and Agility by $w1.
+425609,,Interrupts spellcasting and prevents any spell in that school from being cast for $d.,
+425614,,"Gain the Horn of Lordaeron ability:
+
+$@spellicon425600
+$@spelldesc425600",
+425615,,"Gain the Aegis ability:
+
+$@spellicon425589
+$@spelldesc425589",
+425616,,"Gain the Rebuke ability:
+
+$@spellicon425609
+$@spelldesc425609",
+425618,,"Engrave your chest with the Horn of Lordaeron rune:
+
+$@spellicon425600
+$@spelldesc425600",
+425619,,"Engrave your chest with the Aegis rune:
+
+$@spellicon425589
+$@spelldesc425589",
+425621,,"Engrave your pants with the Rebuke
+ rune:
+
+$@spellicon425609
+$@spelldesc425609",
+425711,,A sweeping attack that strikes all enemies in front of you for $s2% weapon damage.,
+425713,,Your critical hits with Shot abilities cause your pet's next 2 special attacks to critically hit.,
+425714,,Your critical hits with Shot abilities cause your pet's next 2 special attacks to critically hit.,Pet special abilities guaranteed to be critical strikes.
+425718,,Your critical hits with Shot abilities cause your pet's next 2 special attacks to critically hit.,Pet special abilities guaranteed to be critical strikes.
+425728,Rank 1,"Stings the target, causing $o1 Nature damage over $d.  Only one Sting per Hunter can be active on any one target.",Causes $s1 Nature damage every $t1 seconds.
+425729,Rank 2,"Stings the target, causing $o1 Nature damage over $d.  Only one Sting per Hunter can be active on any one target.",Causes $s1 Nature damage every $t1 seconds.
+425730,Rank 3,"Stings the target, causing $o1 Nature damage over $d.  Only one Sting per Hunter can be active on any one target.",Causes $s1 Nature damage every $t1 seconds.
+425732,Rank 4,"Stings the target, causing $o1 Nature damage over $d.  Only one Sting per Hunter can be active on any one target.",Causes $s1 Nature damage every $t1 seconds.
+425733,Rank 5,"Stings the target, causing $o1 Nature damage over $d.  Only one Sting per Hunter can be active on any one target.",Causes $s1 Nature damage every $t1 seconds.
+425734,Rank 6,"Stings the target, causing $o1 Nature damage over $d.  Only one Sting per Hunter can be active on any one target.",Causes $s1 Nature damage every $t1 seconds.
+425735,Rank 7,"Stings the target, causing $o1 Nature damage over $d.  Only one Sting per Hunter can be active on any one target.",Causes $s1 Nature damage every $t1 seconds.
+425736,Rank 8,"Stings the target, causing $o1 Nature damage over $d.  Only one Sting per Hunter can be active on any one target.",Causes $s1 Nature damage every $t1 seconds.
+425737,Rank 9,"Stings the target, causing $o1 Nature damage over $d.  Only one Sting per Hunter can be active on any one target.",Causes $s1 Nature damage every $t1 seconds.
+425738,,Targets hit by your Multi-Shot are also afflicted by your Serpent Sting for $425728d.,
+425754,,"Gain the Carve ability:
+
+$@spellicon425711
+$@spelldesc425711",
+425755,,"Gain the Cobra Strikes ability:
+
+$@spellicon425713
+$@spelldesc425713",
+425756,,"Gain the Serpent Spread ability:
+
+$@spellicon425738
+$@spelldesc425738",
+425757,,"Gain the Flanking Strike ability:
+
+$@spellicon415320
+$@spelldesc415320",
+425758,,"Engrave your gloves with the Carve rune:
+
+$@spellicon425711
+$@spelldesc425711",
+425759,,"Engrave your chest or robe with the Cobra Strikes rune:
+
+$@spellicon425713
+$@spelldesc425713",
+425760,,"Engrave your pants with the Serpent Spread rune:
+
+$@spellicon425738
+$@spelldesc425738",
+425762,,"Engrave your pants with the Flanking Strike rune:
+
+$@spellicon415320
+$@spelldesc415320",
 425798,,,
+425886,,,
+425887,,,Something within you now hungers for Gnoll blood and vengeance...
+426019,,Eat (at your own risk).,Granted a new kind of vision.
+426053,,,
+426062,,,
+426068,,,
+426069,,,
+426070,,,
+426072,,,Filled with inspiration.
+426090,,,
+426117,,,
+426182,,,
+426190,,,
+426192,,,Do murlocs even need underwater breathing?
+426197,,,
+426198,,,
+426199,,Deals $s1 Shadow damage every $t1 sec.,Deals $s1 Shadow damage every $t1 sec.
+426200,,,
+426223,,,
+426257,,,Filled with inspiration.
+426336,,,
+426359,,Decipher the spell notes with a Comprehension Charm to learn a new Engraving spell.,
+426366,,,
+426415,,,
+426429,,,
+426487,,,
+426489,,,Increases all damage done by ${$w0}%.
+426493,,,
+426494,,,
+426495,,,"Shadows constrict your legs, decreasing movement speed and inflicting $s3 damage every $t3 sec."
+426496,,,
+426498,,,
+426501,,,
+426502,,,
+426503,,,
+426504,,,
+426571,,,
+426604,,,System rebooting.
+426606,,Allows the imbiber to speak with the corpse of an individual with unfinished buisness in the mortal world. Also may cure indigestion.,Allows the imbiber to speak with the corpse of an individual with unfinished buisness in the mortal world. Also may cure indigestion.
+426607,,,
+426608,,Teaches you how to make an Elixir of Coalesced Regret.,
+426611,,,
+426612,,Behold a vision at Je'neu's  bonfire.,
+426633,,Make an offering of blood and unleash the soul within.,
+426639,,,
+426640,,,A willing sacrifice has been made.
+426668,,Summons $s1 $lStone Rumbler:Stone Rumblers; to accompany the caster until dismissed.,
+426694,,"Shapeshifts into a bear for $d, increasing armor and hit points, as well as allowing the use of various bear abilities.","Shapeshifted into bear.
+Armor increased by $1178s1%,  hit points increased by 290, and attack power increased by 75."
+426737,,,
+426738,,,
+426740,,,
+426742,,,
+426745,,,
+426754,,Make an Offering of Blood to release this Tortured Soul.,
+426764,,,"Unmotivated... No pain, no gain."
+426811,,,Allies within $a1 yards of a battlefield leader gain $s1% increased health and $s2% increased damage.
+426821,,Calls upon Nature magic to heal an ally.,
+426832,,,
+426842,,,
+426917,,,Vulnerable to fire damage.
+426923,,,Vulnerable to frost damage.
+426925,,,Vulnerable to nature damage.
+427020,,Add $q2 Copper Bars to complete the shipment.,
+427063,,Teaches you how to craft a Mantle of the Second War.,
+427116,,,"Allies within $a1 yards of the Priestess of the Moon gain $s1% increased health and $s2% increased damage.
+
+These values are increased by each living Keeper of the Grove in the Priestess's army, each one granting $427116s1% increased health and $427116s2% increased damage."
+427117,,,"Allies within $a1 yards of the Priestess of the Moon gain $s1% increased health and $s2% increased damage.
+
+These values are increased by each living Keeper of the Grove in the Priestess's army, each one granting $427116s1% increased health and $427116s2% increased damage."
+427118,,,"Allies within $a1 yards of the Priestess of the Moon gain $s1% increased health and $s2% increased damage.
+
+These values are increased by each living Keeper of the Grove in the Priestess's army, each one granting $427116s1% increased health and $427116s2% increased damage."
+427119,,,"Allies within $a1 yards of the Far Seer gain $s1% increased health and $s2% increased damage.
+
+These values are increased by each living Blade Master in the Far Seer's army, each one granting $427116s1% increased health and $427116s2% increased damage."
+427120,,,"Allies within $a1 yards of the Far Seer gain $s1% increased health and $s2% increased damage.
+
+These values are increased by each living Blade Master in the Far Seer's army, each one granting $427116s1% increased health and $427116s2% increased damage."
+427121,,,"Allies within $a1 yards of the Far Seer gain $s1% increased health and $s2% increased damage.
+
+These values are increased by each living Blade Master in the Far Seer's army, each one granting $427116s1% increased health and $427116s2% increased damage."
+427123,,,Allies within $a1 yards of the Priestess of the Moon gain $427116s1% increased health and $427116s2% increased damage per living Keeper of the Grove in her army.
+427143,,Increases the all damage taken by an enemy by $s1 for $d.,All damage taken is increased by $s1.
+427144,,"This item is infused with the raw power of the Void. When the bearer is attacked this item has a high chance of inflicting a terrible curse, causing the attacker to take additional damage from all sources for 15 seconds. 
+",
+427592,,Disguise yourself as a member of the Scarlet Crusade. Suspicious activity will break the disguise.,Disguised as a member of the Scarlet Monastery.
+427625,,,Deals $w1 Nature damage every $t1 sec.
+427711,,,
+427715,,,
+427718,,,
+427750,,,
+427751,,,The cleansing waters wash off any impurities.
+427752,,,
+427753,,,
+427754,,,
+427755,,,
+427774,,"You feel an otherworldly, crushing pressure.",A crushing darkness envelops you...
+427780,,,
+427781,,,
+427859,,,
+427860,,,
+427931,,,
+428090,,,
+428113,,,
+428131,,,
+428172,,,
+428221,,,
+428226,,,
+428229,,,
+428238,,,Survive the ritual.
+428252,,,
+428279,,,
+428297,,,
+428425,,Teaches you how to sew Phoenix Bindings.,
+428482,,,Max health lowered by $w1% and Shadow damage taken increased by $w2%.
+428483,,,Fortified by Shadow magic seeping from Aku'mai. Health increased by $w2%.
+428484,,,
+428485,,,
+428489,,"Momentarily enter another plane of existence, instantly reducing threat as well as reducing all damage taken and damage dealt by $M% for $d. ",Your physical body has entered another plane of existence. All damage taken and dealt is reduced.
+428658,,,
+428665,,,
+428700,,,
+428710,,,"The elemental's binding magics are unravelling, radiating raw mana on nearby players."
+428723,,,
+428724,,,
+428732,,,
+428733,,,The corrupted waters cling to you.
+428740,,,
+428761,,,
+428796,,,
+428828,,,
+428837,,Add $q2 Light Leather to complete the shipment.,
+428838,,Add $q2 Peacebloom to complete the shipment.,
+428840,,Add $q2 Silverleaf to complete the shipment.,
+428842,,Add $q2 Minor Healing Potions to complete the shipment.,
+428843,,Add $q2 Copper Shortswords to complete the shipment.,
+428844,,Add $q2 Runed Copper Pants to complete the shipment.,
+428845,,Add $q2 Lesser Magic Wands to complete the shipment.,
+428846,,Add $q2 Minor Wizard Oil to complete the shipment.,
+428847,,Add $q2 Rough Copper Bombs to complete the shipment.,
+428848,,Add $q2 Rough Boomsticks to complete the shipment.,
+428849,,Add $q2 Handstitched Leather Belts to complete the shipment.,
+428850,,Add $q2 Embossed Leather Vests to complete the shipment.,
+428851,,Add $q2 Brown Linen Pants to complete the shipment.,
+428853,,Add $q2 Brown Linen Robes to complete the shipment.,
+428855,,Add $q2 Herb Baked Eggs to complete the shipment.,
+428856,,Add $q2 Spiced Wolf Meat to complete the shipment.,
+428857,,Add $q2 Brilliant Smallfish to complete the shipment.,
+428858,,Add $q2 Heavy Linen Bandages to complete the shipment.,
+428996,,,
+428998,,,
+429125,,"Hastens your spellcasting, increasing spell casting speed by $s1% and reduces the pushback suffered from damaging attacks while casting by $s2%.  Lasts $d.",Casting speed of all spells increased by $s1% and reduces pushback suffered by damaging attacks while casting by $s2%.
+429154,,,
+429165,,,
+429167,,,
+429168,,,
+429207,,,
+429237,,,
+429314,,,
+429315,,,
+429327,,,
+429328,,,
+429329,,,
+429336,,,
+429337,,,
+429338,,,
+429339,,Protects the bearer from the effects of Crushing Darkness.,
+429340,,,
+429347,,Attempt to use a powerful source of The Light to destroy The Box.,You've destroyed The Box. You should feel relief but you feel a sense of unease. It's as if you are being watched.
+429348,,,
+429349,,,
+429350,,Attempt to counter the Void with the Light and destroy The Box.,
+429351,,,
+429352,,,
+429353,,,
+429354,,,
+429355,,,
+429356,,,
+429357,,,
+429358,,,
+429359,,,
+429387,,,
+429390,,,
+429391,,,
+429394,,,The watery shadows pull at you.
+429429,,,
+429432,,,Allies within $a1 yards of the Priestess of the Moon gain $427116s1% increased health and $427116s2% increased damage per living Keeper of the Grove in her army.
+429434,,"Hurls a bolt of dark magic at an enemy, inflicting Shadow damage.",
+429436,,,Allies within $a1 yards of the Priestess of the Moon gain $427116s1% increased health and $427116s2% increased damage per living Keeper of the Grove in her army.
+429541,,,All damage taken reduced by $s1%.
+429543,,,"The elemental's binding magics are unravelling, radiating raw mana on nearby players."
+429547,,,
+429578,,,Filled with inspiration.
+429593,,,
+429660,,,
+429671,,,
+429687,,Takes control of a humanoid enemy up to level $s1 for $d.,Charmed.
+429688,,"Takes control of a humanoid enemy up to level $s1 for $d., but increases the time between its attacks by $s2%.","Charmed.
+Time between attacks increased by $s2%."
+429701,,,
+429723,,,
+429732,,Place a bomb with a short fuse on the ground in front of you.,
+429743,,,
+429748,,"Replaces your Heroic Strike ability with Quick Strike:
+
+$@spellicon429765
+$@spelldesc429765
+",
+429765,,"A reckless instant melee attack with your two-handed weapon dealing ${$AP*$m1/100} to ${$AP*$M1/100} physical damage. This ability benefits from and triggers all effects associated with Heroic Strike.
+
+
+",
+429820,,Inflicts $s1 Arcane damage to enemies in a selected area every $t1 sec. for $d.,
+429821,,"Shoots a flaming arrow at an enemy, inflicting weapon damage plus $s1. All damage inflicted is based upon Fire magic.",
+429822,,"Inflicts normal damage to an enemy and its nearest allies, affecting up to $x1 targets.",
+429823,,"Inflicts $s2 Arcane damage to an enemy, then an additional $s1 damage every $t1 sec. for $d.",$s1 Arcane damage inflicted every $t1 sec.
+429825,,"Strikes an enemy with a lightning bolt that arcs to another nearby enemy. The spell affects up to $x1 targets, inflicting greater Nature damage to each successive target.",
+429827,,"Instantly throws a bolt of lightning at an enemy, inflicting Nature damage.",
+429836,,,"A nearby shrine is dedicated to the Light, increasing your Spirit by $s1%."
+429838,,Deals $s1 Fire damage to your target.,
+429856,,Summons a Trainee's Sentinel Nightsaber. Only usable in Ashenvale.,Increases speed by $s2%.
+429857,,Summons a Trainee's Outrider Wolf. Only usable in Ashenvale.,Increases speed by $s2%.
+429867,,"Descend into madness, increasing attack speed by $M% as well as increasing the threat you generate for $d. ",You have descended into a dark madness. Attack speed and threat generation increased.
+429868,,"Descend into madness, increasing spell damage by $M% as well as increasing the threat you generate for $d. ",You have descended into a dark madness. Spell damage and threat generation increased.
+429869,,,
+429898,,,
+429953,,,
+429958,,,
+429972,,Consider at a certain secluded grave in Duskwood to receive a prophecy.,
+429984,,,
+430021,,Consider at a Thistlefur dreamcatcher high in the canopy to receive a prophecy.,
+430025,,,"Dodge chance increased by $425463s1%. 
+Master's critical strike chance increased by $425463s2%."
+430134,,,
+430139,,,Building arcane energy.
+430141,,,
+430182,,,
+430185,,,
+430231,,,
+430236,,Decipher the scroll with a Comprehension Charm. Who knows what magic it contains?,
+430318,,Brings a dead player back to life with $s1% of their health and mana.  Cannot be used when in combat.,
+430352,,Increases all damage and healing done by $s1% for $d.,Increases all damage and healing done by $s1%.
+430373,,,
+430374,,Add $q2 Bronze Bars to complete the shipment.,
+430375,,Add $q2 Silver Bars to complete the shipment.,
+430376,,Add $q2 Medium Leather to complete the shipment.,
+430377,,Add $q2 Light Hide to complete the shipment.,
+430378,,Add $q2 Bruiseweed to complete the shipment.,
+430380,,Add $q2 Swiftthistle to complete the shipment.,
+430383,,Add $q2 Lesser Mana Potions to complete the shipment.,
+430385,,Add $q2 Rough Bronze Boots to complete the shipment.,
+430387,,Add $q2 Silver Skeleton Keys to complete the shipment.,
+430388,,Add $q2 Runed Silver Rods to complete the shipment.,
+430389,,Add $q2 Minor Mana Oil to complete the shipment.,
+430391,,An enchanted edge increases your chance to hit by $s1%. This has no effect outside of Blackfathom Deeps.,
+430392,,While applied to the target weapon increases Hit Chance by 2% for 30 minutes. This has no effect outside of Blackfathom Deeps.,
+430393,,Add $q2 Small Bronze Bombs to complete the shipment.,
+430394,,Add $q2 Ornate Spyglasses to complete the shipment.,
+430395,,Add $q2 Dark Leather Cloaks to complete the shipment.,
+430396,,Add $q2 Hillman's Shoulders to complete the shipment.,
+430397,,,
+430398,,Teaches you how to make a Blackfathom Sharpening Stone.,
+430399,,Add $q2 Gray Woolen Shirts to complete the shipment.,
+430401,,Add $q2 Pearl-clasped Cloaks to complete the shipment.,
+430402,,Add $q2 Smoked Sagefish to complete the shipment.,
+430403,,Add $q2 Smoked Bear Meat to complete the shipment.,
+430404,,Add $q2 Goblin Deviled Clams to complete the shipment.,
+430405,,Add $q2 Heavy Wool Bandages to complete the shipment.,
+430406,,Restores $s1 mana per $t1 sec and Increases Spell Hit by 2%. This effect only applies within Blackfathom Deeps.,
+430407,,,
+430409,,Creates Blackfathom Mana Oil.,
+430410,,Teaches you how to create Blackfathom Mana Oil.,
+430419,,Decipher the scroll with a Comprehension Charm. Who knows what magic it contains?,
+430420,,,"A nearby shrine is dedicated to Elune, increasing your Intellect by $s1%."
+430421,,,"A nearby shrine is dedicated to the loa, increasing your Stamina by $s1%."
+430422,,,"A nearby shrine is dedicated to undeath, increasing your Armor by $s1%."
+430432,,Reduces all damage taken and chance to be critically hit by $s1% in Warsong Gulch.,Reduces chance to be critically hit and damage taken by $s1%.
+430472,,"While dual-wielding, your Physical damage and movement speed are increased by $s1%.
+",
+430491,,Unlucky! Your total health has been reduced by 10% for 20 minutes.,Health decreased by 10%
+430492,,You feel invigorated! Your total health has been increased by 25% for 20 minutes.,Health increased by 25%.
+430493,,You feel unhealthy! Your natural health regen has been reduced by 100% for 20 minutes.,Health regeneration decreased by 100%.
+430494,,You feel fast! Your movement speed has been increased by 50% for 20 minutes.,Movement speed increased by 50%.
+430495,,You feel sluggish! Your movement speed has been decreased by 25% for 20 minutes.,Movement speed decreased by 25%.
+430496,,You feel inspired! Experience gains increased by $s1%.,Experience gains increased by $s1%.
+430497,,Oh no! You've been demoted back to newbie!,Recently teleported back to Goldshire. Bummer!
+430499,,Oh no! You've been demoted back to newbie!,Recently teleported back to Razor Hill. Bummer!
+430501,,You feel unsteady! ,You feel a bit woozy!
+430565,,,
+430571,,,
+430585,,"While applied to the target weapon restores 12 mana per 5 sec and Increases Spell Hit by 2% for $t1 minutes. This effect only applies within Blackfathom Deeps.
+",
+430587,,,
+430723,,Inflicts Physical damage to an enemy every $t1 sec. for $d.,Physical damage inflicted every $t1 sec.
+430771,,Add $q2 Rough Stone to complete the shipment.,
+430773,,Add $q2 Healing Potions to complete the shipment.,
+430776,,Add $q2 Elixir of Firepower to complete the shipment.,
+430818,,,
+430947,,"Increases critical chance of spells, melee, and ranged by 2%, grants 20 attack power, and increases movement speed by 20%. 120 minute duration.","Increases critical chance of spells, melee, and ranged by 2%, grants 20 attack power, and increases movement speed by 20%. 120 minute duration."
+430948,,Restores $s1 mana per $t1 sec.,Restores $s1 mana per $t1 sec.
+430949,,Increases your chance to hit with spells by $s1%. ,Increases your chance to hit with spells by $s1%.
+430950,,Increases your fire resistance by $s1 for $d1. ,Increases your fire resistance by $s1 for $d1.
+430951,,Increases your frost resistance by $s1 for $d1. ,Increases your frost resistance by $s1 for $d1.
+430952,,Increases your chance to crit with spells by $s1%. ,Increases your chance to crit with spells by $s1%.
+430959,,,
+430984,,,
+430989,,,
+430990,,,
+430991,,,
+430996,,,
+430999,,,
+431000,,,
+431001,,,
+431046,,"While wielding 2-handed weapons, your attack speed is increased by $s1%.
+",
+431060,,,Use your Hearthstone!
+431111,,"Increases critical chance of spells, melee, and ranged by 2%, grants 20 attack power, and increases movement speed by 20%. 120 minute duration.","Increases critical chance of spells, melee, and ranged by 2%, grants 20 attack power, and increases movement speed by 20%. 120 minute duration."
+431980,,,
+431981,,,
+432069,,,Fire and Frost spell damage done reduced by $s1% and unable to cast Ice Block.

@@ -12153,11 +12153,11 @@ ID,BaseTag,TagText_lang,Flags
 23852,ENCHANTED_TOOLTIP_LINE,Enchanted: %s,1
 23853,DELETE_GOOD_QUEST_ITEM,"Do you want to destroy %s?\n|cffff2020Destroying this item will also abandon any related quests.|r\n\nType ""DELETE"" into the field to confirm.",1
 23855,POWER_TYPE_FURY,Fury,1
-23856,INSTANCE_CHAT,Battleground,1
-23857,INSTANCE_CHAT_LEADER,Battleground Leader,1
-23858,CHAT_INSTANCE_CHAT_GET,|Hchannel:INSTANCE_CHAT|h[Battleground]|h %s:\32,1
-23859,CHAT_INSTANCE_CHAT_SEND,Battleground:\32,1
-23860,CHAT_INSTANCE_CHAT_LEADER_GET,|Hchannel:INSTANCE_CHAT|h[Battleground Leader]|h %s:\32,1
+23856,INSTANCE_CHAT,Instance,1
+23857,INSTANCE_CHAT_LEADER,Instance Leader,1
+23858,CHAT_INSTANCE_CHAT_GET,|Hchannel:INSTANCE_CHAT|h[Instance]|h %s:\32,1
+23859,CHAT_INSTANCE_CHAT_SEND,Instance:\32,1
+23860,CHAT_INSTANCE_CHAT_LEADER_GET,|Hchannel:INSTANCE_CHAT|h[Instance Leader]|h %s:\32,1
 23863,SLASH_INSTANCE_CHAT1,/instance,1
 23864,SLASH_INSTANCE_CHAT2,/instance,1
 23865,SLASH_INSTANCE_CHAT3,/bg,1
@@ -12165,7 +12165,7 @@ ID,BaseTag,TagText_lang,Flags
 23867,SLASH_INSTANCE_CHAT5,/bg,1
 23868,SLASH_INSTANCE_CHAT6,/battleground,1
 23869,SLASH_INSTANCE_CHAT7,/instance_chat,1
-23870,INSTANCE_CHAT_MESSAGE,Battleground,1
+23870,INSTANCE_CHAT_MESSAGE,Instance,1
 23871,ERR_NOT_IN_INSTANCE_GROUP,You aren't in an instance group.,1
 23872,PET_BATTLE_COMBAT_LOG_CAST,%s %s cast %s.,1
 23873,MIN_DAMAGE,Min Damage,1
@@ -14838,7 +14838,7 @@ ID,BaseTag,TagText_lang,Flags
 33850,AVAILABLE_CLASSES,Available Classes,2
 33851,BACK_TO_ACTIVE_CHARACTERS,Back to Active Characters,2
 33852,BAG_SLOTS,SLOTS %d,2
-33853,BETA_BUILD,Beta,2
+33853,BETA_BUILD,Beta,3
 33854,BF_DEATHS,Deaths,2
 33855,BF_HONOR_KILLS,Honorable Kills,2
 33856,BF_HONOR_POINTS,hnr,2
@@ -15268,7 +15268,7 @@ ID,BaseTag,TagText_lang,Flags
 34280,CUSTOMIZE_CHARACTER,Customize character:,2
 34281,CUSTOMIZE_OPTIONS,Customization,2
 34282,DEATHKNIGHT_DISABLED,Requires Wrath of the Lich King\nand a level 55 character,2
-34283,DEBUG_BUILD,Debug,2
+34283,DEBUG_BUILD,Debug,3
 34284,DELETE_CHARACTER,Delete Character,2
 34285,DELETE_CONFIRM_STRING,DELETE,2
 34286,DEMONHUNTER_DISABLED,Requires Legion and a level 70 character.,2
@@ -15318,7 +15318,7 @@ ID,BaseTag,TagText_lang,Flags
 34330,GAME_SERVER_LOGIN,Logging in to game server,2
 34331,GAME_UPDATES,Game Updates,2
 34332,GENDER,Gender,2
-34333,GM_BUILD,GM,2
+34333,GM_BUILD,GM,3
 34334,GOBLIN_DISABLED,Requires Cataclysm,2
 34335,HARDWARE_SURVEY_AGREE,I consent,2
 34336,HARDWARE_SURVEY_DISAGREE,I don't consent,2
@@ -15327,7 +15327,7 @@ ID,BaseTag,TagText_lang,Flags
 34339,HORDE,Horde,2
 34340,HUNTER_DISABLED,You must choose a different race to be this class.,2
 34341,IDLE_LOGOUT_WARNING,You will be logged out soon,2
-34342,INTERNAL_BUILD,INTERNAL,2
+34342,INTERNAL_BUILD,INTERNAL,3
 34343,KOREA,Korea,2
 34344,LATEST_AGREEMENTS_BETA_URL,http://launcher.worldofwarcraft.com/2.0/legal/en-us/agreements.mpq,2
 34345,LATEST_AGREEMENTS_URL,http://launcher.worldofwarcraft.com/legal/agreements.mpq,2
@@ -15426,7 +15426,7 @@ ID,BaseTag,TagText_lang,Flags
 34444,PATCH_FAILED_DISK_FULL,There is not enough disk space available to download the patch.  Please make %d megabytes available and then try again.  Please note that additional space will be required to apply the patch.,2
 34445,PATCH_FAILED_MESSAGE,Failed to apply patch. Please try again later.  If this problem persists you may need to reinstall or contact technical support.,2
 34446,PENETRATION,PENET %d,2
-34447,PERFORMANCE_BUILD,Performance,2
+34447,PERFORMANCE_BUILD,Performance,3
 34448,PHONESECURE_ENH_TEXT,"For security reasons, please call %s from the phone registered on this account to validate this login attempt, and enter your PIN as well as the following security code: %s.",2
 34449,PHONESECURE_HEADER,Phone Call Required,2
 34450,PHONESECURE_TEXT,"Please call %s from your registered phone, and enter your PIN as well as the following security code: %s.",2
@@ -15507,7 +15507,7 @@ ID,BaseTag,TagText_lang,Flags
 34525,RECRUIT_A_FRIEND_FACTION_SUGGESTION_HORDE,Your friend plays for the Horde faction. Pick one of these races if you want to play together.,2
 34526,REGEN,REGEN %.0f,2
 34527,REGION_ID,Region ID,2
-34528,RELEASE_BUILD,Release,2
+34528,RELEASE_BUILD,Release,3
 34529,RESET_SERVER_SETTINGS,Are you sure you want to reset all user options to their defaults the next time you login?,2
 34530,RESET_SETTINGS,Reset User Options,2
 34531,RESET_WARNING,All user options will be reset the next time you log in!,2
@@ -15593,7 +15593,7 @@ ID,BaseTag,TagText_lang,Flags
 34613,TEMP_WEAPON,- Throwing\n- Axes\n- 2 - Hand Axes\n- Swords\n- 2 - Hand Swords\n- Maces\n- 2 - Hand Maces\n- Polearms\n- Bows,2
 34614,TERMINATION_WITHOUT_NOTICE_FRAME_TITLE,Termination of Service without Prior Notice,2
 34615,TERMINATION_WITHOUT_NOTICE_NOTICE,The Terms of Use have changed. Please scroll down and review the changes before accepting the agreement.,2
-34616,TEST_BUILD,Test,2
+34616,TEST_BUILD,Test,3
 34617,TOS_ACCEPT,Accept,2
 34618,TOS_DECLINE,Reject,2
 34619,TOS_FRAME_TITLE,Terms of Use,2
@@ -17472,6 +17472,7 @@ ID,BaseTag,TagText_lang,Flags
 41512,GRAPHICS_QUALITY_CLASSIC,Graphics Quality (Classic),3
 41522,SHOW_MINIMAP_CLOCK,Show Minimap Clock,1
 41523,OPTION_TOOLTIP_SHOW_MINIMAP_CLOCK,Uncheck this to hide the clock below the minimap.,1
+41600,ENTER_LFG,Enter,1
 41615,CREDITS_WOW_CLASSIC,World of Warcraft Classic Credits,2
 41640,BNET_FRIEND_ZONE_WOW_CLASSIC,WoW Classic: %s,1
 41641,BNET_FRIEND_TOOLTIP_WOW_CLASSIC,WoW Classic,1
@@ -17881,7 +17882,10 @@ ID,BaseTag,TagText_lang,Flags
 44352,RESTRICT_CHAT_CONFIG_DIALOG_CANCEL,Cancel,1
 44403,RESTRICT_CHAT_TOOLTIP_FORMAT,%s\n%s,1
 44404,RESTRICT_CHAT_CHATFRAME_FORMAT,%s %s,1
+44405,GROUP_FINDER_DELIST,Delist,1
+44406,GROUP_FINDER_BROWSE,Browse Groups,1
 44408,ENABLE_MOUSEOVER_CAST,Mouseover Cast,1
+44421,GROUP_FINDER_BACK_TO_GROUP,Back to Group,1
 44422,PCT_FLOW_TITLE,Character Transfer,2
 44423,PCT_FLOW_FINISH_LABEL,Accept,2
 44424,PCT_FLOW_SLECT_CHARACTER_ACTIVE,Choose your character,2
@@ -17891,6 +17895,8 @@ ID,BaseTag,TagText_lang,Flags
 44428,PCT_FLOW_DESTINATION_REALM_LABEL,Destination Realm,2
 44439,RESAMPLE_SHARPNESS,Resample Sharpness,3
 44440,OPTION_TOOLTIP_SHARPNESS,Adjusts the strength of the FidelityFX Super Resolution sharpness effect. 0 is full strength.,3
+44451,LFG_LIST_ITEM_LEVEL_PVP,Min. PvP Item Level,1
+44452,LFG_LIST_ITEM_LEVEL_PVP_INSTR_SHORT,PvP Item Level,1
 44464,PCT_DESTINATION_REALM_LABEL_COMPLETE,|cffffd200Realm:|r %s,2
 44465,PCT_TOKEN_TOOLTIP_TITLE,Character Transfer,2
 44467,PCT_TOKEN_TOOLTIP_TEXT,Transfer your character to another realm or account,2
@@ -17932,6 +17938,10 @@ ID,BaseTag,TagText_lang,Flags
 48748,VIDEO_OPTIONS_NOTCH_MODE_SHIFT_UI,Shift user interface down to avoid notch,3
 48749,NOTCH_MODE_WINDOW_BELOW,Window Below,3
 48750,VIDEO_OPTIONS_NOTCH_MODE_WINDOW_BELOW,Window is below notch with a black bar,3
+48774,LFG_LIST_CROSS_FACTION,Limit to %s,1
+48775,LFG_LIST_CROSS_FACTION_TOOLTIP,Only %s players will see your group.|n|nThis may reduce the number of applicants you recieve.,1
+48779,LFG_LIST_TOOLTIP_LEADER_FACTION,Leader: |cffffffff%s (%s)|r,1
+48780,UNIT_TYPE_LEVEL_FACTION_TEMPLATE,Level %d %s (%s),1
 48783,INVTYPE_PROFESSION_TOOL,Profession Tool,1
 48784,INVTYPE_PROFESSION_GEAR,Profession Equipment,1
 48785,ITEM_MOD_INSPIRATION_SHORT,Inspiration,1
@@ -17970,6 +17980,7 @@ ID,BaseTag,TagText_lang,Flags
 48850,REPORT_CLUB_MEMBER,Report Player,1
 48851,REPORT_FRIEND,Report Player,1
 48852,REPORT_GROUP_MEMBER,Report Player,1
+48853,LFG_LIST_CROSS_FACTION_DISABLE_TOOLTIP,This activity doesn't support cross-faction groups.|n|nYour group will only appear to %s players.,1
 48855,REPORTING_MINOR_CATEGORY_CHARACTER_NAME,Character Name,1
 48856,REPORTING_MINOR_CATEGORY_GUILD_NAME,Guild Name,1
 48857,REPORTING_MINOR_CATEGORY_DESCRIPTION,Description,1
@@ -18017,6 +18028,7 @@ ID,BaseTag,TagText_lang,Flags
 49039,SETTINGS_CANCEL_TIMEOUT_BUTTON,Cancel,3
 49040,SETTINGS_KEYBINDINGS_LABEL,Keybindings,3
 49041,SETTINGS_BIND_KEY_TO_COMMAND_OR_CANCEL,"Assign Binding for \""%s\"" or Press %s to Cancel",3
+49045,SETTINGS_RAID_GRAPHICS_QUALITY,Raid Graphics Quality,3
 49046,SETTINGS_FMT_FPS,%d FPS,3
 49047,CAMERA_CTM_FOLLOWING_STYLE,Camera Following Style,3
 49092,BODY_1,Body 1,3
@@ -18140,7 +18152,7 @@ ID,BaseTag,TagText_lang,Flags
 50397,HARDCORE_DEATH,You have died. Your deeds of heroism will be remembered.,1
 50398,HARDCORE_GO_AGAIN,Try again!,1
 50406,HARDCORE_WARNING,"|cffffffffDeath is permanent|r|n|n|cffffd200Hold, adventurer. The realm you are selecting is a HARDCORE realm. If you choose to play on this realm, character death is permanent.|r|n|n|cffffffffCustomer Support will not restore fallen hardcore characters for any reason",2
-50407,HARDCORE_CHARACTER_CREATE_WARNING,"Welcome to WoW Classic Hardcore Realms. Any character that dies on a Hardcore realm can never resurrect on that realm for ANY reason. Customer Support cannot resurrect a dead Hardcore character.|n|nBy agreeing to play on these realms, you accept that your character's death is permanent for whatever the reason. This includes disconnections, lag, sever outages, gameplay bugs, or any other reason. Dying due to consensual PvP activity-- such as a Duel to the Death or deliberately PvP flagging-- is part of the game.|n|n",2
+50407,HARDCORE_CHARACTER_CREATE_WARNING,"Welcome to WoW Classic Hardcore Realms. Any character that dies on a Hardcore realm can never resurrect on that realm for ANY reason. Customer Support cannot resurrect a dead Hardcore character.|n|nBy agreeing to play on these realms, you accept that your character's death is permanent for whatever the reason. This includes disconnections, lag, server outages, gameplay bugs, or any other reason. Dying due to consensual PvP activity-- such as a Duel to the Death or deliberately PvP flagging-- is part of the game.|n|n",2
 50408,HARDCORE_TITLE_WARNING,Warning!,2
 50418,VISITABLE_URL58,https://www.battlenet.com.cn/support/zh/help/home,2
 50419,VISITABLE_URL59,https://www.battlenet.com.cn/support/zh/ticket/status?loc,2
@@ -18171,7 +18183,7 @@ ID,BaseTag,TagText_lang,Flags
 50560,AUDIO_OUTPUT_DEVICE,Output Device,3
 50561,OPTION_TOOLTIP_AUDIO_OUTPUT,Selects where you would like to hear your game audio.,3
 50562,OPTION_TOOLTIP_FX_VOLUME,Adjusts the sound effect volume.,3
-50563,FX_VOLUME,Adjusts the sound effect volume.,3
+50563,FX_VOLUME,Effects,3
 50564,AUDIO_CHANNELS,Audio Channels,3
 50565,OPTION_TOOLTIP_AUDIO_CHANNELS,Changes the number of active software audio channels.,3
 50566,AUDIO_CACHE_SIZE,Audio Cache Size,3
@@ -18192,10 +18204,19 @@ ID,BaseTag,TagText_lang,Flags
 51224,SLASH_TEXTTOSPEECH_MONEY,moneyloot,1
 51325,HARDCORE_CHARACTER_CREATE_WARNING_TWO,"By agreeing to play on these realms, you agree to conduct yourself in a positive manner, not engage in harassment, hate speech, or bullying towards any other player or group. Azeroth is a dangerous place, but remember that this is a game that you are playing for fun. Be good to each other.|n|nBlizzard Entertainment reserves the right to take the most severe actions in response to deliberate negative behavior on these realms. Any players willfully and deliberately causing player death outside consensual PvP or disrupting the play environment will find their accounts subject to disciplinary action.|n|nPress ""I Agree"" to accept these conditions and continue.",2
 51328,SPELL_FAILED_NO_HEARTH_WHILE_DIVINE_SHIELD,You cannot use Hearthstone during Divine Shield on Hardcore.,1
+51329,ALL_RUNES,All Runes,1
+51330,BATTLE_PET_NAME_11,Non-Combat,0
+51331,ENGRAVE_RUNE_TOOLTIP,<Click to Engrave Rune>,1
 51333,ICON_SELECTION_TITLE_CURRENT,Currently Selected,1
 51334,ICON_FILTER_ALL,All Icons,1
 51335,ICON_FILTER_SPELL,Spells,1
 51336,ICON_FILTER_ITEM,Items,1
+51370,EQUIPPED_RUNES,Equipped Runes,1
+51371,RUNES_COLLECTED,%d/%d Runes Collected,1
+51372,RUNES_COLLECTED_SLOT,%d/%d %s Runes Collected,1
+51392,SLASH_TEXTTOSPEECH_PING,ping,1
+51393,SLASH_TEXTTOSPEECH_HELP_PING,Enable or disable ping messages,1
+51397,SPELL_FAILED_CUSTOM_ERROR_361,You must be on Westfall farmland,1
 51400,ANNOUNCE_GUILD_MEMBER_DEATH,Announce Guild Member Death,1
 51401,ANNOUNCE_GUILD_MEMBER_DEATH_TOOLTIP,Check this box to have a warning appear on your screen when a guild member dies.,1
 51402,GUILD_DEATHS,Guild Deaths,1
@@ -18204,11 +18225,22 @@ ID,BaseTag,TagText_lang,Flags
 51406,HARDCORE_GUILD_MEMBER_DEATH_KILLER,", slain by: %s.",1
 51407,HARDCORE_GUILD_MEMBER_DEATH_NO_AREA,|Hplayer:%s|h[%s]|h has died at level %d,1
 51410,BLIZZARD_STORE_CLICK_TO_OPEN_FAQ,|cnPURE_GREEN_COLOR:<Shift click to view Frequently Asked Questions in your browser>|r,3
+51412,SPELL_FAILED_CUSTOM_ERROR_362,Creature not tameable,1
 51430,SHOW_MAX_LEVEL_ANNOUNCEMENT,Show Max Level Announcements,1
 51431,SHOW_MAX_LEVEL_ANNOUNCEMENT_TOOLTIP,Check this box to have a chat message display and a sound effect play when a player reaches max level on the realm.,1
+51454,RESTRICT_CALENDAR_INVITES,Restrict Calendar Invites ,1
+51464,SPELL_FAILED_CUSTOM_ERROR_363,You must be on a fishing boat.,1
 51481,HARDCORE_GUILD_MEMBER_DEATH_ENVIRONMENTAL_FELL,", they fell to their death.",1
 51482,HARDCORE_GUILD_MEMBER_DEATH_ENVIRONMENTAL_DROWNED,", they drowned.",1
 51483,HARDCORE_GUILD_MEMBER_DEATH_ENVIRONMENTAL_FIRE,", they were burnt to death.",1
 51497,HARDCORE_GUILD_MEMBER_DEATH_DUEL, They were slain in a duel to the death.,1
 51502,HARDCORE_GUILD_MEMBER_DEATH_ENVIRONMENTAL_FATIGUE,", they died from fatigue.",1
 51532,CHARACTER_LINK_CLASS_LEVEL_SPEC_TOOLTIP,Level %d %s (%s),1
+51580,REMOVE_RUNE,Remove Rune,1
+51581,RUNE_CATEGORY_OTHER,Other,1
+51586,SHOW_ENEMY_CASTBARS,Show Enemy Cast Bar,1
+51587,OPTION_TOOLTIP_SHOW_ENEMY_CASTBARS,Show the enemy cast bar on your current target's unit frame.,1
+51593,ALWAYS_SHOW_RUNE_ICONS,Always Show Rune Icons,1
+51594,OPTION_TOOLTIP_ALWAYS_SHOW_RUNE_ICONS,Always show the rune icons on equipment instead of only when the rune menu is open.,1
+51599,NO_RUNES,No runes found.,1
+51600,KIOSK_SESSION_START_DIALOG_RUNES,"Your character has default runes equipped to their Legs, Chest, and Glove slots.\n\nTo change your equipped runes:\n1. Open your Character Info panel. (hotkey: C)\n2. Click on the Runes icon.\n3. Click on the rune you want to apply.\n4. Click on the gear item you want to apply it to.\n5. Active rune abilities can be found in your spellbook (hotkey: P) on the runes tab\n\nRemember to set your talent points! (hotkey: N)",1

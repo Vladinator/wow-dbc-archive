@@ -1,4 +1,10 @@
 ID,Name,ScriptBody,Flags,MissileCount
+13,Parabola,"local angle = 0
+local maxMagnitude = startDistance * .15
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude",0,1
 38,Forward Spin + Parabola,"local angle = 0
 local maxMagnitude = startDistance * .15
 local spinRate = 360
@@ -41,3 +47,55 @@ transAngle = angle
 transMag = (progress * 2) - 1
 transMag = (1 - (transMag * transMag)) * maxMagnitude
 modelRoll = progress * 1",0,0
+4588,S03 - BFD Raid - Boss 1 - Baron Aquanis - Periodic Water Missile 02,"local angle = 0
+local maxMagnitude = startDistance * .1
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+modelRoll = progress * 1",0,0
+4595,Spiral Vortex,"local startAngle = 0
+local degreesPerSec = 180
+local maxMagnitude = 3
+local maxKickBack = 10
+
+transAngle = startAngle + ((missileIndex / missileCount) * 360) + (time * degreesPerSec)
+transMag = 1 - progress
+transMag = (transMag * transMag * 2) - 1
+transMag = (1 - (transMag * transMag))
+transFront = transMag * -maxKickBack
+transMag = transMag * maxMagnitude
+",0,0
+4596,S03 - BFD Raid - Baron Aquanis - Bubble Beam - Drunken Missiles,"local maxMagnitude = 1
+local minSpeedScalar = 1
+local maxSpeedScalar = 1.0
+
+local magnitude = .5
+magnitude = 1 - (magnitude * magnitude * magnitude * magnitude)
+
+transRight = (sin((rand1 * 500) + (time * 500)) + cos((rand2 * 500) + (time * 100))) * magnitude
+transUp = (sin((rand2 * 500) + (time * 350)) + cos((rand1 * 500) + (time * 150))) * magnitude
+speedScalar = minSpeedScalar + ((maxSpeedScalar - minSpeedScalar) * 1)
+",0,0
+4603,S03 - BFD Raid - Ghamoo-ra - Aqua Shell - Missile,"local angle = 0
+local maxMagnitude = startDistance * .40
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+modelRoll = progress * 1",0,0
+4608,S03 - BFD Raid - Lady Sarevess - Freezing Arrow - Missile,"local angle = 0
+local maxMagnitude = startDistance * .20
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+modelRoll = progress * 6000",0,0
+4623,S03 - BFD Raid - Gelihast - Shadow Crash - 2. Missile,"local angle = 0
+local maxMagnitude = startDistance * .20
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+modelRoll = progress * 2000",0,0
+4659,Accelerated Missile,speedScalar = 0.2 + 2 * progress,0,1
