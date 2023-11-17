@@ -25167,7 +25167,7 @@ end
 transRight = direction * math.min(startDistance/maxWidth,maxWidth) * rand2",0,1
 4641,Priest - Heaven's Wrath,"speedScalar = .5*(progress+0.1)+1
 scale = math.min(1,progress*5)
-transUp=sin(progress*180)*startDistance*2/5
+transUp=sin(progress*180)*startDistance/14
 --this used to random left or right, switched to more of a organic feel
 local angle1 = rand1*60-30
 
@@ -25339,8 +25339,8 @@ transAngle = angle
 transMag = (progress * 2) - 1
 transMag = (1 - (transMag * transMag)) * maxMagnitude
 
-modelPitch = progress * 540
-modelRoll = progress * 720
+modelPitch = progress * 360
+modelRoll = progress * 360
 modelYaw = progress * 360
 
 scale = 3
@@ -25440,6 +25440,17 @@ transMag = (1 - (transMag * transMag)) * maxMagnitude
 modelPitch = time * spinRate
 
 ",0,0
+4667,"Parabola (Pitch Spin Slow, High, Model Rolled 90)","local angle = 0
+local maxMagnitude = startDistance * .30
+local spinRate = 360
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+
+modelPitch = time * spinRate
+modelRoll = 90
+",0,1
 4669,Descend from Above - 30 yds,"
 transUp = (1 - progress) * 30",0,0
 4670,Descend from Above - 20 yds,"

@@ -728,7 +728,9 @@ $ptadmg=${$<dmg>*$abs($418359s3)/100}"
 766,$heal=${$378412o1*(1+($378405s1/100))}
 767,$dmg=${$81297s1*$ceil($d/$t1)}
 768,$dmg=${$378286s1*(1+($378285s2/100))}
-769,$stat=${$INT*($s1/100)}
+769,"$stat=${$INT*($s1/100)}
+$classset=$?s414878[${$414878s1)}][${0}]
+$amount=${6.5+$<classset>}.1"
 770,$shield=${$SP*5*(1+$@versadmg)}
 771,"$coeff=${0.01127}
 "
@@ -822,6 +824,7 @@ $damage=${((0.690899398201283*($SP*1.25)*$<demoMastery>*(1+$@versadmg))*1.18)
 }"
 846,"$mindbender=$?s373065[${20}][${10}]
 $shadowfiend=$?s373065[${35}][${25}]"
+847,"$apsp=${$cond($gt($SP,$AP),$SP,$AP)*(1)}"
 848,$pord=$@switch<$s5>[ $@auracaster has $s4% increased chance to parry your attacks.][ $@auracaster has $s4% increased chance to dodge your attacks.]
 849,"$targetBonus=${$cond($gt($s1,0),1,0)}
 $targetBonusAlso=${$s1}"
