@@ -328652,7 +328652,7 @@ $@spelldesc394094"
 395147,,,
 395148,,,
 395149,,,
-395152,Black,"Increase your $i nearest allies' primary stat by $s1% of your own, and cause you to deal $395296s1% more damage, for $d.
+395152,Black,"Increase your $i nearest allies' primary stat by $<amount>% of your own, and cause you to deal $395296s1% more damage, for $d.
 
 May only affect $i allies at once, and prefers to imbue damage dealers.
 
@@ -345165,7 +345165,7 @@ Must be used near Myrrit in Loamm. Myrrit can hold up to 3 maps at a time.",
 414424,,,
 414425,,$@spelldesc414427,
 414426,,,
-414427,,"Igira hurls spears at players, tethering them to the ground and $?diff17 [radiating $@spellname414770.][] $?diff14|diff15|diff16 [inflicting $s1 Shadowflame damage to players within $A1 yards of the impact.
+414427,,"Igira hurls spears at players, tethering them to the ground and $?diff14|diff15|diff16|diff17 [inflicting $s1 Shadowflame damage to players within $A1 yards of the impact.
 
 While present, the spear radiates $@spellname414770.][]",
 414428,,Call Belastrasza so you can have adventures together.,
@@ -347259,7 +347259,7 @@ $@spellname425249s douse the flames extinguishing these patches.",$s1 Fire damag
 417633,,$@spelldesc417561,$@spellaura417561
 417634,,"Upon reaching 100 energy Larodar releases his unbridled rage as waves of flames, inflicting $419343M1 Fire damage to enemies every $t1 sec for $D. Standing behind a $@spellname418653 reduces this damage by $419485M1%.
 
-Larodar gains a stack of Combusting Presence after $@spellname417583 ends.",
+Larodar gains a stack of Combusting Presence after Raging Inferno ends.",
 417635,,Hidden from sight.,Hidden from sight.
 417636,,Hidden from sight.,Hidden from sight.
 417637,,,
@@ -348086,7 +348086,9 @@ Upon reaching their target they explode inflicting $427137s2 Nature damage and a
 418589,,$@spelldesc418720,Targeted for $@spellname418589!
 418590,,"While near walls, you collect Static Charge, recharging Vigor as if you were Ground Skimming and stacking every 1 sec, up to 10. At max stacks, Lightning Rush becomes available.","Gaining power. At $u stacks, enables Lightning Rush."
 418591,,$@spelldesc418720,
-418592,,"Activate to engage a sustained boost for $d. While boosted, maneuverability is limited. Only available at $s7 stacks of Static Charge. 
+418592,,"Activate to engage a sustained boost for $d. While boosted, maneuverability is limited. Only available at $s7 stacks of Static Charge.
+
+Static Charge stacks are gained by flying next to walls.
 
 Replaces Whirling Surge.",Boosted speed and limited maneuverability.
 418593,,"Observe the Quantum Courser, causing it to take the form of a random mount (from the Past).
@@ -348141,9 +348143,9 @@ Larodar inflicts an additional $418640s1 Physical damage to enemies caught in hi
 418652,,Increases nature damage done by $s1%.,Increases nature damage done by $s1%.
 418653,,"Renewed Bramble Barriers provide protection against $@spellname417634.
 
-When destroyed, they erupt in $@spell418535.","Renewed Bramble Barriers provide protection against $@spellname417634.
+When destroyed, they erupt in $@spellname418535.","Renewed Bramble Barriers provide protection against $@spellname417634.
 
-When destroyed, they erupt in $@spell418535."
+When destroyed, they erupt in $@spellname418535."
 418654,,"Scorching Roots fixate on random players, pursuing them relentlessly and speed over time.
 
 When killed, they transform into Charred Brambles. $?diff15|diff16 [
@@ -348212,7 +348214,7 @@ Upon removal, transforms other players within $418740A1 yards into ducks."
 418741,,,
 418742,,,
 418743,,,
-418744,,Experience and reputation gains increased by $s3%.,Experience and reputation gains increased by $s3%.
+418744,,Experience gains increased by $s3%. Dragon Isles reputation gains increased by $s6%. Excludes Dream Wardens.,Experience gains increased by $s3%. Dragon Isles reputation gains increased by $s6%. Excludes Dream Wardens.
 418745,,,
 418746,,,
 418747,,,
@@ -348224,7 +348226,7 @@ Upon removal, transforms other players within $418740A1 yards into ducks."
 418754,,"Allows you to play a lullaby, putting all enemies in $418756a1 yards into a deep slumber for $418756d.
 ","Allows you to play a lullaby, putting all enemies in $418756a1 yards into a deep slumber for $418756d."
 418755,,"While recklessly raging, Urctos is vulnerable to duck magic.",Vulnerable to duck magic.
-418756,,Put enemies within $RAD1 to sleep for $d.,Asleep.
+418756,,Put enemies within $a1 yards to sleep for $d.,Asleep.
 418757,,$@spelldesc418720,Transformed into a large duck!
 418758,,,
 418759,,"Blow a bubble at an enemy, causing them to float up into the air. The bubble will pop upon the enemy taking damage, or reaching a certain height.
@@ -348614,7 +348616,7 @@ If the target is in your party or raid, all party and raid members will be affec
 419181,,Fly over a target spewing flame beneath you dealing $419182p1 Fire damage to enemies in your path.,Breathing flame beneath you.
 419182,,$@spelldesc419181,Burning for $s1 Fire damage every $t1 sec.
 419184,,$@spelldesc419185,
-419185,,"Heats up metal in the target's gear, making it drip fiery residue every $t1 seconds. Residue pools inflict $419342s1 Fire damage to anyone standing in it. Lasts $d.",Creating pools of damaging Fiery Residue every $t1 seconds.
+419185,,"Heats up metal in the target's gear, making it drip fiery residue every $t1 seconds. Residue pools inflict $419342s1 Fire damage to anyone standing in it. Lasts $d seconds.",Creating pools of damaging Fiery Residue every $t1 seconds.
 419187,,,
 419188,,,
 419189,,,
@@ -349324,7 +349326,17 @@ $?$w3=4[][|CFF808080Gold time: $w8 sec|R
 ]
 |CFFffd100Challenge Reverse|R
 $@switch<$w5>[No Attempts][Bronze (${$w6/1000}.3 sec) |A:challenges-medal-small-bronze:0:0:0:0|a][Silver (${$w6/1000}.3 sec) |A:challenges-medal-small-silver:0:0:0:0|a][Gold (${$w6/1000}.3 sec) |A:challenges-medal-small-gold:0:0:0:0|a]$?$w5=4[][
-|CFF808080Gold time: $w9 sec|R]"
+|CFF808080Gold time: $w9 sec|R] $@switch<$w1>[][
+
+|CFFffd100Storm|R
+Bronze (${$w2/1000}.3 sec) |A:challenges-medal-small-bronze:0:0:0:0|a][
+
+|CFFffd100Storm|R
+Silver (${$w2/1000}.3 sec) |A:challenges-medal-small-silver:0:0:0:0|a][
+
+|CFFffd100Storm|R
+Gold (${$w2/1000}.3 sec) |A:challenges-medal-small-gold:0:0:0:0|a]
+$?$w1=2[|CFF808080Gold time: $w7 sec|R][]$?$w1=3[|CFF808080Gold time: $w7 sec|R][]"
 419954,,$@spelldesc409267,
 419956,,,
 419957,,"The ground is glooped for $419945d1, inflicting $s1 Nature damage every $t1 sec.",$s1 Nature damage inflicted every $t1 sec.
@@ -349866,7 +349878,7 @@ Haste reduced by $s2%"
 This trance leaves Urctos susceptible to $@spellname418720. ",
 420528,,"The caster pours burning magic into the target, inflicting $s1 Fire damage every $t1 sec and increasing their damage done by $s2% for $d.
 
-When this effect expires, the fire within the target explodes, inflicting $12456s1 Fire damage to all targets within $12456A1 yards.","Inflicts $s1 Fire damage every $t1 sec.
+When this effect expires, the fire within the target explodes, inflicting $420533s1 Fire damage to all targets within $420533A1 yards","Inflicts $s1 Fire damage every $t1 sec.
 
 Damage done increased by $s2%."
 420531,,$@spelldesc420525,
@@ -350381,7 +350393,7 @@ These flames combust Larodar transforming him into the Avatar of Ash.","Inflicti
 
 Transforming into the Avatar of Ash."
 421317,,Dress fashionably for the holidays!,Dressing fashionably for the holidays!
-421318,,"Larodar's ashen husk unleashes a brutal backdraft of flames inflicting $421591s1 million Fire damage in a frontal cone, applying $@spellname421594.",
+421318,,"Larodar's ashen husk unleashes a brutal backdraft of flames inflicting $421591s1 Fire damage in a frontal cone, applying $@spellname421594.",
 421319,,$@spelldesc421320,$@spellaura421320
 421320,,"Larodar's transformation causes all Burning Ground to become Ashen Earth. 
 
@@ -350478,6 +350490,7 @@ Damage taken reduced by $w2%."
 421444,,,
 421445,,,
 421446,,,You can see hidden items within the Barrows of Reverie.
+421447,,"Empower an Honorary Historian's Notes, increasing the rate at which they earn Budding Symbiotes by $s1%..",
 421448,,Take a short rest at the Eye of Ysera. The magic of the Dream will make you a participant in what has already come to pass.,Take a short rest at the Eye of Ysera. The magic of the Dream will make you a participant in what has already come to pass.
 421449,,,
 421450,,$@spelldesc421343,
@@ -350706,6 +350719,7 @@ Causes a $@spellname424233 when removed."
 421737,,,
 421738,,,
 421739,,,
+421740,,Call down the thunder to draw lightning from the sky!,
 421741,,"Amirdrassil burns, and Fyrakk remakes the world in flame.",
 421742,,,
 421743,,,
@@ -350733,6 +350747,7 @@ Causes a $@spellname424233 when removed."
 421767,,"Amaranthis hurls a javelin at a random player, inflicting $s1 Physical damage.
 ",
 421769,,,
+421770,,,
 421771,,Cosmetic aura buff because it recently received a care package.,Pleased with its care package!
 421772,,Create a soulbound item for your class.,
 421773,,Create a soulbound item for your class.,
@@ -350793,7 +350808,7 @@ Prevents healing."
 421834,,,
 421837,,,
 421838,,A recent superbloom has infused you with powerful energies!,A recent superbloom has infused you with powerful energies!
-421840,,"Gnarlroot is immobilized by agony, increasing his damage taken by $s1% and causing him to pulse $424734s2 Shadowflame damage to all players every $424734t2 sec for $d.
+421840,,"Gnarlroot is immobilized by agony, increasing his damage taken by $s1% and causing him to pulse $430324s1 Shadowflame damage to all players every $424734t2 sec for $d.
 
 Upon expiration, Gnarlroot gains an application of $@spellname425709.",Damage taken increased by $s1%.
 421843,,"Sprinkle water upon enchanted shrubs, giving them the energy to deliver themselves to Magnolia Oaken.",
@@ -351187,9 +351202,9 @@ After successfully finishing a short meditation, the overgrown herb will gift yo
 422299,,A vial of mmoonwell water.,This vial is filled with pure moonwell water.
 422300,,This is a test aura!,This is a test aura.
 422301,,Surfacing the anguished dream spirit that bonded with an unlucky individual.,
-422303,,"Plunge a twisted blade into your target, dealing $422297s1 Physical damage. After $422297s3 sec, the blade ignites with Shadowflame and return to you, dealing $422297s2 Shadowflame damage split between the target and all enemies in its path.
+422303,,"Plunge a twisted blade into your target, dealing $422297s1 Physical damage. After $422297s3 sec, the blade ignites with Shadowflame and returns to you, dealing $422297s2 Shadowflame damage split between the target and all enemies in its path.
 
-Damage increased per enemy struck, up to 5.","After $422297s3 sec, the blade ignites with Shadowflame and return to you, dealing $422297w2 Shadowflame damage split between the target and all enemies in its path."
+Damage increased per enemy struck, up to 5.","After $422297s3 sec, the blade ignites with Shadowflame and returns to you, dealing $422297w2 Shadowflame damage split between the target and all enemies in its path."
 422304,,Holding a very fresh Orangeroot. Deposit it into a basket for the picnic!,Holding a very fresh Orangeroot. Deposit it into a basket before harvesting more.
 422305,,Roaring flames that inflict $s1 Fire damage every $t1 sec.,Suffering $s1 Fire damage every $t1 sec.
 422306,,$@spelldesc422293,Meditating with an overgrown herb and attuning to the Dream.
@@ -351362,7 +351377,7 @@ While above 5 stacks, also deals $s4% of its damage to you. At 15 stacks, enemie
 422506,,,
 422507,,,
 422508,,,
-422509,,"$@spellname425657 falls from Tindral's Owl form, allowing players to dragonride within The Blessed Boughs.",Able to dragonride within The Blessed Boughs.
+422509,,"$@spellname422509 falls from Tindral's Owl form, allowing players to dragonride within The Blessed Boughs.",Able to dragonride within The Blessed Boughs.
 422510,,,You can now hop on your dragonriding mount!
 422511,,,
 422512,,,
@@ -351438,7 +351453,7 @@ Upon expiration, the current target also takes $422649s1% increased damage from 
 ",
 422599,,,
 422604,,"As Larodar's flames explode, they leave behind patches of flame that inflict $s1 Fire damage to all nearby players.",Inflicts $s1 Fire damage every $t1 sec.
-422605,,"When the Spirit of Teldrassil reaches full life, it becomes protected by a $@spellname422605 that reduces all damage taken by $422605s1%.",
+422605,,"Upon reaching full life, Spirits of the Kaldorei are protected by a $@spellname422605 that reduces all damage taken by $422605s1%.",
 422606,,Summon a molten tornado that inflicts Fire damage to creatures inside.,
 422607,,,
 422608,,,
@@ -351748,7 +351763,7 @@ Damage increased by $422953s3% against immobilized targets.",
 422958,,This is a test aura!,This is a test aura.
 422960,,,
 422961,,,
-422964,,,
+422964,,$@spelldesc422583,
 422965,,Concealing you from enemies and gain $s2% movemenet speed.,"Stealthed.
 $s2% increased movement speed."
 422967,,,
@@ -351835,7 +351850,10 @@ Attacking will cancel this effect."
 423059,,,
 423060,,,
 423061,,,
+423064,,Fly at a casual pace.,Fluttering through the wind.
 423065,,,
+423066,,Rock back and forth at the speed of sound.,Soaring through the sky!
+423067,,Collect the appearances of the Raiment of Amirdrassil set. This set can only be used by Night Elf characters.,
 423073,,The corrupting fel energies tears at your skin. You feel yourself becoming less of yourself and overtaken by the corruption that seeps out of every nook in Shadow Hold.,"Inflicting Fire damage every $t2 sec.
 
 Slowed."
@@ -352074,7 +352092,6 @@ If the target is above $s5% health when this effect expires, the Blossom spreads
 423431,,"Crushes the enemy with a massive blow, dealing $423432s1 Physical damage and causing the target to bleed for $s1 Physical damage every $t1 sec for $d.",$s1 Physical damage inflicted every $t1 sec.
 423432,,$@spelldesc423431,
 423433,,,
-423437,,,
 423439,,$@spelldesc422889,Healing taken increased by $s1%.
 423443,,,
 423444,,,
@@ -352087,7 +352104,7 @@ If the target is above $s5% health when this effect expires, the Blossom spreads
 423455,,,
 423456,,,
 423458,,$@spelldesc422890,$@spelldesc422890
-423459,,,
+423459,,$@spelldesc425794,Nymue's damage taken reduced by $425794s1%.
 423463,,$@spelldesc417806,
 423464,,"Hurls a devastating ball of fel fire at an enemy, inflicting $s1 Fire damage.",
 423465,,"Calls down a pillar of fel fire, inflicting $s2 Fire damage and burning all enemies within the area for $423466s1 Fire damage every $423466t1 sec for $d.",
@@ -352178,7 +352195,7 @@ Seeds become $@spellname423598s if hit directly by shadowflame.]",Holding a $@sp
 423603,,,
 423604,,,
 423610,,$@spelldesc421316,Suffering $s1 Fire damage every $t1 sec.
-423611,,"Draw power from the remnants of the Embersoul, gaining $423021s1 $pri for $d, decaying every 3 sec. Once this effect ends, become Burned Out, losing $423021s2 Haste for 60 sec before recovering.
+423611,,"Draw power from the remnants of the Embersoul, gaining $423021s1 $pri for $d, decaying every $t3 sec. Once this effect ends, become Burned Out, losing $423021s2 Haste for 60 sec before recovering.
 
 When circumstances are dire your soul ignites, granting this bonus again without decaying. This effect may only occur once per combat.",$pri increased by $w1.
 423612,,Heals a friendly target for $s1.  Receives $s2% bonus from $@spellname77495.,
@@ -352433,6 +352450,7 @@ Damage is increased for each enemy struck, up to $s2 enemies.",
 423935,,Perform a Drust ritual on a willing beast's corpse.,
 423936,,Perform a Drust ritual on a willing beast's corpse.,
 423937,,Perform a Drust ritual on a willing beast's corpse.,
+423938,,,
 423939,,Throw an axe at a target.,
 423942,,,Experiencing the rush of an exhilarating log ride.
 423943,,Make a giant leap.,
@@ -352475,6 +352493,7 @@ Damage is increased for each enemy struck, up to $s2 enemies.",
 424001,,,
 424004,,,
 424007,,,
+424009,,Summons and dismisses this mount.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
 424011,,,
 424013,,,
 424014,,,
@@ -352646,10 +352665,10 @@ This effect can trigger once every $proccooldown sec."
 424255,,,
 424256,,,
 424257,,,
-424258,,"Any player flying through the essence of the Emerald Dream empowers all players, increasing their damage done by $s1% and increasing their healing and absorb done by $s4%. This effect stacks and last until $@spellname424140 finishes casting or is interrupted.
+424258,,"Any player flying through the essence of the Emerald Dream empowers all players, increasing their damage done by $s1% and increasing their healing and absorb effects done by $s4%. This effect stacks and lasts until $@spellname424140 finishes casting or is interrupted.
 
 The consumed essence leaves behind $@spellname421884.","Increased damage done by $s1%.
-Increased healing and absorb done by $s4%."
+Increased healing and absorb effects done by $s4%."
 424262,,,
 424263,,,
 424264,,,
@@ -352790,16 +352809,16 @@ Enables Dragonriding skills."
 424492,,Finishing move that launches Shadow Powder at all nearby enemies dealing Shadow damage. Deals reduced damage beyond $s2 targets.,
 424493,,"Finishing move that tears open the target, dealing Shadow damage over time.",Bleeding for $w1 Shadow damage every $t1 sec.
 424494,,,
-424495,,"Tindral targets all players with fiery vines that erupt after $d, rooting the targeted player and also inflicting $424498s1 Fire damage to players within $424498a1 yards. These roots inflict $424497s1 Fire damage every $424497t1 sec until they are destroyed.",Targeted by $@spellname.
+424495,,"Tindral targets all players with fiery vines that erupt after $d, rooting the targeted player and also inflicting $424498s1 Fire damage to players within $424498a1 yards. These roots inflict $424497s1 Fire damage every $424497t1 sec until they are destroyed.",Targeted by $@spellname428695.
 424496,,,
 424497,,$@spelldesc424495,Inflicts $s1 Fire damage every $t1 sec.
 424498,,$@spelldesc424495,
-424499,,Scorching ground inflicts $425451s1 Fire damage every $t1 sec to players within.,Inflicts $425451s1 Fire damage every $t1 sec.
+424499,,Scorching Ground inflicts $425451s1 Fire damage every $t1 sec to players within.,Inflicts $425451s1 Fire damage every $t1 sec.
 424500,,,
 424501,,,
 424502,,,
 424503,,,
-424504,,"Imbue yourself in magma, causing attacks and abilities to occasionally inflict $4245051 Fire damage to targets.",Attacks and abilities have a chance to  inflict $424505s1 Fire damage to enemy targets.
+424504,,"Imbue yourself in magma, causing attacks and abilities to occasionally inflict $424505s1 Fire damage to targets.",Attacks and abilities have a chance to  inflict $424505s1 Fire damage to enemy targets.
 424505,,$@spelldesc424505,
 424507,,$@spelldesc424505,
 424508,,,
@@ -352858,11 +352877,11 @@ You will get 1 Shipment of Goods which can be turned in weekly to Eran'nda to he
 424576,,,
 424577,,$@spelldesc423260,
 424578,,$@spelldesc423260,Increases damage taken from $@spellname422323 by $s1%.
-424579,,"Tindral Surrounds random players with suppressive ember, absorbing the next $s1 healing. This effect stacks.",Absorb the next $w1 incoming healing.
+424579,,"Tindral surrounds random players with suppressive ember, absorbing the next $s1 healing. This effect stacks.",Absorb the next $w1 incoming healing.
 424580,,$@spelldesc420236,Targeted by $@spellname420236.
 424581,,"Tindral causes flames to grow inside random players, inflicting $427339s1 Fire damage every $t1 sec for $d.$?diff17[]$?diff14|diff16|diff15[
 
-The flames erupt from players when Fiery Growth is removed]$?diff14|diff15[ and leaving behind $@spellname424499 at current player's location.][]$?diff16[, afflicting players with $@spellname424582 and leaving behind $@spellname424499 at current player's location.][]","Inflicts $427339s1 Fire damage every $t1 sec.$?diff17[]
+The flames erupt from players when Fiery Growth is removed]$?diff14|diff15[ and leave behind $@spellname424499 at current player's location.][]$?diff16[, afflicting players with $@spellname424582 and leave behind $@spellname424499 at the current player's location.][]","Inflicts $427339s1 Fire damage every $t1 sec.$?diff17[]
 $?diff14|diff16|diff15[
 When removed, leaves behind $@spellname424499]$?diff14|diff15[.]$?diff16[and afflicts all players with $@spellname424582.]"
 424582,,"Cinders from $@spellname424581's explosion linger on all players, inflicting $s1 Fire damage every $t1 sec for $d. This effect stacks.
@@ -352918,7 +352937,7 @@ Intervene's cooldown is increased by ${$s2/1000} sec.",
 424662,,$@spelldesc423260,
 424663,,,
 424664,,,
-424665,,"Seeds of Flame, unless crushed by a player, grow into $@spellname422324 after $?diff14|diff15|diff17[$422426d.][$430582d.]
+424665,,"Seeds of Flame, unless crushed by a player, grow into a $@spellname422324 after $?diff14|diff15|diff17[$422426d.][$430582d.]
 
 When a player steps on a $@spellname424665, it is destroyed. The players suffers $s1 Fire damage. $?diff14|diff17|dff16[][This effect increases damage taken from $@spellname424665 by $s2% for $d and stacks.]",Increased damage taken from $@spellname424665 by $s2%. This effect stacks.
 424666,,,
@@ -353132,8 +353151,8 @@ Stacks $u times."
 425035,,"The creature howls, causing players within $A1 yards to flee in fear for $d.",Feared.
 425036,,,"Alone, looking for his troop..."
 425037,,"The creature breathes scorching lava, inflicting $s2 Fire damage to players in a frontal cone and disorienting them for $d.",Disoriented.
-425038,,$@spelldesc413481,
-425039,,$@spelldesc413481,
+425038,,$@spelldesc426154,
+425039,,$@spelldesc426154,
 425041,,,
 425044,,,
 425045,,,
@@ -353177,7 +353196,7 @@ The impact leaves $@spellname425093.
 425091,,,
 425092,,,
 425093,,Inflicts $s1 Shadowflame damage to players every $t1 sec.,Inflicts $s1 Shadowflame damage every $t1 sec.
-425095,,"$@spellname425657 falls from Tindral's Owl form, enabling players to jump on their dragonriding mounts.",You can now hop on your dragonriding mount!
+425095,,$@spelldesc422509,$@spellaura422509
 425097,,,
 425104,,,
 425105,,,
@@ -353229,6 +353248,10 @@ Stamina increased by $s2%.
 Threat greatly increased."
 425214,,,
 425224,,,
+425227,,,
+425228,,,
+425229,,,
+425230,,,
 425231,,$@spelldesc421741,Inflicting $s1 Shadowflame damage every $t1 sec.
 425232,,$@spelldesc421741,
 425238,,,
@@ -353468,7 +353491,7 @@ A player flying through a $@spellname425602 on a dragonriding mount absorbs the 
 425654,,,
 425655,,,
 425656,,,
-425657,,"$@spellname425657s fall from Tindral's Owl form, allowing players to dragonride within The Blessed Boughs for $d.",Able to dragonride within The Blessed Boughs.
+425657,,"Tindral's Owl form leaves behind $@spellname425657, allowing players to dragonride within The Blessed Boughs for $d.",Able to dragonride within The Blessed Boughs.
 425658,,"The Podling's toxin leaks from its corpse, inflicting $s1 Nature damage every $t1 sec.",Inflicting $s1 Nature damage every $t1 sec.
 425659,,$@spelldesc425648,
 425660,,$@spelldesc425648,
@@ -353534,6 +353557,7 @@ A player flying through a $@spellname425602 on a dragonriding mount absorbs the 
 425792,,,
 425793,,$@spelldesc425249,$@spellaura425249
 425794,,"The Cycle Wardens' abundant life energy shields Nymue, reducing damage taken by $s1%.",
+425795,,,
 425796,,$@spelldesc424808,
 425799,,,
 425800,,,
@@ -353545,7 +353569,7 @@ A player flying through a $@spellname425602 on a dragonriding mount absorbs the 
 425817,,Unlocks this customization option for the Flourishing Whimsydrake at the Rostrum of Transformation.,
 425818,,,
 425819,,$@spelldesc425820,
-425820,,"The Tainted Treant hurls flaming sap at players, slowing them for $d sec. While afflicted, players ignite every $t1 sec, inflicting $425821s1 Fire damage to players within $425821A1 yards.","Inflicting $425821s1 Fire damage to players within $425821A1 yards every $t1 sec.
+425820,,"The Tainted Treant hurls flaming sap at players, slowing them for $d. While afflicted, players ignite every $t1 sec, inflicting $425821s1 Fire damage to players within $425821A1 yards.","Inflicting $425821s1 Fire damage to players within $425821A1 yards every $t1 sec.
 Movement speed reduced by $s2%."
 425821,,$@spelldesc425820,
 425822,,,
@@ -353744,7 +353768,7 @@ You can only use one Vantus Rune per week, and the effect lasts for the entire w
 426015,,,
 426016,,Tindral summons a dying sun that instantly defeats all players when it explodes.,
 426017,,"Shadowflame orbs erupt from the afflicted player, inflicting $426056s1 Shadowflame damage to players they contact and an additional $426056s2 Shadowflame damage every $426056t2 sec for $426056d.",
-426018,,"Smolderon creates $@spellname426018s that fixate on random players, each inflicting $430325s1 Fire damage and knocking back any player who comes in contact with one.
+426018,,"Smolderon creates several $@spellname426018s that fixate upon random players. Players who touch a $@spellname426018 become afflicted with $@spellname430325.
 
 When one reaches its target or after $s3 sec, it explodes and inflicts $s1 Fire damage to all players. This explosion causes all players to take $s2% increased damage from $@spellname426018 for $d.",Increases damage taken from $@spellname426018 by $s2%.
 426020,,,
@@ -353849,7 +353873,7 @@ $@spelldesc267102",
 426202,,$@spelldesc414427,Stunned.
 426203,,$@spelldesc426206,$@spellaura426206
 426204,,,Testing
-426206,,"Larodar bursts a spiral of eruptions inflicting $426209s1 Fire to players within $426209a1 yards of each impact, knocking them back.$?diff14|diff15|diff16[
+426206,,"Larodar bursts a spiral of eruptions inflicting $426209s1 Fire to players within $426209a1 yards of each impact, knocking them back.$?diff15|diff16[
 
 Upon reaching their destination they form a Blazing Coalescence, then return to Larodar.][
 
@@ -353859,19 +353883,20 @@ Upon reaching their destination the spiral returns to Larodar.]",
 426210,,,
 426211,,Life Cocoon now has ${$s1+1} charges.,
 426216,,,
-426242,,"The Blazing Thorns coalesce into flame orbs which move towards Larodar. Upon contact an orb inflicts $426249s1 Fire damage, increasing critical strike chance by $426249s3% and inflicting $426249s2 Fire damage every $426249t2 sec for $426249D.
+426242,,"The Blazing Thorns coalesce into flame orbs which move towards Larodar. Upon contact an orb inflicts $431314s1 Fire damage, increasing critical strike chance by $426249s3% and inflicting $431315s2 Fire damage every $426249t2 sec for $426249D.
 
 Orbs that reach Larodar increase Fire damage done by $426256s1% for $426256D. This effect stacks.",
 426244,,,
-426249,,$@spelldesc426242,Suffering $s2 Fire damage every $t2 sec and increased critical strike chance by $s3%.
+426249,,$@spelldesc426242,Suffering $431315s2 Fire damage every $t2 sec and increased critical strike chance by $s3%.
 426250,,,
 426252,,,
 426253,,$@spelldesc422303,Suffer Shadowflame damage after the twisted blade returns to its master.
+426254,,,
 426256,,$@spelldesc426242,Increases Fire damage dealt by $s1%.
 426262,,"Your healing has a chance to apply Bramble Barrier to your target, absorbing $425838s2 damage and causing $425838s5 Nature damage to attackers when struck. If the barrier is broken, the target is healed for ${$425838s4*($426321d/$426321t1)} over $426321d. If it expires without breaking, the target gains $425838s3 Versatility for $426322d.","Your healing has a chance to apply Bramble Barrier to your target, absorbing $425838w2 damage and causing $425838w5 Nature damage to attackers when struck. If the barrier is broken, the target is healed for $425838w4 over $426321d. If it expires without breaking, the target gains $425838w3 Versatility for $426322d."
 426263,,,
 426267,,,
-426269,,@$spelldesc426262,Absorbing $w1 damage and dealing $w3 Nature damage to nearby attackers.
+426269,,$@spelldesc426262,Absorbing $w1 damage and dealing $w3 Nature damage to nearby attackers.
 426272,,This somnowl has had some feathers recently plucked.,This somnowl has had some feathers recently plucked. Taking more right now would be extremely unkind.
 426274,,Frost Damage taken reduced by $s1%. Changes each day.,Frost Damage taken reduced by $w1%. Changes each day.
 426276,,Nature Damage taken reduced by $s1%. Changes each day.,Nature Damage taken reduced by $w1%. Changes each day.
@@ -353890,6 +353915,7 @@ Damage increased per enemy struck, up to 5.","Taking damage has a chance to fill
 Damage increased per enemy struck, up to 5."
 426289,,$@spelldesc426288,Your abilities deal $425838w1 additional Fire damage split between nearby enemies and shield you for the damage dealt by this effect.
 426290,,The Tainted Treant hurls scorching flora that inflicts $s1 Fire damage and reduces the movement speed of all enemies within $A1 yards of the impact.,
+426292,,,
 426293,,Create a soulbound Mythic+ Dungeon item appropriate for your loot specialization ($@lootspec) during Dragonflight Season 3.,
 426297,,@$spelldesc426262,
 426302,,,
@@ -353899,8 +353925,8 @@ Damage increased per enemy struck, up to 5."
 426312,,After jumping into the pool of water you find yourself carrying a vial of $@spellname426312.,Carrying a vial of $@spellname426312...this seems familiar.
 426313,,$@spelldesc426288,Absorbing $w1 damage.
 426319,,Right Click to summon and dismiss this companion.,
-426321,,@$spelldesc426262,Healing for $w1 every second.
-426322,,@$spelldesc426262,Versatility increased by $w1.
+426321,,$@spelldesc426262,Healing for $w1 every second.
+426322,,$@spelldesc426262,Versatility increased by $w1.
 426323,,,
 426327,,Permanently imbue a helm with the fiery dreams of your vanquished foes. This effect changes based on your specialization. This item is not consumed on use.,
 426328,,Unlocks the Azure Somnowl form customization option in the barbershop.,
@@ -353934,7 +353960,7 @@ Damage increased per enemy struck, up to 5."
 426357,,Right Click to summon and dismiss this companion.,
 426363,,,AI Cooldown Rate increased by 500%.
 426367,,,
-426368,,"The Darkflame Shade leaps towards its target, inflicting $426373s1 Shadowflame damage split evenly among players within $426373a1 yards and increasing damage taken by $@spellname426368 for $426392d.
+426368,,"The Darkflame Shade leaps towards its target, inflicting $426373s1 Shadowflame damage split evenly among players within $426373a1 yards and increasing damage taken by $@spellname426368 by $426392s1% for $426392d.
 
 Leaves behind $@spellname419066.",
 426369,,,
@@ -354331,7 +354357,7 @@ You will get 1 Shipment of Goods which can be turned in weekly to Eran'nda to he
 
 You will get 1 Shipment of Goods which can be turned in weekly to Eran'nda to help support the Dream Wardens.",
 427112,,,
-427113,,"Weave a web of dreams beneath your target after $d, dealing $427110s1 Nature damage split between all enemies within 8 yds. Your target is immobilized for $427215d while additional enemies are slowed by $427110s2%. Not effective against enemy players.
+427113,,"Weave a web of dreams beneath your target after $d, dealing $427110s1 Nature damage split between all enemies within 8 yds. Your target is immobilized for $427215d while additional enemies are slowed by $427110s2%. Less effective against enemy players.
 
 Damage increased per enemy struck, up to 5. ",
 427122,,,
@@ -354687,7 +354713,7 @@ Upon removal, applies $@spellname427010."
 427709,,"The Krakken thrashes wildly, inflicting Nature damage to players every $t1 sec for $d.",Inflicts Nature damage every $t1 sec.
 427716,,,
 427720,,,
-427721,,$@spelldesc426520,$s1 Nature damage inflicted every $t1 sec.
+427721,,$@spelldesc427722,$s1 Nature damage inflicted every $t1 sec.
 427722,,"Nymue incubates an explosive seed in a target.
 
 After a short delay the seed detonates granting the target $@spellname423195 and inflicting $427721s1 Nature damage every $427721t1 sec for $427721d to players within $427721A1 yards.","Upon expiration, grants $@spellname423195 and inflicts Nature damage to nearby players."
@@ -354860,7 +354886,7 @@ All players hit by the effect are branded and afflicted with $@spellname421656."
 428005,,Summons and dismisses a rideable Jeweled Copper Scarab.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
 428012,,"Swirling verdant energy surrounds the Manifested Dream, inflicting $428474s1 Nature damage every $428474t1 sec to players within $s1 yards and marks them with $@spellname428479. 
 
-Players outside of the miasma have their visibility of the Manifested Dream obscured.",
+Players outside of the miasma have their visibility of the Manifested Dream obscured.",Visibility obscured. Inflicting $428474s1 Nature damage every $428474t1 sec.
 428013,,Summons and dismisses a demonically fueled cycle.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
 428015,,The Sizzling Swogger relentlessly marches toward a player.,Fixated!
 428016,,,
@@ -355082,7 +355108,7 @@ Reduces the cast time of Summon Vilefiend by ${$abs($s2)/1000}.1 sec and your Vi
 428397,,The Colossus gains energy over time.,
 428398,,Amirdrassil is blooming.,Amirdrassil is blooming.
 428399,,The Ink of Ozumat launches a volley of smearing globs at players that inflict $428405s1 Shadow damage within $428405A1 yards and create $@spellname428404.,
-428400,,"Upon gaining 100 energy the Colossus overheats and explodes, inflicting $s1 Shadowflame damage to all players and an additional $s2 Shadowflame damage every $t2 sec for $d.",Inflicts $s2 Shadowflame damage every $t1 sec.
+428400,,"Upon gaining 100 energy the Colossus overheats and explodes, inflicting $s1 Shadowflame damage to all players and an additional $s2 Shadowflame damage every $t2 sec for $d.",$s2 Shadowflame damage inflicted every $t2 sec.
 428401,,$@spelldesc428399,
 428402,,$@spelldesc257284,
 428403,,$@spelldesc428531,Inflicting $s1 Shadow damage every $t1 sec.
@@ -355131,7 +355157,7 @@ $@spelldesc267964",
 428486,,"Your finishing moves heal you for $s1% of damage done. At full health gain shielding instead, absorbing up to $s2% of your maximum health.",
 428487,,$@spelldesc428486,
 428488,,$@spelldesc428486,Absorbing $w1 damage.
-428492,,"Each time you deal Chaos damage, there is a ${$s2/100}.2% chance to duplicate $s3% of the damage, up to $m1 total $Ltime:times;. ",
+428492,,"Your Chaos damage has a ${$s2/100}.2% chance to be increased by $s3%, occurring up to $m1 total $Ltime:times;.",
 428493,,$@spelldesc428492,
 428497,,,
 428498,,,
@@ -355210,7 +355236,7 @@ This effect may only occur once every $s1 sec.",
 428622,,Unlocks the Fire Moonkin form customization options in the barbershop.,
 428623,,$@spelldesc428631,
 428624,,,
-428625,,$@spelldesc428631,
+428625,,$@spelldesc428631,$@spellaura429655
 428627,,$@spelldesc428621,
 428628,,$@spelldesc428631,
 428629,,,
@@ -355243,7 +355269,7 @@ This effect may only occur once every $s1 sec.",
 428736,,"Attune yourself with the flames of change, letting you tame a particular creature.",
 428746,,"Lady Baihu channels a continuous stream of flame into Yalnu, increasing all damage he takes by $s1%.",Damage taken increased by $s1%.
 428748,,,
-428749,,,Pursued by a $@spellname428749.
+428749,,The $@spellname428749 fixates on a single player.,Pursued by a $@spellname428749.
 428750,,The Flamespawn heals for $428751s1% of its maximum health with each successful melee attack.,Melee attacks heal the Flamespawn for $428751s1% of maximum health.
 428751,,$@spelldesc428750,
 428757,,,
@@ -355349,7 +355375,7 @@ Shatters $@spellname428968s.",
 428979,,Grants the perfect amount of reputation with the Dream Wardens.,
 428980,,Grants the BEST amount of reputation with the Dream Wardens.,
 428982,,Grants the perfect amount of reputation with the Dream Wardens.,
-428983,,The Cycle Warden surrounds Nymue with a barrier of nature reducing their damage taken by $s1%. The shroud pulses inflicting $421368s1 Nature damage every $413443t1 sec to all players. Each period this effect increases in magnitude by $421368s2%.,
+428983,,The Cycle Warden surrounds Nymue with a barrier of nature reducing their damage taken by $s1%. The shroud pulses inflicting $421368s1 Nature damage every $413443t1 sec to all players. Each period this effect increases in magnitude by $421368s2%.,$@spellaura423459
 428984,,,Focused on creation.
 428986,,,
 428987,,$@spelldesc428992,
@@ -355489,7 +355515,7 @@ Movement speed increased by $s2%."
 Larodar's $@spellname417583, his Fiery Treats and Scorching Roots, and these flame patches spread Burning Ground further.
 
 $@spellname425249s douse the flames extinguishing these patches.",$s1 Fire damage inflicted every $t1 sec.
-429267,,"Taking damage has a chance to call Xeri'tac's brood your aid, attacking your foes and covering you in protective webbing which absorbs $s1 damage.",
+429267,,"Taking damage has a chance to call Xeri'tac's brood to your aid, attacking your foes and covering you in protective webbing which absorbs $s1 damage.",
 429268,,$@spelldesc429267,Absorbs $w1 damage.
 429269,,,
 429271,,"Envelop an ally in ancient protection, absorbing up to $s1 damage. If the protection is fully consumed, the ally gains an ancient resurgence, increasing Versatility by $429272s1 for $429272d.",Absorbs $w1 damage.
@@ -355555,6 +355581,7 @@ Additionally, this energy heals any allies hit for $429325s2 every $429325t2 sec
 
 |cFFFFFFFFGenerates ${($203650s1/5)*$203650d} Fury over $203650d if you damage an enemy.|r][]",
 429371,,Helps put out fire.,Helps put out fire.
+429375,,,
 429383,,,
 429388,,,
 429398,,$@spelldesc416998,
@@ -355631,7 +355658,7 @@ Only works within the emerald dream.",Projecting yourself into the emerald dream
 Only works within the Emerald Dream.",Projecting yourself into the Emerald Dream.
 429729,,,You look so peaceful sleeping on the ground.
 429734,,,
-429740,,"Searing heat radiates from the Fiery Treant, inflicting $429742s1 Fire damage every $t1 sec to all players.",Inflicts $429742s1 Fire damage every $t1 sec.
+429740,,"Searing heat radiates from the Scorched Treant, inflicting $429742s1 Fire damage every $t1 sec to all players.",Inflicts $429742s1 Fire damage every $t1 sec.
 429742,,$@spelldesc429740,
 429753,,,
 429756,,,
@@ -355788,7 +355815,7 @@ Nearby $@spellname422032 despair, becoming Screaming Souls themselves.]",
 ",
 430312,,$@spelldesc425370,
 430324,,$@spelldesc421840,
-430325,,$@spelldesc426018,
+430325,,"The $@spellname426018 ignites the player, inflicting $s1 Fire damage every $t1 sec for $d.",$s1 Fire damage every $t1 sec.
 430327,,$@spelldesc426018,
 430341,,,
 430347,,,
@@ -355810,7 +355837,6 @@ Nearby $@spellname422032 despair, becoming Screaming Souls themselves.]",
 430412,,,
 430413,,,
 430414,,,
-430415,,,
 430416,,,
 430417,,,
 430425,,,
@@ -355820,11 +355846,11 @@ Nearby $@spellname422032 despair, becoming Screaming Souls themselves.]",
 430431,,,
 430433,,"Alexstrasza, Kalecgos, Vyranoth, Ebyssian, Nozdormu, and Merithra arrive to receive the blessing of Amirdrassil.",
 430435,,"Alexstrasza, Kalecgos, Vyranoth, Ebyssian, Nozdormu, and Merithra arrive to receive the blessing of Amirdrassil.","Blessed by Azeroth, the Dragon Aspects surge with aspectral power once more."
-430436,,"Alexstrasza, Kalecgos, Vyranoth, Ebyssian, Nozdormu, and Merithra arrive to receive the blessing of Amirdrassil.",$@auradesc430435
-430437,,"Alexstrasza, Kalecgos, Vyranoth, Ebyssian, Nozdormu, and Merithra arrive to receive the blessing of Amirdrassil.",$@auradesc430435
-430438,,"Alexstrasza, Kalecgos, Vyranoth, Ebyssian, Nozdormu, and Merithra arrive to receive the blessing of Amirdrassil.",$@auradesc430435
-430439,,"Alexstrasza, Kalecgos, Vyranoth, Ebyssian, Nozdormu, and Merithra arrive to receive the blessing of Amirdrassil.",$@auradesc430435
-430440,,"Alexstrasza, Kalecgos, Vyranoth, Ebyssian, Nozdormu, and Merithra arrive to receive the blessing of Amirdrassil.",$@auradesc430435
+430436,,"Alexstrasza, Kalecgos, Vyranoth, Ebyssian, Nozdormu, and Merithra arrive to receive the blessing of Amirdrassil.",$@spellaura430435
+430437,,"Alexstrasza, Kalecgos, Vyranoth, Ebyssian, Nozdormu, and Merithra arrive to receive the blessing of Amirdrassil.",$@spellaura430435
+430438,,"Alexstrasza, Kalecgos, Vyranoth, Ebyssian, Nozdormu, and Merithra arrive to receive the blessing of Amirdrassil.",$@spellaura430435
+430439,,"Alexstrasza, Kalecgos, Vyranoth, Ebyssian, Nozdormu, and Merithra arrive to receive the blessing of Amirdrassil.",$@spellaura430435
+430440,,"Alexstrasza, Kalecgos, Vyranoth, Ebyssian, Nozdormu, and Merithra arrive to receive the blessing of Amirdrassil.",$@spellaura430435
 430441,,Fyrakk summons burning shades from within the $@spellname419066.,
 430442,,$@spelldesc428960,
 430443,,$@spelldesc419144,
@@ -355835,7 +355861,7 @@ Nearby $@spellname422032 despair, becoming Screaming Souls themselves.]",
 430479,,$@spelldesc418533,"Upon expiration, Igira leaps to your destination."
 430482,,,
 430484,,,
-430485,,"$430484s1 sec after a Surging Growth expires Nymue reclaims its energy, triggering an explosion at its location that inflicts $s1 Nature damage to players within $a1 yards.",
+430485,,"$430484s1 sec after a Surging Growth or Ephemeral Flora expires Nymue reclaims its energy, triggering an explosion at its location that inflicts $s1 Nature damage to players within $a1 yards.",
 430521,,,
 430524,,"The immense power of $@spellname426855 imbues players with growing life, creating $@spellname423195.",Sprouting $@spellname420557 every $t1 sec.
 430525,,,
@@ -355853,7 +355879,113 @@ Players who stand in the Flora stifle it, reducing its life force by ${$430533s1
 430582,,,
 430583,,"Remnant energy of the destroyed $@spellname424665 envelops the player, inflicting $430588s1 Fire damage every $t1 sec for $d. Touching a $@spellname424665 with $@spellname430583 causes the seed to erupt into a $@spellname422324.","Inflicts $430588s1 Fire damage every $t1 sec.
 Touching a $@spellname424665 with $@spellname430583 causes the seed to erupt into a $@spellname422324."
-430584,,"Seeds of Flame, unless crushed by a player, grow into $@spellname422324 after $430582d.
+430584,,"Seeds of Flame, unless crushed by a player, grow into a $@spellname422324 after $430582d.
 
 When a player steps on a $@spellname424665, it is destroyed. The players suffers $s1 Fire damage and is afflicted with $@spellname430583 for $430583d.",
 430588,,$@spelldesc430583,
+430644,,,
+430645,,,
+430646,,,
+430647,,,
+430648,,,
+430664,,$@spelldesc422137,
+430672,,,
+430673,,,
+430674,,,
+430677,,$@spelldesc421455,$@spellaura421455
+430777,,,
+430872,,,
+430910,,,
+430912,,Floating up in a bubble.,Floating up in a bubble.
+430953,,"Alexstrasza, Kalecgos, Vyranoth, Ebyssian, Nozdormu, and Merithra arrive to receive the blessing of Amirdrassil.",
+430954,,,
+430958,,,
+431005,,Unlocks this customization option for the Winding Slitherdrake at the Rostrum of Transformation.,
+431156,,Your next Rapid Fire will shoot $s1% additional shots during its channel.,Your next Rapid Fire will shoot $s1% additional shots during its channel.
+431168,,"Rapid Fire deals $s1% additional damage. Trick Shots causes Rapid Fire to launch a Volley for $s2 sec, dealing $s3% of normal damage.",
+431172,,Every $s1 Focus you spend has a ${$m2/10}.1% chance to reset the cooldown of Rapid Fire and cause your next Rapid Fire to shoot $431156s1% additional shots during its channel.,
+431174,,,
+431270,,,
+431297,,"Finishing move that disembowels the target, causing Shadow damage.",
+431298,,Finishing move that launches Shadow Powder at all nearby enemies dealing Shadow damage. Deals reduced damage beyond $s2 targets.,
+431299,,"Finishing move that tears open the target, dealing Shadow damage over time.",Bleeding for $w1 Shadow damage every $t1 sec.
+431300,,"A fireball erupts from the Darkflame Shade, inflicting $429014s1 Shadowflame damage to enemies in its path.",
+431301,,"A fireball erupts from the Darkflame Shade, inflicting $429014s1 Shadowflame damage to enemies in its path.",
+431302,,"A fireball erupts from the Darkflame Shade, inflicting $429014s1 Shadowflame damage to enemies in its path.",
+431314,,"The Blazing Thorns coalesce into flame orbs which move towards Larodar. Upon contact an orb inflicts $426249s1 Fire damage, increasing critical strike chance by $426249s3% and inflicting $426249s2 Fire damage every $426249t2 sec for $426249D.
+
+Orbs that reach Larodar increase Fire damage done by $426256s1% for $426256D. This effect stacks.",
+431315,,"The Blazing Thorns coalesce into flame orbs which move towards Larodar. Upon contact an orb inflicts $426249s1 Fire damage, increasing critical strike chance by $426249s3% and inflicting $426249s2 Fire damage every $426249t2 sec for $426249D.
+
+Orbs that reach Larodar increase Fire damage done by $426256s1% for $426256D. This effect stacks.",
+431368,,"Neptulon channels a rush of cleansed water into players, granting them immunity to Shadow damage and the power to purify $@spellname428404 for $d.",Immune to Shadow damage and able to purify $@spellname428404.
+431392,,$@spelldesc422032,
+431394,,$@spelldesc422032,
+431487,,,
+431488,,$@spelldesc422032,
+431579,,$@spelldesc418538,
+431585,,A wisp follows you.,A wisp seems to be following you.
+431587,,,
+431588,,,
+431589,,,
+431672,,,
+431679,,,
+431711,,,
+431820,,,
+431886,,$@spelldesc422032,
+431887,,$@spelldesc430051,
+431888,,$@spelldesc430051,
+431905,,$@spelldesc412761,
+431951,,,
+431975,,,
+432070,,A raging inferno inflicts $419504s1 Shadowflame damage every $419504t1 sec to players within the area.,
+432071,,,
+432072,,$@spelldesc419506,
+432102,,,
+432104,,,
+432154,,"Ascend into the air and unleash a massive barrage of Penance bolts, causing $<penancedamage> Holy damage to enemies or $<penancehealing> healing to allies over $421434d.
+
+While ascended, gain a shield for $s1% of your health. In addition, you are unaffected by knockbacks or crowd control effects.",Absorbing $w3 damage.
+432277,,$@spelldesc428971,
+432310,,,
+432312,,,
+432323,,,
+432324,,,
+432325,,,
+432326,,$@spelldesc419485,$@spellaura419485
+432328,,,
+432329,,$@spelldesc421990,
+432363,,$@spelldesc422104,Fire damage taken increased by $s1%.
+432365,,,
+432367,,,
+432368,,,
+432370,,,
+432371,,,
+432372,,,
+432373,,,
+432374,,,
+432375,,,
+432376,,,
+432377,,,
+432378,,,
+432379,,,
+432380,,,
+432381,,,
+432382,,,
+432383,,,
+432384,,,
+432385,,,
+432386,,,
+432387,,,
+432388,,,
+432389,,,
+432393,,,
+432394,,,
+432420,,,
+432427,,"The Roots of Amirdrassil nurture the world tree with the energy of the Emerald Dream. If $@spellname419066 reach the roots, $@spellname421741.",
+432428,,"The Roots of Amirdrassil nurture the world tree with the energy of the Emerald Dream. If $@spellname419066 reach the roots, $@spellname421741.",
+432508,,,
+432519,,Grants water breathing and increases sea floor movement speed by $s1% while in Vashj'ir.,Grants water breathing and increases sea floor movement speed by $s1% while in Vashj'ir.
+432521,,,
+432579,,Immune to crowd control effects.,Immune to crowd control effects.
+432580,,The Colossus gains energy over time.,
