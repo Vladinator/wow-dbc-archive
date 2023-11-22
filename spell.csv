@@ -31869,7 +31869,7 @@ Conjured items disappear if logged out for more than 15 minutes.",
 47974,,,
 47975,,,Protected by the injured Warsong warrior. Armor increased by 30%!
 47976,,,
-47977,,Summons and dismisses a rideable magical broom!  This mount changes depending on your Riding skill and location.,
+47977,,Summons and dismisses a rideable magical broom!  This mount changes depending on your Riding skill and location.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
 47978,,Unlocks a Dun Argol Cage.,
 47979,,Increases spell power by $s1.,
 47980,,,
@@ -52615,6 +52615,7 @@ Unleashing this Seal's energy will deal ${1+0.22*$SPH+0.14*$AP} Holy damage to a
 359641,,Permanently enchant gloves to increase agility by 15.,
 359642,,Permanently enchant a melee weapon to grant +20 Spirit.,
 359685,,Permanently enchant a shield to increase resistance to all magic schools by 5.  Requires a level 35 or higher item.,
+359755,,Right Click to summon and dismiss your Flurky.,
 359847,,"Permanently enchant a cloak to decrease threat caused by the wearer by 2%.
 ",
 359858,,Permanently enchant gloves to increase threat from all attacks and spells by 2%.,
@@ -52884,6 +52885,7 @@ Movement speed reduced by $s2%."
 400420,,,"Damage increased by $s1%.
 Health increased by $s2%."
 400700,,,
+400748,,,
 400800,,,
 400849,,,
 401142,,,
@@ -52908,8 +52910,10 @@ Movement speed increased by $s2%."
 405005,,,
 405867,,,
 406280,,,
+407786,,Right Click to summon and dismiss Glub.,
 408079,,,
 408119,,,
+408129,,,
 412397,,,
 412398,,,
 412399,,Defense Protocol Alpha,
@@ -53070,10 +53074,28 @@ Movement speed increased by $s2%."
 415672,,,
 415675,,,Damage from Area Effect abilities reduced by 80%
 416059,,,
+416158,,Summons and dismisses a rideable Nightmarish Emerald Drake.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
+416567,,,
+417218,,,
 417332,,,
 418337,,,
 418431,,,All damage and healing caused increased by $s1%.
 418501,,,Increases chance to critically hit by $s1%.
+423330,,Restores $s1 health.,
+423438,,Increases spell power of Flash of Light by $s1.,
+423440,,Reduces the base mana cost of your Seal spells by $s1.,
+423441,,Increases the spell power your Moonfire spell by $s1.,
+423442,,Increases the armor from your Devotion Aura by $s1.,
+423445,,Increases spell power of Lesser Healing Wave by $s1.,
+423448,,Reduces the mana cost of Stormstrike by $s1.,
+423451,,Increases the damage of your Claw and Rake abilites by $s1.,
+423452,,Increases spell power of Rejuvenation by $s1.,
+423457,,Increases spell power of Chain Lightning and Lightning Bolt by $s1.,
+423495,,Increases the base damage dealt by your Scourge Strike ability by ${$m1*$m2/100}.,
+423496,,Increases the damage dealt by your Icy Touch ability by ${$m1}.,
+423500,,Increases the damage dealt by your Death Coil ability by ${$m1}.,
+423868,,Right Click to summon and dismiss this companion.,
+423869,,Summons and dismisses this mount.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
 424184,,,
 424185,,,
 424186,,Defense Protocol Alpha,
@@ -53099,6 +53121,8 @@ Damaging attacks can infect victims with the Zombie Plague."
 Health increased by $s2%.
 Spectators look to be more fired up than usual."
 424340,,Inflicts Fire damage to nearby enemies.,
+424369,,Use this scroll to teleport you to Northrend and join the fight against the Lich King!,
+424370,,Use this scroll to teleport you to Northrend and join the fight against the Lich King!,
 424400,,,"Your melee attacks have a chance to shatter the armor of your target, increasing all damage the target takes by $424410s1% for $424410d."
 424403,,,"Your spell and ranged damaging critical strikes have a chance to grant Rallying Cry of the Tournament Champion to your party, increasing haste by $424411s1% for $424411d."
 424405,,,"Your direct healing spellcasts grant Confessor's Wrath, increasing your damage by $424457s1% for $424457d, stacking up to $424457u times. Once you attempt to deal any damage with this effect active, the effect cannot be triggered again for $427217d."
@@ -53109,6 +53133,7 @@ Spectators look to be more fired up than usual."
 424457,,,All damage done increased by $s1%.
 424469,,Defense Protocol Gamma,
 424470,,Defense Protocol Gamma,
+424512,,Open the bag.,
 425777,Rank 1,"Launch a fire trap to a nearby location where it will explode when an enemy approaches, causing ${$RAP*0.1+$49065m1} to ${$RAP*0.1+$49065M1} Fire damage and burning all enemies for ${$49065m2*10+$RAP} additional Fire damage over $49065d to all within $49065a1 yards.  Trap will exist for $d.  Only one trap can be active at a time.
 
 Not usable in Arenas or Battlegrounds.",
