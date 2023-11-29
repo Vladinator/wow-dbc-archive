@@ -25263,6 +25263,51 @@ transUp = parabola(1,1,height)
 local factor = 5
 transFront = math.pow(progress,1/factor) * distanceToFirePos
 transFront = transFront - distanceToFirePos",0,1
+4652,"10.2 Professions - Legendary - Enchanting - Order, Slow","local missileSpeed = 3.9
+local startSpeed = 20
+local p0 = 0
+
+local travelTime = (startDistance / missileSpeed)
+local v0 = startSpeed
+local acc = (v0*travelTime + p0) / (travelTime*travelTime)
+
+transUp = -acc*time*time + v0*time + p0
+
+--transFront = -distanceToFirePos
+
+--local spinRate = 1420
+--modelPitch = time * spinRate
+",0,1
+4653,"Unbound Order(Other, Medium)","local missileSpeed = 6
+local startSpeed = 15
+local p0 = 0
+
+local travelTime = (startDistance / missileSpeed)
+local v0 = startSpeed
+local acc = (v0*travelTime + p0) / (travelTime*travelTime)
+
+transUp = -acc*time*time + v0*time + p0
+
+--transFront = -distanceToFirePos
+
+--[[local spinRate = 1500
+modelPitch = time * spinRate
+--]]",0,1
+4654,"Unbound Order(Other, Fast)","local missileSpeed = 9
+local startSpeed = 20
+local p0 = 0
+
+local travelTime = (startDistance / missileSpeed)
+local v0 = startSpeed
+local acc = (v0*travelTime + p0) / (travelTime*travelTime)
+
+transUp = -acc*time*time + v0*time + p0
+
+--transFront = -distanceToFirePos
+--[[
+local spinRate = 1600
+modelPitch = time * spinRate
+--]]",0,1
 4655,10.2 Raid - Dream - Igira Channeler - Missile Motion,"local function parabola(m) return (4*m*(1-progress)*progress) end
 
 local overallMagnitudeOfRandomTranslations = 4
@@ -25464,6 +25509,19 @@ local variance = 18
 height = height + (rand1 * variance)
 
 transUp = parabola(1,1,height)",0,1
+4674,"10.2 Professions - Legendary - Enchanting - Order, Self","local missileSpeed = 0.42
+local startSpeed = 20
+local p0 = 0.5
+
+local travelTime = (startDistance / missileSpeed) - 2.5
+local v0 = startSpeed
+local acc = (v0*travelTime + p0) / (travelTime*travelTime)
+
+transUp = -acc*time*time + v0*time + p0
+
+--local spinRate = 1080
+--modelPitch = time * spinRate
+",0,1
 4675,Liang Test,"local function parabola(a,b,m) return (4*m*((1-progress)*a)*((progress)*b)) end
 
 local height = 20
@@ -25517,3 +25575,35 @@ scale = 2
 
 transUp = magnitude * ( 1 - progress )
 transFront = distanceToImpactPos	",0,0
+4694,Swirling Mist Missile v2,"
+
+
+local maxMagnitude = 1.5
+local minSpeedScalar = .8
+local maxSpeedScalar = 1.2
+
+local magnitude = (progress * 1.9) - 1
+magnitude = 1 - (magnitude * magnitude * magnitude * magnitude)
+
+transUp = (sin((rand2 * 1000) + (time * 700)) + cos((rand1 * 1000) + (time * 300))) * magnitude*0.5
+
+transRight = ((waveHeight * sin((time + rand1) * wavesPerSec * 360)) * sin(progress * 180)) * math.pow(1-progress,0.4) * 2
+if rand2 > 0.5 then
+	transRight = -1 * transRight
+end
+
+
+local angle = 0
+local maxMagnitude = startDistance * .30
+local spinRate = 360
+
+modelPitch = time * spinRate
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+transRight = (1+3*rand3) * sin(time * 2 * 360) * ( 1 - progress ) * 2
+
+
+
+-- Start fast, end slower
+out_speedScale = 0.5 + (1.0 * (1.0 - progress) * (1.0 - progress))",0,1
