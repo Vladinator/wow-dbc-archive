@@ -50138,7 +50138,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 65602,Vol'kaal defeated,65600,1,0,37075,1,0
 65603,Rezan defeated,65600,1,0,37076,2,0
 65604,Yazma defeated,65600,1,0,37077,3,0
-65605,Enemy Forces,65600,198,9,0,4,0
+65605,Enemy Forces,65600,225,9,0,4,0
 65606,,65605,4,0,39942,0,0
 65607,,65605,4,0,39943,1,0
 65608,,65605,4,0,39944,2,0
@@ -50152,8 +50152,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 65616,,65605,1,0,39952,10,0
 65617,,65605,4,0,39953,11,0
 65618,,65605,10,0,39954,12,0
-65619,,65605,6,0,39955,13,0
-65620,,65605,6,0,39956,14,0
+65619,,65605,8,0,39955,13,0
+65620,,65605,8,0,39956,14,0
 65621,8.0 Dungeon - City of Gold Exterior - Challenge (More Trash),0,0,4,0,0,0
 65622,Priestess Alun'za defeated,65621,1,0,37074,0,0
 65623,Vol'kaal defeated,65621,1,0,37075,1,0
@@ -86568,6 +86568,12 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 148490,,148489,1,0,61208,0,0
 148491,"Knows ""Lil' Frostwing""",0,0,4,0,0,0
 148492,Lil' Frostwing,148491,1,0,61209,0,0
+148493,10.2 - Fyraxe - Scenario - Step 1 - Equip Fyr'alath,0,0,4,0,0,0
+148494,Fyr'alath equipped in the center of the arena,148493,1,0,61210,0,0
+148495,10.2 - Fyraxe - Scenario - Collect 100% Discipline,0,0,4,0,0,0
+148496,100% Discipline Achieved,148495,1,0,61211,0,0
+148497,10.2 - Fyraxe - Scenario - Defeat the Echo of Fyrakk (LQM),0,0,4,0,0,0
+148498,Echo of Fyrakk defeated,148497,1,0,61212,0,0
 148499,Warlock,17049,1,0,61213,9,0
 148500,Warlock,20540,1,0,61214,8,0
 148501,Warlock,21210,1,0,61215,8,0
@@ -86952,6 +86958,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 148914,Cragscale,148909,1,0,61493,0,0
 148915,,148546,1,0,61241,3,0
 148916,,148546,1,0,61241,4,0
+148917,Speak with Travard,0,0,4,0,0,0
+148918,Tell Travard you are ready,148917,0,0,61498,0,0
 148919,drake with rider rp has started,0,0,4,0,0,0
 148920,,148919,1,0,61499,0,0
 148923,Master Broken Isles Herbalism Techniques,0,0,4,0,0,0
@@ -87012,6 +87020,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 148978,,148977,1,0,61541,0,0
 148979,Complete Fertilizer,148974,0,4,0,2,0
 148980,,148979,1,0,61542,0,0
+148981,Defeat the Nighthold Guards,0,0,4,0,0,0
+148982,Astromancer's Guards defeated,148981,0,0,61543,0,0
 148983,Craft Skeleton Keys,0,0,4,0,0,0
 148984,Silver Skeleton Key,148983,1,0,61545,0,0
 148985,Golden Skeleton Key,148983,1,0,61546,1,0
@@ -87443,6 +87453,10 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 149422,,149418,1,0,61871,3,48
 149423,,149418,1,0,61872,4,48
 149424,,149418,1,0,61873,5,48
+149425,10.2 Tyr Campaign - Ch 04 - Mail Push - Some Greater Purpose (AAO),0,0,4,0,0,0
+149426,,149425,0,0,61874,0,0
+149427,Defeat Researcher Alydrus,0,0,4,0,0,0
+149428,Senior Researcher Alydrus defeated,149427,1,0,61876,0,0
 149429,Disenchant items,148310,50,0,61877,1,1
 149430,Disenchant items,148312,250,0,61877,1,1
 149431,Disenchant items,148314,750,0,61877,1,1
@@ -87451,6 +87465,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 149434,,149433,100,0,61879,0,1
 149435,"Complete quest ""Proof and Promise"" (copy)",0,0,4,0,0,0
 149436,,149435,0,0,61565,0,0
+149437,Defeat Guardian Ordan,0,0,4,0,0,0
+149438,Guardian Ordan defeated,149437,0,0,61878,0,0
 149439,,136202,0,0,60285,8,0
 149440,,136202,0,0,60279,9,0
 149441,,136202,0,0,60287,10,0
@@ -87460,11 +87476,23 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 149445,,136202,0,0,60283,14,0
 149446,,136202,0,0,60284,15,0
 149447,,136202,0,0,60286,16,0
+149448,Guards Neutralized,0,0,4,0,0,0
+149449,Guards on stairs defeated,149448,0,0,61880,0,0
 149453,New Criteria Tree,0,0,4,0,0,0
 149454,,149453,0,0,61883,0,0
 149455,6541 - Protect the Site! (Elementals),0,100,9,0,0,0
 149456,Slay Disturbed Frost Elementals,149455,8,0,61891,0,1
 149457,Slay Disturbed Earth Elementals,149455,8,0,61892,1,1
+149458,Ready for Elisande,0,0,4,0,0,0
+149459,Tell Travard you are ready,149458,0,0,61883,0,0
+149460,Elisande Rewinds Time,0,0,4,0,0,0
+149461,Elisande confronted,149460,0,0,61893,0,0
+149462,Tyr's Guard Second Attack,0,0,4,0,0,0
+149463,Hear Talthis' plan,149462,0,0,61894,0,0
+149464,Elisande's Second Rewind,0,0,4,0,0,0
+149465,Elisande confronted,149464,0,0,61893,0,0
+149466,Nolaki's Plan Heard,0,0,4,0,0,0
+149467,Hear Nolaki's plan,149466,0,0,61896,0,0
 149476,New Criteria Tree,0,0,4,0,0,4096
 149477,,149476,1,0,61901,0,0
 149483,10.2 Dream - Rare Elite - Cluster 4 - Forest - 1 - Envoy of Winter - Criteria Tree (AOC),0,0,4,0,0,4096
@@ -87487,6 +87515,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 149500,,149499,1,0,61914,0,32
 149501,,149499,1,0,61915,1,32
 149502,,149499,1,0,61916,2,32
+149503,Tell Valunei you are ready,0,0,4,0,0,0
+149504,Tell Valunei you are ready,149503,0,0,61917,0,0
 149505,Complete Dream Wardens Activities,0,0,4,0,0,4096
 149507,"Complete ""Time to Process""",0,0,4,0,0,0
 149508,,149507,1,0,61918,0,0
@@ -88723,8 +88753,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 151297,Defenders of the Dream,151296,1,0,63007,0,0
 151298,Adventurer of the Emerald Dream,151296,1,0,63008,1,0
 151299,Treasures of the Emerald Dream,151296,1,0,63009,2,0
-151300,,151296,1,0,62759,3,0
-151301,I Dream of Seeds,151296,1,0,63010,4,0
+151301,I Dream of Seeds,151296,1,0,63010,3,0
 151302,10.2 Raid - Dream - Smolderon - Achievement,0,0,4,0,0,0
 151303,Fol'ya Pup,149799,0,0,63012,1,0
 151304,Sapnibbler,149799,0,0,63013,2,0
@@ -88748,7 +88777,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 151322,Council of Dreams,149883,1,0,63032,10,0
 151323,Council of Dreams,149897,1,0,63032,10,0
 151324,Douse 6 Runes of the Firelord,151302,1,0,63033,0,0
-151325,Explore the Emerald Dream,151296,1,0,63034,5,0
+151325,Explore the Emerald Dream,151296,1,0,63034,4,0
 151326,Explore the Emerald Dream,151206,1,0,63034,7,0
 151327,10.2 Raid - Dream - Boss - Igira - Achievement,0,0,4,0,0,0
 151328,Free the caged critters,151327,1,0,63038,0,0
@@ -88773,7 +88802,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 151368,Whorlwing Basin,151358,1,0,63060,9,0
 151369,Bronze Dragon Banner used,0,0,4,0,0,8193
 151370,,151369,1,0,63061,0,0
-151371,Super Duper Bloom,151296,1,0,63062,6,0
+151371,Super Duper Bloom,151296,1,0,63062,5,0
 151372,Nozdormu waved at,0,0,4,0,0,8193
 151373,,151372,1,0,63063,0,1
 151374,Hourglass of Eternity used,0,0,4,0,0,8193
@@ -89010,6 +89039,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 151627,,151626,1,0,63187,0,2
 151628,,140432,0,0,63188,5,0
 151629,,140432,0,0,63189,6,0
+151630,[DNT] Hidden - Fyr'alath - Heroic/Mythic Marker,0,1,8,0,0,0
+151631,,151630,0,0,63112,0,0
+151632,,151630,0,0,63121,1,0
 151633,10.0 Raid - Aberrus - LFR Wing 3 xx,0,0,4,0,0,0
 151634,Magmorax defeated,151633,1,0,63197,0,0
 151635,Neltharion defeated,151633,1,0,63198,1,0
@@ -89294,6 +89326,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 153143,ED4CR,149788,0,0,64447,9,0
 153144,ED5CR,149788,0,0,64448,10,0
 153145,ED6CR,149788,0,0,64449,11,0
+153146,Wielder of Fyr'alath the Dreamrender.,0,0,4,0,0,0
+153147,Fyr'alath the Dreamrender,153146,1,0,64450,0,2
+153148,,153146,0,0,64451,1,2
 153169,Acquired Fandral's Flamescythe,0,1,8,0,0,0
 153170,Normal Staff,153169,1,0,64454,0,0
 153171,Heroic Staff,153169,1,0,64455,1,0
@@ -89313,3 +89348,5 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 154343,,154342,0,0,65116,0,0
 154415,Completed Treasures of the Emerald Dream,0,0,4,0,0,8194
 154416,,154415,0,0,65203,0,0
+154588,"Sending Dragon Isles Drakes: White Scales through an achiement reward to players that have completed ""Time to Process"" (QID77344) but not gotten the reward.",0,0,4,0,0,0
+154589,Has completed quest and Meets condition,154588,0,0,65284,0,0
