@@ -344475,6 +344475,7 @@ $s1 Nature damage taken every second while in range of a Dream Tether."
 413577,,$@spelldesc413481,
 413578,,,
 413580,,$@spelldesc395064,$@spellaura395064
+413584,,$@spelldesc417131,
 413585,,"The Stickiness will toss paint bombs around the target and themselves, inflicting $413781s1 Nature damage to targets and coloring them.",$413781s1 Nature damage inflicted every $413781t1 second.
 413587,,$@spelldesc418423,
 413588,,,
@@ -345233,6 +345234,7 @@ Healing effects reduced by $s2%."
 414527,,,
 414528,,,
 414529,,,
+414532,,$@spelldesc420248,Suffering $s1 Shadowflame damage every $t1 sec.
 414533,,Right Click to summon and dismiss this companion.,
 414534,,,
 414535,,"Iridikron blasts Chromie with a barrage of rocks for $d.
@@ -346737,8 +346739,10 @@ Jumping removes a stack of $@spellname413538.."
 416997,,,
 416998,,"Igira expels swirling blades in the direction of a player, inflicting $404910s1 Shadowflame damage to players hit.",
 416999,,"Summons a patch of holy ground at targeted locations for $D, inflicting $407906s1 Holy damage every $407906T1 sec.",$407906s1 Holy damage every $407906T1 sec.
+417000,,"Wield the might of The Blazing, becoming enveloped in its Shadowflame.",
 417002,,$@spelldesc416999,$@spellaura416999
 417003,,$@spelldesc416998,
+417008,,,
 417011,,"An efficient spell, healing $s1 of a friendly target’s health.",
 417015,,,
 417017,,,
@@ -346813,9 +346817,13 @@ This effect can only occur once every $417069d.",
 417128,,,The photographer is looking to see someone dance for the camera.
 417129,,"Igira unleashes massive blades that slash in every direction, inflicting $s1 Nature damage to any players hit.",
 417130,,Unlock the Moontouched Vestments appearances upon completion of the Heritage storyline.,
+417131,,"Unleash the Rage of Fyr'alath to charge towards your target and swing repeatedly, dealing ${$417134s1*$417132d/$417132t1+$413584s1} Shadowflame damage over $417132d to all who would stand in your way.",
+417132,,$@spelldesc417131,
 417133,,,
+417134,,$@spelldesc417131,
 417136,,,
 417137,,Place the hourglass on the floor.,
+417138,,$@spelldesc420248,Explosive Rage damage increased by $w1%.
 417139,,$@spelldesc417050,"Haste increased by $w1, and taking $417050s3% less damage from enemies that struck you in the undone future."
 417140,,,"The hourglass contains sand infused with energy from many timelines.
 
@@ -347313,12 +347321,14 @@ Upon reaching full health, they transform into a $@spellname417668."
 417679,,,
 417680,,,
 417681,,,
+417682,,,
 417683,,$@spelldesc417673,
 417689,,"Strikes an enemy with a lightning bolt that arcs to another nearby enemy. The spell affects up to $x1 targets, causing Nature damage to each.",
 417690,,,
 417691,,"Plants seeds of madness in random players, inflicting $s1 Shadow damage every $t1 sec. After $d, the seed explodes and causes players within $A1 yards to flee in fear for $d.","$s1 Shadow damage inflicted every $t1 sec.
 
 Upon removal, causes nearby players to flee in fear."
+417693,,,
 417694,,,
 417695,,"Initiate Oman is attempting to summon you.
 
@@ -347830,6 +347840,7 @@ $@spelldesc418234","Swarm unleashed, inflicting Shadowfrost damage every $t1 sec
 418274,,$@spelldesc418290,@spellname418271 impacts the first object it hits.
 418275,,"Automatically complete the ""Coalition of Flames"" storyline and continue with the Emerald Dream Campaign.",
 418276,,Use the charged Chronoforged Hammer to shatter the time lock on the forge.,
+418278,,,
 418279,,,
 418280,,,
 418281,,,
@@ -348017,6 +348028,7 @@ Upon reaching their target they explode inflicting $427137s2 Nature damage and a
 418513,,,
 418517,,,
 418518,,"Unlocks this customization option for the Cliffside Wylderdrake, Renewed Proto-Drake, Highland Drake, Windborne Velocidrake, and Winding Slitherdrake at the Rostrum of Transformation.",
+418519,,,
 418520,,"Fiery Treant's melee strikes break splinters off in their target, inflicting $M1 Fire damage every $T1 sec for $D. This effect stacks.",Suffering $M1 Fire damage every $T1 sec.
 418521,,"Close a primalist portal being held open by the Druids of the Flame.
 ",Closing a primalist portal being held open by the Druids of the Flame.
@@ -348240,6 +348252,8 @@ Upon removal, transforms other players within $418740A1 yards into ducks."
 418768,,,
 418769,,"Slip partially into the Emerald Dream, becoming harder to detect when not in combat and empowering your next attacks.","Slip partially into the Emerald Dream, becoming harder to detect when not in combat and empowering your next attacks."
 418770,,,Stealthed.
+418771,,,
+418772,,,
 418773,,$@spelldesc418527,
 418774,,$@spelldesc418527,
 418775,,$@spelldesc418527,
@@ -348301,7 +348315,9 @@ No players have perished in this instance."
 418841,,,
 418842,,"Increases damage done, healing done, and movement speed by $s1% for each player within 5 yds.","Increases damage done, healing done, and movement speed by $s1% for each player within 5 yds."
 418843,,,
+418844,,,
 418845,,,
+418847,,"Consume your fiery essence and explode, dealing Shadowflame damage to all nearby enemies.",
 418848,,,
 418849,,,
 418850,,,
@@ -348621,12 +348637,18 @@ If the target is in your party or raid, all party and raid members will be affec
 419188,,,
 419189,,,
 419190,,,
+419191,,,
+419192,,,
 419193,,,
 419195,,"Temporarily transform into a wisp when jumping, gaining the ability to fly.","Temporarily transform into a wisp when jumping, gaining the ability to fly."
+419196,,Charge at your foe leaving pools of shadowflame in your wake.,
 419197,,,
 419198,,,Flying.
+419199,,,
 419200,,,
 419201,,,
+419202,,The caster leaps towards an enemy.,
+419203,,,
 419204,,Heals the target for $o1 over $d.,Healing $w1 every $t1 sec.
 419205,,Heals the target for $o1 over $d.,Healing $w1 every $t1 sec.
 419207,,"Heals the target for $o1 over $d. When Lifebloom expires or is dispelled, the target is instantly healed for $419209s1.",Healing $w1 every $t1 sec.
@@ -348676,7 +348698,16 @@ If the target is in your party or raid, all party and raid members will be affec
 419260,,,
 419261,,,
 419262,,"Striking a demon with melee abilities has a chance to rend their flesh, dealing Physical damage over $d.",Bleeding for $w1 every $t sec.
+419263,,"Inflict fear for $d seconds within $A0 yards.
+
+Inflicts $s2 Shadowflame damage to all enemies within $A2 yards of the caster every $t2 sec for $d.","Feared.
+
+$s2 Shadowflame damage inflicted every $t2 sec."
 419264,,,
+419265,,"Become emboldened by the moment, increasing movement speed by $s1% and becoming immune to daze.","Emboldened by the moment.
+
+Movement speed increased by $s1%.
+Immune to daze."
 419267,,,
 419268,,"Striking an undead with a melee ability has a chance to smite them with righteous fury, dealing Holy damage.",
 419269,,Concentrating to manipulate time.,Concentrating to manipulate time.
@@ -349084,15 +349115,18 @@ This effect stacks."
 419717,,,
 419718,,,
 419719,,,
+419720,,,
 419721,,$@spelldesc419714,
 419722,,"The light burns players standing within it, inflicting $s1 Holy damage every $t1 sec.",$s1 Holy damage inflicted every $t1 sec.
 419723,,,
 419724,,,
+419725,,,
 419726,,$@spelldesc419714,
 419729,,,
 419730,,You have turned into a duck! Quack to run faster!,Quack!
 419731,,$@spelldesc419829,
 419732,,,
+419733,,,
 419735,,,
 419736,,,
 419737,,"Upon expiration, an echo of the ability's damage will strike the target.",
@@ -349202,13 +349236,24 @@ $h% chance on hit to leech $419787s1 health as Fire Damage every $419787t1 sec."
 
 Increase damage done by $s2%."
 419834,,,
+419835,,Gain the ability to gather Discipline.,"Gather Discipline by defeating enemies.
+
+At 100% Discipline gain the ability to damage the Echo of Fyrakk directly."
 419836,,"A ruinous flame corrupts the target.
 
 ",A ruinous flame corrupts the target.
+419837,,,
+419838,,,
+419839,,,
 419840,,$@spelldesc419841,
 419841,,"Leaps towards target area and slams the mighty banana at the ground, inflicting damage equals to 10% of the Banana Slamma's health within $a1 yards.",
 419842,,$@spelldesc419701,
 419843,,$@spelldesc419845,
+419844,,"Become immune to damage.
+
+Broken when smashed by the $@spellname420564.","Immune to damage.
+
+Broken when smashed by the $@spellname420564."
 419845,,The caster imbues their ammo with the cunning of the Black Dragonflight. They reduce their Haste by $s3% to increase their damage by $s2% and gain a $h% chance to briefly reduce their target's Haste and movement speed by $419843s1% on hit.,"Damage increased by $s2%.
 Haste reduced by $s3%.
 $h% chance to reduce Haste and movement speed by $419843s1% on hit."
@@ -349217,6 +349262,7 @@ $h% chance to reduce Haste and movement speed by $419843s1% on hit."
 419848,,,
 419850,,The caster imbues their ammo with the alacrity of the Bronze Dragonflight. Their damage is reduced by $s1% to increase their Haste by $s2%.,"Damage reduced by $s1%
 Haste increased by $s2%."
+419852,,,
 419853,,$@spelldesc419883,
 419854,,,
 419855,,"The Renegade Looter slurps refreshing juice, healing for $s1% health every $t1 sec.",Healing for $s1% health every $t1 sec.
@@ -349311,6 +349357,7 @@ Damage taken reduced by $s4%."
 419934,,$@spelldesc409267,
 419935,,Increases mount speed by $s1%.,Mount speed increased by $s1%.
 419936,,Dimension Breaker inflicts $s1 Shadow damage to its current target.,
+419937,,,
 419938,,,
 419940,,Quack!,Quack!
 419941,,"Unlocks this customization option for the Cliffside Wylderdrake, Renewed Proto-Drake, Highland Drake, Windborne Velocidrake, and Winding Slitherdrake at the Rostrum of Transformation.",
@@ -349397,11 +349444,15 @@ Each Dark Anomaly erupts after $d, inflicting $s1 Shadow damage to all players."
 420026,,,
 420027,,Mindbender Ghur'sha lets out a piercing wail inflicting $420030s1 Shadow damage to all players. ,Lets out a wail every $t1 sec.
 420028,,,
+420029,,,
 420030,,Mindbender Ghur'sha lets out a piercing wail inflicting $s1 Shadow damage to all players. ,
+420031,,,
 420032,,,
 420033,,,
 420034,,,
 420035,,"The Devourer gorges upon its young, healing for $420079s2% of its maximum health and increasing its damage by $420079s1% for $420079d.",
+420036,,Release the shadowflame within Fyr'alath and face it head on.,Stunned.
+420037,,,
 420038,,Take to the dreamy seas on a convenient plank of enchanted wood.,Shredding the Emerald Waves.
 420039,,The Quacken unleashes his fury... of the Quacken.,
 420040,,The young spider pursues its mother.,
@@ -349624,7 +349675,11 @@ Movement speed reduced by $w3%.][]"
 420239,,,
 420240,,A quick beam of solar light burns players for $s1 Fire damage.,
 420241,,,
+420242,,"Send a chain of Shadowflame eruptions outwards, inflicting damage to any caught in the blast.",
+420244,,,
+420245,,,
 420247,,,
+420248,,"Your attacks apply Mark of Fyr'alath, dealing $414532o1 Shadowflame damage over $414532d. Upon activation, Fyr'alath draws in the flames from all marks to increase its damage by $s1%.",
 420249,,,
 420251,,Igira increases her damage done by $s1% when she reaches 100 energy. This effect stacks.,Damage done increased by $s1%.
 420252,,"Pick up some food in Nuo's dreams. Smells delicious!
@@ -349638,7 +349693,9 @@ Movement speed reduced by $w3%.][]"
 420263,,Your auto attacks and Windfury attacks generate $187890s1 Maelstrom.,
 420265,,,
 420266,,$@spelldesc187880,Your next damage spell has its cast time reduced and its damage increased.
+420269,,,
 420270,,$@spelldesc420165,
+420271,,,
 420274,,,
 420275,,,
 420276,,,
@@ -349744,12 +349801,14 @@ Increases the effects of your next Shield of the Righteous by $197561s2%.",Silen
 
 After he finishes channeling, he gains a stack of $@spellname417583.",
 420395,,$@spelldesc417634,
+420402,,,
 420403,,Rotpaw concentrates Decay into an animated blob to assail their enemies.,
 420404,,$@spelldesc417634,
 420405,,$@spelldesc420406,
 420406,,"The caster conjures an invigorating draft of wind at their location that increases the haste of all nearby units by $s1.
 
 This effect stacks.",Haste increased by $s1%.
+420407,,"Explode, inflicting $s1 Shadowflame damage to nearby enemies.",
 420409,,Leap forward as a duck and gain a rush of adrenaline increasing movement speed by $s1% for $d. QUACK!,Movement speed increased by $s1%.
 420410,,$@spelldesc420421,
 420411,,$@spelldesc420421,
@@ -349814,6 +349873,7 @@ $@spellaura419236",
 420446,,"Inflicts $s2 nature damage to all enemies in front of Brichbramble, and increased damage with knockback at close range.
 ",
 420447,,,
+420457,,,
 420460,,Unlocks this customization option for the Windborne Velocidrake at the Rostrum of Transformation.,
 420468,,"The caster causes a shard of ice to fall onto the target, inflicting $s1 Frost damage.",
 420469,,"Fires several missiles, hitting your current target and all enemies within $A1 yards for $s1 Physical damage$?s115939[ and triggering Beast Cleave][].$?s19434[
@@ -349843,6 +349903,7 @@ Haste reduced by $s2%."
 420487,,Deceiver Hr'qoth brings forth a shade of his foes to assist him in battle.,
 420488,,,"Damage taken increased by $s1%.
 Haste reduced by $s2%"
+420489,,,
 420490,,"The caster fissures the earth in a line towards the target, inflicting $s1 Nature damage on impact.",
 420491,,,
 420492,,,
@@ -349899,12 +349960,17 @@ Damage done increased by $s2%."
 420557,,"The immense power of $@spellname426855 imbues players with growing life, creating $@spellname423195.",Sprouting $@spellname420557 every $t1 sec.
 420559,,,This djaradin is attacking Cloudsong.
 420560,,,This djaradin is attacking Elderbranch.
+420561,,,
 420562,,,
 420563,,,
+420564,,"Unleash the Rage of Fyr'alath to charge towards your target and swing repeatedly, dealing ${$417134s1*$417132d/$417132t1+$413584s1} Shadowflame damage over $417132d to all who would stand in your way.",
 420565,,,
+420566,,,
 420567,,,
+420568,,,
 420570,,,
 420572,,,
+420575,,,
 420578,,"Place the totem to siphon magical energy from weakened, flame-corrupted Roottender Treants and Roottender Wildgrowths.",The Roottender's magical energy will be harvested once it's weakened.
 420580,,$@spelldesc421013,
 420581,,,
@@ -349914,6 +349980,7 @@ Damage done increased by $s2%."
 420589,,,
 420590,,,
 420591,,,
+420595,,,
 420596,,Collect the appearances of the Scales of the Silver Hoarder.,
 420597,,Collect the appearances of the Treasure of the Silver Hoarder.,
 420598,,Collect the appearances of the Hornstrider Warrior's Camouflage.,
@@ -349953,6 +350020,9 @@ Susceptible to $@spellname418720."
 420645,,,
 420647,,,
 420648,,$spelldesc420499,
+420649,,"Place a stack of various notes Eadward has collected relevant to Shadowflame. Party and raid members are also able to browse the notes collected by the historian who placed the them. 
+
+The stack of notes lasts for $d.",You occasionally are inspired to take notes on the properties of Shadowflame by completing content within the Emerald Dream.
 420651,,,
 420654,,"When you use Shandris's Scouting Report, the ""Coalition of Flames"" chapter will be completed for you and you will not be able to do it again on this character.
 
@@ -349969,6 +350039,7 @@ Are you sure you want to continue?
 420670,,Allows you to catalog nearby wildlife and natural phenomena during a relaxing ride.,Cataloging nearby wildlife.
 420671,,"Aerwynn showers the ground with blossoms that emit poisonous fumes, inflicting $420715s1 Nature damage to all players every $420714t1 sec until destroyed.",
 420672,,,
+420674,,,
 420675,,,
 420678,,Use the juice of a Dream Fruit to resuscitate an injured Sprite Dreamer.,
 420681,,,
@@ -350031,6 +350102,13 @@ Are you sure you want to continue?
 420795,,"The blossom explodes in a puff of toxic fumes, inflicting $420796s1 Nature damage every $t1 sec to players within $420791A1 yards for $d. This damage is increased by $421014s2% against absorb shields.",Inflicting $420796s1 Nature damage every $t1 sec.
 420796,,$@spelldesc420795,
 420797,,"Inflicts $s1 physical damage to an enemy, knocking them back and eliminating their threat.",
+420800,,"When you complete this quest, the first chapter of the Azure Span will be automatically completed for you.
+
+Are you sure you want this to happen?
+
+",
+420801,,,
+420802,,,
 420806,,"A cresting wave of chaotic magic splashes over enemies in front of the caster, dealing $s1 Shadow damage and an additional $s2 Shadow damage every $t2 sec for $d.",Inflicts $s2 Shadow damage every $t2 sec.
 420807,,"Increases the time between an enemy's attacks by $s2% and slows its movement by $s1%, in addition to reducing its Strength by $s3%. Lasts $d.","Movement speed reduced by $s1%.
 Time between attacks increased by $s2%.
@@ -350041,6 +350119,7 @@ Strength reduced by $s3%."
 420820,,,
 420821,,Driven to madness.,Driven to madness.
 420822,,,
+420824,,,
 420826,,$@spelldesc422365,
 420827,,,
 420828,,,
@@ -350160,9 +350239,12 @@ Upon reaching his target, Urctos unleashes a $@spellname420966.",
 420987,,,
 420988,,,
 420989,,,
+420991,,[NYI] ,
 420992,,,
 420994,,Fyrakk's breath attack knocks back enemies and deals damage.,
 420995,,,
+420996,,,
+420997,,,
 420999,,,
 421000,,,
 421001,,Fyrakk's breath attack knocks back enemies and deals damage.,
@@ -350202,6 +350284,7 @@ $?diff14 [Emitting $@spellname426617 every $426623t1 sec.][]$?diff15|diff16 [Emi
 Stunned."
 421033,,"Filling the bucket.
 ",
+421034,,,
 421035,,,
 421036,,,
 421038,,"Shadowflame residue inflicts $425002s1 Shadowflame damage every $425002t1 sec. This effect stacks.
@@ -350229,6 +350312,7 @@ Touching a $@spellname425648 while afflicted ignites the root and removes one ap
 421071,,,
 421072,,$@spelldesc356517,
 421073,,,
+421074,,,
 421075,,,
 421076,,,
 421077,,,
@@ -350251,15 +350335,18 @@ Touching a $@spellname425648 while afflicted ignites the root and removes one ap
 421099,,,
 421100,,,
 421101,,$@spelldesc421085,
+421102,,,
 421103,,,
 421107,,Gaal will now sell a selection of recovered eredar artifacts from Argus's golden age before the coming of Sargeras and the schism of the draenei people.,
 421108,,,
 421109,,,
+421111,,,
 421112,,,
 421113,,,
 421114,,,
 421116,,,
 421117,,,
+421123,,,
 421124,,,
 421125,,,
 421126,,,
@@ -350280,6 +350367,7 @@ Touching a $@spellname425648 while afflicted ignites the root and removes one ap
 421151,,,
 421154,,,
 421157,,,
+421160,,,
 421168,,,
 421169,,,
 421170,,,
@@ -350335,6 +350423,7 @@ Some herbs that grow within the Dream have sentience, and will not take lightly 
 Some herbs that grow within the Dream have sentience, and will not take lightly to attempts to gather them. They will uproot and flee from their would-be gatherers, but those who are determined may still be able to gather materials from these creatures.",
 421228,,$@spelldesc421207,
 421230,,Create a racing ring.,
+421231,,,
 421232,,,
 421234,,,
 421235,,Race through other players' courses!,Racing through other players' courses!
@@ -350386,6 +350475,8 @@ Upon expiration, the flames slither to another player.][]
 This channel leaves Aerwynn susceptible to $@spellname420946.",
 421298,,$@spelldesc421292,"$s1 Nature damage inflicted every $t1 sec.
 Movement speed reduced by $s2%."
+421313,,,
+421314,,,
 421315,,$@spelldesc421316,$@spellaura421316
 421316,,"After $s1 casts of Raging Inferno Larodar draws upon the surrounding flames for $D radiating $421315s1 Fire damage to all players every $t1 sec, pulling players towards him. Additionally the Keeper inflicts $423610s1 Fire damage to players within $Q1 yards.
 
@@ -350443,6 +350534,8 @@ Damage taken reduced by $w2%."
 421358,,,
 421359,,$@spelldesc420421,
 421361,,,
+421362,,,
+421363,,,
 421364,,,
 421365,,,
 421366,,,
@@ -350468,6 +350561,7 @@ Damage taken reduced by $w2%."
 421418,,,
 421419,,$@spelldesc426855,
 421421,,$@spelldesc421013,
+421422,,,
 421426,,,
 421427,,$@spelldesc421350,
 421429,,,
@@ -350584,6 +350678,7 @@ Creates $@spellname421969 upon expiring.]"
 421547,,,
 421548,,,
 421552,,,
+421554,,"Elisande rewinds time, moving her enemies away to a time before the fight began.",
 421556,,Take your position and observe Maiev Shadowsong and Arko'narin Starshade perform the rite of marking Lysander as a protector of the kaldorei.,Observing the facial marking ceremony.
 421557,,"Ultimate Penitence emits an explosion of light, healing up to $s2 allies around you for $421676s1 and applying Atonement at $s1% of normal duration.",
 421558,,Each Penance bolt you fire reduces the cooldown of Ultimate Penitence by $s1 sec.,
@@ -350600,7 +350695,12 @@ Creates $@spellname421969 upon expiring.]"
 421580,,,
 421582,,,
 421584,,,
+421585,,,
+421586,,,
+421587,,,
+421588,,,
 421591,,$@spelldesc421318,
+421593,,,
 421594,,"Suffocates a player reducing healing received by $s1% and inflicting $423787s1 Fire damage every $t2 sec for $D. 
 
 Additionally, this effect leeches $423807s1 health from allies within $423807A yards each $t2 sec.","Healing effects received reduced by $s1% and suffering $423787s1 Fire damage every $t2 sec.
@@ -350638,6 +350738,7 @@ All players hit by the effect are branded and afflicted with $@spellname421656.
 421639,,Inflicts $s1 Fire damage every $t1 sec.,Inflicts $s1 Fire damage every $t1 sec.
 421640,,,
 421641,,,
+421642,,,
 421643,,"Emberscar brands the player, increasing damage taken from $@spellname421343 by $s1%.
 
 Being struck by $@spellname422277 removes the effect.",You've been branded by Emberscar. Damage taken from $@spellname421643 increased by $s1%.
@@ -350668,7 +350769,10 @@ Causes a $@spellname424233 when removed."
 421674,,$@spelldesc421675,
 421675,,"Volcoross's igneous skeleton emanates with blistering heat, inflicting $421674s1 Fire damage to all players every $t1 sec.",Inflicting $421674s1 Fire damage to all players every $t1 sec.
 421676,,$@spelldesc421557,
+421677,,,
+421678,,,
 421679,,,
+421680,,,
 421681,,,
 421682,,,
 421684,,$@spelldesc420421,
@@ -350690,6 +350794,7 @@ Causes a $@spellname424233 when removed."
 421706,,,
 421707,,,
 421708,,,
+421709,,,
 421710,,,
 421711,,,
 421712,,,
@@ -350729,6 +350834,7 @@ Causes a $@spellname424233 when removed."
 421747,,$@spelldesc421746,
 421748,,,
 421749,,$@spelldesc421746,
+421750,,,
 421751,,,
 421752,,,
 421753,,Create a soulbound item for your class.,
@@ -350917,7 +351023,9 @@ Some of these patches absorb the Shadowflame energy, forming dormant $?diff16[Ta
 421961,,$@spelldesc421969,
 421962,,$@spelldesc421960,
 421963,,,
+421964,,,
 421965,,,
+421967,,,
 421968,,"Tindral gazes at enemies in the sky. Upon reaching 10 stacks, Tindral strikes them with $@spellname421978.",
 421969,,$@spellname421969 inflict $s1 Fire damage and knock back any player they come in contact with.,
 421970,,$@spelldesc387526,Damage done increased by $w1%.
@@ -350940,6 +351048,7 @@ Caustic Spatter causes $421976s1% of your Poison damage dealt to splash onto oth
 421981,,$@spelldesc421986,
 421982,,"Fires a bolt of energy at enemy targets, inflicting $421985s1 damage to all target enemies. May do increased damage at closer range.",
 421983,,Increases your movement speed for a short time,Increase your movement speed.
+421984,,,
 421985,,,
 421986,,Upon awakening inflicts $s1 Shadowflame damage to all enemies.,
 421987,,$@spelldesc421992,Melee attacks inflict an additional $422000s1 Fire damage every $422000t1 sec. This effect stacks.
@@ -350982,6 +351091,7 @@ $@spelldesc421323"
 422021,,,
 422023,,The flaming soil inflicts $s1 Shadowflame damage every $t1 sec to players standing on it.,$s1 Shadowflame damage inflicted every $t1 sec.
 422024,,$@spelldesc422032,
+422025,,,
 422026,,"Gnarlroot bellows in agony, inflicting $s1 Shadowflame damage to all players and an additional $s2 Shadowflame damage every $t2 sec for $d.",
 422027,,$@spelldesc422032,
 422028,,,
@@ -351227,12 +351337,22 @@ Rooted."
 422323,,,
 422324,,"$@spellname422324s sprout forth from $@spellname424665 after $422426d, inflicting $422325s1 Fire damage to players every $s1 sec$?diff15|diff16[.][ for $d.]",
 422325,,$@spelldesc422324,
+422326,,Share Erden's notes with a friendly Leatherworker and temporarily teach them how to craft Erden's Dreamleaf Grip. Leatherworker must be in the same party.,
+422327,,Share Lydiara's notes with a friendly Scribe and temporarily teach them how to craft Lydiara's Binding Rune. Scribe must be in the same party.,
+422328,,Share Shalasar's notes with a friendly Enchanter and temporarily teach them how to craft Shalasar's Sophic Vellum. Enchanter must be in the same party.,
+422329,,,
+422330,,Erden's makeshift recipe for the Symbiotic Glowspore Grip. His notes detail a few reagents necessary to maintain the grip's symbiotic properties.,
 422331,,"Sparks of the burning tree cover the battlefield, increasing players' fire damage taken by $s1%.",Increased fire damage taken by $s1%.
 422332,,,
 422333,,"Seed of Flame attaches itself to the player, inflicting $s1 Fire damage every $t1 sec.
 
 The seed erupts after $d, inflicting $423302s1 Fire damage to players within $423302a1 yards and a Raging Treant rises from the player's location.",Inflicts $s1 Fire damage every $t1 sec.
 422334,,,
+422335,,,
+422336,,,
+422337,,Notes detailing the reagents required to craft Lydiara's Binding Rune. ,
+422338,,Shalasar's notes detailing how to craft a prototype Sophic Vellum.,
+422340,,,
 422341,,,
 422342,,,
 422343,,,
@@ -351411,6 +351531,7 @@ Shards of each meteor also impact Amirdrassil, inflicting $419061s1 Shadowflame 
 422540,,,
 422543,,,
 422544,,,
+422545,,,
 422546,,,
 422548,,,
 422551,,,
@@ -351421,6 +351542,7 @@ Shards of each meteor also impact Amirdrassil, inflicting $419061s1 Shadowflame 
 422556,,Collect all colors of engineering Bio-Optic Killshades usable by all armor types.,
 422557,,Collect all colors of engineering Retinal Armor usable by all armor types.,
 422559,,"Players not afflicted by $@spellname421454 and $@spellname421643 when $@spellname422277 goes off causes their soul to rupture, inflicting $s1 Shadow damage every $t1 sec for $d.",$s1 Shadow damage every $t1 sec.
+422561,,,
 422562,,,
 422569,,,
 422570,,,
@@ -351447,6 +351569,7 @@ Upon expiration, the current target also takes $422649s1% increased damage from 
 422591,,,
 422592,,,
 422593,,,
+422594,,,
 422595,,Bother a podling.,
 422596,,Protects the caster from falling damage.,Falling gently.
 422597,,"$@spelldesc420911
@@ -351499,6 +351622,12 @@ Upon expiration, the current target also takes $422649s1% increased damage from 
 422670,,,
 422671,,,
 422672,,,
+422674,,,
+422675,,,
+422676,,,
+422677,,,
+422678,,,
+422679,,,
 422680,,,
 422683,,"Thrash all nearby enemies, inflicting Physical damage and causing them to bleed",Bleeding.
 422684,,,Movement and falling speed reduced.
@@ -351520,8 +351649,10 @@ When the lava settles, a pool of $@spellname421527 is left behind.",
 422705,,,
 422706,,The spirit is released and is ready to return to the wilds.,
 422707,,,
+422708,,,
 422709,,,
 422710,,,
+422711,,,
 422712,,,
 422713,,,
 422714,,Examine the soil of the Emerald Bounty.,Examine the soil of the Emerald Bounty.
@@ -351556,9 +351687,9 @@ When the lava settles, a pool of $@spellname421527 is left behind.",
 422747,,"Feral Frenzy grants Smoldering Frenzy, increasing all damage you deal by $422751s1% for $422751d.",
 422748,,"Feral Frenzy's cooldown is reduced by ${$s1/-1000} sec. During Smoldering Frenzy, enemies burn for $422751s6% of damage you deal as Fire over $422779d.",
 422749,,,
-422750,,"Give in to the Rageheart for $d, absorbing $422652s3 damage but suffering $422652s2 Shadowflame damage and lashing out at a nearby enemy every $t1 sec to deal $422652s4 Shadowflame damage split between nearby enemies. 
+422750,,"Give in to the Rageheart, absorbing $422652s3 damage for $425571d. Suffer $422652s2 Shadowflame damage and lash out at a nearby enemy every $t1 sec for $d to deal $422652s4 Shadowflame damage split between nearby enemies. 
 
-Damage increased per enemy struck, up to 5.",Suffering $422652w2 Shadowflame damage and dealing $422652w4 Shadowflame damage split between nearby enemies every second.
+Damage increased per enemy struck, up to 5.",Suffering $422652w2 Shadowflame damage and targeting a nearby enemy with $@spellname425701 every $t1 sec.
 422751,,$@spelldesc422747,Damage dealt increased by $s1%.
 422752,,,
 422753,,,
@@ -351568,6 +351699,7 @@ Damage increased per enemy struck, up to 5.",Suffering $422652w2 Shadowflame dam
 422757,,Examine the soil of the Emerald Bounty.,Examine the soil of the Emerald Bounty.
 422758,,Examine the soil of the Emerald Bounty.,Examine the soil of the Emerald Bounty.
 422760,,Examine the soil of the Emerald Bounty.,Examine the soil of the Emerald Bounty.
+422761,,,
 422762,,Examine the soil of the Emerald Bounty.,Examine the soil of the Emerald Bounty.
 422763,,Examine the soil of the Emerald Bounty.,Examine the soil of the Emerald Bounty.
 422764,,Examine the soil of the Emerald Bounty.,Examine the soil of the Emerald Bounty.
@@ -351618,16 +351750,21 @@ While forging a weapon, each of Igira's hammer strikes launches $@spellname42371
 422802,,,
 422803,,,
 422804,,,
+422805,,,
 422808,,,
 422809,,"Overloading this type of deposit momentarily deepens your connection with the Dream, attuning yourself to your surroundings and the ore deposit itself. 
 
 After successfully finishing a short meditation, the deposit will gift you numerous resources.",
 422812,,$@spelldesc422809,Meditating with a living deposit and attuning to the Dream.
+422813,,"Sends the targets in a cone in front of the caster flying, inflicting $s1 Arcane damage on impact and knocking them back.",
 422814,,$@spelldesc392088,
+422815,,$@spelldesc422821,
 422816,,,
 422817,,"Leap at an enemy and crush them with your body, dealing $s1 Physical damage and knocking enemies back.",
 422818,,,
 422819,,,
+422820,,$@spelldesc422821,
+422821,,"Releases energy into the air, inflicting $s1 Arcane Damage to all targets within 4 yards of the impact.",
 422822,,,
 422823,,$@spelldesc422691,
 422824,,,
@@ -351643,6 +351780,7 @@ After successfully finishing a short meditation, the deposit will gift you numer
 422837,,"Fyrakk unleashes an incinerating roar, inflicting $422839s1 Shadowflame damage to all players and pushing them away.
 
 Players suffer an additional $422839s2 Shadowflame damage every $422839t2 sec for $422839d.",
+422838,,Teaches player how to use special recipes,
 422839,,$@spelldesc422837,$s2 Shadowflame damage inflicted every $t2 sec.
 422841,,,
 422844,,"Your maximum item level is throttled to $w1 for purposes of testing.
@@ -351751,7 +351889,9 @@ Shards of each meteor also impact Amirdrassil, inflicting $419061s1 Shadowflame 
 422943,PvP Rune,,Absorbing $w1 damage.
 422944,,,
 422945,,,
+422946,,,
 422947,,,
+422950,,"Judges the target, dealing Holy damage.",
 422951,,,
 422953,,,
 422954,,,
@@ -351766,12 +351906,15 @@ Damage increased by $422953s3% against immobilized targets.",
 422964,,$@spelldesc422583,
 422965,,Concealing you from enemies and gain $s2% movemenet speed.,"Stealthed.
 $s2% increased movement speed."
+422966,,"Hurls a holy shield at the enemy, dealing Holy damage and bouncing to nearby enemies.",
 422967,,,
 422968,,Cooldown rate increased by $s1%.,Cooldown rate increased by $s1%.
 422970,,,
 422971,,,
+422972,,,
 422973,,Calls down Vyranoth's icy wrath on Wildfire enemies in the area to stun them and increase their damage taken. Dispells Shadowflame Shields.,
 422974,,,
+422975,,You are now capable of assisting Honorary Historians with acquiring Study of Shadowflame.,You are now capable of assisting Honorary Historians with acquiring Study of Shadowflame.
 422977,,,
 422979,,$@spelldesc403576,
 422980,,,
@@ -351842,6 +351985,7 @@ Immune to fire hazards on the bridge in Lunedane.
 Movement speed reduced by $418403s2%.
 
 Attacking will cancel this effect."
+423053,,,
 423054,,Increases maximum Energy by $s1.,
 423055,,,
 423056,,,
@@ -352032,8 +352176,14 @@ Immune to crowd control effect."
 423310,,,
 423311,,,
 423312,,,
+423313,,Teaches player how to use special recipes,
+423314,,Teaches player how to use special recipes,
 423315,,,
 423316,,,
+423317,,"The collected data of Erden's Symbiotic Grip inspires you.
+","The collected data inspires you.
+
+While inspired, you are now able to craft the Erden's Glowspore Grip."
 423318,,,
 423320,,,
 423323,,,
@@ -352124,6 +352274,7 @@ If the target is above $s5% health when this effect expires, the Blossom spreads
 423492,,,
 423493,,,
 423494,,A flowing rush of lava that inflicts $s1 Fire damage every $t1 sec to players within the effect.,Inflicting $s1 Fire damage every $t1 sec.
+423499,,You are able to see Eadweard's Notes on various Master Artisans.,You are able to see Eadweard's Notes on various Master Artisans.
 423503,,Burn in flame one final time.,Burned to ash.
 423504,,,
 423505,,,
@@ -352194,12 +352345,14 @@ Periodically the seeds surge with power, allowing any player carrying a seed to 
 Seeds become $@spellname423598s if hit directly by shadowflame.]",Holding a $@spellname423601.
 423603,,,
 423604,,,
+423607,,,
 423610,,$@spelldesc421316,Suffering $s1 Fire damage every $t1 sec.
 423611,,"Draw power from the remnants of the Embersoul, gaining $423021s1 $pri for $d, decaying every $t3 sec. Once this effect ends, become Burned Out, losing $423021s2 Haste for 60 sec before recovering.
 
 When circumstances are dire your soul ignites, granting this bonus again without decaying. This effect may only occur once per combat.",$pri increased by $w1.
 423612,,Heals a friendly target for $s1.  Receives $s2% bonus from $@spellname77495.,
 423614,,$@spelldesc421316,$@spellaura421316
+423617,,"Inflicts $s1 Arcane damage to an enemy, bouncing up to $X1 times.",
 423618,,Heals a friendly target for $s1.  Receives $s2% bonus from $@spellname77495.,
 423619,,$@spelldesc407359,
 423620,,,
@@ -352210,10 +352363,17 @@ When circumstances are dire your soul ignites, granting this bonus again without
 423625,,,
 423626,,"Create flaming pumpkins that seek the head of each enemy. The pumpkins periodically ignite the ground, inflicting $415329s Fire damage every $415329t sec to enemies standing in the flames.
 ",
+423628,,$@spelldesc423634,
 423630,,,
+423634,,Fire a burst of Arcane energy at an enemy. Any unit caught in the path of the Arcane energy suffers significant Arcane damage.,
+423635,,$@spelldesc423634,
+423636,,$@spelldesc423634,Targeted by Delphuric Beam.
 423637,,Allows you to walk across water for $d.  Any damage will cancel the effect.  ,Allows walking over water.   Any damage will cancel the effect.
 423638,,,
+423640,,$@spelldesc423643,Calling Arcane Echoes to rain down.
 423641,,,
+423642,,$@spelldesc423643,
+423643,,"Call a barrage of arcane stars to collapse, inflicting $s1 Arcane damage to enemies within $A1 yards of the impact.",
 423644,,,
 423645,,,
 423647,,"Feint has $m1 additional $Lcharge:charges;.
@@ -352244,6 +352404,7 @@ When circumstances are dire your soul ignites, granting this bonus again without
 423681,,,
 423683,,Sprint increases movement speed by an additional $s1% and has ${$s2/1000} sec increased duration.,
 423684,,,
+423688,,,
 423690,,,
 423691,,,
 423695,,This is one tired turtle.,This is one tired turtle.
@@ -352283,12 +352444,14 @@ $?diff14|diff15|diff16 [Each swing of her hammer inflicts $426150s1 Shadowflame 
 423729,,,
 423734,,"Sends a shadowy bolt at the enemy, causing $s1 Shadow damage.",
 423735,,,
+423736,,Forge the axe.,Stunned.
 423738,,Fly over a target spewing shadowflame beneath you dealing $399044s1 Shadowflame damage to enemies in your path.,Breathing shadowflame beneath you.
 423739,,$@spelldesc399045,Burning for $s1 Fire damage every $t1 sec.
 423740,,,
 423741,,$@spelldesc399045,Burning for $s1 Fire damage every $t1 sec.
 423742,,,
 423744,,,
+423746,,$@spelldesc423634,
 423747,,,
 423748,,,
 423749,,,
@@ -352302,6 +352465,7 @@ Seed of Corruption deals $s2% increased damage."
 423767,,,
 423769,,,
 423770,,,
+423771,,$@spelldesc423634,
 423773,,,
 423775,,$@spelldesc422686,
 423776,,,
@@ -352455,6 +352619,10 @@ Damage is increased for each enemy struck, up to $s2 enemies.",
 423942,,,Experiencing the rush of an exhilarating log ride.
 423943,,Make a giant leap.,
 423944,,Make a giant leap.,
+423945,,,
+423946,,,
+423947,,Share the Tattered Dreamleaf with friendly party member allowing them to assist you in finding more Shadowed Dreamleaf.,
+423948,,$@spelldesc423947,
 423949,,Make a giant leap.,
 423950,,Make a giant leap.,
 423951,,Make a giant leap.,
@@ -352465,14 +352633,28 @@ Damage is increased for each enemy struck, up to $s2 enemies.",
 423958,,,
 423959,,,
 423960,,,
+423961,,$@spelldesc423947,
+423962,,$@spelldesc423947,
 423963,,,
 423964,,,
+423965,,,
 423966,,,
 423967,,,
 423968,,,
 423969,,,
 423970,,,
 423971,,,
+423972,,"Tether yourself to Gnarlroot, Igira, or Volcoross, becoming Shadowbound.
+
+While Shadowbound you will be afflicted with Roaring Shadowflame, slowing you between 0-50% based on the distance from your target and has a chance to hinder your mobility every $s3 sec.",Strengthening the Rune of Shadowbinding between you and your target.
+423973,,Bind yourself to a friendly player in your party.,Tethered to a friend!
+423974,,,
+423975,,,"Slowed by $w1%.
+
+The entropy harbored by Shadowflame has a chance to hinder your mobility every 5s."
+423976,,Disenchant a piece of gear ilvl 415 or higher in order to harvest a Radiant Fleck of Ash.,
+423977,,$@spelldesc423976,
+423978,,You currently able to siphon Radiant Fleck of Ash from disenchanting powerful pieces of equipment.,You currently able to siphon Radiant Fleck of Ash from disenchanting powerful pieces of equipment.
 423982,,,
 423983,,Examine the soil of the Emerald Bounty.,Examine the soil of the Emerald Bounty.
 423984,,,
@@ -352503,12 +352685,14 @@ Damage is increased for each enemy struck, up to $s2 enemies.",
 424021,,,
 424022,,Plant your frosty banner.,
 424023,,Demonstrate that you can chill and celebrate at the same time.,Chilling and celebrating at the same time!
+424024,,"Attempt to bind the Symbiotic Glowspore Grip to Fyr'alath, taking between 10-25% of your maximum health as shadowflame damage every second for $d.",Taking between 5-25% max health damage every second for $d.
 424025,,,
 424029,,Plant a seed of the appropriate size at a nearby patch of Dreamseed Soil.,
 424031,,,
 424032,,Throw the power source to another player.,
 424033,,Throw the power source to another player.,
 424038,,,
+424039,,Extracts Radiant Fleck of Ash from powerful (EPIC) quality weapons or armor. The targeted item will be DESTROYED and will not be retrievable.,
 424040,,,
 424042,,,
 424044,,"Slice and Dice does not lose duration during Blade Flurry.
@@ -352551,6 +352735,7 @@ Movement speed reduced by $s3%."
 424091,,$@spelldesc424090,Targeted by Blazing Groves.
 424092,,,
 424093,,,
+424094,,$@spelldesc417131,
 424095,,$@spelldesc399045,Burning for $s1 Fire damage every $t1 sec.
 424097,,Collect the shoulder armor appearances that Chromie and Morchie use.,
 424098,,,
@@ -352576,6 +352761,7 @@ Movement speed reduced by $s3%."
 424129,,,
 424130,,,
 424131,,,
+424132,,$@spelldesc424039,
 424133,,,
 424134,,,
 424135,,,
@@ -352625,6 +352811,7 @@ $s1 Arcane damage dealt every $t1 sec."
 424193,,Trapped in a single moment in time.,Trapped in a single moment in time.
 424197,Dawn of the Infinite,Teleport to the entrance to Dawn of the Infinite.,
 424199,,,
+424202,,Extracts Radiant Fleck of Ash from epic quality (Epic) or better weapons or armor. The targeted item will be DESTROYED and will not be retrievable.,
 424213,,$@spelldesc424214,
 424214,,"Throw the spear at an enemy, dealing $s1 Nature damage.",
 424215,,,
@@ -352703,6 +352890,10 @@ Increased healing and absorb effects done by $s4%."
 424300,,,
 424301,,,Heightened stealth detection.
 424302,,,
+424303,,"The collected data of Lydiara's Binding Rune inspires you.
+","The collected data of Lydiara's Binding Rune inspires you.
+
+While inspired, you are now able to craft the Rune of Shadowbinding."
 424304,,,
 424305,,,
 424306,,,
@@ -352712,6 +352903,10 @@ Increased healing and absorb effects done by $s4%."
 424313,,,
 424315,,A quick surge of healing energy that restores $s1 of a friendly target's health.,
 424316,,"Keeps you warm while idle, regenerating $s1 health every sec.",Regenerating $w1 health every sec.
+424317,,"The collected data of Shalasar's Sophic Vellum inspires you.
+","The collected data inspires you.
+
+While inspired, you are now able to craft the Shalasar's Sophic Vellum."
 424320,,"Your spells and abilities have a chance to draw on the corruption within, dealing an additional $s1 Shadowflame damage to you and your target.
 
 Damage increased by $s2% against enemies above $s3% health.",
@@ -352757,7 +352952,9 @@ Each impact also causes the target to take $426106s1% increased Shadowflame dama
 424381,,,
 424382,,,
 424384,,Freeze the enemy.,Frozen solid.
+424385,,"Attempt to enchant Fyr'alath with Shalasar's Sophic Vellum. The enchantment will not work, but might help concentrate the Order magic to a usable state.",
 424386,,,
+424388,,"Attempt to enchant Fyr'alath with Shalasar's Sophic Vellum. The enchantment will not work, but might help concentrate the Order magic to a usable state.",
 424390,,,
 424401,,"Strikes the current target with a heavy blow, inflicting $s1 Physical damage.",
 424402,,$@spelldesc422871,"Damage done increased by ${$w1}.1%.
@@ -352767,6 +352964,10 @@ Gaining Essence Burst every $t3 sec."
 
 If a target dies while afflicted with Thorn Spirit, it will seek a new foe.",
 424408,,,
+424409,,,
+424412,,,
+424413,,,
+424417,,,
 424424,,,
 424428,Black,$@spelldesc422869,
 424434,,,
@@ -353022,6 +353223,7 @@ Targets receive $s5% more damage from all sources while bleeding.",
 
 You will get 1 Shipment of Goods which can be turned in weekly to Eran'nda to help support the Dream Wardens.",
 424811,,,A shade of former greatness.
+424812,,,
 424813,,$@spelldesc424505,
 424819,,$@spelldesc424808,
 424820,,,No longer singed.
@@ -353034,13 +353236,20 @@ You will get 1 Shipment of Goods which can be turned in weekly to Eran'nda to he
 424827,,Inflicts $s2 Fire damage to enemies within $A2 yards of the impact and summons a Blazing Feather.,
 424828,,"Burning out, losing $S1% health per second.","Burning out, losing $S1% health per second."
 424829,,,
+424830,,,
 424831,,,
+424832,,,
 424835,,,
 424836,,Hurl flames inflicting $424838s1 Fire damage at enemies within $424838A1 yards every $t for $d.,Hurling flames at nearby enemies.
 424838,,$@spelldesc424836,
 424839,,,
 424840,PvP Talent,$@spelldesc424742,$@spelldesc424742
 424842,,,
+424843,,,
+424844,,,
+424845,,"Inflict Tethercoil Siphon to yourself by binding to any Rare creature in the Emerald Dream.
+
+Defeating Rare creatures while Tethercoil Siphon is active will earn Taut Tethercoil.",Strengthening the binding rune between you and your target.
 424846,,"Carve out a piece of your target's dreams, consuming it to gain a benefit based on the creature's type.",
 424847,,"Upon taking Magic damage, heal for 1% of your total health. This effect cannot occur more than once every 30 seconds. Damage taken by Aberrations increased by $s1%","Upon taking Magic damage, heal for 1% of your total health. This effect cannot occur more than once every 30 seconds. Damage taken by Aberrations increased by $s1%"
 424848,,"Falling damage greatly reduced. While below 50% Health, your Leech is increased by 10%.","Falling damage greatly reduced. While below 50% Health, your Leech is increased by 10%."
@@ -353074,20 +353283,26 @@ You will get 1 Shipment of Goods which can be turned in weekly to Eran'nda to he
 
 You will get 1 Shipment of Goods which can be turned in weekly to Eran'nda to help support the Dream Wardens.",
 424901,,$@spelldesc424895,
+424902,,,"Slowed by $w1%.
+
+The entropy harbored by Shadowflame actively hinders you every 5s."
 424907,,,
 424911,,Temporary movement speed buff. Not active while in combat.,"Working with the earth was fulfilling, and you are motivated to do more. Movement speed temporarily increased while not in combat."
 424912,,,
 424915,,,
 424916,,"Caster channels Shadowflame energy into a target, inflicting $s1 Shadowflame damage every $t1 sec for $d. After channeling, the target is inflicted with $@424920spellname.",Inflicts $s2 Shadowflame damage every $t2 sec.
+424917,,$@spelldesc424039,
 424918,,,
 424920,,"Inflicts $s1 Shadowflame damage every $t1 sec for $d. Upon expiration, $@spellname424920 explodes, inflicting  $424960s1 Shadowflame damage to players within $424960A1 yd. ",Inflicts $s1 Shadowflame damage every $t1 sec. Explodes upon expiration.
 424922,,,
 424923,,,
+424924,,Trapped in a single moment in time.,Trapped in a single moment in time.
 424926,,,
 424927,,,Feeling full to bursting!
 424928,,,
 424929,,,
 424930,,,
+424931,,$@spelldesc423972,
 424932,,,
 424933,,,
 424934,,,
@@ -353099,6 +353314,8 @@ You will get 1 Shipment of Goods which can be turned in weekly to Eran'nda to he
 424942,,,
 424943,,,
 424945,,,
+424946,,$@spelldesc423972,
+424947,,$@spelldesc423972,
 424949,,$@spelldesc422855,Damage increased by $s1%.
 424951,,Fire a bombardment of missiles.,Leveraging arcane powers at will.
 424953,,,
@@ -353138,6 +353355,8 @@ Maximum health reduced by $425397s1%. This effect stacks."
 425007,,,
 425008,,,
 425010,,,
+425023,,"Empower a holder of Fyr'alath, increasing the rate at which they earn Shadowed Dreamleaf by $s1%.",
+425024,,$@spelldesc425023,Increasing the rate at which you earn Shadowed Dreamleaf by $s1%.
 425025,,"Larodar releases a fiery outburst when reaching his target, inflicting $s1 Fire damage to all players. This damage decreases based on distance from Larodar.",
 425026,,,
 425028,,,
@@ -353176,6 +353395,7 @@ The impact leaves $@spellname425093.
 ",
 425063,,,
 425064,,,
+425065,,,
 425066,,,
 425068,,,
 425069,,,
@@ -353184,6 +353404,7 @@ The impact leaves $@spellname425093.
 425072,,,
 425074,,,
 425075,,,
+425077,,,
 425079,,,
 425080,,,
 425081,,,
@@ -353215,6 +353436,7 @@ The impact leaves $@spellname425093.
 425130,,,
 425132,,Unleash fire upon your foes.,Breathing fire upon foes.
 425134,,Unleash fire upon your foes.,Breathing fire upon foes.
+425135,,Return the Stabilized Element to the wielder of Fyr'alath.,
 425144,,,
 425145,,,
 425146,,Teleports the caster.,
@@ -353255,11 +353477,19 @@ Threat greatly increased."
 425231,,$@spelldesc421741,Inflicting $s1 Shadowflame damage every $t1 sec.
 425232,,$@spelldesc421741,
 425238,,,
+425240,,Use 10 Awakened Fire to stabilize this element.,
+425241,,"Currently harboring a mote of Unstable Fire from Shalasar's Sophic Vellum.
+
+Assisting the mote with the correct Awakened Element should convert it into something useful.","Currently harboring a mote of Unstable Fire from Shalasar's Sophic Vellum.
+
+Assisting the mote with the correct Awakened Element should convert it into something useful."
 425242,,,
 425243,,"Falling damage greatly reduced. While below 50% Health, your Leech is increased by 10%.",Leech increased by 10%.
+425244,,,
 425245,,$@spelldesc425246,$@spelldesc425246
 425246,,"Hurls a boulder, inflicting $s1 Physical damage and knocking the target back.",Stunned!
 425247,,"Gain the ability to throw acorns, which explode on impact, dealing damage and knocking back enemies.","Gain the ability to throw acorns, which explode on impact, dealing damage and knocking back enemies."
+425248,,Return the Stabilized Element to the wielder of Fyr'alath.,
 425249,,"The Seed of Life blossoms from Renewed Treants' life energy allowing $s1 players to interact, forming a magical bond with the seed.
 
 $?diff14|diff17|diff15 [Each bonded player][]$?diff16 [The final player in the bond][] expels emerald magic dousing $@spellname417632 and $@spellname418654, draining energy from the Seed of Life.","Bonded with the Seed of Life, draining it of energy.
@@ -353518,6 +353748,7 @@ A player flying through a $@spellname425602 on a dragonriding mount absorbs the 
 425701,,$@spelldesc422750,
 425703,,,
 425705,,,
+425706,,,
 425707,,,
 425708,,,
 425709,,"The pain from $@spellname421840 sends Gnarlroot into a frenzy, causing him to inflict $s1% increased damage. This effect stacks.",
@@ -354273,6 +354504,24 @@ The surge then flows outwards, coalescing into $s1 powerful Cycle Wardens.",
 426910,,"Attune with the creature, leaving it unable to be attuned with for a short while.","A druid has recently attuned with this creature, leaving you unable to attune with it for a short while."
 426911,,@$spelldesc423021,
 426913,,,
+426919,,"Currently harboring a mote of Unstable Frost from Shalasar's Sophic Vellum.
+
+Assisting the mote with the correct Awakened Element should convert it into something useful.","Currently harboring a mote of Unstable Frost from Shalasar's Sophic Vellum.
+
+Assisting the mote with the correct Awakened Element should convert it into something useful."
+426920,,"Currently harboring a mote of Unstable Earth from Shalasar's Sophic Vellum.
+
+Assisting the mote with the correct Awakened Element should convert it into something useful.","Currently harboring a mote of Unstable Earth from Shalasar's Sophic Vellum.
+
+Assisting the mote with the correct Awakened Element should convert it into something useful."
+426921,,"Currently harboring a mote of Unstable Air from Shalasar's Sophic Vellum.
+
+Assisting the mote with Awakened Air should convert it into something useful.","Currently harboring a mote of Unstable Air from Shalasar's Sophic Vellum.
+
+Assisting the mote with the correct Awakened Element should convert it into something useful."
+426924,,Use 10 Awakened Frost to stabilize this element.,
+426927,,Use 10 Awakened Air to stabilize this element.,
+426928,,Use 10 Awakened Earth to stabilize this element.,
 426931,,"Channel at a targeted dreamtalon, attuning the mark to their form.",
 426932,,"Channel at a targeted umbraclaw, attuning the mark to their form.",
 426933,,"Channel at a targeted dreamstag, attuning the mark to their form.",
@@ -354342,6 +354591,7 @@ Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]"
 427058,,$@spelldesc426827,
 427059,,$@spelldesc426827,
 427072,,$@spelldesc422956,Mastery increased by $w1.
+427075,,"Embrace the ember, attuning yourself to the Dream Render's anthem.",
 427077,,,
 427083,,,
 427096,,,
@@ -354549,9 +354799,11 @@ Only works within the Emerald Dream.",Projecting yourself into the Emerald Dream
 427430,,$@spelldesc422303,
 427431,,Collect 15 Whelpling's Dreaming Crests. These crests ignore the seasonal cap.,
 427432,,"The giant slams the ground, inflicting Fire damage to players within $a1 yards.",
+427434,,"Coat your hands with the salve, allowing you to safely attune the Symbiotic Glowspore Grip to Fyr'alath before the ointment dissolves. ",Your hands are coated in an adaptive ointment. Allowing you to safely attune the Symbiotic Glowspore Grip to Fyr'alath for a short time.
 427435,,Summons and dismisses a rideable Crimson Vulpine.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
 427437,,Greedy Gessie had something delicious to eat! All damage done increased by $s1% for $d.,All damage done increased by $s1%.
 427444,,"The giant unleashes a gout of flame, inflicting Fire damage to all players within $a1 yards.",
+427446,,,
 427449,,,
 427451,,Congealed Ooze seek out players and are knocked back when attacked.,"Fixating.
 Knocked back when attacked."
@@ -354598,6 +354850,7 @@ Knocked back when attacked."
 427517,,"Lightning strikes random player destinations, inflicting Nature damage to enemies within $a1 yards.",
 427518,,"The storm erupts, inflicting Nature damage to players on impact and additional Nature damage every $t2 sec for $d.",Inflicts Nature damage every $t2 sec.
 427526,,,
+427527,,,
 427528,,,
 427529,,,
 427530,,,
@@ -354967,6 +355220,7 @@ Players struck by the slam leave behind a $@spellname428143 for $428143d that in
 
 Forces resulting from the explosion pull all players towards the impact location.",
 428149,,,
+428153,,,The Rune of Shadowbinding is stirring and will soon burst with entropic energy.
 428155,,,
 428160,,,
 428162,,,
@@ -355090,10 +355344,12 @@ Reduces the cast time of Summon Vilefiend by ${$abs($s2)/1000}.1 sec and your Vi
 428364,,$@spelldesc388107,Ragefire has accumulated $w1 damage.
 428365,,,
 428366,,$@spelldesc422032,
+428371,,,
 428374,,$@spelldesc428376,
 428375,,,
 428376,,Lady Naz'jar conjures a focused tempest that lashes out at players. Inflicts $s1 Nature damage to a random target and jumps to additional players for reduced damage.,
 428377,,"Between the Eyes and Pistol Shot have $s1 yd increased range, and Pistol Shot reduces the the target's damage done to you by $185763s4%.",
+428380,,,
 428381,,,
 428383,,,
 428384,,,
@@ -355449,6 +355705,9 @@ $429038s1 Nature damage inflicted with each successful melee attack."
 429126,,Helps put out fire.,Helps put out fire.
 429127,,,
 429129,,,
+429135,,Fully attune this item and receive the Symbiotic Glowspore Grip.,
+429136,,Fully attune this item and receive the Rune of Shadowbinding.,
+429137,,Fully attune this item and receive the Concentrated Sophic Vellum.,
 429140,,"Each time you shapeshift into Moonkin Form, your shapeshifted form will be randomized.",
 429141,,$@spelldesc429140,
 429143,,,
@@ -355500,8 +355759,10 @@ Movement speed increased by $s2%."
 429228,,"Your damaging abilities have a chance to call a Child of Rezan to viciously rend your target, dealing $s1 Physical damage and causing them to bleed for ${($429233d/$429233t2)*$s2} damage over $429233d.",
 429229,,$@spelldesc429228,
 429233,,$@spelldesc429228,Bleeding for $w2 damage every $t2 sec.
+429235,,,
 429236,,,
 429238,,,
+429239,,Fully attune this item and receive the Rune of Shadowbinding.,
 429240,,Grants $s1 reputation with the Dream Wardens.,
 429244,,"Your spells have a chance to stir the Primal blood, granting $429246s1 Critical Strike for $429246d.",
 429246,,$@spelldesc429244,Critical Strike increased by $s1.
@@ -355561,7 +355822,10 @@ Additionally, this energy heals any allies hit for $429325s2 every $429325t2 sec
 429325,,$@spelldesc429323,
 429326,,$@spelldesc429324,
 429330,,,
+429331,,,
 429332,,,
+429333,,,
+429334,,,
 429335,,,
 429341,,,
 429342,,,
@@ -355989,3 +356253,14 @@ While ascended, gain a shield for $s1% of your health. In addition, you are unaf
 432521,,,
 432579,,Immune to crowd control effects.,Immune to crowd control effects.
 432580,,The Colossus gains energy over time.,
+432691,,Summons a smoldering hound to assist the caster.,
+432825,,,
+432827,,,
+432845,,,
+432951,,,
+432957,,,
+433004,,,
+433005,,,
+433108,,,
+433135,,$@spelldesc425602,Increased damage taken from $@spellname425607 by $s1%.
+433207,,$@spelldesc414186,
