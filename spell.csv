@@ -22719,7 +22719,13 @@ $@spelldesc399956",
   3 doses: ${($<base>*$m1/100)*3+$AP*0.27} damage
   4 doses: ${($<base>*$m1/100)*4+$AP*0.36} damage
   5 doses: ${($<base>*$m1/100)*5+$AP*0.45} damage",Chance to apply Instant Poison increased by $s2%.
-399965,,"When you inflict any other poison on a target, you also inflict Deadly Poison.",
+399965,,"Grants several improvements to your poisons:
+
+When you inflict any other poison on a target, you also inflict Deadly Poison.
+
+If your weapon does not have a poison applied, it has a chance to trigger Instant Poison as if Instant Poison were applied.
+
+Deadly Poison and Instant Poison now gain increased damage from your Attack Power.",
 399966,,Equip a Legs slot item with a Rune engraved to activate an ability in this slot.,
 399967,,Equip a Hands slot item with a Rune engraved to activate an ability in this slot.,
 399968,,"Gain the Envenom ability:
@@ -22817,9 +22823,9 @@ $@spelldesc399985",
 400669,,"Gives your Chill effects a chance to grant you the Fingers of Frost effect, which treats your next spells cast as if the target were Frozen.  Lasts $d.",Your next $s1 spells treat the target as if it were Frozen.
 400670,,"Gives your Chill effects a chance to grant you the Fingers of Frost effect, which treats your next spells cast as if the target were Frozen.  Lasts $d.",Your spells treat the target as if it were Frozen. $s1 $Lcharge:charges;.
 400730,,Your next Fireball or Frostfire Bolt spell is instant and costs no mana.,Your next Fireball or Frostfire Bolt spell is instant and costs no mana.
-400735,,Records the subject's space-time position. $s4% of all Arcane damage done by the caster will be converted to chronomantic healing and divided among the caster's current Temporal Beacon targets.,Records the subject's position in time and space. Damage done by caster will be result in this subject receiving chronomantic healing.$?$w1>0[ Healing for $w1 health per sec.][]
+400735,,Records the subject's space-time position. $s4% of all Arcane damage done by the caster will be converted to chronomantic healing on each of the caster's current Temporal Beacon targets. This healing is reduced by $s5% on self.,Records the subject's position in time and space. Damage done by caster will be result in this subject receiving chronomantic healing.$?$w1>0[ Healing for $w1 health per sec.][]
 401405,,,
-401417,,"Heals the target for ${$<healpower>*$m1/100*3} health over $d and applies Temporal Beacon for $400735s3 sec. After casting this spell, you will suffer from Tangled Causality for $432069d, reducing your Fire and Frost spell damage done by $432069s1% and preventing the use of Ice Block.
+401417,,"Heals the target for ${$<healpower>*$m1/100*3} health over $d and applies Temporal Beacon for $400735s3 sec. 
 
 Temporal Beacon
 $@spellicon400735
@@ -22930,7 +22936,7 @@ $@spelldesc401556",
 402289,,"Launches a volley of holy light at the target, causing ${$<damagepower>*$402284m1/100} Holy damage to an enemy, or ${$<healpower>*$402289m1/100} healing to an ally, instantly and every $402261t2 sec for $402261d.",
 402308,,Decipher the spell notes with a Comprehension Charm to learn a new Engraving spell.,
 402311,,Decipher the spell notes with a Comprehension Charm to learn a new Engraving spell.,
-402319,,Combine 6 Azora Apprentice Notes to create a new runecarving recipe.,
+402319,,Combine 6 Azora Apprentice Notes to create a new engraving recipe.,
 402362,,,Healing done increased by $s1%.
 402368,,,Spell damage done increased by $s1%.
 402392,,,
@@ -23078,7 +23084,10 @@ Searing Pain: Now instant.
 
 Shadow Bolt: Becomes Shadow Cleave, a Shadow melee attack that hits up to $403835x1 nearby enemies, but has a $s6 sec cooldown.
 
-Curse of Recklessness: Now also taunts your target to attack you for $403828d, but gains a ${$m4/1000} sec cooldown and range is reduced to melee.
+Fear: Replaced with Menace.
+
+$@spellicon403828
+$@spelldesc403828
 
 
 Demon Charge
@@ -23280,10 +23289,10 @@ While you know this ability, the threat bonus from Righteous Fury is increased t
 407791,,Increases the Physical damage dealt by the caster by $s1 and speeds its attacks by $s2% for $d.,"Physical damage dealt is increased by $s1.
 Attack speed increased by $s2%."
 407794,,Inflicts Physical damage to an enemy every $t1 sec. for $d.,Physical damage inflicted every $t1 sec.
-407798,,"Fills you with holy spirit for $d, causing each of your melee attacks to deal $407799s1% weapon damage to your target, but you lose health equal to $s4% of the damage inflicted. While this seal is active, your party members within $407802a1 yards each gain mana equal to $s2% of damage you take from this seal.
+407798,,"Fills you with holy spirit for $d, causing each of your melee attacks to deal $407799s1% weapon damage to your target, but you lose health equal to $s4% of the damage inflicted. While this seal is active, your party and raid members within $407802a1 yards each gain mana equal to $s2% of damage you take from this seal.
 
 
-Unleashing this Seal's energy will judge an enemy, instantly causing $407803s1% weapon damage at the cost of health equal to $s4% of the damage inflicted.","Melee attacks deal additional damage to your target, but also damage you and generate mana for your party."
+Unleashing this Seal's energy will judge an enemy, instantly causing $407803s1% weapon damage at the cost of health equal to $s4% of the damage inflicted.","Melee attacks deal additional damage to your target, but also damage you and generate mana for your party and raid."
 407799,,,
 407800,,Seal of Martyrdom damage also damages the Paladin.,
 407802,,Gaining mana from damage received by the Paladin.,
@@ -23803,7 +23812,7 @@ $@spelldesc409552",
 412507,,"Each time you deal Bleed damage, you gain ${$412508s1/10} Rage.
 ",
 412508,,,
-412510,,"Heals all of target player's party members within $a1 yards of target player for ${$<healpower>*$m1/100*3} health over $d and applies Temporal Beacon to each target for ${$400735m3/2} sec. After casting this spell, you will suffer from Tangled Causality for $432069d, reducing your Fire and Frost spell damage done by $432069s1% and preventing the use of Ice Block.
+412510,,"Heals all of target player's party members within $a1 yards of target player for ${$<healpower>*$m1/100*3} health over $d and applies Temporal Beacon to each target for ${$400735m3/2} sec. 
 
 Temporal Beacon
 $@spellicon400735
@@ -24369,9 +24378,9 @@ $@spelldesc412790",
 423140,,,
 423168,,,
 423186,,,Balancing yourself with the powers of nature.
-423187,,"Balance the Powers of the Moon, Emereld Dream, and Wild to learn a new ability.",
+423187,,"Balance the Powers of the Moon, Emerald Dream, and Wild to learn a new ability.",
 423191,,,Slaying enemies after they were afflicted by Moonfire increases your balance with the Moon.
-423192,,,Healing injuries can increases your balance with the Emereld Dream.
+423192,,,Healing injuries can increases your balance with the Emerald Dream.
 423194,,,Shapeshifting increases your balance with the Wild.
 423212,,,
 423298,,Increases swim speed by $s1%.,Increases swim speed by $s1%.
@@ -24558,7 +24567,7 @@ Shadow damage inflicted every $t3 sec."
 425285,,Call to the spirits of the elements.,
 425301,,,
 425321,,,
-425336,,"Reduces all damage you take by $s1% and you regenerate mana every second for $d. Mana regenerated per second is equal to $s2% of your Attack Power, $s3% of your spell power, or $s4% of your healing power, whichever value is greatest. Your party members within $433255a1 yards will also receive $s5% of the mana you receive this way.",Damage taken reduced by $s1%. Regenerating $w2 mana every $t2 sec.
+425336,,"Reduces all damage you take by $s1% and you regenerate mana every second for $d. Mana regenerated per second is equal to $s2% of your Attack Power, $s3% of your spell power, or $s4% of your healing power, whichever value is greatest. Your party and raid members within $433255a1 yards will also receive $s5% of the mana you receive this way.",Damage taken reduced by $s1%. Regenerating $w2 mana every $t2 sec.
 425339,,Blast up to $i enemies in a cone in front of you for ${$<damagepower>*$m1/100+$m2/100*$AP} to ${$<damagepower>*$M1/100+$m2/100*$AP} Fire damage. This ability generates a high amount of threat. Flame Shock periodic damage has a $s3% chance to reset the cooldown on Molten Blast.,
 425340,,"Gain the Molten Blast ability:
 
@@ -25044,9 +25053,29 @@ Master's critical strike chance increased by $425463s2%."
 ",
 431060,,,Use your Hearthstone!
 431111,,"Increases critical chance of spells, melee, and ranged by 2%, grants 20 attack power, and increases movement speed by 20%. 120 minute duration.","Increases critical chance of spells, melee, and ranged by 2%, grants 20 attack power, and increases movement speed by 20%. 120 minute duration."
+431384,,,
 431980,,,
 431981,,,
 432069,,,Fire and Frost spell damage done reduced by $s1% and unable to cast Ice Block.
+432639,,Improves your chance to hit with spells and with melee and ranged attacks by $s1%.,
+433006,,,
+433008,,,
+433009,,,
+433010,,,
+433100,,A sweeping attack that strikes all enemies in front of you for $s2% weapon damage.,
 433107,,"While you are in Cat Form, Bear Form, or Dire Bear Form, party members within $407975a1 yards gain increased combat ferocity.  Each melee hit has a $407975h% chance of granting the attacker an extra attack with $407975s1% additional Attack Power. No effect if the party member is already benefitting from Windfury Totem.
 ",Chance to gain extra attacks.
 433255,,,Regenerating $w1 mana every $t1 sec.
+433455,,,
+433521,,"Grants several improvements to your poisons:
+
+When you inflict any other poison on a target, you also inflict Deadly Poison.
+
+If your weapon does not have a poison applied, it has a chance to trigger Instant Poison as if Instant Poison were applied.
+
+Deadly Poison and Instant Poison now gain increased damage from your Attack Power.",
+433797,Rank 1,You attack all nearby enemies for $d causing weapon damage plus an additional $9633s1 every $t1 sec.,Attacking all nearby enemies for weapon damage + $9633s1.
+433801,Rank 1,You attack all nearby enemies for $d causing weapon damage plus an additional $9633s1 every $t1 sec.,Attacking all nearby enemies for weapon damage + $9633s1.
+433805,,,
+433912,,,
+433918,,,
