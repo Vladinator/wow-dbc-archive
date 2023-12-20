@@ -22823,7 +22823,7 @@ $@spelldesc399985",
 400669,,"Gives your Chill effects a chance to grant you the Fingers of Frost effect, which treats your next spells cast as if the target were Frozen.  Lasts $d.",Your next $s1 spells treat the target as if it were Frozen.
 400670,,"Gives your Chill effects a chance to grant you the Fingers of Frost effect, which treats your next spells cast as if the target were Frozen.  Lasts $d.",Your spells treat the target as if it were Frozen. $s1 $Lcharge:charges;.
 400730,,Your next Fireball or Frostfire Bolt spell is instant and costs no mana.,Your next Fireball or Frostfire Bolt spell is instant and costs no mana.
-400735,,Records the subject's space-time position. $s4% of all Arcane damage done by the caster will be converted to chronomantic healing on each of the caster's current Temporal Beacon targets. This healing is reduced by $s5% on self.,Records the subject's position in time and space. Damage done by caster will be result in this subject receiving chronomantic healing.$?$w1>0[ Healing for $w1 health per sec.][]
+400735,,"Records the subject's space-time position. $s4% of all Arcane damage done by the caster will be converted to chronomantic healing on each of the caster's current Temporal Beacon targets. This healing is reduced by $s5% on self, and also reduced by $s6% when damage is done by Arcane Explosion.",Records the subject's position in time and space. Damage done by caster will be result in this subject receiving chronomantic healing.$?$w1>0[ Healing for $w1 health per sec.][]
 401405,,,
 401417,,"Heals the target for ${$<healpower>*$m1/100*3} health over $d and applies Temporal Beacon for $400735s3 sec. 
 
@@ -23399,9 +23399,9 @@ Unleashing this Seal's energy will judge an enemy, instantly causing $407803s1% 
 409365,,,Attack speed.
 409368,,"Your pet's damage and health are increased by $s1%, and its Focus regeneration by $s3%. In addition, your pet's Growl now also Taunts the target to attack it for $409372d.",
 409372,,"Taunts the target to attack you, but has no effect if the target is already attacking you.",Taunted.
-409379,,"Give the command to kill, increasing your pet's damage done from special attacks by ${$409396M1*3}% for $409396d.  Each special attack done by the pet reduces the damage bonus by $409396s1%.",
-409396,,"Give the command to kill, increasing your pet's damage done from special attacks by ${$409396M1*3}% for $409396d.  Each special attack done by the pet reduces the damage bonus by $409396s1%.",Damage done by pet special abilities increased by $s1%.
-409418,,"Give the command to kill, increasing your pet's damage done from special attacks by ${$409396M1*3}% for $409396d.  Each special attack done by the pet reduces the damage bonus by $409396s1%.",Increases damage done by pet special abilities by $409396s1%.
+409379,,"Give the command to kill, increasing your pet's damage done from Claw and Bite by ${$409396M1*3}% for $409396d.  Each Claw or Bite done by the pet reduces the damage bonus by $409396s1%.",
+409396,,"Give the command to kill, increasing your pet's damage done from Claw and Bite by ${$409396M1*3}% for $409396d.  Each Claw or Bite done by the pet reduces the damage bonus by $409396s1%.",Damage done by Claw and Bite increased by $s1%.
+409418,,"Give the command to kill, increasing your pet's damage from Claw and Bite by ${$409396M1*3}% for $409396d.  Each Claw or Bite done by the pet reduces the damage bonus by $409396s1%.",Increases damage done by Claw and Bite by $409396s1%.
 409423,,,
 409428,,"Increases your critical strike chance by $s1%, and reduces the Mana cost of all your Shot abilities by $s2%.",
 409433,,"You deal $409433s3% weapon damage, refreshing the current Sting on your target and triggering an effect:
@@ -23444,10 +23444,10 @@ Scorpid Sting - Attempts to Disarm the target for $409495d. This effect cannot o
 409532,Rank 1,"Place a fire trap at a nearby location that explodes when an enemy approaches, causing $13812s1 Fire damage and $13812o2 additional Fire damage over $13812d to all within $13812a1 yards.  Trap will exist for $d.  Only one trap can be active at a time.",
 409534,Rank 2,"Place a fire trap at a nearby location that explodes when an enemy approaches, causing $14314s1 Fire damage and $14314o2 additional Fire damage over $14314d to all within $14314a1 yards.  Trap will exist for $d.  Only one trap can be active at a time.",
 409535,Rank 3,"Place a fire trap at a nearby location that explodes when an enemy approaches, causing $14315s1 Fire damage and $14315o2 additional Fire damage over $14315d to all within $14315a1 yards.  Trap will exist for $d.  Only one trap can be active at a time.",
-409552,,"You fire an explosive charge into the enemy target, dealing ${$RAP*0.14+$m1/100*$<damagepower>}-${$RAP*0.14+$M1/100*$<damagepower>} Fire damage. The charge will blast the target every second for an additional $d. Cooldown shared with Arcane Shot.",Taking $w1 Fire damage every second.
+409552,,"You fire an explosive charge into the enemy target, dealing ${$RAP*0.039+$m1/100*$<damagepower>}-${$RAP*0.039+$M1/100*$<damagepower>} Fire damage to all enemies within $409554a1 yards. The charge will deal damage again every second for an additional $d. Cooldown shared with Arcane Shot.",Taking $w1 Fire damage every second.
 409554,,"You fire an explosive charge into the enemy target, dealing ${$RAP*0.14+$m1}-${$RAP*0.14+$M1} Fire damage. The charge will blast the target every second for an additional $d. Cooldown shared with Arcane Shot.",Taking Fire damage every second.
-409580,,"The hunter takes on the aspects of a lion, increasing total stats by $409583s1% for all nearby allies, and increasing total stats for the Hunter by an additional $409580s1%.  Only one Aspect can be active at a time.",Increases Hunter's stats by $s1%.
-409583,,"The hunter takes on the aspects of a lion, increasing total stats by $409583s1% for all nearby allies, and increasing total stats for the Hunter by an additional $409580s1%.  Only one Aspect can be active at a time.",Increases stats by $s1%.
+409580,,"The hunter invokes the heart of a lion, increasing total stats by $409583s1% for all nearby allies, and increasing total stats for the Hunter by an additional $409580s1%.",Increases Hunter's stats by $s1%.
+409583,,"The hunter invokes the heart of a lion, increasing total stats by $409583s1% for all nearby allies, and increasing total stats for the Hunter by an additional $409580s1%.",Increases stats by $s1%.
 409691,Rank 1,A strong attack that increases melee damage by $s1.,
 409693,Rank 2,A strong attack that increases melee damage by $s1.,
 409748,Rank 3,A strong attack that increases melee damage by $s1.,
@@ -23567,7 +23567,7 @@ $@spelldesc408531",
 
 $@spellicon409428
 $@spelldesc409428",
-409960,,"Gain the Aspect of the Lion ability:
+409960,,"Gain the Heart of the Lion ability:
 
 $@spellicon409580
 $@spelldesc409580",
@@ -23696,7 +23696,7 @@ $@spelldesc409379",
 
 $@spellicon409428
 $@spelldesc409428",
-410115,,"Engrave your chest or robe with the Aspect of the Lion rune:
+410115,,"Engrave your chest or robe with the Heart of the Lion rune:
 
 $@spellicon409580
 $@spelldesc409580",
@@ -24798,6 +24798,7 @@ Armor increased by $1178s1%,  hit points increased by 290, and attack power incr
 426923,,,Vulnerable to frost damage.
 426925,,,Vulnerable to nature damage.
 427020,,Add $q2 Copper Bars to complete the shipment.,
+427061,,,
 427063,,Teaches you how to craft a Mantle of the Second War.,
 427116,,,"Allies within $a1 yards of the Priestess of the Moon gain $s1% increased health and $s2% increased damage.
 
@@ -24849,6 +24850,7 @@ These values are increased by each living Blade Master in the Far Seer's army, e
 428252,,,
 428279,,,
 428297,,,
+428424,,,
 428425,,Teaches you how to sew Phoenix Bindings.,
 428482,,,Max health lowered by $w1% and Shadow damage taken increased by $w2%.
 428483,,,Fortified by Shadow magic seeping from Aku'mai. Health increased by $w2%.
@@ -25034,7 +25036,7 @@ Master's critical strike chance increased by $425463s2%."
 430773,,Add $q2 Healing Potions to complete the shipment.,
 430776,,Add $q2 Elixir of Firepower to complete the shipment.,
 430818,,,
-430947,,"Increases critical chance of spells, melee, and ranged by 2%, grants 20 attack power, and increases movement speed by 20%. 120 minute duration.","Increases critical chance of spells, melee, and ranged by 2%, grants 20 attack power, and increases movement speed by 20%. 120 minute duration."
+430947,,"Increases hit chance of spells by 3%, critical chance of melee, and ranged by 2%, grants 20 attack power, 25 spell damage, and increases movement speed by 20%. 120 minute duration.","Increases hit chance of spells by 3%, critical chance of melee, and ranged by 2%, grants 20 attack power, 25 spell damage, and increases movement speed by 20%. 120 minute duration."
 430948,,Restores $s1 mana per $t1 sec.,Restores $s1 mana per $t1 sec.
 430949,,Increases your chance to hit with spells by $s1%. ,Increases your chance to hit with spells by $s1%.
 430950,,Increases your fire resistance by $s1 for $d1. ,Increases your fire resistance by $s1 for $d1.
@@ -25052,7 +25054,8 @@ Master's critical strike chance increased by $425463s2%."
 431046,,"While wielding 2-handed weapons, your attack speed is increased by $s1%.
 ",
 431060,,,Use your Hearthstone!
-431111,,"Increases critical chance of spells, melee, and ranged by 2%, grants 20 attack power, and increases movement speed by 20%. 120 minute duration.","Increases critical chance of spells, melee, and ranged by 2%, grants 20 attack power, and increases movement speed by 20%. 120 minute duration."
+431111,,"Increases hit chance of spells by 3%, critical chance of melee, and ranged by 2%, grants 20 attack power, 25 spell damage, and increases movement speed by 20%. 120 minute duration.
+","Increases hit chance of spells by 3%, critical chance of melee, and ranged by 2%, grants 20 attack power, 25 spell damage, and increases movement speed by 20%. 120 minute duration."
 431384,,,
 431980,,,
 431981,,,
@@ -25077,5 +25080,25 @@ Deadly Poison and Instant Poison now gain increased damage from your Attack Powe
 433797,Rank 1,You attack all nearby enemies for $d causing weapon damage plus an additional $9633s1 every $t1 sec.,Attacking all nearby enemies for weapon damage + $9633s1.
 433801,Rank 1,You attack all nearby enemies for $d causing weapon damage plus an additional $9633s1 every $t1 sec.,Attacking all nearby enemies for weapon damage + $9633s1.
 433805,,,
+433819,,,
+433834,,,
 433912,,,
 433918,,,
+434111,,,
+434163,,,
+434312,Rank 1,,Target takes $s1 Nature damage every $t1 seconds.
+434313,Rank 2,,Target takes $s1 Nature damage every $t1 seconds.
+434314,Rank 3,,Target takes $s1 Nature damage every $t1 seconds.
+434315,Rank 4,,Target takes $s1 Nature damage every $t1 seconds.
+434316,Rank 5,,Target takes $s1 Nature damage every $t1 seconds.
+434409,,,
+434416,,,
+434435,,,Allies within $a1 yards of the Priestess of the Moon gain $427116s1% increased health and $427116s2% increased damage per living Keeper of the Grove in her army.
+434436,,,Allies within $a1 yards of the Priestess of the Moon gain $427116s1% increased health and $427116s2% increased damage per living Keeper of the Grove in her army.
+434446,,,Allies within $a1 yards of a battlefield leader gain $s1% increased health and $s2% increased damage.
+434475,,,
+434486,,,
+434495,,Transforms your mount into something more festive.,
+434508,,Summons and dismisses a rideable reindeer.,Increases speed by $s2%.
+434698,,,Allies within $a1 yards of the Priestess of the Moon gain $427116s1% increased health and $427116s2% increased damage per living Keeper of the Grove in her army.
+434738,,,
