@@ -25575,6 +25575,19 @@ scale = 2
 
 transUp = magnitude * ( 1 - progress )
 transFront = distanceToImpactPos	",0,0
+4681,Sarah's Test Missile,"local maxMagnitude = startDistance * .15
+transAngle = 360*rand1
+transMag = (5+5*rand2) * progress
+
+transUp = (progress * 2) - 1
+transUp = (1 - (transUp * transUp)) * maxMagnitude
+transFront = 1.3 * progress
+
+if progress < .95 then
+   colorA = 0
+else
+   colorA = 1
+end",0,1
 4694,Swirling Mist Missile v2,"
 
 

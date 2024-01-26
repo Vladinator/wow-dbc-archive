@@ -1,4 +1,4 @@
-Name_lang,ID,ParentUiMapID,Flags,System,Type,BountySetID,BountyDisplayLocation,Field_10_1_5_49595_008,VisibilityPlayerConditionID,HelpTextPosition,BkgAtlasID,AlternateUiMapGroup,ContentTuningID
+Name_lang,ID,ParentUiMapID,Flags,System,Type,BountySetID,BountyDisplayLocation,TempVisibilityPlayerConditionID,VisibilityPlayerConditionID,HelpTextPosition,BkgAtlasID,AlternateUiMapGroup,ContentTuningID
 Durotar,1,12,6,0,3,0,0,0,0,0,0,0,70
 Burning Blade Coven,2,1,0,0,5,0,0,0,0,0,0,0,0
 Tiragarde Keep,3,1,0,0,5,0,0,0,0,0,0,0,0
@@ -10,8 +10,8 @@ Palemane Rock,8,7,0,0,5,0,0,0,0,0,0,0,0
 The Venture Co. Mine,9,7,0,0,5,0,0,0,0,0,0,0,0
 Northern Barrens,10,12,6,0,3,0,0,0,0,0,0,0,3
 Wailing Caverns,11,10,0,0,5,0,0,0,0,0,0,0,0
-Kalimdor,12,947,0,0,2,0,0,0,0,0,0,0,0
-Eastern Kingdoms,13,947,0,0,2,0,0,0,0,0,0,0,0
+Kalimdor,12,947,0,0,2,0,0,0,0,0,0,0,2844
+Eastern Kingdoms,13,947,0,0,2,0,0,0,0,0,0,0,2844
 Arathi Highlands,14,13,6,0,3,10,1,0,0,1,0,0,17
 Badlands,15,13,6,0,3,0,0,0,0,0,0,0,27
 Uldaman,16,15,0,0,5,0,0,0,0,0,0,0,0
@@ -84,7 +84,7 @@ Twilight's Run,82,81,0,0,5,0,0,0,0,0,0,0,0
 Winterspring,83,12,6,0,3,0,0,0,0,0,0,0,33
 Stormwind City,84,13,7,0,3,0,0,0,0,0,0,0,0
 Orgrimmar,85,12,7,0,3,0,0,0,0,0,0,0,0
-Orgrimmar,86,85,0,0,6,0,0,0,0,0,0,0,0
+Orgrimmar,86,85,512,0,6,0,0,0,0,0,0,0,0
 Ironforge,87,13,6,0,3,0,0,0,0,0,0,0,0
 Thunder Bluff,88,12,6,0,3,0,0,0,0,0,0,0,0
 Darnassus,89,12,7,0,3,0,0,0,68088,0,0,0,0
@@ -920,7 +920,7 @@ The Vindicaar,941,830,64,0,4,0,0,0,0,0,0,0,0
 Stormsong Valley,942,876,6,0,3,10,1,0,0,1,0,0,188
 Arathi Highlands,943,13,2,0,6,0,4,0,0,0,0,0,0
 Cosmic,946,0,384,0,0,0,0,0,0,0,0,0,0
-Azeroth,947,946,256,0,1,0,0,0,0,0,0,0,0
+Azeroth,947,946,256,0,1,0,0,0,0,0,0,0,2844
 The Maelstrom,948,947,0,0,2,0,0,0,0,0,0,0,0
 Telogrus Rift,971,619,4,0,6,0,0,0,0,0,0,0,0
 Telogrus Rift,972,619,4,0,6,0,0,0,0,0,0,0,0
@@ -1203,7 +1203,7 @@ Mogu'shan Palace,1546,390,0,0,4,0,0,0,0,0,0,0,0
 Mogu'shan Vaults,1547,390,0,0,4,0,0,0,0,0,0,0,0
 Mogu'shan Vaults,1548,390,0,0,4,0,0,0,0,0,0,0,0
 Mogu'shan Vaults,1549,390,0,0,4,0,0,0,0,0,0,0,0
-The Shadowlands,1550,946,2304,0,2,0,0,0,0,0,0,0,0
+The Shadowlands,1550,946,2304,0,2,0,0,0,0,0,0,0,807
 Caverns of Time,1552,71,0,0,4,0,0,0,0,0,0,0,0
 Caverns of Time,1553,71,0,0,4,0,0,0,0,0,0,0,0
 Serpentshrine Cavern,1554,102,0,0,4,0,0,0,0,0,0,0,0
@@ -1526,7 +1526,7 @@ Torghast,1974,1543,0,0,6,0,0,0,0,0,0,0,0
 Torghast,1975,1543,0,0,6,0,0,0,0,0,0,0,0
 Torghast,1976,1543,0,0,6,0,0,0,0,0,0,0,0
 Torghast,1977,1543,0,0,6,0,0,0,0,0,0,0,0
-Dragon Isles,1978,947,0,0,2,119,0,0,0,0,0,0,0
+Dragon Isles,1978,947,0,0,2,119,0,0,0,0,0,0,2424
 Torghast,1979,1543,2,0,6,0,0,0,0,0,0,0,0
 Torghast,1980,1543,0,0,6,0,0,0,0,0,0,0,0
 Torghast,1981,1543,0,0,6,0,0,0,0,0,0,0,0
@@ -1689,9 +1689,9 @@ Halls Of Valor,2231,634,0,0,4,0,0,0,0,0,0,0,0
 Amirdrassil,2232,2200,0,0,4,0,0,0,0,0,0,0,0
 Amirdrassil,2233,2200,0,0,4,0,0,0,0,0,0,0,0
 Amirdrassil,2234,2200,0,0,4,0,0,0,0,0,0,0,0
-Amirdrassil,2235,2234,0,0,4,0,0,0,0,0,0,0,0
-Amirdrassil,2236,2234,0,0,4,0,0,0,0,0,0,0,0
-Amirdrassil,2237,2234,0,0,4,0,0,0,0,0,0,0,0
+The Northern Boughs,2235,2234,0,0,4,0,0,0,0,0,0,0,0
+The Eastern Boughs,2236,2234,0,0,4,0,0,0,0,0,0,0,0
+The Southern Boughs,2237,2234,0,0,4,0,0,0,0,0,0,0,0
 Amirdrassil,2238,2200,0,0,4,0,0,0,0,0,0,0,0
 Amirdrassil,2239,1978,4,0,3,0,0,0,0,0,0,0,0
 Amirdrassil,2240,2200,0,0,4,0,0,0,0,0,0,0,0
@@ -1701,3 +1701,5 @@ Dragon Isles,2252,0,4,2,2,0,0,5793,0,0,5350,0,0
 Sor'theril Barrow Den,2253,2200,524288,0,5,0,0,0,0,0,0,0,0
 Barrows of Reverie,2254,2200,524288,0,5,0,0,0,0,0,0,0,0
 Traitor's Rest,2262,2024,0,0,6,0,0,116949,0,0,0,0,0
+Millenia's Threshold,2266,2025,0,0,4,0,0,0,0,0,0,0,0
+Amirdrassil,2268,2057,4,2,3,0,0,0,0,0,0,0,0

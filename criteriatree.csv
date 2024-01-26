@@ -47531,8 +47531,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 62060,,61156,0,0,38095,81,0
 62061,,61156,0,0,38096,82,0
 62062,,60971,0,0,38099,66,0
-62063,7.3 BT Timewalking - Illidan Credit Fix,0,0,4,0,0,4096
-62064,Player defeats Iillidan in timewalking,62063,1,0,38100,0,0
+62063,7.3 BT Timewalking - Illidan Credit Fix,0,1,8,0,0,4096
+62064,Player defeats Iillidan in timewalking,62063,0,0,38100,0,0
 62065,8.0 Vol'dun - H - Ch 2 - Q06 - Calhoun's Key (JAP),0,1,5,0,0,4096
 62066,Calhoun's Key,62065,1,0,38102,0,0
 62067,Follow T'paartos,0,0,4,0,0,0
@@ -52131,8 +52131,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 67908,Riches of Tor'nowa,67898,1,0,40997,9,0
 67909,Open War Supply Crate from air supply drop,0,0,4,0,0,0
 67910,,67909,0,0,40998,0,2
-67911,Loot 10 bounties from slain players while within War Mode.,0,0,4,0,0,0
-67912,Loot 10 bounties from slain players while within War Mode.,67911,10,0,40999,0,1
+67911,Loot 10 bounties from slain players while within War Mode.,0,10,5,0,0,8193
+67912,Loot 10 bounties from slain players while within War Mode.,67911,10,0,40999,0,0
 67913,Lost Offerings of Kimbul,67872,1,0,41002,7,0
 67914,Deadwood Chest,67872,1,0,41003,8,0
 67915,Sandsunken Treasure,67872,1,0,41004,9,0
@@ -80142,7 +80142,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 141022,Basrikron,141021,1,0,56984,0,0
 141023,Bazual,141021,1,0,56985,1,0
 141024,Liskanoth,141021,1,0,56986,2,0
-141025,Strunuaan,141021,1,0,56987,3,0
+141025,Strunraan,141021,1,0,56987,3,0
 141026,Morchok,139710,1,0,56988,29,0
 141027,Shadeslash Trakken,139710,1,0,56989,30,0
 141028,,140416,1,0,56990,4,0
@@ -85742,8 +85742,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 147572,Step and squish infested tumors,147571,4,0,60696,0,0
 147573,Step on and squish infested tumors,146903,4,0,60696,0,0
 147574,Imperial Vizier Zor'lok,146902,1,0,60697,0,0
-147575,Time Rifts completed,0,1,5,0,0,0
-147576,Time Rifts completed,147575,0,0,60698,0,1
+147575,Time Rift completed,0,1,5,0,0,0
+147576,Time Rift completed,147575,0,0,60698,0,1
 147577,Time Rifts completed,0,0,4,0,0,1
 147578,Time Rifts completed,147577,5,0,60698,0,1
 147579,Azmerloth defeated,0,1,5,0,0,0
@@ -85849,8 +85849,12 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 147682,Stand near Eadweard for instructions,0,0,4,0,0,0
 147683,Stand near Eadweard for instructions,147682,1,0,60758,0,0
 147702,,145864,4,0,60759,24,2
+147703,Clear Restweed from the site,0,100,4,0,0,0
+147704,Restweed cleared,147703,6,0,60772,0,0
 147705,Defeat Hymdall,0,0,4,0,0,0
 147706,Defeat Hymdall,147705,1,0,60773,0,0
+147707,Protect the site from Gnolls,0,100,9,0,0,0
+147708,Slay Gnolls,147707,29,0,60774,0,1
 147709,,137522,0,0,60775,9,0
 147710,10.2 Campaign Start - Complete Prologue,0,1,8,0,0,4096
 147711,Complete the 10.1.7 Prologue questchain,147710,1,0,60783,0,0
@@ -86011,7 +86015,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 147885,,147879,0,0,59425,5,0
 147886,Dreamsurged rare elites defeated,0,10,5,0,0,8193
 147887,,147886,1,0,60836,0,1
-147890,Analyze Nearby Relics,0,100,9,0,0,0
+147890,Analyze nearby Relics,0,100,9,0,0,0
 147891,Analyze Relic,147890,34,0,60839,0,1
 147892,,147850,8,0,60840,1,32
 147893,Defeat the Druid of the Flame lieutenant.,0,0,4,0,0,32
@@ -86583,9 +86587,14 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 148467,,148463,1,0,61192,3,48
 148468,,148463,1,0,61193,4,48
 148469,,148463,1,0,61194,5,48
+148470,Repair Shovels,0,100,4,0,0,0
+148471,Repair Shovels,148470,3,0,61195,0,0
 148472,Advanced dragonriding races complete,148100,1,0,61196,1,1
 148473,Advanced dragonriding races complete,148100,1,0,61197,2,1
 148474,Advanced dragonriding races complete,148100,1,0,64430,3,1
+148475,Break Boulders,0,100,9,0,0,0
+148476,Break Boulder,148475,29,0,61199,0,1
+148477,Boulder Fragments,148475,16,0,61198,1,1
 148478,Odyn has come down,0,0,4,0,0,0
 148479,Odyn Confronted,148478,1,0,61201,0,0
 148480,Confront Odyn,0,0,4,0,0,0
@@ -86617,6 +86626,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 148506,Warlock,19618,70,0,61220,9,0
 148507,Warlock,21623,70,0,61221,8,0
 148508,Warlock,21652,70,0,61222,8,0
+148509,Return Scattered Tomes,0,100,9,0,0,0
+148510,Tomes,148509,19,0,61223,0,1
 148517,Complete all of the Embers of Neltharion achievements below.,0,0,4,0,0,0
 148518,,148517,0,0,61225,0,32
 148519,,148517,0,0,61226,1,32
@@ -86709,6 +86720,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 148611,Fireworks launched,0,10,5,0,0,8193
 148612,Fireflight,148611,1,0,61282,0,0
 148613,Celebration firework,148611,1,0,61283,1,0
+148614,Deliver Azer-Broth,0,100,4,0,0,0
+148615,Hungry Archivist,148614,3,0,61287,1,0
 148617,Spirit of Sharing gained,0,0,4,0,0,8193
 148618,,148617,1,0,61289,0,0
 148619,Spirit of Sharing gained,0,0,4,0,0,1
@@ -86827,6 +86840,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 148743,"Herbs, ores, and skins gathered",0,250,5,0,0,8193
 148744,"Herbs, ores, and skins gathered",148743,1,0,61359,0,1
 148745,"Herbs, ores, and skins gathered",148743,1,0,61232,1,1
+148746,Release the Otters!,0,100,9,0,0,0
+148747,Otter Familiar,148746,10,0,61360,0,1
 148748,Geologist's Ledger - Serevite,0,0,4,0,0,0
 148751,,148748,1,0,61363,1,0
 148752,,148748,1,0,61364,2,0
@@ -87511,9 +87526,12 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 149447,,136202,0,0,60286,16,0
 149448,Guards Neutralized,0,0,4,0,0,0
 149449,Guards on stairs defeated,149448,0,0,61880,0,0
+149450,Fend off Djaradin Phantasms,0,100,9,0,0,0
+149451,Djaradin Phantasms,149450,31,0,61881,0,1
+149452,Hound Phantasms,149450,16,0,61882,1,1
 149453,New Criteria Tree,0,0,4,0,0,0
 149454,,149453,0,0,61883,0,0
-149455,Fend Off Disturbed Elementals,0,100,9,0,0,0
+149455,Fend off Disturbed Elementals,0,100,9,0,0,0
 149456,Disturbed Frost Elementals,149455,17,0,61891,0,1
 149457,Disturbed Earth Elementals,149455,17,0,61892,1,1
 149458,Ready for Elisande,0,0,4,0,0,0
@@ -87526,6 +87544,12 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 149465,Elisande confronted,149464,0,0,61893,0,0
 149466,Nolaki's Plan Heard,0,0,4,0,0,0
 149467,Hear Nolaki's plan,149466,0,0,61896,0,0
+149470,Collect Research Clues,0,100,4,0,0,0
+149471,Clue Spots,149470,3,0,61898,0,0
+149472,Catch Research Clues,0,100,4,0,0,0
+149473,Juicy Clues,149472,3,0,61899,0,0
+149474,Defeat and collect Information-Stuffed Clues,0,100,4,0,0,0
+149475,Morsel Clues,149474,5,0,61900,1,0
 149476,New Criteria Tree,0,0,4,0,0,4096
 149477,,149476,1,0,61901,0,0
 149478,Heat of Battle Brawl rounds participated in,0,5,5,0,0,8193
@@ -87555,6 +87579,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 149503,Tell Valunei you are ready,0,0,4,0,0,0
 149504,Tell Valunei you are ready,149503,0,0,61917,0,0
 149505,Complete Dream Wardens Activities,0,0,4,0,0,4096
+149506,Prepare for Boss Fight,0,100,9,0,0,0
 149507,"Complete ""Time to Process""",0,0,4,0,0,0
 149508,,149507,1,0,61918,0,0
 149509,Set up a Satellite Dig,0,100,9,0,0,0
@@ -87562,7 +87587,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 149511,Recruit Eager Elementals,0,100,9,0,0,0
 149512,Eager Elementals,149511,29,0,61920,0,1
 149513,Throw hats at Archivists,0,100,9,0,0,0
-149514,Sun-Baked Archivists,149513,20,0,61921,0,1
+149514,Sun-Baked Archivists,149513,27,0,61921,0,1
 149547,Kill the Headless Horseman.,0,1,8,0,0,0
 149548,Headless Horseman,149547,1,0,5833,0,2
 149549,Kill the Headless Horseman while all 4 wicker curses are applied,0,0,4,0,0,0
@@ -87883,6 +87908,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 149930,,149929,1,0,62160,0,2
 149931,Owner of the Squally promotional pet,0,0,4,0,0,0
 149932,,149931,1,0,62161,0,2
+149933,Owner of the Fyrn promotional pet,0,0,4,0,0,0
+149934,,149933,1,0,62162,0,2
 149935,Bosses defeated,0,5,5,0,0,8193
 149936,,149935,0,0,62163,0,0
 149937,Bosses defeated,0,5,5,0,0,8193
@@ -89129,7 +89156,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 151657,,154278,0,0,63222,1,32
 151658,Creatures killed,0,0,4,0,0,1
 151659,Creatures killed,151658,30,0,63223,0,1
-151660,Big Time Adventurer storyline completed,0,0,4,0,0,0
+151660,Big Time Adventurer storyline completed,0,0,4,0,0,1
 151661,Tumbling Through Time,151660,1,0,63224,0,0
 151662,To the Future!,151660,1,0,63225,1,0
 151663,Temporal Tuning,151660,1,0,63226,2,0
@@ -89197,33 +89224,6 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 151801,Complete 50 matches in Battleground Blitz.,151800,50,0,63297,0,1
 151802,Complete 100 matches in Battleground Blitz.,0,100,5,0,0,8193
 151803,Complete 100 matches in Battleground Blitz.,151802,100,0,63297,0,1
-151806,Stage 1 - 6195 - Collect Relics (Alt Linear),0,100,9,0,0,0
-151807,6195 - Collect Relics,151806,10,0,60839,0,1
-151808,Stage 1 - 6201 - Breaking Boulders (Alt Linear),0,100,9,0,0,0
-151809,Boulders Broken Down,151808,10,0,61199,0,1
-151810,Throw Boulder Fragments,151808,5,0,61198,1,1
-151811,6194 - Protect the site from Gnolls (Alt Linear),0,100,9,0,0,0
-151812,,151811,10,0,60774,0,1
-151813,6578 - Analyze Runes (Alt Linear),0,100,9,0,0,0
-151814,6578 - Analyze Runes,151813,10,0,62219,0,1
-151815,Stage 1 - 6407 - Prep the Otters (Alt Linear),0,100,9,0,0,0
-151816,Prep the Familiars for Clue Seeking,151815,1,0,61360,0,1
-151817,6197 - Excavate Dragon Bones (Alt Linear),0,100,9,0,0,0
-151818,6197 - Excavate Dragon Bones,151817,100,0,61078,0,1
-151819,Stage 1 - 6202 - Sort Nirobin's Tomes (Alt Linear),0,100,9,0,0,0
-151820,Tomes Sorted,151819,10,0,61223,0,1
-151821,6593 - Protect the Site! (Djaradin Ghosts) (Alt Linear),0,100,9,0,0,0
-151822,Slay Djaradin Phantasms,151821,10,0,61881,0,1
-151823,Slay Hound Phantasms,151821,5,0,61882,1,1
-151824,6541 - Protect the Site! (Elementals) (Alt Linear),0,100,9,0,0,0
-151825,Slay Disturbed Frost Elementals,151824,8,0,61891,0,1
-151826,Slay Disturbed Earth Elementals,151824,8,0,61892,1,1
-151827,Stage 2 - 6542 - Collect Research Clues (Alt Linear),0,100,9,0,0,0
-151828,Clue Spots Collected,151827,5,0,61898,0,1
-151829,6552 - Recruit Eager Elementals (Alt Linear),0,100,9,0,0,0
-151830,Grant archeologist hats to Eager Elementals to turn them into Assistant Archivists!,151829,15,0,61920,0,1
-151831,Stage 2 - 6204 - Kill Boss (Alt Linear),0,100,4,0,0,0
-151832,Kill Dragon Spirit,151831,1,0,63299,0,0
 151833,Silithyst completed,0,1,8,0,0,8193
 151834,,151833,0,0,63300,0,0
 151835,,151833,0,0,63301,1,0
@@ -89391,8 +89391,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 153043,Analyze Ancient Relics,0,100,9,0,0,0
 153044,Analyze Relic,153043,36,0,64416,0,1
 153045,Information-Stuffed Clue,149474,1,0,64388,0,0
-153046,Traitor's Ambition slain,0,0,4,0,0,0
-153047,Traitor's Ambition,153046,1,0,63299,0,0
+153046,Doomshadow laid to rest... again!,0,0,4,0,0,0
+153047,Doomshadow laid to rest... again!,153046,1,0,63299,0,0
 153048,7.1 - Raid - Trial of Valor - LFR Wing 1,0,0,4,0,0,0
 153049,Odyn defeated,153048,1,0,64390,0,0
 153050,Guaram defeated,153048,1,0,64391,1,0
@@ -89431,7 +89431,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 153083,,153081,1,1,64414,1,2
 153084,10.2 Raid - Dream - Fyrakk - Achievement - TJS,0,0,4,0,0,0
 153085,Spirits returned,153084,1,0,64419,0,0
-153086,Stand by Eadweard for instructions,0,0,4,0,0,0
+153086,Stand near Eadweard for instructions,0,0,4,0,0,0
 153087,Stand by Eadweard for instructions,153086,0,0,64424,0,0
 153098,,148542,1,0,64431,5,0
 153099,,148546,1,0,64431,5,0
@@ -89483,7 +89483,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 153474,Brush the Bones,0,100,9,0,0,0
 153475,Clear away dust from the bones so they can be studied.,153474,50,0,64617,0,1
 153476,Stomp Book Beetles,0,100,9,0,0,0
-153477,Bookworms are threatening our research! Stomp to stop them.,153476,19,0,64618,0,1
+153477,Bookworms are threatening our research! Stomp to stop them.,153476,9,0,64618,0,1
 153478,,151050,5,0,64619,28,0
 153479,,151050,8,0,62836,29,0
 153480,,151050,25,0,62834,30,0
@@ -89510,9 +89510,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 153630,10.2.5 AA Technoscrying - Igira's Watch - Wearing Goggles Aura Gained (SMART),0,0,4,0,0,4096
 153631,Is Wearing the Goggles,153630,1,0,64685,0,0
 153632,Azerothian Archives Big Dig completed,0,1,5,0,0,8193
-153633,,153632,0,0,65301,0,0
+153633,,153632,0,0,64686,0,0
 153634,Azerothian Archives Big Digs completed,0,5,5,0,0,8193
-153635,,153634,0,0,65301,0,0
+153635,,153634,0,0,64686,0,0
 154011,Pet battle won,0,0,4,0,0,8193
 154012,,154011,0,0,64833,0,0
 154013,Pet battle won,0,0,4,0,0,8193
@@ -89638,8 +89638,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 154147,,154146,1,0,64908,0,0
 154148,Calling the Champions completed,0,0,4,0,0,8193
 154149,,154148,0,0,65066,0,0
-154150,Transmog purchased,0,1,4,0,0,8193
-154151,,154150,0,0,64911,0,0
+154150,Transmog purchased,0,1,5,0,0,8193
+154151,[DNT] Ensemble: Battlewraps Honored Valarjar,154150,1,0,64911,1,0
 154152,Toy used,0,1,8,0,0,1
 154153,Ethereal Transmogrifier,154152,0,0,64912,0,0
 154154,Imp in a Ball,154152,0,0,64913,1,0
@@ -89729,7 +89729,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 154265,,154264,0,0,65039,0,0
 154266,,154264,0,0,65040,1,0
 154267,Darkmoon Fashion,0,1,8,0,0,1
-154268,Noble attire collected,154267,0,0,65041,0,0
+154268,Noble attire collected,156533,0,0,65041,0,0
 154269,/Flex at Chester wearing the entire Noble outfit,154267,0,0,65042,1,0
 154278,KSM and reached 2k+ rating on current character,151654,0,4,0,2,0
 154279,Rating Requirement,154278,2000,0,62026,0,2
@@ -89867,7 +89867,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 154479,Clear Traitor's Bramble from the site,0,100,4,0,0,0
 154480,Traitor's Bramble cleared,154479,5,0,65236,0,0
 154481,Clear Restweed from the site,0,100,4,0,0,0
-154482,Restweed cleared,154481,7,0,65236,0,0
+154482,Restweed cleared,154481,6,0,65237,0,0
 154483,Clear Boneclover from the site,0,100,4,0,0,0
 154484,Boneclover cleared,154483,6,0,65238,0,0
 154485,Clear Boneclover from the site,0,100,4,0,0,0
@@ -89878,7 +89878,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 154493,Sort Significant Stones,0,100,9,0,0,0
 154494,Sort Stones,154493,28,0,65243,0,1
 154495,Sort Significant Stones,0,100,9,0,0,0
-154496,Sort Stones,154495,31,0,65243,0,1
+154496,Sort Stones,154495,31,0,65584,0,1
 154497,"HS Anniversary is running, player is 60+ and their tracking quest is clear",154491,0,0,65249,0,0
 154498,Protect the site from Gnolls,0,100,9,0,0,0
 154499,Slay Gnolls,154498,28,0,65245,0,1
@@ -89912,3 +89912,152 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 154613,,154610,1,0,65298,2,32
 154618,,154065,0,0,65302,1,1
 154619,,154065,0,0,65303,2,1
+154661,Collect all these Hearthstone Cards,0,12,4,0,0,0
+154662,Cairne Bloodhoof,154661,1,0,65329,8,16
+154663,Charged Devilsaur,154661,1,0,65330,9,16
+154664,Righteousness,154661,1,0,65342,18,16
+154666,"Jive, Insect!",154661,1,0,65332,15,16
+154667,Preparation,154661,1,0,65333,16,16
+154668,Arcane Shot,154661,1,0,65334,5,16
+154669,Pyroblast,154661,1,0,65328,17,16
+154670,Arcane Explosion,154661,1,0,65335,3,16
+154671,Forbidden Words,154661,1,0,65336,11,16
+154672,Blessing of Kings,154661,1,0,65337,7,16
+154673,Baron Geddon,154661,1,0,65338,6,16
+154674,Hogger,154661,1,0,65339,14,16
+154675,Ancient of Lore,154661,1,0,65340,2,16
+154676,Arcane Golem,154661,1,0,65341,4,16
+154677,Abomination,154661,1,0,65343,0,16
+154678,Grove Tender,154661,1,0,65344,12,16
+154679,Alley Cat,154661,1,0,66032,1,16
+154680,Chillwind Yeti,154661,1,0,65345,10,16
+154681,Shadow Word: Ruin,154661,1,0,65346,20,16
+154682,Scarlet Crusader,154661,1,0,65347,19,16
+154811,Win X games at a Hearthstone Game Table.,0,0,4,0,0,0
+154812,Win a game.,154811,0,0,65362,0,0
+154823,,136250,0,0,65369,8,0
+154824,Hand of Protection,154661,1,0,65370,13,16
+154825,Rocks gathered,0,10,4,0,0,0
+154826,Rocks gathered,154825,10,0,65371,0,1
+154827,"Clues ""discovered""",0,20,5,0,0,1
+154828,,154827,0,0,65372,0,0
+154829,,154827,0,0,65373,1,0
+154830,,154827,0,0,65374,2,0
+154831,,154827,0,0,65375,3,0
+154832,,154827,0,0,65376,4,0
+154833,,154827,0,0,65377,5,0
+154834,,154827,0,0,65378,6,0
+154835,,154827,0,0,65379,7,0
+154836,Relics recovered,0,0,4,0,0,0
+154837,Exposed Jar recovered,154836,1,0,65380,0,32
+154838,Exposed Tablet recovered,154836,1,0,65381,1,32
+154839,Exposed Mandible recovered,154836,1,0,65382,2,32
+154840,Exposed Hammer recovered,154836,1,0,65383,3,32
+154841,Exposed Statue recovered,154836,1,0,65384,4,32
+154842,Exposed Box recovered,154836,1,0,65385,5,32
+154843,Exposed Figure recovered,154836,1,0,65386,6,32
+154844,Exposed Carving recovered,154836,1,0,65387,7,32
+154845,Exposed Urn recovered,154836,1,0,65388,8,32
+154846,Tomes acquired,0,0,4,0,0,0
+154847,,154846,1,0,65389,0,32
+154848,,154846,1,0,65390,1,32
+154849,,154846,1,0,65391,2,32
+154850,,154846,1,0,65392,3,32
+154851,,154846,1,0,65393,4,32
+154852,,154846,1,0,65394,5,32
+154853,,154846,1,0,65395,6,32
+154854,,154846,1,0,65396,7,32
+154855,,154846,1,0,65397,8,32
+154856,"Achievement - Archives, Dragon Isles",0,0,4,0,0,0
+154857,,154856,0,0,65398,1,32
+154858,,154856,0,0,65399,3,32
+154859,,154856,0,0,65400,4,32
+154860,,154856,0,0,65401,5,32
+154861,,154856,0,0,65402,0,32
+154862,,154856,0,0,65403,2,32
+154863,Zenata danced with,0,0,4,0,0,0
+154864,Zenata danced with at Igira's Watch,154863,0,0,65404,0,32
+154865,Zenata danced with at Dragonskull Island,154863,0,0,65405,1,32
+154866,Zenata danced with at Concord Observatory,154863,0,0,65406,2,32
+154867,Tomes,148509,11,0,65407,1,1
+154868,Pick up Azer-Broth,148614,1,0,61288,0,0
+154869,Tome of Archived Isles Research entries,0,1,8,0,0,0
+154870,Lost Atheneum,154869,1,0,65408,0,0
+154871,The Riverbed,154869,1,0,65409,1,0
+154872,Igira's Watch,154869,1,0,65410,2,0
+154873,Gaze of Neltharion,154869,1,0,65411,3,0
+154874,Concord Observatory,154869,1,0,65412,4,0
+154875,Winglord's Perch,154869,1,0,65413,5,0
+154876,The Story of Traitor's Rest,0,100,9,0,0,0
+154882,,154876,17,0,65419,0,1
+154883,,154856,0,0,65420,6,32
+154884,,154856,0,0,65421,7,32
+154892,,149808,0,0,65433,14,0
+154893,,149808,0,0,65434,15,0
+154894,,149808,0,0,65435,16,0
+154895,,149808,0,0,65436,17,0
+154896,,149808,0,0,65437,18,0
+154897,,149808,0,0,65438,19,0
+154898,,149808,0,0,65439,20,0
+154899,,149808,0,0,65440,21,0
+154900,,149808,0,0,65441,22,0
+154901,,149808,0,0,65442,23,0
+155078,Obtain the Fiery Hearthsteed from the Hearthstone Tenth Anniversary promotion.,0,0,4,0,0,0
+155079,,155078,0,0,65518,0,2
+155850,Collect at least 10 Hearthstone Cards,0,10,8,0,0,8193
+155851,Abomination,155850,1,0,65343,0,0
+155852,Alley Cat,155850,1,0,66032,1,0
+155853,Ancient of Lore,155850,1,0,65340,2,0
+155854,Arcane Explosion,155850,1,0,65335,3,0
+155855,Arcane Golem,155850,1,0,65341,4,0
+155856,Arcane Shot,155850,1,0,65334,5,0
+155857,Baron Geddon,155850,1,0,65338,6,0
+155858,Blessing of Kings,155850,1,0,65337,7,0
+155859,Cairne Bloodhoof,155850,1,0,65329,8,0
+155860,Charged Devilsaur,155850,1,0,65330,9,0
+155861,Chillwind Yeti,155850,1,0,65345,10,0
+155862,Shadow Word: Ruin,155850,1,0,65346,11,0
+155863,Forbidden Words,155850,1,0,65336,12,0
+155864,Grove Tender,155850,1,0,65344,13,0
+155865,Hand of Protection,155850,1,0,65370,14,0
+155866,Hogger,155850,1,0,65339,15,0
+155867,"Jive, Insect!",155850,1,0,65332,16,0
+155868,Preparation,155850,1,0,65333,17,0
+155869,Pyroblast,155850,1,0,65328,18,0
+155870,Righteousness,155850,1,0,65342,19,0
+155871,Scarlet Crusader,155850,1,0,65347,20,0
+155932,Earn achievement 'Trading Post Enthusiast'',0,0,4,0,0,0
+155933,,155932,0,0,66041,0,2
+156095,Earn achievement 'Trading Post Enthusiast'',0,0,4,0,0,0
+156096,,156095,0,0,66041,0,2
+156501,[DNT] Ensemble: Vagabond,154150,1,0,66368,0,0
+156502,[DNT] Ensemble: Wanderer,154150,1,0,66370,2,0
+156503,[DNT] Love Witch,154150,1,0,66369,3,0
+156504,,154150,1,0,66371,4,0
+156505,,154150,1,0,66372,11,0
+156506,,154150,1,0,66373,23,0
+156507,,154150,1,0,66374,24,0
+156508,,154150,1,0,66375,10,0
+156509,,154150,1,0,66376,15,0
+156510,,154150,1,0,66377,16,0
+156511,,154150,1,0,66378,6,0
+156512,,154150,1,0,66379,8,0
+156513,,154150,1,0,66380,7,0
+156514,,154150,1,0,66381,17,0
+156515,,154150,1,0,66382,5,0
+156516,,154150,1,0,66383,14,0
+156517,,154150,1,0,66384,12,0
+156518,,154150,1,0,66385,13,0
+156519,,154150,1,0,66386,9,0
+156520,,154150,1,0,66387,18,0
+156521,,154150,1,0,66388,19,0
+156522,,154150,1,0,66389,20,0
+156523,,154150,1,0,66390,21,0
+156524,,154150,1,0,66391,22,0
+156525,,154150,1,0,66392,25,0
+156526,,154150,1,0,66393,26,0
+156533,Noble attire collected,154267,1,8,0,0,8192
+156534,,156533,0,0,66397,1,0
+156535,,156533,0,0,66399,2,0
+156536,,156533,0,0,66400,3,0
+156537,,156533,0,0,66398,4,0
