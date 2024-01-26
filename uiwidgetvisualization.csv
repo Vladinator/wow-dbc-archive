@@ -340,6 +340,7 @@ ID,Name,VisType,TextureKit,FrameTextureKit,SizeSetting,InAnimType,OutAnimType,Wi
 2157,10.1.5 Time Rifts - Timer - PRK,20,0,5473,0,0,0,0,0,0
 2158,10.1.5 Time Rifts - Timed Task Timer Bar - PRK,2,5112,5425,0,0,0,0,0,0
 2159,10.1 Public Objective Countdown Tooltip - Bar,2,5326,5425,0,0,0,0,0,0
+2160,10.2.5 Archaeology - Mechanics - Global - Excavation Capture Bar (ERW),1,5321,0,0,1,1,3,0,0
 2161,"TextWithState: No Texture Kit, (200 Wide)",8,0,0,200,0,0,0,0,0
 2162,10.1.5 Time Rifts - Top Center Score,2,5326,5425,300,0,0,0,0,0
 2163,10.1.5 Time Rifts - Top Center Reward,27,0,0,0,0,0,0,0,0
@@ -352,13 +353,16 @@ ID,Name,VisType,TextureKit,FrameTextureKit,SizeSetting,InAnimType,OutAnimType,Wi
 2175,10.2 Superbloom - Timer (SHY),20,0,5473,0,0,0,0,0,0
 2176,10.2 Superbloom - Reverie (SHY),2,5326,5425,300,0,0,0,0,0
 2177,Player Choice Status Bar: White,2,5326,5425,200,0,0,0,0,0
+2183,Heat of Battle Brawl: Timer Bar,2,5326,5425,120,0,0,1,0,0
+2184,Heat of Battle Brawl: Score Bar,2,5326,5425,200,0,0,0,0,0
 2185,"10.2 Dream - WQ ""Nateru Sealed""- Widgets Control Point Vis",2,5111,5425,150,0,0,0,0,0
-2187,WIDGET TEMPLATE - TugOfWar Vis,28,5541,0,0,0,0,0,0,0
+2186,Arena - Heat of Battle Brawl - DoubleStatusBar Vis,3,266,0,0,0,0,0,0,0
+2187,WIDGET TEMPLATE - TugOfWar Vis,28,5541,5555,0,0,0,0,0,0
 2188,10.1.7 Tyr - Widgets Control Point Vis,2,5169,5425,150,0,0,0,0,0
-2189,Generic TugOfWar Vis,28,5541,0,0,0,0,0,0,0
-2190,Generic TugOfWar Vis (80% Scale),28,5541,0,0,0,0,2,0,0
+2189,Generic Plain TugOfWar Vis,28,5541,5556,0,0,0,0,0,0
+2190,Generic Plain TugOfWar Vis (80% Scale),28,5541,5556,0,0,0,2,0,0
 2191,TextWithState (80% Scale),8,0,0,0,0,0,2,0,0
-2192,Generic TugOfWar Vis (300 Width),28,5541,0,300,0,0,0,0,0
+2192,Generic Plain TugOfWar Vis (300 Width),28,5541,5556,300,0,0,0,0,0
 2193,TextWithState: No Texture Kit (300 Width),8,0,0,300,0,0,0,0,0
 2194,10.1.5 Secrets - Influencer - Power Collector,2,0,0,0,0,0,0,0,0
 2195,"Player Choice Status Bar: Wide, White",2,5326,5425,400,0,0,0,0,0
@@ -368,7 +372,7 @@ ID,Name,VisType,TextureKit,FrameTextureKit,SizeSetting,InAnimType,OutAnimType,Wi
 2199,10.0 Dragonriding - Vigor Bars Vis - SG - Bronze,24,5543,5546,0,0,0,0,0,0
 2200,10.0 Dragonriding - Vigor Bars Vis - SG - Dark,24,5543,5547,0,0,0,0,0,0
 2203,ItemDisplay: No Texture Kit (200 Width),27,0,0,200,0,0,0,0,0
-2204,"Generic TugOfWar Vis (280 Width, 80%scale)",28,5541,0,280,0,0,2,0,0
+2204,"Generic Plain TugOfWar Vis (280 Width, 80%scale)",28,5541,5556,280,0,0,2,0,0
 2205,TextWithState: No Texture Kit (250 Width),8,0,0,250,0,0,0,0,0
 2206,ItemDisplay: No Texture Kit (175 Width),27,0,0,175,0,0,0,0,0
 2208,10.2 Superbloom - Top Center Reward (SHY),27,0,0,0,0,0,0,0,0
@@ -376,4 +380,15 @@ ID,Name,VisType,TextureKit,FrameTextureKit,SizeSetting,InAnimType,OutAnimType,Wi
 2210,10.2 Emerald Dream - Emerald Bounty Tooltip - TextWithState - PRK,8,0,0,300,0,0,0,0,0
 2211,10.2 Emerald Dream - Emerald Bounty Tooltip - ItemDisplay - PRK,27,0,0,300,0,0,0,0,0
 2212,Nameplate Status Bar (80% scale),2,5111,5425,135,0,0,2,0,0
+2307,10.2.5 Azerothian Archives - Top Center Score (MPK),2,5169,5425,300,0,0,0,0,0
 2308,10.0 Public Event - Area POI - Reward Status - Smaller Size (LAS),8,0,0,300,0,0,0,0,0
+2309,10.2.5 AA Archeology - Traitor's Rest - Public Event - Score - Top - Pages - PRK/(MPK),8,0,0,0,0,0,0,0,0
+2310,10.2.5 Azerothian Archives - Bonus Dig - PRK/(MPK),2,0,0,100,0,0,2,0,0
+2311,10.2.5 - AI Instance - Fake Ping - Warning,18,5535,0,0,0,0,0,163,1
+2312,10.2.5 Azerothian Archives - Scenario UI - Timer - MPK,20,0,5473,0,0,0,0,0,0
+2313,Generic Tug of War Widget Visualization,28,5541,5555,0,0,0,0,0,0
+2314,10.2.5 Azerothian Archives - Next Tome,27,0,0,0,0,0,0,0,0
+2315,10.2.5 Archaeology - Excavation - Tug of War Widget Visualization - Smaller (ERW),28,5541,5555,0,0,0,3,0,0
+2316,10.2.5 Azerothian Archives - Top Center Reward,9,0,0,0,0,0,0,0,0
+2317,10.2.5 Public Event - Area POI - Reward Status - PRK,8,0,0,200,0,0,0,0,0
+2318,10.2.5 Public Event - Area POI - Vertical Spacer - PRK,22,0,0,200,0,0,0,0,0

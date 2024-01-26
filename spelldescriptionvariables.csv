@@ -823,6 +823,10 @@ $damage=${((0.690899398201283*($SP*1.25)*$<demoMastery>*(1+$@versadmg))*1.18)
 }"
 846,"$mindbender=$?s373065[${20}][${10}]
 $shadowfiend=$?s373065[${35}][${25}]"
+847,"$apsp=${$cond($gt($SP,$AP),$SP,$AP)*(1)}"
 848,$pord=$@switch<$s5>[ $@auracaster has $s4% increased chance to parry your attacks.][ $@auracaster has $s4% increased chance to dodge your attacks.]
 849,"$targetBonus=${$cond($gt($s1,0),1,0)}
 $targetBonusAlso=${$s1}"
+853,"$shield=${($SP*11)*(1+$@versadmg)}
+$newshield=${$MHP*$116680s8/100*(1+$@versadmg)}"
+858,$cap=${6}

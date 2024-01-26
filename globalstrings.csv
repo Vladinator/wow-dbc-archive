@@ -12514,7 +12514,7 @@ You can find trainers for them in some settlements and cities.",1
 24737,GARRISON_SWITCH_SPECIALIZATIONS,Switch Specializations,1
 24738,ARTIFACT_XP_GAIN,%s gains %s Artifact Power.,1
 24740,SPELL_FAILED_CUSTOM_ERROR_221,Not enough fuel,1
-24741,PVP_ITEM_LEVEL_TOOLTIP,Equip: Increases item level to %d in Arenas and Battlegrounds.,1
+24741,PVP_ITEM_LEVEL_TOOLTIP,Equip: Increases item level to a minimum of %d in Arenas and Battlegrounds.,1
 24742,STAT_ARMOR,Armor,1
 24743,STAT_BONUS_ARMOR,Bonus Armor,1
 24744,POWER_TYPE_AQUEOUS_ENERGY,Aqueous Energy,1
@@ -12790,7 +12790,7 @@ You can find trainers for them in some settlements and cities.",1
 25017,LFG_LIST_CATEGORY_FORMAT,%s - %s%s%s,1
 25018,LFG_LIST_LEGACY,Legacy,1
 25019,SIGN_UP,Sign Up,1
-25020,SEARCHING,Searching...,1
+25020,SEARCHING,Searching...,3
 25021,LFG_LIST_COMMENT_FORMAT,"\""%s\""",1
 25022,LFG_LIST_TOOLTIP_ILVL,Item Level Required: |cffffffff%d|r,1
 25023,LFG_LIST_TOOLTIP_AGE,Created: |cffffffff%s ago|r,1
@@ -18954,7 +18954,7 @@ You can find trainers for them in some settlements and cities.",1
 42760,MOTION_SICKNESS_REDUCE_CAMERA_MOTION,Reduce Camera Motion,1
 42761,MOTION_SICKNESS_NONE,Allow Dynamic Camera Movement,1
 42762,MOTION_SICKNESS_BOTH,Keep Character Centered and Reduce Camera Motion,1
-42763,MOTION_SICKNESS_DROPDOWN,Motion Sickness,1
+42763,MOTION_SICKNESS_CHECKBOX,Motion Sickness,1
 42764,ADJUST_MOTION_SICKNESS_SHAKE,Camera Shake,1
 42765,COVENANT_TOAST_TEXT,You Joined the Covenant,1
 42766,RENOWN_REWARD_ITEM_NAME_FORMAT,%s,1
@@ -19531,8 +19531,8 @@ You can find trainers for them in some settlements and cities.",1
 43928,COVENANT_MISSIONS_AURA_TOOLTIP_ENTRY_FORMAT,%s %s,1
 43929,COVENANT_MISSIONS_AURA_TOOLTIP_HEADER,Effects,1
 43932,SLASH_TEXTTOSPEECH_VOICE,voice,1
-43933,EVENT_TOAST_NOT_EXPANDED_DESCRIPTION,Right click to see details,1
-43934,EVENT_TOAST_EXPANDED_DESCRIPTION,Right click to hide details,1
+43933,EVENT_TOAST_NOT_EXPANDED_DESCRIPTION,Left click to see details,1
+43934,EVENT_TOAST_EXPANDED_DESCRIPTION,Left click to hide details,1
 43935,EVENTTRACE_ARG_FMT,Arg %d:,3
 43936,COVENANT_MISSION_TITLE_FORMAT_WITH_XP,%s %s xp: %s,1
 43937,COVENANT_MISSION_TITLE_FORMAT_WITH_XP_SECOND_LINE,%s %s|nxp: %s,1
@@ -20795,7 +20795,7 @@ Try using higher quality reagents, improving your skill, or specializing to reac
 49524,TALENT_FRAME_DROP_DOWN_IMPORT,Import,1
 49525,TALENT_FRAME_DROP_DOWN_EXPORT,Share,1
 49526,HUD_EDIT_MODE_TALKING_HEAD_FRAME_LABEL,Talking Head,1
-49527,PERKS_PROGRAM_SERVER_ERROR,There was an error communicating with the Server.  Please try again later.,1
+49527,PERKS_PROGRAM_SERVER_ERROR,The Trading Post is experiencing difficulty communicating with the server. Please try again later.,1
 49528,HUD_EDIT_MODE_VEHICLE_LEAVE_BUTTON_LABEL,Vehicle Exit Button,1
 49529,PERKS_PROGRAM_NOT_ENOUGH_CURRENCY,You don't have enough currency for this purchase,1
 49530,PROFESSIONS_NOTE_TO_CRAFTER,Note to Crafter:,1
@@ -21472,7 +21472,7 @@ Progress made is account-wide.",1
 50254,CONFIRM_LEAVE_RATED_MATCH_WITH_PENALTY,Leaving the match now will cause you to lose at least |cnORANGE_FONT_COLOR:%d|r rating and you will be afflicted by %s of %s.|n|nYou will not receive Honor or Conquest for your completed rounds if you leave now.|n|nAre you sure you want to leave the match?,1
 50255,SPELL_FAILED_CUSTOM_ERROR_826,This recipe is currently disabled. Please try again later.,1
 50258,CENSORED_MESSAGE_HIDDEN,|cffff7f3fMessage from %s is potentially inappropriate.|h|cffffff00|Hcensoredmessage:%d|h |W[Show Message]|w|h|r,1
-50263,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS,Speed Effects,1
+50263,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS,Dynamic Flight Speed Effects,1
 50264,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS_TOOLTIP,Disabling visual speed effects may help with motion sickness while dragonriding.,1
 50266,ACCOUNT_SAVE_FILE_BUTTON,Open Folder,2
 50267,ACCOUNT_SAVE_CLOSE_BUTTON,Close,2
@@ -21912,11 +21912,15 @@ Are you sure you want to proceed?",1
 51451,TALENT_BUTTON_TOOLTIP_REFUND_INVALID_CONDITIONS_ERROR,Spend more points to restore this talent or right click to unlearn it,1
 51452,PERKS_PROGRAM_FROZEN,"|cffffffffFrozen|r
 ",1
+51455,SPELL_FAILED_CUSTOM_ERROR_841,Only usable during Love is in the Air,1
 51457,MAP_FILTER,Map Filter,1
+51465,SPELL_FAILED_CUSTOM_ERROR_842,No smells nearby!,1
 51472,SPELL_FAILED_CUSTOM_ERROR_891,You are already at full Vigor,1
 51473,SPELL_FAILED_CUSTOM_ERROR_1006,The nutrients of this soil must replenish before further growth.,1
 51480,PERSONALTABARDVENDORGREETING,Greetings! Choose the symbol and colors for your personal tabard.,1
 51484,RAID_MANAGER_RESTRICT_PINGS_PARTY,Restrict Pings to Lead,1
+51493,LFG_TYPE_FOLLOWER_DUNGEON,Follower Dungeons,1
+51494,LFD_FOLLOWER_EXPLANATION,Complete dungeons with NPC teammates,1
 51495,SPELL_FAILED_CUSTOM_ERROR_1007,The target has already had some feathers plucked. It would be rude to take more.,1
 51496,WEEKLY_REWARDS_THRESHOLD_DUNGEONS,"Complete %d Heroic, Mythic, or Timewalking |4Dungeon:Dungeons",1
 51498,SPELL_FAILED_CUSTOM_ERROR_859,You can only open this chest in your dreams.,1
@@ -21932,6 +21936,7 @@ Are you sure you want to proceed?",1
 51507,SPELL_FAILED_CUSTOM_ERROR_1008,This creature has already been attuned with recently.,1
 51508,SPELL_FAILED_CUSTOM_ERROR_646,You cannot hold more crests of this type.,1
 51514,PERKS_PROGRAM_PURCHASED_TIME_REMAINING,|cff808080--|r,1
+51515,ERR_FOLLOWER_DUNGEON_LIMIT_REACHED,You've entered too many follower dungeons recently.,1
 51516,ACCESSIBILITY_ADV_FLY_LABEL,Dynamic Flight,1
 51517,ADV_FLY_MINIMUM_PITCH_TEXT,Min Keyboard Pitch Speed,1
 51518,ADV_FLY_MAXIMUM_PITCH_TEXT,Max Keyboard Pitch Speed,1
@@ -21949,8 +21954,20 @@ Are you sure you want to proceed?",1
 51530,ACCESSIBILITY_MOUNT_LABEL,Mounts,1
 51535,PERKS_PROGRAM_ERROR_INDICATOR,The Trading Post is experiencing difficulty communicating with the server. Please try again later.,1
 51536,PERKS_PROGRAM_PURCHASING_UNAVAILABLE,Purchasing Unavailable,1
+51537,PERKS_PROGRAM_REFUND_UNAVAILABLE,Refund Unavailable,1
+51538,PERKS_PROGRAM_SLOW_PURCHASE,It's taking longer than usual to process your purchase. Processing will continue in the background.,1
+51539,PERKS_PROGRAM_RETURN_TO_TRADING_POST,Return to Trading Post,1
 51540,SPELL_FAILED_CUSTOM_ERROR_1011,You don't have any items of this type.,1
+51541,KIOSK_SESSION_STARTED_BODY,"A new World Tree blooms in the Dream.
+Fyrakk needs the Wellspring's power,
+To claim the heart of the tree,
+And spread his flame to all Azeroth.",1
+51542,KIOSK_SESSION_EXPIRED_SUBTITLE,Guardians of the Dream,1
 51543,KIOSK_ENTER,Enter World,2
+51547,PERKS_PROGRAM_PENDING,Pending,1
+51548,PERKS_PROGRAM_PURCHASE_IN_PROGRESS,It's taking longer than usual to process your purchase. This item will be delivered once it has finished processing.,1
+51549,PERKS_PROGRAM_PURCHASE_PENDING,Purchase Pending,1
+51551,PERKS_PROGRAM_ITEM_PROCESSING_ERROR,An item is currently being processed. Please try again later.,1
 51552,WEEKLY_REWARDS_HEROIC,Heroic,1
 51553,WEEKLY_REWARDS_COMPLETE_HEROIC_SHORT,Complete a dungeon on Mythic difficulty to increase this reward's item level.,1
 51554,WEEKLY_REWARDS_ITEM_LEVEL_HEROIC,Item Level %1$d - Heroic,1
@@ -21958,13 +21975,32 @@ Are you sure you want to proceed?",1
 51558,GREAT_VAULT_REWARDS_CURRENT_LEVEL_MYTHIC,The item level of this reward will be based on the lowest of your top %1$d runs this week (currently Mythic Level %2$d).,1
 51559,GREAT_VAULT_REWARDS_CURRENT_LEVEL_HEROIC,The item level of this reward will be based on the lowest of your top %1$d runs this week (currently Heroic).,1
 51560,QUEST_BG_DEFAULT,Default,1
-51561,QUEST_BG_LIGHT1,Light 1,1
-51562,QUEST_BG_LIGHT2,Light 2,1
-51563,QUEST_BG_DARK,Dark,1
-51565,QUEST_BG_LIGHT3,Light 3,1
+51561,QUEST_BG_LIGHT1,Brown,1
+51562,QUEST_BG_LIGHT2,White,1
+51563,QUEST_BG_DARK,Black,1
+51565,QUEST_BG_LIGHT3,Grey,1
 51566,GREAT_VAULT_REWARDS_HEROIC_IMPROVE,Complete %1$d dungeons on Mythic difficulty to improve your reward.,1
 51567,AUCTION_HOUSE_ITEM_QUANTITY_FORMAT,|cff808080x%s|r,1
 51568,SPELL_FAILED_CUSTOM_ERROR_860,You have not proven yourself to this spirit.,1
 51573,CANNOT_UNEQUIP_ERR,Cannot change equip status at this time,1
 51575,SPELL_FAILED_RADIANT_ASH_MAX,You have enough Radiant Fleck of Ash.,1
 51576,ERR_ITEM_INTERACTION_NO_CONVERSION_OUTPUT,This item cannot be transformed by your character.,1
+51579,COLOR_PICKER_HEX,Hex,1
+51582,ERR_GUILD_NEW_LEADER_NOT_ALLIED,Players from the opposite faction can't be promoted to guild leader.,1
+51602,MOTION_SICKNESS_DRAGONRIDING_SCREEN_EFFECTS,Dynamic Flight Screen Effects,1
+51603,MOTION_SICKNESS_DRAGONRIDING_SCREEN_EFFECTS_TOOLTIP,Disabling Screen effects may help with motion sickness.,1
+51604,OPTION_TOOLTIP_MOTION_SICKNESS_CHECKBOX,Enabling the Motion Sickness setting will reduce camera movement and keep your character centered.,1
+51621,TUTORIAL_PERKS_PROGRAM_OVERWRITE_FROZEN_ITEM,Replace your frozen item by dragging another item here at any time,1
+51628,NPE_UNBOUND_KEYBIND,[Unbound],1
+51642,MONTHLY_ACTIVITIES_EVENT_DURATION,(%s - %s),1
+51643,TRANSMOG_ITEM_SET_FAVORITE,Set Favorite,3
+51644,TRANSMOG_ITEM_UNSET_FAVORITE,Remove Favorite,3
+51645,MONTHLY_ACTIVITIES_EVENT_TIME_LEFT,Time Left: %s,1
+51651,MONTHLY_ACTIVITIES_EVENT_NOT_BEGUN,This activity has not begun yet,1
+51652,MONTHLY_ACTIVITIES_EVENT_EXPIRED,This activity has expired,1
+51653,QUEST_TEXT_PREVIEW_TITLE,Example,1
+51654,QUEST_TEXT_PREVIEW_BODY,This preview showcases what your quest description will look like in the quest offer pane when you opt for the alternative background color.,1
+51698,DUNGEON_DIFFICULTY_BANNER_TOOLTIP,%s Difficulty,1
+51703,PERKS_PROGRAM_SET_SELECTION_DESC,You will receive the following items:,1
+51707,DUNGEON_DIFFICULTY_BANNER_TOOLTIP_PLAYER_COUNT,%d/%d Players,1
+51727,WOW_ERROR_337,Access to this realm requires an account with a valid access license.,2
