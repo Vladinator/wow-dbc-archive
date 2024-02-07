@@ -99,3 +99,50 @@ transMag = (progress * 2) - 1
 transMag = (1 - (transMag * transMag)) * maxMagnitude
 modelRoll = progress * 2000",0,0
 4659,Accelerated Missile,speedScalar = 0.2 + 2 * progress,0,1
+4699,Shuriken Forward Spin,"local modelRoll = 0
+local modelPitch = 90
+
+modelRoll = (time * 800) * -1",0,1
+4700,Poisoned Knife Spin,"local modelRoll = 0
+
+modelRoll = time * 1000",0,1
+4704,Spellfrost Bolt spin,"local modelRoll = 0
+
+
+modelRoll = time * 200",0,1
+4705,Spellfrost Bolt bottom spin,"local modelRoll = 0
+local modelPitch = 180
+
+
+modelRoll = (time * 200)*-1",0,1
+4708,High Arc Parabola,"local angle = 0
+local maxMagnitude = startDistance * .30
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude",0,1
+4710,S03 - GNO Raid - Crowd Pummeler - Gnomeregan Smash - Bleacher Missile,"local angle = 0
+local maxMagnitude = startDistance * .15
+local spinRate = 1080
+
+modelPitch = time * spinRate
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude",0,1
+4712,S03 - GNO Raid - Thermaplugg - Sprocketfire Punch - Missile,"local angle = 0
+local maxMagnitude = startDistance * .40
+
+transAngle = -angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+modelRoll = progress * 1",0,0
+4713,Poisoned Knife Forward Spin,"local modelPitch = 0
+
+modelPitch = time * 1000",0,1
+4715,Tim's Test Spin,"local modelPitch = 0
+local modelYaw = 0
+local modelRoll = 0
+
+--modelPitch = time * 100
+--modelYaw = time * 100
+modelRoll = time * 1000",0,0
