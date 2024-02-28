@@ -146,3 +146,13 @@ local modelRoll = 0
 --modelPitch = time * 100
 --modelYaw = time * 100
 modelRoll = time * 1000",0,0
+4722,S03 - GNO Raid - Crowd Pummeler - Gear Toss - 0. Missile,"local modelPitch = 0
+local modelYaw = 0
+local modelRoll = 90
+local angle = 0
+local maxMagnitude = startDistance * .40
+
+--transAngle = angle
+--transMag = (progress * 2) - 1
+--transMag = (1 - (transMag * transMag)) * maxMagnitude
+modelPitch = progress * 1000",0,0
