@@ -1,163 +1,280 @@
-ID,Message_lang,ItemContextPickerID,ContentTuningID,DifficultyID,LockID,ResetInterval,MaxPlayers,ItemContext,Flags,MapID
-3,,0,0,1,0,0,100,0,0,13
-4,,0,0,1,0,0,0,0,0,25
-7,You must be at least level 11 to enter.,0,0,1,0,0,5,0,0,33
-8,You must be at least level 15 to enter.,0,0,1,0,0,5,0,0,34
-9,,0,0,1,0,0,0,0,0,35
-10,You must be at least level 10 to enter.,0,0,1,0,0,5,0,0,36
-12,,0,0,1,0,0,0,0,0,42
-13,You must be at least level 10 to enter.,0,0,1,0,0,5,0,0,43
-14,,0,0,1,0,0,10,0,0,44
-15,You must be at least level 25 to enter.,0,0,1,0,0,5,0,0,47
-16,You must be at least level 15 to enter.,0,0,1,0,0,5,0,0,48
-17,You must be at least level 30 to enter.,0,0,1,0,0,5,0,0,70
-18,You must be at least level 19 to enter.,0,0,1,0,0,5,0,0,90
-19,You must be at least level 45 to enter.,0,0,1,0,0,5,0,0,109
-20,You must be at least level 35 to enter.,0,0,1,0,0,5,0,0,129
-21,,0,0,9,0,0,40,0,0,169
-22,You must be at least level 20 to enter.,0,0,1,0,0,5,0,0,189
-23,You must be at least level 39 to enter.,0,0,1,0,0,5,0,0,209
-24,You must be at least level 48 to enter.,0,0,1,0,0,10,0,0,229
-25,You must be at least level 42 to enter.,0,0,1,0,0,5,0,0,230
-26,You must be level 80 and in a raid group to enter.,0,0,3,0,2,10,0,32,249
-27,You must be at least level 65 to enter.,0,0,1,0,0,5,0,0,269
-28,You must be at least level 33 to enter.,0,0,1,0,0,5,0,0,289
-30,You must be at least level 37 to enter.,0,0,1,0,0,5,0,0,329
-31,You must be at least level 25 to enter.,0,0,1,0,0,5,0,0,349
-32,,0,0,1,0,0,0,0,0,369
-33,You must be at least level 10 to enter.,0,0,1,0,0,5,0,0,389
-34,You must be at least level 50 to enter.,0,0,9,0,2,40,0,32,409
-35,You must be at least level 31 to enter.,0,0,1,0,0,5,0,0,429
-38,,0,0,1,0,0,0,0,0,451
-46,You must be level 80 and in a raid group to enter.,0,0,3,3,2,10,0,32,533
-47,You must be at least level 70 to enter.,0,0,4,0,2,25,0,32,534
-48,You must be at least level 65 to enter.,0,0,1,0,0,5,0,0,540
-49,You must be at least level 58 to enter.,0,0,1,0,0,5,0,0,542
-50,You must be at least level 57 to enter.,0,0,1,0,0,5,0,0,543
-51,You must be at least level 70 to enter.,0,0,4,0,2,25,0,32,544
-52,You must be at least level 65 to enter.,0,0,1,0,0,5,0,0,545
-53,You must be at least level 60 to enter.,0,0,1,0,0,5,0,0,546
-54,You must be at least level 59 to enter.,0,0,1,0,0,5,0,0,547
-55,You must be at least level 70 to enter.,0,0,4,0,2,25,0,32,548
-56,You must be at least level 70 to enter.,0,0,4,0,2,25,0,32,550
-57,You must be at least level 65 to enter.,0,0,1,0,0,5,0,0,552
-58,You must be at least level 65 to enter.,0,0,1,0,0,5,0,0,553
-59,You must be at least level 65 to enter.,0,0,1,0,0,5,0,0,554
-60,You must be at least level 65 to enter.,0,0,1,0,0,5,0,0,555
-61,You must be at least level 63 to enter.,0,0,1,0,0,5,0,0,556
-62,You must be at least level 61 to enter.,0,0,1,0,0,5,0,0,557
-63,You must be at least level 62 to enter.,0,0,1,0,0,5,0,0,558
-65,You must be at least level 63 to enter.,0,0,1,0,0,5,0,0,560
-68,You must be at least level 70 to enter.,0,0,4,0,2,25,0,32,565
-70,You must be at least level 70 to enter.,0,0,3,0,3,10,0,32,568
+ID,Message_lang,ItemContextPickerID,ContentTuningID,ItemContext,DifficultyID,LockID,ResetInterval,MaxPlayers,Flags,MapID
+3,,0,0,0,1,0,0,100,0,13
+4,,0,0,0,1,0,0,0,0,25
+7,You must be at least level 11 to enter.,0,0,0,1,0,0,5,0,33
+8,You must be at least level 15 to enter.,0,0,0,1,0,0,5,0,34
+9,,0,0,0,1,0,0,0,0,35
+10,You must be at least level 10 to enter.,0,0,0,1,0,0,5,0,36
+12,,0,0,0,1,0,0,0,0,42
+13,You must be at least level 10 to enter.,0,0,0,1,0,0,5,0,43
+14,,0,0,0,1,0,0,10,0,44
+15,You must be at least level 25 to enter.,0,0,0,1,0,0,5,0,47
+16,You must be at least level 15 to enter.,0,0,0,1,0,0,5,0,48
+17,You must be at least level 30 to enter.,0,0,0,1,0,0,5,0,70
+18,You must be at least level 19 to enter.,0,0,0,1,0,0,5,0,90
+19,You must be at least level 45 to enter.,0,0,0,1,0,0,5,0,109
+20,You must be at least level 35 to enter.,0,0,0,1,0,0,5,0,129
+21,,0,0,0,9,0,0,40,0,169
+22,You must be at least level 20 to enter.,0,0,0,1,0,0,5,0,189
+23,You must be at least level 39 to enter.,0,0,0,1,0,0,5,0,209
+24,You must be at least level 48 to enter.,0,0,0,1,0,0,5,0,229
+25,You must be at least level 42 to enter.,0,0,0,1,0,0,5,0,230
+26,You must be level 80 and in a raid group to enter.,0,32,0,3,19,2,10,0,249
+27,You must be at least level 65 to enter.,0,0,0,1,0,0,5,0,269
+28,You must be at least level 33 to enter.,0,0,0,1,0,0,5,0,289
+30,You must be at least level 37 to enter.,0,0,0,1,0,0,5,0,329
+31,You must be at least level 25 to enter.,0,0,0,1,0,0,5,0,349
+32,,0,0,0,1,0,0,0,0,369
+33,You must be at least level 10 to enter.,0,0,0,1,0,0,5,0,389
+34,You must be at least level 50 to enter.,0,32,0,9,0,2,40,0,409
+35,You must be at least level 31 to enter.,0,0,0,1,0,0,5,0,429
+38,,0,0,0,1,0,0,0,0,451
+46,You must be level 80 and in a raid group to enter.,0,32,0,3,3,2,10,0,533
+47,You must be at least level 70 to enter.,0,32,0,4,0,2,25,0,534
+48,You must be at least level 65 to enter.,0,0,0,1,0,0,5,0,540
+49,You must be at least level 58 to enter.,0,0,0,1,0,0,5,0,542
+50,You must be at least level 57 to enter.,0,0,0,1,0,0,5,0,543
+51,You must be at least level 70 to enter.,0,32,0,4,0,2,25,0,544
+52,You must be at least level 65 to enter.,0,0,0,1,0,0,5,0,545
+53,You must be at least level 60 to enter.,0,0,0,1,0,0,5,0,546
+54,You must be at least level 59 to enter.,0,0,0,1,0,0,5,0,547
+55,You must be at least level 70 to enter.,0,32,0,4,0,2,25,0,548
+56,You must be at least level 70 to enter.,0,32,0,4,0,2,25,0,550
+57,You must be at least level 65 to enter.,0,0,0,1,0,0,5,0,552
+58,You must be at least level 65 to enter.,0,0,0,1,0,0,5,0,553
+59,You must be at least level 65 to enter.,0,0,0,1,0,0,5,0,554
+60,You must be at least level 65 to enter.,0,0,0,1,0,0,5,0,555
+61,You must be at least level 63 to enter.,0,0,0,1,0,0,5,0,556
+62,You must be at least level 61 to enter.,0,0,0,1,0,0,5,0,557
+63,You must be at least level 62 to enter.,0,0,0,1,0,0,5,0,558
+65,You must be at least level 63 to enter.,0,0,0,1,0,0,5,0,560
+68,You must be at least level 70 to enter.,0,32,0,4,0,2,25,0,565
+70,Zul'Aman is only available as a Heroic Difficulty level 85 Cataclysm dungeon.,0,32,0,1,0,3,5,0,568
 71,,0,0,0,0,0,0,0,0,571
 73,,0,0,0,0,0,0,0,0,573
-74,You must be at least level 65 to enter.,0,0,1,0,0,5,0,0,574
-75,,0,0,1,0,0,5,0,0,575
-76,You must be at least level 66 to enter.,0,0,1,0,0,5,0,0,576
-77,You must be at least level 75 to enter.,0,0,1,0,0,5,0,0,578
-78,You must be at least level 70 to enter.,0,0,4,0,2,25,0,32,580
-81,You must be at least level 65 to enter.,0,0,1,0,0,5,0,0,585
+74,You must be at least level 67 to enter.,0,0,0,1,0,0,5,0,574
+75,,0,0,0,1,0,0,5,0,575
+76,You must be at least level 68 to enter.,0,0,0,1,0,0,5,0,576
+77,You must be at least level 75 to enter.,0,0,0,1,0,0,5,0,578
+78,You must be at least level 70 to enter.,0,32,0,4,0,2,25,0,580
+81,You must be at least level 65 to enter.,0,0,0,1,0,0,5,0,585
 88,,0,0,0,0,0,0,0,0,592
 90,,0,0,0,0,0,0,0,0,594
-91,You must be at least level 75 to enter.,0,0,1,0,0,5,0,0,595
+91,You must be at least level 75 to enter.,0,0,0,1,0,0,5,0,595
 92,,0,0,0,0,0,0,0,0,596
-93,,0,0,0,0,0,0,0,0,597
-95,You must be at least level 72 to enter.,0,0,1,0,0,5,0,0,599
-96,You must be at least level 69 to enter.,0,0,1,0,0,5,0,0,600
-97,You must be at least level 67 to enter.,0,0,1,0,0,5,0,0,601
-98,You must be at least level 75 to enter.,0,0,1,0,0,5,0,0,602
-99,You must be level 80 and in a raid group to enter.,0,0,3,0,2,10,0,32,603
-100,You must be at least level 71 to enter.,0,0,1,0,0,5,0,0,604
+95,You must be at least level 74 to enter.,0,0,0,1,0,0,5,0,599
+96,You must be at least level 71 to enter.,0,0,0,1,0,0,5,0,600
+97,You must be at least level 69 to enter.,0,0,0,1,0,0,5,0,601
+98,You must be at least level 75 to enter.,0,0,0,1,0,0,5,0,602
+99,You must be level 80 and in a raid group to enter.,0,32,0,3,5,2,10,0,603
+100,You must be at least level 73 to enter.,0,0,0,1,0,0,5,0,604
 101,,0,0,0,0,0,0,0,0,605
 102,,0,0,0,0,0,0,0,0,606
-104,You must be at least level 70 to enter.,0,0,1,0,0,5,0,0,608
+104,You must be at least level 72 to enter.,0,0,0,1,0,0,5,0,608
 105,,0,0,0,0,0,0,0,0,609
 106,,0,0,0,0,0,0,0,0,610
 107,,0,0,0,0,0,0,0,0,612
 108,,0,0,0,0,0,0,0,0,613
 109,,0,0,0,0,0,0,0,0,614
-110,You must be level 80 and in a raid group to enter.,0,0,3,3,2,10,0,32,615
-111,You must be at least level 80 and in a raid group to enter.,0,0,3,3,2,10,0,32,616
+110,You must be level 80 and in a raid group to enter.,0,32,0,3,3,2,10,0,615
+111,You must be at least level 80 and in a raid group to enter.,0,32,0,3,3,2,10,0,616
 112,,0,0,0,0,0,0,0,0,617
 113,,0,0,0,0,0,0,0,0,618
-114,You must be at least level 68 to enter.,0,0,1,0,0,5,0,0,619
+114,You must be at least level 70 to enter.,0,0,0,1,0,0,5,0,619
 115,,0,0,0,0,0,0,0,0,620
 116,,0,0,0,0,0,0,0,0,621
 117,,0,0,0,0,0,0,0,0,622
 118,,0,0,0,0,0,0,0,0,623
-119,"You must be at least level 80, in control of Wintergrasp and in a raid group to enter.",0,0,3,3,2,10,0,32,624
+119,"You must be at least level 80, in control of Wintergrasp and in a raid group to enter.",0,32,0,3,3,2,10,0,624
 121,,0,0,0,0,0,0,0,0,641
 122,,0,0,0,0,0,0,0,0,642
 123,,0,0,0,0,0,0,0,0,647
-124,You must be at least level 80 and in a raid group to enter.,0,0,3,0,2,10,0,32,649
-125,You must be at least level 75 to enter.,0,0,1,0,0,5,0,0,650
-128,You must be level 80 and in a raid group to enter.,0,0,4,4,2,25,0,0,533
-129,You must be at least level 65 to enter on Heroic Difficulty.,0,0,2,0,1,5,0,0,540
-130,You must be at least level 58 to enter on Heroic Difficulty.,0,0,2,0,1,5,0,0,542
-131,You must be at least level 57 to enter on Heroic Difficulty.,0,0,2,0,1,5,0,0,543
-132,You must be at least level 65 to enter on Heroic Difficulty.,0,0,2,0,1,5,0,0,545
-133,You must be at least level 60 to enter on Heroic Difficulty.,0,0,2,0,1,5,0,0,546
-134,You must be at least level 59 to enter on Heroic Difficulty.,0,0,2,0,1,5,0,0,547
-135,You must be at least level 65 to enter on Heroic Difficulty.,0,0,2,0,1,5,0,0,552
-136,You must be at least level 65 to enter on Heroic Difficulty.,0,0,2,0,1,5,0,0,553
-137,You must be at least level 65 to enter on Heroic Difficulty.,0,0,2,0,1,5,0,0,554
-138,You must be at least level 65 to enter on Heroic Difficulty.,0,0,2,0,1,5,0,0,555
-139,You must be at least level 63 to enter on Heroic Difficulty.,0,0,2,0,1,5,0,0,556
-140,You must be at least level 61 to enter on Heroic Difficulty.,0,0,2,0,1,5,0,0,557
-141,You must be at least level 62 to enter on Heroic Difficulty.,0,0,2,0,1,5,0,0,558
-142,You must be at least level 63 to enter on Heroic Difficulty.,0,0,2,0,1,5,0,0,560
-143,Heroic Difficulty requires you to be level 80.,0,0,2,0,1,5,0,0,574
-144,Heroic Difficulty requires you to be level 80.,0,0,2,0,1,5,0,0,575
-145,Heroic Difficulty requires you to be level 80.,0,0,2,0,1,5,0,0,576
-146,Heroic Difficulty requires you to be level 80.,0,0,2,0,1,5,0,0,578
-147,You must be at least level 65 to enter on Heroic Difficulty.,0,0,2,0,1,5,0,0,585
-148,Heroic Difficulty requires you to be level 80.,0,0,2,0,1,5,0,0,595
-150,Heroic Difficulty requires you to be level 80.,0,0,2,0,1,5,0,0,599
-151,Heroic Difficulty requires you to be level 80.,0,0,2,0,1,5,0,0,600
-152,Heroic Difficulty requires you to be level 80.,0,0,2,0,1,5,0,0,601
-153,Heroic Difficulty requires you to be level 80.,0,0,2,0,1,5,0,0,602
-154,You must be level 80 and in a raid group to enter.,0,0,4,0,2,25,0,0,603
-155,Heroic Difficulty requires you to be level 80.,0,0,2,0,1,5,0,0,604
-156,Heroic Difficulty requires you to be level 80.,0,0,2,0,1,5,0,0,608
-157,You must be level 80 and in a raid group to enter.,0,0,4,4,2,25,0,0,615
-158,You must be at least level 80 and in a raid group to enter.,0,0,4,4,2,25,0,0,616
-159,Heroic Difficulty requires you to be level 80.,0,0,2,0,1,5,0,0,619
-160,"You must be at least level 80, in control of Wintergrasp and in a raid group to enter.",0,0,4,4,2,25,0,0,624
-161,You must be at least level 80 and in a raid group to enter.,0,0,4,0,2,25,0,0,649
-162,Heroic Difficulty requires you to be level 80.,0,0,2,0,1,5,0,0,650
-221,You must be at least level 80 and in a raid group to enter.,0,0,5,0,2,10,0,0,649
-222,You must be at least level 80 and in a raid group to enter.,0,0,6,0,2,25,0,0,649
-281,,0,0,0,0,0,0,0,0,628
-301,,0,0,0,0,0,0,0,0,607
-323,You must be level 80 and in a raid group to enter.,0,0,4,0,2,25,0,0,249
-341,"You must complete the quest ""Deliverance from the Pit"" before entering the Halls of Reflection.",0,0,1,0,0,5,0,0,668
-342,"You must complete the quest ""Deliverance from the Pit"" and be level 80 before entering the Heroic difficulty of the Halls of Reflection.",0,0,2,0,1,5,0,0,668
-481,You must be at least level 75 to enter.,0,0,1,0,0,5,0,0,632
-482,Heroic Difficulty requires you to be level 80.,0,0,2,0,1,5,0,0,632
-483,"You must complete the quest ""Echoes of Tortured Souls"" before entering the Pit of Saron.",0,0,1,0,0,5,0,0,658
-484,"You must complete the quest ""Echoes of Tortured Souls"" and be level 80 before entering the Heroic difficulty of the Pit of Saron.",0,0,2,0,1,5,0,0,658
-485,You must be at least level 80 and in a raid group to enter.,0,0,3,0,2,10,0,32,631
-486,You must be at least level 80 and in a raid group to enter.,0,0,4,0,2,25,0,0,631
-487,You must have defeated The Lich King in the 10 Player raid before attempting 10 Player Heroic difficulty.,0,0,5,0,2,10,0,0,631
-488,You must have defeated The Lich King in the 25 Player raid before attempting 25 Player Heroic difficulty.,0,0,6,0,2,25,0,0,631
+124,You must be at least level 80 and in a raid group to enter.,0,32,0,3,5,2,10,0,649
+125,You must be at least level 75 to enter.,0,0,0,1,0,0,5,0,650
+128,You must be level 80 and in a raid group to enter.,0,0,0,4,4,2,25,0,533
+129,You must be at least level 65 to enter on Heroic Difficulty.,0,0,0,2,0,1,5,0,540
+130,You must be at least level 58 to enter on Heroic Difficulty.,0,0,0,2,0,1,5,0,542
+131,You must be at least level 57 to enter on Heroic Difficulty.,0,0,0,2,0,1,5,0,543
+132,You must be at least level 65 to enter on Heroic Difficulty.,0,0,0,2,0,1,5,0,545
+133,You must be at least level 60 to enter on Heroic Difficulty.,0,0,0,2,0,1,5,0,546
+134,You must be at least level 59 to enter on Heroic Difficulty.,0,0,0,2,0,1,5,0,547
+135,You must be at least level 65 to enter on Heroic Difficulty.,0,0,0,2,0,1,5,0,552
+136,You must be at least level 65 to enter on Heroic Difficulty.,0,0,0,2,0,1,5,0,553
+137,You must be at least level 65 to enter on Heroic Difficulty.,0,0,0,2,0,1,5,0,554
+138,You must be at least level 65 to enter on Heroic Difficulty.,0,0,0,2,0,1,5,0,555
+139,You must be at least level 63 to enter on Heroic Difficulty.,0,0,0,2,0,1,5,0,556
+140,You must be at least level 61 to enter on Heroic Difficulty.,0,0,0,2,0,1,5,0,557
+141,You must be at least level 62 to enter on Heroic Difficulty.,0,0,0,2,0,1,5,0,558
+142,You must be at least level 63 to enter on Heroic Difficulty.,0,0,0,2,0,1,5,0,560
+143,Heroic Difficulty requires you to be level 80.,0,0,0,2,0,1,5,0,574
+144,Heroic Difficulty requires you to be level 80.,0,0,0,2,0,1,5,0,575
+145,Heroic Difficulty requires you to be level 80.,0,0,0,2,0,1,5,0,576
+146,Heroic Difficulty requires you to be level 80.,0,0,0,2,0,1,5,0,578
+147,You must be at least level 65 to enter on Heroic Difficulty.,0,0,0,2,0,1,5,0,585
+148,Heroic Difficulty requires you to be level 80.,0,0,0,2,0,1,5,0,595
+150,Heroic Difficulty requires you to be level 80.,0,0,0,2,0,1,5,0,599
+151,Heroic Difficulty requires you to be level 80.,0,0,0,2,0,1,5,0,600
+152,Heroic Difficulty requires you to be level 80.,0,0,0,2,0,1,5,0,601
+153,Heroic Difficulty requires you to be level 80.,0,0,0,2,0,1,5,0,602
+154,You must be level 80 and in a raid group to enter.,0,0,0,4,6,2,25,0,603
+155,Heroic Difficulty requires you to be level 80.,0,0,0,2,0,1,5,0,604
+156,Heroic Difficulty requires you to be level 80.,0,0,0,2,0,1,5,0,608
+157,You must be level 80 and in a raid group to enter.,0,0,0,4,4,2,25,0,615
+158,You must be at least level 80 and in a raid group to enter.,0,0,0,4,4,2,25,0,616
+159,Heroic Difficulty requires you to be level 80.,0,0,0,2,0,1,5,0,619
+160,"You must be at least level 80, in control of Wintergrasp and in a raid group to enter.",0,0,0,4,4,2,25,0,624
+161,You must be at least level 80 and in a raid group to enter.,0,0,0,4,6,2,25,0,649
+162,Heroic Difficulty requires you to be level 80.,0,0,0,2,0,1,5,0,650
+221,You must be at least level 80 and in a raid group to enter.,0,0,0,5,9,2,10,0,649
+222,You must be at least level 80 and in a raid group to enter.,0,0,0,6,10,2,25,0,649
+323,You must be level 80 and in a raid group to enter.,0,0,0,4,20,2,25,0,249
+341,"You must complete the quest ""Deliverance from the Pit"" before entering the Halls of Reflection.",0,0,0,1,0,0,5,0,668
+342,"You must complete the quest ""Deliverance from the Pit"" and be level 80 before entering the Heroic difficulty of the Halls of Reflection.",0,0,0,2,0,1,5,0,668
+343,You must be at least level 85 and in a raid group to enter.,0,0,0,3,0,0,10,0,669
+344,You must be at least level 85 and in a raid group to enter.,0,0,0,4,0,0,25,0,669
+345,You must be at least level 83 to enter.,0,0,0,1,0,0,5,0,670
+346,Heroic Difficulty requires you to be level 85.,0,0,0,2,0,0,5,0,670
+347,You must be at least level 85 and in a raid group to enter.,0,0,0,3,0,0,10,0,671
+348,You must be at least level 85 and in a raid group to enter.,0,0,0,4,0,0,25,0,671
+481,You must be at least level 75 to enter.,0,0,0,1,0,0,5,0,632
+482,Heroic Difficulty requires you to be level 80.,0,0,0,2,0,1,5,0,632
+483,"You must complete the quest ""Echoes of Tortured Souls"" before entering the Pit of Saron.",0,0,0,1,0,0,5,0,658
+484,"You must complete the quest ""Echoes of Tortured Souls"" and be level 80 before entering the Heroic difficulty of the Pit of Saron.",0,0,0,2,0,1,5,0,658
+485,You must be at least level 80 and in a raid group to enter.,0,32,0,3,11,2,10,0,631
+486,You must be at least level 80 and in a raid group to enter.,0,0,0,4,12,2,25,0,631
+487,You must have defeated The Lich King in the 10 Player raid before attempting 10 Player Heroic difficulty.,0,0,0,5,13,2,10,0,631
+488,You must have defeated The Lich King in the 25 Player raid before attempting 25 Player Heroic difficulty.,0,0,0,6,14,2,25,0,631
 641,,0,0,0,0,0,0,0,0,713
 642,,0,0,0,0,0,0,0,0,712
+661,,0,0,0,0,0,0,0,0,646
+662,,0,0,0,0,0,0,0,0,638
+663,,0,0,0,0,0,0,0,0,654
+664,,0,0,0,0,0,0,0,0,648
 701,,0,0,0,0,0,0,0,0,718
+721,,0,0,0,0,0,0,0,0,719
+741,You must be at least level 85 and in a raid group to enter.,0,0,0,3,0,0,10,0,720
+742,,0,0,0,0,0,0,0,0,721
 744,,0,0,0,0,0,0,0,0,723
-750,You must be level 80 and in a raid group to enter.,0,0,3,0,2,10,0,32,724
-751,You must be level 80 and in a raid group to enter.,0,0,4,0,2,25,0,0,724
-752,You must be level 80 and in a raid group to enter.,0,0,5,0,2,10,0,0,724
-753,You must be level 80 and in a raid group to enter.,0,0,6,0,2,25,0,0,724
-3065,,0,0,9,0,2,40,0,32,469
-3066,,0,0,9,0,2,40,0,32,531
+745,You must be at least level 77 to enter.,0,0,0,1,0,0,5,0,643
+746,You must be at least level 83 to enter.,0,0,0,1,0,0,5,0,644
+747,You must be at least level 77 and have the Cataclysm expansion installed to enter.,0,0,0,1,0,0,5,0,645
+748,Heroic Difficulty requires you to be level 85.,0,0,0,2,0,0,5,0,644
+749,Heroic Difficulty requires you to be level 85.,0,0,0,2,0,0,5,0,645
+750,You must be level 80 and in a raid group to enter.,0,32,0,3,15,2,10,0,724
+751,You must be level 80 and in a raid group to enter.,0,0,0,4,16,2,25,0,724
+752,You must be level 80 and in a raid group to enter.,0,0,0,5,17,2,10,0,724
+753,You must be level 80 and in a raid group to enter.,0,0,0,6,18,2,25,0,724
+754,You must be at least level 80 to enter.,0,0,0,1,0,0,5,0,725
+755,Heroic Difficulty requires you to be level 85.,0,0,0,2,0,0,5,0,725
+756,,0,0,0,0,0,0,0,0,726
+757,,0,0,0,0,0,0,0,0,727
+768,,0,0,0,0,0,0,0,0,730
+769,,0,0,0,0,0,0,0,0,731
+770,,0,0,0,0,0,0,0,0,732
+773,You must have completed the Blackwing Descent achievement before attempting Heroic difficulty.,0,0,0,5,0,0,10,0,669
+774,You must have completed the Blackwing Descent achievement before attempting Heroic difficulty.,0,0,0,6,0,0,25,0,669
+775,,0,0,0,0,0,0,0,0,728
+776,,0,0,0,0,0,0,0,0,736
+781,,0,0,0,0,0,0,0,0,674
+782,,0,0,0,0,0,0,0,0,738
+783,,0,0,0,0,0,0,0,0,739
+784,,0,0,0,0,0,0,0,0,740
+785,,0,0,0,0,0,0,0,0,741
+786,,0,0,0,0,0,0,0,0,651
+787,,0,0,0,0,0,0,0,0,742
+788,,0,0,0,0,0,0,0,0,743
+792,,0,0,0,0,0,0,0,0,746
+793,,0,0,0,0,0,0,0,0,747
+794,,0,0,0,0,0,0,0,0,656
+795,,0,0,0,0,0,0,0,0,655
+796,,0,0,0,0,0,0,0,0,660
+797,,0,0,0,0,0,0,0,0,748
+800,You must be at least level 80 to enter.,0,0,0,1,0,0,5,0,657
+801,,0,0,0,0,0,0,0,0,749
+802,,0,0,0,0,0,0,0,0,750
+803,,0,0,0,0,0,0,0,0,751
+804,,0,0,0,0,0,0,0,0,752
+805,,0,0,0,0,0,0,0,0,753
+806,Heroic Difficulty requires you to be level 85.,0,0,0,2,0,0,5,0,643
+809,You must be at least level 85 and in a raid group to enter.,0,0,0,3,0,0,10,0,754
+810,You must be at least level 85 and in a raid group to enter.,0,0,0,4,0,0,25,0,754
+813,"You must be at least level 85, in control of Tol Barad and in a raid group to enter.",0,0,0,3,0,0,10,0,757
+814,"You must be at least level 85, in control of Tol Barad and in a raid group to enter.",0,0,0,4,0,0,25,0,757
+816,You must be at least level 83 to enter.,0,0,0,1,0,0,5,0,755
+817,Heroic Difficulty requires you to be level 85.,0,0,0,2,0,0,5,0,657
+818,,0,0,0,0,0,0,0,0,759
+819,,0,0,0,0,0,0,0,0,760
+820,,0,0,0,0,0,0,0,0,761
+821,Heroic Difficulty requires you to be level 85.,0,0,0,2,0,0,5,0,755
+822,,0,0,0,0,0,0,5,0,755
+823,You must have completed The Bastion of Twilight achievement before attempting Heroic difficulty.,0,0,0,5,0,0,10,0,671
+824,You must have completed The Bastion of Twilight achievement before attempting Heroic difficulty.,0,0,0,6,0,0,25,0,671
+827,,0,0,0,0,0,0,0,0,762
+828,,0,0,0,0,0,0,0,0,763
+829,Heroic Difficulty requires you to be level 85.,0,0,0,2,0,0,5,0,36
+830,,0,0,0,0,0,0,0,0,36
+831,You must have completed the Throne of the Four Winds achievement before attempting Heroic difficulty.,0,0,0,5,0,0,10,0,754
+832,You must have completed the Throne of the Four Winds achievement before attempting Heroic difficulty.,0,0,0,6,0,0,25,0,754
+835,,0,0,0,0,0,0,0,0,764
+836,,0,0,0,1,0,0,5,0,734
+837,,0,0,0,2,0,0,5,0,734
+838,,0,0,0,1,0,0,5,0,734
+839,Heroic Difficulty requires you to be level 85.,0,0,0,2,0,0,5,0,33
+840,,0,0,0,0,0,0,0,0,765
+841,,0,0,0,0,0,0,0,0,766
+842,,0,0,0,0,0,0,0,0,767
+1579,You must be at least level 85 and in a raid group to enter.,0,0,0,4,0,0,25,0,720
+1580,,0,0,0,0,0,0,0,0,721
+1599,,0,0,0,0,0,0,0,0,189
+1611,,0,0,0,0,0,0,0,0,309
+1645,Zul'Gurub is only available as a Heroic Difficulty level 85 dungeon.,0,0,0,1,0,0,5,0,859
+1646,Heroic Difficulty requires you to be level 85.,0,0,0,2,0,0,5,0,859
+1647,,0,0,0,0,0,0,0,0,728
+1649,,0,0,0,0,0,0,0,0,861
+1690,Heroic Difficulty requires level 85 to enter.,0,0,0,2,0,0,5,0,568
+1800,,0,0,0,0,0,0,0,0,930
+1801,,0,0,0,0,0,0,0,0,930
+1819,End Time is only available as a Heroic Difficulty level 85 dungeon.,0,0,0,1,0,0,5,0,938
+1820,Heroic Difficulty requires you to be level 85.,0,0,0,2,0,0,5,0,938
+1821,Well of Eternity is only available as a Heroic Difficulty level 85 dungeon.,0,0,0,1,0,0,5,0,939
+1822,Heroic Difficulty requires you to be level 85 and have earned the Heroic: End Time achievement.,0,0,0,2,0,0,5,0,939
+1823,Hour of Twilight is only available as a Heroic Difficulty level 85 dungeon.,0,0,0,1,0,0,5,0,940
+1824,Heroic Difficulty requires you to be level 85 and have earned the Heroic: Well of Eternity achievement.,0,0,0,2,0,0,5,0,940
+1846,,0,0,0,0,0,0,1,0,951
+1847,,0,0,0,0,0,0,0,0,951
+1861,You must have completed The Firelands achievement before attempting Heroic difficulty.,0,0,0,5,0,0,10,0,720
+1862,You must have completed The Firelands achievement before attempting Heroic difficulty.,0,0,0,6,0,0,25,0,720
+1875,You must be at least level 85 and in a raid group to enter.,0,0,0,3,0,0,10,0,967
+1876,You must be at least level 85 and in a raid group to enter.,0,0,0,4,0,0,25,0,967
+1877,,0,0,0,0,0,0,0,0,968
+1896,,0,0,0,0,0,0,0,0,974
+1902,,0,0,0,0,0,0,0,0,977
+1903,,0,0,0,0,0,0,0,0,977
+1923,,0,0,0,0,0,0,0,0,980
+1924,You must have completed the Destroyer's End achievement before attempting Heroic difficulty.,0,0,0,5,0,0,10,0,967
+1925,You must have completed the Destroyer's End achievement before attempting Heroic difficulty.,0,0,0,6,0,0,25,0,967
+1969,,0,0,0,0,0,0,0,0,727
+2025,,0,0,0,0,0,0,0,0,509
+2026,,0,0,0,0,0,0,0,0,509
+2027,,0,0,0,0,0,0,0,0,509
+2028,,0,0,0,0,0,0,0,0,531
+2029,,0,0,0,0,0,0,0,0,531
+2030,,0,0,0,0,0,0,0,0,531
+2031,,0,0,0,0,0,0,0,0,409
+2032,,0,0,0,0,0,0,0,0,409
+2033,,0,0,0,0,0,0,0,0,409
+2034,,0,0,0,0,0,0,0,0,469
+2035,,0,0,0,0,0,0,0,0,469
+2036,,0,0,0,0,0,0,0,0,469
+3065,,0,32,0,9,0,2,40,0,469
+3066,,0,32,0,9,0,2,40,0,531
 4358,,0,0,0,0,0,0,0,0,2118
-4432,,0,0,148,0,3,20,0,32,309
-4454,,0,0,148,0,3,20,0,32,509
+4432,,0,32,0,148,0,3,20,0,309
+4454,,0,32,0,148,0,3,20,0,509
 4500,,0,0,0,0,0,0,0,0,30
 4502,,0,0,0,0,0,0,0,0,489
 4503,,0,0,0,0,0,0,0,0,529
-4564,,0,0,9,0,4,40,0,0,249
+4564,,0,0,0,9,21,4,40,0,249
 4619,,0,0,0,0,0,0,0,0,1
 4620,,0,0,0,0,0,0,0,0,0
 4638,,0,0,0,0,0,0,0,0,449
@@ -166,50 +283,54 @@ ID,Message_lang,ItemContextPickerID,ContentTuningID,DifficultyID,LockID,ResetInt
 4830,,0,0,0,0,0,0,0,0,559
 4831,,0,0,0,0,0,0,0,0,566
 4832,,0,0,0,0,0,0,0,0,572
-4840,You must be at least level 70 to enter.,0,0,4,0,2,25,0,32,564
+4840,You must be at least level 70 to enter.,0,32,0,4,0,2,25,0,564
 4843,,0,0,0,0,0,0,0,0,530
-4844,,0,0,176,0,2,25,0,0,565
-4845,You must be at least level 70 to enter.,0,0,175,0,2,10,0,0,532
-4846,,0,0,176,0,2,25,0,0,544
-4847,,0,0,176,0,2,25,0,0,550
-4848,,0,0,176,0,2,25,0,0,548
-4851,,0,0,0,0,2,10,0,0,568
-4852,You must be at least level 65 to enter on Heroic Difficulty.,0,0,2,0,1,5,0,0,269
-4858,,0,0,3,0,2,10,0,32,532
-4859,,0,0,173,0,0,5,0,0,540
-4860,,0,0,174,0,1,5,0,0,540
-4861,,0,0,173,0,0,5,0,0,542
-4862,,0,0,174,0,1,5,0,0,542
-4863,,0,0,173,0,0,5,0,0,545
-4864,,0,0,174,0,1,5,0,0,545
-4865,,0,0,173,0,0,5,0,0,546
-4866,,0,0,174,0,1,5,0,0,546
-4867,,0,0,173,0,0,5,0,0,547
-4868,,0,0,174,0,1,5,0,0,547
-4869,,0,0,173,0,0,5,0,0,552
-4870,,0,0,174,0,1,5,0,0,552
-4871,,0,0,173,0,0,5,0,0,553
-4872,,0,0,174,0,1,5,0,0,553
-4873,,0,0,173,0,0,5,0,0,554
-4874,,0,0,174,0,1,5,0,0,554
-4875,,0,0,173,0,0,5,0,0,555
-4876,,0,0,174,0,1,5,0,0,555
-4877,,0,0,173,0,0,5,0,0,556
-4878,,0,0,174,0,1,5,0,0,556
-4879,,0,0,173,0,0,5,0,0,557
-4880,,0,0,174,0,1,5,0,0,557
-4881,,0,0,173,0,0,5,0,0,558
-4882,,0,0,174,0,1,5,0,0,558
-4883,,0,0,173,0,0,5,0,0,269
-4884,,0,0,174,0,1,5,0,0,269
-4885,,0,0,173,0,0,5,0,0,560
-4886,,0,0,174,0,1,5,0,0,560
-4887,,0,0,173,0,0,5,0,0,543
-4888,,0,0,174,0,1,5,0,0,543
-5024,,0,0,173,0,0,5,0,0,585
-5025,,0,0,174,0,1,5,0,0,585
+4844,,0,0,0,176,0,2,25,0,565
+4845,You must be at least level 70 to enter.,0,0,0,175,0,2,10,0,532
+4846,,0,0,0,176,0,2,25,0,544
+4847,,0,0,0,176,0,2,25,0,550
+4848,,0,0,0,176,0,2,25,0,548
+4851,,0,0,0,0,0,2,10,0,568
+4852,You must be at least level 65 to enter on Heroic Difficulty.,0,0,0,2,0,1,5,0,269
+4858,,0,32,0,3,0,2,10,0,532
+4859,,0,0,0,173,0,0,5,0,540
+4860,,0,0,0,174,0,1,5,0,540
+4861,,0,0,0,173,0,0,5,0,542
+4862,,0,0,0,174,0,1,5,0,542
+4863,,0,0,0,173,0,0,5,0,545
+4864,,0,0,0,174,0,1,5,0,545
+4865,,0,0,0,173,0,0,5,0,546
+4866,,0,0,0,174,0,1,5,0,546
+4867,,0,0,0,173,0,0,5,0,547
+4868,,0,0,0,174,0,1,5,0,547
+4869,,0,0,0,173,0,0,5,0,552
+4870,,0,0,0,174,0,1,5,0,552
+4871,,0,0,0,173,0,0,5,0,553
+4872,,0,0,0,174,0,1,5,0,553
+4873,,0,0,0,173,0,0,5,0,554
+4874,,0,0,0,174,0,1,5,0,554
+4875,,0,0,0,173,0,0,5,0,555
+4876,,0,0,0,174,0,1,5,0,555
+4877,,0,0,0,173,0,0,5,0,556
+4878,,0,0,0,174,0,1,5,0,556
+4879,,0,0,0,173,0,0,5,0,557
+4880,,0,0,0,174,0,1,5,0,557
+4881,,0,0,0,173,0,0,5,0,558
+4882,,0,0,0,174,0,1,5,0,558
+4883,,0,0,0,173,0,0,5,0,269
+4884,,0,0,0,174,0,1,5,0,269
+4885,,0,0,0,173,0,0,5,0,560
+4886,,0,0,0,174,0,1,5,0,560
+4887,,0,0,0,173,0,0,5,0,543
+4888,,0,0,0,174,0,1,5,0,543
+5024,,0,0,0,173,0,0,5,0,585
+5025,,0,0,0,174,0,1,5,0,585
 5036,,0,0,0,0,0,0,0,0,723
-5051,,0,0,176,0,2,25,0,0,580
-5099,,0,0,0,0,0,5,0,0,2565
-5101,,0,0,0,0,0,5,0,0,2567
+5051,,0,0,0,176,0,2,25,0,580
+5099,,0,0,0,0,0,0,5,0,2565
+5101,,0,0,0,0,0,0,5,0,2567
 5130,,0,0,0,0,0,0,0,0,37
+5137,,0,0,0,175,7,2,10,0,603
+5138,,0,0,0,176,8,2,25,0,603
+5346,,0,0,0,0,0,0,0,0,597
+5468,,0,0,0,0,0,0,0,0,2755

@@ -1,7 +1,7 @@
 ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 1,Default,0,0,0,0,0
 2,Direct Damage - Spell,0,0,0,0,0
-4,Item - Combat Consumable (Potion),4,0,0,0,0
+4,Item - Combat Cons. (Potion),4,0,0,0,0
 11,Item - Food,0,0,0,0,0
 12,Healing - Spell,0,0,0,0,0
 17,Quick Buff (Resist) - Spell,0,0,0,0,0
@@ -11,7 +11,7 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 21,Quick Buff - Spell,0,0,0,0,0
 22,Quick Debuff - Spell,0,0,0,0,0
 23,Summoning,0,0,0,0,0
-24,Item - Combat Consumable (Aggressive),0,0,0,0,0
+24,Item - Combat Cons. (Aggressive),0,0,0,0,0
 25,Quick Heal - Spell,0,0,0,0,0
 26,Resurrection (Full),0,0,0,0,0
 27,Item - Scroll,0,0,0,0,0
@@ -96,7 +96,7 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 250,Blast Wave,0,0,0,0,0
 270,Kidney Shot,0,0,0,0,0
 290,Pyroblast,0,0,0,0,0
-310,Transmute - Alchemy,0,0,0,0,0
+310,Transmute - Alchemy,8,0,0,0,0
 330,Mount,0,0,0,0,0
 350,Inner Rage,0,0,0,0,0
 351,Ranged Weapon,2,0,0,0,0
@@ -119,7 +119,7 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 671,Desperate Prayer,0,0,0,0,0
 672,Conflagrate,0,0,0,0,0
 691,Devouring Plague,0,0,0,0,0
-731,Summon Infernal,0,0,0,0,0
+731,Summon Warlock Guardian,0,0,0,0,0
 751,Tree Form,0,0,0,0,0
 791,Item - Salt Shaker,0,0,0,0,0
 811,Divine Intervention,0,0,0,0,0
@@ -162,7 +162,7 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 1150,ShadowThunderstrike,0,0,0,0,0
 1151,Talent - DPS,0,0,0,0,0
 1152,Creature Special,0,0,0,0,0
-1153,Item - Combat Consumable (Non-Aggressive),0,0,0,0,0
+1153,Item - Combat Cons. (Non-Aggressive),0,0,0,0,0
 1154,Jewelcrafting - Cut Jewel,0,0,0,0,0
 1155,Arathi Basin Trinket,0,0,0,0,0
 1156,Reincarnation,0,0,0,0,0
@@ -260,7 +260,51 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 1249,Trap (Nature),0,0,0,0,0
 1250,Trap (Fire),0,0,0,0,0
 1251,Temporary Health,0,0,0,0,0
+1252,Goblin Rocket Belt,0,0,0,0,0
 1253,Horn of Winter,0,0,0,0,0
+1254,Stormstrike,0,0,0,0,0
+1255,Quest - Vehicle,0,0,0,0,0
+1256,Test - Ron's test,8,7,0,0,0
+1257,Stampeding Roar,0,0,0,0,0
+1258,Tree Climbing,0,0,0,0,0
+1259,Lava Lash/Fire Nova,0,0,0,0,0
+1260,Skull Bash,0,0,0,0,0
+1261,Warrior Shout Buffs,0,0,0,0,0
+1262,Ardent Defender,0,0,0,0,0
+1263,Inscription - Create Recipe,8,0,0,0,0
+1264,Crusader Strike,0,0,0,0,0
+1265,Heroic Strike,0,0,0,0,0
+1266,Fear (Warlock),0,0,0,0,0
+1267,Forged Documents,8,0,0,0,0
+1268,Priest - Archangel,0,0,0,0,0
+1269,Flame Orb,0,0,0,0,0
+1271,Soul Swap,0,0,0,0,0
+1272,Entangling Roots,0,0,0,0,0
+1273,Inscription - Forged Documents,8,0,0,0,0
+1274,Alchemy Research - Northrend,8,0,0,0,0
+1275,Inscription Research - Minor,8,0,0,0,0
+1276,Inscription Research - Northrend,8,0,0,0,0
+1277,Guild Page/Herald,0,0,0,0,0
+1278,Tailoring - Dreamcloth (Air),8,0,0,0,0
+1279,Tailoring - Dreamcloth (Water),8,0,0,0,0
+1280,Tailoring - Dreamcloth (Fire),8,0,0,0,0
+1281,Tailoring - Dreamcloth (Earth),8,0,0,0,0
+1282,Tailoring - Dreamcloth (Life),8,0,0,0,0
+1283,Engineering - Belt Enchantment,0,0,0,0,0
+1284,Cosmetic - Summon,0,0,0,0,0
+1285,Tailoring - Glacial Bag,8,0,0,0,0
+1286,Archaeology Survey,0,0,0,0,0
+1287,Blade Flurry,0,0,0,0,0
+1289,Last Stand,0,0,0,0,0
+1291,Jewelcrafting - Prism,8,0,0,0,0
+1298,Shield Wall,0,0,0,0,0
+1328,Tailoring - Dreamcloth (ALL),0,5,0,0,0
+1329,Rogue - Survival,0,0,0,0,0
+1330,Deadly Calm,0,0,0,0,0
+1335,Dragon Soul Legendary,0,0,0,0,0
+1347,Guild Banner,0,0,0,0,0
+1476,Item - On Use - Helm Visual,0,0,0,0,0
+1516,Toy Use Charges,0,0,30,0,0
 1928,Item - World Buffs Saver,1,0,0,0,0
 1939,Badge of Justice Grant,0,0,0,0,0
 1952,Enchanting,0,0,0,0,0

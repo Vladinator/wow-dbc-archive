@@ -25,12 +25,12 @@ ID,DisplayName_lang,VerboseName_lang,ClassID,SubClassID,AuctionHouseSortOrder,Pr
 25,Shield,Shields,4,6,0,5,0,0,0,-1
 26,Wand(OBSOLETE),,6,0,0,-1,0,3,0,-1
 27,Bolt(OBSOLETE),,6,1,0,-1,0,2,0,-1
-28,Arrow,,6,2,0,-1,0,0,0,-1
-29,Bullet,,6,3,0,-1,0,0,0,-1
+28,Arrow,,6,2,0,-1,0,2,0,-1
+29,Bullet,,6,3,0,-1,0,2,0,-1
 30,Quiver(OBSOLETE),,11,0,0,-1,0,7,0,-1
 31,Quiver(OBSOLETE),,11,1,0,-1,0,7,0,-1
-32,Quiver,,11,2,0,-1,0,4,0,-1
-33,Ammo Pouch,,11,3,0,-1,0,4,0,-1
+32,Quiver,,11,2,0,-1,0,6,0,-1
+33,Ammo Pouch,,11,3,0,-1,0,6,0,-1
 34,Thrown,Thrown,2,16,0,-1,16,0,1,-1
 35,Thrown(OBSOLETE),,6,4,0,-1,64,2,0,-1
 36,Red,,3,0,0,-1,0,1,0,-1
@@ -64,13 +64,13 @@ ID,DisplayName_lang,VerboseName_lang,ClassID,SubClassID,AuctionHouseSortOrder,Pr
 104,Enchanting,,9,8,0,-1,0,1,0,-1
 105,Fishing,,9,9,0,-1,0,1,0,-1
 106,Jewelcrafting,,9,10,0,-1,0,1,0,-1
-107,Soul Bag,,1,1,0,-1,0,4,0,-1
+107,Soul Bag,,1,1,0,-1,0,6,0,-1
 109,Herb Bag,,1,2,0,-1,0,0,0,-1
 110,Enchanting Bag,,1,3,0,-1,0,0,0,-1
 111,Engineering Bag,,1,4,0,-1,0,0,0,-1
-112,Libram,Librams,4,7,0,-1,0,0,0,-1
-113,Idol,Idols,4,8,0,-1,0,0,0,-1
-114,Totem,Totems,4,9,0,-1,0,0,0,-1
+112,Libram,Librams,4,7,0,-1,0,2,0,-1
+113,Idol,Idols,4,8,0,-1,0,2,0,-1
+114,Totem,Totems,4,9,0,-1,0,2,0,-1
 115,Jewelcrafting,,7,4,7,-1,0,1,0,-1
 116,Gem Bag,,1,5,0,-1,0,0,0,-1
 118,Mining Bag,,1,6,0,-1,0,0,0,-1
@@ -113,8 +113,12 @@ ID,DisplayName_lang,VerboseName_lang,ClassID,SubClassID,AuctionHouseSortOrder,Pr
 160,Warlock,Warlock,16,9,0,-1,0,0,0,-1
 161,Druid,Druid,16,11,0,-1,0,0,0,-1
 162,Death Knight,Death Knight,16,6,0,-1,0,0,0,-1
-163,Armor Enchantment,Armor Enchantment,7,14,13,-1,0,1,0,-1
-164,Weapon Enchantment,Weapon Enchantment,7,15,14,-1,0,1,0,-1
-165,Sigil,Sigils,4,10,0,-1,0,0,0,-1
+163,Item Enchantment,Item Enchantment,7,14,13,-1,0,1,0,-1
+164,Weapon Enchantment - Obsolete,Weapon Enchantment - Obsolete,7,15,0,-1,0,3,0,-1
+165,Sigil,Sigils,4,10,0,-1,0,2,0,-1
 167,Inscription Bag,,1,8,0,-1,0,0,0,-1
 168,Inscription,Inscription,9,11,0,-1,0,1,0,-1
+169,Hydraulic,,3,9,0,-1,0,2,0,-1
+170,Cogwheel,,3,10,0,-1,0,0,0,-1
+171,Tackle Box,,1,9,0,-1,0,0,0,-1
+173,Relic,,4,11,0,-1,0,0,0,-1
