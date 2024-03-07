@@ -18872,7 +18872,7 @@ Cooldowns increased by $/1000;s1 sec."
 24855,,Teaches you how to craft Spitfire Bracers.,
 24856,,Teaches you how to craft Spitfire Gauntlets.,
 24857,,"Blasts an enemy with Arcane magic, inflicting normal damage plus $s2 and knocking the enemy back.",
-24858,Shapeshift,"Transforms the Druid into Moonkin Form.  While in this form the armor contribution from items is increased by $24905s1% and all party members within $24907a1 yards have their spell critical chance increased by $24907s1%.  The Moonkin can only cast Balance spells while shapeshifted.
+24858,Shapeshift,"Transforms the Druid into Moonkin Form.  While in this form the armor contribution from items is increased by $24905s1%$?s436895[, Moonfire costs $443359s2% less mana and deals $443359s3% more damage over time,][] and all party members within $24907a1 yards have their spell critical chance increased by $24907s1%.  $?s436895[The Moonkin cannot cast healing spells while shapeshifted.][The Moonkin can only cast Balance spells while shapeshifted.]
 
 The act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.",Immune to Polymorph effects.  Armor contribution from items is increased by $24905s1%.
 24859,,Teaches you how to craft a Spitfire Breastplate.,
@@ -23405,7 +23405,7 @@ While you know this ability, the threat bonus from Righteous Fury is increased t
 407653,,"Strikes an enemy with a lightning bolt that arcs to another nearby enemy. The spell affects up to $x1 targets, causing Nature damage to each.",Static energy fills the air around you.
 407667,,"Strikes an enemy with a lightning bolt that forks to all nearby targets, causing Nature damage to each.",
 407669,,"Hurls a holy shield at the enemy, dealing ${$m1*$<damagepower>/100+0.091*$SPH+0.091*$AP} to ${$M1*$<damagepower>/100+0.091*$SPH+0.091*$AP} Holy damage, Dazing them and then jumping to additional nearby enemies.  Affects $x1 total targets.  Lasts $d.",Dazed.
-407676,,An instant strike that causes $m2% weapon damage and regenerates $s3% of your maximum mana.,
+407676,,An instant strike that causes $m2% weapon damage as Holy and regenerates $s3% of your maximum mana.,
 407720,,"Strikes an enemy with a lightning bolt that arcs to another nearby enemy. The spell affects up to $x1 targets, causing Nature damage to each.",
 407736,,"Strikes an enemy with a lightning bolt that arcs to another nearby enemy. The spell affects up to $x1 targets, causing Nature damage to each.",
 407745,,"Strikes an enemy with a lightning bolt that forks to all nearby targets, causing Nature damage to each.",
@@ -23421,7 +23421,9 @@ Attack speed increased by $s2%."
 407798,,"Fills you with holy spirit for $d, causing each of your melee attacks to deal $407799s1% weapon damage to your target, but you lose health equal to $s4% of the damage inflicted. While this seal is active, your party and raid members within $407802a1 yards each gain mana equal to $s2% of damage you take from this seal.
 
 
-Unleashing this Seal's energy will judge an enemy, instantly causing $407803s1% weapon damage at the cost of health equal to $s4% of the damage inflicted.","Melee attacks deal additional damage to your target, but also damage you and generate mana for your party and raid."
+Unleashing this Seal's energy will judge an enemy, instantly causing $407803s1% weapon damage at the cost of health equal to $s4% of the damage inflicted.
+
+This ability's Seal and Judgement benefit from talents and effects that modify the Seal or Judgement of Seal of Righteousness.","Melee attacks deal additional damage to your target, but also damage you and generate mana for your party and raid."
 407799,,,
 407800,,Seal of Martyrdom damage also damages the Paladin.,
 407802,,Gaining mana from damage received by the Paladin.,
@@ -23511,8 +23513,8 @@ In addition, you regenerate $417051s2 rage every time you dodge while in Bear Fo
 408510,,"The caster is surrounded by $n globes of water, granting $s2% of your maximum mana per 5 sec.  When a spell, melee or ranged attack hits the caster, $408511s1% of maximum mana is restored to the caster. This expends one water globe.  Only one globe will activate every few seconds.  Lasts $d.  Only one Elemental Shield can be active on the Shaman at any one time.
 ",$s2% of maximum mana per 5 sec.  Attacks and spells used against you restore $408511s1% of your maximum mana.  $n charges.
 408511,,Gaining mana when hit while Water Shield is active.,
-408514,,"Protects the target with an earthen shield, reducing casting or channeling time lost when damaged by $s2%  and causing attacks to heal the shielded target for $m1.  This effect can only occur once every few seconds.  $n charges.  Lasts $d.  Earth Shield can only be placed on one target at a time and only one Elemental Shield can be active on a target at a time.
-",Reduces casting or channeling time lost when damaged by $s2% and attacks heal the shielded target for $s1.
+408514,,"Protects the target with an earthen shield, reducing casting or channeling time lost when damaged by $s2%  and causing attacks to heal the shielded target for ${$m1*$<healpower>/100}.  This effect can only occur once every few seconds.  $n charges. Lasts $d.  Earth Shield can only be placed on one target at a time and only one Elemental Shield can be active on a target at a time.
+",Reduces casting or channeling time lost when damaged by $s2% and attacks heal the shielded target for $w1.
 408519,,Healed by Earth Shield.,
 408524,,"Each time you Block, you regenerate mana equal to $408525s2% of your maximum mana and you gain Armor equal to $408525s1% of your shield's armor value, stacking up to $408525u times. You also always gain $s1% increased chance to Block and $s2% increased Block value.",
 408525,,"Increases armor by $s1% of your shield's Armor value for $d, stacking up to $u times.",Armor increased by $w1.
@@ -23527,7 +23529,7 @@ In addition, you regenerate $417051s2 rage every time you dodge while in Bear Fo
 408689,Rank 6,"Instantly shocks the target with concussive force, causing $s1 Nature damage.  It also interrupts spellcasting and prevents any spell in that school from being cast for $d.  Causes a high amount of threat and taunts the target.",Taunted.
 408690,Rank 7,"Instantly shocks the target with concussive force, causing $s1 Nature damage.  It also interrupts spellcasting and prevents any spell in that school from being cast for $d.  Causes a high amount of threat and taunts the target.",Taunted.
 408693,,"Taunts the target to attack you, but has no effect if the target is already attacking you.",Taunted.
-408696,,"Infuses the target with the spirit of an alpha wolf, increasing all threat generated by the target by $s1% for $d. Limit 1 target.",Increases threat generated by $s1%.
+408696,,"Infuses the target with the spirit of an alpha wolf, increasing all threat generated by the target by $s1% for $d. Limit 1 target. If cast on a target other than self, the Shaman also gains Loyal Beta, increasing Attack Power by $443320s1% for $d. A target cannot have both Spirit of the Alpha and Loyal Beta at the same time.",Increases threat generated by $s1%.
 408699,,"Your Ambush and Backstab hits unbalance your target, increasing the time between their melee attacks by $408699s1%, and reducing movement speed by $408699s2% for $408699d.","Time between melee attacks increased by $s1%.  
 Movement speed reduced by $s2%."
 408700,,"Your Ambush and Backstab hits unbalance your target, increasing the time between their melee attacks by $408699s1%, and reducing movement speed by $408699s2% for $408699d.",
@@ -23609,7 +23611,7 @@ Scorpid Sting - Attempts to Disarm the target for $409495d. This effect cannot o
 409554,,"You fire an explosive charge into the enemy target, dealing ${$RAP*0.14+$m1}-${$RAP*0.14+$M1} Fire damage. The charge will blast the target every second for an additional $d. Cooldown shared with Arcane Shot.",Taking Fire damage every second.
 409580,,"The hunter invokes the heart of a lion, increasing total stats by $409583s1% for all nearby allies, and increasing total stats for the Hunter by an additional $409580s1%.",Increases Hunter's stats by $s1%.
 409583,,"The hunter invokes the heart of a lion, increasing total stats by $409583s1% for all nearby allies, and increasing total stats for the Hunter by an additional $409580s1%.",Increases stats by $s1%.
-409687,,"Increases the damage done by your offhand weapon by $s1%, causes your Raptor Strike to strike with both weapons when you are dual-wielding, and Raptor Strike deals $s2% increased damage when you are wielding two weapons of the same type.",
+409687,,Increases the damage done by your offhand weapon by $s1% and causes your Raptor Strike to strike with both weapons when you are dual-wielding.,
 409691,Rank 1,A strong attack that increases melee damage by $s1.,
 409693,Rank 2,A strong attack that increases melee damage by $s1.,
 409748,Rank 3,A strong attack that increases melee damage by $s1.,
@@ -24144,8 +24146,8 @@ $s2% Health healed every $t2 sec."
 414621,,"You bash the target's skull, interrupting spellcasting and preventing any spell in that school from being cast for $d.",
 414644,,"Lacerates the enemy target, making them bleed for ${$<damagepower>*$m1/100*5} damage over $d plus $s2% weapon damage per existing application of Lacerate on the target. Causes a high amount of threat. This effect stacks up to $u times on the same target.",$w1 damage every $t sec
 414647,,,
-414677,,When you critically heal your target with any healing spell you plant a Living Seed on the target for $s1% of the amount healed. The Living Seed will bloom when the target is next attacked. Lasts $414680d.,
-414680,,,Healed for $w1 health the next time damage is taken.
+414677,,When you critically heal your target with any healing spell you plant a Living Seed on the target for $s1% of the amount healed. The Living Seed will bloom the next time the target takes damage or receives non-periodic healing. Lasts $414680d.,
+414680,,,Healed for $w1 health the next time damage is taken or non-periodic healing is received.
 414683,,Heals a friendly target for $s1.,
 414684,,Burns the enemy for ${$m2*$<damagepower>/100} to ${$M2*$<damagepower>/100} Nature damage and then an additional ${$m1*4*$<damagepower>/100} Nature damage over $d.,$w1 Nature damage every $t1 seconds.
 414687,Bear,Burns the enemy for ${$m2*$<damagepower>/100} to ${$M2*$<damagepower>/100} Nature damage and then an additional ${$m1*4*$<damagepower>/100} Nature damage over $d.,$w1 Nature damage every $t1 seconds.
@@ -24176,8 +24178,8 @@ $@spelldesc414689
 414783,,,
 414786,,,
 414791,,,
-414799,,Reduces the mana cost of Wrath by $s1% and each time you deal damage with Wrath you have a $h% chance for your next cast of Healing Touch within $414800d to be instant.,
-414800,,,Your next Healing Touch is instant cast.
+414799,,Reduces the mana cost of Wrath by $s1% and each time you deal damage with Wrath you have a $h% chance for your next cast of Healing Touch within $414800d to be instant and castable in any shapeshift form.,
+414800,,,Your next Healing Touch is instant cast and castable in any shapeshift form.
 414824,,,Attuned to the mysteries of nature
 414825,,,
 414826,,,
@@ -24209,7 +24211,7 @@ Healing spells reduced by $s2%."
 415073,Rank 6,Causes $s1 Holy damage to an enemy target and has $s2% chance to crit against Demons and Undead.,
 415076,,Exorcism can now be cast on any target and has $415068s2% increased critical strike chance against Undead and Demons.,
 415093,,,
-415100,,"Each time Flame Shock deals damage, it has a $h% chance to reset the cooldown on Lava Burst and Chain Lightning and make the next Lava Burst, Chain Heal, or Chain Lightning within $415105d instant. Additionally, you regenerate mana equal to $s2% of your Intellect every $440285t sec.
+415100,,"Each time Flame Shock deals damage, it has a $h% chance to reset the cooldown on Lava Burst and Chain Lightning and make the next Lava Burst, Chain Heal, or Chain Lightning within $415105d instant. Additionally, every $440285t sec you gain mana equal to $s2% of your Intellect.
 ",
 415105,,,"Your next Chain Lightning, Chain Heal,  or Lava Burst spell will be an instant cast spell."
 415112,,,
@@ -25078,7 +25080,7 @@ $@spelldesc425284",
 $@spellicon425294
 $@spelldesc425294",
 425321,,,
-425336,,"Reduces all damage you take by $s1% and you regenerate mana every second for $d. Mana regenerated per second is equal to $s2% of your Attack Power, $s3% of your spell power, or $s4% of your healing power, whichever value is greatest. Your party and raid members within $433255a1 yards will also receive $s5% of the mana you receive this way.",Damage taken reduced by $s1%. Regenerating $w2 mana every $t2 sec.
+425336,,Reduces all damage you take by $s1% and you regenerate mana equal to $s2% of your maximum mana every second for $d. Your party and raid members within $433255a1 yards will also receive $s5% of the mana you receive this way.,Damage taken reduced by $s1%. Regenerating $w2 mana every $t2 sec.
 425339,,Blast up to $i enemies in a cone in front of you for ${$<damagepower>*$m1/100+$m2/100*$AP} to ${$<damagepower>*$M1/100+$m2/100*$AP} Fire damage. This ability generates a high amount of threat. Flame Shock periodic damage has a $s3% chance to reset the cooldown on Molten Blast.,
 425340,,"Gain the Molten Blast ability:
 
@@ -26160,7 +26162,7 @@ $@spelldesc432264",
 432423,,,
 432439,,,
 432467,,,
-432639,,Improves your chance to hit with spells and with melee and ranged attacks by $s1%.,
+432639,,Improves your chance to hit with all spells and attacks by $s1%.,
 432773,,,
 433006,,,
 433008,,,
@@ -26470,7 +26472,7 @@ Movement speed reduced by $s2%."
 435960,,,
 435961,,Teaches you how to make a Hyperconductive Goldwap,
 435962,,,Filled with inspiration.
-435963,,Inflicts $s1 fire damage to those in the blast radius plus an additional $s3 nature damage every 2 sec for 10 seconds. Also reduces the movement speed of affected targets by 25% for $d. ,Irradiated. Suffering damage over time and movement is slowed.
+435963,,Inflicts $s1 fire damage to those in the blast radius plus an additional $443813s1 nature damage every 2 sec for 10 seconds. Also reduces the movement speed of affected targets by 25% for $d. ,
 435964,,,
 435965,,Teaches you how to make a bundle of High-Yield Radiation Bombs.,
 435966,,,
@@ -26517,7 +26519,7 @@ Armor increased by $s2%."
 436189,,,
 436204,,,
 436207,,,
-436239,,Improves your chance to get a critical strike with melee and ranged attacks and with spells by $s1%.,
+436239,,Improves your chance to get a critical strike with all spells and attacks by $s1%.,
 436278,,Strike the gong inside the Witherbark's den.,
 436284,,Increases the critical hit chance of Holy Shock by $s1%.,
 436285,,Increased Fist Weapons +$s1.,
@@ -26537,8 +26539,10 @@ Armor increased by $s2%."
 436346,,"A delayed explosion of blood and light occurs around the caster, causing $s1 Twilight damage to all targets within $a1 yards.",
 436347,,"Unleash a delayed explosion of blood and light, causing $436346s1 Twilight damage to all targets within $436346a1 yards.",
 436351,,,Zandalari magic protects you from the madness of the Blood Moon.
-436364,,"Each time you strike an enemy with a two-handed weapon, you gain $436365s1% attack speed with two-handed weapons for $436365d.",
-436365,,,Attack speed increased by $s1%.
+436364,,"Each time you strike an enemy with a two-handed weapon, you gain $436365s1% attack speed with two-handed weapons, $436365s2% increased Attack Power, and $436365s3% increased chance to hit with spells for $436365d. This effect is lost if you strike an enemy with a one-handed weapon.",
+436365,,,"Attack speed increased by $s1%.
+Attack Power increased by $s2%.
+Spell hit chance increased by $s3%."
 436367,,"Gain the Two-Handed Mastery ability:
 
 $@spellicon436364
@@ -26586,7 +26590,7 @@ Viper Sting - Instantly restores mana to you equal to $409494s1% of the total am
 
 Scorpid Sting - Attempts to Disarm the target for $409495d. This effect cannot occur more than once per 1 minute.",
 436398,,,
-436412,,"Empowered by the brave discoverers that preceded you, experience gains increased by $w1%.",Experience gains increased by $w1%.
+436412,,"Empowered by the brave discoverers that preceded you, experience gains increased by $w1%, and gold earned from quests also increases by $w3%.",Experience gains increased by $w1%. Gold earned from quests increased by $w3%.
 436413,,"A delayed explosion of blood and nature occurs around the caster, causing $s1 Plague damage to all targets within $a1 yards.",
 436414,,"Unleash a delayed explosion of blood and nature, causing $436413s1 Plague damage to all targets within $436413a1 yards.",
 436419,,,
@@ -26657,11 +26661,11 @@ Damage dealt increased."
 436513,,,I don't think I'm supposed to be here...
 436514,,,I don't think I'm supposed to be here...
 436515,,,I don't think I'm supposed to be here...
-436516,,"$?a436516[Heals a friendly target for ${$<healpower>*$436517m1/100} to ${$<healpower>*$436517M1/100}.]
+436516,,"$?a443369[Heals a friendly target for ${$<healpower>*$436517m1/100} to ${$<healpower>*$436517M1/100}.]
 
 [Fuses Arcane, Fire, and Frost magic to freeze chronomantic energy into a stored state for later use. You can hold this energy for up to $d before it combusts and expires. When unleashed, heals a friendly target for ${$<healpower>*$436517m1/100} to ${$<healpower>*$436517M1/100}.
 
-This spell is considered Arcane, Fire, and Frost for interactions with other spells, talents, and effects.]",Chronomantic energy ready to be unleashed. Instantly healing a friendly target for ${$<healpower>*$436517m1/100} to ${$<healpower>*$436517M1/100}.
+This spell is considered Arcane, Fire, and Frost for interactions with other spells, talents, and effects.]",
 436517,,Unleash stored chronomantic energy to instantly heal a friendly target for ${$<healpower>*$m1/100}to ${$<healpower>*$M1/100}.,
 436519,,,
 436520,,,
@@ -26771,7 +26775,7 @@ This spell is considered Arcane, Fire, and Frost for interactions with other spe
 437357,Rank 3,"Gain gneuromantic meditation, allowing $s% of your mana regeneration to continue while casting and increasing damage and healing done by spells by up to $s2 for $d seconds. ",Spell power increased and gaining mana while casting.
 437362,,"Inflicts hyperconductive shock, instantly dealing $s2 damage to yourself but also increasing your spell casting speed by $s% for $d. ",Casting speed increased.
 437367,,On a successful block the whirling razor-sharp gears on this shield inflict $s physical damage to the attacker and $437388s1 physical damage to the bearer.,
-437368,,Pull a hyperconductive coin from your belt and flip it: On a roll of heads you gain $437698s1% increased chance to crit with spells and melee attacks for the next $437698d seconds. On a roll of tails you gain $437699s1% movement speed for the next $437699d seconds. ,
+437368,,Pull a hyperconductive coin from your belt and flip it. Heads: gain $437698s1% increased critical strike chance with all spells and attacks for $437698d. Tails: gain $437699s1% movement speed for $437699d.,
 437377,,"Gain intense concentration, reducing movement speed by $s%, but also increasing your spell resistance to all schools by 50, and increasing melee attack speed by $s% for $d. ","Concentrating intently. Attack speed and spell resistance increased, but movement speed is reduced."
 437382,,"Gain reinforced willpower, preventing Silence, Interrupt effects, and spell pushback for $d.","Immune to Silence, Interrupt effects, and spell pushback."
 437388,,,
@@ -27066,3 +27070,8 @@ Mangle hits multiple targets."
 442233,,"Taunts the target to attack you, but has no effect if the target is already attacking you.",Taunted.
 442241,,,
 442299,,,
+443320,,,Increases attack power by $s1%.
+443359,Passive,,
+443369,,,Chronomantic energy ready to be unleashed. Instantly healing a friendly target for ${$<healpower>*$436517m1/100} to ${$<healpower>*$436517M1/100}.
+443630,,Removes all movement impairing effects and all effects which cause loss of control of your character.,
+443813,,,Irradiated. Suffering damage over time and movement is slowed.
