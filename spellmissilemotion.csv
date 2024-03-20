@@ -23653,6 +23653,14 @@ transFront = (1-progress) --accounts for weapon scale distances
  
 --transRight = sin(progress*180*2)*math.pow(progress,1.5)*10 ",0,1
 4502,Grow (.1 -> .3),scale = .1+(.3*progress),0,1
+4503,WoWLabs - BR: Missile - Missle Tumble,"local angle = 0
+local maxMagnitude = startDistance * .15
+local spinRate = 720
+
+modelPitch = time * spinRate
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude",0,1
 4504,"Parabola (Top Spin, Slower)","local angle = 0
 local maxMagnitude = startDistance * .15
 local spinRate = 360
@@ -24167,6 +24175,13 @@ transUp = parabola(height)
 
 modelPitch = time * parabola(spinRate)
 scale = 0.5",0,1
+4560,WoWLabs - BR: Spell - Offensive - Bouncing Bolt - 1. Missile,"local angle = 0
+local maxMagnitude = startDistance * .40
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+modelRoll = progress * 6000",0,0
 4561,10.0 Raid - Primalist - Broodkeeper - Flamebolt Volley Precast,"--gamma curve function
 local function parabola(m) return (4*m*(1-progress)*progress) end
 --rotation function
@@ -25620,3 +25635,8 @@ transRight = (1+3*rand3) * sin(time * 2 * 360) * ( 1 - progress ) * 2
 
 -- Start fast, end slower
 out_speedScale = 0.5 + (1.0 * (1.0 - progress) * (1.0 - progress))",0,1
+4706,Falls Straight Down - 100y,"local magnitude = 175
+
+transUp = magnitude * ( 1 - progress )
+transFront=distanceToImpactPos
+",0,1

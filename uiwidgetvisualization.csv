@@ -279,6 +279,7 @@ ID,Name,VisType,TextureKit,FrameTextureKit,SizeSetting,InAnimType,OutAnimType,Wi
 1665,TormentsAndBlessingTitleSpacing,8,0,0,400,0,0,0,0,0
 1667,WIDGET TEMPLATE - Spacer Vis,22,0,0,0,0,0,0,0,0
 1668,Spacer Vis (No Texture Kit),22,0,0,0,0,0,0,0,0
+1670,WoWLabs - BR: SpellDisplay,13,5520,5520,0,0,0,0,0,0
 1676,WIDGET TEMPLATE - UnitPowerBar Vis,23,5418,0,33,0,0,0,0,0
 1677,UnitPowerBar: Bastion Anima,23,5418,0,33,0,0,0,0,0
 1678,Status Bar: Cosmic Energy Bar,2,5326,5424,244,0,0,0,0,0
@@ -286,6 +287,7 @@ ID,Name,VisType,TextureKit,FrameTextureKit,SizeSetting,InAnimType,OutAnimType,Wi
 1682,9.2 Challenge Mode - Encrypted Relic Tracking Widget,13,5426,0,0,0,0,0,0,0
 1690,10.0 Obsidian Citadel - Turn In Location,2,5111,5425,0,0,0,0,0,0
 1691,Torghast Reward Star Icon,0,5218,0,0,0,0,0,0,0
+2085,WoWLabs - BR: Scoreboard - Text Row,21,5402,0,20,0,0,0,0,0
 2086,10.0 Centaur - Hunt - Scenario Header (OJF),11,5473,0,0,0,0,0,0,0
 2087,10.0 Tuskarr - Fishing - Waking Shores River - Net Status Bar Timer (LJS),2,5111,5425,0,0,0,3,0,0
 2088,Dragonriding Vigor Segments,15,0,5392,6,0,0,0,141,1
@@ -317,8 +319,9 @@ ID,Name,VisType,TextureKit,FrameTextureKit,SizeSetting,InAnimType,OutAnimType,Wi
 2117,Campaign Completion Window TextWithSubtext,25,0,0,430,0,0,0,0,0
 2118,Status Bar: Green (60% Scale),2,5113,5425,0,0,0,4,0,0
 2119,Nameplate Health Bar (60% scale),2,5113,5425,135,0,0,4,0,0
+2120,WoWLabs - Generic,8,0,0,0,0,0,0,0,0
 2121,10.0 Dragon Racing - Countdown Timer - Waking Shores,20,0,5473,0,0,0,0,0,0
-2122,TextWithSubtext,25,0,0,225,0,0,0,0,0
+2122,"TextWithSubtext: No Texture Kit, (225 Wide)",25,0,0,225,0,0,0,0,0
 2123,Dragonflight Campaign Complete Adventure Mode Unlocked,12,5504,0,200,0,0,0,0,0
 2124,Dragonflight Campaign Complete Aid the Factions,12,5505,0,200,0,0,0,0,0
 2125,10.0.5 - Primalist Tomorrow Event - Scenario - Currency Tracker,11,0,5473,0,0,0,0,0,0
@@ -331,8 +334,13 @@ ID,Name,VisType,TextureKit,FrameTextureKit,SizeSetting,InAnimType,OutAnimType,Wi
 2134,10.0.5 - Primalist Tomorrow Event - Capture Bar - Portal - Air - (LWB),1,5512,5509,0,0,0,0,0,0
 2143,10.1 Research Scenario - Scenario Header Timer - BIC,20,0,5473,0,0,0,0,0,0
 2144,10.1 Research Scenario - Score - BIC,2,0,5473,0,0,0,0,0,0
+2145,WoWLabs - BR: Header v2,11,0,5561,244,0,0,0,0,0
+2146,WoWLabs - BR: Timer v2,2,5395,5563,250,1,1,0,0,0
+2147,WoWLabs - BR: Timer - No Texture,2,0,0,220,0,0,0,0,0
 2148,10.1 Scheduler 02 - (STM),21,0,0,0,0,0,0,0,0
 2149,10.1 Scheduler 01 - (STM),2,5326,5425,0,0,0,0,0,0
+2150,Leave Warning Vis,25,0,0,300,0,0,0,0,0
+2151,TextureAndText Tab to swap,12,0,5565,0,0,0,0,0,0
 2152,10.0.7 Forbidden Reach Return - Envoy Quests Timer ,20,5111,5425,0,1,1,4,0,0
 2153,10.1 Research Scenario - Lobstrok Stomp Timer - BIC,20,0,5473,0,0,0,0,0,0
 2154,Research Scenario - Top Bar Timer,2,5169,5425,0,0,0,0,0,0
@@ -346,6 +354,7 @@ ID,Name,VisType,TextureKit,FrameTextureKit,SizeSetting,InAnimType,OutAnimType,Wi
 2163,10.1.5 Time Rifts - Top Center Reward,27,0,0,0,0,0,0,0,0
 2164,10.1.5 Time Rifts - In-World Progress Bar,2,5111,5425,0,0,0,0,0,0
 2165,Status Bar: Blue (Nameplate Scale),2,5169,5425,0,0,0,4,0,0
+2166,WoWLabs - BR: WorldLootObject,26,5520,5520,0,0,0,0,0,0
 2167,10.1 Niffen Cave Diving - Charge Count (JDA),13,5324,0,0,0,0,3,0,0
 2168,ItemDisplay: No Texture Kit,27,0,0,0,0,0,0,0,0
 2173,10.1.7 Heritage - Night Elf - Q07 - Wave Event Capture Bar,2,5169,5425,0,1,1,4,0,0
@@ -392,3 +401,19 @@ ID,Name,VisType,TextureKit,FrameTextureKit,SizeSetting,InAnimType,OutAnimType,Wi
 2316,10.2.5 Azerothian Archives - Top Center Reward,9,0,0,0,0,0,0,0,0
 2317,10.2.5 Public Event - Area POI - Reward Status - PRK,8,0,0,200,0,0,0,0,0
 2318,10.2.5 Public Event - Area POI - Vertical Spacer - PRK,22,0,0,200,0,0,0,0,0
+2320,WIDGET TEMPLATE - TextWithSubtext Vis,25,0,0,0,0,0,0,0,0
+2323,WIDGET TEMPLATE - MapPinAnimation Vis,26,5557,0,0,0,0,0,0,0
+2324,MapPinAnimation Blue Glow - Generic,26,5557,0,0,0,0,0,0,0
+2327,Status Bar: White (60% Scale),2,5326,5425,135,0,0,4,0,0
+2328,MapPinAnimation Green Glow - Generic,26,5558,0,0,0,0,0,0,0
+2331,MapPinAnimation Green Glow - Tuskaar Fish Hook,26,5558,0,-30,0,0,0,0,0
+2332,MapPinAnimation Green Glow - Area POI Horn,26,5558,0,-20,0,0,0,0,0
+2333,MapPinAnimation Green Glow - Elemental Storm Air,26,5558,0,-34,0,0,0,0,0
+2334,MapPinAnimation Green Glow - Elemental Storm Earth,26,5558,0,-25,0,0,0,0,0
+2335,MapPinAnimation Green Glow - Elemental Storm Fire,26,5558,0,-25,0,0,0,0,0
+2336,MapPinAnimation Green Glow - Elemental Storm Water,26,5558,0,-25,0,0,0,0,0
+2337,MapPinAnimation Green Glow - Elite World Quest,26,5558,0,35,0,0,0,0,0
+2338,MapPinAnimation Green Glow - Normal World Quest,26,5558,0,20,0,0,0,0,0
+2339,MapPinAnimation Green Glow - Elite Kill Vignette,26,5558,0,-10,0,0,0,0,0
+2341,WoWLabs - BR: Header (Lobby),11,0,5562,244,0,0,0,0,0
+2349,"HorizontalCurrencies: No Texture Kit, Fixed Width (262)",9,0,0,262,0,0,0,0,0

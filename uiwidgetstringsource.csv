@@ -5075,14 +5075,17 @@ ID,Value_lang,ReqID,ParentWidgetID
 9063,,39,1020
 9064,,41,1020
 9065,,42,1020
-9066,,212,3460
-9067,,277,3460
-9068,,19,3461
-9069,,208,3461
-9070,,273,3461
 9074,,19,3463
 9075,Cosmic Energy,273,3463
 9076,Collect Cosmic Energy from enemies empowered by it and standing in energy pools.,208,3463
+9086,|cffFFD100Storm Approaching,19,3467
+9087,,273,3467
+9088,,208,3467
+9089,|cffFFD100The Storm converges in:,19,3468
+9090,,273,3468
+9091,,208,3468
+9096,,212,3471
+9097,,277,3471
 9115,,19,3475
 9116,Stay near Kodah and keep the Mawsworn away to help power the matrix.,208,3475
 9117,Powering Up Matrix,273,3475
@@ -5124,6 +5127,10 @@ ID,Value_lang,ReqID,ParentWidgetID
 9341,,277,3508
 9342,,212,3509
 9343,,277,3509
+9348,|Hitem:187988|h,212,3512
+9349, ,277,3512
+9350,|Hitem:187988|h,212,3513
+9351, ,277,3513
 9352,|cffffffffThe Jailer's Gauntlet|r|nLayer: %19811w,204,3514
 9353,,205,3514
 9364,%187921ic,25,3519
@@ -5144,23 +5151,6 @@ ID,Value_lang,ReqID,ParentWidgetID
 9412,Zone Goals Completed,19,3528
 9413,,273,3528
 9414,,208,3528
-9415,,407,3529
-9416,,413,3529
-9417,500,257,3530
-9418,,258,3530
-9419,,262,3530
-9420,736,261,3530
-9421,621,264,3530
-9422,,265,3530
-9423,400,267,3530
-9424,,268,3530
-9425,,270,3530
-9426,,271,3530
-9427,,420,3531
-9441,3/5: |TINTERFACE\ICONS\ACHIEVEMENT_DUNGEON_CLASSICRAIDER.BLP:32|t|TINTERFACE\ICONS\ACHIEVEMENT_DUNGEON_CLASSICRAIDER.BLP:32|t|TINTERFACE\ICONS\ACHIEVEMENT_DUNGEON_CLASSICRAIDER.BLP:32|t|TInterface\ICONS\artifactability_BalanceDruid_NewMoon.blp:32|t|TInterface\ICONS\artifactability_BalanceDruid_NewMoon.blp:32|t,19,3538
-9442,,273,3538
-9443,"Eye of the Jailer|nTier 3/5|n|nYour actions the Maw incur the Eye of the Jailer, which will bring about increasing threats.|n|nCurrent Threats:|n|cFFFFFFFFSoulseekers attack you on sight|n|nTowers bombard your location, dealing damage and slowing you|n|nAssassins are sent to kill you|r|n|nNext Threat:|n|cFFFFFFFFElite Assassins|r",208,3538
-9444,"Eye of the Jailer|n|cFFFFFFFFTier 3/5|r|n|nYour actions in the Maw incur the Eye of the Jailer, which will bring about increasing threats.|n|nCurrent Threats:|n|cFFFFFFFFSoulseekers attack you on sight|n|nTowers bombard your location, dealing damage and slowing you|n|nAssassins are sent to kill you|r|n|nNext Threat:|n|cFFFFFFFFWinged Abductors|r",418,3539
 9445,,19,3540
 9446,Collect arcane crystals around the citadel to infuse the table!,208,3540
 9447,Infusion Progress,273,3540
@@ -5475,6 +5465,20 @@ ID,Value_lang,ReqID,ParentWidgetID
 9883,,277,2064
 9884,,277,2065
 9885,,277,2066
+9888,%22262w Players Remaining,194,3629
+9889,The amount of players that are alive.,195,3629
+9890,,197,3629
+9891,,198,3629
+9892,,200,3629
+9893,,201,3629
+9894,|cffFFD100Loot and Plunder!,428,3629
+9895,%22262w / %21271w Solos,194,3630
+9896,The tournament will begin once enough players have been summoned.,195,3630
+9897,,197,3630
+9898,,198,3630
+9899,,200,3630
+9900,,201,3630
+9901,|cffFFD100Summoning Scallywags,428,3630
 9902,,19,3631
 9903,Uranto's Health: %21928w%,273,3631
 9904,,208,3631
@@ -5499,6 +5503,8 @@ ID,Value_lang,ReqID,ParentWidgetID
 11089,,19,4175
 11090,Fish Rage,273,4175
 11091,,208,4175
+11092,|Hspell:375246|h,212,4176
+11093, ,277,4176
 11129,,212,4178
 11130,,277,4178
 11131,,212,4179
@@ -5534,9 +5540,39 @@ ID,Value_lang,ReqID,ParentWidgetID
 11169,Weapons Remaining,19,4189
 11170,,273,4189
 11171,Remaining Weapon Supply,208,4189
+11182,Players defeated throughout the match.,477,4195
+11183,Player Kills:,480,4195
+11184,,485,4195
+11185,%53832yc,490,4195
+11186,,495,4195
+11187,Total gold looted throughout the match.,477,4196
+11188,Gold Looted:,480,4196
+11189,,485,4196
+11190,%53833yc,490,4196
+11191,,495,4196
+11192,Non-player characters defeated.,477,4197
+11193,Creature Kills:,480,4197
+11194,,485,4197
+11195,%53834yc,490,4197
+11196,,495,4197
+11197,Damage dealt to players.,477,4198
+11198,Damage to Players:,480,4198
+11199,,485,4198
+11200,%53810yc,490,4198
+11201,,495,4198
 11207,Groups defeated:,19,4199
 11208,,273,4199
 11209,,208,4199
+11215,Damage dealt to players and creatures.,477,4200
+11216,Total Damage Dealt:,480,4200
+11217,,485,4200
+11218,%53835yc,490,4200
+11219,,495,4200
+11220,Spells and items looted.,477,4201
+11221,Items Looted:,480,4201
+11222,,485,4201
+11223,%53836yc,490,4201
+11224,,495,4201
 11227,Time Remaining:,19,4203
 11228,,273,4203
 11229,Net can be collected when timer is completed.,208,4203
@@ -5591,6 +5627,8 @@ ID,Value_lang,ReqID,ParentWidgetID
 11321,,208,4215
 11346,Join Clan Shikaar on a Grand Hunt.,52,4218
 11347,Test Tooltip,394,4218
+11348,,212,4219
+11349,,277,4219
 11353,,19,4221
 11354,Honmor's Health: %21928w%,273,4221
 11355,,208,4221
@@ -5855,6 +5893,10 @@ ID,Value_lang,ReqID,ParentWidgetID
 11661,Optional: Snacks Fed to Beef,19,4326
 11662,,273,4326
 11663,Pick up nearby lava slugs and feed them to Beef to strengthen him and yourself!,208,4326
+11664,,212,4327
+11665,,277,4327
+11666,,212,4328
+11667,,277,4328
 11668,,19,4329
 11669,Time Remaining,273,4329
 11670,,208,4329
@@ -5943,6 +5985,36 @@ ID,Value_lang,ReqID,ParentWidgetID
 11758,"The better the smell, the better the soup... and the greater the danger!",208,4344
 11759,Soup Quality: |cFFFF8000Legendary (%38830e)|r,19,4344
 11760,Protect the Soup!,273,4344
+11761,,212,4345
+11762,,277,4345
+11763,,212,4346
+11764,,277,4346
+11765,,212,4347
+11766,,277,4347
+11767,,212,4348
+11768,,277,4348
+11769,,212,4349
+11770,,277,4349
+11771,,212,4350
+11772,,277,4350
+11773,,212,4351
+11774,,277,4351
+11775,,212,4352
+11776,,277,4352
+11779,,212,4354
+11780,,277,4354
+11781,,212,4355
+11782,,277,4355
+11783,,212,4356
+11784,,277,4356
+11785,,212,4357
+11786,,277,4357
+11787,,212,4358
+11788,,277,4358
+11789,,212,4359
+11790,,277,4359
+11791,,212,4360
+11792,,277,4360
 11793,|cff1eff00Rich|r|n125% chance to catch an Ominous Conch. |n20% chance to drill extra deep hole in ice for better catch.|nIce fishing holes last 10 minutes.|nNets can be set.,52,4361
 11794,,394,4361
 11795,|cff9d9d9dModerate|r|nIce fishing holes last 3 minutes.|nNets cannot be set.,52,4362
@@ -6130,6 +6202,26 @@ ID,Value_lang,ReqID,ParentWidgetID
 11993,"A Primalist fire storm rages through the area, imbuing creatures with new powers and strengths.",394,4436
 11994,|A:elementalstorm-lesser-water:24:24:0:0|a Elemental Storm,52,4437
 11995,"A Primalist snowstorm chills the area, imbuing creatures with new powers and strengths.",394,4437
+11996,,212,4438
+11997,,277,4438
+11998,,212,4439
+11999,,277,4439
+12000,,212,4440
+12001,,277,4440
+12002,,212,4441
+12003,,277,4441
+12004,,212,4442
+12005,,277,4442
+12006,,212,4443
+12007,,277,4443
+12008,,212,4444
+12009,,277,4444
+12010,,212,4445
+12011,,277,4445
+12012,,212,4446
+12013,,277,4446
+12014,,212,4447
+12015,,277,4447
 12046,Wins: %55859yc,2,4457
 12047,,3,4457
 12048,,4,4457
@@ -6347,8 +6439,49 @@ ID,Value_lang,ReqID,ParentWidgetID
 12466,Net can be collected when timer is completed.,208,4615
 12467,Dragonskull Island Fishing Hole,52,4616
 12468,,394,4616
+12528,Click on the squad member to revive them!,212,4637
+12529, ,277,4637
+12530,,15,4637
+12531,Click on the squad member to resurrect them!,212,4639
+12532, ,277,4639
+12533,,15,4639
 12539, |TInterface\Icons\INV_TreasureVault_Key01.BLP:16:16:0:-3|t Keys available: |cFFFFFFFF%38805e|r,52,4642
 12540,,394,4642
+12541,%22262w / %22264w Duos,194,4643
+12542,The tournament will begin once enough players have been summoned.,195,4643
+12543,,197,4643
+12544,,198,4643
+12545,,200,4643
+12546,,201,4643
+12547,|cffFFD100Summoning Scallywags,428,4643
+12548,%22262w / %22266w Trios,194,4644
+12549,The tournament will begin once enough players have been summoned.,195,4644
+12550,,197,4644
+12551,,198,4644
+12552,,200,4644
+12553,,201,4644
+12554,|cffFFD100Summoning Scallywags,428,4644
+12555,%22262w Squads Remaining,194,4645
+12556,The amount of players that are alive.,195,4645
+12557,,197,4645
+12558,,198,4645
+12559,,200,4645
+12560,,201,4645
+12561,|cffFFD100Loot and Plunder!,428,4645
+12569,? Alive,194,4647
+12570,There are an unknown amount of players alive.,195,4647
+12571,,197,4647
+12572,,198,4647
+12573,,200,4647
+12574,,201,4647
+12575,         |cffFFD100Round %21305w,428,4647
+12576,? Squads (? Players),194,4648
+12577,There are an unknown amount of players that are alive.,195,4648
+12578,,197,4648
+12579,,198,4648
+12580,,200,4648
+12581,,201,4648
+12582,         |cffFFD100Round %21305w,428,4648
 12602,Recovered Strength,19,4651
 12603,,273,4651
 12604,Ebyssian needs to recover his strength before he can extinguish more fires.,208,4651
@@ -6387,6 +6520,8 @@ ID,Value_lang,ReqID,ParentWidgetID
 12648,Kill nearby Primalists and keep the location secure so that the portal can be closed.,275,4674
 12693,|cnNORMAL_FONT_COLOR:- The Forbidden Reach:|r %39078e/%39071e,52,4683
 12694,,394,4683
+12734,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",52,4691
+12735,,394,4691
 12746,,19,4696
 12747,Time Remaining,273,4696
 12748,,208,4696
@@ -6399,6 +6534,12 @@ ID,Value_lang,ReqID,ParentWidgetID
 12770,Researchers Objectives Completed: ,19,4700
 12771,,273,4700
 12772,|Hspell:409646|h,208,4700
+12790,|cffFFD100The Storm has arrived!,19,3469
+12791,,273,3469
+12792,,208,3469
+12793,|cffFFD100The Storm is converging!,19,3470
+12794,,273,3470
+12795,,208,3470
 12841,,52,4705
 12842,,394,4705
 12843,Fyrakk's Fury,19,4706
@@ -6422,6 +6563,12 @@ ID,Value_lang,ReqID,ParentWidgetID
 12864,,277,4715
 12865,Fyrakk is approaching.,433,4716
 12866,Fyrakk will arive with reinforcements to decimate those who have stolen from him.,434,4716
+12869,[Click] on the flag to begin your defense!,212,4718
+12870, ,277,4718
+12871,,15,4718
+12872,|TInterface/DialogFrame/UI-Dialog-Icon-AlertNew.blp:27|t,584,4719
+12873,Excessively leaving matches before earning a tournament placement will subject your account for review and suspensions.|n|nAre you sure you want to leave?,585,4719
+12874,,598,4719
 12875,Show the Elderwing that you really care.,208,4720
 12876,Speed Dating,273,4720
 12877,,19,4720
@@ -6448,6 +6595,11 @@ ID,Value_lang,ReqID,ParentWidgetID
 12898,Fyrakk's Fury,19,4733
 12899,Interferring with Fyrakk's forces will earn his fury and he will send a greater foe to stop you all.,208,4733
 12900,Next Fyrakk Attack,273,4733
+12901,|TInterface/DialogFrame/UI-Dialog-Icon-AlertNew.blp:27|t,584,4734
+12902,Your team is still alive and able to resurrect you.|n|nAre you sure you want to leave?,585,4734
+12903,,598,4734
+12904,,204,4735
+12905,|cff00FFFFTAB|r,205,4735
 12906,,19,4736
 12907,Bring ingredients to contribute to the pot of incense!,208,4736
 12908,Smelliness,273,4736
@@ -6823,7 +6975,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 13509,Something is coming...,273,4898
 13527,,621,4904
 13528,,622,4904
-13529,Item Level 500 Force us to wrap the info text,627,4904
+13529,%202081id,627,4904
 13530,,275,4905
 13531,Charge,19,4906
 13532,,273,4906
@@ -7875,6 +8027,67 @@ ID,Value_lang,ReqID,ParentWidgetID
 14892,Discipline,19,5377
 14893,,273,5377
 14894,Defeat enemies to build Discipline in order to damage the Echo of Fyrakk.,208,5377
+14897,,19,3465
+14898,,273,3465
+14899,,208,3465
+14915,,52,3472
+14916,,394,3472
+14917,,52,3473
+14918,,394,3473
+14922,,19,3490
+14923,,273,3490
+14924,,208,3490
+14925,,212,3511
+14926,,277,3511
+14942,,52,4190
+14943,,394,4190
+14944,,52,4192
+14945,,394,4192
+14946,,52,4193
+14947,,394,4193
+14948,,52,4194
+14949,,394,4194
+14977,,212,4342
+14978,,277,4342
+15057,,52,4448
+15058,,394,4448
+15059,,52,4463
+15060,,394,4463
+15061,,52,4466
+15062,,394,4466
+15063,,52,4467
+15064,,394,4467
+15071,,584,4641
+15072,,585,4641
+15073,,598,4641
+15089,,19,4652
+15090,,273,4652
+15091,,208,4652
+15092,,2,4675
+15093,,3,4675
+15094,,4,4675
+15095,,19,4676
+15096,,273,4676
+15097,,208,4676
+15098,,19,4677
+15099,,273,4677
+15100,,208,4677
+15101,,52,4682
+15102,,394,4682
+15103,,52,4684
+15104,,394,4684
+15108,,19,4692
+15109,,273,4692
+15110,,208,4692
+15111,,19,4694
+15112,,273,4694
+15113,,208,4694
+15114,,52,4695
+15115,,394,4695
+15437,,19,5482
+15438,,208,5482
+15439,Something is coming...,273,5482
+15533,,275,5513
 15542,,19,5516
 15543,,273,5516
 15544,,208,5516
@@ -7946,12 +8159,74 @@ ID,Value_lang,ReqID,ParentWidgetID
 15771,,75,5590
 15772,Active,52,5592
 15773,,394,5592
+15796,,212,5597
+15797,,277,5597
 15808,,19,5602
 15809,,273,5602
 15810,,208,5602
+15811,Text Example,584,5603
+15812,Sub Text Example,585,5603
+15813,Test Tooltip,598,5603
+15814,,212,5604
+15815,,277,5604
 15834,,19,5611
 15835,,273,5611
 15836,,208,5611
 15837,,19,5612
 15838,,273,5612
 15839,,208,5612
+15914,300,56,5641
+15915,Plunder earned when completing a Captain's Orders quest.,57,5641
+15916,,59,5641
+15917,,60,5641
+15918,,62,5641
+15919,,63,5641
+15920,,67,5641
+15921,,66,5641
+15922,Captain's Order Reward:,72,5641
+15923,,73,5641
+15924,,74,5641
+15925,,75,5641
+15926,150,56,5642
+15927,Bonus Plunder for completing the first Captain's Orders quest of the day.,57,5642
+15928,,59,5642
+15929,,60,5642
+15930,,62,5642
+15931,,63,5642
+15932,,67,5642
+15933,,66,5642
+15934,Daily Doubloons Reward:,72,5642
+15935,,73,5642
+15936,,74,5642
+15937,,75,5642
+15951,,19,5650
+15952,,273,5650
+15953,,208,5650
+15982,Awakened,52,5670
+15983,,394,5670
+16014,,2,5673
+16015,,3,5673
+16016,,4,5673
+16017,%3011c Plunder collected,56,5673
+16018,Total Plunder earned this match. Awarded when your crew is eliminated or victorious.,57,5673
+16019,,59,5673
+16020,,60,5673
+16021,,62,5673
+16022,,63,5673
+16023,,67,5673
+16024,,66,5673
+16025,,72,5673
+16026,,73,5673
+16027,,74,5673
+16028,,75,5673
+16029,Awakened,52,5674
+16030,,394,5674
+16031,Awakened,52,5675
+16032,,394,5675
+16061,Your health has increased|nThe damage of your abilities has increased,52,5683
+16062,,394,5683
+16063,|cff00ff00+%3011c reputation earned this match|r|nVisit Da'kash Grimledger in the waiting area to view rewards,52,5684
+16064,,394,5684
+16081,The Storm has stopped!,19,3476
+16082,,273,3476
+16083,,208,3476
