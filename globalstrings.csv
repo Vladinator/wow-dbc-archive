@@ -631,7 +631,7 @@ ID,BaseTag,TagText_lang,Flags
 10357,SLASH_LEAVE3,/chatexit,1
 10358,SLASH_LIST_CHANNEL1,/chatlist,1
 10359,SLASH_LIST_CHANNEL3,/chatinfo,1
-10360,SLASH_CHANNEL1,/c,1
+10360,SLASH_CHANNEL1,/c,3
 10361,SLASH_CHANNEL2,/csay,1
 10362,SLASH_CHAT_HELP1,/chat,1
 10363,SLASH_CHAT_HELP2,/chathelp,1
@@ -1818,7 +1818,7 @@ ID,BaseTag,TagText_lang,Flags
 11695,PET_DIET_TEMPLATE,|cffffd200Diet:|r %s,1
 11696,HP_TEMPLATE,%d Health,1
 11697,CHANCE_TO_CRIT,%.2f%% chance to crit,1
-11698,CHAT_MSG_YELL,Yell,1
+11698,CHAT_MSG_YELL,Yell,3
 11699,ERR_TAXINOVENDORNEARBY,There is no taxi vendor nearby!,1
 11700,ERR_MOUNT_INVALIDMOUNTEE,You can't mount that unit.,1
 11701,ERR_MOUNT_SHAPESHIFTED,You can't mount while shapeshifted.,1
@@ -1994,7 +1994,7 @@ ID,BaseTag,TagText_lang,Flags
 11890,RACIAL_SKILLS,%s Skills:,1
 11891,CREATE_ARENA_TEAM,Create,1
 11892,HELP_TEXT_LINE14,- /chat for a list of chat commands,1
-11894,TUTORIAL22,"If there is another player you have enjoyed playing with, add them to your friends list! Click on the |cffffd200Social Button|r and add them to your list of friends.|n|nYou can only add friends from your own realm.",1
+11894,TUTORIAL22,"If there is another player you have enjoyed playing with, add them to your friends list! Click on the |cffffd200Social Button|r and add them to your list of friends.|n|nYou can only add friends from your own realm.",3
 11895,CHAT_NOT_MEMBER_NOTICE,Not on channel %s.,1
 11896,CHAT_PLAYER_NOT_FOUND_NOTICE,|Hchannel:%d|h[%s]|h Player %s was not found.,1
 11897,CHAT_ANNOUNCEMENTS_OFF_NOTICE,|Hchannel:%d|h[%s]|h Channel announcements disabled by %s.,1
@@ -2998,16 +2998,16 @@ ID,BaseTag,TagText_lang,Flags
 13118,SERVER_CHANNELS,Server Channels,1
 13119,CREATURE,Creature,1
 13120,SKILL,Skill,1
-13121,CHAT_MSG_LOOT,Item Loot,1
-13122,CHAT_MSG_EMOTE,Emote,1
+13121,CHAT_MSG_LOOT,Item Loot,3
+13122,CHAT_MSG_EMOTE,Emote,3
 13123,CHAT_MSG_TEXT_EMOTE,Text Emote,1
 13124,CHAT_MSG_OFFICER,Officer,5
-13125,CHAT_MSG_WHISPER_INFORM,Whisper,1
-13126,CHAT_MSG_MONSTER_SAY,Creature Say,1
-13127,CHAT_MSG_MONSTER_YELL,Creature Yell,1
-13128,CHAT_MSG_MONSTER_WHISPER,Creature Whisper,1
+13125,CHAT_MSG_WHISPER_INFORM,Whisper,3
+13126,CHAT_MSG_MONSTER_SAY,Creature Say,3
+13127,CHAT_MSG_MONSTER_YELL,Creature Yell,3
+13128,CHAT_MSG_MONSTER_WHISPER,Creature Whisper,3
 13129,SYSTEM_MESSAGES,System Messages,1
-13130,CHAT_MSG_AFK,Away,1
+13130,CHAT_MSG_AFK,Away,3
 13131,DND,Busy,1
 13132,CHAT_MSG_GUILD,Guild,3
 13133,SAY,Say,1
@@ -3051,7 +3051,7 @@ ID,BaseTag,TagText_lang,Flags
 13177,COMBAT_ENEMY,Combat Enemy,1
 13178,COMBAT_MISC,Combat Misc,1
 13179,IGNORED,Ignored,1
-13180,CHAT_MSG_CHANNEL_LIST,Channel List,1
+13180,CHAT_MSG_CHANNEL_LIST,Channel List,3
 13181,TIME_PLAYED_MSG,Time Played,1
 13182,CHAT_MSG_SKILL,Skill,1
 13183,PLAYER_LEVEL_UP,Level Up,1
@@ -3078,7 +3078,7 @@ ID,BaseTag,TagText_lang,Flags
 13206,PERIODIC_MESSAGES,Periodic Effects,1
 13211,ERR_TAXINOTSTANDING,You need to be standing to go anywhere.,1
 13212,CHAT_NOT_MODERATED_NOTICE,%s is not moderated,1
-13213,CHAT_MSG_SAY,Say,1
+13213,CHAT_MSG_SAY,Say,3
 13214,MASTERY_POINTS_SPENT,%1$s Talents: %2$s,1
 13215,ERR_ALREADY_TRADING,You are already trading,1
 13216,STABLES,Stables,1
@@ -3246,7 +3246,7 @@ ID,BaseTag,TagText_lang,Flags
 13389,VOICEMACRO_19_Or_5_FEMALE,Let's not ruin this moment with chit chat.,1
 13390,ITEM_SPELL_KNOWN,Already known,5
 13391,BUYBACK_THIS_ITEM,Buy Back This Item,1
-13392,CHAT_MSG_RAID,Raid,1
+13392,CHAT_MSG_RAID,Raid,3
 13393,VOICEMACRO_20_Ni_3,"Is that thing sharp?  Could that thing cut me?  I'm not immortal now, you know.",1
 13394,VOICEMACRO_12_Ni_0_FEMALE,Hello.,1
 13395,VOICEMACRO_12_Ni_2_FEMALE,Well met.,1
@@ -4136,7 +4136,7 @@ ID,BaseTag,TagText_lang,Flags
 14507,COMBATLOG_XPGAIN_FIRSTPERSON_RAID,"%s dies, you gain %d experience. (-%d raid penalty)",1
 14508,NEWBIE_TOOLTIP_QUESTLOG,A list of all the active quests you currently have. You can have up to 25 active quests at one time.,1
 14509,COMBATLOG_XPGAIN_FIRSTPERSON_UNNAMED_RAID,You gain %d experience. (-%d raid penalty),1
-14510,NEWBIE_TOOLTIP_SOCIAL,"Information about other people in the game. You can use the Social window to manage your friends list and ignore list, as well as see who is online.",1
+14510,NEWBIE_TOOLTIP_SOCIAL,"Information about other people in the game. You can use the Social window to manage your friends list and ignore list, as well as see who is online.",3
 14511,COMBATLOG_XPGAIN_EXHAUSTION1_RAID,"%s dies, you gain %d experience. (%s exp %s bonus, -%d raid penalty)",1
 14512,NEWBIE_TOOLTIP_WORLDMAP,"As you explore a zone, more areas of interest will become visible on the world map. You can use left-click to zoom in, or right-click to zoom out.",1
 14513,COMBATLOG_XPGAIN_EXHAUSTION2_RAID,"%s dies, you gain %d experience. (%s exp %s bonus, -%d raid penalty)",1
@@ -4169,8 +4169,8 @@ ID,BaseTag,TagText_lang,Flags
 14561,NEWBIE_TOOLTIP_FRIENDSTAB,Allows you to manage a list of players you enjoy playing with. You receive notifications of friends logging on or off.,1
 14562,NEWBIE_TOOLTIP_GUILDTAB,"Allows you to view information about your guild, and players in it. If you are an officer, you can also manage your guild from this tab.",1
 14563,NEWBIE_TOOLTIP_RAIDTAB,Allows you to view or modify your raid group. Raid groups are groups of more than 5 people used to defeat very difficult challenges at high levels.,1
-14564,NEWBIE_TOOLTIP_ADDFRIEND,Adds a player to your friends list. You will be notified whenever a friend logs on or off. Other players do not know whether they are on your friends list.,1
-14565,NEWBIE_TOOLTIP_REMOVEFRIEND,Removes the selected player from your friends list.,1
+14564,NEWBIE_TOOLTIP_ADDFRIEND,Adds a player to your friends list. You will be notified whenever a friend logs on or off. Other players do not know whether they are on your friends list.,3
+14565,NEWBIE_TOOLTIP_REMOVEFRIEND,Removes the selected player from your friends list.,3
 14566,NEWBIE_TOOLTIP_SENDMESSAGE,Sends a private message to the selected player.,1
 14567,NEWBIE_TOOLTIP_GROUPINVITE,Invites the selected player to join a group.,1
 14568,NEWBIE_TOOLTIP_IGNOREPLAYER,"Adds a player to your ignore list. You will no longer see messages or other text from players on your ignore list, nor will these players be able to communicate with you in any other way.",1
@@ -5003,7 +5003,7 @@ ID,BaseTag,TagText_lang,Flags
 16427,SLASH_SAVEGUILDROSTER1,/saveguildroster,1
 16428,SLASH_SAVEGUILDROSTER2,/saveguildroster,1
 16429,ERR_NOT_IN_BATTLEGROUND,You are not in a battleground,1
-16430,CHAT_MSG_FILTERED,Chat Filtered Message,1
+16430,CHAT_MSG_FILTERED,Chat Filtered Message,3
 16431,EMOTE171_CMD1,/mountspecial,1
 16432,ABANDON_QUEST_CONFIRM_WITH_ITEMS,"Abandon \""%s\"", destroying %s?",1
 16433,LFG_TYPE_DUNGEON,Dungeon,1
@@ -5594,7 +5594,7 @@ ID,BaseTag,TagText_lang,Flags
 17134,OPTION_TOOLTIP_LOOT_UNDER_MOUSE,When checked the loot window will open up under the current mouse location.,1
 17136,ERR_QUEST_ALREADY_DONE,You have completed that quest.,1
 17137,ERR_PETITION_ALREADY_SIGNED_OTHER,You've already signed another guild charter,1
-17138,CHAT_MSG_RESTRICTED,Restricted,1
+17138,CHAT_MSG_RESTRICTED,Restricted,3
 17139,ERR_BATTLEGROUND_TEAM_LEFT_QUEUE,Your team has left the queue,1
 17140,CHAT_RESTRICTED,A Free Trial account may only send whispers to players that have your character on their friends list. |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r,3
 17141,SHOW_COMBAT_HEALING,Healing,1
@@ -6544,7 +6544,7 @@ ID,BaseTag,TagText_lang,Flags
 18154,TEXT_MODE_A_STRING_RESULT_CRITICAL_SPELL,(Critical),1
 18155,ERRORS,Errors,1
 18156,AFK,Away,1
-18158,CHANNEL,Channel,1
+18158,CHANNEL,Channel,3
 18159,ADD_FILTER,Add Filter,1
 18160,MESSAGE_SOURCES,Message Sources,1
 18161,COLORS,Colors,1
@@ -7125,7 +7125,7 @@ ID,BaseTag,TagText_lang,Flags
 18851,D_DAYS,%d |4Day:Days;,3
 18852,D_HOURS,%d |4Hour:Hours;,3
 18853,CALENDAR_ERROR_EVENT_TIME_PASSED,The time for this event has already passed.,1
-18854,UPDATE,Update,1
+18854,UPDATE,Update,3
 18855,INVITE,Invite,1
 18856,CALENDAR_ACCEPT_INVITATION,Accept Invitation,5
 18857,CALENDAR_AUTO_APPROVE,Auto Approve Members,1
@@ -7260,7 +7260,7 @@ ID,BaseTag,TagText_lang,Flags
 18992,ACHIEVEMENT_BROADCAST,%s has earned the achievement %s!,1
 18993,CALENDAR_PASTE_EVENT,Paste,1
 18994,ACHIEVEMENT,Achievement Announce,1
-18995,CHAT_MSG_ACHIEVEMENT,Achievement Announce,1
+18995,CHAT_MSG_ACHIEVEMENT,Achievement Announce,3
 18996,SPELL_FAILED_CUSTOM_ERROR_31,Your companion does not want to come here.  Go further from the Sundered Shard.,1
 18997,ACTION_SPELL_RESURRECT,resurrected,1
 18998,ACTION_SPELL_RESURRECT_FULL_TEXT,%1$s %2$s resurrects %4$s.%6$s,1
@@ -8630,7 +8630,7 @@ ID,BaseTag,TagText_lang,Flags
 20459,SLASH_DUNGEONS6,/df,1
 20460,ERR_LFG_PROPOSAL_DECLINED_SELF,You have been removed from the queue because you did not accept the invitation.,1
 20461,ERR_LFG_PROPOSAL_DECLINED_PARTY,You have been removed from the queue because someone in your party did not accept the invitation.,1
-20462,CHAT_MSG_PARTY_LEADER,Party Leader,1
+20462,CHAT_MSG_PARTY_LEADER,Party Leader,3
 20463,CHAT_PARTY_LEADER_GET,|Hchannel:PARTY|h[Party Leader]|h %s:\32,3
 20464,PARTY_LEADER,Party Leader,1
 20465,ERR_LFG_CANT_USE_BATTLEGROUND,You cannot queue for a battleground or arena while using the dungeon or raid queueing systems.,1
@@ -8763,7 +8763,7 @@ ID,BaseTag,TagText_lang,Flags
 20603,PENDING_INVITE,Pending,5
 20604,PENDING_INVITE_LIST,Pending List,1
 20605,BATTLENET_NAME_FORMAT,%1$s %2$s,3
-20606,BNET_INVITE_SENT_TIME,Sent %s ago,1
+20606,BNET_INVITE_SENT_TIME,Sent %s ago,3
 20607,BLOCK_INVITES_CONFIRMATION,Are you sure you want to block any further invitations from %s?,1
 20609,BLOCK_INVITES,Block Invites,1
 20611,FRIENDS_LIST_ONLINE,Online,3
@@ -8838,7 +8838,7 @@ ID,BaseTag,TagText_lang,Flags
 20691,ERR_CURRENCY_SPELL_SLOT_MISMATCH,That item can't be used in that slot,1
 20692,SPELL_FAILED_CUSTOM_ERROR_107,"You must target the corpse of a Seabrush Terrapin, Scourgut Remora, or Spinescale Hammerhead.",1
 20693,CHAT_MSG_BN_WHISPER,Real ID Whisper,3
-20694,BN_WHISPER,Blizzard Whispers,1
+20694,BN_WHISPER,Blizzard Whispers,3
 20695,CHAT_BN_WHISPER_GET,%s whispers:\32,3
 20696,CHAT_BN_WHISPER_INFORM_GET,To %s:\32,3
 20697,CHAT_BN_WHISPER_SEND,Tell %s:\32,3
@@ -8853,11 +8853,11 @@ ID,BaseTag,TagText_lang,Flags
 20706,POWER_TYPE_PURPLE_POWER,Arcane Power,1
 20707,POWER_TYPE_GREEN_POWER,Poison Power,1
 20708,POWER_TYPE_ORANGE_POWER,Fire Power,1
-20709,BN_TOAST_PENDING_INVITES,You have |cff82c5ff%d|r friend |4request:requests;.,1
-20710,BN_TOAST_ONLINE,has come |cff00ff00online|r.,1
-20711,BN_TOAST_OFFLINE,has gone |cffff0000offline|r.,1
-20712,BN_TOAST_CONVERSATION,You have joined,1
-20713,BN_TOAST_NEW_INVITE,You have received a new friend request.,1
+20709,BN_TOAST_PENDING_INVITES,You have |cff82c5ff%d|r friend |4request:requests;.,3
+20710,BN_TOAST_ONLINE,has come |cff00ff00online|r.,3
+20711,BN_TOAST_OFFLINE,has gone |cffff0000offline|r.,3
+20712,BN_TOAST_CONVERSATION,You have joined,3
+20713,BN_TOAST_NEW_INVITE,You have received a new friend request.,3
 20714,FRIENDS_TOOLTIP_TOO_MANY_CHARACTERS,(%d more |4character:characters;),3
 20715,ITEM_REQ_PURCHASE_GUILD,Requires a guild,1
 20716,ITEM_REQ_PURCHASE_GUILD_LEVEL,Requires guild level %d,1
@@ -8898,7 +8898,7 @@ ID,BaseTag,TagText_lang,Flags
 20753,POP_IN_CHAT,Pop In Chat,1
 20754,CHAT_WINDOWS_COUNT,%d Chat Windows,3
 20756,CHAT_MSG_BN_CONVERSATION,Real ID Conversation,3
-20757,BN_CONVERSATION,Real ID Conversation,1
+20757,BN_CONVERSATION,Real ID Conversation,3
 20758,CHAT_BN_CONVERSATION_GET,%s:,3
 20760,CHAT_BN_CONVERSATION_SEND,[%d. Conversation]:\32,3
 20761,CONVERSATION_NAME,%d. Conversation,1
@@ -8944,7 +8944,7 @@ ID,BaseTag,TagText_lang,Flags
 20801,ARENA_INFO,"In the Arena, winning matches will earn you Conquest Points.  Winning matches also increases your Arena Rating.  The higher your rating the more Conquest Points you may earn each week.",1
 20802,ARENA_CREATE_INFO,To create an Arena Team click on a blank flag above and customize your new team's name and flag.,1
 20803,NO_FRIEND_REQUESTS,You have no friend requests,1
-20804,BN_INLINE_TOAST_ALERT,Blizzard Services Alerts,1
+20804,BN_INLINE_TOAST_ALERT,Blizzard Services Alerts,3
 20805,BN_INLINE_TOAST_FRIEND_ONLINE,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t%s has come online.,3
 20806,BN_INLINE_TOAST_FRIEND_OFFLINE,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t%s has gone offline.,3
 20807,BN_INLINE_TOAST_BROADCAST,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:2:29|t%s: %s,3
@@ -9002,14 +9002,14 @@ ID,BaseTag,TagText_lang,Flags
 20861,ARENA_CAPTAIN_INVALID_TEAM,Click the |cffffd200Add Member|r button to fill your team roster.,1
 20862,ARENA_NOT_CAPTAIN_INVALID_TEAM,The team captain needs to click the |cffffd200Add Member|r button to fill your team roster.,1
 20863,SPELL_FAILED_CUSTOM_ERROR_110,Free the Drake from the net first!,1
-20864,ERR_BN_FRIEND_SELF,You can't put yourself on your friend list,1
-20865,ERR_BN_FRIEND_ALREADY,That person is already your friend,1
-20866,ERR_BN_FRIEND_REQUEST_SENT,Friend request has been sent,1
-20867,ERR_BN_FRIEND_BLOCKED,That person is on your blocked list,1
+20864,ERR_BN_FRIEND_SELF,You can't put yourself on your friend list,3
+20865,ERR_BN_FRIEND_ALREADY,That person is already your friend,3
+20866,ERR_BN_FRIEND_REQUEST_SENT,Friend request has been sent,3
+20867,ERR_BN_FRIEND_BLOCKED,That person is on your blocked list,3
 20868,MOVE_TO_CONVERSATION_WINDOW,Move to Conversation Window,1
 20869,MOVE_TO_NEW_WINDOW,Move to New Window,1
 20870,MOVE_TO_WHISPER_WINDOW,Move to Whisper Window,1
-20871,ERR_BN_BROADCAST_THROTTLE,Please wait a few seconds before updating your broadcast message again.,1
+20871,ERR_BN_BROADCAST_THROTTLE,Please wait a few seconds before updating your broadcast message again.,3
 20872,INTERNAL_STRING_ERROR,Internal String Error %d,1
 20873,BLOCK_INVITES_TOOLTIP,Remove this invite and block further invitations from this player.,1
 20875,RID_FRIEND_REQUEST_INFO,This should be a person you know and trust in real life. You will be able to chat with them no matter which Blizzard game you are playing. If you accept their friend request your real name will be displayed to all of their friends.,1
@@ -9023,21 +9023,21 @@ ID,BaseTag,TagText_lang,Flags
 20884,CLICK_TO_INVITE_TO_CONVERSATION,Click here to invite another friend to this Conversation.,1
 20885,CLICK_TO_START_CONVERSATION,Click here to start a Conversation with this player and one other friend.,1
 20889,BNET_REPORT,Report,5
-20891,BNET_REPORT_ABUSE,Abuse,1
-20893,BNET_REPORT_NAME,Inappropriate Name,1
-20894,BNET_REPORT_SENT,Report sent.,1
-20895,BNET_REPORT_ABUSE_PROMPT,Please leave a comment to help resolve the type of abuse.,1
-20897,BNET_REPORT_ABUSE_LABEL,Report Abuse from:,1
-20899,BNET_REPORT_ABUSE_BUTTON,Report Abuse,1
-20901,BNET_REPORT_CONFIRM_ABUSE,Are you sure you want to report %s for abuse?,1
-20902,BNET_REPORT_CONFIRM_SPAM,Are you sure you want to report %s for spamming?,1
-20904,BNET_REPORT_CONFIRM_NAME,Are you sure you want to report %s for an inappropriate name?,1
+20891,BNET_REPORT_ABUSE,Abuse,3
+20893,BNET_REPORT_NAME,Inappropriate Name,3
+20894,BNET_REPORT_SENT,Report sent.,3
+20895,BNET_REPORT_ABUSE_PROMPT,Please leave a comment to help resolve the type of abuse.,3
+20897,BNET_REPORT_ABUSE_LABEL,Report Abuse from:,3
+20899,BNET_REPORT_ABUSE_BUTTON,Report Abuse,3
+20901,BNET_REPORT_CONFIRM_ABUSE,Are you sure you want to report %s for abuse?,3
+20902,BNET_REPORT_CONFIRM_SPAM,Are you sure you want to report %s for spamming?,3
+20904,BNET_REPORT_CONFIRM_NAME,Are you sure you want to report %s for an inappropriate name?,3
 20905,SLASH_CHAT_AFK3,/away,1
 20906,SLASH_CHAT_AFK4,/away,1
 20907,SLASH_CHAT_DND4,/busy,1
 20908,SLASH_CHAT_DND5,/busy,1
 20909,SLASH_CHAT_DND6,/busy,1
-20910,BN_UNABLE_TO_RESOLVE_NAME,Unable to whisper '%s'. Blizzard services may be unavailable.,1
+20910,BN_UNABLE_TO_RESOLVE_NAME,Unable to whisper '%s'. Blizzard services may be unavailable.,3
 20911,BN_INLINE_TOAST_FRIEND_PENDING,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:98:127:2:29|tYou have %s friend |4request:requests;.,3
 20912,LEVEL_UP_YOU_REACHED,You've Reached,1
 20913,LEVEL_UP_ABILITY,New Ability Available!,1
@@ -9862,17 +9862,17 @@ ID,BaseTag,TagText_lang,Flags
 21808,ALTERNATE_RESOURCE_TEXT,Alternate Resource,1
 21809,OPTION_TOOLTIP_ALTERNATE_RESOURCE,Always display the text on alternate resource bars.,1
 21810,SKILLUP_TOOLTIP,Crafting this will grant %s skill ups.,1
-21811,BN_CHAT_CONNECTED,You are now connected to Blizzard services.,1
-21812,BN_CHAT_DISCONNECTED,You have been disconnected from Blizzard services.,1
+21811,BN_CHAT_CONNECTED,You are now connected to Blizzard services.,3
+21812,BN_CHAT_DISCONNECTED,You have been disconnected from Blizzard services.,3
 21813,WHISPER_MODE,New Whispers,1
-21814,BN_WHISPER_MODE,New Blizzard Whispers,1
+21814,BN_WHISPER_MODE,New Blizzard Whispers,3
 21815,CONVERSATION_MODE_POPOUT_AND_INLINE,Both,1
 21816,OPTION_WHISPER_MODE_INLINE,Whispers will be displayed in your regular chat tabs. They may be moved to a new window by right-clicking on the player's name in chat.,1
 21817,OPTION_WHISPER_MODE_POPOUT,New Whispers will be displayed in a new tab.,1
 21818,OPTION_WHISPER_MODE_POPOUT_AND_INLINE,New Whispers will be displayed in a new tab and in your regular chat tabs.,1
-21819,OPTION_BN_WHISPER_MODE_INLINE,Real ID and BattleTag Whispers will be displayed in your regular chat tabs. They may be moved to a new window by right-clicking on the player's name in chat.,1
-21820,OPTION_BN_WHISPER_MODE_POPOUT,New Real ID and BattleTag Whispers will be displayed in a new tab.,1
-21821,OPTION_BN_WHISPER_MODE_POPOUT_AND_INLINE,New Real ID and BattleTag Whispers will be displayed in a new tab and in your regular chat tabs.,1
+21819,OPTION_BN_WHISPER_MODE_INLINE,Real ID and BattleTag Whispers will be displayed in your regular chat tabs. They may be moved to a new window by right-clicking on the player's name in chat.,3
+21820,OPTION_BN_WHISPER_MODE_POPOUT,New Real ID and BattleTag Whispers will be displayed in a new tab.,3
+21821,OPTION_BN_WHISPER_MODE_POPOUT_AND_INLINE,New Real ID and BattleTag Whispers will be displayed in a new tab and in your regular chat tabs.,3
 21822,OPTION_CONVERSATION_MODE_POPOUT_AND_INLINE,New Real ID and BattleTag Conversations will be displayed in a new tab and in your regular chat.,1
 21824,PET_STABLE_SLOT_LOCKED,Locked,1
 21825,NOT_READY,Not Ready,1
@@ -9890,8 +9890,8 @@ ID,BaseTag,TagText_lang,Flags
 21837,PVP_NO_QUEUE_GROUP,You are not in a valid group to join the queue.,1
 21838,ERR_LEARN_MOUNT_S,You have added the mount %s to your collection.,1
 21839,PVP_REWARD_FAILURE,You must be in a valid group and at the maximum level to earn Conquest points.,1
-21840,BN_BLOCK_FAILED_TOO_MANY_RID,You have already blocked the maximum number of Real ID and BattleTag players.,1
-21841,BN_BLOCK_FAILED_TOO_MANY_CID,You've already blocked the maximum number of characters through Blizzard services.,1
+21840,BN_BLOCK_FAILED_TOO_MANY_RID,You have already blocked the maximum number of Real ID and BattleTag players.,3
+21841,BN_BLOCK_FAILED_TOO_MANY_CID,You've already blocked the maximum number of characters through Blizzard services.,3
 21842,ITEM_HEROIC_QUALITY0_DESC,Heroic Poor,1
 21843,ITEM_HEROIC_QUALITY1_DESC,Heroic Common,1
 21844,ITEM_HEROIC_QUALITY2_DESC,Heroic Uncommon,1
@@ -10739,8 +10739,8 @@ ID,BaseTag,TagText_lang,Flags
 22739,HELPFRAME_REPORT_PLAYER_RIGHT_CLICK,Right-Click,1
 22740,HELPFRAME_REPORT_PLAYER_EXAMPLE_CHAT_CLICK_LOCATION,[Name in Chat],1
 22741,HELPFRAME_REPORT_PLAYER_EXAMPLE_TARGET_CLICK_LOCATION,Target Frame,1
-22742,REPORT_PLAYER_FOR,Report Player For:,1
-22743,REPORT_PLAYER,Report Player,5
+22742,REPORT_PLAYER_FOR,Report Player For:,3
+22743,REPORT_PLAYER,Report Player,7
 22744,REPORT_SPAMMING,Spamming,5
 22745,REPORT_BAD_LANGUAGE,Language,1
 22746,REPORT_BAD_NAME,Name,1
@@ -12155,7 +12155,7 @@ You can find trainers for them in some settlements and cities.",1
 24346,RAF_FAQ,Recruit a Friend FAQ,1
 24347,RAF_INVITATION_SENT,Your invitation has been sent!\n\nYour friend will receive an email with instructions on creating a new account and downloading the game.,1
 24348,RAF_INVITEE_FRIEND_ADDED_EXPLANATION,You are now friends with the person who invited you to play World of Warcraft.\n\n|cffffd200Right-click|r their name to whisper them when they are online.\n\nYou can now join up and enjoy Azeroth together!,1
-24349,RAF_INVITEE_FRIEND_ADDED_NOTICE,Open your friends list to find your friend that invited you to play World of Warcraft,1
+24349,RAF_INVITEE_FRIEND_ADDED_NOTICE,Open your friends list to find your friend that invited you to play World of Warcraft,3
 24350,RAF_INVITER_FRIEND_ADDED,Your recruited friend is now your Battletag Friend: |cff88C5ff[%s]|r,1
 24351,ERR_RECRUIT_A_FRIEND_ACCOUNT_LIMIT,You have submitted the maximum number of recruits for this time period. Please try again later.,1
 24352,ERR_RECRUIT_A_FRIEND_FAILED,Failed to send Recruit A Friend request. Please try again later.,1
@@ -13367,7 +13367,7 @@ You can find trainers for them in some settlements and cities.",1
 25630,CAPPED_LEVEL_TRIAL,Free Trial level cap reached.,1
 25631,LEVEL_CAP_REACHED_TRIAL,You have reached the maximum possible level on a Free Trial account. |cffffd000|Hstorecategory:gametime|h[Click Here]|h|r to upgrade your account!,1
 25632,MONEY_CAP_REACHED_TRIAL,You already have the maximum amount of money on a Free Trial account. |cffffd000|Hstorecategory:gametime|h[Click Here]|h|r to upgrade your account!,1
-25633,CHAT_RESTRICTED_TRIAL,A Free Trial account may only send whispers to players that have your character on their friends list. |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r,1
+25633,CHAT_RESTRICTED_TRIAL,A Free Trial account may only send whispers to players that have your character on their friends list. |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r,3
 25634,CALENDAR_ERROR_MODERATOR_RESTRICTED_TRIAL,Free Trial accounts cannot modify Calendar events.,5
 25635,CHAT_TRIAL_RESTRICTED_NOTICE_TRIAL,|Hchannel:%d|h[%s]|h Free Trial accounts cannot send messages to this channel. |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r,1
 25651,ACTION_PLAYER_DIED,died,1
@@ -14120,7 +14120,7 @@ You can find trainers for them in some settlements and cities.",1
 32481,DUNGEON_FLOOR_HALLSOFVALOR1,The High Gate,1
 32482,SHOW_NAMEPLATE_LOSE_AGGRO_FLASH,Flash on Aggro Loss,1
 32483,OPTION_TOOLTIP_SHOW_NAMEPLATE_LOSE_AGGRO_FLASH,"When you lose aggro on an enemy, their nameplate will flash. Mainly for tanks.",1
-32484,ERR_BN_TARGET_OFFLINE,%s is not online.,1
+32484,ERR_BN_TARGET_OFFLINE,%s is not online.,3
 32485,ORDER_HALL_TALENT_RESEARCH,Click to Research,1
 32486,ORDER_HALL_RESEARCH_CONFIRMATION,Choosing %s requires %s|T%s:0:0:2:0|t and will take %s.,1
 32487,PHYSICS_INTERACTION,Physics Interactions,3
@@ -15903,7 +15903,7 @@ You can find trainers for them in some settlements and cities.",1
 35450,BINDING_NAME_TOGGLEQUICKJOINTAB,Toggle Quick Join,1
 35451,SOCIAL_QUEUE_ALSO_IN_GROUP,Also in group:,1
 35452,SOCIAL_QUEUE_AND_MORE,and more,1
-35453,SOCIAL_QUICK_JOIN_TAB_HELP_TIP,Quickly join your friends and guildmates when they enter a queue or premade group.,1
+35453,SOCIAL_QUICK_JOIN_TAB_HELP_TIP,Quickly join your friends and guildmates when they enter a queue or premade group.,3
 35455,CR_PARRY_BASE_STAT_TOOLTIP,Increases parry chance by %.2f%%|n|cff888888(Before diminishing returns)|r,1
 35456,CR_DODGE_BASE_STAT_TOOLTIP,Increases dodge chance by %.2f%%|n|cff888888(Before diminishing returns)|r,1
 35458,SPELL_FAILED_NEED_ALL_PARTY_MEMBERS,All party members must be present to do that.,1
@@ -16839,7 +16839,7 @@ You can find trainers for them in some settlements and cities.",1
 36465,COMMUNITIES_ROSTER_COLUMN_TITLE_LEVEL,Lvl,1
 36466,COMMUNITIES_ROSTER_COLUMN_TITLE_CLASS,Class,1
 36467,COMMUNITIES_ROSTER_COLUMN_TITLE_ZONE,Zone,1
-36468,CHAT_MSG_INSTANCE_CHAT,Instance,1
+36468,CHAT_MSG_INSTANCE_CHAT,Instance,3
 36469,SPELL_FAILED_CUSTOM_ERROR_368,You have not unlocked the Flight Whistle for this zone.,1
 36470,SPELL_FAILED_CUSTOM_ERROR_369,There are no unlocked flight points nearby to take you to.,1
 36471,SPELL_FAILED_CUSTOM_ERROR_370,You must have a Felguard.,1
@@ -17158,7 +17158,7 @@ You can find trainers for them in some settlements and cities.",1
 36893,CHAR_DELETE_FAILED_COMMUNITY_OWNER,This character is an owner of a community and cannot be deleted until the ownership is transferred to another character.,2
 36894,MYTHIC_PLUS_LEADER_BOARD_NAME_ICON,%1$s|t %2$s,1
 36895,GOAL_COMPLETED,Completed,1
-36896,BNET_REPORT_CONFIRM_BAD_LANGUAGE,Are you sure you want to report %s for inappropriate language?,1
+36896,BNET_REPORT_CONFIRM_BAD_LANGUAGE,Are you sure you want to report %s for inappropriate language?,3
 36898,GUILD_CONTROL_RANK_PERMISSION_HAS_OFFICER_PRIVLEGES,Is Officer,1
 36899,GUILD_OFFICER_PERMISSION_ACCESS_CHANNELS,- Access officer channels,1
 36900,GUILD_OFFICER_PERMISSION_REMOVE_FROM_VOICE,- Remove people from voice chat,1
@@ -17302,7 +17302,7 @@ You can find trainers for them in some settlements and cities.",1
 40850,COMMUNITIES_PRESENCE_MOBILE_CHAT,Mobile Chat,1
 40851,COMMUNITIES_INVITE_MANAGER_NUMBERUSES_LABEL,Number of Uses,1
 40852,COMMUNITIES_INVITE_MANAGER_EXPIRES_AFTER_LABEL,Expires After,1
-40853,ERR_BNET_IS_NOT_YOUR_FRIEND,Add %s as a friend to whisper them.,1
+40853,ERR_BNET_IS_NOT_YOUR_FRIEND,Add %s as a friend to whisper them.,3
 40854,COMMUNITIES_CREATE_DIALOG_NAME_INSTRUCTIONS_BATTLE_NET,The name of your group,1
 40855,COMMUNITIES_CREATE_DIALOG_NAME_LABEL_BATTLE_NET,Group Name,1
 40856,COMMUNITIES_CREATE_DIALOG_DESCRIPTION_LABEL_BATTLE_NET,Group Description,1
@@ -17998,14 +17998,14 @@ You can find trainers for them in some settlements and cities.",1
 41636,RAF_RECRUIT_TOOLTIP_MONTH_COUNT,- %d/%d subscription months provided,1
 41637,CLUB_FINDER_NOT_RECRUITING_YOUR_SPECS,Send a note and include your specializations if you would still like to be considered for membership.,1
 41638,CLUB_FINDER_NO_MATCHING_SPEC_DIALOG_ERR_STRING,Currently not recruiting any of your class specializations. You may still apply.,1
-41639,BNET_FRIEND_ZONE_WOW_CLASSIC,WoW Classic: %s,1
-41642,BNET_FRIEND_TOOLTIP_WOW_CLASSIC,WoW Classic,1
+41639,BNET_FRIEND_ZONE_WOW_CLASSIC,WoW Classic: %s,3
+41642,BNET_FRIEND_TOOLTIP_WOW_CLASSIC,WoW Classic,3
 41643,CLUB_FINDER_ONE_SPEC_REQUIRED,At least one specialization is required to apply.,1
 41644,AUCTION_HOUSE_DIALOG_ITEM_FORMAT,%s  x%s,5
 41645,QUEST_SESSION_CHECK_START_SESSION_TITLE,Start Party Sync,1
 41646,QUEST_SESSION_CHECK_START_SESSION_BODY,Sync and replay quests with party members. Your level and skills will be restricted to level (%d).,1
 41647,QUEST_SESSION_CHECK_START_SESSION_BUTTON,Start,1
-41648,BNET_FRIEND_ZONE_WOW_REGULAR,WoW: %s,1
+41648,BNET_FRIEND_ZONE_WOW_REGULAR,WoW: %s,3
 41650,ERR_QUEST_SESSION_RESULT_LEFT,You left the Party Sync.,1
 41651,QUEST_SESSION_CHECK_JOIN_SESSION_TITLE,Join an ongoing Party Sync session,1
 41652,QUEST_SESSION_CHECK_JOIN_SESSION_BODY,"Continue request to Party Sync?\n\n|cffffd200- Your quests will temporarily rewind based on the earliest shared quest state.\n- Some of your current quests may pause.\n- Your level and skills will be restricted based on the lowest level party member.\n- You will be able to accept Replay Quests.|r\n\nWhile Party Sync is active, you gain rewards relevant to your true level.",1
@@ -20103,7 +20103,7 @@ You can find trainers for them in some settlements and cities.",1
 48705,SUGGEST_INVITE_CROSS_FACTION,Suggest Invite to Instance Group,1
 48706,REQUEST_INVITE_CROSS_FACTION,Request Invite to Instance Group,1
 48707,CROSS_FACTION_INVITE_TOOLTIP,You can group with this %s player and do many instanced activities together.\n\n|cffffffffCan do:|r\n- Dungeons (non-queued)\n- Raids (non-queued)\n- Rated PvP\n- Torghast\n\n|cffffffffCan't do:|r\n- Outdoor content,1
-48708,CROSS_FACTION_INVITE_HELPTIP,You can invite friends from the opposite faction to do instanced content together,1
+48708,CROSS_FACTION_INVITE_HELPTIP,You can invite friends from the opposite faction to do instanced content together,3
 48709,ERR_TRAVEL_PASS_QUEST_SESSION,Turn off Party Sync to invite this player,1
 48710,SPELL_FAILED_CUSTOM_ERROR_636,Requires more Syllabic Recall.,1
 48711,SPELL_FAILED_CUSTOM_ERROR_633,Requires 5 Lost Ovoids.,1
@@ -22074,7 +22074,7 @@ And spread his flame to all Azeroth.",1
 51795,WOWLABS_GAMEMODE_DESC,"Pirates clash in a grand battle royale.\n\nYou may queue alone or invite a friend and queue together.
 
 ",3
-51798,INVTYPE_NON_EQUIP_IGNORE,,1
+51798,INVTYPE_NON_EQUIP_IGNORE,,5
 51804,WOWLABS_FIND_GAME_SOLO,Finding Solos Game,3
 51805,WOWLABS_FIND_GAME_DUO,Finding Duos Game,3
 51806,WOWLABS_FIND_GAME_TRIO,Finding Trios Game,3
@@ -22101,9 +22101,9 @@ And spread his flame to all Azeroth.",1
 51841,WOWLABS_SUBSCRIBE_NOW,Subscribe Now,2
 51842,WOWLABS_WAITING_ON_OTHER_PLAYERS,Waiting on other Players...,2
 51845,PLUNDERSTORM_CHAT_INSTANCE_CHAT_GET,|Hchannel:INSTANCE_CHAT|h[Lobby Party]|h %s:\32,3
-51846,PLUNDERSTORM_CHAT_INSTANCE_CHAT_LEADER_GET,|Hchannel:INSTANCE_CHAT|h[Lobby Party]|h %s:\32,1
-51847,PLUNDERSTORM_CHAT_INSTANCE_CHAT_SEND,Lobby Party:\32,1
-51848,PLUNDERSTORM_CHAT_MSG_INSTANCE_CHAT,Lobby Party,1
+51846,PLUNDERSTORM_CHAT_INSTANCE_CHAT_LEADER_GET,|Hchannel:INSTANCE_CHAT|h[Lobby Party]|h %s:\32,3
+51847,PLUNDERSTORM_CHAT_INSTANCE_CHAT_SEND,Lobby Party:\32,3
+51848,PLUNDERSTORM_CHAT_MSG_INSTANCE_CHAT,Lobby Party,3
 51849,WOW_LABS_VIEW_REWARDS,View Rewards,1
 51850,EXPANSION_SEASON_NAME,%s Season %d,1
 51856,WOW_LABS_PARTY_RESURRECTABLE_INDICATOR,Resurrectable,1
@@ -22118,3 +22118,4 @@ And spread his flame to all Azeroth.",1
 51899,WOW_LABS_CONFIRM_LEAVE_MATCH_PLUNDER_SOLO,You will lose all Plunder earned this match if you leave before you are eliminated.|n|nAre you sure you want to leave?,1
 51917,WOWLABS_CURRENCY_PICKUP,+%s Plunder,3
 51918,ERROR_CONNECT_TO_PLUNDERSTORM_FAILED_DIALOG,Couldn't connect to Plunderstorm. Please try again later.,2
+51957,SPECTATING,SPECTATING,1
