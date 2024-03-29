@@ -27015,6 +27015,9 @@ ID,FilePath,FileName
 803980,Interface\AddOns\Blizzard_GMChatUI\,Blizzard_GMChatUI.lua
 803981,Interface\AddOns\Blizzard_GMChatUI\,Blizzard_GMChatUI.xml
 803982,Interface\AddOns\Blizzard_GMChatUI\,Localization.lua
+803989,Interface\AddOns\Blizzard_GuildControlUI\,Blizzard_GuildControlUI.lua
+803990,Interface\AddOns\Blizzard_GuildControlUI\,Blizzard_GuildControlUI.xml
+803991,Interface\AddOns\Blizzard_GuildControlUI\,Localization.lua
 804017,Interface\AddOns\Blizzard_ItemSocketingUI\,Blizzard_ItemSocketingUI.lua
 804018,Interface\AddOns\Blizzard_ItemSocketingUI\,Blizzard_ItemSocketingUI.xml
 804019,Interface\AddOns\Blizzard_ItemSocketingUI\,Localization.lua
@@ -27143,6 +27146,7 @@ ID,FilePath,FileName
 841736,Interface\AddOns\Blizzard_CompactRaidFrames\,Blizzard_CompactRaidFrames.toc
 841738,Interface\AddOns\Blizzard_ArenaUI\,Blizzard_ArenaUI.toc
 841745,Interface\AddOns\Blizzard_BindingUI\,Blizzard_BindingUI.toc
+841750,Interface\AddOns\Blizzard_GuildControlUI\,Blizzard_GuildControlUI.toc
 841751,Interface\AddOns\Blizzard_ClientSavedVariables\,Blizzard_ClientSavedVariables.toc
 841753,Interface\AddOns\Blizzard_ItemSocketingUI\,Blizzard_ItemSocketingUI.toc
 841756,Interface\AddOns\Blizzard_CUFProfiles\,Blizzard_CUFProfiles.toc
@@ -36337,6 +36341,7 @@ ID,FilePath,FileName
 1498888,Interface\WorldMap\MicroDungeon\DeadwindPass\Dalaran\,Dalaran21_9.blp
 1498895,Interface\Glues\Models\UI_MainMenu_Legion\,UI_MainMenu_Legion_Low_04.blp
 1499726,Interface\Glues\Models\UI_MainMenu_Legion\,UI_MainMenu_Legion_Low_05.blp
+1500877,Interface\ICONS\,INV_Misc_ScrollUnrolled01.BLP
 1502543,Interface\Minimap\,Dungeon.blp
 1502548,Interface\Minimap\,Raid.blp
 1507501,Interface\WorldMap\MicroDungeon\Suramar\SuramarMicroLarge01\,SuramarMicroLarge0124_1.blp
@@ -40187,6 +40192,7 @@ ID,FilePath,FileName
 4637063,Interface\AddOns\Blizzard_APIDocumentationGenerated\,ClubDocumentation.lua
 4637064,Interface\AddOns\Blizzard_APIDocumentationGenerated\,CooldownFrameAPIDocumentation.lua
 4637065,Interface\AddOns\Blizzard_APIDocumentationGenerated\,ConsoleDocumentation.lua
+4637066,Interface\AddOns\Blizzard_APIDocumentationGenerated\,ClubFinderDocumentation.lua
 4637070,Interface\AddOns\Blizzard_APIDocumentationGenerated\,ContributionCollectorDocumentation.lua
 4637071,Interface\AddOns\Blizzard_APIDocumentationGenerated\,ConfigurationWarningsDocumentation.lua
 4637075,Interface\AddOns\Blizzard_APIDocumentationGenerated\,ContainerDocumentation.lua
@@ -40842,7 +40848,6 @@ ID,FilePath,FileName
 5612365,Interface\AddOns\Blizzard_SharedXML\,AnimationTemplates.lua
 5612366,Interface\AddOns\Blizzard_UIWidgets\Classic\,Blizzard_UIWidgetTemplateScenarioHeaderCurrenciesAndBackground.xml
 5612367,Interface\AddOns\Blizzard_UIParent\Classic\,UIParentDebugMenu.lua
-5612368,Interface\AddOns\Blizzard_GlueXML\Vanilla\,CinematicsFrame.xml
 5612369,Interface\AddOns\Blizzard_LoadLocale\,LoadLocale.lua
 5612371,Interface\AddOns\Blizzard_SettingsDefinitions_Frame\,TextToSpeech.lua
 5612372,Interface\AddOns\Blizzard_FrameXMLUtil\,CalendarUtil.lua
@@ -40921,6 +40926,7 @@ ID,FilePath,FileName
 5612522,Interface\AddOns\Blizzard_HelpFrame\,HelpFrame.lua
 5612524,Interface\AddOns\Blizzard_TimeManager\Classic\,Localization.lua
 5612525,Interface\AddOns\Blizzard_SharedXML\,ManagedLayoutFrame.lua
+5612526,Interface\AddOns\Blizzard_FrameXML\,GuildUtil.lua
 5612527,Interface\AddOns\Blizzard_UnitPopup\,UnitPopupCustomControls.lua
 5612533,Interface\AddOns\Blizzard_FrameXML\Classic\,LowHealthFrame.xml
 5612536,Interface\AddOns\Blizzard_UIPanels_Game\TBC\,QuestInfo.xml
@@ -40956,7 +40962,6 @@ ID,FilePath,FileName
 5612588,Interface\AddOns\Blizzard_FrameXML\,Bindings_Cata.xml
 5612591,Interface\AddOns\Blizzard_SharedXML\,DropDownToggleButton.lua
 5612592,Interface\AddOns\Blizzard_QueueStatusFrame\,Blizzard_QueueStatusFrame_Classic.toc
-5612595,Interface\AddOns\Blizzard_GlueXML\Vanilla\,CinematicsFrame.lua
 5612598,Interface\AddOns\Blizzard_GlueXML\Vanilla\,CharacterCreate.xml
 5612599,Interface\AddOns\Blizzard_UnitFrame\Vanilla\,TargetFrame.xml
 5612600,Interface\AddOns\Blizzard_GlueXML\Classic\,GlueTooltip.lua
@@ -41112,7 +41117,6 @@ ID,FilePath,FileName
 5612857,Interface\AddOns\Blizzard_UIPanels_Game\Classic\,ReputationFrame.xml
 5612858,Interface\AddOns\Blizzard_GroupFinder\Classic\,PVEFrame.xml
 5612861,Interface\AddOns\Blizzard_SharedXML\Shared\Selector\,Blizzard_SelectorUI.xml
-5612862,Interface\AddOns\Blizzard_FrameXMLUtil\Classic\,CommunitiesUtil.lua
 5612864,Interface\AddOns\Blizzard_UnitFrame\Classic\,CompactUnitFrame.xml
 5612865,Interface\AddOns\Blizzard_GlueXMLBase\TBC\,Constants.lua
 5612866,Interface\AddOns\Blizzard_Options_Glue\,Blizzard_Options_Glue.toc
@@ -41324,7 +41328,6 @@ ID,FilePath,FileName
 5613244,Interface\AddOns\Blizzard_InspectUI\Vanilla\,Blizzard_InspectUI.lua
 5613247,Interface\AddOns\Blizzard_SharedXML\,ModelSceneMixin.xml
 5613248,Interface\AddOns\Blizzard_SharedXML\,ToolWindowOwnerMixin.lua
-5613250,Interface\AddOns\Blizzard_GlueXML\Wrath\,CinematicsFrame.lua
 5613251,Interface\AddOns\Blizzard_UIPanels_Game\Vanilla\,QuestFrame.xml
 5613252,Interface\AddOns\Blizzard_FrameXML\Classic\,MirrorTimer.lua
 5613253,Interface\AddOns\Blizzard_UIPanels_Game\Classic\,TabardFrame.lua
@@ -41427,9 +41430,7 @@ ID,FilePath,FileName
 5613438,Interface\AddOns\Blizzard_UnitFrameUtil\,Blizzard_UnitFrameUtil_Classic.toc
 5613439,Interface\AddOns\Blizzard_SharedXML\,SecureScrollTemplates.lua
 5613445,Interface\AddOns\Blizzard_SharedXML\Classic\,SecureCurrencyUtil.lua
-5613449,Interface\AddOns\Blizzard_GlueXML\Wrath\,CinematicsFrame.xml
 5613451,Interface\AddOns\Blizzard_ChatFrame\Shared\,VoiceChatTranscriptionFrame.lua
-5613452,Interface\AddOns\Blizzard_GlueXML\TBC\,CinematicsFrame.lua
 5613453,Interface\AddOns\Blizzard_SharedXML\Shared\Scroll\,TrimScrollBar.lua
 5613454,Interface\AddOns\Blizzard_SharedXML\Classic\,UIDropDownMenu.lua
 5613455,Interface\AddOns\Blizzard_RaidUI\Wrath\,Blizzard_RaidUI.xml
@@ -41622,6 +41623,7 @@ ID,FilePath,FileName
 5613800,Interface\AddOns\Blizzard_UIPanels_Game\Shared\,SocialQueue.lua
 5613803,Interface\AddOns\Blizzard_CharacterFrame\,Blizzard_CharacterFrame_Cata.toc
 5613806,Interface\AddOns\Blizzard_SharedXML\Shared\Scroll\,ScrollBox.lua
+5613808,Interface\AddOns\Blizzard_Communities\,Blizzard_Communities_Classic.toc
 5613810,Interface\AddOns\Blizzard_FrameXML\,CustomBindingHandler.lua
 5613811,Interface\AddOns\Blizzard_UIPanels_Game\Classic\,RaidFrame.xml
 5613812,Interface\AddOns\Blizzard_ActionBar\Classic\,PossessActionBar.lua
@@ -41808,7 +41810,6 @@ ID,FilePath,FileName
 5614119,Interface\AddOns\DevBuildAlert\,DevBuildAlert.toc
 5614120,Interface\AddOns\Blizzard_FrameXMLUtil\Classic\,MapUtil.lua
 5614122,Interface\AddOns\Blizzard_UIPanels_Game\Classic\,UnitPositionFrameTemplates.lua
-5614124,Interface\AddOns\Blizzard_GlueXML\TBC\,CinematicsFrame.xml
 5614125,Interface\AddOns\Blizzard_Options_Frame\,OptionsFrameTemplates.lua
 5614126,Interface\AddOns\Blizzard_SharedXML\Shared\Frame\,EventButton.xml
 5614128,Interface\AddOns\Blizzard_AuctionUI\Classic\,Blizzard_AuctionUI.lua
@@ -41932,3 +41933,11 @@ ID,FilePath,FileName
 5754290,Interface\AddOns\Blizzard_TalentUI\Classic\,Blizzard_TalentUI.lua
 5754291,Interface\AddOns\Blizzard_ArchaeologyUI\Cata\,Blizzard_ArchaeologyUI.xml
 5754292,Interface\AddOns\Blizzard_TalentUI\Classic\,Blizzard_TalentUI.xml
+5755550,Interface\AddOns\Blizzard_APIDocumentationGenerated\,Deprecated_11_0_0Documentation.lua
+5762031,Interface\AddOns\Blizzard_APIDocumentationGenerated\,TimerunningConstantsDocumentation.lua
+5767279,Interface\Common\,CommonDropdownClassic.BLP
+5767554,Interface\Common\,CommonDropdownClassic2x.BLP
+5778218,Interface\GLUES\COMMON\,gamelogo-cataclysm.blp
+5778886,Interface\AddOns\Blizzard_FrameXMLUtil\,CommunitiesUtil.lua
+5787974,Interface\AddOns\Blizzard_GlueXML\Classic\,CinematicsFrame.xml
+5787975,Interface\AddOns\Blizzard_GlueXML\Classic\,CinematicsFrame.lua
