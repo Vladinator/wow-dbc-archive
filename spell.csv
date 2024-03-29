@@ -309333,6 +309333,7 @@ The totem repeatedly casts $@spellname373941.",
 373963,,,
 373965,,,
 373966,,Attunes the target to their proper timeline.,Attunes the target to their proper timeline.
+373967,,Summons and dismisses your $@spellname180545.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
 373968,,,
 373969,,,
 373970,,,
@@ -309462,6 +309463,7 @@ Attacks against this unit will cause this unit to heal $268710s1% of maximum hea
 374091,,,
 374094,,,
 374095,,Throw a banana at target chump.,
+374097,,Summons and dismisses this mount.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
 374098,,Summons and dismisses this mount.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
 374099,,,
 374100,,,
@@ -359711,7 +359713,7 @@ Fade into the shadows, teleporting in the direction you are moving while enterin
 |CFFFFFFFF- Mobility|R
 
 |CFFFFFFFF18 sec cooldown|R
-Transform into a Fae creature, gaining immunity to harmful debuffs, increased movement speed, and damage reduction for a short duration.
+Transform into a Fae creature, gaining immunity to harmful debuffs and increased movement speed for a short duration.
 
 Cannot attack while transformed.",
 432599,,,
@@ -359864,7 +359866,7 @@ Fade into the shadows, teleporting in the direction you are moving while enterin
 |CFFFFFFFF- Mobility|R
 
 |CFFFFFFFF16 sec cooldown|R
-Transform into a Fae creature, gaining immunity to harmful debuffs, increased movement speed, and damage reduction for a short duration.
+Transform into a Fae creature, gaining immunity to harmful debuffs and increased movement speed for a short duration.
 
 Cannot attack while transformed.",
 432769,Utility,"|CFFFFFFFF- Caster buff|R
@@ -359872,7 +359874,7 @@ Cannot attack while transformed.",
 |CFFFFFFFF- Mobility|R
 
 |CFFFFFFFF14 sec cooldown|R
-Transform into a Fae creature, gaining immunity to harmful debuffs, increased movement speed, and damage reduction for a short duration.
+Transform into a Fae creature, gaining immunity to harmful debuffs and increased movement speed for a short duration.
 
 Cannot attack while transformed.",
 432770,Utility,"|CFFFFFFFF- Caster buff|R
@@ -359880,7 +359882,7 @@ Cannot attack while transformed.",
 |CFFFFFFFF- Mobility|R
 
 |CFFFFFFFF12 sec cooldown|R
-Transform into a Fae creature, gaining immunity to harmful debuffs, increased movement speed, and damage reduction for a short duration.
+Transform into a Fae creature, gaining immunity to harmful debuffs and increased movement speed for a short duration.
 
 Cannot attack while transformed.",
 432772,,$@spelldesc116680,Absorbing $w1 damage.
@@ -360655,32 +360657,40 @@ Channel the cosmic void, compressing it into a bomb that explodes after a short 
 435014,,,
 435018,Offensive,"|CFFFFFFFF- Caster AoE|R
 |CFFFFFFFF- Stuns|R
-|CFFFFFFFF- Large area|R
+|CFFFFFFFF- Crowd Control Immunity|R
 
 |CFFFFFFFF18 sec cooldown|R
-Sunder the earth in an area around the caster, damaging and stunning enemies hit.",
+Sunder the earth in an area around the caster, damaging and stunning enemies hit.
+
+While casting, you are immune to crowd control.",
 435020,,$@spelldesc435021,
 435021,Offensive,"|CFFFFFFFF- Caster AoE|R
 |CFFFFFFFF- Stuns|R
-|CFFFFFFFF- Large area|R
+|CFFFFFFFF- Crowd Control Immunity|R
 
 |CFFFFFFFF16 sec cooldown|R
-Sunder the earth in an area around the caster, damaging and stunning enemies hit.",
+Sunder the earth in an area around the caster, damaging and stunning enemies hit.
+
+While casting, you are immune to crowd control.",
 435022,,$@spelldesc435023,
 435023,Offensive,"|CFFFFFFFF- Caster AoE|R
 |CFFFFFFFF- Stuns|R
-|CFFFFFFFF- Large area|R
+|CFFFFFFFF-Crowd Control Immunity|R
 
 |CFFFFFFFF14 sec cooldown|R
 Sunder the earth in an area around the caster, damaging and stunning enemies hit. 
+
+While casting, you are immune to crowd control.
 ",
 435024,,$@spelldesc435025,
 435025,Offensive,"|CFFFFFFFF- Caster AoE|R
 |CFFFFFFFF- Stuns|R
-|CFFFFFFFF- Large area|R
+|CFFFFFFFF- Crowd Control Immunity|R
 
 |CFFFFFFFF12 sec cooldown|R
-Sunder the earth in an area around the caster, damaging and stunning enemies hit.",
+Sunder the earth in an area around the caster, damaging and stunning enemies hit.
+
+While casting, you are immune to crowd control.",
 435027,,,
 435029,,$@spelldesc435030,
 435030,Offensive,"|CFFFFFFFF- Close range|R
@@ -360807,7 +360817,7 @@ Erect a powerful arcane barrier that repels all damage and harmful debuffs. Then
 |CFFFFFFFF- Cannot miss|R
 |CFFFFFFFF- Shorter cooldown|R
 
-|CFFFFFFFF8 sec cooldown|R
+|CFFFFFFFF8.5 sec cooldown|R
 Fire an icy arrow that seeks your current target, damaging them and nearby enemies.
 ",
 435289,,$@spelldesc435290,
@@ -360815,7 +360825,7 @@ Fire an icy arrow that seeks your current target, damaging them and nearby enemi
 |CFFFFFFFF- Cannot miss|R
 |CFFFFFFFF- Shorter cooldown|R
 
-|CFFFFFFFF6 sec cooldown|R
+|CFFFFFFFF7 sec cooldown|R
 Fire an icy arrow that seeks your current target, damaging them and nearby enemies.
 ",
 435291,,$@spelldesc435292,
@@ -360831,7 +360841,7 @@ Erect a powerful arcane barrier that repels all damage and harmful debuffs. Then
 |CFFFFFFFF- Cannot miss|R
 |CFFFFFFFF- Shorter cooldown|R
 
-|CFFFFFFFF4 sec cooldown|R
+|CFFFFFFFF5.5 sec cooldown|R
 Fire an icy arrow that seeks your current target, damaging them and nearby enemies.",
 435296,Utility,"|CFFFFFFFF- Caster buff|R
 |CFFFFFFFF- Immunity|R
@@ -361795,3 +361805,9 @@ Recast Storm Archon to call another element. Can be recast twice.",
 447217,,,
 447222,,,
 447481,,,
+448386,,,
+448789,,,
+448906,,,
+449066,,,"Plunder carried: $w1
+
+Earn experience whenever you collect an additional 25 Plunder during the storm."
