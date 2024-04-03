@@ -3,7 +3,10 @@ ID,Variables
 808,"$base=${5.741530-0.255683*$PL+0.032656*$PL*$PL}
 $percombo=${8.740728-0.415787*$PL+0.051973*$PL*$PL}"
 809,"$power=${13.828124+0.018012*$PL+0.044141*$PL*$PL}
-$healpower=${38.258376+0.904195*$PL+0.161311*$PL*$PL}"
+$healpower=${38.258376+0.904195*$PL+0.161311*$PL*$PL}
+$frostdamage1=$?s11151[${1.02}][${1.0}]
+$frostdamage2=$?s12952[${1.04}][${$<frostdamage1>}]
+$frostdamage=$?s12953[${1.06}][${$<frostdamage2>}]"
 810,"$damagepower=${9.456667+0.635108*$PL+0.039063*$PL*$PL}
 $healpower=${38.258376+0.904195*$PL+0.161311*$PL*$PL}"
 815,"$damagepower=${9.046514+0.676562*$PL+0.019349*$PL*$PL}

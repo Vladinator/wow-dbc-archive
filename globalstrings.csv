@@ -18192,7 +18192,6 @@ ID,BaseTag,TagText_lang,Flags
 50569,AUDIO_CACHE_SIZE_LARGE,Large (%dMB),3
 50571,AUDIO_LABEL,Audio,3
 50604,BROADCAST_LEVELUP,%s has reached level %d!,1
-51169,HARDCORE_GUILD_MEMBER_DEATH,%s has died!,1
 51177,PVE_AND_PVP,PvE and PvP,3
 51180,COMPACT_UNIT_FRAME_PROFILE_LABEL,Raid Profile,1
 51207,ERR_DUEL_TO_THE_DEATH_FORFEIT,"There is no concession in a Duel to the Death, coward!",1
@@ -18217,24 +18216,24 @@ ID,BaseTag,TagText_lang,Flags
 51392,SLASH_TEXTTOSPEECH_PING,ping,1
 51393,SLASH_TEXTTOSPEECH_HELP_PING,Enable or disable ping messages,1
 51397,SPELL_FAILED_CUSTOM_ERROR_361,You must be on Westfall farmland,1
-51400,ANNOUNCE_GUILD_MEMBER_DEATH,Announce Guild Member Death,1
-51401,ANNOUNCE_GUILD_MEMBER_DEATH_TOOLTIP,Check this box to have a warning appear on your screen when a guild member dies.,1
-51402,GUILD_DEATHS,Guild Deaths,1
-51404,HARDCORE_GUILD_MEMBER_DEATH_AREA,|Hplayer:%s|h[%s]|h has died at level %d while in %s,1
-51405,CHAT_GUILD_DEATHS_GET,\21,1
-51406,HARDCORE_GUILD_MEMBER_DEATH_KILLER,", slain by: %s.",1
-51407,HARDCORE_GUILD_MEMBER_DEATH_NO_AREA,|Hplayer:%s|h[%s]|h has died at level %d,1
+51400,HARDCORE_ANNOUNCE_DEATH,Hardcore death announcements,1
+51401,HARDCORE_ANNOUNCE_DEATH_GUILD,Guild Deaths,1
+51402,HARDCORE_DEATHS,Hardcore Deaths,1
+51404,HARDCORE_CAUSEOFDEATH_SLIME,|Hplayer:%s|h[%s]|h was slimed to death in %s! They w,1
+51405,CHAT_HARDCORE_DEATHS_GET,\21,1
+51406,HARDCORE_CAUSEOFDEATH_PVP,|Hplayer:%s|h[%s]|h has been slain by %s in %s! They were level %d,1
+51407,HARDCORE_CAUSEOFDEATH_NONE,|Hplayer:%s|h[%s]|h has died at level %d,1
 51410,BLIZZARD_STORE_CLICK_TO_OPEN_FAQ,|cnPURE_GREEN_COLOR:<Shift click to view Frequently Asked Questions in your browser>|r,3
 51412,SPELL_FAILED_CUSTOM_ERROR_362,Creature not tameable,1
 51430,SHOW_MAX_LEVEL_ANNOUNCEMENT,Show Max Level Announcements,1
 51431,SHOW_MAX_LEVEL_ANNOUNCEMENT_TOOLTIP,Check this box to have a chat message display and a sound effect play when a player reaches max level on the realm.,1
 51454,RESTRICT_CALENDAR_INVITES,Restrict Calendar Invites ,1
 51464,SPELL_FAILED_CUSTOM_ERROR_363,You must be on a fishing boat.,1
-51481,HARDCORE_GUILD_MEMBER_DEATH_ENVIRONMENTAL_FELL,", they fell to their death.",1
-51482,HARDCORE_GUILD_MEMBER_DEATH_ENVIRONMENTAL_DROWNED,", they drowned.",1
-51483,HARDCORE_GUILD_MEMBER_DEATH_ENVIRONMENTAL_FIRE,", they were burnt to death.",1
-51497,HARDCORE_GUILD_MEMBER_DEATH_DUEL, They were slain in a duel to the death.,1
-51502,HARDCORE_GUILD_MEMBER_DEATH_ENVIRONMENTAL_FATIGUE,", they died from fatigue.",1
+51481,HARDCORE_CAUSEOFDEATH_CREATURE,|Hplayer:%s|h[%s]|h has been slain by a %s in %s! They were level %d,1
+51482,HARDCORE_CAUSEOFDEATH_DROWNING,|Hplayer:%s|h[%s]|h drowned to death in %s! They were level %d,1
+51483,HARDCORE_CAUSEOFDEATH_DUEL,|Hplayer:%s|h[%s]|h has been slain in a duel by %s in $s! They were level %d,1
+51497,HARDCORE_CAUSEOFDEATH_FALLING,|Hplayer:%s|h[%s]|h fell to their death in %s! They were level %d,1
+51502,HARDCORE_CAUSEOFDEATH_FATIGUE,|Hplayer:%s|h[%s]|h died of fatigue in %s! They were level %d,1
 51532,CHARACTER_LINK_CLASS_LEVEL_SPEC_TOOLTIP,Level %d %s (%s),1
 51580,REMOVE_RUNE,Remove Rune,1
 51581,RUNE_CATEGORY_OTHER,Other,1
@@ -18264,4 +18263,36 @@ These restrictions can be removed at any time by talking to an in-game character
 51729,OPTION_TOOLTIP_SHOW_DYNAMIC_BUFF_SIZE,Check this to make your buffs and debuffs appear larger than other effects on a target.,1
 51731,REINCARNATE_CHARACTER,Reincarnate Selected Character,2
 51732,DEATH_REINCARNATE_CHARACTER,Reincarnate!,3
+51756,ADDON_DEP_NOT_AVAILABLE,Dependency not available,3
+51757,ADDON_EXCLUDED_FROM_BUILD,Excluded from build,3
+51758,ADDON_DEP_EXCLUDED_FROM_BUILD,Dependency excluded from build,3
+51759,ADDON_NO_ACTIVE_INTERFACE,No active UI,3
+51760,ADDON_DEP_NO_ACTIVE_INTERFACE,Dependency has no active UI,3
+51761,ADDON_WRONG_ACTIVE_INTERFACE,Wrong active UI,3
+51762,ADDON_DEP_WRONG_ACTIVE_INTERFACE,Dependency has wrong active UI,3
+51763,ADDON_WRONG_GAME_TYPE,Wrong game type,3
+51764,ADDON_DEP_WRONG_GAME_TYPE,Dependency has wrong game type,3
+51765,ADDON_WRONG_LOAD_PHASE,Wrong load phase,3
+51766,ADDON_DEP_WRONG_LOAD_PHASE,Dependency has wrong load phase,3
+51767,ADDON_USER_ADDONS_DISABLED,User addons disabled,3
+51768,ADDON_DEP_USER_ADDONS_DISABLED,Dependency user addons disabled,3
 51782,SELF_FOUND,Self-found,2
+51799,INVTYPE_NON_EQUIP_IGNORE,,0
+51802,CHAR_CREATE_REINCARNATION_FAILED,"Character creation failure.\n
+Your reincarnating name has been reserved.\n
+Please try again.",2
+51803,REINCARNATE_CHARACTER_CONFIRMATION,"Are you sure you want to reincarnate \n
+|cffffffff%s   Level %d   %s|r?
+They will be deleted and remade with the current customized character.",2
+51816,REINCARNATE_CONFIRM_STRING,Reincarnate,2
+51817,CONFIRM_CHAR_REINCARNATE_INSTRUCTIONS,"Type ""REINCARNATE"" into the field to confirm.",2
+51852,HARDCORE_CAUSEOFDEATH_LAVA,|Hplayer:%s|h[%s]|h was burnt to a crisp by lava in %s! They were level %d,1
+51853,HARDCORE_CAUSEOFDEATH_FIRE,|Hplayer:%s|h[%s]|h was burnt to death by fire in %s! They were level %d,1
+51871,OPTION_TOOLTIP_HARDCORE_ANNOUNCE_DEATH_DISPLAY1,Only show guild deaths in chat,1
+51872,HARDCORE_ANNOUNCE_DEATH_ALL,All deaths,1
+51873,OPTION_TOOLTIP_HARDCORE_ANNOUNCE_DEATH_DISPLAY2,Announce all deaths on the realm,1
+51874,HARDCORE_ANNOUNCE_DEATH_ALERT,Hardcore death alerts,1
+51875,OPTION_TOOLTIP_HARDCORE_ANNOUNCE_DEATH_ALERT_DISPLAY1,Never show a raid-style warning for any deaths,1
+51876,OPTION_TOOLTIP_HARDCORE_ANNOUNCE_DEATH_ALERT_DISPLAY2,Only show raid-style warnings for guilds member deaths,1
+51877,OPTION_TOOLTIP_HARDCORE_ANNOUNCE_DEATH_ALERT_DISPLAY3,Show raid-style warnings for all deaths on the realm,1
+51925,SPELL_FAILED_CUSTOM_ERROR_364,Inventory is full.,1

@@ -112,15 +112,30 @@ modelRoll = time * 1000",0,1
 modelRoll = time * 200",0,1
 4705,Spellfrost Bolt bottom spin,"local modelRoll = 0
 local modelPitch = 180
+local modelYaw = 180
 
 
-modelRoll = (time * 200)*-1",0,1
+modelRoll = (time * 200)",0,1
 4708,High Arc Parabola,"local angle = 0
 local maxMagnitude = startDistance * .30
 
 transAngle = angle
 transMag = (progress * 2) - 1
 transMag = (1 - (transMag * transMag)) * maxMagnitude",0,1
+4709,Incinerate v2,"local waveHeight = 1.2
+local wavesPerSec = 1.6
+
+
+
+transRight = waveHeight * (1-progress) * sin(time * wavesPerSec * 360)
+
+if rand2>0.5 then transRight = -1*transRight end
+
+scale = 0.3 + (progress)
+
+--speedAbs = rand1*10-5
+local randomSpeedAmount = 0.25
+out_speedScale = (1 - randomSpeedAmount) + (rand1 * randomSpeedAmount)",0,0
 4710,S03 - GNO Raid - Crowd Pummeler - Gnomeregan Smash - Bleacher Missile,"local angle = 0
 local maxMagnitude = startDistance * .15
 local spinRate = 1080
@@ -156,3 +171,79 @@ local maxMagnitude = startDistance * .40
 --transMag = (progress * 2) - 1
 --transMag = (1 - (transMag * transMag)) * maxMagnitude
 modelPitch = progress * 1000",0,0
+4730,Drunken Fountain (3 Missiles),"local angle = 0
+local maxMagnitude = startDistance * .5
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+
+transFront = -distanceToFirePos * (1 - progress)
+
+local magnitude = transMag * .15
+
+transRight = (sin((rand1 * 1000) + (time * 400)) + cos((rand3 * 1000) + (time * 60))) * magnitude
+transUp = (sin((rand2 * 1000) + (time * 300)) + cos((rand1 * 1000) + (time * 100))) * magnitude
+transFront = transFront +
+	(sin((rand3 * 1000) + (time * 300)) + cos((rand2 * 1000) + (time * 100))) * magnitude
+",0,3
+4734,Drunken Fountain (1 Missiles),"local angle = 0
+local maxMagnitude = startDistance * .5
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+
+transFront = -distanceToFirePos * (1 - progress)
+
+local magnitude = transMag * .15
+
+transRight = (sin((rand1 * 1000) + (time * 400)) + cos((rand3 * 1000) + (time * 60))) * magnitude
+transUp = (sin((rand2 * 1000) + (time * 300)) + cos((rand1 * 1000) + (time * 100))) * magnitude
+transFront = transFront +
+	(sin((rand3 * 1000) + (time * 300)) + cos((rand2 * 1000) + (time * 100))) * magnitude
+",0,1
+4735,"Drunken Fountain (1 Missiles, Higher)","local angle = 0
+local maxMagnitude = startDistance * 1
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+
+transFront = -distanceToFirePos * (1 - progress)
+
+local magnitude = transMag * .15
+
+transRight = (sin((rand1 * 1000) + (time * 400)) + cos((rand3 * 1000) + (time * 60))) * magnitude
+transUp = (sin((rand2 * 1000) + (time * 300)) + cos((rand1 * 1000) + (time * 100))) * magnitude
+transFront = transFront +
+	(sin((rand3 * 1000) + (time * 300)) + cos((rand2 * 1000) + (time * 100))) * magnitude
+",0,1
+4736,Meteor Strike (30 Yards) Falls Straight Down,"local magnitude = 30
+
+transUp = magnitude * ( 1 - progress )
+transFront = distanceToImpactPos",0,0
+4737,Meteor Strike (20 Yards) Falls Straight Down,"local magnitude = 20
+
+transUp = magnitude * ( 1 - progress )
+transFront = distanceToImpactPos",0,0
+4740,Spin (Roll) - 1080 (Unstable Cask),"--[[
+speed = 50
+launchDelay = .15
+
+travelTime = totalDistance / speed
+totalTime = launchDelay + travelTime
+actualProgress = (launchProgress*launchDelay + progress*travelTime) / (totalTime)
+
+transFrontExpected =  totalDistance * actualProgress 
+transFrontTravelled = totalDistance * progress
+transFront = transFrontExpected - transFrontTravelled
+--]]
+
+transRight = -(sin(progress*180))*math.pow(startDistance,.3)
+
+modelYaw  = 60",0,0
+4752,BaleFire Bolt Animation correction,"local modelRoll = 90
+local modelPitch = 0
+
+modelPitch = (time * 200)",0,0
