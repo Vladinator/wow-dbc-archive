@@ -12859,7 +12859,7 @@ ID,BaseTag,TagText_lang,Flags
 24681,GARRISON_BUILDING_IN_PROGRESS,Building in Progress,1
 24682,GARRISON_UPGRADE_IN_PROGRESS,Upgrade in Progress,1
 24683,GARRISON_BUILDING_LOCKED,Building Locked,1
-24684,NEW_CAPS,NEW,1
+24684,NEW_CAPS,NEW,3
 24688,CR_LIFESTEAL_TOOLTIP,Returns a portion of your damage and healing as healing to you.\n\nLeech: %s [+%.2f%%],1
 24689,CR_STURDINESS_TOOLTIP,Prevents durability loss on items.,1
 24690,WORLD,World,1
@@ -17173,7 +17173,10 @@ ID,BaseTag,TagText_lang,Flags
 36535,WINDOW_SIZE_LABEL,Window Size,1
 36536,VOICE_CHAT_CHANNEL_ACTIVE_TOOLTIP_INSTRUCTIONS,<Click to deactivate>,1
 36537,VOICE_CHAT_CHANNEL_INACTIVE_TOOLTIP_INSTRUCTIONS,<Click to activate>,1
+36543,GUILD_RECRUITMENT,Recruitment,1
 36544,GUILD_CONTROL_BUTTON_TEXT,Guild Settings,1
+36546,GUILD_INFO_TITLE,Info,1
+36547,GUILD_NEWS_TITLE,Guild News,1
 36646,COMMUNITIES_SETTINGS_LABEL,Group Settings,1
 36647,COMMUNITIES_SETTINGS_CHARACTER_LABEL,Community Settings,1
 36648,COMMUNITIES_SETTINGS_NAME_LABEL,Name,1
@@ -17194,6 +17197,7 @@ ID,BaseTag,TagText_lang,Flags
 36670,CONFIRM_LEAVE_COMMUNITY,Leave Group?,1
 36671,CONFIRM_LEAVE_CHARACTER_COMMUNITY_SUBTEXT,Are you sure you want to leave %s?,1
 36672,CONFIRM_LEAVE_COMMUNITY_SUBTEXT,Are you sure you want to leave %s?,1
+36677,GUILD_AND_COMMUNITIES,Guild & Communities,1
 36680,COMMUNITIES_INVITE_MANAGER_LABEL,Invite to %s,1
 36681,COMMUNITIES_INVITE_MANAGER_LINK_LABEL,Share this link to invite people to your group.,1
 36682,COMMUNITIES_INVITE_MANAGER_CHARACTER_LINK_LABEL,Share this link to invite people to your community.,1
@@ -17418,10 +17422,19 @@ ID,BaseTag,TagText_lang,Flags
 41125,AUCTION_CATEGORY_QUIVER,Quiver,1
 41126,AUCTION_CATEGORY_REAGENT,Reagent,1
 41127,COPY_CHARACTER_NAME,Copy Character Name,1
+41130,CLUB_FINDER_LIST_GUILD,List My Guild in Guild Finder,1
+41133,CLUB_FINDER_MAX_LEVEL_ONLY,Max Level Only,1
+41136,CLUB_FINDER_GUILD_SIZE,Guild Size,1
+41138,CLUB_FINDER_FOCUS,Focus,1
+41140,CLUB_FINDER_LOOKING_FOR,Looking For:,1
+41142,CLUB_FINDER_SORT_BY,Sort By,1
+41144,CLUB_FINDER_RECRUITMENT_MESSAGE,Recruitment Message,1
+41148,COMMUNITIES_GUILD_FINDER_DESCRIPTION2,"A guild is a tight-knit group of players who want to enjoy the game together. By joining a guild, you'll gain access to many benefits, including a shared guild bank and a guild chat channel.|n|nUse this tool to find a guild that fits your playstyle.",1
 41176,GXAPI_D3D11_LEGACY,DirectX 11 Legacy,3
 41184,FACTION_NEUTRAL,Neutral,1
 41190,YOU_LOOT_MONEY_MOD,You loot %s (+%s),1
 41191,LOOT_MONEY_SPLIT_MOD,Your share of the loot is %s (+%s),1
+41198,CLUB_FINDER_REQUEST_TO_JOIN,Request to Join,1
 41211,VISITABLE_URL47,https://nydus.battle.net/WoW/%s/client/support/gvas-cannot-start?targetRegion=%s,3
 41212,VISITABLE_URL48,https://nydus.battle.net/WoW/%s/client/transactions?targetRegion=%s,3
 41230,VOICE_CHAT_ERROR_CODE_FORMATTER,(VoiceError: %d),1
@@ -17451,17 +17464,27 @@ ID,BaseTag,TagText_lang,Flags
 41600,ENTER_LFG,Enter,1
 41608,ERR_BATTLEGROUND_JOIN_DISQUALIFIED_NO_NAME,A player has been disqualified from ranked play in this bracket.,1
 41615,CREDITS_WOW_CLASSIC,World of Warcraft Classic Credits,2
+41637,CLUB_FINDER_NOT_RECRUITING_YOUR_SPECS,Send a note and include your specializations if you would still like to be considered for membership.,1
+41638,CLUB_FINDER_NO_MATCHING_SPEC_DIALOG_ERR_STRING,Currently not recruiting any of your class specializations. You may still apply.,1
 41640,BNET_FRIEND_ZONE_WOW_CLASSIC,WoW Classic: %s,1
 41641,BNET_FRIEND_TOOLTIP_WOW_CLASSIC,WoW Classic,1
 41649,AVAILABLE_CHANNELS,Available Channels,1
 41656,ERR_TRAVEL_PASS_DIFFERENT_REALM,In World of Warcraft Classic you cannot invite players that are on a different realm.,1
+41717,CLUB_FINDER_FOCUS_SOCIAL_LEVELING,Social & Leveling,1
+41718,CLUB_FINDER_FOCUS_PVP,PvP,1
 41727,BEHAVIORAL_NOTIFICATION_OPEN,Click here to read the message,1
 41728,BEHAVIORAL_NOTIFICATION_WARNING,Behavior Warning,1
 41729,BEHAVIORAL_NOTIFICATION_TY,Thank You for Reporting,1
+41735,CLUB_FINDER_ROLE_TOOLTIP,Select role to search for %s seeking your role specification,1
+41736,CLUB_FINDER_GUILDS,Guilds,1
+41737,CLUB_FINDER_COMMUNITIES,Communities,1
+41775,CLUB_FINDER_APPLY,Apply,1
+41781,CLUB_FINDER_PENDING_CLUBS_LIST,Pending List,1
 41784,BLIZZARD_STORE_PURCHASED,Purchased,3
 41834,ERR_ACCOUNT_SILENCED,Can't do that while your account is silenced,1
 41838,VISITABLE_URL49,https://worldofwarcraft.com/%s/game/recruit-a-friend,3
 41896,BLIZZARD_STORE_VAS_TRANSFER_REALM_CATEGORY_WARNING,You are transferring to a %s realm.,2
+41911,CLUB_FINDER_THANK_YOU_REPORTED,Thank you for reporting.,1
 41945,QUEST_LOGIC_AND,And,1
 41946,QUEST_LOGIC_OR,Or,1
 41954,REALM_LAYERED,Layered,2
@@ -18275,3 +18298,20 @@ ID,BaseTag,TagText_lang,Flags
 51860,UPREZ_TEXTURES,NEW!  Uprezzed Textures,3
 51861,OPTION_TOOLTIP_UPREZ_TEXTURES,uprez tooltip placeholder,3
 51869,ICON_SELECTION_TITLE_CURRENT,Currently Selected,1
+52002,COUNTDOWN_SET,|Hplayer:%s|h[%s]|h started a countdown timer.,1
+52003,COUNTDOWN_CLEAR,|Hplayer:%s|h[%s]|h canceled the countdown timer.,1
+52004,COUNTDOWN_CANCEL_ENCOUNTER_START,"Encounter started, countdown timer canceled.",1
+52005,SLASH_COUNTDOWN1,/countdown,1
+52006,SLASH_COUNTDOWN2,/countdown,1
+52007,SLASH_COUNTDOWN3,/cd,1
+52008,SLASH_COUNTDOWN4,/cd,1
+52041,HD_TEXTURES_BUTTON_TOOLTIP_HEADER,Download High Definition Textures,3
+52042,HD_TEXTURES_BUTTON_TOOLTIP,"Downloads higher detail textures for characters, creatures, buildings, objects, terrain, and more. Once downloaded, these textures can be toggled on or off at any time in the game options.",3
+52043,HD_TEXTURES_BUTTON,Get HD Textures,3
+52044,HD_TEXTURES_DLG_TEXT,Clicking the Download button will exit the game and open the Battle.net desktop app where you can download the textures.,3
+52045,OPTION_HD_TEXTURES,High Definition Textures,3
+52046,OPTION_TOOLTIP_HD_TEXTURES,"Enables higher detail textures for characters, creatures, buildings, objects, terrain, and more.",3
+52047,HD_TEXTURES_DLG_ACCEPT,Download,3
+52051,HD_TEXTURES_DLG_ACCEPT_MAC,Exit Game,3
+52052,HD_TEXTURES_DLG_TEXT_MAC,Clicking the Exit Game button will exit the game and open a webpage with instructions on how to download the textures through the Battle.net desktop app.,3
+52053,HIGH_RES_TEXTURE_INSTALL_URL,http://www.blizzard.com/,3
