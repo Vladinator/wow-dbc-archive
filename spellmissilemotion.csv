@@ -4665,7 +4665,14 @@ transMag = (progress * 2) - 1
 transMag = (1 - (transMag * transMag)) * maxMagnitude
 
 scale = 2.5 - progress",0,1
-3107,Lei Shen - Decapitate (Distance Based Spin Rate),"if startDistance < 20 then
+3107,Lei Shen - Decapitate (Distance Based Spin Rate),"local angle = 0
+local maxMagnitude = startDistance * .15
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+
+if startDistance < 20 then
 	spinRate = 2440
 elseif startDistance > 20 and startDistance < 40 then
 	spinRate = 720
@@ -23653,6 +23660,14 @@ transFront = (1-progress) --accounts for weapon scale distances
  
 --transRight = sin(progress*180*2)*math.pow(progress,1.5)*10 ",0,1
 4502,Grow (.1 -> .3),scale = .1+(.3*progress),0,1
+4503,WoWLabs - BR: Missile - Missle Tumble,"local angle = 0
+local maxMagnitude = startDistance * .15
+local spinRate = 720
+
+modelPitch = time * spinRate
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude",0,1
 4504,"Parabola (Top Spin, Slower)","local angle = 0
 local maxMagnitude = startDistance * .15
 local spinRate = 360
@@ -24167,6 +24182,13 @@ transUp = parabola(height)
 
 modelPitch = time * parabola(spinRate)
 scale = 0.5",0,1
+4560,WoWLabs - BR: Spell - Offensive - Bouncing Bolt - 1. Missile,"local angle = 0
+local maxMagnitude = startDistance * .40
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+modelRoll = progress * 6000",0,0
 4561,10.0 Raid - Primalist - Broodkeeper - Flamebolt Volley Precast,"--gamma curve function
 local function parabola(m) return (4*m*(1-progress)*progress) end
 --rotation function
@@ -25588,6 +25610,109 @@ if progress < .95 then
 else
    colorA = 1
 end",0,1
+4687,"Parabola (Fixed Height - 10-12 yards, With Noise)","local function parabola(m) return (4*m*(1-progress)*progress) end
+
+local height = 10
+local variance = 2
+height = height + (rand1 * variance)
+
+transUp = parabola(height)
+
+---[[
+local factor = 2
+local maxWidth = 12
+local noiseAmt = startDistance * 0.4
+
+function noise (time)
+	return math.sin(time)*math.sin(time*3)*math.sin(time*.54)*math.sin(time*7)*math.sin(time*12)*math.sin(time*.5)
+end
+local progressMult = math.sin(math.pi * progress)
+
+local t1 = (time+(rand1*300))
+local noise1 = noise(t1)
+
+local t2 = (time+(rand2*300))
+local noise2 = noise(t2)
+
+local t3 = (time+(rand3*300))
+local noise3 = noise(t3)
+
+
+transRight = transRight + (progressMult*noise1*noiseAmt)
+transUp    = transUp + (progressMult*noise2*(noiseAmt*.25))
+transFront = math.pow(progress,factor) * distanceToFirePos + ((progressMult*noise3) *noiseAmt)
+transFront = transFront - distanceToFirePos
+--]]",0,1
+4688,"Drunken Missiles (1 Missile, Very High Parabolic, Less Drunk)","local maxMagnitude = 1
+local minSpeedScalar = .9
+local maxSpeedScalar = startDistance * 3
+
+local magnitude = (progress * 1.9) - 1
+magnitude = 1 - (magnitude * magnitude * magnitude * magnitude)
+magnitude = magnitude * 0.25
+
+transRight = (sin((rand1 * 1000) + (time * 1000)) + cos((rand2 * 1000) + (time * 200))) * magnitude
+transUp = (sin((rand2 * 1000) + (time * 700)) + cos((rand1 * 1000) + (time * 300))) * magnitude
+
+local angle = 0
+local maxMagnitude = startDistance * .30
+local spinRate = 360
+
+modelPitch = time * spinRate
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude",0,1
+4689,"Parabola (Fixed Height - 8-10 yards, Fast Out)","local function parabola(a,b,m) return (4*m*((1-progress)*a)*((progress)*b)) end
+
+local height = 8
+local variance = 2
+height = height + (rand1 * variance)
+
+transUp = parabola(1,1,height)
+
+local factor = 3
+transFront = math.pow(progress,factor) * distanceToFirePos
+transFront = transFront - distanceToFirePos",0,1
+4691,Fast Out - Hook Left With Higher Parabola,"local factor = 3
+local maxWidth = 7
+local direction = 1
+local height = startDistance / 3.5
+
+transRight = direction * ((progress) * (1-progress) * 4 * math.min(startDistance/maxWidth,maxWidth) * (0.5 + (rand2/2)))
+transFront = math.pow(progress,factor) * distanceToFirePos
+transFront = transFront - distanceToFirePos
+transUp = 4 * progress * (1-progress) * height",0,1
+4692,Fast Out - Hook Right With Higher Parabola,"local factor = 3
+local maxWidth = 7
+local direction = -1
+local height = startDistance / 3.5
+
+transRight = direction * ((progress) * (1-progress) * 4 * math.min(startDistance/maxWidth,maxWidth) * (0.5 + (rand2/2)))
+transFront = math.pow(progress,factor) * distanceToFirePos
+transFront = transFront - distanceToFirePos
+transUp = 4 * progress * (1-progress) * height",0,1
+4693,10.2.7 Timewalking Season - Pandaria - Incendiary Terror - Missile (19711),"local r1 = rand1*5-2
+local r2 = rand2*5-2
+
+local height = startDistance / 3.5
+
+if progress < 0.9999 then
+	progress = progress*progress 
+ 
+	transRight = math.sin(progress*5) * r1 + (rand3-0.5)*2
+	transUp = 4 * progress * (1-progress) * height
+	transFront = (rand3*15-10)*(1-progress)*progress
+end
+
+if progress > 0.9999 then
+	progress = 1.0
+	
+end
+
+scale = 0.5 + (progress/2)
+if scale > 1 then
+	scale = 1
+end",0,1
 4694,Swirling Mist Missile v2,"
 
 
@@ -25620,3 +25745,64 @@ transRight = (1+3*rand3) * sin(time * 2 * 360) * ( 1 - progress ) * 2
 
 -- Start fast, end slower
 out_speedScale = 0.5 + (1.0 * (1.0 - progress) * (1.0 - progress))",0,1
+4706,Falls Straight Down - 100y,"local magnitude = 175
+
+transUp = magnitude * ( 1 - progress )
+transFront=distanceToImpactPos
+",0,1
+4728,Meteor Strike (20-40 Yards) Left Side Diagonal Down,"local magnitude = 20
+
+transRight = magnitude/2 * (1.0 - progress)
+transUp = magnitude * (1.0 - progress)
+transFront = distanceToImpactPos",0,1
+4729,Meteor Strike (20-40 Yards) Right Side Diagonal Down,"local magnitude = 20
+
+transRight = -magnitude/2 * (1.0 - progress)
+transUp = magnitude * (1.0 - progress)
+transFront = distanceToImpactPos",0,1
+4742,JZB Test,transUp=0,0,0
+4755,10.2.7 Timewalking Season - Pandaria - Artifact - Stat Upgrade - Visual (OJF),"-- parabola with spin
+local angle = 0 ;
+local maxMagnitude = startDistance * .2 ;
+
+local paraAngle = angle ;
+local paraMag = (progress * 2) - 1 ;
+paraMag = (1 - (paraMag * paraMag)) * maxMagnitude ;
+
+-- spinning wave translate
+local waves = 3 ;
+local maxMagnitude = 2 ;
+
+local spinMag = sin(progress * waves * 360) * maxMagnitude ;
+
+-- interpolate from parabola with spin to spinning wave based on progress
+local paraAngleValue = paraAngle * ( 1 - progress ) ;
+
+local paraMagValue = paraMag ;
+local spinMagValue = spinMag * progress * time ;
+
+local interpolatedMag = paraMagValue + spinMagValue ;
+
+transAngle = paraAngleValue ;
+transMag = interpolatedMag ;
+
+-- generic roll independent of either motion calculation
+modelRoll = progress * 1000 ;
+
+local scaleFloor = 0.2 ;
+local newScale = 1 - (progress / 1.3) ;
+
+if newScale <= scaleFloor then
+	newScale = scaleFloor ;
+end
+
+scale = newScale ;
+
+local minSpeed = 0.15 ;
+local newSpeed = (1 + (progress * time * 1.75) ) * (distanceToImpactPos / 10) ; 
+
+if newSpeed <= minSpeed then 
+	newSpeed = minSpeed ;
+end 
+
+out_speedScale = newSpeed ;",0,1

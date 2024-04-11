@@ -1033,3 +1033,178 @@ end",Evan Lind,0,46
 	return 0,0,fallPos,0,0,0
 
 end",Evan Lind,0,46
+93173,10.2.7 Timewalking Season - Pandaria - Gem - Meta - Oblivion Sphere - Orb Rising - Movement,"function timewalking_pandaria_shoulder_roiling_darkness_area_trigger_script(elapsedMs, x, y, z, roll, pitch, yaw)
+	------------------------------------
+	-- Area Trigger Movement Script:  --
+	------------------------------------
+	-- Inputs: 
+	--    elapsedMs: the amount of milliseconds since the 'm_creationTime' of this AreaTrigger
+	--
+	-- Output:
+	--    x - x offset from the m_center of AreaTrigger
+	--    y - y offset from the m_center of AreaTrigger
+	--    z - z offset from the m_center of AreaTrigger
+	--    roll - rotation around z axis
+	--    pitch - rotation around y axis
+	--    yaw - rotation around x axis - also known as 'facing'
+	--
+	--    return values in this specific order.  If you don't want to change a specific value, return 0
+	--    example: if you want to adjust only 'pitch' you need to 'return 0,0,0,0,pitch'.
+	--
+	--
+
+	-- Constants
+	local zOffset = 11; -- How many yards to rise into the air
+	local totalTime = 4000; -- Total time the orb will be in the air
+	local posChangeTime = 3000; -- Total time spent rising on the z axis
+	local startOffset = 1; -- Start X yards off the ground
+
+
+	--
+	-- Go up 'zOffset' units over 4 seconds
+	--
+	local zTime = elapsedMs % (totalTime * 2);
+	local zPercent = 1.0;
+
+	if(zTime < posChangeTime) then
+		zPercent = zTime / (posChangeTime);
+	else
+		zPercent = 1.0;
+	end
+
+	local zChange = startOffset + (zOffset * zPercent);
+	return 0,0, zChange, 0, 0, 0;
+end
+",Mike Stout,0,46
+93739,10.2.7 Spell Test - Morphing Elements 5. Elemental Bomb - Arcing Movement,"function timewalking_pandaria_shoulder_morphing_elements_elemental_bomb_movement(elapsedMs, x, y, z, roll, pitch, yaw)
+	------------------------------------
+	-- Area Trigger Movement Script:  --
+	------------------------------------
+	-- Inputs: 
+	--    elapsedMs: the amount of milliseconds since the 'm_creationTime' of this AreaTrigger
+	--
+	-- Output:
+	--    x - x offset from the m_center of AreaTrigger when it was spawned
+	--    y - y offset from the m_center of AreaTrigger when it was spawned
+	--    z - z offset from the m_center of AreaTrigger when it was spawned
+	--    roll - rotation around z axis
+	--    pitch - rotation around y axis
+	--    yaw - rotation around x axis - also known as 'facing'
+	--
+	--    return values in this specific order.  If you don't want to change a specific value, return 0
+	--    example: if you want to adjust only 'pitch' you need to 'return 0,0,0,0,pitch'.
+	--
+	--
+
+	-- Constants
+	local zOffset = 15; -- How many yards to rise into the air
+	local staticTime = 2750; -- Time before movement begins
+	local risingTime = 1000; -- Total time spent rising on the z axis
+	local fallingTime = 250 -- How long it takes to fall from top to ground
+	local totalTime = staticTime + risingTime + fallingTime -- Total time the orb will take to complete movement
+	local startOffsetZ = 3.5; -- Start n yards off the ground
+	local yOffset = 10; -- How many yards to move forward
+
+
+	local xChange = 0
+	local yChange = 0
+	local zChange = startOffsetZ
+
+	local elapsedPercentForZ
+	
+	--rising section	
+	if elapsedMs >= staticTime and elapsedMs < staticTime + risingTime then
+		elapsedPercentForZ = (elapsedMs - staticTime) / risingTime
+		
+		zChange = startOffsetZ + elapsedPercentForZ * zOffset
+	--falling section
+	elseif elapsedMs >= staticTime + risingTime then
+		elapsedPercentForZ = (elapsedMs - staticTime - risingTime) / (fallingTime)
+		
+		zChange = startOffsetZ + zOffset - elapsedPercentForZ*( zOffset + startOffsetZ / 2.0)
+		
+	end
+	
+	local elapsedPercentForY
+	
+	--horizontal movement
+	if elapsedMs >= staticTime then
+		elapsedPercentForY = (elapsedMs - staticTime) / (totalTime - staticTime)
+		yChange = elapsedPercentForY * yOffset
+	end
+	
+	
+	
+	return xChange,yChange, zChange, 0, 0, 0;
+end
+",Eric Holmberg-Weidler,0,46
+95593,10.2.7 Timewalking Season - Pandaria - Airborne Treasure - Small Bronze - Float Up (JOM),"function timewalking_season_pandaria_airborne_treasure_small_bronze_float_up(elapsedMs, x, y, z, roll, pitch, yaw)
+	------------------------------------
+	-- Area Trigger Movement Script:  --
+	------------------------------------
+	-- Inputs: 
+	--    elapsedMs: the amount of milliseconds since the 'm_creationTime' of this AreaTrigger
+	--
+	-- Output:
+	--    x - x offset from the m_center of AreaTrigger
+	--    y - y offset from the m_center of AreaTrigger
+	--    z - z offset from the m_center of AreaTrigger
+	--    roll - rotation around z axis
+	--    pitch - rotation around y axis
+	--    yaw - rotation around x axis - also known as 'facing'
+	--
+	--    return values in this specific order.  If you don't want to change a specific value, return 0
+	--    example: if you want to adjust only 'pitch' you need to 'return 0,0,0,0,pitch'.
+	--
+	--
+
+	-- Constants
+	local zOffset = 500; -- How many yards to rise into the air
+	local totalTime = 50000; -- Total time the orb will be in the air
+	local posChangeTime = 50000; -- Total time spent rising on the z axis
+	local startOffset = 1; -- Start X yards off the ground
+
+
+	local zTime = elapsedMs % (totalTime * 2);
+	local zPercent = 1.0;
+
+	if(zTime < posChangeTime) then
+		zPercent = zTime / (posChangeTime);
+	else
+		zPercent = 1.0;
+	end
+
+	local zChange = startOffset + (zOffset * zPercent);
+	return 0,0, zChange, 0, 0, 0;
+end
+",Josh Aaron Miller,0,46
+95607,10.2.7 Timewalking Season - Pandaria - Airborne Treasure - Large Bronze - Windy (JOM),"function timewalking_season_pandaria_airborne_treasure_large_bronze_windy(elapsedMs, x, y, z, roll, pitch, yaw)
+	------------------------------------
+	-- Area Trigger Movement Script:  --
+	------------------------------------
+	-- Inputs: 
+	--    elapsedMs: the amount of milliseconds since the 'm_creationTime' of this AreaTrigger
+	--
+	-- Output:
+	--    x - x offset from the m_center of AreaTrigger
+	--    y - y offset from the m_center of AreaTrigger
+	--    z - z offset from the m_center of AreaTrigger
+	--    roll - rotation around z axis
+	--    pitch - rotation around y axis
+	--    yaw - rotation around x axis - also known as 'facing'
+	--
+	--    return values in this specific order.  If you don't want to change a specific value, return 0
+	--    example: if you want to adjust only 'pitch' you need to 'return 0,0,0,0,pitch'.
+	--
+	--
+
+	-- Constants
+	local waveHeight = 15
+	local speed = 0.02
+
+	local zChange = waveHeight * math.sin(elapsedMs / 1000)
+	local xChange = elapsedMs * speed
+
+	return xChange,0, zChange, 0, 0, 0;
+end
+",Josh Aaron Miller,0,46

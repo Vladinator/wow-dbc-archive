@@ -1192,7 +1192,7 @@ Opponents struck by the flock take [abs(abilityStateMod( 24, 542 ))]% increased 
 The bonus is reduced each time you deal damage.",648206,-1,0,0,2
 584,Winter Spirit,"Fires a blast of cold air, dealing [StandardDamage(1,1)] [School()] damage.",135833,6,0,0,0
 585,Holiday Cheer,"Deals [StandardDamage(1,1)] [School()] damage and increases your speed by [abs(abilityStateMod(25,161))]% for 4 |4round:rounds.",574615,0,0,0,0
-586,Gift of Winter's Veil,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+586,Gift of Winter Veil,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
 Deals [StandardDamage(1,1)] [School()] damage to the enemy.",133202,5,5,0,0
 588,Devastate,"Fly up high, becoming unattackable for one turn. 
@@ -2225,7 +2225,7 @@ Calls down an Avalanche on your enemies, dealing [StandardDamage(1,1)] [School()
 Calls for canine backup, dealing [FormatDamage(SimpleDamage(1,2)*3)] [School()] damage and increasing damage taken by [abs(abilityStateMod( 24, 542 ))]% for [duration(1, 4)] |4round:rounds;.",132266,7,3,0,0
 1119,Righteous Inspiration,Damage and speed increased by 100%.,135971,-1,0,813,2
 1120,Attack Reduction,"Damage dealt has been reduced by [abs(abilityStateMod( 23, 1120 ))]% for the next attack.",653219,-1,0,334,3
-1121,Coin Toss,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+1121,Greed Before Need,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
 Deals [StandardDamage(1,1)] [School()] damage and makes the target greedy for 3 rounds.
 
@@ -3423,7 +3423,7 @@ Blasts the enemy with holy light, dealing [StandardDamage(1,1)] [School()] damag
 Damage increases by [FormatDamage(5*AttackBonus())] each time it is used. Max [FormatDamage(30 *AttackBonus())] [School()] damage.",461859,6,0,0,0
 2378,Rays of Light,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
-Deals [StandardDamage(1,1)] [School()] damage to the enemy's active pet and [StandardDamage(1,2)] [School()] damage to the enemy's backline pets. Restores[StandardHealing(1,1)] health to all allies.",525026,5,4,0,0
+Deals [StandardDamage(1,1)] [School()] damage to the enemy's active pet and [StandardDamage(1,2)] [School()] damage to the enemy's backline pets. Restores [StandardHealing(1,1)] health to all allies.",525026,5,4,0,0
 2379,Swirling Knowledge - aura,Blocks the next 2 attacks but the caster is locked in place researching for 1 turn.,134917,5,0,1179,2
 2380,Stay a While and Listen,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
@@ -3573,7 +3573,7 @@ A vengeful attack that deals [petTypeName(abilityPetType())] damage equal to the
 Barrage the enemy 1-2 times, dealing [StandardDamage(1,1)] [School()] damage per hit.
 
 Hits an additional time if the user attacks first.",236221,5,0,0,0
-2435,Mana Flare,"Deals [StandardDamage(1,1,944)] [School()] damage each time you take direct damage.
+2435,Mana Flare,"Deals [StandardDamage(1,1,2436)] [School()] damage each time you take direct damage.
 
 Lasts [duration(1,1)] |4round:rounds;.",136115,5,3,0,0
 2436,Mana Flare,"Deals [FormatDamage(SimpleDamage(1,1),nil,AURAENEMY)] [School()] damage each time you take direct damage.",136115,5,0,0,0
@@ -3775,7 +3775,7 @@ Deals [StandardDamage(1,1)] [School()] damage and has a 25% chance to stun the t
 
 Lil' Wrathion leads 2 waves of assassins to destroy his enemy.
 
-Lil' Wrathion deals [FormatDamage(SimpleDamage(1,1))] [School()] damage
+Lil' Wrathion deals [FormatDamage(SimpleDamage(1,1))] [School()] damage.
 
 Each wave of assassins deals [FormatDamage(SimpleDamage(1,2))] [School()] damage.",458726,0,0,0,0
 2514,[DNT] TEST,,897140,5,0,0,18
@@ -3789,3 +3789,11 @@ Each hit deals [FormatDamage(SimpleDamage(1,1))] [School()] damage.",132845,6,0,
 Deals [StandardDamage(1,1)] [School()] damage. 
 
 Deals [StandardDamage(1,2)] additional damage if the user has lower health than the target.",429382,5,0,0,0
+2519,Bubble Blast,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Rushes to the enemy in a blast of bubbles, dealing [StandardDamage(1,1)] [School()] damage. 
+
+This move always goes first.",132852,8,1,0,0
+2520,Dazzle,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Dazzle your enemies with a sparkling ball. Deals [StandardDamage(1,1)] [School()] damage and |cff9933FFBlinds|r the target, reducing their hit chance by [abs(abilityStateMod( 41 , 462 ))]% for [duration(1,2)] |4round:rounds;.",133836,0,4,0,0
