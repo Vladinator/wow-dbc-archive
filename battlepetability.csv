@@ -145,14 +145,14 @@ Scorches the ground, dealing [StandardDamage(1,1)] [School()] damage and dealing
 During Scorched Earth, all pets count as |cFFFF2020Burning|r.",237588,1,3,0,0
 173,Cauterize,"Restores [StandardDamage(1,1)] health plus half of the last hit taken by the user.",236218,6,3,0,2
 174,Stunned,Unable to give this pet commands.,135860,-1,0,103,3
-175,Volcano,"After 2 |4round:rounds;, the ground erupts for 2 |4round:rounds;, causing the current enemy pet to take [StandardDamage(3,1,175)] [School()] damage and has a 25% chance to be stunned for the next [duration(3,3,175)] round.
+175,Volcano,"After 1 |4round:rounds;, the ground erupts for 2 |4round:rounds;, causing the current enemy pet to take [StandardDamage(3,1,175)] [School()] damage and has a 25% chance to be stunned for the next [duration(3,3,175)] round.
 
 [StandardAccuracy(3,1)] |cffffffffHit Chance|r",524305,6,0,288,1
 176,Volcano,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
 Causes the ground beneath the enemy team to tremble. 
 
-After 2 rounds, the ground erupts for 2 rounds, causing the current enemy pet to take [StandardDamage(3,1,175)] [School()] damage and have a 25% chance to be stunned for 1 round.",524305,6,5,0,0
+After 1 round, the ground erupts for 2 rounds, causing the current enemy pet to take [StandardDamage(3,1,175)] [School()] damage and have a 25% chance to be stunned for 1 round.",524305,6,5,0,0
 177,Immolate,"Deals [StandardDamage(1,1)] Elemental damage every round.
 
 |cFFFF2020Burning|r",135817,6,0,28,0
@@ -716,14 +716,14 @@ Instantly deals [StandardDamage(1,1)] [School()] damage and |cFF1EFF00Poisons|r 
 Causes a thick nest of vines to begin growing around the enemy team. 
 
 Next round, the opponent's pet will take [StandardDamage(2,1,399)] [School()] damage and be rooted for [duration(2,2,399)] rounds.",136100,6,3,0,0
-401,Stun Seed,"Detonates after [numTurns()] |4round:rounds, dealing [StandardDamage(3,1)] Elemental damage to the current enemy pet and stunning the target for 1 round.
+401,Stun Seed,"Detonates after [numTurns()-1] |4round:rounds, dealing [StandardDamage(3,1)] Elemental damage to the current enemy pet and stunning the target for 1 round.
 
 [StandardAccuracy(3,1)] |cffffffffHit Chance|r",464030,6,0,0,0
 402,Stun Seed,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
 Plants a seed in the enemy. 
 
-After 3 |4round:rounds;, the seed blooms, causing the current enemy pet to take [StandardDamage(3,1,401)] [School()] damage and be stunned for [duration(3,2,401)] |4round:rounds;.",464030,6,5,0,0
+After 2 |4round:rounds;, the seed blooms, causing the current enemy pet to take [StandardDamage(3,1,401)] [School()] damage and be stunned for [duration(3,2,401)] |4round:rounds;.",464030,6,5,0,0
 403,Sunny Day,"Increases the maximum health of all pets by [abs(abilityStateMod(99,403))]%.
 
 Increases healing done by [abs(abilityStateMod(65,403))]%.",535593,6,0,179,2
@@ -1192,7 +1192,7 @@ Opponents struck by the flock take [abs(abilityStateMod( 24, 542 ))]% increased 
 The bonus is reduced each time you deal damage.",648206,-1,0,0,2
 584,Winter Spirit,"Fires a blast of cold air, dealing [StandardDamage(1,1)] [School()] damage.",135833,6,0,0,0
 585,Holiday Cheer,"Deals [StandardDamage(1,1)] [School()] damage and increases your speed by [abs(abilityStateMod(25,161))]% for 4 |4round:rounds.",574615,0,0,0,0
-586,Gift of Winter's Veil,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+586,Gift of Winter Veil,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
 Deals [StandardDamage(1,1)] [School()] damage to the enemy.",133202,5,5,0,0
 588,Devastate,"Fly up high, becoming unattackable for one turn. 
@@ -1239,12 +1239,12 @@ Restores increasing health every round.",135745,-1,0,78,0
 600,Time Stop,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
 Stun the target for [duration(1,1)] |4round:rounds;.",136106,5,5,0,2
-601,Time Bomb,"Detonates after 3 |4round:rounds;, dealing [StandardDamage(1,1)] Magic damage and stunning the target for 1 round.",237538,5,0,0,1
+601,Time Bomb,"Detonates after 3 |4round:rounds;, dealing [StandardDamage(4,1)] Magic damage and stunning the target for 1 round.",237538,5,0,0,1
 602,Time Bomb,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
 Places a temporal rift beneath the enemy team. 
 
-After [duration(1,1)] |4round:rounds the rift erupts, causing the current enemy pet to take [StandardDamage(getProcIndex(PROC_ON_AURA_REMOVED, 601),1,601)] [School()] damage and be stunned for [duration(1,2,601)] round.",237538,5,5,0,0
+After 3 |4round:rounds, the rift erupts, causing the current enemy pet to take [StandardDamage(4,1,601)] [School()] damage and be stunned for [duration(4,2,601)] round.",237538,5,5,0,0
 603,Temporal Lapse,"Your team's attacks are doubled for [duration(1,1)] |4round:rounds.",609811,1,20,0,2
 604,Extreme Power,"Your team's attacks deal [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 604 ))]% additional damage.",648206,-1,0,0,2
 605,Elementium Bolt,"Detonates after [numTurns()-1] |4round:rounds, dealing [StandardDamage(1,1,2372)] [School()] damage to the current enemy pet and stunning the target for [duration(3,2)] |4round:rounds;.
@@ -1291,14 +1291,14 @@ Hits an additional time if the user attacks first.",348560,6,0,0,0
 621,Stone Rush,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
 Slams into the enemy, dealing [StandardDamage(1,1)] [School()] damage and dealing [SimpleDamage(1,3)] [School()] damage to themselves.",237002,6,1,0,0
-623,Ice Tomb,"Detonates after [numTurns()] |4round:rounds, dealing [StandardDamage(3,1)] Elemental damage to the current enemy pet and stunning the target for 1 round.
+623,Ice Tomb,"Detonates after [numTurns()-1] |4round:rounds, dealing [StandardDamage(3,1)] Elemental damage to the current enemy pet and stunning the target for 1 round.
 
 [StandardAccuracy(3,1)] |cffffffffHit Chance|r",609814,6,0,0,0
 624,Ice Tomb,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
 Launches an orb of freezing energy at the target. 
 
-After 3 |4round:rounds;, the ice hits, causing the current enemy pet to take [StandardDamage(3,1,623)] [School()] damage and be stunned for [duration(3,2,623)] round.",609814,6,5,0,0
+After 2 |4round:rounds;, the ice hits, causing the current enemy pet to take [StandardDamage(3,1,623)] [School()] damage and be stunned for [duration(3,2,623)] round.",609814,6,5,0,0
 625,Ice Spike,"Impales the target, dealing [StandardDamage(1,1)] [School()] damage.
 
 This ability has a high chance to miss.",135855,6,0,0,0
@@ -2225,7 +2225,7 @@ Calls down an Avalanche on your enemies, dealing [StandardDamage(1,1)] [School()
 Calls for canine backup, dealing [FormatDamage(SimpleDamage(1,2)*3)] [School()] damage and increasing damage taken by [abs(abilityStateMod( 24, 542 ))]% for [duration(1, 4)] |4round:rounds;.",132266,7,3,0,0
 1119,Righteous Inspiration,Damage and speed increased by 100%.,135971,-1,0,813,2
 1120,Attack Reduction,"Damage dealt has been reduced by [abs(abilityStateMod( 23, 1120 ))]% for the next attack.",653219,-1,0,334,3
-1121,Coin Toss,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+1121,Greed Before Need,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
 Deals [StandardDamage(1,1)] [School()] damage and makes the target greedy for 3 rounds.
 
@@ -3423,8 +3423,8 @@ Blasts the enemy with holy light, dealing [StandardDamage(1,1)] [School()] damag
 Damage increases by [FormatDamage(5*AttackBonus())] each time it is used. Max [FormatDamage(30 *AttackBonus())] [School()] damage.",461859,6,0,0,0
 2378,Rays of Light,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
-Deals [StandardDamage(1,1)] [School()] damage to the enemy's active pet and [StandardDamage(1,2)] [School()] damage to the enemy's backline pets. Restores[StandardHealing(1,1)] health to all allies.",525026,5,4,0,0
-2379,Swirling Knowledge,Blocks the next 2 attacks but the caster is locked in place researching for 1 turn.,134917,5,0,1179,2
+Deals [StandardDamage(1,1)] [School()] damage to the enemy's active pet and [StandardDamage(1,2)] [School()] damage to the enemy's backline pets. Restores [StandardHealing(1,1)] health to all allies.",525026,5,4,0,0
+2379,Swirling Knowledge - aura,Blocks the next 2 attacks but the caster is locked in place researching for 1 turn.,134917,5,0,1179,2
 2380,Stay a While and Listen,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
 Puts the target to sleep for [duration(1,1)] |4round:rounds;.",458721,5,5,0,2
@@ -3573,7 +3573,7 @@ A vengeful attack that deals [petTypeName(abilityPetType())] damage equal to the
 Barrage the enemy 1-2 times, dealing [StandardDamage(1,1)] [School()] damage per hit.
 
 Hits an additional time if the user attacks first.",236221,5,0,0,0
-2435,Mana Flare,"Deals [StandardDamage(1,1,944)] [School()] damage each time you take direct damage.
+2435,Mana Flare,"Deals [StandardDamage(1,1,2436)] [School()] damage each time you take direct damage.
 
 Lasts [duration(1,1)] |4round:rounds;.",136115,5,3,0,0
 2436,Mana Flare,"Deals [FormatDamage(SimpleDamage(1,1),nil,AURAENEMY)] [School()] damage each time you take direct damage.",136115,5,0,0,0
@@ -3637,12 +3637,20 @@ Slash the enemy's pets with your talons, causing each pet to |cFF970000Bleed|r f
 2460,Shell Fortress,"Draws upon the power of the user's shell to defend against all attacks for the current round and the next round. User cannot act while projecting the shield.
 
 This ability always goes first.",134434,8,6,0,2
+2462,Arm Cannon Blast,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Blasts the enemy with a beam of energy, dealing [StandardDamage(1,1)] [School()] damage. 
+
+Damage increases by [FormatDamage(5*AttackBonus())] each time it is used. Max [FormatDamage(25 *AttackBonus())] [School()] damage.",132868,9,0,0,0
+2463,Dive Bomb,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Order your flying machine to dive bomb your enemies, dealing [StandardDamage(1,1)] [School()] damage, split evenly amongst them.",1141394,9,5,0,0
 2465,Furious Surge,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
 Attacks the enemy 3 times, dealing [StandardDamage(1,1)] [School()] damage per attack.
 
 Each time you use this ability, your speed increases by 20% at the end of the round.",650636,1,0,0,0
-2468,Mike's Test Ability,,656595,5,0,0,0
+2468,[DNT] TRAP HELP,Sets target to 1% of max health and stuns it.,646380,5,0,0,0
 2469,Reaping Hook,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
 Deals [StandardDamage(1,1)] [School()] damage and forces the opponent's lowest health pet to swap into battle.",134226,9,4,0,0
@@ -3722,3 +3730,70 @@ At the end of the round, your speed increases by 10% for each time the ability h
 2495,Feral Clawstorm,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
 Whirl and slash the enemy with your claws, dealing [StandardDamage(1,1)] [School()] damage and causing the target to |cFF970000Bleed|r for [StandardDamage(1,1,491)] [School(491)] damage per round for [duration(1,2)] |4round:rounds;.",4632786,4,0,0,0
+2498,Face Punch X,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Quickly the enemy directly in the face as hard as you can, dealing [StandardDamage(1,1)] [School()] damage. 
+
+Damage increases by [FormatDamage(10*AttackBonus())] each time it is used. Max [FormatDamage(30*AttackBonus())] [School()] damage.",135906,0,0,0,0
+2499,Quantum Strike,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Strikes at the enemy, dealing [StandardDamage(1,1)] [petTypeName(abilityPetType())] damage.",1392544,5,0,0,0
+2500,Deadly Dreaming,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Arfus slumbers. His deadly dreams haunt the target, dealing [StandardDamage(1,1,653)] [School()] damage every round. 
+
+While Arfus slumbers, he is considered dead.",236798,3,4,0,0
+2502,[DNT] INSTADEAD,Sets a pet's health to 0%.,133728,5,0,0,0
+2503,Elune's Grace,"Elune blesses your team, restoring [StandardHealing(1,1)] health to all allies.",4640501,5,5,0,2
+2504,Hatred Manifest,"Adds [abs(abilityStateMod(71,2504))*AttackBonus()] damage to every attack against the target.",4050664,5,0,530,3
+2505,Hatred Manifest,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Immeasurable hatred overwhelms the target, adding [abs(abilityStateMod(71,2504))*AttackBonus()] damage to every attack against the target. 
+
+Lasts [duration(1,1)] |4round:rounds;.",4050664,5,5,0,2
+2506,Surrender in Terror,,132296,3,0,0,2
+2508,Storm Breath,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Breathes a lightning storm at the enemy, dealing [StandardDamage(1, 1)] [School()] damage.
+
+Attacks a second time for [StandardDamage(1,3)] [School()] damage when the weather is Lightning Storm.",236392,6,0,0,0
+2509,Life Sap,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Controls the power of life itself to deal [StandardDamage(1,1)] [School()] damage.
+
+The user is healed for [points(1,2)]% of the damage dealt.",136233,1,0,0,0
+2510,Hubris,"Your damage taken has been increased by [abs(abilityStateMod( 24, 185 ))]%.",1390945,5,0,530,3
+2511,Hubris,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Lash out blindly with no thought of defense. What can these puny mortals do to you anyway?
+
+Deals [StandardDamage(1, 1)] [School()] damage, but increases the damage you take for [duration(1,3)] round by [abs(abilityStateMod(24, 2510 ))]%.",1390945,5,1,0,0
+2512,Ice Age,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Deals [StandardDamage(1,1)] [School()] damage and has a 25% chance to stun the target.",4226156,6,5,0,0
+2513,Ravenholdt Rush,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Lil' Wrathion leads 2 waves of assassins to destroy his enemy.
+
+Lil' Wrathion deals [FormatDamage(SimpleDamage(1,1))] [School()] damage.
+
+Each wave of assassins deals [FormatDamage(SimpleDamage(1,2))] [School()] damage.",458726,0,0,0,0
+2514,[DNT] TEST,,897140,5,0,0,18
+2515,Windfury,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Attack with the force of a howling gale, striking your enemy twice.
+
+Each hit deals [FormatDamage(SimpleDamage(1,1))] [School()] damage.",132845,6,0,0,0
+2518,Arcane Riposte,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Deals [StandardDamage(1,1)] [School()] damage. 
+
+Deals [StandardDamage(1,2)] additional damage if the user has lower health than the target.",429382,5,0,0,0
+2519,Bubble Blast,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Rushes to the enemy in a blast of bubbles, dealing [StandardDamage(1,1)] [School()] damage. 
+
+This move always goes first.",132852,8,1,0,0
+2520,Dazzle,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Dazzle your enemies with a sparkling ball. Deals [StandardDamage(1,1)] [School()] damage and |cff9933FFBlinds|r the target, reducing their hit chance by [abs(abilityStateMod( 41 , 462 ))]% for [duration(1,2)] |4round:rounds;.",133836,0,4,0,0

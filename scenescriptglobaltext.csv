@@ -1,6 +1,8 @@
 ID,Name,Script
 4,Global Functions - Scene,"--
 -- Scene Functions
+-- These Scripts have been added to SVN, if you make a change here, update it
+-- also there Object\ObjectClient\SceneScriptGlobal\
 --
 
 function Scene:WaitTimer(waitTime)
@@ -175,17 +177,13 @@ function SceneEvent:Default()
 	local evt = 
 	{
 		type = SceneEventType.None;
-		timeStamp = 0;
-		timeSeconds = 0;
-		integerData = 0;
-		floatData = 0;
-		stringData = """";
-		vectorData = Vector:New();
-		
-		-- timeline "
+		timeStamp = "
 9,Global Functions - Actor,"--
 -- Actor Functions
+-- These Scripts have been added to SVN, if you make a change here, update it
+-- also there \Object\ObjectClient\SceneScriptGlobal\
 --
+
 function Actor:WaitCondition(...)
 	local scene = self:GetScene()
 	if scene then
@@ -285,6 +283,81 @@ function ActorFadeRegionSettings:Default()
 end
 
 --
+-- ActorPlayerMount Functions
+--
+
+-- backwards compatibility
+if (not ActorPlayerMount) then
+	ActorPlayerMount = { }
+end
+
+function ActorPlayerMount:Default()
+	local m = 
+	{
+		dragonRidingMount = false;
+	}
+	if (self.__meta) then
+		setmetatable(m, self.__meta)
+	end
+	return m
+end
+
+--
+-- ActorDecalSettings Functions
+--
+
+-- backwards compatibility
+if (not ActorDecalSettings) then
+	ActorDecalSettings = { }
+end
+
+function ActorDecalSettings:Default()
+	local m = 
+	{
+		decalPropertiesID = 0,
+		shapeType = 0,
+		radius = 0.0,
+		length = 0.0,
+		width = 0.0,
+		fadeInOverride = 0.0,
+		fadeOutOverride = 0.0,
+	}
+	if (self.__meta) then
+		setmetatable(m, self.__meta)
+	end
+	return m
+end
+
+--
+-- ActorTalkingHeadData Functions
+--
+
+-- backwards compatibility
+if (not TalkingHeadData) then
+	TalkingHeadData = { }
+end
+
+function TalkingHeadData:Default()
+	local m = 
+	{	
+		creatureID = 0,
+		creatureDisplayInfoID = 0,
+		uiCameraID = 0,
+		animKitIDOneShot = 0,
+		duration = 0.0,
+		broadcastTextID = 0,
+		animLoopID = 0,
+		talkingHeadPose = 0,
+		speechType = 0,
+	}
+	if (self.__meta) then
+		setmetatable(m, self.__meta)
+	end
+	return m
+end
+
+
+--
 -- ActorCreateData Functions
 --
 function ActorCreateData:Default()
@@ -298,67 +371,19 @@ function ActorCreateData:Default()
 		creatureDisplaySetIndex = 0,
 		creatureDisplayID = 0,
 		playerSummon = false,
+		playerMount = ActorPlayerMount:Default(),
 		wmoFileDataID = 0, -- deprecated
 		wmoGameObjectDisplayID = 0,
 		model = """",
 		modelFileID = 0,
-		scale = 1.0,
-		facingOffset = 0.0,
-		name = """",
-		transform = Transform:New(),
-		hoverHeight = 0.0,
-		groundSnap = true,
-		interactible = true,
-		selectable = false,
-		floatingTooltip = true,
-		hasShadow = false,
-		smoothPhase = false,
-		trackGround = false,
-		noTransformUpdates = false,
-		copyAnim = false,
-		freezeAnim = false,
-		noShadow = false,
-		disableUpdates = false,
-		aoiSettings = ActorAOISettings:Default(),
-		overrideReaction = ReactionType.Default,
-		overrideMinLod = 0,
-		overrideLinkage = Linkage.Default,
-		sceneEditorActorID = 0,
-		fadeRegionSettings = ActorFadeRegionSettings:Default(),
-	}
-	setmetatable(c, self.__meta)
-	return c
-end
-
-function ActorCreateData:New(_id, _trans, _scale)
-	local c = ActorCreateData:Default()
-
-	c.creatureID = _id or c.creatureID
-	c.scale = _scale or c.scale
-	c.transform = _trans
-
-	return c
-end
-
-function ActorCreateData:NewDisplay(_creatureID, _displayId, _trans, _scale)
-	local c = ActorCreateData:Default()
-
-	c.creatureID = _creatureID or c.creatureID
-	c.creatureDisplayID = _displayID or c.creatureDisplayID
-	c.scale = _scale or c.scale
-	c.transform = _trans
-
-	return c
-end
-
-function ActorCreateData:NewModel(_name, _modelFile, _trans, _scale)
-	local c = ActorCreateData:Default()
-
-	if type(_modelFile) == ""number"" then
-		c.modelFileID = _modelFile
-	else
-		c.model = "
+"
 10,Global Functions - Math,"--
+-- Math
+-- These Scripts have been added to SVN, if you make a change here, update it
+-- also there \Object\ObjectClient\SceneScriptGlobal\
+--
+
+--
 -- Vector Functions
 --
 function Vector:New(_x, _y, _z)
@@ -510,7 +535,12 @@ function Color:New(_r, _g, _b, _a)
 	return c
 end
 "
-47,Global Constants - Animation,"
+47,Global Constants - Animation,"--
+-- Animation
+-- These Scripts have been added to SVN, if you make a change here, update it
+-- also there \Object\ObjectClient\SceneScriptGlobal\
+--
+
 -- Useful Anim Kit IDs
 AnimKits =
 {
@@ -575,8 +605,11 @@ AnimTable3 = nil
 AnimTable4 = nil
 "
 61,Global Functions - Actor Movement,"--
--- Movement Helper Functions
+-- Actor Movement Helper Functions
+-- These Scripts have been added to SVN, if you make a change here, update it
+-- also there \Object\ObjectClient\SceneScriptGlobal\
 --
+
 function Actor:WaitMovementComplete()
 	local moveTimeRemaining = 0
 	if (Actor.GetRemainingMoveTime) then
@@ -736,15 +769,13 @@ function Actor:HoldYawPitchRoll(yaw, pitch, roll, holdTime, blendInTime, blendOu
 	end
 
 	-- defaults
-	yaw = yaw or 0
-	pitch = pitch or 0
-	roll = roll or 0
-	blendInTime = blendInTime or 0
-	belndOutTime = blendOutTime or 0
-	holdTime = holdTime "
+	yaw "
 62,Global Functions - Actor Animation,"--
 -- Actor Anim Kit Data
+-- These Scripts have been added to SVN, if you make a change here, update it
+-- also there \Object\ObjectClient\SceneScriptGlobal\
 --
+
 if (not AnimKitData) then
 	AnimKitData = { }
 	AnimKitBlendType = { }
@@ -807,8 +838,11 @@ function Actor:WaitPlayOneShotUpperBodyAnim(anim)	self:WaitAnimKitComplete(self:
 function Actor:WaitPlayOneShotFullBodyAnim(anim)	self:WaitAnimKitComplete(self:PlayAnimKit(AnimKits.OneShotFullBody, true, anim))	end
 "
 582,Global Functions - Actor Sound,"--
--- Sound Helper Functions
+-- Actor Sound Helper Functions
+-- These Scripts have been added to SVN, if you make a change here, update it
+-- also there \Object\ObjectClient\SceneScriptGlobal\
 --
+
 function Actor:WaitSoundKitComplete(soundKit)
 	if not soundKit then
 		return
@@ -829,7 +863,12 @@ function Actor:WaitBroadcastSoundComplete()
 	end
 	self:WaitCondition(waitCondition)
 end"
-611,Global Functions - Debug,"
+611,Global Functions - Debug,"--
+-- Debug
+-- These Scripts have been added to SVN, if you make a change here, update it
+-- also there \Object\ObjectClient\SceneScriptGlobal\
+--
+
 -- Alias
 Broadcast = print;
 Print = print;
@@ -947,7 +986,13 @@ STATE_LOOKUP = {
 };
 
 "
-660,Global Constants - Animation Table 1,"AnimTable1 =
+660,Global Constants - Animation Table 1,"--
+-- Animation Table 1
+-- These Scripts have been added to SVN, if you make a change here, update it
+-- also there \Object\ObjectClient\SceneScriptGlobal\
+--
+
+AnimTable1 =
 {  
 	None = -1;
 	Stand = 0;
@@ -1143,16 +1188,14 @@ STATE_LOOKUP = {
 	StandHigh = 190;
 	Impact = 191;
 	LiftOff = 192;
-	Hover = 193;
-	SuccubusEntice = 194;
-	EmoteTrain = 195;
-	EmoteDead = 196;
-	EmoteDanceOnce = 197;
-	Deflect = 198;
-	EmoteEatNoSheathe = 199;
-	Land = 200;}
-"
-665,Global Constants - Animation Table 2,"AnimTable2 = {
+	"
+665,Global Constants - Animation Table 2,"--
+-- Animation Table 2
+-- These Scripts have been added to SVN, if you make a change here, update it
+-- also there \Object\ObjectClient\SceneScriptGlobal\
+--
+
+AnimTable2 = {
 	Submerge = 201;
 	Submerged = 202;
 	Cannibalize = 203; 
@@ -1317,16 +1360,14 @@ STATE_LOOKUP = {
 	FlyFishingCast = 362;
 	FlyFishingLoop = 363;
 	FlyFly = 364;
-	FlyEmoteWorkNoSheathe = 365;
-	FlyEmoteStunNoSheathe = 366;
-	FlyEmoteUseStandingNoSheathe = 367;
-	FlySpellSleepDown = 368;
-	FlySpellKneelStart = 369;
-	
-	
-}
-"
-670,Global Constants - Animation Table 3,"AnimTable3 = {
+	"
+670,Global Constants - Animation Table 3,"--
+-- Animation Table 3
+-- These Scripts have been added to SVN, if you make a change here, update it
+-- also there \Object\ObjectClient\SceneScriptGlobal\
+--
+
+AnimTable3 = {
 	FlyDruidCatRip = 400;
 	FlyDruidCatRake = 401;
 	FlyDruidCatRavage = 402;
@@ -1482,17 +1523,15 @@ STATE_LOOKUP = {
 	MountFlightLeft = 552;
 	FlyMountFlightLeft = 553;
 	MountFlightRight = 554;
-	FlyMountFlightRight = 555;
-	MountFlightRun = 556;
-	FlyMountFlightRun = 557;
-	MountFlightSprint = 558;
-	FlyMountFlightSprint = 559;
-	MountFlightWalk = 560;
-}
-"
-675,Global Constants - Animation Table 4,"AnimTable4 =
-{
+	FlyMountFlightRight = "
+675,Global Constants - Animation Table 4,"--
+-- Animation Table 4
+-- These Scripts have been added to SVN, if you make a change here, update it
+-- also there \Object\ObjectClient\SceneScriptGlobal\
+--
 
+AnimTable4 =
+{
 	FlySpellKneelLoop = 370;
 	FlySpellKneelEnd = 371;
 	FlySprint = 372;
@@ -1633,16 +1672,14 @@ STATE_LOOKUP = {
 	FlyingKickEnd = 706;
 	FlyFlyingKickEnd = 707;
 	CraneStart = 708;
-	FlyCraneStart = 709;
-	CraneLoop = 710;
-	FlyCraneLoop = 711;
-	CraneEnd = 712;
-	FlyCraneEnd = 713;
-	Despawned = 714;
-	FlyDespawned = 715;
-}
-"
-681,Global Constants - Animation Table 5,"AnimTable5 =
+	FlyCraneStart "
+681,Global Constants - Animation Table 5,"--
+-- Animation Table 5
+-- These Scripts have been added to SVN, if you make a change here, update it
+-- also there \Object\ObjectClient\SceneScriptGlobal\
+--
+
+AnimTable5 =
 {
 	FlyMountFlightWalk = 561;
 	MountFlightWalkBackwards = 562;
@@ -1701,7 +1738,11 @@ STATE_LOOKUP = {
 	FlyTorpedo = 731;
 }
 "
-1042,Global Functions - Matrix Math,"
+1042,Global Functions - Matrix Math,"--
+-- Matrix Math
+-- These Scripts have been added to SVN, if you make a change here, update it
+-- also there \Object\ObjectClient\SceneScriptGlobal\
+--
 
 -- I'm not validating sizes. Assuming 4x
 function MultiplyMatrixes ( ... )
@@ -1860,15 +1901,13 @@ function InvertMatrix( M )
 	M[3][2], M[2][3] = M[2][3], M[3][2];
 	
 	-- Translate
-	M[1][4] = -oldX
-	M[2][4] = -oldY
-	M[3][4] = -oldZ
-
-	return M
-end"
+	M[1][4] = "
 9486,Global Functions - Actor Interaction,"--
--- Interaction Helper Functions
+-- Actor Interaction Helper Functions
+-- These Scripts have been added to SVN, if you make a change here, update it
+-- also there \Object\ObjectClient\SceneScriptGlobal\
 --
+
 function Actor:WaitRightClick()
 	local rightClickCount = self:GetRightClickCount()
 	local waitCondition = function()
@@ -1960,7 +1999,12 @@ RightClickListenerCoroutine = function(listenerID)
 		scene:Wait(timer)
 	end
 end"
-10388,[1] Global Functions - Actor Movement,"or 100000 -- 'forever'
+10388,[1] Global Functions - Actor Movement,"= yaw or 0
+	pitch = pitch or 0
+	roll = roll or 0
+	blendInTime = blendInTime or 0
+	belndOutTime = blendOutTime or 0
+	holdTime = holdTime or 100000 -- 'forever'
 
 	local transform = self:GetTransform()
 
@@ -1994,7 +2038,13 @@ end"
 	self:Move(holdYawPitchRollMoveData)
 end
 "
-10435,Global Constants - Attachments,"AttachmentPoint =
+10435,Global Constants - Attachments,"--
+-- Attachments
+-- These Scripts have been added to SVN, if you make a change here, update it
+-- also there \Object\ObjectClient\SceneScriptGlobal\
+--
+
+AttachmentPoint =
 {
 	None				= -1;
 	MountMain			=  0;
@@ -2074,12 +2124,19 @@ function AttachmentData:Default()
 		useParentAsMount = false;
 		targetOffset = Transform:New();
 		transitionTime = 0;
+		respectGroundSnap = false;
 	}
 
 	setmetatable(d, self.__meta)
 	return d
 end"
-10437,Global Functions - Actor Vehicles,"local jumpOntoOffsetZ = 0.25
+10437,Global Functions - Actor Vehicles,"--
+-- Actor Vehicles
+-- These Scripts have been added to SVN, if you make a change here, update it
+-- also there \Object\ObjectClient\SceneScriptGlobal\
+--
+
+local jumpOntoOffsetZ = 0.25
 local RideVehicleActorInternal
 local VehicleSystemDebug
 
@@ -2171,7 +2228,8 @@ end
 -- INTERNAL VEHICLE FUNCTIONS
 --   Call the functions above, please contact Darren Williams if you need
 --   additional functionality
---------------------------------------------------------------------------------
+"
+10438,[1] Global Functions - Actor Vehicles,"--------------------------------------------------------------------------------
 
 --
 -- Vehicle Ride Data is a table with the following options
@@ -2179,8 +2237,7 @@ end
 --	jumpTime
 --	seatAttach
 --	seatOffset
---  "
-10438,[1] Global Functions - Actor Vehicles,"seatAngles
+--  seatAngles
 --  attachBlendTime
 --  jumpAbs			:   world space location for the end of the jump
 --  jumpOffset		:	if above not specified, world space offset for the jump to finish at from the target attach point
@@ -2272,7 +2329,8 @@ RideVehicleActorInternal = function(vehicleActor, riderActor, vehicleRideData)
 end
 
 --------------------------------------------------------------------------------
-function StopRidingVehicleActorInternal(riderActor)
+function "
+10447,[2] Global Functions - Actor Vehicles,"StopRidingVehicleActorInternal(riderActor)
 	local vehicleSystem = GetVehicleSystem()
 	if (not riderActor or not vehicleSystem) then
 		return
@@ -2280,8 +2338,7 @@ function StopRidingVehicleActorInternal(riderActor)
 
 	local vehicleAttachment = vehicleSystem.vehicleAttachments[riderActor]
 
-	-- "
-10447,[2] Global Functions - Actor Vehicles,"remove from the current managed list if it is in there
+	-- remove from the current managed list if it is in there
 	if (vehicleAttachment) then
 		if (vehicleAttachment.rideAnimKit) then
 			vehicleAttachment.rideAnimKit:Stop()
@@ -2391,7 +2448,13 @@ VehicleSystemDebug = function(msg)
 end
 
 "
-20222,Global Constants - TextEffect Styles,"-- Text Effect Styles
+20222,Global Constants - TextEffect Styles,"--
+-- TextEffect Styles
+-- These Scripts have been added to SVN, if you make a change here, update it
+-- also there \Object\ObjectClient\SceneScriptGlobal\
+--
+
+-- Text Effect Styles
 TextEffectStyle =
 {
 	Garrison				= 6;
@@ -2402,31 +2465,112 @@ TextEffectStyle =
 	Legion					= 11;
 }
 "
-20463,[1] Global Functions - Scene,"editor
+20463,[1] Global Functions - Scene,"0;
+		timeSeconds = 0;
+		integerData = 0;
+		floatData = 0;
+		stringData = """";
+		vectorData = Vector:New();
+		
+		-- timeline editor
 		editorTimeSeconds = 0;
 		editorKey = TimelineKey:Default();		
 	}
 	setmetatable(evt, self.__meta)
 	return evt
 end"
-21925,Global Functions - Table Wrappers,"-- Dummy functions that simply return the passed value back.
+21925,Global Functions - Table Wrappers,"--
+-- Table Wrappers
+-- These Scripts have been added to SVN, if you make a change here, update it
+-- also there \Object\ObjectClient\SceneScriptGlobal\
+--
+
+-- Dummy functions that simply return the passed value back.
 -- These are used by the editor to indicate which table type a magic number is
 -- e.g. sid(1234) is spell 1234, cid(1234) is creature 1234
 
 local wrappers =
 {
-	creature = 'cid',
+    animationData = 'adid',
+    animKit = 'akid',
+    broadcastText = 'btid',
+    cameraEffect = 'ceid',
+    cameraMode = 'cmid',
+    creature = 'cid',
+    creatureDisplayInfo = 'cdiid',
+    decalProperties = 'dpid',
 	fileData = 'fid',
 	gameObjectDisplayInfo = 'gdi',
 	item = 'iid',
+    movie = 'mid',
+    screenEffect = 'seid',
+    soundKit = 'skid',
 	spell = 'sid',
+    spellVisual = 'svid',
+    uiCamera = 'uicid',
+	weather = 'wid',
 }
 
 local env = getfenv();
 for t, shortcut in pairs(wrappers) do
 	env[shortcut] = function(id) return id end;
 end"
-26422,[1] Global Functions - Actor,"_modelFile
+26422,[1] Global Functions - Actor,"		scale = 1.0,
+		facingOffset = 0.0,
+		name = """",
+		transform = Transform:New(),
+		hoverHeight = 0.0,
+		groundSnap = true,
+		interactible = true,
+		selectable = false,
+		floatingTooltip = true,
+		hasShadow = false,
+		smoothPhase = false,
+		trackGround = false,
+		noTransformUpdates = false,
+		copyAnim = false,
+		freezeAnim = false,
+		noShadow = false,
+		disableUpdates = false,
+		aoiSettings = ActorAOISettings:Default(),
+		overrideReaction = ReactionType.Default,
+		overrideMinLod = 0,
+		overrideLinkage = Linkage.Default,
+		sceneEditorActorID = 0,
+		fadeRegionSettings = ActorFadeRegionSettings:Default(),
+	}
+	setmetatable(c, self.__meta)
+	return c
+end
+
+function ActorCreateData:New(_id, _trans, _scale)
+	local c = ActorCreateData:Default()
+
+	c.creatureID = _id or c.creatureID
+	c.scale = _scale or c.scale
+	c.transform = _trans
+
+	return c
+end
+
+function ActorCreateData:NewDisplay(_creatureID, _displayId, _trans, _scale)
+	local c = ActorCreateData:Default()
+
+	c.creatureID = _creatureID or c.creatureID
+	c.creatureDisplayID = _displayID or c.creatureDisplayID
+	c.scale = _scale or c.scale
+	c.transform = _trans
+
+	return c
+end
+
+function ActorCreateData:NewModel(_name, _modelFile, _trans, _scale)
+	local c = ActorCreateData:Default()
+
+	if type(_modelFile) == ""number"" then
+		c.modelFileID = _modelFile
+	else
+		c.model = _modelFile
 	end
 	c.scale = _scale or c.scale
 	c.name = _name
@@ -2451,6 +2595,7 @@ function ActorHeadLookData:Default()
 		facingAngleYaw = 0.0,
 		facingAnglePitch = 0.0,
 		target = nil,
+		targetActivePlayer = false,
 		offset = { x=0, y=0, z=0 },
 		facingToPos = { x=0, y=0, z=0 },
 		increaseLookAtPitchAngle = false,
@@ -2475,3 +2620,42 @@ function ScaleData:Default()
 	return d
 end
 ]]"
+43985,[1] Global Constants - Animation Table 1,"Hover = 193;
+	SuccubusEntice = 194;
+	EmoteTrain = 195;
+	EmoteDead = 196;
+	EmoteDanceOnce = 197;
+	Deflect = 198;
+	EmoteEatNoSheathe = 199;
+	Land = 200;}
+"
+43986,[1] Global Constants - Animation Table 2,"FlyEmoteWorkNoSheathe = 365;
+	FlyEmoteStunNoSheathe = 366;
+	FlyEmoteUseStandingNoSheathe = 367;
+	FlySpellSleepDown = 368;
+	FlySpellKneelStart = 369;
+}
+"
+43987,[1] Global Constants - Animation Table 3,"555;
+	MountFlightRun = 556;
+	FlyMountFlightRun = 557;
+	MountFlightSprint = 558;
+	FlyMountFlightSprint = 559;
+	MountFlightWalk = 560;
+}
+"
+43988,[1] Global Constants - Animation Table 4,"= 709;
+	CraneLoop = 710;
+	FlyCraneLoop = 711;
+	CraneEnd = 712;
+	FlyCraneEnd = 713;
+	Despawned = 714;
+	FlyDespawned = 715;
+}
+"
+43989,[1] Global Functions - Matrix Math,"-oldX
+	M[2][4] = -oldY
+	M[3][4] = -oldZ
+
+	return M
+end"

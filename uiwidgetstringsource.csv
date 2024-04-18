@@ -2248,7 +2248,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 4015,|Hcurrency:1540|h,198,1752
 4016,Test1,205,1753
 4017,Test2,204,1753
-4037,|Hitem:181342|hMood: Miserable,212,1758
+4037,,212,1758
 4038,,221,1759
 4039,,223,1759
 4040,Left Icon 3 State 1 Tooltip,225,1759
@@ -5075,14 +5075,17 @@ ID,Value_lang,ReqID,ParentWidgetID
 9063,,39,1020
 9064,,41,1020
 9065,,42,1020
-9066,,212,3460
-9067,,277,3460
-9068,,19,3461
-9069,,208,3461
-9070,,273,3461
 9074,,19,3463
 9075,Cosmic Energy,273,3463
 9076,Collect Cosmic Energy from enemies empowered by it and standing in energy pools.,208,3463
+9086,|cffFFD100Storm Approaching,19,3467
+9087,,273,3467
+9088,,208,3467
+9089,|cffFFD100The Storm converges in:,19,3468
+9090,,273,3468
+9091,,208,3468
+9096,,212,3471
+9097,,277,3471
 9115,,19,3475
 9116,Stay near Kodah and keep the Mawsworn away to help power the matrix.,208,3475
 9117,Powering Up Matrix,273,3475
@@ -5124,6 +5127,10 @@ ID,Value_lang,ReqID,ParentWidgetID
 9341,,277,3508
 9342,,212,3509
 9343,,277,3509
+9348,|Hitem:187988|h,212,3512
+9349, ,277,3512
+9350,|Hitem:187988|h,212,3513
+9351, ,277,3513
 9352,|cffffffffThe Jailer's Gauntlet|r|nLayer: %19811w,204,3514
 9353,,205,3514
 9364,%187921ic,25,3519
@@ -5134,7 +5141,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 9369,,30,3519
 9370,,31,3519
 9371,,32,3519
-9384,Round: %21427w/6,2,3521
+9384,Round: %21427w/%26161w,2,3521
 9385,,3,3521
 9386,,4,3521
 9405,,277,3525
@@ -5144,23 +5151,6 @@ ID,Value_lang,ReqID,ParentWidgetID
 9412,Zone Goals Completed,19,3528
 9413,,273,3528
 9414,,208,3528
-9415,,407,3529
-9416,,413,3529
-9417,500,257,3530
-9418,,258,3530
-9419,,262,3530
-9420,736,261,3530
-9421,621,264,3530
-9422,,265,3530
-9423,400,267,3530
-9424,,268,3530
-9425,,270,3530
-9426,,271,3530
-9427,,420,3531
-9441,3/5: |TINTERFACE\ICONS\ACHIEVEMENT_DUNGEON_CLASSICRAIDER.BLP:32|t|TINTERFACE\ICONS\ACHIEVEMENT_DUNGEON_CLASSICRAIDER.BLP:32|t|TINTERFACE\ICONS\ACHIEVEMENT_DUNGEON_CLASSICRAIDER.BLP:32|t|TInterface\ICONS\artifactability_BalanceDruid_NewMoon.blp:32|t|TInterface\ICONS\artifactability_BalanceDruid_NewMoon.blp:32|t,19,3538
-9442,,273,3538
-9443,"Eye of the Jailer|nTier 3/5|n|nYour actions the Maw incur the Eye of the Jailer, which will bring about increasing threats.|n|nCurrent Threats:|n|cFFFFFFFFSoulseekers attack you on sight|n|nTowers bombard your location, dealing damage and slowing you|n|nAssassins are sent to kill you|r|n|nNext Threat:|n|cFFFFFFFFElite Assassins|r",208,3538
-9444,"Eye of the Jailer|n|cFFFFFFFFTier 3/5|r|n|nYour actions in the Maw incur the Eye of the Jailer, which will bring about increasing threats.|n|nCurrent Threats:|n|cFFFFFFFFSoulseekers attack you on sight|n|nTowers bombard your location, dealing damage and slowing you|n|nAssassins are sent to kill you|r|n|nNext Threat:|n|cFFFFFFFFWinged Abductors|r",418,3539
 9445,,19,3540
 9446,Collect arcane crystals around the citadel to infuse the table!,208,3540
 9447,Infusion Progress,273,3540
@@ -5188,7 +5178,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 9469,,277,3551
 9470,Ultimus Locus Arrangement,212,3552
 9471,,277,3552
-9472,Test,540,3553
+9472,,540,3553
 9473,,541,3553
 9487,,19,3554
 9488,Azeroth's Health,273,3554
@@ -5475,6 +5465,20 @@ ID,Value_lang,ReqID,ParentWidgetID
 9883,,277,2064
 9884,,277,2065
 9885,,277,2066
+9888,%22262w Players Remaining,194,3629
+9889,The amount of players that are alive.,195,3629
+9890,,197,3629
+9891,,198,3629
+9892,,200,3629
+9893,,201,3629
+9894,|cffFFD100Loot and Plunder!,428,3629
+9895,%22262w / %21271w Solos,194,3630
+9896,The tournament will begin once enough players have been summoned.,195,3630
+9897,,197,3630
+9898,,198,3630
+9899,,200,3630
+9900,,201,3630
+9901,|cffFFD100Summoning Scallywags,428,3630
 9902,,19,3631
 9903,Uranto's Health: %21928w%,273,3631
 9904,,208,3631
@@ -5499,6 +5503,8 @@ ID,Value_lang,ReqID,ParentWidgetID
 11089,,19,4175
 11090,Fish Rage,273,4175
 11091,,208,4175
+11092,|Hspell:375246|h,212,4176
+11093, ,277,4176
 11129,,212,4178
 11130,,277,4178
 11131,,212,4179
@@ -5534,9 +5540,39 @@ ID,Value_lang,ReqID,ParentWidgetID
 11169,Weapons Remaining,19,4189
 11170,,273,4189
 11171,Remaining Weapon Supply,208,4189
+11182,Players defeated throughout the match.,477,4195
+11183,Player Kills:,480,4195
+11184,,485,4195
+11185,%53832yc,490,4195
+11186,,495,4195
+11187,Total gold looted throughout the match.,477,4196
+11188,Gold Looted:,480,4196
+11189,,485,4196
+11190,%53833yc,490,4196
+11191,,495,4196
+11192,Non-player characters defeated.,477,4197
+11193,Creature Kills:,480,4197
+11194,,485,4197
+11195,%53834yc,490,4197
+11196,,495,4197
+11197,Damage dealt to players.,477,4198
+11198,Damage to Players:,480,4198
+11199,,485,4198
+11200,%53810yc,490,4198
+11201,,495,4198
 11207,Groups defeated:,19,4199
 11208,,273,4199
 11209,,208,4199
+11215,Damage dealt to players and creatures.,477,4200
+11216,Total Damage Dealt:,480,4200
+11217,,485,4200
+11218,%53835yc,490,4200
+11219,,495,4200
+11220,Spells and items looted.,477,4201
+11221,Items Looted:,480,4201
+11222,,485,4201
+11223,%53836yc,490,4201
+11224,,495,4201
 11227,Time Remaining:,19,4203
 11228,,273,4203
 11229,Net can be collected when timer is completed.,208,4203
@@ -5589,35 +5625,10 @@ ID,Value_lang,ReqID,ParentWidgetID
 11319,Groups defeated:,19,4215
 11320,,273,4215
 11321,,208,4215
-11322,,257,4216
-11323,Vigor is spent by dragonriding abilities and recharges while grounded (mounted or on foot) or in the sky while dragonriding at high speeds.,258,4216
-11324,Vigor is spent by dragonriding abilities and recharges while grounded (mounted or on foot) or in the sky while dragonriding at high speeds.,262,4216
-11325,,261,4216
-11326,,264,4216
-11327,Vigor is spent by dragonriding abilities and recharges while grounded (mounted or on foot) or in the sky while dragonriding at high speeds.,265,4216
-11328,,267,4216
-11329,Vigor is spent by dragonriding abilities and recharges while grounded (mounted or on foot) or in the sky while dragonriding at high speeds.,268,4216
-11330,,270,4216
-11331,Vigor is spent by dragonriding abilities and recharges while grounded (mounted or on foot) or in the sky while dragonriding at high speeds.,271,4216
-11332,,570,4216
-11333,Vigor is spent by dragonriding abilities and recharges while grounded (mounted or on foot) or in the sky while dragonriding at high speeds.,571,4216
-11334,,257,4217
-11335,,258,4217
-11336,,262,4217
-11337,,261,4217
-11338,,264,4217
-11339,,265,4217
-11340,,267,4217
-11341,,268,4217
-11342,,270,4217
-11343,,271,4217
-11344,,570,4217
-11345,,571,4217
 11346,Join Clan Shikaar on a Grand Hunt.,52,4218
 11347,Test Tooltip,394,4218
-11350,,19,4220
-11351,"Vigor recharges while grounded, whether mounted or not, and while dragonriding at high speeds.",208,4220
-11352,,273,4220
+11348,,212,4219
+11349,,277,4219
 11353,,19,4221
 11354,Honmor's Health: %21928w%,273,4221
 11355,,208,4221
@@ -5882,6 +5893,10 @@ ID,Value_lang,ReqID,ParentWidgetID
 11661,Optional: Snacks Fed to Beef,19,4326
 11662,,273,4326
 11663,Pick up nearby lava slugs and feed them to Beef to strengthen him and yourself!,208,4326
+11664,,212,4327
+11665,,277,4327
+11666,,212,4328
+11667,,277,4328
 11668,,19,4329
 11669,Time Remaining,273,4329
 11670,,208,4329
@@ -5970,6 +5985,36 @@ ID,Value_lang,ReqID,ParentWidgetID
 11758,"The better the smell, the better the soup... and the greater the danger!",208,4344
 11759,Soup Quality: |cFFFF8000Legendary (%38830e)|r,19,4344
 11760,Protect the Soup!,273,4344
+11761,,212,4345
+11762,,277,4345
+11763,,212,4346
+11764,,277,4346
+11765,,212,4347
+11766,,277,4347
+11767,,212,4348
+11768,,277,4348
+11769,,212,4349
+11770,,277,4349
+11771,,212,4350
+11772,,277,4350
+11773,,212,4351
+11774,,277,4351
+11775,,212,4352
+11776,,277,4352
+11779,,212,4354
+11780,,277,4354
+11781,,212,4355
+11782,,277,4355
+11783,,212,4356
+11784,,277,4356
+11785,,212,4357
+11786,,277,4357
+11787,,212,4358
+11788,,277,4358
+11789,,212,4359
+11790,,277,4359
+11791,,212,4360
+11792,,277,4360
 11793,|cff1eff00Rich|r|n125% chance to catch an Ominous Conch. |n20% chance to drill extra deep hole in ice for better catch.|nIce fishing holes last 10 minutes.|nNets can be set.,52,4361
 11794,,394,4361
 11795,|cff9d9d9dModerate|r|nIce fishing holes last 3 minutes.|nNets cannot be set.,52,4362
@@ -6157,6 +6202,26 @@ ID,Value_lang,ReqID,ParentWidgetID
 11993,"A Primalist fire storm rages through the area, imbuing creatures with new powers and strengths.",394,4436
 11994,|A:elementalstorm-lesser-water:24:24:0:0|a Elemental Storm,52,4437
 11995,"A Primalist snowstorm chills the area, imbuing creatures with new powers and strengths.",394,4437
+11996,,212,4438
+11997,,277,4438
+11998,,212,4439
+11999,,277,4439
+12000,,212,4440
+12001,,277,4440
+12002,,212,4441
+12003,,277,4441
+12004,,212,4442
+12005,,277,4442
+12006,,212,4443
+12007,,277,4443
+12008,,212,4444
+12009,,277,4444
+12010,,212,4445
+12011,,277,4445
+12012,,212,4446
+12013,,277,4446
+12014,,212,4447
+12015,,277,4447
 12046,Wins: %55859yc,2,4457
 12047,,3,4457
 12048,,4,4457
@@ -6171,6 +6236,10 @@ ID,Value_lang,ReqID,ParentWidgetID
 12061,Uktulut Outpost,19,4464
 12062,Lost Arvillo travels between Uktulut Outpost and Uktulut Pier.,208,4464
 12063,Time Until Arrival,273,4464
+12070,|CFFffd200The Primalists are mounting an attack upon the Temporal Conflux!|r,52,4468
+12071,,394,4468
+12072,|cFFffd200Begins in %22895k|r,52,4469
+12073,,394,4469
 12074,Time Remaining: %22896x,52,4470
 12075,,394,4470
 12079,"Keep moving, or you'll fall!",407,4471
@@ -6252,7 +6321,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 12190,,394,4519
 12191,- Completing the |cFFFFFFFFSiege on Dragonbane Keep|r |nevent in Waking Shores will grant bonus |nrewards.,52,4520
 12192,,394,4520
-12193,- Pledge your allegiance to either |nWrathion or Sabellian to unlock |n|cFFFFFFFFadditional quests|r.,52,4521
+12193,- Pledge your allegiance to either Wrathion or Sabellian to unlock |cFFFFFFFFadditional quests|r.,52,4521
 12194,,394,4521
 12195,Dragonscale Expedition:,52,4522
 12196,,394,4522
@@ -6292,12 +6361,9 @@ ID,Value_lang,ReqID,ParentWidgetID
 12240,Young Belvo,19,4545
 12241,Young Belvo is traveling all over Azeroth.,208,4545
 12242,Time Until Arrival,273,4545
-12243,Dragon Glyphs Obtained,584,4546
-12244,"Collected by flying through the dragon glyphs found throughout the Dragon Isles. Spend to unlock Dragonriding skills.|n|nFor clues to find these glyphs, check the Glyph Hunter achievements or Dragon Glyph Resonance when your drake senses one nearby.|n|n",585,4546
+12243,Dragon Power [PH],584,4546
+12244,You will gain extra Skyriding power as you level up.,585,4546
 12245,,598,4546
-12246,Disc Stability,19,4550
-12247,,208,4550
-12248,,273,4550
 12249,Quests:,52,4551
 12250,,394,4551
 12251,Quests:,52,4552
@@ -6314,3 +6380,2588 @@ ID,Value_lang,ReqID,ParentWidgetID
 12262,Dragon Isles,19,4556
 12263,Top gnomes are tracking down the boat's current location.,208,4556
 12264,Unknown Arrival Time,273,4556
+12268,,19,4558
+12269,Collect Dragon Isles Supplies from various activities around the Isles. (addCurrency 2003 10000),208,4558
+12270,Construction Progress,273,4558
+12271,Elemental Portals active,19,4559
+12272,,273,4559
+12273,Close Elemental Portals to cut off power to the Primalist's ritual.,208,4559
+12274,Construction Progress,19,4560
+12275,Collect Dragon Isles Supplies from various activities around the Isles. (addCurrency 2003 10000),208,4560
+12276,Dragon Isles Supplies,273,4560
+12395,Arcane Energy,19,4601
+12396,,208,4601
+12397,,273,4601
+12398,,19,4602
+12399,Use Primal Motes to break through the barrier and destroy this conduit!,208,4602
+12400,Primal Barrier Strength,273,4602
+12413,Vigor recharges while grounded and while flying at high speeds.,581,4604
+12414,,19,4605
+12415,Use Primal Motes to destroy all nearby Primalist Totems to close this portal!,208,4605
+12416,Portal Stability,273,4605
+12424,Primal Motes: %201990c,56,4606
+12425,Primal Motes are used for many different things.,57,4606
+12426,,59,4606
+12427,,60,4606
+12428,,62,4606
+12429,,63,4606
+12430,,67,4606
+12431,,66,4606
+12432,,72,4606
+12433,,73,4606
+12434,,74,4606
+12435,,75,4606
+12436,,194,4606
+12437,,195,4606
+12438,,197,4606
+12439,,198,4606
+12440,,200,4606
+12441,,201,4606
+12442,Placeholder Text,428,4606
+12445,Kill nearby Primalists and keep the location secure so that the portal can be closed.,275,4607
+12449,,19,4609
+12450,Fishing hole benefits diminish when stock is low.|n|n|cff1eff00Rich|r|n125% chance to find Ominous Conches. |n125% chance to find rare schools of fish.|nNets can be set.,208,4609
+12451,Rich,273,4609
+12452,|cff9d9d9dModerate|r|nNets cannot be set.,52,4610
+12453,,394,4610
+12454,Good|n110% chance to find Ominous Conches. |n110% chance to find rare schools of fish.|nNets can be set.,52,4611
+12455,,394,4611
+12456,,19,4612
+12457,Fishing hole benefits diminish when stock is low.|n|nGood|n110% chance to find Ominous Conches. |n110% chance to find rare schools of fish.|nNets can be set.,208,4612
+12458,Good,273,4612
+12459,|cff1eff00Rich|r|n125% chance to find Ominous Conches. |n125% chance to find rare schools of fish.|nNets can be set.,52,4613
+12460,,394,4613
+12461,,19,4614
+12462,Fishing hole benefits diminish when stock is low.|n|n|cff9d9d9dModerate|r|nNets cannot be set.,208,4614
+12463,Moderate,273,4614
+12464,Time Remaining:,19,4615
+12465,,273,4615
+12466,Net can be collected when timer is completed.,208,4615
+12467,Dragonskull Island Fishing Hole,52,4616
+12468,,394,4616
+12528,Click on the squad member to revive them!,212,4637
+12529, ,277,4637
+12530,,15,4637
+12531,Click on the squad member to resurrect them!,212,4639
+12532, ,277,4639
+12533,,15,4639
+12539, |TInterface\Icons\INV_TreasureVault_Key01.BLP:16:16:0:-3|t Keys available: |cFFFFFFFF%38805e|r,52,4642
+12540,,394,4642
+12541,%22262w / %22264w Duos,194,4643
+12542,The tournament will begin once enough players have been summoned.,195,4643
+12543,,197,4643
+12544,,198,4643
+12545,,200,4643
+12546,,201,4643
+12547,|cffFFD100Summoning Scallywags,428,4643
+12548,%22262w / %22265w Trios,194,4644
+12549,The tournament will begin once enough players have been summoned.,195,4644
+12550,,197,4644
+12551,,198,4644
+12552,,200,4644
+12553,,201,4644
+12554,|cffFFD100Summoning Scallywags,428,4644
+12555,%22262w Squads Remaining,194,4645
+12556,The amount of players that are alive.,195,4645
+12557,,197,4645
+12558,,198,4645
+12559,,200,4645
+12560,,201,4645
+12561,|cffFFD100Loot and Plunder!,428,4645
+12569,? Alive,194,4647
+12570,There are an unknown amount of players alive.,195,4647
+12571,,197,4647
+12572,,198,4647
+12573,,200,4647
+12574,,201,4647
+12575,         |cffFFD100Round %21305w,428,4647
+12576,? Squads (? Players),194,4648
+12577,There are an unknown amount of players that are alive.,195,4648
+12578,,197,4648
+12579,,198,4648
+12580,,200,4648
+12581,,201,4648
+12582,         |cffFFD100Round %21305w,428,4648
+12602,Recovered Strength,19,4651
+12603,,273,4651
+12604,Ebyssian needs to recover his strength before he can extinguish more fires.,208,4651
+12616,Test,275,4653
+12617,Fyrakk Assaults,19,4654
+12618,Fyrakk will arive with reinforcements to decimate those who have stolen from him.,208,4654
+12619,Time Until Fyrakk's Arrival,273,4654
+12620,Conduit Energy,19,4655
+12621,%w,273,4655
+12622,,208,4655
+12623,,19,4656
+12624,,208,4656
+12625,,273,4656
+12626,,19,4657
+12627,,208,4657
+12628,,273,4657
+12629,Trial begins in: %23175x,52,4658
+12630,,394,4658
+12631,Trial In Progress,52,4659
+12632,,394,4659
+12633,Trial begins in: %23175x,52,4660
+12634,,394,4660
+12635,Kill nearby Primalists and keep the location secure so that the portal can be closed.,275,4661
+12636,Kill nearby Primalists and keep the location secure so that the portal can be closed.,275,4662
+12637,Kill nearby Primalists and keep the location secure so that the portal can be closed.,275,4663
+12638,Kill nearby Primalists and keep the location secure so that the portal can be closed.,275,4664
+12639,Kill nearby Primalists and keep the location secure so that the portal can be closed.,275,4665
+12640,Kill nearby Primalists and keep the location secure so that the portal can be closed.,275,4666
+12641,Kill nearby Primalists and keep the location secure so that the portal can be closed.,275,4667
+12642,Kill nearby Primalists and keep the location secure so that the portal can be closed.,275,4668
+12643,Kill nearby Primalists and keep the location secure so that the portal can be closed.,275,4669
+12644,Kill nearby Primalists and keep the location secure so that the portal can be closed.,275,4670
+12645,Kill nearby Primalists and keep the location secure so that the portal can be closed.,275,4671
+12646,Kill nearby Primalists and keep the location secure so that the portal can be closed.,275,4672
+12647,Kill nearby Primalists and keep the location secure so that the portal can be closed.,275,4673
+12648,Kill nearby Primalists and keep the location secure so that the portal can be closed.,275,4674
+12693,|cnNORMAL_FONT_COLOR:- The Forbidden Reach:|r %39078e/%39071e,52,4683
+12694,,394,4683
+12734,"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",52,4691
+12735,,394,4691
+12746,,19,4696
+12747,Time Remaining,273,4696
+12748,,208,4696
+12749,,19,4697
+12750,Time Remaining,273,4697
+12751,,208,4697
+12752,,19,4698
+12753,Time Remaining,273,4698
+12754,,208,4698
+12770,Researchers Objectives Completed: ,19,4700
+12771,,273,4700
+12772,|Hspell:409646|h,208,4700
+12790,|cffFFD100The Storm has arrived!,19,3469
+12791,,273,3469
+12792,,208,3469
+12793,|cffFFD100The Storm is converging!,19,3470
+12794,,273,3470
+12795,,208,3470
+12841,,52,4705
+12842,,394,4705
+12843,Fyrakk's Fury,19,4706
+12844,Interferring with Fyrakk's forces will earn his fury and he will send a greater foe to stop you all.,208,4706
+12845,Next Fyrakk Attack,273,4706
+12849,,212,4708
+12850,,277,4708
+12851,,212,4709
+12852,,277,4709
+12853,,212,4710
+12854,,277,4710
+12855,,212,4711
+12856,,277,4711
+12857,,212,4712
+12858,,277,4712
+12859,,212,4713
+12860,,277,4713
+12861,,212,4714
+12862,,277,4714
+12863,,212,4715
+12864,,277,4715
+12865,Fyrakk is approaching.,433,4716
+12866,Fyrakk will arive with reinforcements to decimate those who have stolen from him.,434,4716
+12869,[Click] on the flag to begin your defense!,212,4718
+12870, ,277,4718
+12871,,15,4718
+12872,|TInterface/DialogFrame/UI-Dialog-Icon-AlertNew.blp:27|t,584,4719
+12873,Excessively leaving matches before earning a tournament placement will subject your account for review and suspensions.|n|nAre you sure you want to leave?,585,4719
+12874,,598,4719
+12875,Show the Elderwing that you really care.,208,4720
+12876,Speed Dating,273,4720
+12877,,19,4720
+12878,Creatures here may drop a |TInterface\Icons\ability_shawaterelemental_reform.blp:16:16:0:-3|t |cFFFFFFFF[Primal Water Core]|r.,52,4721
+12879,,394,4721
+12880,Creatures here may drop a |TInterface\Icons\inv_elemental_primal_fire.blp:16:16:0:-3|t |cFFFFFFFF[Primal Fire Core]|r.,52,4722
+12881,,394,4722
+12882,Creatures here may drop a |TInterface\Icons\ability_gift_of_earth.blp:16:16:0:-3|t |cFFFFFFFF[Primal Earth Core]|r.,52,4723
+12883,,394,4723
+12884,Creatures here may drop a |TInterface\Icons\inv_10_elementalcombinedfoozles_air.blp:16:16:0:-3|t |cFFFFFFFF[Primal Air Core]|r.,52,4724
+12885,,394,4724
+12886,|cFFFFFFFFRewards:|r,52,4725
+12887,,394,4725
+12888,Community Feast:,52,4728
+12889,,394,4728
+12890,The tuskarr will begin their feast soon!!|nTime Left: %22522ht,52,4729
+12891,,394,4729
+12892, ,52,4730
+12893,,394,4730
+12894,"The tuskarr are cooking their feast right now, |nand they can use your help!|nTime Left: %22435ht",52,4731
+12895,,394,4731
+12896,The cooking is over... but the soup is |nready to eat!!|nTime Left: %22515ht,52,4732
+12897,,394,4732
+12898,Fyrakk's Fury,19,4733
+12899,Interferring with Fyrakk's forces will earn his fury and he will send a greater foe to stop you all.,208,4733
+12900,Next Fyrakk Attack,273,4733
+12901,|TInterface/DialogFrame/UI-Dialog-Icon-AlertNew.blp:27|t,584,4734
+12902,Your team is still alive and able to resurrect you.|n|nAre you sure you want to leave?,585,4734
+12903,,598,4734
+12904,,204,4735
+12905,|cff00FFFFTAB|r,205,4735
+12906,,19,4736
+12907,Bring ingredients to contribute to the pot of incense!,208,4736
+12908,Smelliness,273,4736
+12909,WS1 (23519),19,4737
+12910,,273,4737
+12911,,208,4737
+12912,WS2 (23520),19,4738
+12913,,273,4738
+12914,,208,4738
+12915,,19,4739
+12916,Grab the jars of Snuffer Powder and help put out the fires!,208,4739
+12917,Fires,273,4739
+12918,WS1 (23519) Remaining Time: %23519ht,52,4740
+12919,,394,4740
+12920,WS2 (23520) Remaining Time: %23520ha,52,4741
+12921,,394,4741
+12922,,19,4742
+12923,The Envoy will give out their next task when the timer is complete.,208,4742
+12924,Next Quest In,273,4742
+12925,,19,4743
+12926,The Envoy will give out their next task when the timer is complete.,208,4743
+12927,Next Quest In,273,4743
+12931,,19,4745
+12932,The Envoy will give out their next task when the timer is complete.,208,4745
+12933,Next Quest In,273,4745
+12936,,19,4746
+12937,Repel Amythora's attacks.,208,4746
+12938,Sparring,273,4746
+12939,Rewards available:,52,4747
+12940,,394,4747
+12941,Fyrakk's Fury,19,4748
+12942,Interferring with Fyrakk's forces will earn his fury and he will send a greater foe to stop you all.,208,4748
+12943,Next Fyrakk Attack,273,4748
+12944,Fyrakk Assaults,19,4749
+12945,Fyrakk will arive with reinforcements to decimate those who have stolen from him.,208,4749
+12946,Time Until Fyrakk's Arrival,273,4749
+12947,|TInterface\ICONS\inv_misc_coinbag10.BLP:24|t  |cFFC845FADraconic Treasures|r,52,4750
+12948,,394,4750
+12953,,19,4753
+12954,The spirit senses impending danger...,208,4753
+12955,Ancestral Foresight,273,4753
+12956,,19,4754
+12957,Bring Mustmettle's Smellibubbles back to the pot!,208,4754
+12958,Smelliness,273,4754
+12959,Dissipate the storm to earn |TInterface\Icons\INV_10_WorldDropLevelingOptionalReagent_misc_orb_Ice.BLP:16:16:0:-3|t |cFFA335EE[Condensed Frost Magic]|r.,52,4755
+12960,,394,4755
+12961,,19,4756
+12962,Ritual Disruption,273,4756
+12963,Disrupt the ritual to prevent a magmaclaw population explosion!,208,4756
+12964,Dissipate the storm to earn |TInterface\Icons\INV_Misc_Orb_05.blp:16:16:0:-3|t |cFFA335EE[Condensed Fire Magic]|r.,52,4758
+12965,,394,4758
+12966,Dissipate the storm to earn |TInterface\Icons\INV_10_WorldDropLevelingOptionalReagent_misc_orb_Earth.BLP:16:16:0:-3|t |cFFA335EE[Condensed Earth Magic]|r.,52,4759
+12967,,394,4759
+12968,Dissipate the storm to earn |TInterface\ICONS\INV_Misc_Orb_01.blp:16:16:0:-3|t |cFFA335EE[Condensed Nature Magic]|r.,52,4760
+12969,,394,4760
+12970,,19,4761
+12971,Defeat Agitated Crystallines to contribute to the geological survey!,208,4761
+12972,Survey Progress,273,4761
+12979,,19,4764
+12980,Satiation,273,4764
+12981,Feed the hydra nearby enemies!,208,4764
+12982,,19,4744
+12983,Next Quest In,273,4744
+12984,The Envoy will give out their next task when the timer is complete.,208,4744
+12985,%0ss,433,4765
+12986,,434,4765
+13001,Titan forces arrive in:,19,4771
+13002,,273,4771
+13003,,208,4771
+13007,The Sundered Flame return in:,19,4772
+13008,,273,4772
+13009,,208,4772
+13010,|A:minimap-genericevent-hornicon:20:20|a Researchers Under Fire,19,4773
+13011,,273,4773
+13012,The Sundered Flame threat is building and will force the researchers to withdraw soon.,208,4773
+13039,Boulder Chunks Cleared,19,4781
+13040,,273,4781
+13041,Place Boulder Chunks here to clear the testing area. ,208,4781
+13188,,19,4782
+13189,Lift weights to earn points!,208,4782
+13190,Challenge Points,273,4782
+13191,%0ss,433,4783
+13192,,434,4783
+13193,Repair Progress,19,4784
+13194,,273,4784
+13195,Bring titan parts to the station to repair it so it can power other titan equipment.,208,4784
+13196,Repair Progress,19,4785
+13197,,273,4785
+13198,Bring titan parts to Greta to help her repair the console for testing. ,208,4785
+13199,,19,4786
+13200,Time Remaining,273,4786
+13201,,208,4786
+13202,Ore Samples Gathered,19,4787
+13203,,273,4787
+13204,Bring Ore Samples to the sulfur pool to help Greta identify the contaminant. ,208,4787
+13205,Ore Samples Gathered,19,4788
+13206,,273,4788
+13207,Bring Ore Samples to the sulfur pool to help Greta neutralize the contaminant. ,208,4788
+13208,Pillar Shards Restored,19,4789
+13209,,273,4789
+13210,Bring pillar shards to restore the elmental pillar. ,208,4789
+13211,Altar Stones Restored,19,4790
+13212,,273,4790
+13213,Bring resilient stones to restore the Zaqali altar. ,208,4790
+13214,Starting Soon,19,4791
+13215,,208,4791
+13216,,273,4791
+13220,Event begins in: %23697x,52,4792
+13221,,394,4792
+13222,Help Doopurt's wagon reach Loamm!,52,4793
+13223,,394,4793
+13224,,19,4794
+13225,,208,4794
+13226,Active,273,4794
+13227,Starting Soon,52,4795
+13228,,394,4795
+13230,%408922as%,52,4798
+13231,,394,4798
+13232,|TInterface\ICONS\INV_Collections_Armor_Ammopouch_C_01_green.blp:24|t  |cFFa335eeClanging Dirt-Covered Pouch|r,52,4799
+13233,,394,4799
+13234,Rewards available:,52,4800
+13235,,394,4800
+13236,|TInterface\ICONS\INV_Collections_Armor_Ammopouch_C_01_darkbrown.blp:24|t  |cFF0070ddClinking Dirt-Covered Pouch|r,52,4802
+13237,,394,4802
+13238,Starting Soon,19,4803
+13239,,208,4803
+13240,,273,4803
+13241,Agitated Crystallines are attacking Ironjaw's |nGeological Survey!,52,4804
+13242,,394,4804
+13243,Starting Soon,19,4805
+13244,,208,4805
+13245,,273,4805
+13246,The Smellomancer has begun brewing his stink!,52,4806
+13247,,394,4806
+13248,Delvert's smelly cart is on the move!,52,4807
+13249,,394,4807
+13250,Starting Soon,19,4808
+13251,,208,4808
+13252,,273,4808
+13253,Help save Big Ol' Bessie from the fire!,52,4809
+13254,,394,4809
+13255,Starting Soon,19,4810
+13256,,208,4810
+13257,,273,4810
+13258,%0ss,433,4811
+13259,Time remaining until Titan forces arrive to reinstate the lockdown.,434,4811
+13260,%0ss,433,4812
+13261,Time until the Sundered Flame return with a larger force.,434,4812
+13262,%0ss,433,4813
+13263,Time remainig before Rannan is forced to withdraw.,434,4813
+13264,Time until next expedition: %23756ha,52,4814
+13265,,394,4814
+13266,The Glimmerogg drogbar are harvesting crystals |nfrom the Giant Glimmerfish!,52,4815
+13267,,394,4815
+13268,Construction Progress,19,4816
+13269,,273,4816
+13270,,208,4816
+13271,Starting Soon,19,4817
+13272,,208,4817
+13273,,273,4817
+13274,Starting Soon,19,4818
+13275,,273,4818
+13276,,208,4818
+13277,Destroy the djaradin's dragonkilling weapons!,52,4819
+13278,,394,4819
+13279,The Primalists have begun summoning a |nmassive water elemental!,52,4820
+13280,,394,4820
+13281,Starting Soon,19,4821
+13282,,208,4821
+13283,,273,4821
+13284,A weightlifting competition is underway |nin Glimmerogg!,52,4822
+13285,,394,4822
+13286,Starting Soon,19,4823
+13287,,208,4823
+13288,,273,4823
+13289,Starting Soon,19,4824
+13290,,273,4824
+13291,,208,4824
+13292,Commune with the fiery spirits of the caldera to |ncomplete the Zaqali ritual.,52,4825
+13293,,394,4825
+13294,Time Remaining: %23298ha,52,4826
+13295,,394,4826
+13296,Deactivate the Primalist runestones!,52,4827
+13297,,394,4827
+13298,Starting Soon,19,4828
+13299,,273,4828
+13300,,208,4828
+13301,Complete the ritual to summon and defeat |nthe elemental!,52,4829
+13302,,394,4829
+13303,Starting Soon,19,4830
+13304,,273,4830
+13305,,208,4830
+13306,Temporal Essence:,19,4831
+13307,,273,4831
+13308,,208,4831
+13311,Charges Remaining,19,4833
+13312,,273,4833
+13313,,208,4833
+13314,Charges Remaining,19,4834
+13315,,273,4834
+13316,,208,4834
+13317,Empowered,19,4835
+13318,,273,4835
+13319,Channel into the skull to empower the ritual component.,208,4835
+13320,Starting Soon,19,4836
+13321,,273,4836
+13322,,208,4836
+13323,A magmaclaw spawning swarm threatens to |noverrun the cavern!,52,4837
+13324,,394,4837
+13325,Starting Soon,19,4838
+13326,,273,4838
+13327,,208,4838
+13328,Starting Soon,19,4839
+13329,,273,4839
+13330,,208,4839
+13331,Starting Soon,19,4840
+13332,,273,4840
+13333,,208,4840
+13334,Starting Soon,19,4841
+13335,,273,4841
+13336,,208,4841
+13337,Starting Soon,19,4842
+13338,,273,4842
+13339,,208,4842
+13340,Feed enemies to the hungry hydra to keep it satisfied!,52,4843
+13341,,394,4843
+13342,Replace Neltharion's banners with your own!,52,4844
+13343,,394,4844
+13344,Primalists have set up pylons and are infusing |nthe crystal fields!,52,4845
+13345,,394,4845
+13346,Invasive crystals are driving nearby crystalline creatures mad!,52,4846
+13347,,394,4846
+13348,A crumbling titan statue needs some repair!,52,4847
+13349,,394,4847
+13350,Murlocs Saved,19,4848
+13351,,273,4848
+13352,,208,4848
+13353,,19,4849
+13354,Time Remaining,273,4849
+13355,,208,4849
+13356,,19,4850
+13357,Time Remaining,273,4850
+13358,,208,4850
+13359,,19,4851
+13360,Time Remaining,273,4851
+13361,,208,4851
+13362,,19,4852
+13363,Time Remaining,273,4852
+13364,,208,4852
+13365,,19,4853
+13366,Time Remaining,273,4853
+13367,,208,4853
+13368,Concentration,19,4854
+13369,,273,4854
+13370,,208,4854
+13371,,19,4705
+13372,,273,4705
+13373,,208,4705
+13374,Blue dragons will arrive in:,19,4855
+13375,,273,4855
+13376,Kalecgos is working on finding more blue dragons.,208,4855
+13377,Murlocs Escorted,19,4856
+13378,,273,4856
+13379,,208,4856
+13380,Murlocs Saved,19,4857
+13381,,273,4857
+13382,,208,4857
+13383,Charge Remaining,19,4858
+13384,,273,4858
+13385,,208,4858
+13386,Optional: Magmaclaw Snappers stomped,19,4859
+13387,,273,4859
+13388,Stomp on the magmaclaw snappers to keep the ritual area clear for Thaelin. ,208,4859
+13389,Fighting Sarkareth's forces:,19,4860
+13390,,273,4860
+13391,,208,4860
+13392,|A:minimap-genericevent-hornicon:20:20|a Researchers Under Fire,52,4861
+13393,The Sundered Flame threat is building and will force the researchers to withdraw soon.,394,4861
+13394,%23298ht,52,4862
+13395,,394,4862
+13396,Lava Infusion,19,4863
+13397,,273,4863
+13398,Stand in the lava ritual circle to infuse the elemental with lava.,208,4863
+13399,Earth Infusion,19,4864
+13400,,273,4864
+13401,Stand in the earth ritual circle to infuse the elemental with earth.,208,4864
+13402,|cnNORMAL_FONT_COLOR:- Zaralek Cavern:|r %39731e/%39732e,52,4865
+13403,,394,4865
+13406,Bubble Shield Integrity,19,4866
+13407,,273,4866
+13408,Pop the bubbles to break the shield!,208,4866
+13418,Researchers Objectives Completed: ,52,4867
+13419,|Hspell:409646|h,394,4867
+13420,%23296w/%23734w,52,4868
+13421,|Hspell:411691|h,394,4868
+13422,Possible Rewards: ,52,4869
+13423,,394,4869
+13424,|TInterface\ICONS\INV_Misc_Bag_19.blp|t  |cFFC845FAIndebted Researcher's Gift|r,52,4870
+13425,,394,4870
+13426,|TInterface\ICONS\INV_Misc_Bag_19.blp|t |cFF0070ddThankful Researcher's Gift|r,52,4871
+13427,,394,4871
+13428,|TInterface\ICONS\INV_Misc_Bag_19.blp|t |cFF1eff00Appreciative Researcher's Gift|r,52,4872
+13429,,394,4872
+13430,|TInterface\ICONS\INV_Misc_Bag_19.blp|t |cFFffffffResearcher's Gift|r,52,4873
+13431,,394,4873
+13432,You have not yet earned a reward from this event this week. ,52,4874
+13433,,394,4874
+13437,,19,4876
+13438,Maps allow Myrrit to take you on an adventure! Ask him how to find more.,208,4876
+13439,Dig Maps,273,4876
+13445,Maps allow Myrrit to take you on an adventure! Ask him how to find more.,212,4875
+13446,,277,4875
+13449,Dig Maps: %39771e,56,4877
+13450,Maps allow Myrrit to take you on an adventure! Ask him how to find more.,57,4877
+13451,,59,4877
+13452,,60,4877
+13453,,62,4877
+13454,,63,4877
+13455,,67,4877
+13456,,66,4877
+13457,,72,4877
+13458,,73,4877
+13459,,74,4877
+13460,,75,4877
+13461,Dig Maps: %39771e,52,4878
+13462,Maps allow Myrrit to take you on an adventure! Ask him how to find more.,394,4878
+13463,Dig maps allow Myrrit to take you on an adventure! Ask him how to find more.,212,4879
+13464,,277,4879
+13465,Dig maps allow Myrrit to take you on an adventure! Ask him how to find more.,212,4880
+13466,,277,4880
+13467,Dig maps allow Myrrit to take you on an adventure! Ask him how to find more.,212,4881
+13468,,277,4881
+13469,Dig maps allow Myrrit to take you on an adventure! Ask him how to find more.,212,4882
+13470,,277,4882
+13471,Fyrakk's Fury,19,4883
+13472,Interferring with Fyrakk's forces will earn his fury and he will send a greater foe to stop you all.,208,4883
+13473,Next Fyrakk Attack,273,4883
+13474,You have earned the Tier 1 Researcher's Gift |nfor your assistance this week. ,52,4884
+13475,,394,4884
+13476,You have earned the Tier 2 Researcher's Gift |nfor your assistance this week. ,52,4885
+13477,,394,4885
+13478,You have earned the Tier 3 Researcher's Gift |nfor your assistance this week. ,52,4886
+13479,,394,4886
+13480,You have earned the Tier 4 Researcher's Gift |nfor your assistance this week. ,52,4887
+13481,,394,4887
+13482,- Renown Rank: |cFFFFFFFF%2402c|r,52,4888
+13483,,394,4888
+13484,Loamm Niffen:,52,4889
+13485,,394,4889
+13486,- Completing all steps in the |cFFFFFFFFResearchers Under Fire|r|n event will grant bonus rewards.,52,4890
+13487,,394,4890
+13488,- |cFFFFFFFFMyrrit|r can go on additional Sniffenseeking digs this week.,52,4891
+13489,,394,4891
+13490,,19,4892
+13491,Attack the Giant Glimmerfish to send the crystal scales flying!,208,4892
+13492,Scales Collected,273,4892
+13493,Pesky Beasts Stomped,19,4893
+13494,,273,4893
+13495,,208,4893
+13496,Insects Struck,19,4894
+13497,,273,4894
+13498,,208,4894
+13499,Device Overloaded,19,4895
+13500,,273,4895
+13501,,208,4895
+13502,Sightseer Interest,19,4896
+13503,,273,4896
+13504,,208,4896
+13505,Myrrit is collecting dig maps to go on his next adventure. Ask him about it!,212,4897
+13506,,277,4897
+13507,,19,4898
+13508,,208,4898
+13509,Something is coming...,273,4898
+13510,Stillstone Pond Keyflame,19,4899
+13511,Contribute Radiant Remnant to control this location.,208,4899
+13512,,273,4899
+13513,Crowd's Enthusiasm,19,4900
+13514,,273,4900
+13515,"Do things to get the crowd excited! The higher the excitement, the better the end reward.",208,4900
+13516,Victory!,77,4901
+13517,A showoff!,78,4901
+13518,A good comeback story!,79,4901
+13519,,80,4901
+13522,This week the crowd likes...,584,4902
+13523,,585,4902
+13524,,598,4902
+13527,,621,4904
+13528,,622,4904
+13529,%202081id,627,4904
+13530,,275,4905
+13531,Charge,19,4906
+13532,,273,4906
+13533,Whack the Malfunctioning Capacitors to build charge!,208,4906
+13537,%413408as%,52,4909
+13538,,394,4909
+13539,Health,19,4910
+13540,,273,4910
+13541,[DNT] Shoot with lasers to damage!,208,4910
+13542,Echoes of Adventurers:,52,4911
+13543,|cffffffffEchoes|nEarn echo buffs from adventurers exploring other parts of the delve!,394,4911
+13544,,212,4912
+13545,,277,4912
+13546,,212,4914
+13547,,277,4914
+13548,Gauntlet Challenge,52,4915
+13549,Complete the delve with the following limitations to earn an extra reward!,394,4915
+13550,Avoid dying!,77,4916
+13551,,78,4916
+13552,,79,4916
+13553,,80,4916
+13554,,584,4917
+13555,,585,4917
+13556,,598,4917
+13564,,194,4918
+13565,,195,4918
+13566,,197,4918
+13567,,198,4918
+13568,,200,4918
+13569,,201,4918
+13570,%ss,428,4918
+13571,|nLost Transcripts Found: %2590c,52,4919
+13572,,394,4919
+13573,Delve Difficulty: Level 1,52,4920
+13574,,394,4920
+13575,Gauntlet Challenge Complete!,52,4921
+13576,,394,4921
+13577,,19,4922
+13578,,208,4922
+13579,Repairs,273,4922
+13580,Time Rifts Closed: %24216w/18,2,4923
+13581,,3,4923
+13582,,4,4923
+13583,Next Time Rift: %24358ha,52,4924
+13584,,394,4924
+13585,Enemies from other realities have|nentered our timeline.,52,4925
+13586,,394,4925
+13587,,477,4926
+13588,$2236cursm,480,4926
+13589,Time +%1945c,485,4926
+13590,,490,4926
+13591,,495,4926
+13592,Defending the Tree:,19,4927
+13593,,273,4927
+13594,,208,4927
+13595,Defending the Tree:,19,4928
+13596,,273,4928
+13597,,208,4928
+13598,Bloodmines disarmed,19,4929
+13599,,273,4929
+13600,,208,4929
+13601,Blessed Inquisitor's Shield Integrity,19,4930
+13602,,273,4930
+13603,Crash into the shield to break it!,208,4930
+13604,Flying Machines destroyed,19,4931
+13605,,273,4931
+13606,,208,4931
+13607,,212,4932
+13608,%416237n,277,4932
+13609,,212,4933
+13610,|cffff0000%413959n,277,4933
+13612,- Murloc Invaders,52,4935
+13613,,394,4935
+13614,- Titan Invaders,52,4936
+13615,,394,4936
+13616,- Scourge Invaders,52,4937
+13617,,394,4937
+13618,- Demon Invaders,52,4938
+13619,,394,4938
+13620,- Old God Invaders,52,4939
+13621,,394,4939
+13622,- Horde and Alliance Invaders,52,4940
+13623,,394,4940
+13624,- Robot Invaders,52,4941
+13625,,394,4941
+13626,|nTime Left: %23762ha,52,4942
+13627,,394,4942
+13628,Progress,19,4943
+13629,,273,4943
+13630,Kill nearby demons to protect Lysander,208,4943
+13647,%0ss,433,4947
+13648,Time to Sprucecrown's destination:,434,4947
+13649,,19,4948
+13650,Time Remaining,273,4948
+13651,,208,4948
+13652,,19,4949
+13653,Time Remaining,273,4949
+13654,,208,4949
+13655,,19,4950
+13656,Time Remaining,273,4950
+13657,,208,4950
+13658,,19,4951
+13659,Time Remaining,273,4951
+13660,,208,4951
+13661,,19,4952
+13662,Time Remaining,273,4952
+13663,,208,4952
+13664,,19,4953
+13665,Time Remaining,273,4953
+13666,,208,4953
+13667,,19,4954
+13668,Time Remaining,273,4954
+13669,,208,4954
+13670,,19,4955
+13671,Time Remaining,273,4955
+13672,,208,4955
+13673,,19,4956
+13674,Time Remaining,273,4956
+13675,,208,4956
+13676,,19,4957
+13677,Time Remaining,273,4957
+13678,,208,4957
+13679,,19,4958
+13680,Time Remaining,273,4958
+13681,,208,4958
+13682,,19,4959
+13683,Time Remaining,273,4959
+13684,,208,4959
+13685,,19,4960
+13686,Time Remaining,273,4960
+13687,,208,4960
+13688,,19,4961
+13689,Time Remaining,273,4961
+13690,,208,4961
+13691,,19,4962
+13692,Time Remaining,273,4962
+13693,,208,4962
+13697,,621,4963
+13698,,622,4963
+13699,,627,4963
+13700,Next Reward:,52,4964
+13701,,394,4964
+13702,,621,4965
+13703,,622,4965
+13704,,627,4965
+13705,,621,4966
+13706,,622,4966
+13707,,627,4966
+13711,Large Felwort vines pulled,19,4968
+13712,,273,4968
+13713,,208,4968
+13714,Bloom:,19,4969
+13715,Bloom life energy around Amirdrassil!,273,4969
+13716,Sprucecrown is getting too old to make the World Tree bloom by himself. A greater bloom will result in some extra rewards from Sprucecrown!,208,4969
+13717,Bloom:,19,4970
+13718,Bloom life energy around Amirdrassil!,273,4970
+13719,Sprucecrown is getting too old to make the World Tree bloom by himself. A greater bloom will result in a greater surge of life near the tree!,208,4970
+13720,Bloom:,19,4971
+13721,Bloom life energy around Amirdrassil!,273,4971
+13722,Sprucecrown is getting too old to make the World Tree bloom by himself. A greater bloom will result in a greater surge of life near the tree!,208,4971
+13723,Reward Quality: |cFF0070DDRare|r,19,4972
+13724,Bloom life energy around Amirdrassil!,273,4972
+13725,Sprucecrown is getting too old to make the World Tree bloom by himself!,208,4972
+13726,Reward Quality: |cFFA335EEEpic|r,19,4973
+13727,Bloom life energy around Amirdrassil!,273,4973
+13728,Sprucecrown is getting too old to make the World Tree bloom by himself!,208,4973
+13729,Reward Quality: |cFFFF8000Legendary (%38830e)|r,19,4974
+13730,Bloom life energy around Amirdrassil!,273,4974
+13731,Sprucecrown is getting too old to make the World Tree bloom by himself!,208,4974
+13734,%0ss,433,4976
+13735,,434,4976
+13736,Boss portal open! Help Soridormi set|nthe timeways straight.,52,4977
+13737,,394,4977
+13738,|nTime Left: %23762ha,52,4978
+13739,,394,4978
+13740,Dreamseed Nurturing,19,4979
+13741,Contribute to increase reward,208,4979
+13742,,273,4979
+13743,- Murloc Invaders,52,4980
+13744,,394,4980
+13745,- Titan Invaders,52,4981
+13746,,394,4981
+13747,- Scourge Invaders,52,4982
+13748,,394,4982
+13749,- Demon Invaders,52,4983
+13750,,394,4983
+13751,- Old God Invaders,52,4984
+13752,,394,4984
+13753,- Horde and Alliance Invaders,52,4985
+13754,,394,4985
+13755,- Robot Invaders,52,4986
+13756,,394,4986
+13757,Active,52,4987
+13758,,394,4987
+13759,|nWeekly Quest Reward from Soridormi:,52,4988
+13760,,394,4988
+13761,,621,4989
+13762,,622,4989
+13763,"A collection of valuables,|nprepared for you by the Bronze|nDragonflight.",627,4989
+13764,%0ss,433,4990
+13765,Time to Sprucecrown's destination:,434,4990
+13766,Eye Pokes,19,4991
+13767,,273,4991
+13768,,208,4991
+13769,Starting Soon,52,4992
+13770,,394,4992
+13771,Next Dreamsurge: %24340ha,52,4993
+13772,,394,4993
+13773,Dreamseed Nurturing,19,4994
+13774,Contribute to increase reward,208,4994
+13775,,273,4994
+13776,Dreamseed Nurturing,19,4995
+13777,Contribute to increase reward,208,4995
+13778,,273,4995
+13779,Dreamseed Nurturing,19,4996
+13780,Contribute to increase reward|nTime Remaining: |cnWHITE_FONT_COLOR:%24366x|r,208,4996
+13781,,273,4996
+13782,%0ss,433,4997
+13783,Time to Sprucecrown's destination:,434,4997
+13784,%0ss,433,4998
+13785,Time to Sprucecrown's destination:,434,4998
+13786,Dreamseed Nurturing,19,4999
+13787,Contribute to increase reward,208,4999
+13788,,273,4999
+13789,Dreamseed Nurturing,19,5000
+13790,Contribute to increase reward,208,5000
+13791,,273,5000
+13792,Dreamseed Nurturing,19,5001
+13793,Contribute to increase reward,208,5001
+13794,,273,5001
+13795,Dreamseed Nurturing,19,5002
+13796,Contribute to increase reward,208,5002
+13797,,273,5002
+13798,Dreamseed Nurturing,19,5003
+13799,Contribute to increase reward,208,5003
+13800,,273,5003
+13801,Dreamseed Nurturing,19,5004
+13802,Contribute to increase reward,208,5004
+13803,,273,5004
+13804,Dreamseed Nurturing,19,5005
+13805,Contribute to increase reward,208,5005
+13806,,273,5005
+13807,Void Prisons,19,5006
+13808,,273,5006
+13809,,208,5006
+13810,Skies Protected,19,5007
+13811,,273,5007
+13812,,208,5007
+13813,Tentacles Destroyed,19,5008
+13814,,273,5008
+13815,,208,5008
+13818,Dreamseed Nurturing,19,5010
+13819,Contribute to increase reward,208,5010
+13820,,273,5010
+13821,Dreamseed Nurturing,19,5011
+13822,Contribute to increase reward,208,5011
+13823,,273,5011
+13835,Awaiting Prophet Velen's orders,19,5014
+13836,,273,5014
+13837,Prophet Velen is in meditation and will provide orders soon.,208,5014
+13843,Time until next next secret surfaces: %24525ha,52,5015
+13844,,394,5015
+13845,%24429w/%26363w,194,5016
+13846,Releasing spirit subtracts from revives remaining.,195,5016
+13847,0,197,5016
+13848,,198,5016
+13849,,200,5016
+13850,,201,5016
+13851,%ss,428,5016
+13852,|Hspell:448923|h,204,5017
+13853,3,205,5017
+13854,Lost Treasures Found,19,5018
+13855,Found within treasures and by killing creatures.,208,5018
+13856,,273,5018
+13859,Contributions Made:,19,5020
+13860,Click Here,273,5020
+13861,Contribute supplies to start the dig!,208,5020
+13862,Rift Stability,19,5021
+13863,,273,5021
+13864,Progress toward stabilizing the Temporal Rift.,208,5021
+13865,Contributions Made:,19,5022
+13866,Click Here,273,5022
+13867,Contribute supplies to start the dig!,208,5022
+13868,,19,5023
+13869,"Chase turtles, throw food at monkeys, or fight dream monsters to help Nuo have a fun dream!",208,5023
+13870,Dream Fun,273,5023
+13871,Contributions Made:,19,5024
+13872,Click Here,273,5024
+13873,Contribute supplies to craft the structure.,208,5024
+13874,Discipline,19,5025
+13875,,273,5025
+13876,Defeat enemies to build Discipline in order to damage the Echo of Fyrakk.,208,5025
+13877,Starting Soon,19,5026
+13878,,208,5026
+13879,,273,5026
+13882,|TInterface\ICONS\INV_Collections_Armor_Ammopouch_C_01_darkbrown.blp:24|t  |cFF0070ddClinking Dirt-Covered Pouch|r,52,5028
+13883,,394,5028
+13884,Rewards available:,52,5030
+13885,,394,5030
+13886,Nuo has manifested a massive dream creature!,52,5031
+13887,,394,5031
+13888,A powerful creature is soon to appear!,19,5027
+13889,,273,5027
+13890,,208,5027
+13891,Delve Level %2640fL|n,19,5033
+13892,,208,5033
+13893,XP: %40859e/%40860e,273,5033
+13902,,19,5037
+13903,,273,5037
+13904,,208,5037
+13908,Portal Sealed,19,5038
+13909,Portal Sealed,208,5038
+13910,,273,5038
+13911,Challenge Timer,19,5039
+13912,,273,5039
+13913,The time until the device malfunctions and wakes up all the sleeping lizards.,208,5039
+13919,Bug Test,19,5042
+13920,,208,5042
+13921,,273,5042
+13922,,275,5043
+13923,Heat Timer,584,5035
+13924,%24667w ,585,5035
+13925,,598,5035
+13926,Rope Attached,19,5044
+13927,"Pull Moruud to the surface, before he damages the reef.",208,5044
+13928,Ropes Attached,273,5044
+13929,Moruud will surface soon!,19,5045
+13930,,273,5045
+13931,,208,5045
+13932,Moruud has been pulled to the surface!,52,5046
+13933,,394,5046
+13937,,19,5047
+13938,Offer wintery bounties to attract the Envoy's attention.,208,5047
+13939,Tributes Gathered,273,5047
+13940,A powerful creature is soon to appear!,19,5048
+13941,,273,5048
+13942,,208,5048
+13943,The Envoy of Winter seeks to test your resolve.,52,5049
+13944,,394,5049
+13945,%207026ib,56,5050
+13946,|Hitem:207026|h,57,5050
+13947,,59,5050
+13948,,60,5050
+13949,,62,5050
+13950,,63,5050
+13951,,67,5050
+13952,,66,5050
+13953,,72,5050
+13954,,73,5050
+13955,,74,5050
+13956,,75,5050
+13957,,19,5036
+13958,,273,5036
+13959,,208,5036
+13963,Starting Soon,19,5052
+13964,,208,5052
+13965,,273,5052
+13971,,19,5055
+13972,Collect fresh ingredients for the picnic!,208,5055
+13973,Picnic Ingredients,273,5055
+13974,,642,5056
+13975,,645,5056
+13976,,646,5056
+13977,Beacon Activation,19,5060
+13978,,208,5060
+13979,,273,5060
+13980,Beacon Charge,19,5061
+13981,,208,5061
+13982,,273,5061
+13983,,642,5062
+13984,,645,5062
+13985,,646,5062
+13986,A powerful creature is soon to appear!,19,5053
+13987,,273,5053
+13988,,208,5053
+13989,A very hungry bear has appeared!,52,5063
+13990,,394,5063
+13993,,19,5065
+13994,Slay Primalists,208,5065
+13995,Primalists Slain,273,5065
+13996,A powerful creature is soon to appear!,19,5066
+13997,,273,5066
+13998,,208,5066
+13999,Firebrand Fystia has joined the battle!,52,5067
+14000,,394,5067
+14001,,642,5068
+14002,,645,5068
+14003,,646,5068
+14004,Next Dreamsurge: %24340ha,52,5069
+14005,,394,5069
+14006,,642,5070
+14007,,645,5070
+14008,,646,5070
+14009,Visit Naralex to vote for the next Dreamsurge effect.,52,5072
+14010,,394,5072
+14011,Lifebridge Power,19,5074
+14012,,273,5074
+14013,Progress towards extending the Lifebridge.,208,5074
+14014,Dreamseed Nurturing,19,5075
+14015,Contribute to increase reward,208,5075
+14016,,273,5075
+14017,Dreamseed Nurturing,19,5076
+14018,Contribute to increase reward,208,5076
+14019,,273,5076
+14020,Dreamseed Nurturing,19,5077
+14021,Contribute to increase reward,208,5077
+14022,,273,5077
+14023,Time Remaining: %24892x,52,5078
+14024,,394,5078
+14027,[DNT] Player Score:,19,5079
+14028,,273,5079
+14029,,208,5079
+14030,,19,5080
+14031,,273,5080
+14032,,208,5080
+14033,Shadowflame Knowledge,19,5081
+14034,,273,5081
+14035,,208,5081
+14036,Emerald Frenzy,19,5082
+14037,Kill creatures to collect Emerald Dewdrops!,208,5082
+14038,,273,5082
+14039,Creatures here are overflowing with Emerald Dewdrops!,19,5083
+14040,,273,5083
+14041,,208,5083
+14044,,277,5085
+14045,,212,5085
+14054,,277,5086
+14055,,212,5086
+14056,Dreamseed Nurturing,19,5087
+14057,Contribute to increase reward,208,5087
+14058,,273,5087
+14059,Dreamseed Nurturing,19,5088
+14060,Contribute to increase reward|nTime Remaining: |cnWHITE_FONT_COLOR:%24363x|r,208,5088
+14061,,273,5088
+14062,Dreamseed Nurturing,19,5089
+14063,Contribute to increase reward,208,5089
+14064,,273,5089
+14065,Dreamseed Nurturing,19,5090
+14066,Contribute to increase reward,208,5090
+14067,,273,5090
+14068,Dreamseed Nurturing,19,5091
+14069,Contribute to increase reward|nTime Remaining: |cnWHITE_FONT_COLOR:%24366x|r,208,5091
+14070,,273,5091
+14071,Dreamseed Nurturing,19,5092
+14072,Contribute to increase reward|nTime Remaining: |cnWHITE_FONT_COLOR:%24366x|r,208,5092
+14073,,273,5092
+14074,Dreamseed Nurturing,19,5093
+14075,Contribute to increase reward,208,5093
+14076,,273,5093
+14077,Dreamseed Nurturing,19,5094
+14078,Contribute to increase reward,208,5094
+14079,,273,5094
+14080,Dreamseed Nurturing,19,5095
+14081,Contribute to increase reward,208,5095
+14082,,273,5095
+14083,Dreamseed Nurturing,19,5096
+14084,Contribute to increase reward,208,5096
+14085,,273,5096
+14086,Dreamseed Nurturing,19,5097
+14087,Contribute to increase reward,208,5097
+14088,,273,5097
+14089,Dreamseed Nurturing,19,5098
+14090,Contribute to increase reward,208,5098
+14091,,273,5098
+14092,Dreamseed Nurturing,19,5099
+14093,Contribute to increase reward,208,5099
+14094,,273,5099
+14095,Dreamseed Nurturing,19,5100
+14096,Contribute to increase reward,208,5100
+14097,,273,5100
+14098,Dreamseed Nurturing,19,5101
+14099,Contribute to increase reward,208,5101
+14100,,273,5101
+14101,Dreamseed Nurturing,19,5102
+14102,Contribute to increase reward,208,5102
+14103,,273,5102
+14104,Dreamseed Nurturing,19,5103
+14105,Contribute to increase reward,208,5103
+14106,,273,5103
+14107,Dreamseed Nurturing,19,5104
+14108,Contribute to increase reward,208,5104
+14109,,273,5104
+14110,Dreamseed Nurturing,19,5105
+14111,Contribute to increase reward,208,5105
+14112,,273,5105
+14113,Dreamseed Nurturing,19,5106
+14114,Contribute to increase reward,208,5106
+14115,,273,5106
+14116,Dreamseed Nurturing,19,5107
+14117,Contribute to increase reward,208,5107
+14118,,273,5107
+14119,Dreamseed Nurturing,19,5108
+14120,Contribute to increase reward,208,5108
+14121,,273,5108
+14122,Dreamseed Nurturing,19,5109
+14123,Contribute to increase reward,208,5109
+14124,,273,5109
+14125,Dreamseed Nurturing,19,5110
+14126,Contribute to increase reward,208,5110
+14127,,273,5110
+14128,Dreamseed Nurturing,19,5111
+14129,Contribute to increase reward,208,5111
+14130,,273,5111
+14131,Dreamseed Nurturing,19,5112
+14132,Contribute to increase reward,208,5112
+14133,,273,5112
+14134,Dreamseed Nurturing,19,5113
+14135,Contribute to increase reward,208,5113
+14136,,273,5113
+14137,Dreamseed Nurturing,19,5114
+14138,Contribute to increase reward,208,5114
+14139,,273,5114
+14140,Dreamseed Nurturing,19,5115
+14141,Contribute to increase reward,208,5115
+14142,,273,5115
+14143,Dreamseed Nurturing,19,5116
+14144,Contribute to increase reward,208,5116
+14145,,273,5116
+14146,Dreamseed Nurturing,19,5117
+14147,Contribute to increase reward,208,5117
+14148,,273,5117
+14149,Dreamseed Nurturing,19,5118
+14150,Contribute to increase reward,208,5118
+14151,,273,5118
+14152,Dreamseed Nurturing,19,5119
+14153,Contribute to increase reward,208,5119
+14154,,273,5119
+14155,Dreamseed Nurturing,19,5120
+14156,Contribute to increase reward,208,5120
+14157,,273,5120
+14158,Dreamseed Nurturing,19,5121
+14159,Contribute to increase reward,208,5121
+14160,,273,5121
+14166,Growth Cycle,19,5084
+14167,,273,5084
+14168,,208,5084
+14169,Growth Cycle,19,5122
+14170,,273,5122
+14171,,208,5122
+14172,Growth Cycle,19,5123
+14173,,273,5123
+14174,,208,5123
+14175,Growth Cycle,19,5124
+14176,,273,5124
+14177,,208,5124
+14178,Growth Cycle,19,5125
+14179,,273,5125
+14180,,208,5125
+14181,Growth Cycle,19,5126
+14182,,273,5126
+14183,,208,5126
+14184,Growth Cycle,19,5127
+14185,,273,5127
+14186,,208,5127
+14187,Growth Cycle,19,5128
+14188,,273,5128
+14189,,208,5128
+14190,Growth Cycle,19,5129
+14191,,273,5129
+14192,,208,5129
+14193,Growth Cycle,19,5130
+14194,,273,5130
+14195,,208,5130
+14196,Growth Cycle,19,5131
+14197,,273,5131
+14198,,208,5131
+14199,Growth Cycle,19,5132
+14200,,273,5132
+14201,,208,5132
+14202,Growth Cycle,19,5133
+14203,,273,5133
+14204,,208,5133
+14205,Growth Cycle,19,5134
+14206,,273,5134
+14207,,208,5134
+14208,Growth Cycle,19,5135
+14209,,273,5135
+14210,,208,5135
+14211,Growth Cycle,19,5136
+14212,,273,5136
+14213,,208,5136
+14218,"|TInterface\ICONS\INV_Helm_Armor_Gnomish_C_01_Blue.blp:25|t Thinking Cap Output: (%41238e, %41239e)",52,5139
+14219,,394,5139
+14220,"Vigor recharges while grounded, whether mounted or not, and while dragonriding at high speeds.",581,5140
+14224,Moruud has surfaced,52,5142
+14225,,394,5142
+14226,"Vigor recharges while grounded, whether mounted or not, and while dragonriding at high speeds.",581,5143
+14227,"Vigor recharges while grounded, whether mounted or not, and while dragonriding at high speeds.",581,5144
+14228,"Vigor recharges while grounded, whether mounted or not, and while dragonriding at high speeds.",581,5145
+14229,Dreamseed Nurturing,19,5146
+14230,Contribute to increase reward,208,5146
+14231,,273,5146
+14232,Dreamseed Nurturing,19,5147
+14233,Contribute to increase reward,208,5147
+14234,,273,5147
+14235,Dreamseed Nurturing,19,5148
+14236,Contribute to increase reward,208,5148
+14237,,273,5148
+14238,Growth Cycle,19,5149
+14239,,273,5149
+14240,,208,5149
+14241,Lava - Contested,231,5150
+14242,Lava - Captured,245,5150
+14243,Lava - Contested,225,5150
+14244,Center - Contested,233,5150
+14245,Center - Captured,246,5150
+14246,Lava - Captured,242,5150
+14247,Cenote - Contested,235,5150
+14248,Cenote - Captured,247,5150
+14249,Center - Contested,223,5150
+14250,Center - Captured,241,5150
+14251,Cenote - Contested,221,5150
+14252,Cenote - Captured,240,5150
+14253,,227,5150
+14254,,229,5150
+14255,,237,5150
+14256,,239,5150
+14257,,243,5150
+14258,,244,5150
+14259,,248,5150
+14260,,249,5150
+14261,,14,1671
+14262,,250,1671
+14263,,251,1671
+14264,%24959w,15,5151
+14265,%24958w,15,5152
+14266,,14,5153
+14267,,250,5153
+14268,,251,5153
+14269,Dreamseed Nurturing,19,5154
+14270,Contribute to increase reward,208,5154
+14271,,273,5154
+14272,Keyflame Ignited,19,5155
+14273,Contribute to increase reward,208,5155
+14274,,273,5155
+14275,Dreamseed Nurturing,19,5156
+14276,Contribute to increase reward,208,5156
+14277,,273,5156
+14278,Next Superbloom: %24981ha,52,5157
+14279,,394,5157
+14280,Next arcane disturbance in: %24982ha,52,5158
+14281,,394,5158
+14282,Empowerments remaining until forge is stable: %41298e,52,5159
+14283,,394,5159
+14284,,19,5160
+14285,Candlelight,273,5160
+14286,,208,5160
+14287,%0ss,433,5161
+14288,Defeat enemy forces:,434,5161
+14289,%0ss,433,5162
+14290,Defeat Marikke:,434,5162
+14291,%0ss,433,5163
+14292,Defeat enemy forces:,434,5163
+14293,%0ss,433,5164
+14294,Defeat Verlann Timbercrush:,434,5164
+14295,|nWeekly Quest Reward from Hamuul Runetotem:,52,5165
+14296,,394,5165
+14297,,621,5166
+14298,,622,5166
+14299,Can be exchanged for a piece of|nChampion gear of your choosing.,627,5166
+14300,,19,5167
+14301,|Hspell:424714|h,208,5167
+14302,Low Wax!,273,5167
+14308,|Hspell:424772|h,212,5170
+14309, ,277,5170
+14310,,15,5170
+14311,|Hspell:424981|h,212,5171
+14312, ,277,5171
+14313,,15,5171
+14314,,621,5172
+14315,,622,5172
+14316,,627,5172
+14317,,621,5173
+14318,,622,5173
+14319,,627,5173
+14322,,621,5179
+14323,,622,5179
+14324,,627,5179
+14325,,621,5180
+14326,,622,5180
+14327,,627,5180
+14328,,621,5181
+14329,,622,5181
+14330,,627,5181
+14331,,621,5182
+14332,,622,5182
+14333,,627,5182
+14334,,621,5183
+14335,,622,5183
+14336,,627,5183
+14337,,621,5184
+14338,,622,5184
+14339,,627,5184
+14340,,621,5185
+14341,,622,5185
+14342,,627,5185
+14343,,621,5186
+14344,,622,5186
+14345,,627,5186
+14346,,621,5187
+14347,,622,5187
+14348,,627,5187
+14349,,621,5188
+14350,,622,5188
+14351,,627,5188
+14352,,621,5189
+14353,,622,5189
+14354,,627,5189
+14355,,621,5190
+14356,,622,5190
+14357,,627,5190
+14358,,621,5191
+14359,,622,5191
+14360,,627,5191
+14361,,621,5192
+14362,,622,5192
+14363,,627,5192
+14364,,621,5193
+14365,,622,5193
+14366,,627,5193
+14367,,621,5194
+14368,,622,5194
+14369,,627,5194
+14370,,621,5195
+14371,,622,5195
+14372,,627,5195
+14373,,621,5196
+14374,,622,5196
+14375,,627,5196
+14376,,621,5197
+14377,,622,5197
+14378,,627,5197
+14379,,621,5198
+14380,,622,5198
+14381,,627,5198
+14382,,621,5199
+14383,,622,5199
+14384,,627,5199
+14385,,621,5200
+14386,,622,5200
+14387,,627,5200
+14388,,621,5201
+14389,,622,5201
+14390,,627,5201
+14391,,621,5202
+14392,,622,5202
+14393,,627,5202
+14394,,621,5203
+14395,,622,5203
+14396,,627,5203
+14397,,621,5204
+14398,,622,5204
+14399,,627,5204
+14400,,621,5205
+14401,,622,5205
+14402,,627,5205
+14403,,621,5206
+14404,,622,5206
+14405,,627,5206
+14406,,621,5207
+14407,,622,5207
+14408,,627,5207
+14409,,621,5208
+14410,,622,5208
+14411,,627,5208
+14412,,621,5209
+14413,,622,5209
+14414,,627,5209
+14415,,621,5210
+14416,,622,5210
+14417,,627,5210
+14418,,621,5211
+14419,,622,5211
+14420,,627,5211
+14421,,621,5212
+14422,,622,5212
+14423,,627,5212
+14424,,621,5213
+14425,,622,5213
+14426,,627,5213
+14427,,621,5214
+14428,,622,5214
+14429,,627,5214
+14430,,621,5215
+14431,,622,5215
+14432,,627,5215
+14433,,621,5216
+14434,,622,5216
+14435,,627,5216
+14436,,621,5217
+14437,,622,5217
+14438,,627,5217
+14439,,621,5218
+14440,,622,5218
+14441,,627,5218
+14442,,621,5219
+14443,,622,5219
+14444,,627,5219
+14445,,621,5220
+14446,,622,5220
+14447,,627,5220
+14448,,621,5221
+14449,,622,5221
+14450,,627,5221
+14451,,621,5222
+14452,,622,5222
+14453,,627,5222
+14454,,621,5223
+14455,,622,5223
+14456,,627,5223
+14457,,621,5224
+14458,,622,5224
+14459,,627,5224
+14460,,621,5225
+14461,,622,5225
+14462,,627,5225
+14463,,621,5226
+14464,,622,5226
+14465,,627,5226
+14466,,621,5227
+14467,,622,5227
+14468,,627,5227
+14469,,621,5228
+14470,,622,5228
+14471,,627,5228
+14472,,621,5229
+14473,,622,5229
+14474,,627,5229
+14475,,621,5230
+14476,,622,5230
+14477,,627,5230
+14478,,621,5231
+14479,,622,5231
+14480,,627,5231
+14481,,621,5232
+14482,,622,5232
+14483,,627,5232
+14484,,621,5233
+14485,,622,5233
+14486,,627,5233
+14487,,621,5234
+14488,,622,5234
+14489,,627,5234
+14490,,621,5235
+14491,,622,5235
+14492,,627,5235
+14493,,621,5236
+14494,,622,5236
+14495,,627,5236
+14496,,621,5237
+14497,,622,5237
+14498,,627,5237
+14499,,621,5238
+14500,,622,5238
+14501,,627,5238
+14502,,621,5239
+14503,,622,5239
+14504,,627,5239
+14505,,621,5240
+14506,,622,5240
+14507,,627,5240
+14508,,621,5241
+14509,,622,5241
+14510,,627,5241
+14511,,621,5242
+14512,,622,5242
+14513,,627,5242
+14514,,621,5243
+14515,,622,5243
+14516,,627,5243
+14517,,621,5244
+14518,,622,5244
+14519,,627,5244
+14520,,621,5245
+14521,,622,5245
+14522,,627,5245
+14523,,19,5246
+14524,Healing Energy,273,5246
+14525,,208,5246
+14526,,621,5247
+14527,,622,5247
+14528,,627,5247
+14529,,621,5248
+14530,,622,5248
+14531,,627,5248
+14532,,621,5249
+14533,,622,5249
+14534,,627,5249
+14535,,621,5250
+14536,,622,5250
+14537,,627,5250
+14538,,621,5251
+14539,,622,5251
+14540,,627,5251
+14541,,621,5252
+14542,,622,5252
+14543,,627,5252
+14544,,621,5253
+14545,,622,5253
+14546,,627,5253
+14547,,621,5254
+14548,,622,5254
+14549,,627,5254
+14550,,621,5255
+14551,,622,5255
+14552,,627,5255
+14553,,621,5256
+14554,,622,5256
+14555,,627,5256
+14556,,621,5257
+14557,,622,5257
+14558,,627,5257
+14559,,621,5258
+14560,,622,5258
+14561,,627,5258
+14562,,621,5259
+14563,,622,5259
+14564,,627,5259
+14565,,621,5260
+14566,,622,5260
+14567,,627,5260
+14568,,621,5261
+14569,,622,5261
+14570,,627,5261
+14571,,621,5262
+14572,,622,5262
+14573,,627,5262
+14574,,621,5263
+14575,,622,5263
+14576,,627,5263
+14577,,621,5264
+14578,,622,5264
+14579,,627,5264
+14580,,621,5265
+14581,,622,5265
+14582,,627,5265
+14583,,621,5266
+14584,,622,5266
+14585,,627,5266
+14586,,621,5267
+14587,,622,5267
+14588,,627,5267
+14589,,621,5268
+14590,,622,5268
+14591,,627,5268
+14592,,621,5269
+14593,,622,5269
+14594,,627,5269
+14595,,621,5270
+14596,,622,5270
+14597,,627,5270
+14598,,621,5271
+14599,,622,5271
+14600,,627,5271
+14601,,621,5272
+14602,,622,5272
+14603,,627,5272
+14604,,621,5273
+14605,,622,5273
+14606,,627,5273
+14607,,621,5274
+14608,,622,5274
+14609,,627,5274
+14610,,621,5275
+14611,,622,5275
+14612,,627,5275
+14613,,621,5276
+14614,,622,5276
+14615,,627,5276
+14616,,621,5277
+14617,,622,5277
+14618,,627,5277
+14619,,621,5278
+14620,,622,5278
+14621,,627,5278
+14622,,621,5279
+14623,,622,5279
+14624,,627,5279
+14628,The Frenzy is great in power!,52,5281
+14629,,394,5281
+14630,Creatures here are greatly overflowing with Emerald Dewdrops!,19,5282
+14631,,273,5282
+14632,,208,5282
+14633,Creatures here are massively overflowing with Emerald Dewdrops!,19,5283
+14634,,273,5283
+14635,,208,5283
+14636,|cnNORMAL_FONT_COLOR:- Emerald Dream:|r %41514e/%41515e,52,5284
+14637,,394,5284
+14638,Lesser Keyflame,19,5285
+14639,Lesser Keyflame,273,5285
+14640,,208,5285
+14641,Lesser Keyflame,19,5286
+14642,Lesser Keyflame,273,5286
+14643,,208,5286
+14644,Lesser Keyflame,19,5287
+14645,Lesser Keyflame,273,5287
+14646,,208,5287
+14647,Lesser Keyflame,19,5288
+14648,Lesser Keyflame,273,5288
+14649,,208,5288
+14650,Lesser Keyflame,19,5289
+14651,Lesser Keyflame,273,5289
+14652,,208,5289
+14653,Disabled Harvestbot,19,5290
+14654,Disabled Harvestbot,273,5290
+14655,,208,5290
+14656,Disabled Harvestbot,19,5291
+14657,Disabled Harvestbot,273,5291
+14658,,208,5291
+14659,Disabled Harvestbot,19,5292
+14660,Disabled Harvestbot,273,5292
+14661,,208,5292
+14662,Disabled Harvestbot,19,5293
+14663,Disabled Harvestbot,273,5293
+14664,,208,5293
+14665,Disabled Harvestbot,19,5294
+14666,Disabled Harvestbot,273,5294
+14667,,208,5294
+14668,Stables,19,5295
+14669,Time until Reset,208,5295
+14670,%25171w seconds,273,5295
+14671,Farm,19,5296
+14672,Time until Reset,208,5296
+14673,%25174w seconds,273,5296
+14674,Blacksmith,19,5297
+14675,Time until Reset,208,5297
+14676,%25175w seconds,273,5297
+14677,Lumber Mill,19,5298
+14678,Time until Reset,208,5298
+14679,%25176w seconds,273,5298
+14680,Gold Mine,19,5299
+14681,Time until Reset,208,5299
+14682,%25177w seconds,273,5299
+14683,Stables,19,5300
+14684,Time until Reset,208,5300
+14685,%25185w seconds,273,5300
+14686,Lumber Mill,19,5301
+14687,Time until Reset,208,5301
+14688,%25186w seconds,273,5301
+14689,Gold Mine,19,5302
+14690,Time until Reset,208,5302
+14691,%25187w seconds,273,5302
+14692,Farm,19,5303
+14693,Time until Reset,208,5303
+14694,%25188w seconds,273,5303
+14695,Blacksmith,19,5304
+14696,Time until Reset,208,5304
+14697,%25189w seconds,273,5304
+14698,Market,19,5305
+14699,Time until Reset,208,5305
+14700,%25200w seconds,273,5305
+14701,Farm,19,5306
+14702,Time until Reset,208,5306
+14703,%25205w seconds,273,5306
+14704,Quarry,19,5307
+14705,Time until Reset,208,5307
+14706,%25203w seconds,273,5307
+14707,Shrine,19,5308
+14708,Time until Reset,208,5308
+14709,%25207w seconds,273,5308
+14710,Ruins,19,5309
+14711,Time until Reset,208,5309
+14712,%25201w seconds,273,5309
+14713,Shrine,19,5310
+14714,Time until Reset,208,5310
+14715,%25208w seconds,273,5310
+14716,Quarry,19,5311
+14717,Time until Reset,208,5311
+14718,%25204w seconds,273,5311
+14719,Ruins,19,5312
+14720,Time until Reset,208,5312
+14721,%25202w seconds,273,5312
+14722,Market,19,5313
+14723,Time until Reset,208,5313
+14724,%25199w seconds,273,5313
+14725,Farm,19,5314
+14726,Time until Reset,208,5314
+14727,%25206w seconds,273,5314
+14728,,212,5315
+14729,|cff19FF19%427576n,277,5315
+14732,,212,5317
+14733,|cff19FF19%427634n,277,5317
+14734,Inspiration: Rotational Mastery,19,5318
+14735,Inspired!,273,5318
+14736,|Hspell:427576|h,208,5318
+14740,,19,5320
+14741,Time until Reset,208,5320
+14742,%25270w seconds,273,5320
+14743,,19,5321
+14744,Complete activities in the dream to harness its energy!,208,5321
+14745,Dream Energy,273,5321
+14746,Sprucecrown's journey to bloom life around Amirdrassil begins at the top of every hour!,52,5322
+14747,,394,5322
+14748,Superbloom is currently active!,52,5323
+14749,,394,5323
+14750,Help Sprucecrown bloom life around Amirdrassil!,52,5324
+14751,,394,5324
+14752,Superbloom is currently active!,52,5326
+14753,,394,5326
+14754,Next Superbloom: %24981ha,52,5327
+14755,,394,5327
+14756,Next Superbloom: %24981ha,52,5328
+14757,,394,5328
+14758,Superbloom is currently active.,52,5329
+14759,,394,5329
+14760,Sprucecrown's journey to bloom life around Amirdrassil begins at the top of every hour!,52,5330
+14761,,394,5330
+14762,Help Sprucecrown bloom life around Amirdrassil!,52,5331
+14763,,394,5331
+14764,%0ss,433,5332
+14765,Time to the next step:,434,5332
+14766,Dream Wardens:,52,5333
+14767,,394,5333
+14768,- Renown Rank: |cFFFFFFFF%2653c|r,52,5334
+14769,,394,5334
+14770,- Complete the |cFFFFFFFFSuperbloom|r event to earn more rewards.,52,5335
+14771,,394,5335
+14772,- Plant |cFFFFFFFFEmerald Bounty Dreamseeds|r throughout the |n Dream to earn more rewards.,52,5336
+14773,,394,5336
+14774,- You have completed the |cFFFFFFFFSuperbloom|r event this week.,52,5337
+14775,,394,5337
+14776,Disabled Harvestbot,19,5338
+14777,Disabled Harvestbot,273,5338
+14778,,208,5338
+14779,,621,5339
+14780,,622,5339
+14781,"Contains a Dreamseed, Bloomed treasures, and a Dream Wardens Insignia.",627,5339
+14782,|nWeekly Quest Reward from Clarelle:,52,5340
+14783,,394,5340
+14784,Next Reward:,52,5341
+14785,,394,5341
+14786,,621,5342
+14787,,622,5342
+14788,,627,5342
+14789,,621,5343
+14790,,622,5343
+14791,,627,5343
+14792,,621,5344
+14793,,622,5344
+14794,,627,5344
+14795,"Plant seeds into this fertile soil, then nourish them into a bloom.",52,5345
+14796,,394,5345
+14800,- |cFFA335EEGigantic Dreamseeds|r: %208047ic,52,5346
+14801,,394,5346
+14802,- Emerald Dewdrops: %2650c,52,5347
+14803,,394,5347
+14804,- |cFF0070DDPlump Dreamseeds|r: %208067ic,52,5348
+14805,,394,5348
+14806,- |cFF1EFF00Small Dreamseeds|r: %208066ic,52,5349
+14807,,394,5349
+14808,%0ss,433,5350
+14809,Defeat Verlann:,434,5350
+14813,,621,5352
+14814,,622,5352
+14815,,627,5352
+14816,,621,5353
+14817,,622,5353
+14818,,627,5353
+14819,,621,5354
+14820,,622,5354
+14821,,627,5354
+14822,Plant Phase Growth,19,5355
+14823,,273,5355
+14824,,208,5355
+14825,Knowledge Gathered:,19,5356
+14826,,273,5356
+14827,,208,5356
+14845,,19,5359
+14846,,273,5359
+14847,Collect Red Defias Bandanas to complete this quest and catch up to Hogger!,208,5359
+14854,,19,5362
+14855,"The more you care for the beetles, the more time the ranch hands have to upgrade the pens!",208,5362
+14856,Beetle Pen Progress,273,5362
+14860,,19,5364
+14861,,273,5364
+14862,Collect Maybell's Love Letters to complete this quest and catch up to Hogger!,208,5364
+14863,,19,5365
+14864,,273,5365
+14865,Collect Gold Dust to complete this quest and catch up to Hogger!,208,5365
+14878,Time Left: %25339ha,52,5370
+14879,,394,5370
+14880,- Collect Emerald Dewdrops (%78890qc%),52,5371
+14881,,394,5371
+14882,,19,5372
+14883,,273,5372
+14884,,208,5372
+14885,|TInterface\ICONS\Inv_Farm_PumpkinSeed_Blue.blp:24|t  |cFF0070ddPlump Dreamseed|r,52,5374
+14886,,394,5374
+14887,Rewards,52,5375
+14888,,394,5375
+14889,Heart of Amirdrassil,19,5376
+14890,,273,5376
+14891,,208,5376
+14892,Discipline,19,5377
+14893,,273,5377
+14894,Defeat enemies to build Discipline in order to damage the Echo of Fyrakk.,208,5377
+14897,,19,3465
+14898,,273,3465
+14899,,208,3465
+14915,,52,3472
+14916,,394,3472
+14917,,52,3473
+14918,,394,3473
+14922,,19,3490
+14923,,273,3490
+14924,,208,3490
+14925,,212,3511
+14926,,277,3511
+14942,,52,4190
+14943,,394,4190
+14944,,52,4192
+14945,,394,4192
+14946,,52,4193
+14947,,394,4193
+14948,,52,4194
+14949,,394,4194
+14977,,212,4342
+14978,,277,4342
+15057,,52,4448
+15058,,394,4448
+15059,,52,4463
+15060,,394,4463
+15061,,52,4466
+15062,,394,4466
+15063,,52,4467
+15064,,394,4467
+15071,,584,4641
+15072,,585,4641
+15073,,598,4641
+15089,,19,4652
+15090,,273,4652
+15091,,208,4652
+15092,,2,4675
+15093,,3,4675
+15094,,4,4675
+15095,,19,4676
+15096,,273,4676
+15097,,208,4676
+15098,,19,4677
+15099,,273,4677
+15100,,208,4677
+15101,,52,4682
+15102,,394,4682
+15103,,52,4684
+15104,,394,4684
+15108,,19,4692
+15109,,273,4692
+15110,,208,4692
+15111,,19,4694
+15112,,273,4694
+15113,,208,4694
+15114,,52,4695
+15115,,394,4695
+15142,,275,5383
+15143,,275,5384
+15144,,221,5385
+15145,,223,5385
+15146,,225,5385
+15147,,227,5385
+15148,,229,5385
+15149,,231,5385
+15150,,233,5385
+15151,,235,5385
+15152,,237,5385
+15153,,239,5385
+15154,,240,5385
+15155,,241,5385
+15156,,242,5385
+15157,,243,5385
+15158,,244,5385
+15159,,245,5385
+15160,,246,5385
+15161,,247,5385
+15162,,248,5385
+15163,,249,5385
+15164,Bleak Sand Keyflame,19,5386
+15165,Contribute Radiant Remnant to control this location.,208,5386
+15166,,273,5386
+15171,,212,5389
+15172,Kobyss Map Mechanic,277,5389
+15173,,212,5391
+15174,%430253n,277,5391
+15175,,212,5392
+15176,Kobolds Map Mechanic,277,5392
+15177,,212,5393
+15178,Fungarians Map Mechanic,277,5393
+15179,Fungal Field Keyflame,19,5479
+15180,Contribute Radiant Remnant to control this location.,208,5479
+15181,,273,5479
+15431,Light's Blooming Keyflame,19,5480
+15432,Contribute Shards of Flame to control this location.,208,5480
+15433,,273,5480
+15434,Whirring Field Keyflame,19,5481
+15435,Contribute Radiant Remnant to control this location.,208,5481
+15436,,273,5481
+15437,,19,5482
+15438,,208,5482
+15439,Something is coming...,273,5482
+15440,%0ss,433,5483
+15441,,434,5483
+15442,Audience Approval:,19,5484
+15443,,273,5484
+15444,,208,5484
+15445,Punt Critters,19,5485
+15446,Time Remaining,273,5485
+15447,,208,5485
+15448,,19,5486
+15449,Delve Empowerment,273,5486
+15450,|cffffffffDelves Empowerment|r|nSlay enemies to gain energy. Fill the bar completely to unleash a surge of energy!,208,5486
+15452,,19,5488
+15453,Empowerment Active!,273,5488
+15454,|cffffffffDelves Empowerment|r|nSlay enemies to gain energy. Fill the bar completely to unleash a surge of energy!,208,5488
+15462,|Hspell:431294|h,212,5490
+15463, ,277,5490
+15464,,15,5490
+15478,,19,5497
+15479,Time Remaining,273,5497
+15480,,208,5497
+15481,,19,5498
+15482,Time Remaining,273,5498
+15483,,208,5498
+15499,Lamplighter's Blessing,19,5504
+15500,Disabled Harvestbot,273,5504
+15501,,208,5504
+15511,Lesser Keyflame,19,5508
+15512,Lesser Keyflame,273,5508
+15513,,208,5508
+15533,,275,5513
+15537,Eliminate gorlocs,19,5514
+15538,Time Remaining,273,5514
+15539,,208,5514
+15542,,19,5516
+15543,,273,5516
+15544,,208,5516
+15564,,584,5523
+15565,Brann Bronzebeard earns experience by completing delves and each level gained unlocks new abilities.,585,5523
+15566,,598,5523
+15591,,418,5526
+15592,%0ss,433,5527
+15593,,434,5527
+15594,Time Remaining,19,5522
+15595,,273,5522
+15596,,208,5522
+15601,|TInterface\ICONS\Inv_Farm_PumpkinSeed_Blue.blp:24|t  |cFF0070ddPlump Dreamseed|r,52,5531
+15602,,394,5531
+15603,Rewards,52,5532
+15604,,394,5532
+15607,|cff20ff20 Anima Conductor|r,52,5535
+15608,,394,5535
+15609,Keyflame Time Remaining,19,5528
+15610,,273,5528
+15611,,208,5528
+15612,Keyflame Time Remaining,19,5536
+15613,,273,5536
+15614,,208,5536
+15615,Keyflame Time Remaining,19,5537
+15616,,273,5537
+15617,,208,5537
+15618,Keyflame Time Remaining,19,5538
+15619,,273,5538
+15620,,208,5538
+15624,|TInterface\ICONS\Inv_Farm_PumpkinSeed_Blue.blp:24|t  |cFF0070ddPlump Dreamseed|r,52,5540
+15625,,394,5540
+15626,Time Remaining,19,5541
+15627,,273,5541
+15628,,208,5541
+15629,Time Remaining,19,5542
+15630,,273,5542
+15631,,208,5542
+15632,Time Remaining,19,5543
+15633,,273,5543
+15634,,208,5543
+15635,|TInterface\ICONS\Inv_Farm_PumpkinSeed_Blue.blp:24|t  |cFF0070ddPlump Dreamseed|r,52,5544
+15636,,394,5544
+15637,|TInterface\ICONS\Inv_Farm_PumpkinSeed_Blue.blp:24|t  |cFF0070ddPlump Dreamseed|r,52,5545
+15638,,394,5545
+15639,Lesser Keyflame,19,5546
+15640,Lesser Keyflame,273,5546
+15641,,208,5546
+15658,|TInterface\ICONS\Inv_Farm_PumpkinSeed_Blue.blp:24|t  |cFF0070ddPlump Dreamseed|r,52,5555
+15659,,394,5555
+15660,|TInterface\ICONS\Inv_Farm_PumpkinSeed_Blue.blp:24|t  |cFF0070ddPlump Dreamseed|r,52,5556
+15661,,394,5556
+15662,|TInterface\ICONS\Inv_Farm_PumpkinSeed_Blue.blp:24|t  |cFF0070ddPlump Dreamseed|r,52,5557
+15663,,394,5557
+15664,|TInterface\ICONS\Inv_Farm_PumpkinSeed_Blue.blp:24|t  |cFF0070ddPlump Dreamseed|r,52,5558
+15665,,394,5558
+15666,Time Remaining,19,5559
+15667,,273,5559
+15668,,208,5559
+15669,Time Remaining,19,5560
+15670,,273,5560
+15671,,208,5560
+15672,Time Remaining,19,5561
+15673,,273,5561
+15674,,208,5561
+15675,Time Remaining,19,5562
+15676,,273,5562
+15677,,208,5562
+15678,Keyflame Time Remaining,19,5563
+15679,,273,5563
+15680,,208,5563
+15681,Test Tug of War Widget,642,5564
+15682,,645,5564
+15683,,646,5564
+15684,Torchlight Mine Keyflame,19,5565
+15685,Contribute Radiant Remnant to control this location.,208,5565
+15686,,273,5565
+15687,Faded Shore Keyflame,19,5566
+15688,Contribute Radiant Remnant to control this location.,208,5566
+15689,,273,5566
+15690,Duskrise Acerage Keyflame,19,5567
+15691,Contribute Radiant Remnant to control this location.,208,5567
+15692,,273,5567
+15693,Keyflame Time Remaining,19,5568
+15694,,273,5568
+15695,,208,5568
+15696,Keyflame Time Remaining,19,5569
+15697,,273,5569
+15698,,208,5569
+15699,Keyflame Time Remaining,19,5570
+15700,,273,5570
+15701,,208,5570
+15702,,621,5571
+15703,,622,5571
+15704,,627,5571
+15705,Tomes Collected: %42241e|nNext Tome:,52,5572
+15706,,394,5572
+15707,Wave %25671w,52,5573
+15708,,394,5573
+15709,Keep the elements balanced so that you can excavate safely.,642,4796
+15710,Earth,645,4796
+15711,Water,646,4796
+15712,"Keep the elements balanced so that you can excavate safely,",642,5574
+15713,Fire,645,5574
+15714,Earth,646,5574
+15715,"Keep the elements balanced so that you can excavate safely,",642,5575
+15716,Water,645,5575
+15717,Wind,646,5575
+15718,"Keep the elements balanced so that you can excavate safely,",642,5576
+15719,Water,645,5576
+15720,Fire,646,5576
+15721,"Keep the elements balanced so that you can excavate safely,",642,5577
+15722,Wind,645,5577
+15723,Fire,646,5577
+15724,"Keep the elements balanced so that you can excavate safely,",642,5578
+15725,Wind,645,5578
+15726,Fire,646,5578
+15727,Keep the elements balanced so that you can excavate safely.,642,5579
+15728,Earth,645,5579
+15729,Water,646,5579
+15730,"Keep the elements balanced so that you can excavate safely,",642,5580
+15731,Fire,645,5580
+15732,Earth,646,5580
+15733,"Keep the elements balanced so that you can excavate safely,",642,5581
+15734,Water,645,5581
+15735,Wind,646,5581
+15736,"Keep the elements balanced so that you can excavate safely,",642,5582
+15737,Water,645,5582
+15738,Fire,646,5582
+15739,,19,5583
+15740,,273,5583
+15741,,208,5583
+15742,Pages Collected:,19,5515
+15743,,273,5515
+15744,,208,5515
+15745,Starts in: %25536ha,52,5584
+15746,,394,5584
+15747,Starting Soon: %25536ha,52,5585
+15748,,394,5585
+15751,Time Left: %25258ha,52,5587
+15752,,394,5587
+15753,A deadly enemy has appeared!,52,5588
+15754,,394,5588
+15755,|nWeekly Quest Reward from Eadweard Dalyngrigge:,52,5589
+15756,,394,5589
+15760,|cFFFFFFFFMysterious Fragments|r,56,5590
+15761,,57,5590
+15762,,59,5590
+15763,,60,5590
+15764,,62,5590
+15765,,63,5590
+15766,,67,5590
+15767,,66,5590
+15768,|cFFFFFFFF5000|r,72,5590
+15769,,73,5590
+15770,,74,5590
+15771,,75,5590
+15772,Active,52,5592
+15773,,394,5592
+15778,,19,5505
+15779,Time Remaining,273,5505
+15780,,208,5505
+15781,,19,5500
+15782,Time Remaining,273,5500
+15783,,208,5500
+15784,,19,5501
+15785,Time Remaining,273,5501
+15786,,208,5501
+15787,,19,5509
+15788,Time Remaining,273,5509
+15789,,208,5509
+15790,,19,5525
+15791,Time Remaining,273,5525
+15792,,208,5525
+15793,,19,5518
+15794,Time Remaining,273,5518
+15795,,208,5518
+15796,,212,5597
+15797,,277,5597
+15804,,212,5600
+15805,Nerubians Map Mechanic,277,5600
+15806,,212,5601
+15807,Arathor Map Mechanic,277,5601
+15808,,19,5602
+15809,,273,5602
+15810,,208,5602
+15811,Text Example,584,5603
+15812,Sub Text Example,585,5603
+15813,Test Tooltip,598,5603
+15814,,212,5604
+15815,,277,5604
+15816,,19,5605
+15817,,208,5605
+15818,Cooldown,273,5605
+15819,,19,5606
+15820,,208,5606
+15821,Cooldown,273,5606
+15822,,19,5607
+15823,,208,5607
+15824,Cooldown,273,5607
+15834,,19,5611
+15835,,273,5611
+15836,,208,5611
+15837,,19,5612
+15838,,273,5612
+15839,,208,5612
+15840,,19,5613
+15841,Time Remaining,273,5613
+15842,,208,5613
+15843,,19,5614
+15844,Time Remaining,273,5614
+15845,,208,5614
+15846,Lesser Keyflame,19,5615
+15847,Lesser Keyflame,273,5615
+15848,,208,5615
+15849,Cravings,19,5616
+15850,,273,5616
+15851,,208,5616
+15890,,433,5514
+15891,,434,5514
+15902,Next Reward:,52,5637
+15903,,394,5637
+15914,250,56,5641
+15915,Plunder earned when completing a Captain's Orders quest.,57,5641
+15916,,59,5641
+15917,,60,5641
+15918,,62,5641
+15919,,63,5641
+15920,,67,5641
+15921,,66,5641
+15922,Captain's Order Reward:,72,5641
+15923,,73,5641
+15924,,74,5641
+15925,,75,5641
+15926,800,56,5642
+15927,Bonus Plunder for completing the first Captain's Orders quest of the day.,57,5642
+15928,,59,5642
+15929,,60,5642
+15930,,62,5642
+15931,,63,5642
+15932,,67,5642
+15933,,66,5642
+15934,Daily Doubloons Reward:,72,5642
+15935,,73,5642
+15936,,74,5642
+15937,,75,5642
+15938,,621,5645
+15939,,622,5645
+15940,,627,5645
+15941,,621,5646
+15942,,622,5646
+15943,,627,5646
+15944,,621,5647
+15945,,622,5647
+15946,,627,5647
+15947,The Show Starts In:,433,5648
+15948,,434,5648
+15951,,19,5650
+15952,,273,5650
+15953,,208,5650
+15956,Aegis Keyflame Empowered,19,5651
+15957,,273,5651
+15958,,208,5651
+15961,Hillhelm Keyflame Empowered,19,5652
+15962,,273,5652
+15963,,208,5652
+15964,,19,5664
+15965,Time Remaining,273,5664
+15966,,208,5664
+15967,,19,5665
+15968,Time Remaining,273,5665
+15969,,208,5665
+15976,,19,5668
+15977,Time Remaining,273,5668
+15978,,208,5668
+15979,,19,5669
+15980,Time Remaining,273,5669
+15981,,208,5669
+15982,Awakened,52,5670
+15983,,394,5670
+16029,Awakened,52,5674
+16030,,394,5674
+16031,Awakened,52,5675
+16032,,394,5675
+16033,Season 1 will begin in:,19,5676
+16034,,273,5676
+16035,"Season 1 of delves will begin soon, bringing with it new challenges and rewards!",208,5676
+16041,To unlock:|n|cFFFFFFFF- %449474oc/%449474om Isle of Dorn World Quests completed,52,5678
+16042,,394,5678
+16061,Your health has increased|nThe damage of your abilities has increased,52,5683
+16062,,394,5683
+16063,|cff00ff00+%3011c reputation earned this match|r|nVisit Da'kash Grimledger in the waiting area to view rewards,52,5684
+16064,,394,5684
+16065,,19,5685
+16066,|Hspell:443862|h,208,5685
+16067,Low Fuel!,273,5685
+16068,,212,5686
+16069,Kobolds Map Mechanic,277,5686
+16070,|Hspell:443868|h,212,5687
+16071, ,277,5687
+16072,,15,5687
+16081,The Storm has stopped!,19,3476
+16082,,273,3476
+16083,,208,3476
+16084,,212,5693
+16085,,277,5693
+16086,,212,5694
+16087,,277,5694
+16095,,204,5698
+16096,,205,5698
+16100,Defeat the Congealed Memories,52,5700
+16101,,394,5700
+16102,Memories Remaining,52,5701
+16103,,394,5701
+16104,,212,5702
+16105,,277,5702
+16106,,212,5703
+16107,,277,5703
+16122,The Worldcarvers,52,5710
+16123,,394,5710
+16124,"Worldsoul Vision|n|nThe earthen, alongside other Titanforged creatures, worked to shape Azeroth into its current form.",52,5711
+16125,,394,5711
+16126,Time Remaining,19,5712
+16127,,273,5712
+16128,,208,5712
+16148,The Old Gods,52,5715
+16149,,394,5715
+16150,Time Remaining,19,5716
+16151,,273,5716
+16152,,208,5716
+16153,"Worldsoul Vision|n|nLong before the arrival of the Light, followers of the Old Gods thrived within these caverns.",52,5717
+16154,,394,5717
+16155,Descendants of Distant Waters,52,5718
+16156,,394,5718
+16157,Recovered Supplies,52,5719
+16158,|cffffffffRecovered Supplies|r|nSupplies found to help you in your delve!,394,5719
+16159,,212,5720
+16160,,277,5720
+16175,"Worldsoul Vision|n|nOf all the ankoan tribes, the kobyss were the only ones fierce enough to resist Azshara's followers.",52,5729
+16176,,394,5729
+16177,Time Remaining,19,5730
+16178,,273,5730
+16179,,208,5730
+16194,To unlock:|n|cFFFFFFFF- %449499oc/%449499om Isle of Dorn World Quests completed,52,5732
+16195,,394,5732
+16196,To unlock:|n|cFFFFFFFF- %449500oc/%449500om Ringing Deeps World Quests completed,52,5733
+16197,,394,5733
+16198,To unlock:|n|cFFFFFFFF- %449502oc/%449502om Ringing Deeps World Quests completed,52,5734
+16199,,394,5734
+16200,To unlock:|n|cFFFFFFFF- %449503oc/%449503om Hallowfall World Quests completed,52,5735
+16201,,394,5735
+16202,To unlock:|n|cFFFFFFFF- %449505oc/%449505om Hallowfall World Quests completed,52,5736
+16203,,394,5736
+16204,To unlock:|n|cFFFFFFFF- %449506oc/%449506om Azj-Kahet World Quests completed,52,5737
+16205,,394,5737
+16206,To unlock:|n|cFFFFFFFF- %449508oc/%449508om Azj-Kahet World Quests completed,52,5738
+16207,,394,5738
+16208,Eyes of the Queen gouged: %26054w/%26053w,52,5739
+16209,Reveal then defeat Eyes of the Queen to safely make contact with Nizrek.,394,5739
+16210,,212,5740
+16211,,277,5740
+16218,,212,5743
+16219,,277,5743
+16220,,212,5744
+16221,,277,5744
+16222,,212,5745
+16223,,277,5745
+16224,,212,5746
+16225,,277,5746
+16226,,212,5747
+16227,,277,5747
+16228,,212,5748
+16229,0,277,5748
+16230,,212,5749
+16231,,277,5749
+16232,,212,5750
+16233,,277,5750
+16234,,212,5751
+16235,,277,5751
+16236,,212,5752
+16237,0,277,5752
+16238,,212,5753
+16239,0,277,5753
+16240,,212,5754
+16241,0,277,5754
+16242,,212,5755
+16243,0,277,5755
+16244,,212,5756
+16245,0,277,5756
+16246,,212,5757
+16247,0,277,5757
+16248,,212,5758
+16249,0,277,5758
+16250,,212,5759
+16251,0,277,5759
+16252,,212,5760
+16253,0,277,5760
+16254,,212,5761
+16255,,277,5761
+16256,"Worldsoul Vision|n|nThese caverns were once home to fierce creatures, locked in a cycle of predation that ultimately led to their own extinction.",52,5762
+16257,,394,5762
+16258,Time Remaining,19,5763
+16259,,273,5763
+16260,,208,5763
+16261,Dino Dinner,52,5764
+16262,,394,5764
+16263,Elemental Fury,52,5765
+16264,,394,5765
+16265,Time Remaining,19,5766
+16266,,273,5766
+16267,,208,5766
+16268,"Worldsoul Vision|n|nBefore the machine speakers control, elemental creatures roamed untamed throughout this expanse, their raw power reshaping the landscape..",52,5767
+16269,,394,5767
+16290,,212,5778
+16291,,277,5778
+16292,,212,5779
+16293,,277,5779
+16294,,212,5780
+16295,,277,5780
+16296,,212,5781
+16297,,277,5781
+16298,,212,5782
+16299,,277,5782
+16300,,212,5783
+16301,,277,5783
+16302,,212,5784
+16303,,277,5784
+16304,,212,5785
+16305,,277,5785
+16306,,212,5786
+16307,,277,5786
+16308,,212,5787
+16309,,277,5787
+16310,,212,5788
+16311,,277,5788
+16312,,212,5789
+16313,,277,5789
+16314,,212,5790
+16315,,277,5790
+16316,,212,5791
+16317,,277,5791
+16318,,212,5792
+16319,,277,5792
+16320,,212,5793
+16321,,277,5793
+16322,,212,5794
+16323,,277,5794
+16324,,212,5795
+16325,,277,5795
+16326,,212,5796
+16327,,277,5796
+16328,,212,5797
+16329,,277,5797
+16330,,212,5798
+16331,,277,5798
+16332,,212,5799
+16333,,277,5799
+16334,,212,5800
+16335,,277,5800
+16336,,212,5801
+16337,,277,5801
+16338,,212,5802
+16339,,277,5802
+16340,,212,5803
+16341,,277,5803
+16342,,212,5804
+16343,,277,5804
+16344,,212,5805
+16345,,277,5805
+16346,,212,5806
+16347,,277,5806
+16348,,212,5807
+16349,,277,5807
+16350,,212,5808
+16351,,277,5808
+16352,,212,5809
+16353,,277,5809
+16354,,212,5810
+16355,,277,5810
+16356,,212,5811
+16357,,277,5811
+16358,,212,5812
+16359,,277,5812
+16360,,212,5813
+16361,,277,5813
+16362,,212,5814
+16363,,277,5814
+16364,,212,5815
+16365,,277,5815
+16366,,212,5816
+16367,,277,5816
+16368,,212,5817
+16369,,277,5817
+16370,,212,5818
+16371,,277,5818
+16372,,212,5819
+16373,,277,5819
+16374,,212,5820
+16375,,277,5820
+16376,,212,5821
+16377,,277,5821
+16378,A Wounded Soul,52,5822
+16379,,394,5822
+16380,Time Remaining,19,5823
+16381,,273,5823
+16382,,208,5823
+16383,"Worldsoul Vision|n|n When Sargeras plunged his sword into the depths of Azeroth, it tainted the very lifeblood of the world, unleashing a myriad of monstrosities whose echoes still resonate to this day",52,5824
+16384,,394,5824
+16385,,212,5825
+16386,,277,5825
+16387,,212,5826
+16388,,277,5826
+16389,,212,5827
+16390,,277,5827
+16391,,212,5828
+16392,,277,5828
+16393,,212,5829
+16394,,277,5829
+16395,,212,5830
+16396,,277,5830
+16397,,212,5831
+16398,,277,5831
+16399,,212,5832
+16400,,277,5832
+16401,,212,5833
+16402,,277,5833
+16403,,212,5834
+16404,,277,5834
+16405,,212,5835
+16406,,277,5835
+16407,|Hspell:448925|h,204,5836
+16408,4,205,5836
+16409,|Hspell:448926|h,204,5837
+16410,5,205,5837
+16411,|Hspell:448927|h,204,5838
+16412,6,205,5838
+16413,|Hspell:448929|h,204,5839
+16414,7,205,5839
+16415,|Hspell:448930|h,204,5840
+16416,8,205,5840
+16417,|Hspell:448931|h,204,5841
+16418,9,205,5841
+16419,|Hspell:448932|h,204,5842
+16420,10,205,5842
+16421,|Hspell:448933|h,204,5843
+16422,11,205,5843
+16423,"Worldsoul Vision|n|nWhen the Nerubian Queen dared to renounce the Old Gods, they retaliated fiercely, unleashing their power to reclaim the Nerubians",52,5844
+16424,,394,5844
+16425,Time Remaining,19,5845
+16426,,273,5845
+16427,,208,5845
+16428,Old Gods Forsaken,52,5846
+16429,,394,5846
+16430,You will be granted visions of Azeroth's memories for 5 minutes.,212,5847
+16431,Azeroth's Vision,277,5847
+16432,You will earn |cFFFFFFFF10x|r the normal amount of Delve Key Fragments.,212,5848
+16433,Tenfold Rewards,277,5848
+16434,"The Worldsoul itself will reflexively defend itself against your presence, and death will |cFFFFFFFFimmediately remove you|r from the vision.",212,5849
+16435,Mythic Challenge,277,5849
+16438,"The Rivals, now showing! Join the cast and crew!",52,5851
+16439,,394,5851
+16440,The Theater Troupe is currently performing a play.,52,5852
+16441,,394,5852
+16442,Next Play: %24981ha,52,5853
+16443,,394,5853
+16444,|Hspell:448922|h,204,5854
+16445,2,205,5854
+16446,|Hspell:448921|h,204,5855
+16447,1,205,5855
+16457,|TInterface\Icons\INV_Misc_Bone_HumanSkull_02:14:14:2:0|t  %448783as |4Kill:Kills;,584,5858
+16458,,585,5858
+16459,,598,5858
+16465,|TInterface\Icons\INV_Misc_Coin_01:14:14:2:0|t  %3011c Plunder (2x Reputation),584,5673
+16466,,585,5673
+16467,Total Plunder earned this match. Awarded when your crew is eliminated or victorious. Reputation is doubled during the Plundersurge!,598,5673
+16468,You will be granted visions of Azeroth's memories for 5 minutes.,212,5861
+16469,Azeroth's Vision,277,5861
+16470,Ancient Explorers,52,5862
+16471,,394,5862
+16472,Time Remaining,19,5863
+16473,,273,5863
+16474,,208,5863
+16475,"Worldsoul Vision|n|nMany have ventured to this land, lured by its vast wilderness and rich resources, yet few have dared to call it home.",52,5864
+16476,,394,5864
+16477,%0ss,433,5865
+16478,,434,5865
+16493,,257,5867
+16494,Defeat the radiant echoes causing havoc around the Dustwallow Marsh.,258,5867
+16495,Defeat the radiant echoes causing havoc around the Dustwallow Marsh.,262,5867
+16496,,261,5867
+16497,,264,5867
+16498,Defeat the radiant echoes causing havoc around the Dustwallow Marsh.,265,5867
+16499,,267,5867
+16500,Defeat the radiant echoes causing havoc around the Dustwallow Marsh.,268,5867
+16501,,270,5867
+16502,Defeat the radiant echoes causing havoc around the Dustwallow Marsh.,271,5867
+16503,,570,5867
+16504,Defeat the radiant echoes causing havoc around the Dustwallow Marsh.,571,5867
+16507,Defeat the Memory of Onyxia,52,5868
+16508,,394,5868
+16509,Radiant Echoes,52,5869
+16510,,394,5869
+16511,,257,5870
+16512,Defeat the radiant echoes causing havoc around Dragonblight.,258,5870
+16513,Defeat the radiant echoes causing havoc around Dragonblight.,262,5870
+16514,,261,5870
+16515,,264,5870
+16516,Defeat the radiant echoes causing havoc around Dragonblight.,265,5870
+16517,,267,5870
+16518,Defeat the radiant echoes causing havoc around Dragonblight.,268,5870
+16519,,270,5870
+16520,Defeat the radiant echoes causing havoc around Dragonblight.,271,5870
+16521,,570,5870
+16522,Defeat the radiant echoes causing havoc around Dragonblight.,571,5870
+16523,Defeat the Memory of the Lich King,52,5871
+16524,,394,5871
+16525,Defeat the Congealed Memories,52,5872
+16526,,394,5872
+16527,Memories Remaining,52,5873
+16528,,394,5873
+16529,Radiant Echoes,52,5874
+16530,,394,5874
+16531,,257,5875
+16532,Defeat the radiant echoes causing havoc around the Searing Gorge.,258,5875
+16533,Defeat the radiant echoes causing havoc around the Searing Gorge.,262,5875
+16534,,261,5875
+16535,,264,5875
+16536,Defeat the radiant echoes causing havoc around the Searing Gorge.,265,5875
+16537,,267,5875
+16538,Defeat the radiant echoes causing havoc around the Searing Gorge.,268,5875
+16539,,270,5875
+16540,Defeat the radiant echoes causing havoc around the Searing Gorge.,271,5875
+16541,,570,5875
+16542,Defeat the radiant echoes causing havoc around the Searing Gorge.,571,5875
+16543,Defeat the Memory of Ragnaros,52,5876
+16544,,394,5876
+16545,Defeat the Congealed Memories,52,5877
+16546,,394,5877
+16547,Radiant Echoes,52,5878
+16548,,394,5878
+16549,Memories Remaining,52,5879
+16550,,394,5879
+16551,Stability,19,5880
+16552,,273,5880
+16553,It's hard to stay stable with a heavy pack! Low stability will cause you to stumble. Running out will make you drop your pack!,208,5880

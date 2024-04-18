@@ -250,7 +250,7 @@ CaptureZone: State 2 Capture Point,411,0,0,50,17
 CaptureZone: State 2 Fill Type,412,0,938,0,17
 CaptureZone: State 2 Tooltip,413,1,0,0,17
 CaptureBar: Fill Direction,414,0,997,0,1
-StatusBar: Color Tint ,415,0,1086,0,2
+StatusBar: Bar Fill Color Tint ,415,0,1086,0,2
 SpellDisplay: Text Shown State,416,0,1104,0,13
 TextureWithAnimation: Shown State Value,417,0,903,1,18
 TextureWithAnimation: Tooltip,418,1,0,0,18
@@ -330,16 +330,14 @@ UnitPowerBar: Override Bar Text,541,1,0,0,23
 UnitPowerBar: Override Bar Text Shown Type,542,0,925,3,23
 UnitPowerBar: Tooltip Location,543,0,1162,0,23
 UnitPowerBar: Fill Motion Type,544,0,1218,0,23
-StatusBar: Fill Motion Type,545,0,1218,0,2
-DoubleStatusBar: Fill Motion Type,546,0,1218,0,3
+StatusBar: Bar Fill Motion Type,545,0,1218,0,2
+DoubleStatusBar: Bar Fill Motion Type,546,0,1218,0,3
 UnitPowerBar: Flash Blend Type,547,0,1224,0,23
 UnitPowerBar: Spark Blend Type,548,0,1224,0,23
 UnitPowerBar: Flash Moment Type,549,0,1225,0,23
 StatusBar: Bar Text Color,551,0,905,3,2
 StatusBar: Bar Text Font Type,552,0,1127,1,2
 StatusBar: Bar Text Size Type,553,0,923,4,2
-SpellDisplay: Text Font Type,563,0,1127,1,13
-SpellDisplay: Text Size Type,564,0,923,0,13
 SpellDisplay: Text Font Type,565,0,1127,1,13
 SpellDisplay: Text Size Type,566,0,923,0,13
 SpellDisplay: Horizontal Alignment,567,0,1161,0,13
@@ -361,15 +359,66 @@ TextWithSubtext: Text,584,1,0,0,25
 TextWithSubtext: Subtext,585,1,0,0,25
 TextWithSubtext: Shown State Value,586,0,903,1,25
 TextWithSubtext: Text Color,587,0,905,1,25
-TextWithSubtext: Subtext Color,588,0,905,1,25
-TextWithSubtext: Text Size Type,589,0,923,0,25
-TextWithSubtext: Subtext Size Type,590,0,923,0,25
-TextWithSubtext: Horizontal Alignment,591,0,1161,1,25
+TextWithSubtext: Subtext Color,588,0,905,3,25
+TextWithSubtext: Text Size Type,589,0,923,2,25
+TextWithSubtext: Subtext Size Type,590,0,923,4,25
+TextWithSubtext: Text Horizontal Alignment,591,0,1161,1,25
 TextWithSubtext: Subtext Horizontal Alignment,592,0,1161,1,25
-TextWithSubtext: Font Type,593,0,1127,0,25
+TextWithSubtext: Text Font Type,593,0,1127,0,25
 TextWithSubtext: Subtext Font Type,594,0,1127,0,25
-TextWithSubtext: Bottom Padding,595,0,0,0,25
-TextWithSubtext: Subtext Bottom Padding,596,0,0,0,25
 TextWithSubtext: Tooltip Location,597,0,1162,0,25
 TextWithSubtext: Tooltip,598,1,0,0,25
 TextWithSubtext: Spacing,599,0,0,2,25
+TextWithSubtext: Spacing,600,0,0,2,25
+StatusBar: Text Color,601,0,905,3,2
+StatusBar: Text Font Type,602,0,1127,1,2
+StatusBar: Text Size Type,603,0,923,0,2
+ItemDisplay: Shown State Value,618,0,903,1,27
+ItemDisplay: Item ID,619,0,0,0,27
+ItemDisplay: Override Item Name,621,1,0,0,27
+ItemDisplay: Override Tooltip,622,1,0,0,27
+ItemDisplay: Tooltip Location,623,0,1162,0,27
+ItemDisplay: Text Display Style,624,0,1482,0,27
+ItemDisplay: Stack Count,625,0,0,0,27
+ItemDisplay: Tooltip Enabled Setting,626,0,1484,0,27
+ItemDisplay: Info Text,627,1,0,0,27
+ItemDisplay: Icon Size Type,628,0,906,3,27
+ItemDisplay: Info Text Color,629,0,905,1,27
+TugOfWar: Shown State Value,630,0,903,1,28
+TugOfWar: Min Value,631,0,0,0,28
+TugOfWar: Max Value,632,0,0,100,28
+TugOfWar: Current Value,633,0,0,50,28
+TugOfWar: Neutral Zone Center,634,0,0,50,28
+TugOfWar: Left Icon Source Type,635,0,1497,0,28
+TugOfWar: Right Icon Source Type,636,0,1497,0,28
+TugOfWar: Left Icon Source ID,637,0,0,0,28
+TugOfWar: Right Icon Source ID,638,0,0,0,28
+TugOfWar: Left Icon Size Type,639,0,906,2,28
+TugOfWar: Right Icon Size Type,640,0,906,2,28
+TugOfWar: Glow Anim Type,641,0,926,0,28
+TugOfWar: Tooltip,642,1,0,0,28
+TugOfWar: Tooltip Location,643,0,1162,0,28
+TugOfWar: Neutral Zone Size,644,0,0,1,28
+TugOfWar: Left Icon Tooltip,645,1,0,0,28
+TugOfWar: Right Icon Tooltip,646,1,0,0,28
+TugOfWar: Left Icon Tooltip Location,647,0,1162,1,28
+TugOfWar: Right Icon Tooltip Location,648,0,1162,7,28
+ItemDisplay: Show As Earned,649,0,1507,0,27
+StatusBar: Glow Animation,651,0,926,0,2
+StatusBar: Glow Shown State,652,0,1516,0,2
+StatusBar: Fill Min Opacity,653,0,1517,0,2
+StatusBar: Fill Max Opacity,654,0,1517,0,2
+TugOfWar: Neutral Fill Style,658,0,1524,0,28
+TugOfWar: Marker Arrow Shown State,660,0,1525,1,28
+ItemDisplay: Item Name Text Font Type,661,0,1127,0,27
+ItemDisplay: Item Name Text Size Type,662,0,923,4,27
+ItemDisplay: Info Text Font Type,663,0,1127,0,27
+ItemDisplay: Info Text Size Type,664,0,923,0,27
+MapPinAnimation: Shown State Value,665,0,903,1,26
+MapPinAnimation: Pin Anim Type,666,0,1537,1,26
+TextureAndText: Text Size Type,667,0,1455,1,12
+IconAndText: MaryTest45,668,0,0,0,0
+HorizontalCurrencies: Text Size Type,669,0,923,0,9
+HorizontalCurrencies: Update Anim Type,670,0,1569,0,9
+HorizontalCurrencies: Text Font Type,671,0,1127,0,9
+SpellDisplay: Tint,673,0,1571,0,13
