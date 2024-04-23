@@ -23316,6 +23316,7 @@ ID,FilePath,FileName
 804038,Interface\AddOns\Blizzard_RaidUI\,Blizzard_RaidUI.xml
 804039,Interface\AddOns\Blizzard_RaidUI\,Localization.lua
 804043,Interface\AddOns\Blizzard_TalentUI\,Blizzard_TalentUI.lua
+804044,Interface\AddOns\Blizzard_TalentUI\,Blizzard_TalentUI.xml
 804045,Interface\AddOns\Blizzard_TalentUI\,Localization.lua
 804046,Interface\AddOns\Blizzard_TimeManager\,Blizzard_TimeManager.lua
 804047,Interface\AddOns\Blizzard_TimeManager\,Blizzard_TimeManager.xml
@@ -23598,6 +23599,8 @@ ID,FilePath,FileName
 804925,Interface\GlueXML\,VideoOptionsFrame.xml
 804926,Interface\GlueXML\,StarterEditionPopUp.xml
 804930,Interface\GlueXML\,VideoOptionsFrame.lua
+804931,Interface\LCDXML\,LCDLayout.xml
+804932,Interface\LCDXML\,LCDColorLayout.xml
 804935,Interface\WorldMap\,Kalimdor.zmp
 804940,Interface\WorldMap\,Azeroth.zmp
 828450,Interface\ENCOUNTERJOURNAL\,UI-EJ-BACKGROUND-ThunderKingRaid.blp
@@ -36785,7 +36788,6 @@ ID,FilePath,FileName
 4215626,Interface\AddOns\Blizzard_ToolsUI\,Blizzard_ToolsUIEditMenu.lua
 4216049,Interface_TBC\FrameXML\,Minimap.lua
 4216055,Interface_Vanilla\FrameXML\,InterfaceOptionsPanels.lua
-4216056,Interface_Vanilla\AddOns\Blizzard_TalentUI\,Blizzard_TalentUITemplates.xml
 4216062,Interface_Vanilla\FrameXML\,BankFrame.xml
 4216066,Interface_Vanilla\FrameXML\,UnitPopup.lua
 4216069,Interface_Vanilla\FrameXML\,TargetFrame.xml
@@ -36806,7 +36808,6 @@ ID,FilePath,FileName
 4216135,Interface_TBC\GlueXML\,CharacterSelect.xml
 4216138,Interface_TBC\FrameXML\,QuestLogFrame.xml
 4216144,Interface_TBC\FrameXML\,MerchantFrame.lua
-4216147,Interface_TBC\AddOns\Blizzard_TalentUI\,Blizzard_TalentUI.lua
 4216152,Interface_TBC\FrameXML\,TargetFrame.xml
 4216154,Interface_Vanilla\AddOns\Blizzard_InspectUI\,Blizzard_InspectUI.lua
 4216157,Interface_TBC\FrameXML\,UIParent.lua
@@ -36837,7 +36838,6 @@ ID,FilePath,FileName
 4216253,Interface_Vanilla\FrameXML\,StanceBar.xml
 4216254,Interface_TBC\FrameXML\,QuestFrame.xml
 4216256,Interface_Vanilla\FrameXML\,Minimap.xml
-4216258,Interface_Vanilla\AddOns\Blizzard_TalentUI\,Blizzard_TalentUI.xml
 4216271,Interface_Vanilla\FrameXML\,MerchantFrame.xml
 4216273,Interface_TBC\AddOns\Blizzard_StoreUI\,Blizzard_StoreUISecure.lua
 4216283,Interface_TBC\AddOns\Blizzard_CraftUI\,Blizzard_CraftUI.xml
@@ -36875,7 +36875,6 @@ ID,FilePath,FileName
 4216415,Interface_TBC\FrameXML\,InterfaceOptionsPanels.xml
 4216416,Interface_TBC\FrameXML\,InterfaceOptionsPanels.lua
 4216417,Interface_TBC\FrameXML\,MerchantFrame.xml
-4216422,Interface_Vanilla\AddOns\Blizzard_TalentUI\,Blizzard_TalentUI.lua
 4216424,Interface_Vanilla\AddOns\Blizzard_NamePlates\,Blizzard_NamePlates.lua
 4216426,Interface_TBC\FrameXML\,UnitPopup.lua
 4216442,Interface_Vanilla\AddOns\Blizzard_CraftUI\,Blizzard_CraftUI.xml
@@ -36895,7 +36894,6 @@ ID,FilePath,FileName
 4216491,Interface_TBC\FrameXML\,Bindings.xml
 4216506,Interface_Vanilla\FrameXML\,MerchantFrame.lua
 4216513,Interface_TBC\FrameXML\,StanceBar.lua
-4216515,Interface_TBC\AddOns\Blizzard_TalentUI\,Blizzard_TalentUI.xml
 4216519,Interface_TBC\AddOns\Blizzard_WorldMap\,Blizzard_WorldMap.lua
 4216521,Interface_Vanilla\GlueXML\,CinematicsFrame.xml
 4216522,Interface_Vanilla\FrameXML\,InterfaceOptionsPanels.xml
@@ -37057,9 +37055,7 @@ ID,FilePath,FileName
 4538282,Interface\GlueXML\,CharacterServicesPaidFactionChange.lua
 4538284,Interface\GlueXML\,CharacterServicesShared.lua
 4538285,Interface\GlueXML\,CharacterServicesPaidFactionChange.xml
-4539019,Interface_Wrath\AddOns\Blizzard_TalentUI\,Blizzard_TalentUI.xml
 4539021,Interface_Wrath\FrameXML\,Constants.lua
-4539022,Interface_Wrath\AddOns\Blizzard_TalentUI\,Blizzard_TalentUI.lua
 4544211,Interface\AddOns\Blizzard_DebugLoader\,Blizzard_DebugLoader.lua
 4544218,Interface\AddOns\Blizzard_DebugLoader\,Blizzard_DebugLoader.toc
 4544489,Interface\GLUES\COMMON\,gamelogo-wrathofthelichkingclassic.blp
@@ -37260,7 +37256,6 @@ ID,FilePath,FileName
 4637063,Interface\AddOns\Blizzard_APIDocumentationGenerated\,ClubDocumentation.lua
 4637064,Interface\AddOns\Blizzard_APIDocumentationGenerated\,CooldownFrameAPIDocumentation.lua
 4637065,Interface\AddOns\Blizzard_APIDocumentationGenerated\,ConsoleDocumentation.lua
-4637066,Interface\AddOns\Blizzard_APIDocumentationGenerated\,ClubFinderDocumentation.lua
 4637070,Interface\AddOns\Blizzard_APIDocumentationGenerated\,ContributionCollectorDocumentation.lua
 4637071,Interface\AddOns\Blizzard_APIDocumentationGenerated\,ConfigurationWarningsDocumentation.lua
 4637075,Interface\AddOns\Blizzard_APIDocumentationGenerated\,ContainerDocumentation.lua
@@ -37343,7 +37338,6 @@ ID,FilePath,FileName
 4637178,Interface\AddOns\Blizzard_APIDocumentationGenerated\,QuestTaskInfoDocumentation.lua
 4637179,Interface\AddOns\Blizzard_APIDocumentationGenerated\,RaidLocksDocumentation.lua
 4637180,Interface\AddOns\Blizzard_APIDocumentationGenerated\,PVPMgrConstantsDocumentation.lua
-4637182,Interface\AddOns\Blizzard_APIDocumentationGenerated\,ResearchInfoDocumentation.lua
 4637183,Interface\AddOns\Blizzard_APIDocumentationGenerated\,PvpInfoConstantsDocumentation.lua
 4637184,Interface\AddOns\Blizzard_APIDocumentationGenerated\,ReportSystemDocumentation.lua
 4637185,Interface\AddOns\Blizzard_APIDocumentationGenerated\,RecruitAFriendSharedDocumentation.lua
@@ -37556,7 +37550,6 @@ ID,FilePath,FileName
 4877746,Interface_Wrath\FrameXML\,RaidFrame.lua
 4877748,Interface_Wrath\FrameXML\,RaidFrame.xml
 4885715,Interface\AddOns\Blizzard_APIDocumentationGenerated\,ExpansionLandingPageConstantsDocumentation.lua
-4906083,Interface\SharedXML\,VoiceChatTranscriptionFrame.xml
 4906113,Interface\SharedXML\,VoiceChatTranscriptionFrame.lua
 4952338,Interface_Wrath\AddOns\Blizzard_WorldMap\,Blizzard_WorldMap.lua
 4952340,Interface_Wrath\AddOns\Blizzard_WorldMap\,Blizzard_WorldMap.xml
@@ -37616,8 +37609,6 @@ ID,FilePath,FileName
 5098556,Interface\AddOns\WUBB\,Data.lua
 5098558,Interface\AddOns\WUBB\,Pin.xml
 5098560,Interface\AddOns\QA_Libs\Utilities\,ColorPickerHelper.lua
-5100773,Interface\GlueXML\,HardcorePopUp.lua
-5100776,Interface\GlueXML\,HardcorePopUp.xml
 5105196,Interface\AddOns\Blizzard_CompactRaidFrames\,Blizzard_CompactRaidFrameManager_Shared.lua
 5105198,Interface_Wrath\AddOns\Blizzard_CompactRaidFrames\,Blizzard_CompactRaidFrameManager_Wrath.lua
 5105199,Interface_Vanilla\AddOns\Blizzard_CompactRaidFrames\,Blizzard_CompactRaidFrameManager_Vanilla.lua
@@ -37658,7 +37649,6 @@ ID,FilePath,FileName
 5175018,Interface\AddOns\Blizzard_APIDocumentationGenerated\,FrameAPIBlobDocumentation.lua
 5177499,Interface\AddOns\QA_LibsGlue\,GlueScreenHelper.lua
 5177502,Interface\AddOns\QA_LibsGlue\,QA_LibsGlue.toc
-5185082,Interface\AddOns\Blizzard_APIDocumentationGenerated\,FrameAPIArchaeologyDigsiteDocumentation.lua
 5185084,Interface\AddOns\Blizzard_APIDocumentationGenerated\,FrameAPIQuestPOIDocumentation.lua
 5193714,Interface\AddOns\QA_Libs\Utilities\,GameDataLookupInteractions.lua
 5194010,Interface\AddOns\AnimationViewer\,AnimationViewerAdmin.lua
@@ -37785,11 +37775,9 @@ ID,FilePath,FileName
 5350547,Interface\AddOns\CameraTool\,CameraGuyTooltips.lua
 5350548,Interface\AddOns\CameraTool\,CameraGuyEffects.xml
 5350549,Interface\AddOns\CameraTool\,CameraGuyToolbar.lua
-5350555,Interface\AddOns\Blizzard_APIDocumentationGenerated\,ImmersiveInteractionManagerDocumentation.lua
 5351521,Interface\SharedXML\SettingDefinitions\,NewDefinitions.lua
 5365750,Interface\LFGFrame\,UILFGPromptsDF.BLP
 5365991,Interface\LFGFrame\,GroupFinderDF.BLP
-5369134,Interface\AddOns\Blizzard_APIDocumentationGenerated\,PartyPoseUIConstantsDocumentation.lua
 5369225,Interface\AddOns\Blizzard_APIDocumentationGenerated\,PingManagerSecureDocumentation.lua
 5372162,Interface\AddOns\Blizzard_APIDocumentationObject\,FrameAPIFogOfWarFrameDocumentation.lua
 5372163,Interface\AddOns\Blizzard_APIDocumentationObject\,SimpleFrameScriptObjectAPIDocumentation.lua
@@ -37853,7 +37841,6 @@ ID,FilePath,FileName
 5372222,Interface\SharedXML\,ActionStatus.lua
 5378861,Interface\AddOns\Blizzard_Deprecated\,Deprecated_1_15_0.lua
 5382881,Interface\AddOns\UIEditor\,TextureEditorBase.lua
-5387575,Interface\AddOns\Blizzard_APIDocumentationGenerated\,PowerTypeConstantsDocumentation.lua
 5394944,Interface\AddOns\Blizzard_SharedMapDataProviders\,BonusObjectiveDataProvider_Wrath.lua
 5394945,Interface_Wrath\FrameXML\,QuestMapFrame.xml
 5394946,Interface_Wrath\FrameXML\,QuestPOI.xml
@@ -37863,7 +37850,6 @@ ID,FilePath,FileName
 5394950,Interface_Wrath\FrameXML\,QuestPOI.lua
 5404030,Interface\AddOns\Blizzard_APIDocumentationGenerated\,SocialConstantsDocumentation.lua
 5408254,Interface\AddOns\Blizzard_APIDocumentationGenerated\,PonyDocumentation.lua
-5408648,Interface\AddOns\Blizzard_APIDocumentationGenerated\,SpellBookConstantsDocumentation.lua
 5409308,Interface\AddOns\Blizzard_ToolsUI\,Blizzard_ToolsTemplateBrowser.xml
 5409309,Interface\AddOns\Blizzard_ToolsUI\,Blizzard_ToolsTemplateBrowser.lua
 5412656,Interface\FrameXML\SettingDefinitions\,Mounts.lua
@@ -37886,7 +37872,6 @@ ID,FilePath,FileName
 5478999,Interface\AddOns\Blizzard_APIDocumentationGenerated\,BarberShopInternalDocumentation.lua
 5480035,Interface\AddOns\DebugSpells\,DebugSpells.toc
 5480036,Interface\AddOns\DebugSpells\,DebugSpells.lua
-5485310,Interface\AddOns\Blizzard_APIDocumentationGenerated\,SpellSharedDocumentation.lua
 5486254,Interface\blizzcon23\,classicblizzcon23splash.BLP
 5486294,Interface\AddOns\Blizzard_APIDocumentationGenerated\,PartyConstantsDocumentation.lua
 5489314,Interface\FrameXML\,ColorPickerFrame.lua
@@ -37961,7 +37946,6 @@ ID,FilePath,FileName
 5544413,Interface\AddOns\Blizzard_APIDocumentationGenerated\,DebugToggleDocumentation.lua
 5544414,Interface\AddOns\Blizzard_APIDocumentationGenerated\,DebugInfoDocumentation.lua
 5545762,Interface\AddOns\Blizzard_APIDocumentationGenerated\,TargetScriptDocumentation.lua
-5546402,Interface\AddOns\Blizzard_APIDocumentationGenerated\,ArrowCalloutConstantsDocumentation.lua
 5547476,Interface\SharedXML\,SocialToast.lua
 5547483,Interface\SharedXML\,BnetShared.lua
 5547485,Interface\SharedXML\,HistoryKeeper.lua
@@ -38006,11 +37990,11 @@ ID,FilePath,FileName
 5568059,Interface\AddOns\Blizzard_DeprecatedSpellScript\,Blizzard_DeprecatedSpellScript.toc
 5588107,Interface\ICONS\,UI_SelfFound.blp
 5607884,Interface\AddOns\Blizzard_Deprecated\,Deprecated_1_15_1.lua
-5612369,Interface\AddOns\Blizzard_LoadLocale\,LoadLocale.lua
+5650147,Interface\AddOns\QA_Toolkit\,Bindings.xml
+5657105,Interface\SharedXML\,ProjectConstants.lua
 5660786,Interface\GlueXML\,HardcoreFrames.lua
-5703544,Interface\AddOns\Blizzard_APIDocumentationGenerated\,PetConstantsDocumentation.lua
-5730900,Interface\AddOns\Blizzard_APIDocumentationGenerated\,TalentAndGlyphConstantsDocumentation.lua
+5660787,Interface\GlueXML\,HardcoreFrames.xml
+5687161,Interface\SharedXML\,ExpansionUtil.lua
 5735635,Interface\AddOns\Blizzard_APIDocumentationGenerated\,DeathAlertDocumentation.lua
-5736129,Interface\AddOns\Blizzard_APIDocumentationGenerated\,CharacterSelectionConstantsDocumentation.lua
-5753415,Interface\AddOns\Blizzard_APIDocumentationGenerated\,ReforgeDocumentation.lua
-5755550,Interface\AddOns\Blizzard_APIDocumentationGenerated\,Deprecated_11_0_0Documentation.lua
+5754267,Interface_Cata\AddOns\Blizzard_TalentUI\,Blizzard_TalentUI.xml
+5754268,Interface_Cata\AddOns\Blizzard_TalentUI\,Blizzard_TalentUI.lua
