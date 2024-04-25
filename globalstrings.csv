@@ -21,7 +21,7 @@ ID,BaseTag,TagText_lang,Flags
 9618,MAGIC_RESISTANCES_COLON,Magic Resistances:,1
 9619,MANA_COLON,Mana:,1
 9620,MODIFIERS_COLON,Modifiers:,1
-9621,PLAYER_LEVEL,Level %s %s %s,1
+9621,PLAYER_LEVEL,Level %s |c%s%s %s|r,1
 9622,PROFICIENCIES_COLON,Proficiencies:,1
 9623,SPIRIT_COLON,Spirit:,1
 9625,REPUTATION,Reputation,1
@@ -940,7 +940,7 @@ ID,BaseTag,TagText_lang,Flags
 10656,TUTORIAL_TITLE7,Looting,1
 10657,TUTORIAL_TITLE8,Backpack,1
 10658,TUTORIAL_TITLE9,Using Items,1
-10659,TUTORIAL_TITLE10,Bags,1
+10659,TUTORIAL_TITLE10,Beating Them Back,1
 10660,TUTORIAL_TITLE11,Food,1
 10665,LOCKED,Locked,1
 10666,ITEM_OPENABLE,<Right Click to Open>,1
@@ -1406,8 +1406,8 @@ ID,BaseTag,TagText_lang,Flags
 11152,MISS,Miss,1
 11154,SPELLPARRIEDOTHEROTHER,%s's %s was parried by %s.,1
 11155,GUILD_NOT_ALLIED_S,%s is not part of your alliance.,1
-11156,DEFAULT_AFK_MESSAGE,Away,1
-11157,DEFAULT_DND_MESSAGE,Busy,1
+11156,DEFAULT_AFK_MESSAGE,AFK,1
+11157,DEFAULT_DND_MESSAGE,DND,1
 11158,EMBLEM_SYMBOL,Icon,1
 11159,TABARDVENDORGREETING,Greetings! Choose the symbol and colors of your guild.,1
 11160,TABARDVENDORCOST,Cost:,1
@@ -1695,7 +1695,7 @@ ID,BaseTag,TagText_lang,Flags
 11455,ADD_CHANNEL,Enter channel name,1
 11456,COMBATLOG_XPGAIN_EXHAUSTION5,"%s dies, you gain %d experience. (%s exp %s penalty)",1
 11457,GUILD_TOTAL,|cffffffff%d|r |4Guild Member:Guild Members;,1
-11458,GUILD_MOTD_LABEL,Guild Message Of The Day:,1
+11458,GUILD_MOTD_LABEL,Message Of The Day,1
 11459,GUILD_FRAME_TITLE,Guild Roster,1
 11460,GUILD_NOTES_LABEL,Player Notes:,1
 11461,LASTONLINE_MINS,< an hour,1
@@ -2046,8 +2046,8 @@ ID,BaseTag,TagText_lang,Flags
 11820,CHAT_MONSTER_WHISPER_GET,%s whispers:\32,1
 11821,SIMPLECASTOTHEROTHER,%s casts %s on %s.,1
 11822,TOOLTIP_TALENT_PREREQ,Requires %1$d |4point:points; in %2$s,1
-11823,GUILD_INVITATION,%s invites you to join the guild: %s,1
-11824,ABANDON_PET,Are you sure you want to permanently abandon your pet?,1
+11823,GUILD_INVITATION,%s invites you to join the guild:,1
+11824,ABANDON_PET,Are you sure you want to permanently abandon your pet? You will never be able to summon this pet again.,1
 11825,BAG_ITEM_SUBTYPE_MISMATCH,Can't place that item in that bag.,1
 11826,LOCKED_WITH_SPELL_KNOWN,%s,1
 11827,LOOT_ITEM_SELF,You receive loot: %s.,1
@@ -2190,7 +2190,7 @@ ID,BaseTag,TagText_lang,Flags
 11971,SLASH_CHAT_UNMUTE2,/unsquelch,1
 11972,EMOTE11_CMD1,/blink,1
 11973,EMOTE69_CMD1,/nosepick,1
-11974,TUTORIAL10,"You can put bags in the empty bag spaces in the lower right part of your screen next to the backpack, and then click on them to open them.",1
+11974,TUTORIAL10_HUMAN,You received a quest to kill |cffffd200Blackrock Battle Worgs|r. They are North of the Abbey (where you are now).|nUse the mini-map in the upper right corner to guide you.,1
 11975,EDIT_TICKET,Save Changes,1
 11976,HELPFRAME_STUCK_TEXT1,If your character is stuck you may use one of the options below to free your character.,1
 11977,SHOW_UNIT_NAMES,Show Unit Names,1
@@ -2201,7 +2201,7 @@ ID,BaseTag,TagText_lang,Flags
 11982,VOICEMACRO_8_Tr_2,I be in a bad way.,1
 11983,VOICEMACRO_3_Tr_0_FEMALE,Run for the hills!,1
 11984,VOICEMACRO_8_Tr_0_FEMALE,I be in a bad way!,1
-11985,UNLEARN_SKILL_TOOLTIP,Unlearn this profession,1
+11985,UNLEARN_SKILL_TOOLTIP,Unlearn this profession.,1
 11986,CLOSE,Close,3
 11987,ERR_PETITION_DECLINED_S,%s has declined to sign your petition.,1
 11988,VSIMMUNEOTHEROTHER,%s attacks but %s is immune.,1
@@ -2267,7 +2267,7 @@ ID,BaseTag,TagText_lang,Flags
 12051,EMOTE84_CMD1,/shrug,1
 12052,EMOTE92_CMD1,/surprised,1
 12053,EMOTE96_CMD1,/talkq,1
-12054,TUTORIAL11,"You can eat some food to regain your health faster.  Click on the food icon in the action bar across the bottom left of your screen.  Food will not work in combat, however.",1
+12054,TUTORIAL11_HUMAN,Defeat more |cffffd200Blackrock Worgs|r!,1
 12055,ERR_NAME_INVALID,That name contains invalid characters.  Enter a new name.,1
 12056,ITEM_SIGNABLE,<Right Click for Details>,1
 12057,ENABLE_AMBIENCE,Ambient Sounds,3
@@ -2325,7 +2325,7 @@ ID,BaseTag,TagText_lang,Flags
 12111,VOICEMACRO_5_Ta_1_FEMALE,I need more mana!,1
 12112,VOICEMACRO_2_Gn_1,Attack!,1
 12113,VOICEMACRO_4_Gn_0,"Please, join my fight!",1
-12114,HELP_BUTTON,Help Request,1
+12114,HELP_BUTTON,Customer Support,1
 12115,HELPFRAME_GENERAL_BUTTON_DESCRIPTION,Basic game play questions/information,1
 12116,AVERAGE_WAIT_TIME,Average Wait Time:,1
 12117,VERBAL_HARASSMENT_TEXT2,"Ask the harassing player to stop, and place him/her on your ignore list.",1
@@ -2349,7 +2349,7 @@ ID,BaseTag,TagText_lang,Flags
 12136,EMOTE15_CMD2,/bounce,1
 12137,EMOTE47_CMD2,/glare,1
 12138,CHAT_EMOTE_UNKNOWN,makes some strange gestures.,1
-12139,TUTORIAL4,Left-Click selects a target and Right-Click interacts with it.,1
+12139,TUTORIAL4_HUMAN,The |cffffd200Blackrock Battle Worgs|r are nearby. |cffffd200Left Click|r on any |cffffd200Blackrock Battle Worg|r to target it.,1
 12140,VOICEMACRO_8_Gn_1,Would you please heal me?,1
 12141,VOICEMACRO_1_Gn_0_FEMALE,Danger approaches!,1
 12142,VOICEMACRO_7_Tr_2,Don't you be going nowhere.,1
@@ -2360,7 +2360,7 @@ ID,BaseTag,TagText_lang,Flags
 12147,SPELL_FAILED_NOT_FISHABLE,Your cast didn't land in fishable water,1
 12148,ERR_SPELL_FAILED_NOTUNSHEATHED,You have to be unsheathed to do that!,1
 12149,ERR_GUILD_FOUNDER_S,"Congratulations, you are a founding member of %s!",1
-12150,GUILD_REGISTRAR_PURCHASE_TEXT,"To create a guild you must purchase this charter, get 9 unique player signatures, and return the charter to me.  Please enter the desired name for your guild.",1
+12150,GUILD_REGISTRAR_PURCHASE_TEXT,"To create a guild you must purchase this charter, get 4 unique player signatures, and return the charter to me.  Please enter the desired name for your guild.",1
 12151,VOICEMACRO_4_Hu_0,Aid my attack!,1
 12152,VOICEMACRO_7_Hu_0,Stay put.,1
 12153,VOICEMACRO_10_Hu_0,Fire at will!,1
@@ -2542,7 +2542,7 @@ ID,BaseTag,TagText_lang,Flags
 12349,PERIODICAURADAMAGEOTHERSELF,You suffer %d %s damage from %s's %s.,1
 12351,GUILD_STATUS,Guild Status,1
 12352,GUILDCONTROL_OPTION7,Invite Member,1
-12353,GUILDCONTROL_SELECTRANK,Select guild rank to modify:,1
+12353,GUILDCONTROL_SELECTRANK,Rank to modify:,1
 12354,ERR_GUILD_RANK_TOO_LOW_S,%s is already at the lowest rank,1
 12355,ERR_MAIL_BOUND_ITEM,You can't mail soulbound items.,1
 12356,CHOOSE_BOX,Choose a box:,1
@@ -2553,7 +2553,7 @@ ID,BaseTag,TagText_lang,Flags
 12361,ITEM_WRAPPED_BY,|cff00ff00<Gift from %s>|r,1
 12362,GUILDCONTROL_OPTION5,Promote,1
 12363,GUILDCONTROL_OPTION12,Edit Officer Note,1
-12364,GUILD_MOTD_EDITLABEL,Click here to set the Guild Message Of The Day.,1
+12364,GUILD_MOTD_EDITLABEL,Message of the Day,1
 12365,SENDMAIL_TEXT,Add item and /or money here,1
 12366,COOLDOWN_REMAINING,Cooldown remaining:,1
 12367,STAMINA_COLON,Stamina:,1
@@ -2599,7 +2599,7 @@ ID,BaseTag,TagText_lang,Flags
 12411,SUBMIT,Submit,1
 12412,KEY_NUMPADDECIMAL,Num Pad .,1
 12413,VOICEMACRO_1_Tr_0,There be danger!,1
-12414,UNLEARN_SKILL,Do you want to unlearn %s?,1
+12414,UNLEARN_SKILL,"Do you want to unlearn %s, and lose all associated recipes?",1
 12415,SIGN_CHARTER,Sign Charter,1
 12416,CREATE_AUCTION,Create Auction,1
 12417,ERR_AUCTION_EXPIRED_S,Your auction of %s has expired.,1
@@ -2914,7 +2914,7 @@ ID,BaseTag,TagText_lang,Flags
 12740,ITEM_ENCHANT_TIME_LEFT_MIN,%s (%d min),1
 12741,ERR_LOOT_NO_UI,You can't loot right now.,1
 12742,AT_WAR,At War,1
-12744,MARKED_DND,You are now Busy: %s.,1
+12744,MARKED_DND,You are now Busy: %s,1
 12745,SPELLPARRIEDSELFOTHER,Your %s is parried by %s.,1
 12746,SLASH_UNIGNORE1,/unignore,1
 12747,ERR_GUILDEMBLEM_INVALID_TABARD_COLORS,Invalid Guild Emblem colors.,1
@@ -3017,7 +3017,7 @@ ID,BaseTag,TagText_lang,Flags
 12846,PET_RENAME_LABEL,Enter desired name of pet:,1
 12847,DELETE_ITEM,Do you want to destroy %s?,1
 12848,EQUIP_NO_DROP,Equipping this item will bind it to you.,1
-12849,LEVEL_UP,"Congratulations, you have reached level %d!",1
+12849,LEVEL_UP,"Congratulations, you have reached |cffFF4E00|Hlevelup:%d:LEVEL_UP_TYPE_CHARACTER|h[Level %d]|h|r!",1
 12850,LOOT_ITEM,%s receives loot: %s.,1
 12851,TOO_FAR_TO_LOOT,You are too far away to loot that corpse!,1
 12852,AVAILABLE_QUESTS,Available Quests,1
@@ -3253,7 +3253,7 @@ ID,BaseTag,TagText_lang,Flags
 13172,PVP_RANK_4_1_FEMALE,Dishonored,1
 13173,PVP_RANK_5_0,Scout,1
 13174,AUCTION_DURATION_ERROR,(Auction will be set to 5 mins),1
-13175,AUCTION_BUYOUT_ERROR,(Must be >= the start price),1
+13175,AUCTION_BUYOUT_ERROR,Buyout price must be greater than or equal to the starting price.,1
 13176,TUTORIAL15,You can move spells and abilities to your action bar by opening the abilities page with the button in the bottom center of the screen and then dragging the ability icon to your action bar.  You can also use a spell or ability from the abilities page by clicking on it.,1
 13177,COMBAT_ENEMY,Combat Enemy,1
 13178,COMBAT_MISC,Combat Misc,1
@@ -3864,7 +3864,7 @@ ID,BaseTag,TagText_lang,Flags
 13814,OPTION_TOOLTIP_SMART_PIVOT,Lets you free look when the camera is on the ground.,1
 13815,CAMERA_MODE,Detach Camera,1
 13816,ERR_CLICK_ON_ITEM_TO_FEED,Click on an item to feed to your pet,1
-13817,QUEST_LOG_COUNT_TEMPLATE,Quests: |cffffffff%d/%d|r,1
+13817,QUEST_LOG_COUNT_TEMPLATE,Quests: %s%d|r|cffffffff/%d|r,1
 13818,COD_CONFIRMATION,Accepting this item will cost:,1
 13819,BINDING_NAME_TOGGLEFPS,Toggle Framerate Display,1
 13820,BINDING_NAME_FLIPCAMERAYAW,Flip Camera,1
@@ -3896,7 +3896,7 @@ ID,BaseTag,TagText_lang,Flags
 13854,VERTICAL_SYNC,Vertical Sync,3
 13855,ERR_TOO_MANY_CHAT_CHANNELS,You can only be in 10 channels at a time.,1
 13856,MAIL_LETTER_TOOLTIP,Click to make a permanent\ncopy of this letter.,1
-13857,CLEAR_AFK,Auto Clear Away,1
+13857,CLEAR_AFK,Auto Cancel Away Mode,1
 13858,OPTION_TOOLTIP_CLEAR_AFK,Automatically exit Away mode\nupon moving or talking.,1
 13859,SPELL_FAILED_REQUIRES_AREA,You need to be in %s.,1
 13860,SHOW_PET_NAMEPLATES,Pet Name Plates,1
@@ -3909,7 +3909,7 @@ ID,BaseTag,TagText_lang,Flags
 13867,WORLD_APPEARANCE,World Appearance,3
 13868,OPTION_TOOLTIP_ENVIRONMENT_DETAIL,Controls how far you can see objects. Decrease to improve performance.,3
 13869,CINEMATIC_SUBTITLES,Cinematic Subtitles,3
-13870,OPTION_TOOLTIP_CINEMATIC_SUBTITLES,Enables subtitles during the intro cinematic.,3
+13870,OPTION_TOOLTIP_CINEMATIC_SUBTITLES,Enables subtitles during cinematics.,3
 13871,BUFFERING,Buffering,1
 13872,DEFAULTS,Defaults,3
 13873,OPTION_TOOLTIP_USE_REFRESH,Changes the monitor refresh rates. Higher rates flicker less.,3
@@ -4156,7 +4156,7 @@ ID,BaseTag,TagText_lang,Flags
 14143,SPELLSPLITDAMAGEOTHEROTHER,%s's %s causes %s %d damage.,1
 14144,TUTORIAL_TITLE38,Professions,1
 14145,TUTORIAL38,Your character can learn up to two professions which will allow you to find or create items of value. To learn more about professions ask a guard in a major city for directions to the profession trainers.,1
-14157,CONFIRM_TALENT_WIPE_1,Do you want to unlearn all of your talents?  This will unsummon any controlled pet and the cost will increase each time.,1
+14157,CONFIRM_TALENT_WIPE_1,Do you want to unlearn all of your talents?,1
 14177,TUTORIAL_TITLE39,Groups,1
 14178,TUTORIAL_TITLE40,The Spellbook,1
 14179,TUTORIAL_TITLE41,Elite Quests,1
@@ -4188,7 +4188,7 @@ ID,BaseTag,TagText_lang,Flags
 14268,MELEE_ATTACK_POWER,Melee Attack Power,1
 14269,MELEE_ATTACK_POWER_TOOLTIP,Increases damage with melee weapons by %.1f damage per second.,1
 14270,RANGED_ATTACK_POWER,Ranged Attack Power,1
-14271,RESISTANCE_TOOLTIP_SUBTEXT,"Increases the ability to resist %s-based attacks, spells and abilities.\nResistance against level %d: |cffffffff%s|r",1
+14271,RESISTANCE_TOOLTIP_SUBTEXT,Reduces %s damage taken by an average of %.2f%%.,1
 14272,RESISTANCE_LABEL,Resistance,1
 14273,RESISTANCE_EXCELLENT,Excellent,1
 14274,RESISTANCE_VERYGOOD,Very Good,1
@@ -4200,7 +4200,7 @@ ID,BaseTag,TagText_lang,Flags
 14280,EXIT_GAME,Exit Game,3
 14281,RETURN_TO_GAME,Return to Game,1
 14282,CLICK_CAMERA_STYLE,Click-to-Move Camera Style,1
-14283,SHOW_DAMAGE_TEXT,Target Damage,1
+14283,SHOW_DAMAGE_TEXT,Damage,1
 14284,SHOW_PLAYER_NAMES,Player Names,1
 14285,SHOW_NPC_NAMES,NPC Names,1
 14286,SHOW_GUILD_NAMES,Player Guild Names,1
@@ -4264,16 +4264,7 @@ ID,BaseTag,TagText_lang,Flags
 14358,MANAGE_ACCOUNT,My Account,3
 14360,DAYS,|4Day:Days;,1
 14363,TUTORIAL42,"When you encounter something new, a help button will appear in the bottom center of your screen. Click the button for a brief explanation of how to interact with that part of the world. These hints will start with the basics and then progress to more advanced topics as you gain in experience.\n\nThank you for playing, and good luck in your adventures!",1
-14377,HELPFRAME_GMTALK_TITLE,Talk to a Game Master,1
-14378,HELPFRAME_GMTALK_TEXT1,"Game Masters are normally available to assist 24 hours a day. The next available Game Master will be able to assist you no matter which character you are currently playing on.  Please keep in mind wait times may vary, and there are some issues that Game Masters will |cffffd200NOT|r be able to assist you with.  Those issues include, but are |cffffd200NOT|r limited to the following:",1
-14379,HELPFRAME_GMTALK_ISSUE1_HEADER,Game Hints,1
-14380,HELPFRAME_GMTALK_ISSUE1,"This includes information about:  quests, non-player characters (NPCs), items, locations, or anything else that the player could possibly find out through exploration and/or interaction with the world or other players.",1
-14381,HELPFRAME_GMTALK_ISSUE2_HEADER,Meta-Game Hints,1
-14382,HELPFRAME_GMTALK_ISSUE2,"This includes information about:  an upcoming patch (what, when, how), upcoming content additions, game play changes, and future rule changes.",1
-14383,HELPFRAME_GMTALK_ISSUE3_HEADER,PvP,1
-14384,HELPFRAME_GMTALK_ISSUE3,"Most PVP issues can be resolved through the PVP game mechanics. GM's will not be able to assist in many cases.  The exceptions to this rule are any behaviors that fall under the World of Warcraft Harassment Policy.  For special rules designated for PvP activity, please go to:",1
 14385,PVP_POLICY_URL,|cffffd200http://www.worldofwarcraft.com/policy/pvp.shtml|r,1
-14386,HELPFRAME_GMTALK_TEXT2,"Additionally, we encourage all players to first utilize the forums and the website to pursue information about their respective issues at |cffffd200www.worldofwarcraft.com|r , and request that specific attention be paid to our game policies at |cffffd200www.worldofwarcraft.com/policy/|r .",1
 14387,ERR_PET_SPELL_ROOTED,Your pet is unable to move.,1
 14388,ERR_PET_SPELL_AFFECTING_COMBAT,Your pet is in combat.,1
 14389,ERR_PET_SPELL_TARGETS_DEAD,Your pet's target is dead.,1
@@ -4365,13 +4356,13 @@ ID,BaseTag,TagText_lang,Flags
 14485,TUTORIAL_TITLE42,Welcome to World of Warcraft!,1
 14486,COMBATLOG_XPGAIN_FIRSTPERSON_GROUP,"%s dies, you gain %d experience. (+%d group bonus)",1
 14487,COMBATLOG_XPGAIN_FIRSTPERSON_UNNAMED_GROUP,You gain %d experience. (+%d group bonus),1
-14497,NEWBIE_TOOLTIP_CHARACTER,"Information about your character, including equipment, combat statistics, skills, and reputation.",1
+14497,NEWBIE_TOOLTIP_CHARACTER,"Information about your character, including equipment, combat statistics, and reputation.",1
 14498,COMBATLOG_XPGAIN_EXHAUSTION1_GROUP,"%s dies, you gain %d experience. (%s exp %s bonus, +%d group bonus)",1
 14499,COMBATLOG_XPGAIN_EXHAUSTION2_GROUP,"%s dies, you gain %d experience. (%s exp %s bonus, +%d group bonus)",1
 14501,COMBATLOG_XPGAIN_EXHAUSTION4_GROUP,"%s dies, you gain %d experience. (%s exp %s penalty, +%d group bonus)",1
 14502,COMBATLOG_XPGAIN_EXHAUSTION5_GROUP,"%s dies, you gain %d experience. (%s exp %s penalty, +%d group bonus)",1
 14503,SHOW_NEWBIE_TIPS_TEXT,Beginner Tooltips,1
-14504,OPTION_TOOLTIP_SHOW_NEWBIE_TIPS,Show detailed information about various user interface elements.  Advanced players may want to turn this off.,1
+14504,OPTION_TOOLTIP_SHOW_NEWBIE_TIPS,"Show information on spells, and interface.",1
 14505,NEWBIE_TOOLTIP_SPELLBOOK,"To prepare a spell or ability for use, open the Spellbook & Abilities window, left-click the spell or ability and drag it down to your action bar.",1
 14506,NEWBIE_TOOLTIP_TALENTS,The array of talents available to enhance and specialize your character.,1
 14507,COMBATLOG_XPGAIN_FIRSTPERSON_RAID,"%s dies, you gain %d experience. (-%d raid penalty)",1
@@ -4446,8 +4437,8 @@ ID,BaseTag,TagText_lang,Flags
 14614,NEWBIE_TOOLTIP_MANABAR3,Rogues (and Druids in Cat Form) require Energy in order to use their abilities.,1
 14615,NEWBIE_TOOLTIP_MANABAR4,"The amount of happiness your pet currently has. Content pets inflict normal damage on their enemies, whereas Happy pets inflict enhanced damage, and unhappy pets inflict reduced damage. Happiness goes down when your pet dies or as it grows hungry, while feeding your pet will increase its happiness.",1
 14616,NEWBIE_TOOLTIP_MANABAR2,Hunters require focus to use their abilities.  Focus generates while standing still.,1
-14617,NEWBIE_TOOLTIP_HORDE,"A proud member of the Horde, opposed to members of the Alliance (Night Elves, Dwarves, Humans, Gnomes, Draenei).",1
-14618,NEWBIE_TOOLTIP_ALLIANCE,"A proud member of the Alliance, opposed to members of the Horde (Orcs, Trolls, Tauren, Undead, Blood Elves).",1
+14617,NEWBIE_TOOLTIP_HORDE,"A proud member of the Horde, opposed to members of the Alliance (Night Elves, Dwarves, Humans, Gnomes, Draenei, and Worgen).",1
+14618,NEWBIE_TOOLTIP_ALLIANCE,"A proud member of the Alliance, opposed to members of the Horde (Orcs, Trolls, Tauren, Undead, Blood Elves, and Goblins).",1
 14619,PVPFFA,Free for All PVP,1
 14620,NEWBIE_TOOLTIP_PVPFFA,You can now attack and be attacked by any player in the game.,1
 14621,ENCHANT_SLOT,Enchant/Unlock Slot,1
@@ -4676,16 +4667,16 @@ ID,BaseTag,TagText_lang,Flags
 15381,HONOR,Honor,1
 15382,SPELL_FAILED_NOT_ON_TRANSPORT,You are on a transport,1
 15403,COMBATLOG_DISHONORGAIN,"%s dies, dishonorable kill.",1
-15404,COMBATLOG_HONORGAIN,"%s dies, honorable kill Rank: %s (%d Honor Points)",1
+15404,COMBATLOG_HONORGAIN,"%s dies, honorable kill Rank: %s (%.2f Honor Points)",1
 15405,CHAT_MSG_COMBAT_HONOR_GAIN,Honor Gain,1
 15406,HK,HK,1
 15407,DK,DK,1
 15408,FIRST_AVAILABLE,First Available,1
-15409,CONFIRM_BATTLEFIELD_ENTRY,"You are now eligible to enter %s, choose an action:",1
+15409,CONFIRM_BATTLEFIELD_ENTRY,You are now eligible to enter the battle:\n\n|cff20ff20%s|r\n,1
 15410,ENTER_BATTLE,Enter Battle,1
 15411,LEAVE_QUEUE,Leave Queue,1
 15412,CHANGE_INSTANCE,Change Instance,1
-15413,BATTLEFIELD_IN_QUEUE,You are in the queue for %s\nAverage wait time: %s (Last 10 players)\nTime in queue: %s,1
+15413,BATTLEFIELD_IN_QUEUE,You are in the queue for %s\nAverage wait time: %s\nTime in queue: %s,1
 15414,BATTLEFIELD_QUEUE_CONFIRM,You are eligible to enter %s\nYou will be removed from the queue in %s,1
 15415,BATTLEFIELD_IN_BATTLEFIELD,You are in %s\n|cffffffff<Left-Click To Show Score>\n<Shift-Click To Show Zone Map>|r,1
 15416,HONOR_THIS_SESSION,Today,1
@@ -4941,16 +4932,16 @@ ID,BaseTag,TagText_lang,Flags
 16018,SPELL_DETAIL,Spell Detail,3
 16019,OPTION_TOOLTIP_SPELL_DETAIL,Controls the detail level of spell effects.  Decrease to improve performance.,3
 16020,SPELL_FAILED_REPUTATION,Your reputation isn't high enough,1
-16021,COMBATLOG_HONORAWARD,You have been awarded %d honor points.,1
+16021,COMBATLOG_HONORAWARD,You have been awarded %.2f honor points.,1
 16022,RAIDOPTIONS_MENU,Raid Options,1
 16023,HIDE_PARTY_INTERFACE_TEXT,Hide Party Interface in Raid,1
 16024,OPTION_TOOLTIP_HIDE_PARTY_INTERFACE,Click this to hide your party's portraits and health bars.,1
 16025,SHOW_DISPELLABLE_DEBUFFS_TEXT,Dispellable Debuffs,1
-16026,OPTION_TOOLTIP_SHOW_DISPELLABLE_DEBUFFS,Show only debuffs you can dispel on friendly targets.  Only applies to raids.,1
+16026,OPTION_TOOLTIP_SHOW_DISPELLABLE_DEBUFFS,Show only debuffs you can dispel on friendly targets.,1
 16027,SHOW_CASTABLE_BUFFS_TEXT,Castable Buffs,1
-16028,OPTION_TOOLTIP_SHOW_CASTABLE_BUFFS,Show only buffs you can cast on friendly targets.  Only applies to raids.,1
+16028,OPTION_TOOLTIP_SHOW_CASTABLE_BUFFS,Show only buffs you can cast on friendly targets.,1
 16029,KEYBINDINGFRAME_MOUSEWHEEL_ERROR,Can't bind mousewheel to actions with up and down states,1
-16032,CONTROLS_LABEL,Controls,1
+16032,CONTROLS_LABEL,Controls|TInterface\\OptionsFrame\\UI-OptionsFrame-NewFeatureIcon:0:0:0:-1|t,1
 16033,BASIC_LABEL,Basic,1
 16034,ADVANCED_OPTIONS,Advanced Options,1
 16035,BASIC_OPTIONS_TOOLTIP,Configure basic interface options,1
@@ -4972,7 +4963,7 @@ ID,BaseTag,TagText_lang,Flags
 16052,GUILD_INFORMATION,Guild Information,1
 16053,GUILDCONTROL_OPTION13,Modify Guild Info,1
 16055,SAVE,Save,1
-16056,GUILD_INFO_EDITLABEL,Click here to set message,1
+16056,GUILD_INFO_EDITLABEL,Guild Information,1
 16057,CONFIRM_LOOT_DISTRIBUTION,You wish to assign %s to %s.  Is this correct?,1
 16058,ERR_TRADE_EQUIPPED_BAG,You can't trade equipped bags.,1
 16059,MAIL_COD_ERROR,C.O.D. must be <= %d,1
@@ -5081,9 +5072,9 @@ ID,BaseTag,TagText_lang,Flags
 16173,RAID_TARGET_8,Skull,1
 16174,RAID_MEMBER_NOT_READY,%s is not ready,1
 16175,RAID_MEMBERS_AFK,The following players are Away: %s,1
-16176,RAID_TARGET_ICON,Raid Target Icon,1
-16177,ERR_INVALID_RAID_TARGET,You cannot raid target enemy players,1
-16178,READY_CHECK_MESSAGE,%s has initiated a ready check.\n|cffffffffAre you ready?|r,1
+16176,RAID_TARGET_ICON,Target Marker Icon,1
+16177,ERR_INVALID_RAID_TARGET,You cannot target mark enemy players,1
+16178,READY_CHECK_MESSAGE,%s has initiated a ready check.,1
 16179,READY_CHECK_START,Starting ready check...,1
 16180,READY_CHECK_YOU_WERE_AFK,You were Away for a ready check,1
 16181,READY_CHECK_NO_AFK,No players are Away,1
@@ -5188,10 +5179,10 @@ ID,BaseTag,TagText_lang,Flags
 16293,OPTION_TOOLTIP_TARGETOFTARGET5,Sets Target of Target to always display.,1
 16294,COMBAT_TEXT_LABEL,Floating Combat Text,1
 16295,COMBAT_TEXT_SHOW_LOW_HEALTH_MANA_TEXT,Low Mana & Health,1
-16296,COMBAT_TEXT_SHOW_AURAS_TEXT,Auras,1
+16296,COMBAT_TEXT_SHOW_AURAS_TEXT,Auras Gained/Lost,1
 16297,COMBAT_TEXT_SHOW_AURA_FADE_TEXT,Fading Auras,1
-16298,COMBAT_TEXT_SHOW_COMBAT_STATE_TEXT,Combat State,1
-16299,COMBAT_TEXT_SHOW_DODGE_PARRY_MISS_TEXT,Dodges/Parries/Misses,1
+16298,COMBAT_TEXT_SHOW_COMBAT_STATE_TEXT,Enter/Leave Combat,1
+16299,COMBAT_TEXT_SHOW_DODGE_PARRY_MISS_TEXT,Dodge/Parry/Miss,1
 16300,COMBAT_TEXT_SHOW_RESISTANCES_TEXT,Damage Reduction,1
 16301,COMBAT_TEXT_SCROLL_DOWN_TEXT,Scroll Text Down,1
 16302,COMBAT_TEXT_SHOW_REPUTATION_TEXT,Reputation Changes,1
@@ -5299,7 +5290,7 @@ ID,BaseTag,TagText_lang,Flags
 16418,SPELL_FAILED_MIN_SKILL,Your skill is not high enough.  Requires %s (%d).,1
 16419,FOREIGN_SERVER_LABEL, (*),1
 16420,COMBAT_TEXT_HONOR_GAINED,Honor %s,1
-16421,COMBAT_TEXT_SHOW_HONOR_GAINED_TEXT,Honor Gained,1
+16421,COMBAT_TEXT_SHOW_HONOR_GAINED_TEXT,Honorable Kills,1
 16422,OPTION_TOOLTIP_COMBAT_TEXT_SHOW_HONOR_GAINED,Shows the honor you gain from killing other players.,1
 16423,SPELL_FAILED_TOTEM_CATEGORY,Requires %s,1
 16424,INSTANCE_RESET_FAILED_OFFLINE,Cannot reset %s.  There are players offline in your party.,1
@@ -5482,7 +5473,7 @@ ID,BaseTag,TagText_lang,Flags
 16649,ARENA_TEAM_3V3,3v3 Arena Team,1
 16650,ARENA_TEAM_5V5,5v5 Arena Team,1
 16651,ARENA_REGISTRAR_PURCHASE_TEXT,"To create an arena team you must purchase this charter, get the same number of unique player signatures as the size of your team, and return the charter to me.  Please enter the desired name for your arena team.",1
-16652,ARENA_BANNER_VENDOR_GREETING,Greetings! Choose the symbol and colors of your arena team.,1
+16652,ARENA_BANNER_VENDOR_GREETING,Choose the symbol and colors of your arena team.,1
 16653,WORK_IN_PROGRESS,Work in progress,1
 16654,ERR_MATCHMAKING_TIMEDOUT,Matchmaking timed out.,1
 16655,ERR_MATCHMAKING_MUST_BE_LEADER,You must be the party leader to use LFM and autojoin.,1
@@ -5536,17 +5527,16 @@ ID,BaseTag,TagText_lang,Flags
 16705,HEALING_DONE_TOOLTIP,The total amount of healing done.,1
 16706,ADDON_INCOMPATIBLE,Incompatible,3
 16707,ADDON_DEP_INCOMPATIBLE,Dependency incompatible,3
-16708,DEFAULT_STAT4_TOOLTIP,Increases Mana by %d|nIncreases Spell Critical Hit by %.2f%%,1
-16709,ERR_LFG_PENDING,You already have a pending match.,1
-16710,DEFAULT_STAT2_TOOLTIP,Increases Critical Hit chance by %.2f%%|nIncreases Armor by %d,1
-16711,DEFAULT_STAT5_TOOLTIP,Increases Health Regeneration by %d Per Second while not in combat,1
+16708,DEFAULT_STAT4_TOOLTIP,Increases Mana by %d|nIncreases Spell Power by %d|nIncreases Spell Critical Hit by %.2f%%,1
+16709,ERR_LFG_PENDING,You cannot invite other players while in a random group.,1
+16710,DEFAULT_STAT2_TOOLTIP,Increases Critical Hit chance by %.2f%%,1
 16712,DEFAULT_STAT3_TOOLTIP,Increases Health by %d,1
 16713,DEFAULT_STATARMOR_TOOLTIP,Reduces Physical Damage taken by %0.2f%%,1
 16714,WEAPON_SKILL_RATING,Weapon Skill Rating %d,1
-16715,CR_HIT_MELEE_TOOLTIP,Increases your melee chance to hit a target of level %d by %.2f%%\n\nArmor penetration rating %d (Enemy armor reduced by up to %.2f%%).,1
-16716,CR_CRIT_MELEE_TOOLTIP,Crit rating %d (+%.2f%% crit chance),1
-16717,CR_HIT_RANGED_TOOLTIP,Increases your ranged chance to hit a target of level %d by %.2f%%\n\nArmor penetration rating %d (Enemy Armor Reduced by up to %.2f%%).,1
-16718,CR_CRIT_RANGED_TOOLTIP,Crit rating %d (+%.2f%% crit chance),1
+16715,CR_HIT_MELEE_TOOLTIP,Increases your melee chance to hit a target of level %d by %.2f%%.,1
+16716,CR_CRIT_MELEE_TOOLTIP,Chance of attacks doing extra damage.\nCrit rating %d (+%.2f%% crit chance),1
+16717,CR_HIT_RANGED_TOOLTIP,Increases your ranged chance to hit a target of level %d by %.2f%%.,1
+16718,CR_CRIT_RANGED_TOOLTIP,Chance of attacks doing extra damage.\nCrit rating %d (+%.2f%% crit chance),1
 16719,ERR_ARENA_TEAM_LEVEL_TOO_LOW_I,You must be level %d to form an arena team.,1
 16720,DEFAULT_STATDEFENSE_TOOLTIP,"Defense Rating %d (+%d Defense)|nIncreases chance to Dodge, Block and Parry by %.2f%%|nDecreases chance to be hit and critically hit by %.2f%%|n|cff888888(Before diminishing returns)|r",1
 16721,VICTORY_TEXT_ARENA0,Purple Team Wins,1
@@ -5554,7 +5544,7 @@ ID,BaseTag,TagText_lang,Flags
 16723,VICTORY_TEXT_ARENA_WINS,%s Wins,1
 16724,CR_DODGE_TOOLTIP,Dodge Rating of %d adds %.2f%% Dodge|n|cff888888(Before diminishing returns)|r,1
 16725,CR_PARRY_TOOLTIP,Parry Rating of %d adds %.2f%% Parry|n|cff888888(Before diminishing returns)|r,1
-16726,CR_BLOCK_TOOLTIP,Block Rating of %d adds %.2f%% Block\nYour block stops %d damage.,1
+16726,CR_BLOCK_TOOLTIP,Block Rating of %d adds a %.2f%% chance to Block.\nYour block stops %d%% of incoming damage.,1
 16727,TEAM,Team,1
 16728,SCORE_POWER_UPS,Power Ups,1
 16729,SCORE_RATING_CHANGE,Rating\nChange,1
@@ -5597,7 +5587,7 @@ ID,BaseTag,TagText_lang,Flags
 16766,OPTION_TOOLTIP_SHOW_TARGET_CASTBAR_IN_V_KEY,"If the Name Plate is displayed for your current target, show the enemy cast bar with the target's health bar in the game field.",1
 16767,MELEE_CRIT_CHANCE,Crit Chance,1
 16768,RANGED_CRIT_CHANCE,Crit Chance,1
-16769,CR_HIT_SPELL_TOOLTIP,Increases your spell chance to hit a target of level %d by %.2f%%.\n\nSpell Penetration %d (Reduces enemy resistances by %d),1
+16769,CR_HIT_SPELL_TOOLTIP,Increases your spell chance to hit a target of level %d by %.2f%%.,1
 16770,DODGE_CHANCE,Dodge Chance,1
 16771,ITEM_DISENCHANT_MIN_SKILL,Disenchanting requires %s (%d),1
 16772,ITEM_DISENCHANT_ANY_SKILL,Disenchantable,1
@@ -5612,7 +5602,7 @@ ID,BaseTag,TagText_lang,Flags
 16781,ENCHSLOT_2HWEAPON,2H Weapon,1
 16782,LFM_NAME_TEMPLATE,%s - Level %s %s,1
 16783,RESILIENCE,Resilience,3
-16784,RESILIENCE_TOOLTIP,Reduces chance to be critically hit by %.2f%%.\nReduces the effect of mana-drains and the damage of critical strikes by %.2f%%.\nProvides %.2f%% additional damage reduction against all damage done by players and their pets or minions.,1
+16784,RESILIENCE_TOOLTIP,Provides %.2f%% damage reduction against all damage done by players and their pets or minions.,1
 16785,STOP_AUTO_ATTACK,Stop Auto Attack,1
 16786,OPTION_TOOLTIP_STOP_AUTO_ATTACK,Stop auto attacking when you switch targets.,1
 16788,SHOW_TARGET,Show Target,1
@@ -5704,7 +5694,7 @@ ID,BaseTag,TagText_lang,Flags
 16884,FOCUSTARGET,Set Focus Target,1
 16885,TARGETFOCUS,Target Focused Unit,1
 16886,ERR_AUCTION_USED_CHARGES,You cannot auction an item with used charges,1
-16887,STAT_ATTACK_POWER,Increases Attack Power by %d\n,1
+16887,STAT_ATTACK_POWER,Attack Power,1
 16888,STAT_BLOCK_TOOLTIP,Increases Block Value by %d,1
 16890,REWARD_AURA,The following spell will be cast on you:,1
 16892,ATTACK_SPEED,Attack Speed,1
@@ -5738,12 +5728,12 @@ ID,BaseTag,TagText_lang,Flags
 16925,BINDING_NAME_TARGETLASTTARGET,Target Last Target,1
 16926,ERR_CANT_DO_THAT_IN_A_GROUP,You can't do that while in a group.,1
 16928,ERR_BATTLEGROUND_TOO_MANY_QUEUES,You can only be queued for 3 battles at once,1
-16929,ERR_BATTLEDGROUND_QUEUED_FOR_RATED,You cannot queue for another battle while queued for a rated arena match,1
+16929,ERR_BATTLEDGROUND_QUEUED_FOR_RATED,You cannot queue for another battle while queued for a rated match,1
 16930,ERR_BATTLEGROUND_CANNOT_QUEUE_FOR_RATED,You cannot queue for a rated match while queued for other battles,1
 16931,ARENA_MASTER_TEXT,"Let the games begin!  The door is open to all who wish to find glory in the arena, and the Steamwheedle Cartel is prepared to accept your entry into the games.  If victory is your destiny, then register a team with an Arena Organizer, or join one that has already been registered!",1
 16932,SHIELDSLOT,Shield,1
 16937,MANA_REGEN,Mana Regen,1
-16938,MANA_REGEN_TOOLTIP,%d mana regenerated every 5 seconds while not casting\n%d mana regenerated every 5 seconds while casting,1
+16938,MANA_REGEN_TOOLTIP,%d mana regenerated every 5 seconds while not in combat.,1
 16939,MASTER_LOOTER,Master Looter,1
 16940,MAIN_TANK,Main Tank,1
 16941,MAIN_ASSIST,Main Assist,1
@@ -5929,7 +5919,7 @@ ID,BaseTag,TagText_lang,Flags
 17136,ERR_QUEST_ALREADY_DONE,You have completed that quest.,1
 17137,ERR_PETITION_ALREADY_SIGNED_OTHER,You've already signed another guild charter,1
 17138,CHAT_MSG_RESTRICTED,Restricted,1
-17139,ERR_BATTLEGROUND_TEAM_LEFT_QUEUE,Your team has left the arena queue,1
+17139,ERR_BATTLEGROUND_TEAM_LEFT_QUEUE,Your team has left the queue,1
 17140,CHAT_RESTRICTED,A Free Trial account may only send whispers to players that have your character on their friends list. |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r,1
 17141,SHOW_COMBAT_HEALING_TEXT,Healing,1
 17142,OPTION_TOOLTIP_SHOW_COMBAT_HEALING,Display amount of healing you did to the target.,1
@@ -6197,7 +6187,7 @@ ID,BaseTag,TagText_lang,Flags
 17436,VOICE_CHAT,Voice Chat,1
 17437,AUTO_JOIN_VOICE,Auto Join Voice Chat,1
 17438,AUTO_JOIN,Auto Join,1
-17443,GUILDCONTROL_WITHDRAW_ITEMS,Withdraw Items(stacks/day):,1
+17443,GUILDCONTROL_WITHDRAW_ITEMS,Withdraw Items\n(stacks/day):,1
 17444,ERR_MOVIE_RECORDING_WARNING_PERF,Recording stopped - the movie recording settings may be too high for this system configuration.,1
 17445,MOVIE_RECORDING_UNCOMPRESSED_RGB,Uncompressed RGB,1
 17446,MOVIE_RECORDING_AIC,Apple Intermediate,1
@@ -6326,7 +6316,7 @@ ID,BaseTag,TagText_lang,Flags
 17580,XP_BAR_TEXT,Experience Bar Text,1
 17581,STATUS_TEXT_PERCENT,Percentage,1
 17582,SHOW_ENEMY_CAST,Cast Bars,1
-17585,MINIMAP_TRACKING_TOOLTIP_NONE,Click to choose tracking type,1
+17585,MINIMAP_TRACKING_TOOLTIP_NONE,Click to enable and disable tracking types.,1
 17586,SPELL_FAILED_NOT_IDLE,Can't use while Idle,1
 17587,SPELL_FAILED_NOT_INACTIVE,Can't use while Inactive,1
 17588,SELFMUTED,|cffff0000(Self muted)|r,1
@@ -6421,7 +6411,7 @@ ID,BaseTag,TagText_lang,Flags
 17690,OPTION_TOOLTIP_DISPLAY_FREE_BAG_SLOTS,Displays remaining inventory space on the backpack icon.,1
 17691,GUILDCONTROL_OPTION16,Withdraw Gold,1
 17692,GUILDCONTROL_OPTION16_TOOLTIP,Withdraw gold from the guild bank,1
-17693,GOLD_PER_DAY,Max Gold/Day,1
+17693,GOLD_PER_DAY,(gold/day),1
 17694,GUILDBANK_WITHDRAWFORTAB_MONEY_FORMAT,%s withdrew %s to purchase a guild bank tab,1
 17695,GUILDBANK_BUYTAB_MONEY_FORMAT,%s purchased a guild bank tab for %s,1
 17696,GUILDCONTROL_UPDATE_TEXT,Update Tab Text,1
@@ -7392,7 +7382,7 @@ ID,BaseTag,TagText_lang,Flags
 18766,ITEM_MOD_ARMOR_PENETRATION_RATING,Increases your armor penetration by %s.,1
 18767,SPELL_FAILED_CUSTOM_ERROR_28,Not enough health!,1
 18768,GAMETIME_TOOLTIP_TOGGLE_CLOCK,Click to show clock settings.,1
-18769,BONUS_TALENTS,Bonus talents:,1
+18769,BONUS_TALENTS,Talent Points,1
 18771,SLASH_STOPWATCH4,/stopwatch,1
 18772,SLASH_STOPWATCH5,/timer,1
 18773,SLASH_STOPWATCH6,/sw,1
@@ -7511,8 +7501,8 @@ ID,BaseTag,TagText_lang,Flags
 18893,SLASH_CALENDAR2,/calendar,1
 18894,VEHICLE_LEAVE,Leave,1
 18895,ERR_INVALID_GLYPH_SLOT,That is not a valid glyph slot.,1
-18896,SPELL_FAILED_INVALID_GLYPH,That Glyph cannot be inscribed there.,1
-18897,SPELL_FAILED_UNIQUE_GLYPH,That Glyph is already inscribed in your spellbook.,1
+18896,SPELL_FAILED_INVALID_GLYPH,That glyph cannot be inscribed there.,1
+18897,SPELL_FAILED_UNIQUE_GLYPH,That glyph is already inscribed in your spellbook.,1
 18898,ACHIEVEMENT_UNLOCKED_CHAT_MSG,Achievement Earned: %s,1
 18899,EMOTE83_CMD2,/holler,1
 18900,EMOTE304_CMD1,/incoming,1
@@ -7612,7 +7602,7 @@ ID,BaseTag,TagText_lang,Flags
 18998,ACTION_SPELL_RESURRECT_FULL_TEXT,%1$s %2$s resurrects %4$s.%6$s,1
 18999,ACTION_SPELL_RESURRECT_FULL_TEXT_NO_SOURCE,%2$s resurrects %4$s.%6$s,1
 19000,ACTION_SPELL_RESURRECT_POSSESSIVE,1,1
-19001,ARENA_MASTER_NO_SEASON_TEXT,"So, you want to fight for the glory of victory in the games? Well, you're going to have to wait. The Steamwheedle Cartel is taking a break after the great excitement of last season! Come back next week for your shot at glory! Feel free to practice in the meantime, but the true fun will have to wait.",1
+19001,ARENA_MASTER_NO_SEASON_TEXT,"Arena battles and Rated Battlegrounds are only available during an active player versus player combat season.  Season 11 will begin one week after the end of Season 10, so be prepared at that time to take your shot at glory!",1
 19002,COMBAT_TEXT_SHOW_PERIODIC_ENERGIZE_TEXT,Periodic Energy Gains,1
 19003,OPTION_TOOLTIP_COMBAT_TEXT_SHOW_PERIODIC_ENERGIZE,"Shows all periodic gains of mana, rage, and energy.",1
 19004,RESURRECT,Resurrections,1
@@ -7620,7 +7610,7 @@ ID,BaseTag,TagText_lang,Flags
 19006,SUMMONS,Summons,1
 19008,GUILD_ACHIEVEMENT,Guild Announce,1
 19009,CHAT_MSG_GUILD_ACHIEVEMENT,Guild Announce,1
-19010,CONFIRM_GLYPH_PLACEMENT,Are you sure you want to inscribe this glyph?  The existing glyph will be lost.,1
+19010,CONFIRM_GLYPH_PLACEMENT,Are you sure you want to inscribe this glyph?  The existing glyph will be overwritten.\n\n%sCost: %d %s|r,1
 19011,SPELL_FAILED_CUSTOM_ERROR_32,Must be in Cat Form,1
 19012,SPELL_FAILED_CUSTOM_ERROR_33,Only Death Knights may enter Ebon Hold.,1
 19013,BUILDING_DAMAGE,Siege,1
@@ -7782,7 +7772,7 @@ ID,BaseTag,TagText_lang,Flags
 19171,SLASH_ACHIEVEMENTUI2,/ach,1
 19172,EMOTE426_CMD1,/scowl,1
 19173,EMOTE426_CMD2,/scowl,1
-19174,SPELL_FAILED_CUSTOM_ERROR_34,"Must be in Cat Form, Bear Form, or Dire Bear Form",1
+19174,SPELL_FAILED_CUSTOM_ERROR_34,Must be in Cat Form or Bear Form,1
 19175,CALENDAR_MASSINVITE_GUILD_MINRANK,Minimum Rank,1
 19176,ERR_GENERIC_NO_VALID_TARGETS,No valid targets.,1
 19177,TRANSFER_ABORT_INSUF_EXPAN_LVL2,You must have The Wrath of the Lich King expansion installed to access this area.,1
@@ -7803,7 +7793,7 @@ ID,BaseTag,TagText_lang,Flags
 19193,TITLE_REWARD,Reward:  %s,1
 19194,CALENDAR_MASSINVITE_ARENA_HELP,Invite arena team members:,1
 19195,COMPARE_ACHIEVEMENTS,Compare Achievements,1
-19196,GUILDCONTROL_OPTION15,Repair,1
+19196,GUILDCONTROL_OPTION15,Guild Bank Repair,1
 19197,CALENDAR_TOOLTIP_MASSINVITE,A Mass Invite will populate your invite list based on a filter.|n|nNOTE: A Mass Invite clears your current invite list.,1
 19198,SPELL_FAILED_ITEM_AT_MAX_CHARGES,Item already has the maximum number of charges.,1
 19199,SLASH_TOKEN1,/token,1
@@ -7847,18 +7837,18 @@ ID,BaseTag,TagText_lang,Flags
 19240,GLYPH_EMPTY,Empty,1
 19241,GLYPH_LOCKED,Locked,1
 19243,GLYPH_INACTIVE,Empty,1
-19244,GLYPH_EMPTY_DESC,Use a Glyph from your inventory to inscribe your spellbook.,1
+19244,GLYPH_EMPTY_DESC,Select a glyph spell then click here to inscribe the selected glyph.,1
 19245,MINIMAP_TRACKING_HIDDEN_QUESTS,Hidden Quests,1
-19246,GLYPH_SLOT_TOOLTIP1,Unlocked at level 15.,1
-19247,GLYPH_SLOT_TOOLTIP2,Unlocked at level 15.,1
+19246,GLYPH_SLOT_TOOLTIP1,Unlocked at Level 50,1
+19247,GLYPH_SLOT_TOOLTIP2,Unlocked at Level 75,1
 19248,GLYPH_SLOT_TOOLTIP3,Unlocked at level 50.,1
 19249,GLYPH_SLOT_TOOLTIP4,Unlocked at level 30.,1
 19250,GLYPH_SLOT_TOOLTIP5,Unlocked at level 70.,1
 19251,GLYPH_SLOT_TOOLTIP6,Unlocked at level 80.,1
-19252,SPELL_FAILED_GLYPH_SOCKET_LOCKED,You cannot inscribe a Glyph there yet.,1
+19252,SPELL_FAILED_GLYPH_SOCKET_LOCKED,You cannot inscribe a glyph there yet.,1
 19253,MOUNT,Mount,1
 19254,GLYPH_SLOT_REMOVE_TOOLTIP,<Shift Right Click to Remove>,1
-19255,CONFIRM_REMOVE_GLYPH,Are you sure you want to remove %s? This glyph will be permanently destroyed.,1
+19255,CONFIRM_REMOVE_GLYPH,Are you sure you want to remove %s?\n\n%sCost: %d %s|r,1
 19256,TRADESKILL_SERVICE_PASSIVE,Passive,1
 19257,CALENDAR_ERROR_GUILD_EVENTS_EXCEEDED,Your guild has reached the limit of %d |4created event:created events.,1
 19258,ACHIEVEMENTS_COMPLETED_CATEGORY,%s Achievements Earned,1
@@ -8103,7 +8093,7 @@ ID,BaseTag,TagText_lang,Flags
 19516,OPTION_TOOLTIP_ENABLE_PET_SOUNDS,Toggles pet idle and aggro sounds on and off.,3
 19517,BF_NOT_IN,You are not currently in a battleground,3
 19518,BATTLEFIELD_ALERT,You are eligible to enter %s You will be removed from the queue in %s,3
-19519,SPELL_FAILED_CUSTOM_ERROR_58,Target is already affected by a scroll,1
+19519,SPELL_FAILED_CUSTOM_ERROR_58,Target is already affected by a similar effect,1
 19521,PAPERDOLLFRAME_TOOLTIP_FORMAT,%s,1
 19523,DMG,Dmg,3
 19524,SPEED_ABBR,SPD,1
@@ -8149,7 +8139,6 @@ ID,BaseTag,TagText_lang,Flags
 19567,BINDING_NAME_MOVEVIEWIN,Move View In,1
 19569,BINDING_NAME_MOVEVIEWOUT,Move View Out,1
 19570,ERR_BATTLEGROUND_INFO_THROTTLED,You can't do that yet,1
-19571,FERAL_DRUID_ITEM_AP,"Increases attack power by %d in Cat, Bear, Dire Bear, and Moonkin forms only.",1
 19572,ACHIEVEMENT_META_COMPLETED_DATE,Completed %s,1
 19573,ACHIEVEMENT_CATEGORY_PROGRESS,Progress Overview,1
 19574,MAKE_INTERACTABLE,Make Interactive,1
@@ -8159,7 +8148,7 @@ ID,BaseTag,TagText_lang,Flags
 19578,GM_CHAT_STATUS_READY,GM Chat Request,1
 19579,GM_CHAT_STATUS_READY_DESCRIPTION,A GM would like to chat with you. Click here to begin.,1
 19580,CLOSE_CHAT,Close Chat,1
-19581,COMBATLOG_HONORGAIN_NO_RANK,"%s dies, honorable kill (%d Honor Points)",1
+19581,COMBATLOG_HONORGAIN_NO_RANK,"%s dies, honorable kill (%.2f Honor Points)",1
 19582,USE_ENGLISH_AUDIO,Use English Audio,1
 19583,OPTION_TOOLTIP_USE_ENGLISH_AUDIO,Check this box to override your language setting and use english audio.,1
 19584,ERR_MAIL_ATTACHMENT_EXPIRED,That item has expired.,1
@@ -8297,7 +8286,7 @@ ID,BaseTag,TagText_lang,Flags
 19729,ROLE_DESCRIPTION2,Indicates that you are willing to protect allies from harm by ensuring that enemies are attacking you instead of them.,1
 19730,ROLE_DESCRIPTION3,Indicates that you are willing to heal your allies when they take damage.,1
 19731,EQUIPMENT_MANAGER,Equipment Manager,1
-19732,TALENT_SPEC_ACTIVATE,Activate These Talents,1
+19732,TALENT_SPEC_ACTIVATE,Activate,1
 19733,TALENT_ACTIVE_SPEC_STATUS,These are your active talents,1
 19734,UNABLE_TO_REFUND_ITEM,"Sorry, unable to refund that item.",1
 19735,REFUND_TIME_REMAINING,You may sell this item to a vendor within %s for a full refund.,1
@@ -8375,7 +8364,7 @@ ID,BaseTag,TagText_lang,Flags
 19811,ERR_BATTLEGROUND_NOT_IN_BATTLEGROUND,You can't do that in a battleground.,1
 19812,CONFIRM_REFUND_MAX_HONOR,You are close to the maximum number of honor points. Selling this item will result in the loss of %d honor points. Proceed?,1
 19813,CONFIRM_REFUND_MAX_ARENA_POINTS,You are close to the maximum number of arena points. Selling this item will result in the loss of %d arena points. Proceed?,1
-19814,STABLE_PET_INFO_TEXT,%1$s Level %2$d %3$s|n%4$s,1
+19814,STABLE_PET_INFO_TEXT,%1$s - %2$s,1
 19815,STABLE_PET_INFO_TOOLTIP_TEXT,Level %1$d %2$s|n%3$s,1
 19816,DEBUG_FRAMESTACK,Frame Stack,3
 19817,SLASH_FRAMESTACK1,/framestack,1
@@ -8701,7 +8690,7 @@ ID,BaseTag,TagText_lang,Flags
 20160,LOOT_ROLL_WON_NO_SPAM_DE,|HlootHistory:%d|h[Loot]|h: %s (Disenchant - %d) Won: %s,1
 20161,LOOT_ROLL_ROLLED_DE,Disenchant Roll - %d for %s by %s,1
 20162,TITLE_DOESNT_EXIST,You don't have that title.,1
-20163,SPELL_FAILED_CUSTOM_ERROR_83,You must have a Fire Totem active.,1
+20163,SPELL_FAILED_CUSTOM_ERROR_83,"You must have a Magma, Flametongue, or Fire Elemental Totem active.",1
 20164,TUTORIAL_TITLE56,Player Status,1
 20165,TUTORIAL_TITLE57,Quest Givers,1
 20166,TUTORIAL_TITLE58,Full Bags,1
@@ -8720,7 +8709,7 @@ ID,BaseTag,TagText_lang,Flags
 20180,SPELL_FAILED_CUSTOM_ERROR_85,Your pet is already at your level.,1
 20181,LFD_REWARDS,Rewards,1
 20182,SPECIFIC_DUNGEON_IS_READY,A group has been formed for:,1
-20183,BOSSES_KILLED,%d/%d Bosses Killed,1
+20183,BOSSES_KILLED,%d/%d Bosses Defeated,1
 20184,CHOOSE_YOUR_DUNGEON,Type:,1
 20185,LFD_RANDOM_EXPLANATION,Using the Dungeon Finder to do a Random Dungeon will earn you extra rewards.,1
 20186,LFD_RANDOM_REWARD_EXPLANATION1,The first seven random dungeons of this tier that you complete each week will earn you:,1
@@ -8734,8 +8723,8 @@ ID,BaseTag,TagText_lang,Flags
 20195,QUEUED_FOR_SHORT,Queued for:,1
 20196,ASSEMBLING_GROUP,Assembling Group...,1
 20197,BOSSES,Bosses:,1
-20198,BOSS_ALIVE,Alive,1
-20199,BOSS_DEAD,Killed,1
+20198,BOSS_ALIVE,Available,1
+20199,BOSS_DEAD,Defeated,1
 20200,SPECIFIC_DUNGEONS,Specific Dungeons,1
 20201,SPELL_FAILED_CUSTOM_ERROR_86,You do not meet the level requirements for this item.,1
 20202,ROLL_DISENCHANT,Disenchant,1
@@ -8949,7 +8938,6 @@ ID,BaseTag,TagText_lang,Flags
 20417,MAP_QUEST_DIFFICULTY_TEXT,Quest Difficulty Color,1
 20418,OPTION_TOOLTIP_MAP_QUEST_DIFFICULTY,Color quest titles by difficulty when displayed with the World Map.,1
 20419,THIS_DUNGEON_IN_PROGRESS,This Dungeon is In Progress.,1
-20420,ERR_CURRENCY_FULL,Can't carry that much currency.,1
 20421,PLAYER_DIFFICULTY1,Normal,1
 20422,PLAYER_DIFFICULTY2,Heroic,1
 20423,ERR_RAID_LOCKOUT_CHANGED_S,Raid Lockout set to %s.,1
@@ -8983,8 +8971,6 @@ ID,BaseTag,TagText_lang,Flags
 20451,SLASH_RAIDBROWSER5,/otherraids,1
 20452,SLASH_RAIDBROWSER6,/rb,1
 20453,ERR_ALREADY_QUEUED_FOR_SOMETHING_ELSE,You are already queued for something else.,1
-20454,ADVANCED_WORLD_MAP_TEXT,Movable World Map,1
-20455,OPTION_TOOLTIP_ADVANCED_WORLD_MAP,Enabling this will allow you to move the smaller world map by right-clicking its title bar.,1
 20456,GUIDE,Guide,1
 20457,GUIDE_TOOLTIP,Indicates that you are an experienced player and are comfortable instructing the group in how to overcome the encounters.,1
 20458,SLASH_DUNGEONS5,/df,1
@@ -9042,7 +9028,7 @@ ID,BaseTag,TagText_lang,Flags
 20511,AUCTION_DURATION_TWO,24 Hours,1
 20512,AUCTION_DURATION_THREE,48 Hours,1
 20513,AUCTION_PRICE,Price,1
-20514,AUCTION_PRICE_PER_ITEM,per item,1
+20514,AUCTION_PRICE_PER_ITEM,per unit,1
 20515,AUCTION_PRICE_PER_STACK,per stack,1
 20516,AUCTION_STACK_SIZE,Stack Size,1
 20517,AUCTION_NUM_STACKS,Number of Stacks,1
@@ -9439,7 +9425,16 @@ ID,BaseTag,TagText_lang,Flags
 20947,ERR_SCALING_STAT_ITEM_LEVEL_TOO_LOW,Your level is too low to use that item,1
 20949,INSTANCE_UNAVAILABLE_OTHER_AREA_NOT_EXPLORED,%s must discover %2$s.,1
 20950,INSTANCE_UNAVAILABLE_SELF_AREA_NOT_EXPLORED,You must discover %2$s.,1
+20951,REFORGE,Reforge,1
+20952,REFORGE_RESTORE,Restore,1
+20953,REFORGE_OLD_STAT_LABLE,Choose a stat to reduce:,1
+20954,REFORGE_NEW_STAT_LABLE,Choose a stat to add:,1
+20955,REFORGE_MISSING_ITEM,Drag an item here to Reforge it.,1
+20956,REFORGE_OLD_FILTER_TEXT,Reduce a stat,1
+20957,REFORGE_NEW_FILTER_TEXT,Add a stat,1
+20958,REFORGE_DESCRIPTION,Reforging allows you to shift stats on a weapon or piece of armor that is level 200 or higher.,1
 20959,REFORGE_CURRENT,Current,1
+20960,REFORGE_STAT_HELP,Choose stats using the pull downs above to see the results of your reforged item.,1
 20963,DUNGEON_FLOOR_ORGRIMMAR0,Orgrimmar,1
 20964,DUNGEON_FLOOR_ORGRIMMAR1,Cleft of Shadow,1
 20965,SPELL_FAILED_CUSTOM_ERROR_112,Requires Opposable Thumbs.,1
@@ -9514,8 +9509,8 @@ ID,BaseTag,TagText_lang,Flags
 21034,ACTIVE_PETS,Active,1
 21035,PET_STABLE_TITLE,%s's Pets,1
 21036,SPELL_FAILED_IN_COMBAT_RES_LIMIT_REACHED,You can no longer resurrect during combat,1
-21037,ERR_SOCKETING_HYDRAULIC_GEM_ONLY_IN_HYDRAULICSLOT,Crystals of Fear can only be placed in Sha-Touched weapons.,1
-21038,ERR_SOCKETING_REQUIRES_HYDRAULIC_GEM,That slot requires a Crystal of Fear.,1
+21037,ERR_SOCKETING_HYDRAULIC_GEM_ONLY_IN_HYDRAULICSLOT,Hydraulic gems can only be placed in hydraulic gem slots,1
+21038,ERR_SOCKETING_REQUIRES_HYDRAULIC_GEM,That slot requires a hydraulic gem,1
 21039,ERR_SOCKETING_COGWHEEL_GEM_ONLY_IN_COGWHEELSLOT,Cogwheels can only be placed in Cogwheel slots,1
 21040,ERR_SOCKETING_REQUIRES_COGWHEEL_GEM,That slot requires a Cogwheel,1
 21041,GROUP_NUMBER,Group %d,1
@@ -9529,6 +9524,9 @@ ID,BaseTag,TagText_lang,Flags
 21050,TALENTS_HIDE_SUMMARIES,View Talent Trees,1
 21051,NEXT_TALENT_LEVEL,Next talent available at |cffffd200Level %d|r,1
 21052,PET_UNSPENT_TALENT_POINTS,Your pet has|cffffd200 %s |runspent |4talent:talents;,1
+21053,ERR_REFORGE_SRC_STAT_NOT_FOUND,You cannot reforge that item,1
+21054,ERR_REFORGE_INSUFFICIENT_SRC_STAT,You cannot reforge that item,1
+21055,ERR_REFORGE_ALREADY_HAS_DST_STAT,That stat already exists on the item,1
 21056,BUFF_STACKS_OVERFLOW,*,1
 21057,TALENT_EARLY_SPELLS_LABEL,Learned early: %s,1
 21058,GUILD_LEVEL_AND_FACTION,Level %1$s %2$s Guild,1
@@ -9588,6 +9586,7 @@ ID,BaseTag,TagText_lang,Flags
 21112,NPC_NAMES_DROPDOWN_NONE,None,1
 21113,NPC_NAMES_DROPDOWN_NONE_TOOLTIP,Do not display names for any NPCs,1
 21114,SELECT_YOUR_ROLE,Select Your Role,1
+21115,TALENT_TREE_PREVIEW_TUTORIAL,"When you are finished choosing talents, click Learn.  You can always reset your talent choices by visiting your class trainer.",1
 21116,ERR_AUCTION_EQUIPPED_BAG,You cannot sell an equipped bag.,1
 21118,RAID_FRAMES_LABEL,Raid Frames,1
 21119,RAID_FRAMES_SUBTEXT,These options change the way the Raid Frames are displayed.,1
@@ -9690,6 +9689,7 @@ ID,BaseTag,TagText_lang,Flags
 21221,ERR_ARENA_TEAM_TOO_MANY_CREATE,"You have tried to create too many arena teams recently, wait a while, and try again.",1
 21222,WARGAME,War Game,1
 21223,ARCHAEOLOGY_SHOW_DIG_SITES,Show Digsites,1
+21224,OPTION_TOOLTIP_SHOW_DIG_SITES,"If enabled, you will be able to look at your map to see archaeological dig site locations.",1
 21225,STAT_TARGET_LEVEL,Target Level,1
 21226,MISS_CHANCE,Miss Chance,1
 21227,STAT_HIT_NORMAL_ATTACKS,Normal Attacks,1
@@ -9711,6 +9711,7 @@ ID,BaseTag,TagText_lang,Flags
 21243,PARTY_PHASED_MESSAGE,This player is in a different phase. You can neither see nor interact with this player.,1
 21244,OPTION_TOOLTIP_UNIT_NAME_GUILD_TITLE,Show players' guild titles in the game world.,1
 21245,UNIT_NAME_GUILD_TITLE,Guild Titles,1
+21246,ERR_REFORGE_ITEM_TOO_LOW_LEVEL,Item must be level 200 or higher,1
 21247,PETITION_PLAYER_NOT_FOUND_S,Player Not Found,1
 21248,SLASH_RANDOMPET1,/randompet,1
 21249,SPELL_FAILED_CUSTOM_ERROR_120,You must reach level 85 to use this portal.,1
@@ -9750,7 +9751,7 @@ ID,BaseTag,TagText_lang,Flags
 21285,COMBAT_GUILD_XP_GAIN,Guild Experience,1
 21290,OPTION_TOOLTIP_SPELL_ALERT_OPACITY,Set the opacity of alerts that show in the center of your screen when certain important events occur.,1
 21291,DISPLAY_SPELL_ALERTS,Show Spell Alerts,1
-21292,EMPTY_SOCKET_HYDRAULIC,Sha-Touched,1
+21292,EMPTY_SOCKET_HYDRAULIC,Hydraulic Socket,1
 21293,EMPTY_SOCKET_COGWHEEL,Cogwheel Socket,1
 21294,YOU_LOOT_MONEY_GUILD,You loot %s (%s deposited to guild bank),1
 21295,LOOT_MONEY_SPLIT_GUILD,Your share of the loot is %s. (%s deposited to guild bank),1
@@ -9774,13 +9775,14 @@ ID,BaseTag,TagText_lang,Flags
 21314,DUNGEON_FLOOR_BLACKROCKSPIRE1,Tazz'Alor,1
 21315,DUNGEON_FLOOR_BLACKROCKSPIRE2,Skitterweb Tunnels,1
 21316,DUNGEON_FLOOR_BLACKROCKSPIRE3,Hordemar City,1
-21317,DUNGEON_FLOOR_BLACKROCKSPIRE5,Halycon's Lair,1
-21318,DUNGEON_FLOOR_BLACKROCKSPIRE6,Chamber of Battle,1
+21317,DUNGEON_FLOOR_BLACKROCKSPIRE5,Dragonspire Hall,1
+21318,DUNGEON_FLOOR_BLACKROCKSPIRE6,The Rookery,1
+21319,DUNGEON_FLOOR_BLACKROCKSPIRE7,Blackrock Stadium,1
 21320,DUNGEON_FLOOR_RAZORFENDOWNS1,Razorfen Downs,1
 21321,DUNGEON_FLOOR_SCHOLOMANCE1,The Reliquary,1
 21322,DUNGEON_FLOOR_SCHOLOMANCE2,Chamber of Summoning,1
-21323,DUNGEON_FLOOR_SCHOLOMANCE3,The Upper Study,1
-21324,DUNGEON_FLOOR_SCHOLOMANCE4,Headmaster's Study,1
+21323,DUNGEON_FLOOR_SCHOLOMANCE3,The Headmaster's Study,1
+21324,DUNGEON_FLOOR_SCHOLOMANCE4,Barov Family Vault,1
 21325,DUNGEON_FLOOR_THRONEOFTIDES1,Abyssal Halls,1
 21326,DUNGEON_FLOOR_THRONEOFTIDES2,Throne of Neptulon,1
 21327,DUNGEON_FLOOR_SHADOWFANGKEEP1,The Courtyard,1
@@ -9830,6 +9832,10 @@ ID,BaseTag,TagText_lang,Flags
 21371,DUNGEON_FLOOR_STRATHOLME1,Crusader's Square,1
 21372,DUNGEON_FLOOR_BLACKROCKDEPTHS1,Detention Block,1
 21373,DUNGEON_FLOOR_BLACKROCKDEPTHS2,Shadowforge City,1
+21374,DUNGEON_FLOOR_SCARLETMONASTERY1,Graveyard,1
+21375,DUNGEON_FLOOR_SCARLETMONASTERY2,Library,1
+21376,DUNGEON_FLOOR_SCARLETMONASTERY3,Armory,1
+21377,DUNGEON_FLOOR_SCARLETMONASTERY4,Cathedral,1
 21378,DUNGEON_FLOOR_THEDEADMINES1,The Deadmines,1
 21379,DUNGEON_FLOOR_THEDEADMINES2,Ironclad Cove,1
 21380,DUNGEON_FLOOR_BARADINHOLD1,Baradin Hold,1
@@ -10083,7 +10089,7 @@ ID,BaseTag,TagText_lang,Flags
 21640,MAINMENUBAR_DOWNLOAD_PERCENT_LABEL,Download %d %% complete,1
 21641,NEWBIE_TOOLTIP_DOWNLOAD_PERCENT,Indicates the percentage of the game that is downloaded,1
 21642,GROUND_CLUTTER,Ground Clutter,3
-21643,ARCHAEOLOGY_HELP,"To recover artifacts, you need to collect artifact fragments. Fragments are found in digsites visible on your map. When you reach a dig site, use the Survey ability. Your survey tool will indicate the approximate direction and distance to the cache of fragments. You can collect fragments six times in a dig site before you need to move to a new digsite. Once you have enough fragments, you can solve an artifact to learn a little more about Azeroth's past. Happy hunting!",1
+21643,ARCHAEOLOGY_HELP,"To recover artifacts, you need to collect artifact fragments. Fragments are found in digsites visible on your map. When you reach a dig site, use the Survey ability. Your survey tool will indicate the approximate direction and distance to the cache of fragments. You can collect fragments three times in a dig site before you need to move to a new digsite. Once you have enough fragments, you can solve an artifact to learn a little more about Azeroth's past. Happy hunting!",1
 21644,ARCHAEOLOGY_DIG_HELP,Archaeology Map Location Markers,1
 21645,RECOMMENDED,Recommended,3
 21646,FAST,Fast,1
@@ -10157,6 +10163,7 @@ ID,BaseTag,TagText_lang,Flags
 21714,ITEM_REQ_ARENA_RATING_BG,Requires battleground rating of %d or|npersonal arena rating of %d,1
 21715,ARCHAEOLOGY_RANK_TOOLTIP,Skill in Archaeology.,1
 21716,ARCHAEOLOGY_POJECTBAR_TOOLTIP,Number of fragments needed to complete this artifact.\n\nYou can have a maximum of %d fragments of each race.,1
+21717,REFORGED,Reforged,1
 21718,PVP_NO_WEEKLY_RATED_BG,Currently there is no rated battleground available.,1
 21719,GMSURVEY_BLOCK_TEXT3,Please select the circle that best matches how much you agree or disagree with each of the following statements based on your most recent contact with Blizzard.,1
 21720,GMSURVEY_BLOCK_TEXT2,Please answer the following by selecting one of the circles for each question. ,1
@@ -10361,8 +10368,10 @@ ID,BaseTag,TagText_lang,Flags
 21935,UNIT_NAMEPLATES_TYPES,Nameplate Motion Type,1
 21936,UNIT_NAMEPLATES_TYPE_1,Overlapping Nameplates,1
 21937,UNIT_NAMEPLATES_TYPE_2,Stacking Nameplates,1
+21938,UNIT_NAMEPLATES_TYPE_3,Spreading Nameplates,1
 21939,UNIT_NAMEPLATES_TYPE_TOOLTIP_1,This method will allow nameplates to overlap.,1
 21940,UNIT_NAMEPLATES_TYPE_TOOLTIP_2,This method avoids overlapping nameplates by stacking them vertically.,1
+21941,UNIT_NAMEPLATES_TYPE_TOOLTIP_3,This method avoids overlapping nameplates by spreading them out horizontally and vertically.,1
 21942,EMOTE453_CMD1,/read,1
 21943,EMOTE453_CMD2,/read,1
 21944,ERR_NOT_ON_TOURNAMENT_REALM,Not available on a Tournament Realm.,1
@@ -10502,6 +10511,7 @@ ID,BaseTag,TagText_lang,Flags
 22084,GUILDRECRUITMENT_ROLE1,Indicates your guild is looking for a damage dealer.,1
 22085,TUTORIAL5,You enter combat mode by right clicking on your target and then moving into combat range.  You will automatically start swinging at your target.,1
 22086,SPELL_FAILED_CUSTOM_ERROR_134,You can't do that while holding the flag.,1
+22087,ERR_GUILD_TRIAL_ACCOUNT,Feature not available for Starter Edition accounts.,1
 22088,SPELL_FAILED_CUSTOM_ERROR_135,You can't do that to targets holding the flag.,1
 22089,LFG_CALL_TO_ARMS,Call To Arms: %s,1
 22090,LFG_CALL_TO_ARMS_EXPLANATION,"If you perform this role, you will receive bonus rewards!",1
@@ -10619,7 +10629,7 @@ ID,BaseTag,TagText_lang,Flags
 22211,GUILD_MOVE_COMPLETE,The guild move process is complete. Please visit |HurlIndex:1|h[this web page]|h for more information.,1
 22212,GUILD_RENAMED,Your guild has been renamed.  Please visit |HurlIndex:1|h[this web page]|h for more information.,1
 22213,TALENT_SPEC_AND_CLASS,%1$s %2$s,1
-22214,BINDING_NAME_TOGGLEENCOUNTERJOURNAL,Toggle Adventure Guide,1
+22214,BINDING_NAME_TOGGLEENCOUNTERJOURNAL,Toggle Dungeon Journal,1
 22215,ENCOUNTER_JOURNAL,Dungeon Journal,1
 22216,ENCOUNTER_JOURNAL_SEARCH_RESULTS,"Search Results for \""%s\""(%d)",1
 22217,ENCOUNTER_JOURNAL_SHOW_SEARCH_RESULTS,Show All %d Results,1
@@ -10650,7 +10660,7 @@ ID,BaseTag,TagText_lang,Flags
 22242,ENCOUNTER_JOURNAL_SECTION_FLAG_DESCRIPTION10,,1
 22243,ENCOUNTER_JOURNAL_SECTION_FLAG11,Enrage,1
 22244,ENCOUNTER_JOURNAL_SECTION_FLAG_DESCRIPTION11,,1
-22245,ENCOUNTER_JOURNAL_SECTION_FLAG12,Mythic Difficulty,1
+22245,ENCOUNTER_JOURNAL_SECTION_FLAG12,Enrage,1
 22246,ENCOUNTER_JOURNAL_SECTION_FLAG_DESCRIPTION12,,1
 22250,POWER_TYPE_PYROCLASTIC_FRENZY,Pyroclastic Frenzy,1
 22251,CURRENCY_SEASON_TOTAL,Season Total Earned: %s%s,1
@@ -10691,6 +10701,7 @@ ID,BaseTag,TagText_lang,Flags
 22302,ERR_TRANSMOGRIFY_SAME_ITEM,You cannot transmogrify an item with the same item.,1
 22303,TRANSMOGRIFY,Transmogrify,1
 22304,POWER_TYPE_FEL_ENERGY,Fel Energy,1
+22305,REFORGE_RESTORE_MESSAGE,This item has already been reforged and cannot be reforged again until it has been restored to its previous state.,1
 22306,SHOW_ALL_ENEMY_DEBUFFS_TEXT,Show All Enemy Debuffs,1
 22307,OPTION_TOOLTIP_SHOW_ALL_ENEMY_DEBUFFS,Show all debuffs on enemy targets instead of just those deemed relevant to you.,1
 22308,GUILD_NAME_ALERT,Guild Name Change Alert,1
@@ -10727,10 +10738,12 @@ ID,BaseTag,TagText_lang,Flags
 22339,SLASH_TARGET_MARKER3,/targetmarker,1
 22340,SLASH_TARGET_MARKER4,/targetmarker,1
 22341,MAP_OPTIONS_TEXT,Map Options,1
+22342,SHOW_BOSSES_ON_MAP_TEXT,Show Bosses,1
 22343,MAC_DISABLE_OS_SHORTCUTS,Disable OS Keyboard Shortcuts,3
 22344,MAC_DISABLE_OS_SHORTCUTS_TOOLTIP,Disables the operating system keyboard shortcuts. Use this if you don't want to accidentally fire operating system shortcuts during the game.,3
 22345,REQ_LEVEL_ABBR,Lvl,1
 22346,MAC_OPTIONS_MISC,Miscellaneous,1
+22347,MAC_SWAP_CONTROL_AND_COMMAND,Use Command instead of Control for key bindings,1
 22348,MAC_SWAP_CONTROL_AND_COMMAND_TOOLTIP,Use this if you want to use the Command key modifier for key bindings instead of the Control key.,1
 22349,SCROLL_OF_RESURRECTION,Scroll of Resurrection,1
 22350,ENTER_EMAIL_OR_CHARACTER,Enter email or character-realm name,1
@@ -10762,6 +10775,7 @@ ID,BaseTag,TagText_lang,Flags
 22376,ERR_TRANSMOGRIFY_NOT_SOULBOUND,%s cannot be transmogrified because it is not permanently bound to you.,1
 22377,ERR_TRANSMOGRIFY_INVALID_SOURCE,This item's appearance cannot be used.,1
 22378,ERR_TRANSMOGRIFY_INVALID_ITEM_TYPE,This item does not have a valid appearance.,1
+22379,TRANSMOGRIFY_BIND_CONFIRMATION,Using this item for transmogrify will bind it to you and make it non-refundable and non-tradeable.,1
 22380,ERR_VOID_STORAGE_WRAPPED,You cannot deposit wrapped items in void storage.,1
 22381,ERR_VOID_STORAGE_STACKABLE,You cannot deposit stackable items in void storage.,1
 22382,ERR_VOID_STORAGE_UNBOUND,Only soulbound items can be deposited in void storage.,1
@@ -10812,11 +10826,13 @@ ID,BaseTag,TagText_lang,Flags
 22427,ERR_VOID_STORAGE_LOOT,You cannot deposit lootable items in void storage.,1
 22428,ERR_VOID_STORAGE_HOLIDAY,You cannot deposit Holiday related items in void storage.,1
 22429,ERR_VOID_STORAGE_DURATION,You cannot deposit items with limited duration in void storage.,1
+22430,ERR_TRANSMOGRIFY_NOT_EQUIPPED,You can only transmogrify an item equipped in the same slot.,1
 22431,PVP_SUSPENDED_QUEUE_STATUS,Your queue has been suspended because you or a party member are currently participating in another activity. You will retain your place in the queue.,1
 22432,ERR_BATTLEGROUND_DUPE_QUEUE,Someone in your group is already queued for that.,1
 22433,SPECIALIZATION,Specialization,1
 22434,CHOOSE,Choose,1
 22435,GRAPHICS_OPTIONS_UNAVAILABLE,Some options are unavailable while %1$s is set to %2$s.,3
+22436,VOICECHAT_NO_64BIT_TEXT,Voice Chat is not yet supported in 64-bit World of Warcraft.,1
 22437,ALL_ASSIST_LABEL_LONG,Make Everyone Assistant,1
 22438,ERR_PARENTAL_CONTROLS_CHAT_MUTED,Chat is disabled due to your Battle.net Account parental controls or privacy settings,1
 22439,SPELL_FAILED_CUSTOM_ERROR_147,You can only push Sad Panda towards Sad Panda Town!,1
@@ -10899,6 +10915,8 @@ ID,BaseTag,TagText_lang,Flags
 22517,LFG_LEADER_CHANGED_WARNING,%s is now the leader of your group!,1
 22518,SLASH_RAIDBROWSER7,/or,1
 22519,SLASH_RAIDBROWSER8,/or,1
+22520,SLASH_RAIDBROWSER9,/otherraids,1
+22521,SLASH_RAIDBROWSER10,/otherraids,1
 22522,INSTANCE_UNAVAILABLE_OTHER_ACHIEVEMENT_NOT_COMPLETED,%s has not yet completed the required achievement.,1
 22523,INSTANCE_UNAVAILABLE_SELF_ACHIEVEMENT_NOT_COMPLETED,You have not yet completed the required achievement.,1
 22524,INSTANCE_UNAVAILABLE_OTHER_TEMPORARILY_DISABLED,%s cannot enter. This instance is temporarily disabled.,1
@@ -10913,7 +10931,6 @@ ID,BaseTag,TagText_lang,Flags
 22538,SPELL_FAILED_CUSTOM_ERROR_152,You must choose a specialization to use Ascendance.,1
 22539,ERR_PARENTAL_CONTROLS_DISCONNECT_WARNING_SOON,You will be disconnected due to parental controls in less than 1 minute.,1
 22540,BINDING_NAME_TOGGLECOMPANIONJOURNAL,Toggle Companion Journal,1
-22541,ERR_VOID_STORAGE_LOAD_FAILED,Failed to load void storage items.,1
 22542,SPELL_FAILED_CUSTOM_ERROR_153,You have insufficient Blood Charges.,1
 22543,SOR_INACTIVE,Inactive,1
 22544,LARGE_NUMBER_SEPERATOR,",",3
@@ -12842,7 +12859,7 @@ ID,BaseTag,TagText_lang,Flags
 24681,GARRISON_BUILDING_IN_PROGRESS,Building in Progress,1
 24682,GARRISON_UPGRADE_IN_PROGRESS,Upgrade in Progress,1
 24683,GARRISON_BUILDING_LOCKED,Building Locked,1
-24684,NEW_CAPS,NEW,1
+24684,NEW_CAPS,NEW,3
 24688,CR_LIFESTEAL_TOOLTIP,Returns a portion of your damage and healing as healing to you.\n\nLeech: %s [+%.2f%%],1
 24689,CR_STURDINESS_TOOLTIP,Prevents durability loss on items.,1
 24690,WORLD,World,1
@@ -17146,6 +17163,8 @@ ID,BaseTag,TagText_lang,Flags
 36520,COMMUNITIES_JOIN_COMMUNITY,Join or Create Group,1
 36523,VOICE_CHAT_CHANNEL_MEMBER_COUNT_ACTIVE,%d |4player:players; in channel.,1
 36524,VOICE_CHAT_CHANNEL_ANNOUNCE,%1$s %2$s %3$s,1
+36526,GUILD_PERKS_TITLE,Guild Perks,1
+36527,GUILD_REWARDS_TITLE,Guild Rewards,1
 36528,RENDER_RESOLUTION_LABEL,Render Resolution,3
 36529,RENDER_RESOLUTION,Render Resolution,3
 36532,VOICE_CHAT_CHANNEL_ACTIVE_TOOLTIP,[%s] voice chat is active,1
@@ -17154,6 +17173,10 @@ ID,BaseTag,TagText_lang,Flags
 36535,WINDOW_SIZE_LABEL,Window Size,1
 36536,VOICE_CHAT_CHANNEL_ACTIVE_TOOLTIP_INSTRUCTIONS,<Click to deactivate>,1
 36537,VOICE_CHAT_CHANNEL_INACTIVE_TOOLTIP_INSTRUCTIONS,<Click to activate>,1
+36543,GUILD_RECRUITMENT,Recruitment,1
+36544,GUILD_CONTROL_BUTTON_TEXT,Guild Settings,1
+36546,GUILD_INFO_TITLE,Info,1
+36547,GUILD_NEWS_TITLE,Guild News,1
 36646,COMMUNITIES_SETTINGS_LABEL,Group Settings,1
 36647,COMMUNITIES_SETTINGS_CHARACTER_LABEL,Community Settings,1
 36648,COMMUNITIES_SETTINGS_NAME_LABEL,Name,1
@@ -17174,6 +17197,7 @@ ID,BaseTag,TagText_lang,Flags
 36670,CONFIRM_LEAVE_COMMUNITY,Leave Group?,1
 36671,CONFIRM_LEAVE_CHARACTER_COMMUNITY_SUBTEXT,Are you sure you want to leave %s?,1
 36672,CONFIRM_LEAVE_COMMUNITY_SUBTEXT,Are you sure you want to leave %s?,1
+36677,GUILD_AND_COMMUNITIES,Guild & Communities,1
 36680,COMMUNITIES_INVITE_MANAGER_LABEL,Invite to %s,1
 36681,COMMUNITIES_INVITE_MANAGER_LINK_LABEL,Share this link to invite people to your group.,1
 36682,COMMUNITIES_INVITE_MANAGER_CHARACTER_LINK_LABEL,Share this link to invite people to your community.,1
@@ -17336,6 +17360,7 @@ ID,BaseTag,TagText_lang,Flags
 40822,COMMUNITIES_CREATE_DIALOG_NAME_ERROR,Name|n%s,1
 40823,COMMUNITIES_CREATE_DIALOG_SHORT_NAME_ERROR,Short Name|n%s,1
 40824,COMMUNITY_MESSAGE_DROP_DOWN_DELETE,Delete Message,1
+40826,GUILD_EXPERIENCE_LABEL,%s / %s,1
 40837,VOICE_CHAT_CHANNEL_MANAGEMENT_TIP,%1$s Press %2$s to manage and join voice chat.,1
 40839,VOICE_CHAT_CHANNEL_ANNOUNCE_MEMBER_ACTIVE,%s has joined the voice channel.,1
 40840,VOICE_CHAT_CHANNEL_ANNOUNCE_PLAYER_ACTIVE,You have joined the voice channel.,1
@@ -17367,10 +17392,12 @@ ID,BaseTag,TagText_lang,Flags
 40907,ABILITY_INFO_ORC4,- Increased expertise with Axes and Fist weapons.,2
 40910,EMOTE522_CMD2,/boop,1
 40911,EMOTE522_CMD1,/boop,1
+40922,COMMUNITIES_MEMBER_LIST_MEMBER_COUNT_FORMAT,%s/%s Online,1
 40934,WOW_ERROR_331,Active game time is required in order to play World of Warcraft Classic. Please visit www.worldofwarcraft.com/account for more information.,2
 40938,BLIZZARD_STORE_VAS_ERROR_CHARACTER_HAS_VAS_PENDING,- This character already has a pending service. Please wait until that is complete to try again.,3
 40944,WOW_ERROR_332,Your recent purchase of game time is still under payment review,2
 40945,CLASSIC_DEFAULTS,Classic,3
+40947,COMMUNITIES_CALENDAR_MOTD_FORMAT,"\""%s\""",1
 40952,VISITABLE_URL44,https://nydus.battle.net/WoW/%s/client/support/gvas?targetRegion=%s,2
 40958,COMPACT_UNIT_FRAME_PROFILE_AUTOACTIVATE20PLAYERS,20 Player Group,1
 40988,VAS_TRANSFER_REALM_TOOLTIP,Choose the Realm you would like to transfer to.,2
@@ -17395,13 +17422,23 @@ ID,BaseTag,TagText_lang,Flags
 41125,AUCTION_CATEGORY_QUIVER,Quiver,1
 41126,AUCTION_CATEGORY_REAGENT,Reagent,1
 41127,COPY_CHARACTER_NAME,Copy Character Name,1
+41130,CLUB_FINDER_LIST_GUILD,List My Guild in Guild Finder,1
+41133,CLUB_FINDER_MAX_LEVEL_ONLY,Max Level Only,1
+41136,CLUB_FINDER_GUILD_SIZE,Guild Size,1
+41138,CLUB_FINDER_FOCUS,Focus,1
+41140,CLUB_FINDER_LOOKING_FOR,Looking For:,1
+41142,CLUB_FINDER_SORT_BY,Sort By,1
+41144,CLUB_FINDER_RECRUITMENT_MESSAGE,Recruitment Message,1
+41148,COMMUNITIES_GUILD_FINDER_DESCRIPTION2,"A guild is a tight-knit group of players who want to enjoy the game together. By joining a guild, you'll gain access to many benefits, including a shared guild bank and a guild chat channel.|n|nUse this tool to find a guild that fits your playstyle.",1
 41176,GXAPI_D3D11_LEGACY,DirectX 11 Legacy,3
 41184,FACTION_NEUTRAL,Neutral,1
 41190,YOU_LOOT_MONEY_MOD,You loot %s (+%s),1
 41191,LOOT_MONEY_SPLIT_MOD,Your share of the loot is %s (+%s),1
+41198,CLUB_FINDER_REQUEST_TO_JOIN,Request to Join,1
 41211,VISITABLE_URL47,https://nydus.battle.net/WoW/%s/client/support/gvas-cannot-start?targetRegion=%s,3
 41212,VISITABLE_URL48,https://nydus.battle.net/WoW/%s/client/transactions?targetRegion=%s,3
 41230,VOICE_CHAT_ERROR_CODE_FORMATTER,(VoiceError: %d),1
+41244,CLUB_FINDER_PENDING_REQUESTS,Pending (%d),1
 41252,BLIZZARD_GROUPS,Blizzard Groups,1
 41253,NEWBIE_TOOLTIP_BLIZZARDGROUPSTAB,Allows you to communicate with friends across Blizzard games and manage your Blizzard Groups.,1
 41273,ERR_TRAVEL_PASS_WRONG_PROJECT_MAINLINE_OVERRIDE,This friend is playing the standard version of World of Warcraft.,1
@@ -17427,17 +17464,27 @@ ID,BaseTag,TagText_lang,Flags
 41600,ENTER_LFG,Enter,1
 41608,ERR_BATTLEGROUND_JOIN_DISQUALIFIED_NO_NAME,A player has been disqualified from ranked play in this bracket.,1
 41615,CREDITS_WOW_CLASSIC,World of Warcraft Classic Credits,2
+41637,CLUB_FINDER_NOT_RECRUITING_YOUR_SPECS,Send a note and include your specializations if you would still like to be considered for membership.,1
+41638,CLUB_FINDER_NO_MATCHING_SPEC_DIALOG_ERR_STRING,Currently not recruiting any of your class specializations. You may still apply.,1
 41640,BNET_FRIEND_ZONE_WOW_CLASSIC,WoW Classic: %s,1
 41641,BNET_FRIEND_TOOLTIP_WOW_CLASSIC,WoW Classic,1
 41649,AVAILABLE_CHANNELS,Available Channels,1
 41656,ERR_TRAVEL_PASS_DIFFERENT_REALM,In World of Warcraft Classic you cannot invite players that are on a different realm.,1
+41717,CLUB_FINDER_FOCUS_SOCIAL_LEVELING,Social & Leveling,1
+41718,CLUB_FINDER_FOCUS_PVP,PvP,1
 41727,BEHAVIORAL_NOTIFICATION_OPEN,Click here to read the message,1
 41728,BEHAVIORAL_NOTIFICATION_WARNING,Behavior Warning,1
 41729,BEHAVIORAL_NOTIFICATION_TY,Thank You for Reporting,1
+41735,CLUB_FINDER_ROLE_TOOLTIP,Select role to search for %s seeking your role specification,1
+41736,CLUB_FINDER_GUILDS,Guilds,1
+41737,CLUB_FINDER_COMMUNITIES,Communities,1
+41775,CLUB_FINDER_APPLY,Apply,1
+41781,CLUB_FINDER_PENDING_CLUBS_LIST,Pending List,1
 41784,BLIZZARD_STORE_PURCHASED,Purchased,3
 41834,ERR_ACCOUNT_SILENCED,Can't do that while your account is silenced,1
 41838,VISITABLE_URL49,https://worldofwarcraft.com/%s/game/recruit-a-friend,3
 41896,BLIZZARD_STORE_VAS_TRANSFER_REALM_CATEGORY_WARNING,You are transferring to a %s realm.,2
+41911,CLUB_FINDER_THANK_YOU_REPORTED,Thank you for reporting.,1
 41945,QUEST_LOGIC_AND,And,1
 41946,QUEST_LOGIC_OR,Or,1
 41954,REALM_LAYERED,Layered,2
@@ -17554,7 +17601,7 @@ ID,BaseTag,TagText_lang,Flags
 42760,MOTION_SICKNESS_REDUCE_CAMERA_MOTION,Reduce Camera Motion,1
 42761,MOTION_SICKNESS_NONE,Allow Dynamic Camera Movement,1
 42762,MOTION_SICKNESS_BOTH,Keep Character Centered and Reduce Camera Motion,1
-42763,MOTION_SICKNESS_DROPDOWN,Motion Sickness,1
+42763,MOTION_SICKNESS_CHECKBOX,Motion Sickness,1
 42764,ADJUST_MOTION_SICKNESS_SHAKE,Camera Shake,1
 42786,SHAKE_INTENSITY_NONE,None,1
 42787,SHAKE_INTENSITY_REDUCED,Reduced,1
@@ -18195,6 +18242,7 @@ ID,BaseTag,TagText_lang,Flags
 50447,BINDING_HEADER_ACTIONBAR5,Action Bar 5,1
 50453,VAS_TOKEN_TOOLTIP_STATUS_DISABLED_ON_REALM,Character service not available in this realm.,2
 50459,LFG_LIST_TOO_MANY_ACTIVITIES_SELECTED,You've selected too many activities.,1
+50476,SEARCH_RESULTS_SHOW_COUNT,Show All %d Results,1
 50508,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT,Determines what type of health text to show in raid frames.,1
 50560,AUDIO_OUTPUT_DEVICE,Output Device,3
 50561,OPTION_TOOLTIP_AUDIO_OUTPUT,Selects where you would like to hear your game audio.,3
@@ -18231,3 +18279,39 @@ ID,BaseTag,TagText_lang,Flags
 51488,PNC_FLOW_NEW_NAME_LABEL,New Name,2
 51489,PNC_CUSTOMIZE_DIALOG_TEXT,Your name change will be permanently applied once you accept.,2
 51533,LFG_LIST_CHOOSE_YOUR_ROLE,Choose your Role,1
+51604,OPTION_TOOLTIP_MOTION_SICKNESS_CHECKBOX,Enabling the Motion Sickness setting will reduce camera movement and keep your character centered.,1
+51756,ADDON_DEP_NOT_AVAILABLE,Dependency not available,3
+51757,ADDON_EXCLUDED_FROM_BUILD,Excluded from build,3
+51758,ADDON_DEP_EXCLUDED_FROM_BUILD,Dependency excluded from build,3
+51759,ADDON_NO_ACTIVE_INTERFACE,No active UI,3
+51760,ADDON_DEP_NO_ACTIVE_INTERFACE,Dependency has no active UI,3
+51761,ADDON_WRONG_ACTIVE_INTERFACE,Wrong active UI,3
+51762,ADDON_DEP_WRONG_ACTIVE_INTERFACE,Dependency has wrong active UI,3
+51763,ADDON_WRONG_GAME_TYPE,Wrong game type,3
+51764,ADDON_DEP_WRONG_GAME_TYPE,Dependency has wrong game type,3
+51765,ADDON_WRONG_LOAD_PHASE,Wrong load phase,3
+51766,ADDON_DEP_WRONG_LOAD_PHASE,Dependency has wrong load phase,3
+51767,ADDON_USER_ADDONS_DISABLED,User addons disabled,3
+51768,ADDON_DEP_USER_ADDONS_DISABLED,Dependency user addons disabled,3
+51777,MOUNT_JOURNAL_PLAYER,Show Character,1
+51800,INVTYPE_NON_EQUIP_IGNORE,,0
+51860,UPREZ_TEXTURES,NEW!  Uprezzed Textures,3
+51861,OPTION_TOOLTIP_UPREZ_TEXTURES,uprez tooltip placeholder,3
+51869,ICON_SELECTION_TITLE_CURRENT,Currently Selected,1
+52002,COUNTDOWN_SET,|Hplayer:%s|h[%s]|h started a countdown timer.,1
+52003,COUNTDOWN_CLEAR,|Hplayer:%s|h[%s]|h canceled the countdown timer.,1
+52004,COUNTDOWN_CANCEL_ENCOUNTER_START,"Encounter started, countdown timer canceled.",1
+52005,SLASH_COUNTDOWN1,/countdown,1
+52006,SLASH_COUNTDOWN2,/countdown,1
+52007,SLASH_COUNTDOWN3,/cd,1
+52008,SLASH_COUNTDOWN4,/cd,1
+52041,HD_TEXTURES_BUTTON_TOOLTIP_HEADER,Download High Definition Textures,3
+52042,HD_TEXTURES_BUTTON_TOOLTIP,"Downloads higher detail textures for characters, creatures, buildings, objects, terrain, and more. Once downloaded, these textures can be toggled on or off at any time in the game options.",3
+52043,HD_TEXTURES_BUTTON,Get HD Textures,3
+52044,HD_TEXTURES_DLG_TEXT,Clicking the Download button will exit the game and open the Battle.net desktop app where you can download the textures.,3
+52045,OPTION_HD_TEXTURES,High Definition Textures,3
+52046,OPTION_TOOLTIP_HD_TEXTURES,"Enables higher detail textures for characters, creatures, buildings, objects, terrain, and more.",3
+52047,HD_TEXTURES_DLG_ACCEPT,Download,3
+52051,HD_TEXTURES_DLG_ACCEPT_MAC,Exit Game,3
+52052,HD_TEXTURES_DLG_TEXT_MAC,Clicking the Exit Game button will exit the game and open a webpage with instructions on how to download the textures through the Battle.net desktop app.,3
+52053,HIGH_RES_TEXTURE_INSTALL_URL,http://www.blizzard.com/,3
