@@ -25770,7 +25770,7 @@ local paraMag = (progress * 2) - 1 ;
 paraMag = (1 - (paraMag * paraMag)) * maxMagnitude ;
 
 -- spinning wave translate
-local waves = 3 ;
+local waves = 1.5 ;
 local maxMagnitude = 2 ;
 
 local spinMag = sin(progress * waves * 360) * maxMagnitude ;

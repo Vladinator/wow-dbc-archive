@@ -24375,7 +24375,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 32789,Obtain 250 Stacks of Tortos' Geyser Spray,0,0,4,0,0,0
 32790,,32789,1,0,23339,0,0
 32791,High Seas Scenario - Bonus Objectives,0,0,4,0,0,0
-32792,Defeat Admiral Hagman (Timed),32791,1,0,23340,0,0
+32792,Defeat Admiral Hagman (Timed),32791,1,0,68047,0,0
 32793,Defeat Borokhula the Destroyer on Heroic Difficulty,0,0,4,0,0,0
 32794,Defeat Borokhula the Destroyer,32793,1,0,23341,0,0
 32795,Scenario - Ancient Mogu Crypt - Kill Boss (Heroic),0,0,4,0,0,0
@@ -81028,6 +81028,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 141977,,141971,0,0,57371,5,0
 141978,,141971,0,0,57372,6,0
 141979,Elemental Overflow obtained,0,3,4,0,0,1
+141980,Elemental Overflow obtained,141979,500,0,57373,0,1
 141981,Dragonriding courses completed,0,15,5,0,0,8193
 141982,,141981,0,0,57374,0,0
 141983,Intricately-Painted Eggs or Magnificently-Painted Egg placed,0,1,8,0,0,1
@@ -85990,8 +85991,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 147872,,147871,1,0,60836,0,1
 147873,Dreamsurged rare elites defeated,0,15,5,0,0,8193
 147874,,147873,1,0,60836,0,1
-147875,Dreamsurge Coalescence collected,0,100,4,0,0,1
-147876,Dreamsurge Coalescence collected,147875,100,0,64420,0,1
+147875,Dreamsurge Coalescence collected,0,100,5,0,0,8193
 147877,Reconciliation storyline completed,0,1,4,0,0,0
 147878,On New Wings,147877,1,0,60838,6,0
 147879,Timewalking dungeons completed,0,1,5,0,0,8193
@@ -87087,8 +87087,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 149011,"Ohn'ahran Plains, Rusza'Thar Reach",147397,1,0,61569,1,0
 149012,"The Azure Span, Camp Nowhere",147397,1,0,61570,7,0
 149013,"Thaldraszus, Algeth'era Court",147397,1,0,61571,3,0
-149014,Dreamsurge Coalescence collected,0,100,4,0,0,1
-149015,Dreamsurge Coalescence collected,149014,250,0,64420,0,1
+149014,Dreamsurge Coalescence collected,0,250,5,0,0,8193
+149015,,149014,1,0,68027,0,1
 149016,Cooking levels gained,0,20,5,0,0,8193
 149017,,149016,1,0,61574,0,0
 149018,Epic or legendary feast eaten,0,1,8,0,0,8192
@@ -90525,7 +90525,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 155163,10.2.7 Timewalking Season - Pandaria - Journey - Raid - 04 - Throne of Thunder - 02 - N,0,0,4,0,0,0
 155164,Jin'rokh the Breaker,155163,1,0,65736,0,0
 155165,10.2.7 Timewalking Season - Pandaria - Journey - Raid - 03 - Terrace of Endless Spring - 02 - N,0,0,4,0,0,0
-155166,Protectors of the Endless,155165,1,0,65717,0,16
+155166,Protectors of the Endless,155165,1,0,68045,0,16
 155167,10.2.7 Timewalking Season - Pandaria - Journey - Raid - 02 - Heart of Fear - 02 - N,0,0,4,0,0,0
 155168,Blade Lord Ta'yak,155167,1,0,65703,0,16
 155169,10.2.7 Timewalking Season - Pandaria - Journey - Raid - 01 - Mogu'shan Vaults - 02 - N,0,0,4,0,0,0
@@ -90661,7 +90661,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 155313,Scritch,155127,1,0,65612,5,0
 155314,Ski'thik,155127,1,0,65613,6,0
 155315,Zai the Outcast,155127,1,0,65614,7,0
-155316,10.2.7 Timewalking Season - Pandaria - Journey - Rares - 08 - Landfall,0,1,8,0,0,0
+155316,10.2.7 Timewalking Season - Pandaria - Journey - Rares - 08 - Landfall,0,3,8,0,0,0
 155319,Dalan Nightbreaker,155316,1,0,65595,0,0
 155320,Disha Fearwarden,155316,1,0,65596,1,0
 155323,Kar Warmaker,155316,1,0,65599,2,0
@@ -90991,6 +90991,15 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 155666,Landfall Campaign End,155538,1,8,0,0,0
 155667,,155666,1,0,65829,0,0
 155668,,155666,1,0,65830,1,0
+155669,10.2.7 Timewalking Season - Pandaria - Journey - World Boss - 01 - Sha of Anger,0,0,4,0,0,0
+155670,10.2.7 Timewalking Season - Pandaria - Journey - World Boss - 02 - Salyis's Warband,0,0,4,0,0,0
+155671,"10.2.7 Timewalking Season - Pandaria - Journey - World Boss - 03 - Nalak, the Storm Lord",0,0,4,0,0,0
+155672,10.2.7 Timewalking Season - Pandaria - Journey - World Boss - 04 - Oondasta,0,0,4,0,0,0
+155673,"10.2.7 Timewalking Season - Pandaria - Journey - World Boss - 05 - Chi-ji, the Red Crane",0,0,4,0,0,0
+155674,"10.2.7 Timewalking Season - Pandaria - Journey - World Boss - 06 - Yu'lon, the Jade Serpent",0,0,4,0,0,0
+155675,"10.2.7 Timewalking Season - Pandaria - Journey - World Boss - 07 - Niuzao, the Black Ox",0,0,4,0,0,0
+155676,"10.2.7 Timewalking Season - Pandaria - Journey - World Boss - 08 - Xuen, the White Tiger",0,0,4,0,0,0
+155677,10.2.7 Timewalking Season - Pandaria - Journey - World Boss - 09 - Ordos,0,0,4,0,0,0
 155678,10.2.7 Timewalking Season - Pandaria - Journey - Party - 09 - Timeless Isle,0,0,4,0,0,0
 155679,,155678,1,0,65854,2,32
 155680,,155678,1,0,65852,0,32
@@ -91523,7 +91532,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 157262,Trading Post - Sit in Chairs,0,0,4,0,0,2
 157263,Colorful Beach Chair,157262,1,0,66765,0,1
 157264,Fishing Chair,157262,1,8,0,1,8193
-157265,,157264,100,0,66766,0,1
+157265,,157264,1,0,66766,0,1
 157277,,154209,0,0,65201,2,0
 157278,Cinna-Cinderbloom Tea,154206,1,8,0,4,8193
 157279,,157278,0,0,65200,1,0
@@ -91824,3 +91833,17 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 162577,,162568,1,0,64549,8,32
 162578,,162568,1,0,64550,9,32
 162579,,162568,1,0,64551,10,32
+162833,[DNT] Noodle Time tutorial - Bonus objective (timer),0,0,4,0,0,0
+162834,Seat and serve as many customers as you can in 5 minutes,162833,1,0,67961,0,0
+162942,,147875,1,0,68027,0,1
+162962,,155669,0,0,68036,0,0
+162963,,155670,0,0,68037,0,0
+162964,,155671,0,0,68038,0,0
+162965,,155672,0,0,68039,0,0
+162966,,155677,0,0,68040,0,0
+162967,,155673,0,0,68041,0,0
+162968,,155674,0,0,68042,0,0
+162969,,155675,0,0,68043,0,0
+162970,,155676,0,0,68044,0,0
+162971,High Seas Scenario - Bonus Objectives (Horde),0,0,4,0,0,0
+162972,Defeat Admiral Hodgson (Timed),162971,1,0,68046,0,0
