@@ -26237,7 +26237,7 @@ local paraMag = (progress * 2) - 1 ;
 paraMag = (1 - (paraMag * paraMag)) * maxMagnitude ;
 
 -- spinning wave translate
-local waves = 3 ;
+local waves = 1.5 ;
 local maxMagnitude = 2 ;
 
 local spinMag = sin(progress * waves * 360) * maxMagnitude ;
@@ -26343,7 +26343,7 @@ modelPitch = time * spinRate
 transAngle = angle
 transMag = (progress * 2) - 1
 transMag = (1 - (transMag * transMag)) * maxMagnitude",0,1
-4761,11.0 Raid - Nerubian - Boss - Queen - P2 - Ascended Void Speaker - Shared Health (Missile) - SRC,"
+4761,11.0 Raid - Nerubian - Boss - Queen - P2 - Ascended Void Speaker - Shared Health (Lower Missile) - SRC,"
 local magnitudeReduction = .25
 local magnitude = (progress * 1.9) - 1
 magnitude = 1 - (magnitude * magnitude * magnitude * magnitude)
@@ -26353,7 +26353,7 @@ transRight = (sin((rand1 * 1000) + (time * 1000)) + cos((rand2 * 1000) + (time *
 transUp = (sin((rand2 * 1000) + (time * 700)) + cos((rand1 * 1000) + (time * 300))) * magnitude
 
 local angle = 0
-local parabolicScalar = 0.1 -- higher = more parabolic
+local parabolicScalar = 0 -- higher = more parabolic
 local maxMagnitude = startDistance * parabolicScalar
 local spinRate = 360 * magnitudeReduction
 
@@ -26394,3 +26394,154 @@ transMag = (1 - (transMag * transMag)) * maxMagnitude
 modelPitch = time * spinRate
 
 ",0,1
+4766,Paladin - Divine Arbiter Motion,"--transUp = progress*2-1--sin(progress*180)*3*(1-progress)
+--transUp = (1 - (transUp * transUp))*(rand2*2+1)
+
+--transRight = rand1*sin(progress*180)*3*(1-progress)
+
+transAngle = (math.sqrt(rand1)*100)
+if rand2>0.5 then transAngle = transAngle*-1 end
+transMag = sin(progress*180)*(1-progress)*(6*startDistance/24+1)",0,0
+4767,Fall Straight Down (Max Height: 70 - No Model Squish),"local maxHeight = 70
+local progressSq = progress * progress
+local invProgress = (1 - progress)
+local invProgressSq = (1 - progressSq)
+
+transFront = distanceToImpactPos
+transRight = 0
+transUp = invProgress * maxHeight
+faceImpactPos = 1",0,1
+4768,11.0 Raid - Nerubian - Boss - Queen - P2 - Ascended Void Speaker - Shared Health (Upper Missile) - SRC,"
+local magnitudeReduction = .25
+local magnitude = (progress * 1.9) - 1
+magnitude = 1 - (magnitude * magnitude * magnitude * magnitude)
+magnitude = magnitude * magnitudeReduction
+
+transRight = (sin((rand1 * 1000) + (time * 1000)) + cos((rand2 * 1000) + (time * 200))) * magnitude
+transUp = (sin((rand2 * 1000) + (time * 700)) + cos((rand1 * 1000) + (time * 300))) * magnitude
+
+local angle = 0
+local parabolicScalar = 0.075 -- higher = more parabolic
+local maxMagnitude = startDistance * parabolicScalar
+local spinRate = 360 * magnitudeReduction
+
+modelPitch = time * spinRate
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude",0,1
+4769,"Fast Out - W/ Noise, Parabola (Low)","local factor = 2
+local maxHeight = startDistance * 0.25
+local direction = 1
+local noiseAmt = startDistance * 0.25
+
+function noise (time)
+	return math.sin(time)*math.sin(time*3)*math.sin(time*.54)*math.sin(time*7)*math.sin(time*12)*math.sin(time*.5)
+end
+local progressMult = math.sin(math.pi * progress)
+
+local t1 = (time+(rand1*300))
+local noise1 = noise(t1)
+
+local t2 = (time+(rand2*300))
+local noise2 = noise(t2)
+
+local t3 = (time+(rand3*300))
+local noise3 = noise(t3)
+
+
+transRight = transRight + (progressMult*noise1*noiseAmt)
+transUp    = transUp + (progressMult*noise2*(noiseAmt*.25)) + ((1-progress)*progress*4*maxHeight)
+transFront = math.pow(progress,factor) * distanceToFirePos + ((progressMult*noise3) *noiseAmt)
+transFront = transFront - distanceToFirePos",0,1
+4770,"Parabola (Fixed Height - 6-8 yards, Fast Out)","local function parabola(a,b,m) return (4*m*((1-progress)*a)*((progress)*b)) end
+
+local height = 6
+local variance = 2
+height = height + (rand1 * variance)
+
+transUp = parabola(1,1,height)
+
+local factor = 3
+transFront = math.pow(progress,factor) * distanceToFirePos
+transFront = transFront - distanceToFirePos",0,1
+4771,Meteor Strike (80 Yards) Right Side Diagonal Down,"local magnitude = 80
+
+transRight = magnitude/-2 * (1-progress)
+transUp = magnitude * ( .8 - progress )
+transFront = distanceToImpactPos",0,1
+4772,"Parabola (-45 Pitch, .25 Arc) Scale Large Over Time - FX - EZ","local maxMagnitude = startDistance * .25 --adjust this for a higher Arc
+local scale = 0.5
+
+
+modelPitch = -45
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+
+scale = 0.5 + (progress/2)
+if scale > 1 then
+	scale = 1
+end
+",0,1
+4773,Long Spiral In (Alot Less Spirals),"
+
+local progressMult = sin(progress*180)*(1-progress)*2
+
+local progressSpeed = math.pow(progress,3) 
+
+
+transUp = (10*math.pow((1-sin(progress*90)),0.3+rand1/3) + 0.25) * progressMult
+transFront = (-cos(progressSpeed *180)+1)*startDistance*math.pow(1-progressSpeed ,.7)*.5
+transRight = sin(progressSpeed *180)*startDistance*math.pow(1-progressSpeed ,.7)*.5
+",0,1
+4774,"Parabola (Fast in/out, MidLow)","local function HorizontalSCurve(progress, exponent)
+	local returnValue = 0
+    if (exponent >= 2 or progress >= .5) then
+       returnValue = math.pow((2 * progress - 1), exponent)
+   	    returnValue = (returnValue + 1)/2
+        if (exponent%2 == 0) then
+            if progress < .5 then
+               returnValue = 1 - returnValue 
+		    end
+        end
+    elseif (exponent < 2) then
+        if progress < .5 then
+          returnValue = math.pow((-2 * progress + 1), exponent)
+          returnValue = 1 - ((returnValue + 1)/2)
+        end
+	end
+
+	return returnValue
+end
+
+local parabolicFactor = 1*distanceToFirePos
+frontP = HorizontalSCurve(progress,1.2)
+upP    = HorizontalSCurve(progress,1.5)
+transFront = (frontP * distanceToFirePos) - distanceToFirePos
+transUp    = (-1 *(parabolicFactor * (upP * upP))) + (upP * parabolicFactor)",0,1
+4775,"Parabola (-45 Pitch, .25 Arc) Scale Small Over Time - FX - EZ","local maxMagnitude = startDistance * .25 --adjust this for a higher Arc
+local scale = 0.5
+
+launchDelay = 1.0
+--speedScalar = .5*(progress+0.1)+1
+
+modelPitch = -45
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+
+scale = 1 - (progress/2)
+if scale < 0.5 then
+	scale = 0.5
+end
+",0,1
+4776,11.0 Dungeon - Monastery - Trash - Multi-Shot - JRN,"local maxSpread = 6
+if missileIndex ~= 1 then
+	transAngle = 90 * math.pow(-1, missileIndex)
+	transMag = progress * rand2 * maxSpread
+end
+progress = math.pow(progress, 1.25)
+
+transFront = (progress * startDistance) - distanceToFirePos",0,0

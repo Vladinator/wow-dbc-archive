@@ -24375,7 +24375,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 32789,Obtain 250 Stacks of Tortos' Geyser Spray,0,0,4,0,0,0
 32790,,32789,1,0,23339,0,0
 32791,High Seas Scenario - Bonus Objectives,0,0,4,0,0,0
-32792,Defeat Admiral Hagman (Timed),32791,1,0,23340,0,0
+32792,Defeat Admiral Hagman (Timed),32791,1,0,68047,0,0
 32793,Defeat Borokhula the Destroyer on Heroic Difficulty,0,0,4,0,0,0
 32794,Defeat Borokhula the Destroyer,32793,1,0,23341,0,0
 32795,Scenario - Ancient Mogu Crypt - Kill Boss (Heroic),0,0,4,0,0,0
@@ -80035,6 +80035,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 141977,,141971,0,0,57371,5,0
 141978,,141971,0,0,57372,6,0
 141979,Elemental Overflow obtained,0,3,4,0,0,1
+141980,Elemental Overflow obtained,141979,500,0,57373,0,1
 141981,Dragonriding courses completed,0,15,5,0,0,8193
 141982,,141981,0,0,57374,0,0
 141983,Intricately-Painted Eggs or Magnificently-Painted Egg placed,0,1,8,0,0,1
@@ -84914,8 +84915,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 147872,,147871,1,0,60836,0,1
 147873,Dreamsurged rare elites defeated,0,15,5,0,0,8193
 147874,,147873,1,0,60836,0,1
-147875,Dreamsurge Coalescence collected,0,100,4,0,0,1
-147876,Dreamsurge Coalescence collected,147875,100,0,64420,0,1
+147875,Dreamsurge Coalescence collected,0,100,5,0,0,8193
 147877,Reconciliation storyline completed,0,1,4,0,0,0
 147878,On New Wings,147877,1,0,60838,6,0
 147879,Timewalking dungeons completed,0,1,5,0,0,8193
@@ -86015,8 +86015,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 149011,"Ohn'ahran Plains, Rusza'Thar Reach",147397,1,0,61569,1,0
 149012,"The Azure Span, Camp Nowhere",147397,1,0,61570,7,0
 149013,"Thaldraszus, Algeth'era Court",147397,1,0,61571,3,0
-149014,Dreamsurge Coalescence collected,0,100,4,0,0,1
-149015,Dreamsurge Coalescence collected,149014,250,0,64420,0,1
+149014,Dreamsurge Coalescence collected,0,250,5,0,0,8193
+149015,,149014,1,0,68027,0,1
 149016,Cooking levels gained,0,20,5,0,0,8193
 149017,,149016,1,0,61574,0,0
 149018,Epic or legendary feast eaten,0,1,8,0,0,8192
@@ -90055,7 +90055,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 154932,10.2.7 Timewalking Season - Pandaria - Journey - Meta - 04 - Kun-Lai Summit,0,2,8,0,0,0
 154933,10.2.7 Timewalking Season - Pandaria - Journey - Meta - 05 - Vale of Eternal Blossoms,0,2,8,0,0,0
 154934,10.2.7 Timewalking Season - Pandaria - Journey - Meta - 06 - Townlong Steppes,0,2,8,0,0,0
-154935,10.2.7 Timewalking Season - Pandaria - Journey - Meta - 07 - Dread Wastes,0,1,8,0,0,0
+154935,10.2.7 Timewalking Season - Pandaria - Journey - Meta - 07 - Dread Wastes,0,2,8,0,0,0
 154936,10.2.7 Timewalking Season - Pandaria - Journey - Meta - 09 - Landfall,0,2,8,0,0,0
 154937,10.2.7 Timewalking Season - Pandaria - Journey - Meta - 10 - Isle of Thunder,0,1,8,0,0,0
 154938,10.2.7 Timewalking Season - Pandaria - Journey - Meta - 12 - Escalation,0,3,8,0,0,0
@@ -90198,7 +90198,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 155163,10.2.7 Timewalking Season - Pandaria - Journey - Raid - 04 - Throne of Thunder - 02 - N,0,0,4,0,0,0
 155164,Jin'rokh the Breaker,155163,1,0,65736,0,0
 155165,10.2.7 Timewalking Season - Pandaria - Journey - Raid - 03 - Terrace of Endless Spring - 02 - N,0,0,4,0,0,0
-155166,Protectors of the Endless,155165,1,0,65717,0,16
+155166,Protectors of the Endless,155165,1,0,68045,0,16
 155167,10.2.7 Timewalking Season - Pandaria - Journey - Raid - 02 - Heart of Fear - 02 - N,0,0,4,0,0,0
 155168,Blade Lord Ta'yak,155167,1,0,65703,0,16
 155169,10.2.7 Timewalking Season - Pandaria - Journey - Raid - 01 - Mogu'shan Vaults - 02 - N,0,0,4,0,0,0
@@ -90338,7 +90338,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 155313,Scritch,155127,1,0,65612,5,0
 155314,Ski'thik,155127,1,0,65613,6,0
 155315,Zai the Outcast,155127,1,0,65614,7,0
-155316,10.2.7 Timewalking Season - Pandaria - Journey - Rares - 08 - Landfall,0,1,8,0,0,0
+155316,10.2.7 Timewalking Season - Pandaria - Journey - Rares - 08 - Landfall,0,3,8,0,0,0
 155319,Dalan Nightbreaker,155316,1,0,65595,0,0
 155320,Disha Fearwarden,155316,1,0,65596,1,0
 155323,Kar Warmaker,155316,1,0,65599,2,0
@@ -90672,6 +90672,15 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 155666,Landfall Campaign End,155538,1,8,0,0,0
 155667,,155666,1,0,65829,0,0
 155668,,155666,1,0,65830,1,0
+155669,10.2.7 Timewalking Season - Pandaria - Journey - World Boss - 01 - Sha of Anger,0,0,4,0,0,0
+155670,10.2.7 Timewalking Season - Pandaria - Journey - World Boss - 02 - Salyis's Warband,0,0,4,0,0,0
+155671,"10.2.7 Timewalking Season - Pandaria - Journey - World Boss - 03 - Nalak, the Storm Lord",0,0,4,0,0,0
+155672,10.2.7 Timewalking Season - Pandaria - Journey - World Boss - 04 - Oondasta,0,0,4,0,0,0
+155673,"10.2.7 Timewalking Season - Pandaria - Journey - World Boss - 05 - Chi-ji, the Red Crane",0,0,4,0,0,0
+155674,"10.2.7 Timewalking Season - Pandaria - Journey - World Boss - 06 - Yu'lon, the Jade Serpent",0,0,4,0,0,0
+155675,"10.2.7 Timewalking Season - Pandaria - Journey - World Boss - 07 - Niuzao, the Black Ox",0,0,4,0,0,0
+155676,"10.2.7 Timewalking Season - Pandaria - Journey - World Boss - 08 - Xuen, the White Tiger",0,0,4,0,0,0
+155677,10.2.7 Timewalking Season - Pandaria - Journey - World Boss - 09 - Ordos,0,0,4,0,0,0
 155678,10.2.7 Timewalking Season - Pandaria - Journey - Party - 09 - Timeless Isle,0,0,4,0,0,0
 155679,,155678,1,0,65854,2,32
 155680,,155678,1,0,65852,0,32
@@ -90864,7 +90873,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 155873,11.0 Delves - Order of Night - V01 - - Speak with Injured Lamplighter (STM),0,0,4,0,0,0
 155874,Speak with Injured Lamplighter,155873,0,0,66007,0,32
 155875,11.0 Delves - Order of Night - V01 - - Purge Darkfire Braziers (STM),0,0,4,0,0,0
-155876,Destroy Darkfire Braziers,155875,10,0,66008,0,32
+155876,Destroy Darkfire Braziers,155875,11,0,66008,0,32
 155877,11.0 Delves - Order of Night - V01 - - Lieutenant Hawkins and cohorts defeated (STM),0,0,4,0,0,0
 155878,Speaker Halven slain,155877,0,0,66009,0,32
 155879,11.0 Delves - Order of Night - V02 - - Speak with Great Kyron (STM),0,0,4,0,0,0
@@ -90944,7 +90953,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 155971,11.0 Delves - Z5 - V1 - Step 1 - Nerubian Groups Slain (JCS),0,0,4,0,0,0
 155972,Nerubian groups slain,155971,6,0,66065,0,32
 155973,11.0 Delves - Z5 - V1 - Step 2 - Captives Rescued (JCS),0,0,4,0,0,0
-155974,Expedition members rescued,155973,7,0,66066,0,32
+155974,Webbed hostages rescued,155973,7,0,66066,0,32
 155975,11.0 Delves - Z5 - V1 - Step 3 - Boss Slain (JCS),0,0,4,0,0,0
 155976,Boss slain,155975,1,0,66067,0,32
 155977,11.0 Delves - Order of Night - V04 - - Recover Boots of the Light (STM),0,0,4,0,0,0
@@ -91139,8 +91148,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 156249,The First Blow,156244,0,4,0,2,8208
 156250,,156249,0,0,66216,0,0
 156402,Borokhula slain (Timed),32818,1,0,66296,0,0
-156403,11.0 Delves - 13th Delve - V01 - Xev'zikk's Lair (Hufton),0,0,4,0,0,0
-156404,Xev'zikk's Lair,156403,0,0,66298,0,32
+156403,11.0 Delves - Xev'zikk's Lair - Defeat Boss,0,0,4,0,0,0
+156404,Xev'zikk Defeated,156403,1,0,67998,0,2080
 156501,[DNT] Ensemble: Vagabond,154150,1,0,66368,0,0
 156502,[DNT] Ensemble: Wanderer,154150,1,0,66370,2,0
 156503,[DNT] Love Witch,154150,1,0,66369,3,0
@@ -91181,7 +91190,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 156550,11.0 Delves - Nerubians02 - V01 -  - The Dread Pit (Hufton),0,0,4,0,0,0
 156551,The Dread Pit,156550,0,0,66407,0,32
 156552,11.0 Delves - Nerubians02 - V01 - The Dread Pit - Step 1 (Hufton),0,0,4,0,0,0
-156553,Plan discussed with Earthen,156552,0,0,66407,0,32
+156553,Plan discussed with Vant,156552,0,0,66407,0,32
 156554,11.0 Z3 - Max-Level Campaign - Finale Scenario - Step 1- SJC,0,0,4,0,0,32
 156555,South Brazier Lit,156554,1,0,66409,0,0
 156556,10.0 Scenario Test - Stage 0,0,0,4,0,0,0
@@ -91259,7 +91268,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 156630,11.0 Delves - Nerubians02 - V01 - The Dread Pit - Step 2 (AAO),0,0,4,0,0,0
 156631,Loose Memory Gems recovered,157098,3,0,66449,0,32
 156632,11.0 Delves - Nerubians02 - V01 - The Dread Pit - Step 3 (AAO),0,0,4,0,0,0
-156633,Nerubian Lieutenants defeated,156632,2,0,66450,0,32
+156633,Gem Hoarders defeated,156632,3,0,66450,0,32
 156634,11.0 Delves - Nerubians02 - V01 - The Dread Pit - Step 4 (AAO),0,0,4,0,0,0
 156635,Crate of Memgems found,156634,0,0,66451,0,32
 156636,11.0 Delves - Nerubians02 - V01 - The Dread Pit - Step 5 (AAO),0,0,4,0,0,0
@@ -91638,7 +91647,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 157095,11.0 Delves - Evolved - V04 - - Strange Pheromone used (STM),0,0,4,0,0,0
 157096,Strange Pheromone used,157095,0,0,66687,0,32
 157097,Abomination weakened,156654,3,0,66688,1,32
-157098,Recover Memory Gems,156630,90,9,0,0,0
+157098,Recover Memory Gems,156630,100,9,0,0,0
 157099,11.0 Delves - Nerubians02 - V02 (AAO) - Repair kits recovered (STM),0,0,4,0,0,0
 157100,Repair kits recovered,157099,9,0,66689,0,32
 157101,Skardyn Lure used,156638,1,0,66690,1,32
@@ -91793,15 +91802,15 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 157262,Trading Post - Sit in Chairs,0,0,4,0,0,2
 157263,Colorful Beach Chair,157262,1,0,66765,0,1
 157264,Fishing Chair,157262,1,8,0,1,8193
-157265,,157264,100,0,66766,0,1
+157265,,157264,1,0,66766,0,1
 157266,11.0 Z5 - Level Up - Ch 3 - Q04 - SCENARIO - Escape the Burrows - Step 2 - Sub-Boss Attacked (JSS),0,0,4,0,0,8194
 157267,,157266,0,0,66767,0,0
 157268,Kobyss horde defeated,153369,80,9,0,0,0
 157269,11.0 Delves - Z4 - Kobyss - V03 - Shark Warning - (STM),0,0,4,0,0,0
 157270,Repair kits found,157269,1,0,66768,0,32
-157271,Notoriety earned with The Weaver,0,3000,5,0,0,4096
+157271,Notoriety earned in Azj'Kahet,0,1000,5,0,0,4096
 157272,,157271,1,0,66769,0,0
-157273,Notoriety earned with The General,0,3000,5,0,0,4096
+157273,Notoriety earned with The General,0,1000,5,0,0,4096
 157274,,157273,1,0,66770,0,0
 157275,Notoriety earned with The Vizier,0,3000,5,0,0,4096
 157276,,157275,1,0,66771,0,0
@@ -92248,8 +92257,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 157769,Scuffed Titan Orbs repaired,157768,5,0,66910,0,0
 157770,11.0 Z1 - Theater - Scenario - (KEF)/PRK - Gather Costumes (KEF),0,1,4,0,0,0
 157771,Costume Bundles collected,157770,6,0,66912,0,32
-157772,Frogs Kissed,0,100,9,0,0,0
-157773,Frogs Kissed,157772,2,0,66911,0,1
+157772,Kiss Frogs to Find the Maiden!,0,100,4,0,0,0
+157773,Maiden Found,157772,1,0,68029,1,0
 157774,"11.0 Z5 - Level Up - Ch 3 - Q04 - SCENARIO - Step 2 - Boss, Half Health (JSS)",0,0,4,0,0,2
 157775,,157774,1,0,66913,0,0
 157776,11.0 Z5 - Level Up - Ch 3 - Q04 - SCENARIO - Escape the Burrows - Step 4 - Boss Landed (JSS),0,0,4,0,0,8194
@@ -94067,8 +94076,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 161404,,161403,40,0,66823,0,0
 161405,Kill Kobyss with bowblaze,0,0,4,0,0,0
 161406,,161405,100,0,66967,0,1
-161407,Earthen Player Duel,0,8,5,0,0,4096
-161408,,161407,5,0,66968,0,0
+161407,Earthen Player Duel,0,6,5,0,0,4096
+161408,,161407,6,0,66968,0,0
 161409,Earn 1000 honor in Isle of Dorn while in War Mode.,0,0,4,0,0,0
 161410,Earn 1000 honor in Isle of Dorn while in War Mode.,161409,1000,0,66969,0,1
 161411,Earn 1000 honor in The Ringing Deeps while in War Mode.,0,0,4,0,0,0
@@ -94110,7 +94119,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 161447,Sparks of War,161446,5,0,66985,0,0
 161448,Complete Sparks of War quest in the War Within 20 times.,0,0,4,0,0,0
 161449,Sparks of War,161448,20,0,66985,0,0
-161457,,161407,5,0,66986,1,0
+161457,,161407,6,0,66986,1,0
 161458,Complete 3 World Quests in Isle of Dorn,0,3,5,0,0,4096
 161459,,161458,3,0,66987,0,0
 161460,Complete the World PvP achievements listed below.,0,0,4,0,0,0
@@ -94492,7 +94501,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 161890,Deephaul Ravine,1962,0,0,67324,22,0
 161891,11.0 Radiant Chords - Three Shields - Boss,0,0,4,0,0,0
 161894,11.0 Radiant Chords - Three Shields - Boss,0,0,4,0,0,0
-161896,Reach 10 Valdrakken Accord,0,0,4,0,0,4096
+161896,[TEST] Reach 10 Valdrakken Accord [DNT],0,0,4,0,0,4096
 161897,,161896,10,0,67325,0,0
 161898,Deephaul Ravine victories,0,0,4,0,0,0
 161899,Deephaul Ravine victories,161898,0,0,67324,0,0
@@ -94513,7 +94522,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 161917,Keepsakes recovered,161916,5,0,62876,0,32
 161918,11.0 Delves - Kobolds01 - V01 - 8 Memoirs Recovered - (STM),0,0,4,0,0,0
 161919,Keepsakes recovered,161918,8,0,62876,0,32
-161920,World Quests in Khaz Algar completed,0,8,5,0,0,4096
+161920,World Quests in Khaz Algar completed,0,5,5,0,0,4096
 161921,,161920,1,0,67336,0,0
 161923,,161920,1,0,67337,1,0
 161924,,161920,1,0,67338,2,0
@@ -94770,7 +94779,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 162189,,162188,1,0,67500,0,0
 162190,Complete the Nerubar Palace raid on Heroic difficulty or higher,0,0,4,0,0,4096
 162191,,162190,1,0,67501,0,0
-162192,Any Khaz Algar World Boss defeated,0,0,4,0,0,4096
+162192,Any World Boss slain in Khaz Algar,0,0,4,0,0,4096
 162193,,162192,1,0,67502,0,0
 162194,,162192,1,0,67503,1,0
 162195,,162192,1,0,67504,2,0
@@ -94943,7 +94952,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 162372,Achievement - Glory of the Nerub-ar Raider,0,0,4,0,0,0
 162373,,162372,0,0,67619,0,32
 162374,,162372,0,0,67620,1,32
-162375,,162372,0,0,67621,2,0
+162375,,162372,0,0,67621,2,32
 162376,,162372,0,0,67622,3,32
 162377,,162372,0,0,67623,4,32
 162378,,162372,0,0,67624,5,32
@@ -94958,11 +94967,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 162387,,162385,1,0,67628,1,0
 162388,,162385,1,0,67629,2,0
 162389,,162385,1,0,67630,3,0
-162390,Rare Creatures in Khaz Algar slain (NYI),0,4,5,0,0,4096
-162391,,162390,1,0,67631,0,0
-162392,,162390,1,0,67632,1,0
-162393,,162390,1,0,67633,2,0
-162394,,162390,1,0,67634,3,0
+162390,Rare Creatures in Khaz Algar slain,0,4,5,0,0,4096
+162391,,162390,1,0,67703,0,0
 162395,Dynamic Flight Treasures discovered (NYI),0,10,5,0,0,4096
 162396,,162395,1,0,67635,0,0
 162397,,162395,1,0,67636,1,0
@@ -94976,8 +94982,523 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 162405,,162395,1,0,67644,9,0
 162406,,162395,1,0,67645,10,0
 162407,,162395,1,0,67646,11,0
-162408,Rare Creatures in Khaz Algar slain (NYI),0,4,5,0,0,4096
-162409,,162408,1,0,67647,0,0
-162410,,162408,1,0,67648,1,0
-162411,,162408,1,0,67649,2,0
-162412,,162408,1,0,67650,3,0
+162408,Rare Creatures in Khaz Algar slain,0,4,5,0,0,4096
+162409,,162408,1,0,67704,0,0
+162413,11.0 Delves - Kobolds01 - V01 - Grab Totem -  (STM),0,0,4,0,0,0
+162414,Air totem acquired,162413,0,0,62401,0,32
+162415,Statistic - 11.0 Raid - Nerubian - Queen Ansurek - Normal,0,0,4,0,0,0
+162416,,162415,0,0,67651,0,2
+162417,Statistic - 11.0 Raid - Nerubian - Queen Ansurek - LFR,0,0,4,0,0,0
+162418,,162417,0,0,67652,0,2
+162419,Statistic - 11.0 Raid - Nerubian - The Silken Court - Mythic,0,0,4,0,0,0
+162420,,162419,0,0,67562,0,2
+162421,Statistic - 11.0 Raid - Nerubian - The Silken Court - Heroic,0,0,4,0,0,0
+162422,,162421,0,0,67578,0,2
+162423,Statistic - 11.0 Raid - Nerubian - The Silken Court - Normal,0,0,4,0,0,0
+162424,,162423,0,0,67653,0,2
+162425,Statistic - 11.0 Raid - Nerubian - The Silken Court - LFR,0,0,4,0,0,0
+162426,,162425,0,0,67654,0,2
+162427,Statistic - 11.0 Raid - Nerubian - Nexus-Princess Ky'veza - Mythic,0,0,4,0,0,0
+162428,,162427,0,0,67561,0,2
+162429,Statistic - 11.0 Raid - Nerubian - Nexus-Princess Ky'veza - Heroic,0,0,4,0,0,0
+162430,,162429,0,0,67577,0,2
+162431,Statistic - 11.0 Raid - Nerubian - Nexus-Princess Ky'veza - Normal,0,0,4,0,0,0
+162432,,162431,0,0,67655,0,2
+162433,Statistic - 11.0 Raid - Nerubian - Nexus-Princess Ky'veza - LFR,0,0,4,0,0,0
+162434,,162433,0,0,67656,0,2
+162435,Statistic - 11.0 Raid - Nerubian - Eggtender Ovi'nax - Mythic,0,0,4,0,0,0
+162436,,162435,0,0,67560,0,2
+162437,Statistic - 11.0 Raid - Nerubian - Eggtender Ovi'nax - Heroic,0,0,4,0,0,0
+162438,,162437,0,0,67576,0,2
+162439,Statistic - 11.0 Raid - Nerubian - Eggtender Ovi'nax - Normal,0,0,4,0,0,0
+162440,,162439,0,0,67657,0,2
+162441,Statistic - 11.0 Raid - Nerubian - Eggtender Ovi'nax - LFR,0,0,4,0,0,0
+162442,,162441,0,0,67658,0,2
+162443,Statistic - 11.0 Raid - Nerubian - Rasha'nan - Mythic,0,0,4,0,0,0
+162444,,162443,0,0,67559,0,2
+162445,Statistic - 11.0 Raid - Nerubian - Rasha'nan - Heroic,0,0,4,0,0,0
+162446,,162445,0,0,67575,0,2
+162447,Statistic - 11.0 Raid - Nerubian - Rasha'nan - Normal,0,0,4,0,0,0
+162448,,162447,0,0,67659,0,2
+162449,Statistic - 11.0 Raid - Nerubian - Rasha'nan - LFR,0,0,4,0,0,0
+162450,,162449,0,0,67660,0,2
+162451,Statistic - 11.0 Raid - Nerubian - Sikran - Mythic,0,0,4,0,0,0
+162452,,162451,0,0,67557,0,2
+162453,Statistic - 11.0 Raid - Nerubian - Sikran - Heroic,0,0,4,0,0,0
+162454,,162453,0,0,67574,0,2
+162455,Statistic - 11.0 Raid - Nerubian - Sikran - Normal,0,0,4,0,0,0
+162456,,162455,0,0,67661,0,0
+162457,Statistic - 11.0 Raid - Nerubian - Sikran - LFR,0,0,4,0,0,0
+162458,,162457,0,0,67663,0,2
+162459,Statistic - 11.0 Raid - Nerubian - Bloodbound Horror - Mythic,0,0,4,0,0,0
+162460,,162459,0,0,67556,0,2
+162461,Statistic - 11.0 Raid - Nerubian - Bloodbound Horror - Heroic,0,0,4,0,0,0
+162462,,162461,0,0,67573,0,2
+162463,Statistic - 11.0 Raid - Nerubian - Bloodbound Horror - Normal,0,0,4,0,0,0
+162464,,162463,0,0,67664,0,2
+162465,Statistic - 11.0 Raid - Nerubian - Bloodbound Horror - LFR,0,0,4,0,0,0
+162466,,162465,0,0,67665,0,2
+162467,Statistic - 11.0 Raid - Nerubian - Ulgrax - Mythic,0,0,4,0,0,0
+162468,,162467,0,0,67555,0,2
+162469,Statistic - 11.0 Raid - Nerubian - Ulgrax - Heroic,0,0,4,0,0,0
+162470,,162469,0,0,67572,0,2
+162471,Allied Races: Earthen,0,1,8,0,0,0
+162472,,162471,0,0,67725,0,0
+162473,Statistic - 11.0 Raid - Nerubian - Ulgrax - Normal,0,0,4,0,0,0
+162474,,162473,0,0,67666,0,2
+162475,Statistic - 11.0 Raid - Nerubian - Ulgrax - LFR,0,0,4,0,0,0
+162476,,162475,0,0,67667,0,2
+162477,Allied Races: Earthen Unlocked,0,1,8,0,0,0
+162478,Allied Races: Earthen Unlocked,162477,0,0,67725,0,2
+162479,Player logs in as race,162477,0,0,67662,1,2
+162480,Hidden Character achievement earned,162477,0,0,67726,2,2
+162481,Contribute Radiant Remnants to light lesser keyflames and complete the following quests.,0,0,4,0,0,16
+162482,Crab Grab,162481,1,0,67668,8,0
+162483,Lizard Looters,162481,1,0,67669,3,0
+162484,Glow in the Dark,162481,1,0,67670,4,0
+162485,Earthen Unlockable,0,0,4,0,0,0
+162486,Max level campaign complete,162485,0,0,67678,0,0
+162487,Chew On That,162481,1,0,67671,5,0
+162488,Hose It Down,162481,1,0,67672,6,0
+162489,Harvest Havoc,162481,1,0,67673,1,0
+162490,Squashing The Threat,162481,1,0,67674,2,0
+162491,Shadows of Flavor,162481,1,0,67675,7,0
+162492,The Sweet Eclipse,162481,1,0,67676,9,0
+162493,Blossoming Delight,162481,1,0,67677,10,0
+162494,Seeds of Salvation,162481,1,0,67679,11,0
+162495,Tater Trawl,162481,1,0,67680,13,0
+162496,Right Between The Gyros-Optics,162481,1,0,67681,14,0
+162497,Lost in Shadows,162481,1,0,67682,15,0
+162498,Sporadic Growth,162481,1,0,67683,16,0
+162499,Web of Manipulation,162481,1,0,67684,0,0
+162500,Supply The Effort,162481,1,0,67685,12,0
+162501,Earthen Heritage Armor Unlocked,0,0,4,0,0,0
+162502,,162501,0,0,67686,0,2
+162503,Cover Spell,148721,1,0,67687,13,0
+162504,Earthen player is eligible for Heritage Armor,0,1,8,0,0,0
+162505,Earthen player is eligible for Heritage Armor,162504,0,0,67688,0,0
+162506,Earthen player is eligible for Heritage Armor,162504,0,0,67689,1,0
+162507,Earthen player is eligible for Heritage Armor,162504,0,0,67690,2,0
+162510,Complete each of these bonus events found at the larger activated Keyflames.,0,0,4,0,0,0
+162511,Bleak Sand,162510,1,0,67692,0,0
+162512,Waters of War,162510,1,0,67693,1,0
+162513,Lurking Below,162510,1,0,67694,2,0
+162514,The Midnight Sentry,162510,1,0,67695,3,0
+162515,Bog Beast Banishment,162510,1,0,67696,4,0
+162516,Cutting Edge,162510,1,0,67697,5,0
+162517,Glowing Harvest,162510,1,0,67698,6,0
+162518,Contribute 25 Radiant Remnants to any Keyflame.,0,10,5,0,0,8193
+162521,,162518,10,0,67699,0,1
+162524,Contribute 100 Radiant Remnants to any Keyflames.,0,100,5,0,0,3
+162525,Contribute 100 Radiant Remnants to any Keyflame.,162524,100,0,67699,0,1
+162526,Rare Creatures slain in Khaz Algar,0,5,5,0,0,4096
+162527,,162526,1,0,67702,0,0
+162535,,157271,1,0,67717,1,0
+162536,,157271,1,0,67718,2,0
+162537,Notoriety earned in Azj'Kahet,0,1000,5,0,0,4096
+162538,,162537,1,0,67719,0,0
+162539,,162537,1,0,67720,1,0
+162540,,162537,1,0,67721,2,0
+162541,Notoriety earned in Azj'Kahet,0,1000,5,0,0,4096
+162542,,162541,1,0,67722,0,0
+162543,,162541,1,0,67723,1,0
+162544,,162541,1,0,67724,2,0
+162545,Level Up campaign complete,162485,0,0,67727,1,0
+162546,Broken Tools local story complete,162485,0,0,67728,2,0
+162547,Mourning Rise local story complete,162485,0,0,67092,3,0
+162548,Freywold potter local story complete,162485,0,0,67074,4,0
+162549,11.0 Raid - Nerubian - LFR Wing 1,0,0,4,0,0,0
+162550,Ulgrax the Devourer defeated,162549,1,0,67732,0,0
+162551,The Bloodbound Horror defeated,162549,1,0,67733,1,0
+162552,"Sikron, Captain of the Sureki defeated",162549,1,0,67734,2,0
+162553,11.0 Raid - Nerubian - LFR Wing 2,0,0,4,0,0,0
+162554,Rasha'nan defeated,162553,1,0,67735,0,0
+162555,Eggtender Ovi'nax defeated,162553,1,0,67736,1,0
+162556,Nexus-Princess Ky'veza defeated,162553,1,0,67737,2,0
+162557,11.0 Raid - Nerubian - LFR Wing 3,0,0,4,0,0,0
+162558,The Silken Court defeated,162557,1,0,67738,0,0
+162559,Queen Ansurek defeated,162557,1,0,67739,1,0
+162562,Select a Combat Role for Brann Bronzebeard,0,1,4,0,0,4096
+162563,,162562,1,0,67741,0,0
+162564,"Learn flight path in Mereldar, Hallowfall",0,0,4,0,0,4096
+162565,,162564,1,0,67742,0,0
+162568,Now THIS is Dragon Racing! (Hidden Copy),0,0,4,0,0,0
+162569,,162568,1,0,64541,0,32
+162570,,162568,1,0,64542,1,32
+162571,,162568,1,0,64543,2,32
+162572,,162568,1,0,64544,3,32
+162573,,162568,1,0,64545,4,32
+162574,,162568,1,0,64546,5,32
+162575,,162568,1,0,64547,6,32
+162576,,162568,1,0,64548,7,32
+162577,,162568,1,0,64549,8,32
+162578,,162568,1,0,64550,9,32
+162579,,162568,1,0,64551,10,32
+162580,,161359,6,0,67744,3,0
+162581,Isle of Dorn - Bronze,0,0,4,0,0,0
+162582,,162581,1,0,67745,0,48
+162583,Isle of Dorn - Silver,0,0,4,0,0,0
+162584,,162583,1,0,67746,0,48
+162585,,162581,1,0,67747,1,48
+162586,,162581,1,0,67748,2,48
+162587,,162581,1,0,67749,3,48
+162588,,162581,1,0,67750,4,48
+162589,,162581,1,0,67751,5,48
+162590,,162583,1,0,67752,1,48
+162591,,162583,1,0,67753,2,48
+162592,,162583,1,0,67754,3,48
+162593,,162583,1,0,67755,4,48
+162594,,162583,1,0,67756,5,48
+162595,Isle of Dorn - Gold,0,0,4,0,0,0
+162596,,162595,1,0,67757,0,48
+162597,,162595,1,0,67758,1,48
+162598,,162595,1,0,67759,2,48
+162599,,162595,1,0,67760,3,48
+162600,,162595,1,0,67761,4,48
+162601,,162595,1,0,67762,5,48
+162602,Isle of Dorn Advanced - Bronze,0,0,4,0,0,0
+162603,,162602,1,0,67763,0,48
+162604,,162602,1,0,67764,1,48
+162605,,162602,1,0,67765,2,48
+162606,,162602,1,0,67766,3,48
+162607,,162602,1,0,67767,4,48
+162608,,162602,1,0,67768,5,48
+162609,Isle of Dorn Advanced - Silver,0,0,4,0,0,0
+162610,,162609,1,0,67769,0,48
+162611,,162609,1,0,67770,1,48
+162612,,162609,1,0,67771,2,48
+162613,,162609,1,0,67772,3,48
+162614,,162609,1,0,67773,4,48
+162615,,162609,1,0,67774,5,48
+162616,Isle of Dorn Advanced - Gold,0,0,4,0,0,0
+162617,,162616,1,0,67775,0,48
+162618,,162616,1,0,67776,1,48
+162619,,162616,1,0,67777,2,48
+162620,,162616,1,0,67778,3,48
+162621,,162616,1,0,67779,4,48
+162622,,162616,1,0,67780,5,48
+162623,Isle of Dorn Reverse - Bronze,0,0,4,0,0,0
+162624,,162623,1,0,67781,0,48
+162625,,162623,1,0,67782,1,48
+162626,,162623,1,0,67783,2,48
+162627,,162623,1,0,67784,3,48
+162628,,162623,1,0,67785,4,48
+162629,,162623,1,0,67786,5,48
+162630,Isle of Dorn Reverse - Silver,0,0,4,0,0,0
+162631,,162630,1,0,67787,0,48
+162632,,162630,1,0,67788,1,48
+162633,,162630,1,0,67789,2,48
+162634,,162630,1,0,67790,3,48
+162635,,162630,1,0,67791,4,48
+162636,,162630,1,0,67792,5,48
+162637,Isle of Dorn Reverse - Gold,0,0,4,0,0,0
+162638,,162637,1,0,67793,0,48
+162639,,162637,1,0,67794,1,48
+162640,,162637,1,0,67795,2,48
+162641,,162637,1,0,67796,3,48
+162642,,162637,1,0,67797,4,48
+162643,,162637,1,0,67798,5,48
+162644,The Ringing Deeps - Bronze,0,0,4,0,0,0
+162645,,162644,1,0,67799,0,48
+162646,,162644,1,0,67800,1,48
+162647,,162644,1,0,67801,2,48
+162648,,162644,1,0,67802,3,48
+162649,,162644,1,0,67803,4,48
+162650,,162644,1,0,67804,5,48
+162651,The Ringing Deeps - Silver,0,0,4,0,0,0
+162652,,162651,1,0,67805,0,48
+162653,,162651,1,0,67806,1,48
+162654,,162651,1,0,67807,2,48
+162655,,162651,1,0,67808,3,48
+162656,,162651,1,0,67809,4,48
+162657,,162651,1,0,67810,5,48
+162658,The Ringing Deeps - Gold,0,0,4,0,0,0
+162659,,162658,1,0,67811,0,48
+162660,,162658,1,0,67812,1,48
+162661,,162658,1,0,67813,2,48
+162662,,162658,1,0,67814,3,48
+162663,,162658,1,0,67815,4,48
+162664,,162658,1,0,67816,5,48
+162665,The Ringing Deeps Advanced - Bronze,0,0,4,0,0,0
+162666,,162665,1,0,67817,0,48
+162667,,162665,1,0,67818,1,48
+162668,,162665,1,0,67819,2,48
+162669,,162665,1,0,67820,3,48
+162670,,162665,1,0,67821,4,48
+162671,,162665,1,0,67822,5,48
+162672,The Ringing Deeps Advanced - Silver,0,0,4,0,0,0
+162673,,162672,1,0,67823,0,48
+162674,,162672,1,0,67824,1,48
+162675,,162672,1,0,67825,2,48
+162676,,162672,1,0,67826,3,48
+162677,,162672,1,0,67827,4,48
+162678,,162672,1,0,67828,5,48
+162679,The Ringing Deeps Advanced - Gold,0,0,4,0,0,0
+162680,,162679,1,0,67829,0,48
+162681,,162679,1,0,67830,1,48
+162682,,162679,1,0,67831,2,48
+162683,,162679,1,0,67832,3,48
+162684,,162679,1,0,67833,4,48
+162685,,162679,1,0,67834,5,48
+162686,The Ringing Deeps Reverse - Bronze,0,0,4,0,0,0
+162687,,162686,1,0,67835,0,48
+162688,,162686,1,0,67836,1,48
+162689,,162686,1,0,67837,2,48
+162690,,162686,1,0,67838,3,48
+162691,,162686,1,0,67839,4,48
+162692,,162686,1,0,67840,5,48
+162693,The Ringing Deeps Reverse - Silver,0,0,4,0,0,0
+162694,,162693,1,0,67841,0,48
+162695,,162693,1,0,67842,1,48
+162696,,162693,1,0,67843,2,48
+162697,,162693,1,0,67844,3,48
+162698,,162693,1,0,67845,4,48
+162699,,162693,1,0,67846,5,48
+162700,The Ringing Deeps Reverse - Gold,0,0,4,0,0,0
+162701,,162700,1,0,67847,0,48
+162702,,162700,1,0,67848,1,48
+162703,,162700,1,0,67849,2,48
+162704,,162700,1,0,67850,3,48
+162705,,162700,1,0,67851,4,48
+162706,,162700,1,0,67852,5,48
+162707,Hallowfall - Bronze,0,0,4,0,0,0
+162708,,162707,1,0,67853,0,48
+162709,,162707,1,0,67854,1,48
+162710,,162707,1,0,67855,2,48
+162711,,162707,1,0,67856,3,48
+162712,,162707,1,0,67857,4,48
+162713,,162707,1,0,67858,5,48
+162714,Hallowfall - Silver,0,0,4,0,0,0
+162715,,162714,1,0,67859,0,48
+162716,,162714,1,0,67860,1,48
+162717,,162714,1,0,67861,2,48
+162718,,162714,1,0,67862,3,48
+162719,,162714,1,0,67863,4,48
+162720,,162714,1,0,67864,5,48
+162721,Hallowfall - Gold,0,0,4,0,0,0
+162722,,162721,1,0,67865,0,48
+162723,,162721,1,0,67866,1,48
+162724,,162721,1,0,67867,2,48
+162725,,162721,1,0,67868,3,48
+162726,,162721,1,0,67869,4,48
+162727,,162721,1,0,67870,5,48
+162728,Hallowfall Advanced - Bronze,0,0,4,0,0,0
+162729,,162728,1,0,67871,0,48
+162730,,162728,1,0,67872,1,48
+162731,,162728,1,0,67873,2,48
+162732,,162728,1,0,67874,3,48
+162733,,162728,1,0,67875,4,48
+162734,,162728,1,0,67876,5,48
+162735,Hallowfall Advanced - Silver,0,0,4,0,0,0
+162736,,162735,1,0,67877,0,48
+162737,,162735,1,0,67878,1,48
+162738,,162735,1,0,67879,2,48
+162739,,162735,1,0,67880,3,48
+162740,,162735,1,0,67881,4,48
+162741,,162735,1,0,67882,5,48
+162742,Hallowfall Advanced - Gold,0,0,4,0,0,0
+162743,,162742,1,0,67883,0,48
+162744,,162742,1,0,67884,1,48
+162745,,162742,1,0,67885,2,48
+162746,,162742,1,0,67886,3,48
+162747,,162742,1,0,67887,4,48
+162748,,162742,1,0,67888,5,48
+162749,Hallowfall Reverse - Bronze,0,0,4,0,0,0
+162750,,162749,1,0,67889,0,48
+162751,,162749,1,0,67890,1,48
+162752,,162749,1,0,67891,2,48
+162753,,162749,1,0,67892,3,48
+162754,,162749,1,0,67893,4,48
+162755,,162749,1,0,67894,5,48
+162756,Hallowfall Reverse - Silver,0,0,4,0,0,0
+162757,,162756,1,0,67895,0,48
+162758,,162756,1,0,67896,1,48
+162759,,162756,1,0,67897,2,48
+162760,,162756,1,0,67898,3,48
+162761,,162756,1,0,67899,4,48
+162762,,162756,1,0,67900,5,48
+162763,Hallowfall Reverse - Gold,0,0,4,0,0,0
+162764,,162763,1,0,67901,0,48
+162765,,162763,1,0,67902,1,48
+162766,,162763,1,0,67903,2,48
+162767,,162763,1,0,67904,3,48
+162768,,162763,1,0,67905,4,48
+162769,,162763,1,0,67906,5,48
+162770,Azj-Kahet - Bronze,0,0,4,0,0,0
+162771,,162770,1,0,67907,0,48
+162772,,162770,1,0,67908,1,48
+162773,,162770,1,0,67909,2,48
+162774,,162770,1,0,67910,3,48
+162775,,162770,1,0,67911,4,48
+162776,,162770,1,0,67912,5,48
+162777,Azj-Kahet - Silver,0,0,4,0,0,0
+162778,,162777,1,0,67913,0,48
+162779,,162777,1,0,67914,1,48
+162780,,162777,1,0,67915,2,48
+162781,,162777,1,0,67916,3,48
+162782,,162777,1,0,67917,4,48
+162783,,162777,1,0,67918,5,48
+162784,Azj-Kahet - Gold,0,0,4,0,0,0
+162785,,162784,1,0,67919,0,48
+162786,,162784,1,0,67920,1,48
+162787,,162784,1,0,67921,2,48
+162788,,162784,1,0,67922,3,48
+162789,,162784,1,0,67923,4,48
+162790,,162784,1,0,67924,5,48
+162791,Azj-Kahet Advanced - Bronze,0,0,4,0,0,0
+162792,,162791,1,0,67925,0,48
+162793,,162791,1,0,67926,1,48
+162794,,162791,1,0,67927,2,48
+162795,,162791,1,0,67928,3,48
+162796,,162791,1,0,67929,4,48
+162797,,162791,1,0,67930,5,48
+162798,Azj-Kahet Advanced - Silver,0,0,4,0,0,0
+162799,,162798,1,0,67931,0,48
+162800,,162798,1,0,67932,1,48
+162801,,162798,1,0,67933,2,48
+162802,,162798,1,0,67934,3,48
+162803,,162798,1,0,67935,4,48
+162804,,162798,1,0,67936,5,48
+162805,Azj-Kahet Advanced - Gold,0,0,4,0,0,0
+162806,,162805,1,0,67937,0,48
+162807,,162805,1,0,67938,1,48
+162808,,162805,1,0,67939,2,48
+162809,,162805,1,0,67940,3,48
+162810,,162805,1,0,67941,4,48
+162811,,162805,1,0,67942,5,48
+162812,Azj-Kahet Reverse - Bronze,0,0,4,0,0,0
+162813,,162812,1,0,67943,0,48
+162814,,162812,1,0,67944,1,48
+162815,,162812,1,0,67945,2,48
+162816,,162812,1,0,67946,3,48
+162817,,162812,1,0,67947,4,48
+162818,,162812,1,0,67948,5,48
+162819,Azj-Kahet Reverse - Silver,0,0,4,0,0,0
+162820,,162819,1,0,67949,0,48
+162821,,162819,1,0,67950,1,48
+162822,,162819,1,0,67951,2,48
+162823,,162819,1,0,67952,3,48
+162824,,162819,1,0,67953,4,48
+162825,,162819,1,0,67954,5,48
+162826,Azj-Kahet Reverse - Gold,0,0,4,0,0,0
+162827,,162826,1,0,67955,0,48
+162828,,162826,1,0,67956,1,48
+162829,,162826,1,0,67957,2,48
+162830,,162826,1,0,67958,3,48
+162831,,162826,1,0,67959,4,48
+162832,,162826,1,0,67960,5,48
+162833,[DNT] Noodle Time tutorial - Bonus objective (timer),0,0,4,0,0,0
+162834,Seat and serve as many customers as you can in 5 minutes,162833,1,0,67961,0,0
+162835,Khaz Algar Completionist,0,0,4,0,0,0
+162836,,162835,1,0,67962,0,32
+162837,,162835,1,0,67963,1,32
+162838,,162835,1,0,67964,2,32
+162839,,162835,1,0,67965,3,32
+162840,,162835,1,0,67966,4,32
+162841,,162835,1,0,67967,5,32
+162842,,162835,1,0,67968,6,32
+162843,,162835,1,0,67969,7,32
+162844,,162835,1,0,67970,8,32
+162845,,162835,1,0,67971,9,32
+162846,,162835,1,0,67972,10,32
+162847,,162835,1,0,67973,11,32
+162848,Khaz Algar Completionist Silver,0,0,4,0,0,0
+162849,,162848,1,0,67974,0,32
+162850,,162848,1,0,67975,1,32
+162851,,162848,1,0,67976,2,32
+162852,,162848,1,0,67977,3,32
+162853,,162848,1,0,67978,4,32
+162854,,162848,1,0,67979,5,32
+162855,,162848,1,0,67980,6,32
+162856,,162848,1,0,67981,7,32
+162857,,162848,1,0,67982,8,32
+162858,,162848,1,0,67983,9,32
+162859,,162848,1,0,67984,10,32
+162860,,162848,1,0,67985,11,32
+162861,Khaz Algar Completionist Gold,0,0,4,0,0,0
+162862,,162861,1,0,67986,0,32
+162863,,162861,1,0,67987,1,32
+162864,,162861,1,0,67988,2,32
+162865,,162861,1,0,67989,3,32
+162866,,162861,1,0,67990,4,32
+162867,,162861,1,0,67991,5,32
+162868,,162861,1,0,67992,6,32
+162869,,162861,1,0,67993,7,32
+162870,,162861,1,0,67994,8,32
+162871,,162861,1,0,67995,9,32
+162872,,162861,1,0,67996,10,32
+162873,,162861,1,0,67997,11,32
+162874,11.0 Raid - Nerubian - Boss - Experiments - Achievement - JRN,0,0,4,0,0,0
+162875,Prove your /love to a Disheartened Worm.,162874,1,0,67999,0,0
+162888,Complete the following quests involving the Hillhelm Stead family farm.,0,0,4,0,0,16
+162889,Keep the Home Fires Burning,162888,1,0,68006,3,0
+162890,Eggs in One Basket,162888,1,0,68007,4,0
+162891,Lily's Locket,162888,1,0,68008,5,0
+162892,,162888,1,0,68009,6,0
+162893,The Ear,162888,1,0,68010,7,0
+162894,The Plowhead,162888,1,0,68011,8,0
+162895,Lil Piggy,162888,1,0,68012,9,0
+162896,Unusual Potato,162888,1,0,68013,10,0
+162897,The Chicken,162888,1,0,68014,11,0
+162898,Uncle's Eye,162888,1,0,68015,12,0
+162899,Seeds of Evil,162888,1,0,68016,0,0
+162900,Follow Miral,162888,1,0,68017,1,0
+162901,Save Tomothy,162888,1,0,68018,2,0
+162902,11.0 Dungeon - Priory of the Sacred Flame (Normal),0,0,4,0,0,0
+162903,Captain Dailcry defeated,162902,1,0,68019,0,0
+162904,Baron Braunpyke defeated,162902,1,0,68020,1,0
+162905,Prioress Murrpray defeated,162902,1,0,68021,2,0
+162906,11.0 Dungeon - Priory of the Sacred Flame (Heroic),0,0,4,0,0,0
+162907,Captain Dailcry defeated,162906,1,0,68019,0,0
+162908,Baron Braunpyke defeated,162906,1,0,68020,1,0
+162909,Prioress Murrpray defeated,162906,1,0,68021,2,0
+162910,11.0 Dungeon - Priory of the Sacred Flame (Mythic),0,0,4,0,0,0
+162911,Captain Dailcry defeated,162910,1,0,68019,0,0
+162912,Baron Braunpyke defeated,162910,1,0,68020,1,0
+162913,Prioress Murrpray defeated,162910,1,0,68021,2,0
+162914,11.0 Delves - Kobyss01 - V01 - The Sinkhole - Rescue Arathor 2/8 - (STM),0,0,4,0,0,0
+162915,Arathi rescued,162914,2,0,66466,0,0
+162916,11.0 Delves - Kobyss01 - V01 - The Sinkhole - Rescue Arathor 5/8 - (STM),0,0,4,0,0,0
+162917,Arathi rescued,162916,5,0,66466,0,0
+162918,11.0 Delves - Kobyss01 - V01 - The Sinkhole - Destroy Clones 5/12 - (STM),0,0,4,0,0,0
+162919,Illusory clones destroyed,162918,5,0,66468,0,0
+162920,11.0 Delves - Kobyss01 - V01 - The Sinkhole - Destroy Clones 10/12 - (STM),0,0,4,0,0,0
+162921,Illusory clones destroyed,162920,10,0,66468,0,0
+162922,Defeat the Goldie Barronbottom,0,0,4,0,0,0
+162923,,162922,1,0,66132,0,2
+162924,Defeat the Goldie Barronbottom (Heroic+),0,0,4,0,0,0
+162925,,162924,1,0,68022,0,2
+162926,Defeat the Goldie Barronbottom Mythic),0,0,4,0,0,0
+162927,,162926,1,0,68023,0,2
+162928,Defeat Ki'katal the Harvester,0,0,4,0,0,0
+162929,,162928,1,0,65451,0,2
+162930,Defeat Ki'katal the Harvester (Heroic+),0,0,4,0,0,0
+162931,,162930,1,0,68024,0,2
+162932,Defeat Ki'katal the Harvester (Mythic),0,0,4,0,0,0
+162933,,162932,1,0,66699,0,2
+162934,"Defeat the Izo, the Grand Splicer",0,0,4,0,0,0
+162935,,162934,1,0,67035,0,2
+162936,"Defeat the Izo, the Grand Splicer (Heroic+)",0,0,4,0,0,0
+162937,,162936,1,0,68025,0,2
+162938,"Defeat the Izo, the Grand Splicer (Mythic)",0,0,4,0,0,0
+162939,,162938,1,0,68026,0,2
+162942,,147875,1,0,68027,0,1
+162943,Thorim Defeated Event Received,0,0,4,0,0,0
+162944,Defeat Thorim!,162943,0,0,68028,0,0
+162945,Frogs Kissed,157772,100,9,0,0,0
+162946,,162945,2,0,66911,0,1
+162958,Complete 3 World Quests in Isle of Dorn,0,3,5,0,0,4096
+162959,,162958,3,0,68034,0,0
+162960,Complete 3 World Quests in Isle of Dorn,0,3,5,0,0,4096
+162961,,162960,3,0,68035,0,0
+162962,,155669,0,0,68036,0,0
+162963,,155670,0,0,68037,0,0
+162964,,155671,0,0,68038,0,0
+162965,,155672,0,0,68039,0,0
+162966,,155677,0,0,68040,0,0
+162967,,155673,0,0,68041,0,0
+162968,,155674,0,0,68042,0,0
+162969,,155675,0,0,68043,0,0
+162970,,155676,0,0,68044,0,0
+162971,High Seas Scenario - Bonus Objectives (Horde),0,0,4,0,0,0
+162972,Defeat Admiral Hodgson (Timed),162971,1,0,68046,0,0
