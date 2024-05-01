@@ -14,7 +14,7 @@ ID,DisplayName_lang,DisplayNameShort_lang,Flags,RangeMin[0],RangeMin[1],RangeMax
 13,Anywhere - Unlimited,Anywhere - Unlimited,0,0,0,50000,50000
 14,Extra Long Range,Extra Long,0,0,0,60,60
 34,Twenty-Five yards,Medium-Short,0,0,0,25,25
-35,Medium-Long Range,Medium-Long,0,0,0,35,35
+35,Medium-Long,Medium-Long,0,0,0,35,35
 36,Longer Range,Longer,0,0,0,45,45
 37,Extended Range,Extended,0,0,0,50,50
 38,"Min-Range 10, 25",Extra Medium,0,10,10,25,25
@@ -27,12 +27,12 @@ ID,DisplayName_lang,DisplayNameShort_lang,Flags,RangeMin[0],RangeMin[1],RangeMax
 134,Tower 80,Tower,0,0,0,80,80
 135,Tower 100,Tower,0,0,0,100,100
 136,Thirty-to-80,Thirty-to-80,0,30,30,80,80
-137,Eight yards,Very Short,0,0,0,8,8
+137,Eight yards,Shorter,0,0,0,8,8
 138,Long Range Hunter Shoot,Hunter Long,0,5,5,45,45
 139,Long Range Hunter Shoot,Hunter Long,0,5,5,45,45
 140,Six yards,Six yards,0,0,0,6,6
 141,Seven yards,Seven yards,0,0,0,7,7
-150,Valgarde 8/100,Valgarde,0,8,8,100,100
+150,Quest - Valgarde 8/100,Quest - Valgarde,0,8,8,100,100
 151,Long Range Hunter Shoot,Hunter 45,0,5,5,45,45
 152,Super Long,Super Long,0,0,0,150,150
 153,"Charge, 60",Huge Charge,0,0,0,60,60
@@ -49,19 +49,40 @@ ID,DisplayName_lang,DisplayNameShort_lang,Flags,RangeMin[0],RangeMin[1],RangeMax
 164,Catapult Range,Catapult,0,10,10,70,70
 165,Fourteen yards,Shorter,0,0,0,14,14
 166,Thirteen yards,Shorter,0,0,0,13,13
-167,Super Long (Min Range),Super Long,0,40,0,150,150
+167,"Min Range 70, 150",70-150,0,70,70,150,150
 168,Medium-Long Range (38),Medium-Long,0,0,0,38,38
 169,Three Yards,Three Yards,0,0,0,3,3
 170,Fifty Five Yards,Extended,0,0,0,55,55
 171,"Min Range 1, 10",Very Short,0,1,1,10,10
 172,Eleven yards,Shorter,0,0,0,11,11
 173,Anywhere (Combat Min Range),Hunter Long,0,5,5,50000,50000
-174,U L T R A,U L T R A,0,0,0,1000,1000
+174,One Thousand Yards,1000 Yards,0,0,0,1000,1000
 176,Seventy yards,Extended,0,0,0,70,70
 177,Donut 20-70,Donut 20-70,0,20,20,70,70
+178,Forty-to-80,Forty-to-80,0,40,40,80,80
 179,"Min Range 5, 15",Shorter,0,5,5,15,15
 180,Tournament - Ranged,Argent Tournament - Ranged,0,5,5,25,25
 181,Two-Hundred Yard Range,200,0,0,0,200,200
+182,Fifty-to-100,Fifty-to-100,0,50,50,100,100
 184,"Min Range 5, 25",Medium,0,5,5,25,25
+186,Nine yards,Very Short,0,0,0,9,9
 187,Three Hundred Yards,300,0,0,0,300,300
+188,"Min Range 5, 60",Five-to-60,0,5,5,60,60
+190,"Min Range, 20, 40",Long,0,20,20,40,40
+191,Fifty-Seven Yards,Fifty-Seven Yards,0,0,0,57,57
+192,20-to-100,20-to-100,0,20,20,100,100
+193,"Tower 80, 5",Tower 5,0,5,5,80,80
+195,Long Range +1,Long +1,0,0,0,41,41
+196,10-to-100,10-to-100,0,10,10,100,100
+197,Long Range (Hunter),Long,2,0,0,40,40
+198,Twenty Yards,Hunter (Short),0,5,5,20,20
+199,Three-hundred (Min 100),300 (Min 100),0,100,100,300,300
+200,70-to-90,70-to-90,0,70,70,90,90
+201,Thirty-to-50,Thirty-to-50,0,30,30,50,50
+202,"10-40 Hostile, 0-40 Friendly","10-40 Hostile, 0-40 Friendly",0,10,0,40,40
+203,"Min Range 5, 10",Shorter,0,5,5,10,10
+204,Fifteen-to-Fifty,Long,0,15,15,50,50
+205,Thirty-Two Yards,Medium,0,0,0,32,32
+214,10-to-300,10-to-100,0,10,10,300,300
+244,Melee Anywhere,Melee Anywhere,1,0,0,50000,50000
 504,One Hundred Yards,100,0,0,0,100,100
