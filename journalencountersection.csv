@@ -2863,7 +2863,7 @@ In addition, Carbonation causes Fizzy Bubbles to spawn.",670,11,5598,5657,5658,2
 5659,Sudsy,The sudsy nature of Yan-Zhu grants players the ability to jump extra high.,670,14,5658,0,0,2,0,0,0,236171,2,0,3
 5660,Strafing Run,"When Striker Ga'dok reaches 70% and 30% remaining health, he strafes the platform with fire bombs. The resulting flames inflict $116297s1 Fire damage every $116298t1 sec. to enemies caught within it.",675,3,0,0,5662,2,0,0,0,135826,0,32,-1
 5662,Krik'thik Disruptor,These flying Mantid continuously bombard the platform with Acid Bombs.,675,4,0,5663,5664,1,43278,0,0,0,0,0,-1
-5663,Acid Bomb,"Mantid Disruptors periodically bombard the location of a random player with an acid bomb,  inflicting $115458s1 Nature damage every $115457t1 sec. to players standing within the $115458A1 yard radius impact area.",675,5,5662,0,0,2,0,0,0,136016,1,0,-1
+5663,Acid Bomb,"Mantid Disruptors periodically bombard the location of a random player with an acid bomb, inflicting $115458s1 Nature damage every $115457t1 sec. to players standing within the $115458A1 yard radius impact area.",675,5,5662,0,0,2,0,0,0,136016,1,0,-1
 5664,Krik'thik Striker,Mantid Strikers attack players on the platform during Striker Ga'dok's strafe runs.,675,6,0,0,0,1,43278,0,0,0,0,0,-1
 5666,Viscous Fluid,Commander Ri'mok periodically exudes a $107091A1 yard radius area of viscous fluid at his location. Contact with the fluid increases Ri'mok's damage by $107091s1% and reduces damage dealt by players standing in it by $107122s1% every $107088t1 sec. This effect stacks five times.,676,1,0,0,5667,2,0,0,0,132104,0,32,-1
 5667,Frenzied Assault,"Ri'mok unleashes a Frenzied Assault, inflicting $107121s1% of his normal melee damage to all targets in a $107121a1 yard long and 90 degree wide cone every $107120t1 seconds for $107120d.",676,2,0,0,5668,2,0,0,0,377283,0,1,-1
@@ -2921,10 +2921,10 @@ In 25 player raids, Gara'jal chooses 3 other players from the raid to turn into 
 $[!3,4 In Normal Difficulty the Severer of Souls is only visible to the banished victim.$]
 $[!5,6 In Heroic Difficulty, three Severers of Souls attack. One of these Severers of Souls is only visible to the banished victim. The other two are visible to the raid.$]",682,14,0,5757,6698,2,0,0,0,132886,0,1,-1
 5757,Severer of Souls,Severers of Souls attempt to tear apart the soul of Banished victims.,682,15,5756,5758,0,1,71754,0,0,0,1,0,-1
-5758,Soul Sever,"If players do not defeat every Severer of Souls within $116278t1 sec., the Banished victim dies.",682,16,5757,0,6209,2,0,0,0,537079,0,0,-1
+5758,Soul Sever,"If players do not defeat every Severer of Souls within $116278d, the Banished victim dies.",682,16,5757,0,0,2,0,0,0,537079,2,0,15
 5759,Frenzy,"Gara'jal the Spiritbinder Frenzies when he reaches 20% remaining health, gaining $117752m1% melee haste and inflicting $117752m2% additional damage.
 
-Gara'jal the Spiritbinder also stops summoning Spirit Totems.",682,19,0,0,6813,2,0,0,0,132117,0,0,-1
+Gara'jal the Spiritbinder also stops summoning Spirit Totems.",682,18,0,0,6813,2,0,0,0,132117,0,0,-1
 5760,Frail Soul,Returning to the real world from the Spirit World inflicts players with a Frail Soul for $117723d. Attempting to cross into the Spirit World with a Frail Soul kills the player.,682,6,5743,0,0,2,0,0,0,236226,2,24,12
 5761,Living Amethyst,$116322u charges of the energy that animates the Amethyst Guardian tear though your body. Each charge inflicts $116322s1 Shadow damage every $116322t1 sec. Players drain the energy charges into white floor tiles to energize them.,679,25,5696,0,0,2,0,0,0,425951,2,0,12
 5762,Living Cobalt Crystal,The energy that powers the Cobalt Guardian forms into a crystal. Players who interact with this crystal gain the Living Cobalt effect.,679,26,5694,5763,5764,0,0,0,0,0,2,0,12
@@ -3313,7 +3313,7 @@ In addition, whenever a member of Gekkan's entourage dies, Gekkan will cast Reck
 
 In Heroic Difficulty, the Energy Vortex prevents targeting into or out of the Energy Vortex.$]",726,1,0,6172,6174,0,0,0,0,0,1,32,-1
 6172,Touch of the Titans,"Contact with the Energy Vortex transforms the target into celestial form, increasing all damage done by $117870s1% and healing received by $117870s2%.",726,2,6171,0,6173,2,0,0,0,254117,0,0,-1
-6173,Overcharged,"The Energy Vortex periodically inflicts players with Overcharge, causing them to take $117878s1% additional damage. This effect stacks.",726,3,6171,0,0,2,0,0,0,237587,0,0,-1
+6173,Overcharged,"The Energy Vortex periodically inflicts players with Overcharge, causing them to take $117878s1% additional damage. This effect stacks.",726,3,6171,0,0,2,0,0,0,237587,2,0,15
 6174,Stage One: Entering Defensive Mode,"Elegon activates the Energy Vortex, attacking with Celestial Breath and calling for Celestial Protectors to help defend the Engine of Nalak'sha.
 
 Stage One ends at 85% and 50% remaining health.",726,4,0,6184,6175,0,0,0,0,0,1,0,-1
@@ -3368,7 +3368,6 @@ In 25 player Heroic Difficulty, Total Annihilation will trigger Catastrophic Ano
 Jumping counteracts this effect and if the target breaks free they become Invigorated, increasing casting and movement speeds by $121449s1% for $121449d.",727,3,0,0,6297,2,0,0,0,451169,0,32,-1
 6206,Cross Over,Spirit Totems cause the nearest $116166I players within $116166A1 yards to cross over to the spirit world when they are destroyed. The process of Crossing Over leaves the victim with $116161m1% of their current health.,682,2,5742,0,6207,2,0,0,0,132886,2,0,15
 6207,Cross Over,Players use Spirit Totems to cross over into the spirit world. Players exist in the spirit world for $116260d before returning to the real world and gain the ability Return Soul.,682,3,5742,6655,5743,2,0,0,0,132886,2,0,16
-6209,Soul Explosion,The Severer of Souls' immense spiritual energy explodes outward at a random player in the real world. The Soul Explosion inflicts $120637s1 Shadow Damage to the target and all players within $120637A yards of them.,682,17,5757,0,0,2,0,0,0,136201,2,8,0
 6214,Sapling,Saplings heal Warp Splinter if they reach him.,562,4,5478,0,0,1,9590,0,0,0,0,0,-1
 6216,Cleave,"Blood Guard Porung cleaves, inflicting Physical damage to a player and their closest allies.",728,1,0,0,6662,2,0,0,0,132338,3,0,2
 6217,Vengeful Phantom,The Unforgiven is accompanied by four Vengeful Phantoms.,450,2,0,6463,0,1,146,0,0,0,1,1,-1
@@ -3686,7 +3685,7 @@ In 25 Player raids, Shek'zeer emits Sha Energy at five random players.$]",743,24
 6555,Recklessness,"When Wind Lord Mel'jarak sees a group of his warriors fall in battle, he becomes reckless for $125873d. This increases his damage dealt by $125873s1% and his damage taken by $125873s2%.",741,7,0,0,6299,2,0,0,0,132352,2,8,12
 6562,Shared Abilities,All four guardians have access to these abilities.,679,17,0,5785,5694,0,0,0,0,0,1,8,-1
 6563,Power Down,"When the guardians reach 75% and 40% remaining health, one of them will power down all Energized Tiles in the room to prevent players from using the energy.",679,20,6562,0,0,2,0,0,0,133018,3,8,12
-6564,Catastrophic Anomaly,"With no targets to absorb the excess energy of Total Annihilation, the Engine of Nalak'sha explodes, inflicting $127341s1 Arcane damage to the entire raid.",726,15,6186,0,0,2,0,0,0,465875,2,16,12
+6564,Catastrophic Anomaly,"With no targets to absorb the excess energy of Total Annihilation, the Engine of Nalak'sha explodes, inflicting $127341s1 Arcane damage to the entire raid.",726,15,6186,0,0,2,0,0,0,465875,2,24,12
 6565,Grasping Energy Tendrils,"With no targets in melee range, Elegon grabs and pulls all enemies to him, inflicting $127362s2 Arcane damage.",726,16,6174,0,6192,2,0,0,0,537022,0,0,-1
 6566,Echoes of Power,"In Heroic difficulty, Imperial Vizier Zor'lok will leave copies of himself behind at the first two platforms he visits. During stage two of the encounter he will randomly summon Echoes of Power to aid him in battle.
 Echoes of Power inherit one of Imperial Vizier Zor'lok's abilities and will continue to use that power until they are defeated.",745,15,0,6568,0,0,0,0,0,0,2,8,12
@@ -3697,13 +3696,13 @@ Echoes of Power inherit one of Imperial Vizier Zor'lok's abilities and will cont
 6575,Heroic Leap,"Armsmaster Harlan leaps into the center of his chamber, inflicting 100% weapon damage as Physical damage to all enemies within $111218A1 yards of the impact point. Armsmaster Harlan immediately begins casting Blades of Light after using this ability.",654,1,0,5376,5377,2,0,0,0,132326,0,0,-1
 6576,Blade Tempest,"Blade Lord Ta'yak rapidly spins his blade, pulling all enemies towards himself and inflicting $125312s1 Physical damage every $125310t1 sec.",744,6,0,0,6350,2,0,0,0,132369,2,8,12
 6577,Song of the Empress,Whenever Imperial Vizier Zor'lok finishes a transition he will raise his voice in praise to the empress. Failing to engage Imperial Vizier Zor'lok in melee combat will result in him inflicting Physical damage to all players in the zone until they die. Engaging Imperial Vizier Zor'lok in melee combat will end this effect.,745,14,0,0,6566,0,0,0,0,0,0,16,-1
-6578,Song of the Empress,Any echoes that Imperial Vizier Zor'lok has summoned will use the Song of the Empress any time they are not actively using one of their abilities and they are not engaged in melee combat. As with Imperial Vizier Zor'lok engaging the echoes in melee combat will end this effect.,745,18,6566,0,0,0,0,0,0,0,2,8,12
+6578,Song of the Empress,Any echoes that Imperial Vizier Zor'lok has summoned will use the Song of the Empress any time they are not actively using one of their abilities and they are not engaged in melee combat. As with Imperial Vizier Zor'lok engaging the echoes in melee combat will end this effect.,745,18,6566,0,0,0,0,0,0,0,2,0,12
 6579,Exhale,"Imperial Vizier Zor'lok selects a random player and screams at them, inflicting Physical damage for $122761d. The first player between Imperial Vizier Zor'lok and the initial target suffers additional Physical damage every $122761t1 seconds.",745,3,0,0,6428,2,0,0,0,136184,2,0,16
 6581,Gathering Speed,"The Dread Spawn periodically gains $128419s1% movement speed. This effect can stack up to $128419u times, but is reset when a new Champion of the Light is chosen.",709,31,6107,0,0,2,0,0,0,135788,2,0,12
 6625,Lightning Fists,"Feng slams a lightning-charged fist into the ground, inflicting $116295s3 Nature damage and causing three shockwaves to pulse in front of him. The shockwave inflicts $116374s1 Nature damage and stuns those caught in its path.",689,7,5874,0,5876,2,0,0,0,237587,2,8,12
 6633,Sha Globe,"Globes of Sha energy are knocked out of the possessed crossbowman as he loses health. Touching a globe will consume it, inflicting $129189s1 Shadow damage but refilling the player's primary resource over time. If not consumed within $129178s1 sec the globe will return to the bowman, healing him for $129190s1% of his maximum health.",709,16,6089,0,6101,2,0,0,0,348536,0,0,-1
 6634,Brew Bolt,"Yeasty Brew Alementals can cast a less powerful version of Brew Bolt, inflicting $116155s1 Frost damage.",670,9,5654,0,0,2,0,0,0,623961,2,0,3
-6638,Lei's Hope,The light in the terrace seems to glow more brightly after players force the Sha to retreat to the Dread Expanse. Attack and casting speeds are increased by $129368s1% within the Terrace of Endless Spring on subsequent attempts.,709,11,6086,0,0,2,0,0,0,627684,2,0,12
+6638,Lei's Hope,The light in the terrace seems to glow more brightly after players force the Sha to retreat to the Dread Expanse. Attack and casting speeds are increased by $129368s1% within the Terrace of Endless Spring on subsequent attempts.,709,11,6086,0,0,2,0,0,0,627684,2,8,12
 6639,Fading Light,"The last glimmers of light from the terrace heal players as they are extinguished, restoring $129378o1% health and mana over $129378d. In addition, all player cooldowns are reset.",709,19,6090,0,6110,2,0,0,0,135948,2,0,12
 6648,Monk,,190,62,2716,6649,0,0,0,0,0,0,2,0,14
 6649,Rising Sun Kick,"Malacrass kicks upwards, dealing $127734s1% of his normal melee attack as damage, and increasing damage taken by his target by $127734s2% for $127734d.",190,63,6648,0,6650,2,0,0,0,458974,2,0,14
@@ -3735,25 +3734,25 @@ An active Wind Bomb persists for the duration of the encounter or until it deton
 - Right Cross
 - Left Hook
 
-These attacks inflict Shadow damage to the target and bypass any absorption effects.",682,18,0,0,5759,0,0,0,0,0,0,0,-1
+These attacks inflict Shadow damage to the target and bypass any absorption effects.",682,17,0,0,5759,0,0,0,0,0,0,0,-1
 6699,Thrash,The Sha strikes $131996s1 times on every fourth attack.,709,4,6086,0,6093,2,0,0,0,651090,0,1,-1
 6700,Dread Thrash,The Sha strikes $132007s1 times on every fourth Thrash.,709,22,6090,0,6102,2,0,0,0,425957,2,33,12
 6714,Kings' Procession,"The Spirit Kings animate in sequence, with one King attacking the players until defeated, at which time another King enters the fray. Defeated Kings become entirely incorporeal, but continue to bring one of their powerful abilities to bear periodically.$[!5,6
 
 On Heroic difficulty, each Spirit King animates and joins the battle when its predecessor is brought below 30% of maximum health.$]",687,1,0,0,5841,0,0,0,0,0,1,0,-1
-6715,Destabilizing Energies,"Exposure to Total Annihilation causes lasting negative effects, stuns the enemy and inflicts $132222s1 Arcane damage every $132222t1 seconds until the target is healed to 80% of max health.",726,13,6186,6716,6564,2,0,0,0,610472,2,20,12
-6716,Destabilized,"When struck by Total Annihilation, powerful waves of energy course through the victim, rendering them more susceptible to the harmful effects of Total Annihilation. Players instantly die if Total Annihilation inflicts additional damage to them.",726,14,6715,0,0,2,0,0,0,538565,2,16,12
+6715,Destabilizing Energies,"Exposure to Total Annihilation causes lasting negative effects, stuns the enemy and inflicts $132222s1 Arcane damage every $132222t1 seconds until the target is healed to 80% of max health.",726,13,6186,6716,6564,2,0,0,0,610472,2,28,12
+6716,Destabilized,"When struck by Total Annihilation, powerful waves of energy course through the victim, rendering them more susceptible to the harmful effects of Total Annihilation. Players instantly die if Total Annihilation inflicts additional damage to them.",726,14,6715,0,0,2,0,0,0,538565,2,24,12
 6717,Linked Focuses,An Empyreal Focus will not deactivate until both it and the linked focus are brought to zero health.,726,27,6193,0,0,2,0,0,0,135734,2,0,15
 6718,Nullification Barrier,"Players with this Stolen Essence of Stone may channel a Nullification Barrier around themselves for $115817d. The Barrier negates any harmful magical effects cast on players standing inside the Barrier.
 
-The barrier will also nullify harmful effects in the world such as Wildfire, Shadow Shields or Images, and Lightning Charge.",689,24,5881,0,5883,2,0,0,0,136116,2,1,12
+The barrier will also nullify harmful effects in the world such as Wildfire, Shadow Shields or Images, and Lightning Charge.",689,24,5881,0,5883,2,0,0,0,136116,2,9,12
 6719,Amassing Darkness,"Grand Empress Shek'zeer weaves shadows at a random player, inflicting $124844s1 Shadow damage. This effect will hit an additional enemy every 2 seconds, until it is eventually hitting all enemy players.",743,27,6341,0,6720,2,0,0,0,136202,2,0,26
 6720,Amassing Darkness,"Grand Empress Shek'zeer weaves shadows at a random player, inflicting $124844s1 Shadow damage. This effect will hit an additional enemy every 6 seconds, until it is eventually hitting all enemy players.",743,28,6341,0,6488,2,0,0,0,136202,2,0,5
 6781,Visions of Demise,"The Empress inflicts on five random players a vision of their own demise. The vision reveals itself to the player after $124862d., causing them to suffer in fear and inflict $124868s1 Shadow damage every $124863t2 sec. to all players within $124868A1 yards for $124863d.",743,30,6341,0,6489,2,0,0,0,237298,2,128,26
 6797,Convert,"Imperial Vizier Zor'lok uses the pure voice of the Empress to sway the allegiance of three players at random, causing them to fight for the Mantid Empire. Convert lasts until the victim reaches 50% health.",745,11,6428,0,0,2,0,0,0,0,2,2,16
 6812,Berserker Rage,"When Armsmaster Harlan reaches 50% remaining health, he enters a Berserker Rage.  Every $111221t1 seconds thereafter, Armsmaster Harlan's damage increases by ${$111220m1*2}%.",654,8,0,0,0,0,0,0,0,0,0,2048,-1
-6813,Final Destination,After 6 minutes Gara'jal goes berserk and casts the spell Final Desination.  Final Destination instantly kills all players.,682,20,0,0,6814,2,0,0,0,237557,2,32,15
-6814,Final Destination,After 15 minutes Gara'jal goes berserk and casts the spell Final Desination.  Final Destination instantly kills all players.,682,21,0,0,0,2,0,0,0,237557,2,32,16
+6813,Final Destination,After 6 minutes Gara'jal goes berserk and casts the spell Final Desination. Final Destination instantly kills all players.,682,19,0,0,6814,2,0,0,0,237557,2,32,15
+6814,Final Destination,After 15 minutes Gara'jal goes berserk and casts the spell Final Desination. Final Destination instantly kills all players.,682,20,0,0,0,2,0,0,0,237557,2,32,16
 6860,Arc Nova,A pulse of electric energy inflicts $136338s1 Nature damage to players within $136338A1 yards and knocks them back.,814,1,0,0,6861,2,0,0,0,136116,0,16,-1
 6861,Lightning Tether,"Nalak tethers several players to him, inflicting $136353s1 Nature damage every $136339t1 sec. and an additional $136349s1 Nature damage if they are greater than 30 yards from Nalak.  Lasts $136339d.",814,2,0,0,6862,2,0,0,0,136050,0,32,-1
 6862,Static Shield,Jolts of power surrounding Nalak inflict $136343s1 Nature damage every $136341t1 sec. to a random player.,814,3,0,0,6863,2,0,0,0,136051,0,0,-1
@@ -3808,9 +3807,9 @@ $[!5,6 In Heroic Difficulty, if players fail to complete the Light Spectrum sequ
 6901,Eye Sore,Eye Sores inflict $134755s1 Arcane damage to victims within their area of effect every second.,818,7,6883,0,0,2,0,0,0,135728,0,0,-1
 6902,Stern Eye,"Stern Eyes are created as part of the Cross-Eye's maze pattern around the circumference of Durumu's platform. Stern Eyes gaze directly back at Durumu and will focus on players inside the inverted thirty-degree cone area in front of them. The cone is widest at the edge of the platform and tapers off to a point at Durumu's location in the center of the platform.
 
-The closest players inside this area will be victim to Stern Gaze.",818,8,6882,6903,7858,1,47498,0,0,0,2,8,0
-6903,Stern Gaze,Stern Eyes inflict Arcane damage to the closest 5 players based on how far they are from the Stern Eye.,818,9,6902,0,6904,2,0,0,0,237299,2,0,0
-6904,Stern Gaze,Stern Eyes inflict Arcane damage to the closest 2 players based on how far they are from the Stern Eye.,818,10,6902,0,0,2,0,0,0,237299,2,0,0
+The closest players inside this area will be victim to Stern Gaze.",818,8,6882,6903,7858,1,47498,0,0,0,2,8,12
+6903,Stern Gaze,Stern Eyes inflict Arcane damage to the closest 5 players based on how far they are from the Stern Eye.,818,9,6902,0,6904,2,0,0,0,237299,2,8,12
+6904,Stern Gaze,Stern Eyes inflict Arcane damage to the closest 2 players based on how far they are from the Stern Eye.,818,10,6902,0,0,2,0,0,0,237299,2,8,12
 6905,Force of Will,"The Mind's Eye focuses intently on a random player, knocking back any players who remain in the Eye's gaze when Force of Will finishes casting.",818,32,6884,0,7859,2,0,0,0,613397,2,0,15
 6906,Life Drain,"The Hungry Eye focuses its gaze on a random player and begins to draw out their life force, stunning them for $133795d. Life lost from the victim is added to Durumu's health pool.
 
@@ -3834,7 +3833,7 @@ This effect stacks, and players who receive $137669s3 stacks become fully electr
 6919,Ignite Cyclone,"Iron Qon ignites a random cyclone, causing it to burn all players for $136925s1 Fire damage every $136159t4 sec.",817,31,6868,0,6920,2,0,0,0,525024,0,0,-1
 6920,Freeze Cyclone,"Iron Qon freezes a random cyclone, causing it to entomb players in ice on contact. The player will take damage equal to $136892s2% of their maximum health every $136892t2 sec.",817,32,6868,0,0,2,0,0,0,135840,0,0,-1
 6947,Primordial Strike,"Primordius claws at his current target, inflicting $136037s1 Physical damage to all players in a $136037A1-yard cone.",820,1,0,0,6948,2,0,0,0,370770,0,1,-1
-6948,Malformed Blood,"The heavily-mutated blood within Primordius spreads to his current target, inflicting $136050s2 Nature damage every $136050t2 sec and causing the afflicted player's attacks to Congeal Blood, inflicting $136050s1 additional Nature damage to Living Fluids and Viscous Horrors. This effect lasts $136050d and stacks.",820,2,0,0,7829,2,0,0,0,538040,0,1,-1
+6948,Malformed Blood,"The heavily-mutated blood within Primordius spreads to his current target, inflicting $136050s2 Nature damage every $136050t2 sec and causing the afflicted player's attacks to Congeal Blood, inflicting additional Nature damage to Living Fluids and Viscous Horrors. This effect lasts $136050d and stacks.",820,2,0,0,7829,2,0,0,0,538040,0,1,-1
 6949,Evolution,"When Primordius is mutated by enough Living Fluids, Mutagenic Pools, and his natural mutation rate, he evolves. Evolution increases all damage dealt by Primordius by $136209s1% and grants him a new mutation. This effect stacks. Primordius can only have 3 mutations at any time.$[!5,6
 
 In Heroic Difficulty, Primordius can have 4 mutations.$]",820,4,0,6950,6956,2,0,0,0,538039,0,0,-1
@@ -3860,8 +3859,8 @@ If a mutated player is dispelled, all mutations are removed.$]",820,15,6958,6961
 6967,Helpful Mutation: Keen Eyesight,"The player's eyesight becomes exceptionally keen, increasing Critical Strike chance by $136180s1%.",820,22,6960,0,6968,2,0,0,0,237298,0,0,-1
 6968,Harmful Mutation: Impaired Eyesight,"The player's eyesight becomes exceptionally poor, reducing Critical Strike chance by $136181s1%.",820,23,6960,0,0,2,0,0,0,237299,0,0,-1
 6969,Viscous Horror,A heavily-mutated creature made of the same fluid that spawned Primordius.,820,28,0,6970,0,1,36107,0,0,0,2,8,12
-6970,Black Blood,"The Viscous Horror spreads its mutated blood to its current target, inflicting $137000s2 Nature damage every $137000t2 sec and causing the afflicted player's attacks to coat the enemy in Black Blood, inflicting $137000s1 additional Nature damage to Primordius. This effect lasts $137000d and stacks.",820,29,6969,0,6971,2,0,0,0,576309,2,9,12
-6971,Deadly Mutagen,"If a Viscous Horror gets close to Primordius, the mixture of mutative energies will cause it to explode, inflicting $136995s1 Nature damage to all players.",820,30,6969,0,0,2,0,0,0,134438,2,24,12
+6970,Black Blood,"The Viscous Horror spreads its mutated blood to its current target, inflicting $137000s2 Nature damage every $137000t2 sec and causing the afflicted player's attacks to coat the enemy in Black Blood, inflicting $137000s1 additional Nature damage to Primordius. This effect lasts $137000d and stacks.",820,29,6969,0,6971,2,0,0,0,576309,2,1,12
+6971,Deadly Mutagen,"If a Viscous Horror gets close to Primordius, the mixture of mutative energies will cause it to explode, inflicting $136995s1 Nature damage to all players.",820,30,6969,0,0,2,0,0,0,134438,2,16,12
 6972,Molten Inferno,"Ro'shak emits molten flame, inflicting $134664s1 Fire damage to all players. This will relieve Ro'shak of 10 Molten Energy.",817,5,6865,0,6973,2,0,0,0,252268,0,0,-1
 6973,Molten Overload,"When he reaches maximum Molten Energy, Ro'shak overloads and combusts, casting Molten Inferno every $137221t1 sec until he is degraded of molten energy. This effect temporarily increases his damage dealt by $137221s2%.",817,6,6865,0,6870,2,0,0,0,615339,0,32,-1
 6974,Unleashed Flame,"Ro'shak incinerates the largest cluster of enemies he can find, inflicting $134628s1 Fire damage split evenly among targets within $134628A1 yards. Discharging this flame relieves Ro'shak of 30 Molten Energy.
@@ -3915,7 +3914,7 @@ Megaera's Venomous Heads spit a globule of acid at a random player, inflicting $
 
 In Heroic Difficulty, Megaera's Venomous Heads spit three globules of acid at a time.$]",821,15,7004,0,7012,2,0,0,0,132108,0,0,-1
 7012,Rot Armor,"Megaera's Venomous Heads breathe corrosive gas on all players in front of her, inflicting $139839s1 Nature damage every second for $139838d. Players hit by Rot Armor take $139840s1% increased damage from all sources for $139840d. This effect stacks.",821,16,7004,0,0,2,0,0,0,236271,0,0,-1
-7015,Diffusion,"Megaera's Arcane Heads breathe arcane energy on all players in front of her, inflicting $139992s1 Arcane damage every second for $139991d. Players hit by Diffusion redirect $139993s1% of all healing received to allies within $139994A1 yards that are not afflicted with Diffusion. This effect stacks.",821,22,7005,0,0,2,0,0,0,135739,2,8,12
+7015,Diffusion,"Megaera's Arcane Heads breathe arcane energy on all players in front of her, inflicting $139992s1 Arcane damage every second for $139991d. Players hit by Diffusion redirect $139993s1% of all healing received to allies within $139994A1 yards that are not afflicted with Diffusion. This effect stacks.",821,22,7005,0,0,2,0,0,0,135739,2,0,12
 7024,Battle Stance,,597,3,0,7025,7029,0,0,0,0,0,1,0,-1
 7025,Mortal Strike,"General Bjarngrim inflicts Physical damage to a player, leaving them wounded, reducing the effectiveness of any healing received by $16856s2% for $16856d.",597,4,7024,0,7026,2,0,0,0,132355,0,0,-1
 7026,Slam,"General Bjarngrim slams a player, causing Physical damage.",597,5,7024,0,7027,2,0,0,0,132340,0,0,-1
@@ -4007,7 +4006,7 @@ If the spirit is still alive after $137395d it will instantly jump to its target
 
 High Priestess Mar'li rips the souls from two random players and links them together. Each soul pursues the soul it is linked to and inflicts $137972s1 Shadow damage to all players every $137975t1 sec. The damage of Twisted Fate is reduced the farther each soul is from the other.
 
-When a soul dies, severing the link between the two, the remaining soul begins to inflict $137986s1 Shadow damage every $137986t2 sec.",816,29,7050,0,0,2,0,0,0,460699,2,26,12
+When a soul dies, severing the link between the two, the remaining soul begins to inflict $137972s1 Shadow damage every $137986t2 sec.",816,29,7050,0,0,2,0,0,0,460699,2,26,12
 7074,Soul Fragment,"Every other time the Spirit of Gara'jal is forced out of a councillor, he leaves behind a Soul Fragment.
 
 Soul Fragments possess a random player, inflicting $137641s2 Shadow damage every $137641t2 sec. until the Soul Fragment is passed to another player. In addition, each time the Soul Fragment deals damage, it applies Shadowed Soul to that player.$[!6
@@ -4088,7 +4087,7 @@ In Heroic Difficulty each sphere also inflicts $136962o2 Fire damage over the du
 7162,Elemental Blood of Megaera,"As Megaera grows new heads of a given type, her elemental blood increases the damage inflicted by all heads of the same type by $139586s1% for each additional head of that type. This effect stacks.",821,5,0,0,7808,2,0,0,0,576309,0,0,-1
 7171,Crystal Shell,"The crystal reacts when struck, encasing the attacker in a shell that absorbs incoming damage and healing. Initially the shell can absorb up to $137633s2% of max health in damage, but healing absorbed by the shell is added to this total, up to a cap of $137648s2% of max health. The shell breaks when it cannot absorb any more damage.",825,14,0,0,0,2,0,0,0,132775,2,12,12
 7176,Heroic Only,Ra-den is only available on Heroic difficulty.,831,1,0,0,7251,0,0,0,0,0,2,0,19
-7177,Shadowed Soul,All damage taken increased by $137650s1% for the remainder of the fight. This effect stacks.,816,5,7074,0,0,2,0,0,0,460700,3,8,12
+7177,Shadowed Soul,All damage taken increased by $137650s1% for the remainder of the fight. This effect stacks.,816,5,7074,0,0,2,0,0,0,460700,3,0,12
 7178,Stage One: Thunderstruck!,"Lei Shen equips his Axe, Thunder, which he can throw with deadly accuracy and cause lightning to strike the ground wherever it lands. Lei Shen will charge any Conduit that he is near.",832,8,0,7179,7186,0,0,0,0,0,1,0,-1
 7179,Discharged Energy,"If Lei Shen is not charging a Conduit, he will Discharge electricity, inflicting increasing Nature damage to all players every $134821t1 sec.",832,9,7178,0,7181,2,0,0,0,136075,0,32,-1
 7181,Decapitate,"Lei Shen throws his axe with supernatural force, inflicting $134916s1 Physical damage and inflicting Decapitate, increasing Physical damage taken by $134916s2% for $134916d. The damage inflicted decreases the farther away the target is from Lei Shen.",832,10,7178,0,7182,2,0,0,0,839975,0,17,-1
@@ -4154,7 +4153,7 @@ In Heroic difficulty, Ball Lightning inflicts damage to enemies within $136620A2
 7248,Lightning Bolt,Lightning Bolt inflicts $136853s1 Nature damage every $136853t1 sec. Lightning Bolt can be avoided by jumping over it.,832,22,7197,0,0,2,0,0,0,839977,0,0,-1
 7249,Violent Gale Winds,"Lei Shen causes the walls of his chamber to open, unleashing the force of Violent Gale Winds. The winds push players in a direction, inflicting $136889s1 Nature damage every $136889t1 sec and causing Windburn.",832,28,7209,7871,7212,2,0,0,0,236154,0,0,-1
 7250,Lightning Bolt,Lightning Bolt inflicts $136853s1 Nature damage every $136853t1 sec. Lightning Bolt can be avoided by jumping over it.,832,34,7220,0,0,2,0,0,0,839977,0,0,-1
-7251,Shrouded in Mystery,"There are no scholars with any recollection or record regarding the details of Ra-den's powers. Perhaps these memories have been obscured by the passage of time, or perhaps none who saw the Keeper of Storms in battle ever lived to speak of what they witnessed....",831,2,0,0,0,0,0,0,0,0,2,0,12
+7251,Shrouded in Mystery,"There are no scholars with any recollection or record regarding the details of Ra-den's powers. Perhaps these memories have been obscured by the passage of time, or perhaps none who saw the Keeper of Storms in battle ever lived to speak of what they witnessed....",831,2,0,0,0,0,0,0,0,0,2,8,12
 7252,Static Overload,"Ionar charges a player with energy, inflicting Nature damage over $52658d and periodically zapping their nearby allies for Nature damage. After $52658d, an electrical explosion occurs causing an additional Nature damage to all players within $53337A yards and knocking them back.",599,1,0,0,7253,2,0,0,0,136050,1,0,-1
 7253,Ball Lightning,Ionar hurls a ball of lightning at the target inflicting Nature damage to a random player.,599,2,0,0,7254,2,0,0,0,135990,1,0,-1
 7254,Disperse,"When Ionar reaches 50% health remaining, he disperses into Sparks of Ionar that pursue players for 15 seconds.",599,3,0,7255,0,2,0,0,0,136111,1,0,-1
@@ -4591,7 +4590,7 @@ While she is channeling this effect, her ranged and spell deflection is increase
 7655,"Suen, Mistress of Anger","If Suen perishes, Dusk ends and Night begins anew, fully empowering Lu'lin. During Night, Moon Lotuses once again bloom, and Beasts of Nightmares once again spawn.",829,24,7633,7656,0,1,46974,0,0,0,0,0,-1
 7656,Nuclear Inferno,"Suen channels a nuclear inferno, blasting the raid for $137492s1 damage every $137491t1 sec.
 
-While she is channeling this effect, her ranged and spell deflection is increased by $137531s3%. Her dodge chance is increased by $137531s5% as well.",829,25,7655,0,0,2,0,0,0,0,2,40,12
+While she is channeling this effect, her ranged and spell deflection is increased by $137531s3%. Her dodge chance is increased by $137531s5% as well.",829,25,7655,0,0,2,0,0,0,451164,2,40,12
 7657,Niuzao: Fortitude of the Ox,"A player may choose to invoke the spirit of Niuzao by selecting his faded image. Upon doing so, the player must trace Niuzao's constellation.
 
 Upon completion, Niuzao appears and blesses players with Fortitude of the Ox, which temporarily grants all players additional maximum health.  After the effect expires, the health is lost. This effect lasts $138300d.",829,27,7651,0,7658,1,47675,0,0,0,0,0,-1
@@ -4715,8 +4714,8 @@ Furthermore, the Lightning Storm electrifies Conductive Water.",827,13,0,7749,77
 7760,Massive Anima Golem,,824,9,0,7761,7762,1,47650,0,0,0,0,0,-1
 7761,Matter Swap,"Dematrixes the target enemy's matter. When this effect is removed, the target swaps places with its most distant ally and Arcane damage equal to the target's maximum health is split between them. The portion of the total damage shifted to the target's ally increases each second.",824,10,7760,0,7770,2,0,0,0,136054,0,132,-1
 7762,Dark Animus,,824,12,0,7806,0,1,47527,0,0,0,0,0,-1
-7763,Ionization,"Jin'rokh the Breaker ionizes enemy players, attracting storm energies over $138732d. Inflicts $138732s1 Nature damage to players within $138733A1 yards when dispelled or duration expires.",827,16,0,7764,0,2,0,0,0,136014,2,136,12
-7764,Conduction,"Ionization damage travels through Conductive Water, inflicting $138732s1 Nature damage to players standing in Conductive Water.",827,17,7763,0,0,2,0,0,0,237587,2,16,12
+7763,Ionization,"Jin'rokh the Breaker ionizes enemy players, attracting storm energies over $138732d. Inflicts $138743s1 Nature damage to players within $138733A1 yards when dispelled or duration expires.",827,16,0,7764,0,2,0,0,0,136014,2,136,12
+7764,Conduction,"Ionization damage travels through Conductive Water, inflicting $138733s1 Nature damage to players standing in Conductive Water.",827,17,7763,0,0,2,0,0,0,237587,2,16,12
 7765,Acceleration Link,"Anima Golems in close proximity link together, increasing each golem's attack speed by $138453s1% and damage by $138453s2%. In addition, linked golems gain $138453s3% movement speed and immunity to movement slowing effects.",824,5,7758,0,7860,2,0,0,0,531507,2,32,15
 7766,Violent Detonation,"The Focused Lightning detonates violently inside Electrified Water, inflicting $138990s1 Nature damage to all players within $138990A1 yards.",827,12,7741,0,0,2,0,0,0,458976,0,16,-1
 7767,Anima Font,"Upon reaching 50 Anima, the Dark Animus gains the ability to further corrupt a target already afflicted by Touch of the Animus, causing them to spew Anima bolts at nearby locations every $138691t1 sec. Enemies struck by the bolts suffer $138707s1 Fire damage.",824,18,7762,0,7863,2,0,0,0,524305,0,0,-1
@@ -4731,9 +4730,9 @@ Furthermore, the Lightning Storm electrifies Conductive Water.",827,13,0,7749,77
 Defeating any size Anima Golem will cause the Anima that was powering it to transfer to a random golem with enough available capacity.",824,1,0,0,7837,2,0,0,0,132996,2,32,16
 7775,Critically Damaged,"Some of the Anima Golems found in 10 player difficulties have sustained severe damage. These golems can still absorb Anima, but cannot act or use abilities.",824,3,0,0,7758,2,0,0,0,132997,2,0,5
 7776,Touch of the Animus,"The Dark Animus periodically corrupts a random target, inflicting $138659s1 Fire damage every $138659t1 seconds for the remainder of the encounter.",824,15,7762,0,7769,2,0,0,0,838814,0,0,-1
-7777,Calling the Stormcaller: Quet'zal,"In Heroic difficulty, Quet'zal attacks players alongside Ro'shak. He casts Lightning Storm on random players from above.",817,12,6865,7780,0,1,46629,0,0,0,2,0,12
-7778,Breaking the Ice: Dam'ren,"In Heroic difficulty, Dam'ren attacks players alongside Quet'zal. He freezes and shatters random players from above.",817,19,6866,7781,0,1,0,0,0,0,2,0,12
-7779,Spark of the Molten Flare: Ro'shak,"In Heroic difficulty, Ro'shak attacks players alongside Dam'ren. He casts Unleashed Flame on the largest clump of enemies he can find. If he cannot find a clump of enemies, he instead casts it on a random target.",817,27,6867,0,0,1,46628,0,0,0,2,0,12
+7777,Calling the Stormcaller: Quet'zal,"In Heroic difficulty, Quet'zal attacks players alongside Ro'shak. He casts Lightning Storm on random players from above.",817,12,6865,7780,0,1,46629,0,0,0,2,8,12
+7778,Breaking the Ice: Dam'ren,"In Heroic difficulty, Dam'ren attacks players alongside Quet'zal. He freezes and shatters random players from above.",817,19,6866,7781,0,1,0,0,0,0,2,8,12
+7779,Spark of the Molten Flare: Ro'shak,"In Heroic difficulty, Ro'shak attacks players alongside Dam'ren. He casts Unleashed Flame on the largest clump of enemies he can find. If he cannot find a clump of enemies, he instead casts it on a random target.",817,27,6867,0,0,1,46628,0,0,0,2,8,12
 7780,Whirling Winds,"Quet'zal summons a massive swirl of wind and launches it ahead of him, inflicting $139167s1 Nature damage to all players with which it comes into contact.",817,13,7777,0,0,2,0,0,0,136022,2,0,12
 7781,Frost Spike,"Dam'ren commands frost spikes from the ground beneath random players, inflicting $139180s1 Frost damage and knocking enemy targets within $139180A1 yards into the air.",817,20,7778,0,0,2,0,0,0,135845,2,0,12
 7783,Cheep,"The Hatchling yells with all their might at their current target, inflicting $139296s1 Physical damage.",828,4,7350,0,0,2,0,0,0,648726,0,0,-1
@@ -4745,15 +4744,15 @@ Defeating any size Anima Golem will cause the Anima that was powering it to tran
 7809,Hydra Frenzy,"Whenever one of Megaera's heads is killed, the heads remaining outside of the Concealing Fog are healed to full and attack $139942s1% faster. This effect stacks.",821,4,0,0,7162,2,0,0,0,132166,0,0,-1
 7810,Nether Tear,"Megaera's Arcane Heads use this ability when they are within the Concealing Fog.
 
-Megaera's Arcane Heads open a tear into the nether, releasing a Nether Wyrm every $140138t1 sec. for $140138d.",821,18,7005,7816,7015,2,0,0,0,429383,2,8,12
+Megaera's Arcane Heads open a tear into the nether, releasing a Nether Wyrm every $140138t1 sec. for $140138d.",821,18,7005,7816,7015,2,0,0,0,429383,2,0,12
 7811,Infrared Light,"If no players are in the Red Eye's cone, the Eye will inflict $133733s1 Fire damage to all players. Otherwise all players within the Red Eye's cone split $133732s1 Fire damage equally every 2 seconds.",818,15,6891,0,7820,2,0,0,0,463282,2,0,15
 7812,Bright Light,"If no players are in the Yellow Eye's cone, the Eye will inflict $133739s1 Nature damage to all players. Otherwise, all players within the Yellow Eye's cone split $133738s1 Nature damage equally every 2 seconds.",818,17,6891,0,7821,2,0,0,0,460954,2,0,15
 7813,Blue Rays,"If no players are in the Blue Eye's cone, the Eye will inflict $133678s1 Frost damage to all players. Otherwise all players within the Blue Eye's cone split $133677s1 Frost damage equally every 2 seconds.",818,19,6891,0,6892,2,0,0,0,463280,2,0,15
 7814,Helm of Command,Lei Shen forces the target off the platform by using his Helm of Command. Inflicts $139011s1 Nature damage every $139011t1 sec for $139011d.,832,15,7186,0,0,2,0,0,0,133833,3,24,12
 7815,Helm of Command,Lei Shen forces the target off the platform by using his Helm of Command. Inflicts $139011s1 Nature damage every $139011t1 sec for $139011d.,832,25,7202,0,0,2,0,0,0,133833,2,24,12
-7816,Nether Wyrm,,821,19,7810,7817,0,1,48092,0,0,0,3,8,12
-7817,Nether Spike,"Nether Wyrms blast a random player with nether energy, inflicting $140178s1 Arcane damage.",821,20,7816,0,7818,2,0,0,0,610471,2,72,12
-7818,Suppression,"Nether Wyrms channel nether energy into a random player's mind, stunning them for $140179d.",821,21,7816,0,0,2,0,0,0,610679,2,200,12
+7816,Nether Wyrm,,821,19,7810,7817,0,1,48092,0,0,0,3,0,12
+7817,Nether Spike,"Nether Wyrms blast a random player with nether energy, inflicting $140178s1 Arcane damage.",821,20,7816,0,7818,2,0,0,0,610471,2,64,12
+7818,Suppression,"Nether Wyrms channel nether energy into a random player's mind, stunning them for $140179d.",821,21,7816,0,0,2,0,0,0,610679,2,192,12
 7819,Infrared Light,"If no players are in the Red Eye's cone, the Eye will inflict $133733s1 Fire damage to all players. Otherwise all players within the Red Eye's cone suffer $133732s1 Fire damage every 2 seconds.",818,14,6891,0,7811,2,0,0,0,463282,2,0,16
 7820,Bright Light,"If no players are in the Yellow Eye's cone, the Eye will inflict $133739s1 Nature damage to all players. Otherwise all players within the Yellow Eye's cone suffer $133738s1 Nature damage every 2 seconds.",818,16,6891,0,7812,2,0,0,0,460954,2,0,16
 7821,Blue Rays,"If no players are in the Blue Eye's cone, the Eye will inflict $133678s1 Frost damage to all players. Otherwise all players within the Blue Eye's cone suffer $133677s1 Frost damage every 2 seconds.",818,18,6891,0,7813,2,0,0,0,463280,2,0,16
@@ -4790,9 +4789,9 @@ $[!3,5 In 10-Player difficulties 1 player is chosen at random.$]$[!4,6,7 In 25-P
 7865,Obliterate,"Durumu will kill all players if he has not been defeated within 10 minutes.
 
 $[!5,6 In Heroic Difficulty, Durumu will use Obliterate if players fail to complete the Light Spectrum sequence within 80 seconds.$]",818,45,0,0,0,2,0,0,0,425958,0,2064,-1
-7866,Direhorn Spirit,Horridon's Dire Call awakens a Direhorn Spirit.,819,5,7093,7868,0,1,47383,0,0,0,2,40,12
-7867,Weak Link,The Direhorn Spirit's link to Pandaria is weak. Any attack made against a Direhorn Spirit will knock it back.,819,7,7866,0,0,2,0,0,0,631503,2,8,12
-7868,Dire Fixation,The Direhorn Spirit will fixate on a player. Only the fixated player can see or interact with the Direhorn Spirit.,819,6,7866,0,7867,2,0,0,0,237298,2,8,12
+7866,Direhorn Spirit,Horridon's Dire Call awakens a Direhorn Spirit.,819,5,7093,7868,0,1,47383,0,0,0,2,32,12
+7867,Weak Link,The Direhorn Spirit's link to Pandaria is weak. Any attack made against a Direhorn Spirit will knock it back.,819,7,7866,0,0,2,0,0,0,631503,2,0,12
+7868,Dire Fixation,The Direhorn Spirit will fixate on a player. Only the fixated player can see or interact with the Direhorn Spirit.,819,6,7866,0,7867,2,0,0,0,237298,2,0,12
 7871,Windburn,Increases damage taken by Violent Gale Winds by $140208s1%. Stacks.,832,29,7249,0,0,2,0,0,0,136018,0,0,-1
 7872,Ancient Miasma,"An Ancient Miasma fills the room, absorbing all healing received but creating an Ancient Barrier that absorbs damage equal to the amount of healing absorbed, up to a cap of 100% of maximum health. In addition, the Miasma inflicts $142906s1 Shadow damage every $142906t1 sec.",846,5,0,7873,7874,2,0,0,0,571320,1,36,-1
 7873,Ancient Barrier,"Whenever Ancient Miasma absorbs healing it creates an Ancient Barrier on the player, absorbing damage equal to the amount of healing absorbed. The damage absorbed from Ancient Barrier cannot be greater than 100% of the player's maximum health.
@@ -4812,23 +4811,23 @@ In Mythic Difficulty, Displaced Energy roots the target in place.$]",846,10,7874
 7883,Arcing Smash,"Malkorok faces a random player and unleashes a devastating overhead attack, inflicting $142815s1 Physical damage to all players within a $142815A1 yard cone in front of him.",846,13,7896,0,7884,2,0,0,0,451165,0,0,-1
 7884,Seismic Slam,"Malkorok slams the ground, inflicting $142849s2 Physical damage in a $142849A1-yard radius around a random player, knocking all injured targets into the air.",846,14,7896,7952,7895,2,0,0,0,136025,0,0,-1
 7885,Rook Stonetoe,,849,6,0,7956,7889,1,48918,0,0,0,0,1,-1
-7886,Corruption Kick,"Spins rapidly in a circle, rooting himself and inflicting $143009s1 Physical damage to targets within $143009A1 yards every second for $143007D. Additionally torments targets struck, inflicting $143010s1 Shadow damage every two seconds for $143010D.",849,20,7888,0,0,2,0,0,0,651098,0,0,-1
+7886,Corruption Kick,"Spins rapidly in a circle, rooting himself and inflicting $143009s1 Physical damage to targets within $143009A1 yards every second for $143007D. Additionally torments targets struck, inflicting $143010s1 Shadow damage every two seconds for $143010D.",849,19,7888,0,0,2,0,0,0,651098,0,0,-1
 7887,Corrupted Brew,"Rook Stonetoe hurls a keg of Corrupted Brew at a distant target, inflicting $143023s1 Shadow damage to enemies within $143023A1 yards and slowing targets hit by $143023s2% for $143023d.$[!16
 
-In Mythic difficulty, every two casts, Corrupted Brew's travel time is reduced by half a second. This effect resets when Rook Stonetoe begins his Desperate Measures.$]",849,18,7885,0,7888,2,0,0,0,651085,0,0,-1
+In Mythic difficulty, every two casts, Corrupted Brew's travel time is reduced by half a second. This effect resets when Rook Stonetoe begins his Desperate Measures.$]",849,17,7885,0,7888,2,0,0,0,651085,0,0,-1
 7888,Clash,"Rook Stonetoe clashes against an enemy, charging each other and meeting halfway. Rook Stonetoe then immediately begins to perform Corruption Kick.$[!14,15,17
 
-In Non-Mythic Difficulty, Rook Stonetoe's Clash will not be cast during any Desperate Measures phase.$]",849,19,7885,7886,0,2,0,0,0,628134,0,0,-1
-7889,He Softfoot,,849,21,0,7940,7904,1,48917,0,0,0,0,1,-1
+In Non-Mythic Difficulty, Rook Stonetoe's Clash will not be cast during any Desperate Measures phase.$]",849,18,7885,7886,0,2,0,0,0,628134,0,0,-1
+7889,He Softfoot,,849,20,0,7940,7904,1,48917,0,0,0,0,1,-1
 7892,Master Poisoner,"He Softfoot is a Master Poisoner and occasionally coats his weapons with various types of poisons.$[!16
 
 In Mythic Difficulty, Master Poisoner abilities also take effect when using Garrote or Fixate.$]$[!14,15,17
 
-In Non-Mythic Difficulty, He Softfoot's Master Poisoner abilities will not be cast during any Desperate Measures phase.$]",849,28,7889,7893,0,0,0,0,0,0,0,0,-1
+In Non-Mythic Difficulty, He Softfoot's Master Poisoner abilities will not be cast during any Desperate Measures phase.$]",849,27,7889,7893,0,0,0,0,0,0,0,0,-1
 7893,Noxious Poison,"He Softfoot coats his weapon in a Noxious Poison, causing successful melee attacks to create pools of poison on the ground, inflicting $144367s1 Nature damage every second. These pools may be jumped over.
 
-This effect is removed when He Softfoot begins his Desperate Measures.",849,29,7892,0,7894,2,0,0,0,236271,0,0,-1
-7894,Instant Poison,"He Softfoot coats his weapon in an Instant Poison, causing successful melee attacks to inflict $143224s1 additional Nature damage.",849,30,7892,0,0,2,0,0,0,132106,0,0,-1
+This effect is removed when He Softfoot begins his Desperate Measures.",849,28,7892,0,7894,2,0,0,0,236271,0,0,-1
+7894,Instant Poison,"He Softfoot coats his weapon in an Instant Poison, causing successful melee attacks to inflict $143224s1 additional Nature damage.",849,29,7892,0,0,2,0,0,0,132106,0,0,-1
 7895,Breath of Y'Shaarj,"Malkorok channels the power of Y'Shaarj, causing the areas recently hit by Arcing Smash to explode, inflicting $142816s1 Shadow damage.",846,17,7896,0,7897,2,0,0,0,136194,0,0,-1
 7896,Might of the Kor'kron,,846,12,0,7883,0,0,0,0,0,0,1,0,-1
 7897,Imploding Energy,"Malkorok's corruption opens tears of dark energy that inflict $142986s1 Shadow damage to all players within $142986A1 yards after $144069d.
@@ -4838,16 +4837,16 @@ If an implosion of energy does not hit a player, it instead inflicts $142987s1 S
 7899,Fatal Strike,"Malkorok's melee attacks fatally wound his target, increasing their damage taken by $142990s2% for $142990d.",846,19,7896,0,7951,2,0,0,0,589119,0,1,-1
 7901,Garrote,"Traveling through the shadows, He Softfoot Garrotes targets, inflicting $143198s1 Physical damage every $143198T1 sec.
 
-This effect is removed when He Softfoot begins his Desperate Measures.",849,26,7889,0,7902,2,0,0,0,132297,0,4,-1
-7902,Gouge,"He Softfoot attempts to gouge the eyes of his target, incapacitating them for $143301D and fixating on a random target until Taunted. If the target is facing away, Gouge will instead knock them away a short distance.",849,27,7889,0,7892,2,0,0,0,132155,0,1,-1
-7904,Sun Tenderheart,,849,31,0,7942,0,1,48919,0,0,0,0,0,-1
-7905,Sha Sear,"Causes an explosion of Shadow magic around the target, inflicting increasing Shadow damage every second to all enemies within $143424A2 yards around the target.",849,36,7904,0,7906,2,0,0,0,237565,0,64,-1
-7906,Shadow Word: Bane,"Expels a word of misery upon multiple targets, inflicting $143434s2 Shadow damage every $143434T2 sec for $143434d. Each time this effect deals damage, it will jump to an additional target, up to a total of $143434s1 times.",849,37,7904,0,7907,2,0,0,0,136211,0,128,-1
+This effect is removed when He Softfoot begins his Desperate Measures.",849,25,7889,0,7902,2,0,0,0,132297,0,4,-1
+7902,Gouge,"He Softfoot attempts to gouge the eyes of his target, incapacitating them for $143301D and fixating on a random target until Taunted. If the target is facing away, Gouge will instead knock them away a short distance.",849,26,7889,0,7892,2,0,0,0,132155,0,1,-1
+7904,Sun Tenderheart,,849,30,0,7942,0,1,48919,0,0,0,0,0,-1
+7905,Sha Sear,"Causes an explosion of Shadow magic around the target, inflicting increasing Shadow damage every second to all enemies within $143424A2 yards around the target.",849,35,7904,0,7906,2,0,0,0,237565,0,64,-1
+7906,Shadow Word: Bane,"Expels a word of misery upon multiple targets, inflicting $143434s2 Shadow damage every $143434T2 sec for $143434d. Each time this effect deals damage, it will jump to an additional target, up to a total of $143434s1 times.",849,36,7904,0,7907,2,0,0,0,136211,0,128,-1
 7907,Calamity,"Calls forth a great Calamity, striking all players for $143493s1% of their maximum health as Shadow damage. This also removes Shadow Word: Bane from all targets.$[!16
 
 In Mythic difficulty, Calamity increases in magnitude by an additional $143493s2% of maximum health each addtional time it is cast. This effect resets when Sun Tenderheart begins her Desperate Measures.$]$[!14,15,17
 
-In Non-Mythic Difficulty, Sun Tenderheart's Calamity will not be cast during any Desperate Measures phase.$]",849,38,7904,0,0,2,0,0,0,632353,0,0,-1
+In Non-Mythic Difficulty, Sun Tenderheart's Calamity will not be cast during any Desperate Measures phase.$]",849,37,7904,0,0,2,0,0,0,632353,0,0,-1
 7908,Sundering Blow,"A powerful strike inflicts $143494s1 Physical damage and sunders the target's armor, reducing armor by $143494s2% for $143494d. Generates $143494s3 Rage plus $143494s3 additional Rage per stack of Sundering Blow on the target.",850,5,0,0,7919,2,0,0,0,132363,0,1,-1
 7909,Rage,"Several of General Nazgrim's abilities require Rage to use. General Nazgrim will gain Rage from various abilities used during the battle.
 
@@ -4898,15 +4897,15 @@ Costs 100 Rage.",850,17,7909,0,7937,2,0,0,0,132442,0,16,-1
 At 66% and 33% health remaining, each Protector performs Desperate Measures, manifesting spirits of fallen allies to bring new and powerful attacks to bear against the raid until those spirits are defeated.",849,1,0,10136,8017,3,0,0,0,0,1,0,-1
 7940,Desperate Measures,"Upon reaching 66% or 33% health remaining, He Softfoot manifests a twisted spirit of his brother, creating Embodied Anguish, which fixates upon the raid member who has the Mark of Anguish.
 
-Once this spirit is defeated, He Softfoot resumes fighting players.",849,22,7889,7941,7901,0,0,0,0,0,0,0,-1
+Once this spirit is defeated, He Softfoot resumes fighting players.",849,21,7889,7941,7901,0,0,0,0,0,0,0,-1
 7941,Mark of Anguish,"Mark of Anguish periodically inflicts Shadow damage every second and roots the target. The Marked player gains the ability to transfer the Mark to another friendly player within $143842R yards.
 
-Embodied Anguish's gaze moves to a random target upon killing his current target.",849,23,7940,0,7966,2,0,0,0,458726,1,32,-1
+Embodied Anguish's gaze moves to a random target upon killing his current target.",849,22,7940,0,7966,2,0,0,0,458726,1,32,-1
 7942,Desperate Measures,"Upon reaching 66% or 33% health remaining, Sun Tenderheart manifests an evil form of her protectors, making Embodied Despair and Embodied Desperation.
 
-Once both spirits are defeated, Sun Tenderheart resumes fighting players.",849,32,7904,7954,7905,0,0,0,0,0,0,32,-1
-7943,Manifest Emotions,"Embodied Despair and Embodied Desperation focus their negative emotions, creating Sha manifestations which attack players. Any damage taken by these manifested emotions will also be suffered by the creature that spawned them.",849,34,7942,0,7944,1,47163,0,0,0,0,0,-1
-7944,Meditation Spike,Sun Tenderheart periodically fires a bolt of dark energy that inflicts $143602s1 Shadow damage upon impact to enemies within $143602A1 yards.,849,35,7942,0,0,2,0,0,0,651088,0,9,-1
+Once both spirits are defeated, Sun Tenderheart resumes fighting players.",849,31,7904,7954,7905,0,0,0,0,0,0,32,-1
+7943,Manifest Emotions,"Embodied Despair and Embodied Desperation focus their negative emotions, creating Sha manifestations which attack players. Any damage taken by these manifested emotions will also be suffered by the creature that spawned them.",849,33,7942,0,7944,1,47163,0,0,0,0,0,-1
+7944,Meditation Spike,Sun Tenderheart periodically fires a bolt of dark energy that inflicts $143602s1 Shadow damage upon impact to enemies within $143602A1 yards.,849,34,7942,0,0,2,0,0,0,651088,0,9,-1
 7946,Kor'kron Sniper,,850,36,7920,7947,0,1,49118,0,0,0,2,4096,0
 7947,Hunter's Mark,Kor'kron Snipers will fixate on a non-tank target.,850,37,7946,0,7948,2,0,0,0,841383,0,0,-1
 7948,Shoot,"Shoots a player, inflicting $143884s1% weapon damage.",850,38,7946,0,7949,2,0,0,0,133580,0,0,-1
@@ -4916,14 +4915,14 @@ Once both spirits are defeated, Sun Tenderheart resumes fighting players.",849,3
 If a player comes into contact with an orb, it is consumed, removing Ancient Barrier and inflicting $143857s1 Shadow damage to them.",846,7,7872,0,0,2,0,0,0,236296,2,4096,0
 7951,Eradicate,Malkorok kills all players if he is not defeated within $143916s1 minutes.,846,20,7896,0,0,2,0,0,0,607852,0,16,-1
 7952,Living Corruption,Seismic Slam causes Living Corruption to ooze out of the ground and attack players.,846,15,7884,7953,0,1,49124,0,0,0,3,4096,0
-7953,Languish,"Living Corruption weakens all players within 8 yards of them, reducing movement speed and spell casting speed by $143919s1%.",846,16,7952,0,0,2,0,0,0,460857,3,4096,0
-7954,Dark Meditation,"Sun Tenderheart enters a Dark Meditation, inflicting Shadow damage to all enemies every half second. Players take $143564s1% less damage from Dark Meditation when inside her Meditative Field.",849,33,7942,0,7943,2,0,0,0,236170,0,4,-1
+7953,Languish,"Living Corruption weakens all players within 8 yards of them, reducing movement speed and spell casting speed by $143919s1%.",846,16,7952,0,0,2,0,0,0,460857,3,0,0
+7954,Dark Meditation,"Sun Tenderheart enters a Dark Meditation, inflicting Shadow damage to all enemies every half second. Players take $143564s1% less damage from Dark Meditation when inside her Meditative Field.",849,32,7942,0,7943,2,0,0,0,236170,0,4,-1
 7956,Desperate Measures,"Upon reaching 66% or 33% health remaining, Rook Stonetoe manifests evil forms of his closest friends, making Embodied Misery, Embodied Sorrow, and Embodied Gloom.
 
 Once all three spirits are defeated, Rook Stonetoe resumes fighting players.",849,7,7885,8395,8145,0,0,0,0,0,0,0,-1
-7957,Corruption Shock,"Embodied Gloom hurls a bolt of corrupted lightning at several locations, inflicting $144018s1 Nature damage to all enemies within $144018A1 yards.",849,14,8397,0,8330,2,0,0,0,136050,1,64,-1
+7957,Corruption Shock,"Embodied Gloom hurls a bolt of corrupted lightning at several locations, inflicting $144018s1 Nature damage to all enemies within $144018A1 yards.",849,13,8397,0,8330,2,0,0,0,136050,1,64,-1
 7958,Defiled Ground,"Embodied Misery smashes the ground with fervor, inflicting $143961s1 Physical damage to her current target, knocking them back. This force burns into the ground, inflicting $144357s1 Shadow damage every second.",849,9,8395,0,0,2,0,0,0,463566,1,0,-1
-7959,Inferno Strike,Embodied Sorrow casts a massive Fire damage spell at a random target. Inferno Strike divides ${$143962m2*$143962m1} Fire damage among all targets within $143962A2 yards.,849,11,8396,8414,0,2,0,0,0,132863,1,32,-1
+7959,Inferno Strike,Embodied Sorrow casts a massive Fire damage spell at a random target. Inferno Strike divides ${$143962m2*$143962m1} Fire damage among all targets within $143962A2 yards.,849,11,8396,0,0,2,0,0,0,132863,1,32,-1
 7960,Stage 1: A Cry in the Darkness,,851,5,0,7962,7961,0,0,0,0,0,1,0,-1
 7961,Stage 2: Frenzy for Blood!,"The excessive scent of blood sends Thok into a frenzy for blood!
 
@@ -4932,7 +4931,7 @@ $[!17 In Raid Finder difficulty, this occurs when Thok reaches 80%, 55%, and 30%
 7963,Deafening Screech,"Upon reaching full energy, Thok lets loose a shrill cry, inflicting $143343s1 Physical damage to all enemies and interrupting spellcasts. Every time Thok Screeches, the rate of his energy regeneration is increased.",851,7,7960,0,7964,2,0,0,0,252188,0,32,-1
 7964,Tail Lash,"Thok's mighty tail whips about, striking all enemies behind the caster, inflicting $143428s1 Physical damage and stunning them for $143428d.",851,8,7960,0,7965,2,0,0,0,132109,0,0,-1
 7965,Shock Blast,"Electricity arcs and snaps around Thok's shock collar, inflicting $143707s1 Nature damage to random enemies.",851,9,7960,0,7967,2,0,0,0,839974,0,0,-1
-7966,Shadow Weakness,"When Embodied Anguish strikes targets, he applies Shadow Weakness, increasing damage taken by Mark of Anguish. Additionally, passing the Mark of Anguish applies one Shadow Weakness to all players. This effect stacks.",849,24,7940,0,8415,2,0,0,0,651086,0,0,-1
+7966,Shadow Weakness,"When Embodied Anguish strikes targets, he applies Shadow Weakness, increasing damage taken by Mark of Anguish. Additionally, passing the Mark of Anguish applies one Shadow Weakness to all players. This effect stacks.",849,23,7940,0,8415,2,0,0,0,651086,0,0,-1
 7967,Bloodied,"When players fall beneath 50% health, Thok the Bloodthirsty can smell their blood. If at least half the players in the raid are within 10 yards of one another while Bloodied, the scent of blood becomes overwhelming and Thok enters a Blood Frenzy.",851,10,7960,0,0,2,0,0,0,236305,2,0,0
 7968,Kor'kron Jailer,"Thok's mighty roar when he enters a Blood Frenzy attracts the attention of a nearby jailer. Upon defeating him, you may obtain a prison key that can unlock one of the nearby cells containing Garrosh's prisoners.",851,14,7961,0,8581,1,49082,0,0,0,0,0,-1
 7969,Prisoners of War,"Garrosh has taken prisoners during his Pandaria campaign, and they remain trapped in cages alongside the beasts, hoping for freedom.",851,20,0,8283,0,0,0,0,0,0,0,0,-1
@@ -4999,13 +4998,13 @@ Bringing all three Protectors to 1 health simultaneously will restore clarity to
 
 $[!3,5 In 10 Player Difficulty, the maximum number of targets that can split the damage is limited to 2.$]$[!4,6 In 25 Player Difficulty the maximum number of targets that can split the damage is limited to 3.$]",853,54,8036,0,8039,2,0,0,0,878218,2,0,0
 8039,Catalytic Reaction: Yellow,When this toxin reacts to a yellow catalyst it creates a cloud of Noxious Vapors for $142737d. Player caught in the cloud suffer $142797s1 Nature damage per second.,853,55,8036,0,8040,2,0,0,0,878224,2,0,0
-8040,Catalytic Reaction: Orange,"When either a yellow toxin or a red toxin reacts to this catalyst, a ring of Fire explodes outward. Players do not see or need to react to the ring that forms at their own feet; but must avoid those rings that are created by their allies.",853,56,8036,0,8041,2,0,0,0,878220,2,0,0
-8041,Catalytic Reaction: Purple,"When either a blue toxin or red toxin reacts to this catalyst the victim will be forced to run forward, leaving a trail of Canned Heat in their wake for $143575d. Players stepping into the area suffer $143576s1 Fire damage every second they remain in the area.",853,57,8036,0,8042,2,0,0,0,878221,2,0,0
+8040,Catalytic Reaction: Orange,"When either a yellow toxin or a red toxin reacts to this catalyst, a ring of Fire explodes outward. Players do not see or need to react to the ring that forms at their own feet; but must avoid those rings that are created by their allies.",853,56,8036,0,8041,2,0,0,0,878220,2,4096,0
+8041,Catalytic Reaction: Purple,"When either a blue toxin or red toxin reacts to this catalyst the victim will be forced to run forward, leaving a trail of Canned Heat in their wake for $143575d. Players stepping into the area suffer $143576s1 Fire damage every second they remain in the area.",853,57,8036,0,8042,2,0,0,0,878221,2,4096,0
 8042,Catalytic Reaction: Green,"When either a blue or yellow toxin reacts to this catalyst a small cloud of Eerie Fog will form and wander about randomly. Players who enter the area suffer $142945s1 Nature damage per second for $142945d. 
 
 Entering the area Chills victims to the Bone, increasing the damage received from the Eerie Fog by $144216s1% for $144216d.
 
-Every time a player enters the area the fog reduces in size.  When it has been reduced in size 3 times it will dissipate.",853,58,8036,0,0,2,0,0,0,878219,2,0,0
+Every time a player enters the area the fog reduces in size.  When it has been reduced in size 3 times it will dissipate.",853,58,8036,0,0,2,0,0,0,878219,2,4096,0
 8043,Hungry Kunchongs,These Hungry Kunchongs are summoned by Kaz'tik the Manipulator. Whenever one dies Kaz'tik will summon another to take its place.,853,61,8010,8044,8050,1,44532,0,0,0,2,0,0
 8044,Devour,"When Kaz'tik the Manipulator Mesmerizes a player, a Hungry kunchong is selected to feed on the victim. While the Kunchong Feeds the victim suffers $142649s1 Physical damage and the Kunchong gains $142645s1 Energy each second. If the Kunchong suffers 30% of its total health in damage from the time it began to Feed on the victim, the Feeding will stop and the victim will be freed of the Mesmerize.",853,62,8043,0,8045,2,0,0,0,615987,0,34,-1
 8045,Devour Whole,Hungry Kunchongs will instantly kill any player who gets too close. The process energizes the Hungry Kunchong to full.,853,63,8043,0,8046,2,0,0,0,252996,0,16,-1
@@ -5086,7 +5085,7 @@ After Hisek is finished aiming at the target he will Fire a beam of $142950s2 Ph
 Each Paragon's powers can only be acquired by particular class roles.",853,9,8001,0,0,0,0,0,0,0,0,32,-1
 8075,Reave,"Players of the damage dealer role may acquire this power. Activating this ability causes the caster to leap forward a fixed distance and inflict Physical damage to all enemies within $142272A1 yards of the impact.
 
-$[!14,15,16 If a Hungry Kunchong with a Thick Shell is in the area of impact, the Thick Shell will be disabled.$]",853,77,8004,0,0,2,0,0,0,646377,2,2,0
+$[!14,15,16 If a Hungry Kunchong with a Thick Shell is in the area of impact, the Thick Shell will be disabled.$]",853,77,8004,0,0,2,0,0,0,646377,2,4098,0
 8076,Vast Apothecarial Knowledge,"Players in the healer role may acquire this Paragon Power. When Apothecary: Knowledge is activated, all healing done for the next $142598d will leave a Volatile Poultice on the target for an amount equal to the healing done. The next time the target is damaged, the Volatile Poultice releases the stored healing on the target.",853,59,8009,0,0,2,0,0,0,878223,0,4,-1
 8077,Master of Puppets,Players of any role may acquire this power. When activated the player summons an Immature Kunchong to fight at their side for $146890d.,853,70,8010,0,0,2,0,0,0,878214,0,0,-1
 8078,Master of Amber,A player of the tank role can acquire this Paragon Power. When activated the caster Encases a friendly target in Amber for $142618d. While the amber holds the target is immune to all damage.,853,41,8011,0,0,2,0,0,0,516338,0,1,-1
@@ -5125,7 +5124,7 @@ $[!3,4,5,6,7,14 Hurled Amber will destroy the amber summoned by Korven to heal h
 8142,Rusted Iron Totem,"Rusted Iron Totem grants Earthbreaker Haromm the Iron Tomb ability, and grants Wavebinder Kardris the Iron Prison ability. The Dark Shaman drop Rusted Iron Totems upon reaching 95% health.",856,14,8124,0,0,1,49185,0,0,0,2,4096,0
 8143,Iron Tomb,Inflicts $144334s2 Physical damage to players within $144334A2 yards and creates an Iron Tomb. This ability is granted by Rusted Iron Totem.,856,21,8128,0,0,2,0,0,0,134385,2,4096,0
 8144,Iron Prison,"Encases the player in a prison of iron that slowly asphyxiates them, inflicting $144331s1% of maximum health as Physical damage after $144330d. This ability is granted by Rusted Iron Totem.",856,30,8134,0,0,2,0,0,0,644388,2,4096,0
-8145,Vengeful Strikes,"Rook Stonetoe enters an offensive stance, stunning his target and inflicting $144397s2 physical damage in a frontal cone twice per second for $144396D.",849,17,7885,0,7887,2,0,0,0,651092,0,1,-1
+8145,Vengeful Strikes,"Rook Stonetoe enters an offensive stance, stunning his target and inflicting $144397s2 physical damage in a frontal cone twice per second for $144396D.",849,16,7885,0,7887,2,0,0,0,651092,0,1,-1
 8150,Inspiring Song,"Chi-Ji sings an inspiring song, healing for $144468s2% of maximum health every $144468t2 sec. for $144468d.",857,1,0,0,8151,2,0,0,0,237540,0,64,-1
 8151,Firestorm,"Summons a blazing whirlwind of fire, which inflicts $144462s1 Fire damage to players within $144462A1 yards every $144463t1 sec. and moves around.",857,2,0,0,8152,2,0,0,0,237588,0,0,-1
 8152,Beacon of Hope,"Chi-Ji designates one player as a Beacon of Hope, reducing damage taken by $144475s1% for all players within $144475A1 yards for $144473d.",857,3,0,8153,8154,2,0,0,0,236247,0,32,-1
@@ -5361,8 +5360,8 @@ When Garrosh reaches 100 Energy, Gripping Despair becomes Empowered.",869,42,830
 8329,Embodied Despair,Found in the Temple of the Red Crane. Once both Embodied Despair are defeated Y'Shaarj's Protection will fade from Garrosh.,869,30,8305,8479,0,1,44651,0,0,0,0,0,-1
 8330,Corruption Chain,"On Heroic difficulty, Corruption Chain replaces Corruption Shock.
 
-Embodied Gloom hurls a bolt of corrupted lightning at an enemy, inflicting $145631s1 Nature damage and chaining to enemies within 10 yards.",849,15,8397,0,0,2,0,0,0,135990,3,72,0
-8331,Shared Torment,"Embodied Misery, Sorrow, and Gloom share health.",849,16,7956,0,0,2,0,0,0,236170,2,4096,0
+Embodied Gloom hurls a bolt of corrupted lightning at an enemy, inflicting $145631s1 Nature damage and chaining to enemies within 10 yards.",849,14,8397,0,0,2,0,0,0,135990,3,72,0
+8331,Shared Torment,"Embodied Misery, Sorrow, and Gloom share health.",849,15,7956,0,0,2,0,0,0,236170,2,4096,0
 8333,Icy Fear,The Amalgam inflicts $145735s1 Frost damage to all players every $145733t1 sec. This damage increases as the Amalgam loses health.,866,14,8216,0,8413,2,0,0,0,636332,0,4,-1
 8334,Overview,"Immerseus begins with 100 Corruption, displayed as a visible power bar, and the objective of the encounter is to cleanse him by reducing his Corruption level to 0. Each time Immerseus is reduced to zero health, he Splits into a mix of dark Sha Puddles and watery Contaminated Puddles. Following each Split, Immerseus reforms with reduced health and Corruption depending on how successful the raid was in dealing with the two types of Puddles. 
 
@@ -5437,7 +5436,7 @@ These statues frequently strike the ground, inflicting $145523s1 Physical damage
 These statues remain until killed.",870,8,8352,0,8393,2,0,0,0,458241,1,32,-1
 8395,Embodied Misery,,849,8,7956,7958,8396,1,48920,0,0,0,0,1,-1
 8396,Embodied Sorrow,,849,10,7956,7959,8397,1,48926,0,0,0,0,0,-1
-8397,Embodied Gloom,,849,13,7956,7957,8331,1,48922,0,0,0,0,0,-1
+8397,Embodied Gloom,,849,12,7956,7957,8331,1,48922,0,0,0,0,0,-1
 8398,Lift Hook,Players may use crate lifting hooks to travel from the warehouse subfloor to the main platform throughout the fight.,870,69,0,0,0,2,0,0,0,134226,0,0,-1
 8399,Path of Blossoms,"Charges a distant target, leaving behind a trail of fiery blossoms which on contact, inflict $146257s1 Fire damage to enemies within $146257A1 yards. These blossoms linger for $146255D.
 
@@ -5455,18 +5454,17 @@ Any player damaged by Aura of Pride gains 5 Pride.",867,11,8256,0,8270,2,0,0,0,6
 8409,Overcharged Missile Turret,"When Overcharged, the Shockwave Missile Turret will fire Shockwave Missiles which persist and continuously barrage the platform with drills and seismic energy until destroyed by players.",865,23,8204,0,0,2,0,0,0,839983,2,4096,0
 8410,Overcharged Laser Turret,"When Overcharged, Siegecrafter Blackfuse's laser turrets will fire a split beam, creating three concentric arcs of Superheated ground.",865,26,8208,0,0,2,0,0,0,839983,2,4096,0
 8411,Overcharged Electromagnet,"When Overcharged, the Electromagnet will periodically reverse polarities, pushing both players and sawblades in and out from the magnet.",865,29,8210,0,0,2,0,0,0,839983,2,4096,0
-8412,Overcharged Crawler Mines,"When Overcharged, Crawler Mines activate a construction matrix within their machinery. This construction matrix enables them to create two new Crawler Mines when they are destroyed.",865,34,8212,0,0,2,0,0,0,839983,2,0,0
+8412,Overcharged Crawler Mines,"When Overcharged, Crawler Mines activate a construction matrix within their machinery. This construction matrix enables them to create two new Crawler Mines when they are destroyed.",865,34,8212,0,0,2,0,0,0,839983,2,4096,0
 8413,Frayed,"When the Amalgam reaches 50% health remaining, and for every 10% health lost thereafter, the Amalgam spawns an Unleashed Manifestation of Corruption.",866,15,8216,0,0,2,0,0,0,897135,0,32,-1
-8414,Residual Burn,"Secondary targets are afflicted with Residual Burn, taking $144007s1% increased damage from Inferno Strike for $144007d.",849,12,7959,0,0,2,0,0,0,429590,3,8,0
-8415,Debilitation,"Possessing the Mark of Anguish debilitates targets, decreasing their armor by $147383s1% for $147383D.",849,25,7940,0,0,2,0,0,0,651095,0,0,-1
+8415,Debilitation,"Possessing the Mark of Anguish debilitates targets, decreasing their armor by $147383s1% for $147383D.",849,24,7940,0,0,2,0,0,0,651095,0,0,-1
 8417,Stage One: Bring Her Down!,"Warlord Zaela sends her finest Dragonmaw soldiers to battle. Two guardians keep watch over the Towers above, protecting the Anti-Air turrets. Defeating these guardians will give players access to the Anti-Air turrets.
 
 Two well-timed Anti-Air turret shots will send Galakras spiraling towards the ground.",868,5,0,8421,8418,0,0,0,0,0,1,0,-1
-8418,"Stage Two: Galakras, The Last of His Progeny",,868,38,0,8420,0,0,0,0,0,0,1,0,-1
-8419,Pulsing Flames,"Galakras erupts with molten fury, inflicting $147043s1 Fire damage to all players. Each pulse increases Galakras' Fire damage dealt by $147043s2%.",868,40,8418,0,0,2,0,0,0,524795,0,0,-1
+8418,"Stage Two: Galakras, The Last of His Progeny",,868,37,0,8420,0,0,0,0,0,0,1,0,-1
+8419,Pulsing Flames,"Galakras erupts with molten fury, inflicting $147043s1 Fire damage to all players. Each pulse increases Galakras' Fire damage dealt by $147043s2%.",868,39,8418,0,0,2,0,0,0,524795,0,0,-1
 8420,Flames of Galakrond,"Galakras spews the raw Flames of Galakrond at a random player. Each player through which it passes will suffer $147029s1 Fire damage every $147029t1 second. However, each player it passes through will decrease the severity of the flames, reducing the damage it deals to subsequent players.
 
-When the ball of flame reaches its final destination it will erupt, inflicting $146992s1 Fire damage to all players. This damage is also reduced in severity for each player that diminishes the Flame.",868,39,8418,0,8419,2,0,0,0,135822,0,32,-1
+When the ball of flame reaches its final destination it will erupt, inflicting $146992s1 Fire damage to all players. This damage is also reduced in severity for each player that diminishes the Flame.",868,38,8418,0,8419,2,0,0,0,135822,0,32,-1
 8421,Ranking Officials,,868,6,8417,8422,8427,0,0,0,0,0,0,0,-1
 8422,Master Cannoneer Dagryn,,868,7,8421,8446,8423,1,49341,0,0,0,0,0,-1
 8423,Lieutenant General Krugruk,,868,10,8421,8448,8424,1,51351,0,0,0,0,0,-1
@@ -5476,9 +5474,8 @@ When the ball of flame reaches its final destination it will erupt, inflicting $
 8427,Foot Soldiers,,868,21,8417,8428,8484,0,0,0,0,0,0,0,-1
 8428,Dragonmaw Bonecrusher,"These deadly warriors will charge to a distant faction leader, stunning them. While stunned, they will perform a barrage of deadly attacks to the victim.",868,22,8427,8488,8431,1,50968,0,0,0,0,33,-1
 8429,Dragonmaw Flameslinger,"These deadly archers shoot fire-tipped arrows at random players. The effect inflicts Fire damage on impact, and then burns the ground and any players standing within.",868,26,8427,0,8430,1,50970,0,0,0,0,0,-1
-8430,Dragonmaw Grunt,"Dragonmaw Grunts wade into battle, crushing their enemies with devastating blows. They will also hurl a mighty axe at distant enemies.",868,27,8427,0,8432,1,50984,0,0,0,0,0,-1
+8430,Dragonmaw Grunt,"Dragonmaw Grunts wade into battle, crushing their enemies with devastating blows. They will also hurl a mighty axe at distant enemies.",868,27,8427,0,8586,1,50984,0,0,0,0,0,-1
 8431,Dragonmaw Tidal Shaman,"The Dragonmaw Tidal shaman will cast healing spells on their allies, and summon violent Tidal waves to damage their enemies.",868,24,8427,8489,8429,1,50988,0,0,0,0,96,-1
-8432,Dragonmaw Wind Reaver,"On the wings of their proto-drakes, Dragonmaw Wind Reavers hurl axes at random players, inflicting Physical damage. They will also net random players, rooting them in place.",868,28,8427,0,8586,1,50990,0,0,0,0,0,-1
 8433,Unstable Corruption,"The Sha's energy tears open Rifts of Corruption every $147183t1 sec. Each rift launches a bolt of corruption at a random player's location every $147389t1 sec. Players struck by the bolts suffer $147198s1 Shadow damage and gain 5 Pride.
 
 Players can close the rifts, causing them to explode, inflicting $147388s1 Shadow damage to all players within $147388A1 yards.
@@ -5523,7 +5520,7 @@ Caustic Blood will fail to hit tanks who are using their Active Mitigation abili
 $[!5,6 In Heroic Difficulties mutated victims must use this ability or perish from Faulty Mutation.$]",853,24,8068,8473,0,2,0,0,0,236197,0,2,-1
 8473,Faulty Mutation,"In Heroic Difficulties, mutated victims suffer a Faulty Mutation. If the victim fails to Prey on an Amber Parasite before the Faulty Mutation expires they will perish.",853,25,8472,0,0,2,0,0,0,878216,2,4112,0
 8474,Rapid Fire,"Hisek fires several volleys in rapid succession, with each successive volley moving slightly faster than the previous one. Players caught in the path of the volleys suffer $143240s1 Physical damage each second they are in the volley.",853,29,8016,0,8073,2,0,0,0,132208,2,4096,0
-8475,Reave,Kil'ruk leaps to a random player and begins to spin in place. All players are drawn toward Kil'ruk and suffer Physical damage for $148676d. The damage each player suffers during Reave is decreased as the player gets away from Kil'ruk.,853,76,8004,0,8075,2,0,0,0,132369,2,1,0
+8475,Reave,Kil'ruk leaps to a random player and begins to spin in place. All players are drawn toward Kil'ruk and suffer Physical damage for $148676d. The damage each player suffers during Reave is decreased as the player gets away from Kil'ruk.,853,76,8004,0,8075,2,0,0,0,132369,2,4097,0
 8476,Energized Defensive Matrix,"If three weapons make it through the Assembly Line and into Blackfuse's assembly machine, the machine will become overcharged and use the excess energy to power the defensive systems on Blackfuse's suit, granting him $148990s1% reduced damage for $148990d.",865,12,8194,0,0,2,0,0,0,252184,3,0,0
 8477,Consumed Courage,Causes Courage to spawn nearby when the Embodied Fear is defeated. Courage reduces damage taken by $148983s1%.,869,25,8327,0,8577,2,0,0,0,135939,0,0,-1
 8478,Consumed Faith,Causes Faith to spawn nearby when the Embodied Doubt is defeated. Faith reduces damage taken by $148994s1%. This effect stacks.,869,28,8328,0,8578,2,0,0,0,135939,0,0,-1
@@ -5531,17 +5528,17 @@ $[!5,6 In Heroic Difficulties mutated victims must use this ability or perish fr
 8480,Ethereal Corruption,"Ethereal Corruption lurks within the corrupted Sha realm, instantly killing any player it comes into contact with.",867,23,8259,0,0,2,0,0,0,897134,0,16,-1
 8481,Pheromone Cloud,Inflicts $148760s1 Nature damage every second while alive.,870,21,8353,0,0,2,0,0,0,135867,1,0,-1
 8482,Foul Link,The creatures released from the Test of Serenity copy their damage to the Amalgam of Corruption.,866,33,8231,0,8232,2,0,0,0,607854,1,0,-1
-8484,Allies,,868,32,8417,8485,0,0,0,0,0,0,0,0,-1
-8485,Lady Sylvanas Windrunner,"Lady Sylvanas fires with precision at her enemies, occasionally awakening the dead to do her bidding.",868,33,8484,0,8486,1,50181,0,0,0,0,0,-1
-8486,Archmage Aethas Sunreaver,,868,34,8484,8487,8490,1,51607,0,0,0,0,32,-1
-8487,Flamestrike,"Aethas calls down a flamestrike that lasts $148848d., inflicting $147431s1 Fire damage every $146787t1 sec. to all enemies in a selected area.",868,35,8486,0,0,2,0,0,0,451164,0,32,-1
+8484,Allies,,868,31,8417,8485,0,0,0,0,0,0,0,0,-1
+8485,Lady Sylvanas Windrunner,"Lady Sylvanas fires with precision at her enemies, occasionally awakening the dead to do her bidding.",868,32,8484,0,8486,1,50181,0,0,0,0,0,-1
+8486,Archmage Aethas Sunreaver,,868,33,8484,8487,8490,1,51607,0,0,0,0,32,-1
+8487,Flamestrike,"Aethas calls down a flamestrike that lasts $148848d., inflicting $147431s1 Fire damage every $146787t1 sec. to all enemies in a selected area.",868,34,8486,0,0,2,0,0,0,451164,0,32,-1
 8488,Fracture,"The Dragonmaw Bonecrusher charges to a distant Faction Leader, stunning them and inflicting $146901s1% of the leader's health every $t1 sec.",868,23,8428,0,0,2,0,0,0,132152,0,33,-1
 8489,Healing Tide Totem,The Dragonmaw Tidal Shaman summons a totem at the Shaman's feet that heals nearby allies for $146755s1% of their total health every $146754t1 seconds for $146754d.,868,25,8431,0,0,2,0,0,0,538569,0,32,-1
-8490,Lor'themar Theron,"Lor'themar fights with fervor charging enemies with his blade, the Great Sword of the Sin'dorei, and picking off stragglers with his enchanted bow.",868,36,8484,0,8535,1,17122,0,0,0,0,0,-1
-8532,Dragonmaw Flagbearer,"Dragonmaw Flagbearers inspire those around them, dropping a banner that increases melee, ranged, and spell casting speed by $146735s1%. It also increases damage dealt by $146735s3% for all friendly targets within 15 yards for $146735d.",868,30,8427,0,8533,1,50979,0,0,0,0,0,-1
-8533,Kor'kron Demolisher,"Warlord Zaela turns her siege weapons against her own towers, bombarding those inside. Bombard inflicts $148311s1 Physical damage and knocks down players inside the bombarded tower.",868,31,8427,0,0,1,51007,0,0,0,0,0,-1
+8490,Lor'themar Theron,"Lor'themar fights with fervor charging enemies with his blade, the Great Sword of the Sin'dorei, and picking off stragglers with his enchanted bow.",868,35,8484,0,8535,1,17122,0,0,0,0,0,-1
+8532,Dragonmaw Flagbearer,"Dragonmaw Flagbearers inspire those around them, dropping a banner that increases melee, ranged, and spell casting speed by $146735s1%. It also increases damage dealt by $146735s3% for all friendly targets within 15 yards for $146735d.",868,29,8427,0,8533,1,50979,0,0,0,0,0,-1
+8533,Kor'kron Demolisher,"Warlord Zaela turns her siege weapons against her own towers, bombarding those inside. Bombard inflicts $148311s1 Physical damage and knocks down players inside the bombarded tower.",868,30,8427,0,0,1,51007,0,0,0,0,0,-1
 8534,Crimson Acid,Adds a harsh acid to the Crimson Reconstitution anima pools. Any players which remain in the pool are damaged for $149280s1 Fire damage every second.,870,27,8372,0,0,0,0,0,0,0,3,4096,0
-8535,Demolition Crew,"The Demolition crew will attempt to breach the doors barring the Anti-Air towers. If they are not protected, then the door breaching progress will be interrupted.",868,37,8484,0,0,1,51428,0,0,0,2,4096,0
+8535,Demolition Crew,"The Demolition crew will attempt to breach the doors barring the Anti-Air towers. If they are not protected, then the door breaching progress will be interrupted.",868,36,8484,0,0,1,51428,0,0,0,2,4096,0
 8537,Stage One: Bring Her Down!,"Warlord Zaela sends her finest Dragonmaw soldiers to battle. Two guardians keep watch over the Towers above, protecting the Anti-Air turrets. Defeating these guardians will give players access to the Anti-Air turrets.
 
 Two well-timed Anti-Air turret shots will send Galakras spiraling towards the ground.",881,5,0,8538,8573,0,0,0,0,0,1,0,-1
@@ -5568,34 +5565,33 @@ Afterwards, Thranok rears back to execute his savage attack, Skull Cracker, that
 8556,Dragonmaw Tidal Shaman,"The Dragonmaw Tidal Shaman cast healing spells on their allies, and summon violent Tidal waves to damage their enemies.",881,24,8553,8557,8558,1,50988,0,0,0,0,96,-1
 8557,Healing Tide Totem,The Dragonmaw Tidal Shaman summons a totem at the Shaman's feet that heals nearby allies for $146755s1% of their total health every $146754t1 seconds for $146754d.,881,25,8556,0,0,2,0,0,0,538569,0,32,-1
 8558,Dragonmaw Flameslinger,"These deadly archers shoot fire-tipped arrows at random players. The effect inflicts Fire damage on impact, and then burns the ground and any players standing within.",881,26,8553,0,8559,1,50970,0,0,0,0,0,-1
-8559,Dragonmaw Grunt,"Dragonmaw Grunts wade into battle, crushing their enemies with devistating blows. They will also hurl a mighty axe at distant enemies.",881,27,8553,0,8560,1,50984,0,0,0,0,0,-1
-8560,Dragonmaw Wind Reaver,"On the wings of their proto-drakes, Dragonmaw Wind Reavers hurl axes at random players, inflicting Physical damage. They will also net random players, rooting them in place.",881,28,8553,0,8587,1,50990,0,0,0,0,0,-1
-8561,Dragonmaw Flagbearer,"Dragonmaw Flagbearers inspire those around them, dropping a banner that increases melee, ranged, and spell casting speed by $146735s1%. It also increases damage dealt by $146735s3% for all friendly targets within 15 yards for $146735d.",881,30,8553,0,8562,1,50979,0,0,0,0,0,-1
-8562,Kor'kron Demolisher,"Warlord Zaela turns her siege weapons against her own towers, bombarding those inside. Bombard inflicts $148311s1 Physical damage and knocks down players inside the bombarded tower.",881,31,8553,0,0,1,51007,0,0,0,0,0,-1
-8563,Allies,,881,32,8537,8568,0,0,0,0,0,0,0,0,-1
-8568,Lady Jaina Proudmoore,,881,33,8563,8569,8570,1,51610,0,0,0,1,32,-1
-8569,Blizzard,"Jaina calls down a blizzard that lasts $147431d., inflicting $147431s1 Frost damage every $147431t1 sec. to all enemies in a selected area.",881,34,8568,0,0,2,0,0,0,135857,0,32,-1
-8570,Vereesa Windrunner,"Vereesa Windrunner fires with precision at her enemies, occasionally striking multiple enemies.",881,35,8563,0,8571,1,51609,0,0,0,0,0,-1
-8571,King Varian Wyrnn,King Varian Wrynn devastates his enemies with a storm of swords. He will occasionally taunt enemies to engage them face-to-face.,881,36,8563,0,8572,1,28127,0,0,0,0,0,-1
-8572,Demolition Crew,"The Demolition crew will attempt to breach the doors barring the Anti-Air towers. If they are not protected, then the door breaching progress will be interrupted.",881,37,8563,0,0,1,51383,0,0,0,2,4096,0
-8573,"Stage Two: Galakras, The Last of His Progeny",,881,38,0,8574,0,0,0,0,0,0,1,0,-1
+8559,Dragonmaw Grunt,"Dragonmaw Grunts wade into battle, crushing their enemies with devistating blows. They will also hurl a mighty axe at distant enemies.",881,27,8553,0,8587,1,50984,0,0,0,0,0,-1
+8561,Dragonmaw Flagbearer,"Dragonmaw Flagbearers inspire those around them, dropping a banner that increases melee, ranged, and spell casting speed by $146735s1%. It also increases damage dealt by $146735s3% for all friendly targets within 15 yards for $146735d.",881,29,8553,0,8562,1,50979,0,0,0,0,0,-1
+8562,Kor'kron Demolisher,"Warlord Zaela turns her siege weapons against her own towers, bombarding those inside. Bombard inflicts $148311s1 Physical damage and knocks down players inside the bombarded tower.",881,30,8553,0,0,1,51007,0,0,0,0,0,-1
+8563,Allies,,881,31,8537,8568,0,0,0,0,0,0,0,0,-1
+8568,Lady Jaina Proudmoore,,881,32,8563,8569,8570,1,51610,0,0,0,1,32,-1
+8569,Blizzard,"Jaina calls down a blizzard that lasts $147431d., inflicting $147431s1 Frost damage every $147431t1 sec. to all enemies in a selected area.",881,33,8568,0,0,2,0,0,0,135857,0,32,-1
+8570,Vereesa Windrunner,"Vereesa Windrunner fires with precision at her enemies, occasionally striking multiple enemies.",881,34,8563,0,8571,1,51609,0,0,0,0,0,-1
+8571,King Varian Wyrnn,King Varian Wrynn devastates his enemies with a storm of swords. He will occasionally taunt enemies to engage them face-to-face.,881,35,8563,0,8572,1,28127,0,0,0,0,0,-1
+8572,Demolition Crew,"The Demolition crew will attempt to breach the doors barring the Anti-Air towers. If they are not protected, then the door breaching progress will be interrupted.",881,36,8563,0,0,1,51383,0,0,0,2,4096,0
+8573,"Stage Two: Galakras, The Last of His Progeny",,881,37,0,8574,0,0,0,0,0,0,1,0,-1
 8574,Flames of Galakrond,"Galakras spews the raw Flames of Galakrond at a random player. Each player through which it passes will suffer $147029s1 Fire damage every $147029t1 second. However, each player it passes through will decrease the severity of the flames, reducing the damage it deals to subsequent players.
 
-When the ball of flame reaches its final destination it will erupt, inflicting $146992s1 Fire damage to all players. This damage is also reduced in severity for each player that diminishes the Flame.",881,39,8573,0,8575,2,0,0,0,135822,0,32,-1
-8575,Pulsing Flames,"Galakras erupts with molten fury, inflicting $147043s1 Fire damage to all players. Each pulse increases Galakras' Fire damage dealt by $147043s2%.",881,40,8573,0,0,2,0,0,0,524795,0,0,-1
+When the ball of flame reaches its final destination it will erupt, inflicting $146992s1 Fire damage to all players. This damage is also reduced in severity for each player that diminishes the Flame.",881,38,8573,0,8575,2,0,0,0,135822,0,32,-1
+8575,Pulsing Flames,"Galakras erupts with molten fury, inflicting $147043s1 Fire damage to all players. Each pulse increases Galakras' Fire damage dealt by $147043s2%.",881,39,8573,0,0,2,0,0,0,524795,0,0,-1
 8576,Paragon's Purpose,"Whenever a Klaxxi Paragon is defeated all other active Klaxxi Paragons heal to full. 
-All active Paragons gain a stacking $143482s1% damage bonus every 50 seconds.",853,7,8001,0,8003,2,0,0,0,646377,2,0,0
-8577,Crushing Fear,"While in the Terrace of the Endless Spring, random enemies are targeted with Crushing Fear. Crushing Fear inflicts $147324s1 Shadow damage and inflicts fear on enemies within $147324A1 yards for $147324d.",869,26,8327,0,0,2,0,0,0,651097,2,0,0
-8578,Embodied Doubt,"Any Embodied Doubt in the Temple of the Jade Serpent will cast Embodied Doubt, inflicting $149347s1 Shadow damage to all enemies within the realm of Y'Shaarj. Increases damage taken by Embodied Doubt by $149347s2%. Stacks.",869,29,8328,0,0,2,0,0,0,651092,2,0,0
-8579,Ultimate Despair,Death of an Embodied Despair causes the other to cast Ultimate Despair. Inflicting $147342s1 Shadow damage and increases damage taken by Ultimate Despair by $147342s2%. Stacks.,869,32,8329,0,0,2,0,0,0,895887,2,0,0
+All active Paragons gain a stacking $143482s1% damage bonus every 50 seconds.",853,7,8001,0,8003,2,0,0,0,646377,2,4096,0
+8577,Crushing Fear,"While in the Terrace of the Endless Spring, random enemies are targeted with Crushing Fear. Crushing Fear inflicts $147324s1 Shadow damage and inflicts fear on enemies within $147324A1 yards for $147324d.",869,26,8327,0,0,2,0,0,0,651097,2,4096,0
+8578,Embodied Doubt,"Any Embodied Doubt in the Temple of the Jade Serpent will cast Embodied Doubt, inflicting $149347s1 Shadow damage to all enemies within the realm of Y'Shaarj. Increases damage taken by Embodied Doubt by $149347s2%. Stacks.",869,29,8328,0,0,2,0,0,0,651092,2,4096,0
+8579,Ultimate Despair,Death of an Embodied Despair causes the other to cast Ultimate Despair. Inflicting $147342s1 Shadow damage and increases damage taken by Ultimate Despair by $147342s2%. Stacks.,869,32,8329,0,0,2,0,0,0,895887,2,4096,0
 8580,Blood Frenzied,Blood Frenzied causes the Kor'kron Warbringers to attack nearby enemies.,869,12,8292,0,0,2,0,0,0,135726,2,4096,0
 8581,Breaking Loose!,,851,15,7961,8582,0,0,0,0,0,0,2,4096,0
 8582,Starved Yeti,,851,16,8581,8583,8584,1,51403,0,0,0,0,0,-1
 8583,Wrecking Ball,"The Starved Yeti charges to random locations, inflicting $148143s1 Physical damage and knocking back all players in its path.",851,17,8582,0,0,2,0,0,0,252185,0,0,-1
 8584,Captive Cave Bat,,851,18,8581,8585,0,1,51444,0,0,0,0,0,-1
 8585,Vampiric Frenzy,"A random cave bat will enter a vampiric frenzy, inflicting $147978s1 Physical damage to all enemies. A portion of this damage is returned to the caster as health.",851,19,8584,0,0,2,0,0,0,136231,1,0,-1
-8586,Dragonmaw Proto-Drake,Dragonmaw Proto-Drakes channel a frontal cone of flame on their enemies.,868,29,8427,0,8532,1,51501,0,0,0,0,0,-1
-8587,Dragonmaw Proto-Drake,Dragonmaw Proto-Drakes channel a frontal cone of flame on their enemies.,881,29,8553,0,8561,1,51501,0,0,0,0,0,-1
+8586,Dragonmaw Proto-Drake,Dragonmaw Proto-Drakes channel a frontal cone of flame on their enemies.,868,28,8427,0,8532,1,51501,0,0,0,0,0,-1
+8587,Dragonmaw Proto-Drake,Dragonmaw Proto-Drakes channel a frontal cone of flame on their enemies.,881,28,8553,0,8561,1,51501,0,0,0,0,0,-1
 8620,Gog'duh,,893,6,9292,8630,0,1,51923,0,0,0,1,0,-1
 8621,Magmolatus,Magmolatus assaults players with a fierce combination of earth and fire.,893,16,9293,8634,0,1,52033,0,0,0,1,0,-1
 8622,"Ruination, Servant of the Earth",,893,8,8620,8624,8626,1,17461,0,0,0,1,0,-1

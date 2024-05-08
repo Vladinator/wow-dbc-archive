@@ -329,6 +329,35 @@ function ActorDecalSettings:Default()
 end
 
 --
+-- ActorTalkingHeadData Functions
+--
+
+-- backwards compatibility
+if (not TalkingHeadData) then
+	TalkingHeadData = { }
+end
+
+function TalkingHeadData:Default()
+	local m = 
+	{	
+		creatureID = 0,
+		creatureDisplayInfoID = 0,
+		uiCameraID = 0,
+		animKitIDOneShot = 0,
+		duration = 0.0,
+		broadcastTextID = 0,
+		animLoopID = 0,
+		talkingHeadPose = 0,
+		speechType = 0,
+	}
+	if (self.__meta) then
+		setmetatable(m, self.__meta)
+	end
+	return m
+end
+
+
+--
 -- ActorCreateData Functions
 --
 function ActorCreateData:Default()
@@ -347,25 +376,7 @@ function ActorCreateData:Default()
 		wmoGameObjectDisplayID = 0,
 		model = """",
 		modelFileID = 0,
-		scale = 1.0,
-		facingOffset = 0.0,
-		name = """",
-		transform = Transform:New(),
-		hoverHeight = 0.0,
-		groundSnap = true,
-		interactible = true,
-		selectable = false,
-		floatingTooltip = true,
-		hasShadow = false,
-		smoothPhase = false,
-		trackGround = false,
-		noTransformUpdates = false,
-		copyAnim = false,
-		freezeAnim = false,
-		noShadow = false,
-		disableUpdates = false,
-		aoiSettings = ActorAOISettings:Default(),
-		overrideReaction = "
+"
 10,Global Functions - Math,"--
 -- Math
 -- These Scripts have been added to SVN, if you make a change here, update it
@@ -2496,6 +2507,7 @@ local wrappers =
     soundKit = 'skid',
 	spell = 'sid',
     spellVisual = 'svid',
+    uiCamera = 'uicid',
 	weather = 'wid',
 }
 
@@ -2503,7 +2515,25 @@ local env = getfenv();
 for t, shortcut in pairs(wrappers) do
 	env[shortcut] = function(id) return id end;
 end"
-26422,[1] Global Functions - Actor,"ReactionType.Default,
+26422,[1] Global Functions - Actor,"		scale = 1.0,
+		facingOffset = 0.0,
+		name = """",
+		transform = Transform:New(),
+		hoverHeight = 0.0,
+		groundSnap = true,
+		interactible = true,
+		selectable = false,
+		floatingTooltip = true,
+		hasShadow = false,
+		smoothPhase = false,
+		trackGround = false,
+		noTransformUpdates = false,
+		copyAnim = false,
+		freezeAnim = false,
+		noShadow = false,
+		disableUpdates = false,
+		aoiSettings = ActorAOISettings:Default(),
+		overrideReaction = ReactionType.Default,
 		overrideMinLod = 0,
 		overrideLinkage = Linkage.Default,
 		sceneEditorActorID = 0,

@@ -24375,7 +24375,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 32789,Obtain 250 Stacks of Tortos' Geyser Spray,0,0,4,0,0,0
 32790,,32789,1,0,23339,0,0
 32791,High Seas Scenario - Bonus Objectives,0,0,4,0,0,0
-32792,Defeat Admiral Hagman (Timed),32791,1,0,23340,0,0
+32792,Defeat Admiral Hagman (Timed),32791,1,0,68047,0,0
 32793,Defeat Borokhula the Destroyer on Heroic Difficulty,0,0,4,0,0,0
 32794,Defeat Borokhula the Destroyer,32793,1,0,23341,0,0
 32795,Scenario - Ancient Mogu Crypt - Kill Boss (Heroic),0,0,4,0,0,0
@@ -24392,10 +24392,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 32815,Complete Scenario: Blood in the Snow,0,0,4,0,0,0
 32816,,32815,1,0,23347,0,2
 32817,Return the barrels within 5 minutes.,32807,0,0,23348,0,0
-32818,Scenario - Brewing - Bonus Objective,0,0,4,0,0,0
-32820,Borokhula slain (Timed),32818,1,0,23350,0,0
+32818,Scenario - Brewing - Bonus Objective,0,1,4,0,0,0
 32821,Scenario - Crypt - Bonus Objective,0,0,4,0,0,0
-32822,Abomination of Anger slain (Timed),32821,1,0,23351,0,0
+32822,Abomination of Anger slain (Timed),32821,1,0,66297,0,0
 32825,Scenario - Heart - Complete Scenario,0,0,4,0,0,0
 32826,,32825,1,0,23251,0,2
 32827,Scenario - Heart - Complete Scenario (Heroic),0,0,4,0,0,0
@@ -24980,8 +24979,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 33597,Sufficient Superheated Mines Stomped,33596,1,0,23722,0,0
 33598,Return From Darkness,0,0,4,0,0,0
 33599,No Pride Gained from Manifestations of Pride,33598,1,0,23723,0,0
-33600,Seat and serve as many customers as you can,0,0,4,0,0,0
-33601,Seat and serve as many customers as you can,33600,1,0,23872,0,0
+33600,Seat and serve as many customers as you can in 5 minutes,0,0,4,0,0,0
+33601,Seat and serve as many customers as you can in 5 minutes,33600,1,0,23872,0,0
 33602,"Earn a Score of at least 20,000",0,0,4,0,0,0
 33603,"Earn a score of at least 20,000",33602,20000,0,23724,0,0
 33606,Win 100 Arena (3v3) matches in Season 14,33508,100,0,23681,0,1
@@ -25282,8 +25281,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 33919,,33918,1,0,15308,0,2
 33924,Learn how to run the noodle stand,0,0,4,0,0,0
 33925,Learn to run the noodle stand,33924,1,0,23871,0,0
-33926,Seat and serve as many customers as you can,0,0,4,0,0,0
-33927,Seat and serve as many customers as you can,33926,0,0,23872,0,0
+33926,Seat and serve as many customers as you can in 5 minutes,0,0,4,0,0,0
+33927,Seat and serve as many customers as you can in 5 minutes,33926,0,0,23872,0,0
 33928,"Get a score of at least 30,000",0,0,4,0,0,0
 33929,"Get a score of at least 30,000",33928,30000,0,23873,0,2048
 33931,Achievement - Draenor Quest - Frostfire Ridge - Horde (CSA),0,0,4,0,0,0
@@ -81029,6 +81028,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 141977,,141971,0,0,57371,5,0
 141978,,141971,0,0,57372,6,0
 141979,Elemental Overflow obtained,0,3,4,0,0,1
+141980,Elemental Overflow obtained,141979,500,0,57373,0,1
 141981,Dragonriding courses completed,0,15,5,0,0,8193
 141982,,141981,0,0,57374,0,0
 141983,Intricately-Painted Eggs or Magnificently-Painted Egg placed,0,1,8,0,0,1
@@ -82579,8 +82579,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 143951,,143949,0,0,60085,0,0
 143955,Zskera Vaults weekly quests completed,0,2,5,0,0,8193
 143956,,143955,0,0,58654,0,0
-143957,Heritage: Core - Heritage Armor Quest Launch [Login],0,0,4,0,0,8194
-143958,,143957,1,0,58655,0,0
+143957,Heritage: Core - Heritage Armor Quest Launch [Login],0,1,8,0,0,8194
+143958,,143957,0,0,58655,0,0
 143959,Dragon Isles pet tamers defeated,0,4,5,0,0,1
 143960,Izal Whitemoon,143959,1,0,58656,0,0
 143961,Vikshi Thunderpaw,143959,1,0,58657,1,0
@@ -82621,15 +82621,15 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 143997,,143996,0,0,58684,0,0
 143998,Lunkers landed,0,1,5,0,0,8193
 143999,,143998,0,0,58685,0,0
-144000,Children's Week quests completed,0,4,8,0,0,1
-144001,A Warden of the Alliance,144000,0,0,58663,0,1
-144002,A Warden of the Horde,144000,0,0,58664,1,1
-144003,Back to the Orphanage with Dornaa,144000,0,0,58665,2,1
-144004,Back to the Orphanage with Salandria,144000,0,0,58666,3,1
+144000,Children's Week quests completed,0,4,5,0,0,1
+144001,A Warden of the Alliance,144000,1,0,58663,0,1
+144002,A Warden of the Horde,144000,1,0,58664,1,1
+144003,Back to the Orphanage with Dornaa,144000,1,0,58665,2,1
+144004,Back to the Orphanage with Salandria,144000,1,0,58666,3,1
 144005,Back to the Orphanage with Roo,144000,1,8,0,7,8193
 144006,Back to the Orphanage with Kekek,144000,1,8,0,6,8193
-144007,Return to the Orphanage with Liam,144000,0,0,58669,4,1
-144008,Return to the Hall of Castes with Azala,144000,0,0,58670,5,1
+144007,Return to the Orphanage with Liam,144000,1,0,58669,4,1
+144008,Return to the Hall of Castes with Azala,144000,1,0,58670,5,1
 144009,10.1 Underground - Campaign - Ch 1 - Q05 - The Throughway - S4,0,0,4,0,0,0
 144010,Portalkeeper Cimbra slain,144009,1,0,58372,1,0
 144011,Paera Finebreeze cheered at,0,1,4,0,0,8193
@@ -85177,14 +85177,14 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 146844,,143873,5,0,58592,10,0
 146845,10.1 Niffen Cave Dive,0,1,5,0,0,4096
 146846,,146845,0,0,60257,0,0
-146847,Back to the Orphanage with Kekek,144006,0,0,58668,1,0
-146848,,144006,0,0,60259,0,3
+146847,Back to the Orphanage with Kekek,144006,1,0,58668,1,0
+146848,,144006,1,0,60259,0,3
 146849,,146852,1,0,60258,1,3
 146850,,146851,1,0,60259,0,3
 146851,Back to the Orphanage with Kekek,143968,1,8,0,6,8192
 146852,Back to the Orphanage with Roo,143968,1,8,0,7,8192
-146853,Back to the Orphanage with Roo,144005,0,0,58667,0,0
-146854,,144005,0,0,60258,1,3
+146853,Back to the Orphanage with Roo,144005,1,0,58667,0,0
+146854,,144005,1,0,60258,1,3
 146855,Scourge - Base Spawn 01,0,0,4,0,0,0
 146856,Scourge - Base Spawn 02,0,0,4,0,0,0
 146857,Scourge - Base Spawn 03,0,0,4,0,0,0
@@ -85991,8 +85991,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 147872,,147871,1,0,60836,0,1
 147873,Dreamsurged rare elites defeated,0,15,5,0,0,8193
 147874,,147873,1,0,60836,0,1
-147875,Dreamsurge Coalescence collected,0,100,4,0,0,1
-147876,Dreamsurge Coalescence collected,147875,100,0,64420,0,1
+147875,Dreamsurge Coalescence collected,0,100,5,0,0,8193
 147877,Reconciliation storyline completed,0,1,4,0,0,0
 147878,On New Wings,147877,1,0,60838,6,0
 147879,Timewalking dungeons completed,0,1,5,0,0,8193
@@ -87088,8 +87087,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 149011,"Ohn'ahran Plains, Rusza'Thar Reach",147397,1,0,61569,1,0
 149012,"The Azure Span, Camp Nowhere",147397,1,0,61570,7,0
 149013,"Thaldraszus, Algeth'era Court",147397,1,0,61571,3,0
-149014,Dreamsurge Coalescence collected,0,100,4,0,0,1
-149015,Dreamsurge Coalescence collected,149014,250,0,64420,0,1
+149014,Dreamsurge Coalescence collected,0,250,5,0,0,8193
+149015,,149014,1,0,68027,0,1
 149016,Cooking levels gained,0,20,5,0,0,8193
 149017,,149016,1,0,61574,0,0
 149018,Epic or legendary feast eaten,0,1,8,0,0,8192
@@ -89272,7 +89271,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 152012,,152011,1,0,63418,0,0
 152015,10.2 Raid - Kill Raid Boss (KCO),0,1,5,0,0,4096
 152016,,152015,1,0,63423,0,0
-152017,Follower dungeons completed,0,0,4,0,0,8193
+152017,Follower dungeon completed,0,0,4,0,0,8193
 152018,,152017,1,0,63420,0,1
 152019,10.2 Dream - Complete Chp 1 - Profession Unlock - (POC),0,0,4,0,0,4096
 152020,,152019,1,0,63421,0,0
@@ -89359,7 +89358,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 152985,10.2 Raid - Dream - Boss - Druid - Achievement - ML,0,0,4,0,0,0
 152986,,152985,0,0,64337,0,0
 152989,Delivery to Zenata!,0,100,4,0,0,0
-152990,Zenata's Study,152989,1,0,64341,0,0
+152990,Bring Eadweard's crate to Zenata,152989,1,0,64341,0,0
 152991,,151376,450,0,64339,1,0
 152992,,151376,450,0,64340,2,0
 152993,,151682,463,0,64339,1,0
@@ -90045,7 +90044,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 154233,Levels gained,0,10,5,0,0,8193
 154234,,154233,1,0,65034,0,0
 154235,PvP Pet Battles,0,0,4,0,0,1
-154236,PvP pet battle won with humanoid pets,154235,1,0,65035,0,1
+154236,PvP pet battle won,154235,1,0,65035,0,1
 154237,Foods eaten,0,5,8,0,0,1
 154238,Lemon Silverleaf Tea,154237,0,0,65201,0,0
 154239,Cinna-Cinderbloom Tea,154237,0,0,65200,1,0
@@ -90242,6 +90241,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 154503,Slay Gnolls,154502,29,0,65248,0,1
 154504,First login during anniversary event OLD,0,0,4,0,0,0
 154505,"OLDHS Anniversary is running, player is 60+ and their tracking quest is clear",154504,2,0,65249,0,0
+154554,,143957,0,0,65271,1,0
 154588,"Sending Dragon Isles Drakes: White Scales through an achiement reward to players that have completed ""Time to Process"" (QID77344) but not gotten the reward.",0,0,4,0,0,0
 154589,Has completed quest and Meets condition,154588,0,0,65284,0,0
 154590,10.2.5 Gilneas - Complete Gilneas Chain (CGT),0,1,4,0,0,32
@@ -90252,6 +90252,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 154595,10.2.5 Gilneas - Complete Gilneas Chain (Character) (CGT),0,1,8,0,0,32
 154596,Complete the Return to Lordaeron storyline.,154595,1,0,65286,0,2
 154597,Complete the Return to Lordaeron storyline.,154595,1,0,65285,1,2
+154598,[DNT] Cloak upgraded,0,1,8,0,0,0
+154599,,154598,0,0,65288,0,0
+154600,[DNT] Thread used,0,1,8,0,0,4096
 154602,Nothrend Dragon Racing Completionist,0,0,4,0,0,0
 154603,,154602,1,0,65294,0,32
 154604,,154602,1,0,65290,1,32
@@ -90309,6 +90312,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 154813,Achievement - Dragonflight Season 4 Draconic Hero (Top 0.1%),0,0,4,0,0,0
 154814,,154813,1,0,65363,0,0
 154815,,154813,1,1,65364,1,2
+154820,,154600,0,0,65367,0,0
+154821,[DNT] teleport to ship,0,1,8,0,0,4096
+154822,,154821,0,0,65368,0,0
 154823,,136250,0,0,65369,8,0
 154824,Hand of Protection,154661,1,0,65370,13,16
 154825,Rocks gathered,0,10,4,0,0,0
@@ -90376,8 +90382,791 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 154899,,149808,0,0,65440,21,0
 154900,,149808,0,0,65441,22,0
 154901,,149808,0,0,65442,23,0
+154909,10.2.7 Timewalking Season - Pandaria - Journey - Meta - 01 - Jade Forest,0,2,8,0,0,0
+154911,Order of the Cloud Serpent exalted,154909,1,0,65501,1,0
+154912,Complete the Jade Forest campaign,154909,1,0,65467,0,0
+154914,Tour Jade Forest,154909,1,0,65500,2,0
+154916,Jade Forest group content completed,154909,1,0,65465,3,0
+154930,10.2.7 Timewalking Season - Pandaria - Journey - Meta - 02 - Valley of the Four Winds,0,2,8,0,0,0
+154931,10.2.7 Timewalking Season - Pandaria - Journey - Meta - 03 - Krasarang Wilds,0,1,8,0,0,0
+154932,10.2.7 Timewalking Season - Pandaria - Journey - Meta - 04 - Kun-Lai Summit,0,2,8,0,0,0
+154933,10.2.7 Timewalking Season - Pandaria - Journey - Meta - 05 - Vale of Eternal Blossoms,0,2,8,0,0,0
+154934,10.2.7 Timewalking Season - Pandaria - Journey - Meta - 06 - Townlong Steppes,0,2,8,0,0,0
+154935,10.2.7 Timewalking Season - Pandaria - Journey - Meta - 07 - Dread Wastes,0,2,8,0,0,0
+154936,10.2.7 Timewalking Season - Pandaria - Journey - Meta - 09 - Landfall,0,2,8,0,0,0
+154937,10.2.7 Timewalking Season - Pandaria - Journey - Meta - 10 - Isle of Thunder,0,1,8,0,0,0
+154938,10.2.7 Timewalking Season - Pandaria - Journey - Meta - 12 - Escalation,0,3,8,0,0,0
+154940,10.2.7 Timewalking Season - Pandaria - Journey - Meta - 11 - Timeless Isle,0,1,8,0,0,0
+154941,10.2.7 Timewalking Season - Pandaria - Journey - Meta - 00 - Timerunning Systems,0,0,4,0,0,0
+154942,10.2.7 Timewalking Season - Pandaria - Journey - Rares - 10 - Timeless Isle - Rare Elite,0,3,8,0,0,0
+154987,Equip the Cloak of the Infinite,154941,0,4,0,0,0
+154988,,154987,1,0,65459,0,0
+154989,10.2.7 Timewalking Season - Pandaria - Journey - Party - 01 - Jade Forest,0,0,4,0,0,0
+154990,,154989,1,0,66126,1,32
+154991,,154989,1,0,66127,2,32
+154992,10.2.7 Timewalking Season - Pandaria - Journey - Dungeon - 01 - Temple of the Jade Serpent - 01 - N,0,0,4,0,0,0
+154993,,154992,1,0,65524,0,0
+154998,,154989,1,0,66125,0,32
+155001,10.2.7 Timewalking Season - Pandaria - Journey - Rares - 01 - Jade Forest,0,3,8,0,0,0
+155002,Kor'nas Nightsavage,155001,1,0,65470,0,0
+155003,Morgrinn Crackfang,155001,1,0,65471,1,0
+155004,Krax'ik,155001,1,0,65472,2,0
+155005,Aethis,155001,1,0,65473,3,0
+155006,Sarnak,155001,1,0,65474,4,0
+155007,Urobi the Walker,155001,1,0,65475,5,0
+155008,Mister Ferocious,155001,1,0,65476,6,0
+155009,Ferdinand,155001,1,0,65477,7,0
+155011,10.2.7 Timewalking Season - Pandaria - Journey - Treasures - 01 - Jade Forest,0,2,8,0,0,0
+155012,Ship's Storage,155011,1,0,65478,0,0
+155013,Ancient Pandaren Tea Pot,155011,1,0,65479,1,0
+155014,Lucky Pandaren Coin,155011,1,0,65480,2,0
+155015,Pandaren Ritual Stone,155011,1,0,65481,3,0
+155016,10.2.7 Timewalking Season - Pandaria - Journey - Treasures - 02 - Valley of Four Winds + Veiled Stair,0,1,8,0,0,0
+155017,Virmen Treasure Cache,155016,1,0,65495,0,0
+155018,The Hammer of Folly,155016,1,0,65496,1,0
+155019,10.2.7 Timewalking Season - Pandaria - Journey - Treasures - 04 - Kun-Lai Summit,0,3,8,0,0,0
+155020,Hozen Treasure Cache,155019,1,0,65484,0,0
+155021,Stolen Sprite Treasure,155019,1,0,65485,1,0
+155022,Statue of Xuen,155019,1,0,65486,2,0
+155023,Lost Adventurer's Belongings,155019,1,0,65487,3,0
+155024,Rikktik's Tick Remover,155019,1,0,65488,4,0
+155025,Ancient Mogu Tablet,155019,1,0,65489,5,0
+155026,Terracotta Head,155019,1,0,65490,6,0
+155027,10.2.7 Timewalking Season - Pandaria - Journey - Treasures - 05 - Townlong Steppes,0,2,8,0,0,0
+155028,Fragment of Dread,155027,1,0,65491,0,0
+155029,Hardened Sap of Kri'vess,155027,1,0,65492,1,0
+155030,Amber Encased Moth,155027,1,0,65493,2,0
+155031,Abandoned Crate of Goods,155027,1,0,65494,3,0
+155032,10.2.7 Timewalking Season - Pandaria - Journey - Treasures - 03 - Krasarang Wilds,0,18,4,0,0,0
+155033,Saurok Stone Tablet,155032,1,0,65483,0,0
+155038,10.2.7 Timewalking Season - Pandaria - Journey - Tour - 01 - Jade Forest,0,0,4,0,0,0
+155039,Explore Jade Forest,155038,1,0,65468,0,0
+155040,Defeat Jade Forest rare enemies,155038,1,0,65498,1,0
+155041,Recover Jade Forest treasures,155038,1,0,65499,2,0
+155042,10.2.7 Timewalking Season - Pandaria - Journey - Tour - 02 - Valley of the Four Winds,0,0,4,0,0,0
+155043,Explore Valley of the Four Winds,155042,1,0,65504,0,0
+155044,Defeat Valley of the Four Winds rare enemies,155042,1,0,65505,1,0
+155045,Recover Valley of the Four Winds treasures,155042,1,0,65506,2,0
+155046,10.2.7 Timewalking Season - Pandaria - Journey - Tour - 03 - Krasarang Wilds,0,0,4,0,0,0
+155047,Explore Krasarang Wilds,155046,1,0,65507,0,0
+155048,Defeat Krasarang Wilds rare enemies,155046,1,0,65508,1,0
+155049,Recover Krasarang Wilds treasures,155046,1,0,65509,2,0
+155050,10.2.7 Timewalking Season - Pandaria - Journey - Tour - 04 - Kun-Lai Summit,0,0,4,0,0,0
+155051,Explore Kun-Lai Summit,155050,1,0,65510,0,0
+155052,Defeat Kun-Lai Summit rare enemies,155050,1,0,65511,1,0
+155053,Recover Kun-Lai Summit treasures,155050,1,0,65512,2,0
+155054,10.2.7 Timewalking Season - Pandaria - Journey - Tour - 06 - Townlong Steppes,0,0,4,0,0,0
+155055,Explore Townlong Steppes,155054,1,0,65513,0,0
+155056,Defeat Townlong Steppes rare enemies,155054,1,0,65514,1,0
+155057,Recover Townlong Steppes treasures,155054,1,0,65515,2,0
+155058,10.2.7 Timewalking Season - Pandaria - Journey - Tour - 07 - Dread Wastes,0,0,4,0,0,0
+155059,Explore Dread Wastes,155058,1,0,65516,0,0
+155060,Defeat Dread Wastes rare enemies,155058,1,0,65517,1,0
+155070,10.2.7 Timewalking Season - Pandaria - Journey - Tour - 09 - Timeless Isle,0,0,4,0,0,0
+155072,Defeat Timeless Isle rare enemies,155070,1,0,65520,1,0
+155073,Defeat Timeless Isle rare enemies,155070,1,0,65858,0,0
+155074,Complete the Valley of the Four Winds campaign,154930,1,0,65502,0,0
+155075,Valley of the Four winds group content completed,154930,1,0,65503,1,0
+155076,Valley of the Four winds group content completed,154930,1,0,65859,2,0
 155078,Obtain the Fiery Hearthsteed from the Hearthstone Tenth Anniversary promotion.,0,0,4,0,0,0
 155079,,155078,0,0,65518,0,2
+155080,10.2.7 Timewalking Season - Pandaria - Journey - Party - 02 - Valley of the Four Winds,0,0,4,0,0,0
+155088,10.2.7 Timewalking Season - Pandaria - Journey - Party - 04 - Kun-Lai Summit,0,0,4,0,0,0
+155089,,155088,1,0,65835,2,32
+155090,,155088,1,0,65834,1,32
+155091,,155088,1,0,65833,0,32
+155092,10.2.7 Timewalking Season - Pandaria - Journey - Party - 06 - Townlong Steppes,0,0,4,0,0,0
+155093,,155092,1,0,65840,1,32
+155094,,155092,1,0,65839,0,32
+155100,10.2.7 Timewalking Season - Pandaria - Journey - Party - 07 - Vale of Eternal Blossoms,0,0,4,0,0,0
+155101,,155100,1,0,65841,0,32
+155102,,155100,1,0,65844,2,32
+155103,,155100,1,0,65843,1,32
+155108,10.2.7 Timewalking Season - Pandaria - Journey - Party - 08 - Isle of Thunder,0,0,4,0,0,0
+155109,,155108,1,0,65846,0,32
+155110,,155108,1,0,65848,2,32
+155111,,155108,1,0,65847,1,32
+155113,10.2.7 Timewalking Season - Pandaria - Journey - Tour - 05 - Vale of Eternal Blossoms,0,0,4,0,0,0
+155114,Explore Vale of Eternal Blossoms,155113,1,0,65521,0,0
+155116,10.2.7 Timewalking Season - Pandaria - Journey - Rares - 02 - Valley of Four Winds,0,3,8,0,0,0
+155117,Blackhoof,155116,1,0,65585,0,0
+155125,10.2.7 Timewalking Season - Pandaria - Journey - Rares - 03 - Krasarang Wilds,0,3,8,0,0,0
+155126,Arness the Scale,155125,1,0,65593,0,0
+155127,10.2.7 Timewalking Season - Pandaria - Journey - Rares - 04 - Kun-Lai Summit,0,3,8,0,0,0
+155128,Ahone the Wanderer,155127,1,0,65607,0,0
+155131,10.2.7 Timewalking Season - Pandaria - Journey - Rares - 05 - Townlong Steppes,0,3,8,0,0,0
+155132,The Yowler,155131,1,0,65615,0,0
+155133,10.2.7 Timewalking Season - Pandaria - Journey - Rares - 06 - Dread Wastes,0,3,8,0,0,0
+155134,Ik-Ik the Nimble,155133,1,0,65623,0,0
+155135,10.2.7 Timewalking Season - Pandaria - Journey - Rares - 09 - Isle of Thunder,0,3,8,0,0,0
+155136,Ra'sha,155135,1,0,65631,0,0
+155139,10.2.7 Timewalking Season - Pandaria - Journey - Treasures - 06 - Timeless Isle,0,4,8,0,0,0
+155140,Flameheart Shawl,155139,1,0,65819,0,0
+155141,10.2.7 Timewalking Season - Pandaria - Journey - Dungeon - 02 - Stormstout Brewery - 01 - N,0,0,4,0,0,0
+155142,,155141,1,0,65525,0,0
+155143,10.2.7 Timewalking Season - Pandaria - Journey - Dungeon - 03 - Shado-Pan Monastery - 01 - N,0,0,4,0,0,0
+155144,,155143,1,0,65527,0,0
+155145,10.2.7 Timewalking Season - Pandaria - Journey - Dungeon - 04 - Mogu'shan Palace - 01 - N,0,0,4,0,0,0
+155146,,155145,1,0,65530,0,0
+155147,10.2.7 Timewalking Season - Pandaria - Journey - Dungeon - 05 - Gate of the Setting Sun - 01 - N,0,0,4,0,0,0
+155148,,155147,1,0,65571,0,2
+155149,10.2.7 Timewalking Season - Pandaria - Journey - Dungeon - 06 - Siege of Niuzao Temple - 01 - N,0,0,4,0,0,0
+155150,,155149,1,0,65573,0,2
+155151,10.2.7 Timewalking Season - Pandaria - Journey - Raid - 01 - Mogu'shan Vaults - 01 - LFR,0,0,4,0,0,0
+155152,Stone Guard,155151,1,0,65677,0,16
+155153,10.2.7 Timewalking Season - Pandaria - Journey - Raid - 02 - Heart of Fear - 01 - LFR,0,0,4,0,0,0
+155154,Imperial Vizier Zor'lok,155153,1,0,65696,0,16
+155155,10.2.7 Timewalking Season - Pandaria - Journey - Raid - 03 - Terrace of Endless Spring - 01 - LFR,0,0,4,0,0,0
+155156,Protectors of the Endless,155155,1,0,65713,0,16
+155157,10.2.7 Timewalking Season - Pandaria - Journey - Raid - 04 - Throne of Thunder - 01 - LFR,0,0,4,0,0,0
+155158,Megaera,155157,1,0,65728,4,0
+155159,10.2.7 Timewalking Season - Pandaria - Journey - Raid - 05 - Siege of Orgrimmar - 01 - LFR,0,0,4,0,0,0
+155161,10.2.7 Timewalking Season - Pandaria - Journey - Raid - 05 - Siege of Orgrimmar - 02 - N,0,0,4,0,0,0
+155163,10.2.7 Timewalking Season - Pandaria - Journey - Raid - 04 - Throne of Thunder - 02 - N,0,0,4,0,0,0
+155164,Jin'rokh the Breaker,155163,1,0,65736,0,0
+155165,10.2.7 Timewalking Season - Pandaria - Journey - Raid - 03 - Terrace of Endless Spring - 02 - N,0,0,4,0,0,0
+155166,Protectors of the Endless,155165,1,0,68045,0,16
+155167,10.2.7 Timewalking Season - Pandaria - Journey - Raid - 02 - Heart of Fear - 02 - N,0,0,4,0,0,0
+155168,Blade Lord Ta'yak,155167,1,0,65703,0,16
+155169,10.2.7 Timewalking Season - Pandaria - Journey - Raid - 01 - Mogu'shan Vaults - 02 - N,0,0,4,0,0,0
+155170,Stone Guard,155169,1,0,65683,0,16
+155171,10.2.7 Timewalking Season - Pandaria - Journey - Raid - 04 - Throne of Thunder - 03 - H,0,0,4,0,0,0
+155172,Jin'rokh the Breaker,155171,1,0,65748,0,0
+155173,10.2.7 Timewalking Season - Pandaria - Journey - Raid - 03 - Terrace of Endless Spring - 03 - H,0,0,4,0,0,0
+155174,Protectors of the Endless,155173,1,0,65717,0,16
+155175,10.2.7 Timewalking Season - Pandaria - Journey - Raid - 02 - Heart of Fear - 03 - H,0,0,4,0,0,0
+155176,Imperial Vizier Zor'lok,155175,1,0,65707,0,16
+155177,10.2.7 Timewalking Season - Pandaria - Journey - Raid - 01 - Mogu'shan Vaults - 03 - H,0,0,4,0,0,0
+155178,Stone Guard,155177,1,0,65689,0,16
+155179,10.2.7 Timewalking Season - Pandaria - Journey - Raid - 05 - Siege of Orgrimmar - 03 - H,0,0,4,0,0,0
+155180,General Nazgrim,155179,1,0,65796,7,16
+155181,10.2.7 Timewalking Season - Pandaria - Journey - Raid - 05 - Siege of Orgrimmar - 04 - M,0,0,4,0,0,0
+155182,General Nazgrim,155181,1,0,65810,7,16
+155183,10.2.7 Timewalking Season - Pandaria - Journey - Dungeon - 09 - Scholomance - 01 - N,0,0,4,0,0,0
+155184,Darkmaster Gandling,155183,1,0,65579,0,2
+155185,10.2.7 Timewalking Season - Pandaria - Journey - Dungeon - 07 - Scarlet Halls - 01 - N,0,0,4,0,0,0
+155186,Flameweaver Koegler,155185,1,0,65575,0,2
+155187,10.2.7 Timewalking Season - Pandaria - Journey - Dungeon - 08 - Scarlet Monastery - 01 - N,0,0,4,0,0,0
+155188,High Inquisitor Whitemane,155187,1,0,65577,0,2
+155189,10.2.7 Timewalking Season - Pandaria - Journey - Dungeon - 09 - Scholomance - 02 - H,0,0,4,0,0,0
+155190,Darkmaster Gandling,155189,1,0,65580,0,2
+155191,10.2.7 Timewalking Season - Pandaria - Journey - Dungeon - 08 - Scarlet Monastery - 02 - H,0,0,4,0,0,0
+155192,High Inquisitor Whitemane,155191,1,0,65578,0,2
+155193,10.2.7 Timewalking Season - Pandaria - Journey - Dungeon - 07 - Scarlet Halls - 02 - H,0,0,4,0,0,0
+155194,Flameweaver Koegler,155193,1,0,65576,0,2
+155195,10.2.7 Timewalking Season - Pandaria - Journey - Dungeon - 06 - Siege of Niuzao Temple - 02 - H,0,0,4,0,0,0
+155196,,155195,1,0,65574,0,2
+155197,10.2.7 Timewalking Season - Pandaria - Journey - Dungeon - 05 - Gate of the Setting Sun - 02 - H,0,0,4,0,0,0
+155198,,155197,1,0,65572,0,2
+155199,10.2.7 Timewalking Season - Pandaria - Journey - Dungeon - 04 - Mogu'shan Palace - 02 - H,0,0,4,0,0,0
+155200,,155199,1,0,65529,0,0
+155201,10.2.7 Timewalking Season - Pandaria - Journey - Dungeon - 03 - Shado-Pan Monastery - 02 - H,0,0,4,0,0,0
+155202,,155201,1,0,65528,0,0
+155203,10.2.7 Timewalking Season - Pandaria - Journey - Dungeon - 02 - Stormstout Brewery - 02 - H,0,0,4,0,0,0
+155204,,155203,1,0,65526,0,0
+155205,10.2.7 Timewalking Season - Pandaria - Journey - Dungeon - 01 - Temple of the Jade Serpent - 02 - H,0,0,4,0,0,0
+155206,,155205,1,0,65523,0,0
+155207,10.2.7 Timewalking Season - Pandaria - Journey - Scenario - 01 - Greenstone Village - 01 - N,0,0,4,0,0,0
+155208,Kill Vengeful Hui,155207,1,0,65547,0,0
+155209,10.2.7 Timewalking Season - Pandaria - Journey - Scenario - 03 - Unga Ingoo - 01 - N,0,0,4,0,0,0
+155210,Kill Captain Ook,155209,1,0,65550,0,0
+155211,10.2.7 Timewalking Season - Pandaria - Journey - Scenario - 02 - A Brewing Storm - 01 - N,0,0,4,0,0,0
+155212,Kill Borokhula the Destroyer,155211,1,0,65548,0,0
+155213,10.2.7 Timewalking Season - Pandaria - Journey - Scenario - 04 - Brewmoon Festival - 01 - N,0,0,4,0,0,0
+155214,Kill Warbringer Qobi,155213,1,0,65551,0,0
+155215,10.2.7 Timewalking Season - Pandaria - Journey - Scenario - 05 - Arena of Annihilation - 01 - N,0,0,4,0,0,0
+155216,,155215,1,0,65552,0,32
+155217,10.2.7 Timewalking Season - Pandaria - Journey - Scenario - 06 - Crypt of Forgotten Kings - 01 - N,0,0,4,0,0,0
+155218,,155217,1,0,65553,0,32
+155219,10.2.7 Timewalking Season - Pandaria - Journey - Scenario - 07 - Assault on Zan'vess - 01 - N,0,0,4,0,0,0
+155220,Defeat Commander Tel'vrak,155219,1,0,65555,0,0
+155221,10.2.7 Timewalking Season - Pandaria - Journey - Scenario - 08 - Dagger in the Dark - 01 - N,0,0,4,0,0,0
+155222,,155221,1,0,65556,0,2
+155223,10.2.7 Timewalking Season - Pandaria - Journey - Scenario - 09 - A Little Patience - 01 - N,0,0,4,0,0,0
+155224,,155223,1,0,65557,0,2
+155225,10.2.7 Timewalking Season - Pandaria - Journey - Scenario - 10 - Domination Point - 01 - N,0,0,4,0,0,0
+155226,,155225,1,0,65558,0,2
+155227,10.2.7 Timewalking Season - Pandaria - Journey - Scenario - 11 - Battle on the High Seas - 01 - N - Alliance,0,0,4,0,0,0
+155229,10.2.7 Timewalking Season - Pandaria - Journey - Scenario - 12 - Theramore's Fall - 01 - N - Alliance,0,0,4,0,0,0
+155230,,155229,1,0,65563,0,2
+155231,10.2.7 Timewalking Season - Pandaria - Journey - Scenario - 13 - Blood in the Snow - 01 - N,0,0,4,0,0,0
+155232,,155231,1,0,65565,0,2
+155233,10.2.7 Timewalking Season - Pandaria - Journey - Scenario - 14 - Dark Heart of Pandaria - 01 - N,0,0,4,0,0,0
+155234,,155233,1,0,65567,0,0
+155235,10.2.7 Timewalking Season - Pandaria - Journey - Scenario - 15 - Secrets of Ragefire - 01 - N,0,0,4,0,0,0
+155236,,155235,1,0,65569,0,0
+155237,10.2.7 Timewalking Season - Pandaria - Journey - Scenario - 14 - Dark Heart of Pandaria - 02 - H,0,0,4,0,0,0
+155238,,155237,1,0,65568,0,0
+155239,10.2.7 Timewalking Season - Pandaria - Journey - Scenario - 13 - Blood in the Snow - 02 - H,0,0,4,0,0,0
+155240,,155239,1,0,65566,0,2
+155241,10.2.7 Timewalking Season - Pandaria - Journey - Scenario - 15 - Secrets of Ragefire - 02 - H,0,0,4,0,0,0
+155242,,155241,1,0,65570,0,0
+155243,10.2.7 Timewalking Season - Pandaria - Journey - Scenario - 11 - Battle on the High Seas - 02 - H - Alliance,0,0,4,0,0,0
+155244,Kill Admiral Hagman,155243,0,0,65562,0,0
+155245,10.2.7 Timewalking Season - Pandaria - Journey - Scenario - 06 - Crypt of Forgotten Kings - 02 - H,0,0,4,0,0,0
+155246,,155245,1,0,65554,0,32
+155247,10.2.7 Timewalking Season - Pandaria - Journey - Scenario - 02 - A Brewing Storm - 02 - H,0,0,4,0,0,0
+155248,Kill Borokhula the Destroyer,155247,1,0,65549,0,0
+155249,10.2.7 Timewalking Season - Pandaria - Journey - Meta - 13 - Heroic Scenarios,0,0,4,0,0,0
+155250,10.2.7 Timewalking Season - Pandaria - Journey - Meta - 14 - Heroic Dungeons,0,0,4,0,0,0
+155251,10.2.7 Timewalking Season - Pandaria - Journey - Meta - 15 - Normal Raids,0,0,4,0,0,0
+155252,10.2.7 Timewalking Season - Pandaria - Journey - Meta - 16 - Heroic Raids,0,0,4,0,0,0
+155253,10.2.7 Timewalking Season - Pandaria - Journey - Reputation - 01 - Order of the Cloud Serpent,0,0,4,0,0,0
+155254,Order of the Cloud Serpent exalted,155253,42000,0,65536,0,2
+155255,10.2.7 Timewalking Season - Pandaria - Journey - Reputation - 02 - The August Celestials,0,0,4,0,0,0
+155256,The August Celestials exalted,155255,42000,0,65537,0,2
+155257,10.2.7 Timewalking Season - Pandaria - Journey - Reputation - 03 - Golden Lotus,0,0,4,0,0,0
+155258,Golden Lotus exalted,155257,42000,0,65538,0,2
+155259,10.2.7 Timewalking Season - Pandaria - Journey - Reputation - 04 - Shado-Pan,0,0,4,0,0,0
+155260,Shado-pan exalted,155259,42000,0,65539,0,2
+155261,10.2.7 Timewalking Season - Pandaria - Journey - Reputation - 05 - The Klaxxi,0,0,4,0,0,0
+155262,The Klaxxi exalted,155261,42000,0,65540,0,2
+155263,10.2.7 Timewalking Season - Pandaria - Journey - Reputation - 06 - Dominance Offensive - H,0,0,4,0,0,0
+155264,Dominance Offensive exalted,155263,42000,0,65541,0,2
+155265,10.2.7 Timewalking Season - Pandaria - Journey - Reputation - 06 - Operation: Shieldwall - A,0,0,4,0,0,0
+155266,Operation: Shieldwall exalted,155265,42000,0,65542,0,2
+155267,10.2.7 Timewalking Season - Pandaria - Journey - Reputation - 07 - Sunreaver Onslaught - H,0,0,4,0,0,0
+155268,Sunreaver Onslaught exalted,155267,42000,0,65544,0,2
+155269,10.2.7 Timewalking Season - Pandaria - Journey - Reputation - 07 - Kirin Tor Offensive - A,0,0,4,0,0,0
+155270,Kirin Tor Offensive exalted,155269,42000,0,65543,0,2
+155271,10.2.7 Timewalking Season - Pandaria - Journey - Reputation - 08 - Shado-Pan Assault,0,0,4,0,0,0
+155272,Shado-Pan Assault exalted,155271,42000,0,65545,0,2
+155273,10.2.7 Timewalking Season - Pandaria - Journey - Reputation - 09 - Emperor Shaohao,0,0,4,0,0,0
+155274,Emperor Shaohao exalted,155273,42000,0,65546,0,2
+155276,10.2.7 Timewalking Season - Pandaria - Journey - Scenario - 11 - Battle on the High Seas - 02 - H - Horde,0,0,4,0,0,0
+155277,Kill Admiral Hodgson,155276,0,0,65561,0,0
+155278,10.2.7 Timewalking Season - Pandaria - Journey - Scenario - 11 - Battle on the High Seas - 01 - N - Horde,0,0,4,0,0,0
+155279,Kill Admiral Hagman,155227,0,0,65559,0,0
+155280,Kill Admiral Hodgson,155278,0,0,65560,0,0
+155281,10.2.7 Timewalking Season - Pandaria - Journey - Scenario - 12 - Theramore's Fall - 01 - N - Horde,0,0,4,0,0,0
+155282,,155281,1,0,65564,0,2
+155289,Bonobos,155116,1,0,65586,1,0
+155290,Jonn-Dar,155116,1,0,65587,2,0
+155291,Na'lak the Ripper,155116,1,0,65588,3,0
+155292,Nasra Spothide,155116,1,0,65589,4,0
+155293,Salyin Warscout,155116,1,0,65590,5,0
+155294,Sele'na,155116,1,0,65591,6,0
+155295,Sulik'shor,155116,1,0,65592,7,0
+155296,Cournith Waterstrider,155125,1,0,65594,1,0
+155299,Gaarn the Toxic,155125,1,0,65597,2,0
+155300,Go-Kan,155125,1,0,65598,3,0
+155304,Qu'nas,155125,1,0,65602,4,0
+155305,Ruun Ghostpaw,155125,1,0,65603,5,0
+155306,Spriggin,155125,1,0,65604,6,0
+155307,Torik-Ethis,155125,1,0,65605,7,0
+155309,Borginn Darkfist,155127,1,0,65608,1,0
+155310,Havak,155127,1,0,65609,2,0
+155311,Korda Torros,155127,1,0,65610,3,0
+155312,Nessos the Oracle,155127,1,0,65611,4,0
+155313,Scritch,155127,1,0,65612,5,0
+155314,Ski'thik,155127,1,0,65613,6,0
+155315,Zai the Outcast,155127,1,0,65614,7,0
+155316,10.2.7 Timewalking Season - Pandaria - Journey - Rares - 08 - Landfall,0,3,8,0,0,0
+155319,Dalan Nightbreaker,155316,1,0,65595,0,0
+155320,Disha Fearwarden,155316,1,0,65596,1,0
+155323,Kar Warmaker,155316,1,0,65599,2,0
+155324,Mavis Harms,155316,1,0,65600,3,0
+155325,Muerta,155316,1,0,65601,4,0
+155330,Ubunti the Shade,155316,1,0,65606,5,0
+155331,Eshelon,155131,1,0,65616,1,0
+155332,Lith'ik the Stalker,155131,1,0,65617,2,0
+155333,Norlaxx,155131,1,0,65618,3,0
+155334,Kah'tir,155131,1,0,65619,4,0
+155335,Yul Wildpaw,155131,1,0,65620,5,0
+155336,Siltriss the Sharpener,155131,1,0,65621,6,0
+155337,Lon the Bull,155131,1,0,65622,7,0
+155338,Nalash Verdantis,155133,1,0,65624,1,0
+155339,Gar'lok,155133,1,0,65625,2,0
+155340,Karr the Darkener,155133,1,0,65626,3,0
+155341,Krol the Blade,155133,1,0,65627,4,0
+155342,Ai-Li Skymirror,155133,1,0,65628,5,0
+155343,Omnis Grinlok,155133,1,0,65629,6,0
+155344,Dak the Breaker,155133,1,0,65630,7,0
+155345,God-Hulk Ramuk,155135,1,0,65632,1,0
+155346,Goda,155135,1,0,65633,2,0
+155347,Backbreaker Uru,155135,1,0,65634,3,0
+155348,Lu-Ban,155135,1,0,65635,4,0
+155349,Mumta,155135,1,0,65636,5,0
+155350,Progenitus,155135,1,0,65637,6,0
+155351,Ku'lai the Skyclaw,155135,1,0,65638,7,0
+155352,Al'tabim the All-Seeing,155135,1,0,65639,8,0
+155353,Molthor,155135,1,0,65640,9,0
+155354,Haywire Sunreaver Construct,155135,1,0,65641,10,0
+155355,Rockmoss,154942,1,0,65642,0,0
+155356,Cinderfall,154942,1,0,65643,1,0
+155357,Stinkbraid,154942,1,0,65644,2,0
+155358,Garnia,154942,1,0,65645,3,0
+155359,Tsavo'ka,154942,1,0,65646,4,0
+155360,Huolon,154942,1,0,65647,5,0
+155361,Monstrous Spineclaw,154942,1,0,65648,6,0
+155362,Bufo,154942,1,0,65649,7,0
+155363,Dread Ship Vazuvius,154942,1,0,65650,8,0
+155364,Golganarr,154942,1,0,65651,9,0
+155365,Imperial Python,154942,1,0,65652,10,0
+155366,Evermaw,154942,1,0,65653,11,0
+155368,Archiereus the Flame,154942,1,0,65655,12,0
+155369,Watcher Osu,154942,1,0,65656,13,0
+155370,Urdur the Cauterizer,154942,1,0,65657,14,0
+155371,Jakur of Ordon,154942,1,0,65658,15,0
+155372,Flintlord Gairan,154942,1,0,65659,16,0
+155373,Champion of the Black Flame,154942,1,0,65660,17,0
+155374,10.2.7 Timewalking Season - Pandaria - Journey - Rares - 10 - Timeless Isle - Rare,0,3,8,0,0,0
+155375,Spirit of Jadefire,155374,1,0,65661,0,0
+155376,Rattleskew,155374,1,0,65662,1,0
+155379,Cranegnasher,155374,1,0,65665,2,0
+155380,Spelurk,155374,1,0,65666,3,0
+155381,Cah Silentsky,155374,1,0,65667,4,0
+155382,Chelon,155374,1,0,65668,5,0
+155383,Karkanos,155374,1,0,65669,6,0
+155384,Zhu-Gon the Sour,155374,1,0,65670,7,0
+155385,Zesqua,155374,1,0,65671,9,0
+155386,Ra'sha,155374,1,0,65672,8,0
+155387,Emerald Gander,155374,1,0,65673,10,0
+155388,Great Turtle Furyshell,155374,1,0,65674,11,0
+155389,Leafmender,155374,1,0,65675,12,0
+155390,Ironfur Steelhorn,155374,1,0,65676,13,0
+155391,Feng the Accursed,155151,1,0,65678,1,16
+155392,Gara'jal the Spiritbinder,155151,1,0,65679,2,16
+155393,Elegon,155151,1,0,65680,3,16
+155394,Four Kings,155151,1,0,65681,4,16
+155395,Will of the Emperor,155151,1,0,65682,5,16
+155396,Feng the Accursed,155169,1,0,65684,1,16
+155397,Gara'jal the Spiritbinder,155169,1,0,65685,2,16
+155398,Four Kings,155169,1,0,65686,3,16
+155399,Elegon,155169,1,0,65687,4,16
+155400,Will of the Emperor,155169,1,0,65688,5,16
+155401,Feng the Accursed,155177,1,0,65690,1,16
+155402,Gara'jal the Spiritbinder,155177,1,0,65691,2,16
+155403,Four Kings,155177,1,0,65692,3,16
+155404,Elegon,155177,1,0,65693,4,16
+155405,Will of the Emperor,155177,1,0,65694,5,16
+155406,Blade Lord Ta'yak,155153,1,0,65695,1,16
+155407,Garalon,155153,1,0,65697,2,16
+155408,Wind Lord Mel'jarak,155153,1,0,65698,3,16
+155409,Amber-Shaper Un'sok,155153,1,0,65699,4,16
+155410,Grand Empress Shek'zeer,155153,1,0,65700,5,16
+155411,Imperial Vizier Zor'lok,155167,1,0,65706,1,16
+155412,Garalon,155167,1,0,65705,2,16
+155413,Wind Lord Mel'jarak,155167,1,0,65702,3,16
+155414,Amber-Shaper Un'sok,155167,1,0,65701,4,16
+155415,Grand Empress Shek'zeer,155167,1,0,65704,5,16
+155416,Blade Lord Ta'yak,155175,1,0,65708,1,16
+155417,Garalon,155175,1,0,65709,2,16
+155418,Wind Lord Mel'jarak,155175,1,0,65710,3,16
+155419,Amber-Shaper Un'sok,155175,1,0,65711,4,16
+155420,Grand Empress Shek'zeer,155175,1,0,65712,5,16
+155421,Tsulong,155155,1,0,65714,1,16
+155422,Lei Shi,155155,1,0,65715,2,16
+155423,Sha of Fear,155155,1,0,65716,3,16
+155424,Tsulong,155165,1,0,65718,1,16
+155425,Lei Shi,155165,1,0,65719,2,16
+155426,Sha of Fear,155165,1,0,65720,3,16
+155427,Tsulong,155173,1,0,65721,1,16
+155428,Lei Shi,155173,1,0,65722,2,16
+155429,Sha of Fear,155173,1,0,65723,3,16
+155430,Lei Shen,155157,1,0,65735,11,0
+155431,Council of Elders,155157,1,0,65726,2,0
+155432,Jin'rokh the Breaker,155157,1,0,65724,0,0
+155433,Horridon,155157,1,0,65725,1,0
+155434,Dark Animus,155157,1,0,65732,8,0
+155435,Iron Qon,155157,1,0,65733,9,0
+155437,Ji-Kun,155157,1,0,65729,5,0
+155438,Twin Consorts,155157,1,0,65734,10,0
+155439,Primordius,155157,1,0,65731,7,0
+155440,Durumu the Forgotten,155157,1,0,65730,6,0
+155441,Tortos,155157,1,0,65727,3,0
+155442,Horridon,155163,1,0,65737,1,0
+155443,Council of Elders,155163,1,0,65738,2,0
+155444,Tortos,155163,1,0,65739,3,0
+155445,Megaera,155163,1,0,65740,4,0
+155446,Ji-Kun,155163,1,0,65741,5,0
+155447,Durumu the Forgotten,155163,1,0,65742,6,0
+155448,Primordius,155163,1,0,65743,7,0
+155449,Dark Animus,155163,1,0,65744,8,0
+155450,Iron Qon,155163,1,0,65745,9,0
+155451,Twin Consorts,155163,1,0,65746,10,0
+155452,Lei Shen,155163,1,0,65747,11,0
+155453,Horridon,155171,1,0,65749,1,0
+155454,Council of Elders,155171,1,0,65750,2,0
+155455,Tortos,155171,1,0,65751,3,0
+155456,Megaera,155171,1,0,65752,4,0
+155457,Ji-Kun,155171,1,0,65753,5,0
+155458,Durumu the Forgotten,155171,1,0,65754,6,0
+155459,Primordius,155171,1,0,65755,7,0
+155460,Dark Animus,155171,1,0,65756,8,0
+155461,Iron Qon,155171,1,0,65757,9,0
+155462,Twin Consorts,155171,1,0,65758,10,0
+155463,Lei Shen,155171,1,0,65759,11,0
+155464,Ra-den,155171,1,0,65760,12,2
+155465,Immerseus,155159,1,0,65761,0,16
+155466,Fallen Protectors,155159,1,0,65762,1,16
+155467,Norushen,155159,1,0,65763,2,16
+155468,Sha of Pride,155159,1,0,65764,3,16
+155469,Galakras,155159,1,0,65765,4,16
+155470,Iron Juggernaut,155159,1,0,65766,5,16
+155471,Kor'kron Dark Shaman,155159,1,0,65767,6,16
+155472,General Nazgrim,155159,1,0,65768,7,16
+155473,Malkorok,155159,1,0,65769,8,16
+155474,Spoils of Pandaria,155159,1,0,65770,9,16
+155475,Thok the Bloodthirsty,155159,1,0,65771,10,16
+155476,Siegecrafter Blackfuse,155159,1,0,65772,11,16
+155477,Paragons of the Klaxxi,155159,1,0,65773,12,16
+155478,Garrosh Hellscream,155159,1,0,65774,13,16
+155479,General Nazgrim,155161,1,0,65782,7,16
+155480,Siegecrafter Blackfuse,155161,1,0,65786,11,16
+155481,Malkorok,155161,1,0,65783,8,16
+155482,Kor'kron Dark Shaman,155161,1,0,65781,6,16
+155483,Galakras,155161,1,0,65779,4,16
+155484,Immerseus,155161,1,0,65775,0,16
+155485,Garrosh Hellscream,155161,1,0,65788,13,16
+155486,Sha of Pride,155161,1,0,65778,3,16
+155487,Fallen Protectors,155161,1,0,65776,1,16
+155488,Paragons of the Klaxxi,155161,1,0,65787,12,16
+155489,Thok the Bloodthirsty,155161,1,0,65785,10,16
+155490,Spoils of Pandaria,155161,1,0,65784,9,16
+155491,Norushen,155161,1,0,65777,2,16
+155492,Iron Juggernaut,155161,1,0,65780,5,16
+155493,Siegecrafter Blackfuse,155179,1,0,65800,11,16
+155494,Malkorok,155179,1,0,65797,8,16
+155495,Kor'kron Dark Shaman,155179,1,0,65795,6,16
+155496,Galakras,155179,1,0,65793,4,16
+155497,Immerseus,155179,1,0,65789,0,16
+155498,Garrosh Hellscream,155179,1,0,65802,13,16
+155499,Sha of Pride,155179,1,0,65792,3,16
+155500,Fallen Protectors,155179,1,0,65790,1,16
+155501,Paragons of the Klaxxi,155179,1,0,65801,12,16
+155502,Thok the Bloodthirsty,155179,1,0,65799,10,16
+155503,Spoils of Pandaria,155179,1,0,65798,9,16
+155504,Norushen,155179,1,0,65791,2,16
+155505,Iron Juggernaut,155179,1,0,65794,5,16
+155506,Siegecrafter Blackfuse,155181,1,0,65814,11,16
+155507,Malkorok,155181,1,0,65811,8,16
+155508,Kor'kron Dark Shaman,155181,1,0,65809,6,16
+155509,Galakras,155181,1,0,65807,4,16
+155510,Immerseus,155181,1,0,65803,0,16
+155511,Garrosh Hellscream,155181,1,0,65816,13,16
+155512,Sha of Pride,155181,1,0,65806,3,16
+155513,Fallen Protectors,155181,1,0,65804,1,16
+155514,Paragons of the Klaxxi,155181,1,0,65815,12,16
+155515,Thok the Bloodthirsty,155181,1,0,65813,10,16
+155516,Spoils of Pandaria,155181,1,0,65812,9,16
+155517,Norushen,155181,1,0,65805,2,16
+155518,Iron Juggernaut,155181,1,0,65808,5,16
+155523,Riverspeaker's Trident,155139,1,0,65820,1,0
+155524,Cloudstrike Family Helm,155139,1,0,65821,2,0
+155525,Snowdrift Tiger Talons,155139,1,0,65822,3,0
+155526,Gleaming Treasure Chest,155139,1,0,65823,4,0
+155527,Rope-Bound Treasure Chest,155139,1,0,65824,5,0
+155528,Mist-Covered Treasure Chest,155139,1,0,65825,6,0
+155529,Sunken Treasure,155139,1,0,65826,7,0
+155530,Blackguard's Jetsam,155139,1,0,65827,8,0
+155531,Gleaming Treasure Satchel,155139,1,0,65828,9,0
+155532,10.2.7 Timewalking Season - Pandaria - Journey - Campaign - 01 - The Jade Forest - A,0,0,4,0,0,0
+155533,10.2.7 Timewalking Season - Pandaria - Journey - Campaign - 02 - Valley of the Four Winds,0,0,4,0,0,0
+155534,10.2.7 Timewalking Season - Pandaria - Journey - Campaign - 03 - Krasarang Wilds - A,0,0,4,0,0,0
+155535,10.2.7 Timewalking Season - Pandaria - Journey - Campaign - 04 - Kun-Lai Summit - A,0,0,4,0,0,0
+155536,10.2.7 Timewalking Season - Pandaria - Journey - Campaign - 05 - Townlong Steppes,0,0,4,0,0,0
+155538,10.2.7 Timewalking Season - Pandaria - Journey - Campaign - 07 - Landfall,0,0,4,0,0,0
+155539,10.2.7 Timewalking Season - Pandaria - Journey - Campaign - 08 - Isle of Thunder,0,0,4,0,0,0
+155540,10.2.7 Timewalking Season - Pandaria - Journey - Campaign - 01 - The Jade Forest - H,0,0,4,0,0,0
+155541,10.2.7 Timewalking Season - Pandaria - Journey - Campaign - 03 - Krasarang Wilds - H,0,0,4,0,0,0
+155542,10.2.7 Timewalking Season - Pandaria - Journey - Campaign - 04 - Kun-Lai Summit - H,0,0,4,0,0,0
+155543,Nectarbreeze Orchard,155532,1,0,67207,0,16
+155544,Tian Monastery,155532,1,8,0,1,8208
+155545,Tian Monastery,155544,1,0,67208,0,0
+155546,Tian Monastery,155544,1,0,67209,1,0
+155547,Tian Monastery,155544,1,0,67210,2,0
+155548,Greenstone Quarry,155532,1,0,67211,2,16
+155549,Dawn's Blossom,155532,0,4,0,3,8208
+155550,Dawn's Blossom,155549,1,0,67212,0,0
+155551,Dawn's Blossom,155549,1,0,67213,1,0
+155552,Dawn's Blossom,155549,1,0,67214,2,0
+155553,Dawn's Blossom,155549,1,0,67215,3,0
+155554,Dawn's Blossom,155549,1,0,67216,4,0
+155555,The Waterspeaking Ceremony,155532,1,0,67217,4,16
+155556,The Battle for the Forest,155532,1,0,67218,5,16
+155557,Overcoming Doubt,155532,1,0,67219,6,16
+155558,Paw'don Village,155532,1,0,67220,7,16
+155559,The White Pawn,155532,1,0,67221,8,16
+155560,The Temple of the Jade Serpent,155532,1,0,67222,9,16
+155561,Terrace of Ten Thunders,155532,1,0,67223,10,16
+155562,Pearlfin Village,155532,0,4,0,11,8208
+155563,Pearlfin Village,155562,1,0,67224,0,0
+155564,Pearlfin Village,155562,1,0,67225,1,0
+155565,Dawn's Blossom,155540,0,4,0,0,8208
+155566,Dawn's Blossom,155565,1,0,67214,0,0
+155567,Dawn's Blossom,155565,1,0,67216,1,0
+155568,Dawn's Blossom,155565,1,0,67213,2,0
+155569,Dawn's Blossom,155565,1,0,67212,3,0
+155570,Dawn's Blossom,155565,1,0,67215,4,0
+155571,Tian Monastery,155540,1,8,0,1,8208
+155572,Tian Monastery,155571,1,0,67208,0,0
+155573,Tian Monastery,155571,1,0,67209,1,0
+155574,Tian Monastery,155571,1,0,67210,2,0
+155575,The Temple of the Jade Serpent,155540,1,0,67222,2,16
+155576,Greenstone Quarry,155540,1,0,67211,3,16
+155577,First Contact,155540,1,0,67226,4,16
+155578,The Remains of Hellscream's Fist,155540,1,0,67227,5,16
+155579,Overcoming Doubt,155540,1,0,67228,6,16
+155580,Grookin Hill,155540,1,0,67229,7,16
+155581,Terrace of Ten Thunders,155540,1,0,67223,8,16
+155582,Nectarbreeze Orchard,155540,1,0,67207,9,16
+155583,The Battle for the Forest,155540,1,0,67230,10,16
+155584,Strange Bedfellows,155540,1,0,67231,11,16
+155585,Thunderfoot Fields,155533,1,0,67232,0,16
+155586,Mudmug's Place,155533,1,0,67233,1,16
+155587,Nesingwary's Safari,155533,1,0,67234,2,16
+155588,Chen's Masterpiece,155533,1,0,67235,3,16
+155589,The Stormstout Brewery,155533,1,0,67236,4,16
+155590,The Hidden Master,155533,1,0,67237,5,16
+155591,Zhu's Watch,155534,1,0,67238,0,16
+155592,The Incursion,155534,1,0,67239,1,16
+155593,Temple of the Red Crane,155534,1,0,67240,2,16
+155594,The Waters of Youth,155534,1,0,67241,3,16
+155595,Nayeli Lagoon,155534,0,4,0,4,8208
+155596,Nayeli Lagoon,155595,1,0,67242,0,0
+155597,Nayeli Lagoon,155595,1,0,67243,1,0
+155598,Nayeli Lagoon,155595,1,0,67244,2,0
+155599,Thunder Cleft,155541,1,0,67245,0,16
+155600,Dawnchaser Retreat,155541,1,0,67246,1,16
+155601,Nayeli Lagoon,155541,0,4,0,2,8208
+155602,Nayeli Lagoon,155601,1,0,67244,0,0
+155603,Nayeli Lagoon,155601,1,0,67243,1,0
+155604,Nayeli Lagoon,155601,1,0,67242,2,0
+155605,Temple of the Red Crane,155541,1,0,67240,3,16
+155606,Zhu's Watch,155541,1,0,67238,4,16
+155607,The Shado-Pan,155535,1,0,67247,0,16
+155608,Inkgill Mere,155535,1,0,67248,1,16
+155609,The Yak Wash,155535,1,0,67249,2,16
+155610,Kota Peak,155535,1,0,67250,3,16
+155611,Westwind Rest,155535,1,0,67251,4,16
+155612,Temple of the White Tiger,155535,1,0,67252,5,16
+155613,Zouchin Village,155535,1,0,67253,6,16
+155614,The Yaungol Invasion,155535,1,0,67254,7,16
+155615,The Burlap Trail,155535,1,0,67255,8,16
+155616,The Thunder King,155535,1,0,67256,9,16
+155617,The Yak Wash,155542,1,0,67249,0,16
+155618,The Thunder King,155542,1,0,67256,1,16
+155619,Eastwind Rest,155542,1,0,67257,2,16
+155620,Inkgill Mere,155542,1,0,67248,3,16
+155621,Temple of the White Tiger,155542,1,0,67258,4,16
+155622,Kota Peak,155542,1,0,67250,5,16
+155623,Zouchin Village,155542,1,0,67253,6,16
+155624,The Yaungol Invasion,155542,1,0,67259,7,16
+155625,The Burlap Trail,155542,1,0,67255,8,16
+155626,The Shado-Pan,155542,1,0,67247,9,16
+155627,The Sha of Hatred,155536,1,0,67260,0,16
+155628,Fire Camp Osul,155536,1,0,67261,1,16
+155629,Tai Ho's Investigation,155536,1,0,67262,2,16
+155630,Mistlurkers in the Sumprushes,155536,1,0,67263,3,16
+155631,On Hatred's Path,155536,1,0,67264,4,16
+155638,Assault the Shipyard,155539,1,8,0,0,8208
+155639,Assault the Shipyard,155638,1,0,67270,0,0
+155640,Assault the Shipyard,155638,1,0,67271,1,0
+155641,Assault the Shipyard,155638,1,0,67272,2,0
+155642,The Fall of Shan Bu,155539,1,8,0,1,8208
+155643,The Fall of Shan Bu,155642,1,0,67273,0,0
+155644,The Fall of Shan Bu,155642,1,0,67274,1,0
+155645,The Fall of Shan Bu,155642,1,0,67275,2,0
+155646,Build a Base,155539,1,8,0,2,8208
+155647,Build a Base,155646,1,0,67276,0,0
+155648,Build a Base,155646,1,0,67277,1,0
+155649,Kill Alliance Bosses,155646,0,4,0,2,2
+155650,Build a Base,155649,1,0,67278,0,0
+155651,Build a Base,155649,1,0,67279,1,0
+155652,Kill Horde Bosses,155646,0,4,0,3,2
+155653,Build a Base,155652,1,0,67280,0,0
+155654,Build a Base,155652,1,0,67279,1,0
+155655,First Landing,155539,1,8,0,3,8208
+155656,First Landing,155655,1,0,67281,0,0
+155657,First Landing,155655,1,0,67282,1,0
+155658,Break Down the Wall,155539,1,8,0,4,8208
+155659,Break Down the Wall,155658,1,0,67283,0,0
+155660,Break Down the Wall,155658,1,0,67284,1,0
+155661,Break Down the Wall,155658,1,0,67285,2,0
+155662,Take the Forge,155539,1,8,0,5,8208
+155663,Take the Forge,155662,1,0,67286,0,0
+155664,Take the Forge,155662,1,0,67287,1,0
+155665,Take the Forge,155662,1,0,67288,2,0
+155666,Landfall Campaign End,155538,1,8,0,0,0
+155667,,155666,1,0,65829,0,0
+155668,,155666,1,0,65830,1,0
+155669,10.2.7 Timewalking Season - Pandaria - Journey - World Boss - 01 - Sha of Anger,0,0,4,0,0,0
+155670,10.2.7 Timewalking Season - Pandaria - Journey - World Boss - 02 - Salyis's Warband,0,0,4,0,0,0
+155671,"10.2.7 Timewalking Season - Pandaria - Journey - World Boss - 03 - Nalak, the Storm Lord",0,0,4,0,0,0
+155672,10.2.7 Timewalking Season - Pandaria - Journey - World Boss - 04 - Oondasta,0,0,4,0,0,0
+155673,"10.2.7 Timewalking Season - Pandaria - Journey - World Boss - 05 - Chi-ji, the Red Crane",0,0,4,0,0,0
+155674,"10.2.7 Timewalking Season - Pandaria - Journey - World Boss - 06 - Yu'lon, the Jade Serpent",0,0,4,0,0,0
+155675,"10.2.7 Timewalking Season - Pandaria - Journey - World Boss - 07 - Niuzao, the Black Ox",0,0,4,0,0,0
+155676,"10.2.7 Timewalking Season - Pandaria - Journey - World Boss - 08 - Xuen, the White Tiger",0,0,4,0,0,0
+155677,10.2.7 Timewalking Season - Pandaria - Journey - World Boss - 09 - Ordos,0,0,4,0,0,0
+155678,10.2.7 Timewalking Season - Pandaria - Journey - Party - 09 - Timeless Isle,0,0,4,0,0,0
+155679,,155678,1,0,65854,2,32
+155680,,155678,1,0,65852,0,32
+155681,,155678,1,0,65853,1,32
+155682,,155080,1,0,65831,0,32
+155683,,155080,1,0,65832,1,32
+155684,,155088,1,0,65836,3,32
+155685,,155088,1,0,65837,4,32
+155686,,155088,1,0,65838,5,32
+155687,,155100,1,0,65845,3,32
+155688,,155100,1,0,65842,4,32
+155693,,155678,1,0,65855,3,32
+155694,,155678,1,0,65856,4,32
+155695,Defeat Timeless Isle rare enemies,155070,1,0,65857,2,0
+155696,,154931,1,0,65860,0,32
+155697,,154931,1,0,65862,2,32
+155698,,154932,1,0,65863,0,32
+155699,,154932,1,0,65864,1,32
+155700,,154932,1,0,65865,2,32
+155702,,154933,1,0,65867,0,32
+155703,,154933,1,0,65868,1,32
+155704,,154934,1,0,65869,0,32
+155705,,154934,1,0,65870,1,32
+155706,,154934,1,0,65871,2,32
+155707,,154934,1,0,65866,3,32
+155708,,154933,1,0,65872,2,32
+155709,,154935,1,0,65873,0,32
+155710,,154935,1,0,65874,1,32
+155711,,154935,1,0,65875,2,32
+155712,,154936,1,0,65876,0,32
+155713,,154936,1,0,65877,1,32
+155714,,154936,1,0,65878,2,32
+155715,,154936,1,0,65879,3,32
+155716,,154937,1,0,65880,0,32
+155717,,154937,1,0,65519,1,32
+155718,,154937,1,0,65881,2,32
+155719,,154940,1,0,65882,0,32
+155720,,154940,1,0,65883,1,32
+155721,,154940,1,0,65884,2,32
+155722,,154938,1,0,65885,0,32
+155723,,154938,1,0,65886,1,32
+155724,,154938,1,0,65887,2,32
+155725,,154938,1,0,65888,3,32
+155726,,154938,1,0,65889,4,32
+155727,,154938,1,0,65890,5,32
+155728,,154938,1,0,65891,6,32
+155729,,154938,1,0,65892,7,32
+155730,,155249,1,0,65893,0,32
+155731,,155249,1,0,65894,1,32
+155732,,155249,1,0,65895,2,32
+155733,,161888,1,0,65896,1,32
+155734,,161888,1,0,65897,0,32
+155735,,155249,1,0,65898,3,32
+155736,,155249,1,0,65899,4,32
+155737,,155250,1,0,65900,0,32
+155738,,155250,1,0,65901,1,32
+155739,,155250,1,0,65902,2,32
+155740,,155250,1,0,65903,3,32
+155741,,155250,1,0,65904,4,32
+155742,,155250,1,0,65905,5,32
+155743,,155250,1,0,65906,6,32
+155744,,155250,1,0,65907,7,32
+155745,,155250,1,0,65908,8,32
+155746,,155251,1,0,65909,0,32
+155747,,155251,1,0,65910,1,32
+155748,,155251,1,0,65911,2,32
+155749,,155251,1,0,65912,3,32
+155750,,155251,1,0,65913,4,32
+155751,,155252,1,0,65914,0,32
+155752,,155252,1,0,65915,1,32
+155753,,155252,1,0,65916,2,32
+155754,,155252,1,0,65917,3,32
+155755,,155252,1,0,65918,4,32
+155756,10.2.7 Timewalking Season - Pandaria - Journey - Explore - 01 - The Jade Forest,0,0,4,0,0,0
+155757,Tian Monastery,155756,1,0,65919,0,0
+155758,Dawn's Blossom,155756,1,0,65920,1,0
+155759,Dreamer's Pavillion,155756,1,0,65921,2,0
+155760,Emperor's Omen,155756,1,0,65922,3,0
+155761,Pearl Lake,155756,1,0,65923,4,0
+155762,Grookin Hill,155756,1,0,65924,5,0
+155763,Greenstone Quarry,155756,1,0,65925,6,0
+155764,Nectarbreeze Orchard,155756,1,0,65926,7,0
+155765,Camp Nooka Nooka,155756,1,0,65927,8,0
+155766,Terrace of Ten Thunders,155756,1,0,65928,9,0
+155767,Serpent's Heart,155756,1,0,65929,10,0
+155768,Slingtail Pits,155756,1,0,65930,11,0
+155769,Temple of the Jade Serpent,155756,1,0,65931,12,0
+155770,The Arboretum,155756,1,0,65932,13,0
+155771,Garrosh'ar Point,155756,1,0,65933,14,0
+155772,Windward Isle,155756,1,0,65934,15,0
+155773,Honeydew Village,155756,1,0,65935,16,0
+155774,10.2.7 Timewalking Season - Pandaria - Journey - Explore - 06 - Dread Wastes,0,0,4,0,0,0
+155775,Heart of Fear,155774,1,0,65995,0,0
+155776,Klaxxi'vess,155774,1,0,65996,1,0
+155777,Kypari Vor,155774,1,0,65997,2,0
+155778,Kypari Zar,155774,1,0,65998,3,0
+155779,Rikkitun Village,155774,1,0,65999,4,0
+155780,Soggy's Gamble,155774,1,0,66000,5,0
+155781,Terrace of Gurthan,155774,1,0,66001,6,0
+155782,The Briny Muck,155774,1,0,66002,7,0
+155783,The Clutches of Shek'zeer,155774,1,0,66003,8,0
+155784,The Sunset Brewgarden,155774,1,0,66004,9,0
+155785,Writhingwood,155774,1,0,66005,10,0
+155786,Zan'vess,155774,1,0,66006,11,0
+155787,10.2.7 Timewalking Season - Pandaria - Journey - Explore - 05 - Townlong Steppes,0,0,4,0,0,0
+155788,Gao-Ran Battlefront,155787,1,0,65984,0,0
+155789,Kri'vess,155787,1,0,65985,1,0
+155790,Rensai's Watchpost,155787,1,0,65986,2,0
+155791,Niuzao Temple,155787,1,0,65987,3,0
+155792,Fire Camp Osul,155787,1,0,65988,4,0
+155793,Hatred's Vice,155787,1,0,65989,5,0
+155794,Shado-Pan Garrison,155787,1,0,65990,6,0
+155795,Shan'ze Dao,155787,1,0,65991,7,0
+155796,Sik'vess,155787,1,0,65992,8,0
+155797,Sra'vess,155787,1,0,65993,9,0
+155798,The Sumprushes,155787,1,0,65994,10,0
+155799,10.2.7 Timewalking Season - Pandaria - Journey - Explore - 04 - Kun-Lai Summit,0,0,4,0,0,0
+155800,Binan Village,155799,1,0,65970,0,0
+155801,Firebough Nook,155799,1,0,65971,1,0
+155802,Gate of the August Celestials,155799,1,0,65972,2,0
+155803,Isle of Reckoning,155799,1,0,65973,3,0
+155804,Kota Peak,155799,1,0,65974,4,0
+155805,Mogujia,155799,1,0,65975,5,0
+155806,Mount Neverest,155799,1,0,65976,6,0
+155807,Muskpaw Ranch,155799,1,0,65977,7,0
+155808,Peak of Serenity,155799,1,0,65978,8,0
+155809,Shado-Pan Monastery,155799,1,0,65979,9,0
+155810,Temple of the White Tiger,155799,1,0,65980,10,0
+155811,The Burlap Trail,155799,1,0,65981,11,0
+155812,Valley of Emperors,155799,1,0,65982,12,0
+155813,Zouchin Village,155799,1,0,65983,13,0
+155814,10.2.7 Timewalking Season - Pandaria - Journey - Explore - 03 - Krasarang Wilds,0,0,4,0,0,0
+155815,Anglers Wharf,155814,1,0,65954,0,0
+155816,Cradle of Chi-Ji,155814,1,0,65955,1,0
+155817,Dojani River,155814,1,0,65956,2,0
+155818,Fallsong Village,155814,1,0,65957,3,0
+155819,Krasarang Cove,155814,1,0,65958,4,0
+155820,The Krasari Ruins,155814,1,0,65959,5,0
+155821,Nayeli Lagoon,155814,1,0,65960,6,0
+155822,Crane Wing Refuge,155814,1,0,65961,7,0
+155823,Ruins of Dojan,155814,1,0,65962,8,0
+155824,Ruins of Korja,155814,1,0,65963,9,0
+155825,Temple of the Red Crane,155814,1,0,65964,10,0
+155826,The Deepwild,155814,1,0,65965,11,0
+155827,The Forbidden Jungle,155814,1,0,65966,12,0
+155828,The Southern Isles,155814,1,0,65967,13,0
+155829,Unga Ingoo,155814,1,0,65968,14,0
+155830,Zhu's Watch,155814,1,0,65969,15,0
+155831,10.2.7 Timewalking Season - Pandaria - Journey - Explore - 02 - Valley of the Four Winds,0,0,4,0,0,0
+155832,Winds' Edge,155831,1,0,65936,0,0
+155833,Dustback Gorge,155831,1,0,65937,1,0
+155834,Gilded Fan,155831,1,0,65938,2,0
+155835,The Imperial Granary,155831,1,0,65939,3,0
+155836,Halfhill,155831,1,0,65940,4,0
+155837,Stoneplow,155831,1,0,65941,5,0
+155838,Kunzen Village,155831,1,0,65942,6,0
+155839,Mudmug's Place,155831,1,0,65943,7,0
+155840,Nesingwary Safari,155831,1,0,65944,8,0
+155841,Paoquan Hollow,155831,1,0,65945,9,0
+155842,Pools of Purity,155831,1,0,65946,10,0
+155843,Rumbling Terrace,155831,1,0,65947,11,0
+155844,Silken Fields,155831,1,0,65948,12,0
+155845,Singing Marshes,155831,1,0,65949,13,0
+155846,Stormstout Brewery,155831,1,0,65950,14,0
+155847,The Heartland,155831,1,0,65951,15,0
+155848,Thunderfoot Ranch,155831,1,0,65952,16,0
+155849,Zhu's Descent,155831,1,0,65953,17,0
 155850,Collect at least 10 Hearthstone Cards,0,10,8,0,0,8193
 155851,Abomination,155850,1,0,65343,0,0
 155852,Alley Cat,155850,1,0,66032,1,0
@@ -90400,10 +91189,85 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 155869,Pyroblast,155850,1,0,65328,18,0
 155870,Righteousness,155850,1,0,65342,19,0
 155871,Scarlet Crusader,155850,1,0,65347,20,0
+155918,[DNT] Currency Dragonkin 1,0,1,8,0,0,4096
+155919,,155918,0,0,66035,0,0
+155921,[DNT] Currency Elemental 1,0,1,8,0,0,4096
+155923,,155921,0,0,66037,0,0
 155932,Earn achievement 'Trading Post Enthusiast'',0,0,4,0,0,0
 155933,,155932,0,0,66041,0,2
+156037,10.2.7 Timewalking Season - Pandaria - Artifact - Currency Earned - Damage - Humanoid,0,0,4,0,0,0
+156038,,156037,1,0,66090,0,0
+156039,10.2.7 Timewalking Season - Pandaria - Artifact - Currency Earned - Stat - Critical Strike,0,0,4,0,0,0
+156040,,156039,1,0,66091,0,0
+156041,10.2.7 Timewalking Season - Pandaria - Artifact - Currency Earned - Stat - Haste,0,0,4,0,0,0
+156042,,156041,1,0,66092,0,0
+156043,10.2.7 Timewalking Season - Pandaria - Artifact - Currency Earned - Stat - Leech,0,0,4,0,0,0
+156044,,156043,1,0,66093,0,0
+156045,10.2.7 Timewalking Season - Pandaria - Artifact - Currency Earned - Stat - Mastery,0,0,4,0,0,0
+156046,,156045,1,0,66094,0,0
+156047,10.2.7 Timewalking Season - Pandaria - Artifact - Currency Earned - Stat - Primary,0,0,4,0,0,0
+156048,,156047,1,0,66095,0,0
+156049,10.2.7 Timewalking Season - Pandaria - Artifact - Currency Earned - Stat - Speed,0,0,4,0,0,0
+156050,,156049,1,0,66096,0,0
+156051,10.2.7 Timewalking Season - Pandaria - Artifact - Currency Earned - Stat - Stamina,0,0,4,0,0,0
+156052,,156051,1,0,66097,0,0
+156053,10.2.7 Timewalking Season - Pandaria - Artifact - Currency Earned - Stat - Versatility,0,0,4,0,0,0
+156054,,156053,1,0,66098,0,0
+156055,10.2.7 Timewalking Season - Pandaria - Artifact - Currency Earned - Damage - Aberration,0,0,4,0,0,0
+156056,,156055,1,0,66099,0,0
+156057,10.2.7 Timewalking Season - Pandaria - Artifact - Currency Earned - Damage - Beast,0,0,4,0,0,0
+156058,,156057,1,0,66100,0,0
+156059,10.2.7 Timewalking Season - Pandaria - Artifact - Currency Earned - Damage - Demon,0,0,4,0,0,0
+156060,,156059,1,0,66101,0,0
+156061,10.2.7 Timewalking Season - Pandaria - Artifact - Currency Earned - Damage - Dragonkin,0,0,4,0,0,0
+156062,,156061,1,0,66102,0,0
+156063,10.2.7 Timewalking Season - Pandaria - Artifact - Currency Earned - Damage - Elemental,0,0,4,0,0,0
+156064,,156063,1,0,66103,0,0
+156065,10.2.7 Timewalking Season - Pandaria - Artifact - Currency Earned - Damage - Giant,0,0,4,0,0,0
+156066,,156065,1,0,66104,0,0
+156067,10.2.7 Timewalking Season - Pandaria - Artifact - Currency Earned - Damage - Mechanical,0,0,4,0,0,0
+156068,,156067,1,0,66105,0,0
+156069,10.2.7 Timewalking Season - Pandaria - Artifact - Currency Earned - Damage - Undead,0,0,4,0,0,0
+156070,,156069,1,0,66106,0,0
+156071,10.2.7 Timewalking Season - Pandaria - Artifact - Currency Earned - Resistance - Arcane,0,0,4,0,0,0
+156072,,156071,1,0,66107,0,0
+156073,10.2.7 Timewalking Season - Pandaria - Artifact - Currency Earned - Resistance - Fire,0,0,4,0,0,0
+156074,,156073,1,0,66108,0,0
+156075,10.2.7 Timewalking Season - Pandaria - Artifact - Currency Earned - Resistance - Frost,0,0,4,0,0,0
+156076,,156075,1,0,66109,0,0
+156077,10.2.7 Timewalking Season - Pandaria - Artifact - Currency Earned - Resistance - Holy,0,0,4,0,0,0
+156078,,156077,1,0,66110,0,0
+156079,10.2.7 Timewalking Season - Pandaria - Artifact - Currency Earned - Resistance - Nature,0,0,4,0,0,0
+156080,,156079,1,0,66111,0,0
+156081,10.2.7 Timewalking Season - Pandaria - Artifact - Currency Earned - Resistance - Physical,0,0,4,0,0,0
+156082,,156081,1,0,66112,0,0
+156083,10.2.7 Timewalking Season - Pandaria - Artifact - Currency Earned - Resistance - Shadow,0,0,4,0,0,0
+156084,,156083,1,0,66113,0,0
+156085,10.2.7 Timewalking Season - Pandaria - Journey - Rares - 07 - Vale of Eternal Blossoms,0,3,8,0,0,0
+156086,Ai-Ran the Shifting Cloud,156085,1,0,66119,5,0
+156087,Kal'tik the Blight,156085,1,0,66116,2,0
+156088,Major Nanners,156085,1,0,66114,0,0
+156089,Kang the Soul Thief,156085,1,0,66117,3,0
+156090,Yorik Sharpeye,156085,1,0,66121,7,0
+156091,Sahn Tidehunter,156085,1,0,66115,1,0
+156092,Moldo One-Eye,156085,1,0,66120,6,0
+156093,Urgolax,156085,1,0,66118,4,0
+156094,,154933,1,0,66122,3,32
 156095,Earn achievement 'Trading Post Enthusiast'',0,0,4,0,0,0
 156096,,156095,0,0,66041,0,2
+156116,[DNT] Currency Arcane 1,0,1,8,0,0,4096
+156117,,156116,1,0,66133,0,0
+156121,,156116,0,0,66134,1,0
+156132,[DNT] Drake acquired,0,1,8,0,0,4096
+156133,,156132,0,0,66140,0,0
+156134,,156132,0,0,66141,1,0
+156135,,156132,0,0,66142,2,0
+156136,,156132,0,0,66143,3,0
+156137,,156132,0,0,66144,4,0
+156138,[DNT] Use rostrum,0,1,5,0,0,4096
+156139,,156138,1,0,66147,0,0
+156140,,156138,1,0,66148,1,0
+156141,,156138,1,0,66149,2,0
 156142,[DNT] Plunderstorm Tutorial Tracker - Objective 001 - Complete (OJF),0,0,4,0,0,0
 156143,,156142,1,0,66150,0,0
 156144,[DNT] Plunderstorm Tutorial Tracker - Objective 002 - Complete (OJF),0,0,4,0,0,0
@@ -90426,6 +91290,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 156161,,156160,1,0,66159,0,0
 156162,[DNT] Plunderstorm Tutorial Tracker - Objective 011 - Complete (OJF),0,0,4,0,0,0
 156163,,156162,1,0,66160,0,0
+156402,Borokhula slain (Timed),32818,1,0,66296,0,0
 156501,[DNT] Ensemble: Vagabond,154150,1,0,66368,0,0
 156502,[DNT] Ensemble: Wanderer,154150,1,0,66370,2,0
 156503,[DNT] Love Witch,154150,1,0,66369,3,0
@@ -90468,6 +91333,20 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 156702,Kill Daetan Swiftplume,0,1,8,0,0,0
 156703,,156702,1,0,66480,0,2
 156704,,156702,1,0,66481,1,2
+156713,[DNT] Acquire a drake,0,1,8,0,0,4096
+156714,,156713,0,0,66487,0,0
+156719,[DNT] Learn riding drake,0,1,8,0,0,4096
+156720,,156719,1,0,66492,0,0
+156721,,156719,1,0,66493,1,0
+156722,,156719,1,0,66494,2,0
+156723,,156719,1,0,66495,3,0
+156724,,156719,1,0,66496,4,0
+156729,[DNT] Currency Dragonkin or Elemental 1,0,1,8,0,0,4096
+156730,,156729,0,0,66501,0,0
+156731,,156729,0,0,66502,1,0
+156743,[DNT] Equip cloak,0,1,5,0,0,4096
+156744,,156743,0,0,66508,0,0
+156745,,156743,0,0,66509,1,0
 156751,Northrend Cup courses completed,0,5,5,0,0,8193
 156752,,156751,0,0,66512,0,0
 156753,Northrend Cup courses completed,0,10,5,0,0,8193
@@ -90522,12 +91401,125 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 156864,Darkmoon Faire pet tamers defeated,0,0,4,0,0,1
 156865,Jeremy Feasel,156864,1,0,66562,0,0
 156866,Christoph VonFeasel,156864,1,0,66563,1,0
+156867,Trading Post - Heritage Armor - Complete Draenei Quest Chain,0,0,4,0,0,1
+156868,An Artificer's Appeal,156867,0,0,66564,0,0
+156869,Revivng Tradition,156867,0,0,66565,1,0
+156870,Pressing Deadlines,156867,0,0,66566,2,0
+156871,Rush Order,156867,0,0,66567,3,0
+156872,An Old Wound,156867,0,0,66568,4,0
+156873,Lingering Scars,156867,0,0,66569,5,0
+156874,To See Clearly,156867,0,0,66570,6,0
+156875,Moving Past,156867,0,0,66571,7,0
+156876,Emergency Efforts,156867,0,0,66572,8,0
+156877,Beneath the Skin,156867,0,0,66573,9,0
+156878,Assessing the Enemy,156867,0,0,66574,10,0
+156879,Excision,156867,0,0,66575,11,0
+156880,At the Source,156867,0,0,66576,12,0
+156881,Pain Recedes,156867,0,0,66577,13,0
+156882,A Burden Shared,156867,0,0,66578,14,0
+156883,Our Path Forward,156867,0,0,66579,15,0
+156884,Trading Post - Heritage Armor - Complete Troll Quest Chain,0,0,4,0,0,1
+156885,Return to the Echo Isles,156884,0,0,66580,0,0
+156886,De Old Loa,156884,0,0,66581,1,0
+156887,De Loa of de Past,156884,0,0,66582,2,0
+156888,Stalking the Stalker,156884,0,0,66583,3,0
+156889,There is Another,156884,0,0,66584,4,0
+156890,Looking for Lukou,156884,0,0,66585,5,0
+156891,One with the Loa,156884,0,0,66586,6,0
+156892,Stolen but not Forgotten,156884,0,0,66587,7,0
+156893,The Unkillable,156884,0,0,66588,8,0
+156894,Heart of Lukou,156884,0,0,66589,9,0
+156895,Honor and Tribute,156884,0,0,66590,10,0
+156896,The Rush'kah,156884,0,0,66591,11,0
+156897,The Loa Trials,156884,0,0,66592,12,0
+156898,Retraining the Trainees,156884,0,0,66593,13,0
+156899,Ritual Recovery,156884,0,0,66594,14,0
+156900,De Power of Death,156884,0,0,66595,15,0
+156901,Avatar of Mueh'zala,156884,0,0,66596,16,0
+156902,De Darkspear Loa,156884,0,0,66597,17,0
+156908,Trading Post - Prologue to 11.0 - Complete Quest Chain,0,0,4,0,0,1
+156909,The Harbinger,157579,0,0,66600,0,0
+156910,Door to the Ren'dorei,156908,0,0,66601,1,0
+156911,Riftwalker Reports,156908,0,0,66602,2,0
+156912,Cracks in the Void,156908,0,0,66603,3,0
+156913,Galakrond's Unrest,156908,0,0,66604,4,0
+156914,Walk a Mile in Her Shadows,156908,0,0,66605,5,0
+156915,Dark Descension,156908,0,0,66606,6,0
+156916,Legacy of the Void,156908,0,0,66607,7,0
+156917,The Path Taken,156908,0,0,66608,8,0
+156918,"And Be One Traveler, Long I Stood",156908,0,0,66609,9,0
+156919,Defend Telogrus Rift,156908,0,0,66610,10,0
+156920,Null and Void,156908,0,0,66611,11,0
+156921,Radiant Warnings,156908,0,0,66612,12,0
+156962,[DNT] Daily - Klaxxi,0,2,5,0,0,4097
+156963,,156962,0,0,66633,0,0
+156964,[DNT] Daily - Shado-Pan,0,2,5,0,0,4097
+156965,,156964,0,0,66634,0,0
+156966,[DNT] Daily - Celestial - East,0,2,5,0,0,4097
+156967,,156966,0,0,66637,0,0
+156968,[DNT] Daily - Golden Lotus,0,2,5,0,0,4097
+156969,,156968,0,0,66636,0,0
+156970,[DNT] Daily - Celestial - Yak,0,2,5,0,0,4097
+156971,,156970,0,0,66638,0,0
+156972,[DNT] Daily - Celestial - Tiger,0,2,5,0,0,4097
+156973,,156972,0,0,66639,0,0
+156976,[DNT] Daily - Celestial - Chi-Ji,0,2,5,0,0,4097
+156977,,156976,0,0,66641,0,0
+156978,Daily quests completed,0,5,5,0,0,8193
+156979,,156978,0,0,66642,0,8193
 156980,Achievement - Any Keystone Timed: Dragonflight Dungeons Season 4,0,1,4,0,0,2
 156981,,156980,1,0,66643,0,0
+156982,Daily quests completed,0,10,5,0,0,8193
+156983,,156982,0,0,66642,0,8193
+156984,Daily quests completed,0,20,5,0,0,8193
+156985,,156984,0,0,66642,0,8193
 156986,<Hidden> 10.2.6 Void Zone - WOTLK Pet,0,0,4,0,0,0
 156987,,156986,0,0,66644,0,8194
 156988,<Hidden> 10.2.6 Void Zone - WOTLK Mount,0,0,4,0,0,0
 156989,,156988,0,0,66645,0,8194
+156994,[DNT] Daily - Krasarang - H,0,2,5,0,0,4097
+156995,,156994,0,0,66648,0,0
+156996,[DNT] Daily - Krasarang - A,0,2,5,0,0,4097
+156997,,156996,0,0,66649,0,0
+156998,[DNT] Daily - Serpentriders,0,2,5,0,0,4097
+156999,,156998,0,0,66650,0,0
+157000,[DNT] Daily - Isle of Thunder - H,0,2,5,0,0,4097
+157001,,157000,0,0,66651,0,0
+157002,[DNT] Daily - Isle of Thunder - A,0,2,5,0,0,4097
+157003,,157002,0,0,66652,0,0
+157004,[DNT] Daily - Anglers,0,2,5,0,0,4097
+157005,,157004,0,0,66653,0,0
+157008,[DNT] Daily - Klaxxi,0,2,5,0,0,4097
+157009,,157008,0,0,66655,0,0
+157010,[DNT] Dungeon bosses,0,3,5,0,0,4097
+157011,,157010,0,0,66656,0,1
+157012,[DNT] Raid bosses,0,2,5,0,0,4097
+157013,,157012,0,0,66657,0,1
+157014,[DNT] Scenario,0,3,4,0,0,4097
+157015,,157014,1,0,66658,0,1
+157016,Bronze earned,0,1000,5,0,0,8193
+157017,,157016,0,0,66659,0,0
+157018,Bronze earned,0,12000,5,0,0,8193
+157019,,157018,0,0,66659,0,0
+157020,Bronze earned,0,25000,5,0,0,8193
+157021,,157020,0,0,66659,0,0
+157022,Trading Post - Timerunning - Complete Intro Quest,0,0,4,0,0,1
+157023,It's About Time,157022,0,0,66660,0,0
+157024,Seeking Expert Advice,157022,0,0,66661,1,0
+157025,Weave It To Me,157022,0,0,66662,2,0
+157026,Cloak and Needle,157022,0,0,66663,5,0
+157027,Knot My Problem,157022,0,0,66664,3,0
+157028,Goodbyes Are Hard When You Live Forever,157022,0,0,66665,6,0
+157029,Levels gained,0,10,5,0,0,8193
+157030,,157029,1,0,66666,0,0
+157035,Levels gained,0,30,5,0,0,8193
+157036,,157035,1,0,66666,0,0
+157037,Items upgraded,0,2,5,0,0,8193
+157038,,157037,0,0,66670,0,0
+157039,Items upgraded,0,5,5,0,0,8193
+157040,,157039,0,0,66670,0,0
+157050,10.2.7 Timewalking Season - Pandaria - Artifact - Currency Earned - Stat - Experience,0,0,4,0,0,0
+157051,,157050,1,0,66672,0,0
 157052,Complete All Three Mythic Awakened Dragonflight Raids (Hidden),0,0,4,0,0,0
 157053,,157052,1,0,64819,0,32
 157054,,157052,1,0,64820,1,32
@@ -90540,6 +91532,24 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 157061,,157059,0,0,66674,1,32
 157062,,157056,0,0,64817,1,32
 157063,,157056,0,0,64818,2,32
+157187,Dracthyr Horde,6264,1,0,66738,9,0
+157188,Dracthyr Alliance,1612,1,0,66739,9,0
+157189,,154600,0,0,66740,1,0
+157200,Magister Umbric waved at,0,0,4,0,0,8193
+157201,,157200,1,0,66747,0,1
+157202,Trading Post - Be Yourself - Complete Quest Chain,0,0,4,0,0,1
+157203,Identity Crisis,157202,0,0,66748,0,0
+157204,Who Are You?,157202,0,0,66749,1,0
+157205,Don't Threaten Me With a Good Time,157202,0,0,66750,2,0
+157206,Gather Your Rosebuds,157202,0,0,66751,3,0
+157207,Survey the Surveyors,157202,0,0,66752,4,0
+157210,Fish up 50 items.,0,0,4,0,0,0
+157211,Items fished up,157210,50,0,66754,0,1
+157212,Ground skimming vigor recovered,0,30,5,0,0,8193
+157213,,157212,0,0,66755,0,0
+157220,,154931,1,0,65861,1,32
+157221,10.2.7 Timewalking Season - Pandaria - Journey - Scenario - 10 - Lion's Landing - 01 - N,0,0,4,0,0,0
+157222,,157221,1,0,66756,0,2
 157225,Back from the Beyond (Evergreen),0,0,4,0,0,0
 157226,,157225,1,0,53481,0,32
 157227,,157225,1,0,52134,1,32
@@ -90557,15 +91567,65 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 157239,,157225,1,0,53490,13,32
 157240,,157225,1,0,53491,14,32
 157241,,157225,1,0,53492,15,32
+157262,Trading Post - Sit in Chairs,0,0,4,0,0,2
+157263,Colorful Beach Chair,157262,1,0,66765,0,1
+157264,Fishing Chair,157262,1,8,0,1,8193
+157265,,157264,1,0,66766,0,1
 157277,,154209,0,0,65201,2,0
 157278,Cinna-Cinderbloom Tea,154206,1,8,0,4,8193
 157279,,157278,0,0,65200,1,0
+157305,Trading Post - Darkmoon Faire - Use the items from Rona Greenteeth,0,0,4,0,0,1
+157306,Forsaken Foie Gras,157305,1,0,66793,0,0
+157307,Green Ham & Eggs,157305,1,0,66794,1,0
+157308,Inky Black Potion,157305,1,0,66788,2,0
+157309,Kolin danced with,0,0,4,0,0,8193
+157310,,157309,0,0,66789,0,1
+157311,/sit with Eternus,0,0,4,0,0,8192
+157312,,157311,0,0,66790,0,0
+157316,"Remix Scenario, Dungeon or Raid completed",0,3,5,0,0,8193
+157317,Kill Vengeful Hui,157316,0,0,66795,0,0
+157318,Kill Borokhula the Destroyer,157316,0,0,66796,1,0
+157319,Kill Captain Ook,157316,0,0,66797,2,0
+157320,Kill Warbringer Qobi,157316,0,0,66798,3,0
+157321,,157316,0,0,66799,4,0
+157322,,157316,0,0,66800,5,32
+157323,Defeat Commander Tel'vrak,157316,0,0,66801,6,0
+157324,,157316,0,0,66802,7,2
+157325,,157316,0,0,66803,8,2
+157326,,157316,0,0,66804,9,2
+157327,,157316,0,0,66805,10,2
+157328,,157316,0,0,66806,11,2
+157329,,157316,0,0,66807,12,2
+157330,Kill Admiral Hagman,157316,0,0,66808,13,0
+157331,Kill Admiral Hodgson,157316,0,0,66809,14,0
+157332,,157316,0,0,66810,15,2
+157333,,157316,0,0,66811,16,0
+157334,,157316,0,0,66812,17,0
+157335,Dungeon,157316,0,0,66813,18,0
+157336,Dungeon,157316,0,0,66814,19,0
+157337,,157316,0,0,66815,20,0
+157338,,157316,0,0,66816,21,2
+157339,,157316,0,0,66817,22,2
+157340,,157316,0,0,66818,23,0
+157341,Flameweaver Koegler,157316,0,0,66819,24,2
+157342,High Inquisitor Whitemane,157316,0,0,66820,25,2
+157343,Darkmaster Gandling,157316,0,0,66821,26,2
+157344,Raids,157316,0,0,66792,27,0
+157385,"Get a score of at least 30,000",0,0,4,0,0,0
+157386,"Get a score of at least 30,000",157385,30000,0,23873,0,2048
+157387,"Get a score of at least 25,000",0,0,4,0,0,0
+157388,"Get a score of at least 25,000",157387,25000,0,23873,0,2048
+157389,Seat and serve as many customers as you can in 5 minutes,0,0,4,0,0,0
+157390,Seat and serve as many customers as you can in 5 minutes,157389,0,0,23872,0,0
 157393,<DNT> Keg Leg's Crew - Renown 40 - Account,0,0,4,0,0,0
 157394,,157393,40,0,66823,0,0
 157401,Plunderstorm Victory,0,0,4,0,0,0
 157402,Win a game of Plunderstorm.,157401,1,0,66826,0,0
 157403,Collect Plunder,0,0,4,0,0,0
 157404,"Collect 1,000,000 Plunder.",157403,1000000,0,66827,0,0
+157429,[DNT] Queue for A Little Patience,0,1,5,0,0,12290
+157430,,157429,0,0,66837,1,0
+157431,,157429,0,0,66838,2,0
 157434,<Hidden> 10.2.6 Void Zone - Glamrok <DNT>,0,0,4,0,0,0
 157435,,157434,0,0,66840,0,8194
 157436,<Hidden> 10.2.6 Void Zone - Pepe <DNT>,0,0,4,0,0,0
@@ -90577,7 +91637,154 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 157442,<DNT> Keg Leg's Crew - Title Unlock,0,0,4,0,0,0
 157443,,157442,0,0,66841,0,0
 157491,"Herbs, ores, skins, or fish gathered",149962,1,0,66847,3,1
+157507,Midsummer Fire Festival daily quests completed,0,2,5,0,0,8193
+157508,,157507,0,0,59319,0,0
+157509,,157507,0,0,59320,1,0
+157510,,157507,0,0,59321,2,0
+157511,,157507,0,0,59322,3,0
+157512,,157507,0,0,59323,4,0
+157513,,157507,0,0,60103,5,0
+157514,,157507,0,0,60104,6,0
+157515,,157507,0,0,60107,7,0
+157516,,157507,0,0,60105,8,0
+157517,,157507,0,0,60106,9,0
+157518,,157507,0,0,60108,10,0
+157519,Midsummer Fire Festival daily quests completed,0,5,5,0,0,8193
+157520,,157519,0,0,59319,0,0
+157521,,157519,0,0,59320,1,0
+157522,,157519,0,0,59321,2,0
+157523,,157519,0,0,59322,3,0
+157524,,157519,0,0,59323,4,0
+157525,,157519,0,0,60103,5,0
+157526,,157519,0,0,60104,6,0
+157527,,157519,0,0,60107,7,0
+157528,,157519,0,0,60105,8,0
+157529,,157519,0,0,60106,9,0
+157530,,157519,0,0,60108,10,0
+157531,Midsummer Fire Festival daily quests completed,0,7,5,0,0,8193
+157532,,157531,0,0,59319,0,0
+157533,,157531,0,0,59320,1,0
+157534,,157531,0,0,59321,2,0
+157535,,157531,0,0,59322,3,0
+157536,,157531,0,0,59323,4,0
+157537,,157531,0,0,60103,5,0
+157538,,157531,0,0,60104,6,0
+157539,,157531,0,0,60107,7,0
+157540,,157531,0,0,60105,8,0
+157541,,157531,0,0,60106,9,0
+157542,,157531,0,0,60108,10,0
+157543,Get X-tremely Water Blasted!,0,1,4,0,0,8192
+157544,,157543,0,0,66891,0,0
+157579,The Harbinger,156908,1,8,0,0,8192
+157580,,157579,0,0,66865,1,0
 157601,,137451,1,0,66872,1,2
+157635,X-treme Water Blaster Master!,0,1,4,0,0,8192
+157636,,157635,0,0,66892,0,0
+157668,Zskera Vault door opened,0,1,5,0,0,8193
+157669,,157668,1,0,58613,0,1
+157670,Niffen treasure chest looted,0,1,5,0,0,8193
+157671,,157670,0,0,59711,0,1
+157672,,157670,0,0,60288,1,1
+157673,Researchers Under Fire creatures killed,0,25,5,0,0,8193
+157674,,157673,0,0,59839,0,0
+157675,,157673,0,0,59840,1,0
+157676,,157673,0,0,59841,2,0
+157677,,157673,0,0,59842,3,0
+157678,,157673,0,0,59843,4,0
+157679,,157673,0,0,59844,5,0
+157680,,157673,0,0,59845,6,0
+157681,,157673,0,0,59846,7,0
+157682,,157673,0,0,59847,8,0
+157683,,157673,0,0,59850,9,0
+157684,,157673,0,0,59848,10,0
+157685,,157673,0,0,59849,11,0
+157686,,157673,0,0,59851,12,0
+157687,,157673,0,0,59852,13,0
+157688,,157673,0,0,59853,14,0
+157689,,157673,0,0,59854,15,0
+157690,,157673,0,0,59855,16,0
+157691,,157673,0,0,59856,17,0
+157692,,157673,0,0,59857,18,0
+157693,,157673,0,0,59858,19,0
+157694,,157673,0,0,59859,20,0
+157695,,157673,0,0,59860,21,0
+157696,,157673,0,0,59861,22,0
+157697,,157673,0,0,59862,23,0
+157698,,157673,0,0,59863,24,0
+157699,,157673,0,0,59864,25,0
+157700,,157673,0,0,59866,26,0
+157701,,157673,0,0,59867,27,0
+157702,,157673,0,0,59868,28,0
+157703,,157673,0,0,59869,29,0
+157704,,157673,0,0,59870,30,0
+157705,,157673,0,0,59871,31,0
+157706,,157673,0,0,59872,32,0
+157707,,157673,0,0,59873,33,0
+157708,,157673,0,0,59874,34,0
+157709,,157673,0,0,59875,35,0
+157710,,157673,0,0,59876,36,0
+157711,,157673,0,0,59877,37,0
+157712,,157673,0,0,59878,38,0
+157713,,157673,0,0,59879,39,0
+157714,,157673,0,0,59880,40,0
+157715,,157673,0,0,59881,41,0
+157716,,157673,0,0,59882,42,0
+157717,,157673,0,0,59883,43,0
+157718,,157673,0,0,59884,44,0
+157719,,157673,0,0,59885,45,0
+157720,,157673,0,0,59886,46,0
+157721,,157673,0,0,59887,47,0
+157722,,157673,0,0,59888,48,0
+157723,,157673,0,0,59889,49,0
+157724,,157673,0,0,59890,50,0
+157725,,157673,0,0,59891,51,0
+157726,,157673,0,0,59892,52,0
+157727,,157673,0,0,59893,53,0
+157728,,157673,0,0,59894,54,0
+157729,,157673,0,0,59895,55,0
+157730,,157673,0,0,59896,56,0
+157731,,157673,0,0,59897,57,0
+157732,,157673,0,0,59898,58,0
+157733,,157673,0,0,59899,59,0
+157734,,157673,0,0,59900,60,0
+157735,,157673,0,0,59901,61,0
+157736,,157673,0,0,59902,62,0
+157737,,157673,0,0,59903,63,0
+157738,,157673,0,0,59904,64,0
+157739,,157673,0,0,59905,65,0
+157740,,157673,0,0,59906,66,0
+157741,,157673,0,0,59907,67,0
+157742,,157673,0,0,59908,68,0
+157743,,157673,0,0,59909,69,0
+157744,,157673,0,0,59910,70,0
+157745,,157673,0,0,59911,71,0
+157746,,157673,0,0,59912,72,0
+157747,,157673,0,0,59913,73,0
+157748,,157673,0,0,59914,74,0
+157749,,157673,0,0,59915,75,0
+157750,,157673,0,0,59916,76,0
+157751,,157673,0,0,59917,77,0
+157752,,157673,0,0,59918,78,0
+157753,,157673,0,0,59919,79,0
+157754,,157673,0,0,59920,80,0
+157755,,157673,0,0,59921,81,0
+157756,,157673,0,0,59922,82,0
+157757,,157673,0,0,59923,83,0
+157758,,157673,0,0,59924,84,0
+157759,,157673,0,0,59925,85,0
+157778,[DNT] Defeat appropriate encounter,0,1,5,0,0,4096
+157779,,157778,1,0,66915,0,0
+157782,10.2.7 Timewalking Season - Pandaria - Journey - Meta - 17 - Level 20,0,0,4,0,0,0
+157783,Reach Level 20 with a Timerunner,157782,0,4,0,0,0
+157784,,157783,20,0,66917,0,0
+161363,,145066,0,0,66953,11,0
+161364,,145066,0,0,66954,12,0
+161365,,157507,0,0,66953,11,0
+161366,,157507,0,0,66954,12,0
+161367,,157519,0,0,66953,11,0
+161368,,157519,0,0,66954,12,0
+161369,,157531,0,0,66953,11,0
+161370,,157531,0,0,66954,12,0
 161371,<DNT> Keg Leg's Crew - Renown 6 - Account,0,0,4,0,0,0
 161372,,161371,6,0,66823,0,0
 161373,<DNT> Keg Leg's Crew - Renown 2 - Account,0,0,4,0,0,0
@@ -90614,15 +91821,43 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 161404,,161403,40,0,66823,0,0
 161781,<DNT> Keg Leg's Crew - Renown 24 - Account,0,0,4,0,0,0
 161782,,161781,24,0,66823,0,0
+161823,Ride a Sandbox Tiger,0,0,4,0,0,8193
+161824,,161823,0,0,67199,0,0
+161825,Ride a Darkmoon Strider,0,0,4,0,0,8193
+161826,,161825,0,0,67200,0,0
+161830,Scenario completed,0,1,8,0,0,1
+161831,Time Rift,161830,0,0,60698,0,1
+161832,Community Feast,161830,0,0,56954,1,1
+161833,Superbloom,161830,0,0,62118,2,1
+161837,Pythagorus flexed at,0,0,4,0,0,8193
+161838,,161837,1,0,67206,0,1
 161839,<DNT> Keg Leg's Crew - Renown 39 - Account,0,0,4,0,0,0
 161840,,161839,39,0,66823,0,0
 161841,<Hidden> 10.2.6 Void Zone - WOTLK Pet Renown Level,0,0,4,0,0,0
 161842,,161841,11,0,66823,0,8194
 161843,<Hidden> 10.2.6 Void Zone - WOTLK Mount Renown Level,0,0,4,0,0,0
 161844,,161843,39,0,66823,0,8194
+161845,10.2.7 Timewalking Season - Pandaria - Journey - Campaign - 06 - Dread Wastes,0,0,4,0,0,0
+161846,The First Paragons,161845,1,0,67265,0,16
+161847,Taste of Amber,161845,1,0,67266,1,16
+161848,Like a Deck Boss,161845,1,0,67267,2,16
+161849,The Might of the Klaxxi,161845,0,4,0,3,8208
+161850,,161849,1,0,67268,0,0
+161851,,161849,1,0,67269,1,0
 161852,Into The Storm (Hidden Tracking Achievement),0,0,4,0,0,32
 161853,,161852,1,0,64594,0,32
 161856,,149607,1,0,67291,13,0
+161888,Alliance or Horde Battle on the High Seas,155249,1,8,0,5,0
+161904,,157429,0,0,67326,0,0
+162066,What's Hours Is Yours,157022,0,0,67411,4,0
+162211,10.2.7 Timewalking Season - Pandaria - Journey - Meta - 18 - Level 70,0,0,4,0,0,0
+162212,Reach Level 70 with a Timerunner,162211,0,4,0,0,0
+162213,,162212,70,0,67506,0,0
+162214,10.2.7 Timewalking Season - Pandaria - Journey - Realm First - 01 - Level 70,0,0,4,0,0,0
+162215,Reach Level 70 with a Timerunner,162214,0,4,0,0,0
+162216,,162215,70,0,67506,0,0
+162217,10.2.7 Timewalking Season - Pandaria - Journey - Raid - 06 - Siege of Orgrimmar - 04 - M - Realm First,0,0,4,0,0,0
+162218,Garrosh Hellscream,162217,1,0,65816,0,16
 162503,Cover Spell,148721,1,0,67687,13,0
 162568,Now THIS is Dragon Racing! (Hidden Copy),0,0,4,0,0,0
 162569,,162568,1,0,64541,0,32
@@ -90636,3 +91871,17 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 162577,,162568,1,0,64549,8,32
 162578,,162568,1,0,64550,9,32
 162579,,162568,1,0,64551,10,32
+162833,[DNT] Noodle Time tutorial - Bonus objective (timer),0,0,4,0,0,0
+162834,Seat and serve as many customers as you can in 5 minutes,162833,1,0,67961,0,0
+162942,,147875,1,0,68027,0,1
+162962,,155669,0,0,68036,0,0
+162963,,155670,0,0,68037,0,0
+162964,,155671,0,0,68038,0,0
+162965,,155672,0,0,68039,0,0
+162966,,155677,0,0,68040,0,0
+162967,,155673,0,0,68041,0,0
+162968,,155674,0,0,68042,0,0
+162969,,155675,0,0,68043,0,0
+162970,,155676,0,0,68044,0,0
+162971,High Seas Scenario - Bonus Objectives (Horde),0,0,4,0,0,0
+162972,Defeat Admiral Hodgson (Timed),162971,1,0,68046,0,0
