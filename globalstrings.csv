@@ -140,7 +140,7 @@ ID,BaseTag,TagText_lang,Flags
 9743,PET_WAIT,Stay,1
 9744,PET_FOLLOW,Follow,1
 9745,PET_ATTACK,Attack,5
-9746,PET_ABANDON,Abandon,1
+9746,PET_ABANDON,Release,1
 9747,PET_DISMISS,Dismiss,1
 9748,PET_RENAME,Rename,1
 9763,ERR_ONLY_ONE_QUIVER,You can only equip one quiver.,1
@@ -1936,7 +1936,7 @@ ID,BaseTag,TagText_lang,Flags
 11820,CHAT_MONSTER_WHISPER_GET,%s whispers:\32,1
 11822,TOOLTIP_TALENT_PREREQ,Requires %1$d |4point:points; in %2$s,1
 11823,GUILD_INVITATION,invites you to join the guild:,1
-11824,ABANDON_PET,Are you sure you want to permanently abandon your pet? You will never be able to summon this pet again.,1
+11824,ABANDON_PET,Are you sure you want to permanently release your pet? You will never be able to summon this pet again.,1
 11826,LOCKED_WITH_SPELL_KNOWN,%s,1
 11827,LOOT_ITEM_SELF,You receive loot: %s,1
 11828,POTION_TIMER,You can't do that yet.,1
@@ -2079,7 +2079,7 @@ ID,BaseTag,TagText_lang,Flags
 11987,ERR_PETITION_DECLINED_S,%s has declined to sign your petition.,1
 11990,SPELL_FAILED_NO_MOUNTS_ALLOWED,You can't mount here.,1
 11991,HEALTH_COST_PER_TIME,"%s Health, plus %s per sec",1
-11993,ERR_GUILDEMBLEM_SUCCESS,Guild Emblem saved.,1
+11993,ERR_GUILDEMBLEM_SUCCESS,Emblem saved.,1
 11994,ERR_GUILD_LEADER_LEAVE,You must promote a new Guild Master using /gleader before leaving the guild.,1
 11996,ERR_IGNORING_YOU_S,%s is ignoring you.,5
 11997,SPELL_FAILED_NOT_UNSHEATHED,You must be unsheathed,1
@@ -4198,7 +4198,7 @@ ID,BaseTag,TagText_lang,Flags
 14607,NEWBIE_TOOLTIP_UNIT_PET_DISMISS,Dismisses your controlled minion.,1
 14608,NEWBIE_TOOLTIP_UNIT_PET_PAPERDOLL,"Information about your pet, including its combat statistics, spell resistances, and diet.",1
 14609,NEWBIE_TOOLTIP_UNIT_PET_RENAME,Gives your pet a new name that you specify. A pet can only be renamed once.,1
-14610,NEWBIE_TOOLTIP_UNIT_PET_ABANDON,"Abandons your pet, letting it return to the wild. Once you abandon a pet, you can never regain its companionship.",1
+14610,NEWBIE_TOOLTIP_UNIT_PET_ABANDON,"Releases your pet, letting it return to the wild. Once you release a pet, you can never regain its companionship.",1
 14611,NEWBIE_TOOLTIP_HEALTHBAR,"The amount of health you currently have. If your health reaches zero, you will die. Health automatically regenerates when you are out of combat.",1
 14612,NEWBIE_TOOLTIP_MANABAR0,The amount of mana you currently have. Players require mana in order to cast spells. Mana automatically regenerates if you have not cast a spell in the past five seconds.,1
 14613,NEWBIE_TOOLTIP_MANABAR1,Warriors (and Druids in Bear Form or Dire Bear Form) require Rage in order to use their abilities.,1
@@ -5815,7 +5815,7 @@ ID,BaseTag,TagText_lang,Flags
 17385,ERR_PLAYER_SILENCED,A group leader has removed your voice privileges.,1
 17386,ERR_PLAYER_UNSILENCED,A group leader has restored your voice privileges.,1
 17387,ENABLE_REVERB,Enable Reverb,3
-17388,OPTION_TOOLTIP_ENABLE_REVERB,Enables reverb sound effects.  This will affect performance.,3
+17388,OPTION_TOOLTIP_ENABLE_REVERB,Enables reverb sound effects. This will affect performance.,3
 17389,ERR_COMSAT_DISCONNECT,Connection lost to Voice Chat service.,1
 17390,ERR_COMSAT_RECONNECT_ATTEMPT,Voice Chat service restored!,1
 17391,ERR_COMSAT_CONNECT_FAIL,Cannot connect to voice chat service.,1
@@ -5948,8 +5948,8 @@ ID,BaseTag,TagText_lang,Flags
 17534,LOOT,Loot,1
 17535,ERR_VOICESESSION_FULL,The voice session you are attempting to join is full.,1
 17536,BINDING_NAME_TOGGLECHATTAB,Toggle Chat Pane,1
-17538,SPELL_FAILED_EXPERT_RIDING_REQUIREMENT,Requires expert riding skill,1
-17539,SPELL_FAILED_ARTISAN_RIDING_REQUIREMENT,Requires artisan riding skill,1
+17538,SPELL_FAILED_EXPERT_RIDING_REQUIREMENT,Requires Level %d,1
+17539,SPELL_FAILED_ARTISAN_RIDING_REQUIREMENT,Requires Level %d,1
 17540,TALENT_POINTS,Talents,1
 17541,GUILD_BANK_MONEY_LOG,Money Log,1
 17542,USE_GUILDBANK_REPAIR,Do you want to use guild funds for repair?,1
@@ -8660,7 +8660,6 @@ ID,BaseTag,TagText_lang,Flags
 20489,LOOT_ROLL_INELIGIBLE_REASON3,This item may not be disenchanted.,1
 20490,LOOT_ROLL_INELIGIBLE_REASON4,You do not have an Enchanter of skill %d in your group.,1
 20491,SPELL_FAILED_CUSTOM_ERROR_93,Requires Single-Stage Booster Rockets. Return to Hobart Grapplehammer to get more.,1
-20492,ERR_PARTY_LFG_BOOT_IN_COMBAT,"Players cannot be kicked while in combat, or shortly after combat.",1
 20493,ERR_PARTY_LFG_BOOT_DUNGEON_COMPLETE,Players cannot be kicked after the instance is complete.,1
 20494,ERR_PARTY_LFG_BOOT_LOOT_ROLLS,Players cannot be kicked during loot rolls.,1
 20495,ERR_PARTY_LFG_TELEPORT_IN_COMBAT,You cannot teleport out of the dungeon while in combat.,1
@@ -11461,7 +11460,7 @@ You can find trainers for them in some settlements and cities.",1
 23565,SPELL_PASSIVE_SECOND,Passive,1
 23566,LOOT_ROLL_LOST_ROLL,|HlootHistory:%d|h[Loot]|h: You have rolled %s - %d for: %s,1
 23567,BATTLE_PETS_TOTAL_PETS,Total Pets,1
-23569,BATTLE_PETS_TOTAL_PETS_TOOLTIP,Total number of pets owned.  You can have up to three of the same pet.,1
+23569,BATTLE_PETS_TOTAL_PETS_TOOLTIP,Total number of pets owned. You can have up to three of the same pet.,1
 23570,BATTLE_PETS_ACHIEVEMENT,Battle Pet Achievements,1
 23571,BATTLE_PETS_FIND_BATTLE_TOOLTIP,Matches you against a player of similar skill in a pet battle.,1
 23572,BATTLE_PETS_ACHIEVEMENT_TOOLTIP,Your total pet achievements score.  Some pet achievements unlock additional functionality.,1
@@ -11565,9 +11564,9 @@ You can find trainers for them in some settlements and cities.",1
 23672,PET_JOURNAL_HEAL_SPELL_IN_BATTLE,This spell is locked because you are in a battle.,1
 23673,BATTLE_PET_NEW_PET,%s has been added to your pet journal!,1
 23674,BATTLE_PET_TOOLTIP_SUMMON,Summons and dismisses your %s.,1
-23675,SPELL_FAILED_APPRENTICE_RIDING_REQUIREMENT,Requires apprentice riding skill,1
-23676,SPELL_FAILED_JOURNEYMAN_RIDING_REQUIREMENT,Requires journeyman riding skill,1
-23677,SPELL_FAILED_MASTER_RIDING_REQUIREMENT,Requires master riding skill,1
+23675,SPELL_FAILED_APPRENTICE_RIDING_REQUIREMENT,Requires Level %d,1
+23676,SPELL_FAILED_JOURNEYMAN_RIDING_REQUIREMENT,Requires Level %d,1
+23677,SPELL_FAILED_MASTER_RIDING_REQUIREMENT,Requires Level %d,1
 23678,SPELL_FAILED_FLIGHT_MASTER_RIDING_REQUIREMENT,Requires flight master's license skill,1
 23679,SPELL_FAILED_COLD_RIDING_REQUIREMENT,Requires cold weather flying skill,1
 23680,UNITNAME_SUMMON_TITLE19,%s's Heartwarmer,1
@@ -15435,7 +15434,7 @@ You can find trainers for them in some settlements and cities.",1
 34950,SPELL_FAILED_CUSTOM_ERROR_302,Unknown phenomenon is preventing a connection to the Leyline.,1
 34951,GARRISON_TALENT_ORDER_ADVANCEMENT,Order Advancement,1
 34952,GARRISON_TALENT_RESEARCH_COMPLETE,Research Complete,5
-34953,ERR_CANNOT_ABANDON_LAST_PET,Cannot Abandon Last Pet,1
+34953,ERR_CANNOT_ABANDON_LAST_PET,Cannot Release Last Pet,1
 34954,IGNORED_QUEST_DISPLAY,|cff000000%s (ignored)|r,1
 34955,SPELL_FAILED_CUSTOM_ERROR_303,The Nightmare obscures your vision.,1
 34956,SPELL_FAILED_YOU_CANNOT_USE_THAT_IN_PVP_INSTANCE,You cannot use that in a PvP instance.,1
@@ -18900,9 +18899,9 @@ You can find trainers for them in some settlements and cities.",1
 42703,CANNOT_UNEQUIP_TORGHAST,Cannot change equip status while in Torghast,1
 42704,NOT_IN_TORGHAST,"Can't do that in Torghast, Tower of the Damned",1
 42705,CANNOT_UNEQUIP_MYTHIC_PLUS,Cannot change equip status while a Mythic Keystone is active,1
-42706,PARTY_PLAYER_SHARDED_TARGET_NOT_IN_PARTY_PHASE,You can't see this player because they are in a different phase. They can join your phase by visiting a sanctuary such as Oribos.,1
-42707,PARTY_PLAYER_SHARDED_NOT_IN_PARTY_SHARD,You can't see this player because they are in a different phase. You can join their phase by visiting a sanctuary such as Oribos.,1
-42708,PARTY_PLAYER_SHARDED_NEITHER_IN_PARTY_SHARD,"You can't see this player because they are in a different phase. To appear in the same phase, you must both visit a sanctuary such as Oribos.",1
+42706,PARTY_PLAYER_SHARDED_TARGET_NOT_IN_PARTY_PHASE,"You can't see this player because they are in a different phase. They can join your phase by visiting a sanctuary such as Valdrakken, Oribos, or Dalaran.",1
+42707,PARTY_PLAYER_SHARDED_NOT_IN_PARTY_SHARD,"You can't see this player because they are in a different phase. You can join their phase by visiting a sanctuary such as Valdrakken, Oribos, or Dalaran.",1
+42708,PARTY_PLAYER_SHARDED_NEITHER_IN_PARTY_SHARD,"You can't see this player because they are in a different phase. To appear in the same phase, you must both visit a sanctuary such as Valdrakken, Oribos, or Dalaran.",1
 42710,SPELL_FAILED_CUSTOM_ERROR_493,All players must have quest - Torghast: Tower of the Damned.,1
 42711,SOULBIND_TUTORIAL_SOULBIND_UNLOCK,Continue the campaign to unlock %s,1
 42712,SOULBIND_LANDING_BUTTON_TUTORIAL,View your Soulbind powers here when away from the Forge of Bonds,1
@@ -22022,12 +22021,39 @@ And spread his flame to all Azeroth.",1
 51660,BINDING_NAME_WOWLABS_MULTIACTIONBAR1BUTTON2,Offensive Spell 2,1
 51661,BINDING_NAME_WOWLABS_MULTIACTIONBAR2BUTTON1,Utility Spell 1,1
 51662,BINDING_NAME_WOWLABS_MULTIACTIONBAR2BUTTON2,Utility Spell 2,1
+51665,RELEASE_PET_BUTTON_LABEL,Release,1
+51666,RELEASE_PET,Are you sure you want to permanently release your pet? You will never be able to summon this pet again.,1
 51667,SPELL_FAILED_CUSTOM_ERROR_870,This item cannot be used in the current season.,1
+51668,STABLE_PET_BUTTON_LABEL,Put in Stable,1
+51669,MAKE_ACTIVE_PET_BUTTON_LABEL,Make Active,1
+51670,STABLE_PET_INFO_SPECIALIZATION_TYPE_LABEL,%s %s,1
+51671,STABLE_PET_INFO_FAMILY_LABEL,Family: %s,1
+51672,STABLE_PET_INFO_TYPE_TOOLTIP_FAMILY,%s Family,1
+51673,STABLE_ACTIVE_PET_LIST_LABEL,Active,1
+51674,STABLE_SUMMONED_PET_LABEL,Currently Summoned Pet,1
+51675,STABLE_STABLED_PET_LIST_LABEL,Stable,1
+51676,STABLE_RENAME_ERR_NO_RENAME_CHARGES,You must use a %s before renaming this pet.,1
+51677,STABLE_TOGGLE_PET_BUTTON_ERR_CURRENTLY_SUMMONED,This pet is currently summoned.,1
+51678,STABLE_HELP_STABLED_PETS,The stable houses all the pets you've tamed that are not with you in the world.|n|nClicking on a pet will give you information about its specialization and abilities.,1
+51679,STABLE_HELP_ACTIVE_PETS,Active pets accompany and aid you in the world. These can be called one at a time and offer different benefits for different situations.,1
+51680,STABLE_HELP_SECONDARY_PET,A secondary pet can follow your active pet to inflict more damage.,1
+51681,STABLE_FILTER_BUTTON_LABEL,Sort,1
+51682,STABLE_SORT_NAME_LABEL,Name (A-Z),1
+51683,STABLE_SORT_SPECIALIZATION_LABEL,Specialization,1
+51684,STABLE_SORT_TYPE_LABEL,Family,1
+51685,STABLE_SECONDARY_PET_DISABLED,Requires the Animal Companion talent from the Beast Mastery Specialization,1
+51686,STABLE_RELEASE_PET_BUTTON_ERR_NOT_SUMMONED,You can only release your currently summoned pet.,1
+51687,STABLE_PET_ABILITIES_LIST_HEADER,Special Abilities,1
+51693,ERR_MAIL_TARGET_CANNOT_RECEIVE_MAIL,Recipient cannot receive mail.,1
+51694,STABLE_SORT_NAME_REVERSE_LABEL,Name (Z-A),1
 51698,DUNGEON_DIFFICULTY_BANNER_TOOLTIP,%s Difficulty,1
 51699,LEVEL_UP_NO_LINK,"Congratulations, you have reached |cffFF4E00Level %d!|r",1
 51700,SPECTATE,Spectate,1
 51703,PERKS_PROGRAM_SET_SELECTION_DESC,You will receive the following items:,1
 51707,DUNGEON_DIFFICULTY_BANNER_TOOLTIP_PLAYER_COUNT,%d/%d Players,1
+51713,STABLE_EXOTIC_TYPE_LABEL,Exotic,1
+51714,STABLE_FILTER_LABEL_TYPE,Type,1
+51715,STABLE_FILTER_SORT_BY_LABEL,Sort By,1
 51719,WOW_LABS_REMATCH,Leave Match,3
 51720,LFG_LIST_BEST_FOR_DUNGEON,Best for Dungeon,1
 51721,LFG_LIST_BEST_RUN,Best Run,1
@@ -22036,12 +22062,15 @@ And spread his flame to all Azeroth.",1
 51725,KEY_RANGE_GROUP_FINDER_HELPTIP,"Enter a key range for precise results, like 14-16 or 15-15.",1
 51726,MEMBERS_COLON,Members:,1
 51727,WOW_ERROR_337,Access to this realm requires an account with a valid access license.,2
+51730,MOUNT_ABILITY_TYPE_FORMAT,%s %s,1
 51733,GROUPFINDER_PLUS,+,1
 51735,ADD_BATTLENET_FRIEND_LABEL,Enter your friend's BattleNet name(Including the number):,3
 51738,GLUE_LEAVE_PARTY,Leave Party,3
 51739,GLUE_REMOVE_FROM_PARTY,Remove From Party,3
 51740,LFG_LIST_NEEDS_TANK,Needs Tank,1
-51749,LFG_LIST_CLASS_AVAILABLE,Needs My Class,1
+51744,TRANSMOG_SOURCE_7,Trading Post,1
+51746,STABLE_PET_UNCATEGORIZED,Uncategorized,1
+51749,LFG_LIST_CLASS_AVAILABLE,No %s Already In Group,1
 51754,ERR_QUEST_PUSH_HIGH_FACTION_S,%s's reputation is too high for that quest.,1
 51755,ERR_QUEST_PUSH_HIGH_FACTION_TO_RECIPIENT_S,"%s's attempt to share quest ""%s"" failed. Your reputation is too high for that quest.",1
 51756,ADDON_DEP_NOT_AVAILABLE,Dependency not available,3
@@ -22074,7 +22103,8 @@ And spread his flame to all Azeroth.",1
 51795,WOWLABS_GAMEMODE_DESC,"Pirates clash in a grand battle royale.\n\nYou may queue alone or invite a friend and queue together.
 
 ",3
-51798,INVTYPE_NON_EQUIP_IGNORE,,5
+51796,INVTYPE_NON_EQUIP_IGNORE,,5
+51801,SPELL_FAILED_CUSTOM_ERROR_1027,You must first equip the Cloak of Infinite Potential.,1
 51804,WOWLABS_FIND_GAME_SOLO,Finding Solos Game,3
 51805,WOWLABS_FIND_GAME_DUO,Finding Duos Game,3
 51806,WOWLABS_FIND_GAME_TRIO,Finding Trios Game,3
@@ -22082,10 +22112,15 @@ And spread his flame to all Azeroth.",1
 51808,WOW_LABS_CONFIRM_LEAVE_MATCH,You can still be resurrected by your teammate.|n|nAre you sure you want to leave the match?,1
 51809,FRONT_END_LOBBY_SOLOS,Solos,2
 51810,FRONT_END_LOBBY_DUOS,Duos,2
+51814,LFG_LIST_MINIMUM_RATING,Minimum Mythic+ Rating,1
 51815,WOWLABS_INVITE_FRIEND,Invite Friend,3
 51823,WOWLABS_WORLD_LOOT_OBJECT_FULLY_UPGRADED,Fully upgraded,1
 51824,WOWLABS_WORLD_LOOT_OBJECT_UPGRADE_HEADER,Upgrade:,1
 51825,WOWLABS_WORLD_LOOT_OBJECT_UPGRADE_EXPLANATION,Cooldown reduced and damage increased (if applicable).,1
+51828,SPELL_FAILED_CUSTOM_ERROR_1028,You have insufficient Bronze to make this trade.,1
+51829,STABLE_PET_SPEC_CUNNING,Cunning,1
+51830,STABLE_PET_SPEC_FEROCITY,Ferocity,1
+51831,STABLE_PET_SPEC_TENACITY,Tenacity,1
 51832,WOWLABS_GAME_BASICS_TITLE,Plunderstorm Basics,3
 51833,WOWLABS_GAME_BASICS_BODY,"|cffffffff1.|r Win by being the last one standing.
 
@@ -22094,12 +22129,14 @@ And spread his flame to all Azeroth.",1
 |cffffffff3.|r Upgrade spells by looting more copies of them.
 
 |cffffffff4.|r Use your heal ability when low on health.",3
+51834,SPELL_FAILED_CUSTOM_ERROR_1029,Requires Dragonriding.,1
 51836,WOWLABS_RENOWN_PREVIEW_BODY_FORMAT,Complete quests and collect Plunder to unlock rewards. Visit Da'kash Grimledger in the waiting area.|n|n|cff00ff00Next Reward at Level %d:|r,3
 51837,WOWLABS_RENOWN_PREVIEW_TITLE,Renown,3
 51838,WOWLABS_READY_GAME,Ready,3
 51840,WOWLABS_SUB_REQUIRED,Access to this feature requires an account with an active subscription or game time.,3
 51841,WOWLABS_SUBSCRIBE_NOW,Subscribe Now,2
 51842,WOWLABS_WAITING_ON_OTHER_PLAYERS,Waiting on other Players...,2
+51843,STABLE_PET_COUNTER,%1d/%2d,1
 51845,PLUNDERSTORM_CHAT_INSTANCE_CHAT_GET,|Hchannel:INSTANCE_CHAT|h[Lobby Party]|h %s:\32,3
 51846,PLUNDERSTORM_CHAT_INSTANCE_CHAT_LEADER_GET,|Hchannel:INSTANCE_CHAT|h[Lobby Party]|h %s:\32,3
 51847,PLUNDERSTORM_CHAT_INSTANCE_CHAT_SEND,Lobby Party:\32,3
@@ -22108,14 +22145,77 @@ And spread his flame to all Azeroth.",1
 51850,EXPANSION_SEASON_NAME,%s Season %d,1
 51856,WOW_LABS_PARTY_RESURRECTABLE_INDICATOR,Resurrectable,1
 51858,WOW_LABS_PARTY_RESURRECTABLE_INDICATOR_TOOLTIP,Resurrect your crewmate by standing near their corpse,1
+51859,QUEST_SESSION_ABANDON_WARNING,"The following quests may be abandoned upon joining the Party Sync:
+%s",1
 51866,PLUNDERSTORM_LIFETIME_PLUNDER_TOOLTIP,Total Plunder Collected,3
 51867,LIMITED_TIME_EVENT,LIMITED TIME|nEVENT,3
 51868,WOW_LABS_PRESENCE_GAME_MODE_BATTLE_ROYAL,Plunderstorm,1
 51870,PLUNDERSTORM_INTERACT_REMINDER_TEXT,Interact,1
 51878,SPELL_FAILED_CUSTOM_ERROR_1026,You cannot swap spells on cooldown while in combat.,1
+51881,GROUPMANAGER_GROUND_MARKER,Ground,1
+51882,GROUPMANAGER_UNIT_MARKER,Unit,1
 51885,WOW_LABS_CONFIRM_LEAVE_MATCH_PLUNDER,"You will lose all Plunder earned this match if you leave before your team is eliminated.|n|nAre you sure you want to leave?
 ",1
+51888,COUNTDOWN,Countdown,1
+51895,SPELL_FAILED_CUSTOM_ERROR_647,Only draenei and lightforged draenei characters can use this item.,1
+51898,COUNTDOWN_SET,|Hplayer:%s|h[%s]|h started a countdown timer.,1
 51899,WOW_LABS_CONFIRM_LEAVE_MATCH_PLUNDER_SOLO,You will lose all Plunder earned this match if you leave before you are eliminated.|n|nAre you sure you want to leave?,1
+51900,TIMERUNNING_CHOICE_STANDARD_HEADER,Standard,2
+51901,TIMERUNNING_CHOICE_STANDARD_DESCRIPTION,Create a standard character to play World of Warcraft.,2
+51902,TIMERUNNING_CHOICE_PANDARIA_DESCRIPTION,Create a Timerunner to participate in WoW Remix: Mists of Pandaria and earn exclusive rewards.|n|nThis character will become a standard character when the event ends.,2
+51903,TIMERUNNING_CHOICE_TIMERUNNING_HEADER,Timerunner,2
+51904,RAID_MANAGER_RESTRICT_PINGS_TO,Restrict Pings To:,1
+51905,RAID_MANAGER_RESTRICT_PINGS_TO_LEAD,Lead,1
+51906,RAID_MANAGER_RESTRICT_PINGS_TO_ASSIST,Assist,1
+51907,RAID_MANAGER_RESTRICT_PINGS_TO_TANKS_HEALERS,Tanks/Healers,1
+51908,TIMERUNNING_CHOICE_SELECT,Select,2
+51909,TIMERUNNING_POPUP_QUESTS_HEADER,Questing & Raids,2
+51910,TIMERUNNING_POPUP_QUESTS_DESCRIPTION,"All Pandaria quests, scenarios, dungeons, and raids are available to play.",2
+51911,TIMERUNNING_POPUP_ITEMS_HEADER,New Items & Mechanics,2
+51912,TIMERUNNING_POPUP_ITEMS_DESCRIPTION,Completely new itemization and unique spell gems give players access to a new gameplay experience.,2
+51913,TIMERUNNING_POPUP_REWARDS_HEADER,Unique Rewards,2
+51914,TIMERUNNING_POPUP_REWARDS_DESCRIPTION,"By completing event achievements, you'll unlock new mounts, battle pets, transmog, and more for your account.",2
+51915,TIMERUNNING_POPUP_CREATE,Create Timerunner,2
+51916,COUNTDOWN_CLEAR,|Hplayer:%s|h[%s]|h canceled the countdown timer.,1
 51917,WOWLABS_CURRENCY_PICKUP,+%s Plunder,3
 51918,ERROR_CONNECT_TO_PLUNDERSTORM_FAILED_DIALOG,Couldn't connect to Plunderstorm. Please try again later.,2
+51919,AUCTION_HOUSE_FILTER_CURRENTEXPANSION_ONLY,Current Expansion Only,1
+51926,TIMERUNNING_BANNER_PANDARIA_HEADER,WoW Remix: Mists of Pandaria!,2
+51927,TIMERUNNING_BANNER_TIME_LEFT,|cnNORMAL_FONT_COLOR:%s|r Remaining,2
+51941,TIMERUNNING_CHARACTER_TOOLTIP_TITLE,Timerunning Character,2
+51942,TIMERUNNING_CHARACTER_TOOLTIP_PANDARIA_DESCRIPTION,This character is participating in WoW Remix: Mists of Pandaria and can only group with other Timerunners.,2
+51946,KEY_OEM1,;,1
+51947,KEY_OEM2,/,1
+51948,KEY_OEM3,`,1
+51949,KEY_OEM4,[,1
+51950,KEY_OEM5,\,1
+51951,KEY_OEM6,],1
+51952,KEY_OEM7,',1
+51953,KEY_OEMCOMMA,",",1
+51954,KEY_OEMPERIOD,.,1
 51957,SPECTATING,SPECTATING,1
+51958,TIMERUNNING_AUCTION_HOUSE_DISABLED,The Auction House is not available to Timerunners.,5
+51961,TIMERUNNING_CHOICE_WARNING,This is an advanced way to play. Are you sure you want to create a Timerunning character?,2
+51962,TIMERUNNING_POPUP_PANDARIA_TOP_DESCRIPTION,Experience a wild new twist to Mists of Pandaria by creating a Timerunner.,2
+51965,TIMERUNNING_SUBSCRIPTION_REQUIRED,Subscription required to participate,2
+51966,SPELL_FAILED_CUSTOM_ERROR_1032,Timerunners cannot teleport outside of Pandaria.,1
+51967,OPTION_TOOLTIP_ANTIALIASING_IB,Anti-aliasing techniques using only the existing full-screen renders,3
+51968,OPTION_TOOLTIP_ANTIALIASING_FXAA_LOW,Fast approximate Anti-Aliasing - Low: Simplified calculations to blur contrast-based edges.,3
+51969,OPTION_TOOLTIP_ANTIALIASING_FXAA_HIGH,"Fast approximate Anti-Aliasing - High: More-precise calculations to blur contrast-based edges, along with additional blending.",3
+51970,OPTION_TOOLTIP_ANTIALIASING_CMAA,Conservative Morphological Anti-Aliasing: Even more precise calculations for a variety of edge-detection techniques to blur edges.,3
+51971,OPTION_TOOLTIP_ANTIALIASING_CMAA2,"Conservative Morphological Anti-Aliasing 2: More advanced version of CMAA (preferred method if also using ""Multisample Techniques"").",3
+51972,OPTION_TOOLTIP_WINDOW_SIZE,Adjust the resolution of the game,3
+51973,OPTIONAL_REAGENT_INSUFFICIENT_AVAILABLE,Insufficient available,1
+51978,ERR_PARTY_LFG_BOOT_DISALLOWED_BY_MAP,Players can't be kicked from this instance,1
+51980,OPTION_TOOLTIP_NAMEPLATE_HIDE_HEALTH_AND_POWER,Hide the health and power bars under your character,1
+51981,OPTION_TOOLTIP_DISPLAY_PERSONAL_COOLDOWNS,Show cooldowns for important spells under your character,1
+51982,OPTION_TOOLTIP_DISPLAY_PERSONAL_FRIENDLY_BUFFS,Show friendly buffs under your character,1
+51986,PERKS_PROGRAM_DOES_NOT_EXPIRE_TIME_REMAINING,|cff808080--|r,1
+51989,ERR_GUILD_BANK_NOT_AVAILABLE,Guild banks are not available to this character.,1
+51992,COUNTDOWN_CANCEL_ENCOUNTER_START,"Encounter started, countdown timer canceled.",1
+52029,ERR_PARTY_TIME_RUNNING_SEASON_ID_MUST_MATCH,A standard character and a Timerunner may not join the same party.,1
+52057,TIMERUNNING_TIMERUNNERS_ADVANTAGE_TUTORIAL,The power granted by the Cloak of Infinite Potential is displayed here.,1
+52059,TIMERUNNING_DISABLED_TOOLTIP,Timerunners have been temporarily disabled.,2
+52062,PERKS_PROGRAM_PLAY_ATTACK_ANIM,Combat Animation,1
+52063,PERKS_PROGRAM_MOUNT_SPECIAL_ANIM,Mount Special Animation,1
+52066,PERSONALTABARDVENDORUNOWNEDGREETING,"You must own a personal tabard in order to customize, but feel free to browse.",7
