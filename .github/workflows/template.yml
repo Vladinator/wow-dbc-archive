@@ -87,6 +87,7 @@ jobs:
       uses: actions/checkout@v4
       with:
         repository: wowdev/WoWDBDefs
+        clean: false
 
     - name: Move the definitions to the correct folder
       if: ${{ steps.check.outputs.skip != 'true' }}
