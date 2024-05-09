@@ -87,13 +87,14 @@ jobs:
       uses: actions/checkout@v4
       with:
         repository: wowdev/WoWDBDefs
-        path: ./temp
+        path: ./WoWDBDefs
 
     - name: Move the definitions to the correct folder
       if: ${{ steps.check.outputs.skip != 'true' }}
       run: |
         ls .
-        cp -rf ./temp/WoWDBDefs/definitions/* ./definitions/
+        ls ./WoWDBDefs
+        cp -rf ./WoWDBDefs/definitions/* ./definitions/
 
     - name: Download latest hotfixes
       if: ${{ steps.check.outputs.skip != 'true' }}
