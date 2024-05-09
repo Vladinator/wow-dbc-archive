@@ -92,8 +92,6 @@ jobs:
     - name: Move the definitions to the correct folder
       if: ${{ steps.check.outputs.skip != 'true' }}
       run: |
-        ls .
-        ls ./WoWDBDefs
         cp -rf ./WoWDBDefs/definitions/* ./definitions/
 
     - name: Download latest hotfixes
