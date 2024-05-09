@@ -64,13 +64,13 @@ jobs:
 
     - name: Setup .NET 7
       if: ${{ steps.check.outputs.skip != 'true' }}
-      uses: actions/setup-dotnet@v3
+      uses: actions/setup-dotnet@v4
       with:
         dotnet-version: 7.0.x
 
     - name: Download latest DBC2CSV release
       if: ${{ steps.check.outputs.skip != 'true' }}
-      uses: robinraju/release-downloader@v1.7
+      uses: robinraju/release-downloader@v1.10
       with:
         repository: 'Marlamin/DBC2CSV'
         latest: true
