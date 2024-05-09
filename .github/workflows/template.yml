@@ -82,6 +82,18 @@ jobs:
         unzip -q *.zip
         chmod +x DBC2CSV
 
+    - name: Checkout latest WoWDBDefs
+      if: ${{ steps.check.outputs.skip != 'true' }}
+      uses: actions/checkout@v4
+      with:
+        repository: wowdev/WoWDBDefs
+
+    - name: Move the definitions to the correct folder
+      if: ${{ steps.check.outputs.skip != 'true' }}
+      run: |
+        ls .
+        cp -rf ./WoWDBDefs/definitions/* ./definitions/
+
     - name: Download latest hotfixes
       if: ${{ steps.check.outputs.skip != 'true' }}
       run: |
