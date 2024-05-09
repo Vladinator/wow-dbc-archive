@@ -873,3 +873,7 @@ $accumulatedUnholy=${$w1*$434260s2}"
 868,$pctMaxHP=${$mhp*($s1/100)}
 869,$value=$?a137023[${($AP*$451017s1/100)*(1+$@versadmg)}][${($SP*$451017s1/100)*(1+$@versadmg)}]
 870,$value=${($AP*$s3/100)*(1+$@versadmg)*(1+$216519s1/100)}
+872,"$intang=$?a288733[${$288733s2}][${0}]
+$alteration=$?a453729[${$453729s2/1000}][${0}]
+$heal=${($s5+$<intang>)*($<alteration>+$d)/$d}
+$intangheal=${($s2*($<alteration>+$47585d)/$47585d)}"

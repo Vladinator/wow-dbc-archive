@@ -214,7 +214,7 @@ ID,Description_lang,ModifiedCraftingCategoryID,ItemBonusTreeID,Flags,Field_9_1_0
 264,Replaces Random Stat with Inspiration.,429,3810,0,0,0
 265,,430,0,0,0,0
 266,,431,0,0,0,0
-267,Reduces the likelihood of this device's tinker malfunctioning by 15%.,432,3811,0,0,0
+267,Reduces the likelihood of this device's tinker malfunctioning by 15%. Does not stack with similar specialization bonuses.,432,3811,0,0,0
 268,Tinkers slotted into this device can no longer catastrophically malfunction.,433,3812,0,0,0
 269,The tinker slotted within this device will sometimes dislodge the battery instead of malfunctioning.,434,3815,0,0,0
 270,Allocate the secondary stats of Engineering crafted goggles or bracers to Critical Strike.,435,3878,0,0,0
@@ -299,7 +299,7 @@ ID,Description_lang,ModifiedCraftingCategoryID,ItemBonusTreeID,Flags,Field_9_1_0
 354,Rare Ore 01,514,0,0,0,0
 355,Rare Ore 02,515,0,0,0,0
 357,Set starting Item Level based on Crafting Quality (584-597) and mark as Omen Crafted.,517,4321,0,0,0
-358,Set starting Item Level based on Crafting Quality (379-463) and mark as Warband Crafted.,519,4337,0,0,0
+358,Set starting Item Level based on Crafting Quality (564-577) and mark as Beginner Crafted.,519,4337,0,0,0
 359,Set starting Item Level based on Crafting Quality (489-502) and mark as Awakened Crafted.,520,4339,0,0,0
 360,Increases item level to 528 in Arenas and Battlegrounds.,524,4342,0,0,0
 361,Increases item level to 528 in Arenas and Battlegrounds.,522,4342,0,0,0
@@ -307,7 +307,7 @@ ID,Description_lang,ModifiedCraftingCategoryID,ItemBonusTreeID,Flags,Field_9_1_0
 363,Increases item level to 515 in Arenas and Battlegrounds.,525,4343,0,0,0
 364,Increases item level to 515 in Arenas and Battlegrounds.,526,4343,0,0,0
 365,Increases item level to 515 in Arenas and Battlegrounds.,527,4343,0,0,0
-366,,528,0,0,0,0
+366,,528,0,0,100,0
 367,Set Item Level based on Crafting Quality (473-486).,400,4367,0,0,0
 368,Set Item Level based on Crafting Quality (502-515).,521,4368,0,0,0
 369,Set Item Level based on Crafting Quality (512-525).,521,4369,0,0,0
@@ -372,22 +372,22 @@ ID,Description_lang,ModifiedCraftingCategoryID,ItemBonusTreeID,Flags,Field_9_1_0
 429,,588,0,0,0,0
 430,,589,0,0,0,0
 431,,590,0,0,0,0
-432,,594,0,0,0,0
-433,,595,0,0,0,0
-434,,596,0,0,0,0
-435,,597,0,0,0,0
-436,,598,0,0,0,0
-437,,599,0,0,0,0
+432,Handful of Bismuth Bolts,594,0,0,0,0
+433,Whimsical Wiring,595,0,0,0,0
+434,Gyrating Gear,596,0,0,0,0
+435,Safety Switch,597,0,0,0,0
+436,Chaos Circuit,598,0,0,0,0
+437,Entropy Enhancer,599,0,0,0,0
 438,Allocate the secondary stat of Engineering crafted goggles or bracers to Critical Strike.,600,4683,0,0,0
 439,Allocate the secondary stat of Engineering crafted goggles or bracers to Haste.,601,4685,0,0,0
 440,Allocate the secondary stat of Engineering crafted goggles or bracers to Mastery.,602,4684,0,0,0
 441,Allocate the secondary stat of Engineering crafted goggles or bracers to Versatility.,603,4686,0,0,0
-442,,604,0,0,0,0
+442,Reduces the likelihood of this device's tinker malfunctioning by 15%. Does not stack with similar specialization bonuses.,604,4723,0,0,0
 443,,605,0,0,0,0
 444,,606,0,0,0,0
 445,Oh no!,607,0,0,0,0
-446,Oh no!,608,0,0,0,0
-447,,609,0,0,0,0
+446,"Chance to throw a pocket grenade, dealing damage split between enemies. $@spelldesc437127",608,4724,0,0,0
+447,"When dropped to low health, scatter mines around you that slow and damage enemies that step on them. $@spelldesc437127",609,4727,0,0,0
 448,,610,0,0,0,0
 449,DNT does something awesome,649,0,0,0,0
 450,DNT does something awesome,650,0,0,0,0
@@ -417,11 +417,11 @@ ID,Description_lang,ModifiedCraftingCategoryID,ItemBonusTreeID,Flags,Field_9_1_0
 474,DNT does something awesome,674,0,0,0,0
 475,DNT does something awesome,675,0,0,0,0
 476,DNT does something awesome,676,0,0,0,0
-477,DNT does something awesome,677,0,0,0,0
-478,DNT does something awesome,678,0,0,0,0
-479,DNT does something awesome,679,0,0,0,0
-480,DNT does something awesome,680,0,0,0,0
-481,DNT does something awesome,681,0,0,0,0
+477,,677,0,0,0,0
+478,,678,0,0,0,0
+479,,679,0,0,0,0
+480,,680,0,0,0,0
+481,,681,0,0,0,0
 482,DNT does something awesome,682,0,0,0,0
 483,DNT does something awesome,683,0,0,0,0
 484,DNT does something awesome,684,0,0,0,0
@@ -435,3 +435,14 @@ ID,Description_lang,ModifiedCraftingCategoryID,ItemBonusTreeID,Flags,Field_9_1_0
 492,You use $ev1% less Concentration when Concentrating on a craft.,690,0,0,0,0
 493,You gain $ev1 Multicraft when crafting consumable items.,691,0,0,0,0
 494,,692,0,0,0,0
+495,Potion of the Reborn Cheetah,693,0,0,0,0
+496,Algari Healing Potion,694,0,0,0,0
+497,Cavedweller's Delight,695,0,0,0,0
+498,Tempered Potion,696,0,0,0,0
+499,,697,0,0,0,0
+500,,698,0,0,0,0
+501,,699,0,0,0,0
+502,,700,0,0,0,0
+503,,701,0,0,0,0
+504,,702,0,0,0,0
+505,,703,0,0,0,0
