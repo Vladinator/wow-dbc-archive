@@ -20635,7 +20635,7 @@ It comes from your base profession skill, specializations, high quality reagents
 49344,HUD_EDIT_MODE_EXPAND_OPTIONS,Expand options |A:editmode-down-arrow:16:11:0:-7|a,1
 49345,HUD_EDIT_MODE_TARGET_AND_FOCUS,Target and Focus,1
 49346,UNITNAME_SUMMON_TITLE51,%s's Arcane Clone,1
-49347,INSTANCE_UNAVAILABLE_SELF_PVP_GEAR_TOO_LOW,You need a higher average PvP item level to join the queue.|n(Requires: %2$d. Currently %3$d.),1
+49347,INSTANCE_UNAVAILABLE_SELF_PVP_GEAR_TOO_LOW,You need a higher average PvP item level to join the queue.|n(Requires: %1$d. Currently %2$d.),1
 49348,RECRAFT_REAGENT_TOOLTIP_CLICK_TO_REPLACE,|cnDISABLED_FONT_COLOR:Left Click to replace this Equipment|r,1
 49349,ERR_SOLO_MIN_ITEM_LEVEL,You need a higher average PvP item level.,1
 49350,HUD_EDIT_MODE_CAST_BAR_LABEL,Cast Bar,1
@@ -21950,7 +21950,7 @@ Are you sure you want to proceed?",1
 51476,BAG_CLEANUP_ACCOUNT_BANK,Clean Up Warband Bank,1
 51477,ACCOUNT_BANK_PANEL_TITLE,Warband Bank,1
 51478,ACCOUNT_BANK_TAB_PURCHASE_PROMPT,The Warband Bank offers storage that is shared with all members of your Warband.|n|nDo you wish to purchase this tab?,1
-51479,ACCOUNT_BANK_DEPOSIT_BUTTON_LABEL,Deposit All Warband Items,1
+51479,ACCOUNT_BANK_DEPOSIT_BUTTON_LABEL,Deposit All Warbound Items,1
 51480,PERSONALTABARDVENDORGREETING,Greetings! Choose the symbol and colors for your personal tabard.,1
 51484,RAID_MANAGER_RESTRICT_PINGS_PARTY,Restrict Pings to Lead,1
 51490,REPUTATION_SORT_TYPE_SHOW_ALL,All,1
@@ -22036,7 +22036,7 @@ And spread his flame to all Azeroth.",1
 51583,FRONT_END_LOBBY_SOLO,Solo,2
 51584,FRONT_END_LOBBY_DUO,Duo,2
 51585,FRONT_END_LOBBY_TRIOS,Trios,2
-51588,BANK_DEPOSIT_INCLUDE_REAGENTS_CHECKBOX_LABEL,Include Reagents,1
+51588,BANK_DEPOSIT_INCLUDE_REAGENTS_CHECKBOX_LABEL,Include tradeable reagents,1
 51589,ACCOUNT_BANK_LOCKED_PROMPT,The bank is being used by another member of your Warband.,1
 51590,WOWLABS_CUSTOMIZE_CHARACTER,Customize Character,3
 51591,WOWLABS_JOIN_GAME,Join Game,3
@@ -22297,7 +22297,7 @@ And spread his flame to all Azeroth.",1
 51911,TIMERUNNING_POPUP_ITEMS_HEADER,New Items & Mechanics,2
 51912,TIMERUNNING_POPUP_ITEMS_DESCRIPTION,Completely new itemization and unique spell gems give players access to a new gameplay experience.,2
 51913,TIMERUNNING_POPUP_REWARDS_HEADER,Unique Rewards,2
-51914,TIMERUNNING_POPUP_REWARDS_DESCRIPTION,"By completing event achievements, you'll unlock new mounts, battle pets, transmog, and more for your account.",2
+51914,TIMERUNNING_POPUP_REWARDS_DESCRIPTION,"By completing event achievements, you'll unlock new mounts, battle pets, appearances, and more for your account.",2
 51915,TIMERUNNING_POPUP_CREATE,Create Timerunner,2
 51916,COUNTDOWN_CLEAR,|Hplayer:%s|h[%s]|h canceled the countdown timer.,1
 51917,WOWLABS_CURRENCY_PICKUP,+%s Plunder,3
@@ -22402,7 +22402,7 @@ And spread his flame to all Azeroth.",1
 52068,ACCOUNT_CURRENCY_GAINED_MULTIPLE_BONUS,Your Warband receives currency: %sx%d (Bonus Objective),1
 52069,ACCOUNT_CURRENCY_GAINED_MULTIPLE_OVERFLOW,Your Warband receives currency: %sx%d (Your Warband has earned the maximum amount of %s),1
 52070,ACCOUNT_LEVEL_CURRENCY,Warband Currency,1
-52071,ACCOUNT_TRANSFERRABLE_CURRENCY,Warband Transferrable,1
+52071,ACCOUNT_TRANSFERRABLE_CURRENCY,Warband Transferable,1
 52072,CURRENCY_TRANSFER_LOSS,|cnNORMAL_FONT_COLOR:Amount Lost in Transfer:|r |cnHIGHLIGHT_FONT_COLOR:%d%%|r ,1
 52073,UNITNAME_SUMMON_TITLE55,%s's Invention,1
 52074,ERR_NO_ACCOUNT_BANK_HERE,You are too far away from a Warband bank.,1
@@ -22461,3 +22461,33 @@ And spread his flame to all Azeroth.",1
 52131,CRF_ALL_ASSIST,Everyone Is Assist,1
 52132,CHINA_RELEASE_BUILD,China Release,2
 52133,REPORTING_MAJOR_CATEGORY_CHINA_HARMFUL_MINORS,Harmful to Minors,3
+52134,DELVES_INSTANCE_RESET_WARNING,This delve instance will reset in %s.,1
+52135,DAILY_RESET_INSTANCE_WELCOME,Welcome to %s. The daily reset is scheduled to occur in %s and will reset this instance.,1
+52136,CURRENCY_TRANSFER_SUCCESS_MESSAGE,|cnNORMAL_FONT_COLOR:%s|r |cnHIGHLIGHT_FONT_COLOR:transferred %sx%d to|r |cnNORMAL_FONT_COLOR:%s.|r,1
+52137,CHINA_GM_BUILD,China GM,2
+52138,WAR_WITHIN_LANDING_PAGE_TITLE,Khaz Algar Summary,1
+52139,WAR_WITHIN_LANDING_PAGE_TOOLTIP,Click to show the Khaz Algar Summary,1
+52140,DELVES_LABEL,Delves,1
+52141,DELVES_DASHBOARD_SEASON_TITLE,%s (%s Season %s),1
+52142,CURRENCY_TRANSFER_LOG_TITLE,Transfer Log,1
+52143,CURRENCY_TRANSFER_LOG_CURRENCY_FORMAT,%s %s,1
+52144,CURRENCY_TRANSFER_LOG_TIME_FORMAT,%s ago,1
+52145,DELVES_LABEL_WITH_EXPANSION,%s Delves,1
+52146,DELVES_REPUTATION_BAR_TITLE,Delve Reputation (%s Season %s),1
+52147,DELVES_COMPANION_LABEL,Delve companion,1
+52148,DELVES_CONFIGURE_BUTTON,Configure,1
+52149,DELVES_GREAT_VAULT_DESCRIPTION_SEASON_STARTED,Complete delves to earn weekly rewards,1
+52150,DELVES_GREAT_VAULT_LABEL,Great Vault,1
+52151,DYNAMIC_FLIGHT,Dynamic Flight,1
+52152,DELVES_GREAT_VAULT_TOOLTIP,[PH] Complete delves to earn weekly rewards.\n\n%s/%s rewards unlocked. ,1
+52153,DELVES_GREAT_VAULT_REQUIRES_ACTIVE_SEASON,The Great Vault is only available during an active season. The next season will start soon!,1
+52154,OPEN_DYNAMIC_FLIGHT_TREE_TOOLTIP,Skills and Unlocks,1
+52155,DELVES_GREAT_VAULT_UNAVAILABLE_LABEL,[PH] Available during the season,1
+52156,DELVES_COMPANION_NOT_ENABLED_TOOLTIP,"[PH] Companion not enabled/unlocked yet, cannot open config",1
+52157,SEARCH_QUEST_LOG,Search Quest Log,1
+52158,QUEST_LOG_NO_QUESTS,No quests available|n|nAccept quests by talking to characters with a |TInterface\\GossipFrame\\AvailableQuestIcon:16:16|t above their head.,1
+52159,QUEST_LOG_NO_RESULTS,No results found,1
+52162,DELVES_REPUTATION_BAR_TITLE_NO_SEASON,Delve Reputation (Available during the season),1
+52164,CURRENCY_TRANSFER_DISABLED_NO_VALID_SOURCES,Your Warband does not have enough of this currency to transfer to you.,1
+52165,TIMERUNNING_WARBAND_BANK_DISABLED,Timerunners do not have access to the Warband Bank.,1
+52166,RACE_INFO_EARTHEN,"The earthen of Khaz Algar, newly freed of their edicts, venture forth into Azeroth. They bring with them boundless curiosity, and a wish to return all their experiences back to the archive.",1

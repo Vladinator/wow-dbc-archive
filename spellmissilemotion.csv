@@ -16455,6 +16455,8 @@ transFront = (transFrontExpected - transFrontTravelled)--(1-actualProgress)
 
 scale = .5 + (2 * math.pow(actualProgress, 0.666))
 
+colorA = distanceToImpactPos
+
 --transUp = (1-actualProgress)",0,1
 3855,Void Eruption - SWP,"
 local function sinapprox(v)
@@ -26549,7 +26551,6 @@ transFront = (progress * startDistance) - distanceToFirePos",0,0
 local degreesPerSec = 180
 local maxMagnitude = 3
 local maxKickBack = 5
-
 local maxMagnitude = startDistance * .08
 scale = 1 + (1.3 * progress)
 
@@ -26583,3 +26584,13 @@ local maxMagnitude = (startDistance * (.15+(rand2*.15)))
 transAngle = angle
 transMag = (progress * 2) - 1
 transMag = (1 - (transMag * transMag)) * maxMagnitude",0,1
+4780,11.0 Raid - Nerubian - Flying - Infested Spawn Missile,"local function parabola(m) return (4*m*(1-progress)*progress) end
+
+local height = 10
+local variance = 5
+local rollVariance = 30
+height = height + (rand1 * variance)
+
+transAngle = (rollVariance * rand2) - (rollVariance / 2)
+transMag = parabola(height)
+scale = 1 + parabola(0.25)",0,1
