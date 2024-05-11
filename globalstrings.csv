@@ -7602,7 +7602,7 @@ ID,BaseTag,TagText_lang,Flags
 18998,ACTION_SPELL_RESURRECT_FULL_TEXT,%1$s %2$s resurrects %4$s.%6$s,1
 18999,ACTION_SPELL_RESURRECT_FULL_TEXT_NO_SOURCE,%2$s resurrects %4$s.%6$s,1
 19000,ACTION_SPELL_RESURRECT_POSSESSIVE,1,1
-19001,ARENA_MASTER_NO_SEASON_TEXT,"Arena battles and Rated Battlegrounds are only available during an active player versus player combat season.  Season 11 will begin one week after the end of Season 10, so be prepared at that time to take your shot at glory!",1
+19001,ARENA_MASTER_NO_SEASON_TEXT,"Arena battles and Rated Battlegrounds are only available during an active player versus player combat season, so be prepared at that time to take your shot at glory!",1
 19002,COMBAT_TEXT_SHOW_PERIODIC_ENERGIZE_TEXT,Periodic Energy Gains,1
 19003,OPTION_TOOLTIP_COMBAT_TEXT_SHOW_PERIODIC_ENERGIZE,"Shows all periodic gains of mana, rage, and energy.",1
 19004,RESURRECT,Resurrections,1
@@ -9643,11 +9643,11 @@ ID,BaseTag,TagText_lang,Flags
 21175,SPELL_FAILED_CUSTOM_ERROR_119,You cannot supervise more than 5 Arrested Cultists at a time.,1
 21176,WARGAME_CHALLENGED,|cffffd200%s|r has challenged your group to a War Game in |cffffd200%s|r!,1
 21177,WAR_GAME,War Game,1
-21178,PVP_RATED_BATTLEGROUND_EXPLANATION,You earn Conquest Points and increase your personal battleground rating when you win a rated battleground.  A higher rating can increase the number of Conquest Points you may earn the next week.,1
-21179,PVP_ARENA_EXPLANATION,You earn Conquest Points and increase your arena team rating when you win an arena battle.  You must be on an arena team to participate in arena battles.,1
+21178,PVP_RATED_BATTLEGROUND_EXPLANATION,You earn Conquest Points and increase your personal battleground rating when you win a rated battleground.,1
+21179,PVP_ARENA_EXPLANATION,You earn Conquest Points and increase your arena rating when you win an arena battle.  You must be in a valid group to participate in arena battles.,1
 21180,PVP_PARTY_SIZE,Party Members: %d,1
 21181,PVP_REWARD_EXPLANATION,Winning a match will earn you the following:,1
-21182,PVP_ARENA_PARTY_ERROR,|cff808080You must be in a group with your arena team members to join an arena match.|r,1
+21182,PVP_ARENA_PARTY_ERROR,|cff808080You must be in a valid group to join an arena match.|r,1
 21183,BONUS_SKILLPOINTS_TOOLTIP,+%d %s Skill Points,1
 21184,TRANSFER_ABORT_LOCKED_TO_DIFFERENT_INSTANCE,You are already locked to %s.,1
 21185,TRANSFER_ABORT_ALREADY_COMPLETED_ENCOUNTER,You are ineligible to participate in at least one encounter in this instance because you are already locked to an instance in which it has been defeated.,1
@@ -17449,6 +17449,8 @@ ID,BaseTag,TagText_lang,Flags
 41294,EMPTY_SOCKET_PUNCHCARDBLUE,Blue Punchcard Socket,1
 41348,BLIZZARD_GROUPS_SHORT,Groups,1
 41385,BINDING_NAME_TOGGLEBLIZZARDGROUPSTAB,Toggle Blizzard Groups Pane,1
+41419,GUILD_NEWS_DUNGEON_ENCOUNTER_NORMAL,|cffd10000[%s]|r,1
+41420,GUILD_NEWS_DUNGEON_ENCOUNTER_HEROIC,|cffd10000[Heroic: %s]|r,1
 41459,VOICE_CHAT_DUCKING_SCALE,Voice Chat Ducking,1
 41466,LAUNCH_ETA,The world is scheduled to be available in approximately %d hours.,2
 41467,LAUNCH_ETA_SOON,The world is scheduled to be available soon.,2
@@ -18321,3 +18323,4 @@ ID,BaseTag,TagText_lang,Flags
 52053,HIGH_RES_TEXTURE_INSTALL_URL,http://www.blizzard.com/,3
 52122,CREDITS_EXPANSION_NAME_3_0,Cataclysm (2010),2
 52123,CREDITS_EXPANSION_NAME_3_1,Cataclysm Classic (2024),2
+52163,CURRENCY_RECEIVED_THIS_SEASON,%s you have received so far this season:,1
