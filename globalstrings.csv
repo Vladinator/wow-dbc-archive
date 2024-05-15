@@ -7879,7 +7879,7 @@ ID,BaseTag,TagText_lang,Flags
 19650,WATCHFRAME_LOCK,Lock Objectives Frame,1
 19651,OPTION_TOOLTIP_OBJECTIVES_IGNORE_CURSOR,Locks the Objectives frame and keeps it from being displayed on mouseover.,1
 19652,OBJECTIVES_VIEW_IN_QUESTLOG,Open Quest Details,1
-19653,OBJECTIVES_STOP_TRACKING,Stop Tracking,1
+19653,OBJECTIVES_STOP_TRACKING,Untrack,1
 19654,OBJECTIVES_VIEW_IN_ACHIEVEMENTS,Open Achievements,1
 19655,CALENDAR_ERROR_INVALID_SIGNUP,You cannot sign up to this event.,5
 19656,OBJECTIVES_VIEW_ACHIEVEMENT,Open Achievement,1
@@ -8261,7 +8261,7 @@ ID,BaseTag,TagText_lang,Flags
 20070,BATTLEFIELD_IN_QUEUE_SIMPLE,You are in the queue for %s,1
 20071,BATTLEFIELD_QUEUE_CONFIRM_SIMPLE,You are eligible to enter %s,1
 20072,QUEST_INTERMEDIATE_ITEMS_NEEDED,%s: (%d),1
-20073,OBJECTIVES_SHOW_QUEST_MAP,Show Quest Map,1
+20073,OBJECTIVES_SHOW_QUEST_MAP,Open Quest Map,1
 20074,ERR_MAIL_LIMITED_DURATION_ITEM,You cannot mail items with a limited duration,1
 20075,TRANSFER_ABORT_MAP_NOT_ALLOWED,Map cannot be entered at this time.,1
 20076,SLASH_SET_TITLE1,/settitle,1
@@ -20161,7 +20161,7 @@ You can find trainers for them in some settlements and cities.",1
 48771,SL_SET_CONVERSION_RECHARGE_TIME,The Catalyst is recharging and will be functional in %s,1
 48772,GREAT_VAULT_CLASS_SET_TUTORIAL,Class Set Items may appear as a reward in all nine Great Vault slots,1
 48774,LFG_LIST_CROSS_FACTION,Limit to %s,1
-48775,LFG_LIST_CROSS_FACTION_TOOLTIP,Only %s players will see your group.|n|nThis may reduce the number of applicants you recieve.,1
+48775,LFG_LIST_CROSS_FACTION_TOOLTIP,Only %s players will see your group.|n|nThis may reduce the number of applicants you receive.,1
 48776,GROUP_FINDER_CROSS_FACTION_LISTING_WITH_PLAYSTLE,%s - %s Only,1
 48777,BLIZZARD_STORE_VAS_ERROR_NEW_PLAYER_EXPERIENCE,- Finish the tutorial experience first,3
 48778,BLIZZARD_STORE_VAS_ERROR_CHARACTER_INELIGIBLE_FOR_THIS_SERVICE,- Character is ineligible for this service,3
@@ -20554,7 +20554,7 @@ You can find trainers for them in some settlements and cities.",1
 49238,PROFESSIONS_FAVORITES_SEARCH_TOOLTIP_TITLE,Favorites,1
 49239,PROFESSIONS_CRAFTING_FORM_OUTPUT_LOG_RESOURCES_RETURNED,Recovered Materials!,1
 49240,PROFESSIONS_TRACKING_VIEW_RECIPE,View Recipe,1
-49241,PROFESSIONS_UNTRACK_RECIPE,Stop Tracking,1
+49241,PROFESSIONS_UNTRACK_RECIPE,Untrack,1
 49242,PROFESSIONS_TRACKER_HEADER_PROFESSION,Profession,1
 49243,PROFESSIONS_TRACKER_REAGENT_FORMAT,%s %s,1
 49244,PROFESSIONS_TRACKER_REAGENT_COUNT_FORMAT,%s/%d,1
@@ -22150,7 +22150,7 @@ And spread his flame to all Azeroth.",1
 51722,CHARACTER_SELECT_LIST_HEADER,Warband Members,2
 51723,SPELL_FAILED_CUSTOMERROR_1011,Already at max.,1
 51724,ITEM_ALREADY_MAX_QUALITY,Item is already at maximum quality.,1
-51725,KEY_RANGE_GROUP_FINDER_HELPTIP,"Enter a key range for precise results, like 4-8 or 7-7",1
+51725,KEY_RANGE_GROUP_FINDER_HELPTIP,"Enter a key range for precise results, like 5-8 or 7-7",1
 51726,MEMBERS_COLON,Members:,1
 51727,WOW_ERROR_337,Access to this realm requires an account with a valid access license.,2
 51730,MOUNT_ABILITY_TYPE_FORMAT,%s %s,1
@@ -22252,7 +22252,7 @@ And spread his flame to all Azeroth.",1
 51841,WOWLABS_SUBSCRIBE_NOW,Subscribe Now,2
 51842,WOWLABS_WAITING_ON_OTHER_PLAYERS,Waiting on other Players...,2
 51843,STABLE_PET_COUNTER,%1d/%2d,1
-51844,SPELL_FAILED_CUSTOM_ERROR_1031,You realized suddenly that you do not know how to Overload this gathering node.,1
+51844,SPELL_FAILED_CUSTOM_ERROR_1031,You do not know how to Overload this gathering node.,1
 51845,PLUNDERSTORM_CHAT_INSTANCE_CHAT_GET,|Hchannel:INSTANCE_CHAT|h[Lobby Party]|h %s:\32,3
 51846,PLUNDERSTORM_CHAT_INSTANCE_CHAT_LEADER_GET,|Hchannel:INSTANCE_CHAT|h[Lobby Party]|h %s:\32,3
 51847,PLUNDERSTORM_CHAT_INSTANCE_CHAT_SEND,Lobby Party:\32,3
@@ -22373,7 +22373,7 @@ And spread his flame to all Azeroth.",1
 52024,ITEM_MOD_INGENUITY_SHORT,Ingenuity,1
 52025,FLIGHT_MODE_TOGGLE_TOOLTIP_SUBTEXT,You can drag this to your action bar,1
 52027,POWER_DISPLAY_LABEL_ANGER,Anger,1
-52028,SPELL_FAILED_CUSTOM_ERROR_1036,You don't have any Radiant Chords.,1
+52028,SPELL_FAILED_CUSTOM_ERROR_1036,You don't have any Radiant Echoes.,1
 52029,ERR_PARTY_TIME_RUNNING_SEASON_ID_MUST_MATCH,A standard character and a Timerunner may not join the same party.,1
 52031,QUEST_HUB_TOOLTIP_AVAILABLE_QUESTS_HEADER,Available Quests:,1
 52032,QUEST_HUB_TOOLTIP_MORE_QUESTS_REMAINING,+%d more,1
@@ -22490,4 +22490,44 @@ And spread his flame to all Azeroth.",1
 52162,DELVES_REPUTATION_BAR_TITLE_NO_SEASON,Delve Reputation (Available during the season),1
 52164,CURRENCY_TRANSFER_DISABLED_NO_VALID_SOURCES,Your Warband does not have enough of this currency to transfer to you.,1
 52165,TIMERUNNING_WARBAND_BANK_DISABLED,Timerunners do not have access to the Warband Bank.,1
-52166,RACE_INFO_EARTHEN,"The earthen of Khaz Algar, newly freed of their edicts, venture forth into Azeroth. They bring with them boundless curiosity, and a wish to return all their experiences back to the archive.",1
+52166,RACE_INFO_EARTHENDWARF,"The earthen of Khaz Algar, newly freed of their edicts, venture forth into Azeroth. They bring with them boundless curiosity, and a wish to return all their experiences back to the archive.",3
+52167,REWARD_QUESTLINE_UNLOCK,[PH] This questline will unlock:,1
+52168,REWARD_QUESTLINE_REWARD,[PH] This questline will reward:,1
+52169,REWARD_QUESTLINE_UNLOCK_PART,[PH] This questline is part of unlocking:,1
+52170,UNITNAME_SUMMON_TITLE56,%s's Confidant,1
+52171,SPELL_FAILED_CUSTOM_ERROR_2001,The emblem has no magic stored.,1
+52172,QUEST_LOG_SHOW_OBJECTIVES,Show Quest Objectives,1
+52173,QUEST_LOG_TRACK_ALL,Track All,1
+52174,QUEST_LOG_UNTRACK_ALL,Untrack All,1
+52175,SUPER_TRACK_QUEST,Focus,1
+52176,SPELLBOOK_SEARCH_INSTRUCTIONS,"Search abilities, keywords",1
+52177,SPELLBOOK_SEARCH_NOT_ON_ACTIONBAR,Missing from action bar,1
+52178,SPELLBOOK_FILTER_PASSIVES,Hide Passives,1
+52179,11_0_Z_1_MAX_CAMPAIGN_MINIGAME_REWIRE,Rewire the mainframe circuit board,1
+52180,SPELLBOOK_SEARCH_HEADER_EXACT,Exact Matches,1
+52181,SPELLBOOK_SEARCH_HEADER_RELATED,Related Matches,1
+52182,SPELLBOOK_SEARCH_HEADER_NAME,Name Matches,1
+52183,SPELLBOOK_SEARCH_HEADER_DESCRIPTION,Description Matches,1
+52184,SPELLBOOK_SEARCH_HEADER_GENERIC,Matches,1
+52185,SPELLBOOK_SEARCH_HIDE_PASSIVES_DISABLED,Hiding Passives is disabled while searching,1
+52186,WAR_WITHIN_LANDING_PAGE_ALERT_SUMMARY_UNLOCKED,Khaz Algar Summary Unlocked,1
+52187,WAR_WITHIN_LANDING_PAGE_ALERT_MAJOR_FACTION_UNLOCKED,Major Faction Unlocked,1
+52188,DELVES_GREAT_VAULT_ERR_AVAIL_AT_MAX_LEVEL,[PH] Available at max level,1
+52189,DELVES_ERR_MUST_USE_SUPPLIES,[PH] You must use the Explorer's League Supplies to do that right now.,1
+52190,ACCOUNT_FIRST_TIME_QUEST_BONUS_REP_TOOLTIP,This includes a one-time Warband bonus (%d|cnGREEN_FONT_COLOR:+%d|r reputation),1
+52191,ACCOUNT_FIRST_TIME_QUEST_BONUS_CURRENCY_TOOLTIP,This includes a one-time Warband bonus (%d|cnGREEN_FONT_COLOR:+%d|r currency),1
+52192,ACCOUNT_PREVIOUSLY_COMPLETED_QUEST_REP_BONUS_TOOLTIP,This is a Warband bonus for previously completing this quest (%d|cnGREEN_FONT_COLOR:+%d|r reputation),1
+52193,ACCOUNT_PREVIOUSLY_COMPLETED_QUEST_CURRENCY_BONUS_TOOLIP,This is a Warband bonus for previously completing this quest (%d|cnGREEN_FONT_COLOR:+%d|r currency),1
+52194,RACE_INFO_EARTHENDWARF_FEMALE,"The earthen of Khaz Algar, newly freed of their edicts, venture forth into Azeroth. They bring with them boundless curiosity, and a wish to return all their experiences back to the archive.",3
+52195,GREAT_VAULT_REWARDS_WORLD_INCOMPLETE,Complete %1$d more |4delve:delves; or |4world activity:world activities; this week to unlock a Great Vault reward. World activities count as Tier 0.|n|nThe item level of your reward will be based on your highest run this week.,1
+52196,GREAT_VAULT_REWARDS_WORLD_COMPLETED_FIRST,Complete %1$d more |4delve:delves; or |4world activity:world activities; this week to unlock a second Great Vault reward. World activities count as Tier 0.,1
+52197,GREAT_VAULT_REWARDS_WORLD_COMPLETED_SECOND,Complete %1$d more |4delve:delves; or |4world activity:world activities; this week to unlock a third Great Vault reward. World activities count as Tier 0.,1
+52198,WEEKLY_REWARDS_THRESHOLD_WORLD,Complete %d |4Delve:Delves; or |4World Activity:World Activities;,1
+52200,ACCOUNT_WIDE_REPUTATION_TUTORIAL,|cnHIGHLIGHT_FONT_COLOR:This is a|r |cnNORMAL_FONT_COLOR:Warband|r |cnHIGHLIGHT_FONT_COLOR:faction. Reputation gained with this faction is shared across all of your characters.|r,1
+52201,ACCOUNT_TRANSFERABLE_CURRENCIES_TUTORIAL,|cnHIGHLIGHT_FONT_COLOR:Some currencies are|r|n|cnNORMAL_FONT_COLOR:Warband Transferable.|r|n|cnHIGHLIGHT_FONT_COLOR:Click a currency to initiate a transfer from another character.|r,1
+52202,BIND_TO_ACCOUNT_UNTIL_EQUIP_TUTORIAL,"|cnNORMAL_FONT_COLOR:Warbound|r |cnHIGHLIGHT_FONT_COLOR:gear can be shared with your other characters.|n|nOnce equipped, this gear becomes|r |cnNORMAL_FONT_COLOR:Soulbound.|r",1
+52203,ACCOUNT_COMPLETED_QUESTS_FILTER_TUTORIAL,|cnHIGHLIGHT_FONT_COLOR:Standard quests you have already completed with another character are hidden from the map.|n|nYou can change this setting here.|r,1
+52204,GREAT_VAULT_WORLD_TIER,Tier %s,1
+52205,WEEKLY_REWARDS_ITEM_LEVEL_WORLD,Item Level %1$d - (Tier %2$d),1
+52206,WEEKLY_REWARDS_COMPLETE_WORLD,Complete a Tier %1$d delve or higher to increase this reward's item level.,1
+52207,SPELL_FAILED_CUSTOM_ERROR_1042,You already have this curio in your collection.,1

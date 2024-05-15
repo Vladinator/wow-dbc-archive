@@ -883,3 +883,6 @@ $havocTalentFury=${$258920s2+($258922s2*$258920d)}"
 874,"$damage=${$cond($gt($SP,$AP),$SP*2,$AP*2)*$pctD*(1+$@versadmg)}
 $healing=${$cond($gt($SP,$AP),$SP*1,$AP*1)*$pctD*(1+$@versadmg)}
 $spike=${$cond($gt($SP,$AP),$SP*0.75,$AP*0.75)*$pctD*(1+$@versadmg)}"
+875,"$GoldenLotusRepMult=${8}
+$ShadoPanRepMult=${6}
+"
