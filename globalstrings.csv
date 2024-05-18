@@ -17324,12 +17324,23 @@ ID,BaseTag,TagText_lang,Flags
 36862,COMMUNITIES_MEMBER_LIST_PENDING_INVITE_HEADER,Pending Invites (%d),1
 36879,COMMUNITIES_ROSTER_COLUMN_TITLE_ACHIEVEMENT,Achievement Points,1
 36880,COMMUNITIES_ROSTER_COLUMN_TITLE_PROFESSION,Skill,1
+36881,GUILD_ROSTER_DROPDOWN_PROFESSION,Profession,1
+36882,GUILD_ROSTER_DROPDOWN_ACHIEVEMENT_POINTS,Achievement Points,1
 36883,COMMUNITIES_MEMBER_LIST_PROFESSION_DISPLAY,[%d],1
 36885,CHARACTER_POINTS1_COLON,Talent Points:,1
 36888,COMMUNITIES_CHAT_MESSAGE_DESTROYED_BY,This message has been deleted by %s,1
 36889,COMMUNITIES_CHAT_MESSAGE_DESTROYED,This message has been deleted,1
 36890,COMMUNITIES_CHAT_MESSAGE_EDITED,Edited,1
 36891,COMMUNITIES_CHAT_MESSAGE_EDITED_FMT,%s %s,1
+36898,GUILD_CONTROL_RANK_PERMISSION_HAS_OFFICER_PRIVLEGES,Is Officer,1
+36899,GUILD_OFFICER_PERMISSION_ACCESS_CHANNELS,- Access officer channels,1
+36900,GUILD_OFFICER_PERMISSION_REMOVE_FROM_VOICE,- Remove people from voice chat,1
+36901,GUILD_OFFICER_PERMISSION_DELETE_MESSAGES,- Delete other people's chat messages,1
+36902,GUILD_OFFICER_PERMISSION_DELETE_EVENTS,- Delete other people's guild events,1
+36903,GUILD_OFFICER_PERMISSION_OFFICER_NOTES,- View and edit officer notes,1
+36904,GUILD_OFFICER_PERMISSION_PUBLIC_NOTES,- Edit public notes,1
+36905,GUILD_OFFICER_PERMISSION_GUILD_INFO,- Edit Guild Info,1
+36906,GUILD_OFFICER_PERMISSION_MOTD,- Edit Message of the Day,1
 36908,EMOTE521_CMD3,/meow,1
 36916,COMMUNITIES_INVITATION_SENT,You have invited %s to join %s.,1
 36931,REPORT_PLAYER_LABEL,Report %s for:,1
@@ -17430,6 +17441,7 @@ ID,BaseTag,TagText_lang,Flags
 41142,CLUB_FINDER_SORT_BY,Sort By,1
 41144,CLUB_FINDER_RECRUITMENT_MESSAGE,Recruitment Message,1
 41148,COMMUNITIES_GUILD_FINDER_DESCRIPTION2,"A guild is a tight-knit group of players who want to enjoy the game together. By joining a guild, you'll gain access to many benefits, including a shared guild bank and a guild chat channel.|n|nUse this tool to find a guild that fits your playstyle.",1
+41157,CLUB_FINDER_COMMUNITY_TYPE,Community,1
 41176,GXAPI_D3D11_LEGACY,DirectX 11 Legacy,3
 41184,FACTION_NEUTRAL,Neutral,1
 41190,YOU_LOOT_MONEY_MOD,You loot %s (+%s),1
@@ -17441,6 +17453,7 @@ ID,BaseTag,TagText_lang,Flags
 41244,CLUB_FINDER_PENDING_REQUESTS,Pending (%d),1
 41252,BLIZZARD_GROUPS,Blizzard Groups,1
 41253,NEWBIE_TOOLTIP_BLIZZARDGROUPSTAB,Allows you to communicate with friends across Blizzard games and manage your Blizzard Groups.,1
+41266,CLUB_FINDER_APPLICANTS,Applicants,1
 41273,ERR_TRAVEL_PASS_WRONG_PROJECT_MAINLINE_OVERRIDE,This friend is playing the standard version of World of Warcraft.,1
 41274,ERR_TRAVEL_PASS_WRONG_PROJECT_CLASSIC_OVERRIDE,This friend is playing World of Warcraft Classic.,1
 41275,ERR_TRAVEL_PASS_WRONG_PROJECT,This friend is playing a different version of World of Warcraft.,1
@@ -17466,12 +17479,15 @@ ID,BaseTag,TagText_lang,Flags
 41600,ENTER_LFG,Enter,1
 41608,ERR_BATTLEGROUND_JOIN_DISQUALIFIED_NO_NAME,A player has been disqualified from ranked play in this bracket.,1
 41615,CREDITS_WOW_CLASSIC,World of Warcraft Classic Credits,2
+41633,GUILD_OFFICER_PERMISSION_FINDER_LIST,,1
+41634,GUILD_OFFICER_PERMISSION_INVITE_APPLICANTS,,1
 41637,CLUB_FINDER_NOT_RECRUITING_YOUR_SPECS,Send a note and include your specializations if you would still like to be considered for membership.,1
 41638,CLUB_FINDER_NO_MATCHING_SPEC_DIALOG_ERR_STRING,Currently not recruiting any of your class specializations. You may still apply.,1
 41640,BNET_FRIEND_ZONE_WOW_CLASSIC,WoW Classic: %s,1
 41641,BNET_FRIEND_TOOLTIP_WOW_CLASSIC,WoW Classic,1
 41649,AVAILABLE_CHANNELS,Available Channels,1
 41656,ERR_TRAVEL_PASS_DIFFERENT_REALM,In World of Warcraft Classic you cannot invite players that are on a different realm.,1
+41709,CLUB_FINDER_APPLICANT_HISTORY,Applicant History,1
 41717,CLUB_FINDER_FOCUS_SOCIAL_LEVELING,Social & Leveling,1
 41718,CLUB_FINDER_FOCUS_PVP,PvP,1
 41727,BEHAVIORAL_NOTIFICATION_OPEN,Click here to read the message,1
@@ -17496,6 +17512,7 @@ ID,BaseTag,TagText_lang,Flags
 41964,KIOSK_SESSION_EXPIRED_TITLE,Thank You For Playing,1
 41972,BLIZZARD_STORE_VAS_ERROR_ALLIANCE_NOT_ELIGIBLE,- This transfer is not currently available for this character's faction.,3
 41974,BLIZZARD_STORE_VAS_TRANSFER_INELIGIBLE_FACTION_WARNING,This transfer is not currently available for this character's faction.,2
+42004,CLUB_FINDER_BANNED_POSTING_WARNING,Your %s has been banned from posting in the Finder,1
 42037,BLIZZARD_STORE_ERROR_TITLE_CLIENT_RESTRICTED,Purchasing Restricted,3
 42038,BLIZZARD_STORE_ERROR_CLIENT_RESTRICTED,Feature has been disabled because you are on a restricted character.,3
 42117,IN_PROGRESS,In Progress,1
