@@ -3779,12 +3779,12 @@ Once the storm is over, some rushing winds will linger.",817,16,6866,6878,6913,2
 6880,Serious Wound,Victims of Serious Wound receive $133767s1% less healing per application.,818,2,6879,0,6881,2,0,0,0,236158,0,4,-1
 6881,Arterial Cut,Victims of Arterial Cut suffer $133768s1 Physical damage every second until they are restored to full health.,818,3,6879,0,0,2,0,0,0,136124,0,4,-1
 6882,Disintegration Beam,Durumu will focus his gaze into a beam of pure destruction directly in front of him. Players who are caught in the beam are killed instantly. While focusing this beam Durumu will slowly turn in either direction and his Cross-Eye will create a maze of Eye Sores across the platform.,818,5,0,6883,6889,2,0,0,0,463521,0,16,-1
-6883,Cross-Eye,Durumu's Cross-Eye creates a maze of Eye Sores across the platform whenever he channels his Disintegration Beam.,818,6,6882,6901,6902,1,47498,0,0,0,0,0,-1
-6884,Mind's Eye,Durumu summons a Mind's Eye that casts Force of Will periodically.,818,31,0,6905,6885,1,47498,0,0,0,0,0,-1
-6885,Hungry Eye,Durumu summons a Hungry Eye that casts Life Drain on players.,818,34,0,6906,6886,1,47498,0,0,0,0,0,-1
-6886,Evil Eye,Durumu's Evil Eye periodically casts Dark Parasite on players.,818,36,0,6907,6887,1,47498,0,0,0,2,12,12
-6887,Appraising Eye,Durumu will summon an Appraising Eye that casts Lingering Gaze on players.,818,41,0,6911,7865,1,47498,0,0,0,0,0,-1
-6889,Walls of Ice,Durumu summons three walls of ice to impede players as they attempt to move around the platform. The individual sections of each ice wall have their health linked and will shatter when any section has been sufficiently damaged.,818,12,0,0,6891,2,0,0,0,517161,2,8,12
+6883,Cross-Eye,Durumu's Cross-Eye creates a maze of Eye Sores across the platform whenever he channels his Disintegration Beam.,818,6,6882,6901,7858,1,47498,0,0,0,0,0,-1
+6884,Mind's Eye,Durumu summons a Mind's Eye that casts Force of Will periodically.,818,28,0,6905,6885,1,47498,0,0,0,0,0,-1
+6885,Hungry Eye,Durumu summons a Hungry Eye that casts Life Drain on players.,818,31,0,6906,6886,1,47498,0,0,0,0,0,-1
+6886,Evil Eye,Durumu's Evil Eye periodically casts Dark Parasite on players.,818,33,0,6907,6887,1,47498,0,0,0,2,12,12
+6887,Appraising Eye,Durumu will summon an Appraising Eye that casts Lingering Gaze on players.,818,38,0,6911,7865,1,47498,0,0,0,0,0,-1
+6889,Walls of Ice,Durumu summons three walls of ice to impede players as they attempt to move around the platform. The individual sections of each ice wall have their health linked and will shatter when any section has been sufficiently damaged.,818,9,0,0,6891,2,0,0,0,517161,2,8,12
 6890,Gaze,"If Durumu has no valid melee targets he instead Gazes at all players, inflicting $134029s1% weapon damage as Physical damage.",818,4,0,0,6882,2,0,0,0,132284,0,0,-1
 6891,Light Spectrum,"Durumu spawns a Blue Eye, Red Eye, and a Yellow Eye to cast three color beams targeting random players in the raid.  Once the initial beam completes, the Blue Eye and Red Eye focus a cone on their inital target for the duration of the Light Spectrum sequence.  The Yellow Eye ignores its initial target and instead moves its cone in one randomly chosen direction. 
 
@@ -3794,33 +3794,28 @@ Each cone reveals a specific creature that is normally invisible.
 
 $[!3,4,5,6 These cones persist until players have found and vanquished all Crimson Fogs.$]$[!7 In Raid Finder Difficulty, these cones persist until players have found and vanquished one fog beast of each color.$]
 
-$[!5,6 In Heroic Difficulty, if players fail to complete the Light Spectrum sequence within 80 seconds Durumu will Obliterate the raid.$]",818,13,0,7819,6884,2,0,0,0,134139,0,32,-1
-6892,Crimson Fog,Crimson Fogs are only revealed by the Red Eye's Infrared Light.,818,20,6891,6894,6895,1,47140,0,0,0,0,2,-1
-6893,Crimson Bloom,If a Crimson Fog leaves the Red Eye's Infrared cone it will cast Crimson Bloom. Crimson Bloom inflicts $136122s1 Fire damage to all players.,818,22,6892,0,0,2,0,0,0,135265,0,0,-1
-6894,Caustic Spike,Crimson Fogs cast Caustic Spike at random players while revealed by the Infrared cone of the Red Eye. Caustic Spike inflicts $136154s1 Physical damage to the victim.,818,21,6892,0,6893,2,0,0,0,629526,0,0,-1
-6895,Amber Fog,Amber Fogs are only revealed by the Yellow Eye's Bright Light.,818,23,6891,6896,6898,1,47141,0,0,0,2,2,28
-6896,Amber Retaliation,Amber Fogs will cast Amber Retaliation once for every 10% health lost. Amber Retaliation inflicts $136175s1 Nature damage to all players within the cone of Bright Light.,818,24,6895,0,6897,2,0,0,0,629527,0,4,-1
-6897,Burst of Amber,If an Amber Fog leaves the area of Yellow Eye's Bright Light it will cast Burst of Amber. Burst of Amber inflicts $136123s1 Nature damage to all players.,818,25,6895,0,0,2,0,0,0,646670,0,4,-1
-6898,Azure Fog,Azure Fogs are only revealed by Blue Eye's Blue Rays.,818,26,6891,6899,0,1,47142,0,0,0,0,2,-1
-6899,Icy Grasp,Azure Fogs inflict increasing Frost damage to all players in the cone of Blue Rays while revealed by the Blue Eye's cone of Blue Rays.,818,27,6898,0,7804,2,0,0,0,429385,0,2,-1
-6900,Biting Chill,"When players destroy an Azure Fog, it will respawn in a random location on the platform.",818,30,6898,0,0,2,0,0,0,236208,2,2,15
+$[!5,6 In Heroic Difficulty, if players fail to complete the Light Spectrum sequence within 80 seconds Durumu will Obliterate the raid.$]",818,10,0,7819,6884,2,0,0,0,134139,0,32,-1
+6892,Crimson Fog,Crimson Fogs are only revealed by the Red Eye's Infrared Light.,818,17,6891,6894,6895,1,47140,0,0,0,0,2,-1
+6893,Crimson Bloom,If a Crimson Fog leaves the Red Eye's Infrared cone it will cast Crimson Bloom. Crimson Bloom inflicts $136122s1 Fire damage to all players.,818,19,6892,0,0,2,0,0,0,135265,0,0,-1
+6894,Caustic Spike,Crimson Fogs cast Caustic Spike at random players while revealed by the Infrared cone of the Red Eye. Caustic Spike inflicts $136154s1 Physical damage to the victim.,818,18,6892,0,6893,2,0,0,0,629526,0,0,-1
+6895,Amber Fog,Amber Fogs are only revealed by the Yellow Eye's Bright Light.,818,20,6891,6896,6898,1,47141,0,0,0,2,2,28
+6896,Amber Retaliation,Amber Fogs will cast Amber Retaliation once for every 10% health lost. Amber Retaliation inflicts $136175s1 Nature damage to all players within the cone of Bright Light.,818,21,6895,0,6897,2,0,0,0,629527,0,4,-1
+6897,Burst of Amber,If an Amber Fog leaves the area of Yellow Eye's Bright Light it will cast Burst of Amber. Burst of Amber inflicts $136123s1 Nature damage to all players.,818,22,6895,0,0,2,0,0,0,646670,0,4,-1
+6898,Azure Fog,Azure Fogs are only revealed by Blue Eye's Blue Rays.,818,23,6891,6899,0,1,47142,0,0,0,0,2,-1
+6899,Icy Grasp,Azure Fogs inflict increasing Frost damage to all players in the cone of Blue Rays while revealed by the Blue Eye's cone of Blue Rays.,818,24,6898,0,7804,2,0,0,0,429385,0,2,-1
+6900,Biting Chill,"When players destroy an Azure Fog, it will respawn in a random location on the platform.",818,27,6898,0,0,2,0,0,0,236208,2,2,15
 6901,Eye Sore,Eye Sores inflict $134755s1 Arcane damage to victims within their area of effect every second.,818,7,6883,0,0,2,0,0,0,135728,0,0,-1
-6902,Stern Eye,"Stern Eyes are created as part of the Cross-Eye's maze pattern around the circumference of Durumu's platform. Stern Eyes gaze directly back at Durumu and will focus on players inside the inverted thirty-degree cone area in front of them. The cone is widest at the edge of the platform and tapers off to a point at Durumu's location in the center of the platform.
-
-The closest players inside this area will be victim to Stern Gaze.",818,8,6882,6903,7858,1,47498,0,0,0,2,8,12
-6903,Stern Gaze,Stern Eyes inflict Arcane damage to the closest 5 players based on how far they are from the Stern Eye.,818,9,6902,0,6904,2,0,0,0,237299,2,8,12
-6904,Stern Gaze,Stern Eyes inflict Arcane damage to the closest 2 players based on how far they are from the Stern Eye.,818,10,6902,0,0,2,0,0,0,237299,2,8,12
-6905,Force of Will,"The Mind's Eye focuses intently on a random player, knocking back any players who remain in the Eye's gaze when Force of Will finishes casting.",818,32,6884,0,7859,2,0,0,0,613397,2,0,15
+6905,Force of Will,"The Mind's Eye focuses intently on a random player, knocking back any players who remain in the Eye's gaze when Force of Will finishes casting.",818,29,6884,0,7859,2,0,0,0,613397,2,0,15
 6906,Life Drain,"The Hungry Eye focuses its gaze on a random player and begins to draw out their life force, stunning them for $133795d. Life lost from the victim is added to Durumu's health pool.
 
-The longer the Hungry Eye is allowed to focus on any given player the more life will be drawn from the victim. Hungry Eyes drain the life of the closest player between it and the initial target.",818,35,6885,0,0,2,0,0,0,136169,0,0,-1
+The longer the Hungry Eye is allowed to focus on any given player the more life will be drawn from the victim. Hungry Eyes drain the life of the closest player between it and the initial target.",818,32,6885,0,0,2,0,0,0,136169,0,0,-1
 6907,Dark Parasite,"Dark Parasites course through the victim, inflicting Shadow damage every second. The amount of damage increases the longer the parasite is allowed to infect its host.
 
-Dispelling the parasites from the victim causes the parasites to morph into a Dark Plague.",818,37,6886,6908,0,2,0,0,0,136138,2,132,12
-6908,Dark Plague,When Dark Parasites are cleansed they morph into a Dark Plague. Dark Plague's duration is equal to the duration remaining when Dark Parasites was cleansed and will spawn a Wandering Eye every 3 seconds.,818,38,6907,6909,0,2,0,0,0,136082,2,4,12
-6909,Wandering Eye,Wandering Eyes are spawned from victims of Dark Plague and will attack a random player.,818,39,6908,6910,0,1,47498,0,0,0,2,0,12
-6910,Devour,Wandering Eyes inflict $134010s1 Shadow damage to their chosen host every two seconds. Any damage the Wandering Eye suffers is copied to the host.,818,40,6909,0,0,2,0,0,0,252996,2,0,12
-6911,Lingering Gaze,The Appraising Eye lobs a shadowy missile at two random players. When the missile lands it explodes for $133793s2 Shadow damage to all within $133793A2 yards and will create a zone that will persist until the end of the encounter. Players entering this zone suffer $140495s1 Shadow damage every second and are slowed $134040s2%.,818,42,6887,0,7750,2,0,0,0,237297,2,0,5
+Dispelling the parasites from the victim causes the parasites to morph into a Dark Plague.",818,34,6886,6908,0,2,0,0,0,136138,2,132,12
+6908,Dark Plague,When Dark Parasites are cleansed they morph into a Dark Plague. Dark Plague's duration is equal to the duration remaining when Dark Parasites was cleansed and will spawn a Wandering Eye every 3 seconds.,818,35,6907,6909,0,2,0,0,0,136082,2,4,12
+6909,Wandering Eye,Wandering Eyes are spawned from victims of Dark Plague and will attack a random player.,818,36,6908,6910,0,1,47498,0,0,0,2,0,12
+6910,Devour,Wandering Eyes inflict $134010s1 Shadow damage to their chosen host every two seconds. Any damage the Wandering Eye suffers is copied to the host.,818,37,6909,0,0,2,0,0,0,252996,2,0,12
+6911,Lingering Gaze,The Appraising Eye lobs a shadowy missile at two random players. When the missile lands it explodes for $133793s2 Shadow damage to all within $133793A2 yards and will create a zone that will persist until the end of the encounter. Players entering this zone suffer $140495s1 Shadow damage every second and are slowed $134040s2%.,818,39,6887,0,7750,2,0,0,0,237297,2,0,5
 6912,Ignite Spear: Burning Cinders,"Ro'shak spits molten lava at Iron Qon's spear, causing magma to burst forth from the ground, inflicting $137668s2 Fire damage initially and then stacking $137668s1 Fire damage every $137668t1 sec to players who remain within the effect.",817,11,6865,0,7777,2,0,0,0,237003,0,0,-1
 6913,Strike Spear: Storm Cloud,"Quet'zal calls lightning down on Iron Qon's spear, causing a rolling storm cloud that electrifies players for $137669s2 Nature damage. 
 
@@ -4702,8 +4697,8 @@ Conductive Water erupts from the broken statue, forming a pool on the ground.",8
 
 Furthermore, the Lightning Storm electrifies Conductive Water.",827,13,0,7749,7763,2,0,0,0,237589,0,0,-1
 7749,Lightning Strike,"Lightning Strikes multiple locations throughout the room during Lightning Storm, inflicting $137647s1 Nature damage to nearby players. Each Lightning Strike diffuses, inflicting $137905s1 Nature damage to all players in a line.",827,14,7748,0,7737,2,0,0,0,458976,2,8,12
-7750,Lingering Gaze,The Appraising Eye lobs a shadowy missile at five random players.  When the missile lands it explodes for $133793s2 Shadow damage to all within $133793A2 yards and will create a zone that will persist until the end of the encounter. Players entering this zone suffer $140495s1 Shadow damage every second and are slowed $134040s2%.,818,43,6887,0,7751,2,0,0,0,237297,2,0,10
-7751,Lingering Gaze,The Appraising Eye lobs a shadowy missile at three random players.  When the missile lands it explodes for $133793s2 Shadow damage to all within $133793A2 yards and will create a zone that will persist until the end of the encounter. Players entering this zone suffer $140495s1 Shadow damage every second.,818,44,6887,0,0,2,0,0,0,237297,2,0,16
+7750,Lingering Gaze,The Appraising Eye lobs a shadowy missile at five random players.  When the missile lands it explodes for $133793s2 Shadow damage to all within $133793A2 yards and will create a zone that will persist until the end of the encounter. Players entering this zone suffer $140495s1 Shadow damage every second and are slowed $134040s2%.,818,40,6887,0,7751,2,0,0,0,237297,2,0,10
+7751,Lingering Gaze,The Appraising Eye lobs a shadowy missile at three random players.  When the missile lands it explodes for $133793s2 Shadow damage to all within $133793A2 yards and will create a zone that will persist until the end of the encounter. Players entering this zone suffer $140495s1 Shadow damage every second.,818,41,6887,0,0,2,0,0,0,237297,2,0,16
 7753,Conduction,"A Lightning Fissure contacts a Conductive Water, removing the Lightning Fissure and inflicting $138133s2 Nature damage to players standing in that Conductive Water.",827,10,7743,0,7744,2,0,0,0,237587,0,0,-1
 7754,Conduction,"Focused Lightning Detonation damage travels through Conductive Water, inflicting $137530s1 Nature damage to players standing in Conductive Water.",827,8,7741,0,7743,2,0,0,0,237587,0,0,-1
 7755,Time Step,"Chrono-Lord Epoch steps through time, charging a random player and inflicting Physical damage to them.",613,2,0,0,7372,2,0,0,0,132337,0,0,-1
@@ -4736,8 +4731,8 @@ Defeating any size Anima Golem will cause the Anima that was powering it to tran
 7780,Whirling Winds,"Quet'zal summons a massive swirl of wind and launches it ahead of him, inflicting $139167s1 Nature damage to all players with which it comes into contact.",817,13,7777,0,0,2,0,0,0,136022,2,0,12
 7781,Frost Spike,"Dam'ren commands frost spikes from the ground beneath random players, inflicting $139180s1 Frost damage and knocking enemy targets within $139180A1 yards into the air.",817,20,7778,0,0,2,0,0,0,135845,2,0,12
 7783,Cheep,"The Hatchling yells with all their might at their current target, inflicting $139296s1 Physical damage.",828,4,7350,0,0,2,0,0,0,648726,0,0,-1
-7804,Flash Freeze,If an Azure Fog leaves the area of Blue Eye's Blue Rays it will explode for $136124s1 Frost damage to all players.,818,28,6898,0,7805,2,0,0,0,464484,2,4,16
-7805,Flash Freeze,If an Azure Fog leaves the area of Blue Eye's Blue Rays it will explode for $136124s1 Frost damage to all players.  Azure Fogs will also cast this spell whenever they are slain.,818,29,6898,0,6900,2,0,0,0,464484,2,4,15
+7804,Flash Freeze,If an Azure Fog leaves the area of Blue Eye's Blue Rays it will explode for $136124s1 Frost damage to all players.,818,25,6898,0,7805,2,0,0,0,464484,2,4,16
+7805,Flash Freeze,If an Azure Fog leaves the area of Blue Eye's Blue Rays it will explode for $136124s1 Frost damage to all players.  Azure Fogs will also cast this spell whenever they are slain.,818,26,6898,0,6900,2,0,0,0,464484,2,4,15
 7806,Activation Sequence,The Dark Animus must run through its activation sequence before it can attack or use abilities. This process takes $139537d.,824,13,7762,0,7772,2,0,0,0,133859,2,0,16
 7807,Rampage,"Megaera begins to Rampage for 20 seconds whenever one of her heads is cut off, inflicting $139548s1 Elemental damage to all players every second. The damage dealt by a particular element is increased by $139458s1% for each additional head of that element that is present.",821,3,0,0,7809,2,0,0,0,463493,0,0,-1
 7808,Megaera's Rage,Megaera's heads outside of the Concealing Fog will begin to spit at their target when they have no targets within melee range. This effect inflicts $139765s1 Elemental damage to all enemies within $139765A1 yards upon impact.,821,6,0,0,6998,2,0,0,0,800829,0,16,-1
@@ -4745,17 +4740,17 @@ Defeating any size Anima Golem will cause the Anima that was powering it to tran
 7810,Nether Tear,"Megaera's Arcane Heads use this ability when they are within the Concealing Fog.
 
 Megaera's Arcane Heads open a tear into the nether, releasing a Nether Wyrm every $140138t1 sec. for $140138d.",821,18,7005,7816,7015,2,0,0,0,429383,2,0,12
-7811,Infrared Light,"If no players are in the Red Eye's cone, the Eye will inflict $133733s1 Fire damage to all players. Otherwise all players within the Red Eye's cone split $133732s1 Fire damage equally every 2 seconds.",818,15,6891,0,7820,2,0,0,0,463282,2,0,15
-7812,Bright Light,"If no players are in the Yellow Eye's cone, the Eye will inflict $133739s1 Nature damage to all players. Otherwise, all players within the Yellow Eye's cone split $133738s1 Nature damage equally every 2 seconds.",818,17,6891,0,7821,2,0,0,0,460954,2,0,15
-7813,Blue Rays,"If no players are in the Blue Eye's cone, the Eye will inflict $133678s1 Frost damage to all players. Otherwise all players within the Blue Eye's cone split $133677s1 Frost damage equally every 2 seconds.",818,19,6891,0,6892,2,0,0,0,463280,2,0,15
+7811,Infrared Light,"If no players are in the Red Eye's cone, the Eye will inflict $133733s1 Fire damage to all players. Otherwise all players within the Red Eye's cone split $133732s1 Fire damage equally every 2 seconds.",818,12,6891,0,7820,2,0,0,0,463282,2,0,15
+7812,Bright Light,"If no players are in the Yellow Eye's cone, the Eye will inflict $133739s1 Nature damage to all players. Otherwise, all players within the Yellow Eye's cone split $133738s1 Nature damage equally every 2 seconds.",818,14,6891,0,7821,2,0,0,0,460954,2,0,15
+7813,Blue Rays,"If no players are in the Blue Eye's cone, the Eye will inflict $133678s1 Frost damage to all players. Otherwise all players within the Blue Eye's cone split $133677s1 Frost damage equally every 2 seconds.",818,16,6891,0,6892,2,0,0,0,463280,2,0,15
 7814,Helm of Command,Lei Shen forces the target off the platform by using his Helm of Command. Inflicts $139011s1 Nature damage every $139011t1 sec for $139011d.,832,15,7186,0,0,2,0,0,0,133833,3,24,12
 7815,Helm of Command,Lei Shen forces the target off the platform by using his Helm of Command. Inflicts $139011s1 Nature damage every $139011t1 sec for $139011d.,832,25,7202,0,0,2,0,0,0,133833,2,24,12
 7816,Nether Wyrm,,821,19,7810,7817,0,1,48092,0,0,0,3,0,12
 7817,Nether Spike,"Nether Wyrms blast a random player with nether energy, inflicting $140178s1 Arcane damage.",821,20,7816,0,7818,2,0,0,0,610471,2,64,12
 7818,Suppression,"Nether Wyrms channel nether energy into a random player's mind, stunning them for $140179d.",821,21,7816,0,0,2,0,0,0,610679,2,192,12
-7819,Infrared Light,"If no players are in the Red Eye's cone, the Eye will inflict $133733s1 Fire damage to all players. Otherwise all players within the Red Eye's cone suffer $133732s1 Fire damage every 2 seconds.",818,14,6891,0,7811,2,0,0,0,463282,2,0,16
-7820,Bright Light,"If no players are in the Yellow Eye's cone, the Eye will inflict $133739s1 Nature damage to all players. Otherwise all players within the Yellow Eye's cone suffer $133738s1 Nature damage every 2 seconds.",818,16,6891,0,7812,2,0,0,0,460954,2,0,16
-7821,Blue Rays,"If no players are in the Blue Eye's cone, the Eye will inflict $133678s1 Frost damage to all players. Otherwise all players within the Blue Eye's cone suffer $133677s1 Frost damage every 2 seconds.",818,18,6891,0,7813,2,0,0,0,463280,2,0,16
+7819,Infrared Light,"If no players are in the Red Eye's cone, the Eye will inflict $133733s1 Fire damage to all players. Otherwise all players within the Red Eye's cone suffer $133732s1 Fire damage every 2 seconds.",818,11,6891,0,7811,2,0,0,0,463282,2,0,16
+7820,Bright Light,"If no players are in the Yellow Eye's cone, the Eye will inflict $133739s1 Nature damage to all players. Otherwise all players within the Yellow Eye's cone suffer $133738s1 Nature damage every 2 seconds.",818,13,6891,0,7812,2,0,0,0,460954,2,0,16
+7821,Blue Rays,"If no players are in the Blue Eye's cone, the Eye will inflict $133678s1 Frost damage to all players. Otherwise all players within the Blue Eye's cone suffer $133677s1 Frost damage every 2 seconds.",818,15,6891,0,7813,2,0,0,0,463280,2,0,16
 7822,Conductive Water,"When Jin'rokh destroys a statue with Thundering Throw, water pours forth, forming a growing pool at its feet. These pools are essential to the battle, empowering players with Fluidity, but also making them particularly susceptible to Nature damage through Conduction.",827,2,0,7735,7738,2,0,0,0,132852,1,32,-1
 7826,Kick Shell,"This extra action button can be used to kick a defeated Whirl Turtle across the room. Move close to the shell, then aim by positioning it between yourself and your target. Enemies hit by the shell are afflicted by Shell Concussion.",825,5,7129,0,7134,2,0,0,0,839976,0,32,-1
 7827,Nest Guardians,"On Heroic difficulty, some of Ji-Kun's nest are defended by Nest Guardians, which will attack any players attempting to disturb their nest.",828,11,7348,7828,0,1,47883,0,0,0,2,9,12
@@ -4779,8 +4774,8 @@ Defeating any size Anima Golem will cause the Anima that was powering it to tran
 7857,Primal Nutriment,"Successfully catching one of Ji-Kun's food globules mid-air increases the player's damage by $140741s2% and healing by $140741s1% for $140741d. Primal Nutriment increases damage and healing by an additional 10% each time it is applied, up to a maximum of 200%.",828,18,7354,0,0,2,0,0,0,655706,0,0,-1
 7858,Mind Daggers,"Any currently active eyes other than the Cross-Eye will inflict $139107s1 Arcane damage to random players in the raid.
 
-$[!3,5 In 10-Player difficulties 1 player is chosen at random.$]$[!4,6,7 In 25-Player difficulties 3 players are chosen at random.$]",818,11,6882,0,0,2,0,0,0,610679,0,4,-1
-7859,Force of Will,"The Mind's Eye focuses intently on a random player, knocking down any players who remain in the Eye's gaze when Force of Will finishes casting.",818,33,6884,0,0,2,0,0,0,613397,2,0,16
+$[!3,5 In 10-Player difficulties 1 player is chosen at random.$]$[!4,6,7 In 25-Player difficulties 3 players are chosen at random.$]",818,8,6882,0,0,2,0,0,0,610679,0,4,-1
+7859,Force of Will,"The Mind's Eye focuses intently on a random player, knocking down any players who remain in the Eye's gaze when Force of Will finishes casting.",818,30,6884,0,0,2,0,0,0,613397,2,0,16
 7860,Evasive,Anima Golems take $140759s1% reduced damage from area-of-effect sources.,824,6,7758,0,0,2,0,0,0,132178,2,0,15
 7861,Frozen Resilience,Dam'ren is protected with a sheen of ice which reflects $135144s2% of damage taken back at the attacker.,817,23,6867,0,7862,2,0,0,0,132123,2,0,15
 7862,Frozen Resilience,Dam'ren is protected with a sheen of ice which reflects $135144s3% of damage taken back at the attacker.,817,24,6867,0,6915,2,0,0,0,132123,2,0,16
@@ -4788,7 +4783,7 @@ $[!3,5 In 10-Player difficulties 1 player is chosen at random.$]$[!4,6,7 In 25-P
 7864,Interrupting Jolt,"Upon reaching 75 Anima, the Dark Animus gains the ability to release a burst of energy, inflicting $139867s1 Nature damage and interrupting the spellcasts of all players.",824,21,7762,0,7773,2,0,0,0,136050,2,4,12
 7865,Obliterate,"Durumu will kill all players if he has not been defeated within 10 minutes.
 
-$[!5,6 In Heroic Difficulty, Durumu will use Obliterate if players fail to complete the Light Spectrum sequence within 80 seconds.$]",818,45,0,0,0,2,0,0,0,425958,0,2064,-1
+$[!5,6 In Heroic Difficulty, Durumu will use Obliterate if players fail to complete the Light Spectrum sequence within 80 seconds.$]",818,42,0,0,0,2,0,0,0,425958,0,2064,-1
 7866,Direhorn Spirit,Horridon's Dire Call awakens a Direhorn Spirit.,819,5,7093,7868,0,1,47383,0,0,0,2,32,12
 7867,Weak Link,The Direhorn Spirit's link to Pandaria is weak. Any attack made against a Direhorn Spirit will knock it back.,819,7,7866,0,0,2,0,0,0,631503,2,0,12
 7868,Dire Fixation,The Direhorn Spirit will fixate on a player. Only the fixated player can see or interact with the Direhorn Spirit.,819,6,7866,0,7867,2,0,0,0,237298,2,0,12
