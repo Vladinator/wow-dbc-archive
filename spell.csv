@@ -11286,7 +11286,7 @@ Attack speed increased by $s2%."
 15471,,"Immobilizes an enemy, increases the time between its attacks by $s2%, and prevents it from casting spells for $d.","Unable to move or cast spells.
 Time between attacks increased by $s2%."
 15472,,"Hurls a bolt of dark magic at an enemy, inflicting Shadow damage.",
-15473,,"Assume a Shadowform, increasing your Shadow damage by $s2%$?s440247[, reducing the mana cost of all Shadow spells by $s4%,][] and reducing Physical damage done to you by $s3%.  However, you may not cast Holy spells while in this form.",Shadow damage you deal increased by $s2%.$?$w4<0[ Mana cost of all Shadow spells reduced by $w4%.][]  Physical damage you take reduced by $s3%.  You may not cast Holy spells.
+15473,,"Assume a Shadowform, increasing your Shadow damage by $s2%$?s440247[, reducing the mana cost of all Shadow spells by $s4%,][] and reducing Physical damage done to you by $s3%.  However, you may not cast Holy spells while in this form.",Shadow damage you deal increased by $w2%.$?$w4<0[ Mana cost of all Shadow spells reduced by $w4%.][]  Physical damage you take reduced by $s3%.  You may not cast Holy spells.
 15474,,Immobilizes nearby enemies for $d.,Immobilized.
 15475,,Inflicts $s2 Nature damage and an additional $s1 damage every $t1 sec. to nearby enemies for $d.,$s1 Nature damage inflicted every $t1 sec.
 15487,,"Silences the target, preventing them from casting spells for $d.",Silenced.
@@ -12436,11 +12436,11 @@ Attack speed increased by $s2%."
 16899,Rank 3,"Increases the damage done by your Starfire, Moonfire and Wrath spells by $s1%.",
 16900,Rank 4,"Increases the damage done by your Starfire, Moonfire and Wrath spells by $s1%.",
 16901,Rank 5,"Increases the damage done by your Starfire, Moonfire and Wrath spells by $s1%.",
-16902,Rank 1,Increases the damage you deal with physical attacks in all forms by $s1%.,
-16903,Rank 2,Increases the damage you deal with physical attacks in all forms by $s1%.,
-16904,Rank 3,Increases the damage you deal with physical attacks in all forms by $s1%.,
-16905,Rank 4,Increases the damage you deal with physical attacks in all forms by $s1%.,
-16906,Rank 5,Increases the damage you deal with physical attacks in all forms by $s1%.,
+16902,Rank 1,$?s436895[Increases all damage you deal by $s1%.][Increases the damage you deal with physical attacks in all forms by $s1%.],
+16903,Rank 2,$?s436895[Increases all damage you deal by $s1%.][Increases the damage you deal with physical attacks in all forms by $s1%.],
+16904,Rank 3,$?s436895[Increases all damage you deal by $s1%.][Increases the damage you deal with physical attacks in all forms by $s1%.],
+16905,Rank 4,$?s436895[Increases all damage you deal by $s1%.][Increases the damage you deal with physical attacks in all forms by $s1%.],
+16906,Rank 5,$?s436895[Increases all damage you deal by $s1%.][Increases the damage you deal with physical attacks in all forms by $s1%.],
 16908,,Dispels a magic effect on the current foe.,
 16909,Rank 1,"Increases the critical strike damage bonus of your Starfire, Moonfire, and Wrath spells by $s1%.",
 16910,Rank 2,"Increases the critical strike damage bonus of your Starfire, Moonfire, and Wrath spells by $s1%.",
@@ -13828,7 +13828,7 @@ Attack speed increased by $s2%."
 18559,,Demon Pick to Destroy Demon Crystal.,
 18560,,"The purification of tainted Felcloth into Mooncloth can only be done at a moonwell, and only ocassionally will the waters permit themselves to be used in such a way.",
 18561,,"Shoots at an enemy, inflicting Physical damage.",
-18562,,Consumes a Rejuvenation or Regrowth effect on a friendly target to instantly heal them an amount equal to 12 sec. of Rejuvenation or 18 sec. of Regrowth.,
+18562,,$?s436895[Instantly heals a target with an active Rejuvenation or Regrowth effect for][Consumes a Rejuvenation or Regrowth effect on a friendly target to instantly heal them] an amount equal to 12 sec. of Rejuvenation or 18 sec. of Regrowth.,
 18563,,Teaches you how to purify Felcloth and turn it into Mooncloth.,
 18564,,,
 18565,,,
@@ -22902,7 +22902,7 @@ $@spelldesc399985",
 401489,,,
 401495,,,
 401502,,"Launches a bolt of frostfire at the enemy, causing ${$<power>*$m2/100*$<frostdamage>} to ${$<power>*$M2/100*$<frostdamage>} Frostfire damage, slowing movement speed by $s1% and causing an additional ${$<power>*$m3/100*3*$<frostdamage>} Frostfire damage over $d. This spell will be checked against the lower of the target's Frost and Fire resists and counts as both Frost and Fire damage.
-",Movement slowed by $s1%.  $w3 Frostfire damage every $t3 sec.
+",Movement slowed by $w1%.  $w3 Frostfire damage every $t3 sec.
 401556,,"Summons a spellfire flame that moves toward the target, leaving a trail of spellfire. This trail deals ${$<power>*$401558m1/100} Spellfire damage every second to nearby enemies. Lasts $d.",
 401558,,Deals ${$<power>*$m1/100} Fire damage every $t1 sec.,Deals $w1 Fire damage every $t1 sec.
 401559,,,
@@ -23441,7 +23441,7 @@ While you know this ability, the threat bonus from Righteous Fury is increased t
 407653,,"Strikes an enemy with a lightning bolt that arcs to another nearby enemy. The spell affects up to $x1 targets, causing Nature damage to each.",Static energy fills the air around you.
 407667,,"Strikes an enemy with a lightning bolt that forks to all nearby targets, causing Nature damage to each.",
 407669,,"Hurls a holy shield at the enemy, dealing ${$m1*$<damagepower>/100+0.091*$SPH+0.091*$AP} to ${$M1*$<damagepower>/100+0.091*$SPH+0.091*$AP} Holy damage, Dazing them and then jumping to additional nearby enemies.  Affects $x1 total targets.  Lasts $d.",Dazed.
-407676,,An instant strike that causes $m2% weapon damage as Holy and regenerates $s3% of your maximum mana.,
+407676,,An instant strike that causes $m2% weapon damage as Holy and regenerates $s3% of your maximum mana. The duration of all Judgement effects on the target is refreshed to $407676m4 sec.,
 407720,,"Strikes an enemy with a lightning bolt that arcs to another nearby enemy. The spell affects up to $x1 targets, causing Nature damage to each.",
 407736,,"Strikes an enemy with a lightning bolt that arcs to another nearby enemy. The spell affects up to $x1 targets, causing Nature damage to each.",
 407745,,"Strikes an enemy with a lightning bolt that forks to all nearby targets, causing Nature damage to each.",
@@ -24288,10 +24288,10 @@ Healing spells reduced by $s2%."
 415105,,,"Your next Chain Lightning, Chain Heal,  or Lava Burst spell will be an instant cast spell."
 415112,,,
 415113,,,
-415140,,"Dealing damage with your melee weapons increases your Attack Power by $s1% of your Intellect, and your spell damage and healing by $s2% of your total Attack Power for $415144d.",
+415140,,"Dealing damage with Lava Lash or Stormstrike increases your Attack Power by $s1% of your Intellect, and your spell damage and healing by $s2% of your total Attack Power for $415144d.",
 415144,,,"Attack Power increased by $w1.
 Spell damage and healing increased by $w2."
-415231,,Your Flame Shock now strikes up to $s1 targets.,
+415231,,"Your Flame Shock now strikes up to $s1 targets, gains ${$m5/1000} sec increased duration, and deals $s3% increased damage. In addition, while you have Flametongue Weapon imbued on an equipped weapon, you gain ${$m6*$PL} increased spell damage.",
 415233,,"Turns the Shaman into a Ghost Wolf, increasing speed by $s2% and decreasing all damage taken by $s3%.","Increases movement speed by $s2%.
 Decreases damage taken by $s3%."
 415236,,"Selects the area $415242a1 yards around target player, and heals all of target player's party members within that area for ${$<healpower>*$415242m1/100} every second.",Healing target player's party within your Healing Rain for ${$<healpower>*$415242m1/100} every second.
@@ -24316,9 +24316,9 @@ Decreases damage taken by $s3%."
 415362,,,Raptor Strike and Mongoose Bite damage increased by $w1%.
 415370,,You deal $s1% increased damage with all attacks while you do not have an active pet.,
 415372,,,
-415399,,"Your Shot abilities gain $415401s1% increased critical strike chance while you have not moved for the last $s1 sec, stacking every sec up to $415401u times. While moving, you will lose 1 stack per sec.",
-415401,,,Critical strike chance with Shot abilities increased by $s1%.
-415405,,"Reduces the cooldown on Rapid Fire by ${$m1/-60000} min, and your next Shot ability within $415407d after killing a target worth experience or honor deals $415407s2% increased damage.",
+415399,,"Your Shot abilities gain $415401s1% increased critical strike chance while you have not moved for the last $s1 sec, stacking every sec up to $415401u times. At $415401u stacks, your Aimed Shot becomes instant. While moving, you will lose 1 stack per sec.",
+415401,,,Critical strike chance with Shot abilities increased by $s1%.$?$w=10[ Your Aimed Shot is instant.][]
+415405,,"Reduces the cooldown on Rapid Fire by $s1%, and your next Shot ability within $415407d after killing a target worth experience or honor deals $415407s2% increased damage.",
 415407,,,Next Shot ability deals $s1% increased damage.
 415413,,"Each time one of your traps is triggered, your next Shot ability within $415414d costs no mana and does not incur a cooldown.",
 415414,,,Next Shot ability costs no mana and incurs no cooldown.
@@ -25039,7 +25039,7 @@ $@spelldesc417046",
 
 $@spellicon417046
 $@spelldesc417046",
-424785,,"Viciously slash an enemy for $s2% weapon damage, and cause the target to bleed for ${$AP*$m4/100} damage every $t4 sec for $d, stacking up to $u times.  Awards $s3 combo $lpoint:points;.
+424785,,"Viciously slash an enemy for $s2% weapon damage, and cause the target to bleed for ${$AP*$m4/100} damage every $t4 sec for $d, stacking up to $u times. Each stack also increases damage done by your Saber Slash and Sinister Strike by $s5%. Awards $s3 combo $lpoint:points;.
 
 Saber Slash benefits from all talents and effects that trigger from or modify Sinister Strike.",Bleeding for $w4 damage every $t4 sec.
 424788,,Salvage the wreckage of a shredder for spare parts.,
@@ -25491,7 +25491,7 @@ $@spelldesc426065",
 426200,,,
 426223,,,
 426241,,,
-426243,,"Refreshing Corruption, Immolate, Curse of Agony, or Siphon Life when it has less than $s1 seconds duration remaining will cause you to deal instant damage to the target equal to the spell's remaining periodic damage.",
+426243,,"Refreshing Corruption, Immolate, Curse of Agony, Unstable Affliction, or Siphon Life when it has less than $s1 seconds duration remaining will cause you to deal instant damage to the target equal to the spell's remaining periodic damage.",
 426245,,,
 426246,,,
 426247,,,
@@ -27883,7 +27883,7 @@ Defense increased by $s2."
 446392,,"Spells and attacks sometimes leech $446393s1 health from the target, and apply a stack of Decay. When decay reaches 5 stacks, the target takes $446810s1 damage.",
 446393,,,"Decaying. At 5 stacks, all stacks are consumed, and $446810s1 shadow damage is dealt."
 446394,,"Restore $446785s1 Energy, $446786s1% Mana, or $446783s1 Rage.","Restore $446785s1 Energy, $446786s1% Mana, or $446783s1 Rage."
-446395,,"Chance on successful heal to restore $446785s1 Energy, $446786s1% Mana, or $/10;446783s1 Rage.",
+446395,,"Chance on direct healing spell, and on effective healing over time ticks to restore $446785s1 Energy, $446786s1% Mana, or $/10;446783s1 Rage to the target.",
 446396,,"Increases healing done by $s1, mana regeneration by $s2 mana per 5 sec, and your heals have a chance to restore $446785s1 Energy, $446786s1% Mana, or $/10;446783s1 Rage. Only one Atal'ai potion can be active at any time. This has no effect outside of Sunken Temple.",Healing Done increased by $s1. Regenerate 11 mana every 5 sec. Chance on successful heal to restore your target's primary resource.
 446397,,"Rainbow power!
 ",Rainbow power!
@@ -28219,7 +28219,7 @@ Attack speed increased by $s2%."
 449203,,,
 449288,,$s1 Nature damage.,
 449371,,,
-449379,,,"Decaying. At 5 stacks, all stacks are consumed, and 150 to 250 shadow damage is dealt."
+449379,,,"Decaying. At 5 stacks, all stacks are consumed, and ${$446810m1/$m2} to ${$446810M1/$m2} shadow damage is dealt."
 449409,,"Inspired by the Mojo of War, your size is increased and your Strength goes up by $s1 to match your new size.  Lasts $d.","Increases Agility by $s1 as well as increasing your size. Feel da voodoo, mon!"
 449414,,"A sacrificial dagger, engraved with a chant for an ancient Atal'ai blood ceremony.",
 449420,,"A sacrificial dagger, engraved with a chant for an ancient Atal'ai blood ceremony.",
@@ -28246,7 +28246,7 @@ Nature damage inflicted every $t1 sec."
 449926,,Improves your chance to hit with all spells and attacks by $s1% while in Bear or Dire Bear Forms.,
 449927,,"Causes the target to hemorrhage, increasing any damage dealt to the target by up to $s1.  Lasts $n charges or $d.",Increases damage taken by $s1.
 449928,,Backstab and Sinister Strike cause the target to take $449927s1 more damage from all sources for $449927n charges or $449927d.,
-449929,,Your healing spell critical strikes now have a $h% chance to activate Dreamstate. You must have the rune engraved.,
+449929,,Your direct healing spell critical strikes now have a $h% chance to activate Dreamstate. You must have the rune engraved.,
 449930,,Reduces the cast time of Healing Rain by $s1%.,
 449931,,"Dealing Fire damage causes you to gain $449932s1 attack power, stacking up to $449932u times. Lasts $449932d.",
 449932,,Attack power increased by $s1.,Attack power increased by $s1.
@@ -28342,3 +28342,8 @@ $s2 Shadow damage inflicted to melee attackers."
 452185,,,
 452285,,,
 452574,,,
+453124,,,
+453165,,,
+454042,,,Spell damage increased by $w1.
+454197,,,
+454427,,,
