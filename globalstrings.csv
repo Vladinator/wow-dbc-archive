@@ -10849,7 +10849,7 @@ ID,BaseTag,TagText_lang,Flags
 22869,INCLUDED_SCENARIOS_EMPTY,The levels of people in your group are not close enough to be eligible for any Random Scenarios.,1
 22870,LFG_TYPE_RANDOM_SCENARIO,Random Scenario,1
 22871,SCENARIO_RANDOM_EXPLANATION,Using the Random Scenario queue will earn you extra rewards.,1
-22872,ACHIEVEMENT_EARNED_BY,Earned by: |cffffffff%s|r,1
+22872,ACHIEVEMENT_EARNED_BY,Earned by your Warband.|nCompleted by: |cffffffff%s|r,1
 22873,ACHIEVEMENT_PROGRESSED,Achievement Progress,1
 22874,ENTER_SCENARIO,Enter Scenario,1
 22875,RANDOM_SCENARIO,Random Scenario,1
@@ -11423,7 +11423,7 @@ You can find trainers for them in some settlements and cities.",1
 23528,ACHIEVEMENT_FILTER_TITLE,Achievement Filter,1
 23529,PET_BATTLE_ANOTHER_PET_JOINED,Another pet has joined the battle!,1
 23530,ACHIEVEMENT_COMPLETED_BY,Completed by: |cffffffff%s|r,1
-23531,ACHIEVEMENT_NOT_COMPLETED_BY,|cffff2020Not completed by:|r |cffffffff%s|r,1
+23531,ACHIEVEMENT_NOT_COMPLETED_BY,|cnHIGHLIGHT_FONT_COLOR:%s can still complete this.|r,1
 23532,ERR_PETBATTLE_QUEUE_QUEUED,You are now queued for a pet battle.,1
 23533,ERR_PETBATTLE_QUEUE_ALREADY_QUEUED,You are already queued for a pet battle.,1
 23534,ERR_PETBATTLE_QUEUE_JOIN_FAILED,Unable to join pet battle queue.,1
@@ -15043,9 +15043,9 @@ You can find trainers for them in some settlements and cities.",1
 34496,RANDOMIZE,Randomize,2
 34497,REACTIVATE_ACCOUNT_NOW,Reactivate Now,2
 34498,REALMLIST_NOT_CONNECTED_TO_BATTLENET,You have been disconnected from Blizzard services. You need to log in again to change realms.,2
-34499,REALMLIST_NUMCHARACTERS_TOOLTIP,The number of characters\nyou have created on this realm.,2
+34499,REALMLIST_NUMCHARACTERS_TOOLTIP,"All characters are displayed in your\ncharacter list, regardless of their realm.",2
 34500,REALMLIST_POPULATION_TOOLTIP,"""New Players"" realms will give you the best play experience.\n""Full"" realms are the most crowded, and you will often\nexperience a wait time to play.",2
-34501,REALMLIST_REALMNAME_TOOLTIP,Make sure you check which realm your friends are playing on!,2
+34501,REALMLIST_REALMNAME_TOOLTIP,"The realm you choose affects some features like\ntrading, guilds and Mythic raiding.",2
 34502,REALMLIST_TYPE_TOOLTIP,Normal = No special rules on this realm.\nRP = Roleplaying realm.,2
 34503,REALM_CHARACTERS,Characters,6
 34504,REALM_DESCRIPTION,Choosing a Realm,2
@@ -19740,8 +19740,8 @@ You can find trainers for them in some settlements and cities.",1
 44169,PVP_RANK_8_NAME,Rival II,1
 44170,PVP_RANK_4_NAME,Duelist,1
 44171,PVP_RANK_5_NAME,Elite,1
-44172,PVP_RANK_8_NEXT_RANK_DESC,Achieve a rating of 1950 or higher to earn:|n- PvP Item Upgrade Rank,1
-44173,PVP_RANK_4_NEXT_RANK_DESC,Achieve a rating of 2100 or higher to earn:|n- Duelist Title|n- Elite PvP Item Set Appearance: Prestige Cloak|n- Elite PvP Weapon Enchant,1
+44172,PVP_RANK_8_NEXT_RANK_DESC,Achieve a rating of 1950 or higher to earn:|n- PvP Item Upgrade Rank|n- Elite PvP Weapon Enchant,1
+44173,PVP_RANK_4_NEXT_RANK_DESC,Achieve a rating of 2100 or higher to earn:|n- Duelist Title|n- Elite PvP Item Set Appearance: Prestige Cloak,1
 44174,PVP_RANK_5_NEXT_RANK_DESC,Achieve a rating of 2400 or higher to earn:|n- Elite Title|n- Elite PvP Item Set Appearance: Tabard,1
 44175,PVP_RATING_LINK_FORMAT_STRING,|cffffffff%s (%d)|r,1
 44176,VOICE_CHAT_TRANSCRIPTION,Voice Chat Transcription,1
@@ -21079,7 +21079,7 @@ All loadouts that have this option enabled will share the same action bars.",1
 49835,CHAR_CREATE_DEATHKNIGHT_LEVEL_REQUIREMENT,You must have an existing character of at least level 55 on any realm to create a Death Knight.,2
 49836,SPELL_FAILED_CUSTOM_ERROR_815,You cannot do that while underwater.,1
 49837,EQUIP_CONTAINER_REAGENT,Equip Reagent Bag,1
-49838,GREAT_VAULT_RETIRE_WARNING,Unable to earn new rewards after this week.|n|nAny unclaimed rewards will be lost after the launch of %s.,1
+49838,GREAT_VAULT_RETIRE_WARNING,Unable to earn new rewards after this week.|nAny unclaimed rewards will be lost after the launch of %s.,1
 49839,TUTORIAL_REAGENT_BAG_STEP_1,You've obtained a reagent bag!|n|nOpen your bag.,1
 49840,TUTORIAL_REAGENT_BAG_STEP_2,Equip your new reagent bag!|n|nAny crafting materials you pick up will go into this bag.,1
 49841,TALENT_FRAME_APPLY_LOADOUT_BUTTON_TEXT,Apply Loadout,1
@@ -21825,7 +21825,7 @@ Are you sure you want to proceed?",1
 51317,PING_SUBJECT_TYPE_WARNING_UNIT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_warning:0:0:0:0|aWarning: %s,1
 51318,PING_SUBJECT_TYPE_ALERT_THREAT_UNIT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_threat:0:0:0:0|aThreatening alert: %s,1
 51319,PING_SUBJECT_TYPE_ALERT_NOT_THREAT_UNIT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_nonthreat:0:0:0:0|a%s,1
-51320,DRAGONFLIGHT_LANDING_PAGE_UNSPENT_GLYPHS,You have unspent Skyriding power,1
+51320,DRAGONFLIGHT_LANDING_PAGE_UNSPENT_GLYPHS,You have unspent Skyriding Proficiency points.,1
 51321,SPELL_FAILED_CUSTOM_ERROR_857,Only the Forsaken can display this honor.,1
 51322,RPE_UPGRADE_QUEST_CLEAR_CONFIRMATION,Would you like to clear your quest log \nfor a fresh start?,3
 51323,RPE_CLEAR_QUESTS,Clear Quests,3
@@ -22478,7 +22478,7 @@ And spread his flame to all Azeroth.",1
 52148,DELVES_CONFIGURE_BUTTON,Configure,1
 52149,DELVES_GREAT_VAULT_DESCRIPTION_SEASON_STARTED,Complete delves to earn weekly rewards,1
 52150,DELVES_GREAT_VAULT_LABEL,Great Vault,1
-52151,DYNAMIC_FLIGHT,Dynamic Flight,1
+52151,DYNAMIC_FLIGHT,Skyriding,1
 52152,DELVES_GREAT_VAULT_TOOLTIP,[PH] Complete delves to earn weekly rewards.\n\n%s/%s rewards unlocked. ,1
 52153,DELVES_GREAT_VAULT_REQUIRES_ACTIVE_SEASON,The Great Vault is only available during an active season. The next season will start soon!,1
 52154,OPEN_DYNAMIC_FLIGHT_TREE_TOOLTIP,Skills and Unlocks,1
@@ -22531,3 +22531,12 @@ And spread his flame to all Azeroth.",1
 52205,WEEKLY_REWARDS_ITEM_LEVEL_WORLD,Item Level %1$d - (Tier %2$d),1
 52206,WEEKLY_REWARDS_COMPLETE_WORLD,Complete a Tier %1$d delve or higher to increase this reward's item level.,1
 52207,SPELL_FAILED_CUSTOM_ERROR_1042,You already have this curio in your collection.,1
+52218,POWER_TYPE_ACID,Acid Power,1
+52219,PROF_CRAFTING_ORDER_TYPE_NPC,npc,1
+52220,DELVE_LABEL,Delve,1
+52221,UNITNAME_SUMMON_TITLE57,Placed by %s,1
+52228,PHOTOSENSITIVITY_WARNING_TITLE,PHOTOSENSITIVITY WARNING,2
+52229,PHOTOSENSITIVITY_WARNING_DESCRIPTION,"A small percentage of people may have seizures from certain lights, patterns, or images, even without a history of epilepsy.|n|nBefore playing, if you or anyone in your family has an epileptic condition, consult a physician.|n|nStop playing and seek medical advice if you experience dizziness, altered vision, twitches, loss of awareness, disorientation, involuntary movements, or convulsions while gaming.",2
+52235,PHOTOSENSITIVITY_WARNING_CONTINUE,Press any button to continue,2
+52256,CHARACTER_ACHIEVEMENT_DESCRIPTION,Progress towards this achievement is tracked for each character.,1
+52258,VRN_DX12_NEEDS_WIN10_19H2,DirectX 12 requires the Windows 10 November 2019 Update or newer,3

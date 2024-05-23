@@ -859,7 +859,7 @@ $shadowfiend=$?s373065[${35}][${25}]"
 $targetBonusAlso=${$s1}"
 850,$healing=$?s429400[${6*$157982s1}][${5*$157982s1}]
 851,$dmg=${$s2/1000*2*$211545s1}
-852,$cap=${($SP*2)*(1+$@versadmg)}
+852,$cap=${($SP*2.5)*(1+$@versadmg)}
 853,"$shield=${($SP*11)*(1+$@versadmg)}
 $newshield=${$MHP*$116680s8/100*(1+$@versadmg)}"
 854,$S4UmbrelskulPointsMod= ${$s1*$w3}
@@ -886,3 +886,5 @@ $spike=${$cond($gt($SP,$AP),$SP*0.75,$AP*0.75)*$pctD*(1+$@versadmg)}"
 875,"$GoldenLotusRepMult=${8}
 $ShadoPanRepMult=${6}
 "
+876,$skyride=$?a432503[${((($j1d/7)-1)*85+1)}][${((($j1d/7)-1)*100+1)}]
+877,$cap=${($SP*6)*(1+$@versadmg)}

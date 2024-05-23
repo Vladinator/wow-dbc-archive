@@ -9087,18 +9087,17 @@ ID,Description_lang,Type,Amount,ObjectID,OrderIndex,Flags,StorageIndex,QuestID
 447141,,0,10,218074,5,92,4,79470
 447142,,0,9,218073,6,92,5,79470
 447221,,0,6,218104,0,0,0,79116
-447233,,0,20,222309,0,16,1,80068
 447288,Plunder Collected,0,30,218731,0,0,1,80081
 447346,Captain's Orders completed,0,1,218946,0,0,0,80110
 447531,Subdue Moles or Kill Players,15,1,0,0,0,0,80208
 447532,,9,7,459,1,92,0,80208
 447533,Subdue Moles,0,10,219424,2,92,1,80208
 447645,Living Coalesced Silt gathered,1,20,217343,0,16,0,80295
-447654,Kill Fog Beasts or Players,15,1,0,0,0,0,80323
+447654,Kill Monsters or Players,15,1,0,0,0,0,80323
 447655,Kill Players,9,7,459,1,92,2,80323
-447656,Kill Fogbeasts,0,5,219446,2,92,3,80323
-447657,Kill Fogbeasts,0,5,219447,3,92,4,80323
-447658,Kill Fogbeasts,0,5,219448,4,92,5,80323
+447656,Kill Monsters,0,5,219446,2,92,3,80323
+447657,Kill Monsters,0,5,219447,3,92,4,80323
+447658,Kill Monsters,0,5,219448,4,92,5,80323
 447704,,0,1,217932,1,26,1,78472
 447825,Kill  Players or Subdue Creatures,15,1,0,0,0,0,80394
 447826,Kill Players,9,7,459,1,92,2,80394
@@ -9176,7 +9175,6 @@ ID,Description_lang,Type,Amount,ObjectID,OrderIndex,Flags,StorageIndex,QuestID
 448496,Kill Arathi,0,10,221385,2,92,1,81622
 448500,,1,5,219292,0,0,0,81484
 448508,,1,4,219293,0,0,0,81500
-448519,Kobold Tunnels collapsed,0,3,221075,0,0,0,81621
 448520,,0,1,221084,0,0,0,81630
 448542,,2,1,439334,0,0,0,81499
 448543,,2,1,439339,0,0,0,81472
@@ -9308,7 +9306,7 @@ ID,Description_lang,Type,Amount,ObjectID,OrderIndex,Flags,StorageIndex,QuestID
 449660,Nerubian Burrow Destroyed,2,5,411984,0,0,0,82257
 449666,,1,4,213630,0,1,0,82258
 449667,Blackpowder Barrel Placed,2,4,434813,1,2,1,82258
-449670,Tinderboxes recovered,1,6,213191,0,0,0,82259
+449670,Fallen Defenders Honored,1,6,213191,0,0,0,82259
 449686,,0,20,213683,5,92,1,79669
 449687,,0,20,213197,6,92,2,79669
 449691,Royal Preservatory Maintained,15,1,0,0,0,0,82266
@@ -9384,8 +9382,8 @@ ID,Description_lang,Type,Amount,ObjectID,OrderIndex,Flags,StorageIndex,QuestID
 449961,,21,17,3526,4,92,3,82523
 449962,,0,9,223956,5,92,4,82523
 449967,Set Prisoners in Caves Free,2,17,446414,6,92,6,82414
-449971,Dyeworks Laborers slain,0,15,224568,0,0,2,82533
-449972,Experimental Dyebaths Tested,0,5,224570,1,4,4,82533
+449971,Dyeworks laborers slain,0,15,224568,0,0,2,82533
+449972,Different dyebaths visited,0,5,224570,1,4,4,82533
 449977,Salien Gutters scavenged,15,1,0,0,0,0,82535
 449978,,1,25,222921,1,92,4,82535
 449979,Consripted Ascendants Freed,0,12,225682,0,0,0,82536
@@ -9411,15 +9409,17 @@ ID,Description_lang,Type,Amount,ObjectID,OrderIndex,Flags,StorageIndex,QuestID
 450033,,0,40,215711,5,92,3,82468
 450034,Arathi rescued,0,100,224083,6,92,4,82468
 450039,Mine destroyed,0,20,218013,7,92,5,82468
+450040,Deposit a total of 10 ore across the bridge to the west,0,10,224092,1,0,0,82580
 450057,Kill Kobolds,21,12,3543,0,0,0,82615
 450058,,0,4,222979,1,0,1,82615
 450059,Kobold Tunnels blown up,0,4,224130,2,0,2,82615
 450129,Speak with a Firebath Attendant,0,1,224238,0,4,0,82454
 450130,Firebaths purified,0,3,224459,4,0,1,82454
-450141,,0,1,220999,0,0,0,82653
+450141,,0,1,220999,1,2,0,82653
 450173,Opal-Mining Tools,1,6,224074,0,0,0,82658
 450174,Nerubians slain,0,10,224316,1,0,1,82658
 450217,,0,1,224364,4,28,3,82332
+450231,Pick up an ore bucket,2,1,449712,0,4,5,82580
 450250,Participation Credit Residential,0,1,224251,1,28,2,82454
 450251,Participation Credit Services,0,1,224479,2,28,3,82454
 450252,Participation Credit Royal,0,1,224480,3,28,4,82454
@@ -9492,4 +9492,29 @@ ID,Description_lang,Type,Amount,ObjectID,OrderIndex,Flags,StorageIndex,QuestID
 451098,Drill 01 Fueled,0,5,226847,13,28,14,81691
 451099,Drill 02 Fueled,0,5,226851,14,28,15,81691
 451100,Drill 03 Fueled,0,5,226852,15,28,16,81691
-451165,Kobyss Slain,0,10,226953,0,0,0,83536
+451165,Kobyss Slain,15,1,0,0,16,0,83536
+451187,Dull gems collected,0,12,226966,0,0,3,83537
+451188,Gems heat treated,0,12,226967,1,2,4,83537
+451189,Catch and slay the Lava Laden Crystal Construct,0,1,226968,2,2,5,83537
+451204,Fly your skyriding mount into the construct to stun it,0,1,226975,3,4,0,83537
+451239,,0,1,221224,0,0,0,81653
+451302,Find and befriend a lost lynx,0,1,225022,2,28,2,82852
+451304,Light's Gambit won,0,1,218337,1,2,0,82584
+451311,Kill Monsters,0,7,221424,5,92,0,80323
+451312,Kill Monsters,0,100,221518,6,92,1,80323
+451313,Kill Monsters,0,50,224788,7,92,6,80323
+451317,Difficulty level selected,0,1,227125,0,0,1,82584
+451318,1of3,0,1,227221,1,24,1,81621
+451322,Kobold Tunnels Destroyed,0,3,221075,0,0,2,81621
+451324,2of3,0,1,227237,2,24,0,81621
+451325,3of3,0,1,227238,3,24,3,81621
+451330,Skardyn Defeated,0,1,227241,0,0,1,82653
+451364,,0,17,226963,1,92,0,83536
+451365,,0,13,226953,2,92,1,83536
+451366,,0,7,226962,3,92,2,83536
+451367,,0,9,226961,4,92,3,83536
+451400,Defeat hostile creatures and retrieve earthen tools,15,1,0,0,0,0,83538
+451401,,21,17,3634,1,92,3,83538
+451402,,0,17,227349,2,92,4,83538
+451422,Goblins Slain,0,12,227374,0,0,0,83715
+451423,Salvage Reclaimed,1,6,226020,1,0,1,83715

@@ -26632,3 +26632,106 @@ height = height + (rand1 * variance)
 
 transUp = parabola(1,1,height)
 modelRoll = progress * 3000",0,1
+4783,11.0 Raid - Nerubian - Flying - Web Breath Precast Missile,"--gamma curve function
+local function parabola(m,a,b) return (4*m*((1-progress)*(a or 1))*(progress * (b or 1))) end
+--rotation function
+local function rotate(t,d) return (math.cos(t)+((d or 1)*math.sin(t))) end
+
+local radius = parabola(3)
+local numCycles = parabola(10)
+local maxKickback = -15
+local theta = time * numCycles
+
+if missileIndex==0 then
+	transRight	= radius * rotate(theta,-1)
+	transUp		= radius * rotate(theta)
+elseif missileIndex==1 then
+	transFront	= radius * rotate(theta)
+	transUp		= radius * rotate(theta,-1)
+elseif missileIndex==2 then
+	transRight	= radius * rotate(theta)
+	transFront	= radius * rotate(theta,-1)
+end
+
+transUp = transUp + parabola(3,1,-1.5)",0,3
+4784,11.0 Raid - Nerubian - Flying - Web Breath Precast Hand Missile,"local function parabola(m,a,b) return (4*(m or 1)*((1-progress)*(a or 1))*((progress)*(b or 1))) end
+
+local factor = 3
+local radius = 3
+local radiusVariance = 3
+
+local direction = 1
+if rand1 > 0.5 then
+	direction = -1
+end
+
+transFront = math.pow(progress,factor) * distanceToFirePos
+transFront = transFront - distanceToFirePos
+
+local startAngle = (360 * (missileIndex / missileCount)) + (360 * rand2)
+local degreesPerSec = 360 * 2 * direction
+
+transAngle = startAngle + (distanceToFirePos/20 * degreesPerSec)
+transMag = parabola(radius + (rand3 * radiusVariance))
+
+scale = 0.5 + (progress / 2)",0,1
+4785,11.0 Raid - Nerubian - Flying - Web Breath Missile,"local function parabola(m,a,b) return (4*(m or 1)*((1-progress)*(a or 1))*((progress)*(b or 1))) end
+
+local direction = 1
+if rand1 > 0.5 then
+	direction = -1
+end
+
+local factor = 3
+local radius = 4
+local radiusVariance = 3
+
+transUp = parabola(8)
+
+if missileIndex > 0 then
+
+	local myIndex, myCount = missileIndex - 1, missileCount - 1
+
+	local startAngle = (360 * (myIndex / myCount)) + (360 * rand2)
+	local degreesPerSec = 1 * (360 * direction)
+
+	transAngle = startAngle + (time * degreesPerSec)
+	transMag = 0.5 + parabola(radius + (rand3 * radiusVariance))
+else
+	scale = 0.75 + (progress / 2) + parabola(0.75)
+end
+
+
+scale = 0.5 + (progress / 2) + parabola(0.5)
+
+--faceImpactPos = 1",0,6
+4787,11.0 Raid - Nerubian - Flying - Acid Pool Missile,"local function parabola(m,a,b) return (4*(m or 1)*((1-progress)*(a or 1))*((progress)*(b or 1))) end
+
+local direction = 1
+if rand1 > 0.5 then
+	direction = -1
+end
+
+local factor = 3
+local radius = 4
+local radiusVariance = 3
+
+transUp = parabola(8)
+
+if missileIndex > 0 then
+
+	local myIndex, myCount = missileIndex - 1, missileCount - 1
+
+	local startAngle = (360 * (myIndex / myCount)) + (360 * rand2)
+	local degreesPerSec = 1 * (180 * direction)
+
+	transAngle = startAngle + (time * degreesPerSec) + (progress * 360)
+	transMag = 0.5 + parabola(parabola(radius + (rand3 * radiusVariance)))
+else
+	scale = 1.25 + (progress / 2) + parabola(1.5)
+end
+
+
+scale = 0.5 + (progress / 2) + parabola(0.5)
+
+--faceImpactPos = 1",0,6
