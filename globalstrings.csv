@@ -13361,7 +13361,7 @@ You can find trainers for them in some settlements and cities.",1
 25625,ERR_YELL_RESTRICTED_TRIAL,Free Trial accounts cannot yell. |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r,1
 25626,ERR_PETITION_RESTRICTED_ACCOUNT_TRIAL,Free Trial accounts may not sign guild charters. |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r,1
 25627,ERR_CHAT_RESTRICTED_TRIAL,Free Trial accounts cannot send unlimited tells. You must wait before you can send tells to more players.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r,1
-25628,CAP_REACHED_TRIAL,Free Trial cap reached.,1
+25628,CAP_REACHED_TRIAL,Free Trial cap reached.,3
 25629,CAPPED_MONEY_TRIAL,Free Trial money cap reached.,1
 25630,CAPPED_LEVEL_TRIAL,Free Trial level cap reached.,1
 25631,LEVEL_CAP_REACHED_TRIAL,You have reached the maximum possible level on a Free Trial account. |cffffd000|Hstorecategory:gametime|h[Click Here]|h|r to upgrade your account!,1
@@ -14505,13 +14505,13 @@ You can find trainers for them in some settlements and cities.",1
 33952,CHARACTER_UPGRADE_CHARACTER_LIST_CHANGED_ERROR,Something went wrong. Restarting the character boost process.,2
 33953,CHARACTER_UPGRADE_CHARACTER_LIST_LABEL,Character Boost,2
 33954,CHARACTER_UPGRADE_COMPLETE_LABEL,Character Boost Complete!,2
-33955,CHARACTER_UPGRADE_FINISH_BUTTON_POPUP_TEXT,Are you sure you want to boost this character? You can't change your selection after this step.,3
+33955,CHARACTER_UPGRADE_FINISH_BUTTON_POPUP_TEXT,Are you sure you want to |cnNORMAL_FONT_COLOR:Boost|r this character? You can't change your selection after this step.,3
 33956,CHARACTER_UPGRADE_FINISH_LABEL,Level Up!,6
 33957,CHARACTER_UPGRADE_FREE_100_POPUP_DESCRIPTION,"World of Warcraft: Legion includes a level 100 character boost. You can choose to boost an existing character, try a new class before using your boost, or close the window to use the boost later.",2
 33958,CHARACTER_UPGRADE_FREE_100_POPUP_TITLE,Welcome to Legion!,2
 33959,CHARACTER_UPGRADE_FREE_90_POPUP_DESCRIPTION,Thank you for joining us!|nHere is the boost that comes with your purchase of Warlords of Draenor.,2
 33960,CHARACTER_UPGRADE_FREE_90_POPUP_TITLE,Level 90 Character Boost,2
-33961,CHARACTER_UPGRADE_KRW_FINISH_BUTTON_POPUP_TEXT," Are you sure that you want to boost this character? If you click the ""Level Up!"" button, you will no longer be eligible for a refund.",2
+33961,CHARACTER_UPGRADE_KRW_FINISH_BUTTON_POPUP_TEXT," Are you sure that you want to |cnNORMAL_FONT_COLOR:Boost|r this character? If you click the ""Level Up!"" button, you will no longer be eligible for a refund.",2
 33962,CHARACTER_UPGRADE_KRW_STATIC_WARNING,"You can cancel this purchase within 7 days from the time of purchase. However, you can no longer cancel this purchase once you have completed all the steps to boost your character, even if it's within 7 days from the time of purchase.",2
 33963,CHARACTER_UPGRADE_NO_VETERAN_BONUS,No Veteran Bonus,2
 33964,CHARACTER_UPGRADE_POPUP_GET_STARTED,Get Started Now,2
@@ -15110,7 +15110,7 @@ You can find trainers for them in some settlements and cities.",1
 34565,SELECT_ACCOUNT,Select an account,2
 34566,SELECT_CHARACTER,Select A Character,2
 34567,SELECT_CHARACTER_ACTIVE_LABEL,Choose your character on the right,2
-34568,SELECT_CHARACTER_RESULTS_FORMAT,|c%s%s (Level %d %s)|r,2
+34568,SELECT_CHARACTER_RESULTS_FORMAT,%s\nLevel %d %s,2
 34569,SELECT_CHARACTER_RESULTS_LABEL,Character:,2
 34570,SELECT_FACTION_ACTIVE_LABEL,Choose your faction,2
 34571,SELECT_FACTION_RESULTS_FORMAT,|c%s%s|r,2
@@ -16049,8 +16049,8 @@ You can find trainers for them in some settlements and cities.",1
 35616,TRANSMOG_SETS_VENDOR_TUTORIAL,View and apply your completed appearance sets here.,1
 35617,EXALTED_PLUS_REPUTATION_TUTORIAL,Continue earning reputation with Exalted factions to receive rewards.,1
 35618,CHARACTER_UPGRADE_UNLOCK_TRIAL_CHARACTER_FINISH_LABEL,Unlock!,2
-35619,CHARACTER_UPGRADE_KRW_FINISH_TRIAL_BOOST_BUTTON_POPUP_TEXT,"Are you sure that you want to unlock this trial character? If you click the ""Unlock!"" button, you will no longer be eligible for a refund.",2
-35620,CHARACTER_UPGRADE_FINISH_TRIAL_BOOST_BUTTON_POPUP_TEXT,Are you sure you want to unlock this trial character? You can't change your selection after this step.,2
+35619,CHARACTER_UPGRADE_KRW_FINISH_TRIAL_BOOST_BUTTON_POPUP_TEXT,"Are you sure that you want to |cnNORMAL_FONT_COLOR:Unlock|r this trial character? If you click the ""Unlock!"" button, you will no longer be eligible for a refund.",2
+35620,CHARACTER_UPGRADE_FINISH_TRIAL_BOOST_BUTTON_POPUP_TEXT,Are you sure you want to |cnNORMAL_FONT_COLOR:Unlock|r this trial character? You can't change your selection after this step.,2
 35621,SPELL_FAILED_CUSTOM_ERROR_331,The Sentinax is not patrolling this area.,1
 35622,GARRISON_FOLLOWER_QUALITY6_DESC,Titled,1
 35623,SPELL_FAILED_CUSTOM_ERROR_332,The Sentinax cannot open another portal right now.,1
@@ -16083,7 +16083,7 @@ You can find trainers for them in some settlements and cities.",1
 35652,FOURTH_NUMBER,trillion,1
 35653,SPELL_FAILED_CUSTOM_ERROR_333,You cannot gain additional reputation with this item.,1
 35654,SPELL_FAILED_CUSTOM_ERROR_334,Can't do that while in Ghost Wolf form.,1
-35655,PLAYER_V_PLAYER_SEASON,Player vs. Player (Dragonflight Season %d),1
+35655,PLAYER_V_PLAYER_SEASON,Player vs. Player (The War Within Season %d),1
 35656,DUNGEON_FLOOR_TOMBOFSARGERASDUNGEON1,Hall of the Moon,1
 35657,DUNGEON_FLOOR_TOMBOFSARGERASDUNGEON2,Twilight Grove,1
 35658,DUNGEON_FLOOR_TOMBOFSARGERASDUNGEON3,The Emerald Archives,1
@@ -22136,7 +22136,7 @@ And spread his flame to all Azeroth.",1
 51706,SPELL_FAILED_CUSTOM_ERROR_900,This cannot be crafted during early access.,1
 51707,DUNGEON_DIFFICULTY_BANNER_TOOLTIP_PLAYER_COUNT,%d/%d Players,1
 51708,CHARACTER_SELECT_NAV_BAR_REALMS,REALMS,2
-51709,CHARACTER_SELECT_NAV_BAR_CREATE_CHARACTER_TOOLTIP,On Realm: %s,2
+51709,CHARACTER_SELECT_NAV_BAR_CREATE_CHARACTER_TOOLTIP,%s Realm,2
 51710,SPELL_FAILED_CUSTOM_ERROR_846,You already have some conjured potions.,1
 51711,SPELL_FAILED_CUSTOM_ERROR_837,Companion is unconscious!,1
 51712,SPELL_FAILED_CUSTOM_ERROR_838,Requires companion.,1
@@ -22407,7 +22407,7 @@ And spread his flame to all Azeroth.",1
 52073,UNITNAME_SUMMON_TITLE55,%s's Invention,1
 52074,ERR_NO_ACCOUNT_BANK_HERE,You are too far away from a Warband bank.,1
 52075,DELVES_LEVEL_PICKER_LEADER_ERROR,You are not the party leader.,1
-52076,DELVES_ENTRANCE_LEVEL_REQUIREMENT_ERROR,You must be at least level 70 to enter a Delve.,1
+52076,DELVES_ENTRANCE_LEVEL_REQUIREMENT_ERROR,You must be at least level %d to enter a Delve.,1
 52077,DELVES_COMPANION_VIEW_ABILITIES,View Abilities,1
 52078,DELVES_CURIO_LOCKED,Locked,1
 52079,DELVES_CURIO_SLOT_EMPTY,Empty,1
@@ -22427,7 +22427,7 @@ And spread his flame to all Azeroth.",1
 52094,PROFESSIONS_CRAFTING_CONCENTRATION_CURRENCY_TOOLTIP_WARNING,"Warning, Concentration is full.",1
 52095,SPELL_FAILED_CUSTOM_ERROR_1039,Can only be used while in combat.,1
 52096,SPELL_FAILED_CUSTOM_ERROR_1040,You are not high enough level to enter a Delve.,1
-52097,PROFESSIONS_CRAFTING_CURRENCY_LABEL_FORMAT,%d/|cnDISABLED_FONT_COLOR:%d|r,1
+52097,PROFESSIONS_CRAFTING_CURRENCY_LABEL_FORMAT,|cnHIGHLIGHT_FONT_COLOR:%d/%d|r,1
 52098,PROFESSIONS_CRAFTING_CURRENCY_TOOLTIP_FORMAT,%d/%d,1
 52099,PROFESSIONS_CRAFTING_STAT_CONCENTRATION,Concentration,1
 52100,PROFESSIONS_CRAFTING_STAT_CONCENTRATION_DESCRIPTION,The amount of concentration needed for this recipe.,1
@@ -22480,10 +22480,10 @@ And spread his flame to all Azeroth.",1
 52150,DELVES_GREAT_VAULT_LABEL,Great Vault,1
 52151,DYNAMIC_FLIGHT,Skyriding,1
 52152,DELVES_GREAT_VAULT_TOOLTIP,[PH] Complete delves to earn weekly rewards.\n\n%s/%s rewards unlocked. ,1
-52153,DELVES_GREAT_VAULT_REQUIRES_ACTIVE_SEASON,The Great Vault is only available during an active season. The next season will start soon!,1
+52153,DELVES_GREAT_VAULT_REQUIRES_ACTIVE_SEASON,The Great Vault is only available during an active season.,1
 52154,OPEN_DYNAMIC_FLIGHT_TREE_TOOLTIP,Skills and Unlocks,1
 52155,DELVES_GREAT_VAULT_UNAVAILABLE_LABEL,[PH] Available during the season,1
-52156,DELVES_COMPANION_NOT_ENABLED_TOOLTIP,"[PH] Companion not enabled/unlocked yet, cannot open config",1
+52156,DELVES_COMPANION_NOT_ENABLED_TOOLTIP,"Unlocks with the quest ""Delve into the Earth"" in the Isle of Dorn campaign.",1
 52157,SEARCH_QUEST_LOG,Search Quest Log,1
 52158,QUEST_LOG_NO_QUESTS,No quests available|n|nAccept quests by talking to characters with a |TInterface\\GossipFrame\\AvailableQuestIcon:16:16|t above their head.,1
 52159,QUEST_LOG_NO_RESULTS,No results found,1
@@ -22492,7 +22492,7 @@ And spread his flame to all Azeroth.",1
 52165,TIMERUNNING_WARBAND_BANK_DISABLED,Timerunners do not have access to the Warband Bank.,1
 52166,RACE_INFO_EARTHENDWARF,"The earthen of Khaz Algar, newly freed of their edicts, venture forth into Azeroth. They bring with them boundless curiosity, and a wish to return all their experiences back to the archive.",3
 52167,REWARD_QUESTLINE_UNLOCK,[PH] This questline will unlock:,1
-52168,REWARD_QUESTLINE_REWARD,[PH] This questline will reward:,1
+52168,REWARD_QUESTLINE_REWARD,The end of this questline rewards:,1
 52169,REWARD_QUESTLINE_UNLOCK_PART,[PH] This questline is part of unlocking:,1
 52170,UNITNAME_SUMMON_TITLE56,%s's Confidant,1
 52171,SPELL_FAILED_CUSTOM_ERROR_2001,The emblem has no magic stored.,1
@@ -22512,8 +22512,8 @@ And spread his flame to all Azeroth.",1
 52185,SPELLBOOK_SEARCH_HIDE_PASSIVES_DISABLED,Hiding Passives is disabled while searching,1
 52186,WAR_WITHIN_LANDING_PAGE_ALERT_SUMMARY_UNLOCKED,Khaz Algar Summary Unlocked,1
 52187,WAR_WITHIN_LANDING_PAGE_ALERT_MAJOR_FACTION_UNLOCKED,Major Faction Unlocked,1
-52188,DELVES_GREAT_VAULT_ERR_AVAIL_AT_MAX_LEVEL,[PH] Available at max level,1
-52189,DELVES_ERR_MUST_USE_SUPPLIES,[PH] You must use the Explorer's League Supplies to do that right now.,1
+52188,DELVES_GREAT_VAULT_ERR_AVAIL_AT_MAX_LEVEL,Unlocks at level %d,1
+52189,DELVES_ERR_MUST_USE_SUPPLIES,Requires Explorer's League Supplies,1
 52190,ACCOUNT_FIRST_TIME_QUEST_BONUS_REP_TOOLTIP,This includes a one-time Warband bonus (%d|cnGREEN_FONT_COLOR:+%d|r reputation),1
 52191,ACCOUNT_FIRST_TIME_QUEST_BONUS_CURRENCY_TOOLTIP,This includes a one-time Warband bonus (%d|cnGREEN_FONT_COLOR:+%d|r currency),1
 52192,ACCOUNT_PREVIOUSLY_COMPLETED_QUEST_REP_BONUS_TOOLTIP,This is a Warband bonus for previously completing this quest (%d|cnGREEN_FONT_COLOR:+%d|r reputation),1
@@ -22540,3 +22540,19 @@ And spread his flame to all Azeroth.",1
 52235,PHOTOSENSITIVITY_WARNING_CONTINUE,Press any button to continue,2
 52256,CHARACTER_ACHIEVEMENT_DESCRIPTION,Progress towards this achievement is tracked for each character.,1
 52258,VRN_DX12_NEEDS_WIN10_19H2,DirectX 12 requires the Windows 10 November 2019 Update or newer,3
+52259,SPELL_FAILED_CUSTOM_1101,A Charge Station has already been constructed nearby.,1
+52260,SPELL_FAILED_CUSTOM_1102,A Wind-Wrangling Station has already been constructed nearby.,1
+52261,SPELL_FAILED_CUSTOM_1103,A Recovery Station has already been constructed nearby.,1
+52262,SPELL_FAILED_CUSTOM_1104,Too close to another Station.,1
+52263,REPORTING_MINOR_CATEGORY_HARMFUL_INFO_FOR_MINORS,Harmful info for Minors,5
+52264,CHARACTER_CREATE_REALM_TOOLTIP,Character will be created in the selected realm,2
+52265,CHARACTER_CREATE_REALM,%s Realm,2
+52266,CHARACTER_SELECT_REALM_TOOLTIP,%s Realm,2
+52267,REPORTING_MINOR_CATEGORY_HARMFUL_TO_MINORS,Harmful To Minors,1
+52268,ACCOUNT_COMPLETED_QUESTS_FILTER_DESCRIPTION,Toggle the visibility of standard quests you've previously completed with another character.|n|nCurrently supported for Dragonflight and The War Within.,1
+52269,DELVES_NEW_CURIO,NEW,1
+52271,STOP_SUPER_TRACK_QUEST,Remove Focus,1
+52272,HERO_TALENTS_COLLAPSE,Minimize,1
+52273,HERO_TALENTS_EXPAND,Maximize,1
+52274,SPELL_FAILED_CUSTOM_ERROR_1051,You have revealed or found all of today's locations.,1
+52275,CURRENCY_TRANSFER_LOG_EMPTY,No transfers found.,1

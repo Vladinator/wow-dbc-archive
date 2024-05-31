@@ -26735,3 +26735,46 @@ end
 scale = 0.5 + (progress / 2) + parabola(0.5)
 
 --faceImpactPos = 1",0,6
+4788,11.0 Endgame - Radiant Chords - Harmony Restoration (Regular Pickup) 2a. Cosmetic Missile,"local function parabola(m,a,b)
+	local a,b = a or 1, b or 1
+	return (a * progress) * (b * (1 - progress)) * 4 * m
+end
+
+local startAngle = rand1 * 360
+local degreesPerSec = 0 -- how fast the missiles spiral
+local maxMagnitude = 3 -- how far out the missiles spread
+local maxKickBack = 0 -- how much the missiles ""kick back"" before moving forward
+local maxHeight = 3 -- Height of the missile's ""arc"" of motion
+local radius = 3
+
+transMag = parabola(radius)
+transFront = parabola(1,-1 * maxKickBack)
+transUp = parabola(maxHeight)
+transAngle = startAngle + ((missileIndex / missileCount) * 360) + (time * degreesPerSec)",0,3
+4789,11.0 Endgame - Radiant Chords - Harmony Restoration (Big Pickup) 2a. Cosmetic Missile,"local function parabola(m,a,b)
+	local a,b = a or 1, b or 1
+	return (a * progress) * (b * (1 - progress)) * 4 * m
+end
+
+local startAngle = rand1 * 360
+local degreesPerSec = 0 -- how fast the missiles spiral
+local maxMagnitude = 6 -- how far out the missiles spread
+local maxKickBack = 0 -- how much the missiles ""kick back"" before moving forward
+local maxHeight = 4 -- Height of the missile's ""arc"" of motion
+local radius = 3
+
+transMag = parabola(radius)
+transFront = parabola(1,-1 * maxKickBack)
+transUp = parabola(maxHeight)
+transAngle = startAngle + ((missileIndex / missileCount) * 360) + (time * degreesPerSec)",0,6
+4790,Potion Throw v2,"local angle = 0
+local maxMagnitude = startDistance * .5
+local spinRate = 360
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+
+modelYaw = 90
+modelRoll = time * spinRate
+",0,1
