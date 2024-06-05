@@ -621,6 +621,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 1959,Warsong Gulch Silk Bandage,1930,1,0,3324,19,0
 1960,Highlander's Runecloth Bandage,1930,1,0,7903,22,0
 1962,server-only,0,0,5,0,0,2
+1968,Isle of Conquest,123459,0,0,16512,0,0
 1978,,0,1,8,0,0,0
 1979,Lord Rhyolith,1978,1,0,18053,0,2
 1980,Lord Rhyolith,1978,1,0,18052,0,2
@@ -2803,6 +2804,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 15050,,0,0,4,0,0,0
 15051,,15050,1,0,16350,0,2
 15053,,0,0,4,0,0,0
+15054,Twin Peaks Victories,15053,0,0,16512,0,0
 15056,,0,0,4,0,0,0
 15057,Win 10 Battles for Gilneas while controlling all 3 flags,15056,10,0,14943,0,1
 15059,,0,0,4,0,0,0
@@ -2845,6 +2847,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 15109,,0,1,8,0,0,0
 15110,Shadowmourne,15109,1,0,14760,0,2
 15112,,0,0,4,0,0,0
+15113,Complete 100 victories in Twin Peaks,15112,100,0,16512,0,1
 15133,server-only,0,0,4,0,0,2
 15134,Leatherworking Patterns known,15133,0,0,7229,0,0
 15140,,0,0,4,0,0,0
@@ -2924,6 +2927,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 15266,Nek'mani Wellspring,15257,1,0,14056,0,0
 15267,Ruins of Aboraz,15257,1,0,14057,0,0
 15269,,0,0,4,0,0,0
+15270,Win 2 Twin Peaks battles.,15269,2,0,16512,0,3
 15275,,0,0,4,0,0,0
 15276,Karsh Steelbender,15275,1,0,15947,0,2
 15278,,0,1,8,0,0,0
@@ -2952,8 +2956,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 15324,Karazhan,15318,0,0,14231,0,0
 15325,Sunwell Plateau,15318,0,0,14239,0,0
 15326,The Battle for Mount Hyjal,15318,0,0,14236,0,0
-15328,,0,0,4,0,0,0
-15329,Kill 2 flag carriers before they leave the Wildhammer Stronghold,15328,2,0,14827,0,9
+15328,"In a single Twin Peaks battle, kill 2 flag carriers before they leave the Wildhammer Stronghold.",0,0,4,0,0,0
+15329,Kill 2 flag carriers before they leave the Wildhammer Stronghold,15328,2,0,14827,0,1
 15331,,0,0,4,0,0,0
 15332,Defend 10 bases,15331,10,0,14932,0,1
 15334,,0,0,4,0,0,0
@@ -4536,7 +4540,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 17976,,0,0,4,0,0,0
 17977,,17976,0,0,16188,0,2
 17979,,0,0,4,0,0,0
-17982,,0,0,4,0,0,0
+17982,Grab the flag and capture it in under 75 seconds.,0,0,4,0,0,0
 17983,Pick up flag while it's at the base,17982,1,0,5603,0,6
 17986,,0,0,4,0,0,0
 17987,Return the flag 50 times,17986,50,0,14871,0,1
@@ -4582,8 +4586,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 18046,Highlands Turkey,18038,1,0,16223,0,0
 18047,Grotto Vole,18038,1,0,16224,0,0
 18050,Baradin Fox Kit,18038,1,0,16215,0,0
-18053,,0,0,4,0,0,0
-18054,Kill 2 flag carriers before they leave the Dragonmaw Forge,18053,2,0,14828,0,9
+18053,"In a single Twin Peaks battle, kill 2 flag carriers before they leave the Dragonmaw Forge.",0,0,4,0,0,0
+18054,Kill 2 flag carriers before they leave the Dragonmaw Forge,18053,2,0,14828,0,1
 18056,,0,0,4,0,0,0
 18061,,0,0,4,0,0,0
 18062,Minions Killed,18061,1,0,16006,0,2
@@ -6344,7 +6348,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 20769,,0,1,8,0,0,0
 20770,Valiona and Theralion,20769,1,0,16278,0,2
 20771,Valiona and Theralion,20769,1,0,16279,0,2
-20773,,0,0,4,0,0,0
+20773,Grab the flag and capture it in under 75 seconds.,0,0,4,0,0,0
 20774,Pick up flag while it's at the base,20773,1,0,5601,0,6
 20777,,0,0,4,0,0,0
 20778,Twin Peaks flags captured,20777,0,0,14869,0,0
@@ -20605,7 +20609,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 150471,,150470,5,0,62566,0,0
 151094,Loremaster of Cataclysm,126643,0,0,62963,0,0
 151095,Kill 20 Frenzied Crocolisks within 10 seconds of each other.,17946,20,0,62964,0,1
-151098,Cap in 75 seconds,17982,1,0,62967,0,10
+151098,Cap in 75 seconds,17982,1,0,62967,1,2
 151099,"Craft 3,000 flasks.",17789,3000,0,62968,0,1
 151102,Southern Barrens Quests,128395,0,0,62971,0,0
 151103,"Mine 50,000 ore and rocks.",15646,100000,0,62972,0,1
@@ -20753,7 +20757,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 152210,Herod,18605,1,0,63561,0,0
 152211,Scarlet Commander Mograine,18605,1,0,63562,0,0
 152215,"Create 2,500 glyphs.",15819,2500,0,63566,0,1
-152216,Cap in 75 seconds,20773,1,0,63567,0,10
+152216,Cap in 75 seconds,20773,1,0,63567,1,2
 152217,,15391,10,0,63568,0,2
 152224,Sinestra,15578,1,0,63575,0,2
 152225,Heroic: Spine of Deathwing,19802,1,0,63576,0,0
