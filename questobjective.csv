@@ -9198,8 +9198,8 @@ ID,Description_lang,Type,Amount,ObjectID,OrderIndex,Flags,StorageIndex,QuestID
 448611,Abandoned Tools collected,1,6,219468,1,0,1,81656
 448627,Kill Arathi,0,10,221383,3,92,2,81622
 448628,Kill Arathi,0,10,221382,4,92,3,81622
-448642,Stonewool Sheep Watered,0,8,221422,0,0,0,81675
-448647,Pests Punted,0,10,221425,1,0,1,81675
+448642,Mosswool Sheep watered,0,8,221422,0,0,0,81675
+448647,Pests punted,0,10,221425,1,0,1,81675
 448667,Obtain supercharged stormrook,0,1,221535,1,4,1,81650
 448674,Ride the Cataloger's Disc,3,1,221495,0,0,0,81710
 448675,Take Pictures of Wildlife,15,1,0,1,2,0,81710
@@ -9442,6 +9442,10 @@ ID,Description_lang,Type,Amount,ObjectID,OrderIndex,Flags,StorageIndex,QuestID
 450575,Lost Cogwalker returned,0,8,225375,0,0,0,83048
 450579,Hunt Vanishing Nightmares,0,4,224922,1,2,0,82852
 450580,Find and befriend a lost lynx,0,1,225416,0,0,1,82852
+450597,Destroy excess mineral deposits,21,12,3609,0,0,0,83079
+450598,Kill skardyn and collect earthen memory gems,15,1,0,0,0,0,83080
+450599,,21,17,3610,1,92,1,83080
+450600,,2,17,452199,2,92,2,83080
 450623,Climbing Gear acquired,0,1,225504,0,0,0,83101
 450624,Find a handhold on the cliff,0,1,225506,1,2,1,83101
 450628,Ancient Celestite collected,0,6,225516,2,2,2,83101
@@ -9472,17 +9476,17 @@ ID,Description_lang,Type,Amount,ObjectID,OrderIndex,Flags,StorageIndex,QuestID
 450853,,0,1,221110,4,28,4,82583
 450854,,0,1,221111,5,28,5,82583
 450855,,0,1,221113,6,28,6,82583
-450913,Sureki Convoys destroyed,0,10,227724,1,2,0,82531
+450913,Skittershaws destroyed,0,10,227724,2,92,0,82531
 450914,Appropriate a Skiff,0,1,226416,0,0,1,82531
 450949,Water Trough filled,0,4,214452,0,0,3,78974
 450950,Food Trough filled,0,4,214455,1,0,4,78974
 450952,,1,8,225738,0,0,0,81494
 451031,Discordant creatures slain,15,1,0,1,0,0,82521
-451032,,0,200,223116,2,92,0,82521
-451033,,0,1,223115,3,0,1,82521
-451034,,0,25,223905,4,92,2,82521
-451035,,0,50,223118,5,92,3,82521
-451037,,0,2,220653,6,92,4,82521
+451032,,0,100,223116,2,92,0,82521
+451033,,0,50,223115,3,92,1,82521
+451034,,0,15,223905,4,92,2,82521
+451035,,0,20,223118,5,92,3,82521
+451037,,0,2,228067,6,92,4,82521
 451053,Rumor gleaned,0,1,220801,0,0,0,81470
 451065,Obtain stacks of Unseeming Shift,14,1,163995,0,0,5,82521
 451072,,1,20,224102,2,92,0,79722
@@ -9494,8 +9498,6 @@ ID,Description_lang,Type,Amount,ObjectID,OrderIndex,Flags,StorageIndex,QuestID
 451165,Kobyss Slain,15,1,0,0,16,0,83536
 451187,Dull gems collected,0,12,226966,0,0,3,83537
 451188,Gems heat treated,0,12,226967,1,2,4,83537
-451189,Catch and slay the Lava Laden Crystal Construct,0,1,226968,2,2,5,83537
-451204,Fly your skyriding mount into the construct to stun it,0,1,226975,3,4,0,83537
 451239,,0,1,221224,0,0,0,81653
 451302,Find and befriend a lost lynx,0,1,225022,2,28,2,82852
 451304,Light's Gambit won,0,1,227508,1,2,0,82584
@@ -9529,4 +9531,12 @@ ID,Description_lang,Type,Amount,ObjectID,OrderIndex,Flags,StorageIndex,QuestID
 451579,Breaker West Escorted,0,1,227726,0,28,2,82653
 451580,Breaker Center Escorted,0,1,227727,1,28,3,82653
 451581,Breaker East Escorted,0,1,227728,2,28,4,82653
-451602,,21,100,3691,2,0,2,82531
+451606,Worms Slain,0,12,227802,0,0,0,83930
+451637,Convoy troops slain,15,1,0,1,2,0,82531
+451638,,0,50,226596,3,92,2,82531
+451691,,0,20,226577,4,92,4,82531
+451692,,0,15,226600,5,92,5,82531
+451693,,0,200,226601,6,92,3,82531
+451694,,0,100,223416,3,92,0,83080
+451713,,0,1,227646,7,28,7,82583
+451721,,0,50,220656,7,92,6,82521

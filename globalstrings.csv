@@ -21742,7 +21742,7 @@ You can't do outdoor and queued content with this character.",1
 51213,RPE_INFO_TEXT2,Clean up quest log,3
 51214,RPE_INFO_TEXT3,Teleport to your home city,3
 51215,RPE_INFO_TEXT4,Reset your talents any time!,3
-51216,RPE_CHARACTER_LVL,Level %d |cFFFFA500%s|r,3
+51216,RPE_CHARACTER_LVL,Level %d %s,3
 51217,LOOT_TTS_LABEL,Item Loot,1
 51218,MONEY_TTS_LABEL,Money Loot,1
 51219,SLASH_TEXTTOSPEECH_HELP_LOOT,Enable or disable achievement item loot messages,1
@@ -21854,7 +21854,7 @@ Are you sure you want to proceed?",1
 51354,SLASH_PING1,/ping,1
 51355,SLASH_PING2,/ping,1
 51356,PNC_CUSTOMIZE_DIALOG_TEXT,Your name change will be permanently applied once you accept.,2
-51357,PNC_FLOW_NEW_NAME_LABEL,New Name,2
+51357,PNC_FLOW_NEW_NAME_LABEL,New name:,2
 51359,PNC_FLOW_SLECT_NAME_ACTIVE,Select new name,2
 51360,PNC_FLOW_SLECT_NAME_RESULTS,New name:,2
 51361,PNC_NEW_NAME_LABEL_COMPLETE,|cffffd200Name: %s,2
@@ -22447,7 +22447,7 @@ And spread his flame to all Azeroth.",1
 52114,CURRENCY_TRANSFER_SOURCE,From,1
 52115,CURRENCY_TRANSFER_DESTINATION,To %s,1
 52116,CURRENCY_TRANSFER_NEW_BALANCE_PREVIEW,%s's New Balance,1
-52117,CURRENCY_TRANSFER_COST_TOOLTIP,%d currency will be lost in transfer,1
+52117,CURRENCY_TRANSFER_COST_TOOLTIP,%d currency will be lost in transfer.,1
 52118,CURRENCY_TRANSFER_DISABLED_MAX_QUANTITY,You cannot carry any more of this currency,1
 52120,SPELL_FAILED_CUSTOM_ERROR_1041,For some reason the Wondrous Wisdomball is nonresponsive.,1
 52121,ERR_REMIX_INVALID_TRANSFER_REQUEST,You aren't allowed to go there,1
@@ -22554,5 +22554,16 @@ And spread his flame to all Azeroth.",1
 52271,STOP_SUPER_TRACK_QUEST,Remove Focus,1
 52272,HERO_TALENTS_COLLAPSE,Minimize,1
 52273,HERO_TALENTS_EXPAND,Maximize,1
-52274,SPELL_FAILED_CUSTOM_ERROR_1051,You have revealed or found all of today's locations.,1
+52274,SPELL_FAILED_CUSTOM_ERROR_1051,You have revealed or found all of today's Pact locations.,1
 52275,CURRENCY_TRANSFER_LOG_EMPTY,No transfers found.,1
+52276,ERR_CURRENCY_TRANSFER_INVALID_CHARACTER,Currency cannot be transferred from this character.,1
+52277,ERR_CURRENCY_TRANSFER_CHARACTER_LOGGED_IN,Currency cannot be transferred from this character while they are logged in.,1
+52278,ERR_CURRENCY_TRANSFER_INSUFFICIENT_CURRENCY,This character does not have enough currency to transfer to you.,1
+52279,ERR_CURRENCY_TRANSFER_MAX_QUANTITY,You cannot carry any more of this currency.,1
+52280,ERR_CURRENCY_TRANSFER_INVALID_CURRENCY,This currency is not Warband Transferable.,1
+52281,ERR_CURRENCY_TRANSFER_NO_VALID_SOURCE,Your Warband does not have enough of this currency to transfer to you.,1
+52282,ERR_CURRENCY_TRANSFER_SERVER_ERROR,An error has occurred. Please try again.,1
+52285,RPE_GEAR_UPDATE_CHARACTER,Character:,2
+52286,RPE_GEAR_UPDATE_SELECT_SPEC,Choose your specialization:,2
+52287,PLAYER_CHOICE_NOTORIETYPACT_CONFIRMATION,This choice will affect all characters in your Warband. |n|n|cffffd200Continue?|r,1
+52288,CURRENCY_TRANSFER_DISABLED_UNMET_REQUIREMENTS,You do not meet the requirements to receive more of this currency.,1
