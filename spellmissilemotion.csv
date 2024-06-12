@@ -26704,7 +26704,7 @@ end
 
 scale = 0.5 + (progress / 2) + parabola(0.5)
 
---faceImpactPos = 1",0,6
+--faceImpactPos = 1",0,4
 4787,11.0 Raid - Nerubian - Flying - Acid Pool Missile,"local function parabola(m,a,b) return (4*(m or 1)*((1-progress)*(a or 1))*((progress)*(b or 1))) end
 
 local direction = 1
@@ -26778,3 +26778,76 @@ transMag = (1 - (transMag * transMag)) * maxMagnitude
 modelYaw = 90
 modelRoll = time * spinRate
 ",0,1
+4791,11.0 - Drunken Missile (Slow) - FX - CML,"--[[local r1 = rand1*2-1
+local r2 = rand2*2-1
+ 
+local transFront1 = (sin((progress+rand1)*720)) * (progress * (2*rand2) + 13) - distanceToFirePos 
+local transRight1 = -(cos((progress+rand1)*720)) * (progress * (2*rand1) + 13)
+transFront = transFront1
+transRight = transRight1
+transUp = math.sin(progress*3.14) * 8 * r2 + (rand2*2-1)*3
+transFront = (rand3*20-10)*(1-progress)*progress
+progress = progress*progress 
+--]]
+local r1 = rand1*2-1
+local r2 = rand2*2-1
+
+if progress < 0.94 then
+	progress = progress*progress
+ 
+	transRight = math.sin(progress*3.14) * 2 * r1 + (rand3-0.5)*2
+	transUp = math.sin(progress*3.14) * 2 *  (rand2-0.4)
+	transFront = (rand3*15-10)*(1-progress)*progress
+end
+
+if progress > 0.94 then
+progress = 1.0
+	
+end",0,0
+4792,Warlock - Mortal Coil,"
+local waveHeight = 0.6
+local wavesPerSec = 2
+
+
+
+transRight = waveHeight * (1-progress) * sin(time * wavesPerSec * 360)
+
+
+
+--speedAbs = rand1*10-5
+local randomSpeedAmount = 0.25
+out_speedScale = (1 - randomSpeedAmount) + (0.5 * randomSpeedAmount)",0,1
+4793,Falls Straight Down - Mag 20,"local magnitude = 20
+
+transUp = magnitude * ( 1 - progress )
+transFront=distanceToImpactPos
+",0,1
+4794,Falls Straight Down - Mag 30,"local magnitude = 30
+
+transUp = magnitude * ( 1 - progress )
+transFront=distanceToImpactPos
+",0,1
+4795,Evoker - Engulf (Left),"--[[local angle = 0
+local maxMagnitude = startDistance * .15
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude--]]
+
+--scale = 0.2 + (progress*1.2)
+
+
+local angle = 90
+
+local maxMagnitude = startDistance * .10
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude",0,1
+4796,Parabola (Fixed Height - 7-9 yards) - AD,"local function parabola(a,b,m) return (4*m*((1-progress)*a)*((progress)*b)) end
+
+local height = 7
+local variance = 2
+height = height + (rand1 * variance)
+
+transUp = parabola(1,1,height)",0,1
