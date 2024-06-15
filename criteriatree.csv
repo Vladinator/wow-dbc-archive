@@ -4228,6 +4228,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 17471,Strand of the Ancients,17467,0,0,16516,0,0
 17472,Isle of Conquest,17467,0,0,16518,0,0
 17473,Isle of Conquest,17467,0,0,16530,0,0
+17475,Rated battleground played the most,0,0,6,0,0,0
+17483,Rated battleground won the most,0,0,6,0,0,0
 17493,,0,0,4,0,0,0
 17494,Arathi Basin victories,17493,0,0,16521,0,0
 17503,,0,1,8,0,0,0
@@ -4462,7 +4464,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 17824,"Spend 100,000 gold on guildmember repairs.",17823,1000000000,0,13757,0,1
 17826,,0,0,4,0,0,0
 17827,"Complete 25,000 quests.",17826,25000,0,15475,0,1
-17844,,0,0,4,0,0,0
+17844,Complete the Twin Peaks achievements listed below.,0,0,4,0,0,0
 17845,Twin Peaks Veteran,152244,0,0,14833,0,0
 17846,Top Defender,152244,0,0,14835,0,0
 17847,Twin Peaks Perfection,152244,0,0,14837,0,0
@@ -9968,6 +9970,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 123013,Swamp of Sorrows,122988,1,0,1294,0,0
 123014,,0,0,4,0,0,0
 123015,Fished up Lurker,123014,1,0,3622,0,2
+123016,Eye of the Storm victories,0,0,4,0,0,0
 123018,,0,0,4,0,0,0
 123019,Arathi Basin victories,123018,0,0,102,0,0
 123020,,0,0,4,0,0,0
@@ -20738,12 +20741,12 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 152179,Wetlands,152178,40,0,63531,0,1
 152185,,18127,10000,0,63537,0,1
 152186,Taragaman the Hungerer,19267,1,0,63538,0,2
-152187,Soaring Spirits,17844,0,0,63539,0,0
+152187,Soaring Spirits,17844,0,0,63539,4,0
 152188,Cloud Nine,17844,0,0,63540,0,0
-152189,Drag a Maw,17844,0,0,63541,0,0
-152190,I'm in the White Lodge,17844,0,0,63542,0,0
-152191,"Fire, Walk With Me",17844,0,0,63543,0,0
-152192,Double Jeopardy,17844,0,0,63544,0,0
+152189,Drag a Maw,17844,0,0,63541,5,0
+152190,I'm in the White Lodge,17844,0,0,63542,2,0
+152191,"Fire, Walk With Me",17844,0,0,63543,3,0
+152192,Double Jeopardy,17844,0,0,63544,1,0
 152193,Ranged,17894,1,0,63545,0,0
 152195,Roar while Berserking and Speeding,17118,1,0,63547,0,2
 152196,Roar while Berserking and Speeding,17118,1,0,63548,0,2
@@ -22038,3 +22041,23 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 166249,Tabard of Conquest (Horde),166176,1,0,11761,72,2
 166250,Tabard of Conquest (Alliance),166176,1,0,11760,73,2
 166251,Tabard of the Sons of Hodir,166176,1,0,60113,74,2
+166461,,17475,0,0,16517,0,0
+166462,Isle of Conquest,17475,0,0,16530,1,0
+166463,Strand of the Ancients,17475,0,0,16516,2,0
+166464,Isle of Conquest,17475,0,0,16518,3,0
+166466,Arathi Basin,17475,0,0,16528,5,0
+166467,Isle of Conquest,17483,0,0,16531,0,0
+166468,Isle of Conquest,17483,0,0,16525,1,0
+166469,Strand of the Ancients,17483,0,0,16535,2,0
+166470,Eye of the Storm,17483,0,0,16522,3,0
+166471,Warsong Gulch,17483,0,0,16524,4,0
+166472,Arathi Basin,17483,0,0,16521,5,0
+166473,Isle of Conquest,17483,0,0,16537,6,0
+166474,Alterac Valley,17483,0,0,16520,7,0
+166475,Eye of the Storm victories,123016,0,0,16522,0,0
+166488,Twin Peaks Veteran,17844,0,0,14833,6,0
+166489,Two-Timer,17844,0,0,14834,7,0
+166490,Top Defender,17844,0,0,14835,8,0
+166491,Twin Peaks Perfection,17844,0,0,14837,9,0
+166492,Peak Speed,17844,0,0,14838,10,0
+166493,Twin Peaks Mountaineer,17844,0,0,14843,11,0
