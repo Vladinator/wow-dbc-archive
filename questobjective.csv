@@ -8959,7 +8959,7 @@ ID,Description_lang,Type,Amount,ObjectID,OrderIndex,Flags,StorageIndex,QuestID
 444781,Item 1 Recovered,0,4,213279,7,92,3,78616
 444782,Item 2 Recovered,0,4,213293,8,92,4,78616
 444783,Notable Item 1 Recovered,0,3,213281,9,92,5,78616
-444826,Shadow stealthed enemy revealed,0,1,217065,1,4,0,78657
+444826,Enemy revealed using Sentry Flare,0,1,217065,1,4,0,78657
 444880,Major Find Unearthed,0,1,213675,0,0,2,78739
 444932,Sign Placard Recovered,0,1,213713,4,28,6,78616
 444933,Palette Recovered,0,1,213714,5,28,7,78616
@@ -9008,7 +9008,7 @@ ID,Description_lang,Type,Amount,ObjectID,OrderIndex,Flags,StorageIndex,QuestID
 445893,,0,1,216123,0,1,1,79254
 445901,Gyro-Optic Springs collected,1,8,206518,0,0,0,76338
 445902,Cleanbrass Bolts collected,1,5,206519,1,0,1,76338
-445906,Main Control-Gear returned to Ezgi,0,1,215780,2,0,2,76338
+445906,Control-Gear returned to Ezgi,0,1,215780,2,0,2,76338
 445929,Living Grotto contained,15,1,0,0,0,0,79257
 445931,,0,25,215793,1,92,1,79257
 445932,,0,25,215792,2,92,2,79257
@@ -9082,8 +9082,8 @@ ID,Description_lang,Type,Amount,ObjectID,OrderIndex,Flags,StorageIndex,QuestID
 447123,,0,1,218452,0,0,0,80010
 447136,Kobyss slain at The Fading Shore,15,1,0,0,0,0,79470
 447138,,0,100,218024,2,92,1,79470
-447139,,0,25,213598,3,92,2,79470
-447140,,0,20,217505,4,92,3,79470
+447139,,0,13,213598,3,92,2,79470
+447140,,0,17,217505,4,92,3,79470
 447141,,0,10,218074,5,92,4,79470
 447142,,0,9,218073,6,92,5,79470
 447221,,0,6,218104,0,0,0,79116
@@ -9124,14 +9124,14 @@ ID,Description_lang,Type,Amount,ObjectID,OrderIndex,Flags,StorageIndex,QuestID
 448230,,0,1,187111,0,1,0,80674
 448232,,0,1,187111,0,1,0,80675
 448269,Titan Artifacts collected,1,7,218454,0,0,0,81465
-448273,Have a drink and eavesdrop,0,1,220803,0,0,0,80573
+448273,Have a drink and eavesdrop,0,1,228735,0,0,0,80573
 448274,Sureki War Chest looted,0,1,220889,1,2,1,80573
 448278,,1,1,219344,1,2,1,81470
-448281,High Hollows rumor gleaned,0,1,220803,0,0,0,81471
+448281,High Hollows rumor gleaned,0,1,228737,0,0,0,81471
 448282,,1,1,219347,1,2,1,81471
 448290,,2,1,437216,0,0,1,81473
 448304,,2,5,439348,0,0,1,81483
-448316,,1,1,219350,0,0,1,81503
+448316,Maddening Manifest looted,1,1,219350,0,0,1,81503
 448320,,1,6,219358,0,0,1,81504
 448323,,0,34,216984,1,92,0,79471
 448324,,1,2,218739,0,0,0,81512
@@ -9163,7 +9163,7 @@ ID,Description_lang,Type,Amount,ObjectID,OrderIndex,Flags,StorageIndex,QuestID
 448474,,1,6,219226,0,0,0,81496
 448475,Black Blood Vessel destroyed,2,5,438037,0,256,0,81481
 448476,Venomancy Flasks destroyed,2,5,438038,0,256,0,81505
-448477,Alchemical Instruments destroyed,2,5,438039,0,256,0,81506
+448477,Alchemical Instruments destroyed,2,5,438039,0,0,0,81506
 448478,,1,6,219227,0,0,0,81497
 448479,,1,6,219228,0,0,0,81480
 448480,,1,6,219254,0,0,0,81498
@@ -9187,7 +9187,7 @@ ID,Description_lang,Type,Amount,ObjectID,OrderIndex,Flags,StorageIndex,QuestID
 448562,Unattended Arbalests sabotaged,2,6,439531,0,256,0,81491
 448563,Sureki Smithing Tools sabotaged,2,6,439532,0,256,0,81492
 448564,,0,5,221190,0,0,0,81487
-448565,Schismatic sages slain,0,8,221196,0,0,0,81488
+448565,Schismatic Sages slain,0,8,221196,0,0,0,81488
 448572,,0,1,221202,0,0,0,81489
 448573,,0,1,221203,0,0,0,81490
 448574,,0,1,221205,0,0,1,81649
@@ -9198,7 +9198,7 @@ ID,Description_lang,Type,Amount,ObjectID,OrderIndex,Flags,StorageIndex,QuestID
 448611,Abandoned Tools collected,1,6,219468,1,0,1,81656
 448627,Kill Arathi,0,10,221383,3,92,2,81622
 448628,Kill Arathi,0,10,221382,4,92,3,81622
-448642,Mosswool Sheep watered,0,8,221422,0,0,0,81675
+448642,Mosswool Sheep watered,0,8,221413,0,0,0,81675
 448647,Pests punted,0,10,221425,1,0,1,81675
 448667,Obtain supercharged stormrook,0,1,221535,1,4,1,81650
 448674,Ride the Cataloger's Disc,3,1,221495,0,0,0,81710
@@ -9351,13 +9351,13 @@ ID,Description_lang,Type,Amount,ObjectID,OrderIndex,Flags,StorageIndex,QuestID
 449896,,0,17,222976,6,92,0,82355
 449897,,0,17,222846,7,92,6,82355
 449898,,0,20,215024,8,92,7,82355
-449899,Ride the Stealthed Spy Disc,3,1,223808,0,0,0,82363
+449899,Ride the Stealthed Spy Disc,3,1,223808,0,256,0,82363
 449900,Take Pictures of Nerubian Forces,15,1,0,1,2,0,82363
 449901,Common,0,100,223800,2,92,1,82363
 449902,Rare,0,20,223801,3,92,2,82363
 449903,Epic,0,10,223802,4,92,3,82363
 449904,Legendary,0,5,223803,5,92,4,82363
-449906,Ride the Stealthed Spy Disc,3,1,223809,0,0,0,82364
+449906,Ride the Stealthed Spy Disc,3,1,223809,0,256,0,82364
 449908,Take Pictures of Discordance,15,1,0,1,2,0,82364
 449909,Common,0,34,223804,2,92,1,82364
 449910,Rare,0,20,223805,3,92,2,82364
@@ -9434,7 +9434,7 @@ ID,Description_lang,Type,Amount,ObjectID,OrderIndex,Flags,StorageIndex,QuestID
 450254,,0,1,224485,6,28,6,82454
 450255,,0,1,224487,7,28,7,82454
 450284,,0,1,224555,1,28,10,81691
-450299,,1,20,223888,3,12,3,82615
+450299,,1,4,223888,3,12,3,82615
 450322,Colossals Slain,0,3,224621,1,0,1,82787
 450325,Gather Bleak Chum to bait Frothing Waters,1,3,224183,0,36,0,82787
 450333,Nerubians slain,0,15,214939,0,0,0,82524

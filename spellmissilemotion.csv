@@ -26851,3 +26851,64 @@ local variance = 2
 height = height + (rand1 * variance)
 
 transUp = parabola(1,1,height)",0,1
+4797,11.0 Raid - Nerubian - Boss - Queen - P2 - Ascended Void Speaker - Radiating Gloom (1.02 Missile Visual) - SRC,"
+local magnitude = (progress * 1.9) - 1
+magnitude = 1 - (magnitude * magnitude * magnitude * magnitude)
+
+transRight = (sin((rand1 * 1000) + (time * 1000)) + cos((rand2 * 1000) + (time * 200))) * magnitude
+transUp = (sin((rand2 * 1000) + (time * 700)) + cos((rand1 * 1000) + (time * 300))) * magnitude
+
+local angle = 0
+local parabolicScalar = .18 -- higher = more parabolic
+local maxMagnitude = startDistance * parabolicScalar
+local spinRate = 360
+
+modelPitch = time * spinRate
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude",0,1
+4798,11.0 Raid - Nerubian - Boss - Queen - P2 - Ascended Void Speaker - Radiating Gloom (1.02 Visual {LFR}) - SRC,"
+local magnitude = (progress * 1.9) - 1
+magnitude = 1 - (magnitude * magnitude * magnitude * magnitude)
+
+transRight = (sin((rand1 * 1000) + (time * 1000)) + cos((rand2 * 1000) + (time * 200))) * magnitude
+transUp = (sin((rand2 * 1000) + (time * 700)) + cos((rand1 * 1000) + (time * 300))) * magnitude
+
+local angle = 0
+local parabolicScalar = .1 -- higher = more parabolic
+local maxMagnitude = startDistance * parabolicScalar
+local spinRate = 360
+
+modelPitch = time * spinRate
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude",0,1
+4800,11.0 Raid - Nerubian - Flying - Web Breath Mythic Beam Missile,"local function parabola(m,a,b) return (4*(m or 1)*((1-progress)*(a or 1))*((progress)*(b or 1))) end
+
+local direction = 1
+if rand1 > 0.5 then
+	direction = -1
+end
+
+local factor = 3
+local radius = 4
+local radiusVariance = 3
+
+
+if missileIndex > 0 then
+
+	local myIndex, myCount = missileIndex - 1, missileCount - 1
+
+	local startAngle = (360 * (myIndex / myCount)) + (360 * rand2)
+	local degreesPerSec = 1 * (360 * direction)
+
+	transAngle = startAngle + (time * degreesPerSec)
+	transMag = 0.5 + parabola(radius + (rand3 * radiusVariance))
+else
+	scale = 0.75 + (progress / 2) + parabola(0.75)
+end
+
+
+scale = 0.5 + (progress / 2) + parabola(0.5)
+
+--faceImpactPos = 1",0,3

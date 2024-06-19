@@ -13817,7 +13817,7 @@ You can find trainers for them in some settlements and cities.",1
 32139,ITEM_OBLITERATEABLE_NOT,Cannot be Obliterated,1
 32140,TRANSMOG_OUTFIT_ALREADY_EXISTS,An outfit with that name already exists.,1
 32141,TRANSMOG_OUTFIT_NAME,Enter Outfit Name:,1
-32142,TRANSMOG_OUTFIT_CONFIRM_OVERWRITE,You already have an oufit named %s. Would you like to overwrite it?,1
+32142,TRANSMOG_OUTFIT_CONFIRM_OVERWRITE,You already have an outfit named %s. Would you like to overwrite it?,1
 32143,TRANSMOG_OUTFIT_CONFIRM_DELETE,Are you sure you want to delete the outfit %s?,1
 32144,TRANSMOG_OUTFIT_CONFIRM_SAVE,Are you sure you want to overwrite the outfit %s?,1
 32145,TRANSMOG_OUTFIT_NEW,New Outfit,1
@@ -22385,7 +22385,7 @@ And spread his flame to all Azeroth.",1
 52038,SLASH_SPECTATOR_SOLORBG_WARGAME1,/invitespectatorbattlegroundblitzmatch,1
 52039,SHOW_SILHOUETTE_OPTION,Show Silhouette when Obscured,1
 52040,OPTION_TOOLTIP_SHOW_SILHOUETTE,Highlight your character's silhouette when blocked by objects in game,1
-52049,TUTORIAL_HERO_TALENT_NONE_SPENT,Don't worry about making the wrong choice. You'll learn all these talents by level 80.,1
+52049,TUTORIAL_HERO_TALENT_NONE_SPENT,"Don't worry, you'll learn all these talents by level 80",1
 52050,PROFESSIONS_CRAFTING_CONCENTRATION_HEADER,Concentrate:,1
 52054,HUD_EDIT_MODE_SETTING_OBJECTIVE_TRACKER_TEXT_SIZE,Text Size,1
 52056,SPELL_FAILED_CUSTOM_ERROR_1037,Requires The War Within Pathfinder Unlocked to use in this area.,1
@@ -22421,10 +22421,10 @@ And spread his flame to all Azeroth.",1
 52087,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_ON,Apply %s,1
 52088,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_OFF,Cancel %s,1
 52089,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_DISABLED,Not enough %s,1
-52090,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_ON_DESC,Apply concentration to guarantee the next quality for this recipe.,1
-52092,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_OFF_DESC,Stop applying concentration to this recipe.,1
-52093,PROFESSIONS_CRAFTING_CONCENTRATION_CURRENCY_TOOLTIP,Concentration is a resource you can use to guarantee higher quality on your next craft. Concentration regenerates slowly through time or by getting an ingenuity proc. Improving your ingenuity stat increases the chance of getting a refund.,1
-52094,PROFESSIONS_CRAFTING_CONCENTRATION_CURRENCY_TOOLTIP_WARNING,"Warning, Concentration is full.",1
+52090,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_ON_DESC,Apply %d concentration to guarantee the next quality for this recipe.,1
+52092,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_OFF_DESC,Remove %d concentration from this recipe.,1
+52093,PROFESSIONS_CRAFTING_CONCENTRATION_CURRENCY_TOOLTIP,Concentration can be used to guarantee higher quality when crafting. Concentration slowly regenerates and is partly refunded when a craft triggers your Ingenuity.,1
+52094,PROFESSIONS_CRAFTING_CONCENTRATION_CURRENCY_TOOLTIP_WARNING,Concentration is full.,1
 52095,SPELL_FAILED_CUSTOM_ERROR_1039,Can only be used while in combat.,1
 52096,SPELL_FAILED_CUSTOM_ERROR_1040,You are not high enough level to enter a Delve.,1
 52097,PROFESSIONS_CRAFTING_CURRENCY_LABEL_FORMAT,|cnHIGHLIGHT_FONT_COLOR:%d/%d|r,1
@@ -22434,7 +22434,7 @@ And spread his flame to all Azeroth.",1
 52101,PROFESSIONS_CRAFTING_EXPECTED_QUALITY_WITH_CONCENTRATION,"|cnHIGHLIGHT_FONT_COLOR:Expected Quality:|r %s|n|nWith Concentration applied as it is, you will guarantee the next quality: %s",1
 52102,RATED_BG_BLITZ_SIZE,Solo,1
 52103,PVP_RATED_BG_BLITZ,Rated Battleground Blitz,1
-52104,RATED_BG_BLITZ_MODE_DESCRIPTION,|cnERROR_COLOR:WORK IN PROGRESS|r,1
+52104,RATED_BG_BLITZ_MODE_DESCRIPTION,8 versus 8 battlegrounds at an accelerated pace. Solo queue except healers can duo queue.,1
 52105,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_UNAVAILABLE,Can't apply %s,1
 52106,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_UNAVAILABLE_DESC,This recipe is already at max quality.,1
 52107,PROFESSIONS_CRAFTER_ORDER_TAB_NPC,NPC,1
@@ -22617,27 +22617,46 @@ And spread his flame to all Azeroth.",1
 52344,MAP_LEGEND_FLIGHTPOINT_TOOLTIP,Transports you to a different area in the same region,1
 52346,VRN_COMPAT_MODE,Disabled due to compatibility settings,3
 52347,COMPATIBILITY_SETTINGS,Compatibility Settings,3
-52348,OPTION_TOOLTIP_COMPATIBILITY_SETTINGS,"Compatibility settings are offered to help diagnose and work around various crashes, graphical bugs and performance issues.
-These features are only intended to be used if you are having specific issues. In most cases using compatibility settings will decrease performance, introduce hitching and/or decrease visual quality.",3
-52349,COMPAT_SETTING_DISABLE_OPTIONAL_GPU_FEATURES,Disable Optional GPU Features,3
-52350,COMPAT_SETTING_DISABLE_DEVICE_MULTITHREADING,Disable Asynchronous Resource Creation,3
-52351,COMPAT_SETTING_DISABLE_WORK_SUBMISSION_OPTIMIZATIONS,Disable Work Submission Optimizations,3
-52352,COMPAT_SETTING_DISABLE_CMDLIST_MULTITHREADING,Disable Multithreaded Rendering,3
-52353,OPTION_TOOLTIP_COMPAT_SETTING_DISABLE_OPTIONAL_GPU_FEATURES,"This will make the game act as if the GPU only supports the minimum supported features. This will cause the game to use all fallback and legacy code paths.
-Various graphical features will be disabled and the visual quality of the game will likely be reduced. This may help work around driver bugs or other issues with newer GPU features.",3
-52354,OPTION_TOOLTIP_COMPAT_SETTING_COMPAT_SETTING_DISABLE_DEVICE_MULTITHREADING,"This prevents the game from asynchronously creating GPU resources such as textures and shaders.
-This will likely introduce hitching but could help work around crashes or visual correctness issues on very old drivers or hardware.",3
-52355,OPTION_TOOLTIP_COMPAT_SETTING_COMPAT_SETTING_DISABLE_WORK_SUBMISSION_OPTIMIZATIONS,"This prevents more complex code paths for submitting work to the GPU. 
-This may cause less consistent and/or lower framerate but could help avoid some kinds of crashes for certain hardware, driver and OS combinations. ",3
-52356,OPTION_TOOLTIP_COMPAT_SETTING_COMPAT_SETTING_DISABLE_CMDLIST_MULTITHREADING,"This prevents the game from using multiple CPU threads to render the game and forces the game into a single-threaded rendering path.
-This will likely greatly reduce framerate, but could work around some graphics correctness or crash bugs in rare cases. ",3
+52348,OPTION_TOOLTIP_COMPATIBILITY_SETTINGS,"Compatibility settings are offered to help diagnose and work around various crashes, graphical bugs and performance issues. In most cases disabling these features will decrease performance, introduce hitching and/or decrease visual quality. They are only intended to be disabled if you are having specific issues.",3
+52349,COMPAT_SETTING_OPTIONAL_GPU_FEATURES,Optional GPU Features,3
+52350,COMPAT_SETTING_DEVICE_MULTITHREADING,Async Resource Creation,3
+52351,COMPAT_SETTING_FRAME_OVERLAP,Frame Overlap,3
+52352,COMPAT_SETTING_CMDLIST_MULTITHREADING,Multithreaded Rendering,3
+52353,OPTION_TOOLTIP_COMPAT_SETTING_OPTIONAL_GPU_FEATURES,"Allows the use of newer GPU features. When disabled, the game will act as if the GPU only supports the minimum required features. Various graphical features will be disabled and the visual quality of the game will likely be reduced. This may help work around driver bugs or other issues with newer GPU features.",3
+52354,OPTION_TOOLTIP_COMPAT_SETTING_DEVICE_MULTITHREADING,Allows asynchronously creating GPU resources such as textures and shaders. Disabling this will likely introduce hitching but could help work around crashes or visual issues on very old drivers or hardware.,3
+52355,OPTION_TOOLTIP_COMPAT_SETTING_FRAME_OVERLAP,"Allows the CPU to work on 2 frames at once. Disabling this may cause less consistent or lower framerate but could help avoid some kinds of crashes for certain hardware, driver and OS combinations. ",3
+52356,OPTION_TOOLTIP_COMPAT_SETTING_CMDLIST_MULTITHREADING,"Allows the game to use multiple CPU threads to render the game. Disabling this will likely greatly reduce framerate, but could work around crashes or visual bugs in some cases. ",3
 52358,QUEST_CLASSIFICATION_CALLING,Calling,1
 52360,QUEST_CLASSIFICATION_IMPORTANT,Important,1
 52361,QUEST_CLASSIFICATION_CAMPAIGN,Campaign,1
 52362,QUEST_CLASSIFICATION_LEGENDARY,Legendary,1
 52363,QUEST_CLASSIFICATION_META,Meta,1
-52364,QUEST_CLASSIFICATION_REPEATABLE,Repeatable,1
-52365,QUEST_CLASSIFICATION_STORYLINE,Storyline,1
-52366,QUEST_CLASSIFICATION_STORYLINE_WITH_NAME,Storyline (%s),1
+52364,QUEST_CLASSIFICATION_RECURRING,Repeatable,1
+52365,QUEST_CLASSIFICATION_QUESTLINE,Storyline,1
+52366,QUEST_CLASSIFICATION_QUESTLINE_WITH_NAME,Storyline (%s),1
 52367,DELVES_ERR_SELECT_TIER,You must select a Tier.,1
 52368,ERR_NOT_ENOUGH_PURCHASED_GAME_TIME,Game time must be purchased at least once on this account to be eligible to buy a WoW Token with gold.,1
+52373,ERR_CURRENCY_TRANSFER_UNMET_REQUIREMENTS,You do not meet the requirements to use this currency.,1
+52374,CHARACTER_SELECT_UNDELETE_REALM_LABEL,%s Realm,2
+52375,CHARACTER_SELECT_UNDELETE_REALM_HELPTIP,Only deleted characters from the current realm are shown. Switch realms to see other deleted characters.,2
+52376,ERR_NO_REFUNDABLE_ITEM_IN_ACCOUNT_BANK,Refundable items cannot be stored in the Warband Bank.,1
+52377,NPEV2_SELECT_SPEC_TAB,Select the |cFF00FFFFSpecialization|r Tab,1
+52379,TALENT_MICRO_BUTTON_NO_HERO_SPEC,Choose your Hero Class,1
+52380,ERR_DELVE_IN_PROGRESS,A %s delve is in progress,1
+52381,ACCOUNT_CONVERSION_IN_PROGRESS,Your account is being updated for the Warbands feature. Please wait.,2
+52382,ERR_BANK_NOT_ACCESSIBLE,This character does not have access to this bank.,1
+52383,WOW_ERROR_338,This World of Warcraft account has been suspended from Beta.,2
+52385,DELVES_ERR_TIER_INELIGIBLE,You don't meet the requirements for this difficulty,1
+52387,SPELL_FAILED_CUSTOM_ERROR_1053,Timerunners cannot cast this spell.,1
+52388,MOUNT_JOURNAL_FILTER_RIDEALONG,Ride Along,1
+52389,RPE_UPGRADE_COMPLETE_WARNING,You must log in to complete your character boost.,3
+52390,DELVES_SHOW_ENTRACES_ON_MAP_TEXT,Delve Entrances,1
+52391,SPELL_FAILED_CUSTOM_ERROR_1043,You must choose what to do with your current prototype before identifying new ones.,1
+52392,CHINA_AGE_APPROPRIATENESS_TEXT,System message,2
+52393,CHINA_AGE_APPROPRIATENESS_TEXT_TITLE,System message title,2
+52394,VISITABLE_URL57,https://jiazhang.gm.163.com/blizzard/,2
+52395,COMPAT_SETTING_ADV_WORK_SUBMIT,Advanced Work Submit,3
+52396,OPTION_TOOLTIP_COMPAT_SETTING_ADV_WORK_SUBMIT,"Allows more complex code paths for submitting work to the GPU. Disabling this may cause less consistent or lower framerate but could help avoid some kinds of crashes for certain hardware, driver and OS combinations. ",3
+52397,CHINA_HEALTHY_GAMING_TEXT,System message,2
+52398,CHINA_HEALTHY_GAMING_TEXT_TITLE,System message,2
+52399,PROFESSIONS_CRAFTING_CONCENTRATION_HELPTIP,|cnNORMAL_FONT_COLOR:Concentration|r|nGuarantees higher quality on your next craft. Regenerates slowly through time,1
