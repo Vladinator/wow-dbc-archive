@@ -901,3 +901,10 @@ $effectCount=${$<vizier>+$<general>+$<weaver>}"
 887,"$focus=$?a382201[${(1+$382201s3/100)}][${1}]
 $oversized=$?a445026[${(1+$445026s1/100)}][${1}]
 $radius=${$204330s2*$<focus>*$<oversized>}"
+888,$vitality=$?a450508[$450508w5][${0}]
+889,"$sargerei=$?a405955[${(1+$405955s1/100)}][${1}]
+$improved=$?a453080[${(1+$453080s2/100)}][${1}]
+$damage=${$453176s1*$<sargerei>*$<improved>}
+"
+890,$value=${($AP*$433106s1/10)*(1+$@versadmg)}
+891,$value=${($AP*($450615s5/100)*(1+$@versadmg))}

@@ -5658,7 +5658,7 @@ ID,BaseTag,TagText_lang,Flags
 17218,MOVIE_RECORDING_COMPRESSING,Compressing,1
 17219,MOVIE_RECORDING_COMPRESSING_CANCEL_NEWBIE_TOOLTIP,This will finish the compression early. You will lose the part that is still not compressed. The part that is currently compressed will be saved on your hard drive.,1
 17220,MOVIE_RECORDING_COMPRESSING_CANCEL_TOOLTIP,Cancel Compression,1
-17221,MAC_OPTIONS,Mac Options,1
+17221,MAC_OPTIONS,Mac Options,3
 17223,MOVIE_RECORDING_ENABLE_GUI,Record the User Interface,1
 17224,MOVIE_RECORDING_ENABLE_GUI_TOOLTIP,"If this is checked, you will see the user interface in the movie. Regardless of this setting, you will see the user interface while playing.",1
 17225,MOVIE_RECORDING_ENABLE_SOUND,Record Sound,1
@@ -7891,7 +7891,7 @@ ID,BaseTag,TagText_lang,Flags
 19664,CHANGE_OPACITY,Change Opacity,1
 19665,TRANSFER_ABORT_NEED_GROUP,Transfer Aborted: you must be in a raid group to enter this instance,1
 19666,IGNORE_DIALOG,Ignore,1
-19667,OBJECTIVES_WATCH_TOO_MANY,"You don't have space to track any more objectives, stop tracking some first.",1
+19667,OBJECTIVES_WATCH_TOO_MANY,You can't track any more quests.,1
 19668,ACTIVATE,Activate,5
 19669,POWER_DISPLAY_COST,%s %s,1
 19670,POWER_DISPLAY_COST_PER_TIME,"%s %s, plus %s per sec",1
@@ -10354,8 +10354,8 @@ ID,BaseTag,TagText_lang,Flags
 22343,MAC_DISABLE_OS_SHORTCUTS,Disable OS Keyboard Shortcuts,3
 22344,MAC_DISABLE_OS_SHORTCUTS_TOOLTIP,Disables the operating system keyboard shortcuts. Use this if you don't want to accidentally fire operating system shortcuts during the game.,3
 22345,REQ_LEVEL_ABBR,Lvl,1
-22346,MAC_OPTIONS_MISC,Miscellaneous,1
-22348,MAC_SWAP_CONTROL_AND_COMMAND_TOOLTIP,Use this if you want to use the Command key modifier for key bindings instead of the Control key.,1
+22346,MAC_OPTIONS_MISC,Miscellaneous,3
+22348,MAC_SWAP_CONTROL_AND_COMMAND_TOOLTIP,Use this if you want to use the Command key modifier for key bindings instead of the Control key.,3
 22349,SCROLL_OF_RESURRECTION,Scroll of Resurrection,1
 22350,ENTER_EMAIL_OR_CHARACTER,Enter email or character-realm name,1
 22351,SEND_SCROLL_OF_RESURRECTION,Send Scroll of Resurrection,1
@@ -10472,7 +10472,7 @@ ID,BaseTag,TagText_lang,Flags
 22465,IN_LFG_QUEUE_BUT_SUSPENDED,Your queue has been temporarily suspended. You will retain your position in the queue.,1
 22466,RF_REWARD_EXPLANATION2,Each victory subsequent to the first each week will earn you:,1
 22467,RF_REWARD_EXPLANATION1,Your first completion per week will earn you:,1
-22468,MAC_OPEN_UNIVERSAL_ACCESS,"In order to use this option accessibility needs to be enabled. Please check the option \""Enable access for assistive devices\"" in the Universal Access System Preferences panel. Would you like to open the System Preferences now?",1
+22468,MAC_OPEN_UNIVERSAL_ACCESS,"In order to use this option accessibility needs to be enabled. Please check the option \""Enable access for assistive devices\"" in the Universal Access System Preferences panel. Would you like to open the System Preferences now?",3
 22469,ERR_PARTY_ROLE_NOT_AVAILABLE,Problem trying to fill your group's available roles,1
 22470,ERR_JOIN_LFG_OBJECT_FAILED,You failed to join the instance in progress,1
 22471,SPELL_FAILED_CUSTOM_ERROR_148,Target is already affected by Stardust No. 2.,1
@@ -11554,8 +11554,8 @@ You can find trainers for them in some settlements and cities.",1
 23661,BATTLE_PET_PUT_IN_CAGE_SLOTTED,Put In Cage (Battle Slot),1
 23662,BATTLE_PET_PUT_IN_CAGE_HEALTH,Put In Cage (Health),1
 23663,PET_JOURNAL_CARD_NAME_DEFAULT,Select a pet from the list on the left.,1
-23664,MAC_USE_COMMAND_AS_CONTROL,Use Command key as Control key,1
-23665,MAC_USE_COMMAND_AS_CONTROL_TOOLTIP,Use Command key and Control key interchangeably.,1
+23664,MAC_USE_COMMAND_AS_CONTROL,Use Command key as Control key,3
+23665,MAC_USE_COMMAND_AS_CONTROL_TOOLTIP,Use Command key and Control key interchangeably.,3
 23666,MAC_USE_COMMAND_LEFT_CLICK_AS_RIGHT_CLICK,Command left click as right click,3
 23667,MAC_USE_COMMAND_LEFT_CLICK_AS_RIGHT_CLICK_TOOLTIP,Hold down Command key and left click to simulate a right click.,3
 23668,SPELL_FAILED_CANT_ADD_BATTLE_PET,Can't Add Companion To Your Account,1
@@ -12229,7 +12229,7 @@ You can find trainers for them in some settlements and cities.",1
 24437,BLIZZARD_CHALLENGE_CANCEL,Cancel,3
 24438,ADVANCED_COMBAT_LOGGING,Advanced Combat Logging,3
 24439,OPTION_TOOLTIP_ADVANCED_COMBAT_LOGGING,"Enables extra logging data when writing the combat log to a text file. This may cause additional network lag when using the ""combatlog"" chat command.",3
-24440,MAC_OPEN_UNIVERSAL_ACCESS1090,"In order to use this option, you must grant access to %s in Security & Privacy preferences, located in System Preferences. Would you like to open System Preferences now?",1
+24440,MAC_OPEN_UNIVERSAL_ACCESS1090,"In order to use this option, you must grant access to %s in Security & Privacy preferences, located in System Preferences. Would you like to open System Preferences now?",3
 24441,BLIZZARD_STORE_ERROR_TITLE_ALREADY_OWNED,Already Owned,3
 24442,BLIZZARD_STORE_ERROR_MESSAGE_ALREADY_OWNED,You already have this product!,3
 24443,ITEM_SET_BONUS_NO_VALID_SPEC,Bonus effects vary based on the player's specialization.,1
@@ -16083,7 +16083,7 @@ You can find trainers for them in some settlements and cities.",1
 35652,FOURTH_NUMBER,trillion,1
 35653,SPELL_FAILED_CUSTOM_ERROR_333,You cannot gain additional reputation with this item.,1
 35654,SPELL_FAILED_CUSTOM_ERROR_334,Can't do that while in Ghost Wolf form.,1
-35655,PLAYER_V_PLAYER_SEASON,Player vs. Player (The War Within Season %d),1
+35655,PLAYER_V_PLAYER_SEASON,Player vs. Player (Dragonflight Season %d),1
 35656,DUNGEON_FLOOR_TOMBOFSARGERASDUNGEON1,Hall of the Moon,1
 35657,DUNGEON_FLOOR_TOMBOFSARGERASDUNGEON2,Twilight Grove,1
 35658,DUNGEON_FLOOR_TOMBOFSARGERASDUNGEON3,The Emerald Archives,1
@@ -19042,7 +19042,7 @@ You can find trainers for them in some settlements and cities.",1
 42849,GREAT_VAULT_REWARDS_MYTHIC_IMPROVE,Complete %1$d Mythic Level %2$d or higher dungeons to improve your reward.,1
 42850,GREAT_VAULT_REWARDS_WAITING,You have rewards waiting for you at the Great Vault.,1
 42853,JAILERS_TOWER_LEVEL_PICKER_PARTY_LOCK,You or a party member must defeat the previous layer,1
-42854,CONQUEST_PVP_WEEK_NO_CONQUEST,Earn Conquest to purchase Rated PvP items in Valdrakken.,1
+42854,CONQUEST_PVP_WEEK_NO_CONQUEST,Earn Conquest to purchase Rated PvP items.,1
 42855,GAIN_MAW_POWER,%s has gained Anima Power: %s,1
 42856,MAW_POWER_DESCRIPTION,Anima Power,1
 42857,CHROMIE_TIME_CAMPAIGN_COMPLETE,Campaign completed,1
@@ -19188,8 +19188,8 @@ You can find trainers for them in some settlements and cities.",1
 42998,JAILERS_TOWER_ITEM_REWARD_TOOLTIP_WITH_COUNT_FORMAT,|T%1$s:30:30|t %2$s %3$s,1
 42999,JAILERS_TOWER_ITEM_REWARD_TOOLTIP_FORMAT,|T%1$s:30:30|t %2$s,1
 43000,SPELL_FAILED_CUSTOM_ERROR_512,Your butler is already present somewhere in the Ember Court.,1
-43001,MAC_MIC_PREMISSIONS_NOTIFICATION,"In order to use voice chat, you must grant ""Microphone"" permission to %s in Security & Privacy preferences, located in System Preferences.",1
-43002,MAC_MIC_PERMISSIONS_OPEN_BUTTON,System Preferences,1
+43001,MAC_MIC_PREMISSIONS_NOTIFICATION,"In order to use voice chat, you must grant ""Microphone"" permission to %s in Security & Privacy preferences, located in System Preferences.",3
+43002,MAC_MIC_PERMISSIONS_OPEN_BUTTON,System Preferences,3
 43003,COVENANT_SANCTUM_TALENT_REQUIRES_PREVIOUS_TIER,Requires previous tier,1
 43004,NPEV2_CHAT_GUIDE_FRAME_ERROR_ACCOUNT_MUTED,You're not eligible to be a guide due to parental controls.,1
 43005,COVENANT_SANCTUM_RENOWN_REWARD_TITLE_COMPLETE,Renown Complete,1
@@ -20111,7 +20111,7 @@ You can find trainers for them in some settlements and cities.",1
 48716,SPELL_FAILED_CUSTOM_ERROR_634,You have too many temporary enhancements.,1
 48718,SPELL_FAILED_CUSTOM_ERROR_635,You have other ways to summon Pocopoc while in Zereth Mortis.,1
 48719,CROSS_FACTION_PLAYER_NAME,|W%s (%s)|w,1
-48720,REWARD_QUEST,This questline will unlock:,1
+48720,REWARD_QUEST,This quest line will unlock:,1
 48721,DUNGEON_SCORE_LINK_PREVIOUS_HIGH,Previous High: %s |cff808080(Season %d),1
 48722,ERR_CROSS_FACTION_GROUP_JOINED,"This is now a cross-faction instance group. You can do these activities together: dungeons and raids (non-queued), Torghast, Rated PvP",1
 48723,ERR_TRADE_FACTION_SPECIFIC,You can't trade a faction specific item to the opposing faction,1
@@ -20190,7 +20190,7 @@ You can find trainers for them in some settlements and cities.",1
 48801,ERROR_CLUB_DOESNT_ALLOW_CROSS_FACTION,"Player is wrong faction. Enable ""Cross-Faction"" in community settings.",1
 48802,COMMUNITIES_SETTING_CROSS_FACTION_TOOLTIP,Lets you invite members of the other faction.,1
 48803,COMMUNITIES_SETTING_CROSS_FACTION_TOOLTIP_ERROR,"To change the Cross-Faction setting, all members of the other faction must first be removed",1
-48806,SPELL_FAILED_CUSTOM_ERROR_640,Pocopoc is unavailable to summon during the questline A Means to an End.,1
+48806,SPELL_FAILED_CUSTOM_ERROR_640,"Pocopoc is unavailable to summon during the quest line ""A Means to an End"".",1
 48809,CROSS_FACTION_CLUB_FINDER_SEARCH_OPTION,Cross-Faction,1
 48810,LAYOUT_STYLE_CLASSIC,Classic,1
 48811,LAYOUT_STYLE_MODERN,Modern,1
@@ -21850,7 +21850,7 @@ Are you sure you want to proceed?",1
 51350,SPELL_FAILED_CUSTOM_ERROR_1005,Cooldown Reset,1
 51351,PNC_FLOW_CUSTOMIZE_CHARACTER_STEP,You'll customize your character in the next step.,2
 51352,PNC_FLOW_FINISH_LABEL,Accept,2
-51353,GENERIC_TRAIT_FRAME_TITLE_DELVES,Explorer's League Supplies (PH UI),1
+51353,GENERIC_TRAIT_FRAME_TITLE_DELVES,Explorers' League Supplies (PH UI),1
 51354,SLASH_PING1,/ping,1
 51355,SLASH_PING2,/ping,1
 51356,PNC_CUSTOMIZE_DIALOG_TEXT,|cnHIGHLIGHT_FONT_COLOR:Your |rName Change|cnHIGHLIGHT_FONT_COLOR: will be permanently applied once you accept.|r,2
@@ -22440,7 +22440,7 @@ And spread his flame to all Azeroth.",1
 52107,PROFESSIONS_CRAFTER_ORDER_TAB_NPC,NPC,1
 52108,POWER_TYPE_BLACK_BLOOD,Black Blood,1
 52109,CURRENCY_TRANSFER_TOGGLE_BUTTON_LABEL,Transfer,1
-52110,CURRENCY_TRANSFER_MENU_TITLE,Transfer Currency,1
+52110,CURRENCY_TRANSFER_MENU_TITLE,Transfer Currency - %s,1
 52111,CURRENCY_TRANSFER_CONFIRM_BUTTON_LABEL,Confirm,1
 52112,CURRENCY_TRANSFER_CANCEL_BUTTON_LABEL,Cancel,1
 52113,CURRENCY_TRANSFER_AMOUNT_LABEL,Amount to Transfer,1
@@ -22490,9 +22490,9 @@ And spread his flame to all Azeroth.",1
 52164,CURRENCY_TRANSFER_DISABLED_NO_VALID_SOURCES,Your Warband does not have enough of this currency to transfer to you.,1
 52165,TIMERUNNING_WARBAND_BANK_DISABLED,Timerunners do not have access to the Warband Bank.,1
 52166,RACE_INFO_EARTHENDWARF,"The earthen of Khaz Algar, newly freed of their edicts, venture forth into Azeroth. They bring with them boundless curiosity, and a wish to return all their experiences back to the archive.",3
-52167,REWARD_QUESTLINE_UNLOCK,[PH] This questline will unlock:,1
-52168,REWARD_QUESTLINE_REWARD,The end of this questline rewards:,1
-52169,REWARD_QUESTLINE_UNLOCK_PART,[PH] This questline is part of unlocking:,1
+52167,REWARD_QUESTLINE_UNLOCK,This quest line will unlock:,1
+52168,REWARD_QUESTLINE_REWARD,The end of this quest line rewards:,1
+52169,REWARD_QUESTLINE_UNLOCK_PART,This quest line is part of unlocking:,1
 52170,UNITNAME_SUMMON_TITLE56,%s's Confidant,1
 52171,SPELL_FAILED_CUSTOM_ERROR_2001,The emblem has no magic stored.,1
 52172,QUEST_LOG_SHOW_OBJECTIVES,Show Quest Objectives,1
@@ -22512,11 +22512,11 @@ And spread his flame to all Azeroth.",1
 52186,WAR_WITHIN_LANDING_PAGE_ALERT_SUMMARY_UNLOCKED,Khaz Algar Summary Unlocked,1
 52187,WAR_WITHIN_LANDING_PAGE_ALERT_MAJOR_FACTION_UNLOCKED,Major Faction Unlocked,1
 52188,DELVES_GREAT_VAULT_ERR_AVAIL_AT_MAX_LEVEL,Unlocks at level %d,1
-52189,DELVES_ERR_MUST_USE_SUPPLIES,Requires Explorer's League Supplies,1
+52189,DELVES_ERR_MUST_USE_SUPPLIES,Requires Explorers' League Supplies,1
 52190,ACCOUNT_FIRST_TIME_QUEST_BONUS_REP_TOOLTIP,This includes a one-time Warband bonus (%d|cnGREEN_FONT_COLOR:+%d|r reputation),1
 52191,ACCOUNT_FIRST_TIME_QUEST_BONUS_CURRENCY_TOOLTIP,This includes a one-time Warband bonus (%d|cnGREEN_FONT_COLOR:+%d|r currency),1
 52192,ACCOUNT_PREVIOUSLY_COMPLETED_QUEST_REP_BONUS_TOOLTIP,This is a Warband bonus for previously completing this quest (%d|cnGREEN_FONT_COLOR:+%d|r reputation),1
-52193,ACCOUNT_PREVIOUSLY_COMPLETED_QUEST_CURRENCY_BONUS_TOOLIP,This is a Warband bonus for previously completing this quest (%d|cnGREEN_FONT_COLOR:+%d|r currency),1
+52193,ACCOUNT_PREVIOUSLY_COMPLETED_QUEST_CURRENCY_BONUS_TOOLTIP,This is a Warband bonus for previously completing this quest (%d|cnGREEN_FONT_COLOR:+%d|r currency),1
 52194,RACE_INFO_EARTHENDWARF_FEMALE,"The earthen of Khaz Algar, newly freed of their edicts, venture forth into Azeroth. They bring with them boundless curiosity, and a wish to return all their experiences back to the archive.",3
 52195,GREAT_VAULT_REWARDS_WORLD_INCOMPLETE,Complete %1$d more |4delve:delves; or |4world activity:world activities; this week to unlock a Great Vault reward. World activities count as Tier 0.|n|nThe item level of your reward will be based on your highest run this week.,1
 52196,GREAT_VAULT_REWARDS_WORLD_COMPLETED_FIRST,Complete %1$d more |4delve:delves; or |4world activity:world activities; this week to unlock a second Great Vault reward. World activities count as Tier 0.,1
@@ -22641,12 +22641,12 @@ And spread his flame to all Azeroth.",1
 52375,CHARACTER_SELECT_UNDELETE_REALM_HELPTIP,Only deleted characters from the current realm are shown. Switch realms to see other deleted characters.,2
 52376,ERR_NO_REFUNDABLE_ITEM_IN_ACCOUNT_BANK,Refundable items cannot be stored in the Warband Bank.,1
 52377,NPEV2_SELECT_SPEC_TAB,Select the |cFF00FFFFSpecialization|r Tab,1
-52379,TALENT_MICRO_BUTTON_NO_HERO_SPEC,Choose your Hero Class,1
+52379,TALENT_MICRO_BUTTON_NO_HERO_SPEC,Choose your Hero Talents,1
 52380,ERR_DELVE_IN_PROGRESS,A %s delve is in progress,1
 52381,ACCOUNT_CONVERSION_IN_PROGRESS,Your account is being updated for the Warbands feature. Please wait.,2
 52382,ERR_BANK_NOT_ACCESSIBLE,This character does not have access to this bank.,1
 52383,WOW_ERROR_338,This World of Warcraft account has been suspended from Beta.,2
-52385,DELVES_ERR_TIER_INELIGIBLE,You don't meet the requirements for this difficulty,1
+52385,DELVES_ERR_TIER_INELIGIBLE,You don't meet the requirements for this tier,1
 52387,SPELL_FAILED_CUSTOM_ERROR_1053,Timerunners cannot cast this spell.,1
 52388,MOUNT_JOURNAL_FILTER_RIDEALONG,Ride Along,1
 52389,RPE_UPGRADE_COMPLETE_WARNING,You must log in to complete your character boost.,3
@@ -22659,4 +22659,25 @@ And spread his flame to all Azeroth.",1
 52396,OPTION_TOOLTIP_COMPAT_SETTING_ADV_WORK_SUBMIT,"Allows more complex code paths for submitting work to the GPU. Disabling this may cause less consistent or lower framerate but could help avoid some kinds of crashes for certain hardware, driver and OS combinations. ",3
 52397,CHINA_HEALTHY_GAMING_TEXT,System message,2
 52398,CHINA_HEALTHY_GAMING_TEXT_TITLE,System message,2
-52399,PROFESSIONS_CRAFTING_CONCENTRATION_HELPTIP,|cnNORMAL_FONT_COLOR:Concentration|r|nGuarantees higher quality on your next craft. Regenerates slowly through time,1
+52399,PROFESSIONS_CRAFTING_CONCENTRATION_HELPTIP,|cnNORMAL_FONT_COLOR:Concentration|r|nGuarantees higher quality on your next craft. Regenerates slowly over time.,1
+52400,PREFIX_RATED_SOLO_RGB,Rated %s,1
+52401,ERR_NO_OPEN_IMMEDIATE_CONTAINER_IN_ACCOUNT_BANK,You cannot open this while it is in the Warband bank.,1
+52402,ERR_NO_IMMEDIATE_CONTAINER_IN_ACCOUNT_BANK,You cannot place that in the Warband bank.,1
+52403,NOT_BEST_ARMOR_TYPE_WARNING,|cnRED_FONT_COLOR:This is not your preferred armor type.|r,1
+52404,BLIZZARD_STORE_VAS_ERROR_CHARACTER_ON_DIFFERENT_REALM_1,- This character is on another realm.,2
+52405,BLIZZARD_STORE_VAS_ERROR_CHARACTER_ON_DIFFERENT_REALM_2,- Switch realms to upgrade this character.,2
+52406,BLIZZARD_STORE_VAS_ERROR_SINGULAR_LABEL,Error. Please address this issue:,2
+52408,QUEST_CLASSIFICATION_RECURRING_WITH_TIME,Repeatable (%s left),1
+52409,CHARACTER_SELECT_WARBAND_INTRO_HELPTIP,All your characters show up in your Warband Character List across all realms.,2
+52410,SHOW_LOCAL_STORY_OFFERS_ON_MAP_TEXT,Local Stories,1
+52411,SPELL_FAILED_CUSTOM_ERROR_1044,You have already used a Khaz Algar Contract this week.,1
+52412,DUNGEON_MAP_PIN_FALLBACK_NAME,Dungeon,1
+52413,DUNGEON_POI_TOOLTIP_INSTRUCTION_LINE,<Right Click to open Adventure Guide>,1
+52414,CREATE_CHARACTER_REALM_CONFIRM_DIALOG_TEXT,"|cnHIGHLIGHT_FONT_COLOR:Your character will be created on the|r %s Realm|cnHIGHLIGHT_FONT_COLOR:. To switch realms, click the ""Realms"" button.|r",2
+52415,MOUNT_JOURNAL_STEADY_FLIGHT_ONLY,Steady Flight Only,1
+52416,PROFESSIONS_OUTPUT_INGENUITY,Ingenious Breakthrough!,1
+52417,PROFESSIONS_OUTPUT_INGENUITY_TITLE,Ingenuity,1
+52418,PROFESSIONS_OUTPUT_INGENUITY_DESC,You had an ingenious breakthrough and refunded %d Concentration for this craft.,1
+52419,ERR_CANT_DELETE_IN_ACCOUNT_BANK,Items must be moved out of the Warband bank to be deleted.,1
+52420,MAP_LINK_POI_TOOLTIP_INSTRUCTION_LINE,<Right Click to show map>,1
+52421,OBJECTIVES_HIDE_VIEW_IN_QUESTLOG,Close Quest Details,1
