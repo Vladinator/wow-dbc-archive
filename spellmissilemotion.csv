@@ -26912,3 +26912,26 @@ end
 scale = 0.5 + (progress / 2) + parabola(0.5)
 
 --faceImpactPos = 1",0,3
+4801,11.0 Raid - Nerubian - Boss - Queen - P2 - Devoted Worshipper - Death Rift Missile) - SRC,"local magnitude = 14
+
+transUp = magnitude * ( 1 - progress )
+transFront = distanceToImpactPos
+",0,1
+4802,11.0 Raid - Nerubian - Boss - Queen - P2 - General - Portal Indicator Missiles (Is Spool) - SRC,"
+local magnitude = (progress * 1.9) - 1
+magnitude = 1 - (magnitude * magnitude * magnitude * magnitude)
+
+transRight = (sin((rand1 * 1000) + (time * 1000)) + cos((rand2 * 1000) + (time * 200))) * magnitude
+transUp = (sin((rand2 * 1000) + (time * 700)) + cos((rand1 * 1000) + (time * 300))) * magnitude
+
+local angle = 0
+local parabolicScalar = 0.06 -- higher = more parabolic
+local maxMagnitude = startDistance * parabolicScalar
+local spinRate = 360
+
+modelPitch = time * spinRate
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude",0,1
+4803,Grow (1 -> 2.5) and fade,"scale = 1 + (1.5 * progress)
+colorA = 1 + (-1.0 * progress)",0,1
