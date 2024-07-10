@@ -247,3 +247,10 @@ modelYaw  = 60",0,0
 local modelPitch = 0
 
 modelPitch = (time * 200)",0,0
+4799,S03 - DFC Dungeon - Grimroot - Corrupted Tears - 2. Missile,"local angle = 0
+local maxMagnitude = startDistance * .20
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+modelRoll = progress * 2000",0,0
