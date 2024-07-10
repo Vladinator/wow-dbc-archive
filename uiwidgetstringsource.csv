@@ -2270,14 +2270,14 @@ ID,Value_lang,ReqID,ParentWidgetID
 4056,,248,1759
 4057,Right Icon 5 State 2 Tooltip,249,1759
 4059,Test,52,1749
-4060,%1541c/%1541m,56,1750
+4060,%1541c/%1541m test,56,1750
 4061,|Hcurrency:1541|h,57,1750
-4062,%1540c/%1540m,59,1750
+4062,%1540c/%1540m test,59,1750
 4063,|Hcurrency:1540|h,60,1750
-4064,%1716c,62,1750
+4064,%1716c test,62,1750
 4065,|Hcurrency:1716|h,63,1750
-4066,,67,1750
-4067,,66,1750
+4066,|Hcurrency:2655|h,67,1750
+4067,2 |r|cnLIGHTERGRAY_FONT_COLOR:/ 10|r,66,1750
 4068,,72,1750
 4069,,73,1750
 4070,,74,1750
@@ -3079,7 +3079,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 5858,Test Text %qr,15,2371
 5860,Exanima Breach,19,2371
 5861,Entropic Exanima slain,273,2371
-5862,|Hquestreward:59224|h,208,2371
+5862,|Hquestreward:60344|h,208,2371
 5891,,212,2382
 5892,,277,2382
 5901,,19,2388
@@ -6988,7 +6988,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 13524,,598,4902
 13527,,621,4904
 13528,,622,4904
-13529,%202081id,627,4904
+13529,Blah blah,627,4904
 13530,,275,4905
 13531,Charge,19,4906
 13532,,273,4906
@@ -7013,13 +7013,6 @@ ID,Value_lang,ReqID,ParentWidgetID
 13554,,584,4917
 13555,,585,4917
 13556,,598,4917
-13564,,194,4918
-13565,,195,4918
-13566,,197,4918
-13567,,198,4918
-13568,,200,4918
-13569,,201,4918
-13570,  %ss,428,4918
 13571,|nLost Transcripts Found: %2590c,52,4919
 13572,,394,4919
 13573,Delve Difficulty: Level 1,52,4920
@@ -7281,7 +7274,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 13888,A powerful creature is soon to appear!,19,5027
 13889,,273,5027
 13890,,208,5027
-13891,Delve Level %2640fL|n,19,5033
+13891,,19,5033
 13892,,208,5033
 13893,XP: %40859e/%40860e,273,5033
 13902,,19,5037
@@ -8252,14 +8245,6 @@ ID,Value_lang,ReqID,ParentWidgetID
 15164,Bleak Sand Keyflame,19,5386
 15165,Contribute Radiant Remnant to control this location.,208,5386
 15166,,273,5386
-15171,,212,5389
-15172,,277,5389
-15173,,212,5391
-15174,,277,5391
-15175,,212,5392
-15176,,277,5392
-15177,,212,5393
-15178,,277,5393
 15179,Fungal Field Keyflame,19,5479
 15180,Contribute Radiant Remnant to control this location.,208,5479
 15181,,273,5479
@@ -8484,10 +8469,6 @@ ID,Value_lang,ReqID,ParentWidgetID
 15795,,208,5518
 15796,,212,5597
 15797,,277,5597
-15804,,212,5600
-15805,,277,5600
-15806,,212,5601
-15807,,277,5601
 15808,,19,5602
 15809,,273,5602
 15810,,208,5602
@@ -8754,8 +8735,6 @@ ID,Value_lang,ReqID,ParentWidgetID
 16441,,394,5852
 16442,Next Showing: %24981ha,52,5853
 16443,,394,5853
-16444,|Hspell:448922|h,204,5854
-16445,2,205,5854
 16457,|TInterface\Icons\INV_Misc_Bone_HumanSkull_02:14:14:2:0|t  %448783as |4Kill:Kills;,584,5858
 16458,,585,5858
 16459,,598,5858
@@ -8834,25 +8813,23 @@ ID,Value_lang,ReqID,ParentWidgetID
 16553,It's hard to stay stable with a heavy pack! Low stability will cause you to stumble. Running out will make you drop your pack!,208,5880
 16562,,212,5883
 16563,0,277,5883
-16564,|Hspell:452267|h,204,5884
-16565,??,205,5884
 16568,,212,5886
-16569,Woven Cocoon,277,5886
+16569,,277,5886
 16570,,212,5887
 16571,Weaver's Tutelage,277,5887
-16574,Espionage Rumors & Weave-Rat Caches become available.,212,5889
-16575,Espionage & Caches,277,5889
+16574,Bobbin has located hidden caches in the crevices of Azj-Kahet. Find and follow her to reap the riches inside them.,212,5889
+16575,Treasure: Weave-Rat Caches,277,5889
 16576,,19,5890
 16577,%2601fn,273,5890
-16578,Current Weaver Pact level.,208,5890
+16578,,208,5890
 16579,A parcel of professions materials and Kaheti currency.,212,5891
 16580,Weaver's Parcel,277,5891
 16581,A chest of Valorstones and Kaheti currency.,212,5892
 16582,General's Warchest,277,5892
 16583,,212,5893
 16584,General's Phalanx,277,5893
-16587,Bounty Rumors & Memorial Treasures become available.,212,5895
-16588,Bounties & Memorials,277,5895
+16587,Complete Rumors throughout Azj-Kahet. Start them by locating Brokers or purchasing maps from Yamas the Provider.,212,5895
+16588,Rumors,277,5895
 16589,,19,5896
 16590,%2605fn,273,5896
 16591,Current General Pact level.,208,5896
@@ -8862,8 +8839,8 @@ ID,Value_lang,ReqID,ParentWidgetID
 16595,Vizier's Coffers,277,5898
 16596,,212,5899
 16597,Vizier's Savvy,277,5899
-16600,Disruption Rumors & Kaheti Excavations become available.,212,5901
-16601,Disruption & Excavation,277,5901
+16600,Dor'garad has set up sites around Azj-Kahet in search of artifacts for the Vizier. Assist her in these efforts to receive a gift.,212,5901
+16601,Treasure: Kaheti Excavations,277,5901
 16602,,19,5902
 16603,%2607fn,273,5902
 16604,Current Vizier Pact level.,208,5902
@@ -8874,28 +8851,6 @@ ID,Value_lang,ReqID,ParentWidgetID
 16612,,208,5905
 16616,Point Breakers in Position,52,5906
 16617,,394,5906
-16618,,212,5907
-16619,,277,5907
-16620,|Hspell:448921|h,204,5908
-16621,1,205,5908
-16622,|Hspell:448923|h,204,5909
-16623,3,205,5909
-16624,|Hspell:448925|h,204,5910
-16625,4,205,5910
-16626,|Hspell:448926|h,204,5911
-16627,5,205,5911
-16628,|Hspell:448927|h,204,5912
-16629,6,205,5912
-16630,|Hspell:448929|h,204,5913
-16631,7,205,5913
-16632,|Hspell:448930|h,204,5914
-16633,8,205,5914
-16634,|Hspell:448931|h,204,5915
-16635,9,205,5915
-16636,|Hspell:448932|h,204,5916
-16637,10,205,5916
-16638,|Hspell:448933|h,204,5917
-16639,11,205,5917
 16653,Delve Started,584,5921
 16654,Earthcrawl Mines (Tier %68030yc),585,5921
 16655,,598,5921
@@ -8931,18 +8886,6 @@ ID,Value_lang,ReqID,ParentWidgetID
 16688,,208,5960
 16689,,212,5961
 16690,Reward Name,277,5961
-16744,|cnWHITE_FONT_COLOR:%24429w|r |cnLIGHTERGRAY_FONT_COLOR:/ %26363w|r,56,5968
-16745,|Hspell:458103|h|nTotal deaths: %26215w,57,5968
-16746,,59,5968
-16747,,60,5968
-16748,,62,5968
-16749,,63,5968
-16750,,67,5968
-16751,,66,5968
-16752,,72,5968
-16753,,73,5968
-16754,,74,5968
-16755,,75,5968
 16756,Complete %43673e |4world quest:world quests; in the Isle of Dorn to unlock,52,5983
 16757,,394,5983
 16758,Complete %43674e |4world quest:world quests; in the Isle of Dorn to unlock,52,5984
@@ -9023,7 +8966,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 16851,,205,6021
 16854,|Hspell:456037|h|n|cnWHITE_FONT_COLOR:Enemy groups affected: 1|r,212,6029
 16855,0,277,6029
-16856,Complete Severed Threads Pact to access World Quests in Azj-Kahet.,52,6031
+16856,Complete Forging a Pact to access World Quests in Azj-Kahet.,52,6031
 16857,,394,6031
 16858,Fuel,19,6032
 16859,,273,6032
@@ -9134,8 +9077,6 @@ ID,Value_lang,ReqID,ParentWidgetID
 16997,Defeat the radiant echoes causing havoc around Dragonblight.,271,6070
 16998,,570,6070
 16999,Defeat the radiant echoes causing havoc around Dragonblight.,571,6070
-17000,|Hspell:458732|h,204,6071
-17001,?,205,6071
 17002,,212,6072
 17003,0,277,6072
 17004,The Catalyst will unlock in:,19,6073
@@ -9176,12 +9117,6 @@ ID,Value_lang,ReqID,ParentWidgetID
 17043,,394,6083
 17044,,212,6084
 17045,,277,6084
-17046,,212,6085
-17047,,277,6085
-17048,,212,6086
-17049,,277,6086
-17050,,212,6087
-17051,,277,6087
 17052,,212,6088
 17053,,277,6088
 17054,,212,6089
@@ -9198,22 +9133,6 @@ ID,Value_lang,ReqID,ParentWidgetID
 17079,,277,6095
 17080,,212,6096
 17081,,277,6096
-17082,,212,6097
-17083,,277,6097
-17084,,212,6098
-17085,,277,6098
-17086,,212,6099
-17087,,277,6099
-17088,,212,6100
-17089,,277,6100
-17090,,212,6101
-17091,,277,6101
-17092,,212,6102
-17093,,277,6102
-17094,,212,6103
-17095,,277,6103
-17096,,212,6104
-17097,,277,6104
 17104,Shortcut Resources,19,6108
 17105,,273,6108
 17106,Donate carried ore to help build a temporary shortcut for you and your fellow couriers,208,6108
@@ -9244,18 +9163,6 @@ ID,Value_lang,ReqID,ParentWidgetID
 17152,,394,6129
 17153,- Renown Rank: |cFFFFFFFF%2904c|r,52,6130
 17154,,394,6130
-17178,|cnRED_FONT_COLOR:%24429w|r |cnLIGHTERGRAY_FONT_COLOR:/ %26363w|r,56,6136
-17179,|Hspell:462445|h|nTotal deaths: %26215w,57,6136
-17180,,59,6136
-17181,,60,6136
-17182,,62,6136
-17183,,63,6136
-17184,,67,6136
-17185,,66,6136
-17186,,72,6136
-17187,,73,6136
-17188,,74,6136
-17189,,75,6136
 17205,Azeroth's memories are subdued. They will resurface in Dustwallow Marsh in %26402ht.,52,6141
 17206,,394,6141
 17207,,204,6143
@@ -9295,32 +9202,10 @@ ID,Value_lang,ReqID,ParentWidgetID
 17247,,248,6154
 17248,,239,6154
 17249,,249,6154
-17250,,212,6155
-17251,,277,6155
-17252,,212,6156
-17253,,277,6156
-17254,,212,6157
-17255,,277,6157
-17256,,212,6158
-17257,,277,6158
-17258,,212,6159
-17259,,277,6159
-17260,,212,6160
-17261,,277,6160
-17262,,212,6161
-17263,,277,6161
-17264,,212,6162
-17265,,277,6162
-17266,,212,6163
-17267,,277,6163
-17268,,212,6164
-17269,,277,6164
-17270,,212,6165
-17271,,277,6165
 17272,Test Scenario,677,6166
-17273,5 |r|cnLIGHTERGRAY_FONT_COLOR:/ 10|r,679,6166
-17274,|Hspell:462445|h|nTotal deaths: %26215w,680,6166
-17275,5,681,6166
+17273,3 |r|cnLIGHTERGRAY_FONT_COLOR:/ 10|r,679,6166
+17274,|Hspell:458103|h|nTotal deaths: %26215w,680,6166
+17275,8,681,6166
 17278,|TInterface\ICONS\Spell_Holy_PureOfHeart.blp:15|t |cFF0091F2[Radiant Echo]|r: |cFFFFFFFF%220520ic|r,52,6168
 17279,,394,6168
 17283,|Hspell:462453|h|cnDARKYELLOW_FONT_COLOR:Time Left: %26814ha|r|n|n%453315sd,212,6170
@@ -9350,6 +9235,98 @@ ID,Value_lang,ReqID,ParentWidgetID
 17307,Defeat enemies within the memory to earn:|n- |TInterface\ICONS\INV_Gizmo_HardenedAdamantiteTube.blp:15|t |cFF0091F2[Coffer Key Shards]|r|n- |TInterface\ICONS\INV_Valorstone_Base.BLP:15|t |cFF0091F2[Valorstones]|r,52,6182
 17308,,394,6182
 17309,%ss,677,6183
-17310,5 |r|cnLIGHTERGRAY_FONT_COLOR:/ 10|r,679,6183
-17311,|Hspell:462445|h|nTotal deaths: %26215w,680,6183
+17310,%24429w |cnLIGHTERGRAY_FONT_COLOR:/ %26363w,679,6183
+17311,|Hspell:458103|h|nTotal deaths: %26215w,680,6183
 17312,%24430w,681,6183
+17313,%ss,677,6184
+17314,,679,6184
+17315,,680,6184
+17316,?,681,6184
+17317,%ss,677,6185
+17318,,679,6185
+17319,,680,6185
+17320,??,681,6185
+17321,,708,6166
+17322,,709,6166
+17323,Override tooltip test,710,6166
+17324,,711,6166
+17325,Earned!,718,6166
+17326,Unearned :(,719,6166
+17327,Scenario Tooltip,720,6166
+17331,Nerubian Forces,19,6186
+17332,,273,6186
+17333,Surive against the Nerubian onslaught!,208,6186
+17334,,708,6183
+17335,,709,6183
+17336,,710,6183
+17337,,711,6183
+17338,|Hspell:463212|h,718,6183
+17339,|Hspell:463213|h,719,6183
+17340,,720,6183
+17341,,708,6184
+17342,,709,6184
+17343,,710,6184
+17344,,711,6184
+17345,,718,6184
+17346,,719,6184
+17347,,720,6184
+17348,,708,6185
+17349,,709,6185
+17350,,710,6185
+17351,,711,6185
+17352,,718,6185
+17353,,719,6185
+17354,,720,6185
+17355,Awakened Cache Reward,19,6187
+17356,,273,6187
+17357,Current progress in Awakening The Machine. Every 5th wave completed provides a reward upgrade. You may open the Awakened Cache once per week.,208,6187
+17358,,204,6188
+17359,,205,6188
+17360,Patron Abilities,584,6191
+17361,The patron of your chosen Pact will grant you new abilities and buffs to be used in Khaz Algar.,585,6191
+17362,,598,6191
+17363,,204,6192
+17364,,205,6192
+17365,,204,6194
+17366,,205,6194
+17367,Rumors and Pact Treasures,584,6196
+17368,Rumor quests and treasures will become available after forging a Pact.,585,6196
+17369,,598,6196
+17370,,204,6197
+17371,,205,6197
+17372,Weekly Pacts,584,6200
+17373,"Access abilities, buffs, and events by forging weekly Pacts with members of the Severed Threads.",585,6200
+17374,,598,6200
+17375,,570,1911
+17376,,571,1911
+17377,|cnWHITE_FONT_COLOR:Unlocked|r,52,6201
+17378,,394,6201
+17379,,212,6202
+17380,,277,6202
+17381,,212,6203
+17382,,277,6203
+17383,|cnWHITE_FONT_COLOR:Unlocked Abilities|r,52,6204
+17384,,394,6204
+17385,Espionage Rumors & Weave-Rat Caches become available.,212,6205
+17386,Espionage & Caches,277,6205
+17387,A parcel of professions materials and Kaheti currency.,212,6206
+17388,Weaver's Parcel,277,6206
+17389,,19,6207
+17390,%2601fn,273,6207
+17391,Next Rank Will Reward You With|n|Hitem:226520|h,208,6207
+17392,|cnWHITE_FONT_COLOR:Next Unlocked Ability|r,52,6209
+17393,,394,6209
+17394,|cnWHITE_FONT_COLOR:Next Tier's Reward|r,52,6212
+17395,,394,6212
+17396,,212,6216
+17397,Weaver's Prodigy,277,6216
+17398,,212,6217
+17399,Vizier's Supremacy,277,6217
+17400,,212,6218
+17401,General's Bulwark,277,6218
+17402,Aspirant Kiipka is on pilgrimage to Forgotten Memorials in Azj-Kahet. Pay tribute and duel him to recieve a gift.,212,6219
+17403,Treasure: Forgotten Memorials,277,6219
+17404,Complete Rumors throughout Azj-Kahet. Start them by locating Brokers or purchasing maps from Yamas the Provider.,212,6220
+17405,Rumors,277,6220
+17406,Complete Rumors throughout Azj-Kahet. Start them by locating Brokers or purchasing maps from Yamas the Provider.,212,6221
+17407,Rumors,277,6221
