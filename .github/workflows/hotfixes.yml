@@ -1,0 +1,60 @@
+name: Updating hotfixes branch
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '00 08 * * *'
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+    steps:
+
+    - uses: actions/checkout@v4
+
+    - name: Download latest hotfixes
+      run: |
+        ls .
+        tree .
+        declare -A product_map
+        product_map=(
+          ["wow"]="_retail_"
+          ["wowt"]="_ptr_"
+          ["wow_beta"]="_beta_"
+          ["wow_classic"]="_classic_"
+          ["wow_classic_era"]="_classic_era_"
+        )
+        for product in "${!product_map[@]}"; do
+          slug="${product_map[$product]}"
+          url="https://dbcache.raiderio.net/latest/$slug/url.txt"
+          url_latest=$(curl -f -s "$url" || echo "")
+          if [[ -n "$url_latest" ]]; then
+            file="$product/enUS/DBCache.bin"
+            tempfile="$file.temp"
+            curl -f -s -o "$tempfile" "$url_latest"
+            if [[ -f "$tempfile" && ! -s "$tempfile" ]]; then
+              rm "$tempfile"
+            else
+              mv "$tempfile" "$file"
+            fi
+          fi
+        done
+
+    - name: Commit changes
+      run: |
+        set -euo pipefail
+        git add -v .
+        echo "Checking if there are changes to be commited and pushed..."
+        if [[ -n $(git status --porcelain) ]] || ! git diff --quiet; then
+          if git commit --message "${message}" >/dev/null 2>&1; then
+            echo "Commiting and pushing..."
+            git push --force-with-lease
+          else
+            echo "Unable to commit."
+          fi
+        else
+          echo "Nothing to commit."
+        fi
+        echo "Done!"
