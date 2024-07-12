@@ -5640,7 +5640,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 19389,Nozdormu Assaulted First,19386,1,0,18660,0,0
 19390,Ysera Assaulted First,19386,1,0,18661,0,0
 19392,,0,0,4,0,0,0
-19393,Taragaman the Hungerer,19392,1,0,18523,0,2
+19393,Taragaman the Hungerer,19392,1,0,525,0,2
 19395,server-only,0,0,4,0,0,2
 19398,server-only,0,0,4,0,0,2
 19401,server-only,0,0,4,0,0,2
@@ -6268,7 +6268,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 20342,,0,0,4,0,0,0
 20343,"Corla, Herald of Twilight",20342,1,0,15944,0,2
 20345,,0,1,8,0,0,0
-20346,Frosty's Collar,20345,1,0,15365,0,2
+20346,Frosty's Collar,20345,1,0,15365,1,2
 20347,Frosty,20345,0,0,15366,0,2
 20349,,0,0,4,0,0,0
 20350,,20349,2300,0,15300,0,2
@@ -6624,12 +6624,6 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 22157,Obtain 50 unique companion pets,22156,50,0,68031,0,1
 22158,Obtain 75 unique companion pets,0,0,4,0,0,0
 22159,Collect 75 unique pets.,22158,75,0,68031,0,1
-22160,,0,0,4,0,0,0
-22161,Obtain 100 companion pets,22160,100,0,19598,0,1
-22162,,0,0,4,0,0,0
-22163,Obtain 125 companion pets,22162,125,0,19598,0,1
-22164,,0,0,4,0,0,0
-22165,Obtain 150 companion pets,22164,150,0,19598,0,1
 22423,server-only,0,0,4,0,0,2
 22621,,0,0,4,0,0,0
 24789,server-only,0,1,6,0,0,2
@@ -8695,11 +8689,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 45212,,45150,0,0,28864,5,2
 70878,,1272,0,0,16515,1,0
 70879,Eye of the Storm flag captures,1278,0,0,33092,1,0
-79657,Arathi Basin victories,5504,0,0,44966,1,0
-79658,Arathi Basin victories,5504,0,0,44965,2,0
-79661,Arathi Basin victories,5504,0,0,44967,3,0
 79705,Warsong Gulch,5507,0,0,45067,1,0
-79706,Warsong Gulch Victories,3068,0,0,45085,1,0
 79709,Warsong Gulch flags returned,5224,0,0,45077,1,0
 79710,Warsong Gulch flags captured,4043,0,0,45077,1,0
 81953,Ruins of Lordaeron 2v2 Wins,6151,0,0,46360,6,0
@@ -12125,7 +12115,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 124780,Temple City of En'kilah,124768,0,0,4122,0,0
 124781,Coldarra,124768,0,0,4128,0,0
 124782,,0,1,8,0,0,0
-124783,Frosty's Collar,124782,1,0,592,0,2
+124783,Frosty's Collar,124782,1,0,592,1,2
 124784,Frosty,124782,0,0,6156,0,2
 124785,,0,50,5,0,0,0
 124786,Orgrimmar,124785,50,0,5031,0,3
@@ -22614,3 +22604,5 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 166491,Twin Peaks Perfection,17844,0,0,14837,9,0
 166492,Peak Speed,17844,0,0,14838,10,0
 166493,Twin Peaks Mountaineer,17844,0,0,14843,11,0
+167959,,124782,0,0,69844,2,0
+167960,,20345,0,0,69845,2,0
