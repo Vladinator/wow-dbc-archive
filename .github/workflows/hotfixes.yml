@@ -3,7 +3,7 @@ name: hotfixes
 on:
   workflow_dispatch:
   schedule:
-    - cron: '00 08 * * *'
+    - cron: '00 */08 * * *'
 
 jobs:
 
@@ -36,11 +36,11 @@ jobs:
             tempfile="$file.temp"
             mkdir -p "$path"
             curl -f -s -o "$tempfile" "$url_latest"
-            if [[ -f "$tempfile" && ! -s "$tempfile" ]]; then
-              rm "$tempfile"
-            else
+            if [[ $? -eq 0 && -f "$tempfile" && -s "$tempfile" ]]; then
               echo "Updated $file"
-              mv "$tempfile" "$file"
+              mv -f "$tempfile" "$file"
+            else
+              rm -f "$tempfile"
             fi
           fi
         done
