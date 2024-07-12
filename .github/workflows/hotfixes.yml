@@ -49,13 +49,13 @@ jobs:
     - name: Commit changes
       run: |
         set -euo pipefail
+        git config user.name "GitHub Actions"
+        git config user.email noreply@github.com
         git add -v .
         echo "Checking if there are changes to be commited and pushed..."
         if [[ -n $(git status --porcelain) ]] || ! git diff --quiet; then
           message="Updated $(date +'%Y-%m-%d %H:%M:%S')"
-          echo "$message"
-          #if git commit --message "${message}" >/dev/null 2>&1; then
-          if git commit --message "${message}"; then
+          if git commit --message "${message}" >/dev/null 2>&1; then
             echo "Commiting and pushing..."
             git push --force-with-lease
           else
