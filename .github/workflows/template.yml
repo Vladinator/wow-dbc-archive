@@ -94,38 +94,12 @@ jobs:
       run: |
         cp -rf ./WoWDBDefs/definitions/* ./definitions/
 
-    - name: Download latest hotfixes
+    - name: Download latest hotfix
       if: ${{ steps.check.outputs.skip != 'true' }}
       run: |
-        ls -a "."
-        product=${{ inputs.NAME }}
-        db2_path="extracts/${{ inputs.PRODUCT }}/db2"
-        ls -a "$db2_path"
-        declare -A product_slugs
-        product_slugs=(
-          ["wow"]="_retail_"
-          ["wow_beta"]="_beta_"
-          ["wow_classic"]="_classic_"
-          ["wow_classic_era"]="_classic_era_"
-        )
-        product_slug=""
-        if [[ -n "${product_slugs[$product]}" ]]; then
-          product_slug="${product_slugs[$product]}"
-        fi
-        if [[ -n "$product_slug" ]]; then
-          hotfix_url="https://dbcache.raiderio.net/latest/$product_slug/url.txt"
-          hotfix_latest_url=$(curl -f -s "$hotfix_url" || echo "")
-          echo "$hotfix_url yielded: $hotfix_latest_url"
-          if [[ -n "$hotfix_latest_url" ]]; then
-            hotfix_file="$db2_path/$product_slug.bin"
-            echo "saving hotfix file: $hotfix_file"
-            curl -f -s -o "$hotfix_file" "$hotfix_latest_url"
-            if [[ -f "$hotfix_file" && ! -s "$hotfix_file" ]]; then
-              echo "removing empty hotfix file: $hotfix_file"
-              rm "$hotfix_file"
-            fi
-          fi
-        fi
+        ls .
+        tree .
+        wget -q "https://github.com/${{ github.repository }}/raw/hotfixes/${{ inputs.PRODUCT }}/enUS/DBCache.bin" -O extracts/${{ inputs.PRODUCT }}/db2/DBCache.bin
 
     - name: Run DBC2CSV
       if: ${{ steps.check.outputs.skip != 'true' }}
