@@ -21,7 +21,7 @@ jobs:
         declare -A product_map
         product_map=(
           ["wow"]="_retail_"
-          ["wowt"]="_ptr_"
+          # ["wowt"]="_ptr_"
           ["wow_beta"]="_beta_"
           ["wow_classic"]="_classic_"
           ["wow_classic_era"]="_classic_era_"
@@ -31,16 +31,20 @@ jobs:
           url="https://dbcache.raiderio.net/latest/$slug/url.txt"
           url_latest=$(curl -f -s "$url" || echo "")
           if [[ -n "$url_latest" ]]; then
-            file="$product/enUS/DBCache.bin"
+            path="$product/enUS"
+            file="$path/DBCache.bin"
             tempfile="$file.temp"
+            mkdir -p "$path"
             curl -f -s -o "$tempfile" "$url_latest"
             if [[ -f "$tempfile" && ! -s "$tempfile" ]]; then
               rm "$tempfile"
             else
+              echo "Updated $file"
               mv "$tempfile" "$file"
             fi
           fi
         done
+        find . -depth -type d -empty -delete
 
     - name: Commit changes
       run: |
@@ -49,7 +53,9 @@ jobs:
         echo "Checking if there are changes to be commited and pushed..."
         if [[ -n $(git status --porcelain) ]] || ! git diff --quiet; then
           message="Updated $(date +'%Y-%m-%d %H:%M:%S')"
-          if git commit --message "${message}" >/dev/null 2>&1; then
+          echo "$message"
+          #if git commit --message "${message}" >/dev/null 2>&1; then
+          if git commit --message "${message}"; then
             echo "Commiting and pushing..."
             git push --force-with-lease
           else
