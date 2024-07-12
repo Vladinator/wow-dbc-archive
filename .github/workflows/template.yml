@@ -99,7 +99,18 @@ jobs:
       run: |
         ls .
         tree .
-        wget -q "https://github.com/${{ github.repository }}/raw/hotfixes/${{ inputs.PRODUCT }}/enUS/DBCache.bin" -O extracts/${{ inputs.PRODUCT }}/db2/DBCache.bin
+        hotfixoutput="extracts/${{ inputs.PRODUCT }}/db2"
+        hotfixname="DBCache.bin"
+        hotfixfile="$hotfixoutput/$hotfixname"
+        hotfixfiletemp="$hotfixfile.temp"
+        hotfixbranch="hotfixes"
+        hotfixlocale="enUS"
+        curl -sfL "https://github.com/${{ github.repository }}/raw/$hotfixbranch/${{ inputs.PRODUCT }}/$hotfixlocale/$hotfixname" -o "$hotfixfiletemp"
+        if [[ $? -eq 0 && -f "$hotfixfiletemp" && -s "$hotfixfiletemp" ]]; then
+          mv -f "$hotfixfiletemp" "$hotfixfile"
+        else
+          rm -f "$hotfixfiletemp"
+        fi
 
     - name: Run DBC2CSV
       if: ${{ steps.check.outputs.skip != 'true' }}
