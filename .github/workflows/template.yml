@@ -97,9 +97,7 @@ jobs:
     - name: Download latest hotfix
       if: ${{ steps.check.outputs.skip != 'true' }}
       run: |
-        ls .
-        tree .
-        hotfixoutput="extracts/${{ inputs.PRODUCT }}/db2"
+        hotfixoutput="./"
         hotfixname="DBCache.bin"
         hotfixfile="$hotfixoutput/$hotfixname"
         hotfixfiletemp="$hotfixfile.temp"
