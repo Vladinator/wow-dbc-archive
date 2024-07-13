@@ -96,6 +96,7 @@ jobs:
 
     - name: Download latest hotfix
       if: ${{ steps.check.outputs.skip != 'true' }}
+      id: hotfix
       run: |
         hotfixoutput="extracts/${{ inputs.PRODUCT }}/db2"
         hotfixname="DBCache.bin"
@@ -108,7 +109,7 @@ jobs:
         if [[ $? -eq 0 && -f "$hotfixfiletemp" && -s "$hotfixfiletemp" ]]; then
           mv -f "$hotfixfiletemp" "$hotfixfile"
           echo "Successfully applied hotfix: $hotfixpath"
-          echo "hotfix=true" >> $GITHUB_OUTPUT
+          echo "active=true" >> $GITHUB_OUTPUT
         else
           rm -f "$hotfixfiletemp"
           echo "Unable to apply hotfix: $hotfixpath"
@@ -140,7 +141,7 @@ jobs:
         cat "$tempfile"
         IFS=',' read -r runExitCode table_count table_count_success table_count_error <<< "$output"
         echo "DBC2CSV exited with code $runExitCode: $table_count files scanned. $table_count_success converted. $table_count_error failed."
-        if [[ "${{ steps.check.outputs.hotfix }}" == "true" ]]; then
+        if [[ "${{ steps.hotfix.outputs.active }}" == "true" ]]; then
           if [[ $runExitCode -ne 0 || $table_count -le 100 || $table_count_success -le $(( table_count / 2 )) ]]; then
             echo "Trying to recover by re-trying without the hotfix."
             rm -f *.bin
