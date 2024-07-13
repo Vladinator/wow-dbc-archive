@@ -103,11 +103,14 @@ jobs:
         hotfixfiletemp="$hotfixfile.temp"
         hotfixbranch="hotfixes"
         hotfixlocale="enUS"
-        curl -sfL "https://github.com/${{ github.repository }}/raw/$hotfixbranch/${{ inputs.PRODUCT }}/$hotfixlocale/$hotfixname" -o "$hotfixfiletemp"
+        hotfixpath="${{ inputs.PRODUCT }}/$hotfixlocale/$hotfixname"
+        curl -sfL "https://github.com/${{ github.repository }}/raw/$hotfixbranch/$hotfixpath" -o "$hotfixfiletemp"
         if [[ $? -eq 0 && -f "$hotfixfiletemp" && -s "$hotfixfiletemp" ]]; then
           mv -f "$hotfixfiletemp" "$hotfixfile"
+          echo "Successfully applied hotfix: $hotfixpath"
         else
           rm -f "$hotfixfiletemp"
+          echo "Unable to apply hotfix: $hotfixpath"
         fi
 
     - name: Run DBC2CSV
