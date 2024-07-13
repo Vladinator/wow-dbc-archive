@@ -118,31 +118,39 @@ jobs:
       if: ${{ steps.check.outputs.skip != 'true' }}
       working-directory: extracts/${{ inputs.PRODUCT }}/db2
       run: |
+        tempfile=$(mktemp)
         run_dbc2csv() {
+          ../../../DBC2CSV . &> "$tempfile"
+          local runExitCode=$?
           local table_count=0
           local table_count_error=0
-          ../../../DBC2CSV . | tee >(while IFS= read -r line; do
+          while IFS= read -r line; do
             if [[ $line == *"Exporting table"* ]]; then
               (( table_count++ ))
             elif [[ $line == *"Failed to export"* ]]; then
-              (( table_count_error++ ))
+              if ! [[ $line == *"No rows found"* ]]; then
+                (( table_count_error++ ))
+              fi
             fi
-          done)
-          local runExitCode=${PIPESTATUS[0]}
+          done < "$tempfile"
           local table_count_success=$(( table_count - table_count_error ))
           echo "$runExitCode,$table_count,$table_count_success,$table_count_error"
         }
         output=$(run_dbc2csv)
+        cat "$tempfile"
         IFS=',' read -r runExitCode table_count table_count_success table_count_error <<< "$output"
         if [[ "${{ steps.check.outputs.hotfix }}" == "true" ]]; then
           if [[ $runExitCode -ne 0 || $table_count_success -le $(( table_count / 2 )) ]]; then
+            echo "Trying to recover by re-trying without the hotfix."
             rm -f *.bin
             output=$(run_dbc2csv)
+            cat "$tempfile"
             IFS=',' read -r runExitCode table_count table_count_success table_count_error <<< "$output"
           fi
         fi
         echo "DBC2CSV exited with code $runExitCode: $table_count files scanned. $table_count_success converted. $table_count_error failed."
         find . -type f ! -iname "*.csv" -delete
+        rm -f "$tempfile"
 
     - name: Create branch for release
       if: ${{ steps.check.outputs.skip != 'true' }}
