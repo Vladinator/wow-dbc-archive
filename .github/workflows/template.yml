@@ -97,7 +97,7 @@ jobs:
     - name: Download latest hotfix
       if: ${{ steps.check.outputs.skip != 'true' }}
       run: |
-        hotfixoutput="./"
+        hotfixoutput="extracts/${{ inputs.PRODUCT }}/db2"
         hotfixname="DBCache.bin"
         hotfixfile="$hotfixoutput/$hotfixname"
         hotfixfiletemp="$hotfixfile.temp"
@@ -108,6 +108,7 @@ jobs:
         if [[ $? -eq 0 && -f "$hotfixfiletemp" && -s "$hotfixfiletemp" ]]; then
           mv -f "$hotfixfiletemp" "$hotfixfile"
           echo "Successfully applied hotfix: $hotfixpath"
+          echo "hotfix=true" >> $GITHUB_OUTPUT
         else
           rm -f "$hotfixfiletemp"
           echo "Unable to apply hotfix: $hotfixpath"
@@ -118,6 +119,10 @@ jobs:
       working-directory: extracts/${{ inputs.PRODUCT }}/db2
       run: |
         ../../../DBC2CSV .
+        if [[ $? -ne 0 && "${{ steps.check.outputs.hotfix }}" == "true" ]]; then
+          rm -f *.bin
+          ../../../DBC2CSV .
+        fi
         find . -type f ! -iname "*.csv" -delete
 
     - name: Create branch for release
