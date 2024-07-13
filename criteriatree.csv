@@ -5640,7 +5640,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 19389,Nozdormu Assaulted First,19386,1,0,18660,0,0
 19390,Ysera Assaulted First,19386,1,0,18661,0,0
 19392,,0,0,4,0,0,0
-19393,Taragaman the Hungerer,19392,1,0,18523,0,2
+19393,Taragaman the Hungerer,19392,1,0,525,0,2
 19395,server-only,0,0,4,0,0,2
 19398,server-only,0,0,4,0,0,2
 19401,server-only,0,0,4,0,0,2
@@ -6268,7 +6268,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 20342,,0,0,4,0,0,0
 20343,"Corla, Herald of Twilight",20342,1,0,15944,0,2
 20345,,0,1,8,0,0,0
-20346,Frosty's Collar,20345,1,0,15365,0,2
+20346,Frosty's Collar,20345,1,0,15365,1,2
 20347,Frosty,20345,0,0,15366,0,2
 20349,,0,0,4,0,0,0
 20350,,20349,2300,0,15300,0,2
@@ -6624,12 +6624,6 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 22157,Obtain 50 unique companion pets,22156,50,0,68031,0,1
 22158,Obtain 75 unique companion pets,0,0,4,0,0,0
 22159,Collect 75 unique pets.,22158,75,0,68031,0,1
-22160,,0,0,4,0,0,0
-22161,Obtain 100 companion pets,22160,100,0,19598,0,1
-22162,,0,0,4,0,0,0
-22163,Obtain 125 companion pets,22162,125,0,19598,0,1
-22164,,0,0,4,0,0,0
-22165,Obtain 150 companion pets,22164,150,0,19598,0,1
 22423,server-only,0,0,4,0,0,2
 22621,,0,0,4,0,0,0
 24789,server-only,0,1,6,0,0,2
@@ -8695,11 +8689,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 45212,,45150,0,0,28864,5,2
 70878,,1272,0,0,16515,1,0
 70879,Eye of the Storm flag captures,1278,0,0,33092,1,0
-79657,Arathi Basin victories,5504,0,0,44966,1,0
-79658,Arathi Basin victories,5504,0,0,44965,2,0
-79661,Arathi Basin victories,5504,0,0,44967,3,0
 79705,Warsong Gulch,5507,0,0,45067,1,0
-79706,Warsong Gulch Victories,3068,0,0,45085,1,0
 79709,Warsong Gulch flags returned,5224,0,0,45077,1,0
 79710,Warsong Gulch flags captured,4043,0,0,45077,1,0
 81953,Ruins of Lordaeron 2v2 Wins,6151,0,0,46360,6,0
@@ -12125,7 +12115,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 124780,Temple City of En'kilah,124768,0,0,4122,0,0
 124781,Coldarra,124768,0,0,4128,0,0
 124782,,0,1,8,0,0,0
-124783,Frosty's Collar,124782,1,0,592,0,2
+124783,Frosty's Collar,124782,1,0,592,1,2
 124784,Frosty,124782,0,0,6156,0,2
 124785,,0,50,5,0,0,0
 124786,Orgrimmar,124785,50,0,5031,0,3
@@ -22614,3 +22604,69 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 166491,Twin Peaks Perfection,17844,0,0,14837,9,0
 166492,Peak Speed,17844,0,0,14838,10,0
 166493,Twin Peaks Mountaineer,17844,0,0,14843,11,0
+167959,,124782,0,0,69844,2,0
+167960,,20345,0,0,69845,2,0
+12267,Sparkling Oasis Water,129174,1,0,16952,0,2
+12268,Fresh Water,129174,1,0,16945,0,2
+12269,Fungus Squeezings,129174,1,0,16946,0,2
+12270,Highland Spring Water,129174,1,0,16949,0,2
+12271,South Island Iced Tea,129174,1,0,16951,0,2
+12277,Greasy Whale Milk,129174,1,0,16947,0,2
+12278,Starfire Espresso,129174,1,0,16953,0,2
+12279,Highland Spirits,129174,1,0,16948,0,2
+12280,Murky Water,129174,1,0,16950,0,2
+12281,Darkbrew Lager,129174,1,0,17002,0,2
+13608,Rock-Hard Biscuit,131509,1,0,16982,0,2
+13609,Severed Sagefish Head,131509,1,0,16987,0,2
+13610,Sour Green Apple,131509,1,0,16992,0,2
+13611,Tender Baked Turtle,131509,1,0,16995,0,2
+13612,Unidentifiable Meat Dish,131509,1,0,16997,0,2
+13613,Vile Purple Fungus,131509,1,0,16998,0,2
+13614,Blackened Surprise,131509,1,0,16957,0,2
+13615,Buttery Wheat Roll,131509,1,0,16959,0,2
+13616,Chocolate Cookie,131509,1,0,16960,0,2
+13617,Crocolisk Au Gratin,131509,1,0,16961,0,2
+13618,Fortune Cookie,131509,1,0,16964,0,2
+13619,Hardtack,131509,1,0,16968,0,2
+13620,Highland Pomegranate,131509,1,0,16970,0,2
+13621,Lurker Lunch,131509,1,0,16975,0,2
+13622,Massive Turkey Leg,131509,1,0,16976,0,2
+13623,Pine Nut Bread,131509,1,0,16980,0,2
+13624,Roasted Beef,131509,1,0,16981,0,2
+13625,Salted Eye,131509,1,0,16983,0,2
+13626,Seasoned Crab,131509,1,0,16986,0,2
+13627,Skewered Eel,131509,1,0,16989,0,2
+13628,Sliced Raw Billfish,131509,1,0,16990,0,2
+13629,Smoked String Cheese,131509,1,0,16991,0,2
+13630,Tropical Sunfruit,131509,1,0,16996,0,2
+13631,Whitecrest Gumbo,131509,1,0,17000,0,2
+13632,Baked Rockfish,131509,1,0,17001,0,2
+13634,Stewed Rabbit,131509,1,0,16993,0,2
+13635,Hearty Seafood Soup,131509,1,0,16969,0,2
+13636,Mushroom Sauce Mudfish,131509,1,0,16977,0,2
+13641,Broiled Mountain Trout,131509,1,0,16958,0,2
+13642,Gilnean White,131509,1,0,16965,0,2
+13643,Highland Sheep Cheese,131509,1,0,16971,0,2
+13644,Oily Giblets,131509,1,0,16978,0,2
+13645,Scarlet Polypore,131509,1,0,16985,0,2
+13646,Blackbelly Sushi,131509,1,0,16956,0,2
+13647,Grilled Dragon,131509,1,0,16966,0,2
+13648,Lightly Fried Lurker,131509,1,0,16974,0,2
+13649,Scalding Murglesnout,131509,1,0,16984,0,2
+13650,Beer-Basted Crocolisk,131509,1,0,16955,0,2
+13651,Lavascale Minestrone,131509,1,0,16973,0,2
+13652,Violet Morel,131509,1,0,16999,0,2
+13653,Fish Fry,131509,1,0,16963,0,2
+13654,Pickled Guppy,131509,1,0,16979,0,2
+13655,Grilled Shark,131509,1,0,16967,0,2
+13656,Basilisk Liverdog,131509,1,0,16954,0,2
+13657,Delicious Sagefish Tail,131509,1,0,16962,0,2
+13658,Lavascale Fillet,131509,1,0,16972,0,2
+13659,Simmered Squid,131509,1,0,16988,0,2
+13660,Tasty Puffball,131509,1,0,16994,0,2
+13671,Dried Sausage,131509,0,0,18619,0,2
+13672,Pickled Sausage,131509,0,0,18622,0,2
+13673,Spicy Smoked Sausage,131509,0,0,18623,0,2
+13677,Succulent Sausage,131509,0,0,18620,0,2
+13679,Spiced Onion Cheese,131509,0,0,18621,0,2
+13682,The Golden Link,131509,0,0,18624,0,2
