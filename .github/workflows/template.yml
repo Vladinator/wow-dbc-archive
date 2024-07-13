@@ -139,16 +139,17 @@ jobs:
         output=$(run_dbc2csv)
         cat "$tempfile"
         IFS=',' read -r runExitCode table_count table_count_success table_count_error <<< "$output"
+        echo "DBC2CSV exited with code $runExitCode: $table_count files scanned. $table_count_success converted. $table_count_error failed."
         if [[ "${{ steps.check.outputs.hotfix }}" == "true" ]]; then
-          if [[ $runExitCode -ne 0 || $table_count_success -le $(( table_count / 2 )) ]]; then
+          if [[ $runExitCode -ne 0 || $table_count -le 100 || $table_count_success -le $(( table_count / 2 )) ]]; then
             echo "Trying to recover by re-trying without the hotfix."
             rm -f *.bin
             output=$(run_dbc2csv)
             cat "$tempfile"
             IFS=',' read -r runExitCode table_count table_count_success table_count_error <<< "$output"
+            echo "DBC2CSV exited with code $runExitCode: $table_count files scanned. $table_count_success converted. $table_count_error failed."
           fi
         fi
-        echo "DBC2CSV exited with code $runExitCode: $table_count files scanned. $table_count_success converted. $table_count_error failed."
         find . -type f ! -iname "*.csv" -delete
         rm -f "$tempfile"
 
