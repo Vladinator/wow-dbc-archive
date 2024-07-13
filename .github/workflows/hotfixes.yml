@@ -37,7 +37,7 @@ jobs:
             mkdir -p "$path"
             curl -f -s -o "$tempfile" "$url_latest"
             if [[ $? -eq 0 && -f "$tempfile" && -s "$tempfile" ]]; then
-              echo "Updated $file"
+              printf "Updated %s (%'d bytes)\n" "$file" "$(stat --format="%s" "$file")"
               mv -f "$tempfile" "$file"
             else
               rm -f "$tempfile"
