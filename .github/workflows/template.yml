@@ -105,7 +105,7 @@ jobs:
         hotfixbranch="hotfixes"
         hotfixlocale="enUS"
         hotfixpath="${{ inputs.PRODUCT }}/$hotfixlocale/$hotfixname"
-        curl -sfL "https://github.com/${{ github.repository }}/raw/$hotfixbranch/$hotfixpath" -o "$hotfixfiletemp"
+        curl -sfL "https://github.com/${{ github.repository }}/raw/$hotfixbranch/$hotfixpath" -o "$hotfixfiletemp" || true
         if [[ $? -eq 0 && -f "$hotfixfiletemp" && -s "$hotfixfiletemp" ]]; then
           mv -f "$hotfixfiletemp" "$hotfixfile"
           echo "Successfully applied hotfix: $hotfixpath"
