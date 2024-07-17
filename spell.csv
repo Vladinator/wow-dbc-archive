@@ -22237,11 +22237,10 @@ $@null",
 349863,,Restores your suspended world effects.,
 349981,,,"World effects suspended:
 
-$?$W1!=0[$@spelldesc348779 $@spellicon22817 $@spellname22817 (${$w1/60}m)][]$?$W2!=0[$@spelldesc348779 $@spellicon22818 $@spellname22818 (${$w2/60}m)][]$?$W3!=0[$@spelldesc348779 $@spellicon22820 $@spellname22820 (${$w3/60}m)][]$?$W4!=0[$@spelldesc348779 $@spellicon22888 $@spellname22888 (${$w4/60}m)][]$?$W5!=0[$@spelldesc348779 $@spellicon16609 $@spellname16609 (${$w5/60}m)][]$?$W6!=0[$@spelldesc348779 $@spellicon24425 $@spellname24425 (${$w6/60}m)][]$?$W7!=0[$@spelldesc348779 $@spellicon15366 $@spellname15366 (${$w7/60}m)][]$?$W8!=0[$@spelldesc348779 $@spellicon23768 $@spellname353694 (${$w8/60}m)][]$?$W10!=0[$@spelldesc348779 $@spellicon430947 $@spellname430947 (${$w10/60}m)][]$?$W11!=0[$@spelldesc348779 $@spellicon438536 $@spellname438536 (${$w11/60}m)][]$?$W12!=0[$@spelldesc348779 $@spellicon446695 $@spellname446695 (${$w12/60}m)][]$?$W13!=0[$@spelldesc460939 $@spellicon460939 $@spellname460939 (${$w13/60}m)][]
+$?$W1!=0[$@spelldesc348779 $@spellicon22817 $@spellname22817 (${$w1/60}m)][]$?$W2!=0[$@spelldesc348779 $@spellicon22818 $@spellname22818 (${$w2/60}m)][]$?$W3!=0[$@spelldesc348779 $@spellicon22820 $@spellname22820 (${$w3/60}m)][]$?$W4!=0[$@spelldesc348779 $@spellicon22888 $@spellname22888 (${$w4/60}m)][]$?$W5!=0[$@spelldesc348779 $@spellicon16609 $@spellname16609 (${$w5/60}m)][]$?$W6!=0[$@spelldesc348779 $@spellicon24425 $@spellname24425 (${$w6/60}m)][]$?$W7!=0[$@spelldesc348779 $@spellicon15366 $@spellname15366 (${$w7/60}m)][]$?$W8!=0[$@spelldesc348779 $@spellicon23768 $@spellname353694 (${$w8/60}m)][]$?$W10!=0[$@spelldesc348779 $@spellicon430947 $@spellname430947 (${$w10/60}m)][]$?$W11!=0[$@spelldesc348779 $@spellicon438536 $@spellname438536 (${$w11/60}m)][]$?$W12!=0[$@spelldesc348779 $@spellicon446695 $@spellname446695 (${$w12/60}m)][]
 
 
-
-While a world effect is suspended, you cannot benefit from"
+While a world effect is suspended, you cannot benefit from it."
 350025,,"Launches a bolt of frost at the enemy, causing $s2 Frost damage and slowing movement speed by $s1% for $d.",Movement slowed by $s1%.
 350026,,"Sends a shadowy bolt at the enemy, causing $s1 Shadow damage.",
 353694,,,
@@ -24300,7 +24299,7 @@ Movement speed reduced to $s2% of normal."
 413052,,,
 413247,,,"Cast time of next Lesser Heal, Heal, Greater Heal, or Prayer of Healing reduced by $s1%."
 413248,,"Healing with Flash Heal reduces the cast time of your next Lesser Heal, Heal, Greater Heal, or Prayer of Healing by $413247s1% for $413247d, stacking up to $413247u times.",
-413251,,"Mind Blast, Mind Spike, and Mind Flay refresh the duration of your one of your Shadow Word: Pain, Void Plague, or Vampiric Touch abilities on the target back to its maximum duration. The ability with the shortest remaining duration will always be the one refreshed.",
+413251,,Mind Blast refreshes the duration of your Shadow Word: Pain on the target back to its maximum duration.,
 413259,,"Causes an explosion of shadow magic damaging the enemy target and other nearby enemies, causing ${$413260m1/100*$<damagepower>} to ${$413260M1/100*$<damagepower>} Shadow damage every $T1 sec for $d to all enemies within $413260a1 yards of the target.",Causing shadow damage to all targets within $413260a1 yards.
 413260,,"Causes an explosion of shadow magic around the enemy target, causing $s1 Shadow damage every 1 sec for $48045d to all enemies within $a1 yards around the target.",Causing shadow damage to all targets within $a1 yards.
 413301,,"Killing an enemy worth experience or Honor generates ${$413302s1/10} Rage.
@@ -24403,7 +24402,7 @@ Each effect can only be extended up to its initial duration.
 415028,,,
 415058,,,"Gaining $m1% of total mana every $t1 sec.
 Healing spells reduced by $s2%."
-415059,,"Each time you hit a target with your melee weapon, you gain $415058m1% of your maximum mana per $415058t1 sec for $415058d, but the amount healed by your Flash of Light, Holy Light, and Holy Shock spells is reduced by $415058s2% during this mana regeneration.",
+415059,,"Each time you hit a target with your melee weapon, you gain $415058m1% of your maximum mana per $415058t1 sec for $415058d, but the amount healed by your Healing spells is reduced by $415058s2% during this mana regeneration.",
 415068,Rank 1,Causes $s1 Holy damage to an enemy target and has $s2% chance to crit against Demons and Undead.,
 415069,Rank 2,Causes $s1 Holy damage to an enemy target and has $s2% chance to crit against Demons and Undead.,
 415070,Rank 3,Causes $s1 Holy damage to an enemy target and has $s2% chance to crit against Demons and Undead.,
@@ -24419,7 +24418,7 @@ Healing spells reduced by $s2%."
 415105,,,"Your next Chain Lightning, Chain Heal,  or Lava Burst spell will be an instant cast spell."
 415112,,,
 415113,,,
-415140,,"Dealing damage with Lava Lash or Stormstrike increases your Attack Power by $s1% of your Intellect, and your spell damage by $s2% of your total Attack Power for $415144d.",
+415140,,"Dealing damage with Lava Lash or Stormstrike increases your Attack Power by $s1% of your Intellect, and your spell damage and healing by $s2% of your total Attack Power for $415144d.",
 415144,,,"Attack Power increased by $w1.
 Spell damage increased by $w2."
 415231,,"Your Flame Shock now strikes up to $s1 targets, gains ${$m5/1000} sec increased duration, and deals $s3% increased damage. In addition, while you have Flametongue Weapon imbued on an equipped weapon, you gain ${$m6*$PL} increased spell damage.",
@@ -24449,7 +24448,7 @@ Decreases damage taken by $s3%."
 415372,,,
 415399,,"Your Shot abilities gain $415401s1% increased critical strike chance while you have not moved for the last $s1 sec, stacking every sec up to $415401u times. At $415401u stacks, your Aimed Shot becomes instant. While moving, you will lose 1 stack per sec.",
 415401,,,Critical strike chance with Shot abilities increased by $s1%.$?$w=10[ Your Aimed Shot is instant.][]
-415405,,"Reduces the cooldown on Rapid Fire by $s1%, Rapid Fire now also grants $s3% increased melee attack speed, and your next Shot ability within $415407d after killing a target worth experience or honor deals $415407s2% increased damage.",
+415405,,"Reduces the cooldown on Rapid Fire by $s1%, and your next Shot ability within $415407d after killing a target worth experience or honor deals $415407s2% increased damage.",
 415407,,,Next Shot ability deals $s1% increased damage.
 415413,,"Each time one of your traps is triggered, your next Shot (except Scatter Shot) ability within $415414d costs no mana and does not incur a cooldown.",
 415414,,,Next Shot ability costs no mana and incurs no cooldown.
@@ -25868,11 +25867,11 @@ These values are increased by each living Blade Master in the Far Seer's army, e
 427713,,Your Conflagrate ability also grants $427714s1% spellcasting haste for $427714d and no longer consumes Immolate.,
 427714,,,Spellcasting haste increased by $s1%.
 427715,,,
-427717,,"Shadow energy slowly destroys the target, causing ${$m1*6*$<power>/100} damage over $d. In addition, if the Unstable Affliction is dispelled it will cause ${$m1*9*$<power>/100} damage to the dispeller and silence them for $427719d. Only one Unstable Affliction or Immolate per Warlock can be active on any one target.","$w1 Shadow damage every $t1 sec.  If dispelled, will cause ${$w1*9} damage to the dispeller and silence them for $427719d."
+427717,,"Shadow energy slowly destroys the target, causing ${$m1*6*$<power>/100} damage over $d.  In addition, if the Unstable Affliction is dispelled it will cause ${$m1*$m3*$<power>/100} damage to the dispeller and silence them for $427719d. Only one Unstable Affliction or Immolate per Warlock can be active on any one target.","$w1 Shadow damage every $t1 sec.  If dispelled, will cause ${$w1*$m3} damage to the dispeller and silence them for $427719d."
 427718,,,
 427719,,,Silenced.
 427725,,,
-427726,,"Burns nearby enemies for ${$<power>*$427725m1/100} damage every time an enemy makes a melee attack against you (no more than once per sec), reduces all magic damage taken by $s2%, and increases Fire damage done by $s3%. Lasts $d.","Burning nearby enemies for $w1 damage when attacked, taking $s2% reduced magic damage, and dealing $s3% increased Fire damage."
+427726,,"Burns nearby enemies for ${$<power>*$m1/100} damage every $t1 seconds, and reduces all magic damage taken by $s2%. Lasts $d.","Burning nearby enemies for $w1 damage every $t1 seconds, and taking $s2% reduced magic damage."
 427733,Summon,"Summons a Felguard under the command of the Warlock.
 
 The Felguard benefits from all talents and effects that trigger from or benefit any of your other Demon minions.",
@@ -27428,13 +27427,13 @@ Movement speed reduced by $s2%."
 439440,Rank 1,,
 439441,Rank 1,,
 439462,,"Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a $h% chance of poisoning the enemy, reducing the enemy's armor by $439471s1 for $439471d.  105 charges.
+Each strike has a $h% chance of poisoning the enemy, reducing the enemy's armor by $439471s1 for $439471d.
 
 Sebacious Poison benefits from the Improved Expose Armor talent.",
 439464,,"Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a $h% chance of poisoning the enemy, increasing the time between the enemy's melee attacks by $439472s1% for $439472d.  105 charges.",
+Each strike has a $h% chance of poisoning the enemy, increasing the time between the enemy's melee attacks by $439472s1% for $439472d.",
 439465,,"Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a $h% chance of poisoning the enemy, reducing the enemy's melee attack power by $439473s1 for $439473d.  105 charges.",
+Each strike has a $h% chance of poisoning the enemy, reducing the enemy's melee attack power by $439473s1 for $439473d.",
 439471,,,Armor reduced by $w1.
 439472,,,Time between attacks increased by $s1%.
 439473,,,Melee attack power reduced by $s1.
@@ -28254,7 +28253,7 @@ Defense increased by $s2."
 446386,,Combine the Ace through Eight of Plagues to complete the set.,
 446387,,Combine the Ace through Eight of Wilds to complete the set.,
 446388,,Targets passed through take $s1 Nature damage.,
-446389,,"Chance on spells and attacks to summon a sandstorm that circles you, dealing $449288s1 Nature damage to targets it passes through.",
+446389,,"Chance on spells and attacks to summon a sandstorm that circles you, dealing $s1 Nature damage to targets it passes through.",
 446390,,"Gives the wearer a chance on attack and spell cast to Torment their target, causing them to wander in suffering for $446391d.",
 446391,,Wandering aimlessly for $d.,Tormented.
 446392,,"Spells and attacks sometimes leech $446393s1 health from the target, and apply a stack of Decay. When decay reaches 5 stacks, the target takes $446810s1 damage.",
@@ -28635,7 +28634,7 @@ Nature damage inflicted every $t1 sec."
 449970,,Gives you a $h% chance to get an extra attack on the same target after dealing damage with your weapon.,
 449974,,Gain $449975s1 block value for $449975d after blocking.,
 449975,,Increases the block value of your shield by $s1.,
-449980,,Your Holy Shock spell reduces the cast time of your next $s1 Holy Lights by ${$449982m1/-1000}.1 sec.,
+449980,,Horn of Lordaeron reduces the cast time of your next $s1 Holy Light spells by ${$449982m1/-1000}.1 sec.,
 449982,,Reduces the casting time of your next $n Holy Light spells by ${$m1/$m2/-1000}.1 sec.,Reduces the casting time of your next $n Holy Light spells by ${$m1/$m2/-1000}.1 sec.
 449990,,,
 449994,,,
@@ -29036,22 +29035,21 @@ Wyvern Strike requires you to have the Wyvern Sting talent, and replaces the Wyv
 458809,,,
 458819,,Inflicts Fire damage to an enemy.,
 458820,Rank 1,,Target takes $s1 Nature damage every $t1 seconds and $s2% increased non-Physical damage.
-458821,Rank 1,"Coats a weapon with poison that lasts for 30 minutes. Each strike has a $h% chance of poisoning the enemy for $458820o1 Nature damage over $458820d and causing the enemy to take $458820s2% increased non-Physical damage.  Stacks up to $458820u times on a single target.  250 charges.
+458821,Rank 1,"Coats a weapon with poison that lasts for 30 minutes. Each strike has a $h% chance of poisoning the enemy for $458820o1 Nature damage over $458820d and causing the enemy to take $458820s2% increased non-Physical damage.  Stacks up to $458820u times on a single target.
 
 Occult Poison counts as Deadly Poison and benefits from all talents and effects that trigger from or modify Deadly Poison.
 ",
 458822,Rank 1,"Coats a weapon with poison that lasts for 30 minutes.
-Each strike has a 30% chance of poisoning the enemy for $458820o1 Nature damage over $458820d and causing the enemy to take $458820s2% increased non-Physical damage.  Stacks up to $458820u times on a single target.  250 charges.
+Each strike has a 30% chance of poisoning the enemy for $458820o1 Nature damage over $458820d and causing the enemy to take $458820s2% increased non-Physical damage.  Stacks up to $458820u times on a single target.
 
 Occult Poison counts as Deadly Poison and benefits from all talents and effects that trigger from or modify Deadly Poison.",
 458833,,,
 458841,,,"The Hydraxians are providing maximum relief, reducing the heat within the Molten Core to a minimum."
 458842,,,The Hydraxians are providing limited relief. The Molten Core is almost too hot to bear.
 458843,,,The Hydraxians are providing no relief. The Molten Core is at its most intense.
-458856,,"Heals a friendly target for $s1. $s2% of any excess healing on the target is converted into an absorption shield that lasts $458857d. Multiple casts of Divine Light do not accumulate this shield.
+458856,,"Heals a friendly target for ${$<healpower>*$m1/100} to ${$<healpower>*$M1/100}. $s2% of any excess healing on the target is converted into an absorption shield that lasts $458857d. Multiple casts of Divine Light do not accumulate this shield.
 
-Divine Light benefits from all talents and effects that trigger from or modify Holy Light.
-",
+Divine Light benefits from all talents and effects that trigger from or modify Holy Light.",
 458857,,,Absorbs $w damage.
 458860,,,
 458872,,"The end of an epoch is nigh!
@@ -29978,3 +29976,6 @@ Defense increased by $s1."
 463621,Rank 1,Causes $s1 Holy damage to any creature that strikes a nearby party member. Players may only have one aura on them per paladin at any one time. The aura lasts until cancelled.,$s1 Holy damage inflicted to melee attackers.
 463626,,Teleport player to relative safety.,Teleport player to relative safety.
 463641,,,
+463946,,Blasts up to 3 targets for $s1 Nature damage.,
+463970,,Teaches you how to sew a Bottomless Bag.,
+463972,,,
