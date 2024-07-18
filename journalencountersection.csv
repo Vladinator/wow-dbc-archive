@@ -17280,7 +17280,7 @@ $bullet;Move away from allies when targeted for |cFF2959D3|Hspell:341473|h[Crims
 22268,Section 47,,2424,75,22267,0,0,2,0,0,327992,0,0,0,-1
 22269,Section 48,,2424,76,22266,22365,0,2,0,0,333111,0,0,0,-1
 22271,Section 5,"$[!8,23 
-In Mythic Difficulty, passing through Necrotic Breath applies Necrotic Ichor.$]",2391,16,0,21537,21535,2,0,0,333493,0,0,0,-1
+In Mythic Difficulty, passing through Necrotic Breath applies Necrotic Ichor.$]",2391,16,0,21537,21535,2,0,0,333493,0,2,4096,0
 22274,Brood Assassins,Brood Assassins join the encounter concealed within |cFF2959D3|Hspell:332397|h[Shroudweb]|h|r until revealed by players.,2423,5,0,22002,21999,1,96434,0,0,0,0,32,-1
 22275,Section 12,,2391,8,22042,22276,22277,2,0,0,333602,0,0,64,-1
 22276,Section 12,,2391,9,22275,0,0,2,0,0,328664,0,0,128,-1
@@ -21935,25 +21935,29 @@ $bullet; Players stunned by |cFF2959D3|Hspell:444250|h[Lightning Torrent]|h|r ca
 27545,Section 5,,2566,6,0,0,27548,2,0,0,444250,0,0,144,-1
 27547,Section 7,,2566,5,0,0,27545,2,0,0,420739,0,0,32,-1
 27548,Section 8,,2566,7,0,0,27783,2,0,0,419871,0,0,0,-1
-27552,Overview,"Stormguard Gorren assaults players with newly found void energy. |cFF2959D3|Hspell:424737|h[Chaotic Corruption]|h|r applies to a player and will bounce to nearby players till its stacks are depleated.
+27552,Overview,"Stormguard Gorren, empowered by the Void, attempts to periodically twist a player's soul with |cFF2959D3|Hspell:424737|h[Chaotic Corruption]|h|r latching on to nearby players.
 
-Gorren will use |cFF2959D3|Hspell:425048|h[Dark Gravity]|h|r to pull in all his foes and crush them with void energy.",2567,1,0,27554,27862,3,0,0,0,0,0,0,-1
-27553,Tanks,"$bullet;|cFF2959D3|Hspell:425052|h[Dark Gravity]|h|rpulls in players from all directions during its cast.
-$bullet;|cFF2959D3|Hspell:424739|h[Chaotic Corruption]|h|r explodes for heavy damage upon expiration.",2567,4,27552,0,0,3,0,0,0,0,0,1,-1
-27554,Damage Dealers,$bullet;|cFF2959D3|Hspell:425113|h[Crush Reality]|h|r smashes down on a players location creating |cFF2959D3|Hspell:424966|h[Lingering Void]|h|r on the ground.,2567,2,27552,0,27555,3,0,0,0,0,0,2,-1
-27555,Healers,"$bullet;|cFF2959D3|Hspell:425052|h[Dark Gravity]|h|r inflicts moderate damage to all players for it's duration.
-$bullet;|cFF2959D3|Hspell:424739|h[Chaotic Corruption]|h|r  inflicts moderate periodic damage to its current target and explodes for heavy damage upon expiration.",2567,3,27552,0,27553,3,0,0,0,0,0,0,-1
-27557,Section 6,,2567,8,0,0,27861,2,0,0,425048,0,0,0,-1
-27558,Overview,"The Voidstone Monstrosity unleashes a |cFF2959D3|Hspell:423305|h[Null Upheaval]|h|r that creates |cFF2959D3|Hspell:433067|h[Seeping Fragments]|h|r in various locations that can be shattered with Stormrider Vokmar's |cFF2959D3|Hspell:458088|h[Stormrider's Charge]|h|r.
+Gorren will use |cFF2959D3|Hspell:425048|h[Dark Gravity]|h|r to pull in all his foes and crush them with his hammer's might.",2567,1,0,27554,27862,3,0,0,0,0,0,0,-1
+27553,Tanks,"$bullet; Upon expiration, |cFF2959D3|Hspell:424739|h[Chaotic Corruption]|h|r erupts and leaps to the closest player.
+$bullet; |cFF2959D3|Hspell:425052|h[Dark Gravity]|h|r pulls players twoards Stormguard Gorren before erupting.",2567,4,27552,0,0,3,0,0,0,0,0,1,-1
+27554,Damage Dealers,"$bullet; Upon expiration, |cFF2959D3|Hspell:424739|h[Chaotic Corruption]|h|r erupts and leaps to the closest player.
+$bullet; |cFF2959D3|Hspell:425052|h[Dark Gravity]|h|r pulls players twoards Stormguard Gorren before erupting.",2567,2,27552,0,27555,3,0,0,0,0,0,2,-1
+27555,Healers,"$bullet; Upon expiration, |cFF2959D3|Hspell:424739|h[Chaotic Corruption]|h|r erupts and leaps to the closest player.
+$bullet;|cFF2959D3|Hspell:424739|h[Chaotic Corruption]|h|r inflicts moderate periodic damage to its current target and explodes for heavy damage upon expiration.
+$bullet;|cFF2959D3|Hspell:425052|h[Dark Gravity]|h|r inflicts moderate damage to all players for its duration.",2567,3,27552,0,27553,3,0,0,0,0,0,4,-1
+27557,Section 6,,2567,8,0,0,27861,2,0,0,425048,0,0,16,-1
+27558,Overview,"The Voidstone Monstrosity assaults players with corrupted attacks, proctecting itself with |cFF2959D3|Hspell:445262|h[Void Shell]|h|r , unleashing |cFF2959D3|Hspell:423305|h[Null Upheaval]|h|r, and creating |cFF2959D3|Hspell:433067|h[Seeping Fragments]|h|r.
 
-The Voidstone Monstrosity protects itself with |cFF2959D3|Hspell:445262|h[Void Shell]|h|r and assaults players with corrupted attacks. Once the |cFF2959D3|Hspell:445262|h[Void Shell]|h|r has been broken, Stormrider Vokmar strikes with |cFF2959D3|Hspell:424371|h[Storm's Vengeance]|h|r and shatters off Void Chunks that attempt to |cFF2959D3|Hspell:428269|h[Reshape]|h|r into their previous Skardyn forms.",2568,1,0,27560,30041,3,0,0,0,0,0,0,-1
-27559,Tanks,"$bullet;|cFF2959D3|Hspell:445457|h[Oblivion Wave]|h|r inflicts Shadow damage to players in its path.
-$bullet;|cFF2959D3|Hspell:423393|h[Entropy]|h|r inflicts Shadow damage to all players if no player is within reach.",2568,4,27558,0,0,3,0,0,0,0,0,1,-1
-27560,Damage Dealers,"$bullet;|cFF2959D3|Hspell:423305|h[Null Upheaval]|h|r leaves |cFF2959D3|Hspell:433067|h[Seeping Fragments]|h|r in various locations.
-$bullet;When |cFF2959D3|Hspell:445262|h[Void Shell]|h|r is broken, Stormrider Vokmar strikes with |cFF2959D3|Hspell:424371|h[Storm's Vengeance]|h|r.
-$bullet; Upon successfully casting |cFF2959D3|Hspell:428269|h[Reshape]|h|r, Void Chunks transform into Voidstone Awakened.",2568,2,27558,0,27561,3,0,0,0,0,0,2,-1
-27561,Healers,"$bullet;Upon expiration, |cFF2959D3|Hspell:429487|h[Unleash Corruption]|h|r afflicts multiple targets with moderate Shadow damage.
-$bullet; Void Awakened's |cFF2959D3|Hspell:429029|h[Corruption Pulse]|h|r inflicts increasing damage to all players within each pulse.",2568,3,27558,0,27559,3,0,0,0,0,0,0,-1
+Upon breaking |cFF2959D3|Hspell:445262|h[Void Shell]|h|r Stormrider Vokmar strikes the monstrosity with |cFF2959D3|Hspell:424371|h[Storm's Vengeance]|h|r, creating additional Void Chunks which attempt to |cFF2959D3|Hspell:428269|h[Reshape]|h|r themselves.",2568,1,0,27560,30041,3,0,0,0,0,0,0,-1
+27559,Tanks,"$bullet; |cFF2959D3|Hspell:445457|h[Oblivion Wave]|h|r inflicts Shadow damage to players in its path.
+$bullet; Shattering |cFF2959D3|Hspell:445262|h[Void Shell]|h|r allows Vokmar's |cFF2959D3|Hspell:424371|h[Storm's Vengeance]|h|r, creating Void Chunks.
+$bullet; The Monstrosity irradiates all players with |cFF2959D3|Hspell:423393|h[Entropy]|h|r while no players are in melee range.",2568,4,27558,0,0,3,0,0,0,0,0,1,-1
+27560,Damage Dealers,"$bullet; Vokmar's |cFF2959D3|Hspell:458082|h[Stormrider's Charge]|h|r destroys nearby |cFF2959D3|Hspell:433067|h[Seeping Fragments]|h|r.
+$bullet; Shattering |cFF2959D3|Hspell:445262|h[Void Shell]|h|r allows Vokmar's |cFF2959D3|Hspell:424371|h[Storm's Vengeance]|h|r, creating Void Chunks.
+$bullet; Casting |cFF2959D3|Hspell:428269|h[Reshape]|h|r transforms Void Chunks into Voidstone Awakened.",2568,2,27558,0,27561,3,0,0,0,0,0,2,-1
+27561,Healers,"$bullet; Vokmar's |cFF2959D3|Hspell:458082|h[Stormrider's Charge]|h|r destroys nearby |cFF2959D3|Hspell:433067|h[Seeping Fragments]|h|r.
+$bullet; |cFF2959D3|Hspell:429487|h[Unleash Corruption]|h|r inflicts moderate Shadow damage to any player within the indicated radius.
+$bullet; Each |cFF2959D3|Hspell:429029|h[Corruption Pulse]|h|r increases subsequent |cFF2959D3|Hspell:429029|h[Corruption Pulse]|h|r casts from the Void Awakened.",2568,3,27558,0,27559,3,0,0,0,0,0,0,-1
 27566,Section 36,,2565,51,27509,0,27971,2,0,0,424495,0,2,2,0
 27570,Section 10,,2519,48,28080,0,0,2,0,0,422605,0,0,4,-1
 27571,Section 10,,2519,44,26668,28080,27604,2,0,0,422457,0,0,32,-1
@@ -21979,11 +21983,11 @@ $bullet; Void Awakened's |cFF2959D3|Hspell:429029|h[Corruption Pulse]|h|r inflic
 27618,Section 51,,2565,67,27509,0,28160,2,0,0,422000,0,0,1,-1
 27620,Overview,"Ol' Waxbeard summons waves of kobolds and deadly minecarts that run over all units. He marks priority targets for his allies with |cFF2959D3|Hspell:422162|h[Luring Candleflame]|h|r and spurs Wick into a |cFF2959D3|Hspell:422150|h[Reckless Charge]|h|r towards a distant player, devastating players and kobolds alike in his path.",2569,1,0,27621,27628,3,0,0,0,0,0,0,-1
 27621,Tanks,"$bullet; Menial Laborers quickly become a threat as they survive, due to |cFF2959D3|Hspell:422682|h[Crude Weapons]|h|r.
-$bullet; Ol' Waxbeard's |cFF2959D3|Hspell:422246|h[Rock Buster]|h|r causes the target to take increased Physical damage for a brief period.",2569,2,27620,0,27622,2,0,0,0,0,1,0,-1
+$bullet; Ol' Waxbeard's |cFF2959D3|Hspell:422246|h[Rock Buster]|h|r causes the target to take increased Physical damage for a brief period.",2569,2,27620,0,27622,3,0,0,0,0,1,1,-1
 27622,Healers,"$bullet; |cFF2959D3|Hspell:422162|h[Luring Candleflame]|h|r draws all Menial Laborers to focus the target.
-$bullet; Ol' Waxbeard's |cFF2959D3|Hspell:422150|h[Reckless Charge]|h|r, the resulting |cFF2959D3|Hspell:422270|h[Cave-In]|h|r, and speeding minecarts all instantly kill Menial Laborers.",2569,3,27620,0,27623,3,0,0,0,0,1,0,-1
+$bullet; Ol' Waxbeard's |cFF2959D3|Hspell:422150|h[Reckless Charge]|h|r, the resulting |cFF2959D3|Hspell:422270|h[Cave-In]|h|r, and speeding minecarts all instantly kill Menial Laborers.",2569,3,27620,0,27623,3,0,0,0,0,1,4,-1
 27623,Damage Dealers,"$bullet; Menial Laborers quickly become a threat as they survive, due to |cFF2959D3|Hspell:422682|h[Crude Weapons]|h|r.
-$bullet; Ol' Waxbeard's |cFF2959D3|Hspell:422150|h[Reckless Charge]|h|r, the resulting |cFF2959D3|Hspell:422270|h[Cave-In]|h|r, and speeding minecarts all instantly kill Menial Laborers.",2569,4,27620,0,0,3,0,0,0,0,1,0,-1
+$bullet; Ol' Waxbeard's |cFF2959D3|Hspell:422150|h[Reckless Charge]|h|r, the resulting |cFF2959D3|Hspell:422270|h[Cave-In]|h|r, and speeding minecarts all instantly kill Menial Laborers.",2569,4,27620,0,0,3,0,0,0,0,1,2,-1
 27625,Section 6,,2569,10,0,27626,28285,2,0,0,422150,0,0,32,-1
 27626,Section 11,,2569,11,27625,0,0,2,0,0,422270,0,0,0,-1
 27628,Section 8,,2569,5,0,30268,28286,2,0,0,421875,0,1,0,-1
@@ -22068,10 +22072,10 @@ $bullet; |cFF2959D3|Hspell:423015|h[Castigator's Shield]|h|r leaves |cFF2959D3|H
 27785,Section 9,"$[!16
 On Mythic difficulty, a Coiling Eruption is triggered upon expiration.$]",2557,10,27451,28155,0,2,0,0,421284,0,2,4096,0
 27787,Section 22,,2564,30,27467,0,0,2,0,0,424352,0,0,1,-1
-27788,Section 6,,2568,20,0,0,27789,2,0,0,445457,0,0,1,-1
-27789,Section 7,,2568,21,0,0,0,2,0,0,423393,0,0,0,-1
-27790,Voidstone Awakened,,2568,16,29708,28289,0,1,114860,0,0,0,0,0,-1
-27791,Stormrider Vokmar,,2568,10,29706,29097,0,2,0,0,0,0,1,0,-1
+27788,Section 6,,2568,23,0,0,27789,2,0,0,445457,0,0,1,-1
+27789,Section 7,,2568,24,0,0,0,2,0,0,423393,0,0,1,-1
+27790,Voidstone Awakened,,2568,15,29708,28289,0,1,114860,0,0,0,0,0,-1
+27791,Stormrider Vokmar,,2568,10,29706,29097,0,1,116266,0,0,0,1,0,-1
 27796,Section 62,,2565,23,27661,0,28121,2,0,0,423260,0,2,1,0
 27797,Section 61,,2565,16,27665,0,0,2,0,0,422503,0,0,0,-1
 27798,Section 63,,2565,18,27661,27800,27888,2,0,0,424581,0,2,132,0
@@ -22294,7 +22298,7 @@ In Mythic difficulty, if the fiery vine fails to root a player or if the root is
 28073,Section 9,,2559,7,0,0,27356,2,0,0,423099,0,1,32,-1
 28075,Section 9,,2567,10,27861,0,28076,2,0,0,426136,0,0,0,-1
 28076,Section 10,,2567,11,27861,0,0,2,0,0,424966,0,0,0,-1
-28077,Section 9,,2559,11,0,0,29051,2,0,0,425394,0,2,0,3
+28077,Section 9,,2559,11,0,0,29051,2,0,0,425394,0,0,4,-1
 28078,Section 12,,2556,21,28355,0,0,2,0,0,426154,0,0,1,-1
 28080,Section 10,,2519,45,27571,28082,28569,2,0,0,422032,0,0,4,-1
 28081,Darnassian Ancient,An ancient tree spirit extinguished in the burning of Darnassus.,2519,47,28080,0,27570,2,89541,0,0,0,2,4096,0
@@ -22425,7 +22429,7 @@ $bullet; Gnarlroot takes 100% increased damage when afflicted by |cFF2959D3|Hspe
 $bullet; When awakened, Tainted Lashers attack nearby players.
 $bullet; |cFF2959D3|Hspell:421038|h[Ember-Charred]|h|r players can ignite |cFF2959D3|Hspell:425648|h[Doom Roots]|h|r by touching them.",2564,2,27463,0,27464,3,0,0,0,0,2,1,0
 28197,Section 126,,2565,92,27955,0,0,2,0,0,421939,0,0,0,-1
-28198,Section 9,,2580,19,0,0,0,2,0,0,428086,0,0,0,-1
+28198,Section 9,,2580,19,0,0,0,2,0,0,428086,0,0,64,-1
 28199,Section 18,,1208,5,0,28200,10477,2,0,0,428179,0,1,0,-1
 28200,Section 19,,1208,6,28199,0,0,2,0,0,428177,0,2,4096,0
 28201,Section 20,,2563,29,27637,0,0,2,0,0,420950,0,0,0,-1
@@ -22523,7 +22527,7 @@ $bullet;Flourishing Ancients cast |cFF2959D3|Hspell:428948|h[Vibrant Flourish]|h
 28283,Section 23,,104,27,2220,0,0,2,0,0,429046,0,0,0,-1
 28285,Section 9,,2569,12,0,0,27629,2,0,0,422162,0,0,4,-1
 28286,Section 10,,2569,9,0,0,27625,2,0,0,428268,0,2,4096,0
-28289,Section 11,,2568,17,27790,0,0,2,0,0,429028,0,0,0,-1
+28289,Section 11,,2568,16,27790,0,0,2,0,0,429028,0,0,0,-1
 28290,Section 28,,2565,46,27518,0,28291,2,0,0,424140,0,2,18,0
 28291,Section 28,,2565,47,27518,28292,0,2,0,0,424140,0,2,4114,0
 28292,Section 124,,2565,48,28291,0,0,2,0,0,429166,0,2,4116,0
@@ -22632,7 +22636,7 @@ On Heroic difficulty, the creatures spawn in a dormant state, awakening when inf
 28353,Section 25,,2564,25,28350,0,0,2,0,0,425819,0,2,4,0
 28354,Section 12,"$[!8,23,
 
-On Mythic difficulty, Unleash Corruption also shatters Void Chunks into the playspace. $]",2568,19,0,0,27788,2,0,0,429487,0,2,4096,0
+On Mythic difficulty, Unleash Corruption also forms Void Chunks around the arena. $]",2568,22,0,0,27788,2,0,0,429487,0,2,4096,0
 28355,Stage One: Rapid Iteration,,2556,5,0,27394,28356,0,0,0,0,0,1,0,-1
 28356,Stage Two: Creation Complete,,2556,22,0,28357,0,0,0,0,0,0,1,0,-1
 28357,Section 33,"$[!16
@@ -22713,17 +22717,15 @@ $bullet;|cFF2959D3|Hspell:432198|h[Blazing Belch]|h|r inflicts high Fire damage 
 28417,Healers,"$bullet;Thirsty Patrons' |cFF2959D3|Hspell:431896|h[Rowdy Yell]|h|r inflicts Physical damage to all players until appeased.
 $bullet;|cFF2959D3|Hspell:432182|h[Throw CInderbrew]|h|r inflicts high Fire damage to affected targets.",2586,4,28414,0,0,3,0,0,0,0,0,4,-1
 28420,Thirsty Patron,,2586,8,28964,28578,0,1,119017,0,0,0,0,0,-1
-28421,Overview,"I'pa embodies Cinderbrew itself, assailing players with |cFF2959D3|Hspell:439202|h[Burning Fermentation]|h|r and |cFF2959D3|Hspell:439365|h[Spouting Stout]|h|r 
-
-Watch out for any Brew Drops making their way to I'pa or they will |cFF2959D3|Hspell:440104|h[Fill 'Er Up]|h|r ! Defeating them temporarily create pools of |cFF2959D3|Hspell:440087|h[Oozing Honey]|h|r until they reform.",2587,1,0,28422,28425,3,0,0,0,0,0,0,-1
-28422,Tanks,"$bullet;|cFF2959D3|Hspell:439031|h[Bottoms Uppercut]|h|r inflicts high Physical damage and knocks the player back.
+28421,Overview,"$[1,2I'pa embodies Cinderbrew itself, assailing players with |cFF2959D3|Hspell:439365|h[Spouting Stout]|h|r and |cFF2959D3|Hspell:439202|h[Burning Fermentation]|h|r. Brew Drops cause |cFF2959D3|Hspell:440104|h[Fill 'Er Up]|h|r if they reach I'pa. Defeating them creates pools of |cFF2959D3|Hspell:440087|h[Oozing Honey]|h|r that shrink.$]$[8,23I'pa embodies Cinderbrew itself, assailing players with |cFF2959D3|Hspell:439365|h[Spouting Stout]|h|r and |cFF2959D3|Hspell:439202|h[Burning Fermentation]|h|r. Brew Drops cause |cFF2959D3|Hspell:440104|h[Fill 'Er Up]|h|r if they reach I'pa. Defeating them creates pools of |cFF2959D3|Hspell:440087|h[Oozing Honey]|h|r that shrink until the drops reform.$]",2587,1,0,28422,28426,3,0,0,0,0,0,0,-1
+28422,Tanks,"$bullet;|cFF2959D3|Hspell:439031|h[Bottoms Uppercut]|h|r inflicts high Physical damage and knocks the targeted player back.
 $bullet;|cFF2959D3|Hspell:439365|h[Spouting Stout]|h|r creates Brew Drops and inflicts moderate Fire damage to all players.",2587,2,28421,0,28423,3,0,0,0,0,0,1,-1
-28423,Damage Dealers,$bullet;|cFF2959D3|Hspell:439365|h[Spouting Stout]|h|r creates Brew Drops and inflicts moderate Fire damage to all players.,2587,3,28421,0,28424,3,0,0,0,0,0,2,-1
+28423,Damage Dealers,"$bullet;|cFF2959D3|Hspell:439365|h[Spouting Stout]|h|r creates Brew Drops and inflicts moderate Fire damage to all players.
+$bullet;Brew Drops cause |cFF2959D3|Hspell:440104|h[Fill 'Er Up]|h|r  if they reach I'pa.",2587,3,28421,0,28424,3,0,0,0,0,0,2,-1
 28424,Healers,"$bullet;|cFF2959D3|Hspell:439202|h[Burning Fermentation]|h|r inflicts high Fire damage to afflicted players.
 $bullet;|cFF2959D3|Hspell:439365|h[Spouting Stout]|h|r creates Brew Drops and inflicts moderate Fire damage to all players.",2587,4,28421,0,0,3,0,0,0,0,0,4,-1
-28425,I'pa,,2587,5,0,28426,0,1,117177,0,0,0,1,0,-1
-28426,Section 7,,2587,6,28425,29566,28915,2,0,0,439365,0,1,32,-1
-28427,Brew Drop,,2587,11,28426,30226,0,1,117828,0,0,0,3,0,0
+28426,Section 7,,2587,5,0,29566,28918,2,0,0,439365,0,1,32,-1
+28427,Brew Drop,Brew Drops move towards I'pa upon forming.,2587,9,28426,30226,0,1,117828,0,0,0,3,2,0
 28428,Overview,"Benk Buzzbee distributes barrels of delicious honey during |cFF2959D3|Hspell:438025|h[Snack Time]|h|r, attracting Ravenous Cinderbees.
 
 Defeated Cinderbees become docile enough to be mounted by players and will charge forward with a |cFF2959D3|Hspell:438763|h[Bee-Haw!]|h|r command.",2588,1,0,28429,28852,3,0,0,0,0,0,0,-1
@@ -22787,7 +22789,7 @@ On Mythic difficulty, Lava Expulsion removes Flaming Scrap that gets hit $]",259
 28471,Section 10,,2519,33,26667,0,28387,2,0,0,412761,0,0,0,-1
 28473,Section 14,,2590,8,28462,29113,0,2,0,0,428819,0,0,0,-1
 28475,Section 10,,2519,19,27898,0,0,2,0,0,425483,0,1,16,-1
-28476,Crystal Shard,,2579,6,28088,28477,0,1,0,0,0,0,0,2,-1
+28476,Crystal Shard,,2579,6,28088,28477,0,1,37518,0,0,0,0,2,-1
 28477,Section 13,,2579,7,28476,0,29043,2,0,0,426215,0,0,0,-1
 28479,Section 16,,2556,11,28355,28523,27872,2,0,0,425357,0,2,4096,0
 28480,Section 29,,2556,36,28379,0,0,2,0,0,430485,0,2,4096,0
@@ -22897,9 +22899,9 @@ $bullet; |cFF2959D3|Hspell:442428|h[Decimate]|h|r expels cosmic spears from the 
 28719,Section 13,,2599,17,0,0,0,2,0,0,439559,0,0,0,-1
 28721,Section 5,"$[!15,16 
  
-On Heroic and Mythic difficulties all players hit with Phase Blades will leave behind a Cosmic Simulacrum. $]",2599,5,0,30060,28967,2,0,0,433475,0,1,0,-1
+On Heroic and Mythic difficulties all players hit with Phase Blades will leave behind a Cosmic Simulacrum. $]",2599,5,0,30017,28967,2,0,0,433475,0,1,0,-1
 28723,Section 16,,2599,13,0,28859,28719,2,0,0,439511,0,0,1,-1
-28727,Section 18,,2599,15,28723,0,0,2,0,0,432969,0,0,0,-1
+28727,Section 18,,2599,15,28723,28860,0,2,0,0,432969,0,0,0,-1
 28729,Section 6,,2589,10,28730,0,0,2,0,0,435789,0,2,4096,0
 28730,Section 7,"$[!8,23,
 
@@ -22997,18 +22999,18 @@ $bullet;Ravenous Spawn continually |cFF2959D3|Hspell:439037|h[Disembowel]|h|r a 
 $bullet;Each application of |cFF2959D3|Hspell:438041|h[Instiable Rage]|h|r increases Ul'grax's damage.",2607,4,28833,0,28836,3,0,0,0,0,0,4,-1
 28836,Tanks,"$bullet;Ravenous Spawn continually place applications of |cFF2959D3|Hspell:439037|h[Disembowel]|h|r on a player.
 $bullet;Excessively |cFF2959D3|Hspell:434705|h[Tenderized]|h|r players will become unable to be healed.",2607,5,28833,0,0,3,0,0,0,0,0,1,-1
-28837,Section 5,,2607,16,30011,28838,0,2,0,0,434697,0,0,1,-1
+28837,Section 5,,2607,16,30011,28838,29590,2,0,0,434697,0,0,1,-1
 28838,Section 6,,2607,17,28837,0,0,2,0,0,434705,0,0,0,-1
 28839,Section 7,,2607,15,30011,0,28837,2,0,0,435136,0,0,0,-1
 28840,Section 8,,2607,14,30011,0,28839,2,0,0,435138,0,0,0,-1
-28843,Section 11,,2607,31,28845,0,29099,2,0,0,436255,0,0,0,-1
-28845,Feeding Frenzy,,2607,18,0,29590,0,0,0,0,0,0,1,0,-1
-28846,Section 14,,2607,34,30249,28847,0,2,0,0,438012,0,0,0,-1
-28847,Section 15,,2607,35,28846,0,0,2,0,0,438041,0,0,16,-1
-28848,Ravenous Spawn,Ulgrax spawns a host of delectible insects.,2607,20,28845,30247,30012,1,115708,0,0,0,0,1,-1
-28849,Section 17,,2607,29,30012,28850,0,2,0,0,457598,0,2,32,0
-28850,Section 18,,2607,30,28849,0,0,2,0,0,438324,0,2,0,0
-28851,Section 19,,2607,28,30012,0,28849,2,0,0,439037,0,2,8192,0
+28843,Section 11,,2607,23,28845,0,28848,2,0,0,436255,0,0,0,-1
+28845,Feeding Frenzy,,2607,19,0,30249,0,0,0,0,0,0,1,0,-1
+28846,Section 14,,2607,21,30249,28847,0,2,0,0,438012,0,0,0,-1
+28847,Section 15,,2607,22,28846,0,0,2,0,0,438041,0,0,16,-1
+28848,Ravenous Spawn,Ulgrax spawns a host of delectible insects.,2607,24,28845,30013,30012,1,115708,0,0,0,0,1,-1
+28849,Section 17,,2607,31,30012,28850,0,2,0,0,457598,0,2,32,0
+28850,Section 18,,2607,32,28849,0,0,2,0,0,438324,0,2,0,0
+28851,Section 19,,2607,30,30012,0,28849,2,0,0,439037,0,2,8192,0
 28852,Section 8,,2588,5,0,28853,29039,2,0,0,438025,0,1,0,-1
 28853,Ravenous Cinderbee,,2588,6,28852,28855,0,1,81971,0,0,0,1,0,-1
 28854,Section 7,,2588,12,0,0,28857,2,0,0,439524,0,0,4,-1
@@ -23041,26 +23043,28 @@ In Mythic difficulty, Ice Sickles targets all players.$]",2595,13,28884,0,28885,
 28889,Duskbringer,,2595,11,28887,0,0,2,0,0,439692,0,0,0,-1
 28891,Echoing Shade,,2595,10,28888,0,0,2,0,0,439637,0,0,0,-1
 28892,Freezing Blood,,2595,18,28878,0,30049,2,0,0,440470,0,0,32,-1
-28893,Overview,"At the start of the battle, Anub'arash uses |cFF2959D3|Hspell:438801|h[Call of the Swarm]|h|r to assault his enemies while his anger builds. Upon reaching 100 Anger, Anub'arash will |cFF2959D3|Hspell:440158|h[Reckless Charge]|h|r unless stopped by the player.
+28893,Overview,"The lords of the Silken Court fight as rivals for the queen's favor, alternatingly assaulting their enemies with |cFF2959D3|Hspell:439992|h[Web Bomb]|h|r and |cFF2959D3|Hspell:440158|h[Reckless Charge]|h|r.
 
-When Skeinspinner Takazj reached 100 Void energy, the Void Ascension phase will start and attempt to eliminate the players by casting |cFF2959D3|Hspell:450980|h[Shatter Existence]|h|r and eventually transition to the Grasp of the Void phase.
+Upon reaching 100 void energy, Takazj ascends into void form and begins to |cFF2959D3|Hspell:450980|h[Shatter Existence]|h|r. 
 
-During the Grasp of the Void phase Takazj will gain Void energy, casting |cFF2959D3|Hspell:438355|h[Cataclysmic Entropy]|h|r upon reaching 100 energy unless the players stop her. While at the same time Anub'arash will be gaining rage, transitioning to the Raging Fury phase upon reaching 100 Anger.
+After rejoining the battle, Anub'arash begins to summon |cFF2959D3|Hspell:438677|h[Stinging Swarms]|h|r as Takazj evokes |cFF2959D3|Hspell:438355|h[Cataclysmic Entropy]|h|r. 
 
-Anub'arash will attempt to impale the players by channeling |cFF2959D3|Hspell:451277|h[Spike Storm]|h|r until transitioning to the Unleashed Rage phase.
+Upon reaching 100 anger, Anub'arash enters a raging fury and unleashes a |cFF2959D3|Hspell:451277|h[Spike Storm]|h|r. 
 
-While in the Unleashed Rage phase Anub'arash will cast |cFF2959D3|Hspell:440158|h[Reckless Charge]|h|r upon gaining 100 Anger, and Skeinspinner Takazj casts |cFF2959D3|Hspell:438355|h[Cataclysmic Entropy]|h|r at 100 Void energy.",2608,1,0,28894,29962,3,0,0,0,0,0,0,-1
-28894,Damage Dealers,"$bullet; |cFF2959D3|Hspell:440001|h[Binding Webs]|h|r are removed if you move more than 25 yards from the player you are bound to.
-$bullet; Transferring 3 stacks |cFF2959D3|Hspell:438677|h[Stinging Swarm]|h|r to a player or Skeinspinner Takazj will trigger |cFF2959D3|Hspell:456235|h[Stinging Delirium]|h|r.",2608,2,28893,0,28895,3,0,0,0,0,0,2,-1
-28895,Healers,"$bullet; |cFF2959D3|Hspell:442994|h[Unleashed Swarm]|h|r inflicts heavy raid damage.
-$bullet; |cFF2959D3|Hspell:440001|h[Binding Webs]|h|r are removed if you move more than 25 yards from the player you are bound to.
-$bullet; Transferring 3 stacks |cFF2959D3|Hspell:438677|h[Stinging Swarm]|h|r to a player or Skeinspinner Takazj will trigger |cFF2959D3|Hspell:456235|h[Stinging Delirium]|h|r.",2608,3,28893,0,28896,3,0,0,0,0,0,4,-1
-28896,Tanks,"$bullet; |cFF2959D3|Hspell:440001|h[Binding Webs]|h|r are removed if you move more than 25 yards from the player you are bound to.
-$bullet; Transferring 3 stacks |cFF2959D3|Hspell:438677|h[Stinging Swarm]|h|r to a player or Skeinspinner Takazj will trigger |cFF2959D3|Hspell:456235|h[Stinging Delirium]|h|r.",2608,4,28893,0,0,3,0,0,0,0,0,1,-1
+Now with both members of the court at their full power, Anub'arash storms across the chamber with |cFF2959D3|Hspell:440158|h[Reckless Charge]|h|r as Takazj conjures Cataclysmic Entropy",2608,1,0,28894,29962,3,0,0,0,0,0,0,-1
+28894,Damage Dealers,"$bullet; |cFF2959D3|Hspell:450980|h[Shatter Existence]|h|r and |cFF2959D3|Hspell:451277|h[Spike Storm]|h|r apply heavy absorb shields to their casters.
+$bullet; Players who are |cFF2959D3|Hspell:449857|h[Impaled]|h|r are stunned until their impaling spike is destroyed.
+$bullet; Anub'arash summons scarabs into the chamber with |cFF2959D3|Hspell:438801|h[Call of the Swarm]|h|r.",2608,2,28893,0,28895,3,0,0,0,0,0,2,-1
+28895,Healers,"$bullet; |cFF2959D3|Hspell:438677|h[Stinging Swarm]|h|r transfers to the nearest player or Takazj upon removal.
+$bullet; Anub'arash becomes |cFF2959D3|Hspell:440179|h[Entangled]|h|r if he charges through |cFF2959D3|Hspell:440001|h[Binding Webs]|h|r.
+$bullet; |cFF2959D3|Hspell:460360|h[Burrowing Eruption]|h|r and |cFF2959D3|Hspell:442994|h[Unleashed Swarm]|h|r  inflict heavy raid damage.",2608,3,28893,0,28896,3,0,0,0,0,0,4,-1
+28896,Tanks,"$bullet; Anub'arash's |cFF2959D3|Hspell:438218|h[Piercing Strike]|h|r inflicts heavy Physical damage. 
+$bullet; Takazj moves throughout the chamber using |cFF2959D3|Hspell:450045|h[Skittering Leap]|h|r and |cFF2959D3|Hspell:450483|h[Void Step]|h|r.
+$bullet; The fates of Anub'arash and Skeinspinner Takazj are linked through |cFF2959D3|Hspell:455363|h[Queen's Proclamation]|h|r.",2608,4,28893,0,0,3,0,0,0,0,0,1,-1
 28897,Section 10,,2596,16,0,0,0,2,0,0,439646,0,0,1,-1
 28898,Section 20,,2601,13,28797,0,28798,2,0,0,439576,0,0,0,-1
 28899,Section 21,,2601,23,28741,0,28769,2,0,0,439576,0,0,0,-1
-28900,Overview,"Wounded during the events of the Dawnbreaker, Rasha'nan begins begins the encounter|cFF2959D3|Hspell:451575|h[Wounded in Battlel]|h|r  at $451575s1% health.
+28900,Overview,"Wounded during the events of the Dawnbreaker, Rasha'nan begins the encounter |cFF2959D3|Hspell:451575|h[Wounded in Battle]|h|r at $451575s1% health.
 
 As the encounter progresses, she repositions around the arena casting |cFF2959D3|Hspell:452806|h[Acidic Eruption]|h|r and pelting players with |cFF2959D3|Hspell:444094|h[Caustic Hail]|h|r.",2609,1,0,28901,28904,3,0,0,0,0,0,0,-1
 28901,Healers,"$bullet;Waves of |cFF2959D3|Hspell:439789|h[Rolling Acid]|h|r move in the indicated direction and corrode any |cFF2959D3|Hspell:439780|h[Sticky Webs]|h|r into |cFF2959D3|Hspell:439776|h[Acid Pools]|h|r.
@@ -23077,27 +23081,27 @@ $[14,17$bullet;|cFF2959D3|Hspell:434089|h[Spinneret's Strands]|h|r inflict party
 $[15$bullet;|cFF2959D3|Hspell:434089|h[Spinneret's Strands]|h|r affects all other players near the targeted player, and inflict party-wide damage when snapped.$]
 $[16$bullet;|cFF2959D3|Hspell:434089|h[Spinneret's Strands]|h|r form |cFF2959D3|Hspell:460789|h[Tacky Threads]|h|r when snapped.$]
 $bullet;|cFF2959D3|Hspell:439815|h[Infested Spawn]|h|r-targeted players birth new enemies that rampage, casting|cFF2959D3|Hspell:455287|h[Infested Bite]|h|r  repeatedly.",2609,4,28900,0,0,3,0,0,0,0,0,2,-1
-28904,Section 12,,2609,5,0,28905,28908,2,0,0,439789,0,1,32,-1
+28904,Section 12,,2609,5,0,28905,28909,2,0,0,439789,0,1,32,-1
 28905,Section 8,,2609,6,28904,0,28906,2,0,0,439785,0,0,0,-1
 28906,Section 8,,2609,7,28904,0,28912,2,0,0,439787,0,0,0,-1
 28907,Section 9,,2609,18,0,0,28913,2,0,0,439795,0,2,24,0
 28908,Section 7,"$[!15,16
 
-On this difficulty, Infested Spawn's initial damage affects players in a radius around the marked target.$]",2609,9,0,29060,28909,2,116084,0,439815,0,0,0,-1
+On this difficulty, Infested Spawn's initial damage affects players in a radius around the marked target.$]",2609,13,0,29060,29919,2,116084,0,439815,0,0,0,-1
 28909,Section 10,"$[!15,16
 
-On this difficulty, Spinneret's Strands tether affects all players in the damage radius.$]",2609,11,0,28910,29919,2,0,0,439784,0,0,0,-1
-28910,Section 12,,2609,12,28909,30177,28911,2,0,0,439778,0,1,0,-1
-28911,Section 11,,2609,14,28909,0,0,2,0,0,439780,0,0,0,-1
+On this difficulty, Spinneret's Strands tether affects all players in the damage radius.$]",2609,9,0,28910,28908,2,0,0,439784,0,0,0,-1
+28910,Section 12,,2609,10,28909,30177,28911,2,0,0,439778,0,1,0,-1
+28911,Section 11,,2609,12,28909,0,0,2,0,0,439780,0,0,0,-1
 28912,Section 11,,2609,8,28904,0,0,2,0,0,439776,0,0,0,-1
 28913,Section 14,,2609,19,0,28914,29817,2,0,0,439811,0,0,4,-1
-28914,Section 15,,2609,20,28913,0,0,2,0,0,440193,0,1,0,-1
-28915,Section 8,,2587,18,28425,0,28916,2,0,0,439202,0,0,132,-1
-28916,Section 9,,2587,19,28425,0,0,2,0,0,439031,0,0,1,-1
+28914,Section 15,,2609,20,28913,0,30024,2,0,0,440193,0,1,0,-1
+28915,Section 8,,2587,14,0,0,28916,2,0,0,439202,0,0,132,-1
+28916,Section 9,,2587,15,0,0,0,2,0,0,439031,0,0,1,-1
 28917,Section 10,"$[!23
 
-In Mythic difficulty, Brew Drops will reform one time after their Oozing Honey dissipates.$]",2587,14,28427,29565,28918,2,0,0,440082,0,1,0,-1
-28918,Section 11,,2587,16,28427,0,28957,2,0,0,440104,0,0,0,-1
+In Mythic difficulty, Brew Drops will reform one time after their Oozing Honey dissipates.$]",2587,11,28427,0,28957,2,0,0,440082,0,1,4096,-1
+28918,Section 11,,2587,13,0,0,28915,2,0,0,440104,0,0,0,-1
 28920,Section 20,,2602,30,28754,28954,30174,2,0,0,439814,0,0,2,-1
 28922,Section 22,,2602,40,28754,0,28933,2,0,0,439299,0,0,0,-1
 28932,Section 16,,2590,5,0,0,28459,2,0,0,439577,0,0,0,-1
@@ -23108,7 +23112,7 @@ In Mythic difficulty, Brew Drops will reform one time after their Oozing Honey d
 28950,Section 21,,2607,8,30135,0,30267,2,0,0,440904,0,2,16,0
 28954,Section 28,,2602,31,28920,0,0,2,0,0,441958,0,2,8,0
 28956,Section 9,,2600,8,28737,0,0,2,0,0,442285,0,2,4,0
-28957,Section 12,,2587,17,28427,0,0,2,0,0,442122,0,0,0,-1
+28957,Section 12,,2587,12,28427,0,0,2,0,0,442122,0,0,0,-1
 28958,Section 9,,2593,30,28821,0,29576,2,0,0,448213,0,2,4096,0
 28959,Section 9,,2609,16,0,29044,28907,2,0,0,444687,0,0,1,-1
 28960,Section 24,,2601,31,28742,0,29079,2,0,0,434645,0,2,8,0
@@ -23135,18 +23139,18 @@ $[15,16$bullet;A |cFF2959D3|Hspell:445936|h[Spewing Hemorrhage]|h|r coalesces on
 $bullet;Lost Watcher's |cFF2959D3|Hspell:445016|h[Spectral Slam]|h|r inflicts heavy Physical damage.",2611,3,28969,0,28971,3,0,0,0,0,0,1,-1
 28975,Bloodstained Webmage,Bloodstained Webmages will attempt to trap players in webbing to make easy prey for Anub'zekt and his brood.,2584,6,0,28976,28406,1,117870,0,0,0,3,4096,0
 28976,Section 11,,2584,7,28975,0,0,2,0,0,442210,0,2,0,0
-28978,Section 1,"Broodtwister Ovi'nax injects players with |cFF2959D3|Hspell:440427|h[Experimental Dosage]|h|r which causes nearby eggs to hatch upon expiration, unleashing the horrors within. 
+28978,Section 1,"Broodtwister Ovi'nax injects players with |cFF2959D3|Hspell:442526|h[Experimental Dosage]|h|r which causes nearby eggs to hatch upon expiration, unleashing the horrors within. 
 
 Upon reaching 100 energy, Broodtwister Ovi'nax will |cFF2959D3|Hspell:442430|h[Ingest Black Blood]|h|r, growing in power and causing the room to slowly fill with |cFF2959D3|Hspell:442802|h[Sanguine Overflow]|h|r",2612,1,0,28979,28982,3,0,0,0,0,0,0,-1
-28979,Tanks,"$bullet;  |cFF2959D3|Hspell:443005|h[Volatile Concoction]|h|r inflicts damage to all players based on how much health the target is missing when it is removed.
+28979,Tanks,"$bullet;  |cFF2959D3|Hspell:441362|h[Volatile Concoction]|h|r inflicts damage to all players based on how much health the target is missing when it is removed.
 $bullet;  |cFF2959D3|Hspell:442802|h[Sanguine Overflow]|h|r mutates any creatures it comes into contact with.
 $bullet;  Colossal Spiders inflict increasing damage with |cFF2959D3|Hspell:438807|h[Vicious Bite]|h|r .",2612,2,28978,0,28980,3,0,0,0,0,0,1,-1
-28980,Damage Dealers,"$bullet;  |cFF2959D3|Hspell:440427|h[Experimental Dosage]|h|r causes nearby eggs to hatch, unleashing the horrific experiments incubating within.
-$bullet;  |cFF2959D3|Hspell:446349|h[Unstable Web]|h|r immobilizes nearby players when removed.
+28980,Damage Dealers,"$bullet;  |cFF2959D3|Hspell:442526|h[Experimental Dosage]|h|r causes nearby eggs to hatch, unleashing the horrific experiments incubating within.
+$bullet;  |cFF2959D3|Hspell:446349|h[Sticky Web]|h|r immobilizes nearby players when removed.
 $bullet; Blood Parasites |cFF2959D3|Hspell:442257|h[Infest]|h|r their target upon reaching them.",2612,3,28978,0,28981,3,0,0,0,0,0,2,-1
-28981,Healers,"$bullet;  |cFF2959D3|Hspell:440427|h[Experimental Dosage]|h|r causes nearby eggs to hatch, unleashing the horrific experiments incubating within.
-$bullet; Broodtwister Ovi'nax inflicts increasing Shadow damage and healing absorbs as he receives more |cFF2959D3|Hspell:450362|h[Transfusions]|h|r.
-$bullet; |cFF2959D3|Hspell:443005|h[Volatile Concoction]|h|r inflicts damage to all players based on how much health the target is missing when it is removed.",2612,4,28978,0,0,3,0,0,0,0,0,4,-1
+28981,Healers,"$bullet;  |cFF2959D3|Hspell:442526|h[Experimental Dosage]|h|r causes nearby eggs to hatch, unleashing the horrific experiments incubating within.
+$bullet; Broodtwister Ovi'nax inflicts increasing Shadow damage and healing absorbs as he receives more |cFF2959D3|Hspell:450362|h[Unstable Infusions]|h|r.
+$bullet; |cFF2959D3|Hspell:441362|h[Volatile Concoction]|h|r inflicts damage to all players based on how much health the target is missing when it is removed.",2612,4,28978,0,0,3,0,0,0,0,0,4,-1
 28982,Section 5,,2612,5,0,0,30246,2,0,0,442526,0,3,32,0
 28986,Section 9,,2612,22,0,29010,29007,2,0,0,442430,0,0,0,-1
 28994,Section 11,,2612,31,0,29107,28995,2,0,0,446349,0,2,136,0
@@ -23161,44 +23165,38 @@ $bullet; |cFF2959D3|Hspell:443005|h[Volatile Concoction]|h|r inflicts damage to 
 29007,Section 30,,2612,29,0,29008,28994,2,0,0,442799,0,0,0,-1
 29008,Section 31,,2612,30,29007,0,0,2,0,0,450661,0,0,16,-1
 29010,Section 33,,2612,23,28986,29656,29771,2,0,0,450362,0,0,4,-1
-29011,Stage One: Clash of Rivals,,2608,16,0,29012,29726,0,0,0,0,0,1,0,-1
-29012,Anub'arash,,2608,17,29011,29013,29017,1,118997,0,0,0,0,0,-1
-29013,Section 10,,2608,18,29012,0,30197,2,0,0,438218,0,0,1,-1
-29015,Section 14,,2608,43,30026,29920,30031,2,0,0,438801,0,0,0,-1
-29016,Section 16,,2608,24,29012,0,30280,2,0,0,440158,0,0,16,-1
-29017,Skeinspinner Takazj,,2608,28,29011,29018,0,1,115753,0,0,0,0,0,-1
-29018,Section 11,,2608,29,29017,0,29019,2,0,0,438200,0,0,1,-1
+29011,Stage One: Clash of Rivals,,2608,14,0,29012,29726,0,0,0,0,0,1,0,-1
+29012,Anub'arash,,2608,15,29011,29016,29017,1,118997,0,0,0,1,0,-1
+29013,Section 10,,2608,25,29012,0,0,2,0,0,438218,0,0,1,-1
+29015,Section 14,,2608,44,30026,29920,30029,2,0,0,438801,0,0,0,-1
+29016,Section 16,,2608,16,29012,0,30350,2,0,0,440158,0,0,48,-1
+29017,Skeinspinner Takazj,,2608,26,29011,29020,0,1,115753,0,0,0,1,0,-1
+29018,Section 11,,2608,32,29017,0,0,2,0,0,438200,0,0,1,-1
 29019,Section 13,"$[!16
 
-On Mythic difficulty, players hit with this spell create either a |cFF2959D3|Hspell:460263|h[Mote of Unrelenting Rage]|h|r or a |cFF2959D3|Hspell:460357|h[Mote of Overwrought Paranoia]|h|r  .$]",2608,30,29017,0,29020,2,0,0,438656,0,0,0,-1
-29020,Section 15,"$[!15
+On Mythic difficulty, players hit create a |cFF2959D3|Hspell:460263|h[Mote of Unrelenting Rage]|h|r or a |cFF2959D3|Hspell:460357|h[Mote of Overwrought Paranoia]|h|r  .$]",2608,30,29017,0,29601,2,0,0,438656,0,0,0,-1
+29020,Section 15,"$[!16
 
-On Heroic difficulty, Anub'arash needs to charge through 2 Binding Web strands to be entangled.$]
-$[!16
-
-On Mythic difficulty, Anub'arash needs to charge through 3 Binding Web strands to be entangled.$]
-$[!16
-
-On Mythic difficulty, players hit with this spell create either a |cFF2959D3|Hspell:460263|h[Mote of Unrelenting Rage]|h|r or a |cFF2959D3|Hspell:460357|h[Mote of Overwrought Paranoia]|h|r  .$]",2608,31,29017,30235,29601,2,0,0,439992,0,0,32,-1
-29021,Stage Two: Grasp of the Void,,2608,38,0,30026,29728,0,0,0,0,0,1,0,-1
-29022,Stage Three: Unleashed Rage,,2608,63,0,29028,0,0,0,0,0,0,0,0,-1
+On Mythic difficulty, , players hit create a |cFF2959D3|Hspell:460263|h[Mote of Unrelenting Rage]|h|r or a |cFF2959D3|Hspell:460357|h[Mote of Overwrought Paranoia]|h|r  .$]",2608,27,29017,30359,29019,2,0,0,439992,0,0,32,-1
+29021,Stage Two: Grasp of the Void,,2608,37,0,30026,29728,0,0,0,0,0,0,0,-1
+29022,Stage Three: Unleashed Rage,,2608,66,0,29028,0,0,0,0,0,0,0,0,-1
 29023,Section 17,"$[!16
 
-On Mythic difficulty, players hit with this spell create either a |cFF2959D3|Hspell:460263|h[Mote of Unrelenting Rage]|h|r or a |cFF2959D3|Hspell:460357|h[Mote of Overwrought Paranoia]|h|r  .$]",2608,40,30026,29595,30029,2,0,0,440504,0,0,0,-1
-29024,Skeinspinner Takazj,,2608,73,29022,29025,0,1,115753,0,0,0,0,0,-1
-29025,Section 19,,2608,74,29024,0,29026,2,0,0,441772,0,0,1,-1
+On Mythic difficulty, players hit with this spell create either a |cFF2959D3|Hspell:460263|h[Mote of Unrelenting Rage]|h|r or a |cFF2959D3|Hspell:460357|h[Mote of Overwrought Paranoia]|h|r  .$]",2608,42,30026,29595,29015,2,0,0,440504,0,0,0,-1
+29024,Skeinspinner Takazj,,2608,77,29022,29026,0,1,115753,0,0,0,0,0,-1
+29025,Section 19,,2608,87,29024,0,0,2,0,0,441772,0,0,1,-1
 29026,Section 20,"$[!16
 
-On Mythic difficulty, players hit with this spell create either a |cFF2959D3|Hspell:460263|h[Mote of Unrelenting Rage]|h|r or a |cFF2959D3|Hspell:460357|h[Mote of Overwrought Paranoia]|h|r  .$]",2608,75,29024,30236,29937,2,0,0,441634,0,0,32,-1
+On Mythic difficulty, players hit with this spell create either a |cFF2959D3|Hspell:460263|h[Mote of Unrelenting Rage]|h|r or a |cFF2959D3|Hspell:460357|h[Mote of Overwrought Paranoia]|h|r  .$]",2608,78,29024,30354,29710,2,0,0,441634,0,0,32,-1
 29027,Section 21,"$[!16
 
-On Mythic difficulty, players hit with this spell create either a |cFF2959D3|Hspell:460263|h[Mote of Unrelenting Rage]|h|r or a |cFF2959D3|Hspell:460357|h[Mote of Overwrought Paranoia]|h|r  .$]",2608,78,29024,0,29709,2,0,0,441782,0,0,0,-1
-29028,Anub'arash,,2608,64,29022,29031,29024,1,118997,0,0,0,0,0,-1
-29029,Section 23,,2608,69,29028,0,30040,2,0,0,440246,0,0,16,-1
-29030,Section 24,,2608,68,29028,0,29029,2,0,0,443063,0,0,16,-1
+On Mythic difficulty, players hit create a |cFF2959D3|Hspell:460263|h[Mote of Unrelenting Rage]|h|r or a |cFF2959D3|Hspell:460357|h[Mote of Overwrought Paranoia]|h|r  .$]",2608,85,29024,0,29709,2,0,0,441782,0,0,0,-1
+29028,Anub'arash,,2608,67,29022,30040,29024,1,118997,0,0,0,0,0,-1
+29029,Section 23,,2608,71,29028,0,30280,2,0,0,440246,0,0,48,-1
+29030,Section 24,,2608,75,29028,0,30039,2,0,0,443063,0,0,16,-1
 29031,Section 25,"$[!16
 
-On Mythic difficulty, players hit with this spell create either a |cFF2959D3|Hspell:460263|h[Mote of Unrelenting Rage]|h|r or a |cFF2959D3|Hspell:460357|h[Mote of Overwrought Paranoia]|h|r  .$]",2608,65,29028,29596,30039,2,0,0,443092,0,0,0,-1
+On Mythic difficulty, players hit with this spell create either a |cFF2959D3|Hspell:460263|h[Mote of Unrelenting Rage]|h|r or a |cFF2959D3|Hspell:460357|h[Mote of Overwrought Paranoia]|h|r  .$]",2608,73,29028,29596,29030,2,0,0,443092,0,0,0,-1
 29032,Section 30,,2602,125,28761,29033,0,2,0,0,443396,0,0,0,-1
 29033,Section 31,,2602,126,29032,0,0,2,0,0,443403,0,2,8,0
 29034,Section 29,,2602,118,28757,29035,29917,2,0,0,443325,0,0,1,-1
@@ -23210,9 +23208,9 @@ On Mythic difficulty, players hit with this spell create either a |cFF2959D3|Hsp
 On Mythic difficulty, Ravenous Cinderbees standing within the effect will become Honey Gorged.$]",2588,10,0,29040,28854,2,0,0,440134,0,2,4096,0
 29040,Section 11,,2588,11,29039,0,0,2,0,0,443983,0,3,4096,0
 29041,Section 9,,2566,9,0,0,0,2,0,0,444324,0,2,4096,0
-29043,Section 14,,2579,8,28476,0,0,2,0,0,443494,0,0,4098,-1
+29043,Section 14,,2579,8,28476,0,0,2,0,0,443494,0,2,4098,0
 29044,Section 17,,2609,17,28959,0,0,2,0,0,458067,0,1,0,-1
-29045,Section 18,,2609,23,0,30024,30045,2,0,0,444094,0,0,0,-1
+29045,Section 18,,2609,24,0,30368,30045,2,0,0,444094,0,0,0,-1
 29046,Section 35,,2602,94,28757,29047,29083,2,0,0,443888,0,0,32,-1
 29047,Section 36,,2602,95,29046,29952,0,2,0,0,443915,0,0,0,-1
 29048,Section 37,,2602,98,29047,29717,0,2,0,0,444502,0,0,0,-1
@@ -23226,7 +23224,7 @@ On Heroic difficulty, Dark Viscera spews from the bursting player.$]",2601,8,287
 29057,Section 19,,2601,20,28770,0,0,2,0,0,439409,0,0,0,-1
 29060,Section 19,"$[!16
 
-On this difficulty, Infested Bite additionally reduces movement speed.$]",2609,10,28908,0,0,2,0,0,455287,0,1,4,-1
+On this difficulty, Infested Bite additionally reduces movement speed.$]",2609,14,28908,0,0,2,0,0,455287,0,1,4,-1
 29062,,,2611,19,0,0,29070,2,0,0,443305,0,0,4,-1
 29065,Section 12,,2611,16,0,0,28972,2,0,0,445936,0,2,24,0
 29066,Section 13,,2611,21,0,0,0,2,0,0,438696,0,0,16,-1
@@ -23248,9 +23246,9 @@ On Heroic difficulty and above, this effect also occurs if |cFF2959D3|Hspell:445
 On Heroic difficulty and above, this effect also occurs if |cFF2959D3|Hspell:445422|h[Frothing Gluttony]|h|r touches |cFF2959D3|Hspell:445152|h[Acolyte's Essence]|h|r.$]$]",2602,104,29083,0,0,2,0,0,445877,0,2,24,0
 29091,Section 47,,2602,102,29083,0,30076,2,0,0,445623,0,0,0,-1
 29093,Section 50,,2602,128,28757,29770,0,2,0,0,445268,0,0,4,-1
-29097,Section 15,,2568,11,27791,29098,30237,2,0,0,424371,0,0,0,-1
+29097,Section 15,,2568,11,27791,29098,0,2,0,0,424371,0,0,0,-1
 29098,Section 14,,2568,12,29097,0,0,2,0,0,423839,0,0,0,-1
-29099,Section 26,,2607,32,28845,0,30249,2,0,0,443842,0,0,0,-1
+29099,Section 26,,2607,36,28845,0,0,2,0,0,443842,0,0,0,-1
 29103,Section 5,,2580,13,0,0,29105,2,0,0,453212,0,2,4096,0
 29104,Section 8,,2580,17,28138,0,28139,2,0,0,426736,0,3,4,3
 29105,Section 5,,2580,14,0,0,29840,2,0,0,426712,0,2,0,3
@@ -23262,7 +23260,7 @@ On Heroic difficulty and above, this effect also occurs if |cFF2959D3|Hspell:445
 29111,Section 13,,2583,5,0,0,28810,2,0,0,446788,0,3,4096,0
 29113,Section 16,"$[!23
 
-On Mythic difficulty, Flaming Scrap lasts substantially longer. $]",2590,9,28473,0,0,2,0,0,430000,0,0,4096,-1
+On Mythic difficulty, Flaming Scrap lasts substantially longer. $]",2590,9,28473,0,0,2,0,0,430000,0,0,0,-1
 29536,Section 1,,2617,10,0,0,29978,2,0,0,448882,0,2,0,3
 29539,Section 5,,2617,7,0,29581,29536,2,0,0,448847,0,1,32,-1
 29540,Section 4,,2617,15,0,0,0,2,0,0,447261,0,0,8193,-1
@@ -23284,11 +23282,9 @@ On Mythic difficulty, Flaming Scrap lasts substantially longer. $]",2590,9,28473
 In Mythic difficulty, Twilight Buffet leaves behind Twilight Winds.$]",2618,16,29551,29983,29555,2,0,0,456751,0,3,4096,0
 29561,Section 10,,2618,8,29557,0,29558,2,0,0,82850,0,0,32,-1
 29562,Section 10,,2594,8,0,0,28708,2,0,0,448561,0,2,4224,0
-29565,Section 13,,2587,15,28917,0,0,2,0,0,462126,0,0,4096,-1
-29566,Brew Drop,,2587,7,28426,29567,28427,1,117828,0,0,0,3,0,3
-29567,Section 10,,2587,8,29566,0,29568,2,0,0,441171,0,0,0,-1
-29568,Section 11,,2587,9,29566,0,29569,2,0,0,440104,0,0,0,-1
-29569,Section 12,,2587,10,29566,0,0,2,0,0,442122,0,0,0,-1
+29566,Brew Drop,Brew Drops move towards I'pa upon forming.,2587,6,28426,29567,28427,1,117828,0,0,0,3,2,3
+29567,Section 10,,2587,7,29566,0,29569,2,0,0,441171,0,0,0,-1
+29569,Section 12,,2587,8,29566,0,0,2,0,0,442122,0,0,0,-1
 29570,Section 22,,2601,25,28741,29571,0,2,0,0,440377,0,0,1,-1
 29571,Section 23,,2601,26,29570,0,0,2,0,0,440576,0,0,0,-1
 29572,Section 35,,2601,15,28741,29573,28826,2,0,0,448364,0,2,4096,0
@@ -23306,17 +23302,17 @@ In Mythic difficulty, Twilight Buffet leaves behind Twilight Winds.$]",2618,16,2
 In Mythic difficulty, Rock Spike leaves behind Rumbling Earth.$]",2617,13,0,29584,29540,2,0,0,448882,0,2,4096,0
 29584,Section 7,,2617,14,29583,0,0,2,0,0,448953,0,2,4096,0
 29585,Section 15,,2579,14,28094,28095,0,2,0,0,443405,0,0,0,-1
-29590,Section 22,,2607,19,28845,0,28848,2,0,0,435341,0,0,0,-1
+29590,Section 22,,2607,18,30011,0,0,2,0,0,435341,0,0,0,-1
 29591,Intermission: Escape!,Rasha'nan takes flight across Hallowfall as Limplighter Skiffs rally to the Dawnbreaker's aid and provide |cFF2959D3|Hspell:449042|h[Radiant Light]|h|r.,2593,15,0,29594,28821,0,0,0,0,0,0,0,-1
 29592,Section 27,,2593,20,29591,0,0,2,0,0,449734,0,1,96,-1
 29593,Arathi Lamplighter,"A Lamplighter's Skiff rallies to the Dawnbreaker, granting Radiant Light to nearby players and generating Light Fragments.",2593,19,29591,0,29592,1,115582,0,0,0,1,0,-1
 29594,Section 29,,2593,16,29591,30217,29593,2,0,0,449042,0,1,32,-1
-29595,Section 25,,2608,41,29023,0,0,2,0,0,449857,0,0,0,-1
-29596,Section 26,,2608,66,29031,0,0,2,0,0,449857,0,0,0,-1
+29595,Section 25,,2608,43,29023,0,0,2,0,0,449857,0,0,0,-1
+29596,Section 26,,2608,74,29031,0,0,2,0,0,449857,0,0,0,-1
 29598,Section 11,,2596,12,28828,29599,0,2,0,0,450042,0,1,4096,-1
 29599,Section 12,,2596,13,29598,29600,0,2,0,0,450047,0,0,4096,-1
 29600,Section 13,,2596,14,29599,0,0,2,0,0,450055,0,1,4096,-1
-29601,Section 28,,2608,33,29017,0,0,2,0,0,450045,0,0,0,-1
+29601,Section 28,,2608,31,29017,0,29018,2,0,0,450045,0,0,0,-1
 29614,Section 1,,2619,6,0,0,29615,2,0,0,449939,0,1,32,-1
 29615,Section 5,,2619,7,0,0,29618,2,0,0,448064,0,3,4096,0
 29618,Section 2,,2619,8,0,29619,29621,2,0,0,450077,0,0,0,-1
@@ -23356,12 +23352,12 @@ On Heroic difficulty and above, this affliction causes damage to nearby players.
 29656,Section 29,,2612,24,29010,0,0,2,0,0,441612,0,0,0,-1
 29658,Section 9,,2619,13,29623,30299,0,2,0,0,456718,0,1,0,-1
 29706,Section 15,,2568,9,0,27791,29707,2,0,0,445262,0,1,0,-1
-29707,Void Chunk,Shattered chunks of the Voidstone Monstrosity.,2568,14,0,29708,30044,1,115659,0,0,0,0,0,-1
-29708,Section 17,,2568,15,29707,27790,0,2,0,0,428269,0,0,0,-1
-29709,Section 30,,2608,79,29024,0,29710,2,0,0,450483,0,0,0,-1
+29707,Void Chunk,Storm's Vengeance shatter chunks of the monstrosity into the arena. These then Reshape themselves into a Voidstone Awakened over $428269D.,2568,13,0,29708,30355,1,115659,0,0,0,2,0,3
+29708,Section 17,,2568,14,29707,27790,0,2,0,0,428269,0,0,0,-1
+29709,Section 30,,2608,86,29024,0,29025,2,0,0,450483,0,0,0,-1
 29710,Section 31,"$[!16
 
-On Mythic difficulty, an |cFF2959D3|Hspell:441775|h[Entropic Barrage]|h|r  is launched at the start of casting.$]",2608,80,29024,30151,0,2,0,0,438355,0,0,16,-1
+On Mythic difficulty, Takazj launches an |cFF2959D3|Hspell:441775|h[Entropic Barrage]|h|r as she begins casting.$]",2608,81,29024,30151,29937,2,0,0,438355,0,0,48,-1
 29713,Section 7,,2596,15,0,0,28897,2,0,0,438860,0,0,2,-1
 29714,[PH],,2596,7,0,29715,28600,2,0,0,437700,0,2,2,3
 29715,Ravenous Scarab,The force of Tremor Slam awakens scarabs that emerge and attack players.,2596,8,29714,29716,0,1,116480,0,0,0,1,2,-1
@@ -23371,11 +23367,11 @@ On Mythic difficulty, an |cFF2959D3|Hspell:441775|h[Entropic Barrage]|h|r  is la
 29723,Section 12,,2601,7,28768,0,29053,2,0,0,437343,0,2,4,0
 29724,Section 12,,2580,8,0,30212,29841,2,0,0,451026,0,1,48,-1
 29725,Section 26,,2602,37,28938,0,0,2,0,0,437078,0,2,8,0
-29726,Transition: Void Ascension,,2608,34,0,29727,29021,0,0,0,0,0,0,0,-1
-29727,Section 35,,2608,35,29726,30148,0,2,0,0,450980,0,0,0,-1
-29728,Transition: Raging Fury,,2608,59,0,29730,29022,0,0,0,0,0,1,0,-1
-29730,Section 38,,2608,60,29728,30153,0,2,0,0,451277,0,0,0,-1
-29734,Section 83,,2602,52,30139,29736,30140,2,0,0,447965,0,0,132,-1
+29726,Intermission: Void Ascension,,2608,33,0,29727,29021,0,0,0,0,0,0,0,-1
+29727,Section 35,,2608,34,29726,30148,0,2,0,0,450980,0,0,32,-1
+29728,Intermission: Raging Fury,,2608,61,0,29730,29022,0,0,0,0,0,0,0,-1
+29730,Section 38,,2608,62,29728,30367,0,2,0,0,451277,0,0,32,-1
+29734,Section 83,,2602,52,30139,29736,30140,2,0,0,464056,0,0,132,-1
 29735,Section 84,,2602,66,29635,0,29637,2,0,0,448176,0,2,8,0
 29736,Section 85,,2602,53,29734,0,30208,2,0,0,447983,0,0,8,-1
 29737,Section 24,,2571,11,27821,0,27824,2,0,0,447272,0,0,8192,-1
@@ -23429,7 +23425,7 @@ On Mythic difficulty, |cFF2959D3|Hspell:445152|h[Acolyte's Essence]|h|r cannot b
 29798,Section 3,,2627,9,0,0,29799,2,0,0,449687,0,2,4096,0
 29799,Section 4,,2627,10,0,29916,29800,2,0,0,449444,0,0,0,-1
 29800,Section 5,,2627,12,0,0,0,2,0,0,447395,0,0,0,-1
-29817,Section 20,,2609,21,0,30025,29045,2,0,0,452806,0,1,96,-1
+29817,Section 20,,2609,22,0,30025,29045,2,0,0,452806,0,1,96,-1
 29840,Section 12,,2580,15,0,0,28138,2,0,0,453140,0,2,4096,0
 29841,Section 5,,2580,12,0,0,29103,2,0,0,425264,0,2,1,3
 29856,Section 97,,2602,69,29633,0,0,2,0,0,448300,0,0,0,-1
@@ -23486,20 +23482,20 @@ On Mythic difficulty, this affliction inflicts periodic damage.$]",2602,26,29912
 29917,[PH],,2602,122,28757,29918,28761,2,0,0,443336,0,2,1,0
 29918,Section 30,,2602,123,29917,0,0,2,0,0,443396,0,0,0,-1
 29919,Section 21,,2609,15,0,0,28959,2,0,0,454989,0,2,4096,0
-29920,Shattershell Scarab,,2608,44,29015,29921,0,1,116538,0,0,0,0,0,-1
-29921,Section 42,,2608,45,29920,0,29922,2,0,0,438706,0,2,0,0
+29920,Shattershell Scarab,,2608,45,29015,29921,0,1,116538,0,0,0,0,0,-1
+29921,Section 42,,2608,46,29920,0,29922,2,0,0,438706,0,2,0,0
 29922,Section 41,"$[!16
 
-On Mythic difficulty, players hit with this spell create either a |cFF2959D3|Hspell:460263|h[Mote of Unrelenting Rage]|h|r or a |cFF2959D3|Hspell:460357|h[Mote of Overwrought Paranoia]|h|r  .$]",2608,46,29920,0,29923,2,0,0,438773,0,2,0,0
-29923,Section 42,,2608,47,29920,0,0,2,0,0,455080,0,0,0,-1
+On Mythic difficulty, players hit with this spell create either a |cFF2959D3|Hspell:460263|h[Mote of Unrelenting Rage]|h|r or a |cFF2959D3|Hspell:460357|h[Mote of Overwrought Paranoia]|h|r  .$]",2608,47,29920,0,29923,2,0,0,438773,0,2,0,0
+29923,Section 42,,2608,48,29920,0,0,2,0,0,455080,0,0,0,-1
 29925,Section 83,,2602,71,29639,29926,30209,2,0,0,447965,0,2,132,0
 29926,Section 85,,2602,72,29925,0,0,2,0,0,447983,0,2,8,0
-29927,Overview,"The Aggregation of Horrors expels jagged shards of rock from its body during|cFF2959D3|Hspell: 452210|h[Crystalline Barrage]|h|r,  These scattered shards of rock arise during |cFF2959D3|Hspell: 453271|h[Dark Awakening]|h|r as the same Fractured Skardyn that once contributed to the Horror's bloated form.",2635,1,0,29928,29932,3,0,0,0,0,0,0,-1
-29928,Tanks,"$bullet;|cFF2959D3|Hspell: 453298|h[Crystal Strike]|h|r inflicting Shadow damage to player and an additional Shadow damage every 1.5 sec for 30 sec.
-$bullet;|cFF2959D3|Hspell: 452981|h[Voidquake]|h|r inflicts Shadow damage to players caught within its effect.",2635,2,29927,0,29929,3,0,0,0,0,0,1,-1
-29929,Healer,"$bullet;|cFF2959D3|Hspell: 452981|h[Voidquake]|h|r inflicts Shadow damage to players caught within its effect.
+29927,Overview,The Aggregation of Horrors expels shards of rock during|cFF2959D3|Hspell: 452210|h [Crystalline Barrage]|h|r. These shards arise Fractured Skardyn during|cFF2959D3|Hspell: 453271|h[Dark Awakening]|h|r.,2635,1,0,29928,29932,3,0,0,0,0,0,0,-1
+29928,Tanks,"$bullet;|cFF2959D3|Hspell: 453298|h[Crystal Strike]|h|r inflicts heavy Shadow damage on impact and over time.
+$bullet;|cFF2959D3|Hspell: 452981|h[Voidquake]|h|r inflicts Shadow damage to players caught within 150 yards.",2635,2,29927,0,29929,3,0,0,0,0,0,1,-1
+29929,Healer,"$bullet;|cFF2959D3|Hspell: 452981|h[Voidquake]|h|r inflicts Shadow damage to players caught within 150 yards.
 $bullet;|cFF2959D3|Hspell: 452210|h[Crystalline Barrage]|h|r inflicts a large amount of damage to players hit by shards.",2635,3,29927,0,29930,3,0,0,0,0,0,4,-1
-29930,Damage Dealers,"$bullet;|cFF2959D3|Hspell: 452981|h[Voidquake]|h|r inflicts Shadow damage to players caught within its effect.
+29930,Damage Dealers,"$bullet;|cFF2959D3|Hspell: 452981|h[Voidquake]|h|r inflicts Shadow damage to players caught within 150 yards.
 $bullet;The Aggregation of Horrors cast |cFF2959D3|Hspell: 456148|h[Annihilation Barrage]|h|r when no players are in melee combat.
 $bullet;|cFF2959D3|Hspell: 453271|h[Dark Awakening]|h|r creates Fractured Skardyn that attack nearby players.",2635,4,29927,0,0,3,0,0,0,0,0,2,-1
 29931,,,2635,8,0,0,29934,2,0,0,452981,0,0,4,-1
@@ -23507,7 +23503,9 @@ $bullet;|cFF2959D3|Hspell: 453271|h[Dark Awakening]|h|r creates Fractured Skardy
 29933,,,2635,6,0,29959,29931,2,0,0,453271,0,1,2,-1
 29934,,,2635,9,0,0,29935,2,0,0,453294,0,0,1,-1
 29935,,,2635,10,0,0,0,2,0,0,456148,0,0,0,-1
-29937,Section 43,,2608,77,29024,0,29027,2,0,0,450129,0,0,0,-1
+29937,Section 43,"$[!16
+
+On Mythic difficulty, players hit create a |cFF2959D3|Hspell:460263|h[Mote of Unrelenting Rage]|h|r or a |cFF2959D3|Hspell:460357|h[Mote of Overwrought Paranoia]|h|r  .$]",2608,84,29024,0,29027,2,0,0,450129,0,0,0,-1
 29938,Section 19,,2475,7,24740,0,24787,2,0,0,455242,0,2,0,1
 29941,Section 6,,2476,6,24746,0,25572,2,0,0,369025,0,0,0,-1
 29942,Section 14,,2476,9,0,25016,25017,2,0,0,455334,0,3,16,1
@@ -23515,7 +23513,7 @@ $bullet;|cFF2959D3|Hspell: 453271|h[Dark Awakening]|h|r creates Fractured Skardy
 29944,Section 18,,2479,12,29943,0,0,2,0,0,455344,0,1,32,-1
 29945,Chamber Acolyte,,2602,88,28756,29947,29985,1,118898,0,0,0,2,4096,0
 29947,Section 108,,2602,89,29945,0,0,2,0,0,455374,0,0,64,-1
-29948,Section 44,,2608,15,0,0,29011,2,0,0,455363,0,0,0,-1
+29948,Section 44,,2608,13,0,0,29011,2,0,0,455363,0,0,0,-1
 29949,Section 46,,2602,106,30073,29950,30074,2,0,0,445152,0,2,8,0
 29950,Section 53,,2602,107,29949,0,0,2,0,0,446012,0,0,0,-1
 29952,Section 111,,2602,96,29047,0,29049,2,0,0,455387,0,2,4096,0
@@ -23524,8 +23522,7 @@ $bullet;|cFF2959D3|Hspell: 453271|h[Dark Awakening]|h|r creates Fractured Skardy
 29959,Fractured Skardyn,Skardyn fractured from the Aggregation of Horrors' body.,2635,7,29933,0,0,2,117974,0,0,0,0,0,-1
 29960,"Stage One: Nx, the Shrouded Fang",,2595,7,0,28887,29961,0,0,0,0,0,1,0,-1
 29961,"Stage Two: Vx, the Frosted Fang",,2595,15,0,28875,0,0,0,0,0,0,1,0,-1
-29962,Section 46,,2608,5,0,30155,29963,2,0,0,455796,0,2,4096,0
-29963,Section 45,,2608,10,0,30154,29948,2,0,0,455798,0,2,4096,0
+29962,Section 46,,2608,5,0,30155,29948,2,0,0,455796,0,2,4096,0
 29964,Overview,"Shurrai showers players with |cFF2959D3|Hspell:453733|h[Briny Vomit]|h|r before washing away both players and vomit with |cFF2959D3|Hspell:455275|h[Dark Tide]|h|r.
 
 At 100 energy Shurrai casts |cFF2959D3|Hspell:453875|h[Regurgitate Souls]|h|r, summoning Drowned Arathi and shielding himself with |cFF2959D3|Hspell:455639|h[Shroud of the Drowned]|h|r.",2636,1,0,29965,29968,3,0,0,0,0,0,0,-1
@@ -23604,47 +23601,49 @@ $bullet;|cFF2959D3|Hspell:458838|h[Supression Burst]|h|r pacifies and silences a
 $bullet; |cFF2959D3|Hspell:458209|h[Overcharged Lasers]|h|r will pursue players and leave behind |cFF2959D3|Hspell:458799|h[Overcharged Earth]|h|r.",2637,4,30005,0,0,3,0,0,0,0,0,0,-1
 30009,Section 5,,2637,6,0,30055,30056,2,0,0,458209,0,1,0,-1
 30011,Gleeful Brutality,,2607,6,0,30135,28845,0,0,0,0,0,1,0,-1
-30012,Bile-Soaked Spawn,,2607,25,28845,30016,28843,1,116480,0,0,0,2,4096,0
-30013,Section 19,,2607,22,28848,0,30014,2,0,0,439037,0,0,8192,-1
-30014,Section 17,,2607,23,28848,30015,0,2,0,0,438657,0,0,32,-1
-30015,Section 18,,2607,24,30014,0,0,2,0,0,438324,0,0,0,-1
-30016,Section 28,,2607,26,30012,0,30248,2,0,0,455870,0,2,4096,0
+30012,Bile-Soaked Spawn,,2607,28,28845,30016,30021,1,116480,0,0,0,2,4096,0
+30013,Section 19,,2607,25,28848,0,30014,2,0,0,439037,0,0,8192,-1
+30014,Section 17,,2607,26,28848,30015,0,2,0,0,438657,0,0,32,-1
+30015,Section 18,,2607,27,30014,0,0,2,0,0,438324,0,0,0,-1
+30016,Section 28,,2607,29,30012,0,28851,2,0,0,455870,0,2,4096,0
 30017,Section 21,,2599,6,28721,0,30060,2,0,0,434860,0,0,4,-1
 30018,Damage Dealers,"$bullet; |cFF2959D3|Hspell:439502|h[Stalker's Webbing]|h|r  will root players on contact.
 $bullet;Ravenous Spawn continually |cFF2959D3|Hspell:439037|h[Disembowel]|h|r a player.",2607,2,28833,0,28834,3,0,0,0,0,2,2,0
 30019,Section 7,,2627,8,29797,0,0,2,0,0,452008,0,0,0,-1
-30021,Section 24,,2607,11,30011,30023,28840,2,0,0,441451,0,0,0,-1
-30022,Section 25,,2607,13,30021,0,0,2,0,0,455831,0,2,4096,0
-30023,Section 25,,2607,12,30021,0,30022,2,0,0,439419,0,2,0,0
-30024,Section 23,,2609,24,29045,0,0,2,0,0,439776,0,1,0,-1
-30025,Section 24,,2609,22,29817,0,0,2,0,0,457877,0,1,0,-1
-30026,Anub'arash,,2608,39,29021,29023,30032,1,118997,0,0,0,1,0,-1
+30021,Section 24,,2607,33,28845,30023,29099,2,0,0,441451,0,0,0,-1
+30022,Section 25,,2607,35,30021,0,0,2,0,0,455831,0,2,4096,0
+30023,Section 25,,2607,34,30021,0,30022,2,0,0,439419,0,2,0,0
+30024,Section 23,,2609,21,28913,0,0,2,0,0,439776,0,0,0,-1
+30025,Section 24,,2609,23,29817,0,0,2,0,0,457877,0,1,0,-1
+30026,Anub'arash,,2608,38,29021,30031,30032,1,118997,0,0,0,1,0,-1
 30027,Section 17,"$[!16
 
-On Mythic difficulty, players hit with this spell create either a |cFF2959D3|Hspell:460263|h[Mote of Unrelenting Rage]|h|r or a |cFF2959D3|Hspell:460357|h[Mote of Overwrought Paranoia]|h|r  .$]",2608,26,29012,30028,0,2,0,0,440504,0,0,0,-1
-30028,Section 25,,2608,27,30027,0,0,2,0,0,449857,0,0,0,-1
-30029,Section 48,,2608,42,30026,0,29015,2,0,0,438218,0,0,1,-1
-30031,Section 50,,2608,48,30026,30150,0,2,0,0,438677,0,0,160,-1
-30032,Skeinspinner Takazj,,2608,51,29021,30033,0,1,115753,0,0,0,0,0,-1
-30033,Section 19,,2608,52,30032,0,30034,2,0,0,441772,0,0,1,-1
+On Mythic difficulty, players hit by a spike create a |cFF2959D3|Hspell:460263|h[Mote of Unrelenting Rage]|h|r or a |cFF2959D3|Hspell:460357|h[Mote of Overwrought Paranoia]|h|r  .$]",2608,23,29012,30028,29013,2,0,0,440504,0,0,0,-1
+30028,Section 25,,2608,24,30027,0,0,2,0,0,449857,0,0,0,-1
+30029,Section 48,,2608,49,30026,0,0,2,0,0,438218,0,0,1,-1
+30031,Section 50,,2608,39,30026,30150,29023,2,0,0,438677,0,0,160,-1
+30032,Skeinspinner Takazj,,2608,50,29021,30038,0,1,115753,0,0,0,0,0,-1
+30033,Section 19,,2608,60,30032,0,0,2,0,0,441772,0,0,1,-1
 30034,Section 20,"$[!16
 
-On Mythic difficulty, players hit with this spell create either a |cFF2959D3|Hspell:460263|h[Mote of Unrelenting Rage]|h|r or a |cFF2959D3|Hspell:460357|h[Mote of Overwrought Paranoia]|h|r  .$]",2608,53,30032,0,30035,2,0,0,441634,0,0,0,-1
-30035,Section 43,,2608,54,30032,0,30036,2,0,0,450129,0,0,0,-1
+On Mythic difficulty, players hit create a |cFF2959D3|Hspell:460263|h[Mote of Unrelenting Rage]|h|r or a |cFF2959D3|Hspell:460357|h[Mote of Overwrought Paranoia]|h|r.$]",2608,54,30032,30361,30035,2,0,0,441634,0,0,0,-1
+30035,Section 43,"$[!16
+
+On Mythic difficulty, players hit create a |cFF2959D3|Hspell:460263|h[Mote of Unrelenting Rage]|h|r or a |cFF2959D3|Hspell:460357|h[Mote of Overwrought Paranoia]|h|r  .$]",2608,57,30032,0,30036,2,0,0,450129,0,0,0,-1
 30036,Section 21,"$[!16
 
-On Mythic difficulty, players hit with this spell create either a |cFF2959D3|Hspell:460263|h[Mote of Unrelenting Rage]|h|r or a |cFF2959D3|Hspell:460357|h[Mote of Overwrought Paranoia]|h|r  .$]",2608,55,30032,0,30037,2,0,0,441782,0,0,0,-1
-30037,Section 30,,2608,56,30032,0,30038,2,0,0,450483,0,0,0,-1
+On Mythic difficulty, players hit create a |cFF2959D3|Hspell:460263|h[Mote of Unrelenting Rage]|h|r or a |cFF2959D3|Hspell:460357|h[Mote of Overwrought Paranoia]|h|r  .$]",2608,58,30032,0,30037,2,0,0,441782,0,0,0,-1
+30037,Section 30,,2608,59,30032,0,30033,2,0,0,450483,0,0,0,-1
 30038,Section 31,"$[!16
 
-On Mythic difficulty, an |cFF2959D3|Hspell:441775|h[Entropic Barrage]|h|r  is launched at the start of casting.$]",2608,57,30032,30152,0,2,0,0,438355,0,0,16,-1
-30039,Section 58,,2608,67,29028,0,29030,2,0,0,438218,0,0,1,-1
-30040,Section 59,,2608,70,29028,30149,0,2,0,0,438677,0,0,160,-1
+On Mythic difficulty, Takazj launches an |cFF2959D3|Hspell:441775|h[Entropic Barrage]|h|r as she begins casting.$]",2608,51,30032,30152,30034,2,0,0,438355,0,0,48,-1
+30039,Section 58,,2608,76,29028,0,0,2,0,0,438218,0,0,1,-1
+30040,Section 59,,2608,68,29028,30149,29029,2,0,0,438677,0,0,160,-1
 30041,Section 6,,2568,5,0,30046,29706,2,0,0,423305,0,0,32,-1
-30044,Section 12,,2568,18,0,0,28354,2,0,0,429487,0,2,0,3
-30045,Section 25,,2609,25,0,0,0,2,0,0,439792,0,0,1,-1
+30044,Section 12,,2568,21,0,0,28354,2,0,0,429487,0,2,0,3
+30045,Section 25,,2609,26,0,0,0,2,0,0,439792,0,0,1,-1
 30046,Section 18,,2568,6,30041,30048,0,2,0,0,433067,0,0,0,-1
-30047,Section 19,,2568,8,30048,0,0,2,0,0,458088,0,0,0,-1
+30047,Section 19,,2568,8,30048,0,0,2,0,0,458088,0,1,32,-1
 30048,Stormrider Vokmar,,2568,7,30046,30047,0,1,116266,0,0,0,0,0,-1
 30049,Section 22,,2595,19,28878,0,0,2,0,0,458741,0,0,16,-1
 30050,Section 22,,2611,5,0,30231,29776,2,0,0,444363,0,1,33,-1
@@ -23672,7 +23671,7 @@ On Mythic difficulty, Cosmic Simulcrums explode in a Collapsing Nova if placed w
 30130,Section 117,,2602,22,29898,0,29899,2,0,0,460133,0,0,4096,-1
 30135,Section 33,"$[!16
 
-In Mythic difficulty, bound players will emerge from the Contest |cFF2959D3|Hspell:455847|h[Battered and Bruised]|h|r. Ulgrax will enter a |cFF2959D3|Hspell:440849|h[Contemptful Rage]|h|r if fewer than $457668s3 players participate in the Contest.$]",2607,7,30011,28950,30021,2,0,0,434776,0,0,0,-1
+In Mythic difficulty, bound players will emerge from the Contest |cFF2959D3|Hspell:455847|h[Battered and Bruised]|h|r. Ulgrax will enter a |cFF2959D3|Hspell:440849|h[Contemptful Rage]|h|r if fewer than $457668s3 players participate in the Contest.$]",2607,7,30011,28950,30351,2,0,0,434776,0,0,32,-1
 30136,Section 35,,2607,10,30135,0,0,2,0,0,440849,0,2,4096,0
 30137,Section 117,,2602,49,29626,0,0,2,0,0,441958,0,2,4096,0
 30138,Section 118,,2602,61,29630,0,0,2,0,0,441958,0,2,4096,0
@@ -23684,42 +23683,42 @@ In Mythic difficulty, bound players will emerge from the Contest |cFF2959D3|Hspe
 30145,Section 122,,2602,83,29643,0,0,2,0,0,460315,0,0,0,-1
 30148,Section 63,"$[!16
 
-On Mythic difficulty, players hit with this spell create either a |cFF2959D3|Hspell:460263|h[Mote of Unrelenting Rage]|h|r or a |cFF2959D3|Hspell:460357|h[Mote of Overwrought Paranoia]|h|r  .$]",2608,36,29727,30273,0,2,0,0,460600,0,0,0,-1
-30149,Section 64,,2608,71,30040,0,30167,2,0,0,449993,0,0,0,-1
-30150,Section 65,,2608,49,30031,0,30164,2,0,0,449993,0,0,0,-1
+On Mythic difficulty, players hit create a |cFF2959D3|Hspell:460263|h[Mote of Unrelenting Rage]|h|r or a |cFF2959D3|Hspell:460357|h[Mote of Overwrought Paranoia]|h|r  .$]",2608,35,29727,30273,0,2,0,0,460600,0,0,0,-1
+30149,Section 64,,2608,69,30040,0,30167,2,0,0,449993,0,0,0,-1
+30150,Section 65,,2608,40,30031,0,30164,2,0,0,449993,0,0,0,-1
 30151,Section 66,"$[!16
 
-On Mythic difficulty, players hit with this spell create either a |cFF2959D3|Hspell:460263|h[Mote of Unrelenting Rage]|h|r or a |cFF2959D3|Hspell:460357|h[Mote of Overwrought Paranoia]|h|r  .$]",2608,81,29710,0,0,2,0,0,441775,0,2,4112,0
+On Mythic difficulty, players hit create a |cFF2959D3|Hspell:460263|h[Mote of Unrelenting Rage]|h|r or a |cFF2959D3|Hspell:460357|h[Mote of Overwrought Paranoia]|h|r  .$]",2608,82,29710,30366,0,2,0,0,460600,0,2,4112,0
 30152,Section 68,"$[!16
 
-On Mythic difficulty, players hit with this spell create either a |cFF2959D3|Hspell:460263|h[Mote of Unrelenting Rage]|h|r or a |cFF2959D3|Hspell:460357|h[Mote of Overwrought Paranoia]|h|r  .$]",2608,58,30038,0,0,2,0,0,441775,0,2,4112,0
+On Mythic difficulty, players hit create a |cFF2959D3|Hspell:460263|h[Mote of Unrelenting Rage]|h|r or a |cFF2959D3|Hspell:460357|h[Mote of Overwrought Paranoia]|h|r  .$]",2608,52,30038,30365,0,2,0,0,460600,0,2,4112,0
 30153,Section 67,"$[!16
 
-On Mythic difficulty, players hit with this spell create either a |cFF2959D3|Hspell:460263|h[Mote of Unrelenting Rage]|h|r or a |cFF2959D3|Hspell:460357|h[Mote of Overwrought Paranoia]|h|r  .$]",2608,61,29730,30274,0,2,0,0,460364,0,0,0,-1
-30154,Section 69,,2608,11,29963,30156,30161,2,0,0,455850,0,2,4096,0
-30155,Section 70,,2608,6,29962,30157,30160,2,0,0,455849,0,2,4096,0
-30156,Section 71,,2608,12,30154,30158,0,2,0,0,460263,0,2,4096,0
+On Mythic difficulty, players hit with this spell create either a |cFF2959D3|Hspell:460263|h[Mote of Unrelenting Rage]|h|r or a |cFF2959D3|Hspell:460357|h[Mote of Overwrought Paranoia]|h|r  .$]",2608,64,29730,30274,0,2,0,0,460364,0,0,0,-1
+30154,Section 69,,2608,9,29962,30156,30160,2,0,0,455850,0,2,4096,0
+30155,Section 70,,2608,6,29962,30157,30154,2,0,0,455849,0,2,4096,0
+30156,Section 71,,2608,10,30154,30158,0,2,0,0,460263,0,2,4096,0
 30157,Section 72,,2608,7,30155,30159,0,2,0,0,460357,0,2,4096,0
-30158,Section 73,,2608,13,30156,0,0,2,0,0,460281,0,2,4096,0
+30158,Section 73,,2608,11,30156,0,0,2,0,0,460281,0,2,4096,0
 30159,Section 74,,2608,8,30157,0,0,2,0,0,460359,0,2,4096,0
-30160,Section 76,,2608,9,29962,0,0,2,0,0,455863,0,2,4096,0
-30161,Section 75,,2608,14,29963,0,0,2,0,0,455863,0,2,4096,0
-30164,Section 77,,2608,50,30031,0,0,2,0,0,456235,0,0,0,-1
-30167,Section 78,,2608,72,30040,0,0,2,0,0,456235,0,0,0,-1
+30160,Section 76,,2608,12,29962,0,0,2,0,0,455863,0,2,4096,0
+30164,Section 77,,2608,41,30031,0,0,2,0,0,456235,0,0,0,-1
+30167,Section 78,,2608,70,30040,0,0,2,0,0,456235,0,0,0,-1
 30174,[PH],,2602,32,28754,30175,28763,2,0,0,440899,0,2,1,0
 30175,Section 27,,2602,33,30174,30176,0,2,0,0,441084,0,0,0,-1
 30176,Section 26,,2602,34,30175,0,0,2,0,0,437078,0,2,8,0
 30177,Section 22,"$[!16
 
-On this difficulty, the first player to unleash a Spinneret's Websnap triggers Tacky Threads.$]",2609,13,28910,0,0,2,0,0,460789,0,3,4096,0
+On this difficulty, the first player to unleash a Spinneret's Websnap triggers Tacky Threads.$]",2609,11,28910,0,0,2,0,0,460789,0,3,4096,0
 30180,Section 13,,2588,8,28853,0,28856,2,0,0,439006,0,0,0,-1
-30197,Section 14,,2608,19,29012,30198,29016,2,0,0,438801,0,0,0,-1
-30198,Shattershell Scarab,,2608,20,30197,30199,0,1,116538,0,0,0,0,0,-1
-30199,Section 42,,2608,21,30198,0,30200,2,0,0,438706,0,2,0,0
+30197,Section 14,,2608,18,29012,30198,30027,2,0,0,438801,0,0,0,-1
+30198,Shattershell Scarab,,2608,19,30197,30199,0,1,116538,0,0,0,0,0,-1
+30199,Section 42,,2608,20,30198,0,30200,2,0,0,438706,0,2,0,0
 30200,Section 41,"$[!16
 
-On Mythic difficulty, players hit with this spell create either a |cFF2959D3|Hspell:460263|h[Mote of Unrelenting Rage]|h|r or a |cFF2959D3|Hspell:460357|h[Mote of Overwrought Paranoia]|h|r  .$]",2608,22,30198,0,30201,2,0,0,438773,0,2,0,0
-30201,Section 42,,2608,23,30198,0,0,2,0,0,455080,0,0,0,-1
+On Mythic difficulty, the scarab�s melee attacks also create a 
+|cFF2959D3|Hspell:460263|h[Mote of Unrelenting Rage]|h|r or a |cFF2959D3|Hspell:460357|h[Mote of Overwrought Paranoia]|h|r  .$]",2608,21,30198,0,30201,2,0,0,438773,0,2,0,0
+30201,Section 42,,2608,22,30198,0,0,2,0,0,455080,0,0,0,-1
 30204,Section 11,,2585,9,0,0,28576,2,0,0,461487,0,2,4608,0
 30206,Section 17,"$[!15,16
 
@@ -23751,14 +23750,16 @@ $bullet;|cFF2959D3|Hspell:449042|h[Radiant Light]|h|r allows skyriding and mount
 30225,Section 18,,2573,13,27934,0,27936,2,0,0,428169,0,2,4096,0
 30226,Section 10,"$[!23
 
-In Mythic difficulty, Brew Drops reform after their Oozing Honey dissipates.$]",2587,12,28427,30227,28917,2,0,0,440082,0,3,0,0
-30227,Section 13,,2587,13,30226,0,0,2,0,0,448718,0,0,4096,-1
+In Mythic difficulty, Brew Drops reform after their Oozing Honey dissipates.$]",2587,10,28427,0,28917,2,0,0,440082,0,3,0,0
 30231,Section 24,,2611,6,30050,29072,0,2,0,0,462306,0,1,0,-1
 30232,Section 24,,2611,14,30231,0,0,2,0,0,445570,0,2,0,0
 30233,Section 31,,2593,29,28825,0,0,2,0,0,438957,0,0,0,-1
-30235,Section 83,,2608,32,29020,0,0,2,0,0,440179,0,0,32,-1
-30236,Section 84,,2608,76,29026,0,0,2,0,0,440179,0,0,32,-1
-30237,Section 21,,2568,13,27791,0,0,2,0,0,458082,0,1,32,-1
+30235,Section 83,"$[!15
+
+On Heroic difficulty, Anub'arash needs to charge through 2 Binding Web strands to be entangled.$]
+$[!16
+
+On Mythic difficulty, Anub'arash needs to charge through 3 Binding Web strands to be entangled.$]",2608,80,30354,0,0,2,0,0,440179,0,0,32,-1
 30238,Section 126,,2602,77,29640,30239,0,2,0,0,462541,0,2,4097,0
 30239,Section 127,,2602,78,30238,0,0,2,0,0,462564,0,0,0,-1
 30240,Experimental Eggs,,2612,7,0,30241,28986,1,0,0,0,0,0,0,-1
@@ -23770,9 +23771,7 @@ In Mythic difficulty, Brew Drops reform after their Oozing Honey dissipates.$]",
 30246,Experimental Dosage,"$[!16
 
 On Mythic difficulty, 2 simultaneous Experimental Dosage are required to cause a nearby egg to hatch.$]",2612,6,0,0,30240,2,0,0,442526,0,3,32,0
-30247,Section 36,,2607,21,28848,0,30013,2,0,0,462472,0,0,0,-1
-30248,Section 37,,2607,27,30012,0,28851,2,0,0,462472,0,2,0,0
-30249,Section 38,,2607,33,28845,28846,0,2,0,0,440177,0,0,32,-1
+30249,Section 38,,2607,20,28845,28846,28843,2,0,0,440177,0,0,32,-1
 30250,Section 128,,2602,84,29642,0,0,2,0,0,462692,0,0,0,-1
 30251,Section 129,,2602,87,29744,0,0,2,0,0,462693,0,0,0,-1
 30252,Section 11,,2567,6,27862,0,27869,2,0,0,426171,0,0,0,-1
@@ -23788,8 +23787,8 @@ On Mythic difficulty, 2 simultaneous Experimental Dosage are required to cause a
 30270,Section 10,,2637,8,30009,0,0,2,0,0,459281,0,0,0,-1
 30271,Section 32,,2593,14,29575,0,0,2,0,0,463428,0,1,0,-1
 30272,Section 33,,2593,32,29576,0,0,2,0,0,463428,0,1,0,-1
-30273,Section 79,,2608,37,30148,0,0,2,0,0,463461,0,0,0,-1
-30274,Section 80,,2608,62,30153,0,0,2,0,0,463464,0,0,0,-1
+30273,Section 79,,2608,36,30148,0,0,2,0,0,463461,0,0,0,-1
+30274,Section 80,,2608,65,30153,0,0,2,0,0,463464,0,0,0,-1
 30275,Section 17,,2400,9,21650,0,22085,2,0,0,328756,0,2,4224,0
 30276,Carrion Worm,"Carrion Worms hunger for blood, searching out random players to feast upon.
 $[!23
@@ -23798,7 +23797,7 @@ In Mythic difficulty, Carrion Worms now erupt into a pool of Fetid Gas upon dyin
 30277,Section 9,,2395,7,30276,30278,30279,2,0,0,320614,0,0,0,-1
 30278,Section 10,,2395,8,30277,0,0,2,0,0,320631,0,0,0,-1
 30279,Section 11,,2395,9,30276,0,0,2,0,0,328146,0,0,4096,-1
-30280,Section 81,,2608,25,29012,0,30027,2,0,0,460360,0,0,0,-1
+30280,Section 81,,2608,72,29028,0,29031,2,0,0,460360,0,0,0,-1
 30281,Overview,"General Umbriss controls Twilight Drakes with |cFF2959D3|Hspell:448847|h[Commanding Roar]|h|r. 
 
 Twilight Drakes sear anyone caught by their |cFF2959D3|Hspell:448566|h[Shadowflame Breath]|h|r.",2617,1,0,30282,29539,3,0,0,0,0,0,0,-1
@@ -23854,3 +23853,30 @@ $bullet;|cFF2959D3|Hspell:450088|h[Void Infusion]|h|r corrupts Alexstraza's eggs
 
 $bullet;Erudax afflicts multiple players with |cFF2959D3|Hspell:448057|h[Abyssal Corruption]|h|r, causes them to erupt in void energy.",2619,5,30294,0,0,3,0,0,0,0,2,4,0
 30303,Healers,$bullet;|cFF2959D3|Hspell:450079|h[Void Surge]|h|r blasts all players with shadow damage.,2619,4,30294,0,30302,3,0,0,0,0,2,4,3
+30350,Section 81,,2608,17,29012,0,30197,2,0,0,460360,0,0,0,-1
+30351,Section 24,,2607,11,30011,30352,28840,2,0,0,441451,0,0,0,-1
+30352,Section 25,,2607,12,30351,0,30353,2,0,0,439419,0,2,0,0
+30353,Section 25,,2607,13,30351,0,0,2,0,0,455831,0,2,4096,0
+30354,Section 81,,2608,79,29026,30235,0,2,0,0,440001,0,0,32,-1
+30355,Void Chunk,Unleash Corruption and Storm's Vengeance shatter chunks of the monstrosity into the arena. These then Reshape themselves into a Voidstone Awakened over $428269D.,2568,17,0,30356,30044,1,115659,0,0,0,2,0,0
+30356,Section 22,,2568,18,30355,30357,0,2,0,0,428269,0,2,0,0
+30357,Voidstone Awakened,,2568,19,30356,30358,0,1,114860,0,0,0,2,0,0
+30358,Section 24,,2568,20,30357,0,0,2,0,0,429028,0,2,0,0
+30359,Section 81,,2608,28,29020,30360,0,2,0,0,440001,0,0,32,-1
+30360,Section 83,"$[!15
+
+On Heroic difficulty, Anub'arash needs to charge through 2 Binding Web strands to be entangled.$]
+$[!16
+
+On Mythic difficulty, Anub'arash needs to charge through 3 Binding Web strands to be entangled.$]",2608,29,30359,0,0,2,0,0,440179,0,0,32,-1
+30361,Section 81,,2608,55,30034,30362,0,2,0,0,440001,0,0,32,-1
+30362,Section 83,"$[!15
+
+On Heroic difficulty, Anub'arash needs to charge through 2 Binding Web strands to be entangled.$]
+$[!16
+
+On Mythic difficulty, Anub'arash needs to charge through 3 Binding Web strands to be entangled.$]",2608,56,30361,0,0,2,0,0,440179,0,0,32,-1
+30365,Section 79,,2608,53,30152,0,0,2,0,0,463461,0,2,0,0
+30366,Section 79,,2608,83,30151,0,0,2,0,0,463461,0,2,0,0
+30367,Section 25,,2608,63,29730,0,30153,2,0,0,449857,0,0,0,-1
+30368,Section 23,,2609,25,29045,0,0,2,0,0,439776,0,1,0,-1

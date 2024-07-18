@@ -8325,9 +8325,6 @@ ID,Value_lang,ReqID,ParentWidgetID
 15626,Time Remaining,19,5541
 15627,,273,5541
 15628,,208,5541
-15629,Time Remaining,19,5542
-15630,,273,5542
-15631,,208,5542
 15632,Time Remaining,19,5543
 15633,,273,5543
 15634,,208,5543
@@ -8725,8 +8722,8 @@ ID,Value_lang,ReqID,ParentWidgetID
 16429,,394,5846
 16430,You will be granted visions of Azeroth's memories for 5 minutes.,212,5847
 16431,Azeroth's Vision,277,5847
-16432,You will earn |cFFFFFFFF10x|r the normal amount of Delve Key Fragments.,212,5848
-16433,Tenfold Rewards,277,5848
+16432,You will earn |cFFFFFFFF5x|r the normal amount of Coffer Key Shards.,212,5848
+16433,Fivefold Rewards,277,5848
 16434,"The Worldsoul itself will reflexively defend itself against your presence, and death will |cFFFFFFFFimmediately remove you|r from the vision.",212,5849
 16435,Mythic Challenge,277,5849
 16438,"The Rivals, now showing! Join the cast and crew!",52,5851
@@ -8816,36 +8813,36 @@ ID,Value_lang,ReqID,ParentWidgetID
 16568,,212,5886
 16569,,277,5886
 16570,,212,5887
-16571,Weaver's Tutelage,277,5887
-16574,Bobbin has located hidden caches in the crevices of Azj-Kahet. Find and follow her to reap the riches inside them.,212,5889
-16575,Treasure: Weave-Rat Caches,277,5889
+16571,,277,5887
+16574,,212,5889
+16575,,277,5889
 16576,,19,5890
 16577,%2601fn,273,5890
-16578,,208,5890
-16579,A parcel of professions materials and Kaheti currency.,212,5891
-16580,Weaver's Parcel,277,5891
-16581,A chest of Valorstones and Kaheti currency.,212,5892
-16582,General's Warchest,277,5892
+16578,Current reputation with the Weaver.,208,5890
+16579,,212,5891
+16580,,277,5891
+16581,,212,5892
+16582,,277,5892
 16583,,212,5893
-16584,General's Phalanx,277,5893
-16587,Complete Rumors throughout Azj-Kahet. Start them by locating Brokers or purchasing maps from Yamas the Provider.,212,5895
-16588,Rumors,277,5895
+16584,,277,5893
+16587,,212,5895
+16588,,277,5895
 16589,,19,5896
 16590,%2605fn,273,5896
-16591,Current General Pact level.,208,5896
+16591,Current reputation with the General.,208,5896
 16592,,212,5897
-16593,Heavy Ordnance,277,5897
-16594,A purse bulging with Kaheti currency.,212,5898
-16595,Vizier's Coffers,277,5898
+16593,,277,5897
+16594,,212,5898
+16595,,277,5898
 16596,,212,5899
-16597,Vizier's Savvy,277,5899
-16600,Dor'garad has set up sites around Azj-Kahet in search of artifacts for the Vizier. Assist her in these efforts to receive a gift.,212,5901
-16601,Treasure: Kaheti Excavations,277,5901
+16597,,277,5899
+16600,,212,5901
+16601,,277,5901
 16602,,19,5902
 16603,%2607fn,273,5902
-16604,Current Vizier Pact level.,208,5902
+16604,Current reputation with the Vizier.,208,5902
 16605,,212,5903
-16606,Unstable Concoction,277,5903
+16606,,277,5903
 16610,,19,5905
 16611,,273,5905
 16612,,208,5905
@@ -9136,8 +9133,6 @@ ID,Value_lang,ReqID,ParentWidgetID
 17104,Shortcut Resources,19,6108
 17105,,273,6108
 17106,Donate carried ore to help build a temporary shortcut for you and your fellow couriers,208,6108
-17113,|Hspell:456037|h|nEnemy groups remaining: %26807w/%26808w,212,6112
-17114,,277,6112
 17115,|Hspell:456037|h|n|cnWHITE_FONT_COLOR:Enemy groups affected: 2|r,212,6113
 17116,0,277,6113
 17117,|Hspell:456037|h|n|cnWHITE_FONT_COLOR:Enemy groups affected: 3|r,212,6114
@@ -9165,10 +9160,6 @@ ID,Value_lang,ReqID,ParentWidgetID
 17154,,394,6130
 17205,Azeroth's memories are subdued. They will resurface in Dustwallow Marsh in %26402ht.,52,6141
 17206,,394,6141
-17207,,204,6143
-17208,,205,6143
-17209,,204,6144
-17210,,205,6144
 17211,Azeroth's memories are subdued. They will resurface in Dragonblight in %26390ht.,52,6145
 17212,,394,6145
 17213,Azeroth's memories are subdued. They will resurface in the Searing Gorge in %26392ht.,52,6146
@@ -9255,7 +9246,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 17327,Scenario Tooltip,720,6166
 17331,Nerubian Forces,19,6186
 17332,,273,6186
-17333,Surive against the Nerubian onslaught!,208,6186
+17333,Survive against the Nerubian onslaught!,208,6186
 17334,,708,6183
 17335,,709,6183
 17336,,710,6183
@@ -9299,7 +9290,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 17374,,598,6200
 17375,,570,1911
 17376,,571,1911
-17377,|cnWHITE_FONT_COLOR:Unlocked|r,52,6201
+17377,|cnWHITE_FONT_COLOR:Pact Benefits:|r,52,6201
 17378,,394,6201
 17379,,212,6202
 17380,,277,6202
@@ -9316,17 +9307,100 @@ ID,Value_lang,ReqID,ParentWidgetID
 17391,Next Rank Will Reward You With|n|Hitem:226520|h,208,6207
 17392,|cnWHITE_FONT_COLOR:Next Unlocked Ability|r,52,6209
 17393,,394,6209
-17394,|cnWHITE_FONT_COLOR:Next Tier's Reward|r,52,6212
+17394,|cnWHITE_FONT_COLOR:Next Tier Reward:|r,52,6212
 17395,,394,6212
 17396,,212,6216
-17397,Weaver's Prodigy,277,6216
+17397,,277,6216
 17398,,212,6217
-17399,Vizier's Supremacy,277,6217
+17399,,277,6217
 17400,,212,6218
-17401,General's Bulwark,277,6218
-17402,Aspirant Kiipka is on pilgrimage to Forgotten Memorials in Azj-Kahet. Pay tribute and duel him to recieve a gift.,212,6219
-17403,Treasure: Forgotten Memorials,277,6219
-17404,Complete Rumors throughout Azj-Kahet. Start them by locating Brokers or purchasing maps from Yamas the Provider.,212,6220
-17405,Rumors,277,6220
-17406,Complete Rumors throughout Azj-Kahet. Start them by locating Brokers or purchasing maps from Yamas the Provider.,212,6221
+17401,,277,6218
+17402,,212,6219
+17403,,277,6219
+17404,,212,6220
+17405,,277,6220
+17406,,212,6221
 17407,Rumors,277,6221
+17408,,212,6222
+17409,,277,6222
+17410,,212,6223
+17411,,277,6223
+17412,,212,6224
+17413,,277,6224
+17414,,212,6225
+17415,,277,6225
+17416,,212,6226
+17417,,277,6226
+17418,,212,6227
+17419,,277,6227
+17420,,212,6228
+17421,,277,6228
+17422,,212,6229
+17423,,277,6229
+17424,,212,6230
+17425,,277,6230
+17426,,212,6231
+17427,,277,6231
+17428,|cnWHITE_FONT_COLOR:Pact Benefits:|r,52,6233
+17429,,394,6233
+17430,|cnWHITE_FONT_COLOR:Next Tier Reward:|r,52,6235
+17431,,394,6235
+17432,,212,6236
+17433,,277,6236
+17434,,212,6237
+17435,,277,6237
+17436,,212,6238
+17437,,277,6238
+17438,,212,6239
+17439,,277,6239
+17440,,212,6240
+17441,,277,6240
+17442,,212,6241
+17443,,277,6241
+17444,,212,6242
+17445,,277,6242
+17446,,212,6243
+17447,,277,6243
+17448,,212,6244
+17449,,277,6244
+17450,,212,6245
+17451,,277,6245
+17452,|cnWHITE_FONT_COLOR:Pact Benefits:|r,52,6248
+17453,,394,6248
+17454,|cnWHITE_FONT_COLOR:Next Tier Reward:|r,52,6250
+17455,,394,6250
+17456,,212,6251
+17457,,277,6251
+17458,,212,6252
+17459,,277,6252
+17460,,212,6253
+17461,,277,6253
+17462,,212,6254
+17463,,277,6254
+17464,,212,6255
+17465,,277,6255
+17466,,212,6256
+17467,,277,6256
+17468,,212,6257
+17469,,277,6257
+17470,,212,6258
+17471,,277,6258
+17472,,212,6259
+17473,,277,6259
+17474,Destroy ascended loyalists and redeem the military's honor.,52,6261
+17475,,394,6261
+17476,Undermine the threat of Xal'atath.,52,6262
+17477,,394,6262
+17478,Machinate politics and sabotage Sureki influence.,52,6263
+17479,,394,6263
+17480,Next showing: %26549ha,52,6264
+17481,,394,6264
+17482,Now showing!,52,6265
+17483,,394,6265
+17484,|nWeekly Quest Reward from Stage Manager Huberta:,52,6266
+17485,,394,6266
+17486,,621,6267
+17487,,622,6267
+17488,"Contains materials for upgrading gear, gold, and more.",627,6267
+17491,Time Left %25452x,52,5542
+17492,,394,5542
