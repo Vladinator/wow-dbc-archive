@@ -132,6 +132,7 @@ jobs:
               (( table_count++ ))
             elif [[ $line == *"Failed to export"* ]]; then
               if [[ $line == *"Index was outside the bounds of the array"* ]]; then
+                (( table_count_error++ ))
                 (( table_count_bounds_error++ ))
               elif ! [[ $line == *"No rows found"* ]]; then
                 (( table_count_error++ ))
