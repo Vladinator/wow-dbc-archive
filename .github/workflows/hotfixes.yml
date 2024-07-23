@@ -3,7 +3,7 @@ name: hotfixes
 on:
   workflow_dispatch:
   schedule:
-    - cron: '00 */08 * * *'
+    - cron: '00 00-23/08 * * *'
 
 jobs:
 
