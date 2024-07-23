@@ -116,6 +116,7 @@ jobs:
         fi
 
     - name: Run DBC2CSV
+      id: dbc2csv
       if: ${{ steps.check.outputs.skip != 'true' }}
       working-directory: extracts/${{ inputs.PRODUCT }}/db2
       run: |
@@ -125,21 +126,24 @@ jobs:
           local runExitCode=$?
           local table_count=0
           local table_count_error=0
+          local table_count_bounds_error=0
           while IFS= read -r line; do
             if [[ $line == *"Exporting table"* ]]; then
               (( table_count++ ))
             elif [[ $line == *"Failed to export"* ]]; then
-              if ! [[ $line == *"No rows found"* ]]; then
+              if [[ $line == *"Index was outside the bounds of the array"* ]]; then
+                (( table_count_bounds_error++ ))
+              elif ! [[ $line == *"No rows found"* ]]; then
                 (( table_count_error++ ))
               fi
             fi
           done < "$tempfile"
           local table_count_success=$(( table_count - table_count_error ))
-          echo "$runExitCode,$table_count,$table_count_success,$table_count_error"
+          echo "$runExitCode,$table_count,$table_count_success,$table_count_error,$table_count_bounds_error"
         }
         output=$(run_dbc2csv)
         cat "$tempfile"
-        IFS=',' read -r runExitCode table_count table_count_success table_count_error <<< "$output"
+        IFS=',' read -r runExitCode table_count table_count_success table_count_error table_count_bounds_error <<< "$output"
         echo "DBC2CSV exited with code $runExitCode: $table_count files scanned. $table_count_success converted. $table_count_error failed."
         if [[ "${{ steps.hotfix.outputs.active }}" == "true" ]]; then
           if [[ $runExitCode -ne 0 || $table_count -le 100 || $table_count_success -le $(( table_count / 2 )) ]]; then
@@ -147,15 +151,19 @@ jobs:
             rm -f *.bin
             output=$(run_dbc2csv)
             cat "$tempfile"
-            IFS=',' read -r runExitCode table_count table_count_success table_count_error <<< "$output"
+            IFS=',' read -r runExitCode table_count table_count_success table_count_error table_count_bounds_error <<< "$output"
             echo "DBC2CSV exited with code $runExitCode: $table_count files scanned. $table_count_success converted. $table_count_error failed."
           fi
         fi
         find . -type f ! -iname "*.csv" -delete
         rm -f "$tempfile"
+        if [[ $table_count_bounds_error -gt 0 ]]; then
+          echo "Due to $table_count_bounds_error out of bounds errors the script will skip commiting the build."
+          echo "skip=true" >> $GITHUB_OUTPUT
+        fi
 
     - name: Create branch for release
-      if: ${{ steps.check.outputs.skip != 'true' }}
+      if: ${{ steps.check.outputs.skip != 'true' && steps.dbc2csv.outputs.skip != 'true' }}
       run: |
         set -euo pipefail
         cd extracts
