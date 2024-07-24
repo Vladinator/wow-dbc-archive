@@ -622,9 +622,9 @@ end
 	end
 	local SinedPitch=math.sin(DesiredPitch)*MaxSwing
 	if DebugSwitch then
-		--Broadcast(""[69134] CurrentTime: ""..CurrentTime)
-		--Broadcast(""[69134] DesiredPitch: ""..DesiredPitch)
-		--Broadcast(""[69134] SinedPitch: ""..SinedPitch)
+		--print(""[69134] CurrentTime: ""..CurrentTime)
+		--print(""[69134] DesiredPitch: ""..DesiredPitch)
+		--print(""[69134] SinedPitch: ""..SinedPitch)
 	end
 	
 	
@@ -635,9 +635,7 @@ end
 	
 	return -New_X,-New_Y,New_Z,0,0,0
 end
-
-
-",Jared Gillis,0,46
+",Ronald Leask,0,46
 69146,9.1 Raid - Torghast - Ner'zhul - Achievement Hoop - Pendulum Visual,"function Raid_Torghast_Nerzhul_AchievementHoop_PendulumVisual_MoveScript(elapsedMs, x, y, z, roll, pitch, yaw)
 	------------------------------------
 	-- Area Trigger Movement Script:  --
@@ -676,15 +674,13 @@ end
 	end
 	local SinedPitch=math.sin(DesiredPitch)*MaxSwing
 	if DebugSwitch then
-		--Broadcast(""[69134] CurrentTime: ""..CurrentTime)
-		--Broadcast(""[69134] DesiredPitch: ""..DesiredPitch)
-		--Broadcast(""[69134] SinedPitch: ""..SinedPitch)
+		--print(""[69134] CurrentTime: ""..CurrentTime)
+		--print(""[69134] DesiredPitch: ""..DesiredPitch)
+		--print(""[69134] SinedPitch: ""..SinedPitch)
 	end
 	return 0,0,0,0,-SinedPitch,0
 end
-
-
-",Jared Gillis,0,46
+",Ronald Leask,0,46
 69306,9.1 Broker City - Star Relic Prop Movement,"function BrokerCity_StarRelicProp_Movement(elapsedMs, x, y, z, roll, pitch, yaw)
 	------------------------------------
 	-- Area Trigger Movement Script:  --
@@ -1033,6 +1029,41 @@ end",Evan Lind,0,46
 	return 0,0,fallPos,0,0,0
 
 end",Evan Lind,0,46
+91801,11.0 Z1 - Max Level - Storm Rook Sidewinder - Area Trigger (RPS),"function dorn_area_trigger_test_sidewinder(elapsedMs, x, y, z, roll, pitch, yaw)
+	------------------------------------
+	-- Area Trigger Movement Script:  --
+	------------------------------------
+	-- Inputs: 
+	--    elapsedMs: the amount of milliseconds since the 'm_creationTime' of this AreaTrigger
+	--
+	-- Output:
+	--    x - x offset from the m_center of AreaTrigger
+	--    y - y offset from the m_center of AreaTrigger
+	--    z - z offset from the m_center of AreaTrigger
+	--    roll - rotation around z axis
+	--    pitch - rotation around y axis
+	--    yaw - rotation around x axis - also known as 'facing'
+	--
+	--    return values in this specific order.  If you don't want to change a specific value, return 0
+	--    example: if you want to adjust only 'pitch' you need to 'return 0,0,0,0,pitch'.
+	--
+	--
+
+	-- Constants
+	--local facing = caster:GetDirection() ; -- given to us as a unit vector
+	local speedScale = 30; -- in milliseconds
+	local oscillationTime = 100; -- in milliseconds
+	local angle = 50*math.pi/180;
+	local travel = (elapsedMs/speedScale)*5;
+	local xOffset = travel;
+	local oscillation_y = math.sin(elapsedMs/oscillationTime)*5;
+	local oscillation_z = math.cos(elapsedMs/oscillationTime)*5;
+
+
+	return xOffset, oscillation_y, oscillation_z, 0, 0, 30;
+	
+end
+",Rob Stokes,0,46
 93173,10.2.7 Timewalking Season - Pandaria - Gem - Meta - Oblivion Sphere - Orb Rising - Movement,"function timewalking_pandaria_shoulder_roiling_darkness_area_trigger_script(elapsedMs, x, y, z, roll, pitch, yaw)
 	------------------------------------
 	-- Area Trigger Movement Script:  --
@@ -1138,6 +1169,49 @@ end
 	return xChange,yChange, zChange, 0, 0, 0;
 end
 ",Eric Holmberg-Weidler,0,46
+94538,11.0 Dungeon - Mini-Boss - Sootsnout - Fall Damage - 01 - JZM,"function sootsnout_flamefall_orb(elapsedMs, x, y, z, roll, pitch, yaw)
+	------------------------------------
+	-- Area Trigger Movement Script:  --
+	------------------------------------
+	-- Inputs: 
+	--    elapsedMs: the amount of milliseconds since the 'm_creationTime' of this AreaTrigger
+	--
+	-- Output:
+	--    x - x offset from the m_center of AreaTrigger
+	--    y - y offset from the m_center of AreaTrigger
+	--    z - z offset from the m_center of AreaTrigger
+	--    roll - rotation around z axis
+	--    pitch - rotation around y axis
+	--    yaw - rotation around x axis - also known as 'facing'
+	--
+	--    return values in this specific order.  If you don't want to change a specific value, return 0
+	--    example: if you want to adjust only 'pitch' you need to 'return 0,0,0,0,pitch'.
+	--
+	--
+
+	-- Constants
+	local zOffset = 25; -- How many yards to rise into the air
+	local totalTime = 7000; -- Total time the orb will be in the air
+	local posChangeTime = 7000; -- Total time spent rising on the z axis
+	local startOffset = 1; -- Start X yards off the ground
+
+
+	--
+	-- Go up 'zOffset' units over 7 seconds
+	--
+	local zTime = elapsedMs % (totalTime * 2);
+	local zPercent = 1.0;
+
+	if(zTime < posChangeTime) then
+		zPercent = zTime / (posChangeTime);
+	else
+		zPercent = 1.0;
+	end
+
+	local zChange = startOffset + (zOffset * zPercent);
+	return 0,0, zChange, 0, 0, 0;
+end
+",Jeven Zarate-McCoy,0,46
 95593,10.2.7 Timewalking Season - Pandaria - Airborne Treasure - Small Bronze - Float Up (JOM),"function timewalking_season_pandaria_airborne_treasure_small_bronze_float_up(elapsedMs, x, y, z, roll, pitch, yaw)
 	------------------------------------
 	-- Area Trigger Movement Script:  --
@@ -1208,3 +1282,54 @@ end
 	return xChange,0, zChange, 0, 0, 0;
 end
 ",Josh Aaron Miller,0,46
+97576,11.0 Dungeon - Airship - Boss 3 - Accessory - TRINKET - INT - Mereldar's Toll - 0) Area Trigger Visual - Swing - Pendulum,"function Dungeon_11_0_Mereldar_Toll_PendulumVisual_MoveScript(elapsedMs, x, y, z, roll, pitch, yaw)
+	------------------------------------
+	-- Area Trigger Movement Script:  --
+	------------------------------------
+	-- Inputs: 
+	--    elapsedMs: the amount of milliseconds since the 'm_creationTime' of this AreaTrigger
+	--
+	-- Output:
+	--    x - x offset from the m_center of AreaTrigger
+	--    y - y offset from the m_center of AreaTrigger
+	--    z - z offset from the m_center of AreaTrigger
+	--    roll - rotation around z axis
+	--    pitch - rotation around y axis
+	--    yaw - rotation around x axis - also known as 'facing'
+	--
+	--    return values in this specific order.  If you don't want to change a specific value, return 0
+	--    example: if you want to adjust only 'pitch' you need to 'return 0,0,0,0,pitch'.
+	--
+	--
+	
+local function remap(value, min1, max1, min2, max2)
+	if ((value == nil) or (min1 == nil) or (max1 == nil) or (min2 == nil) or (max2 == nil)) then return nil; end
+	return min2 + (value - min1) * (max2 - min2) / (max1 - min1)
+end
+	
+	local DebugSwitch=nil
+	local MaxSwing=60*math.pi/180
+	local DesiredPeriod=3000--12000
+	local _,CurrentTime=math.modf(elapsedMs/DesiredPeriod)
+	local DesiredPitch
+	
+	if CurrentTime<.5 then
+		DesiredPitch=remap(CurrentTime,0,0.5,math.pi/2,-math.pi/2)
+	else
+		DesiredPitch=remap(CurrentTime,.5,1.0,-math.pi/2,math.pi/2)
+	end
+	local SinedPitch=math.sin(DesiredPitch)*MaxSwing
+	if DebugSwitch then
+		--print(""[69134] CurrentTime: ""..CurrentTime)
+		--print(""[69134] DesiredPitch: ""..DesiredPitch)
+		--print(""[69134] SinedPitch: ""..SinedPitch)
+	end
+	return 0,0,0,0,-SinedPitch,0
+end
+",Zed Grably--Shrager,0,46
+99218,Death Knight - Deathbringer - Path to Dest,"function wave_of_souls_path_to_dest(elapsedMs, x, y, z, roll, pitch, yaw)
+
+	return 0, -10, 0, 0 ,0, 0, 0
+
+end
+",Ogulcan Buyuksandalyaci,0,46

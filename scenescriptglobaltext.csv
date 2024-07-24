@@ -2538,6 +2538,7 @@ end"
 		overrideLinkage = Linkage.Default,
 		sceneEditorActorID = 0,
 		fadeRegionSettings = ActorFadeRegionSettings:Default(),
+		alwaysAnimating = false,
 	}
 	setmetatable(c, self.__meta)
 	return c

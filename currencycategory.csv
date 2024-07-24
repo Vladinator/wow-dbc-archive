@@ -1,24 +1,30 @@
-ID,Name_lang,Flags,ExpansionID
-1,Miscellaneous,0,0
-2,Player vs. Player,0,0
-3,Unused,3,0
-4,Classic,0,0
-21,Wrath of the Lich King,0,2
-22,Dungeon and Raid,0,0
-23,Burning Crusade,0,1
-41,Test,0,0
-81,Cataclysm,0,3
-82,Archaeology,4,0
-89,Meta,4,0
-133,Mists of Pandaria,0,4
-137,Warlords of Draenor,0,5
-141,Legion,0,6
-142,Hidden,4,0
-143,Battle for Azeroth,0,7
-144,Virtual,8,0
-245,Shadowlands,0,8
-246,Debug,0,0
-248,Torghast UI (Hidden),4,8
-250,Dragonflight,0,9
-251,Dragon Racing UI (Hidden),4,9
-252,Tuskarr - Fishing Nets (Hidden),4,9
+ID,Name_lang,Flags,ExpansionID,ParentCategoryID
+1,Miscellaneous,16,0,0
+2,Player vs. Player,16,0,0
+3,Unused,19,0,0
+4,Classic,16,0,257
+21,Wrath of the Lich King,16,2,257
+22,Dungeon and Raid,16,0,0
+23,Burning Crusade,16,1,257
+41,Test,0,0,0
+81,Cataclysm,16,3,257
+82,Archaeology,4,0,0
+89,Meta,4,0,0
+133,Mists of Pandaria,16,4,257
+137,Warlords of Draenor,16,5,257
+141,Legion,16,6,257
+142,Hidden,4,0,0
+143,Battle for Azeroth,16,7,257
+144,Virtual,8,0,0
+245,Shadowlands,16,8,257
+246,Debug,0,0,0
+248,Torghast UI (Hidden),4,8,0
+250,Dragonflight,16,9,0
+251,Dragon Racing UI (Hidden),4,9,0
+252,Tuskarr - Fishing Nets (Hidden),4,9,0
+253,Test Subcategory 1,4,8,256
+254,Test Subcategory 2,4,8,253
+255,Test Subcategory 3,4,8,245
+256,Test Subcategory 4,4,8,245
+257,Legacy,16,0,0
+260,War Within,0,10,0
