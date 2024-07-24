@@ -32,7 +32,7 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 31,Inflicts $s@effectindex Arcane damage to an enemy every $t@effectindex sec for $d.,$s@effectindex Arcane damage inflicted every $t@effectindex sec.,6,3,1,3,64,50,50
 32,Inflicts $s@effectindex Chaos damage to an enemy every $t@effectindex sec for $d.,$s@effectindex Chaos damage inflicted every $t@effectindex sec.,6,3,1,3,127,50,50
 33,"Stuns an enemy, rendering it unable to move or attack for $d.",Stunned.,6,12,0,3,0,0,0
-34,Increases the haste of all allies within $A@effectindex yards of the impact by $s@effectindex% for $d.,Haste increased by $s@effectindex%.,6,193,1,6,0,0,0
+34,Increases the attacking and casting speed of all allies within $A@effectindex yards of the impact by $s@effectindex% for $d.,Attacking and casting speed increased by $s@effectindex%.,6,193,1,6,0,0,0
 35,"Stuns all enemies within $A@effectindex yards, rendering them unable to move or attack for $d.",Stunned.,6,12,0,7,0,0,0
 36,"Stuns all enemies within $A@effectindex yards of the impact, rendering them unable to move or attack for $d.",Stunned.,6,12,0,5,0,0,0
 37,Heals an ally for $s@effectindex% of their maximum health.,,136,0,1,2,0,0,0
@@ -68,12 +68,12 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 70,Inflicts Frost damage to an enemy every $t@effectindex sec for $d.,Frost damage inflicted every $t@effectindex sec.,6,70,1,1,16,50,50
 71,Inflicts Arcane damage to an enemy every $t@effectindex sec for $d.,Arcane damage inflicted every $t@effectindex sec.,6,70,1,1,64,50,50
 72,Inflicts Chaos damage to an enemy every $t@effectindex sec for $d.,Chaos damage inflicted every $t@effectindex sec.,6,70,1,1,127,50,50
-83,Heals the caster for $s@effectindex% of maximum health every $t@effectindex for $d.,Heals $s@effectindex% of maximum health every $t@effectindex sec.,6,20,1,1,0,0,0
+83,Heals the caster for $s@effectindex% of maximum health every $t@effectindex sec for $d.,Heals $s@effectindex% of maximum health every $t@effectindex sec.,6,20,1,1,0,0,0
 85,Heals the caster for $s@effectindex% of their maximum health.,,136,0,1,1,0,0,0
-91,Interrupts spell casting of all enemies within $A@effectindex yards for $d.,,68,0,0,7,0,30,0
-92,Interrupts spell casting of an enemy for $d.,,68,0,1,3,1,30,0
+91,Interrupts spellcasting of all enemies within $A@effectindex yards for $d.,,68,0,0,7,0,30,0
+92,Interrupts spellcasting of an enemy for $d.,,68,0,1,3,1,30,0
 93,Silences an enemy preventing spell casting for $d.,Unable to cast spells.,6,27,0,3,0,30,0
-94,Reduces haste by $s@effectindex% for $d.,Haste reduced by $s@effectindex%.,6,193,2,3,0,0,0
+94,Reduces attacking and casting speed by $s@effectindex% for $d.,Attacking and casting speed reduced by $s@effectindex%.,6,193,2,3,0,0,0
 96,Knocks an enemy back.,,98,0,1,3,0,0,0
 97,Surrounds the caster with a shield that lasts $d and can absorb up to $s@effectindex of all damage.,Absorbs $s@effectindex damage.,6,69,1,1,127,0,0
 98,Surrounds the caster with a shield that lasts $d and can absorb up to $s@effectindex Physical damage.,Absorbs $s@effectindex Physical damage.,6,69,1,1,1,0,0
@@ -83,8 +83,8 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 102,Surrounds the caster with a shield that lasts $d and can absorb up to $s@effectindex Frost damage.,Absorbs $s@effectindex Frost damage.,6,69,1,1,16,0,0
 103,Surrounds the caster with a shield that lasts $d and can absorb up to $s@effectindex Shadow damage.,Absorbs $s@effectindex Shadow damage.,6,69,1,1,32,0,0
 104,Surrounds the caster with a shield that lasts $d and can absorb up to $s@effectindex Arcane damage.,Absorbs $s@effectindex Arcane damage.,6,69,1,1,64,0,0
-105,Increases the caster's haste by $s@effectindex% for $d.,Haste increased by $s@effectindex%.,6,193,1,1,0,10,0
-106,Reduces haste by $s@effectindex% for $d.,Haste reduced by $s@effectindex%.,6,193,2,1,0,0,0
+105,Increases the caster's attacking and casting speed by $s@effectindex% for $d.,Attacking and casting speed increased by $s@effectindex%.,6,193,1,1,0,10,0
+106,Reduces attacking and casting speed by $s@effectindex% for $d.,Attacking and casting speed reduced by $s@effectindex%.,6,193,2,1,0,0,0
 107,Reduces movement speed by $s@effectindex%.,Movement speed reduced by $s@effectindex%.,6,33,1,1,0,0,0
 108,Inflicts Physical damage to all enemies within $A@effectindex yards of the impact.,,31,0,1,5,1,50,50
 109,Inflicts Holy damage to all enemies within $A@effectindex yards of the impact.,,31,0,1,5,2,50,50
@@ -177,8 +177,8 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 302,Inflicts Fire damage to enemies within $A@effectindex yards of the impact.,,165,0,1,5,4,50,50
 303,Causes all enemies within $A@effectindex yards of the impact to take Fire damage every $t@effectindex sec for $d.,Fire damage inflicted every $t@effectindex sec.,6,70,1,5,4,50,50
 304,Reduces the movement speed of the target by $s@effectindex% for $d.,Movement speed reduced by $s@effectindex%.,6,33,2,3,0,0,0
-305,Heals the caster and all allies within $A@effectindex yards for $s@effectindex% of maximum health every $t@effectindex for $d.,Heals $s@effectindex% of maximum health every $t@effectindex sec.,6,20,1,4,0,0,0
-306,Heals the caster and all allies within $A@effectindex yards for $s@effectindex% of maximum health every $t@effectindex for $d.,Heals $s@effectindex% of maximum health every $t@effectindex sec.,6,20,1,6,0,0,0
+305,Heals the caster and all allies within $A@effectindex yards for $s@effectindex% of maximum health every $t@effectindex sec for $d.,Heals $s@effectindex% of maximum health every $t@effectindex sec.,6,20,1,4,0,0,0
+306,Heals the caster and all allies within $A@effectindex yards for $s@effectindex% of maximum health every $t@effectindex sec for $d.,Heals $s@effectindex% of maximum health every $t@effectindex sec.,6,20,1,6,0,0,0
 308,Inflicts Nature damage to all enemies within $A@effectindex.,,2,0,1,4,8,50,50
 309,Inflicts Shadow damage to all enemies within $A@effectindex yards every $t@effectindex sec for $d.,Shadow damage inflicted every $t@effectindex sec.,6,70,1,7,32,50,50
 310,Inflicts Nature damage to all enemies within $A@effectindex yards every $t@effectindex sec for $d.,Nature damage inflicted every $t@effectindex sec.,6,70,1,7,8,50,50
@@ -343,16 +343,16 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 499,Decreases the attack speed of all enemies in front of the caster by $s@effectindex% for $d.,Attack speed decreased by $s@effectindex%.,6,9,2,9,0,0,0
 500,Decreases the attack speed of all enemies within $A@effectindex yards of the caster by $s@effectindex% for $d.,Attack speed decreased by $s@effectindex%.,6,9,2,7,0,0,0
 501,Decreases the attack speed of all enemies within $A@effectindex yards of the impact by $s@effectindex% for $d.,Attack speed decreased by $s@effectindex%.,6,9,2,5,0,0,0
-502,Decreases the spell haste of all enemies within $A@effectindex yards of the impact by $s@effectindex% for $d.,Spell haste decreased by $s@effectindex%.,6,65,2,5,0,0,0
-503,Decreases the spell haste of all enemies within $A@effectindex yards of the caster by $s@effectindex% for $d.,Spell haste decreased by $s@effectindex%.,6,65,2,7,0,0,0
-504,Decreases the spell haste of all enemies in front of the caster by $s@effectindex% for $d.,Spell haste decreased by $s@effectindex%.,6,65,2,9,0,0,0
-505,Reduces spell haste by $s@effectindex% for $d.,Spell haste reduced by $s@effectindex%.,6,65,2,3,0,0,0
-506,Reduces spell haste by $s@effectindex% for $d.,Spell haste reduced by $s@effectindex%.,6,65,2,1,0,0,0
-507,Increases the spell haste of all allies in front of the caster by $s@effectindex% for $d.,Spell haste increased by $s@effectindex%.,6,65,1,8,0,0,0
-508,Increases the spell haste of all allies within $A@effectindex yards of the caster by $s@effectindex% for $d.,Spell haste increased by $s@effectindex%.,6,65,1,6,0,0,0
-509,Increases the spell haste of all allies within $A@effectindex yards of the impact by $s@effectindex% for $d.,Spell haste increased by $s@effectindex%.,6,65,1,4,0,0,0
-510,Increases the spell haste of the target by $s@effectindex% for $d.,Spell haste increased by $s@effectindex%.,6,65,1,2,0,0,0
-511,Increases the caster's spell haste by $s@effectindex% for $d.,Spell haste increased by $s@effectindex%.,6,65,1,1,0,10,0
+502,Decreases the casting speed of all enemies within $A@effectindex yards of the impact by $s@effectindex% for $d.,Casting speed decreased by $s@effectindex%.,6,65,2,5,0,0,0
+503,Decreases the casting speed of all enemies within $A@effectindex yards of the caster by $s@effectindex% for $d.,Casting speed decreased by $s@effectindex%.,6,65,2,7,0,0,0
+504,Decreases the casting speed of all enemies in front of the caster by $s@effectindex% for $d.,Casting speed decreased by $s@effectindex%.,6,65,2,9,0,0,0
+505,Reduces casting speed by $s@effectindex% for $d.,Casting speed reduced by $s@effectindex%.,6,65,2,3,0,0,0
+506,Reduces casting speed by $s@effectindex% for $d.,Casting speed reduced by $s@effectindex%.,6,65,2,1,0,0,0
+507,Increases the casting speed of all allies in front of the caster by $s@effectindex% for $d.,Casting speed increased by $s@effectindex%.,6,65,1,8,0,0,0
+508,Increases the casting speed of all allies within $A@effectindex yards of the caster by $s@effectindex% for $d.,Casting speed increased by $s@effectindex%.,6,65,1,6,0,0,0
+509,Increases the casting speed of all allies within $A@effectindex yards of the impact by $s@effectindex% for $d.,Casting speed increased by $s@effectindex%.,6,65,1,4,0,0,0
+510,Increases the casting speed of the target by $s@effectindex% for $d.,Casting speed increased by $s@effectindex%.,6,65,1,2,0,0,0
+511,Increases the caster's casting speed by $s@effectindex% for $d.,Casting speed increased by $s@effectindex%.,6,65,1,1,0,10,0
 512,Increases Arcane damage taken by $s@effectindex% for $d.,Arcane damage taken increased by $s@effectindex%.,6,101,2,3,64,1,1
 513,Causes all enemies within $A@effectindex yards to miss $s@effectindex% of attacks for $d.,Chance to hit reduced by $s@effectindex%.,6,54,2,7,0,0,0
 514,Causes all enemies within $A@effectindex yards to miss $s@effectindex% of spells for $d.,Chance to hit with spells reduced by $s@effectindex%.,6,55,2,7,0,0,0
@@ -393,11 +393,11 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 549,Inflicts $s@effectindex Cosmic damage to an enemy every $t@effectindex sec for $d.,$s@effectindex Cosmic damage inflicted every $t@effectindex sec.,6,3,1,1,106,50,50
 550,Pacifies an enemy preventing attacks for $d.,Unable to attack.,6,25,0,3,0,30,0
 551,"Pacifies all enemies within $A@effectindex yards, preventing them from attacking for $d.",Unable to attack.,6,25,0,7,0,0,0
-552,Silences and pacifies an enemy preventing attacking and spell casting for $d.,Unable to attack or cast spells.,6,60,0,3,0,30,0
-553,"Silences and pacifies all enemies within $A@effectindex yards, preventing them from attacking or casting spells for $d.",Unable to attack or cast spells.,6,60,0,7,0,0,0
-554,Silences an enemy preventing spell casting for $d.,Unable to cast spells.,6,27,0,1,0,30,0
+552,Silences and pacifies an enemy preventing attacking and spellcasting for $d.,Unable to attack or cast spells.,6,60,0,3,0,30,0
+553,"Silences and pacifies all enemies within $A@effectindex yards, preventing them from attacking or spellcasting for $d.",Unable to attack or cast spells.,6,60,0,7,0,0,0
+554,Silences an enemy preventing spellcasting for $d.,Unable to cast spells.,6,27,0,1,0,30,0
 555,Pacifies an enemy preventing attacks for $d.,Unable to attack.,6,25,0,1,0,30,0
-556,Silences and pacifies an enemy preventing attacking and spell casting for $d.,Unable to attack or cast spells.,6,60,0,1,0,30,0
+556,Silences and pacifies an enemy preventing attacking and spellcasting for $d.,Unable to attack or cast spells.,6,60,0,1,0,30,0
 557,Inflicts $s@effectindex Shadowflame damage to an enemy.,,2,0,1,1,36,50,50
 558,Inflicts Shadowflame damage to all enemies in a cone in front of the caster.,,165,0,1,9,36,50,50
 559,Inflicts Shadowflame damage to enemies within $A@effectindex yards of the impact.,,165,0,1,5,36,50,50

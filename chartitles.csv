@@ -177,7 +177,7 @@ ID,Name_lang,Name1_lang,Mask_ID,Flags
 222,High Warlord %s,High Warlord %s,181,0
 223,"%s, Hero of the Alliance","%s, Hero of the Alliance",182,0
 224,"%s, Hero of the Horde","%s, Hero of the Horde",183,0
-225,"%s, the Bloodthirsty","%s, the Bloodthirsty",184,0
+225,%s the Bloodthirsty,%s the Bloodthirsty,184,0
 226,%s of the Four Winds,%s of the Four Winds,151,0
 227,"%s, Defender of a Shattered World","%s, Defender of a Shattered World",185,0
 228,Dragonslayer %s,Dragonslayer %s,186,0
@@ -252,7 +252,7 @@ ID,Name_lang,Name1_lang,Mask_ID,Flags
 390,Mistwalker %s,Mistwalker %s,255,0
 391,%s of the Black Harvest,%s of the Black Harvest,256,0
 392,Lumberjack %s,Lumberjack %s,257,0
-393,Timber Lord %s,Timber Lord %s,258,0
+393,Echochaser %s,Echochaser %s,258,0
 394,%s the Commandojack,%s the Commandojack,259,0
 395,Architect %s,Architect %s,260,0
 397,Blood Champion %s,Blood Champion %s,261,0
@@ -351,11 +351,11 @@ ID,Name_lang,Name1_lang,Mask_ID,Flags
 508,Cruel Gladiator %s,Cruel Gladiator %s,359,0
 509,Ferocious Gladiator %s,Ferocious Gladiator %s,360,0
 510,Timelord %s,Timelord %s,361,0
-511,"%s, the Tomb Raider","%s, the Tomb Raider",362,0
+511,%s the Tomb Raider,%s the Tomb Raider,362,0
 512,Fierce Gladiator %s,Fierce Gladiator %s,363,0
 513,Titanslayer %s,Titanslayer %s,364,0
 514,%s the Collector,%s the Collector,365,4
-515,"%s, the Lightbringer","%s, the Lightbringer",366,0
+515,%s the Lightbringer,%s the Lightbringer,366,0
 516,Demonslayer %s,Demonslayer %s,367,0
 517,Dominant Gladiator %s,Dominant Gladiator %s,368,0
 518,%s the Tactician,%s the Tactician,369,0
@@ -364,8 +364,8 @@ ID,Name_lang,Name1_lang,Mask_ID,Flags
 521,Postmaster %s,Postmaster %s,372,0
 522,Prospector %s,Prospector %s,373,0
 524,"%s, Famed Slayer of G'huun","%s, Famed Slayer of G'huun",374,0
-625,"%s, the Horde Slayer","%s, the Horde Slayer",375,0
-626,"%s, the Alliance Slayer","%s, the Alliance Slayer",376,0
+625,%s the Horde Slayer,%s the Horde Slayer,375,0
+626,%s the Alliance Slayer,%s the Alliance Slayer,376,0
 627,"%s, Conqueror of Azeroth","%s, Conqueror of Azeroth",377,0
 628,Inquisitor %s,Inquisitor %s,378,0
 629,Esteemed %s,Esteemed %s,379,0
@@ -419,7 +419,7 @@ ID,Name_lang,Name1_lang,Mask_ID,Flags
 684,Deathbringer %s,Deathbringer %s,424,0
 685,%s the Proud,%s the Proud,431,0
 686,Sinbreaker %s,Sinbreaker %s,432,0
-687,"%s, the Party Herald","%s, the Party Herald",433,0
+687,%s the Party Herald,%s the Party Herald,433,0
 688,Sinful Gladiator %s,Sinful Gladiator %s,434,0
 689,Fun Guy %s,Fun Gal %s,435,0
 690,%s the Avowed,%s the Avowed,436,0
@@ -437,14 +437,14 @@ ID,Name_lang,Name1_lang,Mask_ID,Flags
 705,"%s, Famed Bane of the Banshee Queen","%s, Famed Bane of the Banshee Queen",448,0
 708,Gauntlet Runner %s,Gauntlet Runner %s,449,0
 709,"%s, Tower Ranger","%s, Tower Ranger",450,0
-710,"%s, the Tormented Hero","%s, the Tormented Hero",451,0
+710,%s the Tormented Hero,%s the Tormented Hero,451,0
 712,Cosmic Gladiator %s,Cosmic Gladiator %s,452,0
 713,%s the [PH] TBD Title,%s the [PH] TBD Title,453,0
 714,"%s, Famed Slayer of The Banished One","%s, Famed Slayer of The Banished One",454,0
 715,"%s, Guardian of the Pattern","%s, Guardian of the Pattern",455,0
 716,Soloist %s,Soloist %s,456,0
 717,%s the Cryptic,%s the Cryptic,457,0
-718,"%s, the Cryptic Hero","%s, the Cryptic Hero",458,0
+718,%s the Cryptic Hero,%s the Cryptic Hero,458,0
 719,Fearless Spectator %s,Fearless Spectator %s,459,0
 720,%s of Lordaeron,%s of Lordaeron,460,0
 721,Eternal Gladiator %s,Eternal Gladiator %s,461,0
@@ -452,10 +452,10 @@ ID,Name_lang,Name1_lang,Mask_ID,Flags
 723,Veilstrider %s,Veilstrider %s,463,0
 724,"%s, Hero of Fate","%s, Hero of Fate",464,0
 725,%s the Shrouded,%s the Shrouded,465,0
-727,"%s, the Shrouded Hero","%s, the Shrouded Hero",466,0
+727,%s the Shrouded Hero,%s the Shrouded Hero,466,0
 728,"%s, Honorary Dryad","%s, Honorary Dryad",467,0
 729,Crimson Gladiator %s,Crimson Gladiator %s,468,0
-730,"%s, the Worldbreaker","%s, the Worldbreaker",469,0
+730,%s the Worldbreaker,%s the Worldbreaker,469,0
 731,%s the Thundering Hero,%s the Thundering Hero,470,0
 732,Soupervisor %s,Soupervisor %s,471,0
 733,Birdwatcher %s,Birdwatcher %s,472,0
@@ -532,7 +532,26 @@ ID,Name_lang,Name1_lang,Mask_ID,Flags
 818,Buccaneer %s,Buccaneer %s,545,0
 819,First Mate %s,First Mate %s,546,0
 821,"%s, Champion of the Dragonflights","%s, Champion of the Dragonflights",547,0
+822,"%s, the [PH] Hero","%s, the [PH] Hero",548,0
+823,Immortal Spelunker %s,Immortal Spelunker %s,549,0
+824,High Explorer %s,High Explorer %s,550,0
 825,Timerunner %s,Timerunner %s,551,0
 826,"%s, Paragon of the Mists","%s, Paragon of the Mists",552,0
 827,"%s, Claw of Eternus","%s, Claw of Eternus",553,0
+828,Strategist %s,Strategist %s,539,0
+829,Forged Warlord %s,Forged Warlord %s,554,0
+830,Forged Marshall %s,Forged Marshall %s,555,0
+831,Queenslayer %s,Queenslayer %s,556,0
 832,"%s, Awakened Hero","%s, Awakened Hero",557,0
+833,Forged Gladiator %s,Forged Gladiator %s,558,0
+834,Forged Legend %s,Forged Legend %s,559,0
+835,%s Ascension Breaker,%s Ascension Breaker,560,0
+836,"%s, Famed Slayer of Ansurek","%s, Famed Slayer of Ansurek",561,0
+837,"%s, Slayer of the Deeps","%s, Slayer of the Deeps",562,0
+838,Deephauler %s,Deephauler %s,563,0
+839,Machine Whisperer %s,Machine Whisperer %s,564,0
+840,Honorary Councilmember %s,Honorary Councilmember %s,565,0
+841,Lamplighter %s,Lamplighter %s,566,0
+842,Thread-Spinner %s,Thread-Spinner %s,567,0
+843,"%s, Machine-Warden","%s, Machine-Warden",568,0
+845,"%s, Seeker of Loot","%s, Seeker of Loot",570,0

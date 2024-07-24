@@ -3500,7 +3500,7 @@ ID,BaseTag,TagText_lang,Flags
 13654,VOICEMACRO_14_Dw_1,Sure.,1
 13655,VOICEMACRO_14_Dw_2,Aye.,1
 13656,VOICEMACRO_20_Hu_5,"So, I have this idea for a great movie.  It's about two Gnomes who find a bracelet of power, and they have to take it to the Burning Steppes and cast it into The Cauldron.  They form the Brotherhood of the Bracelet.  Along the way, they're trailed by a murloc named Gottom who's obsessed with the bracelet, and nine bracelet bogeymen.  It could be a three parter called ""Ruler of the Bracelet"".  The first part would be called ""The Brotherhood of the Bracelet"", followed by ""A Couple of Towers"", with the climactic ending called ""Hey, the King's Back"".",1
-13657,OPTION_TOOLTIP_USE_UISCALE,"Check to use the UI Scale Slider, uncheck to use the system default scale.",1
+13657,OPTION_TOOLTIP_USE_UISCALE,"Check to use the UI Scale Slider, uncheck to use the system default scale.",3
 13658,VOICEMACRO_19_Or_4_FEMALE,"Don't talk, just follow me.",1
 13659,VOICEMACRO_20_Or_1_FEMALE,I have no respect for people with small piercings.  I say go full hog.  Put a spear through your head.,1
 13660,VOICEMACRO_20_Or_5_FEMALE,"Man, I think that boar meat's coming back on me.  I gotta hit the can.  Anyone have a hearthstone?",1
@@ -3689,8 +3689,8 @@ ID,BaseTag,TagText_lang,Flags
 13861,OPTION_TOOLTIP_PET_NAMEPLATES,"Toggles displaying of name plates on your pets, totems, and guardians.",1
 13863,ERR_ATTACK_CHARMED,Can't attack while charmed.,1
 13864,SPELL_FAILED_NOT_ON_TAXI,You are in flight,1
-13865,UI_SCALE,UI Scale,1
-13866,OPTION_TOOLTIP_UI_SCALE,Changes the size of the game’s user interface.,1
+13865,UI_SCALE,UI Scale,3
+13866,OPTION_TOOLTIP_UI_SCALE,Changes the size of the game’s user interface.,3
 13867,WORLD_APPEARANCE,World Appearance,3
 13868,OPTION_TOOLTIP_ENVIRONMENT_DETAIL,Controls how far you can see objects. Decrease to improve performance.,3
 13869,CINEMATIC_SUBTITLES,Cinematic Subtitles,3
@@ -3765,7 +3765,7 @@ ID,BaseTag,TagText_lang,Flags
 13957,REMOVE_CHAT_DELAY_TEXT,Remove Chat Hover Delay,1
 13958,OPTION_TOOLTIP_REMOVE_CHAT_DELAY,Check to show chat windows immediately upon mouseover.,1
 13959,INSTANCE_BOOT_TIMER,You are not in this instance's group.  You will be teleported to the nearest graveyard in %d %s.,1
-13962,USE_UISCALE,Use UI Scale,1
+13962,USE_UISCALE,Use UI Scale,3
 13963,WINDOWED_MODE,Windowed Mode,3
 13964,OPTION_TOOLTIP_WINDOWED_MODE,Check to play in a non-fullscreen window.\n\nIf this is checked the game will use your desktop gamma and you will not be able to adjust it via the slider below.,3
 13967,PVP_RANK_8_1,Master Sergeant,1
@@ -5658,7 +5658,7 @@ ID,BaseTag,TagText_lang,Flags
 17218,MOVIE_RECORDING_COMPRESSING,Compressing,1
 17219,MOVIE_RECORDING_COMPRESSING_CANCEL_NEWBIE_TOOLTIP,This will finish the compression early. You will lose the part that is still not compressed. The part that is currently compressed will be saved on your hard drive.,1
 17220,MOVIE_RECORDING_COMPRESSING_CANCEL_TOOLTIP,Cancel Compression,1
-17221,MAC_OPTIONS,Mac Options,1
+17221,MAC_OPTIONS,Mac Options,3
 17223,MOVIE_RECORDING_ENABLE_GUI,Record the User Interface,1
 17224,MOVIE_RECORDING_ENABLE_GUI_TOOLTIP,"If this is checked, you will see the user interface in the movie. Regardless of this setting, you will see the user interface while playing.",1
 17225,MOVIE_RECORDING_ENABLE_SOUND,Record Sound,1
@@ -6552,7 +6552,7 @@ ID,BaseTag,TagText_lang,Flags
 18163,SHOW_RAID_RANGE_TEXT,Range in Raid Interface,1
 18164,OPTION_TOOLTIP_SHOW_RAID_RANGE,Show the range of raid members when they are far away by fading out their health bars.,1
 18165,SLASH_GUILD_LEADER_REPLACE1,/greplace,1
-18166,ERR_NOT_SAME_ACCOUNT,Account-bound items can only be given to your own characters.,1
+18166,ERR_NOT_SAME_ACCOUNT,Warbound items can only be given to other characters in your Warband.,1
 18167,INTERFACE_OPTIONS,Interface Options,1
 18168,ADDONS,AddOns,3
 18169,STATUSTEXT_LABEL,Status Text,1
@@ -7304,7 +7304,7 @@ ID,BaseTag,TagText_lang,Flags
 19037,FUEL,Fuel,1
 19038,RURU,Russian,5
 19039,LINK_TRADESKILL_TOOLTIP,Click here to create a link to your profession.,1
-19040,ACHIEVEMENT_TITLE,Achievement Points,1
+19040,ACHIEVEMENT_TITLE,Warband Achievement Points,1
 19041,ITEM_LEVEL_RANGE_CURRENT,Requires level %d to %d (%d),1
 19042,STRING_SCHOOL_FLAMESTRIKE,Flamestrike,5
 19043,STRING_SCHOOL_FROSTSTRIKE,Froststrike,5
@@ -7622,7 +7622,7 @@ ID,BaseTag,TagText_lang,Flags
 19376,STATISTICS,Statistics,1
 19377,SPELL_FAILED_TARGET_NO_RANGED_WEAPONS,Target has no ranged weapons equipped,1
 19378,ERR_INVITED_ALREADY_IN_GROUP_SS,"|Hplayer:%s|h[%s]|h invited you to a group, but you could not accept because you are already in a group.",1
-19379,ITEM_ACCOUNTBOUND,Account Bound,5
+19379,ITEM_ACCOUNTBOUND,Warbound,5
 19380,CALENDAR_EVENT_REMOVED_MAIL_SUBJECT,%s canceled.,1
 19381,CALENDAR_EVENT_REMOVED_MAIL_BODY,%s canceled %s. (%s),1
 19382,ACTION_SPELL_AURA_APPLIED_BUFF_FULL_TEXT_NO_SOURCE,%4$s gains %2$s.,1
@@ -7693,7 +7693,7 @@ ID,BaseTag,TagText_lang,Flags
 19449,SHOW_NUMERIC_THREAT,Show Aggro Percentages,1
 19450,ERR_QUEST_PUSH_TIMER_EXPIRED_S,Quest sharing timer has expired.,1
 19451,ERR_QUEST_PUSH_NOT_IN_PARTY_S,You are not in a party.,1
-19452,ITEM_BIND_TO_ACCOUNT,Binds to account,5
+19452,ITEM_BIND_TO_ACCOUNT,Binds to Warband,5
 19453,SPELL_FAILED_CUSTOM_ERROR_45,Requires a nearby target.,1
 19454,SHADOW_QUALITY,Shadow Quality,3
 19455,OPTION_TOOLTIP_SHADOW_QUALITY,Controls both the method and quality of shadows. Decreasing this may greatly improve performance.,3
@@ -7879,7 +7879,7 @@ ID,BaseTag,TagText_lang,Flags
 19650,WATCHFRAME_LOCK,Lock Objectives Frame,1
 19651,OPTION_TOOLTIP_OBJECTIVES_IGNORE_CURSOR,Locks the Objectives frame and keeps it from being displayed on mouseover.,1
 19652,OBJECTIVES_VIEW_IN_QUESTLOG,Open Quest Details,1
-19653,OBJECTIVES_STOP_TRACKING,Stop Tracking,1
+19653,OBJECTIVES_STOP_TRACKING,Untrack,1
 19654,OBJECTIVES_VIEW_IN_ACHIEVEMENTS,Open Achievements,1
 19655,CALENDAR_ERROR_INVALID_SIGNUP,You cannot sign up to this event.,5
 19656,OBJECTIVES_VIEW_ACHIEVEMENT,Open Achievement,1
@@ -7891,7 +7891,7 @@ ID,BaseTag,TagText_lang,Flags
 19664,CHANGE_OPACITY,Change Opacity,1
 19665,TRANSFER_ABORT_NEED_GROUP,Transfer Aborted: you must be in a raid group to enter this instance,1
 19666,IGNORE_DIALOG,Ignore,1
-19667,OBJECTIVES_WATCH_TOO_MANY,"You don't have space to track any more objectives, stop tracking some first.",1
+19667,OBJECTIVES_WATCH_TOO_MANY,You can't track any more quests.,1
 19668,ACTIVATE,Activate,5
 19669,POWER_DISPLAY_COST,%s %s,1
 19670,POWER_DISPLAY_COST_PER_TIME,"%s %s, plus %s per sec",1
@@ -8261,7 +8261,7 @@ ID,BaseTag,TagText_lang,Flags
 20070,BATTLEFIELD_IN_QUEUE_SIMPLE,You are in the queue for %s,1
 20071,BATTLEFIELD_QUEUE_CONFIRM_SIMPLE,You are eligible to enter %s,1
 20072,QUEST_INTERMEDIATE_ITEMS_NEEDED,%s: (%d),1
-20073,OBJECTIVES_SHOW_QUEST_MAP,Show Quest Map,1
+20073,OBJECTIVES_SHOW_QUEST_MAP,Open Quest Map,1
 20074,ERR_MAIL_LIMITED_DURATION_ITEM,You cannot mail items with a limited duration,1
 20075,TRANSFER_ABORT_MAP_NOT_ALLOWED,Map cannot be entered at this time.,1
 20076,SLASH_SET_TITLE1,/settitle,1
@@ -9932,8 +9932,8 @@ ID,BaseTag,TagText_lang,Flags
 21882,MINIMAP_TRACKING_NONE,None,1
 21883,GUILDCONTROL_OPTION19,Modify Bank Tabs,1
 21884,CONFIRM_SAVE_EQUIPMENT_SET,"Would you like to save the equipment set \""%s\""?",1
-21885,ITEM_BNETACCOUNTBOUND,Blizzard Account Bound,5
-21886,ITEM_BIND_TO_BNETACCOUNT,Binds to Blizzard account,5
+21885,ITEM_BNETACCOUNTBOUND,Warbound,5
+21886,ITEM_BIND_TO_BNETACCOUNT,Binds to Warband,5
 21887,AUCTION_MAIL_ITEM_STACK,%s (%d),1
 21888,OPTION_TOOLTIP_PICKUP_ACTION_ALT_KEY,"Use the ""ALT"" key to pick up/drag spells from locked action bars.",1
 21889,OPTION_TOOLTIP_PICKUP_ACTION_CTRL_KEY,"Use the ""CTRL"" key to pick up/drag spells from locked action bars.",1
@@ -10242,7 +10242,7 @@ ID,BaseTag,TagText_lang,Flags
 22210,GUILD_MOVE_STARTING,Your guild is in the process of being moved. The guild bank will be temporarily inaccessible until the move is completed.,1
 22211,GUILD_MOVE_COMPLETE,The guild move process is complete.,1
 22212,GUILD_RENAMED,Your Guild Master has changed your guild name.,1
-22213,TALENT_SPEC_AND_CLASS,%1$s %2$s,1
+22213,TALENT_SPEC_AND_CLASS,%1$s %2$s,3
 22214,BINDING_NAME_TOGGLEENCOUNTERJOURNAL,Toggle Adventure Guide,1
 22215,ENCOUNTER_JOURNAL,Dungeon Journal,1
 22216,ENCOUNTER_JOURNAL_SEARCH_RESULTS,"Search Results for \""%s\""(%d)",1
@@ -10354,8 +10354,8 @@ ID,BaseTag,TagText_lang,Flags
 22343,MAC_DISABLE_OS_SHORTCUTS,Disable OS Keyboard Shortcuts,3
 22344,MAC_DISABLE_OS_SHORTCUTS_TOOLTIP,Disables the operating system keyboard shortcuts. Use this if you don't want to accidentally fire operating system shortcuts during the game.,3
 22345,REQ_LEVEL_ABBR,Lvl,1
-22346,MAC_OPTIONS_MISC,Miscellaneous,1
-22348,MAC_SWAP_CONTROL_AND_COMMAND_TOOLTIP,Use this if you want to use the Command key modifier for key bindings instead of the Control key.,1
+22346,MAC_OPTIONS_MISC,Miscellaneous,3
+22348,MAC_SWAP_CONTROL_AND_COMMAND_TOOLTIP,Use this if you want to use the Command key modifier for key bindings instead of the Control key.,3
 22349,SCROLL_OF_RESURRECTION,Scroll of Resurrection,1
 22350,ENTER_EMAIL_OR_CHARACTER,Enter email or character-realm name,1
 22351,SEND_SCROLL_OF_RESURRECTION,Send Scroll of Resurrection,1
@@ -10472,7 +10472,7 @@ ID,BaseTag,TagText_lang,Flags
 22465,IN_LFG_QUEUE_BUT_SUSPENDED,Your queue has been temporarily suspended. You will retain your position in the queue.,1
 22466,RF_REWARD_EXPLANATION2,Each victory subsequent to the first each week will earn you:,1
 22467,RF_REWARD_EXPLANATION1,Your first completion per week will earn you:,1
-22468,MAC_OPEN_UNIVERSAL_ACCESS,"In order to use this option accessibility needs to be enabled. Please check the option \""Enable access for assistive devices\"" in the Universal Access System Preferences panel. Would you like to open the System Preferences now?",1
+22468,MAC_OPEN_UNIVERSAL_ACCESS,"In order to use this option accessibility needs to be enabled. Please check the option \""Enable access for assistive devices\"" in the Universal Access System Preferences panel. Would you like to open the System Preferences now?",3
 22469,ERR_PARTY_ROLE_NOT_AVAILABLE,Problem trying to fill your group's available roles,1
 22470,ERR_JOIN_LFG_OBJECT_FAILED,You failed to join the instance in progress,1
 22471,SPELL_FAILED_CUSTOM_ERROR_148,Target is already affected by Stardust No. 2.,1
@@ -10849,7 +10849,7 @@ ID,BaseTag,TagText_lang,Flags
 22869,INCLUDED_SCENARIOS_EMPTY,The levels of people in your group are not close enough to be eligible for any Random Scenarios.,1
 22870,LFG_TYPE_RANDOM_SCENARIO,Random Scenario,1
 22871,SCENARIO_RANDOM_EXPLANATION,Using the Random Scenario queue will earn you extra rewards.,1
-22872,ACHIEVEMENT_EARNED_BY,Earned by: |cffffffff%s|r,1
+22872,ACHIEVEMENT_EARNED_BY,Earned by your Warband.|nCompleted by: |cffffffff%s|r,1
 22873,ACHIEVEMENT_PROGRESSED,Achievement Progress,1
 22874,ENTER_SCENARIO,Enter Scenario,1
 22875,RANDOM_SCENARIO,Random Scenario,1
@@ -11286,7 +11286,7 @@ You can find trainers for them in some settlements and cities.",1
 23368,INVITATION_XREALM,%s invites you to a group.\n\nAccepting this invitation may transfer you to another realm.,1
 23369,GUILD_CHALLENGE_TYPE4,Scenario,1
 23370,GUILD_CHALLENGE_TYPE5,Mythic+ Dungeon,1
-23372,ACCOUNT_WIDE_ACHIEVEMENT,Progress on any of your characters\nwill count towards this achievement.,1
+23372,ACCOUNT_WIDE_ACHIEVEMENT,Any character in your Warband can make \nprogress towards this achievement.,1
 23373,AUCTION_TIME_LEFT0,Completed!,1
 23374,AUCTION_TIME_LEFT0_DETAIL,Auction is done.,1
 23375,WOW_FRIEND,World of Warcraft Friend,1
@@ -11321,7 +11321,7 @@ You can find trainers for them in some settlements and cities.",1
 23418,REPORT_BATTLEPET_NAME_CONFIRMATION,Are you sure you want to report %s for inappropriate battle pet name?,1
 23419,BATTLENET_ADD_FRIEND_INFO,Adding a friend using their email address will show them your real name (you will be Real ID friends).\n\nAdding a friend using their BattleTag will only show them your BattleTag. You must include the # and the following number to add a BattleTag friend.,3
 23420,REPORT_PET_NAME_CONFIRMATION,Are you sure you want to report %s for inappropriate pet name?,1
-23422,ACCOUNT_LEVEL_MOUNT,Account Level Mount,1
+23422,ACCOUNT_LEVEL_MOUNT,Warband Mount,1
 23423,PARTY_IN_PUBLIC_GROUP_MESSAGE,This player is currently in an instance group.,1
 23425,GUILD_CHALLENGE_TOOLTIP4,Complete any level-appropriate scenario while in a guild group.,1
 23426,GUILD_CHALLENGE_TOOLTIP5,Complete any dungeon from the current expansion after activating a Mythic Keystone while in a guild group.,1
@@ -11345,7 +11345,7 @@ You can find trainers for them in some settlements and cities.",1
 23445,MAIN_HELP_BUTTON_TOOLTIP,Click this to toggle on/off the help system for this frame.,3
 23446,CR_RANGED_EXPERTISE_TOOLTIP,Reduces chance to be dodged by %s\nExpertise %s (+%.2F%% expertise),1
 23447,ADD_CHARACTER_FRIEND,Add Character Friend,1
-23448,ACCOUNT_WIDE_ACHIEVEMENT_COMPLETED,All of your characters have credit\nfor earning this achievement.,1
+23448,ACCOUNT_WIDE_ACHIEVEMENT_COMPLETED,Earned by your Warband.,1
 23449,ERR_PETBATTLE_NO_ACCOUNT_LOCK,Pet Journal Is Locked by another user on this account,1
 23450,CATCH_PET_CONDITION,You must have a level 3 battle pet.,1
 23451,SLASH_WHISPER1,/cw,1
@@ -11418,12 +11418,12 @@ You can find trainers for them in some settlements and cities.",1
 23523,BATTLE_PET_ABILITY_TEXT_OBJECT_BOOMBOT,321 Boombot,1
 23524,PET_BATTLE_TRAP_UPGRADE,A new trap has been unlocked!,1
 23525,ACHIEVEMENT_FILTER_ALL_EXPLANATION,Show all achievements,1
-23526,ACHIEVEMENT_FILTER_COMPLETE_EXPLANATION,Show achievements completed on your account,1
+23526,ACHIEVEMENT_FILTER_COMPLETE_EXPLANATION,Show achievements completed on your Warband,1
 23527,ACHIEVEMENT_FILTER_INCOMPLETE_EXPLANATION,Show achievements this character can complete,1
 23528,ACHIEVEMENT_FILTER_TITLE,Achievement Filter,1
 23529,PET_BATTLE_ANOTHER_PET_JOINED,Another pet has joined the battle!,1
 23530,ACHIEVEMENT_COMPLETED_BY,Completed by: |cffffffff%s|r,1
-23531,ACHIEVEMENT_NOT_COMPLETED_BY,|cffff2020Not completed by:|r |cffffffff%s|r,1
+23531,ACHIEVEMENT_NOT_COMPLETED_BY,|cnHIGHLIGHT_FONT_COLOR:%s can still complete this.|r,1
 23532,ERR_PETBATTLE_QUEUE_QUEUED,You are now queued for a pet battle.,1
 23533,ERR_PETBATTLE_QUEUE_ALREADY_QUEUED,You are already queued for a pet battle.,1
 23534,ERR_PETBATTLE_QUEUE_JOIN_FAILED,Unable to join pet battle queue.,1
@@ -11554,8 +11554,8 @@ You can find trainers for them in some settlements and cities.",1
 23661,BATTLE_PET_PUT_IN_CAGE_SLOTTED,Put In Cage (Battle Slot),1
 23662,BATTLE_PET_PUT_IN_CAGE_HEALTH,Put In Cage (Health),1
 23663,PET_JOURNAL_CARD_NAME_DEFAULT,Select a pet from the list on the left.,1
-23664,MAC_USE_COMMAND_AS_CONTROL,Use Command key as Control key,1
-23665,MAC_USE_COMMAND_AS_CONTROL_TOOLTIP,Use Command key and Control key interchangeably.,1
+23664,MAC_USE_COMMAND_AS_CONTROL,Use Command key as Control key,3
+23665,MAC_USE_COMMAND_AS_CONTROL_TOOLTIP,Use Command key and Control key interchangeably.,3
 23666,MAC_USE_COMMAND_LEFT_CLICK_AS_RIGHT_CLICK,Command left click as right click,3
 23667,MAC_USE_COMMAND_LEFT_CLICK_AS_RIGHT_CLICK_TOOLTIP,Hold down Command key and left click to simulate a right click.,3
 23668,SPELL_FAILED_CANT_ADD_BATTLE_PET,Can't Add Companion To Your Account,1
@@ -12229,7 +12229,7 @@ You can find trainers for them in some settlements and cities.",1
 24437,BLIZZARD_CHALLENGE_CANCEL,Cancel,3
 24438,ADVANCED_COMBAT_LOGGING,Advanced Combat Logging,3
 24439,OPTION_TOOLTIP_ADVANCED_COMBAT_LOGGING,"Enables extra logging data when writing the combat log to a text file. This may cause additional network lag when using the ""combatlog"" chat command.",3
-24440,MAC_OPEN_UNIVERSAL_ACCESS1090,"In order to use this option, you must grant access to %s in Security & Privacy preferences, located in System Preferences. Would you like to open System Preferences now?",1
+24440,MAC_OPEN_UNIVERSAL_ACCESS1090,"In order to use this option, you must grant access to %s in Security & Privacy preferences, located in System Preferences. Would you like to open System Preferences now?",3
 24441,BLIZZARD_STORE_ERROR_TITLE_ALREADY_OWNED,Already Owned,3
 24442,BLIZZARD_STORE_ERROR_MESSAGE_ALREADY_OWNED,You already have this product!,3
 24443,ITEM_SET_BONUS_NO_VALID_SPEC,Bonus effects vary based on the player's specialization.,1
@@ -12417,7 +12417,7 @@ You can find trainers for them in some settlements and cities.",1
 24632,BAG_FILTER_CLEANUP,Cleanup,1
 24633,BAG_FILTER_EQUIPMENT,Equipment,5
 24634,BAG_FILTER_CONSUMABLES,Consumables,5
-24635,BAG_FILTER_TRADE_GOODS,Trade Goods,5
+24635,BAG_FILTER_PROFESSION_GOODS,Profession Goods,5
 24636,BAG_FILTER_JUNK,Junk,1
 24637,BAG_FILTER_IGNORE,Ignore this bag,1
 24638,REWARD_FOR_SPECFIC_PVP_WIN,Reward for Win: Loot Roll,1
@@ -12461,7 +12461,7 @@ You can find trainers for them in some settlements and cities.",1
 24676,TOY_PROGRESS_FORMAT,%d/%d,1
 24677,STAT_TOOLTIP_BONUS_AP_SP,Increases the magnitude of your attacks and abilities,1
 24678,COLLECTION_PAGE_NUMBER,Page %d / %d,1
-24679,COLLECTIONS,Collections,1
+24679,COLLECTIONS,Warband Collections,1
 24681,GARRISON_BUILDING_IN_PROGRESS,Building in Progress,1
 24682,GARRISON_UPGRADE_IN_PROGRESS,Upgrade in Progress,1
 24683,GARRISON_BUILDING_LOCKED,Building Locked,1
@@ -13361,7 +13361,7 @@ You can find trainers for them in some settlements and cities.",1
 25625,ERR_YELL_RESTRICTED_TRIAL,Free Trial accounts cannot yell. |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r,1
 25626,ERR_PETITION_RESTRICTED_ACCOUNT_TRIAL,Free Trial accounts may not sign guild charters. |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r,1
 25627,ERR_CHAT_RESTRICTED_TRIAL,Free Trial accounts cannot send unlimited tells. You must wait before you can send tells to more players.  |cffffd000|Hstorecategory:gametime|h[Click To Upgrade]|h|r,1
-25628,CAP_REACHED_TRIAL,Free Trial cap reached.,1
+25628,CAP_REACHED_TRIAL,Free Trial cap reached.,3
 25629,CAPPED_MONEY_TRIAL,Free Trial money cap reached.,1
 25630,CAPPED_LEVEL_TRIAL,Free Trial level cap reached.,1
 25631,LEVEL_CAP_REACHED_TRIAL,You have reached the maximum possible level on a Free Trial account. |cffffd000|Hstorecategory:gametime|h[Click Here]|h|r to upgrade your account!,1
@@ -13817,7 +13817,7 @@ You can find trainers for them in some settlements and cities.",1
 32139,ITEM_OBLITERATEABLE_NOT,Cannot be Obliterated,1
 32140,TRANSMOG_OUTFIT_ALREADY_EXISTS,An outfit with that name already exists.,1
 32141,TRANSMOG_OUTFIT_NAME,Enter Outfit Name:,1
-32142,TRANSMOG_OUTFIT_CONFIRM_OVERWRITE,You already have an oufit named %s. Would you like to overwrite it?,1
+32142,TRANSMOG_OUTFIT_CONFIRM_OVERWRITE,You already have an outfit named %s. Would you like to overwrite it?,1
 32143,TRANSMOG_OUTFIT_CONFIRM_DELETE,Are you sure you want to delete the outfit %s?,1
 32144,TRANSMOG_OUTFIT_CONFIRM_SAVE,Are you sure you want to overwrite the outfit %s?,1
 32145,TRANSMOG_OUTFIT_NEW,New Outfit,1
@@ -13890,16 +13890,16 @@ You can find trainers for them in some settlements and cities.",1
 32224,BOOST2_MAGEFROST_REMIND_FROSTBOLT,Use |cFFFFFFFFFrostbolt|r.,1
 32225,ERR_TALENT_FAILED_CANT_REMOVE_TALENT,You can't change that talent choice while %s is on cooldown.,1
 32226,BOOST2_MAGEFROST_FROZENORB,Use |cFFFFFFFFFrozen Orb|r.,1
-32227,SELF_HIGHLIGHT_OPTION,Raid Self Highlight,1
+32227,SELF_HIGHLIGHT_OPTION,Self Highlight,1
 32228,SELF_HIGHLIGHT_MODE_CIRCLE,Circle,1
-32229,SELF_HIGHLIGHT_MODE_CIRCLE_AND_OUTLINE,Circle & Outline,1
+32229,SELF_HIGHLIGHT_MODE_CIRCLE_AND_OUTLINE,Circle and Outline,1
 32230,SELF_HIGHLIGHT_ON,Self Highlight On,1
 32231,SELF_HIGHLIGHT_OFF,Self Highlight Off,1
 32236,OPTION_TOOLTIP_SELF_HIGHLIGHT_IN_RAID,Highlight your character in Raids.,1
 32237,OPTION_TOOLTIP_SELF_HIGHLIGHT_IN_RAID_COMBAT,Only highlight your character when in combat.,1
 32238,OPTION_TOOLTIP_SELF_HIGHLIGHT_IN_BG,Highlight your character in Battlegrounds.,1
 32239,OPTION_TOOLTIP_SELF_HIGHLIGHT_IN_BG_COMBAT,Only highlight your character when in combat.,1
-32240,OPTION_TOOLTIP_SELF_HIGHLIGHT,Highlight your character in Raids and Battlegrounds.,1
+32240,OPTION_TOOLTIP_SELF_HIGHLIGHT,Add a highlight to make it easier to see your character.,1
 32241,LFG_LIST_TOOLTIP_HONOR_LEVEL,Honor Level Required: |cffffffff%d|r,1
 32242,CONFIRM_LEARN_SPEC_COST,Activating this specialization will cost %s. Are you sure you want to learn this specialization?,1
 32243,PRIMARY_SPEC_CHANGE_AT_CLASS_TRAINER,You can change your primary specialization at your class trainer,1
@@ -13924,7 +13924,7 @@ You can find trainers for them in some settlements and cities.",1
 32268,AUCTION_CATEGORY_ITEM_ENHANCEMENT,Item Enhancements,1
 32269,AUCTION_CATEGORY_CONSUMABLES,Consumables,1
 32270,AUCTION_CATEGORY_GLYPHS,Glyphs,1
-32271,AUCTION_CATEGORY_TRADE_GOODS,Trade Goods,1
+32271,AUCTION_CATEGORY_TRADE_GOODS,Reagents,1
 32272,AUCTION_CATEGORY_RECIPES,Recipes,1
 32273,AUCTION_CATEGORY_BATTLE_PETS,Battle Pets,1
 32274,AUCTION_CATEGORY_QUEST_ITEMS,Quest Items,1
@@ -14334,7 +14334,7 @@ You can find trainers for them in some settlements and cities.",1
 33778,ACCOUNT_CREATE_FAILED,Account creation failed,2
 33779,ACCOUNT_CREATE_IN_PROGRESS,Creating account,2
 33780,ACCOUNT_CREATE_SUCCESS,Account created,2
-33781,ACCOUNT_CREATE_URL,http://enUS.nydus.battle.net/WOW/enUS/client/manage_account,2
+33781,ACCOUNT_CREATE_URL,https://account.battle.net,2
 33782,ACCOUNT_MESSAGE_BODY_NO_READ_URL,http://support.worldofwarcraft.com/accountmessaging/getMessageBodyUnread.xml,2
 33783,ACCOUNT_MESSAGE_BODY_URL,http://support.worldofwarcraft.com/accountmessaging/getMessageBody.xml,2
 33784,ACCOUNT_MESSAGE_BUTTON_READ,Mark as read,2
@@ -14350,7 +14350,7 @@ You can find trainers for them in some settlements and cities.",1
 33795,ACCOUNT_REACTIVATE_DESC_MINUTES,2700 minutes of game will be added to your World of Warcraft account. This game time is nonrefundable.,2
 33796,ACCOUNT_REACTIVATE_EXPIRATION,New Account Expiration Date: |cffffffff%s/%s/%s|r,2
 33797,ACCOUNT_REACTIVATE_EXPIRATION_MINUTES,New Game Time Remaining: |cffffffff%s|r,2
-33798,ACCOUNT_REACTIVATE_GOLD_DESC,You can buy 30 days of game time using your in-game gold. This amount will be deducted evenly from your characters on this realm.,2
+33798,ACCOUNT_REACTIVATE_GOLD_DESC,"You can buy 30 days of game time using your in-game gold. This amount will be deducted evenly from your characters on this realm.\n\nAlternatively, check your other realms to see if you already have a Game Time token available.",2
 33800,ACCOUNT_REACTIVATE_GOLD_PRICE,Price: |cffffffff%s|r,2
 33801,ACCOUNT_REACTIVATE_GOLD_REMAINING,Gold Remaining: |cffffffff%s|r,2
 33802,ACCOUNT_REACTIVATE_GOLD_TITLE,Reactivate Now with Gold,2
@@ -14358,7 +14358,7 @@ You can find trainers for them in some settlements and cities.",1
 33804,ACCOUNT_REACTIVATE_OPTION_UNAVAILABLE,This game time option is not available at this time.,2
 33805,ACCOUNT_REACTIVATE_SUBSCRIPTION,Reactivate Subscription,2
 33806,ACCOUNT_REACTIVATE_SUCCESS,Account Reactivated!,2
-33807,ACCOUNT_REACTIVATE_TEXT,You must have an active subscription to play characters above level 20.\n\nWould you like to reactivate now and continue where you left off?,2
+33807,ACCOUNT_REACTIVATE_TEXT,You must have an active subscription to play characters above level 20.\n\nCheck your other realms to see if you have a Game Time token available.\n\nWould you like to reactivate now and continue where you left off?,2
 33808,ACCOUNT_REACTIVATE_TOKEN_ACCEPT,Use WoW Token,2
 33809,ACCOUNT_REACTIVATE_TOKEN_DESC,You have an unused WoW Token. You can use it now to add 30 days of game time.,2
 33811,ACCOUNT_REACTIVATE_TOKEN_TITLE,Reactivate Now with WoW Token,2
@@ -14386,7 +14386,7 @@ You can find trainers for them in some settlements and cities.",1
 33833,AUTH_LOCKED_ENFORCED,You have applied a lock to your account. You can change your locked status by calling your account lock phone number.,2
 33834,AUTH_LOGIN_SERVER_NOT_FOUND,Invalid Login Server,2
 33835,AUTH_NO_TIME,"Your World of Warcraft subscription has expired. You will need to reactivate your account. To do so, please visit www.worldofwarcraft.com/account for more information.",2
-33836,AUTH_NO_TIME_URL,http://enUS.nydus.battle.net/WOW/enUS/client/manage_account,2
+33836,AUTH_NO_TIME_URL,https://account.battle.net,2
 33837,AUTH_OK,Authentication Successful,2
 33838,AUTH_PARENTAL_CONTROL,Access to this account is currently restricted by parental controls. You can change your control settings from your online account management.,2
 33839,AUTH_PARENTAL_CONTROL_URL,http://www.worldofwarcraft.com/account,2
@@ -14505,13 +14505,13 @@ You can find trainers for them in some settlements and cities.",1
 33952,CHARACTER_UPGRADE_CHARACTER_LIST_CHANGED_ERROR,Something went wrong. Restarting the character boost process.,2
 33953,CHARACTER_UPGRADE_CHARACTER_LIST_LABEL,Character Boost,2
 33954,CHARACTER_UPGRADE_COMPLETE_LABEL,Character Boost Complete!,2
-33955,CHARACTER_UPGRADE_FINISH_BUTTON_POPUP_TEXT,Are you sure you want to boost this character? You can't change your selection after this step.,3
+33955,CHARACTER_UPGRADE_FINISH_BUTTON_POPUP_TEXT,|cnHIGHLIGHT_FONT_COLOR:Are you sure you want to |rBoost|cnHIGHLIGHT_FONT_COLOR: this character? You can't change your selection after this step.|r,3
 33956,CHARACTER_UPGRADE_FINISH_LABEL,Level Up!,6
 33957,CHARACTER_UPGRADE_FREE_100_POPUP_DESCRIPTION,"World of Warcraft: Legion includes a level 100 character boost. You can choose to boost an existing character, try a new class before using your boost, or close the window to use the boost later.",2
 33958,CHARACTER_UPGRADE_FREE_100_POPUP_TITLE,Welcome to Legion!,2
 33959,CHARACTER_UPGRADE_FREE_90_POPUP_DESCRIPTION,Thank you for joining us!|nHere is the boost that comes with your purchase of Warlords of Draenor.,2
 33960,CHARACTER_UPGRADE_FREE_90_POPUP_TITLE,Level 90 Character Boost,2
-33961,CHARACTER_UPGRADE_KRW_FINISH_BUTTON_POPUP_TEXT," Are you sure that you want to boost this character? If you click the ""Level Up!"" button, you will no longer be eligible for a refund.",2
+33961,CHARACTER_UPGRADE_KRW_FINISH_BUTTON_POPUP_TEXT," |cnHIGHLIGHT_FONT_COLOR:Are you sure that you want to |rBoost|cnHIGHLIGHT_FONT_COLOR: this character? If you click the ""Level Up!"" button, you will no longer be eligible for a refund.|r",2
 33962,CHARACTER_UPGRADE_KRW_STATIC_WARNING,"You can cancel this purchase within 7 days from the time of purchase. However, you can no longer cancel this purchase once you have completed all the steps to boost your character, even if it's within 7 days from the time of purchase.",2
 33963,CHARACTER_UPGRADE_NO_VETERAN_BONUS,No Veteran Bonus,2
 33964,CHARACTER_UPGRADE_POPUP_GET_STARTED,Get Started Now,2
@@ -14557,7 +14557,7 @@ You can find trainers for them in some settlements and cities.",1
 34004,CHAR_DECLINE_IN_PROGRESS,Updating Character...,2
 34005,CHAR_DELETE_FAILED,Character deletion failed,2
 34006,CHAR_DELETE_FAILED_ARENA_CAPTAIN,This character is an Arena Captain and cannot be deleted until the rank is transferred to another character.,2
-34007,CHAR_DELETE_FAILED_GUILD_LEADER,This character is a Guild Master and cannot be deleted until the rank is transferred to another character.,2
+34007,CHAR_DELETE_FAILED_GUILD_LEADER,This character is a Guild Master and cannot be deleted until the rank is transferred to another character or the guild is disbanded.,2
 34008,CHAR_DELETE_FAILED_HAS_HEIRLOOM_OR_MAIL,This character has mail and cannot be deleted.,2
 34009,CHAR_DELETE_FAILED_HAS_WOW_TOKEN,"This character cannot be deleted while a WoW Token is in their inventory, mailbox, or on the auction house.",2
 34010,CHAR_DELETE_FAILED_CHARACTER_SERVICE_PENDING,This character cannot be deleted while a character service is under way.,2
@@ -14797,7 +14797,7 @@ You can find trainers for them in some settlements and cities.",1
 34244,COMMUNITY_URL,http://www.worldofwarcraft.com,2
 34245,CONFIRM_CHAR_DELETE,Do you want to delete\n|cffffffff%s   Level %d   %s|r?,2
 34246,CONFIRM_CHAR_DELETE_INSTRUCTIONS,"Type ""DELETE"" into the field to confirm.",2
-34247,CONFIRM_DISABLE_ADDONS,"You will need to re-enable your modifications once you install updated versions.  Are you sure you want to disable them?\n\n|cffffffffYou can re-enable them by using the ""Addons"" button in the lower left.|r",2
+34247,CONFIRM_DISABLE_ADDONS,"You will need to re-enable your modifications once you install updated versions.  Are you sure you want to disable them?\n\n|cffffffffYou can re-enable them by selecting ""Menu > AddOns"" at the top of the screen.|r",2
 34248,CONFIRM_LAUNCH_ADDON_URL,"Clicking ""Okay"" will take you out of the game and open the following link in a web browser:\n%s",2
 34249,CONFIRM_LOAD_ADDONS,"The game may not work correctly unless you have updated all your modifications.  Are you sure you want to try to load them?\n\n|cffffffffChanges can be made by using the ""Addons"" button in the lower left.|r",2
 34250,CONFIRM_PAID_SERVICE,Are you sure you are done changing your character?,2
@@ -14839,7 +14839,7 @@ You can find trainers for them in some settlements and cities.",1
 34286,DEMONHUNTER_DISABLED,Requires Legion and a level 70 character.,2
 34287,DEMON_HUNTER_RESTRICTED_HAS_DEMON_HUNTER,You can only have one Demon Hunter per realm.,2
 34288,DEMON_HUNTER_RESTRICTED_NEED_LEVEL_70,Your highest level character on this realm must be at least level 70.,2
-34289,DEVICE_BLACKLISTED,"<html><body><p align=""CENTER"">Your graphics card is not compatible or may encounter slow performance. Please see <a href=""http://nydus.battle.net/WoW/enUS/launcher/video-unsupported"">http://nydus.battle.net/WoW/enUS/launcher/video-unsupported</a> for more information.</p></body></html>",2
+34289,DEVICE_BLACKLISTED,"<html><body><p align=""CENTER"">Your video device is not compatible. Please see <a href=""https://support.blizzard.com/article/76459"">https://support.blizzard.com/article/76459</a> for more information.</p></body></html>",2
 34290,DIALOG_HELP_MORE_INFO,More Info,2
 34291,DISCONNECTED,You have been disconnected from the server.,6
 34292,DISCONNECT_REASON_BAN,"This account has been temporarily suspended for Terms of Use violations http://www.blizzard.com/company/legal/wow_tou.html. The suspension expires in %d |4day:days;, %d |4hour:hours;, %d |4minute:minutes;. Please see your email for further details on the violation and appeals process.",2
@@ -14849,8 +14849,8 @@ You can find trainers for them in some settlements and cities.",1
 34296,DOWNLOAD_SUCCESSFUL_TEXT,Press the restart button below to exit World of\nWarcraft and download the patch.,2
 34297,DPS,DPS,2
 34298,DRAENEI_DISABLED,Requires The Burning Crusade,2
-34299,DRIVER_BLACKLISTED,"<html><body><p align=""CENTER"">Your graphics device driver is not compatible. Please see <a href=""http://nydus.battle.net/WoW/enUS/launcher/driver-unsupported"">http://nydus.battle.net/WoW/enUS/launcher/driver-unsupported</a> for more information.</p></body></html>",2
-34300,DRIVER_OUTOFDATE,"<html><body><p align=""CENTER"">Your graphics driver is out of date. Please see <a href=""http://nydus.battle.net/WoW/enUS/launcher/driverupdates"">http://nydus.battle.net/WoW/enUS/launcher/driverupdates</a> for more information.</p></body></html>",2
+34299,DRIVER_BLACKLISTED,"<html><body><p align=""CENTER"">Your device driver is not compatible. Please see <a href=""https://support.blizzard.com/article/updating-your-drivers-and-operating-system"">https://support.blizzard.com/article/updating-your-drivers-and-operating-system</a> for more information.</p></body></html>",2
+34300,DRIVER_OUTOFDATE,"<html><body><p align=""CENTER"">Your device driver is out of date. Please see <a href=""https://support.blizzard.com/article/updating-your-drivers-and-operating-system"">https://support.blizzard.com/article/updating-your-drivers-and-operating-system</a> for more information.</p></body></html>",2
 34301,DRUID_DISABLED,You must choose a different race to be this class.,2
 34302,EMAIL_ADDRESS,E-Mail Address,2
 34303,ENABLED_FOR_SOME,This addon is only enabled for some characters.,3
@@ -14870,7 +14870,7 @@ You can find trainers for them in some settlements and cities.",1
 34317,FACTION_INFO_ALLIANCE,"        The Alliance consists of five races: the noble humans, the adventurous dwarves, the enigmatic night elves, the ingenious gnomes, and the honorable draenei. Bound by a loathing for all things demonic, they fight to restore order in this war-torn world.",2
 34318,FACTION_INFO_HORDE,"        Five races comprise the Horde: the brutal orcs, the shadowy undead, the spiritual tauren, the quick-witted trolls, and the driven blood elves. Beset by enemies on all sides, these outcasts have forged a union they hope will ensure their mutual survival.",2
 34319,FINISH,Finish,2
-34320,FIXEDFUNCTION_UNSUPPORTED,"<html><body><p align=""CENTER"">This video card is not supported in World of Warcraft. Please see <a href=""http://nydus.battle.net/WoW/enUS/launcher/fixedfunction-unsupported"">http://nydus.battle.net/WoW/enUS/launcher/fixedfunction-unsupported</a> for more information.</p></body></html>",2
+34320,FIXEDFUNCTION_UNSUPPORTED,"<html><body><p align=""CENTER"">This video card is not supported in World of Warcraft. Please see <a href=""https://support.blizzard.com/article/76459"">https://support.blizzard.com/article/76459</a> for more information.</p></body></html>",2
 34321,GAMETYPE_NORMAL,Normal,2
 34322,GAMETYPE_PVE,Normal,2
 34323,GAMETYPE_PVE_TEXT,These realms allow you to focus on adventuring and fighting monsters while allowing you to fight other players at your own discretion.,2
@@ -15043,9 +15043,9 @@ You can find trainers for them in some settlements and cities.",1
 34496,RANDOMIZE,Randomize,2
 34497,REACTIVATE_ACCOUNT_NOW,Reactivate Now,2
 34498,REALMLIST_NOT_CONNECTED_TO_BATTLENET,You have been disconnected from Blizzard services. You need to log in again to change realms.,2
-34499,REALMLIST_NUMCHARACTERS_TOOLTIP,The number of characters\nyou have created on this realm.,2
+34499,REALMLIST_NUMCHARACTERS_TOOLTIP,"All characters are displayed in your\ncharacter list, regardless of their realm.",2
 34500,REALMLIST_POPULATION_TOOLTIP,"""New Players"" realms will give you the best play experience.\n""Full"" realms are the most crowded, and you will often\nexperience a wait time to play.",2
-34501,REALMLIST_REALMNAME_TOOLTIP,Make sure you check which realm your friends are playing on!,2
+34501,REALMLIST_REALMNAME_TOOLTIP,"The realm you choose affects some features like\ntrading, guilds and Mythic raiding.",2
 34502,REALMLIST_TYPE_TOOLTIP,Normal = No special rules on this realm.\nRP = Roleplaying realm.,2
 34503,REALM_CHARACTERS,Characters,6
 34504,REALM_DESCRIPTION,Choosing a Realm,2
@@ -15110,7 +15110,7 @@ You can find trainers for them in some settlements and cities.",1
 34565,SELECT_ACCOUNT,Select an account,2
 34566,SELECT_CHARACTER,Select A Character,2
 34567,SELECT_CHARACTER_ACTIVE_LABEL,Choose your character on the right,2
-34568,SELECT_CHARACTER_RESULTS_FORMAT,|c%s%s (Level %d %s)|r,2
+34568,SELECT_CHARACTER_RESULTS_FORMAT,%s\nLevel %d %s,2
 34569,SELECT_CHARACTER_RESULTS_LABEL,Character:,2
 34570,SELECT_FACTION_ACTIVE_LABEL,Choose your faction,2
 34571,SELECT_FACTION_RESULTS_FORMAT,|c%s%s|r,2
@@ -15146,7 +15146,7 @@ You can find trainers for them in some settlements and cities.",1
 34601,STREAMING_BUILD,Streaming,2
 34602,SUGGESTED_REALM_TEXT,|cffffffffYou have been assigned to the|r %s |cffffffffRealm.|r,2
 34603,SUGGEST_REALM,Suggest Realm,2
-34604,SYSTEM_INCOMPATIBLE_SSE,"<html><body><p align=""CENTER"">This system will not be supported in future versions of World of Warcraft. Please see <a href=""http://nydus.battle.net/WoW/enUS/launcher/sse1-unsupported"">http://nydus.battle.net/WoW/enUS/launcher/sse1-unsupported</a> for more information.</p></body></html>",2
+34604,SYSTEM_INCOMPATIBLE_SSE,"<html><body><p align=""CENTER"">This system will not be supported in future versions of World of Warcraft. Please see <a href=""https://support.blizzard.com/article/76459"">https://support.blizzard.com/article/76459</a> for more information.</p></body></html>",2
 34605,TAIWAN,Taiwan,7
 34606,TECH_SUPPORT,Tech Support,2
 34607,TECH_SUPPORT_URL,http://www.blizzard.com/support/wow/,2
@@ -15174,7 +15174,7 @@ You can find trainers for them in some settlements and cities.",1
 34629,UNDELETE_SUCCESS_NAME_CHANGE_REQUIRED,"Character successfully restored.\nYour old name was taken, and you will need to pick a new one when you log in.",2
 34630,UNDELETE_TOOLTIP,Restore Deleted Character,2
 34631,UNDELETE_TOOLTIP_COOLDOWN,You must wait %s before restoring another deleted character.,2
-34632,UNDELETE_TOOLTIP_DISABLED,Restore Deleted Character is temporarily unavailable. Please try again later.,2
+34632,UNDELETE_TOOLTIP_DISABLED,Restoring a Deleted Character is temporarily unavailable. Your patience is appreciated while we work on a resolution.,2
 34633,UNKNOWN_ZONE,Unknown Zone,2
 34634,UNLOCK_TEXT,to unlock these epic features:,2
 34635,UPGRADE_ACCOUNT,Upgrade to Full Version,2
@@ -15211,21 +15211,21 @@ You can find trainers for them in some settlements and cities.",1
 34666,VIDEO_OPTIONS_RESET,Your video settings have changed.,2
 34667,VIEW_ALL_REALMS,View Realm List,2
 34668,VIRTUAL_KEYPAD_OKAY,Okay,2
-34669,VISITABLE_URL1,http://enUS.nydus.battle.net/WOW/enUS/client/in_game_mail_link_1?r=US&l=%s&sr=%u&c=%x%x,2
-34670,VISITABLE_URL10,http://nydus.battle.net/WoW/%s/client/legal/terms-of-sale?targetRegion=TW,2
-34671,VISITABLE_URL11,https://nydus.battle.net/WoW/enUS/client/add-payment?targetRegion=US,2
-34672,VISITABLE_URL12,https://nydus.battle.net/WoW/enUS/client/support/recruit-a-friend-basics?targetRegion=US,2
-34673,VISITABLE_URL13,http://nydus.battle.net/WoW/%s/client/legal/privacy-policy?targetRegion=KR,2
-34674,VISITABLE_URL14,http://nydus.battle.net/WoW/%s/client/legal/terms-of-sale?targetRegion=US,2
-34675,VISITABLE_URL15,http://nydus.battle.net/WoW/%s/client/legal/privacy-policy?targetRegion=US,2
-34676,VISITABLE_URL16,http://nydus.battle.net/WoW/%s/client/legal/terms-of-sale?targetRegion=EU,2
-34677,VISITABLE_URL17,http://nydus.battle.net/WoW/%s/client/legal/privacy-policy?targetRegion=EU,2
-34678,VISITABLE_URL18,http://nydus.battle.net/WoW/%s/client/legal/terms-of-sale?targetRegion=CN,2
-34679,VISITABLE_URL19,http://nydus.battle.net/WoW/%s/client/legal/privacy-policy?targetRegion=CN,2
-34680,VISITABLE_URL2,http://enUS.nydus.battle.net/WOW/enUS/client/trial_restriction_error_1?region=US&accountName=%s,2
-34681,VISITABLE_URL20,http://nydus.battle.net/WoW/%s/client/legal/privacy-policy?targetRegion=TW,2
-34682,VISITABLE_URL21,https://nydus.battle.net/WoW/%s/client/choose-payment-method?targetRegion=EU,2
-34683,VISITABLE_URL22,http://nydus.battle.net/WoW/%s/client/subscription-setup?targetRegion=%s,2
+34669,VISITABLE_URL1,https://shop.battle.net/product/world-of-warcraft-service-guild-services,2
+34670,VISITABLE_URL10,https://blizzard.com/tos,2
+34671,VISITABLE_URL11,https://account.battle.net/payment,2
+34672,VISITABLE_URL12,https://support.blizzard.com/article/11009,2
+34673,VISITABLE_URL13,https://blizzard.com/privacy,2
+34674,VISITABLE_URL14,https://blizzard.com/tos,2
+34675,VISITABLE_URL15,https://blizzard.com/privacy,2
+34676,VISITABLE_URL16,https://blizzard.com/tos,2
+34677,VISITABLE_URL17,https://blizzard.com/privacy,2
+34678,VISITABLE_URL18,https://legal.battlenet.com.cn/tos,2
+34679,VISITABLE_URL19,https://legal.battlenet.com.cn/privacy,2
+34680,VISITABLE_URL2,https://shop.battle.net/family/world-of-warcraft#games,2
+34681,VISITABLE_URL20,https://blizzard.com/privacy,2
+34682,VISITABLE_URL21,https://account.battle.net/payment,2
+34683,VISITABLE_URL22,https://us.shop.battle.net/product/world-of-warcraft-subscription,2
 34684,VISITABLE_URL23,https://battle.net/support/article/22231,3
 34685,VISITABLE_URL24,https://battle.net/support/article/23684,3
 34686,VISITABLE_URL25,https://battle.net/support/article/24517,3
@@ -15233,17 +15233,17 @@ You can find trainers for them in some settlements and cities.",1
 34688,VISITABLE_URL27,https://www.battlenet.com.cn/support/zh/article/478,3
 34689,VISITABLE_URL28,https://www.battlenet.com.cn/support/zh/article/476,3
 34690,VISITABLE_URL29,https://www.battlenet.com.cn/support/zh/article/477,3
-34691,VISITABLE_URL3,http://enus.nydus.battle.net/wow/enUS/client/item-restoration,2
+34691,VISITABLE_URL3,https://support.blizzard.com/restoration,2
 34692,VISITABLE_URL30,https://www.battlenet.com.cn/support/zh/article/494,3
 34693,VISITABLE_URL31,https://battle.net/support/article/34787,3
 34694,VISITABLE_URL32,https://www.battlenet.com.cn/support/zh/article/215,3
-34695,VISITABLE_URL4,http://enUS.nydus.battle.net/wow/enUS/client/challenge/%d/%d,2
+34695,VISITABLE_URL4,https://shop.battle.net,2
 34696,VISITABLE_URL5,https://us.battle.net/support/en/games/wow?loc,2
 34697,VISITABLE_URL6,https://%s.battle.net/support/%s/ticket/submit?loc,2
 34698,VISITABLE_URL7,https://%s.battle.net/support/%s/ticket/status?loc,2
-34699,VISITABLE_URL8,http://nydus.battle.net/WoW/%s/client/support/blizzard-games-refund?targetRegion=KR,2
-34700,VISITABLE_URL9,http://nydus.battle.net/WoW/%s/client/legal/terms-of-sale?targetRegion=KR,2
-34701,VISITABLE_URL_GENERIC,http://enUS.nydus.battle.net/WOW/enUS/client/in_game_mail_link_%d,2
+34699,VISITABLE_URL8,https://support.blizzard.com/article/75828,2
+34700,VISITABLE_URL9,https://blizzard.com/tos,2
+34701,VISITABLE_URL_GENERIC,https://shop.battle.net,2
 34702,WARLOCK_DISABLED,You must choose a different race to be this class.,2
 34703,WARLORDS_OF_DRAENOR,Warlords of Draenor,2
 34704,WARRIOR_DISABLED,You must choose a different race to be this class.,2
@@ -15318,7 +15318,7 @@ You can find trainers for them in some settlements and cities.",1
 34813,BOSS_INFO_STRING_TWO,"Boss: %s, %s",1
 34814,BOSS_INFO_STRING_MANY,Boss: %s and others,1
 34815,SPELL_FAILED_CUSTOM_ERROR_292,Requires a nearby Soul Fragment.,1
-34817,VISITABLE_URL33,https://nydus.battle.net/WoW/zhCN/client/support/faq-101?targetRegion=CN,2
+34817,VISITABLE_URL33,https://support.battlenet.com.cn/games/wow,2
 34828,CHARACTER_UPGRADE_POPUP_BOOST_EXISTING_CHARACTER,Boost Existing Character,2
 34829,CHARACTER_UPGRADE_POPUP_TRY_NEW_CLASS,Try a New Class,2
 34830,LOOT_JOURNAL_LEGENDARIES,Legendaries,1
@@ -15814,7 +15814,7 @@ You can find trainers for them in some settlements and cities.",1
 35356,DUNGEON_FLOOR_LEGIONKARAZHANDUNGEON4,The Guest Chambers,1
 35357,DUNGEON_FLOOR_LEGIONKARAZHANDUNGEON5,Opera Hall Balcony,1
 35358,ERR_VOID_STORAGE_INVALID_ITEM,You cannot deposit that item into void storage.,1
-35359,WORLD_QUEST_REWARD_FILTERS_TITLE,World Quest Rewards,1
+35359,WORLD_QUEST_REWARD_FILTERS_TITLE,Rewards:,1
 35360,WORLD_QUEST_REWARD_FILTERS_PROFESSION_MATERIALS,Profession Materials,5
 35361,WORLD_QUEST_REWARD_FILTERS_ORDER_RESOURCES,Order Resources,5
 35362,WORLD_QUEST_REWARD_FILTERS_GOLD,Gold,1
@@ -16043,14 +16043,14 @@ You can find trainers for them in some settlements and cities.",1
 35610,SURRENDER_ARENA,Surrender Match,1
 35611,CONTRIBUTION_REWARD_TOOLTIP_TITLE,Reward,1
 35612,CONTRIBUTION_REWARD_TOOLTIP_TEXT,Contributing to this building will reward you with:,1
-35613,VISITABLE_URL35,https://nydus.battle.net/WoW/enUS/client/character-unlock?targetRegion=US,2
-35614,VISITABLE_URL36,https://nydus.battle.net/WoW/zhCN/client/character-unlock?targetRegion=CN,2
+35613,VISITABLE_URL35,https://support.blizzard.com/help/product/wow/,2
+35614,VISITABLE_URL36,https://support.battlenet.com.cn/games/wow,2
 35615,TRANSMOG_SETS_TAB_TUTORIAL,View all the appearance sets you can collect for your class here.,1
 35616,TRANSMOG_SETS_VENDOR_TUTORIAL,View and apply your completed appearance sets here.,1
 35617,EXALTED_PLUS_REPUTATION_TUTORIAL,Continue earning reputation with Exalted factions to receive rewards.,1
 35618,CHARACTER_UPGRADE_UNLOCK_TRIAL_CHARACTER_FINISH_LABEL,Unlock!,2
-35619,CHARACTER_UPGRADE_KRW_FINISH_TRIAL_BOOST_BUTTON_POPUP_TEXT,"Are you sure that you want to unlock this trial character? If you click the ""Unlock!"" button, you will no longer be eligible for a refund.",2
-35620,CHARACTER_UPGRADE_FINISH_TRIAL_BOOST_BUTTON_POPUP_TEXT,Are you sure you want to unlock this trial character? You can't change your selection after this step.,2
+35619,CHARACTER_UPGRADE_KRW_FINISH_TRIAL_BOOST_BUTTON_POPUP_TEXT,"|cnHIGHLIGHT_FONT_COLOR:Are you sure that you want to |rUnlock|cnHIGHLIGHT_FONT_COLOR: this trial character? If you click the ""Unlock!"" button, you will no longer be eligible for a refund.|r",2
+35620,CHARACTER_UPGRADE_FINISH_TRIAL_BOOST_BUTTON_POPUP_TEXT,|cnHIGHLIGHT_FONT_COLOR:Are you sure you want to |rUnlock|cnHIGHLIGHT_FONT_COLOR: this trial character? You can't change your selection after this step.|r,2
 35621,SPELL_FAILED_CUSTOM_ERROR_331,The Sentinax is not patrolling this area.,1
 35622,GARRISON_FOLLOWER_QUALITY6_DESC,Titled,1
 35623,SPELL_FAILED_CUSTOM_ERROR_332,The Sentinax cannot open another portal right now.,1
@@ -16433,8 +16433,8 @@ You can find trainers for them in some settlements and cities.",1
 36041,SPELL_FAILED_CUSTOM_ERROR_353,You are blocked by a structure above you.,1
 36042,STORE_CATEGORY_TRIAL_DISABLED_TOOLTIP,Unavailable to Free Trial accounts,3
 36043,SPELL_FAILED_CUSTOM_ERROR_354,Requires 100 Imp Meat.,1
-36044,VISITABLE_URL39,https://nydus.battle.net/WoW/%s/client/product-requirements?targetRegion=%s,3
-36045,VISITABLE_URL40,https://nydus.battle.net/WoW/%s/client/product-requirements-expac?targetRegion=%s,3
+36044,VISITABLE_URL39,https://us.shop.battle.net/product/world-of-warcraft-subscription#techspecs,3
+36045,VISITABLE_URL40,https://us.shop.battle.net/product/world-of-warcraft-subscription#techspecs,3
 36046,TRIAL_UPGRADE_LOGOUT_WARNING,"To complete the transaction, you will be logged out of the game in %d seconds.",3
 36047,GXAPI_D3D12,DirectX 12,3
 36048,BLIZZARD_STORE_BUNDLE_DISCOUNT_BANNER,You save %d%%,3
@@ -16498,7 +16498,7 @@ You can find trainers for them in some settlements and cities.",1
 36107,BACKPACK_AUTHENTICATOR_DIALOG_DESCRIPTION,"Gain 4 extra backpack slots by securing your World of Warcraft account with the Battle.net Authenticator and SMS Protect.|n|nThe Battle.net Authenticator is a free, easy-to-use service that protects your account from intruders, and SMS Protect notifies you when important changes are made to your account.|n|nClick ""Activate"" to launch the account security setup website.",1
 36108,BACKPACK_AUTHENTICATOR_EXTRA_SLOTS_ADDED,You gained 4 backpack slots for having an Authenticator and SMS Protect attached to your account.,1
 36109,BACKPACK_AUTHENTICATOR_FULL_INVENTORY,Your inventory is full. Make room in your bags to receive any missing items.,1
-36110,VISITABLE_URL41,https://nydus.battle.net/App/%s/client/support/authenticator?targetRegion=%s,3
+36110,VISITABLE_URL41,https://support.blizzard.com/article/battle-net-authenticator-faq,3
 36111,ITEM_LEGACY_INACTIVE_EFFECTS,Legacy Item: Effects are inactive,1
 36112,POWER_TYPE_FUNGAL_SKELETON_POWER,Fungal Power,1
 36113,COMMUNITIES_CREATE_CHANNEL,Create Channel,1
@@ -16701,7 +16701,7 @@ You can find trainers for them in some settlements and cities.",1
 36320,ABILITY_INFO_LIGHTFORGEDDRAENEI5,- Erupts in Holy energy upon death.,2
 36321,CLASS_TRIAL_CHOOSE_BOOST_LOGOUT_PROMPT_TEXT,"To apply this Character Boost, log out to the character select screen.",1
 36322,CHARACTER_UPGRADE_UNREVOKE_CHARACTER_FINISH_LABEL,Unlock,2
-36323,VISITABLE_URL42,https://nydus.battle.net/WoW/%s/client/product-requirements-presale?targetRegion=%s,3
+36323,VISITABLE_URL42,https://us.shop.battle.net/product/world-of-warcraft-subscription#techspecs,3
 36325,BOOST_ALLIED_RACE_HERITAGE_ARMOR_WARNING_CN,"<html><body><p align=""CENTER"">Boosting this character will make $Ghim:her; ineligble to receive $Ghis:her; %s heritage armor set. <a href=""https://www.battlenet.com.cn/support/zh/article/2905"">Click here</a> for more info.|n|nAre you sure you want to boost this character?|n</p></body></html>",2
 36326,ITEM_AZERITE_EMPOWERED_VIEWABLE,<Shift Right Click to View Azerite Powers>,1
 36327,AZERITE_ITEM_LEVELED_UP_TOAST,Power Increased to Level %d,1
@@ -16743,8 +16743,8 @@ You can find trainers for them in some settlements and cities.",1
 36367,PVP_LABEL_WAR_MODE,War Mode,1
 36368,PVP_LABEL_PVP_TALENTS,PvP Talents,1
 36369,PVP_WAR_MODE_DESCRIPTION,"Enlist in War Mode and activate World PvP, increasing quest rewards and experience by up to 10% and enabling PvP Talents in the outdoor world.",1
-36370,PVP_WAR_MODE_NOT_NOW_ALLIANCE,You must be in Stormwind or Valdrakken to enlist in War Mode.,1
-36371,PVP_WAR_MODE_NOT_NOW_HORDE,You must be in Orgrimmar or Valdrakken to enlist in War Mode.,1
+36370,PVP_WAR_MODE_NOT_NOW_ALLIANCE,"You must be in Stormwind, Valdrakken, or Dornogal to enlist in War Mode.",1
+36371,PVP_WAR_MODE_NOT_NOW_HORDE,"You must be in Orgrimmar, Valdrakken or Dornogal to enlist in War Mode.",1
 36372,ERR_VOICE_CHAT_TOO_MANY_REQUESTS,Waiting to hear back from the voice chat server. Please try again in a minute.,1
 36373,COMMUNITIES_LIST_TRANSFER_OWNERSHIP_FIRST,You must transfer ownership before leaving,5
 36374,CONFIRM_LEAVE_AND_DESTROY_COMMUNITY,Leave and Delete Group?,1
@@ -17336,7 +17336,7 @@ You can find trainers for them in some settlements and cities.",1
 40885,PVP_RANK_2_NEXT_RANK_DESC,Achieve a rating of 1400 or higher to earn:|n- Challenger Title|n- Elite PvP Item Set Appearance: Gloves|n- Elite PvP Item Set Appearance: Boots,1
 40886,PVP_RANK_7_NEXT_RANK_DESC,Achieve a rating of 1600 or higher to earn:|n- Elite PvP Item Set Appearance: Chest|n- Elite PvP Item Set Appearance: Belt,1
 40887,PVP_RANK_3_NEXT_RANK_DESC,Achieve a rating of 1800 or higher to earn:|n- Rival Title|n- Elite PvP Item Set Appearance: Helm|n- Elite PvP Item Set Appearance: Shoulder,1
-40888,VISITABLE_URL43,https://nydus.battle.net/WoW/%s/client/buy/bfa?targetRegion=%s,3
+40888,VISITABLE_URL43,https://support.blizzard.com,3
 40889,GUILD_VIEW_RECIPES_LINK,[View],1
 40890,COMMUNITIES_LIST_DROP_DOWN_COMMUNITIES_SETTINGS,Group Settings,1
 40891,COMMUNITIES_LIST_DROP_DOWN_COMMUNITIES_NOTIFICATION_SETTINGS,Notification Settings,1
@@ -17381,7 +17381,7 @@ You can find trainers for them in some settlements and cities.",1
 40948,COMMUNITIES_CALENDAR_EVENT_FORMAT,%s at %s,1
 40949,COMMUNITIES_CALENDAR_TODAY,Today,1
 40950,COMMUNITIES_CALENDAR_CLICK_TO_ADD_INSTRUCTIONS,<Click to Add Community Event>,1
-40952,VISITABLE_URL44,https://nydus.battle.net/WoW/%s/client/support/gvas?targetRegion=%s,3
+40952,VISITABLE_URL44,https://support.blizzard.com/article/32543,2
 40955,BLIZZARD_STORE_DISCLAIMER_GUILD_FACTION_CHANGE,This process may take %s to complete.|n|HurlIndex:44|h|cff006995Frequently Asked Questions|r|h,3
 40957,RACIAL_TRAITS,Racial Traits:,3
 40959,BLIZZARD_STORE_DISCLAIMER_GUILD_NAME_CHANGE,This process may take %s to complete.|n|HurlIndex:44|h|cff006995Frequently Asked Questions|r|h,3
@@ -17436,8 +17436,8 @@ You can find trainers for them in some settlements and cities.",1
 41016,NEW_SEASON_YAY,NEW SEASON!,1
 41017,PVP_GEAR_REWARD_CHANCE,Chance to receive item level %d gear.,1
 41018,PVP_GEAR_REWARD_CHANCE_LONG,Winning gives you a chance to receive item level %d gear.,1
-41019,VISITABLE_URL45,https://nydus.battle.net/WoW/%s/client/gametime?targetRegion=%s,3
-41020,VISITABLE_URL46,https://nydus.battle.net/WoW/%s/client/product-requirements-complete?targetRegion=%s,3
+41019,VISITABLE_URL45,https://us.shop.battle.net/product/world-of-warcraft-game-time,3
+41020,VISITABLE_URL46,https://support.blizzard.com/article/76459,3
 41021,SPELL_FAILED_CUSTOM_ERROR_381,You must target a Dread Gladiator's item to upgrade.,1
 41022,AZERITE_EMPOWERED_ITEM_FULLY_UPGRADED,Fully Upgraded,1
 41023,NEW_PVP_SEASON_REWARD_PREVIEW,New Seasonal Mount!,1
@@ -17499,8 +17499,8 @@ You can find trainers for them in some settlements and cities.",1
 41081,SOCIAL_ITEM_REMOVE_BUTTON,Remove Item,1
 41082,MYTHIC_PLUS_OVERTIME_SEASON_BEST,Best Over-Time,1
 41083,PVP_WAR_MODE_DESCRIPTION_FORMAT,"Enlist in War Mode and activate World PvP, increasing quest rewards and experience by %1$d%% and enabling PvP Talents in the outdoor world.",1
-41084,PVP_WAR_MODE_NOT_NOW_ALLIANCE_RESTAREA,"This can be turned off in any rest area, but can only be turned on in Stormwind or Valdrakken.",1
-41085,PVP_WAR_MODE_NOT_NOW_HORDE_RESTAREA,"This can be turned off in any rest area, but can only be turned on in Orgrimmar or Valdrakken.",1
+41084,PVP_WAR_MODE_NOT_NOW_ALLIANCE_RESTAREA,"This can be turned off in any rest area, but can only be turned on in Stormwind, Valdrakken or Dornogal.",1
+41085,PVP_WAR_MODE_NOT_NOW_HORDE_RESTAREA,"This can be turned off in any rest area, but can only be turned on in Orgrimmar, Valdrakken or Dornogal.",1
 41086,PVP_MATCH_READY_ERROR,You can't leave the queue because your match is ready.,1
 41087,GARRISON_MISSION_ENVIRONMENT_COUNTERED,Countered,1
 41089,COMBAT_TEXT_BLOCK_REDUCED,%s (Block),1
@@ -17610,8 +17610,8 @@ You can find trainers for them in some settlements and cities.",1
 41208,WAYPOINT_OBJECTIVE_FORMAT_OPTIONAL,0/1 %s (Optional),1
 41209,SPELL_FAILED_CUSTOM_ERROR_399,You must be at a Shrine to make an offering to a Loa.,1
 41210,SPELL_FAILED_CUSTOM_ERROR_400,Requires Emerald Empowerment.,1
-41211,VISITABLE_URL47,https://nydus.battle.net/WoW/%s/client/support/gvas-cannot-start?targetRegion=%s,3
-41212,VISITABLE_URL48,https://nydus.battle.net/WoW/%s/client/transactions?targetRegion=%s,3
+41211,VISITABLE_URL47,https://support.blizzard.com/article/15977,3
+41212,VISITABLE_URL48,https://account.battle.net/transactions,3
 41213,ERR_AZERITE_ESSENCE_SELECTION_FAILED_NOT_AT_FORGE,You must be at the Heart Forge to do that,1
 41215,PVP_RATING_PREVIOUS,Previous Rating: %s,1
 41216,PVP_RATING_GAINED,Rating Gained: %s,1
@@ -18477,7 +18477,7 @@ You can find trainers for them in some settlements and cities.",1
 42250,SPELL_FAILED_CUSTOM_ERROR_462,Houndmaster Loksey is busy.,1
 42251,CHROMIE_TIME_TITLE_TEXT,"With time on our side, we can do anything! Select the campaign that you would like to experience.",1
 42252,CHROMIE_TIME_PREVIEW_CARD_DEFAULT_TITLE,Timewalking Campaigns,1
-42253,CHROMIE_TIME_PREVIEW_CARD_DEFAULT_DESCRIPTION,Journey back to your favorite story and tackle challenges from the past that scale for characters level 10 - 60!|n|nPick a campaign and get to adventuring!,1
+42253,CHROMIE_TIME_PREVIEW_CARD_DEFAULT_DESCRIPTION,Journey back to your favorite story and tackle challenges from the past that scale for characters level 10 - 70!|n|nPick a campaign and get to adventuring!,1
 42254,SOULBIND_ACTIVATE_BUTTON,Activate,1
 42255,VIDEO_OPTIONS_DYNAMIC,Dynamic,3
 42256,VIDEO_OPTIONS_EVERYTHING,Everything,3
@@ -18561,7 +18561,7 @@ You can find trainers for them in some settlements and cities.",1
 42338,NPEV2_MONK_BUILDER,Press |cFF00FFFF%s|r to use %s,1
 42339,NPEV2_DRUID_SPENDER,Press |cFF00FFFF%s|r to refresh %s on your opponent,1
 42340,NPEV2_DRUID_BUILDER,Press |cFF00FFFF%s|r to use %s while Moonfire is on your foe,1
-42341,POWER_TYPE_SHADOW_ENERGY,Energy,1
+42341,POWER_TYPE_SHADOW_ENERGY,Shadow Energy,1
 42342,NPEV2_INTRO_MOVE_ALLIANCE,|cFFFFD200Walk around|r,1
 42343,NPEV2_INTRO_MOVE_HORDE,Use your |cFF00FFFFmovement controls|r to approach |cFF00FFFFWarlord Breka Grimaxe|r.,1
 42344,NPEV2_INTRO_QUESTGIVER_INTERACT_HORDE,|cFFFFD200Talk|r to Warlord Breka Grimaxe,1
@@ -18941,7 +18941,7 @@ You can find trainers for them in some settlements and cities.",1
 42748,GAMEMENU_SUPPORT,Support,1
 42749,JAILERS_TOWER_REWARD_LOCKED,Locked,1
 42750,SPELL_FAILED_CUSTOM_ERROR_498,The Curse of Teramanik's Legacy is keeping your mounts from heeding your call.,1
-42751,PAGED_LIST_PAGING_FORMAT,Page %s / %s,1
+42751,PAGED_LIST_PAGING_FORMAT,Page %s / %s,3
 42752,MOTION_SICKNESS_CHARACTER_CENTERED,Keep Character Centered,1
 42753,RUNEFORGE_LEGENDARY_ERROR_INSUFFICIENT_NO_UPGRADE_ITEM_AVAILABLE,You don't have a base item that is a higher item level than your legendary,1
 42754,RUNEFORGE_LEGENDARY_ERROR_NO_LEGENDARY_AVAILABLE,You don't have any legendary items to upgrade,1
@@ -19042,7 +19042,7 @@ You can find trainers for them in some settlements and cities.",1
 42849,GREAT_VAULT_REWARDS_MYTHIC_IMPROVE,Complete %1$d Mythic Level %2$d or higher dungeons to improve your reward.,1
 42850,GREAT_VAULT_REWARDS_WAITING,You have rewards waiting for you at the Great Vault.,1
 42853,JAILERS_TOWER_LEVEL_PICKER_PARTY_LOCK,You or a party member must defeat the previous layer,1
-42854,CONQUEST_PVP_WEEK_NO_CONQUEST,Earn Conquest to purchase Rated PvP items in Valdrakken.,1
+42854,CONQUEST_PVP_WEEK_NO_CONQUEST,Earn Conquest to purchase Rated PvP items.,1
 42855,GAIN_MAW_POWER,%s has gained Anima Power: %s,1
 42856,MAW_POWER_DESCRIPTION,Anima Power,1
 42857,CHROMIE_TIME_CAMPAIGN_COMPLETE,Campaign completed,1
@@ -19057,7 +19057,7 @@ You can find trainers for them in some settlements and cities.",1
 42866,COVENANT_MISSIONS_MISSION_PROGRESS,You can view your adventure progress here.,1
 42867,COVENANT_MISSIONS_ADVENTURER_GAINED,Companion Gained,1
 42868,LIFETIME_HONOR,Lifetime Honor,1
-42869,LIFETIME_HONOR_DESC,Honor earned across all characters.,1
+42869,LIFETIME_HONOR_DESC,Honor earned across your Warband.,1
 42870,COVENANT_MISSIONS_FOLLOWER_ADDED_UPGRADED_TOAST,Upgraded Companion Gained,1
 42871,JAILERS_TOWER_LEVEL_TOAST_TWISTING_CORRIDORS,Twisting Corridors,1
 42872,JAILERS_TOWER_LEVEL_TOAST_SKOLDUS_HALLS,Skoldus Hall,1
@@ -19188,8 +19188,8 @@ You can find trainers for them in some settlements and cities.",1
 42998,JAILERS_TOWER_ITEM_REWARD_TOOLTIP_WITH_COUNT_FORMAT,|T%1$s:30:30|t %2$s %3$s,1
 42999,JAILERS_TOWER_ITEM_REWARD_TOOLTIP_FORMAT,|T%1$s:30:30|t %2$s,1
 43000,SPELL_FAILED_CUSTOM_ERROR_512,Your butler is already present somewhere in the Ember Court.,1
-43001,MAC_MIC_PREMISSIONS_NOTIFICATION,"In order to use voice chat, you must grant ""Microphone"" permission to %s in Security & Privacy preferences, located in System Preferences.",1
-43002,MAC_MIC_PERMISSIONS_OPEN_BUTTON,System Preferences,1
+43001,MAC_MIC_PREMISSIONS_NOTIFICATION,"In order to use voice chat, you must grant ""Microphone"" permission to %s in Security & Privacy preferences, located in System Preferences.",3
+43002,MAC_MIC_PERMISSIONS_OPEN_BUTTON,System Preferences,3
 43003,COVENANT_SANCTUM_TALENT_REQUIRES_PREVIOUS_TIER,Requires previous tier,1
 43004,NPEV2_CHAT_GUIDE_FRAME_ERROR_ACCOUNT_MUTED,You're not eligible to be a guide due to parental controls.,1
 43005,COVENANT_SANCTUM_RENOWN_REWARD_TITLE_COMPLETE,Renown Complete,1
@@ -19722,7 +19722,7 @@ You can find trainers for them in some settlements and cities.",1
 44150,DDD_STREAK_01,NICE,1
 44151,DDD_STREAK_02,GREAT,1
 44152,DDD_STREAK_03,LEGENDARY,1
-44154,ITEM_COSMETIC_LEARN,Use: Add this appearance to your collection.,1
+44154,ITEM_COSMETIC_LEARN,Use: Add this appearance to your Warband collection.,1
 44155,ERR_COSMETIC_KNOWN,Already Known,1
 44156,SPELL_FAILED_CUSTOM_ERROR_613,You are not in the correct group to contribute to the Stone Soup!,1
 44157,GRAPHICS_SUBTEXT,Graphics description placeholder,3
@@ -20016,7 +20016,7 @@ You can find trainers for them in some settlements and cities.",1
 44492,EMOTE626_CMD2,/magnificent,1
 44493,PROFESSIONS_CRAFTING,Crafting,1
 44494,PCT_FLOW_CANCEL_LABEL,Cancel,2
-44495,PCT_FLOW_FINISH_BODY_TEXT,Are you sure? You can't change your selection after this step.,2
+44495,PCT_FLOW_FINISH_BODY_TEXT,|cnHIGHLIGHT_FONT_COLOR:Are you sure you want this |rCharacter Transfer|cnHIGHLIGHT_FONT_COLOR:? You can't change your selection after this step.|r,2
 44496,SPELL_FAILED_CUSTOM_ERROR_629,Requires additional Cosmic Energy.,1
 44497,ITEM_UPGRADE_PVP_ITEM_LEVEL_STAT_FORMAT,PvP Item Level %d,1
 44498,ITEM_UPGRADE_PVP_ITEM_LEVEL_BONUS_STAT_FORMAT,PvP Item Level |cff20ff20%1$d (+%2$d)|r,1
@@ -20111,7 +20111,7 @@ You can find trainers for them in some settlements and cities.",1
 48716,SPELL_FAILED_CUSTOM_ERROR_634,You have too many temporary enhancements.,1
 48718,SPELL_FAILED_CUSTOM_ERROR_635,You have other ways to summon Pocopoc while in Zereth Mortis.,1
 48719,CROSS_FACTION_PLAYER_NAME,|W%s (%s)|w,1
-48720,REWARD_QUEST,This questline will unlock:,1
+48720,REWARD_QUEST,This quest line will unlock:,1
 48721,DUNGEON_SCORE_LINK_PREVIOUS_HIGH,Previous High: %s |cff808080(Season %d),1
 48722,ERR_CROSS_FACTION_GROUP_JOINED,"This is now a cross-faction instance group. You can do these activities together: dungeons and raids (non-queued), Torghast, Rated PvP",1
 48723,ERR_TRADE_FACTION_SPECIFIC,You can't trade a faction specific item to the opposing faction,1
@@ -20161,7 +20161,7 @@ You can find trainers for them in some settlements and cities.",1
 48771,SL_SET_CONVERSION_RECHARGE_TIME,The Catalyst is recharging and will be functional in %s,1
 48772,GREAT_VAULT_CLASS_SET_TUTORIAL,Class Set Items may appear as a reward in all nine Great Vault slots,1
 48774,LFG_LIST_CROSS_FACTION,Limit to %s,1
-48775,LFG_LIST_CROSS_FACTION_TOOLTIP,Only %s players will see your group.|n|nThis may reduce the number of applicants you recieve.,1
+48775,LFG_LIST_CROSS_FACTION_TOOLTIP,Only %s players will see your group.|n|nThis may reduce the number of applicants you receive.,1
 48776,GROUP_FINDER_CROSS_FACTION_LISTING_WITH_PLAYSTLE,%s - %s Only,1
 48777,BLIZZARD_STORE_VAS_ERROR_NEW_PLAYER_EXPERIENCE,- Finish the tutorial experience first,3
 48778,BLIZZARD_STORE_VAS_ERROR_CHARACTER_INELIGIBLE_FOR_THIS_SERVICE,- Character is ineligible for this service,3
@@ -20190,7 +20190,7 @@ You can find trainers for them in some settlements and cities.",1
 48801,ERROR_CLUB_DOESNT_ALLOW_CROSS_FACTION,"Player is wrong faction. Enable ""Cross-Faction"" in community settings.",1
 48802,COMMUNITIES_SETTING_CROSS_FACTION_TOOLTIP,Lets you invite members of the other faction.,1
 48803,COMMUNITIES_SETTING_CROSS_FACTION_TOOLTIP_ERROR,"To change the Cross-Faction setting, all members of the other faction must first be removed",1
-48806,SPELL_FAILED_CUSTOM_ERROR_640,Pocopoc is unavailable to summon during the questline A Means to an End.,1
+48806,SPELL_FAILED_CUSTOM_ERROR_640,"Pocopoc is unavailable to summon during the quest line ""A Means to an End"".",1
 48809,CROSS_FACTION_CLUB_FINDER_SEARCH_OPTION,Cross-Faction,1
 48810,LAYOUT_STYLE_CLASSIC,Classic,1
 48811,LAYOUT_STYLE_MODERN,Modern,1
@@ -20252,7 +20252,7 @@ You can find trainers for them in some settlements and cities.",1
 48877,HUD_EDIT_MODE_RENAME_OR_COPY_LAYOUT,Rename/Copy Layout,1
 48878,PFC_FLOW_WILL_BE_CHANGED_TO,Will be changed to:,2
 48879,PFC_FLOW_CUSTOMIZE_CHARACTER_STEP,You'll customize your character in the next step.,2
-48880,PFC_CUSTOMIZE_DIALOG_TEXT,You will now choose your new race and customize your character. Your faction change will be permanently applied once you finish this process.,2
+48880,PFC_CUSTOMIZE_DIALOG_TEXT,|cnHIGHLIGHT_FONT_COLOR:You will now choose your new race and customize your character. Your |rFaction Change|cnHIGHLIGHT_FONT_COLOR: will be permanently applied once you finish the process.|r,2
 48881,HUD_EDIT_MODE_RENAME_LAYOUT,Change Name,1
 48882,HUD_EDIT_MODE_NAME_LAYOUT_DIALOG_TITLE,Name the New Layout,1
 48883,PFC_FLOW_FINISH_LABEL,Accept,2
@@ -20436,7 +20436,7 @@ You can find trainers for them in some settlements and cities.",1
 49115,POWER_TYPE_WINDENERGY,Energy,1
 49117,SPELL_FAILED_CUSTOM_ERROR_794,You cannot lure an elusive creature towards a town.,1
 49118,SPELL_FAILED_CUSTOM_ERROR_795,There are no worthwhile creatures in this area to lure out.,1
-49119,MOUNT_JOURNAL_FILTER_DRAGONRIDING,Dragonriding,1
+49119,MOUNT_JOURNAL_FILTER_DRAGONRIDING,Skyriding,1
 49122,MYTHIC_DUNGEON_SEASON,Mythic+ Dungeons (%s Season %d),1
 49123,FINISHING_REAGENT_TOOLTIP_TITLE,Finishing Reagent: %s,1
 49124,FINISHING_REAGENT_TOOLTIP_CLICK_TO_ADD,Left Click to add a Finishing Reagent,1
@@ -20554,7 +20554,7 @@ You can find trainers for them in some settlements and cities.",1
 49238,PROFESSIONS_FAVORITES_SEARCH_TOOLTIP_TITLE,Favorites,1
 49239,PROFESSIONS_CRAFTING_FORM_OUTPUT_LOG_RESOURCES_RETURNED,Recovered Materials!,1
 49240,PROFESSIONS_TRACKING_VIEW_RECIPE,View Recipe,1
-49241,PROFESSIONS_UNTRACK_RECIPE,Stop Tracking,1
+49241,PROFESSIONS_UNTRACK_RECIPE,Untrack,1
 49242,PROFESSIONS_TRACKER_HEADER_PROFESSION,Profession,1
 49243,PROFESSIONS_TRACKER_REAGENT_FORMAT,%s %s,1
 49244,PROFESSIONS_TRACKER_REAGENT_COUNT_FORMAT,%s/%d,1
@@ -20623,7 +20623,7 @@ It comes from your base profession skill, specializations, high quality reagents
 49328,ICON_SELECTION_CLICK,Click to view in the list,1
 49329,ICON_SELECTION_TITLE_CUSTOM,Custom Icon,1
 49330,ICON_SELECTION_NOTINLIST,This icon is not in the list,1
-49331,MOUNT_JOURNAL_DRAGONRIDING_HELPTIP,Dragonriding mounts are found at the top of your list.|n|nFavorite one to use it with Summon Random Favorite Mount.,1
+49331,MOUNT_JOURNAL_DRAGONRIDING_HELPTIP,Skyriding mounts are found at the top of your list.|n|nFavorite one to use it with Summon Random Favorite Mount.,1
 49334,ERR_INVITE_PARTY_BUSY_PENDING_REQUEST,You already have a pending invite request,1
 49335,ERR_INVITE_PARTY_BUSY_PENDING_SUGGEST,You already have a pending group referral,1
 49336,SPELL_FAILED_CUSTOM_ERROR_799,Can't be cast on Non Player Characters.,1
@@ -20635,7 +20635,7 @@ It comes from your base profession skill, specializations, high quality reagents
 49344,HUD_EDIT_MODE_EXPAND_OPTIONS,Expand options |A:editmode-down-arrow:16:11:0:-7|a,1
 49345,HUD_EDIT_MODE_TARGET_AND_FOCUS,Target and Focus,1
 49346,UNITNAME_SUMMON_TITLE51,%s's Arcane Clone,1
-49347,INSTANCE_UNAVAILABLE_SELF_PVP_GEAR_TOO_LOW,You need a higher average PvP item level to join the queue.|n(Requires: %2$d. Currently %3$d.),1
+49347,INSTANCE_UNAVAILABLE_SELF_PVP_GEAR_TOO_LOW,You need a higher average PvP item level to join the queue.|n(Requires: %1$d. Currently %2$d.),1
 49348,RECRAFT_REAGENT_TOOLTIP_CLICK_TO_REPLACE,|cnDISABLED_FONT_COLOR:Left Click to replace this Equipment|r,1
 49349,ERR_SOLO_MIN_ITEM_LEVEL,You need a higher average PvP item level.,1
 49350,HUD_EDIT_MODE_CAST_BAR_LABEL,Cast Bar,1
@@ -20645,8 +20645,8 @@ It comes from your base profession skill, specializations, high quality reagents
 49354,SPELL_FAILED_CUSTOM_ERROR_801,This tinker is too complicated for you.,1
 49355,DRAGONFLIGHT_LANDING_PAGE_TITLE,Dragon Isles Summary,1
 49356,DRAGONFLIGHT_LANDING_PAGE_TOOLTIP,Click to show the Dragon Isles Summary,1
-49357,DRAGONFLIGHT_LANDING_PAGE_ALERT_DRAGONRIDING_UNLOCKED,Dragonriding Skill Track Unlocked,1
-49358,LANDING_DRAGONRIDING_PANEL_TITLE,DRAGONRIDING,1
+49357,DRAGONFLIGHT_LANDING_PAGE_ALERT_DRAGONRIDING_UNLOCKED,Skyriding Skill Track Unlocked,1
+49358,LANDING_DRAGONRIDING_PANEL_TITLE,SKYRIDING,1
 49359,LANDING_DRAGONRIDING_TREE_BUTTON,View,1
 49360,ERR_TAXIINCOMBAT,You cannot take a flight path while you are in combat.,1
 49361,PROFESSION_EQUIPMENT_LOCATION_HELPTIP,Your profession tool and accessories equip here.,1
@@ -20705,7 +20705,7 @@ Try using higher quality reagents, improving your skill, or specializing to reac
 49434,HUD_EDIT_MODE_EXIT,Exit,1
 49435,HUD_EDIT_MODE_SAVE_AND_SWITCH,Save and Switch,1
 49436,HUD_EDIT_MODE_SWITCH,Switch,1
-49437,LANDING_DRAGONRIDING_TREE_BUTTON_DISABLED,Dragonriding skills have not been unlocked yet,1
+49437,LANDING_DRAGONRIDING_TREE_BUTTON_DISABLED,Skyriding skills have not been unlocked yet,1
 49438,DRAGONFLIGHT_LANDING_PAGE_ALERT_SUMMARY_UNLOCKED,Dragon Isles Summary Unlocked,1
 49439,DRAGONFLIGHT_LANDING_PAGE_ALERT_MAJOR_FACTION_UNLOCKED,Major Faction Unlocked,1
 49440,RENOWN_LEVEL_UP_SKIP_BUTTON,Skip,5
@@ -20944,7 +20944,7 @@ All loadouts that have this option enabled will share the same action bars.",1
 49698,GENERIC_TRAIT_FRAME_CONFIRM_PURCHASE_FORMAT,Are you sure you want to spend %s to unlock this talent?,1
 49699,GENERIC_TRAIT_FRAME_EDGE_REQUIREMENTS_BUTTON_TOOLTIP,Requires all preceding talents,1
 49700,TALENTS_INSPECT_FORMAT,Talents - %s,1
-49701,GENERIC_TRAIT_FRAME_DRAGONRIDING_TITLE,Dragonriding,1
+49701,GENERIC_TRAIT_FRAME_DRAGONRIDING_TITLE,Skyriding,1
 49702,GENERIC_TRAIT_FRAME_INTERNAL_ERROR,Internal error. Try again later.,1
 49703,ENABLE_INTERACT_TEXT,Enable Interact Key,1
 49704,OPTION_TOOLTIP_ENABLE_INTERACT,Allows you to interact with NPCs and objects using a keypress,1
@@ -21079,7 +21079,7 @@ All loadouts that have this option enabled will share the same action bars.",1
 49835,CHAR_CREATE_DEATHKNIGHT_LEVEL_REQUIREMENT,You must have an existing character of at least level 55 on any realm to create a Death Knight.,2
 49836,SPELL_FAILED_CUSTOM_ERROR_815,You cannot do that while underwater.,1
 49837,EQUIP_CONTAINER_REAGENT,Equip Reagent Bag,1
-49838,GREAT_VAULT_RETIRE_WARNING,Unable to earn new rewards after this week.|n|nAny unclaimed rewards will be lost after the launch of %s.,1
+49838,GREAT_VAULT_RETIRE_WARNING,Unable to earn new rewards after this week.|nAny unclaimed rewards will be lost after the launch of %s.,1
 49839,TUTORIAL_REAGENT_BAG_STEP_1,You've obtained a reagent bag!|n|nOpen your bag.,1
 49840,TUTORIAL_REAGENT_BAG_STEP_2,Equip your new reagent bag!|n|nAny crafting materials you pick up will go into this bag.,1
 49841,TALENT_FRAME_APPLY_LOADOUT_BUTTON_TEXT,Apply Loadout,1
@@ -21203,6 +21203,7 @@ All loadouts that have this option enabled will share the same action bars.",1
 49963,ERR_OUT_OF_ESSENCE,Not enough essence,1
 49964,ERR_SPELL_FAILED_CANT_FLY_HERE,You can't fly here.,1
 49965,PROFESSIONS_UNSPENT_SPEC_POINTS_REMINDER,You have unspent Profession Specialization Knowledge.,1
+49966,EXPANSION_NAME10,The War Within,3
 49967,PROFESSIONS_OUTPUT_INSPIRED_CREATION,Inspired!,1
 49968,WORLD_MAP_ACTIVITY_TRACKER_LIST_INTRO,Track available Major Faction activities on the map by selecting them from the list.,1
 49969,WORLD_MAP_ACTIVITY_TRACKER_RING_TOOLTIP,<Left-Click to cycle available activities>|n<Right-Click to untrack faction>,1
@@ -21210,7 +21211,7 @@ All loadouts that have this option enabled will share the same action bars.",1
 49971,SPELL_FAILED_CUSTOM_ERROR_819,You don't know how to repair this item.,1
 49972,ERR_CRAFTING_HOUSE_DISABLED,The Artisan's Consortium is not accepting crafting orders at the moment.|nPlease come back later!,1
 49973,CRAFTING_ORDER_RECIPE_PROFESSION_FMT,%s Recipe,1
-49974,DRAGON_RIDING_CURRENCY_TUTORIAL,Find Dragon Glyphs and fly through them to earn points to spend in the skill track.,1
+49974,DRAGON_RIDING_CURRENCY_TUTORIAL,You will gain extra Skyriding power as you level.,1
 49975,PROFESSIONS_ORDER_RECRAFT_TITLE_FMT,Recraft: %s,1
 49976,ERR_TALENT_FAILED_IN_COMBAT,You can't change talents in combat,1
 49977,ERR_TALENT_FAILED_IN_PVP_MATCH,You can't change talents once the match has started,1
@@ -21220,7 +21221,7 @@ All loadouts that have this option enabled will share the same action bars.",1
 49981,CRAFTING_ORDER_NOT_YET_CLAIMED,Not Claimed Yet,1
 49982,PROFESSIONS_CRAFTER_CANT_CLAIM_OWN,You cannot claim your own order.,1
 49983,DRAGON_RIDING_SKILLS_TUTORIAL,Unlock new skills by completing Dragon Isles campaign quests.,1
-49984,DRAGON_RIDING_ACTIONBAR_TUTORIAL,You can add regular abilities to your Dragonriding bar to dismount faster for combat.,1
+49984,DRAGON_RIDING_ACTIONBAR_TUTORIAL,You can add regular abilities to your Skyriding bar to dismount faster for combat,1
 49985,PROFESSIONS_CRAFTING_ORDER_MAIL_REPORT_WARNING,You have unclaimed items from this player. You will lose all of these items if you report this player before claiming them.,1
 49986,INTERACT_KEY_TUTORIAL,|cnNORMAL_FONT_COLOR:Interact Key|n|r|cnHIGHLIGHT_FONT_COLOR:Press |r|cnNORMAL_FONT_COLOR:%s|r|cnHIGHLIGHT_FONT_COLOR: to Interact with nearby NPCs and objects|r|n|n|cnNORMAL_FONT_COLOR:%d/2 - Interact with an NPC or object|r,1
 49987,INTERACT_KEY_TUTORIAL_NO_INTERACT_KEY_ASSIGNED,|cnHIGHLIGHT_FONT_COLOR:The |r|cnNORMAL_FONT_COLOR:Interact Key|r|cnHIGHLIGHT_FONT_COLOR: allows you to interact with NPCs and objects using a keypress|n|n|r|cnRED_FONT_COLOR:Assign an Interact Key binding under Control options|r,1
@@ -21425,11 +21426,11 @@ to complete activities and earn rewards at the Trading Post",1
 50201,BATTLEGROUND_MATCHMAKING_VALUE,Starting|nMMV,1
 50202,MONTHLY_ACTIVITIES_HELP_1,"Complete your Traveler's Activities each month to earn tender and a special reward in your Collector's Cache.
 
-Progress made is account-wide.",1
+Progress is shared across your Warband.",1
 50203,MONTHLY_ACTIVITIES_HELP_2,Shift click on activities to track them,1
 50204,MONTHLY_ACTIVITIES_HELP_3,"Complete your Travelers Activities each month to earn tender and a special reward in your Collector's Cache.
 
-Progress made is account-wide.",1
+Progress is shared across your Warband.",1
 50205,PROFESSIONS_UNIQUE_EQUIP_LIMITATION_DISC,You are attempting to recraft this item with a Unique-Equip limitation. Unequip it first to recraft it.,1
 50206,TRADESKILL_CHARGES_REMAINING_NEXT_USE,Available Crafts: %i / %i. Additional craft in %s.,1
 50208,MOTION_SICKNESS_DRAGONRIDING,Motion Sickness,1
@@ -21438,9 +21439,9 @@ Progress made is account-wide.",1
 50212,MOTION_SICKNESS_DRAGONRIDING_FOCAL_CIRCLE,Focal Circle,1
 50213,MOTION_SICKNESS_DRAGONRIDING_BOTH,Darkening and Circle,1
 50214,MOTION_SICKNESS_DRAGONRIDING_LANDSCAPE_DARKENING,Landscape Darkening,1
-50217,OPTION_TOOLTIP_MOTION_SICKNESS_DRAGONRIDING,"Helps to address motion sickness while dragonriding.
+50217,OPTION_TOOLTIP_MOTION_SICKNESS_DRAGONRIDING,"Helps to address motion sickness while skyriding.
 
-|cffffffffLandscape Darkening:|r applies a darkening effect around the outside of the screen as the player dragonrides.
+|cffffffffLandscape Darkening:|r applies a darkening effect around the outside of the screen.
 
 |cffffffffFocal Circle:|r adds a focal circle crosshair to the center of the screen.",1
 50229,PERSONAL_CRAFTING_ORDERS_AVAIL_FMT,You have %d personal %s |4order.:orders.,1
@@ -21470,8 +21471,8 @@ Progress made is account-wide.",1
 50254,CONFIRM_LEAVE_RATED_MATCH_WITH_PENALTY,Leaving the match now will cause you to lose at least |cnORANGE_FONT_COLOR:%d|r rating and you will be afflicted by %s of %s.|n|nYou will not receive Honor or Conquest for your completed rounds if you leave now.|n|nAre you sure you want to leave the match?,1
 50255,SPELL_FAILED_CUSTOM_ERROR_826,This recipe is currently disabled. Please try again later.,1
 50258,CENSORED_MESSAGE_HIDDEN,|cffff7f3fMessage from %s is potentially inappropriate.|h|cffffff00|Hcensoredmessage:%d|h |W[Show Message]|w|h|r,1
-50263,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS,Dynamic Flight Speed Effects,1
-50264,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS_TOOLTIP,Disabling visual speed effects may help with motion sickness while dragonriding.,1
+50263,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS,Skyriding Speed Effects,1
+50264,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS_TOOLTIP,Disabling visual speed effects may help with motion sickness while skyriding.,1
 50266,ACCOUNT_SAVE_FILE_BUTTON,Open Folder,2
 50267,ACCOUNT_SAVE_CLOSE_BUTTON,Close,2
 50268,ACCOUNT_SAVE_SUCCESS_DETAILS,Please copy this file to a safe location for future use:,2
@@ -21523,7 +21524,7 @@ Failed to load, next attempt on restart.",3
 50333,101_CutsceneName_Ref,Nasz'uro,1
 50334,TALENTS_LINK_FORMAT,Linked Talents (%s %s),1
 50335,WOW_LABS_PRESENCE_GAME_STATE_INGAME_IN_QUEUE,Queueing,3
-50336,PRC_CUSTOMIZE_DIALOG_TEXT,You will now choose your new race and customize your character. Your race change will be permanently applied once you finish this process.,2
+50336,PRC_CUSTOMIZE_DIALOG_TEXT,|cnHIGHLIGHT_FONT_COLOR:You will now choose your new race and customize your character. Your |rRace Change|cnHIGHLIGHT_FONT_COLOR: will be permanently applied once you finish the process.|r,2
 50337,TALENT_FRAME_DROP_DOWN_EXPORT_CHAT_LINK,Post in Chat,1
 50338,TALENT_FRAME_DROP_DOWN_EXPORT_CLIPBOARD,Copy to Clipboard |cnNORMAL_FONT_COLOR:(to share online)|r,1
 50339,ITEM_UPGRADE_TOOLTIP_FORMAT_STRING,Upgrade Level: %s %d/%d,1
@@ -21586,6 +21587,8 @@ Failed to load, next attempt on restart.",3
 50428,SPELL_FAILED_CUSTOM_ERROR_832,Requires a Resilient Stone. ,1
 50429,EDIT_MODE_HELPTIPS_ADVANCED_OPTIONS,Use the advanced options to see more UI elements,1
 50430,HUD_EDIT_MODE_BUFFS_AND_DEBUFFS_LABEL,Buffs and Debuffs,1
+50431,SPELL_FAILED_CUSTOM_ERROR_833,You are not mounted on a rolling mount.,1
+50433,SPELL_FAILED_CUSTOM_ERROR_834,You are not rolling.,1
 50434,10_1_5_TIME_RIFTS_MINIGAME_01_WRONG_ELEMENT,Find the creature from the wrong timeline!,1
 50435,HUD_EDIT_MODE_PET_FRAME_LABEL,Pet Frame,1
 50436,SELF_CAST,Self Cast,1
@@ -21664,13 +21667,13 @@ You can't do outdoor and queued content with this character.",1
 50512,HUD_EDIT_MODE_SETTING_UNIT_FRAME_VIEW_ARENA_SIZE_THREE,3v3,1
 50513,HUD_EDIT_MODE_SETTING_UNIT_FRAME_VIEW_ARENA_SIZE_FIVE,5v5,1
 50516,ITEM_UPGRADE_DISCOUNT_TOOLTIP_CURRENT_CHARACTER,This upgrade costs fewer %s because you have already acquired an item with higher item level (%d) in this slot.,1
-50517,ITEM_UPGRADE_DISCOUNT_TOOLTIP_OTHER_CHARACTER,This upgrade costs fewer %s because a character on your account has already acquired an item with higher item level (%d) in this slot.,1
+50517,ITEM_UPGRADE_DISCOUNT_TOOLTIP_OTHER_CHARACTER,This upgrade costs fewer %s because a character in your Warband has already acquired an item with higher item level (%d) in this slot.,1
 50518,ITEM_UPGRADE_DISCOUNT_TOOLTIP_TWO_SLOT_CURRENT_CHARACTER,This upgrade costs fewer %s because you have already acquired two %s with higher item level (%d).,1
-50519,ITEM_UPGRADE_DISCOUNT_TOOLTIP_TWO_SLOT_OTHER_CHARACTER,This upgrade costs fewer %s because a character on your account has already acquired two %s with higher item level (%d).,1
+50519,ITEM_UPGRADE_DISCOUNT_TOOLTIP_TWO_SLOT_OTHER_CHARACTER,This upgrade costs fewer %s because a character in your Warband has already acquired two %s with higher item level (%d).,1
 50520,ITEM_UPGRADE_DISCOUNT_TOOLTIP_PARTIAL_TWO_HAND_CURRENT_CHARACTER,This upgrade costs fewer %s because you have already acquired a weapon set with higher item level (%d).,1
-50521,ITEM_UPGRADE_DISCOUNT_TOOLTIP_PARTIAL_TWO_HAND_OTHER_CHARACTER,This upgrade costs fewer %s because a character on your account has already acquired a weapon set with higher item level (%d).,1
+50521,ITEM_UPGRADE_DISCOUNT_TOOLTIP_PARTIAL_TWO_HAND_OTHER_CHARACTER,This upgrade costs fewer %s because a character in your Warband has already acquired a weapon set with higher item level (%d).,1
 50522,ITEM_UPGRADE_DISCOUNT_TOOLTIP_TITLE,%s Discount,1
-50523,ITEM_UPGRADE_DISCOUNT_TOOLTIP_ACCOUNT_WIDE,Account-Wide,1
+50523,ITEM_UPGRADE_DISCOUNT_TOOLTIP_ACCOUNT_WIDE,Warband-Wide,1
 50524,ITEM_UPGRADE_DISCOUNT_ITEM_TYPE_TRINKET,trinkets,1
 50525,ITEM_UPGRADE_DISCOUNT_ITEM_TYPE_FINGER,rings,1
 50526,ITEM_UPGRADE_DISCOUNT_ITEM_TYPE_ONE_HANDED_WEAPON,one-handed weapons,1
@@ -21724,8 +21727,9 @@ You can't do outdoor and queued content with this character.",1
 51197,ICON_FILTER_ALL,All Icons,1
 51198,ICON_FILTER_SPELL,Spells,1
 51199,ICON_FILTER_ITEM,Items,1
+51200,SPELL_FAILED_CUSTOM_ERROR_853,You need Shadowrooted Grippers.,1
 51201,RPE_TOOLTIP_LINE1,Gear Update Available!,3
-51202,RPE_TOOLTIP_LINE2,- Requires level 10-60,3
+51202,RPE_TOOLTIP_LINE2,- Requires level 10-70,3
 51203,RPE_TOOLTIP_LINE3,- Expires on %s,3
 51204,RPE_GEAR_UPDATE_GREEN,|cffaaffaaGear Update|r,3
 51205,BATTLE_PET_SOURCE_12,Trading Post,1
@@ -21738,7 +21742,7 @@ You can't do outdoor and queued content with this character.",1
 51213,RPE_INFO_TEXT2,Clean up quest log,3
 51214,RPE_INFO_TEXT3,Teleport to your home city,3
 51215,RPE_INFO_TEXT4,Reset your talents any time!,3
-51216,RPE_CHARACTER_LVL,Level %d |cFFFFA500%s|r,3
+51216,RPE_CHARACTER_LVL,Level %d %s,3
 51217,LOOT_TTS_LABEL,Item Loot,1
 51218,MONEY_TTS_LABEL,Money Loot,1
 51219,SLASH_TEXTTOSPEECH_HELP_LOOT,Enable or disable achievement item loot messages,1
@@ -21780,9 +21784,9 @@ You can't do outdoor and queued content with this character.",1
 51256,WARDROBE_SHORTCUTS_TUTORIAL_3,Track or untrack an item|n,1
 51257,WARDROBE_TRACKING_TUTORIAL,You have not collected this appearance yet! Shift Click to begin tracking it.,1
 51259,TRAINER_CANNOT_EXCEED_MAX_PROFESSIONS,You can only learn two primary professions,1
-51260,RPE_UPGRADE_CONFIRMATION,Are you sure you want to update this character?,3
+51260,RPE_UPGRADE_CONFIRMATION,|cnHIGHLIGHT_FONT_COLOR:Are you sure you want to |rUpdate|cnHIGHLIGHT_FONT_COLOR: this character to spec: %s?|r,3
 51261,PROF_ORDER_CANT_REPORT_IN_PROGRESS,This player cannot be reported until the order has been cancelled or completed.,1
-51263,SPELL_FAILED_DRAGONRIDING_RIDING_REQUIREMENT,Requires Dragonriding flying skill.,1
+51263,SPELL_FAILED_DRAGONRIDING_RIDING_REQUIREMENT,Requires Skyriding skill,1
 51264,ADVENTURES_COMBAT_LOG_SPELL_RANGE_DAMAGE,{caster} cast {spellName} at {target} for {damage} {element} damage.,5
 51265,RPE_SKIP_UPGRADE_CONFIRMATION,Are you sure you want to enter world? You will not be able to get the free Gear Update.,3
 51266,SPELL_FAILED_CUSTOM_ERROR_1002,This player is not of the opposite faction.,1
@@ -21821,9 +21825,9 @@ Are you sure you want to proceed?",1
 51317,PING_SUBJECT_TYPE_WARNING_UNIT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_warning:0:0:0:0|aWarning: %s,1
 51318,PING_SUBJECT_TYPE_ALERT_THREAT_UNIT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_threat:0:0:0:0|aThreatening alert: %s,1
 51319,PING_SUBJECT_TYPE_ALERT_NOT_THREAT_UNIT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_nonthreat:0:0:0:0|a%s,1
-51320,DRAGONFLIGHT_LANDING_PAGE_UNSPENT_GLYPHS,You have unspent Dragonriding Glyphs,1
+51320,DRAGONFLIGHT_LANDING_PAGE_UNSPENT_GLYPHS,You have unspent Skyriding Proficiency points.,1
 51321,SPELL_FAILED_CUSTOM_ERROR_857,Only the Forsaken can display this honor.,1
-51322,RPE_UPGRADE_QUEST_CLEAR_CONFIRMATION,Would you like to clear your quest log \nfor a fresh start?,3
+51322,RPE_UPGRADE_QUEST_CLEAR_CONFIRMATION,|cnHIGHLIGHT_FONT_COLOR:Would you like to clear your |rQuest Log|cnHIGHLIGHT_FONT_COLOR: \nfor a fresh start?|r,3
 51323,RPE_CLEAR_QUESTS,Clear Quests,3
 51324,RPE_KEEP_QUESTS,Keep Quests,3
 51326,CONFIRM_AZEROTHIANARCHIVES_PUBLICEVENT_CONTRIBUTION,This will consume your chosen resource. Continue?,1
@@ -21832,6 +21836,7 @@ Are you sure you want to proceed?",1
 51337,PING,Ping,1
 51338,ERR_PERKS_PROGRAM_COMMUNICATION_ERROR,"The trading post is experiencing difficulty communicating with the server.
 |nPending purchases can be picked up from the Collector's Cache once the connection is restored.",1
+51339,REPUTATION_BUTTON_TOOLTIP_CLICK_INSTRUCTION,<Click to view options>,1
 51340,BINDING_NAME_TOGGLEPINGLISTENER,Ping,1
 51341,PING_TYPE_ASSIST,Assist,1
 51342,PING_TYPE_ATTACK,Attack,1
@@ -21845,10 +21850,11 @@ Are you sure you want to proceed?",1
 51350,SPELL_FAILED_CUSTOM_ERROR_1005,Cooldown Reset,1
 51351,PNC_FLOW_CUSTOMIZE_CHARACTER_STEP,You'll customize your character in the next step.,2
 51352,PNC_FLOW_FINISH_LABEL,Accept,2
+51353,GENERIC_TRAIT_FRAME_TITLE_DELVES,Explorers' League Supplies (PH UI),1
 51354,SLASH_PING1,/ping,1
 51355,SLASH_PING2,/ping,1
-51356,PNC_CUSTOMIZE_DIALOG_TEXT,Your name change will be permanently applied once you accept.,2
-51357,PNC_FLOW_NEW_NAME_LABEL,New Name,2
+51356,PNC_CUSTOMIZE_DIALOG_TEXT,|cnHIGHLIGHT_FONT_COLOR:Your |rName Change|cnHIGHLIGHT_FONT_COLOR: will be permanently applied once you accept.|r,2
+51357,PNC_FLOW_NEW_NAME_LABEL,New name:,2
 51359,PNC_FLOW_SLECT_NAME_ACTIVE,Select new name,2
 51360,PNC_FLOW_SLECT_NAME_RESULTS,New name:,2
 51361,PNC_NEW_NAME_LABEL_COMPLETE,|cffffd200Name: %s,2
@@ -21859,6 +21865,7 @@ Are you sure you want to proceed?",1
 51366,PING_SUBJECT_TYPE_ASSIST_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_assist:0:0:0:0|aAssist,1
 51367,PING_SUBJECT_TYPE_ATTACK_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_attack:0:0:0:0|aAttack,1
 51368,PING_SUBJECT_TYPE_ON_MY_WAY_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_onmyway:0:0:0:0|aOn my way,1
+51369,CURRENCY_BUTTON_TOOLTIP_CLICK_INSTRUCTION,<Click to view options>,1
 51373,SPELL_FAILED_CUSTOM_ERROR_1010,You don't know how to gather this.,1
 51374,ENABLE_PING_SOUNDS,Ping Sounds,1
 51375,OPTION_TOOLTIP_ENABLE_PING_SOUNDS,Toggles ping sounds on and off,1
@@ -21882,6 +21889,7 @@ Are you sure you want to proceed?",1
 51393,SLASH_TEXTTOSPEECH_HELP_PING,Enable or disable ping messages,1
 51394,PING_FAILED_DISABLED_BY_SETTINGS,Could not send ping: pings are disabled in settings.,1
 51395,PING_SYSTEM_SETTINGS,Ping System Settings,1
+51396,TALENT_FRAME_TAB_LABEL_SPELLBOOK,Spellbook,1
 51398,BLIZZARD_STORE_CLICK_TO_OPEN_FAQ,|cnPURE_GREEN_COLOR:<Shift click to view Frequently Asked Questions in your browser>|r,3
 51399,BLIZZARD_STORE_DISCLAIMER_GUILD_TRANSFER,This process may take %s to complete.|n|HurlIndex:44|h|cff006995Frequently Asked Questions|r|h,3
 51408,SELL_ALL_JUNK_ITEMS_EXCLUDE_FLAG,Sell Junk,1
@@ -21894,6 +21902,13 @@ Are you sure you want to proceed?",1
 51419,OPTION_TOOLTIP_PING_MODE_CLICK_DRAG,"When pressing the ping keybind, click to contextually ping, or click and drag to trigger the ping radial menu.",1
 51420,OPTION_TOOLTIP_PING_MODE_KEY_DOWN,"Press and release the ping keybind to contextually ping, or press and hold to trigger the ping radial menu.",1
 51421,SPELL_FAILED_CUSTOM_ERROR_840,You should not eat too many desserts if you wish to be invited to the next party.,1
+51422,11_0_0_DELVES_MINIGAME_01,Mini Game,1
+51423,CHARACTER_SELECT_ALL_CHARACTERS,WARBAND CHARACTER LIST,2
+51424,CHARACTER_SELECT_NAV_BAR_CREATE_CHARACTER,CREATE CHARACTER,2
+51425,CHARACTER_SELECT_NAV_BAR_SHOP,SHOP,2
+51426,CHARACTER_SELECT_NAV_BAR_MENU,MENU,2
+51427,CHARACTER_SELECT_TESTING_CONTROLS,TESTING,2
+51428,CHARACTER_SELECT_BACK,Back,2
 51429,SPELL_FAILED_TARGETS_NOT_PROFESSION,Target does not have the correct profession.,1
 51433,PING_FAILED_SQUELCHED,Could not send ping: chat is temporarily suspended.,1
 51434,PING_SYSTEM_TUTORIAL_CONTEXTUAL,|cnTUTORIAL_BLUE_FONT_COLOR:Press|r the Ping key to drop quick pings in the world.,1
@@ -21915,31 +21930,50 @@ Are you sure you want to proceed?",1
 51452,PERKS_PROGRAM_FROZEN,"|cffffffffFrozen|r
 ",1
 51455,SPELL_FAILED_CUSTOM_ERROR_841,Only usable during Love is in the Air,1
+51456,POWER_TYPE_WAX,Wax,1
 51457,MAP_FILTER,Map Filter,1
+51458,LFG_TYPE_FOLLOWER_DUNGEON,Follower Dungeons,1
+51459,LFD_FOLLOWER_EXPLANATION,Complete dungeons with NPC teammates,1
+51460,REPUTATION_STATUS_BAR_LABEL_ACCOUNT_WIDE,(Warband),1
+51461,REPUTATION_TOOLTIP_ACCOUNT_WIDE_LABEL,Warband Reputation,1
+51463,FACTION_STANDING_INCREASED_ACCOUNT_WIDE,Your Warband's reputation with %s increased by %d.,1
 51465,SPELL_FAILED_CUSTOM_ERROR_842,No smells nearby!,1
+51466,FRIENDSHIP_STANDING_CHANGED_ACCOUNT_WIDE,Your Warband's relationship with %s is now %s.,1
+51467,FACTION_STANDING_CHANGED_ACCOUNT_WIDE,Your Warband is now %s with %s.,1
+51468,FACTION_STANDING_INCREASED_GENERIC_ACCOUNT_WIDE,Your Warband's reputation with %s increased.,1
+51469,FACTION_STANDING_DECREASED_GENERIC_ACCOUNT_WIDE,Your Warband's reputation with %s decreased.,1
+51470,FACTION_STANDING_DECREASED_ACCOUNT_WIDE,Your Warband's reputation with %s decreased by %d.,1
+51471,FACTION_STANDING_INCREASED_ACH_BONUS_ACCOUNT_WIDE,Your Warband's reputation with %s increased by %d. (+%.1f bonus),1
 51472,SPELL_FAILED_CUSTOM_ERROR_891,You are already at full Vigor,1
 51473,SPELL_FAILED_CUSTOM_ERROR_1006,The nutrients of this soil must replenish before further growth.,1
+51475,CONFIRM_BUY_ACCOUNT_BANK_TAB,Do you want to purchase a Warband Bank tab for:,1
+51476,BAG_CLEANUP_ACCOUNT_BANK,Clean Up Warband Bank,1
+51477,ACCOUNT_BANK_PANEL_TITLE,Warband Bank,1
+51478,ACCOUNT_BANK_TAB_PURCHASE_PROMPT,The Warband Bank offers storage that is shared with all members of your Warband.|n|nDo you wish to purchase this tab?,1
+51479,ACCOUNT_BANK_DEPOSIT_BUTTON_LABEL,Deposit All Warbound Items,1
 51480,PERSONALTABARDVENDORGREETING,Greetings! Choose the symbol and colors for your personal tabard.,1
 51484,RAID_MANAGER_RESTRICT_PINGS_PARTY,Restrict Pings to Lead,1
-51493,LFG_TYPE_FOLLOWER_DUNGEON,Follower Dungeons,1
-51494,LFD_FOLLOWER_EXPLANATION,Complete dungeons with NPC teammates,1
+51490,REPUTATION_SORT_TYPE_SHOW_ALL,All,1
+51491,REPUTATION_SORT_TYPE_ACCOUNT,Warband,1
+51492,REPUTATION_CHECKBOX_SHOW_LEGACY_REPUTATIONS,Show Legacy Reputations,1
 51495,SPELL_FAILED_CUSTOM_ERROR_1007,The target has already had some feathers plucked. It would be rude to take more.,1
 51496,WEEKLY_REWARDS_THRESHOLD_DUNGEONS,"Complete %d Heroic, Mythic, or Timewalking |4Dungeon:Dungeons",1
 51498,SPELL_FAILED_CUSTOM_ERROR_859,You can only open this chest in your dreams.,1
 51499,PING_CHAT_SETTINGS,Chat Settings,1
+51500,DELVES_DIFFICULTY_PICKER_ENTER,Enter,1
 51503,ADV_FLY_PITCH_CONTROL,Pitch Control,1
 51504,ADV_FLY_PITCH_CONTROL_FORWARD_UP,Forward/Up,1
 51505,ADV_FLY_PITCH_CONTROL_BACKWARD_UP,Backward/Up,1
-51506,OPTION_TOOLTIP_ADV_FLY_PITCH_CONTROL,"Helps to address hand motor function while dragonriding.
+51506,OPTION_TOOLTIP_ADV_FLY_PITCH_CONTROL,"Helps to address hand motor function while skyriding.
 
-|cffffffffBackward/Up:|r Makes the Move Backward input also Pitch Up and the Move Forward input also Pitch Down while dragonriding.
+|cffffffffBackward/Up:|r Makes the Move Backward input also Pitch Up and the Move Forward input also Pitch Down while skyriding.
 
-|cffffffffForward/Up:|r Makes the Move Forward input also Pitch Up and the Move Backward input also Pitch Down while dragonriding.",1
+|cffffffffForward/Up:|r Makes the Move Forward input also Pitch Up and the Move Backward input also Pitch Down while skyriding.",1
 51507,SPELL_FAILED_CUSTOM_ERROR_1008,This creature has already been attuned with recently.,1
 51508,SPELL_FAILED_CUSTOM_ERROR_646,You cannot hold more crests of this type right now.,1
 51514,PERKS_PROGRAM_PURCHASED_TIME_REMAINING,|cff808080--|r,1
 51515,ERR_FOLLOWER_DUNGEON_LIMIT_REACHED,You've entered too many follower dungeons recently.,1
-51516,ACCESSIBILITY_ADV_FLY_LABEL,Dynamic Flight,1
+51516,ACCESSIBILITY_ADV_FLY_LABEL,Skyriding,1
 51517,ADV_FLY_MINIMUM_PITCH_TEXT,Min Keyboard Pitch Speed,1
 51518,ADV_FLY_MAXIMUM_PITCH_TEXT,Max Keyboard Pitch Speed,1
 51519,ADV_FLY_MINIMUM_TURN_TEXT,Min Keyboard Turn Speed,1
@@ -21952,8 +21986,9 @@ Are you sure you want to proceed?",1
 51526,ADV_FLY_CAMERA_PITCH_CHASE_TEXT,Keyboard Pitch Camera Follow,1
 51527,OPTION_TOOLTIP_ADV_FLY_CAMERA_PITCH_CHASE,Adjusts the speed that the camera pitches to follow the player when using Move Forward and Move Backward inputs to control pitch.,1
 51528,ADV_FLY_PITCH_CONTROL_GROUND_DEBOUNCE,Debounce Pitch Input,1
-51529,OPTION_TOOLTIP_ADV_FLY_PITCH_CONTROL_GROUND_DEBOUNCE,"If enabled while using Move Forward and Move Backward to control pitch, this setting will require those inputs to be pressed again when transitioning between grounded and dragonriding. ",1
+51529,OPTION_TOOLTIP_ADV_FLY_PITCH_CONTROL_GROUND_DEBOUNCE,"If enabled while using Move Forward and Move Backward to control pitch, this setting will require those inputs to be pressed again when transitioning between grounded and skyriding. ",1
 51530,ACCESSIBILITY_MOUNT_LABEL,Mounts,1
+51534,RENOWN_REWARD_ACCOUNT_UNLOCK_LABEL,Warband Reward,1
 51535,PERKS_PROGRAM_ERROR_INDICATOR,The Trading Post is experiencing difficulty communicating with the server. Please try again later.,1
 51536,PERKS_PROGRAM_PURCHASING_UNAVAILABLE,Purchasing Unavailable,1
 51537,PERKS_PROGRAM_REFUND_UNAVAILABLE,Refund Unavailable,1
@@ -21966,6 +22001,9 @@ To claim the heart of the tree,
 And spread his flame to all Azeroth.",1
 51542,KIOSK_SESSION_EXPIRED_SUBTITLE,Guardians of the Dream,1
 51543,KIOSK_ENTER,Enter World,2
+51544,ERR_NO_SOULBOUND_ITEM_IN_ACCOUNT_BANK,Soulbound items cannot be stored in the Warband Bank.,1
+51545,NO_ACCOUNT_INVENTORY_LOCK,Your character cannot complete this action.,1
+51546,TOO_MANY_ACCOUNT_BANK_TABS,You have already purchased the maximum amount of tabs.,1
 51547,PERKS_PROGRAM_PENDING,Pending,1
 51548,PERKS_PROGRAM_PURCHASE_IN_PROGRESS,It's taking longer than usual to process your purchase. This item will be delivered once it has finished processing.,1
 51549,PERKS_PROGRAM_PURCHASE_PENDING,Purchase Pending,1
@@ -21984,30 +22022,71 @@ And spread his flame to all Azeroth.",1
 51566,GREAT_VAULT_REWARDS_HEROIC_IMPROVE,Complete %1$d dungeons on Mythic difficulty to improve your reward.,1
 51567,AUCTION_HOUSE_ITEM_QUANTITY_FORMAT,|cff808080x%s|r,1
 51568,SPELL_FAILED_CUSTOM_ERROR_860,You have not proven yourself to this spirit.,1
+51569,BANK_WITHDRAW_MONEY_BUTTON_LABEL,Withdraw,1
+51570,BANK_DEPOSIT_MONEY_BUTTON_LABEL,Deposit,1
+51571,BANK_MONEY_WITHDRAW_PROMPT,Amount to withdraw:,1
+51572,BANK_MONEY_DEPOSIT_PROMPT,Amount to deposit:,1
 51573,CANNOT_UNEQUIP_ERR,Cannot change equip status at this time,1
+51574,ACCOUNT_BANK_ERROR_NO_LOCK,You cannot access the Warband bank at the same time as another character,1
 51575,SPELL_FAILED_RADIANT_ASH_MAX,You have enough Radiant Fleck of Ash.,1
 51576,ERR_ITEM_INTERACTION_NO_CONVERSION_OUTPUT,This item cannot be transformed by your character.,1
+51577,ACCOUNT_BANK_TAB_NAME_PROMPT,Enter Warband Bank Tab Name:,1
 51579,COLOR_PICKER_HEX,Hex,1
 51582,ERR_GUILD_NEW_LEADER_NOT_ALLIED,Players from the opposite faction can't be promoted to guild leader.,1
 51583,FRONT_END_LOBBY_SOLO,Solo,2
 51584,FRONT_END_LOBBY_DUO,Duo,2
 51585,FRONT_END_LOBBY_TRIOS,Trios,2
+51588,BANK_DEPOSIT_INCLUDE_REAGENTS_CHECKBOX_LABEL,Include tradeable reagents,1
+51589,ACCOUNT_BANK_LOCKED_PROMPT,The bank is being used by another member of your Warband.,1
 51590,WOWLABS_CUSTOMIZE_CHARACTER,Customize Character,3
 51591,WOWLABS_JOIN_GAME,Join Game,3
 51592,WOWLABS_MAINLINE,Mainline,3
+51595,ACCOUNT_BANK_TAB_NOT_UNLOCKED,The bank tab is locked.,1
+51596,BANK_TAB_INVALID_NAME,Bank tab name is invalid.,1
+51597,BANK_TAB_INVALID_TEXT,Bank tab description is invalid.,1
 51598,FRONT_END_LOBBY_QUEUE_TIME,Time in Queue: %s,2
-51602,MOTION_SICKNESS_DRAGONRIDING_SCREEN_EFFECTS,Dynamic Flight Screen Effects,1
-51603,MOTION_SICKNESS_DRAGONRIDING_SCREEN_EFFECTS_TOOLTIP,Disabling Screen effects may help with motion sickness.,1
+51601,ACCOUNT_PARAGON_REWARD_ERR_MISSING_LOCK,This reward can only be collected by the first character in your Warband to be logged in.,1
+51602,MOTION_SICKNESS_DRAGONRIDING_SCREEN_EFFECTS,Skyriding Screen Effects,1
+51603,MOTION_SICKNESS_DRAGONRIDING_SCREEN_EFFECTS_TOOLTIP,Disabling screen effects may help with motion sickness.,1
 51604,OPTION_TOOLTIP_MOTION_SICKNESS_CHECKBOX,Enabling the Motion Sickness setting will reduce camera movement and keep your character centered.,1
+51605,BAG_FILTER_REAGENTS,Reagents,1
+51606,BANK_TAB_DEPOSIT_SETTINGS_HEADER,Assign to tab:,1
+51607,BANK_TAB_ASSIGN_EQUIPMENT_CHECKBOX,Equipment,1
+51608,BANK_TAB_ASSIGN_CONSUMABLES_CHECKBOX,Consumables,1
+51609,BANK_TAB_ASSIGN_PROFESSION_GOODS_CHECKBOX,Profession Goods,1
+51610,BANK_TAB_ASSIGN_JUNK_CHECKBOX,Junk,1
+51611,BANK_TAB_ASSIGN_EXPANSION_HEADER,Expansion:,1
+51612,BANK_TAB_CLEANUP_SETTINGS_HEADER,Cleanup:,1
+51613,BANK_TAB_IGNORE_IN_CLEANUP_CHECKBOX,Ignore this tab,1
+51614,BANK_TAB_EXPANSION_FILTER_ALL,All,1
+51615,BANK_TAB_EXPANSION_FILTER_CURRENT,Current Only,1
+51616,BANK_TAB_EXPANSION_FILTER_LEGACY,Legacy Only,1
+51617,ACCOUNT_BANK_CONFIRM_CLEANUP_PROMPT,Are you sure you want to automatically sort your items?|nThis will affect all Warband tabs.,1
+51618,BANK_TAB_ASSIGN_REAGENTS_CHECKBOX,Reagents,1
+51619,BAG_FILTER_CURRENT_EXPANSION,Current Only,5
+51620,BAG_FILTER_LEGACY_EXPANSION,Legacy Only,5
 51621,TUTORIAL_PERKS_PROGRAM_OVERWRITE_FROZEN_ITEM,Replace your frozen item by dragging another item here at any time,1
+51622,SPELL_FAILED_CUSTOM_1100,A bubble is already manifested nearby.,1
+51623,SPELL_FAILED_CUSTOM_ERROR,,1
+51624,SPELL_FAILED_CUSTOM_ERROR_861,Not enough delve empowerment.,1
 51628,NPE_UNBOUND_KEYBIND,[Unbound],1
 51631,TOAST_NEW_FRIEND_INVITE_WOWLABS,You have a new friend invite.,3
 51632,TOAST_NEW_PARTY_INVITE_WOWLABS,You have a new party invite.,3
+51633,SPELL_FAILED_CUSTOM_ERROR_1012,You don't have any Radiant Remnants.,1
 51634,WOWLABS_FRIENDS_GLUE,Friends,2
+51635,UNDISCOVERED_FACTION_FLIGHTPOINT,Undiscovered %s Flightpoint,1
+51636,UNDISCOVERED_NEUTRAL_FLIGHTPOINT,Undiscovered Flightpoint,1
+51637,DISCOVERED_HORDE_FLIGHTPOINT,Horde Flightpoint Unlocked,1
+51638,DISCOVERED_NEUTRAL_FLIGHTPOINT,Flightpoint Unlocked,1
+51639,DISCOVERED_ALLIANCE_FLIGHTPOINT,Alliance Flightpoint Unlocked,1
 51642,MONTHLY_ACTIVITIES_EVENT_DURATION,(%s - %s),1
 51643,TRANSMOG_ITEM_SET_FAVORITE,Set Favorite,3
 51644,TRANSMOG_ITEM_UNSET_FAVORITE,Remove Favorite,3
 51645,MONTHLY_ACTIVITIES_EVENT_TIME_LEFT,Time Left: %s,1
+51646,SELF_HIGHLIGHT_UNIT_FRAME,Self Highlight,1
+51647,SELF_HIGHLIGHT_CIRCLE,Circle,1
+51648,SELF_HIGHLIGHT_OUTLINE,Outline,1
+51649,SELF_HIGHLIGHT_ICON,Icon,1
 51650,BN_BLOCK_FRIEND,Block,3
 51651,MONTHLY_ACTIVITIES_EVENT_NOT_BEGUN,This activity has not begun yet,1
 51652,MONTHLY_ACTIVITIES_EVENT_EXPIRED,This activity has expired,1
@@ -22021,6 +22100,8 @@ And spread his flame to all Azeroth.",1
 51660,BINDING_NAME_WOWLABS_MULTIACTIONBAR1BUTTON2,Offensive Spell 2,1
 51661,BINDING_NAME_WOWLABS_MULTIACTIONBAR2BUTTON1,Utility Spell 1,1
 51662,BINDING_NAME_WOWLABS_MULTIACTIONBAR2BUTTON2,Utility Spell 2,1
+51663,SPELL_FAILED_CUSTOM_ERROR_892,You already have at least one conjured flask.,1
+51664,SPELL_FAILED_CUSTOM_ERROR_893,Active flasks can only be changed outside of combat.,1
 51665,RELEASE_PET_BUTTON_LABEL,Release,1
 51666,RELEASE_PET,Are you sure you want to permanently release your pet? You will never be able to summon this pet again.,1
 51667,SPELL_FAILED_CUSTOM_ERROR_870,This item cannot be used in the current season.,1
@@ -22049,14 +22130,24 @@ And spread his flame to all Azeroth.",1
 51698,DUNGEON_DIFFICULTY_BANNER_TOOLTIP,%s Difficulty,1
 51699,LEVEL_UP_NO_LINK,"Congratulations, you have reached |cffFF4E00Level %d!|r",1
 51700,SPECTATE,Spectate,1
+51701,SPELL_FAILED_CUSTOM_ERROR_871,You cannot enter a delve while in a raid group.,1
+51702,SPELL_FAILED_CUSTOM_ERROR_845,You already have a conjured flask.,1
 51703,PERKS_PROGRAM_SET_SELECTION_DESC,You will receive the following items:,1
+51706,SPELL_FAILED_CUSTOM_ERROR_900,This cannot be crafted during early access.,1
 51707,DUNGEON_DIFFICULTY_BANNER_TOOLTIP_PLAYER_COUNT,%d/%d Players,1
+51708,CHARACTER_SELECT_NAV_BAR_REALMS,REALMS,2
+51709,CHARACTER_SELECT_NAV_BAR_CREATE_CHARACTER_TOOLTIP,%s Realm,2
+51710,SPELL_FAILED_CUSTOM_ERROR_846,You already have some conjured potions.,1
+51711,SPELL_FAILED_CUSTOM_ERROR_837,Companion is unconscious!,1
+51712,SPELL_FAILED_CUSTOM_ERROR_838,Requires companion.,1
 51713,STABLE_EXOTIC_TYPE_LABEL,Exotic,1
 51714,STABLE_FILTER_LABEL_TYPE,Type,1
 51715,STABLE_FILTER_SORT_BY_LABEL,Sort By,1
+51718,SPELL_FAILED_CUSTOM_ERROR_839,,1
 51719,WOW_LABS_REMATCH,Leave Match,3
 51720,LFG_LIST_BEST_FOR_DUNGEON,Best for Dungeon,1
 51721,LFG_LIST_BEST_RUN,Best Run,1
+51722,CHARACTER_SELECT_LIST_HEADER,Warband Members,2
 51723,SPELL_FAILED_CUSTOMERROR_1011,Already at max.,1
 51724,ITEM_ALREADY_MAX_QUALITY,Item is already at maximum quality.,1
 51725,KEY_RANGE_GROUP_FINDER_HELPTIP,"Enter a key range for precise results, like 5-8 or 7-7",1
@@ -22064,13 +22155,22 @@ And spread his flame to all Azeroth.",1
 51727,WOW_ERROR_337,Access to this realm requires an account with a valid access license.,2
 51730,MOUNT_ABILITY_TYPE_FORMAT,%s %s,1
 51733,GROUPFINDER_PLUS,+,1
+51734,SPELL_FAILED_CUSTOM_ERROR_872,Your companion is in combat.,1
 51735,ADD_BATTLENET_FRIEND_LABEL,Enter your friend's BattleNet name(Including the number):,3
 51738,GLUE_LEAVE_PARTY,Leave Party,3
 51739,GLUE_REMOVE_FROM_PARTY,Remove From Party,3
-51740,LFG_LIST_NEEDS_TANK,Needs Tank,1
+51740,LFG_LIST_NEEDS_TANK,Tank role available,1
+51741,SPELL_FAILED_CUSTOM_ERROR_1013,Your target's ring is already bound to another player.,1
+51743,SPELL_FAILED_CUSTOM_ERROR_1014,Your target is not also wearing this ring.,1
 51744,TRANSMOG_SOURCE_7,Trading Post,1
+51745,SPELL_FAILED_CUSTOM_ERROR_1015,Can only be used on socket eligible PvP items from the War Within expansion.,1
 51746,STABLE_PET_UNCATEGORIZED,Uncategorized,1
-51749,LFG_LIST_CLASS_AVAILABLE,No %s Already In Group,1
+51748,UNITNAME_SUMMON_TITLE53,%s's Portal,1
+51749,LFG_LIST_CLASS_AVAILABLE,No %s already in group,1
+51750,SELF_HIGHLIGHT_MODE_CIRCLE_AND_ICON,Circle and Icon,1
+51751,SELF_HIGHLIGHT_MODE_OUTLINE_AND_ICON,Outline and Icon,1
+51752,SELF_HIGHLIGHT_MODE_CIRCLE_OUTLINE_AND_ICON,"Circle, Outline, and Icon",1
+51753,SELF_HIGHLIGHT_MODE_ICON,Icon,1
 51754,ERR_QUEST_PUSH_HIGH_FACTION_S,%s's reputation is too high for that quest.,1
 51755,ERR_QUEST_PUSH_HIGH_FACTION_TO_RECIPIENT_S,"%s's attempt to share quest ""%s"" failed. Your reputation is too high for that quest.",1
 51756,ADDON_DEP_NOT_AVAILABLE,Dependency not available,3
@@ -22086,13 +22186,16 @@ And spread his flame to all Azeroth.",1
 51766,ADDON_DEP_WRONG_LOAD_PHASE,Dependency has wrong load phase,3
 51767,ADDON_USER_ADDONS_DISABLED,User addons disabled,3
 51768,ADDON_DEP_USER_ADDONS_DISABLED,Dependency user addons disabled,3
-51771,LFG_LIST_NEEDS_HEALER,Needs Healer,1
-51772,LFG_LIST_NEEDS_DAMAGE,Needs Damage,1
+51769,SPELL_FAILED_CUSTOM_ERROR_1016,Harvestbots already active.,1
+51771,LFG_LIST_NEEDS_HEALER,Healer role available,1
+51772,LFG_LIST_NEEDS_DAMAGE,Damage role available,1
 51773,LFG_LIST_HAS_TANK,Has Tank,1
 51774,LFG_LIST_HAS_HEALER,Has Healer,1
 51775,LFG_LIST_DIFFICULTY,Difficulty,1
 51776,LFG_LIST_REQUIRE,Require,1
-51780,DRAGONRIDING_RACES_MAP_TOGGLE,Dragonriding Races,1
+51778,SPELL_FAILED_CUSTOM_ERROR_1017,The Airship Dauntless is already active.,1
+51780,DRAGONRIDING_RACES_MAP_TOGGLE,Skyriding Races,1
+51781,ERR_COSMETIC_CLASS_RESTRICTED,Your class is unable to collect this appearance.,1
 51784,WOW_LABS_ATTACK_TOOLTIP,Attack,1
 51785,WOW_LABS_HEAL_TOOLTIP,Heal,1
 51786,WOW_LABS_UTILITY_TOOLTIP,Utility,1
@@ -22112,11 +22215,21 @@ And spread his flame to all Azeroth.",1
 51808,WOW_LABS_CONFIRM_LEAVE_MATCH,You can still be resurrected by your teammate.|n|nAre you sure you want to leave the match?,1
 51809,FRONT_END_LOBBY_SOLOS,Solos,2
 51810,FRONT_END_LOBBY_DUOS,Duos,2
+51811,INSIGNIFICANT_QUEST_DISPLAY,%s (%s),1
+51812,ACCOUNT_COMPLETED_QUEST_LABEL,Warband completed,1
+51813,TRIVIAL_QUEST_LABEL,low level,1
 51814,LFG_LIST_MINIMUM_RATING,Minimum Mythic+ Rating,1
 51815,WOWLABS_INVITE_FRIEND,Invite Friend,3
+51818,ERR_TRANSMOGRIFY_INVALID_RACE,This appearance can't be used by your race.,1
+51819,ERR_TRANSMOGRIFY_INVALID_FACTION,This appearance can't be used by your faction.,1
+51820,ERR_TRANSMOGRIFY_INVALID_CLASS,This appearance can't be used by your class.,1
+51821,TRANSMOG_SHOW_ALL_RACES,All Races,1
+51822,TRANSMOG_SHOW_ALL_FACTIONS,All Factions,1
 51823,WOWLABS_WORLD_LOOT_OBJECT_FULLY_UPGRADED,Fully upgraded,1
 51824,WOWLABS_WORLD_LOOT_OBJECT_UPGRADE_HEADER,Upgrade:,1
 51825,WOWLABS_WORLD_LOOT_OBJECT_UPGRADE_EXPLANATION,Cooldown reduced and damage increased (if applicable).,1
+51826,CONVERT_TO_BIND_TO_ACCOUNT_CONFIRM,|cnRED_FONT_COLOR:You cannot equip this item.|r|n|nIts appearance will be added to your collection and it will become Warbound until equipped.,1
+51827,ACCOUNT_LEVEL_PET,Warband Pet,1
 51828,SPELL_FAILED_CUSTOM_ERROR_1028,You have insufficient Bronze to make this trade.,1
 51829,STABLE_PET_SPEC_CUNNING,Cunning,1
 51830,STABLE_PET_SPEC_FEROCITY,Ferocity,1
@@ -22129,29 +22242,39 @@ And spread his flame to all Azeroth.",1
 |cffffffff3.|r Upgrade spells by looting more copies of them.
 
 |cffffffff4.|r Use your heal ability when low on health.",3
-51834,SPELL_FAILED_CUSTOM_ERROR_1029,Requires Dragonriding.,1
+51834,SPELL_FAILED_CUSTOM_ERROR_1029,Requires Skyriding,1
+51835,CHARACTER_SELECT_PROFESSIONS,"%1$s, %2$s",2
 51836,WOWLABS_RENOWN_PREVIEW_BODY_FORMAT,Complete quests and collect Plunder to unlock rewards. Visit Da'kash Grimledger in the waiting area.|n|n|cff00ff00Next Reward at Level %d:|r,3
 51837,WOWLABS_RENOWN_PREVIEW_TITLE,Renown,3
 51838,WOWLABS_READY_GAME,Ready,3
+51839,SPELL_FAILED_CUSTOM_ERROR_1030,You have already overloaded this gathering node.,1
 51840,WOWLABS_SUB_REQUIRED,Access to this feature requires an account with an active subscription or game time.,3
 51841,WOWLABS_SUBSCRIBE_NOW,Subscribe Now,2
 51842,WOWLABS_WAITING_ON_OTHER_PLAYERS,Waiting on other Players...,2
 51843,STABLE_PET_COUNTER,%1d/%2d,1
+51844,SPELL_FAILED_CUSTOM_ERROR_1031,You do not know how to Overload this gathering node.,1
 51845,PLUNDERSTORM_CHAT_INSTANCE_CHAT_GET,|Hchannel:INSTANCE_CHAT|h[Lobby Party]|h %s:\32,3
 51846,PLUNDERSTORM_CHAT_INSTANCE_CHAT_LEADER_GET,|Hchannel:INSTANCE_CHAT|h[Lobby Party]|h %s:\32,3
 51847,PLUNDERSTORM_CHAT_INSTANCE_CHAT_SEND,Lobby Party:\32,3
 51848,PLUNDERSTORM_CHAT_MSG_INSTANCE_CHAT,Lobby Party,3
 51849,WOW_LABS_VIEW_REWARDS,View Rewards,1
 51850,EXPANSION_SEASON_NAME,%s Season %d,1
+51851,ACCOUNT_LEVEL_TOY,Warband Toy,1
+51854,SPELL_FAILED_CUSTOM_ERROR_873,This Delve is not available for testing. Check back later!,1
+51855,ITEM_BIND_TO_ACCOUNT_UNTIL_EQUIP,Binds to Warband until equipped,1
 51856,WOW_LABS_PARTY_RESURRECTABLE_INDICATOR,Resurrectable,1
+51857,ITEM_ACCOUNTBOUND_UNTIL_EQUIP,Warbound until equipped,1
 51858,WOW_LABS_PARTY_RESURRECTABLE_INDICATOR_TOOLTIP,Resurrect your crewmate by standing near their corpse,1
 51859,QUEST_SESSION_ABANDON_WARNING,"The following quests may be abandoned upon joining the Party Sync:
 %s",1
+51864,CHARACTER_SELECT_LIST_GROUP_HEADER,Favorites,2
+51865,SPELL_FAILED_CUSTOM_ERROR_1009,You already have some mulch prepared. Use your current mulch first.,1
 51866,PLUNDERSTORM_LIFETIME_PLUNDER_TOOLTIP,Total Plunder Collected,3
 51867,LIMITED_TIME_EVENT,LIMITED TIME|nEVENT,3
 51868,WOW_LABS_PRESENCE_GAME_MODE_BATTLE_ROYAL,Plunderstorm,1
 51870,PLUNDERSTORM_INTERACT_REMINDER_TEXT,Interact,1
 51878,SPELL_FAILED_CUSTOM_ERROR_1026,You cannot swap spells on cooldown while in combat.,1
+51880,TRACKER_ALL_OBJECTIVES,All Objectives,1
 51881,GROUPMANAGER_GROUND_MARKER,Ground,1
 51882,GROUPMANAGER_UNIT_MARKER,Unit,1
 51885,WOW_LABS_CONFIRM_LEAVE_MATCH_PLUNDER,"You will lose all Plunder earned this match if you leave before your team is eliminated.|n|nAre you sure you want to leave?
@@ -22180,10 +22303,25 @@ And spread his flame to all Azeroth.",1
 51917,WOWLABS_CURRENCY_PICKUP,+%s Plunder,3
 51918,ERROR_CONNECT_TO_PLUNDERSTORM_FAILED_DIALOG,Couldn't connect to Plunderstorm. Please try again later.,2
 51919,AUCTION_HOUSE_FILTER_CURRENTEXPANSION_ONLY,Current Expansion Only,1
+51921,UNITNAME_SUMMON_TITLE54,%s's Ancestor,1
+51924,TALENT_TUTORIAL_HERO_CLASS_FIRST_CHOICE,Don’t worry about making the wrong choice. You’ll learn all these talents by level 80.,1
 51926,TIMERUNNING_BANNER_PANDARIA_HEADER,WoW Remix: Mists of Pandaria!,2
 51927,TIMERUNNING_BANNER_TIME_LEFT,|cnNORMAL_FONT_COLOR:%s|r Remaining,2
+51928,ACCOUNT_COMPLETED_QUEST_NOTICE,Your Warband previously completed this quest.,1
+51929,WORLD_MAP_FILTER_LABEL_SHOW,Show:,1
+51930,WORLD_MAP_FILTER_LABEL_WORLD_QUESTS_SUBMENU,World Quests,1
+51931,WORLD_MAP_FILTER_LABEL_WORLD_QUESTS_SUBMENU_TYPE,Type:,1
+51932,SHOW_WORLD_QUESTS_ON_MAP_TEXT,World Quests,1
+51933,HERO_TALENTS_CHOOSE_1,CHOOSE YOUR,1
+51934,HERO_TALENTS_CHOOSE_2,HERO TALENTS,1
+51935,HERO_TALENTS_LOCKED_1,HERO TALENTS,1
+51936,HERO_TALENTS_LOCKED_2,UNLOCKED AT LEVEL %d,1
+51937,HERO_TALENTS_POINTS_LABEL,POINTS AVAILABLE,1
 51941,TIMERUNNING_CHARACTER_TOOLTIP_TITLE,Timerunning Character,2
 51942,TIMERUNNING_CHARACTER_TOOLTIP_PANDARIA_DESCRIPTION,This character is participating in WoW Remix: Mists of Pandaria and can only group with other Timerunners.,2
+51943,HERO_TALENTS_POINTS_AMOUNT,%d,1
+51944,PROFESSIONS_BUTTON,Professions,1
+51945,PLAYERSPELLS_BUTTON,Talents & Spellbook,1
 51946,KEY_OEM1,;,1
 51947,KEY_OEM2,/,1
 51948,KEY_OEM3,`,1
@@ -22193,10 +22331,16 @@ And spread his flame to all Azeroth.",1
 51952,KEY_OEM7,',1
 51953,KEY_OEMCOMMA,",",1
 51954,KEY_OEMPERIOD,.,1
+51955,ERR_SOCKETING_REQUIRES_FRAGRANCE_GEM,That slot requires a Fragrance gem.,1
+51956,ERR_SOCKETING_FRAGRANCE_GEM_ONLY_IN_FRAGRANCESLOT,Fragrance gems can only be placed in Fragrance sockets.,1
 51957,SPECTATING,SPECTATING,1
 51958,TIMERUNNING_AUCTION_HOUSE_DISABLED,The Auction House is not available to Timerunners.,5
+51959,EMPTY_SOCKET_FRAGRANCE,Fragrance Socket,1
+51960,TALENT_FRAME_CURRENCY_DISPLAY_FORMAT_NAME_ONLY,%s,1
 51961,TIMERUNNING_CHOICE_WARNING,This is an advanced way to play. Are you sure you want to create a Timerunning character?,2
 51962,TIMERUNNING_POPUP_PANDARIA_TOP_DESCRIPTION,Experience a wild new twist to Mists of Pandaria by creating a Timerunner.,2
+51963,ACCOUNT_FIRST_TIME_QUEST_BONUS_TOOLTIP,This is a one-time Warband bonus.,1
+51964,ACCOUNT_PREVIOUSLY_COMPLETED_QUEST_BONUS_TOOLTIP,This is a Warband bonus for previously completing this quest.,1
 51965,TIMERUNNING_SUBSCRIPTION_REQUIRED,Subscription required to participate,2
 51966,SPELL_FAILED_CUSTOM_ERROR_1032,Timerunners cannot teleport outside of Pandaria.,1
 51967,OPTION_TOOLTIP_ANTIALIASING_IB,Anti-aliasing techniques using only the existing full-screen renders,3
@@ -22206,16 +22350,345 @@ And spread his flame to all Azeroth.",1
 51971,OPTION_TOOLTIP_ANTIALIASING_CMAA2,"Conservative Morphological Anti-Aliasing 2: More advanced version of CMAA (preferred method if also using ""Multisample Techniques"").",3
 51972,OPTION_TOOLTIP_WINDOW_SIZE,Adjust the resolution of the game,3
 51973,OPTIONAL_REAGENT_INSUFFICIENT_AVAILABLE,Insufficient available,1
+51974,INSTANCE_WALK_IN_LEAVE,Leave Delve,1
+51976,SPELL_FAILED_CUSTOM_ERROR_1033,Specialize further or improve your hasty handwriting to make sense of these notes.,1
+51977,SPELL_FAILED_CUSTOM_ERROR_1034,There is nothing left to invent and you cannot be convinced otherwise.,1
 51978,ERR_PARTY_LFG_BOOT_DISALLOWED_BY_MAP,Players can't be kicked from this instance,1
+51979,BANK_TAB_TOOLTIP_CLICK_INSTRUCTION,<Right-click for settings>,1
 51980,OPTION_TOOLTIP_NAMEPLATE_HIDE_HEALTH_AND_POWER,Hide the health and power bars under your character,1
 51981,OPTION_TOOLTIP_DISPLAY_PERSONAL_COOLDOWNS,Show cooldowns for important spells under your character,1
 51982,OPTION_TOOLTIP_DISPLAY_PERSONAL_FRIENDLY_BUFFS,Show friendly buffs under your character,1
+51983,BANK_TAB_DEPOSIT_ASSIGNMENTS,Assigned to: |cnHIGHLIGHT_FONT_COLOR:%s|r,1
+51984,BANK_TAB_EXPANSION_ASSIGNMENT,Expansion: |cnHIGHLIGHT_FONT_COLOR:%s|r,1
+51985,SPELL_FAILED_CUSTOM_ERROR_1035,A player in your party does not have this tier unlocked.,1
 51986,PERKS_PROGRAM_DOES_NOT_EXPIRE_TIME_REMAINING,|cff808080--|r,1
+51987,ARACHNOPHOBIA_MODE_CHECKBOX,Arachnophobia Mode,1
+51988,ARACHNOPHOBIA_MODE_CHECKBOX_TOOLTIP,Replace spiders with alternative creatures. This doesn't affect gameplay or difficulty.,1
 51989,ERR_GUILD_BANK_NOT_AVAILABLE,Guild banks are not available to this character.,1
+51990,CHARACTER_SELECT_HEADER_INFO,Level %d,2
 51992,COUNTDOWN_CANCEL_ENCOUNTER_START,"Encounter started, countdown timer canceled.",1
+51993,VISITABLE_URL61,https://support.blizzard.com/article/000358199,2
+51994,ARACHNOPHOBIA_MODE_SUBTEXT,For more information see our |cff00aaff|HurlIndex:61|hArachnophobia Page|h|r,1
+52023,11_0_Z_1_WQ_MINIGAME_01_ARCANE_LOCK,Open the arcane lock!,1
+52024,ITEM_MOD_INGENUITY_SHORT,Ingenuity,1
+52025,FLIGHT_MODE_TOGGLE_TOOLTIP_SUBTEXT,You can drag this to your action bar,1
+52027,POWER_DISPLAY_LABEL_ANGER,Anger,1
+52028,SPELL_FAILED_CUSTOM_ERROR_1036,You don't have any Radiant Echoes.,1
 52029,ERR_PARTY_TIME_RUNNING_SEASON_ID_MUST_MATCH,A standard character and a Timerunner may not join the same party.,1
+52031,QUEST_HUB_TOOLTIP_AVAILABLE_QUESTS_HEADER,Available Quests:,1
+52032,QUEST_HUB_TOOLTIP_MORE_QUESTS_REMAINING,+%d more,1
+52033,ERR_SOLO_RBG_WARGAME_GROUP_COMP,Exactly 2 Healers and a maximum of 1 Tank must be present per 8 person team to begin a Battleground Blitz Wargame,1
+52034,ERR_SOLO_RBG_WARGAME_GROUP_SIZE,Exactly 16 non-spectator players must be present to begin a Battleground Blitz Wargame.,1
+52035,SPELL_FAILED_CUSTOM_ERROR_648,You have already used this nerubian training item.,1
+52036,SLASH_SOLORBG_WARGAME1,/battlegroundblitzwargame,1
+52037,SLASH_SOLORBG_WARGAME2,/bgbwg,1
+52038,SLASH_SPECTATOR_SOLORBG_WARGAME1,/invitespectatorbattlegroundblitzmatch,1
+52039,SHOW_SILHOUETTE_OPTION,Show Silhouette when Obscured,1
+52040,OPTION_TOOLTIP_SHOW_SILHOUETTE,Highlight your character's silhouette when blocked by objects in game,1
+52049,TUTORIAL_HERO_TALENT_NONE_SPENT,"Don't worry, you'll learn all these talents by level 80",1
+52050,PROFESSIONS_CRAFTING_CONCENTRATION_HEADER,Concentrate:,1
+52054,HUD_EDIT_MODE_SETTING_OBJECTIVE_TRACKER_TEXT_SIZE,Text Size,1
+52056,SPELL_FAILED_CUSTOM_ERROR_1037,Requires The War Within Pathfinder Unlocked to use in this area.,1
 52057,TIMERUNNING_TIMERUNNERS_ADVANTAGE_TUTORIAL,The power granted by the Cloak of Infinite Potential is displayed here.,1
+52058,MINIMAP_TRACKING_ACCOUNT_COMPLETED_QUESTS,Warband Completed Quests,1
 52059,TIMERUNNING_DISABLED_TOOLTIP,Timerunners have been temporarily disabled.,2
+52060,ACCOUNT_QUEST_LABEL,Warband,1
+52061,SHOW_ACCOUNT_COMPLETED_QUESTS_BUTTON_LABEL,Warband Completed Quests,1
 52062,PERKS_PROGRAM_PLAY_ATTACK_ANIM,Combat Animation,1
 52063,PERKS_PROGRAM_MOUNT_SPECIAL_ANIM,Mount Special Animation,1
+52064,PREFIX_SOLO_RBG,Battleground Blitz: %s,1
 52066,PERSONALTABARDVENDORUNOWNEDGREETING,"You must own a personal tabard in order to customize, but feel free to browse.",7
+52067,ACCOUNT_CURRENCY_GAINED_MULTIPLE,Your Warband receives currency: %sx%d,1
+52068,ACCOUNT_CURRENCY_GAINED_MULTIPLE_BONUS,Your Warband receives currency: %sx%d (Bonus Objective),1
+52069,ACCOUNT_CURRENCY_GAINED_MULTIPLE_OVERFLOW,Your Warband receives currency: %sx%d (Your Warband has earned the maximum amount of %s),1
+52070,ACCOUNT_LEVEL_CURRENCY,Warband Currency,1
+52071,ACCOUNT_TRANSFERRABLE_CURRENCY,Warband Transferable,1
+52072,CURRENCY_TRANSFER_LOSS,|cnNORMAL_FONT_COLOR:Amount Lost in Transfer:|r |cnHIGHLIGHT_FONT_COLOR:%d%%|r ,1
+52073,UNITNAME_SUMMON_TITLE55,%s's Invention,1
+52074,ERR_NO_ACCOUNT_BANK_HERE,You are too far away from a Warband bank.,1
+52075,DELVES_LEVEL_PICKER_LEADER_ERROR,You are not the party leader.,1
+52076,DELVES_ENTRANCE_LEVEL_REQUIREMENT_ERROR,You must be at least level %d to enter a Delve.,1
+52077,DELVES_COMPANION_VIEW_ABILITIES,View Abilities,1
+52078,DELVES_CURIO_LOCKED,Locked,1
+52079,DELVES_CURIO_SLOT_EMPTY,Empty,1
+52080,DELVES_CONFIG_SLOT_LABEL_COMBAT_ROLE,Combat Role,1
+52081,DELVES_CONFIG_SLOT_UTILITY_CURIO,Utility Curio,1
+52082,DELVES_CONFIG_SLOT_COMBAT_CURIO,Combat Curio,1
+52083,DELVES_COMPANION_ABILITY_LIST_TITLE,Companion Abilities,1
+52084,DELVES_ABILITY_RANK_LABEL,Rank %d,1
+52085,DELVES_ABILITY_LIST_DROPDOWN_OPTION_LABEL,%s %s,1
+52086,DELVES_ABILITY_LIST_CURRENT_PAGE,Page %d/%d,1
+52087,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_ON,Apply %s,1
+52088,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_OFF,Cancel %s,1
+52089,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_DISABLED,Not enough %s,1
+52090,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_ON_DESC,Apply %d concentration to guarantee the next quality for this recipe.,1
+52092,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_OFF_DESC,Remove %d concentration from this recipe.,1
+52093,PROFESSIONS_CRAFTING_CONCENTRATION_CURRENCY_TOOLTIP,Concentration can be used to guarantee higher quality when crafting. Concentration slowly regenerates and is partly refunded when a craft triggers your Ingenuity.,1
+52094,PROFESSIONS_CRAFTING_CONCENTRATION_CURRENCY_TOOLTIP_WARNING,Concentration is full.,1
+52095,SPELL_FAILED_CUSTOM_ERROR_1039,Can only be used while in combat.,1
+52096,SPELL_FAILED_CUSTOM_ERROR_1040,You are not high enough level to enter a Delve.,1
+52097,PROFESSIONS_CRAFTING_CURRENCY_LABEL_FORMAT,|cnHIGHLIGHT_FONT_COLOR:%d/%d|r,1
+52098,PROFESSIONS_CRAFTING_CURRENCY_TOOLTIP_FORMAT,%d/%d,1
+52099,PROFESSIONS_CRAFTING_STAT_CONCENTRATION,Concentration,1
+52100,PROFESSIONS_CRAFTING_STAT_CONCENTRATION_DESCRIPTION,The amount of concentration needed for this recipe.,1
+52101,PROFESSIONS_CRAFTING_EXPECTED_QUALITY_WITH_CONCENTRATION,"|cnHIGHLIGHT_FONT_COLOR:Expected Quality:|r %s|n|nWith Concentration applied as it is, you will guarantee the next quality: %s",1
+52102,RATED_BG_BLITZ_SIZE,Solo,1
+52103,PVP_RATED_BG_BLITZ,Rated Battleground Blitz,1
+52104,RATED_BG_BLITZ_MODE_DESCRIPTION,8 versus 8 battlegrounds at an accelerated pace. Solo queue except healers can duo queue.,1
+52105,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_UNAVAILABLE,Can't apply %s,1
+52106,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_UNAVAILABLE_DESC,This recipe is already at max quality.,1
+52107,PROFESSIONS_CRAFTER_ORDER_TAB_NPC,NPC,1
+52108,POWER_TYPE_BLACK_BLOOD,Black Blood,1
+52109,CURRENCY_TRANSFER_TOGGLE_BUTTON_LABEL,Transfer,1
+52110,CURRENCY_TRANSFER_MENU_TITLE,Transfer Currency - %s,1
+52111,CURRENCY_TRANSFER_CONFIRM_BUTTON_LABEL,Confirm,1
+52112,CURRENCY_TRANSFER_CANCEL_BUTTON_LABEL,Cancel,1
+52113,CURRENCY_TRANSFER_AMOUNT_LABEL,Amount to Transfer,1
+52114,CURRENCY_TRANSFER_SOURCE,From,1
+52115,CURRENCY_TRANSFER_DESTINATION,To %s,1
+52116,CURRENCY_TRANSFER_NEW_BALANCE_PREVIEW,%s's New Balance,1
+52117,CURRENCY_TRANSFER_COST_TOOLTIP,%d currency will be lost in transfer.,1
+52118,CURRENCY_TRANSFER_DISABLED_MAX_QUANTITY,You cannot carry any more of this currency,1
+52120,SPELL_FAILED_CUSTOM_ERROR_1041,For some reason the Wondrous Wisdomball is nonresponsive.,1
+52121,ERR_REMIX_INVALID_TRANSFER_REQUEST,You aren't allowed to go there,1
+52124,CRF_EDIT_MODE,Edit Mode,1
+52125,CRF_SETTINGS,Settings,1
+52126,CRF_HIDE_GROUPS,Hide Groups,1
+52127,CRF_DIFFICULTY,Difficulty,1
+52128,CRF_READY_CHECK,Ready Check,1
+52129,CRF_ROLE_POLL,Role Poll,1
+52130,CRF_COUNTDOWN,Countdown,1
+52131,CRF_ALL_ASSIST,Everyone Is Assist,1
+52132,CHINA_RELEASE_BUILD,China Release,2
+52133,REPORTING_MAJOR_CATEGORY_CHINA_HARMFUL_MINORS,Harmful to Minors,3
+52134,DELVES_INSTANCE_RESET_WARNING,This delve instance will reset in %s.,1
+52135,DAILY_RESET_INSTANCE_WELCOME,Welcome to %s. The daily reset is scheduled to occur in %s and will reset this instance.,1
+52136,CURRENCY_TRANSFER_SUCCESS_MESSAGE,|cnNORMAL_FONT_COLOR:%s|r |cnHIGHLIGHT_FONT_COLOR:transferred %sx%d to|r |cnNORMAL_FONT_COLOR:%s.|r,1
+52137,CHINA_GM_BUILD,China GM,2
+52138,WAR_WITHIN_LANDING_PAGE_TITLE,Khaz Algar Summary,1
+52139,WAR_WITHIN_LANDING_PAGE_TOOLTIP,Click to show the Khaz Algar Summary,1
+52140,DELVES_LABEL,Delves,1
+52141,DELVES_DASHBOARD_SEASON_TITLE,%s (%s Season %s),1
+52142,CURRENCY_TRANSFER_LOG_TITLE,Transfer Log,1
+52143,CURRENCY_TRANSFER_LOG_CURRENCY_FORMAT,%s %s,1
+52144,CURRENCY_TRANSFER_LOG_TIME_FORMAT,%s ago,1
+52146,DELVES_REPUTATION_BAR_TITLE,Delver's Journey (%s Season %s),1
+52147,DELVES_COMPANION_LABEL,Delve companion,1
+52148,DELVES_CONFIGURE_BUTTON,Configure,1
+52149,DELVES_GREAT_VAULT_DESCRIPTION_SEASON_STARTED,Complete delves to earn weekly rewards,1
+52150,DELVES_GREAT_VAULT_LABEL,Great Vault,1
+52151,DYNAMIC_FLIGHT,Skyriding,1
+52152,DELVES_GREAT_VAULT_TOOLTIP,Complete delves to earn weekly rewards.\n\n%s/%s rewards unlocked. ,1
+52153,DELVES_GREAT_VAULT_REQUIRES_ACTIVE_SEASON,The Great Vault is only available during an active season.,1
+52154,OPEN_DYNAMIC_FLIGHT_TREE_TOOLTIP,Skills and Unlocks,1
+52155,DELVES_GREAT_VAULT_UNAVAILABLE_LABEL,Available during the season,1
+52156,DELVES_COMPANION_NOT_ENABLED_TOOLTIP,"Unlocks with the quest ""Delve into the Earth"" in the Isle of Dorn campaign.",1
+52157,SEARCH_QUEST_LOG,Search Quest Log,1
+52158,QUEST_LOG_NO_QUESTS,No quests available|n|nAccept quests by talking to characters with a |TInterface\\GossipFrame\\AvailableQuestIcon:16:16|t above their head.,1
+52159,QUEST_LOG_NO_RESULTS,No results found,1
+52162,DELVES_REPUTATION_BAR_TITLE_NO_SEASON,Delver's Journey (Available during the season),1
+52164,CURRENCY_TRANSFER_DISABLED_NO_VALID_SOURCES,Your Warband does not have enough of this currency to transfer to you.,1
+52165,TIMERUNNING_WARBAND_BANK_DISABLED,Timerunners do not have access to the Warband Bank.,1
+52166,RACE_INFO_EARTHENDWARF,"The earthen of Khaz Algar, newly freed of their edicts, venture forth into Azeroth. They bring with them boundless curiosity, and a wish to return all their experiences back to the archive.",3
+52167,REWARD_QUESTLINE_UNLOCK,This quest line will unlock:,1
+52168,REWARD_QUESTLINE_REWARD,The end of this quest line rewards:,1
+52169,REWARD_QUESTLINE_UNLOCK_PART,This quest line is part of unlocking:,1
+52170,UNITNAME_SUMMON_TITLE56,%s's Confidant,1
+52171,SPELL_FAILED_CUSTOM_ERROR_2001,The emblem has no magic stored.,1
+52172,QUEST_LOG_SHOW_OBJECTIVES,Show Quest Objectives,1
+52173,QUEST_LOG_TRACK_ALL,Track All,1
+52174,QUEST_LOG_UNTRACK_ALL,Untrack All,1
+52175,SUPER_TRACK_QUEST,Focus,1
+52176,SPELLBOOK_SEARCH_INSTRUCTIONS,"Search abilities, keywords",1
+52177,SPELLBOOK_SEARCH_NOT_ON_ACTIONBAR,Missing from action bar,1
+52178,SPELLBOOK_FILTER_PASSIVES,Hide Passives,1
+52179,11_0_Z_1_MAX_CAMPAIGN_MINIGAME_REWIRE,Rewire the mainframe circuit board,1
+52180,SPELLBOOK_SEARCH_HEADER_EXACT,Exact Matches,1
+52181,SPELLBOOK_SEARCH_HEADER_RELATED,Related Matches,1
+52182,SPELLBOOK_SEARCH_HEADER_NAME,Name Matches,1
+52183,SPELLBOOK_SEARCH_HEADER_DESCRIPTION,Description Matches,1
+52184,SPELLBOOK_SEARCH_HEADER_GENERIC,Matches,1
+52185,SPELLBOOK_SEARCH_HIDE_PASSIVES_DISABLED,Hiding Passives is disabled while searching,1
+52186,WAR_WITHIN_LANDING_PAGE_ALERT_SUMMARY_UNLOCKED,Khaz Algar Summary Unlocked,1
+52187,WAR_WITHIN_LANDING_PAGE_ALERT_MAJOR_FACTION_UNLOCKED,Major Faction Unlocked,1
+52188,DELVES_GREAT_VAULT_ERR_AVAIL_AT_MAX_LEVEL,Unlocks at level %d,1
+52189,DELVES_ERR_MUST_USE_SUPPLIES,Requires Explorers' League Supplies,1
+52190,ACCOUNT_FIRST_TIME_QUEST_BONUS_REP_TOOLTIP,This includes a one-time Warband bonus (%d|cnGREEN_FONT_COLOR:+%d|r reputation),1
+52191,ACCOUNT_FIRST_TIME_QUEST_BONUS_CURRENCY_TOOLTIP,This includes a one-time Warband bonus (%d|cnGREEN_FONT_COLOR:+%d|r currency),1
+52192,ACCOUNT_PREVIOUSLY_COMPLETED_QUEST_REP_BONUS_TOOLTIP,This is a Warband bonus for previously completing this quest (%d|cnGREEN_FONT_COLOR:+%d|r reputation),1
+52193,ACCOUNT_PREVIOUSLY_COMPLETED_QUEST_CURRENCY_BONUS_TOOLTIP,This is a Warband bonus for previously completing this quest (%d|cnGREEN_FONT_COLOR:+%d|r currency),1
+52194,RACE_INFO_EARTHENDWARF_FEMALE,"The earthen of Khaz Algar, newly freed of their edicts, venture forth into Azeroth. They bring with them boundless curiosity, and a wish to return all their experiences back to the archive.",3
+52195,GREAT_VAULT_REWARDS_WORLD_INCOMPLETE,Complete %1$d more |4delve:delves; or |4world activity:world activities; this week to unlock a Great Vault reward. World activities count as Tier 0.|n|nThe item level of your reward will be based on your highest run this week.,1
+52196,GREAT_VAULT_REWARDS_WORLD_COMPLETED_FIRST,Complete %1$d more |4delve:delves; or |4world activity:world activities; this week to unlock a second Great Vault reward. World activities count as Tier 0.,1
+52197,GREAT_VAULT_REWARDS_WORLD_COMPLETED_SECOND,Complete %1$d more |4delve:delves; or |4world activity:world activities; this week to unlock a third Great Vault reward. World activities count as Tier 0.,1
+52198,WEEKLY_REWARDS_THRESHOLD_WORLD,Complete %d |4Delve:Delves; or |4World Activity:World Activities;,1
+52200,ACCOUNT_WIDE_REPUTATION_TUTORIAL,|cnHIGHLIGHT_FONT_COLOR:This is a|r |cnNORMAL_FONT_COLOR:Warband|r |cnHIGHLIGHT_FONT_COLOR:faction. Reputation gained with this faction is shared across all of your characters.|r,1
+52201,ACCOUNT_TRANSFERABLE_CURRENCIES_TUTORIAL,|cnHIGHLIGHT_FONT_COLOR:Some currencies are|r|n|cnNORMAL_FONT_COLOR:Warband Transferable.|r|n|cnHIGHLIGHT_FONT_COLOR:Click a currency to initiate a transfer from another character.|r,1
+52202,BIND_TO_ACCOUNT_UNTIL_EQUIP_TUTORIAL,"|cnNORMAL_FONT_COLOR:Warbound|r |cnHIGHLIGHT_FONT_COLOR:gear can be shared with your other characters.|n|nOnce equipped, this gear becomes|r |cnNORMAL_FONT_COLOR:Soulbound.|r",1
+52203,ACCOUNT_COMPLETED_QUESTS_FILTER_TUTORIAL,|cnHIGHLIGHT_FONT_COLOR:Standard quests you have already completed with another character are hidden from the map.|n|nYou can change this setting here.|r,1
+52204,GREAT_VAULT_WORLD_TIER,Tier %s,1
+52205,WEEKLY_REWARDS_ITEM_LEVEL_WORLD,Item Level %1$d - (Tier %2$d),1
+52206,WEEKLY_REWARDS_COMPLETE_WORLD,Complete a Tier %1$d delve or higher to increase this reward's item level.,1
+52207,SPELL_FAILED_CUSTOM_ERROR_1042,You already have this curio in your collection.,1
+52218,POWER_TYPE_ACID,Acid Power,1
+52219,PROF_CRAFTING_ORDER_TYPE_NPC,npc,1
+52220,DELVE_LABEL,Delve,1
+52221,UNITNAME_SUMMON_TITLE57,Placed by %s,1
+52228,PHOTOSENSITIVITY_WARNING_TITLE,PHOTOSENSITIVITY WARNING,2
+52229,PHOTOSENSITIVITY_WARNING_DESCRIPTION,"A small percentage of people may have seizures from certain lights, patterns, or images, even without a history of epilepsy.|n|nBefore playing, if you or anyone in your family has an epileptic condition, consult a physician.|n|nStop playing and seek medical advice if you experience dizziness, altered vision, twitches, loss of awareness, disorientation, involuntary movements, or convulsions while gaming.",2
+52235,PHOTOSENSITIVITY_WARNING_CONTINUE,Press any button to continue,2
+52256,CHARACTER_ACHIEVEMENT_DESCRIPTION,Progress towards this achievement is tracked for each character.,1
+52258,VRN_DX12_NEEDS_WIN10_19H2,DirectX 12 requires the Windows 10 November 2019 Update or newer,3
+52259,SPELL_FAILED_CUSTOM_1101,A Charge Station has already been constructed nearby.,1
+52260,SPELL_FAILED_CUSTOM_1102,A Wind-Wrangling Station has already been constructed nearby.,1
+52261,SPELL_FAILED_CUSTOM_1103,A Recovery Station has already been constructed nearby.,1
+52262,SPELL_FAILED_CUSTOM_1104,Too close to another Station.,1
+52263,REPORTING_MINOR_CATEGORY_HARMFUL_INFO_FOR_MINORS,Harmful info for Minors,5
+52264,CHARACTER_CREATE_REALM_TOOLTIP,Character will be created in the selected realm,2
+52265,CHARACTER_CREATE_REALM,%s Realm,2
+52266,CHARACTER_SELECT_REALM_TOOLTIP,%s Realm,2
+52267,REPORTING_MINOR_CATEGORY_HARMFUL_TO_MINORS,Harmful To Minors,1
+52268,ACCOUNT_COMPLETED_QUESTS_FILTER_DESCRIPTION,Toggle the visibility of standard quests you've previously completed with another character.|n|nCurrently supported for Dragonflight and The War Within.,1
+52269,DELVES_NEW_CURIO,NEW,1
+52271,STOP_SUPER_TRACK_QUEST,Remove Focus,1
+52272,HERO_TALENTS_COLLAPSE,Minimize,1
+52273,HERO_TALENTS_EXPAND,Maximize,1
+52274,SPELL_FAILED_CUSTOM_ERROR_1051,You have revealed or found all of today's Pact locations.,1
+52275,CURRENCY_TRANSFER_LOG_EMPTY,No transfers found.,1
+52276,ERR_CURRENCY_TRANSFER_INVALID_CHARACTER,Currency cannot be transferred from this character.,1
+52277,ERR_CURRENCY_TRANSFER_CHARACTER_LOGGED_IN,Currency cannot be transferred from this character while they are logged in.,1
+52278,ERR_CURRENCY_TRANSFER_INSUFFICIENT_CURRENCY,This character does not have enough currency to transfer to you.,1
+52279,ERR_CURRENCY_TRANSFER_MAX_QUANTITY,You cannot carry any more of this currency.,1
+52280,ERR_CURRENCY_TRANSFER_INVALID_CURRENCY,This currency is not Warband Transferable.,1
+52281,ERR_CURRENCY_TRANSFER_NO_VALID_SOURCE,Your Warband does not have enough of this currency to transfer to you.,1
+52282,ERR_CURRENCY_TRANSFER_SERVER_ERROR,An error has occurred. Please try again.,1
+52285,RPE_GEAR_UPDATE_CHARACTER,Character:,2
+52286,RPE_GEAR_UPDATE_SELECT_SPEC,Choose your specialization:,2
+52287,PLAYER_CHOICE_NOTORIETYPACT_CONFIRMATION,This choice will affect all characters in your Warband. |n|n|cffffd200Continue?|r,1
+52288,CURRENCY_TRANSFER_DISABLED_UNMET_REQUIREMENTS,You do not meet the requirements to use this currency.,1
+52289,INSPECT_GUILD_REALM,Realm: %s,1
+52290,CLUB_FINDER_REALM_NAME,Realm: |cffffffff%s|r,1
+52296,MAP_LEGEND_CAMPAIGN,Campaign,1
+52297,MAP_LEGEND_CAMPAIGN_TOOLTIP,Quests that continue the main story,1
+52298,MAP_LEGEND_IMPORTANT,Important,1
+52299,MAP_LEGEND_IMPORTANT_TOOLTIP,"Quests that unlock important features and rewards, or teach you about major mechanics",1
+52300,MAP_LEGEND_LEGENDARY,Legendary,1
+52301,MAP_LEGEND_LEGENDARY_TOOLTIP,Quests that give legendary rewards,1
+52302,MAP_LEGEND_META,Meta,1
+52303,MAP_LEGEND_META_TOOLTIP,Time gated quests that give valuable end game rewards,1
+52304,MAP_LEGEND_LOCALSTORY,Local Story,1
+52305,MAP_LEGEND_LOCALSTORY_TOOLTIP,Quests that explore local cultures and side adventures,1
+52306,MAP_LEGEND_INPROGRESS,In Progress,1
+52307,MAP_LEGEND_INPROGRESS_TOOLTIP,Quests that are currently in progress,1
+52308,MAP_LEGEND_TURNIN,Turn In,1
+52309,MAP_LEGEND_TURNIN_TOOLTIP,Quests that are ready to be turned in,1
+52310,MAP_LEGEND_WORLDQUEST,World Quest,1
+52312,MAP_LEGEND_WORLDQUEST_TOOLTIP,Open world activities that give varying rewards ,1
+52313,MAP_LEGEND_WORLDBOSS,World Boss,1
+52314,MAP_LEGEND_WORLDBOSS_TOOLTIP,"A difficult open world boss that drops valuable loot, intended for large groups of players",1
+52315,MAP_LEGEND_BONUSOBJECTIVE,Bonus Objective,1
+52316,MAP_LEGEND_BONUSOBJECTIVE_TOOLTIP,Bonus open world activities that give EXP and varying amounts of rewards,1
+52317,MAP_LEGEND_EVENT,Event,1
+52318,MAP_LEGEND_EVENT_TOOLTIP,Various patch specific activities that provide valuable rewards,1
+52319,MAP_LEGEND_RARE,Rare,1
+52320,MAP_LEGEND_RARE_TOOLTIP,A special creature that provides various rewards,1
+52321,MAP_LEGEND_RAREELITE,Rare Elite,1
+52322,MAP_LEGEND_RAREELITE_TOOLTIP,A rare special creature that has a chance of dropping valuable loot,1
+52323,MAP_LEGEND_DUNGEON,Dungeon,1
+52324,MAP_LEGEND_DUNGEON_TOOLTIP,"Content designed for a party of five adventures, and provides loot",1
+52325,MAP_LEGEND_RAID,Raid,1
+52326,MAP_LEGEND_RAID_TOOLTIP,"Challenging content that is intended for large groups of players, and provides valuable loot",1
+52327,MAP_LEGEND_HUB,Hub,1
+52328,MAP_LEGEND_HUB_TOOLTIP,"A central location with NPCs, activities, and available quests",1
+52329,MAP_LEGEND_DIGSITE,Digsite,1
+52330,MAP_LEGEND_DIGSITE_TOOLTIP,An archeology location where you can dig for artifacts,1
+52331,MAP_LEGEND_PETBATTLE,Pet Battle,1
+52332,MAP_LEGEND_PETBATTLE_TOOLTIP,Challenge NPCs to pet battles,1
+52334,MAP_LEGEND_FRAME_LABEL,Map Legend,1
+52335,MAP_LEGEND_CATEGORY_QUESTS,Quests,1
+52336,MAP_LEGEND_CATEGORY_LTA,Limited Time Activities,1
+52337,MAP_LEGEND_CATEGORY_ACTIVITIES,Activities,1
+52338,MAP_LEGEND_CATEGORY_MOVEMENT,Movement,1
+52339,MAP_LEGEND_TELEPORT,Teleport Point,1
+52340,MAP_LEGEND_TELEPORT_TOOLTIP,Teleports you to a different region,1
+52341,MAP_LEGEND_CAVE,Cave Entrance,1
+52342,MAP_LEGEND_CAVE_TOOLTIP,The entrance to a cave or different zone,1
+52343,MAP_LEGEND_FLIGHTPOINT,Flightpoint,1
+52344,MAP_LEGEND_FLIGHTPOINT_TOOLTIP,Transports you to a different area in the same region,1
+52346,VRN_COMPAT_MODE,Disabled due to compatibility settings,3
+52347,COMPATIBILITY_SETTINGS,Compatibility Settings,3
+52348,OPTION_TOOLTIP_COMPATIBILITY_SETTINGS,"Compatibility settings are offered to help diagnose and work around various crashes, graphical bugs and performance issues. In most cases disabling these features will decrease performance, introduce hitching and/or decrease visual quality. They are only intended to be disabled if you are having specific issues.",3
+52349,COMPAT_SETTING_OPTIONAL_GPU_FEATURES,Optional GPU Features,3
+52350,COMPAT_SETTING_DEVICE_MULTITHREADING,Async Resource Creation,3
+52351,COMPAT_SETTING_FRAME_OVERLAP,Frame Overlap,3
+52352,COMPAT_SETTING_CMDLIST_MULTITHREADING,Multithreaded Rendering,3
+52353,OPTION_TOOLTIP_COMPAT_SETTING_OPTIONAL_GPU_FEATURES,"Allows the use of newer GPU features. When disabled, the game will act as if the GPU only supports the minimum required features. Various graphical features will be disabled and the visual quality of the game will likely be reduced. This may help work around driver bugs or other issues with newer GPU features.",3
+52354,OPTION_TOOLTIP_COMPAT_SETTING_DEVICE_MULTITHREADING,Allows asynchronously creating GPU resources such as textures and shaders. Disabling this will likely introduce hitching but could help work around crashes or visual issues on very old drivers or hardware.,3
+52355,OPTION_TOOLTIP_COMPAT_SETTING_FRAME_OVERLAP,"Allows the CPU to work on 2 frames at once. Disabling this may cause less consistent or lower framerate but could help avoid some kinds of crashes for certain hardware, driver and OS combinations. ",3
+52356,OPTION_TOOLTIP_COMPAT_SETTING_CMDLIST_MULTITHREADING,"Allows the game to use multiple CPU threads to render the game. Disabling this will likely greatly reduce framerate, but could work around crashes or visual bugs in some cases. ",3
+52358,QUEST_CLASSIFICATION_CALLING,Calling,1
+52360,QUEST_CLASSIFICATION_IMPORTANT,Important,1
+52361,QUEST_CLASSIFICATION_CAMPAIGN,Campaign,1
+52362,QUEST_CLASSIFICATION_LEGENDARY,Legendary,1
+52363,QUEST_CLASSIFICATION_META,Meta,1
+52364,QUEST_CLASSIFICATION_RECURRING,Repeatable,1
+52365,QUEST_CLASSIFICATION_QUESTLINE,Storyline,1
+52366,QUEST_CLASSIFICATION_QUESTLINE_WITH_NAME,Storyline (%s),1
+52367,DELVES_ERR_SELECT_TIER,You must select a Tier.,1
+52368,ERR_NOT_ENOUGH_PURCHASED_GAME_TIME,Game time must be purchased at least once on this account to be eligible to buy a WoW Token with gold.,1
+52373,ERR_CURRENCY_TRANSFER_UNMET_REQUIREMENTS,You do not meet the requirements to use this currency.,1
+52374,CHARACTER_SELECT_UNDELETE_REALM_LABEL,%s Realm,2
+52375,CHARACTER_SELECT_UNDELETE_REALM_HELPTIP,Only deleted characters from the current realm are shown. Switch realms to see other deleted characters.,2
+52376,ERR_NO_REFUNDABLE_ITEM_IN_ACCOUNT_BANK,Refundable items cannot be stored in the Warband Bank.,1
+52377,NPEV2_SELECT_SPEC_TAB,Select the |cFF00FFFFSpecialization|r Tab,1
+52379,TALENT_MICRO_BUTTON_NO_HERO_SPEC,Choose your Hero Talents,1
+52380,ERR_DELVE_IN_PROGRESS,A %s delve is in progress,1
+52381,ACCOUNT_CONVERSION_IN_PROGRESS,Your account is being updated for the Warbands feature. Please wait.,2
+52382,ERR_BANK_NOT_ACCESSIBLE,This character does not have access to this bank.,1
+52383,WOW_ERROR_338,This World of Warcraft account has been suspended from Beta.,2
+52385,DELVES_ERR_TIER_INELIGIBLE,You don't meet the requirements for this tier,1
+52386,HARMFUL_TO_MINORS_DISABLED_TOOLTIP,Must select one or more of the available Name options,1
+52387,SPELL_FAILED_CUSTOM_ERROR_1053,Timerunners cannot cast this spell.,1
+52388,MOUNT_JOURNAL_FILTER_RIDEALONG,Ride Along,1
+52389,RPE_UPGRADE_COMPLETE_WARNING,You must log in to complete your character boost.,3
+52390,DELVES_SHOW_ENTRACES_ON_MAP_TEXT,Delve Entrances,1
+52391,SPELL_FAILED_CUSTOM_ERROR_1043,You must choose what to do with your current prototype before identifying new ones.,1
+52392,CHINA_AGE_APPROPRIATENESS_TEXT,System message,2
+52393,CHINA_AGE_APPROPRIATENESS_TEXT_TITLE,System message title,2
+52394,VISITABLE_URL57,https://jiazhang.gm.163.com/blizzard/,2
+52395,COMPAT_SETTING_ADV_WORK_SUBMIT,Advanced Work Submit,3
+52396,OPTION_TOOLTIP_COMPAT_SETTING_ADV_WORK_SUBMIT,"Allows more complex code paths for submitting work to the GPU. Disabling this may cause less consistent or lower framerate but could help avoid some kinds of crashes for certain hardware, driver and OS combinations. ",3
+52397,CHINA_HEALTHY_GAMING_TEXT,System message,2
+52398,CHINA_HEALTHY_GAMING_TEXT_TITLE,System message,2
+52399,PROFESSIONS_CRAFTING_CONCENTRATION_HELPTIP,|cnNORMAL_FONT_COLOR:Concentration|r|nGuarantees higher quality on your next craft. Regenerates slowly over time.,1
+52400,PREFIX_RATED_SOLO_RGB,Rated %s,1
+52401,ERR_NO_OPEN_IMMEDIATE_CONTAINER_IN_ACCOUNT_BANK,You cannot open this while it is in the Warband bank.,1
+52402,ERR_NO_IMMEDIATE_CONTAINER_IN_ACCOUNT_BANK,You cannot place that in the Warband bank.,1
+52403,NOT_BEST_ARMOR_TYPE_WARNING,|cnRED_FONT_COLOR:This is not your preferred armor type.|r,1
+52404,BLIZZARD_STORE_VAS_ERROR_CHARACTER_ON_DIFFERENT_REALM_1,- This character is on another realm.,2
+52405,BLIZZARD_STORE_VAS_ERROR_CHARACTER_ON_DIFFERENT_REALM_2,- Switch realms to upgrade this character.,2
+52406,BLIZZARD_STORE_VAS_ERROR_SINGULAR_LABEL,Error. Please address this issue:,2
+52408,QUEST_CLASSIFICATION_RECURRING_WITH_TIME,Repeatable (%s left),1
+52409,CHARACTER_SELECT_WARBAND_INTRO_HELPTIP,All your characters show up in your Warband Character List across all realms.,2
+52410,SHOW_LOCAL_STORY_OFFERS_ON_MAP_TEXT,Local Stories,1
+52411,SPELL_FAILED_CUSTOM_ERROR_1044,You have already used a Khaz Algar Contract this week.,1
+52412,DUNGEON_MAP_PIN_FALLBACK_NAME,Dungeon,1
+52413,DUNGEON_POI_TOOLTIP_INSTRUCTION_LINE,<Right Click to open Adventure Guide>,1
+52414,CREATE_CHARACTER_REALM_CONFIRM_DIALOG_TEXT,"|cnHIGHLIGHT_FONT_COLOR:Your character will be created on the|r %s Realm|cnHIGHLIGHT_FONT_COLOR:. To switch realms, click the ""Realms"" button.|r",2
+52415,MOUNT_JOURNAL_STEADY_FLIGHT_ONLY,Steady Flight Only,1
+52416,PROFESSIONS_OUTPUT_INGENUITY,Ingenious Breakthrough!,1
+52417,PROFESSIONS_OUTPUT_INGENUITY_TITLE,Ingenuity,1
+52418,PROFESSIONS_OUTPUT_INGENUITY_DESC,You had an ingenious breakthrough and refunded %d Concentration for this craft.,1
+52419,ERR_CANT_DELETE_IN_ACCOUNT_BANK,Items must be moved out of the Warband bank to be deleted.,1
+52420,MAP_LINK_POI_TOOLTIP_INSTRUCTION_LINE,<Right Click to show map>,1
+52421,OBJECTIVES_HIDE_VIEW_IN_QUESTLOG,Close Quest Details,1
+52424,PLAYER_SPELLS_FRAME_MINIMIZE_TIP,You can minimize the Spellbook here,1
+52425,RPE_TOOLTIP_CHARACTER_ON_DIFFERENT_REALM,Switch to this character's realm to update.,2
+52427,MAP_LEGEND_REPEATABLE,Repeatable,1
+52428,MAP_LEGEND_REPEATABLE_TOOLTIP,Time gated quests,1
+52436,ERR_VOID_STORAGE_ACCOUNT_ITEM,You cannot deposit items into void storage from the Warband bank.,1
+52438,WOW_ERROR_500,Data conversion for your Warband has failed. Please re-login to your account to try again.,2
+52439,ERR_GUILD_NEW_LEADER_WRONG_REALM,Players from other realms can't be promoted to guild leader.,1
+52446,CRAFTING_ORDER_FAILED_ACCOUNT_ITEMS,You cannot use reagents from the Warband bank in a crafting order.,1
+52448,ACCOUNT_REACTIVATE_ERR_NOT_ENOUGH_GOLD_TOOLTIP,Not enough gold on current realm,2
+52451,ERR_CANT_TRADE_ACCOUNT_ITEM,You can't trade an item from the Warband bank.,1
