@@ -60,7 +60,9 @@ jobs:
 
     - name: Run wowcig on ${{ inputs.NAME }}
       if: ${{ steps.check.outputs.skip != 'true' }}
-      run: wowcig --db2 all --skip-framexml --product ${{ inputs.PRODUCT }}
+      run: |
+        wowcig --db2 all --skip-framexml --product ${{ inputs.PRODUCT }}
+        tree extracts
 
     - name: Setup .NET 7
       if: ${{ steps.check.outputs.skip != 'true' }}
