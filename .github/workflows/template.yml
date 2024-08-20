@@ -62,7 +62,12 @@ jobs:
       if: ${{ steps.check.outputs.skip != 'true' }}
       run: |
         luafile=$(find $HOME -type f -path '*/luadbd/dbds.lua')
-        sed -i 's|https://raw.githubusercontent.com/wowdev/wow-listfile/master/community-listfile.csv|https://github.com/wowdev/wow-listfile/releases/latest/download/community-listfile.csv|' "$luafile"
+        if [ -z "$luafile" ]; then
+          echo "Unable to find the relevant file."
+        else
+          echo "Patching: $luafile"
+          sed -i 's|https://raw.githubusercontent.com/wowdev/wow-listfile/master/community-listfile.csv|https://github.com/wowdev/wow-listfile/releases/latest/download/community-listfile.csv|' "$luafile"
+        fi
 
     - name: Run wowcig on ${{ inputs.NAME }}
       if: ${{ steps.check.outputs.skip != 'true' }}
