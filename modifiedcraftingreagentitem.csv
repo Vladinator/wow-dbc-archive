@@ -284,9 +284,9 @@ ID,Description_lang,ModifiedCraftingCategoryID,ItemBonusTreeID,Flags,Field_9_1_0
 339,Increases item level to 489 in Arenas and Battlegrounds.,497,4235,0,0,0
 340,Increases item level to 489 in Arenas and Battlegrounds.,499,4235,0,0,0
 341,Gain stacking Critical Strike while above 70% health. Also add Unique-Equipped: Embellished (2).,500,4237,0,0,0
-342,"Certifies crafted equipment for use in PvP battlefields, enabling it to scale to 606 Item Level.|n|nMultiple are required to complete a craft.",502,4273,0,0,0
-343,"Certifies crafted equipment for use in PvP battlefields, enabling it to scale to 619 Item Level.|n|nMultiple are required to complete a craft.",503,4272,0,0,0
-344,"Certifies crafted equipment for use in PvP battlefields, enabling it to scale to 632 Item Level.|n|nMultiple are required to complete a craft.",504,4274,0,0,0
+342,"Certifies crafted equipment for use in PvP battlefields, enabling it to scale to $ev1 Item Level.|n|nMultiple are required to complete a craft.",502,4273,0,0,0
+343,"Certifies crafted equipment for use in PvP battlefields, enabling it to scale to $ev1 Item Level.|n|nMultiple are required to complete a craft.",503,4272,0,0,0
+344,"Certifies crafted equipment for use in PvP battlefields, enabling it to scale to $ev1 Item Level.|n|nMultiple are required to complete a craft.",504,4274,0,0,0
 345,,505,4281,0,0,0
 346,,505,4214,0,0,0
 347,"Your healing abilities have the chance to tether you to a friendly ally, granting Versatility for both players based on distance. Also add Unique-Equipped: Embellished (2).",507,4290,0,0,0
@@ -322,26 +322,25 @@ ID,Description_lang,ModifiedCraftingCategoryID,ItemBonusTreeID,Flags,Field_9_1_0
 378,,537,0,0,0,0
 379,,538,0,0,0,0
 380,,539,0,0,0,0
-381,,0,0,0,0,0
 383,,542,0,0,0,0
 384,,543,0,0,0,0
 385,,544,0,0,0,0
 386,,545,0,0,0,0
 387,,546,0,0,0,0
-388,Increases $en2 by $ev2 and the yield of resourcefulness by $ev1%.,547,0,0,0,0
+388,Increases $en2 by $ev2 and reagents saved from Resourcefulness by $ev1%.,547,0,0,0,0
 389,Increases $en1 by $ev1.,548,0,0,0,0
-390,Your spells and abilities have a chance to deal elemental damage. The chosen school is based on socketed gems. $@spelldesc437127,549,4449,0,0,0
+390,Your spells and abilities have a chance to deal bonus magic damage. The chosen school is based on socketed gems. $@spelldesc437127,549,4449,0,0,0
 391,$@spelldesc435992 $@spelldesc437127,550,4446,0,0,0
 392,"When damaged at low health, unleash starlight to shield yourself. The frequency this can occur increases with socketed gems. $@spelldesc437127",551,4456,0,0,0
-393,Increases $en1 by $ev1 and your chance to gain a Skill Point by $ev2% when cutting gems.,552,0,0,0,0
+393,Increases $en1 by $ev1 and your chance to gain a Skill Point by $ev2%.,552,0,0,0,0
 394,,553,0,0,0,0
 395,,554,0,0,0,0
 396,,555,0,0,0,0
 397,,556,0,0,0,0
 398,,557,4640,0,0,0
 399,,557,4461,0,0,0
-400,"Damaging a target has a chance to bless your weapon, increasing your highest secondary stat. The effect slowly fades over time. Also add Unique-Equipped: Embellished (2).",559,4681,0,0,0
-401,"Embrace the darkness. Double the effects of your other Nerubian embellished item, positive and negative. Also add Unique-Equipped: Embellished (2).",560,4682,0,0,0
+400,"Damaging a target has a chance to bless your weapon, increasing your highest secondary stat. The effect slowly fades over time.$@spelldesc437127",559,4681,0,0,0
+401,"Embrace the darkness. Double the effects of your other Nerubian embellished item, positive and negative.$@spelldesc437127",560,4682,0,0,0
 402,,561,0,0,0,0
 403,,562,0,0,0,0
 404,,563,0,0,0,0
@@ -360,10 +359,10 @@ ID,Description_lang,ModifiedCraftingCategoryID,ItemBonusTreeID,Flags,Field_9_1_0
 425,,584,0,0,0,0
 426,,585,0,0,0,0
 427,,586,0,0,0,0
-428,Imbue your crafted equipment with the power of Darkmoon Deck: Radiance. Also add Unique-Equipped: Embellished (2).,587,4766,0,0,0
-429,Imbue your crafted equipment with the power of Darkmoon Deck: Evolution. Also add Unique-Equipped: Embellished (2).,588,4767,0,0,0
-430,Imbue your crafted equipment with the power of Darkmoon Deck: Symbiosis. Also add Unique-Equipped: Embellished (2).,589,4768,0,0,0
-431,Imbue your crafted equipment with the power of Darkmoon Deck: Vivacity. Also add Unique-Equipped: Embellished (2).,590,4769,0,0,0
+428,$@spelldesc454558 $@spelldesc437127,587,4839,0,0,0
+429,$@spelldesc458573$@spelldesc437127,588,4767,0,0,0
+430,|n|n$@spelldesc463232$@spelldesc437127,589,4768,0,0,0
+431,$@spelldesc454857 $@spelldesc437127,590,4769,0,0,0
 432,Handful of Bismuth Bolts,594,0,0,0,0
 433,Whimsical Wiring,595,0,0,0,0
 434,Gyrating Gear,596,0,0,0,0
@@ -380,24 +379,24 @@ ID,Description_lang,ModifiedCraftingCategoryID,ItemBonusTreeID,Flags,Field_9_1_0
 445,$@spelldesc454455,607,4735,0,0,0
 446,"Chance to throw a pocket grenade, dealing damage split between enemies. $@spelldesc437127",608,4724,0,0,0
 447,"When dropped to low health, scatter mines around you that slow and damage enemies that step on them. $@spelldesc437127",609,4727,0,0,0
-448,,610,4740,0,0,0
+448,$@spelldesc455147 $@spelldesc437127,610,4740,0,0,0
 449,DNT does something awesome,649,0,0,0,0
 450,DNT does something awesome,650,0,0,0,0
 451,DNT does something awesome,651,0,0,0,0
 452,DNT does something awesome,652,0,0,0,0
 453,DNT does something awesome,653,0,0,0,0
 454,DNT does something awesome,654,0,0,0,0
-455,You gain $ev1 Ingenuity when crafting consumable items.,655,0,0,0,0
-456,You gain $ev1 Multicraft when crafting consumable items.,656,0,0,0,0
-457,You gain $ev1 Resourcefulness when crafting consumable items.,704,0,0,0,0
+455,Increases $en1 by $ev1.,655,0,0,0,0
+456,Multicraft yields $ev1% more when crafting consumable items.,656,0,0,0,0
+457,Increases $en1 by $ev1.,704,0,0,0,0
 458,DNT does something awesome,658,0,0,0,0
 459,DNT does something awesome,659,0,0,0,0
-460,Guarantee Critical Strike and Haste.,660,3725,1,0,0
-461,Guarantee Critical Strike and Mastery.,661,3741,1,0,0
-462,Guarantee Mastery and Haste.,662,3742,1,0,0
-463,Guarantee Versatility and Critical Strike.,663,3743,1,0,0
-464,Guarantee Versatility and Haste.,664,3744,1,0,0
-465,Guarantee Versatility and Mastery.,665,3745,1,0,0
+460,Guarantee Versatility and Haste.,660,3742,1,0,0
+461,Guarantee Mastery and Haste.,661,3743,1,0,0
+462,Guarantee Critical Strike and Haste.,662,3725,1,0,0
+463,Guarantee Versatility and Mastery.,663,3744,1,0,0
+464,Guarantee Critical Strike and Mastery.,664,3741,1,0,0
+465,Guarantee Versatility and Critical Strike.,665,3745,1,0,0
 466,DNT does something awesome,666,0,0,0,0
 467,DNT does something awesome,667,0,0,0,0
 468,DNT does something awesome,668,0,0,0,0
@@ -415,15 +414,15 @@ ID,Description_lang,ModifiedCraftingCategoryID,ItemBonusTreeID,Flags,Field_9_1_0
 480,,680,0,0,0,0
 481,,681,0,0,0,0
 482,,682,0,0,0,0
-483,"While above 80% health, gain Critical Strike. Also add Unique-Equipped: Embellished (2).",683,4770,0,0,0
-484,"While above 80% health, gain Versatility. Also add Unique-Equipped: Embellished (2).",684,4771,0,0,0
+483,"While above 80% health, gain Critical Strike.$@spelldesc437127",683,4770,0,0,0
+484,"While above 80% health, gain Versatility.$@spelldesc437127",684,4771,0,0,0
 486,Multicraft yields $ev1% more when crafting consumable items.,686,0,0,0,0
-488,You gain $ev1 Resourcefulness when crafting Khaz Algar Jewelcrafting goods.,685,0,0,0,0
+488,Increases $en1 by $ev1.,685,0,0,0,0
 489,Set Item Level based on Crafting Quality (577-590).,689,4700,0,0,0
 490,Set Item Level based on Crafting Quality (606-619).,591,4701,0,0,0
-491,Set Item Level based on Crafting Quality (616-629).,591,4702,0,0,0
-492,You use $ev1% less Concentration when Concentrating on a craft.,690,0,0,0,0
-493,You gain $ev1 Multicraft when crafting consumable items.,691,0,0,0,0
+491,Set Item Level based on Crafting Quality (623-636).,591,4702,0,0,0
+492,Use $ev1% less Concentration while Concentrating on a craft.,690,0,0,0,0
+493,Increases $en1 by $ev1.,691,0,0,0,0
 494,,692,0,0,0,0
 495,Potion of the Reborn Cheetah,693,0,0,0,0
 496,Algari Healing Potion,694,0,0,0,0
@@ -436,18 +435,18 @@ ID,Description_lang,ModifiedCraftingCategoryID,ItemBonusTreeID,Flags,Field_9_1_0
 503,,701,0,0,0,0
 504,,702,0,0,0,0
 505,,703,0,0,0,0
-506,You gain $ev1 Multicraft when crafting consumable items.,687,0,0,0,0
-508,You refund an additional $ev1% more reagents when crafting Khaz Algar Tailoring goods.,688,0,0,0,0
+506,Increases $en1 by $ev1.,687,0,0,0,0
+508,Increases reagents saved from Resourcefulness by $ev1%.,688,0,0,0,0
 510,Finish off your recipe with a spoonful of this secret ingredient to increase the number of servings produced.,706,0,0,0,0
-511,Add a dollop of this secret ingredient to increase the number of servings produced.,706,0,0,0,0
+511,Add a dollop of this secret ingredient to increase the number of servings produced.,707,0,0,0,0
 512,Increases $en1 by $ev1.,708,0,0,0,0
 513,Increases the chance to gain a Skill Point by $ev1%.,709,0,0,0,0
 514,,711,4396,0,0,0
 515,,711,4777,0,0,0
-516,Increases $en1 by $ev1 for this craft.,713,0,0,0,0
-517,Increases $en1 by $ev1 for this craft.,714,0,0,0,0
-518,Increases $en1 by $ev1 for this craft.,715,0,0,0,0
-519,Increases $en1 by $ev1 for this craft.,716,0,0,0,0
+516,Increases $en1 by $ev1.,713,0,0,0,0
+517,Increases $en1 by $ev1.,714,0,0,0,0
+518,Increases $en1 by $ev1.,715,0,0,0,0
+519,Increases $en1 by $ev1.,716,0,0,0,0
 520,Set the Item Level to $ev1 and the Required Level to $ev2. Use alongside Optional Reagents to empower the equipment further.,717,4797,0,0,0
 521,,718,0,0,0,0
 522,,719,0,0,0,0
@@ -455,5 +454,6 @@ ID,Description_lang,ModifiedCraftingCategoryID,ItemBonusTreeID,Flags,Field_9_1_0
 524,"Set Item Level based on Crafting Quality (545 - 558), add Soulbound and Required Level 74.",721,4799,0,0,0
 525,"Set Item Level based on Crafting Quality (561 - 574), add Soulbound and Required Level 80.",722,4800,0,0,0
 526,Set the Item Level to $ev1 and the Required Level to $ev2.,723,4801,0,0,0
-527,Increases Resourcefulness by $ev1.,724,0,0,0,0
-528,Increases Multicraft by $ev1.,725,0,0,0,0
+527,Increases $en1 by $ev1.,724,0,0,0,0
+528,Multicraft yields $ev1% more when crafting consumable items.,725,0,0,0,0
+529,Grant your crafted equipment a completely imperceivable but totally real improvement.,726,4877,0,0,0

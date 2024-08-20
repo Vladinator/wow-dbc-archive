@@ -26912,3 +26912,57 @@ end
 scale = 0.5 + (progress / 2) + parabola(0.5)
 
 --faceImpactPos = 1",0,3
+4801,11.0 Raid - Nerubian - Boss - Queen - P2 - Devoted Worshipper - Death Rift Missile) - SRC,"local magnitude = 14
+
+transUp = magnitude * ( 1 - progress )
+transFront = distanceToImpactPos
+",0,1
+4802,11.0 Raid - Nerubian - Boss - Queen - P2 - General - Portal Indicator Missiles (Is Spool) - SRC,"
+local magnitude = (progress * 1.9) - 1
+magnitude = 1 - (magnitude * magnitude * magnitude * magnitude)
+
+transRight = (sin((rand1 * 1000) + (time * 1000)) + cos((rand2 * 1000) + (time * 200))) * magnitude
+transUp = (sin((rand2 * 1000) + (time * 700)) + cos((rand1 * 1000) + (time * 300))) * magnitude
+
+local angle = 0
+local parabolicScalar = 0.06 -- higher = more parabolic
+local maxMagnitude = startDistance * parabolicScalar
+local spinRate = 360
+
+modelPitch = time * spinRate
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude",0,1
+4803,Grow (1 -> 2.5) and fade,"scale = 1 + (1.5 * progress)
+colorA = 1 + (-1.0 * progress)",0,1
+4806,Parabola (Fixed Height - 45 yards) - SRC,"local function parabola(a,b,m) return (4*m*((1-progress)*a)*((progress)*b)) end
+
+local height = 45
+local variance = 0
+height = height + (rand1 * variance)
+
+transUp = parabola(1,1,height)",0,1
+4807,Hunter - Hero Talent - Dark Ranger - Proc Shadow Arrows - Damage,"faceImpactPos = 1
+local phaseTwoStart = .6
+local p = progress - phaseTwoStart
+
+if progress <= phaseTwoStart then
+    transFront = -distanceToFirePos-sin(progress/phaseTwoStart * (progress*200)) 
+    --transUp = math.pow(progress,.2)
+    transUp = rand2*1.5
+    modelPitch = (progress*phaseTwoStart)*20
+    transRight = -.10 + (rand1*1.5)
+    
+else
+    transFront = -distanceToFirePos
+    --transUp = math.pow(progress,.2)
+    transUp = rand2*1.5
+    
+    p = p/(1 - phaseTwoStart)
+    transFront = ((1 - p) * transFront)
+    transUp = ((1 - p) * transUp)
+    modelPitch = 0
+    faceImpactPos = 1
+	transRight = -.10 + (rand1*1.5)
+    
+end",0,1
