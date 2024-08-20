@@ -11821,7 +11821,7 @@ You can find trainers for them in some settlements and cities.",1
 23981,ITEM_CHARGEUP_TOTAL_SEC,(Requires %d Sec),1
 23982,SPELL_FAILED_CUSTOM_ERROR_189,You must be near the Bloodied Court gate.,1
 23984,ERR_BN_FRIEND_LIST_FULL,You don't have room for any more Blizzard friends.,3
-23985,GMSS_CHAT_DEFAULT_RESPONSE,"This GM is unavailable for chat. If the Open Ticket icon is present, please do not close or edit your petition. If the icon is not present and you require additional assistance, please open a new ticket. Thank you.",1
+23985,GMSS_CHAT_DEFAULT_RESPONSE,This GM is currently unavailable for chat.,1
 23986,MAP_BAR_TOOLTIP_TITLE,%s - %d%% Complete,1
 23988,BONUS_REPUTATION_TITLE,Bonus Reputation,1
 23989,BONUS_REPUTATION_TOOLTIP,Your account has unlocked bonus reputation gain with this faction.,1
@@ -21788,7 +21788,7 @@ You can't do outdoor and queued content with this character.",1
 51261,PROF_ORDER_CANT_REPORT_IN_PROGRESS,This player cannot be reported until the order has been cancelled or completed.,1
 51263,SPELL_FAILED_DRAGONRIDING_RIDING_REQUIREMENT,Requires Skyriding skill,1
 51264,ADVENTURES_COMBAT_LOG_SPELL_RANGE_DAMAGE,{caster} cast {spellName} at {target} for {damage} {element} damage.,5
-51265,RPE_SKIP_UPGRADE_CONFIRMATION,Are you sure you want to enter world? You will not be able to get the free Gear Update.,3
+51265,RPE_SKIP_UPGRADE_CONFIRMATION,"Are you sure you want to enter world? You will not be able to get the free Gear Update.\n\nTo update gear, switch to this character's realm using the ""Realms"" button in the top menu.",3
 51266,SPELL_FAILED_CUSTOM_ERROR_1002,This player is not of the opposite faction.,1
 51267,SPELL_FAILED_CUSTOM_ERROR_1003,This player already has this mount.,1
 51268,SPELL_FAILED_CUSTOM_ERROR_1004,Your target is in War Mode.,1
@@ -22707,7 +22707,7 @@ Items from the event have been removed.
 52443,GENERIC_TRAIT_FRAME_THE_VIZIER_TITLE,Pact: The Vizier,1
 52444,QUEST_REWARDS_CONTAINS_ONE_TIME_REP_BONUS,Awards a one-time Warband reputation bonus,1
 52445,QUEST_REWARDS_IS_ONE_TIME_REP_BONUS,This is a one-time Warband reputation bonus,1
-52446,CRAFTING_ORDER_FAILED_ACCOUNT_ITEMS,You cannot use reagents from the Warband bank in a crafting order.,1
+52446,CRAFTING_ORDER_FAILED_ACCOUNT_ITEMS,You currently cannot use reagents from the Warband bank in a crafting order. Place them in your bags or the Reagent bank to use them in this order.,1
 52448,ACCOUNT_REACTIVATE_ERR_NOT_ENOUGH_GOLD_TOOLTIP,Not enough gold on current realm,2
 52450,TRIVIAL_QUESTS_FILTER_DESCRIPTION,These quests are significantly lower than your current level and will award no experience.,1
 52451,ERR_CANT_TRADE_ACCOUNT_ITEM,You can't trade an item from the Warband bank.,1
@@ -22715,7 +22715,11 @@ Items from the event have been removed.
 52453,MAP_LEGEND_DELVE_TOOLTIP,"Content designed for a party of up to five adventurers using any combat role, and provides loot",1
 52454,DIFFICULTY_LOCKED_REASON_STORY_RAID,Unavailable in Story mode,1
 52455,DELVES_WEEKLY_REWARDS_UNCLAIMED_TEXT,You have unclaimed rewards! Return to the Great Vault in Dornogal to make your selection.,1
-52456,DELVES_WARNING_PARTY_MEMBER_INELIGIBLE_FOR_TIER,|Hplayer:%s|h[%s]|h cannot join your Tier %d delve (Tier %d unlocked).,1
-52457,DELVES_WARNING_INELIGIBLE_FOR_PARTY_TIER,You cannot join your party's Tier %d delve (Tier %d unlocked).,1
+52456,DELVES_WARNING_PARTY_MEMBER_INELIGIBLE_FOR_TIER,|Hplayer:%s|h[%s]|h cannot join your tier %d delve (tier %d unlocked).,1
+52457,DELVES_WARNING_INELIGIBLE_FOR_PARTY_TIER,You cannot join your party's tier %d delve (tier %d unlocked).,1
 52458,TEST_STRING_IGNORE_1,Test,1
 52459,SPELL_FAILED_CUSTOM_ERROR_2224,You cannot use a Vantus Rune in Story Mode.,1
+52460,ERR_GUILD_BANK_WARBANDS_BANK_SOURCE,You cannot move items directly from the Warband Bank to the Guild Bank.,1
+52461,WARWITHIN_TITLE2,The War Within: Shadows Beneath,2
+52462,SPELL_FAILED_CUSTOM_ERROR_2425,Earthen cannot consume traditional food or drink.,1
+52463,DELVES_PARTY_MEMBER_INELIGIBLE_FOR_TIER_TOOLTIP,%s has not unlocked this tier,1
