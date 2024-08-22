@@ -365428,7 +365428,7 @@ Toss a cluster of steel traps directly in front of the caster, rooting and damag
 434694,,$@spelldesc434695,
 434695,,"The drinks fall to the floor and explode, inflicting $s1 Fire damage to players within $A1 yards of the impact. ",
 434696,,$@spelldesc434708,$@spelldesc434708
-434697,,"Ulgrax crushes players in a cone in front of him, inflicting $434702s1 Physical damage. In addition, the attack also afflicts players with $s2 applications of $@spellname434705.",
+434697,,"Ulgrax crushes the current threat target, inflicting $434702s1 Physical damage and $s2 applications of $@spellname434705.",
 434699,,,
 434701,Main Hand,"Shoot enemies in a short range in front of you.
 ",
@@ -369268,7 +369268,7 @@ This effect stacks.",
 439498,,$@spelldesc436263,You're targeted by $@spellname439498.
 439499,,,
 439501,,,
-439502,,"Ulgrax shoots webs over random destinations, inflicting $s1 Nature damage to players within $a1 yards of impact and leaves behind $@spellname439419.",
+439502,,"Ulgrax shoots webs over random destinations, inflicting $s1 Nature damage to players within $a1 yards of impact and leaving behind $@spellname439419.",
 439504,,,
 439506,,$@spelldesc433677,
 439508,,,
@@ -369916,7 +369916,7 @@ Movement speed reduced by $s3%."
 440166,,"Striking an enemy afflicted by Reaper's Mark with $?a137008[Marrowrend or Heart Strike][Obliterate or Frostscythe while empowered by Killing Machine] applies a stack of Reaper's Mark, and has a chance to spread Reaper's Mark to a nearby enemy, up to $s2 times. 
 
 Reaper's Marks applied with Harrowing Strikes can only stack up to $s3 times and cannot benefit from this effect.",
-440168,,"Anub'arash charges forward, inflicting $s1 Naturedamage to any player in his path and knocking them away. 
+440168,,"Anub'arash charges forward, inflicting $s1 Nature damage to any player in his path and knocking them away. 
 
 Upon colliding with a wall, Anub'arash releases a deadly shockwave that inflicts $440178s1 Nature damage to all players. 
 
@@ -378992,7 +378992,7 @@ A Succulent Soul empowers your next $?s137043[Malefic Rapture, increasing its da
 449615,,,
 449616,,,
 449618,,,
-449619,,"While under the effects of a casted $?c1[Arcane Surge][Combustion], you gain twice as many stacks of Mana Addiction.
+449619,,"While under the effects of a casted $?c1[Arcane Surge][Combustion], you gain twice as many stacks of Mana Cascade.
 
 When your Arcane Phoenix expires, it empowers you, granting $?c1[Arcane Soul][Hyperthermia] for $?c1[${$s1/1000}][${$s3/1000}] sec, plus an additional $?c1[${$s2/1000}.1][${$s4/1000}.1] sec for each exceptional spell it had cast.
 
@@ -380256,7 +380256,7 @@ Lasts for $d.",$@spellaura450995
 450979,,Flurry Strikes have $s1% additional chance to critically strike.,
 450980,,"Takazj shields herself, absorbing $s2 damage. 
 
-While the shield holds, Takazj unleashes an $@spellname460600  every $t1 sec and spins cones of webs throughout the chamber. These webs decrease player movement by $451086s1% and inflict $451086s2 Shadow damage every $451086t2 sec to players within the area. 
+While the shield holds, Takazj unleashes an $@spellname460600 every $t1 sec and spins cones of webs throughout the chamber. These webs decrease player movement by $451086s1% and inflict $451086s2 Shadow damage every $451086t2 sec to players within the area. 
 
 The webs periodically explode, knocking players back while inflicting $451016s2 Shadow damage and an additional $451016s4 Shadow damage every $451016t4 sec for $451016d.","Absorbs $w2 damage.
 Periodically casts $@spellname441782."
@@ -384903,7 +384903,7 @@ Chance to lose stacks upon taking damage triggering a Darkness Outburst"
 455857,,$@spelldesc439851,
 455860,,,
 455862,,,
-455863,,"Players are condemned by the court and filled with the essence of death, inflicting $460365s1 Chaos damage every $t1. This aura persists through death.",$460365s1 Chaos damage inflicted every $t1 sec.
+455863,,"Players are condemned by the court and filled with the essence of death, inflicting $460365s1 Chaos damage every $t1 sec. This aura persists through death.",$460365s1 Chaos damage inflicted every $t1 sec.
 455865,,"The caster slashes the target with their blade, inflicting Physical damage and reducing their movement speed by $s2% for $d.",Movement speed reduced by $s2%.
 455866,,,
 455867,,,
@@ -389046,7 +389046,7 @@ Inflicts $461392s1 Nature damage every $t1 sec."
 461392,,$@spelldesc461388,
 461399,,,
 461400,,,
-461401,,"Cosmic Simulacrums react to each other and combust, inflicting $s1 Shadow damage to all players if another Simulacrum is within 5 yards.",
+461401,,"Cosmic Simulacrums react to each other and combust, inflicting $s1 Shadow damage to all players if another Simulacrum is within $s2 yards.",
 461404,,"Hurls a torrent of Chi energy up to $460485s1 yds forward, dealing $148135s1 Nature damage to all enemies, and $130654s1 healing to the Monk and all allies in its path. Healing and damage reduced beyond $s1 targets.
 $?c1[
 
@@ -390363,7 +390363,7 @@ Do you want to ride it?",
 ",
 463461,,"Dark energy clings to the player, increasing damage taken from $@spellname460600 by $s1%. This effect stacks.
 ",Damage from $@spellname460600 increased by $s1%.
-463464,,"The ground heaves beneath the player, increasing damage taken from $@spellname460364 by $s1$. This effect stacks. 
+463464,,"The ground heaves beneath the player, increasing damage taken from $@spellname460364 by $s1%. This effect stacks. 
 
 ",Damage from $@spellname460364 increased by $s1%.
 463468,,,
@@ -390989,4 +390989,14 @@ Healing reduced beyond $s5 targets.",
 467852,,,
 468121,,,
 468326,,,
+468554,,,
 468567,,,
+468570,,,
+468584,,,
+468588,,,
+468690,,,
+468693,,,
+468655,,"Launches a bolt of frostfire at the enemy, causing $s1 Frostfire damage, slowing movement speed by $s3%, and causing an additional $o2 Frostfire damage over $d.
+
+Frostfire Bolt generates stacks for both Fire Mastery and Frost Mastery.",Movement speed reduced by $w3% and receiving $w2 damage every $t2 sec.
+468673,,,
