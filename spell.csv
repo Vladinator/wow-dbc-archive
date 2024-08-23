@@ -365881,6 +365881,7 @@ Salty."
 435133,,Summons and dismisses this mount.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
 435135,,,Spiders are seeking any fresh meat.
 435136,,"Ulgrax flings poison at all players, inflicting $s1 Nature damage on impact and an additional $s2 Nature damage every $t2 sec for $d.",$s2 Nature damage inflicted every $t2 sec.
+435137,,,
 435138,,"Ulgrax belches Digestive Acid at several players, inflicting $s1 Nature damage every $t1 sec for $d.
 
 Once removed venom erupts the victim's skin, inflicting $435152s1 Nature damage to players within $435152a1 yards and dissolving any webbing left behind by $@spellname441451.",Inflicts $s1 Nature damage every $t1 sec.
@@ -374208,7 +374209,7 @@ If an ally drops below $s3% health, expel a charge to heal them for $s1. If unco
 444281,,,
 444282,,"Feed the Coagulum, redirecting $444271s4% of all healing done until ${$444271s1*$444271s3/100} healing has been consumed. Once sated, the Coagulum bursts to heal $444271s5 allies for ${($444271s1+($444271s1*$444271s3*.01*(1+$444271s6*.01)))/$444271s5}.
 
-Lingering effluvia causes affected allies' next attacks to deal an additional ${444271s2/$444271s5} Shadow damage, increased based on overhealing done by the Coagulum.",Redirecting $w1% of healing done until the Coagulum has consumed ${$w2} healing.
+Lingering effluvia causes affected allies' next attacks to deal an additional $444271s2 Shadow damage, increased based on overhealing done by the Coagulum.",Redirecting $w1% of healing done until the Coagulum has consumed ${$w2} healing.
 444283,,,
 444287,,,
 444288,,,
@@ -385401,7 +385402,7 @@ Size increased by $s1%."
 456417,,,
 456418,,,
 456419,,,
-456420,,"At 100 energy, Sikran swings his polearm in a deadly arc, inflicting $458277s1 Physical damage to all enemies. This damage is decreased based on distance. 
+456420,,"At 100 energy, Sikran swings his polearm in a deadly arc, inflicting $458277s1 Shadow damage to all enemies. This damage is decreased based on distance. 
 
 All remaining Cosmic Simulacrum are destroyed by this effect, and damage from $@spellname459273 is increased by $464442s1% for each Simulacrum destroyed for $464442d.
 
@@ -390989,14 +390990,16 @@ Healing reduced beyond $s5 targets.",
 467852,,,
 468121,,,
 468326,,,
+468506,,,
 468554,,,
 468567,,,
 468570,,,
 468584,,,
 468588,,,
-468690,,,
-468693,,,
 468655,,"Launches a bolt of frostfire at the enemy, causing $s1 Frostfire damage, slowing movement speed by $s3%, and causing an additional $o2 Frostfire damage over $d.
 
 Frostfire Bolt generates stacks for both Fire Mastery and Frost Mastery.",Movement speed reduced by $w3% and receiving $w2 damage every $t2 sec.
 468673,,,
+468690,,,
+468693,,,
+469015,,,
