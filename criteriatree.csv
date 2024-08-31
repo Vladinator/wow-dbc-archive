@@ -89038,11 +89038,11 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 153826,Unnamed Branch,149919,99,8,0,1,0
 153827,11.0 Z2 - The Ringing Deeps - Level Up - Achievement,0,0,4,0,0,0
 153828,(Intro and Chapter 1),153827,0,4,0,0,0
-153829,By Candlelight,153828,0,0,64791,0,0
+153829,By Candlelight,153828,0,0,64791,0,16
 153830,(Chapter 2),153827,0,4,0,1,0
-153831,Dark Revelations,153830,0,0,64792,0,0
+153831,Dark Revelations,153830,0,0,64792,0,16
 153832,(Chapter 3),153827,0,4,0,2,0
-153833,The Monster and the Machine,153832,0,0,64793,0,0
+153833,The Monster and the Machine,153832,0,0,64793,0,16
 153846,11.0 Z1 - Theater - Scenario - (KEF)/PRK - Clean Up Programs (RPS),0,0,4,0,0,0
 153847,Discarded Theater Programs collected,153846,5,0,64797,0,32
 153848,11.0 Z1 - Theater - Scenario - (KEF)/PRK - Hang Playbills (RPS),0,0,4,0,0,0
@@ -94132,10 +94132,10 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 161443,The Ringing Deeps,161441,1,0,66983,1,0
 161444,Hallowfall,161441,1,0,66982,2,0
 161445,Azj-kahet,161441,1,0,66984,3,0
-161446,Complete Sparks of War quest in the War Within 5 times.,0,0,4,0,0,1
-161447,Sparks of War,161446,5,0,66985,0,1
-161448,Complete Sparks of War quest in the War Within 20 times.,0,0,4,0,0,0
-161449,Sparks of War,161448,20,0,66985,0,1
+161446,Complete Sparks of War quest in the War Within 5 times.,0,5,5,0,0,8193
+161447,Sparks of War,161446,0,0,70509,1,0
+161448,Complete Sparks of War quest in the War Within 20 times.,0,20,5,0,0,8193
+161449,Sparks of War,161448,0,0,70510,0,0
 161457,,161407,6,0,66986,1,0
 161458,Complete 3 World Quests in Isle of Dorn,0,3,5,0,0,4096
 161459,,161458,3,0,66987,0,0
@@ -98060,8 +98060,6 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 167766,,167764,0,0,69687,1,0
 167767,Memories of the Sky,167736,0,4,0,14,8240
 167768,,167767,0,0,69688,0,0
-167769,,167767,0,0,69689,1,0
-167770,,167767,0,0,69690,2,0
 167771,11.0 Z3 - Achievements - Hallowfall Arathi (SHY),0,0,4,0,0,0
 167772,,167771,15,0,68909,0,1
 167773,Unique Treasures: Hallowfall,0,0,4,0,0,0
@@ -98092,20 +98090,19 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 167798,Pride of Beledar,167785,1,0,69715,13,0
 167799,Beledar's Spawn,167785,1,0,69716,11,0
 167800,Deathtide,167785,1,0,69717,14,0
-167801,Brineslash,167785,1,0,69718,15,0
-167802,Moth'ethk,167785,1,0,69719,16,0
-167803,Crazed Cabbage Smacker,167785,1,0,69720,17,0
-167804,Deathpetal,167785,1,0,69721,18,0
-167805,Croakit,167785,1,0,69722,19,0
-167806,Toadstomper,167785,1,0,69723,20,0
-167807,Duskshadow,167785,1,0,69724,21,0
-167808,Parasidious,167785,1,0,69725,22,0
-167809,Ravageant,167785,1,0,69726,23,0
-167810,Finclaw Bloodtide,167785,1,0,69727,24,0
-167811,Murkspike,167785,1,0,69728,25,0
+167802,Moth'ethk,167785,1,0,69719,15,0
+167803,Crazed Cabbage Smacker,167785,1,0,69720,16,0
+167804,Deathpetal,167785,1,0,69721,17,0
+167805,Croakit,167785,1,0,69722,18,0
+167806,Toadstomper,167785,1,0,69723,19,0
+167807,Duskshadow,167785,1,0,69724,20,0
+167808,Parasidious,167785,1,0,69725,21,0
+167809,Ravageant,167785,1,0,69726,22,0
+167810,Finclaw Bloodtide,167785,1,0,69727,23,0
+167811,Murkspike,167785,1,0,69728,24,0
 167812,Lightspark Grade Book,165853,1,0,69729,10,0
 167830,Add the Unbreakable Iron Idol to your collection,0,1,8,0,0,4096
-167831,,167830,1,0,69736,0,0
+167831,Rank 1,167830,1,0,69736,0,0
 167832,Equip the Unbreakable Iron Idol to your companion,0,1,8,0,0,4096
 167833,,167832,1,0,69737,0,0
 167834,,167832,1,0,69738,1,0
@@ -98119,7 +98116,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 167842,,167839,1,0,69744,2,0
 167843,,167839,1,0,69745,3,0
 167844,Add the Steamlined Relic to your collection,0,1,8,0,0,4096
-167845,,167844,1,0,69746,0,0
+167845,Rank 1,167844,1,0,69746,0,0
 167846,Equip the Streamlined Relic to your companion,0,1,8,0,0,4096
 167847,,167846,1,0,69747,0,0
 167848,,167846,1,0,69748,1,0
@@ -98441,3 +98438,15 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 168841,,157281,1,0,70414,6,0
 168864,"[DNT] <Hidden> Mythic+ Rating > 0 (The War Within, any season)",0,0,4,0,0,0
 168865,,168864,1,0,70426,0,0
+168988,Rank 2,167844,1,0,70512,1,0
+168989,Rank 3,167844,1,0,70513,2,0
+168990,Rank 4,167844,1,0,70514,3,0
+168991,Rank 2,167830,1,0,70515,1,0
+168992,Rank 3,167830,1,0,70516,2,0
+168993,Rank 4,167830,1,0,70517,3,0
+168994,Sparks of War,161446,0,0,70508,0,0
+168995,Sparks of War,161446,0,0,70510,2,0
+168996,Sparks of War,161446,0,0,70511,3,0
+168997,Sparks of War,161448,0,0,70508,1,0
+168998,Sparks of War,161448,0,0,70511,2,0
+168999,Sparks of War,161448,0,0,70509,3,0
