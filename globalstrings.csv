@@ -5982,7 +5982,7 @@ ID,BaseTag,TagText_lang,Flags
 17218,MOVIE_RECORDING_COMPRESSING,Compressing,1
 17219,MOVIE_RECORDING_COMPRESSING_CANCEL_NEWBIE_TOOLTIP,This will finish the compression early. You will lose the part that is still not compressed. The part that is currently compressed will be saved on your hard drive.,1
 17220,MOVIE_RECORDING_COMPRESSING_CANCEL_TOOLTIP,Cancel Compression,1
-17221,MAC_OPTIONS,Mac Options,1
+17221,MAC_OPTIONS,Mac Options,3
 17223,MOVIE_RECORDING_ENABLE_GUI,Record the User Interface,1
 17224,MOVIE_RECORDING_ENABLE_GUI_TOOLTIP,"If this is checked, you will see the user interface in the movie. Regardless of this setting, you will see the user interface while playing.",1
 17225,MOVIE_RECORDING_ENABLE_SOUND,Record Sound,1
@@ -9472,7 +9472,7 @@ ID,BaseTag,TagText_lang,Flags
 20997,STAT_HIT_MELEE_TOOLTIP,Hit %s (+%.2f%% hit chance),1
 20998,STAT_HIT_RANGED_TOOLTIP,Hit %s (+%.2f%% hit chance),1
 20999,STAT_HIT_SPELL_TOOLTIP,Hit %s (+%.2f%% hit chance),1
-21000,STAT_MASTERY_TOOLTIP,Mastery: %s [+%.2f%%],1
+21000,STAT_MASTERY_TOOLTIP,Mastery rating %s (+%.2f mastery).,1
 21001,STAT_RUNIC_POWER_TOOLTIP,Maximum Runic Power.,1
 21002,STAT_MANA_TOOLTIP,Maximum mana.  Mana is used to cast spells.,1
 21003,STAT_ENERGY_TOOLTIP,Maximum energy.  Energy is consumed when using abilities and is restored automatically over time.,1
@@ -9654,7 +9654,7 @@ ID,BaseTag,TagText_lang,Flags
 21186,BONUS_TALENTS_TOOLTIP,+%d Talent Points,1
 21187,CHAT_SERVER_DISCONNECTED_MESSAGE,You have been disconnected from the Chat Server and may be unable to send or receive messages.,1
 21188,CHAT_SERVER_RECONNECTED_MESSAGE,You have been reconnected to the Chat Server and may send or receive messages.,1
-21189,ERR_DIFFICULTY_CHANGE_HEROIC_INSTANCE_ALREADY_RUNNING,Your heroic instance is already in running and in use by another party,1
+21189,ERR_DIFFICULTY_CHANGE_HEROIC_INSTANCE_ALREADY_RUNNING,Your heroic instance is already running and in use by another party,1
 21190,GUILD_NEWS_FORMAT0,Guild achievement earned: %s,1
 21191,GUILD_NEWS_FORMAT1,%s earned the achievement %s,1
 21192,GUILD_NEWS_FORMAT2,%s defeated %s,1
@@ -10742,9 +10742,9 @@ ID,BaseTag,TagText_lang,Flags
 22343,MAC_DISABLE_OS_SHORTCUTS,Disable OS Keyboard Shortcuts,3
 22344,MAC_DISABLE_OS_SHORTCUTS_TOOLTIP,Disables the operating system keyboard shortcuts. Use this if you don't want to accidentally fire operating system shortcuts during the game.,3
 22345,REQ_LEVEL_ABBR,Lvl,1
-22346,MAC_OPTIONS_MISC,Miscellaneous,1
+22346,MAC_OPTIONS_MISC,Miscellaneous,3
 22347,MAC_SWAP_CONTROL_AND_COMMAND,Use Command instead of Control for key bindings,1
-22348,MAC_SWAP_CONTROL_AND_COMMAND_TOOLTIP,Use this if you want to use the Command key modifier for key bindings instead of the Control key.,1
+22348,MAC_SWAP_CONTROL_AND_COMMAND_TOOLTIP,Use this if you want to use the Command key modifier for key bindings instead of the Control key.,3
 22349,SCROLL_OF_RESURRECTION,Scroll of Resurrection,1
 22350,ENTER_EMAIL_OR_CHARACTER,Enter email or character-realm name,1
 22351,SEND_SCROLL_OF_RESURRECTION,Send Scroll of Resurrection,1
@@ -10864,7 +10864,7 @@ ID,BaseTag,TagText_lang,Flags
 22465,IN_LFG_QUEUE_BUT_SUSPENDED,Your queue has been temporarily suspended. You will retain your position in the queue.,1
 22466,RF_REWARD_EXPLANATION2,Each victory subsequent to the first each week will earn you:,1
 22467,RF_REWARD_EXPLANATION1,Your first completion per week will earn you:,1
-22468,MAC_OPEN_UNIVERSAL_ACCESS,"In order to use this option accessibility needs to be enabled. Please check the option \""Enable access for assistive devices\"" in the Universal Access System Preferences panel. Would you like to open the System Preferences now?",1
+22468,MAC_OPEN_UNIVERSAL_ACCESS,"In order to use this option accessibility needs to be enabled. Please check the option \""Enable access for assistive devices\"" in the Universal Access System Preferences panel. Would you like to open the System Preferences now?",3
 22469,ERR_PARTY_ROLE_NOT_AVAILABLE,Problem trying to fill your group's available roles,1
 22470,ERR_JOIN_LFG_OBJECT_FAILED,You failed to join the instance in progress,1
 22471,SPELL_FAILED_CUSTOM_ERROR_148,Target is already affected by Stardust No. 2.,1
@@ -11950,8 +11950,8 @@ ID,BaseTag,TagText_lang,Flags
 23661,BATTLE_PET_PUT_IN_CAGE_SLOTTED,Put In Cage (Battle Slot),1
 23662,BATTLE_PET_PUT_IN_CAGE_HEALTH,Put In Cage (Health),1
 23663,PET_JOURNAL_CARD_NAME_DEFAULT,Select a pet from the list on the left.,1
-23664,MAC_USE_COMMAND_AS_CONTROL,Use Command key as Control key,1
-23665,MAC_USE_COMMAND_AS_CONTROL_TOOLTIP,Use Command key and Control key interchangeably.,1
+23664,MAC_USE_COMMAND_AS_CONTROL,Use Command key as Control key,3
+23665,MAC_USE_COMMAND_AS_CONTROL_TOOLTIP,Use Command key and Control key interchangeably.,3
 23666,MAC_USE_COMMAND_LEFT_CLICK_AS_RIGHT_CLICK,Command left click as right click,3
 23667,MAC_USE_COMMAND_LEFT_CLICK_AS_RIGHT_CLICK_TOOLTIP,Hold down Command key and left click to simulate a right click.,3
 23668,SPELL_FAILED_CANT_ADD_BATTLE_PET,Can't Add Companion To Your Account,1
@@ -14288,7 +14288,7 @@ ID,BaseTag,TagText_lang,Flags
 32224,BOOST2_MAGEFROST_REMIND_FROSTBOLT,Use |cFFFFFFFFFrostbolt|r.,1
 32225,ERR_TALENT_FAILED_CANT_REMOVE_TALENT,You can't change that talent choice while %s is on cooldown.,1
 32226,BOOST2_MAGEFROST_FROZENORB,Use |cFFFFFFFFFrozen Orb|r.,1
-32227,SELF_HIGHLIGHT_OPTION,Raid Self Highlight,1
+32227,SELF_HIGHLIGHT_OPTION,Self Highlight,1
 32228,SELF_HIGHLIGHT_MODE_CIRCLE,Circle,1
 32229,SELF_HIGHLIGHT_MODE_CIRCLE_AND_OUTLINE,Circle & Outline,1
 32230,SELF_HIGHLIGHT_ON,Self Highlight On,1
@@ -14301,7 +14301,7 @@ ID,BaseTag,TagText_lang,Flags
 32237,OPTION_TOOLTIP_SELF_HIGHLIGHT_IN_RAID_COMBAT,Only highlight your character when in combat.,1
 32238,OPTION_TOOLTIP_SELF_HIGHLIGHT_IN_BG,Highlight your character in Battlegrounds.,1
 32239,OPTION_TOOLTIP_SELF_HIGHLIGHT_IN_BG_COMBAT,Only highlight your character when in combat.,1
-32240,OPTION_TOOLTIP_SELF_HIGHLIGHT,Highlight your character in Raids and Battlegrounds.,1
+32240,OPTION_TOOLTIP_SELF_HIGHLIGHT,Add a highlight to make it easier to see your character.,1
 32241,LFG_LIST_TOOLTIP_HONOR_LEVEL,Honor Level Required: |cffffffff%d|r,1
 32242,CONFIRM_LEARN_SPEC_COST,Activating this specialization will cost %s. Are you sure you want to learn this specialization?,1
 32243,PRIMARY_SPEC_CHANGE_AT_CLASS_TRAINER,You can change your primary specialization at your class trainer,1
@@ -14736,7 +14736,7 @@ ID,BaseTag,TagText_lang,Flags
 33778,ACCOUNT_CREATE_FAILED,Account creation failed,2
 33779,ACCOUNT_CREATE_IN_PROGRESS,Creating account,2
 33780,ACCOUNT_CREATE_SUCCESS,Account created,2
-33781,ACCOUNT_CREATE_URL,http://enUS.nydus.battle.net/WOW/enUS/client/manage_account,2
+33781,ACCOUNT_CREATE_URL,https://account.battle.net,2
 33782,ACCOUNT_MESSAGE_BODY_NO_READ_URL,http://support.worldofwarcraft.com/accountmessaging/getMessageBodyUnread.xml,2
 33783,ACCOUNT_MESSAGE_BODY_URL,http://support.worldofwarcraft.com/accountmessaging/getMessageBody.xml,2
 33784,ACCOUNT_MESSAGE_BUTTON_READ,Mark as read,2
@@ -14788,7 +14788,7 @@ ID,BaseTag,TagText_lang,Flags
 33833,AUTH_LOCKED_ENFORCED,You have applied a lock to your account. You can change your locked status by calling your account lock phone number.,2
 33834,AUTH_LOGIN_SERVER_NOT_FOUND,Invalid Login Server,2
 33835,AUTH_NO_TIME,"Your World of Warcraft subscription has expired. You will need to reactivate your account. To do so, please visit www.worldofwarcraft.com/account for more information.",2
-33836,AUTH_NO_TIME_URL,http://enUS.nydus.battle.net/WOW/enUS/client/manage_account,2
+33836,AUTH_NO_TIME_URL,https://account.battle.net,2
 33837,AUTH_OK,Authentication Successful,2
 33838,AUTH_PARENTAL_CONTROL,Access to this account is currently restricted by parental controls. You can change your control settings from your online account management.,2
 33839,AUTH_PARENTAL_CONTROL_URL,http://www.worldofwarcraft.com/account,2
@@ -15241,7 +15241,7 @@ ID,BaseTag,TagText_lang,Flags
 34286,DEMONHUNTER_DISABLED,Requires Legion and a level 70 character.,2
 34287,DEMON_HUNTER_RESTRICTED_HAS_DEMON_HUNTER,You can only have one Demon Hunter per realm.,2
 34288,DEMON_HUNTER_RESTRICTED_NEED_LEVEL_70,Your highest level character on this realm must be at least level 70.,2
-34289,DEVICE_BLACKLISTED,"<html><body><p align=""CENTER"">Your video device is not compatible. Please see <a href=""http://nydus.battle.net/WoW/enUS/launcher/video-unsupported"">http://nydus.battle.net/WoW/enUS/launcher/video-unsupported</a> for more information.</p></body></html>",2
+34289,DEVICE_BLACKLISTED,"<html><body><p align=""CENTER"">Your video device is not compatible. Please see <a href=""https://support.blizzard.com/article/76459"">https://support.blizzard.com/article/76459</a> for more information.</p></body></html>",2
 34290,DIALOG_HELP_MORE_INFO,More Info,2
 34291,DISCONNECTED,You have been disconnected from the server.,2
 34292,DISCONNECT_REASON_BAN,"This account has been temporarily suspended for Terms of Use violations http://www.blizzard.com/company/legal/wow_tou.html. The suspension expires in %d |4day:days;, %d |4hour:hours;, %d |4minute:minutes;. Please see your email for further details on the violation and appeals process.",2
@@ -15251,8 +15251,8 @@ ID,BaseTag,TagText_lang,Flags
 34296,DOWNLOAD_SUCCESSFUL_TEXT,Press the restart button below to exit World of\nWarcraft and download the patch.,2
 34297,DPS,DPS,2
 34298,DRAENEI_DISABLED,Draenei\nRequires The Burning Crusade,2
-34299,DRIVER_BLACKLISTED,"<html><body><p align=""CENTER"">Your device driver is not compatible. Please see <a href=""http://nydus.battle.net/WoW/enUS/launcher/driver-unsupported"">http://nydus.battle.net/WoW/enUS/launcher/driver-unsupported</a> for more information.</p></body></html>",2
-34300,DRIVER_OUTOFDATE,"<html><body><p align=""CENTER"">Your device driver is out of date. Please see <a href=""http://nydus.battle.net/WoW/enUS/launcher/driverupdates"">http://nydus.battle.net/WoW/enUS/launcher/driverupdates</a> for more information.</p></body></html>",2
+34299,DRIVER_BLACKLISTED,"<html><body><p align=""CENTER"">Your device driver is not compatible. Please see <a href=""https://support.blizzard.com/article/updating-your-drivers-and-operating-system"">https://support.blizzard.com/article/updating-your-drivers-and-operating-system</a> for more information.</p></body></html>",2
+34300,DRIVER_OUTOFDATE,"<html><body><p align=""CENTER"">Your device driver is out of date. Please see <a href=""https://support.blizzard.com/article/updating-your-drivers-and-operating-system"">https://support.blizzard.com/article/updating-your-drivers-and-operating-system</a> for more information.</p></body></html>",2
 34301,DRUID_DISABLED,Druid\nYou must choose a different race to be this class.,2
 34302,EMAIL_ADDRESS,E-Mail Address,2
 34303,ENABLED_FOR_SOME,This addon is only enabled for some characters.,2
@@ -15272,7 +15272,7 @@ ID,BaseTag,TagText_lang,Flags
 34317,FACTION_INFO_ALLIANCE,"        The Alliance consists of five races: the noble humans, the adventurous dwarves, the enigmatic night elves, the ingenious gnomes, and the honorable draenei. Bound by a loathing for all things demonic, they fight to restore order in this war-torn world.",2
 34318,FACTION_INFO_HORDE,"        Five races comprise the Horde: the brutal orcs, the shadowy undead, the spiritual tauren, the quick-witted trolls, and the driven blood elves. Beset by enemies on all sides, these outcasts have forged a union they hope will ensure their mutual survival.",2
 34319,FINISH,Finish,2
-34320,FIXEDFUNCTION_UNSUPPORTED,"<html><body><p align=""CENTER"">This video card is not supported in World of Warcraft. Please see <a href=""http://nydus.battle.net/WoW/enUS/launcher/fixedfunction-unsupported"">http://nydus.battle.net/WoW/enUS/launcher/fixedfunction-unsupported</a> for more information.</p></body></html>",2
+34320,FIXEDFUNCTION_UNSUPPORTED,"<html><body><p align=""CENTER"">This video card is not supported in World of Warcraft. Please see <a href=""https://support.blizzard.com/article/76459"">https://support.blizzard.com/article/76459</a> for more information.</p></body></html>",2
 34321,GAMETYPE_NORMAL,Normal,2
 34322,GAMETYPE_PVE,Normal,2
 34323,GAMETYPE_PVE_TEXT,These realms allow you to focus on adventuring and fighting monsters while allowing you to fight other players at your own discretion.,2
@@ -15548,7 +15548,7 @@ ID,BaseTag,TagText_lang,Flags
 34601,STREAMING_BUILD,Streaming,2
 34602,SUGGESTED_REALM_TEXT,|cffffffffYou have been assigned to the|r %s |cffffffffRealm.|r,2
 34603,SUGGEST_REALM,Suggest Realm,2
-34604,SYSTEM_INCOMPATIBLE_SSE,"<html><body><p align=""CENTER"">This system will not be supported in future versions of World of Warcraft. Please see <a href=""http://nydus.battle.net/WoW/enUS/launcher/sse1-unsupported"">http://nydus.battle.net/WoW/enUS/launcher/sse1-unsupported</a> for more information.</p></body></html>",2
+34604,SYSTEM_INCOMPATIBLE_SSE,"<html><body><p align=""CENTER"">This system will not be supported in future versions of World of Warcraft. Please see <a href=""https://support.blizzard.com/article/76459"">https://support.blizzard.com/article/76459</a> for more information.</p></body></html>",2
 34605,TAIWAN,Taiwan,2
 34606,TECH_SUPPORT,Tech Support,2
 34607,TECH_SUPPORT_URL,http://www.blizzard.com/support/wow/,2
@@ -15560,7 +15560,7 @@ ID,BaseTag,TagText_lang,Flags
 34613,TEMP_WEAPON,- Throwing\n- Axes\n- 2 - Hand Axes\n- Swords\n- 2 - Hand Swords\n- Maces\n- 2 - Hand Maces\n- Polearms\n- Bows,2
 34614,TERMINATION_WITHOUT_NOTICE_FRAME_TITLE,Termination of Service without Prior Notice,2
 34615,TERMINATION_WITHOUT_NOTICE_NOTICE,The Terms of Use have changed. Please scroll down and review the changes before accepting the agreement.,2
-34616,TEST_BUILD,Test,2
+34616,TEST_BUILD,Test,3
 34617,TOS_ACCEPT,Accept,2
 34618,TOS_DECLINE,Reject,2
 34619,TOS_FRAME_TITLE,Terms of Use,2
@@ -15613,21 +15613,21 @@ ID,BaseTag,TagText_lang,Flags
 34666,VIDEO_OPTIONS_RESET,Your video settings have changed.,2
 34667,VIEW_ALL_REALMS,View Realm List,2
 34668,VIRTUAL_KEYPAD_OKAY,Okay,2
-34669,VISITABLE_URL1,http://enUS.nydus.battle.net/WOW/enUS/client/in_game_mail_link_1?r=US&l=%s&sr=%u&c=%x%x,2
-34670,VISITABLE_URL10,http://nydus.battle.net/WoW/%s/client/legal/terms-of-sale?targetRegion=TW,2
-34671,VISITABLE_URL11,https://nydus.battle.net/WoW/enUS/client/add-payment?targetRegion=US,2
-34672,VISITABLE_URL12,https://nydus.battle.net/WoW/enUS/client/support/recruit-a-friend-basics?targetRegion=US,2
-34673,VISITABLE_URL13,http://nydus.battle.net/WoW/%s/client/legal/privacy-policy?targetRegion=KR,2
-34674,VISITABLE_URL14,http://nydus.battle.net/WoW/%s/client/legal/terms-of-sale?targetRegion=US,2
-34675,VISITABLE_URL15,http://nydus.battle.net/WoW/%s/client/legal/privacy-policy?targetRegion=US,2
-34676,VISITABLE_URL16,http://nydus.battle.net/WoW/%s/client/legal/terms-of-sale?targetRegion=EU,2
-34677,VISITABLE_URL17,http://nydus.battle.net/WoW/%s/client/legal/privacy-policy?targetRegion=EU,2
-34678,VISITABLE_URL18,http://nydus.battle.net/WoW/%s/client/legal/terms-of-sale?targetRegion=CN,2
-34679,VISITABLE_URL19,http://nydus.battle.net/WoW/%s/client/legal/privacy-policy?targetRegion=CN,2
-34680,VISITABLE_URL2,http://enUS.nydus.battle.net/WOW/enUS/client/trial_restriction_error_1?region=US&accountName=%s,2
-34681,VISITABLE_URL20,http://nydus.battle.net/WoW/%s/client/legal/privacy-policy?targetRegion=TW,2
-34682,VISITABLE_URL21,https://nydus.battle.net/WoW/%s/client/choose-payment-method?targetRegion=EU,2
-34683,VISITABLE_URL22,http://nydus.battle.net/WoW/enUS/client/subscription-setup?targetRegion=US,2
+34669,VISITABLE_URL1,https://shop.battle.net/product/world-of-warcraft-service-guild-services,2
+34670,VISITABLE_URL10,https://blizzard.com/tos,2
+34671,VISITABLE_URL11,https://account.battle.net/payment,2
+34672,VISITABLE_URL12,https://support.blizzard.com/article/11009,2
+34673,VISITABLE_URL13,https://blizzard.com/privacy,2
+34674,VISITABLE_URL14,https://blizzard.com/tos,2
+34675,VISITABLE_URL15,https://blizzard.com/privacy,2
+34676,VISITABLE_URL16,https://blizzard.com/tos,2
+34677,VISITABLE_URL17,https://blizzard.com/privacy,2
+34678,VISITABLE_URL18,https://legal.battlenet.com.cn/tos,2
+34679,VISITABLE_URL19,https://legal.battlenet.com.cn/privacy,2
+34680,VISITABLE_URL2,https://shop.battle.net/family/world-of-warcraft#games,2
+34681,VISITABLE_URL20,https://blizzard.com/privacy,2
+34682,VISITABLE_URL21,https://account.battle.net/payment,2
+34683,VISITABLE_URL22,https://us.shop.battle.net/product/world-of-warcraft-subscription,2
 34684,VISITABLE_URL23,https://battle.net/support/article/22231,2
 34685,VISITABLE_URL24,https://battle.net/support/article/23684,2
 34686,VISITABLE_URL25,https://battle.net/support/article/24517,2
@@ -15635,17 +15635,17 @@ ID,BaseTag,TagText_lang,Flags
 34688,VISITABLE_URL27,https://www.battlenet.com.cn/support/zh/article/478,2
 34689,VISITABLE_URL28,https://www.battlenet.com.cn/support/zh/article/476,2
 34690,VISITABLE_URL29,https://www.battlenet.com.cn/support/zh/article/477,2
-34691,VISITABLE_URL3,http://enus.nydus.battle.net/wow/enUS/client/item-restoration,2
+34691,VISITABLE_URL3,https://support.blizzard.com/restoration,2
 34692,VISITABLE_URL30,https://www.battlenet.com.cn/support/zh/article/494,2
 34693,VISITABLE_URL31,https://battle.net/support/article/34787,2
 34694,VISITABLE_URL32,https://www.battlenet.com.cn/support/zh/article/215,2
-34695,VISITABLE_URL4,http://enUS.nydus.battle.net/wow/enUS/client/challenge/%d/%d,2
+34695,VISITABLE_URL4,https://shop.battle.net,2
 34696,VISITABLE_URL5,https://us.battle.net/support/en/games/wow?loc,2
 34697,VISITABLE_URL6,https://%s.battle.net/support/%s/ticket/submit?loc,2
 34698,VISITABLE_URL7,https://%s.battle.net/support/%s/ticket/status?loc,2
-34699,VISITABLE_URL8,http://nydus.battle.net/WoW/%s/client/support/blizzard-games-refund?targetRegion=KR,2
-34700,VISITABLE_URL9,http://nydus.battle.net/WoW/%s/client/legal/terms-of-sale?targetRegion=KR,2
-34701,VISITABLE_URL_GENERIC,http://enUS.nydus.battle.net/WOW/enUS/client/in_game_mail_link_%d,2
+34699,VISITABLE_URL8,https://support.blizzard.com/article/75828,2
+34700,VISITABLE_URL9,https://blizzard.com/tos,2
+34701,VISITABLE_URL_GENERIC,https://shop.battle.net,2
 34702,WARLOCK_DISABLED,Warlock\nYou must choose a different race to be this class.,2
 34703,WARLORDS_OF_DRAENOR,Warlords of Draenor,2
 34704,WARRIOR_DISABLED,Warrior\nYou must choose a different race to be this class.,2
@@ -15720,7 +15720,7 @@ ID,BaseTag,TagText_lang,Flags
 34813,BOSS_INFO_STRING_TWO,"Boss: %s, %s",1
 34814,BOSS_INFO_STRING_MANY,Boss: %s and others,1
 34815,SPELL_FAILED_CUSTOM_ERROR_292,Requires a nearby Soul Fragment.,1
-34817,VISITABLE_URL33,https://nydus.battle.net/WoW/zhCN/client/support/faq-101?targetRegion=CN,2
+34817,VISITABLE_URL33,https://support.battlenet.com.cn/games/wow,2
 34828,CHARACTER_UPGRADE_POPUP_BOOST_EXISTING_CHARACTER,Boost Existing Character,2
 34829,CHARACTER_UPGRADE_POPUP_TRY_NEW_CLASS,Try a New Class,2
 34830,LOOT_JOURNAL_LEGENDARIES,Legendaries,1
@@ -16446,8 +16446,8 @@ ID,BaseTag,TagText_lang,Flags
 35610,SURRENDER_ARENA,Surrender Match,1
 35611,CONTRIBUTION_REWARD_TOOLTIP_TITLE,Reward,1
 35612,CONTRIBUTION_REWARD_TOOLTIP_TEXT,Contributing to this building will reward you with:,1
-35613,VISITABLE_URL35,https://nydus.battle.net/WoW/enUS/client/character-unlock?targetRegion=US,2
-35614,VISITABLE_URL36,https://nydus.battle.net/WoW/zhCN/client/character-unlock?targetRegion=CN,2
+35613,VISITABLE_URL35,https://support.blizzard.com/help/product/wow/,2
+35614,VISITABLE_URL36,https://support.battlenet.com.cn/games/wow,2
 35615,TRANSMOG_SETS_TAB_TUTORIAL,View all the appearance sets you can collect for your class here.,1
 35616,TRANSMOG_SETS_VENDOR_TUTORIAL,View and apply your completed appearance sets here.,1
 35617,EXALTED_PLUS_REPUTATION_TUTORIAL,Continue earning reputation with Exalted factions to receive rewards.,1
@@ -16828,8 +16828,8 @@ ID,BaseTag,TagText_lang,Flags
 36041,SPELL_FAILED_CUSTOM_ERROR_353,You are blocked by a structure above you.,1
 36042,STORE_CATEGORY_TRIAL_DISABLED_TOOLTIP,Unavailable to Free Trial accounts,3
 36043,SPELL_FAILED_CUSTOM_ERROR_354,Requires 100 Imp Meat.,1
-36044,VISITABLE_URL39,https://nydus.battle.net/WoW/%s/client/product-requirements?targetRegion=%s,3
-36045,VISITABLE_URL40,https://nydus.battle.net/WoW/%s/client/product-requirements-expac?targetRegion=%s,3
+36044,VISITABLE_URL39,https://us.shop.battle.net/product/world-of-warcraft-subscription#techspecs,3
+36045,VISITABLE_URL40,https://us.shop.battle.net/product/world-of-warcraft-subscription#techspecs,3
 36046,TRIAL_UPGRADE_LOGOUT_WARNING,"To complete the transaction, you will be logged out of the game in %d seconds.",3
 36047,GXAPI_D3D12,DirectX 12,3
 36048,BLIZZARD_STORE_BUNDLE_DISCOUNT_BANNER,You save %d%%,3
@@ -16878,7 +16878,7 @@ ID,BaseTag,TagText_lang,Flags
 36107,BACKPACK_AUTHENTICATOR_DIALOG_DESCRIPTION,"Gain 4 extra backpack slots by securing your World of Warcraft account with the Blizzard Authenticator and SMS Protect.|n|nThe Blizzard Authenticator is a free, easy-to-use service that protects your account from intruders, and SMS Protect notifies you when important changes are made to your account.|n|nClick ""Activate"" to launch the account security setup website.",1
 36108,BACKPACK_AUTHENTICATOR_EXTRA_SLOTS_ADDED,You gained 4 backpack slots for having an Authenticator attached to your account.,1
 36109,BACKPACK_AUTHENTICATOR_FULL_INVENTORY,Your inventory is full. Make room in your bags to receive any missing items.,1
-36110,VISITABLE_URL41,https://nydus.battle.net/App/%s/client/support/authenticator?targetRegion=%s,3
+36110,VISITABLE_URL41,https://support.blizzard.com/article/battle-net-authenticator-faq,3
 36113,COMMUNITIES_CREATE_CHANNEL,Create Channel,1
 36114,COMMUNITIES_EDIT_CHANNEL,Edit Channel,1
 36115,COMMUNITIES_CHANNEL_NAME_LABEL,Channel Name,1
@@ -17069,7 +17069,7 @@ ID,BaseTag,TagText_lang,Flags
 36320,ABILITY_INFO_LIGHTFORGEDDRAENEI5,,2
 36321,CLASS_TRIAL_CHOOSE_BOOST_LOGOUT_PROMPT_TEXT,"To apply this Character Boost, log out to the character select screen.",1
 36322,CHARACTER_UPGRADE_UNREVOKE_CHARACTER_FINISH_LABEL,Unlock,2
-36323,VISITABLE_URL42,https://nydus.battle.net/WoW/%s/client/product-requirements-presale?targetRegion=%s,3
+36323,VISITABLE_URL42,https://us.shop.battle.net/product/world-of-warcraft-subscription#techspecs,3
 36325,BOOST_ALLIED_RACE_HERITAGE_ARMOR_WARNING_CN,"<html><body><p align=""CENTER"">Boosting this character will make $Ghim:her; ineligble to receive $Ghis:her; %s heritage armor set. <a href=""https://www.battlenet.com.cn/support/zh/article/2905"">Click here</a> for more info.|n|nAre you sure you want to boost this character?|n</p></body></html>",2
 36330,COMMUNITIES_ALL_MEMBERS,All Members,1
 36331,COMMUNITIES_CHAT_PERMISSIONS_LEADERS_AND_MODERATORS,Leaders and Moderators,1
@@ -17151,7 +17151,7 @@ ID,BaseTag,TagText_lang,Flags
 36498,COMMUNITIES_ADD_DIALOG_CREATE_WOW_DESCRIPTION_NO_FACTION,- Great for in-game friends|n- Invite characters from any realm|n- Calendar and Quick Join support,1
 36499,COMMUNITIES_ADD_DIALOG_CREATE_WOW_LABEL,Create World of Warcraft Community (%s),1
 36500,COMMUNITIES_ADD_DIALOG_LABEL,Add Group,1
-36501,COMMUNITIES_CREATE_DIALOG_WOW_LABEL,Create %s Community,1
+36501,COMMUNITIES_CREATE_DIALOG_WOW_LABEL,Create World of Warcraft Community,1
 36502,COMMUNITIES_CREATE_DIALOG_BATTLE_NET_LABEL,Create Blizzard Group,1
 36506,COMMUNITIES_ADD_DIALOG_CREATE_WOW_LABEL_NO_FACTION,Create World of Warcraft Community,1
 36507,COMMUNITIES_ADD_DIALOG_CREATE_WOW_DESCRIPTION,- Great for in-game friends|n- Invite %s characters from any realm|n- Calendar and Quick Join support,1
@@ -17383,6 +17383,7 @@ ID,BaseTag,TagText_lang,Flags
 40842,VOICE_CHAT_JOIN,Join Voice Chat,1
 40843,VOICE_CHAT_LEAVE,Leave Voice Chat,1
 40844,VOICE_CHAT_CHANNEL_ANNOUNCE_PLAYER_LEFT,You have left the voice channel.,1
+40846,ERR_GUILD_AND_COMMUNITIES_UNAVAILABLE,Guilds and Communities are currently unavailable,1
 40850,COMMUNITIES_PRESENCE_MOBILE_CHAT,Mobile Chat,1
 40851,COMMUNITIES_INVITE_MANAGER_NUMBERUSES_LABEL,Number of Uses,1
 40852,COMMUNITIES_INVITE_MANAGER_EXPIRES_AFTER_LABEL,Expires After,1
@@ -17395,7 +17396,7 @@ ID,BaseTag,TagText_lang,Flags
 40868,COMMUNITIES_STREAM0_CHAT_SHORTCUT_FORMAT,(/%s),1
 40874,VOICE_TOOLTIP_PARENTAL_MUTE_MIC,Mute|n|nYour account has been marked as voice-chat listen-only in Parental Controls.,1
 40875,VOICE_TOOLTIP_PARENTAL_UNMUTE_MIC,Unmute|n|nYour account has been marked as voice-chat listen-only in Parental Controls.,1
-40888,VISITABLE_URL43,https://nydus.battle.net/WoW/%s/client/buy/bfa?targetRegion=%s,3
+40888,VISITABLE_URL43,https://support.blizzard.com,3
 40890,COMMUNITIES_LIST_DROP_DOWN_COMMUNITIES_SETTINGS,Group Settings,1
 40891,COMMUNITIES_LIST_DROP_DOWN_COMMUNITIES_NOTIFICATION_SETTINGS,Notification Settings,1
 40892,COMMUNITIES_LIST_DROP_DOWN_CLEAR_UNREAD_NOTIFICATIONS,Clear All Notifications,1
@@ -17413,7 +17414,7 @@ ID,BaseTag,TagText_lang,Flags
 40944,WOW_ERROR_332,Your recent purchase of game time is still under payment review,2
 40945,CLASSIC_DEFAULTS,Classic,3
 40947,COMMUNITIES_CALENDAR_MOTD_FORMAT,"\""%s\""",1
-40952,VISITABLE_URL44,https://nydus.battle.net/WoW/%s/client/support/gvas?targetRegion=%s,2
+40952,VISITABLE_URL44,https://support.blizzard.com/article/32543,2
 40958,COMPACT_UNIT_FRAME_PROFILE_AUTOACTIVATE20PLAYERS,20 Player Group,1
 40988,VAS_TRANSFER_REALM_TOOLTIP,Choose the Realm you would like to transfer to.,2
 40994,RUSSIAN_DECLENSION_PET_EXAMPLE_1,I always travel with %s.,3
@@ -17422,8 +17423,8 @@ ID,BaseTag,TagText_lang,Flags
 40997,RUSSIAN_DECLENSION_PET_EXAMPLE_4,Now I am friends with %s.,3
 40998,RUSSIAN_DECLENSION_PET_EXAMPLE_5,Although I know nothing about %s.,3
 41008,WOW_ERROR_333,This realm's login queue is full and cannot accept more players. Please choose another realm.,2
-41019,VISITABLE_URL45,https://nydus.battle.net/WoW/%s/client/gametime?targetRegion=%s,3
-41020,VISITABLE_URL46,https://nydus.battle.net/WoW/%s/client/product-requirements-complete?targetRegion=%s,3
+41019,VISITABLE_URL45,https://us.shop.battle.net/product/world-of-warcraft-game-time,3
+41020,VISITABLE_URL46,https://support.blizzard.com/article/76459,3
 41099,INVITE_COMMUNITY_MEMBER_POPUP_INVITE_EDITBOX_INSTRUCTIONS,Real ID or BattleTag,1
 41100,CRITERIA_TREE_OPERATOR_COMPLETE,Complete,0
 41101,CRITERIA_TREE_OPERATOR_INCOMPLETE,Not Complete,0
@@ -17442,6 +17443,7 @@ ID,BaseTag,TagText_lang,Flags
 41136,CLUB_FINDER_GUILD_SIZE,Guild Size,1
 41138,CLUB_FINDER_FOCUS,Focus,1
 41140,CLUB_FINDER_LOOKING_FOR,Looking For:,1
+41141,CLUB_FINDER_RECRUITMENT_DESCRIPTION,Describe your guild and what kind of player you're looking for.,1
 41142,CLUB_FINDER_SORT_BY,Sort By,1
 41144,CLUB_FINDER_RECRUITMENT_MESSAGE,Recruitment Message,1
 41148,COMMUNITIES_GUILD_FINDER_DESCRIPTION2,"A guild is a tight-knit group of players who want to enjoy the game together. By joining a guild, you'll gain access to many benefits, including a shared guild bank and a guild chat channel.|n|nUse this tool to find a guild that fits your playstyle.",1
@@ -17451,9 +17453,10 @@ ID,BaseTag,TagText_lang,Flags
 41190,YOU_LOOT_MONEY_MOD,You loot %s (+%s),1
 41191,LOOT_MONEY_SPLIT_MOD,Your share of the loot is %s (+%s),1
 41198,CLUB_FINDER_REQUEST_TO_JOIN,Request to Join,1
-41211,VISITABLE_URL47,https://nydus.battle.net/WoW/%s/client/support/gvas-cannot-start?targetRegion=%s,3
-41212,VISITABLE_URL48,https://nydus.battle.net/WoW/%s/client/transactions?targetRegion=%s,3
+41211,VISITABLE_URL47,https://support.blizzard.com/article/15977,3
+41212,VISITABLE_URL48,https://account.battle.net/transactions,3
 41230,VOICE_CHAT_ERROR_CODE_FORMATTER,(VoiceError: %d),1
+41240,CLUB_FINDER_NO_OPTIONS_SELECTED_GUILD_MESSAGE,"A guild is a tight-knit group of players who want to enjoy the game together. By joining a guild, you'll gain access to many benefits, including a shared guild bank and a guild chat channel.\n\nUse this tool to find a guild that fits your playstyle.",1
 41244,CLUB_FINDER_PENDING_REQUESTS,Pending (%d),1
 41252,BLIZZARD_GROUPS,Blizzard Groups,1
 41253,NEWBIE_TOOLTIP_BLIZZARDGROUPSTAB,Allows you to communicate with friends across Blizzard games and manage your Blizzard Groups.,1
@@ -17491,16 +17494,21 @@ ID,BaseTag,TagText_lang,Flags
 41641,BNET_FRIEND_TOOLTIP_WOW_CLASSIC,WoW Classic,1
 41649,AVAILABLE_CHANNELS,Available Channels,1
 41656,ERR_TRAVEL_PASS_DIFFERENT_REALM,In World of Warcraft Classic you cannot invite players that are on a different realm.,1
+41681,CLUB_FINDER_MEDIUM,Medium,1
 41709,CLUB_FINDER_APPLICANT_HISTORY,Applicant History,1
 41717,CLUB_FINDER_FOCUS_SOCIAL_LEVELING,Social & Leveling,1
 41718,CLUB_FINDER_FOCUS_PVP,PvP,1
 41727,BEHAVIORAL_NOTIFICATION_OPEN,Click here to read the message,1
 41728,BEHAVIORAL_NOTIFICATION_WARNING,Behavior Warning,1
 41729,BEHAVIORAL_NOTIFICATION_TY,Thank You for Reporting,1
+41730,CLUB_FINDER_ANY_FLAG,Any,1
 41735,CLUB_FINDER_ROLE_TOOLTIP,Select role to search for %s seeking your role specification,1
 41736,CLUB_FINDER_GUILDS,Guilds,1
 41737,CLUB_FINDER_COMMUNITIES,Communities,1
 41775,CLUB_FINDER_APPLY,Apply,1
+41776,CLUB_FINDER_TANK,Tank,1
+41777,CLUB_FINDER_HEALER,Healer,1
+41778,CLUB_FINDER_DAMAGE,Damage,1
 41781,CLUB_FINDER_PENDING_CLUBS_LIST,Pending List,1
 41784,BLIZZARD_STORE_PURCHASED,Purchased,3
 41834,ERR_ACCOUNT_SILENCED,Can't do that while your account is silenced,1
@@ -17656,6 +17664,8 @@ ID,BaseTag,TagText_lang,Flags
 42907,CMD_KEY_TEXT_ABBR,m,1
 42908,WIN_KEY_TEXT_ABBR,w,1
 42967,EXPANSION,Expansion,2
+43001,MAC_MIC_PREMISSIONS_NOTIFICATION,"In order to use voice chat, you must grant ""Microphone"" permission to %s in Security & Privacy preferences, located in System Preferences.",3
+43002,MAC_MIC_PERMISSIONS_OPEN_BUTTON,System Preferences,3
 43039,SSAO_TYPE_LABEL,Ambient Occlusion Type,3
 43041,SSAO_TYPE_ASSAO,ASSAO,3
 43042,SSAO_TYPE_CACAO,FidelityFX CACAO,3
@@ -17898,11 +17908,12 @@ ID,BaseTag,TagText_lang,Flags
 44286,RESAMPLE_QUALITY_FSR,FidelityFX Super Resolution,3
 44300,LFG_AUTHENTICATOR_DESCRIPTION_BOX,Attach an Authenticator and SMS Protect to your account to unlock this field,1
 44314,MAC_SETTINGS_LABEL,Keyboard Options,3
+44315,MAC_SETTINGS_SUBTEXT,[NL] Keyboard Options Subtext TEMP,3
 44316,CURSOR_SIZE_DEFAULT,Default,3
 44317,CURSOR_SIZE,Cursor Size,3
 44318,CURSOR_SIZE_TOOLTIP,Adjusts the size of the cursor,3
 44339,REGIONAL_RESTRICT_CHAT_DIALOG_TITLE,Chat has been turned off,1
-44340,REGIONAL_RESTRICT_CHAT_DIALOG_MESSAGE,"There are regional regulations that affect this account. Chat features have been disabled by default. You can re-enable those features now, or decide to enable them later via the Chat Settings panel.\n\nIf you decide to enable them, please be mindful of our community interaction policies and report any abusive behavior, chat, or other conduct intended to undermine or disrupt the game experience using our in-game reporting options; we'll review chat records and take appropriate action.",1
+44340,REGIONAL_RESTRICT_CHAT_DIALOG_MESSAGE,"There are regional regulations that affect this account. Chat features have been disabled by default. You can re-enable those features now, or enable them later in Options -> Social.\n\nIf you decide to enable them, please be mindful of our community interaction policies and report any abusive behavior, chat, or other conduct intended to undermine or disrupt the game experience using our in-game reporting options; we'll review chat records and take appropriate action.",1
 44341,REGIONAL_RESTRICT_CHAT_DIALOG_ENABLE,Turn Chat On,1
 44342,REGIONAL_RESTRICT_CHAT_DIALOG_DISABLE,Leave Chat Off,1
 44343,RESTRICT_CHAT_MESSAGE_SUPPRESSED,You can't send or receive messages while chat is disabled.,1
@@ -18130,7 +18141,7 @@ ID,BaseTag,TagText_lang,Flags
 49427,LFG_LIST_NEW_PLAYER_FRIENDLY_HEADER,New Players Welcome,1
 49430,READY_CHECK_RATED_ARENA,Your group leader has queued you for a rated arena.  Are you ready?,1
 49453,UNDELETE_DEATHKNIGHT_LEVEL_REQUIREMENT,You no longer meet the requirements to restore that character. You must have an active character of at least level 55 on this realm to restore them.,2
-49540,CLASSIC_PRESENCE_PREFIX,Wrath of the Lich King Classic,0
+49540,CLASSIC_PRESENCE_PREFIX,Cataclysm Classic,0
 49703,ENABLE_INTERACT_TEXT,Enable Interact Key,1
 49704,OPTION_TOOLTIP_ENABLE_INTERACT,Allows you to interact with NPCs and objects using a keypress,1
 49706,ACTION_TARGETING_OPTION,Enable Action Targeting,1
@@ -18325,6 +18336,7 @@ ID,BaseTag,TagText_lang,Flags
 51860,UPREZ_TEXTURES,NEW!  Uprezzed Textures,3
 51861,OPTION_TOOLTIP_UPREZ_TEXTURES,uprez tooltip placeholder,3
 51869,ICON_SELECTION_TITLE_CURRENT,Currently Selected,1
+51978,ERR_PARTY_LFG_BOOT_DISALLOWED_BY_MAP,Players can't be kicked from this instance,1
 52002,COUNTDOWN_SET,|Hplayer:%s|h[%s]|h started a countdown timer.,1
 52003,COUNTDOWN_CLEAR,|Hplayer:%s|h[%s]|h canceled the countdown timer.,1
 52004,COUNTDOWN_CANCEL_ENCOUNTER_START,"Encounter started, countdown timer canceled.",1
@@ -18344,5 +18356,25 @@ ID,BaseTag,TagText_lang,Flags
 52053,HIGH_RES_TEXTURE_INSTALL_URL,http://www.blizzard.com/,3
 52122,CREDITS_EXPANSION_NAME_3_0,Cataclysm (2010),2
 52123,CREDITS_EXPANSION_NAME_3_1,Cataclysm Classic (2024),2
+52132,CHINA_RELEASE_BUILD,China Release,2
+52133,REPORTING_MAJOR_CATEGORY_CHINA_HARMFUL_MINORS,Harmful to Minors,3
+52137,CHINA_GM_BUILD,China GM,2
+52160,WARDROBE_TOOLTIP_BOSS_DROP_FORMAT_WITH_DIFFICULTIES,Boss Drop: %s (%s),1
+52161,WARDROBE_TOOLTIP_BOSS_DROP_FORMAT,Boss Drop: %s,1
 52163,CURRENCY_RECEIVED_THIS_SEASON,%s you have received so far this season:,1
 52267,REPORTING_MINOR_CATEGORY_HARMFUL_TO_MINORS,Harmful To Minors,1
+52368,ERR_NOT_ENOUGH_PURCHASED_GAME_TIME,Game time must be purchased at least once on this account to be eligible to buy a WoW Token with gold.,1
+52392,CHINA_AGE_APPROPRIATENESS_TEXT,System message,2
+52393,CHINA_AGE_APPROPRIATENESS_TEXT_TITLE,System message title,2
+52394,VISITABLE_URL57,https://jiazhang.gm.163.com/blizzard/,2
+52397,CHINA_HEALTHY_GAMING_TEXT,System message,2
+52398,CHINA_HEALTHY_GAMING_TEXT_TITLE,System message,2
+52434,SETTINGS_TRIVIAL_QUEST_FILTER,Hide Low-Level Quests,1
+52439,ERR_GUILD_NEW_LEADER_WRONG_REALM,Players from other realms can't be promoted to guild leader.,1
+52468,SELF_HIGHLIGHT_UNIT_FRAME,Self Highlight,1
+52469,SELF_HIGHLIGHT_CIRCLE,Circle,1
+52470,SELF_HIGHLIGHT_ICON,Icon,1
+52471,SELF_HIGHLIGHT_MODE_ICON,Icon,1
+52472,SELF_HIGHLIGHT_MODE_CIRCLE_AND_ICON,Circle and Icon,1
+52522,OPTION_TOOLTIP_DISABLE_CHAT,Disables chat. You will not be able to send or receive messages.,1
+52523,OPTION_TOOLTIP_DISABLE_CHAT_ACCOUNT_MUTE,"To change this, you must first go to your Battle.net Account settings and make sure that: \n- Privacy & Communication -> Text Chat is enabled \n- Parental Controls -> Account Mute is disabled",1
