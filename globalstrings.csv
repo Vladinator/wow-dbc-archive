@@ -17439,25 +17439,54 @@ ID,BaseTag,TagText_lang,Flags
 41126,AUCTION_CATEGORY_REAGENT,Reagent,1
 41127,COPY_CHARACTER_NAME,Copy Character Name,1
 41130,CLUB_FINDER_LIST_GUILD,List My Guild in Guild Finder,1
+41131,CLUB_FINDER_LIST_COMMUNITY,List in Community Finder,1
+41132,CLUB_FINDER_COMMUNITY_AUTO_ACCEPT,Auto Accept Applicants,1
 41133,CLUB_FINDER_MAX_LEVEL_ONLY,Max Level Only,1
+41134,CLUB_FINDER_MINIMUM_ITEM_LEVEL,Minimum Item Level,1
+41135,CLUB_FINDER_GUILD_FOCUS,Guild Focus,1
 41136,CLUB_FINDER_GUILD_SIZE,Guild Size,1
+41137,CLUB_FINDER_CLASS_ROLES,Your Class Roles,1
 41138,CLUB_FINDER_FOCUS,Focus,1
+41139,CLUB_FINDER_COMMUNITY_FOCUS,Community Focus,1
 41140,CLUB_FINDER_LOOKING_FOR,Looking For:,1
 41141,CLUB_FINDER_RECRUITMENT_DESCRIPTION,Describe your guild and what kind of player you're looking for.,1
 41142,CLUB_FINDER_SORT_BY,Sort By,1
+41143,CLUB_FINDER_TYPE,Type,1
 41144,CLUB_FINDER_RECRUITMENT_MESSAGE,Recruitment Message,1
+41145,CLUB_FINDER_TYPE_COMMUNITY,WoW Community (%s),1
+41146,CLUB_FINDER_TYPE_GUILD,Guild,1
 41148,COMMUNITIES_GUILD_FINDER_DESCRIPTION2,"A guild is a tight-knit group of players who want to enjoy the game together. By joining a guild, you'll gain access to many benefits, including a shared guild bank and a guild chat channel.|n|nUse this tool to find a guild that fits your playstyle.",1
+41150,CLUB_FINDER_ACTIVE_MEMBERS,Active Members: |cffffffff%d|r,1
+41156,CLUB_FINDER_MULTIPLE_ROLES,Multiple Classes/Roles,1
 41157,CLUB_FINDER_COMMUNITY_TYPE,Community,1
+41158,CLUB_FINDER_MULTIPLE_CHECKED,Multiple,1
+41171,CLUB_FINDER_ALL_SPECS,All,1
+41172,CLUB_FINDER_SPEC,Spec,1
 41176,GXAPI_D3D11_LEGACY,DirectX 11 Legacy,3
+41179,CLUB_FINDER_SPECIALIZATIONS,Specializations:,1
 41184,FACTION_NEUTRAL,Neutral,1
 41190,YOU_LOOT_MONEY_MOD,You loot %s (+%s),1
 41191,LOOT_MONEY_SPLIT_MOD,Your share of the loot is %s (+%s),1
+41192,CLUB_FINDER_WHISPER_OFFICER,Whisper Officer,1
+41193,CLUB_FINDER_REPORT_POSTING,Report Posting,1
+41194,CLUB_FINDER_REPORT_NAME,Offensive Player Name,1
+41195,CLUB_FINDER_REPORT_DESCRIPTION,Offensive Description,1
+41196,CLUB_FINDER_REPORT_SPAM,Spam,1
 41198,CLUB_FINDER_REQUEST_TO_JOIN,Request to Join,1
+41199,CLUB_FINDER_GUILD_RECRUITING,This guild is looking for %s. Which specializations do you play?,1
+41202,CLUB_FINDER_RECRUITING_ONE_SPEC,This guild is looking for %s %s. Which specializations do you play?,1
+41203,CLUB_FINDER_RECRUITING_TWO_SPECS,This guild is looking for %s and %s %s. Which specializations do you play?,1
+41204,CLUB_FINDER_RECRUITING_THREE_SPECS,"This guild is looking for %s, %s, and %s %s. Which specializations do you play?",1
+41205,CLUB_FINDER_RECRUITING_FOUR_SPECS,"This guild is looking for %s, %s, %s, and %s %s. Which specializations do you play?",1
+41206,CLUB_FINDER_RECRUITING_NOTE,Optional note to the leader.,1
 41211,VISITABLE_URL47,https://support.blizzard.com/article/15977,3
 41212,VISITABLE_URL48,https://account.battle.net/transactions,3
 41230,VOICE_CHAT_ERROR_CODE_FORMATTER,(VoiceError: %d),1
 41240,CLUB_FINDER_NO_OPTIONS_SELECTED_GUILD_MESSAGE,"A guild is a tight-knit group of players who want to enjoy the game together. By joining a guild, you'll gain access to many benefits, including a shared guild bank and a guild chat channel.\n\nUse this tool to find a guild that fits your playstyle.",1
 41244,CLUB_FINDER_PENDING_REQUESTS,Pending (%d),1
+41245,CLUB_FINDER_PENDING,Pending,1
+41246,CLUB_FINDER_ACCEPTED,Accepted,1
+41247,CLUB_FINDER_DECLINED,Declined,1
 41252,BLIZZARD_GROUPS,Blizzard Groups,1
 41253,NEWBIE_TOOLTIP_BLIZZARDGROUPSTAB,Allows you to communicate with friends across Blizzard games and manage your Blizzard Groups.,1
 41266,CLUB_FINDER_APPLICANTS,Applicants,1
@@ -17469,8 +17498,16 @@ ID,BaseTag,TagText_lang,Flags
 41294,EMPTY_SOCKET_PUNCHCARDBLUE,Blue Punchcard Socket,1
 41348,BLIZZARD_GROUPS_SHORT,Groups,1
 41385,BINDING_NAME_TOGGLEBLIZZARDGROUPSTAB,Toggle Blizzard Groups Pane,1
+41418,CLUB_FINDER_SEARCH_NOTHING_FOUND,No results found. Try adjusting your search criteria.,1
 41419,GUILD_NEWS_DUNGEON_ENCOUNTER_NORMAL,|cffd10000[%s]|r,1
 41420,GUILD_NEWS_DUNGEON_ENCOUNTER_HEROIC,|cffd10000[Heroic: %s]|r,1
+41422,CLUB_FINDER_ACCEPT_GUILD_STANDARD_WARNING,"You may only join one guild. By joining this guild, your other guild invites will be removed.",1
+41423,CLUB_FINDER_ACCEPT_GUILD_ALREADY_IN_GUILD_WARNING,"By joining this guild, you will leave your current guild.",1
+41427,CLUB_FINDER_APPROVED,Approved,1
+41428,CLUB_FINDER_JOINED,Joined,1
+41429,CLUB_FINDER_JOINED_ANOTHER,Joined Another,1
+41430,CLUB_FINDER_CANCELED,Canceled,1
+41431,CLUB_FINDER_COMMUNITY_ROSTER_DROPDOWN,Community Roster,1
 41459,VOICE_CHAT_DUCKING_SCALE,Voice Chat Ducking,1
 41466,LAUNCH_ETA,The world is scheduled to be available in approximately %d hours.,2
 41467,LAUNCH_ETA_SOON,The world is scheduled to be available soon.,2
@@ -17482,19 +17519,36 @@ ID,BaseTag,TagText_lang,Flags
 41522,SHOW_MINIMAP_CLOCK,Show Minimap Clock,1
 41523,OPTION_TOOLTIP_SHOW_MINIMAP_CLOCK,Uncheck this to hide the clock below the minimap.,1
 41543,ERR_GENERIC_THROTTLE,You're doing that too fast,1
+41553,CLUB_FINDER_LEADER,Leader: |cffffffff%s|r,1
+41554,CLUB_FINDER_CLUB_DESCRIPTION,"""%s""",1
+41558,CLUB_FINDER_COMMUNITY_RECRUITING_NOTE,Optional note to community leader,1
 41570,ERR_BATTLEGROUND_JOIN_MEMBER_DISQUALIFIED,A party member has been disqualified from this bracket.,1
 41600,ENTER_LFG,Enter,1
 41608,ERR_BATTLEGROUND_JOIN_DISQUALIFIED_NO_NAME,A player has been disqualified from ranked play in this bracket.,1
 41615,CREDITS_WOW_CLASSIC,World of Warcraft Classic Credits,2
+41616,CLUB_FINDER_LINK_COMMUNITY,[Community: %s],1
+41617,CLUB_FINDER_LINK_GUILD,[Guild: %s],1
+41626,CLUB_FINDER_APPLICANT_LIST_NO_MATCHING_SPECS,No Matches,1
+41627,CLUB_FINDER_SORT_BY_RELEVANCE,Relevance,1
+41628,CLUB_FINDER_SORT_BY_MOST_MEMBERS,Most Members,1
+41629,CLUB_FINDER_SORT_BY_NEWEST,Newest,1
 41633,GUILD_OFFICER_PERMISSION_FINDER_LIST,,1
 41634,GUILD_OFFICER_PERMISSION_INVITE_APPLICANTS,,1
 41637,CLUB_FINDER_NOT_RECRUITING_YOUR_SPECS,Send a note and include your specializations if you would still like to be considered for membership.,1
 41638,CLUB_FINDER_NO_MATCHING_SPEC_DIALOG_ERR_STRING,Currently not recruiting any of your class specializations. You may still apply.,1
 41640,BNET_FRIEND_ZONE_WOW_CLASSIC,WoW Classic: %s,1
 41641,BNET_FRIEND_TOOLTIP_WOW_CLASSIC,WoW Classic,1
+41643,CLUB_FINDER_ONE_SPEC_REQUIRED,At least one specialization is required to apply.,1
 41649,AVAILABLE_CHANNELS,Available Channels,1
 41656,ERR_TRAVEL_PASS_DIFFERENT_REALM,In World of Warcraft Classic you cannot invite players that are on a different realm.,1
+41659,CLUB_FINDER_LINK_POST_IN_CHAT,Link Post in Chat,1
+41660,CLUB_FINDER_LINK_CHAT_ERROR,You need to list your guild in guild finder in order to link to chat.,1
+41668,CLUB_FINDER_ALREADY_IN_THAT_GUILD,You are already in this guild.,1
+41669,CLUB_FINDER_ALREADY_IN_THAT_CLUB,Already a member.,1
+41678,CLUB_FINDER_IS_GUILD_LEADER_JOIN_ERROR,Select a new guild master or disband your guild in order to join a new one.,1
 41681,CLUB_FINDER_MEDIUM,Medium,1
+41683,CLUB_FINDER_INVITE_APPLICANT_REDO,Invite Applicant,1
+41708,CLUB_FINDER_ALREADY_IN_GUILD_PLEASE_LEAVE,You are already a member of a guild. Please leave in order to join this one.,1
 41709,CLUB_FINDER_APPLICANT_HISTORY,Applicant History,1
 41717,CLUB_FINDER_FOCUS_SOCIAL_LEVELING,Social & Leveling,1
 41718,CLUB_FINDER_FOCUS_PVP,PvP,1
@@ -17505,16 +17559,71 @@ ID,BaseTag,TagText_lang,Flags
 41735,CLUB_FINDER_ROLE_TOOLTIP,Select role to search for %s seeking your role specification,1
 41736,CLUB_FINDER_GUILDS,Guilds,1
 41737,CLUB_FINDER_COMMUNITIES,Communities,1
+41739,CLUB_FINDER_CANCEL_APPLICATION,Cancel Application,1
+41744,CLUB_FINDER_REPORT_GUILD_NAME,Offensive Guild Name,1
+41745,CLUB_FINDER_REPORT_COMMUNITY_NAME,Offensive Community Name,1
+41746,CLUB_FINDER_REPORT_JOIN_NOTE,Offensive Applicant Note,1
+41756,CLUB_FINDER_REPORT_REASON_POSTERS_NAME,Posters Name,1
+41757,CLUB_FINDER_REPORT_REASON_COMMUNITY_NAME,Community Name,1
+41759,CLUB_FINDER_REPORT_REASON_GUILD_NAME,Guild Name,1
+41760,CLUB_FINDER_REPORT_REASON_POSTING_DESCRIPTION,Posting Description,1
+41761,CLUB_FINDER_REPORT_REASON_APPLICANT_NAME,Applicant Name,1
+41762,CLUB_FINDER_REPORT_REASON_APPLICANT_NOTE,Applicant Note,1
+41763,CLUB_FINDER_REPORT,Report %s,1
 41775,CLUB_FINDER_APPLY,Apply,1
 41776,CLUB_FINDER_TANK,Tank,1
 41777,CLUB_FINDER_HEALER,Healer,1
 41778,CLUB_FINDER_DAMAGE,Damage,1
+41779,CLUB_FINDER_LOOKING_FOR_CLASS_SPEC,%s %s,1
 41781,CLUB_FINDER_PENDING_CLUBS_LIST,Pending List,1
 41784,BLIZZARD_STORE_PURCHASED,Purchased,3
+41790,CLUB_FINDER_SHIFT_CLICK_LINK,<Shift Click to Link to Chat>,1
+41795,CLUB_FINDER_NO_PERMISSION_TO_VIEW_GUILD_RECRUITMENT,You do not have permission to edit the recruitment info.|nRequest access from the Guild Master.,1
+41796,CLUB_FINDER_JOINED_COMMUNITY_POPUP,You joined a new Community.,1
+41797,CLUB_FINDER_WHISPER_OFFICER_ERROR_GUILD,No recruiter for this guild is online right now. Please try whispering again later.,1
+41807,CLUB_FINDER_DAYS_UNTIL_EXPIRE,%d Days,1
+41821,CLUB_FINDER_FOCUS_STRING,Focus: %s,1
+41829,CLUB_FINDER_RECRUITING_ALL_SPECS,All Specs,1
+41831,CLUB_FINDER_FIND_ONLINE_MEMBER,Find an Online Member,1
 41834,ERR_ACCOUNT_SILENCED,Can't do that while your account is silenced,1
+41836,CLUB_FINDER_LOOKING_FOR_CLASS_SPEC_WITH_ROLE,%s|t %s %s,1
 41838,VISITABLE_URL49,https://worldofwarcraft.com/%s/game/recruit-a-friend,3
+41839,CLUB_FINDER_NEW_APPLICANT_TUTORIAL,You have a new applicant. Click here to view the applicant now.,1
+41840,CLUB_FINDER_NEW_FEATURE_TUTORIAL,New Guild and Community Finder. Click here to check it out!,1
+41841,CLUB_FINDER_TUTORIAL_ROSTER,Review Applicants from the roster page.|nLook for the orange diamond.,1
+41842,CLUB_FINDER_TUTORIAL_APPLICANT_LIST,Select Applicants or Applicant History from this dropdown to review your applications.,1
+41843,CLUB_FINDER_TUTORIAL_POSTING,Create a posting for players to apply.,1
+41846,CLUB_FINDER_TUTORIAL_FINDER_BUTTONS_NO_SCROLL,Select Guild Finder or Find a Community to search.,1
+41847,CLUB_FINDER_TUTORIAL_FINDER_BUTTONS_SCROLL,Select Guild Finder or Find a Community to search.|nScroll down the list to locate finder buttons.,1
+41848,CLUB_FINDER_TUTORIAL_GUILD_LINK,You can advertise your guild with a link in chat.|nClick the invite button.,1
+41850,CLUB_FINDER_REAPPLY,Reapply in %d Days,1
+41862,CLUB_FINDER_ENABLE_DISABLE_MESSAGE,Guild and Community Finder has been enabled or disabled.,1
+41864,CLUB_FINDER_ALREADY_APPLIED_ERROR,You have already applied.,1
+41865,CLUB_FINDER_NO_RECRUITING_PERMISSIONS,You do not have permission to edit the recruitment info.,1
+41867,CLUB_FINDER_COMMUNITY_LOOKING_ALL_SPECS,This community is looking for all specializations.,1
+41868,CLUB_FINDER_GUILD_LOOKING_ALL_SPECS,This guild is looking for all specializations.,1
+41869,CLUB_FINDER_SEARCH_ERROR,Enter a search term three letters or longer to search.,1
+41871,CLUB_FINDER_NEW_COMMUNITY_JOINED,You joined a new community.,1
+41874,CLUB_FINDER_MAX_MEMBER_COUNT_HIT,Max member count reached. Remove a player in order to invite.,1
+41890,CLUB_FINDER_GUILD_INVITE_CHAT_MSG,You have invited %s to join your guild.,1
+41891,CLUB_FINDER_COMMUNITY_INVITE_CHAT_MSG,You have invited %s to join your community.,1
+41892,CLUB_FINDER_GUILD_DECLINE_CHAT_MSG,You have declined %s from joining your guild.,1
+41893,CLUB_FINDER_COMMUNITY_CHAT_MESSAGE,You have declined %s from joining your community.,1
 41896,BLIZZARD_STORE_VAS_TRANSFER_REALM_CATEGORY_WARNING,You are transferring to a %s realm.,2
+41899,CLUB_FINDER_COMMUNITY_NAME_CHANGE_ALERT,Community Name Change Alert,1
+41900,CLUB_FINDER_COMMUNITY_NAME_CHANGE_DESCRIPTION,Your guild has been flagged for a rename,1
+41901,CLUB_FINDER_COMMUNITY_NAME_CHANGE_DESCRIPTION_BOTTOM,You must pick a new name within the guidelines of our naming policy.,1
+41902,CLUB_FINDER_COMMUNITY_NAME_CHANGE_ENTER_NEW,Enter new community name:,1
+41903,CLUB_FINDER_GUILD_POSTING_ALERT,Guild Posting Alert,1
+41904,CLUB_FINDER_GUILD_POSTING_ALERT_REMOVED,Your guild post has been removed,1
+41905,CLUB_FINDER_GUILD_POSTING_ALERT_REMOVED_DESC,You will need to repost your message within the guidelines of our language policy.,1
+41906,CLUB_FINDER_REPORTED_GUILD_REPOST_MESSAGE,Repost Message Now,1
+41907,CLUB_FINDER_COMMUNITY_POSTING_ALERT,Community Posting Alert,1
+41908,CLUB_FINDER_COMMUNITY_POSTING_REMOVED_TEXT,Your community post has been removed.,1
+41909,CLUB_FINDER_COMMUNITY_POSTING_REMOVED_TEXT_SRRS,Community posting has been removed!,1
+41910,CLUB_FINDER_GUILD_POSTING_REMOVED_TEXT_SRRS,Guild posting has been removed!,1
 41911,CLUB_FINDER_THANK_YOU_REPORTED,Thank you for reporting.,1
+41912,CLUB_FINDER_REPORTED,Reported,1
 41945,QUEST_LOGIC_AND,And,1
 41946,QUEST_LOGIC_OR,Or,1
 41954,REALM_LAYERED,Layered,2
@@ -17525,14 +17634,19 @@ ID,BaseTag,TagText_lang,Flags
 41972,BLIZZARD_STORE_VAS_ERROR_ALLIANCE_NOT_ELIGIBLE,- This transfer is not currently available for this character's faction.,3
 41974,BLIZZARD_STORE_VAS_TRANSFER_INELIGIBLE_FACTION_WARNING,This transfer is not currently available for this character's faction.,2
 42004,CLUB_FINDER_BANNED_POSTING_WARNING,Your %s has been banned from posting in the Finder,1
+42005,CLUB_FINDER_COMMUNITY_RENAME_BUTTON,Rename Community,1
 42037,BLIZZARD_STORE_ERROR_TITLE_CLIENT_RESTRICTED,Purchasing Restricted,3
 42038,BLIZZARD_STORE_ERROR_CLIENT_RESTRICTED,Feature has been disabled because you are on a restricted character.,3
+42110,CLUB_FINDER_INVITED,Invited,1
+42116,CLUB_FINDER_DISABLE_REASON_VETERAN_TRIAL,Access to this feature requires an account with an active subscription or game time.,1
 42117,IN_PROGRESS,In Progress,1
 42118,TARGETFPS,Target FPS,3
 42119,TARGETFPS_CHECK,Target FPS Toggle,3
 42120,OPTION_TARGETFPS_CHECK,Enable this option to dynamically reduce graphics quality if you fall below a specific framerate.,3
 42121,OPTION_TARGETFPS,"Framerate you ideally want to play at. If your framerate is below this number, dynamic systems will reduce graphics quality to attempt to hit this framerate.",3
 42136,ERR_BATTLEGROUND_NOT_ENABLED,This feature is not enabled.,1
+42159,CLUB_FINDER_TUTORIAL_LANGUAGE_FILTER,The Guild and Community Finder has added a language filter.,1
+42160,CLUB_FINDER_TUTORIAL_LANGUAGE_SET,You can set your language here. Changing this will require your message to be reposted.,1
 42189,BINDING_NAME_TOGGLE_COMMENTATOR_UNIT_FRAMES,Toggle Unit Frames,1
 42190,BINDING_NAME_COMMENTATORFOLLOW_1_7,Follow Player 7 on Team 1,1
 42191,BINDING_NAME_COMMENTATORFOLLOW_1_8,Follow Player 8 on Team 1,1
@@ -18027,6 +18141,7 @@ ID,BaseTag,TagText_lang,Flags
 48857,REPORTING_MINOR_CATEGORY_DESCRIPTION,Description,1
 48858,REPORTING_MINOR_CATEGORY_NAME,Name,1
 48861,ERR_MAIL_RECEPIENT_CANT_RECEIVE_MAIL,Recipient can't receive mail at this time.,1
+48863,CLUB_FINDER_REPORT_APPLICANT,Report Applicant,1
 48878,PFC_FLOW_WILL_BE_CHANGED_TO,Will be changed to:,2
 48879,PFC_FLOW_CUSTOMIZE_CHARACTER_STEP,You'll customize your character in the next step.,2
 48880,PFC_CUSTOMIZE_DIALOG_TEXT,You will now choose your new race and customize your character. Your faction change will be permanently applied once you finish this process.,2
@@ -18363,6 +18478,7 @@ ID,BaseTag,TagText_lang,Flags
 52161,WARDROBE_TOOLTIP_BOSS_DROP_FORMAT,Boss Drop: %s,1
 52163,CURRENCY_RECEIVED_THIS_SEASON,%s you have received so far this season:,1
 52267,REPORTING_MINOR_CATEGORY_HARMFUL_TO_MINORS,Harmful To Minors,1
+52290,CLUB_FINDER_REALM_NAME,Realm: |cffffffff%s|r,1
 52368,ERR_NOT_ENOUGH_PURCHASED_GAME_TIME,Game time must be purchased at least once on this account to be eligible to buy a WoW Token with gold.,1
 52392,CHINA_AGE_APPROPRIATENESS_TEXT,System message,2
 52393,CHINA_AGE_APPROPRIATENESS_TEXT_TITLE,System message title,2
