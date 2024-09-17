@@ -358358,10 +358358,12 @@ $?pc117176[You have learned all there is to learn from experimentation.][You sti
 427189,,"The tortoise spins around for $d, inflicting $427190s1 Physical damage every $t1 sec to enemies within $427190A1 yards and knocking them back. 
 ",Inflicts $427190s1 Physical damage every $t1 sec to enemies within $427190A1 yards and knocks them back.
 427190,,$@spelldesc427189,
-427192,,"Anub'ikkaj's allies share formidable power with him increasing their damage by $s1% and maximum health by $s2%. This effect stacks.
+427192,,"Anub'ikkaj's lieutenants share formidable power with him increasing their damage by $s1% and maximum health by $s2%. This effect stacks.
 
 Defeating them removes this power.","Increases damage done by $427192s1%.
-Increases health by $427192s2%."
+Increases health by $427192s2%.
+
+Defeating Anub'ikkaj's lieutenants removes this power."
 427193,,,
 427194,,,
 427195,,,
@@ -362583,7 +362585,6 @@ Healing taken reduced by $s2%."
 431730,,"$?a137028[Eye of Tyr][Wake of Ashes] surrounds you with a Holy barrier for $?a137028[$s1][$s4]% of your maximum health.
 
 Hammer of Light heals you for $?a137028[$s2][$s5]% of your maximum health, increased by $?a137028[$s3][$s6]% for each additional target hit. Any overhealing done with this effect gets converted into a Holy barrier instead.",
-431731,,$@spelldesc431730,
 431734,,"The caster releases a cloud of pheromones, calling forth a pair of beetles to assist it.",
 431736,,,
 431737,,,
@@ -363949,7 +363950,7 @@ Hold to increase lunge distance.",
 433106,,"For each Holy Power ability cast, your next Consecration deals $<value> damage or healing immediately, split across all enemies and allies.",
 433108,,,
 433109,,Jani is protecting you from falling too swiftly.,Jani is protecting you from falling too swiftly.
-433110,,"Upon releasing spirit, you will now revive at the Empowered Meeting Stone instead.",
+433110,,"Upon releasing spirit, you will now revive at the Empowered Restoration Stone instead.",
 433111,,,
 433112,,,
 433114,,"Holding a torch of the Sacred Flame. Looking at it, your heart swells with hope, almost despite yourself.","Holding a torch of the Sacred Flame. Looking at it, your heart swells with hope, almost despite yourself."
@@ -381637,7 +381638,6 @@ Movement speed slowed by $s3%."
 452360,,$@spelldesc443559,"Avoidance, Leech, and Speed increased by $w1."
 452361,,$@spelldesc443559,"Taking damage has a high chance to draw from the Sundered, inflicting $w1 Shadow damage split between nearby enemies."
 452362,,,
-452363,,,
 452364,,,
 452365,,$@spelldesc443559,"Your abilities have a high chance to draw from the Sundered, inflicting an additional $w1 Shadow damage."
 452366,,$@spelldesc443559,"Your healing spells have a high chance to draw from the Sundered, healing for an additional $w1."
@@ -382846,7 +382846,7 @@ Movement speed slowed by $s2."
 ",
 453628,,Enveloping Mist and Renewing Mist healing increased by $s1%.,
 453629,,"While you have one or more Boneshield charges, the damage you take is reduced by ${$abs($457468S1)}.1%. Losing a Boneshield charge has a chance to reduce the damage you take by an additional ${$abs($457473S1)}.1%, up to ${$abs($457473S1)*$457473U}.1% for $457473d.",
-453630,,Your damage is increased by $s1% per active Boneshield charge. Taking damage while below $s2 Boneshield charges has a chance to generate $s3-$s4 Boneshield charges.,
+453630,,Your damage is increased by ${$s1/10}.1% per active Boneshield charge. Taking damage while below $s2 Boneshield charges has a chance to generate $s3-$s4 Boneshield charges.,
 453631,,Consuming Runic Power has a chance to increase your Strength by $457189s1% for $457189d.,
 453632,,"When you summon a minion, your Haste is increased by $456698s1%, up to ${$456698s1*$456698u}% for $456698d.",
 453633,,Your minions deal $s1% increased damage.,
@@ -386489,6 +386489,7 @@ While the shield holds, damage done increased by $s2% and movement speed reduced
 457482,,$@spelldesc462174|n|n$@spellicon462209  $@spellname462209|nIf you spend at least 10 seconds eating you will become $@spellname462209 and gain $456961s4 of your highest secondary stat for $462209d.,
 457483,,,
 457484,,Alleria fires a barrage of void arrows each inflicting Shadow damage with each hit.,
+457485,,Summons and dismisses your Grizzly Hills Packmaster.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
 457486,,,
 457487,,"Share a pot of Everything Stew for all players to partake in.
 
@@ -386518,7 +386519,7 @@ $?a157153[Cloudburst][Healing Stream] Totem lasts an additional ${$w1/1000} sec.
 ",Deal shadow damage to nearby enemies.
 457503,,$@spelldesc457526,
 457504,,,
-457506,,,Damage done increased by $w1%.
+457506,,,Damage done increased by ${$w1}.1%.
 457507,,$@spelldesc452196,
 457508,,,
 457509,,Turns a Companion Pet green for as long as it remains at its master's side.,Feeling green from eating pickles.
@@ -387041,7 +387042,7 @@ Movement speed reduced by $s2%."
 458100,,,
 458101,,$@spelldesc445034,
 458102,,Channeling Wenren's spellwork.,Channeling Wenren's spellwork.
-458103,,"$?PC127588[Releasing spirit subtracts from the revives remaining counter which influences rewards at the end of this delve.][You have released spirit too many times, reducing the rewards at the end of this delve.]",
+458103,,"$?PC127588[Dying subtracts from the lives remaining counter which influences rewards at the end of this delve.][You have died too many times, reducing the rewards at the end of this delve.]",
 458104,,"The caster blasts all players with venom, inflicting $s1 Nature damage immediately with an additional $s2 Nature damage every $t2 sec for $d.",$s2 Nature damage inflicted every $t2 sec.
 458106,,"The caster launches a massive cone of ice at their current target, inflicting Frost damage to all targets hit and slowing them by $s2 for $d sec. ",Movement speed reduced by $s2%
 458107,,,
@@ -388172,7 +388173,6 @@ Can only occur every 1 min.",
 459491,,,
 459492,,,
 459493,,$@spelldesc459171,
-459494,,,
 459495,,$@spelldesc495496,$s1 Shadow damage inflicted every $t1 sec.
 459496,,"The Remembered Lich King fiercely slashes with Frostmourne, inflicting $s1 Physical damage and an additional $459495s1 Shadow damage every $459495t1 sec for $459495d.",
 459497,,$@spelldesc441367,
@@ -389002,7 +389002,7 @@ Can be disassembled for $?pc122150[Legibly Scrawled Notes][Hastily Scribbled Not
 461040,,,
 461042,,,
 461052,,Exit the pipe puzzle.,
-461063,,Restores ${$m1/5*$d} health and ${$m3/5*$d} mana over $d. Must remain seated while eating.,Restores ${$w1/5} health and ${$w2/5} mana per second.
+461063,,"Draws upon your inner energy, restoring ${$m1/5*$d} health and ${$m3/5*$d} mana over $d. Must remain seated during contemplation.",Restores ${$w1/5} health and ${$w2/5} mana per second.
 461071,,Restores ${$m1/5*$d} health over $d. Must remain seated while eating.,Restores ${$w1/5} health per second.
 461072,,Restores ${$m2/5*$d} mana over $d.  Must remain seated while drinking.,Restores ${$m2/5} mana per second.
 461078,,,
@@ -390873,8 +390873,6 @@ $?pc128383[$@spelldesc456525][$@spelldesc455680]",
 464799,,"Festering darkness pollutes the victim, inflicting $464800s1 Shadow damage every $t1 sec for $d.",Inflicts $464800s1 Shadow damage every $t1 sec.
 464800,,$@spelldesc464799,
 464802,,$@spelldesc421376,Healing damage every $t1 seconds.
-470503,,"$@spelldesc437343
-",
 464820,,"|cnDARKYELLOW_FONT_COLOR:""Provides an increase to companion experience.""|r",
 464824,,,
 464827,,,
@@ -391075,6 +391073,8 @@ Healing reduced beyond $s5 targets.",
 468554,,,
 468567,,,
 468570,,,
+468576,,$@spelldesc458277,$@spellaura458277
+468577,,,
 468584,,,
 468588,,,
 468655,,"Launches a bolt of frostfire at the enemy, causing $s1 Frostfire damage, slowing movement speed by $s3%, and causing an additional $o2 Frostfire damage over $d.
@@ -391085,6 +391085,7 @@ Frostfire Bolt generates stacks for both Fire Mastery and Frost Mastery.",Moveme
 468693,,,
 468862,,,
 468928,,,
+468973,,,
 469015,,,
 469163,,,
 469164,,,
@@ -391122,6 +391123,10 @@ Immune to interrupt effects."
 469629,,,
 469637,,$@spelldesc457058,"Your next $?c1[Envenom][Eviscerate] cast with maximum combo points is guaranteed to critically strike, deal $w2% additional damage, and apply $w3 stacks of Deathstalker's Mark to the target."
 469727,,,
+469729,,,
+469853,,Drops an enchanted candle you're holding on the ground.,
+469854,,Drops an air totem you're holding on the ground.,
+469875,,Steady Flight speed increased by $s1%.,Steady Flight speed increased by $s1%.
 469988,,,
 469991,,"Place a Sigil of Flame at the target location that activates after $d.
 
@@ -391132,13 +391137,60 @@ Deals $204598s1 $@spelldesc395020 damage, and an additional $204598o3 $@spelldes
 470001,,,
 470002,,,
 470003,,,
+470087,,,
+470111,,,
 470112,,,
 470113,,,
+470120,,,
+470121,,,
 470123,,,
 470134,,,
-468576,,$@spelldesc458277,$@spellaura458277
-468577,,,
-468973,,,
-469853,,Drops an enchanted candle you're holding on the ground.,
-469854,,Drops an air totem you're holding on the ground.,
+470148,,,
+470273,,,
+470275,,,
 470284,,$?s436341[Restores ${$m1/5*$d} health and ${$m3/5*$d} mana over $d and changes your permanent Well Fed effect. Must remain seated while ingesting.][],
+470344,,,
+470387,,,
+470431,,,
+470441,,,
+470442,,,
+470485,,,
+470503,,"$@spelldesc437343
+",
+470509,,,
+470510,,,
+470512,,,
+470513,,,
+470582,,,
+470587,,$@spelldesc440617,
+470588,,"The caster places a curse on the target, reducing their haste by $s1% and reducing their movement speed by $s2% for $d.","Haste reduced by $s1%.
+Movement speed reduced by $s2%."
+470590,,"$@spelldesc445771
+",
+470591,,"Fires a bolt of shadow at an enemy, inflicting $s1 Shadow damage.",
+470592,,Increases the casters auto attack damage by $s1% and reduces damage taken by $s2% for $d.,"Auto attack damage increased by $w1%.
+Damage taken reduced by $w2%."
+470593,,"The caster channels death into the target, inflicting Shadow damage every $t1 sec for $d and reducing their movement speed by $s2% . ","Shadow damage inflicted every $t1 sec.
+Movement speed reduced by $s2%."
+470612,,"The caster spits corrosive bile onto their target, inflicting $s1 Nature damage and an additional $s2 Nature damage every $t2 sec for $d. This effect stacks.
+",
+470667,,,
+470683,,,
+470714,,,
+470720,,,
+470726,,"Disenchant a Gleaming Shard, reducing it to 3 Storm Dust. The quality of Storm Dust produced is limited by the quality of Gleaming Shard used, and is otherwise based on a combination of your Enchanting skill and Uncommon Utilitarian specialization.",
+470757,,,
+470758,,,
+470759,,,
+470763,,,
+470764,,,
+470765,,,
+470782,,,
+470816,,,
+470871,,,
+470872,,,
+470885,,,
+470968,,,
+470969,,,
+471174,,A spectral image of Ky'veza that mirrors some of her attacks.,
+471129,,,
