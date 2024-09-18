@@ -282171,10 +282171,10 @@ Speed increased by $w2."
 345542,,,
 345543,,,
 345544,,,
-345545,,"Coat your weapons in Flayedwing Toxin for $d, giving your attacks a high chance to deal $<ChimericPoison> Nature damage over $345546d.",Your attacks have a high chance to deal Nature damage over $345546d.
+345545,,"Coat your weapons in Flayedwing Toxin for $d, giving your attacks a high chance to inflict ${$<rolemult>*$345547s1*3} Nature damage over $345546d.",Your attacks have a high chance to  inflict ${$<rolemult>*$345547s1*3} Nature damage over $345546d.
 345546,,$@spelldesc345545,Suffering $w1 Nature damage every $t1 sec.
 345547,,,
-345548,,"Hook an enemy who is within $r yds, causing them to bleed for $s1 Physical damage every $t1 sec and reducing their movement speed by $s2%. Lasts $d, or until they move more than $s3 yds away from you.",Bleeding for $s1 Physical damage every $t1 sec as long as you are within $s3 yds of $@auracaster.
+345548,,"Hook an enemy who is within $r yds, causing them to bleed for ${$<rolemult>*$s1} Physical damage every $t1 sec and reducing their movement speed by $s2%. Lasts $d, or until they move more than $s3 yds away from you.",Bleeding for ${$<rolemult>*$s1} Physical damage every $t1 sec as long as you are within $s3 yds of $@auracaster.
 345549,,"Sacrifice $345551s2 health to charge the phylactery.
 
 Healing a target below $s3% health expends the phylactery's charge to amplify your spell, restoring $345551s1 additional health to the target.",Healing a target below $s3% health will restore $345551w1 additional health to the target.
@@ -377957,11 +377957,7 @@ The explosion forms $@spellname443403.",
 448485,,"Guard Captain Suleyman slams his target with his shield with tremendous force, inflicting $s1 Physical damage and knocking the target away.",
 448486,,,
 448487,,,
-448488,,"The Devoted Worshipper exchanges its health for an absorption shield and protects Ansurek from all damage.$?diff16[
-
-Upon death, dark energies swirl from its corpse, forming a $@spellname462541][]","Absorbs ${$w1} damage.$?diff16[
-
-Upon death, a $@spellname462541 forms][]"
+448488,,The Devoted Worshipper exchanges its health for an absorption shield and protects Ansurek from all damage.,Absorbs ${$w1} damage.
 448489,,,
 448490,,,
 448491,,,
@@ -391192,5 +391188,29 @@ Movement speed reduced by $s2%."
 470885,,,
 470968,,,
 470969,,,
-471174,,A spectral image of Ky'veza that mirrors some of her attacks.,
 471129,,,
+471174,,A spectral image of Ky'veza that mirrors some of her attacks.,
+470799,,,
+470802,,,
+471178,,"Load a $@spellname461964 into a ballista.
+
+$@spellicon461964$@spellname461964:
+$@spelldesc461964","Loaded with a $@spellname461964.
+
+$@spellicon461964$@spellname461964:
+$@spelldesc461964"
+471179,,"Load a $@spellname462016 into a ballista.
+
+$@spellicon462016$@spellname462016:
+$@spelldesc462016","Loaded with a $@spellname462016.
+
+$@spellicon462016$@spellname462016:
+$@spelldesc462016"
+471180,,"Load a $@spellname462018 into a ballista.
+
+$@spellicon462018$@spellname462018:
+$@spelldesc462018","Loaded with a $@spellname462018.
+
+$@spellicon462018$@spellname462018:
+$@spelldesc462018"
+471236,,Returns you to $z.,
