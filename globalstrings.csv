@@ -17400,6 +17400,7 @@ ID,BaseTag,TagText_lang,Flags
 40890,COMMUNITIES_LIST_DROP_DOWN_COMMUNITIES_SETTINGS,Group Settings,1
 40891,COMMUNITIES_LIST_DROP_DOWN_COMMUNITIES_NOTIFICATION_SETTINGS,Notification Settings,1
 40892,COMMUNITIES_LIST_DROP_DOWN_CLEAR_UNREAD_NOTIFICATIONS,Clear All Notifications,1
+40893,CALENDAR_ERROR_NO_COMMUNITY_INVITES,Members are automatically invited to sign up for this event.,5
 40895,COMMUNITIES_LIST_DROP_DOWN_INVITE,Invite Member,1
 40896,COMMUNITIES_LIST_INVITATION_DISPLAY,Invited to %s,1
 40898,COMMUNITY_MEMBER_LIST_DROP_DOWN_BATTLETAG_FRIEND,Add BattleTag Friend,1
@@ -17414,6 +17415,7 @@ ID,BaseTag,TagText_lang,Flags
 40944,WOW_ERROR_332,Your recent purchase of game time is still under payment review,2
 40945,CLASSIC_DEFAULTS,Classic,3
 40947,COMMUNITIES_CALENDAR_MOTD_FORMAT,"\""%s\""",1
+40948,COMMUNITIES_CALENDAR_EVENT_FORMAT,%s at %s,1
 40952,VISITABLE_URL44,https://support.blizzard.com/article/32543,2
 40958,COMPACT_UNIT_FRAME_PROFILE_AUTOACTIVATE20PLAYERS,20 Player Group,1
 40988,VAS_TRANSFER_REALM_TOOLTIP,Choose the Realm you would like to transfer to.,2
@@ -17532,8 +17534,8 @@ ID,BaseTag,TagText_lang,Flags
 41627,CLUB_FINDER_SORT_BY_RELEVANCE,Relevance,1
 41628,CLUB_FINDER_SORT_BY_MOST_MEMBERS,Most Members,1
 41629,CLUB_FINDER_SORT_BY_NEWEST,Newest,1
-41633,GUILD_OFFICER_PERMISSION_FINDER_LIST,,1
-41634,GUILD_OFFICER_PERMISSION_INVITE_APPLICANTS,,1
+41633,GUILD_OFFICER_PERMISSION_FINDER_LIST,- List in Guild Finder,1
+41634,GUILD_OFFICER_PERMISSION_INVITE_APPLICANTS,- Invite Applicants from Guild Finder,1
 41637,CLUB_FINDER_NOT_RECRUITING_YOUR_SPECS,Send a note and include your specializations if you would still like to be considered for membership.,1
 41638,CLUB_FINDER_NO_MATCHING_SPEC_DIALOG_ERR_STRING,Currently not recruiting any of your class specializations. You may still apply.,1
 41640,BNET_FRIEND_ZONE_WOW_CLASSIC,WoW Classic: %s,1
@@ -17582,6 +17584,8 @@ ID,BaseTag,TagText_lang,Flags
 41796,CLUB_FINDER_JOINED_COMMUNITY_POPUP,You joined a new Community.,1
 41797,CLUB_FINDER_WHISPER_OFFICER_ERROR_GUILD,No recruiter for this guild is online right now. Please try whispering again later.,1
 41807,CLUB_FINDER_DAYS_UNTIL_EXPIRE,%d Days,1
+41813,COMMUNITY_FEATURE_UNAVAILABLE_MUTED,This feature is disabled due to your Battle.net Account parental controls or privacy settings,1
+41814,COMMUNITY_FEATURE_UNAVAILABLE_SILENCED,"We have silenced your account following multiple reports of abusive chat from other players. While silenced, you are unable to use this feature.",1
 41821,CLUB_FINDER_FOCUS_STRING,Focus: %s,1
 41829,CLUB_FINDER_RECRUITING_ALL_SPECS,All Specs,1
 41831,CLUB_FINDER_FIND_ONLINE_MEMBER,Find an Online Member,1
@@ -18376,9 +18380,11 @@ ID,BaseTag,TagText_lang,Flags
 50381,PRC_FLOW_FINISH_LABEL,Accept,2
 50383,PRC_FLOW_CUSTOMIZE_CHARACTER_STEP,You'll customize your character in the next step.,2
 50394,BASE_SETTINGS_TAB,Base,3
+50408,TITLE_WARNING,Warning!,2
 50415,VISITABLE_URL58,https://www.battlenet.com.cn/support/zh/help/home,2
 50416,VISITABLE_URL59,https://www.battlenet.com.cn/support/zh/ticket/status?loc,2
 50417,VISITABLE_URL60,https://www.battlenet.com.cn/support/zh/ticket/submit?loc,2
+50423,AGREE,I agree,2
 50436,SELF_CAST,Self Cast,1
 50437,SELF_CAST_AUTO,Auto,1
 50438,SELF_CAST_KEY_PRESS,Key Press,1
@@ -18411,6 +18417,7 @@ ID,BaseTag,TagText_lang,Flags
 51197,ICON_FILTER_ALL,All Icons,1
 51198,ICON_FILTER_SPELL,Spells,1
 51199,ICON_FILTER_ITEM,Items,1
+51205,BATTLE_PET_SOURCE_12,Trading Post,1
 51219,SLASH_TEXTTOSPEECH_HELP_LOOT,Enable or disable achievement item loot messages,1
 51220,SLASH_TEXTTOSPEECH_HELP_CURRENCY,Enable or disable achievement currency messages,1
 51221,SLASH_TEXTTOSPEECH_HELP_MONEY,Enable or disable achievement money loot messages,1
@@ -18451,6 +18458,7 @@ ID,BaseTag,TagText_lang,Flags
 51860,UPREZ_TEXTURES,NEW!  Uprezzed Textures,3
 51861,OPTION_TOOLTIP_UPREZ_TEXTURES,uprez tooltip placeholder,3
 51869,ICON_SELECTION_TITLE_CURRENT,Currently Selected,1
+51959,EMPTY_SOCKET_FRAGRANCE,Fragrance Socket,1
 51978,ERR_PARTY_LFG_BOOT_DISALLOWED_BY_MAP,Players can't be kicked from this instance,1
 52002,COUNTDOWN_SET,|Hplayer:%s|h[%s]|h started a countdown timer.,1
 52003,COUNTDOWN_CLEAR,|Hplayer:%s|h[%s]|h canceled the countdown timer.,1
@@ -18459,6 +18467,7 @@ ID,BaseTag,TagText_lang,Flags
 52006,SLASH_COUNTDOWN2,/countdown,1
 52007,SLASH_COUNTDOWN3,/cd,1
 52008,SLASH_COUNTDOWN4,/cd,1
+52024,ITEM_MOD_INGENUITY_SHORT,Ingenuity,1
 52041,HD_TEXTURES_BUTTON_TOOLTIP_HEADER,Download High Definition Textures,3
 52042,HD_TEXTURES_BUTTON_TOOLTIP,"Downloads higher detail textures for characters, creatures, buildings, objects, terrain, and more. Once downloaded, these textures can be toggled on or off at any time in the game options.",3
 52043,HD_TEXTURES_BUTTON,Get HD Textures,3
@@ -18479,10 +18488,23 @@ ID,BaseTag,TagText_lang,Flags
 52163,CURRENCY_RECEIVED_THIS_SEASON,%s you have received so far this season:,1
 52267,REPORTING_MINOR_CATEGORY_HARMFUL_TO_MINORS,Harmful To Minors,1
 52290,CLUB_FINDER_REALM_NAME,Realm: |cffffffff%s|r,1
+52346,VRN_COMPAT_MODE,Disabled due to compatibility settings,3
+52347,COMPATIBILITY_SETTINGS,Compatibility Settings,3
+52348,OPTION_TOOLTIP_COMPATIBILITY_SETTINGS,"Compatibility settings are offered to help diagnose and work around various crashes, graphical bugs and performance issues. In most cases disabling these features will decrease performance, introduce hitching and/or decrease visual quality. They are only intended to be disabled if you are having specific issues.",3
+52349,COMPAT_SETTING_OPTIONAL_GPU_FEATURES,Optional GPU Features,3
+52350,COMPAT_SETTING_DEVICE_MULTITHREADING,Async Resource Creation,3
+52351,COMPAT_SETTING_FRAME_OVERLAP,Frame Overlap,3
+52352,COMPAT_SETTING_CMDLIST_MULTITHREADING,Multithreaded Rendering,3
+52353,OPTION_TOOLTIP_COMPAT_SETTING_OPTIONAL_GPU_FEATURES,"Allows the use of newer GPU features. When disabled, the game will act as if the GPU only supports the minimum required features. Various graphical features will be disabled and the visual quality of the game will likely be reduced. This may help work around driver bugs or other issues with newer GPU features.",3
+52354,OPTION_TOOLTIP_COMPAT_SETTING_DEVICE_MULTITHREADING,Allows asynchronously creating GPU resources such as textures and shaders. Disabling this will likely introduce hitching but could help work around crashes or visual issues on very old drivers or hardware.,3
+52355,OPTION_TOOLTIP_COMPAT_SETTING_FRAME_OVERLAP,"Allows the CPU to work on 2 frames at once. Disabling this may cause less consistent or lower framerate but could help avoid some kinds of crashes for certain hardware, driver and OS combinations. ",3
+52356,OPTION_TOOLTIP_COMPAT_SETTING_CMDLIST_MULTITHREADING,"Allows the game to use multiple CPU threads to render the game. Disabling this will likely greatly reduce framerate, but could work around crashes or visual bugs in some cases. ",3
 52368,ERR_NOT_ENOUGH_PURCHASED_GAME_TIME,Game time must be purchased at least once on this account to be eligible to buy a WoW Token with gold.,1
 52392,CHINA_AGE_APPROPRIATENESS_TEXT,System message,2
 52393,CHINA_AGE_APPROPRIATENESS_TEXT_TITLE,System message title,2
 52394,VISITABLE_URL57,https://jiazhang.gm.163.com/blizzard/,2
+52395,COMPAT_SETTING_ADV_WORK_SUBMIT,Advanced Work Submit,3
+52396,OPTION_TOOLTIP_COMPAT_SETTING_ADV_WORK_SUBMIT,"Allows more complex code paths for submitting work to the GPU. Disabling this may cause less consistent or lower framerate but could help avoid some kinds of crashes for certain hardware, driver and OS combinations. ",3
 52397,CHINA_HEALTHY_GAMING_TEXT,System message,2
 52398,CHINA_HEALTHY_GAMING_TEXT_TITLE,System message,2
 52434,SETTINGS_TRIVIAL_QUEST_FILTER,Hide Low-Level Quests,1
@@ -18494,3 +18516,5 @@ ID,BaseTag,TagText_lang,Flags
 52472,SELF_HIGHLIGHT_MODE_CIRCLE_AND_ICON,Circle and Icon,1
 52522,OPTION_TOOLTIP_DISABLE_CHAT,Disables chat. You will not be able to send or receive messages.,1
 52523,OPTION_TOOLTIP_DISABLE_CHAT_ACCOUNT_MUTE,"To change this, you must first go to your Battle.net Account settings and make sure that: \n- Privacy & Communication -> Text Chat is enabled \n- Parental Controls -> Account Mute is disabled",1
+52644,PVP_REALM_WARNING,"Welcome to the |cffffffffWorld of Warcraft!|n|n|cffffd200As you prepare to enter this realm, please be aware that you are joining a |cffffffffPvP (Player vs Player) |cffffd200realm. This means, in addition to the challenges of the world itself, you will also face the constant threat of combat with other players.",2
+52650,PVP_REALM_WARNING_TWO,"|n|n|cffffffffPvP combat |cffffd200is a core part of this realm, and players from opposing factions may attack you without warning and with no sense of honor in contested areas. Be prepared for skirmishes and potentially lopsided battles as you explore the world, whether during quests, gathering resources, or traveling between locations. This means that the player you killed in Un'Goro while fighting over Devilsaur might hold a grudge, and now their guild is waiting for yours on the way to Blackrock Mountain.|n|nIf you're not looking for this level of conflict, we recommend choosing a |cffffffffNormal (non-PvP) |cffffd200realm instead, where player combat is restricted.|n|n|cffffffffWe do not allow transfers between PvP and Normal realms. You have been warned!",2
