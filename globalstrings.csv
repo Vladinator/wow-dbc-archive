@@ -13596,7 +13596,7 @@ You can find trainers for them in some settlements and cities.",1
 25901,GARRISON_BONUS_EFFECT_TIME_LEFT,|cffffd200Time Left:|r |cffffffff%s|r,1
 25902,CANNOT_DO_THIS_WHILE_PVP_QUEUING,You can't do this while queuing for a Battleground or Arena.,1
 25903,CANNOT_DO_THIS_WHILE_PVE_QUEUING,"You can't do this while queuing for a Dungeon, Raid, or Scenario.",1
-25904,LFD_TIMEWALKER_RANDOM_EXPLANATION,"Timewalking sends you back to lower-level dungeons, scaling your character's power down appropriately, while bosses will drop loot scaled up to suit your current level.",1
+25904,LFD_TIMEWALKER_RANDOM_EXPLANATION,"Timewalking lets you revisit lower-level dungeons, scaling the dungeon's difficulty and rewards to your level.",1
 25905,LFG_TYPE_RANDOM_TIMEWALKER_DUNGEON,Random Timewalking Dungeon,1
 25906,INCLUDED_DUNGEONS_TIMEWALKER_EMPTY,The levels of people in your group are not close enough to be eligible for any Random Timewalking Dungeons.,1
 25907,GARRISON_SKIP_ANIMATION_LABEL,Hit the space bar to skip|nmission report animations.,1
@@ -14797,9 +14797,9 @@ You can find trainers for them in some settlements and cities.",1
 34244,COMMUNITY_URL,http://www.worldofwarcraft.com,2
 34245,CONFIRM_CHAR_DELETE,Do you want to delete\n|cffffffff%s   Level %d   %s|r?,2
 34246,CONFIRM_CHAR_DELETE_INSTRUCTIONS,"Type ""DELETE"" into the field to confirm.",2
-34247,CONFIRM_DISABLE_ADDONS,"You will need to re-enable your modifications once you install updated versions.  Are you sure you want to disable them?\n\n|cffffffffYou can re-enable them by selecting ""Menu > AddOns"" at the top of the screen.|r",2
+34247,CONFIRM_DISABLE_ADDONS,"You will need to re-enable your modifications once you install updated versions. Are you sure you want to disable them?\n\n|cffffffffYou can re-enable them by selecting ""Menu > AddOns"" at the top of the screen.|r",2
 34248,CONFIRM_LAUNCH_ADDON_URL,"Clicking ""Okay"" will take you out of the game and open the following link in a web browser:\n%s",2
-34249,CONFIRM_LOAD_ADDONS,"The game may not work correctly unless you have updated all your modifications.  Are you sure you want to try to load them?\n\n|cffffffffChanges can be made by using the ""Addons"" button in the lower left.|r",2
+34249,CONFIRM_LOAD_ADDONS,"The game may not work correctly unless you have updated all your modifications. Are you sure you want to try to load them?\n\n|cffffffffYou can re-enable them by selecting ""Menu > AddOns"" at the top of the screen.|r",2
 34250,CONFIRM_PAID_SERVICE,Are you sure you are done changing your character?,2
 34251,CONFIRM_PFC,Are you sure you are done changing your character?,2
 34252,CONFIRM_TEMP,Are you sure you are done?,2
@@ -15168,7 +15168,7 @@ You can find trainers for them in some settlements and cities.",1
 34623,UNDELETE_FAILED_ERROR,There was a problem restoring your deleted character. Please try again later.,2
 34624,UNDELETE_LABEL,Deleted Characters,2
 34625,UNDELETE_NAME_TAKEN,You already have an active character with that name. You can't restore this character at this time.,2
-34626,UNDELETE_NO_CHARACTERS,You have no deleted characters to restore.,2
+34626,UNDELETE_NO_CHARACTERS,No deleted characters to restore on this realm. Switch realms to try again.,2
 34627,UNDELETE_SERVICE_TOOLTIP,Restore this character,2
 34628,UNDELETE_SUCCESS,Character successfully restored.,2
 34629,UNDELETE_SUCCESS_NAME_CHANGE_REQUIRED,"Character successfully restored.\nYour old name was taken, and you will need to pick a new one when you log in.",2
@@ -18693,7 +18693,7 @@ You can find trainers for them in some settlements and cities.",1
 42492,COVENANT_MISSIONS_REWARDS_EARNED,You Earned,1
 42493,COVENANT_MISSIONS_REWARDS_FOLLOWER_PROGRESS,Companion Progress,5
 42494,NPEV2_HUNTER_TAME_ANIMAL,Target a nearby animal.\n\nOpen Pet Utility and use |cFF00FFFFTame Beast|r.\n\nDon't move while it casts!,1
-42495,NPEV2_HUNTER_STABLE_PET,Dragging an active pet to the stable allows you to tame more pets,1
+42495,NPEV2_HUNTER_STABLE_PET,Placing an active pet into the stable allows you to tame more pets out in the world,1
 42496,GROUP_FINDER_DELIST_WARNING_SUBTEXT,|n%s until automatic delist,1
 42497,GROUP_FINDER_DELIST_WARNING_TITLE,You have been promoted to Leader|TInterface\\GroupFrame\\UI-Group-LeaderIcon:0:0:0:-1|t |n|n|cffffd200Would you like to relist the group:|r|n%s|n,1
 42498,SPELL_FAILED_CUSTOM_ERROR_472,Requires Proof of Purity,1
@@ -21577,9 +21577,9 @@ Failed to load, next attempt on restart.",3
 50403,EXPANSION_TRIAL_GAINED_LEVEL_TEXT,Level %d,1
 50404,EXPANSION_TRIAL_THANKS_TEXT_GAINED_BANKED_LEVEL,"You can't level past 60 during this trial, but any experience you earn will be banked.|n|nBuy Dragonflight to apply your banked XP and continue leveling to 70!",1
 50405,SPELL_FAILED_CUSTOM_ERROR_831,Requires a Djaradin Pillar Shard.,1
-50409,VISITABLE_URL58,https://www.battlenet.com.cn/support/zh/help/home,2
-50410,VISITABLE_URL59,https://www.battlenet.com.cn/support/zh/ticket/status?loc,2
-50411,VISITABLE_URL60,https://www.battlenet.com.cn/support/zh/ticket/submit?loc,2
+50409,VISITABLE_URL58,https://support-api.battlenet.com.cn/auth/home/index,2
+50410,VISITABLE_URL59,https://support-api.battlenet.com.cn/auth/home/service,2
+50411,VISITABLE_URL60,https://support-api.battlenet.com.cn/auth/home/question,2
 50422,HUD_EDIT_MODE_ENABLE_ADVANCED_OPTIONS,Advanced Options,1
 50425,HUD_EDIT_MODE_SETTINGS_CATEGORY_TITLE_FRAMES,Frames,1
 50426,HUD_EDIT_MODE_SETTINGS_CATEGORY_TITLE_COMBAT,Combat,1
@@ -22397,6 +22397,7 @@ And spread his flame to all Azeroth.",1
 52062,PERKS_PROGRAM_PLAY_ATTACK_ANIM,Combat Animation,1
 52063,PERKS_PROGRAM_MOUNT_SPECIAL_ANIM,Mount Special Animation,1
 52064,PREFIX_SOLO_RBG,Battleground Blitz: %s,1
+52065,SPELL_FAILED_CUSTOM_ERROR_1038,You do not own that mount.,1
 52066,PERSONALTABARDVENDORUNOWNEDGREETING,"You must own a personal tabard in order to customize, but feel free to browse.",7
 52067,ACCOUNT_CURRENCY_GAINED_MULTIPLE,Your Warband receives currency: %sx%d,1
 52068,ACCOUNT_CURRENCY_GAINED_MULTIPLE_BONUS,Your Warband receives currency: %sx%d (Bonus Objective),1
@@ -22530,13 +22531,53 @@ And spread his flame to all Azeroth.",1
 52205,WEEKLY_REWARDS_ITEM_LEVEL_WORLD,Item Level %1$d - (Tier %2$d),1
 52206,WEEKLY_REWARDS_COMPLETE_WORLD,Complete a Tier %1$d delve or higher to increase this reward's item level.,1
 52207,SPELL_FAILED_CUSTOM_ERROR_1042,You already have this curio in your collection.,1
+52208,20th_ANNIVERSARY_THEME_01_01,Theme: Cataclysmic Costume,1
+52209,20th_ANNIVERSARY_THEME_01_02,Theme: Humble Beginnings,1
+52210,20th_ANNIVERSARY_THEME_01_03,Theme: Alliance vs Horde,1
+52211,20th_ANNIVERSARY_THEME_01_04,Theme: Dangerous and Destructive,1
+52212,20th_ANNIVERSARY_THEME_01_05,Theme: From Rags to Ragnaros,1
+52213,20th_ANNIVERSARY_THEME_02_01,Theme: Draenor Drab,1
+52214,20th_ANNIVERSARY_THEME_02_02,Theme: Off to the Outlands,1
+52215,20th_ANNIVERSARY_THEME_02_03,Theme: Lookin' Grand in Nagrand,1
+52216,20th_ANNIVERSARY_THEME_02_04,Theme: The Fel and the Furious,1
+52217,20th_ANNIVERSARY_THEME_02_05,Theme: Warlord,1
 52218,POWER_TYPE_ACID,Acid Power,1
 52219,PROF_CRAFTING_ORDER_TYPE_NPC,npc,1
 52220,DELVE_LABEL,Delve,1
 52221,UNITNAME_SUMMON_TITLE57,Placed by %s,1
+52222,20th_ANNIVERSARY_THEME_03_01,Theme: Chillin' at Icecrown,1
+52223,20th_ANNIVERSARY_THEME_03_02,Theme: Grizzly Garb,1
+52224,20th_ANNIVERSARY_THEME_03_03,Theme: Vrykul Vestments,1
+52225,20th_ANNIVERSARY_THEME_03_04,Theme: Death and Knights,1
+52226,20th_ANNIVERSARY_THEME_03_05,Theme: Fashionably Forsaken,1
 52228,PHOTOSENSITIVITY_WARNING_TITLE,PHOTOSENSITIVITY WARNING,2
 52229,PHOTOSENSITIVITY_WARNING_DESCRIPTION,"A small percentage of people may have seizures from certain lights, patterns, or images, even without a history of epilepsy.|n|nBefore playing, if you or anyone in your family has an epileptic condition, consult a physician.|n|nStop playing and seek medical advice if you experience dizziness, altered vision, twitches, loss of awareness, disorientation, involuntary movements, or convulsions while gaming.",2
+52230,20th_ANNIVERSARY_THEME_04_01,Theme: Tranquil Attire,1
+52231,20th_ANNIVERSARY_THEME_04_02,Theme: Fancy Farming,1
+52232,20th_ANNIVERSARY_THEME_04_03,Theme: Pandaren Panache,1
+52233,20th_ANNIVERSARY_THEME_04_04,Theme: Jade Jubilee,1
+52234,20th_ANNIVERSARY_THEME_04_05,Theme: Why We Fight,1
 52235,PHOTOSENSITIVITY_WARNING_CONTINUE,Press any button to continue,2
+52236,20th_ANNIVERSARY_THEME_05_01,Theme: Burning It Up,1
+52237,20th_ANNIVERSARY_THEME_05_02,Theme: Feeling Green,1
+52238,20th_ANNIVERSARY_THEME_05_03,Theme: Hunting Demons,1
+52239,20th_ANNIVERSARY_THEME_05_04,Theme: Suramar Style,1
+52240,20th_ANNIVERSARY_THEME_05_05,Theme: Otherworldly,1
+52241,20th_ANNIVERSARY_THEME_06_01,Theme: A Pirate's Life,1
+52242,20th_ANNIVERSARY_THEME_06_02,Theme: Kul'Tiran's Finest,1
+52243,20th_ANNIVERSARY_THEME_06_03,Theme: Vulpera Vanity,1
+52244,20th_ANNIVERSARY_THEME_06_04,Theme: Mecha Gone Mad,1
+52245,20th_ANNIVERSARY_THEME_06_05,Theme: Unlikely Combinations,1
+52246,20th_ANNIVERSARY_THEME_07_01,Theme: Dark and Deadly,1
+52247,20th_ANNIVERSARY_THEME_07_02,Theme: Ardenweald's Finest,1
+52248,20th_ANNIVERSARY_THEME_07_03,Theme: Captivating Covenant,1
+52249,20th_ANNIVERSARY_THEME_07_04,Theme: Bastion's Best,1
+52250,20th_ANNIVERSARY_THEME_07_05,Theme: Ghostly Gala,1
+52251,20th_ANNIVERSARY_THEME_08_01,Theme: Take Flight,1
+52252,20th_ANNIVERSARY_THEME_08_02,Theme: Ensemble of the Aspects,1
+52253,20th_ANNIVERSARY_THEME_08_03,"Theme: Yes, Chef!",1
+52254,20th_ANNIVERSARY_THEME_08_04,Theme: On the Hunt,1
+52255,20th_ANNIVERSARY_THEME_08_05,Theme: Super Blooming,1
 52256,CHARACTER_ACHIEVEMENT_DESCRIPTION,Progress towards this achievement is tracked for each character.,1
 52258,VRN_DX12_NEEDS_WIN10_19H2,DirectX 12 requires the Windows 10 November 2019 Update or newer,3
 52259,SPELL_FAILED_CUSTOM_1101,A Charge Station has already been constructed nearby.,1
@@ -22595,7 +22636,7 @@ And spread his flame to all Azeroth.",1
 52321,MAP_LEGEND_RAREELITE,Rare Elite,1
 52322,MAP_LEGEND_RAREELITE_TOOLTIP,A rare special creature that has a chance of dropping valuable loot,1
 52323,MAP_LEGEND_DUNGEON,Dungeon,1
-52324,MAP_LEGEND_DUNGEON_TOOLTIP,"Content designed for a party of five adventures, and provides loot",1
+52324,MAP_LEGEND_DUNGEON_TOOLTIP,"Instanced content that rewards loot, intended for a party of up to five adventurers",1
 52325,MAP_LEGEND_RAID,Raid,1
 52326,MAP_LEGEND_RAID_TOOLTIP,"Challenging content that is intended for large groups of players, and provides valuable loot",1
 52327,MAP_LEGEND_HUB,Hub,1
@@ -22695,8 +22736,8 @@ Items from the event have been removed.
 52430,CRAFTING_ORDERS_BROWSE_HEADER_NPC_NAME,Patron Name,1
 52431,PROFESSIONS_CRAFTING_ORDERS_NPC_HELPTIP,"|cnNORMAL_FONT_COLOR:Patron Orders|r|nCharacters met on your travels may now send you crafting orders. Fulfill these for profession skill, knowledge, and more!",1
 52432,CRAFTING_ORDERS_FIRST_NPC_ORDER_HELPTIP,"Once all requirements are satisfied, you can craft the order. Some orders may require you to provide your own reagents.",1
-52433,SETTINGS_ACCOUNT_COMPLETED_QUEST_FILTER,Hide Warband Completed Quests,1
-52434,SETTINGS_TRIVIAL_QUEST_FILTER,Hide Low-Level Quests,1
+52433,SETTINGS_ACCOUNT_COMPLETED_QUEST_FILTER,Show Warband Completed Quests,1
+52434,SETTINGS_TRIVIAL_QUEST_FILTER,Show Low-Level Quests,1
 52435,QUEST_SETTINGS_LABEL,Quests,1
 52436,ERR_VOID_STORAGE_ACCOUNT_ITEM,You cannot deposit items into void storage from the Warband Bank.,1
 52438,WOW_ERROR_500,Data conversion for your Warband has failed. Please re-login to your account to try again.,2
@@ -22708,11 +22749,12 @@ Items from the event have been removed.
 52444,QUEST_REWARDS_CONTAINS_ONE_TIME_REP_BONUS,Awards a one-time Warband reputation bonus,1
 52445,QUEST_REWARDS_IS_ONE_TIME_REP_BONUS,This is a one-time Warband reputation bonus,1
 52446,CRAFTING_ORDER_FAILED_ACCOUNT_ITEMS,You currently cannot use reagents from the Warband bank in a crafting order. Place them in your bags or the Reagent bank to use them in this order.,1
+52447,SPELL_FAILED_CUSTOM_ERROR_1045,Locked.,1
 52448,ACCOUNT_REACTIVATE_ERR_NOT_ENOUGH_GOLD_TOOLTIP,Not enough gold on current realm,2
 52450,TRIVIAL_QUESTS_FILTER_DESCRIPTION,These quests are significantly lower than your current level and will award no experience.,1
 52451,ERR_CANT_TRADE_ACCOUNT_ITEM,You can't trade an item from the Warband bank.,1
 52452,MAP_LEGEND_DELVE,Delve,1
-52453,MAP_LEGEND_DELVE_TOOLTIP,"Content designed for a party of up to five adventurers using any combat role, and provides loot",1
+52453,MAP_LEGEND_DELVE_TOOLTIP,"Instanced content that rewards loot, intended for a party of up to five adventurers using any combat role",1
 52454,DIFFICULTY_LOCKED_REASON_STORY_RAID,Unavailable in Story mode,1
 52455,DELVES_WEEKLY_REWARDS_UNCLAIMED_TEXT,You have unclaimed rewards! Return to the Great Vault in Dornogal to make your selection.,1
 52456,DELVES_WARNING_PARTY_MEMBER_INELIGIBLE_FOR_TIER,|Hplayer:%s|h[%s]|h cannot join your tier %d delve (tier %d unlocked).,1
@@ -22723,4 +22765,27 @@ Items from the event have been removed.
 52461,WARWITHIN_TITLE2,The War Within: Shadows Beneath,2
 52462,SPELL_FAILED_CUSTOM_ERROR_2425,Earthen cannot consume traditional food or drink.,1
 52463,DELVES_PARTY_MEMBER_INELIGIBLE_FOR_TIER_TOOLTIP,%s has not unlocked this tier,1
+52464,SPELL_FAILED_CUSTOM_ERROR_1054,That can't be used here.,1
 52467,OPTION_TOOLTIP_DISABLE_CHAT_ACCOUNT_MUTE,"To change this, you must first go to your Battle.net Account settings and make sure that: \n- Privacy & Communication -> Text Chat is enabled \n- Parental Controls -> Account Mute is disabled",1
+52477,ERR_WARBAND_HEARTHSTONE,You are not yet eligible to use this item.,1
+52478,ACCOUNT_BANK_DEPOSIT_ALL_NO_REFUND_CONFIRM,You are about to deposit refundable items into the bank.|n|n|cnRED_FONT_COLOR:All warbound items will have their refund timers removed.|r|n|nWould you like to continue?,1
+52479,SPELL_FAILED_HEARTHSTONE,You are not yet eligible to use this item.,1
+52480,SPELL_FAILED_CUSTOM_ERROR_1056,You are not yet eligible to use this item.,1
+52481,CONFIRM_POPUP_DONT_SHOW_AGAIN,Don't show this again,1
+52482,CURRENCY_TRANSFER_MAX_QUANTITY_BUTTON,Max,1
+52484,ERR_CURRENCY_TRANSFER_TRANSACTION_IN_PROGRESS,That character already has a transaction in progress.,1
+52485,TOGGLE_VISIBILITY_TOOLTIP,Toggle User Interface Visibility,2
+52501,ERR_GUILD_BANK_REALM_MISMATCH,"Cannot deposit, withdraw or combine split stack items from different realms.",1
+52503,MAP_TOOLTIP_TIME_LEFT,Time Left: %s,1
+52504,TOKEN_REMOVE_FROM_BACKPACK_INSTRUCTION,<Shift click to untrack>,1
+52517,SPELL_FAILED_CUSTOM_ERROR_1057,Lighting the Shadowforge Brazier requires a Shadowforge Torch.,1
+52518,SPELL_FAILED_CUSTOM_ERROR_1058,This Shadowforge Brazier is already burning.,1
+52539,CHARACTER_SELECT_LEVEL_TOOLTIP,Level %d,2
+52604,CHAR_CREATE_NEW_PLAYER_RESTRICTED_RACE,Reach Level 10 to unlock this race,2
+52605,PLAYER_DIFFICULTY_STORY_RAID,Raid Story,1
+52607,GREAT_VAULT_REWARDS_RAID_INCOMPLETE,Defeat %d %s |4Boss:Bosses; this week to unlock this reward.|n|nThe item level of this reward will be based on the difficulty of the raid.,1
+52608,GREAT_VAULT_REWARDS_RAID_INPROGRESS,Defeat %d more |4Boss:Bosses; this week to unlock this reward.|n|nThe item level of this reward will be based on the difficulty of the raid.,1
+52609,CURRENCY_FILTER_TYPE_CHARACTER,%s Only,1
+52610,CURRENCY_FILTER_TYPE_TRANSFERABLE,All Warband Transferable,1
+52611,CURRENCY_FILTER_TYPE_TRANSFERABLE_TOOLTIP,Include currencies owned by other members of your Warband,1
+52753,SPELL_FAILED_CUSTOM_ERROR_1059,Full Bags,1

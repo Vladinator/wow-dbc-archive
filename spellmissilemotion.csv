@@ -26966,3 +26966,51 @@ else
 	transRight = -.10 + (rand1*1.5)
     
 end",0,1
+4809,Meteor Strike (1 Yards) Falls Straight Down + Rotate,"local magnitude = 1
+
+transUp = magnitude * ( 1 - progress )
+transFront = distanceToImpactPos
+
+modelRoll = (progress)*720",0,1
+4818,"Parabola (Yaw Spin, Slow)","local angle = 0
+local maxMagnitude = startDistance * 0.25
+local spinRateY = 90
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+
+modelYaw = time * spinRateY",0,1
+4820,Shaman Windfury Motion,"--transUp = progress*2-1--sin(progress*180)*3*(1-progress)
+--transUp = (1 - (transUp * transUp))*(rand2*2+1)
+
+--transRight = rand1*sin(progress*180)*3*(1-progress)
+
+transAngle = (math.sqrt(rand1)*90)
+if rand2>0.5 then transAngle = transAngle*-1 end
+transMag = sin(progress*180)*(1-progress)*(6*startDistance/12+1)",0,0
+4821,Shaman - Enhancement - Windfury Missile (Left Low),"local angle = 65
+local maxMagnitude = startDistance * .35
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude",0,1
+4822,Shaman - Enhancement - Windfury - Low,"local angle1 = 65
+local angle2 = -65
+local maxMagnitude = startDistance * .35
+
+transAngle = angle1
+if ( rand1 > 0.5 ) then
+	transAngle = angle2
+end
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude",0,1
+4828,"Parabola (Yaw Spin, Slow, High)","local angle = 0
+local maxMagnitude = 5 + startDistance * 0.25
+local spinRateY = 90
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+
+modelYaw = time * spinRateY",0,1
