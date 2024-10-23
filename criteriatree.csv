@@ -36696,8 +36696,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 48380,7.0 Helheim Dungeon - Poor Unfortunate Souls - KJD,0,0,4,0,0,0
 48381,Defeat Helya while all group members are Poor Unfortunate Souls.,48380,1,0,30378,0,2
 48392,,48084,1,0,30383,1,2
-48393,7.0 Order Hall - Mage - Campaign - Ch 3 - Quest 1 - SBV,0,5,5,0,0,4096
-48394,,48393,1,0,30385,0,0
+48393,7.0 Order Hall - Mage - Campaign - Ch 3 - Quest 1 - SBV,0,5,4,0,0,4096
+48394,,49088,1,0,70637,0,0
 48395,,48300,1,0,30292,1,2
 48396,,48300,1,0,30293,2,2
 48397,,48300,1,0,30294,3,2
@@ -37322,10 +37322,10 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 49085,Bombard the Legion's Forces,0,200,9,0,0,0
 49086,Fel Cannon destroyed,49085,10,0,30672,1,1
 49087,Demon slain,49085,1,0,30671,0,1
-49088,,48393,1,0,30674,1,0
-49089,,48393,1,0,30675,2,0
-49090,,48393,1,0,30676,3,0
-49091,,48393,1,0,30677,4,0
+49088,Pacing Mission 2b,48393,1,8,0,1,0
+49089,,49091,1,0,30385,1,0
+49090,,49091,1,0,70636,0,0
+49091,Pacing Mission 2a,48393,1,8,0,0,0
 49092,7.0 Order Hall - Mage - Ch 4 - Pacing Missions - SBV,0,5,5,0,0,4096
 49093,,49092,1,0,30678,0,0
 49094,,49092,1,0,30679,1,0
@@ -68211,7 +68211,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 86812,,85778,4,0,49026,11,0
 86813,,85778,10,0,49027,12,0
 86814,,85778,20,0,49028,13,0
-86815,,85778,20,0,49029,14,0
+86815,,85778,24,0,49029,14,0
 86816,,85778,1,0,49030,15,0
 86817,,85778,0,0,49031,16,0
 86818,,85778,0,0,49032,17,0
@@ -82429,7 +82429,6 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 144955,Statistic: Aspect crest fragments earned,0,0,4,0,0,0
 144956,,144955,0,0,59252,0,0
 144957,,144885,0,0,59248,6,32
-144959,,144885,0,0,59253,7,32
 144960,Sundered Flame forces defeated,143904,80,9,0,0,0
 144961,Titan forces cleared,143239,55,9,0,0,0
 144962,Attacking Wildlife defeated,144240,45,9,0,0,0
@@ -88480,18 +88479,18 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 153097,Skarmorak Defeated,153095,1,0,64428,1,0
 153098,,148542,1,0,64431,5,0
 153099,,148546,1,0,64431,5,0
-153100,Forge Speakers Defeat,153095,1,0,64429,2,0
-153101,Void Speaker Eirich Defeat,153095,1,0,64432,3,0
+153100,Forge Speakers Defeated,153095,1,0,64429,2,0
+153101,Void Speaker Eirich Defeated,153095,1,0,64432,3,0
 153102,11.0 Dungeon - Foundry(Heroic),0,0,4,0,0,0
 153103,E.D.N.A. Defeated,153102,1,0,64427,0,0
 153104,Skarmorak Defeated,153102,1,0,64428,1,0
-153105,Forge Speakers Defeat,153102,1,0,64429,2,0
-153106,Void Speaker Eirich Defeat,153102,1,0,64432,3,0
+153105,Forge Speakers Defeated,153102,1,0,64429,2,0
+153106,Void Speaker Eirich Defeated,153102,1,0,64432,3,0
 153107,11.0 Dungeon - Foundry (Mythic),0,0,4,0,0,0
 153108,E.D.N.A. Defeated,153107,1,0,64427,0,0
 153109,Skarmorak Defeated,153107,1,0,64428,1,0
-153110,Forge Speakers Defeat,153107,1,0,64429,2,0
-153111,Void Speaker Eirich Defeat,153107,1,0,64432,3,0
+153110,Forge Speakers Defeated,153107,1,0,64429,2,0
+153111,Void Speaker Eirich Defeated,153107,1,0,64432,3,0
 153112,11.0 Dungeon - Rookery (Normal),0,0,4,0,0,0
 153113,Kyrioss Defeated,153112,1,0,64433,0,0
 153114,Stormguard Gorren Defeated,153112,1,0,64434,1,0
@@ -89616,8 +89615,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 154460,,154459,1,0,65225,1,0
 154461,Actor 02,154194,0,4,0,1,0
 154462,,154461,1,0,65226,1,0
-154463,,154459,2,0,65227,2,0
-154464,,154461,2,0,65228,2,0
+154463,Wendeline convinced,154459,2,0,65227,2,0
+154464,Rabaan convinced,154461,2,0,65228,2,0
 154465,11.0 Z2 - Campaign - Ch3 - Scenario - 01 - Confront the MS (MPK),0,0,4,0,0,0
 154466,Follow the trail of the High Speaker into the Hall of Awakening.,154465,1,0,65229,0,0
 154467,11.0 Z1 - Theater - Scenario - (KEF)/PRK - Throw Flowers (RPS),0,0,4,0,0,0
@@ -94036,6 +94035,13 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 161329,Achievement - Vault of the Incarnates - Fury of the Storm (char specific hidden copy),0,0,4,0,0,2
 161330,Broodkeeper Diurna,161329,1,0,55116,0,0
 161331,Raszageth the Storm-Eater,161329,1,0,55117,1,0
+161338,1.0 - Deadmines - Bosses (Timewalking),0,0,4,0,0,0
+161339,Sneed defeated,161338,1,0,66942,1,0
+161340,Mr. Smite defeated,161338,1,0,66944,3,0
+161341,Rhahk'Zor defeated,161338,1,0,66920,0,0
+161342,Captain Greenskin defeated,161338,1,0,66945,4,0
+161343,Edwin VanCleef defeated,161338,1,0,3262,5,0
+161344,Gilnid defeated,161338,1,0,66943,2,0
 161351,Gain exalted reputation with the Stormpike Guard. (char specific hidden copy),0,0,4,0,0,2
 161352,Exalted with the Stormpike Guard,161351,42000,0,5335,0,2
 161353,Achievement - Zuldazar Raid - Alliance Wing 3 (char specific hidden copy),0,0,4,0,0,2
@@ -94135,6 +94141,13 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 161447,Sparks of War,161446,0,0,70509,1,0
 161448,Complete Sparks of War quest in the War Within 20 times.,0,20,5,0,0,8193
 161449,Sparks of War,161448,0,0,70510,0,0
+161450,Dire Maul - Warpwood Quarter Bosses (Timewalking),0,0,4,0,0,0
+161451,Lethtendris defeated,161450,1,0,25058,0,0
+161452,Hydrospawn defeated,161450,1,0,25059,1,0
+161453,Zevrim Thornhoof defeated,161450,1,0,25060,2,0
+161454,Alzzin the Wildshaper defeated,161450,1,0,27854,3,0
+161455,Stratholme - The Dreadlord Balnazzar(Timewalking),0,0,4,0,0,0
+161456,Balnazzar defeated,161455,1,0,27861,0,0
 161457,,161407,6,0,66986,1,0
 161458,Complete 3 World Quests in Isle of Dorn,0,3,5,0,0,4096
 161459,,161458,3,0,66987,0,0
@@ -94146,8 +94159,22 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 161465,Tour of Duty: Hallowfall,161460,0,0,67004,4,0
 161466,Tour of Duty: Azj-Kahet,161460,0,0,67005,5,0
 161467,Sparking Battle,161460,0,0,67007,6,0
+161468,Stratholme - The Unforgiven (Timewalking),0,0,4,0,0,0
+161469,The Unforgiven defeated,161468,1,0,24909,0,0
+161470,Stratholme - Hearthsinger Forresten (Timewalking),0,0,4,0,0,0
+161471,Hearthsinger Forresten defeated,161470,1,0,24910,0,0
+161472,Stratholme - Timmy the Cruel (Timewalking),0,0,4,0,0,0
+161473,Timmy the Cruel defeated,161472,1,0,24912,0,0
+161474,Stratholme - Postmaster Malown (Timewalking),0,0,4,0,0,0
+161475,Postmaster Malown defeated,161474,1,0,24914,0,0
 161476,Waterworks Delve Entered,0,0,4,0,0,4096
 161477,,161476,1,0,66988,0,0
+161478,Stratholme - Commander Malor (Timewalking),0,0,4,0,0,0
+161479,Commander Malor defeated,161478,1,0,24915,0,0
+161480,Stratholme - Willey Hopebreaker (Timewalking),0,0,4,0,0,0
+161481,Willey Hopebreaker defeated,161480,1,0,24916,0,0
+161482,Stratholme - Instructor Galford (Timewalking),0,0,4,0,0,0
+161483,Instructor Galford defeated,161482,1,0,24917,0,0
 161484,11.0 Z1 - Isle of Dorn - Max Level - War Within Campaign - Achievement,0,0,4,0,0,0
 161485,Against the Current,161484,0,4,0,0,8208
 161486,,161485,0,0,66989,0,0
@@ -94169,9 +94196,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 161502,,161501,3,0,66997,0,0
 161503,Complete 3 World Quests in Hallowfall,0,3,5,0,0,4096
 161504,,161503,3,0,66998,0,0
-161505,Complete 3 World Quests in Azj-kahet,0,3,5,0,0,4096
+161505,Complete 3 World Quests in Azj-Kahet,0,3,5,0,0,4096
 161506,,161505,3,0,66999,0,0
-161507,Complete 3 World Quests in Azj-kahet,0,3,5,0,0,4096
+161507,Complete 3 World Quests in Azj-Kahet,0,3,5,0,0,4096
 161508,,161507,3,0,67000,0,0
 161509,11.0 Delves - Kobolds02 - V02 - Kits Found 3/6 - (STM),0,0,4,0,0,0
 161510,Repair kits found,161509,3,0,64510,0,32
@@ -94187,6 +94214,20 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 161522,,161521,0,0,67012,0,2
 161523,Complete a delve without allowing any party member to die on Tier 8 difficulty or higher.,0,0,4,0,0,2
 161524,,161523,0,0,67013,0,2
+161533,Zul'Farrak Bosses - Timewalking,0,0,4,0,0,0
+161534,Shadowpriest Sezz'ziz defeated,161533,1,0,24946,1,0
+161535,Nekrum Gutchewer defeated,161533,1,0,24947,2,0
+161536,Chief Ukorz Sandscalp defeated,161533,1,0,34439,3,0
+161537,Zul'Farrak - Dungeon Scenario - Bonus - Defeat Antu'sul - Timewalking,0,0,4,0,0,0
+161538,Antu'sul defeated,161537,1,0,24948,0,0
+161539,Zul'Farrak - Dungeon Scenario - Bonus - Defeat Theka the Martyr - Timewalking,0,0,4,0,0,0
+161540,Theka the Martyr defeated,161539,1,0,24949,0,0
+161541,Zul'Farrak - Dungeon Scenario - Bonus - Defeat Witch Doctor Zum'rah - Timewalking,0,0,4,0,0,0
+161542,Witch Doctor Zum'rah defeated,161541,1,0,24950,0,0
+161543,Zul'Farrak - Dungeon Scenario - Bonus - Defeat Hydromancer Velratha - Timewalking,0,0,4,0,0,0
+161544,Hydromancer Velratha defeated,161543,1,0,24951,0,0
+161545,Zul'Farrak - Dungeon Scenario - Bonus - Defeat Gahz'rilla - Timewalking,0,0,4,0,0,0
+161546,Gahz'rilla defeated,161545,1,0,24952,0,0
 161547,Reach a High Watermark of 597 in Every Slot During The War Within Season 1 (Outgrow Weathered Harbinger Crests),0,0,4,0,0,0
 161548,,161547,593,0,67015,0,0
 161549,,161547,593,0,67016,1,0
@@ -94260,6 +94301,13 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 161625,,161624,1,0,67053,0,0
 161626,Buy 5 Warband Bank tabs,0,0,4,0,0,0
 161627,,161626,5,0,67053,0,0
+161628,Dire Maul - Capital Gardens Bosses - Timewalking,0,0,4,0,0,0
+161630,Prince Tortheldrin defeated,161628,1,0,70303,3,0
+161631,Tendris Warpwood defeated,161628,1,0,25063,0,0
+161632,Shield Generators deactivated,161628,2,0,25064,1,0
+161633,Immol'thar defeated,161628,1,0,27855,2,0
+161634,Dire Maul - Capital Gardens Bonus Objective - Timewalking,0,0,4,0,0,0
+161635,Prince Tortheldrin defeated,161634,1,0,25065,0,0
 161636,"Equip a Superior or better item, with a minimum item level of 564, in every slot.",0,0,4,0,0,0
 161637,Head,161636,1,0,67057,0,0
 161638,Neck,161636,1,0,67058,1,0
@@ -95108,6 +95156,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 162525,Contribute 100 Radiant Remnants to any Keyflame.,162524,100,0,67699,0,1
 162526,Rare Creatures slain in Khaz Algar,0,5,5,0,0,4096
 162527,,162526,1,0,67702,0,0
+162528,Bonus Event Weekend - Timewalking (Classic),0,5,5,0,0,4096
 162535,,157271,1,0,67717,1,0
 162536,,157271,1,0,67718,2,0
 162537,Notoriety earned in Azj'Kahet,0,1000,5,0,0,4096
@@ -95130,6 +95179,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 162557,11.0 Raid - Nerubian - LFR Wing 3,0,0,4,0,0,0
 162558,The Silken Court defeated,162557,1,0,67738,0,0
 162559,Queen Ansurek defeated,162557,1,0,69190,1,0
+162560,11.0.5 Timewalking - BRD (Update to correct Encounter Record),0,1,8,0,0,4096
+162561,Player defeats Dagran Thaurissan in timewalking.,162560,0,0,70729,0,0
 162562,Select a Combat Role for Brann Bronzebeard,0,1,8,0,0,4096
 162563,,162562,1,0,67741,0,0
 162564,"Learn flight path in Mereldar, Hallowfall",0,0,4,0,0,4096
@@ -95442,6 +95493,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 162873,,162861,1,0,67997,11,32
 162874,11.0 Raid - Nerubian - Boss - Experiments - Achievement - JRN,0,0,4,0,0,0
 162875,Prove your /love to a Disheartened Worm.,162874,1,0,67999,0,0
+162886,Deadmines - Dungeon Scenario - Bonus - Defeat Cookie - Timewalking,0,1,8,0,0,0
+162887,Cookie defeated,162886,1,0,68005,0,0
 162888,Complete the following quests involving the Hillhelm Stead family farm.,0,0,4,0,0,16
 162889,Keep the Home Fires Burning,162888,1,0,68006,3,0
 162890,Eggs in One Basket,162888,1,0,68007,4,0
@@ -95499,6 +95552,11 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 162944,Defeat Thorim!,162943,1,0,68028,0,0
 162945,Frogs Kissed,157772,100,9,0,0,0
 162946,,162945,2,0,66911,0,1
+162953,11.0.5 20th Anniversary - Outdoor Event - Step Criteria - Step 1 - Progress Bar,0,0,4,0,0,0
+162954,[PH] Codex Stability,162953,100,9,0,0,1
+162955,11.0.5 20th Anniversary - Outdoor Event - Step Criteria - Step 2 - Progress Bar,0,0,4,0,0,0
+162956,Distortions defeated,162955,100,9,0,0,1
+162957,Codex Stabilized,162956,2,0,68033,0,1
 162958,Complete 3 World Quests in Isle of Dorn,0,3,5,0,0,4096
 162959,,162958,3,0,68034,0,0
 162960,Complete 3 World Quests in Isle of Dorn,0,3,5,0,0,4096
@@ -95561,6 +95619,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 163058,2800 rating,163057,2800,0,68099,0,2
 163059,Earn a 3000 personal rating in the 3v3 bracket of the arena in Season 38 (TWW 1),0,0,4,0,0,0
 163060,3000 rating,163059,3000,0,68099,0,2
+163061,11.0.5 20th Anniversary - Scenario - Silithus - Lobby Timer Complete,0,0,4,0,0,0
+163062,,163061,1,0,68100,0,0
 163063,Earn a 1500 personal rating in the 2v2 bracket of the arena in Season 38 (TWW 1),0,0,4,0,0,0
 163064,1500 rating,163063,1500,0,68101,0,2
 163065,Earn a 2000 personal rating in the 2v2 bracket of the arena in Season 38 (TWW 1),0,0,4,0,0,0
@@ -95622,6 +95682,11 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 163121,,163120,50,0,68111,0,1
 163122,Win 100 Rated Solo Shuffle rounds while at Elite rank during The War Within Season 1.,0,0,4,0,0,0
 163123,,163122,100,0,68112,0,1
+163124,11.0.5 20th Anniversary - Outdoor Event - Step Criteria - Floating Projections - Credit,0,0,4,0,0,0
+163125,Projections restored,163124,50,9,0,0,1
+163126,11.0.5 20th Anniversary - Outdoor Event - Step Criteria - Step 3 - Credit,0,0,4,0,0,0
+163128,11.0.5 20th Anniversary - AQ Scenario - Summon Event - Kill Lich,0,0,4,0,0,0
+163129,Rituals corrected,163128,6,0,68344,0,0
 163132,Combatant I The War Within Season 1,0,1,8,0,0,2
 163133,,163132,1000,0,68101,0,2
 163134,,163132,1000,0,68099,1,2
@@ -95682,6 +95747,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 163189,,163188,1,0,68121,0,0
 163190,11.0 Z5 - Dungeon - Nerubian Old City - Boss Kill (JSS),0,1,5,0,0,4096
 163191,,163190,1,0,68122,0,0
+163192,Get Ready!,0,0,4,0,0,0
+163193,Put on an Appearance to Match the Theme,163192,1,0,68123,0,1
 163194,11.0 Z5 - Notoriety - Weaver - Weekly Wrapper - World Quest Objective (AOC)(JSS),0,1,8,0,0,4096
 163195,,163194,1,0,68124,0,0
 163196,,163194,1,0,68125,1,0
@@ -95716,6 +95783,10 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 163225,,163215,1,0,68152,9,0
 163226,,163215,1,0,68153,10,0
 163227,,163215,1,0,68154,11,0
+163228,Vote!,0,0,4,0,0,0
+163229,Use the Ribbons to Vote for your Favorite Appearance,163228,1,0,68155,0,1
+163230,See Who Won,0,0,4,0,0,0
+163231,Go to the Stage to see who Won,163230,1,0,68156,0,1
 163232,Earn a 2600 personal rating in the 2v2 bracket of the arena in Season 38 (TWW 1),0,0,4,0,0,0
 163233,2800 rating,163232,2600,0,68101,0,2
 163234,11.0 Delves - Nerubians02 - V03 - Combat Start - (STM),0,0,4,0,0,0
@@ -95856,6 +95927,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 163373,,163372,1,0,68252,0,32
 163374,Brotherhood in the Skolzgal Wood,161671,0,0,67056,0,0
 163375,,161671,0,0,68254,1,2
+163377,[PH] Codex Stability,162954,10,0,68033,0,1
 163378,Complete 5000 quests.,0,0,4,0,0,0
 163379,,163378,5000,0,66919,0,1
 163380,Complete 10000 quests.,0,0,4,0,0,0
@@ -95873,10 +95945,25 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 163392,Air Totem acquired,163390,0,0,62401,1,32
 163393,11.0 Delves - Kobolds02 - V02 - Stompin' Boots used 5/45 - (STM),0,0,4,0,0,0
 163394,Lost gear found,163393,5,0,64440,0,32
+163395,Bonus Event Weekend - Timewalking (Classic),0,5,5,0,0,4096
+163396,,163395,1,0,68263,0,2
+163397,,163395,1,0,68264,1,2
+163398,,163395,1,0,68265,2,2
+163399,,163395,1,0,68266,3,2
+163400,,163395,1,0,68267,4,2
+163401,,163395,1,0,68268,5,2
 163402,Snuffling,161857,0,0,68269,29,0
 163403,Cinderhoney Emberstinger,161857,0,0,68270,30,0
 163404,A Lost Shoe,162888,1,0,68271,13,0
 163405,A Clutch of Eggs,162888,1,0,68272,14,0
+163406,11.0.5 20th Anniversary - Scenario - Final - Kel'Thuzad Defeated (DRB),0,0,4,0,0,0
+163408,,162528,5,0,68274,0,2
+163409,,162528,5,0,68275,1,2
+163410,,162528,5,0,68276,2,2
+163414,,162528,5,0,68277,3,2
+163415,,162528,5,0,68278,4,2
+163416,,162528,5,0,68279,5,2
+163418,Witch Doctor Zum'rah defeated,161533,1,0,68282,0,0
 163419,Free Webbed Crusaders,0,100,9,0,0,0
 163420,Free Webbed Crusaders,163419,3,0,68283,0,1
 163421,11.0 Raid - Nerubian - Boss - Hulk - Achievement - DJT,0,0,4,0,0,0
@@ -96322,7 +96409,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 163943,Rocked to Sleep,0,0,4,0,0,0
 163944,Hathlaz,163943,1,0,68682,1,0
 163945,11.0 Delves - Brann Reach Rep Level - (STM),0,0,4,0,0,4096
-163946,,163945,0,0,68683,0,0
+163946,,163945,0,0,70543,0,0
 163947,Attwogaz,163943,1,0,68684,0,0
 163948,Krattdaz,163943,1,0,68685,2,0
 163949,Uisgaz,163943,1,0,68686,3,0
@@ -96932,6 +97019,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 165622,Orta,165620,1,0,68877,2,0
 165623,Aggregation of Horrors,165620,1,0,68879,0,0
 165624,Kordac,165620,1,0,68880,1,0
+165625,11.0.5 20th Anniversary - AQ Scenario - DRB - [PH] Codex Intro Step - Chromie RP's (DRB),0,0,4,0,0,0
+165626,Prepare to assist Chromie,165625,0,0,68881,0,32
 165730,Awakening The Machine - Wave 20,0,0,4,0,0,0
 165731,,165730,1,0,68882,0,0
 165732,Awakening The Machine - Wave 30,0,0,4,0,0,0
@@ -96976,6 +97065,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 165781,,165780,1,0,68913,0,2
 165782,Defeat Rasha'nan (Mythic),0,0,4,0,0,0
 165783,,165782,1,0,68914,0,2
+165784,Codex Stabilized,162956,3,0,68917,1,1
+165785,,162956,10,0,68918,2,0
 165786,Die to the Forgegrounds Press,0,0,4,0,0,0
 165787,,165786,1,0,68919,0,0
 165788,Lesser Keyflames activated,0,3,5,0,0,8193
@@ -96996,6 +97087,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 165803,,165802,0,0,68923,0,0
 165804,Quest completed,0,1,5,0,0,8193
 165805,,165804,0,0,68924,0,0
+165807,Scourge Defeated,163126,20,0,69362,1,0
 165808,Worldsoul: Spreading the Light completed,0,0,4,0,0,8193
 165809,,165808,0,0,68925,0,0
 165810,Worldsoul: Forging a Pact completed,0,0,4,0,0,8193
@@ -97284,6 +97376,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 166113,Silken Ward,166093,0,0,69174,12,16
 166114,Grieve & Weave,166093,0,0,69175,13,16
 166115,All Good Things...,166093,0,0,69176,14,16
+166116,[DNT] Dungeon Complete,0,0,4,0,0,2
+166117,[DNT] Criteria Description,166116,1,0,44166,0,2
 166118,War Within Delves: Tier 1,0,0,4,0,0,0
 166119,,166118,0,0,69177,0,0
 166120,11.0 Z2 - Delves - Level Up - Delve Pointout - Waterworks - (STM),0,0,4,0,0,4096
@@ -97362,6 +97456,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 166289,Achievement - Season Master - War Within Season One,0,1,8,0,0,0
 166299,Defeated Queen Ansurek on Heroic or Mythic difficulty,166289,1,0,67597,1,0
 166303,Attained 2000+ Mythic Plus rating,166289,2000,0,66890,2,0
+166305,Stay zooming for more than 20 seconds.,0,1,8,0,0,0
+166306,Stay zooming for more than 20 seconds.,166305,0,0,69232,0,2
 166307,1600+ Rated PVP rating,166289,1,8,0,0,0
 166308,Attained 1600+ Rated PVP rating,166307,1600,0,67375,0,0
 166309,,166307,1600,0,68098,1,2
@@ -97608,6 +97704,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 166615,Defeat Speaker Shadowcrown,166614,1,0,64771,0,0
 166616,Defeat Anub'ikkaj,166614,1,0,64772,1,0
 166617,Defeat Rasha'nan,166614,1,0,64773,2,0
+166618,Kel'Thuzad defeated,163406,1,0,69511,0,0
 166619,,156591,1,0,69366,1,0
 166621,,163437,0,0,69368,1,32
 166622,11.0 Achievement - Khaz Algar Explorer,0,0,4,0,0,0
@@ -97705,6 +97802,68 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 166721,Zeppelin,166714,1,0,69923,6,16
 166722,Wing-Mounted Propeller,166714,1,0,69924,7,16
 166723,Lantern Wing,166714,1,0,69925,8,16
+166724,The Underbog Bosses - Timewalking,0,0,4,0,0,0
+166725,Hungarfen defeated,166724,1,0,24904,0,0
+166726,Ghaz'an defeated,166724,1,0,24905,1,0
+166727,Swamplord Musel'ek defeated,166724,1,0,24906,2,0
+166728,The Black Stalker defeated,166724,1,0,34432,3,0
+166729,The Botanica Bosses - Timewalking,0,0,4,0,0,0
+166730,Commander Sarannis defeated,166729,1,0,24871,0,0
+166731,High Botanist Freywinn defeated,166729,1,0,24872,1,0
+166732,Thorngrin the Tender defeated,166729,1,0,24873,2,0
+166733,Laj defeated,166729,1,0,24874,3,0
+166734,Warp Splinter defeated,166729,1,0,34423,4,0
+166735,The Blood Furnace Bosses - Timewalking,0,0,4,0,0,0
+166736,The Maker defeated,166735,1,0,24911,0,0
+166737,Broggok defeated,166735,1,0,24913,1,0
+166738,Keli'dan the Breaker defeated,166735,1,0,34434,2,0
+166739,Shattered Halls Bosses - Timewalking,0,0,4,0,0,0
+166740,Grand Warlock Nethekurse defeated,166739,1,0,24864,0,0
+166741,Blood Guard Porung defeated,166739,1,0,24867,1,0
+166742,Warbringer O'mrogg defeated,166739,1,0,24865,2,0
+166743,Warchief Kargath Bladefist defeated,166739,1,0,34421,3,0
+166744,Mana-Tombs Bosses - Timewalking,0,0,4,0,0,0
+166745,Pandemonius defeated,166744,1,0,24894,0,0
+166746,Tavarok defeated,166744,1,0,24895,1,0
+166747,Nexus-Prince Shaffar defeated,166744,1,0,34431,2,0
+166748,Mana-Tombs - Timewalking - Dungeon Scenario - Bonus - Defeat Yor,0,0,4,0,0,0
+166749,Yor defeated,166748,1,0,24896,0,0
+166750,Magister's Terrace Bosses - Timewalking,0,0,4,0,0,0
+166751,Selin Fireheart defeated,166750,1,0,24879,0,0
+166752,Vexallus defeated,166750,1,0,24880,1,0
+166753,Priestess Delrissa defeated,166750,1,0,24881,2,0
+166754,Kael'thas Sunstrider defeated,166750,1,0,34424,3,0
+166755,Utgarde Keep Bosses - Timewalking,0,0,4,0,0,0
+166756,Prince Keleseth defeated,166755,1,0,27889,0,0
+166757,Skarvald and Dalronn defeated,166755,1,0,27890,1,0
+166758,Ingvar the Plunderer defeated,166755,1,0,27891,2,0
+166759,The Nexus Bosses - Timewalking,0,0,4,0,0,0
+166760,Grand Magus Telestra defeated,166759,1,0,27892,0,0
+166761,Anomalus defeated,166759,1,0,27893,1,0
+166762,Ormorok the Tree-Shaper defeated,166759,1,0,27894,2,0
+166763,Keristrasza defeated,166759,1,0,27895,3,0
+166764,Frozen Commander defeated,0,1,8,0,0,8192
+166765,,166764,1,0,27896,0,0
+166766,,166764,1,0,27897,1,0
+166767,The Forge of Souls Bosses - Timewalking,0,0,4,0,0,0
+166768,Bronjahm defeated,166767,1,0,27935,0,0
+166769,Devourer of Souls defeated,166767,1,0,27936,1,0
+166770,Halls of Lightning Bosses - Timewalking,0,0,4,0,0,0
+166771,General Bjarngrim defeated,166770,1,0,27918,0,0
+166772,Volkhan defeated,166770,1,0,27919,1,0
+166773,Ionar defeated,166770,1,0,27920,2,0
+166774,Loken defeated,166770,1,0,27921,3,0
+166775,Gundrak Bosses - Timewalking,0,0,4,0,0,0
+166776,Slad'ran defeated,166775,1,0,27911,0,0
+166777,Drakkari Colossus defeated,166775,1,0,27912,1,0
+166778,Moorabi defeated,166775,1,0,27913,2,0
+166779,Gal'darah defeated,166775,1,0,27914,3,0
+166780,Gundrak - Timewalking - Dungeon Scenario - Bonus - Defeat Eck the Ferocious,0,0,4,0,0,0
+166781,Eck the Ferocious defeated,166780,1,0,69417,0,0
+166782,Azjol-Nerub Bosses - Timewalking,0,0,4,0,0,0
+166783,Krik'thir the Gatewatcher defeated,166782,1,0,27898,0,0
+166784,Hadronox defeated,166782,1,0,27899,1,0
+166785,Anub'arak defeated,166782,1,0,27900,2,0
 166790,11.0 Professions - Blacksmithing - Complete Crafting Orders Weekly,0,3,5,0,0,4096
 166791,,166790,3,0,69420,0,2048
 166792,11.0 Professions - Engineering - Complete Crafting Orders Weekly,0,2,5,0,0,4096
@@ -97799,11 +97958,25 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 166917,Train with Burkhalt,166916,1,0,69497,0,0
 166918,,156231,1,0,69498,1,16
 166919,,157281,1,0,69499,0,0
+166920,11.0.5 20th Anniversary - Southwind Village - Kill POI,0,0,4,0,0,0
+166921,Codex calibrated,166920,11,0,69500,0,0
 166924,11.0 Z1 - Theater - Task - Collect Goblets from Top Seats - SJC,0,0,4,0,0,32
 166925,Chalices collected:,166924,6,0,69501,0,0
 166928,,165987,5,0,69503,18,0
 166929,Quest: Warbands: Spacetime is Money complete (DNT),0,0,4,0,0,0
 166930,,166929,0,0,69504,0,0
+166934,11.0.5 20th Anniversary - Scenario - Class Match Minigame - Progress Bar,0,0,4,0,0,1
+166935,History re-enacted,166934,100,9,0,0,1
+166936,,166935,3,0,69506,0,0
+166937,,166935,6,0,69507,1,0
+166938,11.0.5 20th Anniversary - Scenario - On the Move - Arrived at Southwind - DRB,0,0,4,0,0,0
+166939,Follow Chromie,166938,1,0,69508,0,0
+166940,11.0.5 20th Anniversary - AQ Scenario - DRB - On The Move (DRB),0,0,4,0,0,0
+166941,Follow Chromie,166940,1,0,69509,0,32
+166942,11.0.5 20th Anniversary - AQ Scenario - DRB - On The Move (DRB),0,0,4,0,0,2
+166943,Follow Chromie,166942,1,0,69510,0,32
+166944,11.0.5 20th Anniversary - AQ Scenario - DRB - Warped Gates - RP Finished (DRB),0,0,4,0,0,0
+166945,,166944,1,0,69512,0,34
 166948,11.0 Z3 - Theater - All Plays - Task - Clean Backstage - SJC,0,0,4,0,0,32
 166949,Actor's area cleaned,166948,5,0,69514,0,0
 167486,Player Has Opened all Delve Sturdy Chests in Fungal Foly,0,5,8,0,0,1
@@ -98021,7 +98194,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 167719,Ahg'zagall,167714,1,0,69654,2,0
 167720,Grik'ik,167714,1,0,69655,3,0
 167721,Vilewing,167714,1,0,69656,4,0
-167722,Chitin Hulk,167714,1,0,69657,5,0
+167722,The Groundskeeper,167714,1,0,69657,5,0
 167723,Xishorr,167714,1,0,69658,6,0
 167724,Kaheti Silk Hauler,167714,1,0,69659,7,0
 167725,The XT-Minecrusher 8700,167714,1,0,69660,8,0
@@ -98034,7 +98207,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 167732,Harvester Qixt,167714,1,0,69667,15,0
 167733,Umbraclaw Matra,167714,1,0,69668,16,0
 167734,Deepcrawler Tx'kesh,167714,1,0,69669,17,0
-167735,Kaheti Bladeguard,167714,1,0,69670,18,0
+167735,Skirmisher Sa'zryk,167714,1,0,69670,18,0
 167736,11.0 Achievement - Sojourner of Hallowfall (SHY),0,0,4,0,0,0
 167737,Light to Velhan's Claim,167736,0,0,69671,0,16
 167738,The Priory,167736,0,0,69672,1,16
@@ -98075,7 +98248,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 167784,Spore-covered Coffer,167773,0,0,69702,10,0
 167785,11.0 Z3 - Achievements - Adventurer of Hallowfall,0,10,8,0,0,0
 167786,Deepfiend Azellix,167785,1,0,69703,0,0
-167787,Ixlorb the Weaver,167785,1,0,69704,1,0
+167787,Ixlorb the Spinner,167785,1,0,69704,1,0
 167788,Murkshade,167785,1,0,69705,2,0
 167789,Grimslice,167785,1,0,69706,3,0
 167790,Funglour,167785,1,0,69707,4,0
@@ -98150,6 +98323,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 167881,North Brazier Lit,167880,1,0,67322,0,0
 167882,Earn 1000 honor in Isle of Dorn while in War Mode. (Test),0,0,4,0,0,0
 167883,Earn 1000 honor in Isle of Dorn while in War Mode.,167882,1000,0,69810,0,1
+167884,11.0.5 20th Anniversary - Scenario - On the Move - Arrived at Hive'Ashi - DRB,0,0,4,0,0,0
+167885,Follow Chromie,167884,1,0,69811,0,0
 167886,Visit the Candy Buckets in Khaz Algar.,0,0,4,0,0,0
 167887,"Isle of Dorn, Dornogal",167886,1,0,69812,11,0
 167888,"Isle of Dorn, Freywold Village",167886,1,0,69813,12,0
@@ -98179,6 +98354,28 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 167912,,167911,0,0,69832,0,0
 167913,Successfully complete 25 puzzles within a delve.,0,25,4,0,0,0
 167914,,167913,25,0,69832,0,0
+167917,11.0.5 20th Anniversary - AQ Scenario - DRB - On The Move - HiveAshi to Floating (DRB),0,0,4,0,0,0
+167918,Follow Chromie,167917,1,0,69834,0,32
+167919,11.0.5 20th Anniversary - AQ Scenario - DRB - On The Move - Floating to Twilight (DRB),0,0,4,0,0,0
+167920,Follow Chromie,167919,1,0,69835,0,32
+167927,11.0.5 20th Anniversary - Scenario - On The Move - Twilight to AQ Gates (DRB),0,0,4,0,0,0
+167928,Follow Chromie,167927,1,0,69838,0,32
+167937,11.0.5 20th Anniversary - Scenario - DRB - On The Move - Dragonriding to Twilight (DRB),0,0,4,0,0,2
+167938,Follow Chromie,167937,1,0,69510,0,32
+167939,Distortions Defeated,163125,1,0,68113,0,1
+167940,11.0.5 20th Anniversary - Scenario - Twilight Rituals - 1 Rituals Stopped,0,0,4,0,0,0
+167941,Stop the Rituals,167940,1,0,68344,0,0
+167942,11.0.5 20th Anniversary - Scenario - Twilight Rituals - 2 Rituals Stopped,0,0,4,0,0,0
+167943,Stop the Rituals,167942,2,0,68344,0,0
+167944,11.0.5 20th Anniversary - Scenario - Twilight Rituals - 3 Rituals Stopped,0,0,4,0,0,0
+167945,Stop the Rituals,167944,3,0,68344,0,0
+167946,11.0.5 20th Anniversary - Scenario - Twilight Rituals - 4 Rituals Stopped,0,0,4,0,0,0
+167947,Stop the Rituals,167946,4,0,68344,0,0
+167948,11.0.5 20th Anniversary - Scenario - Twilight Rituals - 5 Rituals Stopped,0,0,4,0,0,0
+167949,Stop the Rituals,167948,5,0,68344,0,0
+167950,11.0.5 20th Anniversary - Scenario - Dragonriding Minigame - Collect Energy - DRB,0,0,4,0,0,0
+167952,Collected energy,167950,80,9,0,0,1
+167953,Collect Energy,167952,1,0,69839,0,1
 167954,Wormania,0,0,4,0,0,32
 167955,Grub Run,167954,1,0,69840,0,0
 167956,Wormcraft Rumble,167954,1,0,69841,1,0
@@ -98188,20 +98385,27 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 167964,,167963,25,0,69848,0,0
 167965,Slay Alliance Players,0,25,5,0,0,4096
 167966,,167965,25,0,69855,0,0
+167967,Complete all of the hidden Guest Relations local stories.,0,9,4,0,0,17
+167968,The Case of a Good Book,167967,0,0,69850,1,16
+167969,The Case of Pet Games,167967,0,0,69851,7,16
+167970,The Case of an Old Soul,167967,0,0,69852,4,16
+167971,The Loud and Smelly Case,167967,0,0,69853,2,16
 167974,11.0 Raid - Nerubian - Ethereal - Achievement - AD,0,0,4,0,0,0
 167975,Maintain Ky'veza's Kill Streak.,167974,1,0,69856,0,0
 167978,Maximum friendship with Weaver.,0,1,4,0,0,8208
-167979,The Weaver,167978,20000,0,69857,0,0
+167979,The Weaver,167978,20000,0,70876,0,0
 167980,Maximum friendship with General.,0,1,4,0,0,8208
-167981,The General,167980,20000,0,69859,0,0
+167981,The General,167980,20000,0,71287,0,0
 167982,Maximum friendship with Vizier.,0,1,4,0,0,8208
-167983,The Vizier,167982,20000,0,69860,0,0
+167983,The Vizier,167982,20000,0,71286,0,0
 167986,Delves completed at any tier,0,5,5,0,0,6176
 167987,Delves completed at any tier,167986,1,0,69863,0,2080
 167988,11.0 Dungeon - Kobold - Darkness,0,0,4,0,0,4096
 167989,,167988,1,0,69864,0,0
 167990,Complete the Khaz Algar main story campaign,164017,1,8,0,2,48
 167991,,167990,0,0,69866,1,0
+168013,[DNT] RR - 4b,0,0,4,0,0,8194
+168014,,168013,0,0,69881,0,0
 168036,11.0 Dungeon - Airship - Boss 3,0,0,4,0,0,4096
 168037,,168036,1,0,69897,0,0
 168038,[DNT] Account Criteria and Char Achievement Test,0,0,4,0,0,0
@@ -98280,8 +98484,12 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 168122,,157129,0,0,69930,11,0
 168123,,157129,1,0,69931,12,0
 168124,,157129,0,0,69932,13,0
+168125,11.0.5 20th Anniversary - AQ Scenario - On The Move - Southwind to Dragonriding (DRB),0,0,4,0,0,0
+168126,Follow Chromie,168125,1,0,69933,0,32
 168127,11.0 Delves - Order of Night - V02 - - 3/3 Weakened (DNT) (STM),0,0,4,0,0,0
 168128,Shadow Barriers dispelled,168127,3,0,66015,0,32
+168129,Is Dracthyr For Soar Wingman,0,0,4,0,0,0
+168130,,168129,0,0,69934,0,2
 168133,,157611,1,0,69937,1,2
 168134,,151838,1,0,69938,1,2
 168135,,151836,1,0,69939,1,2
@@ -98329,6 +98537,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 168185,,168184,1,0,69951,0,0
 168186,Don't Call Me Junior (Alliance) (DNT) (Character specific copy),0,1,4,0,0,0
 168187,Master Relic Hunter,168186,1,0,69952,0,0
+168192,11.0.5 20th Anniversary - AQ Scenario - DRB - On The Move - Southwind to Floating (DRB),0,0,4,0,0,0
+168193,Follow Chromie,168192,1,0,69953,0,32
 168194,Earthen Unlockable,0,1,4,0,0,0
 168195,Complete The War Within campaign,168194,0,0,66993,0,16
 168196,"Complete ""Mourning Rise""",168194,0,0,68162,1,0
@@ -98339,9 +98549,25 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 168206,"Complete ""Mourning Rise""",168204,0,0,68162,1,0
 168207,"Complete ""Broken Tools""",168204,0,0,67728,2,0
 168208,"Complete ""Merrix and Steelvein""",168204,0,0,67055,3,16
+168209,11.0.5 20th Anniversary - AQ Scenario - DRB - On The Move - HiveAshi to Dragonriding (DRB),0,0,4,0,0,0
+168210,Follow Chromie,168209,1,0,69958,0,32
+168224,11.0.5 20th Anniversary - AQ Scenario - DRB - On The Move - HiveAshi to Match (DRB),0,0,4,0,0,0
+168225,Follow Chromie,168224,1,0,69509,0,32
+168226,11.0.5 20th Anniversary - Scenario - DRB - On The Move - Match Game to Twilight (DRB),0,0,4,0,0,2
+168227,Follow Chromie,168226,1,0,69510,0,32
 168228,,161582,14,0,69966,11,0
 168229,,161582,14,0,69965,13,0
 168230,,161582,14,0,69967,15,0
+168232,11.0.5 20th Anniversary - Scenario - Final - Ossirian Defeated (DRB),0,0,4,0,0,0
+168233,Ossirian the Unscarred defeated,168232,1,0,69970,0,0
+168236,11.0.5 20th Anniversary - Scenario - Final - Tichondrius Defeated (DRB),0,0,4,0,0,0
+168237,Tichondrius defeated,168236,1,0,69972,0,0
+168259,[DNT] RR - 0,0,0,4,0,0,8194
+168260,,168259,0,0,69987,0,0
+168261,[DNT] RR - 5,0,0,4,0,0,8194
+168262,,168261,0,0,69988,0,0
+168297,11.0.5 20th Anniversary - The Codex of Chromie - Turning the Cover (DRB),0,0,4,0,0,0
+168298,Speak to Chromie,168297,1,0,70006,0,32
 168304,11.0 Z3 - Achievements - Hallowfall Arathi Max Renown,0,0,4,0,0,0
 168305,,168304,25,0,68909,0,1
 168306,11.0 Z5 - Achievements - The Severed Threads Max Renown,0,0,4,0,0,0
@@ -98424,17 +98650,164 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 168401,,146569,25,0,68910,133,2
 168422,11.0.0 - LKC - CN - Stress Test - China Only,0,0,4,0,0,0
 168423,,168422,1,0,70026,0,0
+168424,11.0.5 20th Anniversary - The Codex of Chromie - The Finishing Touch (DRB),0,0,4,0,0,0
+168425,The Finishing Touch,168424,1,0,70027,0,32
 168522,Reach a High Watermark of 639 in Every Slot During The War Within Season 1 (Outgrow Gilded Harbinger Crests),0,0,4,0,0,0
 168523,,168522,639,0,67015,0,0
 168524,,168522,639,0,67016,1,0
 168525,,168522,639,0,67017,2,0
+168562,Levels gained,0,10,5,0,0,8193
+168563,,168562,1,0,70092,0,0
+168564,"""Forward, To Adventure!"" completed",0,0,4,0,0,8193
+168565,,168564,0,0,70093,0,0
+168637,Dire Maul - Capital Gardens Bonus Objective - Timewalking - Magister Kalendris,0,0,4,0,0,0
+168638,Magister Kalendris defeated,168637,1,0,25061,0,0
+168639,Dire Maul - Capital Gardens Bonus Objective - Timewalking - Illyana Ravenoak,0,0,4,0,0,0
+168640,Illyanna Ravenoak defeated,168639,1,0,25062,0,0
+168643,Be in Booty Bay,0,0,4,0,0,4096
+168644,,168643,0,0,70305,0,0
+168656,Anniversary quests completed,0,3,5,0,0,8193
+168657,,168656,1,0,70306,0,1
+168658,Anniversary quests completed,0,10,5,0,0,8193
+168659,,168658,1,0,70306,0,1
+168660,Anniversary quests completed,0,20,5,0,0,8193
+168661,,168660,1,0,70306,0,1
+168662,Scarab Gong rang,0,1,5,0,0,8193
+168663,,168662,1,0,70307,0,1
+168664,Anniversary World Bosses defeated,0,5,5,0,0,8193
+168665,,168664,1,0,70308,0,1
+168666,Anniversary World Bosses defeated,0,15,5,0,0,8193
+168667,,168666,1,0,70308,0,1
+168668,Interactions performed,0,4,5,0,0,8193
+168669,,168668,1,0,70309,0,1
+168670,Interactions performed,0,10,5,0,0,8193
+168671,,168670,1,0,70309,0,1
+168672,Interactions performed,0,20,5,0,0,8193
+168673,,168672,1,0,70309,0,1
+168674,Blackrock Depths completed,0,1,5,0,0,8193
+168675,,168674,0,0,70310,0,0
+168676,Blackrock Depths completed,0,5,5,0,0,8193
+168677,,168676,0,0,70310,0,0
+168678,Codex of Chromie completed,0,1,5,0,0,8193
+168679,,168678,0,0,70311,0,0
+168680,Codex of Chromie completed,0,5,5,0,0,8193
+168681,,168680,0,0,70311,0,0
+168682,Story heard,0,1,5,0,0,8193
+168683,,168682,1,0,70312,0,1
+168684,Story heard,0,3,5,0,0,8193
+168685,,168684,1,0,70312,0,1
+168686,"""A Time to Reflect"" completed",0,1,5,0,0,8193
+168687,,168686,0,0,70317,0,1
+168688,,168686,0,0,70318,1,1
+168689,"""A Time to Reflect"" completed",0,4,5,0,0,8193
+168690,,168689,0,0,70317,0,1
+168691,,168689,0,0,70318,1,1
+168692,Portals used,0,3,5,0,0,8193
+168693,,168692,1,0,70319,0,1
+168694,Pet tamers defeated,0,3,5,0,0,8193
+168695,,168694,0,0,70320,0,0
+168696,Pet tamers defeated,0,9,5,0,0,8193
+168697,,168696,0,0,70320,0,0
+168698,Collect all the Items,0,0,4,0,0,4096
+168699,,168698,0,0,70321,0,0
+168700,,168698,0,0,70322,1,0
+168701,,168698,0,0,70323,2,0
+168702,,168698,0,0,70324,3,0
+168703,,168698,0,0,70325,4,0
+168704,,168698,0,0,70326,5,0
+168705,,168698,0,0,70327,6,0
+168706,,168698,0,0,70328,7,0
 168707,[DNT] Summon Squally,0,0,4,0,0,4098
 168708,,168707,1,0,70329,0,0
+168709,Mounts matched,0,1,5,0,0,8193
+168710,,168709,0,0,70330,0,0
+168711,Mounts matched,0,5,5,0,0,8193
+168712,,168711,0,0,70330,0,0
+168713,Mounts matched,0,10,5,0,0,8193
+168714,,168713,0,0,70330,0,0
+168715,Votes cast,0,5,5,0,0,8193
+168716,,168715,0,0,70331,0,0
+168717,Votes cast,0,10,5,0,0,8193
+168718,,168717,0,0,70331,0,0
+168719,Votes cast,0,15,5,0,0,8193
+168720,,168719,0,0,70331,0,0
+168725,"Herbs, ores, skins, or fish gathered",0,50,5,0,0,8193
+168726,"Herbs, ores, skins, or fish gathered",168725,1,0,70334,0,1
+168727,"Herbs, ores, skins, or fish gathered",168725,1,0,70335,1,1
+168728,"Herbs, ores, skins, or fish gathered",168725,1,0,70336,2,1
+168729,Quests completed,0,15,5,0,0,8193
+168730,,168729,0,0,70337,0,0
+168731,Trading Post - Timewalking Dungeons (Classic Anniversary) - 1,0,1,4,0,0,0
+168732,Timewalking dungeons completed,168731,1,8,0,0,8193
+168733,,168732,0,0,70342,1,0
+168734,,168732,0,0,70343,2,0
+168735,,168732,0,0,70344,3,0
+168736,,168732,0,0,70345,4,0
+168737,,168732,0,0,70346,5,0
+168738,,168732,0,0,70341,0,0
+168739,Trading Post - Timewalking Dungeons (Classic Anniversary) - 1,0,1,4,0,0,0
+168740,Timewalking dungeons completed,168739,5,5,0,0,8193
+168741,,168740,0,0,70341,0,0
+168742,,168740,0,0,70342,1,0
+168743,,168740,0,0,70343,2,0
+168744,,168740,0,0,70344,3,0
+168745,,168740,0,0,70345,4,0
+168746,,168740,0,0,70346,5,0
+168747,Classic pet tamers defeated,0,3,8,0,0,1
+168749,Zoltan,168747,1,0,70352,2,0
+168750,Analynn,168747,1,0,70353,3,0
+168751,Stone Cold Trixxy,168747,1,0,70351,1,0
+168752,Elena Flutterfly,168747,1,0,70350,0,0
+168753,Zonya the Sadist,168747,1,0,70354,4,0
+168754,Zunta,168747,1,0,70355,5,0
+168755,Dagra the Fierce,168747,1,0,70356,6,0
+168756,Merda Stronghoof,168747,1,0,70360,7,0
+168757,Cassandra Kaboom,168747,1,0,70361,8,0
+168758,Grazzle the Great,168747,1,0,70362,9,0
+168759,Kela Grimtotem,168747,1,0,70363,10,0
+168760,Kela Grimtotem,168747,1,0,70363,11,0
+168761,Traitor Gluk,168747,1,0,70364,12,0
+168762,David Kosse,168747,1,0,70365,13,0
+168763,Kortas Darkhammer,168747,1,0,70366,14,0
+168764,Julia Stevens,168747,1,0,70367,15,0
+168765,Lindsay,168747,1,0,70368,16,0
+168766,Old MacDonald,168747,1,0,70369,17,0
+168767,Lydia Accoste,168747,1,0,70370,18,0
+168768,Everessa,168747,1,0,70371,19,0
+168769,Steven Lisbane,168747,1,0,70372,20,0
+168770,Bill Buckler,168747,1,0,70373,21,0
+168783,Secrets completed,0,3,5,0,0,8193
+168784,,168783,1,0,70380,0,1
+168785,Secrets completed,0,5,5,0,0,8193
+168786,,168785,1,0,70380,0,1
+168787,Uncover Ratts' story and take back her stolen prize.,0,0,4,0,0,8194
+168788,,168787,0,0,70382,0,0
 168789,,161678,0,0,70383,5,32
 168790,,161678,0,0,70384,6,32
 168791,,161678,0,0,70385,7,32
+168792,Slid on ice,0,1,5,0,0,8193
+168793,,168792,0,0,70386,0,0
 168794,[DNT] - Radiant Remnant Obtianed,0,0,4,0,0,4096
 168795,,168794,1,0,70387,0,0
+168796,Eat the following foods,0,1,4,0,0,1
+168797,Leeroy's Spicy Fried Chicken,168796,0,0,70388,0,0
+168798,Tigule's Strawberry Ice Cream,168796,0,0,70389,1,0
+168799,Background changed,0,1,5,0,0,8193
+168800,Default,168799,0,0,70390,0,0
+168801,Prop used,0,1,5,0,0,8193
+168802,Default,168801,0,0,70392,0,0
+168803,Title obtained,0,1,5,0,0,8193
+168804,Default,168803,0,0,70393,0,0
+168807,Pet mirrored,0,1,5,0,0,8193
+168808,Default,168807,0,0,70395,0,0
+168809,Replica weapon used,0,1,5,0,0,8193
+168810,Default,168809,0,0,70396,0,0
+168811,Ride balloon,0,1,5,0,0,8193
+168812,Default,168811,0,0,70397,0,0
+168813,Hearthstone match completed,0,1,5,0,0,8193
+168814,,168813,0,0,70398,0,0
+168815,/thanks emoted,0,1,5,0,0,8193
+168816,,168815,0,0,70399,0,0
 168836,,163437,0,0,68808,9,32
 168837,,157281,1,0,66773,1,0
 168838,,157281,1,0,70411,3,0
@@ -98443,6 +98816,81 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 168841,,157281,1,0,70414,6,0
 168864,"[DNT] <Hidden> Mythic+ Rating > 0 (The War Within, any season)",0,0,4,0,0,0
 168865,,168864,1,0,70426,0,0
+168873,A Cool Twenty Years,0,8,4,0,0,0
+168874,,168873,1,0,70582,0,32
+168877,,168873,1,0,70586,4,32
+168878,,168873,1,0,70589,7,32
+168883,,168873,1,0,70588,6,32
+168884,,168873,1,0,70587,5,32
+168886,,168873,1,0,70583,1,32
+168887,,168873,1,0,70585,3,32
+168891,,168873,1,0,70584,2,32
+168892,"Complete Scenario ""The Codex of Chromie""",0,0,4,0,0,0
+168893,"Complete ""The Codex of Chromie""",168892,1,0,70449,0,0
+168898,The Case of Misfortune,167967,0,0,70452,0,16
+168899,The Case of Missing Mementos,167967,0,0,70453,3,16
+168900,The Case of Great Aspirations,167967,0,0,70454,5,16
+168901,The Case of a Feathered Friend,167967,0,0,70455,6,16
+168902,The Case of Staged Disaster,167967,0,0,70456,8,16
+168903,Complete the Guest Relations storyline.,0,0,4,0,0,16
+168904,Chapter 1,168903,0,0,70457,0,16
+168905,Chapter 2,168903,1,8,0,1,0
+168906,Chapter 2,168905,0,0,70458,0,528
+168907,Chapter 2,168905,0,0,70459,1,1040
+168908,Chapter 3,168903,0,0,70460,2,16
+168909,Chapter 4,168903,0,0,70461,3,16
+168910,Crates found,0,6,8,0,0,8195
+168911,,168910,0,0,70462,0,0
+168912,,168910,0,0,70463,1,0
+168913,,168910,0,0,70464,2,0
+168914,,168910,0,0,70465,3,0
+168915,,168910,0,0,70466,4,0
+168916,,168910,0,0,70467,5,0
+168917,,168910,0,0,70468,6,0
+168918,,168910,0,0,70469,7,0
+168919,,168910,0,0,70470,8,0
+168920,,168910,0,0,70471,9,0
+168921,All crates found,0,11,8,0,0,8195
+168922,,168921,0,0,70462,0,0
+168923,,168921,0,0,70463,1,0
+168924,,168921,0,0,70464,2,0
+168925,,168921,0,0,70465,3,0
+168926,,168921,0,0,70466,4,0
+168927,,168921,0,0,70467,5,0
+168928,,168921,0,0,70468,6,0
+168929,,168921,0,0,70469,7,0
+168930,,168921,0,0,70470,8,0
+168931,,168921,0,0,70471,9,0
+168932,Azeroth's Greatest Detective,0,2,8,0,0,0
+168933,,168932,0,0,70472,0,32
+168934,,168932,0,0,70473,1,32
+168935,,168932,0,0,70474,2,32
+168936,,168932,0,0,70475,3,32
+168937,Family Battler of Khaz Algar,0,0,4,0,0,0
+168938,Aquatic Battler of Khaz Algar,168937,1,0,70476,0,0
+168939,Beast Battler of Khaz Algar,168937,1,0,70477,1,0
+168940,Critter Battler of Khaz Algar,168937,1,0,70478,2,0
+168941,Dragonkin Battler of Khaz Algar,168937,1,0,70479,3,0
+168942,Elemental Battler of Khaz Algar,168937,1,0,70480,4,0
+168943,Flying Battler of Khaz Algar,168937,1,0,70481,5,0
+168944,Humanoid Battler of Khaz Algar,168937,1,0,70482,6,0
+168945,Magic Battler of Khaz Algar,168937,1,0,70483,7,0
+168946,Mechanical Battler of Khaz Algar,168937,1,0,70484,8,0
+168947,Undead Battler of Khaz Algar,168937,1,0,70485,9,0
+168953,Big Fan,0,20,5,0,0,8193
+168954,,168953,0,0,70487,0,0
+168955,I Have That One!,0,1,5,0,0,8193
+168956,,168955,0,0,70488,0,0
+168957,Mount Master,0,20,5,0,0,8193
+168958,,168957,0,0,70488,0,0
+168959,Fashion Critic,0,1,5,0,0,8193
+168960,,168959,0,0,70487,0,0
+168961,Photo Op!,0,10,8,0,0,0
+168962,Twighlight Highlands,168961,0,0,70738,0,0
+168963,Pet Mischief,0,1,5,0,0,8193
+168964,,168963,0,0,70490,0,0
+168984,New Criteria Tree,0,0,4,0,0,4096
+168985,,168984,0,0,70506,0,0
 168988,Rank 2,167844,1,0,70512,1,0
 168989,Rank 3,167844,1,0,70513,2,0
 168990,Rank 4,167844,1,0,70514,3,0
@@ -98455,21 +98903,159 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 168997,Sparks of War,161448,0,0,70508,1,0
 168998,Sparks of War,161448,0,0,70511,2,0
 168999,Sparks of War,161448,0,0,70509,3,0
+169029,Votes earned,0,1,5,0,0,8193
+169030,,169029,0,0,70542,0,0
+169031,Votes earned,0,10,5,0,0,8193
+169032,,169031,0,0,70542,0,0
+169033,Ride the following balloons:,0,1,4,0,0,1
+169034,Gold Balloon,169033,1,0,70544,0,0
+169035,Bronze Balloon,169033,1,0,70545,1,0
+169036,Dark Blue Balloon,169033,1,0,70546,2,0
+169037,Light Blue Balloon,169033,1,0,70547,3,0
+169038,Ride a balloon,0,1,5,0,0,8193
+169039,Default,169038,0,0,70444,0,0
+169040,Ride celebration balloons:,0,1,4,0,0,0
+169041,Gold Balloon,169040,1,0,70548,0,0
+169042,Bronze Balloon,169040,1,0,70549,1,0
+169043,Dark Blue Balloon,169040,1,0,70550,2,0
+169044,Light Blue Balloon,169040,1,0,70551,3,0
+169045,Interactions performed,0,50,5,0,0,8193
+169046,,169045,1,0,70552,0,1
+169047,Listen to all of Lorewalker Cho's stories,0,0,4,0,0,0
+169048,Listen to 'The Heroes of the Scarab Wall' story,169047,1,0,70553,0,0
+169049,Listen to 'The Tragedy of Thassarian' story,169047,1,0,70554,1,0
+169050,Listen to 'The Mercy of Baine Bloodhoof' story,169047,1,0,70555,2,0
 169055,11.0 Z1 - Delves - Delver's Call - Earthcrawl Mines  - (STM),0,0,4,0,0,4096
+169056,,169055,0,0,70558,0,0
 169057,11.0 Z2 - Delves - Delver's Call - The Waterworks - (STM),0,0,4,0,0,4096
 169058,,169057,0,0,70559,0,0
 169059,"11.0 Z1 - Delves - Delver's Call - The Sinkhole, Dupe - (STM)",0,0,4,0,0,4096
 169060,,169059,0,0,70560,0,0
+169061,1 Original Anniversary World Bosses,0,1,8,0,0,0
+169062,Azuregos,169061,1,0,70439,0,0
+169063,Lord Kazzak,169061,1,0,70440,1,0
+169064,Lethon,169061,1,0,70441,2,0
+169065,Emeriss,169061,1,0,70561,3,0
+169066,Taerar,169061,1,0,70562,4,0
+169067,Ysondre,169061,1,0,70563,5,0
+169068,All Original Anniversary World Bosses,0,1,4,0,0,0
+169069,Azuregos,169068,1,0,70439,0,0
+169070,Lord Kazzak,169068,1,0,70440,1,0
+169071,Lethon,169068,1,0,70441,2,0
+169072,Emeriss,169068,1,0,70561,3,0
+169073,Taerar,169068,1,0,70562,4,0
+169074,Ysondre,169068,1,0,70563,5,0
+169075,1 Gatecrasher,0,1,8,0,0,0
+169076,Doomwalker,169075,1,0,70443,0,0
+169077,Sha of Anger,169075,1,0,70436,1,0
+169078,Archavon the Stonewatcher,169075,1,0,70437,2,0
+169079,All Gatecrasher,0,0,4,0,0,0
+169080,Doomwalker,169079,1,0,70443,0,0
+169081,Sha of Anger,169079,1,0,70436,1,0
+169082,Archavon the Stonewatcher,169079,1,0,70437,2,0
+169083,1 Classic Timewalking Complete,0,1,8,0,0,0
+169084,Deadmines,169083,1,0,70564,0,0
+169085,Dire Maul (Warpwood Quarters),169083,1,0,70565,1,0
+169086,Dire Maul (Capital Gardens),169083,1,0,70566,2,0
+169087,Zul Farrak,169083,1,0,70567,3,0
+169088,Stratholme (Main Gate),169083,1,0,70568,4,0
+169089,Stratholme (Service Entrance),169083,1,0,70569,5,0
+169090,6 Classic Timewalking Complete,0,6,8,0,0,0
+169091,Deadmines,169090,1,0,70564,0,0
+169092,Dire Maul (Warpwood Quarters),169090,1,0,70565,1,0
+169093,Dire Maul (Capital Gardens),169090,1,0,70566,2,0
+169094,Zul Farrak,169090,1,0,70567,3,0
+169095,Stratholme (Main Gate),169090,1,0,70568,4,0
+169096,Stratholme (Service Entrance),169090,1,0,70569,5,0
+169097,Blackrock Depths Raid,0,0,4,0,0,0
+169098,Lord Roccor,169097,1,0,70570,0,0
+169099,High Interrogator Gerstahn,169097,1,0,70571,1,0
+169100,Houndmaster Grebmar,169097,1,0,70572,2,0
+169101,Bael'Gar,169097,1,0,70573,3,0
+169102,Lord Incendius,169097,1,0,70574,4,0
+169103,Fineous Darkvire,169097,1,0,70575,5,0
+169104,Phalanx,169097,1,0,70576,6,0
+169105,Golem Lord Argelmach,169097,1,0,70577,7,0
+169106,The Seven,169097,1,0,70578,8,0
+169107,General Angerforge,169097,1,0,70579,9,0
+169108,Ambassador Flamelash,169097,1,0,70580,10,0
+169109,Pyromancer Loregrain,169097,1,0,70581,11,0
+169110,Emperor Dagran Thaurissan,169097,1,0,70435,12,0
 169115,11.0 Z1 - Delves - Delver's Call - Nightfall Sanctum - (STM),0,0,4,0,0,4096
 169116,,169115,0,0,70596,0,0
 169117,"11.0 Z1 - Delves - Delver's Call - Spiral Weave, In Delve  - (STM)",0,0,4,0,0,4096
 169118,,169117,0,0,70597,0,0
 169119,11.0 Z1 - Delves - Delver's Call - The Underkeep - (STM),0,0,4,0,0,6144
 169120,,169119,0,0,70598,0,0
+169156,Eat the following foods,0,1,4,0,0,1
+169157,Greasy Links,169156,0,0,70606,0,0
+169158,Moon Bread,169156,0,0,70607,1,0
+169159,Cherry Bombs,169156,0,0,70608,2,0
+169160,Pappy Thunderbrew's Cough Syrup,169156,0,0,70609,3,0
+169161,Jenkins' No Nonsense Fried Chicken,169156,0,0,70610,4,0
+169162,Brivelthwerp's Sassafras Float,169156,0,0,70611,5,0
+169163,Elekk Ear,169156,0,0,70612,6,0
+169164,Complete the following:,0,0,4,0,0,0
+169165,Break an object,169164,0,0,70613,0,0
+169166,"Sleep in a basket, crate or cauldron",169164,0,0,70614,1,0
+169167,Play with a ball,169164,0,0,70615,2,0
+169168,Eat a Zoomy Treat,169164,0,0,70616,3,0
+169169,Scratch a celebrant,169164,0,0,70617,4,0
+169170,Get chased by a celebrant,169164,0,0,70618,5,0
+169171,Get a treat tossed to you,169164,0,0,70619,6,0
+169172,/wave emoted,0,1,4,0,0,1
+169173,Breanni,169172,0,0,70620,0,0
+169174,Hemet Nesingwary Sr.,169172,0,0,70621,1,0
+169175,Meerah,169172,0,0,70622,2,0
+169176,Flynn Fairwind,169172,0,0,70623,3,0
 169182,11.0 Delves - Complete Seasonal Journey - DNT - (STM),0,0,4,0,0,6144
 169183,,169182,0,0,70624,0,0
+169191,Trading Post - Deploy Anni Balloons in Dornogal,0,0,4,0,0,2
+169192,Anniversary Balloon Chest used,169191,0,0,70628,0,0
 169193,11.0 Z1 - Delves - Delver's Call - Earthcrawl Mines  - (STM),0,0,4,0,0,4096
 169194,,169193,0,0,70629,0,0
+169205,,49088,1,0,30674,1,0
+169206,Pacing Mission 2c,48393,1,8,0,2,0
+169207,,169206,1,0,70638,0,0
+169208,,169206,1,0,30675,1,0
+169209,Pacing Mission 2d,48393,1,8,0,3,0
+169210,,169209,1,0,70639,0,0
+169211,,169209,1,0,30676,1,0
+169212,Pacing Mission 2e,48393,1,8,0,4,0
+169213,,169212,1,0,70640,0,0
+169214,,169212,1,0,30677,1,0
+169215,Purchase one Tier 2 Set,0,0,4,0,0,0
+169216,,169215,1,0,70641,0,0
+169217,Blackrock Depths Raid,0,0,4,0,0,0
+169218,Lord Roccor,169217,1,0,70642,0,0
+169219,Bael'Gar,169217,1,0,70643,2,0
+169220,Lord Incendius,169217,1,0,70644,4,0
+169221,Golem Lord Argelmach,169217,1,0,70645,7,0
+169222,The Seven,169217,1,0,70578,8,0
+169223,General Angerforge,169217,1,0,70646,9,0
+169224,Ambassador Flamelash,169217,1,0,70647,10,0
+169225,Emperor Dagran Thaurissan,169217,1,0,70648,12,0
+169226,High Interrogator Gerstahn,169217,1,0,70571,1,0
+169227,Fineous Darkvire,169217,1,0,70575,5,0
+169228,Houndmaster Grebmar,169217,1,0,70572,3,0
+169229,Phalanx,169217,1,0,70576,6,0
+169230,Pyromancer Loregrain,169217,1,0,70581,11,0
+169231,Temporal Missives,0,0,4,0,0,0
+169232,Detention Block,169231,1,0,70649,0,0
+169233,Twilight's Hammer,169231,1,0,70650,1,0
+169234,The Dark Iron Highway,169231,1,0,70651,2,0
+169235,Lords of the Firelands,169231,1,0,70652,3,0
+169236,Shadowforge City,169231,1,0,70653,4,0
+169237,Martial Law,169231,1,0,70654,5,0
+169238,The Grim Guzzler,169231,1,0,70655,6,0
+169239,The Black Vault,169231,1,0,70656,7,0
+169240,Dark Iron Nobles,169231,1,0,70657,8,0
+169241,The Summoning,169231,1,0,70658,9,0
+169242,The Lyceum,169231,1,0,70659,10,0
+169243,The Servant Emperor,169231,1,0,70660,11,0
+169244,End of an Empire,169231,1,0,70661,12,0
+169245,[DNT] Secrets completed,0,999,5,0,0,0
+169246,,169245,0,0,70662,0,0
 169247,Porcelain Arrowhead Idol,164141,0,0,70688,2,16
 169248,Porcelain Arrowhead Idol,164141,0,0,69463,3,16
 169249,Brute Force Idol,164139,1,8,0,3,8192
@@ -98528,6 +99114,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 169302,Rage-Filled Idol,169299,0,0,70665,2,16
 169303,Rage-Filled Idol,169299,0,0,70666,3,16
 169304,Light-Touched Idol,166270,1,8,0,5,8192
+169422,,168921,0,0,70699,10,0
+169423,,168910,0,0,70699,10,0
 169450,Amorphous Relic,166270,1,8,0,7,8192
 169451,Amorphous Relic,169450,0,0,69469,0,16
 169452,Time Lost Relic,166270,1,8,0,8,8192
@@ -98542,6 +99130,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 169461,Relicblood of Zekvir,169460,0,0,69474,0,16
 169462,Rage-Filled Idol,166270,1,8,0,13,8192
 169463,Rage-Filled Idol,169462,0,0,70666,0,16
+169464,Benatauk's Clue Book read,0,0,4,0,0,4096
+169465,,169464,0,0,70700,0,0
 169466,Idol of the Earthmother,166883,0,0,70701,1,0
 169467,Relic of Sentience,166881,0,0,70702,1,0
 169468,Porcelain Arrowhead Idol,166884,0,0,70703,1,0
@@ -98570,8 +99160,120 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 169491,Streamlined Relic,169289,0,0,70725,4,0
 169492,Relicblood of Zekvir,169294,0,0,70726,4,0
 169493,Rage-Filled Idol,169299,0,0,70727,4,0
+169496,11.0.5 Raid - Blackrock Depths - LFR Wing 1,0,0,4,0,0,0
+169497,Lord Roccor defeated,169496,1,0,70730,0,0
+169498,Bael'Gar defeated,169496,1,0,70731,1,0
+169499,Lord Incendius defeated,169496,1,0,70732,2,0
+169500,11.0.5 Raid - Blackrock Depths - LFR Wing 2,0,0,4,0,0,0
+169501,Golem Lord Argelmach defeated,169500,1,0,70733,0,0
+169502,The Seven defeated,169500,1,0,70734,1,0
+169503,General Angerforge defeated,169500,1,0,70735,2,0
+169504,11.0.5 Raid - Blackrock Depths - LFR Wing 3,0,0,4,0,0,0
+169505,Ambassador Flamelash defeated,169504,1,0,70736,0,0
+169506,Emperor Dagran Thaurissan defeated,169504,1,0,70737,1,0
+169507,Uldum,168961,0,0,70739,1,0
+169508,Mount Hyjal,168961,0,0,70740,2,0
+169509,Nagrand,168961,0,0,70741,3,0
+169510,Gorgrond,168961,0,0,70742,4,0
+169511,Shadowmoon Valley,168961,0,0,70743,5,0
+169512,The Storm Peaks,168961,0,0,70744,6,0
+169513,Icecrown,168961,0,0,70745,7,0
+169514,Grizzly Hills,168961,0,0,70746,8,0
+169515,Val'Sharah,168961,0,0,70750,12,0
+169516,Valley of the Four Winds,168961,0,0,70747,9,0
+169517,Kun-Lai Summit,168961,0,0,70748,10,0
+169518,Jade Forest,168961,0,0,70749,11,0
+169519,Stormheim,168961,0,0,70751,13,0
+169520,Suramar,168961,0,0,70752,14,0
+169521,Stormsong Valley,168961,0,0,70753,15,0
+169522,Drustvar,168961,0,0,70754,16,0
+169523,Tiragard Sound,168961,0,0,70755,17,0
+169524,Zereth Mortis,168961,0,0,70756,18,0
+169525,Ardenweald,168961,0,0,70757,19,0
+169526,Revendreth,168961,0,0,70758,20,0
+169527,Ohn'ahran Plains,168961,0,0,70759,21,0
+169528,Waking Shores,168961,0,0,70760,22,0
+169529,Azure Span,168961,0,0,70761,23,0
+169549,Purchase a second Tier 2 Set,0,0,4,0,0,0
+169550,,169549,1,0,70780,0,0
+169557,Collect 100 Bronze Celebration Tokens,0,0,4,0,0,0
+169558,,169557,100,0,70784,0,1
 169567,Character has earned 2500 Conquest during The War Within Season 1,0,0,4,0,0,1
 169568,,169567,250000,0,70878,0,1
+169737,Defeat Emperor Dagran Thaurissan Encounter in BRD Raid,0,0,4,0,0,4096
+169738,,169737,1,0,70873,0,0
 169739,"[DNT] Has Achievement ""Worm Theory""",0,0,4,0,0,0
 169740,,169739,0,0,70874,0,0
-169056,,169055,0,0,70558,0,0
+169773,,156588,1,0,70887,2,0
+169774,Bonus Event Weekend - Timewalking (Classic),0,5,5,0,0,4096
+169775,,169774,1,0,70888,0,2
+169776,,169774,1,0,70889,1,2
+169777,,169774,1,0,70890,2,2
+169778,,169774,1,0,70891,3,2
+169779,,169774,1,0,70892,4,2
+169780,,169774,1,0,70893,5,2
+169781,11.0 War Within - Legion - Bonus Event Weekend - Timewalking (Burning Crusade),0,5,5,0,0,4096
+169782,,169781,5,0,70894,0,2
+169783,,169781,5,0,70895,1,2
+169784,,169781,5,0,70896,2,2
+169785,,169781,5,0,70897,3,2
+169786,,169781,5,0,70898,4,2
+169787,,169781,5,0,70899,5,2
+169788,,169781,5,0,70900,6,2
+169789,,169781,5,0,70901,7,2
+169790,,169781,5,0,70902,8,2
+169791,,169781,1,0,70903,9,2
+169792,,169781,1,0,70904,10,2
+169793,,169781,1,0,70905,11,2
+169794,,169781,1,0,70906,12,2
+169795,,169781,1,0,70907,13,2
+169796,,169781,1,0,70908,14,2
+169797,,169781,1,0,70909,15,2
+169798,,169781,1,0,70910,16,2
+169799,,169781,1,0,70911,17,2
+169800,11.0 War Within - Legion - Bonus Event Weekend - Timewalking (Wrath),0,5,5,0,0,4096
+169801,,169800,5,0,70912,0,2
+169802,,169800,5,0,70913,1,2
+169803,,169800,5,0,70914,2,2
+169804,,169800,5,0,70915,3,2
+169805,,169800,5,0,70916,4,2
+169806,,169800,5,0,70917,5,2
+169807,,169800,5,0,70918,6,2
+169808,,169800,5,0,70919,7,2
+169809,,169800,5,0,70920,8,2
+169810,,169800,1,0,70921,9,2
+169811,,169800,1,0,70922,10,2
+169812,,169800,1,0,70923,11,2
+169813,,169800,1,0,70924,12,2
+169814,,169800,1,0,70925,13,2
+169815,,169800,1,0,70926,14,2
+169816,,169800,1,0,70927,15,2
+169817,,169800,1,0,70928,16,2
+169818,,169800,1,0,70929,17,2
+169819,,169800,1,0,70930,18,2
+169820,,169800,1,0,70931,19,2
+169821,,169800,1,0,70932,20,2
+169822,,169800,1,0,70933,21,2
+170109,,168813,0,0,71139,1,0
+170110,,168813,0,0,71140,2,0
+170552,,163554,0,0,71402,26,0
+170553,,163554,0,0,71403,27,0
+170554,,163554,0,0,71404,28,0
+170555,,163554,0,0,71405,29,0
+170556,,163554,0,0,71406,30,0
+170314,[DNT] Stratholme - Ziggurats Disabled (Timewalking),0,0,4,0,0,0
+170315,Ash'ari Crystals destroyed,170314,3,0,24918,0,0
+170316,Baroness Anastari defeated,170314,1,0,24919,1,0
+170317,Maleki the Pallid defeated,170314,1,0,24920,2,0
+170318,Nerub'enkan defeated,170314,1,0,24921,3,0
+170319,[DNT] Abominations defeated - Timewalking,0,0,4,0,0,0
+170320,Abominations defeated,170319,9,0,24922,0,0
+170321,[DNT] Stratholme - Ramstein the Gorger (Timewalking),0,0,4,0,0,0
+170322,Ramstein the Gorger defeated,170321,1,0,24923,0,0
+170323,[DNT] Stratholme - Lord Aurius Rivendare (Timewalking),0,0,4,0,0,0
+170324,Black Guard Sentry defeated,170323,5,0,24924,0,0
+170325,Lord Aurius Rivendare defeated,170323,1,0,27860,1,0
+170326,[DNT] Stratholme - Magistrate Barthilas (Timewalking),0,0,4,0,0,0
+170327,Magistrate Barthilas defeated,170326,1,0,24930,0,0
+170328,7.3 BT Timewalking - Illidan Credit Fix,0,1,8,0,0,4096
+170329,Player defeats Iillidan in timewalking,170328,0,0,71262,0,0

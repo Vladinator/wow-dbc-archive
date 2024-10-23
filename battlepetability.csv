@@ -700,8 +700,8 @@ Overwhelms the enemy with draconic breath, dealing [StandardDamage(1, 1)] [Schoo
 Lashes the enemy 1-2 times, dealing [StandardDamage(1,1)] [School()] damage per lash.
 
 Hits an additional time if the user attacks first.",134218,6,0,0,0
-395,Soothing Mists,"Restores [StandardDamage(1,1,395)] health each round.",606550,-1,0,635,0
-396,Soothing Mists,"Restores [StandardDamage(1,1,395)] health to your active pet every round for [duration(1,1)] |4round:rounds. Persists through pet swaps.",606550,6,0,0,2
+395,Soothing Mists,"Restores [StandardHealing(1,1,395)] health each round.",606550,6,0,635,0
+396,Soothing Mists,"Restores [StandardHealing(1,1,395)] health to your active pet every round for [duration(1,1)] |4round:rounds. Persists through pet swaps.",606550,6,0,0,2
 397,Poison Lash,"Deals [StandardDamage(1,1)] [School()] damage every round.
 
 |cFF1EFF00Poisoned.|r",134208,6,0,25,0
@@ -3797,3 +3797,9 @@ This move always goes first.",132852,8,1,0,0
 2520,Dazzle,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
 Dazzle your enemies with a sparkling ball. Deals [StandardDamage(1,1)] [School()] damage and |cff9933FFBlinds|r the target, reducing their hit chance by [abs(abilityStateMod( 41 , 462 ))]% for [duration(1,2)] |4round:rounds;.",133836,0,4,0,0
+2522,Cataclysms Edge,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Slices with his mini-Cataclysms Edge, dealing [StandardDamage(1, 1)] [School()] damage.",135378,0,0,0,0
+2523,Shadow Bolt Volley,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Hurls bolts of shadow at the enemy team, dealing [StandardDamage(1, 1)] [School()] damage to the enemy team.",136197,5,3,0,0
