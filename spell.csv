@@ -53195,6 +53195,7 @@ Movement speed slowed by $s2%."
 87623,,Awakens the Titanic Guardian in the Chamber of the Sun.,
 87624,,"The Shadow Lord searches for nearby enemies, if it finds an enemy within $87625A1 yards it will explode!","The Shadow Lord searches for nearby enemies, if it finds an enemy within $87625A1 yards it will explode!"
 87625,,,
+87626,,,
 87628,,,
 87629,,Roots all nearby enemies and inflicts $s1 Shadow damage every $t1 sec for $d.,"Rooted.
 Inflicts $s1 Shadow damage every $t1 sec."
@@ -100104,6 +100105,7 @@ Movement speed reduced by $s2%."
 153712,,,
 153713,,,
 153714,,This creature will explode in a violent flash of light when dying.,This creature will explode in a violent flash of light when dying.
+153715,,True love sees the truth.,True love sees the truth.
 153716,,This creature will free all nearby allies from crowd-controlling effects when dying.,This creature will free all nearby allies from crowd-controlling effects when dying.
 153717,,,
 153719,,Inflicts Nature Damage to the target.,
@@ -390865,10 +390867,14 @@ After dealing up to $454560s1 damage to the target the focused energies ignite y
 463183,,,
 463184,,,
 463185,,Dread Captain Lockwoods periodically calls on her subordinates to bombard players with $@spellname272426.,
+463187,,,
+463188,,,
+463189,,,
 463190,,,
 463191,,,
 463192,,$@spelldesc444483,$@auracaster's Splinters will deal additional damage to nearby enemies.
 463193,,$@spelldesc331721,
+463196,,Bury the bones.,
 463197,,$@spelldesc449666,Casting $@spellname449666 next.
 463198,,$@spelldesc449666,
 463199,,Study to increase your Khaz Algar Alchemy Knowledge by $s1.,
@@ -390986,7 +390992,9 @@ This is a Nerubian embellishment.",
 463360,,"Adds a unique visual effect to the hearthstone sold by the Severed Threads Quartermaster, allowing you to return home in style.",
 463361,,"When your Pact is with the Weaver, Professions Crafting and Gathering speed increased by 15%.
 ",
+463362,,Makes everything invisible.,Everything is invisible.
 463363,,,
+463364,,Feel emotions.,Feeling emotions.
 463366,,,
 463368,,Reveals the truth.,Truth revealed.
 463369,,,
@@ -391018,6 +391026,7 @@ This is a Nerubian embellishment.",
 463393,,One of the Vizier's more eclectic companions can now be purchased from the Severed Threads Quartermaster.,
 463394,,Display a title befitting your status as one of the Vizier's most trusted confidantes.,
 463395,,"Adds a unique visual effect to the hearthstone sold by the Severed Threads Quartermaster, allowing you to return home in style.",
+463397,,,
 463398,,,
 463400,,,
 463401,,,
@@ -391081,6 +391090,7 @@ Do you want to ride it?",
 463464,,"The ground heaves beneath the player, increasing damage taken from $@spellname460364 by $s1%. This effect stacks. 
 
 ",Damage from $@spellname460364 increased by $s1%.
+463466,,Activate the Warden Owl statue to discover the true power it yields.,
 463467,,,
 463468,,,
 463469,,,
@@ -391116,6 +391126,7 @@ Can only be used by those who've proven themselves to the Severed Threads.",
 463505,,$@spelldesc463495,
 463509,,Gain access to a profession table in the Weaver's Lair.,
 463510,,Gain access to a profession table in the Weaver's Lair.,
+463511,,,
 463513,,Reveal the location of a Rumor on your map in Azj-Kahet.,
 463514,,Reveal the location of all currently active Rumors in Azj-Kahet.,
 463515,,$@spelldesc463486,
@@ -391124,13 +391135,17 @@ Can only be used by those who've proven themselves to the Severed Threads.",
 463520,,,
 463521,,,
 463522,,,
+463524,,,
 463525,,,"The dragonflights grant new adventurers their blessings, providing various boons."
 463526,,,"The magic of the red dragonflight has recently saved you, preventing you from death."
 463527,,,
 463528,,,"The magic of the red dragonflight has recently saved you, preventing you from death."
 463530,,,
+463531,,Engulf the target in oily flames.,Burning with $?A463364[intense curiosity][intrigue].
 463534,,,"Protected by the black dragonflight, strengthening your armor to prevent durability loss and significantly decreasing the amount of damage taken from environmental hazards."
 463535,,,
+463538,,,
+463540,,,
 463541,,,"Protected by the green dragonflight, increasing your health regeneration while out of combat."
 463542,,,"Protected by the green dragonflight, increasing your health regeneration while out of combat."
 463544,,,
@@ -391181,6 +391196,7 @@ Can only be used by those who've proven themselves to the Severed Threads.",
 463613,,,
 463614,,,
 463615,,,
+463616,,Increases run speed for a few minutes.  ,Run speed increased by $s1%.
 463617,,,
 463618,,,
 463619,,Contains a variety of rewards for those who have proven themselves true allies of the Weaver.,
@@ -391188,12 +391204,16 @@ Can only be used by those who've proven themselves to the Severed Threads.",
 463624,,,
 463625,,,
 463634,,,
+463637,,Grants immunity to Steam damage.,Immune to Steam damage.
 463638,,"Harnesses the raw power of the elements, dealing $s1 Elemental damage and increasing your Critical Strike or Haste by $118522s1% or Mastery by ${$173184s1*$168534bc1}% for $118522d.$?s137041[
 
 If Lava Burst is known, Elemental Blast replaces Lava Burst and gains $394152s2 additional $Lcharge:charges;.][]",
 463644,,$@spelldesc463495,
 463649,,,
 463653,,,
+463656,,,
+463657,,,
+463658,,Your presence has not gone unnoticed.,You are being watched.
 463659,,Contains a variety of rewards for those who have proven themselves true allies of the General.,
 463662,,,
 463666,,,
@@ -392790,14 +392810,19 @@ Generates up to $88751s2 Astral Power based on targets hit.
 |cFFFFFFFFAwards $s2 combo $lpoint:points;.|r",
 468989,,,
 468991,,,
+468992,,,
 468994,,"Swipe all nearby enemies, inflicting $s3 Physical damage. Deals reduced damage beyond $s4 targets.$?a231063[ Deals $231063s1% increased damage against bleeding targets.][]$?a405300[ Applies the Bleed from Thrash.][]
 
 |cFFFFFFFFAwards $s1 combo $lpoint:points;.|r",
 468995,,Inflicts $s1 Nature damage to nearby players.,
 469004,,Casting a free Starsurge or Starfall grants Solstice for ${$s1/1000} sec.,
+469007,,,
 469012,,"Moonfire, Sunfire, Stellar Flare, and Starfall deal their damage in $s1% less time, and your healing over time effects in $s2% less time.",
+469013,,,
 469014,,Demonology Warlock,
 469015,,,
+469018,,,
+469019,,,
 469028,,,
 469030,,,
 469031,,High Interrogator Gerstahn's piercing gaze causes players who do not look away to be feared for $469032d.,
