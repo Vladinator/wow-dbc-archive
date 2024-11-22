@@ -5580,10 +5580,10 @@ ID,BaseTag,TagText_lang,Flags
 16676,LOOK_FOR_GROUP,Look For Group,1
 16677,LOOK_FOR_MORE,Look For More,1
 16678,JOIN,Join,1
-16679,NEWBIE_TOOLTIP_LFMTAB,Click here to look for members to add to your existing group.,1
-16680,BINDING_NAME_TOGGLELFGPARENT,Toggle LFG/LFM Frame,1
-16681,LFG_BUTTON,Looking For Group/Looking For More,1
-16682,NEWBIE_TOOLTIP_LFGPARENT,A tool to find a group to complete a dungeon.,1
+16679,NEWBIE_TOOLTIP_LFG_LIST_TAB_2,Browse player listings to form a group.,1
+16680,BINDING_NAME_TOGGLELFGPARENT,Toggle Looking for Group,1
+16681,LFG_BUTTON,Looking for Group,1
+16682,NEWBIE_TOOLTIP_LFG_LIST_TAB_1,List the group activities you're interested in.,1
 16683,LOOKING_FOR_GROUP_LABEL,I'm looking for a group for:,1
 16684,LOOKING_FOR_GROUP_LABEL2,I'm also looking for a group for:,1
 16685,ERR_LFG_LEADER_IS_LFM_S,You can't do that while %s is looking for more members.,1
@@ -5720,8 +5720,8 @@ ID,BaseTag,TagText_lang,Flags
 16823,BENCHMARK_TAXI_MODE_ON,Taxi Time Test ON,1
 16824,BENCHMARK_TAXI_MODE_OFF,Taxi Time Test OFF,1
 16825,OPTION_TOOLTIP_LOCALE,Select which language you would like to play in.,3
-16827,BINDING_NAME_TOGGLELFGTAB,Toggle LFG Pane,1
-16828,BINDING_NAME_TOGGLELFMTAB,Toggle LFM Pane,1
+16827,BINDING_NAME_TOGGLELFGLISTINGTAB,Toggle LFG Listing,1
+16828,BINDING_NAME_TOGGLELFGBROWSETAB,Toggle LFG Browse,1
 16829,MOVE_FILTER_DOWN,Move Filter Down,1
 16830,ERR_ITEM_MAX_COUNT_SOCKETED,You have the maximum number of those gems in your inventory or socketed into items.,1
 16831,SPELL_FAILED_NO_MAGIC_TO_CONSUME,No magic to consume,1
@@ -5928,6 +5928,7 @@ ID,BaseTag,TagText_lang,Flags
 17064,OPTION_TOOLTIP_VOICE_TYPE1,Requires the pressing of a key before speaking in voice chat.,1
 17065,OPTION_TOOLTIP_VOICE_TYPE2,Allows for the transmission of voice chat by just speaking.,1
 17066,ARENA_BATTLES,Arena Battles,1
+17067,CHAT_NOT_IN_LFG_NOTICE,[%s] You must be listed in the Looking for Group system to send messages in this channel. |cffffd200|Hlfglisting:|h[Click here to list yourself.]|h|r,1
 17068,FOCUS_TOKEN_NOT_FOUND,<no focus>,1
 17069,BINDING_NAME_TOGGLEMINIMAPROTATION,Toggle Minimap Rotation,1
 17071,AUTO_ADD_DISABLED_GROUPED_TOOLTIP,"You cannot automatically add more members to your group if your group is already full, or you are not the leader.",1
@@ -6055,7 +6056,7 @@ ID,BaseTag,TagText_lang,Flags
 17218,MOVIE_RECORDING_COMPRESSING,Compressing,1
 17219,MOVIE_RECORDING_COMPRESSING_CANCEL_NEWBIE_TOOLTIP,This will finish the compression early. You will lose the part that is still not compressed. The part that is currently compressed will be saved on your hard drive.,1
 17220,MOVIE_RECORDING_COMPRESSING_CANCEL_TOOLTIP,Cancel Compression,1
-17221,MAC_OPTIONS,Mac Options,1
+17221,MAC_OPTIONS,Mac Options,3
 17223,MOVIE_RECORDING_ENABLE_GUI,Record the User Interface,1
 17224,MOVIE_RECORDING_ENABLE_GUI_TOOLTIP,"If this is checked, you will see the user interface in the movie. Regardless of this setting, you will see the user interface while playing.",1
 17225,MOVIE_RECORDING_ENABLE_SOUND,Record Sound,1
@@ -8151,8 +8152,8 @@ ID,BaseTag,TagText_lang,Flags
 19499,SPELL_FAILED_CUSTOM_ERROR_55,Missing Reagents: Dark Matter,1
 19500,BINDING_NAME_TOGGLECURRENCY,Toggle Currency Frame,1
 19504,SHORTDATE,%2$d/%1$02d/%3$02d,3
-19505,TUTORIAL52,"Congratulations, you have received your first Battle Pet. This little fellow will follow you during all of your adventures in Azeroth and beyond.|n|nYou can see all of your Battle Pets by clicking the |cffffd200Collections|r button and then looking for the  |cffffd200Pet Journal|r tab.",1
-19506,TUTORIAL_TITLE52,Companions,1
+19505,TUTORIAL52,"For challenging quests and dungeons, you can find other players to group with by using the Looking for Group interface.|n|nTo open Looking for Group, click the green eye near your minimap.",1
+19506,TUTORIAL_TITLE52,Looking for Group,1
 19507,TUTORIAL53,"Congratulations, you have learned how to summon your first mount. This mighty steed will carry you throughout your adventures in Azeroth and beyond.|n|nTo see all of your mounts, click the |cffffd200Collections|r button and look for the |cffffd200Mounts|r tab. You can drag your favorite mount onto your action bar to summon it more easily.",1
 19508,TUTORIAL_TITLE53,Mounts,1
 19510,SPELL_FAILED_CUSTOM_ERROR_56,You can't use that item,1
@@ -9706,7 +9707,7 @@ ID,BaseTag,TagText_lang,Flags
 21186,BONUS_TALENTS_TOOLTIP,+%d Talent Points,1
 21187,CHAT_SERVER_DISCONNECTED_MESSAGE,You have been disconnected from the Chat Server and may be unable to send or receive messages.,1
 21188,CHAT_SERVER_RECONNECTED_MESSAGE,You have been reconnected to the Chat Server and may send or receive messages.,1
-21189,ERR_DIFFICULTY_CHANGE_HEROIC_INSTANCE_ALREADY_RUNNING,Your heroic instance is already in running and in use by another party,1
+21189,ERR_DIFFICULTY_CHANGE_HEROIC_INSTANCE_ALREADY_RUNNING,Your heroic instance is already running and in use by another party,1
 21190,GUILD_NEWS_FORMAT0,Guild achievement earned: %s,1
 21191,GUILD_NEWS_FORMAT1,%s earned the achievement %s,1
 21192,GUILD_NEWS_FORMAT2,%s defeated %s,1
@@ -10784,8 +10785,8 @@ ID,BaseTag,TagText_lang,Flags
 22343,MAC_DISABLE_OS_SHORTCUTS,Disable OS Keyboard Shortcuts,3
 22344,MAC_DISABLE_OS_SHORTCUTS_TOOLTIP,Disables the operating system keyboard shortcuts. Use this if you don't want to accidentally fire operating system shortcuts during the game.,3
 22345,REQ_LEVEL_ABBR,Lvl,1
-22346,MAC_OPTIONS_MISC,Miscellaneous,1
-22348,MAC_SWAP_CONTROL_AND_COMMAND_TOOLTIP,Use this if you want to use the Command key modifier for key bindings instead of the Control key.,1
+22346,MAC_OPTIONS_MISC,Miscellaneous,3
+22348,MAC_SWAP_CONTROL_AND_COMMAND_TOOLTIP,Use this if you want to use the Command key modifier for key bindings instead of the Control key.,3
 22349,SCROLL_OF_RESURRECTION,Scroll of Resurrection,1
 22350,ENTER_EMAIL_OR_CHARACTER,Enter email or character-realm name,1
 22351,SEND_SCROLL_OF_RESURRECTION,Send Scroll of Resurrection,1
@@ -10902,7 +10903,7 @@ ID,BaseTag,TagText_lang,Flags
 22465,IN_LFG_QUEUE_BUT_SUSPENDED,Your queue has been temporarily suspended. You will retain your position in the queue.,1
 22466,RF_REWARD_EXPLANATION2,Each victory subsequent to the first each week will earn you:,1
 22467,RF_REWARD_EXPLANATION1,Your first completion per week will earn you:,1
-22468,MAC_OPEN_UNIVERSAL_ACCESS,"In order to use this option accessibility needs to be enabled. Please check the option \""Enable access for assistive devices\"" in the Universal Access System Preferences panel. Would you like to open the System Preferences now?",1
+22468,MAC_OPEN_UNIVERSAL_ACCESS,"In order to use this option accessibility needs to be enabled. Please check the option \""Enable access for assistive devices\"" in the Universal Access System Preferences panel. Would you like to open the System Preferences now?",3
 22469,ERR_PARTY_ROLE_NOT_AVAILABLE,Problem trying to fill your group's available roles,1
 22470,ERR_JOIN_LFG_OBJECT_FAILED,You failed to join the instance in progress,1
 22471,SPELL_FAILED_CUSTOM_ERROR_148,Target is already affected by Stardust No. 2.,1
@@ -11987,8 +11988,8 @@ ID,BaseTag,TagText_lang,Flags
 23661,BATTLE_PET_PUT_IN_CAGE_SLOTTED,Put In Cage (Battle Slot),1
 23662,BATTLE_PET_PUT_IN_CAGE_HEALTH,Put In Cage (Health),1
 23663,PET_JOURNAL_CARD_NAME_DEFAULT,Select a pet from the list on the left.,1
-23664,MAC_USE_COMMAND_AS_CONTROL,Use Command key as Control key,1
-23665,MAC_USE_COMMAND_AS_CONTROL_TOOLTIP,Use Command key and Control key interchangeably.,1
+23664,MAC_USE_COMMAND_AS_CONTROL,Use Command key as Control key,3
+23665,MAC_USE_COMMAND_AS_CONTROL_TOOLTIP,Use Command key and Control key interchangeably.,3
 23666,MAC_USE_COMMAND_LEFT_CLICK_AS_RIGHT_CLICK,Command left click as right click,3
 23667,MAC_USE_COMMAND_LEFT_CLICK_AS_RIGHT_CLICK_TOOLTIP,Hold down Command key and left click to simulate a right click.,3
 23668,SPELL_FAILED_CANT_ADD_BATTLE_PET,Can't Add Companion To Your Account,1
@@ -13266,7 +13267,7 @@ ID,BaseTag,TagText_lang,Flags
 25063,VOICE_CHAT_COLON,"Voice Chat: |cffffd100\""%s\""|r",1
 25064,LFG_LIST_IN_QUOTES,"\""%s\""",1
 25065,WHISPER_LEADER,Whisper Leader,1
-25066,LFG_LIST_REPORT_GROUP_FOR,Report Group For:,1
+25066,LFG_LIST_REPORT_GROUP_FOR,Report Group,1
 25067,LFG_LIST_BAD_NAME,Group Name,1
 25068,LFG_LIST_BAD_DESCRIPTION,Description,1
 25069,LFG_LIST_REPORT_FOR,Report For:,1
@@ -13365,7 +13366,7 @@ ID,BaseTag,TagText_lang,Flags
 25165,CAPACITANCE_SHIPMENT_COOLDOWN,Cooldown: %s,1
 25166,CAPACITANCE_SHIPMENT_READY,Work Order ready for pickup!,1
 25167,MOUNT_JOURNAL_NO_VALID_FAVORITES,You have selected no favorite mounts appropriate for this area.\nRight-Click in the Mount Journal to set Favorites.,1
-25168,BINDING_NAME_TOGGLEGROUPFINDER,Toggle Group Finder,1
+25168,BINDING_NAME_TOGGLEGROUPFINDER,Toggle Looking for Group,1
 25169,BINDING_NAME_TOGGLEDUNGEONSANDRAIDS,Toggle Dungeons & Raids,1
 25170,BINDING_NAME_TOGGLECOLLECTIONS,Toggle Collections,1
 25171,BINDING_NAME_TOGGLETOYBOX,Toggle Toy Box,1
@@ -13465,7 +13466,7 @@ ID,BaseTag,TagText_lang,Flags
 25266,NPE_FINDCORPSE,Press |cFF00FFFF%s|r to open your map and find your corpse.,1
 25267,NPE_BACKPACKFULL,Your inventory is full. Find a merchant to sell some of the items in your bag.,1
 25268,NPE_MOREQUESTS,Another quest is available nearby. Look for the {Atlas|NPE_ExclamationPoint:16},1
-25269,LFG_LIST_TOO_MANY_FOR_ACTIVITY,Your group already has the maximum number of members (%d) for this activity.,1
+25269,LFG_LIST_TOO_MANY_FOR_ACTIVITY,Your group already has the maximum number of members (%d) for these activities.,1
 25270,NPE_USEHEARTHSTONE,|cFF00FFFFRight-Click|r {Atlas|NPE_RightClick:16} the Hearthstone |TInterface\\Icons\\inv_misc_rune_01:16|t in your bag to teleport back to your home location.,1
 25271,LFG_LIST_ENTRY_EXPIRED_TOO_MANY_PLAYERS,Your group has the maximum number of members for this activity and will now be delisted.,1
 25272,LFG_LIST_ENTRY_EXPIRED_TIMEOUT,Your group has been delisted for inactivity. You may relist the group if you are still looking for applicants.,1
@@ -16916,7 +16917,7 @@ ID,BaseTag,TagText_lang,Flags
 36114,COMMUNITIES_EDIT_CHANNEL,Edit Channel,1
 36115,COMMUNITIES_CHANNEL_NAME_LABEL,Channel Name,1
 36116,COMMUNITIES_CHANNEL_SUBJECT_LABEL,Description,1
-36117,COMMUNITIES_FRAME_TITLE,Blizzard Groups,1
+36117,COMMUNITIES_FRAME_TITLE,Guild & Communities,1
 36118,BINDING_HEADER_COMMENTATORMISC,Misc,1
 36119,BINDING_NAME_TOGGLE_NAMEPLATE_SIZE,Toggle Nameplate Size,1
 36120,STORE_CATEGORY_VETERAN_DISABLED_TOOLTIP,Unavailable to Veteran accounts,3
@@ -17414,6 +17415,7 @@ ID,BaseTag,TagText_lang,Flags
 40842,VOICE_CHAT_JOIN,Join Voice Chat,1
 40843,VOICE_CHAT_LEAVE,Leave Voice Chat,1
 40844,VOICE_CHAT_CHANNEL_ANNOUNCE_PLAYER_LEFT,You have left the voice channel.,1
+40846,ERR_GUILD_AND_COMMUNITIES_UNAVAILABLE,Guilds and Communities are currently unavailable,1
 40850,COMMUNITIES_PRESENCE_MOBILE_CHAT,Mobile Chat,1
 40851,COMMUNITIES_INVITE_MANAGER_NUMBERUSES_LABEL,Number of Uses,1
 40852,COMMUNITIES_INVITE_MANAGER_EXPIRES_AFTER_LABEL,Expires After,1
@@ -17493,7 +17495,7 @@ ID,BaseTag,TagText_lang,Flags
 41293,EMPTY_SOCKET_PUNCHCARDYELLOW,Yellow Punchcard Socket,1
 41294,EMPTY_SOCKET_PUNCHCARDBLUE,Blue Punchcard Socket,1
 41348,BLIZZARD_GROUPS_SHORT,Groups,1
-41385,BINDING_NAME_TOGGLEBLIZZARDGROUPSTAB,Toggle Blizzard Groups Pane,1
+41385,BINDING_NAME_TOGGLEBLIZZARDGROUPSTAB,Toggle Blizzard Groups,1
 41459,VOICE_CHAT_DUCKING_SCALE,Voice Chat Ducking,1
 41466,LAUNCH_ETA,The world is scheduled to be available in approximately %d hours.,2
 41467,LAUNCH_ETA_SOON,The world is scheduled to be available soon.,2
@@ -17526,6 +17528,8 @@ ID,BaseTag,TagText_lang,Flags
 41775,CLUB_FINDER_APPLY,Apply,1
 41781,CLUB_FINDER_PENDING_CLUBS_LIST,Pending List,1
 41784,BLIZZARD_STORE_PURCHASED,Purchased,3
+41813,COMMUNITY_FEATURE_UNAVAILABLE_MUTED,This feature is disabled due to your Battle.net Account parental controls or privacy settings,1
+41814,COMMUNITY_FEATURE_UNAVAILABLE_SILENCED,"We have silenced your account following multiple reports of abusive chat from other players. While silenced, you are unable to use this feature.",1
 41838,VISITABLE_URL49,https://worldofwarcraft.com/%s/game/recruit-a-friend,3
 41896,BLIZZARD_STORE_VAS_TRANSFER_REALM_CATEGORY_WARNING,You are transferring to a %s realm.,2
 41911,CLUB_FINDER_THANK_YOU_REPORTED,Thank you for reporting.,1
@@ -17677,6 +17681,8 @@ ID,BaseTag,TagText_lang,Flags
 42905,META_KEY_TEXT_ABBR,m,1
 42907,CMD_KEY_TEXT_ABBR,m,1
 42908,WIN_KEY_TEXT_ABBR,w,1
+43001,MAC_MIC_PREMISSIONS_NOTIFICATION,"In order to use voice chat, you must grant ""Microphone"" permission to %s in Security & Privacy preferences, located in System Preferences.",3
+43002,MAC_MIC_PERMISSIONS_OPEN_BUTTON,System Preferences,3
 43039,SSAO_TYPE_LABEL,Ambient Occlusion Type,3
 43041,SSAO_TYPE_ASSAO,ASSAO,3
 43042,SSAO_TYPE_CACAO,FidelityFX CACAO,3
@@ -17907,14 +17913,17 @@ ID,BaseTag,TagText_lang,Flags
 44278,BEHAVIORAL_DETAILS_CLOSE_BUTTON,Close,1
 44279,BEHAVIORAL_DETAILS_TY_TITLE,Thank you for Reporting,1
 44280,BEHAVIORAL_DETAILS_TY_MESSAGE,"Thank you for your report. Players who violate our policies disrupt the World of Warcraft experience for everyone, and your reports help us identify them.\n\nWhile we can't provide specific details about account penalties, your recent reports led to actions against a player and their account.\n\nYour reports make World of Warcraft a friendlier place for everyone.",1
+44283,GROUP_FINDER_AUTHENTICATOR_POPUP_DESC,"Unlock full access to the group finder by attaching an Authenticator and SMS Protect to your account.|n|nThe Battle.net Authenticator is a free, easy-to-use service that protects your account from intruders, and SMS Protect notifies you when important changes are made to your account.|n|nClick ""Activate"" to launch the Authenticator setup website.",1
 44287,RESAMPLE_QUALITY_POINT,Point,3
 44288,RESAMPLE_QUALITY_FSR,FidelityFX Super Resolution,3
+44300,LFG_AUTHENTICATOR_DESCRIPTION_BOX,Attach an Authenticator and SMS Protect to your account to unlock this field,1
 44314,MAC_SETTINGS_LABEL,Keyboard Options,3
+44315,MAC_SETTINGS_SUBTEXT,[NL] Keyboard Options Subtext TEMP,3
 44316,CURSOR_SIZE_DEFAULT,Default,3
 44317,CURSOR_SIZE,Cursor Size,3
 44318,CURSOR_SIZE_TOOLTIP,Adjusts the size of the cursor,3
 44339,REGIONAL_RESTRICT_CHAT_DIALOG_TITLE,Chat has been turned off,1
-44340,REGIONAL_RESTRICT_CHAT_DIALOG_MESSAGE,"There are regional regulations that affect this account. Chat features have been disabled by default. You can re-enable those features now, or decide to enable them later via the Chat Settings panel.\n\nIf you decide to enable them, please be mindful of our community interaction policies and report any abusive behavior, chat, or other conduct intended to undermine or disrupt the game experience using our in-game reporting options; we'll review chat records and take appropriate action.",1
+44340,REGIONAL_RESTRICT_CHAT_DIALOG_MESSAGE,"There are regional regulations that affect this account. Chat features have been disabled by default. You can re-enable those features now, or decide to enable them later in Options -> Social.\n\nIf you decide to enable them, please be mindful of our community interaction policies and report any abusive behavior, chat, or other conduct intended to undermine or disrupt the game experience using our in-game reporting options; we'll review chat records and take appropriate action.",1
 44341,REGIONAL_RESTRICT_CHAT_DIALOG_ENABLE,Turn Chat On,1
 44342,REGIONAL_RESTRICT_CHAT_DIALOG_DISABLE,Leave Chat Off,1
 44343,RESTRICT_CHAT_MESSAGE_SUPPRESSED,You can't send or receive messages while chat is disabled.,1
@@ -17971,7 +17980,7 @@ ID,BaseTag,TagText_lang,Flags
 48657,SEASON_OF_MASTERY_CHARACTER_SELECT_NOTIFICATION,Check out the new \n Season of Mastery realms!,3
 48662,NAME_RESERVATION_CHARACTER_CAP_REACHED,You have already reserved a character name on another realm.,3
 48673,CHAR_CREATE_NAME_RESERVATION_FULL,This realm is full and new character creation is disabled. Please try a different realm.,2
-48696,LFM_ACTIVITY_HEADER,%d |4activity:activities; selected,1
+48696,LFGBROWSE_ACTIVITY_HEADER,%d |4activity:activities; selected,1
 48698,EMPTY_SOCKET_CYPHER,Crystallic Socket,1
 48701,LFG_TYPE_DROPDOWN_INSTRUCTIONS,Select category,1
 48702,LFG_ACTIVITY_DROPDOWN_INSTRUCTIONS,Select activity,1
@@ -18011,7 +18020,7 @@ ID,BaseTag,TagText_lang,Flags
 48833,REPORTING_MINOR_CATEGORY_FEEDING,Intentionally Feeding,1
 48834,REPORTING_MINOR_CATEGORY_BOTTING,Botting,1
 48835,REPORTING_MINOR_CATEGORY_ADVERTISEMENT,Advertisement,1
-48836,REPORTING_MINOR_CATEGORY_GROUP_NAME,Group name,1
+48836,REPORTING_MINOR_CATEGORY_GROUP_NAME,Group Name,1
 48837,REPORTING_MINOR_CATEGORY_BOOSTING,Boosting/Deranking,1
 48838,REPORTING_MINOR_CATEGORY_CUSTOM_GAME_NAME,Custom Game Name,1
 48841,REPORTING_REPORT_PLAYER,Report %s,1
@@ -18059,6 +18068,14 @@ ID,BaseTag,TagText_lang,Flags
 48972,OPTION_TOOLTIP_USE_COMBINED_BAGS,When checked your inventory will display as a single bag window,1
 48977,REPORT_PVP_SCOREBOARD,Report Player,1
 48989,SHOW_AGGRO_PERCENTAGES,Show Aggro Percentages,1
+49014,DESCRIPTION_OF_YOUR_GROUP_MANDATORY,Description of your group,1
+49018,LFG_LIST_ONLY_LEADER_CREATE,Only the group leader can create a listing for your group.,1
+49019,LFG_LIST_ONLY_LEADER_UPDATE,Only the group leader can modify your group's listing.,1
+49020,LFG_LIST_MY_ACTIVITY_LIST_HEADER,Your group is currently listed for:,1
+49021,LFG_LIST_UNLIST,Delist,1
+49022,LFG_LIST_TAB_1,Create Listing,1
+49023,LFG_LIST_TAB_2,Group Browser,1
+49026,ERR_LFG_ROLE_CHECK_ONLY_LEADER,Only your group leader can initiate a Role Check.,1
 49027,SETTINGS_TAB_GAME,Game,3
 49028,SETTINGS_TAB_ADDONS,AddOns,3
 49029,SETTINGS_CLOSE,Close,3
@@ -18077,14 +18094,26 @@ ID,BaseTag,TagText_lang,Flags
 49045,SETTINGS_RAID_GRAPHICS_QUALITY,Raid Graphics Quality,3
 49046,SETTINGS_FMT_FPS,%d FPS,3
 49047,CAMERA_CTM_FOLLOWING_STYLE,Camera Following Style,3
+49056,REPORT_GROUP_FINDER_ADVERTISEMENT,Report Advertisement,1
+49066,LFGBROWSE_ACTIVITY_COUNT,%d |4activity:activities;,1
+49085,NEWBIE_TOOLTIP_LFGPARENT,Find other players to group with to tackle challenging content.,1
 49092,BODY_1,Body 1,3
 49093,BODY_2,Body 2,3
+49109,LFGBROWSE_ACTIVITY_HEADER_DEFAULT,Filter by activity,1
+49110,LFG_LIST_EDIT,Edit Listing,1
+49116,LFG_LIST_INDENT,  %s,1
+49120,LFGBROWSE_ACTIVITY_MATCHING_COUNT,%d matching |4activity:activities;,1
 49141,ERR_DECLINE_GROUP_REQUEST_S,%s declines your group invitation request.,1
 49258,ERR_REQUESTED_INVITE_TO_GROUP_SS,|Hplayer:%s|h[%s]|h has requested to join your group.,1
 49259,ERR_SUGGEST_INVITE_PLAYER_S,You have suggested that %s join your group.,1
 49260,ERR_REQUEST_JOIN_PLAYER_S,You have requested to join %s's group.,1
 49261,CAMERA_FOV,Camera FOV,3
 49267,OPTION_TOOLTIP_CAMERA_FOV,Field of View.,1
+49292,LFG_SELF_LISTING,Your Listing,1
+49421,NEWBIE_TOOLTIP_LFG_LIST_EDIT,Edit your current group listing.,1
+49422,CLASS_ROLE_NOT_RECOMMENDED,This role is not recommended for your current character's class.,1
+49426,LFG_LIST_NEW_PLAYER_FRIENDLY_TOOLTIP,Indicates that you welcome new players into your group and are willing to act as a guide for them.,1
+49427,LFG_LIST_NEW_PLAYER_FRIENDLY_HEADER,New Players Welcome,1
 49541,CLASSIC_PRESENCE_PREFIX,WoW Classic,0
 49703,ENABLE_INTERACT_TEXT,Enable Interact Key,1
 49704,OPTION_TOOLTIP_ENABLE_INTERACT,Allows you to interact with NPCs and objects using a keypress,1
@@ -18199,12 +18228,12 @@ ID,BaseTag,TagText_lang,Flags
 50398,HARDCORE_GO_AGAIN,Try again!,1
 50406,HARDCORE_WARNING,"|cffffffffDeath is permanent|r|n|n|cffffd200Hold, adventurer. The realm you are selecting is a HARDCORE realm. If you choose to play on this realm, character death is permanent.|r|n|n|cffffffffCustomer Support will not restore fallen hardcore characters for any reason",2
 50407,HARDCORE_CHARACTER_CREATE_WARNING,"Welcome to WoW Classic Hardcore Realms. Any character that dies on a Hardcore realm can never resurrect on that realm for ANY reason. Customer Support cannot resurrect a dead Hardcore character.|n|nBy agreeing to play on these realms, you accept that your character's death is permanent for whatever the reason. This includes disconnections, lag, server outages, gameplay bugs, or any other reason. Dying due to consensual PvP activity-- such as a Duel to the Death or deliberately PvP flagging-- is part of the game.|n|n",2
-50408,HARDCORE_TITLE_WARNING,Warning!,2
-50418,VISITABLE_URL58,https://www.battlenet.com.cn/support/zh/help/home,2
-50419,VISITABLE_URL59,https://www.battlenet.com.cn/support/zh/ticket/status?loc,2
+50408,TITLE_WARNING,Warning!,2
+50418,VISITABLE_URL58,https://support-api.battlenet.com.cn/auth/home/index,2
+50419,VISITABLE_URL59,https://support-api.battlenet.com.cn/auth/home/service,2
 50420,HARDCORE_REALM_NAME,Hardcore,2
-50421,VISITABLE_URL60,https://www.battlenet.com.cn/support/zh/ticket/submit?loc,2
-50423,HARDCORE_AGREE,I agree,2
+50421,VISITABLE_URL60,https://support-api.battlenet.com.cn/auth/home/question,2
+50423,AGREE,I agree,2
 50424,HARDCORE_REALM_TOOLTIP,Hardcore realms feature perma-death of characters.,2
 50432,HARDCORE_GUILDLEADER_DEATH,You have died. You must hand the mantle of leadership of %s to another. Type the player's name below.,1
 50436,SELF_CAST,Self Cast,1
@@ -18218,6 +18247,7 @@ ID,BaseTag,TagText_lang,Flags
 50445,BINDING_HEADER_ACTIONBAR3,Action Bar 3,1
 50446,BINDING_HEADER_ACTIONBAR4,Action Bar 4,1
 50447,BINDING_HEADER_ACTIONBAR5,Action Bar 5,1
+50459,LFG_LIST_TOO_MANY_ACTIVITIES_SELECTED,You've selected too many activities.,1
 50477,DUEL_TO_DEATH,Duel to the Death,1
 50508,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT,Determines what type of health text to show in raid frames.,1
 50514,DUEL_TO_THE_DEATH_REQUESTED,|Hplayer:%s|h[%s]|h has challenged you to a duel to the death.,1
@@ -18240,6 +18270,7 @@ ID,BaseTag,TagText_lang,Flags
 50604,BROADCAST_LEVELUP,%s has reached level %d!,1
 51177,PVE_AND_PVP,PvE and PvP,3
 51180,COMPACT_UNIT_FRAME_PROFILE_LABEL,Raid Profile,1
+51205,BATTLE_PET_SOURCE_12,Trading Post,1
 51207,ERR_DUEL_TO_THE_DEATH_FORFEIT,"There is no concession in a Duel to the Death, coward!",1
 51219,SLASH_TEXTTOSPEECH_HELP_LOOT,Enable or disable achievement item loot messages,1
 51220,SLASH_TEXTTOSPEECH_HELP_CURRENCY,Enable or disable achievement currency messages,1
@@ -18281,6 +18312,7 @@ ID,BaseTag,TagText_lang,Flags
 51497,HARDCORE_CAUSEOFDEATH_FALLING,|Hplayer:%s|h[%s]|h fell to their death in %s! They were level %d,1
 51502,HARDCORE_CAUSEOFDEATH_FATIGUE,|Hplayer:%s|h[%s]|h died of fatigue in %s! They were level %d,1
 51532,CHARACTER_LINK_CLASS_LEVEL_SPEC_TOOLTIP,Level %d %s (%s),1
+51533,LFG_LIST_CHOOSE_YOUR_ROLE,Choose your Role,1
 51580,REMOVE_RUNE,Remove Rune,1
 51581,RUNE_CATEGORY_OTHER,Other,1
 51586,SHOW_ENEMY_CASTBARS,Show Enemy Cast Bar,1
@@ -18342,6 +18374,7 @@ They will be deleted and remade with the current customized character.",2
 51876,OPTION_TOOLTIP_HARDCORE_ANNOUNCE_DEATH_ALERT_DISPLAY2,Only show raid-style warnings for guilds member deaths,1
 51877,OPTION_TOOLTIP_HARDCORE_ANNOUNCE_DEATH_ALERT_DISPLAY3,Show raid-style warnings for all deaths on the realm,1
 51925,SPELL_FAILED_CUSTOM_ERROR_364,Inventory is full.,1
+51959,EMPTY_SOCKET_FRAGRANCE,Fragrance Socket,1
 52002,COUNTDOWN_SET,|Hplayer:%s|h[%s]|h started a countdown timer.,1
 52003,COUNTDOWN_CLEAR,|Hplayer:%s|h[%s]|h canceled the countdown timer.,1
 52004,COUNTDOWN_CANCEL_ENCOUNTER_START,"Encounter started, countdown timer canceled.",1
@@ -18349,13 +18382,38 @@ They will be deleted and remade with the current customized character.",2
 52006,SLASH_COUNTDOWN2,/countdown,1
 52007,SLASH_COUNTDOWN3,/cd,1
 52008,SLASH_COUNTDOWN4,/cd,1
+52024,ITEM_MOD_INGENUITY_SHORT,Ingenuity,1
+52045,OPTION_HD_TEXTURES,High Definition Textures,3
 52132,CHINA_RELEASE_BUILD,China Release,2
 52133,REPORTING_MAJOR_CATEGORY_CHINA_HARMFUL_MINORS,Harmful to Minors,3
 52137,CHINA_GM_BUILD,China GM,2
+52346,VRN_COMPAT_MODE,Disabled due to compatibility settings,3
+52347,COMPATIBILITY_SETTINGS,Compatibility Settings,3
+52348,OPTION_TOOLTIP_COMPATIBILITY_SETTINGS,"Compatibility settings are offered to help diagnose and work around various crashes, graphical bugs and performance issues. In most cases disabling these features will decrease performance, introduce hitching and/or decrease visual quality. They are only intended to be disabled if you are having specific issues.",3
+52349,COMPAT_SETTING_OPTIONAL_GPU_FEATURES,Optional GPU Features,3
+52350,COMPAT_SETTING_DEVICE_MULTITHREADING,Async Resource Creation,3
+52351,COMPAT_SETTING_FRAME_OVERLAP,Frame Overlap,3
+52352,COMPAT_SETTING_CMDLIST_MULTITHREADING,Multithreaded Rendering,3
+52353,OPTION_TOOLTIP_COMPAT_SETTING_OPTIONAL_GPU_FEATURES,"Allows the use of newer GPU features. When disabled, the game will act as if the GPU only supports the minimum required features. Various graphical features will be disabled and the visual quality of the game will likely be reduced. This may help work around driver bugs or other issues with newer GPU features.",3
+52354,OPTION_TOOLTIP_COMPAT_SETTING_DEVICE_MULTITHREADING,Allows asynchronously creating GPU resources such as textures and shaders. Disabling this will likely introduce hitching but could help work around crashes or visual issues on very old drivers or hardware.,3
+52355,OPTION_TOOLTIP_COMPAT_SETTING_FRAME_OVERLAP,"Allows the CPU to work on 2 frames at once. Disabling this may cause less consistent or lower framerate but could help avoid some kinds of crashes for certain hardware, driver and OS combinations. ",3
+52356,OPTION_TOOLTIP_COMPAT_SETTING_CMDLIST_MULTITHREADING,"Allows the game to use multiple CPU threads to render the game. Disabling this will likely greatly reduce framerate, but could work around crashes or visual bugs in some cases. ",3
 52368,ERR_NOT_ENOUGH_PURCHASED_GAME_TIME,Game time must be purchased at least once on this account to be eligible to buy a WoW Token with gold.,1
 52369,SPELL_FAILED_CUSTOM_ERROR_365,Your current sacrifice isn't great enough,0
 52392,CHINA_AGE_APPROPRIATENESS_TEXT,System message,2
 52393,CHINA_AGE_APPROPRIATENESS_TEXT_TITLE,System message title,2
 52394,VISITABLE_URL57,https://jiazhang.gm.163.com/blizzard/,2
+52395,COMPAT_SETTING_ADV_WORK_SUBMIT,Advanced Work Submit,3
+52396,OPTION_TOOLTIP_COMPAT_SETTING_ADV_WORK_SUBMIT,"Allows more complex code paths for submitting work to the GPU. Disabling this may cause less consistent or lower framerate but could help avoid some kinds of crashes for certain hardware, driver and OS combinations. ",3
 52397,CHINA_HEALTHY_GAMING_TEXT,System message,2
 52398,CHINA_HEALTHY_GAMING_TEXT_TITLE,System message,2
+52434,SETTINGS_TRIVIAL_QUEST_FILTER,Hide Low-Level Quests,1
+52506,OPTION_TOOLTIP_DISABLE_CHAT_ACCOUNT_MUTE,"To change this, you must first go to your Battle.net Account settings and make sure that: \n- Privacy & Communication -> Text Chat is enabled \n- Parental Controls -> Account Mute is disabled",1
+52509,OPTION_TOOLTIP_DISABLE_CHAT,Disables chat. You will not be able to send or receive messages.,1
+52528,CLASSIC_GUILD_UI_TEXT,Classic Guild UI,1
+52529,OPTION_TOOLTIP_CLASSIC_GUILD_UI,Use the classic Guild UI instead of the modern Guild UI.,1
+52530,OPTIONAL_QUEST_OBJECTIVE_DESCRIPTION,%s (Optional),1
+52644,PVP_REALM_WARNING,"Hold, adventurer. You are attempting to join a |cffffffffPvP (Player vs Player) |cffffd200realm. You will face a constant threat from players of the opposing faction.|n|nIf you are not comfortable with a high level of conflict, we recommend you choose a |cffffffffNormal (non-PvP) |cffffd200realm.|n|n|cffffffffGame Masters do not intervene in PvP conflicts, and it is not possible to transfer your characters from a PvP realm to a Normal realm.",2
+52672,PVP_CHARACTER_CREATION_WARNING,"Welcome to the |cffffffffWorld of Warcraft! |cffffd200As you prepare to enter this realm, please be aware that you are joining a |cffffffffPvP (Player vs Player) |cffffd200realm. This means, in addition to the challenges of the world itself, you will also face the constant threat of combat with other players.|n|n|cffffffffPvP combat |cffffd200is a core part of this realm, and players from opposing factions may attack you without warning and with no sense of honor in contested areas. Be prepared for skirmishes and potentially lopsided battles as you explore the world, whether during quests, gathering resources, or traveling between locations. For example, the player you killed in Un'Goro while fighting over Devilsaur might hold a grudge, and now their guild is waiting for yours on the path through Blackrock Mountain for raid night in Molten Core.",2
+52673,PVP_CHARACTER_CREATION_WARNING_TWO,"|n|nIf you're not looking for this level of conflict, we recommend choosing a |cffffffffNormal (non-PvP) |cffffd200realm instead, where player combat is restricted.|n|n|cffffffffGame Masters do not intervene in PvP conflicts, and it is not possible to transfer your characters between PvP and Normal realms. You have been warned!",2
+52730,LFG_LIST_IGNORE_SUGGESTED_LEVEL,Show All Level Ranges,1

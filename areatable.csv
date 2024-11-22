@@ -15,7 +15,7 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 16,Azshara,Azshara,1,0,129,0,11,31,2172,205,0,0,0,0,0,0,0,-1,0,0,0,64,0,0,0,0,0
 17,TheBarrens,The Barrens,1,0,130,0,11,38,2172,7,0,0,0,0,4,0,0,-1,0,0,0,64,0,0,0,0,0
 18,CrystalLake,Crystal Lake,0,12,131,0,11,35,2172,1,0,7,0,0,0,0,0,-1,0,0,0,1073741888,0,0,0,0,0
-19,Zul'Gurub,Zul'Gurub,0,33,574,0,11,32,2172,3,0,40,0,0,0,0,0,-1,0,0,0,1073741888,0,0,0,0,0
+19,ZulGurub,Zul'Gurub,0,33,574,0,11,32,2172,3,0,40,0,0,0,0,0,-1,0,0,0,1073741888,0,0,0,0,0
 20,Moonbrook,Moonbrook,0,40,132,0,11,0,2172,9,0,14,0,0,0,0,0,-1,0,0,0,1073741888,0,0,0,0,0
 21,KulTiras,Kul Tiras,0,0,133,0,11,0,2172,8,0,0,0,0,0,0,0,-1,0,0,0,64,0,0,0,0,0
 22,ProgrammerIsle,Programmer Isle,451,0,547,0,11,38,2172,2,0,0,0,0,0,0,0,-1,0,0,0,64,0,0,0,0,0
@@ -1083,6 +1083,119 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 13649,TestDungeon,Test Dungeon,13,0,12255,0,0,0,0,0,0,0,0,0,0,0,3,-1,0,0,0,64,0,0,0,0,0
 15159,SearingBasin,The Searing Basin,0,51,0,0,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,1073741888,128,0,0,0,0
 15475,DemonFallCanyon,Demon Fall Canyon,2784,0,0,0,11,49,2172,193,0,0,0,0,0,0,0,-1,0,0,0,0,128,0,0,0,0
-15531,TheTaintedScar,The Tainted Scar,2789,0,0,0,0,33,2172,237,0,0,0,0,0,0,0,-1,0,0,0,0,128,0,0,0,0
+15531,TheTaintedScar,The Tainted Scar,2789,0,0,0,0,210,2172,237,0,0,0,0,0,0,1,-1,0,0,0,0,128,0,0,0,0
 15532,StormCliffs,Storm Cliffs,2791,0,0,0,0,33,2172,237,0,0,0,0,0,0,1,-1,0,0,0,0,128,0,0,0,0
 15540,DemonFallBarrow,Demon Fall Barrow,2784,15475,0,0,11,49,2172,193,0,0,0,0,0,0,0,-1,0,0,0,1073741824,128,0,0,0,0
+15793,Elsewhen,Elsewhen,269,0,0,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,0,128,0,0,0,0
+15809,FelwoodShadowHold,Felwood,2806,0,0,0,11,28,2172,193,0,0,0,0,0,0,0,-1,0,0,0,64,128,0,0,0,0
+15810,BloodvenomPostShadowHold,Bloodvenom Post ,2806,15809,0,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+15811,BloodvenomFallsShadowHold,Bloodvenom Falls,2806,15809,0,0,0,0,2172,193,0,52,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+15812,BloodvenomRiverShadowHold,Bloodvenom River,2806,15809,0,0,0,0,2172,193,0,0,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+15813,JaedenarShadowHold,Jaedenar,2806,15809,0,0,0,0,2172,193,0,51,161,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+15814,ShatterScarValeShadowHold,Shatter Scar Vale,2806,15809,0,0,0,0,2172,0,0,53,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+15815,RuinsofConstellasShadowHold,Ruins of Constellas,2806,15809,0,0,0,0,2172,0,0,51,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+15816,GroveoftheAncientsShadowHold,Grove of the Ancients,2806,148,0,0,11,0,2172,0,0,15,302,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+15817,WildbendRiverShadowHold,Wildbend River,2806,148,0,0,11,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+15818,TwilightShoreShadowHold,Twilight Shore,2806,148,0,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+15819,TwilightValeShadowHold,Twilight Vale,2806,148,0,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+15820,TheMaster'sGlaiveShadowHold,The Master's Glaive,2806,148,0,0,11,0,2172,0,0,16,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+15821,Ameth'AranShadowHold,Ameth'Aran,2806,148,0,0,11,0,2172,15,0,11,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+15822,BlackwoodDenShadowHold,Blackwood Den,2806,148,0,0,11,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+15825,TheCrystalVale,The Crystal Vale,2804,0,0,0,0,2871,2172,237,0,0,0,0,0,0,1,-1,0,0,0,0,128,0,0,0,0
+15828,TheBurningofAndorhal,The Burning of Andorhal,2807,0,0,0,11,40,2172,15,0,0,0,0,0,0,0,-1,0,0,0,0,128,0,0,0,0
+15938,StarfallVillageInstance,Starfall Village,2817,0,0,0,0,0,2172,76,0,55,103,0,0,0,0,-1,0,0,0,64,128,0,0,0,0
+16003,AzsharaInstance,Azshara,2832,0,0,0,11,31,2172,205,0,0,0,0,0,0,0,-1,0,0,0,64,128,0,0,0,0
+16004,HyjalInstance,Hyjal,2832,0,0,0,11,31,2172,0,0,0,0,0,0,0,0,-1,0,0,0,64,128,0,0,0,0
+16005,DarkwhisperGorgeInstance,Darkwhisper Gorge,1,618,0,0,0,37,2172,205,0,60,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16006,XavianInstance,Xavian,2832,16169,0,0,11,0,2172,3,0,0,121,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16007,SatyrnaarInstance,Satyrnaar,2832,16169,0,0,11,0,2172,3,0,28,121,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16008,BoughShadowInstance,Bough Shadow,2832,16169,0,0,11,0,2172,188,0,20,301,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16009,ForestSongInstance,Forest Song,2832,16169,0,0,0,0,2172,188,0,0,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16010,WarsongLumberCampInstance,Warsong Lumber Camp,2832,16169,0,0,11,28,2172,228,0,22,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16011,SouthfuryRiverInstance,Southfury River,2832,16169,0,0,11,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16012,NightsongWoodsInstance,Nightsong Woods,2832,16169,0,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16013,ShadowsongShrineInstance,Shadowsong Shrine,2832,16169,0,0,0,0,2172,15,0,46,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16014,SouthfuryRiverInstance,Southfury River,2832,16003,0,0,11,0,2172,8,0,0,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16015,HaldarrEncampmentInstance,Haldarr Encampment,2832,16169,0,0,0,0,2172,3,0,45,121,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16016,TalrendisPointInstance,Talrendis Point,2832,16169,0,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16017,DesolaceInstance,Desolace,2832,0,0,0,11,39,2172,7,0,0,0,0,0,0,0,-1,0,0,0,64,128,0,0,0,0
+16018,FeralasInstance,Feralas,2832,0,0,0,11,48,2172,3,0,0,0,0,0,0,0,-1,0,0,0,64,128,0,0,0,0
+16019,TheMaulInstance,The Maul,2832,16018,0,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741952,128,0,0,0,0
+16020,ValleyofBonesInstance,Valley of Bones,2832,16018,0,0,0,0,2172,193,0,0,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16021,GelkisVillageInstance,Gelkis Village,2832,16018,0,0,11,0,2172,7,0,34,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16022,MannorocCovenInstance,Mannoroc Coven,2832,16018,0,0,11,0,2172,193,0,39,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16023,DreamBoughInstance,Dream Bough,2832,16018,0,0,0,0,2172,0,0,60,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16024,JademirLakeInstance,Jademir Lake,2832,16018,0,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16025,RuinsofRavenwindInstance,Ruins of Ravenwind,2832,16018,0,0,0,0,2172,0,0,49,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16026,TheTwinColossalsInstance,The Twin Colossals,2832,16018,0,0,0,0,2172,0,0,48,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16027,OneirosInstance,Oneiros,2832,16018,0,0,0,0,2172,0,0,60,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16028,EasternPlaguelandsInstance,Eastern Plaguelands,2832,0,0,0,11,37,2172,205,0,0,0,0,0,0,0,-1,0,0,0,64,128,0,0,0,0
+16029,TheHinterlandsInstance,The Hinterlands,2832,0,0,0,11,31,2172,1,0,0,0,0,0,0,0,-1,0,0,0,64,128,0,0,0,0
+16030,LakeMereldarInstance,Lake Mereldar,2832,16029,0,0,0,0,2172,0,0,54,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16031,TheUndercroftInstance,The Undercroft,2832,16029,0,0,0,0,2172,0,0,54,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16032,ScarletBaseCampInstance,Scarlet Base Camp,2832,16029,0,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16033,DarrowshireInstance,Darrowshire,2832,16029,0,0,0,0,2172,0,0,55,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16034,TheCreepingRuinInstance,The Creeping Ruin,2832,16029,0,0,0,0,2172,0,0,47,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16035,TheForbiddingSeaInstance,The Forbidding Sea,2832,16029,0,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16036,SkulkRockInstance,Skulk Rock,2832,16029,0,0,11,0,2172,1,0,48,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16037,SeradaneInstance,Seradane,2832,16029,0,0,11,0,2172,76,0,41,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16038,TheOverlookCliffsInstance,The Overlook Cliffs,2832,16029,0,0,11,0,2172,1,0,48,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16039,AgolwathaInstance,Agol'watha,2832,16029,0,0,0,0,2172,0,0,46,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16040,ShaolwathaInstance,Shaol'watha,2832,16029,0,0,0,0,2172,0,0,49,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16041,ValorwindLakeInstance,Valorwind Lake,2832,16029,0,0,0,0,2172,0,0,48,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16074,KarazhanCrypts,Karazhan Crypts,2835,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,128,0,0,0,0
+16076,TempleofAhnQiraj,Temple of Ahn'Qiraj,531,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,128,0,0,0,0
+16113,RedridgeMountainsDeadwindPass,Redridge Mountains,2853,0,0,0,11,31,2172,1,0,0,0,0,0,0,0,-1,0,0,0,64,128,0,0,0,0
+16114,DeadwindPassDeadwindPass,Deadwind Pass,2853,0,0,0,11,49,2172,2,0,0,0,0,0,0,0,-1,0,0,0,64,128,0,0,0,0
+16115,BlastedLandsDeadwindPass,Blasted Lands,2853,0,0,0,11,210,2172,7,0,0,0,0,0,0,0,-1,0,0,0,64,128,0,0,0,0
+16116,SwampofSorrowsDeadwindPass,Swamp of Sorrows,2853,0,0,0,11,33,2172,223,0,0,0,0,0,0,0,-1,0,0,0,64,128,0,0,0,0
+16117,StranglethornJungleDeadwindPass,Stranglethorn Vale,2853,0,0,0,11,32,2172,3,0,0,0,0,0,0,0,-1,0,0,0,64,128,0,0,0,0
+16118,ElwynnForestDeadwindPass,Elwynn Forest,2853,0,0,0,11,35,2172,1,0,0,0,0,2,0,0,-1,0,0,0,64,128,0,0,0,0
+16119,DuskwoodDeadwindPass,Duskwood,2853,0,0,0,11,40,2172,2,0,0,0,0,0,0,0,-1,0,0,0,64,128,0,0,0,0
+16120,LakeridgeHighwayDeadwindPass,Lakeridge Highway,2853,16113,0,0,0,0,2172,0,0,16,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16121,ThreeCornersDeadwindPass,Three Corners,2853,16113,0,0,0,0,2172,0,0,16,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16122,Deadman'sCrossingDeadwindPass,Deadman's Crossing,2853,16114,0,0,0,0,2172,0,0,50,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16123,SleepingGorgeDeadwindPass,Sleeping Gorge,2853,16114,0,0,0,0,2172,0,0,50,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16124,TheViceDeadwindPass,The Vice,2853,16114,0,0,0,0,2172,0,0,57,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16125,Morgan'sPlotDeadwindPass,Morgan's Plot,2853,16114,0,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16126,KarazhanDeadwindPass,Karazhan,2853,16114,0,0,0,0,2172,0,0,60,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16127,Ariden'sCampDeadwindPass,Ariden's Camp,2853,16114,0,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16128,DeadwindRavineDeadwindPass,Deadwind Ravine,2853,16114,0,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16129,ZulGurubDeadwindPass,Zul'Gurub,2853,16117,0,0,11,32,2172,3,0,40,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16130,RidgepointTowerDeadwindPass,Ridgepoint Tower,2853,16118,0,0,11,35,2172,0,0,8,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16131,EastvaleLoggingCampDeadwindPass,Eastvale Logging Camp,2853,16118,0,0,11,35,2172,1,0,6,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16132,Beggar'sHauntDeadwindPass,Beggar's Haunt,2853,16119,0,0,11,0,2172,2,0,25,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16133,TranquilGardensCemeteryDeadwindPass,Tranquil Gardens Cemetery,2853,16119,0,0,11,0,2172,15,0,28,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16134,DarkshireDeadwindPass,Darkshire,2853,16119,0,0,11,0,2172,2,0,25,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16135,BrightwoodGroveDeadwindPass,Brightwood Grove,2853,16119,0,0,11,0,2172,2,0,28,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16136,ManorMistmantleDeadwindPass,Manor Mistmantle,2853,16119,0,0,0,0,2172,0,0,30,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16137,TheDarkenedBankDeadwindPass,The Darkened Bank,2853,16119,0,0,11,0,2172,2,0,10,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16138,MistyValleyDeadwindPass,Misty Valley,2853,16116,0,0,11,0,2172,0,0,39,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16139,Itharius'sCaveDeadwindPass,Itharius's Cave,2853,16116,0,0,0,0,2172,0,0,36,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16140,SplinterspearJunctionDeadwindPass,Splinterspear Junction,2853,16116,0,0,0,0,2172,0,0,36,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16141,AltarofStormsDeadwindPass,Altar of Storms,2853,16115,0,0,0,0,2172,10,0,54,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16142,TheTaintedScarDeadwindPass,The Tainted Scar,2853,16115,0,0,11,0,2172,7,0,50,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16143,DreadmaulHoldDeadwindPass,Dreadmaul Hold,2853,16115,0,0,0,0,2172,0,0,47,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16147,ElwynnForestNightmareGrove,Elwynn Forest,2832,0,0,0,11,35,2172,1,0,0,0,0,2,0,0,-1,0,0,0,64,128,0,0,0,0
+16148,DuskwoodNightmareGrove,Duskwood,2832,0,0,0,11,40,2172,2,0,0,0,0,0,0,0,-1,0,0,0,64,128,0,0,0,0
+16149,WestfallNightmareGrove,Westfall,2832,0,0,0,11,47,2172,9,0,0,0,0,2,0,0,-1,0,0,0,64,128,0,0,0,0
+16150,JerodsLandingNightmareGrove,Jerod's Landing,2832,16148,0,0,11,35,2172,0,0,8,301,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16151,ForestsEdgeNightmareGrove,Forest's Edge,2832,16148,0,0,11,35,2172,1,0,8,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16152,TheStonefieldFarmNightmareGrove,The Stonefield Farm,2832,16148,0,0,11,35,2172,1,0,6,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16153,TheMaclureVineyardsNightmareGrove,The Maclure Vineyards,2832,16148,0,0,11,35,2172,1,0,6,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16154,TowerofAzoraNightmareGrove,Tower of Azora,2832,16148,0,0,11,35,2172,1,0,8,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16155,FargodeepMineNightmareGrove,Fargodeep Mine,2832,16148,0,0,11,35,2172,1,0,5,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16156,PumpkinPatchNightmareGrove,Brackwell Pumpkin Patch,2832,16148,0,0,11,35,2172,1,0,8,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16157,TheHushedBankNightmareGrove,The Hushed Bank,2832,16148,0,0,0,0,2172,0,0,19,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16158,TheDarkenedBankNightmareGrove,The Darkened Bank,2832,16148,0,0,11,0,2172,2,0,10,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16159,AddlesSteadNightmareGrove,Addle's Stead,2832,16148,0,0,11,0,2172,2,0,24,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16160,TwilightGroveNightmareGrove,Twilight Grove,2832,16148,0,0,11,0,2172,2,0,19,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16161,DarkshireNightmareGrove,Darkshire,2832,16148,0,0,11,0,2172,2,0,25,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16162,RavenHillCemeteryNightmareGrove,Raven Hill Cemetery,2832,16148,0,0,11,0,2172,15,0,26,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16163,TheYorgenFarmsteadNightmareGrove,The Yorgen Farmstead,2832,16148,0,0,11,0,2172,2,0,25,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16164,VulGolOgreMoundNightmareGrove,Vul'Gol Ogre Mound,2832,16148,0,0,11,0,2172,214,0,28,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16165,ForlornRoweNightmareGrove,Forlorn Rowe,2832,16148,0,0,11,0,2172,2,0,0,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16166,BrightwoodGroveNightmareGrove,Brightwood Grove,2832,16148,0,0,11,0,2172,2,0,28,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16167,TheRottingOrchardNightmareGrove,The Rotting Orchard,2832,16148,0,0,11,0,2172,2,0,26,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16168,RavenHillNightmareGrove,Raven Hill,2832,16148,0,0,11,0,2172,2,0,24,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16169,AshenvaleInstance,Ashenvale,2832,0,0,0,11,48,2172,11,0,0,0,0,0,0,0,-1,0,0,0,64,128,0,0,0,0
