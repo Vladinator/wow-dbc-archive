@@ -289,7 +289,7 @@ Conjured items disappear if logged out for more than 15 minutes.",
 633,Rank 1,Heals a friendly target for an amount equal to the Paladin's maximum health.  Drains all of the Paladin's remaining mana when used.,
 635,Rank 1,Heals a friendly target for $s1.,
 639,Rank 2,Heals a friendly target for $s1.,
-642,Rank 1,"Protects the paladin from all damage and spells for $d, but increases the time between your attacks by $s2%.  Once protected, the target cannot be made invulnerable by Divine Shield, Divine Protection or Blessing of Protection again for $25771d.","Immune to all attacks and spells, but increases the time between your attacks by $s2%."
+642,Rank 1,"Protects the paladin from all damage and spells for $d, but $?s462814[reduces all damage you deal by 50%][increases the time between your attacks by $s2%].  Once protected, the target cannot be made invulnerable by Divine Shield, Divine Protection or Blessing of Protection again for $25771d.","Immune to all attacks and spells, but $?s462814[reduces all damage you deal by 50%][increases the time between your attacks by $s2%]."
 643,Rank 3,Gives $s1 additional armor to party members within $a1 yards.  Players may only have one Aura on them per Paladin at any one time.,Increases armor by $s1.
 647,Rank 3,Heals a friendly target for $s1.,
 650,Rank 1,Teaches Blood Boil (Rank 1).,
@@ -566,7 +566,7 @@ Conjured items disappear if logged out for more than 15 minutes.",
 1014,Rank 2,"Curses the target with agony, causing $o1 Shadow damage over $d.  This damage is dealt slowly at first, and builds up as the Curse reaches its full duration.  Only one Curse per Warlock can be active on any one target.",$o1 Shadow damage over $d.
 1015,Rank 2,Teaches Curse of Agony (Rank 2).,
 1017,Rank 1,Teaches Sense Demons.,
-1020,Rank 2,"Protects the paladin from all damage and spells for $d, but increases the time between your attacks by $s2%.  Once protected, the target cannot be made invulnerable by Divine Shield, Divine Protection or Blessing of Protection again for $25771d.","Immune to all attacks and spells, but increases the time between your attacks by $s2%."
+1020,Rank 2,"Protects the paladin from all damage and spells for $d, but $?s462814[reduces all damage you deal by 50%][increases the time between your attacks by $s2%].  Once protected, the target cannot be made invulnerable by Divine Shield, Divine Protection or Blessing of Protection again for $25771d.","Immune to all attacks and spells, but $?s462814[reduces all damage you deal by 50%][increases the time between your attacks by $s2%]."
 1021,Rank 2,Teaches Divine Shield (Rank 2).,
 1022,Rank 1,"A targeted party member is protected from all physical attacks for $d, but during that time they cannot attack or use physical abilities.  Players may only have one Blessing on them per Paladin at any one time.  Once protected, the target cannot be made invulnerable by Divine Shield, Divine Protection or Blessing of Protection again for $25771d.",Immune to physical attacks.  Cannot attack or use physical abilities.
 1023,Rank 1,Teaches Seal of Protection (Rank 1).,
@@ -12431,12 +12431,12 @@ Attack speed increased by $s2%."
 16893,Rank 5,Absorbs $s1 nature damage.  Lasts $d.,
 16894,Rank 4,Absorbs $s1 fire damage.  Lasts $d.,
 16895,Rank 5,Absorbs $s1 frost damage.  Lasts $d.,
-16896,Rank 1,"Increases the damage done by your Starfire, Moonfire and Wrath spells by $s1%.",
-16897,Rank 2,"Increases the damage done by your Starfire, Moonfire and Wrath spells by $s1%.",
+16896,Rank 1,"Increases the damage done by your Starfire, Moonfire and Wrath spells by $?s436895[$s3%][$s1%].",
+16897,Rank 2,"Increases the damage done by your Starfire, Moonfire and Wrath spells by $?s436895[$s3%][$s1%].",
 16898,,Burns the enemy for $o1 damage over $d.,$s1 damage every $t seconds.
-16899,Rank 3,"Increases the damage done by your Starfire, Moonfire and Wrath spells by $s1%.",
-16900,Rank 4,"Increases the damage done by your Starfire, Moonfire and Wrath spells by $s1%.",
-16901,Rank 5,"Increases the damage done by your Starfire, Moonfire and Wrath spells by $s1%.",
+16899,Rank 3,"Increases the damage done by your Starfire, Moonfire and Wrath spells by $?s436895[$s3%][$s1%].",
+16900,Rank 4,"Increases the damage done by your Starfire, Moonfire and Wrath spells by $?s436895[$s3%][$s1%].",
+16901,Rank 5,"Increases the damage done by your Starfire, Moonfire and Wrath spells by $?s436895[$s3%][$s1%].",
 16902,Rank 1,$?s436895[Increases all damage you deal by $s1%.][Increases the damage you deal with physical attacks in all forms by $s1%.],
 16903,Rank 2,$?s436895[Increases all damage you deal by $s1%.][Increases the damage you deal with physical attacks in all forms by $s1%.],
 16904,Rank 3,$?s436895[Increases all damage you deal by $s1%.][Increases the damage you deal with physical attacks in all forms by $s1%.],
@@ -23296,7 +23296,7 @@ $@spelldesc402877",
 
 $@spellicon403218
 $@spelldesc403218",
-403501,,"Unleash a ghostly soul on an enemy, dealing ${$<power>*$m1/100} to ${$<power>*$M1/100} damage, and increasing all Shadow damage over time you deal to that target by $s2%. When the Haunt ends or is dispelled, you will be healed for all the damage it dealt to your target.",Damage taken from Shadow damage over time effects from the caster increased by $s2%.
+403501,,"Unleash a ghostly soul on an enemy, dealing ${$<power>*$m1/100} to ${$<power>*$M1/100} damage, and increasing all Shadow damage over time you deal to that target by $s2% for $d. When the Haunt ends or is dispelled, you will be healed for all the damage it dealt to your target.",Damage taken from Shadow damage over time effects from the caster increased by $s2%.
 403506,,,
 403511,,"Causes your Drain Soul to to deal damage $s4 times faster and increases the amount drained by your Drain Life and Drain Soul spells by an additional $s1% for each of your Warlock Shadow effects afflicting the target, up to a maximum of ${3*$m1}% additional effect. When Drain Soul is cast on a target below $s3% health, it instead gains $s2% per effect, up to a maximum of ${$m2*3}%. In addition, your Drain Soul can now trigger your Nightfall talent.",
 403619,,"Surrounds the caster with fel energy, increasing spell damage and healing by $s3 plus additional spell damage and healing equal to $s1% of your Spirit. In addition, you regain $s2% of your maximum health every 5 sec. Only one type of Armor spell can be active on the Warlock at any time.  Lasts $d.
@@ -23659,7 +23659,7 @@ In addition, you regenerate $417051s2 rage every time you dodge while in Bear Fo
 408521,,Heals a friendly target for ${$m1/100*$<healpower>} to ${$M1/100*$<healpower>} and another ${5*$m2/100*$<healpower>} over $d.  Your Chain Heals cast on that primary target within $d will increase the amount of the Chain Heal by $s3%. This spell also triggers Ancestral Awakening.,Heals $w2 every $t2 seconds.  Increases caster's Chain Heal by $s3%.
 408524,,"Each time you Block, you regenerate mana equal to $408525s2% of your maximum mana and you gain Armor equal to $408525s1% of your shield's armor value, stacking up to $408525u times. You also always gain $s1% increased chance to Block and $s2% increased Block value.
 
-In addition, each time you use a Shock ability, you gain $460200s1 Spell Damage for each point of your defense skill beyond ${$PL*5}. Lasts $460171d.
+In addition, each time you use a Shock ability, you gain $460200s2 Spell Damage for each point of your defense skill beyond ${$PL*5}. Lasts $460171d.
 ",
 408525,,"Increases armor by $s1% of your shield's Armor value for $d, stacking up to $u times.",Armor increased by $w1.
 408531,,"While Rockbiter Weapon is active on your main hand weapon and you have a shield equipped, you deal $408680s1% increased threat, gain $408680s2% increased health, take $408680s4% reduced damage, gain $408680s5% reduced chance to be critically hit by melee attacks, and Earth Shock taunts targets to attack you and has a separate cooldown from other Shock spells but has its range reduced to melee range. However, the range of your Lightning Bolt, Chain Lightning, Chain Heal, Healing Wave, and Lava Burst spells is reduced by $408680s13 yards. ",
@@ -25217,9 +25217,9 @@ Saber Slash benefits from all talents and effects that trigger from or modify Si
 Shiv benefits from all talents and effects that trigger from or modify Sinister Strike.",
 424800,,"Instantly attack with your off-hand weapon with a 100% chance to apply the poison from your off-hand weapon to the target. Slower weapons require more energy. Awards $s2 combo $lpoint:points;.
 ",
-424919,,"Instantly strike with your off-hand weapon for normal off-hand weapon damage and increase your chance to parry by $s2% for $d or until you successfully parry. For $462752d after using Main Gauche, Sinister Strike costs $462752s1 less Energy and deals $462752s2% more threat. Awards $s3 combo $lpoint:points;.
+424919,,"Instantly strike with your off-hand weapon for normal off-hand weapon damage and increase your chance to parry by $s2% for $d or until you successfully parry. For $462752d after using Main Gauche, Sinister Strike costs $462752s1 less Energy, deals $462752s2% more threat, and both Sinister Strike and Eviscerate deal $462752s3% more damage. Awards $s3 combo $lpoint:points;.
 
-Main Gauche benefits from all talents and effects that trigger from or modify Sinister Strike.",Parry chance increased by $s2%.
+Main Gauche benefits from most talents and effects that trigger from or modify Sinister Strike. Main Gauche's effect will not discount or empower Main Gauche.",Parry chance increased by $s2%.
 424925,,"Reduces the Energy cost of your Backstab and Ambush abilities by $s1, and increases the damage they deal to non-player controlled targets by $s2%. $?s400094[Does not apply to Mutilate.][Does not apply to abilities learned from other runes.]",
 424941,,,
 424976,,,
@@ -25872,7 +25872,7 @@ These values are increased by each living Blade Master in the Far Seer's army, e
 427713,,Your Conflagrate ability also grants $427714s1% spellcasting haste for $427714d and no longer consumes Immolate.,
 427714,,,Spellcasting haste increased by $s1%.
 427715,,,
-427717,,"Shadow energy slowly destroys the target, causing ${$m1*6*$<power>/100} damage over $d. In addition, if the Unstable Affliction is dispelled it will cause ${$m1*5*$<power>/100} damage to the dispeller and silence them for $427719d. Only one Unstable Affliction or Immolate per Warlock can be active on any one target.","$w1 Shadow damage every $t1 sec.  If dispelled, will cause ${$w1*5} damage to the dispeller and silence them for $427719d."
+427717,,"Shadow energy slowly destroys the target, causing ${$m1*6*$<power>/100} damage over $d. In addition, if the Unstable Affliction is dispelled it will cause ${$m1*$m3/100*$<power>/100} damage to the dispeller and silence them for $427719d. Only one Unstable Affliction or Immolate per Warlock can be active on any one target.","$w1 Shadow damage every $t1 sec.  If dispelled, will cause ${$w1*$m3/100} damage to the dispeller and silence them for $427719d."
 427718,,,
 427719,,,Silenced.
 427725,,,
@@ -29913,7 +29913,9 @@ Healing increased by up to $s2."
 462730,Rank 6,"Garrote the enemy, causing $o1 damage over $d, increased by your Attack Power.  Must be stealthed and behind the target.  Awards $s2 combo $lpoint:points;.",$s1 damage every $t1 seconds.
 462744,,,
 462746,,+$s1 Attack Power when fighting Elementals.,
-462752,,,Sinister Strike Energy cost reduced by $s1 and threat generated increased by $s2%.
+462752,,,"Sinister Strike Energy cost reduced by $s1.
+Sinister Strike threat generated increased by $s2%.
+Sinister Strike and Eviscerate damage increased by $s3%."
 462754,,,
 462778,,,
 462779,,,
@@ -31168,13 +31170,13 @@ Time between attacks increased by $s2%."
 1213375,,Absorbs $s1 damage.  Lasts $d.,Absorbs $s1 damage.
 1213377,,,
 1213381,,,
-1213390,,Gives you $s1% chance per piece of Timeworn armor equipped to get an extra attack on regular melee or ranged hit that deals $1213381s1% weapon damage.,
+1213390,,Gives you $s1% chance per piece of Timeworn armor equipped to get an extra attack on melee or ranged hit.,
 1213393,,,
 1213395,,,
 1213397,,Increases Crusader Strike damage by $s1%.,
 1213398,,Increases the casting speed of your spells by $s1% per piece of Timeworn armor equipped.,
 1213405,,Increases the effectiveness of your healing and shielding spells by $s1% per piece of Timeworn armor equipped.,
-1213406,,"Increases the critical strike damage bonus of your Exorcism, Holy Wrath, Holy Shock, Hammer of Wrath, and Consecration by $s1%.",
+1213406,,Your basic attacks increase the damage of your next Exorcism cast within $1217927d by $1217927s1%.  Stacking up to $s1 times.,
 1213407,,Reduces the chance for your attacks to be dodged or parried by $s1% per piece of Timeworn armor equipped.,
 1213408,,,Increases stats by $s1%.
 1213410,,Your Blessing of Sanctuary also grants $1213408s1% increase to all stats when cast on yourself.,
@@ -31431,12 +31433,12 @@ Nature Resistance increased by $s3."
 1214069,,Chance on melee hit to deal $s1 Fire damage to your target.  Deals extra damage to Silithid creatures in Silithus on almost every hit.,
 1214070,,Reduces all incoming damage by $s1. ,Reduces all incoming damage by $s1.
 1214082,,,
-1214085,,Reduces the cooldown on your Chaos Bolt by $s1% and increases its damage done by $s2%.,
+1214085,,"Reduces the cooldown on your Chaos Bolt by $s1% and increases Chaos Bolt and Shadow Bolt damage done by $s2%. In addition, Chaos Bolt can now trigger your Improved Shadow Bolt talent.",
 1214086,,,
 1214087,,"Each time you hit a target with Conflagrate, you gain $1214088s1% increased Fire damage for $1214088d, stacking up to $1214088u times.",
 1214088,,,Increases all Fire damage done by $s1%.
 1214091,,Reduces the cooldown on your Shadow Cleave by ${$m1/-1000}.1 sec.,
-1214095,,You keep the benefits of your Master Demonologist talent while Demonic Sacrifice is active.,
+1214095,,"The effects of your Demonic Sacrifice now persist while you have a Demon pet active, as long as you do not resummon the sacrificed pet. You may have only one Demonic Sacrifice effect active at a time.",
 1214098,,,Reduces physical damage taken by $w1%.
 1214100,,,Increases resistance to all magic schools by $w1.
 1214101,,,Increases damage caused by $w1%.
@@ -31849,3 +31851,15 @@ Critical damage against targets in Silithus and Ahn'Qiraj increased by $s2%."
 1217520,,,
 1217545,,,
 1217711,,,
+1217927,,,Damage of your next Exorcism is increased by $s1%.
+1217948,,,
+1217949,,,
+1217950,,,
+1217951,,,
+1218134,,Attempts to remove $s1 Frenzy effect from an enemy creature.,
+1218071,,"Summon a songflower that grants all your party or raid members $s1% increased chance for a melee, ranged, or spell critical by and $s2 increased attributes by for $d. Exclusive with similar world effects. Unaffected by Chronoboons.","Increases chance for a melee, ranged, or spell critical by $s1% and all attributes by $s2."
+1218072,,"Grants all your nearby party or raid members $s1 increased attack power, $s3% increased Stamina, and $s4% increased spell critical strike chance for $d. Exclusive with similar world effects. Unaffected by Chronoboons.","Increases attack power by $s1, Stamina by $s3%, and spell critical strike chance by $s4%."
+1218073,,Grants all your party or raid members $s1% increased damage done for $d.,Increases damage by $s1%.
+1218074,,Increases hitpoints by $s1. $s2% haste to melee attacks. $s3 mana regen every 5 seconds.,Increases hitpoints by $s1. $s2% haste to melee attacks. $s3 mana regen every 5 seconds.
+1218075,,Grants all your party or raid members $s1% increased movement speed and $s3% increased stats for $d.,Increases movement speed by $s1% and all stats by $s3%.
+1218121,,"Rally your nearby party or raid members, granting them $s1% increased spell critical strike chance, $s3% increased melee and ranged critical strike chance, and $s2 increased attack power. Lasts $d. Exclusive with similar world effects and unaffected by Chronoboons.","Increases critical chance of spells by $s1%, melee and ranged by $s3% and grants $s2 attack power."
