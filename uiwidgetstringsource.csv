@@ -8287,9 +8287,6 @@ ID,Value_lang,ReqID,ParentWidgetID
 15512,Lesser Keyflame,273,5508
 15513,,208,5508
 15533,,275,5513
-15537,Eliminate gorlocs,19,5514
-15538,Time Remaining,273,5514
-15539,,208,5514
 15542,,19,5516
 15543,,273,5516
 15544,,208,5516
@@ -8480,8 +8477,6 @@ ID,Value_lang,ReqID,ParentWidgetID
 15849,Cravings,19,5616
 15850,,273,5616
 15851,,208,5616
-15890,,433,5514
-15891,,434,5514
 15902,Next Reward:,52,5637
 15903,,394,5637
 15914,250,56,5641
@@ -8703,7 +8698,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 16431,Azeroth's Vision,277,5847
 16432,You will earn |cFFFFFFFF5x|r the normal amount of Coffer Key Shards.,212,5848
 16433,Fivefold Rewards,277,5848
-16434,"The Worldsoul itself will reflexively defend itself against your presence, and death will |cFFFFFFFFimmediately remove you|r from the vision.",212,5849
+16434,"The Worldsoul will reflexively defend itself against your presence, and death will |cFFFFFFFFimmediately remove you|r from the vision.",212,5849
 16435,Mythic Challenge,277,5849
 16438,"The Rivals, now showing! Join the cast and crew!",52,5851
 16439,,394,5851
@@ -8714,9 +8709,9 @@ ID,Value_lang,ReqID,ParentWidgetID
 16457,|TInterface\Icons\INV_Misc_Bone_HumanSkull_02:14:14:2:0|t  %448783as |4Kill:Kills;,584,5858
 16458,,585,5858
 16459,,598,5858
-16465,|TInterface\Icons\INV_Misc_Coin_01:14:14:2:0|t  %3011c Plunder (2x Reputation),584,5673
+16465,|TInterface\Icons\INV_Misc_Coin_01:14:14:2:0|t  %3011c Plunder,584,5673
 16466,,585,5673
-16467,Total Plunder earned this match. Awarded when your crew is eliminated or victorious. Reputation is doubled during the Plundersurge!,598,5673
+16467,Total Plunder earned this match. Awarded when your crew is eliminated or victorious.,598,5673
 16468,You will be granted visions of Azeroth's memories for 5 minutes.,212,5861
 16469,Azeroth's Vision,277,5861
 16470,Ancient Explorers,52,5862
@@ -8943,6 +8938,9 @@ ID,Value_lang,ReqID,ParentWidgetID
 16898,Time until current sale ends:,19,6046
 16899,,273,6046
 16900,,208,6046
+16903,Activate Event,19,6048
+16904,Contribute to fund the event,208,6048
+16905,,273,6048
 16906,,204,6049
 16907,,205,6049
 16908,,204,6050
@@ -8965,6 +8963,9 @@ ID,Value_lang,ReqID,ParentWidgetID
 16925,,205,6059
 16926,,204,6060
 16927,,205,6060
+16928,,621,6061
+16929,,622,6061
+16930,,627,6061
 16931,,204,6062
 16932,,205,6062
 16947,%25810w/%26669w Players Ready,52,6065
@@ -9348,10 +9349,25 @@ ID,Value_lang,ReqID,ParentWidgetID
 17543,"Contains materials for upgrading gear, gold, and more.",627,6277
 17544,Talk to Speaker Kuldas every fifth wave to continue the ritual or return to Gundargaz.,52,6278
 17545,,394,6278
+17546,Explosives,19,6279
+17547,,273,6279
+17548,,208,6279
+17555,Excavation,19,6282
+17556,,273,6282
+17557,,208,6282
 17558,Locate Executor Nizrek.,52,6283
 17559,Locate Executor Nizrek.,394,6283
+17560,Bombardment,19,6284
+17561,,273,6284
+17562,,208,6284
 17573,Return to the Dawnbreaker.,52,6290
 17574,Return to the Dawnbreaker.,394,6290
+17584,Activate Event,19,6294
+17585,Contribute to fund the event,208,6294
+17586,,273,6294
+17590,Activate Event,19,6296
+17591,Contribute to fund the event,208,6296
+17592,,273,6296
 17609,,19,6064
 17610,,273,6064
 17611,,208,6064
@@ -9374,6 +9390,45 @@ ID,Value_lang,ReqID,ParentWidgetID
 17712,,394,6312
 17713,|TInterface/RAIDFRAME/ReadyCheck-Ready.blp:27|t,52,6313
 17714,,394,6313
+17732,Cave opens: %27007xa,52,6314
+17733,,394,6314
+17734,Goblin workers are preparing to open this cave.,52,6316
+17735,,394,6316
+17736,|nWeekly Reward:,52,6317
+17737,,394,6317
+17738,,621,6318
+17739,,622,6318
+17740,A powerful gem to socket into Cyrce's Circlet.,627,6318
+17741,Cave opens: %27008xa,52,6319
+17742,,394,6319
+17743,Cave opens: %27009xa,52,6320
+17744,,394,6320
+17745,Arathi airship is bombarding the cave entrance.,52,6321
+17746,,394,6321
+17747,Kobold workers are excavating the cave entrance.,52,6322
+17748,,394,6322
+17752,|nWeekly Reward:,52,6323
+17753,,394,6323
+17757,|nWeekly Reward:,52,6324
+17758,,394,6324
+17759,,621,6325
+17760,,622,6325
+17761,A powerful gem to socket into Cyrce's Circlet.,627,6325
+17762,,621,6326
+17763,,622,6326
+17764,A powerful gem to socket into Cyrce's Circlet.,627,6326
+17765,-0/1 Gravesludge slain,52,6327
+17766,,394,6327
+17767,- 0/1 Stalagnarok slain,52,6328
+17768,,394,6328
+17769,- 0/1 Nerathor slain,52,6329
+17770,,394,6329
+17775,Enter the cave and defeat the threats within.,52,6331
+17776,,394,6331
+17777,Enter the cave and defeat the threats within.,52,6332
+17778,,394,6332
+17779,Enter the cave and defeat the threats within.,52,6333
+17780,,394,6333
 17869,,708,6334
 17870,,709,6334
 17871,,710,6334
@@ -9385,6 +9440,12 @@ ID,Value_lang,ReqID,ParentWidgetID
 17877,,679,6334
 17878,,680,6334
 17879,,681,6334
+17880,,621,6335
+17881,,622,6335
+17882,,627,6335
+17883,,621,6336
+17884,,622,6336
+17885,,627,6336
 17886,|cnHIGHLIGHT_FONT_COLOR:Next Event:|r Mount Mania,52,6337
 17887,Show off the mounts you've collected. Starting in less than 15 minutes.,394,6337
 17888,|cnHIGHLIGHT_FONT_COLOR:Next Event:|r Mount Mania,52,6338
@@ -9403,14 +9464,89 @@ ID,Value_lang,ReqID,ParentWidgetID
 17901,Show off your finest looks based on a surprise theme at the Fashion Frenzy. Starting in less than 5 minutes.,394,6344
 17902,|cnHIGHLIGHT_FONT_COLOR:Active Event:|r Fashion Frenzy,52,6345
 17903,Show off your finest looks based on a surprise theme at the Fashion Frenzy.,394,6345
+17904,Event Complete,19,6346
+17905,Not Available,208,6346
+17906,,273,6346
+17907,Event Complete,19,6347
+17908,Not Available,208,6347
+17909,,273,6347
+17910,Event Complete,19,6348
+17911,Not Available,208,6348
+17912,,273,6348
 17913,|cnHIGHLIGHT_FONT_COLOR:Mount:|r %27301w / %27300w,52,6349
 17914,,394,6349
 17915,Mount Count,19,6350
 17916,,273,6350
 17917,,208,6350
+17926,,621,6354
+17927,,622,6354
+17928,A powerful gem to socket into Cyrce's Circlet.,627,6354
+17929,,621,6355
+17930,,622,6355
+17931,A powerful gem to socket into Cyrce's Circlet.,627,6355
+17932,,621,6356
+17933,,622,6356
+17934,A powerful gem to socket into Cyrce's Circlet.,627,6356
+17935,,621,6357
+17936,,622,6357
+17937,Seafarers alike have scoured the sea for treasures beyond their years.,627,6357
+17938,,621,6358
+17939,,622,6358
+17940,Seafarers alike have scoured the sea for treasures beyond their years.,627,6358
+17941,,621,6359
+17942,,622,6359
+17943,A powerful gem to socket into Cyrce's Circlet.,627,6359
+17944,,621,6360
+17945,,622,6360
+17946,A powerful gem to socket into Cyrce's Circlet.,627,6360
+17947,,621,6361
+17948,,622,6361
+17949,Seafarers alike have scoured the sea for treasures beyond their years.,627,6361
+17950,,621,6362
+17951,,622,6362
+17952,,627,6362
+17953,,621,6363
+17954,,622,6363
+17955,,627,6363
+17956,,621,6364
+17957,,622,6364
+17958,,627,6364
 17959,%2640fn,584,6365
 17960,Complete bountiful delves on tier 4 difficulty or higher to increase Brann's power in combat during the season.|n|nCurrent Progress: |cnWHITE_FONT_COLOR:%40859e/%40860e|r,585,6365
 17961,,598,6365
+17962,,621,6372
+17963,,622,6372
+17964,A powerful gem to socket into Cyrce's Circlet.,627,6372
+17965,,621,6373
+17966,,622,6373
+17967,,627,6373
+17968,,621,6374
+17969,,622,6374
+17970,,627,6374
+17971,,621,6375
+17972,,622,6375
+17973,,627,6375
+17974,,621,6376
+17975,,622,6376
+17976,,627,6376
+17977,,621,6377
+17978,,622,6377
+17979,,627,6377
+17980,,621,6378
+17981,,622,6378
+17982,,627,6378
+17983,Charges Remaining,19,6379
+17984,,273,6379
+17985,,208,6379
+17986,Charges Remaining,19,6380
+17987,,273,6380
+17988,,208,6380
+17989,Charges Remaining,19,6381
+17990,,273,6381
+17991,,208,6381
+17992,Charges Remaining,19,6382
+17993,,273,6382
+17994,,208,6382
 18013,,19,6577
 18014,%2605fn,273,6577
 18015,Current reputation with the General.,208,6577
@@ -9420,3 +9556,24 @@ ID,Value_lang,ReqID,ParentWidgetID
 18019,,19,6579
 18020,%2601fn,273,6579
 18021,Current reputation with the Weaver.,208,6579
+18046,Complete Serpent's Wrath to unlock.,52,6593
+18047,,394,6593
+18048,,621,6594
+18049,,622,6594
+18050,,627,6594
+18051,Rewards:,52,6595
+18052,,394,6595
+18056,Time Left: %26672ht,52,6597
+18057,,394,6597
+18058,Complete Tides of Greed to unlock.,52,6598
+18059,,394,6598
+18060,Complete Legacy of the Vrykul to unlock.,52,6599
+18061,,394,6599
+18089,Return to Khadgar in:,19,6610
+18090,,273,6610
+18091,,208,6610
+18164,|TInterface\Icons\INV_Misc_Coin_01:14:14:2:0|t  %3011c Plunder (1.%27601wx),584,6638
+18165,,585,6638
+18166,Total Plunder earned this match. Awarded when your crew is eliminated or victorious. Plunder awarded is increased during the Plundersurge.,598,6638
+18304,%0ss,433,6682
+18305,,434,6682
