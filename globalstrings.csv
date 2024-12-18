@@ -9011,7 +9011,7 @@ ID,BaseTag,TagText_lang,Flags
 20871,ERR_BN_BROADCAST_THROTTLE,Please wait a few seconds before updating your broadcast message again.,3
 20872,INTERNAL_STRING_ERROR,Internal String Error %d,1
 20873,BLOCK_INVITES_TOOLTIP,Remove this invite and block further invitations from this player.,1
-20875,RID_FRIEND_REQUEST_INFO,This should be a person you know and trust in real life. You will be able to chat with them no matter which Blizzard game you are playing. If you accept their friend request your real name will be displayed to all of their friends.,1
+20875,RID_FRIEND_REQUEST_INFO,This should be a person you know and trust in real life. You will be able to chat with them no matter which Blizzard game you are playing. If you accept their friend request your real name will be displayed to all of their friends.,3
 20877,SPELL_FAILED_WEIGHT_NOT_ENOUGH,You have not provided enough items to cast this spell,1
 20878,SPELL_FAILED_WEIGHT_TOO_MUCH,You have provided too many items to cast this spell,1
 20879,BN_BROADCAST_TOOLTIP,Send a Broadcast message to your Real ID and BattleTag friends.,3
@@ -18168,7 +18168,7 @@ You can find trainers for them in some settlements and cities.",1
 41834,ERR_ACCOUNT_SILENCED,Can't do that while your account is silenced,1
 41836,CLUB_FINDER_LOOKING_FOR_CLASS_SPEC_WITH_ROLE,%s|t %s %s,1
 41837,QUEST_SESSION_HELP_TEXT_WAITING,Waiting on party members...,1
-41838,VISITABLE_URL49,https://worldofwarcraft.com/%s/game/recruit-a-friend,3
+41838,VISITABLE_URL49,https://worldofwarcraft.com/game/recruit-a-friend,3
 41839,CLUB_FINDER_NEW_APPLICANT_TUTORIAL,You have a new applicant. Click here to view the applicant now.,1
 41840,CLUB_FINDER_NEW_FEATURE_TUTORIAL,New Guild and Community Finder. Click here to check it out!,1
 41841,CLUB_FINDER_TUTORIAL_ROSTER,Review Applicants from the roster page.|nLook for the orange diamond.,1
@@ -19069,7 +19069,7 @@ You can find trainers for them in some settlements and cities.",1
 42878,COVENANT_MISSIONS_COVENANT_ADVENTURE,Covenant Adventure,1
 42879,CHAT_LEAVE_CHANNEL_PREVENTED,Unable to manually leave chat channel: %s,1
 42880,VISITABLE_URL50,https://%s.battle.net/support/%s/help/home,2
-42881,VISITABLE_URL51,https://support-qa-%s.stech.blizzard.net/%s/help/home,2
+42881,VISITABLE_URL51,https://support-%s.stech.blizzard.net/%s/help/home,2
 42882,MAC_INPUT_MONITORING1014,"For Push to Talk to work when World of Warcraft is not in focus, you must grant ""Accessibility"" permission to %s in Security & Privacy preferences, located in System Preferences. Would you like to open System Preferences now?",3
 42883,MAC_INPUT_MONITORING1015,"For Push to Talk to work when World of Warcraft is not in focus, you must grant ""Input Monitoring"" permission to %s in Security & Privacy preferences, located in System Preferences. Would you like to open System Preferences now?",3
 42884,BINDING_NAME_CENTERCAMERA,Center Camera,1
@@ -20101,7 +20101,7 @@ You can find trainers for them in some settlements and cities.",1
 48704,TRAVEL_PASS_INVITE_CROSS_FACTION,Invite to Instance Group,1
 48705,SUGGEST_INVITE_CROSS_FACTION,Suggest Invite to Instance Group,1
 48706,REQUEST_INVITE_CROSS_FACTION,Request Invite to Instance Group,1
-48707,CROSS_FACTION_INVITE_TOOLTIP,You can group with this %s player and do many instanced activities together.\n\n|cffffffffCan do:|r\n- Dungeons (non-queued)\n- Raids (non-queued)\n- Rated PvP\n- Torghast\n\n|cffffffffCan't do:|r\n- Outdoor content,1
+48707,CROSS_FACTION_INVITE_TOOLTIP,You can group with this %s player and do many instanced activities together.\n\n|cffffffffCan do:|r\n- Dungeons (premade groups)\n- Raids (non-queued)\n- Unrated and Rated PvP\n- Torghast\n\n|cffffffffCan't do:|r\n- Outdoor content,1
 48708,CROSS_FACTION_INVITE_HELPTIP,You can invite friends from the opposite faction to do instanced content together,3
 48709,ERR_TRAVEL_PASS_QUEST_SESSION,Turn off Party Sync to invite this player,1
 48710,SPELL_FAILED_CUSTOM_ERROR_636,Requires more Syllabic Recall.,1
@@ -20113,7 +20113,7 @@ You can find trainers for them in some settlements and cities.",1
 48719,CROSS_FACTION_PLAYER_NAME,|W%s (%s)|w,1
 48720,REWARD_QUEST,This quest line will unlock:,1
 48721,DUNGEON_SCORE_LINK_PREVIOUS_HIGH,Previous High: %s |cff808080(Season %d),1
-48722,ERR_CROSS_FACTION_GROUP_JOINED,"This is now a cross-faction instance group. You can do these activities together: dungeons and raids (non-queued), Torghast, Rated PvP",1
+48722,ERR_CROSS_FACTION_GROUP_JOINED,"This is now a cross-faction instance group. You can do these activities together: dungeons (premade groups), raids (non-queued), Torghast, Unrated and Rated PvP",1
 48723,ERR_TRADE_FACTION_SPECIFIC,You can't trade a faction specific item to the opposing faction,1
 48724,ERR_SOLO_JOIN_BATTLEGROUND_SPEC_S,You have joined the queue for %s as %s.,1
 48725,QUEST_SESSION_TOOLTIP_START_SESSION_NOT_IN_CROSS_FACTION_PARTY,Can't do this in a cross faction group,1
@@ -20181,11 +20181,11 @@ You can find trainers for them in some settlements and cities.",1
 48792,ANTIALIASING_CMAA2,CMAA 2,3
 48793,COMMUNITIES_EDIT_DIALOG_CROSS_FACTION,Cross-Faction,1
 48794,PURCHASE_UNIQUE_AUCTION_CONFIRMATION,"|cffffd200This item is ""%s""|n|nYou can only equip one item with this label at a time.|r",1
-48795,CROSS_FACTION_RAID_DUNGEON_FINDER_ERROR,Can't do this in a cross-faction group. You can do non-queued dungeons and raids.,1
-48796,CROSS_FACTION_PVP_ERROR,Can't do this in a cross-faction group. You can do rated arenas and rated battlegrounds.,1
+48795,CROSS_FACTION_RAID_DUNGEON_FINDER_ERROR,Can't do this in a cross-faction group. You can do non-queued raids.,1
+48796,CROSS_FACTION_PVP_ERROR,Can't do this in a cross-faction group.,1
 48797,COMMUNITY_MEMBER_CHARACTER_INFO_FACTION_FORMAT,Level %d %s %s (%s),1
 48798,ERR_LFG_FARM_LIMIT,You or someone in your party has entered too many instances recently. Please wait awhile and try again.,1
-48799,COMMUNITIES_CROSS_FACTION_BUTTON_TOOLTIP,You can group with this %s player and do many instanced activities together.|n|cffffffffCan do:|r|n-Dungeons (non-queued)|n-Raids (non-queued)|n-Rated PvP|n-Torghast|n|cffffffffCan't do:|r|n- Outdoor Content,1
+48799,COMMUNITIES_CROSS_FACTION_BUTTON_TOOLTIP,You can group with this %s player and do many instanced activities together.|n|cffffffffCan do:|r|n-Dungeons (premade groups)|n-Raids (non-queued)|n-Unrated and Rated PvP|n-Torghast|n|cffffffffCan't do:|r|n- Outdoor Content,1
 48800,COMMUNITIES_CROSS_FACTION_BUTTON_TOOLTIP_TITLE,%s Player,1
 48801,ERROR_CLUB_DOESNT_ALLOW_CROSS_FACTION,"Player is wrong faction. Enable ""Cross-Faction"" in community settings.",1
 48802,COMMUNITIES_SETTING_CROSS_FACTION_TOOLTIP,Lets you invite members of the other faction.,1
@@ -22033,9 +22033,9 @@ And spread his flame to all Azeroth.",1
 51577,ACCOUNT_BANK_TAB_NAME_PROMPT,Enter Warband Bank Tab Name:,1
 51579,COLOR_PICKER_HEX,Hex,1
 51582,ERR_GUILD_NEW_LEADER_NOT_ALLIED,Players from the opposite faction can't be promoted to guild leader.,1
-51583,FRONT_END_LOBBY_SOLO,Solo,2
-51584,FRONT_END_LOBBY_DUO,Duo,2
-51585,FRONT_END_LOBBY_TRIOS,Trios,2
+51583,FRONT_END_LOBBY_SOLO,Solo,3
+51584,FRONT_END_LOBBY_DUO,Duo,3
+51585,FRONT_END_LOBBY_TRIOS,Trios,3
 51588,BANK_DEPOSIT_INCLUDE_REAGENTS_CHECKBOX_LABEL,Include tradeable reagents,1
 51589,ACCOUNT_BANK_LOCKED_PROMPT,The bank is being used by another member of your Warband.,1
 51590,WOWLABS_CUSTOMIZE_CHARACTER,Customize Character,3
@@ -22044,7 +22044,7 @@ And spread his flame to all Azeroth.",1
 51595,ACCOUNT_BANK_TAB_NOT_UNLOCKED,The bank tab is locked.,1
 51596,BANK_TAB_INVALID_NAME,Bank tab name is invalid.,1
 51597,BANK_TAB_INVALID_TEXT,Bank tab description is invalid.,1
-51598,FRONT_END_LOBBY_QUEUE_TIME,Time in Queue: %s,2
+51598,FRONT_END_LOBBY_QUEUE_TIME,Time in Queue: %s,3
 51601,ACCOUNT_PARAGON_REWARD_ERR_MISSING_LOCK,This reward can only be collected by the first character in your Warband to be logged in.,1
 51602,MOTION_SICKNESS_DRAGONRIDING_SCREEN_EFFECTS,Skyriding Screen Effects,1
 51603,MOTION_SICKNESS_DRAGONRIDING_SCREEN_EFFECTS_TOOLTIP,Disabling screen effects may help with motion sickness.,1
@@ -22213,8 +22213,8 @@ And spread his flame to all Azeroth.",1
 51806,WOWLABS_FIND_GAME_TRIO,Finding Trios Game,3
 51807,WOW_LABS_STAY,Stay,1
 51808,WOW_LABS_CONFIRM_LEAVE_MATCH,You can still be resurrected by your teammate.|n|nAre you sure you want to leave the match?,1
-51809,FRONT_END_LOBBY_SOLOS,Solos,2
-51810,FRONT_END_LOBBY_DUOS,Duos,2
+51809,FRONT_END_LOBBY_SOLOS,Solos,3
+51810,FRONT_END_LOBBY_DUOS,Duos,3
 51811,INSIGNIFICANT_QUEST_DISPLAY,%s (%s),1
 51812,ACCOUNT_COMPLETED_QUEST_LABEL,Warband completed,1
 51813,TRIVIAL_QUEST_LABEL,low level,1
@@ -22241,7 +22241,9 @@ And spread his flame to all Azeroth.",1
 
 |cffffffff3.|r Upgrade spells by looting more copies of them.
 
-|cffffffff4.|r Use your heal ability when low on health.",3
+|cffffffff4.|r Use your heal ability when low on health.
+
+|cffffffff5.|r Spend your Plunder in the Plunderstore to unlock rewards.",3
 51834,SPELL_FAILED_CUSTOM_ERROR_1029,Requires Skyriding,1
 51835,CHARACTER_SELECT_PROFESSIONS,"%1$s, %2$s",2
 51836,WOWLABS_RENOWN_PREVIEW_BODY_FORMAT,Complete quests and collect Plunder to unlock rewards. Visit Da'kash Grimledger in the waiting area.|n|n|cff00ff00Next Reward at Level %d:|r,3
@@ -22270,7 +22272,7 @@ And spread his flame to all Azeroth.",1
 51864,CHARACTER_SELECT_LIST_GROUP_HEADER,Favorites,2
 51865,SPELL_FAILED_CUSTOM_ERROR_1009,You already have some mulch prepared. Use your current mulch first.,1
 51866,PLUNDERSTORM_LIFETIME_PLUNDER_TOOLTIP,Total Plunder Collected,3
-51867,LIMITED_TIME_EVENT,LIMITED TIME|nEVENT,3
+51867,LIMITED_TIME_EVENT,LIMITED TIME EVENT,3
 51868,WOW_LABS_PRESENCE_GAME_MODE_BATTLE_ROYAL,Plunderstorm,1
 51870,PLUNDERSTORM_INTERACT_REMINDER_TEXT,Interact,1
 51878,SPELL_FAILED_CUSTOM_ERROR_1026,You cannot swap spells on cooldown while in combat.,1
@@ -22424,7 +22426,7 @@ And spread his flame to all Azeroth.",1
 52089,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_DISABLED,Not enough %s,1
 52090,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_ON_DESC,Apply %d concentration to guarantee the next quality for this recipe.,1
 52092,PROFESSIONS_CRAFTING_CONCENTRATION_TOGGLE_OFF_DESC,Remove %d concentration from this recipe.,1
-52093,PROFESSIONS_CRAFTING_CONCENTRATION_CURRENCY_TOOLTIP,Concentration can be used to guarantee higher quality when crafting. Concentration slowly regenerates and is partly refunded when a craft triggers your Ingenuity.,1
+52093,PROFESSIONS_CRAFTING_CONCENTRATION_CURRENCY_TOOLTIP,Concentration can be used to guarantee higher quality when crafting. Concentration regenerates 250 points over each day and is partly refunded when a craft triggers your Ingenuity.,1
 52094,PROFESSIONS_CRAFTING_CONCENTRATION_CURRENCY_TOOLTIP_WARNING,Concentration is full.,1
 52095,SPELL_FAILED_CUSTOM_ERROR_1039,Can only be used while in combat.,1
 52096,SPELL_FAILED_CUSTOM_ERROR_1040,You are not high enough level to enter a Delve.,1
@@ -22603,6 +22605,7 @@ And spread his flame to all Azeroth.",1
 52280,ERR_CURRENCY_TRANSFER_INVALID_CURRENCY,This currency is not Warband Transferable.,1
 52281,ERR_CURRENCY_TRANSFER_NO_VALID_SOURCE,Your Warband does not have enough of this currency to transfer to you.,1
 52282,ERR_CURRENCY_TRANSFER_SERVER_ERROR,An error has occurred. Please try again.,1
+52284,SPELL_FAILED_CUSTOM_ERROR_1052,You have no Blacksteel Cannonballs.,1
 52285,RPE_GEAR_UPDATE_CHARACTER,Character:,2
 52286,RPE_GEAR_UPDATE_SELECT_SPEC,Choose your specialization:,2
 52287,PLAYER_CHOICE_NOTORIETYPACT_CONFIRMATION,This choice will affect all characters in your Warband. |n|n|cffffd200Continue?|r,1
@@ -22740,6 +22743,7 @@ Items from the event have been removed.
 52434,SETTINGS_TRIVIAL_QUEST_FILTER,Show Low-Level Quests,1
 52435,QUEST_SETTINGS_LABEL,Quests,1
 52436,ERR_VOID_STORAGE_ACCOUNT_ITEM,You cannot deposit items into void storage from the Warband Bank.,1
+52437,11_0_7_kirintor_bomb,Realign Mana Bomb Matrix,1
 52438,WOW_ERROR_500,Data conversion for your Warband has failed. Please re-login to your account to try again.,2
 52439,ERR_GUILD_NEW_LEADER_WRONG_REALM,Players from other realms can't be promoted to guild leader.,1
 52440,PROFESSIONS_CRAFTING_ORDER_REWARDS,Rewards:,1
@@ -22766,26 +22770,126 @@ Items from the event have been removed.
 52462,SPELL_FAILED_CUSTOM_ERROR_2425,Earthen cannot consume traditional food or drink.,1
 52463,DELVES_PARTY_MEMBER_INELIGIBLE_FOR_TIER_TOOLTIP,%s has not unlocked this tier,1
 52464,SPELL_FAILED_CUSTOM_ERROR_1054,That can't be used here.,1
+52466,POWER_SHREDDER_FUEL,Shredder Fuel,1
 52467,OPTION_TOOLTIP_DISABLE_CHAT_ACCOUNT_MUTE,"To change this, you must first go to your Battle.net Account settings and make sure that: \n- Privacy & Communication -> Text Chat is enabled \n- Parental Controls -> Account Mute is disabled",1
+52473,PLUNDERSTORM_INTERACT_SWAP_REMINDER_TEXT,Swap,1
+52474,PLUNDERSTORM_INTERACT_PICK_UP_REMINDER_TEXT,Pick Up,1
+52475,PLUNDERSTORM_INTERACT_ASSIGN_REMINDER_TEXT,Assign to [%s],1
 52477,ERR_WARBAND_HEARTHSTONE,You are not yet eligible to use this item.,1
 52478,ACCOUNT_BANK_DEPOSIT_ALL_NO_REFUND_CONFIRM,You are about to deposit refundable items into the bank.|n|n|cnRED_FONT_COLOR:All warbound items will have their refund timers removed.|r|n|nWould you like to continue?,1
 52479,SPELL_FAILED_HEARTHSTONE,You are not yet eligible to use this item.,1
 52480,SPELL_FAILED_CUSTOM_ERROR_1056,You are not yet eligible to use this item.,1
-52481,CONFIRM_POPUP_DONT_SHOW_AGAIN,Don't show this again,1
+52481,CONFIRM_POPUP_DONT_SHOW_AGAIN,Don't show this again,3
 52482,CURRENCY_TRANSFER_MAX_QUANTITY_BUTTON,Max,1
 52484,ERR_CURRENCY_TRANSFER_TRANSACTION_IN_PROGRESS,That character already has a transaction in progress.,1
 52485,TOGGLE_VISIBILITY_TOOLTIP,Toggle User Interface Visibility,2
+52486,ERR_SOCKETING_REQUIRES_SINGING_THUNDER_GEM,That slot requires a Singing Thunder gem.,1
+52487,ERR_SOCKETING_REQUIRES_SINGING_SEA_GEM,That slot requires a Singing Sea gem.,1
+52488,ERR_SOCKETING_REQUIRES_SINGING_WIND_GEM,That slot requires a Singing Wind gem.,1
+52489,ERR_SOCKETING_SINGINGTHUNDER_GEM_ONLY_IN_SINGINGTHUNDERSLOT,Singing Thunder gems can only be placed in Singing Thunder sockets.,1
+52490,ERR_SOCKETING_SINGINGSEA_GEM_ONLY_IN_SINGINGSEASLOT,Singing Sea gems can only be placed in Singing Sea sockets.,1
+52491,ERR_SOCKETING_SINGINGWIND_GEM_ONLY_IN_SINGINGWINDSLOT,Singing Wind gems can only be placed in Singing Wind sockets.,1
 52501,ERR_GUILD_BANK_REALM_MISMATCH,"Cannot deposit, withdraw or combine split stack items from different realms.",1
 52503,MAP_TOOLTIP_TIME_LEFT,Time Left: %s,1
 52504,TOKEN_REMOVE_FROM_BACKPACK_INSTRUCTION,<Shift click to untrack>,1
 52517,SPELL_FAILED_CUSTOM_ERROR_1057,Lighting the Shadowforge Brazier requires a Shadowforge Torch.,1
 52518,SPELL_FAILED_CUSTOM_ERROR_1058,This Shadowforge Brazier is already burning.,1
 52539,CHARACTER_SELECT_LEVEL_TOOLTIP,Level %d,2
+52545,EMPTY_SOCKET_SINGINGTHUNDER,Singing Thunder Socket,1
+52546,EMPTY_SOCKET_SINGINGSEA,Singing Sea Socket,1
+52547,EMPTY_SOCKET_SINGINGWIND,Singing Wind Socket,1
+52550,NAVIGATION_DESTINATION_REACHED_MESSAGE,Reached destination,1
+52551,WOW_LABS_MATCH_DETAILS_STANDING,Standing,1
+52552,WOW_LABS_MATCH_DETAILS_KILLS,Kills,1
+52553,WOW_LABS_MATCH_DETAILS_TOTAL_PLUNDER,Total Plunder,1
+52554,WOW_LABS_RETURN_TO_MATCH_DETAILS,Back to Stats,1
+52555,WOW_LABS_MATCH_COMPLETE,MATCH COMPLETE,1
+52556,WOW_LABS_MATCH_COMPLETE_SUBTITLE,Play again to earn more Plunder!,1
+52557,WOW_LABS_GO_AGAIN,Go Again!,1
+52558,WOW_LABS_ACCOUNT_STORE,Plunderstore,1
+52572,DELVES_SEASON_PROGRESS,Season progress: |cffffd200%s/%s|r,1
+52573,DELVES_SEASON_REWARD_PROGRESS,To next reward: |cffffd200%s|r,1
+52593,REPORTING_MINOR_CATEGORY_DISRUPTION,Disruption,5
+52596,NPEV2_CHAT_BATCH_JOIN_MESSAGE,%u new players have joined in the last %u minutes! Don't forget to ask if you have any questions.,1
 52604,CHAR_CREATE_NEW_PLAYER_RESTRICTED_RACE,Reach Level 10 to unlock this race,2
 52605,PLAYER_DIFFICULTY_STORY_RAID,Raid Story,1
+52606,PLUNDERSTORM_INTERACT_UPGRADE_REMINDER_TEXT,Upgrade,1
 52607,GREAT_VAULT_REWARDS_RAID_INCOMPLETE,Defeat %d %s |4Boss:Bosses; this week to unlock this reward.|n|nThe item level of this reward will be based on the difficulty of the raid.,1
 52608,GREAT_VAULT_REWARDS_RAID_INPROGRESS,Defeat %d more |4Boss:Bosses; this week to unlock this reward.|n|nThe item level of this reward will be based on the difficulty of the raid.,1
 52609,CURRENCY_FILTER_TYPE_CHARACTER,%s Only,1
 52610,CURRENCY_FILTER_TYPE_TRANSFERABLE,All Warband Transferable,1
 52611,CURRENCY_FILTER_TYPE_TRANSFERABLE_TOOLTIP,Include currencies owned by other members of your Warband,1
+52612,WOW_LABS_REQUEUE,Go Again!,1
+52613,TRAINING_LOBBY_QUEUE_TITLE,Join Match,1
+52614,WOW_LABS_QUEUE_SELECT,Queue Select,1
+52615,FRONT_END_LOBBY_PRACTICE,Practice,3
+52616,PLUNDERSTORM_PLUNDER_STORE_TITLE,Plunderstore,3
+52617,PLUNDERSTORE_PURCHASE_CONFIRMATION_FORMAT,Are you sure you want to purchase %s for %s?,3
+52618,PLUNDERSTORE_REFUND_BUTTON_TEXT,Refund,3
+52619,PLUNDERSTORE_REFUNDABLE_TOOLTIP,Click to refund,3
+52620,PLUNDERSTORE_ALREADY_OWNED_TOOLTIP,Already owned,3
+52621,PLUNDERSTORE_INSUFFICIENT_FUNDS_TOOLTIP,Acquire more Plunder to purchase,3
+52622,PERKS_PROGRAM_SALE_PERCENT,-%d%%,1
+52637,FPS_COUNTER_GPU_BOUND,%.1f GPU Bound,1
+52638,FPS_COUNTER_CPU_BOUND,%.1f CPU Bound,1
+52640,WOW_LABS_START_QUEUE,Start Queue,1
+52641,ERR_ACCOUNT_MONEY_LOCKED,You cannot withdraw or deposit gold from the warband bank currently; please try again later.,1
+52642,PING_TYPE_THREAT,Threat,1
+52643,PING_TYPE_NOT_THREAT,Look,1
+52652,CHAT_TAB_RIGHT_CLICK,<Right click for Tab Settings>,1
+52653,CHAT_TAB_NAME,%s Tab,1
+52654,UNIT_POPUP_RIGHT_CLICK,<Right click for Frame Settings>,1
+52656,PROFESSIONS_BLACKSMITHING_DRAGONFLIGHT_HAMMER_REPAIR,The Master's Hammer can only repair Dragonflight equipment.,1
+52661,ACCOUNT_STORE_REFUND_TEXT_FORMAT,Time left to refund: |cffffffff%s|r,3
+52662,ACCOUNT_STORE_REFUND_CONFIRMATION_FORMAT,Are you sure you want to refund %s for %s?,3
+52667,PLUNDER_DISPLAY_LABEL,Plunder,3
+52668,WOWLABS_MODE_NAV_BUTTON,MODE,2
+52669,WOWLABS_NO_GAME_MODES_FOUND,New Game Modes Coming Soon!,2
+52670,WOWLABS_PLUNDERSTORE_NAV_LABEL,PLUNDERSTORE,2
+52691,ACCOUNT_STORE_PAGE_WIDGET_FORMAT,Page %d / %d,3
+52695,WOW_LABS_MATCH_WON,YOU WON!,1
+52696,WOW_LABS_MATCH_LOST,YOU PLACED #%d,1
+52699,ACCOUNT_STORE_NONREFUNDABLE_TOOLTIP,This item is nonrefundable.,3
+52710,WOW_LABS_PLUNDER_HEADER,Plunder,1
+52711,WOW_LABS_PLUNDER_LFG_DESC,Collect Plunder and shop for rewards in the Plunderstore!,1
+52712,WOW_LABS_PLUNDERSTORM_CATEGORY,Plunderstorm,1
+52716,CROSS_FACTION_RAID_DUNGEON_FINDER_NOT_ENOUGH_MEMBERS_ERROR,You don't have enough members to queue as a cross-faction group.,1
+52717,MAJOR_FACTION_BUTTON_TOOLTIP_OPEN_MAP,<Right Click to view on map>,1
+52720,ERR_PLUNDERSTORM_CANNOT_QUEUE,You can't queue for Plunderstorm right now.,1
+52721,ERR_QUEUED_PLUNDERSTORM,You are now queued for Plunderstorm.,1
+52722,PLUNDERSTORM_QUEUE_TOOLTIP_ERROR,You can't queue for Plunderstorm while in other queues.,1
+52723,PLUNDERSTORM_LOGOUT_TEXT,%d seconds until logout for Plunderstorm,1
+52724,CONQUEST_BRACKET_NAME_2V2,2v2 Arena,1
+52725,CONQUEST_BRACKET_NAME_3V3,3v3 Arenas,1
+52726,CONQUEST_BRACKET_NAME_RBG,Rated Battlegrounds,1
+52727,CONQUEST_BRACKET_NAME_SOLO_SHUFFLE,Rated Solo Shuffle,1
+52728,CONQUEST_BRACKET_NAME_BATTLEGROUND_BLITZ,Rated Battleground Blitz,1
+52729,PLUNDERSTORM_CUSTOMIZE_BUTTON_TOOLTIP,Display waypoint to Da'kash Grimledger for customizations,1
+52740,WOW_LABS_JOIN_QUEUE,Join Queue,1
+52741,WOW_LABS_LEAVE_QUEUE,Leave Queue,1
+52743,TUTORIAL_SUPERTRACK_STEP_1,Focus on a quest by clicking its icon,1
+52744,ERR_WOW_LABS_SET_WOW_LABS_AREA_ID_FAILED,Area selection failed.,1
 52753,SPELL_FAILED_CUSTOM_ERROR_1059,Full Bags,1
+52758,WOWLABS_AREA_MAP_AUTO_SELECT,Auto Select,1
+52759,WOWLABS_AREA_MAP_CONFIRM_SELECTION,Confirm Selection,1
+52765,PLUNDERSTORM_DROP_MAP_BUTTON_TOOLTIP,Choose your starting area,1
+52766,PLUNDERSTORM_DROP_MAP_BUTTON_DISABLED_TOOLTIP,Your party leader is choosing a starting area,1
+52767,ACCOUNT_STORE_CURRENCY_MAX_TOOLTIP_FORMAT,Max %s reached,3
+52768,ACCOUNT_STORE_CURRENCY_APPROACHING_MAX_TOOLTIP_FORMAT,Approaching max %s,3
+52769,ACCOUNT_STORE_CURRENCY_TOTAL_TOOLTIP_FORMAT,%s / %s,3
+52770,LIFETIME_PLUNDER_TOOLTIP_FORMAT,Lifetime: %s,3
+52773,ERR_LFG_NO_CROSS_FACTION_PARTIES_MULTIPLE,Cross-faction groups can't queue for one or more of these instances.,1
+52778,BINDING_NAME_WOWLABS_SWAP_UTLITIES,Switch Utility Spell Order,1
+52779,BINDING_NAME_WOWLABS_SWAP_OFFENSIVES,Switch Offensive Spell Order,1
+52780,WOW_LABS_PLUNDERSTORM_FORMED,A lobby has been found for:,1
+52781,WOW_LABS_CANNOT_ENTER_NON_PLUNDER_QUEUE,You can't enter other queues while in a Plunderstorm queue.,1
+52791,SPELL_CURIO,Curio,1
+52794,WOW_ERROR_501,An error occurred while restoring your character. Please log in and try again.,2
+52858,ACCOUNT_STORE_UNAVAILABLE,Temporarily unavailable. Try again later.,3
+52859,TOOLTIP_VIGNETTE_OBJECTIVE_DEFEAT,- Defeat %s,1
+52860,TOOLTIP_VIGNETTE_OBJECTIVE_DEFEAT_SHOW_HEALTH,- Defeat %s (Current Health: %s),1
+52861,VIGNETTE_SUGGESTED_GROUP_NUM_RANGE,Suggested Players [%d - %d],1
+52864,VIGNETTE_SUGGESTED_GROUP_NUM,Suggested Players [%d],1
+52876,ERR_LFG_LOREWALKING,Lorewalking will resume when you leave the instance.,1
+52969,TW_FRAUD_WARNING_TEXT,System message,2
+53309,BINDING_NAME_LOOTLEFT,Left Interact With Target,1

@@ -26705,6 +26705,52 @@ end
 scale = 0.5 + (progress / 2) + parabola(0.5)
 
 --faceImpactPos = 1",0,4
+4786,Itano Circus/Macross Missiles (4missiles)(Smaller Arc)(Less Crazy),"local function sinapprox(v)
+     local t1 = 1.1*v/360
+     local t2 = (t1*0.5 - math.floor(t1*0.5))*2-1
+     return -4*(t2 - t2 * math.abs(t2))
+     --return sin(v)
+end
+
+local function angleToXY (angle)
+	return math.cos(angle), math.sin(angle)
+end
+
+local minAngle = math.rad(50)
+local maxAngle = math.rad(180)
+local maxArc = 16
+
+local p = math.pow(progress,12)
+
+transFront = (p * distanceToFirePos) - distanceToFirePos
+
+currentAngle = minAngle + ((missileIndex * (maxAngle - minAngle)) / missileCount)
+local x,y = angleToXY(currentAngle)
+local arcProg = math.pow(p,.2)
+arcProg = math.sin(arcProg * math.pi)
+transRight = x * maxArc * arcProg
+transUp = y * maxArc * arcProg
+
+local progressMult = math.pow( sinapprox(progress*180) * (1-progress), .5)
+
+function noise (time)
+	return sinapprox(time)*sinapprox(time*3)*sinapprox(time*.54)*sinapprox(time*7)*sinapprox(time*12)*sinapprox(time*.5)
+end
+local t1 = (time+rand1*400)*50
+local noise1 = noise(t1)
+
+local t2 = (time+rand2*400)*50
+local noise2 = noise(t2)
+
+local t3 = (time+rand3*400)*50
+local noise3 = noise(t3)
+
+local factor = 2
+transRight = transRight + progressMult*noise1*4*factor 
+transUp = transUp + progressMult*noise2*1*factor
+transFront = transFront + progressMult*noise3*4*factor 
+
+scale = 3 * (arcProg)",0,4
 4787,11.0 Raid - Nerubian - Flying - Acid Pool Missile,"local function parabola(m,a,b) return (4*(m or 1)*((1-progress)*(a or 1))*((progress)*(b or 1))) end
 
 local direction = 1
@@ -27005,6 +27051,14 @@ if ( rand1 > 0.5 ) then
 end
 transMag = (progress * 2) - 1
 transMag = (1 - (transMag * transMag)) * maxMagnitude",0,1
+4823,Half Death's Caress,"local wrap = totalDistance*.5+2
+local flip = (missileIndex*2)-1
+
+transFront = sin(270*progress)*wrap+progress*wrap
+
+transRight = -(sin(progress*360))*math.pow(startDistance,.45)*flip
+
+transUp = sin(time*720+(rand1*10000))*sin(progress*180)*.6",0,1
 4828,"Parabola (Yaw Spin, Slow, High)","local angle = 0
 local maxMagnitude = 5 + startDistance * 0.25
 local spinRateY = 90
@@ -27014,3 +27068,38 @@ transMag = (progress * 2) - 1
 transMag = (1 - (transMag * transMag)) * maxMagnitude
 
 modelYaw = time * spinRateY",0,1
+4830,Test Missile - CGT,"local wrap = totalDistance*.5+2
+local flip = (missileIndex*2)-1
+speedScalar = (.5*(progress+0.1)+1)*missileIndex
+
+transFront = sin(270*progress)*wrap+progress*wrap
+
+transRight = -(sin(progress*360))*math.pow(startDistance,.45)*flip
+
+transUp = sin(time*720+(rand1*10000))*sin(progress*180)*.6",0,1
+4833,11.0.7 Void Zone - Player Spell - Offensive - Celestial Barrage [1] 4. Script Effect,"
+local function sinapprox(v)
+     local t1 = 1.1*v/360
+     local t2 = (t1*0.5 - math.floor(t1*0.5))*2-1
+     return -4*(t2 - t2 * math.abs(t2))
+     --return sin(v)
+end
+
+
+local progressMult = math.min(0.6,sin(progress*180))*(1-progress)
+
+local t1 = (time+rand1*4)*50
+local noise1 = sinapprox(t1)*sinapprox(t1*3)*sinapprox(t1*.54)*sinapprox(t1*7)*sinapprox(t1*12)*sinapprox(t1*.5)
+
+local t2 = (time+rand2*4)*50
+local noise2 = sinapprox(t2)*sinapprox(t2*3)*sinapprox(t2*.54)*sinapprox(t2*7)*sinapprox(t2*10)*sinapprox(t2*.5)
+
+local t3 = (time+rand3*4)*50
+local noise3 = sinapprox(t3)*sinapprox(t3*3)*sinapprox(t3*.54)*sinapprox(t3*7)*sinapprox(t3*10)*sinapprox(t3*.5)
+
+local factor = .2
+transRight = progressMult*noise1*14*factor
+transUp = progressMult*noise2*4*factor + (progress*(1-progress))*10
+transFront = progressMult*noise3*14*factor 
+
+",0,0
