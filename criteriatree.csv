@@ -22737,9 +22737,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 30551,Westfall+Duskwood/Silverpine,30557,1,8,0,13,64
 30552,Westfall Quests,30551,0,0,15202,0,0
 30553,Westfall Quests,30551,0,0,15215,1,0
-30554,"Proud owner of the 2012 Vintage Winter Veil gift, the Pigskin and Foot Ball.",0,0,4,0,0,0
-30555,The Pigskin,30554,1,0,66051,0,2
-30556,Foot Ball,30554,1,0,66052,1,2
+30554,"Proud owner of the 2012 Vintage Winter Veil gift, the Pigskin and Foot Ball.",0,0,4,0,0,8192
+30555,The Pigskin,207443,1,0,66051,0,2
+30556,Foot Ball,207441,1,0,66052,0,2
 30557,All Criteria,30533,0,4,0,0,128
 30558,,30533,1,0,22229,1,2
 30559,All Criteria,10258,0,4,0,0,128
@@ -94509,9 +94509,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 161838,,161837,1,0,67206,0,1
 161839,<DNT> Keg Leg's Crew - Renown 39 - Account,0,0,4,0,0,0
 161840,,161839,39,0,66823,0,0
-161841,<Hidden> 10.2.6 Void Zone - WOTLK Pet Renown Level,0,0,4,0,0,0
+161841,<Hidden> 10.2.6 Void Zone - WOTLK Pet Renown Level,0,1,8,0,0,0
 161842,,161841,11,0,66823,0,8194
-161843,<Hidden> 10.2.6 Void Zone - WOTLK Mount Renown Level,0,0,4,0,0,0
+161843,<Hidden> 10.2.6 Void Zone - WOTLK Mount Renown Level,0,1,8,0,0,0
 161844,,161843,39,0,66823,0,8194
 161845,10.2.7 Timewalking Season - Pandaria - Journey - Campaign - 06 - Dread Wastes,0,0,4,0,0,0
 161846,The First Paragons,161845,1,0,67265,0,16
@@ -99865,3 +99865,11 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 207121,,207119,636,0,103239,0,0
 207137,,207119,636,0,103240,1,0
 207138,,207119,636,0,103241,2,0
+207211,,161843,0,0,66645,1,8194
+207212,,161841,0,0,66644,1,8194
+207362,11.0.7 - Khaz Algar Safari Waxwick Fix,0,0,4,0,0,0
+207363,,207362,1,0,103370,0,2
+207441,[DNT] Foot Ball,30554,1,8,0,0,0
+207442,,207441,1,0,103423,1,2
+207443,[DNT] Pigskin,30554,1,8,0,1,8194
+207444,,207443,1,0,103422,1,2
