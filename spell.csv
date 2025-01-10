@@ -18898,7 +18898,7 @@ Cooldowns increased by $/1000;s1 sec."
 24855,,Teaches you how to craft Spitfire Bracers.,
 24856,,Teaches you how to craft Spitfire Gauntlets.,
 24857,,"Blasts an enemy with Arcane magic, inflicting normal damage plus $s2 and knocking the enemy back.",
-24858,Shapeshift,"Transforms the Druid into Moonkin Form.  While in this form the armor contribution from items is increased by $24905s1%$?s436895[, Moonfire costs $443359s2% less mana and deals $443359s3% more damage over time, your periodic damage spells can deal critical periodic damage, you gain ${$PL*2} spell damage,][] and all party members within $24907a1 yards have their spell critical chance increased by $24907s1%.  $?s436895[The Moonkin cannot cast healing spells while shapeshifted.][The Moonkin can only cast Balance spells while shapeshifted.]$?s436895[ Reduces all threat from Arcane and Nature spells by $s4% while in this form.][]
+24858,Shapeshift,"Transforms the Druid into Moonkin Form.  While in this form the armor contribution from items is increased by $24905s1%$?s436895[, Moonfire costs $443359s2% less mana and deals $443359s3% more damage over time, your periodic damage spells can deal critical periodic damage, you gain ${$PL*3} spell damage,][] and all party members within $24907a1 yards have their spell critical chance increased by $24907s1%.  $?s436895[The Moonkin cannot cast healing spells while shapeshifted.][The Moonkin can only cast Balance spells while shapeshifted.]$?s436895[ Reduces all threat from Arcane and Nature spells by $s4% while in this form.][]
 
 The act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.",Immune to Polymorph effects.  Armor contribution from items is increased by $24905s1%.
 24859,,Teaches you how to craft a Spitfire Breastplate.,
@@ -30934,9 +30934,7 @@ Reduced movement speed."
 470358,,Teaches you how to cook Darkclaw Bisque.,
 470359,,,
 470361,,Increases Spell Damage by $s1 for $d.,Spell Damage increased by $s1.
-470362,,Restores $o1 health over $d.  Must remain seated while eating.  If you eat for 10 seconds will also increase your Spell Damage by $470361s1 for $470361d1.,Restores $/5;s1 health per second.
 470367,,Increases Healing done by $s1 for $d.,Healing done increased by $s1.
-470369,,Restores $o1 health over $d.  Must remain seated while eating.  If you eat for 10 seconds will also increase your Healing done by $470367s1 for $470367d1.,Restores $/5;s1 health per second.
 470370,,,
 470396,,Teaches you how to cook Smoked Redgill.,
 470451,,,
@@ -31117,7 +31115,7 @@ Cooldowns increased by $/1000;s1 sec."
 1213238,,"Your damaging non-periodic spells increase your spell damage by $1213241s1 for $1213241d1.  If the target is player controlled, gain $1213240s1 spell penetration for $1213240d1 instead.",
 1213240,,Decreases the magical resistances of your spell targets by $s1.,Decreases the magical resistances of your spell targets by $s1.
 1213241,,Increases damage done by spells and effects by up to $s1.,Spell damage dealt is increased by $s1.
-1213246,,"Kill Shot's cooldown is reduced by $s3%.  While Rapid Fire is active with Rapid Killing engraved, Kill Shot has no cooldown and fires $s4 additional Kill Shots at $s5% damage, with a minimum range.",
+1213246,,"Kill Shot's cooldown is reduced by $s3%.  While Rapid Fire is active with Rapid Killing engraved, Kill Shot has no cooldown, and when used against a non-player controlled target, fires $s4 additional Kill Shots at $s5% damage, with a minimum range.",
 1213248,,"Hurls a bolt of lightning at an enemy, inflicting Nature damage.",
 1213250,,"Calls down a rain of moonlight, burning all enemies in a selected area for $s1 Arcane damage every $t1 sec. for $d.",$s1 Arcane damage inflicted every $t1 sec.
 1213253,,"Entangles an enemy in roots, inflicting Nature damage every $t2 sec. and immobilizing it for up to $d.","Immobilized.
@@ -31439,7 +31437,7 @@ Nature Resistance increased by $s3."
 1214069,,Chance on melee hit to deal $s1 Fire damage to your target.  Deals extra damage to Silithid creatures in Silithus on almost every hit.,
 1214070,,Reduces all incoming damage by $s1. ,Reduces all incoming damage by $s1.
 1214082,,,
-1214085,,"Reduces the cooldown on your Chaos Bolt by $s1% and increases Chaos Bolt and Shadow Bolt damage done by $s2%. In addition, Chaos Bolt can now trigger your Improved Shadow Bolt talent.",
+1214085,,"Reduces the cooldown on your Chaos Bolt by $s1% and increases Chaos Bolt and Shadow Bolt damage done by $s2%. In addition, Chaos Bolt can now trigger your Improved Shadow Bolt talent and causes it to have $s3 additional charges (does not stack with Shadowflame's additional charges).",
 1214086,,,
 1214087,,"Each time you hit a target with Conflagrate, you gain $1214088s1% increased Fire damage for $1214088d, stacking up to $1214088u times.",
 1214088,,,Increases all Fire damage done by $s1%.
@@ -31826,8 +31824,19 @@ Cooldowns increased by $/1000;s1 sec."
 1216968,,When struck in combat has a $h% chance of inflicting $16782s1 Nature damage to the attacker.,
 1216971,,Increases healing done by up to $s1 and damage done by up to $s2 for all magical spells and effects.,
 1216997,,Reduces all damage taken from players and their pets by $s2%. This effect cannot be combined from multiple sources.,Reduces all damage taken from players and their pets by $s2%. This effect cannot be combined from multiple sources.
-1217084,,Increases all damage caused against targets in Silithus and Ahn'Qiraj by $s1% and increases critical damage caused against targets in Silithus and Ahn'Qiraj by an additional $s2%.,"Damage against targets in Silithus and Ahn'Qiraj increased by $s1%.
-Critical damage against targets in Silithus and Ahn'Qiraj increased by $s2%."
+1217189,,Permanently enchant bracers to add up to 12 damage to spells.,
+1217203,,Permanently enchant bracers to increase Agility by 9.,
+1217206,,Attaches a permanent scope to a bow or gun that increases its damage by 10.,
+1217207,,,
+1217288,,,
+1217289,,,
+1217297,,Reduces the mana cost of all shapeshifting by $s1%.,
+1217328,,,
+1217333,,,
+1217337,,,
+1217339,,,
+1217679,,,
+1217680,,,
 1217141,,Summons and dismisses a rideable Qiraji battle tank. This is a very fast mount.,
 1217142,,Summons and dismisses a rideable Qiraji battle tank. This is a very fast mount.,Increases speed by $s2%.
 1217143,,Summons and dismisses a rideable Qiraji battle tank. This is a very fast mount.,Increases speed by $s2%.
@@ -31844,48 +31853,15 @@ Critical damage against targets in Silithus and Ahn'Qiraj increased by $s2%."
 1217154,,Summons and dismisses a rideable Qiraji battle tank. This is a very fast mount.,Increases speed by $s2%.
 1217155,,Summons and dismisses a rideable Qiraji battle tank. This is a very fast mount.,Increases speed by $s2%.
 1217156,,Summons and dismisses a rideable Qiraji battle tank. This is a very fast mount.,Increases speed by $s2%.
-1217189,,Permanently enchant bracers to add up to 12 damage to spells.,
-1217203,,Permanently enchant bracers to increase Agility by 9.,
-1217206,,Attaches a permanent scope to a bow or gun that increases its damage by 10.,
-1217207,,,
-1217288,,,
-1217289,,,
-1217297,,Reduces the mana cost of all shapeshifting by $s1%.,
-1217328,,,
-1217333,,,
-1217337,,,
-1217339,,,
 1217348,,,
 1217350,,,
 1217353,,,
+1217711,,,
 1217520,,,
 1217545,,,
-1217711,,,
+470362,,Restores $o1 health over $d.  Must remain seated while eating.  If you eat for 10 seconds will also increase your Spell Damage by $470361s1 for $470361d1.,Restores $/5;s1 health per second.
+470369,,Restores $o1 health over $d.  Must remain seated while eating.  If you eat for 10 seconds will also increase your Healing done by $470367s1 for $470367d1.,Restores $/5;s1 health per second.
 1217835,,,
-1217927,,,Damage of your next Exorcism is increased by $s1%.
-1217948,,,
-1217949,,,
-1217950,,,
-1217951,,,
-1218071,,"Summon a songflower that grants all your party or raid members $s1% increased chance for a melee, ranged, or spell critical and $s2 increased attributes for $473399d. Exclusive with similar world effects. Unaffected by Chronoboons.","Increases chance for a melee, ranged, or spell critical by $s1% and all attributes by $s2."
-1218072,,"Grants all your nearby party or raid members $s1 increased attack power, $s3% increased Stamina, and $s4% increased spell critical strike chance for $473403d. Exclusive with similar world effects. Unaffected by Chronoboons.","Increases attack power by $s1, Stamina by $s3%, and spell critical strike chance by $s4%."
-1218073,,Grants all your party or raid members $s1% increased damage done for $473450d.,Increases damage by $s1%.
-1218074,,Increases hitpoints by $s1. $s2% haste to melee attacks. $s3 mana regen every 5 seconds. Lasts $473441d.,Increases hitpoints by $s1. $s2% haste to melee attacks. $s3 mana regen every 5 seconds.
-1218075,,Grants all your party or raid members $s1% increased movement speed and $s3% increased stats for $473476d.,Increases movement speed by $s1% and all stats by $s3%.
-1218121,,"Rally your nearby party or raid members, granting them $s1% increased spell critical strike chance, $s3% increased melee and ranged critical strike chance, and $s2 increased attack power. Lasts $473387d. Exclusive with similar world effects and unaffected by Chronoboons.","Increases critical chance of spells by $s1%, melee and ranged by $s3% and grants $s2 attack power."
-1218134,,Attempts to remove $s1 Frenzy effect from an enemy creature.,
-1218154,,,Sinister Strike hits $s1 additional nearby target.
-1218178,,,
-1218240,,"You attempt to finish off a wounded target, firing a ranged attack dealing $s2% weapon damage plus ${$m1/100*$m2/100*$<damagepower>}. Kill Shot has no minimum range. Kill Shot's cooldown is reset if used on an enemy that has 20% or less health.",
-1218285,,,Unable to benefit from the Lock and Load buff.
-1218345,,,Target takes $s1% increased damage from the caster's next Ice Lance.
-1218352,,"Gives your Frost damage spells a $h% chance to apply the Winter's Chill effect, which increases the chance a Frost spell will critically hit the target by $12579s1% for $12579d.  Stacks up to $12579u times.",
-1218358,,"Send the target into a rabid frenzy, increasing melee attack power by $s1 but reducing armor by $s2 for $d.  Rabid enemies will not flee and will ignore Fear and Horror effects.",Increases melee attack power by $s1 and decreases armor by $s2.   Target will not flee and will ignore Fear and Horror effects.
-1218375,,,
-1218485,,Increases all damage caused against targets in Silithus and Ahn'Qiraj by $s1% and increases critical damage caused against targets in Silithus and Ahn'Qiraj by an additional $s2%.,"Damage against targets in Silithus and Ahn'Qiraj increased by $s1%.
-Critical damage against targets in Silithus and Ahn'Qiraj increased by $s2%."
-1218569,,,
-1218577,,,
 1216602,,,
 1218585,,,
 1218599,,,
@@ -31900,8 +31876,35 @@ Hitting a target with Shadow Cleave also grants you $460200s1 Spell Damage for e
 1219267,,,Attack speed increased by $s1%.
 1219269,,,Attack speed increased by $s1%.
 1219270,,,Movement slowed by $s1%.
+1217927,,,Damage of your next Exorcism is increased by $s1%.
+1217948,,,
+1217949,,,
+1217950,,,
+1217951,,,
+1218071,,"Summon a songflower that grants all your party or raid members $s1% increased chance for a melee, ranged, or spell critical and $s2 increased attributes for $473399d. Exclusive with similar world effects. Unaffected by Chronoboons.","Increases chance for a melee, ranged, or spell critical by $s1% and all attributes by $s2."
+1218072,,"Grants all your nearby party or raid members $s1 increased attack power, $s3% increased Stamina, and $s4% increased spell critical strike chance for $473403d. Exclusive with similar world effects. Unaffected by Chronoboons.","Increases attack power by $s1, Stamina by $s3%, and spell critical strike chance by $s4%."
+1218073,,Grants all your party or raid members $s1% increased damage done for $473450d.,Increases damage by $s1%.
+1218074,,Increases hitpoints by $s1. $s2% haste to melee attacks. $s3 mana regen every 5 seconds. Lasts $473441d.,Increases hitpoints by $s1. $s2% haste to melee attacks. $s3 mana regen every 5 seconds.
+1218075,,Grants all your party or raid members $s1% increased movement speed and $s3% increased stats for $473476d.,Increases movement speed by $s1% and all stats by $s3%.
+1218121,,"Rally your nearby party or raid members, granting them $s1% increased spell critical strike chance, $s3% increased melee and ranged critical strike chance, and $s2 increased attack power. Lasts $473387d. Exclusive with similar world effects and unaffected by Chronoboons.","Increases critical chance of spells by $s1%, melee and ranged by $s3% and grants $s2 attack power."
+1218154,,,Sinister Strike hits $s1 additional nearby target.
+1218134,,Attempts to remove $s1 Frenzy effect from an enemy creature.,
+1218178,,,
+1218240,,"You attempt to finish off a wounded target, firing a ranged attack dealing $s2% weapon damage plus ${$m1/100*$m2/100*$<damagepower>}. Kill Shot has no minimum range. Kill Shot's cooldown is reset if used on an enemy that has 20% or less health.",
+1218285,,,Unable to benefit from the Lock and Load buff.
+1218345,,,Target takes $s1% increased damage from the caster's next Ice Lance.
+1218352,,"Gives your Frost damage spells a $h% chance to apply the Winter's Chill effect, which increases the chance a Frost spell will critically hit the target by $12579s1% for $12579d.  Stacks up to $12579u times.",
+1218358,,"Send the target into a rabid frenzy, increasing melee attack power by $s1 but reducing armor by $s2 for $d.  Rabid enemies will not flee and will ignore Fear and Horror effects.",Increases melee attack power by $s1 and decreases armor by $s2.   Target will not flee and will ignore Fear and Horror effects.
+1218375,,,
+1218569,,,
+1218577,,,
+1217084,,Increases all damage caused against targets in Silithus and Ahn'Qiraj by $s1% and increases critical damage caused against targets in Silithus and Ahn'Qiraj by an additional $s2%.,"Damage against targets in Silithus and Ahn'Qiraj increased by $s1%.
+Critical damage against targets in Silithus and Ahn'Qiraj increased by $s2%."
+1218485,,Increases all damage caused against targets in Silithus and Ahn'Qiraj by $s1% and increases critical damage caused against targets in Silithus and Ahn'Qiraj by an additional $s2%.,"Damage against targets in Silithus and Ahn'Qiraj increased by $s1%.
+Critical damage against targets in Silithus and Ahn'Qiraj increased by $s2%."
 1219274,,Learn a Priest spell from another race to activate an ability in this slot.,
 1219275,,"Gain the Devouring Plague ability:
 
 $@spellicon19280
 $@spelldesc19280",
+1220637,,,Noxious pustules are erupting.
