@@ -36,6 +36,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 174,Shroud of Chieftain Ner'zhul,152,1,0,4653,28,2
 175,Golden Staff of the Sin'dorei,152,1,0,4608,12,2
 176,Hand of the Deceiver,152,1,0,4610,14,2
+177,"Thori'dal, the Stars' Fury",152,1,0,4617,21,2
 178,Cover of Ursoc the Mighty,152,1,0,4647,22,2
 179,Gloves of Tyri's Power,152,1,0,4649,24,2
 180,Borderland Paingrips,152,1,0,4598,2,2
@@ -260,6 +261,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 589,Bloodfang Pants,579,1,0,4555,16,2
 590,Dragonstalker's Legguards,579,1,0,4551,12,2
 591,Judgement Legplates,579,1,0,4552,13,2
+592,The Only Prescription,579,1,0,4437,3,2
 593,Malistar's Defender,579,1,0,4559,20,2
 594,Cloak of the Shrouded Mists,579,1,0,4561,22,2
 595,Spinal Reaper,579,1,0,4563,24,2
@@ -277,6 +279,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 607,"Sulfuras, Hand of Ragnaros",579,1,0,318,5,2
 646,2200 rating,140622,2200,0,451,0,2
 648,server-only,0,1,8,0,0,2
+649,The Only Prescription,648,1,0,4437,3,2
 650,The Forging of Quel'Serrar,648,1,0,4270,4,2
 651,Victory for the Alliance,648,1,0,4266,0,2
 652,Eskhandar's Collar,648,1,0,4286,11,2
@@ -327,17 +330,21 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 808,server-only,0,0,5,0,0,2
 809,Blade's Edge Arena matches,808,0,0,5729,0,0
 811,server-only,0,1,8,0,0,2
+812,Charlga Razorflank,811,1,0,18528,1,2
 813,An Unholy Alliance,811,1,0,4409,4,2
 814,A Vengeful Fate,811,1,0,4250,2,2
 815,The Crone of the Kraul,811,1,0,4251,3,2
 817,server-only,0,1,8,0,0,2
+820,Amnennar the Coldbringer,817,1,0,18530,0,2
 822,server-only,0,1,8,0,0,2
+823,Archaedas,822,1,0,18531,0,2
 824,The Platinum Discs ,822,1,0,4256,1,2
 825,Find the Gems and Power Source,822,1,0,4257,2,2
 826,Restoring the Necklace,822,1,0,4258,3,2
 828,server-only,0,0,4,0,0,2
 829,Chief Ukorz Sandscalp,828,1,0,3265,1,2
 831,server-only,0,1,8,0,0,2
+832,Princess Theradras,831,1,0,18532,1,2
 833,Corruption of Earth and Seed,831,1,0,4259,2,2
 834,Corruption of Earth and Seed,831,1,0,4260,3,2
 836,server-only,0,0,5,0,0,2
@@ -372,6 +379,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 945,server-only,0,0,5,0,0,2
 946,Ring of Trials matches,945,0,0,5730,0,0
 957,server-only,0,1,8,0,0,2
+958,Omor the Unscarred,957,1,0,18536,1,2
 959,Weaken the Ramparts,957,1,0,4462,3,2
 960,Weaken the Ramparts,957,1,0,4461,2,2
 962,server-only,0,0,4,0,0,2
@@ -402,12 +410,15 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 1113,,0,0,4,0,0,0
 1114,Ultraxion attempts (25N) (DND),1113,1,0,18734,0,2
 1123,server-only,0,0,4,0,0,2
+1124,Honorable Kills,1123,0,0,13253,1,0
 1148,server-only,0,1,8,0,0,2
 1149,Warlord Kalithresh,1148,1,0,3248,1,2
+1150,Trial of the Naaru: Strength,1148,1,0,4474,3,2
 1151,The Warlord's Hideout,1148,1,0,4473,2,2
 1156,,0,0,4,0,0,0
 1157,,1156,1,0,18026,0,2
 1159,server-only,0,0,5,0,0,2
+1160,Honorable Kills,1159,0,0,13253,2,0
 1161,Total NPC kills,1159,0,0,4944,1,0
 1163,server-only,0,1,7,0,0,2
 1164,Mining,1163,1,0,5559,7,0
@@ -421,6 +432,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 1172,Skinning,1163,1,0,5560,8,0
 1174,Jewelcrafting,1163,1,0,5557,5,0
 1176,server-only,0,375,8,0,0,2
+1178,Alchemy,1176,375,0,5565,0,0
 1179,Blacksmithing,1176,375,0,5566,2,0
 1180,Enchanting,1176,375,0,5567,4,0
 1181,Engineering,1176,375,0,5722,1,0
@@ -486,6 +498,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 1455,server-only,0,0,4,0,0,2
 1456,Daily quests complete,1455,0,0,4984,1,0
 1489,server-only,0,1,8,0,0,2
+1490,Archimonde,1489,1,0,18537,1,2
 1491,Cowl of Absolution,1489,1,0,4630,14,2
 1492,Bristleblitz Striker,1489,1,0,4620,4,2
 1493,Cataclysm's Edge,1489,1,0,4621,5,2
@@ -557,6 +570,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 1592,server-only,0,0,5,0,0,2
 1593,Deaths from fire and lava,1592,0,0,150,1,0
 1594,Deaths from fire and lava,1592,0,0,151,2,0
+1597,Alchemy,123508,150,0,5565,0,2
 1598,Blacksmithing,123508,150,0,5566,0,2
 1599,Enchanting,123508,150,0,5567,0,2
 1600,Engineering,123508,150,0,5722,0,2
@@ -578,6 +592,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 1722,server-only,0,0,4,0,0,2
 1723,Total waves,1722,0,0,3236,1,0
 1725,server-only,0,1,8,0,0,2
+1726,Ossirian the Unscarred,1725,1,0,18891,1,2
 1727,The Fall of Ossirian,1725,1,0,4265,2,2
 1739,Obtain 150 skill points in fishing.,123522,150,0,5696,0,2
 1792,Bambala,123710,1,0,14063,0,0
@@ -657,11 +672,16 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 1959,Warsong Gulch Silk Bandage,1930,1,0,3324,19,0
 1960,Highlander's Runecloth Bandage,1930,1,0,7903,22,0
 1962,server-only,0,0,5,0,0,2
+1963,Arathi Basin,1962,0,0,5896,1,0
+1964,Eye of the Storm,1962,0,0,5897,2,0
+1966,Warsong Gulch,1962,0,0,5899,3,0
 1967,Isle of Conquest,123459,0,0,16513,0,0
 1968,Isle of Conquest,123459,0,0,16512,0,0
+1970,Alterac Valley,1962,0,0,17411,0,0
 1978,,0,1,8,0,0,0
 1979,Lord Rhyolith,1978,1,0,18053,0,2
 1980,Lord Rhyolith,1978,1,0,18052,0,2
+1983,Alchemy,124103,375,0,5565,0,2
 1984,Alchemy,124103,375,0,5566,0,2
 1985,Alchemy,124103,375,0,5567,0,2
 1986,Alchemy,124103,375,0,5722,0,2
@@ -672,6 +692,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 1991,Alchemy,124103,375,0,5575,0,2
 1992,Alchemy,124103,375,0,5720,0,2
 1993,Alchemy,124103,375,0,5573,0,2
+1996,Alchemy,124115,450,0,5565,0,2
 1997,Alchemy,124115,450,0,5566,0,2
 1998,Alchemy,124115,450,0,5567,0,2
 1999,Alchemy,124115,450,0,5722,0,2
@@ -731,6 +752,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 2371,The Black Stalker,2370,1,0,3712,1,2
 2373,server-only,0,1,8,0,0,2
 2374,Warlord Kalithresh,2373,1,0,3718,1,2
+2375,Trial of the Naaru: Strength,2373,1,0,4474,2,2
 2378,Obtain 225 skill points in cooking.,121924,225,0,5701,0,2
 2381,Obtain 450 skill points in fishing.,121926,450,0,5696,0,2
 2399,Lushwater Oasis,124142,1,0,14078,0,0
@@ -762,9 +784,12 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 2498,server-only,0,1,8,0,0,2
 2499,Murmur,2498,1,0,3246,1,2
 2500,Into the Heart of the Labyrinth,2498,1,0,4469,2,2
+2501,Trial of the Naaru: Strength,2498,1,0,4474,3,2
 2503,server-only,0,0,4,0,0,2
+2504,"Thori'dal, the Stars' Fury",2503,1,0,4617,1,2
 2505,,2503,1,0,12482,2,2
 2513,server-only,0,0,5,0,0,2
+2514,Honorable Kills,2513,0,0,13253,1,0
 2515,Kill an NPC that yields XP,2513,0,0,4946,0,0
 2527,,0,0,4,0,0,0
 2530,,0,0,4,0,0,0
@@ -838,6 +863,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 2612,Cataclysm Chestpiece,2598,1,0,4834,16,2
 2613,Sunshower Light Cloak,2598,1,0,4829,11,2
 2614,Royal Cloak of the Sunstriders,2598,1,0,4826,8,2
+2615,The Vials of Eternity,2598,1,0,744,1,2
 2616,Twinblade of the Phoenix,2598,1,0,4832,14,2
 2618,Thalassian Wildercloak,2598,1,0,4830,12,2
 2619,Royal Gauntlets of Silvermoon,2598,1,0,4827,9,2
@@ -915,6 +941,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 2715,Nordrassil Headguard,2703,1,0,4876,29,2
 2716,Vestments of the Sea-Witch,2703,1,0,4861,14,2
 2717,Cobra-Lash Boots,2703,1,0,4851,4,2
+2718,The Vials of Eternity,2703,1,0,744,1,2
 2719,Nordrassil Headpiece,2703,1,0,4877,30,2
 2720,Ring of Endless Coils,2703,1,0,4858,11,2
 2721,Vashj's Vial Remnant,2703,1,0,7871,32,2
@@ -938,6 +965,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 2744,server-only,0,0,5,0,0,2
 2745,Money from questing,2744,0,0,4092,2,8
 2746,Money from auctions,2744,0,0,4225,4,8
+2747,Money from vendors,2744,0,0,4091,1,8
 2748,Money looted from creatures,2744,0,0,4093,3,8
 2750,server-only,0,0,4,0,0,2
 2751,Highest sale value on an auction,2750,0,0,4223,1,8
@@ -950,6 +978,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 2768,server-only,0,0,4,0,0,2
 2769,Cooking skill,2768,375,0,5701,0,1
 2771,server-only,0,0,4,0,0,2
+2772,Alchemy skill,2771,375,0,5565,0,1
 2793,Obtain 450 skill points in first aid.,123531,450,0,5592,0,2
 2795,,0,1,8,0,0,0
 2796,Majordomo Fandral Staghelm,2795,1,0,18069,0,2
@@ -968,9 +997,11 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 2836,Rebirth (Rank 5),2829,0,0,4973,1,0
 2838,server-only,0,0,5,0,0,2
 2839,Redemption,2838,0,0,1245,1,0
+2840,Redemption,2838,0,0,7859,2,0
 2841,Redemption,2838,0,0,7856,7,0
 2842,Redemption,2838,0,0,7857,8,0
 2843,Redemption,2838,0,0,7858,6,0
+2844,Redemption,2838,0,0,7859,5,0
 2845,Redemption,2838,0,0,7861,4,0
 2846,Redemption,2838,0,0,7862,3,0
 2848,server-only,0,0,5,0,0,2
@@ -1065,9 +1096,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 3062,server-only,0,1,8,0,0,2
 3063,Swift White Hawkstrider,3062,0,0,6165,1,2
 3068,server-only,0,0,4,0,0,2
+3069,Warsong Gulch Victories,3068,0,0,5899,0,0
 3072,Obtain 225 skill points in fishing.,121934,225,0,5696,0,2
-3074,server-only,0,0,5,0,0,2
-3075,,3074,0,0,6847,0,0
 3077,,0,0,4,0,0,0
 3078,,3077,1,0,18012,0,2
 3080,,0,0,4,0,0,0
@@ -1090,6 +1120,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 3119,Alchemy,121332,300,0,5573,0,2
 3120,Alchemy,121332,300,0,5720,0,2
 3121,Alchemy,121332,300,0,5575,0,2
+3122,Alchemy,121332,300,0,5565,0,2
 3134,2200 rating,140630,2200,0,447,0,2
 3173,Valley of the Watchers,123940,1,0,1407,0,0
 3174,Lost Rigger Cove,123940,1,0,1414,0,0
@@ -1195,6 +1226,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 3477,server-only,0,0,5,0,0,2
 3478,Money from questing,3477,0,0,4092,2,8
 3479,Money from auctions,3477,0,0,4225,4,8
+3480,Money from vendors,3477,0,0,4091,1,8
 3481,Money looted from creatures,3477,0,0,4093,3,8
 3504,Galen's Fall,127332,1,0,964,0,0
 3510,Circle of Outer Binding,127332,1,0,971,0,0
@@ -1210,6 +1242,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 3593,Warp Splinter,3592,1,0,3251,1,2
 3594,How to Break Into the Arcatraz,3592,1,0,4480,2,2
 3668,Obtain 375 skill points in fishing.,126923,375,0,5696,0,2
+3671,Alchemy,126925,225,0,5565,0,2
 3672,Blacksmithing,126925,225,0,5566,0,2
 3673,Enchanting,126925,225,0,5567,0,2
 3674,Engineering,126925,225,0,5722,0,2
@@ -1273,6 +1306,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 3809,server-only,0,1,8,0,0,2
 3810,"""Captain"" Cookie",3809,1,0,18522,0,2
 3812,server-only,0,1,8,0,0,2
+3813,Mekgineer Thermaplugg,3812,1,0,18529,0,2
 3814,The Grand Betrayal,3812,1,0,4252,1,2
 3815,Rig Wars,3812,1,0,4253,2,2
 3820,server-only,0,0,4,0,0,2
@@ -1293,10 +1327,15 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 3883,Nighthaven,127084,1,0,14116,0,0
 3884,Stormrage Barrow Dens,127084,1,0,14118,0,0
 3886,server-only,0,0,5,0,0,2
+3887,Super Rejuvenation Potion,3886,0,0,4334,21,0
+3888,Greater Dreamless Sleep Potion,3886,0,0,4316,7,0
 3889,Auchenai Mana Potion,3886,0,0,4308,0,0
 3890,Crystal Mana Potion,3886,0,0,4314,5,0
+3891,Dreamless Sleep Potion,3886,0,0,4315,6,0
 3892,Greater Mana Potion,3886,0,0,4322,10,0
 3893,Major Mana Potion,3886,0,0,4328,15,0
+3894,Major Rejuvenation Potion,3886,0,0,4329,16,0
+3895,Major Dreamless Sleep Potion,3886,0,0,4317,8,0
 3896,Mana Potion Injector,3886,0,0,4311,2,0
 3897,Bottled Nethergon Energy,3886,0,0,4313,4,0
 3898,Fel Mana Potion,3886,0,0,4321,9,0
@@ -1304,8 +1343,13 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 3900,Rulkster's Brain Juice,3886,0,0,4332,19,0
 3901,Superior Mana Potion,3886,0,0,4333,20,0
 3902,Endless Mana Potion,3886,1,0,7907,27,0
+3903,Wildvine Potion,3886,0,0,4336,23,0
+3904,Potion of Nightmares,3886,0,0,7421,35,0
+3905,Powerful Rejuvenation Potion,3886,0,0,7422,36,0
 3906,Argent Mana Potion,3886,1,0,7906,26,0
 3907,Icy Mana Potion,3886,0,0,5189,32,0
+3908,Minor Rejuvenation Potion,3886,0,0,7420,34,0
+3909,Mad Alchemist's Potion,3886,0,0,4324,12,0
 3910,Major Combat Mana Potion,3886,0,0,5188,31,0
 3911,Runic Mana Potion,3886,0,0,5184,24,0
 3912,Major Combat Mana Potion,3886,0,0,5187,30,0
@@ -1347,11 +1391,13 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 4112,Saving the Best for Last,4106,1,0,5063,10,2
 4113,Saving the Best for Last,4106,1,0,5067,14,2
 4114,Saving the Best for Last,4106,1,0,5068,15,2
+4115,Saving the Best for Last,4106,1,0,5072,19,2
 4117,Saving the Best for Last,4106,1,0,5073,20,2
 4118,Saving the Best for Last,4106,1,0,5071,18,2
 4119,Saving the Best for Last,4106,1,0,5061,8,2
 4120,Saving the Best for Last,4106,1,0,5065,12,2
 4121,Saving the Best for Last,4106,1,0,5070,17,2
+4123,Saving the Best for Last,4106,1,0,5072,4,2
 4124,Saving the Best for Last,4106,1,0,5069,16,2
 4125,Saving the Best for Last,4106,1,0,5066,13,2
 4126,Saving the Best for Last,4106,1,0,5059,6,2
@@ -1374,6 +1420,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 4220,server-only,0,1,8,0,0,2
 4221,Rivendare's Deathcharger,4220,1,0,51998,0,2
 4230,server-only,0,0,4,0,0,2
+4231,Aku'mai,4230,1,0,18526,0,2
 4236,server-only,0,0,4,0,0,2
 4237,5v5 Arena Kills,4236,0,0,4961,1,0
 4318,server-only,0,1,8,0,0,2
@@ -1437,6 +1484,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 4976,Talon King Ikiss,4975,1,0,3708,1,2
 4978,server-only,0,0,4,0,0,2
 4979,Alzzin the Wildshaper,4978,1,0,545,1,0
+4980,King Gordok,4978,1,0,18535,3,0
 4981,Immol'thar,4978,1,0,546,2,0
 4984,Terror Wing Path,127541,1,0,1138,0,0
 4985,Blackrock Pass,127541,1,0,1139,0,0
@@ -1493,6 +1541,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 5493,Highest 3 man personal rating,5492,0,0,447,1,0
 5499,,122970,1,0,481,0,2
 5504,server-only,0,0,4,0,0,2
+5505,Arathi Basin victories,5504,0,0,5896,0,0
 5507,server-only,0,0,4,0,0,2
 5508,Warsong Gulch,5507,0,0,5747,0,0
 5510,server-only,0,0,4,0,0,2
@@ -1559,15 +1608,21 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 5885,Crystal Healing Potion,5882,0,0,4290,2,0
 5886,Discolored Healing Potion,5882,0,0,4291,3,0
 5887,Major Healing Potion,5882,0,0,4297,9,0
+5888,Major Rejuvenation Potion,5882,0,0,4329,10,0
 5889,Superior Healing Potion,5882,0,0,4305,17,0
+5890,Dreamless Sleep Potion,5882,0,0,4315,21,0
 5891,Healing Potion Injector,5882,0,0,4309,20,0
+5892,Greater Dreamless Sleep Potion,5882,0,0,4316,23,0
 5893,Greater Healing Potion,5882,0,0,4293,5,0
 5894,Superior Healing Draught,5882,0,0,4304,16,0
+5895,Major Dreamless Sleep Potion,5882,0,0,4317,24,0
 5896,Lesser Healing Potion,5882,0,0,4295,7,0
 5897,Minor Healing Potion,5882,0,0,4299,11,0
+5898,Super Rejuvenation Potion,5882,0,0,4334,15,0
 5899,Healing Potion,5882,0,0,4294,6,0
 5900,Rulkster's Secret Sauce,5882,0,0,4301,13,0
 5901,Super Healing Potion,5882,0,0,4310,22,0
+5902,Mad Alchemist's Potion,5882,0,0,4324,25,0
 5903,Combat Healing Potion,5882,1,0,7908,26,0
 5908,Super Healing Potion,5882,0,0,4310,14,0
 5910,Major Combat Healing Potion,5882,1,0,5180,29,0
@@ -1575,8 +1630,10 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 5912,Major Combat Healing Potion,5882,1,0,5178,27,0
 5913,Major Combat Healing Potion,5882,1,0,5179,28,0
 5914,Major Combat Healing Potion,5882,1,0,5181,30,0
+5916,Wildvine Potion,5882,0,0,4336,19,0
 5917,Major healing Draught,5882,0,0,4296,8,0
 5919,Auchenai Healing Potion,5882,0,0,4288,0,0
+5920,Minor Rejuvenation Potion,5882,0,0,7420,12,0
 5924,server-only,0,0,5,0,0,2
 5925,Sweet Nectar,5924,0,0,4717,156,2
 5926,Thistle Tea,5924,0,0,4718,159,2
@@ -1813,6 +1870,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 6184,C'Thun,6183,1,0,3274,1,0
 6195,server-only,0,1,8,0,0,2
 6196,Murmur,6195,1,0,3716,1,2
+6197,Trial of the Naaru: Strength,6195,1,0,4474,2,2
 6207,server-only,0,0,4,0,0,2
 6208,Warp Splinter,6207,1,0,3721,1,2
 6213,server-only,0,0,4,0,0,2
@@ -1923,6 +1981,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 6640,Lethlor Ravine,127635,1,0,1014,0,0
 6641,Angor Fortress,127635,1,0,1023,0,0
 6646,server-only,0,0,4,0,0,2
+6648,Ossirian the Unscarred,6646,1,0,18891,0,2
 6693,"Hillsbrad Foothills, Eastpoint Tower",127127,1,0,17628,0,0
 6694,"Badlands, Fuselight",127127,1,0,18429,0,0
 6695,"Badlands, New Kargath",127127,1,0,17626,0,0
@@ -1939,6 +1998,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 6755,First Aid Below 5%,125433,1,0,15824,0,2
 6756,First Aid Below 5%,125433,1,0,15822,0,2
 6757,First Aid Below 5%,125433,1,0,15823,0,2
+6763,Alchemy,127584,450,0,5565,0,2
 6764,Alchemy,127584,450,0,5571,0,2
 6765,Alchemy,127584,450,0,5566,0,2
 6766,Alchemy,127584,450,0,5567,0,2
@@ -2006,6 +2066,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 7328,Northern Stranglethorn,125362,1,0,17012,0,0
 7342,Southern Barrens,125374,1,0,17014,0,0
 7357,server-only,0,1,8,0,0,2
+7358,Mutanus the Devourer,7357,1,0,18524,1,2
 7359,The Glowing Shard,7357,1,0,4246,2,2
 7385,,0,1,5,0,0,0
 7386,Ragnaros 10-Heroic,7385,1,0,18074,0,2
@@ -2035,6 +2096,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 7631,,7630,1,0,18047,0,2
 7684,server-only,0,1,8,0,0,2
 7685, General Drakkisath's Command ,7684,1,0,4442,4,2
+7686,Overlord Wyrmthalak,7684,1,0,18534,1,2
 7687,Maxwell's Mission,7684,1,0,4440,2,2
 7688,Seal of Ascension,7684,1,0,4446,5,2
 7689,Warlord's Command,7684,1,0,4441,3,2
@@ -2132,12 +2194,17 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 8170,Northwatch Foothold,126894,1,0,14086,0,0
 8175,Zun'watha,126314,1,0,1117,0,0
 8188,server-only,0,1,8,0,0,2
+8189,Shade of Eranikus,8188,1,0,18533,1,2
 8190,The Essence of Eranikus,8188,1,0,4261,2,2
 8198,Blade's Edge Arena,127433,1,0,5739,0,0
 8199,Nagrand Arena,127433,1,0,5735,0,0
+8200,The Ring of Valor,127433,1,0,8590,0,0
+8201,Ruins of Lordaeron,127433,1,0,8589,0,0
+8202,Dalaran Sewers,127433,1,0,8587,0,0
 8204,server-only,0,0,4,0,0,2
 8205,Duels won,8204,0,0,3629,1,0
 8210,server-only,0,0,4,0,0,2
+8211,Ruins of Lordaeron victories,8210,0,0,8589,1,0
 8225,,0,0,4,0,0,0
 8226,Hagara attempts (25N) (DND),8225,1,0,18725,0,2
 8242,,0,0,4,0,0,0
@@ -2188,7 +2255,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 9106,Baleroc,9105,1,0,18066,0,2
 9107,Baleroc,9105,1,0,18067,0,2
 9109,server-only,0,0,4,0,0,2
-9110,Eye of the Storm victories,9109,0,0,5745,0,0
+9110,Eye of the Storm victories,9109,0,0,5897,0,0
 9121,server-only,0,0,4,0,0,2
 9122,Gold Earned from Auctions,9121,0,0,4225,1,8
 9677,server-only,0,0,4,0,0,2
@@ -2259,6 +2326,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 10413,server-only,0,0,4,0,0,2
 10414,The Black Stalker,10413,1,0,3243,1,0
 10416,server-only,0,0,4,0,0,2
+10417,Gold from vendors,10416,0,0,4091,1,8
 10419,,0,1,5,0,0,0
 10420,Alysrazor 25-Normal,10419,1,0,18061,0,2
 10421,Alysrazor 10-Normal,10419,1,0,18060,0,2
@@ -2372,6 +2440,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 12497,,0,0,4,0,0,0
 12498,Obtain 525 skill points in archaeology.,12497,525,0,13812,0,2
 12508,,0,1,8,0,0,0
+12509,Alchemy,12508,525,0,5565,0,2
 12510,Alchemy,12508,525,0,5566,0,2
 12511,Alchemy,12508,525,0,5722,0,2
 12512,Alchemy,12508,525,0,5569,0,2
@@ -2643,12 +2712,18 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 13668,Forsaken Foie Gras,131509,0,0,18604,0,2
 13669,Troll Tartare,131509,0,0,18605,0,2
 13670,Silvermoon Steak,131509,0,0,18606,0,2
+13671,Dried Sausage,131509,0,0,18619,0,2
+13672,Pickled Sausage,131509,0,0,18622,0,2
+13673,Spicy Smoked Sausage,131509,0,0,18623,0,2
 13674,Conjured Mana Cookie,131509,0,0,18625,0,2
 13675,Conjured Mana Brownie,131509,0,0,18626,0,2
 13676,Conjured Mana Cupcake,131509,0,0,18627,0,2
+13677,Succulent Sausage,131509,0,0,18620,0,2
 13678,Draenic Dumplings,131509,0,0,18601,0,2
+13679,Spiced Onion Cheese,131509,0,0,18621,0,2
 13680,Conjured Mana Lollipop,131509,0,0,18628,0,2
 13681,Beer-Basted Short Ribs,131509,0,0,18599,0,2
+13682,The Golden Link,131509,0,0,18624,0,2
 13683,Conjured Mana Cake,131509,0,0,18629,0,2
 13691,,0,0,4,0,0,0
 13692,The Circle of Cinders,13691,0,0,16089,0,0
@@ -3186,6 +3261,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 15416,Alchemy,15411,525,0,5571,0,2
 15417,Alchemy,15411,525,0,5566,0,2
 15418,Alchemy,15411,525,0,5718,0,2
+15419,Alchemy,15411,525,0,5565,0,2
 15420,Alchemy,15411,525,0,5573,0,2
 15421,Alchemy,15411,525,0,5720,0,2
 15422,Alchemy,15411,525,0,5575,0,2
@@ -3473,6 +3549,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 15886,,0,0,4,0,0,0
 15887,Win 10 rated battlegrounds,15886,10,0,15289,0,1
 15889,server-only,0,0,4,0,0,2
+15890,Alterac Valley victories,15889,0,0,17411,0,0
 15892,server-only,0,0,5,0,0,2
 15893,Circle of Blood victories,15892,0,0,5739,0,0
 15895,server-only,0,0,4,0,0,2
@@ -3714,6 +3791,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 16133,Harvest Bread,15901,0,0,6711,258,2
 16134,Harvest Fish,15901,0,0,6712,264,2
 16135,Haunch of Meat,15901,0,0,6714,270,2
+16136,Conjured Mana Strudel,15901,0,0,6534,396,2
 16137,Goblin Deviled Clams,15901,0,0,6694,153,2
 16138,Gooey Spider Cake,15901,0,0,6697,199,2
 16139,Great Feast,15901,0,0,6701,218,2
@@ -3760,6 +3838,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 16180,Blessed Sunfruit,15901,0,0,6468,370,2
 16181,Stormgarde Muenster,15901,0,0,7087,132,2
 16182,Clefthoof Ribs,15901,0,0,6528,402,2
+16183,Conjured Mana Biscuit,15901,0,0,6532,398,2
 16184,Conjured Sourdough,15901,0,0,6538,384,2
 16185,Cookie's Jumbo Gumbo,15901,0,0,6543,379,2
 16186,Crab Cake,15901,0,0,6545,377,2
@@ -3963,12 +4042,18 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 16384,Forsaken Foie Gras,15901,0,0,18604,484,2
 16385,Troll Tartare,15901,0,0,18605,485,2
 16386,Silvermoon Steak,15901,0,0,18606,486,2
+16387,Dried Sausage,15901,0,0,18619,487,2
+16388,Pickled Sausage,15901,0,0,18622,490,2
+16389,Spicy Smoked Sausage,15901,0,0,18623,491,2
 16390,Conjured Mana Cookie,15901,0,0,18625,493,2
 16391,Conjured Mana Brownie,15901,0,0,18626,494,2
 16392,Conjured Mana Cupcake,15901,0,0,18627,495,2
+16393,Succulent Sausage,15901,0,0,18620,488,2
 16394,Draenic Dumplings,15901,0,0,18601,481,2
+16395,Spiced Onion Cheese,15901,0,0,18621,489,2
 16396,Conjured Mana Lollipop,15901,0,0,18628,496,2
 16397,Beer-Basted Short Ribs,15901,0,0,18599,479,2
+16398,The Golden Link,15901,0,0,18624,492,2
 16399,Conjured Mana Cake,15901,0,0,18629,497,2
 16420,,0,1,8,0,0,0
 16421,Conclave of Wind,16420,1,0,16290,0,2
@@ -4004,6 +4089,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 16465,Karkrog the Exterminator,16462,0,0,15949,0,0
 16466,Korthalon the Black,16462,0,0,15951,0,0
 16468,,0,0,4,0,0,0
+16469,,16468,525,0,5565,0,2
 16471,,0,0,4,0,0,0
 16472,Head,16471,1,0,15330,0,0
 16473,Neck,16471,1,0,15331,0,0
@@ -4472,7 +4558,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 17453,Isle of Conquest,17451,0,0,16537,0,0
 17454,Alterac Valley,17451,0,0,16520,0,0
 17455,Arathi Basin,17451,0,0,16521,0,0
-17456,Eye of the Storm,17451,0,0,16522,0,0
+17456,Eye of the Storm,17451,0,0,5745,0,0
 17457,Strand of the Ancients,17451,0,0,16535,0,0
 17458,Isle of Conquest,17451,0,0,16525,0,0
 17459,Isle of Conquest,17451,0,0,16531,0,0
@@ -4794,6 +4880,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 17961,,0,0,4,0,0,0
 17962,Warsong Gulch,17961,0,0,16517,0,0
 17964,,0,0,4,0,0,0
+17965,Get 250000 honorable kills,17964,250000,0,13253,0,1
 17967,,0,0,4,0,0,0
 17968,Win 25 rated battlegrounds,17967,25,0,15289,0,1
 17970,,0,0,4,0,0,0
@@ -5758,14 +5845,20 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 19392,,0,0,4,0,0,0
 19393,Taragaman the Hungerer,19392,1,0,525,0,2
 19395,server-only,0,0,4,0,0,2
+19396,Aku'mai,19395,1,0,18526,1,2
 19398,server-only,0,0,4,0,0,2
+19399,Charlga Razorflank,19398,1,0,18528,1,2
 19401,server-only,0,0,4,0,0,2
+19402,Mekgineer Thermaplugg,19401,1,0,18529,1,2
 19404,,0,1,5,0,0,0
 19405,Morchok (10H),19404,1,0,18575,0,2
 19406,Morchok (25H),19404,1,0,18576,0,2
 19408,server-only,0,0,4,0,0,2
+19409,Overlord Wyrmthalak,19408,1,0,18534,1,2
 19411,server-only,0,0,4,0,0,2
+19412,Shade of Eranikus,19411,1,0,18533,1,2
 19414,server-only,0,0,4,0,0,2
+19415,Omor the Unscarred,19414,1,0,18536,1,2
 19417,,0,1,8,0,0,0
 19418,Spine of Deathwing (10N),19417,1,0,18557,0,2
 19419,Spine of Deathwing (25N),19417,1,0,18558,0,2
@@ -5819,6 +5912,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 19489,Madness of Deathwing (25H),19488,1,0,18562,0,2
 19490,Madness of Deathwing (10H),19488,1,0,18561,0,2
 19492,server-only,0,0,4,0,0,2
+19493,King Gordok,19492,1,0,18535,1,0
 19495,,0,1,5,0,0,0
 19496,Hagara the Stormbinder (25H),19495,1,0,18570,0,2
 19497,Hagara the Stormbinder (10H),19495,1,0,18569,0,2
@@ -5954,8 +6048,11 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 19667,,0,0,4,0,0,0
 19668,Hogger,19667,1,0,18527,0,2
 19670,server-only,0,0,4,0,0,2
+19671,Amnennar the Coldbringer,19670,1,0,18530,1,2
 19673,server-only,0,0,4,0,0,2
+19674,Princess Theradras,19673,1,0,18532,1,2
 19676,server-only,0,0,4,0,0,2
+19677,Archimonde,19676,1,0,18537,1,2
 19679,,0,0,4,0,0,0
 19680,Murozond,19679,1,0,18542,0,2
 19682,,0,0,4,0,0,0
@@ -5997,6 +6094,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 19749,,0,0,4,0,0,0
 19750,Deathwing (Maybe he'll get dizzy...),19749,1,0,18502,0,2
 19752,server-only,0,0,4,0,0,2
+19753,Archaedas,19752,1,0,18531,1,2
 19755,,0,1,5,0,0,0
 19756,Yor'sahj the Unsleeping (25H),19755,1,0,18572,0,2
 19757,Yor'sahj the Unsleeping (10H),19755,1,0,18571,0,2
@@ -6290,6 +6388,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 20206,Mining,20192,1,0,18312,0,0
 20207,Skinning,20192,1,0,18313,0,0
 20209,,0,0,4,0,0,0
+20210,Mutanus the Devourer,20209,1,0,18524,0,2
 20212,,0,0,4,0,0,0
 20213,Holding Hands,20212,1,0,18608,0,2
 20218,,0,0,4,0,0,0
@@ -6865,14 +6964,22 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 24883,Lesser Healing Potion,24874,0,0,4295,7,0
 24884,Major healing Draught,24874,0,0,4296,8,0
 24885,Major Healing Potion,24874,0,0,4297,9,0
+24886,Major Rejuvenation Potion,24874,0,0,4329,10,0
 24887,Minor Healing Potion,24874,0,0,4299,11,0
+24888,Minor Rejuvenation Potion,24874,0,0,7420,12,0
 24889,Rulkster's Secret Sauce,24874,0,0,4301,13,0
 24890,Super Healing Potion,24874,0,0,4310,14,0
+24891,Super Rejuvenation Potion,24874,0,0,4334,15,0
 24892,Superior Healing Draught,24874,0,0,4304,16,0
 24893,Superior Healing Potion,24874,0,0,4305,17,0
 24894,Volatile Healing Potion,24874,0,0,4306,18,0
+24895,Wildvine Potion,24874,0,0,4336,19,0
 24896,Healing Potion Injector,24874,0,0,4309,20,0
+24897,Dreamless Sleep Potion,24874,0,0,4315,21,0
 24898,Super Healing Potion,24874,0,0,4310,22,0
+24899,Greater Dreamless Sleep Potion,24874,0,0,4316,23,0
+24900,Major Dreamless Sleep Potion,24874,0,0,4317,24,0
+24901,Mad Alchemist's Potion,24874,0,0,4324,25,0
 24904,Combat Healing Potion,24874,1,0,7908,26,0
 24906,Major Combat Healing Potion,24874,1,0,5178,27,0
 24907,Major Combat Healing Potion,24874,1,0,5179,28,0
@@ -6889,14 +6996,22 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 24931,Lesser Healing Potion,24922,0,0,4295,7,0
 24932,Major healing Draught,24922,0,0,4296,8,0
 24933,Major Healing Potion,24922,0,0,4297,9,0
+24934,Major Rejuvenation Potion,24922,0,0,4329,10,0
 24935,Minor Healing Potion,24922,0,0,4299,11,0
+24936,Minor Rejuvenation Potion,24922,0,0,7420,12,0
 24937,Rulkster's Secret Sauce,24922,0,0,4301,13,0
 24938,Super Healing Potion,24922,0,0,4310,14,0
+24939,Super Rejuvenation Potion,24922,0,0,4334,15,0
 24940,Superior Healing Draught,24922,0,0,4304,16,0
 24941,Superior Healing Potion,24922,0,0,4305,17,0
 24942,Volatile Healing Potion,24922,0,0,4306,18,0
+24943,Wildvine Potion,24922,0,0,4336,19,0
 24944,Healing Potion Injector,24922,0,0,4309,20,0
+24945,Dreamless Sleep Potion,24922,0,0,4315,21,0
 24946,Super Healing Potion,24922,0,0,4310,22,0
+24947,Greater Dreamless Sleep Potion,24922,0,0,4316,23,0
+24948,Major Dreamless Sleep Potion,24922,0,0,4317,24,0
+24949,Mad Alchemist's Potion,24922,0,0,4324,25,0
 24952,Combat Healing Potion,24922,1,0,7908,26,0
 24954,Major Combat Healing Potion,24922,1,0,5178,27,0
 24955,Major Combat Healing Potion,24922,1,0,5179,28,0
@@ -6912,44 +7027,61 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 24978,Super Mana Potion,24974,0,0,4312,2,0
 24979,Bottled Nethergon Energy,24974,0,0,4313,3,0
 24980,Crystal Mana Potion,24974,0,0,4314,4,0
+24981,Dreamless Sleep Potion,24974,0,0,4315,5,0
+24982,Greater Dreamless Sleep Potion,24974,0,0,4316,6,0
+24983,Major Dreamless Sleep Potion,24974,0,0,4317,7,0
 24984,Fel Mana Potion,24974,0,0,4321,8,0
 24985,Greater Mana Potion,24974,0,0,4322,9,0
 24986,Lesser Mana Potion,24974,0,0,4323,10,0
+24987,Mad Alchemist's Potion,24974,0,0,4324,11,0
 24988,Major Mana Draught,24974,0,0,4326,12,0
 24989,Superior Mana Draught,24974,0,0,4327,13,0
 24990,Major Mana Potion,24974,0,0,4328,14,0
+24991,Major Rejuvenation Potion,24974,0,0,4329,15,0
 24992,Mana Potion,24974,0,0,4330,16,0
 24993,Minor Mana Potion,24974,0,0,4331,17,0
 24994,Rulkster's Brain Juice,24974,0,0,4332,18,0
 24995,Superior Mana Potion,24974,0,0,4333,19,0
+24996,Super Rejuvenation Potion,24974,0,0,4334,20,0
 24997,Unstable Mana Potion,24974,0,0,4335,21,0
+24998,Wildvine Potion,24974,0,0,4336,22,0
 25000,Major Combat Mana Potion,24974,0,0,5185,23,0
 25003,Combat Mana Potion,24974,1,0,7905,24,0
 25004,Major Combat Mana Potion,24974,0,0,5186,25,0
 25005,Major Combat Mana Potion,24974,0,0,5187,26,0
 25006,Major Combat Mana Potion,24974,0,0,5188,27,0
+25009,Minor Rejuvenation Potion,24974,0,0,7420,28,0
 25016,server-only,0,1,7,0,0,2
 25017,Auchenai Mana Potion,25016,0,0,4308,0,0
 25019,Mana Potion Injector,25016,0,0,4311,1,0
 25020,Super Mana Potion,25016,0,0,4312,2,0
 25021,Bottled Nethergon Energy,25016,0,0,4313,3,0
 25022,Crystal Mana Potion,25016,0,0,4314,4,0
+25023,Dreamless Sleep Potion,25016,0,0,4315,5,0
+25024,Greater Dreamless Sleep Potion,25016,0,0,4316,6,0
+25025,Major Dreamless Sleep Potion,25016,0,0,4317,7,0
 25026,Fel Mana Potion,25016,0,0,4321,8,0
 25027,Greater Mana Potion,25016,0,0,4322,9,0
 25028,Lesser Mana Potion,25016,0,0,4323,10,0
+25029,Mad Alchemist's Potion,25016,0,0,4324,11,0
 25030,Major Mana Draught,25016,0,0,4326,12,0
 25031,Superior Mana Draught,25016,0,0,4327,13,0
 25032,Major Mana Potion,25016,0,0,4328,14,0
+25033,Major Rejuvenation Potion,25016,0,0,4329,15,0
 25034,Mana Potion,25016,0,0,4330,16,0
 25035,Minor Mana Potion,25016,0,0,4331,17,0
 25036,Rulkster's Brain Juice,25016,0,0,4332,18,0
 25037,Superior Mana Potion,25016,0,0,4333,19,0
+25038,Super Rejuvenation Potion,25016,0,0,4334,20,0
 25039,Unstable Mana Potion,25016,0,0,4335,21,0
+25040,Wildvine Potion,25016,0,0,4336,22,0
 25042,Major Combat Mana Potion,25016,0,0,5185,23,0
 25045,Combat Mana Potion,25016,1,0,7905,24,0
 25046,Major Combat Mana Potion,25016,0,0,5186,25,0
 25047,Major Combat Mana Potion,25016,0,0,5187,26,0
 25048,Major Combat Mana Potion,25016,0,0,5188,27,0
+25051,Minor Rejuvenation Potion,25016,0,0,7420,28,0
+25052,Potion of Nightmares,25016,0,0,7421,29,0
 25058,Elixir of Minor Accuracy,285,0,0,20846,111,0
 25059,Ghost Elixir,285,0,0,19162,112,0
 25060,Elixir of the Naga,285,0,0,19163,113,0
@@ -8153,7 +8285,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 26303,Conjured Rye,25909,0,0,6537,393,2
 26304,Conjured Pumpernickel,25909,0,0,6536,394,2
 26305,Conjured Muffin,25909,0,0,6535,395,2
+26306,Conjured Mana Strudel,25909,0,0,6534,396,2
 26307,Conjured Mana Pie,25909,0,0,6533,397,2
+26308,Conjured Mana Biscuit,25909,0,0,6532,398,2
 26309,Conjured Croissant,25909,0,0,6531,399,2
 26310,Conjured Cinnamon Roll,25909,0,0,6530,400,2
 26311,Conjured Bread,25909,0,0,6529,401,2
@@ -8242,6 +8376,12 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 26394,Forsaken Foie Gras,25909,0,0,18604,484,2
 26395,Troll Tartare,25909,0,0,18605,485,2
 26396,Silvermoon Steak,25909,0,0,18606,486,2
+26397,Dried Sausage,25909,0,0,18619,487,2
+26398,Succulent Sausage,25909,0,0,18620,488,2
+26399,Spiced Onion Cheese,25909,0,0,18621,489,2
+26400,Pickled Sausage,25909,0,0,18622,490,2
+26401,Spicy Smoked Sausage,25909,0,0,18623,491,2
+26402,The Golden Link,25909,0,0,18624,492,2
 26403,Conjured Mana Cookie,25909,0,0,18625,493,2
 26404,Conjured Mana Brownie,25909,0,0,18626,494,2
 26405,Conjured Mana Cupcake,25909,0,0,18627,495,2
@@ -8659,7 +8799,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 26817,Conjured Rye,26423,0,0,6537,393,2
 26818,Conjured Pumpernickel,26423,0,0,6536,394,2
 26819,Conjured Muffin,26423,0,0,6535,395,2
+26820,Conjured Mana Strudel,26423,0,0,6534,396,2
 26821,Conjured Mana Pie,26423,0,0,6533,397,2
+26822,Conjured Mana Biscuit,26423,0,0,6532,398,2
 26823,Conjured Croissant,26423,0,0,6531,399,2
 26824,Conjured Cinnamon Roll,26423,0,0,6530,400,2
 26825,Conjured Bread,26423,0,0,6529,401,2
@@ -8748,6 +8890,12 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 26908,Forsaken Foie Gras,26423,0,0,18604,484,2
 26909,Troll Tartare,26423,0,0,18605,485,2
 26910,Silvermoon Steak,26423,0,0,18606,486,2
+26911,Dried Sausage,26423,0,0,18619,487,2
+26912,Succulent Sausage,26423,0,0,18620,488,2
+26913,Spiced Onion Cheese,26423,0,0,18621,489,2
+26914,Pickled Sausage,26423,0,0,18622,490,2
+26915,Spicy Smoked Sausage,26423,0,0,18623,491,2
+26916,The Golden Link,26423,0,0,18624,492,2
 26917,Conjured Mana Cookie,26423,0,0,18625,493,2
 26918,Conjured Mana Brownie,26423,0,0,18626,494,2
 26919,Conjured Mana Cupcake,26423,0,0,18627,495,2
@@ -8979,6 +9127,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 45212,,45150,0,0,28864,5,2
 70878,,1272,0,0,16515,1,0
 70879,Eye of the Storm flag captures,1278,0,0,33092,1,0
+70880,Eye of the Storm victories,9109,0,0,5897,1,0
 79705,Warsong Gulch,5507,0,0,45067,1,0
 79709,Warsong Gulch flags returned,5224,0,0,45077,1,0
 79710,Warsong Gulch flags captured,4043,0,0,45077,1,0
@@ -8990,6 +9139,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 81958,Ruins of Lordaeron 2v2 Wins,6151,0,0,46365,11,0
 81960,Ruins of Lordaeron 2v2 Wins,6151,0,0,46367,12,0
 81961,Ruins of Lordaeron 2v2 Wins,6151,0,0,46368,13,0
+81964,Lordaeron Wins,2919,0,0,8589,2,0
 81970,Dalaran 2v2 Matches,539,0,0,46372,6,0
 81971,Dalaran 2v2 Matches,539,0,0,46373,7,0
 81972,Dalaran 2v2 Matches,539,0,0,46374,8,0
@@ -9018,9 +9168,6 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 88345,3v3 Deaths,88343,0,0,4963,1,2
 88346,server-only,0,0,5,0,0,2
 88362,,88346,0,0,50460,0,0
-88365,,3074,0,0,7849,1,0
-88366,,3074,0,0,50010,2,0
-88367,,3074,0,0,50011,3,0
 88919,Alterac Valley towers captured,9924,0,0,50389,1,0
 89036,Blade's Edge Arena matches,808,0,0,46403,1,0
 89037,Circle of Blood victories,15892,0,0,36479,1,0
@@ -9051,6 +9198,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 91546,server-only,0,1,5,0,0,2
 91547,Bazzalan kills (Ragefire Chasm),91546,1,0,19213,0,2
 91548,server-only,0,1,5,0,0,2
+91549,Mutanus the Devourer kills (Wailing Caverns),91548,1,0,18524,0,2
 91550,server-only,0,1,5,0,0,2
 91551,Bazil Thredd kills (Stormwind Stockade),91550,1,0,18527,0,2
 91552,server-only,0,0,4,0,0,2
@@ -9110,7 +9258,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 121231,Exalted with Stormwind,121217,42000,0,5331,0,0
 121232,Exalted with The Sunreavers,121217,42000,0,5342,0,0
 121249,,0,0,4,0,0,0
-121250,"Thori'dal, the Stars' Fury",121249,1,0,741,0,2
+121250,"Thori'dal, the Stars' Fury",121249,1,0,4617,0,2
 121251,,121249,1,0,12482,0,2
 121252,,0,1,8,0,0,0
 121253,Lady Vashj,121252,1,0,3258,0,2
@@ -9129,7 +9277,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 121266,Cobra-Lash Boots,121252,1,0,4851,0,2
 121267,Crystalforge Greathelm,121252,1,0,4866,0,2
 121268,Crystalforge War-Helm,121252,1,0,4867,0,2
-121269,The Vials of Eternity,121252,1,0,4497,0,2
+121269,The Vials of Eternity,121252,1,0,744,0,2
 121270,Nordrassil Headpiece,121252,1,0,4877,0,2
 121271,Ring of Endless Coils,121252,1,0,4858,0,2
 121272,Vashj's Vial Remnant,121252,1,0,7871,0,2
@@ -9147,9 +9295,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 121284,Crystalforge Faceguard,121252,1,0,4865,0,2
 121285,Nordrassil Headdress,121252,1,0,4875,0,2
 121286,,0,0,4,0,0,0
-121287,Eye of the Storm Honorable Kills,121286,0,0,5510,0,0
+121287,Eye of the Storm Honorable Kills,121286,0,0,5502,0,0
 121288,,0,0,4,0,0,0
-121289,Alterac Valley Honorable Kills,121288,0,0,5507,0,0
+121289,Alterac Valley Honorable Kills,121288,0,0,5500,0,0
 121290,,0,0,4,0,0,0
 121291,Granite Springs,121290,0,0,4182,0,0
 121292,Venture Bay,121290,0,0,4186,0,0
@@ -9209,7 +9357,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 121359,,0,0,4,0,0,0
 121360,The Black Stalker,121359,1,0,3712,0,2
 121361,,0,1,8,0,0,0
-121362,Trial of the Naaru: Strength,121361,1,0,4486,0,2
+121362,Trial of the Naaru: Strength,121361,1,0,4474,0,2
 121363,Warlord Kalithresh,121361,1,0,3718,0,2
 121364,,0,1,8,0,0,0
 121365,Warchief Kargath Bladefist,121364,1,0,3719,0,2
@@ -9391,7 +9539,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 121545,Deathbringer,121541,1,0,4282,2,2
 121546,Ring of Binding,121541,1,0,4284,3,2
 121547,Shard of the Scale,121541,1,0,4287,12,2
-121548,The Only Prescription,121541,1,0,4269,5,2
+121548,The Only Prescription,121541,1,0,4437,5,2
 121549,The Forging of Quel'Serrar,121541,1,0,4270,6,2
 121550,Victory for the Alliance,121541,1,0,4266,7,2
 121551,Eskhandar's Collar,121541,1,0,4286,8,2
@@ -9510,9 +9658,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 121665,,0,0,4,0,0,0
 121666,Arathi Basin Shutout,121665,1,0,611,0,2
 121667,,0,0,4,0,0,0
-121668,Win Warsong Gulch,121667,1,0,140,0,2
+121668,Win Warsong Gulch,121667,1,0,5899,0,2
 121669,,0,1,8,0,0,0
-121670,Ossirian the Unscarred,121669,1,0,598,0,2
+121670,Ossirian the Unscarred,121669,1,0,18891,0,2
 121671,The Fall of Ossirian,121669,1,0,4265,0,2
 121672,,0,1,8,0,0,0
 121673,Prince Malchezaar,121672,1,0,3254,0,2
@@ -9554,9 +9702,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 121712,Terror Pit Girdle,121678,1,0,4888,0,2
 121713,Warbringer Chestguard,121678,1,0,4903,0,2
 121714,,0,0,4,0,0,0
-121715,Win Eye of the Storm.,121714,1,0,5745,0,2
+121715,Win Eye of the Storm.,121714,1,0,5897,0,2
 121716,,0,0,4,0,0,0
-121717,Complete 100 victories in Eye of the Storm,121716,100,0,5745,0,1
+121717,Complete 100 victories in Eye of the Storm,121716,100,0,5897,0,1
 121718,,0,0,4,0,0,0
 121719,Capture a flag with 4 bases held,121718,1,0,3693,0,2
 121720,,0,0,4,0,0,0
@@ -9569,7 +9717,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 121727,Ironstone Plateau,121720,1,0,1458,0,0
 121728,,0,0,4,0,0,0
 121742,,0,0,4,0,0,0
-121743,Arathi Basin Honorable Kills,121742,0,0,5508,0,0
+121743,Arathi Basin Honorable Kills,121742,0,0,5499,0,0
 121744,,0,1,6,0,0,0
 121745,Alterac Valley Runecloth Bandage,121744,1,0,3301,0,0
 121746,Heavy Silk Bandage,121744,1,0,3315,0,0
@@ -9610,7 +9758,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 121783,Dreadsteed of Xoroth,121782,1,0,8905,0,2
 121801,,0,0,5,0,0,0
 121802,Kill an NPC that yields XP,121801,0,0,4946,0,0
-121803,Honroable Kills,121801,0,0,9160,0,0
+121803,Honroable Kills,121801,0,0,13253,0,0
 121804,,0,0,4,0,0,0
 121805,90 Shadowmoon Valley quests,121804,90,0,3589,0,1
 121806,,0,1,8,0,0,0
@@ -9655,7 +9803,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 121845,Pathaleon the Calculator,121844,1,0,3250,0,2
 121846,How to Break Into the Arcatraz,121844,1,0,4480,0,2
 121847,,0,1,8,0,0,0
-121848,Archimonde,121847,1,0,604,0,2
+121848,Archimonde,121847,1,0,18537,0,2
 121849,Bristleblitz Striker,121847,1,0,4620,0,2
 121850,Cataclysm's Edge,121847,1,0,4621,0,2
 121851,Legguards of Endless Rage,121847,1,0,4623,0,2
@@ -9737,7 +9885,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 121930,,0,0,4,0,0,0
 121931,Complete 50 daily quests,121930,50,0,4984,0,1
 121932,,0,0,4,0,0,0
-121933,Warsong Gulch Victories,121932,0,0,140,0,0
+121933,Warsong Gulch Victories,121932,0,0,5899,0,0
 121934,,0,0,4,0,0,0
 121936,,0,0,4,0,0,0
 121937,Blacksmithing plans known,121936,0,0,7224,0,0
@@ -10021,7 +10169,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 122228,Grand Widow Faerlina,122226,1,0,5126,0,0
 122229,Maexxna,122226,1,0,6405,0,0
 122230,,0,0,4,0,0,0
-122231,Complete 100 victories in Warsong Gulch,122230,100,0,140,0,1
+122231,Complete 100 victories in Warsong Gulch,122230,100,0,5899,0,1
 122232,,0,0,4,0,0,0
 122233,Largest heal cast,122232,0,0,5376,0,0
 122234,,0,0,4,0,0,0
@@ -10480,7 +10628,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 122689,Warsong Gulch Iron Ration,122443,0,0,8689,0,2
 122690,Defiler's Enriched Ration,122443,0,0,8694,0,2
 122691,Clefthoof Ribs,122443,0,0,6528,0,2
-122692,Conjured Mana Biscuit,122443,0,0,4670,0,2
+122692,Conjured Mana Biscuit,122443,0,0,6532,0,2
 122693,Carrot Cupcake,122443,0,0,6519,0,2
 122694,Charred Bear Kabobs,122443,0,0,6520,0,2
 122695,Crusty Flatbread,122443,0,0,6556,0,2
@@ -10511,7 +10659,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 122720,Clam Chowder,122443,0,0,6525,0,2
 122721,Clamlette Surprise,122443,0,0,6527,0,2
 122722,Conjured Bread,122443,0,0,6529,0,2
-122723,Conjured Mana Strudel,122443,0,0,13257,0,2
+122723,Conjured Mana Strudel,122443,0,0,6534,0,2
 122724,Conjured Muffin,122443,0,0,6535,0,2
 122725,Conjured Rye,122443,0,0,6537,0,2
 122726,Conjured Sourdough,122443,0,0,6538,0,2
@@ -10655,13 +10803,13 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 122864,Crunchy Serpent,122443,0,0,6553,0,2
 122865,Mag'har Mild Cheese,122443,0,0,6873,0,2
 122866,,0,0,4,0,0,0
-122867,Get 100 honorable kills,122866,100,0,9160,0,1
+122867,Get 100 honorable kills,122866,100,0,13253,0,1
 122868,,0,0,4,0,0,0
 122869,Elder Bladeswift in Darnassus,122868,1,0,1999,0,0
 122870,Elder Bronzebeard in Ironforge,122868,1,0,1997,0,0
 122871,Elder Hammershout in Stormwind,122868,1,0,1998,0,0
 122872,,0,0,4,0,0,0
-122873,Gold from vendors,122872,0,0,3361,0,8
+122873,Gold from vendors,122872,0,0,4091,0,8
 122874,,0,42000,7,0,0,0
 122875,Exlated with the Sha'tar,122874,42000,0,4764,0,0
 122876,Exlated with the Scale of the Sands,122874,42000,0,4766,0,0
@@ -10751,7 +10899,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 122960,Zabra'jin,122943,1,0,1659,0,0
 122961,Twin Spire Ruins,122943,1,0,1652,0,0
 122962,,0,0,4,0,0,0
-122963,Get 50000 honorable kills,122962,50000,0,9160,0,1
+122963,Get 50000 honorable kills,122962,50000,0,13253,0,1
 122964,,0,1,8,0,0,0
 122965,Swift Razzashi Raptor,122964,0,0,6162,0,2
 122966,,0,1,8,0,0,0
@@ -10804,7 +10952,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 123015,Fished up Lurker,123014,1,0,3622,0,2
 123016,Eye of the Storm victories,0,0,4,0,0,0
 123018,,0,0,4,0,0,0
-123019,Arathi Basin victories,123018,0,0,102,0,0
+123019,Arathi Basin victories,123018,0,0,5896,0,0
 123020,,0,0,4,0,0,0
 123021,Get a reputation to exalted,123020,1,0,982,0,2
 123022,,0,0,4,0,0,0
@@ -11033,7 +11181,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 123253,,0,0,4,0,0,0
 123254,Complete 1500 quests,123253,1500,0,3631,0,1
 123255,,0,0,4,0,0,0
-123256,Get 500 honorable kills,123255,500,0,9160,0,1
+123256,Get 500 honorable kills,123255,500,0,13253,0,1
 123257,,0,0,4,0,0,0
 123258,20 reputations to Exalted,123257,20,0,982,0,1
 123259,,0,0,4,0,0,0
@@ -11055,7 +11203,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 123275,,0,0,4,0,0,0
 123276,Deaths in Alterac Valley,123275,0,0,108,0,0
 123277,,0,0,4,0,0,0
-123278,Win Arathi Basin,123277,1,0,102,0,2
+123278,Win Arathi Basin,123277,1,0,5896,0,2
 123279,,0,0,4,0,0,0
 123280,Fishing skill,123279,525,0,5696,0,1
 123281,,0,0,4,0,0,0
@@ -11231,12 +11379,12 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 123457,Warsong Gulch Mageweave Bandage,123428,1,0,3322,0,0
 123458,Runecloth Bandage,123428,1,0,3319,0,0
 123459,,0,0,5,0,0,0
-123460,Alterac Valley,123459,0,0,5742,0,0
+123460,Alterac Valley,123459,0,0,17411,0,0
 123461,Strand of the Ancients,123459,0,0,5898,0,0
-123462,Warsong Gulch,123459,0,0,140,0,0
-123463,Arathi Basin,123459,0,0,102,0,0
-123464,Eye of the Storm,123459,0,0,5745,0,0
-123465,Isle of Conquest,123459,0,0,13369,0,0
+123462,Warsong Gulch,123459,0,0,5899,0,0
+123463,Arathi Basin,123459,0,0,5896,0,0
+123464,Eye of the Storm,123459,0,0,5897,0,0
+123465,Isle of Conquest,123459,0,0,17904,0,0
 123466,,0,0,4,0,0,0
 123467,Win 10 Arathi Basin matches while controlling all 5 flags,123466,10,0,1234,0,1
 123468,,0,0,4,0,0,0
@@ -11248,11 +11396,11 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 123474,,0,0,4,0,0,0
 123475,Chief Ukorz Sandscalp,123474,1,0,3265,0,2
 123476,,0,1,8,0,0,0
-123477,Princess Theradras,123476,1,0,540,0,2
+123477,Princess Theradras,123476,1,0,18532,0,2
 123478,Corruption of Earth and Seed,123476,1,0,4260,0,2
 123479,Corruption of Earth and Seed,123476,1,0,4259,0,2
 123480,,0,1,8,0,0,0
-123481,Omor the Unscarred,123480,1,0,552,0,2
+123481,Omor the Unscarred,123480,1,0,18536,0,2
 123482,Weaken the Ramparts,123480,1,0,4461,0,2
 123483,Weaken the Ramparts,123480,1,0,4462,0,2
 123484,,0,0,4,0,0,0
@@ -11262,7 +11410,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 123488,Undercutting the Competition,123486,1,0,4464,0,2
 123489,,0,1,8,0,0,0
 123490,Murmur,123489,1,0,3246,0,2
-123491,Trial of the Naaru: Strength,123489,1,0,4486,0,2
+123491,Trial of the Naaru: Strength,123489,1,0,4474,0,2
 123492,Into the Heart of the Labyrinth,123489,1,0,4469,0,2
 123493,Warsong Gulch - Kill Flag Carrier (Alliance),0,0,4,0,0,0
 123494,Horde Flag Carriers,123493,100,0,3698,0,1
@@ -11292,7 +11440,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 123534,Deaths in Naxxramas,123533,0,0,943,0,0
 123535,,0,1,8,0,0,0
 123536,Warlord Kalithresh,123535,1,0,3248,0,2
-123537,Trial of the Naaru: Strength,123535,1,0,4486,0,2
+123537,Trial of the Naaru: Strength,123535,1,0,4474,0,2
 123538,The Warlord's Hideout,123535,1,0,4473,0,2
 123539,,0,0,4,0,0,0
 123540,Storming Stormwind,123539,0,0,492,0,0
@@ -11392,7 +11540,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 123635,Tyrael's Hilt,123634,1,0,2430,0,2
 123636,Tyrael,123634,0,0,6158,0,2
 123637,,0,0,4,0,0,0
-123638,Honorable Kills,123637,0,0,9160,0,0
+123638,Honorable Kills,123637,0,0,13253,0,0
 123639,,0,0,4,0,0,0
 123640,Highest 3 man team rating,123639,0,0,449,0,0
 123641,,0,0,7,0,0,0
@@ -11480,10 +11628,10 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 123753,Sartharion the Onyx Guardian,123752,1,0,5138,0,0
 123754,,0,0,5,0,0,0
 123755,Redemption,123754,0,0,1245,0,0
-123756,Redemption,123754,0,0,7860,0,0
+123756,Redemption,123754,0,0,7859,0,0
 123757,Redemption,123754,0,0,7857,0,0
 123758,Redemption,123754,0,0,7858,0,0
-123759,Redemption,123754,0,0,7860,0,0
+123759,Redemption,123754,0,0,7859,0,0
 123760,Redemption,123754,0,0,7861,0,0
 123761,Redemption,123754,0,0,7862,0,0
 123762,Redemption,123754,0,0,7856,0,0
@@ -11533,7 +11681,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 123806,Deaths from Hogger,123805,0,0,455,0,0
 123807,Deaths from Hogger,123805,0,0,12038,0,0
 123808,,0,0,4,0,0,0
-123809,Alchemy skill,123808,525,0,164,0,1
+123809,Alchemy skill,123808,525,0,5565,0,1
 123810,,0,1,7,0,0,0
 123811,Body is Epic!,123810,1,0,4769,0,0
 123812,Chest is Epic!,123810,1,0,4770,0,0
@@ -11761,7 +11909,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 124046,Medallion of the Horde,124023,1,0,13370,0,2
 124047,Medallion of the Horde,124023,1,0,12639,0,2
 124048,,0,0,5,0,0,0
-124049,Money from vendors,124048,0,0,3361,0,8
+124049,Money from vendors,124048,0,0,4091,0,8
 124050,Money looted from creatures,124048,0,0,4093,0,8
 124051,Money from questing,124048,0,0,4092,0,8
 124052,Money from auctions,124048,0,0,4225,0,8
@@ -11855,7 +12003,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 124191,120 Netherstorm quests,124190,120,0,3588,0,1
 124192,,0,0,5,0,0,0
 124193,Total NPC kills,124192,0,0,4944,0,0
-124194,Honorable Kills,124192,0,0,9160,0,0
+124194,Honorable Kills,124192,0,0,13253,0,0
 124195,,0,1,7,0,0,0
 124196,Leatherworking,124195,1,0,5558,0,0
 124197,Mining,124195,1,0,5559,0,0
@@ -11881,7 +12029,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 124217,,0,0,4,0,0,0
 124218,Spirit of Competition,124217,0,0,5814,0,2
 124219,,0,0,5,0,0,0
-124220,Money from vendors,124219,0,0,3361,0,8
+124220,Money from vendors,124219,0,0,4091,0,8
 124221,Money looted from creatures,124219,0,0,4093,0,8
 124222,Money from questing,124219,0,0,4092,0,8
 124223,Money from auctions,124219,0,0,4225,0,8
@@ -12002,7 +12150,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 124365,,0,0,4,0,0,0
 124366,Factions at revered,124365,0,0,5299,0,0
 124367,,0,0,4,0,0,0
-124368,Get 10000 honorable kills,124367,10000,0,9160,0,1
+124368,Get 10000 honorable kills,124367,10000,0,13253,0,1
 124369,,0,1,8,0,0,0
 124370,Nefarian,124369,1,0,3273,0,2
 124371,"Ashkandi, Greatsword of the Brotherhood",124369,1,0,4566,0,2
@@ -12030,7 +12178,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 124393,Netherwind Robes,124369,1,0,4583,0,2
 124394,"Mish'undare, Circlet of the Mind Flayer",124369,1,0,4571,0,2
 124395,,0,525,7,0,0,0
-124396,Alchemy,124395,525,0,164,0,0
+124396,Alchemy,124395,525,0,5565,0,0
 124397,Enchanting,124395,525,0,5567,0,0
 124398,Engineering,124395,525,0,5722,0,0
 124399,Herbalism,124395,525,0,5569,0,0
@@ -12064,9 +12212,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 124427,Orgrimmar,124424,5,0,6635,0,0
 124428,Undercity,124424,5,0,6636,0,0
 124429,,0,0,4,0,0,0
-124430,Achieve an honorable kill,124429,1,0,9160,0,2
+124430,Achieve an honorable kill,124429,1,0,13253,0,2
 124431,,0,0,4,0,0,0
-124432,Get 25000 honorable kills,124431,25000,0,9160,0,1
+124432,Get 25000 honorable kills,124431,25000,0,13253,0,1
 124433,,0,0,4,0,0,0
 124434,Alterac Valley towers captured,124433,0,0,437,0,0
 124435,,0,0,4,0,0,0
@@ -12074,16 +12222,16 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 124443,,0,0,4,0,0,0
 124444,Gal'darah,124443,1,0,5614,0,0
 124445,,0,1,8,0,0,0
-124446,Charlga Razorflank,124445,1,0,531,0,2
+124446,Charlga Razorflank,124445,1,0,18528,0,2
 124447,A Vengeful Fate,124445,1,0,4250,0,2
 124448,The Crone of the Kraul,124445,1,0,4251,0,2
 124449,An Unholy Alliance,124445,1,0,4409,0,2
 124450,,0,1,8,0,0,0
 124451,Bring the End,124450,1,0,4255,0,2
 124452,Bring the Light,124450,1,0,4254,0,2
-124453,Amnennar the Coldbringer,124450,1,0,532,0,2
+124453,Amnennar the Coldbringer,124450,1,0,18530,0,2
 124454,,0,1,8,0,0,0
-124455,Archaedas,124454,1,0,538,0,2
+124455,Archaedas,124454,1,0,18531,0,2
 124456,Find the Gems and Power Source,124454,1,0,4257,0,2
 124457,Restoring the Necklace,124454,1,0,4258,0,2
 124458,The Platinum Discs ,124454,1,0,4256,0,2
@@ -12128,7 +12276,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 124498,Band of Sulfuras,124492,1,0,4545,0,2
 124499,Choker of the Fire Lord,124492,1,0,4546,0,2
 124500,Crown of Destruction,124492,1,0,4549,0,2
-124501,The Only Prescription,124492,1,0,4269,0,2
+124501,The Only Prescription,124492,1,0,4437,0,2
 124502,Leggings of Transcendence,124492,1,0,4550,0,2
 124503,Legplates of Wrath,124492,1,0,4553,0,2
 124504,Nemesis Leggings,124492,1,0,4556,0,2
@@ -12206,7 +12354,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 124579,Alterac Valley,124578,0,0,104,0,0
 124580,Warsong Gulch,124578,0,0,5747,0,0
 124581,Arathi Basin,124578,0,0,106,0,0
-124582,Strand of the Ancients,124578,0,0,5894,0,0
+124582,Strand of the Ancients,124578,0,0,5743,0,0
 124583,Eye of the Storm,124578,0,0,105,0,0
 124584,Isle of Conquest,124578,0,0,13368,0,0
 124585,,0,0,4,0,0,0
@@ -12220,7 +12368,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 124593,40 torches,124592,40,0,6937,0,1
 124594,,0,1,8,0,0,0
 124595,Kael'thas Sunstrider,124594,1,0,3259,0,2
-124596,The Vials of Eternity,124594,1,0,4497,0,2
+124596,The Vials of Eternity,124594,1,0,744,0,2
 124597,Band of the Ranger-General,124594,1,0,4821,0,2
 124598,Crown of the Sun,124594,1,0,4822,0,2
 124599,Rod of the Sun King,124594,1,0,4825,0,2
@@ -12312,14 +12460,14 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 124685,Tattered Cape of Antonidas,124661,1,0,4615,0,2
 124686,Shroud of Chieftain Ner'zhul,124661,1,0,4653,0,2
 124687,Hand of the Deceiver,124661,1,0,4610,0,2
-124688,"Thori'dal, the Stars' Fury",124661,1,0,741,0,2
+124688,"Thori'dal, the Stars' Fury",124661,1,0,4617,0,2
 124689,Cover of Ursoc the Mighty,124661,1,0,4647,0,2
 124690,Handguards of Defiled Worlds,124661,1,0,4611,0,2
 124691,,0,1,8,0,0,0
 124692,Magical Crawdad Box,124691,1,0,799,0,2
 124693,Magical Crawdad,124691,0,0,6382,0,2
 124694,,0,0,4,0,0,0
-124695,The Vials of Eternity,124694,1,0,4497,0,2
+124695,The Vials of Eternity,124694,1,0,744,0,2
 124696,A Distraction for Akama,124694,1,0,745,0,2
 124697,,0,1,8,0,0,0
 124698,Diablo Stone,124697,1,0,569,0,2
@@ -12602,7 +12750,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 124985,Cauldros Isle,124965,0,0,4137,0,0
 124986,Fort Wildervar,124965,0,0,4148,0,0
 124987,,0,0,4,0,0,0
-124988,Get 1000 honorable kills,124987,1000,0,9160,0,1
+124988,Get 1000 honorable kills,124987,1000,0,13253,0,1
 124989,,0,0,4,0,0,0
 124990,Kill 5 people at the farm,124989,5,0,432,0,0
 124991,Kill 5 people at the gold mine,124989,5,0,433,0,0
@@ -12615,7 +12763,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 124998,,0,0,4,0,0,0
 124999,Fish caught,124998,0,0,5695,0,0
 125000,,0,0,4,0,0,0
-125001,Ring of Valor victories,125000,0,0,5737,0,0
+125001,Ring of Valor victories,125000,0,0,8590,0,0
 125002,,0,0,4,0,0,0
 125003,Strand of the Ancients Honorable Kills,125002,0,0,5511,0,0
 125004,,0,0,5,0,0,0
@@ -12683,7 +12831,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 125100,,0,0,4,0,0,0
 125101,Complete 200 daily quests,125100,200,0,4984,0,1
 125106,,0,1,8,0,0,0
-125107,Mekgineer Thermaplugg,125106,1,0,530,0,2
+125107,Mekgineer Thermaplugg,125106,1,0,18529,0,2
 125108,The Grand Betrayal,125106,1,0,4252,0,2
 125109,Rig Wars,125106,1,0,4253,0,2
 125110,,0,0,4,0,0,0
@@ -12732,7 +12880,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 125156,,0,0,4,0,0,0
 125157,Find Fish,125156,0,0,3681,0,2
 125158,,0,1,8,0,0,0
-125159,Overcome a 500 resource disadvantage,125158,1,0,3805,0,2
+125159,Overcome a 500 resource disadvantage,125158,1,0,3804,0,2
 125167,Overcome a 500 resource disadvantage,125158,1,0,3804,0,2
 125169,,0,0,4,0,0,0
 125170,Complete 5 daily quests,125169,5,0,4984,0,1
@@ -12756,9 +12904,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 125190,,0,0,4,0,0,0
 125191,Warsong Gulch flags captured,125190,0,0,439,0,0
 125192,,0,0,4,0,0,0
-125193,Aku'mai,125192,1,0,528,0,2
+125193,Aku'mai,125192,1,0,18526,0,2
 125194,,0,1,8,0,0,0
-125195,Overlord Wyrmthalak,125194,1,0,544,0,2
+125195,Overlord Wyrmthalak,125194,1,0,18534,0,2
 125196,Maxwell's Mission,125194,1,0,4440,0,2
 125197,Seal of Ascension,125194,1,0,4446,0,2
 125198,Warlord's Command,125194,1,0,4441,0,2
@@ -13003,14 +13151,14 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 125445,Frenzied Firecracker,125435,0,0,6289,0,0
 125446,Elders of Northrend,125435,0,0,5162,0,0
 125447,,0,0,4,0,0,0
-125448,Succulent Sausage,125447,1,0,3547,0,0
-125449,Dried Sausage,125447,1,0,3542,0,0
-125450,Pickled Sausage,125447,1,0,3543,0,0
+125448,Succulent Sausage,125447,1,0,18620,0,0
+125449,Dried Sausage,125447,1,0,18619,0,0
+125450,Pickled Sausage,125447,1,0,18622,0,0
 125451,Savory Sausage,125447,1,0,3544,0,0
-125452,Spiced Onion Cheese,125447,1,0,3545,0,0
-125453,Spicy Smoked Sausage,125447,1,0,3546,0,0
+125452,Spiced Onion Cheese,125447,1,0,18621,0,0
+125453,Spicy Smoked Sausage,125447,1,0,18623,0,0
 125454,The Essential Brewfest Pretzel,125447,1,0,7987,0,0
-125455,The Golden Link,125447,1,0,3549,0,0
+125455,The Golden Link,125447,1,0,18624,0,0
 125456,,0,0,4,0,0,0
 125457,Bomb Them Again!,125456,1,0,3923,0,2
 125458,,0,1,8,0,0,0
@@ -13048,7 +13196,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 125490,,0,0,4,0,0,0
 125491,Level to 80,125490,80,0,5018,0,2
 125492,,0,1,8,0,0,0
-125493,Trial of the Naaru: Strength,125492,1,0,4486,0,2
+125493,Trial of the Naaru: Strength,125492,1,0,4474,0,2
 125494,Murmur,125492,1,0,3716,0,2
 125495,,0,0,4,0,0,0
 125496,The Fires of Azeroth,125495,0,0,3205,0,0
@@ -13448,7 +13596,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 125913,,0,0,4,0,0,0
 125914,Level to 80,125913,80,0,5233,0,2
 125915,,0,0,4,0,0,0
-125916,Strand of the Ancients,125915,0,0,5894,0,0
+125916,Strand of the Ancients,125915,0,0,5743,0,0
 125917,,0,0,4,0,0,0
 125918,Fires Over Skettis,125917,1,0,3922,0,2
 125919,,0,0,4,0,0,0
@@ -13506,10 +13654,10 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 125972,Saving the Best for Last,125959,1,0,5069,0,2
 125973,Saving the Best for Last,125959,1,0,5070,0,2
 125974,Saving the Best for Last,125959,1,0,5075,0,2
-125975,Saving the Best for Last,125959,1,0,5057,0,2
+125975,Saving the Best for Last,125959,1,0,5072,0,2
 125976,Saving the Best for Last,125959,1,0,5067,0,2
 125977,Saving the Best for Last,125959,1,0,5068,0,2
-125978,Saving the Best for Last,125959,1,0,5057,0,2
+125978,Saving the Best for Last,125959,1,0,5072,0,2
 125979,Saving the Best for Last,125959,1,0,5058,0,2
 125980,Saving the Best for Last,125959,1,0,5064,0,2
 125981,Saving the Best for Last,125959,1,0,5074,0,2
@@ -13759,7 +13907,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 126286,,0,0,4,0,0,0
 126287,Catch 50 fish,126286,50,0,5288,0,1
 126288,,0,0,4,0,0,0
-126289,Get 5000 honorable kills,126288,5000,0,9160,0,1
+126289,Get 5000 honorable kills,126288,5000,0,13253,0,1
 126290,,0,0,4,0,0,0
 126291,Level to 80,126290,80,0,5230,0,2
 126292,,0,0,4,0,0,0
@@ -13791,7 +13939,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 126327,Jintha'Alor,126314,1,0,1127,0,0
 126328,Valorwind Lake,126314,1,0,1120,0,0
 126329,,0,1,8,0,0,0
-126330,Shade of Eranikus,126329,1,0,541,0,2
+126330,Shade of Eranikus,126329,1,0,18533,0,2
 126331,The Essence of Eranikus,126329,1,0,4261,0,2
 126332,,0,0,4,0,0,0
 126333,Return 5 flags in a single battle,126332,5,0,1801,0,1
@@ -13864,7 +14012,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 126413,Cleansing Drak'Tharon,126412,1,0,5804,0,0
 126414,Betrayal,126412,1,0,5805,0,0
 126415,,0,0,4,0,0,0
-126416,Skill to 450,126415,450,0,164,0,2
+126416,Skill to 450,126415,450,0,5565,0,2
 126417,,0,0,4,0,0,0
 126418,Level to 80,126417,80,0,5237,0,2
 126419,,0,0,4,0,0,0
@@ -13920,40 +14068,40 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 126469,Runecloth Bandage,126439,1,0,3319,0,0
 126470,,0,0,7,0,0,0
 126471,Superior Healing Draught,126470,0,0,4304,0,0
-126472,Major Dreamless Sleep Potion,126470,0,0,4320,0,0
-126473,Dreamless Sleep Potion,126470,0,0,4318,0,0
+126472,Major Dreamless Sleep Potion,126470,0,0,4317,0,0
+126473,Dreamless Sleep Potion,126470,0,0,4315,0,0
 126474,Lesser Healing Potion,126470,0,0,4295,0,0
 126475,Bottled Nethergon Vapor,126470,0,0,4289,0,0
 126476,Discolored Healing Potion,126470,0,0,4291,0,0
 126477,Major Healing Potion,126470,0,0,4297,0,0
-126478,Major Rejuvenation Potion,126470,0,0,4298,0,0
+126478,Major Rejuvenation Potion,126470,0,0,4329,0,0
 126479,Minor Healing Potion,126470,0,0,4299,0,0
-126480,Greater Dreamless Sleep Potion,126470,0,0,4319,0,0
+126480,Greater Dreamless Sleep Potion,126470,0,0,4316,0,0
 126481,Volatile Healing Potion,126470,0,0,4306,0,0
-126482,Super Rejuvenation Potion,126470,0,0,4303,0,0
+126482,Super Rejuvenation Potion,126470,0,0,4334,0,0
 126483,Superior Healing Potion,126470,0,0,4305,0,0
 126484,Healing Potion Injector,126470,0,0,4309,0,0
 126485,Greater Healing Potion,126470,0,0,4293,0,0
 126486,Healing Potion,126470,0,0,4294,0,0
 126487,Rulkster's Secret Sauce,126470,0,0,4301,0,0
 126488,Endless Healing Potion,126470,1,0,7910,0,0
-126489,Powerful Rejuvenation Potion,126470,0,0,7423,0,0
-126490,Potion of Nightmares,126470,0,0,7424,0,0
+126489,Powerful Rejuvenation Potion,126470,0,0,7422,0,0
+126490,Potion of Nightmares,126470,0,0,7421,0,0
 126491,Noth's Special Brew,126470,1,0,7911,0,0
 126492,Super Healing Potion,126470,0,0,4310,0,0
-126493,Mad Alchemist's Potion,126470,0,0,4325,0,0
+126493,Mad Alchemist's Potion,126470,0,0,4324,0,0
 126494,Combat Healing Potion,126470,1,0,7908,0,0
 126495,Argent Healing Potion,126470,1,0,7909,0,0
 126496,Major Combat Healing Potion,126470,0,0,5180,0,0
 126497,Crystal Healing Potion,126470,0,0,4290,0,0
 126498,Auchenai Healing Potion,126470,0,0,4288,0,0
-126499,Minor Rejuvenation Potion,126470,0,0,4300,0,0
+126499,Minor Rejuvenation Potion,126470,0,0,7420,0,0
 126500,Runic Healing Injector,126470,0,0,6380,0,0
 126501,Major Combat Healing Potion,126470,0,0,5178,0,0
 126502,Major Combat Healing Potion,126470,0,0,5179,0,0
 126503,Major healing Draught,126470,0,0,4296,0,0
 126504,Fel Regeneration Potion,126470,0,0,4292,0,0
-126505,Wildvine Potion,126470,0,0,4307,0,0
+126505,Wildvine Potion,126470,0,0,4336,0,0
 126506,Major Combat Healing Potion,126470,0,0,5181,0,0
 126507,Runic Healing Potion,126470,0,0,5183,0,0
 126508,Resurgent Healing Potion,126470,0,0,5182,0,0
@@ -14155,20 +14303,20 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 126706,Feet,126691,1,0,3729,0,0
 126707,Waist,126691,1,0,3727,0,0
 126708,,0,0,7,0,0,0
-126709,Greater Dreamless Sleep Potion,126708,0,0,4319,0,0
-126710,Wildvine Potion,126708,0,0,4307,0,0
-126711,Major Dreamless Sleep Potion,126708,0,0,4320,0,0
+126709,Greater Dreamless Sleep Potion,126708,0,0,4316,0,0
+126710,Wildvine Potion,126708,0,0,4336,0,0
+126711,Major Dreamless Sleep Potion,126708,0,0,4317,0,0
 126712,Mana Potion Injector,126708,0,0,4311,0,0
 126713,Combat Mana Potion,126708,1,0,7905,0,0
 126714,Crystal Mana Potion,126708,0,0,4314,0,0
-126715,Dreamless Sleep Potion,126708,0,0,4318,0,0
+126715,Dreamless Sleep Potion,126708,0,0,4315,0,0
 126716,Greater Mana Potion,126708,0,0,4322,0,0
 126717,Major Mana Potion,126708,0,0,4328,0,0
-126718,Major Rejuvenation Potion,126708,0,0,4298,0,0
+126718,Major Rejuvenation Potion,126708,0,0,4329,0,0
 126719,Mana Potion,126708,0,0,4330,0,0
 126720,Rulkster's Brain Juice,126708,0,0,4332,0,0
 126721,Superior Mana Potion,126708,0,0,4333,0,0
-126722,Super Rejuvenation Potion,126708,0,0,4303,0,0
+126722,Super Rejuvenation Potion,126708,0,0,4334,0,0
 126723,Bottled Nethergon Energy,126708,0,0,4313,0,0
 126724,Fel Mana Potion,126708,0,0,4321,0,0
 126725,Major Combat Mana Potion,126708,0,0,5186,0,0
@@ -14176,9 +14324,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 126727,Major Combat Mana Potion,126708,0,0,5185,0,0
 126728,Argent Mana Potion,126708,1,0,7906,0,0
 126729,Endless Mana Potion,126708,1,0,7907,0,0
-126730,Powerful Rejuvenation Potion,126708,0,0,7423,0,0
-126731,Potion of Nightmares,126708,0,0,7424,0,0
-126732,Minor Rejuvenation Potion,126708,0,0,4300,0,0
+126730,Powerful Rejuvenation Potion,126708,0,0,7422,0,0
+126731,Potion of Nightmares,126708,0,0,7421,0,0
+126732,Minor Rejuvenation Potion,126708,0,0,7420,0,0
 126733,Icy Mana Potion,126708,0,0,5189,0,0
 126734,Super Mana Potion,126708,0,0,4312,0,0
 126735,Superior Mana Draught,126708,0,0,4327,0,0
@@ -14190,7 +14338,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 126741,Runic Mana Injector,126708,0,0,6379,0,0
 126742,Lesser Mana Potion,126708,0,0,4323,0,0
 126743,Runic Mana Potion,126708,0,0,5184,0,0
-126744,Mad Alchemist's Potion,126708,0,0,4325,0,0
+126744,Mad Alchemist's Potion,126708,0,0,4324,0,0
 126745,,0,0,6,0,0,0
 126746,Flask of the Frost Wyrm,126745,0,0,4423,0,0
 126747,Shattrath Flask of Relentless Assault,126745,0,0,4429,0,0
@@ -14228,12 +14376,12 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 126779,Frenzyheart Tribe,126778,0,0,2040,0,0
 126780,The Oracles,126778,0,0,2039,0,0
 126781,,0,1,8,0,0,0
-126782,Mutanus the Devourer,126781,1,0,526,0,2
+126782,Mutanus the Devourer,126781,1,0,18524,0,2
 126783,The Glowing Shard,126781,1,0,4246,0,2
 126784,,0,0,4,0,0,0
 126785,Blood Guard,126784,0,0,714,0,2
 126786,,0,0,4,0,0,0
-126787,Warsong Gulch Honorable Kills,126786,0,0,5509,0,0
+126787,Warsong Gulch Honorable Kills,126786,0,0,5501,0,0
 126788,,0,0,4,0,0,0
 126789,"""Gigantique"" Bag",126788,1,0,3390,0,2
 126790,,0,0,4,0,0,0
@@ -14355,7 +14503,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 126910,,0,0,4,0,0,0
 126911,Alzzin the Wildshaper,126910,1,0,545,0,0
 126912,Immol'thar,126910,1,0,546,0,0
-126913,King Gordok,126910,1,0,547,0,0
+126913,King Gordok,126910,1,0,18535,0,0
 126914,,0,0,4,0,0,0
 126915,Grand Widow Faerlina,126914,1,0,5101,0,0
 126916,,0,0,4,0,0,0
@@ -14384,7 +14532,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 126952,Alterac Valley,126951,0,0,104,0,0
 126953,Warsong Gulch,126951,0,0,5747,0,0
 126954,Arathi Basin,126951,0,0,106,0,0
-126955,Strand of the Ancients,126951,0,0,5894,0,0
+126955,Strand of the Ancients,126951,0,0,5743,0,0
 126956,Eye of the Storm,126951,0,0,105,0,0
 126957,Isle of Conquest,126951,0,0,13368,0,0
 126958,,0,0,4,0,0,0
@@ -14496,20 +14644,20 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 127084,,0,0,4,0,0,0
 127085,Lake Elune'ara,127084,1,0,1464,0,0
 127086,,0,0,5,0,0,0
-127087,Greater Dreamless Sleep Potion,127086,0,0,4319,0,0
-127088,Wildvine Potion,127086,0,0,4307,0,0
-127089,Major Dreamless Sleep Potion,127086,0,0,4320,0,0
+127087,Greater Dreamless Sleep Potion,127086,0,0,4316,0,0
+127088,Wildvine Potion,127086,0,0,4336,0,0
+127089,Major Dreamless Sleep Potion,127086,0,0,4317,0,0
 127090,Mana Potion Injector,127086,0,0,4311,0,0
 127091,Combat Mana Potion,127086,1,0,7905,0,0
 127092,Crystal Mana Potion,127086,0,0,4314,0,0
-127093,Dreamless Sleep Potion,127086,0,0,4318,0,0
+127093,Dreamless Sleep Potion,127086,0,0,4315,0,0
 127094,Greater Mana Potion,127086,0,0,4322,0,0
 127095,Major Mana Potion,127086,0,0,4328,0,0
-127096,Major Rejuvenation Potion,127086,0,0,4298,0,0
+127096,Major Rejuvenation Potion,127086,0,0,4329,0,0
 127097,Mana Potion,127086,0,0,4330,0,0
 127098,Rulkster's Brain Juice,127086,0,0,4332,0,0
 127099,Superior Mana Potion,127086,0,0,4333,0,0
-127100,Super Rejuvenation Potion,127086,0,0,4303,0,0
+127100,Super Rejuvenation Potion,127086,0,0,4334,0,0
 127101,Bottled Nethergon Energy,127086,0,0,4313,0,0
 127102,Fel Mana Potion,127086,0,0,4321,0,0
 127103,Major Combat Mana Potion,127086,0,0,5186,0,0
@@ -14517,9 +14665,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 127105,Major Combat Mana Potion,127086,0,0,5185,0,0
 127106,Argent Mana Potion,127086,1,0,7906,0,0
 127107,Endless Mana Potion,127086,1,0,7907,0,0
-127108,Powerful Rejuvenation Potion,127086,0,0,7423,0,0
-127109,Potion of Nightmares,127086,0,0,7424,0,0
-127110,Minor Rejuvenation Potion,127086,0,0,4300,0,0
+127108,Powerful Rejuvenation Potion,127086,0,0,7422,0,0
+127109,Potion of Nightmares,127086,0,0,7421,0,0
+127110,Minor Rejuvenation Potion,127086,0,0,7420,0,0
 127111,Icy Mana Potion,127086,0,0,5189,0,0
 127112,Super Mana Potion,127086,0,0,4312,0,0
 127113,Superior Mana Draught,127086,0,0,4327,0,0
@@ -14531,7 +14679,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 127119,Runic Mana Injector,127086,0,0,6379,0,0
 127120,Lesser Mana Potion,127086,0,0,4323,0,0
 127121,Runic Mana Potion,127086,0,0,5184,0,0
-127122,Mad Alchemist's Potion,127086,0,0,4325,0,0
+127122,Mad Alchemist's Potion,127086,0,0,4324,0,0
 127123,,0,0,4,0,0,0
 127124,Assassination of Harold Lane,127123,1,0,347,0,2
 127125,,0,0,4,0,0,0
@@ -14729,11 +14877,11 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 127318,Warden's Cage,127306,1,0,1672,0,0
 127319,Wildhammer Stronghold,127306,1,0,1673,0,0
 127320,,0,0,4,0,0,0
-127321,Win Alterac Valley.,127320,1,0,5742,0,2
+127321,Win Alterac Valley.,127320,1,0,17411,0,2
 127322,,0,0,4,0,0,0
-127323,Complete 100 victories in Alterac Valley,127322,100,0,5742,0,1
+127323,Complete 100 victories in Alterac Valley,127322,100,0,17411,0,1
 127324,,0,0,4,0,0,0
-127325,Complete 100 victories in Arathi Basin.,127324,100,0,102,0,1
+127325,Complete 100 victories in Arathi Basin.,127324,100,0,5896,0,1
 127326,,0,0,4,0,0,0
 127327,Complete 500 daily quests,127326,500,0,4984,0,1
 127328,,0,0,4,0,0,0
@@ -14793,7 +14941,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 127441,,0,0,4,0,0,0
 127442,Total damage done,127441,0,0,162,0,0
 127443,,0,0,4,0,0,0
-127444,Ruins of Lordaeron victories,127443,0,0,5736,0,0
+127444,Ruins of Lordaeron victories,127443,0,0,8589,0,0
 127445,,0,0,4,0,0,0
 127446,Skill to 450,127445,450,0,5716,0,2
 127447,,0,0,4,0,0,0
@@ -14803,7 +14951,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 127451,,0,0,4,0,0,0
 127452,Mining skill,127451,525,0,5573,0,1
 127453,,0,0,4,0,0,0
-127454,Dalaran Sewers victories,127453,0,0,5738,0,0
+127454,Dalaran Sewers victories,127453,0,0,8587,0,0
 127455,,0,0,4,0,0,0
 127456,Catch 500 fish,127455,500,0,5288,0,1
 127457,,0,0,4,0,0,0
@@ -15460,14 +15608,14 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 128183,Healthstone (0),128169,0,0,4722,0,0
 128184,Demonic Healthstone,128169,0,0,9045,0,0
 128185,Fel Healthstone,128169,0,0,9049,0,0
-128186,Demonic Healthstone,128169,0,0,9044,0,0
-128187,Demonic Healthstone,128169,0,0,9044,0,0
+128186,Demonic Healthstone,128169,0,0,9038,0,0
+128187,Demonic Healthstone,128169,0,0,9038,0,0
 128188,Demonic Healthstone,128169,0,0,9045,0,0
 128189,Fel Healthstone,128169,0,0,9041,0,0
-128190,Fel Healthstone,128169,0,0,9042,0,0
+128190,Fel Healthstone,128169,0,0,9048,0,0
 128191,Fel Healthstone,128169,0,0,9049,0,0
 128192,Fel Healthstone,128169,0,0,9041,0,0
-128193,Fel Healthstone,128169,0,0,9042,0,0
+128193,Fel Healthstone,128169,0,0,9048,0,0
 128194,Major Healthstone (0),128169,0,0,4728,0,0
 128195,Master Healthstone (0),128169,0,0,4734,0,0
 128196,Lesser Healthstone (0),128169,0,0,4725,0,0
@@ -15717,11 +15865,11 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 128477,,0,0,4,0,0,0
 128478,Sartharion the Onyx Guardian,128477,1,0,5139,0,0
 128479,,0,0,5,0,0,0
-128480,Ring of Valor Wins,128479,0,0,5737,0,0
+128480,Ring of Valor Wins,128479,0,0,8590,0,0
 128481,Blade's Edge Wins,128479,0,0,5739,0,0
-128482,Dalaran Sewers Wins,128479,0,0,5738,0,0
+128482,Dalaran Sewers Wins,128479,0,0,8587,0,0
 128483,Nagrand Wins,128479,0,0,5735,0,0
-128484,Ruins of Lordaeron Wins,128479,0,0,5736,0,0
+128484,Ruins of Lordaeron Wins,128479,0,0,8589,0,0
 128485,,0,0,4,0,0,0
 128486,Delicious Chocolate Cake,128485,1,0,6654,0,0
 128487,Dalaran Doughnut,128485,1,0,6657,0,0
@@ -15941,7 +16089,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 128705,Upset Tummy,128703,1,0,2070,0,2
 128706,,0,0,4,0,0,0
 128708,,0,0,4,0,0,0
-128709,Get 100000 honorable kills,128708,100000,0,9160,0,1
+128709,Get 100000 honorable kills,128708,100000,0,13253,0,1
 128710,,0,0,4,0,0,0
 128711,Kill 100 Risen Zombies in 1 minute,128710,100,0,7180,0,1
 128712,,0,25,5,0,0,0
@@ -15981,47 +16129,47 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 128747,Ruby Drake,128745,1,0,7179,0,0
 128748,Amber Drake,128745,1,0,7177,0,0
 128749,,0,0,4,0,0,0
-128750,Alterac Valley victories,128749,0,0,5742,0,0
+128750,Alterac Valley victories,128749,0,0,17411,0,0
 128751,,0,0,4,0,0,0
 128752,Circle of Blood victories,128751,0,0,5739,0,0
 128753,,0,0,4,0,0,0
 128754,Auctions Posted,128753,0,0,4220,0,0
 128755,,0,0,5,0,0,0
 128756,Superior Healing Draught,128755,0,0,4304,0,0
-128757,Major Dreamless Sleep Potion,128755,0,0,4320,0,0
-128758,Dreamless Sleep Potion,128755,0,0,4318,0,0
+128757,Major Dreamless Sleep Potion,128755,0,0,4317,0,0
+128758,Dreamless Sleep Potion,128755,0,0,4315,0,0
 128759,Lesser Healing Potion,128755,0,0,4295,0,0
 128760,Bottled Nethergon Vapor,128755,0,0,4289,0,0
 128761,Discolored Healing Potion,128755,0,0,4291,0,0
 128762,Major Healing Potion,128755,0,0,4297,0,0
-128763,Major Rejuvenation Potion,128755,0,0,4298,0,0
+128763,Major Rejuvenation Potion,128755,0,0,4329,0,0
 128764,Minor Healing Potion,128755,0,0,4299,0,0
-128765,Greater Dreamless Sleep Potion,128755,0,0,4319,0,0
+128765,Greater Dreamless Sleep Potion,128755,0,0,4316,0,0
 128766,Volatile Healing Potion,128755,0,0,4306,0,0
-128767,Super Rejuvenation Potion,128755,0,0,4303,0,0
+128767,Super Rejuvenation Potion,128755,0,0,4334,0,0
 128768,Superior Healing Potion,128755,0,0,4305,0,0
 128769,Healing Potion Injector,128755,0,0,4309,0,0
 128770,Greater Healing Potion,128755,0,0,4293,0,0
 128771,Healing Potion,128755,0,0,4294,0,0
 128772,Rulkster's Secret Sauce,128755,0,0,4301,0,0
 128773,Endless Healing Potion,128755,1,0,7910,0,0
-128774,Powerful Rejuvenation Potion,128755,0,0,7423,0,0
-128775,Potion of Nightmares,128755,0,0,7424,0,0
+128774,Powerful Rejuvenation Potion,128755,0,0,7422,0,0
+128775,Potion of Nightmares,128755,0,0,7421,0,0
 128776,Noth's Special Brew,128755,1,0,7911,0,0
 128777,Super Healing Potion,128755,0,0,4310,0,0
-128778,Mad Alchemist's Potion,128755,0,0,4325,0,0
+128778,Mad Alchemist's Potion,128755,0,0,4324,0,0
 128779,Combat Healing Potion,128755,1,0,7908,0,0
 128780,Argent Healing Potion,128755,1,0,7909,0,0
 128781,Major Combat Healing Potion,128755,0,0,5180,0,0
 128782,Crystal Healing Potion,128755,0,0,4290,0,0
 128783,Auchenai Healing Potion,128755,0,0,4288,0,0
-128784,Minor Rejuvenation Potion,128755,0,0,4300,0,0
+128784,Minor Rejuvenation Potion,128755,0,0,7420,0,0
 128785,Runic Healing Injector,128755,0,0,6380,0,0
 128786,Major Combat Healing Potion,128755,0,0,5178,0,0
 128787,Major Combat Healing Potion,128755,0,0,5179,0,0
 128788,Major healing Draught,128755,0,0,4296,0,0
 128789,Fel Regeneration Potion,128755,0,0,4292,0,0
-128790,Wildvine Potion,128755,0,0,4307,0,0
+128790,Wildvine Potion,128755,0,0,4336,0,0
 128791,Major Combat Healing Potion,128755,0,0,5181,0,0
 128792,Runic Healing Potion,128755,0,0,5183,0,0
 128793,Resurgent Healing Potion,128755,0,0,5182,0,0
@@ -16170,59 +16318,59 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 128937,Emblems of Heroism acquired,128936,0,0,5311,0,0
 128938,,0,0,6,0,0,0
 128939,Superior Healing Draught,128938,0,0,4304,0,0
-128940,Major Dreamless Sleep Potion,128938,0,0,4320,0,0
-128941,Dreamless Sleep Potion,128938,0,0,4318,0,0
+128940,Major Dreamless Sleep Potion,128938,0,0,4317,0,0
+128941,Dreamless Sleep Potion,128938,0,0,4315,0,0
 128942,Lesser Healing Potion,128938,0,0,4295,0,0
 128943,Bottled Nethergon Vapor,128938,0,0,4289,0,0
 128944,Discolored Healing Potion,128938,0,0,4291,0,0
 128945,Major Healing Potion,128938,0,0,4297,0,0
-128946,Major Rejuvenation Potion,128938,0,0,4298,0,0
+128946,Major Rejuvenation Potion,128938,0,0,4329,0,0
 128947,Minor Healing Potion,128938,0,0,4299,0,0
-128948,Greater Dreamless Sleep Potion,128938,0,0,4319,0,0
+128948,Greater Dreamless Sleep Potion,128938,0,0,4316,0,0
 128949,Volatile Healing Potion,128938,0,0,4306,0,0
-128950,Super Rejuvenation Potion,128938,0,0,4303,0,0
+128950,Super Rejuvenation Potion,128938,0,0,4334,0,0
 128951,Superior Healing Potion,128938,0,0,4305,0,0
 128952,Healing Potion Injector,128938,0,0,4309,0,0
 128953,Greater Healing Potion,128938,0,0,4293,0,0
 128954,Healing Potion,128938,0,0,4294,0,0
 128955,Rulkster's Secret Sauce,128938,0,0,4301,0,0
 128956,Endless Healing Potion,128938,1,0,7910,0,0
-128957,Powerful Rejuvenation Potion,128938,0,0,7423,0,0
-128958,Potion of Nightmares,128938,0,0,7424,0,0
+128957,Powerful Rejuvenation Potion,128938,0,0,7422,0,0
+128958,Potion of Nightmares,128938,0,0,7421,0,0
 128959,Noth's Special Brew,128938,1,0,7911,0,0
 128960,Super Healing Potion,128938,0,0,4310,0,0
-128961,Mad Alchemist's Potion,128938,0,0,4325,0,0
+128961,Mad Alchemist's Potion,128938,0,0,4324,0,0
 128962,Combat Healing Potion,128938,1,0,7908,0,0
 128963,Argent Healing Potion,128938,1,0,7909,0,0
 128964,Major Combat Healing Potion,128938,0,0,5180,0,0
 128965,Crystal Healing Potion,128938,0,0,4290,0,0
 128966,Auchenai Healing Potion,128938,0,0,4288,0,0
-128967,Minor Rejuvenation Potion,128938,0,0,4300,0,0
+128967,Minor Rejuvenation Potion,128938,0,0,7420,0,0
 128968,Runic Healing Injector,128938,0,0,6380,0,0
 128969,Major Combat Healing Potion,128938,0,0,5178,0,0
 128970,Major Combat Healing Potion,128938,0,0,5179,0,0
 128971,Major healing Draught,128938,0,0,4296,0,0
 128972,Fel Regeneration Potion,128938,0,0,4292,0,0
-128973,Wildvine Potion,128938,0,0,4307,0,0
+128973,Wildvine Potion,128938,0,0,4336,0,0
 128974,Major Combat Healing Potion,128938,0,0,5181,0,0
 128975,Runic Healing Potion,128938,0,0,5183,0,0
 128976,Resurgent Healing Potion,128938,0,0,5182,0,0
 128977,Super Healing Potion,128938,0,0,4310,0,0
 128978,,0,0,6,0,0,0
-128979,Greater Dreamless Sleep Potion,128978,0,0,4319,0,0
-128980,Wildvine Potion,128978,0,0,4307,0,0
-128981,Major Dreamless Sleep Potion,128978,0,0,4320,0,0
+128979,Greater Dreamless Sleep Potion,128978,0,0,4316,0,0
+128980,Wildvine Potion,128978,0,0,4336,0,0
+128981,Major Dreamless Sleep Potion,128978,0,0,4317,0,0
 128982,Mana Potion Injector,128978,0,0,4311,0,0
 128983,Combat Mana Potion,128978,1,0,7905,0,0
 128984,Crystal Mana Potion,128978,0,0,4314,0,0
-128985,Dreamless Sleep Potion,128978,0,0,4318,0,0
+128985,Dreamless Sleep Potion,128978,0,0,4315,0,0
 128986,Greater Mana Potion,128978,0,0,4322,0,0
 128987,Major Mana Potion,128978,0,0,4328,0,0
-128988,Major Rejuvenation Potion,128978,0,0,4298,0,0
+128988,Major Rejuvenation Potion,128978,0,0,4329,0,0
 128989,Mana Potion,128978,0,0,4330,0,0
 128990,Rulkster's Brain Juice,128978,0,0,4332,0,0
 128991,Superior Mana Potion,128978,0,0,4333,0,0
-128992,Super Rejuvenation Potion,128978,0,0,4303,0,0
+128992,Super Rejuvenation Potion,128978,0,0,4334,0,0
 128993,Bottled Nethergon Energy,128978,0,0,4313,0,0
 128994,Fel Mana Potion,128978,0,0,4321,0,0
 128995,Major Combat Mana Potion,128978,0,0,5186,0,0
@@ -16230,9 +16378,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 128997,Major Combat Mana Potion,128978,0,0,5185,0,0
 128998,Argent Mana Potion,128978,1,0,7906,0,0
 128999,Endless Mana Potion,128978,1,0,7907,0,0
-129000,Powerful Rejuvenation Potion,128978,0,0,7423,0,0
-129001,Potion of Nightmares,128978,0,0,7424,0,0
-129002,Minor Rejuvenation Potion,128978,0,0,4300,0,0
+129000,Powerful Rejuvenation Potion,128978,0,0,7422,0,0
+129001,Potion of Nightmares,128978,0,0,7421,0,0
+129002,Minor Rejuvenation Potion,128978,0,0,7420,0,0
 129003,Icy Mana Potion,128978,0,0,5189,0,0
 129004,Super Mana Potion,128978,0,0,4312,0,0
 129005,Superior Mana Draught,128978,0,0,4327,0,0
@@ -16244,7 +16392,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 129011,Runic Mana Injector,128978,0,0,6379,0,0
 129012,Lesser Mana Potion,128978,0,0,4323,0,0
 129013,Runic Mana Potion,128978,0,0,5184,0,0
-129014,Mad Alchemist's Potion,128978,0,0,4325,0,0
+129014,Mad Alchemist's Potion,128978,0,0,4324,0,0
 129015,,0,0,4,0,0,0
 129016,Slag Pot,129015,1,0,10431,0,2
 129017,,0,0,4,0,0,0
@@ -16576,7 +16724,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 129343,Evermurky,129174,0,0,4685,0,2
 129344,Bitter Plasma,129174,0,0,6961,0,2
 129345,Netehrgarde Bitter,129174,0,0,4702,0,2
-129346,Conjured Manna Biscuit,129174,0,0,4670,0,2
+129346,Conjured Manna Biscuit,129174,0,0,6532,0,2
 129347,Junglevine Wine,129174,0,0,4696,0,2
 129348,Melon Juice,129174,0,0,4697,0,2
 129349,Sparkling Southshore Cider,129174,0,0,4712,0,2
@@ -16590,7 +16738,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 129357,Moonglow,129174,0,0,4700,0,2
 129358,Izzard's Ever Flavor,129174,0,0,10501,0,2
 129359,Aromatic Honey Brew,129174,0,0,5191,0,2
-129360,Conjured Mana Strudel,129174,0,0,13257,0,2
+129360,Conjured Mana Strudel,129174,0,0,6534,0,2
 129361,Metok's Bubble Bock,129174,0,0,10504,0,2
 129362,Wild Winter Pilsner,129174,0,0,10978,0,2
 129363,Tournament Brew,129174,0,0,10618,0,2
@@ -17421,7 +17569,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 130194,Evermurky,130025,0,0,4685,0,2
 130195,Bitter Plasma,130025,0,0,6961,0,2
 130196,Netehrgarde Bitter,130025,0,0,4702,0,2
-130197,Conjured Manna Biscuit,130025,0,0,4670,0,2
+130197,Conjured Manna Biscuit,130025,0,0,6532,0,2
 130198,Junglevine Wine,130025,0,0,4696,0,2
 130199,Melon Juice,130025,0,0,4697,0,2
 130200,Sparkling Southshore Cider,130025,0,0,4712,0,2
@@ -17435,7 +17583,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 130208,Moonglow,130025,0,0,4700,0,2
 130209,Izzard's Ever Flavor,130025,0,0,10501,0,2
 130210,Aromatic Honey Brew,130025,0,0,5191,0,2
-130211,Conjured Mana Strudel,130025,0,0,13257,0,2
+130211,Conjured Mana Strudel,130025,0,0,6534,0,2
 130212,Metok's Bubble Bock,130025,0,0,10504,0,2
 130213,Wild Winter Pilsner,130025,0,0,10978,0,2
 130214,Tournament Brew,130025,0,0,10618,0,2
@@ -17757,7 +17905,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 130530,Evermurky,130361,0,0,4685,0,2
 130531,Bitter Plasma,130361,0,0,6961,0,2
 130532,Netehrgarde Bitter,130361,0,0,4702,0,2
-130533,Conjured Manna Biscuit,130361,0,0,4670,0,2
+130533,Conjured Manna Biscuit,130361,0,0,6532,0,2
 130534,Junglevine Wine,130361,0,0,4696,0,2
 130535,Melon Juice,130361,0,0,4697,0,2
 130536,Sparkling Southshore Cider,130361,0,0,4712,0,2
@@ -17771,7 +17919,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 130544,Moonglow,130361,0,0,4700,0,2
 130545,Izzard's Ever Flavor,130361,0,0,10501,0,2
 130546,Aromatic Honey Brew,130361,0,0,5191,0,2
-130547,Conjured Mana Strudel,130361,0,0,13257,0,2
+130547,Conjured Mana Strudel,130361,0,0,6534,0,2
 130548,Metok's Bubble Bock,130361,0,0,10504,0,2
 130549,Wild Winter Pilsner,130361,0,0,10978,0,2
 130550,Tournament Brew,130361,0,0,10618,0,2
@@ -18025,7 +18173,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 130798,Warsong Gulch Iron Ration,130552,0,0,8689,0,2
 130799,Defiler's Enriched Ration,130552,0,0,8694,0,2
 130800,Clefthoof Ribs,130552,0,0,6528,0,2
-130801,Conjured Mana Biscuit,130552,0,0,4670,0,2
+130801,Conjured Mana Biscuit,130552,0,0,6532,0,2
 130802,Carrot Cupcake,130552,0,0,6519,0,2
 130803,Charred Bear Kabobs,130552,0,0,6520,0,2
 130804,Crusty Flatbread,130552,0,0,6556,0,2
@@ -18056,7 +18204,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 130829,Clam Chowder,130552,0,0,6525,0,2
 130830,Clamlette Surprise,130552,0,0,6527,0,2
 130831,Conjured Bread,130552,0,0,6529,0,2
-130832,Conjured Mana Strudel,130552,0,0,13257,0,2
+130832,Conjured Mana Strudel,130552,0,0,6534,0,2
 130833,Conjured Muffin,130552,0,0,6535,0,2
 130834,Conjured Rye,130552,0,0,6537,0,2
 130835,Conjured Sourdough,130552,0,0,6538,0,2
@@ -18448,7 +18596,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 131221,Warsong Gulch Iron Ration,130975,0,0,8689,0,2
 131222,Defiler's Enriched Ration,130975,0,0,8694,0,2
 131223,Clefthoof Ribs,130975,0,0,6528,0,2
-131224,Conjured Mana Biscuit,130975,0,0,4670,0,2
+131224,Conjured Mana Biscuit,130975,0,0,6532,0,2
 131225,Carrot Cupcake,130975,0,0,6519,0,2
 131226,Charred Bear Kabobs,130975,0,0,6520,0,2
 131227,Crusty Flatbread,130975,0,0,6556,0,2
@@ -18479,7 +18627,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 131252,Clam Chowder,130975,0,0,6525,0,2
 131253,Clamlette Surprise,130975,0,0,6527,0,2
 131254,Conjured Bread,130975,0,0,6529,0,2
-131255,Conjured Mana Strudel,130975,0,0,13257,0,2
+131255,Conjured Mana Strudel,130975,0,0,6534,0,2
 131256,Conjured Muffin,130975,0,0,6535,0,2
 131257,Conjured Rye,130975,0,0,6537,0,2
 131258,Conjured Sourdough,130975,0,0,6538,0,2
@@ -18982,7 +19130,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 131755,Warsong Gulch Iron Ration,131509,0,0,8689,0,2
 131756,Defiler's Enriched Ration,131509,0,0,8694,0,2
 131757,Clefthoof Ribs,131509,0,0,6528,0,2
-131758,Conjured Mana Biscuit,131509,0,0,4670,0,2
+131758,Conjured Mana Biscuit,131509,0,0,6532,0,2
 131759,Carrot Cupcake,131509,0,0,6519,0,2
 131760,Charred Bear Kabobs,131509,0,0,6520,0,2
 131761,Crusty Flatbread,131509,0,0,6556,0,2
@@ -19013,7 +19161,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 131786,Clam Chowder,131509,0,0,6525,0,2
 131787,Clamlette Surprise,131509,0,0,6527,0,2
 131788,Conjured Bread,131509,0,0,6529,0,2
-131789,Conjured Mana Strudel,131509,0,0,13257,0,2
+131789,Conjured Mana Strudel,131509,0,0,6534,0,2
 131790,Conjured Muffin,131509,0,0,6535,0,2
 131791,Conjured Rye,131509,0,0,6537,0,2
 131792,Conjured Sourdough,131509,0,0,6538,0,2
@@ -19261,11 +19409,11 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 132034,,0,0,4,0,0,0
 132035,Win Wintergrasp,132034,1,0,6436,0,2
 132036,,0,0,6,0,0,0
-132037,Alterac Valley,132036,0,0,5507,0,0
-132038,Arathi Basin,132036,0,0,5508,0,0
-132039,Eye of the Storm,132036,0,0,5510,0,0
+132037,Alterac Valley,132036,0,0,5500,0,0
+132038,Arathi Basin,132036,0,0,5499,0,0
+132039,Eye of the Storm,132036,0,0,5502,0,0
 132040,Strand of the Ancients,132036,0,0,5511,0,0
-132041,Warsong Gulch,132036,0,0,5509,0,0
+132041,Warsong Gulch,132036,0,0,5501,0,0
 132042,Isle of Conquest,132036,0,0,13260,0,0
 132043,,0,0,4,0,0,0
 132044,Wintergrasp Tower Cannon,132043,1,0,9181,0,0
@@ -19334,7 +19482,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 132108,She Says Potato,132104,1,0,11198,0,0
 132109,Easy As Pie,132104,1,0,11202,0,0
 132110,,0,0,4,0,0,0
-132111,Win Isle of Conquest.,132110,1,0,13369,0,2
+132111,Win Isle of Conquest.,132110,1,0,17904,0,2
 132112,,0,0,4,0,0,0
 132113,Steelbreaker last (25),132112,1,0,10799,0,2
 132114,,0,0,4,0,0,0
@@ -19502,12 +19650,12 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 132289,,0,0,4,0,0,0
 132290,Aeonus,132289,1,0,3247,0,0
 132293,,0,0,6,0,0,0
-132294,Alterac Valley,132293,0,0,5742,0,0
+132294,Alterac Valley,132293,0,0,17411,0,0
 132295,Strand of the Ancients,132293,0,0,5898,0,0
-132296,Warsong Gulch,132293,0,0,140,0,0
-132297,Arathi Basin,132293,0,0,102,0,0
-132298,Eye of the Storm,132293,0,0,5745,0,0
-132299,Isle of Conquest,132293,0,0,13369,0,0
+132296,Warsong Gulch,132293,0,0,5899,0,0
+132297,Arathi Basin,132293,0,0,5896,0,0
+132298,Eye of the Storm,132293,0,0,5897,0,0
+132299,Isle of Conquest,132293,0,0,17904,0,0
 132300,,0,0,4,0,0,0
 132301,Sapphiron,132300,1,0,7568,0,2
 132302,,0,0,4,0,0,0
@@ -19537,7 +19685,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 132326,Murkimus' Little Spear,132323,1,0,11225,0,2
 132327,Complete the Trial of the Grand Crusader,0,0,4,0,0,2
 132329,Complete the Trial of the Grand Crusader,132327,1,0,12345,0,2
-132330,Complete the Trial of the Grand Crusader,132327,1,0,12344,1,2
+132330,Complete the Trial of the Grand Crusader,132327,1,0,12245,1,2
 132331,,0,0,4,0,0,0
 132332,Close 3 Black Holes within 10 seconds,132331,3,0,10782,0,1
 132333,Defeat Algalon the Observer,132331,1,0,10783,0,0
@@ -19863,7 +20011,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 132660,,132659,1,0,11400,0,2
 132661,,132659,0,0,11401,0,2
 132662,,0,0,4,0,0,0
-132663,Complete 100 victories in Isle of Conquest,132662,100,0,13369,0,1
+132663,Complete 100 victories in Isle of Conquest,132662,100,0,17904,0,1
 132664,,0,0,4,0,0,0
 132665,Victory in Warsong Gulch with a shutout,132664,1,0,1236,0,2
 132666,,0,0,4,0,0,0
@@ -19958,7 +20106,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 132776,,0,0,4,0,0,0
 132777,Isle of Conquest,132776,0,0,13368,0,0
 132778,,0,0,4,0,0,0
-132779,Isle of Conquest victories,132778,0,0,13369,0,0
+132779,Isle of Conquest victories,132778,0,0,17904,0,0
 132780,,0,0,4,0,0,0
 132781,Grobbulus,132780,1,0,6406,0,0
 132782,,0,0,4,0,0,0
@@ -20038,11 +20186,11 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 132856,Engineering Schematics known,132855,0,0,6388,0,0
 132857,Engineering Schematics known,132855,0,0,7226,0,0
 132858,,0,0,5,0,0,0
-132859,Alterac Valley,132858,0,0,5507,0,0
-132860,Arathi Basin,132858,0,0,5508,0,0
-132861,Eye of the Storm,132858,0,0,5510,0,0
+132859,Alterac Valley,132858,0,0,5500,0,0
+132860,Arathi Basin,132858,0,0,5499,0,0
+132861,Eye of the Storm,132858,0,0,5502,0,0
 132862,Strand of the Ancients,132858,0,0,5511,0,0
-132863,Warsong Gulch,132858,0,0,5509,0,0
+132863,Warsong Gulch,132858,0,0,5501,0,0
 132864,Isle of Conquest,132858,0,0,13260,0,0
 132865,,0,0,4,0,0,0
 132866,5 man heroic instances,132865,0,0,7849,0,0
@@ -21556,7 +21704,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 151979,Defense Protocol Gamma: The Nexus,151968,0,0,63395,10,0
 151980,Defense Protocol Gamma: The Violet Hold,151968,0,0,63396,11,0
 151981,Defense Protocol Gamma: Trial of The Champion,151968,0,0,63401,12,0
-152141,Mage,17721,1,0,64387,0,0
+152141,Mage,17721,1,0,64376,0,0
 152142,Paladin,17721,1,0,63496,0,0
 152143,Priest,17721,1,0,63497,0,0
 152144,Rogue,17721,1,0,63498,0,0
@@ -21583,7 +21731,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 152195,Roar while Berserking and Speeding,17118,1,0,63547,0,2
 152196,Roar while Berserking and Speeding,17118,1,0,63548,0,2
 152197,Tol Barad Veteran,18726,0,0,63549,0,0
-152202,Raise 25 reputations to Exalted.,27853,25,0,63553,0,1
+152202,Raise 25 reputations to Exalted.,27853,25,0,17161,0,1
 152203,Let's Do Lunch: Darnassus,20187,0,0,63554,0,0
 152204,Let's Do Lunch: Ironforge,20187,0,0,63555,0,0
 152205,Let's Do Lunch: Stormwind,20187,0,0,63556,0,0
@@ -21601,7 +21749,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 152233,,17759,1,0,63584,0,2
 152234,,17759,1,0,63585,0,2
 152235,,17759,1,0,63586,0,2
-152239,,19213,5000,0,63590,0,1
+152239,,19213,5000,0,63537,0,1
 152244,,0,0,4,0,0,0
 152245,Soaring Spirits,152244,0,0,63595,0,0
 152246,Cloud Nine,152244,0,0,63596,0,0
@@ -21613,7 +21761,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 152252,Kill 20 Twisted Spirits within 15 seconds.,19463,20,0,63602,0,1
 152256,Ras Frostwhisper,14137,1,0,63606,0,0
 152257,Darkmaster Gandling,14137,1,0,63607,0,0
-152258,Raise 15 reputations to Exalted.,27717,15,0,63608,0,1
+152258,Raise 15 reputations to Exalted.,27717,15,0,17161,0,1
 152259,Fish or Cut Bait: Darnassus,20506,0,0,63609,0,0
 152260,Fish or Cut Bait: Ironforge,20506,0,0,63610,0,0
 152261,Fish or Cut Bait: Stormwind,20506,0,0,63611,0,0
@@ -21621,7 +21769,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 152267,Illustrious Grand Master in First Aid,22621,0,0,63617,0,0
 152268,Illustrious Grand Master Cook,22621,0,0,63618,0,0
 152269,Illustrious Grand Master in Archaeology,22621,0,0,63619,0,0
-152270,"Craft 1,000 flasks.",15193,1000,0,63620,0,1
+152270,"Craft 1,000 flasks.",15193,1000,0,62968,0,1
 152271,,0,0,4,0,0,0
 152272,Let's Do Lunch: Orgrimmar,152271,0,0,63621,0,0
 152273,Let's Do Lunch: Thunder Bluff,152271,0,0,63622,0,0
@@ -21633,16 +21781,16 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 153022,Druid,17733,1,0,64374,0,0
 153023,Hunter,17733,1,0,64375,0,0
 153024,Mage,17733,1,0,64376,0,0
-153025,Paladin,17733,1,0,64377,0,0
-153026,Priest,17733,1,0,64378,0,0
-153027,Rogue,17733,1,0,64379,0,0
-153028,Shaman,17733,1,0,64380,0,0
-153029,Warlock,17733,1,0,64381,0,0
-153030,Warrior,17733,1,0,64382,0,0
-153031,,15752,100000,0,64383,0,1
-153032,Death Knight,17721,1,0,64384,0,0
-153033,Druid,17721,1,0,64385,0,0
-153034,Hunter,17721,1,0,64386,0,0
+153025,Paladin,17733,1,0,63496,0,0
+153026,Priest,17733,1,0,63497,0,0
+153027,Rogue,17733,1,0,63498,0,0
+153028,Shaman,17733,1,0,63499,0,0
+153029,Warlock,17733,1,0,63500,0,0
+153030,Warrior,17733,1,0,63501,0,0
+153031,,15752,100000,0,62991,0,1
+153032,Death Knight,17721,1,0,64373,0,0
+153033,Druid,17721,1,0,64374,0,0
+153034,Hunter,17721,1,0,64375,0,0
 153729,4.4.0 Level 80 Character Boost -  Learned Spells,0,1,8,0,0,4096
 153740,4.4.0 Level 80 Character Boost -  Learned Spells,0,1,8,0,0,4096
 153751,4.4.0 Level 80 Character Boost -  Learned Spells,0,1,8,0,0,4096
@@ -22882,12 +23030,12 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 166467,Isle of Conquest,17483,0,0,16531,0,0
 166468,Isle of Conquest,17483,0,0,16525,1,0
 166469,Strand of the Ancients,17483,0,0,16535,2,0
-166470,Eye of the Storm,17483,0,0,16522,3,0
+166470,Eye of the Storm,17483,0,0,5745,3,0
 166471,Warsong Gulch,17483,0,0,16524,4,0
 166472,Arathi Basin,17483,0,0,16521,5,0
 166473,Isle of Conquest,17483,0,0,16537,6,0
 166474,Alterac Valley,17483,0,0,16520,7,0
-166475,Eye of the Storm victories,123016,0,0,16522,0,0
+166475,Eye of the Storm victories,123016,0,0,5745,0,0
 166488,Twin Peaks Veteran,17844,0,0,14833,6,0
 166489,Two-Timer,17844,0,0,14834,7,0
 166490,Top Defender,17844,0,0,14835,8,0
@@ -22930,3 +23078,14 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 170200,Heroic: The Vortex Pinnacle,170193,0,0,71211,6,0
 170201,Heroic: Shadowfang Keep,170193,0,0,71212,7,0
 170202,Heroic: Grim Batol,170193,0,0,71213,8,0
+206437,server-only,0,0,5,0,0,2
+206438,,206437,0,0,6847,0,0
+206439,,206437,0,0,7849,1,0
+206440,,206437,0,0,50010,2,0
+206441,,206437,0,0,50011,3,0
+206788,Player is Alliance and Achieved Hero of the Faction (RBG top .5%),0,0,4,0,0,0
+206789,,206788,1,0,103028,0,2
+206790,Player is Horde and Achieved Hero of the Faction (RBG top .5%),0,0,4,0,0,0
+206791,,206790,1,0,103029,0,2
+207623,[DNT] Joyous Journeys - Reach Level 85 with buff Joyous Journeys (hidden),0,0,4,0,0,2
+207624,,207623,85,0,103512,0,2
