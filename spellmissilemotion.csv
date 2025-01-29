@@ -261,3 +261,36 @@ local modelRoll = 0
  modelPitch = 90
  modelYaw = 90
  modelRoll = 90",0,0
+4847,S03 - Forward Spin + Parabola (High) Torch,"local angle = 0
+local maxMagnitude = startDistance * .30
+local spinRate = 360
+
+modelRoll = 275
+transUp = 0.1
+
+modelPitch = time * spinRate + 90
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude",0,1
+4855,Parabola (Very High),"local angle = 0
+local maxMagnitude = startDistance * 60
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+",0,0
+4860,S03 - Enchanted Flare,"local angle = 0
+local maxMagnitude = startDistance * .15
+
+transAngle = angle
+transMag = ((progress * 2) - 1)
+transMag = ((1 - (transMag * transMag)) * maxMagnitude)",0,1
+4863,S03 - Karazhan Crypts - Creeping Malison - Cursed Webbing - Missile,"local angle = 0
+local maxMagnitude = startDistance * .20
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+modelPitch = progress * 1000
+modelRoll = 90
+modelYaw = 90",0,0
