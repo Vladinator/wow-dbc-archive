@@ -17397,6 +17397,7 @@ ID,BaseTag,TagText_lang,Flags
 40874,VOICE_TOOLTIP_PARENTAL_MUTE_MIC,Mute|n|nYour account has been marked as voice-chat listen-only in Parental Controls.,1
 40875,VOICE_TOOLTIP_PARENTAL_UNMUTE_MIC,Unmute|n|nYour account has been marked as voice-chat listen-only in Parental Controls.,1
 40888,VISITABLE_URL43,https://support.blizzard.com,3
+40889,GUILD_VIEW_RECIPES_LINK,[View],1
 40890,COMMUNITIES_LIST_DROP_DOWN_COMMUNITIES_SETTINGS,Group Settings,1
 40891,COMMUNITIES_LIST_DROP_DOWN_COMMUNITIES_NOTIFICATION_SETTINGS,Notification Settings,1
 40892,COMMUNITIES_LIST_DROP_DOWN_CLEAR_UNREAD_NOTIFICATIONS,Clear All Notifications,1
@@ -17768,6 +17769,7 @@ ID,BaseTag,TagText_lang,Flags
 42140,AUCTION_HOUSE_TOOLTIP_OVERFLOW_SELLERS_FORMAT,"Sellers: |cffffffff%s, and %s more|r",1
 42159,CLUB_FINDER_TUTORIAL_LANGUAGE_FILTER,The Guild and Community Finder has added a language filter.,1
 42160,CLUB_FINDER_TUTORIAL_LANGUAGE_SET,You can set your language here. Changing this will require your message to be reposted.,1
+42183,OPTIONAL_REAGENT_POSTFIX,Add Optional Reagent,1
 42189,BINDING_NAME_TOGGLE_COMMENTATOR_UNIT_FRAMES,Toggle Unit Frames,1
 42190,BINDING_NAME_COMMENTATORFOLLOW_1_7,Follow Player 7 on Team 1,1
 42191,BINDING_NAME_COMMENTATORFOLLOW_1_8,Follow Player 8 on Team 1,1
@@ -18346,6 +18348,21 @@ ID,BaseTag,TagText_lang,Flags
 49121,BARBERS_CHOICE_CONFIRM,Are you sure you want to let the barber choose your shave for a discounted price?,1
 49128,INVITE_CONFIRMATION_REQUEST_GROUPFINDER,%s has requested to join your group through the Group Finder.,1
 49141,ERR_DECLINE_GROUP_REQUEST_S,%s declines your group invitation request.,1
+49167,PROFESSIONS_CRAFTING_FORM_ORDER_RECIPIENT_GUILD,Guild Order,1
+49206,PROFESSIONS_SPECIALIZATION_CONFIRM_PURCHASE_TAB_TITLE,Learn %s?,1
+49207,PROFESSIONS_SPECIALIZATION_CONFIRM_PURCHASE_TAB,Are you sure you would like to learn the %s specialization? You will be able to choose additional specializations upon advancing further in the %s profession.,1
+49217,PROFESSIONS_LISTING_DURATION_ONE,12 Hours,1
+49218,PROFESSIONS_LISTING_DURATION_TWO,24 Hours,1
+49219,PROFESSIONS_LISTING_DURATION_THREE,48 Hours,1
+49224,PROFESSIONS_COLUMN_REAGENTS_NONE,None,1
+49225,PROFESSIONS_COLUMN_REAGENTS_PARTIAL,Some,1
+49226,PROFESSIONS_COLUMN_REAGENTS_ALL,All,1
+49240,PROFESSIONS_TRACKING_VIEW_RECIPE,View Recipe,1
+49241,PROFESSIONS_UNTRACK_RECIPE,Untrack,1
+49242,PROFESSIONS_TRACKER_HEADER_PROFESSION,Profession,1
+49244,PROFESSIONS_TRACKER_REAGENT_COUNT_FORMAT,%s/%d,1
+49253,PROFESSIONS_SPECS_CONFIG_OPERATION_TOO_FAST,"Specialization operation still in progress, try again later.",1
+49254,PROFESSIONS_SPECS_POINTS_SPENT_FORMAT,%d/%d,1
 49258,ERR_REQUESTED_INVITE_TO_GROUP_SS,|Hplayer:%s|h[%s]|h has requested to join your group.,1
 49259,ERR_SUGGEST_INVITE_PLAYER_S,You have suggested that %s join your group.,1
 49260,ERR_REQUEST_JOIN_PLAYER_S,You have requested to join %s's group.,1
@@ -18354,6 +18371,9 @@ ID,BaseTag,TagText_lang,Flags
 49292,LFG_SELF_LISTING,Your Listing,1
 49293,CHAR_CREATE_NO_BOOST_CLASS,You cannot boost this class,2
 49295,UNITNAME_SUMMON_TITLE36,%s's Fishing Guide,1
+49298,PROFESSIONS_SPECS_OUT_OF_KNOWLEDGE,You do not have any %s to spend.,1
+49312,UNLEARN_SKILL_CONFIRMATION,UNLEARN,1
+49315,PROFESSIONS_SPECIALIZATION_CONFIRM_CLOSE,Do you want to apply your changes before exiting?,1
 49317,BODY_TYPE,Body Type,3
 49318,ERR_INFORM_SUGGEST_INVITE_S,%s suggested that their group invites you.,1
 49319,ERR_INFORM_SUGGEST_INVITE_SS,%1$s suggested that %2$s invite you to their group.,1
@@ -18364,6 +18384,7 @@ ID,BaseTag,TagText_lang,Flags
 49334,ERR_INVITE_PARTY_BUSY_PENDING_REQUEST,You already have a pending invite request,1
 49335,ERR_INVITE_PARTY_BUSY_PENDING_SUGGEST,You already have a pending group referral,1
 49340,CHARACTER_UPGRADE_CONFIRMATION_TEXT,Name:  %s \nRealm:  %s \nClass:  |c%s%s|r \nCurrent Level:  %s \nBoosted Level:  %s,2
+49353,PROFESSIONS_CRAFTING_FORM_RECRAFTING_HEADER,Recrafting: %s,1
 49371,WORLD_PVP_AUTO_QUEUE_EJECT,The battle for %s is about to begin. You may return once it has ended.,1
 49373,ABILITY_INFO_TROLL5,- Reduced duration of movement impairing effects.,2
 49374,ABILITY_INFO_HUMAN5,,2
@@ -18391,6 +18412,8 @@ ID,BaseTag,TagText_lang,Flags
 49430,READY_CHECK_RATED_ARENA,Your group leader has queued you for a rated arena.  Are you ready?,1
 49453,UNDELETE_DEATHKNIGHT_LEVEL_REQUIREMENT,You no longer meet the requirements to restore that character. You must have an active character of at least level 55 on this realm to restore them.,2
 49540,CLASSIC_PRESENCE_PREFIX,Cataclysm Classic,0
+49611,PROFESSIONS_SPECIALIZATIONS_PAGE_NAME,%s Specializations,1
+49619,PROFESSIONS_CRAFTER_ORDER_TAB_GUILD,Guild,1
 49703,ENABLE_INTERACT_TEXT,Enable Interact Key,1
 49704,OPTION_TOOLTIP_ENABLE_INTERACT,Allows you to interact with NPCs and objects using a keypress,1
 49706,ACTION_TARGETING_OPTION,Enable Action Targeting,1
@@ -18454,11 +18477,25 @@ ID,BaseTag,TagText_lang,Flags
 49797,VRN_NEEDS_NVIDIA_GPU,Requires an NVIDIA graphics card,3
 49798,VRN_NEEDS_QUALCOMM_GPU,Requires a Qualcomm graphics card,3
 49818,EMPTY_SOCKET_TINKER,Tinker Socket,1
+49831,PROFESSION_EQUIPMENT_NEWITEM_TOOL_HELPTIP,You have a Profession Tool that can be equipped into a Profession Equipment slot.,1
+49832,PROFESSION_EQUIPMENT_NEWITEM_ACCESSORY_HELPTIP,You have a Profession Accessory that can be equipped into a Profession Equipment slot.,1
+49833,PROFESSION_EQUIPMENT_NEWITEM_TAB_HELPTIP,Left Click on your recipes tab to view your profession equipment,1
 49881,VRN_REMOTE_DESKTOP_UNSUPPORTED,Unsupported while using Remote Desktop,3
 49883,VIDEO_OPTIONS_NVIDIA_REFLEX_BOOST,NVIDIA Reflex + Boost,3
 49925,ENABLE_INTERACT_SOUND_OPTION,Interact Key Sound Cue,3
 49930,ENABLE_INTERACT_SOUND_OPTION_TOOLTIP,Plays a sound cue when you become able or unable to interact with a target.,3
+49943,PROFESSION_EQUIPMENT_NEWITEM_EQUIP_HELPTIP,Shift Right Click to open your Professions pane.|n|nDrag this into the Profession Equipment slot to equip it.,1
+49965,PROFESSIONS_UNSPENT_SPEC_POINTS_REMINDER,You have unspent Profession Specialization Knowledge.,1
 49970,AUCTION_HOUSE_CRAFTING_REAGANT_QUALITY_FORMAT,%s %s,1
+49993,PROFESSIONS_NEW_TUTORIAL,Click here to view your new Profession,1
+49994,PROFESSIONS_NEW_TUTORIAL_TAB,Click on this tab to view your Professions,1
+49995,PROFESSIONS_NEW_TUTORIAL_ICON,"Click to view your recipes and start crafting.
+
+You can also drag this icon to an action bar for easy access.",1
+50008,PROFESSIONS_NEW_CHOICE_AVAILABLE_SPECIALIZATION,You can now choose a new %s Specialization to unlock,1
+50009,PROFESSIONS_NEW_CHOICE_AVAILABLE_SPECIALIZATION_TUTORIAL,"Choose a Specialization to unlock.
+
+You can learn more Specializations as you increase your skill level.",1
 50067,CHAR_FACTION_CHANGE_ARENA_TEAM,You may not change faction while still on an arena team.,2
 50147,AUCTION_SORT_OPTIONS_TOOLTIP_TITLE,Price Sorting Options,1
 50148,AUCTION_SORT_OPTIONS_PROMPT,Sort Prices By:,1
@@ -18501,6 +18538,7 @@ ID,BaseTag,TagText_lang,Flags
 50274,CENSOR_SOURCE_EXCLUDE,Censor Messages,1
 50275,OPTION_TOOLTIP_CENTER_SOURCE_EXCLUDE,Controls whose messages will be censored if found to be inappropriate,1
 50299,BLIZZARD_STORE_CURRENCY_FORMAT_HKD,HK$%s,3
+50304,PROFESSIONS_SPECIALIZATION_CONFIRM_PURCHASE_TAB_UNAPPLIED,All pending changes will be applied upon unlocking this specialization. Are you sure you would like to learn the %s specialization?,1
 50310,EMPTY_SOCKET_PRIMORDIAL,Primordial Socket,1
 50332,CENSORED_MESSAGE_REPORT,|cffffff00|Hreportcensoredmessage:%d|h |W[Report]|w|h|r,1
 50336,PRC_CUSTOMIZE_DIALOG_TEXT,You will now choose your new race and customize your character. Your race change will be permanently applied once you finish this process.,2
@@ -18561,6 +18599,7 @@ ID,BaseTag,TagText_lang,Flags
 51163,AUCTION_HOUSE_COMMODITY_COST_DIALOG_SELL_LABEL,Sell: %s  x%s,4
 51164,AUCTION_HOUSE_ITEM_COST_DIALOG_SELL_LABEL,List auction for:,4
 51165,AUCTION_HOUSE_BID_PRICE_LABEL,Bid Price:,4
+51174,PROF_ORDER_CANT_ADD_FRIEND_WRONG_FACTION,This player is the opposite faction.,1
 51176,PVE_AND_PVP,PvE and PvP,1
 51181,COMPACT_UNIT_FRAME_PROFILE_LABEL,Raid Profile,1
 51193,ERR_MOUNT_NO_MOUNTS,You have no valid mounts.,0
