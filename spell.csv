@@ -31928,19 +31928,11 @@ Critical damage against targets in these areas is also increased by $s2%."
 1218216,,Deals Nature damage over time. Gives your attacks a chance to spawn spider minions that launch at your enemies.,Deals Nature damage over time. Gives your attacks a chance to spawn spider minions that launch at your enemies.
 1218232,,,
 1218240,,"You attempt to finish off a wounded target, firing a ranged attack dealing $s2% weapon damage plus ${$m1/100*$m2/100*$<damagepower>}. Kill Shot has no minimum range. Kill Shot's cooldown is reset if used on an enemy that has 20% or less health.",
-1218271,,The forces of the Scourge grow stronger.,"The forces of the Scourge grow stronger. Chance to dodge reduced by ${$s1/$u}% and chance to be hit increased by ${$s2/$u}%.
-
-The benefits from your Seal of the Dawn cannot exceed Rank $s3."
-1218275,,The forces of the Scourge grow stronger.,"The forces of the Scourge grow stronger. Chance to dodge reduced by ${$s1/$u}% and chance to be hit increased by ${$s2/$u}%. 
-
-The benefits from your Seal of the Dawn cannot exceed Rank ${$s3/$u}."
+1218271,,The forces of the Scourge grow stronger.,The forces of the Scourge grow stronger. Chance to dodge reduced by ${$s1/$u}% and chance to be hit increased by ${$s2/$u}%.
+1218275,,The forces of the Scourge grow stronger.,The forces of the Scourge grow stronger. Chance to dodge reduced by ${$s1/$u}% and chance to be hit increased by ${$s2/$u}%.
 1218276,,"The forces of the Scourge grow stronger.
-","The forces of the Scourge grow stronger. Chance to dodge reduced by ${$s1/$u}% and chance to be hit increased by ${$s2/$u}%.
-
-The benefits from your Seal of the Dawn cannot exceed Rank ${$s3/$u}."
-1218283,,The Lich King himself has taken notice. No hope remains here.,"The Lich King himself has taken notice. No hope remains here. Chance to dodge reduced by ${$s1/$u}% and chance to be hit increased by ${$s2/$u}%.
-
-The benefits from your Seal of the Dawn cannot exceed Rank ${$s3/$u}."
+",The forces of the Scourge grow stronger. Chance to dodge reduced by ${$s1/$u}% and chance to be hit increased by ${$s2/$u}%.
+1218283,,The Lich King himself has taken notice. No hope remains here.,The Lich King himself has taken notice. No hope remains here. Chance to dodge reduced by ${$s1/$u}% and chance to be hit increased by ${$s2/$u}%.
 1218285,,,Unable to benefit from the Lock and Load buff.
 1218309,,,
 1218345,,,Target takes $s1% increased damage from the caster's next Ice Lance.
@@ -31979,8 +31971,8 @@ Critical damage against targets in these areas is also increased by $s2%."
 1218582,,Your Wyvern Strike and Mongoose Bite deal $s1% more initial damage.,
 1218583,,"Reduces the cooldown on your Wyvern Strike ability by ${$m1/-1000} sec, reduces the cooldown on your Raptor Strike ability by ${$m2/-1000} sec, and reduces the cooldown on your Flanking Strike ability by ${$m3/-1000} sec.",
 1218585,,,
-1218587,,,Critical strike chance increased by $s1%.
-1218589,,"You gain $1218587s1% increased critical strike chance for $1218587d each time you hit an Undead enemy with a melee attack, stacking up to $1218587u times.",
+1218587,,,Damage done to Undead increased by $s1%.
+1218589,,"You gain $1218587s1% increased damage done to Undead for $1218587d each time you hit an Undead enemy with a melee attack, stacking up to $1218587u times.",
 1218592,,Allies with your Temporal Beacon heal for ${$SPA*$m1/1000+$<healpower>*$400735m1/100} health every $400735t1 sec.,
 1218599,,,
 1218624,,,
@@ -33663,26 +33655,27 @@ Movement speed slowed by $s2%."
 1223805,,,
 1223973,,Counts as a Sanctified item.,
 1223975,,Increases your attack speed by $s1% for $d1.,Increased attack speed.
-1224001,,,
-1224313,,,
-1224316,,,
-1224324,,,
 1223997,,The way is lit. The path is clear. You require only the strength to follow it.,The way is lit. The path is clear. You require only the strength to follow it.
+1224001,,,
+1224068,,,
 1224101,,,
 1224125,,"Silences an enemy, preventing it from casting spells for $d.",Cannot cast spells.
+1224313,,,
+1224315,,Rooted in place.,Rooted in place.
+1224316,,,
+1224324,,,
+1224410,,While applied to target weapon or shield it increases spell damage against undead by up to 60. Lasts for 1 hour.,
+1224422,,While applied to target weapon or shield it increases attack power against undead by 100. Lasts for 1 hour.,
 1224428,,The forces of the Scourge grow stronger.,"Engaging the forces of the Scourge.
 
 The benefits from your Seal of the Dawn cannot exceed Rank $s3."
 1224588,,,
 1224589,,,
 1224590,,,
-1224068,,,
-1224315,,Rooted in place.,Rooted in place.
-1224410,,While applied to target weapon or shield it increases spell damage against undead by up to 60. Lasts for 1 hour.,
-1224422,,While applied to target weapon or shield it increases attack power against undead by 100. Lasts for 1 hour.,
 1224702,,,
 1224905,,,
 1224919,,,
 1225051,,"Knocks an enemy back, forcing it to dismount.",Forced to dismount.
 1225096,,"Knocks an enemy back, forcing it to dismount.",Forced to dismount.
 1225098,,"Knocks an enemy back, forcing it to dismount.",Forced to dismount.
+1225429,,,
