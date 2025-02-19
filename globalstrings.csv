@@ -14760,7 +14760,7 @@ ID,BaseTag,TagText_lang,Flags
 33804,ACCOUNT_REACTIVATE_OPTION_UNAVAILABLE,This game time option is not available at this time.,2
 33805,ACCOUNT_REACTIVATE_SUBSCRIPTION,Reactivate Subscription,2
 33806,ACCOUNT_REACTIVATE_SUCCESS,Account Reactivated!,2
-33807,ACCOUNT_REACTIVATE_TEXT,You must have an active subscription to play characters above level 20.\n\nWould you like to reactivate now and continue where you left off?,2
+33807,ACCOUNT_REACTIVATE_TEXT,You must have an active subscription to play.\n\nWould you like to reactivate now and continue where you left off?,2
 33808,ACCOUNT_REACTIVATE_TOKEN_ACCEPT,Use WoW Token,2
 33809,ACCOUNT_REACTIVATE_TOKEN_DESC,You have an unused WoW Token. You can use it now to add 30 days of game time.,2
 33811,ACCOUNT_REACTIVATE_TOKEN_TITLE,Reactivate Now with WoW Token,2
@@ -15569,7 +15569,7 @@ ID,BaseTag,TagText_lang,Flags
 34622,UNDELETE_CONFIRMATION,Are you sure? You can only undelete one character every %s.,2
 34623,UNDELETE_FAILED_ERROR,There was a problem restoring your deleted character. Please try again later.,2
 34624,UNDELETE_LABEL,Deleted Characters,2
-34625,UNDELETE_NAME_TAKEN,You already have an active character with that name. You can't restore this character at this time.,2
+34625,UNDELETE_NAME_TAKEN,There is already an active character with that name on this realm. You can't restore this character at this time.,2
 34626,UNDELETE_NO_CHARACTERS,You have no deleted characters to restore.,2
 34627,UNDELETE_SERVICE_TOOLTIP,Restore this character,2
 34628,UNDELETE_SUCCESS,Character successfully restored.,2
@@ -16886,7 +16886,7 @@ ID,BaseTag,TagText_lang,Flags
 36117,COMMUNITIES_FRAME_TITLE,Blizzard Groups,1
 36118,BINDING_HEADER_COMMENTATORMISC,Misc,1
 36119,BINDING_NAME_TOGGLE_NAMEPLATE_SIZE,Toggle Nameplate Size,1
-36120,STORE_CATEGORY_VETERAN_DISABLED_TOOLTIP,Unavailable to Veteran accounts,3
+36120,STORE_CATEGORY_VETERAN_DISABLED_TOOLTIP,Unavailable,3
 36121,SPELL_FAILED_CUSTOM_ERROR_357,Paragon Reputation is not available until a higher level.,1
 36122,BLIZZARD_STORE_VAS_ALLIED_RACE_CHANGE_HERITAGE_WARNING,|cff66bbff*Race changing to an Allied Race makes the character ineligible for their Heritage armor set.|r,2
 36123,BLIZZARD_STORE_VAS_RACE_CHANGE_TITLE,%s can be race changed to:,2
@@ -17397,6 +17397,7 @@ ID,BaseTag,TagText_lang,Flags
 40874,VOICE_TOOLTIP_PARENTAL_MUTE_MIC,Mute|n|nYour account has been marked as voice-chat listen-only in Parental Controls.,1
 40875,VOICE_TOOLTIP_PARENTAL_UNMUTE_MIC,Unmute|n|nYour account has been marked as voice-chat listen-only in Parental Controls.,1
 40888,VISITABLE_URL43,https://support.blizzard.com,3
+40889,GUILD_VIEW_RECIPES_LINK,[View],1
 40890,COMMUNITIES_LIST_DROP_DOWN_COMMUNITIES_SETTINGS,Group Settings,1
 40891,COMMUNITIES_LIST_DROP_DOWN_COMMUNITIES_NOTIFICATION_SETTINGS,Notification Settings,1
 40892,COMMUNITIES_LIST_DROP_DOWN_CLEAR_UNREAD_NOTIFICATIONS,Clear All Notifications,1
@@ -17410,6 +17411,9 @@ ID,BaseTag,TagText_lang,Flags
 40910,EMOTE522_CMD2,/boop,1
 40911,EMOTE522_CMD1,/boop,1
 40922,COMMUNITIES_MEMBER_LIST_MEMBER_COUNT_FORMAT,%s/%s Online,1
+40924,AUCTION_HOUSE_DEPRECATED,This addon has been disabled. You should install an updated version.,1
+40928,ERR_AUCTION_HOUSE_UNAVAILABLE,The Auction House is currently unavailable.,5
+40929,ERR_AUCTION_HOUSE_BUSY,The Auction House is busy.,5
 40934,WOW_ERROR_331,Active game time is required in order to play World of Warcraft Classic. Please visit www.worldofwarcraft.com/account for more information.,2
 40938,BLIZZARD_STORE_VAS_ERROR_CHARACTER_HAS_VAS_PENDING,- This character already has a pending service. Please wait until that is complete to try again.,3
 40944,WOW_ERROR_332,Your recent purchase of game time is still under payment review,2
@@ -17498,8 +17502,47 @@ ID,BaseTag,TagText_lang,Flags
 41292,EMPTY_SOCKET_PUNCHCARDRED,Red Punchcard Socket,1
 41293,EMPTY_SOCKET_PUNCHCARDYELLOW,Yellow Punchcard Socket,1
 41294,EMPTY_SOCKET_PUNCHCARDBLUE,Blue Punchcard Socket,1
+41329,AUCTION_HOUSE_BUY_TAB,Buy,5
+41330,AUCTION_HOUSE_SELL_TAB,Sell,5
+41331,AUCTION_HOUSE_AUCTIONS_TAB,Transactions,1
+41332,AUCTION_HOUSE_FRAME_TITLE_BUY,Browse Auctions,1
+41333,AUCTION_HOUSE_FRAME_TITLE_SELL,Post Auctions,1
+41334,AUCTION_HOUSE_FRAME_TITLE_TRANSACTIONS,Transactions,1
+41335,AUCTION_HOUSE_SEARCH_BAR_LEVEL_RANGE_LABEL,Level Range,1
+41336,AUCTION_HOUSE_SEARCH_BAR_NAME_LABEL,Name,1
+41337,AUCTION_HOUSE_SEARCH_BAR_FILTERS_LABEL,Filters,1
+41338,AUCTION_HOUSE_SEARCH_BUTTON,Search,1
+41339,AUCTION_HOUSE_FILTER_DROPDOWN_NONE,None,1
+41340,AUCTION_HOUSE_FILTER_DROPDOWN_CUSTOM,Custom,1
 41348,BLIZZARD_GROUPS_SHORT,Groups,1
+41354,AUCTION_HOUSE_QUANTITY_LABEL,Quantity,5
+41355,AUCTION_HOUSE_UNIT_PRICE_LABEL,Unit Price,5
+41356,AUCTION_HOUSE_TOTAL_PRICE_LABEL,Total Price,5
+41357,AUCTION_HOUSE_BUY_BUTTON,Buy,5
+41358,AUCTION_HOUSE_BACK_BUTTON,Back,1
+41360,AUCTION_HOUSE_QUANTITY_AVAILABLE_FORMAT,%s Available,1
+41361,AUCTION_HOUSE_REFRESH_BUTTON_TOOLTIP,Refresh,1
+41362,AUCTION_HOUSE_COMMODITIES_QUANTITY_FORMAT,%s / %s,1
+41375,AUCTION_HOUSE_BID_BUTTON,Bid,1
+41376,AUCTION_HOUSE_BUYOUT_BUTTON,Buyout,1
+41377,AUCTION_HOUSE_BID_AMOUNT_IS_TOO_LOW,Bid amount must be higher than the current bid,5
 41385,BINDING_NAME_TOGGLEBLIZZARDGROUPSTAB,Toggle Blizzard Groups Pane,1
+41394,AUCTION_HOUSE_BROWSE_HEADER_PRICE,Price,5
+41395,AUCTION_HOUSE_BROWSE_HEADER_NAME,Name,5
+41396,AUCTION_HOUSE_BROWSE_HEADER_QUANTITY,Available,1
+41403,AUCTION_HOUSE_POST_BUTTON,Create Auction,5
+41404,AUCTION_HOUSE_DEPOSIT_LABEL,Deposit,5
+41405,AUCTION_HOUSE_BUYOUT_MODE_CHECK_BOX,Buyout Mode,1
+41406,AUCTION_HOUSE_DURATION_LABEL,Duration,1
+41407,AUCTION_HOUSE_BID_LABEL,Bid Price,5
+41408,AUCTION_HOUSE_BUYOUT_LABEL,Buyout Price,5
+41409,AUCTION_HOUSE_BUYOUT_OPTIONAL_LABEL,|cff777777(Optional)|r,1
+41410,AUCTION_HOUSE_MAX_QUANTITY_BUTTON,Max,5
+41411,AUCTION_HOUSE_SELL_FRAME_ERROR_ITEM,No item selected,1
+41412,AUCTION_HOUSE_SELL_FRAME_ERROR_PRICE,Price must be greater than zero,1
+41413,AUCTION_HOUSE_SELL_FRAME_ERROR_BUYOUT,Buyout price must be greater than the starting price,1
+41414,AUCTION_HOUSE_SELL_FRAME_ERROR_DEPOSIT,You don't have enough money for the deposit,1
+41415,AUCTION_HOUSE_SELL_FRAME_ERROR_QUANTITY,Quantity must be greater than zero,1
 41418,CLUB_FINDER_SEARCH_NOTHING_FOUND,No results found. Try adjusting your search criteria.,1
 41419,GUILD_NEWS_DUNGEON_ENCOUNTER_NORMAL,|cffd10000[%s]|r,1
 41420,GUILD_NEWS_DUNGEON_ENCOUNTER_HEROIC,|cffd10000[Heroic: %s]|r,1
@@ -17510,26 +17553,71 @@ ID,BaseTag,TagText_lang,Flags
 41429,CLUB_FINDER_JOINED_ANOTHER,Joined Another,1
 41430,CLUB_FINDER_CANCELED,Canceled,1
 41431,CLUB_FINDER_COMMUNITY_ROSTER_DROPDOWN,Community Roster,1
+41438,AUCTION_HOUSE_EQUIPMENT_NAME_FORMAT,%s (%s),1
 41459,VOICE_CHAT_DUCKING_SCALE,Voice Chat Ducking,1
 41466,LAUNCH_ETA,The world is scheduled to be available in approximately %d hours.,2
 41467,LAUNCH_ETA_SOON,The world is scheduled to be available soon.,2
+41475,AUCTION_HOUSE_TOOLTIP_SELLER_FORMAT,Seller: |cffffffff%s|r,1
+41476,AUCTION_HOUSE_TOOLTIP_MULTIPLE_SELLERS_FORMAT,Sellers: |cffffffff%s|r,1
+41477,AUCTION_HOUSE_TOOLTIP_DURATION_FORMAT,Time Left: |cffffffff%s|r,1
+41478,AUCTION_HOUSE_TOOLTIP_TIME_LEFT_SHORT,<30 min,5
+41479,AUCTION_HOUSE_TOOLTIP_TIME_LEFT_MEDIUM,30 min - 2 hr,5
+41480,AUCTION_HOUSE_TOOLTIP_TIME_LEFT_LONG,2-12 hr,5
+41481,AUCTION_HOUSE_TOOLTIP_TIME_LEFT_VERY_LONG,12 hr - 2 days,5
 41491,ITEM_MOD_AGILITY_OR_STRENGTH_OR_INTELLECT_SHORT,Agility or Strength or Intellect,1
 41492,ITEM_MOD_AGILITY_OR_STRENGTH_SHORT,Agility or Strength,1
 41493,ITEM_MOD_AGILITY_OR_INTELLECT_SHORT,Agility or Intellect,1
 41494,ITEM_MOD_STRENGTH_OR_INTELLECT_SHORT,Strength or Intellect,1
+41503,AUCTION_HOUSE_FILTER_CATEGORY_COLLECTIONS,Collections,1
+41504,AUCTION_HOUSE_FILTER_CATEGORY_EQUIPMENT,Equipment,1
+41505,AUCTION_HOUSE_FILTER_CATEGORY_RARITY,Rarity,1
+41506,AUCTION_HOUSE_FILTER_UNCOLLECTED_ONLY,Uncollected Only,5
+41507,AUCTION_HOUSE_FILTER_USABLE_ONLY,Usable Only,1
+41508,AUCTION_HOUSE_FILTER_UPGRADES_ONLY,Upgrades Only,5
+41509,AUCTION_HOUSE_EQUIPMENT_RESULT_FORMAT,%s (%s),1
 41512,GRAPHICS_QUALITY_CLASSIC,Graphics Quality (Classic),3
 41522,SHOW_MINIMAP_CLOCK,Show Minimap Clock,1
 41523,OPTION_TOOLTIP_SHOW_MINIMAP_CLOCK,Uncheck this to hide the clock below the minimap.,1
+41529,AUCTION_HOUSE_DIALOG_BUY_NOW,Buy Now,1
+41530,AUCTION_HOUSE_DIALOG_PRICE_UPDATED,Price updated to the cheapest available.,5
+41531,AUCTION_HOUSE_DIALOG_PRICE_UNAVAILABLE,This item is no longer available.,5
+41532,AUCTION_HOUSE_DIALOG_PER_UNIT_INCREASE,|cffffd100Per Unit Increase:|r,1
+41533,AUCTION_HOUSE_DIALOG_TOTAL_INCREASE,|cffffd100Total Increase:|r,1
 41543,ERR_GENERIC_THROTTLE,You're doing that too fast,1
 41553,CLUB_FINDER_LEADER,Leader: |cffffffff%s|r,1
 41554,CLUB_FINDER_CLUB_DESCRIPTION,"""%s""",1
 41558,CLUB_FINDER_COMMUNITY_RECRUITING_NOTE,Optional note to community leader,1
+41565,AUCTION_HOUSE_BROWSE_HEADER_REQUIRED_LEVEL,Level,5
+41566,AUCTION_HOUSE_BROWSE_HEADER_PET_LEVEL,Level,5
+41567,AUCTION_HOUSE_BROWSE_HEADER_CONTAINER_SLOTS,Slots,5
+41568,AUCTION_HOUSE_BROWSE_HEADER_RECIPE_SKILL,Skill,5
 41570,ERR_BATTLEGROUND_JOIN_MEMBER_DISQUALIFIED,A party member has been disqualified from this bracket.,1
+41575,AUCTION_HOUSE_HEADER_ITEM,Item,1
+41576,AUCTION_HOUSE_HEADER_UNIT_PRICE,Unit Price,5
+41577,AUCTION_HOUSE_HEADER_BID_PRICE,Bid Price,5
+41578,AUCTION_HOUSE_HEADER_BUYOUT_PRICE,Buyout Price,1
+41579,AUCTION_HOUSE_ALL_AUCTIONS,All Auctions,1
+41580,AUCTION_HOUSE_CANCEL_AUCTION_BUTTON,Cancel Auction,1
+41581,AUCTION_HOUSE_AUCTIONS_SUB_TAB,Auctions,1
+41582,AUCTION_HOUSE_BIDS_SUB_TAB,Bids,1
+41583,AUCTION_HOUSE_NUM_SELLERS,%d Sellers,1
 41600,ENTER_LFG,Enter,1
+41604,AUCTION_HOUSE_INCOMING_AMOUNT,Incoming Amount:,1
+41605,AUCTION_HOUSE_SELLER_YOU,You,5
+41606,AUCTION_HOUSE_ITEM_SOLD_FORMAT,%s - |cff00ff00Sold|r,1
+41607,AUCTION_HOUSE_ITEM_WITH_QUANTITY_FORMAT,%s  |cff808080x%s|r,1
 41608,ERR_BATTLEGROUND_JOIN_DISQUALIFIED_NO_NAME,A player has been disqualified from ranked play in this bracket.,1
+41611,AUCTION_HOUSE_HIGHEST_BIDDER,High Bidder,1
+41612,AUCTION_HOUSE_OUTBID,Outbid,1
+41613,AUCTION_HOUSE_HEADER_CURRENT_BID,Current Bid,1
+41614,AUCTION_HOUSE_ALL_BIDS,All Bids,1
 41615,CREDITS_WOW_CLASSIC,World of Warcraft Classic Credits,2
 41616,CLUB_FINDER_LINK_COMMUNITY,[Community: %s],1
 41617,CLUB_FINDER_LINK_GUILD,[Guild: %s],1
+41618,AUCTION_HOUSE_DROPDOWN_SET_FAVORITE,Set Favorite,1
+41619,AUCTION_HOUSE_DROPDOWN_REMOVE_FAVORITE,Remove Favorite,1
+41621,AUCTION_HOUSE_FAVORITES_SEARCH_TOOLTIP_TITLE,Favorites,1
+41622,AUCTION_HOUSE_FAVORITES_SEARCH_TOOLTIP_NO_FAVORITES,Your favorites list is empty. Right click an item in the auction house to favorite it.,1
 41626,CLUB_FINDER_APPLICANT_LIST_NO_MATCHING_SPECS,No Matches,1
 41627,CLUB_FINDER_SORT_BY_RELEVANCE,Relevance,1
 41628,CLUB_FINDER_SORT_BY_MOST_MEMBERS,Most Members,1
@@ -17541,10 +17629,12 @@ ID,BaseTag,TagText_lang,Flags
 41640,BNET_FRIEND_ZONE_WOW_CLASSIC,WoW Classic: %s,1
 41641,BNET_FRIEND_TOOLTIP_WOW_CLASSIC,WoW Classic,1
 41643,CLUB_FINDER_ONE_SPEC_REQUIRED,At least one specialization is required to apply.,1
+41644,AUCTION_HOUSE_DIALOG_ITEM_FORMAT,%s  x%s,5
 41649,AVAILABLE_CHANNELS,Available Channels,1
 41656,ERR_TRAVEL_PASS_DIFFERENT_REALM,In World of Warcraft Classic you cannot invite players that are on a different realm.,1
 41659,CLUB_FINDER_LINK_POST_IN_CHAT,Link Post in Chat,1
 41660,CLUB_FINDER_LINK_CHAT_ERROR,You need to list your guild in guild finder in order to link to chat.,1
+41661,AUCTION_HOUSE_BROWSE_FAVORITES_TIP,Tip: Right click items to favorite them. Favorite items appear immediately when you open the auction house.,1
 41668,CLUB_FINDER_ALREADY_IN_THAT_GUILD,You are already in this guild.,1
 41669,CLUB_FINDER_ALREADY_IN_THAT_CLUB,Already a member.,1
 41678,CLUB_FINDER_IS_GUILD_LEADER_JOIN_ERROR,Select a new guild master or disband your guild in order to join a new one.,1
@@ -17554,6 +17644,7 @@ ID,BaseTag,TagText_lang,Flags
 41709,CLUB_FINDER_APPLICANT_HISTORY,Applicant History,1
 41717,CLUB_FINDER_FOCUS_SOCIAL_LEVELING,Social & Leveling,1
 41718,CLUB_FINDER_FOCUS_PVP,PvP,1
+41726,AUCTION_HOUSE_PER_ITEM_LABEL,per item,1
 41727,BEHAVIORAL_NOTIFICATION_OPEN,Click here to read the message,1
 41728,BEHAVIORAL_NOTIFICATION_WARNING,Behavior Warning,1
 41729,BEHAVIORAL_NOTIFICATION_TY,Thank You for Reporting,1
@@ -17562,9 +17653,14 @@ ID,BaseTag,TagText_lang,Flags
 41736,CLUB_FINDER_GUILDS,Guilds,1
 41737,CLUB_FINDER_COMMUNITIES,Communities,1
 41739,CLUB_FINDER_CANCEL_APPLICATION,Cancel Application,1
+41741,AUCTION_HOUSE_HEADER_SELLER,Seller,1
 41744,CLUB_FINDER_REPORT_GUILD_NAME,Offensive Guild Name,1
 41745,CLUB_FINDER_REPORT_COMMUNITY_NAME,Offensive Community Name,1
 41746,CLUB_FINDER_REPORT_JOIN_NOTE,Offensive Applicant Note,1
+41749,AUCTION_HOUSE_FILTER_DROP_DOWN_LEVEL_RANGE,Level Range,1
+41751,AUCTION_HOUSE_MAIL_MULTIPLE_BUYERS,Multiple Buyers,1
+41752,AUCTION_HOUSE_MAIL_MULTIPLE_SELLERS,Multiple Sellers,1
+41753,AUCTION_HOUSE_MAIL_FORMAT_COUNT,%sx,1
 41756,CLUB_FINDER_REPORT_REASON_POSTERS_NAME,Posters Name,1
 41757,CLUB_FINDER_REPORT_REASON_COMMUNITY_NAME,Community Name,1
 41759,CLUB_FINDER_REPORT_REASON_GUILD_NAME,Guild Name,1
@@ -17612,6 +17708,8 @@ ID,BaseTag,TagText_lang,Flags
 41869,CLUB_FINDER_SEARCH_ERROR,Enter a search term three letters or longer to search.,1
 41871,CLUB_FINDER_NEW_COMMUNITY_JOINED,You joined a new community.,1
 41874,CLUB_FINDER_MAX_MEMBER_COUNT_HIT,Max member count reached. Remove a player in order to invite.,1
+41876,BUYOUT_AUCTION_CONFIRMATION_EXPENSIVE,Buyout auction for:|n|n%s |n|nType %s to confirm.,1
+41877,BUYOUT_AUCTION_CONFIRMATION_STRING,BUYOUT,1
 41890,CLUB_FINDER_GUILD_INVITE_CHAT_MSG,You have invited %s to join your guild.,1
 41891,CLUB_FINDER_COMMUNITY_INVITE_CHAT_MSG,You have invited %s to join your community.,1
 41892,CLUB_FINDER_GUILD_DECLINE_CHAT_MSG,You have declined %s from joining your guild.,1
@@ -17631,19 +17729,35 @@ ID,BaseTag,TagText_lang,Flags
 41910,CLUB_FINDER_GUILD_POSTING_REMOVED_TEXT_SRRS,Guild posting has been removed!,1
 41911,CLUB_FINDER_THANK_YOU_REPORTED,Thank you for reporting.,1
 41912,CLUB_FINDER_REPORTED,Reported,1
+41913,AUCTION_HOUSE_FRAME_TITLE_AUCTIONS,Auctions,1
 41945,QUEST_LOGIC_AND,And,1
 41946,QUEST_LOGIC_OR,Or,1
+41947,AUCTION_HOUSE_UNDERCUT_TUTORIAL,There's no need to undercut!|n|nAuctions posted later (at the same price) are sold first.,1
+41952,AUCTION_HOUSE_OWNED_COMMODITIES_LINE_TOOLTIP_TITLE,Your Auction,1
+41953,AUCTION_HOUSE_OWNED_COMMODITIES_LINE_TOOLTIP_TEXT,Some or all of these items are yours. Your own auctions won't be bought by you.,1
 41954,REALM_LAYERED,Layered,2
 41959,KIOSK_SESSION_EXPIRE_WARNING,The demo will end in %d |4minute:minutes;.,3
 41961,KIOSK_SESSION_TIMER_CHANGED,Session timer changed.,3
 41963,KIOSK_SESSION_EXPIRED_BODY,We'd love to hear what you think. Please take a survey on the way out.,1
 41964,KIOSK_SESSION_EXPIRED_TITLE,Thank You For Playing,1
+41965,AUCTION_HOUSE_BUYOUT_MODE_TOOLTIP,Uncheck this to allow bids on your auction,1
+41966,AUCTION_HOUSE_TIME_LEFT_FORMAT_SOLD,Delivered in: |cffffffff%s|r,1
+41967,AUCTION_HOUSE_TIME_LEFT_FORMAT_ACTIVE,Time left: |cffffffff%s|r,1
 41972,BLIZZARD_STORE_VAS_ERROR_ALLIANCE_NOT_ELIGIBLE,- This transfer is not currently available for this character's faction.,3
+41973,AUCTION_HOUSE_NONE_AVAILABLE,None available,5
 41974,BLIZZARD_STORE_VAS_TRANSFER_INELIGIBLE_FACTION_WARNING,This transfer is not currently available for this character's faction.,2
 42004,CLUB_FINDER_BANNED_POSTING_WARNING,Your %s has been banned from posting in the Finder,1
 42005,CLUB_FINDER_COMMUNITY_RENAME_BUTTON,Rename Community,1
+42007,AUCTION_HOUSE_TOOLTIP_TITLE_OWN_AUCTION,You can't buy your own auction,1
+42008,AUCTION_HOUSE_TOOLTIP_TITLE_NOT_ENOUGH_MONEY,You don't have enough money,1
+42018,AUCTION_HOUSE_AUCTION_SOLD_PREFIX,|cff00ff00Sold: |r,1
 42037,BLIZZARD_STORE_ERROR_TITLE_CLIENT_RESTRICTED,Purchasing Restricted,3
 42038,BLIZZARD_STORE_ERROR_CLIENT_RESTRICTED,Feature has been disabled because you are on a restricted character.,3
+42041,ERR_AUCTION_ITEM_HAS_QUOTE,This auction can't be canceled because a transaction is pending,5
+42063,AUCTION_HOUSE_FAVORITES_MAXED_TOOLTIP,Your favorites list is full. Unfavorite an item to add this one.,5
+42066,AUCTION_POSTING_ERROR_TEXT,Items can't be posted right now.|n|nThe auction house is about to undergo a major update.,1
+42067,CONFIRM_AUCTION_POSTING_TEXT,"The auction house will undergo major updates during the scheduled weekly maintenance.|n|nIf your auction hasn't sold by then, your item will be returned early and you will lose your deposit.",1
+42098,AUCTION_HOUSE_TOOLTIP_TITLE_NONE_AVAILABLE,No auctions available,5
 42110,CLUB_FINDER_INVITED,Invited,1
 42116,CLUB_FINDER_DISABLE_REASON_VETERAN_TRIAL,Access to this feature requires an account with an active subscription or game time.,1
 42117,IN_PROGRESS,In Progress,1
@@ -17652,8 +17766,10 @@ ID,BaseTag,TagText_lang,Flags
 42120,OPTION_TARGETFPS_CHECK,Enable this option to dynamically reduce graphics quality if you fall below a specific framerate.,3
 42121,OPTION_TARGETFPS,"Framerate you ideally want to play at. If your framerate is below this number, dynamic systems will reduce graphics quality to attempt to hit this framerate.",3
 42136,ERR_BATTLEGROUND_NOT_ENABLED,This feature is not enabled.,1
+42140,AUCTION_HOUSE_TOOLTIP_OVERFLOW_SELLERS_FORMAT,"Sellers: |cffffffff%s, and %s more|r",1
 42159,CLUB_FINDER_TUTORIAL_LANGUAGE_FILTER,The Guild and Community Finder has added a language filter.,1
 42160,CLUB_FINDER_TUTORIAL_LANGUAGE_SET,You can set your language here. Changing this will require your message to be reposted.,1
+42183,OPTIONAL_REAGENT_POSTFIX,Add Optional Reagent,1
 42189,BINDING_NAME_TOGGLE_COMMENTATOR_UNIT_FRAMES,Toggle Unit Frames,1
 42190,BINDING_NAME_COMMENTATORFOLLOW_1_7,Follow Player 7 on Team 1,1
 42191,BINDING_NAME_COMMENTATORFOLLOW_1_8,Follow Player 8 on Team 1,1
@@ -17732,6 +17848,10 @@ ID,BaseTag,TagText_lang,Flags
 42449,VIDEO_OPTIONS_RT_SHADOW_QUALITY_MEDIUM,Ray Traced Shadows at reduced resolution.,3
 42450,VIDEO_OPTIONS_RT_SHADOW_QUALITY_HIGH,Ray Traced Shadows at full resolution.,3
 42451,OPTION_TOOLTIP_RT_SHADOW_QUALITY,"Improves shadow quality with ray tracing, which produces shadows with more natural softness, greatly increased precision, and from additional light sources.|n|nThis feature requires:|nA hardware ray tracing capable graphics card|nWindows 10 May 2020 Update (version 2004)|nUp to date graphics drivers|nDirectX 12",3
+42463,AUCTION_HOUSE_BUYER_FORMAT,Buyer: |cffffffff%s|r,1
+42464,AUCTION_HOUSE_HIGH_BIDDER_FORMAT,High Bidder: |cffffffff%s|r,1
+42465,AUCTION_HOUSE_BUCKET_VARIATION_EQUIPMENT_TOOLTIP,Items in this group may vary in stats and appearance. Check the auction's tooltip before buying.,5
+42466,AUCTION_HOUSE_BUCKET_VARIATION_PET_TOOLTIP,"Pets in this group may vary in stats, level, and quality. Check the auction's tooltip before buying.",5
 42490,COMMENTATOR_TEAM_NAME_1,Team 1,1
 42491,COMMENTATOR_TEAM_NAME_2,Team 2,1
 42522,OVERRIDE_SCREEN_FLASH,|TInterface\\OptionsFrame\\UI-OptionsFrame-NewFeatureIcon:0:0:0:-1|tOverride Screen Fades,3
@@ -17784,12 +17904,15 @@ ID,BaseTag,TagText_lang,Flags
 42905,META_KEY_TEXT_ABBR,m,1
 42907,CMD_KEY_TEXT_ABBR,m,1
 42908,WIN_KEY_TEXT_ABBR,w,1
+42914,ACCOUNT_UPGRADE_BANNER_RESUBSCRIBE,Resubscribe Now,2
+42953,AUCTION_HOUSE_FILTER_RUNECARVING,|cff00ccffRunecarving|r,1
 42967,EXPANSION,Expansion,2
 43001,MAC_MIC_PREMISSIONS_NOTIFICATION,"In order to use voice chat, you must grant ""Microphone"" permission to %s in Security & Privacy preferences, located in System Preferences.",3
 43002,MAC_MIC_PERMISSIONS_OPEN_BUTTON,System Preferences,3
 43039,SSAO_TYPE_LABEL,Ambient Occlusion Type,3
 43041,SSAO_TYPE_ASSAO,ASSAO,3
 43042,SSAO_TYPE_CACAO,FidelityFX CACAO,3
+43043,ERR_AUCTION_COMMODITY_WON_S,You won an auction for %s (x%d),1
 43077,ALTERNATE_SCREEN_EFFECTS,Enable Photosensitivity Mode,3
 43078,OPTION_TOOLTIP_ALTERNATE_SCREEN_EFFECTS,"Modifies certain effects, such as the screen fading to white or bright spells, to help reduce photosensitivity issues",3
 43198,EVENTTRACE_BUTTON_MARKER,Marker,3
@@ -17816,6 +17939,7 @@ ID,BaseTag,TagText_lang,Flags
 43226,VISITABLE_URL54,https://shop.battlenet.com.cn/product/celebration-collection-cn,3
 43229,VISITABLE_URL53,https://shop.battle.net/product/celebration-collection,3
 43233,ERR_VOICE_CHAT_GENERIC_UNABLE_TO_CONNECT,Can't connect to a voice chat server right now. Please try again.,1
+43234,AUCTION_HOUSE_NONE_AVAILABLE_FORMAT,None available at item level %s,1
 43258,BURNING_CRUSADE_TRANSITION_CHOICE_OTHER_TITLE,I want to play this character in |cffffc437WoW Classic Era|r,2
 43259,BURNING_CRUSADE_TRANSITION_CHOICE_CURRENT_TITLE,I want to play this character in|n|cff1eff00Burning Crusade Classic|r,2
 43260,BURNING_CRUSADE_TRANSITION_CHOICE_CURRENT_DESCRIPTION,"%1$s will be locked to Burning Crusade Classic.|n|nAfterwards, you'll have the option of activating %2$s in WoW Classic Era as well for %3$s.",2
@@ -18111,6 +18235,7 @@ ID,BaseTag,TagText_lang,Flags
 48787,ITEM_MOD_FINESSE_SHORT,Finesse,1
 48788,ITEM_MOD_DEFTNESS_SHORT,Deftness,1
 48789,ITEM_MOD_PERCEPTION_SHORT,Perception,1
+48794,PURCHASE_UNIQUE_AUCTION_CONFIRMATION,"|cffffd200This item is ""%s""|n|nYou can only equip one item with this label at a time.|r",1
 48812,ERR_QUEST_REWARD_MONEY_MOD_S,Received %s (+%s).,1
 48821,REPORTING_MAJOR_CATEGORY_INAPPROPRIATE_COMMUNICATION,Inappropriate Communication,1
 48822,REPORTING_MAJOR_CATEGORY_GAMEPLAY_SABOTAGE,Gameplay Sabotage,1
@@ -18165,6 +18290,9 @@ ID,BaseTag,TagText_lang,Flags
 48919,BLIZZARD_STORE_LICENSE_ACK_TEXT_TRY,"By clicking Pay Now, you agree to the |HurlIndex:16|h|cff71d5ffTerms of Sale|r|h, and to the immediate delivery of your order. You will lose the right to withdraw your order once the delivery process has started.",3
 48920,BLIZZARD_STORE_LICENSE_ACK_TEXT_KZT,"By clicking Pay Now, you agree to the |HurlIndex:16|h|cff71d5ffTerms of Sale|r|h, and to the immediate delivery of your order. You will lose the right to withdraw your order once the delivery process has started.",3
 48921,BLIZZARD_STORE_LICENSE_ACK_TEXT_UAH,"By clicking Pay Now, you agree to the |HurlIndex:16|h|cff71d5ffTerms of Sale|r|h, and to the immediate delivery of your order. You will lose the right to withdraw your order once the delivery process has started.",3
+48932,AUCTION_CATEGORY_PROFESSION_EQUIPMENT,Profession Equipment,1
+48933,AUCTION_SUBCATEGORY_PROFESSION_TOOLS,Tools,1
+48934,AUCTION_SUBCATEGORY_PROFESSION_ACCESSORIES,Accessories,1
 48944,INVTYPE_EQUIPABLESPELL_DEFENSIVE,Equipable Spell - Defensive,1
 48945,INVTYPE_EQUIPABLESPELL_UTILITY,Equipable Spell - Utility,1
 48946,INVTYPE_EQUIPABLESPELL_OFFENSIVE,Equipable Spell - Offensive,1
@@ -18214,11 +18342,27 @@ ID,BaseTag,TagText_lang,Flags
 49091,SET_ROLE_TOOLTIP,Click here to set a role for this talent set. This determines your default role when you join a group.,1
 49109,LFGBROWSE_ACTIVITY_HEADER_DEFAULT,Filter by activity,1
 49110,LFG_LIST_EDIT,Edit Listing,1
+49111,ERR_AUCTION_DOUBLE_BID,You are already the highest bidder,5
 49116,LFG_LIST_INDENT,    %s,1
 49120,LFGBROWSE_ACTIVITY_MATCHING_COUNT,%d matching |4activity:activities;,1
 49121,BARBERS_CHOICE_CONFIRM,Are you sure you want to let the barber choose your shave for a discounted price?,1
 49128,INVITE_CONFIRMATION_REQUEST_GROUPFINDER,%s has requested to join your group through the Group Finder.,1
 49141,ERR_DECLINE_GROUP_REQUEST_S,%s declines your group invitation request.,1
+49167,PROFESSIONS_CRAFTING_FORM_ORDER_RECIPIENT_GUILD,Guild Order,1
+49206,PROFESSIONS_SPECIALIZATION_CONFIRM_PURCHASE_TAB_TITLE,Learn %s?,1
+49207,PROFESSIONS_SPECIALIZATION_CONFIRM_PURCHASE_TAB,Are you sure you would like to learn the %s specialization? You will be able to choose additional specializations upon advancing further in the %s profession.,1
+49217,PROFESSIONS_LISTING_DURATION_ONE,12 Hours,1
+49218,PROFESSIONS_LISTING_DURATION_TWO,24 Hours,1
+49219,PROFESSIONS_LISTING_DURATION_THREE,48 Hours,1
+49224,PROFESSIONS_COLUMN_REAGENTS_NONE,None,1
+49225,PROFESSIONS_COLUMN_REAGENTS_PARTIAL,Some,1
+49226,PROFESSIONS_COLUMN_REAGENTS_ALL,All,1
+49240,PROFESSIONS_TRACKING_VIEW_RECIPE,View Recipe,1
+49241,PROFESSIONS_UNTRACK_RECIPE,Untrack,1
+49242,PROFESSIONS_TRACKER_HEADER_PROFESSION,Profession,1
+49244,PROFESSIONS_TRACKER_REAGENT_COUNT_FORMAT,%s/%d,1
+49253,PROFESSIONS_SPECS_CONFIG_OPERATION_TOO_FAST,"Specialization operation still in progress, try again later.",1
+49254,PROFESSIONS_SPECS_POINTS_SPENT_FORMAT,%d/%d,1
 49258,ERR_REQUESTED_INVITE_TO_GROUP_SS,|Hplayer:%s|h[%s]|h has requested to join your group.,1
 49259,ERR_SUGGEST_INVITE_PLAYER_S,You have suggested that %s join your group.,1
 49260,ERR_REQUEST_JOIN_PLAYER_S,You have requested to join %s's group.,1
@@ -18227,6 +18371,9 @@ ID,BaseTag,TagText_lang,Flags
 49292,LFG_SELF_LISTING,Your Listing,1
 49293,CHAR_CREATE_NO_BOOST_CLASS,You cannot boost this class,2
 49295,UNITNAME_SUMMON_TITLE36,%s's Fishing Guide,1
+49298,PROFESSIONS_SPECS_OUT_OF_KNOWLEDGE,You do not have any %s to spend.,1
+49312,UNLEARN_SKILL_CONFIRMATION,UNLEARN,1
+49315,PROFESSIONS_SPECIALIZATION_CONFIRM_CLOSE,Do you want to apply your changes before exiting?,1
 49317,BODY_TYPE,Body Type,3
 49318,ERR_INFORM_SUGGEST_INVITE_S,%s suggested that their group invites you.,1
 49319,ERR_INFORM_SUGGEST_INVITE_SS,%1$s suggested that %2$s invite you to their group.,1
@@ -18237,6 +18384,7 @@ ID,BaseTag,TagText_lang,Flags
 49334,ERR_INVITE_PARTY_BUSY_PENDING_REQUEST,You already have a pending invite request,1
 49335,ERR_INVITE_PARTY_BUSY_PENDING_SUGGEST,You already have a pending group referral,1
 49340,CHARACTER_UPGRADE_CONFIRMATION_TEXT,Name:  %s \nRealm:  %s \nClass:  |c%s%s|r \nCurrent Level:  %s \nBoosted Level:  %s,2
+49353,PROFESSIONS_CRAFTING_FORM_RECRAFTING_HEADER,Recrafting: %s,1
 49371,WORLD_PVP_AUTO_QUEUE_EJECT,The battle for %s is about to begin. You may return once it has ended.,1
 49373,ABILITY_INFO_TROLL5,- Reduced duration of movement impairing effects.,2
 49374,ABILITY_INFO_HUMAN5,,2
@@ -18264,6 +18412,8 @@ ID,BaseTag,TagText_lang,Flags
 49430,READY_CHECK_RATED_ARENA,Your group leader has queued you for a rated arena.  Are you ready?,1
 49453,UNDELETE_DEATHKNIGHT_LEVEL_REQUIREMENT,You no longer meet the requirements to restore that character. You must have an active character of at least level 55 on this realm to restore them.,2
 49540,CLASSIC_PRESENCE_PREFIX,Cataclysm Classic,0
+49611,PROFESSIONS_SPECIALIZATIONS_PAGE_NAME,%s Specializations,1
+49619,PROFESSIONS_CRAFTER_ORDER_TAB_GUILD,Guild,1
 49703,ENABLE_INTERACT_TEXT,Enable Interact Key,1
 49704,OPTION_TOOLTIP_ENABLE_INTERACT,Allows you to interact with NPCs and objects using a keypress,1
 49706,ACTION_TARGETING_OPTION,Enable Action Targeting,1
@@ -18327,10 +18477,25 @@ ID,BaseTag,TagText_lang,Flags
 49797,VRN_NEEDS_NVIDIA_GPU,Requires an NVIDIA graphics card,3
 49798,VRN_NEEDS_QUALCOMM_GPU,Requires a Qualcomm graphics card,3
 49818,EMPTY_SOCKET_TINKER,Tinker Socket,1
+49831,PROFESSION_EQUIPMENT_NEWITEM_TOOL_HELPTIP,You have a Profession Tool that can be equipped into a Profession Equipment slot.,1
+49832,PROFESSION_EQUIPMENT_NEWITEM_ACCESSORY_HELPTIP,You have a Profession Accessory that can be equipped into a Profession Equipment slot.,1
+49833,PROFESSION_EQUIPMENT_NEWITEM_TAB_HELPTIP,Left Click on your recipes tab to view your profession equipment,1
 49881,VRN_REMOTE_DESKTOP_UNSUPPORTED,Unsupported while using Remote Desktop,3
 49883,VIDEO_OPTIONS_NVIDIA_REFLEX_BOOST,NVIDIA Reflex + Boost,3
 49925,ENABLE_INTERACT_SOUND_OPTION,Interact Key Sound Cue,3
 49930,ENABLE_INTERACT_SOUND_OPTION_TOOLTIP,Plays a sound cue when you become able or unable to interact with a target.,3
+49943,PROFESSION_EQUIPMENT_NEWITEM_EQUIP_HELPTIP,Shift Right Click to open your Professions pane.|n|nDrag this into the Profession Equipment slot to equip it.,1
+49965,PROFESSIONS_UNSPENT_SPEC_POINTS_REMINDER,You have unspent Profession Specialization Knowledge.,1
+49970,AUCTION_HOUSE_CRAFTING_REAGANT_QUALITY_FORMAT,%s %s,1
+49993,PROFESSIONS_NEW_TUTORIAL,Click here to view your new Profession,1
+49994,PROFESSIONS_NEW_TUTORIAL_TAB,Click on this tab to view your Professions,1
+49995,PROFESSIONS_NEW_TUTORIAL_ICON,"Click to view your recipes and start crafting.
+
+You can also drag this icon to an action bar for easy access.",1
+50008,PROFESSIONS_NEW_CHOICE_AVAILABLE_SPECIALIZATION,You can now choose a new %s Specialization to unlock,1
+50009,PROFESSIONS_NEW_CHOICE_AVAILABLE_SPECIALIZATION_TUTORIAL,"Choose a Specialization to unlock.
+
+You can learn more Specializations as you increase your skill level.",1
 50067,CHAR_FACTION_CHANGE_ARENA_TEAM,You may not change faction while still on an arena team.,2
 50147,AUCTION_SORT_OPTIONS_TOOLTIP_TITLE,Price Sorting Options,1
 50148,AUCTION_SORT_OPTIONS_PROMPT,Sort Prices By:,1
@@ -18373,6 +18538,7 @@ ID,BaseTag,TagText_lang,Flags
 50274,CENSOR_SOURCE_EXCLUDE,Censor Messages,1
 50275,OPTION_TOOLTIP_CENTER_SOURCE_EXCLUDE,Controls whose messages will be censored if found to be inappropriate,1
 50299,BLIZZARD_STORE_CURRENCY_FORMAT_HKD,HK$%s,3
+50304,PROFESSIONS_SPECIALIZATION_CONFIRM_PURCHASE_TAB_UNAPPLIED,All pending changes will be applied upon unlocking this specialization. Are you sure you would like to learn the %s specialization?,1
 50310,EMPTY_SOCKET_PRIMORDIAL,Primordial Socket,1
 50332,CENSORED_MESSAGE_REPORT,|cffffff00|Hreportcensoredmessage:%d|h |W[Report]|w|h|r,1
 50336,PRC_CUSTOMIZE_DIALOG_TEXT,You will now choose your new race and customize your character. Your race change will be permanently applied once you finish this process.,2
@@ -18414,6 +18580,26 @@ ID,BaseTag,TagText_lang,Flags
 50568,AUDIO_CACHE_SIZE_SMALL,Small (%dMB),3
 50569,AUDIO_CACHE_SIZE_LARGE,Large (%dMB),3
 50571,AUDIO_LABEL,Audio,3
+51103,AUCTION_HOUSE_BUYOUT_COLON,Buyout:,4
+51104,AUCTION_HOUSE_LABEL_HIGH_TO_LOW,High to Low,4
+51105,AUCTION_HOUSE_LABEL_LOW_TO_HIGH,Low to High,4
+51111,AUCTION_HOUSE_PURCHASE_SUCCESSFUL,Purchase successful.,4
+51112,AUCTION_HOUSE_ARRIVES_IN,Arrives in:,4
+51113,AUCTION_HOUSE_QUANTITY_AVAILABLE,{0} Available,4
+51115,AUCTION_HOUSE_QTY_IN_YOUR_BAGS,In your bags: {0},4
+51116,AUCTION_HOUSE_SECURITY_HINT,"Unlock the mobile Auction House by attaching an Authenticator to your account.|n|n The Battle.net Authenticator is a free, easy-to-use service that protects your account from intruders.|n|n Click ""Activate"" to launch the Authenticator setup website.",4
+51118,AUCTION_HOUSE_SEARCH_AND_CATEGORY,"{0} > ""{1}""",4
+51119,AUCTION_HOUSE_SEARCH_RESULTS,Search Results: {0},4
+51120,AUCTION_HOUSE_SEARCH_RESULTS_ALL,Search Results: All,4
+51121,AUCTION_HOUSE_SEARCH_PARENT_HEADER,{0} >,4
+51123,AUCTION_HOUSE_SORT_OPTION_A_TO_Z,A to Z,4
+51124,AUCTION_HOUSE_SORT_OPTION_Z_TO_A,Z to A,4
+51130,AUCTION_HOUSE_CANT_USE_WHILE_DEAD,You can't access the Auction House when your character is dead,4
+51146,ERR_AUCTION_HOUSE_DISABLED_MOBILE,Mobile Auction House is currently unavailable. Please check back later.,4
+51163,AUCTION_HOUSE_COMMODITY_COST_DIALOG_SELL_LABEL,Sell: %s  x%s,4
+51164,AUCTION_HOUSE_ITEM_COST_DIALOG_SELL_LABEL,List auction for:,4
+51165,AUCTION_HOUSE_BID_PRICE_LABEL,Bid Price:,4
+51174,PROF_ORDER_CANT_ADD_FRIEND_WRONG_FACTION,This player is the opposite faction.,1
 51176,PVE_AND_PVP,PvE and PvP,1
 51181,COMPACT_UNIT_FRAME_PROFILE_LABEL,Raid Profile,1
 51193,ERR_MOUNT_NO_MOUNTS,You have no valid mounts.,0
@@ -18442,7 +18628,13 @@ ID,BaseTag,TagText_lang,Flags
 51488,PNC_FLOW_NEW_NAME_LABEL,New Name,2
 51489,PNC_CUSTOMIZE_DIALOG_TEXT,Your name change will be permanently applied once you accept.,2
 51533,LFG_LIST_CHOOSE_YOUR_ROLE,Choose your Role,1
+51567,AUCTION_HOUSE_ITEM_QUANTITY_FORMAT,|cff808080x%s|r,1
 51604,OPTION_TOOLTIP_MOTION_SICKNESS_CHECKBOX,Enabling the Motion Sickness setting will reduce camera movement and keep your character centered.,1
+51646,SELF_HIGHLIGHT_UNIT_FRAME,Self Highlight,1
+51647,SELF_HIGHLIGHT_CIRCLE,Circle,1
+51649,SELF_HIGHLIGHT_ICON,Icon,1
+51750,SELF_HIGHLIGHT_MODE_CIRCLE_AND_ICON,Circle and Icon,1
+51753,SELF_HIGHLIGHT_MODE_ICON,Icon,1
 51756,ADDON_DEP_NOT_AVAILABLE,Dependency not available,3
 51757,ADDON_EXCLUDED_FROM_BUILD,Excluded from build,3
 51758,ADDON_DEP_EXCLUDED_FROM_BUILD,Dependency excluded from build,3
@@ -18461,6 +18653,8 @@ ID,BaseTag,TagText_lang,Flags
 51860,UPREZ_TEXTURES,NEW!  Uprezzed Textures,3
 51861,OPTION_TOOLTIP_UPREZ_TEXTURES,uprez tooltip placeholder,3
 51869,ICON_SELECTION_TITLE_CURRENT,Currently Selected,1
+51919,AUCTION_HOUSE_FILTER_CURRENTEXPANSION_ONLY,Current Expansion Only,1
+51958,TIMERUNNING_AUCTION_HOUSE_DISABLED,The Auction House is not available to Timerunners.,5
 51959,EMPTY_SOCKET_FRAGRANCE,Fragrance Socket,1
 51978,ERR_PARTY_LFG_BOOT_DISALLOWED_BY_MAP,Players can't be kicked from this instance,1
 52002,COUNTDOWN_SET,|Hplayer:%s|h[%s]|h started a countdown timer.,1
@@ -18489,6 +18683,9 @@ ID,BaseTag,TagText_lang,Flags
 52160,WARDROBE_TOOLTIP_BOSS_DROP_FORMAT_WITH_DIFFICULTIES,Boss Drop: %s (%s),1
 52161,WARDROBE_TOOLTIP_BOSS_DROP_FORMAT,Boss Drop: %s,1
 52163,CURRENCY_RECEIVED_THIS_SEASON,%s you have received so far this season:,1
+52228,PHOTOSENSITIVITY_WARNING_TITLE,PHOTOSENSITIVITY WARNING,2
+52229,PHOTOSENSITIVITY_WARNING_DESCRIPTION,"A small percentage of people may have seizures from certain lights, patterns, or images, even without a history of epilepsy.|n|nBefore playing, if you or anyone in your family has an epileptic condition, consult a physician.|n|nStop playing and seek medical advice if you experience dizziness, altered vision, twitches, loss of awareness, disorientation, involuntary movements, or convulsions while gaming.",2
+52235,PHOTOSENSITIVITY_WARNING_CONTINUE,Press any button to continue,2
 52267,REPORTING_MINOR_CATEGORY_HARMFUL_TO_MINORS,Harmful To Minors,1
 52290,CLUB_FINDER_REALM_NAME,Realm: |cffffffff%s|r,1
 52346,VRN_COMPAT_MODE,Disabled due to compatibility settings,3
@@ -18512,16 +18709,15 @@ ID,BaseTag,TagText_lang,Flags
 52398,CHINA_HEALTHY_GAMING_TEXT_TITLE,System message,2
 52434,SETTINGS_TRIVIAL_QUEST_FILTER,Hide Low-Level Quests,1
 52439,ERR_GUILD_NEW_LEADER_WRONG_REALM,Players from other realms can't be promoted to guild leader.,1
-52468,SELF_HIGHLIGHT_UNIT_FRAME,Self Highlight,1
-52469,SELF_HIGHLIGHT_CIRCLE,Circle,1
-52470,SELF_HIGHLIGHT_ICON,Icon,1
-52471,SELF_HIGHLIGHT_MODE_ICON,Icon,1
-52472,SELF_HIGHLIGHT_MODE_CIRCLE_AND_ICON,Circle and Icon,1
+52481,CONFIRM_POPUP_DONT_SHOW_AGAIN,Don't show this again,3
 52522,OPTION_TOOLTIP_DISABLE_CHAT,Disables chat. You will not be able to send or receive messages.,1
 52523,OPTION_TOOLTIP_DISABLE_CHAT_ACCOUNT_MUTE,"To change this, you must first go to your Battle.net Account settings and make sure that: \n- Privacy & Communication -> Text Chat is enabled \n- Parental Controls -> Account Mute is disabled",1
 52644,PVP_REALM_WARNING,"Hold, adventurer. You are attempting to join a |cffffffffPvP (Player vs Player) |cffffd200realm. You will face a constant threat from players of the opposing faction.|n|nIf you are not comfortable with a high level of conflict, we recommend you choose a |cffffffffNormal (non-PvP) |cffffd200realm.|n|n|cffffffffGame Masters do not intervene in PvP conflicts, and it is not possible to transfer your characters from a PvP realm to a Normal realm.",2
 52672,PVP_CHARACTER_CREATION_WARNING,"Welcome to the |cffffffffWorld of Warcraft! |cffffd200As you prepare to enter this realm, please be aware that you are joining a |cffffffffPvP (Player vs Player) |cffffd200realm. This means, in addition to the challenges of the world itself, you will also face the constant threat of combat with other players.|n|n|cffffffffPvP combat |cffffd200is a core part of this realm, and players from opposing factions may attack you without warning and with no sense of honor in contested areas. Be prepared for skirmishes and potentially lopsided battles as you explore the world, whether during quests, gathering resources, or traveling between locations. For example, the player you killed in Un'Goro while fighting over Devilsaur might hold a grudge, and now their guild is waiting for yours on the path through Blackrock Mountain for raid night in Molten Core.",2
 52673,PVP_CHARACTER_CREATION_WARNING_TWO,"|n|nIf you're not looking for this level of conflict, we recommend choosing a |cffffffffNormal (non-PvP) |cffffd200realm instead, where player combat is restricted.|n|n|cffffffffGame Masters do not intervene in PvP conflicts, and it is not possible to transfer your characters between PvP and Normal realms. You have been warned!",2
 52811,SPELL_FAILED_CUSTOM_ERROR_360,You already have the maximum amount of Justice Points.,1
-42066,AUCTION_POSTING_ERROR_TEXT,Items can't be posted right now.|n|nThe auction house is about to undergo a major update.,1
-42067,CONFIRM_AUCTION_POSTING_TEXT,"The auction house will undergo major updates during the scheduled weekly maintenance.|n|nIf your auction hasn't sold by then, your item will be returned early and you will lose your deposit.",1
+52969,TW_FRAUD_WARNING_TEXT,System message,2
+53343,CHAR_CREATE_GAME_TIME_REQUIRED,Active game time is required in order to create a character.,2
+53372,CHAR_ENTER_WORLD_GAME_TIME_REQUIRED,Active game time is required in order to enter the world.,2
+53404,CHARSELECT_CHAR_SUB_LIMITED_TOOLTIP,You must have an active subscription to play.,2
+53744,CONFIRM_REMOVE_WOW_FRIEND,Are you sure you want to remove this friend from your list? This action cannot be undone.,1
