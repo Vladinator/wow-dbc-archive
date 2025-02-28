@@ -25674,9 +25674,9 @@ $@spelldesc426065",
 426303,,Increases all damage done by $s1%.,Increases all damage done by $s1%.
 426311,,Increases all Fire and Shadow damage done by $s1%.,Increases all Fire and Shadow damage done by $s1%.
 426316,,Your critical strikes with Fire and Shadow spells increase your Fire and Shadow damage done by $426311s1% for $426311d.,
-426320,,"Burns the enemy for ${$m1*$<power>/100*$<mult>} Shadowflame damage and then an additional ${$m2*5*$<power>/100} Shadowflame damage over $d.
+426320,,"Burns the enemy for ${$m1*$<power>/100*$<mult>} Shadowflame damage and then an additional ${$1228049m1*5*$<power>/100} Shadowflame damage over $1228049d.
 
-Shadowflame triggers and benefits from all effects that modify or interact with Immolate, or with Affliction, Destruction, Fire, or Shadow spells, but only one of Immolate or Shadowflame per Warlock can be active on any target. In addition, Shadowflame can trigger your Improved Shadow Bolt talent and causes it to have $426454s2 additional charges.",
+Shadowflame triggers and benefits from all effects that modify or interact with Immolate, or with Affliction, Destruction, Fire, or Shadow spells, but only one of Immolate or Shadowflame per Warlock can be active on any target. In addition, Shadowflame can trigger your Improved Shadow Bolt talent and causes it to have $426454s2 additional charges.",${$m2*$<power>/100} Shadowflame damage every $t2 seconds.
 426325,,,$w1 Fire damage every $t1 seconds.
 426331,,,
 426336,,,
@@ -30298,7 +30298,7 @@ Moonkin Aura, Tree of Life, and Leader of the Pack effects increased by $s2%."
 467511,,Increases the chance to apply Rogue poisons to your target by $s1% for $d.,Chance to apply poisons to your target increased by $s1%.
 467512,,,
 467513,,"While you are not your Beacon of Light target, your Beacon of Light target is also healed by $s1% of the damage you deal with Consecration, Exorcism, Holy Shock, Holy Wrath, and Hammer of Wrath.",
-467518,,Increases damage done by your damaging Judgements by $s1% and your Judgements no longer consume your Seals on the target.,
+467518,,Increases damage done by your damaging Judgements by $s1% and your Judgements no longer consume your Seals on the target. Your Judgements can now trigger multiple Seals if active.,
 467522,,"Energizes a Paladin with light, increasing melee attack speed by $s2% and spell casting speed by $s1% for $d.","Attack speed increased by $s2%.
 Casting speed increased by $s1%."
 467523,,"Aligns the Shaman with nature, increasing the damage done by spells by $s1%, improving heal effects by $s2%, and increasing mana cost of spells by $s3% for $d.","Damage from spells increased by $s1%.
@@ -31184,7 +31184,7 @@ Time between attacks increased by $s2%."
 1213397,,Increases Crusader Strike damage by $s1%.,
 1213398,,Increases the casting speed of your spells by $s1% per piece of Timeworn armor equipped.,
 1213405,,Increases the effectiveness of your healing and shielding spells by $s1% per piece of Timeworn armor equipped.,
-1213406,,Your basic attacks increase the damage of your next Exorcism cast within $1217927d by $1217927s1%.  Stacking up to $s1 times.,
+1213406,,Your basic attacks with two-handed melee weapons increase the damage of your next Exorcism cast within $1217927d by $1217927s1%.  Stacking up to $s1 times.,
 1213407,,Reduces the chance for your attacks to be dodged or parried by $s1% per piece of Timeworn armor equipped.,
 1213408,,,Increases stats by $s1%.
 1213410,,Your Blessing of Sanctuary also grants $1213408s1% increase to all stats when cast on yourself.,
@@ -31959,9 +31959,9 @@ The benefits from your Seal of the Dawn cannot exceed Rank ${$s3/$u}."
 1218443,,Your Moonfire and Sunfire deal $s1% more damage.,
 1218444,,The cooldown of your Starsurge spell is reduced by ${$m1/-1000}.1 sec.,
 1218445,,"When your Starsurge strikes an Undead target, the remaining duration on your active Starfall is reset to $m1 sec.",
-1218476,,"Your Rake now deals its periodic damage every $s1 sec, increasing its total damage over time by $s3%.",
+1218476,,"Your Rake now deals its periodic damage against non-player controlled targets every $s1 sec, increasing its total damage over time by $s3%.",
 1218477,,Your Tiger's Fury cooldown is reduced by $s1%.,
-1218478,,"Each time you deal Bleed damage to an Undead target, you gain $1218479s1% increased damage done to Undead for $1218479d, stacking up to $1218479u times.",
+1218478,,"Each time you deal Bleed damage to an Undead target, you gain $1218479s1% increased damage and critical damage done to Undead for $1218479d, stacking up to $1218479u times.",
 1218479,,,Damage done to Undead increased by $s1%.
 1218482,,"Your Growl ability never misses, and your chance to be Dodged or Parried is reduced by $s1%.",
 1218485,,"Increases all damage caused against targets in Silithus, Ahn'Qiraj, Eastern Plaguelands, and Naxxramas by $s1% and increases critical damage caused against targets in these areas by an additional $s2%.","Damage against targets in Silithus, Ahn'Qiraj, Eastern Plaguelands, and Naxxramas increased by $s1%.
@@ -31974,13 +31974,13 @@ Critical damage against targets in these areas is also increased by $s2%."
 1218515,,"Reduces the cooldown on your Chimera Shot, Explosive Shot, and Aimed Shot abilities by ${$m1/-1000}.1 sec and reduces the cooldown on your Kill Shot ability by ${$m2/-1000} sec.",
 1218569,,,
 1218574,,,Critical strike chance increased by $s1%.
-1218575,,"You gain $1218574s1% increased critical strike chance for $1218574d each time you hit an Undead enemy with a ranged attack, stacking up to $1218574u times.",
+1218575,,"You gain $1226739s1% increased damage and critical damage done to Undead for $1226739d each time you hit an Undead enemy with a ranged attack, stacking up to $1226739u times.",
 1218577,,,
 1218582,,Your Wyvern Strike and Mongoose Bite deal $s1% more initial damage.,
 1218583,,"Reduces the cooldown on your Wyvern Strike ability by ${$m1/-1000} sec, reduces the cooldown on your Raptor Strike ability by ${$m2/-1000} sec, and reduces the cooldown on your Flanking Strike ability by ${$m3/-1000} sec.",
 1218585,,,
 1218587,,,Damage done to Undead increased by $s1%.
-1218589,,"You gain $1218587s1% increased damage done to Undead for $1218587d each time you hit an Undead enemy with a melee attack, stacking up to $1218587u times.",
+1218589,,"You gain $1218587s1% increased damage and critical damage done to Undead for $1218587d each time you hit an Undead enemy with a melee attack, stacking up to $1218587u times. Stacks are lost upon performing a ranged attack.",
 1218592,,Allies with your Temporal Beacon heal for ${$SPA*$m1/1000+$<healpower>*$400735m1/100} health every $400735t1 sec.,
 1218599,,,
 1218624,,,
@@ -32040,8 +32040,8 @@ Stacks are not depleted on Undead targets. Only one Mark of Blood can be active 
 An infection of Blood Plague or Frost Fever on your target each increase the damage dealt by $M2%.",
 1219178,,$@spelldesc1219176,
 1219189,,Increases the damage done by your Divine Storm ability by $s1%.,
-1219191,,Reduces the cast time of your Holy Wrath ability by $s1% and reduces the cooldown and mana cost of your Holy Wrath ability by $s2%.,
-1219193,,"Your Crusader Strike, Divine Storm, Exorcism and Holy Wrath abilities deal increased damage to Undead equal to their critical strike chance.",
+1219191,,"Reduces the cast time of your Holy Wrath ability by $s1%, reduces its cooldown by $s2%, and reduces its mana cost by $s3%.",
+1219193,,"Your Crusader Strike, Divine Storm, Exorcism and Holy Wrath abilities deal increased damage to Undead equal to their critical strike chance while Righteous Fury is not active and Hand of Reckoning is not engraved.",
 1219194,,"The Plague Quarter is empowered. Bolstering mushrooms will randomly grow nearby, but will explode when they reach maturity.","The Plague Quarter is empowered. Bolstering mushrooms will randomly grow nearby, but will explode when they reach maturity."
 1219195,,"The Plague Quarter is empowered. Bolstering mushrooms will randomly grow nearby, but will explode when they reach maturity.","The Plague Quarter is empowered. Bolstering mushrooms will randomly grow nearby, but will explode when they reach maturity."
 1219205,,"Your Hand of Reckoning ability never misses, and your chance to be Dodged or Parried is reduced by $s1%.",
@@ -32053,7 +32053,7 @@ While you know this ability, the threat bonus from Righteous Fury is increased t
 1219229,,The Construct Quarter has been empowered. Players are randomly targeted to be struck by energizing lightning.,The Construct Quarter has been empowered. Players are randomly targeted to be struck by energizing lightning.
 1219230,,Reduces the cooldown on your Circle of Healing and Penance abilities by $s1%.,
 1219232,,,Critical strike chance increased by $s1%.
-1219233,,"Your Penance, Flash Heal Rank 7, and Greater Heal Rank 4 and Rank 5 have a $h% chance to grant the target $1219232s1% increased critical strike chance for $1219232d.",
+1219233,,"Your Penance, Flash Heal Rank 7, Binding Heal, and Greater Heal Rank 4 and Rank 5 have a $h% chance to grant the target $1219232s1% increased critical strike chance for $1219232d.",
 1219234,,The air crackles around you.,The air crackles around you.
 1219235,,Increases attack and spell casting speed. Periodically pulses lightning to nearby players.,Increases attack and spell casting speed. Periodically pulses lightning to nearby players.
 1219238,,Your Power Word: Shield has a $s1% chance to not deplete when the target is damaged by an Undead enemy.,
@@ -32062,7 +32062,7 @@ While you know this ability, the threat bonus from Righteous Fury is increased t
 1219243,,,
 1219244,,Reduces the cooldown on your Mind Blast ability by ${$m/-1000}.1 sec.,
 1219250,,"Your Mind Flay, Mind Blast, and Mind Spike abilities deal increased damage to Undead targets equal to their critical strike chance.",
-1219260,,Your Ambush and Instant Poison deal $s1% more damage. You heal for $s2% of all damage done by your Poisons.,
+1219260,,"Your Ambush, and Instant Poison deal $s1% more damage. Your Backstab deals $s3% more damage (Does not benefit Mutilate). You heal for $s2% of all damage done by your Poisons.",
 1219261,,,
 1219267,,,Attack speed increased by $s1%.
 1219269,,,Attack speed increased by $s1%.
@@ -32077,7 +32077,7 @@ $@spelldesc19280",
 1219289,,,
 1219290,,,
 1219291,,,Damage done to Undead increased by $s1%.
-1219293,,"You gain $1219291s1% increased damage to Undead for $1219291d per Combo Point you spend, stacking up to $1219291u times.",
+1219293,,"You gain $1219291s1% increased damage and critical damage done to Undead for $1219291d per Combo Point you spend, stacking up to $1219291u times.",
 1219325,,,
 1219338,,"The ground has frozen over, making it hard to move.","The ground has frozen over, making it hard to move."
 1219351,,,
@@ -32092,15 +32092,15 @@ Slows movement speed by $s2%."
 1219362,,,
 1219363,,,
 1219364,,Your Healing Wave Rank 9 and Rank 10 and Lesser Healing Wave Rank 6 spells have a $h% chance to imbue your target with Totemic Power.,
-1219365,,The target of your Spirit of the Alpha ability takes $s1% reduced damage from Undead enemies.,
+1219365,,The target of your Earth Shield ability takes $s1% reduced damage from Undead enemies.,
 1219367,,Increases periodic damage done by your Flame Shock ability by $s1%.,
 1219368,,Reduces the cooldown on your Lava Burst ability by ${$m1/-1000} sec.,
-1219369,,"You gain $1219370s1% increased damage done to Undead for $1219370d for each time your Overload triggers from an offensive spell cast, stacking up to $1219370u times.",
+1219369,,"You gain $1219370s1% increased damage and critical damage done to Undead for $1219370d for each time your Overload triggers from an offensive spell cast, stacking up to $1219370u times.",
 1219370,,,Damage done to Undead increased by $s1%.
 1219373,,Increases damage done by your Lightning Shield by $s1%.,
 1219374,,Reduces the cooldown on your Lava Lash and Stormstrike abilities by ${$m1/-1000}.1 sec.,
 1219375,,,Damage done to Undead increased by $s1%.
-1219376,,"You gain $1219375s1% increased damage done to Undead for $1219375d for each charge of Maelstrom Weapon you earn, stacking up to $1219375u times.",
+1219376,,"You gain $1219375s1% increased damage and critical damage done to Undead for $1219375d for each charge of Maelstrom Weapon you earn, stacking up to $1219375u times.",
 1219379,,"Taunts the target to attack you, but has no effect if the target is already attacking you.",Taunted.
 1219382,,"Your Earth Shock ability never misses when used as a taunt, and your chance to be Dodged or Parried is reduced by $s1%.",
 1219387,,"Periodically launches flame bolts in the air, dealing $1219388s1 damage.",
@@ -32119,7 +32119,7 @@ Slows movement speed by $s2%."
 1219428,,,
 1219429,,,
 1219436,,,
-1219462,,"Your Curse of Agony does not expire on Undead targets, and continues to grow in power indefinitely.",
+1219462,,"Your Curse of Agony also applies the effects of Curse of Recklessness. In addition, it does not expire on Undead targets and continues to grow in power indefinitely.",
 1219474,,"Your Menace ability never misses, and your chance to be Dodged or Parried or for your spells to miss is reduced by $s1%.",
 1219475,,"Taunts the target to attack you, but has no effect if the target is already attacking you.",Taunted.
 1219476,,Reduces the cooldown on your Infernal Armor ability by ${$m1/-1000} sec and reduces the cooldown on your Demonic Grace ability by ${$m2/-1000} sec.,
@@ -32127,7 +32127,7 @@ Slows movement speed by $s2%."
 1219481,,Increases damage done by your Deep Wounds talent by $s1%.,
 1219483,,"Reduces the cooldown on your Bloodthirst, Mortal Strike, and Shield Slam abilities by $s1%.",
 1219485,,,Damage done to Undead increased by $s1%.
-1219486,,"Your melee critical strikes against Undead enemies grant you $1219485s1% increased damage done to Undead for $1219485d, stacking up to $1219485u times.",
+1219486,,"Your melee critical strikes against Undead enemies grant you $1219485s1% increased damage and critical damage done to Undead for $1219485d, stacking up to $1219485u times.",
 1219500,,Increases your attack speed by $s1% for $d1.,Increased attack speed.
 1219501,,"Reflects the next offensive spell cast on the user, and increases resistances to all schools of magic by $s1 for $d.",All magic resistances increased by $s1.
 1219503,,Reduces your size and the threat you generate by $s1% for $d.,Size and threat generation reduced by $s1%.
@@ -33577,7 +33577,7 @@ Damage taken increased by $s1%."
 1223336,,Treats your Seal of the Dawn bonus as if you were wearing $s1 additional Sanctified items.  (Equipping more than $s2 Sanctified items provides no additional benefit),
 1223341,,Chance on hit to Increase your Strength by $1223342s1 and movement speed by $1223342s2% for $1223342d.,
 1223342,,,"Strength Increased by $s1.
-Movement speed Increased by $s2."
+Movement speed Increased by $s2%."
 1223348,,Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100}.2% and your health by ${$m2/100}.2% for each piece of Sanctified armor equipped. (Your total number of Sanctified armor pieces cannot exceed $1223336s2),Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100/$u}.2% and your health by ${$m2/100/$u}.2% for each Sanctified item equipped.
 1223349,,Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100}.2% and your health by ${$m2/100}.2% for each piece of Sanctified armor equipped. (Your total number of Sanctified armor pieces cannot exceed $1223336s2),Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100/$u}.2% and your health by ${$m2/100/$u}.2% for each Sanctified item equipped.
 1223350,,Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100}.2% and your health by ${$m2/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit),Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100/$u}.2% and your health by ${$m2/100/$u}.2% for each Sanctified item equipped.
@@ -33699,4 +33699,32 @@ The benefits from your Seal of the Dawn cannot exceed Rank $s3."
 1225464,,"Light magic lashes out at every enemy, inflicting $s1 Holy damage.",
 1225482,,"Hurls a bolt of dark magic at an enemy, inflicting Shadow damage.",
 1225484,,"Dark magic lashes out at every enemy, inflicting $s1 Shadow damage",
+1225841,Rank 4,"Curses the target with recklessness, increasing melee attack power by $s1 but reducing armor by $s2 for $d.  Cursed enemies will not flee and will ignore Fear and Horror effects.  Only one Curse per Warlock can be active on any one target.",Increases melee attack power by $s1 and decreases armor by $s2.   Target will not flee and will ignore Fear and Horror effects.
 1225970,,,
+1225988,,Unlocks your potential while inside Naxxramas.  Increasing your healing and shielding by ${$m1/100}.2% and your health by ${$m2/100}.2% for each piece of Sanctified armor equipped.,
+1226218,,,Additional damage taken from Mark of Zeliek.
+1226219,,,Additional damage taken from Mark of Blaumeux.
+1226220,,,Additional damage taken from Mark of Mograine.
+1226221,,,Additional damage taken from Mark of Korth'azz.
+1226282,,"Hurls a bolt of dark magic at an enemy, inflicting Shadow damage.",
+1226300,,,
+1226369,,,
+1226372,,,
+1226373,,,
+1226503,,,
+1226739,,,Damage done to Undead increased by $s1%.
+1227128,,,
+1227268,,,
+1227466,,,
+1227468,,,
+1227820,,Knocks down all nearby enemies for $d.,Stunned.
+1228049,,"Burns the enemy for ${$m1*$<power>/100*$<mult>} Shadowflame damage and then an additional ${$m2*5*$<power>/100} Shadowflame damage over $d.
+
+Shadowflame triggers and benefits from all effects that modify or interact with Immolate, or with Affliction, Destruction, Fire, or Shadow spells, but only one of Immolate or Shadowflame per Warlock can be active on any target. In addition, Shadowflame can trigger your Improved Shadow Bolt talent and causes it to have $426454s2 additional charges.",${$m1*$<power>/100} Shadowflame damage every $t1 seconds.
+1229181,,"Damaging a target with Bloodthirst, Mortal Strike, or Shield Slam has a 100% chance the first time and a $s2% chance each subsequent time to Enrage you (activating abilities which requiring being Enraged), and cause you to deal $440483s1% increased Physical damage for $440483d.",
+1230224,,Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100}.2% and your health by ${$m2/100}.2% for each piece of Sanctified armor equipped.,
+1230252,,Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100}.2% and your health by ${$m2/100}.2% for each piece of Sanctified armor equipped.,
+1230287,,Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100}.2% and your health by ${$m2/100}.2% for each piece of Sanctified armor equipped.,
+1230291,,Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100}.2% and your health by ${$m2/100}.2% for each piece of Sanctified armor equipped.,
+1230297,,Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100}.2% and your health by ${$m2/100}.2% for each piece of Sanctified armor equipped.,
+1230300,,Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100}.2% and your health by ${$m2/100}.2% for each piece of Sanctified armor equipped.,
