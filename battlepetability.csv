@@ -3650,6 +3650,16 @@ Order your flying machine to dive bomb your enemies, dealing [StandardDamage(1,1
 Attacks the enemy 3 times, dealing [StandardDamage(1,1)] [School()] damage per attack.
 
 Each time you use this ability, your speed increases by 20% at the end of the round.",650636,1,0,0,0
+2466,Stoke the Flames,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Restores [StandardHealing(1,1)] health to the user and changes the weather to Scorched Earth for [duration(1,2)] |4round:rounds;.
+
+During Scorched Earth, all pets count as |cFFFF2020Burning|r and all active pets take [StandardDamage(1,1,171)] [School(171)] damage per round.",459027,9,3,0,2
+2467,Personal Inferno,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Eject burning coals in a roar of flame, dealing [StandardDamage(1,1)] [School()] damage.
+
+Deals double damage if the target is |cFFFF2020Burning|r.",451169,9,0,0,0
 2468,[DNT] TRAP HELP,Sets target to 1% of max health and stuns it.,646380,5,0,0,0
 2469,Reaping Hook,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
@@ -3806,4 +3816,9 @@ Hurls bolts of shadow at the enemy team, dealing [StandardDamage(1, 1)] [School(
 2524,Alluring Spores,"Deals [StandardDamage(1,1)] [School()] damage every round.",5929575,6,0,0,0
 2525,Alluring Spores,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
-Covers the enemy team with intoxicating aromas, dealing [StandardDamage(1,1)] [School()] damage instantly and [StandardDamage(1,1,639)] [School()] damage every round for [duration(1,2)] |4round:rounds. Persists through pet swaps.",5929575,6,0,0,0
+Covers the enemy team with intoxicating aromas, dealing [StandardDamage(1,1)] [School()] damage instantly and [StandardDamage(1,1,2524)] [School()] damage every round for [duration(1,2)] |4round:rounds. Persists through pet swaps.",5929575,6,0,0,0
+2526,Hammering Drill,"[StandardAccuracy(1,2)] |cffffffffHit Chance|r
+
+Deals [StandardDamage(1,2)*4] [School()] damage to the enemy pet.
+
+Hammering Drill shatters any flat damage reduction effects on the enemy target.",1278390,9,0,0,0

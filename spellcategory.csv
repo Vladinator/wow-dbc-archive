@@ -96,7 +96,7 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 250,Blast Wave,0,0,0,0,0
 270,Kidney Shot,0,0,0,0,0
 290,Pyroblast,0,0,0,0,0
-310,Transmute - Alchemy,8,0,0,0,0
+310,Transmute - Alchemy (Classic),8,0,0,0,0
 330,Mount,0,0,0,0,0
 350,Inner Rage,0,0,0,0,0
 351,Ranged Weapon,2,0,0,0,0
@@ -438,7 +438,7 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 1497,6.0 Tradeskills - Inscription (3),8,0,3,86400000,0
 1498,6.0 Professions - Tailoring - Daily Cooldown,8,0,0,0,0
 1499,6.0 Professions - Tailoring - 3 Charges 24 hr Cooldown,0,0,3,86400000,0
-1500,Class - Mage - Fire Blast,0,0,1,12000,1
+1500,Class - Mage - Fire Blast,0,0,1,14000,1
 1501,6.0 Professions - Jewelcrafting - Daily Cooldown,8,0,0,0,0
 1502,6.0 Professions - Jewelcrafting - 3 Charges 24 hr Cooldown,0,0,3,86400000,0
 1503,Battle Pets - Revive,0,0,0,0,0
@@ -714,7 +714,7 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 1925,kramer test charge data,0,0,5,5000,0
 1926,9.1 Raid - Torghast - Eye - Summon Lt. CD - PAH,0,0,0,0,0
 1927,Class - Death Knight - Defile,0,0,1,20000,1
-1929,Class - Warrior - Shield Wall,16,0,1,210000,1
+1929,Class - Warrior - Shield Wall,16,0,1,180000,1
 1932,9.1 Maw - Torghast - Modifier Consumables,0,0,0,0,0
 1933,Class - Monk - Revival,48,0,1,180000,1
 1935,9.1 Professions - Alchemy - Color Bursts,0,0,0,0,0
@@ -944,17 +944,17 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 2264,WoWLabs - BR: Spell - Core - Health Brew,0,0,0,0,0
 2265,Priest - Premonition,16,0,0,0,1
 2270,Class - Warrior - Bladestorm,0,0,1,90000,1
-2271,Class - Priest - Premonition,144,0,1,60000,1
+2271,Class - Priest - Premonition,144,0,2,60000,1
 2272,5.4 Legendary Cape - Wing Visual,0,0,0,0,0
 2273,11.0 Professions - Skinning - Sharpen Your Knife,128,0,1,3600000,0
-2274,11.0 Delves - Brann Bronzebeard - Campfire,0,0,0,0,0
+2274,11.0 Delves - AI Companion - Shared - Campfire,0,0,0,0,0
 2275,11.0 Delves - Z3 - Nerubians03 - V4 - Shadow Relic - Extra Action Button,0,0,3,2000,0
 2276,11.0 Notoriety - Vizier - Active Abilities,0,0,0,0,0
 2277,WoWLabs - BR: Spell - Utility - Lightning Bulwark,0,0,0,0,0
 2278,11.0 Professions - Skinning - Carve Meat,128,0,1,3600000,0
 2279,11.0 Professions - Skinning - Elusive Creature Bait,128,0,0,0,0
 2280,WoWLabs - BR: Spell - Offensive - Storm Archon,0,0,0,0,0
-2281,Class - Evoker - Engulf,0,0,1,30000,1
+2281,Class - Evoker - Engulf,0,0,1,27000,1
 2282,Shaman - Totemic - Spire Totem,0,0,2,25000,0
 2283,Holy Paladin - Spenders,0,0,2,12000,1
 2284,Class - Paladin - Eye of Tyr,0,0,1,60000,1
@@ -985,6 +985,8 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 2317,11.0 Delves - AI Companion - Major Ability,0,0,1,90000,0
 2318,11.0.5 20th Anniversary - Scenario - Floating Projections Jumpad 2. Knockback,0,0,0,0,0
 2324,Enhancement - Frost Shock,0,0,0,6000,0
+2325,11.1 Grapple Test (DTM),0,0,3,15000,0
+2326,Item - 11.1 Raid - Trinket - Ranged DPS - Security Drone,0,0,1,1000,0
 2327,11.0.5 20th Anniversary - Social Corner - Audience Interaction Group Cooldown,0,0,0,0,0
 2328,Class - Druid - Celestial Alignment / Incarnation,16,0,1,180000,1
 2329,11 Encounter - Ulgrax - Feed,0,0,0,0,0
@@ -995,8 +997,23 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 2340,WoWLabs - BR: Spell - Offensive - Celestial Barrage,0,0,0,0,0
 2341,WoWLabs - BR: Spell - Utility - Void Tear,0,0,0,0,0
 2342,WoWLabs - BR: Spell - Utility - Rip Reality,0,0,0,0,0
+2344,Outdoor Stun,0,0,0,0,0
+2347,11.1 Raid - Cantrip - 2H Mace - Slot Machine Arm - Shared CD,32,0,0,0,0
 2348,11.0.7 Pet - Shop (China) - Beast - Red Panda Pet (Blue) - Teleport Cooldown,0,0,0,0,0
+2349,11.0 Delves - Rewards - Consumable,0,0,0,0,0
 2350,WoWLabs - BR: Spell - Offensive - Aura of Zealotry,0,0,0,0,0
 2351,11.0.7 Siren Isle - Cyrce's Circlet - Ring Power 06 - Push Winds,0,0,0,0,0
 2352,11.0 Delves - Endgame - Weapon - OFFHAND INT - Cantrip - 1 Charge,0,0,1,0,0
+2353,Wave Scrambler 2000,0,0,0,0,0
 2354,WoWLabs - BR: Spell - Utility - Call Galefeather,0,0,0,0,0
+2355,Transmute - Alchemy (Burning Crusade),8,0,0,0,0
+2356,Transmute - Alchemy (Wrath of the Lich King),8,0,0,0,0
+2357,Transmute - Alchemy (Cataclysm),8,0,0,0,0
+2358,Transmute - Alchemy (Mists of Pandaria),8,0,0,0,0
+2359,Transmute - Alchemy (Warlords of Draenor),8,0,0,0,0
+2361,11.0 Delves - Brann Bronzebeard - Interrupting Potion,0,0,0,0,0
+2362,11.1 Delves - Kobolds01 - Throw Candles - (STM),0,0,40,4000,0
+2363,11.1 Encounter - Arena - Achievement Potions,0,0,0,0,0
+2372,11.1 Undermine - WQ - Defuser Bot (KNF),0,0,0,0,0
+2378,11.1 - FF - Job Cooldown (LQM),0,0,0,0,0
+2387,Demon Hunter - Fel Devastation,0,0,0,0,0

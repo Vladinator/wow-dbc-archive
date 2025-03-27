@@ -191,7 +191,7 @@ ID,BaseTag,TagText_lang,Flags
 9811,NO,No,7
 9812,NONE_CAPS,NONE,3
 9813,OKAY,Okay,3
-9814,PAGE_NUMBER,Page %d,1
+9814,PAGE_NUMBER,Page %d,3
 9815,PREV,Prev,1
 9816,SECONDS,|4Second:Seconds;,3
 9817,SOCIALS,Socials,1
@@ -1485,7 +1485,7 @@ ID,BaseTag,TagText_lang,Flags
 11321,SPELL_FAILED_MAINHAND_EMPTY,Your weapon hand is empty,1
 11322,NEW,New,1
 11323,CHANGE_MACRO_NAME_ICON,Change Name/Icon,1
-11324,DELETE,Delete,1
+11324,DELETE,Delete,3
 11325,ENTER_MACRO_LABEL,Enter Macro Commands:,1
 11326,MACRO_POPUP_CHOOSE_ICON,Choose an Icon:,1
 11327,SLASH_MACRO2,/m,1
@@ -11526,7 +11526,7 @@ You can find trainers for them in some settlements and cities.",1
 23632,BATTLE_PET_ABILITY_MULTIROUND,%d Round Ability,1
 23633,BATTLE_PET_NOT_TRADABLE,This pet is not tradeable.,1
 23634,SHOW_ACCOUNT_ACHIEVEMENTS,Display Only Character |nAchievements to Others,1
-23635,OPTION_TOOLTIP_SHOW_ACCOUNT_ACHIEVEMENTS,Turning this option on will only display your character achievements when people inspect you or use the Blizzard website or mobile app.,1
+23635,OPTION_TOOLTIP_SHOW_ACCOUNT_ACHIEVEMENTS,Turning this option on will only display your character achievements when people inspect you or use the Blizzard website.,1
 23636,LIGHT_FORCE,Light Force,1
 23637,PET_RENAME_DEFAULT_LABEL,Default,1
 23638,STAGE_COMPLETE,Stage Complete,1
@@ -14619,7 +14619,7 @@ You can find trainers for them in some settlements and cities.",1
 34066,CHOOSE_REALM_STYLE,Choose your realm style:,2
 34067,CHOOSE_YOUR_CLASS,Choose Your Class,2
 34068,CHOOSE_YOUR_RACE,Choose Your Race,2
-34069,CINEMATICS_SHOW_SUBTITLES,Show Subtitles,2
+34069,CINEMATICS_SHOW_SUBTITLES,Show Subtitles,3
 34070,CINEMATIC_CLICK_TO_DOWNLOAD,Click to download now,2
 34071,CINEMATIC_CLICK_TO_PAUSE,Click to pause,2
 34072,CINEMATIC_DOWNLOADING,Downloading: %d%%,2
@@ -15167,7 +15167,7 @@ You can find trainers for them in some settlements and cities.",1
 34622,UNDELETE_CONFIRMATION,Are you sure? You can only undelete one character every %s.,2
 34623,UNDELETE_FAILED_ERROR,There was a problem restoring your deleted character. Please try again later.,2
 34624,UNDELETE_LABEL,Deleted Characters,2
-34625,UNDELETE_NAME_TAKEN,You already have an active character with that name. You can't restore this character at this time.,2
+34625,UNDELETE_NAME_TAKEN,There is already an active character with that name on this realm. You can't restore this character at this time.,2
 34626,UNDELETE_NO_CHARACTERS,No deleted characters to restore on this realm. Switch realms to try again.,2
 34627,UNDELETE_SERVICE_TOOLTIP,Restore this character,2
 34628,UNDELETE_SUCCESS,Character successfully restored.,2
@@ -15751,7 +15751,7 @@ You can find trainers for them in some settlements and cities.",1
 35289,GARRISON_EQUIPMENT_SLOT_UNLOCK_TOOLTIP,Upgrade %s to %s quality to unlock this equipment slot.,1
 35292,TRANSMOG_COLLECTED,Collected,1
 35293,ARTIFACT_WARRIOR_PROT_WEAPONNAME_SECOND,Earth-Warder,1
-35294,SPELL_FAILED_CUSTOM_ERROR_319,You cannot use Call Pet while Lone Wolf is active.,1
+35294,SPELL_FAILED_CUSTOM_ERROR_1050,Marksmanship Hunters cannot use Call Pet.,1
 35295,GARRISON_FOLLOWER_CONFIRM_EQUIPMENT_REPLACEMENT,Are you sure you want to replace this equipment with %s?,1
 35296,ARTIFACT_END_GAME_POWER_UNLINKED_TOOLTIP,Requires all other traits to be purchased,1
 35297,GARRISON_FOLLOWER_XP_ADDED_ZONE_SUPPORT,%s has earned %d xp.,1
@@ -16130,19 +16130,19 @@ You can find trainers for them in some settlements and cities.",1
 35701,UNITNAME_SUMMON_TITLE31,%s's Erupting Reflection,1
 35702,HOLIDAY_TRANSMOG_THEME_01,Theme: Summer Styles,1
 35703,HOLIDAY_TRANSMOG_THEME_02,Theme: Winter Wear,1
-35704,HOLIDAY_TRANSMOG_THEME_03,Theme: The Shadowlands,1
+35704,HOLIDAY_TRANSMOG_THEME_03,Theme: Showtime,1
 35705,HOLIDAY_TRANSMOG_THEME_04,Theme: Fun and Flirty,1
 35706,HOLIDAY_TRANSMOG_THEME_05,Theme: Mismatched Mayhem,1
-35707,HOLIDAY_TRANSMOG_THEME_06,Theme: Gothic Gala,1
-35708,HOLIDAY_TRANSMOG_THEME_07,Theme: Expedition: Catwalk,1
+35707,HOLIDAY_TRANSMOG_THEME_06,Theme: Cap'n Colorful,1
+35708,HOLIDAY_TRANSMOG_THEME_07,"Theme: So Hot, It's Cool",1
 35709,HOLIDAY_TRANSMOG_THEME_08,Theme: Faction Pride,1
 35710,HOLIDAY_TRANSMOG_THEME_09,Theme: Profession Expression,1
-35711,HOLIDAY_TRANSMOG_THEME_10,Theme: Bronze Clockwork,1
+35711,HOLIDAY_TRANSMOG_THEME_10,Theme: Supernatural Flair,1
 35712,HOLIDAY_TRANSMOG_THEME_11,Theme: Make Me Laugh,1
-35713,HOLIDAY_TRANSMOG_THEME_12,Theme: Going Green,1
-35714,HOLIDAY_TRANSMOG_THEME_13,Theme: Blue Skies,1
-35715,HOLIDAY_TRANSMOG_THEME_14,Theme: Crimson Creations,1
-35716,HOLIDAY_TRANSMOG_THEME_15,Theme: Black Magic,1
+35713,HOLIDAY_TRANSMOG_THEME_12,Theme: Outfits of the Underworld,1
+35714,HOLIDAY_TRANSMOG_THEME_13,Theme: Light and Shadow,1
+35715,HOLIDAY_TRANSMOG_THEME_14,Theme: Weird Wardrobe,1
+35716,HOLIDAY_TRANSMOG_THEME_15,Theme: Suspicious Styles,1
 35717,HOLIDAY_TRANSMOG_THEME_16,Theme: Freestyle!,1
 35718,WARDROBE_ALTERNATE_ITEMS,Other items that unlock this slot:,1
 35719,BROKENSHORE_BUILDING_COMMANDCENTER,Command Center,1
@@ -17672,7 +17672,7 @@ You can find trainers for them in some settlements and cities.",1
 41275,ERR_TRAVEL_PASS_WRONG_PROJECT,This friend is playing a different version of World of Warcraft.,1
 41276,CHANGES_COLON,Changes:,1
 41277,NEXT_RANK_COLON,Next Rank:,1
-41278,SHOW_DUNGEON_ENTRACES_ON_MAP_TEXT,Dungeon Entrances,1
+41278,SHOW_INSTANCE_ENTRANCES_ON_MAP_TEXT,Instance Entrances,1
 41282,SPELL_FAILED_CUSTOM_ERROR_402,Requires Chitterspine Meat.,1
 41283,DIALOG_INSTRUCTION_REPLACE_MOUNT_EQUIPMENT,Are you sure you want to replace this Mount Equipment? The existing one will be destroyed.,1
 41284,SLASH_VOICE1,/voice,1
@@ -20733,7 +20733,7 @@ Try using higher quality reagents, improving your skill, or specializing to reac
 49463,PROFESSIONS_RECIPES_TAB_NAME,Recipes,1
 49464,PROFESSIONS_SPECIALIZATIONS_TAB_NAME,Specializations,1
 49465,PROFESSIONS_JOURNAL_TAB_NAME,Journal,1
-49466,RENOWN_LEVEL_LABEL,Renown ,1
+49466,RENOWN_LEVEL_LABEL,Renown %d,1
 49467,VIEW_RENOWN_BUTTON_LABEL,View Renown,1
 49468,MAJOR_FACTION_RENOWN_TOOLTIP_PROGRESS,Continue earning reputation with the %s to increase Renown and unlock rewards,1
 49469,PROFESSIONS_RECIPE_UNLEARNED,Recipe Unlearned,1
@@ -21784,7 +21784,7 @@ You can't do outdoor and queued content with this character.",1
 51256,WARDROBE_SHORTCUTS_TUTORIAL_3,Track or untrack an item|n,1
 51257,WARDROBE_TRACKING_TUTORIAL,You have not collected this appearance yet! Shift Click to begin tracking it.,1
 51259,TRAINER_CANNOT_EXCEED_MAX_PROFESSIONS,You can only learn two primary professions,1
-51260,RPE_UPGRADE_CONFIRMATION,|cnHIGHLIGHT_FONT_COLOR:Are you sure you want to |rUpdate|cnHIGHLIGHT_FONT_COLOR: this character to spec: %s?|r,3
+51260,RPE_UPGRADE_CONFIRMATION,|cnHIGHLIGHT_FONT_COLOR:Are you sure you want to |rUpdate|cnHIGHLIGHT_FONT_COLOR: this character to spec: %s?\n\nYou must log in to complete your character boost.|r,3
 51261,PROF_ORDER_CANT_REPORT_IN_PROGRESS,This player cannot be reported until the order has been cancelled or completed.,1
 51263,SPELL_FAILED_DRAGONRIDING_RIDING_REQUIREMENT,Requires Skyriding skill,1
 51264,ADVENTURES_COMBAT_LOG_SPELL_RANGE_DAMAGE,{caster} cast {spellName} at {target} for {damage} {element} damage.,5
@@ -21858,7 +21858,7 @@ Are you sure you want to proceed?",1
 51359,PNC_FLOW_SLECT_NAME_ACTIVE,Select new name,2
 51360,PNC_FLOW_SLECT_NAME_RESULTS,New name:,2
 51361,PNC_NEW_NAME_LABEL_COMPLETE,|cffffd200Name: %s,2
-51362,PAGE_NUMBER_WITH_MAX,Page %d/%d,1
+51362,PAGE_NUMBER_WITH_MAX,Page %d/%d,3
 51363,PING_SUBJECT_TYPE_ALERT_NOT_THREAT_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_nonthreat:0:0:0:0|aLook here,1
 51364,PING_SUBJECT_TYPE_ALERT_THREAT_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_threat:0:0:0:0|aThreatening alert,1
 51365,PING_SUBJECT_TYPE_WARNING_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_warning:0:0:0:0|aWarning,1
@@ -22377,7 +22377,7 @@ And spread his flame to all Azeroth.",1
 52027,POWER_DISPLAY_LABEL_ANGER,Anger,1
 52028,SPELL_FAILED_CUSTOM_ERROR_1036,You don't have any Radiant Echoes.,1
 52029,ERR_PARTY_TIME_RUNNING_SEASON_ID_MUST_MATCH,A standard character and a Timerunner may not join the same party.,1
-52031,QUEST_HUB_TOOLTIP_AVAILABLE_QUESTS_HEADER,Available Quests:,1
+52031,QUEST_HUB_TOOLTIP_AVAILABLE_QUESTS_HEADER,Available Quests,1
 52032,QUEST_HUB_TOOLTIP_MORE_QUESTS_REMAINING,+%d more,1
 52033,ERR_SOLO_RBG_WARGAME_GROUP_COMP,Exactly 2 Healers and a maximum of 1 Tank must be present per 8 person team to begin a Battleground Blitz Wargame,1
 52034,ERR_SOLO_RBG_WARGAME_GROUP_SIZE,Exactly 16 non-spectator players must be present to begin a Battleground Blitz Wargame.,1
@@ -22531,7 +22531,7 @@ And spread his flame to all Azeroth.",1
 52203,ACCOUNT_COMPLETED_QUESTS_FILTER_TUTORIAL,|cnHIGHLIGHT_FONT_COLOR:Quests you have already completed with another character are hidden from the map and their NPC quest indicators are faded in the world.|n|nYou can change this setting here.|r,1
 52204,GREAT_VAULT_WORLD_TIER,Tier %s,1
 52205,WEEKLY_REWARDS_ITEM_LEVEL_WORLD,Item Level %1$d - (Tier %2$d),1
-52206,WEEKLY_REWARDS_COMPLETE_WORLD,Complete a Tier %1$d delve or higher to increase this reward's item level.,1
+52206,WEEKLY_REWARDS_COMPLETE_WORLD,Complete Tier %1$d or higher delves to increase this reward's item level.,1
 52207,SPELL_FAILED_CUSTOM_ERROR_1042,You already have this curio in your collection.,1
 52208,20th_ANNIVERSARY_THEME_01_01,Theme: Cataclysmic Costume,1
 52209,20th_ANNIVERSARY_THEME_01_02,Theme: Humble Beginnings,1
@@ -22591,7 +22591,7 @@ And spread his flame to all Azeroth.",1
 52265,CHARACTER_CREATE_REALM,%s Realm,2
 52266,CHARACTER_SELECT_REALM_TOOLTIP,%s Realm,2
 52267,REPORTING_MINOR_CATEGORY_HARMFUL_TO_MINORS,Harmful To Minors,1
-52268,ACCOUNT_COMPLETED_QUESTS_FILTER_DESCRIPTION,Toggle map visibility and fade NPC quest indicators in the world for quests you've previously completed with another character.|n|nCurrently supported for Dragonflight and The War Within.,1
+52268,ACCOUNT_COMPLETED_QUESTS_FILTER_DESCRIPTION,Toggle map and quest indicators in the world for quests you've previously completed with another character.|n|nCurrently supported for Dragonflight and The War Within.,1
 52269,DELVES_NEW_CURIO,NEW,1
 52271,STOP_SUPER_TRACK_QUEST,Remove Focus,1
 52272,HERO_TALENTS_COLLAPSE,Minimize,1
@@ -22755,7 +22755,7 @@ Items from the event have been removed.
 52446,CRAFTING_ORDER_FAILED_ACCOUNT_ITEMS,You currently cannot use reagents from the Warband bank in a crafting order. Place them in your bags or the Reagent bank to use them in this order.,1
 52447,SPELL_FAILED_CUSTOM_ERROR_1045,Locked.,1
 52448,ACCOUNT_REACTIVATE_ERR_NOT_ENOUGH_GOLD_TOOLTIP,Not enough gold on current realm,2
-52450,TRIVIAL_QUESTS_FILTER_DESCRIPTION,These quests are significantly lower than your current level and will award no experience.,1
+52450,TRIVIAL_QUESTS_FILTER_DESCRIPTION,These quests are significantly lower than your current level and will award no experience,1
 52451,ERR_CANT_TRADE_ACCOUNT_ITEM,You can't trade an item from the Warband bank.,1
 52452,MAP_LEGEND_DELVE,Delve,1
 52453,MAP_LEGEND_DELVE_TOOLTIP,"Instanced content that rewards loot, intended for a party of up to five adventurers using any combat role",1
@@ -22770,6 +22770,7 @@ Items from the event have been removed.
 52462,SPELL_FAILED_CUSTOM_ERROR_2425,Earthen cannot consume traditional food or drink.,1
 52463,DELVES_PARTY_MEMBER_INELIGIBLE_FOR_TIER_TOOLTIP,%s has not unlocked this tier,1
 52464,SPELL_FAILED_CUSTOM_ERROR_1054,That can't be used here.,1
+52465,PLAYER_CHOICE_CARTELCONTRACT_CONFIRMATION,This choice will affect all characters in your Warband. |n|n|cffffd200Continue?|r,1
 52466,POWER_SHREDDER_FUEL,Shredder Fuel,1
 52467,OPTION_TOOLTIP_DISABLE_CHAT_ACCOUNT_MUTE,"To change this, you must first go to your Battle.net Account settings and make sure that: \n- Privacy & Communication -> Text Chat is enabled \n- Parental Controls -> Account Mute is disabled",1
 52473,PLUNDERSTORM_INTERACT_SWAP_REMINDER_TEXT,Swap,1
@@ -22781,6 +22782,7 @@ Items from the event have been removed.
 52480,SPELL_FAILED_CUSTOM_ERROR_1056,You are not yet eligible to use this item.,1
 52481,CONFIRM_POPUP_DONT_SHOW_AGAIN,Don't show this again,3
 52482,CURRENCY_TRANSFER_MAX_QUANTITY_BUTTON,Max,1
+52483,SPELL_FAILED_CUSTOM_ERROR_1060,You must be a rat to pass through here.,1
 52484,ERR_CURRENCY_TRANSFER_TRANSACTION_IN_PROGRESS,That character already has a transaction in progress.,1
 52485,TOGGLE_VISIBILITY_TOOLTIP,Toggle User Interface Visibility,2
 52486,ERR_SOCKETING_REQUIRES_SINGING_THUNDER_GEM,That slot requires a Singing Thunder gem.,1
@@ -22792,12 +22794,13 @@ Items from the event have been removed.
 52501,ERR_GUILD_BANK_REALM_MISMATCH,"Cannot deposit, withdraw or combine split stack items from different realms.",1
 52503,MAP_TOOLTIP_TIME_LEFT,Time Left: %s,1
 52504,TOKEN_REMOVE_FROM_BACKPACK_INSTRUCTION,<Shift click to untrack>,1
+52505,SPELL_FAILED_CUSTOM_ERROR_1061,Your hands are full.,1
 52517,SPELL_FAILED_CUSTOM_ERROR_1057,Lighting the Shadowforge Brazier requires a Shadowforge Torch.,1
 52518,SPELL_FAILED_CUSTOM_ERROR_1058,This Shadowforge Brazier is already burning.,1
 52539,CHARACTER_SELECT_LEVEL_TOOLTIP,Level %d,2
-52545,EMPTY_SOCKET_SINGINGTHUNDER,Singing Thunder Socket,1
-52546,EMPTY_SOCKET_SINGINGSEA,Singing Sea Socket,1
-52547,EMPTY_SOCKET_SINGINGWIND,Singing Wind Socket,1
+52545,EMPTY_SOCKET_SINGING_THUNDER,Singing Thunder Socket,1
+52546,EMPTY_SOCKET_SINGING_SEA,Singing Sea Socket,1
+52547,EMPTY_SOCKET_SINGING_WIND,Singing Wind Socket,1
 52550,NAVIGATION_DESTINATION_REACHED_MESSAGE,Reached destination,1
 52551,WOW_LABS_MATCH_DETAILS_STANDING,Standing,1
 52552,WOW_LABS_MATCH_DETAILS_KILLS,Kills,1
@@ -22846,6 +22849,16 @@ Items from the event have been removed.
 52668,WOWLABS_MODE_NAV_BUTTON,MODE,2
 52669,WOWLABS_NO_GAME_MODES_FOUND,New Game Modes Coming Soon!,2
 52670,WOWLABS_PLUNDERSTORE_NAV_LABEL,PLUNDERSTORE,2
+52678,LOCAL_STORIES_FILTER_DESCRIPTION,Quests that explore local cultures and side adventures,1
+52679,TRACKED_ITEMS_FILTER_DESCRIPTION,Indicator on items and locations you have manually pinned to the map and are tracking,1
+52680,PET_BATTLES_FILTER_DESCRIPTION,Challenge NPCs to pet battles,1
+52681,DELVE_ENTRANCES_FILTER_DESCRIPTION,"Instanced content that rewards loot, intended for a party of up to five adventurers using any combat role",1
+52682,SKYRIDING_RACES_FILTER_DESCRIPTION,Timed courses to complete with a skyriding mount,1
+52683,QUEST_OBJECTIVES_FILTER_DESCRIPTION,Current goals to achieve in quests that are in your Quest Log,1
+52684,WORLD_QUESTS_FILTER_DESCRIPTION,Open world activities that give varying rewards,1
+52687,SHOW_DIGSITES_FILTER_DESCRIPTION,Archeology locations where you can dig for artifacts,1
+52688,INSTANCE_ENTRANCES_FILTER_DESCRIPTION,"Instanced content that rewards loot, intended for groups of adventurers",1
+52689,DELVES_JOURNEY_TIP,Delver's Journey can be earned by completing Bountiful Delves of Tier 4 and above.,1
 52691,ACCOUNT_STORE_PAGE_WIDGET_FORMAT,Page %d / %d,3
 52695,WOW_LABS_MATCH_WON,YOU WON!,1
 52696,WOW_LABS_MATCH_LOST,YOU PLACED #%d,1
@@ -22865,13 +22878,20 @@ Items from the event have been removed.
 52727,CONQUEST_BRACKET_NAME_SOLO_SHUFFLE,Rated Solo Shuffle,1
 52728,CONQUEST_BRACKET_NAME_BATTLEGROUND_BLITZ,Rated Battleground Blitz,1
 52729,PLUNDERSTORM_CUSTOMIZE_BUTTON_TOOLTIP,Display waypoint to Da'kash Grimledger for customizations,1
+52738,WARBAND_SCENES,Campsites,3
+52739,WARBAND_SCENE_COLLECTION_FILTER_OWNED,Show Collected Only,3
 52740,WOW_LABS_JOIN_QUEUE,Join Queue,1
 52741,WOW_LABS_LEAVE_QUEUE,Leave Queue,1
 52743,TUTORIAL_SUPERTRACK_STEP_1,Focus on a quest by clicking its icon,1
 52744,ERR_WOW_LABS_SET_WOW_LABS_AREA_ID_FAILED,Area selection failed.,1
+52745,DELVES_NEW_SEASON_HELPTIP,A new season begins!|n|nSpeak with Brann in Dornogal to find out about new curios.,1
 52753,SPELL_FAILED_CUSTOM_ERROR_1059,Full Bags,1
+52756,SPELL_FAILED_CUSTOM_ERROR_1064,Must reach Empowered Restoration Stone.,1
+52757,SPELL_FAILED_CUSTOM_ERROR_1066,Can't do this now.,1
 52758,WOWLABS_AREA_MAP_AUTO_SELECT,Auto Select,1
 52759,WOWLABS_AREA_MAP_CONFIRM_SELECTION,Confirm Selection,1
+52760,SPELL_FAILED_CUSTOM_ERROR_1067,No eligible bountiful delves.,1
+52761,GOSSIP_MOVIE_OPTION_PREPEND,|cnPURE_BLUE_COLOR:(Play Movie)|r %s,1
 52765,PLUNDERSTORM_DROP_MAP_BUTTON_TOOLTIP,Choose your starting area,1
 52766,PLUNDERSTORM_DROP_MAP_BUTTON_DISABLED_TOOLTIP,Your party leader is choosing a starting area,1
 52767,ACCOUNT_STORE_CURRENCY_MAX_TOOLTIP_FORMAT,Max %s reached,3
@@ -22879,17 +22899,113 @@ Items from the event have been removed.
 52769,ACCOUNT_STORE_CURRENCY_TOTAL_TOOLTIP_FORMAT,%s / %s,3
 52770,LIFETIME_PLUNDER_TOOLTIP_FORMAT,Lifetime: %s,3
 52773,ERR_LFG_NO_CROSS_FACTION_PARTIES_MULTIPLE,Cross-faction groups can't queue for one or more of these instances.,1
+52774,SPELL_FAILED_ALREADY_HAVE_DISGUISE,You're already wearing a disguise.,1
 52778,BINDING_NAME_WOWLABS_SWAP_UTLITIES,Switch Utility Spell Order,1
 52779,BINDING_NAME_WOWLABS_SWAP_OFFENSIVES,Switch Offensive Spell Order,1
 52780,WOW_LABS_PLUNDERSTORM_FORMED,A lobby has been found for:,1
 52781,WOW_LABS_CANNOT_ENTER_NON_PLUNDER_QUEUE,You can't enter other queues while in a Plunderstorm queue.,1
 52791,SPELL_CURIO,Curio,1
 52794,WOW_ERROR_501,An error occurred while restoring your character. Please log in and try again.,2
+52851,SPELL_FAILED_WARBAND_SCENE_ALREADY_KNOWN,Campsite is already in your collection,1
+52852,CHARACTER_SELECT_NAV_BAR_CAMPS,CAMPSITES,2
+52853,WARBAND_SCENES_RANDOM,Set Random Background +,3
 52858,ACCOUNT_STORE_UNAVAILABLE,Temporarily unavailable. Try again later.,3
 52859,TOOLTIP_VIGNETTE_OBJECTIVE_DEFEAT,- Defeat %s,1
 52860,TOOLTIP_VIGNETTE_OBJECTIVE_DEFEAT_SHOW_HEALTH,- Defeat %s (Current Health: %s),1
 52861,VIGNETTE_SUGGESTED_GROUP_NUM_RANGE,Suggested Players [%d - %d],1
 52864,VIGNETTE_SUGGESTED_GROUP_NUM,Suggested Players [%d],1
+52868,QUEST_PREPEND,(Quest),1
+52869,PLAY_MOVIE_PREPEND,(Play Movie),1
+52870,GOSSIP_OPTION_PREPEND,|cnPURE_BLUE_COLOR:%s|r %s,1
+52872,STABLE_SECONDARY_PET_LABEL,Animal Companion,1
+52873,STABLE_EMPTY_SLOT_LABEL,Empty slot,1
+52874,WARBAND_SCENE_COLLECTION_APPLY,Apply,2
+52875,WARBAND_SCENE_COLLECTION_APPLY_ALL,Apply for All Camps,2
 52876,ERR_LFG_LOREWALKING,Lorewalking will resume when you leave the instance.,1
+52879,WARBAND_SCENE_COLLECTION_APPLY_ALL_CONFIRM,Are you sure you want to apply this selection to all your camps? This will overwrite current settings for all camps.,2
+52883,POWER_TYPE_GIGACHARGE,Giga Charge,1
+52888,WORLD_MAP_TUTORIAL5,Hover over icons for more information and to highlight them on the map.,1
+52889,WORLD_MAP_TUTORIAL6,Available events will be listed here based on the current map.|n|nRight click scheduled events to set reminders for them.,1
+52900,ADD_CHARACTER_GROUP_TOOLTIP,Add New Camp,2
+52901,ENTER_CHARACTER_GROUP_NAME,Enter Camp Name,2
+52904,ADDON_PERFORMANCE_SPECIFIC_WARNING_TEXT,"%s is close to reaching the performance threshold, which may impact game stability. Consider disabling this AddOn.",1
+52905,ADDON_PERFORMANCE_SPECIFIC_ERROR_TEXT,AddOn %s has exceeded the performance threshold for memory usage or CPU. Please disable this addon to improve performance.,1
+52906,ADDON_PERFORMANCE_OVERALL_ERROR_TEXT,Your AddOns have exceeded the memory usage or CPU threshold. Please disable some AddOns to improve performance.,1
+52907,ADDON_LIST_PERFORMANCE_HEADER,AddOn Usage,1
+52908,ADDON_LIST_PERFORMANCE_CURRENT_CPU,Current CPU: %s,1
+52909,ADDON_LIST_PERFORMANCE_AVERAGE_CPU,Average CPU: %s,1
+52910,ADDON_LIST_PERFORMANCE_PEAK_CPU,Peak CPU: %s,1
+52911,ADDON_LIST_PERFORMANCE_ENCOUNTER_CPU,Last Encounter CPU: %s,1
+52912,ADDON_LIST_PERFORMANCE_WARNING_TOOLTIP,AddOn CPU usage exceeds the threshold.\nDisable some addons to improve performance.,1
+52913,ADDON_LIST_PERFORMANCE_MEMORY_MB,Memory Usage: %d MB,1
+52914,ADDON_LIST_PERFORMANCE_MEMORY_KB,Memory Usage: %d KB,1
+52916,CHARACTER_GROUP_OPTION_RENAME_DELETE,Rename / Delete,2
+52917,CONFIRM_DELETE_CHARACTER_GROUP_TEXT,Are you sure you want to delete camp %s?,2
+52918,CHARACTER_GROUP_OPTION_RENAME,Rename,2
+52930,ADDON_PERFORMANCE_MENU_TOOLTIP,(%s) %s,1
+52931,ADDON_LIST_ENABLE_DEPENDENCIES,Enable All Dependencies,3
+52932,ADDON_LIST_ENABLE_GROUP,Enable AddOn Group,3
+52933,ADDON_LIST_DISABLE_GROUP,Disable AddOn Group,3
+52934,ADDON_LIST_DISABLE_CATEGORY,Disable All AddOns,3
+52935,ADDON_LIST_RESET_ALL_TO_DEFAULT,Reset All to Default,3
+52936,ADDON_LIST_RESET_TO_DEFAULT,Reset to Default,3
+52937,ADDON_LIST_ENABLE_CATEGORY,Enable All AddOns,3
+52938,GENERIC_TRAIT_FRAME_DRIVE_TITLE,D.R.I.V.E.,1
+52939,EVENT_SCHEDULER_FRAME_LABEL,Events,1
+52952,ADD_CHARACTER_GROUP_TOOLTIP_DISABLED,Max %d |4camp:camps; reached.,2
+52962,ACCOUNT_COMPLETED_QUEST_NOTICE_LABEL,Completed,1
+52963,DRIVE_TURBO_METER_HELP_TIP,Holding spacebar while turning lets you drift. Drifting recovers your turbo meter.,1
+52964,DRIVE_START_JOB_HELP_TIP,Get your first job from Nanny Talullah. You can also cancel jobs and pick up new ones.,1
+52967,WORLD_MAP_FILTER_COUNTER_TOOLTIP,Hidden: %s,1
 52969,TW_FRAUD_WARNING_TEXT,System message,2
+52987,EVENT_SCHEDULER_DAY_FORMAT,%1$s %2$d,1
+52988,EVENT_SCHEDULER_TIME_WITH_LOCATION,%1$s - %2$s,1
+53126,ACCOUNT_LEVEL_SCENE,Warband Campsite,3
+53239,ACCESSIBILITY_DRIVE_LABEL,D.R.I.V.E.,1
+53240,EVENT_SCHEDULER_ONGOING_HEADER,Ongoing Events - %s,1
+53241,EVENT_SCHEDULER_SCHEDULED_HEADER,Event Schedule - %s,1
+53247,SPELL_FAILED_CUSTOM_ERROR_1068,Only a rogue could pick this lock.,1
+53248,CHARACTER_SELECT_ADD_GROUP_HELPTIP,Create a new camp. Each one can have its own campsite assigned.,2
+53249,CHARACTER_SELECT_NAV_BAR_CAMPS_HELPTIP,Use this option to customize which campsites your characters use.,2
+53250,CHARACTER_SELECT_EDIT_GROUP_HELPTIP,Right-click a camp name to rename or delete it.,2
+53251,WARBAND_SCENE_COLLECTION_MENU_HELPTIP,View your new backgrounds in the Collections menu.,1
+53255,DRIVE_NORMALIZE_REVERSE_TURNING,Normalize Reverse Turning,1
+53256,OPTION_TOOLTIP_DRIVE_NORMALIZE_REVERSE_TURNING,"If checked, uses normal turn controls when reversing during Drive.",1
+53259,ERR_LEARN_WARBAND_SCENE_S,%s has been added to your Campsite collection.,1
+53267,PROFESSION_RESPEC_CONFIRMATION,Do you want to  unlearn all specializations for %s?|n|nYou will lose all associated recipes and be able to re-allocate your knowledge as you see fit.|n|n |cnRED_FONT_COLOR:This can only be done ONCE.|r,1
+53306,EVENT_SCHEDULER_WORLD_MAP_HELP_TEXT,Ongoing and upcoming events can be found here,1
+53308,STABLE_PET_SPEC_DROPDOWN_OPTION_LABEL,%s %s,1
 53309,BINDING_NAME_LOOTLEFT,Left Interact With Target,1
+53318,EVENT_SCHEDULER_CHAT_REMINDER_SOON,%1$s starts in %2$s!,1
+53319,EVENT_SCHEDULER_CHAT_REMINDER_NOW,%s has started!,1
+53321,EVENT_SCHEDULER_SET_REMINDER,Add Reminder,1
+53322,EVENT_SCHEDULER_CLEAR_REMINDER,Remove Reminder,1
+53358,QUEST_HUB_TOOLTIP_AVAILABLE_CONTENT_HEADER,Available Timed Content,1
+53390,EVENT_SCHEDULER_HIDE_REWARDED_EVENTS,Only show events with unclaimed weekly rewards,1
+53398,POI_FOCUS,Focus,1
+53399,POI_REMOVE_FOCUS,Remove Focus,1
+53401,REPUTATION_BUTTON_TOOLTIP_VIEW_RENOWN_INSTRUCTION,<Click to view Renown>,1
+53402,EVENT_SCHEDULER_HIDDEN_EVENTS,%d |4event:events; hidden,1
+53403,EVENT_SCHEDULER_NO_EVENTS,No events available,1
+53441,SPELL_FAILED_CUSTOM_ERROR_1070,The Mega Magnet must be charged first!,1
+53444,SPELL_FAILED_CUSTOM_ERROR_1071,"Must target an eligible head, chest, or leg class set item.",1
+53445,SPELL_FAILED_CUSTOM_ERROR_1072,Must target an eligible shoulder or hand class set item.,1
+53463,SPELL_FAILED_CUSTOM_ERROR_1074,Cannot mount while disguised.,1
+53465,CINEMATIC_SUBTITLES_OPTIONS_HEADER,Subtitles,3
+53466,CINEMATIC_SUBTITLES_PREVIEW_LABEL,Subtitles Preview,3
+53467,CINEMATIC_SUBTITLES_DISPLAY_SUBHEADER,Display,3
+53468,CINEMATIC_SUBTITLES_BACKGROUND_OPTION_NONE,None (Default),3
+53469,CINEMATIC_SUBTITLES_BACKGROUND_OPTION_DARK,Dark,3
+53470,CINEMATIC_SUBTITLES_BACKGROUND_OPTION_LIGHT,Light,3
+53472,CINEMATIC_SUBTITLES_BACKGROUND_COLOR_OPTION_LABEL,Subtitles Background,3
+53473,CINEMATIC_SUBTITLES_BACKGROUND_OPACITY_OPTION_LABEL,Background Opacity,3
+53512,VIDEO_OPTIONS_INTEL_XELL,Intel XeLL,3
+53532,ERR_MARKSMANSHIP_NOPET_EAGLE,Your Marksmanship Eagle prevents this.,5
+53658,SPELL_FAILED_CUSTOM_ERROR_2427,A barrier protects the amplifier from losing power.,1
+53666,RESILIENT_KEY_LEVEL,Resilient Level %d,1
+53698,DROP_CHANCE_ITEMS_ONLY,Chance to receive:,1
+53726,SPELL_FAILED_CUSTOM_ERROR_1075,Your target is already protected by a Darkfuse Medichopper.,1
+53742,BINDING_NAME_DRIFT,Drift,1
+53876,EMPTY_SOCKET_SINGINGTHUNDER,Singing Thunder Socket,1
+53879,EMPTY_SOCKET_SINGINGSEA,Singing Sea Socket,1
+53882,EMPTY_SOCKET_SINGINGWIND,Singing Wind Socket,1
