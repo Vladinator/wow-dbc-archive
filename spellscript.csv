@@ -1333,3 +1333,18 @@ end
 
 end
 ",Ogulcan Buyuksandalyaci,0,46
+104755,NakTest - Area Trigger Move Script,"function nak_test_area_trigger_move_script(elapsedMs, x, y, z, roll, pitch, yaw)
+	return  -262.439, -803.81, 0, 0, 0, 0
+end
+",Noah Koecher,0,46
+106327,11.1 Raid - Undermine - Boss - Ogre Gangster - Charged Shot (Front) - SAHM,"function raid_undermine_boss_ogre_gangster_charged_shot_front_sahm(elapsedMs, x, y, z, roll, pitch, yaw)
+
+	-- Dear reader, move scripts are probably not you're looking for.
+	-- The literal only input is time elapsed, meaning you cannot reference
+	-- anything like the caster, dot vars, etc.
+	-- ye be warned
+	print(self)
+	return
+
+end
+",Scott Morin,0,46

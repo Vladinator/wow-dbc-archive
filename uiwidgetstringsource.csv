@@ -2316,7 +2316,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 4528,,248,1640
 4529,,239,1640
 4530,,249,1640
-4531,,19,1914
+4531,Player Data Value: %37pdc,19,1914
 4532,Test Widget Tooltip,208,1914
 4533,,273,1914
 4534,%2389fn,273,1625
@@ -4246,7 +4246,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 7308,,200,2002
 7309,,201,2002
 7310,%1731ss,428,2002
-7311,The Court,433,2903
+7311,Header Text,433,2903
 7312,,200,1752
 7313,,201,1752
 7314,Header Text,428,1752
@@ -8541,9 +8541,9 @@ ID,Value_lang,ReqID,ParentWidgetID
 16030,,394,5674
 16031,Awakened,52,5675
 16032,,394,5675
-16033,Season 1 will begin in:,19,5676
+16033,Season 2 will begin in:,19,5676
 16034,,273,5676
-16035,"Season 1 of delves will begin soon, bringing with it new challenges and rewards! View the Delve Dashboard for more information.",208,5676
+16035,"Season 2 of delves will begin soon, bringing with it it new challenges, curios, and higher item level rewards!",208,5676
 16041,Complete %43671e |4world quest:world quests; in the Isle of Dorn to unlock,52,5678
 16042,,394,5678
 16061,Your health has increased|nThe damage of your abilities has increased,52,5683
@@ -8642,8 +8642,6 @@ ID,Value_lang,ReqID,ParentWidgetID
 16249,0,277,5758
 16250,,212,5759
 16251,0,277,5759
-16252,,212,5760
-16253,0,277,5760
 16256,"Worldsoul Vision|n|nThese caverns were once home to fierce creatures, locked in a cycle of predation that ultimately led to their own extinction.",52,5762
 16257,,394,5762
 16258,Time Remaining,19,5763
@@ -9110,11 +9108,11 @@ ID,Value_lang,ReqID,ParentWidgetID
 17247,,248,6154
 17248,,239,6154
 17249,,249,6154
-17272,Test Scenario,677,6166
-17273,3 |r|cnLIGHTERGRAY_FONT_COLOR:/ 10|r,679,6166
+17272,Test Delve,677,6166
+17273,3,679,6166
 17274,|Hspell:458103|h|nTotal deaths: %26215w,680,6166
 17275,8,681,6166
-17278,|TInterface\ICONS\Spell_Holy_PureOfHeart.blp:15|t |cFF0091F2[Radiant Echo]|r: |cFFFFFFFF%220520ic|r,52,6168
+17278,|TInterface\ICONS\Spell_Holy_PureOfHeart.blp:15|t |cFF0091F2[Radiant Echo]|r: |cFFFFFFFF%235897ic|r,52,6168
 17279,,394,6168
 17283,|Hspell:462453|h|cnDARKYELLOW_FONT_COLOR:Time Left: %25436ha|r|n|n%453315sd,212,6170
 17284,,277,6170
@@ -9319,6 +9317,8 @@ ID,Value_lang,ReqID,ParentWidgetID
 17486,,621,6267
 17487,,622,6267
 17488,"Contains materials for upgrading gear, gold, and more.",627,6267
+17489,%0ss,433,6268
+17490,[DNT] Scenario Time Remaining,434,6268
 17491,Time Left %25452xa,52,5542
 17492,,394,5542
 17493,Time Left %25453xa,52,5543
@@ -9335,6 +9335,8 @@ ID,Value_lang,ReqID,ParentWidgetID
 17506,,394,5561
 17507,Time Left %25709xa,52,5562
 17508,,394,5562
+17520,Weapons Stockpiles Pilfered: %26994w/%26995w,52,6270
+17521,Pilfer Weapons Stockpiles to obtain the equipment necessary to enter the dam.,394,6270
 17530,|TInterface/ICONS/inv_misc_chest_azerite.BLP:16:16|t |cFFFFD200Worldsoul Memory Score: |r%3115c,52,6272
 17531,Defeat memories of threats to Azeroth to increase your score and earn more |TInterface/ICONS/INV_Valorstone_Base.BLP:18:18|t Valorstones and |TInterface/ICONS/INV_Gizmo_HardenedAdamantiteTube.blp:18:18|t Coffer Key Shards!,394,6272
 17534,|nWeekly Reward:,52,6274
@@ -9352,6 +9354,12 @@ ID,Value_lang,ReqID,ParentWidgetID
 17546,Explosives,19,6279
 17547,,273,6279
 17548,,208,6279
+17549,[DNT] Content Steps Progress,19,6280
+17550,,273,6280
+17551,,208,6280
+17552,[DNT] Player Rewards Progress,19,6281
+17553,,273,6281
+17554,,208,6281
 17555,Excavation,19,6282
 17556,,273,6282
 17557,,208,6282
@@ -9360,14 +9368,33 @@ ID,Value_lang,ReqID,ParentWidgetID
 17560,Bombardment,19,6284
 17561,,273,6284
 17562,,208,6284
+17563,[DNT] Total Time Remaining: %44535e,52,6285
+17564,,394,6285
+17565,%0ss,433,6286
+17566,[DNT] Content Time Remaining,434,6286
+17567,%0ss,433,6287
+17568,[DNT] Climax Time Remaining,434,6287
+17569,%0ss,433,6288
+17570,[DNT] Shutdown Time Remaining,434,6288
+17571,%0ss,433,6289
+17572,[DNT] Rally Time Remaining,434,6289
 17573,Return to the Dawnbreaker.,52,6290
 17574,Return to the Dawnbreaker.,394,6290
+17575,Trash Shoveled,19,6291
+17576,,273,6291
+17577,Amount of trash shoveled.,208,6291
+17578,,19,6292
+17579,,273,6292
+17580,,208,6292
 17584,Activate Event,19,6294
 17585,Contribute to fund the event,208,6294
 17586,,273,6294
 17590,Activate Event,19,6296
 17591,Contribute to fund the event,208,6296
 17592,,273,6296
+17606,,19,6298
+17607,,273,6298
+17608,,208,6298
 17609,,19,6064
 17610,,273,6064
 17611,,208,6064
@@ -9377,6 +9404,27 @@ ID,Value_lang,ReqID,ParentWidgetID
 17615,,19,6068
 17616,,273,6068
 17617,,208,6068
+17622,Time Remaining: %8529k,2,6300
+17623,,3,6300
+17624,,4,6300
+17625,Purple Team: %3600w Players Remaining,2,6301
+17626,,3,6301
+17627,,4,6301
+17628,Gold Team: %3601w Players Remaining,2,6302
+17629,,3,6302
+17630,,4,6302
+17631,,19,6303
+17632,%2673fn,273,6303
+17633,Current reputation with Bilgewater Cartel.,208,6303
+17634,,19,6304
+17635,%2677fn,273,6304
+17636,Current reputation with Steamwheedle Cartel.,208,6304
+17637,,19,6305
+17638,%2675fn,273,6305
+17639,Current reputation with Blackwater Cartel.,208,6305
+17640,,19,6306
+17641,%2671fn,273,6306
+17642,Current reputation with Venture Company.,208,6306
 17645,Radiant Echoes will be active for:,19,6147
 17646,,273,6147
 17647,,208,6147
@@ -9409,6 +9457,9 @@ ID,Value_lang,ReqID,ParentWidgetID
 17748,,394,6322
 17752,|nWeekly Reward:,52,6323
 17753,,394,6323
+17754,"When all players are on either Mug or Zee's side of the room, they'll take charge and become Head Honcho.",642,6315
+17755,"When all players are on Zee's side, Zee becomes the Head Honcho!",645,6315
+17756,"When all players are on Mug's side, Mug becomes the Head Honcho!",646,6315
 17757,|nWeekly Reward:,52,6324
 17758,,394,6324
 17759,,621,6325
@@ -9429,6 +9480,8 @@ ID,Value_lang,ReqID,ParentWidgetID
 17778,,394,6332
 17779,Enter the cave and defeat the threats within.,52,6333
 17780,,394,6333
+17781,%27217w/%27218w                                                    %27216w/%27218w,52,6330
+17782,,394,6330
 17869,,708,6334
 17870,,709,6334
 17871,,710,6334
@@ -9547,6 +9600,12 @@ ID,Value_lang,ReqID,ParentWidgetID
 17992,Charges Remaining,19,6382
 17993,,273,6382
 17994,,208,6382
+18007,,19,6575
+18008,|Hspell:471749|h,208,6575
+18009,,273,6575
+18010,Thermal Battery,19,6576
+18011,|Hspell:471749|h,208,6576
+18012,,273,6576
 18013,,19,6577
 18014,%2605fn,273,6577
 18015,Current reputation with the General.,208,6577
@@ -9556,6 +9615,27 @@ ID,Value_lang,ReqID,ParentWidgetID
 18019,,19,6579
 18020,%2601fn,273,6579
 18021,Current reputation with the Weaver.,208,6579
+18022,,204,6580
+18023,,205,6580
+18024,,204,6581
+18025,,205,6581
+18026,,204,6582
+18027,,205,6582
+18028,|Hspell:462453|h|cnDARKYELLOW_FONT_COLOR:Time Left: %27158ha|r|n|n%453315sd,212,6583
+18029,,277,6583
+18030,|Hspell:430253|h|cnDARKYELLOW_FONT_COLOR:Time Left: %27158ha|r|n|n%453315sd,212,6584
+18031,,277,6584
+18032,|Hspell:462453|h|cnDARKYELLOW_FONT_COLOR:Time Left: %27317ha|r|n|n%453315sd,212,6585
+18033,,277,6585
+18034,|Hspell:430253|h|cnDARKYELLOW_FONT_COLOR:Time Left: %27317ha|r|n|n%453315sd,212,6586
+18035,,277,6586
+18036,This delve contains a bonus treasure chest that can be opened with a Restored Coffer Key.|nTime Left: %27158ha|n|n%453315sd,52,6589
+18037,,394,6589
+18038,This delve contains a bonus treasure chest that can be opened with a Restored Coffer Key.|nTime Left: %27317ha|n|n%453315sd,52,6590
+18039,,394,6590
+18040,Pollutants Quarantined,19,6591
+18041,,273,6591
+18042,Amount of pollutants quarantined.,208,6591
 18046,Complete Serpent's Wrath to unlock.,52,6593
 18047,,394,6593
 18048,,621,6594
@@ -9569,11 +9649,187 @@ ID,Value_lang,ReqID,ParentWidgetID
 18059,,394,6598
 18060,Complete Legacy of the Vrykul to unlock.,52,6599
 18061,,394,6599
+18069,Complete %45197e |4world quest:world quests; in Undermine to unlock,52,6602
+18070,,394,6602
+18071,Time Left: %27248ht,52,6603
+18072,,394,6603
+18073,Complete %45198e |4world quest:world quests; in Undermine to unlock,52,6604
+18074,,394,6604
+18075,Time Left: %27249ht,52,6605
+18076,,394,6605
+18077,Drill Rig Power,19,6606
+18078,Return stolen batteries to this location,208,6606
+18079,,273,6606
+18080,Drill Rig Power,19,6607
+18081,Return stolen batteries to this location,208,6607
+18082,,273,6607
+18083,Drill Rig Power,19,6608
+18084,Return stolen batteries to this location,208,6608
+18085,,273,6608
+18086,Coins Inserted,19,6609
+18087,,273,6609
+18088,Contribute gold to activate the S.C.R.A.P. Bot.,208,6609
 18089,Return to Khadgar in:,19,6610
 18090,,273,6610
 18091,,208,6610
+18097,Shovel trash to find treasure!,52,6612
+18098,,394,6612
+18104,Speak to Carlo Greasegrind to start the job.,52,6614
+18105,,394,6614
+18108,Progress,19,6616
+18109,,273,6616
+18110,Amount of customers assisted.,208,6616
+18111,|Hspell:472952|h|n|cnWHITE_FONT_COLOR:Enemy groups affected: 1|r,212,6617
+18112,0,277,6617
+18113,|Hspell:472952|h|n|cnWHITE_FONT_COLOR:Enemy groups affected: 2|r,212,6618
+18114,0,277,6618
+18115,|Hspell:472952|h|n|cnWHITE_FONT_COLOR:Enemy groups affected: 3|r,212,6619
+18116,0,277,6619
+18117,|Hspell:472952|h|n|cnWHITE_FONT_COLOR:Enemy groups affected: 3|r,212,6620
+18118,0,277,6620
+18119,|Hspell:472952|h|n|cnWHITE_FONT_COLOR:Enemy groups affected: 4|r,212,6621
+18120,0,277,6621
+18121,Progress,19,6622
+18122,,273,6622
+18123,Amount of scrap assembled.,208,6622
 18164,|TInterface\Icons\INV_Misc_Coin_01:14:14:2:0|t  %3011c Plunder (1.%27601wx),584,6638
 18165,,585,6638
 18166,Total Plunder earned this match. Awarded when your crew is eliminated or victorious. Plunder awarded is increased during the Plundersurge.,598,6638
+18167,,19,6639
+18168,Oil Tank,273,6639
+18169,,208,6639
+18177,,19,6640
+18178,Oil Tank,273,6640
+18179,Oil Tank,208,6640
+18203,Time Remaining: %27582x,52,6613
+18204,,394,6613
+18205,,19,6649
+18206,,208,6649
+18207,,273,6649
+18208,Charge Accumulated,19,6650
+18209,,273,6650
+18210,Number of crystals processed.,208,6650
+18211,Drill Powered,19,6651
+18212,,273,6651
+18213,Charge added to Krazzik's Drill,208,6651
+18240,,19,6658
+18241,,273,6658
+18242,,208,6658
+18243,"|cnWHITE_FONT_COLOR:Gilded Stash|r|nUpon delve completion with lives remaining, a Gilded Stash will appear in the treasure room, containing 7 Gilded Crests.|n|n|cnWHITE_FONT_COLOR:Gilded Stash looted: %35pdc/3 |nResets weekly.",212,6659
+18244,0,277,6659
+18245,,19,6660
+18246,,273,6660
+18247,,208,6660
+18248,,19,6661
+18249,,273,6661
+18250,,208,6661
+18251,,19,6662
+18252,,273,6662
+18253,,208,6662
+18256,,19,6664
+18257,,273,6664
+18258,,208,6664
+18259,,19,6665
+18260,,273,6665
+18261,,208,6665
+18262,,19,6666
+18263,,273,6666
+18264,,208,6666
+18265,,19,6667
+18266,,273,6667
+18267,,208,6667
+18268,,19,6668
+18269,,208,6668
+18270,,273,6668
 18304,%0ss,433,6682
 18305,,434,6682
+18324,"Some might take issue with the ways Venture Co. acquires its resources, but no industry can run without materials. You want nice, find a book club. You want to build something, Venture Co.'s got what you need.",52,6690
+18325,,394,6690
+18326,"The Blackwater pirates might be a newer cartel, but they're already making waves in the shipping and luxury vacation industries. They can move any cargo, anywhere, any time, and now it's all nice and legal. Well, mostly legal.",52,6692
+18327,,394,6692
+18328,"The oldest and largest cartel in Undermine, Steamwheedle has had their hands in almost every industry spanning Azeroth and beyond. But these days, under Noggenfogger, it's all about premium-grade alchemy.",52,6695
+18329,,394,6695
+18330,"From brilliant inventors to explosive geniuses, Bilgewater is home to some of the brightest goblins to ever live. They made a big splash joining the Horde, but in Undermine, they can use all the friends they can get.",52,6697
+18331,,394,6697
+18341,,19,6701
+18342,,273,6701
+18343,You are a nigh-unstoppable sphere of pure garbage. Roll up objects in your path to increase in size!,208,6701
+18344,,19,6702
+18345,,273,6702
+18346,You are a nigh-unstoppable sphere of pure garbage!,208,6702
+18382,Completed %45862e/4,52,6717
+18383,,394,6717
+18384,"|cnWHITE_FONT_COLOR:Gilded Stash|r|nUpon delve completion with lives remaining, a Gilded Stash will appear in the treasure room, containing 7 Gilded Crests.|n|n|cnWHITE_FONT_COLOR:Gilded Stash looted: %35pdc/3 |nResets weekly.",212,6718
+18385,0,277,6718
+18386,"|cnWHITE_FONT_COLOR:Gilded Stash|r|nUpon delve completion with lives remaining, a Gilded Stash will appear in the treasure room, containing 7 Gilded Crests.|n|n|cnWHITE_FONT_COLOR:Gilded Stash looted: %35pdc/3 |nResets weekly.",212,6719
+18387,0,277,6719
+18388,"|cnWHITE_FONT_COLOR:Gilded Stash|r|nUpon delve completion with lives remaining, a Gilded Stash will appear in the treasure room, containing 7 Gilded Crests.|n|n|cnWHITE_FONT_COLOR:Gilded Stash looted: %35pdc/3 |nResets weekly.",212,6720
+18389,0,277,6720
+18390,"|cnWHITE_FONT_COLOR:Gilded Stash|r|nUpon delve completion with lives remaining, a Gilded Stash will appear in the treasure room, containing 7 Gilded Crests.|n|n|cnWHITE_FONT_COLOR:Gilded Stash looted: %35pdc/3 |nResets weekly.",212,6721
+18391,0,277,6721
+18392,"|cnWHITE_FONT_COLOR:Gilded Stash|r|nUpon delve completion with lives remaining, a Gilded Stash will appear in the treasure room, containing 7 Gilded Crests.|n|n|cnWHITE_FONT_COLOR:Gilded Stash looted: %35pdc/3 |nResets weekly.",212,6722
+18393,0,277,6722
+18394,"|cnWHITE_FONT_COLOR:Gilded Stash|r|nUpon delve completion with lives remaining, a Gilded Stash will appear in the treasure room, containing 7 Gilded Crests.|n|n|cnWHITE_FONT_COLOR:Gilded Stash looted: %35pdc/3 |nResets weekly.",212,6723
+18395,,277,6723
+18396,"|cnWHITE_FONT_COLOR:Gilded Stash|r|nUpon delve completion with lives remaining, a Gilded Stash will appear in the treasure room, containing 7 Gilded Crests.|n|n|cnWHITE_FONT_COLOR:Gilded Stash looted: %35pdc/3 |nResets weekly.",212,6724
+18397,0,277,6724
+18398,"|cnWHITE_FONT_COLOR:Gilded Stash|r|nUpon delve completion with lives remaining, a Gilded Stash will appear in the treasure room, containing 7 Gilded Crests.|n|n|cnWHITE_FONT_COLOR:Gilded Stash looted: %35pdc/3 |nResets weekly.",212,6725
+18399,0,277,6725
+18400,"|cnWHITE_FONT_COLOR:Gilded Stash|r|nUpon delve completion with lives remaining, a Gilded Stash will appear in the treasure room, containing 7 Gilded Crests.|n|n|cnWHITE_FONT_COLOR:Gilded Stash looted: %35pdc/3 |nResets weekly.",212,6726
+18401,0,277,6726
+18402,"|cnWHITE_FONT_COLOR:Gilded Stash|r|nUpon delve completion with lives remaining, a Gilded Stash will appear in the treasure room, containing 7 Gilded Crests.|n|n|cnWHITE_FONT_COLOR:Gilded Stash looted: %35pdc/3 |nResets weekly.",212,6727
+18403,0,277,6727
+18404,"|cnWHITE_FONT_COLOR:Gilded Stash|r|nUpon delve completion with lives remaining, a Gilded Stash will appear in the treasure room, containing 7 Gilded Crests.|n|n|cnWHITE_FONT_COLOR:Gilded Stash looted: %35pdc/3 |nResets weekly.",212,6728
+18405,0,277,6728
+18406,"|cnWHITE_FONT_COLOR:Gilded Stash|r|nUpon delve completion with lives remaining, a Gilded Stash will appear in the treasure room, containing 7 Gilded Crests.|n|n|cnWHITE_FONT_COLOR:Gilded Stash looted: %35pdc/3 |nResets weekly.",212,6729
+18407,0,277,6729
+18412,,621,6732
+18413,,622,6732
+18414,,627,6732
+18415,Next Reward:,52,6733
+18416,,394,6733
+18417,,621,6734
+18418,,622,6734
+18419,,627,6734
+18420,,621,6735
+18421,,622,6735
+18422,,627,6735
+18423,Shipping and Handling:,19,6736
+18424,,273,6736
+18425,Surge Pricing is now active. Earn bonus rewards for completing Shipping and Handling jobs at the same time as other players.,208,6736
+18426,Completed %39pdc/4,52,6737
+18427,,394,6737
+18428,,212,6738
+18429,,277,6738
+18430,,212,6739
+18431,,277,6739
+18432,,212,6740
+18433,,277,6740
+18454,Convincing Gazlowe:,19,6745
+18455,,273,6745
+18456,Gazlowe and Renzik are discussing their next steps after Gallywix's escape from the Hoardroom and the ethereals taking the Dark Heart.,208,6745
+18560,Job Streak,19,6758
+18561,,273,6758
+18562,Complete 10 jobs in a row to earn bonus rewards!,208,6758
+18639,,212,6785
+18640,,277,6785
+18641,,212,6786
+18642,,277,6786
+18643,,212,6787
+18644,,277,6787
+18645,,212,6788
+18646,,277,6788
+18647,,212,6789
+18648,,277,6789
+18649,,212,6790
+18650,,277,6790
+18651,,212,6791
+18652,,277,6791
+18653,,212,6792
+18654,,277,6792
+18667,"|cnWHITE_FONT_COLOR:Gilded Stash|r|nUpon delve completion with lives remaining, a Gilded Stash will appear in the treasure room, containing 7 Gilded Crests.|n|n|cnWHITE_FONT_COLOR:Gilded Stash looted: %35pdc/3 |nResets weekly.",212,6794
+18668,0,277,6794
+18693,,212,6807
+18694,,277,6807
+18734,,212,6825
+18735,,277,6825

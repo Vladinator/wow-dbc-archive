@@ -1317,7 +1317,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 1584,Gain exalted reputation with The League of Arathor.,0,0,4,0,0,0
 1585,Exalted with The League of Arathor,1584,42000,0,5333,1,2
 1587,"During the Feast of Winter Veil, use your culinary expertise to produce a Gingerbread Cookie, Winter Veil Eggnog and Hot Apple Cider.",0,0,4,0,0,0
-1588,Winter Veil Egg Nog,1587,1,0,6248,1,0
+1588,Winter Veil Eggnog,1587,1,0,6248,1,0
 1589,Gingerbread Cookie,1587,1,0,6247,0,0
 1590,Hot Apple Cider,1587,1,0,6249,2,0
 1592,Deaths from fire and lava,0,0,5,0,0,0
@@ -1528,7 +1528,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 1842,Slad'ran,1839,1,0,5448,1,0
 1843,Moorabi,1839,1,0,5449,2,0
 1845,Complete 100 quests.,0,0,4,0,0,0
-1846,Complete 100 quests,1845,100,0,66919,0,1
+1846,,1845,100,0,66919,0,1
 1848,Complete 1500 quests.,0,0,4,0,0,0
 1849,,1848,1500,0,66919,0,1
 1851,Get 500 honorable kills.,0,0,4,0,0,0
@@ -6708,8 +6708,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 8599,"I Choose You, Steelbreaker (25 player)",8586,0,0,10369,5,0
 8601,Earn the right to represent Stormwind in the Argent Tournament.,0,0,4,0,0,0
 8602,Champion of Stormwind,8601,1,0,11324,1,2
-8604,Obtain a Chef's Hat.,0,0,4,0,0,0
-8605,,8604,1,0,10638,1,2
+8604,Obtain the Chef's Hat.,0,0,4,0,0,0
+8605,,8604,1,0,10638,0,2
 8607,Find a way to get the Hozen Clinger to let go in Stormstout Brewery on any difficulty.,0,0,4,0,0,0
 8608,Hozen Clinger,8607,1,0,19013,1,2
 8610,Smash 100 vermen with a single hammer swing in Stormstout Brewery on Heroic Difficulty.,0,0,4,0,0,0
@@ -8695,10 +8695,10 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 12521,Complete 100 quests in Azshara.,0,0,4,0,0,0
 12522,Azshara,12521,100,0,13837,1,1
 12524,Find your pet Spring Rabbit another one to love in each of the towns listed below.,0,0,4,0,0,0
-12525,Falconwing Square,12524,1,0,9204,3,0
-12526,Razor Hill,12524,1,0,9205,4,0
-12527,Bloodhoof Village,12524,1,0,9202,1,0
-12528,Brill,12524,1,0,9203,2,0
+12525,Falconwing Square,12524,1,0,9204,2,0
+12526,Razor Hill,12524,1,0,9205,3,0
+12527,Bloodhoof Village,12524,1,0,9202,0,0
+12528,Brill,12524,1,0,9203,1,0
 12530,Obtain the Brutal Nether Drake from Arena Season 4 of The Burning Crusade.,0,1,8,0,0,0
 12531,Brutal Nether Drake,12530,1,0,8778,1,2
 12532,Brutal Nether Drake,12530,0,0,8779,2,2
@@ -12074,29 +12074,28 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 16690,Complete every Cataclysm Dungeon achievement.,0,0,4,0,0,0
 16691,Too Hot to Handle,16690,0,0,15248,3,0
 16692,Arrested Development,16690,0,0,15247,2,0
-16693,Ready for Raiding,16690,0,0,16041,16,0
-16694,Rat Pack,16690,0,0,16042,17,0
-16695,Vigorous VanCleef Vindicator,16690,0,0,16046,21,0
-16696,To the Ground!,16690,0,0,16048,23,0
-16697,Bullet Time,16690,0,0,16049,24,0
+16693,Ready for Raiding,16690,0,0,16041,15,0
+16694,Rat Pack,16690,0,0,16042,16,0
+16695,Vigorous VanCleef Vindicator,16690,0,0,16046,20,0
+16696,To the Ground!,16690,0,0,16048,22,0
+16697,Bullet Time,16690,0,0,16049,23,0
 16698,Rotten to the Core,16690,0,0,15252,5,0
 16699,Extra Credit Bonus Stage,16690,0,0,22268,7,0
 16700,Acrocalypse Now,16690,0,0,15256,9,0
 16701,I Hate That Song,16690,0,0,15258,11,0
 16702,Ascendant Descending,16690,0,0,15249,4,0
 16703,Faster Than the Speed of Light,16690,0,0,15261,14,0
-16704,Umbrage for Umbriss,16690,0,0,15262,15,0
-16705,Don't Need to Break Eggs to Make an Omelet,16690,0,0,15263,25,0
+16705,Don't Need to Break Eggs to Make an Omelet,16690,0,0,15263,24,0
 16706,Sun of a....,16690,0,0,15260,13,0
 16707,Cataclysm Dungeon Hero,16690,0,0,13554,0,0
 16708,Headed South,16690,0,0,15257,10,0
-16710,Prototype Prodigy,16690,0,0,16043,18,0
+16710,Prototype Prodigy,16690,0,0,16043,17,0
 16711,Straw That Broke the Camel's Back,16690,0,0,15259,12,0
-16712,It's Frost Damage,16690,0,0,16044,19,0
+16712,It's Frost Damage,16690,0,0,16044,18,0
 16714,No Static at All,16690,0,0,15253,6,0
 16715,Kill It With Fire!,16690,0,0,15255,8,0
-16716,I'm on a Diet,16690,0,0,16045,20,0
-16717,Pardon Denied,16690,0,0,16047,22,0
+16716,I'm on a Diet,16690,0,0,16045,19,0
+16717,Pardon Denied,16690,0,0,16047,21,0
 16718,Crushing Bones and Cracking Skulls,16690,0,0,13555,1,0
 16720,"Owner of Sulfuras, Hand of Ragnaros.",0,1,8,0,0,0
 16721,"Sulfuras, Hand of Ragnaros",16720,1,0,14185,1,2
@@ -50679,30 +50678,30 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 66285,Azerokk defeated,66283,1,0,38194,1,0
 66286,Rixxa Fluxflame defeated,66283,1,0,38195,2,0
 66287,Mogul Razdunk defeated,66283,1,0,38196,3,0
-66288,Enemy Forces,66283,384,9,0,4,0
+66288,Enemy Forces,66283,457,9,0,4,0
 66289,,66288,1,0,40281,0,0
 66291,,66288,4,0,40283,1,0
-66292,,66288,12,0,40284,2,0
+66292,,66288,8,0,40284,2,0
 66293,,66288,4,0,40285,3,0
 66294,,66288,5,0,40286,4,0
 66295,,66288,4,0,40287,5,0
-66296,,66288,12,0,40288,6,0
+66296,,66288,8,0,40288,6,0
 66297,,66288,2,0,40289,7,0
 66298,,66288,4,0,40290,8,0
-66299,,66288,4,0,40291,9,0
-66301,,66288,12,0,40292,10,0
+66299,,66288,6,0,40291,9,0
+66301,,66288,16,0,40292,10,0
 66302,,66288,4,0,40293,11,0
 66303,,66288,1,0,40294,12,0
-66304,,66288,6,0,40295,13,0
+66304,,66288,20,0,40295,13,0
 66305,,66288,1,0,40296,14,0
 66306,,66288,4,0,40297,15,0
-66307,,66288,8,0,40298,16,0
+66307,,66288,10,0,40298,16,0
 66308,,66288,5,0,40299,17,0
-66309,,66288,5,0,40300,18,0
-66310,,66288,4,0,40301,19,0
+66309,,66288,3,0,40300,18,0
+66310,,66288,5,0,40301,19,0
 66311,,66288,1,0,40302,20,0
 66312,,66288,5,0,40303,21,0
-66313,,66288,12,0,40304,22,0
+66313,,66288,22,0,40304,22,0
 66314,,66288,5,0,40305,23,0
 66315,,66288,5,0,40306,24,0
 66316,,66288,1,0,40307,25,0
@@ -61903,10 +61902,10 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 78326,,78325,2400,0,43417,0,2
 78327,,78325,2400,0,43418,1,2
 78328,,78325,2400,0,43424,2,2
-78329,Earn Conquest in Battle for Azeroth Season 2 (A) - Saddle (1),0,0,4,0,0,1
-78330,Win Rated PvP matches while at Combatant or higher,78329,2400,0,44205,0,1
-78331,Earn Conquest in Battle for Azeroth Season 2 (H) - Saddle (1),0,0,4,0,0,1
-78332,Win Rated PvP matches while at Combatant or higher,78331,2400,0,44205,0,1
+78329,Earn Conquest While Combatant (A) - Saddle (1),0,0,4,0,0,1
+78330,Win Rated PvP matches while at 1000 rating or higher,78329,2400,0,44205,0,1
+78331,Earn Conquest While Combatant (H) - Saddle (1),0,0,4,0,0,1
+78332,Win Rated PvP matches while at 1000 rating or higher,78331,2400,0,44205,0,1
 78333,"Place 5,000 Feasts",19594,1500,0,44206,22,3
 78334,,65807,0,0,44207,1,2
 78335,8.3 Visions of N'zoth - Prototype - Intro - Defeat the Vision Guardians,0,0,4,0,0,0
@@ -62606,42 +62605,42 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 79572,Talked to Delormi for COT,79571,1,0,45003,0,0
 79577,8.1.5 Professions - Enchanting - Tools of the Trade - Loot Runic Power Core,0,0,4,0,0,4096
 79578,,79577,1,0,45007,0,2048
-79579,Earn Conquest in Battle for Azeroth Season 2 (H) - Saddle (2),0,0,4,0,0,1
-79580,Win Rated PvP matches while at Combatant or higher,79579,2400,0,45009,0,1
-79581,Earn Conquest in Battle for Azeroth Season 2 (H) - Saddle (3),0,0,4,0,0,1
-79582,Win Rated PvP matches while at Combatant or higher,79581,2400,0,45010,0,1
-79583,Earn Conquest in Battle for Azeroth Season 2 (H) - Saddle (4),0,0,4,0,0,1
-79584,Win Rated PvP matches while at Combatant or higher,79583,2400,0,45011,0,1
-79585,Earn Conquest in Battle for Azeroth Season 2 (H) - Saddle (5),0,0,4,0,0,1
-79586,Win Rated PvP matches while at Combatant or higher,79585,2400,0,45012,0,1
-79587,Earn Conquest in Battle for Azeroth Season 2 (H) - Saddle (6),0,0,4,0,0,1
-79588,Win Rated PvP matches while at Combatant or higher,79587,2400,0,45013,0,1
-79589,Earn Conquest in Battle for Azeroth Season 2 (H) - Saddle (7),0,0,4,0,0,1
-79590,Win Rated PvP matches while at Combatant or higher,79589,2400,0,45014,0,1
-79591,Earn Conquest in Battle for Azeroth Season 2 (H) - Saddle (8),0,0,4,0,0,1
-79592,Win Rated PvP matches while at Combatant or higher,79591,2400,0,45015,0,1
-79593,Earn Conquest in Battle for Azeroth Season 2 (H) - Saddle (9),0,0,4,0,0,1
-79594,Win Rated PvP matches while at Combatant or higher,79593,2400,0,45016,0,1
-79595,Earn Conquest in Battle for Azeroth Season 2 (H) - Saddle (10),0,0,4,0,0,1
-79596,Win Rated PvP matches while at Combatant or higher,79595,2400,0,45017,0,1
-79597,Earn Conquest in Battle for Azeroth Season 2 (A) - Saddle (2),0,0,4,0,0,1
-79598,Win Rated PvP matches while at Combatant or higher,79597,2400,0,45018,0,1
-79599,Earn Conquest in Battle for Azeroth Season 2 (A) - Saddle (3),0,0,4,0,0,1
-79600,Win Rated PvP matches while at Combatant or higher,79599,2400,0,45019,0,1
-79601,Earn Conquest in Battle for Azeroth Season 2 (A) - Saddle (4),0,0,4,0,0,1
-79602,Win Rated PvP matches while at Combatant or higher,79601,2400,0,45020,0,1
-79603,Earn Conquest in Battle for Azeroth Season 2 (A) - Saddle (5),0,0,4,0,0,1
-79604,Win Rated PvP matches while at Combatant or higher,79603,2400,0,45021,0,1
-79605,Earn Conquest in Battle for Azeroth Season 2 (A) - Saddle (6),0,0,4,0,0,1
-79606,Win Rated PvP matches while at Combatant or higher,79605,2400,0,45022,0,1
-79607,Earn Conquest in Battle for Azeroth Season 2 (A) - Saddle (7),0,0,4,0,0,1
-79608,Win Rated PvP matches while at Combatant or higher,79607,2400,0,45023,0,1
-79609,Earn Conquest in Battle for Azeroth Season 2 (A) - Saddle (8),0,0,4,0,0,1
-79610,Win Rated PvP matches while at Combatant or higher,79609,2400,0,45024,0,1
-79611,Earn Conquest in Battle for Azeroth Season 2 (A) - Saddle (9),0,0,4,0,0,1
-79612,Win Rated PvP matches while at Combatant or higher,79611,2400,0,45025,0,1
-79613,Earn Conquest in Battle for Azeroth Season 2 (A) - Saddle (10),0,0,4,0,0,1
-79614,Win Rated PvP matches while at Combatant or higher,79613,2400,0,45026,0,1
+79579,Earn Conquest While Combatant (H) - Saddle (2),0,0,4,0,0,1
+79580,Win Rated PvP matches while at 1000 rating or higher,79579,2400,0,45009,0,1
+79581,Earn Conquest While Combatant (H) - Saddle (3),0,0,4,0,0,1
+79582,Win Rated PvP matches while at 1000 rating or higher,79581,2400,0,45010,0,1
+79583,Earn Conquest While Combatant (H) - Saddle (4),0,0,4,0,0,1
+79584,Win Rated PvP matches while at 1000 rating or higher,79583,2400,0,45011,0,1
+79585,Earn Conquest While Combatant (H) - Saddle (5),0,0,4,0,0,1
+79586,Win Rated PvP matches while at 1000 rating or higher,79585,2400,0,45012,0,1
+79587,Earn Conquest While Combatant (H) - Saddle (6),0,0,4,0,0,1
+79588,Win Rated PvP matches while at 1000 rating or higher,79587,2400,0,45013,0,1
+79589,Earn Conquest While Combatant (H) - Saddle (7),0,0,4,0,0,1
+79590,Win Rated PvP matches while at 1000 rating or higher,79589,2400,0,45014,0,1
+79591,Earn Conquest While Combatant (H) - Saddle (8),0,0,4,0,0,1
+79592,Win Rated PvP matches while at 1000 rating or higher,79591,2400,0,45015,0,1
+79593,Earn Conquest While Combatant (H) - Saddle (9),0,0,4,0,0,1
+79594,Win Rated PvP matches while at 1000 rating or higher,79593,2400,0,45016,0,1
+79595,Earn Conquest While Combatant (H) - Saddle (10),0,0,4,0,0,1
+79596,Win Rated PvP matches while at 1000 rating or higher,79595,2400,0,45017,0,1
+79597,Earn Conquest While Combatant (A) - Saddle (2),0,0,4,0,0,1
+79598,Win Rated PvP matches while at 1000 rating or higher,79597,2400,0,45018,0,1
+79599,Earn Conquest While Combatant (A) - Saddle (3),0,0,4,0,0,1
+79600,Win Rated PvP matches while at 1000 rating or higher,79599,2400,0,45019,0,1
+79601,Earn Conquest While Combatant (A) - Saddle (4),0,0,4,0,0,1
+79602,Win Rated PvP matches while at 1000 rating or higher,79601,2400,0,45020,0,1
+79603,Earn Conquest While Combatant (A) - Saddle (5),0,0,4,0,0,1
+79604,Win Rated PvP matches while at 1000 rating or higher,79603,2400,0,45021,0,1
+79605,Earn Conquest While Combatant (A) - Saddle (6),0,0,4,0,0,1
+79606,Win Rated PvP matches while at 1000 rating or higher,79605,2400,0,45022,0,1
+79607,Earn Conquest While Combatant (A) - Saddle (7),0,0,4,0,0,1
+79608,Win Rated PvP matches while at 1000 rating or higher,79607,2400,0,45023,0,1
+79609,Earn Conquest While Combatant (A) - Saddle (8),0,0,4,0,0,1
+79610,Win Rated PvP matches while at 1000 rating or higher,79609,2400,0,45024,0,1
+79611,Earn Conquest While Combatant (A) - Saddle (9),0,0,4,0,0,1
+79612,Win Rated PvP matches while at 1000 rating or higher,79611,2400,0,45025,0,1
+79613,Earn Conquest While Combatant (A) - Saddle (10),0,0,4,0,0,1
+79614,Win Rated PvP matches while at 1000 rating or higher,79613,2400,0,45026,0,1
 79615,Attack Wintergrasp and succeed in 10 minutes or less.,14261,1,0,45008,1,2
 79616,Speak with Thrall,79488,1,0,45027,0,0
 79617,Zandalari Troll - Loa Selected,0,0,4,0,0,2
@@ -64021,12 +64020,11 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 81139,Complete Follower Achievements,81134,1,8,0,3,0
 81140,,81139,0,0,45838,0,1056
 81141,,81139,0,0,45839,1,544
-81142,,81134,0,0,45841,4,32
-81143,,81134,0,0,45840,5,32
-81144,,81134,0,0,45842,6,32
-81145,,81134,0,0,45843,7,32
-81146,,81134,0,0,45844,8,32
-81147,,81134,0,0,45845,9,32
+81143,,81134,0,0,45840,4,32
+81144,,81134,0,0,45842,5,32
+81145,,81134,0,0,45843,6,32
+81146,,81134,0,0,45844,7,32
+81147,,81134,0,0,45845,8,32
 81148,Complete Summons from the Depths.,0,0,4,0,0,0
 81149,Summons from the Depths completed.,81148,10,0,45846,0,1
 81150,Complete Mardivas' Puzzles,0,0,4,0,0,0
@@ -64054,8 +64052,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 81172,Easy Runelocked Chest: Red,81168,0,0,45865,3,0
 81173,Easy Runelocked Chest: Orange,81168,0,0,45866,4,0
 81174,Easy Runelocked Chest: Green,81168,0,0,45867,5,0
-81175,,81134,0,0,45868,10,32
-81176,,81134,0,0,45869,11,32
+81175,,81134,0,0,45868,9,32
+81176,,81134,0,0,45869,10,32
 81177,Complete 30 Requisition or Bounty daily quests in Nazjatar.,0,30,5,0,0,8193
 81178,,81177,0,0,45870,0,0
 81179,,81177,0,0,45871,1,0
@@ -64113,12 +64111,12 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 81231,,81177,0,0,45923,53,0
 81232,Crimson Tidestallion obtained,0,0,4,0,0,0
 81233,Crimson Tidestallion obtained,81232,0,0,45924,0,0
-81234,,81134,0,0,45925,12,32
-81235,Ankoan or Unshackled Exalted,81134,1,8,0,13,0
+81234,,81134,0,0,45925,11,32
+81235,Ankoan or Unshackled Exalted,81134,1,8,0,12,0
 81236,,81235,0,0,45270,0,544
 81237,,81235,0,0,45269,1,1056
-81238,,81134,0,0,45926,14,32
-81239,Complete Nazjatar Questlines,81134,1,8,0,15,0
+81238,,81134,0,0,45926,13,32
+81239,Complete Nazjatar Questlines,81134,1,8,0,14,0
 81240,,81239,0,0,45927,0,1056
 81241,,81239,0,0,45928,1,544
 81242,Postmaster Malown Defeated,0,0,4,0,0,0
@@ -64250,46 +64248,46 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 81381,Drive It Away Today,81361,1,0,46015,11,0
 81382,Making the Mount,80063,1,0,46016,8,0
 81383,Armed for Action,80063,1,0,46017,9,0
-81384,Earn Conquest in Battle for Azeroth Season 3 (A) - Saddle (11),0,0,4,0,0,1
-81385,Win Rated PvP matches while at Combatant or higher,81384,2400,0,46018,0,1
-81386,Earn Conquest in Battle for Azeroth Season 3 (A) - Saddle (12),0,0,4,0,0,1
-81387,Win Rated PvP matches while at Combatant or higher,81386,2400,0,46019,0,1
-81388,Earn Conquest in Battle for Azeroth Season 3 (A) - Saddle (13),0,0,4,0,0,1
-81389,Win Rated PvP matches while at Combatant or higher,81388,2400,0,46020,0,1
-81390,Earn Conquest in Battle for Azeroth Season 3 (A) - Saddle (14),0,0,4,0,0,1
-81391,Win Rated PvP matches while at Combatant or higher,81390,2400,0,46021,0,1
-81392,Earn Conquest in Battle for Azeroth Season 3 (A) - Saddle (15),0,0,4,0,0,1
-81393,Win Rated PvP matches while at Combatant or higher,81392,2400,0,46022,0,1
-81394,Earn Conquest in Battle for Azeroth Season 3 (A) - Saddle (16),0,0,4,0,0,1
-81395,Win Rated PvP matches while at Combatant or higher,81394,2400,0,46023,0,1
-81396,Earn Conquest in Battle for Azeroth Season 3 (A) - Saddle (17),0,0,4,0,0,1
-81397,Win Rated PvP matches while at Combatant or higher,81396,2400,0,46024,0,1
-81398,Earn Conquest in Battle for Azeroth Season 3 (A) - Saddle (18),0,0,4,0,0,1
-81399,Win Rated PvP matches while at Combatant or higher,81398,2400,0,46025,0,1
-81400,Earn Conquest in Battle for Azeroth Season 3 (A) - Saddle (19),0,0,4,0,0,1
-81401,Win Rated PvP matches while at Combatant or higher,81400,2400,0,46026,0,1
-81402,Earn Conquest in Battle for Azeroth Season 3 (A) - Saddle (20),0,0,4,0,0,1
-81403,Win Rated PvP matches while at Combatant or higher,81402,2400,0,46027,0,1
-81404,Earn Conquest in Battle for Azeroth Season 3 (H) - Saddle (11),0,0,4,0,0,1
-81405,Win Rated PvP matches while at Combatant or higher,81404,2400,0,46028,0,1
-81406,Earn Conquest in Battle for Azeroth Season 3 (H) - Saddle (12),0,0,4,0,0,1
-81407,Win Rated PvP matches while at Combatant or higher,81406,2400,0,46029,0,1
-81408,Earn Conquest in Battle for Azeroth Season 3 (H) - Saddle (13),0,0,4,0,0,1
-81409,Win Rated PvP matches while at Combatant or higher,81408,2400,0,46030,0,1
-81410,Earn Conquest in Battle for Azeroth Season 3 (H) - Saddle (14),0,0,4,0,0,1
-81411,Win Rated PvP matches while at Combatant or higher,81410,2400,0,46031,0,1
-81412,Earn Conquest in Battle for Azeroth Season 3 (H) - Saddle (15),0,0,4,0,0,1
-81413,Win Rated PvP matches while at Combatant or higher,81412,2400,0,46032,0,1
-81414,Earn Conquest in Battle for Azeroth Season 3 (H) - Saddle (16),0,0,4,0,0,1
-81415,Win Rated PvP matches while at Combatant or higher,81414,2400,0,46033,0,1
-81416,Earn Conquest in Battle for Azeroth Season 3 (H) - Saddle (17),0,0,4,0,0,1
-81417,Win Rated PvP matches while at Combatant or higher,81416,2400,0,46034,0,1
-81418,Earn Conquest in Battle for Azeroth Season 3 (H) - Saddle (18),0,0,4,0,0,1
-81419,Win Rated PvP matches while at Combatant or higher,81418,2400,0,46035,0,1
-81420,Earn Conquest in Battle for Azeroth Season 3 (H) - Saddle (19),0,0,4,0,0,1
-81421,Win Rated PvP matches while at Combatant or higher,81420,2400,0,46036,0,1
-81422,Earn Conquest in Battle for Azeroth Season 3 (H) - Saddle (20),0,0,4,0,0,1
-81423,Win Rated PvP matches while at Combatant or higher,81422,2400,0,46037,0,1
+81384,Earn Conquest While Combatant (A) - Saddle (11),0,0,4,0,0,1
+81385,Win Rated PvP matches while at 1000 rating or higher,81384,2400,0,46018,0,1
+81386,Earn Conquest While Combatant (A) - Saddle (12),0,0,4,0,0,1
+81387,Win Rated PvP matches while at 1000 rating or higher,81386,2400,0,46019,0,1
+81388,Earn Conquest While Combatant (A) - Saddle (13),0,0,4,0,0,1
+81389,Win Rated PvP matches while at 1000 rating or higher,81388,2400,0,46020,0,1
+81390,Earn Conquest While Combatant (A) - Saddle (14),0,0,4,0,0,1
+81391,Win Rated PvP matches while at 1000 rating or higher,81390,2400,0,46021,0,1
+81392,Earn Conquest While Combatant (A) - Saddle (15),0,0,4,0,0,1
+81393,Win Rated PvP matches while at 1000 rating or higher,81392,2400,0,46022,0,1
+81394,Earn Conquest While Combatant (A) - Saddle (16),0,0,4,0,0,1
+81395,Win Rated PvP matches while at 1000 rating or higher,81394,2400,0,46023,0,1
+81396,Earn Conquest While Combatant (A) - Saddle (17),0,0,4,0,0,1
+81397,Win Rated PvP matches while at 1000 rating or higher,81396,2400,0,46024,0,1
+81398,Earn Conquest While Combatant (A) - Saddle (18),0,0,4,0,0,1
+81399,Win Rated PvP matches while at 1000 rating or higher,81398,2400,0,46025,0,1
+81400,Earn Conquest While Combatant (A) - Saddle (19),0,0,4,0,0,1
+81401,Win Rated PvP matches while at 1000 rating or higher,81400,2400,0,46026,0,1
+81402,Earn Conquest While Combatant (A) - Saddle (20),0,0,4,0,0,1
+81403,Win Rated PvP matches while at 1000 rating or higher,81402,2400,0,46027,0,1
+81404,Earn Conquest While Combatant (H) - Saddle (11),0,0,4,0,0,1
+81405,Win Rated PvP matches while at 1000 rating or higher,81404,2400,0,46028,0,1
+81406,Earn Conquest While Combatant (H) - Saddle (12),0,0,4,0,0,1
+81407,Win Rated PvP matches while at 1000 rating or higher,81406,2400,0,46029,0,1
+81408,Earn Conquest While Combatant (H) - Saddle (13),0,0,4,0,0,1
+81409,Win Rated PvP matches while at 1000 rating or higher,81408,2400,0,46030,0,1
+81410,Earn Conquest While Combatant (H) - Saddle (14),0,0,4,0,0,1
+81411,Win Rated PvP matches while at 1000 rating or higher,81410,2400,0,46031,0,1
+81412,Earn Conquest While Combatant (H) - Saddle (15),0,0,4,0,0,1
+81413,Win Rated PvP matches while at 1000 rating or higher,81412,2400,0,46032,0,1
+81414,Earn Conquest While Combatant (H) - Saddle (16),0,0,4,0,0,1
+81415,Win Rated PvP matches while at 1000 rating or higher,81414,2400,0,46033,0,1
+81416,Earn Conquest While Combatant (H) - Saddle (17),0,0,4,0,0,1
+81417,Win Rated PvP matches while at 1000 rating or higher,81416,2400,0,46034,0,1
+81418,Earn Conquest While Combatant (H) - Saddle (18),0,0,4,0,0,1
+81419,Win Rated PvP matches while at 1000 rating or higher,81418,2400,0,46035,0,1
+81420,Earn Conquest While Combatant (H) - Saddle (19),0,0,4,0,0,1
+81421,Win Rated PvP matches while at 1000 rating or higher,81420,2400,0,46036,0,1
+81422,Earn Conquest While Combatant (H) - Saddle (20),0,0,4,0,0,1
+81423,Win Rated PvP matches while at 1000 rating or higher,81422,2400,0,46037,0,1
 81424,,81255,33,0,46038,0,1
 81425,,81255,10,0,46039,1,1
 81426,,81255,5,0,46040,2,1
@@ -64348,7 +64346,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 81484,Figurine Found,81476,0,0,46111,7,16
 81485,Figurine Found,81476,0,0,46112,8,16
 81486,Figurine Found,81476,0,0,46113,9,16
-81487,,81134,0,0,46114,16,32
+81487,,81134,0,0,46114,15,32
 81488,,71465,0,0,45925,3,32
 81489,,71465,0,0,46115,4,32
 81495,New Criteria Tree,0,0,4,0,0,0
@@ -64901,48 +64899,48 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 82410,,82407,1,0,46624,2,0
 82411,,82407,1,0,46625,3,0
 82412,,82407,1,0,46626,4,0
-82413,Earn Conquest in Battle for Azeroth Season 4 (A) - Saddle (30),0,0,4,0,0,1
-82414,Win Rated PvP matches while at Combatant or higher,82413,2400,0,46647,0,1
-82415,Earn Conquest in Battle for Azeroth Season 4 (A) - Saddle (29),0,0,4,0,0,1
-82416,Win Rated PvP matches while at Combatant or higher,82415,2400,0,46645,0,1
-82417,Earn Conquest in Battle for Azeroth Season 4 (A) - Saddle (28),0,0,4,0,0,1
-82418,Win Rated PvP matches while at Combatant or higher,82417,2400,0,46643,0,1
-82419,Earn Conquest in Battle for Azeroth Season 4 (A) - Saddle (27),0,0,4,0,0,1
-82420,Win Rated PvP matches while at Combatant or higher,82419,2400,0,46641,0,1
-82421,Earn Conquest in Battle for Azeroth Season 4 (A) - Saddle (26),0,0,4,0,0,1
-82422,Win Rated PvP matches while at Combatant or higher,82421,2400,0,46639,0,1
-82423,Earn Conquest in Battle for Azeroth Season 4 (A) - Saddle (25),0,0,4,0,0,1
-82424,Win Rated PvP matches while at Combatant or higher,82423,2400,0,46637,0,1
-82425,Earn Conquest in Battle for Azeroth Season 4 (A) - Saddle (24),0,0,4,0,0,1
-82426,Win Rated PvP matches while at Combatant or higher,82425,2400,0,46635,0,1
-82427,Earn Conquest in Battle for Azeroth Season 4 (A) - Saddle (23),0,0,4,0,0,1
-82428,Win Rated PvP matches while at Combatant or higher,82427,2400,0,46633,0,1
-82429,Earn Conquest in Battle for Azeroth Season 4 (A) - Saddle (22),0,0,4,0,0,1
-82430,Win Rated PvP matches while at Combatant or higher,82429,2400,0,46631,0,1
-82431,Earn Conquest in Battle for Azeroth Season 4 (A) - Saddle (21),0,0,4,0,0,1
-82432,Win Rated PvP matches while at Combatant or higher,82431,2400,0,46629,0,1
+82413,Earn Conquest While Combatant (A) - Saddle (30),0,0,4,0,0,1
+82414,Win Rated PvP matches while at 1000 rating or higher,82413,2400,0,46647,0,1
+82415,Earn Conquest While Combatant (A) - Saddle (29),0,0,4,0,0,1
+82416,Win Rated PvP matches while at 1000 rating or higher,82415,2400,0,46645,0,1
+82417,Earn Conquest While Combatant (A) - Saddle (28),0,0,4,0,0,1
+82418,Win Rated PvP matches while at 1000 rating or higher,82417,2400,0,46643,0,1
+82419,Earn Conquest While Combatant (A) - Saddle (27),0,0,4,0,0,1
+82420,Win Rated PvP matches while at 1000 rating or higher,82419,2400,0,46641,0,1
+82421,Earn Conquest While Combatant (A) - Saddle (26),0,0,4,0,0,1
+82422,Win Rated PvP matches while at 1000 rating or higher,82421,2400,0,46639,0,1
+82423,Earn Conquest While Combatant (A) - Saddle (25),0,0,4,0,0,1
+82424,Win Rated PvP matches while at 1000 rating or higher,82423,2400,0,46637,0,1
+82425,Earn Conquest While Combatant (A) - Saddle (24),0,0,4,0,0,1
+82426,Win Rated PvP matches while at 1000 rating or higher,82425,2400,0,46635,0,1
+82427,Earn Conquest While Combatant (A) - Saddle (23),0,0,4,0,0,1
+82428,Win Rated PvP matches while at 1000 rating or higher,82427,2400,0,46633,0,1
+82429,Earn Conquest While Combatant (A) - Saddle (22),0,0,4,0,0,1
+82430,Win Rated PvP matches while at 1000 rating or higher,82429,2400,0,46631,0,1
+82431,Earn Conquest While Combatant (A) - Saddle (21),0,0,4,0,0,1
+82432,Win Rated PvP matches while at 1000 rating or higher,82431,2400,0,46629,0,1
 82433,Earn Conquest in Battle for Azeroth Season 4 (A) - Mount,0,0,4,0,0,1
 82434,Win Rated PvP matches during Season 4 while at Combatant or higher,82433,2400,0,46627,0,1
-82435,Earn Conquest in Battle for Azeroth Season 4 (H) - Saddle (30),0,0,4,0,0,1
-82436,Win Rated PvP matches while at Combatant or higher,82435,2400,0,46648,0,1
-82437,Earn Conquest in Battle for Azeroth Season 4 (H) - Saddle (29),0,0,4,0,0,1
-82438,Win Rated PvP matches while at Combatant or higher,82437,2400,0,46646,0,1
-82439,Earn Conquest in Battle for Azeroth Season 4 (H) - Saddle (28),0,0,4,0,0,1
-82440,Win Rated PvP matches while at Combatant or higher,82439,2400,0,46644,0,1
-82441,Earn Conquest in Battle for Azeroth Season 4 (H) - Saddle (27),0,0,4,0,0,1
-82442,Win Rated PvP matches while at Combatant or higher,82441,2400,0,46642,0,1
-82443,Earn Conquest in Battle for Azeroth Season 4 (H) - Saddle (26),0,0,4,0,0,1
-82444,Win Rated PvP matches while at Combatant or higher,82443,2400,0,46640,0,1
-82445,Earn Conquest in Battle for Azeroth Season 4 (H) - Saddle (25),0,0,4,0,0,1
-82446,Win Rated PvP matches while at Combatant or higher,82445,2400,0,46638,0,1
-82447,Earn Conquest in Battle for Azeroth Season 4 (H) - Saddle (24),0,0,4,0,0,1
-82448,Win Rated PvP matches while at Combatant or higher,82447,2400,0,46636,0,1
-82449,Earn Conquest in Battle for Azeroth Season 4 (H) - Saddle (23),0,0,4,0,0,1
-82450,Win Rated PvP matches while at Combatant or higher,82449,2400,0,46634,0,1
-82451,Earn Conquest in Battle for Azeroth Season 4 (H) - Saddle (22),0,0,4,0,0,1
-82452,Win Rated PvP matches while at Combatant or higher,82451,2400,0,46632,0,1
-82453,Earn Conquest in Battle for Azeroth Season 4 (H) - Saddle (21),0,0,4,0,0,1
-82454,Win Rated PvP matches while at Combatant or higher,82453,2400,0,46630,0,1
+82435,Earn Conquest While Combatant (H) - Saddle (30),0,0,4,0,0,1
+82436,Win Rated PvP matches while at 1000 rating or higher,82435,2400,0,46648,0,1
+82437,Earn Conquest While Combatant (H) - Saddle (29),0,0,4,0,0,1
+82438,Win Rated PvP matches while at 1000 rating or higher,82437,2400,0,46646,0,1
+82439,Earn Conquest While Combatant (H) - Saddle (28),0,0,4,0,0,1
+82440,Win Rated PvP matches while at 1000 rating or higher,82439,2400,0,46644,0,1
+82441,Earn Conquest While Combatant (H) - Saddle (27),0,0,4,0,0,1
+82442,Win Rated PvP matches while at 1000 rating or higher,82441,2400,0,46642,0,1
+82443,Earn Conquest While Combatant (H) - Saddle (26),0,0,4,0,0,1
+82444,Win Rated PvP matches while at 1000 rating or higher,82443,2400,0,46640,0,1
+82445,Earn Conquest While Combatant (H) - Saddle (25),0,0,4,0,0,1
+82446,Win Rated PvP matches while at 1000 rating or higher,82445,2400,0,46638,0,1
+82447,Earn Conquest While Combatant (H) - Saddle (24),0,0,4,0,0,1
+82448,Win Rated PvP matches while at 1000 rating or higher,82447,2400,0,46636,0,1
+82449,Earn Conquest While Combatant (H) - Saddle (23),0,0,4,0,0,1
+82450,Win Rated PvP matches while at 1000 rating or higher,82449,2400,0,46634,0,1
+82451,Earn Conquest While Combatant (H) - Saddle (22),0,0,4,0,0,1
+82452,Win Rated PvP matches while at 1000 rating or higher,82451,2400,0,46632,0,1
+82453,Earn Conquest While Combatant (H) - Saddle (21),0,0,4,0,0,1
+82454,Win Rated PvP matches while at 1000 rating or higher,82453,2400,0,46630,0,1
 82455,Earn Conquest in Battle for Azeroth Season 4 (H) - Mount,0,0,4,0,0,0
 82456,Win Rated PvP matches during Season 4 while at Combatant or higher,82455,2400,0,46627,0,1
 82457,8.3 Visions - Stormwind - Trade District - Defeat the Slavemaster,0,0,4,0,0,4096
@@ -65256,24 +65254,24 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 82785,,82763,5,0,46771,24,0
 82786,,82763,3,0,46772,25,0
 82787,,82763,4,0,46773,26,0
-82788,Enemy Forces,82541,160,9,0,4,0
-82789,RED Version,82788,3,0,46774,4,0
-82790,RED Version,82788,3,0,46775,6,0
-82791,RED version,82788,3,0,46776,8,0
-82792,,82788,6,0,46777,9,0
-82793,,82788,4,0,46778,10,0
+82788,Enemy Forces,82541,374,9,0,4,0
+82789,RED Version,82788,4,0,46774,4,0
+82790,RED Version,82788,4,0,46775,6,0
+82791,RED version,82788,4,0,46776,8,0
+82792,,82788,10,0,46777,9,0
+82793,,82788,7,0,46778,12,0
 82794,,82788,1,0,46779,11,0
-82795,,82788,3,0,46780,12,0
-82796,,82788,3,0,46781,13,0
-82797,,82788,3,0,46782,14,0
-82798,,82788,6,0,46783,15,0
-82799,,82788,9,0,46784,16,0
-82800,,82788,3,0,46785,17,0
-82801,,82788,3,0,46786,18,0
-82802,,82788,5,0,46787,19,0
-82803,,82788,3,0,46788,3,0
-82804,,82788,3,0,46789,5,0
-82805,,82788,3,0,46790,7,0
+82795,,82788,5,0,46780,13,0
+82796,,82788,6,0,46781,14,0
+82797,,82788,5,0,46782,15,0
+82798,,82788,10,0,46783,16,0
+82799,,82788,20,0,46784,17,0
+82800,,82788,4,0,46785,18,0
+82801,,82788,4,0,46786,19,0
+82802,,82788,12,0,46787,20,0
+82803,,82788,4,0,46788,3,0
+82804,,82788,4,0,46789,5,0
+82805,,82788,4,0,46790,7,0
 82806,Mechagnome Unlockable,0,0,4,0,0,0
 82808,Vulpera Unlockable,0,0,4,0,0,0
 82810,Horrific Visions of N'zoth Meta Achievement,0,0,4,0,0,0
@@ -65612,10 +65610,10 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 83168,,82763,4,0,46950,28,0
 83169,,82763,4,0,46951,29,0
 83170,,82763,4,0,46952,30,0
-83171,,82788,4,0,46949,20,0
-83172,,82788,4,0,46950,21,0
-83173,,82788,4,0,46951,22,0
-83174,,82788,4,0,46952,23,0
+83171,,82788,4,0,46949,21,0
+83172,,82788,4,0,46950,22,0
+83173,,82788,4,0,46951,23,0
+83174,,82788,4,0,46952,24,0
 83175,Achievement - Mythic Wrathion,0,0,4,0,0,0
 83176,,83175,1,0,46991,0,2
 83179,Achievement - Mythic Maut,0,0,4,0,0,0
@@ -68720,25 +68718,25 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 87343,De Other Side,87336,1,0,49309,6,0
 87344,Sanguine Depths,87336,1,0,49310,7,0
 87345,Earn Conquest While Combatant (A) - Saddle (31),0,0,4,0,0,1
-87346,Win Rated PvP matches while at Combatant or higher,87345,2400,0,49328,0,1
+87346,Win Rated PvP matches while at 1000 rating or higher,87345,2400,0,49328,0,1
 87347,Earn Conquest While Combatant (A) - Saddle (32),0,0,4,0,0,1
-87348,Win Rated PvP matches while at Combatant or higher,87347,2400,0,49329,0,1
+87348,Win Rated PvP matches while at 1000 rating or higher,87347,2400,0,49329,0,1
 87349,Earn Conquest While Combatant (A) - Saddle (33),0,0,4,0,0,1
-87350,Win Rated PvP matches while at Combatant or higher,87349,2400,0,49331,0,1
+87350,Win Rated PvP matches while at 1000 rating or higher,87349,2400,0,49331,0,1
 87351,Earn Conquest While Combatant (A) - Saddle (34),0,0,4,0,0,1
-87352,Win Rated PvP matches while at Combatant or higher,87351,2400,0,49332,0,1
+87352,Win Rated PvP matches while at 1000 rating or higher,87351,2400,0,49332,0,1
 87353,Earn Conquest While Combatant (A) - Saddle (35),0,0,4,0,0,1
-87354,Win Rated PvP matches while at Combatant or higher,87353,2400,0,49333,0,1
+87354,Win Rated PvP matches while at 1000 rating or higher,87353,2400,0,49333,0,1
 87355,Earn Conquest While Combatant (H) - Saddle (31),0,0,4,0,0,1
-87356,Win Rated PvP matches while at Combatant or higher,87355,2400,0,49340,0,1
+87356,Win Rated PvP matches while at 1000 rating or higher,87355,2400,0,49340,0,1
 87357,Earn Conquest While Combatant (H) - Saddle (32),0,0,4,0,0,1
-87358,Win Rated PvP matches while at Combatant or higher,87357,2400,0,49341,0,1
+87358,Win Rated PvP matches while at 1000 rating or higher,87357,2400,0,49341,0,1
 87359,Earn Conquest While Combatant (H) - Saddle (33),0,0,4,0,0,1
-87360,Win Rated PvP matches while at Combatant or higher,87359,2400,0,49342,0,1
+87360,Win Rated PvP matches while at 1000 rating or higher,87359,2400,0,49342,0,1
 87361,Earn Conquest While Combatant (H) - Saddle (34),0,0,4,0,0,1
-87362,Win Rated PvP matches while at Combatant or higher,87361,2400,0,49343,0,1
+87362,Win Rated PvP matches while at 1000 rating or higher,87361,2400,0,49343,0,1
 87363,Earn Conquest While Combatant (H) - Saddle (35),0,0,4,0,0,1
-87364,Win Rated PvP matches while at Combatant or higher,87363,2400,0,49344,0,1
+87364,Win Rated PvP matches while at 1000 rating or higher,87363,2400,0,49344,0,1
 87365,Picking Up the Pieces,0,0,4,0,0,0
 87366,Absorb 3 Shards of Halkas.,87365,1,0,49311,0,0
 87367,Ghostly Contenders Defeated,0,0,4,0,0,0
@@ -74670,6 +74668,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 95338,Aid the Enlightened of Pilgrim's Grace and unlock a protoform synthesis forge.,95337,0,0,53335,0,0
 95339,PH,0,0,4,0,0,0
 95340,,95339,1,0,53336,0,2
+95341,Owner of the Survey Bot promotional pet,0,0,4,0,0,0
+95342,,95341,1,0,53337,0,2
 95343,Cypher System - Talent Unlocked - Aealic,0,0,4,0,0,8194
 95344,,95343,1,0,53032,0,2
 95345,Cypher System - Talent Unlocked - Dealic,0,0,4,0,0,8194
@@ -74911,8 +74911,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 133981,,82763,4,0,50191,0,0
 133982,,82763,34,0,50192,1,0
 133983,,82763,9999,0,48468,2,0
-133984,,82788,2,0,50191,0,0
-133985,,82788,16,0,50192,1,0
+133984,,82788,4,0,50191,0,0
+133985,,82788,38,0,50192,1,0
 133986,,82788,9999,0,48468,2,0
 133987,,57836,5,0,50191,0,0
 133988,,57836,42,0,50192,1,0
@@ -76657,8 +76657,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 137341,,94234,18,0,53732,17,0
 137342,,82763,7,0,54607,31,0
 137343,,82763,21,0,53732,32,0
-137344,,82788,3,0,54607,24,0
-137345,,82788,9,0,53732,25,0
+137344,,82788,3,0,54607,25,0
+137345,,82788,9,0,53732,26,0
 137346,,57794,6,0,54607,18,0
 137347,,57794,18,0,53732,19,0
 137348,,57836,12,0,53732,39,0
@@ -79968,9 +79968,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 141914,,139865,0,0,57335,90,0
 141915,,140481,0,0,57336,45,0
 141916,Earn Conquest While Combatant (A) - Saddle (36),0,0,4,0,0,1
-141917,Win Rated PvP matches while at Combatant or higher,141916,2400,0,57337,0,1
+141917,Win Rated PvP matches while at 1000 rating or higher,141916,2400,0,57337,0,1
 141918,Earn Conquest While Combatant (H) - Saddle (36),0,0,4,0,0,1
-141919,Win Rated PvP matches while at Combatant or higher,141918,2400,0,57338,0,1
+141919,Win Rated PvP matches while at 1000 rating or higher,141918,2400,0,57338,0,1
 141920,Achievement - Ahead of the Curve: Raszageth the Storm-Eater,0,1,8,0,0,0
 141921,,141920,1,0,57339,0,2
 141922,Achievement - Cutting Edge: Raszageth the Storm-Eater,0,1,8,0,0,0
@@ -82079,9 +82079,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 144542,10.1 Upgrade System - Tutorial - Loamm - Q03 - 2. upgrade the trinket or explorer equipment (SH),0,1,5,0,0,4096
 144543,Zaqali forces defeated,145278,1,0,59067,1,1
 144544,Earn Conquest While Combatant (A) - Saddle (37),0,0,4,0,0,1
-144545,Win Rated PvP matches while at Combatant or higher,144544,2400,0,59068,0,1
+144545,Win Rated PvP matches while at 1000 rating or higher,144544,2400,0,59068,0,1
 144546,Earn Conquest While Combatant (H) - Saddle (37),0,0,4,0,0,1
-144547,Win Rated PvP matches while at Combatant or higher,144546,2400,0,59070,0,1
+144547,Win Rated PvP matches while at 1000 rating or higher,144546,2400,0,59070,0,1
 144548,Earn Rated Participation Currency in Dragonflight Season 2 (A) - Mount,0,0,4,0,0,0
 144549,Win Rated PvP matches during Dragonflight Season 2 while at 1000 rating or higher,144548,2400,0,59071,0,1
 144550,10.1 Upgrade System - Tutorial - Loamm - Q03 - 1. have the omni trinket (SH),0,1,5,0,0,4096
@@ -82653,8 +82653,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 145203,,145198,0,0,59424,4,0
 145204,,145198,0,0,59425,5,0
 145205,Achievement: Dragonflight Season 2 Master,0,1,8,0,0,0
-145206,,145205,0,0,69948,0,32
-145208,,145205,0,0,59428,1,32
+145208,,145205,0,0,59428,0,32
 145211,Test Players Killed,0,0,4,0,0,1
 145212,Players killed,145211,5,0,59430,0,1
 145213,10.1 Underground - Campaign - Ch 1 - Q05 - The Throughway - S1 - Sabellian Casts Buff (JSS),0,0,4,0,0,0
@@ -84245,7 +84244,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 147081,,147080,1,0,60327,0,0
 147085,"Defeat Tyr, the Infinite Keeper after closing 18 Time Rifts in Dawn of the Infinite on Mythic difficulty.",0,0,4,0,0,0
 147086,Close 18 Time Rifts.,147085,1,0,60329,0,0
-147087,,145205,0,0,59427,2,32
+147087,,145205,0,0,59427,1,32
 147088,Achievement - Keystone 15: Dragonflight Dungeons Season 2 - Character-Specific,0,0,4,0,0,2
 147089,Rating Requirement,147088,2000,0,59301,0,2
 147090,Unstable Time Rift closed,146957,1,0,60330,0,0
@@ -87497,9 +87496,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 150979,,150964,1,0,62811,13,0
 150980,,150964,15,0,62812,14,0
 150981,Earn Conquest While Combatant (A) - Saddle (38),0,0,4,0,0,1
-150982,Win Rated PvP matches while at Combatant or higher,150981,2400,0,62769,0,1
+150982,Win Rated PvP matches while at 1000 rating or higher,150981,2400,0,62769,0,1
 150983,Earn Conquest While Combatant (H) - Saddle (38),0,0,4,0,0,1
-150984,Win Rated PvP matches while at Combatant or higher,150983,2400,0,62770,0,1
+150984,Win Rated PvP matches while at 1000 rating or higher,150983,2400,0,62770,0,1
 150991,Defeat the murlocs!,0,0,4,0,0,0
 150992,Memories defeated,150991,5,0,62772,0,1
 150993,"Rescue the following moonkin hatchlings during the ""Claws For Concern"" quest in the Whorlwing Basin.",0,0,4,0,0,0
@@ -87617,7 +87616,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 151174,Kriegval's Helm recovered,151173,0,0,62877,0,32
 151175,11.0 Delves - Kobolds01 - V01 - - Kobold Boss Slain (STM),0,0,4,0,0,0
 151176,Kobold Boss Slain,151175,0,0,62878,0,32
-151177,Enchanted candle acquired,151166,0,0,62401,0,32
+151177,Bundles of candles acquired and used,151166,0,0,62401,0,32
 151178,,151142,1,0,62879,11,0
 151179,,151142,1,0,62880,12,0
 151182,,138588,1,0,62881,11,0
@@ -88058,8 +88057,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 151652,Amirdrassil pondered,0,0,4,0,0,8193
 151653,,151652,1,0,63219,0,1
 151654,Achievement: Dragonflight Season 3 Master,0,1,8,0,0,0
-151655,,151654,0,0,69947,0,32
-151656,,151654,0,0,63221,1,32
+151656,,151654,0,0,63221,0,32
 151657,,154278,0,0,63222,1,32
 151658,Creatures killed,0,0,4,0,0,1
 151659,Creatures killed,151658,30,0,63223,0,1
@@ -88101,7 +88099,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 151709,11.0 Delves - Kobolds01 - V01 - Test Event (STM),0,0,4,0,0,0
 151710,Test Event,151709,0,0,63256,0,32
 151711,11.0 Delves - Kobolds01 - V02 - Magic Candle acquired (STM),0,0,4,0,0,0
-151712,Enchanted Candle acquired,151711,0,0,62401,0,32
+151712,Bundles of candles acquired and used,151711,0,0,62401,0,32
 151714,11.0 Delves - Kobolds01 - V02 - Defeat T3s (STM),0,0,4,0,0,0
 151715,Defeat T3s,151714,4,0,63260,0,32
 151716,11.0 Delves - Kobolds01 - V02 - Go to Treasure Room (STM),0,0,4,0,0,0
@@ -88310,7 +88308,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 152058,Defeat the remembered leper gnomes,152057,1,0,63441,0,2
 152059,11.0 Delves - Kobolds01 - V03 - Magic in the Air (STM),0,0,4,0,0,0
 152060,Speak to Dagran Thaurissan II,152059,0,0,63442,0,32
-152061,Enchanted Candle acquired,152059,0,0,62401,1,32
+152061,Bundles of candles acquired and used,152059,0,0,62401,1,32
 152062,11.0 Delves - Kobolds01 - V03 - Progress Bar + Candles - (STM),0,100,4,0,0,1
 152069,Suspicious Candles collected,152062,10,0,63443,0,32
 152070,11.0 Delves - Kobolds01 - V03 - Defeat Boss,0,1,4,0,0,0
@@ -88373,7 +88371,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 152129,,149505,1,0,63491,29,0
 152130,11.0 Delves - Kobolds01 - V02 - Speak with trapped worker (STM),0,0,4,0,0,0
 152131,Speak with Foreman Bruknar,152130,0,0,63492,0,32
-152132,Air Totem acquired,152130,0,0,62401,1,32
+152132,Air Totem Kit acquired and used,152130,0,0,62401,1,32
 152133,11.0 Delves - Kobolds02 - V02 - Worker Rescue (STM),0,0,4,0,0,0
 152134,Workers rescued,152133,5,0,63493,0,32
 152135,11.0 Delves - Kobolds02 - V02 - Kobold leader slain (STM),0,0,4,0,0,0
@@ -88504,11 +88502,11 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 153126,,153125,1,0,64437,0,0
 153127,11.0 Delves - Kobolds02 - V02 - Earthen Engineers consulted (STM),0,0,4,0,0,0
 153128,Speak with Foreman Bruknar,153127,0,0,64438,0,32
-153130,11.0 Delves - Kobolds02 - V02 - Stompin' Boots used near kobold corpse (STM),0,0,4,0,0,0
-153132,Lost Gear found,153130,50,0,64440,1,32
+153130,11.0 Delves - Kobolds02 - V02 - Stompin' Boots used near kobold corpse (STM),0,1,8,0,0,0
+153132,Kobold invaders slain,153130,190,9,0,0,32
 153133,11.0 Delves - Kobolds02 - V03 - Stomping Shoes obtained (STM),0,0,4,0,0,0
 153134,Stomping Shoes obtained,153133,0,0,64441,0,32
-153135,Stomping Shoes used near a Kobold Corpse,153130,1,0,64440,0,48
+153135,Repel Nerubian Invasion (T1),153132,5,0,62703,0,1
 153136,11.0 Delves - Kobolds02 - V03 - Boss Fight - (STM),0,0,4,0,0,0
 153137,Waxface defeated,153136,0,0,63494,0,32
 153139,Dream Badger,149799,0,0,64443,8,0
@@ -88660,8 +88658,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 153331,Level first character to 80.,0,2,4,0,0,0
 153332,,153331,80,0,64511,0,2
 153333,11.0 Delves - Kobolds02 - V02 - Goblin corpse investigated (STM),0,0,4,0,0,0
-153334,Goblin corpse investigated,153333,0,0,64509,0,32
-153335,11.0 Delves - Kobolds02 - V02 - Lost goblins found (STM),0,0,4,0,0,0
+153334,Goblin corpse investigated,153333,0,0,103297,0,32
+153335,11.0 Delves - Kobolds02 - V02 - Repair Kits found (STM),0,0,4,0,0,0
 153336,Repair kits found,153335,6,0,64510,0,32
 153337,11.0 Delves - Kobolds02 - V02 - Kobyss boss slain (STM),0,0,4,0,0,0
 153338,Undersea Abomination defeated,153337,0,0,64738,0,32
@@ -88903,7 +88901,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 153599,11.0 Z1 - Theater - Scenario - (KEF)/PRK - Punt Critters (KEF),0,1,4,0,0,0
 153600,Critters punted,153599,8,0,64669,0,0
 153602,11.0 Delves - Kobyss02 - V01 - Speak to Niffen (STM),0,0,4,0,0,0
-153603,Speak to Niffen,153602,0,0,64671,0,32
+153603,Speak to Vetiverian,153602,0,0,64671,0,32
 153604,11.0 Delves - Kobyss02 - V01 - Niffen rescued (STM),0,1,8,0,0,0
 153605,Niffen rescued,153606,5,0,64672,0,32
 153606,Unnamed Branch,153604,0,4,0,0,0
@@ -89010,9 +89008,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 153797,Defeat Anub'ikkaj,153795,1,0,64772,1,0
 153798,Defeat Rasha'nan,153795,1,0,64773,2,0
 153799,Earn Conquest While Combatant (A) - Saddle (39),0,0,4,0,0,1
-153800,Win Rated PvP matches while at Combatant or higher,153799,2400,0,64778,0,1
+153800,Win Rated PvP matches while at 1000 rating or higher,153799,2400,0,64778,0,1
 153801,Earn Conquest While Combatant (H) - Saddle (39),0,0,4,0,0,1
-153802,Win Rated PvP matches while at Combatant or higher,153801,2400,0,64778,0,1
+153802,Win Rated PvP matches while at 1000 rating or higher,153801,2400,0,64778,0,1
 153803,11.0 Z02 - Campaign - Ch01 - Q04 - Scenario - Steal Candle Crown - Enter Scenario (DTM),0,0,4,0,0,4096
 153804,,153803,1,0,64781,0,0
 153805,11.0 Z1 - Theater - Scenario - (KEF)/PRK - Duel Play Act 4: Kill Boss General L (KEF),0,0,4,0,0,0
@@ -89436,7 +89434,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 154275,,154274,0,0,65043,0,0
 154276,11.0 Z1 - Theater - Scenario - (KEF)/PRK - Pick Flowers (RPS),0,0,4,0,0,0
 154277,Sprightly Wildflowers picked,154276,5,0,65044,0,0
-154278,KSM and reached 2k+ rating on current character,151654,0,4,0,2,0
+154278,KSM and reached 2k+ rating on current character,151654,0,4,0,1,0
 154279,Rating Requirement,154278,2000,0,62026,0,2
 154288,Fortune discovered,0,0,4,0,0,8193
 154289,,154288,0,0,65067,0,0
@@ -89764,10 +89762,10 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 154635,S4 Myth,154629,1,0,65316,5,0
 154636,S4 Awakened,154629,1,0,65317,6,0
 154637,Destroy the Web Wall,154541,1,0,65318,2,0
-154638,Webbing cleared with flamethrower,154616,100,9,0,0,0
+154638,Eggs or webbing cleared with flamethrower,154616,100,9,0,0,0
 154639,Webbing cleared,154638,2,0,65319,0,1
 154640,Webbing cleared,154638,4,0,65320,1,1
-154641,Webbing cleared,154638,5,0,65321,2,1
+154641,Webbing or eggs cleared,154638,5,0,65321,2,1
 154643,11.0 Delves - Nerubians01 - V02 - - Flamethrower Torch acquired (STM),0,0,4,0,0,0
 154644,Flamethrower Torch acquired,154643,0,0,65323,0,32
 154645,11.0 Delves - Nerubians01 - V03 - - Speak with Private Rathling (STM),0,0,4,0,0,0
@@ -89808,15 +89806,15 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 154681,Shadow Word: Ruin,154661,1,0,65346,20,16
 154682,Scarlet Crusader,154661,1,0,65347,19,16
 154683,11.0 Delves - Nerubians01 - V04 - - Speak with Dark Iron Dwarf (STM),0,0,4,0,0,0
-154684,Speak with Dark Iron Dwarf,154683,0,0,65348,0,32
+154684,Speak with Maklin Drillstab,154683,0,0,65348,0,32
 154685,11.0 Delves - Nerubians01 - V04 - - Mole Machine boarded (STM),0,0,4,0,0,0
 154686,Mole Machine boarded,154685,0,0,65350,0,32
 154693,11.0 Delves - Nerubians01 - V04 - - Ask Dark Iron Dwarf where the treasure is (STM),0,0,4,0,0,0
-154694,Ask Dark Iron Dwarf where the treasure is,154693,0,0,65352,0,32
+154694,Ask Maklin Drillstab where the treasure is,154693,0,0,65352,0,32
 154695,11.0 Delves - Nerubians01 - V04 - - Treasure clues found (STM),0,0,4,0,0,0
-154696,Lost treasures found,154695,8,0,65355,1,32
-154697,Nerubian Threadcallers slain,154695,3,0,65354,0,32
-154706,Mole machine used on suspicous coal pile,154695,8,0,65356,2,32
+154696,Lost Treasures found,154695,8,0,65355,1,32
+154697,Pea-brained Haulers slain,154695,3,0,65354,0,32
+154706,Mole machine used on Suspicious Coal Pile,154695,8,0,65356,2,32
 154707,11.0 Delves - Nerubians01 - V04 - - Explore further in the mines (STM),0,0,4,0,0,0
 154708,Look further in the mines for treasure,154707,0,0,65357,0,32
 154709,11.0 Delves - Nerubians01 - V04 - - Speak with Dark Iron Dwarf one more time (STM),0,0,4,0,0,0
@@ -90872,7 +90870,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 155891,11.0 Delves - Order of Night - V02 - - Raid leaders slain (STM),0,0,4,0,0,0
 155892,Cult Leaders slain,155891,0,0,66021,0,32
 155893,11.0 Delves - Order of Night - V03 - - Holy Flamethrower Torch obtained (STM),0,0,4,0,0,0
-155894,Signal Flare acquired,155893,0,0,66018,0,32
+155894,Symbol of Light acquired,155893,0,0,66018,0,32
 155895,11.0 Delves - Order of Night - V03 - - Groups of civilians rescued (STM),0,0,4,0,0,0
 155896,Captives rescued,155895,5,0,66019,0,32
 155897,11.0 Delves - Order of Night - V03 - - Puzzle on ship solved (STM),0,0,4,0,0,0
@@ -91839,7 +91837,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 157287,11.0 Delves - Z5 - V4 - Nerubians Slain Bar Fill - Supplies Collected 7/7 - (STM),0,0,4,0,0,0
 157288,Supplies collected,157287,7,0,66087,0,32
 157289,11.0 Dungeon - Priory of the Sacred Flame (Challenge),0,0,4,0,0,0
-157290,Boss 3 in Monastery Defeated,157289,1,0,66716,0,0
+157290,Captain Dailcry defeated,157289,1,0,71659,0,0
 157291,Reputation earned throughout Dragon Isles,0,3000,5,0,0,4096
 157292,,157291,1,0,66775,0,0
 157293,,157291,1,0,66776,1,0
@@ -91893,9 +91891,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 157342,High Inquisitor Whitemane,157316,0,0,66820,25,2
 157343,Darkmaster Gandling,157316,0,0,66821,26,2
 157345,11.0 Dungeon - The Rookery (Challenge),0,0,4,0,0,0
-157346,Boss 1 of Rookery Defeated,157345,1,0,64433,0,0
-157347,Boss 2 of Rookery defeated,157345,1,0,64434,1,0
-157348,Boss 3 of Rookery Defeated,157345,1,0,64435,2,0
+157346,Kyrioss Defeated,157345,1,0,64433,0,0
+157347,Stormguard Gorren Defeated,157345,1,0,64434,1,0
+157348,Voidstone Monstrosity Defeated,157345,1,0,64435,2,0
 157349,11.0 Dungeon - The Stonevault (Challenge),0,0,4,0,0,0
 157350,E.D.N.A. Defeated,157349,1,0,64427,0,0
 157351,Skarmorak Defeated,157349,1,0,64428,1,0
@@ -91911,27 +91909,27 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 157361,Anub'zekt Defeated,157359,1,0,65450,1,0
 157362,Ki'katal the Harvester Defeated,157359,1,0,66699,2,0
 157363,11.0 Dungeon - Darkflame Cleft (Challenge),0,0,4,0,0,0
-157364,Boss 1 of Darkflame Cleft Defeated,157363,1,0,63043,0,0
-157365,Boss 2 of Darkflame Cleft Defeated,157363,1,0,63044,1,0
-157366,Boss 3 of Darkflame Cleft Defeated,157363,1,0,63045,2,0
-157367,Boss 4 of Darkflame Cleft Defeated,157363,1,0,63046,3,0
+157364,Ol' Waxbeard defeated,157363,1,0,63043,0,0
+157365,Blazikon defeated,157363,1,0,63044,1,0
+157366,The Candle King defeated,157363,1,0,63045,2,0
+157367,The Darkness defeated,157363,1,0,63046,3,0
 157368,11.0 Dungeon - The Dawnbreaker (Challenge),0,0,4,0,0,0
 157369,Shadowcrown Defeated,157368,1,0,64771,0,0
 157370,Anub'ikkaj Defeated,157368,1,0,64772,1,0
 157371,Rasha'nan Defeated,157368,1,0,64773,2,0
 157372,11.0 Dungeon - Cinderbrew Meadery (Challenge),0,0,4,0,0,0
-157373,Boss 1 of Cinderbrew Meadery Defeated,157372,1,0,66129,0,0
-157374,Boss 2 of Cinderbrew Meadery Defeated,157372,1,0,66130,1,0
-157375,Boss 4 of Cinderbrew Meadery Defeated,157372,1,0,66131,2,0
-157376,Boss 4 of Cinderbrew Meadery Defeated,157372,1,0,66132,3,0
-157377,,157289,1,0,48468,1,0
-157378,,157345,1,0,48468,3,0
+157373,Brew Master Aldryr defeated,157372,1,0,66129,0,0
+157374,I'pa defeated,157372,1,0,66130,1,0
+157375,Benk Buzzbee defeated,157372,1,0,66131,2,0
+157376,Goldie Baronbottom defeated,157372,1,0,66132,3,0
+157377,Enemy Forces,157289,960,9,0,3,0
+157378,,205892,1,0,48468,0,0
 157379,,165987,1,0,48468,0,0
 157380,,161582,9999,0,48468,2,0
 157381,,166005,1,0,48468,2,0
-157382,,157363,1,0,48468,4,0
+157382,,169002,44,0,50192,0,0
 157383,,165970,1,0,48468,0,0
-157384,,157372,1,0,48468,4,0
+157384,,168965,1,0,48468,0,0
 157385,"Get a score of at least 30,000",0,0,4,0,0,0
 157386,"Get a score of at least 30,000",157385,30000,0,23873,0,2048
 157387,"Get a score of at least 25,000",0,0,4,0,0,0
@@ -92080,7 +92078,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 157544,,157543,0,0,66891,0,0
 157555,,157505,1,0,66853,1,2
 157556,,157505,1,0,66854,2,2
-157557,Air Totem acquired,153088,0,0,62401,1,32
+157557,Air Totem Kit acquired and used,153088,0,0,62401,1,32
 157560,11.0 Delves - Kobolds02 - V02 - Piles of treasure found 1/4 (STM),0,0,4,0,0,0
 157561,Piles of treasure found,157560,1,0,64426,0,32
 157562,11.0 Delves - Kobolds02 - V02 - Piles of treasure found 2/4 (STM),0,0,4,0,0,0
@@ -94740,7 +94738,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 162082,Win a match in Battleground Blitz in under 6 minutes.,162081,1,0,67424,0,2
 162083,,75708,20,0,71182,129,0
 162084,,75534,20,0,71182,129,2
-162085,Win a match in Battleground Blitz on each map in under 6 minutes.,0,1,4,0,0,0
+162085,Win a match in Battleground Blitz on each map in under 7 minutes.,0,1,4,0,0,0
 162086,Warsong Gulch,162085,1,0,67426,8,0
 162087,,72237,20,0,71182,129,2
 162088,,75880,20,0,71182,129,2
@@ -95624,7 +95622,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 163068,2200 rating,163067,2200,0,68101,0,2
 163069,Earn a 2400 personal rating in the 2v2 bracket of the arena in Season 38 (TWW 1),0,0,4,0,0,0
 163070,2400 rating,163069,2400,0,68101,0,2
-163071,Earn a 2600 personal rating in the 2v2 bracket of the arena in Season 37 (Dragonflight 4),0,0,4,0,0,0
+163071,Earn a 2600 personal rating in the 2v2 bracket of the arena in Season 38 (TWW 1),0,0,4,0,0,0
 163072,2600 rating,163071,2600,0,68101,0,2
 163073,Earn a 2800 personal rating in the 2v2 bracket of the arena in Season 38 (TWW 1),0,0,4,0,0,0
 163074,2800 rating,163073,2800,0,68101,0,2
@@ -95724,7 +95722,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 163171,,163168,2100,0,68117,2,2
 163172,,163168,2100,0,68098,3,2
 163173,,163168,2100,0,67375,4,2
-163174,Elite  The War Within Season 1,0,1,8,0,0,2
+163174,Elite The War Within Season 1,0,1,8,0,0,2
 163175,,163174,2400,0,68101,0,2
 163176,,163174,2400,0,68099,1,2
 163177,,163174,2400,0,68117,2,2
@@ -95937,7 +95935,6 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 163389,Travel underneath Ansurek's clutches.,163388,1,0,68261,0,0
 163390,11.0 Delves - Kobolds02 - V02 - Stompin' Shoes Example - (STM),0,0,4,0,0,0
 163391,Use Stomping Shoes to reactivate Air Purifier,163390,0,0,68262,0,32
-163392,Air Totem acquired,163390,0,0,62401,1,32
 163393,11.0 Delves - Kobolds02 - V02 - Stompin' Boots used 5/45 - (STM),0,0,4,0,0,0
 163394,Lost gear found,163393,5,0,64440,0,32
 163395,Bonus Event Weekend - Timewalking (Classic),0,5,5,0,0,4096
@@ -95976,8 +95973,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 163435,11.0 Z1 - Theater - Scenario - (KEF)/PRK - Cinderbrew Spill (PRK),0,0,4,0,0,0
 163436,Cinderbrew Spill cleansed,163435,3,0,68292,0,32
 163437,Complete the War Within delve achievements listed below.,0,0,4,0,0,0
-163438,,163437,0,0,68293,3,32
-163439,,163437,0,0,68294,4,32
+163438,,163437,0,0,68293,2,32
 163440,Complete the delves listed below on any difficulty.,0,0,4,0,0,0
 163441,Earthcrawl Mines,163440,1,0,68295,0,0
 163442,Fungal Folly,163440,1,0,68296,1,0
@@ -96036,9 +96032,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 163496,,163495,0,0,68346,0,0
 163497,Level a companion to level 30.,0,0,4,0,0,0
 163498,,163497,0,0,69398,0,0
-163500,,163437,0,0,68347,5,32
-163501,,163437,0,0,68348,6,32
-163502,,163437,0,0,68349,7,32
+163500,,163437,0,0,68347,3,32
+163501,,163437,0,0,68348,4,32
+163502,,163437,0,0,68349,5,32
 163503,Collect Lumber,0,100,9,0,0,0
 163504,Collect Lumber,163503,3,0,68350,0,1
 163505,11.0 Z1 - Theater - Scenario - (KEF)/PRK - Ink Spill (PRK),0,0,4,0,0,0
@@ -96057,7 +96053,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 163518,,163517,0,0,68355,0,0
 163519,11.0 Z1 - Theater - Scenario - (KEF)/PRK - Sweep Stage 2 (KEF),0,1,8,0,0,0
 163520,Stage swept,163519,1,0,68356,0,0
-163521,Defeat a strange disturbance within a War Within delve 10 times.,0,10,5,0,0,0
+163521,Defeat a strange disturbance in a delve 10 times.,0,10,5,0,0,0
 163536,,163521,1,0,69915,0,0
 163537,Obtain the Delver's Dirigible.,0,0,4,0,0,0
 163538,,163537,0,0,68373,0,0
@@ -96278,20 +96274,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 163810,,163807,1,0,68608,2,0
 163811,,163807,1,0,68609,3,0
 163812,,163807,1,0,68610,4,0
-163813,11.0 Z1 - Weekly Wrapper - Delves - Complete 3 of Any Delve - (POC),0,3,8,0,0,4096
-163814,,163813,1,0,68611,0,0
-163815,,163813,1,0,68612,1,0
-163816,,163813,1,0,68613,2,0
-163817,,163813,1,0,68614,3,0
-163818,,163813,1,0,68615,4,0
-163819,,163813,1,0,68616,5,0
-163820,,163813,1,0,68617,6,0
-163821,,163813,1,0,68618,7,0
-163822,,163813,1,0,68619,8,0
-163823,,163813,1,0,68620,9,0
-163824,,163813,1,0,68621,10,0
-163825,,163813,1,0,68622,11,0
-163826,,163813,1,0,68623,12,0
+163813,11.0 Z1 - Weekly Wrapper - Delves - Complete 3 of Any Delve - (POC),0,3,5,0,0,4096
+163814,,163813,3,0,103229,0,0
 163827,11.0 Z1 - Weekly Wrapper - Delves - 5 - Complete Z3 Delves - (POC),0,2,8,0,0,4096
 163828,,163827,1,0,68624,0,0
 163829,,163827,1,0,68625,1,0
@@ -96416,7 +96400,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 163955,Sathilga,163943,1,0,68692,9,0
 163957,Complete the Jade Forest campaign,154909,1,0,68693,1,1056
 163959,,154932,1,0,68694,1,1056
-163960,Delves completed,0,1,5,0,0,8193
+163960,Delve completed,0,1,5,0,0,8193
 163961,,163960,0,0,68695,0,0
 163962,Delves completed,0,10,5,0,0,8193
 163963,,163962,0,0,68695,0,0
@@ -96475,22 +96459,21 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 164018,Complete the Khaz Algar main story campaign,167990,0,0,69865,0,0
 164035,War Within Delves: Tier 3,0,0,4,0,0,0
 164036,,164035,0,0,68718,0,0
-164037,War Within Delves: Tier 4,0,0,4,0,0,0
+164037,War Within Delves: Tier 4 (Season 1),0,0,4,0,0,0
 164038,,164037,0,0,68719,0,0
-164039,War Within Delves: Tier 5,0,0,4,0,0,0
+164039,War Within Delves: Tier 5 (Season 1),0,0,4,0,0,0
 164040,,164039,0,0,68720,0,0
-164041,War Within Delves: Tier 6,0,0,4,0,0,0
+164041,War Within Delves: Tier 6 (Season 1),0,0,4,0,0,0
 164042,,164041,0,0,68721,0,0
-164043,War Within Delves: Tier 7,0,0,4,0,0,0
+164043,War Within Delves: Tier 7 (Season 1),0,0,4,0,0,0
 164044,,164043,0,0,68722,0,0
-164045,War Within Delves: Tier 8,0,0,4,0,0,0
+164045,War Within Delves: Tier 8 (Season 1),0,0,4,0,0,0
 164046,,164045,0,0,68723,0,0
-164047,War Within Delves: Tier 9,0,0,4,0,0,0
+164047,War Within Delves: Tier 9 (Season 1),0,0,4,0,0,0
 164048,,164047,0,0,68724,0,0
-164049,War Within Delves: Tier 10,0,0,4,0,0,0
+164049,War Within Delves: Tier 10 (Season 1),0,0,4,0,0,0
 164050,,164049,0,0,68725,0,0
-164051,,163437,0,0,68726,0,32
-164053,,163437,0,0,68728,8,32
+164053,Unnamed Branch,163437,1,8,0,7,0
 164054,Grottoscale Hatchling,163892,1,0,68731,6,0
 164055,Crackcreeper,163892,1,0,68729,7,0
 164056,Lava Slug,163892,1,0,68730,8,0
@@ -96572,20 +96555,20 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 164136,Forget Me Not,164133,1,0,68792,2,0
 164137,The Cruelty of Dornic,164133,1,0,68793,3,0
 164138,A Thraegar's Fate,164133,1,0,68794,4,0
-164139,Obtain all curios that are available for Brann Bronzebeard.,0,0,4,0,0,0
-164140,Relic of Sentience,164139,1,8,0,1,8192
-164141,Porcelain Arrowhead Idol,164139,1,8,0,2,8192
-164142,Relic of Sentience,164140,0,0,68806,0,16
-164143,Idol of the Earthmother,164148,0,0,68797,0,16
-164144,Relic of Sentience,164140,0,0,69473,3,16
-164145,Relic of Sentience,164140,0,0,70689,1,16
-164146,Idol of the Earthmother,164148,0,0,70692,2,16
-164147,Idol of the Earthmother,164148,0,0,69465,3,16
-164148,Idol of the Earthmother,164139,1,8,0,0,8192
-164149,Porcelain Arrowhead Idol,164141,0,0,68795,0,16
-164150,Relic of Sentience,164140,0,0,70690,2,16
-164151,Porcelain Arrowhead Idol,164141,0,0,70687,1,16
-164152,Idol of the Earthmother,164148,0,0,70691,1,16
+164139,Obtain all curios that are available for Brann Bronzebeard.,0,1,8,0,0,8194
+164140,Unbreakable Iron Idol,169483,0,0,68798,0,16
+164141,Unbreakable Iron Idol,169483,0,0,70719,4,0
+164142,Idol of the Earthmother,169256,0,0,69465,3,16
+164143,Lifeless Necrotic Relic,169263,0,0,68805,0,16
+164144,Idol of Final Will,169480,0,0,68801,0,16
+164145,Relicblood of Zekvir,169282,0,0,68807,0,16
+164146,Time Lost Relic,169273,0,0,70675,1,16
+164147,Streamlined Relic,169300,0,0,68800,0,16
+164148,Lifeless Necrotic Relic,169263,0,0,70671,1,16
+164149,Amorphous Relic,169491,0,0,70721,4,0
+164150,Brute Force Idol,169297,0,0,69464,3,16
+164151,Relic of Sentience,169303,1,8,0,2,8192
+164152,Olden Seeker Relic,169289,0,0,69471,3,16
 164154,11.0 Professions - Fishing - Mereldar Fishing Derby,0,0,4,0,0,0
 164155,Bloody Perch,164154,0,0,68809,0,16
 164156,Odd Glob of Wax earned,0,2,5,0,0,8193
@@ -97445,7 +97428,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 166267,,166266,0,0,69207,0,0
 166268,Complete 5 Delver's Call quests.,0,5,5,0,0,0
 166269,Level Brann Bronzebeard to level 25.,0,0,4,0,0,0
-166270,Obtain all curios that are available for Brann Bronzebeard at rank 4.,0,0,4,0,0,0
+166270,Obtain all curios that are available for Brann Bronzebeard at rank 4.,0,1,8,0,0,8194
 166271,,86741,0,0,69219,15,0
 166272,,86751,0,0,69220,15,0
 166289,Achievement - Season Master - War Within Season One,0,1,8,0,0,0
@@ -97555,7 +97538,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 166445,Kaja'Cola Machine,166437,1,0,69308,6,0
 166446,War Within Delves: Tier 2,0,0,4,0,0,0
 166447,,166446,0,0,69309,0,0
-166448,War Within Delves: Tier 11,0,0,4,0,0,0
+166448,War Within Delves: Tier 11 (Season 1),0,0,4,0,0,0
 166449,,166448,0,0,69310,0,0
 166450,Dislodged Blockage,166437,1,0,69311,7,0
 166451,Dusty Prospector's Chest,166437,1,0,69312,8,0
@@ -97616,7 +97599,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 166527,Page 27,152997,1,8,0,15,8192
 166528,,166527,1,0,64356,0,2
 166529,,166527,1,0,69343,1,0
-166531,Get killed by Zekvir.,0,0,4,0,0,0
+166531,Get killed by a Delve Nemesis.,0,0,4,0,0,0
 166532,,166531,0,0,69346,0,0
 166533,Total delves completed,0,1,4,0,0,0
 166534,,166533,0,0,68248,0,0
@@ -97701,7 +97684,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 166617,Defeat Rasha'nan,166614,1,0,64773,2,0
 166618,Kel'Thuzad defeated,163406,1,0,69511,0,0
 166619,,156591,1,0,69366,1,0
-166621,,163437,0,0,69368,1,32
+166621,,163437,0,0,69368,0,32
 166622,11.0 Achievement - Khaz Algar Explorer,0,0,4,0,0,0
 166623,Galan's Edict,166622,0,0,69369,0,16
 166624,Titan Console,166622,0,0,69370,1,16
@@ -97916,19 +97899,19 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 166865,Remembered Lich King,166864,1,0,69455,0,0
 166866,Remembered Onyxia,166864,1,0,69458,1,0
 166867,Remembered Firelord,166864,1,0,69457,2,0
-166877,Idol of Final Will,166888,0,0,69468,0,16
-166878,Relic of Sentience,166881,0,0,69473,0,16
-166879,Porcelain Arrowhead Idol,166884,0,0,69463,0,16
-166880,Brute Force Idol,166270,1,8,0,3,8192
-166881,Relic of Sentience,166270,1,8,0,1,8192
-166882,Unbreakable Iron Idol,166270,1,8,0,4,8192
-166883,Idol of the Earthmother,166270,1,8,0,0,8192
-166884,Porcelain Arrowhead Idol,166270,1,8,0,2,8192
-166885,Idol of the Earthmother,166883,0,0,69465,0,16
-166886,Brute Force Idol,166880,0,0,69464,0,16
-166887,Unbreakable Iron Idol,166882,0,0,69466,0,16
-166888,Idol of Final Will,166270,1,8,0,6,8192
-166889,Light-Touched Idol,169304,0,0,69467,0,16
+166877,Light-Touched Idol,166888,0,0,69467,0,16
+166878,Streamlined Relic,166883,1,8,0,4,8192
+166879,Olden Seeker Relic,169463,0,0,69471,0,16
+166880,Streamlined Relic,166878,0,0,70712,1,0
+166881,Brute Force Idol,166883,1,8,0,11,8192
+166882,Lifeless Necrotic Relic,166883,1,8,0,13,8192
+166883,Season 1 Curios,166270,1,4,0,0,8194
+166884,Streamlined Relic,166878,0,0,69475,0,16
+166885,Idol of the Earthmother,169476,0,0,69465,0,16
+166886,Relicblood of Zekvir,169479,0,0,70713,1,0
+166887,Relic of Sentience,169469,0,0,69473,0,16
+166888,Light-Touched Idol,166883,1,8,0,2,8192
+166889,Relic of Sentience,169469,0,0,70702,1,0
 166893,,164005,0,0,69478,0,0
 166894,,164006,0,0,69479,0,0
 166895,11.0 Z2 - Side Questlines,0,0,4,0,0,0
@@ -97949,7 +97932,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 166910,Revenge in the Rumbling Wastes,166895,0,0,69492,11,16
 166911,Tired of Rest,166895,0,0,69493,12,16
 166912,Frolicking in the Fetid Grotto,166895,0,0,69494,13,16
-166913,,163437,0,0,68727,2,32
+166913,,163437,0,0,68727,1,32
 166914,,164009,0,0,69495,0,0
 166915,,164010,0,0,69496,0,0
 166916,11.0 Z1 - Theater - Task - Train with Burkhalt - SJC,0,0,4,0,0,32
@@ -98303,6 +98286,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 167859,,167858,0,0,69755,0,0
 167860,A Radiant Echo,0,0,4,0,0,4096
 167861,,167860,0,0,69756,0,0
+167862,Drink Potion of Comprehend Rats,0,0,4,0,0,4096
+167863,,167862,1,0,69785,0,2
 167864,11.0 Z1 - Achievements - Theater Troupe - Plays Completed (KEF),0,0,4,0,0,0
 167865,The Rivals,167864,0,0,69798,0,0
 167866,The Wanderer,167864,0,0,69797,1,0
@@ -98317,6 +98302,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 167875,,166643,25,0,69806,0,0
 167876,Mislaid Curosities looted,0,100,4,0,0,0
 167877,,167876,0,0,69806,0,0
+167878,Drink the Potion,0,0,4,0,0,4096
+167879,Drink the Rat Potion,167878,0,0,69807,0,0
 167880,11.0 Z3 - Max-Level Campaign - Finale Scenario - Step 1 - N Logic - SJC,0,0,4,0,0,32
 167881,North Brazier Lit,167880,1,0,67322,0,0
 167882,Earn 1000 honor in Isle of Dorn while in War Mode. (Test),0,0,4,0,0,0
@@ -98351,7 +98338,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 167911,Puzzles completed,0,0,4,0,0,0
 167912,,167911,0,0,69832,0,0
 167913,Successfully complete 25 puzzles within a delve.,0,25,4,0,0,0
-167914,,167913,25,0,69832,0,0
+167914,,167913,25,0,69832,0,1
 167917,11.0.5 20th Anniversary - AQ Scenario - DRB - On The Move - HiveAshi to Floating (DRB),0,0,4,0,0,0
 167918,Follow Chromie,167917,1,0,69834,0,32
 167919,11.0.5 20th Anniversary - AQ Scenario - DRB - On The Move - Floating to Twilight (DRB),0,0,4,0,0,0
@@ -98439,6 +98426,12 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 168069,A Better Cabbage Smacker,162510,1,0,69909,7,0
 168070,,156126,0,0,69504,1,0
 168071,,156128,0,0,69504,1,0
+168072,[DNT] 11.1.5 Event - Scenario - Content - 001,0,1000,9,0,0,0
+168073,,168072,1,0,69910,0,0
+168074,[DNT] 11.1.5 Event - Scenario - Content - 002,0,1000,9,0,0,0
+168075,,168074,1,0,69912,0,0
+168076,[DNT] 11.1.5 Event - Scenario - Content - 003,0,1000,9,0,0,0
+168077,,168076,1,0,69913,0,0
 168078,11.0 Delves - Fungarians01 - V01 - Rescue Hostages,0,0,4,0,0,0
 168079,Scouts rescued,168078,5,0,62060,0,32
 168080,11.0 Delves - Fungarians 01 - V03 - Defeat Adventurers  - (STM),0,1,8,0,0,0
@@ -98475,6 +98468,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 168111,11.0 Delves - Evolved - V02 - - Crates of Black Blood destroyed (STM),0,0,4,0,0,0
 168112,Containers of Black Blood Destroyed,168111,100,9,0,0,1
 168113,Containers of Black Blood destroyed,168112,2,0,66438,0,32
+168114,[DNT] 11.1.5 Event - Scenario - Intro,0,0,4,0,0,0
+168115,[DNT] Scenario Intro - Criteria - Description,168114,1,0,69914,0,0
 168116,,163521,1,0,69916,1,0
 168119,,157129,1,0,69927,8,0
 168120,,157129,0,0,69928,9,0
@@ -98531,6 +98526,10 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 168176,,168174,0,0,69945,0,2
 168177,,157062,0,0,69946,0,2
 168179,,157062,0,0,64818,1,32
+168180,[DNT] Climax Phase Two Criteria,0,0,4,0,0,0
+168181,,168180,1,0,69949,0,0
+168182,11.1 Achievement - Sojourner of Undermine,0,0,4,0,0,0
+168183,The Highst,168182,0,0,69950,0,16
 168184,Don't Call Me Junior (Horde) (DNT) (Character specific copy),0,1,4,0,0,0
 168185,,168184,1,0,69951,0,0
 168186,Don't Call Me Junior (Alliance) (DNT) (Character specific copy),0,1,4,0,0,0
@@ -98542,6 +98541,11 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 168196,"Complete ""Mourning Rise""",168194,0,0,68162,1,0
 168197,"Complete ""Broken Tools""",168194,0,0,67728,2,0
 168198,"Complete ""Merrix and Steelvein""",168194,0,0,67055,3,16
+168199,Choose a cartel,0,1,8,0,0,4096
+168200,,168199,0,0,69954,0,0
+168201,,168199,0,0,69955,1,0
+168202,,168199,0,0,69956,2,0
+168203,,168199,0,0,69957,3,0
 168204,Earthen Unlockable,0,1,4,0,0,0
 168205,Complete The War Within campaign,168204,0,0,66993,0,16
 168206,"Complete ""Mourning Rise""",168204,0,0,68162,1,0
@@ -98549,6 +98553,17 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 168208,"Complete ""Merrix and Steelvein""",168204,0,0,67055,3,16
 168209,11.0.5 20th Anniversary - AQ Scenario - DRB - On The Move - HiveAshi to Dragonriding (DRB),0,0,4,0,0,0
 168210,Follow Chromie,168209,1,0,69958,0,32
+168211,11.1 Undermine - Max-Level - Campaign - Achievement,0,0,4,0,0,0
+168212,,168218,0,0,69959,0,0
+168213,,168219,0,0,69960,0,0
+168214,,168220,0,0,69961,0,0
+168215,,168221,0,0,69962,0,0
+168217,,168223,0,0,69964,0,0
+168218,Trust Issues,168211,0,4,0,0,8240
+168219,Undermine Awaits,168211,0,4,0,1,8240
+168220,Uncovering the Truth,168211,0,4,0,2,8240
+168221,Breaking the Shackles,168211,0,4,0,3,8240
+168223,Ignite the Fuel of Change,168211,0,4,0,4,8240
 168224,11.0.5 20th Anniversary - AQ Scenario - DRB - On The Move - HiveAshi to Match (DRB),0,0,4,0,0,0
 168225,Follow Chromie,168224,1,0,69509,0,32
 168226,11.0.5 20th Anniversary - Scenario - DRB - On The Move - Match Game to Twilight (DRB),0,0,4,0,0,2
@@ -98560,6 +98575,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 168233,Ossirian the Unscarred defeated,168232,1,0,69970,0,0
 168236,11.0.5 20th Anniversary - Scenario - Final - Tichondrius Defeated (DRB),0,0,4,0,0,0
 168237,Tichondrius defeated,168236,1,0,69972,0,0
+168238,Fore!,168182,0,0,69973,1,16
+168245,11.1 Undermine - Rare 20 - Complex Rare 05 - Darkfuse - Bonus Objective (KNF),0,0,4,0,0,4096
+168246,,168245,1,0,69976,0,0
 168259,[DNT] RR - 0,0,0,4,0,0,8194
 168260,,168259,0,0,69987,0,0
 168261,[DNT] RR - 5,0,0,4,0,0,8194
@@ -98646,18 +98664,117 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 168399,,146569,25,0,71180,131,2
 168400,,146569,25,0,71179,132,2
 168401,,146569,25,0,71177,133,2
+168402,Cage of Carnage matches,0,0,4,0,0,0
+168403,Cage of Carnage matches,168402,0,0,70015,0,0
+168404,Cage of Carnage victories,0,0,4,0,0,0
+168405,Cage of Carnage victories,168404,0,0,70016,0,0
+168406,Demolition Thunderdome wins,2919,0,0,70016,18,0
+168407,Nokhudon Proving Grounds Matches,2926,0,0,70015,18,0
+168408,Demolition Superdome 2v2 Wins,6151,0,0,70017,17,0
+168409,Demolition Superdome 2v2 Matches,539,0,0,70018,17,0
+168410,Demolition Superdome 3v3 Wins,2445,0,0,70019,17,0
+168411,Demolition Superdome 3v3 Matches,6144,0,0,70020,16,0
 168422,11.0.0 - LKC - CN - Stress Test - China Only,0,0,4,0,0,0
 168423,,168422,1,0,70026,0,0
 168424,11.0.5 20th Anniversary - The Codex of Chromie - The Finishing Touch (DRB),0,0,4,0,0,0
 168425,The Finishing Touch,168424,1,0,70027,0,32
+168454,11.1 Dungeon - Waterworks (Normal),0,0,4,0,0,0
+168455,Big M.O.M.M.A. defeated,168454,1,0,70042,0,0
+168456,Keeza Quickfuse and Bront defeated,168454,1,0,70043,1,0
+168457,Swampface defeated,168454,1,0,70044,2,0
+168458,Geezle Gigazap defeated,168454,1,0,70045,3,0
+168459,11.1 Dungeon - Waterworks (Heroic),0,0,4,0,0,0
+168460,Big M.O.M.M.A. defeated,168459,1,0,70042,0,0
+168461,Keeza Quickfuse and Bront defeated,168459,1,0,70043,1,0
+168462,Swampface defeated,168459,1,0,70044,2,0
+168463,Geezle Gigazap defeated,168459,1,0,70045,3,0
+168464,11.1 Dungeon - Waterworks (Mythic),0,0,4,0,0,0
+168465,Big M.O.M.M.A. defeated,168464,1,0,70042,0,0
+168466,Keeza Quickfuse and Bront defeated,168464,1,0,70043,1,0
+168467,Swampface defeated,168464,1,0,70044,2,0
+168468,Geezle Gigazap defeated,168464,1,0,70045,3,0
+168470,Achievement - Season Master - War Within Season Two,0,1,8,0,0,0
+168471,1600+ Rated PVP rating,168470,1,8,0,0,0
+168472,Attained 1600+ Rated PVP rating,168471,1600,0,70046,0,0
+168473,,168471,1600,0,70047,1,2
+168474,,168471,1600,0,70048,2,2
+168475,,168471,1600,0,70049,3,2
+168476,,168471,1600,0,70050,4,2
+168477,,168471,1600,0,70051,5,2
+168478,Defeated Gallywix on Heroic or Mythic difficulty,168470,1,0,70052,1,0
+168479,Attained 2000+ Mythic Plus rating,168470,2000,0,70053,2,0
+168495,Undermine - Skyrocketing - Bronze,0,0,4,0,0,0
+168496,,168495,1,0,70061,0,48
+168497,,168495,1,0,70065,1,48
+168498,,168495,1,0,70063,4,48
+168499,,168495,1,0,70064,6,48
+168500,,168495,1,0,70062,2,48
+168501,,168495,1,0,70066,3,48
+168502,,168495,1,0,70067,5,48
+168503,,168495,1,0,70068,7,48
+168504,Undermine - Skyrocketing - Silver,0,0,4,0,0,0
+168505,,168504,1,0,70069,0,48
+168506,,168504,1,0,70070,1,48
+168507,,168504,1,0,70071,2,48
+168508,,168504,1,0,70072,3,48
+168509,,168504,1,0,70073,4,48
+168510,,168504,1,0,70074,5,48
+168511,,168504,1,0,70075,6,48
+168512,,168504,1,0,70076,7,48
+168513,Undermine - Skyrocketing - Gold,0,0,4,0,0,0
+168514,,168513,1,0,70077,0,48
+168515,,168513,1,0,70078,1,48
+168516,,168513,1,0,70079,2,48
+168517,,168513,1,0,70080,3,48
+168518,,168513,1,0,70081,4,48
+168519,,168513,1,0,70082,5,48
+168520,,168513,1,0,70083,6,48
+168521,,168513,1,0,70084,7,48
 168522,Reach a High Watermark of 639 in Every Slot During The War Within Season 1 (Outgrow Gilded Harbinger Crests) OR Get all Items to Item Level 636,0,1,8,0,0,0
 168523,,168524,639,0,67016,1,0
 168524,Reach 639 in Every Slot During The War Within Season 1,168522,0,4,0,0,0
 168525,,168524,639,0,67015,0,0
+168526,Reach a High Watermark of 636 in Every Slot During The War Within Season 2 (Outgrow Weathered Undermine Crests),0,0,4,0,0,0
+168527,,168526,632,0,70085,0,0
+168528,,168526,632,0,70087,1,0
+168529,,168526,632,0,70086,2,0
+168530,Reach a High Watermark of 649 in Every Slot During The War Within Season 2 (Outgrow Carved Undermine Crests),0,0,4,0,0,0
+168531,,168530,645,0,70085,0,0
+168532,,168530,645,0,70086,2,0
+168533,,168530,645,0,70087,1,0
+168534,Reach a High Watermark of 662 in Every Slot During The War Within Season 2 (Outgrow Runed Undermine Crests),0,0,4,0,0,0
+168535,,168534,658,0,70085,0,0
+168536,,168534,658,0,70086,1,0
+168537,,168534,658,0,70087,2,0
+168538,Obtain an average item level of 675 during The War Within Season 2. (Outgrow Gilded Undermine Crests),0,1,8,0,0,0
+168542,11.0 Delves - Kobolds02 - V04 (Hufton) - Earthen Waterworks (STM),0,0,4,0,0,0
+168543,Earthen Waterworks,168542,0,0,70088,0,32
 168562,Levels gained,0,10,5,0,0,8193
 168563,,168562,1,0,70092,0,0
 168564,"""Forward, To Adventure!"" completed",0,0,4,0,0,8193
 168565,,168564,0,0,70093,0,0
+168566,11.1 Undermine - Complex Treasures (KNF),0,5,8,0,0,8193
+168567,,168566,0,0,70094,0,0
+168568,,168566,0,0,70095,1,0
+168569,,168566,0,0,70096,2,0
+168570,,168566,0,0,70097,3,0
+168571,,168566,0,0,70098,4,0
+168572,11.1 Dungeon - Waterworks (Challenge Mode),0,0,4,0,0,0
+168573,Big M.O.M.M.A. defeated,168572,1,0,70042,0,0
+168574,Keeza Quickfuse and Bront defeated,168572,1,0,70043,1,0
+168575,Swampface defeated,168572,1,0,70044,2,0
+168576,Geezle Gigazap defeated,168572,1,0,70045,3,0
+168577,Achievement - Any Keystone Timed: The War Within Dungeons Season 2,0,0,4,0,0,0
+168578,,168577,1,0,70099,0,0
+168579,Achievement - Keystone Conqueror: The War Within Dungeons Season 2,0,0,4,0,0,0
+168580,Rating Requirement,168579,1500,0,70053,0,2
+168581,Achievement - Keystone Master: The War Within Dungeons Season 2,0,0,4,0,0,0
+168582,Rating Requirement,168581,2000,0,70053,0,2
+168583,Achievement - Keystone Hero: The War Within Dungeons Season 2,0,0,4,0,0,0
+168584,Rating Requirement,168583,2500,0,70053,0,2
+168585,Achievement - The War Within Season Two [PH] Hero (Top 0.1%),0,0,4,0,0,0
+168586,,168585,1,0,70169,0,0
+168587,,168585,1,1,70170,1,2
 168588,Put an end to the Battle for Azeroth by completing the following achievements.,0,0,4,0,0,0
 168589,,168588,1,0,70192,0,32
 168590,,168588,1,0,70193,1,32
@@ -98675,6 +98792,12 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 168603,,168588,1,0,70205,13,32
 168604,,168588,1,0,70206,14,32
 168605,,168588,1,0,70207,15,32
+168606,Achievement - The Waterworks Keystone Hero (10+),0,0,4,0,0,0
+168607,The Waterworks,168606,1,0,70208,0,2
+168608,Achievement - Theater of Pain Hero (10+),0,0,4,0,0,0
+168609,Theater of Pain,168608,1,0,70209,0,0
+168610,Achievement - The MOTHERLODE!! Keystone Hero (10+),0,0,4,0,0,0
+168611,The MOTHERLODE!!,168610,1,0,70213,0,2
 168612,Defeat the bosses of Uldir on Normal difficulty or higher,0,0,4,0,0,0
 168613,,168612,1,0,70210,0,32
 168614,,168612,1,0,70211,1,32
@@ -98698,12 +98821,19 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 168632,,168630,1,0,70224,1,32
 168633,,168630,1,0,70225,2,32
 168634,,168630,1,0,70226,3,32
+168635,Achievement - Operation: Mechagon - Workshop Keystone Hero (10+),0,0,4,0,0,0
+168636,Operation: Mechagon - Workshop,168635,1,0,70302,0,2
 168637,Dire Maul - Capital Gardens Bonus Objective - Timewalking - Magister Kalendris,0,0,4,0,0,0
 168638,Magister Kalendris defeated,168637,1,0,25061,0,0
 168639,Dire Maul - Capital Gardens Bonus Objective - Timewalking - Illyana Ravenoak,0,0,4,0,0,0
 168640,Illyanna Ravenoak defeated,168639,1,0,25062,0,0
 168643,Be in Booty Bay,0,0,4,0,0,4096
 168644,,168643,0,0,70305,0,0
+168645,Enemy Forces,168572,470,9,0,4,0
+168646,,168645,9999,0,48468,0,0
+168647,,168645,45,0,50192,1,0
+168648,,168645,4,0,50191,2,0
+168649,,168645,10,0,69060,3,0
 168656,Anniversary quests completed,0,3,5,0,0,8193
 168657,,168656,1,0,70306,0,1
 168658,Anniversary quests completed,0,10,5,0,0,8193
@@ -98845,7 +98975,13 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 168814,,168813,0,0,70398,0,0
 168815,/thanks emoted,0,1,5,0,0,8193
 168816,,168815,0,0,70399,0,0
-168836,,163437,0,0,68808,9,32
+168819,11.1 - FF - Surge Pricing - Criteria (LQM),0,100,9,0,0,0
+168820,Complete Shipping and Handling tasks for bonus rewards,168819,1,0,70401,0,1
+168821,Complete World Quests in Undermine,0,3,5,0,0,4096
+168822,,168821,3,0,70402,0,0
+168823,Complete World Quests in Undermine,0,3,5,0,0,4096
+168824,,168823,3,0,70403,0,0
+168836,,163437,0,0,68808,6,32
 168837,,157281,1,0,66773,1,0
 168838,,157281,1,0,70411,3,0
 168839,,157281,1,0,70412,4,0
@@ -98926,6 +99062,25 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 168962,Twighlight Highlands,168961,0,0,70738,0,0
 168963,Pet Mischief,0,1,5,0,0,8193
 168964,,168963,0,0,70490,0,0
+168965,Enemy Forces,157372,587,9,0,4,0
+168966,,168965,59,0,50192,1,0
+168967,,168965,1,0,48468,2,0
+168968,,168965,6,0,50191,3,0
+168969,,168965,3,0,70491,4,0
+168970,,168965,5,0,70492,5,0
+168971,,168965,3,0,70493,6,0
+168972,,168965,10,0,70494,7,0
+168973,,168965,15,0,70495,8,0
+168974,,168965,5,0,70496,9,0
+168975,,168965,7,0,70497,10,0
+168976,,168965,10,0,70498,11,0
+168977,,168965,5,0,70499,12,0
+168978,,168965,1,0,70500,13,0
+168979,,168965,7,0,70501,14,0
+168980,,168965,5,0,70502,15,0
+168981,,168965,10,0,70503,16,0
+168982,,168965,1,0,70504,17,0
+168983,,168965,3,0,70505,18,0
 168984,New Criteria Tree,0,0,4,0,0,4096
 168985,,168984,0,0,70506,0,0
 168988,Rank 2,167844,1,0,70512,1,0
@@ -98940,6 +99095,31 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 168997,Sparks of War,161448,0,0,70508,1,0
 168998,Sparks of War,161448,0,0,70511,2,0
 168999,Sparks of War,161448,0,0,70509,3,0
+169000,,169002,4,0,50191,2,0
+169001,,169002,1,0,48468,1,0
+169002,Enemy Forces,157363,386,9,0,4,0
+169003,,169002,1,0,70518,3,0
+169004,,169002,10,0,70519,4,0
+169005,,169002,5,0,70520,5,0
+169006,,169002,3,0,70521,6,0
+169007,,169002,6,0,70522,7,0
+169008,,169002,4,0,70523,8,0
+169009,,169002,7,0,70524,9,0
+169010,,169002,15,0,70525,10,0
+169011,,169002,1,0,70526,11,0
+169012,,169002,20,0,70527,12,0
+169013,,169002,20,0,70528,13,0
+169014,,169002,1,0,70529,14,0
+169015,,169002,2,0,70530,15,0
+169016,,169002,4,0,70531,16,0
+169017,,169002,7,0,70532,17,0
+169018,,169002,7,0,70533,18,0
+169019,,169002,7,0,70534,19,0
+169020,,169002,7,0,70535,20,0
+169021,,169002,7,0,70536,21,0
+169022,,169002,7,0,70537,22,0
+169023,,169002,7,0,70538,23,0
+169024,,169002,7,0,70539,24,0
 169029,Votes earned,0,1,5,0,0,8193
 169030,,169029,0,0,70542,0,0
 169031,Votes earned,0,10,5,0,0,8193
@@ -99129,64 +99309,112 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 169244,End of an Empire,169231,1,0,70661,12,0
 169245,[DNT] Secrets completed,0,999,5,0,0,0
 169246,,169245,0,0,70662,0,0
-169247,Porcelain Arrowhead Idol,164141,0,0,70688,2,16
-169248,Porcelain Arrowhead Idol,164141,0,0,69463,3,16
-169249,Brute Force Idol,164139,1,8,0,3,8192
-169250,Brute Force Idol,169249,0,0,68796,0,16
-169251,Brute Force Idol,169249,0,0,70685,1,16
-169252,Brute Force Idol,169249,0,0,70686,2,16
-169253,Brute Force Idol,169249,0,0,69464,3,16
-169254,Unbreakable Iron Idol,164139,1,8,0,4,8192
-169255,Unbreakable Iron Idol,169254,0,0,68798,0,16
-169256,Unbreakable Iron Idol,169254,0,0,70683,1,16
-169257,Unbreakable Iron Idol,169254,0,0,70684,2,16
-169258,Unbreakable Iron Idol,169254,0,0,69466,3,16
-169259,Light-Touched Idol,164139,1,8,0,5,8192
-169260,Light-Touched Idol,169259,0,0,68799,0,16
-169261,Light-Touched Idol,169259,0,0,70681,1,16
-169262,Light-Touched Idol,169259,0,0,70682,2,16
-169263,Light-Touched Idol,169259,0,0,69467,3,16
-169264,Idol of Final Will,164139,1,8,0,6,8192
-169265,Idol of Final Will,169264,0,0,68801,0,16
-169266,Idol of Final Will,169264,0,0,70679,1,16
-169267,Idol of Final Will,169264,0,0,70680,2,16
-169268,Idol of Final Will,169264,0,0,69468,3,16
-169269,Amorphous Relic,164139,1,8,0,7,8192
-169270,Amorphous Relic,169269,0,0,68802,0,16
-169271,Amorphous Relic,169269,0,0,70677,1,16
-169272,Amorphous Relic,169269,0,0,70678,2,16
-169273,Amorphous Relic,169269,0,0,69469,3,16
-169274,Time Lost Relic,164139,1,8,0,8,8192
-169275,Time Lost Relic,169274,0,0,68803,0,16
-169276,Time Lost Relic,169274,0,0,70675,1,16
-169277,Time Lost Relic,169274,0,0,70676,2,16
-169278,Time Lost Relic,169274,0,0,69470,3,16
-169279,Olden Seeker Relic,164139,1,8,0,9,8192
-169280,Olden Seeker Relic,169279,0,0,68804,0,16
-169281,Olden Seeker Relic,169279,0,0,70673,1,16
-169282,Olden Seeker Relic,169279,0,0,70674,2,16
-169283,Olden Seeker Relic,169279,0,0,69471,3,16
-169284,Lifeless Necrotic Relic,164139,1,8,0,10,8192
-169285,Lifeless Necrotic Relic,169284,0,0,68805,0,16
-169286,Lifeless Necrotic Relic,169284,0,0,70671,1,16
-169287,Lifeless Necrotic Relic,169284,0,0,70672,2,16
-169288,Lifeless Necrotic Relic,169284,0,0,69472,3,16
-169289,Streamlined Relic,164139,1,8,0,11,8192
-169290,Streamlined Relic,169289,0,0,68800,0,16
-169291,Streamlined Relic,169289,0,0,70669,1,16
-169292,Streamlined Relic,169289,0,0,70670,2,16
-169293,Streamlined Relic,169289,0,0,69475,3,16
-169294,Relicblood of Zekvir,164139,1,8,0,12,8192
-169295,Relicblood of Zekvir,169294,0,0,68807,0,16
-169296,Relicblood of Zekvir,169294,0,0,70667,1,16
-169297,Relicblood of Zekvir,169294,0,0,70668,2,16
-169298,Relicblood of Zekvir,169294,0,0,69474,3,16
-169299,Rage-Filled Idol,164139,1,8,0,13,8192
-169300,Rage-Filled Idol,169299,0,0,70663,0,16
-169301,Rage-Filled Idol,169299,0,0,70664,1,16
-169302,Rage-Filled Idol,169299,0,0,70665,2,16
-169303,Rage-Filled Idol,169299,0,0,70666,3,16
-169304,Light-Touched Idol,166270,1,8,0,5,8192
+169247,Idol of Final Will,169480,0,0,70679,1,16
+169248,Time Lost Relic,169273,0,0,69470,3,16
+169249,Relicblood of Zekvir,169282,0,0,70668,2,16
+169250,Porcelain Arrowhead Idol,169265,0,0,70688,2,16
+169251,Amorphous Relic,169491,0,0,70677,1,16
+169252,Relic of Sentience,164151,0,0,70690,2,16
+169253,Light-Touched Idol,169254,0,0,70706,4,0
+169254,Light-Touched Idol,169303,1,8,0,8,8192
+169255,Light-Touched Idol,169254,0,0,69467,3,16
+169256,Idol of the Earthmother,169303,1,8,0,10,8192
+169257,Olden Seeker Relic,169289,0,0,70673,1,16
+169258,Idol of Final Will,169480,0,0,70680,2,16
+169259,Time Lost Relic,169273,0,0,70722,4,0
+169260,Rage-Filled Idol,169303,1,8,0,7,8192
+169261,Time Lost Relic,169273,0,0,70676,2,16
+169262,Light-Touched Idol,169254,0,0,68799,0,16
+169263,Lifeless Necrotic Relic,169303,1,8,0,5,8192
+169264,Streamlined Relic,169300,0,0,70669,1,16
+169265,Porcelain Arrowhead Idol,169303,1,8,0,3,8192
+169266,Lifeless Necrotic Relic,169263,0,0,70672,2,16
+169267,Rage-Filled Idol,169260,0,0,70727,4,0
+169268,Streamlined Relic,169300,0,0,70670,2,16
+169269,Lifeless Necrotic Relic,169263,0,0,69472,3,16
+169270,Relicblood of Zekvir,169282,0,0,70667,1,16
+169271,Rage-Filled Idol,169260,0,0,70665,2,16
+169272,Streamlined Relic,169300,0,0,69475,3,16
+169273,Time Lost Relic,169303,1,8,0,0,8192
+169274,Lifeless Necrotic Relic,169263,0,0,70724,4,0
+169275,Porcelain Arrowhead Idol,169265,0,0,70717,4,0
+169276,Idol of the Earthmother,169256,0,0,68797,0,16
+169277,Idol of the Earthmother,169256,0,0,70715,4,0
+169278,Rage-Filled Idol,169260,0,0,70664,1,16
+169279,Unbreakable Iron Idol,169483,0,0,70684,2,16
+169280,Porcelain Arrowhead Idol,169265,0,0,70687,1,16
+169281,Relic of Sentience,164151,0,0,68806,0,16
+169282,Relicblood of Zekvir,169303,1,8,0,12,8192
+169283,Relicblood of Zekvir,169282,0,0,69474,3,16
+169284,Unbreakable Iron Idol,169483,0,0,70683,1,16
+169285,Streamlined Relic,169300,0,0,70725,4,0
+169286,Amorphous Relic,169491,0,0,69469,3,16
+169287,Relicblood of Zekvir,169282,0,0,70726,4,0
+169288,Brute Force Idol,169297,0,0,68796,0,16
+169289,Olden Seeker Relic,169303,1,8,0,9,8192
+169290,Time Lost Relic,169273,0,0,68803,0,16
+169291,Relic of Sentience,164151,0,0,69473,3,16
+169292,Amorphous Relic,169491,0,0,70678,2,16
+169293,Brute Force Idol,169297,0,0,70685,1,16
+169294,Porcelain Arrowhead Idol,169265,0,0,68795,0,16
+169295,Idol of the Earthmother,169256,0,0,70691,1,16
+169296,Brute Force Idol,169297,0,0,70686,2,16
+169297,Brute Force Idol,169303,1,8,0,13,8192
+169298,Porcelain Arrowhead Idol,169265,0,0,69463,3,16
+169299,Relic of Sentience,164151,0,0,70689,1,16
+169300,Streamlined Relic,169303,1,8,0,6,8192
+169301,Relic of Sentience,164151,0,0,70716,4,0
+169302,Idol of Final Will,169480,0,0,69468,3,16
+169303,Season 1 Curios,164139,0,4,0,0,8194
+169304,Porcelain Arrowhead Idol,169452,0,0,69463,0,16
+169305,Combatant I The War Within Season 2,0,1,8,0,0,2
+169306,,169305,1000,0,70049,0,2
+169307,,169305,1000,0,70048,1,2
+169308,,169305,1000,0,70051,2,2
+169309,,169305,1000,0,70046,3,2
+169310,,169305,1000,0,70047,4,2
+169311,Combatant II  The War Within Season 2,0,1,8,0,0,2
+169312,,169311,1200,0,70049,0,2
+169313,,169311,1200,0,70048,1,2
+169314,,169311,1200,0,70051,2,2
+169315,,169311,1200,0,70046,3,2
+169316,,169311,1200,0,70047,4,2
+169317,Challenger I The War Within Season 2,0,1,8,0,0,2
+169318,,169317,1400,0,70049,0,2
+169319,,169317,1400,0,70048,1,2
+169320,,169317,1400,0,70051,2,2
+169321,,169317,1400,0,70046,3,2
+169322,,169317,1400,0,70047,4,2
+169323,Challenger II The War Within Season 2,0,1,8,0,0,2
+169324,,169323,1600,0,70049,0,2
+169325,,169323,1600,0,70048,1,2
+169326,,169323,1600,0,70051,2,2
+169327,,169323,1600,0,70046,3,2
+169328,,169323,1600,0,70047,4,2
+169329,Rival I  The War Within Season 2,0,1,8,0,0,2
+169330,,169329,1800,0,70049,0,2
+169331,,169329,1800,0,70048,1,2
+169332,,169329,1800,0,70051,2,2
+169333,,169329,1800,0,70046,3,2
+169334,,169329,1800,0,70047,4,2
+169335,Rival II The War Within Season 2,0,1,8,0,0,2
+169336,,169335,1950,0,70049,0,2
+169337,,169335,1950,0,70048,1,2
+169338,,169335,1950,0,70051,2,2
+169339,,169335,1950,0,70046,3,2
+169340,,169335,1950,0,70047,4,2
+169341,Duelist The War Within Season 2,0,1,8,0,0,2
+169342,,169341,2100,0,70049,0,2
+169343,,169341,2100,0,70048,1,2
+169344,,169341,2100,0,70051,2,2
+169345,,169341,2100,0,70046,3,2
+169346,,169341,2100,0,70047,4,2
+169347,Elite The War Within Season 2,0,1,8,0,0,2
+169348,,169347,2400,0,70049,0,2
+169349,,169347,2400,0,70048,1,2
+169350,,169347,2400,0,70051,2,2
+169351,,169347,2400,0,70046,3,2
+169352,,169347,2400,0,70047,4,2
 169407,Blackrock Caverns Bosses (Timewalking),0,0,4,0,0,0
 169408,Rom'ogg Bonecrusher defeated,169407,1,0,24792,0,0
 169409,"Corla, Herald of Twilight defeated",169407,1,0,24793,1,0
@@ -99230,50 +99458,52 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 169447,Rattlegore defeated,169444,1,0,19261,2,0
 169448,Lilian Voss defeated,169444,1,0,19262,3,0
 169449,Darkmaster Gandling defeated,169444,1,0,34440,4,0
-169450,Amorphous Relic,166270,1,8,0,7,8192
-169451,Amorphous Relic,169450,0,0,69469,0,16
-169452,Time Lost Relic,166270,1,8,0,8,8192
-169453,Time Lost Relic,169452,0,0,69470,0,16
-169454,Olden Seeker Relic,166270,1,8,0,9,8192
-169455,Olden Seeker Relic,169454,0,0,69471,0,16
-169456,Lifeless Necrotic Relic,166270,1,8,0,10,8192
-169457,Lifeless Necrotic Relic,169456,0,0,69472,0,16
-169458,Streamlined Relic,166270,1,8,0,11,8192
-169459,Streamlined Relic,169458,0,0,69475,0,16
-169460,Relicblood of Zekvir,166270,1,8,0,12,8192
-169461,Relicblood of Zekvir,169460,0,0,69474,0,16
-169462,Rage-Filled Idol,166270,1,8,0,13,8192
-169463,Rage-Filled Idol,169462,0,0,70666,0,16
+169450,Amorphous Relic,166883,1,8,0,3,8192
+169451,Idol of Final Will,169467,0,0,70707,1,0
+169452,Porcelain Arrowhead Idol,166883,1,8,0,8,8192
+169453,Lifeless Necrotic Relic,166882,0,0,69472,0,16
+169454,Brute Force Idol,166881,0,0,70704,1,0
+169455,Idol of the Earthmother,169476,0,0,70701,1,0
+169456,Rage-Filled Idol,169470,0,0,70666,0,16
+169457,Time Lost Relic,169466,0,0,70709,1,0
+169458,Porcelain Arrowhead Idol,169452,0,0,70703,1,0
+169459,Rage-Filled Idol,169470,0,0,70714,1,0
+169460,Olden Seeker Relic,169463,0,0,70710,1,0
+169461,Brute Force Idol,166881,0,0,69464,0,16
+169462,Unbreakable Iron Idol,166883,1,8,0,12,8192
+169463,Olden Seeker Relic,166883,1,8,0,0,8192
 169464,Benatauk's Clue Book read,0,0,4,0,0,4096
 169465,,169464,0,0,70700,0,0
-169466,Idol of the Earthmother,166883,0,0,70701,1,0
-169467,Relic of Sentience,166881,0,0,70702,1,0
-169468,Porcelain Arrowhead Idol,166884,0,0,70703,1,0
-169469,Brute Force Idol,166880,0,0,70704,1,0
-169470,Unbreakable Iron Idol,166882,0,0,70705,1,0
-169471,Light-Touched Idol,169304,0,0,70706,1,0
-169472,Idol of Final Will,166888,0,0,70707,1,0
-169473,Amorphous Relic,169450,0,0,70708,1,0
-169474,Time Lost Relic,169452,0,0,70709,1,0
-169475,Olden Seeker Relic,169454,0,0,70710,1,0
-169476,Lifeless Necrotic Relic,169456,0,0,70711,1,0
-169477,Streamlined Relic,169458,0,0,70712,1,0
-169478,Relicblood of Zekvir,169460,0,0,70713,1,0
-169479,Rage-Filled Idol,169462,0,0,70714,1,0
-169480,Idol of the Earthmother,164148,0,0,70715,4,0
-169481,Relic of Sentience,164140,0,0,70716,4,0
-169482,Porcelain Arrowhead Idol,164141,0,0,70717,4,0
-169483,Brute Force Idol,169249,0,0,70718,4,0
-169484,Unbreakable Iron Idol,169254,0,0,70719,4,0
-169485,Light-Touched Idol,169259,0,0,70706,4,0
-169486,Idol of Final Will,169264,0,0,70720,4,0
-169487,Amorphous Relic,169269,0,0,70721,4,0
-169488,Time Lost Relic,169274,0,0,70722,4,0
-169489,Olden Seeker Relic,169279,0,0,70723,4,0
-169490,Lifeless Necrotic Relic,169284,0,0,70724,4,0
-169491,Streamlined Relic,169289,0,0,70725,4,0
-169492,Relicblood of Zekvir,169294,0,0,70726,4,0
-169493,Rage-Filled Idol,169299,0,0,70727,4,0
+169466,Time Lost Relic,166883,1,8,0,5,8192
+169467,Idol of Final Will,166883,1,8,0,10,8192
+169468,Light-Touched Idol,166888,0,0,102790,1,0
+169469,Relic of Sentience,166883,1,8,0,1,8192
+169470,Rage-Filled Idol,166883,1,8,0,9,8192
+169471,Unbreakable Iron Idol,169462,0,0,69466,0,16
+169472,Amorphous Relic,169450,0,0,69469,0,16
+169473,Time Lost Relic,169466,0,0,69470,0,16
+169474,Idol of Final Will,169467,0,0,69468,0,16
+169475,Unbreakable Iron Idol,169462,0,0,70705,1,0
+169476,Idol of the Earthmother,166883,1,8,0,6,8192
+169477,Relicblood of Zekvir,169479,0,0,69474,0,16
+169478,Amorphous Relic,169450,0,0,70708,1,0
+169479,Relicblood of Zekvir,166883,1,8,0,7,8192
+169480,Idol of Final Will,169303,1,8,0,11,8192
+169481,Olden Seeker Relic,169289,0,0,68804,0,16
+169482,Idol of the Earthmother,169256,0,0,70692,2,16
+169483,Unbreakable Iron Idol,169303,1,8,0,4,8192
+169484,Light-Touched Idol,169254,0,0,70681,1,16
+169485,Unbreakable Iron Idol,169483,0,0,69466,3,16
+169486,Olden Seeker Relic,169289,0,0,70723,4,0
+169487,Idol of Final Will,169480,0,0,70720,4,0
+169488,Rage-Filled Idol,169260,0,0,70663,0,16
+169489,Rage-Filled Idol,169260,0,0,70666,3,16
+169490,Amorphous Relic,169491,0,0,68802,0,16
+169491,Amorphous Relic,169303,1,8,0,1,8192
+169492,Olden Seeker Relic,169289,0,0,70674,2,16
+169493,Light-Touched Idol,169254,0,0,70682,2,16
+169494,Win 50 Games as a Gladiator in The War Within Season 2 in 3v3,0,0,4,0,0,0
+169495,,169494,50,0,70728,0,1
 169496,11.0.5 Raid - Blackrock Depths - LFR Wing 1,0,0,4,0,0,0
 169497,Lord Roccor defeated,169496,1,0,70730,0,0
 169498,Bael'Gar defeated,169496,1,0,70731,1,0
@@ -99301,7 +99531,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 169520,Suramar,168961,0,0,70752,14,0
 169521,Stormsong Valley,168961,0,0,70753,15,0
 169522,Drustvar,168961,0,0,70754,16,0
-169523,Tiragard Sound,168961,0,0,70755,17,0
+169523,Tiragarde Sound,168961,0,0,70755,17,0
 169524,Zereth Mortis,168961,0,0,70756,18,0
 169525,Ardenweald,168961,0,0,70757,19,0
 169526,Revendreth,168961,0,0,70758,20,0
@@ -99353,6 +99583,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 169583,Plank-Master Bluebelly,169569,1,0,70804,13,0
 169584,Ikir the Flotsurge,169569,1,0,70805,14,0
 169585,Asbjorn the Bloodsoaked,169569,1,0,70806,15,0
+169586,11.1 Delves - Z4 - Nerubians - V05 - - Testing (DNT) (STM),0,0,4,0,0,0
+169587,Testing (DNT),169586,0,0,70807,0,32
 169588,"Complete the Siren Isle questline ""A Song of Secrets"".",0,0,4,0,0,16
 169589,The Expedition Awaits,169588,1,0,70808,0,0
 169590,To the Siren Isle!,169588,1,0,70809,1,0
@@ -99366,6 +99598,10 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 169598,Reforged Anew,169588,1,0,70817,9,0
 169599,The Circlet Calls,169588,1,0,70818,10,0
 169601,Uncovered Mysteries,169588,1,0,70820,11,0
+169602,11.1 Delves - Nerubians04 - V05 (Hufton) - Testing (DNT) (Hufton),0,0,4,0,0,0
+169603,Testing (DNT),169602,0,0,70821,0,32
+169605,Character has earned 2500 Conquest during The War Within Season 2,0,0,4,0,0,0
+169606,,169605,250000,0,70822,0,1
 169609,Gate of the Setting Sun Bosses (Timewalking),0,0,4,0,0,0
 169610,Saboteur Kip'tilak defeated,169609,1,0,19245,0,0
 169611,Striker Ga'dok defeated,169609,1,0,19246,1,0
@@ -99443,6 +99679,39 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 169685,,169684,0,0,70838,0,0
 169686,Gain Mastery of Timeways for 5 weeks during Turbulent Timeways II,0,1,8,0,0,0
 169687,Gain Mastery of Timeways for 5 weeks during Turbulent Timeways II,169686,5,0,70839,0,1
+169688,11.0 Delves - Nerubians04 - V03 - (JCS) - Researchers rescued (STM),0,0,4,0,0,0
+169689,Researchers rescued,169688,8,0,70840,0,32
+169700,Undermine - Breaknecking - Bronze,0,0,4,0,0,0
+169701,,169700,1,0,70845,0,48
+169702,,169700,1,0,70846,1,48
+169703,,169700,1,0,70847,4,48
+169704,,169700,1,0,70853,2,48
+169705,,169700,1,0,70848,5,48
+169706,,169700,1,0,70852,3,48
+169707,,169700,1,0,70851,6,48
+169708,,169700,1,0,70850,7,48
+169709,11.1 Delves - Order of Night - V05 - - Testing [DNT] (AT),0,0,4,0,0,0
+169710,Testing [DNT],169709,0,0,70854,0,32
+169711,11.1 Delves - Order of Night - V05 - (AT) - Infiltrate Nightfall Sanctum (AT),0,0,4,0,0,0
+169712,Convene with Nimsi Loosefire,169711,0,0,70855,0,32
+169713,Undermine - Breaknecking - Silver,0,0,4,0,0,0
+169714,,169713,1,0,70856,0,48
+169715,,169713,1,0,70857,1,48
+169716,,169713,1,0,70858,2,48
+169717,,169713,1,0,70859,3,48
+169718,,169713,1,0,70860,4,48
+169719,,169713,1,0,70861,5,48
+169720,,169713,1,0,70862,6,48
+169721,,169713,1,0,70863,7,48
+169722,Undermine - Breaknecking - Gold,0,0,4,0,0,0
+169723,,169722,1,0,70864,0,48
+169724,,169722,1,0,70865,1,48
+169725,,169722,1,0,70866,2,48
+169726,,169722,1,0,70867,3,48
+169727,,169722,1,0,70868,4,48
+169728,,169722,1,0,70869,5,48
+169729,,169722,1,0,70870,6,48
+169730,,169722,1,0,70871,7,48
 169731,Eastern Kingdom Cup courses completed,0,5,5,0,0,8193
 169732,,169731,0,0,70872,0,0
 169733,Eastern Kingdom Cup courses completed,0,10,5,0,0,8193
@@ -99453,6 +99722,35 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 169738,,169737,1,0,70873,0,0
 169739,"[DNT] Has Achievement ""Worm Theory""",0,0,4,0,0,0
 169740,,169739,0,0,70874,0,0
+169741,11.1 Undermine - Achievements - The Undermine Max Renown,0,0,4,0,0,0
+169742,,169741,20,0,70875,0,1
+169743,11.1 Delves - Kobolds02 - V05 - Pick up the Fix-It Wrench,0,0,4,0,0,0
+169744,11.0 Delves - Kobolds02 - V04 - Pick up the Enchanted Candle (Hufton),169743,0,4,0,0,0
+169745,Fix-It Wrench acquired,169744,0,0,70881,0,32
+169746,11.1 Delves - Kobolds02 - V05 - Kill the Fungarians,0,0,4,0,0,0
+169747,11.0 Delves - Kobolds02 - V04 - Kill the Fungaians,169746,100,4,0,0,1
+169748,Fungarian presence removed,169747,275,9,0,0,32
+169749,Fungarian slain (T1),169748,5,0,62703,0,1
+169750,Fungarian slain (T3),169748,20,0,62705,1,1
+169751,Fungarian slain (T2),169748,10,0,62704,2,1
+169752,Fungarian presence removed,169748,2,0,62701,4,1
+169753,Fungarian presence removed,169748,1,0,62794,3,1
+169754,11.1 - Kobold02 - V05 - Fix Steam Pipes,0,0,4,0,0,0
+169755,11.1 Delves - Kobolds02 - V05 - Fungarian leader Slain,0,0,4,0,0,0
+169756,11.0 Delves - Kobolds02 - V04 - Fungarian Leader Slain,169755,0,4,0,0,0
+169757,Shroomsprew defeated,169756,1,0,63494,0,2080
+169761,11.1 Delves - Order of Night - V05 - (AT) - Find a way past their defenses (AT),0,0,4,0,0,0
+169762,Hide in the Inconspicuous Crate,169761,0,0,70882,0,32
+169763,11.1 Delves - Order of Night - V05 - (AT) - Find Stockpiles and Eliminate Cultists (AT),0,2,8,0,0,0
+169764,Stockpiles reclaimed,169763,8,0,70883,0,32
+169765,11.1 Delves - Order of Night - V05 - (AT) - Mount cannon (AT),0,0,4,0,0,0
+169766,Cannonball fired,169765,6,0,70884,0,32
+169767,Eliminate Order of Night forces,169765,100,9,0,1,0
+169768,,169767,12,0,62705,0,1
+169769,,169767,8,0,62704,1,1
+169770,,169767,4,0,62703,2,1
+169771,11.1 Delves - Order of Night - V05 - (AT) - Defeat boss (AT),0,0,4,0,0,0
+169772,Speaker Wicke Slain,169771,1,0,70886,0,32
 169773,,156588,1,0,70887,2,0
 169774,Bonus Event Weekend - Timewalking (Classic),0,5,5,0,0,4096
 169775,,169774,1,0,70888,0,2
@@ -99503,8 +99801,251 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 169820,,169800,1,0,70931,19,2
 169821,,169800,1,0,70932,20,2
 169822,,169800,1,0,70933,21,2
+169849,11.1 Delves - OldGod - V1 - Talk to the Head Goblin,0,0,4,0,0,0
+169850,Wake Assessor McGravy,169849,0,0,70947,0,32
+169851,11.1 Delves - OldGod - V1 - Rescue Research Team and Bar Fill,0,0,4,0,0,0
+169852,Old God forces slain,169851,200,9,0,0,32
+169853,Defeat Old God Forces (T1),169852,8,0,62703,0,1
+169854,Defeat Old God Forces (T3),169852,30,0,62705,1,1
+169855,Defeat Old God Forces (T2),169852,14,0,62704,2,1
+169856,Defeat Old God Forces (T0),169852,2,0,62701,3,1
+169857,Defeat Old God Forces,169852,1,0,62794,4,1
+169858,Survey Team Rescued,169851,4,0,70948,1,32
+169859,11.1 Delves - OldGod - V1 - Go To Boss Arena,0,0,4,0,0,0
+169860,Locate the Source of Madness,169859,0,0,70949,0,32
+169861,11.1 Delves - OldGod - V1 - Defeat Boss,0,0,4,0,0,0
+169862,Defeat Xel'anegh the Many,169861,0,0,70950,0,32
+169863,Catch Undermine Pets,0,0,4,0,0,0
+169872,Wily Rat,169863,0,0,70951,0,0
+169874,Underroach,169863,0,0,70952,1,0
+169875,Bombshell Crab,169863,0,0,70953,2,0
+169876,Venture Crab,169863,0,0,70954,3,0
+169877,Cave Crab,169863,0,0,70955,4,0
+169878,Kaja Crab,169863,0,0,70956,5,0
+169879,Varmint Mark II,169863,0,0,70957,6,0
+169880,Lime Roboclucker,169863,0,0,70958,7,0
+169881,Tropical Frog,169863,0,0,70959,8,0
+169882,Spring-Loaded Ribbitron,169863,0,0,70960,9,0
+169883,Hemospore,169863,0,0,70961,10,0
+169884,Frenzied Bloodtick,169863,0,0,70962,11,0
+169888,11.1 Delves - OldGod - V2 - Talk to the Enterprising Goblin,0,0,4,0,0,0
+169889,Speak with Craggle Fritzbrains,169888,0,0,70966,0,32
+169890,11.1 Delves - OldGod - V2 - Collect Extractor Remote,0,0,4,0,0,0
+169891,Acquire the Extractor Remote,169890,0,0,70967,0,32
+169892,Obtain stacks of Unseeming Shift,0,25,4,0,0,4096
+169893,,169892,1,0,70968,0,0
+169900,11.1 Delves - OldGod - V2 - Deploy and Defend Extractors and Bar Fill,0,0,4,0,0,0
+169901,Generate Profits!,169900,300,9,0,0,32
+169902,Generate Small Profit,169901,10,0,70969,0,1
+169903,Generate Medium Profit,169901,15,0,70970,1,1
+169904,Generate High Profit,169901,25,0,70971,2,1
+169905,Deploy Extractors,169900,6,0,70974,1,32
+169906,Defended Extractors,169900,6,0,70975,2,32
+169907,11.1 Delves - OldGod - V2 - Go To Boss Arena,0,0,4,0,0,0
+169908,Speak with Craggle Fritzbrains,169907,0,0,70976,0,32
+169909,11.1 Delves - OldGod - V2 - Defeat Boss,0,0,4,0,0,0
+169910,Craggle Fritzbrains defeated,169909,0,0,70977,0,32
+169911,11.1 Delves - OldGod - V3 - Investigate the Void Portal,0,0,4,0,0,0
+169912,Investigate the Dark Tear,169911,0,0,70979,0,32
+169913,11.1 Delves - OldGod - V3 - Close Void Portals and Bar Fill,0,0,4,0,0,0
+169914,Close Dark Tears,169913,5,0,70980,0,32
+169915,Old God forces slain,169913,200,9,0,1,32
+169916,Defeat Old God Forces (T1),169915,8,0,62703,0,1
+169917,Defeat Old God Forces (T3),169915,30,0,62705,1,1
+169918,Defeat Old God Forces (T2),169915,14,0,62704,2,1
+169919,Old God forces slain,169915,2,0,62701,3,1
+169920,Defeat Old God Forces,169915,1,0,62794,4,1
+169921,11.1 Delves - OldGod - V3 - Go To Boss Arena,0,0,4,0,0,0
+169922,Approach the Terrifying Prescence,169921,0,0,70981,0,32
+169923,11.1 Delves - OldGod - V3 - Defeat Boss,0,0,4,0,0,0
+169924,Defeat Harbinger Ul'thul,169923,0,0,70982,0,32
+169925,11.1 Delves - Nerubians01 - V05 - Intro NPC Spoken To (Hufton),0,0,4,0,0,0
+169927,11.0 Delves - Nerubians01 - V04 - Kill Boss - Earthcrawl Mines (Hufton),0,0,4,0,0,0
+169928,Earthcrawl Mines,169927,0,0,70984,0,32
+169929,Complete 500 delves.,0,500,5,0,0,0
+169930,,169929,1,0,68248,0,0
+169931,Complete 1000 delves.,0,1000,5,0,0,0
+169932,,169931,1,0,68248,0,0
+169933,Loot 100 mislaid curiosities within delves.,0,25,4,0,0,0
+169934,,169933,100,0,69806,0,1
+169935,Complete each story variant of Excavation Site 9.,0,0,4,0,0,0
+169936,Lost Excavators,169935,0,0,70985,0,16
+169937,Black Blood Profits,169935,0,0,70986,1,16
+169938,Rowdy Rifts,169935,0,0,70987,2,16
+169939,Complete each story variant of Sidestreet Sluice.,0,0,4,0,0,0
+169940,All That Glitters,169939,0,0,70988,0,16
+169941,Mr. DELVER,169939,0,0,70989,1,16
+169942,Teleporter Tantrums,169939,0,0,70990,2,16
+169943,Player has opened all Sturdy Chests in Excavation Site 9.,0,4,8,0,0,1
+169944,Player has opened all Sturdy Chests in Sidestreet Sluice.,0,4,8,0,0,1
+169945,Excavation Site 9 clears,0,1,4,0,0,0
+169946,,169945,0,0,70991,0,0
+169947,Sidetreet Sluice clears,0,1,4,0,0,0
+169948,,169947,0,0,70992,0,0
+169949,Demolition Dome clears,0,1,4,0,0,0
+169950,,169949,0,0,70993,0,0
+169951,Exterminator Janx spoken to,169925,0,0,71188,0,32
+169952,Successfully complete 100 puzzles within a delve.,0,25,4,0,0,1
+169953,,169952,100,0,69832,0,1
+169954,Defeat every delve in Khaz Agar on Tier 4 or higher with lives remaining as a damage dealer.,0,0,4,0,0,0
+169955,Earthcrawl Mines,169954,1,0,71057,0,0
+169956,Fungal Folly,169954,1,0,70995,1,0
+169957,Kriegval's Rest,169954,1,0,70996,2,0
+169958,Mycomancer Cavern,169954,1,0,70997,3,0
+169959,Nightfall Sanctum,169954,1,0,70998,4,0
+169960,Skittering Breach,169954,1,0,70999,5,0
+169961,Tak-Rethan Abyss,169954,1,0,71000,6,0
+169962,The Dread Pit,169954,1,0,71001,7,0
+169963,The Sinkhole,169954,1,0,71002,8,0
+169964,The Spiral Weave,169954,1,0,71003,9,0
+169965,The Underkeep,169954,1,0,71004,10,0
+169966,The Waterworks,169954,1,0,71005,11,0
+169967,Sidestreet Sluice,169954,1,0,71006,12,0
+169968,Excavation Site 9,169954,1,0,71007,13,0
+169969,Defeat every delve in Khaz Agar on Tier 4 or higher with lives remaining as a healer.,0,0,4,0,0,0
+169970,Earthcrawl Mines,169969,1,0,71008,0,0
+169971,Fungal Folly,169969,1,0,71009,1,0
+169972,Kriegval's Rest,169969,1,0,71010,2,0
+169973,Mycomancer Cavern,169969,1,0,71011,3,0
+169974,Nightfall Sanctum,169969,1,0,71012,4,0
+169975,Skittering Breach,169969,1,0,71013,5,0
+169976,Tak-Rethan Abyss,169969,1,0,71014,6,0
+169977,The Dread Pit,169969,1,0,71015,7,0
+169978,The Sinkhole,169969,1,0,71016,8,0
+169979,The Spiral Weave,169969,1,0,71017,9,0
+169980,The Underkeep,169969,1,0,71018,10,0
+169981,The Waterworks,169969,1,0,71019,11,0
+169982,Sidestreet Sluice,169969,1,0,71020,12,0
+169983,Excavation Site 9,169969,1,0,71021,13,0
+169984,Defeat every delve in Khaz Agar on Tier 4 or higher with lives remaining as a tank.,0,0,4,0,0,0
+169985,Earthcrawl Mines,169984,1,0,71022,0,0
+169986,Fungal Folly,169984,1,0,71023,1,0
+169987,Kriegval's Rest,169984,1,0,71024,2,0
+169988,Mycomancer Cavern,169984,1,0,71025,3,0
+169989,Nightfall Sanctum,169984,1,0,71026,4,0
+169990,Skittering Breach,169984,1,0,71027,5,0
+169991,Tak-Rethan Abyss,169984,1,0,71028,6,0
+169992,The Dread Pit,169984,1,0,71029,7,0
+169993,The Sinkhole,169984,1,0,71030,8,0
+169994,The Spiral Weave,169984,1,0,71031,9,0
+169995,The Underkeep,169984,1,0,71032,10,0
+169996,The Waterworks,169984,1,0,71033,11,0
+169997,Sidestreet Sluice,169984,1,0,71034,12,0
+169998,Excavation Site 9,169984,1,0,71035,13,0
+169999,Obtain stacks of Unseeming Shift,0,25,4,0,0,4096
+170000,,169999,1,0,71036,0,0
+170001,Defeat every delve in Khaz Agar on Tier 8 or higher with lives remaining as a damage dealer.,0,0,4,0,0,0
+170002,Earthcrawl Mines,170001,1,0,71043,0,0
+170003,Fungal Folly,170001,1,0,71044,1,0
+170004,Kriegval's Rest,170001,1,0,71045,2,0
+170005,Mycomancer Cavern,170001,1,0,71046,3,0
+170006,Nightfall Sanctum,170001,1,0,71047,4,0
+170007,Skittering Breach,170001,1,0,71048,5,0
+170008,Tak-Rethan Abyss,170001,1,0,71049,6,0
+170009,The Dread Pit,170001,1,0,71050,7,0
+170010,The Sinkhole,170001,1,0,71051,8,0
+170011,The Spiral Weave,170001,1,0,71052,9,0
+170012,The Underkeep,170001,1,0,71053,10,0
+170013,The Waterworks,170001,1,0,71054,11,0
+170014,Sidestreet Sluice,170001,1,0,71055,12,0
+170015,Excavation Site 9,170001,1,0,71056,13,0
+170016,Defeat every delve in Khaz Agar on Tier 11 with lives remaining as a damage dealer.,0,0,4,0,0,0
+170017,Earthcrawl Mines,170016,1,0,71058,0,0
+170018,Fungal Folly,170016,1,0,71059,1,0
+170019,Kriegval's Rest,170016,1,0,71060,2,0
+170020,Mycomancer Cavern,170016,1,0,71061,3,0
+170021,Nightfall Sanctum,170016,1,0,71062,4,0
+170022,Skittering Breach,170016,1,0,71063,5,0
+170023,Tak-Rethan Abyss,170016,1,0,71064,6,0
+170024,The Dread Pit,170016,1,0,71065,7,0
+170025,The Sinkhole,170016,1,0,71066,8,0
+170026,The Spiral Weave,170016,1,0,71067,9,0
+170027,The Underkeep,170016,1,0,71068,10,0
+170028,The Waterworks,170016,1,0,71069,11,0
+170029,Sidestreet Sluice,170016,1,0,71070,12,0
+170030,Excavation Site 9,170016,1,0,71071,13,0
+170031,Defeat every delve in Khaz Agar on Tier 8 or higher with lives remaining as a healer.,0,0,4,0,0,0
+170032,Earthcrawl Mines,170031,1,0,71072,0,0
+170033,Fungal Folly,170031,1,0,71073,1,0
+170034,Kriegval's Rest,170031,1,0,71074,2,0
+170035,Mycomancer Cavern,170031,1,0,71075,3,0
+170036,Nightfall Sanctum,170031,1,0,71076,4,0
+170037,Skittering Breach,170031,1,0,71077,5,0
+170038,Tak-Rethan Abyss,170031,1,0,71078,6,0
+170039,The Dread Pit,170031,1,0,71079,7,0
+170040,The Sinkhole,170031,1,0,71080,8,0
+170041,The Spiral Weave,170031,1,0,71081,9,0
+170042,The Underkeep,170031,1,0,71082,10,0
+170043,The Waterworks,170031,1,0,71083,11,0
+170044,Sidestreet Sluice,170031,1,0,71084,12,0
+170045,Excavation Site 9,170031,1,0,71085,13,0
+170046,Defeat every delve in Khaz Agar on Tier 11 with lives remaining as a healer.,0,0,4,0,0,0
+170047,Earthcrawl Mines,170046,1,0,71086,0,0
+170048,Fungal Folly,170046,1,0,71087,1,0
+170049,Kriegval's Rest,170046,1,0,71088,2,0
+170050,Mycomancer Cavern,170046,1,0,71089,3,0
+170051,Nightfall Sanctum,170046,1,0,71090,4,0
+170052,Skittering Breach,170046,1,0,71091,5,0
+170053,Tak-Rethan Abyss,170046,1,0,71092,6,0
+170054,The Dread Pit,170046,1,0,71093,7,0
+170055,The Sinkhole,170046,1,0,71094,8,0
+170056,The Spiral Weave,170046,1,0,71095,9,0
+170057,The Underkeep,170046,1,0,71096,10,0
+170058,The Waterworks,170046,1,0,71097,11,0
+170059,Sidestreet Sluice,170046,1,0,71098,12,0
+170060,Excavation Site 9,170046,1,0,71099,13,0
+170061,Defeat every delve in Khaz Agar on Tier 8 or higher with lives remaining as a tank.,0,0,4,0,0,0
+170062,Earthcrawl Mines,170061,1,0,71100,0,0
+170063,Fungal Folly,170061,1,0,71101,1,0
+170064,Kriegval's Rest,170061,1,0,71102,2,0
+170065,Mycomancer Cavern,170061,1,0,71103,3,0
+170066,Nightfall Sanctum,170061,1,0,71104,4,0
+170067,Skittering Breach,170061,1,0,71105,5,0
+170068,Tak-Rethan Abyss,170061,1,0,71106,6,0
+170069,The Dread Pit,170061,1,0,71107,7,0
+170070,The Sinkhole,170061,1,0,71108,8,0
+170071,The Spiral Weave,170061,1,0,71109,9,0
+170072,The Underkeep,170061,1,0,71110,10,0
+170073,The Waterworks,170061,1,0,71111,11,0
+170074,Sidestreet Sluice,170061,1,0,71112,12,0
+170075,Excavation Site 9,170061,1,0,71113,13,0
+170076,Defeat every delve in Khaz Agar on Tier 11 with lives remaining as a tank.,0,0,4,0,0,0
+170077,Earthcrawl Mines,170076,1,0,71114,0,0
+170078,Fungal Folly,170076,1,0,71115,1,0
+170079,Kriegval's Rest,170076,1,0,71116,2,0
+170080,Mycomancer Cavern,170076,1,0,71117,3,0
+170081,Nightfall Sanctum,170076,1,0,71118,4,0
+170082,Skittering Breach,170076,1,0,71119,5,0
+170083,Tak-Rethan Abyss,170076,1,0,71120,6,0
+170084,The Dread Pit,170076,1,0,71121,7,0
+170085,The Sinkhole,170076,1,0,71122,8,0
+170086,The Spiral Weave,170076,1,0,71123,9,0
+170087,The Underkeep,170076,1,0,71124,10,0
+170088,The Waterworks,170076,1,0,71125,11,0
+170089,Sidestreet Sluice,170076,1,0,71126,12,0
+170090,Excavation Site 9,170076,1,0,71127,13,0
+170091,"Defeat every delve in Khaz Agar on Tier 4 or higher with lives remaining as a Tank, Healer, and Damage Dealer.",0,0,4,0,0,0
+170092,,170091,0,0,71130,2,32
+170093,,170091,0,0,71129,1,32
+170094,,170091,0,0,71128,0,32
+170095,"Defeat every delve in Khaz Agar on Tier 8 or higher with lives remaining as a Damage Dealer, Healer, and Tank.",0,0,4,0,0,0
+170096,,170095,0,0,71131,0,32
+170097,,170095,0,0,71132,1,32
+170098,,170095,0,0,71133,2,32
+170101,Defeat the One-Armed Bandit after activating one Chip Defense Machine in Liberation of Undermine on Normal difficulty or higher.,0,0,4,0,0,0
+170102,,170101,1,0,71135,0,2
+170103,Defeat the One-Armed Bandit after activating two Chip Defense Machines in Liberation of Undermine on Normal difficulty or higher.,0,0,4,0,0,0
+170104,,170103,1,0,71136,0,2
+170105,Defeat the One-Armed Bandit after activating three Chip Defense Machines in Liberation of Undermine on Normal difficulty or higher.,0,0,4,0,0,0
+170106,,170105,1,0,71137,0,2
+170107,Defeat the One-Armed Bandit after activating all four Chip Defense Machines in Liberation of Undermine on Normal difficulty or higher.,0,0,4,0,0,0
+170108,,170107,1,0,71138,0,2
 170109,,168813,0,0,71139,1,0
 170110,,168813,0,0,71140,2,0
+170111,Earn Rated Participation Currency in The War Within Season 2 (A) - Mount,0,0,4,0,0,0
+170112,Win Rated PvP matches during The War Within Season 2 while at 1000 rating or higher,170111,2400,0,71141,0,1
+170113,Earn Rated Participation Currency in The War Within Season 2 (H) - Mount,0,0,4,0,0,0
+170114,Win Rated PvP matches during The War Within Season 2 while at 1000 rating or higher,170113,2400,0,71141,0,1
 170125,Honor the Elders which are located in Khaz Algar.,0,0,4,0,0,0
 170126,Archivist Rubbleglint on The Isle of Dorn,170125,1,0,71153,0,0
 170127,Archivist Coppermoss on The Isle of Dorn,170125,1,0,71154,1,0
@@ -99523,6 +100064,10 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 170148,Clean Up on Isle Siren,170144,1,0,71169,3,0
 170149,Treasures of the Storm,170144,1,0,71170,4,0
 170150,A Choir of Citrine,170144,1,0,71171,5,0
+170151,Darkfuse and Order of Night slain,169763,100,9,0,1,0
+170152,,170151,4,0,62703,0,1
+170153,,170151,8,0,62704,1,1
+170154,,170151,12,0,62705,2,1
 170157,11.0.7 Siiren Isle - Complete 1 of these quests,0,1,8,0,0,4096
 170158,,170157,1,0,71173,0,0
 170159,,170157,1,0,71174,1,0
@@ -99545,6 +100090,16 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 170218,Special Assignment: Storm's a Brewin,170217,1,0,71214,0,0
 170219,Shoreline Stand,170217,1,0,71215,1,0
 170220,Eggstinction,170217,1,0,71216,2,0
+170221,11.1 Delves - Order of Night - V05 - (AT) - Explore further in with Johnny (STM),0,0,4,0,0,0
+170222,Explore further in,170221,0,0,71217,0,32
+170223,11.1 Delves - S2 Intro - Brann's Story - Investigate the nerubian corpse (STM),0,0,4,0,0,0
+170224,Investigate the Crispy Nerubian,170223,0,0,71218,0,32
+170225,Generate Tiny Profit,169901,2,0,71219,3,1
+170226,"8.2 Dungeon - Operation: Mechagon, City - Mythic",0,0,4,0,0,0
+170227,Tussle Tonks defeated,170226,1,0,45301,0,0
+170228,K.U.-J.0. defeated,170226,1,0,45300,1,0
+170229,Machinist's Garden defeated,170226,1,0,45299,2,0
+170230,King Mechagon defeated,170226,1,0,45298,3,0
 170231,Experience life as the Earthen do by completing the achievements below.,0,0,4,0,0,0
 170232,,170231,1,0,71220,0,32
 170233,,170231,1,0,71221,1,32
@@ -99571,9 +100126,29 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 170256,,170248,1,0,71240,7,32
 170257,,170248,1,0,71241,8,32
 170258,,170248,1,0,71242,9,32
+170259,11.1 Delves - Nerubians01 - V05 - Obtain Hookshot (Hufton),0,0,4,0,0,0
+170260,Grappling-Grabber 9000 acquired,170259,0,0,71243,0,32
+170261,11.1 Delves - Nerubians01 - V05 - First Stuck Goblin Saved (Hufton),0,0,4,0,0,0
+170262,Use the Grappling-Grabber 9000 on the Stuck Goblin,170261,0,0,71244,0,32
+170263,War Within Delves: Tier 4 (Season 2),0,0,4,0,0,0
+170264,,170263,0,0,71245,0,0
+170265,War Within Delves: Tier 5 (Season 2),0,0,4,0,0,0
+170266,,170265,0,0,71246,0,0
+170267,War Within Delves: Tier 6 (Season 2),0,0,4,0,0,0
+170268,,170267,0,0,71247,0,0
+170269,War Within Delves: Tier 7 (Season 2),0,0,4,0,0,0
+170270,,170269,0,0,71248,0,0
+170271,War Within Delves: Tier 8 (Season 2),0,0,4,0,0,0
+170272,,170271,0,0,71249,0,0
+170273,War Within Delves: Tier 9 (Season 2),0,0,4,0,0,0
+170274,,170273,0,0,71250,0,0
+170275,War Within Delves: Tier 10 (Season 2),0,0,4,0,0,0
+170276,,170275,0,0,71251,0,0
+170277,War Within Delves: Tier 11 (Season 2),0,0,4,0,0,0
+170278,,170277,0,0,71252,0,0
 170300,"[DNT] Complete quest Grand, Gutsy Solutions",0,0,4,0,0,0
 170301,,170300,0,0,69161,0,0
-170302,End Xalatath's schemes (for now) by completing the achievements below.,0,0,4,0,0,0
+170302,End Xal'atath's schemes (for now) by completing the achievements below.,0,0,4,0,0,0
 170303,,170302,1,0,71255,0,32
 170304,,170302,1,0,71256,1,32
 170305,,170302,1,0,71257,2,32
@@ -99581,6 +100156,10 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 170307,,170302,1,0,71259,4,32
 170308,Unlock Storm Mode,0,0,4,0,0,4096
 170309,,170308,1,0,71260,0,0
+170310,11.1 Delves - Nerubians01 - V05 - Squish Grubs and Save Goblins (Hufton),0,0,4,0,0,0
+170311,Webbed Goblins saved,170310,7,0,71244,0,32
+170312,Grubs Squished,170310,100,9,0,1,0
+170313,,170312,3,0,71261,0,0
 170314,[DNT] Stratholme - Ziggurats Disabled (Timewalking),0,0,4,0,0,0
 170315,Ash'ari Crystals destroyed,170314,3,0,24918,0,0
 170316,Baroness Anastari defeated,170314,1,0,24919,1,0
@@ -99597,6 +100176,19 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 170327,Magistrate Barthilas defeated,170326,1,0,24930,0,0
 170328,7.3 BT Timewalking - Illidan Credit Fix,0,1,8,0,0,4096
 170329,Player defeats Iillidan in timewalking,170328,0,0,71262,0,0
+170330,11.1 Delves - Nerubians01 - V05 - Biggest Bug Slain (Hufton),0,0,4,0,0,0
+170331,The Biggest Bug Slain,170330,1,0,65327,0,32
+170332,(Optional) Use an Arathi Cannon,207351,0,0,71265,0,0
+170333,11.0 Delves - Fungarians01 - V05 - Speak to NPC (MDE),0,0,4,0,0,0
+170334,Speak to Gila Crosswires,170333,0,0,71266,0,32
+170335,11.0 Delves - Fungarians01 - V05 - Drills Operational,0,100,4,0,0,1
+170336,Three drill rigs fully powered,170335,9,9,0,0,32
+170337,Drill Site 1,170336,1,0,71268,0,1
+170341,Drill Site 2,170336,1,0,71275,1,1
+170343,11.0 Delves - Fungarians01 - V05 - Defeat Darkfuse Leader (MDE),0,0,4,0,0,0
+170344,Maulspike defeated,170343,1,0,62763,0,32
+170345,11.1 Delves - Season 2 - Events - 01 -  Treasure Goblin - (STM),0,0,4,0,0,4096
+170346,Treasure Goblin slain,170345,0,0,71267,0,2064
 170347,Aid Zandalar and Kul Tiras by completing the achievements below.,0,0,4,0,0,0
 170348,,170347,1,0,71269,0,32
 170349,,170347,1,0,71270,1,32
@@ -99608,6 +100200,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 170355,,170347,1,0,41137,7,16416
 170356,,170347,1,0,41308,8,32
 170357,,170347,1,0,43123,9,32
+170358,Drill Site 3,170336,1,0,71276,2,1
 170359,Creatures punted,0,6,5,0,0,8193
 170360,,170359,0,0,71277,0,0
 170361,Winter Veil Cracker looted,0,1,8,0,0,8193
@@ -99616,6 +100209,12 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 170364,,170363,0,0,71279,0,0
 170365,Pet battle won,0,0,4,0,0,8193
 170366,,170365,0,0,71280,0,0
+170367,Defeat Vexie and the Geargrinders after crashing a bike into the following objects in Undermine on Normal difficulty or higher.,0,0,4,0,0,0
+170368,Dumpster,170367,1,0,71281,0,0
+170369,Tire Stack,170367,1,0,71282,2,0
+170370,Trash Pile,170367,1,0,71283,1,0
+170371,Storage Crate,170367,1,0,71284,4,0
+170372,Tool Rack,170367,1,0,71285,3,0
 170377,Experience life in Azj-Kahet by completing the achievements below.,0,0,4,0,0,0
 170378,,170377,1,0,71290,0,32
 170379,,170377,1,0,71291,1,32
@@ -99707,10 +100306,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 170499,,170498,1,0,71361,0,32
 170500,,170498,1,0,71362,1,32
 170501,,170498,1,0,71363,2,32
-170502,,170498,1,0,71364,3,32
-170503,,170498,1,0,71365,4,32
-170504,,170498,1,0,71366,5,32
-170505,,170498,1,0,71367,6,16416
+170503,,170498,1,0,71365,3,32
+170504,,170498,1,0,71366,4,32
+170505,,170498,1,0,71367,5,16416
 170507,,170482,1,0,71393,6,16416
 170508,Complete the Zuldazar achievements listed below.,0,0,4,0,0,0
 170509,,170508,1,0,71370,0,32
@@ -99739,11 +100337,57 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 170532,,170526,1,0,71390,5,16416
 170533,,170526,1,0,71391,6,16416
 170534,,170526,1,0,71392,7,16416
+170535,Pressure Valve fixed,169747,18,0,71254,1,0
+170536,Batteries collected,170335,0,4,0,1,32
+170537,Batteries collected,170536,9,0,71394,0,0
+170538,11.1 Delves - Kobolds01 - V05 - Speak with Priest - Kriegval's Rest (AT),0,0,4,0,0,0
+170539,Speak with Balga Wicksfix,170538,0,0,71395,0,32
+170540,11.1 Delves - Kobolds01 - V05 - Extinguish Candles and Defeat Darkfuse - Kriegval's Rest (AT),0,0,4,0,0,0
+170541,Candles purified,170540,6,0,71396,1,32
+170542,Darkfuse defeated,170540,95,9,0,0,1
+170543,11.1 Delves - Kobolds01 - V05 - Defeat Duo Boss - Kriegval's Rest (AT),0,0,4,0,0,0
+170544,Torque Clankfire and Sprok defeated,170543,0,0,71399,0,32
+170545,11.0 Delves - Evolved - V05 - Speak with Madam Goya (MDE),0,0,4,0,0,0
+170546,Speak with Madam Goya,170545,1,0,71398,0,32
+170547,11.0 Delves - Evolved - V05 - Boss Defeated (MDE),0,0,4,0,0,0
+170548,Torque Clankfire and Sprok defeated,170547,1,0,71399,0,32
+170550,11.0 Delves - Evolved - V05 - Black Blood Obtained,0,0,4,0,0,1
+170551,Black Blood Obtained,170574,1,0,71401,0,1
 170552,,163554,0,0,71402,26,0
 170553,,163554,0,0,71403,27,0
 170554,,163554,0,0,71404,28,0
 170555,,163554,0,0,71405,29,0
 170556,,163554,0,0,71406,30,0
+170572,11.1 Undermine - Rare 17 - Complex Rare 02 - Steamwheedle - Bonus Objective (DTM),0,0,4,0,0,4096
+170573,,170572,1,0,71417,0,0
+170574,Black Blood collected,170550,100,9,0,0,32
+170575,Black Blood Obtained,170574,4,0,71418,1,1
+170576,Black Blood Obtained,170574,20,0,71419,2,1
+170577,Darkfuse defeated,170542,4,0,62703,0,1
+170578,Darkfuse defeated,170542,8,0,62704,1,1
+170579,Darkfuse defeated,170542,12,0,62705,2,1
+170580,11.1 Upgrade System - Tutorial - Dornogal - Q01 - 2. Upgrade Something,0,1,4,0,0,4096
+170581,11.1 Upgrade System - Tutorial - Dornogal - Q01 - 2. Upgrade Something,170580,1,8,0,0,0
+170582,S2 Adventurer,170581,1,0,71420,0,0
+170583,S2 Explorer,170581,1,0,71421,1,0
+170584,S2 Veteran,170581,1,0,71422,2,0
+170585,S2 Champion,170581,1,0,71423,3,0
+170586,S2 Hero,170581,1,0,71424,4,0
+170587,S2 Myth,170581,1,0,71425,5,0
+170589,11.1 Raid - Undermine - LFR Wing 1,0,0,4,0,0,0
+170590,Rik Reverb Defeated,170589,1,0,71427,1,0
+170591,Cauldron of Carnage Defeated,170589,1,0,71428,0,0
+170592,11.0 Delves - Evolved - V05 - Valuable Item Collector obtained,0,0,4,0,0,0
+170593,Black Blood Collector obtained,170592,1,0,71426,0,32
+170594,11.1 Raid - Undermine - LFR Wing 2,0,0,4,0,0,0
+170595,Stix Bunkjunker Defeated,170594,1,0,71429,0,0
+170596,Sprocketmonger Lockenstock Defeated,170594,1,0,71430,1,0
+170597,11.1 Raid - Undermine - LFR Wing 3,0,0,4,0,0,0
+170598,Vexie and the Geargrinders Defeated,170597,1,0,71431,0,0
+170599,The One-Armed Bandit Defeated,170597,1,0,71432,1,0
+170600,"Mug'Zee, Heads of Security Defeated",170597,1,0,71433,2,0
+170601,11.1 Raid - Undermine - LFR Wing 4,0,0,4,0,0,0
+170602,Gallywix Defeated,170601,1,0,71434,0,0
 170603,Sikran,136359,1,0,71435,11,0
 170604,Benk Buzzbee,136359,1,0,71436,12,0
 170605,Speaker Shadowcrown,136359,1,0,71437,13,0
@@ -99759,6 +100403,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 170615,,149911,0,0,71439,1,0
 170616,Skyrider Racing world quests completed,0,4,5,0,0,8193
 170617,,170616,0,0,60079,0,0
+170618,"Defeat The Underpin in his lair on Tier ?? without any other players in your party, before the release of the next season of delves.",0,0,4,0,0,0
+170619,,170618,1,0,71440,0,2
 170620,Trading Post - Complete 11.1 Prologue Quest Chain,0,0,4,0,0,0
 170621,Lingering Shadows,170620,1,0,71441,0,0
 170622,No Breathing Room,170620,1,0,71442,1,0
@@ -99787,14 +100433,136 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 170647,The Drain,170646,0,0,71459,0,0
 170648,Contributions made,0,5,5,0,0,8193
 170649,Shuddering Hollow,170648,0,0,71460,0,0
+170650,11.0 Delves - Kobyss01 - V05 - The Sinkhole - Talk to the Orphan,0,0,4,0,0,0
+170651,Speak with Alyza Bowblaze,170650,1,0,71461,0,0
+170652,11.0 Delves - Kobyss01 - V05 - The Sinkhole - Gear up,0,0,4,0,0,0
+170653,Collect Alyza's Diving Equipment,170652,1,0,71462,0,0
+170654,11.0 Delves - Kobyss01 - V05 - The Sinkhole - Clear Out the Sinkhole,0,0,4,0,0,1
+170655,Kobyss eliminated,170654,280,9,0,0,32
+170656,11.0 Delves - Kobyss01 - V05 - The Sinkhole - Boss Encounter,0,0,4,0,0,0
+170657,Cragpie defeated,170656,1,0,66469,0,0
 170660,Cache opened,0,1,5,0,0,8193
 170661,,170660,0,0,71465,0,0
+170662,11.1 Undermine - Rare 16 - Complex Rare 01 - Bilgewater - Bonus Objective (DTM),0,0,4,0,0,4096
+170663,,170662,1,0,71466,0,0
 170664,Cache opened,0,5,5,0,0,8193
 170665,,170664,0,0,71465,0,0
+170666,11.1 Undermine - Rare 18 - Complex Rare 03 - Blackwater - Bonus Objective (AAO),0,0,4,0,0,4096
+170667,,170666,1,0,71468,0,0
+170668,11.1 Undermine - Rare 19 - Complex Rare 04 - Venture - Bonus Objective (AAO),0,0,4,0,0,4096
+170669,,170668,1,0,71469,0,0
+170670,11.1 Delves - Goblins01 - V01 - Enchanted Gold Piles destroyed (STM),0,0,4,0,0,0
+170671,Enchanted Gold Piles destroyed,170670,5,0,71470,0,32
+170672,11.1 Delves - Goblins01 - V01 - Golden Shamans slain (STM),0,0,4,0,0,0
+170673,Golden Shamans slain,170672,7,0,71471,0,32
+170674,11.1 Delves - Goblins01 - V01 - Gold Elemental slain (STM),0,0,4,0,0,0
+170675,Gold Elemental slain,170674,0,0,71472,0,32
+170676,Companion levels obtained - TWW Season 2,0,0,4,0,0,0
+170677,,170676,0,0,71473,0,0
+170678,The War Within companion levels obtained - TWW Season 2,0,0,4,0,0,0
+170679,,170678,0,0,71473,0,0
+170687,11.1 Delves - Goblins01 - V02 - Active Mr. DELVER to switch off hazards (STM),0,0,4,0,0,0
+170688,Activate Mr. DELVER to switch off hazards,170687,0,0,71478,0,32
+170689,11.1 Delves - Goblins01 - V02 - Kidnapped accountants rescued (STM),0,0,4,0,0,0
+170690,Kidnapped mechanics rescued,170689,7,0,71479,0,32
+170691,11.1 Delves - Goblins01 - V02 - Goblin Boss slain (STM),0,0,4,0,0,0
+170692,Vindle Snapcrank slain,170691,0,0,71480,0,32
+170693,,170655,2,0,62701,0,1
+170694,Kobyss eliminated,170655,5,0,62703,1,1
+170695,Kobyss eliminated,170655,20,0,62705,2,1
+170696,Kobyss eliminated,170655,10,0,62704,3,1
+170697,Kobyss eliminated,170655,2,0,62701,4,1
+170698,Alyza's Stewpot recovered,170656,1,0,71463,1,0
+170699,11.1 Delves - Goblins01 - V02 - People defeated (STM),0,0,4,0,0,0
+170700,People defeated,170699,0,0,71481,0,32
+170701,Add a Combat Curio to your collection,0,1,8,0,0,4096
+170702,Combat 1 - Rank 1,170701,1,0,71482,0,0
+170706,Combat 1 - Rank 2,170701,0,0,71483,1,0
+170707,Combat 1 - Rank 3,170701,0,0,71484,2,0
+170708,Combat 1 - Rank 4,170701,0,0,71485,3,0
+170733,Combat 2 - Rank 1,170701,0,0,71486,4,0
+170734,Combat 2 - Rank 2,170701,0,0,71487,5,0
+170735,Combat 2 - Rank 3,170701,0,0,71488,6,0
+170736,Combat 2 - Rank 4,170701,0,0,71489,7,0
+170737,Combat 3 - Rank 1,170701,0,0,71490,8,0
+170738,Combat 3 - Rank 2,170701,0,0,71491,9,0
+170739,Combat 3 - Rank 3,170701,0,0,71492,10,0
+170740,Combat 3 - Rank 4,170701,0,0,71493,11,0
+170741,Combat 4 - Rank 1,170701,0,0,71494,12,0
+170742,Combat 4 - Rank 2,170701,0,0,71495,13,0
+170743,Combat 4 - Rank 3,170701,0,0,71496,14,0
+170744,Combat 4 - Rank 4,170701,0,0,71497,15,0
+170745,Combat 5 - Rank 1,170701,0,0,71498,16,0
+170746,Combat 5 - Rank 2,170701,0,0,71499,17,0
+170747,Combat 5 - Rank 3,170701,0,0,71500,18,0
+170748,Combat 5 - Rank 4,170701,0,0,71501,19,0
+170749,Combat 6 - Rank 1,170701,0,0,71502,20,0
+170750,Combat 6 - Rank 2,170701,0,0,71503,21,0
+170751,Combat 6 - Rank 3,170701,0,0,71504,22,0
+170752,Combat 6 - Rank 4,170701,0,0,71505,23,0
+170753,Combat 7 - Rank 1,170701,0,0,71506,24,0
+170754,Combat 7 - Rank 2,170701,0,0,71507,25,0
+170755,Combat 7 - Rank 3,170701,0,0,71508,26,0
+170756,Combat 7 - Rank 4,170701,0,0,71509,27,0
+170757,Add a Utility Curio to your collection,0,1,8,0,0,4096
+170758,Utility 1 - Rank 1,170757,1,0,71510,0,0
+170759,Utility 1 - Rank 2,170757,0,0,71511,1,0
+170760,Utility 1 - Rank 3,170757,0,0,71512,2,0
+170761,Utility 1 - Rank 4,170757,0,0,71513,3,0
+170762,Utility 2 - Rank 1,170757,0,0,71514,4,0
+170763,Utility 2 - Rank 2,170757,0,0,71515,5,0
+170764,Utility 2 - Rank 3,170757,0,0,71516,6,0
+170765,Utility 2 - Rank 4,170757,0,0,71517,7,0
+170766,Utility 3 - Rank 1,170757,0,0,71518,8,0
+170767,Utility 3 - Rank 2,170757,0,0,71519,9,0
+170768,Utility 3 - Rank 3,170757,0,0,71520,10,0
+170769,Utility 3 - Rank 4,170757,0,0,71521,11,0
+170770,Utility 4 - Rank 1,170757,0,0,71522,12,0
+170771,Utility 4 - Rank 2,170757,0,0,71523,13,0
+170772,Utility 4 - Rank 3,170757,0,0,71524,14,0
+170773,Utility 4 - Rank 4,170757,0,0,71525,15,0
+170774,Utility 5 - Rank 1,170757,0,0,71526,16,0
+170775,Utility 5 - Rank 2,170757,0,0,71527,17,0
+170776,Utility 5 - Rank 3,170757,0,0,71528,18,0
+170777,Utility 5 - Rank 4,170757,0,0,71529,19,0
+170778,Utility 6 - Rank 1,170757,0,0,71530,20,0
+170779,Utility 6 - Rank 2,170757,0,0,71531,21,0
+170780,Utility 6 - Rank 3,170757,0,0,71532,22,0
+170781,Utility 6 - Rank 4,170757,0,0,71533,23,0
+170782,Equip a Combat Curio to your companion,0,1,8,0,0,4096
+170783,,170782,1,0,71538,0,0
+170784,,170782,1,0,71539,4,0
+170785,,170782,1,0,71540,8,0
+170786,,170782,1,0,71541,12,0
+170787,,170782,1,0,71542,16,0
+170788,,170782,1,0,71543,20,0
+170789,,170782,1,0,71544,24,0
+170790,Equip a Utility Curio to your companion,0,1,8,0,0,4096
+170791,,170790,1,0,71545,0,0
+170792,,170790,1,0,71546,1,0
+170793,,170790,1,0,71547,2,0
+170794,,170790,1,0,71548,3,0
+170795,,170790,1,0,71764,6,0
+170796,,170790,1,0,71550,8,0
+170797,,170790,1,0,71551,24,0
+170798,,170790,1,0,71552,12,0
+170799,,170790,1,0,71553,16,0
+170800,,170790,1,0,71554,20,0
+205745,11.0 Delves - Nerubians02 - V05 - Meet with NPC,0,0,4,0,0,0
+205746,Meet with Prospera Cogwail,205745,1,0,71556,0,32
+205747,11.0 Delves - Power Shut Down/Supplies Destroyed (MDE),0,1,4,0,0,0
+205748,Power Controls turned off,205747,3,0,71557,2,32
+205749,Darkfuse Supplies destroyed using Darkfuse Explosives,205747,30,0,71619,1,32
+205750,11.0 Delves - Nerubians02 - V05 - Defeat Boss - Goblin Mech (MDE),0,0,4,0,0,0
+205751,Geargrave defeated,205750,0,0,66452,0,32
 205752,Loot chests,0,2,5,0,0,8193
 205753,,205752,0,0,71559,0,0
 205754,Loot chests,0,10,5,0,0,8193
 205755,,205754,0,0,71559,0,0
+205758,11.1 Delves - Nerubians04 - V05 - Speak with Entrance NPC (Hufton),0,0,4,0,0,0
+205759,Speak with the Nerubian Scout,205758,0,0,71561,0,32
+205764,"Defeat Mug'Zee, Heads of Security while all players are dyed the same color in Liberation of Undermine on Normal difficulty or higher.",0,0,4,0,0,0
+205765,,205764,1,0,71564,0,2
 205777,"[DNT] Has Achievement ""Family Battler of Khaz Algar""",0,0,4,0,0,0
 205778,,205777,0,0,71575,0,0
 205779,Pieces of Hate slain,0,0,4,0,0,8192
@@ -99808,8 +100576,139 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 205787,Enemies slain,0,40,5,0,0,8193
 205788,,205787,0,0,71577,0,0
 205789,,205787,0,0,71578,1,0
+205790,Complete all Worldsoul Memory events in Undermine.,0,0,4,0,0,16
+205791,Early Cartel Wars,205790,1,0,71579,0,0
+205792,Kaja'mite Contact,205790,1,0,71580,1,0
+205793,11.1 Undermine - Radiant Chords Rare Elites (KNF),0,0,4,0,0,0
+205794,Prototype Shredder Unit,205793,1,0,71581,0,0
+205795,Peet the Wheedler,205793,1,0,71582,1,0
+205796,Vynnie Samophlangus,205793,1,0,71583,2,0
+205797,Madam Colada,205793,1,0,71584,3,0
+205798,Mookcenary Captain Freg,205793,1,0,71585,4,0
+205799,Deep-King Grobrosh,205793,1,0,71586,5,0
+205800,Roxarix the Caveborer,205793,1,0,71587,6,0
+205801,Geomancer Keeri,205793,1,0,71588,7,0
+205802,Massive Kaja'mental,205793,1,0,71589,8,0
+205803,Taskmaster Zendu,205793,1,0,71590,9,0
+205804,11.1 Undermine - Rares (KNF),0,10,8,0,0,0
+205805,Scrap Beak,205804,1,0,71591,0,0
+205806,Ratspit,205804,1,0,71592,1,0
+205807,Tally Doublespeak,205804,0,0,71593,2,0
+205808,Slimesby,205804,1,0,71594,3,0
+205809,V.V. Goosworth,205804,1,0,71595,4,0
+205810,Thwack,205804,1,0,71596,5,0
+205811,S.A.L.,205804,1,0,71597,6,0
+205812,Nitro,205804,1,0,71598,7,0
+205813,Candy Stickemup,205804,1,0,71599,8,0
+205814,Grimewick,205804,1,0,71600,9,0
+205815,Swigs Farsight,205804,1,0,71601,10,0
+205816,Ephemeral Agent Lathyd,205804,1,0,71602,11,0
+205817,The Junk-Wall,205804,1,0,71603,12,0
+205818,Slugger the Smart,205804,1,0,71604,13,0
+205819,Chief Foreman Gutso,205804,1,0,71605,14,0
+205820,Flyboy Snooty,205804,1,0,71606,15,0
+205822,M.A.G.N.O.,205804,1,0,71608,16,0
+205823,Giovante,205804,1,0,71609,17,0
+205824,Scrapchewer,205804,1,0,71610,18,0
+205825,Volstrike the Charged,205804,1,0,71611,19,0
+205826,Darkfuse Precipitant,205804,1,0,71612,20,0
+205827,11.1 Undermine - Unique Treasures (KNF),0,0,4,0,0,0
+205828,Unexploded Fireworks,205827,1,0,71613,0,0
+205829,Suspicious Book,205827,1,0,71624,1,0
+205830,Fireworks Hat,205827,1,0,71614,2,0
+205831,Exploded Plunger,205827,1,0,71615,3,0
+205832,Blackened Dice,205827,1,0,71625,4,0
+205833,Lonely Tub,205827,1,0,71626,5,0
+205834,Potent Potable,205827,1,0,71627,6,0
+205835,Abandoned Toolbox,205827,1,0,71628,7,0
+205836,Papa's Prized Putter,205827,1,0,71629,8,0
+205837,Unsupervised Takeout,205827,0,0,71630,9,0
+205850,Use Darkfuse Explosives,205747,1,0,71618,0,0
+205851,11.1 Delves - Nerubians04 - V05 - Web Bomb Acquired (Hufton),0,0,4,0,0,0
+205852,Web Bomb Acquired,205851,0,0,71620,0,32
 205853,11.0.7 Void Zone - Plunderstorm Plunder Tracker - Mainline Power,0,1,8,0,0,0
 205854,,205853,5000,0,103734,0,0
+205855,11.1 Delves - Nerubians04 - V05 - Ballista Loaded and Fired (Hufton),0,0,4,0,0,0
+205856,Ballista Loaded,205855,0,0,71622,0,32
+205857,Ballista Fired,205855,0,0,71623,1,32
+205858,Particularly Nice Lamp,205827,1,0,71631,10,0
+205859,Uncracked Cold Ones,205827,1,0,71632,11,0
+205860,Marooned Floatmingo,205827,1,0,71633,12,0
+205861,Trick Deck of Cards,205827,1,0,71634,13,0
+205862,Crumpled Schematics,205827,1,0,71635,14,0
+205863,11.1 Delves - Goblins - V03 - Progress Bar - (STM),0,100,4,0,0,1
+205864,Darkfuse operations disrupted,205863,160,9,0,0,32
+205865,Repel Nerubian Invasion (T1),205864,5,0,62703,0,1
+205866,Repel Nerubian Invasion (T3),205864,10,0,62705,1,1
+205867,Repel Nerubian Invasion (T2),205864,8,0,62704,2,1
+205868,Darkfuse operations disrupted,205864,2,0,62701,3,1
+205869,11.1 Delves - Goblins01 - V03 - Disrupt nearby teleportation beacon (STM),0,0,4,0,0,0
+205870,Disrupt nearby teleportation beacon,205869,0,0,71636,0,32
+205871,11.1 Delves - Goblins01 - V03 - Defeat Boss (STM),0,0,4,0,0,0
+205872,Geargrave slain,205871,0,0,71637,0,32
+205873,11.0 Delves - Nerubians03 - V05 - Interact NPC (MDE),0,0,4,0,0,0
+205874,Discuss plan with Lamplighter Kaerter,205873,1,0,66541,0,32
+205875,11.0 Delves - Nerubians03 - V05 - Kill Stuff (MDE),0,0,4,0,0,0
+205876,Dark-Tainted Relics sealed,205875,12,0,71641,1,32
+205877,Dangerous threats eliminated,205875,260,9,0,0,32
+205878,Repel Nerubian Invasion,205877,8,0,62703,0,1
+205879,Repel Nerubian Invasion (T2),205877,14,0,62704,2,1
+205880,Repel Nerubian Invasion (T3),205877,30,0,62705,3,1
+205881,Repel Nerubian Invasion,205877,2,0,62701,1,1
+205882,11.0 Delves - Nerubians03 - V05 - Defeat Boss,0,0,4,0,0,0
+205883,Nerl'athekk the Skulking defeated,205882,1,0,66546,0,2080
+205884,Darkfuse operations disrupted,205864,8,0,71639,4,1
+205885,Remote Teleporter recovered,205863,1,0,71640,1,1
+205886,11.1 Delves - Goblins - V03 - Remote Teleporter,0,100,4,0,0,1
+205887,Remote Teleporter recovered,205886,1,0,71640,0,1
+205892,Enemy Forces,157345,992,9,0,3,0
+205893,,205892,1,0,48468,1,0
+205894,,205892,10,0,50191,2,0
+205895,,205892,100,0,50192,3,0
+205896,,205892,20,0,71644,4,0
+205897,,205892,10,0,71645,5,0
+205898,,205892,10,0,71646,6,0
+205899,,205892,25,0,71647,7,0
+205900,,205892,12,0,71648,8,0
+205901,,205892,10,0,71649,9,0
+205902,,205892,15,0,71650,10,0
+205903,,205892,12,0,71651,11,0
+205904,,205892,25,0,71652,12,0
+205905,,205892,1,0,71653,13,0
+205906,,205892,22,0,71654,14,0
+205907,,205892,25,0,71655,15,0
+205908,Baron Braunpyke defeated,157289,1,0,71656,1,0
+205909,Prioress Murrpray defeated,157289,1,0,71660,2,0
+205910,,157377,9,0,50191,0,0
+205911,,157377,96,0,50192,1,0
+205912,,157377,99999,0,48468,2,0
+205913,,157377,3,0,71657,3,0
+205914,,157377,18,0,71661,4,0
+205915,,157377,1,0,71662,5,0
+205916,,157377,1,0,71663,6,0
+205917,,157377,1,0,71658,7,0
+205929,,157377,14,0,71664,8,0
+205930,,157377,6,0,71665,9,0
+205931,,157377,50,0,71666,10,0
+205932,,157377,6,0,71667,11,0
+205933,,157377,5,0,71668,12,0
+205934,,157377,50,0,71669,13,0
+205935,,157377,50,0,71670,14,0
+205936,,157377,50,0,71671,15,0
+205937,,157377,18,0,71672,16,0
+205938,,157377,4,0,71673,17,0
+205939,,157377,6,0,71674,18,0
+205940,,157377,50,0,71675,19,0
+205941,,157377,50,0,71676,20,0
+205942,,157377,50,0,71677,21,0
+205943,,157377,6,0,71678,22,0
+205944,,157377,10,0,71679,23,0
+205945,11.0 Delves - Kobolds02 - V05 - Talk to NPC (MDE),0,0,4,0,0,0
+205946,Speak with Pamsy,205945,1,0,64509,0,32
+205947,11.0 Delves - Kobolds02 - V05 - Boss Defeated (MDE),0,0,4,0,0,0
+205948,Vindle Snapcrank defeated,205947,0,0,64738,0,32
+205949,11.0 Delves - Abyss - V05 - Rescue (MDE),0,0,4,0,0,0
+205955,Pamsy's crew rescued,205949,3,0,71713,0,32
 205956,Logged in during WoW's 20th Anniversary.,0,0,4,0,0,0
 205957,Logged in during WoW's 20th Anniversary.,205956,1,0,71681,0,2
 205958,11.0 War Within - Legion - Bonus Event Weekend - Timewalking (Cata) - Low Level,0,5,5,0,0,4096
@@ -99827,6 +100726,63 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 205970,,205958,1,0,71693,11,2
 205971,,205958,1,0,71694,12,2
 205972,,205958,1,0,71695,13,2
+205973,Liberation of Undermine,0,0,4,0,0,0
+205974,Vexie and the Geargrinders,205973,1,0,71696,0,0
+205975,Cauldron of Carnage,205973,1,0,71697,1,0
+205976,Rik Reverb,205973,1,0,71698,2,0
+205977,Stix Bunkjunker,205973,1,0,71699,3,0
+205978,Sprocketmonger Lockenstock,205973,1,0,71700,4,0
+205979,The One-Armed Bandit,205973,1,0,71701,5,0
+205980,"Mug'Zee, Heads of Security",205973,1,0,71702,6,0
+205981,Chrome King Gallywix,205973,1,0,71703,7,0
+205982,Heroic: Liberation of Undermine,0,0,4,0,0,0
+205983,Vexie and the Geargrinders,205982,1,0,71704,0,16
+205984,Cauldron of Carnage,205982,1,0,71705,1,16
+205985,Rik Reverb,205982,1,0,71706,2,16
+205986,Stix Bunkjunker,205982,1,0,71707,3,16
+205987,Sprocketmonger Lockenstock,205982,1,0,71708,4,16
+205988,The One-Armed Bandit,205982,1,0,71709,5,16
+205989,"Mug'Zee, Heads of Security",205982,1,0,71710,6,16
+205990,Chrome King Gallywix,205982,1,0,71711,7,16
+205991,Achievement - Undermine - Wing 1,0,0,4,0,0,0
+205992,Cauldron of Carnage,205991,1,0,71697,1,0
+205993,Rik Reverb,205991,1,0,71698,2,0
+205994,Achievement - Undermine - Wing 2,0,0,4,0,0,0
+205995,Stix Bunkjunker,205994,1,0,71699,0,0
+205996,Sprocketmonger Locknstock,205994,1,0,71700,1,0
+205997,Achievement - Undermine - Wing 3,0,0,4,0,0,0
+205998,One-Armed Bandit,205997,1,0,71701,0,0
+205999,"Mug'Zee, Heads of Security",205997,1,0,71702,1,0
+206000,Vexie and the Geargrinders,205991,1,0,71696,0,0
+206001,Achievement - Undermine - Wing 4,0,0,4,0,0,0
+206002,Chrome King Gallywix,206001,1,0,71703,0,0
+206003,Achievement - Undermine - Wing 4,0,0,4,0,0,0
+206004,Chrome King Gallywix,206003,1,0,71703,0,0
+206005,Achievement - Mythic: Vexie and the Geargrinders,0,0,4,0,0,0
+206006,,206005,1,0,71712,0,2
+206007,Achievement - Mythic: Cauldron of Carnage,0,0,4,0,0,0
+206008,,206007,1,0,71714,0,2
+206009,Achievement - Mythic: Rik Reverb,0,0,4,0,0,0
+206010,,206009,1,0,71715,0,2
+206011,Achievement - Mythic: Stix Bunkjunker,0,0,4,0,0,0
+206012,,206011,1,0,71716,0,2
+206013,Achievement - Mythic: Sprocketmonger Locknstock,0,0,4,0,0,0
+206014,,206013,1,0,71717,0,2
+206015,Achievement - Mythic: The One-Armed Bandit,0,0,4,0,0,0
+206016,,206015,1,0,71718,0,2
+206017,"Achievement - Mythic: Mug'Zee, Heads of Security",0,0,4,0,0,0
+206018,,206017,1,0,71719,0,2
+206019,Achievement - Mythic: Chrome King Gallywix,0,0,4,0,0,0
+206020,,206019,1,0,71720,0,2
+206021,Mythic: Liberation of Undermine,0,0,4,0,0,0
+206022,,206021,0,0,71721,0,32
+206023,,206021,0,0,71722,1,32
+206024,,206021,0,0,71723,2,32
+206025,,206021,0,0,71724,3,32
+206026,,206021,0,0,71725,4,32
+206027,,206021,0,0,71726,5,32
+206028,,206021,0,0,71727,6,32
+206029,,206021,0,0,71728,7,32
 206030,11.0 War Within - Legion - Bonus Event Weekend - Timewalking (Mists) - Low Level,0,5,5,0,0,4096
 206031,,206030,5,0,71729,0,2
 206032,,206030,5,0,71730,1,2
@@ -99843,6 +100799,20 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 206043,,206038,5,0,71740,4,2
 206044,,206038,5,0,71741,5,2
 206045,,206038,5,0,71742,6,2
+206048,Hazards of Slimediving,168182,0,0,71744,2,16
+206049,"Oh, Rats!",168182,0,0,71745,3,16
+206050,The Perfect Wedding,168182,0,0,71749,4,16
+206051,Copyright Infringement,168182,0,0,71750,5,16
+206052,,207027,0,0,71751,1,0
+206053,The G.O.L.E.M. of Progress,168182,0,0,71753,6,16
+206054,The Verdigrease Knight,168182,0,0,71754,7,16
+206055,Hard Ways at the Gallagio,168182,0,0,71755,8,16
+206056,Property Devalued,168182,0,0,71756,9,16
+206057,G.E.T.A.,168182,0,4,0,10,8240
+206058,,206057,0,0,71746,0,0
+206059,,206057,0,0,71747,1,0
+206060,,206057,0,0,71748,2,0
+206061,Kaja'Curiosity,168182,0,0,71752,11,16
 206062,11.0 War Within - Shadowlands - Bonus Event Weekend - Timewalking (Legion) - Low Level,0,5,5,0,0,4096
 206063,,206062,5,0,71757,0,2
 206064,,206062,5,0,71758,1,2
@@ -99850,8 +100820,121 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 206066,,206062,5,0,71760,3,2
 206067,,206062,5,0,71761,4,2
 206068,,206062,5,0,71762,5,2
+206069,,170790,1,0,71549,4,0
+206070,,170790,1,0,71763,5,0
+206071,,170790,1,0,71765,7,0
+206076,11.1 Delves - Tak-Rethan Abyss - Collect the Chillburst Canister (MDE),0,0,4,0,0,0
+206077,Collect the Chillburst Canister,206076,1,0,71768,0,0
+206078,11.1 Delves - Tak-Rethan Abyss - Goblin Pumps disabled,0,0,4,0,0,0
+206079,Goblin Pumps disabled using Chillburst,206078,8,0,71769,0,0
+206080,11.1 Delves - Collect Diving Equipment,0,0,4,0,0,0
+206081,Diving Equipment collected,206080,1,0,71462,0,0
 206099,,163662,0,0,71778,1,2
+206102,,82788,7,0,71780,10,0
 206103,,161920,1,0,71781,4,0
+206104,Achievement - Glory of the Liberation of Undermine Raider,0,0,4,0,0,0
+206105,,206104,0,0,71782,0,32
+206106,,206104,0,0,71783,1,32
+206115,Guild Achievement - Liberation of Undermine,0,0,4,0,0,0
+206116,,206115,1,0,71788,0,32
+206117,,206115,1,0,71789,1,32
+206118,,206115,1,0,71790,2,32
+206119,,206115,1,0,71791,3,32
+206120,,206115,1,0,71792,4,32
+206121,,206115,1,0,71793,5,32
+206122,,206115,1,0,71794,6,32
+206123,,206115,1,0,71796,7,32
+206126,Heroic: Guild Achievement - Liberation of Undermine,0,0,4,0,0,0
+206127,,206126,1,0,71798,0,32
+206128,,206126,1,0,71799,1,32
+206129,,206126,1,0,71800,2,32
+206130,,206126,1,0,71801,3,32
+206131,,206126,1,0,71802,4,32
+206132,,206126,1,0,71803,5,32
+206133,,206126,1,0,71804,6,32
+206134,,206126,1,0,71805,7,32
+206135,Mythic: Guild Achievement - Liberation of Undermine,0,0,4,0,0,0
+206136,,206135,1,0,71806,0,2
+206143,Achievement - Hall of Fame: Chrome King Gallywix,0,0,4,0,0,0
+206144,,206143,1,0,71809,0,2
+206145,Achievement - Cutting Edge: Chrome King Gallywix,0,0,4,0,0,0
+206146,,206145,1,0,71810,0,2
+206147,Achievement - Ahead of the Curve: Chrome King Gallywix,0,0,4,0,0,0
+206148,,206147,1,0,71811,0,2
+206149,Statistic - 11.1 Raid - Undermine - Biker Gang - LFR,0,0,4,0,0,0
+206150,,206149,0,0,71431,0,2
+206151,Statistic - 11.1 Raid - Undermine - Biker Gang - Normal,0,0,4,0,0,0
+206152,,206151,0,0,71812,0,2
+206153,Statistic - 11.1 Raid - Undermine - Biker Gang - Heroic,0,0,4,0,0,0
+206154,,206153,0,0,71704,0,2
+206155,Statistic - 11.1 Raid - Undermine - Biker Gang - Mythic,0,0,4,0,0,0
+206156,,206155,0,0,71712,0,2
+206157,Statistic - 11.1 Raid - Undermine - Arena - LFR,0,0,4,0,0,0
+206158,,206157,0,0,71428,0,2
+206159,Statistic - 11.1 Raid - Undermine - Arena - Normal,0,0,4,0,0,0
+206160,,206159,0,0,71813,0,2
+206161,Statistic - 11.1 Raid - Undermine - Arena - Heroic,0,0,4,0,0,0
+206162,,206161,0,0,71705,0,2
+206163,Statistic - 11.1 Raid - Undermine - Arena - Mythic,0,0,4,0,0,0
+206164,,206163,0,0,71714,0,2
+206165,Statistic - 11.1 Raid - Undermine - Promoter - LFR,0,0,4,0,0,0
+206166,,206165,0,0,71427,0,2
+206167,Statistic - 11.1 Raid - Undermine - Promoter - Normal,0,0,4,0,0,0
+206168,,206167,0,0,71814,0,2
+206169,Statistic - 11.1 Raid - Undermine - Promoter - Heroic,0,0,4,0,0,0
+206170,,206169,0,0,71706,0,2
+206171,Statistic - 11.1 Raid - Undermine - Promoter - Mythic,0,0,4,0,0,0
+206172,,206171,0,0,71715,0,2
+206173,Statistic - 11.1 Raid - Undermine - Junkyard - LFR,0,0,4,0,0,0
+206174,,206173,0,0,71429,0,2
+206175,Statistic - 11.1 Raid - Undermine - Junkyard - Normal,0,0,4,0,0,0
+206176,,206175,0,0,71815,0,2
+206177,Statistic - 11.1 Raid - Undermine - Junkyard - Heroic,0,0,4,0,0,0
+206178,,206177,0,0,71707,0,2
+206179,Statistic - 11.1 Raid - Undermine - Junkyard - Mythic,0,0,4,0,0,0
+206180,,206179,0,0,71716,0,2
+206181,Statistic - 11.1 Raid - Undermine - Refinery - LFR,0,0,4,0,0,0
+206182,,206181,0,0,71430,0,2
+206183,Statistic - 11.1 Raid - Undermine - Refinery - Normal,0,0,4,0,0,0
+206184,,206183,0,0,71816,0,2
+206185,Statistic - 11.1 Raid - Undermine - Refinery - Heroic,0,0,4,0,0,0
+206186,,206185,0,0,71708,0,2
+206187,Statistic - 11.1 Raid - Undermine - Refinery - Mythic,0,0,4,0,0,0
+206188,,206187,0,0,71717,0,2
+206189,Statistic - 11.1 Raid - Undermine - Casino - LFR,0,0,4,0,0,0
+206190,,206189,0,0,71432,0,2
+206191,Statistic - 11.1 Raid - Undermine - Casino - Normal,0,0,4,0,0,0
+206192,,206191,0,0,71817,0,2
+206193,Statistic - 11.1 Raid - Undermine - Casino - Heroic,0,0,4,0,0,0
+206194,,206193,0,0,71709,0,2
+206195,Statistic - 11.1 Raid - Undermine - Casino - Mythic,0,0,4,0,0,0
+206196,,206195,0,0,71718,0,2
+206197,Statistic - 11.1 Raid - Undermine - Ogre - LFR,0,0,4,0,0,0
+206198,,206197,0,0,71433,0,2
+206199,Statistic - 11.1 Raid - Undermine - Ogre - Normal,0,0,4,0,0,0
+206200,,206199,0,0,71818,0,2
+206201,Statistic - 11.1 Raid - Undermine - Ogre - Heroic,0,0,4,0,0,0
+206202,,206201,0,0,71710,0,2
+206203,Statistic - 11.1 Raid - Undermine - Ogre - Mythic,0,0,4,0,0,0
+206204,,206203,0,0,71719,0,2
+206205,Statistic - 11.1 Raid - Undermine - Gallywix - LFR,0,0,4,0,0,0
+206206,,206205,0,0,71434,0,2
+206207,Statistic - 11.1 Raid - Undermine - Gallywix - Normal,0,0,4,0,0,0
+206208,,206207,0,0,71819,0,2
+206209,Statistic - 11.1 Raid - Undermine - Gallywix - Heroic,0,0,4,0,0,0
+206210,,206209,0,0,71711,0,2
+206211,Statistic - 11.1 Raid - Undermine - Gallywix - Mythic,0,0,4,0,0,0
+206212,,206211,0,0,71720,0,2
+206213,11.1 Delves - Nerubians04 - V05 - Mechanized Reinforcements slain (Hufton),0,0,4,0,0,0
+206214,Mechanized Reinforcements slain,206213,12,0,71820,0,32
+206215,11.1 Delves - Nerubians04 - V05 - Boss Defeated (Hufton),0,0,4,0,0,0
+206216,Geargrave Slain,206215,1,0,66088,0,32
+206217,11.1 Raid - Undermine - Story Mode,0,0,4,0,0,0
+206218,Chrome King Gallywix defeated,206217,1,0,71822,0,0
+206219,Chrome King Gallywix defeated,0,0,4,0,0,4096
+206220,,206219,1,0,71823,0,0
+206221,Defeat the bosses in Operation: Floodgate,0,0,4,0,0,4096
+206222,Geezle Gigazap slain,206221,1,0,95420,0,0
 206223,Bonus Event Weekend - Timewalking (Classic),0,5,5,0,0,4096
 206224,,206223,1,0,95422,0,2
 206225,,206223,1,0,95423,1,2
@@ -99859,27 +100942,1046 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 206227,,206223,1,0,95425,3,2
 206228,,206223,1,0,95426,4,2
 206229,,206223,1,0,95427,5,2
+206234,Plundered Artifacts recovered,206213,15,0,95541,1,32
+206242,11.1 Undermine - SCRAP - Weekly Cartel Chosen (KNF),0,1,8,0,0,4096
+206243,,206242,0,0,95560,0,0
+206244,,206242,0,0,95561,1,0
+206245,,206242,0,0,95562,2,0
+206246,,206242,0,0,95563,3,0
+206247,11.1 Undermine - S&H - Weekly Cartel Chosen (KNF),0,1,8,0,0,4096
+206248,,206247,0,0,95564,0,0
+206249,,206247,0,0,95565,1,0
+206250,,206247,0,0,95566,2,0
+206251,,206247,0,0,95567,3,0
+206252,G-99 Breakneck,0,0,4,0,0,0
+206253,,206252,1,0,95569,0,2
+206254,11.1 Undermine - S&H - Weekly Cartel Chosen (KNF),0,1,8,0,0,4096
+206255,,206254,0,0,102635,0,0
+206256,,206254,0,0,102636,1,0
+206257,,206254,0,0,102637,2,0
+206258,,206254,0,0,102638,3,0
+206259,,170790,1,0,102648,9,0
+206260,,170790,1,0,102649,10,0
+206261,,170790,1,0,102650,11,0
+206262,,170790,1,0,102651,13,0
+206263,,170790,1,0,102652,14,0
+206264,,170790,1,0,102653,15,0
+206265,,170790,1,0,102654,17,0
+206266,,170790,1,0,102655,18,0
+206267,,170790,1,0,102656,19,0
+206268,,170790,1,0,102657,21,0
+206269,,170790,1,0,102659,22,0
+206270,,170790,1,0,102658,23,0
+206271,,170782,1,0,102660,1,0
+206272,,170782,1,0,102661,2,0
+206273,,170782,1,0,102662,3,0
+206274,,170782,1,0,102663,5,0
+206275,,170782,1,0,102664,6,0
+206276,,170782,1,0,102665,7,0
+206277,,170782,1,0,102666,9,0
+206278,,170782,1,0,102667,10,0
+206279,,170782,1,0,102668,11,0
+206280,,170782,1,0,102669,13,0
+206281,,170782,1,0,102670,14,0
+206282,,170782,1,0,102671,15,0
+206283,,170782,1,0,102672,17,0
+206284,,170782,1,0,102673,18,0
+206285,,170782,1,0,102674,19,0
+206286,,170782,1,0,102675,21,0
+206287,,170782,1,0,102676,22,0
+206288,,170782,1,0,102677,23,0
+206289,,170782,1,0,102678,25,0
+206290,,170782,1,0,102679,26,0
+206291,,170782,1,0,102680,27,0
+206292,"Defeat Mug'Zee, Heads of Security while all players have slept with the fishes in Liberation of Undermine on Normal difficulty or higher.",0,0,4,0,0,0
+206293,All players slept with the fishes.,206292,1,0,103190,0,0
+206294,11.1 Raid - Undermine - Boss - Promoter - Achievement Criteria,0,0,4,0,0,0
+206295,D.I.S.C.O.s Activated!,206294,1,0,102689,0,0
+206296,,170790,1,0,102690,25,0
+206297,,170790,1,0,102691,26,0
+206298,,170790,1,0,102692,27,0
+206299,Geezle Gigazap,0,0,4,0,0,0
+206300,Defeat Geezle Gigazap,206299,0,0,70045,0,2
+206301,Geezle Gigazap (Heroic+),0,0,4,0,0,0
+206302,Defeat Geezle Gigazap,206301,0,0,102694,0,2
+206303,Geezle Gigazap (Mythic),0,0,4,0,0,0
+206304,Defeat Geezle Gigazap,206303,0,0,102695,0,2
+206305,Statistic - Geezle Gigazap (Normal),0,0,4,0,0,0
+206306,,206305,0,0,102696,0,2
+206307,Statistic - Geezle Gigazap (Heroic),0,0,4,0,0,0
+206308,,206307,0,0,102697,0,2
+206309,Statistic - Geezle Gigazap (Mythic),0,0,4,0,0,0
+206310,,206309,0,0,102695,0,2
+206311,11.1 Raid - Undermine - Gallywix - Achievement Criteria,0,0,4,0,0,0
+206312,Giga Bomb Detonation 3 Giga Controls during a single Giga Coils,206311,1,0,102745,0,0
+206313,Achievement - Operation: Floodgate Keystone Hero (10+),0,0,4,0,0,0
+206314,Operation: Floodgate,206313,1,0,102746,0,0
+206315,Delver's Cosmetic Surprise Bag purchased from Reno Jackson,0,0,4,0,0,6144
+206316,,206315,0,0,102749,0,0
+206317,Delver's Starter Kit purchased from Sir Finley Mrrgglton,0,0,4,0,0,6144
+206318,,206317,0,0,102750,0,0
+206319,11.1 Undermine - Reputations - Honored with the Cartels,0,0,4,0,0,0
+206320,Bilgewater Cartel,206319,9000,0,102751,0,0
+206321,Blackwater Cartel,206319,9000,0,102752,1,0
+206322,Steamwheedle Cartel,206319,9000,0,102753,2,0
+206323,Venture Co.,206319,9000,0,102754,3,0
+206324,11.1 Undermine - Reputations - Exalted with Darkfuse Solutions,0,0,4,0,0,0
+206325,,206324,42000,0,102755,0,0
+206326,11.1 Undermine - Reputations - Revered with the Cartels,0,0,4,0,0,0
+206327,Bilgewater Cartel,206326,21000,0,102751,0,0
+206328,Blackwater Cartel,206326,21000,0,102752,1,0
+206329,Steamwheedle Cartel,206326,21000,0,102753,2,0
+206330,Venture Co.,206326,21000,0,102754,3,0
+206331,11.1 Undermine - Reputations - Exalted with the Cartels,0,0,4,0,0,0
+206332,Bilgewater Cartel,206331,42000,0,102751,0,0
+206333,Blackwater Cartel,206331,42000,0,102752,1,0
+206334,Steamwheedle Cartel,206331,42000,0,102753,2,0
+206335,Venture Co.,206331,42000,0,102754,3,0
+206336,Earn a 1500 personal rating in Rated Solo Shuffle in Season 39 (TWW 2),0,0,4,0,0,0
+206337,1500 rating,206336,1500,0,70047,0,2
+206338,Earn a 2000 personal rating in Rated Solo Shuffle in Season 39 (TWW 2),0,0,4,0,0,0
+206339,2000 rating,206338,2000,0,70047,0,2
+206340,Earn a 2200 personal rating in Rated Solo Shuffle in Season 39 (TWW 2),0,0,4,0,0,0
+206341,2200 rating,206340,2200,0,70047,0,2
+206342,Earn a 2400 personal rating in Rated Solo Shuffle in Season 39 (TWW 2),0,0,4,0,0,0
+206343,2400 rating,206342,2400,0,70047,0,2
+206344,Earn a 2600 personal rating in Rated Solo Shuffle in Season 39 (TWW 2),0,0,4,0,0,0
+206345,2600 rating,206344,2600,0,70047,0,2
+206346,Earn a 2800 personal rating in Rated Solo Shuffle in Season 39 (TWW 2),0,0,4,0,0,0
+206347,2800 rating,206346,2800,0,70047,0,2
+206348,Earn a 3000 personal rating in Rated Solo Shuffle in Season 39 (TWW 2),0,0,4,0,0,0
+206349,3000 rating,206348,3000,0,70047,0,2
+206350,Win 100 Rated Solo Shuffle rounds while at Elite rank during The War Within Season 2.,0,0,4,0,0,0
+206351,,206350,100,0,102756,0,1
+206352,Win 50 Solo Shuffle rounds as a Healer at or above Rival I during The War Within Season 2.,0,0,4,0,0,0
+206353,,206352,50,0,102757,0,1
+206354,Win 100 Solo Shuffle rounds as a Healer at or above Rival I during The War Within.,0,0,4,0,0,0
+206355,,206354,100,0,102757,0,1
+206356,Earn a 1500 personal rating in the 2v2 bracket of the arena in Season 39 (TWW 2),0,0,4,0,0,0
+206357,1500 rating,206356,1500,0,70049,0,2
+206358,Earn a 2000 personal rating in the 2v2 bracket of the arena in Season 39 (TWW 2),0,0,4,0,0,0
+206359,2000 rating,206358,2000,0,70049,0,2
+206360,Earn a 2200 personal rating in the 2v2 bracket of the arena in Season 39 (TWW 2),0,0,4,0,0,0
+206361,2200 rating,206360,2200,0,70049,0,2
+206362,Earn a 2400 personal rating in the 2v2 bracket of the arena in Season 39 (TWW 2),0,0,4,0,0,0
+206363,2400 rating,206362,2400,0,70049,0,2
+206364,Earn a 2600 personal rating in the 2v2 bracket of the arena in Season 39 (TWW 2),0,0,4,0,0,0
+206365,2600 rating,206364,2600,0,70049,0,2
+206366,Earn a 2800 personal rating in the 2v2 bracket of the arena in Season 39 (TWW 2),0,0,4,0,0,0
+206367,2800 rating,206366,2800,0,70049,0,2
+206368,Earn a 3000 personal rating in the 2v2 bracket of the arena in Season 39 (TWW 2),0,0,4,0,0,0
+206369,3000 rating,206368,3000,0,70049,0,2
+206370,Earn a 2600 personal rating in the 2v2 bracket of the arena in Season 39 (TWW 2),0,0,4,0,0,0
+206371,2800 rating,206370,2600,0,70049,0,2
+206372,Earn a 1500 personal rating in the 3v3 bracket of the arena in Season 39 (TWW 2),0,0,4,0,0,0
+206373,1500 rating,206372,1500,0,70048,0,2
+206374,Earn a 2000 personal rating in the 3v3 bracket of the arena in Season 39 (TWW 2),0,0,4,0,0,0
+206375,2000 rating,206374,2000,0,70048,0,2
+206376,Earn a 2200 personal rating in the 3v3 bracket of the arena in Season 39 (TWW 2),0,0,4,0,0,0
+206377,2200 rating,206376,2200,0,70048,0,2
+206378,Earn a 2400 personal rating in the 3v3 bracket of the arena in Season 39 (TWW 2),0,0,4,0,0,0
+206379,2400 rating,206378,2400,0,70048,0,2
+206380,Earn a 2600 personal rating in the 3v3 bracket of the arena in Season 39 (TWW 2),0,0,4,0,0,0
+206381,2600 rating,206380,2600,0,70048,0,2
+206382,Earn a 2800 personal rating in the 3v3 bracket of the arena in Season 39 (TWW 2),0,0,4,0,0,0
+206383,2800 rating,206382,2800,0,70048,0,2
+206384,Earn a 3000 personal rating in the 3v3 bracket of the arena in Season 39 (TWW 2),0,0,4,0,0,0
+206385,3000 rating,206384,3000,0,70048,0,2
+206386,Earn a 3000 personal rating in Rated Battleground Blitz in Season 39 (TWW 2),0,0,4,0,0,0
+206387,3000 rating,206386,3000,0,70046,0,2
+206388,Earn a 2800 personal rating in Rated Battleground Blitz in Season 39 (TWW 2),0,0,4,0,0,0
+206389,2800 rating,206388,2800,0,70046,0,2
+206390,Earn a 2600 personal rating in Rated Battleground Blitz in Season 39 (TWW 2),0,0,4,0,0,0
+206391,2600 rating,206390,2600,0,70046,0,2
+206392,Earn a 2400 personal rating in Rated Battleground Blitz in Season 39 (TWW 2),0,0,4,0,0,0
+206393,2400 rating,206392,2400,0,70046,0,2
+206394,Earn a 2200 personal rating in Rated Battleground Blitz in Season 39 (TWW 2),0,0,4,0,0,0
+206395,2200 rating,206394,2200,0,70046,0,2
+206396,Earn a 2000 personal rating in Rated Battleground Blitz in Season 39 (TWW 2),0,0,4,0,0,0
+206397,2000 rating,206396,2000,0,70046,0,2
+206398,Earn a 1500 personal rating in Rated Battleground Blitz in Season 39 (TWW 2),0,0,4,0,0,0
+206399,1500 rating,206398,1500,0,70046,0,2
+206400,Win 25 Rated Battleground Blitz matches while at Elite rank during The War Within Season 2.,0,0,4,0,0,0
+206401,,206400,25,0,102758,0,1
+206402,Earn a 1500 personal rating in rated battlegrounds in Season 39 (TWW 2),0,0,4,0,0,0
+206403,1500 rating,206402,1500,0,70050,0,2
+206404,Earn a 2000 personal rating in rated battlegrounds in Season 39 (TWW 2),0,0,4,0,0,0
+206405,2000 rating,206404,2000,0,70050,0,2
+206406,Earn a 2200 personal rating in rated battlegrounds in Season 39 (TWW 2),0,0,4,0,0,0
+206407,2200 rating,206406,2200,0,70050,0,2
+206408,Earn a 2400 personal rating in rated battlegrounds in Season 39 (TWW 2),0,0,4,0,0,0
+206409,2400 rating,206408,2400,0,70050,0,2
+206410,Earn a 2600 personal rating in rated battlegrounds in Season 39 (TWW 2),0,0,4,0,0,0
+206411,2600 rating,206410,2600,0,70050,0,2
+206412,Earn a 2800 personal rating in rated battlegrounds in Season 39 (TWW 2),0,0,4,0,0,0
+206413,2800 rating,206412,2800,0,70050,0,2
+206414,Earn a 3000 personal rating in rated battlegrounds in Season 39 (TWW 2),0,0,4,0,0,0
+206415,3000 rating,206414,3000,0,70050,0,2
+206416,Homecoming,168211,0,4,0,5,8240
+206419,Obtain the Prized Gladiator's Felbat from The War Within Season 2.,0,0,4,0,0,0
+206420,,206419,0,0,102765,0,2
+206423,Season 2 - Defeate Underpin,0,1,4,0,0,0
+206424,,206423,0,0,102770,0,0
+206427,Earn 1000 honor in Undermine while in War Mode.,0,0,4,0,0,0
+206428,Earn 1000 honor in Undermine while in War Mode.,206427,1000,0,102772,0,1
+206435,Sparks of War,161448,0,0,102775,4,0
+206436,Sparks of War,161446,0,0,102775,4,0
+206442,,206416,0,0,102762,0,0
+206447,Collect a Liberation of Undermine Tier 33 Set on at least 1 class.,0,0,4,0,0,0
+206448,,206447,1,0,102779,0,2
+206449,Defeat the Underpin in his lair on Tier ?? before the release of the next season of delves.,0,0,4,0,0,0
+206450,,206449,1,0,102780,0,2
+206451,Defeat The Underpin in his lair before the release of the next season of delves.,0,1,8,0,0,0
+206452,Easy,206451,1,0,102781,0,2
+206453,Hard,206451,1,0,102780,1,2
+206454,The Hataclysm,0,0,4,0,0,0
+206455,,206454,10,0,102782,0,0
+206456,11.1 Delve - Demolition Dome - Defeat Boss,0,0,4,0,0,0
+206457,The Underpin defeated,206456,1,0,102783,0,2080
+206458,,164053,0,0,68728,0,32
+206459,,164053,0,0,102784,1,32
 206460,,150004,0,0,102786,1,2
+206461,Obtain the Delver's Gob-Trotter.,0,0,4,0,0,0
+206462,,206461,0,0,102787,0,0
+206469,Lifeless Necrotic Relic,166882,0,0,70711,1,0
+206470,Season 2 Curios,166270,0,4,0,1,8194
+206471,Reverse Engineered Goblin Death Bomb,206470,1,8,0,0,8192
+206472,Reverse Engineered Goblin Death Bomb Max Rank,206471,0,0,102817,0,16
+206473,Combat 1,206471,0,0,102789,1,0
+206474,Pinged Augment Chip,206470,1,8,0,1,8192
+206475,Pinged Augment Chip Max Rank,206474,0,0,102841,0,16
+206476,Combat 2,206474,0,0,102792,1,0
+206477,Goblomagnetic Bouncing Grenade,206470,1,8,0,2,8192
+206478,Goblomagnetic Bouncing Grenade Max Rank,206477,0,0,102845,0,16
+206479,Combat 3,206477,0,0,102794,1,0
+206480,Pocket Factory,206470,1,8,0,3,8192
+206481,Pocket Factory Max Rank,206480,0,0,102849,0,16
+206482,Combat 4,206480,0,0,102796,1,0
+206483,Impact Conversion Matrix,206470,1,8,0,4,8192
+206484,Impact Conversion Matrix Max Rank,206483,0,0,102853,0,16
+206485,Combat 5,206483,0,0,102798,1,0
+206486,Automatic Footbomb Dispenser,206470,1,8,0,5,8192
+206487,Automatic Footbomb Dispenser Max Rank,206486,0,0,102857,0,16
+206488,Combat 6,206486,0,0,102800,1,0
+206489,Mechasaur EZ-Build Kit,206470,1,8,0,6,8192
+206490,Mechasaur EZ-Build Kit Max Rank,206489,0,0,102861,0,16
+206491,Combat 7,206489,0,0,102802,1,0
+206492,L00T RAID-R,206470,1,8,0,7,8192
+206493,L00T RAID-R Max Rank,206492,0,0,102865,0,16
+206494,Utility 1,206492,0,0,102804,1,0
+206495,Kaja'Cola Carrier,206470,1,8,0,8,8192
+206496,Kaja'Cola Carrier Max Rank,206495,0,0,102869,0,16
+206497,Utility 2,206495,0,0,102806,1,0
+206498,Comically Large Magnet,206470,1,8,0,9,8192
+206499,Comically Large Magnet Max Rank,206498,0,0,102873,0,16
+206500,,206498,0,0,102808,1,0
+206501,Biofuel Rocket Gear,206470,1,8,0,10,8192
+206502,Biofuel Rocket Gear,206501,0,0,102877,0,16
+206503,Utility 4,206501,0,0,102810,1,0
+206504,Three Dimensional Bioprinter,206470,1,8,0,11,8192
+206505,Three Dimensional Bioprinter Max Rank,206504,0,0,102881,0,16
+206506,Utility 5,206504,0,0,102812,1,0
+206507,Overdrive Pylon,206470,1,8,0,12,8192
+206508,Overdrive Pylon Max Rank,206507,0,0,102885,0,16
+206509,Utility 6,206507,0,0,102814,1,0
+206510,Pacifist Rig,206470,1,8,0,13,8192
+206511,Pacifist Rig Max Rank,206510,0,0,102889,0,16
+206512,Utility 7,206510,0,0,102816,1,0
+206513,,168645,3,0,102818,4,0
+206514,,168645,5,0,102819,5,0
+206515,,168645,2,0,102820,6,0
+206516,,168645,2,0,102821,7,0
+206517,,168645,3,0,102822,8,0
+206518,,168645,7,0,102823,9,0
+206519,,168645,12,0,102824,10,0
+206520,,168645,5,0,102825,11,0
+206521,,168645,7,0,102826,12,0
+206522,,168645,7,0,102827,13,0
+206523,,168645,3,0,102828,14,0
+206524,,168645,5,0,102829,15,0
+206525,,168645,10,0,102830,16,0
+206526,,168645,7,0,102831,17,0
+206527,,168645,20,0,102832,18,0
+206528,,168645,12,0,102833,19,0
+206529,Brute Force Idol,169297,0,0,70718,4,0
+206530,Season 2 Curios,164139,0,4,0,1,8194
+206531,Reverse Engineered Goblin Death Bomb,206530,1,8,0,0,8192
+206532,Reverse Engineered Goblin Death Bomb,206531,0,0,102834,0,16
+206533,Reverse Engineered Goblin Death Bomb,206531,0,0,102835,1,16
+206534,Reverse Engineered Goblin Death Bomb,206531,0,0,102836,2,16
+206535,Reverse Engineered Goblin Death Bomb,206531,0,0,102817,3,16
+206536,,206531,0,0,102788,4,0
+206537,Pinged Augment Chip,206530,1,8,0,1,8192
+206538,Pinged Augment Chip,206537,0,0,102838,0,16
+206539,Pinged Augment Chip,206537,0,0,102839,1,16
+206540,Pinged Augment Chip,206537,0,0,102840,2,16
+206541,Pinged Augment Chip,206537,0,0,102841,3,16
+206542,,206537,0,0,102791,4,0
+206543,Goblomagnetic Bouncing Grenade,206530,1,8,0,2,8192
+206544,Goblomagnetic Bouncing Grenade,206543,0,0,102842,0,16
+206545,Goblomagnetic Bouncing Grenade,206543,0,0,102843,1,16
+206546,Goblomagnetic Bouncing Grenade,206543,0,0,102844,2,16
+206547,Goblomagnetic Bouncing Grenade,206543,0,0,102845,3,16
+206548,,206543,0,0,102793,4,0
+206549,Pocket Factory,206530,1,8,0,3,8192
+206550,Pocket Factory,206549,0,0,102846,0,16
+206551,Pocket Factory,206549,0,0,102847,1,16
+206552,Pocket Factory,206549,0,0,102848,2,16
+206553,Pocket Factory,206549,0,0,102849,3,16
+206554,,206549,0,0,102795,4,0
+206555,Impact Conversion Matrix,206530,1,8,0,4,8192
+206556,Impact Conversion Matrix,206555,0,0,102850,0,16
+206557,Impact Conversion Matrix,206555,0,0,102851,1,16
+206558,Impact Conversion Matrix,206555,0,0,102852,2,16
+206559,Impact Conversion Matrix,206555,0,0,102853,3,16
+206560,,206555,0,0,102797,4,0
+206561,Automatic Footbomb Dispenser,206530,1,8,0,5,8192
+206562,Automatic Footbomb Dispenser,206561,0,0,102854,0,16
+206563,Automatic Footbomb Dispenser,206561,0,0,102855,1,16
+206564,Automatic Footbomb Dispenser,206561,0,0,102856,2,16
+206565,Automatic Footbomb Dispenser,206561,0,0,102857,3,16
+206566,,206561,0,0,102799,4,0
+206567,Mechasaur EZ-Build Kit,206530,1,8,0,6,8192
+206568,Mechasaur EZ-Build Kit,206567,0,0,102858,0,16
+206569,Mechasaur EZ-Build Kit,206567,0,0,102859,1,16
+206570,Mechasaur EZ-Build Kit,206567,0,0,102860,2,16
+206571,Mechasaur EZ-Build Kit,206567,0,0,102861,3,16
+206572,,206567,0,0,102801,4,0
+206573,L00T RAID-R,206530,1,8,0,7,8192
+206574,L00T RAID-R,206573,0,0,102862,0,16
+206575,L00T RAID-R,206573,0,0,102863,1,16
+206576,L00T RAID-R,206573,0,0,102864,2,16
+206577,L00T RAID-R,206573,0,0,102865,3,16
+206578,,206573,0,0,102803,4,0
+206579,Kaja'Cola Carrier,206530,1,8,0,8,8192
+206580,Kaja'Cola Carrier,206579,0,0,102866,0,16
+206581,Kaja'Cola Carrier,206579,0,0,102867,1,16
+206582,Kaja'Cola Carrier,206579,0,0,102868,2,16
+206583,Kaja'Cola Carrier,206579,0,0,102869,3,16
+206584,,206579,0,0,102805,4,0
+206585,Comically Large Magnet,206530,1,8,0,9,8192
+206586,Comically Large Magnet,206585,0,0,102870,0,16
+206587,Comically Large Magnet,206585,0,0,102871,1,16
+206588,Comically Large Magnet,206585,0,0,102872,2,16
+206589,Comically Large Magnet,206585,0,0,102873,3,16
+206590,,206585,0,0,102807,4,0
+206591,Biofuel Rocket Gear,206530,1,8,0,10,8192
+206592,Biofuel Rocket Gear,206591,0,0,102874,0,16
+206593,Biofuel Rocket Gear,206591,0,0,102875,1,16
+206594,Biofuel Rocket Gear,206591,0,0,102876,2,16
+206595,Biofuel Rocket Gear,206591,0,0,102877,3,16
+206596,,206591,0,0,102809,4,0
+206597,Three Dimensional Bioprinter,206530,1,8,0,11,8192
+206598,Three Dimensional Bioprinter,206597,0,0,102878,0,16
+206599,Three Dimensional Bioprinter,206597,0,0,102879,1,16
+206600,Three Dimensional Bioprinter,206597,0,0,102880,2,16
+206601,Three Dimensional Bioprinter,206597,0,0,102881,3,16
+206602,,206597,0,0,102811,4,0
+206603,Overdrive Pylon,206530,1,8,0,12,8192
+206604,Overdrive Pylon,206603,0,0,102882,0,16
+206605,Overdrive Pylon,206603,0,0,102883,1,16
+206606,,206603,0,0,102884,2,16
+206607,Overdrive Pylon,206603,0,0,102885,3,16
+206608,,206603,0,0,102813,4,0
+206609,Pacifist Rig,206530,1,8,0,13,8192
+206610,Pacifist Rig,206609,0,0,102886,0,16
+206611,Pacifist Rig,206609,0,0,102887,1,16
+206612,Pacifist Rig,206609,0,0,102888,2,16
+206613,Pacifist Rig,206609,0,0,102889,3,16
+206614,,206609,0,0,102815,4,0
+206616,,169943,1,0,102891,0,2
+206617,,169943,1,0,102892,1,2
+206618,,169943,1,0,102893,2,2
+206619,,169943,1,0,102894,3,2
+206623,,169944,1,0,102897,0,2
+206624,,169944,1,0,102898,1,2
+206625,,169944,1,0,102899,2,2
+206626,,169944,1,0,102900,3,2
+206627,Excavation Site 9,167552,1,0,102901,12,0
+206628,Sidestreet Sluice,167552,1,0,102902,13,0
+206629,Achievement - Keystone Legend: The War Within Dungeons Season 2,0,0,4,0,0,0
+206630,Rating Requirement,206629,3000,0,70053,0,2
+206631,Repel Nerubian Invasion (T3),153132,10,0,62705,1,1
+206632,Repel Nerubian Invasion (T2),153132,8,0,62704,2,1
+206633,Kobold invaders slain,153132,2,0,62701,3,1
+206635,(Optional) Activate Air Purifiers with Stompin' Shoes,153130,0,0,102903,1,0
+206636,Side with a Cartel,0,1,8,0,0,4096
+206637,,206636,0,0,102904,0,0
+206638,,206636,0,0,102905,1,0
+206639,,206636,0,0,102906,2,0
+206640,,206636,0,0,102907,3,0
+206641,,206636,0,0,102908,4,0
+206642,Ship Right,0,10,5,0,0,4096
+206643,,206642,0,0,102909,0,0
+206670,Reclaimed Scrap,0,100,5,0,0,4096
+206671,,206670,0,0,102936,0,0
+206675,Side Gig,0,1,5,0,0,4096
+206676,,206675,0,0,102939,0,0
+206677,,206675,0,0,102940,1,0
+206678,,206675,0,0,102941,2,0
+206679,,206675,0,0,102942,3,0
+206680,,206675,0,0,102943,4,0
+206681,,206675,0,0,102944,5,0
+206682,,206675,0,0,102945,6,0
+206683,,206675,0,0,102946,7,0
+206684,,206675,0,0,102947,8,0
+206685,,206675,0,0,102948,9,0
+206686,,206675,0,0,102949,10,0
+206687,,206675,0,0,102950,11,0
+206688,War Mode Violence,0,5,5,0,0,4096
+206689,,206688,0,0,102951,0,0
+206690,Go Fish,0,50,5,0,0,4096
+206691,,206690,0,0,102952,0,0
+206692,Gotta Catch at Least a Few,0,5,5,0,0,4096
+206693,,206692,0,0,102953,0,0
+206694,[NYI] Level a companion to level 70.,0,0,4,0,0,0
+206695,,206694,0,0,68374,0,0
+206696,Raise a companion to level 70.,0,0,4,0,0,0
+206697,Sidestreet Sluice,163480,1,0,102955,12,0
+206698,Excavation Site 9,163480,1,0,102954,13,0
+206699,Sidestreet Sluice,163467,1,0,102956,12,0
+206700,Excavation Site 9,163467,1,0,102957,13,0
+206701,Sidestreet Sluice,163454,1,0,102958,12,0
+206702,Excavation Site 9,163454,1,0,102959,13,0
+206703,Sidestreet Sluice,163440,1,0,70992,12,0
+206704,Excavation Site 9,163440,1,0,70991,13,0
+206708,Looking for Treasure,164081,0,0,102963,3,16
+206709,Bugs and Grubs,164081,0,0,102964,4,16
+206710,Oversparked Operation,164059,0,0,102965,3,16
+206711,Pump the Brakes,164124,0,0,102966,3,16
+206712,Corrupted Candles,164060,0,0,102967,3,16
+206713,Put a Wrench on It!,164092,0,0,102968,3,16
+206714,Darkfuse Disruption,164097,0,0,102969,3,16
+206715,Orphan's Holiday,164110,0,0,102970,3,16
+206716,Relics of the Old Gods,164114,0,0,102972,3,16
+206718,Down to Size,164128,0,0,102973,3,16
+206719,Third Party Operation,164119,0,0,102974,4,16
+206720,Aiming to get Even,164101,0,0,102975,3,16
+206727,Achievement - Undermine - Defeat 11.1 trainers+bosses with Critter lvl 25,0,0,4,0,0,0
+206728,Precision Powerdrill,206727,1,0,102978,0,0
+206729,Baxx the Purveyor,206727,1,0,102979,1,0
+206730,Prezly Wavecutter,206727,1,0,102980,2,0
+206731,Creech,206727,1,0,102981,3,0
+206732,Achievement - Undermine - Defeat 11.1 trainers+bosses with Aquatic lvl 25,0,0,4,0,0,0
+206733,Precision Powerdrill,206732,1,0,102982,0,0
+206734,Baxx the Purveyor,206732,1,0,102983,1,0
+206735,Prezly Wavecutter,206732,1,0,102984,2,0
+206736,Creech,206732,1,0,102985,3,0
+206737,Achievement - Undermine - Defeat 11.1 trainers+bosses with Beast lvl 25,0,0,4,0,0,0
+206738,Precision Powerdrill,206737,1,0,102986,0,0
+206739,Baxx the Purveyor,206737,1,0,102987,1,0
+206740,Prezly Wavecutter,206737,1,0,102988,2,0
+206741,Creech,206737,1,0,102989,3,0
+206742,Achievement - Undermine - Defeat 11.1 trainers+bosses with Dragonkin lvl 25,0,0,4,0,0,0
+206743,Precision Powerdrill,206742,1,0,102990,0,0
+206744,Baxx the Purveyor,206742,1,0,102991,1,0
+206745,Prezly Wavecutter,206742,1,0,102992,2,0
+206746,Creech,206742,1,0,102993,3,0
+206747,Achievement - Undermine - Defeat 11.1 trainers+bosses with Elemental lvl 25,0,0,4,0,0,0
+206748,Precision Powerdrill,206747,1,0,102994,0,0
+206749,Baxx the Purveyor,206747,1,0,102995,1,0
+206750,Prezly Wavecutter,206747,1,0,102996,2,0
+206751,Creech,206747,1,0,102997,3,0
+206752,Achievement - Undermine - Defeat 11.1 trainers+bosses with Flying lvl 25,0,0,4,0,0,0
+206753,Precision Powerdrill,206752,1,0,102998,0,0
+206754,Baxx the Purveyor,206752,1,0,102999,1,0
+206755,Prezly Wavecutter,206752,1,0,103000,2,0
+206756,Creech,206752,1,0,103001,3,0
+206757,Achievement - Undermine - Defeat 11.1 trainers+bosses with Humanoid lvl 25,0,0,4,0,0,0
+206758,Precision Powerdrill,206757,1,0,103002,0,0
+206759,Baxx the Purveyor,206757,1,0,103003,1,0
+206760,Prezly Wavecutter,206757,1,0,103004,2,0
+206761,Creech,206757,1,0,103005,3,0
+206762,Achievement - Undermine - Defeat 11.1 trainers+bosses with Magic lvl 25,0,0,4,0,0,0
+206763,Precision Powerdrill,206762,1,0,103006,0,0
+206764,Baxx the Purveyor,206762,1,0,103007,1,0
+206765,Prezly Wavecutter,206762,1,0,103008,2,0
+206766,Creech,206762,1,0,103009,3,0
+206767,Achievement - Undermine - Defeat 11.1 trainers+bosses with Mechanical lvl 25,0,0,4,0,0,0
+206768,Precision Powerdrill,206767,1,0,103010,0,0
+206769,Baxx the Purveyor,206767,1,0,103011,1,0
+206770,Prezly Wavecutter,206767,1,0,103012,2,0
+206771,Creech,206767,1,0,103013,3,0
+206772,Achievement - Undermine - Defeat 11.1 trainers+bosses with Undead lvl 25,0,0,4,0,0,0
+206773,Precision Powerdrill,206772,1,0,103014,0,0
+206774,Baxx the Purveyor,206772,1,0,103015,1,0
+206775,Prezly Wavecutter,206772,1,0,103016,2,0
+206776,Creech,206772,1,0,103017,3,0
+206777,Family Battler of Undermine,0,0,4,0,0,0
+206778,Aquatic Battler of Undermine,206777,1,0,103018,0,0
+206779,Beast Battler of Undermine,206777,1,0,103019,1,0
+206780,Critter Battler of Undermine,206777,1,0,103020,2,0
+206781,Dragonkin Battler of Undermine,206777,1,0,103021,3,0
+206782,Elemental Battler of Undermine,206777,1,0,103022,4,0
+206783,Flying Battler of Undermine,206777,1,0,103023,5,0
+206784,Humanoid Battler of Undermine,206777,1,0,103024,6,0
+206785,Magic Battler of Undermine,206777,1,0,103025,7,0
+206786,Mechanical Battler of Undermine,206777,1,0,103026,8,0
+206787,Undead Battler of Undermine,206777,1,0,103027,9,0
+206797,The Gobfather,165620,1,0,103036,4,0
+206798,,157129,1,0,103037,14,0
+206799,,157129,0,0,103038,15,0
+206800,,136224,0,0,103039,18,0
+206801,"""Gold"" Fish caught",0,5,5,0,0,8193
+206802,,206801,0,0,103040,0,0
+206803,"""Gold"" Fish caught",0,15,5,0,0,8193
+206804,,206803,0,0,103040,0,0
+206805,Uncommon Pet Captured,0,0,4,0,0,1
+206806,Pet captured,206805,1,0,103041,0,0
+206807,Jobs completed,0,10,5,0,0,8193
+206808,,206807,1,0,103042,0,1
+206809,Jobs completed,0,25,5,0,0,8193
+206810,,206809,1,0,103042,0,1
+206811,Jobs completed,0,50,5,0,0,8193
+206812,,206811,1,0,103042,0,1
+206813,Drifts completed,0,250,5,0,0,8193
+206814,,206813,0,0,103043,0,0
+206815,Drifts completed,0,1000,5,0,0,8193
+206816,,206815,0,0,103043,0,0
+206817,Boosts completed,0,25,5,0,0,8193
+206818,,206817,0,0,103044,0,0
+206819,Boosts completed,0,100,5,0,0,8193
+206820,,206819,0,0,103044,0,0
+206821,,157129,1,0,103045,16,0
+206822,,157129,0,0,103046,17,0
+206823,,157129,1,0,103047,18,0
+206824,,157129,0,0,103048,19,0
+206825,,157129,1,0,103049,20,0
+206826,,157129,0,0,103050,21,0
+206827,Enemies defeated,0,2,5,0,0,8193
+206828,,206827,0,0,103051,0,0
+206829,Enemies defeated,0,6,5,0,0,8193
+206830,,206829,0,0,103051,0,0
+206831,Drifts completed,0,400,5,0,0,8193
+206832,,206831,0,0,103052,0,0
+206833,Drifts completed,0,400,5,0,0,8193
+206834,,206833,0,0,103053,0,0
+206835,Boosts completed,0,40,5,0,0,8193
+206836,,206835,0,0,103054,0,0
+206837,Boosts completed,0,40,5,0,0,8193
+206838,,206837,0,0,103055,0,0
+206839,Cans collected,0,200,5,0,0,8193
+206840,,206839,0,0,103056,0,0
+206847,Cans kicked,0,20,5,0,0,8193
+206848,,206847,1,0,103059,0,0
+206849,,206847,1,0,103060,1,0
+206850,,206847,1,0,103061,2,0
+206851,,206847,1,0,103062,3,0
+206852,,206847,1,0,103063,4,0
+206853,,206847,1,0,103064,5,0
+206854,,206847,1,0,103065,6,0
+206855,,206847,1,0,103066,7,0
+206856,,206847,1,0,103067,8,0
+206857,,206847,1,0,103068,9,0
+206858,Fireworks launched,0,30,5,0,0,8193
+206859,,206858,0,0,103069,0,0
+206860,,206858,0,0,103070,1,0
+206861,,206858,0,0,103071,2,0
+206862,Emote /dance,0,0,4,0,0,8193
+206863,,206862,0,0,103072,0,0
+206864,Emote /luck,0,0,4,0,0,8193
+206865,,206864,0,0,103073,0,0
+206866,11.1 Raid - Undermine - Boss - Arena - Achievement Criteria,0,0,4,0,0,0
+206867,Survived your own hubris.,206866,1,0,103074,0,0
+206868,Leave no stones unturned by completing the Khaz Algar achievements below.,0,0,4,0,0,0
+206869,,206868,1,0,103076,0,32
+206870,,206868,1,0,103078,1,32
+206871,,206868,1,0,103075,2,32
+206872,,206868,1,0,103077,3,32
+206873,,206868,1,0,103079,4,32
+206874,,206868,1,0,67725,5,32
+206882,Trial of Style - Completed under Max Level,0,0,4,0,0,1
+206883,Trial of Style completed,206882,1,0,103085,0,1
+206884,Brightly Colored Eggs collected,0,0,4,0,0,1
+206885,Brightly Colored Eggs collected,206884,10,0,103086,0,1
+206897,A Radiant Echo,0,0,4,0,0,4096
+206898,,206897,0,0,103090,0,0
+206899,,157138,0,0,103091,8,0
+206912,11.1 Achievement - Exploration - Explore Undermine (MPK),0,0,4,0,0,0
+206913,Bilgewater Flats,206912,0,0,103094,0,0
+206914,Castaway Cove,206912,0,0,103095,1,0
+206915,Demolition Dome,206912,0,0,103096,2,0
+206916,The Gallagio,206912,0,0,103097,3,0
+206917,Emerald Hills Golf Course,206912,0,0,103098,4,0
+206918,The Heaps,206912,0,0,103099,5,0
+206919,Hovel Hill,206912,0,0,103100,6,0
+206920,Slam Central Station,206912,0,0,103102,7,0
+206921,The Vatworks,206912,0,0,103101,8,0
+206922,11.1 Achievement - Meta - Do Activities in Undermine (MPK),0,0,4,0,0,0
+206923,,206922,0,0,103104,0,32
+206924,,206922,0,0,103103,1,32
+206925,,206922,0,0,103105,2,32
+206926,11.1 Achievement - Lore Objects - Undermine (MPK),0,0,4,0,0,0
+206927,Rocket Drill Safety Manual,206926,0,0,103107,0,0
+206928,A Threatening Letter,206926,0,0,103108,1,0
+206929,First Half of Noggenfogger's Journal,206926,0,0,103106,2,0
+206930,Second Half of Noggenfogger's Journal,206926,0,0,103109,3,0
+206931,Extractor Drill X-78 Safety Guide,206926,0,0,103110,4,0
+206932,Gallywix's Notes,206926,0,0,103111,5,0
+206933,Misplaced Work Order,206926,0,0,103112,6,0
+206934,,206922,0,0,103113,3,32
+206935,11.1 Achievement - Undermine - Kicking Cans (MPK),0,25,5,0,0,1
+206936,,206935,0,0,103114,0,2
+206937,,206935,0,0,103115,1,2
+206938,,206922,0,0,103116,4,32
+206939,,206935,0,0,103117,2,2
+206940,,206935,0,0,103118,3,2
+206941,,206935,0,0,103119,4,2
+206942,,206935,0,0,103120,5,2
+206943,,206935,0,0,103121,6,2
+206944,,206935,0,0,103122,7,2
+206945,,206935,0,0,103123,8,2
+206946,,206935,0,0,103124,9,2
+206947,Rare Rivals,0,3,5,0,0,4096
+206948,,206947,0,0,103125,0,0
+206949,,206947,0,0,103126,1,0
+206950,,206947,0,0,103127,2,0
+206951,,206947,0,0,103128,3,0
+206952,,206947,0,0,103129,4,0
+206953,,206947,0,0,103130,5,0
+206954,,206947,0,0,103131,6,0
+206955,,206947,0,0,103132,7,0
+206956,,206947,0,0,103133,8,0
+206957,,206947,0,0,103134,9,0
+206958,,206947,0,0,103135,10,0
+206959,,206947,0,0,103136,11,0
+206960,,206947,0,0,103137,12,0
+206961,,206947,0,0,103138,13,0
+206962,,206947,0,0,103139,14,0
+206963,,206947,0,0,103140,15,0
+206964,,206947,0,0,103141,16,0
+206965,,206947,0,0,103142,17,0
+206966,,206947,0,0,103143,18,0
+206967,,206947,0,0,103144,19,0
+206968,,206947,0,0,103145,20,0
+206969,,206947,0,0,103146,21,0
+206970,,206947,0,0,103147,22,0
+206971,,206947,0,0,103148,23,0
+206972,,206947,0,0,103149,24,0
+206973,,206947,0,0,103150,25,0
+206974,,206947,0,0,103151,26,0
+206975,Clean the Sidestreets,0,1,5,0,0,4096
+206976,,206975,0,0,103152,0,0
+206977,,206975,0,0,103153,1,0
+206978,,206975,0,0,103154,2,0
+206979,Time to Vacate,0,1,5,0,0,4096
+206980,,206979,0,0,103155,0,0
+206981,,206979,0,0,103156,1,0
+206982,,206979,0,0,103157,2,0
+206983,Desire to D.R.I.V.E.,0,2,5,0,0,4096
+206984,,206983,0,0,103158,0,0
+206985,,206983,0,0,103159,1,0
+206986,,206983,0,0,103160,2,0
+206987,,206983,0,0,103161,3,0
+206988,,206983,0,0,103162,4,0
+206989,,206983,0,0,103163,5,0
+206990,,206983,0,0,103164,6,0
+206991,,206983,0,0,103165,7,0
+206992,,206983,0,0,103166,8,0
+206993,,206983,0,0,103167,9,0
+206994,,206983,0,0,103168,10,0
+206995,,206983,0,0,103169,11,0
+206996,,206983,0,0,103170,12,0
+206997,,206983,0,0,103171,13,0
+206998,,206983,0,0,103172,14,0
+206999,,206983,0,0,103173,15,0
+207000,Kaja Cruising,0,50,5,0,0,4096
+207001,,207000,0,0,103174,0,0
+207002,Garbage Day,0,25,5,0,0,4096
+207003,,207002,0,0,103175,0,0
+207004,,207002,0,0,103176,1,0
+207008,Complete 10 S.C.R.A.P. jobs in Undermine.,0,0,4,0,0,0
+207009,Complete 10 S.C.R.A.P. jobs in Undermine.,207008,10,0,103179,0,1
+207010,Complete 25 S.C.R.A.P. jobs in Undermine.,0,0,4,0,0,0
+207011,Complete 25 S.C.R.A.P. jobs in Undermine.,207010,25,0,103179,0,1
+207012,Complete 50 S.C.R.A.P. jobs in Undermine.,0,0,4,0,0,0
+207013,Complete 50 S.C.R.A.P. jobs in Undermine.,207012,50,0,103179,0,1
+207014,Complete a S.C.R.A.P. job at every location in Undermine.,0,0,4,0,0,0
+207015,Hovel Hill (North),207014,1,0,103181,0,0
+207016,Hovel Hill (South),207014,1,0,103182,1,0
+207017,The Vatworks,207014,1,0,103183,2,0
+207018,Venturewood,207014,1,0,103184,3,0
+207019,The Heaps,207014,1,0,103185,4,0
+207020,Emerald Hills Golf Course,207014,1,0,103186,5,0
+207021,Blackwater Marina,207014,1,0,103187,6,0
+207022,Gallagio Garbage,0,0,4,0,0,0
+207023,,207022,1,0,71607,0,0
+207024,PvP Season 39 - Set Collection,0,0,4,0,0,2
+207025,Collect any armor set from The War Within Season 2 (PvP Season 39).,207024,1,0,103188,0,2
+207026,,58604,1,0,103189,66,0
+207027,Sanity's Rest,168182,0,4,0,12,8240
+207028,,207027,0,0,103192,0,0
+207029,,207027,0,0,103191,2,0
+207030,11.1 Raid - Undermine - Boss - Junkyard - Achievement,0,0,4,0,0,0
+207031,All garbage promptly cleaned up.,207030,1,0,103193,0,0
+207032,,163662,0,0,103194,2,2
+207033,"11.0 War Within - Bonus Event Weekend, Season 2 - Complete 4 Heroic+ Dungeons",0,4,5,0,0,4096
+207068,,207033,0,0,103222,0,0
+207072,,207033,0,0,103217,2,0
+207073,,207033,0,0,103226,6,0
+207074,,207033,0,0,103216,8,0
+207075,,207033,0,0,103225,4,0
+207078,,207033,0,0,103213,1,0
+207079,,207033,0,0,103223,3,0
+207080,,207033,0,0,103221,13,0
+207081,,207033,0,0,103215,5,0
+207084,,207033,0,0,103220,10,0
+207087,,207033,0,0,103214,7,0
+207088,,207033,0,0,103219,9,0
+207089,,207033,0,0,103224,14,0
+207093,,207033,0,0,103212,11,0
+207094,,207033,0,0,103218,12,0
+207097,,207033,0,0,103211,15,0
 207118,,168524,639,0,67017,2,0
 207119,Reach 636 in Every Slot in The War Within Season 1,168522,1,4,0,1,0
 207121,,207119,636,0,103239,0,0
 207137,,207119,636,0,103240,1,0
 207138,,207119,636,0,103241,2,0
+207139,,168538,0,0,103257,0,0
+207140,,168538,0,0,103258,1,0
+207141,,168538,0,0,103259,2,0
+207142,,168538,0,0,103260,3,0
+207143,,168538,0,0,103261,4,0
+207144,,168538,0,0,103262,5,0
+207145,,168538,0,0,103263,6,0
+207146,,168538,0,0,103264,7,0
+207147,,168538,0,0,103265,8,0
+207148,,168538,0,0,103266,9,0
+207149,,168538,0,0,103267,10,0
+207150,,168538,0,0,103268,11,0
+207151,,168538,0,0,103269,12,0
+207152,,168538,0,0,103270,13,0
+207153,,168538,0,0,103271,14,0
+207154,,168538,0,0,103272,15,0
 207211,,161843,0,0,66645,1,8194
 207212,,161841,0,0,66644,1,8194
+207246,C.H.E.T.T. a Look,0,1,5,0,0,0
+207247,,207246,0,0,103334,0,0
+207248,C.H.E.T.T.ing it Twice,0,2,5,0,0,1
+207249,,207248,0,0,103334,0,0
+207250,C.H.E.T.T.mate,0,1,8,0,0,2
+207252,,207250,100,0,103334,1,1
+207253,,207250,0,0,103338,0,2
+207254,"""Employee"" of the Month",0,0,4,0,0,0
+207255,,207254,0,0,103335,0,0
+207345,Ask about C.H.E.T.T. Lists,0,1,4,0,0,4096
+207346,,207345,1,0,103366,0,0
+207347,Achievement: 11.1 Mythic VFX Unlock,0,1,8,0,0,0
+207348,,207347,0,0,71728,0,32
+207349,,207347,0,0,103367,1,32
+207350,,207347,0,0,103368,2,32
+207351,Unnamed Branch,169763,99999,8,0,2,34
 207362,11.0.7 - Khaz Algar Safari Waxwick Fix,0,0,4,0,0,0
 207363,,207362,1,0,103370,0,2
+207378,Complete any Seasonal dungeon,0,1,8,0,0,4096
+207379,,207378,0,0,103373,0,0
+207380,,207378,0,0,103374,1,0
+207381,,207378,0,0,103375,2,0
+207382,,207378,0,0,103376,3,0
+207383,,207378,0,0,103377,4,0
+207384,,207378,0,0,103378,5,0
+207385,,207378,0,0,103379,6,0
+207386,,207378,0,0,103380,7,0
+207387,,207378,0,0,103381,8,0
+207388,,207378,0,0,103382,9,0
+207389,,207378,0,0,103383,10,0
+207390,,207378,0,0,103384,11,0
+207395,,207378,0,0,103387,12,0
+207400,Complete any Delve on any difficulty,0,1,8,0,0,4096
+207401,,207400,0,0,103391,0,0
+207406,,207378,0,0,103396,13,0
+207407,,207378,0,0,103397,14,0
+207408,,207378,0,0,103398,15,0
+207409,,207378,0,0,103399,16,0
+207410,,207378,0,0,103400,17,0
+207411,,207378,0,0,103401,18,0
+207412,,207378,0,0,103402,19,0
+207413,,207378,0,0,103403,20,0
+207414,,207378,0,0,103404,21,0
+207415,,207378,0,0,103405,22,0
+207416,,207378,0,0,103406,23,0
+207417,,207378,0,0,103407,24,0
+207418,,207378,0,0,103408,25,0
+207419,,207378,0,0,103409,26,0
+207420,,207378,0,0,103410,27,0
+207421,,207378,0,0,103411,28,0
+207422,,207378,0,0,103412,29,0
+207423,,207378,0,0,103413,30,0
+207424,World Quests in Undermine completed,0,6,5,0,0,4096
+207425,,207424,1,0,103414,0,0
+207426,Khaz Algar world boss slain,0,1,8,0,0,4096
+207428,,207426,1,0,103416,0,0
+207429,,207426,1,0,103415,1,0
+207430,,207426,1,0,103418,3,0
+207431,,207426,1,0,103417,2,0
+207434,Undermine world boss slain,0,1,8,0,0,4096
+207436,,207434,0,0,103419,0,0
+207437,Flarendo's Biggest Fan,0,0,4,0,0,0
+207438,Defeat Cauldron of Carnage while being Flarendo's biggest fan.,207437,1,0,103420,0,0
+207439,Torq's Biggest Fan,0,0,4,0,0,0
+207440,Defeat Cauldron of Carnage while being Torq's biggest fan.,207439,1,0,103421,0,0
 207441,[DNT] Foot Ball,30554,1,8,0,0,0
 207442,,207441,1,0,103423,1,2
 207443,[DNT] Pigskin,30554,1,8,0,1,8194
 207444,,207443,1,0,103422,1,2
+207445,11.1 Endgame - Weekly Wrapper - Worldsoul - Casual - Undermine Explorer - Kick Discarded Cans (MPK),0,1,5,0,0,4096
+207446,,207445,0,0,103424,0,2
+207447,,207445,0,0,103425,1,2
+207448,,207445,0,0,103426,2,2
+207449,,207445,0,0,103427,3,2
+207450,,207445,0,0,103428,4,2
+207451,,207445,0,0,103429,5,2
+207452,,207445,0,0,103430,6,2
+207453,,207445,0,0,103431,7,2
+207454,,207445,0,0,103432,8,2
+207455,,207445,0,0,103433,9,2
+207456,11.1 Endgame - Weekly Wrapper - Worldsoul - Casual - Undermine Explorer- DanceOff (MPK),0,3,5,0,0,4096
+207457,,207456,0,0,103434,0,0
+207458,Earn Conquest While Combatant (A) - Saddle (40),0,0,4,0,0,1
+207459,Win Rated PvP matches while at 1000 rating or higher,207458,2400,0,103435,0,1
+207460,Earn Conquest While Combatant (H) - Saddle (40),0,0,4,0,0,1
+207461,Win Rated PvP matches while at 1000 rating or higher,207460,2400,0,103435,0,1
+207462,Earn Conquest While Combatant (A) - Saddle (41),0,0,4,0,0,1
+207463,Win Rated PvP matches while at 1000 rating or higher,207462,2400,0,103436,0,1
+207464,Earn Conquest While Combatant (H) - Saddle (41),0,0,4,0,0,1
+207465,Win Rated PvP matches while at 1000 rating or higher,207464,2400,0,103436,0,1
+207468,11.1 Delves - Order of Night - V05 - 2nd Boss Defeated (Hufton),0,0,4,0,0,0
+207469,Reformed Fury Defeated,207468,1,0,103438,0,32
+207538,11.1 Undermine - Delves - Do Excavation Site 9 (MPK),0,0,4,0,0,4096
+207539,,207538,1,0,103483,0,0
+207540,11.1 Undermine - Delves - Do Sidestreet Sluice (MPK),0,0,4,0,0,4096
+207541,,207540,1,0,103484,0,0
+207587,Grab all 5 Grabbable Rats,0,5,8,0,0,8193
+207588,,207587,0,0,103496,0,0
+207589,,207587,0,0,103497,1,0
+207590,,207587,0,0,103498,2,0
+207591,,207587,0,0,103499,3,0
+207592,,207587,0,0,103500,4,0
+207593,Journey's End (Season 2),0,0,4,0,0,0
+207594,,207593,0,0,103501,0,0
+207600,11.1 Raid - Undermine - Boss 05 - Refinery - Achievement Criteria - CHTL,0,0,4,0,0,0
+207601,,207600,1,0,103504,0,0
+207605,,170151,2,0,62701,3,1
+207609,11.1 Delves - Undermine - Underpin Entrance - (STM),0,0,4,0,0,0
+207610,,207609,0,0,103508,0,0
+207651,Collect the following cosmetic unlocks for the Delver's Gob-Trotter.,0,0,4,0,0,0
+207652,Harpoon,207651,1,0,103522,0,16
+207653,Flamethrower,207651,1,0,103523,1,16
+207654,Balloon,207651,1,0,103524,2,16
+207655,Pipes,207651,1,0,103525,3,16
+207656,Green,207651,1,0,103526,4,16
+207763,,168645,1,0,103598,20,0
+207764,,168645,1,0,103599,21,0
+207765,,206922,0,0,103600,5,32
+207766,,206696,0,0,103601,0,0
+207767,Raise a companion to level 80.,0,0,4,0,0,0
+207768,,207767,0,0,103602,0,0
+207769,TWW Season 2 Resilient Keystone 12,0,0,4,0,0,0
+207770,Darkflame Cleft,207769,1,0,103603,0,0
+207771,The Rookery,207769,1,0,103604,1,0
+207772,Cinderbrew Meadery,207769,1,0,103605,2,0
+207773,Priory of the Sacred Flame,207769,1,0,103606,3,0
+207774,Operation: Floodgate,207769,1,0,103607,4,0
+207775,Theater of Pain,207769,1,0,103608,5,0
+207776,Operation: Mechagon - Workshop,207769,1,0,103609,6,0
+207777,THE MOTHERLODE!!!,207769,1,0,103610,7,0
+207785,TWW Season 2 Resilient Keystone 13,0,0,4,0,0,0
+207786,Darkflame Cleft,207785,1,0,103615,0,0
+207787,The Rookery,207785,1,0,103616,1,0
+207788,Cinderbrew Meadery,207785,1,0,103617,2,0
+207789,Priory of the Sacred Flame,207785,1,0,103618,3,0
+207790,Operation: Floodgate,207785,1,0,103619,4,0
+207791,Theater of Pain,207785,1,0,103718,5,0
+207792,Operation: Mechagon - Workshop,207785,1,0,103620,6,0
+207793,THE MOTHERLODE!!!,207785,1,0,103621,7,0
+207794,TWW Season 2 Resilient Keystone 14,0,0,4,0,0,0
+207795,Darkflame Cleft,207794,1,0,103622,0,0
+207796,The Rookery,207794,1,0,103623,1,0
+207797,Cinderbrew Meadery,207794,1,0,103624,2,0
+207798,Priory of the Sacred Flame,207794,1,0,103625,3,0
+207799,Operation: Floodgate,207794,1,0,103626,4,0
+207800,Theater of Pain,207794,1,0,103627,5,0
+207801,Operation: Mechagon - Workshop,207794,1,0,103628,6,0
+207802,THE MOTHERLODE!!!,207794,1,0,103629,7,0
+207803,TWW Season 2 Resilient Keystone 15,0,0,4,0,0,0
+207804,Darkflame Cleft,207803,1,0,103630,0,0
+207805,The Rookery,207803,1,0,103631,1,0
+207806,Cinderbrew Meadery,207803,1,0,103632,2,0
+207807,Priory of the Sacred Flame,207803,1,0,103633,3,0
+207808,Operation: Floodgate,207803,1,0,103634,4,0
+207809,Theater of Pain,207803,1,0,103635,5,0
+207810,Operation: Mechagon - Workshop,207803,1,0,103636,6,0
+207811,THE MOTHERLODE!!!,207803,1,0,103637,7,0
+207812,TWW Season 2 Resilient Keystone 16,0,0,4,0,0,0
+207813,Darkflame Cleft,207812,1,0,103638,0,0
+207814,The Rookery,207812,1,0,103639,1,0
+207815,Cinderbrew Meadery,207812,1,0,103640,2,0
+207816,Priory of the Sacred Flame,207812,1,0,103641,3,0
+207817,Operation: Floodgate,207812,1,0,103642,4,0
+207818,Theater of Pain,207812,1,0,103643,5,0
+207819,Operation: Mechagon - Workshop,207812,1,0,103644,6,0
+207820,THE MOTHERLODE!!!,207812,1,0,103645,7,0
+207821,TWW Season 2 Resilient Keystone 17,0,0,4,0,0,0
+207822,Darkflame Cleft,207821,1,0,103646,0,0
+207823,The Rookery,207821,1,0,103647,1,0
+207824,Cinderbrew Meadery,207821,1,0,103648,2,0
+207825,Priory of the Sacred Flame,207821,1,0,103649,3,0
+207826,Operation: Floodgate,207821,1,0,103650,4,0
+207827,Theater of Pain,207821,1,0,103651,5,0
+207828,Operation: Mechagon - Workshop,207821,1,0,103652,6,0
+207829,THE MOTHERLODE!!!,207821,1,0,103653,7,0
+207830,TWW Season 2 Resilient Keystone 18,0,0,4,0,0,0
+207831,Darkflame Cleft,207830,1,0,103654,0,0
+207832,The Rookery,207830,1,0,103655,1,0
+207833,Cinderbrew Meadery,207830,1,0,103656,2,0
+207834,Priory of the Sacred Flame,207830,1,0,103657,3,0
+207835,Operation: Floodgate,207830,1,0,103658,4,0
+207836,Theater of Pain,207830,1,0,103659,5,0
+207837,Operation: Mechagon - Workshop,207830,1,0,103660,6,0
+207838,THE MOTHERLODE!!!,207830,1,0,103661,7,0
+207839,TWW Season 2 Resilient Keystone 19,0,0,4,0,0,0
+207840,Darkflame Cleft,207839,1,0,103662,0,0
+207841,The Rookery,207839,1,0,103663,1,0
+207842,Cinderbrew Meadery,207839,1,0,103664,2,0
+207843,Priory of the Sacred Flame,207839,1,0,103665,3,0
+207844,Operation: Floodgate,207839,1,0,103666,4,0
+207845,Theater of Pain,207839,1,0,103667,5,0
+207846,Operation: Mechagon - Workshop,207839,1,0,103668,6,0
+207847,THE MOTHERLODE!!!,207839,1,0,103669,7,0
+207848,TWW Season 2 Resilient Keystone 20,0,0,4,0,0,0
+207849,Darkflame Cleft,207848,1,0,103670,0,0
+207850,The Rookery,207848,1,0,103671,1,0
+207851,Cinderbrew Meadery,207848,1,0,103672,2,0
+207852,Priory of the Sacred Flame,207848,1,0,103673,3,0
+207853,Operation: Floodgate,207848,1,0,103674,4,0
+207854,Theater of Pain,207848,1,0,103675,5,0
+207855,Operation: Mechagon - Workshop,207848,1,0,103676,6,0
+207856,THE MOTHERLODE!!!,207848,1,0,103677,7,0
+207857,TWW Season 2 Resilient Keystone 21,0,0,4,0,0,0
+207858,Darkflame Cleft,207857,1,0,103678,0,0
+207859,The Rookery,207857,1,0,103679,1,0
+207860,Cinderbrew Meadery,207857,1,0,103680,2,0
+207861,Priory of the Sacred Flame,207857,1,0,103681,3,0
+207862,Operation: Floodgate,207857,1,0,103682,4,0
+207863,Theater of Pain,207857,1,0,103683,5,0
+207864,Operation: Mechagon - Workshop,207857,1,0,103684,6,0
+207865,THE MOTHERLODE!!!,207857,1,0,103685,7,0
+207866,TWW Season 2 Resilient Keystone 22,0,0,4,0,0,0
+207867,Darkflame Cleft,207866,1,0,103687,0,0
+207868,The Rookery,207866,1,0,103688,1,0
+207869,Cinderbrew Meadery,207866,1,0,103689,2,0
+207870,Priory of the Sacred Flame,207866,1,0,103690,3,0
+207871,Operation: Floodgate,207866,1,0,103691,4,0
+207872,Theater of Pain,207866,1,0,103692,5,0
+207873,Operation: Mechagon - Workshop,207866,1,0,103693,6,0
+207874,THE MOTHERLODE!!!,207866,1,0,103694,7,0
+207875,TWW Season 2 Resilient Keystone 23,0,0,4,0,0,0
+207876,Darkflame Cleft,207875,1,0,103695,0,0
+207877,The Rookery,207875,1,0,103696,1,0
+207878,Cinderbrew Meadery,207875,1,0,103697,2,0
+207879,Priory of the Sacred Flame,207875,1,0,103698,3,0
+207880,Operation: Floodgate,207875,1,0,103699,4,0
+207881,Theater of Pain,207875,1,0,103700,5,0
+207882,Operation: Mechagon - Workshop,207875,1,0,103701,6,0
+207883,THE MOTHERLODE!!!,207875,1,0,103702,7,0
+207884,TWW Season 2 Resilient Keystone 24,0,0,4,0,0,0
+207885,Darkflame Cleft,207884,1,0,103703,0,0
+207886,The Rookery,207884,1,0,103704,1,0
+207887,Cinderbrew Meadery,207884,1,0,103705,2,0
+207888,Priory of the Sacred Flame,207884,1,0,103706,3,0
+207889,Operation: Floodgate,207884,1,0,103707,4,0
+207890,Theater of Pain,207884,1,0,103708,5,0
+207891,Operation: Mechagon - Workshop,207884,1,0,103709,6,0
+207892,THE MOTHERLODE!!!,207884,1,0,103710,7,0
+207893,TWW Season 2 Resilient Keystone 25,0,0,4,0,0,0
+207894,Darkflame Cleft,207893,1,0,103711,0,0
+207895,The Rookery,207893,1,0,103712,1,0
+207896,Cinderbrew Meadery,207893,1,0,103713,2,0
+207897,Priory of the Sacred Flame,207893,1,0,103714,3,0
+207898,Operation: Floodgate,207893,1,0,103715,4,0
+207899,Theater of Pain,207893,1,0,103716,5,0
+207900,Operation: Mechagon - Workshop,207893,1,0,103719,6,0
+207901,THE MOTHERLODE!!!,207893,1,0,103717,7,0
 207941,,205853,5000,0,71621,1,0
+207943,Player does not have mount in bag bank or collection,0,0,4,0,0,0
+207944,,207943,0,0,103736,0,0
+207947,11.0 Delves - Nerubians02 - V05 - Darkfuse Supplies 50% Destroyed (Hufton),0,0,4,0,0,0
+207948,Darkfuse Supplies Destroyed,207947,15,0,71619,0,32
+207949,11.0 Delves - Kobolds02 - V05 - Pressure Valve 50% Fixed (Hufton),0,0,4,0,0,0
+207950,Pressure Valve fixed,207949,9,0,71254,0,32
+207951,11.1 Delves - Order of Night - V05 - Stockpiles Mostly Reclaimed (Hufton),0,0,4,0,0,0
+207952,Stockpiles reclaimed,207951,6,0,70883,0,32
+207955,11.1 Delves - Goblins01 - V01 - Gold Piles Mostly Destroyed (Hufton),0,0,4,0,0,0
+207956,Enchanted Gold Piles destroyed,207955,3,0,71470,0,32
+207957,11.1 Delves - Goblins01 - V02 - Kidnapped Mechanics Mostly Rescued (Hufton),0,0,4,0,0,0
+207958,Kidnapped Mechanics rescued,207957,4,0,71479,0,32
+207969,,207400,0,0,103786,1,0
+207971,,164057,0,0,103746,12,32
+207972,,164057,0,0,103747,13,32
 207975,Earn Achievement - 11.0.7 Plunderstorm 5k Plunder Earned && Be 11,0,0,4,0,0,0
 207976,NEVER,207975,1,0,490,0,0
+208014,,163813,3,0,103784,1,0
+208124,11.1 Delves - Goblins01 - V01 - Weaken the Gold Elemental (STM),0,0,4,0,0,0
+208125,Weaken the Gold Elemental,208124,0,0,103845,0,32
+208128,,206104,0,0,103847,2,32
+208129,,206104,0,0,103848,3,32
+208130,,206104,0,0,103849,4,32
+208131,,206104,0,0,103850,5,32
+208132,,206104,0,0,103851,6,32
+208133,,206104,0,0,103852,7,32
+208147,11.1 Delves - Nerubians01 - V05 - Stuck Goblins Mostly Saved (Hufton),0,0,4,0,0,0
+208148,Stuck Goblins saved,208147,4,0,71244,0,32
+208192,Statistic: Weathered Undermine Crests earned,0,0,4,0,0,0
+208193,,208192,0,0,103873,0,0
+208194,Statistic: Carved Undermine Crests earned,0,0,4,0,0,0
+208195,,208194,0,0,103874,0,0
+208196,Statistic: Runed Undermine Crests earned,0,0,4,0,0,0
+208197,,208196,0,0,103875,0,0
+208198,Statistic: Gilded Undermine Crests earned,0,0,4,0,0,0
+208199,,208198,0,0,103876,0,0
+208202,Max Renown with Gallagio Loyalty Rewards,0,0,4,0,0,0
+208203,,208202,20,0,103878,0,1
+208204,Defeat Vexie and the Geargrinders,0,0,4,0,0,0
+208205,,208204,1,0,71696,0,2
+208206,Defeat Cauldron of Carnage,0,0,4,0,0,0
+208207,,208206,1,0,71697,0,2
+208208,Defeat Rik Reverb,0,0,4,0,0,0
+208209,,208208,1,0,71698,0,2
+208210,Defeat Stix Bunkjunker,0,0,4,0,0,0
+208211,,208210,1,0,71699,0,2
+208212,Defeat Sprocketmonger Lockenstock,0,0,4,0,0,0
+208213,,208212,1,0,71700,0,2
+208214,Defeat The One-Armed Bandit,0,0,4,0,0,0
+208215,,208214,1,0,71701,0,2
+208216,"Defeat Mug'Zee, Heads of Security",0,0,4,0,0,0
+208217,,208216,1,0,71702,0,2
+208218,Defeat Chrome King Gallywix,0,0,4,0,0,0
+208219,,208218,1,0,71703,0,2
 208252,11.0.7 Void Zone - Plunderstorm Plunder Tracker - Mainline Power - Fixup Criteria,0,1,4,0,0,0
 208254,,208252,1,1,103897,1,0
 208255,Earn 5k plunder or already have it,208252,1,8,0,0,0
 208256,,208255,5000,0,103734,0,0
 208257,,208255,5000,0,71621,1,0
+208321,,168965,7,0,103944,19,0
+208322,,168965,5,0,103945,20,0
+208323,,168965,1,0,103946,21,0
 208370,"Complete loot quest ""Your Cut of the Spoils""",0,0,4,0,0,0
 208371,,208370,0,0,103896,0,0
+209192,Account has Copious Coffers Achievement,0,0,4,0,0,0
+209193,Account has Copious Coffers Achievement,209192,0,0,104368,0,0
+209194,Account has The Key to Madness Achievement,0,0,4,0,0,0
+209195,Account has The Key to Madness Achievement,209194,0,0,104369,0,0
+209276,Darkfuse operations disrupted,170670,140,9,0,1,32
+209277,Repel Nerubian Invasion (T1),209276,5,0,62703,0,1
+209278,Repel Nerubian Invasion (T3),209276,10,0,62705,1,1
+209279,Repel Nerubian Invasion (T2),209276,8,0,62704,2,1
+209280,Darkfuse operations disrupted,209276,2,0,62701,3,1
+209281,Darkfuse operations disrupted,209276,8,0,71639,4,1
+209721,On Login player has Let Me Solo Him (S2) achievement and not Delver's Gob-Trotter Schematic: Gold unlocked,0,0,4,0,0,0
+209722,,209721,0,0,104632,0,2
+209995,"Defeat Mug'Zee, Heads of Security in the Liberation of Undermine raid on Mythic difficulty.",0,0,4,0,0,4096
+209996,,209995,1,0,104992,0,0
+209997,"Defeat Mug'Zee, Heads of Security in the Liberation of Undermine raid on Heroic difficulty or higher.",0,0,4,0,0,4096
+209998,,209997,1,0,104993,0,0
+209999,"Defeat Mug'Zee, Heads of Security in the Liberation of Undermine raid on Normal difficulty or higher.",0,0,4,0,0,4096
+210000,,209999,1,0,104994,0,0
