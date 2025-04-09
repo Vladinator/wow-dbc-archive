@@ -294,3 +294,51 @@ transMag = (1 - (transMag * transMag)) * maxMagnitude
 modelPitch = progress * 1000
 modelRoll = 90
 modelYaw = 90",0,0
+4872,S03 - New Avalon - Scarlet Trainees - Shoot Arrow,"local angle = 0
+local maxMagnitude = startDistance * .15
+
+faceImpactPos = 1
+modelPitch = 270
+--modelYaw = 270
+--modelRoll = 270
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+
+-- I really need to fix this",0,1
+4874,S03 - Scarlet Enclave - Boss - Beatrix - Scarlet Artillery - Explosive Shell - 2. Missile,"local angle = 0
+local maxMagnitude = startDistance * .01
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+modelPitch = progress * 1000",0,0
+4881,Forward Spin,"local spinRate = 720
+
+modelPitch = time * spinRate",0,1
+4897,Coin Toss,"local angle = 0
+local maxMagnitude = startDistance * .60
+local spinRate = 1080
+
+modelPitch = time * spinRate
+--transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude",0,1
+4900,S03 - Scarlet Enclave - Beatrix - Post Encounter - Bomb - 3. Missile,"local angle = 0
+local maxMagnitude = startDistance * .2
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+modelRoll = progress * 200",0,0
+4907,Start slightly lower,"local down=-0.5
+
+transUp=down",0,0
+4908,Lower Start High Arc Parabola,"local angle = 0
+local maxMagnitude = startDistance * .30
+local down=-0.5
+
+transUp=down
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude",0,1

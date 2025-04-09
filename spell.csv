@@ -8258,7 +8258,7 @@ Immune to Physical damage."
 11165,Rank 1,Reduces the cooldown of your Frost Nova spell by $/1000;s1 sec.,
 11170,Rank 1,Increases the critical strike chance of all your spells against frozen targets by 10%.,
 11175,Rank 1,Increases the duration of your Chill effects by $/1000;S1 $lsec:secs; and reduces the target's speed by an additional $s2%.,
-11180,Rank 1,"Gives your Frost damage spells a $h% chance to apply the Winter's Chill effect, which increases the chance a Frost spell will critically hit the target by $12579s1% for $12579d.  Stacks up to $12579u times.",
+11180,Rank 1,"Gives your Frost damage spells a $h% chance to apply the Winter's Chill effect, which increases the chance a Frost spell will critically hit the target by $12579s1% for $12579d.  Stacks up to $s1 times.",
 11185,Rank 1,Adds a chill effect to your Blizzard spell.  This effect lowers the target's movement speed by $12484s1%.  Lasts $12484d.,
 11189,Rank 1,"Increases the armor and resistances given by your Frost Armor and Ice Armor spells by $s1%.  In addition, gives your Frost Ward a $s2% chance to reflect Frost spells and effects while active.",
 11190,Rank 1,Increases the damage dealt by your Cone of Cold spell by $s1%.,
@@ -11244,7 +11244,7 @@ Attack speed increased by $s2%."
 15404,,Permanently adds 8 intellect to a leg or head slot item. Does not stack with other enchantments for the selected equipment slot.,
 15405,,,
 15406,,Permanently adds 8 spirit to a leg or head slot item. Does not stack with other enchantments for the selected equipment slot.,
-15407,Rank 1,"Assault the target's mind with Shadow energy, causing $o1 Shadow damage over $d and slowing their movement speed by $s2%.",Movement speed slowed by $s2%.
+15407,Rank 1,"Assault the target's mind with Shadow energy, causing $o1 Shadow damage over $d$?A1226557[.][ and slowing their movement speed by $s2%.]",$?A1226557[$s1 Shadow damage every $t1 second.][Movement speed slowed by $s2%.]
 15408,,,
 15427,,,
 15428,,,
@@ -12800,10 +12800,10 @@ $o2 Fire damage inflicted over $d."
 17307,,"Inflicts normal damage plus $s1 to an enemy, knocking it back and stunning it for $d.",Stunned.
 17308,,Knocks target silly for $d1.,Stunned.
 17310,,,
-17311,Rank 2,"Assault the target's mind with Shadow energy, causing $o1 Shadow damage over $d and slowing their movement speed by $s2%.",Movement speed slowed by $s2%.
-17312,Rank 3,"Assault the target's mind with Shadow energy, causing $o1 Shadow damage over $d and slowing their movement speed by $s2%.",Movement speed slowed by $s2%.
-17313,Rank 4,"Assault the target's mind with Shadow energy, causing $o1 Shadow damage over $d and slowing their movement speed by $s2%.",Movement speed slowed by $s2%.
-17314,Rank 5,"Assault the target's mind with Shadow energy, causing $o1 Shadow damage over $d and slowing their movement speed by $s2%.",Movement speed slowed by $s2%.
+17311,Rank 2,"Assault the target's mind with Shadow energy, causing $o1 Shadow damage over $d$?A1226557[.][ and slowing their movement speed by $s2%.]",$?A1226557[$s1 Shadow damage every $t1 second.][Movement speed slowed by $s2%.]
+17312,Rank 3,"Assault the target's mind with Shadow energy, causing $o1 Shadow damage over $d$?A1226557[.][ and slowing their movement speed by $s2%.]",$?A1226557[$s1 Shadow damage every $t1 second.][Movement speed slowed by $s2%.]
+17313,Rank 4,"Assault the target's mind with Shadow energy, causing $o1 Shadow damage over $d$?A1226557[.][ and slowing their movement speed by $s2%.]",$?A1226557[$s1 Shadow damage every $t1 second.][Movement speed slowed by $s2%.]
+17314,Rank 5,"Assault the target's mind with Shadow energy, causing $o1 Shadow damage over $d$?A1226557[.][ and slowing their movement speed by $s2%.]",$?A1226557[$s1 Shadow damage every $t1 second.][Movement speed slowed by $s2%.]
 17315,,Punctures target's armor lowering it by $s1. Can be applied up to 3 times.,Armor decreased by $s1.
 17316,Rank 3,,
 17317,Rank 4,,
@@ -13030,7 +13030,7 @@ $o2 Fire damage inflicted over $d."
 17616,,"Causes a corpse to explode, inflicting $s1 Shadow damage on enemies near the corpse.",
 17617,,+$s1 Armor.,
 17618,,Summons $s1 $lRisen Lackey:Risen Lackeys; to aid the caster in battle for $d.,
-17619,,Increases the effects that healing and mana potions have on the wearer by 33%.,
+17619,,Increases the effects that healing and mana potions have on the wearer by $s1%.,
 17620,,"Drains $o1 health from an enemy over $d., transferring it to the caster.",$o1 health leeched over $d.
 17621,,,
 17622,,,
@@ -14041,7 +14041,7 @@ Felhunter: Restores $18792s1% of total Mana every $18792t1 sec.",
 18804,,,
 18805,,Dispels Polymorph effects on a friendly target.  Also restores $s2 health and mana.,
 18806,Rank 8,,
-18807,Rank 6,"Assault the target's mind with Shadow energy, causing $o1 Shadow damage over $d and slowing their movement speed by $s2%.",Movement speed slowed by $s2%.
+18807,Rank 6,"Assault the target's mind with Shadow energy, causing $o1 Shadow damage over $d$?A1226557[.][ and slowing their movement speed by $s2%.]",$?A1226557[$s1 Shadow damage every $t1 second.][Movement speed slowed by $s2%.]
 18808,Rank 6,,
 18809,Rank 8,Hurls an immense fiery boulder that causes $s1 Fire damage and an additional $o2 Fire damage over $d.,$s2 Fire damage every $t2 seconds.
 18810,,Taelan's Suffering,Taelan's Suffering
@@ -21282,10 +21282,10 @@ Slows movement speed by $s2%."
 28560,,,
 28561,,,
 28574,,Increases your armor by an amount equal to $s1% of your Intellect.,
-28592,Rank 2,"Gives your Frost damage spells a $h% chance to apply the Winter's Chill effect, which increases the chance a Frost spell will critically hit the target by $12579s1% for $12579d.  Stacks up to $12579u times.",
-28593,Rank 3,"Gives your Frost damage spells a $h% chance to apply the Winter's Chill effect, which increases the chance a Frost spell will critically hit the target by $12579s1% for $12579d.  Stacks up to $12579u times.",
-28594,Rank 4,"Gives your Frost damage spells a $h% chance to apply the Winter's Chill effect, which increases the chance a Frost spell will critically hit the target by $12579s1% for $12579d.  Stacks up to $12579u times.",
-28595,Rank 5,"Gives your Frost damage spells a $h% chance to apply the Winter's Chill effect, which increases the chance a Frost spell will critically hit the target by $12579s1% for $12579d.  Stacks up to $12579u times.",
+28592,Rank 2,"Gives your Frost damage spells a $h% chance to apply the Winter's Chill effect, which increases the chance a Frost spell will critically hit the target by $12579s1% for $12579d.  Stacks up to $s1 times.",
+28593,Rank 3,"Gives your Frost damage spells a $h% chance to apply the Winter's Chill effect, which increases the chance a Frost spell will critically hit the target by $12579s1% for $12579d.  Stacks up to $s1 times.",
+28594,Rank 4,"Gives your Frost damage spells a $h% chance to apply the Winter's Chill effect, which increases the chance a Frost spell will critically hit the target by $12579s1% for $12579d.  Stacks up to $s1 times.",
+28595,Rank 5,"Gives your Frost damage spells a $h% chance to apply the Winter's Chill effect, which increases the chance a Frost spell will critically hit the target by $12579s1% for $12579d.  Stacks up to $s1 times.",
 28598,,,
 28599,,"Hurls missiles of dark magic, inflicting Shadow damage to nearby enemies.",
 28601,,,
@@ -22803,7 +22803,7 @@ Cooldown shared with Kidney Shot.",Stunned.
 $@spellicon410412
 $@spelldesc410412",
 400015,,,Health increased by $w% of maximum$?$w2>0[ and Armor from items increased by $w2%][].
-400016,,"Each time you Dodge or Parry, you gain $400015s1% increased Health, stacking up to $400015u times.",
+400016,,"Each time you Dodge or Parry, you gain $400015s1% increased Health, stacking up to $s2 times.",
 400023,,"Any attack which would otherwise kill you will instead reduce you to 10% of your maximum health. In addition, all damage taken will be reduced by up to $400024s1% for $400024d.  This effect cannot occur more than once per minute.",Recently cheated death.
 400024,,"Any attack which would otherwise kill you will instead reduce you to 10% of your maximum health. In addition, all damage taken will be reduced by up to $400024s1% for $400024d.  This effect cannot occur more than once per minute.",All damage taken reduced by $s1%.
 400029,,Attempts to step through the shadows and reappear behind your enemy and increases movement speed by $406722s1% for $406722d.,
@@ -22883,8 +22883,8 @@ $@spelldesc400029",
 
 $@spellicon399985
 $@spelldesc399985",
-400573,,"Blasts the target with energy, dealing Arcane damage.  Each time you cast Arcane Blast, the damage and healing of all other Arcane spells is increased by $400573s1% and mana cost of Arcane Blast is increased by $400573s2%.  Effect stacks up to $400573u times and lasts $400573d.",Arcane spell damage and healing from all spells but Arcane Blast increased by $s1% and mana cost of Arcane Blast increased by $s2%.
-400574,,"Blasts the target with energy, dealing ${$<power>*$m1/100} to ${$<power>*$M1/100} Arcane damage.  Each time you cast Arcane Blast, the damage and healing of all other Arcane spells is increased by $400573s1% and mana cost of Arcane Blast is increased by $400573s2%.  Effect stacks up to $400573u times and lasts $400573d or until any other Arcane damage or healing spell is cast.",
+400573,,"Blasts the target with energy, dealing Arcane damage.  Each time you cast Arcane Blast, the damage and healing of all other Arcane spells is increased by $400573s1% and mana cost of Arcane Blast is increased by $400573s2%.  Effect stacks up to $400573u times and lasts $400573d.",Arcane spell damage from all spells but Arcane Blast increased by $s1% and mana cost of Arcane Blast increased by $s2%.
+400574,,"Blasts the target with energy, dealing ${$<power>*$m1/100} to ${$<power>*$M1/100} Arcane damage.  Each time you cast Arcane Blast, the damage of all other Arcane spells is increased by $400573s1% and mana cost of Arcane Blast is increased by $400573s2%.  Effect stacks up to $400573u times and lasts $400573d or until any other Arcane damage spell is cast.",
 400586,,"Blasts the target with energy, dealing Arcane damage.  Each time you cast Arcane Blast, the damage of all other Arcane spells is increased by $400573s1% and mana cost of Arcane Blast is increased by $400573s2%.  Effect stacks up to $400573u times and lasts $400573d.",Non-Arcane Blast Arcane spell damage increased by $s1% and mana cost of Arcane Blast increased by $s2%.
 400588,,"Gives your Arcane Blast a $m1% chance, and your Fireball and Frostbolt spells a ${$m1/2}% chance to reduce the channeled duration of your next Arcane Missiles spell by $400589s1%, reduce the mana cost by $400589s3%, and missiles will fire every 0.5 secs.",
 400589,,"Gives your Arcane Blast, Fireball, and Frostbolt spells a chance to reduce the channeled duration of the next Arcane Missiles spell by $400589s1%, reduce the mana cost by $s3%, and missiles will fire every 0.5 secs","Reduces the channeled duration of your next Arcane Missiles spell by $s1%, reduces the mana cost by $s3%, and the missiles fire every 0.5 secs."
@@ -23307,7 +23307,7 @@ $@spelldesc403218",
 403619,,"Surrounds the caster with fel energy, increasing spell damage and healing by $s3 plus additional spell damage and healing equal to $s1% of your Spirit. In addition, you regain $s2% of your maximum health every 5 sec. Only one type of Armor spell can be active on the Warlock at any time.  Lasts $d.
 ",Increases spell damage and healing by ${$w1*$SPI/100+$w3}. Also regenerate $s2% of maximum health every 5 sec.
 403628,,"Your Shadow Bolt now strikes up to $s1 targets within a chain distance of $s2 yards, but for $s3% reduced damage.",
-403629,,"Sends a bolt of chaotic fire at the enemy, dealing ${$<power>*$m1/100} to ${$<power>*$M1/100} Fire damage.  Chaos Bolt always hits, cannot be resisted, and its knowledge causes all your Fire spells to pierce through absorption effects. Chaos Bolt gains a high chance to be resisted when used against monsters 4 or more levels above your level.",
+403629,,"Sends a bolt of chaotic fire at the enemy, dealing ${$<power>*$m1/100} to ${$<power>*$M1/100} Chaos damage.  Chaos Bolt always hits, cannot be resisted, and its knowledge causes all your Fire spells to pierce through absorption effects. Chaos Bolt gains a high chance to be resisted when used against monsters 4 or more levels above your level.",
 403630,,,
 403650,,Rain of Fire also leaves a Lake of Fire on the ground that increases all Fire damage you deal and your Demon pet deals to affected enemies by $s1%.,Fire damage taken increased by $s1%.
 403666,,"Your Rain of Fire is no longer channeled, but gains a $s5 sec cooldown.",
@@ -23320,7 +23320,7 @@ $@spelldesc403218",
 403687,Rank 4,Transfers $s1 health every second from the target to the caster.  Lasts $d.,Drains $s1 health each second to the caster.
 403688,Rank 5,Transfers $s1 health every second from the target to the caster.  Lasts $d.,Drains $s1 health each second to the caster.
 403689,Rank 6,Transfers $s1 health every second from the target to the caster.  Lasts $d.,Drains $s1 health each second to the caster.
-403789,Shapeshift,"Transform into a Demon, increasing Armor by $403816s1%, reducing the chance you will be critically hit by $403816s2%, increasing your threat by $403816s3%, increasing mana gained from Life Tap by $403816s4%, but reducing all damage you deal by $403816s5%. Metamorphosis transforms the functionality of some abilities and grants new ones:
+403789,Shapeshift,"Transform into a Demon, increasing Armor by $403816s1%, Health by $403816s6%, reducing the chance you will be critically hit by $403816s2%, increasing your threat by $403816s3%, increasing mana gained from Life Tap by $403816s4%, but reducing all damage you deal by $403816s5%. Metamorphosis transforms the functionality of some abilities and grants new ones:
 
 Searing Pain: Now instant.
 
@@ -23341,7 +23341,7 @@ $@spelldesc412788
 Demonic Howl
 
 $@spellicon412789
-$@spelldesc412789","Armor increased by $403816s1%, chance to be critically hit reduced by $403816s2%, threat increased by $403816s3%, mana gained from Life Tap increased by $403816s4%, damage done decreased by $403816s5%, some abilities modified, and some new abilities granted."
+$@spelldesc412789","Armor increased by $403816s1%, Health increased by $403816s6%, chance to be critically hit reduced by $403816s2%, threat increased by $403816s3%, mana gained from Life Tap increased by $403816s4%, damage done decreased by $403816s5%, some abilities modified, and some new abilities granted."
 403816,Shapeshift,"Transform into a Demon, increasing Armor by $s1%, reducing the chance you will be critically hit by $s2%, increasing your threat by $s3%, increasing mana gained from Life Tap by $s4%, and transforming the functionality of some of your abilities:
 
 Searing Pain: Now instant.
@@ -23356,60 +23356,60 @@ Howl of Terror: Now also forces all nearby enemies to attack you for $d, but coo
 
 Shadow Cleave benefits from and triggers most talents and effects that Shadow Bolt benefits from and triggers.$?s446847[
 
-Hitting a target with Shadow Cleave also grants you $460200s1 Spell Damage for each point of your defense skill beyond ${$PL*5}. Lasts $460171d.][]",
+Hitting a target with Shadow Cleave also grants you $460200s3 Spell Damage for each point of your defense skill beyond ${$PL*5}. Lasts $460171d.][]",
 403839,Rank 2,"Punish up to $x1 nearby enemies with a Shadow lash, dealing $s1 to each.
 
 Shadow Cleave benefits from and triggers most talents and effects that Shadow Bolt benefits from and triggers.$?s446847[
 
-Hitting a target with Shadow Cleave also grants you $460200s1 Spell Damage for each point of your defense skill beyond ${$PL*5}. Lasts $460171d.][]
+Hitting a target with Shadow Cleave also grants you $460200s3 Spell Damage for each point of your defense skill beyond ${$PL*5}. Lasts $460171d.][]
 ",
 403840,Rank 3,"Punish up to $x1 nearby enemies with a Shadow lash, dealing $s1 to each.
 
 Shadow Cleave benefits from and triggers most talents and effects that Shadow Bolt benefits from and triggers.$?s446847[
 
-Hitting a target with Shadow Cleave also grants you $460200s1 Spell Damage for each point of your defense skill beyond ${$PL*5}. Lasts $460171d.][]
+Hitting a target with Shadow Cleave also grants you $460200s3 Spell Damage for each point of your defense skill beyond ${$PL*5}. Lasts $460171d.][]
 ",
 403841,Rank 4,"Punish up to $x1 nearby enemies with a Shadow lash, dealing $s1 to each.
 
 Shadow Cleave benefits from and triggers most talents and effects that Shadow Bolt benefits from and triggers.$?s446847[
 
-Hitting a target with Shadow Cleave also grants you $460200s1 Spell Damage for each point of your defense skill beyond ${$PL*5}. Lasts $460171d.][]
+Hitting a target with Shadow Cleave also grants you $460200s3 Spell Damage for each point of your defense skill beyond ${$PL*5}. Lasts $460171d.][]
 ",
 403842,Rank 5,"Punish up to $x1 nearby enemies with a Shadow lash, dealing $s1 to each.
 
 Shadow Cleave benefits from and triggers most talents and effects that Shadow Bolt benefits from and triggers.$?s446847[
 
-Hitting a target with Shadow Cleave also grants you $460200s1 Spell Damage for each point of your defense skill beyond ${$PL*5}. Lasts $460171d.][]
+Hitting a target with Shadow Cleave also grants you $460200s3 Spell Damage for each point of your defense skill beyond ${$PL*5}. Lasts $460171d.][]
 ",
 403843,Rank 6,"Punish up to $x1 nearby enemies with a Shadow lash, dealing $s1 to each.
 
 Shadow Cleave benefits from and triggers most talents and effects that Shadow Bolt benefits from and triggers.$?s446847[
 
-Hitting a target with Shadow Cleave also grants you $460200s1 Spell Damage for each point of your defense skill beyond ${$PL*5}. Lasts $460171d.][]
+Hitting a target with Shadow Cleave also grants you $460200s3 Spell Damage for each point of your defense skill beyond ${$PL*5}. Lasts $460171d.][]
 ",
 403844,Rank 7,"Punish up to $x1 nearby enemies with a Shadow lash, dealing $s1 to each.
 
 Shadow Cleave benefits from and triggers most talents and effects that Shadow Bolt benefits from and triggers.$?s446847[
 
-Hitting a target with Shadow Cleave also grants you $460200s1 Spell Damage for each point of your defense skill beyond ${$PL*5}. Lasts $460171d.][]
+Hitting a target with Shadow Cleave also grants you $460200s3 Spell Damage for each point of your defense skill beyond ${$PL*5}. Lasts $460171d.][]
 ",
 403848,Rank 8,"Punish up to $x1 nearby enemies with a Shadow lash, dealing $s1 to each.
 
 Shadow Cleave benefits from and triggers most talents and effects that Shadow Bolt benefits from and triggers.$?s446847[
 
-Hitting a target with Shadow Cleave also grants you $460200s1 Spell Damage for each point of your defense skill beyond ${$PL*5}. Lasts $460171d.][]
+Hitting a target with Shadow Cleave also grants you $460200s3 Spell Damage for each point of your defense skill beyond ${$PL*5}. Lasts $460171d.][]
 ",
 403851,Rank 9,"Punish up to $x1 nearby enemies with a Shadow lash, dealing $s1 to each.
 
 Shadow Cleave benefits from and triggers most talents and effects that Shadow Bolt benefits from and triggers.$?s446847[
 
-Hitting a target with Shadow Cleave also grants you $460200s1 Spell Damage for each point of your defense skill beyond ${$PL*5}. Lasts $460171d.][]
+Hitting a target with Shadow Cleave also grants you $460200s3 Spell Damage for each point of your defense skill beyond ${$PL*5}. Lasts $460171d.][]
 ",
 403852,Rank 10,"Punish up to $x1 nearby enemies with a Shadow lash, dealing $s1 to each.
 
 Shadow Cleave benefits from and triggers most talents and effects that Shadow Bolt benefits from and triggers.$?s446847[
 
-Hitting a target with Shadow Cleave also grants you $460200s1 Spell Damage for each point of your defense skill beyond ${$PL*5}. Lasts $460171d.][]
+Hitting a target with Shadow Cleave also grants you $460200s3 Spell Damage for each point of your defense skill beyond ${$PL*5}. Lasts $460171d.][]
 ",
 403858,,"Gain the Haunt ability:
 
@@ -23651,7 +23651,7 @@ In addition, you regenerate $417051s2 rage every time you dodge while in Bear Fo
 408490,,"You hurl molten lava at the target, dealing ${$m1/100*$<damagepower>} to ${$M1/100*$<damagepower>} Fire damage. If your Flame Shock is on the target, Lava Burst will deal a critical strike.",
 408491,,"You hurl molten lava at the target, dealing ${$m1/100*$<damagepower>} to ${$M1/100*$<damagepower>} Fire damage. If your Flame Shock is on the target, Lava Burst will deal a critical strike.",
 408496,,"Increases your chance to hit with both spells and melee attacks by $s1% while dual wielding, your Stormstrike ability now hits with both weapons while dual wielding, and increases the damage done by your offhand weapon by $s3%.",
-408498,,"When you deal damage with a melee attack, you have a chance to reduce the cast time and mana cost of your next Lightning Bolt, Chain Lightning, Lesser Healing Wave, or Lava Burst spell by $408505s1%. Chance increased by $s2% while your main hand weapon is enchanted with Windfury Weapon and by another $s2% if wielding a two-handed weapon. Stacks up to 5 times. Lasts $408505d.",
+408498,,"When you deal damage with a melee attack, you have a chance to reduce the cast time and mana cost of your next Lightning Bolt, Chain Lightning, Lesser Healing Wave, or Lava Burst spell by $408505s1%. Chance increased by $s2% while your main hand weapon is enchanted with Windfury Weapon and by another $s2% if wielding a two-handed weapon. Stacks up to $s3 times. Lasts $408505d.",
 408501,,,
 408505,,"Reduces the cast time and mana cost of your next Lightning Bolt, Chain Lightning, Lesser Healing Wave, or Lava Burst spell by $s1%.","Reduces the cast time and mana cost of your next Lightning Bolt, Chain Lightning, Lesser Healing Wave, or Lava Burst by $s1%."
 408507,,"You charge your off-hand weapon with lava, instantly dealing $s1% off-hand Weapon damage. Damage is increased by $s2% if your off-hand weapon is enchanted with Flametongue.",
@@ -23662,7 +23662,7 @@ In addition, you regenerate $417051s2 rage every time you dodge while in Bear Fo
 ",Reduces casting or channeling time lost when damaged by $s2% and attacks heal the shielded target for $w1.
 408519,,Healed by Earth Shield.,
 408521,,Heals a friendly target for ${$m1/100*$<healpower>} to ${$M1/100*$<healpower>} and another ${5*$m2/100*$<healpower>} over $d.  Your Chain Heals cast on that primary target within $d will increase the amount of the Chain Heal by $s3%. This spell also triggers Ancestral Awakening.,Heals $w2 every $t2 seconds.  Increases caster's Chain Heal by $s3%.
-408524,,"Each time you Block, you regenerate mana equal to $408525s2% of your maximum mana and you gain Armor equal to $408525s1% of your shield's armor value, stacking up to $408525u times. You also always gain $s1% increased chance to Block and $s2% increased Block value.
+408524,,"Each time you Block, you regenerate mana equal to $408525s2% of your maximum mana and you gain Armor equal to $408525s1% of your shield's armor value, stacking up to $s3 times. You also always gain $s1% increased chance to Block and $s2% increased Block value.
 
 In addition, each time you use a Shock ability, you gain $460200s2 Spell Damage for each point of your defense skill beyond ${$PL*5}. Lasts $460171d.
 ",
@@ -24269,7 +24269,7 @@ $@spelldesc412113",
 412466,,,
 412507,,"Rend can now be used in Berserker stance, Rend's damage is increased by $s2%, and Rend deals additional damage equal to $s3% of your Attack Power each time it deals damage.
 ",
-412510,,"Heals all of target player's party members within $a1 yards of target player for ${$<healpower>*$m1/100*3} health over $d and applies Temporal Beacon to each target for ${$400735m3/2} sec. 
+412510,,"Heals all of target player's party members within $a1 yards of target player for ${$<healpower>*$m1/100*3} health over $d and applies Temporal Beacon to each target for ${$400735m3/2} sec.
 
 Temporal Beacon
 $@spellicon400735
@@ -24452,7 +24452,7 @@ Decreases damage taken by $s3%."
 415342,Rank 7,A strong attack that increases melee damage by $s1.,
 415343,Rank 8,A strong attack that increases melee damage by $s1.,
 415352,,"Your Raptor Strike is now instant, and Mongoose Bite and Raptor Strike have a $s3% chance on each attack to reset the cooldowns of Mongoose Bite and Raptor Strike.",
-415358,,"Raptor Strike increases damage done by Raptor Strike and Mongoose Bite by $415362s1% for $415362d, stacking up to $415362u times. Subsequent doses do not extend the duration of this effect.",
+415358,,"Raptor Strike increases damage done by Raptor Strike and Mongoose Bite by $415362s2% for $415362d, stacking up to $415362u times. Subsequent doses do not extend the duration of this effect.",
 415362,,,Raptor Strike and Mongoose Bite damage increased by $w1%.
 415370,,You deal $s1% increased damage with all attacks while you do not have an active pet.,
 415372,,,
@@ -24878,7 +24878,7 @@ $@spelldesc415358",
 416861,,Your Tame Beast ability also works on adders (as companion pet),Your Tame Beast ability also works on adders (as companion pet)
 416863,,,
 417045,,Increases damage done by $s1% for $d and instantly grants you $s2 Energy.,Increases damage done by $s1%.
-417046,,"Tiger's Fury now increases all physical damage you deal by $417045s1% instead of by a flat value, and instantly grants you $417045s2 Energy. It is no longer on the global cooldown, but it now has its own $s2 sec cooldown.",
+417046,,"Tiger's Fury now increases all physical damage you deal by $417045s1% instead of by a flat value, and instantly grants you $417045s2 Energy. It is no longer on the global cooldown, but it now has its own $s2 sec cooldown. Additionally, Tiger's Fury will persist while not in Cat Form, but will cancel upon entering Bear Form or Dire Bear Form.",
 417051,,"Increases your dodge chance by $s1%, and you regenerate $s2 rage every time you dodge while in Bear Form or Dire Bear Form, $s3 energy while in Cat Form, or $s4% of your maximum mana while in any other form.",
 417052,,,
 417053,,,
@@ -25215,14 +25215,15 @@ $@spellicon417046
 $@spelldesc417046",
 424785,,"Viciously slash an enemy for $s2% weapon damage, and cause the target to bleed for ${$AP*$m4/100} damage every $t4 sec for $d, stacking up to $u times. Each stack also increases damage done by your Saber Slash and Sinister Strike by $s5%. Awards $s3 combo $lpoint:points;.
 
-Saber Slash benefits from all talents and effects that trigger from or modify Sinister Strike.",Bleeding for $w4 damage every $t4 sec.
+Saber Slash benefits from all talents and effects that trigger from or modify Sinister Strike.","Bleeding for $w4 damage every $t4 sec.
+Damage taken from Saber Slash and Sinister Strike increased by $s5%."
 424788,,Salvage the wreckage of a shredder for spare parts.,
 424799,,"Instantly attack with your off-hand weapon to deal normal off-hand weapon damage with a 100% chance to apply the poison from your off-hand weapon to the target. Slower weapons require more energy. Awards $s2 combo $lpoint:points;.
 
 Shiv benefits from all talents and effects that trigger from or modify Sinister Strike.",
 424800,,"Instantly attack with your off-hand weapon with a 100% chance to apply the poison from your off-hand weapon to the target. Slower weapons require more energy. Awards $s2 combo $lpoint:points;.
 ",
-424919,,"Instantly strike with your off-hand weapon for normal off-hand weapon damage and increase your chance to parry by $s2% for $d or until you successfully parry. For $462752d after using Main Gauche, Sinister Strike costs $462752s1 less Energy, deals $462752s2% more threat, and both Sinister Strike and Eviscerate deal $462752s3% more damage. Awards $s3 combo $lpoint:points;.
+424919,,"Instantly strike with your off-hand weapon for normal off-hand weapon damage and increase your chance to parry by $s2% for $d or until you successfully parry. For $462752d after using Main Gauche, Sinister Strike costs $462752s1 less Energy, deals $462752s2% more threat, grants stacks of Rolling with the Punches, and both Sinister Strike and Eviscerate deal $462752s3% more damage. Awards $s3 combo $lpoint:points;.
 
 Main Gauche benefits from most talents and effects that trigger from or modify Sinister Strike. Main Gauche's effect will not discount or empower Main Gauche.",Parry chance increased by $s2%.
 424925,,"Reduces the Energy cost of your Backstab and Ambush abilities by $s1, and increases the damage they deal to non-player controlled targets by $s2%. $?s400094[Does not apply to Mutilate.][Does not apply to abilities learned from other runes.]",
@@ -25665,12 +25666,12 @@ $@spelldesc426065",
 426200,,,
 426223,,,
 426241,,,
-426243,,"Refreshing Corruption, Immolate, Curse of Agony, Unstable Affliction, or Siphon Life when it has less than $s1 seconds duration remaining will cause you to deal instant damage to the target equal to the spell's remaining periodic damage.",
+426243,,"Applying Corruption, Immolate, Curse of Agony, Unstable Affliction, Shadowflame, or Siphon Life will cause you to deal instant damage to the target equal to one tick of the spell's periodic damage. Refreshing any of those spells when it has less than $s1 seconds duration remaining will cause you to deal instant damage to the target equal to the spell's remaining periodic damage.",
 426245,,,
 426246,,,
 426247,,,
 426257,,,Filled with inspiration.
-426301,,"Recite from a dark tome, granting damage done by you or your summoned demon a $h% chance to increase the damage done by the other by $426303s1% for $426303d. Recitation lasts $d.",Damage done by you or your summoned demon has a $h% chance to increase the damage done by the other by $426303s1% for $426303d.
+426301,,Damage done by you or your summoned demon has a $h% chance to increase the damage done by the other by $426303s1% for $426303d.,Damage done by you or your summoned demon has a $h% chance to increase the damage done by the other by $426303s1% for $426303d.
 426303,,Increases all damage done by $s1%.,Increases all damage done by $s1%.
 426311,,Increases all Fire and Shadow damage done by $s1%.,Increases all Fire and Shadow damage done by $s1%.
 426316,,Your critical strikes with Fire and Shadow spells increase your Fire and Shadow damage done by $426311s1% for $426311d.,
@@ -25876,7 +25877,7 @@ These values are increased by each living Blade Master in the Far Seer's army, e
 427711,,,
 427712,,"Periodic damage from your Corruption, Unstable Affliction, Curse of Agony, Immolate, Curse of Doom, and Siphon Life abilities can now be critical strikes.",
 427713,,Your Conflagrate ability also grants $427714s1% spellcasting haste for $427714d and no longer consumes Immolate.,
-427714,,,Spellcasting haste increased by $s1%.
+427714,,,Spellcasting haste increased by $w1%.
 427715,,,
 427717,,"Shadow energy slowly destroys the target, causing ${$m1*6*$<power>/100} damage over $d. In addition, if the Unstable Affliction is dispelled it will cause ${$m1*$m3/100*$<power>/100} damage to the dispeller and silence them for $427719d. Only one Unstable Affliction or Immolate per Warlock can be active on any one target.","$w1 Shadow damage every $t1 sec.  If dispelled, will cause ${$w1*$m3/100} damage to the dispeller and silence them for $427719d."
 427718,,,
@@ -25936,7 +25937,7 @@ The Felguard benefits from all talents and effects that trigger from or benefit 
 428708,,"Converts resources into health every second for $d. Up to $s1 Rage, $s2 Energy, or $s3% base Mana is converted per second into up to $s4% health.",Converting resources into health.
 428710,,,"The elemental's binding magics are unravelling, radiating raw mana on nearby players."
 428713,,"The target's skin becomes as tough as bark. Physical damage taken is reduced by $s2%.  While protected, damaging attacks will not cause spellcasting delays. Lasts $d.","Physical damage taken is reduced by $s2%. While protected, damaging attacks will not cause spellcasting delays."
-428717,,"Increases the damage done by Explosive Shot and all your damaging traps by $s1%. Additionally, the initial damage of Explosive Trap and the total periodic damage of your Immolation Trap are increased by $s3% of your melee Attack Power.",
+428717,,"Increases the damage done by Explosive Shot and all your damaging traps by $s1%. Additionally, the initial damage of Explosive Trap and the total periodic damage of your Immolation Trap are increased by $s3% of your melee or ranged Attack Power.",
 428723,,,
 428724,,,
 428726,,"Consumes all applications of Frenzy from your pet, increasing your ranged attack speed by $s1% and granting $s2 Focus to your pet for each application of Frenzy consumed. Lasts $d.
@@ -27219,13 +27220,21 @@ Resource cost increased by $s3%."
 437425,,"The caster spits a lethargic poison at players, inflicting $s1 Nature damage every $t1 sec for $d. This poison reduces hit chance by $s2% and increases ability costs by $s3%.","$s1 Nature damage inflicted every $t1 sec.
 Hit chance reduced by $s2%.
 Resource cost increased by $s3%."
+437472,,$@spelldesc437479,$@spellaura437479
+437474,,$@spelldesc437479,$@spellaura437479
+437475,,$@spelldesc437479,$@spellaura437479
 437477,,,
+437479,,"Balnazzar unleashes a swarm of carrion insects that infest players, causing them to inflict $s1 Shadow damage every $t1 sec to allies within $437480A1 yards for $d. This effect stacks.",Inflicting $s1 Shadow damage every $t1 sec to allies within $437480A1 yards. This effect stacks.
+437480,,$@spelldesc437479,$@spellaura437479
 437499,,,
 437503,,"The caster slams the ground, inflicting $s1 Physical damage to players and creating several pillars.",
 437511,,,
 437515,,,
+437521,,,
 437524,,,
 437525,,,
+437526,,,
+437532,,"The shade releases a screeching howl striking fear in an enemy, causing it to flee in terror for $d.",Fleeing in fear.
 437579,,,
 437584,,,
 437585,,Damage done increased by $s1%.,Damage done increased by $s1%.
@@ -27234,8 +27243,14 @@ Resource cost increased by $s3%."
 437598,,,
 437605,,,
 437617,,,Movement speed reduced by $s1%.
+437621,,$@spelldesc437622,$@spellaura437622
+437622,,"Shades of Balnazzar strike players that aren't within $437627A1 yards of another player, inflicting $437648s1 Shadow damage.","Shades of Balnazzar strike players that aren't within $437627A1 yards of another player, inflicting $437648s1 Shadow damage."
+437627,,$@spelldesc437622,$@spellaura437622
 437629,,,
+437642,,$@spelldesc437622,$@spellaura437622
 437646,,,
+437648,,$@spelldesc437622,$@spellaura437622
+437650,,$@spelldesc437622,$@spellaura437622
 437666,,,
 437695,,,"The Blood Loa demands sport, not slaughter of the helpless! Leave your raid group or face his wrath! All stats and movement speed reduced by $s1%."
 437698,,,Heads! Critical hit chance increased!
@@ -27245,6 +27260,7 @@ Resource cost increased by $s3%."
 437713,,Increases all damage done by $s1%,Increases all damage done by $s1%
 437715,,"Drains $s1 health from nearby enemies, healing the caster for up to twice the amount stolen.",
 437716,,Your next attack will critically strike.,Your next attack will critically strike.
+437739,,$@spelldesc438170,Silenced.
 437751,,Bruised.,Bruised.
 437764,,,
 437765,,Instantly attack the target causing damage.,
@@ -27254,13 +27270,24 @@ Resource cost increased by $s3%."
 437789,,,
 437791,,The caster gains $s1% of their maximum health every $t1 sec.,$s1% health restored every $t1 sec.
 437799,,,$w $?$w=1[trophy][trophies] gathered.
+437801,,$@spelldesc437802,Immune to silence.
+437802,,"The lightbearer channels their hope, making friendly targets within $A1 yards immune to silence.
+
+Enrages Screeching Terrors.","Friendly targets within $A1 yards become immune to silence.
+
+Screeching Terrors become Enraged if hit."
 437805,,Smite a target for $s1 Holy damage.,
 437807,,,
 437809,,Consumes the target in holy flames that cause $s1 Holy damage and an additional $s2 Holy damage every $t2 sec for $d.,$s2 Holy damage inflicted every $t2 sec.
+437813,,"Coming into contact with the light sends the Sreeching Terror into a frenzy, increasing attack and movement speed by $s$%",Attack and movement speed increased by $s1%.
 437817,,"The caster creates zones of holy energy, inflicting $437837s1 Holy damage every $s1 sec to players within.",
 437821,,,
 437823,,,
+437833,,$@spelldesc437933,$@spellaura437933
+437834,,$@spelldesc437933,$@spellaura437933
 437837,,$@spelldesc437817,
+437840,,$@spelldesc437846,$@spellaura437846
+437846,,"The infernal burns with a wicked intensity, inflicting $437840s1 Fire damage to enemies with $A1 yards every $t2 sec, but the light also provides immunity to Suppressive Darkness.","Inflicting $437840s1 Fire damage to enemies with $A1 yards every $t2 sec, and also provides immunity to Suppressive Darkness."
 437847,,"Slashes out at a target, inflicting $s1% weapon damage as Shadow and reducing healing received by $s2% for $d.",Healing received reduced by $s2%.
 437853,,,
 437868,,"Causes dark magic to flow around targets, inflicting $s1 Shadow damage every $t1 sec and reducing damage done by $s2% for $d.","$s1 Shadow damage inflicted every $t1 sec.
@@ -27271,14 +27298,21 @@ Damage done reduced by $s2%."
 437887,,$@spelldesc437884,
 437888,,,
 437891,,"Strikes the target, inflicting $s1% weapon damage as Holy and increasing Holy damage taken by $s2% for $d.",Holy damage taken increased by $s2%.
+437902,,$@spelldesc437933,$@spellaura
 437915,,The caster stuns targets for $d.,Stunned.
 437920,,"Pulls all players towards the caster, inflicting $s1 Holy damage to them.",
 437921,,,
+437922,,$@spelldesc437846,Suffering $437840s1 Fire damage every $437846t2 sec and immune to Suppressive Darkness.
 437924,,,
 437927,,"Causes dark magic to flow around targets, inflicting $s1 Shadow damage every $t1 sec.",$s1 Shadow damage inflicted every $t1 sec.
 437928,,"Releases a scream, sending enemies fleeing in fear for $d.",Fleeing in fear.
 437930,,"Shields the caster for $d, absorbing up to $s1 damage.",Absorbs damage.
+437933,,"Balnazzar summons an infernal to interrupt a Scarlet Lightbearer, inflicting $s1 Fire damage within $A1 yards and stunning players hit for $D.",Stunned.
 437951,,Eats the target.,
+437983,,Balnazzar marks players for domination. After $D players afflicted and allies within $437987A1 to become charmed for $437987D.,
+437984,,$@spellname437983,Marked for domination...
+437987,,"$@spellname437983
+",Charmed.
 437995,,Drains the target.,
 437997,,"When your pet scores a critical hit with a special ability, you instantly regenerate $437999s1% of your maximum mana.",
 437999,,,
@@ -27300,6 +27334,8 @@ Movement speed reduced by $s5%."
 438136,,$@spelldesc438130,Attack and cast speed reduced by $s2%.
 438142,,"The caster gets gunk all over targets, inflicting $s1 Nature damage every $t1 sec and reducing their movement speed by $s2% for $d.","$s1 Nature damage inflicted every $t1 sec.
 Movement speed reduced by $s2%."
+438170,,"Balnazzar plunges the cathedral into darkness, silencing all players.","Plunges the cathedral into darkness, silencing all players."
+438185,,,
 438219,,,
 438220,,,
 438262,,,
@@ -28913,7 +28949,7 @@ $@spelldesc400735",Healing ${$w1*3} health over $d.
 456493,,,
 456494,,Your Judgement of Light and Judgement of Wisdom also grant the effects of Judgement of the Crusader.,
 456496,,,Increases Holy damage taken by up to $s1.
-456533,,"Your Seal of Command, Seal of Righteousness, and Seal of Martyrdom now persist for $s1 seconds after you cast another Seal, or until you cast a third Seal. Your Judgements can now trigger multiple Seals if active.",
+456533,,"Your Seal of Command, Seal of Righteousness, and Seal of Martyrdom deal $s2% less damage, but now persist for $s1 seconds after you cast another Seal, or until you cast a third Seal. Your Judgements can now trigger multiple Seals if active.",
 456536,,Increases the block value of your shield by $s1.,
 456538,,Heal for $456540s1 when you Block. Can only heal once every few seconds.,
 456540,,,
@@ -29068,18 +29104,18 @@ Divine Light benefits from all talents and effects that trigger from or modify H
 458860,,,
 458872,,"The end of an epoch is nigh!
 Limited health
-Speed limited to $s2%.","The end of an epoch is nigh!
+Cannot exceed 100% movement speed.","The end of an epoch is nigh!
 Limited health
-Speed limited to $s2%."
+Cannot exceed 100% movement speed."
 458877,,The end of an epoch is nigh!,The end of an epoch is nigh!
 458878,,"The end of an epoch is nigh!
-Movement speed increased by $s4%.
-Damage taken reduced by $s5%.
-Health increased by $s6%.
+Movement speed increased by $s3%.
+Damage taken reduced by $s4%.
+Health increased by $s5%.
 ","The end of an epoch is nigh!
-Movement speed increased by $s4%.
-Damage taken reduced by $s5%.
-Health increased by $s6%."
+Movement speed increased by $s3%.
+Damage taken reduced by $s4%.
+Health increased by $s5%."
 458880,,Disarm target's weapon for $d.,De-clawed.
 458881,,,
 458882,Rank 4,"Prime recycling shears to recycle the target, repurposing it for something cool.","Health reduced by $s2%.
@@ -30191,7 +30227,7 @@ Direct heals remove 1 stack."
 467103,,,
 467125,,,Blessed by the Loa of Tigers. Attacks and spells invoke Shirvallah to increase haste for you and your nearby allies.
 467127,,,Empowered by the Loa of Tigers.
-467141,,"Quickens the mind, increasing the Mage's casting speed of non-channeled spells by $s1% for $d.",Casting speed of non-channeled spells increased by $s1%.
+467141,,"Quickens the mind, increasing the Mage's casting speed by $s1% for $d.",Casting speed increased by $s1%.
 467142,,Increases healing done by up to $s1 and damage done by up to $s2 for all magical spells and effects.,
 467143,,Increases healing done by up to $s1 and damage done by up to $s2 for all magical spells and effects.,
 467144,,Increases healing done by up to $s1 and damage done by up to $s2 for all magical spells and effects.,
@@ -30305,7 +30341,7 @@ Casting speed increased by $s1%."
 Healing effects increased by $s2%.
 Mana cost increased by $s3%."
 467525,,"Heals your target for $s2% of their maximum health, and increases their maximum health by $s1% for $d.",Maximum health increased by $s1%.
-467526,,Reduces the cooldown on your Judgement ability by ${$m1/-1000} sec.,
+467526,,"Reduces the cooldown on your Judgement ability by ${$m1/-1000} sec, but reduces the damage your Judgements deal by $s2%.",
 467528,,,
 467529,,"Your Judgement grants $467530s1% increased Holy damage for $467530d, stacking up to $467530u times.",
 467530,,,Increases holy damage dealt by $s1%.
@@ -30362,7 +30398,7 @@ Ranged attack power increased by $s2."
 467766,,,
 467782,,Decipher the scroll with a Comprehension Charm. Who knows what magic it contains?,
 467790,,Combine the collected reagents into a powerful staff with multiple natures.,
-467797,,Your Rolling with the Punches also grants you $s1% increased Armor from items per stack.,
+467797,,Your Rolling with the Punches also grants you $s1% increased Armor from items per stack (capped at ${$s1*5}%).,
 467801,,,
 467803,,The cooldown on your Main Gauche resets every time your target Dodges or Parries.,
 467804,,"Your non-periodic damaging and healing critical strikes now have a $h% chance to trigger your Water Shield, but do not consume a charge or trigger its cooldown.",
@@ -31154,7 +31190,7 @@ Cannot attack or use spells."
 1213307,,Increases Wyvern Strike damage over time by $s1% and increases your pet's maximum focus by $s2.,
 1213309,,Increases the impact damage of Mongoose Bite and all Strikes by $s1%.,
 1213310,,Increases the Focus regeneration of your pets by $s1%.,
-1213312,,Your Arcane Blast increases damage and healing done by an additional $s1% per stack.,
+1213312,,Your Arcane Blast increases damage done by an additional $s1% per stack.,
 1213314,,"Your Mana Shield, Fire Ward, and Frost Ward absorb $s1% more damage and also place a Temporal Beacon on the target for $400735d.",
 1213317,,,Increases the critical strike chance of your next Fire damage spell by $s1%.
 1213318,,Your Fire Blast now also causes your next Fire spell to gain $1213317s1% increased critical strike chance for $1213317d.,
@@ -31211,7 +31247,7 @@ Time between attacks increased by $s2%."
 Movement speed reduced by $s2%."
 1213465,,"Shouts at an enemy, paralyzing it with terror for $d. and causing all other nearby enemies to flee in fear.",Intimidated.
 1213466,,Summons $s1 $lRazormane Wolf:Razormane Wolves; to accompany the caster until dismissed.,
-1213467,,"Crusader Strike now unleashes the Judgement effect of your Seals, but does not consume the Seal.",
+1213467,,"While a one-handed weapon is equipped, Crusader Strike now unleashes the Judgement effect of your Seals, but does not consume the Seal.",
 1213477,,"Strikes an enemy with a lightning bolt that arcs to another nearby enemy. The spell affects up to $x1 targets, inflicting greater Nature damage to each successive target.",
 1213478,,Teaches you how to make Razorspike Headcage.,
 1213479,,"Surrounds the caster with $n balls of lightning that have $h% chance of striking melee or ranged attackers for $s1 damage. Each time the lightning shield strikes, a ball of lightning dissipates. Thus, the shield expires after $d. or after it has struck $n times.",$h% chance of inflicting $s1 Nature damage on hit.
@@ -31953,7 +31989,7 @@ The benefits from your Seal of the Dawn cannot exceed Rank ${$s3/$u}."
 1218367,,Hold up the Enchanted Torch and attempt to dispel the darkness near Karazhan Crypts.,
 1218375,,,
 1218415,,,
-1218423,,Your Lifebloom now has a $s1% chance to heal the target for one application of its dispel amount each time the target takes damage.,
+1218423,,Your Lifebloom now has a $s1% chance to heal the target for one application of its dispel amount each time the target takes damage. This effect can only occur once every few seconds.,
 1218427,,"Each time your Rejuvenation rank 10 or rank 11 heals a target, you have a $s1% chance to restore $1219708m1 mana, $1219706m1 energy, or ${$1219707m1/10} rage to your target.",
 1218429,,Your Rejuvenation and Regrowth refresh their duration to full each time their target is damaged by an Undead enemy.,
 1218443,,Your Moonfire and Sunfire deal $s1% more damage.,
@@ -31962,7 +31998,7 @@ The benefits from your Seal of the Dawn cannot exceed Rank ${$s3/$u}."
 1218476,,"Your Rake now deals its periodic damage against non-player controlled targets every $s1 sec, increasing its total damage over time by $s3%.",
 1218477,,Your Tiger's Fury cooldown is reduced by $s1%.,
 1218478,,"Each time you deal Bleed damage to an Undead target, you gain $1218479s1% increased damage and critical damage done to Undead for $1218479d, stacking up to $1218479u times.",
-1218479,,,Damage done to Undead increased by $s1%.
+1218479,,,Damage and critical damage done to Undead increased by $s1%.
 1218482,,"Your Growl ability never misses, and your chance to be Dodged or Parried is reduced by $s1%.",
 1218485,,"Increases all damage caused against targets in Silithus, Ahn'Qiraj, Eastern Plaguelands, and Naxxramas by $s1% and increases critical damage caused against targets in these areas by an additional $s2%.","Damage against targets in Silithus, Ahn'Qiraj, Eastern Plaguelands, and Naxxramas increased by $s1%.
 Critical damage against targets in these areas is also increased by $s2%."
@@ -31971,7 +32007,7 @@ Critical damage against targets in these areas is also increased by $s2%."
 1218507,,"Reduces the cooldown on your Survival Instincts by ${$m1/-60000} min, and reduces the cooldown on your Berserk ability by ${$m2/-60000} min.",
 1218509,,"When you take damage from an Undead enemy, the remaining duration of your active Frenzied Regeneration is reset to $m1 sec. In addition, Frenzied Regeneration will never consume your last $s2 Rage to generate healing.",
 1218514,,Your Serpent Sting deals $s1% more damage.,
-1218515,,"Reduces the cooldown on your Chimera Shot, Explosive Shot, and Aimed Shot abilities by ${$m1/-1000}.1 sec and reduces the cooldown on your Kill Shot ability by ${$m2/-1000} sec.",
+1218515,,"Reduces the cooldown on Chimera Shot, Explosive Shot, and Aimed Shot by ${$m1/-1000}.1 sec, Kill Shot by ${$m2/-1000} sec, and Multi-Shot by ${$m3/-1000} sec.",
 1218569,,,
 1218574,,,Critical strike chance increased by $s1%.
 1218575,,"You gain $1226739s1% increased damage and critical damage done to Undead for $1226739d each time you hit an Undead enemy with a ranged attack, stacking up to $1226739u times.",
@@ -31979,7 +32015,7 @@ Critical damage against targets in these areas is also increased by $s2%."
 1218582,,Your Wyvern Strike and Mongoose Bite deal $s1% more initial damage.,
 1218583,,"Reduces the cooldown on your Wyvern Strike ability by ${$m1/-1000} sec, reduces the cooldown on your Raptor Strike ability by ${$m2/-1000} sec, and reduces the cooldown on your Flanking Strike ability by ${$m3/-1000} sec.",
 1218585,,,
-1218587,,,Damage done to Undead increased by $s1%.
+1218587,,,Damage and critical damage done to Undead increased by $s1%.
 1218589,,"You gain $1218587s1% increased damage and critical damage done to Undead for $1218587d each time you hit an Undead enemy with a melee attack, stacking up to $1218587u times. Stacks are lost upon performing a ranged attack.",
 1218592,,Allies with your Temporal Beacon heal for ${$SPA*$m1/1000+$<healpower>*$400735m1/100} health every $400735t1 sec.,
 1218599,,,
@@ -31988,8 +32024,8 @@ Critical damage against targets in these areas is also increased by $s2%."
 1218695,,,Attack and casting speeds increased by $s1%.
 1218697,,"Damage you deal to Undead causes $s1% more chronomantic healing, and you gain mana equal to $s2% of the chronomantic healing you generate from damaging Undead.",
 1218699,,,
-1218700,,"Your Evocation grants you $1218701s1% increased damage done every sec you channel it, stacking up to $1218701u times and lasting $1218701d.",
-1218701,,,All damage done increased by $s1%.
+1218700,,"Your Evocation grants you $?a1218232|a1218271|a1218275|a1218276|a1218283|a1224428[$1218701s1%][$1218701s2%] increased damage done every sec you channel it, stacking up to $?p1226423[$m2+$1226423m2][$m2] times and lasting $1218701d.",
+1218701,,,All damage done increased by $w1%.
 1218988,,,
 1218993,,Reduces the cooldown on your Evocation ability by $s1%.,
 1218995,,"Your Ignite damage does not decay on Undead targets below $s1% health, and Undead targets below $s2% health take damage as if they were Frozen.",
@@ -32020,7 +32056,7 @@ Hitting a target with Shadow Cleave also grants you $460200s1 Spell Damage for e
 ",
 1219101,,"Your next Imp, Voidwalker, Succubus, Incubus, Felhunter, or Felguard Summon spell has its casting time reduced by $/1000;s1 sec, and does not cost a Soul Shard or Mana.","Imp, Voidwalker, Succubus, Incubus, Fellhunter, and Felguard casting time reduced by $/1000;S1 sec.  Mana and Soul Shard costs reduced by $s2%."
 1219108,,"The Military Quarter is empowered. While in combat, orders will be issued at random. Obey them, or suffer the consequences!","The Military Quarter is empowered. While in combat, orders will be issued at random. Obey them, or suffer the consequences!"
-1219110,,Throw out a hooked chain to restrain the target and pull them toward you.,
+1219110,,$@spelldesc1219093,
 1219111,,$@spelldesc1219093,
 1219114,,"The Plague Quarter is empowered. Bolstering mushrooms will randomly grow nearby, but will explode when they reach maturity.","The Plague Quarter is empowered. Bolstering mushrooms will randomly grow nearby, but will explode when they reach maturity."
 1219121,,Inflict Blood Plague upon the enemy target which deals $M1 Shadow damage every $t1 sec for $d.,Suffering $w1 Shadow damage every $t1 sec.
@@ -32076,7 +32112,7 @@ $@spelldesc19280",
 1219288,,,
 1219289,,,
 1219290,,,
-1219291,,,Damage done to Undead increased by $s1%.
+1219291,,,Damage and critical damage done to Undead increased by $s1%.
 1219293,,"You gain $1219291s1% increased damage and critical damage done to Undead for $1219291d per Combo Point you spend, stacking up to $1219291u times.",
 1219325,,,
 1219338,,"The ground has frozen over, making it hard to move.","The ground has frozen over, making it hard to move."
@@ -32096,10 +32132,10 @@ Slows movement speed by $s2%."
 1219367,,Increases periodic damage done by your Flame Shock ability by $s1%.,
 1219368,,Reduces the cooldown on your Lava Burst ability by ${$m1/-1000} sec.,
 1219369,,"You gain $1219370s1% increased damage and critical damage done to Undead for $1219370d for each time your Overload triggers from an offensive spell cast, stacking up to $1219370u times.",
-1219370,,,Damage done to Undead increased by $s1%.
+1219370,,,Damage and critical damage done to Undead increased by $s1%.
 1219373,,Increases damage done by your Lightning Shield by $s1%.,
 1219374,,Reduces the cooldown on your Lava Lash and Stormstrike abilities by ${$m1/-1000}.1 sec.,
-1219375,,,Damage done to Undead increased by $s1%.
+1219375,,,Damage and critical damage done to Undead increased by $s1%.
 1219376,,"You gain $1219375s1% increased damage and critical damage done to Undead for $1219375d for each charge of Maelstrom Weapon you earn, stacking up to $1219375u times.",
 1219379,,"Taunts the target to attack you, but has no effect if the target is already attacking you.",Taunted.
 1219382,,"Your Earth Shock ability never misses when used as a taunt, and your chance to be Dodged or Parried is reduced by $s1%.",
@@ -32114,7 +32150,7 @@ Slows movement speed by $s2%."
 1219415,,Increases damage and healing done by magical spells and effects by up to $s1.,
 1219420,,The Harbinger of Sin creates a fiery vortex pulling all enemies inward for the duration of the pull.,Pulling all enemies inward.
 1219421,,Increases the damage done by your Incinerate and Corruption abilities by $s1%.,
-1219423,,"Your non-periodic critical strikes cause your active Corruption, Immolate, Shadowflame, and Unstable Affliction spells on the target to immediately deal one pulse of their damage to the target.",
+1219423,,"Your non-periodic critical strikes cause your active Corruption, Immolate, Shadowflame, and Unstable Affliction spells on the target to immediately deal a tick of damage at $s1% effectiveness.",
 1219425,,,
 1219428,,,
 1219429,,,
@@ -32126,7 +32162,7 @@ Slows movement speed by $s2%."
 1219479,,"When an Undead enemy attempts to attack you, the remaining duration of your active Vengeance is reset to $s1 sec.",
 1219481,,Increases damage done by your Deep Wounds talent by $s1%.,
 1219483,,"Reduces the cooldown on your Bloodthirst, Mortal Strike, and Shield Slam abilities by $s1%.",
-1219485,,,Damage done to Undead increased by $s1%.
+1219485,,,Damage and critical damage done to Undead increased by $s1%.
 1219486,,"Your melee critical strikes against Undead enemies grant you $1219485s1% increased damage and critical damage done to Undead for $1219485d, stacking up to $1219485u times.",
 1219500,,Increases your attack speed by $s1% for $d1.,Increased attack speed.
 1219501,,"Reflects the next offensive spell cast on the user, and increases resistances to all schools of magic by $s1 for $d.",All magic resistances increased by $s1.
@@ -32142,12 +32178,12 @@ Slows movement speed by $s2%."
 1219520,,Increases the block value of your shield by $s1 for $d.,Block value increased by $s1.
 1219521,,+$s1 Attack Power when fighting Undead and Demons.  It also allows the acquisition of Scourgestones on behalf of the Argent Dawn.,
 1219522,,Increases damage done to Undead and Demons by magical spells and effects by up to $s1.  It also allows the acquisition of Scourgestones on behalf of the Argent Dawn.,
-1219539,,Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100}.2% and your health by ${$m2/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit),Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100}.2% and your health by ${$m2/100}.2% for each piece of Sanctified armor equipped.
+1219539,,Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100}.2% and your health by ${$m2/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit),Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100}.2% and your health by ${$m2/100}.2% for each Sanctified item equipped.
 1219540,,"Your Taunt ability never misses, and your chance to be Dodged or Parried is reduced by $s1%.",
 1219541,,"Taunts the target to attack you, but has no effect if the target is already attacking you.",
 1219543,,Reduces the cooldown on your Shield Wall ability by ${$m1/-60000} min and reduces the cooldown on your Recklessness ability by ${$m1/-60000} min. Recklessness can now be used in any Stance and does not increase damage taken.,
 1219544,,"When you take damage from an Undead enemy, the remaining duration of your active Last Stand is reset to $m1 sec.",
-1219548,,Unlocks your potential while inside Naxxramas.  Increasing your healing by ${$m1/100}.2% and your health by ${$m2/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit),Unlocks your potential while inside Naxxramas.  Increasing your healing and shielding by ${$m1/100/$u}.2% and your health by ${$m2/100/$u}.2% for each piece of Sanctified armor equipped.
+1219548,,Unlocks your potential while inside Naxxramas.  Increasing your healing by ${$m1/100}.2% and your health by ${$m2/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit),Unlocks your potential while inside Naxxramas.  Increasing your healing by ${$m1/100/$u}.2% and your health by ${$m2/100/$u}.2% for each Sanctified item equipped.
 1219552,,Increases damage and healing done by magical spells and effects of all party members within $a1 yards by up to $s1.  This specific effect does not stack from multiple sources.,Increases damage and healing done by magical spells and effects by up to $s1.  This specific effect does not stack from multiple sources.
 1219553,,Increases healing done by up to $s1 and damage done by up to $s2 for all magical spells and effects of all party members within $a1.  This specific effect does not stack from multiple sources.,Increases healing done by up to $s1 and damage done by up to $s2 for all magical spells and effects.  This specific effect does not stack from multiple sources.
 1219557,,Increases spell casting speed of all party members within $a1 yards by $s1%.  This specific effect does not stack from multiple sources.,Increases spell casting speed by $s1%.  This specific effect does not stack from multiple sources.
@@ -32737,7 +32773,7 @@ $@spelldesc467203",
 1219933,,"Permanently imbue your shoulders with the Soul of the Feathered Sage:
 
 $@spelldesc467205",
-1219934,,"Permanently imbue your shoulders with the Soul of the Benevolet Seer:
+1219934,,"Permanently imbue your shoulders with the Soul of the Benevolent Seer:
 
 $@spelldesc1213159",
 1219935,,"Permanently imbue your shoulders with the Soul of the Lifeweaver:
@@ -33237,7 +33273,7 @@ $@spelldesc1213201",
 1220438,,,
 1220439,,,
 1220441,,,$1220830s1 Fire damage to nearby allies if you cross the flames.
-1220514,,"Unlocks your potential while inside Naxxramas.  Increasing your threat caused by ${$m1/100}.2%, your damage by ${$m2/100}.2%, and your health by ${$m3/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit)","Unlocks your potential while inside Naxxramas.  Increasing your threat caused by ${$m1/100/$u}.2%, your damage by ${$m2/100/$u}.2%, and your health by ${$m3/100/$u}.2% for each piece of Sanctified armor equipped."
+1220514,,"Unlocks your potential while inside Naxxramas.  Increasing your threat caused by ${$m1/100}.2%, your damage by ${$m2/100}.2%, and your health by ${$m3/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit)","Unlocks your potential while inside Naxxramas.  Increasing your threat caused by ${$m1/100/$u}.2%, your damage by ${$m2/100/$u}.2%, and your health by ${$m3/100/$u}.2% for each Sanctified item equipped."
 1220515,,"Hurls missiles of dark magic, inflicting Shadow damage to nearby enemies.",
 1220517,,"Encases the caster in bone armor, absorbing $s1 damage for $d. While the armor holds, spellcasting cannot be interrupted by Physical attacks.",Damage is absorbed by bone armor.
 1220519,,Summons $s1 $lSkeletal Servant:Skeletal Servants; to accompany the caster until dismissed.,
@@ -33275,11 +33311,11 @@ $@spelldesc1213201",
 1220650,,"+$s1 Attack Power in Cat, Bear, and Dire Bear forms only.",
 1220651,,"+$s1 Attack Power in Cat, Bear, and Dire Bear forms only.",
 1220653,,Increases healing done by up to $s1 and damage done by up to $s2 for all magical spells and effects.,
-1220654,,Increases your casting speed of non-channeled spells by $s1%.,
-1220655,,Increases your casting speed of non-channeled spells by $s1%.,
-1220656,,Increases your casting speed of non-channeled spells by $s1%.,
-1220657,,Increases your casting speed of non-channeled spells by $s1%.,
-1220658,,Increases your casting speed of non-channeled spells by $s1%.,
+1220654,,Increases your casting speed by $s1%.,
+1220655,,Increases your casting speed by $s1%.,
+1220656,,Increases your casting speed by $s1%.,
+1220657,,Increases your casting speed by $s1%.,
+1220658,,Increases your casting speed by $s1%.,
 1220659,,,Next hostile spell reflected.
 1220666,,Increases damage and healing done by magical spells and effects by up to $s1.,
 1220668,,"Increases the wielder's Strength by $s1, but they also take $s2% more damage from all sources for $d.","Strength increased by $s1.
@@ -33422,7 +33458,7 @@ Disclaimer: Goggles may not allow you to see much at all."
 1221217,,,
 1221278,,This all feels wrong. You're out of space. Out of time.,This all feels wrong. You're out of space. Out of time.
 1221287,,,
-1221309,,,
+1221309,,"Don the insignia of the Scarlet Crusade.  While wearing $M1 pieces of the crafted Scarlet Military set or the Tabard of the Scarlet Enclave, your disguise will fool many crusaders in New Avalon.",Wearing an insignia of the Scarlet Crusade.
 1221312,,,
 1221322,,,
 1221325,,,"Weakened by flames.
@@ -33435,6 +33471,10 @@ Damage taken increased by $s1%."
 1221331,,,
 1221332,,,Attack speed and movement speed increased by $s1%.
 1221336,,,
+1221337,,"Deploy an emergency hiding spot. Most enemies will be less likely to notice you while you stand near it. Observant foes may not be so easily fooled.
+
+Cannot be cast in combat.",
+1221341,,$@spelldesc1221337,Stealthed while you remain close to your hiding spot.
 1221342,,,
 1221404,,"Exposes all hidden and invisible enemies within $a1 yards of the targeted area, and staves off magical darkness for $d.",Hidden and invisible units are revealed.
 1221416,,"Exposes all hidden and invisible enemies within $a1 yards of the targeted area, and staves off magical darkness for $d.",Hidden and invisible units are revealed.
@@ -33478,6 +33518,8 @@ Damage taken increased by $s1%."
 1221762,,,
 1221766,,,
 1221782,,,
+1221793,,,
+1221794,,,
 1221795,,,
 1221796,,,
 1221797,,,Underneath blossoming starlight a gleam of the lunar illuminates amongst the shadows.
@@ -33489,6 +33531,7 @@ Damage taken increased by $s1%."
 1222158,,,
 1222206,,,
 1222207,,"Inflicts $s1% weapon damage and leaves the target wounded, reducing the effectiveness of any healing by $s2% for $d.",Healing effects reduced by $s2%.
+1222226,,Teleport player to relative safety.,Teleport player to relative safety.
 1222240,,,
 1222241,,,
 1222261,,,
@@ -33505,9 +33548,11 @@ Damage taken increased by $s1%."
 1222362,,Launches shadow infused orbs towards a random player that travels out and return to it's origin. Players hit are inflicted with $s1 Shadow damage,
 1222393,,Increases your attack speed by $s1%.,
 1222394,,Increases your attack speed by $s1%.,
+1222395,,Teleport player to relative safety.,Teleport player to relative safety.
 1222426,,,
 1222430,,"Kel'Thuzad's body is rapidly decomposing, causing heavy damage over time.","Kel'Thuzad's body is rapidly decomposing, causing heavy damage over time."
 1222476,,,
+1222487,,Attempts to finish off a wounded enemy with a fatal strike.,
 1222536,,,
 1222546,,Inflicts Fire damage to nearby enemies.,
 1222563,,"Strikes fear in an enemy, causing it to flee in terror for $d. Only 1 target can be feared at a time.",Fleeing in fear.
@@ -33519,10 +33564,13 @@ Damage taken increased by $s1%."
 1222581,,Takes control of a humanoid enemy up to level $s1 for $d.,Charmed.
 1222688,,"Causes an enemy to fixate upon the caster and increases the caster's attack speed by $s2% for $d. While the target is fixated upon the caster, the target is very reluctant to attack anything else.",
 1222702,,,
+1222704,,Teleport player to relative safety.,Teleport player to relative safety.
 1222709,,,
+1222743,,,
 1222771,,Launches fire infused orbs towards a random player that travels out. Players hit are inflicted with $s1 Fire damage,
 1222772,,"Light drives away the spirits and the darkness, affording some measure of safety.
 ","Light drives away the spirits and the darkness, affording some measure of safety."
+1222773,,,
 1222774,,,
 1222775,,,
 1222776,,,
@@ -33562,6 +33610,8 @@ Damage taken increased by $s1%."
 1222997,,Increases the damage dealt by your damage over time spells by $s1%.,
 1223009,,,
 1223010,,Gives you a $h% chance to get an extra attack on the same target after dealing damage with your weapon.,
+1223032,,,
+1223037,,,
 1223046,,Reduces damage from falling.,
 1223047,,,
 1223048,,,Damage and Healing increased by 10%.
@@ -33578,33 +33628,33 @@ Damage taken increased by $s1%."
 1223341,,Chance on hit to Increase your Strength by $1223342s1 and movement speed by $1223342s2% for $1223342d.,
 1223342,,,"Strength Increased by $s1.
 Movement speed Increased by $s2%."
-1223348,,Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100}.2% and your health by ${$m2/100}.2% for each piece of Sanctified armor equipped. (Your total number of Sanctified armor pieces cannot exceed $1223336s2),Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100/$u}.2% and your health by ${$m2/100/$u}.2% for each Sanctified item equipped.
-1223349,,Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100}.2% and your health by ${$m2/100}.2% for each piece of Sanctified armor equipped. (Your total number of Sanctified armor pieces cannot exceed $1223336s2),Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100/$u}.2% and your health by ${$m2/100/$u}.2% for each Sanctified item equipped.
+1223348,,Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100}.2% and your health by ${$m2/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit),Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100/$u}.2% and your health by ${$m2/100/$u}.2% for each Sanctified item equipped.
+1223349,,Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100}.2% and your health by ${$m2/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit),Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100/$u}.2% and your health by ${$m2/100/$u}.2% for each Sanctified item equipped.
 1223350,,Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100}.2% and your health by ${$m2/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit),Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100/$u}.2% and your health by ${$m2/100/$u}.2% for each Sanctified item equipped.
 1223351,,Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100}.2% and your health by ${$m2/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit),Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100/$u}.2% and your health by ${$m2/100/$u}.2% for each Sanctified item equipped.
-1223352,,Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100}.2% and your health by ${$m2/100}.2% for each piece of Sanctified armor equipped. (Your total number of Sanctified armor pieces cannot exceed $1223336s2),Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100/$u}.2% and your health by ${$m2/100/$u}.2% for each Sanctified item equipped.
+1223352,,Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100}.2% and your health by ${$m2/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit),Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100/$u}.2% and your health by ${$m2/100/$u}.2% for each Sanctified item equipped.
 1223353,,Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100}.2% and your health by ${$m2/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit),Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100/$u}.2% and your health by ${$m2/100/$u}.2% for each Sanctified item equipped.
 1223354,,Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100}.2% and your health by ${$m2/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit),Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100/$u}.2% and your health by ${$m2/100/$u}.2% for each Sanctified item equipped.
 1223355,,Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100}.2% and your health by ${$m2/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit),Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100/$u}.2% and your health by ${$m2/100/$u}.2% for each Sanctified item equipped.
 1223357,,Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100}.2% and your health by ${$m2/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit),Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100/$u}.2% and your health by ${$m2/100/$u}.2% for each Sanctified item equipped.
-1223367,,"Unlocks your potential while inside Naxxramas.  Increasing your threat caused by ${$m1/100}.2%, your damage by ${$m2/100}.2%, and your health by ${$m3/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit)","Unlocks your potential while inside Naxxramas.  Increasing your threat caused by ${$m1/100/$u}.2%, your damage by ${$m2/100/$u}.2%, and your health by ${$m3/100/$u}.2% for each piece of Sanctified armor equipped."
-1223368,,"Unlocks your potential while inside Naxxramas.  Increasing your threat caused by ${$m1/100}.2%, your damage by ${$m2/100}.2%, and your health by ${$m3/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit)","Unlocks your potential while inside Naxxramas.  Increasing your threat caused by ${$m1/100/$u}.2%, your damage by ${$m2/100/$u}.2%, and your health by ${$m3/100/$u}.2% for each piece of Sanctified armor equipped."
-1223370,,"Unlocks your potential while inside Naxxramas.  Increasing your threat caused by ${$m1/100}.2%, your damage by ${$m2/100}.2%, and your health by ${$m3/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit)","Unlocks your potential while inside Naxxramas.  Increasing your threat caused by ${$m1/100/$u}.2%, your damage by ${$m2/100/$u}.2%, and your health by ${$m3/100/$u}.2% for each piece of Sanctified armor equipped."
-1223371,,"Unlocks your potential while inside Naxxramas.  Increasing your threat caused by ${$m1/100}.2%, your damage by ${$m2/100}.2%, and your health by ${$m3/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit)","Unlocks your potential while inside Naxxramas.  Increasing your threat caused by ${$m1/100/$u}.2%, your damage by ${$m2/100/$u}.2%, and your health by ${$m3/100/$u}.2% for each piece of Sanctified armor equipped."
-1223372,,"Unlocks your potential while inside Naxxramas.  Increasing your threat caused by ${$m1/100}.2%, your damage by ${$m2/100}.2%, and your health by ${$m3/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit)","Unlocks your potential while inside Naxxramas.  Increasing your threat caused by ${$m1/100/$u}.2%, your damage by ${$m2/100/$u}.2%, and your health by ${$m3/100/$u}.2% for each piece of Sanctified armor equipped."
-1223373,,"Unlocks your potential while inside Naxxramas.  Increasing your threat caused by ${$m1/100}.2%, your damage by ${$m2/100}.2%, and your health by ${$m3/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit)","Unlocks your potential while inside Naxxramas.  Increasing your threat caused by ${$m1/100/$u}.2%, your damage by ${$m2/100/$u}.2%, and your health by ${$m3/100/$u}.2% for each piece of Sanctified armor equipped."
-1223374,,"Unlocks your potential while inside Naxxramas.  Increasing your threat caused by ${$m1/100}.2%, your damage by ${$m2/100}.2%, and your health by ${$m3/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit)","Unlocks your potential while inside Naxxramas.  Increasing your threat caused by ${$m1/100/$u}.2%, your damage by ${$m2/100/$u}.2%, and your health by ${$m3/100/$u}.2% for each piece of Sanctified armor equipped."
-1223375,,"Unlocks your potential while inside Naxxramas.  Increasing your threat caused by ${$m1/100}.2%, your damage by ${$m2/100}.2%, and your health by ${$m3/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit)","Unlocks your potential while inside Naxxramas.  Increasing your threat caused by ${$m1/100/$u}.2%, your damage by ${$m2/100/$u}.2%, and your health by ${$m3/100/$u}.2% for each piece of Sanctified armor equipped."
-1223376,,"Unlocks your potential while inside Naxxramas.  Increasing your threat caused by ${$m1/100}.2%, your damage by ${$m2/100}.2%, and your health by ${$m3/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit)","Unlocks your potential while inside Naxxramas.  Increasing your threat caused by ${$m1/100/$u}.2%, your damage by ${$m2/100/$u}.2%, and your health by ${$m3/100/$u}.2% for each piece of Sanctified armor equipped."
-1223379,,Unlocks your potential while inside Naxxramas.  Increasing your healing by ${$m1/100}.2% and your health by ${$m2/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit),Unlocks your potential while inside Naxxramas.  Increasing your healing and shielding by ${$m1/100/$u}.2% and your health by ${$m2/100/$u}.2% for each piece of Sanctified armor equipped.
-1223380,,Unlocks your potential while inside Naxxramas.  Increasing your healing by ${$m1/100}.2% and your health by ${$m2/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit),Unlocks your potential while inside Naxxramas.  Increasing your healing and shielding by ${$m1/100/$u}.2% and your health by ${$m2/100/$u}.2% for each piece of Sanctified armor equipped.
-1223381,,Unlocks your potential while inside Naxxramas.  Increasing your healing by ${$m1/100}.2% and your health by ${$m2/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit),Unlocks your potential while inside Naxxramas.  Increasing your healing and shielding by ${$m1/100/$u}.2% and your health by ${$m2/100/$u}.2% for each piece of Sanctified armor equipped.
-1223382,,Unlocks your potential while inside Naxxramas.  Increasing your healing by ${$m1/100}.2% and your health by ${$m2/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit),Unlocks your potential while inside Naxxramas.  Increasing your healing and shielding by ${$m1/100/$u}.2% and your health by ${$m2/100/$u}.2% for each piece of Sanctified armor equipped.
-1223383,,Unlocks your potential while inside Naxxramas.  Increasing your healing by ${$m1/100}.2% and your health by ${$m2/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit),Unlocks your potential while inside Naxxramas.  Increasing your healing and shielding by ${$m1/100/$u}.2% and your health by ${$m2/100/$u}.2% for each piece of Sanctified armor equipped.
-1223384,,Unlocks your potential while inside Naxxramas.  Increasing your healing by ${$m1/100}.2% and your health by ${$m2/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit),Unlocks your potential while inside Naxxramas.  Increasing your healing and shielding by ${$m1/100/$u}.2% and your health by ${$m2/100/$u}.2% for each piece of Sanctified armor equipped.
-1223385,,Unlocks your potential while inside Naxxramas.  Increasing your healing by ${$m1/100}.2% and your health by ${$m2/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit),Unlocks your potential while inside Naxxramas.  Increasing your healing and shielding by ${$m1/100/$u}.2% and your health by ${$m2/100/$u}.2% for each piece of Sanctified armor equipped.
-1223386,,Unlocks your potential while inside Naxxramas.  Increasing your healing by ${$m1/100}.2% and your health by ${$m2/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit),Unlocks your potential while inside Naxxramas.  Increasing your healing and shielding by ${$m1/100/$u}.2% and your health by ${$m2/100/$u}.2% for each piece of Sanctified armor equipped.
-1223387,,Unlocks your potential while inside Naxxramas.  Increasing your healing by ${$m1/100}.2% and your health by ${$m2/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit),Unlocks your potential while inside Naxxramas.  Increasing your healing and shielding by ${$m1/100/$u}.2% and your health by ${$m2/100/$u}.2% for each piece of Sanctified armor equipped.
+1223367,,"Unlocks your potential while inside Naxxramas.  Increasing your threat caused by ${$m1/100}.2%, your damage by ${$m2/100}.2%, and your health by ${$m3/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit)","Unlocks your potential while inside Naxxramas.  Increasing your threat caused by ${$m1/100/$u}.2%, your damage by ${$m2/100/$u}.2%, and your health by ${$m3/100/$u}.2% for each Sanctified item equipped."
+1223368,,"Unlocks your potential while inside Naxxramas.  Increasing your threat caused by ${$m1/100}.2%, your damage by ${$m2/100}.2%, and your health by ${$m3/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit)","Unlocks your potential while inside Naxxramas.  Increasing your threat caused by ${$m1/100/$u}.2%, your damage by ${$m2/100/$u}.2%, and your health by ${$m3/100/$u}.2% for each Sanctified item equipped."
+1223370,,"Unlocks your potential while inside Naxxramas.  Increasing your threat caused by ${$m1/100}.2%, your damage by ${$m2/100}.2%, and your health by ${$m3/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit)","Unlocks your potential while inside Naxxramas.  Increasing your threat caused by ${$m1/100/$u}.2%, your damage by ${$m2/100/$u}.2%, and your health by ${$m3/100/$u}.2% for each Sanctified item equipped."
+1223371,,"Unlocks your potential while inside Naxxramas.  Increasing your threat caused by ${$m1/100}.2%, your damage by ${$m2/100}.2%, and your health by ${$m3/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit)","Unlocks your potential while inside Naxxramas.  Increasing your threat caused by ${$m1/100/$u}.2%, your damage by ${$m2/100/$u}.2%, and your health by ${$m3/100/$u}.2% for each Sanctified item equipped."
+1223372,,"Unlocks your potential while inside Naxxramas.  Increasing your threat caused by ${$m1/100}.2%, your damage by ${$m2/100}.2%, and your health by ${$m3/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit)","Unlocks your potential while inside Naxxramas.  Increasing your threat caused by ${$m1/100/$u}.2%, your damage by ${$m2/100/$u}.2%, and your health by ${$m3/100/$u}.2% for each Sanctified item equipped."
+1223373,,"Unlocks your potential while inside Naxxramas.  Increasing your threat caused by ${$m1/100}.2%, your damage by ${$m2/100}.2%, and your health by ${$m3/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit)","Unlocks your potential while inside Naxxramas.  Increasing your threat caused by ${$m1/100/$u}.2%, your damage by ${$m2/100/$u}.2%, and your health by ${$m3/100/$u}.2% for each Sanctified item equipped."
+1223374,,"Unlocks your potential while inside Naxxramas.  Increasing your threat caused by ${$m1/100}.2%, your damage by ${$m2/100}.2%, and your health by ${$m3/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit)","Unlocks your potential while inside Naxxramas.  Increasing your threat caused by ${$m1/100/$u}.2%, your damage by ${$m2/100/$u}.2%, and your health by ${$m3/100/$u}.2% for each Sanctified item equipped."
+1223375,,"Unlocks your potential while inside Naxxramas.  Increasing your threat caused by ${$m1/100}.2%, your damage by ${$m2/100}.2%, and your health by ${$m3/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit)","Unlocks your potential while inside Naxxramas.  Increasing your threat caused by ${$m1/100/$u}.2%, your damage by ${$m2/100/$u}.2%, and your health by ${$m3/100/$u}.2% for each Sanctified item equipped."
+1223376,,"Unlocks your potential while inside Naxxramas.  Increasing your threat caused by ${$m1/100}.2%, your damage by ${$m2/100}.2%, and your health by ${$m3/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit)","Unlocks your potential while inside Naxxramas.  Increasing your threat caused by ${$m1/100/$u}.2%, your damage by ${$m2/100/$u}.2%, and your health by ${$m3/100/$u}.2% for each Sanctified item equipped."
+1223379,,Unlocks your potential while inside Naxxramas.  Increasing your healing by ${$m1/100}.2% and your health by ${$m2/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit),Unlocks your potential while inside Naxxramas.  Increasing your healing by ${$m1/100/$u}.2% and your health by ${$m2/100/$u}.2% for each Sanctified item equipped.
+1223380,,Unlocks your potential while inside Naxxramas.  Increasing your healing by ${$m1/100}.2% and your health by ${$m2/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit),Unlocks your potential while inside Naxxramas.  Increasing your healing by ${$m1/100/$u}.2% and your health by ${$m2/100/$u}.2% for each Sanctified item equipped.
+1223381,,Unlocks your potential while inside Naxxramas.  Increasing your healing by ${$m1/100}.2% and your health by ${$m2/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit),Unlocks your potential while inside Naxxramas.  Increasing your healing by ${$m1/100/$u}.2% and your health by ${$m2/100/$u}.2% for each Sanctified item equipped.
+1223382,,Unlocks your potential while inside Naxxramas.  Increasing your healing by ${$m1/100}.2% and your health by ${$m2/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit),Unlocks your potential while inside Naxxramas.  Increasing your healing by ${$m1/100/$u}.2% and your health by ${$m2/100/$u}.2% for each Sanctified item equipped.
+1223383,,Unlocks your potential while inside Naxxramas.  Increasing your healing by ${$m1/100}.2% and your health by ${$m2/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit),Unlocks your potential while inside Naxxramas.  Increasing your healing by ${$m1/100/$u}.2% and your health by ${$m2/100/$u}.2% for each Sanctified item equipped.
+1223384,,Unlocks your potential while inside Naxxramas.  Increasing your healing by ${$m1/100}.2% and your health by ${$m2/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit),Unlocks your potential while inside Naxxramas.  Increasing your healing by ${$m1/100/$u}.2% and your health by ${$m2/100/$u}.2% for each Sanctified item equipped.
+1223385,,Unlocks your potential while inside Naxxramas.  Increasing your healing by ${$m1/100}.2% and your health by ${$m2/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit),Unlocks your potential while inside Naxxramas.  Increasing your healing by ${$m1/100/$u}.2% and your health by ${$m2/100/$u}.2% for each Sanctified item equipped.
+1223386,,Unlocks your potential while inside Naxxramas.  Increasing your healing by ${$m1/100}.2% and your health by ${$m2/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit),Unlocks your potential while inside Naxxramas.  Increasing your healing by ${$m1/100/$u}.2% and your health by ${$m2/100/$u}.2% for each Sanctified item equipped.
+1223387,,Unlocks your potential while inside Naxxramas.  Increasing your healing by ${$m1/100}.2% and your health by ${$m2/100}.2% for each Sanctified item equipped.  (Equipping more than $1223336s2 Sanctified items provides no additional benefit),Unlocks your potential while inside Naxxramas.  Increasing your healing by ${$m1/100/$u}.2% and your health by ${$m2/100/$u}.2% for each Sanctified item equipped.
 1223433,,,
 1223437,,,
 1223455,,Improves your chance to get a critical strike with spells by $s1%.,
@@ -33661,6 +33711,7 @@ Movement speed slowed by $s2%."
 1223794,,Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100}.2% and your health by ${$m2/100}.2% for each piece of Sanctified armor equipped.,
 1223795,,Increases damage done to Undead by magical spells and effects by up to $s1.,
 1223805,,,
+1223963,Rank 7,"Corrupts the target, causing $o1 Shadow damage over $d.",$s1 Shadow damage every $t1 seconds.
 1223973,,Counts as a Sanctified item.,
 1223975,,Increases your attack speed by $s1% for $d1.,Increased attack speed.
 1223997,,The way is lit. The path is clear. You require only the strength to follow it.,The way is lit. The path is clear. You require only the strength to follow it.
@@ -33680,12 +33731,46 @@ The benefits from your Seal of the Dawn cannot exceed Rank $s3."
 1224588,,,
 1224589,,,
 1224590,,,
+1224607,,,
+1224608,,,
+1224609,,,
+1224610,,,
+1224611,,,
+1224612,,,
+1224613,,,
+1224614,,,
+1224615,,,
+1224616,,,
+1224617,,,
+1224618,,,
+1224619,,,
+1224620,,,
+1224621,,,
+1224622,,,
+1224623,,,
+1224624,,,
+1224625,,,
+1224626,,,
+1224627,,,
+1224628,,,
+1224629,,,
+1224630,,,
+1224631,,,
+1224632,,,
+1224633,,,
+1224635,,,
+1224636,,,
+1224637,,,
+1224638,,,
+1224639,,,
 1224702,,,
 1224905,,,
 1224919,,,
 1225051,,"Knocks an enemy back, forcing it to dismount.",Forced to dismount.
 1225096,,"Knocks an enemy back, forcing it to dismount.",Forced to dismount.
 1225098,,"Knocks an enemy back, forcing it to dismount.",Forced to dismount.
+1225313,,,
+1225314,,,
 1225419,,"A wave of necrotic energy fills the room, completely preventing all healing effects for $d.
 ","A wave of necrotic energy fills the room, completely preventing all healing effects for $d."
 1225423,,"Disarms an enemy, forcing it to stop wielding its weapon for $d.",Not wielding a weapon.
@@ -33699,32 +33784,1413 @@ The benefits from your Seal of the Dawn cannot exceed Rank $s3."
 1225464,,"Light magic lashes out at every enemy, inflicting $s1 Holy damage.",
 1225482,,"Hurls a bolt of dark magic at an enemy, inflicting Shadow damage.",
 1225484,,"Dark magic lashes out at every enemy, inflicting $s1 Shadow damage",
+1225758,,,
+1225759,,,
+1225760,,,
+1225762,,,
+1225763,,,
+1225769,,Restores $o1 health over $d.  Must remain seated while eating. $@spelldesc1225778,Restores $/5;s1 health per second.
+1225771,,Restores $o1 health over $d.  Must remain seated while eating. $@spelldesc1225779,Restores $/5;s1 health per second.
+1225772,,Restores $o1 health over $d.  Must remain seated while eating. $@spelldesc1225780,Restores $/5;s1 health per second.
+1225774,,Restores $o1 health over $d.  Must remain seated while eating. $@spelldesc1225782,Restores $/5;s1 health per second.
+1225778,,If you spend at least $1225769t2 sec eating you will become Well Fed and gain $s1 Strength and $s2 Stamina for $d.,Your Strength is increased by $w1 and Stamina by $w2.
+1225779,,If you spend at least $1225771t2 sec eating you will become Well Fed and gain $s1 Agility and $s2 Stamina for $d.,Your Agility is increased by $w1 and Stamina by $w2.
+1225780,,"If you spend at least $1225772t2 sec eating you will become Well Fed and gain $s1 Spell Damage, $s3 Healing Power, and $s2 Stamina for $d.","Your Spell Damage is increased by $w1, Healing Power by $w3, and Stamina by $w2."
+1225782,,"If you spend at least $1225774t2 sec eating you will become Well Fed and gain $s1 Attack Power, $s3 Spell Damage, $s4 Healing Power, and $s2 Stamina for $d.","Your Attack Power is increased by $w1, Spell Damage by $w3, Healing Power by $w4, and Stamina by $w2."
 1225841,Rank 4,"Curses the target with recklessness, increasing melee attack power by $s1 but reducing armor by $s2 for $d.  Cursed enemies will not flee and will ignore Fear and Horror effects.  Only one Curse per Warlock can be active on any one target.",Increases melee attack power by $s1 and decreases armor by $s2.   Target will not flee and will ignore Fear and Horror effects.
+1225906,,"Serve a delicious feast that lasts for $d and serves up to $M2 players.
+
+$@spellicon1225774 $@spellname1225774
+$@spelldesc1225774",
+1225907,,"Serve a delicious feast that lasts for $d and serves up to $M2 players.
+
+$@spellicon1225774 $@spellname1225774
+$@spelldesc1225774",
+1225924,,,
+1225951,,$@spelldesc1225960,
+1225960,,Teleport forward $M2 yds.,
 1225970,,,
+1225972,,Your tinker malfunction and caused an explosion.,Your tinker malfunctioned.
+1225982,,$@spelldesc1225987,
+1225987,,"Activate a set of jets to increase your movement speed by up to $M1%, for up to $d.",Movement speed increased by $w1%.
 1225988,,Unlocks your potential while inside Naxxramas.  Increasing your healing and shielding by ${$m1/100}.2% and your health by ${$m2/100}.2% for each piece of Sanctified armor equipped.,
+1225994,,$@spelldesc1225987,Movement speed increased by $w1% and your zoomies are unstoppable.
+1226001,,$@spelldesc1226007,
+1226007,,"Disrupt a magnetic field between you and your nearby enemy target, knocking you both away.
+
+Can only affect targets up to $s1 levels higher than you. Some targets cannot be displaced. Targets can only be affected by this effect once every $1226045d.",
+1226013,,$@spelldesc1226007,
+1226022,,$@spelldesc1226007,
+1226032,,"Each time your Lifebloom heals a target, it has a $h% chance to make your next Healing Touch, Nourish, or Regrowth within $1226035d instant cast.",
+1226035,,"Reduces the cast time of your next Healing Touch, Regrowth, or Nourish by $s1%.","Cast time of your next Healing Touch, Regrowth, or Nourish reduced by $s1%."
+1226038,,"Reduces the cast time of your next Healing Touch, Regrowth, or Nourish by $s1%.",Healing received from this Rejuvenation's owner is increased by $s1%.
+1226040,,Targets with your active Rejuvenation Rank 10 or Rank 11 receive $1226038s1% increased healing from your spells.,
+1226044,,Your non-periodic heals from Regrowth Rank 8 or Rank 9 have a $h% chance to spread your Rejuvenation on that target to all members of the target's party within $1226046a1 yards not already affected by your Rejuvenation.,
+1226045,,$@spelldesc1226007,An enemy recently disrupted your magnetic field so it cannot be used against you for a short while.
+1226046,,,
+1226092,,"Your Starfire deals $s1% more damage to targets with your Moonfire, and your Wrath deals $s2% more damage to targets with your Sunfire.",
+1226103,,Your Starsurge now increases the damage of your next ${$m1+1} Starfires.,
+1226105,,,Increases damage done by your next Wrath by $s1%.
+1226106,,,Increases damage done by your next Starfire by $s1%.
+1226108,,"Each time your Sunfire deals periodic damage, you gain $1226105s1% increased damage to your next Wrath, stacking up to $1226105u times. Each time your Moonfire deals periodic damage, you gain $1226106s1% increased damage to your next Starfire, stacking up to $1226106u times. These bonuses do not apply to Starsurge.",
+1226109,,You gain $1226113s1 Energy each time Rake or Rip deals periodic damage.,
+1226113,,,
+1226116,,Multiplies the damage bonus from Tiger's Fury by ${1+$m2/100}.0.,
+1226118,,,
+1226119,,Your Finishing Moves have a $s2% chance per combo point spent to trigger Clearcasting and extend the duration of your active Tiger's Fury by $1226118s1 sec.,
+1226121,,Your melee critical strikes in Bear Form or Dire Bear Form grant you a shield lasting $410144d that absorbs Physical damage equal to $410144s1% of your Attack Power the next time you take Physical damage. Stacks up to $410144u times.,
+1226125,,Increases the duration of your Berserk ability by ${$m1/1000} sec.,
+1226126,,You gain $1226127s1% increased attack speed for $1226127d every time you deal a critical strike.,
+1226127,,,Melee attack speed increased by $s1%.
+1226132,,Your Shots deal $s1% increased damage to targets afflicted with your Serpent Sting.,
+1226136,,,Attack Power increased by $s1%.
+1226137,,Your ranged critical strikes increase your Attack Power by $1226136s1% for $1226136d.,
+1226138,,"Your Multi-Shot hits $s1 additional targets, and your Kill Shot and Chimera Shot hits increase the damage done by your next Multi-Shot cast within $1233451d by $s2%, stacking up to $1233451u times.",
+1226206,,,
+1226207,,,
+1226208,,,
+1226209,,,
+1226210,,"Augment your belt to give the following effect:
+
+$@spelldesc1225951
+
+$?pc138518[This enhancement is permanent and cannot be removed or replaced.][]",
+1226211,,"Augment your belt to give the following effect:
+
+$@spelldesc1225982
+
+$?pc138518[This enhancement is permanent and cannot be removed or replaced.][]",
+1226212,,"Augment your belt to give the following effect:
+
+$@spelldesc1226001
+
+$?pc138518[This enhancement is permanent and cannot be removed or replaced.][]",
+1226213,,,
+1226215,,Throw caution to the wind and test a goblin's attempt at a teleportation device. Hopefully you will arrive at New Avalon in one piece.,
+1226217,,$@spelldesc1226215,
 1226218,,,Additional damage taken from Mark of Zeliek.
 1226219,,,Additional damage taken from Mark of Blaumeux.
 1226220,,,Additional damage taken from Mark of Mograine.
 1226221,,,Additional damage taken from Mark of Korth'azz.
 1226282,,"Hurls a bolt of dark magic at an enemy, inflicting Shadow damage.",
 1226300,,,
+1226340,,Your Strikes and Mongoose Bite deal $s1% increased damage to targets afflicted with your Serpent Sting or Wyvern Strike.,
+1226357,,,Attack speed increased by $s1%.
+1226359,,Your melee critical strikes increase your attack speed by $1226357s1% for $1226357d.,
+1226365,,Increases the bonus damage from Raptor Fury by an additional $s1% per stack.,
 1226369,,,
 1226372,,,
 1226373,,,
+1226377,,,Healing from casting Mage increased by $s1%.
+1226378,,"Reduces the cooldown of your Arcane Power by ${$m1/-1000} sec and increases its duration by ${$m2/1000} sec. While Arcane Power is active, your chance to gain Arcane Tunneling is increased by $s3% and each cast of Arcane Blast reduces the remaining cooldown on Mass Regeneration by ${$m4/1000}.1 sec.",
+1226388,,,
+1226396,,Allows you to look far into the distance in the pursuit of apples.,Spying on apples.
+1226402,,Steal an apple from a safe distance.,
+1226406,,,Your next Arcane damage or healing spell will not consume your Arcane Blast effect.
+1226407,,"Your Arcane Blast has a $s2% chance to cause Arcane Tunneling. Arcane Tunneling prevents your Arcane Blast effect from being consumed by the next other Arcane damage spell you cast. In addition, activating Arcane Power resets the cooldown on your Mass Regeneration. ",
+1226414,,,Damage taken decreased by $s1%.
+1226415,,Rewind Time also reduces all damage taken by your target by $1226414s1% for $1226414d.,
+1226423,,"Your Living Bomb now deals damage every $s1 sec, and will detonate if the target dies. In addition, the effect of Glaciate from the rune of Ice Lance now stacks up to $s2 times, and Spellfrost Bolt grants $s3 stacks each time it hits.",
+1226432,,"Reduces the cooldown on your Frozen Orb spell by ${$m4/-1000} sec. Each time Glaciate is consumed, the cooldown on your Deep Freeze is reduced by ${$m5/1000}.1 sec per stack consumed. Reduces the cooldown on Fire Blast by ${$m2/-1000} sec and Fire Blast now refreshes the duration of your Living Bomb on the target.",
+1226446,,Casting Deep Freeze increases the remaining duration of your Icy Veins spell by ${$m1/1000} sec. Casting Pyroblast cancels $s2 $lstack:stacks; of the effect from your Balefire Bolt.,
+1226451,,,Spellcasting speed increased by $s1%.
+1226452,,Lay on Hands also grants you $1226451s1% spell haste for $1226451d.,
+1226454,,"Your Beacon of Light now also triggers when you heal your Beacon of Light target, but at $s1% reduced effectiveness.",
+1226455,,,
+1226459,,An additional $s1% of your healing is transferred to your Beacon of Light target.,
+1226460,,"While you have a two-handed weapon equipped, Crusader Strike and Exorcism grant you Holy Power, increasing all Holy damage you deal by $1226461s1%, stacking up to $1226461u times.",
+1226461,,,Increases all Holy damage you deal by $s1%.
+1226462,,"Divine Storm, Holy Shock, and Holy Wrath consume all your Holy Power, dealing $s1% increased damage per Holy Power you have accumulated, $s2% effective against player controlled targets.",
+1226463,,Consuming Holy Power increases your Attack Power by $1226464s1% per Holy Power consumed for $1226464d.,
+1226464,,,Increases Attack Power by $w1%.
+1226466,,,Increases Block Value by $s1%.
+1226467,,Shield of Righteousness also increases your Block Value by $1226466s1% for $1226466d.,
+1226477,,Shield of Righteousness deals percentage increased damage equal to your Block Chance.,
+1226479,,"Your Avenging Wrath no longer triggers Forbearance, lasts ${$m1/1000} sec longer, and increases your Block Value by $1233525s1%.",
+1226480,,,
+1226499,,Your Surge of Light now also makes Prayer of Healing and Greater Heal instant cast.,
+1226500,,,"Cast time of your next Lesser Heal, Heal, Greater Heal, Flash Heal, Binding Heal, or Prayer of Healing spell reduced by $s1%."
+1226501,,"When you cast Power Infusion on a target other than yourself, you also gain Power Infusion. The cooldown of your Spirit of the Redeemer is reduced by ${$m1/-1000} sec and your healing is increased by $s2% while your Spirit of the Redeemer is active.",
+1226502,,,Healing ${$w1/2} damage every $t1 seconds.
 1226503,,,
-1226739,,,Damage done to Undead increased by $s1%.
+1226504,,,
+1226529,,,This barrel still has fish!
+1226534,,,
+1226537,,,
+1226565,,Your Power Word: Shield also instantly heals the target for $s1% of the absorb value.,
+1226566,,,
+1226585,,"Your Mind Flay and Mind Sear no longer lose duration from taking damage during their channel. In addition, they deal $s2% increased damage per other periodic Shadow effect you have on the target, up to a maximum increase of ${$m2*3}%.",
+1226589,Rank 8,,
+1226591,,"Your Mind Blast deals $s1% reduced threat, and gains $s2% damage increase from each stack of Mind Spike on the target.",
+1226595,,"Damage done by your Mind Flay now increases the longer you channel the spell. Each time it deals damage, subsequent damage will increase by $s1%. This resets on each new channel.",
+1226689,,,
+1226690,,,
+1226739,,,Damage and critical damage done to Undead increased by $s1%.
+1226780,,,
+1226800,,Stash a piece of crafted Scarlet Crusade equipment in the crate. This will permanently destroy the item.,
+1226808,,Restores $s1% of your health and mana per second for $d.  Must remain seated while eating.,Restores $s1% of your health and mana per second.
+1226810,,Movement speed reduced by $s1%.,
+1226814,,"Restores $25695o1 health and $25696o2 mana over $25695d. $?s446847[Tastes even better inside of Naxxramas, restoring $1226808o1% health and $1226808o2% mana over $1226808d instead.][] Must remain seated while eating.",Restores $/5;s1 health and $/5;s2 mana per second.
+1226833,,,
+1226843,,"While Just a Flesh Wound is not active, your Backstab, Sinister Strike, Saber Slash, and Mutilate deal $s1% increased damage per your active Poison or Bleed effect afflicting the target, up to a maximum increase of $m2%.",
+1226868,,,
+1226869,,Your Poison and autoattack critical strikes have a $h% chance to grant you a combo point.,
+1226871,,"Increases Ambush, Eviscerate, Crimson Tempest, and Envenom damage by $s1%.",
+1226874,,Your stacks of Rolling with the Punches also increase all damage you deal by $1234069s1%.,
+1226882,,"Your Blade Flurry now also strikes a third target and increases your attack speed by an additional $s1%. In addition, each combo point you spend reduces the remaining cooldown on your Blade Flurry by ${$m2/1000}.1 sec.",
+1226883,,,Blade Flurry.
+1226956,,"Your Rolling with the Punches now grants $s2% more health and $s1% more damage per stack. At $s3 stacks, each time you Dodge or Parry you will gain $1226957s3 Energy. ",
+1226957,,,
+1226961,,"When your Lava Burst, Chain Lightning, or Lightning Bolt strikes a target afflicted with your Flame Shock Rank 5 or Rank 6, it also deals one pulse of Flame Shock's damage.",
+1226963,,,
+1226972,,,
+1226977,,"Chance to trigger Overload increased by an additional $s1% and Lava Bursts damage is increased by a percentage equal to your spell critical strike chance. When Lightning Bolt or Chain Lightning deal damage, increase the damage dealt by your next Lava Burst cast within $1233835d by $1233835s1%, stacking up to $1233835u times.",
+1226978,,"When your Chain Lightning damages fewer than $s1 targets, it deals $s2% increased damage for each target less than $s1.",
+1226981,,Damage done by you or your summoned demon has a $426301h% chance to increase the damage done by the other by $426303s1% for $426303d. ,
+1226984,,"While Static Shock is active, Lava Lash, Lava Burst, and Stormstrike have a $h% chance to add a charge to your Lightning Shield. If charges exceed $s1, Lightning Shield will immediately deal damage to your target instead of adding charges.",
+1226986,,"Reduces the cooldown on your Fire Nova Totem by $s1%, increases its damage by $s4%, and reduces its mana cost by $s5%. Additionally, your Fire Nova Totem now activates instantly on cast.",
+1226997,,"Maelstrom Weapon can now stack up to ${$m1+5} charges. When using a two-handed weapon, gain $s4 charges at a time. Casts with over $s1 charges increase that spell's damage or healing dealt by $s2% per excess charge. Casts while at ${$m1+5} charges will consume all charges and cast twice.",
+1227080,,Teaches you how to cook Carrie Hearthfire's most desirable feast recipes.,
+1227088,,"Reduces the cast time of your next Lesser Healing Wave, Healing Wave, or Chain Heal by $s1%.","Cast time of your next Lesser Healing Wave, Healing Wave, or Chain Heal spell reduced by $s1%."
+1227093,,Heals from your Earth Shield have a $s1% chance to make your next cast time heal instant cast.,
+1227099,,"Your Healing Wave and Lesser Healing Wave also heal your Earth Shield target for $s1% as much, if that is a different target.",
+1227108,,,
+1227111,,Your Chain Heal jumps to $s1 additional targets and its magnitude reduces $s2% less per jump.,
 1227128,,,
+1227153,,"Your Shock spells activate your Shield Mastery rune ability, and the effect of Shield Mastery can now stack up to $s1 times.",
+1227155,,,
+1227159,,"Each time your Lightning Shield deals damage, you heal for $s1% of the damage it dealt, no more than once every $s2 sec.",
+1227160,,,
+1227164,,Your Shield Mastery stacks also reduce the cast time of your Lava Burst by $s1% per stack. Lava Burst no longer consumes Maelstrom Weapon charges.,
+1227175,,Your Shadow and Fire non-periodic critical strikes cause the target to Burn for $s1% of the damage they deal over $1227177d.,
+1227177,,,Burning.
+1227180,,,
+1227186,,"Your Shadow Bolt, Haunt, Chaos Bolt, Shadow Cleave, and Soul Fire deal $s1% more damage to targets afflicted with your Corruption.",
+1227196,,"Your periodic critical strikes grant $1227200s1% spellcasting haste for $1227200d, and your Backdraft grants an additional $s2% spellcasting haste.",
+1227200,,,Spellcasting haste increased by $w1%.
+1227204,,You heal for $s1% of all damage done by your Corruption. This healing is increased to $s2% if the target is also afflicted with your Drain Life.,
+1227207,,,
+1227214,,Your Shadow Cleave now applies your Corruption Rank 7 to every target it hits but its duration is only $1223963d.,
+1227228,,Your Infernal Armor now also increases all magical damage you deal by $440882s1% and lasts an additional ${$m1/1000} sec.,
+1227231,,"Your Heroic Strike, Cleave, and Quick Strike damage is increased by $s2% while in Battle Stance or Berserker Stance. Your Cleave strikes $s1 additional target and can trigger Blood Surge.",
+1227232,,"Each time you hit a target with Whirlwind, Heroic Strike, Quick Strike, or Cleave, the damage of your next Slam is increased by $1234005s1%, stacking up to $1234005u times.",
+1227234,,"Each time Deep Wounds deals damage, it reduces the remaining cooldown on your Whirlwind by $s1 sec. Whirlwind deals $s2% increased damage to targets afflicted with your Deep Wounds.",
+1227237,,"Your Shockwave deals $s1% increased damage and its cooldown is reduced by ${$m2/1000}.1 sec each time you hit a target with Heroic Strike, Quick Strike, or Cleave.",
+1227242,,"Your Recklessness, Retaliation, and Shield Wall abilities no longer share a cooldown. Additionally, your Recklessness ability lasts ${$m1/1000} sec longer, and while it is active you gain $s2% of your Defense Skill over 300 as Strength. ",
+1227245,,"Your abilities no longer have stance requirements. In addition, hits from Revenge, Devastate, or Shield Slam increase the damage done by your next Whirlwind or Execute by $1234067s3%, stacking up to $1234067u times.",
 1227268,,,
+1227298,,,
+1227309,,,
+1227343,,"Grants you permanent access to the New Avalon tavern without the need to carry a Haute Club Membership Card.
+
+You must still be disguised to enter.",
+1227358,,Briefly stunned by your own ineptitude.,Briefly stunned by your own ineptitude.
+1227368,,,
+1227369,,Reduce the cast time and global cooldown of Searing Pain and Shadow Cleave by ${$m/-1000}.1 sec for $d.,Reduce the cast time and global cooldown of Searing Pain and Shadow Cleave by ${$m/-1000}.1 sec for $d.
+1227393,,,
+1227417,,,
+1227421,,"Inflicts $s2 Frost damage to nearby enemies, reducing their movement speed by $s1% for $d.",
+1227435,,Place targets into a deep sleep.,Placed into a deep slumber.
 1227466,,,
 1227468,,,
+1227520,,,
+1227571,,$@spelldesc445575,
+1227572,,,
+1227573,,,
+1227574,,"Acid rain falls from above, inflicting $s1 Nature damage to players struck.",
+1227576,,,
+1227592,,,
+1227593,,,
+1227692,,,
+1227696,,,
+1227700,,,
+1227703,,,
+1227723,,,
+1227724,,,
+1227736,,$@spelldesc445575,
+1227737,,,
+1227738,,,
+1227739,,"Acid rain falls from above, inflicting $s1 Nature damage to players struck.",Stunned.
+1227772,,Shoot with determination and malicious intent.,Shooting with determination and malicious intent.
+1227807,,"Acid rain falls from above, inflicting $s1 Nature damage to players struck.",
 1227820,,Knocks down all nearby enemies for $d.,Stunned.
+1227879,,,
+1227887,,,
+1227889,,,
+1228000,,,
+1228001,,,
+1228002,,,Protected by divine fire.
+1228005,,,
+1228006,,,
+1228007,,,
+1228008,,,
+1228009,,,
+1228010,,,
+1228025,,,
+1228044,,,
+1228046,,,
 1228049,,"Burns the enemy for ${$m1*$<power>/100*$<mult>} Shadowflame damage and then an additional ${$m2*5*$<power>/100} Shadowflame damage over $d.
 
 Shadowflame triggers and benefits from all effects that modify or interact with Immolate, or with Affliction, Destruction, Fire, or Shadow spells, but only one of Immolate or Shadowflame per Warlock can be active on any target. In addition, Shadowflame can trigger your Improved Shadow Bolt talent and causes it to have $426454s2 additional charges.",${$m1*$<power>/100} Shadowflame damage every $t1 seconds.
+1228058,,"Acid rain falls from above, inflicting $s1 Nature damage to players struck.",
+1228061,,,
+1228063,,Deals $s1  Radiant damage every $t1 second.,Deals $s1  Radiant damage every $t1 second.
+1228083,,,
+1228088,,,
+1228129,,,
+1228130,,,
+1228131,,,
+1228134,,,
+1228165,,,
+1228170,,,
+1228237,,Your ability to heal wounds is significantly reduced. ,Healing effects reduced by $s1%.
+1228262,,"Strikes at an enemy, inflicting increased melee damage and causing them to bleed.",Bleeding for $s2 damage every $t2seconds.
+1228267,,,$o2 Fire damage inflicted over $d.
+1228268,,,
+1228283,,,
+1228285,,,
+1228287,,,
+1228288,,,
+1228294,,Use the device at a designated triangulation point to aid Fizzlefuse in his teleporter's calibration.,
+1228295,,"Inflicts normal damage plus $s3 to nearby enemies, stunning them for $d.",Stunned.
+1228298,,,
+1228304,,,
+1228331,,"Allows the caster to move at extremely high speeds and perform devastating weapon attacks for a short time.
+",
+1228339,,,
+1228365,,"Causes the caster's next $n melee attacks to strike an additional nearby enemy. This battle frenzy is tiring, however, and lasts $d. at most.",Melee attacks are striking an additional nearby enemy.
+1228366,,Gives the caster $s1 extra $lattack:attacks;.,
+1228369,,Charges a target.,
+1228370,,"Deals weapon damage to all enemy targets within $a1 yards.
+",
+1228371,,,
+1228372,,Drops a pool of tar for $d that slows the movement speed of enemies within.,
+1228373,,,
+1228374,,,Movement slowed by $s1%.
+1228375,,,
+1228376,,,
+1228431,,,
+1228444,,,
+1228457,,,
+1228460,,,
+1228463,,,Deals $w1 Fire damage every $t1 sec.
+1228467,,,
+1228479,,,
+1228493,,,
+1228495,,,
+1228503,,,
+1228509,,,Deals $w1 Fire damage every $t1 sec.
+1228664,,,Affected targets explode for Holy damage when killed.
+1229005,,,"Armor, Resistances, and Health reduced by $s2%."
+1229007,,,
+1229013,,,
+1229045,,"Increases your maximum health, damage dealt, and happiness when you pet Pupper.","Maximum health increased by $w1%.
+Damage dealt increased by $w2%.
+Happiness increased immeasurably.
+
+Only active while in New Avalon and Tyr's Hand."
+1229114,,,
 1229181,,"Damaging a target with Bloodthirst, Mortal Strike, or Shield Slam has a 100% chance the first time and a $s2% chance each subsequent time to Enrage you (activating abilities which requiring being Enraged), and cause you to deal $440483s1% increased Physical damage for $440483d.",
+1229226,,,
+1229236,,,
+1229271,Apprentice,,
+1229272,,,
+1229275,,,
+1229305,Summon,"Summon Climhazzard, Mount of the High Commander.  Speed is increased by $s2%.",Increases speed by $s2%.
+1229308,Summon,Summons and dismisses a rideable Scarlet Steed.  This is a very fast mount.,Increases speed by $s2%.
+1229332,,,
+1229337,,,
+1229339,,"Smites an enemy, inflicting Holy damage.",
+1229340,,Attempt to make contact with the Will of The Ashbringer.,
+1229370,,,
+1229372,,,
+1229374,,,
+1229396,,,
+1229397,,,"Burned by divine light, suffering $s1 Radiant damage every second."
+1229402,,Teaches you how to augment your belts with reusable tinkers.,
+1229409,,"The suffusion of light chokes and smothers you, dealing Holy damage every $t1 seconds.","The suffusion of light chokes and smothers you, dealing Holy damage every $t1 seconds."
+1229423,,,
+1229444,,"Smites an enemy, inflicting Holy damage.",
+1229462,,,
+1229503,,Judged by the power of the Ashbringer.,Judged by the power of the Ashbringer.
+1229508,,"Judged by the power of the Ashbringer. Stunned, and armor and dodge chance are reduced.","Judged by the power of the Ashbringer. Stunned, and armor and dodge chance are reduced."
+1229683,,,
+1229685,,,
+1229686,,,
+1229704,,,
+1229714,,,
+1229730,,,Blinded and disoriented.
+1229756,,,
+1229760,,Deal significant physical damage to a trespasser and stun them for $d. ,Stunned.
+1230086,,"Threaten to put the target in stocks, causing them to run in fear for $d.",Running away in fear.
+1230090,,,
+1230092,,,
+1230099,,"Inflicts $s1% of weapon damage to enemies in front of the caster, and causes a Searing Wound on the caster's primary target.
+",
+1230102,,Deals $1230099s1 damage every $1230102t1 sec for $1230102d. Stacks.,Suffering $s1 Physical damage every $t1 sec.
+1230105,,Calls the might of the wild creating fissures that erupt dealing damage to nearby foes in front of the caster,
+1230106,,Deals damage to enemies in the blast.,
+1230123,,Deals $s1 Nature damage to enemies in the blast.,
+1230125,,,"Unrestrained light spills forth from the Ashbringer, dealing Holy damage every second."
+1230137,,,
+1230145,,,
+1230200,,"Inflicts $s2 Nature damage to an enemy and increases the Nature damage it takes by $s1% for $d.
+",Nature damage taken is increased by $s1%. $s3 Nature damage every second.
+1230203,,Deal $s1 Holy damage to the target and increase their damage dealt by $s2%.,Damage dealt increased by $w2%.
+1230206,,"Snuff out the target's inner flame, dealing $s1% of their maximum health as Holy Damage per stack of Incite Holy Flame. Survivors will suffer.",Damage taken from Holy spells and abilities increased by $w3. Enemy detection range increased.
+1230215,,Smite an enemy for $s1 Holy damage. Heal for $s2% of the damage dealt.,
 1230224,,Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100}.2% and your health by ${$m2/100}.2% for each piece of Sanctified armor equipped.,
+1230225,,,
+1230228,,"Heal the enemy for $s1% of their maximum health, however they will suffer $s2% of their maximum health every $t2 sec until they leave combat.",Suffering $w2% of your maximum health every $t2 sec until you exit combat.
+1230242,,"Inflicts $s2 Fire damage to an enemy and increases the Fire damage it takes by $s1% for $d.
+",Fire damage taken is increased by $s1%. $s3 Fire damage every second.
 1230252,,Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100}.2% and your health by ${$m2/100}.2% for each piece of Sanctified armor equipped.,
+1230255,,Fires a shot infused with magic that entangles enemies in a small area.,
+1230268,,,
+1230270,,,
+1230271,,,
+1230276,,,Held in place by divine fetters. Unable to move or act.
+1230279,,,
+1230283,,"Entangles an enemy in roots, inflicting Nature damage every $t2 sec. and immobilizing it for up to $d.","Immobilized.
+Nature damage inflicted every $t2 sec."
 1230287,,Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100}.2% and your health by ${$m2/100}.2% for each piece of Sanctified armor equipped.,
 1230291,,Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100}.2% and your health by ${$m2/100}.2% for each piece of Sanctified armor equipped.,
+1230292,,,
+1230295,,,
 1230297,,Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100}.2% and your health by ${$m2/100}.2% for each piece of Sanctified armor equipped.,
 1230300,,Unlocks your potential while inside Naxxramas.  Increasing your damage by ${$m1/100}.2% and your health by ${$m2/100}.2% for each piece of Sanctified armor equipped.,
+1230312,,,
+1230313,,,
+1230319,,"The death of a companion awakens a surge of energy, increasing damage dealt by $s1% and attack speed by $s3%.
+","Damage dealt increased by $s1%.
+Attack speed increased by $s3%."
+1230325,,,
+1230326,,,
+1230328,,,Protected by a shield of magical frost.
+1230330,,,
+1230333,,,
+1230361,,,
+1230370,,,
+1230438,,"Shoots at an enemy, inflicting Holy damage.",
+1230509,,,
+1230510,,,
+1230511,,,
+1230512,,,Stunned.
+1230517,,"Smites an enemy, inflicting Holy damage.",
+1230537,,,
+1230538,,Attempt to make contact with the disembodied voice of The Ashbringer.,
+1230548,,,
+1230549,,,
+1230558,,,
+1230576,,,Fleeing in fear.
+1230578,,Sends player to Blackfathom Deeps,
+1230579,,,
+1230583,,Briefly reveal and supercharge your prototype magnet in attempt to catch stray metallic objects.,
+1230589,,,
+1230595,,,
+1230596,,,Strength increased by $s1.
+1230613,,"Throws a trap that will coat the one who triggers it in flame, dealing Fire damage and increasing damage taken.
+",
+1230633,,"Calls forth magma eruptions to damage nearby foes.
+",
+1230636,,,
+1230637,,"Deals $s1 Fire damage to enemies in the blast.
+",
+1230638,,"Deals damage to enemies in the blast.
+",
+1230639,,,
+1230646,,,
+1230647,,,
+1230649,,Sends player to Blackfathom Deeps,
+1230664,,"Smites an enemy, inflicting Holy damage.",
+1230671,,"Combine the Emblem of the Ashbringer, Reforged Blade of the Ashbringer, and the Hilt of the Ashbringer. ",
+1230673,,"Smites an enemy, inflicting Holy damage.",
+1230695,,,
+1230697,,,
+1230700,Rank 1,Your next $n melee weapon swings strike an additional nearby opponent.,Blade Flurry.
+1230702,Rank 1,Your next $n melee weapon swings strike an additional nearby opponent.,Sweeping Strikes.
+1230704,Rank 1,Your next $n melee weapon swings strike an additional nearby opponent.,Sweeping Strikes.
+1230705,,,
+1230712,Rank 1,Your next $n melee weapon swings strike an additional nearby opponent.,Sweeping Strikes.
+1230716,,,
+1230717,,,
+1230796,,,
+1230807,,,
+1230809,,,Deals Shadowflame damage every second.
+1230812,,,
+1230895,,,
+1230897,,Maximum health reduced by $S1%.,Maximum health reduced by $S1%.
+1230899,,"Throws a trap that will coat the one who triggers it in flame, dealing Fire damage and increasing damage taken.
+",
+1230908,,,Knocked down and stunned.
+1230927,,,
+1230940,,,
+1230942,,Increases maximum health by $s1 for $d.,Health increased by $s1.
+1230943,,,Attack speed increased by $s1%.
+1230944,,"Playing the didgeridoo summons a random beast to your side, increasing your physical abilities for $d.  May only be used while in combat.",Didgeridoo played. Beast summoned.
+1230948,,The Global Cooldown of your offensive spells is reduced by ${$m1/-1000}.1 seconds.,The Global Cooldown of your offensive spells is reduced by ${$m1/-1000}.1 seconds.
+1230980,,"Throw down the Standard of Stiltz, increasing the maximum health of all nearby allies by $1231903s1 for $d.",Rallied by the Standard.
+1230990,,Imbued weapons now cause melee attacks to inflict $1230996s1 additional Fire damage.,Weapons are imbued with fire.
+1230992,,You feel a sickening feeling. Turn back now!,A crushing darkness envelops you...
+1230996,,"Inflicts $s1 Fire damage and an additional $s2 Fire damage every $t2 sec for $d.
+",Inflicts $s2 Fire damage every $t2 sec.
+1230997,,,
+1230998,,,
+1231000,,,Suffering $s1 Fire damage every $t1 seconds.
+1231001,,,
+1231010,,"Vishas marks enemy players. When a marked target casts a spell, Vishas throws a knife in their direction.",Casting a spell will cause Vishas to throw a knife in your direction.
+1231011,,"Vishas throws one of his daggers toward an enemy dealing $s2 Shadow damage to the first enemy it hits. If the knife hits a player afflicted with Tortuous Rebuke, it also adds a bleed.",
+1231012,,,You are tormented by Vishas. You take $s1 Shadow damage every $t1 second.
+1231023,,,
+1231024,,"Attempt to use a Portiporter yourself to see what the fuss is about.
+
+Can only be used in New Avalon and after ensuring relative safety with other test subjects.",
+1231025,,,
+1231027,,,
+1231040,,,
+1231070,,,
+1231085,,Fires a shot infused with magic that entangles enemies in a small area.,
+1231087,,,Stunned.
+1231091,,"Insert a variable amount of gunpowder into the device and press the button.
+
+Your speed and likelihood of serious injury or death will increase based on the amount of gunpowder added.
+
+Can only be used in New Avalon.",Movement speed increased by $w1%
+1231094,,,
+1231095,,"Assault the target's mind, inflicting $s1 Shadow damage and increasing Shadow damage taken by $s2 for $d.
+",Shadow damage taken increased by $s2.
+1231098,,,$s1 damage every $t1 $lsecond:seconds;.
+1231102,,"Attacks nearby enemies in a whirlwind of steel that lasts $d., inflicting weapon damage plus $3231s1 every $t1 sec. Grants the caster temporary magic immunity.","Immune to magic.
+Inflicting normal damage plus $3231s1 every $t1 sec to nearby enemies."
+1231113,,,
+1231123,,Summon Pepe to join you on your adventures!,Pepe has joined you on your adventures!
+1231124,,Heal self for $s2 and increases Strength by $s1 for $d.,Strength increased by $w1.
+1231126,,,
+1231128,,Permanently enchant a melee weapon so that often when attacking in melee it heals for $1231124s2 and increases Strength by $1231124s1 for $1231124d.,
+1231133,,,
+1231138,,Restores $s2 mana and increases Spell Power by $s1 for $d.,Spell Power increased by $w1.
+1231139,,Permanently enchant a two-handed melee weapon so that often when striking with a spell it restores $1231138s2 mana and increases Spell Power by $1231138s1 for $1231138d.,
+1231147,,,
+1231152,,,
+1231157,,,Stunned.
+1231162,,Restores $s2 mana and increases Spell Power by $s1 for $d.,Spell Power increased by $w1.
+1231163,,,
+1231164,,Permanently enchant a melee weapon so that often when striking with a spell it restores $1231162s2 mana and increases Spell Power by $1231162s1 for $1231162d.,
+1231168,,,
+1231173,,,
+1231199,,,
+1231200,,Inflicts $s1 Fire damage to an enemy.,
+1231201,,,"Increases damage proportional to missing health.
+All damage dealt increased by $w1%."
+1231202,,,
+1231203,,,
+1231204,,,
+1231212,,"About to explode in a glorious display of magical aptitude, polymorphing yourself and all nearby allies.","About to explode in a glorious display of magical aptitude, polymorphing yourself and all nearby allies."
+1231215,,,Cannot attack or cast spells.
+1231227,,,Herod is nearby. Damage Taken is reduced by $s1%.
+1231230,,,Vishas is nearby. Attack speed is increased by $s1%.
+1231231,,,Doan is nearby. You are periodically healed.
+1231233,,,
+1231235,,,
+1231236,,,
+1231237,,,
+1231238,,,
+1231239,,,
+1231242,,,
+1231245,,"
+
+",
+1231247,,"Bonefang spews forth necrotic spittle, inflicting $333489s1 Shadow damage every $333489t sec. to enemies caught in the breath and reducing healing received by $333489s3%.
+
+",
+1231248,,,
+1231249,,,
+1231254,,Increase Defense by $s1 and Armor by $s2 for $d.,"Defense increased by $s1.
+Armor increased by $s2."
+1231258,,"Chance on melee attack to inflict your enemy with a rot, dealing $1231261s1 Nature damage every $1231261t1 sec to all enemies within an $1231261a1 yard radius of the caster for $1231261d. The attack speed of these targets is also slowed by $1231261s2%.",
+1231261,,,Taking $s1 Nature damage every $t sec and time between attacks increased by $s2%.
+1231264,,Attacks nearby enemies in a whirlwind of steel that lasts $d. and inflicts normal damage plus $28335s1.,Attacking all nearby enemies for normal damage plus $28335s1.
+1231266,,,"Defense increased by $s1.
+Melee attack speed increased by $s2%."
+1231267,,"Firing a regular ranged attack at a target prepares you for battle, increasing your Defense by $1231266s1 and melee attack speed by $1231266s2% for $1231266d.",
+1231272,,Throw spoiled food at the target to deal physical damage.,
+1231273,,,Suffering $p1 of your Maximum Health as Shadow damage every $t1 seconds.
+1231278,,,"Pursued by Manadar, who'll unleash a powerful attack if he gets close."
+1231280,,Root an enemy to the ground for $d and deal $s1% of their maximum health every $t1 sec.,Rooted and suffering $w1% maximum health every $t1 sec.
+1231281,,,
+1231282,,"A pool of lava is conjured inside the Hall of Renewal, flooding the lower level.",
+1231284,,"Punch the target with rotten fruit in hand, interrupting their spell casting.",
+1231289,,"Invoke the Will of the Mountain, increasing physical damage dealt by $s1%, armor by $s2, and size by $s3% for $d.","Increases physical damage dealt by $s1%, armor by $s2, and size by $s3%."
+1231292,,,
+1231293,,"Wave a torch in front of you to deal $s1 Fire damage to up to $x1 targets.
+
+Targets hit will be set ablaze.",
+1231297,,"Throw a torch at the enemy to deal $s1 Fire damage.
+
+Sets them ablaze.",
+1231301,,"Suffering $s1% Fire damage every $t1 sec for $d. Stacks up to $U times.
+
+Caused by New Avalon Watchman abilities when they use their torch.",Suffering $w1% of your maximum health as Fire damage every $t1 sec.
+1231310,,"Marks the target as an intruder, preventing them from using Stealth, Invisibility, and applying their disguise for $d.","You have been outed as an intruder and cannot stealth, go invisible, or use your disguise."
+1231312,,,Stunned.
+1231313,,,
+1231314,,"Inflicts $s1% weapon damage and leaves the target wounded, reducing the effectiveness of any healing by $s2% for $d.",Healing effects reduced by $s2%.
+1231317,,"Deal $s1% of the target's maximum health as physical damage and an additional $s2% every $t2 sec for $d.
+
+Upon expiration, the wound has a chance based on the target's current health to turn into Rabies.","Suffering $w2% maximum health as physical damage every $t2 sec.
+
+You have a chance to be infected by Rabies based on how low your health is when this effect expires."
+1231324,,"Movement speed reduced by $s1%. Suffering $s2% maximum health as physical damage every $t2 sec for $d.
+
+If left untreated, you will die.","Movement speed reduced by $w1%. Suffering $w2% maximum health as physical damage every $t2 sec for $d.
+
+If left untreated, you will die."
+1231330,,"Steals $s1 life from up to $x enemies, granting $1231339s2 Strength or Agility per enemy siphoned, stacking up to $1231339u times.",
+1231335,,Removes $s1 $ldisease:diseases; from the friendly target.,
+1231338,,,
+1231339,,"Strength increased
+ by $s1 for $d.",Strength Increased by $s1.
+1231342,,$@spelldesc1231343,$@spellaura1231343
+1231343,,"Shades of Balnazzar strike players that aren't within $1231342A1 yards of another player, inflicting $1231645s1 Shadow damage.","Shades of Balnazzar strike players that aren't within $1231342A1 yards of another player, inflicting $1231645s1 Shadow damage."
+1231347,,,
+1231355,,,
+1231375,,,Attack speed increased by $s1%. Damage increased by $s3%.
+1231376,,Deals $s1 Fire damage every $t1 sec.,"Deals $s1 Fire damage every $t1 sec.
+Increases Fire damage taken by $s2%."
+1231377,,,
+1231380,,"If you remain in Cat Form for $1231381t seconds, increase your Energy Regeneration by $1231381s1%.",
+1231381,,"If you remain in Cat Form for $t seconds, increase your Energy Regeneration by $s1%, and the damage of your Ferocious Bite by $s2%.",Energy Regeneration increased by $s1%.
+1231382,,"Remaining in Cat Form for $1231381t seconds, causes your Energy Regeneration to increase by $1231381s1%.",
+1231383,,,"Damage increased by $s2%. Periodically, divine bolts will rain down on nearby enemies."
+1231384,,,
+1231385,,,
+1231386,,,
+1231387,,,$s2 Physical damage inflicted every $t2 sec. until healed over 90% health.
+1231389,,,
+1231397,,"Inflicts $s1 physical damage to an enemy, reducing its movement speed by $s2% for $d.",Movement speed reduced by $w2%.
+1231399,,"Deal $s1 Shadow damage and increases the target's critical damage received by $s2% per stack, up to $U times.",Critical strike damage received increased by $w2%.
+1231400,,Teleport the target to the New Avalon Town Hall and deal $s1% of their maximum health as shadow damage.,
+1231401,,"Bribe the target, ensuring your personal safety.",
+1231402,,Increases your attack speed by $s1% for $d1.,Increased attack speed.
+1231404,,"Striking a higher level enemy applies a stack of Coup, increasing their damage taken from your next Execute by $1231416s1% or Envenom by $1231424s1% per stack. At $1231416u stacks, Execute may be cast regardless of the target's health.",
+1231406,,Agility increased by $s1 for $d.,Agility Increased by $s1.
+1231409,,,Agility increased by $s1.
+1231416,,,Take $s1% increased damage from the attacker's next Execute.
+1231417,,"$?s446658[Striking a higher level enemy applies a stack of Coup, increasing their damage taken from your next Execute by $1231416s1% per stack, stacking up to $1231416u times. At $1231416u stacks, Execute may be cast regardless of the target's health.]?s21184[Striking a higher level enemy applies a stack of Coup, increasing their damage taken from your next Envenom by $1231424s1% per stack, stacking up to $1231424u times.]?s446374[Striking a higher level enemy applies a stack of Coup, increasing their damage taken from your next Kill Shot by $1231765s1% per stack, stacking up to $1231765u times.][The blade does not respond to your presence.]",
+1231420,,,
+1231424,,,Take $s1% increased damage from the attacker's next Envenom.
+1231431,,"Throw an apple, dealing $s1 physical damage and stunning the target for $d.",Stunned.
+1231433,,Pull a retreating enemy toward you.,
+1231434,,$@spelldesc1231433,
+1231435,,$@spelldesc1231433,
+1231436,,,"Allows the use Execute on a fully Coup stacked target, regardless of the target's health."
+1231444,,"Consume a delicious, hand-picked apple to restore $s1% of your maximum health instantly and another $s2% every $t2 sec for $d.",Healing for $w2% of your maximum health every $t2 sec.
+1231456,,,
+1231466,,,
+1231476,,,
+1231487,,,
+1231488,,Pull an enemy out of an unreachable location.,
+1231489,,$@spelldesc1231488,
+1231490,,$@spelldesc1231488,
+1231491,,,
+1231492,,Damaging finishing moves have a $b1% chance per combo point to restore $1231491s1 energy.,Damaging finishing moves have a $b1% chance per combo point to restore $1231491s1 energy.
+1231493,,,
+1231498,,,
+1231500,,,
+1231502,,Knock back all enemy players in a cone. Enemies that are not knocked back are stunned for $1232842d.,Stunned.
+1231503,,,Remaining time before Captain Bloodcoin sets sail.
+1231505,,,Unable to be knocked back by Might of Vis'era. Only one Thirst of Vis'era can be active at a time.
+1231507,,Regular melee attacks inflict enemy players with Thirst of Vis'era.,
+1231509,,"Shame the target for their confessions,  slowing their movement speed by $s1%.",Movement speed and confidence reduced by $w1%.
+1231510,,,
+1231511,,"Expose the target's sins, breaking a piece of their illegally acquired disguise.",
+1231523,,,
+1231524,,,
+1231525,,,
+1231526,,,
+1231530,,,
+1231538,,,Movement speed reduced by $s3%.
+1231541,,"Charge up Vis'era for 1.5 seconds before unleashing the Might of Vis'era, knocking back all enemy players in a cone in front of you.","Charging up Vis'era, slowed by $s1%."
+1231546,,,
+1231547,,You attack all nearby enemies for $d causing weapon damage plus an additional $1231546s1 every $t1 sec.,Attacking all nearby enemies for weapon damage + $1231546s1.
+1231548,,Increases the wielder's Strength by $s1 for $d.,Strength increased by $s1.
+1231549,,Does $s1 additional Holy damage to the target.,
+1231550,,Adds $1231549s1 holy damage to your melee attacks.,
+1231551,,Increases the wielder's Strength by $s1 for $d.,Strength increased by $s1.
+1231552,,,
+1231553,,$h% chance on melee hit to gain $s1 extra attack.,
+1231554,,$h% chance on melee hit to gain $s1 extra attack.,
+1231555,,,
+1231556,,Duplicity and Deception's extra attacks now trigger $s1 extra attacks.,
+1231557,,,
+1231558,,,
+1231559,,Duplicity and Deception's extra attacks now trigger $s1 extra attacks.,
+1231560,,Duplicity and Deception's extra attacks now trigger $s1 extra attacks.,
+1231561,,,
+1231566,,,
+1231578,,"Restores $s1 health instantly, however you also suffer $s2% of that amount over time.
+
+The symptoms of this effect can manifest as either a $1231579d poison or a $1231580d disease.",
+1231579,,Suffer damage over time for consuming a discolored healing potion.,Suffering $w1 Nature damage every $t1 sec.
+1231580,,Suffer damage over time for consuming a discolored healing potion.,Suffering $w1 Shadow damage every $t1 sec.
+1231582,,,Stunned.
+1231583,,,
+1231585,,,"Periodically gain increased attack speed and increased damage. While channeling, damage taken is reduced by $s2%."
+1231586,,Focus Fire now grants you and your pet $1231591s1% increased damage per stack consumed for $1231591d.,
+1231587,,,Attack speed increased by $s1%. Damage increased by $s2%.
+1231588,,Use the ancient flames created from the branches of Nordassil to heat the blade. ,
+1231589,,Quench the heated blade in the waters of the Well of Eternity.,
+1231590,,Increases pet's damage done $w1% for $d.,Increases pet's damage done by $w1%.
+1231591,,Increases damage done $w1% for $d.,Increases damage done by $w1%.
+1231592,,"Afflicts the target with a curse of the ocean. If the target is not dispelled of the curse, the target will drown.",The briney deep awaits you..
+1231594,,You drown feeling the lure of the shallow waters.,
+1231595,,"$h% chance on ranged attack to generate a Strand of Fate, allowing you move and use a ranged attack at the same time. Strands stack up to $1231601u, and last $1231601d.",
+1231601,,,Able to fire and cast ranged attacks while moving.
+1231603,,,
+1231604,,"$?a415352[Consume your Strands of Fate, increasing your Strength by $1232969s1 per stack for $1232969d, and causing your next Strike against a non-player controlled target to apply Serpent Sting. Lasts $1232976s1 secs for every stack consumed and cannot be refreshed.][Instantly generate $s1 Strands of Fate.]",Unable to generate new Strands of Fate.
+1231605,,"Transform into a Scarlet Cannon for $d, causing your ranged attacks to explode for $1231607s1 Fire damage to all enemies within $1231607a1 yards of your target.",BOOM!
+1231607,,,
+1231609,,,
+1231611,,,
+1231612,,"Your next regular melee attack made within $d deals Arcane damage equal to $s1 times your spell power, and puts the target to sleep for $d.","Next regular melee attack deals Arcane damage equal to $s1 times your spell power, and puts the target to sleep for $d."
+1231614,,"Your next melee attack made within $d deals Arcane damage based on your spell power, and puts the target to sleep for $d.","Next melee attack deals Arcane damage based on your spell power, and puts the target to sleep for $d."
+1231615,,Sends player to Gnomeregan.,
+1231616,,,Asleep.
+1231617,,,
+1231618,,"Inflicts $s1% weapon damage and sets the target ablaze, dealing Radiant damage over $d.",Taking Radiant damage every second.
+1231620,,Dealing periodic damage has a $h% chance to grant $1231623s1 spell damage and healing for $1231623d.,
+1231622,,,
+1231623,,,Magical damage and healing dealt is increased by $s1.
+1231624,,Dealing non-periodic Fire damage has a $h% chance to increase your Fire damage dealt by $1231625s1% for $1231625d1.,
+1231625,,,Fire damage dealt increased by $s1%.
+1231628,,Chance on landing a damaging spell to create a Mirage on top of your target that deals arcane damage to nearby enemies for $1231629d.,
+1231629,,,
+1231632,,,
+1231633,,,
+1231636,,$@spelldesc1231343,$@spellaura1231343
+1231639,,,
+1231642,,,
+1231644,,$@spelldesc1231343,$@spellaura1231343
+1231645,,$@spelldesc1231343,$@spellaura1231343
+1231646,,$@spelldesc1231343,$@spellaura1231343
+1231648,,"Causes an explosion of arcane magic around the caster, causing $s1 Arcane damage to all targets within $a1 yards.",
+1231651,,"Inflicts $s1% weapon damage and sets the target ablaze, dealing Radiant damage over $d.",Taking Radiant damage every $t2 second.
+1231654,,"Inflicts $s1% weapon damage and sets the target ablaze, dealing Radiant damage over $d.",Taking Radiant damage every $p.
+1231656,,"The range of your Mind Flay, Fire Blast, and Drain Life spells is increased by $s1 yards, but Mind Flay no longer slows enemies.",
+1231657,,"Mind Flay's, Fire Blast's, and Drain Life's ranges are increased by $s1 yards, but Mind Flay no longer slows enemies.",
+1231662,,"Mind Flay's, Fire Blast's, and Drain Life's ranges are increased by $s1 yards, but Mind Flay no longer slows enemies.",
+1231663,,"Mind Flay's, Fire Blast's, and Drain Life's ranges are increased by $s1 yards, but Mind Flay no longer slows enemies.",
+1231667,,,
+1231668,,,
+1231669,,,
+1231681,,"While above $s1% health, your healing is increased by $1231683s1, but your heals will cause you to sacrifice $1231683s2% of your total health every cast.  While under this effect you may only receive healing from directly targeted, non-periodic heals. (Toggled Effect)","Sacrificing for the greater good.
+You may only receive healing from directly targeted, non-periodic heals."
+1231682,,,
+1231683,,,"Healing done increased by $s1.
+Sacrificing $s2% of your total health every heal."
+1231685,,,
+1231686,,,
+1231687,,,
+1231688,,,
+1231689,,,
+1231694,,"Damaging spell casts on enemies Condemns them for $1231695d. Whenever they deal damage, their target is healed for $s1% of their maximum health. Lasts $1231695d or up to $1231695u hits. ($proccooldown Secs Cooldown) ",
+1231695,,,Hits from this target restore $m~1% health.
+1231696,,,
+1231698,,"If there are no enemies within $1231708a yards of you, heal all party members within $1231700a yards for $1231700s1 every $1231700t1 seconds. A party may only swear Fealty to one player at a time.",
+1231700,,,Healing for $s1 every $t seconds.
+1231703,,,
+1231704,,,
+1231705,,,
+1231706,,,
+1231707,,,
+1231708,,"If there are no enemies within $1231700a2 yards of you, heal all nearby party members for $1231700s1 every $1231700t1. A party may only swear Fealty to one player at a time.",
+1231709,,,
+1231710,,,
+1231711,,,
+1231712,,,
+1231714,,,
+1231715,,,
+1231752,,You feel sluggish! Your movement speed has been decreased by 25% for 20 minutes.,Movement speed decreased by 25%.
+1231764,,,
+1231765,,,Take $s1% increased damage from the attacker's next Kill Shot.
+1231768,,,
+1231770,,,
+1231773,,,
+1231774,,,
+1231775,,,
+1231776,,"Balnazzar plunges Tyr's Hand into darkness, silencing all players.","Plunges Tyr's Hand into darkness, silencing all players."
+1231777,,$@spelldesc1231776,Silenced.
+1231778,,,
+1231779,,,
+1231806,,Swap places with your Mirage.,
+1231807,,,
+1231809,,,
+1231810,,,
+1231813,,,
+1231834,,,
+1231836,,"Balnazzar unleashes a swarm of carrion insects that infest players, causing them to inflict $s1 Shadow damage every $t1 sec to allies within $1231837A1 yards for $d. This effect stacks.",Inflicting $s1 Shadow damage every $t1 sec to allies within $1231837A1 yards. This effect stacks.
+1231837,,$@spelldesc1231836,$@spellaura1231836
+1231838,,$@spelldesc1231836,$@spellaura1231836
+1231839,,$@spelldesc1231836,$@spellaura1231836
+1231840,,$@spelldesc1231836,$@spellaura1231836
+1231841,,,
+1231842,,,
+1231843,,Balnazzar marks players for domination. After $D players afflicted and allies within $1231845A1 to become charmed for $1231845D.,
+1231844,,$@spellname1231843,Marked for domination...
+1231845,,"$@spellname1231843
+",Charmed.
+1231854,,,
+1231855,,,
+1231858,,,
+1231859,,,
+1231860,,"Attune with the heavens, allowing you to replace your Moonkin form with a more celestial visage.",Taking on an astral aspect...
+1231863,,,
+1231866,,,
+1231873,,,Movement speed decreased by $w1%.
+1231874,,"After drinking the experiment, ranged or melee attacks increase your attack speed by $1230943s1% for $d. This effect stacks up to $1230943u times.",Attack speed is increased as the concoction is absorbed.
+1231883,,Grants the strength of the Bear for $d.,Granted $s1 strength.
+1231884,,Grants the accuracy of the owl for $d.,Granted $s1% critical strike with all spells and attacks.
+1231885,,"The shade releases a screeching howl striking fear in an enemy, causing it to flee in terror for $d.",Fleeing in fear.
+1231886,,Grants the speed of the cat for $d.,Granted $s1% melee and ranged haste.
+1231888,,Grants the agility of the raptor for $d.,Granted $s1 agility.
+1231891,,Grants the power of the gorilla for $d.,"Granted $s1 melee attack power, and $s2 ranged attack power."
+1231894,,Grants the ferocity of the crocolisk for $d.,Granted $s1 armor penetration.
+1231896,,Grants the brilliance of Mr. Bigglesworth for $d.,"Granted $s1 strength, $s2 agility, $s3 attack power, $s4 ranged attack power, $s5% critical strike with all spells and attacks, $s7% melee and ranged haste, and $s9 armor penetration."
+1231897,,$@spelldesc1231898,$@spellaura1231898
+1231898,,"The infernal burns with a wicked intensity, inflicting $1231897s1 Fire damage to enemies with $A1 yards every $t2 sec, but the light also provides immunity to Suppressive Darkness.","Inflicting $1231897s1 Fire damage to enemies with $A1 yards every $t2 sec, and also provides immunity to Suppressive Darkness."
+1231899,,$@spelldesc1231906,$@spellaura1231906
+1231900,,$@spelldesc1231906,$@spellaura
+1231901,,$@spelldesc1231906,$@spellaura1231906
+1231902,,,
+1231903,,,Increases maximum health by $s1.
+1231904,,Increases the amount of damage absorbed by your shield by $s1% for $d.,Block value increased by $s1%.
+1231906,,"Balnazzar summons an infernal to interrupt a Scarlet Lightbearer, inflicting $s1 Fire damage within $A1 yards and stunning players hit for $D.",Stunned.
+1231911,,,
+1231912,,,
+1231913,,,
+1231914,,,
+1231916,,,
+1231918,,,
+1231920,,,
+1231929,,,You are under the effects of a Scarlet Illusion which should allow you to pass through Tyr's Hand undetected by most members of the Scarlet Crusade.
+1231930,,"Smites an enemy, inflicting Holy damage.",
+1231946,,,
+1231947,,,
+1231948,,,
+1231950,,,
+1231951,,,
+1231952,,,
+1231953,,,
+1231969,,,
+1231987,,,
+1231993,,Suffering $s2% of your Maximum Health as Radiant damage every $t2 second.,Suffering $s2% of your Maximum Health as Radiant damage every $t2 second.
+1231997,,,
+1232004,,,
+1232005,,,
+1232009,,You have Solistrasza's undivided attention.,You have Solistrasza's undivided attention.
+1232013,,"Shackles an undead enemy for up to $d., preventing it from casting spells, attacking, or moving. Any damage caused will release the target. Only one target can be shackled at a time.",Stunned.
+1232014,,The presence of the Ashbringer empowers the Scarlet Crusade.,"The Scarlet Crusade are empowered by the return of the Ashbringer.
+
+Chance to dodge reduced by $s1% and chance to be hit increased by $s2%."
+1232015,,,
+1232018,,"The air burns and peels your skin, dealing heavy Fire damage every $t2 second.","The air burns and peels your skin, dealing heavy Fire damage every $t2 second."
+1232021,,,"The looming presence of a dreadlord sows seeds of terror in your mind.
+
+Chance to dodge reduced by $s1% and chance to be hit increased by $s2%."
+1232023,,,
+1232026,,,Melee attacks cleave all targets in a $1232028A1 yard frontal cone.
+1232028,,Lillian Voss' melee attacks strike all players in front of her within $A1 yards.,
+1232030,,Reveal magical crystals.,Magical crystals have been revealed to you.
+1232031,,"Reveal magical crystals.
+",Magical crystals have been revealed to you.
+1232032,,,
+1232033,,Teleport an intruder somewhere else.,
+1232036,,,
+1232037,,,"The Argent Dawn have rallied, increasing total health by $s1%, healing done by $s2%, and damage dealt by $s3%."
+1232038,,Shimmer with a mysterious blue energy.,Shimmering with a mysterious blue energy.
+1232039,,Shimmer with a mysterious red energy.,Shimmering with a mysterious red energy.
+1232040,,Shimmer with a mysterious violet energy.,Shimmering with a mysterious violet energy.
+1232043,,"Lillian Voss senses weakness in her combatants, gaining a stack of $@spellname1232051 for every $s2% total health missing from players.",Gaining a stack of $@spellname1232051 for every 10% total health missing from players.
+1232044,,$h% chance on melee or ranged hit to gain $1232045s1 extra attack.,
+1232045,,,
+1232046,,,
+1232047,,,
+1232049,,,
+1232050,,,
+1232051,,"Increases haste by $s1%.
+
+This effect stacks.",Haste increased by $s1%.
+1232052,,Improves your chance to get a critical strike with all spells and attacks by $s1%.,Critical strike chance with all spells and attacks is increased by $s1%.
+1232054,,Combine $s4 Illusion Dust and $s5 Righteous $LOrb:Orbs; at a Mote of Possibility in pursuit of a new discovery.,
+1232057,,"Flip the Lucky Doubloon. On heads, the cooldown of Lucky Doubloon is refreshed, and your critical strike chance with all spells and attacks is increased by $1232052s1% for $1232052d, stacking up to $1232052u times. On tails, all stacks of Lucky Doubloon are removed. (Must be in combat.)",
+1232062,,,
+1232064,,,
+1232066,,Movement speed Increased by $s1%.,Movement speed Increased by $s1%.
+1232077,,Combine $s4 Illusion Dust and $s5 Righteous $LOrb:Orbs; at a Mote of Possibility in pursuit of a new discovery.,
+1232079,,Combine $s4 Illusion Dust and $s5 Righteous $LOrb:Orbs; at a Mote of Possibility in pursuit of a new discovery.,
+1232088,,,
+1232090,,,
+1232093,,The Global Cooldown of your offensive spells is reduced by ${$m1/-1000}.1 seconds.,The Global Cooldown of your offensive spells is reduced by ${$m1/-1000}.1 seconds.
+1232094,,The Global Cooldown of your offensive spells is reduced by ${$m1/-1000}.1 seconds.,The Global Cooldown of your offensive spells is reduced by ${$m1/-1000}.1 seconds.
+1232095,,The Global Cooldown of your offensive spells is reduced by ${$m1/-1000}.1 seconds.,The Global Cooldown of your offensive spells is reduced by ${$m1/-1000}.1 seconds.
+1232096,,The Global Cooldown of your offensive spells is reduced by ${$m1/-1000}.1 seconds.,The Global Cooldown of your offensive spells is reduced by ${$m1/-1000}.1 seconds.
+1232097,,The molten earth deals $s1 Radiant damage every $t1 second.,The molten earth deals $s1 Radiant damage every $t1 second.
+1232103,,"The Global Cooldown caused by your non-weapon based damaging spells can be reduced by Spell Haste, up to a ${$m1/-1000}.1 second reduction$?s442543[. While equipped you may not have any active Temporal Beacons]?s435395[ while you are not in Metamorphosis]?s440247[, this effect does not apply to Penance]?s435884[ while Way of Earth is not active]?s462814[. This effect does not apply to Holy Shock, and you may not have any active Beacons of Light][].",The Global Cooldown of your offensive spells is reduced by ${$m1/-1000}.1 seconds.
+1232104,,The Global Cooldown of your offensive spells is reduced by ${$m1/-1000}.1 seconds.,The Global Cooldown of your offensive spells is reduced by ${$m1/-1000}.1 seconds.
+1232108,,,
+1232117,,"Heals the target for $s1, and additionally $s2 every $t2 sec. for $d.",Healing $s2 every $t2 sec.
+1232119,,"$@spelldesc377950
+",
+1232125,,,
+1232126,,,
+1232127,,,
+1232133,,,
+1232137,,,
+1232140,,,
+1232141,,Shimmer with a mysterious green energy.,Shimmering with a mysterious green energy.
+1232142,,Shimmer with a mysterious yellow energy.,Shimmering with a mysterious yellow energy.
+1232144,,Shimmer with a mysterious orange energy.,Shimmering with a mysterious orange energy.
+1232146,,Distract the wizard.,This wizard is very distracted.
+1232150,,"+$s1 Attack Power in Cat, Bear, and Dire Bear forms only.",
+1232151,,"+$s1 Attack Power in Cat, Bear, and Dire Bear forms only.",
+1232152,,"+$s1 Attack Power in Cat, Bear, and Dire Bear forms only.",
+1232153,,Increases damage and healing done by magical spells and effects by up to $s1.,
+1232155,,Increases damage and healing done by magical spells and effects by up to $s1.,
+1232157,,Increases damage and healing done by magical spells and effects by up to $s1.,
+1232158,,Increases healing done by up to $s1 and damage done by up to $s2 for all magical spells and effects.,
+1232159,,Increases healing done by up to $s1 and damage done by up to $s2 for all magical spells and effects.,
+1232160,,Increases healing done by up to $s1 and damage done by up to $s2 for all magical spells and effects.,
+1232161,,Increases healing done by up to $s1 and damage done by up to $s2 for all magical spells and effects.,
+1232162,,Increases healing done by up to $s1 and damage done by up to $s2 for all magical spells and effects.,
+1232163,,Increases healing done by up to $s1 and damage done by up to $s2 for all magical spells and effects.,
+1232164,,Increases healing done by up to $s1 and damage done by up to $s2 for all magical spells and effects.,
+1232165,,Increases healing done by up to $s1 and damage done by up to $s2 for all magical spells and effects.,
+1232166,,Increases healing done by up to $s1 and damage done by up to $s2 for all magical spells and effects.,
+1232167,,Increases healing done by up to $s1 and damage done by up to $s2 for all magical spells and effects.,
+1232169,,Heal self for $s2 and increases Strength by $s1 for $d.,Strength increased by $w1.
+1232170,,,
+1232172,,Permanently enchant a two-handed melee weapon so that often when attacking in melee it heals for $1232169s2 and increases Strength by $1232169s1 for $1232169d.,
+1232176,,Combine $s4 Illusion Dust and $s5 Righteous $LOrb:Orbs; at a Mote of Possibility in pursuit of a new discovery.,
+1232177,,"The lightbearer channels their hope, making friendly targets within $A1 yards immune to silence.
+
+Enrages Screeching Terrors.","Friendly targets within $A1 yards become immune to silence.
+
+Screeching Terrors become Enraged if hit."
+1232178,,$@spelldesc1232177,Immune to silence.
+1232180,,"Coming into contact with the light sends the Sreeching Terror into a frenzy, increasing attack and movement speed by $s$%",Attack and movement speed increased by $s1%.
+1232181,,"$?s446658[Your Bloodthirst, Mortal Strike, Shield Slam, Heroic Strike, and Cleave critical strikes set the duration of your Rend on the target to $11574d]?s21184[Your Backstab, Mutilate, and Saber Slash critical strikes set the duration of your Rupture on the target to $s1 sec and your Crimson Tempest to $s2 sec]?s446374[Your Raptor Strike and Mongoose Bite critical strikes set the duration of your Serpent Sting on the target to $13555d][You will never be worthy enough to benefit from this blade].",
+1232182,,,
+1232183,,,
+1232184,,"$?s21184[Damaging finishing moves have a $1231492b1% chance per combo point to restore $1231491s1 energy.]?s446658[If Cleave hits fewer than its maximum number of targets, it deals $1232185s1% more damage for each unused bounce.]?s446374[Flanking Strike's damage buff is increased by an additional $1232186s2% per stack. When striking from behind, your target takes $1232186s1% increased damage from Flanking Strike.][The blades will never accept you as their master.]",
+1232185,,,
+1232186,,,
+1232187,,$@spelldesc437846,Suffering $437840s1 Fire damage every $437846t2 sec and immune to Suppressive Darkness.
+1232188,,Increases damage and healing done by magical spells and effects by up to $s1.,
+1232190,,$@spelldesc1232192,
+1232191,,$@spelldesc1232192,
+1232192,,"Lillian Voss uses her imbued blades to strike her target twice, inflicting $1232191s1 Physical damage and absorbing $s1 healing taken with each hit.",Absorbs $w1 healing.
+1232193,,Stabilize the Wing and String by combining it with an Inescapable Fate.,
+1232200,,,
+1232202,,,
+1232203,,,
+1232218,,Now is not the time for petty squabbles.,Now is not the time for petty squabbles.
+1232227,,,
+1232232,,,
+1232234,,Increases your Spirit by $s1.,Increases Spirit by $s1.
+1232235,,,
+1232237,,,
+1232238,,,
+1232239,,,
+1232240,,,
+1232241,,,
+1232242,,,
+1232243,,,
+1232244,,A magical ward has decided it was your time to die.,
+1232245,,,
+1232279,,,
+1232291,,,
+1232312,,The weight of Caladboulder knocks down all nearby enemies for $d.,Stunned.
+1232322,,"The earth once again swallow up Caladbolg for $d, decreasing movement speed by $s3%. If moving, your speed increases every $t2 seconds. Smashing into an enemy deals $1232323s2 fire damage, knocks back all nearby enemy players, and ends this effect.",Movement speed increasing.
+1232323,,,
+1232326,,,
+1232332,,,
+1232333,,,
+1232345,,Add the Torn Page to Putress' Diary.,
+1232349,,Add the Frist Page to Putress' Diary.,
+1232351,,Add the Second Page to Putress' Diary.,
+1232352,,Add the Third Page to Putress' Diary.,
+1232353,,Add the Fourth Page to Putress' Diary.,
+1232355,,Add the Fifth Page to Putress' Diary.,
+1232356,,"Add the Sixth, and Final, Page to Putress' Diary.",
+1232364,,,
+1232378,,A teleporter malfunction has resulted in a new body!,Seeing the world from a new perspective. Right-click this buff to return to your normal self.
+1232383,,,Increased attack speed and attacks deal additional holy damage.
+1232384,,,Reduces all damage taken by $s1.
+1232385,,,Grants immunity to all forms of crowd control and movement impairing effects.
+1232386,,,You've drawn the attention of the High Commander.
+1232387,,,Stunned.
+1232389,,,Defenses greatly reduced. Holy damage taken increased by $s2%.
+1232390,,,Bleeding profusely until fully healed.
+1232393,,With the hopes of the righteous you traverse the weave to the New Avalon Monastery.,
+1232395,,,
+1232398,,,
+1232400,,,
+1232401,,,
+1232402,,,
+1232406,Rank 1,Puts the caster in stealth mode. Lasts until cancelled.,Stealthed.
+1232462,,,
+1232463,,,
+1232464,,,
+1232465,,,
+1232466,,,
+1232477,,Increases damage and healing done by magical spells and effects by up to $s1.,
+1232478,,Increases damage and healing done by magical spells and effects by up to $s1.,
+1232479,,Increases damage and healing done by magical spells and effects by up to $s1.,
+1232480,,Increases damage and healing done by magical spells and effects by up to $s1.,
+1232553,,,
+1232572,,,Increased attack speed and attacks deal additional holy damage.
+1232575,,,Reduces all damage taken by $s1.
+1232581,,,Grants immunity to all forms of crowd control and movement impairing effects.
+1232627,,,
+1232637,,,Stunned.
+1232639,,,
+1232643,,,
+1232644,,,
+1232670,,,
+1232674,,,
+1232676,,,
+1232677,,,Melee attacks cleave all targets in a $1232676A1 yard frontal cone.
+1232678,,Attacks nearby enemies in a whirlwind of steel that lasts $d. and inflicts normal damage plus $28335s1.,Attacking all nearby enemies for normal damage plus $28335s1.
+1232679,,,
+1232685,,,
+1232686,,,"Inflicts $s1 Physical damage every $t1 sec.
+Healing taken reduced by $s2%.
+Movement speed decreased by $s3%."
+1232689,,,
+1232690,,,
+1232691,,,
+1232692,,,
+1232693,,,
+1232697,,,Stunned.
+1232702,,"Sends a wave of force in front of the warrior, causing Physical damage and stunning all enemy targets within $a1 yards in a frontal cone for $d.",Stunned.
+1232703,,Causes $s1 Holy damage to any creature that strikes the target. The aura lasts $d.,$s1 Holy damage inflicted to melee attackers.
+1232706,,,
+1232709,,Calls upon Holy magic to heal an ally.,
+1232710,,"Protects a targeted party member from all attacks for $d., as well as preventing it from attacking or using abilities. Players may only have one seal on them per paladin at any one time.",Immune to Physical attack.
+1232718,,,
+1232734,,Heals an ally for $s1 damage every $t1 sec. for $d.,$s1 damage healed every $t1 sec.
+1232736,,,
+1232737,,,
+1232740,,Calls upon Holy magic to heal an ally.,
+1232741,,"Smites an enemy, inflicting Holy damage.",
+1232743,,"Inflicts Shadow damage to an enemy, but causes a high amount of threat.",
+1232745,,,
+1232749,,,
+1232755,,"Consecrates the land beneath Paladin, doing $o1 Holy damage over $d to enemies who enter the area.",$s1 damage every $t1 $lsecond:seconds;.
+1232758,,Calls upon Holy magic to heal an ally.,
+1232761,,Inflicts Fire damage to nearby enemies.,
+1232762,,Inflicts $s1 Fire damage to an enemy.,$s2 Fire damage is inflicted every $t2s.
+1232764,,,
+1232770,,,
+1232791,,,
+1232795,,,
+1232816,,,
+1232817,,,
+1232818,,,
+1232819,,,
+1232820,,,
+1232829,,Hurls a fiery ball that causes $s1 fire damage to the enemy.,
+1232839,,"Shoots at an enemy, inflicting Physical damage.",
+1232840,,,
+1232842,,,Stunned.
+1232884,,"Smites an enemy, inflicting Holy damage.",
+1232890,,,
+1232893,,Your next $u instances of Nature damage are increased by $s1%.  Lasts $d.,Nature damage dealt increased by ${$s1/$m2}%.
+1232896,,You may cast Rebirth and Innervate while in Cat Form.,
+1232946,,"$?a415352[$1232958h% chance on melee attack to generate a Strand of Fate, increasing your Strength by $1232959s1. Stacks up to $1232959u, and lasts $1232959d.][$1231595h% chance on ranged attack to generate a Strand of Fate, allowing you move and use a ranged attack at the same time. Strands stack up to $1231601u, and last $1231601d.]",
+1232958,,,
+1232959,,,Strength Increased by $s.
+1232969,,,Strength Increased by $s.
+1232976,,,Next Strike ability applies Serpent Sting with a duration of $s1 sec.
+1232979,Rank 9,"Stings the target, causing $o1 Nature damage over $d.  Only one Sting per Hunter can be active on any one target.",Causes $s1 Nature damage every $t1 seconds.
+1232980,Rank 9,"Stings the target, causing $o1 Nature damage over $d.  Only one Sting per Hunter can be active on any one target.",Causes $s1 Nature damage every $t1 seconds.
+1232981,Rank 9,"Stings the target, causing $o1 Nature damage over $d.  Only one Sting per Hunter can be active on any one target.",Causes $s1 Nature damage every $t1 seconds.
+1232982,Rank 9,"Stings the target, causing $o1 Nature damage over $d.  Only one Sting per Hunter can be active on any one target.",Causes $s1 Nature damage every $t1 seconds.
+1232988,,"Smites an enemy, inflicting Holy damage.",
+1232989,,Test the plague sample.,
+1232990,,Test the plague sample.,
+1232994,,Puts the caster in stealth mode. Lasts until cancelled.,Stealthed.
+1232996,,,
+1233003,,,
+1233016,,,
+1233025,,,
+1233028,,,You are where you should not be...
+1233029,,,
+1233069,,,$s1 damage every $t1 $lsecond:seconds;.
+1233077,,"Curses nearby enemies with agony, inflicting Shadow damage every $t1 sec. for $d. Only one curse per warlock can be active on any one target.",Shadow damage every $t1 sec.
+1233078,,"Launches a magical missile at an enemy, inflicting Radiant damage.",
+1233079,,"Launches magical missiles at an enemy, inflicting Radiant damage each second for $d.",
+1233151,,,
+1233247,,,
+1233255,,"Counters an enemy's spell, preventing the enemy from casting that spell again for $d. Generates a high amount of threat.",
+1233280,,"Flip the Lucky Doubloon. On heads, the cooldown of Lucky Doubloon is refreshed, and your critical strike chance with all spells and attacks is increased by $1232052s1% for $1232052d, stacking up to $1232052u times. On tails, all stacks of Lucky Doubloon are removed. (Must be in combat.)",
+1233291,,,
+1233293,,"Unleashes an intimidating $@spellname1233293 inflicting $s1 Physical damage to all players.
+
+This shout inspires nearby crusaders, increasing their damage done by $s2% for $d.",Damage done increased by $s2%.
+1233297,,"Smites an enemy, inflicting Holy damage.",
+1233344,,Gives $s1 additional armor to nearby party members for $d. Players may only have one aura on them per paladin at any one time.,Armor and Resistances increased by $s1.
+1233347,,,
+1233348,,,
+1233350,,,
+1233361,,,Bleeding for $s2 Physical damage every $t2 sec.
+1233362,,,
+1233369,,,
+1233376,,,
+1233396,,,
+1233442,,,
+1233444,,,
+1233451,,Your next Multi-Shot deals $s1% increased damage.,Your next Multi-Shot deals $s1% increased damage.
+1233468,,,
+1233507,,,
+1233525,,,Increases Block Value by $s1%.
+1233543,,,
+1233545,,,
+1233551,,$@spelldesc455859,
+1233552,,,$s1 Physical damage inflicted to melee attackers.
+1233570,,,
+1233571,,,
+1233625,,,
+1233736,,,
+1233815,,Load yourself into a cannon. Seems safe enough.,
+1233831,,Load yourself into a cannon. Seems safe enough.,
+1233832,Rank 1,Increase the Spirit of nearby party members by $M1.,
+1233834,,,Stunned.
+1233835,,,Damage done by your next Lava Burst increased by $s1%.
+1233840,,Teleport player to relative safety.,Teleport player to relative safety.
+1233842,Rank 1,Increase the Spirit of nearby party members by $M1.,
+1233847,,,
+1233848,,,
+1233849,,,
+1233852,,,
+1233853,,,"Attacks are serrated with poison, causing the next 10 attacks to deal additional Nature damage."
+1233854,,,
+1233880,,,
+1233883,,,"This sticky toxin is hardening, and will become thick as ooze at 5 stacks.
+Movement will render the toxin unable to fully coagulate."
+1233884,,,"Encased in ooze!
+$s1 Nature damage inflicted every $t1 sec."
+1233901,,,"Deals $s1 nature damage every $t1 sec.
+Leaves behind a pool of noxious poison when removed."
+1233908,,Load yourself into a cannon. Seems safe enough.,
+1233911,,,
+1233915,,,
+1233924,,,
+1233926,,,
+1233927,,,
+1233955,,,
+1233964,,,
+1233987,,,
+1233988,,,Magical damage done increased by $s1%.
+1234005,,,Increases damage done by your next Slam by $s1%.
+1234031,,,Strength Increased by $w1.
+1234033,,Increases the block value of your shield by $s1.,
+1234034,,Increases the block value of your shield by $s1.,
+1234035,,Increases the block value of your shield by $s1.,
+1234036,,Increases the block value of your shield by $s1.,
+1234037,,Increases the block value of your shield by $s1.,
+1234039,,,
+1234040,,$?a435395|a435884[Improves your chance to hit with all spells and attacks by $460230s1%.][Reduces the chance for your attacks to be dodged or parried by $1213289s1%.],
+1234041,,Improves your chance to hit with all spells and attacks by $s1%.,
+1234042,,Reduces the chance for your attacks to be dodged or parried by $s1%.,
+1234046,,,
+1234048,,,
+1234055,,,
+1234056,,,
+1234067,,,Increases damage done by your next Whirlwind or Execute by $s1%.
+1234069,,,Damage done increased by $w1%.
+1234071,,,Attack Speed increased by $s1%.
+1234085,,Increases damage done by Shadow spells and effects by up to $s1.,
+1234086,,Increases damage done by Shadow spells and effects by up to $s1.,
+1234196,,,
+1234213,,,
+1234214,,,
+1234253,,Use the ancient flames created from the branches of Nordassil to heat the blade. ,
+1234256,,,
+1234299,,The Global Cooldown of your Exorcism and Holy Wrath spells is reduced by ${$m1/-1000}.1 seconds.,The Global Cooldown of your offensive spells is reduced by ${$m1/-1000}.1 seconds.
+1234306,,,
+1234307,,,
+1234318,,The damage increases from Mercy's and Crimson Cleaver's effects are increased by $s1%.,
+1234320,,,"Magic follows you in this space like a ripple, leaving an echo of where you are in time."
+1234325,,,
+1234326,,"The Global Cooldown of your Shock, Lightning, and Lava Burst spells is reduced by ${$m1/-1000}.1 seconds.",The Global Cooldown of your offensive spells is reduced by ${$m1/-1000}.1 seconds.
+1234343,,,
+1234347,,,Deals $s1 damage every $t1 sec.
+1234350,,,
+1234352,,,
+1234354,,,
+1234355,,,
+1234540,,Inflicts $s1 Fire damage to an enemy every $t1 sec. for $d.,$s1 Fire damage inflicted every $t1 sec.
+1234542,,,All healing done increased by $s1%.
+1234545,,,
+1234584,,$@spelldesc1231836,$@spellaura1231836
+1234592,,,
+1234593,Rank 1,Shows the location of all nearby dragons on the minimap for $d.,
+1234594,,Claim the promised soul.,
+1234595,,,
+1234596,,,
+1234597,,,
+1234598,,Imbue with wild magic.,
+1234675,,,
+1234682,,,
+1234703,,,
+1234708,,Deals $s1 Nature damage every $t1 sec.,Deals $s1 Nature damage every $t1 sec.
+1234722,,,
+1234744,,,
+1234770,,,
+1234792,,Increases your attack speed by $s1%.,
+1234793,,Increases your attack speed by $s1%.,
+1234804,,,
+1234805,,$?a435395|a435884[Improves your chance to hit with all spells and attacks by $460230s1%.][Reduces the chance for your attacks to be dodged or parried by $1213289s1%.],
+1234806,,Improves your chance to hit with all spells and attacks by $s1%.,
+1234807,,Reduces the chance for your attacks to be dodged or parried by $s1%.,
+1234809,,,
+1234812,,Reduces damage inflicted to all nearby Spirits by $s1%.,Reduces damage inflicted to all nearby Spirits by $s1%.
+1234823,Rank 1,"Allows the rogue to sneak around, but reduces your speed by $s3%.  Lasts until cancelled.",Stealthed.  Movement slowed by $s3%.
+1234825,,,
+1234831,,Teleport player to relative safety.,Teleport player to relative safety.
+1234842,,,
+1234852,,,
+1234856,,,
+1234862,Rank 1,Increase the Spirit of nearby party members by $M1.,
+1234863,,,
+1234864,Rank 1,Increase the Spirit of nearby party members by $M1.,
+1234865,,Teleport player to relative safety.,Teleport player to relative safety.
+1234866,,,
+1234870,,"Consecrates the caster's weapon, inflicting $s1 additional damage on its next attack. All damage inflicted is based on Holy magic.",
+1234891,,,
+1234892,,,
+1234893,,Inflicts $s1 damage to an enemy and increases the Holy damage it takes by $s2 per Crusader Strike. Can be applied up to 5 times. Lasts $d.,Holy damage taken is increased.
+1234894,,"Inflicts weapon damage plus $s1 to an enemy and its nearest allies, affecting up to $x1 targets.",
+1234895,,Victory!,
+1234903,,,
+1234905,,,
+1234908,,,
+1234937,,,
+1234946,,,
+1234951,,,
+1234952,,,
+1234955,,,
+1234958,,,
+1234959,,,
+1234960,,,
+1234961,,,
+1234962,,,
+1234964,,,
+1234965,,,
+1235104,,,
+1235116,,Take on the guise of a ninja assassin.,
+1235119,,Take on the guise of a ninja assassin.,
+1235122,,Take on the guise of a ninja assassin.,
+1235126,,Returns you to Light's Hope Chapel.,
+1235132,,,
+1235133,,,
+1235139,,,
+1235140,,,
+1235141,,,
+1235181,,,
+1235190,,,The end of an epoch is nigh!
+1236151,Rank 9,Heals the target of $o1 damage over $d.,Healing $s1 damage every $t1 seconds.
+1235321,,"Inflicts $s1 Fire damage and an additional $s2 Fire damage every $t2 sec for $d.
+",Inflicts $s2 Fire damage every $t2 sec.
+1235322,,Imbued weapons now cause melee attacks to inflict $1230996s1 additional Fire damage.,Weapons are imbued with fire.
+1235413,,,
+1235320,,"$?a435884[Chance on hit to cause your next $1232893u instances of Nature damage to be increased by $1231456s1%.  Lasts $1232893d.]?a446658[Chance on hit to cause your next $1235336u instances of Cleave damage to be increased by $1235337s1%. Lasts $1235336d.]?a446374[Chance on hit to cause your next $1235341u instances of Raptor Strike damage to be increased by $1235344s1%. Lasts $1235341d.]?a462814[Chance on hit to cause your next $1235348u instances of Holy damage to be increased by $1235349s1%. Lasts $1235348d.][The Crimson Cleaver does not respond to your presence, maybe another class could benefit from this?]",
+1235330,,,
+1235335,,,
+1235336,,Your next $u instances of Cleave damage are increased by $s1%.  Lasts $d.,Cleave damage dealt increased by ${$s1/$m2}%.
+1235337,,,
+1235340,,,
+1235341,,Your next $u instances of Raptor Strike damage are increased by $s1%.  Lasts $d.,Raptor Strike damage dealt increased by ${$s1/$m2}%.
+1235344,,,
+1235347,,,
+1235348,,Your next $u instances of Holy damage are increased by $s1%.  Lasts $d.,Holy damage dealt increased by ${$s1/$m2}%.
+1235349,,,
+1235351,,$?a435884[Chance on hit to cause your next $1235353u instances of Fire damage to be increased by $1232890s1%. Lasts $1235353d.]?a446658[Chance on hit to cause your next $1235355u instances of Whirlwind damage to be increased by $1235357s1%. Lasts $1235355d.]?a446374[Chance on hit to cause your next $1235359u instances of damage from your pet's special abilities to be increased by $1235361s1%. Lasts $1235359d.][],
+1235354,,,
+1235355,,Your next $u instances of Whirlwind damage are increased by $s1%.  Lasts $d.,Whirlwind damage dealt increased by ${$s1/$m2}%.
+1235357,,,
+1235358,,,
+1235359,,Your next $u instances of damage from your pet's special abilities are increased by $s1%.  Lasts $d.,Pet special ability damage dealt increased by ${$s1/$m2}%.
+1235361,,,
+1235390,,Your next $u instances of damage from your pet's special abilities are increased by $s1%.  Lasts $d.,Pet special ability damage dealt increased by ${$s1/$m2}%.
+1235492,,,
+1235570,,,
+1235571,,,
+1235703,,,
+1235421,,"Causes an explosion of arcane magic around the caster, causing $s1 Arcane damage to all targets within $a1 yards.",
+1235537,,,
+1235539,,,
+1235538,,"Charges an enemy, inflicting normal damage plus $s3 and stuns the opponent for $d.",
+1235263,,,
+1235317,,"Burns an enemy, then inflicts additional Fire damage every $t1 sec. for $d.",Fire damage inflicted every $t1 sec.
+1235318,,"Unleashes a wave of flame, inflicting Fire damage to nearby enemies and reducing their movement speed for $d.",Reduced movement speed.
+1235327,,,"Maximum health reduced by $s1%
+Deals $s2 nature damage every $t2 seconds."
+1235328,,Decreases the Magical damage dealt by the target by $s1 for $d.,Magical damage dealt is reduced by $s1%.
+1235777,,,
+1235681,,Increases the damage caused by your Ferocious Bite by $s1%.,
+1235705,,,
+1235708,,,
+1235689,,,
+1235493,,Casts a spell when you do something.,
+1235353,,Your next $u instances of Fire damage are increased by $s1%.  Lasts $d.,Fire damage dealt increased by ${$s1/$m2}%.
+1235749,,,
+1235793,,Reduces damage from falling.,
+1235880,,,
+1235882,,,
+1236153,Rank 7,Heals a friendly target for $s1.,
+1236154,Rank 10,"Draws on the soul of the party member to shield them, absorbing $s1 damage.  Lasts $d.  While the shield holds, spellcasting will not be interrupted by damage.  Once shielded, the target cannot be shielded again for $6788d.",Absorbs damage.
+1236156,Rank 2,"Dispels magic on the target, removing $s1 harmful $lspell:spells; from a friend or $s1 beneficial $lspell:spells; from an enemy.",
+1236159,,Smite a target for $s1 Holy damage.,
+1236162,,Consumes the target in holy flames that cause $s1 Holy damage and an additional $s2 Holy damage every $t2 sec for $d.,$s2 Holy damage inflicted every $t2 sec.
+1236172,,Inflicts Fire damage to an enemy.,
+1236173,,"Inflicts Fire damage to an enemy, then additional damage every $t2 sec. for $d.",Fire damage inflicted every $t2 sec.
+1236174,,"Transforms an enemy into a sheep, forcing it to wander around for up to $d. While wandering, the sheep cannot attack or cast spells, but regenerates very quickly. Any damage will transform the target back into its normal form. Only one target can be polymorphed at a time. Only works on beasts, dragons, giants, humanoids, and critters.","Cannot attack or cast spells.
+Health regeneration increased."
+1236175,,Teleports the caster 20 yd. forward unless something is in the way. Also frees the caster from any bonds.,Blinking...
+1236176,,Disarm the enemy's weapon for $d.,Disarmed!
+1236177,Rank 3,"Maims the enemy, causing $s1 damage and slowing the enemy's movement by $s2% for $d.",Movement slowed by $s2%.
+1236179,,"Inflicts $s2 damage to an enemy, stunning it for $d.",Stunned.
+1236181,,Calls upon Holy magic to heal an ally.,
+1236182,,Inflicts $s1 damage to an enemy and increases the Holy damage it takes by $s2 per Crusader Strike. Can be applied up to 5 times. Lasts $d.,Holy damage taken is increased.
+1236183,,"Inflicts weapon damage plus $s1 to an enemy and its nearest allies, affecting up to $x1 targets.",
+1236188,Rank 6,An aimed shot that increases ranged damage by $s1.,
+1236190,,"Fires a volley of missiles at an enemy and its nearby allies, striking up to $x1 targets for normal damage plus $s1.",
+1236191,,"Dazes an enemy, reducing its movement speed by $s1% for $d.",Movement speed reduced by $s1%.
+1236266,,Creates $s1 Explosive Sheep that $lcharges:charge; the nearest $lenemy:enemies; and $lexplodes:explode;. Explosive Sheep are unstable and will self-destruct after $d.,
+1236267,,,
+1236268,,,
+1236269,,Inflicts $s1 Fire damage to all enemies in a selected area.,
+1236270,,Deals $13184s1 fire damage for $d to all targets in a cone in front of the engineer using the weapon.   That is unless it explodes.....,
+1236271,,,
+1236287,,Consumes the target in holy flames that cause $s1 Holy damage and an additional $s2 Holy damage every $t2 sec for $d.,$s2 Holy damage inflicted every $t2 sec.
+1236290,,"Transforms an enemy into a sheep, forcing it to wander around for up to $d. While wandering, the sheep cannot attack or cast spells, but regenerates very quickly. Any damage will transform the target back into its normal form. Only one target can be polymorphed at a time. Only works on beasts, dragons, giants, humanoids, and critters.","Cannot attack or cast spells.
+Health regeneration increased."
+1236291,,"Inflicts Fire damage to an enemy, then additional damage every $t2 sec. for $d.",Fire damage inflicted every $t2 sec.
+1234967,,,
+1234968,,,
+1234972,,,
+1234973,,,
+1234976,,,
+1234977,,,
+1234978,,,
+1234979,,,
+1234980,,,
+1234981,,,
+1234983,,,
+1234984,,,
+1234987,,,
+1234990,,,
+1234991,,,
+1234992,,,
+1234993,,,
+1234994,,,
+1234997,,,
+1234998,,,
+1234999,,,
+1235000,,,
+1235002,,,
+1235003,,,
+1235004,,,
+1235011,,Attaches a permanent scope to a bow or gun that increases its damage by 10.,
+1236217,,Attaches a permanent scope to a bow or gun that increases its damage by 10.,
+1236221,,,
+1236222,,,
+1236223,,,
+1236224,,,
+1236225,,,
+1236226,,,
+1236227,,,
+1236232,,,
+1236233,,,
+1236234,,,
+1236235,,,
+1236236,,,
+1236237,,,
+1236238,,,
+1236239,,,
+1236241,,,
+1236242,,,
+1236246,,,
+1236510,,,
+1236511,,,
+1236516,,,
+1236517,,,
+1236518,,,
+1236519,,,
+1236520,,,
+1236521,,,
+1236522,,,
+1236523,,,
+1236524,,,
+1236525,,,
+1236526,,,
+1236527,,,
+1236528,,,
+1236530,,,
+1236531,,,
+1236532,,,
+1236534,,,
+1236536,,,
+1236537,,,
+1236538,,,
+1236539,,,
+1236540,,,
+1236541,,,
+1236542,,,
+1236543,,,
+1236544,,,
+1236545,,,
+1236546,,,
+1236547,,,
+1236307,,Heals an ally every $t1 sec. for $d.,Damage healed every $t1 sec.
+1236308,,Thorns sprout from the friendly target causing $s1 Nature damage to attackers when hit.  Lasts $d.,Causes $s1 Nature damage to attackers.
+1236318,,,
+1236326,,,
+1236655,,,Stunned.
+1236656,,,Stunned.
+1236675,,,Stunned.
+1236393,,,
+1232438,,Combine $s2 fragments to repair the Crusader's Chalice.,
+1236799,,,
+1236813,,,
+1236814,,,
+1236815,,,
+1236816,,,
+1236819,,,
+1236821,,,
+1236825,,,
+1236828,,,
+1236830,,,
+1236833,,,
+1236834,,,
+1236837,,,
+1236838,,,
+1236839,,,
+1236840,,,
+1236841,,,
+1236842,,,
+1236843,,,
+1236844,,,
+1236845,,,
+1236846,,,
+1236847,,,
+1236848,,,
+1236879,Rank 1,Increase the Spirit of nearby party members by $M1.,
+1236922,,,
+1237045,,$@spelldesc1232177,Immune to silence.
+1235473,,,
+1237155,,"Acid rain falls from above, inflicting $s1 Nature damage to players struck.",Stunned.
+1237147,,Throw the Incendiary Bomb at a nearby Ballista.,
+1237171,,The molten earth deals $s1 Radiant damage every $t1 second.,The molten earth deals $s1 Radiant damage every $t1 second.

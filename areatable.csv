@@ -40,7 +40,7 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 45,ArathiHighlands,Arathi Highlands,0,0,150,0,11,30,2172,8,0,0,0,0,0,0,0,-1,0,0,0,64,0,0,0,0,0
 46,BurningSteppes,Burning Steppes,0,0,151,0,11,46,2172,10,0,0,0,0,0,0,0,-1,0,0,0,64,0,0,0,0,0
 47,TheHinterlands,The Hinterlands,0,0,152,0,11,31,2172,1,0,0,0,0,0,0,0,-1,0,0,0,64,0,0,0,0,0
-49,DeadMansHole,Dead Man's Hole,0,22,153,0,11,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,0,0,0,0,0
+49,DeadMansHole,Dead Man's Hole,451,22,153,0,11,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,0,0,0,0,0
 51,SearingGorge,Searing Gorge,0,0,154,0,11,46,2172,10,0,0,0,0,0,0,0,-1,0,0,0,64,0,0,0,0,0
 53,ThievesCamp,Thieves Camp,0,12,155,0,11,35,2172,1,0,0,0,0,0,0,0,-1,0,0,0,1073741888,0,0,0,0,0
 54,JasperlodeMine,Jasperlode Mine,0,12,550,0,11,35,2172,1,0,8,0,0,0,0,0,-1,0,0,0,1073741888,0,0,0,0,0
@@ -692,7 +692,7 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 1577,TheCapeofStranglethorn,The Cape of Stranglethorn,0,33,691,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,0,0,0,0,0
 1578,SouthernSavageCoast,Southern Savage Coast,0,33,692,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,0,0,0,0,0
 1579,UnusedTheDeadmines002,Unused The Deadmines 002,0,0,693,0,0,0,2172,0,0,0,0,0,2,0,0,-1,0,0,0,64,0,0,0,0,0
-1580,UnusedIroncladCove003,Unused Ironclad Cove 003,36,1579,694,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,0,0,0,0,0
+1580,UnusedIroncladCove003,Unused Ironclad Cove 003,0,1579,694,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,0,0,0,0,0
 1581,TheDeadmines,The Deadmines,36,0,695,76,0,53,2172,204,0,0,0,0,2,0,0,-1,0,0,0,0,0,0,0,0,0
 1582,IroncladCove,Ironclad Cove,36,1581,696,76,0,53,2172,204,0,0,181,0,2,0,0,-1,0,0,0,1073741824,0,0,0,0,0
 1583,BlackrockSpire,Blackrock Spire,0,0,697,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0
@@ -850,8 +850,8 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 2263,CrownGuardTower,Crown Guard Tower,0,139,849,0,0,0,2172,0,0,55,0,0,0,0,0,-1,0,0,0,1073741888,0,0,0,0,0
 2264,Corin'sCrossing,Corin's Crossing,0,139,850,0,0,0,2172,0,0,57,0,0,0,0,0,-1,0,0,0,1073741888,0,0,0,0,0
 2265,ScarletBaseCamp,Scarlet Base Camp,0,139,851,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,0,0,0,0,0
-2266,Tyr'sHand,Tyr's Hand,0,139,852,0,0,0,2172,193,0,55,0,0,0,0,0,-1,0,0,0,1073741888,0,0,0,0,0
-2267,TheScarletBasilica,The Scarlet Basilica,0,139,853,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,0,0,0,0,0
+2266,TyrsHand,Tyr's Hand,0,139,852,0,0,0,2172,193,0,55,0,0,0,0,0,-1,0,0,0,1073741888,0,0,0,0,0
+2267,TheScarletBasilica,The Scarlet Basilica,0,139,853,0,0,2959,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,0,0,0,0,0
 2268,Light'sHopeChapel,Light's Hope Chapel,0,139,854,0,0,0,2172,0,0,58,0,0,0,0,0,-1,0,0,0,1073741888,0,0,0,0,0
 2269,BrowmanMill,Browman Mill,0,139,855,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,0,0,0,0,0
 2270,TheNoxiousGlade,The Noxious Glade,0,139,856,0,0,0,2172,0,0,58,0,0,0,0,0,-1,0,0,0,1073741888,0,0,0,0,0
@@ -981,7 +981,7 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 2777,AlteracValley,UNUSED Alterac Valley,0,267,980,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,0,0,0,0,0
 2797,BlackfathomDeeps,Blackfathom Deeps,1,331,981,0,0,24,2172,176,0,0,0,0,0,0,0,-1,0,0,0,1073741888,0,0,0,0,0
 2817,***On Map Dungeon***,***On Map Dungeon***,30,0,1157,3,11,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,68,0,0,0,0,0
-2837,TheMaster'sCellar,The Master's Cellar,1,41,982,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,0,0,0,0,0
+2837,TheMaster'sCellar,The Master's Cellar,0,41,982,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,0,0,0,0,0
 2838,StonewroughtPass,Stonewrought Pass,0,51,983,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,0,0,0,0,0
 2839,AlteracValley,Alterac Valley,0,36,984,0,0,38,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,0,0,0,0,0
 2857,TheRumbleCage,The Rumble Cage,1,440,985,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741952,0,0,0,0,0
@@ -1021,8 +1021,8 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 3157,BoulderslideCavern,Boulderslide Cavern,1,406,1019,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,0,0,0,0,0
 3177,WarsongLaborCamp,Warsong Labor Camp,1,331,1020,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,0,0,0,0,0
 3197,ChillwindCamp,Chillwind Camp,0,28,1021,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,0,0,0,0,0
-3217,TheMaul,The Maul,1,2557,1022,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741952,0,0,0,0,0
-3237,TheMaulUNUSED,The Maul UNUSED,1,2557,1023,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741952,0,0,0,0,0
+3217,TheMaul,The Maul,1,357,1022,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741952,0,0,0,0,0
+3237,TheMaulUNUSED,The Maul UNUSED,429,2557,1023,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741952,0,0,0,0,0
 3257,BonesofGrakkarond,Bones of Grakkarond,1,1377,1024,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,0,0,0,0,0
 3277,WarsongGulch,Warsong Gulch,489,0,1025,0,0,38,2172,243,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0
 3297,FrostwolfGraveyard,Frostwolf Graveyard,30,2597,1026,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741824,0,0,0,0,0
@@ -1094,13 +1094,13 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 15813,JaedenarShadowHold,Jaedenar,2806,15809,0,0,0,0,2172,193,0,51,161,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
 15814,ShatterScarValeShadowHold,Shatter Scar Vale,2806,15809,0,0,0,0,2172,0,0,53,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
 15815,RuinsofConstellasShadowHold,Ruins of Constellas,2806,15809,0,0,0,0,2172,0,0,51,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
-15816,GroveoftheAncientsShadowHold,Grove of the Ancients,2806,148,0,0,11,0,2172,0,0,15,302,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
-15817,WildbendRiverShadowHold,Wildbend River,2806,148,0,0,11,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
-15818,TwilightShoreShadowHold,Twilight Shore,2806,148,0,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
-15819,TwilightValeShadowHold,Twilight Vale,2806,148,0,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
-15820,TheMaster'sGlaiveShadowHold,The Master's Glaive,2806,148,0,0,11,0,2172,0,0,16,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
-15821,Ameth'AranShadowHold,Ameth'Aran,2806,148,0,0,11,0,2172,15,0,11,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
-15822,BlackwoodDenShadowHold,Blackwood Den,2806,148,0,0,11,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+15816,GroveoftheAncientsShadowHold,Grove of the Ancients,2806,16362,0,0,11,0,2172,0,0,15,302,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+15817,WildbendRiverShadowHold,Wildbend River,2806,16362,0,0,11,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+15818,TwilightShoreShadowHold,Twilight Shore,2806,16362,0,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+15819,TwilightValeShadowHold,Twilight Vale,2806,16362,0,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+15820,TheMaster'sGlaiveShadowHold,The Master's Glaive,2806,16362,0,0,11,0,2172,0,0,16,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+15821,Ameth'AranShadowHold,Ameth'Aran,2806,16362,0,0,11,0,2172,15,0,11,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+15822,BlackwoodDenShadowHold,Blackwood Den,2806,16362,0,0,11,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
 15825,TheCrystalVale,The Crystal Vale,2804,0,0,0,0,2871,2172,237,0,0,0,0,0,0,1,-1,0,0,0,0,128,0,0,0,0
 15828,TheBurningofAndorhal,The Burning of Andorhal,2807,0,0,0,11,40,2172,15,0,0,0,0,0,0,0,-1,0,0,0,0,128,0,0,0,0
 15938,StarfallVillageInstance,Starfall Village,2817,0,0,0,0,0,2172,76,0,55,103,0,0,0,0,-1,0,0,0,64,128,0,0,0,0
@@ -1199,4 +1199,15 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 16167,TheRottingOrchardNightmareGrove,The Rotting Orchard,2832,16148,0,0,11,0,2172,2,0,26,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
 16168,RavenHillNightmareGrove,Raven Hill,2832,16148,0,0,11,0,2172,2,0,24,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
 16169,AshenvaleInstance,Ashenvale,2832,0,0,0,11,48,2172,11,0,0,0,0,0,0,0,-1,0,0,0,64,128,0,0,0,0
-16236,ScarletEnclave,Scarlet Enclave,2856,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,128,0,0,0,0
+16236,ScarletEnclave,Scarlet Enclave,2856,0,0,0,0,2954,2172,3158,0,0,0,0,0,0,1,-1,0,0,0,0,128,0,0,0,0
+16295,TheScarabDais,The Scarab Dais,2902,0,0,0,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,64,128,0,0,0,0
+16335,NewAvalon,New Avalon,0,139,12981,0,0,2973,2172,3161,0,55,0,0,0,0,0,-1,0,0,0,1074006016,0,0,0,0,0
+16361,TheForbiddingSea,The Forbidding Sea,0,139,0,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,128,0,0,0,0
+16362,ShadowHoldDungeon,Shadow Hold,2806,0,0,0,11,0,2172,0,0,15,302,0,0,0,0,-1,0,0,0,0,128,0,0,0,0
+16369,ScarletEnclavePrison,Prison,2856,16236,0,0,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,1073741824,128,0,0,0,0
+16370,ScarletEnclaveTyrsHand,Tyr's Hand,2856,16236,0,0,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,1073741824,128,0,0,0,0
+16371,ScarletEnclaveNewAvalon,New Avalon,2856,16236,0,0,0,2973,2172,3161,0,0,0,0,0,0,15,-1,0,0,0,1073741824,128,0,0,0,0
+16372,ScarletEnclaveTheForbiddingExpanse,The Forbidding Expanse,2856,16236,0,0,0,2956,0,0,0,0,0,0,0,0,15,-1,0,0,0,1073741824,128,0,0,0,0
+16373,ScarletEnclaveMines,Mine,2856,16236,0,0,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,1073741824,128,0,0,0,0
+16374,ScarletEnclaveArcaneSanctum,Arcane Sanctum,2856,16236,0,0,0,0,0,3161,0,0,0,0,0,0,15,-1,0,0,0,1073741824,128,0,0,0,0
+16394,Naxxrammas,Naxxramas,2921,0,0,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,65539,128,0,0,0,21

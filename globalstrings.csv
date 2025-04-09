@@ -5580,10 +5580,8 @@ ID,BaseTag,TagText_lang,Flags
 16676,LOOK_FOR_GROUP,Look For Group,1
 16677,LOOK_FOR_MORE,Look For More,1
 16678,JOIN,Join,1
-16679,NEWBIE_TOOLTIP_LFG_LIST_TAB_2,Browse player listings to form a group.,1
 16680,BINDING_NAME_TOGGLELFGPARENT,Toggle Looking for Group,1
 16681,LFG_BUTTON,Looking for Group,1
-16682,NEWBIE_TOOLTIP_LFG_LIST_TAB_1,List the group activities you're interested in.,1
 16683,LOOKING_FOR_GROUP_LABEL,I'm looking for a group for:,1
 16684,LOOKING_FOR_GROUP_LABEL2,I'm also looking for a group for:,1
 16685,ERR_LFG_LEADER_IS_LFM_S,You can't do that while %s is looking for more members.,1
@@ -8694,7 +8692,7 @@ ID,BaseTag,TagText_lang,Flags
 20095,TRADE_POTENTIAL_BIND_ENCHANT,Having this item enchanted will bind it to you.,1
 20096,ERR_TRADE_TEMP_ENCHANT_BOUND,You may not trade an item with a temporary enhancement.,1
 20097,POWER_TYPE_HEAT,Heat,1
-20098,PRESS_TAB,Press Tab,1
+20098,PRESS_TAB,Press Tab,3
 20099,ITEM_MOD_HEALTH_REGEN,Restores %s health per 5 sec.,1
 20100,CALENDAR_STATUS_TENTATIVE,Tentative,1
 20101,MERCHANT_HONOR_POINTS,%d Honor,1
@@ -18475,6 +18473,8 @@ ID,BaseTag,TagText_lang,Flags
 51407,HARDCORE_CAUSEOFDEATH_NONE,|Hplayer:%s|h[%s]|h has died at level %d,1
 51410,BLIZZARD_STORE_CLICK_TO_OPEN_FAQ,|cnPURE_GREEN_COLOR:<Shift click to view Frequently Asked Questions in your browser>|r,3
 51412,SPELL_FAILED_CUSTOM_ERROR_362,Creature not tameable,1
+51425,CHARACTER_SELECT_NAV_BAR_SHOP,SHOP,2
+51426,CHARACTER_SELECT_NAV_BAR_MENU,MENU,2
 51430,SHOW_MAX_LEVEL_ANNOUNCEMENT,Show Max Level Announcements,1
 51431,SHOW_MAX_LEVEL_ANNOUNCEMENT_TOOLTIP,Check this box to have a chat message display and a sound effect play when a player reaches max level on the realm.,1
 51454,RESTRICT_CALENDAR_INVITES,Restrict Calendar Invites ,1
@@ -18511,6 +18511,7 @@ These restrictions can be removed at any time by talking to an in-game character
 51693,ERR_MAIL_TARGET_CANNOT_RECEIVE_MAIL,Recipient cannot receive mail.,1
 51704,QUEUE_WITH_ALLOWED_FACTION_GROUP_ALLIANCE,Horde character creation is currently restricted on this realm due to faction imbalance.,3
 51705,QUEUE_WITH_ALLOWED_FACTION_GROUP_HORDE,Alliance character creation is currently restricted on this realm due to faction imbalance.,3
+51708,CHARACTER_SELECT_NAV_BAR_REALMS,REALMS,2
 51728,SHOW_DYNAMIC_BUFF_SIZE,Show dynamic buff and debuff sizes.,1
 51729,OPTION_TOOLTIP_SHOW_DYNAMIC_BUFF_SIZE,Check this to make your buffs and debuffs appear larger than other effects on a target.,1
 51731,REINCARNATE_CHARACTER,Reincarnate Selected Character,2
@@ -18542,6 +18543,7 @@ They will be deleted and remade with the current customized character.",2
 51817,CONFIRM_CHAR_REINCARNATE_INSTRUCTIONS,"Type ""REINCARNATE"" into the field to confirm.",2
 51852,HARDCORE_CAUSEOFDEATH_LAVA,|Hplayer:%s|h[%s]|h was burnt to a crisp by lava in %s! They were level %d,1
 51853,HARDCORE_CAUSEOFDEATH_FIRE,|Hplayer:%s|h[%s]|h was burnt to death by fire in %s! They were level %d,1
+51867,LIMITED_TIME_EVENT,LIMITED TIME EVENT,3
 51871,OPTION_TOOLTIP_HARDCORE_ANNOUNCE_DEATH_DISPLAY1,Only show guild deaths in chat,1
 51872,HARDCORE_ANNOUNCE_DEATH_ALL,All deaths,1
 51873,OPTION_TOOLTIP_HARDCORE_ANNOUNCE_DEATH_DISPLAY2,Announce all deaths on the realm,1
@@ -18597,9 +18599,12 @@ They will be deleted and remade with the current customized character.",2
 52529,OPTION_TOOLTIP_CLASSIC_GUILD_UI,Use the classic Guild UI instead of the modern Guild UI.,1
 52530,OPTIONAL_QUEST_OBJECTIVE_DESCRIPTION,%s (Optional),1
 52644,PVP_REALM_WARNING,"Hold, adventurer. You are attempting to join a |cffffffffPvP (Player vs Player) |cffffd200realm. You will face a constant threat from players of the opposing faction.|n|nIf you are not comfortable with a high level of conflict, we recommend you choose a |cffffffffNormal (non-PvP) |cffffd200realm.|n|n|cffffffffGame Masters do not intervene in PvP conflicts, and it is not possible to transfer your characters from a PvP realm to a Normal realm.",2
+52668,WOWLABS_MODE_NAV_BUTTON,MODE,2
+52669,WOWLABS_NO_GAME_MODES_FOUND,New Game Modes Coming Soon!,2
 52672,PVP_CHARACTER_CREATION_WARNING,"Welcome to the |cffffffffWorld of Warcraft! |cffffd200As you prepare to enter this realm, please be aware that you are joining a |cffffffffPvP (Player vs Player) |cffffd200realm. This means, in addition to the challenges of the world itself, you will also face the constant threat of combat with other players.|n|n|cffffffffPvP combat |cffffd200is a core part of this realm, and players from opposing factions may attack you without warning and with no sense of honor in contested areas. Be prepared for skirmishes and potentially lopsided battles as you explore the world, whether during quests, gathering resources, or traveling between locations. For example, the player you killed in Un'Goro while fighting over Devilsaur might hold a grudge, and now their guild is waiting for yours on the path through Blackrock Mountain for raid night in Molten Core.",2
 52673,PVP_CHARACTER_CREATION_WARNING_TWO,"|n|nIf you're not looking for this level of conflict, we recommend choosing a |cffffffffNormal (non-PvP) |cffffd200realm instead, where player combat is restricted.|n|n|cffffffffGame Masters do not intervene in PvP conflicts, and it is not possible to transfer your characters between PvP and Normal realms. You have been warned!",2
 52730,LFG_LIST_IGNORE_SUGGESTED_LEVEL,Show All Level Ranges,1
+52858,ACCOUNT_STORE_UNAVAILABLE,Temporarily unavailable. Try again later.,3
 52969,TW_FRAUD_WARNING_TEXT,System message,2
 53242,CLASSIC_PRESENCE_PREFIX_ERA,WoW Classic Era,0
 53243,CLASSIC_PRESENCE_PREFIX_SOD,WoW Classic Season of Discovery,0
@@ -18607,6 +18612,21 @@ They will be deleted and remade with the current customized character.",2
 53245,CLASSIC_PRESENCE_PREFIX_ANNIV,WoW Classic Anniversary,0
 53246,CLASSIC_PRESENCE_PREFIX_ANNIVHC,WoW Classic Anniversary HC,0
 53332,SPELL_FAILED_CUSTOM_ERROR_366,That would be unwise.,1
+53465,CINEMATIC_SUBTITLES_OPTIONS_HEADER,Subtitles,3
+53466,CINEMATIC_SUBTITLES_PREVIEW_LABEL,Subtitles Preview,3
+53467,CINEMATIC_SUBTITLES_DISPLAY_SUBHEADER,Display,3
+53468,CINEMATIC_SUBTITLES_BACKGROUND_OPTION_NONE,None (Default),3
+53469,CINEMATIC_SUBTITLES_BACKGROUND_OPTION_DARK,Dark,3
+53470,CINEMATIC_SUBTITLES_BACKGROUND_OPTION_LIGHT,Light,3
+53472,CINEMATIC_SUBTITLES_BACKGROUND_COLOR_OPTION_LABEL,Subtitles Background,3
+53473,CINEMATIC_SUBTITLES_BACKGROUND_OPACITY_OPTION_LABEL,Background Opacity,3
+53676,SPELL_FAILED_CUSTOM_ERROR_367,Your disguise is not convincing enough.,1
+53677,SPELL_FAILED_CUSTOM_ERROR_836,Nice try.,1
+53694,NEWBIE_TOOLTIP_LFG_LIST_TAB_1,List the group activities you're interested in.,0
+53695,NEWBIE_TOOLTIP_LFG_LIST_TAB_2,Browse player listings to form a group.,0
+53744,CONFIRM_REMOVE_WOW_FRIEND,Are you sure you want to remove this friend from your list? This action cannot be undone.,1
+53761,SPELL_FAILED_CUSTOM_ERROR_368,You have no reason to do that.,1
 53897,EMPTY_SOCKET_SINGING_THUNDER,[DNT] Singing Thunder Socket,1
 53898,EMPTY_SOCKET_SINGING_SEA,[DNT] Singing Sea Socket,1
 53899,EMPTY_SOCKET_SINGING_WIND,[DNT] Singing Wind Socket,1
+54015,SPELL_FAILED_CUSTOM_ERROR_369,This mote has already been depleted.,1

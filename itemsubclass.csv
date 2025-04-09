@@ -1,73 +1,73 @@
-ID,DisplayName_lang,VerboseName_lang,ClassID,SubClassID,AuctionHouseSortOrder,PrerequisiteProficiency,Flags,DisplayFlags,WeaponSwingSize,PostrequisiteProficiency
-1,NewItem,,-1,-1,0,-1,0,1,0,-1
-2,Bag,,1,0,0,-1,0,0,0,-1
-3,Axe,One-Handed Axes,2,0,0,-1,3,0,1,1
-4,Axe,Two-Handed Axes,2,1,0,0,3,0,2,-1
-5,Bow,Bows,2,2,0,-1,128,0,1,-1
-6,Gun,Guns,2,3,0,-1,168,0,1,-1
-7,Mace,One-Handed Maces,2,4,0,-1,3,0,1,5
-8,Mace,Two-Handed Maces,2,5,0,4,3,0,2,-1
-9,Polearm,Polearms,2,6,0,-1,3,0,2,-1
-10,Sword,One-Handed Swords,2,7,0,-1,3,0,1,8
-11,Sword,Two-Handed Swords,2,8,0,7,3,0,2,-1
-12,Obsolete,,2,9,0,-1,0,3,1,-1
-13,Staff,Staves,2,10,0,-1,3,0,2,-1
-14,Exotic,One-Handed Exotics,2,11,0,-1,0,3,1,12
-15,Exotic,Two-Handed Exotics,2,12,0,11,0,3,2,-1
-16,Fist Weapon,Fist Weapons,2,13,0,-1,5,0,0,-1
-17,Miscellaneous,,2,14,0,-1,2,1,1,-1
-18,Dagger,Daggers,2,15,0,-1,3,0,0,-1
-19,Miscellaneous,,4,0,0,-1,512,1,0,-1
-20,Cloth,Cloth,4,1,0,-1,512,0,0,-1
-21,Leather,Leather,4,2,0,-1,512,0,0,-1
-22,Mail,Mail,4,3,0,-1,512,0,0,-1
-23,Plate,Plate,4,4,0,-1,512,0,0,-1
-24,Cosmetic,Cosmetic,4,5,0,-1,0,1,0,-1
-25,Shield,Shields,4,6,0,5,0,0,0,-1
-26,Wand(OBSOLETE),,6,0,0,-1,0,3,0,-1
-27,Bolt(OBSOLETE),,6,1,0,-1,0,2,0,-1
-28,Arrow,,6,2,0,-1,0,0,0,-1
-29,Bullet,,6,3,0,-1,0,0,0,-1
-30,Quiver(OBSOLETE),,11,0,0,-1,0,7,0,-1
-31,Quiver(OBSOLETE),,11,1,0,-1,0,7,0,-1
-32,Quiver,,11,2,0,-1,0,4,0,-1
-33,Ammo Pouch,,11,3,0,-1,0,4,0,-1
-34,Thrown,Thrown,2,16,0,-1,16,0,1,-1
-35,Thrown(OBSOLETE),,6,4,0,-1,64,2,0,-1
-36,Jewelry(OBSOLETE),,3,0,0,-1,0,1,0,-1
-37,Trade Goods,,7,0,0,-1,0,1,0,-1
-38,Parts,,7,1,0,-1,0,1,0,-1
-39,Explosives,,7,2,0,-1,0,1,0,-1
-40,Book,,9,0,0,-1,0,1,0,-1
-41,Leatherworking,,9,1,0,-1,0,1,0,-1
-42,Tailoring,,9,2,0,-1,0,1,0,-1
-43,Consumable,,0,0,0,-1,0,1,0,-1
-44,Cheese/Bread(OBSOLETE),,0,1,0,-1,0,1,0,-1
-45,Liquid(OBSOLETE),,0,2,0,-1,0,1,0,-1
-46,Spear,Spears,2,17,0,-1,3,2,2,-1
-47,Money(OBSOLETE),,10,0,0,-1,0,1,0,-1
-48,Generic(OBSOLETE),,8,0,0,-1,0,1,0,-1
-49,Quest,,12,0,0,-1,0,1,0,-1
-50,Reagent,,5,0,0,-1,0,1,0,-1
-51,Permanent,,14,0,0,-1,0,1,0,-1
-52,Junk,,15,0,0,-1,0,1,0,-1
-53,Key,,13,0,0,-1,0,1,0,-1
-54,Lockpick,,13,1,0,-1,0,1,0,-1
-55,Crossbow,Crossbows,2,18,0,-1,160,0,1,-1
-56,Wand,Wands,2,19,0,-1,256,0,1,-1
-57,Fishing Pole,Fishing Pole,2,20,0,-1,0,0,2,-1
-77,Devices,,7,3,0,-1,0,1,0,-1
-99,Engineering,,9,3,0,-1,0,1,0,-1
-100,Blacksmithing,,9,4,0,-1,0,1,0,-1
-101,Cooking,,9,5,0,-1,0,1,0,-1
-102,Alchemy,,9,6,0,-1,0,1,0,-1
-103,First Aid,,9,7,0,-1,0,1,0,-1
-104,Enchanting,,9,8,0,-1,0,1,0,-1
-105,Fishing,,9,9,0,-1,0,1,0,-1
-107,Soul Bag,,1,1,0,-1,0,4,0,-1
-109,Herb Bag,,1,2,0,-1,0,0,0,-1
-110,Enchanting Bag,,1,3,0,-1,0,0,0,-1
-111,Engineering Bag,,1,4,0,-1,0,2,0,-1
-112,Libram,Librams,4,7,0,-1,0,0,0,-1
-113,Idol,Idols,4,8,0,-1,0,0,0,-1
-114,Totem,Totems,4,9,0,-1,0,0,0,-1
+DisplayName_lang,VerboseName_lang,ID,ClassID,SubClassID,AuctionHouseSortOrder,PrerequisiteProficiency,Flags,DisplayFlags,WeaponSwingSize,PostrequisiteProficiency
+NewItem,,1,0,-1,0,-1,0,1,0,-1
+Bag,,2,1,0,0,-1,0,0,0,-1
+Axe,One-Handed Axes,3,2,0,0,-1,3,0,1,1
+Axe,Two-Handed Axes,4,2,1,0,0,3,0,2,-1
+Bow,Bows,5,2,2,0,-1,128,0,1,-1
+Gun,Guns,6,2,3,0,-1,168,0,1,-1
+Mace,One-Handed Maces,7,2,4,0,-1,3,0,1,5
+Mace,Two-Handed Maces,8,2,5,0,4,3,0,2,-1
+Polearm,Polearms,9,2,6,0,-1,3,0,2,-1
+Sword,One-Handed Swords,10,2,7,0,-1,3,0,1,8
+Sword,Two-Handed Swords,11,2,8,0,7,3,0,2,-1
+Obsolete,,12,2,9,0,-1,0,3,1,-1
+Staff,Staves,13,2,10,0,-1,3,0,2,-1
+Exotic,One-Handed Exotics,14,2,11,0,-1,0,3,1,12
+Exotic,Two-Handed Exotics,15,2,12,0,11,0,3,2,-1
+Fist Weapon,Fist Weapons,16,2,13,0,-1,5,0,0,-1
+Miscellaneous,,17,2,14,0,-1,2,1,1,-1
+Dagger,Daggers,18,2,15,0,-1,3,0,0,-1
+Miscellaneous,,19,4,0,0,-1,512,1,0,-1
+Cloth,Cloth,20,4,1,0,-1,512,0,0,-1
+Leather,Leather,21,4,2,0,-1,512,0,0,-1
+Mail,Mail,22,4,3,0,-1,512,0,0,-1
+Plate,Plate,23,4,4,0,-1,512,0,0,-1
+Cosmetic,Cosmetic,24,4,5,0,-1,0,1,0,-1
+Shield,Shields,25,4,6,0,5,0,0,0,-1
+Wand(OBSOLETE),,26,6,0,0,-1,0,3,0,-1
+Bolt(OBSOLETE),,27,6,1,0,-1,0,2,0,-1
+Arrow,,28,6,2,0,-1,0,0,0,-1
+Bullet,,29,6,3,0,-1,0,0,0,-1
+Quiver(OBSOLETE),,30,11,0,0,-1,0,7,0,-1
+Quiver(OBSOLETE),,31,11,1,0,-1,0,7,0,-1
+Quiver,,32,11,2,0,-1,0,4,0,-1
+Ammo Pouch,,33,11,3,0,-1,0,4,0,-1
+Thrown,Thrown,34,2,16,0,-1,16,0,1,-1
+Thrown(OBSOLETE),,35,6,4,0,-1,64,2,0,-1
+Jewelry(OBSOLETE),,36,3,0,0,-1,0,1,0,-1
+Trade Goods,,37,7,0,0,-1,0,1,0,-1
+Parts,,38,7,1,0,-1,0,1,0,-1
+Explosives,,39,7,2,0,-1,0,1,0,-1
+Book,,40,9,0,0,-1,0,1,0,-1
+Leatherworking,,41,9,1,0,-1,0,1,0,-1
+Tailoring,,42,9,2,0,-1,0,1,0,-1
+Consumable,,43,0,0,0,-1,0,1,0,-1
+Cheese/Bread(OBSOLETE),,44,0,1,0,-1,0,1,0,-1
+Liquid(OBSOLETE),,45,0,2,0,-1,0,1,0,-1
+Spear,Spears,46,2,17,0,-1,3,2,2,-1
+Money(OBSOLETE),,47,10,0,0,-1,0,1,0,-1
+Generic(OBSOLETE),,48,8,0,0,-1,0,1,0,-1
+Quest,,49,12,0,0,-1,0,1,0,-1
+Reagent,,50,5,0,0,-1,0,1,0,-1
+Permanent,,51,14,0,0,-1,0,1,0,-1
+Junk,,52,15,0,0,-1,0,1,0,-1
+Key,,53,13,0,0,-1,0,1,0,-1
+Lockpick,,54,13,1,0,-1,0,1,0,-1
+Crossbow,Crossbows,55,2,18,0,-1,160,0,1,-1
+Wand,Wands,56,2,19,0,-1,256,0,1,-1
+Fishing Pole,Fishing Pole,57,2,20,0,-1,0,0,2,-1
+Devices,,77,7,3,0,-1,0,1,0,-1
+Engineering,,99,9,3,0,-1,0,1,0,-1
+Blacksmithing,,100,9,4,0,-1,0,1,0,-1
+Cooking,,101,9,5,0,-1,0,1,0,-1
+Alchemy,,102,9,6,0,-1,0,1,0,-1
+First Aid,,103,9,7,0,-1,0,1,0,-1
+Enchanting,,104,9,8,0,-1,0,1,0,-1
+Fishing,,105,9,9,0,-1,0,1,0,-1
+Soul Bag,,107,1,1,0,-1,0,4,0,-1
+Herb Bag,,109,1,2,0,-1,0,0,0,-1
+Enchanting Bag,,110,1,3,0,-1,0,0,0,-1
+Engineering Bag,,111,1,4,0,-1,0,2,0,-1
+Libram,Librams,112,4,7,0,-1,0,0,0,-1
+Idol,Idols,113,4,8,0,-1,0,0,0,-1
+Totem,Totems,114,4,9,0,-1,0,0,0,-1
