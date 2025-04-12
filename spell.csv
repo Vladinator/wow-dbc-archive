@@ -27760,7 +27760,7 @@ $@spellicon440802
 $@spelldesc440802",
 440870,,"Your Soul Fire spell no longer has a cooldown. Additionally, when your Shadow Bolt, Shadow Cleave, Incinerate, or Soul Fire hits a target that is at or below $s2% health, the cast time of your Soul Fire spell is reduced by $s1% for $440873d. Soul Fires cast under the effect of Decimation cost no shard.",
 440873,,,"Your Soul Fire cast time is reduced by $s1%, and costs no shard."
-440882,,"Your spirit becomes infused with demonic energy, reducing all Magic damage you take by a percentage equal to your Physical damage reduction from armor. Lasts $d.",Magical damage taken is reduced by $w1%.
+440882,,"Your spirit becomes infused with demonic energy, reducing all Magic damage you take by a percentage equal to $s2% of your Physical damage reduction from armor. Lasts $d.",Magical damage taken is reduced by $w1%.
 440892,,"All your Curses except Curse of Shadow and Curse of the Elements now apply the Mark of Chaos, reducing the target's Arcane, Fire, Frost, Nature, and Shadow resistances by ${$max($min($PL+19,75),27)} and increasing all spell damage taken from those schools by ${$max($min(($PL-8)*0.125+4,10),4)}% while they remain cursed.",
 440895,,,Your next single-target non-periodic spell gains $s1% increased critical strike chance.
 440922,,"Engrave your boots with the Decimation rune:
@@ -33476,6 +33476,7 @@ Damage taken increased by $s1%."
 Cannot be cast in combat.",
 1221341,,$@spelldesc1221337,Stealthed while you remain close to your hiding spot.
 1221342,,,
+1221363,,,
 1221404,,"Exposes all hidden and invisible enemies within $a1 yards of the targeted area, and staves off magical darkness for $d.",Hidden and invisible units are revealed.
 1221416,,"Exposes all hidden and invisible enemies within $a1 yards of the targeted area, and staves off magical darkness for $d.",Hidden and invisible units are revealed.
 1221418,,,
@@ -34314,7 +34315,7 @@ Armor increased by $s2."
 Melee attack speed increased by $s2%."
 1231267,,"Firing a regular ranged attack at a target prepares you for battle, increasing your Defense by $1231266s1 and melee attack speed by $1231266s2% for $1231266d.",
 1231272,,Throw spoiled food at the target to deal physical damage.,
-1231273,,,Suffering $p1 of your Maximum Health as Shadow damage every $t1 seconds.
+1231273,,,Suffering $S1 of your Maximum Health as Shadow damage every $t1 seconds.
 1231278,,,"Pursued by Manadar, who'll unleash a powerful attack if he gets close."
 1231280,,Root an enemy to the ground for $d and deal $s1% of their maximum health every $t1 sec.,Rooted and suffering $w1% maximum health every $t1 sec.
 1231281,,,
@@ -34738,6 +34739,7 @@ Screeching Terrors become Enraged if hit."
 1232401,,,
 1232402,,,
 1232406,Rank 1,Puts the caster in stealth mode. Lasts until cancelled.,Stealthed.
+1232438,,Combine $s2 fragments to repair the Crusader's Chalice.,
 1232462,,,
 1232463,,,
 1232464,,,
@@ -34792,7 +34794,6 @@ Movement speed decreased by $s3%."
 1232762,,Inflicts $s1 Fire damage to an enemy.,$s2 Fire damage is inflicted every $t2s.
 1232764,,,
 1232770,,,
-1232791,,,
 1232795,,,
 1232816,,,
 1232817,,,
@@ -34988,96 +34989,6 @@ Leaves behind a pool of noxious poison when removed."
 1234962,,,
 1234964,,,
 1234965,,,
-1235104,,,
-1235116,,Take on the guise of a ninja assassin.,
-1235119,,Take on the guise of a ninja assassin.,
-1235122,,Take on the guise of a ninja assassin.,
-1235126,,Returns you to Light's Hope Chapel.,
-1235132,,,
-1235133,,,
-1235139,,,
-1235140,,,
-1235141,,,
-1235181,,,
-1235190,,,The end of an epoch is nigh!
-1236151,Rank 9,Heals the target of $o1 damage over $d.,Healing $s1 damage every $t1 seconds.
-1235321,,"Inflicts $s1 Fire damage and an additional $s2 Fire damage every $t2 sec for $d.
-",Inflicts $s2 Fire damage every $t2 sec.
-1235322,,Imbued weapons now cause melee attacks to inflict $1230996s1 additional Fire damage.,Weapons are imbued with fire.
-1235413,,,
-1235320,,"$?a435884[Chance on hit to cause your next $1232893u instances of Nature damage to be increased by $1231456s1%.  Lasts $1232893d.]?a446658[Chance on hit to cause your next $1235336u instances of Cleave damage to be increased by $1235337s1%. Lasts $1235336d.]?a446374[Chance on hit to cause your next $1235341u instances of Raptor Strike damage to be increased by $1235344s1%. Lasts $1235341d.]?a462814[Chance on hit to cause your next $1235348u instances of Holy damage to be increased by $1235349s1%. Lasts $1235348d.][The Crimson Cleaver does not respond to your presence, maybe another class could benefit from this?]",
-1235330,,,
-1235335,,,
-1235336,,Your next $u instances of Cleave damage are increased by $s1%.  Lasts $d.,Cleave damage dealt increased by ${$s1/$m2}%.
-1235337,,,
-1235340,,,
-1235341,,Your next $u instances of Raptor Strike damage are increased by $s1%.  Lasts $d.,Raptor Strike damage dealt increased by ${$s1/$m2}%.
-1235344,,,
-1235347,,,
-1235348,,Your next $u instances of Holy damage are increased by $s1%.  Lasts $d.,Holy damage dealt increased by ${$s1/$m2}%.
-1235349,,,
-1235351,,$?a435884[Chance on hit to cause your next $1235353u instances of Fire damage to be increased by $1232890s1%. Lasts $1235353d.]?a446658[Chance on hit to cause your next $1235355u instances of Whirlwind damage to be increased by $1235357s1%. Lasts $1235355d.]?a446374[Chance on hit to cause your next $1235359u instances of damage from your pet's special abilities to be increased by $1235361s1%. Lasts $1235359d.][],
-1235354,,,
-1235355,,Your next $u instances of Whirlwind damage are increased by $s1%.  Lasts $d.,Whirlwind damage dealt increased by ${$s1/$m2}%.
-1235357,,,
-1235358,,,
-1235359,,Your next $u instances of damage from your pet's special abilities are increased by $s1%.  Lasts $d.,Pet special ability damage dealt increased by ${$s1/$m2}%.
-1235361,,,
-1235390,,Your next $u instances of damage from your pet's special abilities are increased by $s1%.  Lasts $d.,Pet special ability damage dealt increased by ${$s1/$m2}%.
-1235492,,,
-1235570,,,
-1235571,,,
-1235703,,,
-1235421,,"Causes an explosion of arcane magic around the caster, causing $s1 Arcane damage to all targets within $a1 yards.",
-1235537,,,
-1235539,,,
-1235538,,"Charges an enemy, inflicting normal damage plus $s3 and stuns the opponent for $d.",
-1235263,,,
-1235317,,"Burns an enemy, then inflicts additional Fire damage every $t1 sec. for $d.",Fire damage inflicted every $t1 sec.
-1235318,,"Unleashes a wave of flame, inflicting Fire damage to nearby enemies and reducing their movement speed for $d.",Reduced movement speed.
-1235327,,,"Maximum health reduced by $s1%
-Deals $s2 nature damage every $t2 seconds."
-1235328,,Decreases the Magical damage dealt by the target by $s1 for $d.,Magical damage dealt is reduced by $s1%.
-1235777,,,
-1235681,,Increases the damage caused by your Ferocious Bite by $s1%.,
-1235705,,,
-1235708,,,
-1235689,,,
-1235493,,Casts a spell when you do something.,
-1235353,,Your next $u instances of Fire damage are increased by $s1%.  Lasts $d.,Fire damage dealt increased by ${$s1/$m2}%.
-1235749,,,
-1235793,,Reduces damage from falling.,
-1235880,,,
-1235882,,,
-1236153,Rank 7,Heals a friendly target for $s1.,
-1236154,Rank 10,"Draws on the soul of the party member to shield them, absorbing $s1 damage.  Lasts $d.  While the shield holds, spellcasting will not be interrupted by damage.  Once shielded, the target cannot be shielded again for $6788d.",Absorbs damage.
-1236156,Rank 2,"Dispels magic on the target, removing $s1 harmful $lspell:spells; from a friend or $s1 beneficial $lspell:spells; from an enemy.",
-1236159,,Smite a target for $s1 Holy damage.,
-1236162,,Consumes the target in holy flames that cause $s1 Holy damage and an additional $s2 Holy damage every $t2 sec for $d.,$s2 Holy damage inflicted every $t2 sec.
-1236172,,Inflicts Fire damage to an enemy.,
-1236173,,"Inflicts Fire damage to an enemy, then additional damage every $t2 sec. for $d.",Fire damage inflicted every $t2 sec.
-1236174,,"Transforms an enemy into a sheep, forcing it to wander around for up to $d. While wandering, the sheep cannot attack or cast spells, but regenerates very quickly. Any damage will transform the target back into its normal form. Only one target can be polymorphed at a time. Only works on beasts, dragons, giants, humanoids, and critters.","Cannot attack or cast spells.
-Health regeneration increased."
-1236175,,Teleports the caster 20 yd. forward unless something is in the way. Also frees the caster from any bonds.,Blinking...
-1236176,,Disarm the enemy's weapon for $d.,Disarmed!
-1236177,Rank 3,"Maims the enemy, causing $s1 damage and slowing the enemy's movement by $s2% for $d.",Movement slowed by $s2%.
-1236179,,"Inflicts $s2 damage to an enemy, stunning it for $d.",Stunned.
-1236181,,Calls upon Holy magic to heal an ally.,
-1236182,,Inflicts $s1 damage to an enemy and increases the Holy damage it takes by $s2 per Crusader Strike. Can be applied up to 5 times. Lasts $d.,Holy damage taken is increased.
-1236183,,"Inflicts weapon damage plus $s1 to an enemy and its nearest allies, affecting up to $x1 targets.",
-1236188,Rank 6,An aimed shot that increases ranged damage by $s1.,
-1236190,,"Fires a volley of missiles at an enemy and its nearby allies, striking up to $x1 targets for normal damage plus $s1.",
-1236191,,"Dazes an enemy, reducing its movement speed by $s1% for $d.",Movement speed reduced by $s1%.
-1236266,,Creates $s1 Explosive Sheep that $lcharges:charge; the nearest $lenemy:enemies; and $lexplodes:explode;. Explosive Sheep are unstable and will self-destruct after $d.,
-1236267,,,
-1236268,,,
-1236269,,Inflicts $s1 Fire damage to all enemies in a selected area.,
-1236270,,Deals $13184s1 fire damage for $d to all targets in a cone in front of the engineer using the weapon.   That is unless it explodes.....,
-1236271,,,
-1236287,,Consumes the target in holy flames that cause $s1 Holy damage and an additional $s2 Holy damage every $t2 sec for $d.,$s2 Holy damage inflicted every $t2 sec.
-1236290,,"Transforms an enemy into a sheep, forcing it to wander around for up to $d. While wandering, the sheep cannot attack or cast spells, but regenerates very quickly. Any damage will transform the target back into its normal form. Only one target can be polymorphed at a time. Only works on beasts, dragons, giants, humanoids, and critters.","Cannot attack or cast spells.
-Health regeneration increased."
-1236291,,"Inflicts Fire damage to an enemy, then additional damage every $t2 sec. for $d.",Fire damage inflicted every $t2 sec.
 1234967,,,
 1234968,,,
 1234972,,,
@@ -35104,7 +35015,98 @@ Health regeneration increased."
 1235003,,,
 1235004,,,
 1235011,,Attaches a permanent scope to a bow or gun that increases its damage by 10.,
+1235104,,,
+1235116,,Take on the guise of a ninja assassin.,
+1235119,,Take on the guise of a ninja assassin.,
+1235122,,Take on the guise of a ninja assassin.,
+1235126,,Returns you to Light's Hope Chapel.,
+1235132,,,
+1235133,,,
+1235139,,,
+1235140,,,
+1235141,,,
+1235181,,,
+1235190,,,The end of an epoch is nigh!
+1235263,,,
+1235317,,"Burns an enemy, then inflicts additional Fire damage every $t1 sec. for $d.",Fire damage inflicted every $t1 sec.
+1235318,,"Unleashes a wave of flame, inflicting Fire damage to nearby enemies and reducing their movement speed for $d.",Reduced movement speed.
+1235320,,"$?a435884[Chance on hit to cause your next $1232893u instances of Nature damage to be increased by $1231456s1%.  Lasts $1232893d.]?a446658[Chance on hit to cause your next $1235336u instances of Cleave damage to be increased by $1235337s1%. Lasts $1235336d.]?a446374[Chance on hit to cause your next $1235341u instances of Raptor Strike damage to be increased by $1235344s1%. Lasts $1235341d.]?a462814[Chance on hit to cause your next $1235348u instances of Holy damage to be increased by $1235349s1%. Lasts $1235348d.][The Crimson Cleaver does not respond to your presence, maybe another class could benefit from this?]",
+1235321,,"Inflicts $s1 Fire damage and an additional $s2 Fire damage every $t2 sec for $d.
+",Inflicts $s2 Fire damage every $t2 sec.
+1235322,,Imbued weapons now cause melee attacks to inflict $1230996s1 additional Fire damage.,Weapons are imbued with fire.
+1235327,,,"Maximum health reduced by $s1%
+Deals $s2 nature damage every $t2 seconds."
+1235328,,Decreases the Magical damage dealt by the target by $s1 for $d.,Magical damage dealt is reduced by $s1%.
+1235330,,,
+1235335,,,
+1235336,,Your next $u instances of Cleave damage are increased by $s1%.  Lasts $d.,Cleave damage dealt increased by ${$s1/$m2}%.
+1235337,,,
+1235340,,,
+1235341,,Your next $u instances of Raptor Strike damage are increased by $s1%.  Lasts $d.,Raptor Strike damage dealt increased by ${$s1/$m2}%.
+1235344,,,
+1235347,,,
+1235348,,Your next $u instances of Holy damage are increased by $s1%.  Lasts $d.,Holy damage dealt increased by ${$s1/$m2}%.
+1235349,,,
+1235351,,$?a435884[Chance on hit to cause your next $1235353u instances of Fire damage to be increased by $1232890s1%. Lasts $1235353d.]?a446658[Chance on hit to cause your next $1235355u instances of Whirlwind damage to be increased by $1235357s1%. Lasts $1235355d.]?a446374[Chance on hit to cause your next $1235359u instances of damage from your pet's special abilities to be increased by $1235361s1%. Lasts $1235359d.][],
+1235353,,Your next $u instances of Fire damage are increased by $s1%.  Lasts $d.,Fire damage dealt increased by ${$s1/$m2}%.
+1235354,,,
+1235355,,Your next $u instances of Whirlwind damage are increased by $s1%.  Lasts $d.,Whirlwind damage dealt increased by ${$s1/$m2}%.
+1235357,,,
+1235358,,,
+1235359,,Your next $u instances of damage from your pet's special abilities are increased by $s1%.  Lasts $d.,Pet special ability damage dealt increased by ${$s1/$m2}%.
+1235361,,,
+1235390,,Your next $u instances of damage from your pet's special abilities are increased by $s1%.  Lasts $d.,Pet special ability damage dealt increased by ${$s1/$m2}%.
+1235413,,,
+1235421,,"Causes an explosion of arcane magic around the caster, causing $s1 Arcane damage to all targets within $a1 yards.",
+1235473,,,
+1235492,,,
+1235493,,Casts a spell when you do something.,
+1235537,,,
+1235538,,"Charges an enemy, inflicting normal damage plus $s3 and stuns the opponent for $d.",
+1235539,,,
+1235570,,,
+1235571,,,
+1235681,,Increases the damage caused by your Ferocious Bite by $s1%.,
+1235689,,,
+1235703,,,
+1235705,,,
+1235708,,,
+1235749,,,
+1235777,,,
+1235793,,Reduces damage from falling.,
+1235880,,,
+1235882,,,
+1236125,,Inflicts $s1 damage to an enemy every $t1 sec. for $d.,$s1 damage inflicted every $t1 sec.
+1236151,Rank 9,Heals the target of $o1 damage over $d.,Healing $s1 damage every $t1 seconds.
+1236152,,"
+
+",
+1236153,Rank 7,Heals a friendly target for $s1.,
+1236154,Rank 10,"Draws on the soul of the party member to shield them, absorbing $s1 damage.  Lasts $d.  While the shield holds, spellcasting will not be interrupted by damage.  Once shielded, the target cannot be shielded again for $6788d.",Absorbs damage.
+1236156,Rank 2,"Dispels magic on the target, removing $s1 harmful $lspell:spells; from a friend or $s1 beneficial $lspell:spells; from an enemy.",
+1236157,,"
+
+",
+1236159,,Smite a target for $s1 Holy damage.,
+1236162,,Consumes the target in holy flames that cause $s1 Holy damage and an additional $s2 Holy damage every $t2 sec for $d.,$s2 Holy damage inflicted every $t2 sec.
+1236172,,Inflicts Fire damage to an enemy.,
+1236173,,"Inflicts Fire damage to an enemy, then additional damage every $t2 sec. for $d.",Fire damage inflicted every $t2 sec.
+1236174,,"Transforms an enemy into a sheep, forcing it to wander around for up to $d. While wandering, the sheep cannot attack or cast spells, but regenerates very quickly. Any damage will transform the target back into its normal form. Only one target can be polymorphed at a time. Only works on beasts, dragons, giants, humanoids, and critters.","Cannot attack or cast spells.
+Health regeneration increased."
+1236175,,Teleports the caster 20 yd. forward unless something is in the way. Also frees the caster from any bonds.,Blinking...
+1236176,,Disarm the enemy's weapon for $d.,Disarmed!
+1236177,Rank 3,"Maims the enemy, causing $s1 damage and slowing the enemy's movement by $s2% for $d.",Movement slowed by $s2%.
+1236179,,"Inflicts $s2 damage to an enemy, stunning it for $d.",Stunned.
+1236181,,Calls upon Holy magic to heal an ally.,
+1236182,,Inflicts $s1 damage to an enemy and increases the Holy damage it takes by $s2 per Crusader Strike. Can be applied up to 5 times. Lasts $d.,Holy damage taken is increased.
+1236183,,"Inflicts weapon damage plus $s1 to an enemy and its nearest allies, affecting up to $x1 targets.",
+1236188,Rank 6,An aimed shot that increases ranged damage by $s1.,
+1236190,,"Fires a volley of missiles at an enemy and its nearby allies, striking up to $x1 targets for normal damage plus $s1.",
+1236191,,"Dazes an enemy, reducing its movement speed by $s1% for $d.",Movement speed reduced by $s1%.
 1236217,,Attaches a permanent scope to a bow or gun that increases its damage by 10.,
+1236220,,"Increases the time between nearby enemies' attacks by $s1%, slows their movement by $s2%, and slow casting speed by $s3% for $d.","Time between attacks increased by $s1%.
+Movement speed reduced by $s2%.
+Casting speed reduced by $s3%."
 1236221,,,
 1236222,,,
 1236223,,,
@@ -35123,6 +35125,25 @@ Health regeneration increased."
 1236241,,,
 1236242,,,
 1236246,,,
+1236265,,,Shrouded in darkness.
+1236266,,Creates $s1 Explosive Sheep that $lcharges:charge; the nearest $lenemy:enemies; and $lexplodes:explode;. Explosive Sheep are unstable and will self-destruct after $d.,
+1236267,,,
+1236268,,,
+1236269,,Inflicts $s1 Fire damage to all enemies in a selected area.,
+1236270,,Deals $13184s1 fire damage for $d to all targets in a cone in front of the engineer using the weapon.   That is unless it explodes.....,
+1236271,,,
+1236287,,Consumes the target in holy flames that cause $s1 Holy damage and an additional $s2 Holy damage every $t2 sec for $d.,$s2 Holy damage inflicted every $t2 sec.
+1236290,,"Transforms an enemy into a sheep, forcing it to wander around for up to $d. While wandering, the sheep cannot attack or cast spells, but regenerates very quickly. Any damage will transform the target back into its normal form. Only one target can be polymorphed at a time. Only works on beasts, dragons, giants, humanoids, and critters.","Cannot attack or cast spells.
+Health regeneration increased."
+1236291,,"Inflicts Fire damage to an enemy, then additional damage every $t2 sec. for $d.",Fire damage inflicted every $t2 sec.
+1236306,,,"Damage increased by $s2%. Periodically, divine bolts will rain down on nearby enemies."
+1236307,,Heals an ally every $t1 sec. for $d.,Damage healed every $t1 sec.
+1236308,,Thorns sprout from the friendly target causing $s1 Nature damage to attackers when hit.  Lasts $d.,Causes $s1 Nature damage to attackers.
+1236318,,,
+1236326,,,
+1236339,,,Shrouded in darkness. Suffering $s1 Shadow damage every $t1 sec. Movement removes this affect but causes you to take additional damage.
+1236340,,"A chilling, magical darkness washes over you... ","A chilling, magical darkness washes over you..."
+1236393,,,
 1236510,,,
 1236511,,,
 1236516,,,
@@ -35154,15 +35175,11 @@ Health regeneration increased."
 1236545,,,
 1236546,,,
 1236547,,,
-1236307,,Heals an ally every $t1 sec. for $d.,Damage healed every $t1 sec.
-1236308,,Thorns sprout from the friendly target causing $s1 Nature damage to attackers when hit.  Lasts $d.,Causes $s1 Nature damage to attackers.
-1236318,,,
-1236326,,,
+1236641,,,
+1236642,,,
 1236655,,,Stunned.
 1236656,,,Stunned.
 1236675,,,Stunned.
-1236393,,,
-1232438,,Combine $s2 fragments to repair the Crusader's Chalice.,
 1236799,,,
 1236813,,,
 1236814,,,
@@ -35188,9 +35205,32 @@ Health regeneration increased."
 1236847,,,
 1236848,,,
 1236879,Rank 1,Increase the Spirit of nearby party members by $M1.,
+1236884,,,
 1236922,,,
 1237045,,$@spelldesc1232177,Immune to silence.
-1235473,,,
-1237155,,"Acid rain falls from above, inflicting $s1 Nature damage to players struck.",Stunned.
+1237114,,,
 1237147,,Throw the Incendiary Bomb at a nearby Ballista.,
+1237155,,"Acid rain falls from above, inflicting $s1 Nature damage to players struck.",Stunned.
 1237171,,The molten earth deals $s1 Radiant damage every $t1 second.,The molten earth deals $s1 Radiant damage every $t1 second.
+1237317,,,
+1237323,,,
+1237324,,,
+1237364,,,
+1237375,,,
+1237618,,,20% of Shadow spell damage taken heals caster.
+1237632,Summon,"Leap atop your charger for $d, increasing movement speed by $s2%. Usable while indoors or in combat.",Increases speed by $s2%.
+1237720,,,Cannot attack or use spells.
+1235805,,,
+1237635,,,
+1237636,,,
+1237638,,,
+1237701,,,
+1237702,,,
+1237762,,,
+1237763,,,
+1237764,,,
+1237862,,,
+1237922,,,
+1237938,,"Shoots poison at an enemy, inflicting Nature damage, then additional damage every $t2 sec. for $d.",Deals $s2 nature damage every $t2 sec.
+1237939,,,Attack speed increased by $s1%.
+1237976,,,
