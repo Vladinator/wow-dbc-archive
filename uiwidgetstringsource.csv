@@ -5837,19 +5837,19 @@ ID,Value_lang,ReqID,ParentWidgetID
 11603,,19,4305
 11604,Diluu's Health: %21928w%,273,4305
 11605,,208,4305
-11606,Soup Quality: |cFF888888Poor|r,19,4306
+11606,Soup Quality: |cnIQ0:Poor|r,19,4306
 11607,Protect the Soup!,273,4306
 11608,"The better the smell, the better the soup... and the greater the danger!",208,4306
-11609,Soup Quality: |cFFFFFFFFCommon|r,19,4307
+11609,Soup Quality: |cnIQ1:Common|r,19,4307
 11610,Protect the Soup!,273,4307
 11611,"The better the smell, the better the soup... and the greater the danger!",208,4307
-11612,Soup Quality: |cFF1EFF00Uncommon|r,19,4308
+11612,Soup Quality: |cnIQ2:Uncommon|r,19,4308
 11613,Protect the Soup!,273,4308
 11614,"The better the smell, the better the soup... and the greater the danger!",208,4308
-11615,Soup Quality: |cFF0070DDRare|r,19,4309
+11615,Soup Quality: |cnIQ3:Rare|r,19,4309
 11616,Protect the Soup!,273,4309
 11617,"The better the smell, the better the soup... and the greater the danger!",208,4309
-11618,Soup Quality: |cFFA335EEEpic|r,19,4310
+11618,Soup Quality: |cnIQ4:Epic|r,19,4310
 11619,Protect the Soup!,273,4310
 11620,"The better the smell, the better the soup... and the greater the danger!",208,4310
 11621,,212,4311
@@ -5983,7 +5983,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 11756,,273,4343
 11757,,208,4343
 11758,"The better the smell, the better the soup... and the greater the danger!",208,4344
-11759,Soup Quality: |cFFFF8000Legendary (%38830e)|r,19,4344
+11759,Soup Quality: |cnIQ5:Legendary (%38830e)|r,19,4344
 11760,Protect the Soup!,273,4344
 11761,,212,4345
 11762,,277,4345
@@ -6264,11 +6264,11 @@ ID,Value_lang,ReqID,ParentWidgetID
 12100,,394,4481
 12101,Rewards available:,52,4482
 12102,,394,4482
-12103,|TInterface\ICONS\inv_misc_coinbag10.BLP:24|t  |cFFC845FAMaruuk Hunt Spoils|r,52,4483
+12103,|TInterface\ICONS\inv_misc_coinbag10.BLP:24|t  |cnIQ4:Maruuk Hunt Spoils|r,52,4483
 12104,,394,4483
-12105,|TInterface\ICONS\inv_misc_coinbag10.BLP:24|t  |cFF0091F2Maruuk Hunt Spoils|r,52,4484
+12105,|TInterface\ICONS\inv_misc_coinbag10.BLP:24|t  |cnIQ3:Maruuk Hunt Spoils|r,52,4484
 12106,,394,4484
-12107,|TInterface\ICONS\inv_misc_coinbag10.BLP:24|t  |cFF15B300Maruuk Hunt Spoils|r,52,4485
+12107,|TInterface\ICONS\inv_misc_coinbag10.BLP:24|t  |cnIQ2:Maruuk Hunt Spoils|r,52,4485
 12108,,394,4485
 12111,Rewards available:,52,4487
 12112,,394,4487
@@ -9138,7 +9138,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 17304,,277,6180
 17305,|Hspell:462453|h|cnDARKYELLOW_FONT_COLOR:Time Left: %25434ha|r|n|n%453315sd,212,6181
 17306,,277,6181
-17307,Defeat enemies within the memory to earn:|n- |TInterface\ICONS\INV_Gizmo_HardenedAdamantiteTube.blp:15|t |cFF0091F2[Coffer Key Shards]|r|n- |TInterface\ICONS\INV_Valorstone_Base.BLP:15|t |cFF0091F2[Valorstones]|r,52,6182
+17307,Defeat enemies within the memory to earn:|n- |TInterface\ICONS\INV_Gizmo_HardenedAdamantiteTube.blp:15|t |cnIQ3:[Coffer Key Shards]|r|n- |TInterface\ICONS\INV_Valorstone_Base.BLP:15|t |cnIQ3:[Valorstones]|r,52,6182
 17308,,394,6182
 17309,%ss,677,6183
 17310,%24429w,679,6183
@@ -9318,7 +9318,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 17487,,622,6267
 17488,"Contains materials for upgrading gear, gold, and more.",627,6267
 17489,%0ss,433,6268
-17490,[DNT] Scenario Time Remaining,434,6268
+17490,Time until the counter attack begins.,434,6268
 17491,Time Left %25452xa,52,5542
 17492,,394,5542
 17493,Time Left %25453xa,52,5543
@@ -9354,12 +9354,12 @@ ID,Value_lang,ReqID,ParentWidgetID
 17546,Explosives,19,6279
 17547,,273,6279
 17548,,208,6279
-17549,[DNT] Content Steps Progress,19,6280
+17549,Overall Mission Progress:,19,6280
 17550,,273,6280
-17551,,208,6280
-17552,[DNT] Player Rewards Progress,19,6281
+17551,Nightfall progresses to the final battle when all objectives have been completed or the timer reaches zero.,208,6280
+17552,Service Award:,19,6281
 17553,,273,6281
-17554,,208,6281
+17554,Contribute to Nightfall objectives to improve your service rating and earn better rewards.,208,6281
 17555,Excavation,19,6282
 17556,,273,6282
 17557,,208,6282
@@ -9371,13 +9371,13 @@ ID,Value_lang,ReqID,ParentWidgetID
 17563,[DNT] Total Time Remaining: %44535e,52,6285
 17564,,394,6285
 17565,%0ss,433,6286
-17566,[DNT] Content Time Remaining,434,6286
+17566,Time until the final battle begins if the counter attack fails.,434,6286
 17567,%0ss,433,6287
-17568,[DNT] Climax Time Remaining,434,6287
+17568,Time for the final battle!,434,6287
 17569,%0ss,433,6288
-17570,[DNT] Shutdown Time Remaining,434,6288
+17570,Flame's Radiance are withdrawing from the battlefield.,434,6288
 17571,%0ss,433,6289
-17572,[DNT] Rally Time Remaining,434,6289
+17572,Time to fallback to the rallying point.,434,6289
 17573,Return to the Dawnbreaker.,52,6290
 17574,Return to the Dawnbreaker.,394,6290
 17575,Trash Shoveled,19,6291
@@ -9600,6 +9600,18 @@ ID,Value_lang,ReqID,ParentWidgetID
 17992,Charges Remaining,19,6382
 17993,,273,6382
 17994,,208,6382
+17995,Next attack: %27062ha,52,6507
+17996,,394,6507
+17997,Counter attack begins in: %26985x,52,6570
+17998,,394,6570
+17999,The counter attack has begun.,52,6571
+18000,,394,6571
+18001,Flame's Radiance is rallying for the final battle.,52,6572
+18002,,394,6572
+18003,The final battle has begun.,52,6573
+18004,,394,6573
+18005,Flame's Radiance is withdrawing: %27021x,52,6574
+18006,,394,6574
 18007,,19,6575
 18008,|Hspell:471749|h,208,6575
 18009,,273,6575
@@ -9649,6 +9661,11 @@ ID,Value_lang,ReqID,ParentWidgetID
 18059,,394,6598
 18060,Complete Legacy of the Vrykul to unlock.,52,6599
 18061,,394,6599
+18062,,540,6596
+18063,,541,6596
+18064,High,19,6596
+18065,,273,6596
+18066,High Score,208,6596
 18069,Complete %45197e |4world quest:world quests; in Undermine to unlock,52,6602
 18070,,394,6602
 18071,Time Left: %27248ht,52,6603
@@ -9672,6 +9689,11 @@ ID,Value_lang,ReqID,ParentWidgetID
 18089,Return to Khadgar in:,19,6610
 18090,,273,6610
 18091,,208,6610
+18092,,540,6611
+18093,,541,6611
+18094,Last,19,6611
+18095,,273,6611
+18096,Last Score,208,6611
 18097,Shovel trash to find treasure!,52,6612
 18098,,394,6612
 18104,Speak to Carlo Greasegrind to start the job.,52,6614
@@ -9701,6 +9723,11 @@ ID,Value_lang,ReqID,ParentWidgetID
 18177,,19,6640
 18178,Oil Tank,273,6640
 18179,Oil Tank,208,6640
+18180,,540,6641
+18181,,541,6641
+18182,,19,6641
+18183,,273,6641
+18184,Score gained form damaging enemies,208,6641
 18203,Time Remaining: %27582x,52,6613
 18204,,394,6613
 18205,,19,6649
@@ -9741,8 +9768,43 @@ ID,Value_lang,ReqID,ParentWidgetID
 18268,,19,6668
 18269,,208,6668
 18270,,273,6668
+18271,|cffff2020 Warning! This area is very challenging. |nObtain further Steeled Mind upgrades to improve your resistance.,52,6670
+18272,,394,6670
+18273,,394,6671
+18274,|cffff2020 Warning! This area is very challenging. |nObtain further Steeled Mind upgrades to improve your resistance.,52,6671
+18275,,394,6672
+18276,|cffff2020 Warning! This area is very challenging. |nObtain further Steeled Mind upgrades to improve your resistance.,52,6672
+18277,,394,6673
+18278,|cffff2020 Warning! This area is very challenging. |nObtain further Steeled Mind upgrades to improve your resistance.,52,6673
+18279,,394,6674
+18280,|cffff2020 Warning! This area is very challenging. |nObtain further Steeled Mind upgrades to improve your resistance.,52,6674
+18281,,394,6675
+18282,|cffff2020 Warning! This area is very challenging. |nObtain further Steeled Mind upgrades to improve your resistance.,52,6675
+18283,,394,6676
+18284,|cffff2020 Warning! This area is very challenging. |nObtain further Steeled Mind upgrades to improve your resistance.,52,6676
+18285,,394,6677
+18286,|cffff2020 Warning! This area is very challenging. |nObtain further Steeled Mind upgrades to improve your resistance.,52,6677
+18289,,540,6679
+18290,,541,6679
+18291,Collected,19,6679
+18292,,273,6679
+18293,High Score,208,6679
+18302,X2 Score!,52,6681
+18303,Enemies award double points inside the circle,394,6681
 18304,%0ss,433,6682
 18305,,434,6682
+18306,Cheery Bomb Cheers,52,6683
+18307,,394,6683
+18308,,540,6684
+18309,,541,6684
+18310,,19,6684
+18311,,273,6684
+18312,,208,6684
+18313,,540,6686
+18314,,541,6686
+18315,,19,6686
+18316,,273,6686
+18317,,208,6686
 18324,"Some might take issue with the ways Venture Co. acquires its resources, but no industry can run without materials. You want nice, find a book club. You want to build something, Venture Co.'s got what you need.",52,6690
 18325,,394,6690
 18326,"The Blackwater pirates might be a newer cartel, but they're already making waves in the shipping and luxury vacation industries. They can move any cargo, anywhere, any time, and now it's all nice and legal. Well, mostly legal.",52,6692
@@ -9757,6 +9819,15 @@ ID,Value_lang,ReqID,ParentWidgetID
 18344,,19,6702
 18345,,273,6702
 18346,You are a nigh-unstoppable sphere of pure garbage!,208,6702
+18347,,540,6703
+18348,,541,6703
+18349,,19,6703
+18350,,273,6703
+18351,,208,6703
+18355,Kill ALL Trash,52,6705
+18356,Kill all trash to summon the bosses.,394,6705
+18360,+  ,52,6707
+18361,,394,6707
 18382,Completed %45862e/4,52,6717
 18383,,394,6717
 18384,"|cnWHITE_FONT_COLOR:Gilded Stash|r|nUpon delve completion with lives remaining, a Gilded Stash will appear in the treasure room, containing 7 Gilded Crests.|n|n|cnWHITE_FONT_COLOR:Gilded Stash looted: %35pdc/3 |nResets weekly.",212,6718
@@ -9783,6 +9854,8 @@ ID,Value_lang,ReqID,ParentWidgetID
 18405,0,277,6728
 18406,"|cnWHITE_FONT_COLOR:Gilded Stash|r|nUpon delve completion with lives remaining, a Gilded Stash will appear in the treasure room, containing 7 Gilded Crests.|n|n|cnWHITE_FONT_COLOR:Gilded Stash looted: %35pdc/3 |nResets weekly.",212,6729
 18407,0,277,6729
+18408,Multiplier: ,52,6730
+18409,,394,6730
 18412,,621,6732
 18413,,622,6732
 18414,,627,6732
@@ -9811,6 +9884,48 @@ ID,Value_lang,ReqID,ParentWidgetID
 18560,Job Streak,19,6758
 18561,,273,6758
 18562,Complete 10 jobs in a row to earn bonus rewards!,208,6758
+18566,Kills Until Nemesis Spawn: %28117w,52,6760
+18567,,394,6760
+18568,Best This Week:,52,6761
+18569,,394,6761
+18570,Next Reward:,52,6762
+18571,,394,6762
+18572, ,52,6763
+18573,,394,6763
+18574,You have not completed a Horrific Vision this week. ,52,6764
+18575,,394,6764
+18576,Item Level 626 reward for defeating the main boss.,52,6765
+18577,,394,6765
+18578,Item level 626 reward for defeating the main boss. ,52,6766
+18579,,394,6766
+18580,Item level 632 reward for defeating two area bosses and the main boss.,52,6767
+18581,,394,6767
+18582,Item level 636 reward for a full clear.,52,6768
+18583,,394,6768
+18584,Item level 639 reward for a full clear wearing 1 Faceless Mask.,52,6769
+18585,,394,6769
+18586,Item level 642 reward for a full clear wearing 2 Faceless Masks.,52,6770
+18587,,394,6770
+18588,Item level 645 reward for a full clear wearing 3 Faceless Masks.,52,6771
+18589,,394,6771
+18590,Item level 652 reward for a full clear wearing 4 Faceless Masks.,52,6772
+18591,,394,6772
+18592,Item level 658 reward for a full clear wearing 5 Faceless Masks.,52,6773
+18593,,394,6773
+18594,Item Level 632 reward for defeating two wing bosses and the main boss.,52,6774
+18595,,394,6774
+18596,Item Level 636 reward for a full clear.,52,6775
+18597,,394,6775
+18598,Item Level 639 reward for a full clear wearing 1 Faceless Mask.,52,6776
+18599,,394,6776
+18600,Item Level 642 reward for a full clear wearing 2 Faceless Masks.,52,6777
+18601,,394,6777
+18602,Item Level 645 reward for a full clear wearing 3 Faceless Masks.,52,6778
+18603,,394,6778
+18604,Item Level 652 reward for a full clear wearing 4 Faceless Masks.,52,6779
+18605,,394,6779
+18606,Item Level 658 reward for a full clear wearing 5 Faceless Masks.,52,6780
+18607,,394,6780
 18639,,212,6785
 18640,,277,6785
 18641,,212,6786
@@ -9831,5 +9946,167 @@ ID,Value_lang,ReqID,ParentWidgetID
 18668,0,277,6794
 18693,,212,6807
 18694,,277,6807
+18695,Tribute of Elite Extermination,19,6808
+18696,,273,6808
+18697,,208,6808
+18700,,540,6810
+18701,,541,6810
+18702,,19,6810
+18703,,273,6810
+18704,,208,6810
+18705,Tribute of Experimental Destabilization,19,6811
+18706,,273,6811
+18707,,208,6811
+18708,Tribute of the Vision Hunter,19,6812
+18709,,273,6812
+18710,,208,6812
+18711,Tribute of Clear Sight,19,6813
+18712,,273,6813
+18713,,208,6813
+18720,,204,6816
+18721,|cnWHITE_FONT_COLOR:%1215318a1|r,205,6816
+18722,,204,6817
+18723,|cnWHITE_FONT_COLOR:%1214915a1|r,205,6817
+18724,,204,6818
+18725,,205,6818
+18726,,204,6819
+18727,,205,6819
+18728,,204,6820
+18729,,205,6820
+18730,,204,6821
+18731,|cnWHITE_FONT_COLOR:Base|r,205,6821
+18732,,204,6822
+18733,|cnWHITE_FONT_COLOR:Bonus|r,205,6822
 18734,,212,6825
 18735,,277,6825
+18743,Next Reward:,52,6830
+18744,,394,6830
+18745,,621,6831
+18746,,622,6831
+18747,,627,6831
+18748,,621,6832
+18749,,622,6832
+18750,,627,6832
+18751,,621,6833
+18752,,622,6833
+18753,,627,6833
+18761,|nWeekly Quest Reward from Thaed:,52,6838
+18762,,394,6838
+18763,,621,6839
+18764,,622,6839
+18765,An offering from the highest ranking members of Flame's Radiance.,627,6839
+18778,Enter the Dome!,52,6844
+18779,Kill the trash to summon the bosses.,394,6844
+18786,,540,6847
+18787,,541,6847
+18788,,19,6847
+18789,,273,6847
+18790,,208,6847
+18803,"Damage bosses, trash and props",204,6654
+18804,|cnNORMAL_FONT_COLOR:%1216060a3|r,205,6654
+18805,"Damage enemies inside ""x2"" zones",204,6700
+18806,|cnNORMAL_FONT_COLOR:%1221280a3|r,205,6700
+18807,Avoid a lot of dying,204,6652
+18808,|cnNORMAL_FONT_COLOR:%1216060a1|r,205,6652
+18809,"Use ""Challenging"" foods",204,6742
+18810,|cnNORMAL_FONT_COLOR:%1221280a1|r,205,6742
+18811,Finish the match quickly!,204,6653
+18812,|cnNORMAL_FONT_COLOR:%1216060a2|r,205,6653
+18813,"Use Gears, and keep time bars full",204,6741
+18814,|cnNORMAL_FONT_COLOR:%1221280a2|r,205,6741
+18815,,204,6744
+18816,|cnNORMAL_FONT_COLOR:%1216060a5|r,205,6744
+18817,,204,6854
+18818,|cnWHITE_FONT_COLOR:Total Score|r,205,6854
+18819,"The more time left, the more score bonus!",540,6855
+18820,"The more time left, the more score bonus",541,6855
+18821,,19,6855
+18822,,273,6855
+18823,Keep these bar segments from emptying!,208,6855
+18824,High Score,52,6856
+18825,Highest Score in Dastardly Duos,394,6856
+18826,Last Score,52,6857
+18827,Last Earned Score in Dastardly Duos,394,6857
+18828,Average Item Level,52,6858
+18829,Average Item level of worn items,394,6858
+18839,,540,6862
+18840,,541,6862
+18841,,19,6862
+18842,,273,6862
+18843,,208,6862
+18844,Bonus: ,52,6863
+18845,,394,6863
+18905,Yards Moved Last Game,52,6877
+18906,Yards traveled in the last Dastardly Duos match,394,6877
+18907,Most Yards Moved,52,6878
+18908,Most yards traveled in a single Dastardly Duos match,394,6878
+18909,Spotlight Time Last Game,52,6879
+18910,Number of seconds spent in the spotlight last game,394,6879
+18911,Most Time in Spotlight,52,6880
+18912,The most time spent under a spotlight in a single game,394,6880
+18913,Scrappiest,52,6881
+18914,Your highest score PER item level,394,6881
+18915,Current Survival Run,52,6882
+18916,Number of consecutive games played without dying,394,6882
+18917,Best Survival Run,52,6883
+18918,Your long survival run so far,394,6883
+18919,Scrappy!,52,6884
+18920,Your latest score PER item level,394,6884
+18921,Item Level Last Match,52,6885
+18922,Your highest Item Level last match,394,6885
+18938,Bring Enemies Inside,52,6891
+18939,Enemies award double points inside the circle,394,6891
+19128,%1744c,194,6976
+19129,,195,6976
+19130,,197,6976
+19131,,198,6976
+19132,,200,6976
+19133,,201,6976
+19134,%2950ss,428,6976
+19135,%1744c,194,6977
+19136,,195,6977
+19137,,197,6977
+19138,,198,6977
+19139,,200,6977
+19140,,201,6977
+19141,%2951ss,428,6977
+19157,New quest available in: %27621ht,52,6982
+19158,,394,6982
+19168,"Complete Vinnie's quest to earn a Champion gear piece, and a unique Dastardly item!",52,6986
+19169,,394,6986
+19170,   ,52,6987
+19171,,394,6987
+19172,"Complete Vinnie's quest to earn a Champion gear piece, and a unique Dastardly item!",52,6988
+19173,,394,6988
+19174,"Complete Vinnie's quest to earn a Champion gear piece, and a unique Dastardly item!",52,6989
+19175,,394,6989
+19176,"Complete Vinnie's quest to earn a Champion gear piece, and a unique Dastardly item!",52,6990
+19177,,394,6990
+19178,"Complete Vinnie's quest to earn a Champion gear piece, and a unique Dastardly item!",52,6991
+19179,,394,6991
+19180,"Complete Vinnie's quest to earn a Champion gear piece, and a unique Dastardly item!",52,6992
+19181,,394,6992
+19182,New quest available in: %27621ht,52,6993
+19183,,394,6993
+19184,New quest available in: %27621ht,52,6994
+19185,,394,6994
+19186,New quest available in: %27621ht,52,6995
+19187,,394,6995
+19188,New quest available in: %27621ht,52,6996
+19189,,394,6996
+19190,All weeklies finished! Now go for a high score!,52,6997
+19191,,394,6997
+19220, ,621,7004
+19221,Each gear grabbed doubles your Time Bonus!,622,7004
+19222,,627,7004
+19241,Survival,52,7012
+19242,,394,7012
+19243,,540,7014
+19244,,541,7014
+19245,,19,7014
+19246,,273,7014
+19247,,208,7014
+19250,.,52,7011
+19251,,394,7011
+19252, ,52,7013
+19253,,394,7013
