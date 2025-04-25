@@ -1,7 +1,7 @@
 Icon,String_lang,Tooltip_lang,DynamicTooltip_lang,ExtendedUI,ID,MapID,AreaID,StateVariable,Type,DynamicIconFileID,DynamicFlashIconFileID,OrderIndex,PhaseUseFlags,PhaseID,PhaseGroupID,ExtendedUIStateVariable[0],ExtendedUIStateVariable[1],ExtendedUIStateVariable[2]
-Interface\TargetingFrame\UI-PVP-Horde,%1582w/%1601w,Horde flag captures,Alliance flag has been picked up,,3,489,3277,2338,0,0,0,1,0,0,0,0,0,0
-Interface\WorldStateFrame\ColumnIcon-FlagCapture,Flag Captures,Number of times you have captured the enemy flag,,,42,489,0,0,2,0,0,1,0,0,0,0,0,0
-Interface\WorldStateFrame\ColumnIcon-FlagReturn,Flag Returns,Number of times you have returned your flag to your base from the field,,,44,489,0,0,2,0,0,2,0,0,0,0,0,0
+Interface\TargetingFrame\UI-PVP-Horde,%1582w/%1601w,Horde Flag captures,Alliance Flag has been picked up,,3,489,3277,2338,0,0,0,1,0,0,0,0,0,0
+Interface\WorldStateFrame\ColumnIcon-FlagCapture,Flag Captures,Number of times you have captured the enemy Flag,,,42,489,0,0,2,0,0,1,0,0,0,0,0,0
+Interface\WorldStateFrame\ColumnIcon-FlagReturn,Flag Returns,Number of times you have returned your Flag to your base from the field,,,44,489,0,0,2,0,0,2,0,0,0,0,0,0
 Interface\WorldStateFrame\ColumnIcon-TowerCapture,Towers Assaulted,Number of times enemy tower banners have been removed,,,61,30,0,0,2,0,0,3,0,0,0,0,0,0
 Interface\WorldStateFrame\ColumnIcon-GraveyardCapture,Graveyards Assaulted,Number of times enemy graveyard banners have been removed,,,63,30,0,0,2,0,0,1,0,0,0,0,0,0
 Interface\WorldStateFrame\ColumnIcon-TowerDefend,Towers Defended,Number of times a tower capture has been prevented,,,64,30,0,0,2,0,0,4,0,0,0,0,0,0
@@ -21,16 +21,16 @@ Interface\WorldStateFrame\NeutralTower,Time Remaining - %2509w:%2512w%2510w,Time
 ,,,,CAPTUREPOINT,148,530,3521,2527,1,0,0,0,0,0,0,2528,2529,0
 ,,,,CAPTUREPOINT,149,530,3521,2533,1,0,0,0,0,0,0,2534,2535,0
 ,Medivh's Shield Remaining: %2540w%,,,,150,269,2366,2541,0,0,0,0,0,0,0,0,0,0
-,Green Team: %3600w Players Remaining,,,,151,562,0,2547,0,0,0,0,0,0,0,0,0,0
-,Gold Team: %3601w Players Remaining,,,,152,562,0,2547,0,0,0,0,0,0,0,0,0,0
+,Green Team: %3600w Players Remaining,,,,151,562,0,3610,0,0,0,1,0,0,0,0,0,0
+,Gold Team: %3601w Players Remaining,,,,152,562,0,3610,0,0,0,0,0,0,0,0,0,0
 Interface\WorldStateFrame\AllianceTower,West Beacon,Alliance Controlled Beacon,,,153,530,3521,2555,1,0,0,0,0,0,0,0,0,0
 Interface\WorldStateFrame\HordeTower,West Beacon,Horde Controlled Beacon,,,154,530,3521,2556,1,0,0,0,0,0,0,0,0,0
 Interface\WorldStateFrame\NeutralTower,West Beacon,Neutral Controlled Beacon,,,155,530,3521,2557,1,0,0,0,0,0,0,0,0,0
 Interface\WorldStateFrame\AllianceTower,East Beacon,Alliance Controlled Beacon,,,156,530,3521,2558,1,0,0,0,0,0,0,0,0,0
 Interface\WorldStateFrame\HordeTower,East Beacon,Horde Controlled Beacon,,,157,530,3521,2559,1,0,0,0,0,0,0,0,0,0
 Interface\WorldStateFrame\NeutralTower,East Beacon,Neutral Controlled Beacon,,,158,530,3521,2560,1,0,0,0,0,0,0,0,0,0
-,Gold Team: %3601w Players Remaining,,,,159,559,0,2577,0,0,0,0,0,0,0,0,0,0
-,Green Team: %3600w Players Remaining,,,,160,559,0,2577,0,0,0,0,0,0,0,0,0,0
+,Gold Team: %3601w Players Remaining,,,,159,559,0,3610,0,0,0,0,0,0,0,0,0,0
+,Green Team: %3600w Players Remaining,,,,160,559,0,3610,0,0,0,1,0,0,0,0,0,0
 Interface\WorldStateFrame\AllianceTower,Towers Controlled: %2621w,Alliance Towers Controlled,,,161,530,3519,2620,1,0,0,0,0,0,0,0,0,0
 Interface\WorldStateFrame\HordeTower,Towers Controlled: %2622w,Horde Towers Controlled,,,162,530,3519,2620,1,0,0,0,0,0,0,0,0,0
 ,,,,CAPTUREPOINT,163,530,3519,2623,0,0,0,0,0,0,0,2625,2624,0
@@ -44,8 +44,8 @@ Interface\WorldStateFrame\HordeTower,Time Remaining - %2509w:%2512w%2510w,Time r
 ,Current Wave = %2842w of 8,Current Wave,,,172,534,3606,2842,0,0,0,0,0,0,0,0,0,0
 ,North Warp-Gate: %2880w%,,,,173,530,3831,2889,0,0,0,0,0,0,0,0,0,0
 ,South Warp-Gate: %2881w%,,,,174,530,3831,2889,0,0,0,0,0,0,0,0,0,0
-,Gold Team: %3601w Players Remaining,,,,175,572,0,3002,0,0,0,0,0,0,0,0,0,0
-,Green Team: %3600w Players Remaining,,,,176,572,0,3002,0,0,0,0,0,0,0,0,0,0
+,Gold Team: %3601w Players Remaining,,,,175,572,0,3610,0,0,0,0,0,0,0,0,0,0
+,Green Team: %3600w Players Remaining,,,,176,572,0,3610,0,0,0,1,0,0,0,0,0,0
 ,Shield Remaining: %3054w%,Percentage of the shield remaining.,,,177,530,4008,3055,0,0,0,0,0,0,0,0,0,0
 ,%3082w / 12 Marksmen Remaining,Number of Theramore defenders still alive.,,,178,1,513,3083,0,0,0,0,0,0,0,0,0,0
 ,Time Until Sacrifice: %3106w Min,Time remaining until prisoners are killed.,,,179,568,3805,3104,0,0,0,0,0,0,0,0,0,0
@@ -72,9 +72,9 @@ Interface\TargetingFrame\UI-PVP-Horde,Attacker,Horde status,,,197,607,4384,4353,
 ,%3604w minutes until the battle for Light's Hope Chapel begins!,Time remaining until the battle for Light's Hope Chapel begins!,,,202,609,0,3603,1,0,0,0,0,176,0,0,0,0
 ,The battle for Light's Hope Chapel has begun!,,,,203,609,0,3605,1,0,0,0,0,176,0,0,0,0
 ,Gold Team: %3601w Players Remaining,,,,204,617,0,3610,0,0,0,0,0,0,0,0,0,0
-,Green Team: %3600w Players Remaining,,,,205,617,0,3610,0,0,0,0,0,0,0,0,0,0
+,Green Team: %3600w Players Remaining,,,,205,617,0,3610,0,0,0,1,0,0,0,0,0,0
 ,Gold Team: %3601w Players Remaining,,,,206,618,0,3610,0,0,0,0,0,0,0,0,0,0
-,Green Team: %3600w Players Remaining,,,,207,618,0,3610,0,0,0,0,0,0,0,0,0,0
+,Green Team: %3600w Players Remaining,,,,207,618,0,3610,0,0,0,1,0,0,0,0,0,0
 ,Time Remaining: %3781k,Game ends after this duration,,,208,571,4197,3710,3,0,0,0,0,0,0,0,0,0
 Interface\TargetingFrame\UI-PVP-Alliance,Alliance Controlled,,,,210,571,4197,3803,0,0,0,0,0,0,0,0,0,0
 Interface\TargetingFrame\UI-PVP-Horde,Horde Controlled,,,,211,571,4197,3802,0,0,0,0,0,0,0,0,0,0
@@ -236,4 +236,73 @@ Interface\WorldStateFrame\ColumnIcon-TowerDefend,Bases Defended,Number of times 
 Interface\WorldStateFrame\ColumnIcon-FlagCapture2.blp,Flag Captures,Number of times you have captured the flag,,,393,968,0,0,2,0,0,0,0,0,0,0,0,0
 ,Demons present: %6017w,Total demons in courtyard,,,408,939,5788,6018,0,0,0,0,0,0,0,0,0,0
 ,Fragments Collected: %6025w / 16,,,,411,938,0,6046,0,0,0,0,0,0,0,0,0,0
+Interface\TargetingFrame\UI-PVP-Alliance,Victory Points: %6303w/1600,,,,412,998,0,0,0,0,0,0,0,0,0,0,0,0
+Interface\TargetingFrame\UI-PVP-Horde,Victory Points: %6304w/1600,,,,413,998,0,0,0,0,0,0,0,0,0,0,0,0
+Interface\WorldStateFrame\ColumnIcon-FlagCapture2.blp,Orb Possessions,Number of times you have controlled an orb,,,418,998,0,0,2,0,0,0,0,0,0,0,0,0
+,Victory Points,Number of Victory Points earned,,,419,998,0,0,2,0,0,0,0,0,0,0,0,0
+,Brew Progress: %6403w / 100,,,,420,1005,0,6404,0,0,0,0,0,0,0,0,0,0
+Interface\TargetingFrame\UI-PVP-Alliance,%1581w/%1601w,Alliance flag captures,Horde flag has been picked up,,421,1010,6112,2339,0,0,0,1,0,0,0,0,0,0
+Interface\WorldStateFrame\ColumnIcon-FlagCapture,Flag Captures,Number of times you have captured the enemy flag,,,422,1010,6112,0,2,0,0,1,0,0,0,0,0,0
+Interface\WorldStateFrame\ColumnIcon-FlagReturn,Flag Returns,Number of times you have returned your flag to your base from the field,,,423,1010,6112,0,2,0,0,2,0,0,0,0,0,0
+Interface\TargetingFrame\UI-PVP-Horde,%1582w/%1601w,Horde flag captures,Alliance flag has been picked up,,424,1010,6112,2338,0,0,0,1,0,0,0,0,0,0
+,Time Remaining: %4248w min.,Time Remaining,,,425,1010,6112,4247,0,0,0,0,0,0,0,0,0,0
+Interface\TargetingFrame\UI-PVP-Alliance,Resources: %6437w/1600,,,,426,727,0,6441,0,0,0,0,0,0,0,0,0,0
+Interface\TargetingFrame\UI-PVP-Horde,Resources: %6438w/1600,,,,427,727,0,6443,0,0,0,0,0,0,0,0,0,0
+,Carts Controlled,Number of Carts you helped control,,,428,727,0,0,2,0,0,0,0,0,0,0,0,0
+,Healers Active: %6488w of 12,Number of healers healing Shen-zin Su's wound.,,,429,860,5833,6489,0,0,0,0,0,544,0,0,0,0
+,Current Round: %6608w,,,,430,1031,0,6610,0,0,0,0,0,0,0,0,0,0
+,Score: %6607w,,,,431,1031,0,6611,0,0,0,1,0,0,0,0,0,0
+,Gold Team: %3601w Players Remaining,,,,433,980,6296,3610,0,0,0,0,0,0,0,0,0,0
+,Green Team: %3600w Players Remaining,,,,434,980,6296,3610,0,0,0,1,0,0,0,0,0,0
+,,,,,436,1048,0,7044,0,0,0,0,0,0,0,0,0,0
+,Quilin Acquired: %6748w / 5,,,,437,994,0,6761,0,0,0,0,0,0,0,0,0,0
+,,,,CAPTUREPOINT,440,727,0,6875,0,0,0,0,0,0,0,6876,6877,0
+,,,,CAPTUREPOINT,443,870,6134,7136,0,0,0,0,0,1918,0,7137,7138,0
+,,,,CAPTUREPOINT,444,870,6134,7139,0,0,0,0,0,1918,0,7140,7141,0
+,,,,CAPTUREPOINT,445,870,6134,7142,0,0,0,0,0,1919,0,7143,7144,0
+,,,,CAPTUREPOINT,446,870,6134,7145,0,0,0,0,0,1919,0,7146,7147,0
+,,,,CAPTUREPOINT,449,870,6134,7310,0,0,0,0,0,1918,0,7311,7312,0
+,,,,CAPTUREPOINT,450,870,6134,7315,0,0,0,0,0,1919,0,7316,7317,0
+,Attempts Remaining: %7844w,,,,451,1098,6730,0,0,0,0,0,0,0,0,0,0,0
+,Fog Beasts Remaining: %7889w,,,,454,1098,0,7889,0,0,0,0,0,0,0,0,0,0
+,Green Team: %3600w Players Remaining,,,,455,1134,6732,3610,0,0,0,1,0,0,0,0,0,0
+,Gold Team: %3601w Players Remaining,,,,456,1134,6732,3610,0,0,0,0,0,0,0,0,0,0
+Interface\WorldStateFrame\ColumnIcon-FlagCapture,Carts Captures,Number of times you have captured the enemy mine cart,,,457,1105,0,0,2,0,0,0,0,0,0,0,0,0
+Interface\WorldStateFrame\ColumnIcon-FlagReturn,Carts Returned,Number of times you have returned your mine cart to your base from the field,,,458,1105,0,0,2,0,0,1,0,0,0,0,0,0
+Interface\WorldStateFrame\ColumnIcon-TowerCapture,Mines Assaulted,Number of times enemy base banners have been removed,,,459,1105,0,0,2,0,0,2,0,0,0,0,0,0
+Interface\WorldStateFrame\ColumnIcon-TowerDefend,Mines Defended,Number of times a mine capture has been prevented,,,460,1105,0,0,2,0,0,3,0,0,0,0,0,0
+Interface\TargetingFrame\UI-PVP-Alliance,Bases: %8230w  Gold: %7880w/1600,Alliance Gold,Horde Flag has been picked up,,461,1105,0,7904,0,0,0,1,0,0,0,0,0,0
+Interface\TargetingFrame\UI-PVP-Horde,Bases: %8231w  Gold: %7881w/1600,Horde Gold,Alliance Flag has been picked up,,462,1105,0,7887,0,0,0,1,0,0,0,0,0,0
+,Currency: %8278w,,,,463,1155,0,0,0,0,0,0,0,0,0,0,0,0
+,Time: %8295w min remaining,,,,465,1134,6732,8524,0,0,0,2,0,0,0,0,0,0
+,Really Skunky Leaks = %8291w of 10,Amount of skunky beer leaking from the keg,,,466,870,6773,8313,0,0,0,0,0,0,0,0,0,0
+,Time: %8295w min remaining,,,,467,562,3702,8524,0,0,0,2,0,0,0,0,0,0
+,Time: %8295w min remaining,,,,468,617,4378,8524,0,0,0,2,0,0,0,0,0,0
+,Time: %8295w min remaining,,,,469,559,3698,8524,0,0,0,2,0,0,0,0,0,0
+,Time: %8295w min remaining,,,,470,618,4406,8524,0,0,0,2,0,0,0,0,0,0
+,Time: %8295w min remaining,,,,471,980,6296,8524,0,0,0,2,0,0,0,0,0,0
+,Time: %8295w min remaining,,,,472,572,3968,8524,0,0,0,2,0,0,0,0,0,0
+,Defense systems activating in %8381w seconds.,"Time remaining until the GB-11010 ""Armageddon""-class defense systems activate.",,,473,1136,0,8431,3,0,0,0,0,0,0,0,0,0
+,Cannons Remaining = %8373w,Number of Cannons left to destroy,,,474,1136,6800,8414,0,0,0,0,0,0,0,0,0,0
+,Cannons Remaining = %8373w,Number of Cannons left to destroy,,,475,1136,6799,8414,0,0,0,0,0,0,0,0,0,0
+,Enemies Remaining = %8412w,Number of Dudes left to kill this wave,,,476,1136,6800,8416,0,0,0,0,0,0,0,0,0,0
+,Customers Left Before Being Served: %8457w,,,,477,1157,0,8457,0,0,0,0,0,0,0,0,0,0
+,South Tower Progress: %8461w%,,,,478,1136,0,8545,0,0,0,0,0,0,0,0,0,0
+,North Tower Progress: %8462w%,,,,479,1136,0,8547,0,0,0,0,0,0,0,0,0,0
+,North Tower Dragonmaw Influence: %8469w%,,,,480,1136,0,8548,0,0,0,3,0,0,0,0,0,0
+,South Tower Dragonmaw Influence: %8468w%,,,,481,1136,0,8546,0,0,0,2,0,0,0,0,0,0
+,Lowest Health: Green Team - %8528w HP,,,,484,1134,6732,8526,0,0,0,2,0,0,0,0,0,0
+,Lowest Health: Gold Team - %8528w HP,,,,485,1134,6732,8527,0,0,0,2,0,0,0,0,0,0
+,Lowest Health: Green Team - %8528w HP,,,,486,562,3702,8526,0,0,0,2,0,0,0,0,0,0
+,Lowest Health: Gold Team - %8528w HP,,,,487,562,3702,8527,0,0,0,2,0,0,0,0,0,0
+,Lowest Health: Green Team - %8528w HP,,,,488,617,0,8526,0,0,0,2,0,0,0,0,0,0
+,Lowest Health: Gold Team - %8528w HP,,,,489,617,0,8527,0,0,0,2,0,0,0,0,0,0
+,Lowest Health: Green Team - %8528w HP,,,,490,559,0,8526,0,0,0,2,0,0,0,0,0,0
+,Lowest Health: Gold Team - %8528w HP,,,,491,559,0,8527,0,0,0,2,0,0,0,0,0,0
+,Lowest Health: Green Team - %8528w HP,,,,492,618,0,8526,0,0,0,2,0,0,0,0,0,0
+,Lowest Health: Gold Team - %8528w HP,,,,493,618,0,8527,0,0,0,2,0,0,0,0,0,0
+,Lowest Health: Green Team - %8528w HP,,,,494,980,6296,8526,0,0,0,2,0,0,0,0,0,0
+,Lowest Health: Gold Team - %8528w HP,,,,495,980,6296,8527,0,0,0,2,0,0,0,0,0,0
+,Lowest Health: Green Team - %8528w HP,,,,496,572,0,8526,0,0,0,2,0,0,0,0,0,0
+,Lowest Health: Gold Team - %8528w HP,,,,497,572,0,8527,0,0,0,2,0,0,0,0,0,0
 ,Time Remaining: %3781k,Game ends after this duration,,,934,2118,14288,3710,3,0,0,0,0,0,0,0,0,0
