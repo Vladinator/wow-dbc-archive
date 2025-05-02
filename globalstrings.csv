@@ -11188,9 +11188,9 @@ ID,BaseTag,TagText_lang,Flags
 22827,GUILD_CHALLENGE_LABEL5,Guild Mythic Keystone Challenge,1
 22831,POWER_TYPE_WILLPOWER,Willpower,1
 22832,CHALLENGE_MODE_COMPLETED,Challenge Complete!,1
-22833,CHALLENGE_MODE_NEW_BEST,%s - New Weekly Best!,1
+22833,CHALLENGE_MODE_NEW_BEST,%s - New Best!,1
 22834,POWER_TYPE_DARK_POWER,Sha Power,1
-22835,RESET_CHALLENGE_MODE,Reset Mythic Dungeon,1
+22835,RESET_CHALLENGE_MODE,Reset Challenge,1
 22836,CONFIRM_RESET_CHALLENGE_MODE,Do you really want to reset the dungeon?,1
 22837,POWER_TYPE_GOLD_POWER,Gold Power,1
 22838,ERR_PETBATTLE_NOT_HERE_ON_TRANSPORT,Cannot pet battle on a transport.,1
@@ -11664,6 +11664,9 @@ ID,BaseTag,TagText_lang,Flags
 23316,ERR_PETBATTLE_NO_PETS_IN_SLOTS,Must have a pet in battle slot.,1
 23317,CHALLENGE_MODE_GUILD_BEST,Guild Best,1
 23318,CHALLENGE_MODE_REALM_BEST,Realm Best,1
+23319,CHALLENGE_MODE_MEDAL1,Bronze,1
+23320,CHALLENGE_MODE_MEDAL2,Silver,1
+23321,CHALLENGE_MODE_MEDAL3,Gold,1
 23322,POWER_TYPE_FOOD,Food,1
 23323,PRIEST_HOLY_CORE_ABILITY_1,"Fast, expensive heal.",1
 23324,ERR_PVP_BLACKLIST_CAP,You have already blacklisted the maximum number of maps.,1
@@ -11679,6 +11682,9 @@ ID,BaseTag,TagText_lang,Flags
 23335,QUEUED_STATUS_QUEUED,Queued,1
 23336,TOGGLE_BATTLEFIELD_MAP,Toggle Zone Map,1
 23337,TOGGLE_SCOREBOARD,Toggle Scoreboard,1
+23338,CHALLENGE_MODE_MEDALNAME1,Bronze Medal,1
+23339,CHALLENGE_MODE_MEDALNAME2,Silver Medal,1
+23340,CHALLENGE_MODE_MEDALNAME3,Gold Medal,1
 23341,CHALLENGE_MODE_NEW_RECORD,New Record,1
 23342,BATTLETAG_REMOVE_FRIEND_CONFIRMATION,Are you sure you want to remove %s as a BattleTag friend?,1
 23343,ERR_BATTLETAG_FRIEND_REQUEST_SENT,BattleTag Friend request has been sent,1
@@ -15576,11 +15582,9 @@ ID,BaseTag,TagText_lang,Flags
 34573,SELECT_RACE,Select your race,2
 34574,SELECT_SPEC_ACTIVE_LABEL,Choose your specialization,2
 34575,SELECT_SPEC_RESULTS_LABEL,Specialization:,2
-34576,SERVER_ALERT_BETA_URL,http://beta.worldofwarcraft.com/alert,2
 34577,SERVER_ALERT_BUTTON_TEXT,More Info,2
 34578,SERVER_ALERT_PTR_URL,,2
 34579,SERVER_ALERT_TITLE,Breaking News,2
-34580,SERVER_ALERT_URL,http://us.launcher.battle.net/service/tbc-client/alert/en-us,2
 34581,SERVER_DOWN,Server down,2
 34582,SERVER_SELECTION,Realm Selection,2
 34583,SERVER_SPLIT,"This realm has exceeded maximum capacity, and will be undergoing a realm split with players divided between two new realms. You will be able to select which of the two new realms you prefer up until |cffffffff%s|r when the split lockout occurs. If you do not make a selection, you will be assigned to one of the new realms. For more information, visit www.worldofwarcraft.com.\n\nPlease select your new realm preference below. You may change your selection at any time until the lockout date.",2
@@ -18582,7 +18586,7 @@ You can learn more Specializations as you increase your skill level.",1
 50246,ACCOUNT_SAVE_DESCRIPTION_LOCKED,"|cffff2020World of Warcraft realms will be unavailable in this region after January 23rd, 2023.|r|n|n|cffffd200You can download your game progress now so that you may be able to restore it in the future.|r|n|n|cffffd200Saving your game progress locally will lock your account from play regardless of remaining game time. Please safeguard your Archive as we hope to enable use of the Archive at a later time.|r|n|n|n</p><h1>|cffffffffSave your game progress locally|r</h1><p>|n|cffffffffThis feature and the archived game progress are subject to the B.Net End-User License Agreement.|r|n|n|cffffd200Your account is locked because you successfully downloaded your account data.|r",2
 50250,ACCOUNT_SAVE_ERROR_UNAVAILABLE,Progression archive downloading is currently unavailable,2
 50251,ACCOUNT_SAVE_ERROR_ALREADY_IN_PROGRESS,A progression archive download is already in progress. Please try again later.,2
-50258,CENSORED_MESSAGE_HIDDEN,|cffff7f3fMessage from %s is potentially inappropriate.|h|cffffff00|Hcensoredmessage:%d|h |W[Show Message]|w|h|r,1
+50258,CENSORED_MESSAGE_HIDDEN,|cffffff00Message from %s is potentially inappropriate.|Hcensoredmessage:%d|h |W[Show Message]|w|h|r,1
 50266,ACCOUNT_SAVE_FILE_BUTTON,Open Folder,2
 50267,ACCOUNT_SAVE_CLOSE_BUTTON,Close,2
 50268,ACCOUNT_SAVE_SUCCESS_DETAILS,Please copy this file to a safe location for future use:,2
@@ -18591,12 +18595,12 @@ You can learn more Specializations as you increase your skill level.",1
 50271,CENSOR_SOURCE_NO_ONE,No one,1
 50272,CENSOR_SOURCE_EXCLUDE_FRIENDS,Everyone except friends,1
 50273,CENSOR_SOURCE_EXCLUDE_FRIENDS_AND_GUILD,Everyone except friends and guildmates,1
-50274,CENSOR_SOURCE_EXCLUDE,Censor Messages,1
+50274,CENSOR_SOURCE_EXCLUDE,Real Time Chat Filtering,1
 50275,OPTION_TOOLTIP_CENTER_SOURCE_EXCLUDE,Controls whose messages will be censored if found to be inappropriate,1
 50299,BLIZZARD_STORE_CURRENCY_FORMAT_HKD,HK$%s,3
 50304,PROFESSIONS_SPECIALIZATION_CONFIRM_PURCHASE_TAB_UNAPPLIED,All pending changes will be applied upon unlocking this specialization. Are you sure you would like to learn the %s specialization?,1
 50310,EMPTY_SOCKET_PRIMORDIAL,Primordial Socket,1
-50332,CENSORED_MESSAGE_REPORT,|cffffff00|Hreportcensoredmessage:%d|h |W[Report]|w|h|r,1
+50332,CENSORED_MESSAGE_REPORT,%s |cffffff00|Hreportcensoredmessage:%d|h|W[Report]|w|h|r,1
 50336,PRC_CUSTOMIZE_DIALOG_TEXT,You will now choose your new race and customize your character. Your race change will be permanently applied once you finish this process.,2
 50348,AUCTION_TOOLTIP_BROWSE_BY_NAME_TITLE,Browse by Name,1
 50349,AUCTION_TOOLTIP_BROWSE_BY_NAME_BODY,Enter text to search for item names that include that text. Enclose the text in quotes to search for an exact item name.,1
@@ -18675,6 +18679,8 @@ You can learn more Specializations as you increase your skill level.",1
 51392,SLASH_TEXTTOSPEECH_PING,ping,1
 51393,SLASH_TEXTTOSPEECH_HELP_PING,Enable or disable ping messages,1
 51411,BLIZZARD_STORE_CLICK_TO_OPEN_FAQ,|cnPURE_GREEN_COLOR:<Shift click to view Frequently Asked Questions in your browser>|r,3
+51425,CHARACTER_SELECT_NAV_BAR_SHOP,SHOP,2
+51426,CHARACTER_SELECT_NAV_BAR_MENU,MENU,2
 51446,ERR_BATTLEGROUND_INVITATION_DECLINED_BY,Your War Game invitation has been declined by %s.,1
 51453,OPTION_TOOLTIP_RESTRICT_CALENDAR_INVITES,Only allow calendar invites from friends or guild members. ,1
 51454,RESTRICT_CALENDAR_INVITES,Restrict Calendar Invites ,1
@@ -18689,6 +18695,9 @@ You can learn more Specializations as you increase your skill level.",1
 51646,SELF_HIGHLIGHT_UNIT_FRAME,Self Highlight,1
 51647,SELF_HIGHLIGHT_CIRCLE,Circle,1
 51649,SELF_HIGHLIGHT_ICON,Icon,1
+51708,CHARACTER_SELECT_NAV_BAR_REALMS,REALMS,2
+51731,REINCARNATE_CHARACTER,Reincarnate Selected Character,2
+51732,DEATH_REINCARNATE_CHARACTER,Reincarnate!,3
 51750,SELF_HIGHLIGHT_MODE_CIRCLE_AND_ICON,Circle and Icon,1
 51753,SELF_HIGHLIGHT_MODE_ICON,Icon,1
 51756,ADDON_DEP_NOT_AVAILABLE,Dependency not available,3
@@ -18706,6 +18715,9 @@ You can learn more Specializations as you increase your skill level.",1
 51768,ADDON_DEP_USER_ADDONS_DISABLED,Dependency user addons disabled,3
 51777,MOUNT_JOURNAL_PLAYER,Show Character,1
 51800,INVTYPE_NON_EQUIP_IGNORE,,0
+51803,REINCARNATE_CHARACTER_CONFIRMATION,"Are you sure you want to reincarnate \n
+|cffffffff%s   Level %d   %s|r?
+They will be deleted and remade with the current customized character.",2
 51860,UPREZ_TEXTURES,NEW!  Uprezzed Textures,3
 51861,OPTION_TOOLTIP_UPREZ_TEXTURES,uprez tooltip placeholder,3
 51869,ICON_SELECTION_TITLE_CURRENT,Currently Selected,1
@@ -18766,9 +18778,11 @@ You can learn more Specializations as you increase your skill level.",1
 52434,SETTINGS_TRIVIAL_QUEST_FILTER,Hide Low-Level Quests,1
 52439,ERR_GUILD_NEW_LEADER_WRONG_REALM,Players from other realms can't be promoted to guild leader.,1
 52481,CONFIRM_POPUP_DONT_SHOW_AGAIN,Don't show this again,3
+52485,TOGGLE_VISIBILITY_TOOLTIP,Toggle User Interface Visibility,2
 52522,OPTION_TOOLTIP_DISABLE_CHAT,Disables chat. You will not be able to send or receive messages.,1
 52523,OPTION_TOOLTIP_DISABLE_CHAT_ACCOUNT_MUTE,"To change this, you must first go to your Battle.net Account settings and make sure that: \n- Privacy & Communication -> Text Chat is enabled \n- Parental Controls -> Account Mute is disabled",1
 52644,PVP_REALM_WARNING,"Hold, adventurer. You are attempting to join a |cffffffffPvP (Player vs Player) |cffffd200realm. You will face a constant threat from players of the opposing faction.|n|nIf you are not comfortable with a high level of conflict, we recommend you choose a |cffffffffNormal (non-PvP) |cffffd200realm.|n|n|cffffffffGame Masters do not intervene in PvP conflicts, and it is not possible to transfer your characters from a PvP realm to a Normal realm.",2
+52668,WOWLABS_MODE_NAV_BUTTON,MODE,2
 52672,PVP_CHARACTER_CREATION_WARNING,"Welcome to the |cffffffffWorld of Warcraft! |cffffd200As you prepare to enter this realm, please be aware that you are joining a |cffffffffPvP (Player vs Player) |cffffd200realm. This means, in addition to the challenges of the world itself, you will also face the constant threat of combat with other players.|n|n|cffffffffPvP combat |cffffd200is a core part of this realm, and players from opposing factions may attack you without warning and with no sense of honor in contested areas. Be prepared for skirmishes and potentially lopsided battles as you explore the world, whether during quests, gathering resources, or traveling between locations. For example, the player you killed in Un'Goro while fighting over Devilsaur might hold a grudge, and now their guild is waiting for yours on the path through Blackrock Mountain for raid night in Molten Core.",2
 52673,PVP_CHARACTER_CREATION_WARNING_TWO,"|n|nIf you're not looking for this level of conflict, we recommend choosing a |cffffffffNormal (non-PvP) |cffffd200realm instead, where player combat is restricted.|n|n|cffffffffGame Masters do not intervene in PvP conflicts, and it is not possible to transfer your characters between PvP and Normal realms. You have been warned!",2
 52811,SPELL_FAILED_CUSTOM_ERROR_360,You already have the maximum amount of Justice Points.,1
@@ -18776,9 +18790,16 @@ You can learn more Specializations as you increase your skill level.",1
 53343,CHAR_CREATE_GAME_TIME_REQUIRED,Active game time is required in order to create a character.,2
 53372,CHAR_ENTER_WORLD_GAME_TIME_REQUIRED,Active game time is required in order to enter the world.,2
 53404,CHARSELECT_CHAR_SUB_LIMITED_TOOLTIP,You must have an active subscription to play.,2
+53465,CINEMATIC_SUBTITLES_OPTIONS_HEADER,Subtitles,3
+53466,CINEMATIC_SUBTITLES_PREVIEW_LABEL,Subtitles Preview,3
 53472,CINEMATIC_SUBTITLES_BACKGROUND_COLOR_OPTION_LABEL,Subtitles Background,3
 53473,CINEMATIC_SUBTITLES_BACKGROUND_OPACITY_OPTION_LABEL,Background Opacity,3
+53734,COLORS_LABEL,Colors,3
 53744,CONFIRM_REMOVE_WOW_FRIEND,Are you sure you want to remove this friend from your list? This action cannot be undone.,1
 53900,EMPTY_SOCKET_SINGING_THUNDER,Singing Thunder Socket,1
 53901,EMPTY_SOCKET_SINGING_SEA,Singing Sea Socket,1
 53902,EMPTY_SOCKET_SINGING_WIND,Singing Wind Socket,1
+54246,CENSORED_MESSAGE_SENDER,%s |cffffff00Message to %s flagged as potentially inappropriate.|Hcensoredmessagerewrite:%d:%d:%s|h |W[Rewrite Message]|w|h or |Hcensoredmessageconfirmsend:%d:%d:%s|h|W[Send Anyways]|w|h|r,1
+54272,CENSORED_MESSAGE_SENT,%s |cffffff00Message flagged as potentially inappropriate.|r,1
+54399,TRANSMOG_ITEM_SET_FAVORITE,Set Favorite,3
+54400,TRANSMOG_ITEM_UNSET_FAVORITE,Remove Favorite,3

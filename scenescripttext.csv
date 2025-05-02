@@ -65969,12 +65969,18 @@ JumpExitVehicleActor(riderActor1, exitPos3, 1.8)
 --
 scene:WaitTimer(1.5)
 "
-10437,Global Functions - Actor Vehicles,"local jumpOntoOffsetZ = 0.25
+10437,Global Functions - Actor Vehicles,"--
+-- Actor Vehicles
+-- These Scripts have been added to SVN, if you make a change here, update it
+-- also there \Object\ObjectClient\SceneScriptGlobal\
+--
+
+local jumpOntoOffsetZ = 0.25
 local RideVehicleActorInternal
 local VehicleSystemDebug
 
 --------------------------------------------------------------------------------
-function JumpRideVehicleActor(riderActor, vehicleActor, jumpTime, seatAttach, seatOffset, jumpOffset)
+function JumpRideVehicleActor(riderActor, vehicleActor, jumpTime, seatAttach, seatOffset, jumpOffset, seatAngles, riderAttach, useRiderAttachOrientation, useVehicleAsMount)
 	if (not riderActor) then
 		return 0
 	end
@@ -65984,7 +65990,11 @@ function JumpRideVehicleActor(riderActor, vehicleActor, jumpTime, seatAttach, se
 	jumpVehicleRideData.jumpTime = jumpTime or 1.0
 	jumpVehicleRideData.seatAttach = seatAttach or AttachmentPoint.MountMain
 	jumpVehicleRideData.seatOffset = seatOffset or Vector:New()
+	jumpVehicleRideData.seatAngles = seatAngles or Vector:New()
 	jumpVehicleRideData.jumpOffset = jumpOffset or Vector:New(0, 0, jumpOntoOffsetZ)
+	jumpVehicleRideData.riderAttach = riderAttach or AttachmentPoint.None
+	jumpVehicleRideData.useRiderAttachOrientation = useRiderAttachOrientation or false
+	jumpVehicleRideData.useVehicleAsMount = useVehicleAsMount or false
 	jumpVehicleRideData.rideAnim = Animations.Mount
 	
 	-- NOTE: structured like this to avoid a tail call, which complicated getfenv in the internal function
@@ -66031,13 +66041,15 @@ function WaitJumpExitVehicleActor(riderActor, ...)
 end
 
 --------------------------------------------------------------------------------
-function RideVehicleActor(riderActor, vehicleActor, blendTime, seatAttach, seatOffset)
+function RideVehicleActor(riderActor, vehicleActor, blendTime, seatAttach, seatOffset, seatAngles, rideAnim)
 	local blendVehicleRideData = { }
 
 	blendVehicleRideData.attachBlendTime = blendTime or 0.0
 	blendVehicleRideData.seatAttach = seatAttach or AttachmentPoint.MountMain
 	blendVehicleRideData.seatOffset = seatOffset or Vector:New()
-	blendVehicleRideData.rideAnim = Animations.Mount
+	blendVehicleRideData.seatAngles = seatAngles or Vector:New()
+	blendVehicleRideData.riderAttach = riderAttach or AttachmentPoint.None
+	blendVehicleRideData.rideAnim = rideAnim or Animations.Mount
 
 	local attachTime = RideVehicleActorInternal(vehicleActor, riderActor, blendVehicleRideData)
 	return attachTime
@@ -66055,7 +66067,8 @@ end
 -- INTERNAL VEHICLE FUNCTIONS
 --   Call the functions above, please contact Darren Williams if you need
 --   additional functionality
---------------------------------------------------------------------------------
+"
+10438,[1] Global Functions - Actor Vehicles,"--------------------------------------------------------------------------------
 
 --
 -- Vehicle Ride Data is a table with the following options
@@ -66063,9 +66076,12 @@ end
 --	jumpTime
 --	seatAttach
 --	seatOffset
+--  seatAngles
 --  attachBlendTime
 --  jumpAbs			:   world space location for the end of the jump
 --  jumpOffset		:	if above not specified, world space offset for the jump to finish at from the target attach point
+--  riderAttach		:   attachment point of the rider to attach to the seat attach, defaults to root
+--  useRiderAttachOrientation : apply the orientation of the rider attachment point
 --  rideAnim		:	animation to play while riding
 --}
 --
@@ -66077,8 +66093,7 @@ local RideVehicleAttachValid
 local RideVehicleActorStartAttach
 
 --------------------------------------------------------------------------------
-RideVehicleActorInternal = "
-10438,[1] Global Functions - Actor Vehicles,"function(vehicleActor, riderActor, vehicleRideData)
+RideVehicleActorInternal = function(vehicleActor, riderActor, vehicleRideData)
 	if (not vehicleRideData or type(vehicleRideData) ~= ""table"" ) then
 		return 0
 	end
@@ -66103,7 +66118,11 @@ RideVehicleActorInternal = "
 	vehicleRideData.jumpTime		= vehicleRideData.jumpTime or 0
 	vehicleRideData.seatAttach		= vehicleRideData.seatAttach or AttachmentPoint.None
 	vehicleRideData.seatOffset		= vehicleRideData.seatOffset or Vector:New()
+	vehicleRideData.seatAngles		= vehicleRideData.seatAngles or Vector:New()
 	vehicleRideData.jumpOffset		= vehicleRideData.jumpOffset or Vector:New()
+	vehicleRideData.riderAttach		= vehicleRideData.riderAttach or AttachmentPoint.None
+	vehicleRideData.useRiderAttachOrientation = vehicleRideData.useRiderAttachOrientation or false
+	vehicleRideData.useVehicleAsMount = vehicleRideData.useVehicleAsMount or false
 
 	vehicleAttachment.riderActor:SetSnapToGround(false)
 
@@ -66149,50 +66168,7 @@ RideVehicleActorInternal = "
 end
 
 --------------------------------------------------------------------------------
-function StopRidingVehicleActorInternal(riderActor)
-	local vehicleSystem = GetVehicleSystem()
-	if (not riderActor or not vehicleSystem) then
-		return
-	end
-
-	local vehicleAttachment = vehicleSystem.vehicleAttachments[riderActor]
-
-	-- remove from the current managed list if it is in there
-	if (vehicleAttachment) then
-		if (vehicleAttachment.rideAnimKit) then
-			vehicleAttachment.rideAnimKit:Stop()
-		end
-		vehicleSystem.vehicleAttachments[riderActor] = nil
-	end
-
-	riderActor:SetRelativeTo(nil)
-end
-
---------------------------------------------------------------------------------
-RideVehicleActorStartAttach = function(vehicleAttachment)
-	if (RideVehicleAttachValid(vehicleAttachment) ~= true) then
-		return
-	end
-
-	if (not vehicleAttachment.riderActor) then
-		return
-	end
-
-	local attachBlendTime = vehicleAttachment.attachBlendTime or 0
-	local delayTime = (vehicleAttachment.data.jumpTime or 0) - attachBlendTime
-	if (delayTime > 0) then
-		(vehicleAttachment.riderActor:GetScene()):WaitTimer(delayTime)
-
-		if (RideVehicleAttachValid(vehicleAttachment) ~= true) then
-			return
-		end
-	end
-
-	if (not rideVehicleAttachData) then
-		rideVehicleAttachData = AttachmentData:Default()
-	end
-	rideVehicleAttachData.parentActor = vehicleAttachment.vehicleActor
-	"
+function "
 10439,Durotar 5.3: zto - H - Battle of Razor Hill - Init,"----------------------
 -- Helper Functions --
 ----------------------
@@ -66524,9 +66500,55 @@ end
 function SceneRadius( actor, checkRadius )
 	scene:AddCoroutineWithParams( RangeCheck, actor, checkRadius )
 end"
-10447,[2] Global Functions - Actor Vehicles,"rideVehicleAttachData.parentAttachment = vehicleAttachment.data.seatAttach
+10447,[2] Global Functions - Actor Vehicles,"StopRidingVehicleActorInternal(riderActor)
+	local vehicleSystem = GetVehicleSystem()
+	if (not riderActor or not vehicleSystem) then
+		return
+	end
+
+	local vehicleAttachment = vehicleSystem.vehicleAttachments[riderActor]
+
+	-- remove from the current managed list if it is in there
+	if (vehicleAttachment) then
+		if (vehicleAttachment.rideAnimKit) then
+			vehicleAttachment.rideAnimKit:Stop()
+		end
+		vehicleSystem.vehicleAttachments[riderActor] = nil
+	end
+
+	riderActor:SetRelativeTo(nil)
+end
+
+--------------------------------------------------------------------------------
+RideVehicleActorStartAttach = function(vehicleAttachment)
+	if (RideVehicleAttachValid(vehicleAttachment) ~= true) then
+		return
+	end
+
+	if (not vehicleAttachment.riderActor) then
+		return
+	end
+
+	local attachBlendTime = vehicleAttachment.attachBlendTime or 0
+	local delayTime = (vehicleAttachment.data.jumpTime or 0) - attachBlendTime
+	if (delayTime > 0) then
+		(vehicleAttachment.riderActor:GetScene()):WaitTimer(delayTime)
+
+		if (RideVehicleAttachValid(vehicleAttachment) ~= true) then
+			return
+		end
+	end
+
+	if (not rideVehicleAttachData) then
+		rideVehicleAttachData = AttachmentData:Default()
+	end
+	rideVehicleAttachData.parentActor = vehicleAttachment.vehicleActor
+	rideVehicleAttachData.parentAttachment = vehicleAttachment.data.seatAttach
+	rideVehicleAttachData.childAttachment = vehicleAttachment.data.riderAttach
+	rideVehicleAttachData.useChildAttachOrientation = vehicleAttachment.data.useRiderAttachOrientation
 	rideVehicleAttachData.useTargetOffset = true
-	rideVehicleAttachData.targetOffset = Transform:New(vehicleAttachment.data.seatOffset)
+	rideVehicleAttachData.useParentAsMount = vehicleAttachment.data.useVehicleAsMount
+	rideVehicleAttachData.targetOffset = Transform:New(vehicleAttachment.data.seatOffset, vehicleAttachment.data.seatAngles.x, vehicleAttachment.data.seatAngles.y, vehicleAttachment.data.seatAngles.z)
 	rideVehicleAttachData.transitionTime = attachBlendTime
 	vehicleAttachment.riderActor:SetAttachedTo(rideVehicleAttachData)
 
