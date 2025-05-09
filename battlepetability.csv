@@ -2245,3 +2245,23 @@ Takes [abs(abilityStateMod( 24, 807 ))]% additional damage.",900319,5,0,0,3
 1238,Shadow Talon,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
 Slashes at the target with cruel talons, dealing [StandardDamage(1,1)] [petTypeName(abilityPetType())] damage.",136076,2,0,0,0
+2530,Deadly Dreaming,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Arfus slumbers. His deadly dreams haunt the target, dealing [StandardDamage(1,1,653)] [School()] damage every round. 
+
+While Arfus slumbers, he is considered dead.",236798,3,4,0,0
+2531,Zoomies,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Attacks the enemy 5 times, dealing [StandardDamage(1,1)] [School()] damage per attack.
+
+At the end of the round, your speed increases by 10% for each time the ability hits. This speed increase lasts for 2 turns.",538536,7,3,0,0
+2532,Swipe,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Deals [StandardDamage(1,1)] [School()] damage to the enemy's active pet and [StandardDamage(1,2)] [School()] damage to the enemy's backline pets.",132143,7,0,0,0
+2533,Puppy Parade,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Starts a stampede, causing [FormatDamage(SimpleDamage(1,1)+SimpleDamage(1,2)+SimpleDamage(1,3))] [School()] damage on the first round, [FormatDamage(SimpleDamage(2,1)+SimpleDamage(2,2)+SimpleDamage(2,3))] [School()] on the second round, and [FormatDamage(SimpleDamage(3,1)+SimpleDamage(3,2)+SimpleDamage(3,3))] [School()] on the third round.
+
+Opponents struck by the stampede take [abs(abilityStateMod( 24, 542 ))]% increased damage for [duration(1,4)] |4round:rounds;.
+
+Stampede continues for [numTurns()] |4round:rounds;.",236344,7,0,0,0

@@ -2354,7 +2354,11 @@ end
 function ActorCreateData:NewModel(_name, _modelFile, _trans, _scale)
 	local c = ActorCreateData:Default()
 
-	c.model = _modelFile
+	if type(_modelFile) == ""number"" then
+		c.modelFileID = _modelFile
+	else
+		c.model = _modelFile
+	end
 	c.scale = _scale or c.scale
 	c.name = _name
 	c.transform = _trans
