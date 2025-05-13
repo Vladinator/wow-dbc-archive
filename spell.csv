@@ -11161,7 +11161,7 @@ Attack speed increased by $s2%."
 15283,,Stuns target for $d.,Stunned.
 15284,,"Inflicts weapon damage plus $s1 to an enemy and its nearest allies, affecting up to $x1 targets.",
 15285,,Inflicts Fire damage to nearby enemies.,
-15286,,Afflicts your target with Shadow energy that causes all party members to be healed for $s1% of any Shadow spell damage you deal for $d.,$s1% of Shadow spell damage caused by casting priest heals the priest's group.
+15286,,Afflicts your target with Shadow energy that causes all party members to be healed for $s1% of any Shadow spell damage you deal for $d$?a440247[. You take $440247s8% more healing from this effect][].,$w1% of Shadow spell damage caused by casting priest heals the priest's group.
 15288,,Increases the magical damage dealt by an ally by $s1 for $d.,Magical damage dealt is increased by $s1.
 15290,,,20% of Shadow spell damage taken heals caster.
 15292,,,
@@ -24151,6 +24151,7 @@ $@spelldesc415370",
 $@spellicon409552
 $@spelldesc409552",
 410140,,,Incapacitated by the venom of a cave spider
+410144,,,Absorbs Physical damage equal to ${$m1/$m2}% of your attack power for $s2 $Lhit:hits;.
 410156,Rank 1,"Gives you an extra attack.  In addition, the next 2 sources of Nature damage dealt to the target are increased by $17364s2%.  Lasts $17364d.",
 410163,,,His wounds are badly infected
 410169,,,
@@ -25947,7 +25948,7 @@ Your pet gains Frenzy each time it uses a Basic Attack, increasing its melee att
 428732,,,
 428733,,,The corrupted waters cling to you.
 428738,,"Increases the magnitude of your Mana Shield, Frost Ward, and Fire Ward by $s1%, and decreases mana drained by Mana Shield by $s2% per damage done.",
-428739,,Stuns the target for $d.  Only usable on Frozen targets.  Deals ${$428917m1*$<power>/100*$<frostdamage>} to ${$428917M1*$<power>/100*$<frostdamage>} damage to targets permanently immune to Stun.,Stunned and Frozen.
+428739,,"Stuns the target for $d.  Only usable on Frozen targets.  Deals ${$428917m1*$<power>/100*$<frostdamage>} to ${$428917M1*$<power>/100*$<frostdamage>} damage to targets permanently immune to Stun. This damage benefits from, but does not consume, stacks of Glaciate.",Stunned and Frozen.
 428740,,,
 428741,,"Causes ${$428743m1/100*$<power>} Fire damage when hit, increases your spell critical strike chance by $s3%, and reduces the chance you are critically hit by $s2%.  Only one type of Armor spell can be active on the Mage at any time.  Lasts $d.",Causes Fire damage to attackers.  Chance to receive a critical hit reduced by $s2%.  Spell critical strike chance increased by $s3%.
 428743,,,
@@ -25979,8 +25980,11 @@ $@spellicon428861
 $@spelldesc428861",
 428865,,,Location of recent Blink recorded.
 428872,,,
-428878,,"Unleash a reality-distorting burst of raw magic at your enemy, dealing ${$<power>*$m1/100} to ${$<power>*$M1/100} Chimeric damage.  Each time you cast Balefire Bolt, the damage of your next Balefire Bolt within $d will be increased by $s3% and your Spirit will be decreased by $s2% for $d, both stacking up to $u times. If your Spirit reaches 0 as consequence, you will immediately die. This spell will be checked against the lower of the target's Arcane, Fire, and Frost resists.
-",Increases damage dealt by Balefire Bolt by $s3% but decreases Spirit by $s2%. Reaching 0 Spirit is fatal.
+428878,,"Unleash a reality-distorting burst of raw magic at your enemy, dealing ${$<power>*$m1/100} to ${$<power>*$M1/100} Chimeric damage.
+
+Increasing your Balefire Bolt and Pyroblast damage by $s3%, decreasing your Spirit by $s2%, and stacking up to $u times for $d. If your Spirit reaches 0, you die.
+
+This spell will be checked against the lower of the target's Arcane, Fire, and Frost resists.",Increases damage dealt by Balefire Bolt and Pyroblast by $s3% but decreases Spirit by $s2%. Reaching 0 Spirit is fatal.
 428885,,Launches an orb of temporal energy which slowly moves forward and every $428888t1 sec grants all nearby party members a shield absorbing ${$428895m1*$<power>/100} damage for $428895d. This shield accumulates additional value if party members remain near the orb.,
 428888,,,
 428895,,,Absorbs $w1 damage.
@@ -25994,7 +25998,7 @@ $@spelldesc428861",
 428998,,,
 429125,,"Hastens your spellcasting, increasing spell casting speed by $s1% and reduces the pushback suffered from damaging attacks while casting by $s2%.  Lasts $d.",Casting speed of all spells increased by $s1% and reduces pushback suffered by damaging attacks while casting by $s2%.
 429133,,"Increases the damage prevented by your Blessing of Sanctuary by $s1%, and increases damage done by your Blessing of Sanctuary by $s2% of your shield block value.",
-429139,,"Your Consecration damage can now be critical strikes, and damage from your Exorcism, Holy Shock, Holy Wrath, and Consecration spells gains additional critical strike chance equal to your melee critical strike chance.",
+429139,,"Your Consecration damage can now be critical strikes, and damage from your Exorcism, Holy Shock, Sunlight, Holy Wrath, and Consecration spells gains additional critical strike chance equal to your melee critical strike chance.",
 429142,,"Increases your critical strike chance with Holy spells by $s1%. In addition, your critical healing spells heal the target for $s2% of the healed amount over $426162d.",
 429144,,"Reduces the cooldown on Exorcism and Holy Wrath by $s1%, and Holy Wrath can now be cast at any target and will Stun Undead and Demon targets for $429147d.",
 429145,Rank 1,"Sends bolts of holy power in all directions, causing $s1 Holy damage to all targets within $a1 yds and Stunning Demon and Undead targets for $429147d.",
@@ -28949,7 +28953,7 @@ $@spelldesc400735",Healing ${$w1*3} health over $d.
 456493,,,
 456494,,Your Judgement of Light and Judgement of Wisdom also grant the effects of Judgement of the Crusader.,
 456496,,,Increases Holy damage taken by up to $s1.
-456533,,"Your Seal of Command, Seal of Righteousness, and Seal of Martyrdom deal $s2% less damage, but now persist for $s1 seconds after you cast another Seal, or until you cast a third Seal. Your Judgements can now trigger multiple Seals if active.",
+456533,,"Your Seal of Command, Seal of Righteousness, Seal of Martyrdom, and Sunlight deal $s2% less damage, but now persist for $s1 seconds after you cast another Seal, or until you cast a third Seal. Your Judgements can now trigger multiple Seals if active.",
 456536,,Increases the block value of your shield by $s1.,
 456538,,Heal for $456540s1 when you Block. Can only heal once every few seconds.,
 456540,,,
@@ -29968,8 +29972,14 @@ Sinister Strike and Eviscerate damage increased by $s3%."
 462787,,,
 462814,,,
 462831,,,
-462832,,,Spell damage increased by $w1.
-462834,,You gain $s1% of your Intellect as Spell Damage for $462832d when you cast Holy Shock.,
+462832,,,"Spell damage increased by $w1.
+Threat generation reduced by $w2%."
+462834,,"While Righteous Fury is not active, dealing Holy Shock damage grants $s1% of your Intellect as Spell Damage and reduces the threat you generate by $462832s2% for $462832d.
+
+If Infusion of Light is engraved, gain Sunlight for $1239543d.
+
+$@spellicon1239543
+Sunlight causes Divine Storm, Crusader Strike, and melee attacks against non-player controlled targets to deal bonus Holy damage equal to $s2% of your holy spell power.",
 462848,,,
 462850,,,
 462851,,,
@@ -32024,7 +32034,7 @@ Critical damage against targets in these areas is also increased by $s2%."
 1218695,,,Attack and casting speeds increased by $s1%.
 1218697,,"Damage you deal to Undead causes $s1% more chronomantic healing, and you gain mana equal to $s2% of the chronomantic healing you generate from damaging Undead.",
 1218699,,,
-1218700,,"Your Evocation grants you $?a1218232|a1218271|a1218275|a1218276|a1218283|a1224428[$1218701s1%][$1218701s2%] increased damage done every sec you channel it, stacking up to $?p1226423[$m2+$1226423m2][$m2] times and lasting $1218701d.",
+1218700,,"Your Evocation grants you $?a1218232|a1218271|a1218275|a1218276|a1218283|a1224428[$1218701s1%][$1218701s2%] increased damage done every sec you channel it, stacking up to $m2 times and lasting $1218701d.",
 1218701,,,All damage done increased by $w1%.
 1218988,,,
 1218993,,Reduces the cooldown on your Evocation ability by $s1%.,
@@ -32133,7 +32143,7 @@ Slows movement speed by $s2%."
 1219368,,Reduces the cooldown on your Lava Burst ability by ${$m1/-1000} sec.,
 1219369,,"You gain $1219370s1% increased damage and critical damage done to Undead for $1219370d for each time your Overload triggers from an offensive spell cast, stacking up to $1219370u times.",
 1219370,,,Damage and critical damage done to Undead increased by $s1%.
-1219373,,Increases damage done by your Lightning Shield by $s1%.,
+1219373,,"While Static Shock is engraved, the damage done by your Lightning Shield is increased by $s1%.",
 1219374,,Reduces the cooldown on your Lava Lash and Stormstrike abilities by ${$m1/-1000}.1 sec.,
 1219375,,,Damage and critical damage done to Undead increased by $s1%.
 1219376,,"You gain $1219375s1% increased damage and critical damage done to Undead for $1219375d for each charge of Maelstrom Weapon you earn, stacking up to $1219375u times.",
@@ -33894,8 +33904,10 @@ $?pc138518[This enhancement is permanent and cannot be removed or replaced.][]",
 1226423,,"Your Living Bomb now deals damage every $s1 sec, and will detonate if the target dies. In addition, the effect of Glaciate from the rune of Ice Lance now stacks up to $s2 times, and Spellfrost Bolt grants $s3 stacks each time it hits.",
 1226432,,"Reduces the cooldown on your Frozen Orb spell by ${$m4/-1000} sec. Each time Glaciate is consumed, the cooldown on your Deep Freeze is reduced by ${$m5/1000}.1 sec per stack consumed. Reduces the cooldown on Fire Blast by ${$m2/-1000} sec and Fire Blast now refreshes the duration of your Living Bomb on the target.",
 1226446,,Casting Deep Freeze increases the remaining duration of your Icy Veins spell by ${$m1/1000} sec. Casting Pyroblast cancels $s2 $lstack:stacks; of the effect from your Balefire Bolt.,
-1226451,,,Spellcasting speed increased by $s1%.
-1226452,,Lay on Hands also grants you $1226451s1% spell haste for $1226451d.,
+1226451,,,"Spellcasting speed increased by $s~1%.
+
+Global Cooldown of your Divine Light, Holy Light, Flash of Light, and Holy Shock reduced by ${$m~2/-1000}.1 seconds."
+1226452,,"Lay on Hands grants you $1226451s1% Spell Haste for $1226451d and reduces the Global Cooldown of your next $1226451n Divine Light, Holy Light, Flash of Light, or Holy Shock spells by ${$1226451m2/-1000}.1 seconds.",
 1226454,,"Your Beacon of Light now also triggers when you heal your Beacon of Light target, but at $s1% reduced effectiveness.",
 1226455,,,
 1226459,,An additional $s1% of your healing is transferred to your Beacon of Light target.,
@@ -33909,16 +33921,16 @@ $?pc138518[This enhancement is permanent and cannot be removed or replaced.][]",
 1226477,,Shield of Righteousness deals percentage increased damage equal to your Block Chance.,
 1226479,,"Your Avenging Wrath no longer triggers Forbearance, lasts ${$m1/1000} sec longer, and increases your Block Value by $1233525s1%.",
 1226480,,,
-1226499,,Your Surge of Light now also makes Prayer of Healing and Greater Heal instant cast.,
+1226499,,Reduces the cooldown of Power Word: Barrier by ${$m2/-1000} sec and Surge of Light now also makes Prayer of Healing and Greater Heal instant cast.,
 1226500,,,"Cast time of your next Lesser Heal, Heal, Greater Heal, Flash Heal, Binding Heal, or Prayer of Healing spell reduced by $s1%."
-1226501,,"When you cast Power Infusion on a target other than yourself, you also gain Power Infusion. The cooldown of your Spirit of the Redeemer is reduced by ${$m1/-1000} sec and your healing is increased by $s2% while your Spirit of the Redeemer is active.",
+1226501,,"Increases the healing of Circle of Healing and Penance by $s3%. Additionally, the cooldown of your Spirit of the Redeemer is reduced by ${$m1/-1000} sec and your healing is increased by $s2% while your Spirit of the Redeemer is active.",
 1226502,,,Healing ${$w1/2} damage every $t1 seconds.
 1226503,,,
 1226504,,,
 1226529,,,This barrel still has fish!
 1226534,,,
 1226537,,,
-1226565,,Your Power Word: Shield also instantly heals the target for $s1% of the absorb value.,
+1226565,,Power Word: Shield casts instantly heal the target for $s1% of the absorb value and Serendipity empowered spells have their healing increased by $s2% per stack.,
 1226566,,,
 1226585,,"Your Mind Flay and Mind Sear no longer lose duration from taking damage during their channel. In addition, they deal $s2% increased damage per other periodic Shadow effect you have on the target, up to a maximum increase of ${$m2*3}%.",
 1226589,Rank 8,,
@@ -33976,7 +33988,7 @@ $?pc138518[This enhancement is permanent and cannot be removed or replaced.][]",
 1227231,,"Your Heroic Strike, Cleave, and Quick Strike damage is increased by $s2% while in Battle Stance or Berserker Stance. Your Cleave strikes $s1 additional target and can trigger Blood Surge.",
 1227232,,"Each time you hit a target with Whirlwind, Heroic Strike, Quick Strike, or Cleave, the damage of your next Slam is increased by $1234005s1%, stacking up to $1234005u times.",
 1227234,,"Each time Deep Wounds deals damage, it reduces the remaining cooldown on your Whirlwind by $s1 sec. Whirlwind deals $s2% increased damage to targets afflicted with your Deep Wounds.",
-1227237,,"Your Shockwave deals $s1% increased damage and its cooldown is reduced by ${$m2/1000}.1 sec each time you hit a target with Heroic Strike, Quick Strike, or Cleave.",
+1227237,,Your Shockwave deals $s1% increased damage and its cooldown is reduced by ${$m2/1000}.1 sec each time you hit a target with Heroic Strike or Cleave.,
 1227242,,"Your Recklessness, Retaliation, and Shield Wall abilities no longer share a cooldown. Additionally, your Recklessness ability lasts ${$m1/1000} sec longer, and while it is active you gain $s2% of your Defense Skill over 300 as Strength. ",
 1227245,,"Your abilities no longer have stance requirements. In addition, hits from Revenge, Devastate, or Shield Slam increase the damage done by your next Whirlwind or Execute by $1234067s3%, stacking up to $1234067u times.",
 1227268,,,
@@ -34717,7 +34729,7 @@ Screeching Terrors become Enraged if hit."
 1232332,,,
 1232333,,,
 1232345,,Add the Torn Page to Putress' Diary.,
-1232349,,Add the Frist Page to Putress' Diary.,
+1232349,,Add the First Page to Putress' Diary.,
 1232351,,Add the Second Page to Putress' Diary.,
 1232352,,Add the Third Page to Putress' Diary.,
 1232353,,Add the Fourth Page to Putress' Diary.,
@@ -35209,6 +35221,7 @@ Health regeneration increased."
 1236884,,,
 1236922,,,
 1237045,,$@spelldesc1232177,Immune to silence.
+1237064,,Attaches a permanent scope to a bow or gun that increases its chance to hit by 3%.,
 1237114,,,
 1237147,,Throw the Incendiary Bomb at a nearby Ballista.,
 1237155,,"Acid rain falls from above, inflicting $s1 Nature damage to players struck.",Stunned.
@@ -35234,7 +35247,57 @@ Health regeneration increased."
 1237938,,"Shoots poison at an enemy, inflicting Nature damage, then additional damage every $t2 sec. for $d.",Deals $s2 nature damage every $t2 sec.
 1237939,,,Attack speed increased by $s1%.
 1237976,,,
-1237064,,Attaches a permanent scope to a bow or gun that increases its chance to hit by 3%.,
 1238096,,Adds a chance to stun an enemy on attack. Lasts $d.,Stunned.
 1238097,,Take on the guise of a ninja assassin.,
 1238149,,Increases damage done by your Lightning Shield by $s1%.,
+1238307,,,
+1238309,,,
+1238310,,,
+1238311,,,
+1238315,,,
+1238316,,,
+1238317,,,
+1238318,,,
+1238319,,Deals $s1 Shadow damage every $t1 sec.,Deals $s1 Shadow damage every $t1 sec.
+1238320,,,
+1238321,,,
+1238322,,,
+1238323,,,
+1238324,,,
+1238358,,,
+1238366,,,
+1238584,,,
+1238678,,,
+1238785,,,
+1238787,,Do damage divided up evenly among all affected targets,
+1238788,,,
+1238817,,,
+1238818,,,
+1238819,,,
+1238821,,,
+1238891,,,
+1238910,,,
+1238912,,,
+1238926,,,
+1239031,,,
+1239032,,,
+1239038,,,
+1239045,,,
+1239077,,,
+1239090,,,
+1239100,,,
+1239114,,,
+1239173,,,
+1239241,,,
+1239255,,,
+1239256,,,
+1239317,,,
+1239456,,,Stunned.
+1239482,,"Smites an enemy, inflicting Holy damage.",
+1239543,,,"Divine Storm, Crusader Strike, and melee attacks deal bonus Holy damage."
+1239548,,,
+1239620,,,
+1240071,,Improves your chance to get a critical strike with all spells and attacks by $s1%.,
+1240571,,"While Shock and Awe is active, Crusader Strike and Exorcism grant you Holy Power, increasing all Holy damage you deal by $1226461s1%, stacking up to $1226461u times.",
+1240573,,Consuming Holy Power increases your Spell Power by $1240574s1% per Holy Power consumed for $1240574d.,
+1240574,,,Increases Spell Power by $w1%.
