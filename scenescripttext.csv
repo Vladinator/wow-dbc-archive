@@ -63882,6 +63882,8 @@ isObserved = false
 observingPlayerIndex = 0
 availableCamTransition = 0
 
+print(""BEGINNING PetBattleInit and Main Loop"")
+
 if battleScene then
 	initialBattleState = battleScene:GetBattleState()
 	observingPlayerIndex = battleScene:GetUIObservingPlayer()
@@ -63928,7 +63930,9 @@ if (teams[2]) then
 end
 
 InitTeam(teams[PetBattlePlayerID.Weather])
+print(""initTeam 1"")
 InitTeam(teams[PetBattlePlayerID.Player1])
+print(""initTeam 2"")
 InitTeam(teams[PetBattlePlayerID.Player2])
 
 InitAurasAndStates ( teams[PetBattlePlayerID.Weather] )
@@ -63958,6 +63962,7 @@ local inBattle = true
 local winnerID
 
 while (inBattle == true) do
+	print(""start of main loop"")
 	local event = nil
 
 	-- poll for battle events
@@ -63971,6 +63976,7 @@ while (inBattle == true) do
 	inBattle, winnerID = ProcessEvent(event)
 end
 
+print(""exited main loop"")
 VictoryCeremonyCleanUp(winnerID)
 
 if isObserved then
