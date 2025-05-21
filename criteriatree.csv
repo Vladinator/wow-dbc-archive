@@ -9701,8 +9701,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 121713,Warbringer Chestguard,121678,1,0,4903,0,2
 121714,,0,0,4,0,0,0
 121715,Win Eye of the Storm.,121714,1,0,5897,0,2
-121716,,0,0,4,0,0,0
-121717,Complete 100 victories in Eye of the Storm,121716,100,0,5897,0,1
+121716,Complete 100 victories in Eye of the Storm,0,100,5,0,0,0
+121717,Complete 100 victories in Eye of the Storm,121716,100,0,5897,1,3
 121718,,0,0,4,0,0,0
 121719,Capture a flag with 4 bases held,121718,1,0,3693,0,2
 121720,,0,0,4,0,0,0
@@ -10948,7 +10948,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 123013,Swamp of Sorrows,122988,1,0,1294,0,0
 123014,,0,0,4,0,0,0
 123015,Fished up Lurker,123014,1,0,3622,0,2
-123016,Eye of the Storm victories,0,0,4,0,0,0
+123016,Eye of the Storm victories,0,0,5,0,0,0
 123018,,0,0,4,0,0,0
 123019,Arathi Basin victories,123018,0,0,5896,0,0
 123020,,0,0,4,0,0,0
@@ -14544,7 +14544,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 126967,Vehicular Gnomeslaughter,126958,0,0,9769,0,0
 126968,Leaning Tower,126958,0,0,9770,0,0
 126969,Didn't Stand a Chance,126958,0,0,9771,0,0
-126970,,0,0,4,0,0,0
+126970,Capture the flag,0,1,8,0,0,0
 126971,Capture the flag,126970,1,0,438,0,2
 126972,,0,0,4,0,0,0
 126973,Thistlefur Village,126972,1,0,1326,0,0
@@ -23117,3 +23117,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 207737,,207736,5,0,103584,0,0
 207738,5 Talent Points Allocated,0,10,4,0,0,4096
 207739,,207738,5,0,103585,0,0
+209977,Eye of the Storm victories,123016,0,0,5897,1,0
+209978,Complete 100 victories in Eye of the Storm,121716,100,0,5745,0,3
+209979,Capture the flag,126970,1,0,33092,1,2
+210767,[DNT] Joyous Journeys - Reach Level 85 with buff Joyous Journeys (hidden),0,0,4,0,0,2
+210768,,210767,85,0,105446,0,2
