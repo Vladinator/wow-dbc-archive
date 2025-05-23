@@ -4841,9 +4841,14 @@ modelRoll=math.sin(modelYaw*math.pi/180)*90
 transAngle = angle
 transMag = (progress * 2) - 1
 transMag = (1 - (transMag * transMag)) * maxMagnitude",0,1
-3120,Chaos Wave,"scale = 1+2*progress
+3120,Chaos Wave,"progress = time
 
-speedAbs = .1+500*progress*progress*progress
+scale = 1+1.25*progress
+
+--speedAbs = .1+500*progress*progress*progress
+--out_speedScale = .1*(progress*progress*progress*progress+0.1)+0.5
+--out_speedScale = 0.3 + 1.7 * (progress*progress*progress)
+out_speedScale = 0.1 + 3 * progress*progress*progress*progress*progress*progress*progress*progress
 
 transUp = 1.5
 transFront = 7*progress",0,1
