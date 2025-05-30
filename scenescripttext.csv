@@ -21673,7 +21673,7 @@ function CreateObject_Rocket(ROID, isAura, aura, auraInstanceID, turnsRemaining,
 
 	local pad = ROIDTOPET(ROID);
 
-	local groundModel = ""WORLD\\GENERIC\\GOBLIN\\PASSIVEDOODADS\\SILOROCKET\\Goblin_SiloRocket_01.M2"";
+	local groundModel = fid(356037);
 
 	local object, playerID, slot, transform = RegisterObject( aura.playerID, auraAbilityID, auraInstanceID)
 
@@ -35059,7 +35059,8 @@ FadeOut(playerClone, 0)
 rell = SmoothPhaseSpawnActor(rellCreatureID, -829.823, -1793.19, 5.22982, 175.186, 1, false)
 rellBunny = SpawnActor(bunnyCreatureID, -835.612, -1792.7, 5.33783, 175.186, 1, false)
 rellBunny2 = SpawnActor(bunnyCreatureID, -835.612, -1792.7, 5.33783, 175.186, 1, false)
-admiralRogers = SpawnActor(rogersCreatureID, -664.906, -1483.25, 130.2, 169.093, 0, 1, false)
+admiralRogers = SpawnActor(rogersCreatureID, -664.906, -1483.25, 130.2, 169.093, 1, 1, false)
+admiralRogers:Fade( 0, 0 )
 --rogersCopter = SpawnActor(gyrocopterCreatureID, -719.173, -1814.36, 31.8621, 168.299, 1, false)
 taranzhu = SmoothPhaseSpawnActor(taranzhuCreatureID, -834.064, -1772.82, 7.57897, 274.001, 1, true)
 --shaHaunt = SpawnActor(shaHauntCreatureID, -835.612, -1792.7, 7.33783, 175.186, 0.5, false)
@@ -35076,10 +35077,7 @@ FadeOut(blood1, 0)
 
 orc2 = SpawnActor( orcCreatureID, -879.855, -1759.17, -1.4, 0, 1, false)
 blood2 = SpawnActor( orcCreatureID, -879.855, -1759.17, -1.4, 0, 1, false)
-FadeOut(orc2, 0)
-FadeOut(blood2, 0)
-
-"
+FadeOut(orc2, "
 1494,Jade Forest - Naval Finale - MASTER - ZTO ,"WaitForTrigger(""smoothPhaseComplete"")
 
 --Blah blah blah 
@@ -36314,7 +36312,10 @@ nazgrim:ClearSpellVisual( instanceID)
 
 scene:WaitTimer(10)
 "
-1535,[1] Jade Forest - Naval Finale - Init - ZTO,"orc3 = SpawnActor( orcCreatureID, -835.125, -1756.03, -1.4, 0, 1, false)
+1535,[1] Jade Forest - Naval Finale - Init - ZTO,"0)
+FadeOut(blood2, 0)
+
+orc3 = SpawnActor( orcCreatureID, -835.125, -1756.03, -1.4, 0, 1, false)
 blood3 = SpawnActor( orcCreatureID, -835.125, -1756.03, -1.4, 0, 1, false)
 FadeOut(orc3, 0)
 FadeOut(blood3, 0)
@@ -37610,7 +37611,13 @@ serpentCreatureID = 64977
 nazgrimDesaturateAuraID = 28519
 shaGroundVisualAuraID = 28189
 shaTransformFXBaseAuraID = 28222
-shaRightArmAuraID = 27871 --Bug  325914 - Will not clear with ClearSpellVisual( shaGroundVisualAuraID }
+shaRightArmAuraID = 27871 --Bug  325914 - Will not clear with ClearSpellVisual()
+--shaLeftArmAuraID = 27872 --Bug  325914 - Will not clear with ClearSpellVisual()
+shaLeftArmAuraID = 28463 --Correct Client-side Version
+shaBubblesAuraID = 27648
+shaExorcismAuraID = 28297 
+shaGroundAuraID = 28388
+groundAurasID = { shaGroundAuraID, shaGroundVisualAuraID }
 shaBurstAuraID = 27433
 shaExtractionAuraID = 28491
 nazgrimAxeOnBack = 28515
@@ -41626,13 +41633,20 @@ function YellTextWithAnim(actor, broadcastId, overrideAnim, BroadcastStereo)
 	local anim = overrideAnim or  Animations.EmoteTalkExclamation
 	PlayOneShotSplitBodyAnim( actor, anim )
 end"
-9339,Cinematic Framework - Fake Spellcasting,"function CastSpellAtLocation( actor, spellVisualID, locationList, castTime, missileSpeed, missileSpeedIsFlatTime, waitForMissiles ) 
+9339,Cinematic Framework - Fake Spellcasting,"--
+-- Spellcasting
+-- These Scripts have been added to SVN, if you make a change here, update it
+-- also there Object\ObjectClient\SceneScriptPackages\CinematicFramework
+-- If you do not know how - contact a Gameplay Programmer
+--
+
+function CastSpellAtLocation( actor, spellVisualID, locationList, castTime, missileSpeed, missileSpeedIsFlatTime, waitForMissiles ) 
 	local precastTime = castTime or 1.5;
 	local missileSpeed = missileSpeed or 40;
 
 	local preCastInstance = actor:PlaySpellPreCastVisual(spellVisualID)
 	scene:WaitTimer(precastTime)
-	actor.actor:ClearSpellVisual( preCastInstance)
+	actor:ClearSpellVisual(preCastInstance)
 
 	if ( #locationList >= 1 ) then
 		actor:PlaySpellCastVisualAtPoints(
@@ -41706,15 +41720,18 @@ local ClearChannelFuncInternal = function( channel )
 
 	-- clear state kit
 	if (channel.casterStateHandle) then
-		channel.casterActor:ClearSpellVisual( channel.casterStateHandle )
+		channel.casterActor:ClearSpellVisual( channel.casterStateHandle )                       
 		channel.casterStateHandle = nil
 	end
 
 	-- clear beams
 	if ((channel.instanceID) and (channel.instanceID ~= 0)) then
-		for i,target in pairs(channel.channelTargets) do
-			target:ClearSpellChannelVisual( channel.visualID, channel.instanceID )
-		end
+--		for i,target in pairs(channel.channelTargets) do
+--			target:ClearSpellVisual( channel.instanceID )
+--		end
+
+-- the below supercedes the above from code rev 326619 which corrected a channeling ownership issue 
+		channel.casterActor:ClearSpellVisual( channel.instanceID )
 		channel.instanceID = 0
 	end
 end
@@ -41741,12 +41758,7 @@ end
 
 --
 -- ChannelSpellVisualAtActor( channel )
---   Clear a previously issued spell channel
---
-function ClearChannelSpellVisual( channel )
-	ClearChannelFuncInternal(channel)
-end
-"
+--   Clear a previously issued spell "
 9340,Warlock Class - Meet the Masters - Blade's Edge - Setup NPCs,"
 -- Spawn Kanrethad
 local kanrethadCreatureID = 68019
@@ -72449,6 +72461,12 @@ local env = getfenv();
 for t, shortcut in pairs(wrappers) do
 	env[shortcut] = function(id) return id end;
 end"
+44023,[1] Cinematic Framework - Fake Spellcasting,"channel
+--
+function ClearChannelSpellVisual( channel )
+	ClearChannelFuncInternal(channel)
+end
+"
 60866,[1] Global Functions - Actor,"_displayID or c.creatureDisplayID
 	c.scale = _scale or c.scale
 	c.transform = _trans

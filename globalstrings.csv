@@ -9444,7 +9444,7 @@ ID,BaseTag,TagText_lang,Flags
 20979,SPELL_FAILED_ONLY_NOT_SWIMMING,Cannot use while swimming,1
 20980,MANA_REGEN_COMBAT,Combat Regen,1
 20981,STAT_ATTACK_SPEED,Attack Speed,1
-20982,STAT_TOOLTIP_BONUS_AP,Increases the magnitude of your attacks and abilities,1
+20982,STAT_TOOLTIP_BONUS_AP,Increases Attack Power by %s\n,1
 20983,STAT_CATEGORY_ATTRIBUTES,Attributes,1
 20984,STAT_CATEGORY_GENERAL,General,1
 20985,STAT_CATEGORY_MELEE,Melee,1
@@ -10958,7 +10958,7 @@ ID,BaseTag,TagText_lang,Flags
 22584,ITEM_MOD_PVP_POWER,Increases your PvP power by %s.,1
 22585,PET_BATTLE_CURRENT_HEALTH_FORMAT,%d/%d,1
 22586,STAT_PVP_POWER,PvP Power,1
-22587,PVP_POWER_TOOLTIP,Increases %s in PvP combat by %d.,1
+22587,PVP_POWER_TOOLTIP,"Increases damage done to players and their pets or minions, and increases healing done in PvP zones and outdoors.",1
 22588,CHI_COST_PER_TIME,"%s Chi, plus %s per sec",1
 22589,SOUL_SHARDS_COST_PER_TIME,"%s Soul Shards, plus %s per sec",1
 22590,DARK_FORCE_COST_PER_TIME,"%s Dark Force, plus %s per sec",1
@@ -12915,7 +12915,7 @@ ID,BaseTag,TagText_lang,Flags
 24674,GARRISON_FINALIZE_BUILDING_TOOLTIP,Return to your building to finalize construction.,1
 24675,TOY_BOX,Toy Box,1
 24676,TOY_PROGRESS_FORMAT,%d/%d,1
-24677,STAT_TOOLTIP_BONUS_AP_SP,Increases the magnitude of your attacks and abilities,1
+24677,STAT_TOOLTIP_BONUS_AP_SP,Increases Attack Power and Spell Power by %s/n,1
 24678,COLLECTION_PAGE_NUMBER,Page %d / %d,1
 24679,COLLECTIONS,Collections,1
 24681,GARRISON_BUILDING_IN_PROGRESS,Building in Progress,1
@@ -18799,6 +18799,7 @@ They will be deleted and remade with the current customized character.",2
 53470,CINEMATIC_SUBTITLES_BACKGROUND_OPTION_LIGHT,Light,3
 53472,CINEMATIC_SUBTITLES_BACKGROUND_COLOR_OPTION_LABEL,Subtitles Background,3
 53473,CINEMATIC_SUBTITLES_BACKGROUND_OPACITY_OPTION_LABEL,Background Opacity,3
+53512,VIDEO_OPTIONS_INTEL_XELL,Intel XeLL,3
 53734,COLORS_LABEL,Colors,3
 53744,CONFIRM_REMOVE_WOW_FRIEND,Are you sure you want to remove this friend from your list? This action cannot be undone.,1
 53900,EMPTY_SOCKET_SINGING_THUNDER,Singing Thunder Socket,1
