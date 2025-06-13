@@ -20227,7 +20227,7 @@ ID,FilePath,FileName
 481171,Interface\Glues\MODELS\UI_Dwarf\,UI_Dwarf00.skin
 481172,Interface\GLUES\MODELS\UI_Gnome\,UI_Gnome00.skin
 481174,Interface\GLUES\MODELS\UI_Goblin\,UI_Goblin00.skin
-481178,Interface\Glues\Models\UI_Human\,UI_Human00.skin
+481178,Interface\GLUES\Models\UI_Human\,UI_Human00.skin
 481180,Interface\Glues\MODELS\UI_MAINMENU\,UI_MainMenu00.skin
 481181,interface\glues\models\ui_mainmenu_burningcrusade\,ui_mainmenu_burningcrusade00.skin
 481185,Interface\GLUES\MODELS\UI_MainMenu_Cataclysm\,UI_MainMenu_Cataclysm00.skin
@@ -20242,7 +20242,7 @@ ID,FilePath,FileName
 481205,interface\glues\models\ui_rs_scourge\,ui_rs_scourge00.skin
 481207,Interface\GLUES\MODELS\UI_RS_TAUREN\,UI_RS_Tauren00.skin
 481210,interface\glues\models\ui_scourge\,UI_Scourge00.skin
-481211,Interface\Glues\Models\UI_Tauren\,UI_Tauren00.skin
+481211,Interface\GLUES\MODELS\UI_TAUREN\,UI_Tauren00.skin
 481215,Interface\GLUES\MODELS\UI_Troll\,UI_Troll00.skin
 481220,Interface\GLUES\MODELS\UI_Worgen\,UI_Worgen00.skin
 481223,interface\ItemAnimations\,ForcedBackpackItem00.skin
@@ -20251,7 +20251,7 @@ ID,FilePath,FileName
 481226,interface\minimap\,rotating-minimaparrow00.skin
 481227,Interface\Minimap\,MinimapArrow00.skin
 481228,Interface\MINIMAP\Ping\,MinimapPing00.skin
-481229,interface\vehicles\,Vehicle_Target_0200.skin
+481229,Interface\VEHICLES\,Vehicle_Target_0200.skin
 481230,interface\vehicles\,vehicle_target_0100.skin
 488577,Interface\ICONS\,INV_AXE_2H_FIRELANDSRAID_D_01.BLP
 509966,Interface\ICONS\,INV_Axe_1H_FirelandsRaid_D_01.blp
@@ -22622,7 +22622,7 @@ ID,FilePath,FileName
 574547,Interface\GLUES\MODELS\UI_PANDAREN\,UI_PANDAREN_BG04.BLP
 574548,Interface\GLUES\MODELS\UI_PANDAREN\,Panda_CascadeTreeGold_Canopy2.blp
 574549,interface\glues\models\ui_pandaren\,UI_Pandaren.m2
-574550,Interface\Glues\Models\UI_Pandaren\,UI_Pandaren00.skin
+574550,Interface\GLUES\MODELS\UI_PANDAREN\,UI_Pandaren00.skin
 574567,Interface\ICONS\,Creatureportrait_Nexus_Floating_Disc.blp
 574568,Interface\ICONS\,ability_monk_BlackoutKick.blp
 574569,Interface\ICONS\,ability_monk_cranekick.blp
@@ -22723,7 +22723,7 @@ ID,FilePath,FileName
 587715,Interface\CHATFRAME\,UI-ChatIcon-ArmoryChat-BusyMobile.blp
 587740,Interface\ICONS\,Ability_Mount_FelDrake.blp
 587741,interface\buttons\,TalkToMe_Chat.m2
-587742,interface\buttons\,TalkToMe_Chat00.skin
+587742,Interface\BUTTONS\,TalkToMe_Chat00.skin
 587743,Interface\BUTTONS\,YellowOrange64_Radial.blp
 587744,interface\buttons\,TalkToMe_Gears.m2
 587745,interface\buttons\,TalkToMe_Gears00.skin
@@ -24797,7 +24797,7 @@ ID,FilePath,FileName
 623712,interface\glues\models\ui_alliance\,UI_Alliance.m2
 623713,interface\glues\models\ui_alliance\,UI_Alliance00.skin
 623714,interface\glues\models\ui_horde\,UI_Horde.m2
-623715,Interface\Glues\Models\UI_Horde\,UI_Horde00.skin
+623715,Interface\GLUES\MODELS\UI_Horde\,UI_Horde00.skin
 623716,interface\glues\models\ui_pandarencharacterselect\,UI_PandarenCharacterSelect.m2
 623717,interface\glues\models\ui_pandarencharacterselect\,UI_PandarenCharacterSelect00.skin
 623718,Interface\ICONS\,Achievement_Battleground_TolvirArena.blp
@@ -44226,6 +44226,7 @@ ID,FilePath,FileName
 5612771,Interface\AddOns\Blizzard_NamePlates\Vanilla\,Blizzard_NamePlates.lua
 5612772,Interface\AddOns\Blizzard_UnitPopup\Classic\,UnitPopupButtons_Shared.lua
 5612773,Interface\AddOns\Blizzard_FrameXML\Classic\,LootHistory.xml
+5612774,Interface\AddOns\Blizzard_FrameXML\,SpellActivationOverlay.xml
 5612775,Interface\AddOns\Blizzard_ActionBar\Classic\,Localization.lua
 5612781,Interface\AddOns\Blizzard_Minimap\Vanilla\,Minimap.lua
 5612784,Interface\AddOns\Blizzard_CombatLog\Classic\,Blizzard_CombatLog.lua
@@ -44352,6 +44353,7 @@ ID,FilePath,FileName
 5613035,Interface\AddOns\Blizzard_GlueXML\Classic\,CharacterCreate_Shared.lua
 5613036,Interface\AddOns\Blizzard_UnitPopupShared\,Blizzard_UnitPopupShared_Classic.toc
 5613037,Interface\AddOns\Blizzard_SharedXML\Shared\Scroll\,ScrollBoxView.lua
+5613038,Interface\AddOns\Blizzard_FrameXML\,SpellActivationOverlay.lua
 5613039,Interface\AddOns\Blizzard_GlueXML\Classic\,Localization.lua
 5613041,Interface\AddOns\Blizzard_FrameXML\Classic\,ColorPickerFrame.xml
 5613042,Interface\AddOns\Blizzard_FrameXML\Classic\,AlertFrames.lua
@@ -44442,7 +44444,6 @@ ID,FilePath,FileName
 5613214,Interface\AddOns\Blizzard_SharedXML\,ScriptAnimationUtil.lua
 5613215,Interface\AddOns\Blizzard_GameTooltip\Classic\,GameTooltip.lua
 5613218,Interface\AddOns\Blizzard_MoneyFrame\Classic\,MoneyFrame.lua
-5613221,Interface\AddOns\Blizzard_GroupFinder\Classic\,LFGFrame.lua
 5613222,Interface\AddOns\Blizzard_UIPanels_Game\Classic\,SpellBookFrame.lua
 5613225,Interface\AddOns\Blizzard_QueueStatusFrame\Classic\,QueueStatusFrame.lua
 5613226,Interface\AddOns\Blizzard_CharacterFrame\Vanilla\,PetPaperDollFrame.xml
@@ -46917,3 +46918,6 @@ ID,FilePath,FileName
 7117894,Interface\AddOns\Blizzard_InspectUI\Classic\,InspectPaperDollFrame.xml
 7118960,Interface\GLUES\COMMON\,gamelogo-mpclassic.blp
 7118961,Interface\GLUES\COMMON\,WoW_Mists_of_Pandaria_Classic_Icon_01.blp
+7148600,Interface\WorldMap\Pandaria\,Timeless1.blp
+7148931,Interface\TaxiFrame\,Taximap870_Timeless.blp
+7152748,Interface\AddOns\Blizzard_GroupFinder\Shared\,LFGFrame.lua

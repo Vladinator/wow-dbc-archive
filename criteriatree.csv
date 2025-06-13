@@ -203,6 +203,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 250,The Royal Rescue,248,1,0,4263,3,2
 251,Emperor Dagran Thaurissan,248,1,0,3266,1,2
 253,Defeat Darkmaster Gandling,0,0,4,0,0,0
+255,Darkmaster Gandling,253,1,0,19263,0,2
 261,Aeonus kills (Opening of the Dark Portal),0,0,4,0,0,0
 262,Aeonus,261,1,0,3247,1,0
 264,Most expensive bid on auction,0,0,4,0,0,0
@@ -14822,6 +14823,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 21122,Jandice Barov,21120,1,0,19260,1,0
 21123,Rattlegore,21120,1,0,19261,2,0
 21124,Lilian Voss,21120,1,0,19262,3,0
+21125,Darkmaster Gandling,21120,1,0,19263,4,0
 21126,Scenario - Greenstone - Rescue Masons,0,0,4,0,0,0
 21127,Barrel-Chest Huo saved,21126,1,0,1244,1,0
 21128,Stonecutter Lon saved,21126,1,0,19264,2,0
@@ -17093,6 +17095,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 24598,,24593,1,0,19248,4,2
 24599,,24593,1,0,19269,5,2
 24600,,24593,1,0,533,6,2
+24601,,24593,1,0,19263,7,2
 24602,,24593,1,0,19252,8,2
 24603,Statistic: Pandaria Dungeon Bosses Killed,0,1,5,0,0,0
 24604,Sha of Doubt,24603,1,0,19234,0,0
@@ -17102,6 +17105,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 24608,Raigonn,24603,1,0,19248,4,0
 24609,Flameweaver Koegler,24603,1,0,19269,5,0
 24610,High Inquisitor Whitemane,24603,1,0,533,6,0
+24611,Darkmaster Gandling,24603,1,0,19263,7,0
 24612,Wing Leader Ner'onok,24603,1,0,19252,8,0
 24613,Wise Mari,24603,1,0,19230,9,0
 24614,Zao Sunseeker,24603,1,0,19231,10,0
@@ -17135,6 +17139,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 24642,Raigonn,24637,1,0,19248,4,0
 24643,Flameweaver Koegler,24637,1,0,19269,5,0
 24644,High Inquisitor Whitemane,24637,1,0,533,6,0
+24645,Darkmaster Gandling,24637,1,0,19263,7,0
 24646,Wing Leader Ner'onok,24637,1,0,19252,8,0
 24647,Wise Mari,24637,1,0,19230,9,0
 24648,Zao Sunseeker,24637,1,0,19231,10,0
@@ -17168,6 +17173,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 24676,Raigonn,24671,1,0,19248,4,0
 24677,Flameweaver Koegler,24671,1,0,19269,5,0
 24678,High Inquisitor Whitemane,24671,1,0,533,6,0
+24679,Darkmaster Gandling,24671,1,0,19263,7,0
 24680,Wing Leader Ner'onok,24671,1,0,19252,8,0
 24681,Wise Mari,24671,1,0,19230,9,0
 24682,Zao Sunseeker,24671,1,0,19231,10,0
@@ -25564,6 +25570,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 91550,server-only,0,1,5,0,0,2
 91551,Bazil Thredd kills (Stormwind Stockade),91550,1,0,18527,0,2
 91552,server-only,0,0,4,0,0,2
+91553,Darkmaster Gandling kills (Scholomance),91552,1,0,19263,0,0
 91554,server-only,0,0,4,0,0,2
 91719,server-only,0,0,5,0,0,2
 91763,Talent Points Spent,0,1,4,0,0,4096
@@ -27642,5 +27649,31 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 212302,,212301,1,0,106357,0,2
 212303,Player is Horde and Achieved Hero of the Faction (RBG top .5%),0,0,4,0,0,0
 212304,,212303,1,0,106358,0,2
-212391,Cataclysmic Gladiator,0,0,4,0,0,0
-212392,Cataclysmic Gladiator,212391,1,0,106409,0,2
+213869,Celestial: Temple of the Jade Serpent (Sha of Doubt),0,0,4,0,0,0
+213870,Sha of Doubt,213869,1,0,19668,0,2
+213871,Defeat Yan-Zhu the Uncasked in Stormstout Brewery on Celestial Difficulty.,0,0,4,0,0,0
+213872,Yan-Zhu the Uncasked,213871,1,0,107343,0,2
+213873,Celestial: Mogu'shan Palace (Xin),0,0,4,0,0,0
+213874,Defeat Xin the Weaponmaster,213873,1,0,107344,0,2
+213875,Defeat Taran-Zhu in Shado-pan Monastery on Celestial Difficulty.,0,0,4,0,0,0
+213876,Taran-Zhu,213875,1,0,107345,0,2
+213877,Celestial: Gate of the Setting Sun (Raigonn),0,0,4,0,0,0
+213878,Raigonn,213877,1,0,107346,0,2
+213879,Celestial: Scarlet Halls (Flameweaver Koegler),0,0,4,0,0,0
+213880,Flameweaver Koegler,213879,1,0,107347,0,2
+213881,Celestial: Scarlet Monastery (High Inquisitor Whitemane),0,0,4,0,0,0
+213882,High Inquisitor Whitemane,213881,1,0,107348,0,2
+213883,Celestial: Scholomance (Darkmaster Gandling),0,0,4,0,0,0
+213884,Darkmaster Gandling,213883,1,0,107349,0,2
+213885,Celestial: Siege of Niuzao Temple (Wing Leader Ner'onok),0,0,4,0,0,0
+213886,Wing Leader Ner'onok,213885,1,0,107350,0,2
+213887,Complete the Celestial Pandaria dungeon achievements listed below.,0,0,4,0,0,0
+213888,Celestial: Temple of the Jade Serpent,213887,0,0,107351,0,0
+213889,Celestial: Stormstout Brewery,213887,0,0,107359,1,0
+213890,Celestial: Mogu'shan Palace,213887,0,0,107358,2,0
+213891,Celestial: Shado-Pan Monastery,213887,0,0,107356,3,0
+213892,Celestial: Gate of the Setting Sun,213887,0,0,107355,4,0
+213893,Celestial: Scarlet Halls,213887,0,0,107353,5,0
+213894,Celestial: Scarlet Monastery,213887,0,0,107354,6,0
+213895,Celestial: Scholomance,213887,0,0,107352,7,0
+213896,Celestial: Siege of Niuzao Temple,213887,0,0,107357,8,0
