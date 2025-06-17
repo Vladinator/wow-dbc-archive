@@ -27578,3 +27578,20 @@ height = height + (rand1 * variance)
 transUp = parabola(height)
 
 scale = 1 + parabola(parabola(.5))",0,1
+4922,"Multi-Shot (4 Missiles, Rolling, Tight, Drunken)","
+local missileAngle
+
+
+local maxMagnitude = 1.0
+local minSpeedScalar = .8
+local maxSpeedScalar = 1.2
+
+local magnitude = (progress * 1.9) - 1
+magnitude = (1 - (magnitude * magnitude * magnitude * magnitude)) / 3
+
+transRight = (sin((rand1 * 1000) + (time * 1000)) + cos((rand2 * 1000) + (time * 200))) * magnitude
+transUp = (sin((rand2 * 1000) + (time * 700)) + cos((rand1 * 1000) + (time * 300))) * magnitude
+speedScalar = minSpeedScalar + ((maxSpeedScalar - minSpeedScalar) * rand3)
+
+
+",0,4
