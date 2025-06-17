@@ -8362,7 +8362,7 @@ ID,BaseTag,TagText_lang,Flags
 20180,SPELL_FAILED_CUSTOM_ERROR_85,Your pet is already at your level.,1
 20181,LFD_REWARDS,Rewards,1
 20182,SPECIFIC_DUNGEON_IS_READY,A group has been formed for:,1
-20183,BOSSES_KILLED,%d/%d Bosses Defeated,1
+20183,BOSSES_KILLED,Bosses Defeated: %d/%d,1
 20184,CHOOSE_YOUR_DUNGEON,Type:,1
 20185,LFD_RANDOM_EXPLANATION,Using the Dungeon Finder to do a Random Dungeon will earn you extra rewards.,1
 20186,LFD_RANDOM_REWARD_EXPLANATION1,The first seven random dungeons of this tier that you complete each week will earn you:,1
@@ -11423,7 +11423,7 @@ You can find trainers for them in some settlements and cities.",1
 23528,ACHIEVEMENT_FILTER_TITLE,Achievement Filter,1
 23529,PET_BATTLE_ANOTHER_PET_JOINED,Another pet has joined the battle!,1
 23530,ACHIEVEMENT_COMPLETED_BY,Completed by: |cffffffff%s|r,1
-23531,ACHIEVEMENT_NOT_COMPLETED_BY,|cnHIGHLIGHT_FONT_COLOR:%s can still complete this.|r,1
+23531,ACHIEVEMENT_NOT_COMPLETED_BY,|cnHIGHLIGHT_FONT_COLOR:%s may still be able to complete this.|r,1
 23532,ERR_PETBATTLE_QUEUE_QUEUED,You are now queued for a pet battle.,1
 23533,ERR_PETBATTLE_QUEUE_ALREADY_QUEUED,You are already queued for a pet battle.,1
 23534,ERR_PETBATTLE_QUEUE_JOIN_FAILED,Unable to join pet battle queue.,1
@@ -15118,11 +15118,9 @@ You can find trainers for them in some settlements and cities.",1
 34573,SELECT_RACE,Select your race,2
 34574,SELECT_SPEC_ACTIVE_LABEL,Choose your specialization,2
 34575,SELECT_SPEC_RESULTS_LABEL,Specialization:,2
-34576,SERVER_ALERT_BETA_URL,http://beta.worldofwarcraft.com/alert,2
 34577,SERVER_ALERT_BUTTON_TEXT,More Info,2
 34578,SERVER_ALERT_PTR_URL,,2
 34579,SERVER_ALERT_TITLE,Breaking News,6
-34580,SERVER_ALERT_URL,http://launcher.worldofwarcraft.com/alert,6
 34581,SERVER_DOWN,Server down,2
 34582,SERVER_SELECTION,Realm Selection,6
 34583,SERVER_SPLIT,"This realm has exceeded maximum capacity, and will be undergoing a realm split with players divided between two new realms. You will be able to select which of the two new realms you prefer up until |cffffffff%s|r when the split lockout occurs. If you do not make a selection, you will be assigned to one of the new realms. For more information, visit www.worldofwarcraft.com.\n\nPlease select your new realm preference below. You may change your selection at any time until the lockout date.",2
@@ -22776,6 +22774,7 @@ Items from the event have been removed.
 52473,PLUNDERSTORM_INTERACT_SWAP_REMINDER_TEXT,Swap,1
 52474,PLUNDERSTORM_INTERACT_PICK_UP_REMINDER_TEXT,Pick Up,1
 52475,PLUNDERSTORM_INTERACT_ASSIGN_REMINDER_TEXT,Assign to [%s],1
+52476,SPELL_FAILED_CUSTOM_ERROR_1055,The storyteller is already nearby.,1
 52477,ERR_WARBAND_HEARTHSTONE,You are not yet eligible to use this item.,1
 52478,ACCOUNT_BANK_DEPOSIT_ALL_NO_REFUND_CONFIRM,You are about to deposit refundable items into the bank.|n|n|cnRED_FONT_COLOR:All warbound items will have their refund timers removed.|r|n|nWould you like to continue?,1
 52479,SPELL_FAILED_HEARTHSTONE,You are not yet eligible to use this item.,1
@@ -22810,6 +22809,7 @@ Items from the event have been removed.
 52556,WOW_LABS_MATCH_COMPLETE_SUBTITLE,Play again to earn more Plunder!,1
 52557,WOW_LABS_GO_AGAIN,Go Again!,1
 52558,WOW_LABS_ACCOUNT_STORE,Plunderstore,1
+52560,SPELL_FAILED_CUSTOM_ERROR_1062,You are already in the correct area.,1
 52572,DELVES_SEASON_PROGRESS,Season progress: |cffffd200%s/%s|r,1
 52573,DELVES_SEASON_REWARD_PROGRESS,To next reward: |cffffd200%s|r,1
 52593,REPORTING_MINOR_CATEGORY_DISRUPTION,Disruption,5
@@ -22906,6 +22906,7 @@ Items from the event have been removed.
 52781,WOW_LABS_CANNOT_ENTER_NON_PLUNDER_QUEUE,You can't enter other queues while in a Plunderstorm queue.,1
 52791,SPELL_CURIO,Curio,1
 52794,WOW_ERROR_501,An error occurred while restoring your character. Please log in and try again.,2
+52795,11.1.7 Lorewalking - Restart (LAS),This will reset your progress on this Lorewalking Campaign and start again from the beginning.,1
 52851,SPELL_FAILED_WARBAND_SCENE_ALREADY_KNOWN,Campsite is already in your collection,1
 52852,CHARACTER_SELECT_NAV_BAR_CAMPS,CAMPSITES,2
 52853,WARBAND_SCENES_RANDOM,Set Random Background +,3
@@ -23042,7 +23043,7 @@ Items from the event have been removed.
 53737,COLORS_ITEM_QUALITY,Item Quality,3
 53742,BINDING_NAME_DRIFT,Drift,1
 53760,SPELL_FAILED_CUSTOM_ERROR_1090,Requires Unbreakable Bond.,1
-53762,ADVANCED_OPTIONS_LABEL,Advanced Options,1
+53762,ADVANCED_OPTIONS_LABEL,Gameplay Enhancements,1
 53764,ENABLE_COOLDOWN_VIEWER,Enable Cooldown Manager,1
 53765,ENABLE_COOLDOWN_VIEWER_TOOLTIP,Toggle on to view important cooldowns and buffs in separate customizable HUD elements for the selected specialization.,1
 53766,COOLDOWN_VIEWER_LABEL,Cooldown Manager,1
@@ -23090,10 +23091,39 @@ Items from the event have been removed.
 54013,HUD_EDIT_MODE_COOLDOWN_VIEWER_NO_ITEMS_TOOLTIP,This tool is currently not used for this class or specialization,1
 54014,HUD_EDIT_MODE_COOLDOWN_VIEWER_EXAMPLE_BUFF_NAME,Example Buff Name,1
 54052,SPELL_FAILED_CUSTOM_ERROR_1073,Only usable by non-tank specs.,1
+54053,ASSISTED_COMBAT_ROTATION,Single-Button Assistant,1
+54054,ASSISTED_COMBAT_ROTATION_SPELLBOOK_LABEL,Single-Button|nAssistant,1
+54055,ASSISTED_COMBAT_ROTATION_DRAG_HELPTIP,Drag the Single-Button Assistant to your action bar to consolidate your damage rotation into a single button.,1
+54056,ASSISTED_COMBAT_ROTATION_SPELL_INCLUDED,Included in Single-Button Assistant.,1
+54058,ERR_CURRENCY_TRANSFER_DISABLED,Currency transfers are currently disabled.,1
+54059,CURRENCY_TRANSFER_IN_PROGRESS,Transfer in progress,1
 54062,GUILD_RENAME_ERROR_MUST_BE_IN_A_GUILD,You must be the Guildmaster of a guild in order to use the guild rename feature.,1
 54066,GUILD_RENAME_COSTS_LABEL,This cost will be deducted from your guild bank funds:,1
 54074,GUILD_RENAME_COSTS_TOOLTIP,The costs will be deducted from your guild bank,1
 54075,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_SHOW_TOOLTIPS,Show Tooltips,1
 54077,GUILD_RENAME_GUILD_BANK_MONEY_TOOLTIP,Available guild bank funds,1
 54088,GUILD_RENAME_TOAST_LABEL,Guild Renamed,1
+54092,NPEV2_SELF_HEAL_P1,You're injured! Use |cFF00FFFFRecuperate|r to restore health out of combat.,1
+54093,NPEV2_SELF_HEAL_P2,Don't move while casting.\n\nWatch as your health recovers.,1
+54094,ASSISTED_COMBAT_ROTATION_ACTION_BUTTON_HELPTIP,The Single-Button Assistant will suggest damage abilities for you. Use it like any other ability.,1
 54095,NAME_NOT_AVAILABLE,That name is not available,3
+54112,LOGIN_STATE_WAITFORNETWORK,Waiting for network,2
+54132,VOICE_CHAT_SETTING_ENABLED,Voice Chat Enabled,1
+54145,GENERIC_TRAIT_FRAME_TITAN_CONSOLE_TITLE,Overcharged Titan Console,1
+54155,REPORTING_MINOR_CATEGORY_TVEC,Terrorist/Violent Content,5
+54156,REPORTING_MINOR_CATEGORY_CSEA,Child Abuse,5
+54178,ASSISTED_COMBAT_ROTATION_SPELLS_LIST_SHOW,Right click for list of abilities,1
+54179,ASSISTED_COMBAT_ROTATION_SPELLS_LIST_HIDE,Right click to hide list of abilities,1
+54200,ASSISTED_COMBAT_HIGHLIGHT_LABEL,Assisted Highlight,1
+54201,OPTION_TOOLTIP_ASSISTED_COMBAT_HIGHLIGHT,Enables highlights that suggest the ability to use.|nThe Assisted Highlight will only suggest visible abilities.,1
+54219,SPELL_FAILED_CUSTOM_ERROR_1078,You cannot Lorewalk while in Party Sync.,1
+54244,ASSISTED_COMBAT_HIGHLIGHT_DIALOG_WARNING,Assisted Highlight will only suggest visible abilities.,1
+54253,ASSISTED_COMBAT_HIGHLIGHT_SPELL_INCLUDED,Included in Assisted Highlight.,1
+54254,ASSISTED_COMBAT_SPELL_INCLUDED,Included in both Assisted Highlight and Single-Button Assistant.,1
+54380,GUILDBANK_GUILD_RENAME_PURCHASE,%s renamed the guild for %s,1
+54381,GUILDBANK_GUILD_RENAME_REFUND,%s refunded the guild rename for %s,1
+54719,REPORT_RESULT_TOO_MANY_REPORTS,Report failed. Too many report attempts. Please try again in a few minutes.,1
+54720,REPORT_RESULT_REQUIRES_CHAT,Report failed. Report type only valid on chat lines.,1
+54721,REPORT_RESULT_REQUIRES_CHAT_OR_VOICE,Report failed. Report type only valid on chat lines or when in voice chat.,1
+54758,ASSISTED_COMBAT_LABEL,Combat Assistant,1
+54759,ASSISTED_COMBAT_ROTATION_VIEW_SPELLBOOK,View in Spellbook,1
