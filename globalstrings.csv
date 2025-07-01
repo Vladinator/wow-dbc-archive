@@ -17492,6 +17492,8 @@ ID,BaseTag,TagText_lang,Flags
 41008,WOW_ERROR_333,This realm's login queue is full and cannot accept more players. Please choose another realm.,2
 41019,VISITABLE_URL45,https://us.shop.battle.net/product/world-of-warcraft-game-time,3
 41020,VISITABLE_URL46,https://support.blizzard.com/article/76459,3
+41090,BLIZZARD_STORE_VAS_ERROR_NOT_GUILD_MASTER,- Only Guild Masters can use Guild Services. This character is not a Guild Master.,3
+41091,BLIZZARD_STORE_VAS_ERROR_NOT_IN_GUILD,- You must be in a Guild in order to use Guild Services. This character is not in a Guild.,3
 41099,INVITE_COMMUNITY_MEMBER_POPUP_INVITE_EDITBOX_INSTRUCTIONS,Real ID or BattleTag,1
 41100,CRITERIA_TREE_OPERATOR_COMPLETE,Complete,0
 41101,CRITERIA_TREE_OPERATOR_INCOMPLETE,Not Complete,0
@@ -17501,6 +17503,13 @@ ID,BaseTag,TagText_lang,Flags
 41105,CRITERIA_TREE_OPERATOR_COUNT,Started At Least,0
 41106,CRITERIA_TREE_OPERATOR_COMPLETE_AT_LEAST,Complete At Least,0
 41107,CRITERIA_TREE_OPERATOR_WEIGHTED_CUMULATIVE,Weighted Sum Of Criteria Is,0
+41113,BLIZZARD_STORE_VAS_ERROR_NEW_LEADER_INVALID,- The character you chose to be the new Guild Master is not a valid choice. Please choose someone else.,3
+41118,BLIZZARD_STORE_VAS_ERROR_AUTHENTICATOR_INSUFFICIENT,- You must attach an authenticator and then log in to your Guild Master character at least 7 days prior to purchasing a guild service.|n|nRead our |HurlIndex:47|h|cff006995Cannot Start a Guild Service|r|h article for more information.,3
+41119,BLIZZARD_STORE_VAS_ERROR_ALREADY_RENAME_FLAGGED,- Your Guild Master character has a pending name change. Complete the name change and try again.,3
+41120,BLIZZARD_STORE_VAS_ERROR_GM_SENORITY_INSUFFICIENT,- Your character must be the Guild Master for at least 7 days before purchasing this service.|nRead our|HurlIndex:47|h|cff006995Cannot Start a Guild Service|r|h article for more information.,3
+41121,BLIZZARD_STORE_VAS_ERROR_OPERATION_ALREADY_IN_PROGRESS,- Your recent guild service transaction is still processing.|n|nCheck your |HurlIndex:48|h|cff006995Transaction History|r|h.,3
+41122,BLIZZARD_STORE_VAS_ERROR_LOCKED_FOR_VAS,- You must wait 30 days after purchasing a character or guild service on this character before you can purchase a new guild service.|nRead our|HurlIndex:47|h|cff006995Cannot Start a Guild Service|r|h article for more information.,3
+41123,BLIZZARD_STORE_VAS_ERROR_MOVE_IN_PROGRESS,- Your recent guild service purchase is still processing.|n|nCheck your |HurlIndex:48|h|cff006995Transaction History|r|h.,3
 41124,AUCTION_CATEGORY_PROJECTILE,Projectile,1
 41125,AUCTION_CATEGORY_QUIVER,Quiver,1
 41126,AUCTION_CATEGORY_REAGENT,Reagent,1
@@ -18287,6 +18296,7 @@ ID,BaseTag,TagText_lang,Flags
 48750,VIDEO_OPTIONS_NOTCH_MODE_WINDOW_BELOW,Window is below notch with a black bar,3
 48774,LFG_LIST_CROSS_FACTION,Limit to %s,1
 48775,LFG_LIST_CROSS_FACTION_TOOLTIP,Only %s players will see your group.|n|nThis may reduce the number of applicants you recieve.,1
+48777,BLIZZARD_STORE_VAS_ERROR_NEW_PLAYER_EXPERIENCE,- Finish the tutorial experience first,3
 48779,LFG_LIST_TOOLTIP_LEADER_FACTION,Leader: |cffffffff%s (%s)|r,1
 48780,UNIT_TYPE_LEVEL_FACTION_TEMPLATE,Level %d %s (%s),1
 48783,INVTYPE_PROFESSION_TOOL,Profession Tool,1
@@ -18557,6 +18567,7 @@ You can also drag this icon to an action bar for easy access.",1
 50009,PROFESSIONS_NEW_CHOICE_AVAILABLE_SPECIALIZATION_TUTORIAL,"Choose a Specialization to unlock.
 
 You can learn more Specializations as you increase your skill level.",1
+50048,BLIZZARD_STORE_VAS_ERROR_HAS_CRAFTING_ORDERS,- Please clear all pending and claimed crafting orders on this character.,3
 50067,CHAR_FACTION_CHANGE_ARENA_TEAM,You may not change faction while still on an arena team.,2
 50147,AUCTION_SORT_OPTIONS_TOOLTIP_TITLE,Price Sorting Options,1
 50148,AUCTION_SORT_OPTIONS_PROMPT,Sort Prices By:,1
@@ -18677,6 +18688,7 @@ You can learn more Specializations as you increase your skill level.",1
 51308,ERR_CHAR_TOO_NEW_FOR_DUNGEONS,This character may not enter dungeons yet.,1
 51309,ERR_CHAR_TOO_NEW_FOR_RAIDS,This character may not enter raids yet.,1
 51330,BATTLE_PET_NAME_11,Non-Combat,0
+51385,BLIZZARD_STORE_VAS_INVALID_NAME,- This name is invalid; please choose another name.,2
 51392,SLASH_TEXTTOSPEECH_PING,ping,1
 51393,SLASH_TEXTTOSPEECH_HELP_PING,Enable or disable ping messages,1
 51411,BLIZZARD_STORE_CLICK_TO_OPEN_FAQ,|cnPURE_GREEN_COLOR:<Shift click to view Frequently Asked Questions in your browser>|r,3
