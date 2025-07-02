@@ -276,7 +276,7 @@ ID,FailureDescription_lang,PlayerConditionID,OrderIndex,MapDifficultyID
 2544,,5960,4,47
 2545,,6865,2,56
 2546,,6865,3,4847
-2547,You must be at least level 20 to enter.,4868,1,22
+2547,You must be at least level 20 to enter.,20290,1,22
 2548,You must be at least level 45 to enter.,4872,1,19
 2549,You must be at least level 39 to enter.,9912,1,23
 2550,You must be at least level 30 to enter.,4869,1,17
@@ -295,7 +295,7 @@ ID,FailureDescription_lang,PlayerConditionID,OrderIndex,MapDifficultyID
 2568,You must be at least level 10 to enter.,4866,1,10
 2569,You must be at least level 65 to enter.,5953,1,57
 2570,,5953,1,4869
-2571,,6379,2,78
+2571,You must be level 70 to enter.,6379,2,78
 2572,,6379,2,5051
 2573,You must be at least level 65 to enter.,5953,1,59
 2574,,5953,1,4873
@@ -324,11 +324,11 @@ ID,FailureDescription_lang,PlayerConditionID,OrderIndex,MapDifficultyID
 2597,You must be at least level 15 to enter.,4865,1,8
 2598,You must be at least level 35 to enter.,4870,1,20
 2599,You must be at least level 19 to enter.,9908,1,18
-2600,,5960,2,68
+2600,You must be at least level 70 to enter.,6379,2,68
 2601,,5960,2,4844
 2602,,5123,3,3065
-2603,,4873,2,34
-2604,,5960,2,51
+2603,You must be at least level 50 to enter.,4873,2,34
+2604,You must be at least level 70 to enter.,6379,2,51
 2605,,5960,2,4846
 2612,,98123,0,5137
 2613,,98123,0,5138
@@ -340,8 +340,8 @@ ID,FailureDescription_lang,PlayerConditionID,OrderIndex,MapDifficultyID
 2621,,105333,2,158
 2622,,105333,2,119
 2623,,105333,2,160
-2878,You must be level 80 and in a raid group to enter.,8191,1,99
-2879,You must be level 80 and in a raid group to enter.,8191,1,154
+2878,You must be at least level 80 to enter.,8191,1,99
+2879,You must be at least level 80 to enter.,8191,1,154
 2880,,8191,1,5137
 2881,,8191,1,5138
 2902,,110370,0,26
@@ -363,18 +363,18 @@ ID,FailureDescription_lang,PlayerConditionID,OrderIndex,MapDifficultyID
 2929,,111178,1,114
 2930,,111178,1,159
 2942,,4868,0,14
-2943,You must be level 80 and in a raid group to enter.,7500,2,26
+2943,You must be level 80 to enter.,7500,2,26
 2944,You must be at least level 65 to enter.,5953,1,27
-2950,You must be level 80 and in a raid group to enter.,7500,3,46
-2951,,6340,5,47
-2952,,6361,3,55
-2953,,6317,3,56
+2950,You must be at least level 80 to enter.,7500,3,46
+2951,You must be at least level 70 to enter.,6340,5,47
+2952,You must be at least level 70 to enter.,6361,3,55
+2953,You must be level 70 and in a raid group to enter.,6317,3,56
 2954,You must be at least level 63 to enter.,9918,1,65
-2956,You must be level 80 and in a raid group to enter.,7500,3,110
+2956,You must be at least level 80 to enter.,7500,3,110
 2957,You must be at least level 80 and in a raid group to enter.,7500,3,111
 2958,"You must be at least level 80, in control of Wintergrasp and in a raid group to enter.",7500,3,119
-2962,You must be level 80 and in a raid group to enter.,7500,3,128
-2966,You must be level 80 and in a raid group to enter.,7500,3,157
+2962,You must be at least level 80 to enter.,7500,3,128
+2966,You must be at least level 80 to enter.,7500,3,157
 2967,You must be at least level 80 and in a raid group to enter.,7500,3,158
 2968,"You must be at least level 80, in control of Wintergrasp and in a raid group to enter.",7500,3,160
 2973,You must be level 80 and in a raid group to enter.,7500,2,323
@@ -382,9 +382,9 @@ ID,FailureDescription_lang,PlayerConditionID,OrderIndex,MapDifficultyID
 2977,You must be at least level 85 and in a raid group to enter.,11759,0,344
 2978,You must be at least level 83 to enter.,11037,0,345
 2979,Heroic Difficulty requires you to be level 85.,10174,0,346
-2980,You must be at least level 85 and in a raid group to enter.,11761,0,347
-2981,You must be at least level 85 and in a raid group to enter.,11761,0,348
-2990,You must be at least level 85 and in a raid group to enter.,12462,0,741
+2980,You must be at least level 85 to enter.,11761,0,347
+2981,You must be at least level 85 to enter.,11761,0,348
+2990,You must be at least level 85 to enter.,12462,0,741
 2991,You must be at least level 77 to enter.,10265,0,745
 2992,You must be at least level 83 to enter.,11037,0,746
 2993,You must be at least level 77 and have the Cataclysm expansion installed to enter.,10265,0,747
@@ -404,16 +404,13 @@ ID,FailureDescription_lang,PlayerConditionID,OrderIndex,MapDifficultyID
 3015,Heroic Difficulty requires you to be level 85.,10174,0,829
 3018,,6379,0,838
 3019,Heroic Difficulty requires you to be level 85.,10174,0,839
-3020,You must be at least level 85 and in a raid group to enter.,12463,0,1579
+3020,You must be at least level 85 to enter.,12463,0,1579
 3021,,5793,0,1611
 3022,Zul'Gurub is only available as a Heroic Difficulty level 85 dungeon.,5793,0,1645
 3023,Heroic Difficulty requires you to be level 85.,12056,1,1646
 3024,Heroic Difficulty requires level 85 to enter.,12057,1,1690
-3025,End Time is only available as a Heroic Difficulty level 85 dungeon.,5793,0,1819
 3026,Heroic Difficulty requires you to be level 85.,12746,1,1820
-3027,Well of Eternity is only available as a Heroic Difficulty level 85 dungeon.,5793,0,1821
 3028,Heroic Difficulty requires you to be level 85 and have earned the Heroic: End Time achievement.,12747,1,1822
-3029,Hour of Twilight is only available as a Heroic Difficulty level 85 dungeon.,5793,0,1823
 3030,Heroic Difficulty requires you to be level 85 and have earned the Heroic: Well of Eternity achievement.,13736,1,1824
 3031,,12681,0,1846
 3034,You must be at least level 85 and in a raid group to enter.,13387,0,1875
@@ -432,24 +429,24 @@ ID,FailureDescription_lang,PlayerConditionID,OrderIndex,MapDifficultyID
 3094,"You must complete the quest ""Echoes of Tortured Souls"" and be level 80 before entering the Heroic difficulty of the Pit of Saron.",8990,1,484
 3095,You must be at least level 75 to enter.,8993,1,481
 3096,Heroic Difficulty requires you to be level 80.,8992,1,482
-3101,You must be at least level 80 and in a raid group to enter.,8676,3,124
+3101,You must be at least level 80 to enter.,8676,3,124
 3102,You must be at least level 75 to enter.,8669,3,125
-3103,You must be at least level 80 and in a raid group to enter.,8676,3,161
+3103,You must be at least level 80 to enter.,8676,3,161
 3104,Heroic Difficulty requires you to be level 80.,8670,2,162
-3105,You must be at least level 80 and in a raid group to enter.,8677,3,221
-3106,You must be at least level 80 and in a raid group to enter.,8677,3,222
-3109,You must be at least level 80 and in a raid group to enter.,8890,2,486
-3112,You must be level 80 and in a raid group to enter.,9848,2,750
-3113,You must be level 80 and in a raid group to enter.,9848,2,751
-3114,You must be level 80 and in a raid group to enter.,9849,2,752
-3115,You must be level 80 and in a raid group to enter.,9849,2,753
+3105,You must be at least level 80 to enter.,8677,3,221
+3106,You must be at least level 80 to enter.,8677,3,222
+3109,You must be at least level 80 to enter.,8890,2,486
+3112,You must be at least level 80 to enter.,9848,2,750
+3113,You must be at least level 80 to enter.,9848,2,751
+3114,You must be at least level 80 to enter.,9849,2,752
+3115,You must be at least level 80 to enter.,9849,2,753
 3116,,114845,2,485
 3154,,5123,1,26
 3155,,5123,1,323
 3156,,5123,3,4564
 3167,,7743,3,70
 3168,Recently-boosted characters cannot access legacy dungeons and raids. Please try again tomorrow.,102154,2,70
-3189,You must be at least level 80 and in a raid group to enter.,8890,3,485
+3189,You must be at least level 80 to enter.,8890,3,485
 3250,,120765,2,813
 3251,,120765,2,814
 3261,,121055,1,70
@@ -475,11 +472,8 @@ ID,FailureDescription_lang,PlayerConditionID,OrderIndex,MapDifficultyID
 3281,,121064,1,1861
 3282,,121064,1,1862
 3283,,121059,0,1820
-3284,,121059,1,1819
 3285,,121057,0,1824
-3286,,121057,1,1823
 3287,,121058,0,1822
-3288,,121058,1,1821
 3289,,121065,1,1925
 3290,,121065,1,1924
 3291,,121065,1,1876
@@ -510,3 +504,141 @@ ID,FailureDescription_lang,PlayerConditionID,OrderIndex,MapDifficultyID
 3364,,124138,1,817
 3365,,124140,1,829
 3366,,124139,1,839
+3496,You must be at least level 65 to enter on Heroic Difficulty.,12262,2,129
+3497,You must be at least level 58 to enter on Heroic Difficulty.,12263,2,130
+3498,You must be at least level 57 to enter on Heroic Difficulty.,6145,2,131
+3499,You must be at least level 65 to enter on Heroic Difficulty.,12264,2,132
+3500,You must be at least level 60 to enter on Heroic Difficulty.,12265,2,133
+3501,You must be at least level 59 to enter on Heroic Difficulty.,6144,2,134
+3502,You must be at least level 65 to enter on Heroic Difficulty.,6148,2,135
+3503,You must be at least level 65 to enter on Heroic Difficulty.,6148,2,136
+3504,You must be at least level 65 to enter on Heroic Difficulty.,6148,2,137
+3505,You must be at least level 65 to enter on Heroic Difficulty.,6864,2,138
+3506,You must be at least level 63 to enter on Heroic Difficulty.,6154,2,139
+3507,You must be at least level 61 to enter on Heroic Difficulty.,6154,2,140
+3508,You must be at least level 62 to enter on Heroic Difficulty.,12261,2,141
+3509,You must be at least level 63 to enter on Heroic Difficulty.,6147,2,142
+3511,You must have defeated The Lich King in the 10 Player raid before attempting 10 Player Heroic difficulty.,9204,2,487
+3512,You must have defeated The Lich King in the 25 Player raid before attempting 25 Player Heroic difficulty.,9205,2,488
+3523,You must be at least level 87 to enter.,16675,0,1863
+3524,You must be at least level 90 to enter.,15343,0,1864
+3525,You must be at least level 85 to enter.,10174,0,1865
+3526,Heroic Difficulty requires you to be level 90.,15343,0,1866
+3527,You must be at least level 85 to enter.,10174,0,1867
+3528,Heroic Difficulty requires you to be level 90.,15343,0,1868
+3529,Gate of the Setting Sun is only available as a Heroic Difficulty level 90 dungeon.,18749,0,1869
+3530,Heroic Difficulty requires you to be level 90.,15343,0,1870
+3533,You must be at least level 87 to enter.,16675,0,2011
+3534,Heroic Difficulty requires you to be level 90.,15343,0,2012
+3535,You must be at least level 21 to enter.,5164,0,2037
+3536,Heroic Difficulty requires you to be level 90.,15343,0,2038
+3537,You must be at least level 23 to enter.,16678,0,2045
+3538,Heroic Difficulty requires you to be level 90.,15343,0,2046
+3539,You must be at least level 33 to enter.,9910,0,2058
+3540,Heroic Difficulty requires you to be level 90.,15343,0,2059
+3541,You must be at least level 90 and in a raid group to enter.,17879,0,2060
+3542,You must be at least level 90 and in a raid group to enter.,17879,0,2061
+3543,You must be at least level 87 to enter.,16675,0,2074
+3544,You must be at least level 90 to enter.,15343,0,2075
+3545,You must be at least level 90 and in a raid group to enter.,17879,0,2076
+3546,You must be at least level 90 and in a raid group to enter.,17879,0,2077
+3547,You must be at least level 90 and in a raid group to enter.,19478,0,2121
+3548,You must be at least level 90 and in a raid group to enter.,19478,0,2122
+3549,You must be at least level 90 and in a raid group to enter.,19476,0,2512
+3550,You must be at least level 90 and in a raid group to enter.,19476,0,2513
+3551,You must be at least level 90 and in a raid group to enter.,19476,0,2514
+3552,You must be at least level 90 and in a raid group to enter.,19476,0,2515
+3553,You must be at least level 90 and in a raid group to enter.,19478,0,2519
+3554,You must be at least level 90 and in a raid group to enter.,19478,0,2520
+3555,You must be at least level 85 and in a raid group to enter.,10174,0,2556
+3556,Challenge Mode requires you complete the Heroic: Scarlet Halls achievement.,17904,0,2576
+3557,Challenge Mode requires you complete the Heroic: Mogu'shan Palace achievement.,17899,0,2577
+3558,Challenge Mode requires you complete the Heroic: Scarlet Monastery achievement.,17902,0,2578
+3559,Challenge Mode requires you complete the Heroic: Scholomance achievement.,17901,0,2579
+3560,Challenge Mode requires you complete the Heroic: Shado-Pan Monastery achievement.,17903,0,2580
+3561,Challenge Mode requires you complete the Heroic: Temple of the Jade Serpent achievement.,17906,0,2581
+3562,Challenge Mode requires you complete the Heroic: Stormstout Brewery achievement.,17900,0,2582
+3563,Challenge Mode requires you complete the Heroic: Gate of the Setting Sun achievement.,17898,0,2583
+3564,Challenge Mode requires you complete the Heroic: Siege of Niuzao Temple achievement.,17905,0,2584
+3565,,17432,0,2606
+3566,,17434,0,2607
+3567,,18247,0,2608
+3568,You must be at least level 90 and in a raid group to enter.,20543,0,2689
+3569,You must be at least level 90 and in a raid group to enter.,20544,0,2690
+3570,You must be at least level 90 and in a raid group to enter.,21398,0,2691
+3571,You must be at least level 90 and in a raid group to enter.,21398,0,2692
+3572,,20547,0,2707
+3573,You must be at least level 90 and in a raid group to enter.,22086,0,2733
+3574,You must be at least level 90 and in a raid group to enter.,22087,0,2769
+3575,You must be at least level 90 and in a raid group to enter.,23020,0,2770
+3576,You must be at least level 90 and in a raid group to enter.,23020,0,2771
+3577,,22090,0,2772
+3578,,22091,0,2799
+3775,,140413,1,2519
+3776,,140413,1,2520
+3777,,140413,1,2121
+3778,,140413,1,2122
+3779,,140413,1,2608
+3780,,140411,1,2060
+3781,,140411,1,2061
+3782,,140411,1,2076
+3783,,140411,1,2077
+3784,,140411,1,2606
+3785,,140410,1,2512
+3786,,140410,1,2513
+3787,,140410,1,2514
+3788,,140410,1,2515
+3789,,140410,1,2607
+3790,,140414,1,2689
+3791,,140414,1,2690
+3792,,140414,1,2691
+3793,,140414,1,2692
+3794,,140414,1,2707
+3795,,140412,1,2733
+3796,,140412,1,2769
+3797,,140412,1,2770
+3798,,140412,1,2771
+3799,,140412,1,2772
+3800,,140412,1,2799
+3801,,140406,1,1863
+3802,,140406,1,1864
+3803,,140406,1,2580
+3804,,140409,1,1865
+3805,,140409,1,1866
+3806,,140409,1,2581
+3807,,140408,1,1867
+3808,,140408,1,1868
+3809,,140408,1,2582
+3810,,140401,1,1869
+3811,,140401,1,1870
+3812,,140401,1,2583
+3813,,140402,1,2011
+3814,,140402,1,2012
+3815,,140402,1,2577
+3817,,140403,1,2038
+3818,,140403,1,2576
+3820,,140406,1,2046
+3821,,140406,1,2578
+3823,,140405,1,2059
+3824,,140405,1,2579
+3825,,140407,1,2074
+3826,,140407,1,2075
+3827,,140407,1,2584
+3849,Players must be level 90,15343,0,5953
+3850,Player must be level 90,15343,0,5956
+3851,Players must be level 90,15343,0,5955
+3852,Player must be level 90,15343,0,5957
+3853,Player must be level 90,15343,0,5958
+3854,Player must be level 90,15343,0,5959
+3855,Player must be level 90,15343,0,5960
+3856,Player must be level 90,15343,0,5961
+3857,Player must be level 90,15343,0,5962
+3858,Celestial Dungeons are not currently active,142323,1,5953
+3859,Celestial Dungeons are not currently active,142323,1,5956
+3860,Celestial Dungeons are not currently active,142323,1,5957
+3861,Celestial Dungeons are not currently active,142323,1,5962
+3862,Celestial Dungeons are not currently active,142323,1,5958
+3863,Celestial Dungeons are not currently active,142323,1,5959
+3864,Celestial Dungeons are not currently active,142323,1,5960
+3865,Celestial Dungeons are not currently active,142323,1,5961
+3866,Celestial Dungeons are not currently active,142323,1,5955

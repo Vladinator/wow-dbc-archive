@@ -1,6 +1,6 @@
 ID,Name_lang,Description_lang,CategoryID,InventoryIconFileID,SpellWeight,SpellCategory,MaxQty,MaxEarnablePerWeek,Quality,FactionID,Field_1_15_3_55112_010,Field_1_15_3_55112_011,Field_1_15_4_56400_012,Flags[0],Flags[1]
-1,Currency Token Test Token 4,Text that describes this item can be found here.,1,133792,1,0,0,0,1,0,0,0,0,2,0
-2,Currency Token Test Token 2,,1,132092,1,2,0,0,1,0,0,0,0,1,0
+1,Currency Token Test Token 4,Text that describes this item can be found here.,1,133792,1,0,0,0,1,0,0,0,0,6146,0
+2,Currency Token Test Token 2,,1,132092,1,2,0,0,1,0,0,0,0,4097,0
 4,Currency Token Test Token 5,,1,133790,4,3,0,0,1,0,0,0,0,1,0
 42,Badge of Justice,,1,135884,0,0,0,0,4,0,0,0,0,2,0
 61,Dalaran Jewelcrafter's Token,Tiffany Cartier's shop in Dalaran will gladly accept these tokens for unique jewelcrafting recipes.,1,134138,0,0,0,0,1,0,0,0,0,0,0
@@ -28,7 +28,7 @@ ID,Name_lang,Description_lang,CategoryID,InventoryIconFileID,SpellWeight,SpellCa
 385,Troll Archaeology Fragment,,82,441149,1,4,200,0,1,0,0,0,0,34,0
 390,Conquest Points,Earned as a reward for Arena or Rated Battlegrounds and used to purchase the most powerful PvP armor and weapons.,2,463449,0,0,400000,0,1,0,0,0,0,392,65
 391,Tol Barad Commendation,Awarded for brave deeds performed on Tol Barad.,2,409548,0,0,0,0,1,0,0,0,0,2,0
-392,Honor Deprecated 3,Earned as a reward for Battlegrounds and other types of PvP and used to purchase powerful PvP armor and weapons.,2,463451,0,0,400000,0,1,0,0,0,0,744,0
+392,Honor Deprecated 3,Used to purchase less-powerful PvP armor and weapons.,2,463451,0,0,400099,0,1,0,0,0,0,456,0
 393,Fossil Archaeology Fragment,,82,442734,1,8,200,0,1,0,0,0,0,34,0
 394,Night Elf Archaeology Fragment,,82,441146,1,9,200,0,1,0,0,0,0,34,0
 395,Justice Points,Earned for defeating dungeon or older raid bosses and used to purchase powerful PvE armor and weapons.,22,463446,0,0,400000,0,1,0,0,0,0,88,256
@@ -38,16 +38,28 @@ ID,Name_lang,Description_lang,CategoryID,InventoryIconFileID,SpellWeight,SpellCa
 399,Vrykul Archaeology Fragment,,82,442742,1,12,200,0,1,0,0,0,0,34,0
 400,Nerubian Archaeology Fragment,,82,442736,1,13,200,0,1,0,0,0,0,34,0
 401,Tol'vir Archaeology Fragment,,82,442739,1,14,200,0,1,0,0,0,0,34,0
-402,Chef's Award,Awarded to Azeroth's finest chefs.  Can be redeemed for exquisite cooking recipes.,1,236571,0,0,0,0,1,0,0,0,0,0,0
+402,Ironpaw Token,Represents your credit with the Ironpaw family of cooks. Can be redeemed for Cooking ingredients and other things at the Stockmaster in Halfhill Market.,1,134912,0,0,0,0,1,0,0,0,0,0,0
 416,Mark of the World Tree,Granted by the Guardians of Hyjal. Can be used to purchase reinforcements for the Invasion of the Firelands.,1,513195,0,0,0,0,1,0,0,0,0,1024,0
 483,Conquest Arena Meta,,89,463449,0,0,400000,0,1,0,0,0,0,1416,65
 484,Conquest BG Meta,,89,463449,0,0,400000,0,1,0,0,0,0,1416,65
-515,Darkmoon Prize Ticket,Awarded for winning games or doing favors at the Darkmoon Faire.,1,134481,0,0,0,0,1,0,0,0,0,0,0
+515,Darkmoon Prize Ticket,Awarded for winning games or doing favors at the Darkmoon Faire.,1,134481,0,0,0,0,1,0,0,0,0,2,0
 614,Mote of Darkness,"Extracted from the forces of Deathwing, this dark energy can be used to power amazing magics.",22,136192,0,0,0,0,1,0,0,0,0,1024,0
 615,Essence of Corrupted Deathwing,"Extracted from Deathwing himself, this dark energy powers the most fearsome of incantations.",22,132851,0,0,0,0,1,0,0,0,0,1024,0
+676,Pandaren Archaeology Fragment,,82,442742,1,39,200,0,1,0,0,0,0,34,0
+677,Mogu Archaeology Fragment,,82,442742,1,40,200,0,1,0,0,0,0,34,0
+692,Conquest Random BG Meta,,89,463449,0,0,0,0,1,0,0,0,0,1484,0
+697,Elder Charm of Good Fortune,"Possession of the Elder Charm of Good Fortune allows its lucky owner to risk a coin to receive a bonus reward from Mogu'shan Vaults, Heart of Fear, Terrace of Endless Spring, Sha of Anger, or Salyis' Warband.",133,237281,0,0,3,0,1,0,0,0,0,2242,129
+698,Zen Jewelcrafter's Token,"Awarded for demonstrating great skill in jewelcrafting, these tokens can be used to purchase unique jewelcrafting plans and the beautiful Serpent's Eye.",81,442739,0,0,0,0,1,0,0,0,0,0,0
+738,Lesser Charm of Good Fortune,"Possession of the Lesser Charms of Good Fortune will result in great happiness and the eventual conversion into Warforged Seals, which allow players to risk a coin to receive a bonus reward from raid encounters.",133,237282,0,0,0,0,1,0,0,0,0,64,0
+752,Mogu Rune of Fate,"Possession of the Mogu Rune of Fate allows its lucky owner to risk a rune to receive a bonus reward from the Throne of Thunder, Nalak or Oondasta.",133,646678,0,0,20,0,1,0,0,0,0,2,0
+754,Mantid Archaeology Fragment,,82,839407,1,44,200,0,1,0,0,0,0,34,0
+776,Warforged Seal,"Possession of the Warforged Seal allows its lucky owner to risk a seal to receive a bonus reward from the Siege of Orgrimmar, the Celestial Trials, and Ordos.",133,514015,0,0,10,0,1,0,0,0,0,2,0
+777,Timeless Coin,"You feel the shadowy fingers of previous and future owners of this coin playing across your hand, as if time itself blurs. Spend upon the Timeless Isle to earn powerful and fluid rewards.",133,900319,0,0,0,0,1,0,0,0,0,16450,0
+789,Bloody Coin,Pulled from the steaming corpses of foes vanquished in the mists of the Timeless Isle.,133,900318,0,0,0,0,1,0,0,0,0,16450,0
 1900,Arena Points,Arena Points are gained by being victorious in arena combat. You can trade in these arena points for fabulous prizes!,2,4006481,0,0,10000,0,1,0,0,0,0,2097152,0
 1901,Honor Points,Honor is gained by killing members of the opposite faction in PvP combat. You can use honor points to purchase special items.,2,463451,0,0,400000,0,1,0,0,0,0,744,256
 2589,Sidereal Essence,,22,237235,0,0,0,0,4,0,0,0,0,0,0
 2711,Defiler's Scourgestone,,22,237273,0,0,0,0,4,0,0,0,0,0,0
 3148,Fissure Stone Fragment,,22,133449,0,0,160,0,4,0,0,0,0,0,0
 3281,Obsidian Fragment,,22,135241,0,0,160,0,4,0,0,0,0,0,0
+3350,August Stone Fragment,Earned for defeating bosses in Celestial Dungeons or completing Celestial Dungeon Finder runs and used to purchase powerful PvE armor and weapons.,22,840010,0,0,45,0,4,0,0,0,0,0,0

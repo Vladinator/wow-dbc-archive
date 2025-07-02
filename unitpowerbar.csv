@@ -14,10 +14,11 @@ ID,Name_lang,Cost_lang,OutOfError_lang,ToolTip_lang,MinPower,MaxPower,StartPower
 36,Warden Stillwater,What does this mean?,,The amount of life remaining until Warden Stillwater is defeated.,0,35000,0,0,0,0,0,6,0.1328,0.1367,459012,449447,449448,0,449449,0,-1,-1,-65536,-1,-1,0
 37,Corrupted Blood,Corrupted Blood,Your blood is clean!,Causes:|n Corruption: Accelerated at 25%. |n Corruption: Sickness at 50% |n Corruption: Malformation at 75% |n Corruption: Absolute at 100%.,0,100,0,0,0,0,0,2,0.28,0.22,462333,462330,462331,462334,462332,0,-1,-1,-1,-1,-1,0
 39,Electrical Charge,Electricity,,Onyxia's current level of electrical charge. She will explode when fully charged.,0,100,0,0,0,0,0,2,0.15,0.15,457319,449467,457317,457320,457318,0,-1,-1,-1,-1,-1,0
+61,Chi,%d Chi,Not enouch chi,The energy your attacks have stored up.,0,100,0,0,0,0,2,2,0,0,457566,457564,449443,0,457565,0,-401539,-16777216,-7678738,-16777216,-598016,0
 62,Rescue Progress,,,Stay near the stranded druid!,0,45,1,0,1,1,0,23,0.1328,0.1367,458992,457301,457302,0,457303,0,-1,-1,-5038305,-1,-1,0
 63,Ritual Progress,,,Fight the elementals at the portal atop Nordune Ridge!,0,105,0,0,1,1,0,23,0.1328,0.1367,458992,457301,457302,0,457303,0,-1,-1,-5038305,-1,-1,0
 64,Direction Gauge,Direction,,This is the direction that Lord Rhyolith is headed.,0,50,25,50,0,0,0,6,0.15,0.15,525293,525291,525292,0,0,0,-1,-1,-1,-1,-1,0
-65,Concentration,Concentration,Lost Concentration.,Your damage and healing increases as you concentrate on the task at hand. These bonuses are lost if you are hit by a hostile attack or spell.,0,100,0,0,5,5,0,6,0.13,0.13,449450,449447,449448,0,449449,0,-1,-1,-1,-1,-1,0
+65,Concentration,Concentration,Lost Concentration.,Your damage and healing increases as you concentrate on the task at hand. These bonuses are lost if you are hit by a hostile attack or spell.,0,100,0,0,5,5,0,6,0.13,0.13,449450,449447,449448,0,446220,0,-1,-1,-1,-1,-1,-16777216
 66,Rebel Camp Defended,,,Defend the Rebel Camp from the troll attackers!,0,180,1,0,1,1,0,6,0.1328,0.1367,457295,449447,449468,0,457303,0,-1,-1,-16757025,-1,-1,0
 67,Grom'gol Defended,,,Defend Grom'gol Base Camp from the troll attackers!,0,180,1,0,1,1,0,6,0.1328,0.1367,457306,449447,449468,0,457303,0,-1,-1,-1177600,-1,-1,0
 68,Protecting Thrall,,,Fight the elementals that threaten to tear Thrall apart!,0,100,0,0,0,0,0,6,0.1328,0.1367,458988,457301,457302,0,457303,0,-1,-1,-6752257,-1,-1,0
@@ -25,18 +26,86 @@ ID,Name_lang,Cost_lang,OutOfError_lang,ToolTip_lang,MinPower,MaxPower,StartPower
 72,Protecting Thrall,,,Defeat the Twilight forces that threaten Thrall!,0,100,0,0,0,0,0,6,0.1328,0.1367,459008,457301,457302,0,457303,0,-1,-1,-10921639,-1,-1,0
 78,Freeing Thrall,,,Activate the totems to free Thrall!,0,100,0,0,0,0,0,6,0.1328,0.1367,458992,457301,457302,0,457303,0,-1,-1,-65536,-1,-1,0
 80,Molten Feathers,Molten Feather,You have no molten feathers!,Number of Molten Feathers collected.,0,3,0,0,0,0,0,2,0.27,0.28,0,525288,525289,0,525290,0,-1,-1,-1,-1,-1,0
-83,Whack-a-Gnoll,,,Whack 'em good!,0,60,60,0,-1,-1,0,6,0.1328,0.1367,533452,533449,533450,533453,533451,0,-1,-1,-1,-1,-1,-16777216
-84,Shooting Gallery,,,Shoot fast to earn more points!,0,60,60,0,-1,-1,0,6,0.1328,0.1367,533452,533449,533450,533453,533451,0,-1,-1,-1,-1,-1,-16777216
-86,Steam Tonk Challenge,,,Ready to roll out!,0,60,60,0,-1,-1,0,6,0.1328,0.1367,533452,533449,533450,533453,533451,0,-1,-1,-1,-1,-1,0
+83,Whack-a-Gnoll,,,Whack 'em good!,0,60,60,0,-1,-1,0,6,0.2125,0.2125,533452,533449,533450,533453,533451,0,-1,-1,-1,-1,-1,-16777216
+84,Shooting Gallery,,,Shoot fast to earn more points!,0,60,60,0,-1,-1,0,6,0.2125,0.2125,533452,533449,533450,533453,533451,0,-1,-1,-1,-1,-1,-16777216
+86,Steam Tonk Challenge,,,Ready to roll out!,0,60,60,0,-1,-1,0,6,0.2125,0.2125,533452,533449,533450,533453,533451,0,-1,-1,-1,-1,-1,-16777216
+87,Vitality,,,Revive the wounded crewman before their Vitality hits zero.,0,120,50,0,-1,-1,0,6,0.1328,0.1367,457295,457301,457302,0,457303,0,-1,-1,-16711918,-1,-1,0
 88,Ring Toss Challenge,,,Ring Toss,0,10,10,0,0,0,3,6,0,0,457617,449432,449453,0,0,0,-1,-1,-3126561,-1,-1,0
 89,Parachute Drop,,,Parachutes Remaining,0,4,4,0,0,0,3,6,0,0,457617,449432,449453,0,0,0,-1,-1,-3126561,-1,-1,0
 90,Sands of Time,Sands of Time,The hourglass has no sands remaining!,The number of times the Hourglass can turn back time.,0,5,5,0,0,0,0,4,0,0,0,533349,533350,0,0,0,-1,-1,-1,-1,-1,-16777216
+91,Empowering the Staff,,,Slay Ancient Spirits to empower Pei-Zhi's staff and interrupt the ritual!,0,100,0,0,0,0,0,6,0.1328,0.1367,449450,457301,457302,0,457303,0,-1,-1,-8053343,-1,-1,-16777216
 92,Balance,Balance,,Shows the balance of players standing on the left and right sides of Deathwing's spine. Deathwing will perform a barrel roll if he senses that all players are standing on the same side.,0,100,50,100,0,0,0,10,0.15,0.15,525293,525291,525292,0,0,0,-1,-1,-1,-1,-1,-16777216
+93,Meditate,,,Find your center.,0,100,50,0,0,0,0,6,0.1328,0.1367,457321,457301,457302,457320,457303,0,-1,-1,-16742657,-1,-1,0
+94,To Bridge Earth and Sky,,,Keep the attackers off of Pei-Zhi while he conducts the ritual!,0,100,0,0,0,0,0,6,0.1328,0.1367,449450,449447,449448,449451,449449,0,-1,-1,-11608077,-1,-70400,0
+95,Demonic Juice (Old),Demonic Juice (Old),You need more Fury to do that!,Consumed by abilities while in Metamorphosis.,0,1000,200,0,0,0,0,2,0.2,0.2,462333,462330,462331,462334,462332,0,-1,-1,-1,-1,-1,-16777216
 97,Clarity of Mind,Clarity,Your mental energies have not yet recharged,,0,3,0,0,0,0,2,0,0.27,0.28,0,525288,525289,0,525290,0,-1,-1,-1,-1,-1,0
+103,Mud Bar,,,How much mud you've got.,0,100,10,0,0,0,1,147,0.1,0.17,457569,0,457567,0,0,0,-1,-16777216,-7690425,-16777216,-16777216,-16777216
 104,Enter the Dream,Dreaming,Your mind has not yet recovered from your last Dream.,,0,3,0,0,0,0,2,0,0.27,0.28,0,525288,525289,0,525290,0,-1,-1,-1,-16777216,-1,-16777216
 105,Counter Test,,,,0,101,0,0,0,0,4,384,0,0,533341,0,0,0,0,533342,-1,-16777216,-16777216,-16777216,-16777216,-1
+106,Fist Bar,,,Hit as hard as you can!,0,100,0,0,0,0,2,2,0,0,457602,0,457570,0,457565,0,-1,-10790053,-65536,-16777216,-20705,-16777216
 107,Corrupted Blood,Corrupted Blood,,"Deathwing's Corrupted Blood is dealing increasing Fire damage the lower health he gets.  At 15, 10, and 5 percent health, Deathwing will Hemorrhage, doubling his Corrupted Blood.",0,100,0,50,0,0,0,10,0.15,0.15,0,533343,533344,533346,533345,0,-1,-1,-1,-1,-1,-16777216
+110,Static Charge,Static Charge,,Increases the effect (stun length and damage) of Lightning Boss' abilities. PH,0,100,0,0,0,0,0,2,0.15,0.15,457319,449467,457317,457320,457318,0,-1,-1,-1,-1,-1,-16777216
+113,Hatred,Hatred,Zero Hatred.,Your hatred for the Sha increases gradually over time or when you are hit by one of its abilities.,0,60,0,0,0.2,0.2,0,4,0.13,0.14,457315,449447,449448,449451,449449,0,-1,-1,-65536,-4113,-65536,-16777216
+114,Hozen Disrupted,Hozen Disrupted,The Hozen Party is going at full force!,Number of Hozen partygoers disrupted.|n|nDisrupt the party to incur the wrath of Ook-Ook!,0,40,0,0,0,0,4,390,0,0,633766,0,0,0,0,633767,-1,-16777216,-16777216,-16777216,-16777216,-602368
+115,Unstable Embers,Unstable Embers,You need more Unstable Embers.,Unstable Embers will empower your next Conflagrate or Soul Fire.,0,30,0,0,0,0,0,259,0.1328,0.1367,458992,457301,457302,0,457303,0,-1,-1,-65536,-1,-1,-16777216
 116,Heat Level,Heat,,Counts the number of Corrupted Bloods absorbed by this Hideous Amalgamation.,0,9,0,0,0,0,4,2,0,0,533347,0,0,0,0,533348,-1,-16777216,-16777216,-16777216,-16777216,-16777216
 117,Shooting Gallery,,,Score 25 hits to win!,0,25,0,0,0,0,4,388,0,0,533341,0,0,0,0,533342,-1,-16777216,-16777216,-16777216,-16777216,-1
 129,Tonk Challenge,,,Score 30 hits to win!,0,30,0,0,0,0,4,388,0,0,533341,0,0,0,0,533342,-1,-16777216,-16777216,-16777216,-16777216,-1
 133,Whack-a-Gnoll,,,Whack 'em good!,0,30,0,0,0,0,4,388,0,0,533341,0,0,0,0,533342,-1,-16777216,-16777216,-16777216,-16777216,-1
+134,Blanche's Boomer Brew,,,Keep the Brewkegs from burning in order to brew Blanche's masterpiece.,0,100,0,0,0,0,0,6,0.1328,0.1367,653596,653593,653594,653597,653595,0,-1,-1,-5268647,-1,-1,-16777216
+137,Survival Ring: Flame,,,Don't die.,0,60,0,0,1,1,0,6,0.1328,0.1367,457325,457301,457302,0,0,0,-1,-16777216,-1,-1,-1,-16777216
+139,Survival Timer,,,Don't die.,0,60,60,0,-1,-1,0,6,0.1328,0.1367,457325,457301,457302,0,0,0,-1,-1,-1,-1,-1,-16777216
+141,Spirit Shift Countdown,,,,0,15,15,0,-1,-1,2,6,0,0,457623,449442,449443,0,0,0,-16777216,-16777216,-16777216,-16777216,-16777216,-16777216
+148,Cart Control,Cart Control,Lost Control,Control of the Cart is determined by the number of nearby Horde or Alliance players.,0,100,50,0,0,0,0,2,0.13,0.13,449450,449447,449448,0,449449,0,-1,-1,-1,-1,-1,-16777216
+149,Aysa's Meditation,,,Keep Aysa safe while she meditates.,0,90,0,0,1,1,0,6,0.1328,0.1367,457325,457301,457302,0,0,0,-1,-16777216,-1,-1,-1,-16777216
+151,Shark Grip,,,Hold on to the shark!  Don't let her toss you off!,0,100,50,0,-1,-1,0,6,0.1328,0.1367,457328,457301,457302,0,457303,0,-1,-1,-2293246,-1,-1,-16777216
+158,The Healing of Shen-zin Su,,,Rescue and defend healers until Shen-zin Su's wound is healed.,0,700,0,0,0,0,0,6,0.1328,0.1367,525287,457301,457302,0,0,0,-1,-16777216,-13899437,-1,-1,-16777216
+165,Hatred,,,Control your hatred by standing within Pools of Harmony!,0,100,0,0,1,1,0,6,0.1328,0.1367,459004,457301,457302,0,457303,0,-1,-1,-196608,-1,-1,-16777216
+171,Spit Bar,,,How much spit you've got.,0,100,0,0,0,0,1,130,0.1,0.17,457569,0,457567,0,0,0,-1,-16777216,-10044673,-16777216,-16777216,-16777216
+175,Real Ultimate Power,Real Ultimate Power,You are too weak.,You absorb the raw power of the Sha as you slaughter them.,0,100,10,0,-1,-1,0,6,0.13,0.14,458992,457301,457302,449431,457303,0,-1,-1,-65536,-1,-1,-16777216
+176,Viscosity,Viscosity,Minimum Viscosity,The bar fills as the resin hardens. Jump to stop the resin from hardening!,0,100,50,0,2,2,0,6,0.13,0.14,457315,449447,449448,449451,449449,0,-1,-1,-31232,-4113,-12800,-16777216
+177,Bo's Jungle Brew,,,Collect brew from the pirate hozen inhabiting the island.,0,100,0,0,0,0,0,6,0.1328,0.1367,457325,457301,457302,0,457303,0,-1,-1,-5268647,-1,-1,-16777216
+178,Willpower,Willpower,Insufficient willpower!,"You struggle to retain control of your new form.  If willpower is exhausted, your consciousness will fade entirely....",0,100,100,0,0,0,0,10,0.13,0.13,628130,628127,628128,0,628129,0,-1,-1,-1,-1,-1,-16777216
+179,Vu's Shade Bottle,,,How much shade you've got.,0,100,0,0,0,0,1,130,0.1,0.17,457569,0,457567,0,0,0,-1,-16777216,-11402617,-16777216,-16777216,-16777216
+183,Meditate,,,Find your center.,0,100,50,0,0,0,0,6,0.1328,0.1367,627342,457301,457302,627343,457303,0,-1,-1,-16742657,-1,-1,-16777216
+195,Survival Ring: Blades,,,Don't die.,0,60,0,0,1,1,0,6,0.1328,0.1367,457325,457301,457302,0,0,0,-1,-16777216,-1,-1,-1,-16777216
+199,Fist Bar,,,Hit as hard as you can!,0,100,0,0,0,0,2,2,0,0.15,629942,629939,629940,0,629941,0,-1,-1,-1,-16777216,-20705,-16777216
+203,Cleansing the Pool of Life,,,Destroy the Sha surrounding the Pool of Life!,0,40,0,0,0,0,0,6,0.1328,0.1367,0,653598,653599,653601,653600,0,-1,-1,-1,-1,-1,-16777216
+204,Amethyst Petrification,Amethyst Petrification,Not enough Alternate Power,"You're being turned to Amethyst! If this process completes you will be unable to move or act.|n|nDuring this process your movement speed is gradually reduced, but all Shadow damage you take is reduced by 90%.",0,100,5,0,0,0,0,6,0.13,0.13,629030,629037,629029,0,629038,0,-1,-1,-1,-1,-1,-16777216
+205,Cobalt Petrification,Cobalt Petrification,Not enough Alternate Power,"You're being turned to Cobalt! If this process completes you will be unable to move or act.|n|nDuring this process your movement speed is gradually reduced, but all Frost damage you take is reduced by 90%.",0,100,5,0,0,0,0,6,0.13,0.13,629032,629037,629031,0,629038,0,-1,-1,-1,-1,-1,-16777216
+206,Jade Petrification,Jade Petrification,Not enough Alternate Power,"You're being turned to Jade! If this process completes you will be unable to move or act.|n|nDuring this process your movement speed is gradually reduced, but all Nature damage you take is reduced by 90%.",0,100,5,0,0,0,0,6,0.13,0.13,629034,629037,629033,0,629038,0,-1,-1,-1,-1,-1,-16777216
+207,Jasper Petrification,Jasper Petrification,Not enough Alternate Power,"You're being turned to Jasper! If this process completes you will be unable to move or act.|n|nDuring this process your movement speed is gradually reduced, but all Fire damage you take is reduced by 90%.",0,100,5,0,0,0,0,6,0.13,0.13,629036,629037,629035,0,629038,0,-1,-1,-1,-1,-1,-16777216
+213,Jinyu Defense,,,Construction Progress,0,1000,0,0,0,0,0,4,0.1328,0.1367,459016,457301,457302,449451,457303,0,-1,-1,-16730159,-1,-1,-16777216
+214,Brann's Bottle,,,Fill the bottle with sha energy by killing nearby Angerlings.,0,100,0,0,0,0,1,6,0.1328,0.1367,457569,0,457567,0,457568,0,-1,-1,-1,-1,-1,-16777216
+216,Gnome Defense,,,Construction Progress,0,1000,0,0,0,0,0,4,0.1328,0.1367,457311,457301,457302,449451,457303,0,-1,-1,-4825088,-5224954,-1,-16777216
+220,Dwarf Defense,,,Construction Progress,0,1000,0,0,0,0,0,4,0.1328,0.1367,457327,457301,457302,449451,457303,0,-1,-1,-12566464,-1,-1,-16777216
+221,Pandaren Defenses,,,Construction Progress,0,1000,0,0,0,0,0,4,0.1328,0.1367,610155,457301,457302,449451,457303,0,-1,-1,-4614848,-924892,-1,-16777216
+222,Anomaly Distance,,,,0,100,0,0,0,0,2,2,0,0,669472,669469,669470,0,669471,0,-1,-1,-1,-16777216,-1,-16777216
+223,Night Elf Defenses,,,Construction Progress,0,1000,0,0,0,0,0,4,0.1328,0.1367,525287,457301,457302,449451,457303,0,-1,-1,-9391552,-13215964,-11667684,-16777216
+229,Shooting Gallery,,,Shoot fast to earn more points!,0,1200,1200,0,-1,-1,0,6,0.1328,0.1367,462333,462330,462331,462334,462332,0,-1,-1,-1,-1,-1,-16777216
+234,Capacitor Energy,,,,0,100,0,0,0,0,0,2,0,0,457328,457301,457302,0,457303,0,-1,-1,-1,-16777216,-1,-16777216
+237,Conduit Level,,,The Power Level of the Conduit.,0,3,1,0,0,0,0,2,0,0,0,840384,840385,0,0,0,-1,-1,-1,-1,-1,-16777216
+238,Conduit Power,Conduit Power,Conduit Power,The Power Level of the Conduit that is currently being charged by Lei Shen.,0,100,0,0,0,0,0,6,0.13,0.13,653596,653593,796705,653597,653595,0,-1,-1,-1,-1,-1,-16777216
+240,Conduit Level,,,The Power Level of the Conduit.,0,3,1,0,0,0,0,2,0,0,0,840390,840391,0,0,0,-1,-1,-1,-1,-1,-16777216
+241,Conduit Level,,,The Power Level of the Conduit.,0,3,1,0,0,0,0,2,0,0,0,840388,840389,0,0,0,-1,-1,-1,-1,-1,-16777216
+242,Conduit Level,,,The Power Level of the Conduit.,0,3,1,0,0,0,0,2,0,0,0,840386,840387,0,0,0,-1,-1,-1,-1,-1,-16777216
+243,Troves of the Thunder King,,,Gold stolen from the Mogu so far this run.,0,9999,0,0,0,0,4,22,0,0,796706,0,0,0,0,796707,-1,-16777216,-16777216,-16777216,-16777216,-1
+244,Charge Level,,,The Trillium bars are charging in a nearby mold.,0,200,0,0,0,0,0,6,0.1328,0.1367,0,840432,840433,840435,840434,0,-1,-1,-1,-1,-1,-16777216
+245,Smithing Progress,,,Celestial Blacksmith's progress on the Lightning Lance.,0,160,0,0,0,0,0,6,0.1328,0.1367,653596,653593,796705,653597,653595,0,-1,-1,-1,-1,-1,-16777216
+247,Artifacts Collected,,,Race through the Big Blossom Mine to find as many artifacts as you can!,0,150,0,0,0,0,0,6,0.1328,0.1367,457316,457301,457302,449451,457303,0,-1,-1,-14234,-1,-1,-16777216
+248,Urtharges' Shield,,,Urtharges is empowered by a powerful shield.  You can kill lesser elementals to reduce his shield's power.,0,100,100,0,0,0,0,6,0.1328,0.1367,459004,457301,457302,0,0,0,-1,-1,-20992,-1,-1,-16777216
+257,Pride,Pride,You are humble.,"Causes the following effects when hit by Swelling Pride:
+ Bursting Pride at 25 Pride. 
+ Projection at 50 Pride.  
+ Aura of Pride at 75 Pride. 
+ Overcome at 100 Pride.",0,100,0,0,0,0,0,83,0.13,0.13,898411,898408,898409,898412,898410,0,-1,-1,-1,-1,-1,-16777216
+258,Corruption,Corruption,You are Cleansed.,You are corrupt with Sha energies. Reducing your Corruption level will enable you to complete Norushen's trial.,0,100,75,0,0,0,0,82,0.13,0.13,898411,898408,898409,898412,898410,0,-1,-1,-1,-1,-1,-16777216
+259,Defensive System Override Power,Defensive System Override Power,Defensive System Override Power,The amount energy in overriding the Defensive System.,0,50,0,0,0,0,0,6,0.13,0.13,0,898400,898401,898403,898402,0,-1,-1,-1,-1,-1,-16777216
+263,Garrosh's Energy,Garrosh's Energy,Garrosh's Energy,Garrosh is absorbing power from the Heart of Y'Shaarj.,0,100,0,0,0,0,0,6,0.2,0.2,0,898404,898405,898407,898406,0,-1,-1,-9691459,-9691459,-9691459,-16777216
+266,Tower Strength,,,Defeat defenders from this tower to reduce its strength.,0,100,100,0,0,0,0,6,0.1328,0.1367,459008,457301,457302,0,449449,0,-1,-1,-6908266,-1,-2416608,-16777216
+267,Defensive System Override Power,Defensive System Override Power,Defensive System Override Power,The amount energy in overriding the Defensive System.,0,50,0,0,0,0,0,2,0.13,0.13,0,898400,898401,898403,898402,0,-1,-1,-1,-1,-1,-16777216
+268,Corruption,Corruption,You are Cleansed.,You are corrupt with Sha energies. Reducing your Corruption level will enable you to complete Norushen's trial.,0,100,75,0,0,0,0,82,0.13,0.13,898411,898408,898409,898412,898410,0,-1,-1,-1,-1,-1,-16777216
+765,Celestial Influence,,,,0,100,0,50,0,0,0,279,0.1328,0.1367,627342,457301,457302,627343,457303,0,16777215,16777215,34559,16777215,16777215,0
+766,Celestial Influence,,,,0,100,0,50,0,0,0,279,0.1328,0.1367,653596,457301,796705,627343,840434,0,16777215,16777215,34559,16777215,16777215,0
+767,Celestial Influence,,,,0,100,0,50,0,0,0,279,0.1328,0.1367,610156,457301,457302,627343,457303,0,16777215,16777215,34559,16777215,16777215,0
+768,Celestial Influence,,,,0,100,0,50,0,0,0,279,0.1328,0.1367,458988,457301,457302,627343,457303,0,16777215,16777215,34559,16777215,16777215,0
