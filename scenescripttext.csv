@@ -22954,7 +22954,7 @@ PlayLoopingSplitBodyAnim(pandarenSlavef1, "
 
 	local precastID = caster.actor:PlaySpellPreCastVisual(spellVisualID)
 	scene:WaitTimer(visual.castTime)
-	caster.actor:ClearSpellVisual( precastID)
+	caster.actor:ClearSpellVisual(precastID)
 
 	-- Self
 	castInstanceID = caster.actor:PlaySpellCastVisual(spellVisualID, visual.impactTime, true )
@@ -72420,10 +72420,270 @@ Wait(1)"
 
 	DefaultTurnCleanUp(ROID);
 end"
+12283,Turn Package - Stampede No Pet,"function Dispatcher_Stampede_NoPet(clonesPerRow, ROID, isTurn, turn )
+	-- Only handle ""effect"" objects
+	if ( isTurn ~= ""turn"" ) then
+		warning (""ERROR: Object of type ""..isTurn.."" passed to Dispatcher_Stampede"");
+
+		return;
+	end 
+
+	local radius = 3; 
+	local cloneSpeed = 10;
+	local effectTime = 2;
+
+	local chargeWithClones = true;
+
+	local cols = clonesPerRow
+	local rows = #turn.effects
+
+	if ( chargeWithClones ) then 
+		rows = rows - 1;
+	end
+
+	-- protect against a divide by zero
+	if (rows < 1) then
+		rows = 1;
+	end
+	if (cols < 1) then
+		cols = 1;
+	end
+
+	local frontSpread = radius*2 / rows; 
+	local leftSpread = radius*2 / cols; 
+
+	local objectTable = {};
+
+	for i=1,rows do
+		for j=1,cols do			
+			local col = j
+			local row = i;
+			
+			table.insert(objectTable, {
+					index = (i-1)*rows+(j);
+					f = -radius + row*frontSpread + math.random( -frontSpread*75,frontSpread*75 )/100, 
+					l = -radius + col*leftSpread + math.random( -leftSpread*75,leftSpread*75 )/100
+			});
+		end
+	end
+
+	local pet = ROIDTOUNIT(ROID);
+	local targetROID = GetMoveToROID( turn ); 
+	local target = ROIDTOUNIT( targetROID );
+
+	local failed, flags = DidItFail ( turn );
+	local missed = flags.miss;
+
+	local targetLocation = ObtainAttackPoint(ROID, targetROID, PetBattleRange.PointBlank, missed )
+
+	local name = ""Clone"";
+	local creatureID = pet.creatureID; 
+	local scale = 1;
+
+	local createData = ActorCreateData:Default();
+	createData.creatureID = creatureID;
+	createData.scale = scale;
+	createData.interactible = false;
+
+	local petStartingPoint = pet.actor:GetPosition()
+	local centerStartingPoint = FastLocalFacingCoordinates( petStartingPoint, target.actor:GetPosition(), Vector:New(-8,0,0) );
+	local centerEndingPoint   = FastLocalFacingCoordinates( target.actor:GetPosition(), petStartingPoint, Vector:New(-8,0,0) );
+
+	local cleanUpCheck=function(remove)
+		local empty = true
+		for i,v in pairs(objectTable) do
+			if ( v.actor ) then
+				if (remove) then
+					v.actor:Despawn()
+					v.actor = nil
+				else
+					local refPos = v.actor:GetPosition()
+					refPos.z = v.destination.z
+					local remainder = refPos:Dist( v.destination );
+
+					if ( remainder < 2 or not v.actor:IsMoving() ) then 
+						v.actor:Despawn();
+						v.actor = nil
+					else
+						-- keep tracking this actor
+						empty = false
+
+						-- start fading if we are close to reaching the goal
+						if ( remainder < 4 and not v.fading ) then
+							v.actor:Fade(0, 0.25);
+							v.fading = true
+						end
+					end
+				end
+			end	
+		end
+		return empty
+	end
+
+	-- Wave Stuff
+	local timeSpent = 0;
+	local waveDelay = effectTime/rows;
+	local effectDelay = ( target.actor:GetPosition():Dist(petStartingPoint) / cloneSpeed ) + waveDelay;
+
+	local petDelay = 0;
+
+	local nextWave = 0
+
+	local waveIndex = 1;
+	local effectIndex = 1;
+
+	local delay = 0.05;
+
+	-- Get the pet to charge
+	local petStarted = false;
+	local petFirstHit = false;
+	local petArrived = false;
+	local petTeleport = false;
+	local petReturned = false;	
+	local petDone = false;
+
+	local doEffect = function(updateDelay)
+		local effect = turn.effects[effectIndex];
+		-- Use this to cap the number of effects rendered
+		if ( effectIndex <= 99 ) then 
+			-- Attempt to process the package
+			local processed = HandleSpellVisualPackage( ROID, effect.firstEvent.abilityVisualID, ""effect"", effect)
+
+			-- fallback handling
+			if (processed ~= true) then
+				-- Start the effect animation
+				DefaultDoEffect(ROID, effect, nil, nil ); 
+				-- End
+			end
+		else
+			for index, result in pairs(effect.results) do
+				StartEffectProcessing(result)
+				SignalEffectProcessed()
+			end
+		end
+
+		effectIndex = effectIndex + 1;
+
+		if ( updateDelay ) then 
+			effectDelay = timeSpent + waveDelay	/ 2
+		end
+	end
+
+	-- Play the Cast Visual
+	"
+12284,[1] Turn Package - Stampede No Pet,"pet.actor:PlaySpellCastVisual(28897)
+
+	while effectIndex <= #turn.effects do
+		if ( timeSpent >= nextWave ) then
+			for j = 1, cols do 
+				local v = objectTable[(waveIndex-1)*#turn.effects+j];
+
+				if ( v ) then
+					if ( v.actor) then
+						if (not v.fading) then
+							v.actor:Fade(0, 0.25);
+							v.fading = true
+						end
+
+						v.actor:Despawn()
+						v.actor = nil
+					end
+
+					createData.transform = Transform:New(centerStartingPoint + Vector:New(v.f,v.l,0),0);
+					local actor = scene:SpawnActor(createData);
+
+					v.actor = actor;
+					v.destination = FastLocalFacingCoordinates( target.actor:GetPosition(), petStartingPoint, Vector:New(-8+v.f,v.l,0) );
+					v.actor:Fade(1,0.5);
+
+					local moveTime = v.actor:GetPosition():Dist( v.destination ) / cloneSpeed;
+
+					v.actor:MoveToAbs( v.destination, moveTime )
+				else
+				end
+			end
+
+			waveIndex = waveIndex + 1;
+			nextWave = timeSpent + waveDelay			
+		end
+
+		-- Used to filter effects
+		if ( timeSpent > effectDelay ) then
+			doEffect(true);
+		end
+
+		scene:WaitTimer(delay)
+		timeSpent = timeSpent + delay;
+		cleanUpCheck(false);
+	end
+
+	-- pet.actor:MoveToAbs( petStartingPoint, pet.actor:GetPosition():Dist( petStartingPoint ) / cloneSpeed );
+	
+	while (cleanUpCheck(true) == false) do
+		scene:WaitTimer(0.1)
+	end
+
+	-- Wait until the pet is home
+	-- pet.actor:WaitMovementComplete()
+	-- pet.actor:SetFacingToAbs( target.actor:GetPosition() )
+	-- pet.actor:Fade(1,0);
+
+	-- Reset/reposition
+	DefaultTurnCleanUp(ROID);
+end "
 14844,[1] Humanoid - Whirlwind,"victimROID, attackerROID, visualID ) 
 
 	Dispatcher_AddCommandToQueue(victimROID, Dispatcher_PerformResultImpactVisual, attackerROID, visualID ); 	 
 	Dispatcher_AddCommandToQueue(victimROID, Dispatcher_PerformImpactVerticalKnockback, attackerROID, 2, 0.75); 
+end"
+21922,Turn Package - Leap In Front of Active Friendly Pet,"function Dispatcher_LeapToInterceptAttack( n, ROID, isTurn, turn )
+	-- Only handle ""effect"" objects
+	--added in 8.2.0 -dkramer
+	if ( isTurn ~= ""turn"" ) then
+		warning (""ERROR: Object of type ""..isTurn.."" passed to Dispatcher_LeapIntoMeleeOnlyPlayN"");
+
+		return;
+	end
+
+	-- MY MOVEMENT START
+	local pet = ROIDTOUNIT(ROID);
+	if ( not pet or (pet and pet.isPad) ) then
+		return;
+	end
+
+	local turnVisualPlayed
+
+	local turnVisualID = turn.turnVisualID
+	local turnVisual = petAbilityVisuals[turnVisualID]
+	local turnVisualSpellID = turnVisual.spellVisualID
+
+	local visKit = pet.actor:PlaySpellStateVisual(6)
+
+	local targetROID = GetMoveToROID( turn.effects[1] ); 
+	local target = ROIDTOPET( targetROID )
+
+	PerformIntercept(ROID, targetROID, turnVisual.range, Animations.Jump )
+	pet.actor:ClearSpellVisual( visKit)        
+
+	turnVisualPlayed = DefaultTurnVisualHandler(ROID, turn)
+
+	DefaultTurnVisualHandler(ROID, turn, successOverride, failureOverride)
+
+	-- Handle all effects
+	for index=1,#turn.effects do 
+		local effect = turn.effects[index];
+
+		if ( index <= n ) then 
+			-- Default Visual 
+			DefaultDoEffect( ROID, effect ); 
+		else
+			DefaultDoEffectProcessing( ROID, ""effect"", effect ); 
+		end
+	end 
+
+	-- Default CleanUp
+	DefaultTurnCleanUp(ROID);
+
 end"
 21925,Global Functions - Table Wrappers,"--
 -- Table Wrappers
@@ -72461,6 +72721,85 @@ local env = getfenv();
 for t, shortcut in pairs(wrappers) do
 	env[shortcut] = function(id) return id end;
 end"
+24066,Turn Package - Shadowstep - Swipe,"function Dispatcher_ShadowstepSwipe( ROID, isTurn, turn )
+
+	-- Only handle ""effect"" objects
+	if ( isTurn ~= ""turn"" ) then
+		warning (""ERROR: Object of type ""..isTurn.."" passed to Dispatcher_ShadowstepSwipe"");
+
+		return;
+	end
+
+	-- Behave normally on 1 effect
+	if ( #turn.effects == 1 ) then 
+		DefaultTurnBehaviour( ROID, isTurn, turn )
+
+	else
+
+		-- ## Unique Stuff Start 
+		local ShadowStep = function(targetROID) 
+			local pet = ROIDTOUNIT(ROID);
+			local target =  ROIDTOUNIT( targetROID );
+
+			local failed, flags = DidItFail ( turn );
+			local missed = flags.miss;
+
+			local alpha = 0;
+			local delay = 0.5; -- sec
+			pet.actor:PlaySpellCastVisual(255);
+			pet.actor:Fade(alpha, delay)
+			scene:WaitTimer(delay)
+			pet.actor:SetFacingToTarget(target.actor, Vector:New())
+
+			local targetLocation =  ObtainAttackPoint(ROID, targetROID, PetBattleRange.PointBlank, missed )
+
+			local behindSpot = FastLocalFacingCoordinates(targetLocation, pet.actor:GetPosition() , Vector:New(-0.5,0,0) );
+
+			local distance = targetLocation:Dist( behindSpot )
+
+			pet.actor:WaitMoveToAbs(behindSpot,0); --driftDistance/pet.moveSpeed 
+
+			pet.actor:PlaySpellCastVisual(255);
+			pet.actor:Fade( GetNaturalAlpha(ROID) , delay)
+			scene:WaitTimer(delay)
+		end
+		-- ## Unique Stuff End
+		local HandleEffect = function ( effectId )
+			local effect = turn.effects[effectId];
+			--local effectVisualPlayed = DefaultTurnOnEffectVisualHandler( ROID, turn, effect )
+
+			DefaultDoEffectProcessing( ROID, ""effect"", effect ); 
+
+			if ( effectVisualPlayed) then 
+				swipeVisualPlayed = true
+				DefaultTurnCleanUp( ROID );
+			end
+		end
+
+		local targetROID = GetMoveToROID( turn.effects[1] ); 
+
+		ShadowStep( targetROID );
+		local pet = ROIDTOUNIT(ROID)
+		pet.actor:PlaySpellCastVisual(92717);
+		scene:WaitTimer(1)
+		-- Behave normally on 1 effect, do this on multiple effects
+		if ( #turn.effects > 1 ) then 
+			for i=2, #turn.effects do
+				HandleEffect ( i-1 );
+
+				--[[local nextTargetROID = GetMoveToROID( turn.effects[i] ); 
+				if ( targetROID ~= nextTargetROID ) then 
+					ShadowStep( nextTargetROID );
+					targetROID = nextTargetROID;
+				end]]--
+			end
+		end
+
+		HandleEffect( #turn.effects );
+
+	end
+end
+"
 44023,[1] Cinematic Framework - Fake Spellcasting,"channel
 --
 function ClearChannelSpellVisual( channel )
