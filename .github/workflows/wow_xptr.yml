@@ -1,0 +1,13 @@
+name: wow_xptr
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '00 01-23/08 * * *'
+
+jobs:
+  build:
+    uses: ./.github/workflows/template.yml
+    with:
+      NAME: wow_xptr
+      PRODUCT: wowxptr
