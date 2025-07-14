@@ -27,8 +27,18 @@ jobs:
         latest_build=$(curl -s "http://us.patch.battle.net:1119/${{ inputs.PRODUCT }}/versions" | awk -F '|' '$1 == "us" {print $6}')
         latest_build_number=$(echo ${latest_build} | awk -F '.' '{print $NF}')
         echo "CDN -> ${latest_build} (${latest_build_number})"
-        latest_commit_build=$(curl -s "https://api.github.com/repos/${{ github.repository }}/commits/${latest_branch}" | grep -oP '(?<="message": ")[^"]*' | sed -E "s/${product} ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)/\1/")
-        latest_commit_build_number=$(echo ${latest_commit_build} | awk -F '.' '{print $NF}')
+        response_file=$(mktemp)
+        http_status=$(curl -s -w "%{http_code}" -o "${response_file}" "https://api.github.com/repos/${{ github.repository }}/commits/${latest_branch}")
+        if [[ "${http_status}" == "404" ]]; then
+          latest_commit_build="0.0.0.00000"
+          latest_commit_build_number=0
+        elif [[ "${http_status}" == "200" ]]; then
+          latest_commit_build=$(grep -oP '(?<="message": ")[^"]*' "${response_file}" | sed -E "s/${product} ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)/\1/")
+          latest_commit_build_number=$(echo "${latest_commit_build}" | awk -F '.' '{print $NF}')
+        else
+          latest_commit_build=""
+          latest_commit_build_number=""
+        fi
         echo "${latest_branch} -> ${latest_commit_build} (${latest_commit_build_number})"
         if [[ ! "${latest_build_number}" =~ ^[0-9]+$ ]]; then
           echo "Unable to extract build from CDN."
