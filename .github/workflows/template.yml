@@ -140,6 +140,7 @@ jobs:
           local table_count=0
           local table_count_error=0
           local table_count_bounds_error=0
+          local table_count_bounds_error_itemsparse=0
           while IFS= read -r line; do
             if [[ $line == *"Exporting table"* ]]; then
               (( table_count++ ))
@@ -147,17 +148,20 @@ jobs:
               if [[ $line == *"Index was outside the bounds of the array"* ]]; then
                 (( table_count_error++ ))
                 (( table_count_bounds_error++ ))
+                if [[ $line == *"DB2 itemsparse:"* ]]; then
+                  (( table_count_bounds_error_itemsparse++ ))
+                fi
               elif ! [[ $line == *"No rows found"* ]]; then
                 (( table_count_error++ ))
               fi
             fi
           done < "$tempfile"
           local table_count_success=$(( table_count - table_count_error ))
-          echo "$runExitCode,$table_count,$table_count_success,$table_count_error,$table_count_bounds_error"
+          echo "$runExitCode,$table_count,$table_count_success,$table_count_error,$table_count_bounds_error,$table_count_bounds_error_itemsparse"
         }
         output=$(run_dbc2csv)
         cat "$tempfile"
-        IFS=',' read -r runExitCode table_count table_count_success table_count_error table_count_bounds_error <<< "$output"
+        IFS=',' read -r runExitCode table_count table_count_success table_count_error table_count_bounds_error table_count_bounds_error_itemsparse <<< "$output"
         echo "DBC2CSV exited with code $runExitCode: $table_count files scanned. $table_count_success converted. $table_count_error failed."
         if [[ "${{ steps.hotfix.outputs.active }}" == "true" ]]; then
           if [[ $runExitCode -ne 0 || $table_count -le 100 || $table_count_success -le $(( table_count / 2 )) ]]; then
@@ -165,15 +169,21 @@ jobs:
             rm -f *.bin
             output=$(run_dbc2csv)
             cat "$tempfile"
-            IFS=',' read -r runExitCode table_count table_count_success table_count_error table_count_bounds_error <<< "$output"
+            IFS=',' read -r runExitCode table_count table_count_success table_count_error table_count_bounds_error table_count_bounds_error_itemsparse <<< "$output"
             echo "DBC2CSV exited with code $runExitCode: $table_count files scanned. $table_count_success converted. $table_count_error failed."
           fi
         fi
         find . -type f ! -iname "*.csv" -delete
         rm -f "$tempfile"
         if [[ $table_count_bounds_error -gt 0 ]]; then
-          echo "Due to $table_count_bounds_error out of bounds errors the script will skip commiting the build."
-          echo "skip=true" >> $GITHUB_OUTPUT
+          product=${{ inputs.NAME }}
+          test_product=false; [[ "$product" == *_beta || "$product" == *_ptr ]] && test_product=true;
+          if [[ $test_product == true && $table_count_bounds_error -eq 1 && $table_count_bounds_error_itemsparse -eq 1 ]]; then
+            echo "Due to this being a test product it is acceptable when only itemsparse fails conversion."
+          else
+            echo "Due to $table_count_bounds_error out of bounds errors the script will skip commiting the build."
+            echo "skip=true" >> $GITHUB_OUTPUT
+          fi
         fi
 
     - name: Create branch for release
@@ -187,7 +197,9 @@ jobs:
         message="${product} ${build}"
         tag="${product}_${build}"
         cd "${folder}/db2"
-        tmpzip="/tmp/${build}.zip"
+        tmpdbcsvfiles="/tmp/${build}_db_csv_files.txt"
+        tmpzip="/tmp/${build}_csv_files.zip"
+        find . -maxdepth 1 -type f -name "*.db*" -printf "%f\n" | sed -E 's/\.db[^.]*$/.csv/' > "$tmpdbcsvfiles"
         if ! zip -q "${tmpzip}" *.csv; then
           echo "Failed to create zip file" >&2
           exit 1
@@ -221,6 +233,23 @@ jobs:
         checkout_branch "${latest_branch}"
         echo "Extract the ZIP then queue the files..."
         unzip -q "${tmpzip}"
+        while IFS= read -r emptyfile; do
+          existingfile=$(find . -maxdepth 1 -type f -iname "$emptyfile" -print -quit)
+          if [ -e "$existingfile" ] && [ -s "$existingfile" ]; then
+            echo "Skipped restoring: $existingfile"
+            continue
+          fi
+          gitexistingfile=$(git ls-files | grep -i -F -x "$emptyfile" || true)
+          if [ -z "$gitexistingfile" ]; then
+            echo "Skipped restoring untracked: $emptyfile"
+            continue
+          fi
+          if git restore -- "$gitexistingfile"; then
+            echo "Restored: $gitexistingfile"
+          else
+            echo "Error restoring: $gitexistingfile"
+          fi
+        done < "$tmpdbcsvfiles"
         git add -v .
         echo "Checking if there are changes to be commited and pushed..."
         if [[ -n $(git status --porcelain) ]] || ! git diff --quiet; then
