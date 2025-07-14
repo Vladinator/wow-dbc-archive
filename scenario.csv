@@ -529,7 +529,7 @@ ID,Name_lang,AreaTableID,Type,Flags,UiTextureKitID
 1745,Elder Trench Glider,10052,0,0,0
 1746,Invasive Reefwalker,10052,0,0,0
 1747,Monstrous Great Eel,10052,0,0,0
-1754,Summons from the Depths,11383,0,0,0
+1754,Summons from the Depths,10356,0,0,0
 1755,Retaking the Forge,0,0,0,0
 1756,Operation: Mechagon,0,3,18,0
 1757,The Engine of Nalak'sha,0,0,0,0
@@ -543,7 +543,7 @@ ID,Name_lang,AreaTableID,Type,Flags,UiTextureKitID
 1766,Visions of N'Zoth,0,0,0,0
 1767,The Master of Lies,0,0,0,0
 1768,Mechagon Junkyard,0,1,19,0
-1769,Mechagon Workshop,0,1,19,0
+1769,Operation: Mechagon - Workshop,0,1,19,0
 1770,Operation: Mechagon - Junkyard,0,3,18,0
 1771,Operation: Mechagon - Workshop,0,3,18,0
 1773,Vision of Destiny,0,3,26,0
@@ -587,7 +587,7 @@ ID,Name_lang,AreaTableID,Type,Flags,UiTextureKitID
 1816,Halls of Atonement,0,1,19,0
 1817,Plaguefall,0,1,19,0
 1818,Sanguine Depths,0,1,19,0
-1819,Theater of Pain,0,1,19,0
+1819,The Theater of Pain,0,1,19,0
 1820,Ember Court Rehearsal,0,0,2,5349
 1826,Path of Ascension,0,0,2,5361
 1827,De Other Side,0,3,18,0
@@ -599,7 +599,7 @@ ID,Name_lang,AreaTableID,Type,Flags,UiTextureKitID
 1836,"Torghast, Tower of the Damned",0,0,2,0
 1837,Hunt: Soul Eaters,0,0,2,5281
 1838,Hunt: Death Elementals,11525,0,2,5281
-1839,Hunt: Shadehounds,11525,0,2,5281
+1839,Hunt: Shadehounds,11525,0,34,5281
 1842,"Torghast, Tower of the Damned",0,0,2,5281
 1845,Hunt: Soul Eaters,11525,0,2,5281
 1846,The Leeching Vaults,0,3,26,0
@@ -771,7 +771,7 @@ ID,Name_lang,AreaTableID,Type,Flags,UiTextureKitID
 2031,Tazavesh: Streets of Wonder,0,1,19,0
 2032,Tazavesh: So'leah's Gambit,0,1,19,0
 2033,"Torghast, Tower of the Damned",0,0,2,5281
-2034,Test,14014,7,32,0
+2034,Test,8639,7,160,0
 2035,Tazavesh: Streets of Wonder,0,3,18,0
 2036,Tazavesh: So'leah's Gambit,0,3,18,0
 2037,Siege on Dragonbane Keep,13644,0,0,5473
@@ -912,13 +912,17 @@ ID,Name_lang,AreaTableID,Type,Flags,UiTextureKitID
 2194,Fury of Giants,0,3,26,0
 2195,Neltharion's Shadow,0,3,26,0
 2196,Edge of the Void,0,3,26,0
+2198,Kobold Caverns,0,0,18,0
+2208,Kobold Mines,0,0,18,0
 2222,Time Rift!,0,7,2,0
+2246,Earthen Arena,0,0,2,0
 2258,Test,0,0,2,0
 2259,Superbloom,0,0,34,5473
+2270,Abandoned Creche,0,7,18,0
 2276,Dawn of the Infinite: Galakrond's Fall,0,3,18,0
 2277,Dawn of the Infinite: Murozond's Rise,0,3,18,0
 2278,Timeway: Azmerloth,0,0,2,5473
-2279,A Traitor's Rest,13646,7,34,5473
+2279,A Traitor's Rest,13844,7,34,5473
 2280,Timeway: Ulderoth,0,0,2,5473
 2281,Timeway: Azmourne,0,0,2,5473
 2282,Timeway: Azewrath,0,0,2,5473
@@ -935,16 +939,43 @@ ID,Name_lang,AreaTableID,Type,Flags,UiTextureKitID
 2300,Waking Dream,0,0,32,5473
 2301,Waking Dream,0,0,32,5473
 2304,[DNT] Sample Single Step Scenario,0,0,34,5473
+2308,Forgetending,14023,0,0,5511
 2309,The Final Beacon,14841,0,34,0
+2311,Delves,0,0,18,0
+2313,Delves,0,0,18,0
+2315,Delves,0,0,18,0
+2317,Delves,0,0,18,0
+2318,Delves,0,0,18,0
 2319,Dawn of the Infinite: Galakrond's Fall,0,1,19,0
 2320,Dawn of the Infinite: Murozond's Rise,0,1,19,0
+2321,Murloc Migration,9310,0,34,5623
+2323,King Mosh,0,0,34,5623
 2324,[DNT] VS Mode - LFGDungeon - Scenario,0,0,0,0
+2327,Darkflame Cleft,0,3,18,0
+2328,Darkflame Cleft,0,3,18,0
+2329,Darkflame Cleft,0,3,18,0
+2330,Impossibly Rare Boar Liver of Pristine Perfection,0,0,34,5623
+2331,Delves,0,0,18,0
+2332,Memories of Stitches,0,0,34,5623
+2333,Poisoned Pumpkins,0,0,34,5623
+2337,Memories of Hogger,0,0,34,5623
+2338,Hall of Awakening,0,0,0,5623
+2339,Memories of Hakkar,0,0,34,5623
 2340,Incarnate's Wake,0,3,26,0
 2341,Molten Incursion,0,3,26,0
 2342,The Viridian Weave,0,3,26,0
 2343,Fate of Amirdrassil,0,3,26,0
+2344,Southshore vs. Tarren Mill,0,0,34,5623
+2345,Scalding Mornbrew Run,0,0,34,5623
+2346,Delves,0,0,18,0
+2347,Delves,0,0,18,0
+2348,Leper Gnomebliteration,0,0,34,5623
 2350,Dawn of the Infinite: Murozond's Rise,0,3,18,0
 2351,Dawn of the Infinite: Galakrond's Fall,0,3,18,0
+2352,"New Candle, New Hope",0,0,2,5623
+2353,Green Hills Zone,0,0,34,5623
+2354,Delves,0,0,18,0
+2355,Delves,0,0,18,0
 2356,Trial of Valor,0,3,26,0
 2357,Arcing Aqueducts,0,3,26,0
 2358,Royal Athenaeum,0,3,26,0
@@ -953,4 +984,245 @@ ID,Name_lang,AreaTableID,Type,Flags,UiTextureKitID
 2361,Darkbough,0,3,26,0
 2362,Tormented Guardians,0,3,26,0
 2363,Rift of Aln,0,3,26,0
+2364,The Stonevault,0,3,18,0
+2365,Theater Troupe,14776,7,162,5623
+2366,The Stonevault,0,3,18,0
+2367,The Stonevault,0,3,18,0
+2368,The Rookery,0,3,18,0
+2369,The Rookery,0,3,18,0
+2370,The Rookery,0,3,18,0
+2371,Delves,0,0,18,0
+2372,Delves,0,0,18,0
+2373,Delves,0,0,18,0
+2376,Delves,0,0,18,0
+2377,Delves,0,0,18,0
+2378,Delves,0,0,18,0
+2381,The Dawnbreaker,0,3,18,0
+2382,The Dawnbreaker,0,3,18,0
+2383,The Dawnbreaker,0,3,18,0
+2385,Delves,0,0,18,0
+2386,Delves,0,0,18,0
+2387,Delves,0,0,2,0
+2388,Escape The Burrows!,15134,0,0,5623
+2389,Delves,0,0,18,0
+2390,Delves,0,0,18,0
+2391,Spell Test,0,0,0,0
+2392,Awakening The Machine,0,0,2,5623
+2393,Delves,0,0,0,0
+2394,"Ara-Kara, City of Echoes",0,3,18,0
+2395,"Ara-Kara, City of Echoes",0,3,18,0
+2396,"Ara-Kara, City of Echoes",0,3,18,0
+2397,Delves,0,0,18,0
+2398,Delves,0,0,18,0
+2399,Delves,0,0,18,0
+2400,Delves,0,0,18,0
+2401,Delves,0,0,18,0
+2403,Delves,0,0,18,0
+2404,Delves,0,0,18,0
+2405,Delves,0,0,18,0
+2406,Cinderbrew Meadery,0,3,18,0
+2407,Cinderbrew Meadery,0,3,18,0
+2408,Cinderbrew Meadery,0,3,18,0
+2409,Delves,0,0,18,0
+2411,Delves,0,0,18,0
+2415,Delves,0,0,18,0
+2416,A Light in the Dark,0,0,2,5623
+2418,Delves,0,0,18,0
+2419,Delves,0,0,18,0
+2420,Delves,0,0,18,0
+2422,Delves,0,0,18,0
+2423,Delves,0,0,18,0
+2424,Delves,0,0,18,0
+2425,Delves,0,0,18,0
+2426,Delves,0,0,18,0
+2427,Delves,0,0,18,0
+2428,Delves,0,0,18,0
+2429,Delves,0,0,18,0
+2431,Delves,0,0,18,0
+2432,Delves,0,0,18,0
+2433,Delves,0,0,18,0
+2434,Delves,0,0,18,0
+2435,Delves,0,0,18,0
+2436,Delves,0,0,18,0
+2437,Delves,0,0,18,0
+2439,Priory of the Sacred Flame,0,1,18,0
+2443,The Rookery,0,1,18,0
+2444,The Stonevault,0,1,18,0
+2445,City of Threads,0,1,18,0
+2446,"Ara-Kara, City of Echoes",0,1,18,0
+2447,Darkflame Cleft,0,1,18,0
+2448,The Dawnbreaker,0,1,18,0
+2449,Cinderbrew Meadery,0,1,18,0
 2452,Noodle Time,0,0,0,0
+2453,Grim Batol,0,1,18,0
+2454,Prophet of Sseratus,0,0,34,5623
+2486,Siege of Boralus,0,1,18,0
+2487,By Fire be Purged!,0,0,34,5623
+2495,Deviate Delights,0,0,34,5623
+2518,Oh Noes! The Tadpoles!,0,0,34,5623
+2521,King Gordok,0,0,34,5623
+2522,King Gahz'rilla,0,0,34,5623
+2523,Swamp Eye's Spider Eyes,0,0,34,5623
+2524,Quelling Quilboar,0,0,34,5623
+2526,The Champion's Call!,0,0,32,5623
+2527,Crystal Power,0,0,34,5623
+2529,The Trials of the Argent,0,0,32,5623
+2530,Lazy Peons,0,0,34,5623
+2531,In the Mountains...,0,0,34,5623
+2532,Zenn's Bidding,0,0,34,5623
+2533,A Blade fit for a Champion,0,0,34,5623
+2536,Deadmines,0,3,18,0
+2537,Warpwood Quarter,0,3,18,0
+2539,Stratholme - Main Gate,0,3,18,0
+2540,Zul'Farrak,0,3,18,0
+2541,City of Threads,0,3,18,0
+2542,City of Threads,0,3,18,0
+2543,City of Threads,0,3,18,0
+2544,Capital Gardens,0,3,18,0
+2545,Worldsoul Vision,0,0,0,0
+2547,The Skittering Battlements,0,3,18,0
+2548,Secrets of Nerub-ar Palace,0,3,18,0
+2549,A Queen's Fall,0,3,18,0
+2550,Webbed Crusaders,0,0,34,5623
+2552,Priory of the Sacred Flame,0,3,18,0
+2553,Priory of the Sacred Flame,0,3,18,0
+2554,Priory of the Sacred Flame,0,3,18,0
+2555,The Codex of Chromie,0,0,34,5554
+2556,Fashion Frenzy,2300,0,34,5554
+2557,Onyxia,15,0,34,5623
+2558,Remembered Ragnaros,51,0,34,5623
+2560,Lumber Collection,0,0,34,5623
+2561,A Queen's Fall,0,3,2,0
+2564,City of Threads,0,3,18,0
+2568,[DNT] Hackathon - Torghast (OJF),0,0,130,5554
+2569,Worldsoul Memory: The Worldcarvers,0,0,0,0
+2570,Worldsoul Memory: The Worldcarvers,0,0,0,0
+2571,Remembered Lich King,65,0,34,5623
+2577,Grim Batol,0,3,10,0
+2580,The Underbog,0,3,18,0
+2581,The Botanica,0,3,18,0
+2582,The Blood Furnace,0,3,18,0
+2583,Shattered Halls,0,3,18,0
+2584,Mana-Tombs,0,3,18,0
+2585,Magisters' Terrace,0,3,18,0
+2586,Utgarde Keep,0,3,18,0
+2587,The Nexus,0,3,18,0
+2588,The Forge of Souls,0,3,18,0
+2589,Halls of Lightning,0,3,18,0
+2590,Gundrak,0,3,18,0
+2591,Azjol-Nerub,0,3,18,0
+2626,Worldsoul Vision,0,0,0,0
+2627,Worldsoul Vision,0,0,0,0
+2628,Worldsoul Vision,0,0,0,0
+2629,Worldsoul Vision,0,0,0,0
+2630,Worldsoul Vision,0,0,0,0
+2631,Worldsoul Vision,0,0,0,0
+2632,Worldsoul Vision,0,0,0,0
+2633,Weed Rush,0,0,0,0
+2634,Lorewalking: The Black Blade,0,0,0,0
+2635,Ratts' Revenge,7971,0,34,0
+2637,Nightfall,0,7,162,5623
+2642,Operation: Floodgate,0,3,18,0
+2643,Operation: Floodgate,0,3,18,0
+2644,Operation: Floodgate,0,3,18,0
+2678,Delves,0,0,18,0
+2680,Operation: Floodgate,0,1,18,0
+2757,Surge Pricing,15347,0,32,0
+2774,Delves,0,0,18,0
+2776,Eye of Azshara,0,3,26,0
+2777,Darkheart Thicket,0,3,18,0
+2778,Vault of the Wardens,0,3,10,0
+2779,Neltharion's Lair,0,3,26,0
+2780,Court of Stars,0,3,10,0
+2781,Shipping & Handling,0,0,2,5623
+2782,Shipping & Handling,0,0,2,5623
+2783,Shipping & Handling,0,0,2,5623
+2784,Shipping & Handling,0,0,2,5623
+2785,Shipping & Handling,0,0,2,5623
+2786,Shipping & Handling,0,0,2,5623
+2787,Shipping & Handling,0,0,2,5623
+2788,Shipping & Handling,0,0,2,5623
+2789,Shipping & Handling,0,0,2,5623
+2790,Shipping & Handling,0,0,2,5623
+2791,Shipping & Handling,0,0,2,5623
+2792,Shipping & Handling,0,0,2,5623
+2793,Shipping & Handling,0,0,2,5623
+2794,Blackrock Caverns,0,3,10,0
+2795,End Time,0,3,10,0
+2797,Lost City of the Tol'vir,0,3,10,0
+2798,The Stonecore,0,3,10,0
+2799,The Vortex Pinnacle,0,3,10,0
+2800,Throne of the Tides,0,3,10,0
+2801,Scholomance,0,3,10,0
+2802,Shipping & Handling,0,0,2,5623
+2803,Shipping & Handling,0,0,2,5623
+2804,Shipping & Handling,0,0,2,5623
+2805,The Elemental Overlords,0,3,18,0
+2806,Shadowforge City,0,3,18,0
+2807,The Imperial Seat,0,3,18,0
+2808,Shipping & Handling,0,0,2,5623
+2810,Shipping & Handling,0,0,2,5623
+2811,Delves,0,0,18,0
+2812,Shipping & Handling,0,0,2,5623
+2822,Gate of the Setting Sun,0,3,10,0
+2823,Shado-Pan Monastery,0,3,10,0
+2824,Stormstout Brewery,0,3,10,0
+2825,Temple of the Jade Serpent,0,3,10,0
+2826,Mogu'shan Palace,0,3,10,0
+2827,Auchindoun,0,3,26,0
+2828,Bloodmaul Slag Mines,0,3,26,0
+2829,The Everbloom,0,3,26,0
+2830,Grimrail Depot,0,3,26,0
+2831,Shadowmoon Burial Grounds,0,3,26,0
+2832,Skyreach,0,3,26,0
+2833,Shipping & Handling,0,0,2,5623
+2834,Delves,0,0,18,0
+2837,Delves,0,0,18,0
+2838,Shipping & Handling,0,0,2,5623
+2844,Delves,0,0,18,0
+2845,Delves,0,0,18,0
+2847,Delves,0,0,18,0
+2848,Delves,0,0,18,0
+2849,Operation: Mechagon - Workshop,0,3,18,0
+2851,Stratholme - Service Entrance,0,3,10,0
+2853,Delves,0,0,18,0
+2854,Delves,0,0,18,0
+2855,Shipping & Handling,0,0,2,5623
+2856,Shipping & Handling,0,0,2,5623
+2857,Shipping & Handling,0,0,2,5623
+2858,Shipping & Handling,0,0,2,5623
+2859,Shipping & Handling,0,0,2,5623
+2860,Shipping & Handling,0,0,2,5623
+2861,Shipping & Handling,0,0,2,5623
+2862,Shipping & Handling,0,0,2,5623
+2863,Shipping & Handling,0,0,2,5623
+2864,Shipping & Handling,0,0,2,5623
+2865,Shipping & Handling,0,0,2,5623
+2871,Delves,0,0,18,0
+2875,Shipping & Handling,0,0,2,5623
+2887,Shock and Awesome,0,3,18,0
+2889,Maniacal Machinist,0,3,18,0
+2890,Shipping & Handling,0,0,2,5623
+2893,Two Heads Are Better,0,3,18,0
+2896,The Chrome King,0,3,18,0
+2897,Shipping & Handling,0,0,2,5623
+2898,Shipping & Handling,0,0,2,5623
+2901,Delves,0,0,18,0
+2902,Shipping & Handling,0,0,2,5623
+2909,Delves,0,0,18,0
+2914,Delves,0,0,18,0
+2915,Delves,0,0,18,0
+2916,Worldsoul Vision,0,0,0,0
+2917,Worldsoul Vision,0,0,0,0
+2918,Delves,0,0,18,0
+2921,Delves,0,0,18,0
+2923,Breaking the Crown,0,3,2,0
+2927,Dastardly Dome,0,3,0,5656
+2928,Delves,0,0,18,0
+2933,Shipping & Handling,0,0,2,5623
+2940,Shipping & Handling,0,0,2,5623
+2941,Shipping & Handling,0,0,2,5623
+2942,Shipping & Handling,0,0,2,5623
+2950,Vision of Stormwind,15942,0,2,5278
+2951,Vision of Orgrimmar,15946,0,2,5278
+3034,The Culling of Stratholme,0,3,10,0

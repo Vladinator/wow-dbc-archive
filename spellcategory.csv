@@ -96,7 +96,7 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 250,Blast Wave,0,0,0,0,0
 270,Kidney Shot,0,0,0,0,0
 290,Pyroblast,0,0,0,0,0
-310,Transmute - Alchemy,8,0,0,0,0
+310,Transmute - Alchemy (Classic),8,0,0,0,0
 330,Mount,0,0,0,0,0
 350,Inner Rage,0,0,0,0,0
 351,Ranged Weapon,2,0,0,0,0
@@ -242,7 +242,7 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 1231,Concussive Shot,0,0,0,0,0
 1232,Item - Darkmoon Tarot Cards,0,0,0,0,0
 1233,Windfury Weapon,0,0,0,0,0
-1234,Holiday - Thanksgiving Table,0,0,0,0,0
+1234,Holiday - Pilgrim's Bounty Table,0,0,0,0,0
 1235,Icecrown Bomber - Switch Seats,0,0,0,0,0
 1236,Darkmoon - Ride Items,0,0,0,0,0
 1237,Wild Growth,0,0,0,0,0
@@ -262,7 +262,7 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 1251,Temporary Health,0,0,0,0,0
 1252,Goblin Rocket Belt,0,0,0,0,0
 1253,Horn of Winter,0,0,0,0,0
-1254,Class - Shaman - Stormstrike,0,0,0,12000,1
+1254,Class - Shaman - Stormstrike,0,0,1,7500,1
 1255,Quest - Vehicle,0,0,0,0,0
 1256,Test - Ron's test,8,7,5,10000,0
 1257,Stampeding Roar,0,0,0,0,0
@@ -277,7 +277,7 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 1266,Fear (Warlock),0,0,0,0,0
 1267,Forged Documents,8,0,0,0,0
 1268,Priest - Archangel,0,0,0,0,0
-1269,Flame Orb,0,0,0,60000,0
+1269,Flame Orb,0,0,1,60000,0
 1271,Soul Swap,0,0,0,0,0
 1272,Entangling Roots,0,0,0,0,0
 1273,Inscription - Forged Documents,8,0,0,0,0
@@ -328,7 +328,7 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 1362,Scenario - Item - Stun,0,0,0,0,0
 1363,Warlock - Summon Demon,0,0,0,0,0
 1364,Scenario - Item - Heal,0,0,0,0,0
-1365,Class - Monk - Roll,0,0,1,20000,9
+1365,Class - Monk - Roll,0,0,2,20000,9
 1366,Priest - Halo,0,0,0,0,0
 1367,Monk - Serpent Statue,0,0,2,180000,0
 1372,Wild Mushroom,0,0,3,30000,0
@@ -363,7 +363,7 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 1415,Warrior Stances,0,0,0,0,0
 1416,Item - The Pigskin,0,0,0,0,0
 1417,Priest - Shadowfiend,0,0,0,0,0
-1418,Class - Monk - Invoke Celestial,0,0,0,0,0
+1418,Class - Monk - Invoke Celestial,0,0,0,0,1
 1419,Fury Ward,0,0,2,10000,0
 1420,Solar Beam,0,0,0,0,0
 1421,Default (Bug 336222),0,0,0,0,0
@@ -438,7 +438,7 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 1497,6.0 Tradeskills - Inscription (3),8,0,3,86400000,0
 1498,6.0 Professions - Tailoring - Daily Cooldown,8,0,0,0,0
 1499,6.0 Professions - Tailoring - 3 Charges 24 hr Cooldown,0,0,3,86400000,0
-1500,Class - Mage - Fire Blast,0,0,1,12000,1
+1500,Class - Mage - Fire Blast,0,0,1,14000,1
 1501,6.0 Professions - Jewelcrafting - Daily Cooldown,8,0,0,0,0
 1502,6.0 Professions - Jewelcrafting - 3 Charges 24 hr Cooldown,0,0,3,86400000,0
 1503,Battle Pets - Revive,0,0,0,0,0
@@ -495,17 +495,16 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 1559,7.0 Inscription - Vantus Rune,0,1,0,0,0
 1560,Class - Mage - Ice Block,48,0,1,300000,1
 1561,Monk - Brewmaster - Blackout Kick,0,0,1,4000,1
-1562,Class - Monk - Brewmaster Brews,0,0,1,20000,1
+1562,Class - Monk - Brewmaster Brews,0,0,2,20000,1
 1563,Scroll of Forgotten Knowledge,0,1,0,0,0
 1564,Ancient Mana,0,0,0,0,0
 1565,Zen Pilgrimage,0,0,0,0,0
 1566,Solar Flare,16,0,2,12000,0
 1568,Class - Druid - Frenzied Regeneration,0,0,1,36000,1
 1569,Class - Shaman - Healing Stream Totem,0,0,0,30000,1
-1570,Class - Paladin - Hammer of the Righteous,0,0,2,6000,1
+1570,Class - Paladin - Hammer of the Righteous,0,0,2,5000,1
 1571,Class - Monk - Mistwalk,0,0,1,45000,1
 1572,Fire/Storm Elemental,48,0,1,150000,1
-1573,Monk - Thunder Focus Tea,0,0,1,30000,0
 1574,Inter-Dalaran Wormhole,0,0,5,60000,0
 1575,Class - Hunter - Throwing Axes,0,0,2,20000,1
 1576,Class - Druid - Swiftmend,0,0,1,15000,1
@@ -543,8 +542,8 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 1612,Demon Hunter - Throw Glaive,0,0,1,9000,1
 1613,Rogue - Create Crimson Vial,0,0,3,60000,0
 1614,Class - Death Knight - Empower Rune Weapon,16,0,0,120000,1
-1615,Class - Rogue - Shadow Dance,48,0,0,60000,1
-1616,Class - Hunter - Butchery,0,0,3,9000,1
+1615,Class - Rogue - Shadow Dance,48,0,1,60000,1
+1616,Class - Hunter - Butchery,0,0,1,15000,1
 1618,Class - Warrior - Defensive Stance,0,0,0,0,1
 1619,Demon Hunter - Fel Barrage,0,0,5,30000,0
 1620,Class - Hunter - Explosive Round Detonation,0,0,0,0,1
@@ -576,7 +575,7 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 1647,7.0 Suramar: (DLA) - Feed Thalyssra,0,0,0,0,0
 1648,7.0 Suramar: (DLA) - Feed Valtrois,0,0,0,0,0
 1649,7.0 Suramar: (DLA) - Feed Oculeth,0,0,0,0,0
-1650,Death Knight - Unholy - Army of the Dead,0,0,0,480000,0
+1650,Death Knight - Unholy - Army of the Dead,0,0,0,180000,0
 1651,Class - Paladin - Bestow Faith,0,0,2,12000,1
 1652,7.0 Artifacts - Frost Death Knight - Sindragosa's Fury,32,0,0,0,0
 1653,Enhancement Shaman - Feral Spirits,48,0,0,120000,0
@@ -585,11 +584,11 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 1656,Class - Hunter - Sentinel,0,0,2,30000,1
 1657,Item - 7.0 - Trinket - Eyasu's Mulligan,0,0,0,120000,0
 1658,Item - 7.0 - Trinket - Eyasu's Mulligan (Self),0,0,0,1000,0
-1659,Class - Paladin - Blessed Hammer,0,0,3,6000,1
+1659,Class - Paladin - Blessed Hammer,0,0,3,5000,1
 1660,Void Bolt,0,0,0,0,0
 1661,zzOldClass - Paladin - Divine Steed,0,0,1,45000,9
 1662,Class - Paladin - Divine Steed,0,0,1,45000,9
-1663,Class - Paladin - Judgment,0,0,1,12000,37
+1663,Class - Paladin - Judgment,0,0,1,11000,37
 1664,7.1 Dalaran - Toy - Wand of Simulated Life,0,0,1,600000,0
 1665,7.0 Professions - Fishing - Undercurrent,0,0,0,0,0
 1666,Item - 7.1 - Karazhan - Ring of Collapsing Futures,0,0,0,0,0
@@ -601,7 +600,7 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 1672,Class - Warrior - Raging Blow,0,0,1,8000,1
 1673,Priest - Holy Word: Serenity,0,0,1,60000,1
 1674,Class - Hunter - Dire Beast,0,0,2,12000,1
-1675,Class - Hunter - Barbed Shot,0,0,2,12000,1
+1675,Class - Hunter - Barbed Shot,0,0,2,18000,1
 1676,Demon Hunter - Immolation Aura,0,0,1,30000,1
 1677,Teleport - Brawler's Guild (Ring),0,0,0,0,0
 1680,Class - Warrior - Overpower,0,0,1,12000,1
@@ -612,7 +611,7 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 1687,GBerger Test - Arms,0,0,0,2000,0
 1688,7.2.5 Chromie Scenario - Chromie - Expunge - DQV,0,0,0,0,0
 1689,7.3 Argus Raid - Eonar - Surge of Life - LFR,48,0,2,45000,0
-1690,Class - Priest - Power Word: Radiance,0,0,1,20000,1
+1690,Class - Priest - Power Word: Radiance,0,0,1,18000,1
 1691,Holiday - Masks,0,0,0,0,0
 1692,Class - Warrior - Shield Reflection,0,0,1,25000,1
 1693,Demon Hunter - Vengeance - Empower Wards,0,0,1,20000,0
@@ -642,7 +641,7 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 1727,Class - Druid - New/Half/Full Moon,0,0,3,20000,1
 1828,8.0 War Campaign - Alliance - Chapter 5 - Void Dash - (STM),0,0,3,3000,0
 1829,PvP - Warlock - Curses,0,0,0,0,0
-1830,Hunter - Command Pet - Survival of the Fittest,48,0,0,180000,1
+1830,Hunter - Command Pet - Survival of the Fittest,48,0,1,120000,1
 1831,Item - 8.0 - Hozen - Regenerating Banana Bunch,0,0,6,14400000,0
 1832,Shaman - Enhance - Ethereal Form,0,0,0,0,0
 1833,PvP - Shadow - Hallucinations,0,0,0,0,0
@@ -687,12 +686,11 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 1890,Class - Paladin - Blessing of Seasons,0,0,0,0,1
 1891,9.0 Professions - Engineering - Tinker,0,0,0,0,0
 1892,Professions - Engineering - Explosives,0,0,0,0,0
-1893,Class - Shaman - Primordial Wave,0,0,1,45000,1
+1893,Class - Shaman - Primordial Wave,0,0,1,30000,1
 1894,Demon Hunter - The Hunt (9.x),0,0,0,0,0
 1895,Class - Paladin - Hammer of Wrath,0,0,1,7500,1
 1896,9.0 - Bastion - Path of Ascension - Soulbind - Kleia - Skill Cooldowns,0,0,0,0,0
 1897,9.0 - Bastion - Path of Ascension - Soulbind - Pelagos - Skill Cooldowns,0,0,0,0,0
-1898,Leap of Faith,0,0,2,90000,9
 1899,9.0 Revendreth - Ember Court - Extra Action Weapons (JRC),0,0,0,0,0
 1900,9.0 - Bastion - Path of Ascension - Soulbind - Bron/Mikanikos - Vehicle Summon Spell,0,0,0,0,0
 1901,9.0 Covenant - Door of Shadows,0,0,1,60000,9
@@ -705,18 +703,18 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 1908,Demon Hunter - Glaive Tempest,0,0,0,0,0
 1909,9.0 Covenant - Phial of Serenity,36,0,0,0,0
 1910,Class - Monk - Faeline Stomp,0,0,1,30000,1
-1911,Class - Priest - Unholy Nova,0,0,2,90000,0
+1911,Class - Priest - Unholy Nova,0,0,2,90000,1
 1912,Item - 9.0 Raid - Trinket - Soul Igniter,0,0,0,0,0
 1913,9.0 Legendaries - Sephuz's Proclamation,0,0,0,0,0
-1914,Class - Rogue - Venthyr - Flagellation,0,0,0,0,0
-1915,9.0 Maldraxxus - Unique Quest Cooldown (MDE),0,0,0,0,0
+1914,Class - Rogue - Venthyr - Flagellation,0,0,0,0,1
+1915,Item - Unique Quest Cooldown (MDE),0,0,0,0,0
 1920,9.0 Maldraxxus - Harvesting Hook (MPK),0,0,0,0,0
 1922,10.0 Zone 1 - Mechanical Dragon - Control Buitton (MDE),0,0,0,0,0
 1924,9.0 Instruments of Bastion,0,0,0,0,0
 1925,kramer test charge data,0,0,5,5000,0
 1926,9.1 Raid - Torghast - Eye - Summon Lt. CD - PAH,0,0,0,0,0
 1927,Class - Death Knight - Defile,0,0,1,20000,1
-1929,Class - Warrior - Shield Wall,16,0,1,210000,1
+1929,Class - Warrior - Shield Wall,16,0,1,180000,1
 1932,9.1 Maw - Torghast - Modifier Consumables,0,0,0,0,0
 1933,Class - Monk - Revival,48,0,1,180000,1
 1935,9.1 Professions - Alchemy - Color Bursts,0,0,0,0,0
@@ -740,7 +738,7 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 1996,9.2 ZM - Cypher System - Guardian Ability 01 - JZB,0,0,0,0,0
 1998,9.2 ZM - Generic Ability (MDE),0,0,0,0,0
 2000,EPL Test Category,0,0,0,0,0
-2001,Alex Test Cooldown Category,0,0,0,0,0
+2001,Alex Test Cooldown Category,0,0,2,0,0
 2002,9.2 ZM - Cypher System - Guardian Ability 02 - JZB,0,0,0,0,0
 2003,9.2 ZM - Cypher System - Guardian Ability 03 - JZB,0,0,0,0,0
 2004,10.0 Gnoll - Bloodied Bite - PAH,0,0,0,0,0
@@ -768,19 +766,19 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 2037,10.0 Azure - Ch 4 - Arcane Disc - Nova - (STM),0,0,3,10000,0
 2038,10.0 Professions - Alchemy - Transmute,128,0,7,86400000,0
 2039,Mass Polymorph,0,0,0,0,0
-2040,Class - Death Knight - Abomination Limb,0,0,0,0,0
+2040,Class - Death Knight - Abomination Limb,0,0,0,0,1
 2041,Class - Evoker - Time Stop PvP Talent,0,0,0,0,0
 2042,10.0 Professions - Darkmoon Decks,0,0,0,0,0
 2043,10.0 Professions - Engineering - Air Strike,0,0,0,0,0
 2044,Scroll of Sales,0,0,0,0,0
-2045,Class - Mage - Arcane Orb,0,0,1,20000,0
-2046,Class - Mage - Radiant Spark,0,0,0,0,0
+2045,Class - Mage - Arcane Orb,0,0,1,20000,1
+2046,Class - Mage - Radiant Spark,0,0,0,0,1
 2047,WoWLabs - BR: Dragonriding - Surge Forward,0,0,2,10000,0
 2048,WoWLabs - BR: Dragonriding - Ascend,0,0,1,10000,0
 2049,10.0 Professions - Engineering - Combat Resurrection,0,0,0,0,0
 2050,Skull Banner,0,0,0,0,0
 2051,10.0 Professions - Engineering - PvP Flare Gun,0,0,0,0,0
-2052,Class - Rogue - Dreadblades,32,0,1,90000,0
+2052,Class - Rogue - Dreadblades,32,0,1,90000,1
 2053,Class - Evoker - Empower Spells,0,0,0,0,1
 2054,Class - Evoker - Dream Breath,0,0,0,0,1
 2055,Class - Evoker - Spiritbloom,0,0,0,0,1
@@ -796,12 +794,12 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 2066,Item - Toy Mailbox,0,0,0,0,0
 2067,Class - Hunter - BM Kill Command,0,0,1,7500,1
 2068,10.0 Professions - Herbalism - Overload,0,0,0,0,0
-2070,Class - Paladin - Intercession,0,0,0,0,0
+2070,Class - Paladin - Intercession,0,0,0,0,1
 2071,10.0 Professions - Enchanting - Illusion - Costume - Elemental,0,0,0,0,0
 2072,10.0 Unique Creature - Trinket - Innumerable Ruination - (0) Unstable Arcane Cell - Points - ZGS,0,0,0,0,0
 2073,Class - Warrior - Ravager,0,0,1,90000,1
-2074,Class - Shaman - Stormkeeper (Elemental),0,0,0,60000,0
-2075,Class - Priest - Holy Word: Sanctify,0,0,1,60000,0
+2074,Class - Shaman - Stormkeeper (Elemental),0,0,0,60000,1
+2075,Class - Priest - Holy Word: Sanctify,0,0,1,60000,1
 2076,10.0 Professions - Skinning - Elusive Creature Bait,0,0,0,0,0
 2077,Class - Shaman - Elemental Blast,0,0,1,12000,1
 2078,10.0 Professions - Mass Resurrection,0,0,0,0,0
@@ -812,7 +810,7 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 2083,Class - Paladin - Blessing of Spellwarding,16,0,1,180000,1
 2084,Item - 10.0 Raid - Trinket - Desperate Invocation - (1) On Use - Cooldown,0,0,0,0,0
 2085,Item - 10.0 Raid - Trinket - Manic Grieftorch - Cooldown Category,0,0,0,0,0
-2086,Class - Rogue - Shiv,0,0,1,30000,0
+2086,Class - Rogue - Shiv,0,0,1,30000,1
 2087,WoWlabs - BR: Weapon - Sword and Board - Block,0,0,0,0,0
 2088,Class - Evoker - Living Flame,0,0,2,12000,1
 2089,10.0 Professions - Engineering - Tinkers - Malfunction Prevention,0,0,0,0,0
@@ -824,7 +822,7 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 2100,Class - Evoker - Obsidian Scales,0,0,1,90000,1
 2102,10.0 Raid - Primalist - Zone - Zone Control - Wind Elemental Elevator - Up and Down Cover Spells,0,0,0,0,0
 2104,10.0.7 - Prototype - Niffen Puzzle Tool - Burrowing Cooldown (LQM),0,0,0,0,0
-2105,Class - Priest - Pain Suppression,48,0,1,180000,0
+2105,Class - Priest - Pain Suppression,48,0,1,180000,1
 2106,Felguard,0,0,0,0,0
 2107,WoWLabs - BR: Spell - Offensive - Solar Chakram,0,0,3,5000,32
 2108,WoWLabs - BR: Spell - Utility - Frost Nova,0,0,0,0,64
@@ -875,29 +873,44 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 2168,WoWLabs - BR: Spell - Utility - Flying Serpent Kick,0,0,0,0,64
 2169,PvP Talent - Warrior - All - Spell Wall,0,0,1,45000,1
 2170,Dragonfire Bomb Dispenser - Item - 10.1 Raid - Trinket - (1) Throw Bomb - ZGS,16,0,3,30000,0
+2172,11.0 Dynamic Mounts - Roller - Armadillo Drift - 1. Drifting Agility,0,0,3,6000,0
 2173,10.1.5 Whelp Daycare - Whelp Racing - Race Controls (OJF),0,0,0,0,0
 2174,Class - Priest - From the Shadows,0,0,1,120000,1
 2176,Death Knight - Reanimation,0,0,2,12000,0
 2177,10.1 Underground - Treasure/Unique - Consumable/Toy - Makrura Transform,0,0,0,0,0
-2179,Class - Paladin - Holy Shock,0,0,1,8500,5
+2178,11.0 Delves - Pick Up Object - Override Spells - Health Potion - (STM),0,0,4,999999,0
+2179,Class - Paladin - Holy Shock,0,0,1,9500,5
+2180,Class - Warrior - Mountain King - Titanic Leap,0,0,1,60000,9
+2181,Class - Warrior - Mountain King - Titanic Leap,0,0,1,60000,9
 2184,10.1.5 Quests - Boffins Re-Homed - Toy - (0) Aura,0,0,0,0,0
 2185,Arena - Canteen A,0,0,3,30000,0
 2186,10.1.7 Brawl - Gun Evoker - Disengage - JZM,0,0,0,0,0
 2187,Professions - Feast Shared Cooldown,0,0,0,0,0
 2188,TDY - Professions - Prototype - Shipments,8,0,7,0,0
 2189,Item - 10.1 Raid - Trinket - Bandolier of Twisted Blades - 2) Use: Embed Blade - TJN,16,0,3,40000,0
-2190,Class - Rogue - Feint,0,0,1,15000,0
+2190,Class - Rogue - Feint,0,0,1,15000,1
+2191,Druid - Talents - Balance / Guardian - Thornspeaker - Thornbind,0,0,2,25000,0
 2192,Class - Warrior - Intervene,0,0,1,30000,9
 2193,Dragonriding Shared Cooldowns,0,0,0,0,0
+2194,11.0 - Dungeon - Kobold - Boss 1 - Waxbeard - Charge,0,0,0,0,0
 2195,Second Wind,48,0,3,180000,0
+2196,11.0 Dungeon - Kobold - Wax Elemental Boss - Tornado - Haku,0,0,0,0,0
+2197,11.0 Dungeon - Kobold - Wax Elemental Boss - Fire Missile - Haku,0,0,0,0,0
 2198,Class - Monk - Life Cocoon,48,0,1,120000,1
+2204,11.0 Professions - Alchemy - Experimentation,128,0,0,0,0
 2206,Demon Hunter - Dash of Chaos,0,0,0,0,0
 2207,Class - Evoker - Augmentation - Prescience,0,0,2,12000,1
 2208,Demon Hunter - Fel Rush - Dash of Chaos,0,0,1,1000,0
 2209,10.2.7 Timewalking Season - Pandaria - Gem - Meta - Shared Cooldown,0,0,0,0,0
+2211,11.0 Professions - Mining - Overload,128,0,1,43200000,0
+2212,11.0 Professions - Herbalism - Overload,128,0,1,43200000,0
+2214,11.0 Heirloom - World Map Toy - Everywhere Explored,0,0,0,0,0
+2215,11.0 Delves - Nerubian - Map Mechanic - Aura Applied Pt 1. Master Aura - (STM),0,0,0,0,0
+2216,11.0 Professions - Alchemy - Transmute,128,0,3,86400000,0
 2217,10.2 Dream Wardens Rep Tokens,0,0,0,0,0
 2218,PvP - Battle Standards (Do not use),0,0,0,0,0
 2219,PvP - Battle Standards,0,0,0,0,0
+2220,Class - Paladin - Lightsmith - Holy Armaments,16,0,2,60000,1
 2221,10.2.5 HSAnn - HS Table - GCD - Play Card,0,0,0,0,0
 2222,WoWLabs - BR: Spell - Offensive - Star Shot,0,0,1,0,32
 2223,WoWLabs - BR: Spell - Offensive - Searing Axe,0,0,0,0,32
@@ -912,16 +925,99 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 2232,WoWLabs - BR: Spell - Offensive - Earthbreaker (New),0,0,0,0,0
 2233,WoWLabs - BR: Spell - Offensive - Windstorm,0,0,0,0,0
 2234,WoWLabs - BR: Spell - Offensive - Holy Shield,0,0,0,0,0
+2235,11.0 Delves - AI Companion - Extra Ability,0,0,0,0,0
+2236,11.0 Delves - AI Companion - Auto Shot,0,0,0,0,0
+2237,11.0 Delves - AI Companion - DPS Cooldown,0,0,0,0,0
 2238,WoWLabs - BR: Spell - Vehicle - Boost,0,0,0,0,64
 2239,WoWLabs - BR: Spell - Utility - Steel Traps,0,0,0,0,0
 2240,WoWLabs - BR: Spell - Offensive - Star Bomb,0,0,0,0,0
 2241,WoWLabs - BR: Spell - Utility - Repel,0,0,0,0,0
+2242,Class - Warrior - Thunder Clap,0,0,0,0,1
 2243,WoWLabs - BR: Spell - Utility - Duelist's Chains,0,0,0,0,0
 2244,WoWLabs - BR: Spell - Utility - Duelist's Advance,0,0,0,0,0
+2248,11.0 Z3 - Wargame - Caster Ability (LAS),0,0,0,0,0
+2249,11.0 Z3 - Wargame - Knight Ability (LAS),0,0,0,0,0
+2250,11.0 Z3 - Wargame - Castle Ability (LAS),0,0,0,0,0
 2252,WoWLabs - BR: Spell - Offensive - Toxic Smackerel,0,0,0,0,0
+2253,11.0 Warbands - Warband Bank Summon,0,0,0,0,0
 2254,WoWLabs - BR: Spell - Item - Bushwhack,0,0,0,0,0
 2264,WoWLabs - BR: Spell - Core - Health Brew,0,0,0,0,0
+2265,Priest - Premonition,16,0,0,0,1
+2270,Class - Warrior - Bladestorm,0,0,1,90000,1
+2271,Class - Priest - Premonition,144,0,2,60000,1
 2272,5.4 Legendary Cape - Wing Visual,0,0,0,0,0
+2273,11.0 Professions - Skinning - Sharpen Your Knife,128,0,1,3600000,0
+2274,11.0 Delves - AI Companion - Shared - Campfire,0,0,0,0,0
+2275,11.0 Delves - Z3 - Nerubians03 - V4 - Shadow Relic - Extra Action Button,0,0,3,2000,0
+2276,11.0 Notoriety - Vizier - Active Abilities,0,0,0,0,0
 2277,WoWLabs - BR: Spell - Utility - Lightning Bulwark,0,0,0,0,0
+2278,11.0 Professions - Skinning - Carve Meat,128,0,1,3600000,0
+2279,11.0 Professions - Skinning - Elusive Creature Bait,128,0,0,0,0
 2280,WoWLabs - BR: Spell - Offensive - Storm Archon,0,0,0,0,0
+2281,Class - Evoker - Engulf,0,0,1,27000,1
+2282,Shaman - Totemic - Spire Totem,0,0,2,25000,0
+2283,Holy Paladin - Spenders,0,0,2,12000,1
+2284,Class - Paladin - Eye of Tyr,0,0,1,60000,1
+2285,Class - Paladin - Wake of Ashes,0,0,1,30000,1
+2287,4.0 Dungeon - Grim Batol - Bombing Run - ML,0,0,5,600000,0
+2289,11.0 Professions - Alchemy - Gleaming Transmute,128,0,1,86400000,0
+2290,Priest - Void Blast,0,0,0,0,0
+2292,11.0 Z3 - Small Local 12 - Growling Hollow - Chef Questions (REM),0,0,0,0,0
+2293,Monk - Celestial Brew,0,0,1,45000,0
+2294,Monk - Thunder Focus Tea,0,0,1,30000,0
+2295,11.0 Professions - Engineering - Pausing Pylon,160,0,0,0,0
+2296,11.0 Professions - Enchanting - Gleeful Glamour,128,0,0,0,0
+2297,11.0 Professions - Blacksmithing - Everburning Forge,128,0,5,7200000,0
+2298,Demon Hunter - Consuming Fire Aura,0,0,1,30000,1
+2299,11.0 Professions - Tailoring - Dawnweave Bolt,128,0,10,60480000,0
+2300,11.0 Professions - Tailoring - Duskweave Bolt,128,0,10,60480000,0
+2302,11.0 Warbands - Bank - Extra Action Buttons (DTM),0,0,0,0,0
+2303,Class - Rogue - Grappling Hook,0,0,1,45000,9
+2304,11.0 Delves - AI Companion - Create Rest Advert,0,0,0,0,0
+2306,11.0 Deployable - ZGS,0,0,0,0,0
+2307,Hearthstone - Charges - Human Racial,0,0,1,1500000,0
+2308,Class - Priest - Leap of Faith,0,0,1,90000,1
+2309,Hearthstone - Charges,128,0,1,1800000,0
+2311,11.0 Professions - Skinning - Supreme Beast Lure,128,0,0,0,0
+2313,11.0 Delves - Combat Curio,0,0,0,0,0
 2314,Ominous Conch,0,0,0,0,0
+2316,Skyriding Abilities,0,0,0,0,0
+2317,11.0 Delves - AI Companion - Major Ability,0,0,1,90000,0
+2318,11.0.5 20th Anniversary - Scenario - Floating Projections Jumpad 2. Knockback,0,0,0,0,0
+2324,Enhancement - Frost Shock,0,0,0,6000,0
+2325,11.1 Grapple Test (DTM),0,0,3,15000,0
+2326,Item - 11.1 Raid - Trinket - Ranged DPS - Security Drone,0,0,1,1000,0
+2327,11.0.5 20th Anniversary - Social Corner - Audience Interaction Group Cooldown,0,0,0,0,0
+2328,Class - Druid - Celestial Alignment / Incarnation,144,0,1,180000,1
+2329,11 Encounter - Ulgrax - Feed,0,0,0,0,0
+2335,11.0 Delves - Brann Bronzebeard - Dwarven Medicine,0,0,0,0,0
+2336,Druid - Restoration - Nature's Swiftness,0,0,1,60000,1
+2338,11.0 Delves - EvolvedNerubians - Trinket - Concoction: Kiss of Death - OMNI - 01 On-Use,0,0,0,0,0
+2339,11.0 Delves - Uber Boss - Major Interruptible Cast,0,0,0,0,0
+2340,WoWLabs - BR: Spell - Offensive - Celestial Barrage,0,0,0,0,0
+2341,WoWLabs - BR: Spell - Utility - Void Tear,0,0,0,0,0
+2342,WoWLabs - BR: Spell - Utility - Rip Reality,0,0,0,0,0
+2344,Outdoor Stun,0,0,0,0,0
+2347,11.1 Raid - Cantrip - 2H Mace - Slot Machine Arm - Shared CD,32,0,0,0,0
+2348,11.0.7 Pet - Shop (China) - Beast - Red Panda Pet (Blue) - Teleport Cooldown,0,0,0,0,0
+2349,11.0 Delves - Rewards - Consumable,0,0,0,0,0
+2350,WoWLabs - BR: Spell - Offensive - Aura of Zealotry,0,0,0,0,0
+2351,11.0.7 Siren Isle - Cyrce's Circlet - Ring Power 06 - Push Winds,0,0,0,0,0
+2352,11.0 Delves - Endgame - Weapon - OFFHAND INT - Cantrip - 1 Charge,0,0,1,0,0
+2353,Wave Scrambler 2000,0,0,0,0,0
+2354,WoWLabs - BR: Spell - Utility - Call Galefeather,0,0,0,0,0
+2355,Transmute - Alchemy (Burning Crusade),8,0,0,0,0
+2356,Transmute - Alchemy (Wrath of the Lich King),8,0,0,0,0
+2357,Transmute - Alchemy (Cataclysm),8,0,0,0,0
+2358,Transmute - Alchemy (Mists of Pandaria),8,0,0,0,0
+2359,Transmute - Alchemy (Warlords of Draenor),8,0,0,0,0
+2361,11.0 Delves - Brann Bronzebeard - Interrupting Potion,0,0,0,0,0
+2362,11.1 Delves - Kobolds01 - Throw Candles - (STM),0,0,40,4000,0
+2363,11.1 Encounter - Arena - Achievement Potions,0,0,0,0,0
+2372,11.1 Undermine - WQ - Defuser Bot (KNF),0,0,0,0,0
+2378,11.1 - FF - Job Cooldown (LQM),0,0,0,0,0
+2384,11.1.7 OCD - Overcharged Ability (BAK),0,0,0,0,0
+2387,Demon Hunter - Fel Devastation,0,0,0,0,0
+2401,Repeatable Event - Dastardly Duos - Time Recharge,0,0,0,0,0
+2402,Repeatable Event - Dastardly Duos - Rideable Vehicle - Drive (Master Key Cap),0,0,0,0,0
+2406,"Repeatable Event - Dastardly Duos - Time Recharge, BIG",0,0,0,0,0

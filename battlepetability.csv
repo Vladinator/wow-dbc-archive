@@ -700,8 +700,8 @@ Overwhelms the enemy with draconic breath, dealing [StandardDamage(1, 1)] [Schoo
 Lashes the enemy 1-2 times, dealing [StandardDamage(1,1)] [School()] damage per lash.
 
 Hits an additional time if the user attacks first.",134218,6,0,0,0
-395,Soothing Mists,"Restores [StandardDamage(1,1,395)] health each round.",606550,-1,0,635,0
-396,Soothing Mists,"Restores [StandardDamage(1,1,395)] health to your active pet every round for [duration(1,1)] |4round:rounds. Persists through pet swaps.",606550,6,0,0,2
+395,Soothing Mists,"Restores [StandardHealing(1,1,395)] health each round.",606550,6,0,635,0
+396,Soothing Mists,"Restores [StandardHealing(1,1,395)] health to your active pet every round for [duration(1,1)] |4round:rounds. Persists through pet swaps.",606550,6,0,0,2
 397,Poison Lash,"Deals [StandardDamage(1,1)] [School()] damage every round.
 
 |cFF1EFF00Poisoned.|r",134208,6,0,25,0
@@ -2315,7 +2315,7 @@ This effect cannot be removed.",425960,4,0,240,3
 1368,Draenic Trap,Attempt to catch a pet below 35% health. Capture chance is increased by 45% each time you fail.,986484,0,0,0,6
 1369,Barbed Stinger,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
-Instantly deals [StandardDamage(1,1)] [School()] damage and has a [StandardAccuracy(1,2)] chance to |cFF1EFF00Poison|r the target for [StandardDamage(1,1,379)] additional [School(379)] damage per round for [duration(1,2)] |4round:rounds;.",136068,7,0,0,0
+Instantly deals [StandardDamage(1,1)] [School()] damage and has a 20% chance to |cFF1EFF00Poison|r the target for [StandardDamage(1,1,379)] additional [School(379)] damage per round for [duration(1,2)] |4round:rounds;.",136068,7,0,0,0
 1370,Savage Talon,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
 Slashes savagely, dealing [StandardDamage(1, 1)] [School()] damage.",136063,2,0,0,0
@@ -3650,6 +3650,16 @@ Order your flying machine to dive bomb your enemies, dealing [StandardDamage(1,1
 Attacks the enemy 3 times, dealing [StandardDamage(1,1)] [School()] damage per attack.
 
 Each time you use this ability, your speed increases by 20% at the end of the round.",650636,1,0,0,0
+2466,Stoke the Flames,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Restores [StandardHealing(1,1)] health to the user and changes the weather to Scorched Earth for [duration(1,2)] |4round:rounds;.
+
+During Scorched Earth, all pets count as |cFFFF2020Burning|r and all active pets take [StandardDamage(1,1,171)] [School(171)] damage per round.",459027,9,3,0,2
+2467,Personal Inferno,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Eject burning coals in a roar of flame, dealing [StandardDamage(1,1)] [School()] damage.
+
+Deals double damage if the target is |cFFFF2020Burning|r.",451169,9,0,0,0
 2468,[DNT] TRAP HELP,Sets target to 1% of max health and stuns it.,646380,5,0,0,0
 2469,Reaping Hook,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
@@ -3797,3 +3807,28 @@ This move always goes first.",132852,8,1,0,0
 2520,Dazzle,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
 Dazzle your enemies with a sparkling ball. Deals [StandardDamage(1,1)] [School()] damage and |cff9933FFBlinds|r the target, reducing their hit chance by [abs(abilityStateMod( 41 , 462 ))]% for [duration(1,2)] |4round:rounds;.",133836,0,4,0,0
+2522,Cataclysms Edge,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Slices with his mini-Cataclysms Edge, dealing [StandardDamage(1, 1)] [School()] damage.",135378,0,0,0,0
+2523,Shadow Bolt Volley,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Hurls bolts of shadow at the enemy team, dealing [StandardDamage(1, 1)] [School()] damage to the enemy team.",136197,5,3,0,0
+2524,Alluring Spores,"Deals [StandardDamage(1,1)] [School()] damage every round.",5929575,6,0,0,0
+2525,Alluring Spores,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Covers the enemy team with intoxicating aromas, dealing [StandardDamage(1,1)] [School()] damage instantly and [StandardDamage(1,1,2524)] [School()] damage every round for [duration(1,2)] |4round:rounds. Persists through pet swaps.",5929575,6,0,0,0
+2526,Hammering Drill,"[StandardAccuracy(1,2)] |cffffffffHit Chance|r
+
+Deals [StandardDamage(1,2)*4] [School()] damage to the enemy pet.
+
+Hammering Drill shatters any flat damage reduction effects on the enemy target.",1278390,9,0,0,0
+2527,Surge of Darkness,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Blasts the opponent with a surge of dark energy, dealing [StandardDamage(1,1)] [School()] damage and has a [accuracy(1,3)]% chance to stun the target for [duration(1,3)] |4round:rounds;.
+
+The chance to stun is increased to 100% if the weather is Sunlight.",1386551,0,3,0,0
+2528,Void Burst,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Instantly deals [StandardDamage(1,1)] [School()] damage, plus [StandardDamage(1,3)] damage if the weather is Darkness. The user must recharge for two |4round:rounds; afterwards.
+
+While recharging, you cannot perform any other actions.",6238556,5,0,0,0
