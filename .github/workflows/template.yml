@@ -29,6 +29,8 @@ jobs:
         echo "CDN -> ${latest_build} (${latest_build_number})"
         response_file=$(mktemp)
         http_status=$(curl -s -w "%{http_code}" -o "${response_file}" "https://api.github.com/repos/${{ github.repository }}/commits/${latest_branch}")
+        cat "$response_file"
+        echo "$http_status"
         if [[ "${http_status}" == "404" ]]; then
           latest_commit_build="0.0.0.00000"
           latest_commit_build_number=0
