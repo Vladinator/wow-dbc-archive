@@ -197,9 +197,11 @@ jobs:
         message="${product} ${build}"
         tag="${product}_${build}"
         cd "${folder}/db2"
-        tmpdbcsvfiles="/tmp/${build}_db_csv_files.txt"
-        tmpzip="/tmp/${build}_csv_files.zip"
-        find . -maxdepth 1 -type f -name "*.db*" -printf "%f\n" | sed -E 's/\.db[^.]*$/.csv/' > "$tmpdbcsvfiles"
+        tmpcsvlist="/tmp/${build}.txt"
+        tmpzip="/tmp/${build}.zip"
+        find . -maxdepth 1 -type f \( -name "*.db*" -o -name "*.csv" \) -printf "%f\n" | sed -E 's/\.db[^.]*$/.csv/' | sort -fu > "$tmpcsvlist"
+        echo "Complete csv file list:"
+        cat "$tmpcsvlist"
         if ! zip -q "${tmpzip}" *.csv; then
           echo "Failed to create zip file" >&2
           exit 1
@@ -233,15 +235,15 @@ jobs:
         checkout_branch "${latest_branch}"
         echo "Extract the ZIP then queue the files..."
         unzip -q "${tmpzip}"
-        while IFS= read -r emptyfile; do
-          existingfile=$(find . -maxdepth 1 -type f -iname "$emptyfile" -print -quit)
+        while IFS= read -r expectedfile; do
+          existingfile=$(find . -maxdepth 1 -type f -iname "$expectedfile" -print -quit)
           if [ -e "$existingfile" ] && [ -s "$existingfile" ]; then
             echo "Skipped restoring: $existingfile"
             continue
           fi
-          gitexistingfile=$(git ls-files | grep -i -F -x "$emptyfile" || true)
+          gitexistingfile=$(git ls-files | grep -i -F -x "$expectedfile" || true)
           if [ -z "$gitexistingfile" ]; then
-            echo "Skipped restoring untracked: $emptyfile"
+            echo "Skipped restoring untracked: $expectedfile"
             continue
           fi
           if git restore -- "$gitexistingfile"; then
@@ -249,7 +251,7 @@ jobs:
           else
             echo "Error restoring: $gitexistingfile"
           fi
-        done < "$tmpdbcsvfiles"
+        done < "$tmpcsvlist"
         git add -v .
         echo "Checking if there are changes to be commited and pushed..."
         if [[ -n $(git status --porcelain) ]] || ! git diff --quiet; then
