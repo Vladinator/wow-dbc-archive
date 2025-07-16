@@ -266,7 +266,7 @@ $low=${$<stnc>*($<dw>*(($mwb)/($MWS)*$<mist>+$<offl>)+$AP/14-1)*$<bm>}
 $high=${$<stnc>*($<dw>*(($MWB)/($MWS)*$<mist>+$<offh>)+$AP/14+1)*$<bm>}"
 285,"$amount=${$max(($AP-2*$AGI)*2.2,$STA*$m3/100)*0.4}"
 286,$dmg=${$m1+$SPS*1.000}
-289,"$xppct=${$gte($pl,85)*20+$lt($pl,85)*50}
+289,"$xppct=${$gte($pl,85)*0+$lt($pl,85)*50}
 "
 290,"$mastery=$?s115636[${$115636m3*0.4}][${1.00}]
 $masteryMod=${$cond($gt($pl,79),1,0)}"
