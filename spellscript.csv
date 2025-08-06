@@ -1,5 +1,18 @@
 ID,Name,Script,LastEditUser,Field_9_0_1_33978_004,Arguments
-57120,Doug Test - Area Trigger Script,"function doug_test_area_trigger_script(elapsedMs, x, y, z, roll, pitch, yaw)
+57120,Doug Test - Area Trigger Script,"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@param x number
+---@param y number
+---@param z number
+---@param roll number
+---@param pitch number
+---@param yaw number
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function doug_test_area_trigger_script(elapsedMs, x, y, z, roll, pitch, yaw)
 	------------------------------------
 	-- Area Trigger Movement Script:  --
 	------------------------------------
@@ -57,10 +70,15 @@ ID,Name,Script,LastEditUser,Field_9_0_1_33978_004,Arguments
 	--local zChange = zOffset * zPercent + 10;
 	return 0,0, zOffset, 0, angle, 0;
 end
-
-
 ",Jared Gillis,0,46
-57277,9.0 Maw - Area Trigger Test - Stabby Sword - PRK,"function maw_area_trigger_test_stabby_sword(elapsedMs)
+57277,9.0 Maw - Area Trigger Test - Stabby Sword - PRK,"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function maw_area_trigger_test_stabby_sword(elapsedMs)
 	------------------------------------
 	-- Area Trigger Movement Script:  --
 	------------------------------------
@@ -107,10 +125,15 @@ end
 
 	return offsetX, 0, 2.5
 end
-
-
 ",Jared Gillis,0,46
-57278,9.0 Maw - Area Trigger Test - Falling Axe - PRK,"function maw_area_trigger_test_falling_axe(elapsedMs)
+57278,9.0 Maw - Area Trigger Test - Falling Axe - PRK,"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function maw_area_trigger_test_falling_axe(elapsedMs)
 	------------------------------------
 	-- Area Trigger Movement Script:  --
 	------------------------------------
@@ -158,10 +181,21 @@ end
 
 	return 0,0,0,0,newPitch
 end
-
-
 ",Jared Gillis,0,46
-57289,9.0 Maw - Area Trigger Test - Fast Axe - PRK,"function maw_area_trigger_test_fast_axe(elapsedMs, x, y, z, roll, pitch, yaw)
+57289,9.0 Maw - Area Trigger Test - Fast Axe - PRK,"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@param x number
+---@param y number
+---@param z number
+---@param roll number
+---@param pitch number
+---@param yaw number
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function maw_area_trigger_test_fast_axe(elapsedMs, x, y, z, roll, pitch, yaw)
 	------------------------------------
 	-- Area Trigger Movement Script:  --
 	------------------------------------
@@ -219,10 +253,21 @@ end
 	--local zChange = zOffset * zPercent + 10;
 	return 0,0, 10, 0, angle, 0;
 end
-
-
 ",Jared Gillis,0,46
-57290,9.0 Maw - Area Trigger Test - Spinning Axe - PRK,"function maw_area_trigger_test_spinning_axe(elapsedMs, x, y, z, roll, pitch, yaw)
+57290,9.0 Maw - Area Trigger Test - Spinning Axe - PRK,"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@param x number
+---@param y number
+---@param z number
+---@param roll number
+---@param pitch number
+---@param yaw number
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function maw_area_trigger_test_spinning_axe(elapsedMs, x, y, z, roll, pitch, yaw)
 	------------------------------------
 	-- Area Trigger Movement Script:  --
 	------------------------------------
@@ -249,8 +294,22 @@ end
 	local angle = (elapsedMs/rotationTime)*2*math.pi
 
 	return 0,0, zOffset, 0, angle, 0;
-end",Paul Kubit,0,46
-57291,9.0 Maw - Area Trigger Test - Random Axe - PRK,"function maw_area_trigger_test_random_axe(elapsedMs, x, y, z, roll, pitch, yaw)
+end
+",Paul Kubit,0,46
+57291,9.0 Maw - Area Trigger Test - Random Axe - PRK,"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@param x number
+---@param y number
+---@param z number
+---@param roll number
+---@param pitch number
+---@param yaw number
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function maw_area_trigger_test_random_axe(elapsedMs, x, y, z, roll, pitch, yaw)
 	------------------------------------
 	-- Area Trigger Movement Script:  --
 	------------------------------------
@@ -312,10 +371,21 @@ end",Paul Kubit,0,46
 
 	return newX, newY, newZ+zOffset, newRoll, newPitch, newYaw
 end
-
-
 ",Emma Ripley Rose,0,46
-59928,9.0 Maw - Jailer's Tower - Swinging Axe Trap Large - KLH,"function maw_jailerstower_trap_swingingaxe_large_klh(elapsedMs, x, y, z, roll, pitch, yaw)
+59928,9.0 Maw - Jailer's Tower - Swinging Axe Trap Large - KLH,"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@param x number
+---@param y number
+---@param z number
+---@param roll number
+---@param pitch number
+---@param yaw number
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function maw_jailerstower_trap_swingingaxe_large_klh(elapsedMs, x, y, z, roll, pitch, yaw)
 	------------------------------------
 	-- Area Trigger Movement Script:  --
 	------------------------------------
@@ -375,10 +445,21 @@ end
 	--local zChange = zOffset * zPercent + 10;
 	return 0,0, zOffset, 0, angle, 0;
 end
-
-
 ",Ronald Leask,0,46
-62165,9.0 Maw - Jailer's Tower - Swinging Axe Trap Lower Angle - (STM),"function maw_jailerstower_trap_swingingaxe_large_lowerangle_stm(elapsedMs, x, y, z, roll, pitch, yaw)
+62165,9.0 Maw - Jailer's Tower - Swinging Axe Trap Lower Angle - (STM),"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@param x number
+---@param y number
+---@param z number
+---@param roll number
+---@param pitch number
+---@param yaw number
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function maw_jailerstower_trap_swingingaxe_large_lowerangle_stm(elapsedMs, x, y, z, roll, pitch, yaw)
 	------------------------------------
 	-- Area Trigger Movement Script:  --
 	------------------------------------
@@ -440,10 +521,15 @@ end
 	--local zChange = zOffset * zPercent + 10;
 	return 0,0, zOffset, 0, angle, 0;
 end
-
-
 ",Jared Gillis,0,46
-65302,9.0 Maw - Calcis - Soul Eater Breath - PRK,"function maw_soul_eater_breath(elapsedMs)
+65302,9.0 Maw - Calcis - Soul Eater Breath - PRK,"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function maw_soul_eater_breath(elapsedMs)
 	------------------------------------
 	-- Area Trigger Movement Script:  --
 	------------------------------------
@@ -492,10 +578,21 @@ end
 
 	return xOffset,yOffset, 0, 0, 0, angle;
 end
-
-
 ",Jared Gillis,0,46
-67425,9.0 Maw - Jailer's Tower - Traps - Side Wall Axe - 01 Area Trigger - Adamant Vaults,"function Maw_JailersTower_Traps_SideWallAxe_01AreaTrigger_AdamantVaults(elapsedMs, x, y, z, roll, pitch, yaw)
+67425,9.0 Maw - Jailer's Tower - Traps - Side Wall Axe - 01 Area Trigger - Adamant Vaults,"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@param x number
+---@param y number
+---@param z number
+---@param roll number
+---@param pitch number
+---@param yaw number
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function Maw_JailersTower_Traps_SideWallAxe_01AreaTrigger_AdamantVaults(elapsedMs, x, y, z, roll, pitch, yaw)
 	------------------------------------
 	-- Area Trigger Movement Script:  --
 	------------------------------------
@@ -566,21 +663,57 @@ end
 
 	return xOffset,yOffset, zOffset, 0, anglePitch, 0
 end
-
-
 ",Ronald Leask,0,46
-67515,Candlemancer - All - Core - Shifting Sands - Area Trigger Movement,"function candlemancer_all_core_shifting_sands_area_trigger_movement(elapsedMs, x, y, z, roll, pitch, yaw)
+67515,Candlemancer - All - Core - Shifting Sands - Area Trigger Movement,"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@param x number
+---@param y number
+---@param z number
+---@param roll number
+---@param pitch number
+---@param yaw number
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function candlemancer_all_core_shifting_sands_area_trigger_movement(elapsedMs, x, y, z, roll, pitch, yaw)
 	return 0, 0, -5, 0, 0, 0
 
-end",Graham Berger,0,46
-67699,CharlesTest - Orbit Trigger,"function charles_test_orbit_trigger(elapsedMs, x, y, z, roll, pitch, yaw)
+end
+",Graham Berger,0,46
+67699,CharlesTest - Orbit Trigger,"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@param x number
+---@param y number
+---@param z number
+---@param roll number
+---@param pitch number
+---@param yaw number
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function charles_test_orbit_trigger(elapsedMs, x, y, z, roll, pitch, yaw)
 	print(x .. "" "" .. y .. "" "" .. z .. "" "" .. roll .. "" "" .. pitch .. "" "" .. yaw)
 	return 0, 0, 0, 0, 0, 0
 end
-
-
 ",Jared Gillis,0,46
-69134,9.1 Raid - Torghast - Ner'zhul - Achievement Hoop - SWINGS,"function Raid_Torghast_Nerzhul_AchievementHoop_Swings_MoveScript(elapsedMs, x, y, z, roll, pitch, yaw)
+69134,9.1 Raid - Torghast - Ner'zhul - Achievement Hoop - SWINGS,"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@param x number
+---@param y number
+---@param z number
+---@param roll number
+---@param pitch number
+---@param yaw number
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function Raid_Torghast_Nerzhul_AchievementHoop_Swings_MoveScript(elapsedMs, x, y, z, roll, pitch, yaw)
 	------------------------------------
 	-- Area Trigger Movement Script:  --
 	------------------------------------
@@ -636,7 +769,20 @@ end
 	return -New_X,-New_Y,New_Z,0,0,0
 end
 ",Ronald Leask,0,46
-69146,9.1 Raid - Torghast - Ner'zhul - Achievement Hoop - Pendulum Visual,"function Raid_Torghast_Nerzhul_AchievementHoop_PendulumVisual_MoveScript(elapsedMs, x, y, z, roll, pitch, yaw)
+69146,9.1 Raid - Torghast - Ner'zhul - Achievement Hoop - Pendulum Visual,"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@param x number
+---@param y number
+---@param z number
+---@param roll number
+---@param pitch number
+---@param yaw number
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function Raid_Torghast_Nerzhul_AchievementHoop_PendulumVisual_MoveScript(elapsedMs, x, y, z, roll, pitch, yaw)
 	------------------------------------
 	-- Area Trigger Movement Script:  --
 	------------------------------------
@@ -681,7 +827,20 @@ end
 	return 0,0,0,0,-SinedPitch,0
 end
 ",Ronald Leask,0,46
-69306,9.1 Broker City - Star Relic Prop Movement,"function BrokerCity_StarRelicProp_Movement(elapsedMs, x, y, z, roll, pitch, yaw)
+69306,9.1 Broker City - Star Relic Prop Movement,"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@param x number
+---@param y number
+---@param z number
+---@param roll number
+---@param pitch number
+---@param yaw number
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function BrokerCity_StarRelicProp_Movement(elapsedMs, x, y, z, roll, pitch, yaw)
 	------------------------------------
 	-- Area Trigger Movement Script:  --
 	------------------------------------
@@ -721,10 +880,21 @@ end
 	
 	return xOffset, yOffset, zOffset, 0, 0, 0
 end
-
-
 ",Ronald Leask,0,46
-69308,9.1 Toy - Top Movement,"function toy_top_trigger(elapsedMs, x, y, z, roll, pitch, yaw)
+69308,9.1 Toy - Top Movement,"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@param x number
+---@param y number
+---@param z number
+---@param roll number
+---@param pitch number
+---@param yaw number
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function toy_top_trigger(elapsedMs, x, y, z, roll, pitch, yaw)
 	------------------------------------
 	-- Area Trigger Movement Script:  --
 	------------------------------------
@@ -748,10 +918,21 @@ end
 	print(x .. "" "" .. y .. "" "" .. z .. "" "" .. roll .. "" "" .. pitch .. "" "" .. yaw)
 	return 0, 0, 0, 0, 0, 0
 end
-
-
 ",Jared Gillis,0,46
-69960,9.2 Raid - Progenitor - Terrestrial Keeper - Cube FX 0 Area Trigger - Move Script Z Rotate,"function rotate_z_axis(elapsedMs, x, y, z, roll, pitch, yaw)
+69960,9.2 Raid - Progenitor - Terrestrial Keeper - Cube FX 0 Area Trigger - Move Script Z Rotate,"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@param x number
+---@param y number
+---@param z number
+---@param roll number
+---@param pitch number
+---@param yaw number
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function rotate_z_axis(elapsedMs, x, y, z, roll, pitch, yaw)
 ------------------------------------
 	-- Area Trigger Movement Script:  --
 	------------------------------------
@@ -797,7 +978,20 @@ end
 	return xOffset, yOffset, zOffset, zRotate, yRotate, 0
 end
 ",Ronald Leask,0,46
-70219,9.2 Raid - Progenitor - Terrestrial Keeper - Orb Movement,"function TerrestrialKeeper_OrbMovement(elapsedMs, x, y, z, roll, pitch, yaw)
+70219,9.2 Raid - Progenitor - Terrestrial Keeper - Orb Movement,"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@param x number
+---@param y number
+---@param z number
+---@param roll number
+---@param pitch number
+---@param yaw number
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function TerrestrialKeeper_OrbMovement(elapsedMs, x, y, z, roll, pitch, yaw)
 	------------------------------------
 	-- Area Trigger Movement Script:  --
 	------------------------------------
@@ -837,10 +1031,21 @@ end
 	
 	return xOffset, yOffset, zOffset, 0, 0, 0
 end
-
-
 ",Ronald Leask,0,46
-71005,9.2 Raid - Progenitor - Terrestrial Keeper - Mines 0 Precast,"function terrestrial_keeper_mines_move_script(elapsedMs, x, y, z, roll, pitch, yaw)
+71005,9.2 Raid - Progenitor - Terrestrial Keeper - Mines 0 Precast,"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@param x number
+---@param y number
+---@param z number
+---@param roll number
+---@param pitch number
+---@param yaw number
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function terrestrial_keeper_mines_move_script(elapsedMs, x, y, z, roll, pitch, yaw)
 	------------------------------------
 	-- Area Trigger Movement Script:  --
 	------------------------------------
@@ -881,10 +1086,21 @@ end
 	
 	return xOffset, yOffset, zOffset, 0, 0, 0
 end
-
-
 ",Ronald Leask,0,46
-76017,(BAD) 10.0 Primalist - Wind Elemental - Add's Raging Tempest - Spawn Spiral Area Triggers,"function Raid_Primalist_WindElemental_AddRagingTempest_SpawnSpiralAreaTriggers_MoveScript(elapsedMs, x, y, z, roll, pitch, yaw)
+76017,(BAD) 10.0 Primalist - Wind Elemental - Add's Raging Tempest - Spawn Spiral Area Triggers,"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@param x number
+---@param y number
+---@param z number
+---@param roll number
+---@param pitch number
+---@param yaw number
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function Raid_Primalist_WindElemental_AddRagingTempest_SpawnSpiralAreaTriggers_MoveScript(elapsedMs, x, y, z, roll, pitch, yaw)
 	local function GenerateSmoothSpiralModded(direction,growth,points,pointsPerCircle)
 		local output = {{0,0,0},}
 		local rotation = Random(0,360)
@@ -910,26 +1126,59 @@ end
 
 
 end
-
-
 ",Matt Nemiah,0,46
-77239,Trampling Hooves Dummy Animation Trigger,"function moveForward(elapsedMs, x, y, z, roll, pitch, yaw)
+77239,Trampling Hooves Dummy Animation Trigger,"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@param x number
+---@param y number
+---@param z number
+---@param roll number
+---@param pitch number
+---@param yaw number
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function moveForward(elapsedMs, x, y, z, roll, pitch, yaw)
 
 
 
 end
-
-
 ",Alan Castle,0,46
-78414,Druid - Syzygy - Path To Dest,"function syzygy_path_to(elapsedMs, x, y, z, roll, pitch, yaw)
+78414,Druid - Syzygy - Path To Dest,"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@param x number
+---@param y number
+---@param z number
+---@param roll number
+---@param pitch number
+---@param yaw number
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function syzygy_path_to(elapsedMs, x, y, z, roll, pitch, yaw)
 
 	return caster.syzygyEnd
 
 end
-
-
 ",Alex Ringe,0,46
-84892,10.1 Legendary - Acquisition - Cosmetic Visual - Movement,"function legendary_acquisition_cosmetic_visual_movement(elapsedMs, x, y, z, roll, pitch, yaw)
+84892,10.1 Legendary - Acquisition - Cosmetic Visual - Movement,"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@param x number
+---@param y number
+---@param z number
+---@param roll number
+---@param pitch number
+---@param yaw number
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function legendary_acquisition_cosmetic_visual_movement(elapsedMs, x, y, z, roll, pitch, yaw)
 
 	local timeToFall = 40000
 	local heightToFall = 200
@@ -938,8 +1187,22 @@ end
 	
 	return 0,0,fallPos,0,0,0
 
-end",Evan Lind,0,46
-84954,10.1.5 Time Rifts - Titan - Impurity Cleanser Beam - PRK,"function time_rifts_titan_impurity_cleanser_beam(elapsedMs, x, y, z, roll, pitch, yaw)
+end
+",Evan Lind,0,46
+84954,10.1.5 Time Rifts - Titan - Impurity Cleanser Beam - PRK,"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@param x number
+---@param y number
+---@param z number
+---@param roll number
+---@param pitch number
+---@param yaw number
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function time_rifts_titan_impurity_cleanser_beam(elapsedMs, x, y, z, roll, pitch, yaw)
 	------------------------------------
 	-- Area Trigger Movement Script:  --
 	------------------------------------
@@ -1004,8 +1267,22 @@ end",Evan Lind,0,46
 
 	return horizontalOffset*math.cos(angle),horizontalOffset*math.sin(angle), zOffset, 0, 0, angle;
 
-end",Paul Kubit,0,46
-85105,10.1 Legendary - Acquisition - Cosmetic Missile - Movement,"function legendary_acquisition_cosmetic_missile_movement(elapsedMs, x, y, z, roll, pitch, yaw)
+end
+",Paul Kubit,0,46
+85105,10.1 Legendary - Acquisition - Cosmetic Missile - Movement,"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@param x number
+---@param y number
+---@param z number
+---@param roll number
+---@param pitch number
+---@param yaw number
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function legendary_acquisition_cosmetic_missile_movement(elapsedMs, x, y, z, roll, pitch, yaw)
 
 	local stallTime = 5000
 	local timeToMove = 10000
@@ -1018,8 +1295,22 @@ end",Paul Kubit,0,46
 	
 	return xPos,yPos,0,0,0,0
 
-end",Evan Lind,0,46
-85107,10.1 Legendary - Acquisition - Cosmetic Visual - Falling - Movement,"function legendary_acquisition_cosmetic_visual_falling_movement(elapsedMs, x, y, z, roll, pitch, yaw)
+end
+",Evan Lind,0,46
+85107,10.1 Legendary - Acquisition - Cosmetic Visual - Falling - Movement,"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@param x number
+---@param y number
+---@param z number
+---@param roll number
+---@param pitch number
+---@param yaw number
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function legendary_acquisition_cosmetic_visual_falling_movement(elapsedMs, x, y, z, roll, pitch, yaw)
 
 	local timeToFall = 20000
 	local heightToFall = 400
@@ -1028,8 +1319,22 @@ end",Evan Lind,0,46
 	
 	return 0,0,fallPos,0,0,0
 
-end",Evan Lind,0,46
-91801,11.0 Z1 - Max Level - Storm Rook Sidewinder - Area Trigger (RPS),"function dorn_area_trigger_test_sidewinder(elapsedMs, x, y, z, roll, pitch, yaw)
+end
+",Evan Lind,0,46
+91801,11.0 Z1 - Max Level - Storm Rook Sidewinder - Area Trigger (RPS),"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@param x number
+---@param y number
+---@param z number
+---@param roll number
+---@param pitch number
+---@param yaw number
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function dorn_area_trigger_test_sidewinder(elapsedMs, x, y, z, roll, pitch, yaw)
 	------------------------------------
 	-- Area Trigger Movement Script:  --
 	------------------------------------
@@ -1064,7 +1369,20 @@ end",Evan Lind,0,46
 	
 end
 ",Rob Stokes,0,46
-93173,10.2.7 Timewalking Season - Pandaria - Gem - Meta - Oblivion Sphere - Orb Rising - Movement,"function timewalking_pandaria_shoulder_roiling_darkness_area_trigger_script(elapsedMs, x, y, z, roll, pitch, yaw)
+93173,10.2.7 Timewalking Season - Pandaria - Gem - Meta - Oblivion Sphere - Orb Rising - Movement,"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@param x number
+---@param y number
+---@param z number
+---@param roll number
+---@param pitch number
+---@param yaw number
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function timewalking_pandaria_shoulder_roiling_darkness_area_trigger_script(elapsedMs, x, y, z, roll, pitch, yaw)
 	------------------------------------
 	-- Area Trigger Movement Script:  --
 	------------------------------------
@@ -1107,7 +1425,20 @@ end
 	return 0,0, zChange, 0, 0, 0;
 end
 ",Mike Stout,0,46
-93739,10.2.7 Spell Test - Morphing Elements 5. Elemental Bomb - Arcing Movement,"function timewalking_pandaria_shoulder_morphing_elements_elemental_bomb_movement(elapsedMs, x, y, z, roll, pitch, yaw)
+93739,10.2.7 Spell Test - Morphing Elements 5. Elemental Bomb - Arcing Movement,"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@param x number
+---@param y number
+---@param z number
+---@param roll number
+---@param pitch number
+---@param yaw number
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function timewalking_pandaria_shoulder_morphing_elements_elemental_bomb_movement(elapsedMs, x, y, z, roll, pitch, yaw)
 	------------------------------------
 	-- Area Trigger Movement Script:  --
 	------------------------------------
@@ -1169,7 +1500,20 @@ end
 	return xChange,yChange, zChange, 0, 0, 0;
 end
 ",Eric Holmberg-Weidler,0,46
-94538,11.0 Dungeon - Mini-Boss - Sootsnout - Fall Damage - 01 - JZM,"function sootsnout_flamefall_orb(elapsedMs, x, y, z, roll, pitch, yaw)
+94538,11.0 Dungeon - Mini-Boss - Sootsnout - Fall Damage - 01 - JZM,"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@param x number
+---@param y number
+---@param z number
+---@param roll number
+---@param pitch number
+---@param yaw number
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function sootsnout_flamefall_orb(elapsedMs, x, y, z, roll, pitch, yaw)
 	------------------------------------
 	-- Area Trigger Movement Script:  --
 	------------------------------------
@@ -1212,7 +1556,20 @@ end
 	return 0,0, zChange, 0, 0, 0;
 end
 ",Jeven Zarate-McCoy,0,46
-95593,10.2.7 Timewalking Season - Pandaria - Airborne Treasure - Small Bronze - Float Up (JOM),"function timewalking_season_pandaria_airborne_treasure_small_bronze_float_up(elapsedMs, x, y, z, roll, pitch, yaw)
+95593,10.2.7 Timewalking Season - Pandaria - Airborne Treasure - Small Bronze - Float Up (JOM),"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@param x number
+---@param y number
+---@param z number
+---@param roll number
+---@param pitch number
+---@param yaw number
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function timewalking_season_pandaria_airborne_treasure_small_bronze_float_up(elapsedMs, x, y, z, roll, pitch, yaw)
 	------------------------------------
 	-- Area Trigger Movement Script:  --
 	------------------------------------
@@ -1252,7 +1609,20 @@ end
 	return 0,0, zChange, 0, 0, 0;
 end
 ",Josh Aaron Miller,0,46
-95607,10.2.7 Timewalking Season - Pandaria - Airborne Treasure - Large Bronze - Windy (JOM),"function timewalking_season_pandaria_airborne_treasure_large_bronze_windy(elapsedMs, x, y, z, roll, pitch, yaw)
+95607,10.2.7 Timewalking Season - Pandaria - Airborne Treasure - Large Bronze - Windy (JOM),"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@param x number
+---@param y number
+---@param z number
+---@param roll number
+---@param pitch number
+---@param yaw number
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function timewalking_season_pandaria_airborne_treasure_large_bronze_windy(elapsedMs, x, y, z, roll, pitch, yaw)
 	------------------------------------
 	-- Area Trigger Movement Script:  --
 	------------------------------------
@@ -1282,7 +1652,20 @@ end
 	return xChange,0, zChange, 0, 0, 0;
 end
 ",Josh Aaron Miller,0,46
-97576,11.0 Dungeon - Airship - Boss 3 - Accessory - TRINKET - INT - Mereldar's Toll - 0) Area Trigger Visual - Swing - Pendulum,"function Dungeon_11_0_Mereldar_Toll_PendulumVisual_MoveScript(elapsedMs, x, y, z, roll, pitch, yaw)
+97576,11.0 Dungeon - Airship - Boss 3 - Accessory - TRINKET - INT - Mereldar's Toll - 0) Area Trigger Visual - Swing - Pendulum,"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@param x number
+---@param y number
+---@param z number
+---@param roll number
+---@param pitch number
+---@param yaw number
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function Dungeon_11_0_Mereldar_Toll_PendulumVisual_MoveScript(elapsedMs, x, y, z, roll, pitch, yaw)
 	------------------------------------
 	-- Area Trigger Movement Script:  --
 	------------------------------------
@@ -1327,17 +1710,56 @@ end
 	return 0,0,0,0,-SinedPitch,0
 end
 ",Zed Grably--Shrager,0,46
-99218,Death Knight - Deathbringer - Path to Dest,"function wave_of_souls_path_to_dest(elapsedMs, x, y, z, roll, pitch, yaw)
+99218,Death Knight - Deathbringer - Path to Dest,"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@param x number
+---@param y number
+---@param z number
+---@param roll number
+---@param pitch number
+---@param yaw number
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function wave_of_souls_path_to_dest(elapsedMs, x, y, z, roll, pitch, yaw)
 
 	return 0, -10, 0, 0 ,0, 0, 0
 
 end
 ",Ogulcan Buyuksandalyaci,0,46
-104755,NakTest - Area Trigger Move Script,"function nak_test_area_trigger_move_script(elapsedMs, x, y, z, roll, pitch, yaw)
+104755,NakTest - Area Trigger Move Script,"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@param x number
+---@param y number
+---@param z number
+---@param roll number
+---@param pitch number
+---@param yaw number
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function nak_test_area_trigger_move_script(elapsedMs, x, y, z, roll, pitch, yaw)
 	return  -262.439, -803.81, 0, 0, 0, 0
 end
 ",Noah Koecher,0,46
-106327,11.1 Raid - Undermine - Boss - Ogre Gangster - Charged Shot (Front) - SAHM,"function raid_undermine_boss_ogre_gangster_charged_shot_front_sahm(elapsedMs, x, y, z, roll, pitch, yaw)
+106327,11.1 Raid - Undermine - Boss - Ogre Gangster - Charged Shot (Front) - SAHM,"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@param x number
+---@param y number
+---@param z number
+---@param roll number
+---@param pitch number
+---@param yaw number
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function raid_undermine_boss_ogre_gangster_charged_shot_front_sahm(elapsedMs, x, y, z, roll, pitch, yaw)
 
 	-- Dear reader, move scripts are probably not you're looking for.
 	-- The literal only input is time elapsed, meaning you cannot reference

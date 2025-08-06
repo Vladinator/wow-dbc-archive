@@ -16414,13 +16414,15 @@ Or, so they hope.",2375,144,0,0,0,0,0,0,0,0,2,0,0
 21492,Section 70,,2375,80,21491,0,21493,2,0,0,316711,0,0,1,-1
 21493,Section 69,,2375,81,21491,0,0,2,0,0,317066,0,0,0,-1
 21494,Overview,"Echelon assaults enemies attempting to enter the Cathedral.  He calls swarms of Undying Stonefiends, which can only be destroyed when struck with |cFF2959D3|Hspell:319592|h[Stone Shattering Leap]|h|r while in |cFF2959D3|Hspell:319724|h[Stone Form]|h|r.",2387,1,0,21497,21507,3,0,0,0,0,0,0,-1
-21495,Damage Dealers,$bullet;Position |cFF2959D3|Hspell:319592|h[Stone Shattering Leap]|h|r to destroy Undying Stonefiends.,2387,3,21494,0,21496,3,0,0,0,0,0,2,-1
-21496,Healer,$bullet;Position |cFF2959D3|Hspell:319592|h[Stone Shattering Leap]|h|r to destroy Undying Stonefiends.,2387,4,21494,0,0,3,0,0,0,0,0,4,-1
-21497,Tank,"$bullet;Position |cFF2959D3|Hspell:319592|h[Stone Shattering Leap]|h|r to destroy Undying Stonefiends.
-$bullet;After |cFF2959D3|Hspell:319733|h[Stone Call]|h|r is cast, gather the Undying Stonefiends.",2387,2,21494,0,21495,3,0,0,0,0,0,1,-1
-21498,Section 5,,2387,11,0,22836,21506,2,0,0,319592,0,0,0,-1
+21495,Damage Dealers,"$bullet; |cFF2959D3|Hspell:319592|h[Stone Shattering Leap]|h|r destroys Undying Stonefiends that are in Stone Form in the impact area.
+$bullet; |cFF2959D3|Hspell:319603|h[Flesh to Stone]|h|r stuns all nearby players.",2387,3,21494,0,21496,3,0,0,0,0,0,2,-1
+21496,Healer,"$bullet; |cFF2959D3|Hspell:319592|h[Stone Shattering Leap]|h|r inflicts significant damage to Echelon's target and moderate damage to all players.
+$bullet; |cFF2959D3|Hspell:319603|h[Flesh to Stone]|h|r stuns all nearby players.",2387,4,21494,0,0,3,0,0,0,0,0,4,-1
+21497,Tank,"$bullet; |cFF2959D3|Hspell:319592|h[Stone Shattering Leap]|h|r destroys Undying Stonefiends that are in Stone Form in the impact area.
+$bullet; |cFF2959D3|Hspell:319603|h[Flesh to Stone]|h|r stuns all nearby players.",2387,2,21494,0,21495,3,0,0,0,0,0,1,-1
+21498,Section 5,,2387,12,0,22836,21506,2,0,0,319592,0,0,0,-1
 21499,Section 6,"$[!8,23
-This ability hits all players on Mythic Difficulty$]",2387,10,0,0,21498,2,0,0,319603,0,0,0,-1
+Upon reaching 4 stacks this ability stuns all players within 8 yards on Mythic Difficulty$]",2387,10,0,0,32725,2,0,0,319603,0,2,4096,0
 21500,Section 3,,2388,10,0,0,0,2,0,0,319657,0,0,0,-1
 21501,Section 1,,2388,9,0,0,21500,2,0,0,319650,0,0,1,-1
 21502,Section 2,,2388,8,0,0,21501,2,0,0,319654,0,0,64,-1
@@ -16429,7 +16431,7 @@ This ability hits all players on Mythic Difficulty$]",2387,10,0,0,21498,2,0,0,31
 21505,Section 6,"$[!23
 
 On Mythic difficulty, the damage from picking up the Living Essence hits all players.$]",2388,6,21503,0,0,2,0,0,319684,0,0,0,-1
-21506,Section 7,,2387,13,0,0,0,2,0,0,319702,0,0,0,-1
+21506,Section 7,,2387,14,0,0,0,2,0,0,319702,0,0,0,-1
 21507,Section 8,,2387,5,0,21508,21499,2,0,0,319733,0,0,0,-1
 21508,Undying Stonefiend,,2387,6,21507,21528,0,1,93854,0,0,0,0,0,-1
 21509,Section 10,,2387,8,21528,0,0,2,0,0,319724,0,0,0,-1
@@ -16674,17 +16676,17 @@ $bullet;Shatter |cFF2959D3|Hspell:322527|h[Gorging Shield]|h|r in order to inter
 21752,Section 7,,2405,7,21750,0,21751,2,0,0,322527,0,0,0,-1
 21753,Section 8,,2405,10,0,22216,22215,2,0,0,322550,0,0,0,-1
 21754,Overview,"Halkias, the Sin-Stained Goliath leaves fields of |cFF2959D3|Hspell:323001|h[Glass Shards]|h|r in his destructive wake.  He is able to focus the lights of Revendreth into beams of |cFF2959D3|Hspell:322913|h[Refracted Sinlight]|h|r.",2406,1,0,21755,21762,3,0,0,0,0,0,0,-1
-21755,Tank,"$bullet; Keep Halkias moving to avoid large clumps of |cFF2959D3|Hspell:323001|h[Glass Shards]|h|r from |cFF2959D3|Hspell:322936|h[Crumbling Slam]|h|r.
+21755,Tank,"$bullet; |cFF2959D3|Hspell:322936|h[Crumbling Slam]|h|r inflicts massive damage to all players near Halkias' target.
 $bullet; Dodge |cFF2959D3|Hspell:322913|h[Refracted Sinlight]|h|r and beware Halkias changing directions.",2406,2,21754,0,21757,3,0,0,0,0,0,1,-1
-21756,Healer,"$bullet; Dispel allies afflicted with |cFF2959D3|Hspell:322977|h[Sinlight Visions]|h|r.
+21756,Healer,"$bullet; |cFF2959D3|Hspell:322943|h[Heave Debris]|h|r and |cFF2959D3|Hspell:322936|h[Crumbling Slam]|h|r both inflict moderate group damage upon impact.
 $bullet; Dodge |cFF2959D3|Hspell:322913|h[Refracted Sinlight]|h|r and beware Halkias changing directions.",2406,4,21754,0,0,3,0,0,0,0,0,4,-1
-21757,Damage Dealers,"$bullet; Avoid standing near allies so |cFF2959D3|Hspell:322943|h[Heave Debris]|h|r doesn't hit multiple players.
+21757,Damage Dealers,"$bullet; |cFF2959D3|Hspell:322943|h[Heave Debris]|h|r inflicts massive damage to players in the impact area.
 $bullet; Dodge |cFF2959D3|Hspell:322913|h[Refracted Sinlight]|h|r and beware Halkias changing directions.",2406,3,21754,0,21756,3,0,0,0,0,0,2,-1
 21758,Section 5,,2406,6,0,21759,21760,2,0,0,322936,0,0,1,-1
 21759,Section 9,,2406,7,21758,0,0,2,0,0,323001,0,0,0,-1
 21760,Section 6,,2406,8,0,21761,21763,2,0,0,322943,0,0,0,-1
 21761,Section 10,,2406,9,21760,0,0,2,0,0,323001,0,0,0,-1
-21762,Section 7,,2406,5,0,0,21758,2,0,0,322913,0,0,16,-1
+21762,Section 7,,2406,5,0,0,21758,2,0,0,322913,0,0,0,-1
 21763,Section 8,,2406,10,0,0,22437,2,0,0,322977,0,2,128,3
 21764,Overview,"General Kaal is agile around the battlefield, working to weaken all of her opponents and removing them from the battlefield entirely. Upon reaching 50% health, General Kaal ends the fight and prepares to drag her opponents back into the depths for eons of imprisonment.",2407,1,0,21765,21770,3,0,0,0,0,0,0,-1
 21765,Tank,"$bullet;Position yourself for |cFF2959D3|Hspell:322895|h[Gloom Squall]|h|r.
@@ -16741,13 +16743,13 @@ $bullet; Be mindful of |cFF2959D3|Hspell:325691|h[Cosmic Collapse]|h|r fields du
 21804,Section 14,,2396,6,0,0,21805,2,0,0,321368,0,2,0,3
 21805,Section 14,,2396,7,0,0,21631,2,0,0,321754,0,2,4096,0
 21806,Section 11,,2401,10,21779,0,0,2,0,0,321447,0,0,0,-1
-21807,Overview,High Adjudicator Aleez commands the congregation of souls in the Halls of Atonement. The High Adjudicator periodically summons forth a Ghastly Parishioner to move towards a random player.  These parishioners are immune to damage and emit a |cFF2959D3|Hspell:323852|h[Pulse from Beyond]|h|r until they can be sealed within a |cFF2959D3|Hspell:323848|h[Vessels of Atonement]|h|r.,2411,1,0,21808,21851,3,0,0,0,0,0,0,-1
+21807,Overview,High Adjudicator Aleez commands the congregation of souls in the Halls of Atonement. The High Adjudicator periodically summons forth a Ghastly Parishioner to move towards a random player.  These parishioners are immune to damage and emit a |cFF2959D3|Hspell:323852|h[Pulse from Beyond]|h|r until they can be sealed within a |cFF2959D3|Hspell:323848|h[Vessels of Atonement]|h|r.,2411,1,0,21808,21864,3,0,0,0,0,0,0,-1
 21808,Tank,"$bullet; Ghastly Parishioners emit a |cFF2959D3|Hspell:323852|h[Pulse from Beyond]|h|r until they are sealed within a |cFF2959D3|Hspell:323848|h[Vessels of Atonement]|h|r
-$bullet; Interrupt |cFF2959D3|Hspell:323552|h[Volley of Power]|h|r to prevent party-wide damage",2411,2,21807,0,21810,3,0,0,0,0,0,1,-1
+$bullet; |cFF2959D3|Hspell:323538|h[Anima Bolt]|h|r inflicts heavy damage.",2411,2,21807,0,21810,3,0,0,0,0,0,1,-1
 21809,Healer,"$bullet; Ghastly Parishioners emit a |cFF2959D3|Hspell:323852|h[Pulse from Beyond]|h|r until they are sealed within a |cFF2959D3|Hspell:323848|h[Vessels of Atonement]|h|r
-$bullet; |cFF2959D3|Hspell:323552|h[Volley of Power]|h|r inflicts heavy party damage when not interrupted",2411,4,21807,0,0,3,0,0,0,0,0,4,-1
+$bullet; |cFF2959D3|Hspell:1236512|h[Unstable Anima]|h|r inflicts moderate damage to afflicted players until it is removed.",2411,4,21807,0,0,3,0,0,0,0,0,4,-1
 21810,Damage Dealers,"$bullet; Ghastly Parishioners emit a |cFF2959D3|Hspell:323852|h[Pulse from Beyond]|h|r until they are sealed within a |cFF2959D3|Hspell:323848|h[Vessels of Atonement]|h|r
-$bullet; Interrupt |cFF2959D3|Hspell:323552|h[Volley of Power]|h|r to prevent party-wide damage",2411,3,21807,0,21809,3,0,0,0,0,0,2,-1
+$bullet; |cFF2959D3|Hspell:329340|h[Anima Fountain]|h|r inflicts heavy damage to players in the impact area.",2411,3,21807,0,21809,3,0,0,0,0,0,2,-1
 21818,Overview,"Devos begins her assault on the ground with the players. Upon reaching 70% and 30% she will slam the Archon's Spear into the Anima Conduit, locking it in place, before taking to the air to control the winds. Only by collecting the |cFF2959D3|Hspell:330683|h[Raw Anima]|h|r and returning it to the Archon's Spear can it be unlocked and used to bring Devos back into fight.",2412,1,0,22632,22368,3,0,0,0,0,0,0,-1
 21819,Tank,"$bullet;Standing inside Kyrestia, the Firstborne's |cFF2959D3|Hspell:335805|h[Archon's Bastion]|h|r will greatly reduce the damage of Devos' |cFF2959D3|Hspell:334625|h[Abyssal Detonation]|h|r.
 $bullet;The |cFF2959D3|Hspell:322921|h[Archon's Spear]|h|r remains locked until all orbs of |cFF2959D3|Hspell:330683|h[Raw Anima]|h|r are returned to it.
@@ -16774,18 +16776,19 @@ In Mythic Difficulty, Decomposition Pools are left upon missile impact.$]",2405,
 21838,Section 19,,2412,19,21836,0,21828,2,0,0,322908,0,0,0,-1
 21839,Section 20,,2412,17,21836,0,21837,2,0,0,322921,0,0,32,-1
 21841,Overview,"Lord Chamberlain commands powerful telekinetic powers to hurl Sinstone Statues around the battlefield. At 70% and 40% health, Lord Chamberlain will cast |cFF2959D3|Hspell:341245|h[Chamberlain's Chorus]|h|r.",2413,1,0,21844,22542,3,0,0,0,0,0,0,-1
-21842,Damage Dealers,$bullet;Position yourself between Lord Chamberlain and a Sinstone Statue to intercept missiles during |cFF2959D3|Hspell:323393|h[Ritual of Woe]|h|r to reduce party wide damage.,2413,3,21841,0,21843,3,0,0,0,0,0,2,-1
+21842,Damage Dealers,"$bullet;Position yourself between Lord Chamberlain and a Sinstone Statue to intercept missiles during |cFF2959D3|Hspell:323393|h[Ritual of Woe]|h|r to reduce party wide damage.
+$bullet; |cFF2959D3|Hspell:1236964|h[Erupting Torment]|h|r inflicts massive damage to players near Lord Chamberlain or sinstone statues.",2413,3,21841,0,21843,3,0,0,0,0,0,2,-1
 21843,Healer,"$bullet;Position yourself between Lord Chamberlain and a Sinstone Statue to intercept missiles during |cFF2959D3|Hspell:323393|h[Ritual of Woe]|h|r to reduce party wide damage.
-$bullet;|cFF2959D3|Hspell:323437|h[Stigma of Pride]|h|r causes increased damage the longer it lasts.",2413,4,21841,0,0,3,0,0,0,0,0,4,-1
+$bullet; Sinstone Statues inflict moderate group damage to all players when thrown with |cFF2959D3|Hspell:1237634|h[Telekinetic Toss]|h|r.",2413,4,21841,0,0,3,0,0,0,0,0,4,-1
 21844,Tank,"$bullet;Position yourself between Lord Chamberlain and a Sinstone Statue to intercept missiles during |cFF2959D3|Hspell:323393|h[Ritual of Woe]|h|r to reduce party wide damage.
 $bullet;|cFF2959D3|Hspell:323437|h[Stigma of Pride]|h|r causes increased damage the longer it lasts.",2413,2,21841,0,21842,3,0,0,0,0,0,1,-1
 21846,Section 6,,2413,7,22542,0,21849,2,0,0,323129,0,0,0,-1
 21847,Section 7,,2413,10,0,0,21848,2,0,0,323143,0,0,0,-1
 21848,Section 8,,2413,11,0,0,21850,2,0,0,323236,0,0,0,-1
 21849,Section 9,,2413,8,22542,0,22110,2,0,0,323393,0,2,16,3
-21850,Section 10,,2413,12,0,0,0,2,0,0,323437,0,0,4,-1
-21851,Section 5,,2411,5,0,0,21852,2,0,0,323538,0,0,65,-1
-21852,Section 6,,2411,6,0,0,21860,2,0,0,323552,0,0,64,-1
+21850,Section 10,,2413,12,0,0,33417,2,0,0,323437,0,0,4,-1
+21851,Section 5,,2411,6,0,0,21852,2,0,0,323538,0,0,65,-1
+21852,Section 6,,2411,7,0,0,21860,2,0,0,1236512,0,2,4096,0
 21853,Section 7,,2408,6,21793,21854,21855,2,0,0,322773,0,1,0,-1
 21854,Section 9,,2408,7,21853,0,0,2,0,0,323064,0,0,0,-1
 21855,Section 10,,2408,8,21793,0,21856,2,0,0,322746,0,0,32,-1
@@ -16793,11 +16796,11 @@ $bullet;|cFF2959D3|Hspell:323437|h[Stigma of Pride]|h|r causes increased damage 
 21857,Son of Hakkar,"Atal'ai priests sacrifice themselves to their god, transforming into a Son of Hakkar and rushing to their master's aid.",2408,10,0,21858,0,1,2702,0,0,0,0,0,-1
 21858,Section 7,,2408,11,21857,0,21859,2,0,0,323544,0,0,0,-1
 21859,Section 12,,2408,12,21857,0,22169,2,0,0,323569,0,0,0,-1
-21860,Section 7,,2411,7,0,21861,21864,2,0,0,323597,0,0,0,-1
-21861,Ghastly Parishioner,,2411,8,21860,21862,0,1,90425,0,0,0,0,0,-1
-21862,Section 9,,2411,9,21861,0,21863,2,0,0,323650,0,0,32,-1
-21863,Section 10,,2411,10,21861,0,22060,2,0,0,323741,0,0,0,-1
-21864,Section 11,,2411,12,0,0,22108,2,0,0,323848,0,0,16,-1
+21860,Section 7,,2411,8,0,21861,22108,2,0,0,323597,0,0,0,-1
+21861,Ghastly Parishioner,,2411,9,21860,21862,0,1,90425,0,0,0,0,0,-1
+21862,Section 9,,2411,10,21861,0,21863,2,0,0,323650,0,0,32,-1
+21863,Section 10,,2411,11,21861,0,22060,2,0,0,323741,0,0,0,-1
+21864,Section 11,,2411,5,0,0,21851,2,0,0,323848,0,1,0,-1
 21865,Overview,"Oryphrion spends anima to fuel their attacks. Standing in an |cFF2959D3|Hspell:324392|h[Anima Field]|h|r will empower Oryphrion and remove the anima cost of abilities.
 
 Once Oryphrion hits 0 anima, they become |cFF2959D3|Hspell:323878|h[Drained]|h|r and will then |cFF2959D3|Hspell:324046|h[Recharge Anima]|h|r.",2414,1,0,21866,21931,3,0,0,0,0,0,0,-1
@@ -17027,7 +17030,7 @@ Millhouse steps into the arena, while Millificent takes purchase on the outer ra
 22059,Stage Two: The Crimson Chorus,"Once fully cleansed, players find themselves in the grand Observatorium, where countless mirrors are used to watch and manipulate events throughout the Shadowlands and beyond.
 
 Players can enter these mirrors to travel great distances, but there is no escape from Denathrius.",2424,26,0,22406,22195,0,0,0,0,0,0,0,-1
-22060,Section 12,,2411,11,21861,0,0,2,0,0,323852,0,0,16,-1
+22060,Section 12,,2411,12,21861,0,0,2,0,0,323852,0,0,16,-1
 22061,Section 19,,2424,21,22058,0,0,2,0,0,327992,0,0,0,-1
 22062,Stage 1: The Master of Death,"Mueh'zala is the god of death, blasting players with blood, shadow, and necromatic magic, twisting reality to his whim.",2410,5,0,22048,22063,0,0,0,0,0,1,0,-1
 22063,Stage 2: Shattered Reality,"Upon casting |cFF2959D3|Hspell:326171|h[Shatter Reality]|h|r, Mueh'zala splits his reality into multiple Shattered Visages, protecting his Primeval Grasp totems from players' prying fingers. Mueh'zala then begins to cast |cFF2959D3|Hspell:334970|h[Coalescing]|h|r, returning to his physical form.",2410,15,0,22186,0,0,0,0,0,0,0,0,-1
@@ -17772,7 +17775,7 @@ In Mythic difficulty, this effect cannot be removed by player immunities.$]",242
 22833,Section 127,,2425,124,22832,0,22834,2,0,0,344655,0,2,0,0
 22834,Section 128,,2425,125,22832,22835,0,2,0,0,344721,0,2,0,0
 22835,Section 129,,2425,126,22834,0,0,2,0,0,344740,0,2,0,0
-22836,Section 13,,2387,12,21498,0,0,2,0,0,344874,0,0,0,-1
+22836,Section 13,,2387,13,21498,0,0,2,0,0,344874,0,0,0,-1
 22837,Baleful Shadow,,2424,35,22557,22838,0,1,94527,0,0,0,3,0,0
 22838,Section 77,,2424,36,22837,0,0,2,0,0,344776,0,3,64,0
 22840,Section 127,,2425,85,22777,0,22784,2,0,0,342741,0,0,4096,-1
@@ -17798,9 +17801,7 @@ $bullet;There is a gap in |cFF2959D3|Hspell:347671|h[Hungering Mist]|h|r that ca
 Upon reaching 100 energy, Zo'phex singles out a random player for |cFF2959D3|Hspell:345598|h[Interrogation]|h|r.",2437,1,0,22854,22857,3,0,0,0,0,0,0,-1
 22854,Damage Dealers,"$bullet;Destroying a |cFF2959D3|Hspell:348006|h[Containment Cell]|h|r interrupts |cFF2959D3|Hspell:345598|h[Interrogation]|h|r.
 
-$bullet;While disarmed from |cFF2959D3|Hspell:346006|h[Impound Contraband]|h|r players are silenced and pacified until retrieving their weapon from the battlefield.
-
-$bullet;|cFF2959D3|Hspell:347964|h[Rotary Body Armor]|h|r absorbs all damage taken if between players and Zo'phex.",2437,2,22853,0,22855,3,0,0,0,0,0,2,-1
+$bullet;While disarmed from |cFF2959D3|Hspell:346006|h[Impound Contraband]|h|r players are silenced and pacified until retrieving their weapon from the battlefield.",2437,2,22853,0,22855,3,0,0,0,0,0,2,-1
 22855,Healer,"$bullet;|cFF2959D3|Hspell:348366|h[Armed Security]|h|r move dangerously around the battlefield.
 
 $bullet;While disarmed from |cFF2959D3|Hspell:346006|h[Impound Contraband]|h|r players are silenced and pacified until retrieving their weapon from the battlefield.
@@ -18041,42 +18042,39 @@ In Mythic difficulty, this effect cannot be removed by player immunities.$]",242
 23014,Section 14,,2448,9,23002,0,0,2,0,0,346961,0,0,0,-1
 23015,Overview,"Timecap'n Hooktail commands her infamous pirate ship, The Hourglass, to |cFF2959D3|Hspell:347370|h[Cannon Barrage]|h|r the beach while she engages players in close combat.
 
-Corsair Brutes grapple from the deck to support their captain, but her |cFF2959D3|Hspell:347149|h[Infinite Breath]|h|r and |cFF2959D3|Hspell:347151|h[Hook Swipe]|h|r are deadly for players and Corsairs alike.
-
-Upon reaching 100 energy, Hooktail uses her infinite magics to greatly empower her allies with |cFF2959D3|Hspell:350517|h[Double Time]|h|r.",2449,1,0,23016,23019,3,0,0,0,0,0,0,-1
+Corsair Brutes grapple from the deck to support their captain, but her |cFF2959D3|Hspell:347149|h[Infinite Breath]|h|r is deadly for players and Corsairs alike.",2449,1,0,23016,23019,3,0,0,0,0,0,0,-1
 23016,Damage Dealers,"$bullet;Hooktail's |cFF2959D3|Hspell:347149|h[Infinite Breath]|h|r can damage and stun players, but it also kills Corsair Brutes instantly.
-$bullet;Corsair Brutes become much more threatening when empowered by |cFF2959D3|Hspell:350517|h[Double Time]|h|r.
-$bullet;|cFF2959D3|Hspell:352345|h[Anchor Shot]|h|r is especially dangerous for players who are close to the ship.",2449,2,23015,0,23017,3,0,0,0,0,0,2,-1
-23017,Healer,"$bullet;Hooktail's |cFF2959D3|Hspell:347149|h[Infinite Breath]|h|r can damage and stun players, but it also kills Corsair Brutes instantly.
-$bullet;Corsair Brutes become much more threatening when empowered by |cFF2959D3|Hspell:350517|h[Double Time]|h|r.
-$bullet;|cFF2959D3|Hspell:352345|h[Anchor Shot]|h|r is especially dangerous for players who are close to the ship.",2449,3,23015,0,23018,3,0,0,0,0,0,4,-1
-23018,Tank,"$bullet;Hooktail can use |cFF2959D3|Hspell:347151|h[Hook Swipe]|h|r to damage and stun players near her tail.
-$bullet;Hooktail's |cFF2959D3|Hspell:347149|h[Infinite Breath]|h|r can damage and stun players, but it also kills Corsair Brutes instantly.
-$bullet;Corsair Brutes become much more threatening when empowered by |cFF2959D3|Hspell:350517|h[Double Time]|h|r.",2449,4,23015,0,0,3,0,0,0,0,0,1,-1
-23019,Section 6,,2449,5,0,0,23020,2,0,0,347149,0,0,1,-1
-23020,Section 7,,2449,6,0,23834,23462,2,0,0,347151,0,0,6,-1
+$bullet;|cFF2959D3|Hspell:347370|h[Cannon Barrage]|h|r inflicts heavy damage to players in the impact area.",2449,2,23015,0,23017,3,0,0,0,0,0,2,-1
+23017,Healer,"$bullet;|cFF2959D3|Hspell:352345|h[Anchor Shot]|h|r inflicts heavy damage to a random player.
+$bullet;|cFF2959D3|Hspell:347370|h[Cannon Barrage]|h|r inflicts heavy damage to players in the impact area.",2449,3,23015,0,23018,3,0,0,0,0,0,4,-1
+23018,Tank,"$bullet;Hooktail's |cFF2959D3|Hspell:347149|h[Infinite Breath]|h|r can damage and stun players, but it also kills Corsair Brutes instantly.
+$bullet;|cFF2959D3|Hspell:347370|h[Cannon Barrage]|h|r inflicts heavy damage to players in the impact area.",2449,4,23015,0,0,3,0,0,0,0,0,1,-1
+23019,Section 6,,2449,5,0,0,23020,2,0,0,347149,0,1,1,-1
+23020,Section 7,,2449,6,0,23834,23833,2,0,0,1240097,0,0,128,-1
 23023,Section 10,,2449,11,23027,23845,23461,2,0,0,347370,0,0,0,-1
 23025,Section 11,,2449,14,0,0,0,2,0,0,347422,0,0,16,-1
 23027,Corsair Cannoneers,Hooktail's crew assists her from the ship by firing its cannons at players.,2449,10,0,23023,23025,1,87482,0,0,0,0,0,-1
 23030,Section 48,,2426,18,22199,0,22964,2,0,0,346934,0,2,2056,0
 23031,Section 1,,2451,5,0,0,23032,2,0,0,347481,0,0,16,-1
 23032,Section 2,,2451,6,0,0,23033,2,0,0,347392,0,0,32,-1
-23033,Section 3,,2451,7,0,0,23034,2,0,0,347249,0,0,0,-1
+23033,Section 3,,2451,7,0,0,23034,2,0,0,1245634,0,0,0,-1
 23034,Section 4,,2451,8,0,0,23042,2,0,0,357188,0,0,80,-1
 23038,Overview,"So'azmi deploys |cFF2959D3|Hspell:347426|h[Relocators]|h|r which players must use to avoid his |cFF2959D3|Hspell:347481|h[Shuri]|h|r ability.
-As the fight progresses, So'azmi |cFF2959D3|Hspell:347249|h[Divides]|h|r the playspace to impede players' movement and make his other abilities more difficult to deal with.
-After |cFF2959D3|Hspell:347249|h[Dividing]|h|r the playspace, So'azmi prepares his deadly |cFF2959D3|Hspell:357188|h[Double Technique]|h|r, which must be interrupted multiple times.",2451,1,0,23040,23031,3,0,0,0,0,0,0,-1
+
+At $1245634s1% and $1245634s2% health, So'azmi |cFF2959D3|Hspell:1245634|h[Divides]|h|r the playspace to impede players' movement.
+
+At 100 energy, So'azmi prepares his deadly |cFF2959D3|Hspell:357188|h[Double Technique]|h|r, which must be interrupted multiple times.",2451,1,0,23040,23031,3,0,0,0,0,0,0,-1
 23039,Tank,"$bullet;Use |cFF2959D3|Hspell:347426|h[Relocators]|h|r to avoid the damage of |cFF2959D3|Hspell:347481|h[Shuri]|h|r.
 $bullet;|cFF2959D3|Hspell:357188|h[Double Technique]|h|r must be interrupted multiple times to prevent its damage.",2451,4,23038,0,0,3,0,0,0,0,0,1,-1
 23040,Damage Dealers,"$bullet;Use |cFF2959D3|Hspell:347426|h[Relocators]|h|r to avoid the damage of |cFF2959D3|Hspell:347481|h[Shuri]|h|r.
 $bullet;|cFF2959D3|Hspell:357188|h[Double Technique]|h|r must be interrupted multiple times to prevent its damage.",2451,2,23038,0,23041,3,0,0,0,0,0,2,-1
 23041,Healer,"$bullet;Use |cFF2959D3|Hspell:347426|h[Relocators]|h|r to avoid the damage of |cFF2959D3|Hspell:347481|h[Shuri]|h|r.
 $bullet;|cFF2959D3|Hspell:357188|h[Double Technique]|h|r must be interrupted multiple times to prevent its damage.",2451,3,23038,0,23039,3,0,0,0,0,0,4,-1
-23042,Section 12,,2451,9,0,0,0,2,0,0,347623,0,0,8192,-1
+23042,Section 12,,2451,9,0,0,0,2,0,0,1248209,0,0,8192,-1
 23043,Section 17,,2435,31,0,0,22973,2,0,0,347490,0,2,2048,0
 23047,Section 10,,2437,10,0,23498,23049,2,0,0,345770,0,0,0,-1
 23048,Section 10,,2437,6,22857,23499,0,2,0,0,345990,0,0,0,-1
-23049,Section 11,,2437,12,0,0,0,2,0,0,347964,0,0,0,-1
+23049,Section 11,,2437,12,0,0,0,2,0,0,1236348,0,0,0,-1
 23051,Section 9,,2441,82,23551,0,23055,2,0,0,347609,0,0,0,-1
 23055,Section 11,,2441,83,23551,0,23542,2,0,0,347704,0,0,32,-1
 23057,Stage One: A Cycle of Hatred,"""We have forgotten what makes us strong.""
@@ -18116,7 +18114,7 @@ $bullet;Oasis Security staff inflict heavy damage with |cFF2959D3|Hspell:350916|
 $bullet;Zo'gron inflicts additional damage when players are in close proximity to each other with |cFF2959D3|Hspell:355438|h[Suppression Spark]|h|r.",2452,4,23092,0,0,3,0,0,0,0,0,4,-1
 23096,Stage One: Unruly Patrons,Oasis clientele periodically rush the stage to put an end to the performance.,2452,13,0,23750,23749,0,0,0,0,0,0,0,-1
 23097,Speakeasy Security,,2452,24,23523,0,0,2,0,0,350922,0,0,64,-1
-23098,Zo'gron,,2452,26,23749,23330,0,1,100497,0,0,0,1,0,-1
+23098,Zo'gron,,2452,26,23749,32960,0,1,100497,0,0,0,1,0,-1
 23100,A Pentatonic Performance,Grab an instrument and perform for Au'myza by hitting notes that appear on stage.,2452,5,0,23822,23096,2,0,0,0,0,1,0,-1
 23101,Stone Legion Goliath,,2425,30,22760,23102,22791,1,95707,0,0,0,1,0,-1
 23102,Section 38,,2425,31,23101,23103,23104,2,0,0,342694,0,2,0,0
@@ -18145,7 +18143,7 @@ $bullet;|cFF2959D3|Hspell:349934|h[Flagellation Protocol]|h|r can inflict heavy 
 $bullet;The pull of |cFF2959D3|Hspell:350090|h[Whirling Annihilation]|h|r intensifies over time, making it more difficult to avoid the longer you remain nearby.",2454,3,23155,0,23158,3,0,0,0,0,0,4,-1
 23158,Tank,"$bullet;|cFF2959D3|Hspell:349934|h[Flagellation Protocol]|h|r can inflict heavy damage if not interrupted.
 $bullet;The pull of |cFF2959D3|Hspell:350090|h[Whirling Annihilation]|h|r intensifies over time, making it more difficult to avoid the longer you remain nearby.",2454,4,23155,0,0,3,0,0,0,0,0,1,-1
-23159,Alcruux,,2454,5,0,23160,23231,1,95375,0,0,0,0,0,-1
+23159,Alcruux,,2454,5,0,23160,23231,1,101039,0,0,0,0,0,-1
 23160,Section 6,,2454,6,23159,23293,23161,2,0,0,349627,0,0,0,-1
 23161,Section 7,,2454,8,23159,0,23184,2,0,0,349663,0,0,0,-1
 23179,Section 21,,2442,20,23409,0,23661,2,0,0,349028,0,0,4,-1
@@ -18240,8 +18238,8 @@ $bullet;|cFF2959D3|Hspell:350799|h[Collapsing Star]|h|r inflicts substantial dam
 23327,Section 36,,2441,36,23075,0,0,2,0,0,350857,0,1,0,-1
 23328,Disruptive Patron,,2452,18,23096,23530,23523,1,93590,0,0,0,1,0,-1
 23329,Unruly Patron,,2452,17,23522,0,0,2,0,0,348566,0,0,0,-1
-23330,Section 17,,2452,27,23098,0,23637,2,0,0,355438,0,0,32,-1
-23331,Section 17,,2452,30,23098,0,0,2,0,0,350922,0,0,64,-1
+23330,Section 17,,2452,28,23098,0,23637,2,0,0,355438,0,0,0,-1
+23331,Section 17,,2452,31,23098,0,0,2,0,0,350922,0,0,64,-1
 23332,Section 17,,2452,23,23523,0,23097,2,0,0,350916,0,0,1,-1
 23333,Section 16,,2445,8,23288,0,23415,2,0,0,350801,0,0,4,-1
 23337,Section 6,,2455,15,23340,0,23406,2,0,0,351096,0,0,0,-1
@@ -18314,7 +18312,7 @@ In Heroic difficulty and Mythic difficulties, Hellscream also causes all players
 23459,Section 9,,583,4,0,0,6063,2,0,0,57088,0,0,0,-1
 23460,Section 48,,2440,9,22884,0,23195,2,0,0,352530,0,2,0,0
 23461,Section 11,,2449,13,23027,0,0,2,0,0,352345,0,0,0,-1
-23462,Section 12,,2449,8,0,0,23833,2,0,0,350517,0,0,32,-1
+23462,Section 12,,2449,9,23833,0,0,2,0,0,1240214,0,0,128,-1
 23463,Section 51,,2441,21,23057,23464,0,2,0,0,352650,0,0,1,-1
 23464,Section 52,,2441,22,23463,0,0,2,0,0,347607,0,1,0,-1
 23465,Section 15,,2446,17,23254,23466,23516,2,0,0,352394,0,0,32,-1
@@ -18366,7 +18364,7 @@ In Heroic difficulty and Mythic difficulties, Hellscream also causes all players
 23521,Section 38,,2447,34,23475,0,23764,2,0,0,353696,0,0,4,-1
 23522,Brawling Patron,,2452,16,23096,23329,23328,1,93578,0,0,0,1,0,-1
 23523,Oasis Security,,2452,22,23096,23332,0,1,101270,0,0,0,1,0,-1
-23524,Section 17,,2452,29,23098,0,23331,2,0,0,359028,0,0,1,-1
+23524,Section 17,,2452,30,23098,0,23331,2,0,0,359028,0,0,1,-1
 23528,Section 26,,2452,15,23096,0,23522,2,0,0,356482,0,0,0,-1
 23529,Unruly Patron,,2452,20,23328,0,23294,2,0,0,353783,0,0,0,-1
 23530,Unruly Patron,,2452,19,23328,0,23529,2,0,0,353836,0,0,0,-1
@@ -18445,7 +18443,7 @@ $bullet;|cFF2959D3|Hspell:350542|h[Fragments of Destiny]|h|r jump to the nearest
 
 In Mythic difficulty, the Guardian depletes 20 energy if Obliterate fails to hit at least 4 players.$]",2446,8,23473,0,0,2,0,0,355352,0,3,40,0
 23636,Section 15,,2444,14,23307,0,0,2,0,0,350490,0,2,8,0
-23637,Section 17,,2452,28,23098,0,23524,2,0,0,350919,0,0,0,-1
+23637,Section 17,,2452,29,23098,0,23524,2,0,0,350919,0,0,0,-1
 23638,Stage Two: The Screaming Anvil,Upon reaching 70% and 40% health remaining the Painsmith leaps to his anvil and begins to craft a new Instrument of Pain.,2443,21,0,23759,0,0,0,0,0,0,1,0,-1
 23639,Section 12,,2443,12,23642,23797,0,2,0,0,355778,0,0,0,-1
 23641,Section 17,,2443,15,23117,0,23862,2,0,0,355526,0,2,16,0
@@ -18630,8 +18628,8 @@ $bullet; |cFF2959D3|Hspell:354964|h[Runic Affinity]|h|r allows the manipulation 
 $bullet; |cFF2959D3|Hspell:354365|h[Grim Portent]|h|r will erupt for massive damage if any selected players are not within their rune on expiration.",2447,8,22922,0,0,3,0,0,0,0,2,4,0
 23831,Section 56,,2441,85,23551,0,23544,2,0,0,347670,0,2,0,0
 23832,Section 59,,2447,43,23477,0,23479,2,0,0,358123,0,2,0,0
-23833,Corsair Brute,"Members of Hooktail's crew grapple from the deck to attack players, but they're unaccustomed to her dragon form and vulnerable to her |cFF2959D3|Hspell:347149|h[Infinite Breath]|h|r and |cFF2959D3|Hspell:347151|h[Hook Swipe]|h|r.",2449,9,0,0,23027,1,81324,0,0,0,0,0,-1
-23834,Section 13,,2449,7,23020,0,0,2,0,0,354334,0,0,0,-1
+23833,Corsair Brute,"Members of Timecap'n Hooktail's crew grapple from the deck to attack players, but they're unaccustomed to her dragon form and vulnerable to her |cFF2959D3|Hspell:347149|h[Infinite Breath]|h|r.",2449,8,0,23462,23027,1,81324,0,0,0,0,0,-1
+23834,Section 13,,2449,7,23020,0,0,2,0,0,1240105,0,0,0,-1
 23835,Section 58,"$[!16
 
 In Mythic difficulty, Kel'Thuzad starts with applications of |cFF2959D3|Hspell:352051|h[Necrotic Surge]|h|r.$]",2440,28,22885,0,23665,2,0,0,352051,0,2,4096,0
@@ -22047,18 +22045,18 @@ On Mythic difficulty, a Coiling Eruption is triggered upon expiration.$]",2557,1
 27814,Overview,"Captain Dailcry is protected by his Trusted Guards, who gain |cFF2959D3|Hspell:424626|h[Strength in Numbers]|h|r while near each other. Captain Dailcry's loyal mount, Ember, ravages his enemies with |cFF2959D3|Hspell:447439|h[Savage Mauling]|h|r while he rallies his allies with a courageous |cFF2959D3|Hspell:424419|h[Battle Cry]|h|r.",2571,1,0,27817,27821,3,0,0,0,0,0,0,-1
 27815,Damage Dealers,"$bullet; Captain Dailcry is protected by trusted guards who gain |cFF2959D3|Hspell:424628|h[Strength in Numbers]|h|r.
 $bullet; Ember attacks a player with |cFF2959D3|Hspell:447439|h[Savage Mauling]|h|r until Captain Dailcry's shield is broken.
-$bullet; |cFF2959D3|Hspell:447272|h[Hurl Spear]|h|r inflicts heavy damage to players in the spear's path.",2571,3,27814,0,27816,3,0,0,0,0,2,0,3
+$bullet; |cFF2959D3|Hspell:1238782|h[Earthshattering Spear]|h|r inflicts heavy damage to players in the impact area.",2571,3,27814,0,27816,3,0,0,0,0,2,0,3
 27816,Healer,"$bullet; |cFF2959D3|Hspell:447439|h[Savage Mauling]|h|r inflicts heavy damage to the player caught in Ember's clutches.
-$bullet; |cFF2959D3|Hspell:447272|h[Hurl Spear]|h|r inflicts heavy damage to players in the spear's path.
+$bullet; |cFF2959D3|Hspell:1238782|h[Earthshattering Spear]|h|r inflicts heavy damage to players in the impact area.
 $bullet; |cFF2959D3|Hspell:424414|h[Pierce Armor]|h|r inflicts heavy bleed damage to Captain Dailcry's current target.",2571,4,27814,0,27820,3,0,0,0,0,2,0,3
 27817,Tank,"$bullet; Captain Dailcry is protected by trusted guards who gain |cFF2959D3|Hspell:424628|h[Strength in Numbers]|h|r.
 $bullet; |cFF2959D3|Hspell:424419|h[Battle Cry]|h|r  increases damage done by Captain Dailcry and his allies.
 $bullet; |cFF2959D3|Hspell:424414|h[Pierce Armor]|h|r inflicts heavy bleed damage to Captain Dailcry's current target.",2571,2,27814,0,27815,3,0,0,0,0,2,0,3
 27818,Damage Dealers,"$bullet; Captain Dailcry is protected by trusted guards who gain |cFF2959D3|Hspell:424628|h[Strength in Numbers]|h|r.
 $bullet; Ember attacks a player with |cFF2959D3|Hspell:447439|h[Savage Mauling]|h|r until Captain Dailcry's shield is broken.
-$bullet; |cFF2959D3|Hspell:447272|h[Hurl Spear]|h|r inflicts heavy damage to players in the spear's path.",2571,6,27814,0,27819,3,0,0,0,0,2,0,0
+$bullet; |cFF2959D3|Hspell:1238782|h[Earthshattering Spear]|h|r inflicts heavy damage to players in the impact area.",2571,6,27814,0,27819,3,0,0,0,0,2,0,0
 27819,Healer,"$bullet; |cFF2959D3|Hspell:447439|h[Savage Mauling]|h|r inflicts heavy damage to the player caught in Ember's clutches.
-$bullet; |cFF2959D3|Hspell:447272|h[Hurl Spear]|h|r inflicts heavy damage to players in the spear's path.
+$bullet; |cFF2959D3|Hspell:1238782|h[Earthshattering Spear]|h|r inflicts heavy damage to players in the impact area.
 $bullet; |cFF2959D3|Hspell:424414|h[Pierce Armor]|h|r inflicts heavy bleed damage to Captain Dailcry's current target.",2571,7,27814,0,0,3,0,0,0,0,2,0,0
 27820,Tank,"$bullet; Captain Dailcry is protected by trusted guards who gain |cFF2959D3|Hspell:424628|h[Strength in Numbers]|h|r.
 $bullet; |cFF2959D3|Hspell:424419|h[Battle Cry]|h|r  increases damage done by Captain Dailcry and his allies.
@@ -22067,16 +22065,15 @@ $bullet; |cFF2959D3|Hspell:424414|h[Pierce Armor]|h|r inflicts heavy bleed damag
 27822,Section 8,,2571,10,27821,0,29737,2,0,0,424419,0,0,2112,-1
 27823,Section 9,,2571,9,27821,0,27822,2,0,0,447439,0,1,32,-1
 27824,Section 10,,2571,12,27821,0,0,2,0,0,424414,0,0,8193,-1
-27825,Sergeant Shaynemail,,2571,20,27840,27826,27831,1,118870,0,0,0,0,0,-1
-27826,Section 12,,2571,21,27825,0,27827,2,0,0,424621,0,0,0,-1
-27827,Section 13,,2571,22,27825,0,0,2,0,0,424423,0,0,8192,-1
+27825,Sergeant Shaynemail,,2571,19,27840,27826,27831,1,118870,0,0,0,0,0,-1
+27826,Section 12,,2571,20,27825,0,27827,2,0,0,424621,0,0,0,-1
+27827,Section 13,,2571,21,27825,0,0,2,0,0,424423,0,0,8192,-1
 27828,Elaena Emberlanz,,2571,16,27840,27829,27825,1,118872,0,0,0,0,0,-1
 27829,Section 17,,2571,17,27828,0,27830,2,0,0,424431,0,0,4,-1
-27830,Section 18,,2571,18,27828,0,29739,2,0,0,448515,0,0,1,-1
-27831,Taener Duelmal,,2571,23,27840,27832,0,1,118873,0,0,0,0,0,-1
-27832,Section 20,,2571,24,27831,0,27833,2,0,0,424462,0,0,0,-1
-27833,Section 21,,2571,25,27831,0,27834,2,0,0,424420,0,0,192,-1
-27834,Section 22,,2571,26,27831,0,0,2,0,0,424421,0,0,64,-1
+27830,Section 18,,2571,18,27828,0,0,2,0,0,448515,0,0,1,-1
+27831,Taener Duelmal,,2571,22,27840,27832,0,1,118873,0,0,0,0,0,-1
+27832,Section 20,,2571,23,27831,0,27834,2,0,0,424462,0,0,0,-1
+27834,Section 22,,2571,24,27831,0,0,2,0,0,424421,0,0,64,-1
 27837,Section 70,,2565,128,27699,27838,0,2,0,0,424665,0,2,0,0
 27838,Section 71,,2565,129,27837,0,0,2,0,0,422325,0,2,0,0
 27840,The Trusted Guard,,2571,13,0,27841,0,0,0,0,0,0,1,0,-1
@@ -22667,7 +22664,7 @@ $bullet;|cFF2959D3|Hspell:432182|h[Throw Cinderbrew]|h|r inflicts significant Fi
 $bullet;|cFF2959D3|Hspell:439365|h[Spouting Stout]|h|r creates Brew Drops and inflicts moderate Fire damage to all players.",2587,2,28421,0,28423,3,0,0,0,0,0,1,-1
 28423,Damage Dealers,"$bullet;|cFF2959D3|Hspell:439365|h[Spouting Stout]|h|r creates Brew Drops and inflicts moderate Fire damage to all players.
 $bullet;Brew Drops cause |cFF2959D3|Hspell:440104|h[Fill 'Er Up]|h|r  if they reach I'pa.",2587,3,28421,0,28424,3,0,0,0,0,0,2,-1
-28424,Healers,"$bullet;|cFF2959D3|Hspell:439202|h[Burning Fermentation]|h|r inflicts high Fire damage to afflicted players.
+28424,Healers,"$bullet;|cFF2959D3|Hspell:439202|h[Burning Fermentation]|h|r inflicts high Fire damage to afflicted players unless dispelled.
 $bullet;|cFF2959D3|Hspell:439365|h[Spouting Stout]|h|r creates Brew Drops and inflicts moderate Fire damage to all players.",2587,4,28421,0,0,3,0,0,0,0,0,4,-1
 28426,Section 7,,2587,5,0,29566,28918,2,0,0,439365,0,1,32,-1
 28427,Brew Drop,Brew Drops move towards I'pa upon forming.,2587,9,28426,30226,0,1,117828,0,0,0,3,2,0
@@ -23385,9 +23382,8 @@ On Mythic difficulty, Takazj launches an |cFF2959D3|Hspell:441775|h[Entropic Bar
 29734,Section 83,,2602,45,30139,29736,30140,2,0,0,464056,0,0,132,-1
 29735,Section 84,,2602,59,29635,0,29637,2,0,0,448176,0,2,8,0
 29736,Section 85,,2602,46,29734,0,30208,2,0,0,447983,0,0,0,-1
-29737,Section 24,,2571,11,27821,0,27824,2,0,0,447272,0,0,8192,-1
+29737,Section 24,,2571,11,27821,0,27824,2,0,0,1238779,0,0,0,-1
 29738,Section 25,,2571,15,27840,0,27828,2,0,0,448385,0,2,4096,0
-29739,Section 26,,2571,19,27828,0,0,2,0,0,427583,0,0,64,-1
 29740,Section 18,,2573,12,27935,0,0,2,0,0,425556,0,0,0,-1
 29744,Chamber Expeller,,2602,76,28756,29745,29945,1,119968,0,0,0,1,0,-1
 29745,Section 87,,2602,77,29744,0,30251,2,0,0,451600,0,1,0,-1
@@ -23989,7 +23985,7 @@ $bullet;Erudax afflicts multiple players with |cFF2959D3|Hspell:448057|h[Abyssal
 Afterwards, Big M.O.M.M.A. requisitions an additional squadron of drones with |cFF2959D3|Hspell:471585|h[Mobilize Mechadrones]|h|r.",2648,1,0,30944,30973,3,0,0,0,0,1,0,-1
 30320,Overview,"Keeza Quickfuse blasts players with |cFF2959D3|Hspell:460602|h[Quick Shot]|h|r and her |cFF2959D3|Hspell:473594|h[B.B.B.F.G.]|h|r while planting Ticking Time Bombs with |cFF2959D3|Hspell:460867|h[Big Bada BOOM!]|h|r.
 
-Bront |cFF2959D3|Hspell:459799|h[Wallops]|h|r his enemies and |cFF2959D3|Hspell:459779|h[Barrelling Charges]|h|r through anything in his path - Ticking Time Bombs included.",2649,1,0,30950,30321,3,0,0,0,0,0,0,-1
+Bront |cFF2959D3|Hspell:459799|h[Wallops]|h|r his enemies and |cFF2959D3|Hspell:459779|h[Barreling Charges]|h|r through anything in his path - Ticking Time Bombs included.",2649,1,0,30950,30321,3,0,0,0,0,0,0,-1
 30321,Keeza Quickfuse,,2649,5,0,30325,30322,1,123036,0,0,0,1,0,-1
 30322,Bront,,2649,12,0,30323,30975,1,122215,0,0,0,1,0,-1
 30323,Section 4,,2649,13,30322,0,30324,2,0,0,459779,0,1,32,-1
@@ -24456,7 +24452,7 @@ $bullet; Incoming damage can quickly become overwhelming during |cFF2959D3|Hspel
 30864,Section 31,,2645,89,30870,0,30867,2,0,0,463967,0,0,0,-1
 30865,Section 32,,2645,84,30517,31500,0,2,0,0,1215953,0,0,0,-1
 30867,Section 34,,2645,90,30870,0,31650,2,0,0,466385,0,0,0,-1
-30870,Mug'Zee,Mug'Zee joins forces as the Head Honcho and gains access to all of their abilities from Stage One.,2645,88,30510,30864,0,1,123263,0,0,0,1,0,-1
+30870,Mug'Zee,Mug'Zee joins forces as the Head Honcho and gains access to all of their abilities from Stage One.,2645,88,30510,30864,0,1,124110,0,0,0,1,0,-1
 30887,Burning Spirit,,2669,20,0,30889,0,2,0,0,464372,0,1,38,-1
 30889,Section 11,,2669,21,30887,0,30898,2,0,0,464998,0,0,4,-1
 30890,Section 13,,2669,9,0,30896,30984,2,0,0,470244,0,1,0,-1
@@ -24679,6 +24675,43 @@ On Heroic and Mythic difficulties,  Scrapbombs leaves behind a Molten Pool after
 31216,Section 75,,2646,134,30952,0,31547,2,0,0,1215209,0,1,0,-1
 31217,Section 15,,2336,10,19237,0,31208,2,0,0,282801,0,0,0,-1
 31219,Section 14,,2336,7,19238,0,19281,2,0,0,282943,0,0,0,-1
+31220,Overview,"Azhiccar bombards players with |cFF2959D3|Hspell:1217436|h[Toxic Regurgitation]|h|r and periodically calls forth an invasion of Frenzied Mites that |cFF2959D3|Hspell:1217381|h[Engorge]|h|r themselves on players.
+
+Upon reaching 100 energy, Azhiccar attempts to |cFF2959D3|Hspell:1217232|h[Devour]|h|r all players and creatures, healing and becoming stronger with every living creature consumed.",2675,1,0,31221,32688,3,0,0,0,0,0,0,-1
+31221,Tanks,"$bullet;|cFF2959D3|Hspell:1217327|h[Invading Shriek]|h|r calls forth Frenzied Mites that fixate on random players and fly between them wildly.
+$bullet;Azhiccar uses |cFF2959D3|Hspell:1217232|h[Devour]|h|r to draw in living players and Frenzied Mites and |cFF2959D3|Hspell:1217241|h[Feast]|h|r on them.
+$bullet;|cFF2959D3|Hspell:1217241|h[Feast]|h|r causes Azhiccar to heal and inflict increased damage for every player or creature consumed.",2675,2,31220,0,31222,3,0,0,0,0,0,1,-1
+31222,Damage Dealers,"$bullet;|cFF2959D3|Hspell:1217327|h[Invading Shriek]|h|r calls forth Frenzied Mites that fixate on random players and fly between them wildly.
+$bullet;Azhiccar uses |cFF2959D3|Hspell:1217232|h[Devour]|h|r to draw in living players and Frenzied Mites and |cFF2959D3|Hspell:1217241|h[Feast]|h|r on them.
+$bullet;|cFF2959D3|Hspell:1217241|h[Feast]|h|r causes Azhiccar to heal and inflict increased damage for every player or creature consumed.",2675,3,31220,0,31223,3,0,0,0,0,0,2,-1
+31223,Healers,"$bullet;|cFF2959D3|Hspell:1217436|h[Toxic Regurgitation]|h|r inflicts Shadow damage to afflicted players.
+$bullet;Azhiccar uses |cFF2959D3|Hspell:1217232|h[Devour]|h|r to draw in living players and Frenzied Mites and |cFF2959D3|Hspell:1217241|h[Feast]|h|r on them.
+$bullet;|cFF2959D3|Hspell:1217241|h[Feast]|h|r causes Azhiccar to heal and inflict increased damage for every player or creature consumed.",2675,4,31220,0,0,3,0,0,0,0,0,4,-1
+31224,Stage One: <PH>,"$[!8,23,
+
+On Mythic difficulty, Frenzied Mites are called when Devour begins.$]",2675,7,0,31378,31406,2,0,0,1217232,0,3,4128,0
+31227,Overview,"Taah'bat begins the encounter mounted on A'wazj, launching attacks  in a coordinated effort.
+
+Upon reaching 100 energy, Taah'bat dismounts A'wazj and begins |cFF2959D3|Hspell:1219700|h[Arcane Blitz]|h|r. Upon breaking all applications of |cFF2959D3|Hspell:1219457|h[Incorporeal]|h|r, both Taah'bat and A'wazj become |cFF2959D3|Hspell:1219731|h[Destabilized]|h|r and return to fight as one.",2676,1,0,31228,31232,3,0,0,0,0,0,0,-1
+31228,Tanks,"$bullet;Striking Taah'bat with |cFF2959D3|Hspell:1220384|h[Warp Strike]|h|r during |cFF2959D3|Hspell:1219700|h[Arcane Blitz]|h|r removes an application of |cFF2959D3|Hspell:1219457|h[Incorporeal]|h|r.
+$bullet;|cFF2959D3|Hspell:1219482|h[Rift Claws]|h|r inflicts high Arcane damage to the target and causes them to bleed.",2676,2,31227,0,31229,3,0,0,0,0,0,1,-1
+31229,Damage Dealers,"$bullet;Striking Taah'bat with |cFF2959D3|Hspell:1220384|h[Warp Strike]|h|r during |cFF2959D3|Hspell:1219700|h[Arcane Blitz]|h|r removes an application of |cFF2959D3|Hspell:1219457|h[Incorporeal]|h|r.
+$bullet;|cFF2959D3|Hspell:1219536|h[Binding Javelin]|h|r inflicts stacking damage to affected players until defeated.",2676,3,31227,0,31230,3,0,0,0,0,0,2,-1
+31230,Healers,"$bullet;Striking Taah'bat with |cFF2959D3|Hspell:1220384|h[Warp Strike]|h|r during |cFF2959D3|Hspell:1219700|h[Arcane Blitz]|h|r removes an application of |cFF2959D3|Hspell:1219457|h[Incorporeal]|h|r.
+$bullet;|cFF2959D3|Hspell:1220497|h[Arcane Overload]|h|r inflicts Arcane damage to all players.
+$bullet;|cFF2959D3|Hspell:1219536|h[Binding Javelin]|h|r inflicts stacking damage to affected players until defeated.",2676,4,31227,0,0,3,0,0,0,0,0,4,-1
+31231,Taah'bat,,2676,7,31584,31551,31585,1,123825,0,0,0,0,0,-1
+31232,Section 7,,2676,5,0,0,31584,2,0,0,1219417,0,0,2,-1
+31234,Overview,"Soul-Scribe uses |cFF2959D3|Hspell:1224793|h[Whispers of Fate]|h|r to create echoes of players' Fates. Soul-Scribe casts |cFF2959D3|Hspell:1225162|h[Ceremonial Dagger]|h|r and |cFF2959D3|Hspell:1225218|h[Dread of the Unknown]|h|r in an attempt to harm the Fates.  
+
+Upon reaching 100 energy, Soul-Scribe casts |cFF2959D3|Hspell:1236703|h[Eternal Weave]|h|r.",2677,1,0,31235,31238,3,0,0,0,0,0,0,-1
+31235,Tanks,"$bullet;When a player's Fate is struck by Soul-Scribe's abilities the player bound to that Fate is afflicted with |cFF2959D3|Hspell:1226444|h[Wounded Fate]|h|r.
+$bullet;|cFF2959D3|Hspell:1225218|h[Dread of the Unknown]|h|r inflicts heavy Arcane damage to players and Fates within the detonation.",2677,2,31234,0,31236,3,0,0,0,0,0,1,-1
+31236,Damage Dealers,"$bullet;When a player's Fate is struck by Soul-Scribe's abilities the player bound to that Fate is afflicted with |cFF2959D3|Hspell:1226444|h[Wounded Fate]|h|r.
+$bullet;|cFF2959D3|Hspell:1225218|h[Dread of the Unknown]|h|r inflicts heavy Arcane damage to players and Fates within the detonation.",2677,3,31234,0,31237,3,0,0,0,0,0,2,-1
+31237,Healers,"$bullet;When a player's Fate is struck by Soul-Scribe's abilities the player bound to that Fate is afflicted with |cFF2959D3|Hspell:1226444|h[Wounded Fate]|h|r.
+$bullet;|cFF2959D3|Hspell:1225218|h[Dread of the Unknown]|h|r inflicts heavy Arcane damage to players and Fates within the detonation.",2677,4,31234,0,0,3,0,0,0,0,0,4,-1
+31238,Stage One: <PH>,,2677,5,0,32012,33662,2,0,0,1224793,0,1,32,-1
 31251,Section 15,,2649,8,30325,0,0,2,0,0,472755,0,0,0,-1
 31252,Section 25,"$[!16
 
@@ -24741,6 +24774,7 @@ $bullet; The Monstrosity irradiates all players with |cFF2959D3|Hspell:423393|h[
 31375,Section 16,,2648,10,31374,0,31376,2,0,0,460393,0,0,0,-1
 31376,Section 9,,2648,11,31374,0,0,2,0,0,472452,0,0,0,-1
 31377,Section 9,,2648,9,31374,0,31375,2,0,0,1214780,0,3,4160,0
+31378,Section 6,,2675,8,31224,0,0,2,0,0,1217241,0,0,16,-1
 31379,Section 29,"$[!15,16
 
 In Heroic and Mythic difficulties, the electricity lingers, increasing the damage taken from Lingering Voltage by $1217122s2% for $1217122d. This effect stacks.$]",2641,10,31087,0,31721,2,0,0,1217120,0,2,8,0
@@ -24756,6 +24790,11 @@ In Heroic and Mythic difficulties, the electricity lingers, increasing the damag
 31395,Section 10,,2646,42,30565,31396,30570,2,0,0,466165,0,2,9,0
 31396,Section 91,,2646,43,31395,31397,0,2,0,0,466246,0,1,0,-1
 31397,Section 90,,2646,44,31396,0,0,2,0,0,1217292,0,1,0,-1
+31406,Section 7,,2675,9,0,31407,31409,2,0,0,1217327,0,0,0,-1
+31407,Frenzied Mite,,2675,10,31406,32482,0,1,97762,0,0,0,0,2,-1
+31408,Section 9,,2675,12,31407,0,0,2,0,0,1217381,0,0,0,-1
+31409,Section 10,,2675,13,0,31410,31434,2,0,0,1217436,0,0,4,-1
+31410,Section 11,,2675,14,31409,0,0,2,0,0,1217446,0,0,0,-1
 31412,Section 9,"$[!16
 
 In Mythic difficulty, Faulty Zap causes a Static Jolt when afflicted players collide.$]",2641,23,31656,31413,30592,2,0,0,466961,0,2,4096,0
@@ -24773,6 +24812,7 @@ $bullet;Avoid the damage from |cFF2959D3|Hspell:256137|h[Timed Detonation]|h|r b
 31430,Section 40,,2653,14,31725,0,0,2,0,0,1215858,0,1,0,-1
 31432,Coin-Operated Crowd Pummeler,,2109,8,0,17103,31433,1,80443,0,0,0,0,0,-1
 31433,Footbomb Hooligan,,2109,17,0,18435,0,1,85829,0,0,0,0,0,-1
+31434,Section 12,,2675,15,0,0,0,2,0,0,1217664,0,0,0,-1
 31438,Section 29,,2642,33,0,0,30588,2,0,0,1217954,0,2,9,0
 31439,Section 30,,2642,12,30603,0,30604,2,0,0,1217975,0,1,0,-1
 31440,Section 31,,2642,8,30447,0,30448,2,0,0,1217685,0,1,2,-1
@@ -24844,6 +24884,7 @@ On this difficulty, Canister Detonation effects all players.$]",2646,125,31478,0
 31548,Section 137,,2646,110,31173,0,31543,2,0,0,1219319,0,3,8,0
 31549,Section 136,,2646,93,31465,0,0,2,0,0,1219333,0,1,0,-1
 31550,Section 135,,2646,137,30614,0,0,2,0,0,1219333,0,1,0,-1
+31551,Section 8,,2676,8,31231,31591,31587,2,0,0,1219457,0,0,0,-1
 31555,Tanks,"$bullet;Defeated Geargrinder Bikers surrender their bikes, allowing for |cFF2959D3|Hspell:459453|h[Blaze of Glory]|h|r.
 $bullet;Vexie's |cFF2959D3|Hspell:460116|h[Tune-Up]|h|r and Pit Mechanics' |cFF2959D3|Hspell:460153|h[Repair]|h|r the Geargrinder's |cFF2959D3|Hspell:466615|h[Protective Plating]|h|r.",2639,2,30089,0,30090,3,0,0,0,0,2,1,0
 31556,Section 35,,2639,10,30778,30118,30122,2,0,0,459943,0,0,0,-1
@@ -24854,9 +24895,38 @@ $bullet;Vexie's |cFF2959D3|Hspell:460116|h[Tune-Up]|h|r and Pit Mechanics' |cFF2
 31561,Section 137,,2646,69,31558,0,31562,2,0,0,1219319,0,3,8,0
 31562,Section 136,,2646,70,31558,0,31563,2,0,0,1219278,0,3,4128,0
 31563,Section 77,,2646,71,31558,0,0,2,0,0,1214369,0,0,96,-1
+31569,Overview,"The Nexus-King readies his mace to |cFF2959D3|Hspell:1224787|h[Conquer]|h|r armies as images of the Royal Voidwing |cFF2959D3|Hspell:1225010|h[Behead]|h|r and |cFF2959D3|Hspell:1225016|h[Besiege]|h|r insurgents at his command. Those who lack zeal are destined for servitude when Salhadaar |cFF2959D3|Hspell:1224906|h[Invokes the Oath]|h|r.
+
+By regal edict, |cFF2959D3|Hspell:1224764|h[Oath-Breakers]|h|r are devoured between cosmic jaws and razed to atoms by the Royal Voidwing's |cFF2959D3|Hspell:1228163|h[Dimension Breath]|h|r. Salhadaar governs the battle from atop his steed, rallying elite Shadowguard reinforcements.
+
+When |cFF2959D3|Hspell:1228265|h[King's Hunger]|h|r takes reign, Salhadaar's loyal drake is called upon for ultimate sacrifice. Violet skies blacken and galaxies of |cFF2959D3|Hspell:1248137|h[Dark Stars]|h|r form at the strike of a gavel as the Nexus-King plunges the world into twilight.",2690,1,0,31570,31573,3,0,0,0,0,0,0,-1
+31570,Tanks,"$bullet;Salhadaar executes a combination of deadly attacks during |cFF2959D3|Hspell:1224776|h[Subjugation Rule]|h|r.
+$bullet;|cFF2959D3|Hspell:1234529|h[Cosmic Maw]|h|r increases damage taken by |cFF2959D3|Hspell:1228163|h[Dimension Breath]|h|r.
+$bullet;Salhadaar's primary targets of |cFF2959D3|Hspell:1225319|h[Galactic Smash]|h|r and |cFF2959D3|Hspell:1226024|h[Starkiller Swing]|h|r are |cFF2959D3|Hspell:1226417|h[Starshattered]|h|r.",2690,2,31569,0,32623,3,0,0,0,0,0,1,-1
+31572,Healers,"$bullet;|cFF2959D3|Hspell:1224737|h[Oath-Bound]|h|r players are vulnerable to conversion into |cFF2959D3|Hspell:1224767|h[King's Thrall]|h|r.
+$bullet;|cFF2959D3|Hspell:1227529|h[Banishment]|h|r, |cFF2959D3|Hspell:1228053|h[Reap]|h|r, and |cFF2959D3|Hspell:1226362|h[Twilight Scar]|h|r inflict heavy damage over time to affected players.
+$bullet;|cFF2959D3|Hspell:1226024|h[Starkiller Swing]|h|r erupts in a |cFF2959D3|Hspell:1226042|h[Starkiller Nova]|h|r unless consumed by a |cFF2959D3|Hspell:1248137|h[Dark Star]|h|r.",2690,4,31569,0,0,3,0,0,0,0,0,4,-1
+31573,Stage One: Oath-Breakers,Salhadaar forces players under oath and tests their will against the void.,2690,5,0,32227,31574,0,0,0,0,0,1,0,-1
+31574,Stage Two: Rider of the Dark,Salhadaar orders the draconic images to converge back into one as he takes his rightful seat atop the Royal Voidwing.,2690,27,0,32268,32631,0,0,0,0,0,0,0,-1
+31575,Stage Three: World in Twilight,Salhadaar stands alone as the final champion of the Void Lord's return.,2690,71,0,32034,0,0,0,0,0,0,0,0,-1
+31576,Section 8,,2676,16,0,0,31590,2,0,0,1220386,0,2,4,0
 31577,Section 145,,2646,24,31609,0,0,2,0,0,1220290,0,3,1,0
 31578,Section 144,,2646,51,31610,0,0,2,0,0,1220290,0,3,1,0
+31584,Arcane Blitz,,2676,6,0,31231,33679,2,0,0,1219700,0,1,32,-1
+31585,A'wazj,,2676,11,31584,31586,0,1,100010,0,0,0,0,0,-1
+31586,Section 8,,2676,12,31585,0,0,2,0,0,1227137,0,0,4,-1
+31587,Section 13,,2676,10,31231,0,0,2,0,0,1220497,0,0,4,-1
+31590,Section 14,,2676,17,0,0,0,2,0,0,1219482,0,0,1,-1
+31591,Section 15,,2676,9,31551,0,0,2,0,0,1219731,0,0,0,-1
+31592,Section 16,"$[!8,23,
+
+On Mythic difficulty, A'wazj targets an additional target for Binding Javelin.$]",2676,14,0,0,32724,2,0,0,1219536,0,2,4098,0
 31593,Section 35,,2642,23,31645,0,0,2,0,0,1220752,0,2,4112,0
+31594,Overview,"The |cFF2959D3|Hspell:1217649|h[Arcanomatrix Atomizer]|h|r will |cFF2959D3|Hspell:1219223|h[Atomize]|h|r all beings not made of energy who come into contact with it.
+
+The Plexus Sentinel will continue to gain energy while attacking players with |cFF2959D3|Hspell:1219263|h[Obliteration Arcanocannon]|h|r and |cFF2959D3|Hspell:1219532|h[Eradicating Salvo]|h|r
+
+Upon reaching 100 Energy, the Plexus Sentinel begins channelling |cFF2959D3|Hspell:1220489|h[Protocol: Purge]|h|r as it activates the |cFF2959D3|Hspell:1217649|h[Arcanomatrix Atomizer]|h|r",2684,1,0,31981,31625,3,0,0,0,0,0,0,-1
 31595,Superheated Coil,,2644,10,30181,31078,0,1,91149,0,0,0,1,0,-1
 31596,Dynamite-Laden Coil,,2644,14,30182,30419,0,1,91149,0,0,0,1,0,-1
 31598,Section 50,"$[!15,16
@@ -24887,6 +24957,23 @@ In Heroic and Mythic difficulty, the Dynamite Booty explosion additionally infli
 31619,Section 153,,2646,31,31214,0,0,2,0,0,1220846,0,0,0,-1
 31620,Section 154,,2646,89,31463,0,0,2,0,0,1220846,0,0,0,-1
 31621,Section 155,,2646,133,30967,0,0,2,0,0,1220846,0,0,0,-1
+31622,Arcane Sieve,,2684,6,0,31623,32407,2,0,0,1217649,0,1,16,-1
+31623,Section 14,,2684,7,31622,0,31624,2,0,0,1219223,0,1,16,-1
+31624,Section 15,,2684,8,31622,0,0,2,0,0,1219248,0,0,0,-1
+31625,Phase Diving,,2684,5,0,0,31622,2,0,0,1218148,0,1,32,-1
+31626,Stage One: Purge The Intruders,,2684,10,0,33705,31634,0,0,0,0,0,1,0,-1
+31627,Detonating Surge [PH],,2684,18,31626,31628,31633,2,0,0,1219263,0,0,1,-1
+31628,Area Denial,,2684,19,31627,0,0,2,0,0,1219354,0,0,0,-1
+31629,Overload [PH],,2684,15,31626,31630,31627,2,0,0,1219450,0,0,0,-1
+31630,Expulsion Zone,,2684,16,31629,31984,0,2,0,0,1218626,0,0,0,-1
+31631,Arcane Purge [PH],"$[!16
+
+On Mythic difficulty, if $@spellname1219611 fails to hit at least 5 players, it instead inflicts $1241142s1 Arcane damage to all players.$]",2684,12,31626,0,32370,2,0,0,1219532,0,2,32,0
+31633,Charged Lightning,,2684,20,31626,0,0,2,0,0,1223364,0,0,4,-1
+31634,Stage Two: The Sieve Awakens,,2684,21,0,31635,0,0,0,0,0,0,1,0,-1
+31635,Section 10,,2684,22,31634,31636,0,2,0,0,1220489,0,0,34,-1
+31636,Section 12,,2684,23,31635,0,32682,2,0,0,1218669,0,0,0,-1
+31637,Section 13,,2684,25,31635,0,32680,2,0,0,1219471,0,0,0,-1
 31643,Section 12,,2683,7,31351,0,31352,2,0,0,1220894,0,0,0,-1
 31644,Section 28,,2642,37,30588,0,31086,2,0,0,473227,0,2,0,0
 31645,Scrapmaster,,2642,20,30533,31646,31648,1,123064,0,0,0,0,0,-1
@@ -25012,8 +25099,32 @@ $bullet;|cFF2959D3|Hspell:473052|h[Rushing Tides]|h|r inflict damage and sweep a
 31784,Healers,"$bullet;|cFF2959D3|Hspell:473112|h[Mudslide]|h|r  inflicts heavy damage in a massive line.
 $bullet;|cFF2959D3|Hspell:473052|h[Rushing Tides]|h|r inflict damage and sweep away players caught inside.",2650,5,31366,0,31369,3,0,0,0,0,2,4,3
 31785,Section 35,,2641,27,31154,0,31155,2,0,0,472294,0,2,16,0
+31786,Overview,"Adarus tears open a rift to the void and brands players with |cFF2959D3|Hspell:1222232|h[Devourer's Ire]|h|r. Adarus will focus his assault on the players bearing this mark.
+
+Velaryn singes any who stand in her path with |cFF2959D3|Hspell:1218103|h[Eye Beam]|h|r and lunges towards her prey with |cFF2959D3|Hspell:1227809|h[The Hunt]|h|r.
+
+Ilyssa cleaves her target's essence with |cFF2959D3|Hspell:1241833|h[Fracture]|h|r and feasts on their rended soul with |cFF2959D3|Hspell:1242259|h[Spirit Bomb]|h|r.
+
+Upon reaching 100 Fury, the Demon Hunters unleash their true power and enter |cFF2959D3|Hspell:1228381|h[Metamorphosis]|h|r.",2688,1,0,31787,32567,3,0,0,0,0,0,0,-1
+31787,Tanks,"$bullet;|cFF2959D3|Hspell:1218103|h[Eye Beam]|h|r singes Velaryn's current target with |cFF2959D3|Hspell:1221490|h[Fel-Singed]|h|r and blasts them away.
+$bullet;|cFF2959D3|Hspell:1241833|h[Fracture]|h|r cleaves their target's soul into fragments which Ilyssa will attempt to consume with |cFF2959D3|Hspell:1242259|h[Spirit Bomb]|h|r.
+$bullet;Adarus will |cFF2959D3|Hspell:1227355|h[Voidstep]|h|r to new locations, summoning images which slice open the fabric of the void with |cFF2959D3|Hspell:1227685|h[Hungering Slash]|h|r and leave behind |cFF2959D3|Hspell:1235045|h[Encroaching Oblivion]|h|r.",2688,2,31786,0,31788,3,0,0,0,0,0,1,-1
+31788,Damage Dealers,"$bullet;Adarus continually casts |cFF2959D3|Hspell:1234565|h[Consume]|h|r at the players bearing |cFF2959D3|Hspell:1222232|h[Devourer's Ire]|h|r.
+$bullet;|cFF2959D3|Hspell:1241833|h[Fracture]|h|r cleaves their target's soul into fragments which Ilyssa will attempt to consume with |cFF2959D3|Hspell:1242259|h[Spirit Bomb]|h|r.
+$bullet;Adarus will |cFF2959D3|Hspell:1227355|h[Voidstep]|h|r to new locations, summoning images which slice open the fabric of the void with |cFF2959D3|Hspell:1227685|h[Hungering Slash]|h|r and leave behind |cFF2959D3|Hspell:1235045|h[Encroaching Oblivion]|h|r.",2688,3,31786,0,31789,3,0,0,0,0,0,2,-1
+31789,Healers,"$bullet;Adarus continually casts |cFF2959D3|Hspell:1234565|h[Consume]|h|r at the players bearing |cFF2959D3|Hspell:1222232|h[Devourer's Ire]|h|r.
+$bullet;|cFF2959D3|Hspell:1241833|h[Fracture]|h|r cleaves their target's soul into fragments which Ilyssa will attempt to consume with |cFF2959D3|Hspell:1242259|h[Spirit Bomb]|h|r.
+$bullet;Adarus will |cFF2959D3|Hspell:1227355|h[Voidstep]|h|r to new locations, summoning images which slice open the fabric of the void with |cFF2959D3|Hspell:1227685|h[Hungering Slash]|h|r and leave behind |cFF2959D3|Hspell:1235045|h[Encroaching Oblivion]|h|r.",2688,4,31786,0,0,3,0,0,0,0,0,4,-1
+31791,Ilyssa Darksorrow,,2688,28,32567,31927,33555,1,127563,0,0,0,0,0,-1
+31792,Velaryn Bloodwrath,,2688,15,32567,33099,31791,1,127558,0,0,0,0,0,-1
+31793,Section 8,"$[!16
+
+In Mythic difficulty, |cFF2959D3|Hspell:1221490|h[Fel-Singed]|h|r also increases the damage taken from |cFF2959D3|Hspell:1225127|h[Felblade]|h|r.$]",2688,24,31792,31794,33418,2,0,0,1218103,0,2,4097,0
+31794,Section 9,,2688,25,31793,0,32361,2,0,0,1221490,0,2,4096,0
 31822,Section 27,,2640,14,31188,31823,0,2,0,0,1214039,0,2,0,0
 31823,Section 22,,2640,15,31822,0,0,2,0,0,465446,0,2,0,0
+31927,Section 10,,2688,29,31791,32205,31928,2,0,0,1241833,0,0,33,-1
+31928,Section 11,,2688,32,31791,33095,32959,2,0,0,1242259,0,0,0,-1
 31955,Tanks,"$bullet;|cFF2959D3|Hspell:466190|h[Thunder Punch]|h|r inflicts massive damage and knocks the target back.
 $bullet;|cFF2959D3|Hspell:465279|h[Dam Water]|h|r electrifies upon contact with Geezle's lightning abilities.
 $bullet;|cFF2959D3|Hspell:468846|h[Leaping Sparks]|h|r pursue players and stun them upon contact.",2651,2,30480,0,31956,3,0,0,0,0,0,1,-1
@@ -25050,10 +25161,49 @@ On Heroic and Mythic difficulties, the player triggering the Unstable Crawler Mi
 31978,Section 66,,2644,38,30102,0,0,2,0,0,474731,0,0,0,-1
 31979,The Big Hit,,2644,64,30086,31980,30112,2,0,0,460472,0,2,1,0
 31980,Section 33,,2644,65,31979,0,0,2,0,0,460474,0,0,0,-1
+31981,Damage Dealers,"$bullet; |cFF2959D3|Hspell:1219450|h[Mainfest Matrices]|h|r leaves behind a |cFF2959D3|Hspell:1218625|h[Displacement Matrix]|h|r.
+
+$bullet; |cFF2959D3|Hspell:1233110|h[Purging Lightning]|h|r inflicts increasing damage while the Plexus Sentinel's shield holds.
+
+$bullet; The Reshii Wraps allow|cFF2959D3|Hspell:1218148|h[Phase Blinking]|h|r reducing the damage taken from |cFF2959D3|Hspell:1219223|h[Atomize]|h|r",2684,2,31594,0,31982,3,0,0,0,0,0,2,-1
+31982,Healers,"$bullet; The Plexus Sentinel inflicts increasing damage with |cFF2959D3|Hspell:1233110|h[Purging Lightning]|h|r during |cFF2959D3|Hspell:1220489|h[Protocol: Purge]|h|r.
+
+$bullet; |cFF2959D3|Hspell:1219607|h[Eradication Salvo]|h|r inflicts heavy damage to players hit by it.
+
+$bullet; The Reshii Wraps allow|cFF2959D3|Hspell:1218148|h[Phase Blinking]|h|r reducing the damage taken from |cFF2959D3|Hspell:1219223|h[Atomize]|h|r",2684,3,31594,0,31983,3,0,0,0,0,0,4,-1
+31983,Tanks,"$bullet; |cFF2959D3|Hspell:1219263|h[Obliteration Arcanocannon]|h|r inflicts heavy damage to players near the impact.
+
+$bullet; The Reshii Wraps allow|cFF2959D3|Hspell:1218148|h[Phase Blinking]|h|r reducing the damage taken from |cFF2959D3|Hspell:1219223|h[Atomize]|h|r",2684,4,31594,0,0,3,0,0,0,0,0,1,-1
+31984,Section 26,,2684,17,31630,0,0,2,0,0,1219354,0,0,0,-1
 31987,Section 161,,2646,57,31483,0,0,2,0,0,469404,0,0,0,-1
 31988,Section 160,,2646,104,31473,0,0,2,0,0,469404,0,0,0,-1
 31989,Section 159,,2646,149,31537,0,0,2,0,0,469404,0,0,0,-1
 32007,Section 29,,2641,9,31087,0,31379,2,0,0,1217120,0,2,0,0
+32008,Section 9,"$[!15,16
+On Heroic difficulty, attacks that would otherwise kill the player instead convert them into King's Thrall.$]",2690,11,32227,32009,32273,2,0,0,1224731,0,2,40,0
+32009,Section 10,,2690,12,32008,0,32010,2,0,0,1224767,0,0,0,-1
+32010,Section 11,,2690,13,32008,0,32020,2,0,0,1224764,0,0,0,-1
+32011,Intermission Two: King's Hunger,Salhadaar consumes the energy of the Royal Voidwing to revitalize and empower himself.,2690,64,0,32270,31575,0,0,0,0,0,0,0,-1
+32012,Section 6,,2677,6,31238,0,0,2,0,0,1224865,0,0,0,-1
+32014,Section 12,,2690,16,32227,32015,32932,2,0,0,1224776,0,0,1,-1
+32015,Section 13,,2690,17,32014,0,32016,2,0,0,1224787,0,0,32,-1
+32016,Section 14,,2690,18,32014,0,0,2,0,0,1224812,0,0,0,-1
+32020,Section 15,,2690,14,32008,0,0,2,0,0,1224906,0,0,0,-1
+32021,Section 16,,2690,88,31575,0,0,2,0,0,1224822,0,0,4,-1
+32022,Section 8,,2677,13,0,32620,33034,2,0,0,1225162,0,0,0,-1
+32023,Section 9,,2677,11,0,32619,32022,2,0,0,1225218,0,0,0,-1
+32032,Section 10,"$[!8,23,
+
+On Mythic difficulty, Soul-Scribe casts Splinters of Fate prior to casting Eternal Weave.$]",2677,9,0,32723,32023,2,0,0,1236703,0,2,4096,0
+32034,Section 22,,2690,72,31575,32035,32150,2,0,0,1226648,0,0,0,-1
+32035,Section 20,,2690,73,32034,32211,32152,2,0,0,1248137,0,0,32,-1
+32036,Section 21,,2690,78,32035,0,33473,2,0,0,1226879,0,2,4112,0
+32041,Section 23,,2690,75,32035,0,32687,2,0,0,1225645,0,0,0,-1
+32043,Section 7,,2685,5,0,32979,32049,2,0,0,1225582,0,1,32,-1
+32044,Shadowguard Assassin,,2685,7,32043,33144,32710,1,117474,0,0,0,0,0,-1
+32045,Shadowguard Phaseblade,,2685,12,32043,33037,33393,1,129634,0,0,0,0,0,-1
+32048,Section 4,,2685,21,33703,0,0,2,0,0,1242086,0,2,4096,0
+32049,Section 5,,2685,16,0,0,33394,2,0,0,1227276,0,0,16,-1
 32057,Section 133,,2645,119,31694,0,0,2,0,0,1219283,0,0,0,-1
 32058,Section 132,,2645,123,31967,0,0,2,0,0,1219283,0,0,0,-1
 32059,Section 131,,2645,127,31752,0,0,2,0,0,1219283,0,0,0,-1
@@ -25129,7 +25279,518 @@ On Mythic difficulty, MK II Electro Shockers gain Electro-Charged Shield until h
 32117,Section 30,,2645,79,31693,32118,0,2,0,0,469490,0,0,1,-1
 32118,Section 56,,2645,80,32117,0,32119,2,0,0,469391,0,0,0,-1
 32119,Section 57,,2645,81,32117,0,0,2,0,0,469375,0,0,0,-1
+32121,Damage Dealers,"$bullet; Players knocked back by |cFF2959D3|Hspell:1220394|h[Shattering Backhand]|h|r will shatter |cFF2959D3|Hspell:1226089|h[Crystal Nexuses]|h|r they hit in to.
+$bullet; |cFF2959D3|Hspell:1224414|h[Crystalline Shockwave]|h|r places a |cFF2959D3|Hspell:1226089|h[Crystal Nexuses]|h|r extending the |cFF2959D3|Hspell:1233657|h[Nether Prism's]|h|r energy towards Fractillus.",2747,2,33678,0,32122,3,0,0,0,0,0,2,-1
+32122,Healers,"$bullet; Players knocked back by |cFF2959D3|Hspell:1220394|h[Shattering Backhand]|h|r will shatter |cFF2959D3|Hspell:1226089|h[Crystal Nexuses]|h|r they hit in to.
+$bullet; |cFF2959D3|Hspell:1224414|h[Crystalline Shockwave]|h|r places a |cFF2959D3|Hspell:1226089|h[Crystal Nexuses]|h|r extending the |cFF2959D3|Hspell:1233657|h[Nether Prism's]|h|r energy towards Fractillus.",2747,3,33678,0,32123,3,0,0,0,0,0,4,-1
+32123,Tanks,"$bullet; Players knocked back by |cFF2959D3|Hspell:1220394|h[Shattering Backhand]|h|r will shatter |cFF2959D3|Hspell:1226089|h[Crystal Nexuses]|h|r they hit in to.
+$bullet; |cFF2959D3|Hspell:1224414|h[Crystalline Shockwave]|h|r places a |cFF2959D3|Hspell:1226089|h[Crystal Nexuses]|h|r extending the |cFF2959D3|Hspell:1233657|h[Nether Prism's]|h|r energy towards Fractillus.",2747,4,33678,0,0,3,0,0,0,0,0,1,-1
+32126,Section 8,,2747,21,32483,0,0,2,0,0,1224414,0,1,0,-1
+32131,Section 12,,2747,17,0,0,32279,2,0,0,1220394,0,0,32,-1
+32136,Section 15,,2685,9,32044,0,0,2,0,0,1227048,0,2,4096,0
+32137,Section 16,,2685,14,32045,0,0,2,0,0,1235576,0,0,2,-1
+32150,Section 24,,2690,83,31575,32153,33558,2,0,0,1226347,0,0,0,-1
+32152,Section 28,,2690,81,32034,0,32161,2,0,0,1226362,0,0,4,-1
+32153,Section 26,,2690,84,32150,0,32155,2,0,0,1226042,0,0,0,-1
+32155,Section 28,,2690,85,32150,0,32162,2,0,0,1226362,0,0,4,-1
+32161,Section 31,,2690,82,32034,0,0,2,0,0,1226417,0,0,1,-1
+32162,Section 32,,2690,86,32150,0,0,2,0,0,1226417,0,0,1,-1
+32198,Overview,"Reshanor's throat surges with dark, twisted energy, unleashing |cFF2959D3|Hspell:1237893|h[Veilshatter Roars]|h|r and |cFF2959D3|Hspell:1237905|h[Twilight Breaths]|h|r. His unstable presence conjures a raging |cFF2959D3|Hspell:1226380|h[Voidstorm]|h|r.
+
+When his energy wanes, Reshanor retreats into Untethered Space to feed on arcane forces - tearing open reality and allowing void creatures to spill forth.",2762,1,0,32199,32941,3,0,0,0,0,0,0,-1
+32199,Healers,"$bullet;|cFF2959D3|Hspell:1237893|h[Veilshatter Roar]|h|r inflicts heavy damage to all players and interrupts those casting.
+$bullet;|cFF2959D3|Hspell:1243941|h[Erratic Rifts]|h|r allow players to follow Reshanor into Untethered Space.
+$bullet; Players with high stacks of |cFF2959D3|Hspell:1237906|h[Void Corruption]|h|r require significant healing.",2762,2,32198,0,32200,3,0,0,0,0,0,4,-1
+32200,Tanks,"$bullet;|cFF2959D3|Hspell:1237893|h[Veilshatter Roar]|h|r inflicts heavy damage to all players and interrupts those casting.
+$bullet;|cFF2959D3|Hspell:1243941|h[Erratic Rifts]|h|r allow players to follow Reshanor into Untethered Space.
+$bullet; Void creatures are called during |cFF2959D3|Hspell:1237288|h[Untethered Retreat]|h|r.",2762,3,32198,0,32201,3,0,0,0,0,0,1,-1
+32201,Damage Dealers,"$bullet;|cFF2959D3|Hspell:1237893|h[Veilshatter Roar]|h|r inflicts heavy damage to all players and interrupts those casting.
+$bullet;|cFF2959D3|Hspell:1243941|h[Erratic Rifts]|h|r allow players to follow Reshanor into Untethered Space.
+$bullet; Void creatures are called during |cFF2959D3|Hspell:1237288|h[Untethered Retreat]|h|r.",2762,4,32198,0,0,3,0,0,0,0,0,2,-1
+32202,,,2762,17,0,32203,0,2,0,0,1226380,0,0,0,-1
+32203,Section 6,,2762,18,32202,0,32204,2,0,0,1226398,0,0,0,-1
+32204,Section 7,,2762,19,32202,0,0,2,0,0,1226441,0,0,0,-1
+32205,Section 30,,2688,30,31927,0,33035,2,0,0,1226493,0,0,0,-1
+32207,Section 29,"$[!16
+On Mythic difficulty, the violent consumption of a Starkiller Nova causes the Dark Star to reverse orbit.$]",2690,77,32035,0,32036,2,0,0,1226384,0,2,4096,0
+32208,Section 16,,2690,20,32227,0,0,2,0,0,1224822,0,0,4,-1
+32210,Section 16,,2690,31,32268,0,0,2,0,0,1224822,0,0,4,-1
+32211,Section 21,,2690,74,32035,0,32041,2,0,0,1225444,0,0,16,-1
+32216,Section 17,"$[!16
+
+On Mythic difficulties, The |cFF2959D3|Hspell:1226827|h[Soulrend Orbs]|h|r can break the |cFF2959D3|Hspell:1246530|h[Silk Shield]|h|r. $]",2685,22,0,33146,32217,2,0,0,1225616,0,0,0,-1
+32217,Section 18,,2685,24,0,0,32759,2,0,0,1240754,0,0,4,-1
+32218,Overview,"Soulbinder Naazindhri activates the Binding Chambers throughout the room in order to create waves of Shadowguard. The destructive power of |cFF2959D3|Hspell:1227276|h[Soulfray Annihilation]|h|r can obliterate her enemies, but may disrupt her chambers' work if caught in its path.",2685,1,0,32219,32043,3,0,0,0,0,0,0,-1
+32219,Tank,"$bullet;|cFF2959D3|Hspell:1241100|h[Mystic Lash]|h|r inflicts significant damage to primary target and increases the damage they take.
+$bullet;After completing|cFF2959D3|Hspell:1239988|h[Soulweave Chrysalis]|h|r the Unbound Soul is transformed into a more dangerous Ethereal.",2685,2,32218,0,32220,3,0,0,0,0,0,1,-1
+32220,Damage Dealers,"$bullet;|cFF2959D3|Hspell:1227276|h[Soulfray Annihilation]|h|r can destroy all it touches, whether players or Binding Machines.
+$bullet;|cFF2959D3|Hspell:1225616|h[Soulfire Convergence]|h|r causes the |cFF2959D3|Hspell:1226827|h[Soulrend Orb ]|h|r to be violently expelled from the target player's body. If it strikes another player, it inflicts negative effects upon them.",2685,3,32218,0,32221,3,0,0,0,0,0,2,-1
+32221,Healer,"$bullet;|cFF2959D3|Hspell:1227048|h[Soulfray Annihilation]|h|r can destroy all it touches, whether players or Binding Machines.
+$bullet;|cFF2959D3|Hspell:1241100|h[Mystic Lash]|h|r inflicts significant damage to primary target, and increase the damage they take.
+$bullet;The Binding Chamber causes |cFF2959D3|Hspell:1227848|h[Essence Implosion]|h|r while it is broken or opened, inflicting massive damage to all players.",2685,4,32218,0,0,3,0,0,0,0,0,4,-1
+32226,Section 37,,2690,26,32228,0,0,2,0,0,1227330,0,0,0,-1
+32227,Nexus-King Salhadaar,,2690,6,31573,33463,32228,1,125691,0,0,0,1,0,-1
+32228,The Royal Voidwing,,2690,21,31573,32229,0,1,126889,0,0,0,1,0,-1
+32229,Section 40,,2690,22,32228,33462,32230,2,0,0,1225099,0,0,0,-1
+32230,Section 37,,2690,24,32228,32485,32226,2,0,0,1224827,0,0,0,-1
+32268,Nexus-King Salhadaar,,2690,28,31574,32294,32272,1,125691,0,0,0,1,0,-1
+32269,The Royal Voidwing,,2690,69,32011,32333,0,1,126889,0,0,0,1,0,-1
+32270,Nexus-King Salhadaar,,2690,65,32011,32332,32269,1,125691,0,0,0,1,0,-1
+32271,Section 16,,2690,68,32270,0,0,2,0,0,1224822,0,0,4,-1
+32272,The Royal Voidwing,,2690,32,31574,33466,0,1,126889,0,0,0,1,0,-1
+32273,Section 46,,2690,15,32227,0,32014,2,0,0,1238975,0,2,4096,0
+32279,Section 18,,2747,18,0,32280,32483,2,0,0,1227373,0,0,32,-1
+32280,Section 19,,2747,19,32279,0,0,2,0,0,1227378,0,0,32,-1
+32283,Section 1,"Loom'ithar traps enemies within its chamber with |cFF2959D3|Hspell:1237272|h[Lair Weaving]|h|r and unleashes infused arcane energy with |cFF2959D3|Hspell:1226395|h[Overinfusion Burst]|h|r. 
+
+Upon reaching 50% health, Loom'ithar tears itself in two and attacks players directly with |cFF2959D3|Hspell:1227227|h[Writhing Wave]|h|r.",2686,1,0,32284,32296,3,0,0,0,0,0,0,-1
+32284,Tank,"$bullet;|cFF2959D3|Hspell:1227263|h[Piercing Strand]|h|r causes all targets hit to take increased damage from it for a duration.
+$bullet; |cFF2959D3|Hspell:1227226|h[Writhing Wave]|h|r is split between all targets caught in its area.
+$bullet; Loom'ithar will give chase to their target while consumed with |cFF2959D3|Hspell:1228059|h[Unbound Rage]|h|r",2686,2,32283,0,32285,3,0,0,0,0,0,1,-1
+32285,Damage Dealers,"$bullet; Infused Tangles inflict heavy damage if players are caught in the collapsing ring of threads.
+$bullet; |cFF2959D3|Hspell:1226315|h[Infusion Tether]|h|r will inflict damge indefinitely until the effect ends.
+$bullet; |cFF2959D3|Hspell:1226366|h[Living Silk]|h|r inflicts heavy Nature damage and reduces movement speed.",2686,3,32283,0,32286,3,0,0,0,0,0,2,-1
+32286,Healers,"$bullet; |cFF2959D3|Hspell:1226315|h[Infusion Tether]|h|r must be pulled far away from Loom'ithar to end the effect.
+$bullet; |cFF2959D3|Hspell:1226395|h[Overinfusion Burst]|h|r inflicts Arcane damage as it charges and a massive burst when it ends.
+$bullet; |cFF2959D3|Hspell:1226366|h[Living Silk]|h|r inflicts heavy Nature damage and reduces movement speed.",2686,4,32283,0,0,3,0,0,0,0,0,4,-1
+32287,Overview,"Dimensius attempts to |cFF2959D3|Hspell:1229038|h[Devour]|h|r players almost immediately, and again every time he reaches 100 energy. His |cFF2959D3|Hspell:1229674|h[Growing Hunger]|h|r increases with each cast, pushing the players' |cFF2959D3|Hspell:1228207|h[Collective Gravity]|h|r to its limits.
+
+When Dimensius' health is depleted, he pulls players into the Dark Heart where they must quickly fly with Xal'atath to safety. He releases his conquered rivals to halt players' advance and attempts to obliterate them with |cFF2959D3|Hspell:1238765|h[Extinction]|h|r and |cFF2959D3|Hspell:1237319|h[Gamma Burst]|h|r.
+
+After a devastating counter-attack from the players and Xal'atath, Dimensius begins to |cFF2959D3|Hspell:1231716|h[Extinguish the Stars]|h|r. Upon reaching 100 energy he again attempts to |cFF2959D3|Hspell:1233539|h[Devour]|h|r everything around him, pulling his |cFF2959D3|Hspell:1233292|h[Accretion Disk]|h|r ever closer.",2691,1,0,32288,32292,3,0,0,0,0,0,0,-1
+32288,Tanks,"$bullet;|cFF2959D3|Hspell:1230087|h[Massive Smash]|h|r knocks all players away from Dimensius' target.
+$bullet;Players who receive too many applications of |cFF2959D3|Hspell:1246145|h[Touch of Oblivion]|h|r are killed instantly.
+$bullet;|cFF2959D3|Hspell:1227659|h[Fists of the Voidlord]|h|r damages and knocks away players near Dimensius' target with every melee attack.",2691,2,32287,0,32289,3,0,0,0,0,0,1,-1
+32289,Damage Dealers,"$bullet;Living Mass leaves behind |cFF2959D3|Hspell:1228206|h[Excess Mass]|h|r when defeated, which can be used to gain |cFF2959D3|Hspell:1228207|h[Collective Gravity]|h|r and rescue |cFF2959D3|Hspell:1243609|h[Airborne]|h|r players.
+$bullet;Players can stand in |cFF2959D3|Hspell:1243704|h[Antimatter]|h|r to reduce its raidwide damage.
+$bullet;|cFF2959D3|Hspell:1227659|h[Fists of the Voidlord]|h|r damages and knocks away players near Dimensius' target with every melee attack.",2691,3,32287,0,32290,3,0,0,0,0,0,2,-1
+32290,Healers,"$bullet;|cFF2959D3|Hspell:1229038|h[Devour]|h|r and |cFF2959D3|Hspell:1231716|h[Extinguish the Stars]|h|r inflict heavy damage to all players.
+$bullet;Players can stand in |cFF2959D3|Hspell:1243704|h[Antimatter]|h|r to reduce its raidwide damage.
+$bullet;|cFF2959D3|Hspell:1227659|h[Fists of the Voidlord]|h|r damages and knocks away players near Dimensius' target with every melee attack.",2691,4,32287,0,0,3,0,0,0,0,0,4,-1
+32291,Section 5,,2691,33,32292,0,32336,2,0,0,1227665,0,0,1,-1
+32292,Stage One: Critical Mass,,2691,5,0,32359,32735,0,0,0,0,0,1,0,-1
+32294,Section 47,,2690,29,32268,0,32649,2,0,0,1227891,0,0,16,-1
 32295,Section 158,,2646,106,31472,0,0,2,0,0,1223126,0,0,0,-1
+32296,Stage One: The Arcane Loom,,2686,5,0,32924,32303,0,0,0,0,0,1,0,-1
+32297,Section 5,,2686,14,32296,0,32721,2,0,0,1226395,0,0,16,-1
+32301,Section 9,"$[!15,16
+
+On Heroic and Mythic difficulties, affected players take $1227163s2% increased damage from Writhing Wave.$]",2686,26,32303,33459,0,2,0,0,1227226,0,0,1,-1
+32303,Stage Two: The Beast Unbound,,2686,19,0,32354,0,0,0,0,0,0,1,0,-1
+32307,Section 14,"$[!16 
+
+On Mythic difficulty, when Arcane Outrage ends, players erupt with arcane energy inflicting $1243908s1 Arcane damage to themselves and allies within $1243908A1 yards.$]",2686,24,32303,32531,32301,2,0,0,1227782,0,0,0,-1
+32313,Section 26,,2685,18,33394,0,0,2,0,0,1246775,0,2,0,0
+32325,Section 54,"$[!16
+On Mythic difficulty, Dimension Glare is applied to any player hit.$]",2690,36,32272,32589,32592,2,0,0,1228163,0,2,4128,0
+32332,Section 56,,2690,66,32270,0,32488,2,0,0,1228265,0,0,32,-1
+32333,Section 57,,2690,70,32269,0,0,2,0,0,1224827,0,0,0,-1
+32336,Section 9,,2691,34,32292,0,0,2,0,0,1228367,0,0,0,-1
+32337,Section 25,"$[!15,16
+
+In Heroic and Mythic difficulty, |cFF2959D3|Hspell:1227809|h[The Hunt]|h|r inflicts damage in an area around players along the path to her prey.$]",2688,17,31792,0,33299,2,0,0,1227809,0,2,40,0
+32340,Section 29,,2688,36,31791,0,0,2,0,0,1225154,0,0,4,-1
+32352,Section 7,,2686,22,32303,0,32452,2,0,0,1231408,0,0,4,-1
+32354,Section 18,,2686,20,32303,33164,32352,2,0,0,1228059,0,0,2,-1
+32358,Section 10,,2691,20,32292,32362,32447,2,0,0,1229038,0,0,48,-1
+32359,Section 11,,2691,6,32292,0,33479,2,0,0,1229327,0,0,16,-1
+32361,Section 32,,2688,26,31793,0,0,2,0,0,1225127,0,2,0,0
+32362,Section 12,,2691,21,32358,0,0,2,0,0,1229674,0,1,0,-1
+32366,Overview,"Forgeweaver Araz activates the |cFF2959D3|Hspell:1237322|h[Prime Sequence]|h|r of Arcane Collectors throughout the room. Once all collectors are active, Araz begins an arcane ritual to summon Dimensius.
+
+Disrupting this ritual twice forces Araz's hand as he activates the final sequence, forming a |cFF2959D3|Hspell:1233076|h[Dark Singularity]|h|r.",2687,1,0,33700,33699,3,0,0,0,0,0,0,-1
+32367,Tanks,"$bullet;|cFF2959D3|Hspell:1228502|h[Overwhelming Power]|h|r continously stacks on Araz's current target.
+$bullet;|cFF2959D3|Hspell:1228454|h[Mark of Power]|h|r activates while Araz is close to one of his echoes.
+$bullet;|cFF2959D3|Hspell:1226260|h[Arcane Convergence]|h|r inflicts damage to the raid each time it connects with the Manaforge.",2687,6,32366,0,0,3,0,0,0,0,2,1,0
+32368,Healers,"$bullet;|cFF2959D3|Hspell:1228214|h[Astral Harvest]|h|r inflicts high periodic damage to its target.
+$bullet;|cFF2959D3|Hspell:1228218|h[Arcane Obliteration]|h|r inflicts damage to everyone that is reduced by the number of players at the impact location.
+$bullet;|cFF2959D3|Hspell:1240705|h[Astral Burn]|h|r continously ramps damage during the intermission.",2687,4,32366,0,32952,3,0,0,0,0,0,4,-1
+32369,Damage Dealers,"$bullet;|cFF2959D3|Hspell:1228214|h[Astral Harvest]|h|r creates manifestations that cause an |cFF2959D3|Hspell:1236207|h[Astral Surge]|h|r when they reach Arcane Collectors.
+$bullet;Arcane Echoes duplicate Forgeweaver Araz's abilities.
+$bullet;Arcane Collectors lose their|cFF2959D3|Hspell:1231726|h[Arcane Barrier]|h|r during the intermission.
+$bullet;Arcane Collectors inflict massive damage with |cFF2959D3|Hspell:1243272|h[Containment Breach]|h|r when destroyed.",2687,3,32366,0,32368,3,0,0,0,0,2,2,0
+32370,Section 22,"$[!16
+
+On Mythic difficulty, if $@spellname1219611 fails to hit at least 5 players, it instead inflicts $1241142s1 Arcane damage to all players.$]",2684,13,31626,0,32371,2,0,0,1229761,0,2,40,0
+32371,Section 23,,2684,14,31626,0,31629,2,0,0,1229762,0,2,4128,0
+32372,Section 5,,2687,63,32384,0,32376,2,0,0,1228502,0,0,1,-1
+32376,Section 6,,2687,64,32384,0,0,2,0,0,1232221,0,2,4096,0
+32381,Section 14,,2687,62,32384,0,32372,2,0,0,1228188,0,0,128,-1
+32384,Stage Two: Darkness Hungers,Forgeweaver Araz unleashes all his power as he feeds himself to Dimensius opening a door to the void itself.,2687,56,0,33714,0,0,0,0,0,0,0,0,-1
+32387,Section 5,,2687,38,33699,0,32410,2,0,0,1228502,0,0,1,-1
+32388,Section 6,,2687,27,33699,32389,32391,2,0,0,1228218,0,2,16,0
+32389,Arcane Echo,An arcane manifestation that duplicates Araz's casts.,2687,28,32388,32930,0,1,128123,0,0,0,0,0,-1
+32391,Section 6,,2687,31,33699,32392,32396,2,0,0,1228218,0,2,24,0
+32392,Arcane Echo,An arcane manifestation that duplicates Araz's casts.,2687,32,32391,32393,32394,1,128123,0,0,0,0,0,-1
+32393,Section 12,,2687,33,32392,0,32948,2,0,0,1228454,0,0,16,-1
+32394,Section 8,,2687,36,32391,0,0,2,0,0,1228219,0,0,8,-1
+32395,Section 13,,2687,24,32594,0,32605,2,0,0,1228103,0,0,0,-1
+32396,Section 14,,2687,37,33699,0,32387,2,0,0,1228188,0,0,128,-1
+32397,Intermission: The Iris Opens,Forgeweaver Araz pushes the forge beyond its limits to complete his ritual.,2687,41,0,32954,32384,0,0,0,0,0,0,0,-1
+32399,Section 19,,2687,46,32607,0,0,2,0,0,1226260,0,0,1,-1
+32407,Section 24,,2684,9,0,0,31626,2,0,0,1227794,0,2,8,0
+32408,Section 13,,2691,13,32292,33474,32358,2,0,0,1230087,0,2,4097,0
+32409,Section 14,,2691,19,32408,0,0,2,0,0,1230168,0,0,0,-1
+32410,Section 37,,2687,39,33699,0,33908,2,0,0,1227631,0,0,0,-1
 32419,Section 149,,2645,86,30865,0,0,2,0,0,466516,0,0,0,-1
+32447,Section 19,,2691,22,32292,0,33414,2,0,0,1230979,0,2,4,0
+32451,Section 23,,2691,25,32292,33149,33675,2,0,0,1243690,0,0,4,-1
+32452,Section 7,,2686,23,32303,0,32307,2,0,0,1226867,0,0,0,-1
+32477,Stage Two: The Dark Heart,,2691,47,0,32922,32479,0,0,0,0,0,0,0,-1
+32478,Section 26,,2691,39,32735,0,32991,2,0,0,1229327,0,0,16,-1
+32479,Stage Three: Singularity,,2691,106,0,32480,0,0,0,0,0,0,0,0,-1
+32480,Section 27,,2691,107,32479,0,33260,2,0,0,1229327,0,0,16,-1
+32481,Section 28,,2691,138,32479,0,32526,2,0,0,1227665,0,2,1,0
+32482,Section 13,,2675,11,31407,0,31408,2,0,0,1231811,0,0,0,-1
+32483,Section 13,"$[!16
+
+On Mythic difficulty, |cFF2959D3|Hspell:1231871|h[Shockwave Slam]|h|r will create 3 |cFF2959D3|Hspell:1226089|h[Crystal Nexuses]|h|r behind the targetted player.$]",2747,20,0,32126,0,2,0,0,1231871,0,0,4097,-1
+32485,Section 60,,2690,25,32230,0,0,2,0,0,1231097,0,0,0,-1
+32488,Section 61,,2690,67,32270,0,32271,2,0,0,1228284,0,0,0,-1
+32489,Section 29,,2691,112,32479,32490,33505,2,0,0,1231716,0,3,4100,0
+32490,Section 30,,2691,113,32489,33502,0,2,0,0,1232394,0,0,4096,-1
+32497,Section 16,,2747,6,33677,32498,32701,2,0,0,1226089,0,0,0,-1
+32498,Section 17,,2747,7,32497,0,0,2,0,0,1232130,0,2,0,0
+32500,Adarus Duskblaze,,2688,6,32567,32501,31792,1,127562,0,0,0,0,0,-1
+32501,Section 12,,2688,7,32500,0,33134,2,0,0,1222232,0,0,160,-1
+32504,Section 33,,2688,11,32500,32993,33298,2,0,0,1227355,0,0,0,-1
+32506,Section 13,"$[!15,16
+
+In Heroic and Mythic difficulty, |cFF2959D3|Hspell:1235158|h[Consume]|h|r also applies |cFF2959D3|Hspell:1222310|h[Unending Hunger]|h|r.$]",2688,9,32500,32507,32504,2,0,0,1234565,0,2,8,0
+32507,Section 14,,2688,10,32506,0,0,2,0,0,1222310,0,2,8,0
+32512,Section 38,,2687,45,32607,0,32399,2,0,0,1234328,0,0,0,-1
+32513,Section 39,,2687,43,32397,0,32607,2,0,0,1232409,0,0,0,-1
+32526,Section 31,,2691,139,32479,0,0,2,0,0,1232894,0,0,0,-1
+32527,Section 32,,2691,130,32479,33508,33666,2,0,0,1232973,0,2,0,0
+32528,Section 33,,2691,115,33502,32529,0,2,0,0,1232987,0,0,16,-1
+32529,Section 34,,2691,116,32528,0,0,2,0,0,1230674,0,0,16,-1
+32531,Section 24,,2686,25,32307,0,0,2,0,0,1243771,0,0,32,-1
+32532,Section 35,,2691,109,32479,0,33500,2,0,0,1233292,0,0,0,-1
+32540,Section 36,"$[!16
+
+In Mythic difficulty, Dimensius immediately casts |cFF2959D3|Hspell:1232973|h[Supernova]|h|r on any Voidstar whose |cFF2959D3|Hspell:1232394|h[Gravity Well]|h|r contains players when Devour finishes channeling.$]",2691,119,32479,32541,32572,2,0,0,1233539,0,2,4144,0
+32541,Section 37,,2691,120,32540,0,33507,2,0,0,1233557,0,1,0,-1
+32545,Intermission: The Unrelenting Pain,Ilyssa rampages about the arena with Infernal Strike and annihilates her foes with Fel Devastation.,2688,46,0,32587,0,0,127624,0,0,0,0,0,-1
+32547,Section 35,"$[!15,16
+
+In Heroic and Mythic difficulty, Ilyssa applies |cFF2959D3|Hspell:1233381|h[Withering Flames]|h|r to players struck by |cFF2959D3|Hspell:1227117|h[Fel Devastation]|h|r.$]",2688,49,32545,32588,33313,2,0,0,1227117,0,2,40,0
+32552,Intermission: The Demon Within,Velaryn scours the arena with Fel Rush.,2688,43,0,32554,32545,0,128015,0,0,0,0,0,-1
+32554,Section 35,,2688,44,32552,0,33312,2,0,0,1233863,0,0,32,-1
+32566,Intermission: The Ceaseless Hunger,Adarus enshrouds the arena in void and attempts to draw all players into a Collapsing Star.,2688,38,0,32593,32552,0,127916,0,0,0,0,0,-1
+32567,The Soul Hunters,,2688,5,0,32500,32566,0,0,0,0,0,1,0,-1
+32572,Section 38,,2691,124,32479,32573,33498,2,0,0,1234052,0,0,16,-1
+32573,Section 39,,2691,125,32572,0,0,2,0,0,1234054,0,1,0,-1
+32575,Section 7,,2686,16,32296,0,32758,2,0,0,1231408,0,0,4,-1
+32577,Section 41,,2691,50,32477,32578,32738,2,0,0,1234242,0,2,4096,0
+32578,Section 42,,2691,51,32577,32579,32580,2,0,0,1234243,0,1,0,-1
+32579,Section 44,,2691,52,32578,0,0,2,0,0,1234251,0,0,0,-1
+32580,Section 43,,2691,53,32577,0,0,2,0,0,1234244,0,1,0,-1
+32581,Section 41,,2691,134,32479,32582,32481,2,0,0,1234242,0,2,4096,0
+32582,Section 42,,2691,135,32581,32583,32584,2,0,0,1234243,0,1,0,-1
+32583,Section 44,,2691,136,32582,0,0,2,0,0,1234251,0,0,0,-1
+32584,Section 43,,2691,137,32581,0,0,2,0,0,1234244,0,1,0,-1
+32585,Section 48,"$[!15,16
+
+In Heroic and Mythic difficulty, the force of the attack pulls all players up to $1234271s1 yards toward the impact location.$]",2691,128,32479,32586,32527,2,0,0,1234263,0,2,9,0
+32586,Section 49,,2691,129,32585,0,0,2,0,0,1234266,0,0,1,-1
+32587,Section 49,,2688,47,32545,0,33454,2,0,0,1227113,0,0,32,-1
+32588,Section 50,,2688,50,32547,0,0,2,0,0,1233381,0,2,8,0
+32589,Section 65,,2690,37,32325,0,0,2,0,0,1234539,0,0,1,-1
+32590,Section 66,,2690,39,32272,32591,0,2,0,0,1224827,0,0,0,-1
+32591,Section 67,,2690,40,32590,0,0,2,0,0,1231097,0,0,0,-1
+32592,Section 68,,2690,38,32272,0,32590,2,0,0,1234529,0,0,1,-1
+32593,Section 48,"$[!15,16
+
+In Heroic and Mythic difficulty, stellar fragments apply |cFF2959D3|Hspell:1233105|h[Dark Residue]|h|r when they are absorbed.$]",2688,39,32566,33319,33311,2,0,0,1233093,0,0,32,-1
+32594,Arcane Collector,,2687,17,32750,33121,0,1,127717,0,0,0,1,4096,-1
+32595,Section 39,,2687,23,32594,0,32395,2,0,0,1237322,0,0,0,-1
+32596,Shielded Attendant,Resilient attendants able to operate within the volatile environment of the Manaforge due to their ability to absorb energy from Arcane Convergence.,2687,51,32397,32597,32609,1,127526,0,0,0,0,1,-1
+32597,Section 41,,2687,52,32596,0,32917,2,0,0,1232738,0,0,2,-1
+32605,Section 48,,2687,25,32594,0,0,2,0,0,1231726,0,0,0,-1
+32607,Arcane Collector,,2687,44,32397,32512,33136,1,127717,0,0,0,2,0,0
+32609,Section 49,,2687,54,32397,0,33452,2,0,0,1233415,0,0,2,-1
+32619,Section 11,,2677,12,32023,0,0,2,0,0,1226444,0,0,0,-1
+32620,Section 11,,2677,14,32022,0,0,2,0,0,1226444,0,0,0,-1
+32623,Damage Dealers,"$bullet;|cFF2959D3|Hspell:1224737|h[Oath-Bound]|h|r players are vulnerable to conversion into |cFF2959D3|Hspell:1224767|h[King's Thrall]|h|r.
+$bullet;Manaforged Titans cast |cFF2959D3|Hspell:1230302|h[Self-Destruct]|h|r, inflicting massive damage to all players.
+$bullet;|cFF2959D3|Hspell:1226024|h[Starkiller Swing]|h|r erupts in a |cFF2959D3|Hspell:1226042|h[Starkiller Nova]|h|r unless consumed by a |cFF2959D3|Hspell:1248137|h[Dark Star]|h|r.",2690,3,31569,0,31572,3,0,0,0,0,0,2,-1
+32631,Intermission One: Nexus Descent,Elite Shadowguard reinforcements arrive as Salhadaar continues to seal the Manaforge.,2690,41,0,32632,32011,0,0,0,0,0,0,0,-1
+32632,Nexus-King Salhadaar,,2690,42,32631,32638,32636,1,125691,0,0,0,1,0,-1
+32635,Section 16,,2690,61,32632,0,0,2,0,0,1224822,0,0,4,-1
+32636,The Royal Voidwing,,2690,62,32631,32637,0,1,126889,0,0,0,1,0,-1
+32637,Section 57,,2690,63,32636,0,0,2,0,0,1228284,0,0,0,-1
+32638,Section 48,,2690,43,32632,32639,32647,2,0,0,1228065,0,0,32,-1
+32639,Manaforged Titan,,2690,44,32638,32640,33469,1,126550,0,0,0,0,0,-1
+32640,Section 58,,2690,45,32639,0,32641,2,0,0,1230302,0,0,18,-1
+32641,Section 63,,2690,46,32639,0,0,2,0,0,1232399,0,0,0,-1
+32642,Nexus-Prince Xevvos,,2690,51,32638,32643,32645,1,128327,0,0,0,0,0,-1
+32643,Section 53,,2690,52,32642,0,32718,2,0,0,1237105,0,2,4096,0
+32644,Section 62,,2690,54,32642,0,0,2,0,0,1230261,0,0,64,-1
+32645,Shadowguard Reaper,,2690,55,32638,32719,0,1,128081,0,0,0,0,0,-1
+32646,Section 52,,2690,58,32645,0,0,2,0,0,1228053,0,0,4,-1
+32647,Section 16,,2690,59,32632,32648,32635,2,0,0,1232327,0,0,0,-1
+32648,Section 16,,2690,60,32647,0,0,2,0,0,1228284,0,0,0,-1
+32649,Section 55,,2690,30,32268,0,32210,2,0,0,1228113,0,0,0,-1
+32680,Volatile Manifestation,,2684,26,31635,32681,0,1,106365,0,0,0,2,4098,0
+32681,Section 25,,2684,27,32680,0,0,2,0,0,1235816,0,3,0,0
+32682,Section 26,,2684,24,31635,0,31637,2,0,0,1233110,0,0,4,-1
+32687,Section 29,,2690,76,32035,0,32207,2,0,0,1226384,0,2,8,0
+32688,Stage One: <PH>,,2675,5,0,32689,31224,2,0,0,1217232,0,3,32,3
+32689,Section 6,,2675,6,32688,0,0,2,0,0,1217241,0,0,16,-1
+32701,Section 18,,2747,8,33677,32702,32704,2,0,0,1236784,0,2,4096,0
+32702,Section 19,,2747,9,32701,0,32703,2,0,0,1232760,0,2,4096,0
+32703,Section 20,,2747,10,32701,0,0,2,0,0,1232130,0,2,0,0
+32704,Section 21,,2747,11,33677,32706,33486,2,0,0,1236785,0,2,8,0
+32706,Section 23,,2747,12,32704,0,33461,2,0,0,1232130,0,2,0,0
+32710,Shadowguard Mage,,2685,10,32043,32712,32045,1,125917,0,0,0,0,0,-1
+32712,Section 17,"$[!16
+
+On Mythic difficulties, The cast time halves each time the cast is interrupted.$]",2685,11,32710,0,0,2,0,0,1227052,0,0,0,-1
+32713,Section 50,,2691,41,32735,0,32717,2,0,0,1237080,0,0,16,-1
+32714,Xal'atath,,2691,36,32735,32715,32478,1,117121,0,0,0,1,0,-1
+32715,Section 53,,2691,37,32714,0,32716,2,0,0,1235114,0,0,0,-1
+32716,Section 54,,2691,38,32714,0,0,2,0,0,1235467,0,0,32,-1
+32717,Section 52,,2691,42,32735,0,33391,2,0,0,1235490,0,0,16,-1
+32718,Section 53,,2690,53,32642,0,32644,2,0,0,1228075,0,0,0,-1
+32719,Section 52,,2690,56,32645,33665,32646,2,0,0,1237107,0,2,4096,0
+32720,Section 26,,2686,18,32296,0,0,2,0,0,1231403,0,0,1,-1
+32721,Section 7,,2686,15,32296,0,32575,2,0,0,1226867,0,0,0,-1
+32723,Section 12,,2677,10,32032,0,0,2,0,0,1237184,0,2,4096,0
+32724,Section 8,,2676,15,0,0,31576,2,0,0,1220386,0,2,4,3
+32725,Section 14,,2387,11,0,0,21498,2,0,0,319603,0,2,0,3
+32735,Intermission: Event Horizon,,2691,35,0,32714,32477,0,0,0,0,0,0,0,-1
+32736,Section 56,,2691,49,32477,0,32577,2,0,0,1237319,0,0,36,-1
+32738,The Devoured Lords,Dimensius releases his conquered rivals to halt the players' advance.,2691,54,32477,32739,0,0,0,0,0,0,1,0,-1
+32739,Section 59,,2691,55,32738,0,32741,2,0,0,1237690,0,0,16,-1
+32741,Artoshion,,2691,56,32738,33385,32745,1,129570,0,0,0,1,0,-1
+32745,Pargoth,,2691,80,32738,32947,0,1,129591,0,0,0,1,0,-1
+32750,Section 51,,2687,16,33699,32594,33517,2,0,0,1231720,0,3,4128,0
+32752,Section 8,,2762,15,0,0,32753,2,0,0,1237893,0,0,0,-1
+32753,Section 9,,2762,16,0,0,32202,2,0,0,1237905,0,0,0,-1
+32754,Section 10,,2762,14,0,0,32752,2,0,0,1237906,0,0,4,-1
+32758,Section 10,,2686,17,32296,0,32720,2,0,0,1227263,0,0,1,-1
+32759,Section 6,,2685,25,0,0,0,2,0,0,1241100,0,0,1,-1
+32917,Section 53,,2687,53,32596,0,0,2,0,0,1238266,0,0,0,-1
+32922,Section 66,,2691,48,32477,0,32736,2,0,0,1238765,0,0,16,-1
+32924,Section 24,"$[!15,16
+
+On Heroic and Mythic difficulties, Infused Tangles are protected by a Woven Ward.$]",2686,6,32296,33236,33458,2,0,0,1237272,0,3,34,0
+32926,Section 6,"$[!15,16
+
+On Heroic and Mythic difficulties, if the target is standing in Living Silk, Infusion Tether applies Silken Snare when it ends .$]",2686,11,32296,32927,32297,2,0,0,1226315,0,0,32,-1
+32927,Section 23,,2686,12,32926,0,33698,2,0,0,1226366,0,0,32,-1
+32930,Section 54,,2687,29,32389,0,32931,2,0,0,1238867,0,0,0,-1
+32931,Section 55,,2687,30,32389,0,0,2,0,0,1238874,0,0,128,-1
+32932,Section 46,,2690,19,32227,0,32208,2,0,0,1227529,0,0,0,-1
+32936,Section 69,,2690,80,32035,0,0,2,0,0,1234906,0,2,4112,0
 32939,Damage Dealers,"$bullet;Players designated as |cFF2959D3|Hspell:1216508|h[Screw Ups]|h|r periodically drop drills at their location.
 $bullet;|cFF2959D3|Hspell:466235|h[Wire Transfer]|h|r inflicts significant damage to players standing within the effect",2653,5,30421,0,30423,3,0,0,0,0,2,2,0
+32941,Section 11,,2762,5,0,33181,32754,2,0,0,1237288,0,1,32,-1
+32947,Section 69,,2691,81,32745,0,33389,2,0,0,1237695,0,2,0,0
+32948,Section 56,,2687,34,32392,0,32949,2,0,0,1238867,0,0,0,-1
+32949,Section 57,,2687,35,32392,0,0,2,0,0,1238874,0,0,128,-1
+32952,Tanks,"$bullet;|cFF2959D3|Hspell:1228502|h[Overwhelming Power]|h|r continously stacks on Araz's current target.
+$bullet;|cFF2959D3|Hspell:1226260|h[Arcane Convergence]|h|r inflicts damage to the raid on completion.",2687,5,32366,0,32367,3,0,0,0,0,2,1,0
+32954,Section 60,,2687,42,32397,0,32513,2,0,0,1240705,0,0,0,-1
+32958,Section 49,,2688,13,32993,0,0,2,0,0,1235045,0,0,0,-1
+32959,Section 49,,2688,35,31791,0,32340,2,0,0,1240891,0,2,4096,0
+32960,Section 31,,2452,27,23098,0,23330,2,0,0,1241023,0,1,32,-1
+32979,Section 25,,2685,6,32043,0,32044,2,0,0,1239988,0,0,0,-1
+32991,Section 70,,2691,40,32735,0,32713,2,0,0,1241188,0,0,16,-1
+32993,Section 50,,2688,12,32504,32958,0,2,0,0,1227685,0,0,0,-1
+33001,Section 50,,2688,20,31792,0,33092,2,0,0,1241306,0,0,0,-1
+33034,Section 15,,2677,15,0,0,0,2,0,0,1242000,0,0,4,-1
+33035,Section 51,,2688,31,31927,0,0,2,0,0,1241917,0,0,0,-1
+33037,Section 16,,2685,13,32045,0,32137,2,0,0,1242018,0,2,4096,0
+33038,Section 4,,2685,19,0,0,33703,2,0,0,1223859,0,2,0,0
+33092,Section 8,,2688,21,31792,33093,31793,2,0,0,1218103,0,2,1,0
+33093,Section 9,,2688,22,33092,0,33094,2,0,0,1221490,0,2,0,0
+33094,Section 32,,2688,23,33092,0,0,2,0,0,1225127,0,2,0,0
+33095,Section 38,,2688,33,31928,0,33096,2,0,0,1242284,0,0,0,-1
+33096,Section 39,,2688,34,31928,0,0,2,0,0,1242304,0,0,16,-1
+33099,Section 25,,2688,16,31792,0,32337,2,0,0,1227809,0,2,32,0
+33100,Section 41,,2688,41,32593,0,0,2,0,0,1233968,0,0,16,-1
+33121,Section 60,,2687,18,32594,33510,32595,2,0,0,1228214,0,0,4128,-1
+33122,Arcane Manifestation,An orb of raw energy that moves towards the Arcane Collector that summoned it.,2687,20,33121,33124,0,1,128111,0,0,0,0,4096,-1
+33123,Section 62,,2687,22,33122,0,0,2,0,0,1236207,0,0,0,-1
+33124,Section 63,,2687,21,33122,0,33123,2,0,0,1245640,0,0,4096,-1
+33134,Section 13,,2688,8,32500,0,32506,2,0,0,1234565,0,2,0,0
+33136,Arcane Collector,,2687,47,32397,33137,32596,1,0,0,0,0,2,4096,0
+33137,Section 64,,2687,48,33136,0,33138,2,0,0,1234328,0,0,0,-1
+33138,Section 65,,2687,49,33136,0,33139,2,0,0,1226260,0,0,0,-1
+33139,Section 66,,2687,50,33136,0,0,2,0,0,1243272,0,0,0,-1
+33144,Section 15,,2685,8,32044,0,32136,2,0,0,1227048,0,2,2,0
+33146,Section 25,,2685,23,32216,0,0,2,0,0,1226827,0,0,0,-1
+33147,Section 66,,2691,30,32292,33148,32291,2,0,0,1243577,0,2,4128,0
+33148,Section 67,,2691,31,33147,0,33674,2,0,0,1243609,0,1,0,-1
+33149,Section 68,,2691,26,32451,0,33150,2,0,0,1243704,0,1,48,-1
+33150,Section 69,,2691,27,32451,0,0,2,0,0,1243699,0,1,0,-1
+33164,Section 23,,2686,21,32354,0,0,2,0,0,1243771,0,0,2,-1
+33181,Section 12,,2762,6,32941,0,33548,2,0,0,1243941,0,0,0,-1
+33236,Section 23,,2686,7,32924,0,0,2,0,0,1238502,0,2,1,0
+33260,Section 71,,2691,108,32479,0,32532,2,0,0,1245292,0,0,2,-1
+33298,Section 42,,2688,14,32500,0,0,2,0,0,1245743,0,2,4112,0
+33299,Section 25,"$[!16
+
+In Mythic difficulty, |cFF2959D3|Hspell:1227809|h[The Hunt]|h|r marks multiple players simultaneously and players in the path of |cFF2959D3|Hspell:1227809|h[The Hunt]|h|r are afflicted with |cFF2959D3|Hspell:1247415|h[Weakened Prey]|h|r.$]",2688,18,31792,33416,33001,2,0,0,1227809,0,2,4128,0
+33311,Section 44,,2688,42,32566,0,0,2,0,0,1245978,0,2,4096,0
+33312,Section 44,,2688,45,32552,0,0,2,0,0,1245978,0,2,4096,0
+33313,Section 44,,2688,51,32545,0,0,2,0,0,1245978,0,2,4096,0
+33319,Section 41,,2688,40,32593,0,33100,2,0,0,1233105,0,2,8,0
+33328,Section 62,,2691,92,32745,33329,33582,2,0,0,1239262,0,2,10,0
+33329,Voidwarden,,2691,93,33328,33330,33332,1,129772,0,0,0,1,0,-1
+33330,Section 68,,2691,94,33329,0,33331,2,0,0,1239270,0,0,0,-1
+33331,Section 72,,2691,95,33329,0,0,2,0,0,1246537,0,0,0,-1
+33332,Nullbinder,,2691,96,33328,33333,0,1,129778,0,0,0,1,8,-1
+33333,Section 71,,2691,97,33332,0,0,2,0,0,1246541,0,2,0,0
+33336,Section 78,,2691,79,32741,0,0,2,0,0,1246143,0,2,17,0
+33337,Section 79,,2691,105,32745,0,0,2,0,0,1246143,0,2,17,0
+33341,Section 21,,2747,14,33461,0,0,2,0,0,1247495,0,2,8,0
+33342,Section 8,,2747,16,0,0,32131,2,0,0,1224414,0,1,0,-1
+33385,Section 69,,2691,57,32741,0,33559,2,0,0,1237694,0,2,0,0
+33389,Section 69,"$[!15,16
+
+In Heroic and Mythic difficulty, |cFF2959D3|Hspell:1237695|h[Stardust Nova]|h|r also leaves behind a |cFF2959D3|Hspell:1237696|h[Debris Field]|h|r.$]",2691,82,32745,33591,33592,2,0,0,1237695,0,2,8,0
+33390,Section 71,,2691,87,33592,0,0,2,0,0,1237696,0,1,0,-1
+33391,Section 83,,2691,43,32735,33408,33409,2,0,0,1232987,0,0,16,-1
+33393,Section 26,,2685,15,32043,0,0,2,0,0,1227848,0,0,4,-1
+33394,Section 26,,2685,17,0,32313,33038,2,0,0,1246530,0,2,4096,0
+33408,Section 84,,2691,44,33391,0,0,2,0,0,1230674,0,0,16,-1
+33409,Section 85,,2691,45,32735,33410,0,2,0,0,1246930,0,0,0,-1
+33410,Section 86,,2691,46,33409,0,0,2,0,0,1246948,0,1,0,-1
+33414,Section 87,"$[!15,16
+
+In Heroic and Mythic difficulty, |cFF2959D3|Hspell:1230999|h[Dark Matter]|h|r leaves behind a pool of |cFF2959D3|Hspell:1231002|h[Dark Energy]|h|r at each impact location.$]",2691,23,32292,33415,32451,2,0,0,1230999,0,2,12,0
+33415,Section 88,,2691,24,33414,0,0,2,0,0,1231002,0,2,8,0
+33416,Section 48,,2688,19,33299,0,0,2,0,0,1247415,0,2,4096,0
+33417,Section 13,,2413,13,0,0,0,2,0,0,1236964,0,0,0,-1
+33418,Section 49,,2688,27,31792,0,0,2,0,0,1223725,0,0,4,-1
+33452,Section 71,,2687,55,32397,0,0,2,0,0,1232412,0,0,0,-1
+33454,Section 35,,2688,48,32545,0,32547,2,0,0,1227117,0,2,32,0
+33458,Section 24,,2686,8,32296,33671,32926,2,0,0,1247672,0,2,4096,0
+33459,Section 25,,2686,27,32301,0,0,2,0,0,1242303,0,2,4096,0
+33461,Section 24,,2747,13,32704,33341,0,2,0,0,1247424,0,2,8,0
+33462,Section 77,,2690,23,32229,0,0,2,0,0,1247215,0,0,0,-1
+33463,Section 9,,2690,7,32227,33464,32008,2,0,0,1224731,0,2,32,0
+33464,Section 10,,2690,8,33463,0,33465,2,0,0,1224767,0,0,0,-1
+33465,Section 11,,2690,9,33463,0,33673,2,0,0,1224764,0,0,0,-1
+33466,Section 54,,2690,33,32272,0,33467,2,0,0,1228163,0,2,32,0
+33467,Section 54,"$[!15
+On Heroic difficulty, Dimension Glare is applied to the primary target.$]",2690,34,32272,33468,32325,2,0,0,1228163,0,2,40,0
+33468,Section 65,,2690,35,33467,0,0,2,0,0,1234539,0,0,1,-1
+33469,Nexus-Prince Ky'vor,,2690,47,32638,33470,32642,1,128326,0,0,0,0,0,-1
+33470,Section 53,,2690,48,33469,0,33471,2,0,0,1237105,0,2,4096,0
+33471,Section 53,,2690,49,33469,0,33472,2,0,0,1228075,0,0,0,-1
+33472,Section 62,,2690,50,33469,0,0,2,0,0,1230261,0,0,64,-1
+33473,Section 69,,2690,79,32035,0,32936,2,0,0,1234906,0,2,0,0
+33474,Living Mass,,2691,14,32408,33475,32409,1,128399,0,0,0,1,4098,-1
+33475,Section 21,,2691,15,33474,0,33485,2,0,0,1231005,0,1,0,-1
+33476,Section 7,,2691,17,33474,33477,0,2,0,0,1228206,0,1,0,-1
+33477,Section 8,,2691,18,33476,0,0,2,0,0,1228207,0,1,0,-1
+33479,Section 13,,2691,7,32292,33480,32408,2,0,0,1230087,0,2,1,0
+33480,Living Mass,,2691,8,33479,33481,33484,1,128399,0,0,0,1,2,-1
+33481,Section 21,,2691,9,33480,0,33482,2,0,0,1231005,0,1,0,-1
+33482,Section 7,,2691,10,33480,33483,0,2,0,0,1228206,0,1,0,-1
+33483,Section 8,,2691,11,33482,0,0,2,0,0,1228207,0,1,0,-1
+33484,Section 14,,2691,12,33479,0,0,2,0,0,1230168,0,0,0,-1
+33485,Section 95,,2691,16,33474,0,33476,2,0,0,1248240,0,1,4098,-1
+33486,Section 25,,2747,15,33677,0,0,2,0,0,1233917,0,0,0,-1
+33498,Section 48,,2691,126,32479,33499,32585,2,0,0,1234263,0,2,1,0
+33499,Section 49,,2691,127,33498,0,0,2,0,0,1234266,0,0,1,-1
+33500,Section 29,,2691,110,32479,33501,32489,2,0,0,1231716,0,3,4,0
+33501,Section 30,,2691,111,33500,0,0,2,0,0,1232394,0,0,0,-1
+33502,Section 98,,2691,114,32490,32528,0,2,0,0,1248479,0,1,4112,-1
+33503,Section 33,,2691,122,33507,33504,0,2,0,0,1232987,0,1,16,-1
+33504,Section 34,,2691,123,33503,0,0,2,0,0,1230674,0,0,16,-1
+33505,Section 36,,2691,117,32479,33506,32540,2,0,0,1233539,0,2,48,0
+33506,Section 37,,2691,118,33505,0,0,2,0,0,1233557,0,1,0,-1
+33507,Section 105,,2691,121,32540,33503,0,2,0,0,1232973,0,0,0,-1
+33508,Section 33,,2691,131,32527,33509,0,2,0,0,1232987,0,0,16,-1
+33509,Section 34,,2691,132,33508,0,0,2,0,0,1230674,0,0,16,-1
+33510,Section 73,,2687,19,33121,0,33122,2,0,0,1248171,0,0,4096,-1
+33517,Section 74,,2687,26,33699,0,32388,2,0,0,1228218,0,2,0,0
+33548,Voidcrawler,,2762,7,32941,33549,0,1,130000,0,0,0,0,0,-1
+33549,Section 14,,2762,8,33548,33550,33553,2,0,0,1239415,0,1,0,-1
+33550,Void Creeper,,2762,9,33549,33551,0,1,125924,0,0,0,0,0,-1
+33551,Section 16,,2762,10,33550,0,33552,2,0,0,1227792,0,0,0,-1
+33552,Section 17,,2762,11,33550,0,0,2,0,0,1227777,0,0,0,-1
+33553,Section 18,,2762,12,33548,0,33554,2,0,0,1229033,0,0,0,-1
+33554,Section 19,,2762,13,33548,0,0,2,0,0,1229037,0,0,0,-1
+33555,Section 51,,2688,37,32567,0,0,2,0,0,1249198,0,0,16,-1
+33558,Section 86,,2690,87,31575,0,32021,2,0,0,1225634,0,0,16,-1
+33559,Section 69,"$[!15,16
+
+In Heroic and Mythic difficulty, |cFF2959D3|Hspell:1237694|h[Mass Ejection]|h|r also leaves behind a |cFF2959D3|Hspell:1237696|h[Debris Field]|h|r.$]",2691,58,32741,33560,33589,2,0,0,1237694,0,2,8,0
+33560,Section 80,,2691,59,33559,0,0,2,0,0,1237696,0,3,8,0
+33561,Section 62,,2691,62,32741,33562,33565,2,0,0,1239262,0,2,2,0
+33562,Voidwarden,,2691,63,33561,33563,0,1,129772,0,0,0,1,0,-1
+33563,Section 68,,2691,64,33562,0,33564,2,0,0,1239270,0,0,0,-1
+33564,Section 72,,2691,65,33562,0,0,2,0,0,1246537,0,0,0,-1
+33565,Section 62,,2691,66,32741,33566,33571,2,0,0,1239262,0,2,10,0
+33566,Voidwarden,,2691,67,33565,33567,33569,1,129772,0,0,0,1,0,-1
+33567,Section 68,,2691,68,33566,0,33568,2,0,0,1239270,0,0,0,-1
+33568,Section 72,,2691,69,33566,0,0,2,0,0,1246537,0,0,0,-1
+33569,Nullbinder,,2691,70,33565,33570,0,1,129778,0,0,0,1,8,-1
+33570,Section 71,,2691,71,33569,0,0,2,0,0,1246541,0,2,0,0
+33571,Section 62,,2691,72,32741,33572,33336,2,0,0,1239262,0,2,4098,0
+33572,Voidwarden,,2691,73,33571,33573,33575,1,129772,0,0,0,1,0,-1
+33573,Section 68,,2691,74,33572,0,33574,2,0,0,1239270,0,0,0,-1
+33574,Section 72,,2691,75,33572,0,0,2,0,0,1246537,0,0,0,-1
+33575,Nullbinder,,2691,76,33571,33576,0,1,129778,0,0,0,1,0,-1
+33576,Section 71,,2691,77,33575,0,33577,2,0,0,1246541,0,0,0,-1
+33577,Section 118,,2691,78,33575,0,0,2,0,0,1249248,0,0,4096,-1
+33578,Section 62,,2691,88,32745,33579,33328,2,0,0,1239262,0,2,2,0
+33579,Voidwarden,,2691,89,33578,33580,0,1,129772,0,0,0,1,0,-1
+33580,Section 68,,2691,90,33579,0,33581,2,0,0,1239270,0,0,0,-1
+33581,Section 72,,2691,91,33579,0,0,2,0,0,1246537,0,0,0,-1
+33582,Section 62,,2691,98,32745,33583,33337,2,0,0,1239262,0,2,4098,0
+33583,Voidwarden,,2691,99,33582,33584,33586,1,129772,0,0,0,1,0,-1
+33584,Section 68,,2691,100,33583,0,33585,2,0,0,1239270,0,0,0,-1
+33585,Section 72,,2691,101,33583,0,0,2,0,0,1246537,0,0,0,-1
+33586,Nullbinder,,2691,102,33582,33587,0,1,129778,0,0,0,1,0,-1
+33587,Section 71,,2691,103,33586,0,33588,2,0,0,1246541,0,0,0,-1
+33588,Section 118,,2691,104,33586,0,0,2,0,0,1249248,0,0,4096,-1
+33589,Section 130,,2691,60,32741,33590,33561,2,0,0,1249423,0,2,4096,0
+33590,Section 80,,2691,61,33589,0,0,2,0,0,1237696,0,1,0,-1
+33591,Section 71,,2691,83,33389,0,0,2,0,0,1237696,0,3,8,0
+33592,Section 132,,2691,84,32745,33593,33578,2,0,0,1249454,0,2,4096,0
+33593,Section 134,,2691,85,33592,33986,33390,2,0,0,1254385,0,1,0,-1
+33662,Section 10,"$[!8,23,
+
+On Mythic difficulty, Soul-Scribe casts Splinters of Fate prior to casting Eternal Weave.$]",2677,7,0,33663,32032,2,0,0,1236703,0,2,0,3
+33663,Section 12,,2677,8,33662,0,0,2,0,0,1237184,0,2,4096,0
+33665,Section 87,,2690,57,32719,0,0,2,0,0,1250044,0,2,0,0
+33666,Section 135,,2691,133,32479,0,32581,2,0,0,1250055,0,2,4,0
+33671,Section 26,,2686,9,33458,0,33697,2,0,0,1247029,0,2,4096,0
+33673,Section 15,,2690,10,33463,0,0,2,0,0,1224906,0,0,0,-1
+33674,Section 136,,2691,32,33147,0,0,2,0,0,1250614,0,1,4096,-1
+33675,Section 66,,2691,28,32292,33676,33147,2,0,0,1243577,0,2,32,0
+33676,Section 67,,2691,29,33675,0,0,2,0,0,1243609,0,1,0,-1
+33677,Section 31,,2747,5,0,32497,33342,2,0,0,1233657,0,1,0,-1
+33678,Overview,"Fractillus calls forth |cFF2959D3|Hspell:1226089|h[Crystal Nexuses]|h|r that amplify the power of the |cFF2959D3|Hspell:1233657|h[Nether Prism]|h|r. If six nexuses are allowed to amplify a single prism's beam, Fractillus will be empowered with |cFF2959D3|Hspell:1233917|h[Crystaline Overcharge]|h|r.
+
+Upon reaching 100 energy, Fractillus will use its |cFF2959D3|Hspell:1227376|h[Shattering Backhand]|h|r to knock several players away, shattering any |cFF2959D3|Hspell:1226089|h[Crystal Nexus]|h|r in their path.",2747,1,0,32121,33677,3,0,0,0,0,0,0,-1
+33679,Section 16,,2676,13,0,0,31592,2,0,0,1219536,0,2,2,3
+33697,Section 26,,2686,10,33458,0,0,2,0,0,1247045,0,2,4096,0
+33698,Section 27,,2686,13,32926,0,0,2,0,0,1226721,0,0,8,-1
+33699,Stage One: Priming the Forge,Forgeweaver Araz funnels energy into the Manaforge to feed Dimensius.,2687,7,0,33706,32397,0,0,0,0,0,1,0,-1
+33700,Damage Dealers,"$bullet;|cFF2959D3|Hspell:1228214|h[Astral Harvest]|h|r creates manifestations that cause an |cFF2959D3|Hspell:1236207|h[Astral Surge]|h|r when they reach Arcane Collectors.
+$bullet;Arcane Echoes duplicate Forgeweaver Araz's abilities.
+$bullet;Arcane Collectors lose their |cFF2959D3|Hspell:1231726|h[Arcane Barrier]|h|r during the intermission.",2687,2,32366,0,32369,3,0,0,0,0,2,2,0
+33703,Section 4,,2685,20,0,32048,32216,2,0,0,1242088,0,2,4096,0
+33705,Section 28,,2684,11,31626,0,31631,2,0,0,1234733,0,3,4112,0
+33706,Section 51,,2687,8,33699,33707,32750,2,0,0,1231720,0,3,32,0
+33707,Arcane Collector,,2687,9,33706,33708,0,1,127717,0,0,0,1,0,-1
+33708,Section 15,,2687,10,33707,33709,33711,2,0,0,1228214,0,0,32,-1
+33709,Arcane Manifestation,An orb of raw energy that moves towards the Arcane Collector that summoned it.,2687,11,33708,33710,0,1,128111,0,0,0,0,0,-1
+33710,Section 50,,2687,12,33709,0,0,2,0,0,1236207,0,0,0,-1
+33711,Section 39,,2687,13,33707,0,33712,2,0,0,1237322,0,0,0,-1
+33712,Section 13,,2687,14,33707,0,33713,2,0,0,1228103,0,0,0,-1
+33713,Section 48,,2687,15,33707,0,0,2,0,0,1231726,0,0,0,-1
+33714,Section 41,,2687,57,32384,33715,32381,2,0,0,1233076,0,0,32,-1
+33715,Section 42,,2687,58,33714,0,33716,2,0,0,1233074,0,0,16,-1
+33716,Section 70,,2687,59,33714,33717,0,2,0,0,1243901,0,0,0,-1
+33717,Void Manifestation,A mote of void energy that moves towards the Dark Singularity.,2687,60,33716,33718,0,1,128401,0,0,0,0,0,-1
+33718,Section 72,,2687,61,33717,0,0,2,0,0,1243641,0,0,0,-1
+33908,Section 66,,2687,40,33699,0,0,2,0,0,1248009,0,0,0,-1
+33986,Section 139,,2691,86,33593,0,0,2,0,0,1254384,0,1,16,-1
