@@ -4848,7 +4848,7 @@ ID,BaseTag,TagText_lang,Flags
 16229,ID,ID,1
 16230,RESETS_IN,Expires in,1
 16232,RAID_INFO,Raid Info,1
-16234,SOCKET_GEMS,Socket Gems,1
+16234,SOCKET_GEMS,Apply,1
 16236,ITEM_SOCKETING,Item Socketing,1
 16237,ITEM_SOCKETABLE,<Shift Right Click to Socket>,1
 16238,EMPTY_SOCKET,Level %d Socket,1
@@ -13773,11 +13773,11 @@ You can find trainers for them in some settlements and cities.",1
 32089,ERR_SPEC_IS_DISABLED,That spec is currently disabled,1
 32091,ITEM_REQ_SPECIALIZATION,Requires: %s,1
 32092,LOSS_OF_CONTROL_DISPLAY_TAUNT,Taunted,1
-32094,KIOSK_THANK_YOU_FOR_PLAYING,Thank you for playing!,1
+32094,KIOSK_THANK_YOU_FOR_PLAYING,Thank you for playing!,3
 32095,SCENARIO_INVASION_REWARD_TOOLTIP_TEXT,Completing this invasion will reward you with:,1
 32096,SCENARIO_INVASION_COMPLETE,Invasion Complete,1
 32098,TRANSFER_ABORT_UNIQUE_MESSAGE4,Fulfill your destiny as Illidan's champion and become the master of the Illidari. Only then may you leave.,1
-32099,KIOSK_PLEASE_TAKE_THE_SURVEY,Please take the survey near the exit.,1
+32099,KIOSK_PLEASE_TAKE_THE_SURVEY,Please take the survey near the exit.,3
 32100,SPEC_INVOLUNTARILY_CHANGED,Your Specialization was changed because it has been disabled.,1
 32101,CONFIRM_SUMMON_SCENARIO,%s has started a scenario in %s. Do you want to join them?\n\nThis offer will expire in %d %s.,1
 32102,PVP_TALENTS,PvP Talents,1
@@ -16691,7 +16691,7 @@ You can find trainers for them in some settlements and cities.",1
 36312,ABILITY_INFO_VOIDELF2,- May become empowered by the Void.,2
 36313,ABILITY_INFO_VOIDELF3,- Resistant to Shadow damage.,2
 36314,ABILITY_INFO_VOIDELF4,- Spell casts aren't delayed by damage.,2
-36315,ABILITY_INFO_VOIDELF5,- Receives discounts on transmogrification and void storage.,2
+36315,ABILITY_INFO_VOIDELF5,- Receives discounts on transmogrification.,2
 36316,ABILITY_INFO_LIGHTFORGEDDRAENEI1,- Can deal massive Holy damage.,2
 36317,ABILITY_INFO_LIGHTFORGEDDRAENEI2,- Blacksmithing skill increased and can summon a forge.,2
 36318,ABILITY_INFO_LIGHTFORGEDDRAENEI3,- Increased experience gained from killing demons.,2
@@ -18281,8 +18281,8 @@ You can find trainers for them in some settlements and cities.",1
 41960,SPELL_FAILED_CUSTOM_ERROR_436,Requires Darkmoon Game Token.,1
 41961,KIOSK_SESSION_TIMER_CHANGED,Session timer changed.,3
 41962,NPEV2_ABILITYINITIAL,Press |cFF00FFFF%s|r to use %s,1
-41963,KIOSK_SESSION_EXPIRED_BODY,We'd love to hear what you think. Please take a survey on the way out.,1
-41964,KIOSK_SESSION_EXPIRED_TITLE,Thank You For Playing,1
+41963,KIOSK_SESSION_EXPIRED_BODY,We'd love your thoughts! Please take our survey,3
+41964,KIOSK_SESSION_EXPIRED_TITLE,Thank You For Trying,3
 41965,AUCTION_HOUSE_BUYOUT_MODE_TOOLTIP,Uncheck this to allow bids on your auction,1
 41966,AUCTION_HOUSE_TIME_LEFT_FORMAT_SOLD,Delivered in: |cffffffff%s|r,1
 41967,AUCTION_HOUSE_TIME_LEFT_FORMAT_ACTIVE,Time left: |cffffffff%s|r,1
@@ -18767,7 +18767,7 @@ You can find trainers for them in some settlements and cities.",1
 42571,VRN_NEEDS_MACOS_10_13,Requires macOS 10.13 or above,3
 42572,VRN_NEEDS_MACOS_10_14,Requires macOS 10.14 or above,3
 42573,VRN_NEEDS_MACOS_10_15,Requires macOS 10.15 or above,3
-42574,VRN_NEEDS_MACOS_11_0,Requires macOS 11.0 or above,3
+42574,VRN_NEEDS_MACOS_11_0,Requires macOS 11 or above,3
 42575,VRN_CPUMEM_4GB,Requires 4GB or more of CPU memory,3
 42576,VRN_NEEDS_6_0,Requires a shader model 6 capable graphics card,3
 42577,VRN_NEEDS_RT,Requires a ray tracing capable graphics card,3
@@ -19585,8 +19585,8 @@ You can find trainers for them in some settlements and cities.",1
 43998,CHALLENGE_MODE_TIMED_DUNGEON_CHAT_LINK_OVERTIME_AFFIX_RECORD,%s (Level %d) completed in %s (%s overtime). This is a new %s record!,1
 43999,CHALLENGE_MODE_TIMED_DUNGEON_CHAT_LINK_OVERTIME_RECORD,%s (Level %d) completed in %s (%s overtime). This is a new record!,1
 44000,CHALLENGE_MODE_TIMED_DUNGEON_OVERTIME_CHAT_LINK,%s (Level %d) completed in %s (%s overtime).,1
-44001,ENABLE_QUEST_TEXT_CONTRAST,Quest Text Contrast,1
-44002,OPTION_TOOLTIP_ENABLE_QUEST_TEXT_CONTRAST,Makes quest text easier to read,1
+44001,ENABLE_QUEST_TEXT_CONTRAST,Quest Text Contrast,3
+44002,OPTION_TOOLTIP_ENABLE_QUEST_TEXT_CONTRAST,Makes quest text easier to read,3
 44003,COLORBLIND_MODE_LABEL,Colorblind Mode,1
 44004,COLORBLIND_MODE_SUBTEXT,Adjusts colors and adds information to aid in color blindness.,1
 44005,TORGHAST_DOMINANCE_BAR_TIP,"Slay enemies, free souls, and break urns to fill your Empowerment bar",1
@@ -21003,8 +21003,8 @@ All loadouts that have this option enabled will share the same action bars.",1
 49760,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT_LOSTHEALTH,Display a number only when health is lost,1
 49761,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT_PERC,Display remaining health as a percentage,1
 49762,OPTION_TOOLTIP_COLORBLIND_FILTER,Adjusts the game color for specific types of colorblindness.,1
-49763,OPTION_TOOLTIP_MINIMUM_CHARACTER_NAME_SIZE,Adjusts the minimum size of character names.,1
-49764,MINIMUM_CHARACTER_NAME_SIZE_TEXT,Minimum Character Name Size,1
+49763,OPTION_TOOLTIP_MINIMUM_CHARACTER_NAME_SIZE,Adjusts the minimum size of character names.,3
+49764,MINIMUM_CHARACTER_NAME_SIZE_TEXT,Minimum Character Name Size,3
 49765,OPTION_TOOLTIP_ADJUST_COLORBLIND_STRENGTH,Adjusts the strength of the selected colorblind filter.,1
 49766,KEY_BINDING_NAME_AND_KEY,%s (%s),1
 49767,KEY_BINDING_TOOLTIP,<Right click to unbind>,1
@@ -21015,8 +21015,8 @@ All loadouts that have this option enabled will share the same action bars.",1
 49772,DISPLAY_PERSONAL_COOLDOWNS,Show Personal Cooldowns,1
 49773,DISPLAY_PERSONAL_FRIENDLY_BUFFS,Show Friendly Buffs,1
 49774,PROFESSIONS_CURRENT_LISTINGS,Current Listings,1
-49775,VRN_NEEDS_MACOS_12_0,Requires macOS 12.0 or above,3
-49776,VRN_NEEDS_MACOS_13_0,Requires macOS 13.0 or above,3
+49775,VRN_NEEDS_MACOS_12_0,Requires macOS 12 or above,3
+49776,VRN_NEEDS_MACOS_13_0,Requires macOS 13 or above,3
 49777,VRN_NEEDS_WINDOWS_11,Requires Windows 11 or above,3
 49778,HUD_CLASS_TALENTS_IMPORT_DIALOG_NAME_LABEL,New Loadout Name,1
 49779,PROFESSIONS_ORDERS_MUST_BE_NEAR_TABLE,You must be near a Crafting Table for your profession to access Crafting Orders.,1
@@ -21468,7 +21468,7 @@ Progress is shared across your Warband.",1
 50253,PROFESSIONS_ORDER_REJECTED,Order Rejected,1
 50254,CONFIRM_LEAVE_RATED_MATCH_WITH_PENALTY,Leaving the match now will cause you to lose at least |cnORANGE_FONT_COLOR:%d|r rating and you will be afflicted by %s of %s.|n|nYou will not receive Honor or Conquest for your completed rounds if you leave now.|n|nAre you sure you want to leave the match?,1
 50255,SPELL_FAILED_CUSTOM_ERROR_826,This recipe is currently disabled. Please try again later.,1
-50258,CENSORED_MESSAGE_HIDDEN,|cffff7f3fMessage from %s is potentially inappropriate.|h|cffffff00|Hcensoredmessage:%d|h |W[Show Message]|w|h|r,1
+50258,CENSORED_MESSAGE_HIDDEN,|cffffff00Message from %s is potentially inappropriate.|Hcensoredmessage:%d|h |W[Show Message]|w|h|r,1
 50263,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS,Skyriding Speed Effects,1
 50264,MOTION_SICKNESS_DRAGONRIDING_SPEED_EFFECTS_TOOLTIP,Disabling visual speed effects may help with motion sickness while skyriding.,1
 50266,ACCOUNT_SAVE_FILE_BUTTON,Open Folder,2
@@ -21479,7 +21479,7 @@ Progress is shared across your Warband.",1
 50271,CENSOR_SOURCE_NO_ONE,No one,1
 50272,CENSOR_SOURCE_EXCLUDE_FRIENDS,Everyone except friends,1
 50273,CENSOR_SOURCE_EXCLUDE_FRIENDS_AND_GUILD,Everyone except friends and guildmates,1
-50274,CENSOR_SOURCE_EXCLUDE,Censor Messages,1
+50274,CENSOR_SOURCE_EXCLUDE,Real Time Chat Filtering,1
 50275,OPTION_TOOLTIP_CENTER_SOURCE_EXCLUDE,Controls whose messages will be censored if found to be inappropriate,1
 50276,MONTHLY_ACTIVITIES_POINTS,Travel Points,1
 50277,POWER_TYPE_SHADOWLAVA_ENERGY,Shadowlava Energy,1
@@ -21518,7 +21518,7 @@ Auto-detect best available Graphics API.",3
 50328,GXAPI_TOOLTIP_FAILED_SELECTED,"Selected Graphics API.
 Failed to load, next attempt on restart.",3
 50329,CHARACTER_CREATION_REQUIREMENTS_MISSING_REQUIRED_OPTIONS,You must choose an option in the marked categories,2
-50332,CENSORED_MESSAGE_REPORT,|cffffff00|Hreportcensoredmessage:%d|h |W[Report]|w|h|r,1
+50332,CENSORED_MESSAGE_REPORT,%s |cffffff00|Hreportcensoredmessage:%d|h|W[Report]|w|h|r,1
 50333,101_CutsceneName_Ref,Nasz'uro,1
 50334,TALENTS_LINK_FORMAT,Linked Talents (%s %s),1
 50335,WOW_LABS_PRESENCE_GAME_STATE_INGAME_IN_QUEUE,Queueing,3
@@ -21998,7 +21998,7 @@ Fyrakk needs the Wellspring's power,
 To claim the heart of the tree,
 And spread his flame to all Azeroth.",1
 51542,KIOSK_SESSION_EXPIRED_SUBTITLE,Guardians of the Dream,1
-51543,KIOSK_ENTER,Enter World,2
+51543,KIOSK_ENTER,Decorate,3
 51544,ERR_NO_SOULBOUND_ITEM_IN_ACCOUNT_BANK,Soulbound items cannot be stored in the Warband Bank.,1
 51545,NO_ACCOUNT_INVENTORY_LOCK,Your character cannot complete this action.,1
 51546,TOO_MANY_ACCOUNT_BANK_TABS,You have already purchased the maximum amount of tabs.,1
@@ -22012,11 +22012,11 @@ And spread his flame to all Azeroth.",1
 51555,WEEKLY_REWARDS_UNLOCK_REWARD,Unlock Reward,1
 51558,GREAT_VAULT_REWARDS_CURRENT_LEVEL_MYTHIC,The item level of this reward will be based on the lowest of your top %1$d runs this week (currently Mythic Level %2$d).,1
 51559,GREAT_VAULT_REWARDS_CURRENT_LEVEL_HEROIC,The item level of this reward will be based on the lowest of your top %1$d runs this week (currently Heroic).,1
-51560,QUEST_BG_DEFAULT,Default,1
-51561,QUEST_BG_LIGHT1,Brown,1
-51562,QUEST_BG_LIGHT2,White,1
-51563,QUEST_BG_DARK,Black,1
-51565,QUEST_BG_LIGHT3,Grey,1
+51560,QUEST_BG_DEFAULT,Default,3
+51561,QUEST_BG_LIGHT1,Brown,3
+51562,QUEST_BG_LIGHT2,White,3
+51563,QUEST_BG_DARK,Black,3
+51565,QUEST_BG_LIGHT3,Grey,3
 51566,GREAT_VAULT_REWARDS_HEROIC_IMPROVE,Complete %1$d dungeons on Mythic difficulty to improve your reward.,1
 51567,AUCTION_HOUSE_ITEM_QUANTITY_FORMAT,|cff808080x%s|r,1
 51568,SPELL_FAILED_CUSTOM_ERROR_860,You have not proven yourself to this spirit.,1
@@ -22039,7 +22039,7 @@ And spread his flame to all Azeroth.",1
 51590,WOWLABS_CUSTOMIZE_CHARACTER,Customize Character,3
 51591,WOWLABS_JOIN_GAME,Join Game,3
 51592,WOWLABS_MAINLINE,Mainline,3
-51595,ACCOUNT_BANK_TAB_NOT_UNLOCKED,The bank tab is locked.,1
+51595,BANK_TAB_NOT_UNLOCKED,The bank tab is locked.,1
 51596,BANK_TAB_INVALID_NAME,Bank tab name is invalid.,1
 51597,BANK_TAB_INVALID_TEXT,Bank tab description is invalid.,1
 51598,FRONT_END_LOBBY_QUEUE_TIME,Time in Queue: %s,3
@@ -22088,8 +22088,8 @@ And spread his flame to all Azeroth.",1
 51650,BN_BLOCK_FRIEND,Block,3
 51651,MONTHLY_ACTIVITIES_EVENT_NOT_BEGUN,This activity has not begun yet,1
 51652,MONTHLY_ACTIVITIES_EVENT_EXPIRED,This activity has expired,1
-51653,QUEST_TEXT_PREVIEW_TITLE,Example,1
-51654,QUEST_TEXT_PREVIEW_BODY,This preview showcases what your quest description will look like in the quest offer pane when you opt for the alternative background color.,1
+51653,QUEST_TEXT_PREVIEW_TITLE,Example,3
+51654,QUEST_TEXT_PREVIEW_BODY,This preview showcases what your quest description will look like in the quest offer pane when you opt for the alternative background color.,3
 51655,WOWLABS_BINDING_HEADER,Plunderstorm,1
 51656,BINDING_NAME_WOWLABS_ACTIONBUTTON1,Attack,1
 51657,BINDING_NAME_WOWLABS_ACTIONBUTTON2,Health Potion,1
@@ -22812,6 +22812,7 @@ Items from the event have been removed.
 52560,SPELL_FAILED_CUSTOM_ERROR_1062,You are already in the correct area.,1
 52572,DELVES_SEASON_PROGRESS,Season progress: |cffffd200%s/%s|r,1
 52573,DELVES_SEASON_REWARD_PROGRESS,To next reward: |cffffd200%s|r,1
+52587,SPELL_FAILED_CUSTOM_ERROR_1063,Target must be incapacitated.,1
 52593,REPORTING_MINOR_CATEGORY_DISRUPTION,Disruption,5
 52596,NPEV2_CHAT_BATCH_JOIN_MESSAGE,%u new players have joined in the last %u minutes! Don't forget to ask if you have any questions.,1
 52604,CHAR_CREATE_NEW_PLAYER_RESTRICTED_RACE,Reach Level 10 to unlock this race,2
@@ -22964,8 +22965,8 @@ Items from the event have been removed.
 52988,EVENT_SCHEDULER_TIME_WITH_LOCATION,%1$s - %2$s,1
 53126,ACCOUNT_LEVEL_SCENE,Warband Campsite,3
 53239,ACCESSIBILITY_DRIVE_LABEL,D.R.I.V.E.,1
-53240,EVENT_SCHEDULER_ONGOING_HEADER,Ongoing Events - %s,1
-53241,EVENT_SCHEDULER_SCHEDULED_HEADER,Event Schedule - %s,1
+53240,EVENT_SCHEDULER_ONGOING_HEADER,Ongoing Events,1
+53241,EVENT_SCHEDULER_SCHEDULED_HEADER,Event Schedule,1
 53247,SPELL_FAILED_CUSTOM_ERROR_1068,Only a rogue could pick this lock.,1
 53248,CHARACTER_SELECT_ADD_GROUP_HELPTIP,Create a new camp. Each one can have its own campsite assigned.,2
 53249,CHARACTER_SELECT_NAV_BAR_CAMPS_HELPTIP,Use this option to customize which campsites your characters use.,2
@@ -22983,6 +22984,7 @@ Items from the event have been removed.
 53319,EVENT_SCHEDULER_CHAT_REMINDER_NOW,%s has started!,1
 53321,EVENT_SCHEDULER_SET_REMINDER,Add Reminder,1
 53322,EVENT_SCHEDULER_CLEAR_REMINDER,Remove Reminder,1
+53331,SPELL_FAILED_CUSTOM_ERROR_2426,Extraction Completed,1
 53358,QUEST_HUB_TOOLTIP_AVAILABLE_CONTENT_HEADER,Available Timed Content,1
 53390,EVENT_SCHEDULER_HIDE_REWARDED_EVENTS,Only show events with unclaimed weekly rewards,1
 53398,POI_FOCUS,Focus,1
@@ -23042,6 +23044,7 @@ Items from the event have been removed.
 53736,OPTION_TOOLTIP_ENABLE_ADVANCED_COLORS_OPTIONS,Show additional options for color overrides.,3
 53737,COLORS_ITEM_QUALITY,Item Quality,3
 53742,BINDING_NAME_DRIFT,Drift,1
+53744,CONFIRM_REMOVE_WOW_FRIEND,Are you sure you want to remove this friend from your list? This action cannot be undone.,1
 53760,SPELL_FAILED_CUSTOM_ERROR_1090,Requires Unbreakable Bond.,1
 53762,ADVANCED_OPTIONS_LABEL,Gameplay Enhancements,1
 53764,ENABLE_COOLDOWN_VIEWER,Enable Cooldown Manager,1
@@ -23049,6 +23052,7 @@ Items from the event have been removed.
 53766,COOLDOWN_VIEWER_LABEL,Cooldown Manager,1
 53767,HUD_EDIT_MODE_COOLDOWN_VIEWER_DISABLED_TOOLTIP,"Essential Cooldowns, Utilities, Tracked Buffs, and Tracked Bars for each spec. The Cooldown Manager is currently disabled. Enable it in: Advanced Options>Cooldown Manager.",1
 53824,CHAR_NAME_CONSECUTIVE_SPACES,Names can't have consecutive spaces,3
+53835,WHO_LIST_SEARCH_INSTRUCTIONS,"Search Zones, Guilds, Classes, Races, Levels",1
 53847,GUILD_RENAME_DESCRIPTION,Please tell me the desired name for your guild and I'll check if it's unique. There is a waiting period to change the guild name again if you change your mind.,1
 53848,GUILD_RENAME_EDITBOX_INSTRUCTIONS,Enter New Guild Name,1
 53849,GUILD_RENAME_OPTIONS_DESCRIPTION,Here are your guild rename options:,1
@@ -23073,6 +23077,10 @@ Items from the event have been removed.
 53876,EMPTY_SOCKET_SINGINGTHUNDER,Singing Thunder Socket,1
 53879,EMPTY_SOCKET_SINGINGSEA,Singing Sea Socket,1
 53882,EMPTY_SOCKET_SINGINGWIND,Singing Wind Socket,1
+53928,CHARACTER_BANK_PANEL_TITLE,Bank,1
+53929,CHARACTER_BANK_TAB_PURCHASE_PROMPT,The Bank offers additional storage for your items.|n|nDo you wish to purchase this tab?,1
+53930,CHARACTER_BANK_TAB_NAME_PROMPT,Enter Bank Tab Name:,1
+53931,CONFIRM_BUY_CHARACTER_BANK_TAB,Do you want to purchase a Bank tab for:,1
 53932,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_HORIZONTAL,Horizontal,1
 53933,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_VERTICAL,Vertical,1
 53934,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_LIMIT,# Rows,1
@@ -23088,6 +23096,7 @@ Items from the event have been removed.
 53962,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING_ALWAYS,Always Visible,1
 53963,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING_IN_COMBAT,In Combat,1
 53964,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING_HIDDEN,Hidden,1
+53967,BANK_CONFIRM_CLEANUP_PROMPT,Are you sure you want to automatically sort your items?|nThis will affect all tabs.,1
 54013,HUD_EDIT_MODE_COOLDOWN_VIEWER_NO_ITEMS_TOOLTIP,This tool is currently not used for this class or specialization,1
 54014,HUD_EDIT_MODE_COOLDOWN_VIEWER_EXAMPLE_BUFF_NAME,Example Buff Name,1
 54052,SPELL_FAILED_CUSTOM_ERROR_1073,Only usable by non-tank specs.,1
@@ -23108,8 +23117,14 @@ Items from the event have been removed.
 54094,ASSISTED_COMBAT_ROTATION_ACTION_BUTTON_HELPTIP,The Single-Button Assistant will suggest damage abilities for you. Use it like any other ability.,1
 54095,NAME_NOT_AVAILABLE,That name is not available,3
 54112,LOGIN_STATE_WAITFORNETWORK,Waiting for network,2
+54113,ERR_SOCKETING_REQUIRES_FIBER_GEM,That slot requires a Fiber gem.,1
+54114,ERR_SOCKETING_FIBER_GEM_ONLY_IN_FIBERSLOT,Fiber gems can only be placed in Fiber sockets.,1
+54115,ERR_SOCKETING_GENERIC_FAILURE,That does not fit in that gem socket.,1
 54132,VOICE_CHAT_SETTING_ENABLED,Voice Chat Enabled,1
+54136,CHARACTER_BANK_DEPOSIT_BUTTON_LABEL,Deposit All Reagents,1
 54145,GENERIC_TRAIT_FRAME_TITAN_CONSOLE_TITLE,Overcharged Titan Console,1
+54153,EMOTE628_CMD1,/lean,1
+54154,EMOTE628_CMD2,/lean,1
 54155,REPORTING_MINOR_CATEGORY_TVEC,Terrorist/Violent Content,5
 54156,REPORTING_MINOR_CATEGORY_CSEA,Child Abuse,5
 54178,ASSISTED_COMBAT_ROTATION_SPELLS_LIST_SHOW,Right click for list of abilities,1
@@ -23117,13 +23132,101 @@ Items from the event have been removed.
 54200,ASSISTED_COMBAT_HIGHLIGHT_LABEL,Assisted Highlight,1
 54201,OPTION_TOOLTIP_ASSISTED_COMBAT_HIGHLIGHT,Enables highlights that suggest the ability to use.|nThe Assisted Highlight will only suggest visible abilities.,1
 54219,SPELL_FAILED_CUSTOM_ERROR_1078,You cannot Lorewalk while in Party Sync.,1
+54230,EMPTY_SOCKET_FIBER,Fiber Socket,5
 54244,ASSISTED_COMBAT_HIGHLIGHT_DIALOG_WARNING,Assisted Highlight will only suggest visible abilities.,1
+54246,CENSORED_MESSAGE_SENDER,%s |cffffff00Message to %s flagged as potentially inappropriate.|Hcensoredmessagerewrite:%d:%d:%s|h |W[Rewrite Message]|w|h or |Hcensoredmessageconfirmsend:%d:%d:%s|h|W[Send Anyways]|w|h|r,1
 54253,ASSISTED_COMBAT_HIGHLIGHT_SPELL_INCLUDED,Included in Assisted Highlight.,1
 54254,ASSISTED_COMBAT_SPELL_INCLUDED,Included in both Assisted Highlight and Single-Button Assistant.,1
+54262,VOTE_TO_ABANDON_AFK,You were Away for a vote to abandon the instance,1
+54264,VOTE_TO_ABANDON,Vote to Abandon,1
+54267,ERR_VOTE_TO_ABANDON_NOT_YET,You can't do that yet,1
+54268,VOTE_TO_ABANDON_PASSED,Vote Successful,1
+54269,VOTE_TO_ABANDON_FAILED,The Abandon Instance vote was unsuccessful.,1
+54272,CENSORED_MESSAGE_SENT,%s |cffffff00Message flagged as potentially inappropriate.|r,1
+54327,ERR_CHARACTER_BANK_NOT_CONVERTED,Your character's bank has not been converted. Please try again later.,1
+54347,SPELL_FAILED_CUSTOM_ERROR_2430,You must equip the Reshii Wraps to Phase Dive.,1
+54348,BANK_LOCKED_REASON_NO_ACCOUNT_INVENTORY_LOCK,The bank is being used by another member of your Warband.,1
+54349,BANK_LOCKED_REASON_BANK_DISABLED,This bank is currently unavailable.,1
+54350,BANK_LOCKED_REASON_BANK_CONVERSION_FAILED,Bank conversion failed. Please relog to try again.,1
+54377,LEAVER_PENALTY_WARNING_TIMER,You are not in your party's active Mythic+ instance. You will receive a penalty in %d %s.,1
+54378,REWARD_POSSIBLE_QUEST_REWARD,This quest may have additional rewards:,1
 54380,GUILDBANK_GUILD_RENAME_PURCHASE,%s renamed the guild for %s,1
 54381,GUILDBANK_GUILD_RENAME_REFUND,%s refunded the guild rename for %s,1
+54664,WHO_LIST_LEVEL_TOOLTIP,Level %d,1
+54665,ENABLE_GAMEPLAY_SFX,Enable audio cues during combat encounters,3
+54666,GAMEPLAY_SFX_VOLUME,Gameplay Sound Effects,3
+54667,OPTION_TOOLTIP_GAMEPLAY_SFX_VOLUME,Adjusts the gameplay sound effects volume,3
 54719,REPORT_RESULT_TOO_MANY_REPORTS,Report failed. Too many report attempts. Please try again in a few minutes.,1
 54720,REPORT_RESULT_REQUIRES_CHAT,Report failed. Report type only valid on chat lines.,1
 54721,REPORT_RESULT_REQUIRES_CHAT_OR_VOICE,Report failed. Report type only valid on chat lines or when in voice chat.,1
+54731,UNITNAME_SUMMON_TITLE59,%s's Oathbound Minion,1
 54758,ASSISTED_COMBAT_LABEL,Combat Assistant,1
 54759,ASSISTED_COMBAT_ROTATION_VIEW_SPELLBOOK,View in Spellbook,1
+54777,VIDEO_OPTIONS_SFX_DENSITY_MIN,Essential,3
+54778,VIDEO_OPTIONS_SFX_DENSITY_REDUCED,Reduced,3
+54779,VIDEO_OPTIONS_SFX_DENSITY_FULL,Everything,3
+54781,VIDEO_OPTIONS_SFX_DENSITY_MIN_TOOLTIP,Only show essential spells. Your own spells are always shown.,3
+54782,VIDEO_OPTIONS_SFX_DENSITY_REDUCED_TOOLTIP,Reduces the non-essential spells shown.,3
+54783,VIDEO_OPTIONS_SFX_DENSITY_FULL_TOOLTIP,Always show all spells.,3
+54794,BCSHORTDATENOYEAR,%B %d,1
+54835,NOTIFY_ASSIST_ACTION_PLACED_VO,%1$s listened to your message in %2$s.,1
+54836,NOTIFY_ASSIST_ACTION_PLAYER_SLAYER,%1$s avenged your defeat to %2$s in %3$s.,1
+54838,NOTIFY_ASSIST_ACTION_CAPTURED_BUFF,%1$s received your %2$s in %3$s.,1
+54844,ASSIST_ACTION_GRAVE_MARKER_TOOLTIP,Grave of %s,1
+54845,ASSIST_ACTION_PLACED_VO_TOOLTIP,Message from %s,1
+54847,TIMESTAMP_FORMAT_HHMM_AMPM_NOSPACE,%I:%M %p,1
+54871,ERR_START_RESTRICTED_CHALLENGE_MODE,"You have joined a Mythic+ instance. Leaving the instance before the timer ends, without voting to abandon the dungeon, will give you a penalty.",1
+54877,ASSIST_ACTION_LOUNGING_PLAYER_NAME,Memory of %s,1
+54903,VOTE_TO_ABANDON_VOTES_NEEDED,%d votes needed to abandon the instance.,1
+54904,VOTE_TO_ABANDON_VOTES_NEEDED_KEYHOLDER,"%d votes needed to abandon the instance. As the keyholder, your vote counts as %d.",1
+54906,VOTE_TO_ABANDON_VOTED_YES,You voted Yes,1
+54907,VOTE_TO_ABANDON_VOTED_NO,You voted No,1
+54908,VOTE_TO_ABANDON_PROMPT,Abandon Instance?,1
+54909,TIME_REMAINING_WITH_TIME,Time Remaining: %s,1
+54910,VIDEO_OPTIONS_SFX_DENSITY_PERF,Performance,3
+54911,VIDEO_OPTIONS_SFX_DENSITY_PERF_TOOLTIP,Reduce non-essential spells shown based on your framerate.,3
+54915,TEXT_SCALE_PREVIEW_TITLE,Example,3
+54916,TEXT_SCALE_PREVIEW_BODY,"This is a preview of the text size. Adjust this setting to change text size in places like the Text to Speech menu, social menu, and pop-up messages.",3
+54949,ACCESSIBILITY_INTERFACE_LABEL,Interface,3
+54950,ACCESSIBILITY_FONT_SIZE_LABEL,Text Scale,3
+54951,OPTION_TOOLTIP_ACCESSIBILITY_FONT_SIZE,"Adjust the display size of text in menus like Text to Speech, social features, and pop-up messages",3
+54952,ACCESSIBILITY_INTERFACE_SECTION_DISPLAY,Display,3
+54953,ACCESSIBILITY_FONT_SIZE_SMALL_LABEL,Small,3
+54954,ACCESSIBILITY_FONT_SIZE_MEDIUM_LABEL,Medium,3
+54955,ACCESSIBILITY_FONT_SIZE_LARGE_LABEL,Large,3
+54956,ACCESSIBILITY_FONT_SIZE_HUGE_LABEL,Huge,3
+54957,ACCESSIBILITY_FONT_SIZE_GIGANTIC_LABEL,Gigantic,3
+54961,ACCESSIBILITY_FONT_SIZE_EXTRA_LARGE_LABEL,Extra Large,3
+54967,VOTE_TO_ABANDON_LEAVING_INSTANCE,Leaving Instance...,1
+54979,SLASH_ABANDON1,/abandon,1
+54980,SLASH_ABANDON2,/abandon,1
+54986,ASSIST_ACTION_PLAYER_GUARDIAN_NAME,Echo of %s,1
+54995,ASSIST_ACTION_PLAYER_SLAYER_TITLE,Slayer of %s,1
+54996,VOTE_TO_ABANDON_PLAYER_LEFT,Another player has left the instance. You can now leave without a penalty.,1
+54997,CONFIRM_LEAVE_RESTRICTED_CHALLENGE_MODE,Leave Instance Group?|n|n|cffff2020Repeatedly leaving Mythic+ instances will cause you to be flagged as a Keystone Deserter.|r,1
+55000,WARN_LEAVE_RESTRICTED_CHALLENGE_MODE,"Penalty Timer|n|n|cffffd200If you don't return to the instance within the remaining time, you will be kicked from the instance group and receive a penalty for leaving.|r|n|nTime Remaining: %d sec",1
+55003,ERR_CURRENCY_TRANSFER_INSUFFICIENT_TRANSFER_QUANTITY,The requested amount does not cover the transfer fee.,1
+55005,HUD_EDIT_MODE_INSTRUCTIONS_CLICK_TO_EDIT,Click To Edit,1
+55006,ASSIST_ACTION_GRAVE_MARKER_TOKEN_CONTEXT_FULL,valiantly slain by %s in a Tier %d Delve,1
+55007,ASSIST_ACTION_GRAVE_MARKER_TOKEN_CONTEXT_TIER,valiantly slain in a Tier %d Delve,1
+55008,ASSIST_ACTION_GRAVE_MARKER_TOKEN_CONTEXT_MONSTER,valiantly slain by %s,1
+55009,ASSIST_ACTION_GRAVE_MARKER_TOKEN_CONTEXT_NONE,valiantly slain and departed,1
+55034,GXAPI_MTL4,Metal 4,3
+55036,VRN_NEEDS_MACOS_14_0,Requires macOS 14 or above,3
+55037,VRN_NEEDS_MACOS_15_0,Requires macOS 15 or above,3
+55038,VRN_NEEDS_MACOS_26_0,Requires macOS 26 or above,3
+55044,VRN_NEEDS_APPLE_SOC,Requires an Apple Silicon mac,3
+55045,VRN_NEEDS_MTL4,Requires Metal 4,3
+55046,VRN_GPUMEM_4GB,Requires a graphics card with at least 4GB of video memory,3
+55047,VRN_GPUMEM_8GB,Requires a graphics card with at least 8GB of video memory,3
+55048,VRN_GPUMEM_16GB,Requires a graphics card with at least 16GB of video memory,3
+55056,KIOSK_SESSION_EXPIRED_TITLE_2,Player Housing,3
+55062,MYTHIC_PLUS_DESERTER_FLAGGED,You have been flagged as a Keystone Deserter by repeatedly leaving Mythic+ instances.,1
+55063,MYTHIC_PLUS_DESERTER_FLAGGED_SHORT,You have been flagged as a Keystone Deserter,1
+55065,MYTHIC_PLUS_DESERTER_GROUPS_AFFECTED,This will only affect Mythic+ groups.,1
+55066,MYTHIC_PLUS_DESERTER_GROUP_WARNING,This group has one or more players that have been flagged as a Keystone Deserter.,1
+55069,MYTHIC_PLUS_DESERTER_CONSEQUENCE,A Deserter's Badge will be visible in Mythic+ group finder.,1
+55070,MYTHIC_PLUS_DESERTER,Keystone Deserter,1
+55154,GENERIC_TRAIT_FRAME_RESHII_WRAPS_TITLE,Reshii Wraps,1
+55198,SPELL_FAILED_CUSTOM_ERROR_2431,This mount cannot enter Untethered Space.,1
+55223,ERR_TRAIT_CONFIG_RENAME_THROTTLE,Failed to update loadout name. Please try again.,1
