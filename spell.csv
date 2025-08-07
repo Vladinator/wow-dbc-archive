@@ -73572,7 +73572,11 @@ This cannot cause Healing Rain to last longer than ${$m3/1000} sec.",
 Only one totem may benefit from this effect at a time.  Does not affect Fire totems.",
 108285,,"When activated, immediately finishes the cooldown on all totems with a base cooldown shorter than 3 minutes.",
 108287,,Relocates your active totems to the specified location.,
-108288,,"Increases Stamina, Agility, and Intellect by $17005s1% at all times.  When activated, increases all healing done and dramatically improves the Druid's ability to perform roles outside of their normal specialization for $d. $?a137010[While not in an Arena or Battleground, shifting into Bear Form removes Heart of the Wild and refunds $s2 seconds of its cooldown for each second of duration remaining on the canceled buff.][]  Grants the following benefits based on current specialization:
+108288,,"Increases Stamina, Agility, and Intellect by $17005s1%.
+
+When activated, increases all healing done and dramatically improves the Druid's ability to perform roles outside of their specialization for $d. $?a137010[While not in an Arena or Battleground, shifting into Bear Form removes Heart of the Wild, and if the Druid was not recently in Bear Form, the cooldown is refunded $s2 sec for every 1 sec of unused duration.][]
+
+Grants the following benefits based on current specialization:
 
 |CFFFFFFFFNon-Guardian|R
 While in Bear Form, Agility, Expertise, Hit Chance, and armor bonuses increased, Vengeance granted, chance to be hit by melee critical strikes reduced.
@@ -73581,10 +73585,10 @@ While in Bear Form, Agility, Expertise, Hit Chance, and armor bonuses increased,
 While in Cat Form, Agility, Hit Chance, and Expertise increased.
 
 |CFFFFFFFFNon-Restoration|R
-Mana cost of all healing spells reduced by 100%.  Guardian Druids may also cast Rejuvenation while shapeshifted.
+Mana cost of all healing spells reduced by 100%. Guardian Druids may also cast Rejuvenation while shapeshifted.
 
 |CFFFFFFFFNon-Balance|R
-Spell Damage and Hit Chance increased.  Mana cost of all damage spells reduced by 100%.",
+Spell Damage and Hit Chance increased. Mana cost of all damage spells reduced by 100%.",
 108291,Talent,"Increases Stamina, Agility, and Intellect by $17005s1% at all times.  When activated, dramatically improves the Druid's ability to perform roles outside of Balance specialization for $d. Grants the following benefits in the listed roles:
 
 |CFFFFFFFFGuardian|R
@@ -73605,7 +73609,11 @@ Healing increased and mana cost of all healing spells reduced by 100%.
 
 |CFFFFFFFFBalance|R
 Spell Damage and Hit Chance increased.  Mana cost of all damage spells reduced by 100%.",Healing and spell damage ability and effectiveness in Bear Form increased.
-108293,Talent,"Increases Stamina, Agility, and Intellect by $17005s1% at all times.  When activated, dramatically improves the Druid's ability to perform roles outside of Guardian specialization for $d. Grants the following benefits in the listed roles:
+108293,Talent,"Increases Stamina, Agility, and Intellect by $17005s1% at all times.
+
+When activated, dramatically improves the Druid's ability to perform roles outside of Guardian specialization for $d. While not in an Arena or Battleground, shifting into Bear Form removes Heart of the Wild, and if the Druid has not been in Bear Form in the last 3 sec, the cooldown is refunded $108288s2 sec for every 1 sec of unused duration. 
+
+Grants the following benefits in the listed roles:
 
 |CFFFFFFFFFeral|R
 While in Cat Form, Agility, Hit Chance, and Expertise increased.
@@ -106524,3 +106532,6 @@ Generate $/10;s4 additional Rage for every yard traveled up to $s4 yards.",
 1250904,,,
 1251365,,,
 1251700,,You're a Level 85 Monk.  Grats!,
+1254079,,,
+1254094,,,
+1254951,,$@spelldesc113724,
