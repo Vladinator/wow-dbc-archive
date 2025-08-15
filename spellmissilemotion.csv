@@ -28068,3 +28068,37 @@ transFront = (sin(angle) * radius) - distanceToFirePos
 transRight = -(cos(angle) * radius)
 
 faceImpactPos = 1",0,20
+4968,"Soul Vortex (3 Missiles, Tight, No Kickback, 270 deg/sec, arrive in .5 sec)","local startAngle = 0
+local degreesPerSec = 270
+local maxMagnitude = 1.25
+local maxKickBack = 0
+
+--progress = 1 - progress
+
+transAngle = startAngle + ((missileIndex / missileCount) * 360) + (time * degreesPerSec)
+transFront = transMag * -maxKickBack
+transAngle = startAngle + ((missileIndex / missileCount) * 360) + (time * degreesPerSec)
+transMag = progress
+transMag = (transMag * transMag * 2) - 1
+transMag = (1 - (transMag * transMag))
+transFront = transMag * -maxKickBack
+transMag = transMag * maxMagnitude
+
+if (time < .5) then
+	speedAbs = distanceToImpactPos / (.5 - time)
+else
+	speedAbs = 100000
+end
+
+if progress < 0.4 then
+	transMag = (1 - (((progress*3.33)-1)^2)) * 20
+	speedAbs = speedAbs * 0.4
+elseif progress < 0.9 then
+	transMag = (1 - (progress*1.43) +0.43) * 20
+	speedAbs = speedAbs * (progress^2)
+else
+	transMag = (1 - (progress*1.43) +0.43) * 20
+end
+
+
+--transUp = distanceToImpactPos - distanceToFirePos",0,3
