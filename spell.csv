@@ -262,10 +262,12 @@ Succubi are dangerous, close-range spellcasters. They$?s103140[ turn invisible][
 
 |cFFFFFFFFSoulburn:|r
 |cFF8282FFInstant cast.|r][]",
-713,Summon,"Summons an Incubus under the command of the Warlock.$?s74434[
+713,Summon,"Summons an Incubus under the command of the Warlock.
 
-|CFFE55BB0Soulburn: Instant cast.|R][]
-",
+Incubi are dangerous, close-range spellcasters. They$?s103140[ turn invisible][]$?s103141[, knock away enemies][]$?s103140[ and][] seduce Humanoid creatures, preventing them from attacking. $?s74434[
+
+|cFFFFFFFFSoulburn:|r
+|cFF8282FFInstant cast.|r][]",
 720,,"The lair of Fankriss the Unyielding pulls the target into the path of nearby silithid hatchlings, rooting it for $d.",Rooted.
 724,,Creates a Holy Lightwell.  Friendly players can click the Lightwell to restore ${(($7001m1+($SP*.553)))*1.5} health every $7001t sec for $7001d.  Attacks done to you equal to $724s2% of your total health will cancel the effect. Lightwell lasts for $d or $?a55673[${$126150u+2}][$126150u] charges.,
 731,,"The lair of Fankriss the Unyielding pulls the target into the path of nearby silithid hatchlings, rooting it for $d.",Rooted.
@@ -2615,10 +2617,10 @@ Master gains $m3 Demonic Fury.][]
 7863,,Permanently enchant boots to increase Stamina by $s1.,
 7865,,Decreases all damage taken by $s1%.  May only be used within Icecrown.,Decreases damage taken by $s1%.
 7867,,Permanently enchant boots to increase Agility by $s1.,
-7870,Special Ability,"Gives the $?s108499[Shivarra][Succubus] Lesser Invisibility for up to $7870d.  This spell can only be used out of combat.
+7870,Special Ability,"Gives the $?s108499[Shivarra or Archincubus][Succubus or Incubus] Lesser Invisibility for up to $7870d.  This spell can only be used out of combat.
 
 |cFFFFFFFFAuto-Cast:|r
-Reapply when the $?s108499[Shivarra][Succubus] leaves combat.
+Reapply when the $?s108499[Shivarra or Archincubus][Succubus or Incubus] leaves combat.
 
 |cFF777777(Right-Click to toggle)|r",Invisible.
 7874,Rank 2,,
@@ -73718,6 +73720,7 @@ Spells Learned:
 $@spellicon112866 $@spellname112866
 $@spellicon112867 $@spellname112867
 $@spellicon112868 $@spellname112868
+$@spellicon1258215$@spellname1258215
 $@spellicon112869 $@spellname112869 $?c2[
 $@spellicon112870 $@spellname112870][]
 $@spellicon112921 $@spellname112921
@@ -73728,6 +73731,7 @@ $@spellicon112927 $@spellname112927",
 $@spellicon111859 $@spellname111859: Immediately cleanses a hostile magic effect from their master.
 $@spellicon111895 $@spellname111895 Immediately taunts their target when summoned.
 $@spellicon111896 $@spellname111896 Immediately seduces their target if it is Humanoid.
+$@spellicon1258214$@spellname1258214 Immediately seduces their target if it is Humanoid.
 $@spellicon111897 $@spellname111897 Immediately interrupts their target when summoned.$?c2[
 $@spellicon111898 $@spellname111898 Immediately stuns their target when summoned.][]",
 108502,,,
@@ -81071,12 +81075,14 @@ Judgments of the Bold - Judgment grants Holy Power and the Physical Vulnerabilit
 $?s108499[Fel Imp: $@spellname119899
 Voidlord: $@spellname118093
 Shivarra: $@spellname115770
+Archincubus: $@spellname115770
 Observer: $@spellname115781
 Wrathguard: $@spellname115831
 ]
 [Imp: $@spellname119899
 Voidwalker: $@spellname118093
 Succubus: $@spellname6360
+Incubus: $@spellname6360
 Felhunter: $@spellname19647
 Felguard: $@spellname89751
 ]",
@@ -105159,6 +105165,7 @@ Jumping while rafting will paddle the ice, allowing you to move up to 130% faste
 155741,,Summons and dismisses an Dread Raven. This mount changes depending on your Riding skill and location.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
 155748,,Right Click to summon and dismiss your Dread Hatchling.,
 158263,,,You left an Arena without entering combat and must wait before entering another one.
+158486,,Battle pet experience gained is increased by $s1%.,Battle pet experience gained is increased by $s1%.
 160597,,,
 161718,,"Drains the soul of the target, inflicting Shadow damage every $t1 seconds for $d.",Shadow damage inflicted every $t1 seconds.
 161780,,"Increases reputation gained with the Black Prince by $s1%. Increases the chances his most hated foes will relinquish their Secrets of the Empire, Sigil of Wisdom, Sigil of Power, or Titan Runestones.","Increases reputation gained with the Black Prince by $s1%. Increases the chances his most hated foes will relinquish their Secrets of the Empire, Sigil of Wisdom, Sigil of Power, or Titan Runestones."
@@ -106536,6 +106543,14 @@ Generate $/10;s4 additional Rage for every yard traveled up to $s4 yards.",
 1254094,,,
 1254951,,$@spelldesc113724,
 1256744,,,
-158486,,Battle pet experience gained is increased by $s1%.,Battle pet experience gained is increased by $s1%.
 1256843,,,
 1256844,,,
+1258214,Summon,"Summons an Incubus who attacks the target for $108501s1 sec.
+
+Incubi will seduce their target if it is Humanoid.",
+1258215,Summon,"Summons an Archincubus under the command of the Warlock.
+
+Archincubi are dangerous, close-range spellcasters. They$?s103140[ turn invisible][]$?s103141[, knock away enemies][]$?s103140[ and][] mesmerize opponents, preventing them from attacking. $?s74434[
+
+|cFFFFFFFFSoulburn:|r
+|cFF8282FFInstant cast.|r][]",
