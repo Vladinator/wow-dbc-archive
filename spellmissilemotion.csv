@@ -5018,7 +5018,7 @@ local wave1 = sin(t1)
 
 local factor = startDistance/10
 transRight = progressMult * wave1 * factor
-speedAbs = progress * progress * 20
+-- speedAbs = progress * progress * 20
 
 if (startDistance  < 6) then
 	transUp = 0

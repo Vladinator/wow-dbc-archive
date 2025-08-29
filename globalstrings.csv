@@ -17492,8 +17492,6 @@ ID,BaseTag,TagText_lang,Flags
 41008,WOW_ERROR_333,This realm's login queue is full and cannot accept more players. Please choose another realm.,2
 41019,VISITABLE_URL45,https://us.shop.battle.net/product/world-of-warcraft-game-time,3
 41020,VISITABLE_URL46,https://support.blizzard.com/article/76459,3
-41090,BLIZZARD_STORE_VAS_ERROR_NOT_GUILD_MASTER,- Only Guild Masters can use Guild Services. This character is not a Guild Master.,3
-41091,BLIZZARD_STORE_VAS_ERROR_NOT_IN_GUILD,- You must be in a Guild in order to use Guild Services. This character is not in a Guild.,3
 41099,INVITE_COMMUNITY_MEMBER_POPUP_INVITE_EDITBOX_INSTRUCTIONS,Real ID or BattleTag,1
 41100,CRITERIA_TREE_OPERATOR_COMPLETE,Complete,0
 41101,CRITERIA_TREE_OPERATOR_INCOMPLETE,Not Complete,0
@@ -17503,13 +17501,6 @@ ID,BaseTag,TagText_lang,Flags
 41105,CRITERIA_TREE_OPERATOR_COUNT,Started At Least,0
 41106,CRITERIA_TREE_OPERATOR_COMPLETE_AT_LEAST,Complete At Least,0
 41107,CRITERIA_TREE_OPERATOR_WEIGHTED_CUMULATIVE,Weighted Sum Of Criteria Is,0
-41113,BLIZZARD_STORE_VAS_ERROR_NEW_LEADER_INVALID,- The character you chose to be the new Guild Master is not a valid choice. Please choose someone else.,3
-41118,BLIZZARD_STORE_VAS_ERROR_AUTHENTICATOR_INSUFFICIENT,- You must attach an authenticator and then log in to your Guild Master character at least 7 days prior to purchasing a guild service.|n|nRead our |HurlIndex:47|h|cff006995Cannot Start a Guild Service|r|h article for more information.,3
-41119,BLIZZARD_STORE_VAS_ERROR_ALREADY_RENAME_FLAGGED,- Your Guild Master character has a pending name change. Complete the name change and try again.,3
-41120,BLIZZARD_STORE_VAS_ERROR_GM_SENORITY_INSUFFICIENT,- Your character must be the Guild Master for at least 7 days before purchasing this service.|nRead our|HurlIndex:47|h|cff006995Cannot Start a Guild Service|r|h article for more information.,3
-41121,BLIZZARD_STORE_VAS_ERROR_OPERATION_ALREADY_IN_PROGRESS,- Your recent guild service transaction is still processing.|n|nCheck your |HurlIndex:48|h|cff006995Transaction History|r|h.,3
-41122,BLIZZARD_STORE_VAS_ERROR_LOCKED_FOR_VAS,- You must wait 30 days after purchasing a character or guild service on this character before you can purchase a new guild service.|nRead our|HurlIndex:47|h|cff006995Cannot Start a Guild Service|r|h article for more information.,3
-41123,BLIZZARD_STORE_VAS_ERROR_MOVE_IN_PROGRESS,- Your recent guild service purchase is still processing.|n|nCheck your |HurlIndex:48|h|cff006995Transaction History|r|h.,3
 41124,AUCTION_CATEGORY_PROJECTILE,Projectile,1
 41125,AUCTION_CATEGORY_QUIVER,Quiver,1
 41126,AUCTION_CATEGORY_REAGENT,Reagent,1
@@ -17934,6 +17925,7 @@ ID,BaseTag,TagText_lang,Flags
 42576,VRN_NEEDS_6_0,Requires a shader model 6 capable graphics card,3
 42577,VRN_NEEDS_RT,Requires a ray tracing capable graphics card,3
 42578,VRN_NEEDS_WINDOWS_10,Requires Windows 10 or above,3
+42624,SPELL_FAILED_INELIGIBLE_WEAPON_APPEARANCE,That spell is incompatible with your weapon appearance,1
 42645,BNET_ERROR_40011,(CN Only) Secondary Parental Control,2
 42646,BNET_ERROR_40012,(CN Only) Secondary Parental Control (2),2
 42662,GXAPI_MTL_LEGACY,Metal Legacy,3
@@ -18296,7 +18288,6 @@ ID,BaseTag,TagText_lang,Flags
 48750,VIDEO_OPTIONS_NOTCH_MODE_WINDOW_BELOW,Window is below notch with a black bar,3
 48774,LFG_LIST_CROSS_FACTION,Limit to %s,1
 48775,LFG_LIST_CROSS_FACTION_TOOLTIP,Only %s players will see your group.|n|nThis may reduce the number of applicants you recieve.,1
-48777,BLIZZARD_STORE_VAS_ERROR_NEW_PLAYER_EXPERIENCE,- Finish the tutorial experience first,3
 48779,LFG_LIST_TOOLTIP_LEADER_FACTION,Leader: |cffffffff%s (%s)|r,1
 48780,UNIT_TYPE_LEVEL_FACTION_TEMPLATE,Level %d %s (%s),1
 48783,INVTYPE_PROFESSION_TOOL,Profession Tool,1
@@ -18567,7 +18558,6 @@ You can also drag this icon to an action bar for easy access.",1
 50009,PROFESSIONS_NEW_CHOICE_AVAILABLE_SPECIALIZATION_TUTORIAL,"Choose a Specialization to unlock.
 
 You can learn more Specializations as you increase your skill level.",1
-50048,BLIZZARD_STORE_VAS_ERROR_HAS_CRAFTING_ORDERS,- Please clear all pending and claimed crafting orders on this character.,3
 50067,CHAR_FACTION_CHANGE_ARENA_TEAM,You may not change faction while still on an arena team.,2
 50147,AUCTION_SORT_OPTIONS_TOOLTIP_TITLE,Price Sorting Options,1
 50148,AUCTION_SORT_OPTIONS_PROMPT,Sort Prices By:,1
@@ -18709,6 +18699,8 @@ You can learn more Specializations as you increase your skill level.",1
 51647,SELF_HIGHLIGHT_CIRCLE,Circle,1
 51649,SELF_HIGHLIGHT_ICON,Icon,1
 51708,CHARACTER_SELECT_NAV_BAR_REALMS,REALMS,2
+51728,SHOW_DYNAMIC_BUFF_SIZE,Dynamic Buff and Debuff Size,1
+51729,OPTION_TOOLTIP_SHOW_DYNAMIC_BUFF_SIZE,Makes your buffs and debuffs appear larger than other effects on your target.,1
 51731,REINCARNATE_CHARACTER,Reincarnate Selected Character,2
 51732,DEATH_REINCARNATE_CHARACTER,Reincarnate!,3
 51750,SELF_HIGHLIGHT_MODE_CIRCLE_AND_ICON,Circle and Icon,1
@@ -18817,6 +18809,7 @@ They will be deleted and remade with the current customized character.",2
 53900,EMPTY_SOCKET_SINGING_THUNDER,Singing Thunder Socket,1
 53901,EMPTY_SOCKET_SINGING_SEA,Singing Sea Socket,1
 53902,EMPTY_SOCKET_SINGING_WIND,Singing Wind Socket,1
+54230,EMPTY_SOCKET_FIBER,Fiber Socket,5
 54246,CENSORED_MESSAGE_SENDER,%s |cffffff00Message to %s flagged as potentially inappropriate.|Hcensoredmessagerewrite:%d:%d:%s|h |W[Rewrite Message]|w|h or |Hcensoredmessageconfirmsend:%d:%d:%s|h|W[Send Anyways]|w|h|r,1
 54272,CENSORED_MESSAGE_SENT,%s |cffffff00Message flagged as potentially inappropriate.|r,1
 54399,TRANSMOG_ITEM_SET_FAVORITE,Set Favorite,3
@@ -18828,3 +18821,6 @@ They will be deleted and remade with the current customized character.",2
 54721,REPORT_RESULT_REQUIRES_CHAT_OR_VOICE,Report failed. Report type only valid on chat lines or when in voice chat,1
 54865,CREDITS_EXPANSION_NAME_4_0,Mists of Pandaria (2012),2
 54866,CREDITS_EXPANSION_NAME_4_1,Mists of Pandaria Classic (2025),2
+55117,UNIT_FRAMES_DISPLAY_INCOMING_HEALS,Incoming Heals for Unit Frames,1
+55118,OPTION_TOOLTIP_UNIT_FRAMES_DISPLAY_INCOMING_HEALS,"Display incoming heals on unit frames, such as yourself and your target.",1
+55485,LFG_LIST_REPORT_PLAYER,Report Player,1
