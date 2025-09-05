@@ -15392,7 +15392,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 22306,Lei Shi,22305,1,0,19649,0,2
 22307,Heroic: Sha of Fear,0,0,4,0,0,0
 22308,Sha of Fear,22307,1,0,19650,0,2
-22309,Heroic: Will of the Emperor Guild Run,0,0,4,0,0,0
+22309,Heroic: Will of the Emperor Guild Run,0,1,4,0,0,0
 22310,Qin-xi (Will of the Emperor),22309,1,0,19653,0,2
 22311,Deaths at Level 86 <DND>,0,0,4,0,0,0
 22312,,22311,0,0,19654,0,2
@@ -23638,8 +23638,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 32171,,32170,0,0,22935,0,2
 32172,,32170,1,0,22936,1,2
 32173,Destroy the Sha Amalgamation,31814,0,0,22937,0,0
-32174,Achieved Malevolent Gladiator title.,0,0,4,0,0,0
-32175,Malevolent Gladiator,32174,1,0,22938,0,2
+32174,Achieved Malevolent Gladiator (3v3) title.,0,0,4,0,0,0
+32175,Malevolent Gladiator (3v3),32174,1,0,22938,0,2
 32176,Obtain the Malevolent Gladiator's Cloud Serpent from Arena Season 12 of Mists of Pandaria,0,1,8,0,0,0
 32177,,32176,1,0,22939,0,2
 32179,,31819,5,0,22941,1,0
@@ -23997,7 +23997,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 32616,Tian Monastery,32615,1,0,23248,1,0
 32617,Tian Monastery,10664,1,8,0,7,16
 32618,Tian Monastery,32617,1,0,23248,1,0
-32619,Malevolent Gladiator,10561,0,0,22938,7,2
+32619,Malevolent Gladiator,10561,1,0,22938,7,2
 32620,Malevolent Gladiator,14311,0,0,22938,8,2
 32621,Malevolent Gladiator,12737,0,0,22938,9,2
 32622,Malevolent Gladiator,12725,0,0,22938,10,2
@@ -25041,9 +25041,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 33968,,33967,90,0,23884,0,2
 33969,Reach level 90 - Timewalker Isle Breadcrumb (A),0,0,4,0,0,0
 33970,,33969,90,0,23885,0,2
-33979,Tyrannical Gladiator,10561,0,0,23888,8,2
-33980,Grievous Gladiator,10561,0,0,23889,9,2
-33981,Prideful Gladiator,10561,0,0,23890,10,2
+33979,Tyrannical Gladiator,10561,1,0,23888,8,2
+33980,Grievous Gladiator,10561,1,0,23889,9,2
+33981,Prideful Gladiator,10561,1,0,23890,10,2
 33983,"Defeat Immerseus after killing 10 Tears of the Vale in Siege of Orgrimmar on Flexible, Normal, or Heroic difficulty.",0,0,4,0,0,0
 33984,,33983,1,0,23891,0,2
 33987,Kill 18 Kor'kron Warbringers with a single Iron Star.,0,0,4,0,0,0
@@ -25428,8 +25428,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 34446,Yu'lon,34442,1,0,24150,3,0
 34447,Kill Ordos (Guild Run),0,0,4,0,0,0
 34448,,34447,1,0,24171,0,2
-34449,Achieved Tyrannical Gladiator title.,0,0,4,0,0,0
-34450,Tyrannical Gladiator,34449,1,0,24152,0,2
+34449,Achieved Tyrannical Gladiator (3v3) title.,0,0,4,0,0,0
+34450,Tyrannical Gladiator (3v3),34449,1,0,24152,0,2
 34471,Proud owner of Murkalot from the 2013 BlizzCon.,0,1,8,0,0,0
 34472,,34471,1,0,24154,0,2
 34473,,34471,0,0,24155,1,2
@@ -27690,10 +27690,10 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 213952,Sha of Fear,213951,1,0,107387,0,2
 213953,Realm First! Ra-den (10 player),0,0,4,0,0,0
 213954,,213953,1,0,107388,0,2
-215945,Achieved Prideful Gladiator title.,0,0,4,0,0,0
-215946,Prideful Gladiator,215945,1,0,23890,0,2
-215947,Achieved Grievous Gladiator title.,0,0,4,0,0,0
-215948,Grievous Gladiator,215947,1,0,23889,0,2
+215945,Achieved Prideful Gladiator (3v3) title.,0,0,4,0,0,0
+215946,Prideful Gladiator (3v3),215945,1,0,23890,0,2
+215947,Achieved Grievous Gladiator (3v3) title.,0,0,4,0,0,0
+215948,Grievous Gladiator (3v3),215947,1,0,23889,0,2
 215949,Tyrannical Gladiator,12725,0,0,23888,11,2
 215950,Greivous Gladiator,12725,0,0,23889,12,2
 215951,Prideful Gladiator,12725,0,0,23890,13,2
@@ -28115,19 +28115,27 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 217481,Bilgewater,217479,42000,0,16825,1,2
 217539,The Black Prince Bonus Reputation,0,0,4,0,0,0
 217540,Use the item to get 50% bonus The Black rep on The Black Prince kill,217539,1,0,109319,0,256
-217607,Achieved Malevolent Skirmisher title.,0,0,4,0,0,0
-217608,Malevolent Skirmisher,217607,1,0,109367,0,2
-217609,Achieved Tyrannical Skirmisher title.,0,0,4,0,0,0
-217610,Tyrannical Skirmisher,217609,1,0,109368,0,2
-217611,Achieved Grievous Skirmisher title.,0,0,4,0,0,0
-217612,Grievous Skirmisher,217611,1,0,109369,0,2
-217613,Achieved Prideful Skirmisher title.,0,0,4,0,0,0
-217614,Prideful Skirmisher,217613,1,0,109370,0,2
-217615,Achieved Malevolent Marauder title.,0,0,4,0,0,0
-217616,Malevolent Marauder,217615,1,0,109371,0,2
-217617,Achieved Tyrannical Marauder title.,0,0,4,0,0,0
-217618,Tyrannical Marauder,217617,1,0,109372,0,2
-217619,Achieved Grievous Marauder title.,0,0,4,0,0,0
-217620,Grievous Marauder,217619,1,0,109373,0,2
-217621,Achieved Prideful Marauder title.,0,0,4,0,0,0
-217622,Prideful Marauder,217621,1,0,109374,0,2
+217607,Achieved Malevolent Gladiator (2v2) title.,0,0,4,0,0,0
+217608,Malevolent Gladiator (2v2),217607,1,0,109367,0,2
+217609,Achieved Tyrannical Gladiator (2v2) title.,0,0,4,0,0,0
+217610,Tyrannical Gladiator (2v2),217609,1,0,109368,0,2
+217611,Achieved Grievous Gladiator (2v2) title.,0,0,4,0,0,0
+217612,Grievous Gladiator from 2v2,217611,1,0,109369,0,2
+217613,Achieved Prideful Gladiator (2v2) title.,0,0,4,0,0,0
+217614,Prideful Gladiator (2v2),217613,1,0,109370,0,2
+217615,Achieved Malevolent Gladiator (5v5) title.,0,0,4,0,0,0
+217616,Malevolent Gladiator (5v5),217615,1,0,109371,0,2
+217617,Achieved Tyrannical Gladiator (5v5) title.,0,0,4,0,0,0
+217618,Tyrannical Gladiator (5v5),217617,1,0,109372,0,2
+217619,Achieved Grievous Gladiator (5v5) title,0,0,4,0,0,0
+217620,Grievous Gladiator (5v5),217619,1,0,109373,0,2
+217621,Achieved Prideful Gladiator (5v5) title.,0,0,4,0,0,0
+217622,Prideful Gladiator (5v5),217621,1,0,109374,0,2
+218159,Achieved Undisputed Gladiator Season 12,0,0,4,0,0,0
+218160,Undisputed Gladiator Season 12,218159,1,0,109553,0,2
+218161,Achieved Undisputed Gladiator Season 13,0,0,4,0,0,0
+218162,Undisputed Gladiator Season 13,218161,1,0,109554,0,2
+218163,Achieved Undisputed Gladiator Season 14,0,0,4,0,0,0
+218164,Undisputed Gladiator Season 14,218163,1,0,109555,0,2
+218165,Achieved Undisputed Gladiator Season 15,0,0,4,0,0,0
+218166,Undisputed Gladiator Season 15,218165,1,0,109556,0,2
