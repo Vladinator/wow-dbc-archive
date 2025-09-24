@@ -33374,7 +33374,7 @@ Your $?s108499[Fel Imp][Imp]'s Firebolt cast time is reduced by 50% and fires in
 
 Increases your $?s108499[Voidlord][Voidwalker]'s total armor by $s1%.
 
-Your $?s108499[Shivarra][Succubus]'s $?s108499[Mesmerizes][Seduction] ability also removes all damage over time effects from the target.
+Your $?s108499[Shivarra and Archincubus][Succubus and Incubus]'s $?s108499[Mesmerizes][Seduction] ability also removes all damage over time effects from the target.
 
 When your $?s108499[Observer][Felhunter] uses $?s108499[Clone Magic][Devour Magic], you will also be healed for that amount.
 
@@ -51760,7 +51760,7 @@ You can, however, still blink."
 78628,,Arrest Ambassador Slaghammer.,
 78630,,Cosmetic version of Scalable chain lightning spell,
 78631,"Guild Perk, Rank 1",Experience gained from killing monsters and completing quests increased by $s1%.,
-78632,"Guild Perk, Rank 2",Experience gained from killing monsters and completing quests increased by $s1%.,
+78632,"Guild Perk, Rank 2",Experience gained from killing monsters and completing quests increased by $<mult>%.,
 78633,Guild Perk,Increases speed while mounted by $s1%.  Not active in Battlegrounds or Arenas.,
 78634,"Guild Perk, Rank 1",Reputation gained from killing monsters and completing quests increased by $s1%.,
 78635,"Guild Perk, Rank 2",Reputation gained from killing monsters and completing quests increased by $s1%.,
@@ -56372,7 +56372,7 @@ Movement speed reduced by $s2%."
 84648,,,
 84649,,,
 84651,,"Heals all allies within $84651A1 yards for $84651s2 health per second. In addition, these targets will also gain $84651s3% increased damage for $84651d. This effect stacks.",Damage increased by $s3%.
-84654,,"Your training allows you to recognize and take advantage of the natural ebb and flow of combat.  Your Sinister Strike and Revealing Strike abilities increase your damage dealt by up to $84747s1%.  After reaching this maximum, the effect will fade after $84747d and the cycle will begin anew.",
+84654,,"Your training allows you to recognize and take advantage of the natural ebb and flow of combat.  Your Sinister Strike and Revealing Strike abilities increase your damage dealt by up to $s1%.  After reaching this maximum, the effect will fade after $84747d and the cycle will begin anew.",
 84655,,Killing an enemy in Tol Barad has made you eligible to pilot a vehicle.,"After earning an Honorable Kill, you may now pilot Abandoned Siege Vehicles."
 84656,,,
 84657,,,Your Feralas Sentinel will assist you against the Grimtotem tauren on Darkcloud Pinnacle.
@@ -56443,9 +56443,9 @@ Reduces the pushback suffered from damaging attacks by $s1% while casting Healin
 84742,,"Charges at an enemy, knocking it back and inflicting $s3 Physical damage.",
 84743,,,
 84744,,,
-84745,,$@spelldesc84654,Damage dealt increased by $s1%.
-84746,,$@spelldesc84654,Damage dealt increased by $s2%.
-84747,,$@spelldesc84654,Damage dealt increased by $s1%.
+84745,,$@spelldesc84654,Damage dealt increased by $w1%.
+84746,,$@spelldesc84654,Damage dealt increased by $w1%.
+84747,,$@spelldesc84654,Damage dealt increased by $w1%.
 84748,,,
 84749,,,
 84750,,,
@@ -106353,6 +106353,7 @@ Reduces max health."
 1229476,,,
 1230531,,,
 1231991,,,
+1236264,,,
 1236589,,,
 1237138,,,
 1237640,,,
@@ -106411,13 +106412,22 @@ This can occur once every $proccooldown seconds."
 Direct attacks unleash an echo of Xuen's ferocity. A bolt of lightning is hurled at the enemy dealing $1244317s1 Nature damage and then jumps to nearby enemies. This can occur once every $proccooldown sec."
 1243316,,,"Your Strength, and Agility are increased by $s1% and your Stamina is increased by $s2%."
 1243374,,,
+1243779,,,
+1243909,,,
+1243916,,,
 1243917,Special Ability,,
+1243919,,,
 1243924,,,
+1243925,,,
+1243928,,,
 1243929,,,"Damage increased by $s1%.
 Health increased by $s2%.
 
 Boss attacks have a chance to summon a lieutenant of Grand Empress Shek'zeer"
+1243935,,,
+1243938,,,
 1243949,,,
+1243985,,,
 1244160,,,
 1244181,,,
 1244186,,,
@@ -106522,10 +106532,12 @@ Only usable outside of Arenas and Battlegrounds.",Melee and ranged attack speed 
 1249252,,,
 1249459,,"Throws your weapon at the enemy causing $?s12712[${$64382m1*1.2}][$64382m1] damage, reducing the armor on the target by $64382s2% for $64382d or removing any invulnerabilities.",Armor reduced by $s2%.
 1249613,,"Deliver an armor-shattering blow to your enemy, causing $m1 damage, reducing armor on the target by $s2% for $d or removing any invulnerabilities.  Using this ability activates Cat Form.",Armor reduced by $s2%.
+1249659,,Summons and dismisses a rideable Sha-scarred Drake.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
 1249662,,"Increases attack power for $d.  This effect can be disabled by abilities which dispel Enrage$?s55694[, but does not activate Enraged Regeneration.][.]","Increases attack power by $w1.
 $?s55694[Cannot be consumed to activate Enraged Regeneration.][]"
 1249665,,,Damage dealt reduced by $s1%.
 1249666,,Causes $s1 Nature damage to the target.,
+1250019,,,
 1250172,,Creates a cloud of thick smoke in an $a1 yard radius around the Rogue for $d. Enemies are unable to target into or out of the smoke cloud.,A smoke cloud interferes with targeting.
 1250229,,,
 1250380,,,
@@ -106539,12 +106551,15 @@ Generate $/10;s4 additional Rage for every yard traveled up to $s4 yards.",
 1250904,,,
 1251365,,,
 1251700,,You're a Level 85 Monk.  Grats!,
+1253673,,,
 1254079,,,
 1254094,,,
 1254951,,$@spelldesc113724,
 1256744,,,
 1256843,,,
 1256844,,,
+1257681,,Unlocks 100% bonus reputation gain with The Black Prince for all characters on this account.,
+1257682,,Permanently enchants a weapon to increase your PvP Power by $s1 and reduces the duration of Disarm effects by $43588s1%. Disarm duration reduction does not stack with other similar effects.,
 1258214,Summon,"Summons an Incubus who attacks the target for $108501s1 sec.
 
 Incubi will seduce their target if it is Humanoid.",
@@ -106554,3 +106569,15 @@ Archincubi are dangerous, close-range spellcasters. They$?s103140[ turn invisibl
 
 |cFFFFFFFFSoulburn:|r
 |cFF8282FFInstant cast.|r][]",
+1258539,,"When one of your characters reaches maximum Conquest Points for the week, all of your characters on the same realm earn $s1% additional Conquest Points.",All of your characters on this realm earn $s1% additional Conquest Points.
+1260478,,Grant yourself ${$s1/100} Honor.,
+1260495,,Grant yourself ${$s1/100} Justice Points.,
+1260497,,Grant yourself ${$s1/100} Conquest.,
+1260498,,Grant yourself ${$s1/100} Valor.,
+1260818,,Awards yourself ${$m1/100} Justice points,
+1260886,,Awards yourself ${$m1/100} Honor points,
+1262327,,"Right Click to summon the Black Brewmaiden, who will smite your foes with your empty tankards. Wave at her for Brewfest Brew!",
+1262332,,Inflicts $s1 Nature damage to target.,
+1262345,,"Right Click to summon the Brewmaiden, whose very presence bolsters a party's vigor. Wave at her for Brewfest Brew!",
+1262352,Rank 7,Heals $s1 every $t1 seconds.,Heals $s1 every $t1 seconds.
+1264279,,,

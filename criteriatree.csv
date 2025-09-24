@@ -7755,7 +7755,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 10559,Emerald Drake,10556,1,0,7178,2,0
 10561,Earn the Gladiator title in an arena season.,0,1,8,0,0,0
 10562,Deadly Gladiator,10561,1,0,10881,1,2
-10563,Gladiator,10561,1,0,7412,0,2
+10563,Gladiator,10561,1,0,108704,0,2
 10564,Furious Gladiator,10561,1,0,12999,2,2
 10565,Relentless Gladiator,10561,1,0,13000,3,2
 10566,Vicious Gladiator,10561,1,0,18114,4,2
@@ -8530,9 +8530,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 12725,Earn the Challenger title in an arena season.,0,1,8,0,0,0
 12726,Deadly Gladiator,12725,1,0,10881,4,2
 12727,Challenger,12725,1,0,7408,0,2
-12728,Rival,12725,1,0,9719,1,2
-12729,Duelist,12725,1,0,9720,2,2
-12730,Gladiator,12725,1,0,7412,3,2
+12728,Rival,12725,1,0,108705,1,2
+12729,Duelist,12725,1,0,108703,2,2
+12730,Gladiator,12725,1,0,108704,3,2
 12731,Furious Gladiator,12725,1,0,12999,5,2
 12732,Relentless Gladiator,12725,1,0,13000,6,2
 12733,Ruthless Gladiator,12725,1,0,18843,8,2
@@ -8540,9 +8540,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 12735,Vicious Gladiator,12725,1,0,18114,7,2
 12737,Earn the Rival title in an arena season.,0,1,8,0,0,0
 12738,Deadly Gladiator,12737,1,0,10881,3,2
-12739,Rival,12737,1,0,9719,0,2
-12740,Duelist,12737,1,0,9720,1,2
-12741,Gladiator,12737,1,0,7412,2,2
+12739,Rival,12737,1,0,108705,0,2
+12740,Duelist,12737,1,0,108703,1,2
+12741,Gladiator,12737,1,0,108704,2,2
 12742,Furious Gladiator,12737,1,0,12999,4,2
 12743,Relentless Gladiator,12737,1,0,13000,5,2
 12744,Ruthless Gladiator,12737,1,0,18843,7,2
@@ -9861,8 +9861,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 14309,Assault a flag in Arathi Basin,14305,1,0,6643,3,0
 14311,Earn the Duelist title in an arena season.,0,1,8,0,0,0
 14312,Deadly Gladiator,14311,1,0,10881,2,2
-14313,Duelist,14311,1,0,9720,0,2
-14314,Gladiator,14311,1,0,7412,1,2
+14313,Duelist,14311,1,0,108703,0,2
+14314,Gladiator,14311,1,0,108704,1,2
 14315,Furious Gladiator,14311,1,0,12999,3,2
 14316,Relentless Gladiator,14311,1,0,13000,4,2
 14317,Vicious Gladiator,14311,1,0,18114,5,2
@@ -22260,9 +22260,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 30244,Brew the Boomer Brew without anyone in your party being hit by lightning.,0,0,4,0,0,0
 30245,Lightning successfully dodged.,30244,1,0,19563,0,0
 30246,Sra'vess,23212,1,0,22167,9,0
-30247,Protector Yi,23780,0,0,22174,3,0
-30248,Fei Li,23780,0,0,22174,0,0
-30249,Taoshi,23780,0,0,22174,6,0
+30247,Protector Yi,23780,0,0,109535,3,0
+30248,Fei Li,23780,0,0,109535,0,0
+30249,Taoshi,23780,0,0,109535,6,0
 30250,Earn 50 pet battle achievement points,0,0,4,0,0,0
 30251,,30250,50,0,21256,0,0
 30252,Earn 150 pet battle achievement points,0,0,4,0,0,0
@@ -23191,10 +23191,10 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 31626,Nalak,31625,1,0,22643,0,2
 31627,Scenario - Theramore (H) - Key Looted,0,0,4,0,0,0
 31628,,31627,1,0,21241,0,2
-31629,A Test of Valor [Alliance],0,300000,6,0,0,1
-31630,Valor Points,31629,300000,0,22644,0,1
-31631,A Test of Valor [Horde],0,300000,6,0,0,1
-31632,Valor Points,31631,300000,0,22645,0,1
+31629,A Test of Valor [Alliance],0,160000,6,0,0,1
+31630,Valor Points,31629,160000,0,22644,0,1
+31631,A Test of Valor [Horde],0,160000,6,0,0,1
+31632,Valor Points,31631,160000,0,22645,0,1
 31633,,2967,1,0,22622,89,2
 31634,,2967,1,0,22626,90,2
 31635,,2967,1,0,22625,91,2
@@ -23604,8 +23604,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 32137,Iron Qon,32136,1,0,22921,0,2
 32138,Reach level 60 - Riding Trainer Quest.,0,0,4,0,0,0
 32139,Reach level 60,32138,60,0,22924,0,2
-32140,Valor Points,31629,300000,0,22645,1,1
-32141,Valor Points,31631,300000,0,22644,1,1
+32140,Valor Points,31629,160000,0,22645,1,1
+32141,Valor Points,31631,160000,0,22644,1,1
 32142,5.2 Legendary Scenario - Thunder Forge Started,0,0,4,0,0,0
 32143,Start the Thunder Forge,32142,0,0,22925,0,0
 32144,Reputation - Pandaria - Dominance Offensive - Exalted,0,0,4,0,0,0
@@ -23638,8 +23638,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 32171,,32170,0,0,22935,0,2
 32172,,32170,1,0,22936,1,2
 32173,Destroy the Sha Amalgamation,31814,0,0,22937,0,0
-32174,Achieved Malevolent Gladiator title.,0,0,4,0,0,0
-32175,Malevolent Gladiator,32174,1,0,22938,0,2
+32174,Achieved Malevolent Gladiator (3v3) title.,0,0,4,0,0,0
+32175,Malevolent Gladiator (3v3),32174,1,0,22938,0,2
 32176,Obtain the Malevolent Gladiator's Cloud Serpent from Arena Season 12 of Mists of Pandaria,0,1,8,0,0,0
 32177,,32176,1,0,22939,0,2
 32179,,31819,5,0,22941,1,0
@@ -23997,7 +23997,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 32616,Tian Monastery,32615,1,0,23248,1,0
 32617,Tian Monastery,10664,1,8,0,7,16
 32618,Tian Monastery,32617,1,0,23248,1,0
-32619,Malevolent Gladiator,10561,0,0,22938,7,2
+32619,Malevolent Gladiator,10561,1,0,22938,7,2
 32620,Malevolent Gladiator,14311,0,0,22938,8,2
 32621,Malevolent Gladiator,12737,0,0,22938,9,2
 32622,Malevolent Gladiator,12725,0,0,22938,10,2
@@ -25041,9 +25041,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 33968,,33967,90,0,23884,0,2
 33969,Reach level 90 - Timewalker Isle Breadcrumb (A),0,0,4,0,0,0
 33970,,33969,90,0,23885,0,2
-33979,Tyrannical Gladiator,10561,0,0,23888,8,2
-33980,Grievous Gladiator,10561,0,0,23889,9,2
-33981,Prideful Gladiator,10561,0,0,23890,10,2
+33979,Tyrannical Gladiator,10561,1,0,23888,8,2
+33980,Grievous Gladiator,10561,1,0,23889,9,2
+33981,Prideful Gladiator,10561,1,0,23890,10,2
 33983,"Defeat Immerseus after killing 10 Tears of the Vale in Siege of Orgrimmar on Flexible, Normal, or Heroic difficulty.",0,0,4,0,0,0
 33984,,33983,1,0,23891,0,2
 33987,Kill 18 Kor'kron Warbringers with a single Iron Star.,0,0,4,0,0,0
@@ -25428,8 +25428,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 34446,Yu'lon,34442,1,0,24150,3,0
 34447,Kill Ordos (Guild Run),0,0,4,0,0,0
 34448,,34447,1,0,24171,0,2
-34449,Achieved Tyrannical Gladiator title.,0,0,4,0,0,0
-34450,Tyrannical Gladiator,34449,1,0,24152,0,2
+34449,Achieved Tyrannical Gladiator (3v3) title.,0,0,4,0,0,0
+34450,Tyrannical Gladiator (3v3),34449,1,0,24152,0,2
 34471,Proud owner of Murkalot from the 2013 BlizzCon.,0,1,8,0,0,0
 34472,,34471,1,0,24154,0,2
 34473,,34471,0,0,24155,1,2
@@ -25609,8 +25609,10 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 121552,Vis'kag the Bloodletter,121541,1,0,4283,9,2
 121553,Ancient Cornerstone Grimoire,121541,1,0,4272,10,2
 121554,Sapphiron Drape,121541,1,0,4285,4,2
+121716,Complete 100 victories in Eye of the Storm,0,100,5,0,0,0
 121899,,0,0,4,0,0,0
 121900,15 reputations to Exalted,121899,15,0,982,0,1
+123016,,0,0,5,0,0,0
 123020,,0,0,4,0,0,0
 123021,Get a reputation to exalted,123020,1,0,982,0,2
 123022,,0,0,4,0,0,0
@@ -25664,6 +25666,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 126661,50 Dalaran Cooking Awards,126660,50,0,7262,0,3
 126937,,0,0,4,0,0,0
 126938,Obtain 15 companion pets,126937,15,0,4788,0,1
+126970,Capture the flag,0,1,8,0,0,0
 127040,,0,0,4,0,0,0
 127041,Obtain 25 companion pets,127040,25,0,4788,0,1
 127178,,0,0,4,0,0,0
@@ -27640,7 +27643,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 207737,,207736,5,0,103584,0,0
 207738,5 Talent Points Allocated,0,10,4,0,0,4096
 207739,,207738,5,0,103585,0,0
-210534,,10687,42000,0,17023,7,2
+209977,Eye of the Storm victories,123016,0,0,5897,1,0
+209978,Complete 100 victories in Eye of the Storm,121716,100,0,5745,0,3
+209979,Capture the flag,126970,1,0,33092,1,2
 210767,[DNT] Joyous Journeys - Reach Level 85 with buff Joyous Journeys (hidden),0,0,4,0,0,2
 210768,,210767,85,0,105446,0,2
 212123,Pandaren Quest Tracking,0,1,8,0,0,0
@@ -27685,6 +27690,31 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 213952,Sha of Fear,213951,1,0,107387,0,2
 213953,Realm First! Ra-den (10 player),0,0,4,0,0,0
 213954,,213953,1,0,107388,0,2
+215945,Achieved Prideful Gladiator (3v3) title.,0,0,4,0,0,0
+215946,Prideful Gladiator (3v3),215945,1,0,23890,0,2
+215947,Achieved Grievous Gladiator (3v3) title.,0,0,4,0,0,0
+215948,Grievous Gladiator (3v3),215947,1,0,23889,0,2
+215949,Tyrannical Gladiator,12725,0,0,23888,11,2
+215950,Greivous Gladiator,12725,0,0,23889,12,2
+215951,Prideful Gladiator,12725,0,0,23890,13,2
+215952,Tyrannical Gladiator,12737,0,0,23888,10,2
+215953,Prideful Gladiator,12737,0,0,23890,11,2
+215954,Greivous Gladiator,12737,0,0,23889,12,2
+215955,Tyrannical Gladiator,14311,0,0,23888,9,2
+215956,Prideful Gladiator,14311,0,0,23890,10,2
+215957,Greivous Gladiator,14311,0,0,23889,11,2
+215968,Player is Horde and Achieved Hero of the Faction (RBG top .5%),0,0,4,0,0,0
+215969,,215968,1,0,108716,0,2
+215970,Player is Horde and Achieved Hero of the Faction (RBG top .5%),0,0,4,0,0,0
+215971,,215970,1,0,108719,0,2
+215972,Player is Horde and Achieved Hero of the Faction (RBG top .5%),0,0,4,0,0,0
+215973,,215972,1,0,108721,0,2
+215974,Player is Alliance and Achieved Hero of the Faction (RBG top .5%),0,0,4,0,0,0
+215975,,215974,1,0,108717,0,2
+215976,Player is Alliance and Achieved Hero of the Faction (RBG top .5%),0,0,4,0,0,0
+215977,,215976,1,0,108718,0,2
+215978,Player is Alliance and Achieved Hero of the Faction (RBG top .5%),0,0,4,0,0,0
+215979,,215978,1,0,108720,0,2
 215980,Player is Horde and Achieved Hero of the Faction (RBG top .5%),0,0,4,0,0,0
 215981,,215980,1,0,106407,0,2
 215982,Player is Alliance and Achieved Hero of the Faction (RBG top .5%),0,0,4,0,0,0
@@ -28083,3 +28113,193 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 217479,Gilneas/Bilgewater,22321,1,8,0,73,2
 217480,Gilneas,217479,42000,0,16826,0,2
 217481,Bilgewater,217479,42000,0,16825,1,2
+217539,The Black Prince Bonus Reputation,0,0,4,0,0,0
+217540,Use the item to get 50% bonus The Black rep on The Black Prince kill,217539,1,0,109319,0,256
+217607,Achieved Malevolent Gladiator (2v2) title.,0,0,4,0,0,0
+217608,Malevolent Gladiator (2v2),217607,1,0,109367,0,2
+217609,Achieved Tyrannical Gladiator (2v2) title.,0,0,4,0,0,0
+217610,Tyrannical Gladiator (2v2),217609,1,0,109368,0,2
+217611,Achieved Grievous Gladiator (2v2) title.,0,0,4,0,0,0
+217612,Grievous Gladiator from 2v2,217611,1,0,109369,0,2
+217613,Achieved Prideful Gladiator (2v2) title.,0,0,4,0,0,0
+217614,Prideful Gladiator (2v2),217613,1,0,109370,0,2
+217615,Achieved Malevolent Gladiator (5v5) title.,0,0,4,0,0,0
+217616,Malevolent Gladiator (5v5),217615,1,0,109371,0,2
+217617,Achieved Tyrannical Gladiator (5v5) title.,0,0,4,0,0,0
+217618,Tyrannical Gladiator (5v5),217617,1,0,109372,0,2
+217619,Achieved Grievous Gladiator (5v5) title,0,0,4,0,0,0
+217620,Grievous Gladiator (5v5),217619,1,0,109373,0,2
+217621,Achieved Prideful Gladiator (5v5) title.,0,0,4,0,0,0
+217622,Prideful Gladiator (5v5),217621,1,0,109374,0,2
+218159,Achieved Undisputed Gladiator Season 12,0,0,4,0,0,0
+218160,Undisputed Gladiator Season 12,218159,1,0,109553,0,2
+218161,Achieved Undisputed Gladiator Season 13,0,0,4,0,0,0
+218162,Undisputed Gladiator Season 13,218161,1,0,109554,0,2
+218163,Achieved Undisputed Gladiator Season 14,0,0,4,0,0,0
+218164,Undisputed Gladiator Season 14,218163,1,0,109555,0,2
+218165,Achieved Undisputed Gladiator Season 15,0,0,4,0,0,0
+218166,Undisputed Gladiator Season 15,218165,1,0,109556,0,2
+218564,Earn 27000 Conquest Points in Season 12 (H),0,0,4,0,0,0
+218565,,218564,1,0,109772,0,2
+218566,Earn 27000 Conquest Points in Season 12 (A),0,0,4,0,0,0
+218567,,218566,1,0,109772,0,2
+218570,Earn 27000 Conquest Points in Season 13 (A),0,0,4,0,0,0
+218571,,218570,1,0,109775,0,2
+218572,Earn 27000 Conquest Points in Season 13 (H),0,0,4,0,0,0
+218573,,218572,1,0,109775,0,2
+218590,Centaur,22321,1,8,0,74,2
+218591,Magram Clan Centaur,218590,42000,0,109787,0,2
+218592,Gelkis Clan Centaur,218590,42000,0,109786,1,2
+218593,The Anglers,22321,42000,0,19392,75,2
+218594,Pearlfin Jinyu/Forest Hozen,22321,1,8,0,76,2
+218595,Forest Hozen,218594,42000,0,109790,0,2
+218596,Pearlfin Jinyu,218594,42000,0,109789,1,2
+218597,Huojin/Tushui Pandaren,22321,1,8,0,77,2
+218598,Huojin Pandaren,218597,42000,0,19480,0,2
+218599,Tushui Pandaren,218597,42000,0,19481,1,2
+218600,Alliance Vanguard/Horde Expedition,22321,1,8,0,78,2
+218601,Alliance Vanguard,218600,42000,0,2425,0,2
+218602,Horde Expedition,218600,42000,0,2422,1,2
+218603,Huojin/Tushui Pandaren,22527,1,8,0,74,2
+218604,Huojin Pandaren,218603,42000,0,19480,0,2
+218605,Tushui Pandaren,218603,42000,0,19481,1,2
+218606,Centaur,22527,1,8,0,75,2
+218607,Magram Clan Centaur,218606,42000,0,109787,0,2
+218608,Gelkis Clan Centaur,218606,42000,0,109786,1,2
+218609,The Anglers,22527,42000,0,19392,76,2
+218611,Alliance Vanguard/Horde Expedition,22527,1,8,0,77,2
+218612,Alliance Vanguard,218611,42000,0,2425,0,2
+218613,Horde Expedition,218611,42000,0,2422,1,2
+218614,Pearlfin Jinyu/Forest Hozen,22527,1,8,0,78,2
+218615,Forest Hozen,218614,42000,0,109790,0,2
+218616,Pearlfin Jinyu,218614,42000,0,109789,1,2
+218618,Huojin/Tushui Pandaren,165515,1,8,0,74,2
+218619,Huojin Pandaren,218618,42000,0,19480,0,2
+218620,Tushui Pandaren,218618,42000,0,19481,1,2
+218621,Centaur,165515,1,8,0,75,2
+218622,Magram Clan Centaur,218621,42000,0,109787,0,2
+218623,Gelkis Clan Centaur,218621,42000,0,109786,1,2
+218624,The Anglers,165515,42000,0,19392,76,2
+218625,Alliance Vanguard/Horde Expedition,165515,1,8,0,77,2
+218626,Alliance Vanguard,218625,42000,0,2425,0,2
+218627,Horde Expedition,218625,42000,0,2422,1,2
+218628,Pearlfin Jinyu/Forest Hozen,165515,1,8,0,78,2
+218629,Forest Hozen,218628,42000,0,109790,0,2
+218630,Pearlfin Jinyu,218628,42000,0,109789,1,2
+218631,Huojin/Tushui Pandaren,165412,1,8,0,74,2
+218632,Huojin Pandaren,218631,42000,0,19480,0,2
+218633,Tushui Pandaren,218631,42000,0,19481,1,2
+218634,Centaur,165412,1,8,0,75,2
+218635,Magram Clan Centaur,218634,42000,0,109787,0,2
+218636,Gelkis Clan Centaur,218634,42000,0,109786,1,2
+218637,The Anglers,165412,42000,0,19392,76,2
+218638,Alliance Vanguard/Horde Expedition,165412,1,8,0,77,2
+218639,Alliance Vanguard,218638,42000,0,2425,0,2
+218640,Horde Expedition,218638,42000,0,2422,1,2
+218641,Pearlfin Jinyu/Forest Hozen,165412,1,8,0,78,2
+218642,Forest Hozen,218641,42000,0,109790,0,2
+218643,Pearlfin Jinyu,218641,42000,0,109789,1,2
+218644,Huojin/Tushui Pandaren,165309,1,8,0,74,2
+218645,Huojin Pandaren,218644,42000,0,19480,0,2
+218646,Tushui Pandaren,218644,42000,0,19481,1,2
+218647,Centaur,165309,1,8,0,75,2
+218648,Magram Clan Centaur,218647,42000,0,109787,0,2
+218649,Gelkis Clan Centaur,218647,42000,0,109786,1,2
+218650,The Anglers,165309,42000,0,19392,76,2
+218651,Alliance Vanguard/Horde Expedition,165309,1,8,0,77,2
+218652,Alliance Vanguard,218651,42000,0,2425,0,2
+218653,Horde Expedition,218651,42000,0,2422,1,2
+218654,Pearlfin Jinyu/Forest Hozen,165309,1,8,0,78,2
+218655,Forest Hozen,218654,42000,0,109790,0,2
+218656,Pearlfin Jinyu,218654,42000,0,109789,1,2
+218657,Huojin/Tushui Pandaren,165206,1,8,0,74,2
+218658,Huojin Pandaren,218657,42000,0,19480,0,2
+218659,Tushui Pandaren,218657,42000,0,19481,1,2
+218660,Centaur,165206,1,8,0,75,2
+218661,Magram Clan Centaur,218660,42000,0,109787,0,2
+218662,Gelkis Clan Centaur,218660,42000,0,109786,1,2
+218663,The Anglers,165206,42000,0,19392,76,2
+218664,Alliance Vanguard/Horde Expedition,165206,1,8,0,77,2
+218665,Alliance Vanguard,218664,42000,0,2425,0,2
+218666,Horde Expedition,218664,42000,0,2422,1,2
+218667,Pearlfin Jinyu/Forest Hozen,165206,1,8,0,78,2
+218668,Forest Hozen,218667,42000,0,109790,0,2
+218669,Pearlfin Jinyu,218667,42000,0,109789,1,2
+218670,Huojin/Tushui Pandaren,165103,1,8,0,74,2
+218671,Huojin Pandaren,218670,42000,0,19480,0,2
+218672,Tushui Pandaren,218670,42000,0,19481,1,2
+218673,Centaur,165103,1,8,0,75,2
+218674,Magram Clan Centaur,218673,42000,0,109787,0,2
+218675,Gelkis Clan Centaur,218673,42000,0,109786,1,2
+218676,The Anglers,165103,42000,0,19392,76,2
+218677,Alliance Vanguard/Horde Expedition,165103,1,8,0,77,2
+218678,Alliance Vanguard,218677,42000,0,2425,0,2
+218679,Horde Expedition,218677,42000,0,2422,1,2
+218680,Pearlfin Jinyu/Forest Hozen,165103,1,8,0,78,2
+218681,Forest Hozen,218680,42000,0,109790,0,2
+218682,Pearlfin Jinyu,218680,42000,0,109789,1,2
+218683,Huojin/Tushui Pandaren,165000,1,8,0,74,2
+218684,Huojin Pandaren,218683,42000,0,19480,0,2
+218685,Tushui Pandaren,218683,42000,0,19481,1,2
+218686,Centaur,165000,1,8,0,75,2
+218687,Magram Clan Centaur,218686,42000,0,109787,0,2
+218688,Gelkis Clan Centaur,218686,42000,0,109786,1,2
+218689,The Anglers,165000,42000,0,19392,76,2
+218690,Alliance Vanguard/Horde Expedition,165000,1,8,0,77,2
+218691,Alliance Vanguard,218690,42000,0,2425,0,2
+218692,Horde Expedition,218690,42000,0,2422,1,2
+218693,Pearlfin Jinyu/Forest Hozen,165000,1,8,0,78,2
+218694,Forest Hozen,218693,42000,0,109790,0,2
+218695,Pearlfin Jinyu,218693,42000,0,109789,1,2
+218696,Huojin/Tushui Pandaren,164897,1,8,0,74,2
+218697,Huojin Pandaren,218696,42000,0,19480,0,2
+218698,Tushui Pandaren,218696,42000,0,19481,1,2
+218699,Centaur,164897,1,8,0,75,2
+218700,Magram Clan Centaur,218699,42000,0,109787,0,2
+218701,Gelkis Clan Centaur,218699,42000,0,109786,1,2
+218702,The Anglers,164897,42000,0,19392,76,2
+218703,Alliance Vanguard/Horde Expedition,164897,1,8,0,77,2
+218704,Alliance Vanguard,218703,42000,0,2425,0,2
+218705,Horde Expedition,218703,42000,0,2422,1,2
+218706,Pearlfin Jinyu/Forest Hozen,164897,1,8,0,78,2
+218707,Forest Hozen,218706,42000,0,109790,0,2
+218708,Pearlfin Jinyu,218706,42000,0,109789,1,2
+218709,Huojin/Tushui Pandaren,164794,1,8,0,74,2
+218710,Huojin Pandaren,218709,42000,0,19480,0,2
+218711,Tushui Pandaren,218709,42000,0,19481,1,2
+218712,Centaur,164794,1,8,0,75,2
+218713,Magram Clan Centaur,218712,42000,0,109787,0,2
+218714,Gelkis Clan Centaur,218712,42000,0,109786,1,2
+218715,The Anglers,164794,42000,0,19392,76,2
+218716,Alliance Vanguard/Horde Expedition,164794,1,8,0,77,2
+218717,Alliance Vanguard,218716,42000,0,2425,0,2
+218718,Horde Expedition,218716,42000,0,2422,1,2
+218719,Pearlfin Jinyu/Forest Hozen,164794,1,8,0,78,2
+218720,Forest Hozen,218719,42000,0,109790,0,2
+218721,Pearlfin Jinyu,218719,42000,0,109789,1,2
+218722,Huojin/Tushui Pandaren,164691,1,8,0,74,2
+218723,Huojin Pandaren,218722,42000,0,19480,0,2
+218724,Tushui Pandaren,218722,42000,0,19481,1,2
+218725,Centaur,164691,1,8,0,75,2
+218726,Magram Clan Centaur,218725,42000,0,109787,0,2
+218727,Gelkis Clan Centaur,218725,42000,0,109786,1,2
+218728,The Anglers,164691,42000,0,19392,76,2
+218729,Alliance Vanguard/Horde Expedition,164691,1,8,0,77,2
+218730,Alliance Vanguard,218729,42000,0,2425,0,2
+218731,Horde Expedition,218729,42000,0,2422,1,2
+218732,Pearlfin Jinyu/Forest Hozen,164691,1,8,0,78,2
+218733,Forest Hozen,218732,42000,0,109790,0,2
+218734,Pearlfin Jinyu,218732,42000,0,109789,1,2
+218735,Huojin/Tushui Pandaren,164586,1,8,0,74,2
+218736,Huojin Pandaren,218735,42000,0,19480,0,2
+218737,Tushui Pandaren,218735,42000,0,19481,1,2
+218738,Centaur,164586,1,8,0,75,2
+218739,Magram Clan Centaur,218738,42000,0,109787,0,2
+218740,Gelkis Clan Centaur,218738,42000,0,109786,1,2
+218741,The Anglers,164586,42000,0,19392,76,2
+218742,Alliance Vanguard/Horde Expedition,164586,1,8,0,77,2
+218743,Alliance Vanguard,218742,42000,0,2425,0,2
+218744,Horde Expedition,218742,42000,0,2422,1,2
+218745,Pearlfin Jinyu/Forest Hozen,164586,1,8,0,78,2
+218746,Forest Hozen,218745,42000,0,109790,0,2
+218747,Pearlfin Jinyu,218745,42000,0,109789,1,2
