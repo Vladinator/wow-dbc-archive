@@ -1770,3 +1770,44 @@ function raid_undermine_boss_ogre_gangster_charged_shot_front_sahm(elapsedMs, x,
 
 end
 ",Scott Morin,0,46
+111294,11.2.5 Remix - Legion - Skyriding Combat - Abilities - Homing Detection,"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@param x number
+---@param y number
+---@param z number
+---@param roll number
+---@param pitch number
+---@param yaw number
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function remix_legion_skyriding_combat_abilities_homing_detection(elapsedMs, x, y, z, roll, pitch, yaw)
+	local wave = math.sin(elapsedMs / 1000)
+	print(x)
+	x = 100
+	return 100, 0, 0, 0, 0, wave
+
+
+end
+",Josh Aaron Miller,0,46
+119645,11.2.5 Remix - Legion - Terror From Below,"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@param x number
+---@param y number
+---@param z number
+---@param roll number
+---@param pitch number
+---@param yaw number
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function remix_legion_terror_from_below(elapsedMs, x, y, z, roll, pitch, yaw)
+
+
+
+end
+",Cameron Rich,0,46

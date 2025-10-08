@@ -7791,9 +7791,9 @@ $bullet;When Serpentrix uses |cFF2959D3|Hspell:191873|h[Submerge]|h|r at 33% and
 12014,Submerge,,1479,9,0,12015,0,2,0,0,191873,463570,1,0,-1
 12015,Blazing Hydra Spawn,Summoned nearby Serpentrix after Emerging.,1479,10,12014,12016,12017,1,65145,0,0,0,0,0,-1
 12016,Section 10,,1479,11,12015,0,0,2,0,0,192003,0,0,64,-1
-12017,Arcane Hydra Spawn,Summoned nearby Serpentrix after Emerging.,1479,12,12014,12018,0,1,65146,0,0,0,2,0,2
-12018,Section 12,,1479,13,12017,12019,0,2,0,0,192005,0,2,64,2
-12019,Section 13,,1479,14,12018,0,0,2,0,0,192007,0,2,0,2
+12017,Arcane Hydra Spawn,Summoned nearby Serpentrix after Emerging.,1479,12,12014,12018,0,1,65146,0,0,0,2,8,2
+12018,Section 12,,1479,13,12017,12019,0,2,0,0,192005,0,0,64,-1
+12019,Section 13,,1479,14,12018,0,0,2,0,0,192007,0,0,0,-1
 12020,Overview,"Warlord Parjesh calls in reinforcements to assist him in combat and hurls an |cFF2959D3|Hspell:191977|h[Impaling Spear]|h|r, striking the first target in a line and inflicting massive damage.",1480,1,0,12021,12024,3,0,0,0,0,0,0,-1
 12021,Damage Dealers,"$bullet;Position yourself behind naga reinforcements when |cFF2959D3|Hspell:191977|h[Impaling Spear]|h|r is being thrown to avoid being pinned.
 $bullet;Kill enemy naga summoned by |cFF2959D3|Hspell:192072|h[Call Reinforcements]|h|r.",1480,2,12020,0,12022,3,0,0,0,0,0,2,-1
@@ -7804,7 +7804,7 @@ $bullet;Gain threat on Hatecoil Shellbreakers when |cFF2959D3|Hspell:192072|h[Ca
 12024,Crashing Wave,,1480,5,0,12025,12026,2,0,0,191919,135861,0,0,-1
 12025,Quicksand,,1480,6,12024,0,0,2,0,0,192053,796634,2,8,2
 12026,Section 7,,1480,7,0,0,12094,2,0,0,191977,0,1,32,-1
-12027,Section 8,,1480,14,0,12028,12259,2,0,0,196563,0,3,0,2
+12027,Section 8,,1480,14,0,12028,12259,2,0,0,196563,0,3,8,2
 12028,Hatecoil Shellbreaker,Assaults players with heavy melee damage.,1480,15,12027,12029,12030,1,20772,0,0,0,0,1,-1
 12029,Section 12,,1480,16,12028,12420,0,2,0,0,192135,0,0,64,-1
 12030,Hatecoil Crestrider,Hurls lightning bolts at random targets.,1480,18,12027,12031,0,1,60790,0,0,0,0,0,-1
@@ -7883,22 +7883,14 @@ $bullet;If Tirathon enters Vengeance form, reposition him to avoid his whirling 
 12090,Section 8,,1492,8,0,0,12272,2,0,0,192696,0,1,1,-1
 12093,Section 9,,1492,14,0,12167,0,2,0,0,192985,0,0,32,-1
 12094,Section 13,,1480,8,0,0,12415,2,0,0,192131,0,0,0,-1
-12095,Overview,"Ash'golm gradually fills the playspace with more and more lava until he is frozen by the room's countermeasures.  Once frozen, Ash'golm becomes Brittle and takes additional damage until he reheats and begins to fill the room with fire once again.",1468,1,0,12096,12099,3,0,0,0,0,0,0,-1
-12096,Tanks,"$bullet;Ash'golm aims his |cFF2959D3|Hspell:192522|h[Fissure]|h|r
- ability in the direction of his current target.
-$bullet;Embers always attack random enemies and cannot be tanked.
-$bullet;Players can absorb lava by moving through it.",1468,2,12095,0,12097,3,0,0,0,0,0,1,-1
-12097,Healers,"$bullet;The entire party will take damage from |cFF2959D3|Hspell:193209|h[Smoldering]|h|r unless Ash'Golm is frozen.
-$bullet;|cFF2959D3|Hspell:192622|h[Volcano]|h|r and |cFF2959D3|Hspell:192631|h[Lava Wreath]|h|r target players at range.
-$bullet;Players can absorb lava by moving through it.",1468,3,12095,0,12098,3,0,0,0,0,0,4,-1
-12098,Damage Dealers,"$bullet;Ash'golm and his Embers will take more damage when they are |cFF2959D3|Hspell:192517|h[Brittle]|h|r.
-$bullet;|cFF2959D3|Hspell:192622|h[Volcano]|h|r and |cFF2959D3|Hspell:192631|h[Lava Wreath]|h|r target players at range.
-$bullet;Players can absorb lava by moving through it.",1468,4,12095,0,0,3,0,0,0,0,0,2,-1
-12099,Section 5,,1468,5,0,0,12101,2,0,0,192519,0,0,32,-1
-12100,Brittle,,1468,13,12727,0,0,2,0,0,192517,0,0,0,-1
-12101,Section 7,,1468,6,0,0,12103,2,0,0,192631,0,0,0,-1
-12102,Section 8,,1468,8,0,12665,12727,2,0,0,192622,0,0,0,-1
-12103,Section 9,,1468,7,0,0,12102,2,0,0,192522,0,0,0,-1
+12095,Overview,"Ash'golm gradually fills the chamber with |cFF2959D3|Hspell:1243622|h[Volcanic Eruption]|h|rs and |cFF2959D3|Hspell:1243632|h[Burning Embers]|h|r until he is frozen by the Warden's |cFF2959D3|Hspell:1244257|h[Deepfreeze Containment]|h|r. 
+
+Once frozen, Ash'golm and all Living Embers becomes |cFF2959D3|Hspell:1244248|h[Brittle]|h|r until he reheats and begins to fill the chamber with flame again.",1468,1,0,12096,33224,3,0,0,0,0,0,0,-1
+12096,Tanks,$bullet;Activating |cFF2959D3|Hspell:1244257|h[Deepfreeze Containment]|h|r removes |cFF2959D3|Hspell:1243566|h[Searing Mountain]|h|r from Ash'golm and causes |cFF2959D3|Hspell:1243622s|h[Volcanic Eruption]|h|r to subside.,1468,2,12095,0,12097,3,0,0,0,0,0,1,-1
+12097,Healers,"$bullet;When |cFF2959D3|Hspell:1243630|h[Burning Ember]|h|r expires, it spawns a Living Ember at the target's location.
+$bullet;Activating |cFF2959D3|Hspell:1244257|h[Deepfreeze Containment]|h|r removes |cFF2959D3|Hspell:1243566|h[Searing Mountain]|h|r from Ash'golm and causes |cFF2959D3|Hspell:1243622s|h[Volcanic Eruption]|h|r to subside.",1468,3,12095,0,12098,3,0,0,0,0,0,4,-1
+12098,Damage Dealers,"$bullet;Activating |cFF2959D3|Hspell:1244257|h[Deepfreeze Containment]|h|r causes Ash'golm and Living Embers to become |cFF2959D3|Hspell:1244248|h[Brittle]|h|r.
+$bullet;When |cFF2959D3|Hspell:1243632|h[Burning Ember]|h|r expires, it spawns a Living Ember at the target's location.",1468,4,12095,0,0,3,0,0,0,0,0,2,-1
 12104,Overview,"Hymdall uses his Horn of Valor to call in Storm Drakes to breathe lightning on the platform. As the fight progresses, the number of drakes called by the Horn of Valor increases.",1485,1,0,12105,12110,3,0,0,0,0,0,0,-1
 12105,Damage Dealers,"$bullet;Avoid standing near |cFF2959D3|Hspell:193235|h[Dancing Blade]|h|r.
 $bullet;Do not be in front of Hymdall as he can cast |cFF2959D3|Hspell:193083|h[Bloodletting Sweep]|h|r without warning.
@@ -7954,7 +7946,7 @@ $bullet;When Ymiron's mana bar fills, he will use |cFF2959D3|Hspell:193211|h[Dar
 12171,Gaseous Explosion,,1491,7,12170,0,12686,2,0,0,193047,0,2,16,1
 12172,Ground Slam,,1491,9,0,0,12173,2,0,0,193093,0,0,1,-1
 12173,Quake,,1491,10,0,12174,0,2,0,0,193152,0,0,0,-1
-12174,Aftershock,,1491,11,12173,0,0,2,0,0,193171,0,3,0,0
+12174,Aftershock,,1491,11,12173,0,0,2,0,0,193171,0,3,4096,0
 12187,Overview,"Corstilax guards the Nightwell breach, attempting to limit players' exposure to |cFF2959D3|Hspell:195362|h[Nightwell Energy]|h|r. Players must free their allies from |cFF2959D3|Hspell:195791|h[Quarantine]|h|r and avoid direct damage from |cFF2959D3|Hspell:196070|h[Suppression Protocol]|h|r.",1498,1,0,12188,12191,3,0,0,0,0,0,0,-1
 12188,Damage Dealers,$bullet;|cFF2959D3|Hspell:195362|h[Nightwell Energy]|h|r significantly increases haste but will cause |cFF2959D3|Hspell:196115|h[Cleansing Force]|h|r to stun you.,1498,2,12187,0,12189,3,0,0,0,0,0,2,-1
 12189,Healers,$bullet;|cFF2959D3|Hspell:196070|h[Suppression Protocol]|h|r inflicts moderate group wide damage.,1498,3,12187,0,12190,3,0,0,0,0,0,4,-1
@@ -7990,9 +7982,9 @@ On Heroic difficulty and higher, this effect stacks.$]",1518,6,12241,0,12243,2,0
 On Mythic difficulty, players damaged by Soul Echoes also flee in fear for $194960d.$]",1518,8,12241,0,0,2,0,0,194960,0,0,0,-1
 12245,Stage Two: The Call of Souls,,1518,9,0,12247,0,0,0,0,0,0,3,8,2
 12246,Tank,$bullet;Move out of the way of |cFF2959D3|Hspell:194956|h[Reap Soul]|h|r to avoid heavy damage.,1518,4,12238,0,0,3,0,0,0,0,0,1,-1
-12247,Section 10,,1518,10,12245,12248,12249,2,0,0,196078,0,0,0,-1
-12248,Section 11,,1518,11,12247,0,0,2,0,0,196930,0,0,0,-1
-12249,Section 12,,1518,12,12245,0,0,2,0,0,196587,0,0,48,-1
+12247,Section 10,,1518,10,12245,12248,12249,2,0,0,196078,0,1,0,-1
+12248,Section 11,,1518,11,12247,0,0,2,0,0,196930,0,0,16,-1
+12249,Section 12,,1518,12,12245,0,0,2,0,0,196587,0,0,32,-1
 12259,Section 14,,1480,21,0,0,0,2,0,0,197064,0,1,0,-1
 12261,Overview,As Ivanyr drains mana from the Night Crystal he grows increasingly powerful.,1497,1,0,12262,12265,3,0,0,0,0,0,0,-1
 12262,Damage Dealers,$bullet;Ivanyr will gain stacks of |cFF2959D3|Hspell:196396|h[Overcharge]|h|r if |cFF2959D3|Hspell:196392|h[Overcharge Mana]|h|r is not interrupted.,1497,2,12261,0,12263,3,0,0,0,0,0,2,-1
@@ -8123,28 +8115,15 @@ $bullet;When Smashspite's Brutality bar fills, he will use |cFF2959D3|Hspell:198
 $bullet;Stand between Smashspite and his target to intercept |cFF2959D3|Hspell:198080|h[Hateful Charge]|h|r if they have the debuff from intercepting an earlier charge and you don't.",1664,3,12376,0,12379,3,0,0,0,0,0,4,-1
 12379,Damage Dealers,$bullet;Stand between Smashspite and his target to intercept |cFF2959D3|Hspell:198080|h[Hateful Charge]|h|r if they have the debuff from intercepting an earlier charge and you don't.,1664,4,12376,0,0,3,0,0,0,0,0,2,-1
 12380,Section 5,,1664,6,0,12381,12382,2,0,0,198079,0,2,8,2
-12381,Section 6,,1664,7,12380,0,0,2,0,0,198080,0,2,8,2
+12381,Section 6,,1664,7,12380,0,0,2,0,0,198080,0,0,8,-1
 12382,Section 7,,1664,8,0,12383,12430,2,0,0,198114,0,0,0,-1
 12383,Section 8,,1664,9,12382,0,0,2,0,0,198245,0,0,5,-1
 12384,Section 10,,1489,11,12375,0,0,2,0,0,198088,0,0,0,-1
 12385,Section 11,,1489,12,0,0,12604,2,0,0,198263,0,0,16,-1
-12386,Overview,"Glazer alternates between two phases. In the first, he follows players around, creating zones of energy meant to foil players' positioning. In the second, he teleports to the center of the room, channeling a beam of instense energy until that players use nearby lenses to redirect the beam to strike his vulnerable rear.",1469,1,0,13899,12390,3,0,0,0,0,0,0,-1
-12387,Tanks,"$bullet;Glazer can be hit by his own |cFF2959D3|Hspell:194880|h[Pulses]|h|r.
-$bullet;Glazer's beam will exit a lens in the direction it is facing. Help direct the beam to hit him in the back using the lenses.
-$bullet;Overloaded Lenses will |cFF2959D3|Hspell:225817|h[Overload]|h|r if hit by a |cFF2959D3|Hspell:202046|h[Beam]|h|r.",1469,3,12386,0,13900,3,0,0,0,0,2,1,0
-12388,Healers,"$bullet;|cFF2959D3|Hspell:194880|h[Pulses]|h|r will bounce off of the walls of the room toward the nearest player.
-$bullet;Glazer's beam will exit a lens in the direction it is facing. Help direct the beam to hit him in the back using the lenses.
-$bullet;The party will take damage from |cFF2959D3|Hspell:195032|h[Radiation]|h|r as long as Glazer is focusing his beam.
-$bullet;Overloaded Lenses will |cFF2959D3|Hspell:225817|h[Overload]|h|r if hit by a |cFF2959D3|Hspell:202046|h[Beam]|h|r.",1469,5,12386,0,12389,3,0,0,0,0,2,4,0
-12389,Damage Dealers,"$bullet;|cFF2959D3|Hspell:194880|h[Pulses]|h|r will bounce off of the walls of the room toward the nearest player.
-$bullet;Glazer's beam will exit a lens in the direction it is facing. Help direct the beam to hit him in the back using the lenses.",1469,6,12386,0,13901,3,0,0,0,0,2,2,3
-12390,Section 5,"$[!2,8,23
- 
-In Heroic Difficulty, Pulses split into smaller pulses when colliding with a player. Only pulses fired from Glazer will split in this manner.$]",1469,8,0,0,12391,2,0,0,214893,0,0,1,-1
-12391,Section 6,,1469,9,0,0,12664,2,0,0,194945,0,0,0,-1
-12392,Section 7,,1469,11,12664,12393,12394,2,0,0,194289,0,0,32,-1
-12393,,,1469,12,12392,0,0,2,0,0,202046,0,0,16,-1
-12394,Section 9,,1469,13,12664,0,13902,2,0,0,195032,0,0,4,-1
+12386,Overview,"Glazer releases chaotic orbs from |cFF2959D3|Hspell:1243769|h[Ocular Blast]|h|r that bounce around the arena.
+
+Upon reaching 100 energy, Glazer begins casting |cFF2959D3|Hspell:1245312|h[Focused Beam]|h|r that can only be interrupted by reflecting it back at him.",1469,1,0,13899,33413,3,0,0,0,0,0,0,-1
+12389,Damage Dealers,"$bullet;Lens' can reflect Glazer's |cFF2959D3|Hspell:1245312|h[Focused Beam]|h|r back at him, interrupting him.",1469,4,12386,0,0,3,0,0,0,0,0,2,-1
 12395,Section 7,,1654,9,12298,0,0,2,0,0,196376,0,0,4,-1
 12396,Overview,Using Elune's Light to properly counter Cordana's abilities is key to successfully defeating her.,1470,1,0,12397,12414,3,0,0,0,0,0,0,-1
 12397,Tanks,"$bullet;|cFF2959D3|Hspell:197513|h[Detonating Moonglaive]|h|r causes you to take increased Physical damage.
@@ -8272,7 +8251,7 @@ $bullet;At 20% health, Naraxas goes into a |cFF2959D3|Hspell:199775|h[Frenzy]|h|
 12526,Section 9,,1673,16,13177,0,0,2,0,0,199246,0,1,0,-1
 12527,Wormspeaker Devout,Leaps in from above and rushes towards Naraxas to be eaten.,1673,14,0,13177,13599,1,65780,0,0,0,1,2,-1
 12528,Section 11,,1673,13,12522,0,0,2,0,0,199775,0,0,1,-1
-12538,Section 7,,1657,12,12317,12853,12547,2,0,0,200185,0,2,0,2
+12538,Section 7,,1657,12,12317,12853,12547,2,0,0,200185,0,2,8,2
 12543,Section 12,,1657,15,12317,13776,0,2,0,0,200050,0,1,0,-1
 12547,Section 13,,1657,14,12317,0,12543,2,0,0,200359,0,0,0,-1
 12575,Overview,"Mindflayer Kaahrj attacks the party with his Shadow Crash and Hysteria spells. At 80% and 40% health, Mindflayer Kaahrj casts Eternal Darkness, ushering in a swathe of Faceless Tendrils to repeatedly damage party members.",1686,1,0,12576,12579,3,0,0,0,0,0,0,-1
@@ -8369,12 +8348,6 @@ $bullet;|cFF2959D3|Hspell:201961|h[Ice Bomb]|h|r inflicts heavy damage to the en
 12662,Tanks,"$bullet;|cFF2959D3|Hspell:201379|h[Frost Breath]|h|r inflicts heavy damage and slows movement speed.
 $bullet;|cFF2959D3|Hspell:201355|h[Wing Buffet]|h|r periodically knocks back all players in front of Shivermaw.",1694,4,12659,0,0,3,0,0,0,0,0,1,-1
 12663,Section 10,,1694,10,0,0,0,2,0,0,202062,0,2,8,2
-12664,Focus,"Glazer focuses his gaze into a fine beam of energy that chases a random player. If this beam is redirected into Glazer's back it stuns him, causing him to take bonus damage while stunned.
-
-While focusing, Radiation affects the entire room periodically.",1469,10,0,12392,0,0,0,0,0,0,0,0,-1
-12665,Ember,"Embers Sear targets at random. If Lava passes under an Ember it will get Fired Up, increasing its damage.",1468,9,12102,12666,0,1,1204,0,0,0,0,0,-1
-12666,Section 11,,1468,10,12665,0,12667,2,0,0,195332,0,0,4,-1
-12667,Section 12,,1468,11,12665,0,0,2,0,0,202169,0,0,16,-1
 12668,Overview,Inquisitor Tormentorum siphons the energy of players and opens prisons at random. These prisons release additional enemies that players must deal with or risk getting overwhelmed.,1695,1,0,12669,12672,3,0,0,0,0,0,0,-1
 12669,Damage Dealers,"$bullet;Interrupt |cFF2959D3|Hspell:200904|h[Sap Soul]|h|r.
 $bullet;Be prepared to dispatch the additional adds Inquisitor Tormentorum frees during the encounter.
@@ -8436,7 +8409,6 @@ In Heroic difficulty, Blood-Princess Thal'ena uses Blood Call to summon a Congea
 12724,Furious Flames,,1467,8,12073,0,0,2,0,0,191853,0,0,16,-1
 12725,Section 15,,1467,17,12083,0,0,2,0,0,202826,0,0,0,-1
 12726,Section 16,,1467,10,12071,0,0,2,0,0,202913,0,0,0,-1
-12727,Countermeasures,Countermeasures are present around the room. Activating any one of these will freeze any fire present in the room.  Elementals affected in this manner are made Brittle for a short duration.,1468,12,0,12100,0,0,0,0,0,0,0,32,-1
 12728,Blood-Princess Thal'ena,,1702,5,0,12729,0,1,67638,0,0,0,1,0,-1
 12729,Section 6,,1702,6,12728,12730,12733,2,0,0,202652,0,0,0,-1
 12730,Section 7,,1702,7,12729,0,12731,2,0,0,202779,0,0,0,-1
@@ -8544,7 +8516,7 @@ All applications of Infested are removed once Nythendra completes Heart of the S
 12849,Section 17,,1706,7,12829,0,0,2,0,0,204766,0,1,0,-1
 12850,Shade of Taerar,,1704,37,12788,12851,0,1,67745,0,0,0,0,0,-1
 12851,Section 33,,1704,38,12850,0,0,2,0,0,204767,0,0,0,-1
-12853,Section 10,,1657,13,12538,0,0,2,0,0,200243,0,2,0,2
+12853,Section 10,,1657,13,12538,0,0,2,0,0,200243,0,0,0,-1
 12857,Section 15,,1657,10,12317,0,13316,2,0,0,200238,0,0,0,-1
 12859,Section 18,,1706,16,12822,0,12860,2,0,0,204459,0,1,32,-1
 12860,Section 19,,1706,17,12822,0,13767,2,0,0,204292,0,2,0,0
@@ -8966,7 +8938,7 @@ $bullet;During Roc form, pick up a |cFF2959D3|Hspell:212993|h[Shimmering Feather
 13287,Section 20,,1725,18,13286,13289,14721,2,0,0,212099,0,0,1,-1
 13288,Section 21,,1725,14,13019,0,0,2,0,0,212297,0,2,16,0
 13289,Section 22,,1725,19,13287,0,0,2,0,0,212109,0,0,1,-1
-13302,Nightmare Abomination,"Crawls towards its prey, leaving a trail of corruption in its wake.",1654,6,12427,0,0,1,69455,0,0,0,2,2,0
+13302,Nightmare Abomination,"Crawls towards its prey, leaving a trail of corruption in its wake.",1654,6,12427,0,0,1,69455,0,0,0,2,4098,0
 13304,Section 43,,1737,13,13112,0,13113,2,0,0,206514,0,0,0,-1
 13307,Section 7,,1500,7,0,0,13765,2,0,0,200227,0,0,0,-1
 13308,Section 46,,1737,81,13500,13309,0,2,0,0,212625,0,0,0,-1
@@ -9230,7 +9202,7 @@ $bullet;Try to stay in melee range as often as possible to prevent Levantus from
 13570,Shriveled Eyestalk,,1738,35,13192,13571,0,1,70725,0,0,0,2,4096,0
 13571,Section 43,,1738,36,13570,0,0,2,0,0,208697,0,0,0,-1
 13574,Section 15,,1687,8,12592,13575,0,2,0,0,216407,0,2,8,2
-13575,Section 17,,1687,9,13574,0,0,2,0,0,216376,0,2,12,2
+13575,Section 17,,1687,9,13574,0,0,2,0,0,216376,0,0,12,-1
 13576,Section 16,,1687,19,0,0,0,2,0,0,216368,0,2,8,2
 13577,Section 14,,1687,16,12596,0,0,2,0,0,216369,0,2,8,2
 13578,Section 35,,1751,26,13418,0,0,2,0,0,216256,0,2,0,0
@@ -9369,7 +9341,7 @@ $bullet;Dispel |cFF2959D3|Hspell:219045|h[Mother's Embrace]|h|r to prevent your 
 13771,Section 11,,1656,10,13770,0,0,2,0,0,199313,0,0,0,-1
 13774,Section 11,,1488,5,0,0,12132,2,0,0,193765,0,1,0,-1
 13775,Section 10,,1488,12,12986,0,12142,2,0,0,221093,0,2,0,2
-13776,Section 16,,1657,16,12543,0,0,2,0,0,221315,0,3,0,2
+13776,Section 16,,1657,16,12543,0,0,2,0,0,221315,0,3,8,2
 13777,Section 36,,1726,15,12971,12973,13821,2,0,0,210264,0,0,1,-1
 13778,Section 37,,1726,29,13152,0,13170,2,0,0,209034,0,2,0,0
 13779,Section 39,,1726,31,13152,13162,0,2,0,0,205588,0,0,32,-1
@@ -9474,15 +9446,9 @@ $bullet;Watch Helya during |cFF2959D3|Hspell:202098|h[Brackwater Barrage]|h|r to
 13898,Damage Dealers,"$bullet;Be aware of the knockback from |cFF2959D3|Hspell:193977|h[Winds of Northrend]|h|r.
 $bullet;Move away from Ymiron to avoid |cFF2959D3|Hspell:193364|h[Screams of the Dead]|h|r.
 $bullet;Defeat Risen Warriors created from |cFF2959D3|Hspell:193566|h[Arise, Fallen]|h|r quickly.",1502,3,12143,0,12145,3,0,0,0,0,2,2,2
-13899,Tanks,"$bullet;Glazer can be hit by his own |cFF2959D3|Hspell:194880|h[Pulses]|h|r.
-$bullet;Glazer's beam will exit a lens in the direction it is facing. Help direct the beam to hit him in the back using the lenses.",1469,2,12386,0,12387,3,0,0,0,0,2,1,3
-13900,Healers,"$bullet;|cFF2959D3|Hspell:194880|h[Pulses]|h|r will bounce off of the walls of the room toward the nearest player.
-$bullet;Glazer's beam will exit a lens in the direction it is facing. Help direct the beam to hit him in the back using the lenses.
-$bullet;The party will take damage from |cFF2959D3|Hspell:195032|h[Radiation]|h|r as long as Glazer is focusing his beam.",1469,4,12386,0,12388,3,0,0,0,0,2,4,3
-13901,Damage Dealers,"$bullet;|cFF2959D3|Hspell:194880|h[Pulses]|h|r will bounce off of the walls of the room toward the nearest player.
-$bullet;Glazer's beam will exit a lens in the direction it is facing. Help direct the beam to hit him in the back using the lenses.
-$bullet;Overloaded Lenses will |cFF2959D3|Hspell:225817|h[Overload]|h|r if hit by a |cFF2959D3|Hspell:202046|h[Beam]|h|r.",1469,7,12386,0,0,3,0,0,0,0,2,2,0
-13902,Overload,,1469,14,12664,0,0,2,0,0,225817,0,2,16,0
+13899,Tanks,"$bullet;Glazer's |cFF2959D3|Hspell:1243769|h[Ocular Blast]|h|r releases energy orbs that bounce around the chamber.
+$bullet;Lens' can reflect Glazer's |cFF2959D3|Hspell:1245312|h[Focused Beam]|h|r back at him, interrupting him.",1469,2,12386,0,13900,3,0,0,0,0,0,1,-1
+13900,Healers,"$bullet;Lens' can reflect Glazer's |cFF2959D3|Hspell:1245312|h[Focused Beam]|h|r back at him, interrupting him.",1469,3,12386,0,12389,3,0,0,0,0,0,4,-1
 13903,Healers,"$bullet;Dispel |cFF2959D3|Hspell:208165|h[Withering Soul]|h|r from allies before it stacks too much.
 $bullet;Beware, |cFF2959D3|Hspell:207907|h[Burning Intensity]|h|r increases Fire damage dealt by Talixae.",1719,4,12933,0,12936,3,0,0,0,0,2,4,1
 13904,Tanks,"$bullet;Beware, |cFF2959D3|Hspell:207907|h[Burning Intensity]|h|r increases Fire damage dealt by Talixae.
@@ -11087,25 +11053,15 @@ $bullet;Make sure the boss does not reach you while he is fixated on you.",1979,
 15864,Tanks,"$bullet;Make sure to move the boss away from void energy left behind by |cFF2959D3|Hspell:244579|h[Decimate]|h|r and |cFF2959D3|Hspell:246133|h[Null Palm]|h|r, otherwise he will be empowered by |cFF2959D3|Hspell:244300|h[Void Infusion]|h|r.
 $bullet;While in the Void Realm, make sure to kill Dark Aberrations as quickly as possible to build up your void energy.
 $bullet;|cFF2959D3|Hspell:244621|h[Void Tear]|h|r stuns the boss and causes him to take additional damage when cast, so use this opportunity to deal as much damage as you can.",1979,4,15861,0,0,3,0,0,0,0,0,1,-1
-15865,Zuraal the Ascended,,1979,5,0,15866,15873,1,77871,0,0,0,1,0,-1
-15866,Section 6,,1979,6,15865,15869,15868,2,0,0,246134,0,0,0,-1
-15868,Section 8,,1979,9,15865,16456,15880,2,0,0,244579,0,0,0,-1
-15869,Section 9,,1979,7,15866,0,16455,2,0,0,244588,0,0,0,-1
-15871,Section 11,,1979,12,15880,0,15884,2,0,0,244599,0,0,0,-1
-15872,Section 12,"$[!
-
-After casting Umbra Shift, Zuraal the Ascended will cast Maddened Frenzy and start fixating on random targets.",1979,14,15865,15882,0,2,0,0,244433,0,0,32,-1
-15873,The Void Realm,,1979,17,0,15874,0,0,0,0,0,0,1,0,-1
-15874,Dark Aberration,"Dark Aberrations wander the void, attacking anyone who appears in their realm.",1979,18,15873,15876,15877,1,19634,0,0,0,0,0,-1
+15865,Zuraal the Ascended,,1979,5,0,15866,0,1,77871,0,0,0,1,0,-1
+15866,Section 6,,1979,6,15865,0,15868,2,0,0,246134,0,0,0,-1
+15868,Section 8,,1979,7,15865,16456,15880,2,0,0,244579,0,0,0,-1
+15871,Section 11,,1979,11,15880,0,15884,2,0,0,244599,0,0,0,-1
 15875,Felblaze Imp,,1985,13,15810,15879,16082,1,65891,0,0,0,0,0,-1
-15876,Section 15,,1979,19,15874,0,0,2,0,0,244618,0,0,0,-1
-15877,Void Infusion,"While in the Void Realm, void energy can be gathered by killing Dark Aberrations. After gathering 100 energy, Void Tear can be cast.",1979,20,15873,15878,0,0,0,0,0,0,0,32,-1
-15878,Section 17,,1979,21,15877,0,0,2,0,0,244621,0,0,32,-1
 15879,Section 31,,1985,14,15875,0,16711,2,0,0,244709,0,2,64,0
-15880,Coalesced Void,"Coalesced Voids form within the center pool throughout the fight, and make their way towards the Void Brute. If they reach him, the Coalesced Void casts Dark Expulsion.",1979,11,15865,15871,15872,1,76601,0,0,0,0,0,-1
-15882,Section 19,,1979,15,15872,0,16276,2,0,0,244657,0,0,0,-1
+15880,Coalesced Void,"Coalesced Voids form within the center pool throughout the fight, and make their way towards the Void Brute. If they reach him, the Coalesced Void casts Dark Expulsion. Otherwise, they cast Umbral Ejection when slain.",1979,10,15865,15871,0,1,76601,0,0,0,0,0,-1
 15883,Section 32,,1985,35,15821,0,0,2,0,0,246084,0,0,0,-1
-15884,Section 20,,1979,13,15880,0,0,2,0,0,244731,0,2,4096,0
+15884,Section 20,,1979,12,15880,0,0,2,0,0,244731,0,0,0,-1
 15898,Section 82,,1898,31,15221,0,15371,2,0,0,244834,0,0,0,-1
 15899,Section 34,,1985,42,15816,0,0,2,0,0,244853,0,0,0,-1
 15900,Section 17,,1984,23,15795,0,16039,2,0,0,244894,0,0,0,-1
@@ -11487,7 +11443,6 @@ $bullet;|cFF2959D3|Hspell:247444|h[Cloven Soul]|h|r will increase the damage of 
 16273,Section 7,,2013,7,0,0,16274,2,0,0,247320,0,0,65,-1
 16274,Section 5,,2013,8,0,0,16275,2,0,0,247393,0,0,16,-1
 16275,Section 9,,2013,9,0,0,0,2,0,0,247332,0,0,4,-1
-16276,Section 20,,1979,16,15872,0,0,2,0,0,247038,0,0,0,-1
 16277,Section 5,,2014,5,0,0,16278,2,0,0,247698,0,0,36,-1
 16278,Section 6,,2014,6,0,16279,16280,2,0,0,247410,0,0,1,-1
 16279,Section 7,,2014,7,16278,0,0,2,0,0,247444,0,0,1,-1
@@ -11636,8 +11591,8 @@ On Heroic difficulty and above, Felclaws additionally causes Kil'jaeden's melee 
 16451,Section 13,,2025,29,16555,0,16450,2,0,0,249016,0,2,0,0
 16452,Section 14,,2025,28,16555,0,16451,2,0,0,249017,0,2,0,0
 16454,Section 34,,2009,62,16219,0,0,2,0,0,250224,0,2,0,0
-16455,Section 21,,1979,8,15866,0,0,2,0,0,244300,0,0,0,-1
-16456,Section 9,,1979,10,15868,0,0,2,0,0,244588,0,0,0,-1
+16455,Section 21,,1979,9,16456,0,0,2,0,0,244300,0,0,32,-1
+16456,Section 9,,1979,8,15868,16455,0,2,0,0,244588,0,0,0,-1
 16457,Overview,"Vol'kaal is empowered by Yazma's |cFF2959D3|Hspell:250192|h[Bad Voodoo]|h|r until all of the Reanimation Totems are destroyed. Once all of the totems are destroyed, Vol'kaal begins to |cFF2959D3|Hspell:250241|h[Rapid Decay]|h|r.",2036,1,0,16458,16462,3,0,0,0,0,0,0,-1
 16458,Damage Dealers,"$bullet;Avoid |cFF2959D3|Hspell:250258|h[Toxic Leap]|h|r.
 $bullet;Avoid standing in |cFF2959D3|Hspell:250585|h[Toxic Pools]|h|r.
@@ -25160,7 +25115,7 @@ On Heroic and Mythic difficulties, the player triggering the Unstable Crawler Mi
 31978,Section 66,,2644,38,30102,0,0,2,0,0,474731,0,0,0,-1
 31979,The Big Hit,,2644,64,30086,31980,30112,2,0,0,460472,0,2,1,0
 31980,Section 33,,2644,65,31979,0,0,2,0,0,460474,0,0,0,-1
-31981,Damage Dealers,"$bullet; |cFF2959D3|Hspell:1219450|h[Mainfest Matrices]|h|r leaves behind a |cFF2959D3|Hspell:1218625|h[Displacement Matrix]|h|r.
+31981,Damage Dealers,"$bullet; |cFF2959D3|Hspell:1219450|h[Manifest Matrices]|h|r leaves behind a |cFF2959D3|Hspell:1218625|h[Displacement Matrix]|h|r.
 
 $bullet; |cFF2959D3|Hspell:1233110|h[Purging Lightning]|h|r inflicts increasing damage while the Plexus Sentinel's shield holds.
 
@@ -25199,8 +25154,8 @@ On Mythic difficulty, Soul-Scribe casts Splinters of Fate prior to casting Etern
 32036,Section 21,,2690,78,32035,0,33473,2,0,0,1226879,0,2,4112,0
 32041,Section 23,,2690,75,32035,0,32687,2,0,0,1225645,0,0,0,-1
 32043,Section 7,,2685,5,0,32979,32049,2,0,0,1225582,0,1,32,-1
-32044,Shadowguard Assassin,,2685,7,32043,33144,32710,1,117474,0,0,0,0,0,-1
-32045,Shadowguard Phaseblade,,2685,12,32043,33037,33393,1,129634,0,0,0,0,0,-1
+32044,Shadowguard Assassin,,2685,7,32043,33144,32710,1,131795,0,0,0,0,0,-1
+32045,Shadowguard Phaseblade,,2685,12,32043,33037,33393,1,131806,0,0,0,0,0,-1
 32048,Section 4,,2685,21,33703,0,0,2,0,0,1242086,0,2,4096,0
 32049,Section 5,,2685,16,0,0,33394,2,0,0,1227276,0,0,16,-1
 32057,Section 133,,2645,119,31694,0,0,2,0,0,1219283,0,0,0,-1
@@ -25541,10 +25496,10 @@ $bullet;|cFF2959D3|Hspell:1226024|h[Starkiller Swing]|h|r erupts in a |cFF2959D3
 32703,Section 20,,2747,10,32701,0,0,2,0,0,1232130,0,2,0,0
 32704,Section 21,,2747,11,33677,32706,33486,2,0,0,1236785,0,2,8,0
 32706,Section 23,,2747,12,32704,0,33461,2,0,0,1232130,0,2,0,0
-32710,Shadowguard Mage,,2685,10,32043,32712,32045,1,125917,0,0,0,0,0,-1
+32710,Shadowguard Mage,,2685,10,32043,32712,32045,1,129239,0,0,0,0,0,-1
 32712,Section 17,"$[!16
 
-On Mythic difficulties, The cast time halves each time the cast is interrupted.$]",2685,11,32710,0,0,2,0,0,1227052,0,0,0,-1
+On Mythic difficulties, The cast time halves each time the cast is interrupted.$]",2685,11,32710,0,0,2,0,0,1227052,0,0,128,-1
 32713,Section 50,,2691,41,32735,0,32717,2,0,0,1237080,0,0,16,-1
 32714,Xal'atath,,2691,36,32735,32715,32478,1,117121,0,0,0,1,0,-1
 32715,Section 53,,2691,37,32714,0,32716,2,0,0,1235114,0,0,0,-1
@@ -25626,6 +25581,13 @@ $bullet;|cFF2959D3|Hspell:1226260|h[Arcane Convergence]|h|r inflicts damage to t
 33150,Section 69,,2691,27,32451,0,0,2,0,0,1243699,0,1,0,-1
 33164,Section 23,,2686,21,32354,0,0,2,0,0,1243771,0,0,2,-1
 33181,Section 12,,2762,6,32941,0,33548,2,0,0,1243941,0,0,0,-1
+33209,Section 14,,1468,7,0,0,33211,2,0,0,1243622,0,0,0,-1
+33210,Section 15,,1468,11,0,0,0,2,0,0,1243556,0,0,4,-1
+33211,Section 16,,1468,8,0,33212,33210,2,0,0,1243632,0,0,128,-1
+33212,Living Ember,,1468,9,33211,33213,0,1,1204,0,0,0,1,0,-1
+33213,Section 18,,1468,10,33212,0,0,2,0,0,1244189,0,0,64,-1
+33224,,,1468,5,0,33225,33209,2,0,0,1244257,0,1,32,-1
+33225,Section 20,,1468,6,33224,0,0,2,0,0,1244248,0,0,2,-1
 33236,Section 23,,2686,7,32924,0,0,2,0,0,1238502,0,2,1,0
 33260,Section 71,,2691,108,32479,0,32532,2,0,0,1245292,0,0,2,-1
 33298,Section 42,,2688,14,32500,0,0,2,0,0,1245743,0,2,4112,0
@@ -25657,6 +25619,9 @@ In Heroic and Mythic difficulty, |cFF2959D3|Hspell:1237695|h[Stardust Nova]|h|r 
 33408,Section 84,,2691,44,33391,0,0,2,0,0,1230674,0,0,16,-1
 33409,Section 85,,2691,45,32735,33410,0,2,0,0,1246930,0,0,0,-1
 33410,Section 86,,2691,46,33409,0,0,2,0,0,1246948,0,1,0,-1
+33411,Section 15,,1469,6,0,0,33412,2,0,0,1243769,0,0,1,-1
+33412,Section 16,,1469,7,0,0,0,2,0,0,1246915,0,0,0,-1
+33413,Section 17,,1469,5,0,0,33411,2,0,0,1245312,0,1,32,-1
 33414,Section 87,"$[!15,16
 
 In Heroic and Mythic difficulty, |cFF2959D3|Hspell:1230999|h[Dark Matter]|h|r leaves behind a pool of |cFF2959D3|Hspell:1231002|h[Dark Energy]|h|r at each impact location.$]",2691,23,32292,33415,32451,2,0,0,1230999,0,2,12,0

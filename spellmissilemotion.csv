@@ -27684,6 +27684,30 @@ transUp = parabola(1,1,height)
 local spinRate = 30
 local initPitch = -60
 modelPitch = initPitch + (time * spinRate)",0,1
+4887,11.2.5 Remix - Legion - Skyriding Combat - Abilities - Burst Shot,"local angle = 0
+local maxMagnitude = startDistance * .15
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude",0,3
+4888,11.2.5 Remix - Legion - Skyriding Combat - Abilities - Burst Shot - 2,"local angle = 360 * rand3
+local maxMagnitude = 10
+local minSpeedScalar = 0.7
+local maxSpeedScalar = 1.8
+
+local magnitude = (progress * 1.9) - 1
+magnitude = 1 - (magnitude * magnitude * magnitude * magnitude)
+
+transRight = (sin((rand1 * 1000) + (time * 100)) + cos((rand2 * 1000) + (time * 200))) * magnitude * (1-progress)
+transUp = (sin((rand2 * 1000) + (time * 700)) + cos((rand1 * 1000) + (time * 300))) * magnitude
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+
+speedScalar = minSpeedScalar + ((maxSpeedScalar - minSpeedScalar) * rand2)
+
+",0,3
 4889,11.1 Raid - Undermine - Gallywix - Mythic Rockets AOE Missile,"local function parabola(m) return 4*m*(1-progress)*progress end
 
 local height = 13
@@ -27726,6 +27750,24 @@ transUp = (sin((rand2 * angleMaxUp) + (time * 7)) + cos((rand1 * angleMaxUp)) + 
 
 -- purely a visual missle, so there aren't issues with using this
 speedScalar = minSpeedScalar + ((maxSpeedScalar - minSpeedScalar) * rand3)
+",0,1
+4891,11.2.5 Remix - Legion - Artifact - Trait - Control - T1 - Nightfallen - Temporal Retaliation,"local angle = -45 + (90 * rand3)
+local maxMagnitude = 2
+local minSpeedScalar = 0.7
+local maxSpeedScalar = 1.8
+
+local magnitude = (progress * 1.9) - 1
+magnitude = 1 - (magnitude * magnitude * magnitude * magnitude)
+
+transRight = (sin((rand1 * 1000) + (time * 100)) + cos((rand2 * 1000) + (time * 200))) * magnitude * (1-progress)
+transUp = (sin((rand2 * 1000) + (time * 700)) + cos((rand1 * 1000) + (time * 300))) * magnitude
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+
+speedScalar = minSpeedScalar + ((maxSpeedScalar - minSpeedScalar) * rand2)
+
 ",0,1
 4892,11.2 Raid - Manaforge - Boss - Salhadaar - Seal the Forge - Missile 1 - AD,"local startAngle = 0
 local degreesPerSec = 360*rand1
@@ -27807,6 +27849,14 @@ transMag = (transMag * transMag * 2) - 1
 transMag = (1 - (transMag * transMag))
 transFront = transMag * -maxKickBack
 transMag = transMag * maxMagnitude",0,3
+4904,11.2.5 Remix - Legion - Artifact - Trait - T1 - Tideskorn - Souls of the Maw - Missile,"
+local factor = 3
+transFront = math.pow(progress,factor) * distanceToFirePos
+transFront = transFront - distanceToFirePos
+
+faceImpactPos = 1
+
+scale = math.min(1, math.max(time, 0.4))",0,1
 4906,11.2 Raid - Manaforge - RP Scenes - Scene 011.5 - Missile - SRC,"local function parabola(m) return (5*m*(1-progress)*progress) end
 
 local overallMagnitudeOfRandomTranslations = 4
@@ -27945,6 +27995,38 @@ end
 transFront = outerWheelMag * cos ( missileAngle )
 transRight = outerWheelMag * sin ( missileAngle )
 transUp = distanceToFirePos",0,6
+4928,11.2.5 Remix - Legion - Artifact - Trait - Nature - Souls of the Caw,"local factor = 4
+local maxWidth = 5
+local direction = 0
+local height = 15 --startDistance --/ 3.5
+
+transRight = direction * ((progress) * (1-progress) * 4 * math.min(startDistance/maxWidth,maxWidth) * (0.5 + (rand2/2)))
+transFront = math.pow(progress,factor) * distanceToFirePos
+transFront = transFront - distanceToFirePos
+transFront = transFront - 25 * (1 - progress)
+transUp = 4 * progress * (1-progress) * height
+",0,1
+4929,11.2.5 Remix - Legion - Artifact - Trait - Nature - Souls of the Caw - v2,"local sideRange = 40
+local xStartOffset = (rand1 - 0.5) * sideRange
+transRight = xStartOffset * (1-progress)
+
+local yStartOffsetMin = 15
+local yStartOffsetMax = 40
+local yStartOffset = (yStartOffsetMax - yStartOffsetMin) * rand2
+transUp = yStartOffset * (1-progress)
+
+--local targetY = -2 -- bit of offset so we aim lower (target is already set to base)
+--transUp = transUp + targetY
+
+local backStartMin = 20
+local backStartMax = 40
+local backStart = (backStartMax - backStartMin) * rand3
+transFront = (-1 * backStart) * (1-progress)
+
+-- start slower and accelerate
+out_speedScale = 0.5 + time
+
+faceTargetPos = 1",0,1
 4930,11.2 Raid - Manaforge - Zone - Shortcut VFX Guide - Missile - SRC,"local function parabola(m) return (1*m*(1-progress)*progress) end
 
 local overallMagnitudeOfRandomTranslations = 2
@@ -28102,3 +28184,22 @@ end
 
 
 --transUp = distanceToImpactPos - distanceToFirePos",0,3
+4969,11.2.5 Remix - Legion - Memento - Legendary - Challenges - M+ Keystone Flex Amount - Use,"local maxMagnitude = 0.5
+local minSpeedScalar = .7
+local maxSpeedScalar = 1.3
+
+local angle = 0
+local maxArcMagnitude = startDistance * .75
+
+
+local magnitude = (progress * 1.9) - 1
+magnitude = (1 - (magnitude * magnitude * magnitude * magnitude)) * maxMagnitude
+
+transRight = (sin((rand1 * 1000) + (time * 700)) + cos((rand2 * 1000) + (time * 100))) * magnitude
+transUp = (sin((rand2 * 1000) + (time * 700)) + cos((rand1 * 1000) + (time * 300))) * magnitude
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxArcMagnitude
+
+transUp  = (1.4 - 2 * rand1) * (1 - progress)",0,3
