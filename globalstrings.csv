@@ -1793,7 +1793,7 @@ ID,BaseTag,TagText_lang,Flags
 11545,NEXT_ABILITY,Next Ability,1
 11546,SKILLS,Skills,1
 11547,CHAT_HELP_TEXT_LINE1,Chat commands:,1
-11548,CHAT_HELP_TEXT_LINE10,"/mute, /squelch, /unvoice, /unmute, /unsquelch, /voice <channel> <player> - change a player's permission",1
+11548,CHAT_HELP_TEXT_LINE10,,3
 11549,CHAT_JOIN_HELP,Type /join <channelname> [password] to create a channel or join an existing one.,1
 11550,GUILD_HELP_TEXT_LINE8,'/gdemote <player>' demotes a player one rank within your guild,1
 11551,STARTUP_TEXT_LINE1,Type '/help for a listing of a few commands.,1
@@ -1904,7 +1904,7 @@ ID,BaseTag,TagText_lang,Flags
 11664,CHAT_SET_VOICE_NOTICE,|Hchannel:%d|h[%s]|h Voice given to %s.,1
 11665,CHAT_HELP_TEXT_LINE11,"/cinvite, /chatinvite <channel> <player> - invite a player to a channel",1
 11666,CHAT_HELP_TEXT_LINE12,/ckick <channel> <player> - kick a player off a channel,1
-11667,CHAT_HELP_TEXT_LINE15,/moderate <channel> - toggle moderation on a channel,1
+11667,CHAT_HELP_TEXT_LINE15,,3
 11668,CHAT_HELP_TEXT_LINE16,"/afk, /dnd - Set your Away From Keyboard or Do Not Disturb flags",1
 11669,GUILD_HELP_TEXT_LINE2,'/ginfo' gives some basic information about your guild,1
 11670,GUILD_HELP_TEXT_LINE6,'/gremove <player>' removes a player from your guild,1
@@ -2524,7 +2524,7 @@ ID,BaseTag,TagText_lang,Flags
 12318,TAXISAMENODE,You are already there!,1
 12319,ITEMENCHANTMENTREMOVESELF,%s has faded from your %s.,1
 12321,COMBATLOGDISABLED,Combat logging disabled.,1
-12322,PET,Pet,1
+12322,PET,Pet,3
 12323,COMBATLOG_XPGAIN_FIRSTPERSON,"%s dies, you gain %d experience.",1
 12325,TRADESKILL_SERVICE_STEP,Development Skills,1
 12326,EMOTE41_CMD2,/impatient,1
@@ -6439,7 +6439,7 @@ ID,BaseTag,TagText_lang,Flags
 17634,ERR_NO_ARENA_CHARTER,You don't have that arena team charter.,1
 17635,COINPICKUP_CANCEL,Cancel,1
 17636,STACKS,%d |4Stack:Stacks;,1
-17638,GUILD_BANK_LOG_TIME,( %s ago ),1
+17638,GUILD_BANK_LOG_TIME,|cff009999   ( %s ago )|r,1
 17639,GUILDBANK_REMAINING_MONEY,Remaining Daily Withdrawals for %s:  |cffffffff%s|r,1
 17640,ERR_GUILD_WITHDRAW_LIMIT,You cannot withdraw that much from the guild bank.,1
 17641,ERR_GUILD_NOT_ENOUGH_MONEY,The guild bank does not have enough money,1
@@ -7890,9 +7890,9 @@ ID,BaseTag,TagText_lang,Flags
 19221,TAMEABLE_EXOTIC,Tameable (Exotic),1
 19222,ERR_ARENA_TEAM_TARGET_TOO_HIGH_S,%s's level is too high to join your team.,1
 19224,INCOMPLETE,Incomplete,1
-19225,EXPANSION_NAME0,Classic,1
-19226,EXPANSION_NAME1,The Burning Crusade,1
-19227,EXPANSION_NAME2,Wrath of the Lich King,1
+19225,EXPANSION_NAME0,Classic,7
+19226,EXPANSION_NAME1,The Burning Crusade,7
+19227,EXPANSION_NAME2,Wrath of the Lich King,7
 19228,PETTAME_CANTCONTROLEXOTIC,You are unable to control exotic creatures,1
 19229,SPELL_FAILED_CUSTOM_ERROR_37,This teleport crystal cannot be used until the teleport crystal in Dalaran has been used at least once.,1
 19230,CALENDAR_ERROR_NO_INVITE,Invite not found.,1
@@ -7917,7 +7917,7 @@ ID,BaseTag,TagText_lang,Flags
 19250,GLYPH_SLOT_TOOLTIP5,Unlocked at level 70.,1
 19251,GLYPH_SLOT_TOOLTIP6,Unlocked at level 80.,1
 19252,SPELL_FAILED_GLYPH_SOCKET_LOCKED,You cannot inscribe a glyph there yet.,1
-19253,MOUNT,Mount,1
+19253,MOUNT,Mount,3
 19254,GLYPH_SLOT_REMOVE_TOOLTIP,<Right Click to Remove>,1
 19256,TRADESKILL_SERVICE_PASSIVE,Passive,1
 19257,CALENDAR_ERROR_GUILD_EVENTS_EXCEEDED,Your guild has reached the limit of %d |4created event:created events.,1
@@ -9429,7 +9429,7 @@ ID,BaseTag,TagText_lang,Flags
 20878,SPELL_FAILED_WEIGHT_TOO_MUCH,You have provided too many items to cast this spell,1
 20879,BN_BROADCAST_TOOLTIP,Send a Broadcast message to your Real ID and BattleTag friends.,1
 20880,ERR_REQUIRES_EXPANSION_S,Requires expansion: %s,1
-20881,EXPANSION_NAME3,Cataclysm,1
+20881,EXPANSION_NAME3,Cataclysm,7
 20882,BLOCK_COMMUNICATION,Block Communication,1
 20883,BLOCKED_COMMUNICATION,Blocked Communication,1
 20884,CLICK_TO_INVITE_TO_CONVERSATION,Click here to invite another friend to this Conversation.,1
@@ -11710,7 +11710,7 @@ ID,BaseTag,TagText_lang,Flags
 23362,LEVEL_UP_RAID2,New raid dungeon unlocked:,1
 23363,LEVEL_UP_HEROIC,Heroic Dungeons Unlocked!,1
 23364,LEVEL_UP_HEROIC2,New heroic dungeons unlocked:,1
-23365,EXPANSION_NAME4,Mists of Pandaria,1
+23365,EXPANSION_NAME4,Mists of Pandaria,7
 23366,COMPANIONS_MICRO_BUTTON_NEW_BATTLE_SLOT,A new battle slot is available! Click here and drag a pet into the slot.,1
 23367,ERR_NO_RIDING_SKILL,You can learn riding and obtain a mount from your riding trainer at level 20,1
 23368,INVITATION_XREALM,%s invites you to a group.\n\nAccepting this invitation may transfer you to another realm.,1
@@ -12859,7 +12859,7 @@ ID,BaseTag,TagText_lang,Flags
 24644,SKIRMISH_2V2,2v2 Skirmish,1
 24645,SKIRMISH_3V3,3v3 Skirmish,1
 24646,BATTLEGROUND_BONUS_REWARD_TOOLTIP,"Competing in a Bonus Battleground will earn you a Strongbox, which has a chance to contain Honor and PvP equipment. The quality of the Strongbox is based on your team's performance.",1
-24647,EXPANSION_NAME5,Warlords of Draenor,1
+24647,EXPANSION_NAME5,Warlords of Draenor,7
 24648,ERR_IN_BATTLEGROUND_RESPEC,This specialization doesn't match your assigned role.,1
 24649,OPTION_TOOLTIP_ANTIALIASING,"Anti-Aliasing is a technique to smooth out jaggy edges, especially at low resolutions, but can result in a slightly blurred image. Enabling Anti-Aliasing will reduce performance.",3
 24650,GARRISON_LANDING_PAGE_TITLE,Garrison Report,1
@@ -12884,7 +12884,7 @@ ID,BaseTag,TagText_lang,Flags
 24669,ITEM_TOY_ONUSE,Use: Adds this toy to your Toy Box.,1
 24670,POWER_TYPE_EXPERIENCE,Experience,1
 24671,SPELL_BUCKET_YOU_WILL_EARN,You will earn the following abilities:,1
-24672,TOY,Toy,1
+24672,TOY,Toy,7
 24673,SPELL_FAILED_CUSTOM_ERROR_218,Must have a Melee Weapon equipped in both hands,1
 24674,GARRISON_FINALIZE_BUILDING_TOOLTIP,Return to your building to finalize construction.,1
 24675,TOY_BOX,Toy Box,1
@@ -15830,7 +15830,7 @@ ID,BaseTag,TagText_lang,Flags
 34910,ARTIFACT_DRUID_BALANCE,The Scythe of Elune,1
 34911,ARTIFACT_PRIEST_DISCIPLINE,Light's Wrath,1
 34912,SPELL_FAILED_CUSTOM_ERROR_301,You can not change specializations while in Combat Training.,1
-34913,EXPANSION_NAME6,Legion,3
+34913,EXPANSION_NAME6,Legion,7
 34914,COMBAT_ALLY_END_MISSION,Unassign,1
 34915,CHALLENGE_MODE_COMPLETE_BEAT_TIMER,You beat the timer!,1
 34916,CHALLENGE_MODE_COMPLETE_KEYSTONE_UPGRADED,|cff20ff20Keystone Upgraded (+%d)|r,1
@@ -17155,7 +17155,7 @@ ID,BaseTag,TagText_lang,Flags
 36427,COMMUNITIES_ROSTER_COLUMN_TITLE_NOTE,Note,1
 36432,COMMUNITIES_DEFAULT_CHANNEL_NAME,General,1
 36433,COMMUNITIES_FRAME_JUMP_TO_UNREAD,Unread,1
-36457,EXPANSION_NAME7,Battle for Azeroth,3
+36457,EXPANSION_NAME7,Battle for Azeroth,7
 36458,BINDING_NAME_TOGGLE_VOICE_PUSH_TO_TALK,Voice Chat: Push to Talk,1
 36462,COMMUNITY_MEMBER_CHARACTER_INFO_FORMAT,Level %d %s %s,1
 36463,COMMUNITIES_CHAT_MESSAGE_FORMAT_CHARACTER,[|c%s%s|r]: %s,1
@@ -17442,6 +17442,7 @@ ID,BaseTag,TagText_lang,Flags
 40928,ERR_AUCTION_HOUSE_UNAVAILABLE,The Auction House is currently unavailable.,5
 40929,ERR_AUCTION_HOUSE_BUSY,The Auction House is busy.,5
 40934,WOW_ERROR_331,Active game time is required in order to play World of Warcraft Classic. Please visit www.worldofwarcraft.com/account for more information.,2
+40938,BLIZZARD_STORE_VAS_ERROR_CHARACTER_HAS_VAS_PENDING,- This character already has a pending service. Please wait until that is complete to try again.,3
 40944,WOW_ERROR_332,Your recent purchase of game time is still under payment review,2
 40945,CLASSIC_DEFAULTS,Classic,3
 40947,COMMUNITIES_CALENDAR_MOTD_FORMAT,"\""%s\""",1
@@ -17455,6 +17456,8 @@ ID,BaseTag,TagText_lang,Flags
 41008,WOW_ERROR_333,This realm's login queue is full and cannot accept more players. Please choose another realm.,2
 41019,VISITABLE_URL45,https://us.shop.battle.net/product/world-of-warcraft-game-time,3
 41020,VISITABLE_URL46,https://support.blizzard.com/article/76459,3
+41090,BLIZZARD_STORE_VAS_ERROR_NOT_GUILD_MASTER,- Only Guild Masters can use Guild Services. This character is not a Guild Master.,3
+41091,BLIZZARD_STORE_VAS_ERROR_NOT_IN_GUILD,- You must be in a Guild in order to use Guild Services. This character is not in a Guild.,3
 41099,INVITE_COMMUNITY_MEMBER_POPUP_INVITE_EDITBOX_INSTRUCTIONS,Real ID or BattleTag,1
 41100,CRITERIA_TREE_OPERATOR_COMPLETE,Complete,0
 41101,CRITERIA_TREE_OPERATOR_INCOMPLETE,Not Complete,0
@@ -17464,6 +17467,13 @@ ID,BaseTag,TagText_lang,Flags
 41105,CRITERIA_TREE_OPERATOR_COUNT,Started At Least,0
 41106,CRITERIA_TREE_OPERATOR_COMPLETE_AT_LEAST,Complete At Least,0
 41107,CRITERIA_TREE_OPERATOR_WEIGHTED_CUMULATIVE,Weighted Sum Of Criteria Is,0
+41113,BLIZZARD_STORE_VAS_ERROR_NEW_LEADER_INVALID,- The character you chose to be the new Guild Master is not a valid choice. Please choose someone else.,3
+41118,BLIZZARD_STORE_VAS_ERROR_AUTHENTICATOR_INSUFFICIENT,- You must attach an authenticator and then log in to your Guild Master character at least 7 days prior to purchasing a guild service.|n|nRead our |HurlIndex:47|h|cff006995Cannot Start a Guild Service|r|h article for more information.,3
+41119,BLIZZARD_STORE_VAS_ERROR_ALREADY_RENAME_FLAGGED,- Your Guild Master character has a pending name change. Complete the name change and try again.,3
+41120,BLIZZARD_STORE_VAS_ERROR_GM_SENORITY_INSUFFICIENT,- Your character must be the Guild Master for at least 7 days before purchasing this service.|nRead our|HurlIndex:47|h|cff006995Cannot Start a Guild Service|r|h article for more information.,3
+41121,BLIZZARD_STORE_VAS_ERROR_OPERATION_ALREADY_IN_PROGRESS,- Your recent guild service transaction is still processing.|n|nCheck your |HurlIndex:48|h|cff006995Transaction History|r|h.,3
+41122,BLIZZARD_STORE_VAS_ERROR_LOCKED_FOR_VAS,- You must wait 30 days after purchasing a character or guild service on this character before you can purchase a new guild service.|nRead our|HurlIndex:47|h|cff006995Cannot Start a Guild Service|r|h article for more information.,3
+41123,BLIZZARD_STORE_VAS_ERROR_MOVE_IN_PROGRESS,- Your recent guild service purchase is still processing.|n|nCheck your |HurlIndex:48|h|cff006995Transaction History|r|h.,3
 41124,AUCTION_CATEGORY_PROJECTILE,Projectile,1
 41125,AUCTION_CATEGORY_QUIVER,Quiver,1
 41126,AUCTION_CATEGORY_REAGENT,Reagent,1
@@ -17661,6 +17671,7 @@ ID,BaseTag,TagText_lang,Flags
 42119,TARGETFPS_CHECK,Target FPS Toggle,3
 42120,OPTION_TARGETFPS_CHECK,Enable this option to dynamically reduce graphics quality if you fall below a specific framerate.,3
 42121,OPTION_TARGETFPS,"Framerate you ideally want to play at. If your framerate is below this number, dynamic systems will reduce graphics quality to attempt to hit this framerate.",3
+42131,EXPANSION_NAME8,Shadowlands,7
 42136,ERR_BATTLEGROUND_NOT_ENABLED,This feature is not enabled.,1
 42140,AUCTION_HOUSE_TOOLTIP_OVERFLOW_SELLERS_FORMAT,"Sellers: |cffffffff%s, and %s more|r",1
 42189,BINDING_NAME_TOGGLE_COMMENTATOR_UNIT_FRAMES,Toggle Unit Frames,1
@@ -17798,6 +17809,7 @@ ID,BaseTag,TagText_lang,Flags
 42905,META_KEY_TEXT_ABBR,m,1
 42907,CMD_KEY_TEXT_ABBR,m,1
 42908,WIN_KEY_TEXT_ABBR,w,1
+42914,ACCOUNT_UPGRADE_BANNER_RESUBSCRIBE,Resubscribe Now,2
 42953,AUCTION_HOUSE_FILTER_RUNECARVING,|cff00ccffRunecarving|r,1
 43001,MAC_MIC_PREMISSIONS_NOTIFICATION,"In order to use voice chat, you must grant ""Microphone"" permission to %s in Security & Privacy preferences, located in System Preferences.",3
 43002,MAC_MIC_PERMISSIONS_OPEN_BUTTON,System Preferences,3
@@ -17927,7 +17939,7 @@ ID,BaseTag,TagText_lang,Flags
 43958,VIDEO_OPTIONS_COMBAT_CUES_DISABLED_WARNING,Disabling this may cause you to miss important visual cues during combat,3
 43980,RECONNECT_BUTTON,Reconnect,2
 43981,SWITCH_ACCOUNTS_BUTTON,Log Out,2
-43984,BLIZZARD_STORE_VAS_ERROR_NEEDS_ERA_CHOICE,- Choose an expansion on the character select screen\n- Activate Clone on the character select screen,3
+43983,BLIZZARD_STORE_VAS_ERROR_NEEDS_ERA_CHOICE,- Choose an expansion on the character select screen\n- Activate Clone on the character select screen,3
 43992,CONFIGURE_TEXT_TO_SPEECH,Configure Text to Speech,1
 44001,ENABLE_QUEST_TEXT_CONTRAST,Quest Text Contrast,1
 44002,OPTION_TOOLTIP_ENABLE_QUEST_TEXT_CONTRAST,Makes quest text easier to read,1
@@ -18111,6 +18123,7 @@ ID,BaseTag,TagText_lang,Flags
 48698,EMPTY_SOCKET_CYPHER,Crystallic Socket,1
 48701,LFG_TYPE_DROPDOWN_INSTRUCTIONS,Select category,1
 48702,LFG_ACTIVITY_DROPDOWN_INSTRUCTIONS,Select activity,1
+48714,BLIZZARD_STORE_VAS_ERROR_ARENA_TEAM_CAPTAIN,- This character is an arena team captain.  Please transfer the rank to another character and try again.,3
 48717,TOGGLE_BATTLEFIELDMINIMAP_TOOLTIP_NO_SHORTCUT,Toggle on/off the in game Zone Map.,1
 48743,NOTCH_MODE,Notch Mode,3
 48744,OPTION_TOOLTIP_NOTCH_MODE,Controls how notch overlap is handled,3
@@ -18122,6 +18135,7 @@ ID,BaseTag,TagText_lang,Flags
 48750,VIDEO_OPTIONS_NOTCH_MODE_WINDOW_BELOW,Window is below notch with a black bar,3
 48774,LFG_LIST_CROSS_FACTION,Limit to %s,1
 48775,LFG_LIST_CROSS_FACTION_TOOLTIP,Only %s players will see your group.|n|nThis may reduce the number of applicants you recieve.,1
+48777,BLIZZARD_STORE_VAS_ERROR_NEW_PLAYER_EXPERIENCE,- Finish the tutorial experience first,3
 48779,LFG_LIST_TOOLTIP_LEADER_FACTION,Leader: |cffffffff%s (%s)|r,1
 48780,UNIT_TYPE_LEVEL_FACTION_TEMPLATE,Level %d %s (%s),1
 48783,INVTYPE_PROFESSION_TOOL,Profession Tool,1
@@ -18164,12 +18178,15 @@ ID,BaseTag,TagText_lang,Flags
 48851,REPORT_FRIEND,Report Player,1
 48852,REPORT_GROUP_MEMBER,Report Player,1
 48853,LFG_LIST_CROSS_FACTION_DISABLE_TOOLTIP,This activity doesn't support cross-faction groups.|n|nYour group will only appear to %s players.,1
+48854,EXPANSION_NAME9,Dragonflight,7
 48855,REPORTING_MINOR_CATEGORY_CHARACTER_NAME,Character Name,1
 48856,REPORTING_MINOR_CATEGORY_GUILD_NAME,Guild Name,1
 48857,REPORTING_MINOR_CATEGORY_DESCRIPTION,Description,1
 48858,REPORTING_MINOR_CATEGORY_NAME,Name,1
 48862,ERR_MAIL_RECEPIENT_CANT_RECEIVE_MAIL,Recipient can't receive mail at this time.,1
 48866,SPELL_FAILED_CUSTOM_ERROR_360,Your group already has the maximum number of stacks.,1
+48869,PERKS_VENDOR_CATEGORY_TRANSMOG,Transmog,3
+48874,PERKS_VENDOR_CATEGORY_TRANSMOG_SET,Transmog Set,3
 48887,REPORT_CALENDAR,Report Player,1
 48888,REPORTING_COMMENT_INSTRUCTIONS,More details about your report (optional),1
 48903,ITEM_MOD_CRAFTING_SPEED_SHORT,Crafting Speed,1
@@ -18333,7 +18350,9 @@ ID,BaseTag,TagText_lang,Flags
 49883,VIDEO_OPTIONS_NVIDIA_REFLEX_BOOST,NVIDIA Reflex + Boost,3
 49925,ENABLE_INTERACT_SOUND_OPTION,Interact Key Sound Cue,3
 49930,ENABLE_INTERACT_SOUND_OPTION_TOOLTIP,Plays a sound cue when you become able or unable to interact with a target.,3
+49966,EXPANSION_NAME10,The War Within,3
 49970,AUCTION_HOUSE_CRAFTING_REAGANT_QUALITY_FORMAT,%s %s,1
+50048,BLIZZARD_STORE_VAS_ERROR_HAS_CRAFTING_ORDERS,- Please clear all pending and claimed crafting orders on this character.,3
 50147,AUCTION_SORT_OPTIONS_TOOLTIP_TITLE,Price Sorting Options,1
 50148,AUCTION_SORT_OPTIONS_PROMPT,Sort Prices By:,1
 50149,AUCTION_SORT_OPTION_BID_PRICE,Current Bid,1
@@ -18363,13 +18382,21 @@ ID,BaseTag,TagText_lang,Flags
 50246,ACCOUNT_SAVE_DESCRIPTION_LOCKED,"|cffff2020World of Warcraft realms will be unavailable in this region after January 23rd, 2023.|r|n|n|cffffd200You can download your game progress now so that you may be able to restore it in the future.|r|n|n|cffffd200Saving your game progress locally will lock your account from play regardless of remaining game time. Please safeguard your Archive as we hope to enable use of the Archive at a later time.|r|n|n|n</p><h1>|cffffffffSave your game progress locally|r</h1><p>|n|cffffffffThis feature and the archived game progress are subject to the B.Net End-User License Agreement.|r|n|n|cffffd200Your account is locked because you successfully downloaded your account data.|r",2
 50250,ACCOUNT_SAVE_ERROR_UNAVAILABLE,Progression archive downloading is currently unavailable,2
 50251,ACCOUNT_SAVE_ERROR_ALREADY_IN_PROGRESS,A progression archive download is already in progress. Please try again later.,2
+50258,CENSORED_MESSAGE_HIDDEN,|cffffff00Message from %s is potentially inappropriate.|Hcensoredmessage:%d|h |W[Show Message]|w|h|r,1
 50266,ACCOUNT_SAVE_FILE_BUTTON,Open Folder,2
 50267,ACCOUNT_SAVE_CLOSE_BUTTON,Close,2
 50268,ACCOUNT_SAVE_SUCCESS_DETAILS,Please copy this file to a safe location for future use:,2
 50269,ACCOUNT_SAVE_ERROR_CANCELLED,Progression archive download was interrupted. Please try again later.,2
-50274,CENSOR_SOURCE_EXCLUDE,Censor Messages,1
+50270,CENSOR_SOURCE_EVERYONE,Everyone,1
+50271,CENSOR_SOURCE_NO_ONE,No one,1
+50272,CENSOR_SOURCE_EXCLUDE_FRIENDS,Everyone except friends,1
+50273,CENSOR_SOURCE_EXCLUDE_FRIENDS_AND_GUILD,Everyone except friends and guildmates,1
+50274,CENSOR_SOURCE_EXCLUDE,Real Time Chat Filtering,1
+50275,OPTION_TOOLTIP_CENTER_SOURCE_EXCLUDE,Controls whose messages will be censored if found to be inappropriate,1
 50299,BLIZZARD_STORE_CURRENCY_FORMAT_HKD,HK$%s,3
 50310,EMPTY_SOCKET_PRIMORDIAL,Primordial Socket,1
+50332,CENSORED_MESSAGE_REPORT,%s |cffffff00|Hreportcensoredmessage:%d|h|W[Report]|w|h|r,1
+50347,INTERFACE_ACTION_BLOCKED_TOOLTIP,Interface actions failed because of this AddOn: %d,1
 50348,AUCTION_TOOLTIP_BROWSE_BY_NAME_TITLE,Browse by Name,1
 50349,AUCTION_TOOLTIP_BROWSE_BY_NAME_BODY,Enter text to search for item names that include that text. Enclose the text in quotes to search for an exact item name.,1
 50351,OPTION_TOOLTIP_VRS_STANDARD,Almost no loss to visual quality,3
@@ -18461,6 +18488,7 @@ ID,BaseTag,TagText_lang,Flags
 51370,EQUIPPED_RUNES,Equipped Runes,1
 51371,RUNES_COLLECTED,%d/%d Runes Collected,1
 51372,RUNES_COLLECTED_SLOT,%d/%d %s Runes Collected,1
+51385,BLIZZARD_STORE_VAS_INVALID_NAME,- This name is invalid; please choose another name.,2
 51392,SLASH_TEXTTOSPEECH_PING,ping,1
 51393,SLASH_TEXTTOSPEECH_HELP_PING,Enable or disable ping messages,1
 51397,SPELL_FAILED_CUSTOM_ERROR_361,You must be on Westfall farmland,1
@@ -18512,8 +18540,8 @@ These restrictions can be removed at any time by talking to an in-game character
 51704,QUEUE_WITH_ALLOWED_FACTION_GROUP_ALLIANCE,Horde character creation is currently restricted on this realm due to faction imbalance.,3
 51705,QUEUE_WITH_ALLOWED_FACTION_GROUP_HORDE,Alliance character creation is currently restricted on this realm due to faction imbalance.,3
 51708,CHARACTER_SELECT_NAV_BAR_REALMS,REALMS,2
-51728,SHOW_DYNAMIC_BUFF_SIZE,Show dynamic buff and debuff sizes.,1
-51729,OPTION_TOOLTIP_SHOW_DYNAMIC_BUFF_SIZE,Check this to make your buffs and debuffs appear larger than other effects on a target.,1
+51728,SHOW_DYNAMIC_BUFF_SIZE,Dynamic Buff and Debuff Size,1
+51729,OPTION_TOOLTIP_SHOW_DYNAMIC_BUFF_SIZE,Makes your buffs and debuffs appear larger than other effects on your target.,1
 51731,REINCARNATE_CHARACTER,Reincarnate Selected Character,2
 51732,DEATH_REINCARNATE_CHARACTER,Reincarnate!,3
 51750,SELF_HIGHLIGHT_MODE_CIRCLE_AND_ICON,Circle and Icon,1
@@ -18564,6 +18592,9 @@ They will be deleted and remade with the current customized character.",2
 52007,SLASH_COUNTDOWN3,/cd,1
 52008,SLASH_COUNTDOWN4,/cd,1
 52024,ITEM_MOD_INGENUITY_SHORT,Ingenuity,1
+52041,HD_TEXTURES_BUTTON_TOOLTIP_HEADER,Download High Definition Textures,3
+52042,HD_TEXTURES_BUTTON_TOOLTIP,"Downloads higher detail textures for characters, creatures, buildings, objects, terrain, and more. Once downloaded, these textures can be toggled on or off at any time in the game options.",3
+52043,HD_TEXTURES_BUTTON,Get HD Textures,3
 52045,OPTION_HD_TEXTURES,High Definition Textures,3
 52132,CHINA_RELEASE_BUILD,China Release,2
 52133,REPORTING_MAJOR_CATEGORY_CHINA_HARMFUL_MINORS,Harmful to Minors,3
@@ -18606,6 +18637,25 @@ They will be deleted and remade with the current customized character.",2
 52673,PVP_CHARACTER_CREATION_WARNING_TWO,"|n|nIf you're not looking for this level of conflict, we recommend choosing a |cffffffffNormal (non-PvP) |cffffd200realm instead, where player combat is restricted.|n|n|cffffffffGame Masters do not intervene in PvP conflicts, and it is not possible to transfer your characters between PvP and Normal realms. You have been warned!",2
 52730,LFG_LIST_IGNORE_SUGGESTED_LEVEL,Show All Level Ranges,1
 52858,ACCOUNT_STORE_UNAVAILABLE,Temporarily unavailable. Try again later.,3
+52904,ADDON_PERFORMANCE_SPECIFIC_WARNING_TEXT,"%s is close to reaching the performance threshold, which may impact game stability. Consider disabling this AddOn.",1
+52905,ADDON_PERFORMANCE_SPECIFIC_ERROR_TEXT,AddOn %s has exceeded the performance threshold for memory usage or CPU. Please disable this addon to improve performance.,1
+52906,ADDON_PERFORMANCE_OVERALL_ERROR_TEXT,Your AddOns have exceeded the memory usage or CPU threshold. Please disable some AddOns to improve performance.,1
+52907,ADDON_LIST_PERFORMANCE_HEADER,AddOn Usage,1
+52908,ADDON_LIST_PERFORMANCE_CURRENT_CPU,Current CPU: %s,1
+52909,ADDON_LIST_PERFORMANCE_AVERAGE_CPU,Average CPU: %s,1
+52910,ADDON_LIST_PERFORMANCE_PEAK_CPU,Peak CPU: %s,1
+52911,ADDON_LIST_PERFORMANCE_ENCOUNTER_CPU,Last Encounter CPU: %s,1
+52912,ADDON_LIST_PERFORMANCE_WARNING_TOOLTIP,AddOn CPU usage exceeds the threshold.\nDisable some addons to improve performance.,1
+52913,ADDON_LIST_PERFORMANCE_MEMORY_MB,Memory Usage: %d MB,1
+52914,ADDON_LIST_PERFORMANCE_MEMORY_KB,Memory Usage: %d KB,1
+52930,ADDON_PERFORMANCE_MENU_TOOLTIP,(%s) %s,1
+52931,ADDON_LIST_ENABLE_DEPENDENCIES,Enable All Dependencies,3
+52932,ADDON_LIST_ENABLE_GROUP,Enable AddOn Group,3
+52933,ADDON_LIST_DISABLE_GROUP,Disable AddOn Group,3
+52934,ADDON_LIST_DISABLE_CATEGORY,Disable All AddOns,3
+52935,ADDON_LIST_RESET_ALL_TO_DEFAULT,Reset All to Default,3
+52936,ADDON_LIST_RESET_TO_DEFAULT,Reset to Default,3
+52937,ADDON_LIST_ENABLE_CATEGORY,Enable All AddOns,3
 52969,TW_FRAUD_WARNING_TEXT,System message,2
 53242,CLASSIC_PRESENCE_PREFIX_ERA,WoW Classic Era,0
 53243,CLASSIC_PRESENCE_PREFIX_SOD,WoW Classic Season of Discovery,0
@@ -18621,6 +18671,7 @@ They will be deleted and remade with the current customized character.",2
 53470,CINEMATIC_SUBTITLES_BACKGROUND_OPTION_LIGHT,Light,3
 53472,CINEMATIC_SUBTITLES_BACKGROUND_COLOR_OPTION_LABEL,Subtitles Background,3
 53473,CINEMATIC_SUBTITLES_BACKGROUND_OPACITY_OPTION_LABEL,Background Opacity,3
+53512,VIDEO_OPTIONS_INTEL_XELL,Intel XeLL,3
 53676,SPELL_FAILED_CUSTOM_ERROR_367,Your disguise is not convincing enough.,1
 53677,SPELL_FAILED_CUSTOM_ERROR_836,Nice try.,1
 53694,NEWBIE_TOOLTIP_LFG_LIST_TAB_1,List the group activities you're interested in.,0
@@ -18631,3 +18682,41 @@ They will be deleted and remade with the current customized character.",2
 53898,EMPTY_SOCKET_SINGING_SEA,[DNT] Singing Sea Socket,1
 53899,EMPTY_SOCKET_SINGING_WIND,[DNT] Singing Wind Socket,1
 54015,SPELL_FAILED_CUSTOM_ERROR_369,This mote has already been depleted.,1
+54230,EMPTY_SOCKET_FIBER,Fiber Socket,5
+54246,CENSORED_MESSAGE_SENDER,%s |cffffff00Message to %s flagged as potentially inappropriate.|Hcensoredmessagerewrite:%d:%d:%s|h |W[Rewrite Message]|w|h or |Hcensoredmessageconfirmsend:%d:%d:%s|h|W[Send Anyways]|w|h|r,1
+54272,CENSORED_MESSAGE_SENT,%s |cffffff00Message flagged as potentially inappropriate.|r,1
+54390,TRANSMOG_ITEM_SET_FAVORITE,Set Favorite,3
+54391,TRANSMOG_ITEM_UNSET_FAVORITE,Remove Favorite,3
+54719,REPORT_RESULT_TOO_MANY_REPORTS,Report failed. Too many report attempts. Please try again in a few minutes.,1
+54720,REPORT_RESULT_REQUIRES_CHAT,Report failed. Report type only valid on chat lines.,1
+54721,REPORT_RESULT_REQUIRES_CHAT_OR_VOICE,Report failed. Report type only valid on chat lines or when in voice chat.,1
+54898,CATALOG_SHOP_NO_SEARCH_RESULTS,No results found,7
+55117,UNIT_FRAMES_DISPLAY_INCOMING_HEALS,Incoming Heals for Unit Frames,1
+55118,OPTION_TOOLTIP_UNIT_FRAMES_DISPLAY_INCOMING_HEALS,"Display incoming heals on unit frames, such as yourself and your target.",1
+55485,LFG_LIST_REPORT_PLAYER,Report Player,1
+55616,CATALOG_SHOP_DETAILS,Details,3
+55617,CATALOG_SHOP_BACK,Back,3
+55618,CATALOG_SHOP_RACE,Race,3
+55627,CATALOG_SHOP_PRODUCT_OWNED,Owned,3
+55634,CATALOG_SHOP_TYPE_SERVICE,Service,3
+55635,MOVE_PAD_LOCKED,Lock Window,1
+55636,CATALOG_SHOP_TYPE_VC_WARBAND,Warband Currency,3
+55637,MOVE_PAD_PRESS_AND_HOLD_MODE,Press and Hold Movement,1
+55638,CATALOG_SHOP_TYPE_BUNDLE,%d Item Bundle,3
+55640,CATALOG_SHOP_TYPE_DECOR,Decor,3
+55641,CATALOG_SHOP_MISSING_LICENSE_ITEM,This item is only available on %s,3
+55642,CATALOG_SHOP_WOW_FLAVOR_MODERN,World of Warcraft: %s,3
+55643,CATALOG_SHOP_WOW_FLAVOR_CLASSIC,%s Classic,3
+55675,CATALOG_SHOP_TYPE_MOUNT_FLYING,Flying Mount,3
+55676,CATALOG_SHOP_TYPE_MOUNT_GROUND,Ground Mount,3
+55698,CATALOG_SHOP_CAROUSEL_INDEX,%s / %s,3
+55715,CATALOG_SHOP_DISCLAIMER_ALL_PRODUCTS,|Hcodelink|hCertain restrictions apply. Visit the |c82c5ffffproduct page|r on shop.battle.net for more information.|h,3
+55719,VISITABLE_URL62,https://shop.battle.net/family/world-of-warcraft/items/%s/,3
+55720,VISITABLE_URL63,https://shop.battle.net/gametime-purchase,3
+55737,CATALOG_SHOP_TOKEN_IN_GAME_ONLY,You must be logged in with a character to purchase a WoW Token.,3
+55741,CATALOG_SHOP_DISCOUNT_FORMAT,-%s%%,3
+55742,CATALOG_SHOP_TYPE_MOUNT_FLYING_AQUATIC,Flying Aquatic Mount,3
+55771,CATALOG_SHOP_NOT_AVAILABLE,Shop Unavailable,3
+55772,CATALOG_SHOP_TRY_AGAIN_LATER,Please check back later.,3
+55918,CATALOG_SHOP_PENDING_PURCHASES,Purchase(s) Pending,3
+56201,GUILD_BANK_LOG_TIME_CLASSIC, ( %s ago ),1
