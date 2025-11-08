@@ -92684,7 +92684,7 @@ $@spelltooltip133545"
 133761,,,
 133765,,Inflicts $s1% weapon damage as Physical damage and applies Serious Wounds and Arterial Cut to the target.,
 133766,,,
-133767,,The caster wounds the target. Healing received by the target is decreased by $s1% per application.,$w2% less incoming healing.
+133767,,The caster wounds the target. Healing received by the target is decreased by $s1% per application.,$s1% less incoming healing.
 133768,,"Wounds the target, causing severe bleeding until the victim is healed to full health.",$w1 Physical damage per second. Persists until healed to full health.
 133769,,"Slows the target's movement, casting, and attack speeds.",Slowed $w1%.
 133770,,,
@@ -105213,6 +105213,7 @@ You will be kicked from the battleground if you remain Inactive."
 301100,,Unable to pick up dropped flags.,Unable to pick up dropped flags.
 301101,,Unable to pick up dropped flags.,Unable to pick up dropped flags.
 308395,,,
+308853,,,
 324270,,,"Deals $s3 damage every $t3 sec.
 Spreads to nearby allies."
 324271,,,"Deals $s1 damage every $t1 sec.
@@ -106114,8 +106115,7 @@ Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]"
 1214176,,Awards yourself ${$m1/100} Justice points,
 1214948,,,
 1215229,,Your Lightning Bolt has a $h% chance to reduce the remaining cooldown on your Fire Elemental Totem by $s1 sec.,
-1215484,,"You fire an explosive charge into the enemy target, dealing $<damage> Fire damage. The charge will blast the target every second for an additional $d.
-",Taking $w1 Fire damage every second.
+1215484,,,Deals Shadow damage every $t2 sec.
 1215485,,"You fire an explosive charge into the enemy target, dealing $<damage> Fire damage. The charge will blast the target every second for an additional $d.
 ",Taking $w1 Fire damage every second.
 1215486,,"You fire an explosive charge into the enemy target, dealing $<damage> Fire damage. The charge will blast the target every second for an additional $d.
@@ -106546,6 +106546,7 @@ Health increased by $s2%."
 1245375,,Pop!,
 1245411,,,
 1245934,,Brings all dead party and raid members back to life with $s1% health and $s1% mana. Cannot be cast in combat or while in a battleground or arena.,
+1246166,,Right Click to summon and dismiss this companion.,
 1246476,,,
 1246477,,,
 1246478,,,
@@ -106608,7 +106609,7 @@ $?s55694[Cannot be consumed to activate Enraged Regeneration.][]"
 1249841,,"Each time you cast a harmful spell, you have a chance to gain $1249840s1 spell power for $1249840d.",
 1249951,,,
 1250019,,,
-1250045,,Summons and dismisses a rideable Obsidian Worldbreaker Utility (Final Name TBD).,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
+1250045,,Summons and dismisses a rideable Ashened Cataclysm. This is a very fast mount.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
 1250172,,Creates a cloud of thick smoke in an $a1 yard radius around the Rogue for $d. Enemies are unable to target into or out of the smoke cloud.,A smoke cloud interferes with targeting.
 1250229,,,
 1250380,,,
@@ -106701,3 +106702,38 @@ Rooted."
 1272536,,,
 1276520,,,
 1276522,,,
+1276789,,,
+1276852,,"Drink to apply the Polyformic Acid transformation. 
+|CFFff0000Only usable in Challenge Mode Dungeons.|R",
+1276853,,"Transforms the imbiber, granting their attacks and spells a chance to cause additional Nature damage.","Your attacks and spells have a chance to cause additional Nature damage.
+
+|cFFFFAA00""WARNING: Results unpredictable in event of imbiber's death.""|r"
+1276854,,"Gives the imbiber invisibility for $d.
+|CFFff0000Only usable in Challenge Mode Dungeons.|R",Invisible.
+1276855,,"Encases the target in amber, preventing all action for up to $d.  Any damage caused will break the amber. |CFFff0000Only usable in Challenge Mode Dungeons.|R",Encased in amber
+1276856,,"Blast a blaring horn, attracting enemies within $A1 yards.
+|CFFff0000Only usable in Challenge Mode Dungeons.|R",
+1276857,,"A faint whispering can be heard inside of your own head. The dagger bids you to thrust it deep into your heart. Do you dare comply?
+|CFFff0000Only usable in Challenge Mode Dungeons.|R",
+1276858,,"Encase yourself in restorative amber, restoring $1276858o2 health and ${$1276858m2/5*10} mana over $1276858d.
+|CFFff0000Only usable in Challenge Mode Dungeons.|R",Encased in restorative amber.
+1276859,,"Blend into the shadows for $d and summon a Scarlet Crusader. The Crusader will draw the attention of nearby monsters and run into the distance.
+|CFFff0000Only usable in Challenge Mode Dungeons.|R
+",Stealthed.
+1276860,,,
+1276861,,,Taunted.
+1276862,,,
+1277114,,,Ludicrous speed!
+1277115,,"Engage the rocket boots to greatly increase your speed.
+|CFFff0000Only usable in Challenge Mode Dungeons.|R",
+1277129,,"A strong and inspiring glass of exotic beer.
+|CFFff0000Only usable in Challenge Mode Dungeons.|R","Drunk with inspiration. Melee, ranged, and spell haste increased by $s2%."
+1277236,,,
+1277251,,,
+1277260,Passive,Allows all weapons to be equipped in the off-hand.,
+1277303,,,
+1277344,,Increases movement speed of party members within $A yards by $s1%.  Lasts $d.  Drums can be used while shapeshifted.|CFFff0000Only usable in Challenge Mode Dungeons.|R,Movement speed increased by $s1%.
+1277391,,,Residual Blood from a recently used Death Strike prevents a Fatal Strike.
+1277637,,"Inflicts $s1 Physical damage to all targets within $A1 yards and interrupts any spell currently being cast by the victim.
+Victims have their casting speed reduced by $134372s2% until they finish casting their next spell.",
+1277787,,,
