@@ -355,7 +355,7 @@ ID,Name,Param[0],Param[1],Param[2],Param[3],Effect,FullScreenEffectID,LightParam
 1170,Generic - Fade to Black - 2/2 sec,-16777216,2000,2000,1,4,0,0,0,0,0,0,-1,-1,0
 1171,7.0 Suramar: (DLA) - Driftwalk,0,0,0,0,0,0,0,0,0,372,319,660,1,0
 1172,7.0 Pre-Launch - Karazhan - Arcane Awareness - EJL,15062755,8,10,0,3,0,0,0,0,0,0,-1,1,0
-1173,SpectralSight,6810675,0,0,0,7,0,3280,0,0,1522,0,-1,5,0
+1173,SpectralSight,0,0,0,0,7,0,3280,0,0,1522,0,-1,5,0
 1174,Emerald Dream Effect,-11347679,4,0,0,3,0,0,0,0,0,0,-1,-1,0
 1176,"Generic - Whiteout (1 fade in, 3 fade out)",-1,1000,3000,0,4,0,0,0,0,0,0,-1,-1,0
 1177,HMC Test,9502604,-1,100,0,2,0,0,0,0,0,0,-1,-1,0
@@ -475,7 +475,7 @@ ID,Name,Param[0],Param[1],Param[2],Param[3],Effect,FullScreenEffectID,LightParam
 1307,7.0 Illidan Flashback 03 - Gift of Sargeras - IGC - Main,1501687,0,0,0,6,0,2729,0,0,0,0,-1,11,0
 1308,7.0 Illidan Flashback 03 - Gift of Sargeras - IGC - Alt01,1272508,0,0,0,7,0,2787,0,0,0,0,-1,11,0
 1309,7.0 Illidan Flashback 03 - Gift of Sargeras - IGC - Alt02,1272508,0,0,0,7,0,2787,0,0,0,0,-1,11,0
-1310,Generic - Instant Blackout - 1 sec Fade in (Test),-16777216,1000,0,0,4,0,0,0,0,0,0,-1,-1,0
+1310,Generic -  Fade to Blackout - 2 sec Fade in ,-16777216,2000,0,0,4,0,0,0,0,0,0,-1,-1,0
 1311,Teleport Dalaran Light Param,0,0,0,0,0,0,2879,0,0,0,0,-1,2,0
 1312,Generic - Fade to Black - 0/2 sec,-16777216,2000,0,0,4,0,0,0,0,0,0,-1,-1,0
 1313,Azsuna - Kvaldir Raid - Mist of the Kvaldir,-1,6,40,0,3,0,2037,2500,2500,0,0,-1,3,1
@@ -643,7 +643,7 @@ ID,Name,Param[0],Param[1],Param[2],Param[3],Effect,FullScreenEffectID,LightParam
 1499,8.0 Islands - Skybox - Time of Day - 6 - 1700,0,0,0,0,0,0,2589,0,0,0,0,1020,8,0
 1500,8.0 Islands - Skybox - Time of Day - 7 - 1400,0,0,0,0,0,0,2589,0,0,0,0,840,8,0
 1501,8.0 Kul Tiras - Monastery Ritual - Beginning - RRB,0,0,100,0,2,0,0,0,0,0,0,-1,-1,0
-1502,"Shrine of the Storm - Boss 4, Facelsss - Drowning Curse - KLH",589897,4,4,0,3,0,3711,2000,2000,0,0,0,3,0
+1502,"Shrine of the Storm - Boss 4, Facelsss - Drowning Curse - KLH",589897,4,4,0,3,0,3711,2000,2000,3058,0,0,7,0
 1503,8.0 Vol'dun - Memories (JAP),1308660,0,3000,0,6,0,0,0,0,0,0,-1,1,0
 1504,Generic - Fade to Red - 1/1 sec - IGC,-16771841,1000,1000,0,4,0,0,0,0,0,0,-1,1,0
 1506,Nazmir Raid - Blood Elemental - Omega Vector,13050916,15,1,0,3,0,6,2000,2000,0,0,-1,1,0
@@ -755,7 +755,7 @@ ID,Name,Param[0],Param[1],Param[2],Param[3],Effect,FullScreenEffectID,LightParam
 1720,Toy - Time of Day - Midnight,1412466,40000,40000,0,6,0,0,3000,3000,0,0,0,8,0
 1722,9.0 NPE - Training - Light Fog - (STM),0,0,0,0,5,0,2261,4000,2000,0,0,-1,2,0
 1723,9.0 NPE - Medium Fog - (STM),0,0,0,0,0,0,4590,10000,10000,0,0,540,10,1
-1724,9.0 NPE - Heavy Fog - (STM),0,0,0,0,0,0,4594,0,0,2223,0,1110,-1,1
+1724,9.0 NPE - Heavy Fog - (STM),0,0,0,0,0,0,4594,2000,0,2223,0,1110,-1,0
 1725,8.3 Visions of N'Zoth - Sanity - Evacuation Protocol - EZ,0,2000,2000,3,4,0,0,0,0,0,0,-1,1,0
 1726,8.2 Nazjatar Raid - Azhsara - RP Scene 16 - Player Teleports to Azshara,0,3000,1000,1,4,0,0,0,0,0,0,-1,1,0
 1727,8.3 Visions of N'zoth - Prototype - Sanity - Madness Effect - Health to 1 2. Periodic,0,1,0,1,3,0,4322,1000,1000,462,0,0,14,0
@@ -830,7 +830,7 @@ ID,Name,Param[0],Param[1],Param[2],Param[3],Effect,FullScreenEffectID,LightParam
 1803,World - Area Denial - Maldraxxus Anima,0,0,0,0,8,132,0,0,0,0,0,-1,1,0
 1804,World - Area Denial - Ardenweald Anima,0,0,0,0,8,146,0,0,0,0,0,-1,1,0
 1805,World - Area Denial - Revendreth Anima,0,0,0,0,8,151,0,0,0,0,0,-1,1,0
-1806,World - Area Denial - Devourer Anima,0,0,0,0,8,124,0,0,0,0,0,-1,1,0
+1806,World - Area Denial - Devourer Anima,0,0,0,0,8,124,0,0,0,3050,0,-1,5,0
 1807,9.0 Revendreth - Dark Spot (JDA),0,0,0,0,0,0,5168,1000,1000,0,0,-1,3,0
 1808,9.0 Maw - Maldraxxus - Alexandros Boss Fight Cosmetic (RKS),0,0,0,0,2,0,0,0,0,0,0,-1,1,0
 1809,9.0 Maw - Torghast - Light Set - Skoldus Hall - PRK,0,0,0,0,6,0,4845,0,0,0,0,-1,2,0
@@ -980,7 +980,7 @@ ID,Name,Param[0],Param[1],Param[2],Param[3],Effect,FullScreenEffectID,LightParam
 1979,Generic - Blue Out (1 fade in/out),-26112,1000,1000,0,4,0,0,0,0,0,0,-1,1,0
 1980,10.0 The Forbidden Reach - Support Creche - Toxic Air (ZTO),-1864132,4,2,1,3,0,1616,3,3,2518,0,-1,5,0
 1981,Enter the Dream Effect,0,0,0,0,8,156,0,0,0,0,0,-1,1,0
-1982,RONQ - Test - ScreenEffect,0,0,0,0,8,117,0,0,0,0,0,-1,1,0
+1982,RONQ - Test - ScreenEffect,0,0,0,0,8,230,0,0,0,0,0,-1,1,0
 1983,Generic - Fade to Black - 0.25/0.25 sec,-16777216,250,250,0,4,0,0,0,0,0,0,-1,1,0
 1984,Generic - Fade to White - 2/1.5 sec,-1,1500,2000,1,4,0,0,0,0,0,0,-1,1,0
 1985,9.0 - FX Test - EZ,0,0,0,0,8,136,164,0,0,0,0,-1,1,0
@@ -1018,7 +1018,7 @@ ID,Name,Param[0],Param[1],Param[2],Param[3],Effect,FullScreenEffectID,LightParam
 2018,10.0 Professions - Engineering - Devices - Environmental Emulator - Calm Cyclone,0,0,0,0,0,0,820,1000,1000,2584,0,450,-1,0
 2019,10.0 Professions - Engineering - Devices - Environmental Emulator - Icecrown,0,0,0,0,0,0,808,1000,1000,466,0,1290,-1,0
 2020,10.0 Professions - Engineering - Devices - Environmental Emulator - Burning Skies,0,0,0,0,0,0,456,1000,1000,46,0,0,-1,0
-2021,10.0 Professions - Engineering - Devices - Environmental Emulator - Twisting Nether,0,0,0,0,0,0,508,1000,1000,401,0,0,-1,0
+2021,10.0 Professions - Engineering - Devices - Environmental Emulator - Twisting Nether,0,0,0,0,0,0,508,1000,1000,3063,0,0,-1,0
 2022,8.0 Lightning,0,0,0,0,8,184,164,0,0,0,0,-1,1,0
 2023,10.0.0 [CZE] Spyglass (Centered) - IGC,0,0,0,0,8,185,0,0,0,0,0,-1,1,0
 2024,10.0 Thal - Level Up - Ch 01 - Q66163 - Aura Active Effect - (LWB),9849671,5,0,0,3,0,0,0,0,0,0,-1,1,0
@@ -1127,7 +1127,7 @@ ID,Name,Param[0],Param[1],Param[2],Param[3],Effect,FullScreenEffectID,LightParam
 2135,10.1.5 Holiday - Hallow's End - Cursed Hot Head - Screen Effect,2433220,500,500,0,6,0,0,0,0,0,0,-1,1,0
 2138,11.0 Dungeon - Kobold - Cart Event - Darkness Test Darker - KLH,4620063,1000,1000,0,6,0,0,0,0,0,0,-1,1,0
 2139,10.2.0 [TPT] Flash to Orange - .25/.25 sec - IGC,7398399,150,150,0,4,0,0,0,0,0,0,-1,1,0
-2140,Max A FX - Test - ScreenEffect,0,0,0,0,8,204,0,0,0,0,0,-1,1,0
+2140,Max A FX - Test - ScreenEffect,0,0,0,0,8,245,0,0,0,0,0,-1,1,0
 2141,Ambient - Darkness (Slow Fade) (MDE),0,0,0,0,3,0,3711,900,900,0,0,-1,2,0
 2142,10.2 Raid - Dream - Fiery Ancient - Intermission Darkness - CHTL,4075501,6000,500,0,6,0,4351,2000,500,0,0,0,3,0
 2143,10.2.5 Holiday - Love - Peaceful Day,0,0,0,0,0,0,1587,1000,1000,2582,0,930,11,0
@@ -1182,9 +1182,10 @@ ID,Name,Param[0],Param[1],Param[2],Param[3],Effect,FullScreenEffectID,LightParam
 2210,11.0 Z2 - Local - Kobold Story Time - All - Filter Aura - TEST (DTM),1308667,0,0,0,6,0,0,0,0,0,0,-1,1,0
 2211,11.0 Z2 - Local - Camp Murroch Fog (HCR),0,0,0,0,3,0,3087,2500,2500,1722,0,0,3,0
 2212,11.0 Nerubian Palace - Bloodbound Horror - The Unseeming Screen Effect - Nether,9731487,250,10,0,2,0,3290,0,0,0,0,-1,1,0
-2213,11.0.0 FX Screen Effect Test - Gregory Tapper,0,0,0,0,8,175,3290,0,0,0,0,-1,1,0
+2213,11.0.0 FX Screen Effect Test - Gregory Tapper,0,0,0,0,8,149,3290,0,0,0,0,-1,1,0
 2214,11ARA - Priory Scenario Light Param,1412466,40000,40000,0,6,0,6487,3000,3000,0,0,-1,2,0
 2215,11.0.0 [TCC] Void Cosmic Fullscreen - IGC,0,0,0,0,8,218,5567,0,0,0,0,60,1,0
+2216,11.0 Z3 - Max Level Campaign - Scenario - Area Denial - Holy,0,0,0,0,8,127,0,0,0,2809,0,-1,5,0
 2217,Fullscreen Test - JWA,0,0,0,0,8,222,0,0,0,0,0,-1,1,0
 2218,11.0.0 [TCC] Void Cosmic Fullscreen - SJD - IGC,0,0,0,0,8,223,5567,0,0,0,0,60,1,0
 2219,11.0 Nerubian Palace - Bloodbound Horror - The Unseeming Screen Effect - Color Grading,4691398,150,300,0,6,0,3290,0,0,0,0,-1,1,0
@@ -1192,9 +1193,146 @@ ID,Name,Param[0],Param[1],Param[2],Param[3],Effect,FullScreenEffectID,LightParam
 2221,11.0.0 FX - Black Blood - Void - Screen Effect,0,0,0,0,8,117,3290,0,0,0,0,-1,1,0
 2222,11.0 Z2 - Blur Test (DTM),0,0,0,0,8,123,0,0,0,0,0,-1,1,0
 2223,11.0.0 [MDD] Desaturate Screen Effect - IGC,1308654,0,0,6,6,0,5554,0,0,462,36,0,3,0
+2225,World - Area Denial - Poison - Purple (needs FX review),0,0,0,0,8,226,0,0,0,2370,0,-1,5,0
 2227,11.0 Z5 - Azj-Kahet - Emerald Dream Teleport (ZTO),-11347679,1900,1900,0,4,0,0,0,0,0,0,-1,1,0
 2228,Generic - Fade to Black - 0.25/0.5 sec,-16777216,500,250,0,4,0,0,0,0,0,0,-1,1,0
+2230,11.0.7 Seafuty Tempest - Storm - Major Rain Storm (MDE),0,0,0,0,0,0,6556,5000,5000,0,0,-1,2,0
+2231,Quest - Orweyna Bat Sight (RMV) - Test,0,0,0,0,0,0,4072,0,0,1915,3089,-1,7,1
 2233,Generic - Fade to Dark Purple - 1/1 sec,-13369333,1000,1000,0,4,0,0,0,0,0,0,-1,1,0
 2234,Generic - Fade to White - 0.5/1 sec,-1,1000,500,0,4,0,0,0,0,0,0,-1,1,0
 2240,11.0 Raid - Nerubian - Boss - Experiments - Black Blood Overflow - 01 Player Effect - JRN - Screen Effect,0,0,0,0,8,117,0,0,0,0,0,-1,5,0
+2242,11.0.5 20th Anniversary - Scenario - Silithus Skybox,0,0,0,0,0,0,5990,0,0,0,0,1260,2,0
+2243,11.0.5 20th Anniversary - Secrets - Hard - Ratts Revenge - Astral Goggles,-1726620700,5,0,0,3,0,4650,1000,1000,0,0,-1,3,0
 2244,11.0.0 [AXW] Void Cosmic Fullscreen - SJD - IGC,0,0,0,0,8,227,5567,0,0,0,0,60,1,0
+2245,11.0.0 [QAD] Vignette Fullscreen - IGC,0,0,0,0,8,228,5567,0,0,0,0,60,1,0
+2247,11.0.0 [QAD] Queen Death Vignette - SJD - IGC,0,0,0,0,8,229,5567,0,0,0,0,60,1,0
+2249,Brennan - Test - ScreenEffect,0,0,0,0,8,230,0,0,0,0,0,-1,1,0
+2250,11.1.7 Lorewalking (LAS),0,0,0,0,8,231,0,0,0,0,0,-1,1,0
+2251,11.0.5 20th Anniversary+ - Exterior Space - 20th Anniversary Fog/Lighting,0,0,0,0,0,0,6541,3000,3000,0,0,-1,2,0
+2252,Brennan - Test - ScreenEffect - v2,0,0,0,0,8,232,0,0,0,0,0,-1,1,0
+2253,FX Test - ScreenEffect - VV,0,0,0,0,8,233,0,0,0,0,0,-1,1,0
+2254,11.1 Raid - Undermine - Boss - Arena - Both Bosses - Ultimate,0,0,0,0,0,0,6637,5000,5000,0,0,300,10,0
+2255,11.0.2 Hallowfall - Itchy Water - Swarm- -ScreenEffect-,0,0,0,0,8,234,0,0,0,0,0,-1,1,0
+2256,11.1 Raid - Undermine - Boss - Casino - BOSS - Rip Fumes - 02 Effect - KLH,4723324,500,500,0,6,0,3528,1000,1000,0,0,-1,3,1
+2257,Generic - Red Swirling Fog,-1507328,5,80,0,3,0,0,1,1,0,0,-1,-1,0
+2258,"Generic - Blackout (.2 fade in, .5 fade out)",-16777216,200,500,0,4,0,0,0,0,0,0,-1,-1,0
+2259,11.0 Raid - Nerubian - Ethereal - Eternal Night - AD,4693144,3500,1000,0,6,0,0,0,0,0,0,-1,1,0
+2261,11.2.7 Campaign - Act 1 - Oztan Isle - Combat Phase - Skybox - Void + Music (ELM),0,0,0,0,0,0,4776,1000,3000,0,3236,-1,6,1
+2264,World - Area Denial - Generic - Sonic,0,0,0,0,8,233,0,0,0,0,0,-1,1,0
+2266,11.0.5 Raid - Blackrock Depths - BOSS 02 - Bael'Gar - Molten Furnace 3. Screen Effect - Molten Furnace Safety,0,0,0,0,8,149,0,100,100,0,0,-1,1,0
+2267,11.2 K'aresh - Treasure - Complex 01 - Flickering Lantern (HCR),7842,5,1,0,3,0,3990,3000,3000,0,0,-1,2,0
+2268,Test - Generic - Test - Screen Effect,0,0,0,4,8,217,0,0,0,0,0,-1,3,0
+2269,11.2 K'aresh - Treasure - Complex 01 - Flickering Lantern - Fog (HCR),-15823944,5,0,1,3,0,1616,3,3,0,0,-1,1,0
+2270,11.0.7 [OWV] Vignette No Ambient Light - IGC,-184549376,8,0,0,3,0,1989,0,0,0,0,-1,-1,0
+2271,11.0.7 [OHG] Cinematic Hallowfall Light - IGC,-184549376,8,0,0,3,0,6575,0,500,0,0,-1,14,0
+2272,11.1 Hard-Edge Scope,0,2,20,0,3,0,0,0,0,0,0,-1,1,0
+2275,Generic - Fade to White - 1/1 sec,-1,1000,1000,1,4,0,0,0,0,0,0,-1,1,0
+2276,11.1 Dungeon - Waterworks - Boss - Mech - Denial 01 Aura - TJA - Excessive Electrification,0,0,0,0,8,184,164,0,0,2909,0,-1,5,0
+2277,12.0 Dungeon - Murder Row - Boss 1 - Trash - Assassin - AOE Blind - 1. Cast - ADT,0,1,0,0,3,0,0,0,0,0,0,-1,1,0
+2280,11.1 Dungeon - Waterworks - Boss - Bog Beast - Rushing Tide - Screen Effect,0,0,0,0,8,123,0,0,0,2919,0,-1,5,0
+2281,11.1 Raid - Undermine - Boss 05 - Refinery - Intermission Player Cosmetics - 01 Apply Aura - CHTL,4075501,3000,500,0,6,0,5792,3000,500,0,0,-1,3,1
+2282,11.1 Dungeon - Waterworks - Boss - Geezle - Shock Water - Screen Effect,0,0,0,0,8,182,0,0,0,2920,0,-1,5,0
+2284,Generic - Pink Swirling Fog,-2218649,5,1,5,3,0,1616,3,3,0,0,-1,1,0
+2285,World - Area Denial - Poison - 11.1 Undermine,0,0,0,0,8,122,0,0,0,0,0,-1,5,0
+2288,11.1 Raid - Undermine - Teleport (CAV),-16777216,500,500,0,4,0,0,0,0,0,0,-1,1,0
+2291,11.1 Dungeon - Waterworks - Trash - Shredder - Shreddation - Screen Effect,0,0,0,0,8,159,0,0,0,2936,0,-1,5,0
+2292,11.1.0 - RSA - Spyglass Vision Hole - IGC,0,0,0,0,8,238,0,0,0,0,0,-1,1,0
+2297,11.2.5 Remix - Legion - Skyriding Combat - Enemy - T4 - Curse of Greed,1308668,500,1000,0,6,0,0,0,0,0,0,-1,1,0
+2298,11.2 Raid - Manaforge - Hunters - Havoc - Fel Rush Screen - TJA,4723323,3500,1000,0,6,0,0,0,0,0,0,-1,1,0
+2299,12.0 Z4 - Level Up Campaign - Ch 3 - Q08 - Phase Transition (HCR),0,5000,4000,1,4,0,4117,5000,200,0,0,0,9,0
+2301,11.1 Dungeon - Waterworks - Trash - Venture Co. Surveyor - Beam 03 Aura - TJA,0,0,0,0,8,10,0,0,0,2944,0,-1,5,0
+2302,12.0 z3 - Legends of the Haranir - Soul Teather Teleport - (LWB),-8026747,500,500,0,4,0,0,0,0,0,0,-1,1,0
+2303,12.0 Z4 - Level Up Campaign - Ch 3 - Q08 - Phase Transition,0,0,0,0,0,0,4439,2000,2000,0,0,0,11,0
+2304,12.0 Z4 - Level Up Campaign - Ch 3 - Q08 - Phase Transition - 3in/2out (HCR),0,3000,2000,0,4,0,4117,5000,200,0,0,0,9,0
+2305,8.0 Kezan Dungeon - Boss 2 - Elemental - Resonant Quake - 02 - Area Denial Damage - ML,0,0,0,0,8,156,0,0,0,2946,0,-1,5,0
+2306,11.2 K'aresh - World Boss - Voidstorm,4723323,1250,1250,0,6,0,6640,1250,1250,1717,0,0,2,1
+2307,"Generic - Blackout (.5 fade in, 1 fade out)",-16777216,1000,500,0,4,0,0,0,0,0,0,-1,-1,0
+2308,Generic -  Fade to Black - 1 sec Fade in ,-16777216,1000,0,0,4,0,0,0,0,0,0,-1,-1,0
+2309,Generic - Fade back in from Black - 1.5/0 sec,-16777216,0,1500,0,4,0,0,0,0,0,0,-1,-1,0
+2311,12.0 [TMP] BRM Vision Overlay Test - Skybox Trigger - IGC,3515596,0,0,0,6,0,1996,0,0,1495,0,-1,7,0
+2312,12.0 [TMP] BRM Vision Overlay Test - Blurry - IGC,16349696,2000,75,0,2,0,1996,0,0,0,0,-1,3,0
+2313,12.0 [TMP] BRM Vision Overlay Test - Custom - IGC,0,0,0,0,8,243,5567,0,0,0,0,60,1,0
+2323,12.0 Intro - Combat Void Fog (Intant Fade) (MDE),0,0,0,0,0,0,6725,0,3000,0,2564,-1,6,0
+2325,Generic - Fade to Black - 0.5/0.25 sec,-16777216,250,500,0,4,0,0,0,0,0,0,-1,1,0
+2326,11.2 Raid - Manaforge - Boss - Salhadaar - Starkiller Burst - AD,4723323,0,1000,0,6,0,0,0,0,0,0,-1,1,0
+2327,12.0 Intro - Void Fade To Total Purple (MDE),0,0,0,0,0,0,6724,10000,2000,0,2564,-1,6,0
+2328,12.0 Z4 - Level Up Campaign - Ch 3 - Q02.5 - Scrying Screen Effect (HCR),4629254,1000,1000,0,6,0,3943,1000,1000,1915,3089,-1,1,1
+2329,12.0 Z4 - Level Up Campaign - Ch 3 - Q08 - Phase Transition - 2in/2out (HCR),0,2000,3000,0,4,0,4117,5000,200,0,0,0,1,0
+2330,11.2 K'aresh - Phase Diving - Outdoor Aura - Effect (MDE)(AKG),0,0,0,0,8,247,6695,1000,1000,0,2564,-1,7,0
+2335,11.2.7 Housing - Sound - Amirdrassil,0,0,0,0,0,0,0,0,0,2638,0,-1,4,0
+2337,11.2.7 Housing - Sound - Grizzly Hills,0,0,0,0,0,0,0,0,0,437,0,-1,4,0
+2338,11.2.7 Housing - Sound - Elwynn Forest,0,0,0,0,0,0,0,0,0,2958,0,-1,4,0
+2339,11.2 - PhaseDiving - FullscreenEffect,0,0,0,0,8,247,6695,0,0,0,0,-1,3,0
+2341,11.2 - Screen Effect - Dimensius - Cosmic Void,0,0,0,0,8,248,0,0,0,0,0,-1,1,0
+2342,11.2.5 Remix - Legion - World Tier Change - Fel Transition,0,0,0,1,8,249,0,0,0,0,0,-1,-1,0
+2343,11.2.5 Remix - Legion - World Tier Change - Green Fade Out/In,555786,0,500,1,4,0,0,0,0,0,0,-1,-1,0
+2344,11.2.5 Remix - Legion - Heroic World Tier Skybox,0,0,0,0,0,0,6876,0,0,0,0,-1,2,1
+2345,Generic - Fade to White - .5/3 sec,-1,500,3000,0,4,0,0,0,0,0,0,-1,1,0
+2346,11.2 Raid - Manaforge - Boss - Salhadaar - Banished - AD,5708241,200,50,0,2,0,8,500,500,0,0,-1,3,0
+2347,12.0 Z2 - Lynx Temple Fog - Screen Effect - Heavy - Alt 3 (KEF)(JSS),-11316397,5,1,0,3,0,3334,1000,1000,0,0,-1,3,0
+2348,12.0 Z2 - Lynx Temple Fog - Screen Effect - Mild - Alt 1 (KEF)(JSS),-11316397,6,1,0,3,0,4006,1000,2000,3203,0,-1,7,0
+2349,12.0 Z2 - Lynx Temple Fog - Screen Effect - Heavy - Alt 2b (KEF)(JSS),-10592674,6,1,0,3,0,6281,1000,2500,0,0,-1,3,0
+2350,12.0 Z2 - Lynx Temple Fog - Screen Effect - Heavy - Alt 1 (KEF)(JSS),-11316397,6,1,0,3,0,3565,500,1000,0,0,-1,3,0
+2351,12.0 Intro - Combat 50% Void Fog (Slow Fade In) (MDE),0,0,0,0,0,0,6827,10000,10000,0,0,-1,2,0
+2352,12.0 Z2 - Lynx Temple Fog - Screen Effect - Heavy - Alt 2a (KEF)(JSS),-16777216,6,50,0,3,0,6281,1000,2500,3204,0,-1,7,0
+2353,12.0 Intro - Combat Void Fog (Slow Fade In) (MDE),0,0,0,0,0,0,6725,6000,1000,0,2564,-1,6,0
+2354,11.2.5 Remix - Legion - Skybox - Default,0,0,100,0,3,0,2675,0,0,1495,3227,-1,6,1
+2355,11.2.5 Remix - Legion - Heroic World Tier - WIP Nether Fog,-16760571,1000,50,0,2,0,0,0,0,0,0,-1,1,0
+2357,12.0 Prelaunch - Isle of the Thunder King Dark Purple - Skybox - (LWB)(KEF),0,0,0,0,0,0,1545,1000,1500,0,0,-1,2,0
+2358,11.2.5 Remix - Legion - Summoning Stone Time Bubble - Force Normal World Tier and Sanctuary,-16221430,35,0,0,2,0,0,0,0,0,0,-1,1,0
+2359,Generic - Fade to Orange - 3/3 sec,-16724225,3000,3000,0,4,0,0,0,0,0,0,-1,1,0
+2360,11.2.0 [LEP] Karesh Light Param - IGC,0,0,0,0,0,0,6499,0,0,0,0,-1,2,0
+2361,11.2 Delves - Kobyss - Underwater Effect (HCR),16777215,0,2000,1,4,0,6436,2000,1000,0,2698,1080,2,0
+2362,12.0 Intro - Void Fade To Total Purple (1 Sec In/Out) (MDE),0,0,0,0,0,0,6724,1000,1000,0,2564,-1,6,0
+2364,"12.0 Z2 - Local 14 - Q05 - Fear Periodic Aura, Eye of Halazzi (ZCS)",1308660,0,100,0,6,0,6680,500,500,2780,0,-1,1,0
+2365,Generic - Fade to White - 3/3,-1,3000,3000,1,4,0,0,0,0,0,0,-1,1,0
+2368,"Generic - Blackout ( 0 fade in, 0.2 fade out)",-16777216,0,200,0,4,0,0,0,0,0,0,-1,1,0
+2369,12.0 Prey - Kill Command (KNF),-65522,6,0,0,3,0,0,0,0,0,0,-1,-1,0
+2370,JWH - Test - ScreenEffect - Haranir,0,0,0,0,8,250,0,0,0,0,0,-1,1,0
+2372,12.0 Max Campaign - Ch 1 - Cave - Void Fog 50% (Instant) (SMART),0,0,0,0,0,0,6727,0,0,0,0,-1,2,0
+2373,11.2.5 Remix - Legion - Heroic World Tier - Limb Darkening,0,0,0,0,8,252,0,0,0,0,0,-1,1,0
+2374,11.2 Raid - Manaforge - Hunters - Orb 05 Denial Debuff - TJA,0,0,0,0,8,189,0,0,0,3102,0,-1,1,0
+2375,12.0 Dungeon - Nexus Point - Boss 2 - Lightscar - Positional Version - Bright,0,0,0,0,8,127,655,250,250,0,0,-1,3,0
+2377,Generic - Fade to White - 2/0 sec,-1,0,1000,0,4,0,0,0,0,0,0,-1,1,0
+2378,11.2 Raid - Manaforge - Hunters - Achievement 02 Aura - TJA,0,0,0,0,8,178,0,0,0,3128,0,-1,5,0
+2379,11.2 Raid - Manaforge - Hunters - Void - Collapsing Star 08 Middle Debuff - TJA,0,0,0,0,8,189,0,0,0,3129,0,-1,5,0
+2384,12.0 Raid - Darkwell - Boss - Naaru - Ultimate - AD,4693144,1150,1500,0,6,0,8,1150,1500,0,0,-1,1,0
+2385,SpectralSight - Void,0,0,0,0,8,253,3280,0,0,3291,0,-1,5,0
+2386,SpectralSight - Void 02,0,0,0,0,8,228,3280,0,0,1522,0,-1,5,0
+2388,12.0 - Feature - Abundance - Kick Out - Custom (JSS),0,0,0,0,8,254,0,0,0,0,0,-1,-1,0
+2389,12.0 - Feature - Abundance - Kick Out - Fade to Black (10s) (JSS),-1727717120,15000,0,0,4,0,6107,7500,0,0,0,-1,-1,0
+2391,"12.0 Dungeon - Nexus Point - Trash - Domanaar, Tank - LT - Directional Shield (2. Trigger Effect) ",1308654,750,750,0,6,0,2919,750,750,0,0,-1,3,0
+2395,12.0 Raid - Voidspire - Boss - Host General - March of the Endless 3. Weather,0,0,0,0,0,0,4776,2000,3000,0,2901,-1,6,1
+2396,12.0 Silvermoon City - Void Breach (ZTO),0,0,0,0,8,117,6775,1000,8000,0,0,-1,3,0
+2399,10.2 - Generic - Azerite - Fullscreen,0,0,0,0,8,255,3280,0,0,2615,0,-1,1,0
+2401,12.0 Z2 - Level Up Campaign - Ch 1 - Battlefield Void Comets - 4 - Area Denial (ZCS)(JSS),0,0,0,0,8,218,0,0,0,3194,0,-1,5,0
+2402,12.0 Z2 - Level Up Campaign - Ch 1 - Q01 - Knockback + stun (ZCS),0,0,0,0,0,0,6724,1000,1000,3195,2564,-1,6,0
+2403,"12.0 Z2 [TVL] Lynx Temple Fog - Cinematic - Heavy, Dark - IGC",4575028,0,2300,0,6,0,4335,500,2300,0,0,-1,3,0
+2405,12.0 Raid - Dreamrift - Boss - Malformed Manifestation - Alnsight - ARB,458793,0,35,0,3,0,4322,3,2,0,0,0,-1,0
+2407,12.0 Z2 - Isle of Fangs - No Man's Land - Boundary Warning - Screen Effect (JSS,-11842741,4,0,0,3,0,0,0,0,0,0,-1,-1,0
+2408,Generic - Fade to White - 1/0.5 sec,-1,500,1000,0,4,0,0,0,0,0,0,-1,1,0
+2409,12.0 Z2 - Level Up Campaign - Ch 2 - Q13 - COMBAT PHASE - 0. Screen Effect (KEF),0,0,0,0,5,0,2261,4000,2000,3206,0,-1,6,0
+2410,12.0 z2 - Ambient Fires - Damage Trigger - Fire School Damage (ZCS),0,0,0,0,8,10,0,0,0,2671,0,-1,5,0
+2411,12.0 Raid - Darkwell - Boss - Naaru - Intermission - AD,4723324,500,1500,0,6,0,0,0,0,0,0,-1,1,0
+2413,12.0 Prey - Test (KNF),0,0,0,0,8,119,0,0,0,0,0,-1,-1,0
+2414,12.0 Raid - Darkwell - Boss - Naaru - Blades - AD,0,0,0,0,8,159,0,0,0,0,0,-1,1,0
+2415,Flash To & From Gray - IGC,-8026747,5,5,0,4,0,0,0,0,0,0,-1,1,0
+2416,12.0 Z4 - Local 16 - Dance with the Devil- Voidstep (LAS),-16646002,6,0,0,3,0,1947,0,0,0,0,-1,1,0
+2417,11.2.7 [VXV] Vereesa Vision Fullscreen - SJD - IGC,0,0,0,0,8,257,5567,0,0,0,0,60,1,0
+2418,Fight Club - Dark Summoner - Area Trigger to Apply Watching Aura,-16777216,2,0,0,3,0,0,0,0,633,0,-1,-1,0
+2420,12.0 Dungeon - Maisara Caverns - Boss 3 - Door Denial DOT - TJA,4819353,0,5,0,3,0,5116,1000,1000,0,0,0,3,0
+2421,12.0 Raid - Darkwell - Boss - Naaru - Stars - AD,0,0,0,0,8,159,0,0,0,2936,0,-1,1,0
+2422,12.0 Raid - Darkwell - Boss - Naaru - Darkness - AD,4723323,1000,1000,0,6,0,0,0,0,0,0,-1,1,0
+2423,12.0 Dungeon - Windrunner Spire - Fog Clear Screen Effect (1 Aura) - SRC,0,0,0,0,0,0,6664,2000,2000,3298,0,-1,6,1
+2424,Desaturate - Slow Fade (DTM),1308654,1000,1000,6,6,0,5554,1000,1000,462,36,0,3,0
+2425,11.2.7 Secret - Puzzle 12 - Darkness,-16777216,30,0,0,2,0,0,0,0,0,0,-1,1,0
+2427,12.0 [PTA] Arcane - Fullscreen Transition - IGC,0,0,0,0,8,258,164,0,0,0,0,-1,1,0
+2431,12.0 Dungeon - Windrunner Spire - Acidic Demise - Screen Effect,0,0,0,0,8,122,0,0,0,0,0,-1,1,0
+2432,12.0 Dungeon - Windrunner Spire - Trash - Boss 2 - Forsaken Support - Vial Toss - Screen Effect,0,0,0,0,8,213,0,0,0,0,0,-1,1,0
+2433,12.0 Dungeon - Windrunner Spire - Trash - Boss 2 - Forsaken Abomination - Fetid Spew - Screen Affect,0,0,0,0,8,213,0,0,0,0,0,-1,1,0
+2434,12.0 Dungeon - Windrunner Spire - Trash - Boss 3 - Grunt - Bladestorm (3 Screen Effect),0,0,0,0,8,119,0,0,0,0,0,-1,1,0
+2435,12.0 Dungeon - Lightbloom - Boss 1 - Rutaani Heavy - Tank Hit - 05 Trigger Effect - CHTL,0,0,0,0,8,230,0,0,0,0,0,-1,1,0
+2436,"12,0 Delve - The Darkway - Technician Spectacles (MDE)",0,0,0,0,0,0,5349,1000,1000,462,36,-1,6,0
+2437,12.0 ScreenEffect - Dungeon - Maisara Caverns - Boss 1 - Freezing Trap,0,0,0,0,8,175,0,0,0,3320,0,-1,5,0
+2438,12.0 Secret - Mind-Seeker Hub - Title Event Aura,-16777216,100,0,0,2,0,0,0,0,0,0,-1,1,0
+2439,12.0 ScreenEffect - Dungeon - Maisara Caverns - Boss 2 - Soulrot,0,0,0,0,8,132,0,0,0,3322,0,-1,5,0
