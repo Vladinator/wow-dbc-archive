@@ -2353,7 +2353,9 @@ Generates 1 Rage every 3 sec while in combat.",
 7383,,,Immune to Physical damage.
 7384,,"Instantly overpower the enemy causing $m1% weapon damage. Cannot be blocked, dodged or parried. Overpower has a $s3% increased chance to be a critical strike.
 
-Overpower is activated by Taste for Blood.",
+Overpower is activated by Taste for Blood.
+
+Casts of Overpower reduce the remaining cooldown of Mortal Strike by ${$s4/1000}.1 sec.",
 7386,,"Sunders the target, causing Weakened Armor.
 
 |Tinterface\icons\ability_warrior_sunder.blp:24|t |cFFFFFFFFWeakened Armor|r
@@ -56699,7 +56701,9 @@ Fur Lining requires at 400 skill in Leatherworking to remain active and causes t
 85038,,,
 85039,,,
 85040,,Teleports the caster out of the Abyssal Maw.,
-85043,,When you dodge or parry a melee attack you have a $h% chance of refreshing the cooldown on your next Avenger's Shield and causing it to generate a charge of Holy Power if used within $85416d.,
+85043,,"$?ws28825[When you dodge or parry a melee attack, or hit with Crusader Strike or Hammer of the Righteous, you have a $s2% chance of refreshing the cooldown on your next Avenger's Shield and causing it to generate a charge of Holy Power if used within $85416d.
+
+While inside of an Arena or Battleground, only dodging or parrying a melee attack will activate Grand Crusader, and the chance is increased to $s3%.][When you dodge or parry a melee attack you have a $s3% chance of refreshing the cooldown on your next Avenger's Shield and causing it to generate a charge of Holy Power if used within $85416d.]",
 85051,,,
 85063,,,
 85065,,,
@@ -56729,7 +56733,7 @@ Fur Lining requires at 400 skill in Leatherworking to remain active and causes t
 85095,,,
 85096,,,
 85097,,,
-85101,,Allows $s1% of your mana regeneration from Spirit to continue while in combat.,
+85101,,Allows $m1% of your mana regeneration from Spirit to continue while in combat.,
 85115,,,
 85116,,,
 85118,,,
@@ -96561,7 +96565,7 @@ Increases attack speed by $s2%."
 138123,,$@spelldesc137639,
 138124,,,
 138125,,,
-138126,,Activating Skull Banner now also increases your critical strike chance by $138127s1% for $138127d.,
+138126,,Activating Recklessness now also increases your critical strike chance by $138127s1% for $138127d while not in Defensive Stance.,
 138127,,Increases critical strike chance by $s1% for $d.,Increases critical strike chance by $s1%.
 138128,,,
 138129,,"While Dark Soul is active, Haunt's duration is increased by ${$138483m1/1000} sec, Chaos Bolt and Shadowburn consume $s2% less Embers, and abilities cost $s3% less Demonic Fury.",
@@ -106700,6 +106704,7 @@ Rooted."
 1272534,,"Inflicts $1272534s1 Nature damage split among enemies within $1272534A1 yards. If the Bouncing Bolt does not impact with an enemy, an Unharnessed Power is formed, and the Bouncing Bolt will bounce again!",
 1272535,,"The Bouncing Bolt struck the ground, summoning an Unharnessed Power!",
 1272536,,,
+1272988,,Summons and dismisses Inarius' Charger.  This mount changes depending on your Riding skill and location.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
 1276520,,,
 1276522,,,
 1276789,,,
@@ -106737,3 +106742,9 @@ Rooted."
 1277637,,"Inflicts $s1 Physical damage to all targets within $A1 yards and interrupts any spell currently being cast by the victim.
 Victims have their casting speed reduced by $134372s2% until they finish casting their next spell.",
 1277787,,,
+1278052,,,
+1278053,,,
+1278879,,,
+1278880,,,
+1278947,,"Summons a ridable rampaging yak. This is a very, VERY fast mount.
+|CFFff0000Only usable in Challenge Mode Dungeons.|R",Ahhhhhhh!
