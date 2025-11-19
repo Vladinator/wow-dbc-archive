@@ -10187,7 +10187,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 18791,,19,6848
 18792,,208,6848
 18793,,273,6848
-18794,Abundance Collected,19,6849
+18794,Abundance Inventory,19,6849
 18795,,273,6849
 18796,The amount of Abundance you currently hold. Deliver to Dundun at any nearby altar.,208,6849
 18797,,275,6850
@@ -11173,16 +11173,16 @@ ID,Value_lang,ReqID,ParentWidgetID
 20086,,208,7284
 20234,|TInterface/ICONS/INV_1125_Remix_HardMode.blp:50|t,52,7190
 20235,"You are in Heroic World Tier|n|nOutdoor difficulty is significantly increased.|n|nTo exit Heroic World Tier, cast Temporal Retreat from your General Spellbook.",394,7190
-20236,Total Contributions,19,7314
+20236,Altar Contribution,19,7314
 20237,Abundance Collected_Over,273,7314
 20238,Deposit Materials at an Altar to fill.,208,7314
-20239,Abundance Collected,19,7315
+20239,Altar Contribution,19,7315
 20240,Abundance Collected_Over,273,7315
 20241,Deposit Materials at an Altar to fill.,208,7315
-20242,Abundance Collected,19,7316
+20242,Altar Contribution,19,7316
 20243,Abundance Collected_Over,273,7316
 20244,Deposit Materials at an Altar to fill.,208,7316
-20245,Abundance Collected,19,7317
+20245,Altar Contribution,19,7317
 20246,Abundance Collected_Over,273,7317
 20247,Deposit Materials at an Altar to fill.,208,7317
 20251,Defeat the Wallbreaker!,52,7319
@@ -11319,7 +11319,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 20425,,19,7375
 20426,Bring Ingrediants,208,7375
 20427,Grab ingrediants,273,7375
-20428,[widget] Harvest the land's resources for the Loa of Abundance!,52,7376
+20428,Harvest the land's resources for the Loa of Abundance!,52,7376
 20429,,394,7376
 20430,,257,7377
 20431,Tooltip 1,258,7377
@@ -11437,27 +11437,27 @@ ID,Value_lang,ReqID,ParentWidgetID
 20565,Story Variant: |cnWHITE_FONT_COLOR:Ogre Powered,52,7437
 20566,,394,7437
 20567,,257,7438
-20568,Tooltip 1,258,7438
-20569,Tooltip 2,262,7438
+20568,Displays the current quality of your Catch Rating.,258,7438
+20569,Displays the current quality of your Catch Rating.,262,7438
 20570,,261,7438
 20571,,264,7438
-20572,Tooltip 3,265,7438
+20572,Displays the current quality of your Catch Rating.,265,7438
 20573,,267,7438
-20574,Tooltip 4,268,7438
+20574,Displays the current quality of your Catch Rating.,268,7438
 20575,,270,7438
-20576,,271,7438
+20576,Displays the current quality of your Catch Rating.,271,7438
 20577,,570,7438
 20578,,571,7438
 20579,,257,7439
-20580,Catch Rating,258,7439
-20581,Catch Rating,262,7439
+20580,Displays the current quality of your Catch Rating.,258,7439
+20581,Displays the current quality of your Catch Rating.,262,7439
 20582,,261,7439
 20583,,264,7439
-20584,Catch Rating,265,7439
+20584,Displays the current quality of your Catch Rating.,265,7439
 20585,,267,7439
-20586,Catch Rating,268,7439
+20586,Displays the current quality of your Catch Rating.,268,7439
 20587,,270,7439
-20588,Catch Rating,271,7439
+20588,Displays the current quality of your Catch Rating.,271,7439
 20589,,570,7439
 20590,,571,7439
 20595,,212,7442
@@ -11864,15 +11864,100 @@ ID,Value_lang,ReqID,ParentWidgetID
 21451,Progress,19,7671
 21452,,273,7671
 21453,Toss incense materials into the pot to get a bundle of pollinic incense.,208,7671
-21454,Complete %50654e |4world quest:world quests; in Zul'Aman to unlock,52,7672
+21454,Complete %50756e |4world quest:world quests; in Zul'Aman to unlock,52,7672
 21455,,394,7672
-21456,Time Left: %29861ht,52,7673
+21456,Time Left: %30481ht,52,7673
 21457,,394,7673
-21458,Time Left: %29861ht,52,7674
+21458,Time Left: %29306ht,52,7674
 21459,,394,7674
-21460,Complete %50654e |4world quest:world quests; in Zul'Aman to unlock,52,7675
+21460,Complete %50745e |4world quest:world quests; in Zul'Aman to unlock,52,7675
 21461,,394,7675
 21466,Next Assault: %29190xa,52,7676
 21467,,394,7676
 21470,Time Left: %28699xa,52,7679
 21471,,394,7679
+21472,"|nWeekly Quest Reward from ""Disrupt the Call"":",52,7680
+21473,,394,7680
+21474,|cFFFFFFFFTwilight's Blade Insignia|r,56,7681
+21475,,57,7681
+21476,,59,7681
+21477,,60,7681
+21478,,62,7681
+21479,,63,7681
+21480,,67,7681
+21481,,66,7681
+21482,|cFFFFFFFF40|r,72,7681
+21483,,73,7681
+21484,,74,7681
+21485,,75,7681
+21489,,212,7682
+21490,,277,7682
+21491,,212,7683
+21492,,277,7683
+21493,,212,7684
+21494,,277,7684
+21495,,212,7685
+21496,,277,7685
+21497,,212,7686
+21498,,277,7686
+21499,,212,7687
+21500,,277,7687
+21501,,212,7688
+21502,,277,7688
+21503,,212,7689
+21504,,277,7689
+21505,,212,7690
+21506,,277,7690
+21507,,212,7691
+21508,,277,7691
+21509,,212,7692
+21510,,277,7692
+21511,,212,7693
+21512,,277,7693
+21513,,212,7694
+21514,,277,7694
+21515,|nRewards:,52,7695
+21516,,394,7695
+21517,,621,7696
+21518,,622,7696
+21519,,627,7696
+21520,,212,7697
+21521,,277,7697
+21522,,212,7698
+21523,,277,7698
+21526,Cannot access while on Zul'Aman Campaign Chapter 1. Speak with the Visage of Jan'alai in Atal'Aman to temporarily exit the Campaign.,52,7700
+21527,,394,7700
+21539,Diplomatic talks end in:,19,7702
+21540,,273,7702
+21541,The haranir are busy establishing diplomatic relations with the peoples of the surface world.,208,7702
+21547,|cFFFFFFFFTwilight's Blade Insignia|r,56,7705
+21548,,57,7705
+21549,,59,7705
+21550,,60,7705
+21551,,62,7705
+21552,,63,7705
+21553,,67,7705
+21554,,66,7705
+21555,|cFFFFFFFF40|r,72,7705
+21556,,73,7705
+21557,,74,7705
+21558,,75,7705
+21559,"|nWeekly Quest Reward from ""Twilight's Dawn"":",52,7706
+21560,,394,7706
+21566,Current Tokens: ,72,7709
+21567,%3376c / %3376m,56,7709
+21568,|Hcurrency:3376|h,57,7709
+21569,,72,7709
+21570,,59,7709
+21571,,60,7709
+21572,,62,7709
+21573,,63,7709
+21574,,67,7709
+21575,,66,7709
+21576,,73,7709
+21577,,74,7709
+21578,,75,7709
+21579,Complete %50792e |4world quest:world quests; in Eversong to unlock,52,7710
+21580,,394,7710
+21581,Time Left: %29872ht,52,7711
+21582,,394,7711

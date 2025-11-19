@@ -29559,3 +29559,56 @@ height = height + (rand1 * variance)
 
 transUp = parabola(1,1,height)
 modelRoll = progress * 1500",0,1
+5028,12.0 Raid - Voidspire - Alleria - P1 - Railgun - 07 Missile Beam Replacement - KLH,"local function remap(value, min1, max1, min2, max2)
+	if ((value == nil) or (min1 == nil) or (max1 == nil) or (min2 == nil) or (max2 == nil)) then return nil; end
+	return min2 + (value - min1) * (max2 - min2) / (max1 - min1)
+end
+
+local waveHeight = 2 -- startDistance * .05
+local wavesPerSec = 2
+local angle = 180
+local maxMagnitude = startDistance * .15
+local spinRate = math.max(360*startDistance/10,180)
+
+local missileAngle = spinRate * time
+
+if (missileIndex > 0) then
+	local anglePerMissile = 360 / (missileCount)
+	missileAngle = missileAngle + anglePerMissile * missileIndex
+end
+
+transRight = (sin(progress*missileAngle)*waveHeight)*sin(progress*spinRate)*(1-progress)
+transUp = (sin(progress*missileAngle)*waveHeight)*cos(progress*spinRate)*(1-progress)
+",0,3
+5029,Priest - Shadow - Void Wraith Missile,"local clockwiseOrNah = 1
+
+if rand1 > 0.5 then
+	clockwiseOrNah = -1
+end
+
+transMag = (progress * 2) - 1
+transMag = ((1 - (transMag * progress^0.1)) * (maxMagnitude)) * progress^2
+
+transFront = distanceToFirePos * (1 - progress)
+
+local magnitude = transMag * .1
+
+
+transFront = -sin(math.pow(progress, 2) * 2000) * (0.03)
+transRight = clockwiseOrNah * sin(progress * 2000) * (0.03)
+transUp = ((sin((rand2 * 2000) + (time * 450)) + sin((rand1 * 2000) + (time * 150))) * magnitude)
+
+",0,1
+5030,12.0 Raid - Darkwell - Boss - Naaru - Spikes - AD,"local magnitude = 30
+
+transUp = magnitude * (1 - progress)
+	
+transFront=distanceToImpactPos
+",0,1
+5031,Parabola (Fixed Height - 35 +/- 3 Yards) - TJA,"local function parabola(a,b,m) return (4*m*((1-progress)*a)*((progress)*b)) end
+
+local height = 35
+local variance = 3
+height = height + (rand1 * variance)
+
+transUp = parabola(1,1,height)",0,1

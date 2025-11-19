@@ -16740,8 +16740,8 @@ You can find trainers for them in some settlements and cities.",1
 36367,PVP_LABEL_WAR_MODE,War Mode,1
 36368,PVP_LABEL_PVP_TALENTS,PvP Talents,1
 36369,PVP_WAR_MODE_DESCRIPTION,"Enlist in War Mode and activate World PvP, increasing quest rewards and experience by up to 10% and enabling PvP Talents in the outdoor world.",1
-36370,PVP_WAR_MODE_NOT_NOW_ALLIANCE,"You must be in Stormwind, Valdrakken, or Dornogal to enlist in War Mode.",1
-36371,PVP_WAR_MODE_NOT_NOW_HORDE,"You must be in Orgrimmar, Valdrakken or Dornogal to enlist in War Mode.",1
+36370,PVP_WAR_MODE_NOT_NOW_ALLIANCE,"You must be in Stormwind, Silvermoon City, or Masters' Perch to enlist in War Mode.",1
+36371,PVP_WAR_MODE_NOT_NOW_HORDE,"You must be in Orgrimmar, Silvermoon City, or Masters' Perch to enlist in War Mode.",1
 36372,ERR_VOICE_CHAT_TOO_MANY_REQUESTS,Waiting to hear back from the voice chat server. Please try again in a minute.,1
 36373,COMMUNITIES_LIST_TRANSFER_OWNERSHIP_FIRST,You must transfer ownership before leaving,5
 36374,CONFIRM_LEAVE_AND_DESTROY_COMMUNITY,Leave and Delete Group?,1
@@ -23764,7 +23764,7 @@ And spread his flame to all Azeroth.",1
 55017,HOUSING_CATALOG_FILTERS_DYEABLE,Dyeable Only,1
 55018,HOUSING_CATALOG_FILTERS_INDOORS,Indoors,1
 55019,HOUSING_CATALOG_FILTERS_OUTDOORS,Outdoors,1
-55022,TRANSMOG_SHOW_EQUIPPED_GEAR,Show Currently Equipped Gear,1
+55022,TRANSMOG_SHOW_EQUIPPED_GEAR,Clear Current Transmogrifications,1
 55024,WOWHACK_SPELLS_FRAME_TITLE,[PH],1
 55025,WOWHACK_SPELLS_FRAME_CLASS_HEADER,[PH],1
 55026,WOWHACK_SPELLS_FRAME_ABILITIES_HEADER,[PH],1
@@ -23818,8 +23818,8 @@ And spread his flame to all Azeroth.",1
 55106,UNIT_NAMEPLATES_STYLE_THIN,Thin,1
 55107,UNIT_NAMEPLATES_STYLE_BLOCK,Block,1
 55108,UNIT_NAMEPLATES_STYLE_CAST_FOCUS,Cast Focus,1
-55109,TRANSMOG_SLOT_DISPLAY_TYPE_EQUIPPED_TOOLTIP,The appearance of this slot will show the currently equipped gear.,1
-55110,TRANSMOG_SLOT_DISPLAY_TYPE_UNASSIGNED_TOOLTIP,The appearance of this slot will not be changed.,1
+55109,TRANSMOG_SLOT_DISPLAY_TYPE_EQUIPPED_TOOLTIP,"When this outfit is applied, items in this slot will use their native appearance.",1
+55110,TRANSMOG_SLOT_DISPLAY_TYPE_UNASSIGNED_TOOLTIP,"When this outfit is applied, items in this slot will not have their appearance changed.",1
 55123,HOUSING_CATALOG_FILTERS_NONE,None,1
 55124,TRANSMOG_SITUATIONS_DESCRIPTION,"Choose specific Situations options below to automatically change into this outfit. You must meet all conditions listed for the change to occur.\n\nIf multiple outfits are equally valid, one will be chosen randomly.",1
 55125,TRANSMOG_SITUATIONS_ENABLED,Situations Enabled,1
@@ -24278,7 +24278,7 @@ And spread his flame to all Azeroth.",1
 55931,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_ICON_DIRECTION_BOTTOM,Bottom,1
 55932,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_VISIBILITY,Visibility,1
 55933,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_VISIBILITY_ALWAYS,Always Visible,1
-55934,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_VISIBILITY_IN_COMBAT,In Combat,1
+55934,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_VISIBILITY_IN_ENCOUNTER,Active Encounter,1
 55935,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_VISIBILITY_HIDDEN,Hidden,1
 55936,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_ICON_SIZE,Icon Size,1
 55937,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_OVERALL_SIZE,Size,1
@@ -24345,12 +24345,8 @@ And spread his flame to all Azeroth.",1
 56077,COMBAT_WARNINGS_ENABLE_ENCOUNTER_WARNINGS_LABEL,Enable Text Warnings,1
 56078,COMBAT_WARNINGS_ENABLE_ENCOUNTER_WARNINGS_NOT_AVAILABLE,|cnRED_FONT_COLOR:This feature is not currently available.|r,1
 56079,COMBAT_WARNINGS_ENABLE_ENCOUNTER_WARNINGS_TOOLTIP,Enables the display of boss ability warning messages in the center of the screen.,1
-56080,COMBAT_WARNINGS_HIDE_IF_NOT_TARGETING_PLAYER_LABEL,Hide when not targeted,1
+56080,COMBAT_WARNINGS_HIDE_IF_NOT_TARGETING_PLAYER_LABEL,Hide When Not Targeted,1
 56081,COMBAT_WARNINGS_HIDE_IF_NOT_TARGETING_PLAYER_TOOLTIP,Hides any boss warning messages that aren't targeting you.,1
-56082,COMBAT_WARNINGS_HIDE_MEDIUM_WARNINGS_LABEL,Hide medium warnings,1
-56083,COMBAT_WARNINGS_HIDE_MEDIUM_WARNINGS_TOOLTIP,Hides any boss warning messages that are of a medium severity.,1
-56084,COMBAT_WARNINGS_HIDE_MINOR_WARNINGS_LABEL,Hide minor warnings,1
-56085,COMBAT_WARNINGS_HIDE_MINOR_WARNINGS_TOOLTIP,Hides any boss warning messages that are of a minor severity.,1
 56087,PROFESSIONS_PATRON_ORDERS_TAB_TOOLTIP_NAME,%s Patron Orders,1
 56090,HOUSING_PLACEMENT_COLLISION_ERROR_TITLE,Cannot be placed due to collision,1
 56091,HOUSING_PLACEMENT_COLLISION_ERROR_SUBTITLE,Press %s to ignore collision,1
@@ -24509,7 +24505,7 @@ And spread his flame to all Azeroth.",1
 56365,TRANSMOG_ARTIFACT_OPTIONS_HEADER,Legion Artifact Override,1
 56366,BLIZZARD_STORE_VAS_ERROR_TIMERUNNER_NOT_ALLOWED,- Currently not available for timerunner characters.,3
 56578,ACCESSIBILITY_AUDIO_LABEL,Audio Assist,1
-56580,COMBAT_WARNINGS_HIDE_LONG_COUNTDOWNS_LABEL,Hide long countdowns,1
+56580,COMBAT_WARNINGS_HIDE_LONG_COUNTDOWNS_LABEL,Hide Long Countdowns,1
 56581,COMBAT_WARNINGS_HIDE_LONG_COUNTDOWNS_TOOLTIP,Only show countdowns on the timeline that will expire in the next few seconds.,1
 56582,HOUSING_MARKET_TAB_UNAVAILABLE_TEXT,Catalog Preview Mode is not currently available.,1
 56583,COOLDOWN_VIEWER_SETTINGS_ALERT_MENU_PLAY_SAMPLE,Play Sample,1
@@ -24517,7 +24513,7 @@ And spread his flame to all Azeroth.",1
 56585,ENABLE_COMBAT_WARNINGS_SOUNDS_TOOLTIP,Toggles boss warning sounds on and off.,1
 56586,COMBAT_WARNINGS_SOUND_VOLUME,Boss Warning Volume,1
 56587,COMBAT_WARNINGS_SOUND_VOLUME_TOOLTIP,Adjusts boss warning sound volume.,1
-56588,COMBAT_WARNINGS_SETTINGS,Boss Warnings Settings,1
+56588,COMBAT_WARNINGS_SETTINGS,Boss Warning Settings,1
 56589,BINDING_NAME_HOUSING_REMOVEDECOR,Remove Decor,1
 56590,SPELL_FAILED_CUSTOM_ERROR_2511,Requires the achievement Midnight Pathfinder to use in this area.,1
 56597,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_RED,Crimson,1
@@ -24543,18 +24539,18 @@ And spread his flame to all Azeroth.",1
 56670,CAA_COMBAT_AUDIO_ALERTS_LABEL,Combat Audio Alerts,1
 56672,CAA_ENABLE_COMBAT_AUDIO_ALERTS,Enable Combat Audio Alerts,1
 56673,CAA_COMBAT_AUDIO_ALERTS_TOOLTIP,[DNT] Combat Audio Alerts Tooltip,1
-56674,CAA_ENABLE_COMBAT_AUDIO_ALERTS_TOOLTIP,[DNT] Enable Combat Audio Alerts Tooltip,1
+56674,CAA_ENABLE_COMBAT_AUDIO_ALERTS_TOOLTIP,Enables the use of combat audio alerts. This can be toggled using the chat command /ttscombat.,1
 56675,CAA_SAY_PLAYER_HEALTH_LABEL,Say Your Health,1
 56676,EVERY_X_PERCENT,Every %d%%,1
-56677,CAA_SAY_PLAYER_HEALTH_TOOLTIP,[DNT] Say Your Health Tooltip,1
+56677,CAA_SAY_PLAYER_HEALTH_TOOLTIP,Says your health when it crosses certain percentages,1
 56678,CAA_SAY_TARGET_HEALTH_LABEL,Say Target Health,1
-56679,CAA_SAY_TARGET_HEALTH_TOOLTIP,[DNT] Say Target Health Tooltip,1
+56679,CAA_SAY_TARGET_HEALTH_TOOLTIP,Says your target's health when it crosses certain percentages,1
 56688,HOUSING_DECOR_FIRST_ACQUISITION_AVAILABLE,|cnLIGHTBLUE_FONT_COLOR:First-Time Collection Bonus Available|r,1
 56689,UNIT_NAMEPLATES_STYLE_MODERN,Modern,1
 56690,SPELL_FAILED_CUSTOM_ERROR_2512,The potatoad does not recognize you as one of its own.,1
 56691,HOUSING_MARKET_BUNDLE_PREVIEW_DETAILS,Previewing any Decor will add this bundle to your cart.,1
 56695,COOLDOWN_VIEWER_SETTINGS_ADD_ALERT_TOOLTIP_DISABLED_NO_VALID,This item doesn't support any alert types,1
-56697,HUD_EDIT_MODE_SETTING_DAMAGE_METER_BAR_HEIGHT,Frame Height,1
+56697,HUD_EDIT_MODE_SETTING_DAMAGE_METER_BAR_HEIGHT,Bar Height,1
 56702,TRANSMOG_HELP_1,Begin by selecting an |cnBRIGHTBLUE_FONT_COLOR:Outfit|r to customize.\n\nAdditional outfits can be purchased with gold.,1
 56703,TRANSMOG_HELP_2,"Assign appearances to any gear slot in an outfit to override the look of the equipment in that slot.\n\nAssigning or updating appearances costs gold, but once saved, you can switch to that outfit anytime for free.",1
 56704,TRANSMOG_HELP_3,Select appearances or sets to customize your outfit.\n\nYou can configure outfits to swap automatically by assigning specific rules in the |cnBRIGHTBLUE_FONT_COLOR:Situations|r tab.,1
@@ -24576,7 +24572,7 @@ And spread his flame to all Azeroth.",1
 56723,CAA_SAY_HEALTH_FORMAT_NO_PERCENT,Health %d,1
 56724,CAA_SAY_HEALTH_FORMAT_NO_HEALTH,%d percent,1
 56725,CAA_SAY_PLAYER_HEALTH_FORMAT_LABEL,Format,1
-56726,CAA_SAY_PLAYER_HEALTH_FORMAT_TOOLTIP,[DNT] Format,1
+56726,CAA_SAY_PLAYER_HEALTH_FORMAT_TOOLTIP,"Choose the wording it will use to say your health, using 20% as an example",1
 56730,CAA_SAY_HEALTH_FORMAT_NUM_ONLY,%d,1
 56731,CAA_SAY_TARGET_HEALTH_FORMAT_FULL,Target %d percent,1
 56732,CAA_SAY_TARGET_HEALTH_FORMAT_NO_PERCENT,Target %d,1
@@ -24599,16 +24595,16 @@ And spread his flame to all Azeroth.",1
 56749,SPELL_FAILED_CUSTOM_ERROR_2514,Your target has already been weakened by Carrion Essence.,1
 56750,CATALOG_SHOP_TOPUPFLOW_PURCHASE,Purchase Total: %s,3
 56755,CAA_SPEAKER_VOICE_LABEL,Combat Speaker Voice,1
-56756,CAA_SPEAKER_VOICE_TOOLTIP,[DNT] Combat Speaker Voice,1
+56756,CAA_SPEAKER_VOICE_TOOLTIP,Choose the primary voice for combat audio alerts,1
 56757,CAA_SPEAKER_SPEED_LABEL,Combat Speaker Speed,1
-56758,CAA_SPEAKER_SPEED_TOOLTIP,[DNT] Combat Speaker Speed,1
+56758,CAA_SPEAKER_SPEED_TOOLTIP,Adjust the rate of speech for combat audio alerts,1
 56759,CAA_SPEAKER_VOLUME_LABEL,Combat Speaker Volume,1
-56760,CAA_SPEAKER_VOLUME_TOOLTIP,[DNT] Combat Speaker Volume,1
+56760,CAA_SPEAKER_VOLUME_TOOLTIP,Choose the primary volume for combat audio alerts,1
 56761,CAA_SAMPLE_TEXT,Sample Text,1
 56762,CAA_SAY_PLAYER_HEALTH_THROTTLE_LABEL,Throttle,1
-56763,CAA_SAY_PLAYER_HEALTH_THROTTLE_TOOLTIP,[DNT] Throttle,1
+56763,CAA_SAY_PLAYER_HEALTH_THROTTLE_TOOLTIP,Limits the time between health callouts to reduce noise,1
 56764,CAA_SAY_TARGET_HEALTH_THROTTLE_LABEL,Throttle,1
-56765,CAA_SAY_TARGET_HEALTH_THROTTLE_TOOLTIP,[DNT] Throttle,1
+56765,CAA_SAY_TARGET_HEALTH_THROTTLE_TOOLTIP,Limits the time between target health callouts to reduce noise,1
 56766,SECONDS_FLOAT_ABBR,%.1f |4Sec:Sec;,1
 56767,DAMAGE_METER_RESET_ALL_SESSIONS,Reset Data,1
 56768,GROUP_FINDER_PLAYSTYLE_REQUIRED,Select Playstyle (required),1
@@ -24657,15 +24653,15 @@ And spread his flame to all Azeroth.",1
 56840,ERR_LFG_JOINED_TRAINING_GROUNDS_QUEUE,You are now queued for Training Grounds.,1
 56841,ERR_SOLO_JOIN_TRAINING_GROUND,You have joined the queue for %s.,1
 56851,CAA_SAY_TARGET_NAME_LABEL,Say Target Name,1
-56853,CAA_SAY_TARGET_NAME_TOOLTIP,[DNT] Say Target Name,1
+56853,CAA_SAY_TARGET_NAME_TOOLTIP,Says the name of the target when you select it,1
 56854,CAA_SAY_COMBAT_START_LABEL,Say Combat Start,1
-56855,CAA_SAY_COMBAT_START_TOOLTIP,[DNT] Say Combat Start,1
+56855,CAA_SAY_COMBAT_START_TOOLTIP,Choose a phrase or sound to indicate combat has started,1
 56856,CAA_SAY_COMBAT_END_LABEL,Say Combat End,1
-56857,CAA_SAY_COMBAT_END_TOOLTIP,[DNT] Say Combat End,1
+56857,CAA_SAY_COMBAT_END_TOOLTIP,Choose a phrase or sound to indicate combat has ended,1
 56858,CAA_SAY_COMBAT_START_TEXT,"Voice: ""Combat Start""",1
 56859,CAA_SAY_COMBAT_END_TEXT,"Voice: ""Combat End""",1
 56860,CAA_WHEN_TARGET_DIES_LABEL,When Target Dies,1
-56861,CAA_WHEN_TARGET_DIES_TOOLTIP,[DNT] When Target Dies,1
+56861,CAA_WHEN_TARGET_DIES_TOOLTIP,Choose a phrase or sound to indicate the target has died,1
 56862,CAA_WHEN_TARGET_DIES_USE_FORMAT,Use Target Health Format,1
 56864,CAA_WHEN_TARGET_DIES_VOICE_TARGET_DEAD,"Voice: ""Target Dead""",1
 56866,CAA_TARGET_DEAD,Target Dead,1
@@ -24705,3 +24701,91 @@ And spread his flame to all Azeroth.",1
 56922,COMBAT_WARNINGS_EVENT_STATUS_QUEUED,|cnENCOUNTER_TIMELINE_QUEUED_TEXT_COLOR:[Queued]|r,1
 56923,COMBAT_WARNINGS_EVENT_STATUS_BLOCKED,|cnENCOUNTER_TIMELINE_BLOCKED_TEXT_COLOR:[Blocked]|r,1
 56924,DAMAGE_METER_SPELL_ENTRY_UNIT,%s - %s,1
+56929,CAA_SAY_PLAYER_CASTS_LABEL,Say Your Casts,1
+56930,CAA_SAY_PLAYER_CASTS_TOOLTIP,Says when you cast an ability,1
+56931,CAA_SAY_PLAYER_CASTS_FORMAT_LABEL,Format,1
+56932,CAA_SAY_PLAYER_CASTS_FORMAT_TOOLTIP,Choose the wording it will use to say your cast,1
+56933,CAA_SAY_PLAYER_CASTS_MIN_CAST_TIME_LABEL,Minimum Cast Time,1
+56934,CAA_SAY_PLAYER_CASTS_MIN_CAST_TIME_TOOLTIP,Sets the minimum cast time of abilities to be announced. Set this to zero to include instant cast abilities.,1
+56935,CAA_SAY_PLAYER_CASTS_THROTTLE_LABEL,Throttle,1
+56936,CAA_SAY_PLAYER_CASTS_THROTTLE_TOOLTIP,Limits the time between cast callouts to reduce noise,1
+56937,CAA_SAY_TARGET_CASTS_LABEL,Say Target Casts,1
+56938,CAA_SAY_TARGET_CASTS_TOOLTIP,Says when your target casts an ability,1
+56939,CAA_SAY_TARGET_CASTS_FORMAT_LABEL,Format,1
+56940,CAA_SAY_TARGET_CASTS_FORMAT_TOOLTIP,Choose the wording it will use to say your target's cast,1
+56941,CAA_SAY_TARGET_CASTS_MIN_CAST_TIME_LABEL,Minimum Cast Time,1
+56942,CAA_SAY_TARGET_CASTS_MIN_CAST_TIME_TOOLTIP,Sets the minimum cast time of abilities to be announced. Set this to zero to include instant cast abilities.,1
+56943,CAA_SAY_TARGET_CASTS_THROTTLE_LABEL,Throttle,1
+56944,CAA_SAY_TARGET_CASTS_THROTTLE_TOOLTIP,Limits the time between target cast callouts to reduce noise,1
+56945,CAA_SAY_TARGET_CASTS_INTERRUPT_LABEL,Interrupt Alert,1
+56946,CAA_SAY_TARGET_CASTS_INTERRUPT_TOOLTIP,Announces when the target starts casting something that you can interrupt with an ability,1
+56947,CAA_SAY_TARGET_CASTS_INTERRUPT_SUCCESS_LABEL,Successful Interrupt Alert,1
+56948,CAA_SAY_TARGET_CASTS_INTERRUPT_SUCCESS_TOOLTIP,Announces when your target's cast is successfully interrupted by you or someone else,1
+56949,CAA_SAY_TARGET_CASTS_INTERRUPT_TEXT,"Voice: ""Interruptible Cast""",1
+56950,CAA_SAY_TARGET_CAST_INTERRUPT_SUCCESS_TEXT,"Voice: ""Cast Interrupted""",1
+56960,CAA_SAY_CASTS_FORMAT_FULL,Casting %s,1
+56961,CAA_SAY_CASTS_FORMAT_SHORT,Cast %s,1
+56962,CAA_SAY_CASTS_FORMAT_NO_SPELLNAME,Casting,1
+56963,CAA_SAY_CASTS_FORMAT_SHORT_NO_SPELLNAME,Cast,1
+56965,CAA_SAY_CASTS_FORMAT_SPELLNAME_ONLY,%s,1
+56966,CAA_SAY_TARGET_CASTS_FORMAT_FULL,Target casting %s,1
+56967,CAA_SAY_TARGET_CASTS_FORMAT_SHORT,Target cast %s,1
+56968,CAA_SAY_TARGET_CASTS_FORMAT_NO_SPELLNAME,Target Casting,1
+56969,CAA_SAY_TARGET_CASTS_FORMAT_SHORT_NO_SPELLNAME,Target Cast,1
+56970,CAA_SAY_CASTS_START_OF_CAST,Start of cast,1
+56971,CAA_SAY_CASTS_END_OF_CAST,End of cast,1
+56973,PARTY_MEMBER_OUT_OF_RANGE,Out of range,1
+56974,TOOLTIP_TALENT_RANK_APEX,Rank %d,1
+56975,HOUSING_EXPERT_DECOR_ROTATE_SNAP_INSTRUCTION,Snap Rotation Angle,1
+56976,HOUSING_EXPERT_DECOR_SCALE_SNAP_INSTRUCTION,Snap Scale Amount,1
+56977,HOUSING_EXPERT_DECOR_ROTATION_NEXTAXIS_INSTRUCTION,Next Axis,1
+56978,HUD_EDIT_MODE_ENCOUNTER_EVENTS_DISABLED_TOOLTIP,Boss encounter ability timeline and warning messages. Combat Warnings is currently disabled. Enable it in: Gameplay Enhancements > Combat Warnings.,1
+56981,DEBUFF_SYMBOL_BLEED,Bl,1
+56982,HUD_EDIT_MODE_DAMAGE_METER_DISABLED_TOOLTIP,The Damage Meter is currently disabled. Enable it in the Game Menu in Options > Gameplay Enhancements > Damage Meter.,1
+56984,OPTION_TOOLTIP_PARTY_CHAT_BUBBLES,Shows chat bubbles for party chat.,1
+56986,OPTION_TOOLTIP_RAID_CHAT_BUBBLES,Shows chat bubbles for raid chat.,1
+56987,DAMAGE_METER_LOCK_WINDOW,Lock Window,1
+56988,DAMAGE_METER_UNLOCK_WINDOW,Unlock Window,1
+56989,HOUSING_DECOR_DYE_REFUND_CONFIRMATION_TEXT,"Dyeing this Decor will make it non-refundable, are you sure you want to dye it?",1
+56990,HOUSING_DECOR_REFUND_TIME_REMAINING,Time remaining to refund: |cnHIGHLIGHT_FONT_COLOR:%s|r,1
+56991,HOUSING_DECOR_STORAGE_ITEM_REFUND,Refund,1
+56994,COMBAT_WARNINGS_HIDE_QUEUED_COUNTDOWNS_LABEL,Hide Queued Countdowns,1
+56995,COMBAT_WARNINGS_HIDE_QUEUED_COUNTDOWNS_TOOLTIP,Hide countdowns that have reached the end of the timeline and are waiting to be cast.,1
+56996,COMBAT_WARNINGS_HIDE_FOR_OTHER_ROLES_LABEL,Hide Countdowns for Other Roles,1
+56997,COMBAT_WARNINGS_HIDE_FOR_OTHER_ROLES_TOOLTIP,Only show countdowns on the timeline that are relevant for your currently assigned group role.,1
+56998,COMBAT_WARNINGS_SPELL_SUPPORT_ICONOGRAPHY_LABEL,Spell Support Iconography,1
+56999,COMBAT_WARNINGS_SPELL_SUPPORT_ICONOGRAPHY_TOOLTIP,Configures the display of support iconography such as role and dispel type indicators on countdowns.,1
+57000,COMBAT_WARNINGS_SPELL_SUPPORT_ICONOGRAPHY_OPTION_TANK_ALERT_LABEL,Tank Alerts,1
+57001,COMBAT_WARNINGS_SPELL_SUPPORT_ICONOGRAPHY_OPTION_HEALER_ALERT_LABEL,Healer Alerts,1
+57002,COMBAT_WARNINGS_SPELL_SUPPORT_ICONOGRAPHY_OPTION_DAMAGE_ALERT_LABEL,DPS Alerts,1
+57003,COMBAT_WARNINGS_SPELL_SUPPORT_ICONOGRAPHY_OPTION_DISPEL_LABEL,Dispellable,1
+57004,COMBAT_WARNINGS_SPELL_SUPPORT_ICONOGRAPHY_OPTION_ENRAGE_LABEL,Enrage,1
+57005,COMBAT_WARNINGS_SPELL_SUPPORT_ICONOGRAPHY_OPTION_DEADLY_LABEL,Deadly,1
+57006,COMBAT_WARNINGS_SPELL_SUPPORT_ICONOGRAPHY_OPTION_ALL,All Icons,1
+57007,COMBAT_WARNINGS_SPELL_SUPPORT_ICONOGRAPHY_OPTION_NONE,Disabled,1
+57008,BONUS_OBJECTIVE_HOUSING_FAVOR_FORMAT,|A:housing-dashboard-estatexp-icon:18:18:0:0|a %1$d %2$s,1
+57009,UNIT_NAMEPLATES_STYLE_HEALTH_FOCUS,Health Focus,1
+57010,CAA_SAMPLE_SPELLNAME,Fireball,1
+57033,CAA_SAY_TARGET_HEALTH_FORMAT_LABEL,Format,1
+57034,CAA_SAY_TARGET_HEALTH_FORMAT_TOOLTIP,"Choose the wording it will use to say your target's health, using 20% as an example",1
+57044,SLASH_TRANSMOG_CUSTOM_SET2,/customset,1
+57045,SLASH_TRANSMOG_CUSTOM_SET3,/customset,1
+57046,HOUSING_DECOR_UNIQUE_TROPHY_TOOLTIP,Unique Trophy,1
+57047,ERR_HOUSING_EXTERIOR_FAILSAFE_RESET,Exterior is missing a Base or Roof. Resetting house to House Type default,1
+57048,COMPACT_UNIT_FRAME_PROFILE_DISPLAY_ROLE_DEBUFFS_LARGER,Bigger Role Debuffs,1
+57049,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPLAY_ROLE_DEBUFFS_LARGER,Display role-specific debuffs slightly larger than other debuffs,1
+57051,HOUSING_DECOR_PLACE_IN_WORLD_TOOLTIP_DESC,Decor is not placed and will be sent to your House Chest on purchase,1
+57052,HOUSING_DECOR_PLACE_IN_WORLD_TOOLTIP_INSTRUCTIONS,Click or Drag to Place,1
+57054,HUD_EDIT_MODE_SETTING_DAMAGE_METER_BACKGROUND,Background,1
+57055,HUD_EDIT_MODE_SETTING_DAMAGE_METER_STYLE_BORDERED,Bordered,1
+57056,HUD_EDIT_MODE_SETTING_DAMAGE_METER_STYLE_FULL_BACKGROUND,Full Background,1
+57057,COMPACT_UNIT_FRAME_PROFILE_DISPELLABLE_INDICATOR_TYPE,Dispellable Debuff Indicator,1
+57058,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPELLABLE_INDICATOR_TYPE,"Controls how the dispel indicator icons are shown, this is separate from the debuff display.",1
+57059,COMPACT_UNIT_FRAME_PROFILE_DISPELLABLE_INDICATOR_TYPE_DISABLED,Disabled,1
+57060,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPELLABLE_INDICATOR_TYPE_DISABLED,No dispel indicators will be shown,1
+57061,COMPACT_UNIT_FRAME_PROFILE_DISPELLABLE_INDICATOR_TYPE_ME,Dispellable By Me,1
+57062,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPELLABLE_INDICATOR_TYPE_ME,Only show dispel indicators for things I can dispel,1
+57063,COMPACT_UNIT_FRAME_PROFILE_DISPELLABLE_INDICATOR_TYPE_ALL,Show All,1
+57064,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPELLABLE_INDICATOR_TYPE_ALL,Show all dispel indicator types even if I can't dispel it,1
+57066,COMPACT_UNIT_FRAME_PROFILE_DISPLAY_DISPEL_OVERLAY,Dispellable Debuff Color,1
+57067,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPLAY_DISPEL_OVERLAY,Highlight the group frame with a colored overlay if the group member has a dispellable debuff on them.,1
