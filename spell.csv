@@ -7724,7 +7724,7 @@ Attack speed increased by $s2%."
 20153,,Deals Fire damage to all enemies near the caster.,
 20154,,"Fills you with Holy Light, causing melee attacks to deal $101423s1% weapon damage to all targets within $101423A1 yards.",Melee attacks cause Holy damage against all targets within $101423A1 yards.
 20164,,"Fills you with Holy Light, causing melee attacks to deal $20170s2% additional Holy damage and reduce the target's movement speed by $20170s1% for $20170d.",Melee attacks cause Holy damage and reduce movement speed by $20170s1%.
-20165,,"Fills you with Holy Light, increasing your $?a137028[melee and ][]casting speed by $s3%, improving healing spells by $20165s2% and giving melee attacks a chance to heal $?s119477[the most wounded member of your party or raid][you] for $?s112859[${(0.15*$AP+0.15*$SPH)*1.25}][${0.15*$AP+0.15*$SPH}]$?a137029[ and restore $20167s3% of base mana when striking a target outside of an Arena or Battleground][].","Improves casting speed by $s3%.
+20165,,"Fills you with Holy Light, increasing your casting speed by $s3%$?a137028[, increasing your melee attack speed by $s5%][], improving healing spells by $20165s2% and giving melee attacks a chance to heal $?s119477[the most wounded member of your party or raid][you] for $?s112859[${(0.15*$AP+0.15*$SPH)*1.25}][${0.15*$AP+0.15*$SPH}]$?a137029[ and restore $20167s3% of base mana when striking a target outside of an Arena or Battleground][].","Improves casting speed by $s3%.
 Improves healing by $s2%.
 Melee attacks have a chance to heal you$?a137029[ and regenerate mana when striking a non-player target][]."
 20167,,$@spelldesc20165,
@@ -28243,7 +28243,7 @@ Chance to hit reduced by $s2%."
 49995,,,
 49996,,,
 49997,,,
-49998,,Focuses dark power into a strike that deals $m2% weapon damage plus $s1 to an enemy and heals you for $F% of the damage you have sustained from non-player sources during the preceding 5 sec (minimum of at least $s3% of your maximum health). This attack cannot be parried.,
+49998,,"Focuses dark power into a strike that deals $m2% weapon damage plus $s1 to an enemy and heals you for $F% of the damage you have sustained from non-player sources during the preceding 5 sec (minimum of at least $s3% of your maximum health)$?we47704[, plus ${$AP*($s4/1000)}][]. This attack cannot be parried.",
 50000,,"Deals exactly 10,000 damage. One for every soul forgotten by Kil'jaeden.",
 50001,,"Cuts your hand, enabling you to make the blood oath with Drakuru.",The cut on your hand enables you to make the blood oath with Drakuru.
 50002,,Allows the wearer to breathe under water. Must be within vision range of the buoy floating in Daggercap Bay.,Allows the wearer to breathe under water. Must be within vision range of the buoy floating in Daggercap Bay.
@@ -106438,7 +106438,9 @@ Health increased by $s2%."
 
 Healing spells and abilities recite a blazing song around your ally that increases their Movement Speed by $1244377s3%, heals nearby allies for $1244452s1 and burns nearby enemies for $1244379s1 Fire damage every $1244377t2 seconds for $1244377d.
 
-This can occur once every $proccooldown seconds."
+This can occur once every $proccooldown seconds.
+
+$?a1279050[While in combat you generate 3 Celestial Influence per second. At 100 Influence you may call upon an avatar of Chi-Ji to assist you in combat.][]"
 1243288,,,
 1243289,,,
 1243290,,,
@@ -106455,12 +106457,14 @@ This can occur once every $proccooldown seconds."
 1243301,,,
 1243302,,,
 1243311,,Summons the celestial Chi-Ji to your location.,
-1243314,,Summons the celestial Chi-Ji to your location.,
+1243314,,Summons an avatar of the celestial Chi-Ji to your location.,
 1243315,,,"Your Strength and Agility are increased by $1243316s1%.
 
-Direct attacks unleash an echo of Xuen's ferocity. A bolt of lightning is hurled at the enemy dealing $1244317s1 Nature damage and then jumps to nearby enemies. This can occur once every $proccooldown sec."
+Direct attacks unleash an echo of Xuen's ferocity. A bolt of lightning is hurled at the enemy dealing $1244317s1 Nature damage and then jumps to nearby enemies. This can occur once every $proccooldown sec.
+
+$?a1279075[While in combat you generate 1 Celestial Influence per second. At 100 Influence you may call upon an avatar of Xuen to assist you in combat.][]"
 1243316,,,"Your Strength, and Agility are increased by $s1% and your Stamina is increased by $s2%."
-1243374,,,
+1243374,,,Your gift of Celestial Influence has been halted.
 1243779,,,
 1243909,,,
 1243916,,,
@@ -106487,13 +106491,17 @@ Boss attacks have a chance to summon a lieutenant of Grand Empress Shek'zeer"
 1244203,,,"Your Stamina is increased by $1244217s1%.
 Your Strength, Agility and Intellect are increased by $1244217s2%.
 
-Dodge, Parry, and Blocks increase your Stamina by $1244374s1% and your Strength, Agility, and Intellect by $1244374s2%. This effect lasts $1244374d and can stack $1244374U times."
+Dodge, Parry, and Blocks increase your Stamina by $1244374s1% and your Strength, Agility, and Intellect by $1244374s2%. This effect lasts $1244374d and can stack $1244374U times.
+
+$?a1279074[While in combat you generate 3 Celestial Influence per second. At 100 Influence you may call upon an avatar of Niuzao to assist you in combat.][]"
 1244204,,,"Your Intellect is increased by $1244218s1%.
 Your Stamina is increased by $1244218s2%.
 
 Damaging spells and abilities inflict Jadefire, burning the target for $1244376o1 over $1244376d and increasing their magic damage taken by $1244376s2%. 
 
-This can occur once every $proccooldown sec and can stack $1244376u times."
+This can occur once every $proccooldown sec and can stack $1244376u times.
+
+$?a1279073[While in combat you generate 1 Celestial Influence per second. At 100 Influence you may call upon an avatar of Yu'lon to assist you in combat.][]"
 1244217,,,"Your Stamina is increased by $s1%.
 Your Strength, Agility, and Intellect is increased by $s2%."
 1244218,,,Your Intellect is increased by $s1% and Stamina by $s2%.
@@ -106571,8 +106579,8 @@ Jumping while rafting will paddle the raft, allowing you to move up to 130% fast
 
 Tigereye Brew can stack up to $1247279u times, but can only consume up to $1247267m2 stacks at a time for ${($1247280m3*$<masteryMod>+$<base>)*$123980m2}.2% increased damage.",
 1247275,,"Increases damage done by ${$1247280m3*$<masteryMod>+$<base>}.2% per stack of Tigereye Brew active, consuming up to $1247267m2 Tigereye Brew stacks. Lasts $d.
-$@spelltooltip1247267",Increases damage done by $w1%.
-1247279,,$@spelldesc1247267,Use Tigereye Brew to consume charges to gain $w1% damage for $1247275d.
+$@spelltooltip1247267",Increases damage done by $W1%.
+1247279,,$@spelldesc1247267,Use Tigereye Brew to consume charges to gain $W1% damage for $1247275d.
 1247280,,"Outside of Battlegrounds and Arenas:
 Grants an additional ${$m3*$<masteryMod>+$<base>}.2% damage per Tigereye Brew stack.
 
@@ -106708,36 +106716,56 @@ Rooted."
 1276520,,,
 1276522,,,
 1276789,,,
-1276852,,"Drink to apply the Polyformic Acid transformation. 
-|CFFff0000Only usable in Challenge Mode Dungeons.|R",
+1276852,,"Drink to apply the Polyformic Acid transformation. (5 Min Cooldown)
+
+|CFFff0000Only usable in Challenge Mode Dungeons.
+|R
+",
 1276853,,"Transforms the imbiber, granting their attacks and spells a chance to cause additional Nature damage.","Your attacks and spells have a chance to cause additional Nature damage.
 
 |cFFFFAA00""WARNING: Results unpredictable in event of imbiber's death.""|r"
-1276854,,"Gives the imbiber invisibility for $d.
+1276854,,"Gives the imbiber invisibility for $d. (5 Min Cooldown)
+
 |CFFff0000Only usable in Challenge Mode Dungeons.|R",Invisible.
-1276855,,"Encases the target in amber, preventing all action for up to $d.  Any damage caused will break the amber. |CFFff0000Only usable in Challenge Mode Dungeons.|R",Encased in amber
-1276856,,"Blast a blaring horn, attracting enemies within $A1 yards.
+1276855,,"Encases the target in amber, preventing all action for up to $d.  Any damage caused will break the amber. (5 Min Cooldown)
+
+|CFFff0000Only usable in Challenge Mode Dungeons.|R",Encased in amber
+1276856,,"Blast a blaring horn, attracting enemies within $A1 yards. (2 Min Cooldown)
+
 |CFFff0000Only usable in Challenge Mode Dungeons.|R",
-1276857,,"A faint whispering can be heard inside of your own head. The dagger bids you to thrust it deep into your heart. Do you dare comply?
-|CFFff0000Only usable in Challenge Mode Dungeons.|R",
-1276858,,"Encase yourself in restorative amber, restoring $1276858o2 health and ${$1276858m2/5*10} mana over $1276858d.
+1276857,,"A faint whispering can be heard inside of your own head. The dagger bids you to thrust it deep into your heart. Do you dare comply? (8 Min Cooldown)
+
+|CFFff0000Only usable in Challenge Mode Dungeons.
+|R
+",
+1276858,,"Encase yourself in restorative amber, restoring $1276858o2 health and ${$1276858m2/5*10} mana over $1276858d. (1 Min Cooldown)
+
 |CFFff0000Only usable in Challenge Mode Dungeons.|R",Encased in restorative amber.
-1276859,,"Blend into the shadows for $d and summon a Scarlet Crusader. The Crusader will draw the attention of nearby monsters and run into the distance.
-|CFFff0000Only usable in Challenge Mode Dungeons.|R
-",Stealthed.
+1276859,,"Blend into the shadows for $d and summon a Scarlet Crusader. The Crusader will draw the attention of nearby monsters and run into the distance. (10 Min Cooldown)
+
+|CFFff0000Only usable in Challenge Mode Dungeons.|R",Stealthed.
 1276860,,,
 1276861,,,Taunted.
 1276862,,,
 1277114,,,Ludicrous speed!
-1277115,,"Engage the rocket boots to greatly increase your speed.
-|CFFff0000Only usable in Challenge Mode Dungeons.|R",
-1277129,,"A strong and inspiring glass of exotic beer.
-|CFFff0000Only usable in Challenge Mode Dungeons.|R","Drunk with inspiration. Melee, ranged, and spell haste increased by $s2%."
+1277115,,"Engage the rocket boots to greatly increase your speed. (5 Min Cooldown)
+
+|CFFff0000Only usable in Challenge Mode Dungeons.
+|R
+",
+1277129,,"A strong and inspiring glass of exotic beer. (10 Min Cooldown)
+
+|CFFff0000Only usable in Challenge Mode Dungeons.
+|R
+","Drunk with inspiration. Melee, ranged, and spell haste increased by $s2%."
 1277236,,,
 1277251,,,
 1277260,Passive,Allows all weapons to be equipped in the off-hand.,
 1277303,,,
-1277344,,Increases movement speed of party members within $A yards by $s1%.  Lasts $d.  Drums can be used while shapeshifted.|CFFff0000Only usable in Challenge Mode Dungeons.|R,Movement speed increased by $s1%.
+1277344,,"Increases movement speed of party members within $A yards by $s1%.  Lasts $d.  Drums can be used while shapeshifted. (2 Min Cooldown)
+
+|CFFff0000Only usable in Challenge Mode Dungeons.|R
+",Movement speed increased by $s1%.
 1277391,,,Residual Blood from a recently used Death Strike prevents a Fatal Strike.
 1277637,,"Inflicts $s1 Physical damage to all targets within $A1 yards and interrupts any spell currently being cast by the victim.
 Victims have their casting speed reduced by $134372s2% until they finish casting their next spell.",
@@ -106746,5 +106774,61 @@ Victims have their casting speed reduced by $134372s2% until they finish casting
 1278053,,,
 1278879,,,
 1278880,,,
-1278947,,"Summons a ridable rampaging yak. This is a very, VERY fast mount.
+1278947,,"Summons a ridable rampaging yak. This is a very, VERY fast mount. (3 Sec Cooldown)
+
 |CFFff0000Only usable in Challenge Mode Dungeons.|R",Ahhhhhhh!
+1279050,,,
+1279073,,,
+1279074,,,
+1279075,,,
+1279140,,,
+1279142,,,
+1279143,,,
+1279145,,,
+1279146,,,
+1279147,,,
+1279149,,,
+1279150,,,
+1279151,,,
+1279152,,,
+1279153,,,
+1279154,,,
+1279155,,,
+1279225,,,
+1279413,,,
+1279414,,,
+1279579,,Collect the appearances of the Twilight's Hammer Regalia.,
+1279611,,Inflicts Nature damage.,
+1279968,,"Transform your Hunter Pet into a Phoenix.
+
+Does not function in Arenas or Battlegrounds.",
+1279969,,,Reborn.
+1279981,,,
+1280022,,,
+1280028,,,
+1280029,,,
+1280030,,,
+1280032,,Collect the appearances of the Stormstout's Sha-Touched Collection,
+1280036,,Summons an avatar of the celestial Niuzao to your location.,
+1280038,,,
+1280048,,,
+1280049,,Summons an avatar of the celestial Niuzao to your location.,
+1280050,,Summons an avatar of the celestial Yu'lon to your location.,
+1280052,,,
+1280057,,,
+1280068,,"Summons and dismisses a rideable [PH] Lunar Horse mount.
+This is a flying mount.",$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
+1280071,,,
+1280073,,"Shoots a firework into the air that bursts into the form of the Jade Serpent.
+",
+1280074,,Right Click to summon and dismiss this companion.,
+1280083,,,
+1280184,,Inflicts $144530s1 Fire damage to enemies within a $144530a1 yard cone.,
+1280193,,Targets in a cone in front of the caster take Fire damage over $d.,Inflicts Fire damage every second.
+1280198,,,
+1280201,,"Deals $s1 damage to all enemies within $r1 yards, stunning them and reducing their armor by $s3% for $d.",Stunned. Armor reduced by $s3%.
+1280211,,,Immune to damage.
+1280222,,Awards yourself ${$m1/100} Valor points,
+1280306,,,Your movement speed is increased by $1280306s3%. Every $t1 sec you are healed for $12803091s1 and you deal $12803101s1 damage to nearby enemies.
+1280309,,,
+1280310,,,

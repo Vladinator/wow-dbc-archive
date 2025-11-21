@@ -18712,6 +18712,7 @@ You can learn more Specializations as you increase your skill level.",1
 51646,SELF_HIGHLIGHT_UNIT_FRAME,Self Highlight,1
 51647,SELF_HIGHLIGHT_CIRCLE,Circle,1
 51649,SELF_HIGHLIGHT_ICON,Icon,1
+51688,CHAR_CREATE_FACTION_BALANCE,This faction is currently unavailable on this realm due to population imbalance.,3
 51708,CHARACTER_SELECT_NAV_BAR_REALMS,REALMS,2
 51728,SHOW_DYNAMIC_BUFF_SIZE,Dynamic Buff and Debuff Size,1
 51729,OPTION_TOOLTIP_SHOW_DYNAMIC_BUFF_SIZE,Makes your buffs and debuffs appear larger than other effects on your target.,1
@@ -18893,46 +18894,85 @@ They will be deleted and remade with the current customized character.",2
 56670,CAA_COMBAT_AUDIO_ALERTS_LABEL,Combat Audio Alerts,1
 56672,CAA_ENABLE_COMBAT_AUDIO_ALERTS,Enable Combat Audio Alerts,1
 56673,CAA_COMBAT_AUDIO_ALERTS_TOOLTIP,[DNT] Combat Audio Alerts Tooltip,1
-56674,CAA_ENABLE_COMBAT_AUDIO_ALERTS_TOOLTIP,[DNT] Enable Combat Audio Alerts Tooltip,1
+56674,CAA_ENABLE_COMBAT_AUDIO_ALERTS_TOOLTIP,Enables the use of combat audio alerts. This can be toggled using the chat command /ttscombat.,1
 56675,CAA_SAY_PLAYER_HEALTH_LABEL,Say Your Health,1
 56676,EVERY_X_PERCENT,Every %d%%,1
-56677,CAA_SAY_PLAYER_HEALTH_TOOLTIP,[DNT] Say Your Health Tooltip,1
+56677,CAA_SAY_PLAYER_HEALTH_TOOLTIP,Says your health when it crosses certain percentages,1
 56678,CAA_SAY_TARGET_HEALTH_LABEL,Say Target Health,1
-56679,CAA_SAY_TARGET_HEALTH_TOOLTIP,[DNT] Say Target Health Tooltip,1
+56679,CAA_SAY_TARGET_HEALTH_TOOLTIP,Says your target's health when it crosses certain percentages,1
 56721,TEXT_TO_SPEECH_SHORT,TTS,1
 56722,CAA_SAY_HEALTH_FORMAT_FULL,Health %d percent,1
 56723,CAA_SAY_HEALTH_FORMAT_NO_PERCENT,Health %d,1
 56724,CAA_SAY_HEALTH_FORMAT_NO_HEALTH,%d percent,1
 56725,CAA_SAY_PLAYER_HEALTH_FORMAT_LABEL,Format,1
-56726,CAA_SAY_PLAYER_HEALTH_FORMAT_TOOLTIP,[DNT] Format,1
+56726,CAA_SAY_PLAYER_HEALTH_FORMAT_TOOLTIP,"Choose the wording it will use to say your health, using 20% as an example",1
 56730,CAA_SAY_HEALTH_FORMAT_NUM_ONLY,%d,1
 56731,CAA_SAY_TARGET_HEALTH_FORMAT_FULL,Target %d percent,1
 56732,CAA_SAY_TARGET_HEALTH_FORMAT_NO_PERCENT,Target %d,1
 56755,CAA_SPEAKER_VOICE_LABEL,Combat Speaker Voice,1
-56756,CAA_SPEAKER_VOICE_TOOLTIP,[DNT] Combat Speaker Voice,1
+56756,CAA_SPEAKER_VOICE_TOOLTIP,Choose the primary voice for combat audio alerts,1
 56757,CAA_SPEAKER_SPEED_LABEL,Combat Speaker Speed,1
-56758,CAA_SPEAKER_SPEED_TOOLTIP,[DNT] Combat Speaker Speed,1
+56758,CAA_SPEAKER_SPEED_TOOLTIP,Adjust the rate of speech for combat audio alerts,1
 56759,CAA_SPEAKER_VOLUME_LABEL,Combat Speaker Volume,1
-56760,CAA_SPEAKER_VOLUME_TOOLTIP,[DNT] Combat Speaker Volume,1
+56760,CAA_SPEAKER_VOLUME_TOOLTIP,Choose the primary volume for combat audio alerts,1
 56761,CAA_SAMPLE_TEXT,Sample Text,1
 56762,CAA_SAY_PLAYER_HEALTH_THROTTLE_LABEL,Throttle,1
-56763,CAA_SAY_PLAYER_HEALTH_THROTTLE_TOOLTIP,[DNT] Throttle,1
+56763,CAA_SAY_PLAYER_HEALTH_THROTTLE_TOOLTIP,Limits the time between health callouts to reduce noise,1
 56764,CAA_SAY_TARGET_HEALTH_THROTTLE_LABEL,Throttle,1
-56765,CAA_SAY_TARGET_HEALTH_THROTTLE_TOOLTIP,[DNT] Throttle,1
+56765,CAA_SAY_TARGET_HEALTH_THROTTLE_TOOLTIP,Limits the time between target health callouts to reduce noise,1
 56766,SECONDS_FLOAT_ABBR,%.1f |4Sec:Sec;,1
 56781,CAA_SEARCH_TAG_SHORT,CAA,1
 56851,CAA_SAY_TARGET_NAME_LABEL,Say Target Name,1
-56853,CAA_SAY_TARGET_NAME_TOOLTIP,[DNT] Say Target Name,1
+56853,CAA_SAY_TARGET_NAME_TOOLTIP,Says the name of the target when you select it,1
 56854,CAA_SAY_COMBAT_START_LABEL,Say Combat Start,1
-56855,CAA_SAY_COMBAT_START_TOOLTIP,[DNT] Say Combat Start,1
+56855,CAA_SAY_COMBAT_START_TOOLTIP,Choose a phrase or sound to indicate combat has started,1
 56856,CAA_SAY_COMBAT_END_LABEL,Say Combat End,1
-56857,CAA_SAY_COMBAT_END_TOOLTIP,[DNT] Say Combat End,1
+56857,CAA_SAY_COMBAT_END_TOOLTIP,Choose a phrase or sound to indicate combat has ended,1
 56858,CAA_SAY_COMBAT_START_TEXT,"Voice: ""Combat Start""",1
 56859,CAA_SAY_COMBAT_END_TEXT,"Voice: ""Combat End""",1
 56860,CAA_WHEN_TARGET_DIES_LABEL,When Target Dies,1
-56861,CAA_WHEN_TARGET_DIES_TOOLTIP,[DNT] When Target Dies,1
+56861,CAA_WHEN_TARGET_DIES_TOOLTIP,Choose a phrase or sound to indicate the target has died,1
 56862,CAA_WHEN_TARGET_DIES_USE_FORMAT,Use Target Health Format,1
 56864,CAA_WHEN_TARGET_DIES_VOICE_TARGET_DEAD,"Voice: ""Target Dead""",1
 56866,CAA_TARGET_DEAD,Target Dead,1
 56867,CAA_COMBAT_START_TEXT,Combat Start,1
 56873,CAA_COMBAT_END_TEXT,Combat End,1
+56929,CAA_SAY_PLAYER_CASTS_LABEL,Say Your Casts,1
+56930,CAA_SAY_PLAYER_CASTS_TOOLTIP,Says when you cast an ability,1
+56931,CAA_SAY_PLAYER_CASTS_FORMAT_LABEL,Format,1
+56932,CAA_SAY_PLAYER_CASTS_FORMAT_TOOLTIP,Choose the wording it will use to say your cast,1
+56933,CAA_SAY_PLAYER_CASTS_MIN_CAST_TIME_LABEL,Minimum Cast Time,1
+56934,CAA_SAY_PLAYER_CASTS_MIN_CAST_TIME_TOOLTIP,Sets the minimum cast time of abilities to be announced. Set this to zero to include instant cast abilities.,1
+56935,CAA_SAY_PLAYER_CASTS_THROTTLE_LABEL,Throttle,1
+56936,CAA_SAY_PLAYER_CASTS_THROTTLE_TOOLTIP,Limits the time between cast callouts to reduce noise,1
+56937,CAA_SAY_TARGET_CASTS_LABEL,Say Target Casts,1
+56938,CAA_SAY_TARGET_CASTS_TOOLTIP,Says when your target casts an ability,1
+56939,CAA_SAY_TARGET_CASTS_FORMAT_LABEL,Format,1
+56940,CAA_SAY_TARGET_CASTS_FORMAT_TOOLTIP,Choose the wording it will use to say your target's cast,1
+56941,CAA_SAY_TARGET_CASTS_MIN_CAST_TIME_LABEL,Minimum Cast Time,1
+56942,CAA_SAY_TARGET_CASTS_MIN_CAST_TIME_TOOLTIP,Sets the minimum cast time of abilities to be announced. Set this to zero to include instant cast abilities.,1
+56943,CAA_SAY_TARGET_CASTS_THROTTLE_LABEL,Throttle,1
+56944,CAA_SAY_TARGET_CASTS_THROTTLE_TOOLTIP,Limits the time between target cast callouts to reduce noise,1
+56945,CAA_SAY_TARGET_CASTS_INTERRUPT_LABEL,Interruptible Cast Alert,1
+56946,CAA_SAY_TARGET_CASTS_INTERRUPT_TOOLTIP,Announces when the target starts casting something that you can interrupt with an ability,1
+56947,CAA_SAY_TARGET_CASTS_INTERRUPT_SUCCESS_LABEL,Successful Interrupt Alert,1
+56948,CAA_SAY_TARGET_CASTS_INTERRUPT_SUCCESS_TOOLTIP,Announces when your target's cast is successfully interrupted by you or someone else,1
+56949,CAA_SAY_TARGET_CASTS_INTERRUPT_TEXT,"Voice: ""Interruptible Cast""",1
+56950,CAA_SAY_TARGET_CAST_INTERRUPT_SUCCESS_TEXT,"Voice: ""Target interrupted""",1
+56960,CAA_SAY_CASTS_FORMAT_FULL,Casting %s,1
+56961,CAA_SAY_CASTS_FORMAT_SHORT,Cast %s,1
+56962,CAA_SAY_CASTS_FORMAT_NO_SPELLNAME,Casting,1
+56963,CAA_SAY_CASTS_FORMAT_SHORT_NO_SPELLNAME,Cast,1
+56965,CAA_SAY_CASTS_FORMAT_SPELLNAME_ONLY,%s,1
+56966,CAA_SAY_TARGET_CASTS_FORMAT_FULL,Target casting %s,1
+56967,CAA_SAY_TARGET_CASTS_FORMAT_SHORT,Target cast %s,1
+56968,CAA_SAY_TARGET_CASTS_FORMAT_NO_SPELLNAME,Target Casting,1
+56969,CAA_SAY_TARGET_CASTS_FORMAT_SHORT_NO_SPELLNAME,Target Cast,1
+56970,CAA_SAY_CASTS_START_OF_CAST,Start of cast,1
+56971,CAA_SAY_CASTS_END_OF_CAST,End of cast,1
+57010,CAA_SAMPLE_SPELLNAME,Fireball,1
+57033,CAA_SAY_TARGET_HEALTH_FORMAT_LABEL,Format,1
+57034,CAA_SAY_TARGET_HEALTH_FORMAT_TOOLTIP,"Choose the wording it will use to say your target's health, using 20% as an example",1
+57070,CATALOG_SHOP_WOW_FLAVOR_TRR,Titan Reforged Realm,3
+57088,CAA_INTERRUPTIBLE_CAST_TEXT,Interruptible Cast,1
+57089,CAA_INTERRUPTED_CAST_TEXT,Target interrupted,1
