@@ -28150,6 +28150,35 @@ transFront = (sin(angle) * radius) - distanceToFirePos
 transRight = -(cos(angle) * radius)
 
 faceImpactPos = 1",0,20
+4958,"Fast Out - Hook - Random Left, Up, or Right","local factor = 3
+local maxWidth = 5
+local direction = 1
+local verticality = 2
+
+--Change the direction between -1 to 1 based on rand1.
+direction = math.remap(rand1, 0, 1, -1, 1, true)
+
+--As transRight approaches 0, transUp increases. Or rand1 approaches 0.5.
+verticality = -4 * (rand1 - 0.5)^2 + 1
+
+transRight = direction * (progress) * (1 - progress) * 4 * math.min(startDistance / maxWidth, maxWidth)
+transUp = (progress) * (1 - progress) * 4 * math.min(startDistance / maxWidth, maxWidth) * verticality
+transFront = math.pow(progress,factor) * distanceToFirePos
+transFront = transFront - distanceToFirePos",0,1
+4959,Fast Out - Parabola (High),"local factor = 3
+local height = 5
+
+transFront = math.pow(progress,factor) * distanceToFirePos
+transFront = transFront - distanceToFirePos
+transUp = 4 * progress * (1-progress) * height",0,1
+4964,Parabola (Very High) (Accelerate),"local angle = 0
+local maxMagnitude = startDistance * .45
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+
+speedScalar = 0.7 + 2 * progress",0,1
 4968,"Soul Vortex (3 Missiles, Tight, No Kickback, 270 deg/sec, arrive in .5 sec)","local startAngle = 0
 local degreesPerSec = 270
 local maxMagnitude = 1.25
@@ -28203,3 +28232,39 @@ transMag = (progress * 2) - 1
 transMag = (1 - (transMag * transMag)) * maxArcMagnitude
 
 transUp  = (1.4 - 2 * rand1) * (1 - progress)",0,3
+4976,Meandering Missile (1) - Fixed Height (10 - 12),"local function parabola(m) return (4*m*(1-progress)*progress) end
+
+local height = 10
+local variance = 2
+height = height + (rand1 * variance)
+
+transUp = parabola(height)
+
+local maxMagnitude = 1.0
+local minSpeedScalar = 1.0
+local maxSpeedScalar = 1.0
+local randscalar = 100
+local timescalar = 50
+ 
+local angle = 0
+local maxArcMagnitude = startDistance * .35
+
+local magnitude = (progress * 1.9) - 1
+
+magnitude = 1
+
+transRight = (sin((rand1 * randscalar * progress) + (time * randscalar)) + sin((rand2 * randscalar * progress) + (time * timescalar))) * magnitude
+speedScalar = minSpeedScalar + ((maxSpeedScalar - minSpeedScalar) * rand3)
+
+transAngle = angle
+",0,1
+4987,"Parabola (High, Pitch Spin, Slow Reverse)","local angle = 0
+local maxMagnitude = startDistance * .30
+local spinRate = -360
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+
+modelPitch = time * spinRate
+",0,1

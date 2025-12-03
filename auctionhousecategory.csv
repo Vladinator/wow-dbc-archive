@@ -24,7 +24,7 @@ Fishing Poles,iLvl,22,3,57,0,10,21,0,1
 Other,iLvl,23,3,17,0,20,21,0,1
 Armor,iLvl,24,5,0,0,200,0,0,1
 Plate,iLvl,25,5,23,0,10,24,0,1
-Runecarving,iLvl,26,5,23,0,10,25,12,1
+Runecarving,iLvl,26,5,23,0,10,25,13,1
 Head,iLvl,27,5,23,1,20,25,0,1
 Shoulder,iLvl,28,5,23,3,30,25,0,1
 Chest,iLvl,29,5,23,5,40,25,0,1
@@ -34,7 +34,7 @@ Feet,iLvl,32,5,23,8,70,25,0,1
 Wrist,iLvl,33,5,23,9,80,25,0,1
 Hands,iLvl,34,5,23,10,90,25,0,1
 Mail,iLvl,35,5,22,0,20,24,0,1
-Runecarving,iLvl,36,5,22,0,10,35,12,1
+Runecarving,iLvl,36,5,22,0,10,35,13,1
 Head,iLvl,37,5,22,1,20,35,0,1
 Shoulder,iLvl,38,5,22,3,30,35,0,1
 Chest,iLvl,39,5,22,5,40,35,0,1
@@ -44,7 +44,7 @@ Feet,iLvl,42,5,22,8,70,35,0,1
 Wrist,iLvl,43,5,22,9,80,35,0,1
 Hands,iLvl,44,5,22,10,90,35,0,3
 Leather,iLvl,45,5,21,0,30,24,0,1
-Runecarving,iLvl,46,5,21,0,10,45,12,1
+Runecarving,iLvl,46,5,21,0,10,45,13,1
 Head,iLvl,47,5,21,1,20,45,0,1
 Shoulder,iLvl,48,5,21,3,30,45,0,1
 Chest,iLvl,49,5,21,5,40,45,0,1
@@ -54,7 +54,7 @@ Feet,iLvl,52,5,21,8,70,45,0,1
 Wrist,iLvl,53,5,21,9,80,45,0,1
 Hands,iLvl,54,5,21,10,90,45,0,1
 Cloth,iLvl,55,5,20,0,40,24,0,1
-Runecarving,iLvl,56,5,20,0,10,55,12,1
+Runecarving,iLvl,56,5,20,0,10,55,13,1
 Head,iLvl,57,5,20,1,20,55,0,1
 Shoulder,iLvl,58,5,20,3,30,55,0,1
 Chest,iLvl,59,5,20,5,40,55,0,1
@@ -64,7 +64,7 @@ Feet,iLvl,62,5,20,8,70,55,0,1
 Wrist,iLvl,63,5,20,9,80,55,0,1
 Hands,iLvl,64,5,20,10,90,55,0,1
 Miscellaneous,iLvl,65,5,19,0,50,24,0,1
-Runecarving,iLvl,66,5,19,0,10,65,12,1
+Runecarving,iLvl,66,5,19,0,10,65,13,1
 Neck,iLvl,67,5,19,2,20,65,0,1
 Cloak,iLvl,68,5,20,16,30,65,0,1
 Finger,iLvl,69,5,19,11,40,65,0,1
@@ -213,3 +213,37 @@ Tools,iLvl,211,145,339,29,10,205,0,1
 Neck,iLvl,212,9,188,0,45,99,0,0
 Reagent Bag,Slots,215,2,344,0,15,76,0,2
 Finishing Reagents,,217,8,343,0,110,136,0,0
+Housing Decor,,218,147,356,0,0,0,0,0
+Furnishings,,219,147,356,0,0,218,0,0
+Accents,,220,0,0,0,1,218,0,0
+Ornamental,,221,0,0,0,0,220,0,0
+Structural,,222,0,0,0,0,218,0,0
+Lighting,,223,0,0,0,0,218,0,0
+Functional,,224,0,0,0,0,218,0,0
+Nature,,225,0,0,0,0,218,0,0
+Miscellaneous,,226,0,0,0,0,218,0,0
+Seating,,227,0,0,0,0,219,0,0
+Tables and Desks,,228,0,0,0,0,219,0,0
+Storage,,229,0,0,0,0,219,0,0
+Beds,,230,0,0,0,0,219,0,0
+Misc. Furnishings,,231,0,0,0,0,219,0,0
+Food and Drink,,232,0,0,0,0,220,0,0
+Misc. Accents,,233,0,0,0,0,220,0,0
+Doors,,234,0,0,0,0,222,0,0
+Windows,,235,0,0,0,0,222,0,0
+Walls and Columns,,236,0,0,0,0,222,0,0
+Large Structures,,237,0,0,0,0,222,0,0
+Misc. Structural,,238,0,0,0,0,222,0,0
+Large Lights,,239,0,0,0,0,223,0,0
+Wall Lights,,240,0,0,0,0,223,0,0
+Ceiling Lights,,241,0,0,0,0,223,0,0
+Small Lights,,242,0,0,0,0,223,0,0
+Misc. Lights,,243,0,0,0,0,223,0,0
+Utility,,244,0,0,0,0,224,0,0
+Item Displays,,245,0,0,0,0,224,0,0
+Misc. Functional,,246,0,0,0,0,224,0,0
+Large Foliage,,247,0,0,0,0,225,0,0
+Small Foliage,Skill,248,0,0,0,0,225,0,4
+Bushes,,249,0,0,0,0,225,0,0
+Ground Cover,,250,0,0,0,0,225,0,0
+Misc. Nature,,251,0,0,0,0,225,0,0

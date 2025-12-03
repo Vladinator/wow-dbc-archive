@@ -1689,7 +1689,7 @@ ID,BaseTag,TagText_lang,Flags
 11545,NEXT_ABILITY,Next Ability,1
 11546,SKILLS,Skills,1
 11547,CHAT_HELP_TEXT_LINE1,Chat commands:,1
-11548,CHAT_HELP_TEXT_LINE10,"/mute, /squelch, /unvoice, /unmute, /unsquelch, /voice <channel> <player> - change a player's permission",3
+11548,CHAT_HELP_TEXT_LINE10,,3
 11549,CHAT_JOIN_HELP,Type /join <channelname> [password] to create a channel or join an existing one.,1
 11550,GUILD_HELP_TEXT_LINE8,'/gdemote <player>' demotes a player one rank within your guild,1
 11551,STARTUP_TEXT_LINE1,Type '/help for a listing of a few commands.,1
@@ -1791,7 +1791,7 @@ ID,BaseTag,TagText_lang,Flags
 11664,CHAT_SET_VOICE_NOTICE,|Hchannel:%d|h[%s]|h Chat permission given to %s.,1
 11665,CHAT_HELP_TEXT_LINE11,"/cinvite, /chatinvite <channel> <player> - invite a player to a channel",3
 11666,CHAT_HELP_TEXT_LINE12,/ckick <channel> <player> - kick a player off a channel,3
-11667,CHAT_HELP_TEXT_LINE15,/moderate <channel> - toggle moderation on a channel,3
+11667,CHAT_HELP_TEXT_LINE15,,3
 11668,CHAT_HELP_TEXT_LINE16,"/away, /busy - Set your Away or Busy flags",3
 11669,GUILD_HELP_TEXT_LINE2,'/ginfo' gives some basic information about your guild,1
 11670,GUILD_HELP_TEXT_LINE6,'/gremove <player>' removes a player from your guild,1
@@ -1994,7 +1994,7 @@ ID,BaseTag,TagText_lang,Flags
 11890,RACIAL_SKILLS,%s Skills:,1
 11891,CREATE_ARENA_TEAM,Create,1
 11892,HELP_TEXT_LINE14,- /chat for a list of chat commands,1
-11894,TUTORIAL22,"If there is another player you have enjoyed playing with, add them to your friends list! Click on the |cffffd200Social Button|r and add them to your list of friends.|n|nYou can only add friends from your own realm.",3
+11894,TUTORIAL22,"If there is another player you have enjoyed playing with, add them to your friends list! Click on the |cffffd200Social Button|r and add them to your list of friends.",3
 11895,CHAT_NOT_MEMBER_NOTICE,Not on channel %s.,1
 11896,CHAT_PLAYER_NOT_FOUND_NOTICE,|Hchannel:%d|h[%s]|h Player %s was not found.,1
 11897,CHAT_ANNOUNCEMENTS_OFF_NOTICE,|Hchannel:%d|h[%s]|h Channel announcements disabled by %s.,1
@@ -10090,7 +10090,7 @@ ID,BaseTag,TagText_lang,Flags
 22046,POWER_TYPE_VENOM,Venom,1
 22048,LFD_REWARD_DESCRIPTION_WEEKLY,You may receive this reward %d |4more time:more times; this week:,1
 22049,LFD_REWARD_DESCRIPTION_DAILY,You may receive this reward %d |4more time:more times; today:,1
-22050,GUILDCONTROL_OPTION21,Recruitment,1
+22050,GUILDCONTROL_OPTION21,Neighborhood \nManager,1
 22051,SLASH_GUILDFINDER1,/guildfinder,1
 22052,SLASH_GUILDFINDER2,/guildfinder,1
 22053,SLASH_GUILDFINDER3,/gf,1
@@ -13068,7 +13068,7 @@ You can find trainers for them in some settlements and cities.",1
 25300,NPE_SHOWINTERFACEHELP,|cFF00FFFFLeft-Click|r here to show mouse and keyboard controls.,1
 25301,NPE_ACTIONBARCALLOUT,This is your Action Bar.\n\n|cFF00FFFFPress|r the corresponding key on your keyboard to use your character's abilities.,1
 25302,NPE_HEALTHBAR,These bars show you your |cFF00FFFFHealth|r and |cFF00FFFF%s|r.,1
-25303,NPE_KEYBOARDANDMOUSETITLE,Keyboard and Mouse,1
+25303,RPE_KEYBOARDANDMOUSETITLE,Keyboard and Mouse,1
 25304,NPE_ABILITIES,Abilities,1
 25305,NPE_MOVE,Move,1
 25306,NPE_JUMP,Jump,1
@@ -14942,7 +14942,7 @@ You can find trainers for them in some settlements and cities.",1
 34395,LOGIN_PARENTALCONTROL,Access to this account is currently restricted by parental controls. You can change your control settings from your online account management.,2
 34396,LOGIN_SERVER_DOWN,Login Server Down,2
 34397,LOGIN_SRP_ERROR,Authentication Error,2
-34398,LOGIN_STATE_AUTHENTICATED,Success!,2
+34398,LOGIN_STATE_AUTHENTICATED,Success!,3
 34399,LOGIN_STATE_AUTHENTICATING,Authenticating,2
 34400,LOGIN_STATE_CHECKINGVERSIONS,Validating Version,2
 34401,LOGIN_STATE_CONNECTING,Connecting,2
@@ -15045,7 +15045,7 @@ You can find trainers for them in some settlements and cities.",1
 34498,REALMLIST_NOT_CONNECTED_TO_BATTLENET,You have been disconnected from Blizzard services. You need to log in again to change realms.,2
 34499,REALMLIST_NUMCHARACTERS_TOOLTIP,"All characters are displayed in your\ncharacter list, regardless of their realm.",2
 34500,REALMLIST_POPULATION_TOOLTIP,"""New Players"" realms will give you the best play experience.\n""Full"" realms are the most crowded, and you will often\nexperience a wait time to play.",2
-34501,REALMLIST_REALMNAME_TOOLTIP,"The realm you choose affects some features like\ntrading, guilds and Mythic raiding.",2
+34501,REALMLIST_REALMNAME_TOOLTIP,The realm you choose affects some features like\ntrading with other players,2
 34502,REALMLIST_TYPE_TOOLTIP,Normal = No special rules on this realm.\nRP = Roleplaying realm.,2
 34503,REALM_CHARACTERS,Characters,6
 34504,REALM_DESCRIPTION,Choosing a Realm,2
@@ -16657,9 +16657,9 @@ You can find trainers for them in some settlements and cities.",1
 36273,PETTAME_ELITE_TOOHIGHLEVEL,Elite creature is too high level for you to tame,1
 36274,CHARACTER_SELECT_PADLOCK_DROP_DOWN_USE_BOOST,Use %s,3
 36275,ENTER_WORLD_UNLOCK_REVOKED_CHARACTER_UPGRADE,Unlock,2
-36276,STORE_MICRO_BUTTON_ALERT_TRIAL_CAP_REACHED,Buy the game to level past level 20.,1
-36277,TRIAL_CAP_BANKED_LEVELS_TOOLTIP,You have earned XP that exceeds your level cap.  Buy the game to apply your banked XP and gain %d levels.,1
-36278,TRIAL_CAP_BANKED_XP_TOOLTIP,You have earned XP that exceeds your level cap.  Buy the game to apply your banked XP.,1
+36276,STORE_MICRO_BUTTON_ALERT_TRIAL_CAP_REACHED,Subscribe now to continue past level 20.,1
+36277,TRIAL_CAP_BANKED_LEVELS_TOOLTIP,You have earned XP that exceeds your level cap. Subscribe now to apply your banked XP and gain %d levels.,1
+36278,TRIAL_CAP_BANKED_XP_TOOLTIP,You have earned XP that exceeds your level cap. Subscribe now to apply your banked XP.,1
 36283,RACE_INFO_DARKIRONDWARF,"Known for their fiery tempers and fierce determination, the Dark Iron have a history of strife with the other dwarven clans--as well as their own kin. Queen-Regeant Moira seeks to unite her people and lead them in the fight to save Azeroth.",3
 36284,RACE_INFO_ZANDALARITROLL,"The Zandalari are a proud people whose origins date back to the early days of Azeroth's history. Their fierce warriors ride dinosaurs into battle, and they possess one of the most formidable naval fleets in the known world.",3
 36285,RACE_INFO_DARKIRONDWARF_FEMALE,"Known for their fiery tempers and fierce determination, the Dark Iron have a history of strife with the other dwarven clans--as well as their own kin. Queen-Regeant Moira seeks to unite her people and lead them in the fight to save Azeroth.",3
@@ -18290,6 +18290,7 @@ You can find trainers for them in some settlements and cities.",1
 41969,QUEST_SESSION_QUIT_WARNING,Are you sure you want to quit while in Party Sync? All of your replay quests will be canceled.,1
 41970,SPELL_FAILED_CUSTOM_ERROR_437,You are not the right profession.,1
 41971,POWER_TYPE_MOLTEN_FURY,Molten Fury,1
+41972,BLIZZARD_STORE_VAS_ERROR_ALLIANCE_NOT_ELIGIBLE,- This transfer is not currently available for this character's faction.,3
 41973,AUCTION_HOUSE_NONE_AVAILABLE,None available,5
 41975,ITEM_CORRUPTION_BONUS_STAT,+%d Corruption,1
 41976,CORRUPTION_CLEANSER_TOOLTIP_TITLE,Cleansing this item will REMOVE the following effects:,1
@@ -18434,7 +18435,7 @@ You can find trainers for them in some settlements and cities.",1
 42143,ERR_PLAYER_CHOICE_ERROR_PENDING_CHOICE,You have an unselected choice already. Please select a choice to open a new one.,1
 42144,FEATURE_UNAVAILBLE_PLAYER_IS_NEUTRAL,This feature is not available until you pick a faction.,1
 42145,NPEV2_INTRO_CAMERA_LOOK,|cFFFFD200Look around|r,1
-42146,NPEV2_INTRO_QUESTGIVER_INTERACT_ALLIANCE,|cFFFFD200Talk|r to Captain Garrick,1
+42146,NPEV2_INTRO_QUESTGIVER_INTERACT_ALLIANCE,|cFFFFD200Talk|r to Jaina Proudmoore,1
 42148,NPEV2_INTRO_MELEE_COMBAT,|cFFFFD200Attack|r a Combat Dummy,1
 42150,NPEV2_TURN_MINIMAP_ON,Find nearby objectives by looking at your |cFF00FFFFMinimap|r,1
 42151,NPEV2_USE_HEARTHSTONE_TUTORIAL,You gained a Hearthstone! Open your bag to see it.,1
@@ -18507,6 +18508,7 @@ You can find trainers for them in some settlements and cities.",1
 42285,COVENANT_PREVIEW_ZONE_HOME,Home: %s,1
 42286,POWER_TYPE_SLIME_ENERGY,Energy,1
 42287,OPTIONAL_REAGENT_TOOLTIP_STAT_FORMAT,|c%1$s%2$c%3$s %4$s|r,1
+42288,BLIZZARD_STORE_VAS_ERROR_PVE_TO_PVP_TRANSFER_NOT_ALLOWED,- You cannot transfer between a PvE server and a PvP server,3
 42289,SPELL_FAILED_CUSTOM_ERROR_463,Requires Coil of Rope.,1
 42290,COVENANT_PREVIEW_CLASS_ABILITY,Class Ability,1
 42291,COVENANT_PREVIEW_RACIAL_ABILITY,Signature Ability,1
@@ -18561,8 +18563,8 @@ You can find trainers for them in some settlements and cities.",1
 42340,NPEV2_DRUID_BUILDER,Press |cFF00FFFF%s|r to use %s while Moonfire is on your foe,1
 42341,POWER_TYPE_SHADOW_ENERGY,Shadow Energy,1
 42342,NPEV2_INTRO_MOVE_ALLIANCE,|cFFFFD200Walk around|r,1
-42343,NPEV2_INTRO_MOVE_HORDE,Use your |cFF00FFFFmovement controls|r to approach |cFF00FFFFWarlord Breka Grimaxe|r.,1
-42344,NPEV2_INTRO_QUESTGIVER_INTERACT_HORDE,|cFFFFD200Talk|r to Warlord Breka Grimaxe,1
+42343,NPEV2_INTRO_MOVE_HORDE,Use your |cFF00FFFFmovement controls|r to approach |cFF00FFFFThrall|r.,1
+42344,NPEV2_INTRO_QUESTGIVER_INTERACT_HORDE,|cFFFFD200Talk|r to Thrall,1
 42345,RUNEFORGE_LEGENDARY_POWER_LIST_LABEL,Select a Legendary Power,1
 42346,NPEV2_INTRO_RANGED_COMBAT,|cFFFFD200Target|r a Combat Dummy,1
 42347,SOULBIND_RESET_BUTTON,"TEMPORARY: Reset the flow of anima through this Soulbind.\n\n(NYI) In an upcoming build, this will be usable once per week to reset applied Conduits for this Soulbind.",1
@@ -18594,6 +18596,7 @@ You can find trainers for them in some settlements and cities.",1
 42377,NPEV2_LFD_SPECIFIC_DUNGEON,Select |cFF00FFFFDarkmaul Citadel|r,1
 42378,NPEV2_LFD_INFO_POINTER_MESSAGE,|cFF00FFFFWait|r while we search for other players to join your dungeon run,1
 42379,CHARACTER_FORM,%s Form,3
+42380,BLIZZARD_STORE_VAS_ERROR_INELIGIBLE_TARGET_REALM,- The selected realm is not accepting character transfers at this time.,3
 42381,RESET_CAMERA,Reset Camera,3
 42382,RANDOMIZE_APPEARANCE,Randomize Appearance,3
 42383,ANIMA_DIVERSION_NODE_SELECTED,Already Selected,1
@@ -18932,6 +18935,7 @@ You can find trainers for them in some settlements and cities.",1
 42740,SPELL_FAILED_CUSTOM_ERROR_495,You are not in deep enough water.,1
 42741,SPELL_FAILED_CUSTOM_ERROR_496,Requires the fresh waters of Ardenweald or Bastion,1
 42742,JAILERS_TOWER_REWARD_HIGH_DIFFICULTY,,1
+42743,BLIZZARD_STORE_VAS_ERROR_PENDING_ITEM_AUDIT,- This character's inventory contains items that cannot be transferred.,3
 42744,JAILERS_TOWER_REWARD_RECIEVED,Reward received - Completing this layer again will grant a small amount of additional Soul Ash,1
 42745,TOOLTIP_AZERITE_ITEM_DISABLED,"The Heart of Azeroth is dormant here, cut off from Azeroth's life force.",1
 42746,HEART_OF_AZEROTH_INACTIVE,Heart of Azeroth inactive,1
@@ -19008,10 +19012,10 @@ You can find trainers for them in some settlements and cities.",1
 42817,SUBSCRIPTION_INTERSTITIAL_SUBSCRIBE_SECOND_LINE,YOUR,1
 42818,SUBSCRIPTION_INTERSTITIAL_SUBSCRIBE_THIRD_LINE,ADVENTURE,1
 42819,SUBSCRIPTION_INTERSTITIAL_SUBSCRIBE_BUTTON,SUBSCRIBE NOW,1
-42820,SUBSCRIPTION_INTERSTITIAL_UPGRADE_TITLE,UPGRADE NOW,1
+42820,SUBSCRIPTION_INTERSTITIAL_UPGRADE_TITLE,SUBSCRIBE NOW,1
 42821,SUBSCRIPTION_INTERSTITIAL_UPGRADE_TITLE_SUBTEXT,Subscribe to continue your epic journey,1
 42822,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET1,PLAY TO LEVEL 70,1
-42823,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET2,EMBARK ON DARING ADVENTURES ACROSS AZEROTH AND BEYOND,1
+42823,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET2,EMBARK ON ADVENTURES ACROSS AZEROTH AND BEYOND,1
 42824,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET3,GET ACCESS TO WOW CLASSIC,1
 42825,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET4,AND MORE!,1
 42826,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET5,,1
@@ -19194,8 +19198,8 @@ You can find trainers for them in some settlements and cities.",1
 43006,COVENANT_SANCTUM_RENOWN_REWARD_DESC_COMPLETE,You have reached the pinnacle of Renown with the %s,1
 43007,ERR_NOT_IN_NPE,Not available during the tutorial,1
 43008,ERR_INTERNAL_ERROR,Internal Error,1
-43009,NPE_ABANDON_A_WARNING,"You've traveled too far away from Stormwind.|n|nIf you continue, you'll be removed from the tutorial.|n|nWould you like to go back to Stormwind?|n|n|n",1
-43010,NPE_ABANDON_H_WARNING,"You've traveled too far away from Orgrimmar.|n|nIf you continue, you'll be removed from the tutorial.|n|nWould you like to go back to Orgrimmar?|n|n|n",1
+43009,NPE_ABANDON_A_WARNING,"You've traveled too far away from the Wild Coast.|n|nIf you continue, you'll be removed from the tutorial.|n|nWould you like to go back to the Wild Coast in Dragon Isles?|n|n|n",1
+43010,NPE_ABANDON_H_WARNING,"You've traveled too far away from the Wild Coast.|n|nIf you continue, you'll be removed from the tutorial.|n|nWould you like to go back to the Wild Coast in Dragon Isles?|n|n|n",1
 43011,NPE_ABANDON_LEAVE_TUTORIAL,End Tutorial,1
 43012,NPE_ABANDON_A_RETURN,Go Back,1
 43013,NPE_ABANDON_H_RETURN,Go Back,1
@@ -19569,6 +19573,7 @@ You can find trainers for them in some settlements and cities.",1
 43980,RECONNECT_BUTTON,Reconnect,2
 43981,SWITCH_ACCOUNTS_BUTTON,Log Out,2
 43982,ERR_TRAVEL_PASS_DIFFERENT_REGION,Different region,1
+43983,BLIZZARD_STORE_VAS_ERROR_NEEDS_ERA_CHOICE,- Choose an expansion on the character select screen\n- Activate Clone on the character select screen,3
 43985,DUNGEON_SCORE_DUNGEON_RATING_OVERTIME,%s: %s |cff808080(Level %d)|r,1
 43986,UNITNAME_SUMMON_TITLE49,%s's Shambling Remains,1
 43987,ERR_TORGHAST_TALENT_CANT_AFFORD_TALENT,You can't afford to do that.,1
@@ -20105,6 +20110,7 @@ You can find trainers for them in some settlements and cities.",1
 48710,SPELL_FAILED_CUSTOM_ERROR_636,Requires more Syllabic Recall.,1
 48711,SPELL_FAILED_CUSTOM_ERROR_633,Requires 5 Lost Ovoids.,1
 48713,ERR_QUEST_SESSION_RESULT_RESTRICTED_CROSS_FACTION,Party Sync failed to start because a party member is of the opposing faction.,1
+48714,BLIZZARD_STORE_VAS_ERROR_ARENA_TEAM_CAPTAIN,- This character is an arena team captain.  Please transfer the rank to another character and try again.,3
 48715,ERR_QUEST_PUSH_CROSS_FACTION_RESTRICTED_S,Quests can't be shared in cross-faction groups.,1
 48716,SPELL_FAILED_CUSTOM_ERROR_634,You have too many temporary enhancements.,1
 48718,SPELL_FAILED_CUSTOM_ERROR_635,You have other ways to summon Pocopoc while in Zereth Mortis.,1
@@ -21082,7 +21088,7 @@ All loadouts that have this option enabled will share the same action bars.",1
 49840,TUTORIAL_REAGENT_BAG_STEP_2,Equip your new reagent bag!|n|nAny crafting materials you pick up will go into this bag.,1
 49841,TALENT_FRAME_APPLY_LOADOUT_BUTTON_TEXT,Apply Loadout,1
 49842,TALENT_FRAME_RESET_BUTTON_TOOLTIP_DESCRIPTION,"To reset just one tree, right click learned talents in the top rows.",1
-49843,BARBERSHOP_CUSTOMIZATION_SOURCE_FORMAT,Source: %s,1
+49843,BARBERSHOP_CUSTOMIZATION_SOURCE_FORMAT,Source: %s,3
 49845,TALENT_BUTTON_TOOLTIP_CLEAR_REPURCHASE_INSTRUCTIONS,Right click to clear all history nodes,1
 49846,ACTION_SPELL_EMPOWER_START,began empowering,1
 49847,ACTION_SPELL_EMPOWER_START_FULL_TEXT,%1$s began empowering %2$s on %4$s.,1
@@ -22478,7 +22484,7 @@ And spread his flame to all Azeroth.",1
 52148,DELVES_CONFIGURE_BUTTON,Configure,1
 52149,DELVES_GREAT_VAULT_DESCRIPTION_SEASON_STARTED,Complete delves to earn weekly rewards,1
 52150,DELVES_GREAT_VAULT_LABEL,Great Vault,1
-52151,DYNAMIC_FLIGHT,Skyriding,1
+52151,DYNAMIC_FLIGHT,Flight Style,1
 52152,DELVES_GREAT_VAULT_TOOLTIP,Complete delves to earn weekly rewards.\n\n%s/%s rewards unlocked. ,1
 52153,DELVES_GREAT_VAULT_REQUIRES_ACTIVE_SEASON,The Great Vault is only available during an active season.,1
 52154,OPEN_DYNAMIC_FLIGHT_TREE_TOOLTIP,Skills and Unlocks,1
@@ -22725,6 +22731,8 @@ And spread his flame to all Azeroth.",1
 52419,ERR_CANT_DELETE_IN_ACCOUNT_BANK,Items must be moved out of the Warband Bank to be deleted.,1
 52420,MAP_LINK_POI_TOOLTIP_INSTRUCTION_LINE,<Right Click to show map>,1
 52421,OBJECTIVES_HIDE_VIEW_IN_QUESTLOG,Close Quest Details,1
+52422,BINDING_NAME_TOGGLEDECORNUDGEMODE,Enable Clipping (Toggle),1
+52423,BINDING_NAME_HOLDDECORNUDGEMODE,Enable Clipping (Hold),1
 52424,PLAYER_SPELLS_FRAME_MINIMIZE_TIP,You can minimize the Spellbook here,1
 52425,RPE_TOOLTIP_CHARACTER_ON_DIFFERENT_REALM,Switch to this character's realm to update.,2
 52426,DELVES_TIER_SELECT_HELPTIP,Select a tier of difficulty,1
@@ -22904,7 +22912,7 @@ And spread his flame to all Azeroth.",1
 52781,WOW_LABS_CANNOT_ENTER_NON_PLUNDER_QUEUE,You can't enter other queues while in a Plunderstorm queue.,1
 52791,SPELL_CURIO,Curio,1
 52794,WOW_ERROR_501,An error occurred while restoring your character. Please log in and try again.,2
-52795,11.1.7 Lorewalking - Restart (LAS),This will reset your progress on this Lorewalking Campaign and start again from the beginning.,1
+52795,11.1.7 Lorewalking - Restart (LAS),This will reset your progress on this Lorewalking or recap story and start again from the beginning.,1
 52851,SPELL_FAILED_WARBAND_SCENE_ALREADY_KNOWN,Campsite is already in your collection,1
 52852,CHARACTER_SELECT_NAV_BAR_CAMPS,CAMPSITES,2
 52853,WARBAND_SCENES_RANDOM,Set Random Background +,3
@@ -22953,14 +22961,247 @@ And spread his flame to all Azeroth.",1
 52939,EVENT_SCHEDULER_FRAME_LABEL,Events,1
 52941,GENERIC_TRAIT_FRAME_VISIONS_TITLE,Hourglass of Horrific Visions,1
 52952,ADD_CHARACTER_GROUP_TOOLTIP_DISABLED,Max %d |4camp:camps; reached.,2
+52953,HOUSING_CHARTER_PLAYERS,Players on Charter,1
+52954,HOUSING_CHARTER_UNSIGNED,<not yet signed>,1
+52955,HOUSING_CHARTER_NEIGHBORHOOD_LOCATION,Neighborhood Location:,1
+52956,HOUSING_CHARTER_NEIGHBORHOOD_TYPE,Neighborhood Type:,1
+52957,HOUSING_CHARTER_NEIGHBORHOOD_NAME,Neighborhood Name:,1
+52958,HOUSING_CHARTER_DESCRIPTION,"Target a player you wish to invite and click request signature. To create this Neighborhood, turn it in to the Steward once you have filled out the Charter.",1
+52959,HOUSING_CHARTER_SETTINGS_BUTTON,Settings,1
+52960,HOUSING_CHARTER_REQUEST_BUTTON,Request Signature,1
+52961,HOUSING_CHARTER_CLOSE_BUTTON,Close,1
 52962,ACCOUNT_COMPLETED_QUEST_NOTICE_LABEL,Completed,1
 52963,DRIVE_TURBO_METER_HELP_TIP,Holding spacebar while turning lets you drift. Drifting recovers your turbo meter.,1
 52964,DRIVE_START_JOB_HELP_TIP,Get your first job from Nanny Talullah. You can also cancel jobs and pick up new ones.,1
 52967,WORLD_MAP_FILTER_COUNTER_TOOLTIP,Hidden: %s,1
 52969,TW_FRAUD_WARNING_TEXT,System message,2
+52970,HOUSING_CHARTER_REQUEST_DESCRIPTION,"%s is requesting your signature on their Neighborhood Charter. By signing, you will be able to purchase a House in the Neighborhood once %s turns the completed Charter in.",1
+52971,HOUSING_CHARTER_REQUEST_SIGN_BUTTON,Sign Charter,1
+52972,HOUSING_CHARTER_REQUEST_DECLINE_BUTTON,Decline,1
+52973,HOUSING_CHARTER_REQUEST_LOCATION,Location: %s,1
+52974,HOUSING_CHARTER_REQUEST_NAME,Name: %s,1
+52975,HOUSING_CHARTER_REQUEST_TYPE,Neighborhood Type: %s,1
+52980,HOUSING_CONTROLS_EXIT_BUTTON,Exit House,1
+52981,HOUSING_CONTROLS_EDITOR_BUTTON_ENTER,Edit House,1
+52982,HOUSING_CONTROLS_EDITOR_BUTTON_ENTER_FMT,Edit House |cnNORMAL_FONT_COLOR:(%s)|r,1
+52983,HOUSING_CONTROLS_EDITOR_BUTTON_EXIT,Exit House Editor,1
+52984,HOUSING_CONTROLS_EDITOR_BUTTON_EXIT_FMT,Exit House Editor |cnNORMAL_FONT_COLOR:(%s)|r,1
+52985,HOUSING_CONTROLS_EDITOR_UNAVAILABLE,House Editor is unavailable,1
+52986,HOUSING_CONTROLS_EDITOR_UNAVAILABLE_FMT,House Editor is unavailable: %s,1
 52987,EVENT_SCHEDULER_DAY_FORMAT,%1$s %2$d,1
 52988,EVENT_SCHEDULER_TIME_WITH_LOCATION,%1$s - %2$s,1
+52989,HOUSE_EDITOR_INSTRUCTION_UNBOUND,[UNBOUND],1
+52990,HOUSE_EDITOR_SAVE_IN_PROGRESS,"Save in progress, please wait",1
+52991,ERR_HOUSE_EDITOR_SAVE_FAILED,Housing save failed; please try again later.,1
+52992,ERR_HOUSE_EDITOR_SAVE_FAILED_FMT,Housing save failed: %s,1
+52994,ERR_HOUSE_EDITOR_MODE_FAILED,Failed to switch Editor modes; please try again later.,1
+52995,ERR_HOUSE_EDITOR_MODE_FAILED_FMT,Failed to switch Editor modes: %s,1
+52996,ERR_HOUSE_EDITOR_MUST_LEAVE,You must exit the House Editor to access this feature.,1
+52997,HOUSE_EDITOR_MODE_UNAVAILABLE_FMT,%s is not currently available,1
+52998,HOUSE_EDITOR_MODE_UNAVAILABLE_ERROR_FMT,%s is not available: %s,1
+53001,HOUSE_EDITOR_MODE_BASIC_DECOR_NAME,Decorate Mode,1
+53002,HOUSE_EDITOR_MODE_BASIC_DECOR_BUTTON_ENTER,Decorate Mode,1
+53003,HOUSE_EDITOR_MODE_BASIC_DECOR_BUTTON_ENTER_FMT,Enter House Editor |cnNORMAL_FONT_COLOR:(%s)|r,1
+53004,HOUSE_EDITOR_MODE_BASIC_DECOR_BUTTON_EXIT,Exit House Editor,1
+53005,HOUSE_EDITOR_MODE_BASIC_DECOR_BUTTON_EXIT_FMT,Exit House Editor |cnNORMAL_FONT_COLOR:(%s)|r,1
+53006,HOUSE_EDITOR_MODE_LAYOUT_NAME,Edit Floorplan,1
+53007,HOUSE_EDITOR_MODE_LAYOUT_BUTTON_ENTER,Edit Floorplan,1
+53008,HOUSE_EDITOR_MODE_LAYOUT_BUTTON_ENTER_FMT,Edit Floorplan |cnNORMAL_FONT_COLOR:(%s)|r,1
+53009,HOUSE_EDITOR_MODE_LAYOUT_BUTTON_EXIT,Exit Floorplan Editor,1
+53010,HOUSE_EDITOR_MODE_LAYOUT_BUTTON_EXIT_FMT,Exit Floorplan Editor |cnNORMAL_FONT_COLOR:(%s)|r,1
+53019,HOUSE_EDITOR_MODE_EXPERT_DECOR_NAME,Advanced Mode,1
+53020,HOUSE_EDITOR_MODE_EXPERT_DECOR_BUTTON_ENTER,Enter Advanced Mode,1
+53021,HOUSE_EDITOR_MODE_EXPERT_DECOR_BUTTON_ENTER_FMT,Advanced Mode |cnNORMAL_FONT_COLOR:(%s)|r,1
+53022,HOUSE_EDITOR_MODE_EXPERT_DECOR_BUTTON_EXIT,Exit Advanced Mode,1
+53023,HOUSE_EDITOR_MODE_EXPERT_DECOR_BUTTON_EXIT_FMT,Exit Advanced Mode |cnNORMAL_FONT_COLOR:(%s)|r,1
+53024,HOUSE_EDITOR_MODE_CUSTOMIZE_NAME,Customize Mode,1
+53025,HOUSE_EDITOR_MODE_CUSTOMIZE_BUTTON_ENTER,Enter Customize Mode,1
+53026,HOUSE_EDITOR_MODE_CUSTOMIZE_BUTTON_ENTER_FMT,Enter Customize Mode |cnNORMAL_FONT_COLOR:(%s)|r,1
+53027,HOUSE_EDITOR_MODE_CUSTOMIZE_BUTTON_EXIT,Exit Customize Mode,1
+53028,HOUSE_EDITOR_MODE_CUSTOMIZE_BUTTON_EXIT_FMT,Exit Customize Mode |cnNORMAL_FONT_COLOR:(%s)|r,1
+53032,HOUSE_EDITOR_MODE_CLEANUP_NAME,Cleanup Mode,1
+53033,HOUSE_EDITOR_MODE_CLEANUP_BUTTON_ENTER,Enter Cleanup Mode,1
+53034,HOUSE_EDITOR_MODE_CLEANUP_BUTTON_ENTER_FMT,Enter Cleanup Mode |cnNORMAL_FONT_COLOR:(%s)|r,1
+53035,HOUSE_EDITOR_MODE_CLEANUP_BUTTON_EXIT,Exit Cleanup Mode,1
+53036,HOUSE_EDITOR_MODE_CLEANUP_BUTTON_EXIT_FMT,Exit Cleanup Mode |cnNORMAL_FONT_COLOR:(%s)|r,1
+53037,HOUSING_DECOR_SELECT_INSTRUCTION,Select Decor,1
+53038,HOUSING_DECOR_REMOVE_INSTRUCTION,Remove Decor,1
+53039,HOUSING_DECOR_CANCEL_INSTRUCTION,Cancel,1
+53040,HOUSING_DECOR_GRID_VISIBILITY_INSTRUCTION_ACTIVATE,Show Grid,1
+53041,HOUSING_DECOR_GRID_VISIBILITY_INSTRUCTION_DEACTIVATE,Hide Grid,1
+53042,HOUSING_DECOR_PLACED_COUNT_FMT,%d/%d,1
+53043,ERR_HOUSING_DECOR_LOCKED,This Decor is being edited by another player.,1
+53044,ERR_HOUSING_DECOR_SELECT_FAILED,Decor selection failed; please try again later.,1
+53045,HOUSING_BASIC_DECOR_PLACE_INSTRUCTION,Place Decor,1
+53046,HOUSING_BASIC_DECOR_ROTATE_INSTRUCTION,Rotate Decor,1
+53049,HOUSING_BASIC_DECOR_SNAP_INSTRUCTION_ACTIVATE,Turn Snap to Grid on,1
+53050,HOUSING_BASIC_DECOR_SNAP_INSTRUCTION_DEACTIVATE,Turn Snap to Grid off,1
+53051,HOUSING_CUSTOMIZE_SELECT_INSTRUCTION,Customize Item,1
+53052,HOUSING_CUSTOMIZE_DECOR_HOVER_TOOLTIP,Left Click to Customize,1
+53053,HOUSING_EXPERT_DECOR_SUBMODE_TRANSLATE_PLANE,Direction,1
+53054,HOUSING_EXPERT_DECOR_SUBMODE_TRANSLATE_VERTICAL,Height,1
+53055,HOUSING_EXPERT_DECOR_SUBMODE_ROTATE,Rotate,1
+53056,HOUSING_EXPERT_DECOR_SUBMODE_SCALE,Scale,1
+53057,HOUSING_EXPERT_DECOR_ROTATE_AXIS_X,X-Axis,1
+53058,HOUSING_EXPERT_DECOR_ROTATE_AXIS_Y,Y-Axis,1
+53060,HOUSING_EXPERT_DECOR_ROTATE_AXIS_Z,Z-Axis,1
+53061,HOUSING_LAYOUT_SELECT_INSTRUCTION,Select Room,1
+53062,HOUSING_LAYOUT_REMOVE_ROOM_CONFIRMATION,Are you sure you want to remove this Room? All Decor in this Room will be returned to your House Chest.,1
+53063,HOUSING_LAYOUT_UNOCCUPIED_DOOR_TOOLTIP,Add Room,1
+53064,HOUSING_LAYOUT_OCCUPIED_DOOR_TOOLTIP,Room Already Connected,1
+53069,HOUSING_LAYOUT_REMOVE_ROOM_TOOLTIP,Remove Room,1
+53070,HOUSING_LAYOUT_MOVE_ROOM_TOOLTIP,Move Room,1
+53071,HOUSING_LAYOUT_ROTATE_ROOM_LEFT_TOOLTIP,Rotate Room Left,1
+53072,HOUSING_LAYOUT_ROTATE_ROOM_RIGHT_TOOLTIP,Rotate Room Right,1
+53073,HOUSING_LAYOUT_NUM_ROOMS,%d/%d,1
+53074,ERR_HOUSING_LAYOUT_ROTATE_RESTRICTION_BASE_ROOM,The base Room cannot be modified,1
+53075,ERR_HOUSING_LAYOUT_REMOVE_RESTRICTION_BASE_ROOM,The base Room cannot be modified,1
+53076,ERR_HOUSING_LAYOUT_MOVE_RESTRICTION_BASE_ROOM,The base Room cannot be modified,1
+53077,ERR_HOUSING_LAYOUT_ROTATE_RESTRICTION_NON_LEAF,Room cannot be rotated. An attached Room is preventing rotation.,1
+53078,ERR_HOUSING_LAYOUT_REMOVE_RESTRICTION_NON_LEAF,You cannot remove a Room with more than one connected door,1
+53079,ERR_HOUSING_LAYOUT_MOVE_RESTRICTION_NON_LEAF,You cannot move a Room with more than one connected door,1
+53080,BINDING_HEADER_HOUSING_SYSTEM,Housing,1
+53081,PREFACE_HOUSING_DECOR_BINDINGS,"These bindings are only active while editing your House, and can re-use keys already in use.",1
+53082,PREFACE_HOUSING_LAYOUT_BINDINGS,Floorplan Editor only bindings,1
+53083,BINDING_NAME_HOUSING_TOGGLEEDITOR,Enter/Exit House Editor,1
+53084,BINDING_NAME_HOUSING_TOGGLEDECORSNAPMODE,Toggle Snap to Grid,1
+53085,BINDING_NAME_HOUSING_TOGGLEDECORGRIDVISIBILITY,Toggle Grid Visibility,1
+53086,BINDING_NAME_HOUSING_ROTATEROOMLEFT,Rotate Room Left,1
+53087,BINDING_NAME_HOUSING_ROTATEROOMRIGHT,Rotate Room Right,1
+53094,BINDING_NAME_HOUSING_DELETEDECOR,Remove Decor,1
+53095,HOUSING_CATALOG_CATEGORIES_ALL,All,1
+53096,BINDING_TAG_HOUSE,House,1
+53097,BINDING_TAG_HOUSING,housing,1
+53098,BINDING_TAG_DECOR,Decor,1
+53099,BINDING_TAG_DECORATE,Decorate,1
+53100,BINDING_TAG_LAYOUT,layout,1
+53101,ERR_HOUSING_RESULT_DB_ERROR,DB error,1
+53102,ERR_HOUSING_RESULT_RPC_FAILURE,RPC Failure,1
+53103,ERR_HOUSING_RESULT_GENERIC_FAILURE,Something went wrong,1
+53104,ERR_HOUSING_RESULT_LOCK_OPERATION_FAILED,Failed to lock object as being edited by the current player,1
+53105,ERR_HOUSING_RESULT_UNLOCK_OPERATION_FAILED,Failed to release object for editing by other players,1
+53107,ERR_HOUSING_RESULT_LOCKED_BY_OTHER_PLAYER,That object is currently being edited by another player,1
+53108,ERR_HOUSING_RESULT_DECOR_NOT_FOUND,Decor not found,1
+53109,ERR_HOUSING_RESULT_HOUSE_NOT_FOUND,House not found,1
+53110,ERR_HOUSING_RESULT_PERMISSION_DENIED,Permission denied,1
+53111,ERR_HOUSING_RESULT_NOT_IN_DECOR_EDIT_MODE,You are not currently in the House Editor,1
+53112,ERR_HOUSING_RESULT_NOT_INSIDE_HOUSE,Not inside House,1
+53113,ERR_HOUSING_RESULT_SERVICE_NOT_AVAILABLE,Service not available,1
+53114,ERR_HOUSING_RESULT_ROOM_NOT_FOUND,Room not found,1
+53115,ERR_HOUSING_RESULT_ROOM_UPDATE_FAILED,Room update failed,1
+53116,ERR_HOUSING_RESULT_NOT_IN_LAYOUT_EDIT_MODE,You are not currently in the Floorplan Editor,1
+53119,ERR_HOUSING_RESULT_PLOT_NOT_FOUND,Plot not found,1
+53120,ERR_HOUSING_RESULT_MAX_DECOR_REACHED,House has reached the maximum placed Decor,1
+53121,ERR_HOUSING_RESULT_PLACEMENT_TARGET_INVALID,Placement invalid,1
+53122,ERR_HOUSING_RESULT_COLLISION_INVALID,Collision invalid,1
+53123,ERR_HOUSING_RESULT_INVALID_ROOM_LAYOUT,Invalid Room layout,1
+53124,ERR_HOUSING_RESULT_TOKEN_REQUIRED,Token required,1
+53125,ERR_HOUSING_RESULT_FILTER_REJECTED,Filter rejected,1
 53126,ACCOUNT_LEVEL_SCENE,Warband Campsite,3
+53127,HOUSING_CORNERSTONE_TAB_INFO,Info,1
+53128,HOUSING_CORNERSTONE_TAB_DROPBOX,Dropbox,1
+53129,HOUSING_CORNERSTONE_FORSALE,FOR SALE,1
+53130,HOUSING_CORNERSTONE_BUY,Buy,1
+53131,HOUSING_CORNERSTONE_LOCATION,Location:,1
+53132,HOUSING_CORNERSTONE_NEIGHBORHOOD,Neighborhood:,1
+53133,HOUSING_CORNERSTONE_SIZE,Size:,1
+53134,HOUSING_CORNERSTONE_PRICE,Price:,1
+53135,HOUSING_CORNERSTONE_HOUSE_PURCHASED_TOAST,House Purchased,1
+53136,HOUSING_CORNERSTONE_CANT_AFFORD,You don't have enough gold to purchase this House,1
+53137,HOUSING_CORNERSTONE_NOT_IN_GUILD,You must be a guild member to purchase this House,1
+53138,HOUSING_CORNERSTONE_CANCELMOVE,Cancel Move,1
+53139,HOUSING_PURCHASE_PLOT_CONFIRMATION,Purchase Confirmation,1
+53140,HOUSING_PURCHASE_PLOT_CONFIRMATION_TEXT,Are you sure you want to buy this Plot?,1
+53141,HOUSING_PURCHASE_PLOT_BUY,Buy,1
+53142,HOUSING_PURCHASE_PLOT_CANCEL,Cancel,1
+53143,HOUSING_PURCHASE_PLOT_ERROR,"There was a problem with buying the Plot, please try again later",1
+53144,HOUSING_DASHBOARD_DASHBOARD,Dashboard,1
+53145,HOUSING_DASHBOARD_CATALOG_FRAMETITLE,Housing Dashboard,1
+53146,HOUSING_DASHBOARD_HOUSEFINDERBUTTON,Open House Finder,1
+53147,HOUSING_DASHBOARD_FRAMETITLE,Housing Dashboard,1
+53148,HOUSING_DASHBOARD_NO_HOUSE_TEXT,You currently do not own a House. |n|n Open the House Finder to search for one!,1
+53149,HOUSING_DASHBOARD_OWNER_LABEL,Owner:,1
+53150,HOUSING_DASHBOARD_LOCATION_LABEL,Location:,1
+53151,HOUSING_DASHBOARD_NEIGHBORHOOD_LABEL,Neighborhood:,1
+53152,HOUSING_DASHBOARD_TELEPORT_BUTTON_TEXT,Teleport to House,1
+53153,HOUSING_DASHBOARD_NEIGHBORHOOD_ACTIVITIES,Neighborhood Activities,1
+53154,HOUSING_DASHBOARD_SOCIAL,Social,1
+53155,HOUSING_DASHBOARD_COMING_SOON,Coming Soon!,1
+53156,HOUSING_DASHBOARD_MOVE_OUT_TIMER,Moving out in: %s,1
+53157,HOUSING_MICRO_BUTTON,Housing Dashboard,1
+53158,NEWBIE_TOOLTIP_HOUSING,!Dashboard for all things housing!,1
+53159,HOUSING_HOUSEFINDER_TITLE,House Finder,1
+53160,HOUSING_NEIGHBORHOOD_SEARCH_ERROR,Error searching for Neighborhoods,1
+53161,HOUSING_HOUSEFINDER_NEIGHBORHOODS,Neighborhoods,1
+53163,HOUSING_NEIGHBORHOODTYPE_PRIVATE,Private,1
+53164,HOUSING_NEIGHBORHOODTYPE_OPEN,Open,1
+53165,HOUSING_NEIGHBORHOODTYPE_PUBLIC,Public,1
+53166,HOUSING_CREATENEIGHBORHOOD_LOCATION,Location:,1
+53167,HOUSING_CREATENEIGHBORHOOD_GUILD,Guild:,1
+53168,HOUSING_CREATENEIGHBORHOOD_CREATEGUILD,Create Guild Neighborhood,1
+53169,HOUSING_CREATENEIGHBORHOOD_CHARTER,Neighborhood Charter,1
+53170,HOUSING_CREATENEIGHBORHOOD_NEIGHBORHOODNAME,Neighborhood Name:,1
+53171,HOUSING_CREATENEIGHBORHOOD_NEIGHBORHOODTYPE,Neighborhood Type:,1
+53172,HOUSING_CREATENEIGHBORHOOD_GUILD_PRIVATEDESCRIPTION,|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Only players who are a part of your guild may buy a Plot |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Players not in the guild will be kicked from the Neighborhood |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t New Subdivisions will be created when the Neighborhood is full |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Can be converted into an Open Neighborhood if there are no Subdivisions,1
+53173,HOUSING_CREATENEIGHBORHOOD_GUILD_OPENDESCRIPTION,"|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t For the first 24 hours, only guild members may buy a Plot |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t After 24 hours, any player may buy a Plot |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t New Subdivisions will not be created when the Neighborhood is full |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Can't be converted into a Private Neighborhood",1
+53174,HOUSING_CREATENEIGHBORHOOD_CHARTER_PRIVATEDESCRIPTION,|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Every player on the Charter will be able to buy a Plot |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Neighborhood Managers can add other players to the Neighborhood |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Can be converted into an Open Neighborhood,1
+53175,HOUSING_CREATENEIGHBORHOOD_CHARTER_OPENDESCRIPTION,"|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Every player on the Charter will be able to buy a Plot |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t For the first 24 hours, only Charter players may purchase a Plot |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t After 24 hours, any player may purchase a Plot |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Can't be converted into a Private Neighborhood",1
+53176,HOUSING_CREATENEIGHBORHOOD_ERROR_NOTENOUGHGUILDMEMBERS,You do not meet the minimum guild member requirement,1
+53177,HOUSING_CREATENEIGHBORHOOD_ERROR_BADNAME,Please choose a different Neighborhood name,1
+53178,HOUSING_CREATENEIGHBORHOOD_ERROR_UNDERSIZED_GUILD,You do not meet the minimum guild member requirement,1
+53179,HOUSING_CREATENEIGHBORHOOD_ERROR_OVERSIZED_GUILD,You exceed the maximum guild member limit. Please create a Private Neighborhood.,1
+53180,HOUSING_CREATENEIGHBORHOOD_GUILD_CONFIRMBUTTON,Create Neighborhood,1
+53181,HOUSING_CREATENEIGHBORHOOD_CHARTER_CONFIRMBUTTON,Confirm and Purchase,1
+53182,HOUSING_CREATENEIGHBORHOOD_CONFIRMBUTTON,Confirm,1
+53183,HOUSING_CREATENEIGHBORHOOD_CANCELBUTTON,Cancel,1
+53184,HOUSING_CREATENEIGHBORHOOD_PRIVATE,Private,1
+53185,HOUSING_CREATENEIGHBORHOOD_OPEN,Open,1
+53186,HOUSING_CREATENEIGHBORHOOD_CONFIRMATION,Are you sure you want to create this Neighborhood?,1
+53187,HOUSING_CREATENEIGHBORHOOD_TOAST,Neighborhood Created,1
+53188,HOUSING_CREATENEIGHBORHOOD_SERVER_ERROR,Something went wrong creating the Neighborhood!,1
+53189,HOUSING_CREATENEIGHBORHOOD_SETTINGS_WARNING,Making changes will remove any signatures you have received,1
+53190,HOUSING_FEATURE_COMING_SOON,Coming Soon!,1
+53191,HOUSING_BULLETINBOARD_TITLE,Neighborhood Bulletin Board,1
+53192,HOUSING_BULLETINBOARD_BUILDINGS,Buildings,1
+53193,HOUSING_BULLETINBOARD_EVENTS,Events,1
+53194,HOUSING_BULLETINBOARD_NPCS,NPCs,1
+53195,HOUSING_BULLETINBOARD_SOCIAL,Social,1
+53196,HOUSING_NEIGHBORHOOD_SETTINGS_TITLE,Neighborhood Settings,1
+53197,HOUSING_NEIGHBORHOOD_SETTINGS_NAME,Name:,1
+53198,HOUSING_NEIGHBORHOOD_SETTINGS_NAME_BUTTON,Change Name,1
+53199,HOUSING_NEIGHBORHOOD_SETTINGS_TYPE,Type:,1
+53200,HOUSING_NEIGHBORHOOD_SETTINGS_TYPE_BUTTON,Convert to Open,1
+53201,HOUSING_NEIGHBORHOOD_SETTINGS_OWNERS,Owners,1
+53202,HOUSING_NEIGHBORHOOD_SETTINGS_OWNERS_DESCRIPTION,Adding a player as an owner will give them full permissions,1
+53203,HOUSING_NEIGHBORHOOD_SETTINGS_OWNERS_ADD,Add Player,1
+53204,HOUSING_NEIGHBORHOOD_SETTINGS_CONFIRM,Confirm,1
+53205,HOUSING_NEIGHBORHOOD_SETTINGS_CANCEL,Cancel,1
+53206,HOUSING_NEIGHBORHOOD_SETTINGS_NEWNAME,New Name:,1
+53207,HOUSING_NEIGHBORHOOD_SETTINGS_CHANGENAME,Change Neighborhood Name,1
+53208,HOUSING_NEIGHBORHOOD_SETTINGS_CURRENTNAME,Current Name:,1
+53210,HOUSING_HOUSE_SETTINGS_TITLE,House Settings and Permissions,1
+53211,HOUSING_HOUSE_SETTINGS_HOUSENAME,House Name:,1
+53212,HOUSING_HOUSE_SETTINGS_HOUSEOWNER,House Owner:,1
+53213,ERR_HOUSING_HOUSE_SETTINGS_HOUSEOWNER_FACTION,This character can't own a House in this Neighborhood because of their faction,1
+53214,ERR_HOUSING_HOUSE_SETTINGS_HOUSEOWNER_GUILD,This character can't own a House in this Neighborhood because of their guild,1
+53215,ERR_HOUSING_HOUSE_SETTINGS_HOUSEOWNER_PERMISSION,This character can't own a House in this Neighborhood,1
+53216,HOUSING_HOUSE_SETTINGS_ABANDON,Relinquish,1
+53217,HOUSING_HOUSE_SETTINGS_ABANDON_CONFIRMATION,Are you sure you want to Relinquish this House?,1
+53218,HOUSING_HOUSE_SETTINGS_ABANDON_DESCRIPTION,"Your layout will be saved, and you can purchase a new House to automatically import it. \n \n If you just want to move to a different Plot, you can interact with the Cornerstone of that Plot to move without Relinquishing this House.",1
+53219,HOUSING_HOUSE_SETTINGS_ABANDON_REFUND,You will receive,1
+53220,HOUSING_HOUSE_SETTINGS_ABANDON_CONFIRM,Relinquish,1
+53221,HOUSING_HOUSE_SETTINGS_ABANDON_CANCEL,Cancel,1
+53227,HOUSING_HOUSE_SETTINGS_PLOTACCESS,Plot Access:,1
+53228,HOUSING_HOUSE_SETTINGS_HOUSEACCESS,House Access:,1
+53229,HOUSING_HOUSE_SETTINGS_ACCESS_ANYONE,Anyone,1
+53230,HOUSING_HOUSE_SETTINGS_ACCESS_NEIGHBORS,Neighbors,1
+53231,HOUSING_HOUSE_SETTINGS_ACCESS_GUILD,Guild,1
+53232,HOUSING_HOUSE_SETTINGS_ACCESS_FRIENDS,Friends,1
+53234,HOUSING_HOUSE_SETTINGS_IGNORELIST_BUTTON,Open Ignore List,1
+53235,HOUSING_PLOTSIZE_SMALL,Small,1
+53236,HOUSING_PLOTSIZE_MEDIUM,Medium,1
+53237,HOUSING_PLOTSIZE_LARGE,Large,1
+53238,HOUSING_PLOT_NUMBER,Plot #%d,1
 53239,ACCESSIBILITY_DRIVE_LABEL,D.R.I.V.E.,1
 53240,EVENT_SCHEDULER_ONGOING_HEADER,Ongoing Events,1
 53241,EVENT_SCHEDULER_SCHEDULED_HEADER,Event Schedule,1
@@ -22973,7 +23214,16 @@ And spread his flame to all Azeroth.",1
 53256,OPTION_TOOLTIP_DRIVE_NORMALIZE_REVERSE_TURNING,"If checked, uses normal turn controls when reversing during Drive.",1
 53259,ERR_LEARN_WARBAND_SCENE_S,%s has been added to your Campsite collection.,1
 53267,PROFESSION_RESPEC_CONFIRMATION,Do you want to  unlearn all specializations for %s?|n|nYou will lose all associated recipes and be able to re-allocate your knowledge as you see fit.|n|n |cnRED_FONT_COLOR:This can only be done ONCE.|r,1
+53268,HOUSING_CUSTOMIZE_DECOR_UNAVAILABLE_HOVER_TOOLTIP,This Decor has no available Customizations,1
+53269,HOUSING_DECOR_CANNOT_REMOVE,This Decor cannot be removed,1
+53280,HOUSING_DECOR_DESELECT_INSTRUCTION,Deselect Decor,1
+53295,BINDING_NAME_HOUSING_TOGGLEBASICDECORMODE,Decorate Mode,1
+53296,BINDING_NAME_HOUSING_TOGGLELAYOUTMODE,Floorplan Editor,1
+53297,BINDING_NAME_HOUSING_TOGGLECUSTOMIZEMODE,Customize Mode,1
+53298,BINDING_NAME_HOUSING_TOGGLEEXPERTDECORMODE,Advanced Mode,1
+53299,BINDING_NAME_HOUSING_TOGGLECLEANUPMODE,Cleanup Mode,1
 53306,EVENT_SCHEDULER_WORLD_MAP_HELP_TEXT,Ongoing and upcoming events can be found here,1
+53307,HOUSING_EXPERT_DECOR_RESET,Resets Decor changes based on active Advanced Mode option|n|n|cnNORMAL_FONT_COLOR:<Shift click to Reset all changes>|r,1
 53308,STABLE_PET_SPEC_DROPDOWN_OPTION_LABEL,%s %s,1
 53309,BINDING_NAME_LOOTLEFT,Left Interact With Target,1
 53317,SPELL_FAILED_CUSTOM_ERROR_1069,There is already food in the bowl,1
@@ -23008,7 +23258,12 @@ And spread his flame to all Azeroth.",1
 53426,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_VERTICAL_TOP,Vertical - Top,1
 53427,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_VERTICAL_CENTER,Vertical - Center,1
 53428,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_VERTICAL_BOTTOM,Vertical - Bottom,1
+53429,BINDING_NAME_HOUSING_EXPERTDECORHORIZONTALSUBMODE,Advanced Direction Submode,1
+53430,BINDING_NAME_HOUSING_EXPERTDECORVERTICALSUBMODE,Advanced Height Submode,1
+53431,BINDING_NAME_HOUSING_EXPERTDECORROTATESUBMODE,Advanced Rotate Submode,1
+53432,BINDING_NAME_HOUSING_EXPERTDECORSCALESUBMODE,Advanced Scale Submode,1
 53441,SPELL_FAILED_CUSTOM_ERROR_1070,The Mega Magnet must be charged first!,1
+53442,HOUSING_LAYOUT_FLOOR_DISPLAY,Floor %d,1
 53444,SPELL_FAILED_CUSTOM_ERROR_1071,"Must target an eligible head, chest, or leg class set item.",1
 53445,SPELL_FAILED_CUSTOM_ERROR_1072,Must target an eligible shoulder or hand class set item.,1
 53463,SPELL_FAILED_CUSTOM_ERROR_1074,Cannot mount while disguised.,1
@@ -23020,8 +23275,34 @@ And spread his flame to all Azeroth.",1
 53470,CINEMATIC_SUBTITLES_BACKGROUND_OPTION_LIGHT,Light,3
 53472,CINEMATIC_SUBTITLES_BACKGROUND_COLOR_OPTION_LABEL,Subtitles Background,3
 53473,CINEMATIC_SUBTITLES_BACKGROUND_OPACITY_OPTION_LABEL,Background Opacity,3
+53511,UNIT_VIEW_HOUSES,View Houses,1
 53512,VIDEO_OPTIONS_INTEL_XELL,Intel XeLL,3
+53514,HOUSE_EDITOR_MODE_BASIC_DECOR_BUTTON,Decorate Mode,1
+53515,HOUSE_EDITOR_MODE_BASIC_DECOR_BUTTON_FMT,Decorate Mode |cnNORMAL_FONT_COLOR:(%s)|r,1
+53516,HOUSE_EDITOR_MODE_LAYOUT_BUTTON,Edit Floorplan,1
+53517,HOUSE_EDITOR_MODE_LAYOUT_BUTTON_FMT,Edit Floorplan |cnNORMAL_FONT_COLOR:(%s)|r,1
+53518,HOUSE_EDITOR_MODE_CUSTOMIZE_BUTTON,Customize Mode,1
+53519,HOUSE_EDITOR_MODE_CUSTOMIZE_BUTTON_FMT,Customize Mode |cnNORMAL_FONT_COLOR:(%s)|r,1
+53520,HOUSE_EDITOR_MODE_EXPERT_DECOR_BUTTON,Advanced Mode,1
+53521,HOUSE_EDITOR_MODE_EXPERT_DECOR_BUTTON_FMT,Advanced Mode |cnNORMAL_FONT_COLOR:(%s)|r,1
+53522,HOUSE_EDITOR_MODE_CLEANUP_BUTTON,Cleanup Mode,1
+53523,HOUSE_EDITOR_MODE_CLEANUP_BUTTON_FMT,Cleanup Mode |cnNORMAL_FONT_COLOR:(%s)|r,1
+53524,HOUSING_EXPERT_DECOR_SUBMODE_TRANSLATE_PLANE_FMT,Direction |cnNORMAL_FONT_COLOR:(%s)|r,1
+53525,HOUSING_EXPERT_DECOR_SUBMODE_TRANSLATE_VERTICAL_FMT,Height |cnNORMAL_FONT_COLOR:(%s)|r,1
+53526,HOUSING_EXPERT_DECOR_SUBMODE_ROTATE_FMT,Rotate |cnNORMAL_FONT_COLOR:(%s)|r,1
+53527,HOUSING_EXPERT_DECOR_SUBMODE_SCALE_FMT,Scale |cnNORMAL_FONT_COLOR:(%s)|r,1
 53532,ERR_MARKSMANSHIP_NOPET_EAGLE,Your Marksmanship Eagle prevents this.,5
+53537,ERR_PLACED_DECOR_LIMIT_REACHED,You have reached the maximum placed Decor. Delete Decor to add more.,1
+53541,HOUSING_BASIC_DECOR_NUDGE_INSTRUCTION_ACTIVATE,Enable Clipping,1
+53542,HOUSING_BASIC_DECOR_NUDGE_INSTRUCTION_DEACTIVATE,Disable Clipping,1
+53544,BINDING_NAME_HOUSING_TOGGLEDECORNUDGEMODE,Toggle Decor Clipping,1
+53552,HOUSING_DECOR_GRID_VISIBILITY_INSTRUCTION_ACTIVATE_FMT,Show Grid |cnNORMAL_FONT_COLOR:(%s)|r,1
+53553,HOUSING_DECOR_GRID_VISIBILITY_INSTRUCTION_DEACTIVATE_FMT,Hide Grid |cnNORMAL_FONT_COLOR:(%s)|r,1
+53555,HOUSING_BASIC_DECOR_SNAP_INSTRUCTION_ACTIVATE_FMT,Snap to Grid |cnNORMAL_FONT_COLOR:(%s)|nTurn on to snap Decor to grid while placing. |r,1
+53557,HOUSING_BASIC_DECOR_SNAP_INSTRUCTION_DEACTIVATE_FMT,Snap to Grid |cnNORMAL_FONT_COLOR:(%s)|nTurn off to ignore the grid while placing. |r,1
+53558,HOUSING_BASIC_DECOR_NUDGE_INSTRUCTION_ACTIVATE_FMT,Enable Clipping |cnNORMAL_FONT_COLOR:(%s)|nTurn on to ignore Decor collision while placing. |r,1
+53559,HOUSING_BASIC_DECOR_NUDGE_INSTRUCTION_DEACTIVATE_FMT,Enable Clipping |cnNORMAL_FONT_COLOR:(%s)|nTurn off for full Decor collision while placing. |r,1
+53566,HOUSING_CLEANUP_SELECT_INSTRUCTION,Remove Decor,1
 53649,PERKS_PROGRAM_CART_ADD,Add to Cart,1
 53650,PERKS_PROGRAM_CART_REMOVE,Remove from Cart,1
 53651,PERKS_PROGRAM_CART_VIEW_TOOLTIP,View Cart,1
@@ -23036,10 +23317,18 @@ And spread his flame to all Azeroth.",1
 53679,PERKS_PROGRAM_CART_PURCHASE_TOOLTIP,Purchase Cart,1
 53698,DROP_CHANCE_ITEMS_ONLY,Chance to receive:,1
 53726,SPELL_FAILED_CUSTOM_ERROR_1075,Your target is already protected by a Darkfuse Medichopper.,1
+53728,BINDING_NAME_HOUSING_LAYOUTCAMERA_UP,Move Camera Up,1
+53729,BINDING_NAME_HOUSING_LAYOUTCAMERA_DOWN,Move Camera Down,1
+53730,BINDING_NAME_HOUSING_LAYOUTCAMERA_LEFT,Move Camera Left,1
+53731,BINDING_NAME_HOUSING_LAYOUTCAMERA_RIGHT,Move Camera Right,1
+53732,BINDING_NAME_HOUSING_LAYOUTCAMERA_ZOOM_IN,Zoom In,1
+53733,BINDING_NAME_HOUSING_LAYOUTCAMERA_ZOOM_OUT,Zoom Out,1
 53734,COLORS_LABEL,Colors,3
 53735,ENABLE_ADVANCED_COLORS_OPTIONS,Enable Advanced Options,3
 53736,OPTION_TOOLTIP_ENABLE_ADVANCED_COLORS_OPTIONS,Show additional options for color overrides.,3
 53737,COLORS_ITEM_QUALITY,Item Quality,3
+53738,PREFACE_HOUSING_BASICDECOR_BINDINGS,Decorate Mode only bindings,1
+53739,PREFACE_HOUSING_EXPERTDECOR_BINDINGS,Advanced Mode only bindings,1
 53742,BINDING_NAME_DRIFT,Drift,1
 53744,CONFIRM_REMOVE_WOW_FRIEND,Are you sure you want to remove this friend from your list? This action cannot be undone.,1
 53760,SPELL_FAILED_CUSTOM_ERROR_1090,Requires Unbreakable Bond.,1
@@ -23049,7 +23338,10 @@ And spread his flame to all Azeroth.",1
 53766,COOLDOWN_VIEWER_LABEL,Cooldown Manager,1
 53767,HUD_EDIT_MODE_COOLDOWN_VIEWER_DISABLED_TOOLTIP,"Essential Cooldowns, Utilities, Tracked Buffs, and Tracked Bars for each spec. The Cooldown Manager is currently disabled. Enable it in: Advanced Options>Cooldown Manager.",1
 53824,CHAR_NAME_CONSECUTIVE_SPACES,Names can't have consecutive spaces,3
+53833,HOUSING_LAYOUT_ZOOM_IN_INSTRUCTION,Zoom In,1
+53834,HOUSING_LAYOUT_ZOOM_OUT_INSTRUCTION,Zoom Out,1
 53835,WHO_LIST_SEARCH_INSTRUCTIONS,"Search Zones, Guilds, Classes, Races, Levels",1
+53836,HOUSING_LAYOUT_CANCEL_INSTRUCTION,Cancel,1
 53847,GUILD_RENAME_DESCRIPTION,Please tell me the desired name for your guild and I'll check if it's unique. There is a waiting period to change the guild name again if you change your mind.,1
 53848,GUILD_RENAME_EDITBOX_INSTRUCTIONS,Enter New Guild Name,1
 53849,GUILD_RENAME_OPTIONS_DESCRIPTION,Here are your guild rename options:,1
@@ -23074,6 +23366,21 @@ And spread his flame to all Azeroth.",1
 53876,EMPTY_SOCKET_SINGINGTHUNDER,Singing Thunder Socket,1
 53879,EMPTY_SOCKET_SINGINGSEA,Singing Sea Socket,1
 53882,EMPTY_SOCKET_SINGINGWIND,Singing Wind Socket,1
+53883,BINDING_NAME_HOUSING_TOGGLEINCLUDETARGETDECORCHILDREN,Toggle including Decor children in selection,1
+53884,BINDING_NAME_HOUSING_EXPERTDECORINCREMENT_LEFT,Move Decor Left,1
+53885,BINDING_NAME_HOUSING_EXPERTDECORINCREMENT_RIGHT,Move Decor Right,1
+53886,BINDING_NAME_HOUSING_EXPERTDECORINCREMENT_FORWARD,Move Decor Forward,1
+53890,BINDING_NAME_HOUSING_EXPERTDECORINCREMENT_BACK,Move Decor Backward,1
+53891,BINDING_NAME_HOUSING_EXPERTDECORINCREMENT_UP,Move Decor Up,1
+53892,BINDING_NAME_HOUSING_EXPERTDECORINCREMENT_DOWN,Move Decor Down,1
+53893,BINDING_NAME_HOUSING_EXPERTDECORINCREMENT_ROTATELEFT,Rotate Decor Left,1
+53894,BINDING_NAME_HOUSING_EXPERTDECORINCREMENT_ROTATERIGHT,Rotate Decor Right,1
+53895,BINDING_NAME_HOUSING_EXPERTDECORINCREMENT_SCALEUP,Scale Decor Up,1
+53896,BINDING_NAME_HOUSING_EXPERTDECORINCREMENT_SCALEDOWN,Scale Decor Down,1
+53903,HOUSING_CREATENEIGHBORHOOD_CREATECHARTER,Create Neighborhood,1
+53919,SPELL_FAILED_CUSTOM_ERROR_2428,You are already at full charges.,1
+53925,HOUSING_DECOR_BUDGET_TOOLTIP,Decor Placement Budget,1
+53926,HOUSING_DECOR_TOGGLE_GRID_INSTRUCTION,Toggle Grid,1
 53928,CHARACTER_BANK_PANEL_TITLE,Bank,1
 53929,CHARACTER_BANK_TAB_PURCHASE_PROMPT,The Bank offers additional storage for your items.|n|nDo you wish to purchase this tab?,1
 53930,CHARACTER_BANK_TAB_NAME_PROMPT,Enter Bank Tab Name:,1
@@ -23090,10 +23397,35 @@ And spread his flame to all Azeroth.",1
 53941,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_SIZE,Icon Size,1
 53942,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_PADDING,Icon Padding,1
 53943,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_OPACITY,Opacity,1
+53945,VIEW_HOUSES_TITLE,%s's Houses,1
+53946,VIEW_HOUSES_NEIGHBORHOOD_BUTTON,View Neighborhood,1
+53947,VIEW_HOUSES_VISIT_BUTTON,Visit House,1
 53962,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING_ALWAYS,Always Visible,1
 53963,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING_IN_COMBAT,In Combat,1
 53964,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING_HIDDEN,Hidden,1
 53967,BANK_CONFIRM_CLEANUP_PROMPT,Are you sure you want to automatically sort your items?|nThis will affect all tabs.,1
+53970,VIEW_HOUSES_NO_HOUSES,No Houses available,1
+53973,HOUSING_CORNERSTONE_NEIGHBORHOOD_TYPE,Type:,1
+53974,HOUSING_CORNERSTONE_OWNED_BY,Owned by:,1
+53975,HOUSING_CORNERSTONE_NEIGHBORHOOD_LOCATION,Location:,1
+53977,HOUSING_CORNERSTONE_GENERIC_PERMISSION,You can't purchase a House in this Neighborhood,1
+53978,HOUSING_CORNERSTONE_OWNER,Owner:,1
+53979,HOUSING_CORNERSTONE_NEIGHBORHOOD_PUBLIC,Public,1
+53980,HOUSING_CORNERSTONE_NEIGHBORHOOD_PRIVATE_GUILD,Private Guild,1
+53981,HOUSING_CORNERSTONE_NEIGHBORHOOD_PRIVATE_CHARTER,Private Charter,1
+53982,HOUSING_CORNERSTONE_NEIGHBORHOOD_OPEN_GUILD,Open Guild,1
+53983,HOUSING_CORNERSTONE_NEIGHBORHOOD_OPEN_CHARTER,Open Charter,1
+53984,HOUSING_LAYOUT_CANT_PLACE_ROOM_TOOLTIP,This Room type can't be placed in the current location.,1
+54001,NEIGHBORHOOD_ROSTER_COLUMN_TITLE_NAME,Name,1
+54002,NEIGHBORHOOD_ROSTER_COLUMN_TITLE_STATUS,Status,1
+54003,NEIGHBORHOOD_ROSTER_COLUMN_TITLE_PLOT,Plot,1
+54004,HOUSING_BULLETINBOARD_NEIGHBORHOOD_NAME,%s (%s),1
+54006,HOUSE_EDITOR_CATALOG_BUTTON_TOOLTIP,House Chest,1
+54007,HOUSE_EDITOR_CATALOG_STORAGE_TAB,Storage,1
+54009,NEIGHBORHOOD_ROSTER_COLUMN_TITLE_SUBDIVISION,Subdivision,1
+54010,NEIGHBORHOOD_ROSTER_COLUMN_PLOT_FORMAT,#%d,1
+54011,NEIGHBORHOOD_ROSTER_COLUMN_STATUS_ONLINE,Online,1
+54012,NEIGHBORHOOD_ROSTER_COLUMN_STATUS_OFFLINE,Offline,1
 54013,HUD_EDIT_MODE_COOLDOWN_VIEWER_NO_ITEMS_TOOLTIP,This tool is currently not used for this class or specialization,1
 54014,HUD_EDIT_MODE_COOLDOWN_VIEWER_EXAMPLE_BUFF_NAME,Example Buff Name,1
 54052,SPELL_FAILED_CUSTOM_ERROR_1073,Only usable by non-tank specs.,1
@@ -23105,6 +23437,11 @@ And spread his flame to all Azeroth.",1
 54059,CURRENCY_TRANSFER_IN_PROGRESS,Transfer in progress,1
 54062,GUILD_RENAME_ERROR_MUST_BE_IN_A_GUILD,You must be the Guildmaster of a guild in order to use the guild rename feature.,1
 54066,GUILD_RENAME_COSTS_LABEL,This cost will be deducted from your guild bank funds:,1
+54067,HOUSING_DECOR_CUSTOMIZATION_DYES,%s Dyes,1
+54068,HOUSING_DECOR_CUSTOMIZATION_DYE_SLOT_DESCRIPTION,%s slot,1
+54069,HOUSING_DECOR_CUSTOMIZATION_THEME,%s Theme,1
+54071,HOUSING_DECOR_CUSTOMIZATION_DEFAULT_COLOR,Default (undyed),1
+54072,HOUSING_DECOR_CUSTOMIZATION_DYE_SPEND_WARNING,%d Dye will be removed.,1
 54074,GUILD_RENAME_COSTS_TOOLTIP,The costs will be deducted from your guild bank,1
 54075,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_SHOW_TOOLTIPS,Show Tooltips,1
 54077,GUILD_RENAME_GUILD_BANK_MONEY_TOOLTIP,Available guild bank funds,1
@@ -23113,7 +23450,11 @@ And spread his flame to all Azeroth.",1
 54093,NPEV2_SELF_HEAL_P2,Don't move while casting.\n\nWatch as your health recovers.,1
 54094,ASSISTED_COMBAT_ROTATION_ACTION_BUTTON_HELPTIP,The Single-Button Assistant will suggest damage abilities for you. Use it like any other ability.,1
 54095,NAME_NOT_AVAILABLE,That name is not available,3
+54099,HOUSING_DECOR_CUSTOMIZATION_RECENTLY_USED,Recently Used Dyes,1
 54106,SPELL_FAILED_CUSTOM_ERROR_1046,You already have this relic in your collection.,1
+54107,HOUSING_DECOR_CUSTOMIZATION_DYE_NUM_OWNED,Available: %d,1
+54108,HOUSING_DECOR_CUSTOMIZATION_SHOW_ONLY_OWNED,Hide Unavailable,1
+54109,HOUSING_DECOR_CUSTOMIZATION_REMOVE_DYE_WARNING,%d Dye will be removed.,1
 54112,LOGIN_STATE_WAITFORNETWORK,Waiting for network,2
 54113,ERR_SOCKETING_REQUIRES_FIBER_GEM,That slot requires a Fiber gem.,1
 54114,ERR_SOCKETING_FIBER_GEM_ONLY_IN_FIBERSLOT,Fiber gems can only be placed in Fiber sockets.,1
@@ -23121,21 +23462,30 @@ And spread his flame to all Azeroth.",1
 54132,VOICE_CHAT_SETTING_ENABLED,Voice Chat Enabled,1
 54133,SPELL_FAILED_CUSTOM_ERROR_1076,Only Timerunners may use this.,1
 54134,SPELL_FAILED_CUSTOM_ERROR_1077,It's too dangerous to do that right now.,1
+54135,HOUSING_HOUSE_NAME_FORMAT,%1$d %2$s,1
 54136,CHARACTER_BANK_DEPOSIT_BUTTON_LABEL,Deposit All Reagents,1
 54138,GROUP_FINDER_VOICE_CHAT_TYPE_INGAME,In-Game,1
 54140,GROUP_FINDER_VOICE_CHAT_TYPE_OTHER,Other,1
 54145,GENERIC_TRAIT_FRAME_TITAN_CONSOLE_TITLE,Overcharged Titan Console,1
+54150,ERR_NO_OWNED_HOUSE_IN_THIS_NEIGHBORHOOD_MAP,You don't own a House in this Neighborhood,1
 54153,EMOTE628_CMD1,/lean,1
 54154,EMOTE628_CMD2,/lean,1
 54155,REPORTING_MINOR_CATEGORY_TVEC,Terrorist/Violent Content,5
 54156,REPORTING_MINOR_CATEGORY_CSEA,Child Abuse,5
 54178,ASSISTED_COMBAT_ROTATION_SPELLS_LIST_SHOW,Right click for list of abilities,1
 54179,ASSISTED_COMBAT_ROTATION_SPELLS_LIST_HIDE,Right click to hide list of abilities,1
+54184,ERR_INVITED_TO_NEIGHBORHOOD,You have been invited to a Neighborhood!,1
 54200,ASSISTED_COMBAT_HIGHLIGHT_LABEL,Assisted Highlight,1
 54201,OPTION_TOOLTIP_ASSISTED_COMBAT_HIGHLIGHT,Enables highlights that suggest the ability to use.|nThe Assisted Highlight will only suggest visible abilities.,1
 54209,CONTACTS_TAB_TITLE,Contacts,3
 54210,CONTACTS_LIST_TITLE,Contacts,3
+54211,OPTION_TOOLTIP_BLOCK_NEIGHBORHOOD_INVITES,Block all incoming Neighborhood Invites.,1
+54212,BLOCK_NEIGHBORHOOD_INVITES,Block Neighborhood Invites,1
 54219,SPELL_FAILED_CUSTOM_ERROR_1078,You cannot Lorewalk while in Party Sync.,1
+54226,HOUSING_HOUSE_SETTINGS_ANYONE,Anyone,1
+54227,HOUSING_HOUSE_SETTINGS_NOONE,No One,1
+54228,HOUSING_HOUSE_SETTINGS_LIMITED,Limited,1
+54229,HOUSING_HOUSE_SETTINGS_ACCESS_PARTY,Party,1
 54230,EMPTY_SOCKET_FIBER,Fiber Socket,5
 54244,ASSISTED_COMBAT_HIGHLIGHT_DIALOG_WARNING,Assisted Highlight will only suggest visible abilities.,1
 54246,CENSORED_MESSAGE_SENDER,%s |cffffff00Message to %s flagged as potentially inappropriate.|Hcensoredmessagerewrite:%d:%d:%s|h |W[Rewrite Message]|w|h or |Hcensoredmessageconfirmsend:%d:%d:%s|h|W[Send Anyways]|w|h|r,1
@@ -23147,6 +23497,20 @@ And spread his flame to all Azeroth.",1
 54268,VOTE_TO_ABANDON_PASSED,Vote Successful,1
 54269,VOTE_TO_ABANDON_FAILED,The Abandon Instance vote was unsuccessful.,1
 54272,CENSORED_MESSAGE_SENT,%s |cffffff00Message flagged as potentially inappropriate.|r,1
+54289,ERR_HOUSING_LAYOUT_ROTATE_RESTRICTION_STAIRWELL,This Room cannot be rotated,1
+54291,ERR_HOUSING_LAYOUT_REMOVE_RESTRICTION_LAST_ROOM,This Room cannot be removed,1
+54292,ERR_HOUSING_LAYOUT_REMOVE_RESTRICTION_UNREACHABLE,You cannot remove a Room with more than one connected door,1
+54293,ERR_HOUSING_LAYOUT_MOVE_RESTRICTION_STAIRWELL,This Room cannot be removed.,1
+54294,ERR_HOUSING_LAYOUT_MOVE_RESTRICTION_LAST_ROOM,This Room cannot be moved,1
+54295,ERR_HOUSING_LAYOUT_MOVE_RESTRICTION_UNREACHABLE,Rooms cannot be moved if it would result in any unreachable Rooms.,1
+54308,ERR_HOUSING_LAYOUT_RESTRICTION_ROOM_NOT_FOUND,Failed to find a valid target Room,1
+54309,ERR_HOUSING_LAYOUT_RESTRICTION_NOT_INSIDE_HOUSE,"Cannot modify layout, not currently inside of a House.",1
+54311,ERR_HOUSING_LAYOUT_RESTRICTION_NOT_HOUSE_OWNER,You are not the owner of this House,1
+54314,ERR_HOUSING_LAYOUT_RESTRICTION_BASE_ROOM,This Room cannot be modified,1
+54315,ERR_HOUSING_LAYOUT_RESTRICTION_NON_LEAF,This Room cannot be modified. Try removing one or more attached Rooms.,1
+54316,ERR_HOUSING_LAYOUT_RESTRICTION_STAIRWELL,This Room cannot be modified. Try removing Stairwell Rooms above or below this one first.,1
+54317,ERR_HOUSING_LAYOUT_RESTRICTION_LAST_ROOM,This Room cannot be modified,1
+54318,ERR_HOUSING_LAYOUT_RESTRICTION_UNREACHABLE,You cannot modify a Room if it would result in any unreachable Rooms.,1
 54321,CONTACTS_MENU_BROADCAST_BUTTON_NAME,Broadcast,3
 54322,CONTACTS_MENU_IGNORE_BUTTON_NAME,Ignore List,3
 54323,CONTACTS_MENU_NAME,Menu,3
@@ -23154,27 +23518,101 @@ And spread his flame to all Azeroth.",1
 54325,CONTACTS_RECENT_ALLIES_TITLE,Recent Allies,1
 54326,CONTACTS_RECENT_ALLIES_TAB_NAME,Recent Allies,1
 54327,ERR_CHARACTER_BANK_NOT_CONVERTED,Your character's bank has not been converted. Please try again later.,1
+54328,HOUSING_BULLETIN_CONFIRM_CANCEL_NEIGHBORHOOD_INVITE_TEXT,Are you sure you want to cancel %s's invitation to the Neighborhood?,1
+54329,HOUSING_BULLETIN_CONFIRM_CANCEL_NEIGHBORHOOD_INVITE_CONFIRM,Confirm,1
+54330,HOUSING_NEIGHBORHOOD_INVITE_TITLE,Invite Resident,1
+54331,HOUSING_NEIGHBORHOOD_INVITE_SEARCH_LABEL,Player Search,1
+54332,HOUSING_NEIGHBORHOOD_INVITE_INVITATIONS_LABEL,Pending Invitations,1
+54333,HOUSING_NEIGHBORHOOD_INVITE_SEARCH,Search,1
+54334,HOUSING_NEIGHBORHOOD_INVITE_BUTTON_LABEL,Send Invite,1
+54335,HOUSING_NEIGHBORHOOD_INVITE_ERR_GENERIC,An Error Occurred,1
+54336,HOUSING_NEIGHBORHOOD_INVITE_ERR_DISABLED,This player has Neighborhood Invitations disabled,1
+54337,HOUSING_NEIGHBORHOOD_INVITE_ERR_FACTION,This player is in the opposite faction,1
+54338,HOUSING_NEIGHBORHOOD_INVITE_ERR_PENDING,This player has a pending invitation to another Neighborhood,1
+54339,HOUSING_NEIGHBORHOOD_INVITE_ERR_LIMIT,You've reached the invitation limit,1
+54340,HOUSING_NEIGHBORHOOD_INVITE_ERR_NO_PLOTS,You have no more available Plots,1
+54341,HOUSING_NEIGHBORHOOD_INVITE_ERR_NOT_FOUND,Player not found,1
+54342,HUD_ITEM_CONTAINER_TITLE,Inventory,1
+54344,HOUSING_BULLETINBOARD_INVITE_RESIDENT,Invite Resident,1
 54347,SPELL_FAILED_CUSTOM_ERROR_2430,You must equip the Reshii Wraps to Phase Dive.,1
 54348,BANK_LOCKED_REASON_NO_ACCOUNT_INVENTORY_LOCK,The bank is being used by another member of your Warband.,1
 54349,BANK_LOCKED_REASON_BANK_DISABLED,This bank is currently unavailable.,1
 54350,BANK_LOCKED_REASON_BANK_CONVERSION_FAILED,Bank conversion failed. Please relog to try again.,1
+54361,HOUSING_DECOR_CUSTOMIZATION_THEME_LABEL_CEILING,Ceiling Style,1
+54362,BINDING_NAME_HOUSING_EXPERTDECORTRANSLATESUBMODE,Advanced Move Submode,1
+54363,HOUSING_EXPERT_DECOR_SUBMODE_TRANSLATE,Move,1
+54364,HOUSING_EXPERT_DECOR_SUBMODE_TRANSLATE_FMT,Move |cnNORMAL_FONT_COLOR:(%s)|r,1
+54365,BINDING_NAME_HOUSING_EXPERTDECORINCREMENT_ROTATEX,Rotate on X-Axis,1
+54366,PREFACE_HOUSING_EXPERTDECOR_INCREMENT_BINDINGS,Bindings for incrementally manipulating Decor via key presses,1
+54367,BINDING_NAME_HOUSING_EXPERTDECORINCREMENT_ROTATEY,Rotate on Y-Axis,1
+54369,BINDING_NAME_HOUSING_EXPERTDECORINCREMENT_ROTATEZ,Rotate on Z-Axis,1
+54373,HOUSING_DECOR_CUSTOMIZATION_WALLPAPER_LABEL_CEILING,Ceiling Material,1
+54374,HOUSING_DECOR_CUSTOMIZATION_CEILING_TYPE_LABEL,Ceiling Type,1
+54375,HOUSING_DECOR_CUSTOMIZATION_VAULTED_LABEL,Vaulted,1
+54376,HOUSING_DECOR_CUSTOMIZATION_NOT_VAULTED_LABEL,Normal,1
 54377,LEAVER_PENALTY_WARNING_TIMER,You are not in your party's active Mythic+ instance. You will receive a penalty in %d %s.,1
 54378,REWARD_POSSIBLE_QUEST_REWARD,This quest may have additional rewards:,1
 54380,GUILDBANK_GUILD_RENAME_PURCHASE,%s renamed the guild for %s,1
 54381,GUILDBANK_GUILD_RENAME_REFUND,%s refunded the guild rename for %s,1
+54383,ROTATION_CONTROL_ANGLE_FORMAT,%d°,1
+54384,SPELL_FAILED_CUSTOM_ERROR_666,You can't do that.,1
+54385,SPELL_FAILED_CUSTOM_ERROR_651,There is no loot.,1
 54401,CHAT_SETTINGS_ADDITIONAL_COLORS,Additional Colors:,1
-54651,TALENT_FRAME_INCREASED_RANKS_TEXT,+%d |4Rank:Ranks; from %s,1
+54409,HOUSING_CORNERSTONE_MOVE_DIALOG,Are you sure you want to move this House? \n\n The cost from the old House will apply towards the cost of the new one,1
+54410,HOUSING_CORNERSTONE_IMPORT_DIALOG,Are you sure you want to buy this House? \n\n The layout from your previous House will be applied upon purchase,1
+54613,HOUSING_CORNERSTONE_MOVE_BUTTON,Move House,1
+54614,HOUSING_CORNERSTONE_MOVE_TOOLTIP,You've recently moved. Please try again later.,1
+54615,HOUSING_CORNERSTONE_MOVE_TOOLTIP_TIME,Time remaining: %s,1
+54616,HOUSING_CORNERSTONE_REFUND,Refund:,1
+54617,HOUSING_CORNERSTONE_HOUSE_TO_MOVE,House to Move:,1
+54618,HOUSING_CORNERSTONE_HOUSE_TO_IMPORT,House to Import:,1
+54621,ERR_HOUSING_RESULT_NOT_ON_OWNED_PLOT,You do not own this Plot,1
+54630,ERR_HOUSING_RESULT_CANNOT_AFFORD,You can't afford that.,1
+54632,ERR_HOUSING_RESULT_INCORRECT_FACTION,You aren't the right faction for that.,1
+54634,ERR_HOUSING_RESULT_INVALID_DECOR_ITEM,Invalid House Decor Item,1
+54637,ERR_HOUSING_RESULT_INVALID_GUILD,Invalid or missing guild,1
+54638,ERR_HOUSING_RESULT_INVALID_INTERACTION,Invalid Interaction,1
+54639,ERR_HOUSING_RESULT_INVALID_NAME_PROVIDED,Invalid name provided,1
+54640,ERR_HOUSING_RESULT_MORE_HOUSE_SLOTS_NEEDED,You don't have enough House slots for that,1
+54641,ERR_HOUSING_RESULT_NEIGHBORHOOD_NOT_FOUND,Neighborhood not found,1
+54642,ERR_HOUSING_RESULT_OPERATION_ABORTED,The server operation was aborted,1
+54643,ERR_HOUSING_RESULT_TIMEOUT_LIMIT,The operation timed out,1
+54644,ERR_HOUSING_RESULT_TRANSACTION_FAILURE,The transaction failed,1
+54645,HOUSING_BULLETINBOARD_CONTEXT_EVICT,Evict,1
+54647,HOUSING_BULLETINBOARD_EVICT_CONFIRMATION_TEXT,Are you sure you want to evict this player? \n \n They will be immediately removed from the Neighborhood.,1
+54648,HOUSING_BULLETINBOARD_EVICT_CONFIRMATION_CONFIRM,Confirm,1
+54649,HOUSING_BULLETINBOARD_EVICT_CONFIRMATION_CANCEL,Cancel,1
+54650,HOUSING_BULLETINBOARD_EVICTED_CONFIRMATION_TEXT,You have been evicted from your Neighborhood. \n \n Your House Layout has been saved. Please purchase a new House to import it.,1
+54651,TALENT_FRAME_INCREASED_RANKS_TEXT,(+%d |4Rank:Ranks; from %s),1
+54652,HOUSING_CATALOG_CATEGORIES_BACK,BACK,1
 54664,WHO_LIST_LEVEL_TOOLTIP,Level %d,1
 54665,ENABLE_GAMEPLAY_SFX,Enable audio cues during combat encounters,3
 54666,GAMEPLAY_SFX_VOLUME,Gameplay Sound Effects,3
 54667,OPTION_TOOLTIP_GAMEPLAY_SFX_VOLUME,Adjusts the gameplay sound effects volume,3
 54672,RECENT_ALLY_LABEL,Recent Allies,3
+54676,HOUSING_ADD_NEIGHBORHOOD_MANAGER_CONFIRMATION,Are you sure you want to add %s as a Neighborhood Manager? \n\n Adding a player as a Manager will give them the following permissions:|n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Invite players to buy a House in the Neighborhood |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Evict non-Managers from the Neighborhood |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Manage future Neighborhood content ,1
+54677,HOUSING_REMOVE_NEIGHBORHOOD_MANAGER_CONFIRMATION,Are you sure you want to remove %s as a Neighborhood Manager?,1
+54678,HOUSING_BULLETIN_CONTEXT_CONFIRM,Confirm,1
+54679,HOUSING_BULLETIN_CONTEXT_CANCEL,Cancel,1
+54680,HOUSING_TRANSFER_OWNERSHIP_REJECT,Reject,1
+54681,HOUSING_TRANSFER_OWNERSHIP_CONFIRM,Confirm,1
+54682,HOUSING_BULLETIN_TRANSFER_OWNERSHIP_DIALOG,Are you sure you want to transfer the Neighborhood ownership to %s? They will need to accept the transfer first. \n\n You will be a Manager of the Neighborhood.,1
+54683,HOUSING_TRANSFER_OWNERSHIP_REQUEST_DIALOG,%s wants to transfer the ownership of the Neighborhood %s to you.,1
+54684,HOUSING_BULLETIN_TRANSFER_OWNERSHIP,Transfer Ownership,1
+54685,HOUSING_BULLETIN_ADD_MANAGER,Promote to Manager,1
+54686,HOUSING_BULLETIN_REMOVE_MANAGER,Remove Manager,1
 54692,REMIX_ARTIFACT_RESPEC_POPUP_DESC,Would you like to reset your Artifact Tree? (Points will be refunded),1
 54693,REMIX_ARTIFACT_RESPEC_POPUP_CONFIRM,Reset Tree,1
 54694,REMIX_ARTIFACT_RESPEC_POPUP_CANCEL,Cancel,1
+54710,BINDING_NAME_TOGGLEHOUSINGDASHBOARD,Housing Dashboard,1
+54713,HOUSING_DECOR_ONLY_PLACEABLE_OUTSIDE,Only placeable outside,1
+54714,HOUSING_DECOR_ONLY_PLACEABLE_INSIDE,Only placeable inside,1
+54715,HOUSING_DECOR_ONLY_PLACEABLE_OUTSIDE_ERROR,This Decor is only placeable outside,1
+54716,HOUSING_DECOR_ONLY_PLACEABLE_INSIDE_ERROR,This Decor is only placeable inside,1
 54719,REPORT_RESULT_TOO_MANY_REPORTS,Report failed. Too many report attempts. Please try again in a few minutes.,1
 54720,REPORT_RESULT_REQUIRES_CHAT,Report failed. Report type only valid on chat lines.,1
 54721,REPORT_RESULT_REQUIRES_CHAT_OR_VOICE,Report failed. Report type only valid on chat lines or when in voice chat.,1
+54728,ERR_NEIGHBORHOOD_OWNER_TRANSFERRED_S,%s has accepted the Neighborhood Owner transfer,1
 54731,UNITNAME_SUMMON_TITLE59,%s's Oathbound Minion,1
 54758,ASSISTED_COMBAT_LABEL,Combat Assistant,1
 54759,ASSISTED_COMBAT_ROTATION_VIEW_SPELLBOOK,View in Spellbook,1
@@ -23184,7 +23622,17 @@ And spread his flame to all Azeroth.",1
 54781,VIDEO_OPTIONS_SFX_DENSITY_MIN_TOOLTIP,Only show essential spells. Your own spells are always shown.,3
 54782,VIDEO_OPTIONS_SFX_DENSITY_REDUCED_TOOLTIP,Reduces the non-essential spells shown.,3
 54783,VIDEO_OPTIONS_SFX_DENSITY_FULL_TOOLTIP,Always show all spells.,3
+54790,OUTFITTER_ARMOR_HEADER,[PH],1
+54791,OUTFITTER_GEM_HEADER,[PH],1
+54792,OUTFITTER_FRAME_TITLE,[PH],1
+54793,OUTFITTER_EQUIP_ARMOR,[PH],1
 54794,BCSHORTDATENOYEAR,%B %d,1
+54795,HOUSING_DECOR_CUSTOMIZATION_DOOR_TYPE_LABEL,Doorway Type,1
+54797,HOUSING_DECOR_CUSTOMIZATION_WALLPAPER_LABEL_WALL,Wall Material,1
+54798,HOUSING_DECOR_CUSTOMIZATION_WALLPAPER_LABEL_FLOOR,Floor Material,1
+54800,HOUSING_DECOR_CUSTOMIZATION_THEME_LABEL_WALL,Wall Style,1
+54801,HOUSING_DECOR_CUSTOMIZATION_NORMAL_DOOR_LABEL,Standard,1
+54802,HOUSING_DECOR_CUSTOMIZATION_WIDE_DOOR_LABEL,Wide,1
 54803,RECENT_ALLIES_PARTY_BUTTON_OFFLINE_TOOLTIP,Player Offline,3
 54804,RECENT_ALLIES_MENU_BUTTON_LABEL_SET_NOTE,Set Note,3
 54805,RECENT_ALLIES_MENU_BUTTON_LABEL_PIN,Pin,3
@@ -23194,14 +23642,19 @@ And spread his flame to all Azeroth.",1
 54810,RECENT_ALLY_RECENT_ACTIVITIES_LABEL,Recent Activities,3
 54811,RECENT_ALLY_INTERACTION_TIME_FORMAT,%s ago,3
 54826,RECENT_ALLIES_PARTY_BUTTON_TOOLTIP,Invite to Group,1
+54827,HOUSING_DECOR_CUSTOMIZATION_LABEL_CEILING,Ceiling,1
+54828,HOUSING_DECOR_CUSTOMIZATION_LABEL_WALL,Wall,1
+54829,HOUSING_DECOR_CUSTOMIZATION_LABEL_FLOOR,Floor,1
 54835,NOTIFY_ASSIST_ACTION_PLACED_VO,%1$s listened to your message in %2$s.,1
 54836,NOTIFY_ASSIST_ACTION_PLAYER_SLAYER,%1$s avenged your defeat to %2$s in %3$s.,1
 54838,NOTIFY_ASSIST_ACTION_CAPTURED_BUFF,%1$s received your %2$s in %3$s.,1
 54839,REMIX_ARTIFACT_TUTORIAL_CHOOSE_TRAITS_TEXT,Choose Artifact Weapon Traits,1
 54840,REMIX_ARTIFACT_TUTORIAL_CLICK_TO_OPEN_TEXT,Shift Right Click to View the Artifact Weapon Trait Tree,1
+54841,HOUSING_DECOR_CUSTOMIZATION_RECENTLY_USED_SHORT,Recently Used,1
 54842,SPELL_FAILED_CUSTOM_ERROR_1079,You must first bring Acherus to the Broken Isles in this timeline.,1
 54844,ASSIST_ACTION_GRAVE_MARKER_TOOLTIP,Grave of %s,1
 54845,ASSIST_ACTION_PLACED_VO_TOOLTIP,Message from %s,1
+54846,HOUSING_DASHBOARD_HOUSEUPGRADE,House Level,1
 54847,TIMESTAMP_FORMAT_HHMM_AMPM_NOSPACE,%I:%M %p,1
 54871,ERR_START_RESTRICTED_CHALLENGE_MODE,"You have joined a Mythic+ instance. Leaving the instance before the timer ends, without voting to abandon the dungeon, will give you a penalty.",1
 54877,ASSIST_ACTION_LOUNGING_PLAYER_NAME,Memory of %s,1
@@ -23228,6 +23681,8 @@ And spread his flame to all Azeroth.",1
 54911,VIDEO_OPTIONS_SFX_DENSITY_PERF_TOOLTIP,Reduce non-essential spells shown based on your framerate.,3
 54915,TEXT_SCALE_PREVIEW_TITLE,Example,3
 54916,TEXT_SCALE_PREVIEW_BODY,"This is a preview of the text size. Adjust this setting to change text size in most dialogs, some social menus and Text-to-Speech options.",3
+54944,GENERIC_TRAIT_FRAME_WOWHACK_ALCHEMIST_TITLE,[PH],1
+54945,GENERIC_TRAIT_FRAME_WOWHACK_JEWELER_TITLE,[PH],1
 54949,ACCESSIBILITY_INTERFACE_LABEL,Interface,3
 54950,ACCESSIBILITY_FONT_SIZE_LABEL,Text Scale,3
 54951,OPTION_TOOLTIP_ACCESSIBILITY_FONT_SIZE,"Adjust the display size of text for most dialogs, some social menus like Who, Quick Join, and Add Friend as well as the Text-to-Speech options",3
@@ -23255,6 +23710,14 @@ And spread his flame to all Azeroth.",1
 55007,ASSIST_ACTION_GRAVE_MARKER_TOKEN_CONTEXT_TIER,valiantly slain in a Tier %d Delve,1
 55008,ASSIST_ACTION_GRAVE_MARKER_TOKEN_CONTEXT_MONSTER,valiantly slain by %s,1
 55009,ASSIST_ACTION_GRAVE_MARKER_TOKEN_CONTEXT_NONE,valiantly slain and departed,1
+55017,HOUSING_CATALOG_FILTERS_DYEABLE,Dyeable Only,1
+55018,HOUSING_CATALOG_FILTERS_INDOORS,Indoors,1
+55019,HOUSING_CATALOG_FILTERS_OUTDOORS,Outdoors,1
+55024,WOWHACK_SPELLS_FRAME_TITLE,[PH],1
+55025,WOWHACK_SPELLS_FRAME_CLASS_HEADER,[PH],1
+55026,WOWHACK_SPELLS_FRAME_ABILITIES_HEADER,[PH],1
+55027,WOWHACK_SPELLS_FRAME_ACTIVE_ABILITIES_HEADER,[PH],1
+55028,WOW_HACK_SPELLS_FRAME_ABILITY_HINT,[PH],1
 55029,REMIX_EARLY_CHARACTER_CONVERSION_NOTICE,Your Timerunner character has been transported to the main timeline.|n|nRemix event items have been removed.,1
 55032,CONVERT_TIMERUNNER_EARLY_DIALOG_TEXT,"Do you want to convert this Timerunner character to a Standard character?|n|nThe character will gain full access to the main game, but will lose access to Legion Remix content. Timerunners converted above level 70 require The War Within to play.|n|n|cffff2020You cannot undo this action|r",2
 55033,TIMERUNNING_CONVERSION_ENABLED_TOOLTIP,Convert Timerunner to Standard,2
@@ -23269,6 +23732,7 @@ And spread his flame to all Azeroth.",1
 55048,VRN_GPUMEM_16GB,Requires a graphics card with at least 16GB of video memory,3
 55056,KIOSK_SESSION_EXPIRED_TITLE_2,Player Housing,3
 55057,SPELLBOOK_SEARCH_ASSISTED_COMBAT,Assisted Combat spells,1
+55061,NOT_WHILE_HOUSE_EDIT,Cannot use while editing House,1
 55062,MYTHIC_PLUS_DESERTER_FLAGGED,You have been flagged as a Keystone Deserter by repeatedly leaving Mythic+ instances.,1
 55063,MYTHIC_PLUS_DESERTER_FLAGGED_SHORT,You have been flagged as a Keystone Deserter,1
 55065,MYTHIC_PLUS_DESERTER_GROUPS_AFFECTED,This will only affect Mythic+ groups.,1
@@ -23276,7 +23740,40 @@ And spread his flame to all Azeroth.",1
 55069,MYTHIC_PLUS_DESERTER_CONSEQUENCE,A Deserter's Badge will be visible in Mythic+ group finder.,1
 55070,MYTHIC_PLUS_DESERTER,Keystone Deserter,1
 55075,SPELLBOOK_SEARCH_HEADER_RESULTS,Search Results,1
+55081,KIOSK_HOUSING_START_BODY1,Welcome Home,1
+55083,KIOSK_HOUSING_START_BUTTON,Decorate,1
+55084,KIOSK_HOUSING_END_BODY1,Thank You for Trying,1
+55085,KIOSK_HOUSING_END_BODY2,Player Housing,1
+55086,KIOSK_HOUSING_END_FOOTER,We'd love your thoughts! Please take our survey.,1
+55089,KIOSK_HOUSING_START_DLG_BODY1,It's time to make this space yours. There are some brief instructions on your postcard. Settle in and get cozy and let's see what you can build!,1
+55090,KIOSK_HOUSING_START_DLG_HEADER,Welcome Home!,1
+55091,ERR_NEW_PARTY_NEIGHBORHOOD_RESERVATION,A party member has made a new House Reservation!,1
+55092,KIOSK_ENABLED_DLG_TEXT,Kiosk Mode Enabled\nThis notification will not reappear.,3
+55095,HOUSEFINDER_BACK_BUTTON,BACK,1
+55123,HOUSING_CATALOG_FILTERS_NONE,None,1
+55134,WOWHACK_ARMOR_EFFECT_HEADER_TITLE,[PH],1
+55137,WOWHACK_STAT_LINE_HEALTH,[PH],1
+55138,WOWHACK_STAT_LINE_ENERGY,[PH],1
+55139,WOWHACK_STAT_LINE_MANA,[PH],1
+55140,WOWHACK_STAT_LINE_ABILITY_POWER,[PH],1
+55141,WOWHACK_STAT_LINE_SPELL_POWER,[PH],1
+55142,ERR_HOUSING_LAYOUT_ROTATE_RESTRICTION_SINGLE_DOOR,This Room cannot be rotated,1
+55143,ERR_HOUSING_LAYOUT_RESTRICTION_SINGLE_DOOR,You cannot change which door is used if the Room has only one.,1
+55144,WOWHACK_WEAPON_ABILITIES_HEADER_TITLE,[PH],1
+55145,WOWHACK_SLOT_EFFECTS_HEADER_TITLE,[PH],1
+55146,KIOSK_HOUSING_RESET_IN_PROGRESS,The House is being reset. Please wait.,1
+55147,KIOSK_HOUSING_RESET_FAILED,The House reset failed. Please notify an attendant.,1
+55151,HOUSEFINDER_SEARCH_DEFAULT_TEXT,Search Battle.net Friends,1
 55154,GENERIC_TRAIT_FRAME_RESHII_WRAPS_TITLE,Reshii Wraps,1
+55165,HOUSEFINDER_SEARCH_DESCRIPTION,Viewing %s's Neighborhoods,1
+55166,HOUSEFINDER_SEARCH_NOT_FOUND,No Houses found,1
+55174,ERR_HOUSE_MOVED,The House you were in has moved to a new location.,1
+55183,BINDING_NAME_WOWHACKITEM1,[PH],1
+55184,BINDING_NAME_WOWHACKITEM2,[PH],1
+55185,BINDING_NAME_WOWHACKITEM3,[PH],1
+55186,BINDING_NAME_WOWHACKITEM4,[PH],1
+55195,OUTFITTER_EQUIPPED_ARMOR,[PH],1
+55197,ACCOUNT_STORE_INCOMPLETE_TRANSACTION,The transaction could not be completed.,3
 55198,SPELL_FAILED_CUSTOM_ERROR_2431,This mount cannot enter Untethered Space.,1
 55200,USER_SURVEY_STATUS_READY,Research Survey Available,1
 55201,USER_SURVEY_STATUS_READY_DESCRIPTION,We want your feedback! Click here to access the survey.,1
@@ -23285,10 +23782,80 @@ And spread his flame to all Azeroth.",1
 55208,COOLDOWN_VIEWER_SETTINGS_SHOW_UNLEARNED,Show Unlearned,1
 55209,COOLDOWN_VIEWER_SETTINGS_SHOW_OPTIONS,Options,1
 55210,BINDING_NAME_TOGGLECOOLDOWNVIEWERSETTINGS,Toggle Cooldown Settings,1
+55212,OUTFITTER_UPGRADE_BUTTON_TEXT_FORMAT,[PH],1
+55213,OUTFITTER_UPGRADE_INDICATOR_TEXT_FORMAT,|A:plunderstorm-icon-upgrade:16:14:2|a|cnGREEN_FONT_COLOR:+%d|r,1
+55215,OUTFITTER_UPGRADE_TOOLTIP_SUBTEXT,[PH],1
+55218,HOUSING_DASHBOARD_ENDEAVOR,Endeavor,1
+55220,HOUSING_DASHBOARD_TELEPORT_TO_PLOT,Teleport to Plot,1
+55221,HOUSING_DASHBOARD_NO_HOUSE_SELECTED,No House Selected,1
+55222,HOUSING_DASHBOARD_RETURN,Return To Previous Location,1
 55223,ERR_TRAIT_CONFIG_RENAME_THROTTLE,Failed to update loadout name. Please try again.,1
 55224,COOLDOWN_VIEWER_SETTINGS_SEARCH_INSTRUCTIONS,Enter search text,1
+55227,BINDING_NAME_HOUSING_TOGGLEEXTERIORCUSTOMIZEMODE,Edit House Exterior,1
+55228,HOUSE_EDITOR_MODE_EXTERIOR_CUSTOMIZATION_NAME,Edit House Exterior,1
+55229,HOUSE_EDITOR_MODE_EXTERIOR_CUSTOMIZATION_BUTTON,Edit House Exterior,1
+55230,HOUSE_EDITOR_MODE_EXTERIOR_CUSTOMIZATION_BUTTON_FMT,Edit House Exterior |cnNORMAL_FONT_COLOR:(%s)|nEdit the appearance of your House|r,1
+55232,HOUSE_EDITOR_MODE_EXTERIOR_CUSTOMIZATION_BUTTON_ENTER,Edit House Exterior,1
+55233,HOUSE_EDITOR_MODE_EXTERIOR_CUSTOMIZATION_BUTTON_ENTER_FMT,Edit House Exterior |cnNORMAL_FONT_COLOR:(%s)|r,1
+55234,HOUSE_EDITOR_MODE_EXTERIOR_CUSTOMIZATION_BUTTON_EXIT,Exit House Exterior Editor,1
+55236,HOUSE_EDITOR_MODE_EXTERIOR_CUSTOMIZATION_BUTTON_EXIT_FMT,Exit House Exterior Editor |cnNORMAL_FONT_COLOR:(%s)|r,1
+55242,ENTER_DECOR_MODE_TUTORIAL_TEXT,Click this button to enter the House Editor,1
+55243,CLEAN_DECOR_TUTORIAL_TEXT,Click a Decor and press R to place it into your House Chest|n|n%s,1
+55244,DECORATE_DECOR_TUTORIAL_TEXT,Click or click and drag Decor from the House Chest to place it in your House|n|n%s,1
+55245,EXIT_DECOR_MODE_TUTORIAL_TEXT,Click this button to exit the House Editor and progress the tutorial,1
+55246,HOUSING_CLIPPING_GRID_TUTORIAL_TEXT,Adjust how Decor is placed in Decorate Mode using these tools,1
+55247,HOUSING_CUSTOMIZATION_BUTTON_TUTORIAL_TEXT,Customize Mode lets you change the look of different objects in your House,1
+55248,HOUSING_CLICK_DECOR_TUTORIAL_TEXT,"Customize Walls, Floors, or Decor by clicking on them",1
+55249,HOUSING_LAYOUT_BUTTON_TUTORIAL_TEXT,Edit Floorplan lets you change the Floorplan of your House,1
+55250,HOUSING_LAYOUT_CHEST_TUTORIAL_TEXT,Unlocked Rooms will show up in your House Chest.|n|nSelect a Room then click a connection node to place it,1
+55251,HELP_TIP_EXIT,Exit,1
+55252,ERR_HOUSING_RESULT_NOT_IN_TUTORIAL,Mode not available while in the tutorial,1
+55261,HOUSING_DASHBOARD_NO_EXPANSION_TEXT,Please purchase Midnight to access housing,1
+55262,HOUSING_CORNERSTONE_MIDNIGHT_PERMISSION,Please purchase Midnight to access housing,1
+55273,HOUSING_DASHBOARD_OWNERS_HOUSE,%s's House,1
+55274,HOUSING_DASHBOARD_ADDRESS,%s %s,1
+55275,ERR_CHARTER_SIGNATURE_REQUEST_SENT,You have requested %s to sign your Neighborhood Charter.,1
+55282,ERR_CHARTER_SIGNATURE_RECEIVED,%s has signed your Neighborhood Charter.,1
+55298,HOUSING_DASHBOARD_HOUSE_LEVEL,Level %s,1
+55301,HOUSING_DASHBOARD_NEIGHBORHOOD_FAVOR,%s/%s House XP,1
+55316,HOUSING_CREATENEIGHBORHOOD_GUILD_INFODESCRIPTION,|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Both Alliance and Horde characters can purchase a Plot |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Only players who are a part of your guild can purchase a Plot |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Players not in the guild will be kicked from the Neighborhood |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t New Subdivisions will be automatically created when the Neighborhood is full,1
+55317,HOUSING_CREATENEIGHBORHOOD_CHARTER_INFODESCRIPTION,|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Both Alliance and Horde characters can purchase a Plot |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Neighborhood Managers can invite players to the Neighborhood,1
+55318,GAME_MODE_DISABLED_TOOLTIP,This game mode is temporarily unavailable.,3
+55319,HOUSING_CREATENEIGHBORHOOD_NEIGHBORHOODINFO,Neighborhood Info:,1
+55333,RPE_TURNSTRAFE_SELECT,Select Movement Keybindings,1
+55334,RPE_TURNSTRAFE_AFFECT_ACCOUNT,This will affect all your characters using account wide keybindings,1
+55335,RPE_TURNSTRAFE_AFFECT_CHARACTER,This will only affect this character,1
+55336,RPE_TURNSTRAFE_LEGACY,Legacy,1
+55337,RPE_TURNSTRAFE_MODERN,Modern,1
+55338,RPE_TURNSTRAFE_LEGACY_DESC,A and D |cnHIGHLIGHT_FONT_COLOR:turn|r your character,1
+55339,RPE_TURNSTRAFE_MODERN_DESC,A and D |cnHIGHLIGHT_FONT_COLOR:move|r your character,1
+55340,RPE_TURNSTRAFE_ACTIVATE,Activate,1
+55341,RPE_TURNSTRAFE_ACTIVE,Active,1
+55342,RPE_TURNSTRAFE_CHANGED,"The default strafe and turn keys have changed, which may have affected your keybindings.",1
+55343,RPE_TURNSTRAFE_REVIEW,Review Keybinds,1
+55357,HOUSING_CORNERSTONE_NEIGHBORHOOD_CHARTER,Charter,1
+55358,HOUSING_CORNERSTONE_NEIGHBORHOOD_GUILD,Guild,1
+55359,HOUSING_NEIGHBORHOODTYPE_GUILD,Guild,1
+55360,HOUSING_NEIGHBORHOODTYPE_CHARTER,Charter,1
+55372,HOUSING_DASHBOARD_REWARD_INTERIOR_BUDGET,Interior Decor Placement Budget,1
+55373,HOUSING_DASHBOARD_REWARD_EXTERIOR_BUDGET,Exterior Decor Placement Budget,1
+55374,HOUSING_DASHBOARD_REWARD_ROOM_BUDGET,Room Placement Budget,1
+55375,HOUSING_DASHBOARD_REWARD_FIXTURE_BUDGET,Fixture Budget,1
+55376,HOUSING_DASHBOARD_VISIT_NPC,Visit the General Contractor in your Neighborhood to level up your House,1
+55386,HOUSING_DECOR_DYE_LIST,Dyes: %s,1
+55394,HOUSE_PURCHASE,Welcome Home,1
+55398,BUY_HOUSE,Buy House,1
+55399,HOUSING_DASHBOARD_START_TUTORIAL_TEXT,Welcome to Housing!,1
+55400,HOUSING_DASHBOARD_START_TUTORIAL_DESCRIPTION_TEXT,Click the button below to start the Housing Tutorial.|n|nYou can start and stop this tutorial at any time.,1
+55401,HOUSING_DASHBOARD_START_TUTORIAL_BUTTON_TEXT,Start Tutorial,1
+55402,NEIGHBORHOOD_LIST_TUTORIAL_TEXT,Choose between different Neighborhood instances to live in,1
+55403,NEIGHBORHOOD_MAP_TUTORIAL_TEXT,Available Plots in the Neighborhood will have a For Sale Sign,1
+55404,NEIGHBORHOOD_VISIT_HOUSE_TUTORIAL_TEXT,Click 'Visit' to reserve a House and teleport to it,1
+55405,HOUSING_OPEN_BAGS_TUTORIAL_TEXT,You've received Housing Decor!,1
+55406,HOUSING_USE_ITEM_TUTORIAL_TEXT,Use Decor items in your inventory to add them to your House Chest.|n|nSome Decor will be automatically added to your House Chest.,1
 55407,COOLDOWN_VIEWER_OPTIONS_OPEN_EDIT_MODE,Edit Mode,1
 55409,HUD_EDIT_MODE_COOLDOWN_VIEWER_OPTIONS,Cooldown Manager Options,1
+55410,REPORTING_MINOR_CATEGORY_NEIGHBORHOOD_NAME,Neighborhood Name,5
 55417,RECENT_ALLY_PIN_EXPIRING_TOOLTIP,Pinned Ally (Expires in %s),1
 55418,RECENT_ALLY_NOTE_FORMAT,|TInterface\\FriendsFrame\\UI-FriendsFrame-Note:0:0:0:0:1:1:0:1:0:1:255:209:0|t %s,1
 55419,RECENT_ALLY_TOOLTIP_CLASS_FORMAT,%s,1
@@ -23298,25 +23865,76 @@ And spread his flame to all Azeroth.",1
 55423,RECENT_ALLY_RAID_NAME_STRING_FORMAT,%s (%s),1
 55424,RECENT_ALLY_DELVE_NAME_STRING_FORMAT,%s (%s),1
 55425,RECENT_ALLY_MYTHIC_PLUS_DUNGEON_NAME_STRING_FORMAT,%s (%s),1
+55429,QUEUE_STATUS_WOWHACK_TITLE,[PH],1
+55430,QUEUE_STATUS_WOWHACK_TELEPORT_OUT,[PH],1
+55431,QUEUE_STATUS_WOWHACK_TELEPORT_IN,[PH],1
+55432,QUEUE_STATUS_WOWHACK_LEAVE,[PH],1
 55447,CHAT_MSG_RECENT_ALLY_NAME_FORMAT,[%s] %s,1
+55454,ERR_TRAVEL_PASS_GAME_MODE,This friend is playing a different version of World of Warcraft.,3
+55455,HOUSING_DECOR_MISSING_DYE_ERROR_TEXT,Missing Dye,1
 55466,SOCIAL_LOCATION_VISIBILITY_SETTING,Location Visibility,1
 55467,SOCIAL_LOCATION_VISIBILITY_SETTING_TOOLTIP,Choose who can see your current in-game location in the Social menu,1
 55468,SOCIAL_LOCATION_VISIBILITY_FRIEND_GUILD,Friends and Guildmates,1
 55469,SOCIAL_LOCATION_VISIBILITY_FRIEND_GUILD_ALLIES,"Friends, Recent Allies, and Guildmates",1
 55474,LOREWALKING_QUESTS_HIDDEN_HELP_TIP,You are now Lorewalking. All other quests are hidden while in this mode.,1
+55476,HOUSING_EXTERIOR_CUSTOMIZATION_HOOKPOINT_EMPTY_TOOLTIP,Attach Fixture,1
+55477,HOUSING_EXTERIOR_CUSTOMIZATION_HOOKPOINT_OCCUPIED_TOOLTIP,Change Fixture,1
+55487,GAME_MENU_SHOW_REWARDS,Rewards,1
+55488,CHARACTER_SELECT_SHOW_REWARDS,[PH] Rewards,2
+55489,CHARACTER_SELECT_INFO_BUTTON,[PH] Info,2
+55493,REPORTING_MAJOR_CATEGORY_INAPPROPRIATE_DECOR,Inappropriate Decor,1
+55494,HOUSING_DASHBOARD_REWARD_INTERIOR_TOOLTIP,Increase your Placed Decor Budget,1
+55495,HOUSING_DASHBOARD_REWARD_EXTERIOR_TOOLTIP,Increase your Exterior Placed Decor Budget,1
+55496,HOUSING_DASHBOARD_REWARD_ROOM_TOOLTIP,Increase your Placed Room Budget,1
+55497,HOUSING_DASHBOARD_REWARD_FIXTURE_TOOLTIP,Increase your Exterior Fixture Budget,1
 55499,TALENT_BUTTON_TOOLTIP_QUICK_ASSIGN_INSTRUCTIONS,Ctrl-Click to Quick Assign,1
+55508,SPELL_FAILED_CUSTOM_ERROR_652,You have already collected this Decor.,1
+55509,HOUSING_MICROBUTTON_NPE_RESTRICTED_TOOLTIP,This feature becomes available after completing Exile's Reach.,1
 55510,VOTE_TO_ABANDON_ON_COOLDOWN,Vote to Abandon is currently on cooldown: |cnWHITE_FONT_COLOR:%s remaining|r,1
+55512,REPORTING_REPORT_PLAYER_HOUSE,Report %s's House,1
+55513,HOUSING_NEIGHBORHOOD_MAP_ERROR,Error searching for Neighborhood map ID,1
+55514,REPORTING_REPORT_SCREENSHOT_DESCRIPTION,Use the button to take a screenshot of the inappropriate Decor. Your HUD will be hidden in the image.,1
+55515,REPORTING_REPORT_SCREENSHOT_EMPTY,Please use the screenshot button to attach an image,1
+55530,EQUIPPED,Equipped,1
+55531,REPORTING_SCREENSHOT_INSTRUCTIONS,Left Click to take a screenshot,1
 55532,ERR_VOTE_TO_ABANDON_ENCOUNTER,You can't vote to abandon an instance during a boss encounter,1
+55537,HOUSING_LAYOUT_NUM_ROOMS_TOOLTIP,Room Placement Budget |cnNORMAL_FONT_COLOR:|nIncrease the amount of Rooms you can place by leveling your House.|r,1
+55540,HOUSE_UPGRADE_AVAILABLE_TOAST,House Ready to Level Up,1
+55541,HOUSEFINDER_SEARCH_DESCRIPTION_FAILED,No Neighborhoods found,1
 55542,COOLDOWN_VIEWER_SETTINGS_BUTTON_REVERT_CHANGES,Revert,1
 55543,COOLDOWN_VIEWER_SETTINGS_BUTTON_REVERT_CHANGES_TOOLTIP,Revert all layout changes since the last save,1
 55544,COOLDOWN_VIEWER_SETTINGS_DIALOG_TEXT_REVERT_CHANGES,Would you like to undo all changes since your last save?,1
 55545,COOLDOWN_VIEWER_SETTINGS_DIALOG_TEXT_RESET_LAYOUT_TO_DEFAULT,Would you like to reset your cooldown layout to defaults? This action cannot be undone.,1
 55550,COOLDOWN_VIEWER_SETTINGS_LAYOUT_SAVED_MESSAGE,Cooldown Manager Layout Saved,1
+55551,NEIGHBORHOODMAP_YOUR_HOUSE,Your House,1
+55552,NEIGHBORHOODMAP_OWNED_BY,Owned By: %s,1
+55557,HOUSEFINDER_VISIT_DESCRIPTION,Clicking 'Visit' will reserve this Plot for 5 minutes.,1
+55558,HOUSEFINDER_PRICE_LABEL,Price:,1
+55559,HOUSEFINDER_NEIGHBORHOOD_LABEL,Neighborhood:,1
+55560,HOUSEFINDER_LOCATION_LABEL,Location:,1
+55561,HOUSEFINDER_TYPE_LABEL,Type:,1
+55562,HOUSEFINDER_OWNER_LABEL,Owned By:,1
+55563,HOUSEFINDER_RESERVATION_ERROR,This House is no longer available.,1
+55564,HOUSEFINDER_VISIT_BUTTON,Visit,1
+55575,RPE_STARTER_BUILD_TUTORIAL,Not sure what to pick? Use the |cnBLUE_FONT_COLOR:Starter Build|r!,1
+55576,ERR_CHARTER_SIGNATURE_REQUEST_FAILED_MISSING_EXPANSION,The player you invited does not own the Midnight expansion.,1
+55577,ERR_CHARTER_SIGNATURE_REQUEST_FAILED_DUPLICATE_SIGNATURE,The player you invited has signed another Neighborhood Charter.,1
+55578,ERR_CHARTER_SIGNATURE_REQUEST_FAILED_GENERIC,Something went wrong while requesting a signature.,1
+55606,HOUSING_BULLETINBOARD_REPORT,Report,1
+55607,HOUSING_CORNERSTONE_REPORT,Report,1
 55608,ERR_RECENT_ALLY_PIN_SERVER_ERROR,An error has occurred. Please try again.,1
 55609,RECENT_ALLY_ENTRY_CHARACTER_DATA_FORMAT,%s ||%d||%s,1
+55613,RPE_CATCH_UP_AVAILABLE,Catch-up available,2
+55615,RPE_SELECT_EXPERIENCE,Select Experience,2
 55616,CATALOG_SHOP_DETAILS,Details,3
 55617,CATALOG_SHOP_BACK,Back,3
 55618,CATALOG_SHOP_RACE,Race,3
+55620,RPE_EXPERIENCE_SKIP_HEADER,Pick up where you left off,2
+55621,RPE_EXPERIENCE_LOCATION,Location: %s,2
+55622,RPE_EXPERIENCE_SELECT,Select,2
+55623,RPE_EXPERIENCE_SKIP_INFO,You can start the Catch Up Experience at any point from the adventurer's guide,2
+55625,RPE_EXPERIENCE_PLAY_HEADER,Start the Catch Up Experience,2
+55626,RPE_EXPERIENCE_PLAY_TOOLTIP,Journey through the Arathi Highlands to help refamiliarize yourself with World of Warcraft and receive updated gear.,2
 55627,CATALOG_SHOP_PRODUCT_OWNED,Owned,3
 55634,CATALOG_SHOP_TYPE_SERVICE,Service,3
 55635,MOVE_PAD_LOCKED,Lock Window,1
@@ -23327,21 +23945,230 @@ And spread his flame to all Azeroth.",1
 55641,CATALOG_SHOP_MISSING_LICENSE_ITEM,This item is only available on %s,3
 55642,CATALOG_SHOP_WOW_FLAVOR_MODERN,World of Warcraft: %s,3
 55643,CATALOG_SHOP_WOW_FLAVOR_CLASSIC,%s Classic,3
+55649,HOUSING_DECOR_STORAGE_ITEM_DESTROY,Destroy,1
+55652,RPE_TITLE,Catch Up Experience,1
+55653,RPE_START_EXPERIENCE,Start,1
+55655,RPE_TUTORIAL_TEXT,Need some help getting caught up in Azeroth?|n|nJourney through the Arathi Highlands to help refamiliarize yourself with World of Warcraft and receive updated gear for your character.|n|nYou can leave the catch up experience at any point.,1
+55657,EJ_TUTORIALS,Tutorials,1
+55658,HOUSING_DECOR_STORAGE_ITEM_CANNOT_DESTROY,This Decor cannot be destroyed and does not count towards your House Chest limit,1
+55659,HOUSING_DECOR_STORAGE_ITEM_CONFIRM_DESTROY,"Are you sure you want to destroy %s?|n|nThis cannot be undone.|n|nType ""%s"" to confirm.",1
+55665,HOUSING_DECOR_STORAGE_ITEM_DESTROY_ALL,Destroy All,1
+55666,HOUSING_DECOR_STORAGE_ITEM_CONFIRM_DESTROY_ALL,"Are you sure you want to destroy all %d of %s?|n|nThis cannot be undone.|n|nType ""%s"" to confirm.",1
+55668,HOUSING_DECOR_STORAGE_ITEM_DESTROY_CONFIRMATION_STRING,DESTROY,1
 55675,CATALOG_SHOP_TYPE_MOUNT_FLYING,Flying Mount,3
 55676,CATALOG_SHOP_TYPE_MOUNT_GROUND,Ground Mount,3
 55680,GAMEMENU_EXTERNALEVENT,Activities,1
+55688,HOUSING_DASHBOARD_REWARD_OBJECT_TOOLTIP,Unlock this reward.,1
 55690,PARTY_PLAYER_DIFFERENT_WORLD_TIER,You can't see this player because they are in a different World Tier. You can change World Tiers at the Console of Infinite Chaos in the Infinite Bazaar near Dalaran.,1
+55691,RPE_SKYRIDING_TAKE_OFF,|cnNORMAL_FONT_COLOR:Take off!|r,1
+55692,RPE_SKYRIDING_FLY_HIGHER,|cnNORMAL_FONT_COLOR:Fly higher|r,1
+55693,RPE_SKYRIDING_SURGE_FORWARD,|cnNORMAL_FONT_COLOR:Surge forward|r,1
+55694,RPE_SKYRIDING_STEER,|cnNORMAL_FONT_COLOR:Use the mouse to steer|r,1
+55695,RPE_SKYRIDING_LAND,|cnNORMAL_FONT_COLOR:Land on the ground|r,1
+55696,RPE_SKYRIDING_COMMA,"|cnNORMAL_FONT_COLOR:,|r",1
 55698,CATALOG_SHOP_CAROUSEL_INDEX,%s / %s,3
-55715,CATALOG_SHOP_DISCLAIMER_ALL_PRODUCTS,|Hcodelink|hCertain restrictions apply. Visit the |c82c5ffffproduct page|r on shop.battle.net for more information.|h,3
+55699,HOUSING_BULLETINBOARD_NEIGHBORHOOD_ROSTER,Neighborhood Roster,1
+55709,RPE_SKYRIDING_COLLECTIONS_HELPTIP,Open the Warbands Collection to view your mounts,1
+55710,RPE_SKYRIDING_DRAG_MOUNT_HELPTIP,Click and drag any mount icon to your hotbar.|n|nYour mounts have been filtered to only show flying mounts.,1
+55713,RPE_SKYRIDING_MOUNT_UP,|cnNORMAL_FONT_COLOR:Mount up by clicking the ability icon|r,1
+55715,CATALOG_SHOP_DISCLAIMER_ALL_PRODUCTS,|Hcodelink|hCertain restrictions apply. Visit the |cnLINK_FONT_COLOR:product page|r on shop.battle.net for more information.|h,3
+55718,HOUSE_EDITOR_CATALOG_MARKET_TAB,Catalog,1
 55719,VISITABLE_URL62,https://shop.battle.net/family/world-of-warcraft/items/%s/,3
 55720,VISITABLE_URL63,https://shop.battle.net/gametime-purchase,3
 55737,CATALOG_SHOP_TOKEN_IN_GAME_ONLY,You must be logged in with a character to purchase a WoW Token.,3
 55741,CATALOG_SHOP_DISCOUNT_FORMAT,-%s%%,3
 55742,CATALOG_SHOP_TYPE_MOUNT_FLYING_AQUATIC,Flying Aquatic Mount,3
 55743,COOLDOWN_VIEWER_SETTINGS_EMPTY_SLOT_TOOLTIP,Empty Slot,1
+55768,HOUSING_ENDEAVORS_COMING_SOON,Endeavors Coming Soon!,1
 55771,CATALOG_SHOP_NOT_AVAILABLE,Shop Unavailable,3
 55772,CATALOG_SHOP_TRY_AGAIN_LATER,Please check back later.,3
+55781,HOUSING_EXTERIOR_CUSTOMIZATION_HOUSE_TYPE_LABEL,House Type,1
+55782,HOUSING_EXTERIOR_CUSTOMIZATION_HOUSE_SIZE_LABEL,House Size,1
+55783,HOUSING_EXTERIOR_CUSTOMIZATION_BASE_TYPE_LABEL,Base Style,1
+55784,HOUSING_EXTERIOR_CUSTOMIZATION_BASE_VARIANT_LABEL,Base Color,1
+55785,HOUSING_EXTERIOR_CUSTOMIZATION_ROOF_TYPE_LABEL,Roof Style,1
+55786,HOUSING_EXTERIOR_CUSTOMIZATION_ROOF_VARIANT_LABEL,Roof Color,1
+55787,HOUSING_EXTERIOR_CUSTOMIZATION_FIXTURE_NONE_OPTION,None,1
+55788,HOUSING_DYE_TOOLTIP_DESCRIPTION,Housing Dye,1
+55790,HOUSING_DECOR_CUSTOMIZATION_DYE_SPEND_LABEL,Cost:,1
+55791,HOUSING_DECOR_CUSTOMIZATION_DYE_SLOT_LABEL,Dye Slot %d,1
+55795,HOUSING_EXTERIOR_CUSTOMIZATION_SIZE_SMALL,Small,1
+55797,HOUSING_EXTERIOR_CUSTOMIZATION_LOCKED_TOOLTIP,Not Collected,1
+55798,HOUSING_EXTERIOR_CUSTOMIZATION_CANT_REMOVE,"Doors can't be removed, they can only be moved to a different location",1
+55799,HOUSING_EXTERIOR_CUSTOMIZATION_DROPDOWN_COMING_SOON_TOOLTIP,Additional options coming soon,1
+55800,HOUSING_DASHBOARD_MICRO_BUTTON_TUTORIAL_TEXT,View information about your House here,1
+55801,HOUSING_DASHBOARD_TELEPORT_TO_HOUSE_TUTORIAL_TEXT,You can teleport to your House using this button,1
+55826,HOUSING_MARKET_TAB_TUTORIAL_TEXT,The Catalog tab lets you preview any Decor by placing it in your House,1
+55830,ERR_HOUSING_ACTION_UNAVAILABLE,This action is not available right now,1
+55858,AUCTION_CATEGORY_HOUSING,Housing,1
+55860,RECENT_ALLY_PIN_TOOLTIP,Pinned Ally,1
+55861,HOUSING_DECOR_PLACEMENT_COST_FORMAT,|A:House-Decor-budget-icon:21:21|a %d,1
+55862,HOUSING_DECOR_FIRST_ACQUISITION_FORMAT,First-Time Collection Bonus: |cnHIGHLIGHT_FONT_COLOR:+%d House XP|r,1
+55863,HOUSING_DECOR_DYED_NAME_FORMAT,%s (Dyed),1
+55876,HOUSING_DECOR_OWNED_COUNT_FORMAT,"Owned: |cnHIGHLIGHT_FONT_COLOR:%d (Placed: %d, Storage: %d)|r",1
+55881,HOUSING_DECOR_CUSTOMIZATION_WALL_WARNING,Decor placed on Walls may be affected by changing the Wall Style,1
 55918,CATALOG_SHOP_PENDING_PURCHASES,Purchase(s) Pending,3
+55921,HUD_EDIT_MODE_SETTING_BAGS_BAG_SLOT_PADDING,Bag Padding,1
+55955,HOUSING_LAYOUT_STAIRS_UP,Up,1
+55956,HOUSING_LAYOUT_STAIRS_CONFIRMATION,Select a direction for your new Stairwell:,1
+55957,HOUSING_LAYOUT_STAIRS_DOWN,Down,1
+55960,HOUSE_UPGRADE_AVAILABLE_TOAST_SUB_TITLE_FORMAT,%d %s - Level %d,1
+55963,ERR_PLACED_ROOM_LIMIT_REACHED,You have reached the room limit. Remove a room to add more.,1
+55964,HOUSING_LAYOUT_UP_DOOR_TOOLTIP,Expand Stairwell up,1
+55965,HOUSING_LAYOUT_DOWN_DOOR_TOOLTIP,Expand Stairwell down,1
+55983,EXILESREACH_SKIP_CONFIRM,You will miss crucial information on how to play the game if you skip Exile's Reach.|n|nAre you sure?,1
+55996,RPE_ASSISTED_HIGHLIGHT_TURN_OFF,Turn Off,1
+55997,RPE_ASSISTED_HIGHLIGHT_KEEP_ON,Keep On,1
+55998,RPE_ASSISTED_HIGHLIGHT_ACTIVATED,|cnNORMAL_FONT_COLOR:Assisted Highlight has been turned on: recommended|nabilities will be highlighted on your action bars|r,1
+55999,RPE_ASSISTED_HIGHLIGHT_TURN_CHOICE,"Keep Assisted Highlight on?|n|n|cnNORMAL_FONT_COLOR:During the Catch Up Experience, Assisted Highlight was turned on. This enabled highlights that recommend the next ability to use from your action bars.|n|nWould you like to keep it on?|r You can change it in Options at any point.",1
+56041,HOUSING_DASHBOARD_HOUSEINFO_FRAMETITLE,Housing Dashboard,1
+56043,HOUSING_DASHBOARD_CATALOG_TOOLTIP,Decor Catalog,1
+56044,HOUSING_DASHBOARD_HOUSEINFO_TOOLTIP,House Information,1
+56053,ERR_CHARTER_SYSTEM_REQUEST_FAILED_GENERIC,An error has occurred with the Charter system. Try again later.,1
+56057,HOUSING_DECOR_DYE_NOT_ENOUGH_DYE,You do not own the required Dye,1
+56058,HOUSING_HOUSE_XP_ADDED_FORMAT,House XP increased by %d,1
+56059,HOUSING_CATALOG_FILTERS_FIRST_ACQUISITION,Collection Bonus,1
+56060,HOUSING_CATALOG_FILTERS_UNCOLLECTED,Uncollected,1
+56061,HOUSING_CATALOG_FILTERS_COLLECTED,Collected,1
+56062,HOUSING_DECOR_BUNDLE_DISCLAIMER,This item is also contained in one or more bundles,1
+56063,HOUSING_DECOR_PRICE_FORMAT,Price: %s,1
+56067,HOUSING_CATALOG_CATEGORY_PATH_FMT,%s | %s,1
+56072,RPE_SPELL_INTERRUPT,|cnNORMAL_FONT_COLOR:Shielded cast bars cannot be interrupted|r,1
+56090,HOUSING_PLACEMENT_COLLISION_ERROR_TITLE,Cannot be placed due to collision,1
+56091,HOUSING_PLACEMENT_COLLISION_ERROR_SUBTITLE,Press %s to ignore collision,1
+56092,HOUSING_PLACEMENT_OUTSIDE_PLOT_ERROR_TITLE,Cannot be placed outside of Plot,1
+56104,NPE_TAB_TARGETING,|cnNORMAL_FONT_COLOR:Target|r a nearby enemy,1
+56106,HOUSING_NEIGHBORHOOD_SETTINGS_COST,Cost: 1,1
+56107,CHAR_DELETE_FAILED_NEIGHBORHOOD_OWNER,This character is a Neighborhood Owner and cannot be deleted until the Neighborhood ownership is transferred to another character.,2
+56109,HOUSING_BUNDLE_CONTENTS_FORMAT,Contains: %s,1
+56110,HOUSING_BUNDLE_DECOR_ENTRY_FORMAT,%s x%d,1
+56111,HOUSING_BUNDLE_CLICK_TO_VIEW,Click to view contents,1
+56116,HOUSING_PLACEMENT_COLLISION_ERROR_HELPTIP,You can ignore collision when placing items by pressing %s,1
+56117,HOUSING_ITEM_TOAST_TYPE_DECOR,Decor,1
+56118,HOUSING_ITEM_TOAST_TYPE_ROOM,Room,1
+56119,HOUSING_ITEM_TOAST_TYPE_CUSTOMIZATION,Customization,1
+56120,HOUSING_ITEM_TOAST_TYPE_FIXTURE,Fixture,1
+56121,NEIGHBORHOOD_NAME_FORMAT,%1$s %2$s %3$s,1
+56152,HOUSING_CHEST_SORT_TYPE_DATE_ADDED,Date Added,1
+56153,HOUSING_CHEST_SORT_TYPE_ALPHABETICAL,Alphabetical,1
+56163,HOUSING_CATALOG_MODEL_PREVIEW_UNAVAILABLE,Preview unavailable,1
+56181,TRANSFER_ABORT_HOUSING_MAX_PLAYERS_IN_HOUSE,The House you are trying to visit has reached the maximum number of visitors. One or more players must exit the House before anyone new can visit.,1
+56183,RPE_NO_INTERRUPT_ACTION,Add an interrupt ability to your action bar from your Spellbook,1
+56190,ERR_HOUSING_RESULT_FIXTURE_CANT_DELETE_DOOR,House Exteriors must always have exactly one door,1
+56191,ERR_HOUSING_RESULT_FIXTURE_HOOK_EMPTY,Fixture node is already empty,1
+56192,ERR_HOUSING_RESULT_FIXTURE_HOOK_OCCUPIED,A Fixture is already attached to this node,1
+56193,ERR_HOUSING_RESULT_FIXTURE_HOUSE_TYPE_MISMATCH,Fixture doesn't match the current House Style,1
+56194,ERR_HOUSING_RESULT_FIXTURE_NOT_FOUND,Fixture not found,1
+56195,ERR_HOUSING_RESULT_FIXTURE_NOT_OWNED,You don't have that Fixture unlocked,1
+56196,ERR_HOUSING_RESULT_FIXTURE_SIZE_MISMATCH,Fixture's size doesn't match the current House Size,1
+56197,ERR_HOUSING_RESULT_FIXTURE_TYPE_MISMATCH,Wrong Fixture type for this node,1
+56198,ERR_HOUSING_RESULT_INVALID_DISTANCE,Too far away,1
+56199,ERR_HOUSING_RESULT_NOT_IN_FIXTURE_EDIT_MODE,You are not currently in Exterior Customization Mode,1
+56200,ERR_HOUSING_RESULT_DECOR_ITEM_NOT_DESTROYABLE,This Decor can't be deleted from your House Chest,1
 56209,TIMERUNNING_CONVERSION_DISABLED_TOOLTIP,Character conversion unavailable in this realm,2
+56210,CHAR_DELETE_FAILED_HOUSE_OWNER,This character owns a House and cannot be deleted,2
+56232,BINDING_NAME_HOUSING_BASICDECOR_ROTATELEFT,Rotate Decor Left,1
+56233,BINDING_NAME_HOUSING_BASICDECOR_ROTATERIGHT,Rotate Decor Right,1
+56234,HOUSING_BASIC_DECOR_ROTATE_RIGHT_INSTRUCTION,Rotate Right,1
+56235,HOUSING_BASIC_DECOR_ROTATE_LEFT_INSTRUCTION,Rotate Left,1
+56236,ERR_HOUSING_EXPERT_SUBMODE_RESTRICTION_NOT_IN_EXPERT,Must be in Advanced Mode,1
+56237,ERR_HOUSING_EXPERT_SUBMODE_RESTRICTION_HOUSE_EXTERIOR_SCALE,House can't be scaled,1
+56238,ERR_HOUSING_EXPERT_SUBMODE_RESTRICTION_WMO_SCALE,This Decor can't be scaled,1
+56244,HOUSING_DECOR_CUSTOMIZATION_THEME_LABEL_STAIRS,Stairs Style,1
+56247,HOUSING_DECOR_CUSTOMIZATION_WALLPAPER_LABEL_STAIRS,Stairs Material,1
+56251,HOUSING_DECOR_CUSTOMIZATION_LABEL_STAIRS,Stairs,1
+56255,HOUSING_DECOR_CUSTOMIZATION_OPTIONS_LABEL_CEILING,Customize Ceiling,1
+56256,HOUSING_DECOR_CUSTOMIZATION_OPTIONS_LABEL_WALL,Customize Wall,1
+56257,HOUSING_DECOR_CUSTOMIZATION_OPTIONS_LABEL_FLOOR,Customize Floor,1
+56258,HOUSING_DECOR_CUSTOMIZATION_OPTIONS_LABEL_STAIRS,Customize Stairs,1
+56259,HOUSING_LAYOUT_PREFAB_ROOM_TOOLTIP,Artisanal Room,1
+56268,HOUSING_SUBDIVISION_FORMAT,Subdivision %d,1
+56269,HOUSING_HOUSEFINDER_WRONG_FACTION,Your character is in the wrong faction to purchase a House in this Neighborhood,1
+56270,HOUSING_HOUSEFINDER_CHARTER_INVITE,You've been invited to this Charter Neighborhood,1
+56272,HOUSING_HOUSEFINDER_PARTY_LEADER,The party leader has reserved a House in this Neighborhood,1
+56273,HOUSING_HOUSEFINDER_CANCEL_INVITATION,Are you sure you want to decline your invitation to this Neighborhood?,1
+56274,HOUSING_HOUSEFINDER_CANCEL_INVITATION_CONFIRM,Decline,1
+56275,HOUSING_HOUSEFINDER_CANCEL_INVITATION_CANCEL,Cancel,1
+56306,HOUSING_CONTROLS_SETTINGS_UNAVAILABLE,House Settings are unavailable,1
+56307,HOUSING_CONTROLS_SETTINGS_UNAVAILABLE_FMT,House Settings are unavailable: %s,1
+56311,ERR_HOUSING_RESULT_CHARTER_COMPLETE,This Charter has already been completed,1
+56312,ERR_HOUSING_RESULT_DECOR_CANNOT_BE_REDEEMED,No redeemable instances of that Decor,1
+56314,ERR_HOUSING_RESULT_DECOR_NOT_FOUND_IN_STORAGE,Decor not found in House Chest,1
+56315,ERR_HOUSING_RESULT_DUPLICATE_CHARTER_SIGNATURE,Player has already signed another Neighborhood Charter,1
+56316,ERR_HOUSING_RESULT_GUILD_NOT_LOADED,Guild not loaded,1
+56317,ERR_HOUSING_RESULT_HOUSE_EXTERIOR_ROOT_NOT_FOUND,Failed to find the root of the House's Exterior,1
+56318,ERR_HOUSING_RESULT_HOOK_NOT_CHILD_OF_FIXTURE,Incorrect parent Fixture for node,1
+56320,ERR_HOUSING_RESULT_INVALID_HOUSE,Invalid House,1
+56321,ERR_HOUSING_RESULT_INVALID_INSTANCE,Invalid instance,1
+56322,ERR_HOUSING_RESULT_INVALID_MAP,Invalid map,1
+56323,ERR_HOUSING_RESULT_MISSING_CORE_FIXTURE,Exterior is missing a Base or Roof,1
+56324,ERR_HOUSING_RESULT_MISSING_DYE,Missing Dye,1
+56325,ERR_HOUSING_RESULT_MISSING_EXPANSION_ACCESS,Missing required expansion,1
+56326,ERR_HOUSING_RESULT_MISSING_FACTION_MAP,Failed to find map for faction,1
+56327,ERR_HOUSING_RESULT_MISSING_PRIVATE_NEIGHBORHOOD_INVITE,Missing Neighborhood invite,1
+56328,ERR_HOUSING_RESULT_MORE_SIGNATURES_NEEDED,More signatures needed,1
+56329,ERR_HOUSING_RESULT_PLAYER_NOT_IN_INSTANCE,Player not in instance,1
+56330,ERR_HOUSING_RESULT_PLOT_NOT_VACANT,Plot not vacant,1
+56331,ERR_HOUSING_RESULT_PLOT_RESERVATION_COOLDOWN,Plot reservation is on cooldown,1
+56332,ERR_HOUSING_RESULT_PLOT_RESERVED,Plot is already reserved,1
+56333,ERR_HOUSING_RESULT_TIMERUNNING_NOT_ALLOWED,Timerunning characters not allowed,1
+56334,ERR_HOUSING_RESULT_TOO_MANY_REQUESTS,Too many requests,1
+56335,HOUSING_CATALOG_STORAGE_LIMIT_TOOLTIP_TOTALOWNED,(Total Decor Owned: %d),1
+56336,HOUSING_CATALOG_STORAGE_LIMIT_TOOLTIP_TITLE,Storage: %d/%d,1
+56337,HOUSING_CATALOG_STORAGE_LIMIT_FMT,%d/%d,1
+56338,HOUSING_CATALOG_STORAGE_LIMIT_TOOLTIP_TITLE_OVER_LIMIT,Storage: |cnRED_FONT_COLOR:%d|r/%d,1
+56339,HOUSING_CATALOG_STORAGE_LIMIT_FMT_OVER_LIMIT,|cnRED_FONT_COLOR:%d|r/%d,1
+56340,HOUSING_DECOR_BUDGET_TOOLTIP_INDOOR,Placed Decor: %d/%d |cnNORMAL_FONT_COLOR:|nLevel up your House to increase your Placement Budget.|r,1
+56341,HOUSING_DECOR_BUDGET_TOOLTIP_OUTDOOR,Placed Decor: %d/%d,1
+56343,HOUSING_DECOR_CUSTOMIZATION_DYE_SLOT_TOOLTIP,|cnGREEN_FONT_COLOR:Click to select or remove a Dye|r,1
+56344,HOUSING_DECOR_CUSTOMIZATION_THEME_APPLY_ALL_TOOLTIP,Apply currently selected style to entire Room.,1
+56345,HOUSING_DECOR_CUSTOMIZATION_WALLPAPER_APPLY_ALL_TOOLTIP,Apply currently selected material to all Walls in the Room.,1
+56346,HOUSING_LAYOUT_NUM_ROOMS_ERROR_TOOLTIP, |cnNORMAL_FONT_COLOR:|nRoom Placement Budget: %d/%d|nIncrease the amount of Rooms you can place by leveling your House.|r,1
+56347,ERR_HOUSING_LAYOUT_RESTRICTION_ROOM_ABOVE,There is already a Room above this one,1
+56348,ERR_HOUSING_LAYOUT_RESTRICTION_ROOM_BELOW,There is already a Room below this one,1
+56349,HOUSING_LAYOUT_STAIRWELL_ROOM_TOOLTIP,Stairwell Rooms can stack.,1
+56350,HOUSING_ROOM_PLACEMENT_COST_FORMAT,|A:house-room-limit-icon:21:21|a %d,1
+56351,HOUSING_DECOR_CUSTOMIZATION_HOUSE_EXTERIOR_TOOLTIP,Use the House Exterior Editor to customize your House,1
+56352,HOUSING_CLEANUP_HOUSE_EXTERIOR_TOOLTIP,Cannot remove House,1
+56353,HOUSE_EDITOR_PLACED_DECOR_LIST_HEADER,Placed Decor,1
+56354,HOUSE_EDITOR_PLACED_DECOR_LIST_REMOVE,Remove Decor,1
+56355,HOUSE_EDITOR_PLACED_DECOR_LIST_TOOLTIP,Placed Decor List,1
+56356,HOUSING_CONTROLS_COMING_SOON,|cnNORMAL_FONT_COLOR:Coming Soon!|r,1
+56357,BINDING_NAME_HOUSING_LAYOUTFLOOR_UP,Move Up a Floor,1
+56358,BINDING_NAME_HOUSING_LAYOUTFLOOR_DOWN,Move Down a Floor,1
+56359,HOUSING_CONTROLS_SETTINGS_TOOLTIP,Settings and Permissions,1
 56366,BLIZZARD_STORE_VAS_ERROR_TIMERUNNER_NOT_ALLOWED,- Currently not available for timerunner characters.,3
-57070,CATALOG_SHOP_WOW_FLAVOR_TRR,Titan Reforged Realm,3
+56582,HOUSING_MARKET_TAB_UNAVAILABLE_TEXT,Catalog Preview Mode is not currently available.,1
+56589,BINDING_NAME_HOUSING_REMOVEDECOR,Remove Decor,1
+56597,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_RED,Crimson,1
+56598,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_GREEN,Forest,1
+56599,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_PURPLE,Violet,1
+56600,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_ORANGE,Rust,1
+56601,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_BLUE,Ocean,1
+56603,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_YELLOW,Mustard,1
+56604,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_BROWN,Nutmeg,1
+56628,HOUSING_DECOR_PLACEMENT_COST_TOOLTIP,Decor Placement Cost |cnNORMAL_FONT_COLOR:|nHow much of the Decor Placement Budget this Decor costs to place|r,1
+56644,ERROR_SCRIPT_EXECUTION_HALT,Error reporting is now paused and will resume after reloading the UI.,3
+56645,ERROR_SCRIPT_EXECUTION_LIMIT,"Script from ""%s"" has exceeded its execution time limit.",3
+56653,HOUSING_DECOR_OWNED_ICON_FMT,|A:house-chest-icon:16:16|a %d,1
+56654,HOUSING_DECOR_OWNED_ICON_TOOLTIP,"Placed: %d, Storage: %d",1
+56688,HOUSING_DECOR_FIRST_ACQUISITION_AVAILABLE,|cnLIGHTBLUE_FONT_COLOR:First-Time Collection Bonus Available|r,1
+56733,HOUSEFINDER_AVAILABLE,Available,1
+56734,HOUSEFINDER_FRIEND,Friend,1
+56736,HOUSING_ADVANCED_MODE_TUTORIAL_TEXT,"Advanced Mode gives you additional control over Decor using Move, Rotate, and Scale.",1
+56737,HOUSING_CLEANUP_MODE_TUTORIAL_TEXT,Cleanup Mode lets you remove multiple Decor quickly from you House.,1
+56738,HOUSING_MODES_TUTORIAL_TEXT,There are multiple different Modes you can use to decorate your House however you want!,1
+56739,HOUSING_LAYOUT_MODE_STAIRS_TUTORIAL_TEXT,"Adding a Stairwell Room will create additional floors, which you can navigate here!",1
+56743,CATALOG_SHOP_DYNAMIC_BUNDLE_DISCOUNT,Includes discounts for items already owned.,3
+56744,BINDING_NAME_HOUSING_EXPERTDECORROTATION_NEXTAXIS,Switch to next rotation axis,1
+56745,ERR_GUILD_NEIGHBORHOOD_BUILT_HOUSE_S,%s has built a House!,1
+56746,ERR_GUILD_NEIGHBORHOOD_SOLD_HOUSE_S,%s has left the Neighborhood.,1
+56747,ERR_GUILD_NEIGHBORHOOD_NEW_SUBDIVISION,Your Guild Neighborhood has gained a new Subdivision!,1
+56748,ERR_GUILD_NEIGHBORHOOD_RENAME_S,Your Guild Neighborhood has been renamed to %s,1
+56750,CATALOG_SHOP_TOPUPFLOW_PURCHASE,Purchase Total: %s,3
+56783,HOUSING_DASHBOARD_NEIGHBORHOOD_FAVOR_TOOLTIP,"|n|cff20ff20House XP is earned by completing Endeavors, Endeavor tasks, and collecting Decor of Uncommon or better rarity for the first time|r",1
+56823,HOUSING_CATALOG_STORAGE_LIMIT_TOOLTIP_DETAILS,"Some Decor, such as items from the Shop, will not count towards your storage limit.",1
+56881,REPORTING_REPORT_SCREENSHOT_BUTTON,Take Screenshot,1
+56975,HOUSING_EXPERT_DECOR_ROTATE_SNAP_INSTRUCTION,Snap Rotation Angle,1
+56976,HOUSING_EXPERT_DECOR_SCALE_SNAP_INSTRUCTION,Snap Scale Amount,1
+56977,HOUSING_EXPERT_DECOR_ROTATION_NEXTAXIS_INSTRUCTION,Next Axis,1
