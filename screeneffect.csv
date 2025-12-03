@@ -755,7 +755,7 @@ ID,Name,Param[0],Param[1],Param[2],Param[3],Effect,FullScreenEffectID,LightParam
 1720,Toy - Time of Day - Midnight,1412466,40000,40000,0,6,0,0,3000,3000,0,0,0,8,0
 1722,9.0 NPE - Training - Light Fog - (STM),0,0,0,0,5,0,2261,4000,2000,0,0,-1,2,0
 1723,9.0 NPE - Medium Fog - (STM),0,0,0,0,0,0,4590,10000,10000,0,0,540,10,1
-1724,9.0 NPE - Heavy Fog - (STM),0,0,0,0,0,0,4594,0,0,2223,0,1110,-1,1
+1724,9.0 NPE - Heavy Fog - (STM),0,0,0,0,0,0,4594,2000,0,2223,0,1110,-1,0
 1725,8.3 Visions of N'Zoth - Sanity - Evacuation Protocol - EZ,0,2000,2000,3,4,0,0,0,0,0,0,-1,1,0
 1726,8.2 Nazjatar Raid - Azhsara - RP Scene 16 - Player Teleports to Azshara,0,3000,1000,1,4,0,0,0,0,0,0,-1,1,0
 1727,8.3 Visions of N'zoth - Prototype - Sanity - Madness Effect - Health to 1 2. Periodic,0,1,0,1,3,0,4322,1000,1000,462,0,0,14,0
@@ -1215,6 +1215,7 @@ ID,Name,Param[0],Param[1],Param[2],Param[3],Effect,FullScreenEffectID,LightParam
 2257,Generic - Red Swirling Fog,-1507328,5,80,0,3,0,0,1,1,0,0,-1,-1,0
 2258,"Generic - Blackout (.2 fade in, .5 fade out)",-16777216,200,500,0,4,0,0,0,0,0,0,-1,-1,0
 2259,11.0 Raid - Nerubian - Ethereal - Eternal Night - AD,4693144,3500,1000,0,6,0,0,0,0,0,0,-1,1,0
+2261,11.2.7 Campaign - Act 1 - Oztan Isle - Combat Phase - Skybox - Void + Music (ELM),0,0,0,0,0,0,4776,1000,3000,0,3236,-1,6,1
 2264,World - Area Denial - Generic - Sonic,0,0,0,0,8,233,0,0,0,0,0,-1,1,0
 2266,11.0.5 Raid - Blackrock Depths - BOSS 02 - Bael'Gar - Molten Furnace 3. Screen Effect - Molten Furnace Safety,0,0,0,0,8,149,0,100,100,0,0,-1,1,0
 2267,11.2 K'aresh - Treasure - Complex 01 - Flickering Lantern (HCR),7842,5,1,0,3,0,3990,3000,3000,0,0,-1,2,0
@@ -1240,11 +1241,15 @@ ID,Name,Param[0],Param[1],Param[2],Param[3],Effect,FullScreenEffectID,LightParam
 2306,11.2 K'aresh - World Boss - Voidstorm,4723323,1250,1250,0,6,0,6640,1250,1250,1717,0,0,2,1
 2326,11.2 Raid - Manaforge - Boss - Salhadaar - Starkiller Burst - AD,4723323,0,1000,0,6,0,0,0,0,0,0,-1,1,0
 2330,11.2 K'aresh - Phase Diving - Outdoor Aura - Effect (MDE)(AKG),0,0,0,0,8,247,6695,1000,1000,0,2564,-1,7,0
+2335,11.2.7 Housing - Sound - Amirdrassil,0,0,0,0,0,0,0,0,0,2638,0,-1,4,0
+2337,11.2.7 Housing - Sound - Grizzly Hills,0,0,0,0,0,0,0,0,0,437,0,-1,4,0
+2338,11.2.7 Housing - Sound - Elwynn Forest,0,0,0,0,0,0,0,0,0,2958,0,-1,4,0
 2339,11.2 - PhaseDiving - FullscreenEffect,0,0,0,0,8,247,6695,0,0,0,0,-1,3,0
 2341,11.2 - Screen Effect - Dimensius - Cosmic Void,0,0,0,0,8,248,0,0,0,0,0,-1,1,0
 2342,11.2.5 Remix - Legion - World Tier Change - Fel Transition,0,0,0,1,8,249,0,0,0,0,0,-1,-1,0
 2343,11.2.5 Remix - Legion - World Tier Change - Green Fade Out/In,555786,0,500,1,4,0,0,0,0,0,0,-1,-1,0
 2344,11.2.5 Remix - Legion - Heroic World Tier Skybox,0,0,0,0,0,0,6876,0,0,0,0,-1,2,1
+2345,Generic - Fade to White - .5/3 sec,-1,500,3000,0,4,0,0,0,0,0,0,-1,1,0
 2346,11.2 Raid - Manaforge - Boss - Salhadaar - Banished - AD,5708241,200,50,0,2,0,8,500,500,0,0,-1,3,0
 2354,11.2.5 Remix - Legion - Skybox - Default,0,0,100,0,3,0,2675,0,0,1495,3227,-1,6,1
 2355,11.2.5 Remix - Legion - Heroic World Tier - WIP Nether Fog,-16760571,1000,50,0,2,0,0,0,0,0,0,-1,1,0
@@ -1256,3 +1261,7 @@ ID,Name,Param[0],Param[1],Param[2],Param[3],Effect,FullScreenEffectID,LightParam
 2374,11.2 Raid - Manaforge - Hunters - Orb 05 Denial Debuff - TJA,0,0,0,0,8,189,0,0,0,3102,0,-1,1,0
 2378,11.2 Raid - Manaforge - Hunters - Achievement 02 Aura - TJA,0,0,0,0,8,178,0,0,0,3128,0,-1,5,0
 2379,11.2 Raid - Manaforge - Hunters - Void - Collapsing Star 08 Middle Debuff - TJA,0,0,0,0,8,189,0,0,0,3129,0,-1,5,0
+2415,Flash To & From Gray - IGC,-8026747,5,5,0,4,0,0,0,0,0,0,-1,1,0
+2417,11.2.7 [VXV] Vereesa Vision Fullscreen - SJD - IGC,0,0,0,0,8,257,5567,0,0,0,0,60,1,0
+2418,Fight Club - Dark Summoner - Area Trigger to Apply Watching Aura,-16777216,2,0,0,3,0,0,0,0,633,0,-1,-1,0
+2425,11.2.7 Secret - Puzzle 12 - Darkness,-16777216,30,0,0,2,0,0,0,0,0,0,-1,1,0

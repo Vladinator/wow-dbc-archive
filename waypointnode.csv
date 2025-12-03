@@ -1,7 +1,7 @@
 ID,Name_lang,SafeLocID,PlayerConditionID,Flags,Field_8_2_0_30080_005,Field_8_2_0_30080_006,WaypointMapVolumeID
 6,Take the portal from Wizard's Sanctum to Jade Forest,7262,67395,68,1,10,0
 7,"Wizard's Sanctum, Portal to Jade Forest",7263,123820,0,2,0,0
-8,Exit the Wizard's Sanctum,7264,20068,68,0,30,0
+8,Exit the Wizard's Sanctum,7264,20068,100,0,30,0
 9,Enter the Wizard's Sanctum,7266,924,0,0,0,0
 10,Take the portal from Eastern Earthshrine to Uldum,7267,37426,0,1,0,0
 11,Take the portal from Eastern Earthshrine to Mount Hyjal,7268,37427,0,1,0,0
@@ -197,7 +197,7 @@ ID,Name_lang,SafeLocID,PlayerConditionID,Flags,Field_8_2_0_30080_005,Field_8_2_0
 205,Take the portal from Wizard's Sanctum to Caverns of Time,7659,123820,68,1,10,0
 207,Caverns of Time,7655,0,16,2,0,0
 208,Take the portal from Caverns of Time to Stormwind,7658,130571,0,1,0,0
-209,Take the portal from Stormwind to Darnassus,7660,123820,0,1,0,0
+209,Take the portal from Stormwind to Darnassus,7660,127988,0,1,0,0
 210,Take the portal from Rut'theran Village to Stormwind,7661,123820,0,1,0,0
 211,"Darkshore, Portal to Darnassus",7662,123820,0,2,0,0
 212,Take the portal from Pathfinder's Den to Zuldazar,7676,67389,1,1,0,0
@@ -442,7 +442,11 @@ ID,Name_lang,SafeLocID,PlayerConditionID,Flags,Field_8_2_0_30080_005,Field_8_2_0
 461,Take the Mole Machine from Gundargaz to the Siren Isle,10404,0,0,1,0,0
 462,Mole Machine to Siren Isle,10405,0,0,2,0,0
 463,Ride Mishi to the Crucible of Storms,10423,131411,0,1,0,0
+464,Take the waygate from K'aresh to the Maw,10424,131391,0,1,0,0
 465,Ride Mishi to the Crucible of Storms,10425,131411,0,2,0,0
+466,Exit to the Maw,10426,131391,0,2,0,0
+467,Take the waygate from the Maw to K'aresh,10428,131391,0,1,0,0
+468,Exit to K'aresh,10429,131391,0,2,0,0
 469,Take the portal to Dornogal,10433,0,0,1,0,0
 470,Exit to Dornogal,10434,0,0,2,0,0
 471,Take the Spatial Rift to K'aresh,10432,0,0,1,0,0
@@ -489,3 +493,22 @@ ID,Name_lang,SafeLocID,PlayerConditionID,Flags,Field_8_2_0_30080_005,Field_8_2_0
 518,Use the Navigation Console to traverse Argus,10941,51650,0,0,0,0
 519,Krokul Hovel,10942,51680,0,2,0,0
 520,Use the Lightforged Beacon at Krokul Hovel,10942,51680,0,1,0,0
+521,Take the portal from the Heart of Azeroth to Deepholm,10971,40074,16,1,0,0
+522,Deepholm,10972,40074,16,2,0,0
+523,Take the portal from Dalaran to the Heart of Azeroth,10973,40923,16,1,0,0
+524,Take the portal from the Heart of Azeroth to Dalaran,10974,40074,16,1,0,0
+531,Take the portal to Dalaran,10984,40847,0,1,0,0
+532,Dalaran,10985,40847,0,2,0,0
+533,Take the portal from Stormwind to Founder's Point,8018,49081,68,1,10,0
+535,Take the portal from Wizard's Sanctum to Founder's Point,10997,34450,68,1,10,8
+536,"Wizard's Sanctum, Portal to Founder's Point",10998,34450,0,2,0,0
+537,Portal to Razorwind Shores,11000,34450,0,2,0,0
+538,Take the portal from Orgrimmar to Razorwind Shores,11001,34450,0,1,0,0
+539,Portal from Dalaran to the Fel Hammer,11002,40917,16,1,0,0
+540,Portal to the Fel Hammer,11003,40917,16,2,0,0
+541,Portal to the Heart of Azeroth,10974,40923,16,2,0,0
+542,Portal to Dalaran,10974,40923,16,2,0,0
+543,Leap into Skyhold from Krasus' Landing,11007,40922,16,1,0,0
+544,Skyhold,11008,40922,16,2,0,0
+545,Speak with Aerylia to leap down to Dalaran from Skyhold,11009,37177,16,1,0,0
+546,Dalaran,11010,37177,16,2,0,0

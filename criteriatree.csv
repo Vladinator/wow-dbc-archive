@@ -752,7 +752,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 877,Heroic Underbog,863,0,0,4026,4,0
 878,Heroic The Escape From Durnholde,863,0,0,4028,6,0
 879,Heroic Sethekk Halls,863,0,0,4029,7,0
-881,Win Arathi Basin with a score of 1600 to 0.,0,1,8,0,0,8192
+881,Win Arathi Basin with a score of 1500 to 0.,0,1,8,0,0,8192
 882,Arathi Basin Shutout,881,1,0,611,0,2
 884,Total 25-player raids entered,0,0,4,0,0,0
 885,25-man raids run,884,0,0,4989,1,0
@@ -91782,7 +91782,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 157245,11.0 Delves - Kobyss01 - V03 - Speak with the Arathi Priest (STM),0,0,4,0,0,0
 157246,Speak with Raen Dawncavalyr,157245,0,0,66759,0,32
 157247,11.0 Z3 - Endgame Campaign - Finale - Quest 06 - Scenario - SJC,0,0,4,0,0,4096
-157248,,157247,0,0,66760,0,0
+157248,,157247,1,0,66760,0,0
 157249,11.0 Z5 - Level Up - Ch 3 - Q04 - SCENARIO - STEP 0 - Begin Scenario Actions (JSS),0,0,4,0,0,8194
 157250,,157249,1,0,66761,0,0
 157251,Talk to Speaker Kuldas,0,0,4,0,0,0
@@ -98324,6 +98324,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 167912,,167911,0,0,69832,0,0
 167913,Successfully complete 25 puzzles within a delve.,0,25,4,0,0,0
 167914,,167913,25,0,69832,0,1
+167915,End day one of the prototype,0,0,4,0,0,0
+167916,End Day One of the prototype using the Town Clock,167915,1,0,69833,0,0
 167917,11.0.5 20th Anniversary - AQ Scenario - DRB - On The Move - HiveAshi to Floating (DRB),0,0,4,0,0,0
 167918,Follow Chromie,167917,1,0,69834,0,32
 167919,11.0.5 20th Anniversary - AQ Scenario - DRB - On The Move - Floating to Twilight (DRB),0,0,4,0,0,0
@@ -98362,6 +98364,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 167971,The Loud and Smelly Case,167967,0,0,69853,2,16
 167974,11.0 Raid - Nerubian - Ethereal - Achievement - AD,0,0,4,0,0,0
 167975,Maintain Ky'veza's Kill Streak.,167974,1,0,69856,0,0
+167976,Neighborhood Prototype Day 4 End,0,0,4,0,0,0
+167977,End Day Four of the prototype using the Town Clock,167976,1,0,69833,0,0
 167978,Maximum friendship with Weaver.,0,1,4,0,0,8208
 167979,The Weaver,167978,20000,0,70876,0,0
 167980,Maximum friendship with General.,0,1,4,0,0,8208
@@ -98510,6 +98514,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 168128,Shadow Barriers dispelled,168127,3,0,66015,0,32
 168129,Is Dracthyr For Soar Wingman,0,0,4,0,0,0
 168130,,168129,0,0,69934,0,2
+168131,Meerah - Buddy,0,0,4,0,0,0
+168132,,168131,1000,0,69935,0,0
 168133,,157611,1,0,69937,1,2
 168134,,151838,1,0,69938,1,2
 168135,,151836,1,0,69939,1,2
@@ -98561,6 +98567,10 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 168185,,168184,1,0,69951,0,0
 168186,Don't Call Me Junior (Alliance) (DNT) (Character specific copy),0,1,4,0,0,0
 168187,Master Relic Hunter,168186,1,0,69952,0,0
+168188,Neighborhood Prototype Day 6 End,0,0,4,0,0,0
+168189,End Day Six of the prototype using the Town Clock,168188,1,0,69833,0,0
+168190,Neighborhood Prototype Day 11 End,0,0,4,0,0,0
+168191,End Day Eleven of the prototype using the Town Clock,168190,1,0,69833,0,0
 168192,11.0.5 20th Anniversary - AQ Scenario - DRB - On The Move - Southwind to Floating (DRB),0,0,4,0,0,0
 168193,Follow Chromie,168192,1,0,69953,0,32
 168194,Earthen Unlockable,0,1,4,0,0,0
@@ -98607,10 +98617,56 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 168242,,168241,1,0,69975,0,0
 168245,11.1 Undermine - Rare 20 - Complex Rare 05 - Darkfuse - Bonus Objective (KNF),0,0,4,0,0,4096
 168246,,168245,1,0,69976,0,0
+168247,Accept Prototyler's Terms & Conditions,0,0,4,0,0,0
+168248,Read and accept the Prototype Preamble,168247,1,0,69977,0,0
+168249,"Use the ""Place Retainer - Dog"" ability to place your pet on the lawn",0,0,4,0,0,0
+168250,"Use the ""Place Retainer - Dog"" ability on your lawn",168249,1,0,69978,0,0
+168251,"Accept the quest ""Welcome to the Neighborhood"" from your mailbox",0,0,4,0,0,0
+168252,Accept the quest from your mailbox,168251,1,0,69979,0,0
+168253,"Complete the quest ""Welcome to the Neighborhood""",0,0,4,0,0,0
+168254,Speak with Llyssabel Dawnpetal in the town square,168253,1,0,69980,0,0
+168255,Speak with Koal Brewington in Roasts & Boasts,0,0,4,0,0,0
+168256,Speak with Koal Brewington in Roasts & Boasts,168255,1,0,69981,0,0
+168257,Neighborhood Prototype - Check Mail,0,0,4,0,0,0
+168258,Check your mailbox,168257,1,0,69986,0,0
 168259,[DNT] RR - 0,0,0,4,0,0,8194
 168260,,168259,0,0,69987,0,0
 168261,[DNT] RR - 5,0,0,4,0,0,8194
 168262,,168261,0,0,69988,0,0
+168263,Talk to Meerah,0,0,4,0,0,0
+168264,Speak with Meerah in the town square,168263,1,0,69989,0,0
+168265,Buy Beans from Meerah,0,0,4,0,0,0
+168266,Buy coffe beans from Meerah,168265,1,0,69990,0,0
+168267,Donate Beans Part 1,0,0,4,0,0,0
+168268,Donate coffee beans to Roasts & Boasts,168267,1,0,69991,0,0
+168269,Check out upgraded Roasts & Boasts,0,0,4,0,0,0
+168270,Speak with Koal Brewington at Roasts & Boasts,168269,1,0,69992,0,0
+168271,Say hi to Flynn,0,0,4,0,0,0
+168272,Speak with Flynn Fairwind,168271,1,0,69993,0,0
+168273,Check out fixed stage,0,0,4,0,0,0
+168274,Check out Roasts & Boasts stage,168273,1,0,69994,0,0
+168275,Say hi to Lillistrasza,0,0,4,0,0,0
+168276,Speak with Lillistrasza and accept her quest,168275,1,0,69995,0,0
+168277,Buy more beans,0,0,4,0,0,0
+168278,Buy coffee beans from Meerah,168277,1,0,69990,0,0
+168279,Dance with Lilli,0,0,4,0,0,0
+168280,Target Lillistrasza on stage and dance,168279,1,0,69997,0,0
+168281,Day 11 - Head into Town,0,0,4,0,0,0
+168282,Head into the town square,168281,1,0,69998,0,0
+168283,Interact with Dot,0,0,4,0,0,0
+168284,Speak with Dot the alpaca,168283,1,0,69999,0,0
+168285,Find Meerah,0,0,4,0,0,0
+168286,Find Meerah and speak with her,168285,1,0,70000,0,0
+168287,Meerah needs a favor,0,0,4,0,0,0
+168288,Agree to Meerah's favor,168287,1,0,70001,0,0
+168289,Contribute Cofee Bags,0,0,4,0,0,0
+168290,Find and return some of Meerah's coffee bean bags,168289,1,0,70002,0,0
+168291,Check Bulletin Board,0,0,4,0,0,0
+168292,Check the bulletin board,168291,1,0,70003,0,0
+168293,Check out party,0,0,4,0,0,0
+168294,Check on the brithday party at Roasts & Boasts,168293,1,0,70004,0,0
+168295,Drop off a present,0,0,4,0,0,0
+168296,Drop off a gift for Selenia at the present table,168295,1,0,70005,0,0
 168297,11.0.5 20th Anniversary - The Codex of Chromie - Turning the Cover (DRB),0,0,4,0,0,0
 168298,Speak to Chromie,168297,1,0,70006,0,32
 168304,11.0 Z3 - Achievements - Hallowfall Arathi Max Renown,0,0,4,0,0,0
@@ -99206,6 +99262,10 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 169022,,169002,7,0,70537,22,0
 169023,,169002,7,0,70538,23,0
 169024,,169002,7,0,70539,24,0
+169025,Wicked Woodpeckers,0,0,4,0,0,0
+169026,Woodpeckers defeated,169025,20,0,70540,0,0
+169027,Termite Trouble,0,0,4,0,0,0
+169028,Termites crushed,169027,100,0,70541,0,0
 169029,Votes earned,0,1,5,0,0,8193
 169030,,169029,0,0,70542,0,0
 169031,Votes earned,0,10,5,0,0,8193
@@ -99284,6 +99344,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 169108,Ambassador Flamelash,169097,1,0,70580,10,0
 169109,Pyromancer Loregrain,169097,1,0,70581,11,0
 169110,Emperor Dagran Thaurissan,169097,1,0,70435,12,0
+169111,Wake the Workers,0,0,4,0,0,0
+169112,Woodcutters awakened,169111,20,0,70594,0,0
 169115,11.0 Z1 - Delves - Delver's Call - Nightfall Sanctum - (STM),0,0,4,0,0,4096
 169116,,169115,0,0,70596,0,0
 169117,"11.0 Z1 - Delves - Delver's Call - Spiral Weave, In Delve  - (STM)",0,0,4,0,0,4096
@@ -100413,6 +100475,10 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 170370,Trash Pile,170367,1,0,71283,1,0
 170371,Storage Crate,170367,1,0,71284,4,0
 170372,Tool Rack,170367,1,0,71285,3,0
+170373,"Complete quest ""Blade in Twillight""",0,0,4,0,0,4096
+170374,,170373,1,0,71288,0,0
+170375,"Complete quest ""Blade in Twillight""",0,0,4,0,0,4096
+170376,,170375,1,0,71289,0,0
 170377,Experience life in Azj-Kahet by completing the achievements below.,0,0,4,0,0,0
 170378,,170377,1,0,71290,0,32
 170379,,170377,1,0,71291,1,32
@@ -100598,14 +100664,14 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 170604,Benk Buzzbee,136359,1,0,71436,12,0
 170605,Speaker Shadowcrown,136359,1,0,71437,13,0
 170606,Prioress Murrpray,136359,1,0,71438,14,0
-170607,Benk Buzzbee,149883,1,0,71436,11,0
-170608,Prioress Murrpray,149883,1,0,71438,12,0
+170607,Benk Buzzbee,149883,1,0,71436,12,0
+170608,Prioress Murrpray,149883,1,0,71438,14,0
 170609,Speaker Shadowcrown,149883,1,0,71437,13,0
-170610,Sikran,149883,1,0,71435,14,0
-170611,Benk Buzzbee,149897,1,0,71436,11,0
-170612,Prioress Murrpray,149897,1,0,71438,12,0
+170610,Sikran,149883,1,0,71435,11,0
+170611,Benk Buzzbee,149897,1,0,71436,12,0
+170612,Prioress Murrpray,149897,1,0,71438,14,0
 170613,Speaker Shadowcrown,149897,1,0,71437,13,0
-170614,Sikran,149897,1,0,71435,14,0
+170614,Sikran,149897,1,0,71435,11,0
 170615,,149911,0,0,71439,1,0
 170616,Skyrider Racing world quests completed,0,4,5,0,0,8193
 170617,,170616,0,0,60079,0,0
@@ -101902,6 +101968,20 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 207093,,207033,0,0,103212,11,0
 207094,,207033,0,0,103218,12,0
 207097,,207033,0,0,103211,15,0
+207101,Kill Task,0,0,4,0,0,0
+207102,Kill Task,207101,100,0,103230,0,0
+207103,Collect Bubble Poppy,0,0,4,0,0,4096
+207104,,207103,1,0,103231,0,0
+207108,NI - Desolace - Kills (RPS),0,0,4,0,0,4113
+207109,Desolace Kills,207108,2,0,103234,0,17
+207110,NI - Desolace - Quests (RPS),0,0,4,0,0,4096
+207111,Desolace Quests,207110,10,0,103235,0,0
+207112,NI - Desolace - PVP (RPS),0,0,4,0,0,4096
+207113,Desolace PVP,207112,10,0,103236,0,0
+207114,NI - Desolace - Bosses (RPS),0,0,4,0,0,4097
+207115,Desolace Bosses,207114,1,0,103237,0,0
+207116,NI - Desolace - Pet Battles (RPS),0,0,4,0,0,4098
+207117,Desolace Pet Battles,207116,10,0,103238,0,2
 207118,,168524,639,0,67017,2,0
 207119,Reach 636 in Every Slot in The War Within Season 1,168522,1,4,0,1,0
 207121,,207119,636,0,103239,0,0
@@ -102555,6 +102635,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 208182,Defeat Thrall the Corrupted,208181,1,0,44866,0,0
 208183,11.1.5 Visions - Orgrimmar - Scenario Complete,0,0,4,0,0,0
 208184,Collect Reward and exit vision,208183,1,0,47101,0,0
+208185,Neighborhood Charter Signatures,0,0,4,0,0,6144
 208192,Statistic: Weathered Undermine Crests earned,0,0,4,0,0,0
 208193,,208192,0,0,103873,0,0
 208194,Statistic: Carved Undermine Crests earned,0,0,4,0,0,0
@@ -102708,6 +102789,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 208401,Complete the Rise of the Red Dawn storyline.,208400,0,0,103981,0,0
 208402,11.1.7 Faerin - Complete Faerin Chain Horde (JDS),0,1,4,0,0,32
 208403,Complete the Rise of the Red Dawn storyline.,208402,0,0,103981,0,0
+208404,,208185,1,0,103982,0,0
+208414,Neighborhood Created,0,0,4,0,0,4096
+208415,,208414,1,0,103984,0,0
 208416,[DNT] Maw of Souls Mythic Difficulty,0,1,8,0,0,4096
 208417,,208416,0,0,103985,0,0
 208418,,208416,0,0,103986,1,0
@@ -103637,17 +103721,15 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 209553,,209548,1,0,104521,4,32
 209554,,209548,1,0,104512,5,32
 209555,,209548,1,0,104586,6,32
-209556,,209548,1,0,70200,7,32
-209557,,209548,1,0,41310,8,32
-209558,,209548,1,0,70201,9,32
-209559,,209548,1,0,70202,10,32
-209560,,209548,1,0,70203,11,32
-209561,,209548,1,0,70204,12,32
-209562,,209548,1,0,70205,13,32
-209563,,209548,1,0,70206,14,32
-209564,,209548,1,0,70207,15,32
-209565,,209548,1,0,71298,16,32
-209566,,209548,1,0,71299,17,32
+209556,,209548,1,0,109712,10,32
+209558,,209548,1,0,109713,12,32
+209559,,209548,1,0,109714,11,32
+209560,,209548,1,0,109715,9,32
+209561,,209548,1,0,109720,8,32
+209562,,209548,1,0,35259,7,32
+209563,,209548,1,0,109722,14,32
+209564,,209548,1,0,109724,13,32
+209566,,209548,1,0,109716,15,32
 209567,Defeat the bosses of The Emerald Nightmare on Normal difficulty or higher,0,0,4,0,0,0
 209568,,209567,1,0,104503,0,32
 209569,,209567,1,0,104504,1,32
@@ -103728,6 +103810,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 209749,,209746,1,0,104655,2,0
 209750,,209746,1,0,104656,3,0
 209751,,209746,1,0,104657,4,0
+209771,"Complete ""A Tradition""",0,0,4,0,0,0
+209772,,209771,1,0,104672,0,0
 209773,Add a Combat Curio to your collection,0,1,8,0,0,4096
 209774,Combat 1 - Rank 1,209773,1,0,104729,0,0
 209775,Combat 1 - Rank 2,209773,0,0,104730,1,0
@@ -104203,6 +104287,10 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 210427,Unnamed Branch,46885,0,4,0,0,16
 210428,Unnamed Branch,46885,0,4,0,1,16
 210429,Unnamed Branch,46885,0,4,0,2,16
+210430,"Proud owner of the 2025 Vintage Winter Veil gift, Jubilant Snowman Costume",0,1,8,0,0,0
+210431,,210430,1,0,105271,0,2
+210432,,210430,1,0,105272,1,2
+210433,,210430,1,0,105273,2,2
 210434,Defeat Nexus-Princess Ky'vesa in her lair before the release of the next season of delves.,0,1,8,0,0,0
 210435,Easy,210434,1,0,105274,0,2
 210436,Hard,210434,1,0,105275,1,2
@@ -104324,6 +104412,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 210605,Claim Aluneth,210603,1,0,105294,2,0
 210606,"Ulthalesh, the Deadwind Harvester claimed",210633,1,0,105361,0,0
 210607,"Ulthalesh, the Deadwind Harvester claimed",210633,1,0,105294,1,0
+210608,,139670,1,0,105362,1,0
 210610,11.2 Delves - Ethereals01 - V04 - Waygate Used (Hufton),0,0,4,0,0,0
 210611,Waygate Used,210610,0,0,105363,0,32
 210622,,168538,0,0,105366,16,0
@@ -104424,6 +104513,30 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 210896,,210895,0,0,105467,0,0
 210897,Rise of the Red Dawn completed,0,0,4,0,0,8192
 210898,Past Glory,210897,1,0,105468,0,0
+211072,Achievement: Complete Your Order Hall Campaign (Death Knight),0,1,4,0,0,0
+211073,,211072,1,0,31936,0,2
+211074,Achievement: Complete Your Order Hall Campaign (Demon Hunter),0,1,4,0,0,0
+211075,,211074,1,0,31937,0,2
+211076,Achievement: Complete Your Order Hall Campaign (Druid),0,1,4,0,0,0
+211077,,211076,1,0,30608,0,2
+211078,Achievement: Complete Your Order Hall Campaign (Hunter),0,1,4,0,0,0
+211079,,211078,1,0,31938,0,2
+211080,Achievement: Complete Your Order Hall Campaign (Mage),0,1,4,0,0,0
+211081,,211080,1,0,31939,0,2
+211082,Achievement: Complete Your Order Hall Campaign (Monk),0,1,4,0,0,0
+211083,,211082,1,0,31940,0,2
+211084,Achievement: Complete Your Order Hall Campaign (Paladin),0,1,4,0,0,0
+211085,,211084,1,0,31709,0,2
+211086,Achievement: Complete Your Order Hall Campaign (Priest),0,1,4,0,0,0
+211087,,211086,1,0,31941,0,2
+211088,Achievement: Complete Your Order Hall Campaign (Rogue),0,1,4,0,0,0
+211089,,211088,1,0,31942,0,2
+211090,Achievement: Complete Your Order Hall Campaign (Shaman),0,1,4,0,0,0
+211091,,211090,1,0,31943,0,2
+211092,Achievement: Complete Your Order Hall Campaign (Warlock),0,1,4,0,0,0
+211093,,211092,1,0,31944,0,2
+211094,Achievement: Complete Your Order Hall Campaign (Warrior),0,1,4,0,0,0
+211095,,211094,1,0,31945,0,2
 211213,[DNT] Kill Anything,0,200,5,0,0,4097
 211214,[DNT] Kill anything,211213,1,0,105639,0,1
 211215,[DNT] Kill demons,0,100,5,0,0,4097
@@ -104489,6 +104602,54 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 211275,,211271,1,0,105686,3,0
 211276,,211271,1,0,105687,4,0
 211277,,211271,1,0,105688,5,0
+211278,7.0 Artifacts - Death Knight Hidden Appearance Unlocked (AHS),0,1,8,0,0,0
+211279,,211278,1,0,31992,0,2
+211280,,211278,1,0,31993,1,2
+211281,,211278,1,0,31994,2,2
+211282,7.0 Artifacts - Demon Hunter Hidden Appearance Unlocked (AHS),0,1,8,0,0,0
+211283,,211282,1,0,31995,0,2
+211284,,211282,1,0,31996,1,2
+211285,7.0 Artifacts - Druid Hidden Appearance Unlocked (AHS),0,1,8,0,0,0
+211286,,211285,1,0,31997,0,2
+211287,,211285,1,0,31998,1,2
+211288,,211285,1,0,31999,2,2
+211289,,211285,1,0,32000,3,2
+211290,7.0 Artifacts - Hunter Hidden Appearance Unlocked (AHS),0,1,8,0,0,0
+211291,,211290,1,0,32001,0,2
+211292,,211290,1,0,32002,1,2
+211293,,211290,1,0,32003,2,2
+211294,7.0 Artifacts - Mage Hidden Appearance Unlocked (AHS),0,1,8,0,0,0
+211295,,211294,1,0,32004,0,2
+211296,,211294,1,0,32005,1,2
+211297,,211294,1,0,32006,2,2
+211298,7.0 Artifacts - Monk Hidden Appearance Unlocked (AHS),0,1,8,0,0,0
+211299,,211298,1,0,32007,0,2
+211300,,211298,1,0,32008,1,2
+211301,,211298,1,0,32009,2,2
+211302,7.0 Artifacts - Paladin Hidden Appearance Unlocked (AHS),0,1,8,0,0,0
+211303,,211302,1,0,32010,0,2
+211304,,211302,1,0,32011,1,2
+211305,,211302,1,0,32012,2,2
+211306,7.0 Artifacts - Priest Hidden Appearance Unlocked (AHS),0,1,8,0,0,0
+211307,,211306,1,0,32013,0,2
+211308,,211306,1,0,32014,1,2
+211309,,211306,1,0,32015,2,2
+211310,7.0 Artifacts - Rogue Hidden Appearance Unlocked (AHS),0,1,8,0,0,0
+211311,,211310,1,0,32016,0,2
+211312,,211310,1,0,32017,1,2
+211313,,211310,1,0,32018,2,2
+211314,7.0 Artifacts - Shaman Hidden Appearance Unlocked (AHS),0,1,8,0,0,0
+211315,,211314,1,0,32019,0,2
+211316,,211314,1,0,32020,1,2
+211317,,211314,1,0,32021,2,2
+211318,7.0 Artifacts - Warlock Hidden Appearance Unlocked (AHS),0,1,8,0,0,0
+211319,,211318,1,0,32022,0,2
+211320,,211318,1,0,32023,1,2
+211321,,211318,1,0,32024,2,2
+211322,7.0 Artifacts - Warrior Hidden Appearance Unlocked (AHS),0,1,8,0,0,0
+211323,,211322,1,0,32025,0,2
+211324,,211322,1,0,32026,1,2
+211325,,211322,1,0,32027,2,2
 211326,[DNT] Kill Rares,0,4,5,0,0,4097
 211327,,211326,1,0,105689,0,1
 211328,[DNT] Kill elites,0,5,5,0,0,4097
@@ -104520,6 +104681,13 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 211354,,211336,0,0,105710,14,0
 211355,[DNT] Kill demons,0,100,5,0,0,4097
 211356,,211355,1,0,105711,0,1
+211359,11.2.7 Visions of a Shadowed Sun - Max-Level - Campaign - Achievement,0,0,4,0,0,0
+211360,Radiant Visions,211359,0,4,0,0,8240
+211361,,211360,0,0,105713,0,0
+211362,Paths Forward,211359,0,4,0,2,8240
+211363,,211362,0,0,105715,0,0
+211364,A Meeting with Minn'da,211359,0,4,0,1,8240
+211365,,211364,0,0,105714,0,0
 211370,"Defeat Mug'Zee, Heads of Security in the Liberation of Undermine raid on Normal difficulty or higher.",0,0,4,0,0,4096
 211371,,211370,1,0,105719,0,0
 211372,"Defeat Mug'Zee, Heads of Security in the Liberation of Undermine raid on Normal difficulty or higher.",0,0,4,0,0,4096
@@ -104706,7 +104874,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 211648,Obtain the Delver's Mana-Skimmer.,0,0,4,0,0,0
 211649,,211648,0,0,105898,0,0
 211650,Collect the following cosmetic unlocks for the Delver's Mana-Skimmer.,0,0,4,0,0,0
-211651,Energy Thrusters,211650,1,0,103524,0,16
+211651,Energy Thrusters,211650,1,0,111435,0,16
 211652,Void,211650,1,0,105899,1,16
 211653,Phaser,211650,1,0,105900,2,16
 211654,Quad Glider,211650,1,0,105901,3,16
@@ -104805,7 +104973,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 211842,March on Suramar,211836,1,0,106035,5,16
 211843,Elisande's Retort,211836,1,0,106036,6,16
 211844,As Strong As Our Will,211836,1,0,106037,7,16
-211845,Breaking the Nighthold,211836,1,0,34781,8,16
+211845,Breaking the Nighthold,211836,1,0,106038,8,16
 211846,11.2.5 Remix - Legion - Journey - Quest - Legionfall Campaign,0,0,4,0,0,0
 211847,Armies of Legionfall,211846,1,0,106039,0,16
 211848,Assault on Broken Shore,211846,1,0,106040,1,16
@@ -106296,10 +106464,35 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 213838,K'aresh world boss slain,0,1,8,0,0,4096
 213839,,213838,0,0,107319,0,0
 213840,,213797,0,0,107321,1,0
+213841,Aid Alleria's search for the Harbinger,0,0,4,0,0,4096
+213843,,213841,1,0,107323,0,0
+213844,,213841,1,0,107324,1,0
+213845,,213841,1,0,107325,2,0
+213846,,213841,1,0,107326,3,0
+213847,,213841,1,0,107327,4,0
+213848,,213841,1,0,107328,5,0
+213849,,213841,1,0,107329,6,0
+213850,,213841,1,0,107330,7,0
+213852,Aid Alleria's search for the Harbinger,0,0,4,0,0,4096
+213853,,213852,1,0,107331,0,0
+213854,,213852,1,0,107332,1,0
+213855,,213852,1,0,107333,2,0
+213856,,213852,1,0,107334,3,0
+213857,,213852,1,0,107335,4,0
+213858,,213852,1,0,107336,5,0
+213859,,213852,1,0,107337,6,0
+213860,,213852,1,0,107338,7,0
+213861,,213852,1,0,107339,8,0
 213897,Defeat the Soul Hunters in Manaforge Omega after all players have worn Adarus's spare blindfold at least 4 times on Normal difficulty or higher.,0,0,4,0,0,0
 213898,All players have worn Adarus' spare blindfold at least 1 time,213897,1,0,107361,0,0
 213899,Defying Gravity,0,0,4,0,0,0
 213900,All players hit by Reverse Gravity.,213899,1,0,107362,0,0
+213901,11.2.7 ADH - Raid - Story Mode - (STM) - Fyrakk's End (STM),0,0,4,0,0,0
+213902,Fyrakk's End,213901,0,0,107363,0,32
+213903,11.27 ADH - Raid Story - Dream - LFR Wing 4,0,0,4,0,0,0
+213904,Fyrakk the Blazing defeated,213903,1,0,63103,0,0
+213925,11.2.7 - Aberrus - LFR Wing 4 - Story Mode,0,0,4,0,0,0
+213926,Sarkareth defeated,213925,1,0,58883,0,0
 213927,7.0 DH-OHC - Rune Ruination (ELM) - 2,0,0,4,0,0,4096
 213928,7.0 DH-OHC - All Rune Ruination sub-quests completed (ELM),213927,0,4,0,0,0
 213929,Use Midian's Rune to deactivate his runestone,213928,1,0,107377,0,0
@@ -106344,6 +106537,50 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 213980,,213979,14,0,107389,0,0
 213981,11.2 Raid Renown - Manaforge Vandals - Rank 15,0,0,4,0,0,0
 213982,,213981,15,0,107389,0,0
+213983,11.2.7 Catch Up - TWW - Visions of Azeroth (wrapper 2) (KRB),0,0,4,0,0,4096
+213991,,213983,1,0,107397,0,0
+213992,,213983,1,0,107398,1,0
+213994,11.2.7 Catch Up - TWW -  Q2 - PT4 (KRB),0,0,4,0,0,4096
+213996,,213994,1,0,107401,0,0
+213997,,213994,1,0,107402,1,0
+213998,,213994,1,0,107403,2,0
+213999,,213994,1,0,107404,3,0
+214000,,213994,1,0,107405,4,0
+214001,11.2.7 Catch Up - TWW -  Q3 - PT2 (KRB),0,0,4,0,0,4096
+214002,,214001,1,0,107406,0,0
+214003,,214001,1,0,107407,1,0
+214004,,214001,1,0,107408,2,0
+214005,,214001,1,0,107409,3,0
+214008,11.2.7 Catch Up - TWW - Visions of Azeroth (wrapper 4) - PT1 (KRB),0,0,4,0,0,4096
+214009,,214008,1,0,107411,0,0
+214010,,214008,1,0,107412,1,0
+214011,,214008,1,0,107413,2,0
+214012,,214008,1,0,107414,3,0
+214013,11.2.7 Catch Up - TWW - Visions of Azeroth (wrapper 4) - PT2 (KRB),0,0,4,0,0,4096
+214014,,214013,1,0,107415,0,0
+214015,,214013,1,0,107416,1,0
+214016,11.2.7 Catch Up - TWW - Visions of Azeroth (wrapper 4) - PT3 (KRB),0,0,4,0,0,4096
+214017,,214016,1,0,107417,0,0
+214018,,214016,1,0,107418,1,0
+214019,,214016,1,0,107419,2,0
+214020,11.2.7 Catch Up - TWW - Visions of Azeroth (wrapper 4) - PT4 (KRB),0,0,4,0,0,4096
+214021,,214020,1,0,107420,0,0
+214022,11.2.7 Catch Up - TWW - Visions of Azeroth (wrapper 5) - PT1 (KRB),0,0,4,0,0,4096
+214023,,214022,1,0,107421,0,0
+214024,11.2.7 Catch Up - TWW - Visions of Azeroth (wrapper 5) - PT2 (KRB),0,0,4,0,0,4096
+214025,,214024,1,0,107422,0,0
+214026,,214024,1,0,107423,1,0
+214027,,214024,1,0,107424,2,0
+214028,11.2.7 Catch Up - TWW - Visions of Azeroth (wrapper 5) - PT3 (KRB),0,0,4,0,0,4096
+214029,,214028,1,0,107425,0,0
+214030,11.2.7 Catch Up - TWW - Visions of Azeroth (wrapper 6) - PT1 (KRB),0,0,4,0,0,4096
+214031,,214030,1,0,107426,0,0
+214032,,214030,1,0,107427,1,0
+214033,,214030,1,0,107428,2,0
+214034,11.2.7 Catch Up - TWW - Visions of Azeroth (wrapper 6) - PT2 (KRB),0,0,4,0,0,4096
+214035,,214034,1,0,107429,0,0
+214036,11.2.7 Catch Up - TWW - Visions of Azeroth (wrapper 6) - PT2 (KRB),0,0,4,0,0,4096
+214037,,214036,1,0,107430,0,0
 214038,Voidrazor Sanctuary clears,0,0,4,0,0,0
 214039,,214038,0,0,107431,0,0
 214040,Defeat Loom'ithar inside Manaforge Omega on any difficulty.,0,0,4,0,0,4096
@@ -106477,11 +106714,47 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 214170,11.2 Delves - Horde Vs Alliance Race - Horde Finish - Comlete X Delves,0,1,8,0,0,0
 214171,,214170,0,0,107547,0,0
 214176,,214170,0,0,107549,1,0
+214177,11.2.7 Catch Up - TWW - Visions of Azeroth (wrapper 7) - PT1 (KRB),0,0,4,0,0,4096
+214178,,214177,1,0,107550,0,0
+214180,11.2.7 Catch Up - TWW - Visions of Azeroth (wrapper 7) - PT2 (KRB),0,0,4,0,0,4096
+214181,,214180,1,0,107552,0,0
+214182,,214180,1,0,107553,1,0
 214183,11.2 Delves - Horde Vs Alliance Race - Alliance Finish - Comlete X Delves,0,1,8,0,0,0
 214184,,214183,0,0,107554,0,0
 214185,,214183,0,0,107555,1,0
+214186,11.2.7 Catch Up - TWW - Visions of Azeroth (wrapper 8) - PT1 (KRB),0,0,4,0,0,4096
+214187,,214186,1,0,107556,0,0
+214188,,214186,1,0,107557,1,0
+214189,,214186,1,0,107558,2,0
+214190,,214186,1,0,107559,3,0
+214191,,214186,1,0,107560,4,0
+214192,,214186,1,0,107561,5,0
 214193,Blighthead danced with,0,0,4,0,0,8193
 214194,,214193,0,0,107562,0,1
+214195,11.2.7 Catch Up - TWW - K'aresh (wrapper 9) - PT1 (KRB),0,0,4,0,0,4096
+214196,,214195,1,0,107563,0,0
+214197,,214195,1,0,107564,1,0
+214198,11.2.7 Catch Up - TWW - K'aresh (wrapper 9) - PT2 (KRB),0,0,4,0,0,4096
+214199,,214198,1,0,107565,0,0
+214200,,214198,1,0,107566,1,0
+214201,,214198,1,0,107567,2,0
+214202,11.2.7 Catch Up - TWW - K'aresh (wrapper 9) - PT3 (KRB),0,0,4,0,0,4096
+214203,,214202,1,0,107568,0,0
+214204,,214202,1,0,107569,1,0
+214205,,214202,1,0,107570,2,0
+214206,,214202,1,0,107571,3,0
+214207,,214202,1,0,107572,4,0
+214208,,214202,1,0,107573,5,0
+214209,,214202,1,0,107574,6,0
+214210,11.2.7 Catch Up - TWW - K'aresh (wrapper 9) - PT4 (KRB),0,0,4,0,0,4096
+214211,,214210,1,0,107575,0,0
+214212,,214210,1,0,107576,1,0
+214213,,214210,1,0,107577,2,0
+214214,,214210,1,0,107578,3,0
+214215,,214210,1,0,107579,4,0
+214216,11.2.7 Catch Up - TWW - K'aresh (wrapper 9) - PT5 (KRB),0,0,4,0,0,4096
+214217,,214216,1,0,107580,0,0
+214218,,214216,1,0,107581,1,0
 214219,,211476,1,0,107585,1,0
 214220,,211476,1,0,107586,2,0
 214221,,211476,1,0,107587,3,0
@@ -106592,6 +106865,10 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 214336,Deaths in Heroic World Tier,214335,0,0,107646,0,0
 214337,Demons slain,0,0,4,0,0,0
 214338,Demons slain,214337,0,0,107647,0,0
+214341,11.2.7 Catch Up - TWW - Visions of Azeroth (wrapper 2) Pt 2 (KRB),0,0,4,0,0,4096
+214342,,214341,1,0,107649,0,0
+214343,11.2.7 Catch Up - TWW - Visions of Azeroth (wrapper 2) Pt 3 (KRB),0,0,4,0,0,4096
+214344,,214343,1,0,107650,0,0
 214345,World Quest completed,0,1,8,0,0,8193
 214346,,214345,0,0,107651,0,1
 214347,Phase Diving world quests completed,0,4,5,0,0,8193
@@ -106602,6 +106879,10 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 214352,,214351,0,0,107655,0,0
 214353,Enemies defeated,0,7,5,0,0,8193
 214354,,214353,0,0,107655,0,0
+214355,11.2.7 Catch Up - TWW -  Q3 - PT3 (KRB),0,0,4,0,0,4096
+214356,,214355,1,0,107656,0,0
+214357,,214355,1,0,107657,1,0
+214358,,214355,1,0,107658,2,0
 214359,Sthaarbs defeated,0,1,5,0,0,8193
 214360,,214359,0,0,107659,0,0
 214361,Devourer Swarm Bosses defeated,0,2,8,0,0,1
@@ -106690,6 +106971,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 214444,,214443,1,0,107704,0,0
 214445,,214443,1,0,107705,1,0
 214446,,214443,1,0,107706,2,0
+214447,,214034,1,0,107708,1,0
 214448,,58604,1,0,107381,65,0
 214449,,58604,1,0,107382,68,0
 214450,,58604,1,0,107384,69,0
@@ -106712,6 +106994,42 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 214584,Infinite Research assignments,214583,50,5,0,0,8193
 214585,,214584,0,0,107788,0,0
 214586,Promotion accepted,214583,0,0,107791,1,0
+214589,Complete the 6th Tier of your Class Hall Research (Death Knight),0,0,4,0,0,0
+214590,Complete the 6th Tier of your Class Hall Research.,214589,1,0,32934,0,2
+214591,,214589,1,0,5219,1,0
+214592,Complete the 6th Tier of your Class Hall Research (Demon Hunter),0,0,4,0,0,0
+214593,Complete the 6th Tier of your Class Hall Research.,214592,1,0,32934,0,2
+214594,,214592,1,0,32452,1,0
+214595,Complete the 7th Tier of your Class Hall Research (Druid),0,1,8,0,0,0
+214596,,214595,1,0,111659,0,2
+214597,,214595,1,0,111660,1,2
+214598,Complete the 6th Tier of your Class Hall Research (Hunter),0,0,4,0,0,0
+214599,Complete the 6th Tier of your Class Hall Research.,214598,1,0,32934,0,2
+214600,,214598,1,0,5218,1,0
+214601,Complete the 6th Tier of your Class Hall Research (Mage),0,0,4,0,0,0
+214602,Complete the 6th Tier of your Class Hall Research.,214601,1,0,32934,0,2
+214603,,214601,1,0,5018,1,0
+214604,Complete the 6th Tier of your Class Hall Research (Monk),0,0,4,0,0,0
+214605,Complete the 6th Tier of your Class Hall Research.,214604,1,0,32934,0,2
+214606,,214604,1,0,19661,1,0
+214607,Complete the 6th Tier of your Class Hall Research (Paladin),0,0,4,0,0,0
+214608,Complete the 6th Tier of your Class Hall Research.,214607,1,0,32934,0,2
+214609,,214607,1,0,5215,1,0
+214610,Complete the 6th Tier of your Class Hall Research (Priest),0,0,4,0,0,0
+214611,Complete the 6th Tier of your Class Hall Research.,214610,1,0,32934,0,2
+214612,,214610,1,0,5216,1,0
+214613,Complete the 6th Tier of your Class Hall Research (Rogue),0,0,4,0,0,0
+214614,Complete the 6th Tier of your Class Hall Research.,214613,1,0,32934,0,2
+214615,,214613,1,0,5221,1,0
+214616,Complete the 6th Tier of your Class Hall Research (Shaman),0,0,4,0,0,0
+214617,Complete the 6th Tier of your Class Hall Research.,214616,1,0,32934,0,2
+214618,,214616,1,0,5213,1,0
+214619,Complete the 6th Tier of your Class Hall Research (Warlock),0,0,4,0,0,0
+214620,Complete the 6th Tier of your Class Hall Research.,214619,1,0,32934,0,2
+214621,,214619,1,0,5217,1,0
+214622,Complete the 6th Tier of your Class Hall Research (Warrior),0,0,4,0,0,0
+214623,Complete the 6th Tier of your Class Hall Research.,214622,1,0,32934,0,2
+214624,,214622,1,0,5220,1,0
 214627,Statistic: Weathered Ethereal Crests earned,0,0,4,0,0,0
 214628,,214627,0,0,107795,0,0
 214629,Statistic: Carved Ethereal Crests earned,0,0,4,0,0,0
@@ -106720,6 +107038,42 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 214632,,214631,0,0,107797,0,0
 214633,Statistic: Gilded Ethereal Crests earned,0,0,4,0,0,0
 214634,,214633,0,0,107798,0,0
+214641,Complete 100 Class Order Hall Missions as a Death Knight.,0,0,4,0,0,0
+214642,Complete 100 Class Hall Missions.,214641,100,0,32928,0,1
+214643,,214641,1,0,5219,1,0
+214644,Complete 100 Class Order Hall Missions as a Demon Hunter.,0,0,4,0,0,0
+214645,Complete 100 Class Hall Missions.,214644,100,0,32928,0,1
+214646,,214644,1,0,32452,1,0
+214649,Complete 100 Class Order Hall Missions as a Druid.,0,0,4,0,0,0
+214650,Complete 100 Class Hall Missions.,214649,100,0,32928,0,1
+214651,,214649,1,0,5214,1,0
+214652,Complete 100 Class Order Hall Missions as a Hunter.,0,0,4,0,0,0
+214653,Complete 100 Class Hall Missions.,214652,100,0,32928,0,1
+214654,,214652,1,0,5218,1,0
+214655,Complete 100 Class Order Hall Missions as a Mage.,0,0,4,0,0,0
+214656,Complete 100 Class Hall Missions.,214655,100,0,32928,0,1
+214657,,214655,1,0,5018,1,0
+214658,Complete 100 Class Order Hall Missions as a Monk.,0,0,4,0,0,0
+214659,Complete 100 Class Hall Missions.,214658,100,0,32928,0,1
+214660,,214658,1,0,19661,1,0
+214662,Complete 100 Class Order Hall Missions as a Paladin.,0,0,4,0,0,0
+214663,Complete 100 Class Hall Missions.,214662,100,0,32928,0,1
+214664,,214662,1,0,5215,1,0
+214665,Complete 100 Class Order Hall Missions as a Priest.,0,0,4,0,0,0
+214666,Complete 100 Class Hall Missions.,214665,100,0,32928,0,1
+214667,,214665,1,0,5216,1,0
+214668,Complete 100 Class Order Hall Missions as a Rogue.,0,0,4,0,0,0
+214669,Complete 100 Class Hall Missions.,214668,100,0,32928,0,1
+214670,,214668,1,0,5221,1,0
+214671,Complete 100 Class Order Hall Missions as a Shaman.,0,0,4,0,0,0
+214672,Complete 100 Class Hall Missions.,214671,100,0,32928,0,1
+214673,,214671,1,0,5213,1,0
+214674,Complete 100 Class Order Hall Missions as a Warlock.,0,0,4,0,0,0
+214675,Complete 100 Class Hall Missions.,214674,100,0,32928,0,1
+214676,,214674,1,0,5217,1,0
+214677,Complete 100 Class Order Hall Missions as a Warrior.,0,0,4,0,0,0
+214678,Complete 100 Class Hall Missions.,214677,100,0,32928,0,1
+214679,,214677,1,0,5220,1,0
 214682,Defeat Plexus Sentinel on Heroic,0,0,4,0,0,0
 214683,,214682,1,0,103289,0,2
 214684,Defeat Loom'ithar on Heroic,0,0,4,0,0,0
@@ -106867,6 +107221,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 214859,,214845,0,0,107948,13,0
 214860,,214845,0,0,107949,14,0
 214861,,214845,0,0,107950,15,0
+214877,Player is exalted with either/both of the player dracthyr factions,0,1,8,0,0,0
+214878,Exalted with the Obsidian Warders,214877,42000,0,107964,0,0
+214879,Exalted with the Dark Talons,214877,42000,0,107965,1,0
 215293,Season 3 Midseason - Eco-Dome Al-dani - Timed +12,0,0,4,0,0,0
 215294,Eco'Dome,215293,1,0,105068,0,0
 215295,Season 3 Midseason - Ara-Kara - Timed +12,0,0,4,0,0,0
@@ -107322,6 +107679,10 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 215931,So'leah Defeated.,215930,1,0,108699,0,0
 215932,"Tazavesh, Hard Mode Deathless Run Completed",0,0,4,0,0,0
 215933,"Completed Tazavesh, the Veiled Market without anyone dying.",215932,1,0,108700,0,0
+216064,Place 4 Decor,0,0,4,0,0,4097
+216065,Place 4 Decor in your House Interior.,216064,4,0,108732,0,0
+216066,Remove 4 Decor,0,0,4,0,0,4097
+216067,Remove 4  Decor in your House Interior.,216066,4,0,108733,0,0
 216068,11.2.5 Remix - Legion - Journey - Quest - Local Azsuna,0,0,4,0,0,32
 216069,Kirin Tor Reconnaissance,216068,1,0,108734,0,32
 216070,A Rather Long Walk,216068,1,0,108735,1,32
@@ -107410,8 +107771,22 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 216218,,216217,3,0,103877,0,0
 216219,Phase Diving Weekly Completed Three Times [DNT],0,0,4,0,0,0
 216220,,216219,3,0,108788,0,0
+216224,Remove 1 Decor,0,0,4,0,0,4097
+216225,Remove 1  Decor in your House Interior.,216224,1,0,108791,0,0
+216226,Remove 2 Decor,0,0,4,0,0,4097
+216227,Remove 2  Decor in your House Interior.,216226,2,0,108792,0,0
+216228,Remove 3 Decor,0,0,4,0,0,4097
+216229,Remove 3  Decor in your House Interior.,216228,3,0,108793,0,0
+216230,Place 3 Decor,0,0,4,0,0,4097
+216231,Place 3 Decor in your House Interior.,216230,3,0,108794,0,0
+216232,Place 2 Decor,0,0,4,0,0,4097
+216233,Place 2 Decor in your House Interior.,216232,2,0,108795,0,0
+216234,Place 1 Decor,0,0,4,0,0,4097
+216235,Place 1 Decor in your House Interior.,216234,1,0,108796,0,0
 216238,Enter Phase Diving,0,0,4,0,0,4096
 216239,,216238,0,0,108798,0,0
+216255,House Purchased,0,0,4,0,0,0
+216256,House Purchased,216255,1,0,108807,0,0
 216308,11.2.5 Remix - Legion - Journey - Reputation - Wardens - Exalted,0,0,4,0,0,32
 216309,The Wardens,216308,42000,0,108829,0,0
 216346,Darkmoon Prize Tickets earned,0,15,5,0,0,8193
@@ -107419,34 +107794,118 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 216365,Soul-Scribe,0,0,4,0,0,4096
 216366,,216365,1,0,108852,0,0
 216789,,207240,1,0,105370,4,2
+216790,Collect 1 Unique Decor,0,0,4,0,0,0
+216791,Collect 1 Unique Decor,216790,1,0,109249,0,1
+216792,Collect 50 Unique Decor,0,0,4,0,0,0
+216794,Collect 100 Unique Decor,0,0,4,0,0,0
+216795,Collect 100 Unique Decor,216794,100,0,109249,0,1
+216796,Collect 150 Unique Decor,0,0,4,0,0,0
+216797,Collect 150 Unique Decor,216796,150,0,109249,0,1
+216798,Collect 200 Unique Decor,0,0,4,0,0,0
+216799,Collect 200 Unique Decor,216798,200,0,109249,0,1
+216800,Collect 250 Unique Decor,0,0,4,0,0,0
+216801,Collect 250 Unique Decor,216800,250,0,109249,0,1
+216802,Collect 300 Unique Decor,0,0,4,0,0,0
+216803,Collect 300 Unique Decor,216802,300,0,109249,0,1
+216804,Collect 350 Unique Decor,0,0,4,0,0,0
+216805,Collect 350 Unique Decor,216804,350,0,109249,0,1
+216806,Collect 400 Unique Decor,0,0,4,0,0,0
+216807,Collect 400 Unique Decor,216806,400,0,109249,0,1
+216808,Collect 450 Unique Decor,0,0,4,0,0,0
+216809,Collect 450 Unique Decor,216808,450,0,109249,0,1
+216810,Collect 500 Unique Decor,0,0,4,0,0,0
+216811,Collect 500 Unique Decor,216810,500,0,109249,0,1
+216812,11.2.7 Catch Up - TWW - Q2 - PT5 (KRB),0,0,4,0,0,4096
+216813,,216812,1,0,109108,1,0
+216816,,216812,1,0,109111,2,0
+216817,11.2.7 Catch Up - TWW - Q2 - PT6 (KRB),0,0,4,0,0,4096
+216818,,216817,1,0,109112,0,0
+216819,,216817,1,0,109113,1,0
+216820,,216817,1,0,109114,2,0
+216821,11.2.7 Catch Up - TWW - Q2 - PT7 (hallowfall)(KRB),0,0,4,0,0,4096
+216822,,216821,1,0,109115,0,0
+216823,11.2.7 Catch Up - TWW - Q2 - PT8(hallowfall) (KRB),0,0,4,0,0,4096
+216824,,216823,1,0,109116,0,0
+216825,,216823,1,0,109117,1,0
+216826,,216823,1,0,109118,2,0
+216827,11.2.7 Catch Up - TWW - Visions of Azeroth (wrapper 2) - PT7 (KRB),0,0,4,0,0,4096
+216828,,216827,1,0,109119,0,0
+216831,,216827,1,0,109122,1,0
+216832,11.2.7 Catch Up - TWW - Visions of Azeroth (wrapper 2) - PT8 (KRB),0,0,4,0,0,4096
+216833,,216832,1,0,109123,0,0
+216834,,216832,1,0,109124,1,0
+216835,11.2.7 Catch Up - TWW - Visions of Azeroth (wrapper 2) - PT9 (KRB),0,0,4,0,0,4096
+216836,,216835,1,0,109125,0,0
+216837,,216835,1,0,109126,1,0
+216838,,216835,1,0,109127,2,0
+216839,11.2.7 Catch Up - TWW - Visions of Azeroth (wrapper 2) - PT10 (KRB),0,0,4,0,0,4096
+216840,,216839,1,0,109128,0,0
 216841,11.2.5 Remix - Legion - Achievement - Journey - Empowered Enemies Kill 500,0,0,4,0,0,1
 216842,,216841,500,0,108645,0,1
 216847,[DNT] Jewelry Unlocked - Legion Remix,0,0,4,0,0,0
 216848,,216847,1,0,109133,0,0
+216849,11.2.7 Catch Up - TWW - Shadowy Pursuits - P1 - Aid Anduin - (STM),0,0,4,0,0,4096
+216851,,216849,1,0,109135,0,0
 216857,[DNT] Player equipped jewelry,0,1,8,0,0,0
 216858,,216857,0,0,109141,0,0
 216859,,216857,0,0,109142,1,0
 216860,,216857,0,0,109143,2,0
 216861,,216857,0,0,109144,3,0
 216862,,216857,0,0,109145,4,0
+216882,Obtain or Know Earthen Storage Crate Decor,0,0,4,0,0,4096
+216883,,216882,0,0,109153,0,0
+216884,Obtain or Know Bolt Chair Decor,0,0,4,0,0,4096
+216885,,216884,0,0,109154,0,0
+216886,Obtain or Know Filigree Moon Lamp Decor,0,0,4,0,0,4096
+216887,,216886,0,0,109155,0,0
+216888,Obtain or Know Nightborne Lantern Decor,0,0,4,0,0,4096
+216889,,216888,0,0,109156,0,0
+216904,,216812,1,0,109162,0,0
+216918,11.2.7 Catch Up - TWW - Q2 - PT5b (KRB),0,0,4,0,0,4096
+216919,,216918,1,0,109169,0,0
+216920,11.2.7 Catch Up - TWW - Visions of Azeroth (wrapper 3) - Queen Ansurek - (STM),0,0,4,0,0,4096
+216921,,216920,1,0,109170,0,0
 216942,Cloak power assigned,0,0,4,0,0,4096
 216943,,216942,0,0,109204,0,0
 216944,Campaign completed,0,0,4,0,0,8194
 216945,,216944,0,0,109205,0,8194
 216955,Amass Infinite Power,0,1000,5,0,0,14337
 216956,,216955,1,0,109206,0,0
+216972,11.1 War Within - Bonus Event Weekend - Timewalking (SL) - Low Level,0,5,5,0,0,4096
+216973,,216972,5,0,109217,0,2
+216974,,216972,5,0,109218,1,2
+216975,,216972,5,0,109219,2,2
+216976,,216972,5,0,109220,3,2
+216977,,216972,5,0,109221,4,2
+216978,,216972,5,0,109222,5,2
+216986,11.1 War Within - Bonus Event Weekend - Timewalking (SL),0,5,5,0,0,4096
+216987,,216986,5,0,109234,0,2
+216988,,216986,5,0,109235,1,2
+216989,,216986,5,0,109236,2,2
+216990,,216986,5,0,109237,3,2
+216991,,216986,5,0,109238,4,2
+216992,,216986,5,0,111896,5,2
 216993,Bronze gained,0,0,4,0,0,0
 216994,Bronze gained,216993,0,0,109240,0,0
 216995,Limit reached,0,1,8,0,0,8194
 216996,Keystone completed,216995,1,0,109241,0,0
+217044,Collect 50 Unique Decor,216792,50,0,109249,0,1
 217045,Raise a companion to level 90.,0,0,4,0,0,0
 217046,,217045,0,0,109250,0,0
 217047,Raise a companion to level 90.,0,0,4,0,0,0
 217048,,217047,0,0,109250,0,0
+217491,Ornamental Golden Blade,0,0,4,0,0,4096
+217492,Use Ornamental Golden Blade,217491,1,0,109277,0,0
+217493,Empty Supply Crate,0,0,4,0,0,4096
+217494,Empty Supply Crate,217493,1,0,109278,0,0
+217495,Scroll,0,0,4,0,0,4096
+217496,Scroll,217495,1,0,109279,0,0
 217541,,206975,0,0,109320,3,0
 217542,,206975,0,0,109321,4,0
 217543,,206979,0,0,109322,3,0
 217544,,206979,0,0,109323,4,0
+217545,11.2.7 - Housing - Has Entered Own House (RPS),0,0,4,0,0,4096
+217546,,217545,1,0,109324,0,0
 217561,[DNT] Trigger game event,0,0,4,0,0,4096
 217562,"Take Strom'kar, the Warbreaker.",217561,0,0,109329,0,0
 217599,[DNT] Login while owning Base edition of 12.0,0,1,4,0,0,0
@@ -107455,6 +107914,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 217602,,217601,1,0,109363,0,0
 217603,[DNT] Login while owning Epic edition of 12.0,0,1,4,0,0,0
 217604,,217603,1,0,109364,0,0
+217879,Gain Mastery of Timeways for 5 weeks during Turbulent Timeways IV,0,1,8,0,0,0
+217880,Gain Mastery of Timeways for 5 weeks during Turbulent Timeways IV,217879,5,0,109396,0,1
 217910,Levels gained,0,10,5,0,0,8193
 217911,,217910,1,0,109417,0,0
 217912,Levels gained,0,30,5,0,0,8193
@@ -107602,6 +108063,14 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 218105,,218104,1,0,109537,0,2
 218134,Logged in during WoW's 21st Anniversary.,0,0,4,0,0,0
 218135,Logged in during WoW's 21st Anniversary.,218134,1,0,109540,0,2
+218144,Obtain or Know Draconic Sconce Decor,0,0,4,0,0,4096
+218145,,218144,0,0,109547,0,0
+218146,Achievement - The First Rule of Brawler's Guild (A) (Season 4),0,1,8,0,0,0
+218147,,218146,0,0,35431,0,2
+218148,,218146,1,0,109551,1,2
+218149,Achievement - The First Rule of Brawler's Guild (H) (Season 4),0,1,8,0,0,0
+218150,,218149,0,0,35431,0,2
+218151,,218149,1,0,109552,1,2
 218167,,48830,1,0,109557,1,2
 218180,Choose a new Talent Specialization,0,0,4,0,0,4096
 218181,,218180,1,0,109564,0,0
@@ -107615,6 +108084,28 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 218189,,218188,0,0,109569,0,0
 218190,[DNT] 70,0,0,4,0,0,4096
 218191,,218190,0,0,109570,0,0
+218198,Complete all Brawler's Guild Challenge Achievements,0,0,4,0,0,0
+218199,,218198,1,0,109572,0,0
+218200,,218198,1,0,109573,1,0
+218201,,218198,1,0,109574,2,0
+218202,,218198,1,0,109575,3,0
+218203,,218198,1,0,109576,4,0
+218204,,218198,1,0,109577,5,0
+218205,,218198,1,0,109578,6,0
+218206,,218198,1,0,109579,7,0
+218212,Welcome Home - OW2 Rewards,0,0,4,0,0,0
+218213,,218212,1,0,109584,0,0
+218214,Welcome Home - Hearthstone Rewards,0,0,4,0,0,0
+218215,,218214,1,0,109584,0,0
+218216,Welcome Home - Diablo 4 Rewards,0,0,4,0,0,0
+218217,,218216,1,0,109584,0,0
+218218,Welcome Home - Diablo Immortal Rewards,0,0,4,0,0,0
+218219,,218218,1,0,109584,0,0
+218220,Welcome Home - Starcraft 2 Rewards,0,0,4,0,0,0
+218221,,218220,1,0,109584,0,0
+218238,11.2.7 - Housing - Breadcrumb into Housing - (STM),0,1,8,0,0,4096
+218239,,218238,0,0,109587,0,0
+218240,,218238,0,0,109588,1,0
 218248,Unnamed Branch,215741,5,5,0,0,1
 218249,[DNT] Kill Rares,0,15,5,0,0,4097
 218250,,218249,1,0,109593,0,1
@@ -107636,7 +108127,226 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 218266,,218265,1,0,109601,0,0
 218267,Limit reached,216995,0,0,109602,1,0
 218336,,60694,1,0,109611,1,2
+218392,New Criteria Tree,0,0,4,0,0,4096
+218393,,218392,0,0,109636,0,0
+218429,New Criteria Tree,0,0,4,0,0,4096
+218430,,218429,0,0,109659,0,0
+218471,Chase down the mysteries within (and without) Azeroth by completing the following achievements.,0,0,4,0,0,0
+218472,,218471,0,0,109690,0,32
+218475,,218471,0,0,109691,1,32
+218476,,218471,0,0,109692,2,32
+218477,,218471,0,0,109693,3,32
+218478,,218471,0,0,109694,4,32
+218479,,218471,0,0,109695,5,32
+218480,,218471,0,0,109697,6,32
+218481,,218471,0,0,109698,7,32
+218482,,218471,0,0,109699,8,32
+218483,,218471,0,0,109700,9,32
+218484,Aid the people of the Broken Isles by completing the achievements below.,0,0,4,0,0,0
+218485,,218484,0,0,109701,0,32
+218486,,218484,0,0,109709,1,32
+218487,,218484,0,0,109702,2,32
+218488,,218484,0,0,109704,3,32
+218489,,218484,0,0,109706,4,32
+218490,,218484,0,0,109708,5,32
+218491,,218484,0,0,109710,6,32
+218520,New Criteria Tree,0,2,5,0,0,4096
+218521,,218520,1,0,109741,0,0
 218762,,213797,0,0,109797,11,0
+218765,11.2.7 Brawler's Guild - Challenge Bosses Defeated,0,15,8,0,0,1
+218766,Kirrawk,218765,1,0,109800,0,0
+218767,Unguloxx,218765,1,0,109801,1,0
+218768,Nibbleh,218765,1,0,109802,2,0
+218769,Thog Hammerspace,218765,1,0,109803,3,0
+218770,Johnny Awesome,218765,1,0,109804,4,0
+218771,Mama Stormstout,218765,1,0,109805,5,0
+218772,Fran and Riddoh,218765,1,0,109806,6,0
+218773,Dungeon Master Vishas,218765,1,0,109807,7,0
+218774,Ixx,218765,1,0,109808,8,0
+218775,Leona Earthwind,218765,1,0,109809,9,0
+218776,Dominika the Illusionist,218765,1,0,109810,10,0
+218777,Blackmange,218765,1,0,109811,11,0
+218778,Deeken,218765,1,0,109812,12,0
+218779,Blind Hero,218765,1,0,109813,13,0
+218780,Proboskus,218765,1,0,109814,14,0
+218781,Vian the Volatile,218765,1,0,109815,15,0
+218782,Akama,218765,1,0,109816,16,0
+218783,Battletron,218765,1,0,109817,17,2
+218784,Disruptron Mk. 3R-Alpha,218765,1,0,109818,18,2
+218785,Millhouse Manastorm,218765,1,0,109819,19,2
+218786,Millie Watt,218765,1,0,109820,20,0
+218787,Yikkan Izu,218765,1,0,109821,21,0
+218788,Ahoo'ru,218765,1,0,109822,22,2
+218789,Anthracite,218765,1,0,109823,23,2
+218790,Big Badda Boom,218765,1,0,109824,24,2
+218791,Doctor FIST,218765,1,0,109825,25,2
+218792,Hexos,218765,1,0,109826,26,2
+218793,Master Boom Boom,218765,1,0,109827,27,2
+218794,Mingus Diggs,218765,1,0,109828,28,2
+218795,Ro-Shambo,218765,1,0,109829,29,2
+218796,Splat,218765,1,0,109830,30,2
+218797,T440 Dual-Mode Robot,218765,0,0,109831,31,0
+218798,Tyson Sanders,218765,1,0,109832,32,2
+218799,Ty'thar,218765,1,0,109833,33,2
+218800,Dark Summoner,218765,1,0,109834,34,0
+218801,Sanoriak,218765,1,0,109835,35,0
+218802,Smash Hoofstomp,218765,1,0,109836,36,2
+218803,B3@7 B-0X,218765,1,0,109837,37,2
+218804,Grief Warden,218765,1,0,109838,38,2
+218805,Master Paku,218765,1,0,109839,39,2
+218806,Ray D. Tear,218765,1,0,109840,40,2
+218807,Shadowmaster Aameen,218765,1,0,109841,41,2
+218808,Strange Thing,218765,1,0,109842,42,2
+218809,A Seagull,218765,1,0,109843,43,0
+218810,Burnstachio,218765,1,0,109844,44,2
+218811,Farmer Xiang-Su,218765,1,0,109845,45,2
+218812,Grandpa Grumplefloot,218765,1,0,109846,46,2
+218813,Lord Sylysthrel,218765,1,0,109847,47,2
+218814,Hyper Mega-Mecha Seagull x9000,218765,1,0,109848,48,2
+218815,Ouroboros,218765,1,0,109849,49,2
+218816,Robe-Robber Robert,218765,1,0,109850,50,2
+218817,Serpent of Old,218765,1,0,109851,51,2
+218818,Thwack U,218765,1,0,109852,52,2
+218819,Spymaster,218765,1,0,109853,53,2
+218820,Tidemistress Shellbreaker,218765,1,0,109854,54,2
+218821,Warhammer Council,218765,1,0,109855,55,2
+218822,Phillip Carter Tracey,218765,1,0,109856,56,2
+218823,Zen'shar,218765,1,0,109857,57,2
+218824,Xan-Sallish,218765,1,0,109858,58,2
+218825,11.2.7 Lorewalking - Complete Elves,0,0,4,0,0,0
+218826,,218825,1,0,109859,0,0
+218845,Fjoll,218765,1,0,109870,59,0
+219129,Ready for Midnight,0,0,4,0,0,0
+219130,,219129,1,0,109962,0,0
+219302,11.2.7 - Housing - Breadcrumb into Housing - (STM),0,1,8,0,0,4096
+219303,,219302,0,0,110162,0,0
+219304,,219302,0,0,110163,1,0
+219374,Radiant Singer,0,0,4,0,0,0
+219375,,219374,0,0,110207,0,0
+219516,,208931,1,0,110334,1,1
+219630,Charter Sigs 01,0,0,4,0,0,4097
+219631,Charter Signatures 01,219630,1,0,110419,0,0
+219646,Charter Sigs 02,0,0,4,0,0,4097
+219647,Charter Signatures 02,219646,2,0,110430,0,0
+219648,Charter Sigs 03,0,0,4,0,0,4097
+219649,Charter Signatures 03,219648,3,0,110431,0,0
+219650,Charter Sigs 04,0,0,4,0,0,4097
+219651,Charter Signatures 04,219650,4,0,110432,0,0
+219652,Charter Sigs 05,0,0,4,0,0,4097
+219653,Charter Signatures 05,219652,5,0,110433,0,0
+219654,Charter Sigs 06,0,0,4,0,0,4097
+219655,Charter Signatures 06,219654,6,0,110434,0,0
+219656,Charter Sigs 07,0,0,4,0,0,4097
+219657,Charter Signatures 07,219656,7,0,110435,0,0
+219658,Charter Sigs 08,0,0,4,0,0,4097
+219659,Charter Signatures 08,219658,8,0,110436,0,0
+219660,Charter Sigs 09,0,0,4,0,0,4097
+219661,Charter Signatures 09,219660,9,0,110437,0,0
+219662,Charter Sigs 10,0,0,4,0,0,4097
+219663,Charter Signatures 10,219662,10,0,110438,0,0
+219665,Charter Signatures Collected,0,0,4,0,0,4096
+219666,Charter Signatures Collected,219665,10,0,110440,0,0
+219745,Pet battle won,0,0,4,0,0,8193
+219746,,219745,0,0,110482,0,0
+219749,Snowball thrown,0,0,4,0,0,8193
+219750,,219749,0,0,110484,0,0
+219751,Dimensius,136359,1,0,110486,15,0
+219752,Dimensius,149883,1,0,110486,15,0
+219753,Dimensius,149897,1,0,110486,15,0
+219757,"Herbs, ores, skins, or fish gathered",0,50,5,0,0,8193
+219758,,219757,1,0,110487,0,1
+219759,,219757,1,0,110488,1,1
+219760,,219757,1,0,110489,2,1
+219761,Quests completed,0,15,5,0,0,8193
+219762,,219761,0,0,110490,0,0
+219763,Bosses defeated,0,5,5,0,0,8193
+219764,,219763,0,0,110491,0,0
+219765,Timewalking dungeons completed,0,1,5,0,0,8193
+219766,,219765,0,0,110492,0,0
+219767,,219765,0,0,110493,1,0
+219768,,219765,0,0,110494,2,0
+219769,,219765,0,0,110495,3,0
+219770,,219765,0,0,110496,4,0
+219771,,219765,0,0,110497,5,0
+219772,,219765,0,0,110498,6,0
+219773,,219765,0,0,110499,7,0
+219774,,219765,0,0,110500,8,0
+219775,Timewalking dungeons completed,0,5,5,0,0,8193
+219776,,219775,0,0,110492,0,0
+219777,,219775,0,0,110493,1,0
+219778,,219775,0,0,110494,2,0
+219779,,219775,0,0,110495,3,0
+219780,,219775,0,0,110496,4,0
+219781,,219775,0,0,110497,5,0
+219782,,219775,0,0,110498,6,0
+219783,,219775,0,0,110499,7,0
+219784,,219775,0,0,110500,8,0
+219785,Pandaria pet tamers defeated,0,3,8,0,0,1
+219786,Addius the Tormenter,219785,1,0,110501,0,0
+219787,Rotgut,219785,1,0,110502,1,0
+219788,Stratios,219785,1,0,110503,2,0
+219789,Eyegor,219785,1,0,110504,3,0
+219790,Thenia,219785,1,0,110505,4,0
+219791,Sylla,219785,1,0,110506,5,0
+219792,Dundley Stickyfingers,219785,1,0,110507,6,0
+219793,Zolla,219785,1,0,110508,7,0
+219794,Faryl,219785,1,0,110509,8,0
+219795,Glitterdust,219785,1,0,110510,9,0
+219796,Caregiver Maximillian,219785,1,0,110511,10,0
+219797,00.x Heritage - Blood Elf - Achievement (MPK),0,1,8,0,0,0
+219798,,219797,0,0,110512,0,0
+219799,,219797,0,0,110513,1,0
+219802,Bosses defeated,0,1,5,0,0,8193
+219803,,219802,0,0,110515,0,0
+219804,Bosses defeated,0,5,5,0,0,8193
+219805,,219804,0,0,110515,0,0
+219806,Bosses defeated,0,10,5,0,0,8193
+219807,,219806,0,0,110515,0,0
+219808,Bosses defeated,0,20,5,0,0,8193
+219809,,219808,0,0,110515,0,0
+219830,Quel'thalas Lorewalking completed,0,0,4,0,0,8192
+219831,,219830,1,0,110528,0,0
+220209,Participate in 5 instanced PvP matches,0,5,4,0,0,0
+220210,,220209,5,0,110819,0,1
+220211,Participate in 20 instanced PvP matches,0,5,4,0,0,1
+220212,,220211,20,0,110819,0,1
+220213,Participate in 50 instanced PvP matches,0,5,4,0,0,1
+220214,,220213,50,0,110819,0,1
+220215,Participate in 100 instanced PvP matches,0,5,4,0,0,1
+220216,,220215,100,0,110819,0,1
+220217,Participate in 200 instanced PvP matches,0,5,4,0,0,1
+220218,,220217,200,0,110819,0,1
+220219,Participate in 300 instanced PvP matches,0,5,4,0,0,1
+220220,,220219,300,0,110819,0,1
+220777,[DNT] Recruit 20 Troops as a Priest.,0,0,4,0,0,0
+220778,Recruit 20 troops.,220777,20,0,111095,0,1
+220830,Recruit 20 Troops as a Priest.,0,0,4,0,0,0
+220831,Recruit 20 troops.,220830,20,0,111095,0,1
+220832,Recruit 20 Troops as a Death Knight.,0,0,4,0,0,0
+220833,Recruit 20 troops.,220832,20,0,111135,0,1
+220834,Recruit 20 Troops as a Demon Hunter.,0,0,4,0,0,0
+220835,Recruit 20 troops.,220834,20,0,111136,0,1
+220836,Recruit 20 Troops as a Druid.,0,0,4,0,0,0
+220837,Recruit 20 troops.,220836,20,0,111137,0,1
+220838,Recruit 20 Troops as a Hunter.,0,0,4,0,0,0
+220839,Recruit 20 troops.,220838,20,0,111138,0,1
+220840,Recruit 20 Troops as a Mage.,0,0,4,0,0,0
+220841,Recruit 20 troops.,220840,20,0,111139,0,1
+220842,Recruit 20 Troops as a Monk.,0,0,4,0,0,0
+220843,Recruit 20 troops.,220842,20,0,111140,0,1
+220844,Recruit 20 Troops as a Paladin.,0,0,4,0,0,0
+220845,Recruit 20 troops.,220844,20,0,111141,0,1
+220846,Recruit 20 Troops as a Rogue.,0,0,4,0,0,0
+220847,Recruit 20 troops.,220846,20,0,111142,0,1
+220848,Recruit 20 Troops as a Shaman.,0,0,4,0,0,0
+220849,Recruit 20 troops.,220848,20,0,111143,0,1
+220850,Recruit 20 Troops as a Warlock.,0,0,4,0,0,0
+220851,Recruit 20 troops.,220850,20,0,111144,0,1
+220852,Recruit 20 Troops as a Warrior.,0,0,4,0,0,0
+220853,Recruit 20 troops.,220852,20,0,111145,0,1
+220858,Tutorial Quest Completed,0,1,8,0,0,8192
+220859,,220858,1,0,111148,0,0
+220860,,220858,1,0,111149,1,0
 220898,The Unbound Tank,0,0,4,0,0,0
 220899,"Ara-Kara, City of Echoes",220898,0,0,111167,0,0
 220900,The Dawnbreaker,220898,0,0,111168,1,0
@@ -107668,3 +108378,78 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 220926,The Unbound Tank,220925,0,0,111191,0,0
 220927,The Unbound Healer,220925,0,0,111192,1,0
 220928,The Unbound Damage Dealer,220925,0,0,111193,2,0
+220929,Place 4 Decor,0,0,4,0,0,4097
+220930,Place 4 Decor in your House Interior.,220929,4,0,111194,0,0
+220931,Place 3 Decor,0,0,4,0,0,4097
+220932,Place 3 Decor in your House Interior.,220931,3,0,111195,0,0
+220933,Place 2 Decor,0,0,4,0,0,4097
+220934,Place 2 Decor in your House Interior.,220933,2,0,111196,0,0
+220935,Place 1 Decor,0,0,4,0,0,4097
+220936,Place 1 Decor in your House Interior.,220935,1,0,111197,0,0
+220937,Unlock Decor,0,0,4,0,0,4096
+220938,Decor Unlocked,220937,1,0,111198,0,0
+220940,11.2.7 Brawler's Guide - Has Queued For Brawl,0,0,4,0,0,4096
+220941,,220940,1,0,111203,0,0
+220988,Unlock Decor,0,0,4,0,0,4096
+220989,Decor Unlocked,220988,1,0,111231,0,0
+220990,[DNT] Login while having Housing Early Access licence,0,0,4,0,0,0
+220991,,220990,1,0,111232,0,0
+221019,Reenter Neighborhood,0,1,8,0,0,4096
+221020,Reenter Neighborhood,221019,1,0,111251,0,0
+221021,Reenter Neighborhood,221019,1,0,111252,1,0
+221133,Reenter Neighborhood,221019,1,0,111326,2,0
+221134,Reenter Neighborhood,221019,1,0,111327,3,0
+221149,"Complete the quest ""Shal'Aran"", found in Suramar",0,0,4,0,0,4096
+221150,,221149,1,0,111337,0,0
+221151,"Complete the quest ""Khadgar's Discovery""",0,1,8,0,0,4096
+221152,,221151,0,0,111338,0,0
+221153,,221151,0,0,111339,1,0
+221154,"Complete the quest ""Magic Message"", found in Dalaran above the Broken Isles",0,0,4,0,0,4096
+221155,,221154,1,0,111340,0,0
+221156,"Complete the quest ""Trail of Echoes"", found in Suramar",0,0,4,0,0,4096
+221157,,221156,1,0,111341,0,0
+221158,"Complete the quest ""The Only Way Out is Through"", found in Suramar",0,0,4,0,0,4096
+221159,,221158,0,0,111342,0,0
+221160,"Complete the quest ""The Nightborne Pact"", found in Suramar",0,0,4,0,0,4096
+221161,,221160,0,0,111343,0,0
+221162,"Complete the quest ""Arcane Thirst"", found in Suramar",0,0,4,0,0,4096
+221163,,221162,0,0,111344,0,0
+221270,Enter your house via the front door,0,0,4,0,0,6144
+221271,Enter your house via the front door,221270,1,0,111405,0,0
+221767,Complete the 7th Tier of your Class Hall Research (Demon Hunter),0,1,8,0,0,0
+221768,,221767,1,0,111663,0,2
+221769,,221767,1,0,111662,1,2
+221770,Complete the 7th Tier of your Class Hall Research (Death Knight),0,1,8,0,0,0
+221771,,221770,1,0,111666,0,2
+221772,,221770,1,0,111665,1,2
+221773,Complete the 7th Tier of your Class Hall Research (Hunter),0,1,8,0,0,0
+221774,,221773,1,0,111668,0,2
+221775,,221773,1,0,111667,1,2
+221776,Complete the 7th Tier of your Class Hall Research (Mage),0,1,8,0,0,0
+221777,,221776,1,0,111670,0,2
+221778,,221776,1,0,111669,1,2
+221779,Complete the 7th Tier of your Class Hall Research (Monk),0,1,8,0,0,0
+221780,,221779,1,0,111672,0,2
+221781,,221779,1,0,111671,1,2
+221782,Complete the 7th Tier of your Class Hall Research (Paladin),0,1,8,0,0,0
+221783,,221782,1,0,111674,0,2
+221784,,221782,1,0,111673,1,2
+221785,Complete the 7th Tier of your Class Hall Research (Priest),0,1,8,0,0,0
+221786,,221785,1,0,111676,0,2
+221787,,221785,1,0,111675,1,2
+221788,Complete the 7th Tier of your Class Hall Research (Rogue),0,1,8,0,0,0
+221789,,221788,1,0,111678,0,2
+221790,,221788,1,0,111677,1,2
+221791,Complete the 7th Tier of your Class Hall Research (Shaman),0,1,8,0,0,0
+221792,,221791,1,0,111680,0,2
+221793,,221791,1,0,111679,1,2
+221794,Complete the 7th Tier of your Class Hall Research (Warlock),0,1,8,0,0,0
+221795,,221794,1,0,111682,0,2
+221796,,221794,1,0,111681,1,2
+221797,Complete the 7th Tier of your Class Hall Research (Warrior),0,1,8,0,0,0
+221798,,221797,1,0,111684,0,2
+221799,,221797,1,0,111683,1,2
+222099,Reach Level 45,0,0,4,0,0,0
+222100,,222099,1,0,59146,0,2
+222103,Reach Level 45,0,0,4,0,0,4096
+222104,,222103,1,0,111893,0,2
