@@ -2545,6 +2545,7 @@ end"
 		timelineHandleName = """",
 		fadeRegionSettings = ActorFadeRegionSettings:Default(),
 		alwaysAnimating = false,
+		showItemVisual = false,
 	}
 	setmetatable(c, self.__meta)
 	return c

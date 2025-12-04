@@ -105935,7 +105935,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 211842,March on Suramar,211836,1,0,106035,5,16
 211843,Elisande's Retort,211836,1,0,106036,6,16
 211844,As Strong As Our Will,211836,1,0,106037,7,16
-211845,Breaking the Nighthold,211836,1,0,34781,8,16
+211845,Breaking the Nighthold,211836,1,0,106038,8,16
 211846,11.2.5 Remix - Legion - Journey - Quest - Legionfall Campaign,0,0,4,0,0,0
 211847,Armies of Legionfall,211846,1,0,106039,0,16
 211848,Assault on Broken Shore,211846,1,0,106040,1,16
@@ -106225,8 +106225,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 212203,12.0 Delves - Fungarians03 - V01 - Announcer Bark 01,0,0,4,0,0,0
 212204,Announcer Bark 01,212203,2,0,105769,0,0
 212205,12.0 Delves - Hextroll - V1 - Kill Trolls,0,1,4,0,0,0
-212207,Cursed Totems destroyed,217554,8,0,106295,0,0
-212208,Dungeons Completed in Midnight,0,5,5,0,0,8193
+212207,Cursed Totems destroyed,217554,7,0,106295,0,0
+212208,Midnight Dungeons completed,0,5,5,0,0,8193
 212209,Dungeons Completed in Midnight,212208,0,0,106297,0,0
 212210,,212208,0,0,106298,1,0
 212211,,212208,0,0,106299,2,0
@@ -106275,11 +106275,11 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 212254,,212253,40,0,106324,0,0
 212255,Complete the Abyss Angler event,0,0,4,0,0,0
 212256,Abyss Angler event completed,212255,5,0,106325,0,1
-212257,"Achieve a score of 25,000 points or greater in any Abundance event",0,0,4,0,0,0
-212258,"Score of 25,000 points or greater in an Abundance event achieved",212257,1,0,106326,0,1
+212257,Abundance acquired,0,0,4,0,0,1
+212258,Abundance acquired,212257,25000,0,106326,0,1
 212259,Abundance events completed,0,0,4,0,0,0
 212260,Abundance events completed,212259,4,0,106327,0,1
-212261,"Complete a ""Legends of the Haranir"" event",0,0,4,0,0,0
+212261,"Complete a ""Legends of the Haranir"" event",0,0,4,0,0,1
 212262,"""Legends of the Haranir"" event completed",212261,1,0,106328,0,0
 212263,Reach level 81,0,1,4,0,0,0
 212264,,212263,81,0,106330,0,0
@@ -107726,7 +107726,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 213848,,213841,1,0,107328,5,0
 213849,,213841,1,0,107329,6,0
 213850,,213841,1,0,107330,7,0
-213851,Vanguard Barricades repaired,221594,6,0,105575,0,0
+213851,Vanguard Barricades repaired,221594,8,0,105575,0,0
 213852,Aid Alleria's search for the Harbinger,0,0,4,0,0,4096
 213853,,213852,1,0,107331,0,0
 213854,,213852,1,0,107332,1,0
@@ -108329,13 +108329,13 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 214536,Undead Battler of Northrend,214526,1,0,107771,9,0
 214537,Suspicious Levers pulled,212452,7,0,107772,1,32
 214538,Lightbloom creatures slain,0,50,5,0,0,8193
-214539,Slay lightbloom creatures,214538,1,0,107773,0,0
+214539,Slay Lightbloom creatures,214538,1,0,107773,0,0
 214540,,214538,1,0,107774,1,0
 214541,Lightbloom creatures slain,0,100,5,0,0,8193
-214542,Slay lightbloom creatures,214541,1,0,107773,0,0
+214542,Slay Lightbloom creatures,214541,1,0,107773,0,0
 214543,,214541,1,0,107774,1,0
 214544,Lightbloom creatures slain,0,150,5,0,0,8193
-214545,Slay lightbloom creatures,214544,1,0,107773,0,0
+214545,Slay Lightbloom creatures,214544,1,0,107773,0,0
 214546,,214544,1,0,107774,1,0
 214553,12.0 Delves - Ethereals02 - V02 - Dunk charges (HCR),0,0,4,0,0,0
 214554,Overload Void Stabilizers with Arcane Charges,214553,5,0,107777,0,32
@@ -109904,9 +109904,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 216273,Sabotaged Leylines discovered,216272,0,4,0,0,0
 216274,Sabotaged Leylines examined,216273,1,0,108818,0,0
 216275,12.0 Delves - TwilightsBlade03 - V1 - Leyline Conduits,0,0,4,0,0,0
-216276,Find Leyline Focusers and Repair Conduits,216275,0,4,0,0,0
-216277,Leyline Focusers acquired,216276,6,0,111466,0,0
-216278,Leyline Conduits installed,216276,6,0,108820,1,0
+216276,Find Leyline Focusers and Repair Conduits,216275,1,8,0,0,0
+216277,Leyline Focusers collected (Optional),222824,10,0,111466,1,0
+216278,Leyline Focusers installed in Leyline Conduits,222824,6,0,108820,0,0
 216279,12.0 Delves - TwilightsBlade03 - V1 - Kill Miniboss,0,0,4,0,0,0
 216280,Kill Miniboss,216279,0,4,0,0,0
 216281,Voidbreaker Oglok slain,216280,1,0,108822,0,0
@@ -109933,8 +109933,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 216303,12.0 Delves - TwilightsBlade03 - V2 - Boss Defeated,0,0,4,0,0,0
 216304,Defeat Boss,216303,0,4,0,0,0
 216305,Infiltrator Gulkat slain,216304,1,0,60399,0,0
-216306,Sha of Anger defeated,0,3,5,0,0,8193
-216307,Sha of Anger defeated,216306,1,0,108828,0,0
+216306,Sha of Anger defeated,0,1,5,0,0,8193
+216307,Sha of Anger defeated,216306,0,0,108828,0,0
 216308,11.2.5 Remix - Legion - Journey - Reputation - Wardens - Exalted,0,0,4,0,0,32
 216309,The Wardens,216308,42000,0,108829,0,0
 216310,Kill Hozen Branch,0,2,4,0,0,0
@@ -109942,12 +109942,11 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 216312,Quests completed,0,5,5,0,0,8193
 216313,Kun-Lai Quests,216312,1,0,108831,0,0
 216314,Luckydos looted,0,10,5,0,0,8193
-216315,,216314,1,0,109365,0,0
 216319,"Herbs, ores, skins, or fish gathered",0,100,5,0,0,8193
 216320,,216319,1,0,108836,0,0
 216321,,216319,1,0,109387,1,0
 216322,,216319,1,0,108837,2,0
-216323,Lumber harvested in Kun-Lai Summit,0,60,5,0,0,8193
+216323,Bamboo Lumber harvested,0,60,5,0,0,8193
 216324,,216323,1,0,108838,0,0
 216325,12.0 Delves - TwilightsBlade02 - V02 - 17 Hostages Freed (Hufton),0,0,4,0,0,0
 216326,,216325,17,0,106443,0,32
@@ -109975,7 +109974,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 216348,No Time to Paws,0,0,4,0,0,0
 216349,,216348,1,0,108843,0,0
 216352,Lumber harvested in Forbidden Reach,0,100,4,0,0,0
-216353,Forbidden Reach lumber harvested,216352,60,0,108845,0,1
+216353,Dragonpine Lumber harvested,216352,60,0,108845,0,1
 216354,Delves completed,0,5,4,0,0,0
 216355,Delves completed,216354,5,0,108846,0,1
 216356,Earn 1000 honor in Eversong Woods while in War Mode.,0,0,4,0,0,0
@@ -109998,21 +109997,21 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 216373,Derelict Duo defeated,216371,1,0,70008,1,0
 216374,Commander Kroluk defeated,216371,1,0,70009,2,0
 216375,Restless Heart defeated,216371,1,0,70010,3,0
-216376,Enemy Forces,216371,633,9,0,4,0
+216376,Enemy Forces,216371,603,9,0,4,0
 216377,,216376,15,0,108854,5,0
 216378,12.0 Dungeon - Magisters' Terrace (Challenge),0,0,4,0,0,0
 216379,Arcanotron Custos Defeated,216378,1,0,70056,0,0
 216380,Seranel Sunlash Defeated,216378,1,0,70057,1,0
 216381,Gemellus Defeated,216378,1,0,70058,2,0
 216382,Degentrius Defeated,216378,1,0,70059,3,0
-216383,Enemy Forces,216378,702,9,0,4,0
+216383,Enemy Forces,216378,597,9,0,4,0
 216384,,216383,12,0,108855,7,0
 216385,12.0 Dungeon - Nexus Point (Challenge),0,0,4,0,0,0
 216386,Chief Corewright Kasreth defeated,216385,1,0,106479,0,0
 216387,Corewarden Nysarra defeated,216385,1,0,106480,1,0
 216388,Lothraxion defeated,216385,1,0,106481,2,0
-216389,Enemy Forces,216385,100,9,0,3,0
-216390,,216389,50,0,108856,0,0
+216389,Enemy Forces,216385,525,9,0,3,0
+216390,,216389,3,0,108856,6,0
 216391,12.0 Dungeon - Maisara Caverns (Challenge),0,0,4,0,0,0
 216392,Muro'jin and Nekraxx defeated,216391,1,0,106472,0,0
 216393,Vordaza defeated,216391,1,0,106473,1,0
@@ -110050,9 +110049,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 216425,Envisioned Mastery,216420,10,0,108865,4,2048
 216426,Undercover Hunt,216420,10,0,108866,5,2048
 216427,Overcoming the Unknown,216420,10,0,108867,6,2048
-216428,,216389,1,0,50191,1,0
-216429,,216389,10,0,50192,2,0
-216430,,216389,9999,0,48468,3,0
+216428,,216389,1,0,50191,0,0
+216429,,216389,10,0,50192,1,0
+216430,,216389,9999,0,48468,2,0
 216431,,216395,6,0,50191,0,0
 216432,,216395,7,0,50192,1,0
 216433,,216395,9999,0,48468,2,0
@@ -110398,7 +110397,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 216781,Eye of Revelation collected,0,0,4,0,0,0
 216782,Eye of Revelation collected,216781,1,0,109102,0,0
 216783,Kill Sha Branch,0,2,4,0,0,0
-216784,Sha of Anger defeated,216783,1,0,108828,0,1
+216784,Sha of Anger defeated,216783,1,0,109103,0,1
 216789,,207240,1,0,105370,4,2
 216790,Collect 1 Unique Decor,0,0,4,0,0,0
 216791,Collect 1 Unique Decor,216790,1,0,109249,0,1
@@ -110481,12 +110480,12 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 216887,,216886,0,0,109155,0,0
 216888,Obtain or Know Nightborne Lantern Decor,0,0,4,0,0,4096
 216889,,216888,0,0,109156,0,0
-216890,Decor Placed,0,0,4,0,0,0
-216891,Decor Placed,216890,50,0,109158,0,1
-216892,Decor Placed,0,0,4,0,0,0
-216893,Decor Placed,216892,100,0,109158,0,1
-216894,Decor Placed,0,0,4,0,0,0
-216895,Decor Placed,216894,150,0,109158,0,1
+216890,Decor placed,0,0,4,0,0,0
+216891,Decor placed,216890,50,0,109158,0,1
+216892,Decor placed,0,0,4,0,0,0
+216893,Decor placed,216892,100,0,109158,0,1
+216894,Decor placed,0,0,4,0,0,0
+216895,Decor placed,216894,150,0,109158,0,1
 216896,Travel to a new location using the Singularity Portal,0,0,4,0,0,0
 216897,Travel to a new location using the Singularity Portal,216896,1,0,109159,0,0
 216898,Decor acquired,0,0,4,0,0,0
@@ -110530,7 +110529,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 216958,Deliver luckydos to base camp,216957,1,0,109207,0,0
 216959,Fallen berries collected,0,3,5,0,0,8193
 216960,Collect kafa'kota berries from training climb,216959,1,0,109208,0,0
-216961,Mount riden,0,1,5,0,0,8193
+216961,Mount ridden,0,1,5,0,0,8193
 216962,Ride mount back to town center,216961,1,0,109209,0,0
 216970,10.2 Superbloom - Scenario -  (LAS),0,0,4,0,0,0
 216971,,216970,0,0,109216,0,32
@@ -110557,7 +110556,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 216999,Speak with Riftblade Maella,216998,1,0,108804,0,0
 217000,12.0 Delves - DevouringHost02 - V02 - Kill Stuff (MDE),0,0,4,0,0,0
 217001,Lightbloom slain,217002,5,0,62703,0,1
-217002,Void threats eleiminated.,217000,140,9,0,0,0
+217002,Void threats eliminated.,217000,140,9,0,0,0
 217003,Singularity Coils placed into Stabilizers,217000,5,0,110164,1,0
 217004,12.0 Delves - DevouringHost02 - V02 - Kill Etherals (MDE),0,0,4,0,0,0
 217005,Esuritus slain,217004,1,0,60399,0,0
@@ -110584,9 +110583,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 217028,12.0 Delves - DevouringHost02 - V03 - Kill Boss (MDE),0,0,4,0,0,0
 217029,Corrupted Umbraroots destroyed,217028,3,0,110184,0,0
 217030,Quarry camps liberated,216367,5,0,109242,2,0
-217031,Injured Artisians healed,0,0,4,0,0,0
-217032,Injured Artisians healed,217031,20,0,109243,0,1
-217033,Light and Void threats eleiminated.,217024,170,9,0,0,0
+217031,Wounded Artists healed,0,0,4,0,0,0
+217032,Wounded Artists healed,217031,20,0,109243,0,1
+217033,Light and Void threats eliminated.,217024,170,9,0,0,0
 217034,Lightbloom slain,217033,5,0,62703,0,1
 217035,Lightbloom slain,217033,10,0,62704,1,1
 217036,Lightbloom slain,217033,20,0,62705,2,1
@@ -110627,7 +110626,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 217074,Junkyard Tinkering items crafted,0,0,4,0,0,0
 217075,Junkyard Tinkering items crafted,217074,10,0,109263,0,1
 217076,Lumber harvested in Mechagon,0,100,4,0,0,0
-217077,Mechagon lumber harvested,217076,60,0,109264,0,1
+217077,Darkpine Lumber harvested,217076,60,0,109264,0,1
 217078,"Herbs, ores, skins, or fish gathered",0,100,5,0,0,8193
 217079,,217078,1,0,109265,0,0
 217080,,217078,1,0,109266,1,0
@@ -110702,8 +110701,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 217552,Defeat Crown of the Cosmos after slaying a Fleshy Monstrosity and returning all of its meat to The Emptiness in The Voidspire on Normal difficulty or higher.,0,0,4,0,0,0
 217553,Fleshy Monstrosity slain and meat returned to The Emptiness.,217552,1,0,109325,0,0
 217554,Unnamed Branch,218222,0,4,0,0,0
-217555,Cursed Totems destroyed,218228,8,0,106295,0,2
-217556,Steal Villebranch Eagle and fly to the backside (Optional),217554,1,0,109326,1,0
+217555,Cursed Totems destroyed,218228,7,0,106295,0,2
+217556,Steal Villebranch Eagle to attack from a different direction (Optional),217554,1,0,109326,1,0
 217557,Twilight Crypts delve entered,0,0,4,0,0,4096
 217558,,217557,1,0,109327,0,0
 217559,12.0 Valeera Questline - Delves - Complete Twilight Crypts (MA),0,0,4,0,0,4096
@@ -110711,13 +110710,13 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 217561,[DNT] Trigger game event,0,0,4,0,0,4096
 217562,"Take Strom'kar, the Warbreaker.",217561,0,0,109329,0,0
 217591,12.0 Delves - Atal'Aman - V03 - Kill Stuff (MDE),0,0,4,0,0,0
-217592,Vilebranch forces defeated,217591,160,9,0,0,0
+217592,Vilebranch forces defeated,217591,165,9,0,0,0
 217593,Vilebranch forces defeated,217592,5,0,62703,0,1
 217594,Vilebranch forces defeated,217592,10,0,62704,1,1
 217595,Vilebranch forces slain,217592,20,0,62705,2,1
 217596,Vilebranch forces defeated,217592,1,0,62794,3,1
 217597,Vilebranch forces defeated,217592,2,0,62701,4,1
-217598,Hex curse removed from Frog.,217591,20,0,109361,1,0
+217598,Hex curse removed from Frog.,217591,24,0,109361,1,0
 217599,[DNT] Login while owning Base edition of 12.0,0,1,4,0,0,0
 217600,,217599,1,0,109362,0,0
 217601,[DNT] Login while owning Heroic edition of 12.0,0,1,4,0,0,0
@@ -110773,12 +110772,12 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 217669,Mythic: Midnight Falls,0,0,4,0,0,0
 217670,,217669,1,0,109099,0,2
 217671,Achievement - Glory of the Midnight Raider,0,0,4,0,0,0
-217672,,217671,0,0,109383,2,32
+217672,,217671,0,0,109383,5,32
 217673,"Defeat Belo'ren, Child of Al'ar after infusing the Sunwell Egg with Light and Void magic in the March on Quel'Danas on Normal difficulty or higher.",0,0,4,0,0,0
 217674,Sunwell Egg infused with Light and Void magic.,217673,1,0,109384,0,0
 217675,12.0 Z1 - WQ - Complex 02 - Goldenmist - CAPSTONE - UNLOCK (SH),0,0,4,0,0,4096
 217676,,217675,3,0,109385,0,0
-217677,,217671,0,0,109386,3,32
+217677,,217671,0,0,109386,7,32
 217689,Miscalibrated Hens returned,0,12,4,0,0,0
 217690,Miscalibrated Hens returned,217689,12,0,109394,0,1
 217691,Mechagnome air jets used,0,0,4,0,0,0
@@ -111459,7 +111458,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 218495,Between Two Trolls,218492,0,0,109717,2,16
 218496,Sorrowing Kin,218492,0,0,109719,3,16
 218497,The Loa of Murlocs,218492,0,0,109727,8,16
-218498,,218492,0,0,109721,4,16
+218498,Unlikely Friends,218492,0,0,109721,4,16
 218499,The Voice of Nalorakk,218492,0,0,109723,5,16
 218500,Reclaiming de Honor,218492,0,0,109725,6,16
 218501,Vengeance for Tolbani,218492,0,0,109726,7,16
@@ -111473,8 +111472,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 218511,Return to the Darkway - Exit Credit,0,0,4,0,0,4096
 218512,,218511,0,0,109737,0,0
 218513,12.0 Z2 Meta Achievement (ZCS),0,0,4,0,0,0
-218514,,218513,0,0,109738,0,32
-218515,,218513,0,0,104579,1,32
+218514,,218513,0,0,112085,4,32
+218515,,218513,0,0,104579,3,32
 218520,New Criteria Tree,0,2,5,0,0,4096
 218521,,218520,1,0,109741,0,0
 218528,Defeat Chimaerus after plucking all Corrupted Feathers from Sergeant Quackers and rescuing him from the Aln in The Dreamrift on Normal difficulty or higher.,0,0,4,0,0,0
@@ -111493,7 +111492,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 218547,,218545,1,0,109760,0,0
 218548,Members of the Ethereum defeated,0,100,5,0,0,8193
 218549,Members of the Ethereum defeated,218548,1,0,109761,0,0
-218553,,217671,0,0,109764,4,32
+218553,,217671,0,0,109764,6,32
 218563,Sanctum Security panel activated (Optional),219220,1,0,109771,2,0
 218568,Honor earned in Rated Arenas,0,1500,5,0,0,4096
 218569,,218568,1500,0,109774,0,2048
@@ -111785,7 +111784,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 219267,Speak with Intro NPC,219266,10,4,0,0,0
 219268,Speak with Ashayo,219267,0,0,110159,0,0
 219269,"12.0 Delves - Rutaani01 - V2 - Run Over Hazards, Kill Enemies",0,0,4,0,0,0
-219270,Sprouting lightbloom growths eaten,219269,175,0,110160,0,0
+219270,Sprouting Lightbloom growths eaten,219269,175,0,110160,0,0
 219271,Lightbloom invaders slain,219269,400,9,0,1,32
 219272,,219271,8,0,62703,0,1
 219273,,219271,2,0,62701,1,1
@@ -111845,7 +111844,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 219340,Sanctum Security panel activated,217024,1,8,0,2,8192
 219341,Sanctum Security panel activated,219340,1,0,110188,1,8192
 219344,12.0 Professions - Alchemy - Complete Crafting Orders Weekly,0,2,5,0,0,4096
-219345,,219344,2,0,110191,0,0
+219345,,219344,2,0,110191,0,2048
 219348,12.0 Professions - Blacksmithing - Complete Crafting Orders Weekly,0,3,5,0,0,4096
 219349,,219348,3,0,110193,0,2048
 219352,12.0 Professions - Engineering - Complete Crafting Orders Weekly,0,2,5,0,0,4096
@@ -111857,8 +111856,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 219364,12.0 Professions - Leatherworking - Complete Crafting Orders Weekly,0,3,5,0,0,4096
 219365,,219364,3,0,110201,0,2048
 219368,12.0 Professions - Tailoring - Complete Crafting Orders Weekly,0,3,5,0,0,4096
-219369,,219368,3,0,110203,0,0
-219370,,217671,0,0,110204,0,32
+219369,,219368,3,0,110203,0,2048
+219370,,217671,0,0,110204,2,32
 219371,Oversized Candle lit,215959,5,0,110205,0,0
 219374,Radiant Singer,0,0,4,0,0,0
 219375,,219374,0,0,110207,0,0
@@ -111907,8 +111906,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 219430,Impenatrably Sealed Gourd,216639,1,0,110255,6,0
 219431,Sporespawned Cache,216639,1,0,110256,7,0
 219432,Peculiar Cauldron,216639,1,0,110257,8,0
-219433,Explore Harandar - Placeholder Criteria,0,0,4,0,0,0
-219434,,219433,0,0,110258,0,0
+219433,12.0 Achievement - Explore Harandar - (LWB),0,0,4,0,0,0
+219434,Har'kuai,219433,1,0,112379,0,0
 219439,,218152,1,0,110263,1,2
 219440,,218152,1,0,110264,2,2
 219441,Restless Heart defeated,0,0,4,0,0,4096
@@ -111982,9 +111981,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 219516,,208931,1,0,110334,1,1
 219517,Achievement - Eversong Woods Glyph Hunter,0,0,4,0,0,0
 219518,"The Shining Span, Eversong Woods",219517,0,0,110335,0,16
-219519,"Sunstrider Isle, Eversong Woods",219517,0,0,110336,1,16
+219519,"Brightwing Estate, Eversong Woods",219517,0,0,110336,1,16
 219520,"Silvermoon City, Eversong Woods",219517,0,0,110337,2,16
-219521,"Runestone Shan'dor, Eversong Woods",219517,0,0,110338,3,16
+219521,"Goldenmist Village, Eversong Woods",219517,0,0,110338,3,16
 219522,"Path of Dawn, Eversong Woods",219517,0,0,110339,4,16
 219523,"Sunsail Anchorage, Eversong Woods",219517,0,0,110340,5,16
 219524,"Danwstar Spire, Eversong Woods",219517,0,0,110341,6,16
@@ -112255,7 +112254,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 219827,Technician Mireille spoken to,219826,1,0,105376,0,32
 219828,12.0 Delves - TwilightsBlade03 - V3 - Interloper confronted,0,0,4,0,0,0
 219829,Infiltrator Gulkat confronted,219828,1,0,110527,0,0
-219830,Quel'thalas Lorewalking completed,0,0,4,0,0,8192
+219830,Quel'Thalas Lorewalking completed,0,0,4,0,0,8192
 219831,,219830,1,0,110528,0,0
 219832,Discover Legends of the Haranir,0,0,4,0,0,4096
 219833,Filter Quests with Label Legends of the Haranir,219832,0,0,110530,0,0
@@ -112991,7 +112990,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 220769,Midnight Delves: Tier 3,0,0,4,0,0,0
 220770,,220769,0,0,111056,0,0
 220771,Midnight Pathfinder,0,0,4,0,0,0
-220772,Into the Woods,220771,1,0,104578,1,0
+220772,,220771,1,0,104578,1,32
 220775,Collect a Midnight Season 1 Tier 35 Set on at least 1 class.,0,0,4,0,0,0
 220776,,220775,1,0,111094,0,2
 220777,[DNT] Recruit 20 Troops as a Priest.,0,0,4,0,0,0
@@ -113008,20 +113007,20 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 220788,Explore Harandar,220787,1,0,111096,0,0
 220789,Explore the regions of Midnight.,0,0,4,0,0,0
 220790,Explore Harandar.,220789,1,0,111096,0,0
-220791,12.0 Z1 - Achievement - Explore Eversong Woods - PLACEHOLDER NEED TO UPDATE (SH),0,0,4,0,0,0
-220792,,220791,0,0,110258,0,0
-220793,Explore Zul'aman - Placeholder Criteria,0,0,4,0,0,0
-220794,,220793,0,0,110258,0,0
-220795,Explore Voidstorm - Placeholder Criteria,0,0,4,0,0,0
-220796,,220795,0,0,110258,0,0
+220791,12.0 Z1 - Achievement - Explore Eversong Woods (SH),0,0,4,0,0,0
+220792,Amani Pass,220791,1,0,112430,0,0
+220793,Explore Zul'aman,0,0,4,0,0,0
+220794,Atal'Aman,220793,0,0,112392,0,0
+220795,Explore Voidstorm,0,0,4,0,0,0
+220796,Nexus-Point Antius,220795,1,0,112402,0,0
 220797,Explore Eversong Woods.,220789,1,0,111097,1,0
 220798,Explore Zul'Aman.,220789,1,0,111098,2,0
 220799,Explore Voidstorm.,220789,1,0,111099,3,0
-220800,The Midnight Explorer,220771,1,0,111100,0,0
-220801,One Does Not Simply Walk Into Harandar,220771,1,0,104581,2,0
-220802,For Zul'Aman!,220771,1,0,104579,3,0
-220803,Arator's Journey,220771,1,0,104582,4,0
-220804,Voidstorm,220771,1,0,104580,5,0
+220800,,220771,1,0,111100,0,32
+220801,,220771,1,0,104581,2,32
+220802,,220771,1,0,104579,3,32
+220803,,220771,1,0,104582,4,32
+220804,,220771,1,0,104580,5,32
 220805,Achievement: 12.0 Mythic VFX Unlock,0,1,8,0,0,0
 220806,,220805,0,0,111101,0,32
 220807,,220805,0,0,111102,1,32
@@ -113109,7 +113108,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 220889,"A Gift, Given Freely",220881,0,0,111159,7,16
 220890,Breaking the Triad,220881,0,0,111160,8,16
 220891,"Go Low, Go Loud",220881,0,0,111161,9,16
-220892,Something to Prove,220881,0,0,111162,10,16
+220892,Written by the Winners,220881,0,0,111162,10,16
 220893,Oaths to Family,220881,0,0,111163,11,16
 220894,To Be Changed,220881,0,0,111164,12,16
 220895,A Dance with the Devil,220881,0,0,111165,13,16
@@ -113322,7 +113321,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 221202,Lithiel Cinderfury defeated,0,0,4,0,0,4096
 221203,Lithiel Cinderfury defeated,221202,0,0,111366,0,0
 221204,Degentrius defeated,0,0,4,0,0,4096
-221206,,217671,0,0,111368,1,32
+221206,,217671,0,0,111368,3,32
 221207,"Rak'tul, Vessel of Souls defeated",0,0,4,0,0,4096
 221208,,221207,0,0,111369,0,0
 221209,Nalorakk defeated,0,0,4,0,0,4096
@@ -113350,7 +113349,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 221231,,221230,0,0,111382,0,0
 221232,12.0 Upgrade System - Tutorial - Silvermoon - Upgrade Veteran (KNF),0,0,4,0,0,4096
 221233,,221232,0,0,111383,0,0
-221245,,216383,12,0,111388,0,0
+221245,,216383,16,0,111388,0,0
 221246,,216383,5,0,111389,1,0
 221247,,216383,5,0,111390,2,0
 221248,,216383,7,0,111391,3,0
@@ -113370,8 +113369,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 221269,Unearthed Fragrant Coin acquired,221268,15,0,111404,0,1
 221270,Enter your house via the front door,0,0,4,0,0,6144
 221271,Enter your house via the front door,221270,1,0,111405,0,0
-221272,"Abundance Achievement: Acquire 1,000,000 Abundance",0,0,4,0,0,1
-221273,,221272,1000000,0,111406,0,1
+221272,"Abundance Achievement: Acquire 10,000,000 Abundance",0,0,4,0,0,1
+221273,,221272,10000000,0,111406,0,1
 221274,Midnight World Boss defeated,0,1,8,0,0,4096
 221275,,221274,0,0,111413,0,0
 221276,,221274,0,0,111414,1,0
@@ -113462,7 +113461,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 221588,Luxmaster illuminated with reflected sunlight,221586,0,0,111570,2,0
 221591,Unnamed Branch,211096,1,8,0,1,0
 221592,Unnamed Branch,221591,0,4,0,0,0
-221593,Vanguard Barricades repaired,221592,6,0,105575,0,34
+221593,Vanguard Barricades repaired,221592,8,0,105575,0,34
 221594,Unnamed Branch,221591,0,4,0,1,0
 221609,Unnamed Branch,210649,0,4,0,0,2
 221610,Void Pylons destroyed,210649,3,8,0,1,2
@@ -113701,9 +113700,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 221978,,216376,7,0,111796,3,0
 221979,,216376,4,0,111797,4,0
 221980,,216376,5,0,111798,6,0
-221981,,216376,3,0,111799,7,0
-221982,,216376,5,0,111800,8,0
-221983,,216376,5,0,111801,9,0
+221981,,216376,5,0,111799,7,0
+221982,,216376,6,0,111800,8,0
+221983,,216376,4,0,111801,9,0
 221984,,216376,15,0,111802,10,0
 221985,,216376,20,0,111803,11,0
 221986,,216376,7,0,111804,12,0
@@ -113711,13 +113710,12 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 221988,,216376,7,0,111806,14,0
 221989,,216376,15,0,111807,15,0
 221990,,216376,1,0,111808,16,0
-221991,,216376,15,0,111809,17,0
-221992,,216376,7,0,111810,18,0
-221993,,216376,2,0,111812,19,0
-221994,,216376,7,0,111813,20,0
-221995,,216376,15,0,111814,21,0
-221996,,216376,5,0,111815,22,0
-221997,,216376,5,0,111816,23,0
+221991,,216376,17,0,111809,17,0
+221993,,216376,5,0,111812,18,0
+221994,,216376,7,0,111813,19,0
+221995,,216376,15,0,111814,20,0
+221996,,216376,5,0,111815,21,0
+221997,,216376,6,0,111816,23,0
 221998,,216376,7,0,111817,24,0
 221999,,216376,15,0,111818,25,0
 222000,Win 10 Silvershard Mines Training Grounds battles without letting the enemy team capture a mine cart.,0,10,4,0,0,0
@@ -114072,9 +114070,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 222381,,222380,0,0,112026,0,32
 222382,,222380,0,0,112027,1,32
 222383,,222380,0,0,112028,2,32
-222388,Light Consuming,222267,1,0,112030,1,0
+222388,Lost Lamppost,222267,1,0,112030,1,0
 222389,Anar'alah Belore,222267,1,0,112031,2,0
-222390,Suncrown's Devastation,222267,1,0,112032,3,0
+222390,Light Consuming,222267,1,0,112032,3,0
 222391,Babble and Brook,222267,1,0,112033,4,0
 222392,Memories of Ghosts,222267,1,0,112034,5,0
 222393,Elrendar's Song,222267,1,0,112035,6,0
@@ -114083,11 +114081,11 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 222396,12.0 Delves - TwilightsBlade03 - V3 - Boss Slain,0,0,4,0,0,0
 222397,Infiltrator Gulkat slain,222396,0,0,60399,0,0
 222398,12.0 z2 - Achievement - Dolly - Collector (ZCS),0,0,4,0,0,0
-222399,,222398,0,0,112038,0,0
+222399,Chu'ke found,222398,0,0,112038,0,0
 222400,12.0 z2 - Achievement - Gnome - Collector (ZCS),0,0,4,0,0,0
 222401,Diary Page found,222400,0,0,112039,0,0
 222402,12.0 z2 - Achievement - Frogs - Collector (ZCS),0,0,4,0,0,0
-222403,Princess /kissed,222402,0,0,112041,0,0
+222403,Princess Fita,222402,0,0,112041,0,0
 222404,12.0 z2 - Achievement - Spiritpaw - Collector (ZCS),0,0,4,0,0,0
 222405,,222404,0,0,112042,0,0
 222406,"Defeat every Midnight delve in on Tier 11 or higher with lives remaining as a Damage Dealer, Healer, and Tank.",0,0,4,0,0,0
@@ -114101,7 +114099,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 222414,Complete 3 World Quests in Zul'Aman,0,3,5,0,0,4096
 222415,,222414,3,0,112049,0,0
 222416,Abyss Anglers: Boarhide Catch Sack,0,0,4,0,0,1
-222417,,222416,3,0,112050,0,1
+222417,,222416,50000,0,112463,0,1
 222418,Abyss Anglers: Amazardhide Catch Case,0,0,4,0,0,0
 222419,,222418,1,0,112051,0,0
 222420,Abyss Anglers: Loaknit-Woven Catch Satchel,0,0,4,0,0,0
@@ -114123,38 +114121,38 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 222436,Abyss Anglers: Triple-Thread Net,0,0,4,0,0,1
 222437,,222436,50,0,112060,0,1
 222438,Abyss Anglers: Heavy Harpoon Cannon,0,0,4,0,0,0
-222439,,222438,1,0,112061,0,0
-222440,,222438,1,0,112062,1,0
-222441,,222438,1,0,112063,2,0
-222442,,222438,1,0,112064,3,0
-222443,,222438,1,0,112065,4,0
-222444,,222438,1,0,112066,5,0
-222445,,222438,1,0,112067,6,0
-222446,,222438,1,0,112068,7,0
-222447,,222438,1,0,112069,8,0
-222448,,222438,1,0,112070,9,0
+222439,,222438,1,0,112061,0,48
+222440,,222438,1,0,112062,1,48
+222441,,222438,1,0,112063,2,48
+222442,,222438,1,0,112064,3,48
+222443,,222438,1,0,112065,4,48
+222444,,222438,1,0,112066,5,48
+222445,,222438,1,0,112067,6,48
+222446,,222438,1,0,112068,7,48
+222447,,222438,1,0,112069,8,48
+222448,,222438,1,0,112070,9,48
 222453,Abyss Anglers: Hollowcore Harpoon Turret,0,0,4,0,0,0
-222454,,222453,1,0,112071,0,0
-222455,,222453,1,0,112072,1,0
-222456,,222453,1,0,112073,2,0
-222457,,222453,1,0,112074,3,0
-222458,,222453,1,0,112075,4,0
-222459,,222453,1,0,112076,5,0
-222460,,222453,1,0,112077,6,0
-222461,,222453,1,0,112078,7,0
-222462,,222453,1,0,112079,8,0
-222463,,222453,1,0,112082,9,0
-222464,,222453,1,0,112083,10,0
-222465,,222453,1,0,112084,11,0
+222454,,222453,1,0,112071,0,48
+222455,,222453,1,0,112072,1,48
+222456,,222453,1,0,112073,2,48
+222457,,222453,1,0,112074,3,48
+222458,,222453,1,0,112075,4,48
+222459,,222453,1,0,112076,5,48
+222460,,222453,1,0,112077,6,48
+222461,,222453,1,0,112078,7,48
+222462,,222453,1,0,112079,8,48
+222463,,222453,1,0,112082,9,48
+222464,,222453,1,0,112083,10,48
+222465,,222453,1,0,112084,11,48
 222466,Abyss Anglers: Idol of the Depths,0,0,4,0,0,0
-222467,,222466,1,0,112085,0,0
-222468,,222466,1,0,112086,1,0
-222469,,222466,1,0,112087,2,0
-222470,,222466,1,0,112088,3,0
-222471,,222466,1,0,112089,4,0
-222472,,222466,1,0,112090,6,0
-222473,,222466,1,0,112091,7,0
-222474,,222466,1,0,112092,8,0
+222467,,222466,1,0,112085,0,32
+222468,,222466,1,0,112086,1,32
+222469,,222466,1,0,112087,2,32
+222470,,222466,1,0,112088,3,32
+222471,,222466,1,0,112089,4,32
+222472,,222466,1,0,112090,6,32
+222473,,222466,1,0,112091,7,32
+222474,,222466,1,0,112092,8,32
 222475,Abyss Anglers: Even The Best,0,0,4,0,0,0
 222476,,222475,1,0,112093,0,0
 222477,Abyss Anglers: No Sea Can Hold Me,0,0,4,0,0,0
@@ -114164,60 +114162,48 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 222481,Abyss Anglers: Fresh Depth Tech,0,0,4,0,0,0
 222482,,222481,1,0,112096,0,0
 222483,Altar of Blessings: The Penitent Troll,0,0,4,0,0,0
-222484,"Kulzi, Loa of Medicine",222483,1,0,112097,0,0
-222485,"Filo, Loa of Childhood",222483,1,0,112098,1,0
-222486,"Mot'amra, Loa of Pestilence",222483,1,0,112100,3,0
-222487,"Wila'ma, Loa of Travelers",222483,1,0,112101,4,0
-222488,"Shadra, Loa of Subterfuge",222483,1,0,112102,5,0
-222489,"Dundun, Loa of Abundance",222483,1,0,112103,6,0
-222490,"Pool, Loa of Peril",222483,1,0,112104,7,0
-222491,"Oe, Loa of Growth",222483,1,0,112105,8,0
-222492,"Pahk, Loa of the Depths",222483,1,0,112099,2,0
+222484,"Kulzi, Loa of Medicine",222483,1,0,112097,0,32
+222485,"Filo, Loa of Childhood",222483,1,0,112098,1,32
+222486,"Mot'amra, Loa of Pestilence",222483,1,0,112100,3,32
+222487,"Wila'ma, Loa of Travelers",222483,1,0,112101,4,32
+222488,"Shadra, Loa of Subterfuge",222483,1,0,112102,5,32
+222489,"Dundun, Loa of Abundance",222483,1,0,112103,6,32
+222490,"Pool, Loa of Peril",222483,1,0,112104,7,32
+222491,"Oe, Loa of Growth",222483,1,0,112105,8,32
+222492,"Pahk, Loa of the Depths",222483,1,0,112099,2,32
 222493,Altar of Blessings: Sacred Buffet Devotee,0,0,4,0,0,0
 222494,,222493,1,0,112106,0,48
-222495,,222493,1,0,112107,1,48
-222496,,222493,1,0,112108,2,48
-222497,,222493,1,0,112109,3,48
-222498,,222493,1,0,112110,4,48
-222499,,222493,1,0,112111,5,48
-222500,,222493,1,0,112112,6,48
-222501,,222493,1,0,112113,7,48
-222502,,222493,1,0,112114,8,48
-222503,,222493,1,0,112115,9,48
-222504,,222493,1,0,112116,10,48
-222505,,222493,1,0,112117,11,48
-222506,,222493,1,0,112118,12,48
-222507,,222493,1,0,112119,13,48
-222508,,222493,1,0,112120,14,48
-222509,,222493,1,0,112121,15,48
-222510,,222493,1,0,112122,16,48
-222511,,222493,1,0,112123,17,48
-222512,,222493,1,0,112124,18,48
-222513,,222493,1,0,112125,19,48
-222514,,222493,1,0,112126,20,48
-222515,,222493,1,0,112127,21,48
-222516,,222493,1,0,112128,22,48
-222517,,222493,1,0,112129,23,48
-222518,,222493,1,0,112130,24,48
-222519,,222493,1,0,112131,25,48
-222520,,222493,1,0,112132,26,48
-222521,,222493,1,0,112133,27,48
-222522,,222493,1,0,112134,28,48
-222523,,222493,1,0,112135,29,48
-222524,,222493,1,0,112136,30,48
-222525,,222493,1,0,112137,31,48
-222526,,222493,1,0,112138,32,48
-222527,,222493,1,0,112139,33,48
-222528,,222493,1,0,112140,34,48
-222529,,222493,1,0,112141,35,48
+222496,,222493,1,0,112108,1,48
+222497,,222493,1,0,112109,2,48
+222498,,222493,1,0,112110,3,48
+222499,,222493,1,0,112111,4,48
+222500,,222493,1,0,112112,5,48
+222501,,222493,1,0,112113,6,48
+222502,,222493,1,0,112114,7,48
+222503,,222493,1,0,112115,8,48
+222504,,222493,1,0,112116,9,48
+222505,,222493,1,0,112117,10,48
+222506,,222493,1,0,112118,11,48
+222507,,222493,1,0,112119,12,48
+222508,,222493,1,0,112120,13,48
+222509,,222493,1,0,112121,14,48
+222510,,222493,1,0,112122,15,48
+222511,,222493,1,0,112123,16,48
+222512,,222493,1,0,112124,17,48
+222513,,222493,1,0,112125,18,48
+222514,,222493,1,0,112126,19,48
+222515,,222493,1,0,112127,20,48
+222516,,222493,1,0,112128,21,48
+222517,,222493,1,0,112129,22,48
+222518,,222493,1,0,112130,23,48
 222530,Abyss Anglers: The Amani Way,0,0,4,0,0,0
 222531,,222530,1,0,112142,0,0
-222532,,222466,1,0,112143,5,0
+222532,,222466,1,0,112143,5,32
 222533,Complete a Prey WQ,0,1,8,0,0,4096
 222534,,222533,1,0,112144,0,0
 222535,Non-Prey WQ Completed,0,1,8,0,0,4096
 222536,,222535,1,0,112145,0,0
-222537,Untethered Tether used,0,1,5,0,0,8193
+222537,Untethered Tether or Phase-Lost Shortcut used,0,1,5,0,0,8193
 222538,Untethered Tether unspooled,222537,1,0,112146,0,0
 222539,Untethered shortcut used,222537,1,0,112147,1,0
 222540,Air jet tri-jump achieved,0,1,5,0,0,8193
@@ -114388,3 +114374,248 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 222778,,222777,6,0,111466,0,0
 222779,Complete Nexus-Point Xenas Dungeon,0,1,8,0,0,4096
 222780,,222779,1,0,112279,0,0
+222808,12.0 Delves - Die in a Delve,0,0,4,0,0,0
+222809,Requires Delve,222808,0,0,69351,0,0
+222810,,216314,1,0,112292,0,0
+222814,Kill Sheep,0,1,5,0,0,4096
+222815,Kill Sheep,222814,1,0,112295,0,0
+222818,Abundance acquired,0,0,4,0,0,1
+222819,Abundance acquired,222818,50000,0,106326,0,1
+222824,Unnamed Branch,216276,0,4,0,0,2
+222826,Leyline Focusers installed in Leyline Conduits,216276,6,0,108820,1,2
+222831,Kill Credit: Accept Breadcrumb from Map,0,0,8,0,0,4096
+222832,,222831,1,0,112306,0,0
+222833,Kill Credit: Accept Breadcrumb from Scouting Map,0,1,8,0,0,4096
+222834,,222833,1,0,112307,0,0
+222840,Midnight Blacksmithing Crafting Orders,0,0,4,0,0,0
+222841,,222840,50,0,112312,0,1
+222842,Midnight Enchanting Weekly Supplies Quest,0,0,4,0,0,0
+222843,,222842,4,0,112313,0,1
+222844,Midnight Engineering Crafting Orders,0,0,4,0,0,0
+222845,,222844,50,0,112314,0,1
+222846,Midnight Inscription Crafting Orders,0,0,4,0,0,0
+222847,,222846,50,0,112315,0,1
+222848,Midnight Jewelcrafting Crafting Orders,0,0,4,0,0,0
+222849,,222848,50,0,112316,0,1
+222850,Midnight Leatherworking Crafting Orders,0,0,4,0,0,0
+222851,,222850,50,0,112317,0,1
+222854,Midnight Tailoring Crafting Orders,0,0,4,0,0,0
+222855,,222854,50,0,112318,0,1
+222856,Midnight Alchemy Achievements,0,0,4,0,0,0
+222857,Alchemizing at Midnight,222856,1,0,112320,0,0
+222858,Alchemy-on-Demand,222856,1,0,112321,1,0
+222859,Midnight Blacksmithing Achievements,0,0,4,0,0,0
+222860,Blacksmithing at Midnight,222859,1,0,112322,0,0
+222861,Blacksmithing-on-Demand,222859,1,0,112323,1,0
+222862,Midnight Enchanting Achievements,0,0,4,0,0,0
+222863,Enchanting at Midnight,222862,1,0,112324,0,0
+222864,Enchanting-on-Demand,222862,1,0,112325,1,0
+222865,Midnight Engineering Achievements,0,0,4,0,0,0
+222866,Engineering at Midnight,222865,1,0,112326,0,0
+222867,Engineering-on-Demand,222865,1,0,112327,1,0
+222868,Midnight Inscription Achievements,0,0,4,0,0,0
+222869,Inscribing at Midnight,222868,1,0,112328,0,0
+222870,Inscription-on-Demand,222868,1,0,112329,1,0
+222871,Midnight Jewelcrafting Achievements,0,0,4,0,0,0
+222872,Jewelcrafting at Midnight,222871,1,0,112330,0,0
+222873,Jewelcrafting-on-Demand,222871,1,0,112331,1,0
+222874,Midnight Leatherworking Achievments,0,0,4,0,0,0
+222875,Leatherworking at Midnight,222874,1,0,112332,0,0
+222876,Leatherworking-on-Demand,222874,1,0,112333,1,0
+222877,Midnight Tailoring Achievements,0,0,4,0,0,0
+222878,Tailoring at Midnight,222877,1,0,112334,0,0
+222879,Tailoring-on-Demand,222877,1,0,112335,1,0
+222880,,216376,4,0,112336,22,0
+222881,,16857,100,0,112337,11,0
+222882,,16859,100,0,112338,11,0
+222883,,70916,100,0,112339,11,0
+222884,,70925,100,0,112340,11,0
+222885,,70934,100,0,112341,11,0
+222886,,70943,300,0,112342,11,0
+222887,,70952,100,0,112343,11,0
+222888,,70961,100,0,112344,11,0
+222889,,70970,100,0,112345,11,0
+222890,,70979,100,0,112346,11,0
+222891,,70988,100,0,112347,11,0
+222892,,70997,100,0,112348,11,0
+222893,,71006,100,0,112349,11,0
+222894,,21672,100,0,112337,11,0
+222895,,21676,100,0,112338,11,0
+222896,,71019,100,0,112339,11,0
+222897,,71028,100,0,112340,11,0
+222898,,71037,100,0,112341,11,0
+222899,,71046,300,0,112342,11,0
+222900,,71055,100,0,112343,11,0
+222901,,71064,100,0,112344,11,0
+222902,,71073,100,0,112345,11,0
+222903,,71082,100,0,112346,11,0
+222904,,71091,100,0,112347,11,0
+222905,,71100,100,0,112348,11,0
+222906,,71109,100,0,112349,11,0
+222909,Midnight Herbalism Weekly Quests,0,0,4,0,0,0
+222910,,222909,4,0,112350,0,1
+222911,Midnight Mining Weekly Quests,0,0,4,0,0,0
+222912,,222911,4,0,112351,0,1
+222913,Midnight Skinning Weekly Quests,0,0,4,0,0,0
+222914,,222913,4,0,112352,0,1
+222915,Midnight Herbalism Achievements,0,0,4,0,0,0
+222916,Herbalism at Midnight,222915,1,0,112353,0,0
+222917,Herbalism-on-Demand,222915,1,0,112354,1,0
+222918,Midnight Mining Achievements,0,0,4,0,0,0
+222919,Mining at Midnight,222918,1,0,112355,0,0
+222920,Mining-on-Demand,222918,1,0,112356,1,0
+222921,Midnight Skinning Achievements,0,0,4,0,0,0
+222922,Skinning at Midnight,222921,1,0,112357,0,0
+222923,Skinning-on-Demand,222921,1,0,112358,1,0
+222928,,58081,1,0,112361,45,2
+222954,PvP - Slayer's Rise - Epic BG - Scenario Test - Destroy Alliance Forces (JMC),0,0,4,0,0,0
+222955,Destroy Alliance Forces,222954,0,0,112375,0,32
+222956,PvP - Slayer's Rise - Epic BG - Alliance Scenario - Destroy Horde Forces (JMC),0,0,4,0,0,0
+222957,Destroy Horde Forces,222956,0,0,112376,0,32
+222958,PvP - Slayer's Rise - Epic BG - Horde Scenario - Hate Spire Showdown (JMC),0,0,4,0,0,0
+222959,Hate Spire Showdown,222958,0,0,112377,0,32
+222960,PvP - Slayer's Rise - Epic BG - Alliance Scenario - Hate Spire Showdown (JMC),0,0,4,0,0,0
+222961,Hate Spire Showdown,222960,0,0,112378,0,32
+222971,The Den of Echoes,219433,1,0,112380,1,0
+222972,Fungara Village,219433,1,0,112381,2,0
+222973,Vale of Mists,219433,1,0,112382,3,0
+222974,Gloom Mire,219433,1,0,112383,4,0
+222975,Har'alnor,219433,1,0,112384,5,0
+222976,Blooming Lattice,219433,1,0,112385,6,0
+222977,Har'mara,219433,1,0,112386,7,0
+222978,Har'athir,219433,1,0,112387,8,0
+222979,The Den,219433,1,0,112388,9,0
+222980,The Grudge Pit,219433,1,0,112389,10,0
+222981,The Blinding Bloom,219433,1,0,112390,11,0
+222982,The Rift of Aln,219433,1,0,112391,12,0
+222983,Amani'Zar Village,220793,0,0,112393,1,0
+222984,Temple of Akil'zon,220793,0,0,112394,2,0
+222985,Temple of Halazzi,220793,0,0,112396,3,0
+222986,Temple of Jan'alai,220793,0,0,112397,4,0
+222987,Den of Nalorakk,220793,0,0,112399,5,0
+222988,Witherbark Bluffs,220793,0,0,112401,6,0
+222989,Broken Throne,220793,0,0,112395,7,0
+222990,Maisara Deeps,220793,0,0,112398,8,0
+222991,Straight of Hexx'alor,220793,0,0,112400,9,0
+222992,Shadowguard Point,220795,1,0,112403,1,0
+222993,Howling Ridge,220795,1,0,112404,2,0
+222994,Nexus-Point Mid'ar,220795,1,0,112405,3,0
+222995,Obscurion Citadel,220795,1,0,112406,4,0
+222996,Slayer's Rise,220795,1,0,112407,5,0
+222997,Stormarion Citadel,220795,1,0,112408,6,0
+222998,The Ingress,220795,1,0,112409,7,0
+222999,The Voidspire,220795,1,0,112410,8,0
+223000,Nexus-Point Xenas,220795,1,0,112411,9,0
+223001,Vorasius defeated,219509,1,0,112412,1,0
+223002,Fallen-King Salhadaar defeated,219509,1,0,112413,2,0
+223003,12.0 Z4 Meta Achievment (LAS),0,0,4,0,0,0
+223004,,223003,0,0,111793,0,32
+223005,,223003,0,0,104580,1,32
+223006,,223003,0,0,112414,2,32
+223007,,223003,0,0,112415,3,32
+223008,,223003,0,0,111099,4,32
+223009,Puddle-Jumper Shrine activated (Optional),217591,1,8,0,2,8226
+223010,Puddle-Jumper Shrine activated (Optional),223009,1,0,112416,0,8194
+223011,Unnamed Branch,223009,0,4,0,1,8194
+223012,Vilebranch forces defeated,223011,165,9,0,0,0
+223013,Vilebranch forces defeated,223012,5,0,62703,0,1
+223014,Vilebranch forces defeated,223012,10,0,62704,1,1
+223015,Vilebranch forces slain,223012,20,0,62705,2,1
+223016,Vilebranch forces defeated,223012,1,0,62794,3,1
+223017,Vilebranch forces defeated,223012,2,0,62701,4,1
+223018,Hex curse removed from Frog.,223011,24,0,109361,1,0
+223019,,223003,0,0,112417,5,32
+223020,Aid the Hara'ti by completing the achievements below.,0,0,4,0,0,0
+223022,,223020,1,0,112419,0,32
+223023,,223020,1,0,112422,1,32
+223024,,223020,1,0,112418,2,32
+223025,,223020,1,0,112421,3,32
+223026,,223020,1,0,112420,4,32
+223027,,223020,1,0,112423,5,32
+223028,,223020,1,0,112424,6,32
+223029,,223020,1,0,112425,7,32
+223030,Teleport to Jin'Ma with Mojo's help (Optional),214512,1,8,0,1,0
+223031,Teleport to Jin'Ma with Mojo's help (Optional),223030,1,0,112426,0,0
+223032,,223030,1,0,109272,1,8194
+223033,,217671,0,0,112427,0,32
+223034,,217671,0,0,112428,1,32
+223035,,217671,0,0,112429,4,32
+223036,Brightwing Estate,220791,1,0,112431,1,0
+223037,Fairbreeze Village,220791,1,0,112432,2,0
+223038,Goldenmist Village,220791,1,0,112433,3,0
+223039,Silvermoon City,220791,1,0,112434,4,0
+223040,Suncrown Village,220791,1,0,112435,5,0
+223041,Sunstrider Isle,220791,1,0,112436,6,0
+223042,Tranquillien,220791,1,0,112437,7,0
+223043,Windrunner Spire,220791,1,0,112438,8,0
+223044,12.0 Z1 - Achievement - Meta (SH),0,0,4,0,0,0
+223046,Runestone Rush,223044,0,0,112453,3,0
+223047,12.0 Max Campaign - Ch 7 - A Path Forward - Reluctant Hand Complete,0,0,4,0,0,4096
+223048,,223047,0,0,112439,0,0
+223053,12.0 Max Campaign - Ch 7 - A Path Forward - Silversun Compact Complete,0,0,4,0,0,4096
+223054,,223053,0,0,112443,0,0
+223057,Chu'ke joined,222398,0,0,112444,1,0
+223064,Princess Gabiku,222402,0,0,112445,1,0
+223065,Princess Jakobu,222402,0,0,112446,2,0
+223066,Princess Tafiki,222402,0,0,112447,3,0
+223067,Princess Zambina,222402,0,0,112448,4,0
+223068,Reach rank 20 with the Silvermoon Court,0,0,4,0,0,0
+223069,,223068,20,0,111998,0,1
+223070,Reach rank 20 with the Amani Tribe,0,0,4,0,0,0
+223071,,223070,20,0,111999,0,1
+223072,Reach rank 20 with the Hara'ti,0,0,4,0,0,0
+223073,,223072,20,0,112000,0,1
+223074,Reach rank 20 with The Singularity,0,0,4,0,0,0
+223075,,223074,20,0,112001,0,1
+223076,"Abundance Achievement: Acquire 1,000,000 Abundance",0,0,4,0,0,1
+223077,,223076,1000000,0,111406,0,1
+223078,A Bloody Song,223044,0,0,112449,2,0
+223079,Treasures of Eversong Woods,223044,0,0,112450,0,0
+223080,Explore Eversong Woods,223044,0,0,111097,1,0
+223081,,218513,0,0,112451,1,32
+223082,,218513,0,0,112452,0,32
+223086,,218513,0,0,111098,2,32
+223087,The Party Must Go On,223044,0,0,112454,4,0
+223088,Ever Painting,223044,0,0,112455,5,0
+223089,,218513,0,0,112456,5,32
+223094,12.0 Delves - TwilightsBlade01 - V01 - Ritual 01 stopped (DTM),0,0,4,0,0,0
+223095,,223094,1,0,111401,0,32
+223096,12.0 Delves - TwilightsBlade01 - V01 - Ritual 02 stopped (DTM),0,0,4,0,0,0
+223097,,223096,1,0,111402,0,32
+223098,12.0 Delves - TwilightsBlade01 - V01 - Ritual 03 stopped (DTM),0,0,4,0,0,0
+223099,,223098,1,0,111403,0,32
+223103,Achievement - Filo Attack,0,0,4,0,0,0
+223104,,223103,0,0,112459,0,0
+223105,Abundance Achievement: Harvest an Artisan Node,0,0,4,0,0,1
+223106,,223105,1,0,112460,0,0
+223107,Altar of Blessings: Amani Curious,0,1,8,0,0,0
+223108,"Kulzi, Loa of Medicine",223107,1,0,112097,0,32
+223109,"Filo, Loa of Childhood",223107,1,0,112098,1,32
+223110,"Pahk, Loa of the Depths",223107,1,0,112099,2,32
+223111,"Mot'amra, Loa of Pestilence",223107,1,0,112100,3,32
+223112,"Wila'ma, Loa of Travelers",223107,1,0,112101,4,32
+223113,"Shadra, Loa of Subterfuge",223107,1,0,112102,5,32
+223114,"Dundun, Loa of Abundance",223107,1,0,112103,6,32
+223115,"Pool, Loa of Peril",223107,1,0,112104,7,32
+223116,"Oe, Loa of Growth",223107,1,0,112105,8,32
+223117,Altar of Blessings: One For Altar,0,1,4,0,0,0
+223118,,223117,1,0,112461,0,0
+223119,Abyss Anglers: Trench Berserker,0,0,4,0,0,0
+223120,,223119,100,0,112462,0,1
+223121,Abyss Anglers: Certified Depthdiver,0,0,4,0,0,0
+223122,,223121,1000000,0,112463,0,1
+223123,,216389,5,0,112464,3,0
+223124,,216389,1,0,112465,4,0
+223125,,216389,5,0,112466,5,0
+223126,,216389,7,0,112467,7,0
+223127,,216389,7,0,112468,8,0
+223128,,216389,15,0,112469,9,0
+223129,,216389,3,0,112470,10,0
+223130,,216389,8,0,112471,11,0
+223131,,216389,15,0,112472,12,0
+223132,,216389,7,0,112473,13,0
+223133,,216389,15,0,112474,14,0
+223134,,216389,15,0,112475,15,0
+223135,,216389,2,0,112476,16,0
+223136,,216389,7,0,112477,17,0
+223137,,216389,3,0,112478,18,0

@@ -33,13 +33,13 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 36,AlteracMountains,Alterac Mountains,0,267,143,0,11,594,675,743,0,0,0,0,0.5,15,-1,0,0,0,11,1073758272,0,0,0,0,0
 37,LakeNazferiti,Lake Nazferiti,0,33,144,0,11,32,675,3,0,0,0,0,0.15,15,-1,0,0,0,18,1073758272,8192,0,0,0,0
 38,LochModan,Loch Modan,0,0,145,0,11,616,675,792,0,0,0,2,0.15,15,-1,3,6,0,9,16448,0,0,0,0,0
-40,Westfall,Westfall,0,0,146,0,11,602,675,9,0,0,0,2,0.15,15,-1,3,4,0,6,16448,0,0,0,0,0
+40,Westfall,Westfall,0,0,146,200,11,602,675,9,0,0,0,2,0.15,15,-1,3,4,0,6,16448,0,0,0,0,0
 41,DeadwindPass,Deadwind Pass,0,0,556,0,11,597,675,2,0,0,0,0,0.3,15,-1,17,18,0,775,16448,0,0,0,0,0
 42,Darkshire,Darkshire,0,10,147,0,11,0,675,770,0,0,0,0,0.15,15,-1,0,0,0,13,1075855424,8192,0,0,0,0
 43,WildShore,Wild Shore,0,5287,148,0,11,567,675,3,0,0,0,0,0.15,15,-1,0,0,0,24,1073758272,8192,0,0,0,0
 44,RedridgeMountains,Redridge Mountains,0,0,149,0,11,31,675,747,0,0,0,0,0.2,15,-1,4,6,0,10,16448,0,0,0,0,0
 45,ArathiHighlands,Arathi Highlands,0,0,150,0,11,615,675,609,0,0,0,0,0.2,15,-1,7,8,0,17,16448,0,0,0,0,0
-46,BurningSteppes,Burning Steppes,0,0,151,0,11,596,675,725,0,0,0,0,0.1,15,-1,15,16,0,30,16448,0,0,0,0,0
+46,BurningSteppes,Burning Steppes,0,0,151,0,11,3347,675,725,0,0,0,0,0.1,15,-1,15,16,0,30,16448,0,0,0,0,0
 47,TheHinterlands,The Hinterlands,0,0,152,0,11,605,675,1,0,0,0,0,0.4,15,-1,11,12,0,20,16448,0,0,0,0,0
 49,DeadMansHole,Dead Man's Hole,451,22,153,0,11,0,675,0,0,0,0,0,0.15,13,-1,0,0,0,798,1073741888,0,0,0,0,0
 51,SearingGorge,Searing Gorge,0,0,154,0,11,2636,675,10,0,0,0,0,0.15,15,-1,13,14,0,29,16448,0,0,0,0,0
@@ -795,7 +795,7 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 1997,BloodvenomPost,Bloodvenom Post ,1,361,793,0,89,0,675,698,0,0,0,0,0.15,15,-1,0,0,0,0,1075855424,0,0,0,0,0
 1998,TalonbranchGlade,Talonbranch Glade ,1,361,794,0,0,0,675,697,0,0,0,0,0.15,15,-1,0,0,0,0,1073758272,8192,0,0,0,0
 2017,Stratholme,Stratholme,329,0,795,0,0,37,675,0,0,0,0,0,0.15,15,-1,0,0,0,214,0,12,0,0,0,0
-2037,Quel'thalas,Quel'thalas,0,0,796,0,0,0,675,0,0,0,0,0,0.15,15,-1,0,0,0,825,16448,0,0,0,0,0
+2037,QuelThalas,Quel'Thalas,0,0,796,0,0,0,675,0,0,0,0,0,0.15,15,-1,0,0,0,825,16448,0,0,0,0,0
 2057,Scholomance,Scholomance,289,0,797,0,0,37,675,15,0,0,0,0,0.15,15,-1,0,0,0,212,0,0,0,0,0,0
 2077,TwilightVale,Twilight Vale,1,148,798,0,0,623,675,867,0,0,0,0,0.15,15,-1,0,0,0,5,1073758272,0,0,0,0,0
 2078,TwilightShore,Twilight Shore,1,148,799,0,0,583,675,873,0,0,0,0,0.15,15,-1,0,0,0,5,1073758272,0,0,0,0,0
@@ -9360,7 +9360,7 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 15808,WindrunnerSpireDungeon,Windrunner Spire,2805,0,0,0,0,0,0,0,0,0,0,0,1,0,-1,0,0,0,3023,-1879048192,136,0,0,0,0
 15826,KareshRiver,Lunnall River,2738,15336,13021,0,0,0,0,3194,0,0,0,0,0,15,-1,0,0,0,3008,1073741888,8192,0,0,0,0
 15827,TheTomb,The Forgotten Vault,2127,10416,0,0,0,0,0,0,0,0,0,0,0,13,-1,0,0,0,3004,1075843136,8320,0,0,0,0
-15829,12MagistersTerrace,Magisters' Terrace,2811,0,13022,67,0,3223,0,0,0,0,0,0,0,0,-1,0,0,0,3026,-1879048192,12,0,0,0,0
+15829,12MagistersTerraceDungeon,Magisters' Terrace,2811,0,13022,67,0,3223,0,0,0,0,0,0,0,0,-1,0,0,0,3026,-1879048192,12,0,0,0,0
 15836,DelvesOldGod,Excavation Site 9,2815,0,0,75,0,2931,2894,3101,0,0,0,0,0,0,-1,0,0,0,2677,268439552,128,0,0,0,0
 15838,ResearchandDestruction,Research and Destruction,2769,15522,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,1342177280,136,0,0,0,0
 15839,TheHouseofChrome,The House of Chrome,2769,15522,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,1342177280,136,0,0,0,0
@@ -9447,7 +9447,7 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 16044,12EversongElrendarRiver,Elrendar River,0,15968,13118,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,3085,1073741888,0,0,0,0,0
 16045,12EversongRunestoneShandor,Runestone Shan'dor,0,15968,13125,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,3085,1073741888,0,0,0,0,0
 16046,12EversongSuncrown,Suncrown Village,0,15968,13126,96,0,3138,675,0,0,0,0,0,0,15,-1,0,0,0,3085,1073741888,0,0,0,0,0
-16047,12EversongSuncrownTree,Thas'minellia,0,15968,13084,96,0,3138,675,0,0,0,0,0,0,15,-1,0,0,0,3085,1073741888,0,0,0,0,0
+16047,12EversongSuncrownTree,Suncrown Tree,0,15968,13084,96,0,3138,675,0,0,0,0,0,0,15,-1,0,0,0,3085,1073741888,0,0,0,0,0
 16048,12EversongDawnstarSpire,Dawnstar Spire,0,15968,13112,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,3085,1073741888,0,0,0,0,0
 16049,12EversongLightbloomLashra,Lightbloom Lash'Ra,0,15968,13113,96,0,3138,675,0,0,0,0,0,0,15,-1,0,0,0,3085,1073741888,0,0,0,0,0
 16050,12EversongFarstriderEnclave,Farstrider Enclave,0,15968,13089,96,0,3160,675,0,0,0,0,0,0,15,-1,0,0,0,3085,1073741888,0,0,0,0,0
@@ -9480,23 +9480,23 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 16079,12SilvermoonBazaar,The Bazaar,0,15969,13049,83,0,2987,0,0,0,0,0,0,0,15,-1,0,0,0,0,1073743936,0,0,0,0,0
 16081,KareshPvPIsland,Vanquisher's Wake,2738,15336,13050,0,0,0,0,3178,0,0,0,0,0,15,-1,0,0,0,3008,1073741888,40960,0,0,0,0
 16082,12SilvermoonMurderRow,Murder Row,0,15969,0,96,0,2999,0,0,0,0,0,0,0,15,-1,0,0,0,0,1073743976,128,0,0,0,0
-16083,12SilvermoonWalkOfElders,Walk of Elders,0,15969,0,96,0,3000,0,0,0,0,0,4,0,15,-1,0,0,0,0,1080033344,128,0,0,0,0
-16084,12SilvermoonRoyalExchange,The Royal Exchange,0,15969,0,96,0,3001,0,0,0,0,0,4,0,15,-1,0,0,0,0,1080033344,128,0,0,0,0
-16085,12SilvermoonBloodQuarter,Court of Blood,0,15969,0,0,0,0,0,0,0,0,0,4,0,15,-1,0,0,0,0,1080033344,128,0,0,0,0
-16086,12SilvermoonSunCourt,Court of the Sun,0,15969,0,96,0,3002,0,0,0,0,0,4,0,15,-1,0,0,0,0,1080033344,128,0,0,0,0
+16083,12SilvermoonWalkOfElders,Walk of Elders,0,15969,0,0,0,0,0,0,0,0,0,4,0,15,-1,0,0,0,0,1088421952,128,0,0,0,0
+16084,12SilvermoonRoyalExchange,The Royal Exchange,0,15969,0,0,0,0,0,0,0,0,0,4,0,15,-1,0,0,0,0,1088421952,128,0,0,0,0
+16085,12SilvermoonBloodQuarter,Court of Blood,0,15969,0,0,0,0,0,0,0,0,0,4,0,15,-1,0,0,0,0,1080033376,128,0,0,0,0
+16086,12SilvermoonSunCourt,Court of the Sun,0,15969,0,0,0,0,0,0,0,0,0,4,0,15,-1,0,0,0,0,1080033376,128,0,0,0,0
 16087,12SilvermoonFarstriderSquare,Farstrider Square,0,15969,0,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,0,1073743936,128,0,0,0,0
-16088,12SilvermoonFalconwingSquare,Falconwing Square,0,15969,0,96,0,3006,0,0,0,0,0,0,0,15,-1,0,0,0,0,1073743936,128,0,0,0,0
+16088,12SilvermoonFalconwingSquare,Falconwing Square,0,15969,0,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,0,1073743936,128,0,0,0,0
 16089,12SilvermoonDawningLane,Dawning Lane,0,15969,0,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,0,1073743936,128,0,0,0,0
 16091,MurderRowDungeon,Murder Row,2813,0,0,0,0,0,0,0,0,0,0,0,0,13,-1,0,0,0,0,-1879048192,136,0,0,0,0
 16092,Undermine,Dastardly Duos,2706,0,0,96,0,2951,0,3167,0,0,0,0,0,0,-1,25,25,0,2696,0,128,0,0,0,0
 16093,Undermine,Undermine,2706,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,25,25,0,2696,0,128,0,0,0,0
-16094,12SilvermoonAugursTerrace,Augurs' Terrace,0,15969,0,96,0,2998,0,0,0,0,0,0,0,15,-1,0,0,0,0,1073743976,128,0,0,0,0
-16095,12SilvermoonLithielsLanding,Lithiel's Landing,0,15969,0,96,0,3005,0,0,0,0,0,0,0,15,-1,0,0,0,0,1073743936,128,0,0,0,0
+16094,12SilvermoonAugursTerrace,Augurs' Terrace,0,15969,0,96,0,3004,0,0,0,0,0,0,0,15,-1,0,0,0,0,1073743976,128,0,0,0,0
+16095,12SilvermoonLithielsLanding,Lithiel's Landing,0,15969,0,96,0,3004,0,0,0,0,0,0,0,15,-1,0,0,0,0,1073743936,128,0,0,0,0
 16096,12SilvermoonThalassianUniversity,Thalassian University,0,15969,0,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,0,1073743936,128,0,0,0,0
 16097,12SilvermoonGardensofRemembrance,Gardens of Remembrance,0,15969,0,96,0,3004,0,0,0,0,0,0,0,15,-1,0,0,0,0,1073743936,128,0,0,0,0
 16098,12SilvermoonSunwingRookery,Sunwing Rookery,0,15969,0,84,0,2992,0,0,0,0,0,0,0,15,-1,0,0,0,0,1073743936,128,0,0,0,0
 16099,12SilvermoonHarbor,Silvermoon Harbor,0,15969,0,86,0,3003,0,0,0,0,0,0,0,15,-1,0,0,0,0,1073743936,128,0,0,0,0
-16100,12SilvermoonShiningSpan,The Shining Span,0,15969,0,0,0,3008,0,0,0,0,0,0,0,15,-1,0,0,0,0,1073743936,128,0,0,0,0
+16100,12SilvermoonShiningSpan,The Shining Span,0,15969,0,96,0,3003,0,0,0,0,0,0,0,15,-1,0,0,0,0,1073743936,128,0,0,0,0
 16101,PridetalonHotsprings,Pridetalon Hotsprings,2127,10416,0,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,3004,1075839040,8320,0,0,0,0
 16103,LabyrinthPrototype,Delve Prototype,2850,0,0,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,2677,4160,128,0,0,0,0
 16104,EcodomeDungeon,Eco-Dome Al'dani,2830,0,0,0,0,0,0,3219,0,0,0,0,0,13,-1,0,0,0,2718,-1879048192,140,0,0,0,0
@@ -9509,7 +9509,7 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 16170,ScarletHallsArator,Scarlet Halls,2857,0,4770,0,0,0,0,0,0,0,0,0,0.15,0,-1,0,0,0,3088,0,12,0,0,0,0
 16171,HuntsmansCloisterArator,Huntsman's Cloister,2857,16170,4950,86,0,601,675,1193,0,0,0,0,0.15,0,-1,0,0,0,210,1073741824,8,0,0,0,0
 16172,TrainingGroundsArator,Training Grounds,2857,16170,4949,86,11,601,675,1193,0,1038,0,0,0.15,0,-1,0,0,0,210,1073741824,8,0,0,0,0
-16173,12EversongSunstriderIsle,Sunstrider Isle,0,15968,13120,0,0,3249,0,0,0,0,0,0,0,15,-1,0,0,0,3085,1073741888,0,0,0,0,0
+16173,12EversongSunstriderIsle,Sunstrider Isle,0,15968,13120,96,0,3004,0,0,0,0,0,0,0,15,-1,0,0,0,3085,1073741888,0,0,0,0,0
 16174,TheHighRollerSuite,The High Roller Suite,2769,15522,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,1342177280,136,0,0,0,0
 16175,TheShootingGallery,The Shooting Gallery,2769,15522,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,1342177280,136,0,0,0,0
 16176,TheMidnightLounge,The Midnight Lounge,2769,15522,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,1342177280,136,0,0,0,0
@@ -9530,7 +9530,7 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 16191,SpeakersRest,Speaker's Rest,0,15947,13141,0,0,3038,2689,2866,0,0,0,0,0,15,-1,0,0,0,3086,1073741888,8192,0,0,0,0
 16192,BrokenThrone,Broken Throne,0,15947,13154,0,0,3037,2689,2866,0,0,0,0,0,15,-1,0,0,0,3086,1073741888,8192,0,0,0,0
 16193,RevantuskTerraces,Revantusk Sedge,0,15947,13147,0,0,3038,2689,2866,0,0,0,0,0,15,-1,0,0,0,3086,1073741888,8192,0,0,0,0
-16194,AtalAman,Atal'Aman,0,15947,13155,0,0,3019,2689,2866,0,0,0,0,0,15,-1,0,0,0,3086,64,8192,0,0,0,0
+16194,AtalAman,Atal'Aman,0,15947,13155,200,0,3019,2689,2866,0,0,0,0,0,15,-1,0,0,0,3086,64,8192,0,0,0,0
 16195,AtalAbasi,Atal'Abasi,0,15947,13156,0,0,3020,2689,2866,0,0,0,0,0,15,-1,0,0,0,3086,1073741888,8192,0,0,0,0
 16196,FuneraryCoast,Funerary Coast,0,15947,13152,0,0,0,0,2866,0,0,0,0,0,15,-1,0,0,0,3086,1073741888,8192,0,0,0,0
 16197,LeechBog,Leech Bog,0,15947,13151,0,0,3020,2689,2866,0,0,0,0,0,15,-1,0,0,0,3086,1073741888,8192,0,0,0,0
@@ -9639,7 +9639,7 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 16420,EcodomeDungeonAnnex,Devastated Annex,2830,16104,0,96,0,2982,675,3221,0,0,0,0,0,13,-1,0,0,0,0,1342177280,140,0,0,0,0
 16421,EcodomeDungeonWarcamp,Warcamp Al'den,2830,16104,0,96,0,2981,675,0,0,0,0,0,0,13,-1,0,0,0,0,1342177280,140,0,0,0,0
 16422,EcodomeDungeonSands,Al'dani Sands,2830,16104,0,96,0,2984,675,3222,0,0,0,0,0,13,-1,0,0,0,0,1342177280,140,0,0,0,0
-16423,SlayersRiseBG,Slayer's Rise,2799,0,12982,0,0,0,0,0,0,0,0,0,0,13,-1,0,0,0,4278,822165504,0,0,0,0,0
+16423,SlayersRiseBG,Slayer's Rise,2799,0,12982,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,4278,822165504,0,0,0,0,0
 16425,VoidscarArenaDungeon,Voidscar Arena,2923,0,0,0,0,0,0,0,0,0,0,0,0,13,-1,0,0,0,5140,-1879031808,136,0,0,0,0
 16426,Silverglade,Silverglade Refuge,0,15968,13088,96,0,3136,675,0,0,0,0,0,0,15,-1,0,0,0,3085,1073741888,0,0,0,0,0
 16427,DelvesEthereals01,Archival Assault,2803,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,2677,268439552,128,0,0,0,0
@@ -9702,20 +9702,20 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 16484,OuterborderDungeon,Grasping Reach,2923,16479,0,0,0,0,2708,3014,0,0,0,0,0,15,-1,0,0,0,3084,1140871232,128,0,0,0,0
 16485,VoidFortressKeep,Stormarion Citadel,2771,15458,12990,0,0,0,2708,3014,0,0,0,0,0,15,-1,0,0,0,3084,1140867136,8192,0,0,0,0
 16486,VoidFortressWatch,Stormarion Watch,2771,15458,12989,0,0,0,2708,3014,0,0,0,0,0,15,-1,0,0,0,3084,1140867136,8192,0,0,0,0
-16487,SlayersRiseBGParadeRoad,Path of Predation,2799,16423,0,0,0,3248,0,0,0,0,0,0,0,13,-1,0,0,0,4278,1895907328,128,0,0,0,0
-16488,SlayersRiseBGAllianceArea,Grief Spire,2799,16423,0,0,0,0,2708,3014,0,0,0,0,0,13,-1,0,0,0,4278,1963048960,128,0,0,0,0
-16489,SlayersRiseBGHordeArea,Hate Spire,2799,16423,0,0,0,3248,2708,3014,0,0,0,0,0,13,-1,0,0,0,4278,1895940096,128,0,0,0,0
-16490,SlayersRiseBGNeutralCenterfield,The Bloodplains,2799,16423,0,0,0,0,2708,3014,0,0,0,0,0,13,-1,0,0,0,4278,1895940096,128,0,0,0,0
-16491,SlayersRiseBGHordeForward,Bastion of Might,2799,16423,0,0,0,3248,2708,3014,0,0,0,0,0,13,-1,0,0,0,4278,1895940096,128,0,0,0,0
-16492,SlayersRiseBGAllianceForward,Bastion of Valor,2771,15959,0,0,0,0,2708,3014,0,0,0,0,0,1,-1,0,0,0,4278,1073774592,128,0,0,0,0
-16493,SlayersRiseBGCliffEdgeEast,Claw's Edge,2799,16423,0,0,0,0,2708,3014,0,0,0,0,0,13,-1,0,0,0,4278,1895940096,128,0,0,0,0
-16494,SlayerRiseBGEtherealPOIEast,Shadowridge Outpost,2799,16423,0,0,0,0,2708,3014,0,0,0,0,0,13,-1,0,0,0,4278,1895940096,128,0,0,0,0
-16495,SlayersRiseBGWQPOIAlpha,Stareater Pavilion,2799,16423,0,0,0,0,2708,3014,0,0,0,0,0,13,-1,0,0,0,4278,1895940096,128,0,0,0,0
-16496,SlayersRiseBGEtherealPOIWest,Hanaar Outpost,2799,16423,0,0,0,3248,2708,3014,0,0,0,0,0,13,-1,0,0,0,4278,1895940096,128,0,0,0,0
-16497,SlayersRiseBGCliffEdgeWest,The Fangfall,2799,16423,0,0,0,0,2708,3014,0,0,0,0,0,13,-1,0,0,0,4278,1895940096,128,0,0,0,0
-16498,SlayersRiseBGLowKaijuBonesPOI,The Husk,2799,16423,0,0,0,3059,2708,3014,0,0,0,0,0,13,-1,0,0,0,4278,1895940096,128,0,0,0,0
-16499,SlayersRiseBGPortalCavern,Shenzar Refinery,2799,16423,0,0,0,0,2708,3014,0,0,0,0,0,13,-1,0,0,0,4278,1895940096,128,0,0,0,0
-16500,SlayersRiseBGSportingGrounds,Sparring Grounds,2799,16423,0,0,0,0,2708,3014,0,0,0,0,0,13,-1,0,0,0,4278,1895940096,128,0,0,0,0
+16487,SlayersRiseBGParadeRoad,Path of Predation,2799,16423,0,0,0,3248,0,0,0,0,0,0,0,15,-1,0,0,0,4278,1895907328,128,0,0,0,0
+16488,SlayersRiseBGAllianceArea,Grief Spire,2799,16423,0,0,0,0,2708,3014,0,0,0,0,0,15,-1,0,0,0,4278,1963048960,128,0,0,0,0
+16489,SlayersRiseBGHordeArea,Hate Spire,2799,16423,0,0,0,3248,2708,3014,0,0,0,0,0,15,-1,0,0,0,4278,1895940096,128,0,0,0,0
+16490,SlayersRiseBGNeutralCenterfield,The Bloodplains,2799,16423,0,0,0,0,2708,3014,0,0,0,0,0,15,-1,0,0,0,4278,1895940096,128,0,0,0,0
+16491,SlayersRiseBGHordeForward,Bastion of Might,2799,16423,0,0,0,3248,2708,3014,0,0,0,0,0,15,-1,0,0,0,4278,1895940096,128,0,0,0,0
+16492,SlayersRiseBGAllianceForward,Bastion of Valor,2799,16423,0,0,0,0,2708,3014,0,0,0,0,0,3,-1,0,0,0,4278,1073774592,128,0,0,0,0
+16493,SlayersRiseBGCliffEdgeEast,Claw's Edge,2799,16423,0,0,0,0,2708,3014,0,0,0,0,0,15,-1,0,0,0,4278,1895940096,128,0,0,0,0
+16494,SlayerRiseBGEtherealPOIEast,Shadowridge Outpost,2799,16423,0,0,0,0,2708,3014,0,0,0,0,0,15,-1,0,0,0,4278,1895940096,128,0,0,0,0
+16495,SlayersRiseBGWQPOIAlpha,Stareater Pavilion,2799,16423,0,0,0,0,2708,3014,0,0,0,0,0,15,-1,0,0,0,4278,1895940096,128,0,0,0,0
+16496,SlayersRiseBGEtherealPOIWest,Hanaar Outpost,2799,16423,0,0,0,3248,2708,3014,0,0,0,0,0,15,-1,0,0,0,4278,1895940096,128,0,0,0,0
+16497,SlayersRiseBGCliffEdgeWest,The Fangfall,2799,16423,0,0,0,0,2708,3014,0,0,0,0,0,15,-1,0,0,0,4278,1895940096,128,0,0,0,0
+16498,SlayersRiseBGLowKaijuBonesPOI,The Husk,2799,16423,0,0,0,3059,2708,3014,0,0,0,0,0,15,-1,0,0,0,4278,1895940096,128,0,0,0,0
+16499,SlayersRiseBGPortalCavern,Shenzar Refinery,2799,16423,0,0,0,0,2708,3014,0,0,0,0,0,15,-1,0,0,0,4278,1895940096,128,0,0,0,0
+16500,SlayersRiseBGSportingGrounds,Sparring Grounds,2799,16423,0,0,0,0,2708,3014,0,0,0,0,0,15,-1,0,0,0,4278,1895940096,128,0,0,0,0
 16501,NightTrench,Night Trench,2771,15458,12983,0,0,3059,2708,3014,0,0,0,0,0,15,-1,0,0,0,3084,1073758272,8192,0,0,0,0
 16502,PvPPOIDevLand,PvP POI Dev Land,2693,0,0,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,0,64,32896,0,0,0,0
 16504,GladeofWalkingMemories,Glade of Walking Memories,2694,15355,12984,0,0,0,0,0,0,0,0,0,0,15,-1,25,25,0,0,1073758272,8192,0,0,0,0
@@ -9739,7 +9739,7 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 16545,12DelvesMixed01,Collegiate Calamity,2933,0,0,0,0,0,0,0,0,0,0,0,0,13,-1,0,0,0,4898,268439552,128,0,0,0,0
 16547,12IntroMagistersPark,Magisters' Park,2858,16182,0,0,0,351,675,0,0,0,0,0,0.15,13,-1,0,0,0,0,1073741888,128,0,0,0,0
 16548,12DelvesFungarians03,The Grudge Pit,2963,0,0,82,0,3325,2708,0,0,0,0,0,0,13,-1,0,0,0,4898,268439552,128,0,0,0,0
-16549,12DelvesEthereals02,Shadowguard Point,2771,15458,0,0,0,3244,0,0,0,0,0,0,0,13,-1,0,0,0,4898,1342181376,128,0,0,0,0
+16549,12DelvesEthereals02,Shadowguard Point,2979,0,0,0,0,3244,0,0,0,0,0,0,0,13,-1,0,0,0,4898,268439552,128,0,0,0,0
 16551,PrimalistRaidStoryMode,Vault of the Incarnates (V2),2950,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,4532,268435456,136,0,0,0,0
 16553,WesternSungrove,Western Sungrove,2858,16182,0,0,0,351,675,0,0,0,0,0,0.15,13,-1,0,0,0,0,1073741888,128,0,0,0,0
 16555,TheSunwellIntro,The Sunwell,2858,16182,0,0,0,351,675,0,0,0,0,0,0.15,13,-1,0,0,0,0,1073741888,128,0,0,0,0
@@ -9748,7 +9748,7 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 16567,WitherbarkCrypt,Wit'Kalar Crypt,0,15947,0,0,0,0,0,2866,0,0,0,0,0,0,-1,0,0,0,3086,1073741888,8320,0,0,0,0
 16568,MiststoneWells,Miststone Wells,0,15947,13149,0,0,3035,2689,2866,0,0,0,0,0,15,-1,0,0,0,3086,1073741888,8192,0,0,0,0
 16569,EcodomeDungeonTemple,Temple of the Untamed,2830,16104,0,96,0,2984,675,3222,0,0,0,0,0,13,-1,0,0,0,0,1342177280,140,0,0,0,0
-16570,12SilvermoonSheperdGate,The Shepherd's Gate,0,15969,0,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,0,1073743936,128,0,0,0,0
+16570,12SilvermoonSheperdGate,The Shepherd's Gate,0,15969,0,96,0,3004,0,0,0,0,0,0,0,15,-1,0,0,0,0,1073743936,128,0,0,0,0
 16571,WastesofKaresh,Wastes of K'aresh,2810,16178,0,0,0,0,0,3203,0,0,0,0,0,13,-1,0,0,0,0,1342193664,136,0,0,0,0
 16572,TheGlassedExpanse,The Glassed Expanse,2810,16178,0,0,0,0,0,3203,0,0,0,0,0,13,-1,0,0,0,0,1342193664,136,0,0,0,0
 16573,NexusPointXenas,Nexus-Point Xenas,2915,0,0,0,0,3270,0,0,0,0,0,0,0,0,-1,0,0,0,5143,268435456,140,0,0,0,0
@@ -9769,10 +9769,10 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 16595,12DelvesRutaani01,The Gulf of Memory,2964,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,4898,268439552,128,0,0,0,0
 16596,12DelvesDevouringHostBoss,Torment's Rise,2966,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,4898,268441600,128,0,0,0,0
 16598,TheStump,The Stump,0,15947,13162,0,0,3190,2689,2866,0,0,0,0,0,15,-1,0,0,0,3086,1073741888,8192,0,0,0,0
-16599,SlayersRiseBGWilderness,Slayer's Rise,2799,16423,0,0,0,0,2708,3014,0,0,0,0,0,13,-1,0,0,0,4278,1895940096,128,0,0,0,0
+16599,SlayersRiseBGWilderness,Slayer's Rise,2799,16423,0,0,0,0,2708,3014,0,0,0,0,0,15,-1,0,0,0,4278,1895940096,128,0,0,0,0
 16600,EtherealPOIEast2,Shadow Rise,2771,15959,0,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,3084,1140899904,8320,0,0,0,0
-16601,DarkwellRaidCorruptedSunwellInterior,The Darkwell,2913,16342,0,0,0,0,0,3095,0,0,0,0,0,0,-1,0,0,0,0,1342177280,136,0,0,0,0
-16613,12SunwellRamparts,Sunwell Ramparts,0,16215,0,0,0,351,675,0,0,0,0,0,0.15,15,-1,0,0,0,0,1073741888,128,0,0,0,0
+16601,DarkwellRaidCorruptedSunwellInterior,The Sunwell,2913,16342,0,0,0,0,0,3095,0,0,0,0,0,0,-1,0,0,0,0,1342177280,136,0,0,0,0
+16613,12SunwellRamparts,Sunwell Ramparts,0,16215,0,0,0,0,675,0,0,0,0,0,0.15,15,-1,0,0,0,0,1073741888,128,0,0,0,0
 16618,12SilvermoonBloodKnightBuilding,Hall of Blood,0,15969,0,0,0,0,0,0,0,0,0,4,0,15,-1,0,0,0,0,1080033344,128,0,0,0,0
 16621,1127,[DNT],2863,0,0,96,0,3085,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,128,0,0,0,0
 16627,12SilvermoonSundries,Sunwing Sundries,0,15969,0,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,0,1073743936,128,0,0,0,0
@@ -9802,14 +9802,14 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 16701,FoundersGraveyard,Morgan's Rest,2735,16105,0,0,0,2975,2978,3235,0,0,0,6,0,15,-1,0,0,0,0,1073760296,128,0,0,0,0
 16704,FounderPointSmugglerDen,Breakwater Bight,2735,16105,0,0,0,0,0,3235,0,0,0,6,0,15,-1,0,0,0,0,1073760296,128,0,0,0,0
 16709,FuondersPointCovething,Crescent Cove,2735,16105,0,0,0,2974,2978,0,0,0,0,6,0,15,-1,0,0,0,0,1073760296,128,0,0,0,0
-16719,12IsleOfQuelDanasTheShiningSpan,The Shining Span,0,16215,0,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,0,1073741888,128,0,0,0,0
+16719,12IsleOfQuelDanasTheShiningSpan,The Shining Span,0,16215,0,96,0,3008,0,0,0,0,0,0,0,15,-1,0,0,0,0,1073741888,128,0,0,0,0
 16721,HermitsMooring,Hermit's Mooring,0,15947,0,0,0,3020,2689,2866,0,0,0,0,0,15,-1,0,0,0,3086,1073741888,8320,0,0,0,0
 16730,ThreshCove,Thresh Cove,0,15947,0,0,0,3021,2689,2866,0,0,0,0,0,15,-1,0,0,0,3086,1073741888,8320,0,0,0,0
 16749,SunstriderCorsair,Sunstrider Corsair,2858,16182,0,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,0,1073741888,128,0,0,0,0
 16750,BesiegedHaranirVillageInn,Har'alnor Den,2694,15355,0,0,0,0,0,0,0,0,0,0,0,15,-1,25,25,0,0,1073758272,8320,0,0,0,0
 16752,DerelictLegionVessel,Derelict Legion Vessel,1220,7543,0,0,0,0,0,0,0,0,0,0,0.15,15,-1,0,0,0,3321,1107300416,128,0,0,0,0
 16753,RazorwindTheBloom,The Bloom,2736,15524,0,0,0,2964,2978,0,0,0,0,6,0,15,-1,0,0,0,0,1073760296,128,0,0,0,0
-16754,12IsleOfQuelDanasCourtOfThePhoenix,Court of the Phoenix,0,16215,0,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,0,1073741888,128,0,0,0,0
+16754,12IsleOfQuelDanasCourtOfThePhoenix,Court of the Phoenix,0,16215,0,96,0,3327,0,0,0,0,0,0,0,15,-1,0,0,0,0,1073741888,128,0,0,0,0
 16767,DarkwellRaidTheGreatSea,The Great Sea,2913,16342,0,0,0,0,0,3095,0,0,0,0,0,13,-1,0,0,0,0,1342177280,136,0,0,0,0
 16768,DarkwellRaidCourtOfThePhoenix,Court of the Phoenix,2913,16342,0,0,0,0,0,3095,0,0,0,0,0,13,-1,0,0,0,0,1342177280,136,0,0,0,0
 16799,LightbloomLuminousGarden,The Luminous Garden,2859,16359,0,0,0,0,0,0,0,0,0,0,0,13,-1,0,0,0,0,-805306368,136,0,0,0,0
@@ -9840,5 +9840,7 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 16844,HowlingRidgeInn,Dusk's Repose,2771,15458,0,0,0,3059,2708,3014,0,0,0,0,0,15,-1,0,0,0,3084,1086341152,8320,0,0,0,0
 16850,PvPAllianceHubInn,Retribution Hold,2771,15959,0,0,0,3059,2708,3014,0,0,0,0,0,15,-1,0,0,0,3084,1082146848,8320,0,0,0,0
 16851,PvPHordeHubInn,Mettle's Hold,2771,15959,0,0,0,3059,2708,3014,0,0,0,0,0,15,-1,0,0,0,3084,1077952544,8320,0,0,0,0
-16855,SlayersRiseBGMinibossPOI,Voidscar Arena,2799,16423,0,0,0,0,2708,3014,0,0,0,0,0,13,-1,0,0,0,4278,1895940096,128,0,0,0,0
+16855,SlayersRiseBGMinibossPOI,Voidscar Arena,2799,16423,0,0,0,0,2708,3014,0,0,0,0,0,15,-1,0,0,0,4278,1895940096,128,0,0,0,0
 16860,12ZulAmanGreatSea,The Great Sea,0,0,0,0,0,0,0,0,0,0,0,0,0,15,-1,0,0,0,3086,2112,128,0,0,0,0
+16863,Local13CaveB,Quiet Cavern,2771,15458,0,0,0,2705,2708,3014,0,0,0,0,0,15,-1,0,0,0,3084,1073758272,8320,0,0,0,0
+16864,Local13CaveA,Consumptor Cave,2771,15458,0,0,0,2705,2708,3014,0,0,0,0,0,15,-1,0,0,0,3084,1073758272,8320,0,0,0,0

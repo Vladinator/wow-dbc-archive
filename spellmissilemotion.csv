@@ -29612,3 +29612,9 @@ local variance = 3
 height = height + (rand1 * variance)
 
 transUp = parabola(1,1,height)",0,1
+5032,Meteor Strike (200 Yards) Falls Straight Down + Pitch -90,"local magnitude = 200
+
+modelPitch=-90
+transUp = magnitude * ( 1 - progress )
+transFront = distanceToImpactPos
+",0,1
