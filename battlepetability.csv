@@ -2248,6 +2248,10 @@ Slashes at the target with cruel talons, dealing [StandardDamage(1,1)] [petTypeN
 1353,Arcane Slash,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
 Rushes the enemy, dealing [StandardDamage(1,2)] [School()] damage, or [StandardDamage(1,1)] [School()] damage if the user strikes first.",236205,5,0,0,0
+1754,Fire Shield,"Deals [StandardDamage(1,1,1755)] [School()] damage each time you take direct damage.
+
+Lasts [duration(1,1)] |4round:rounds;.",132221,6,5,0,0
+1755,Fire Shield,"Deals [FormatDamage(SimpleDamage(1,1),nil,AURAENEMY)] [School()] damage each time you take direct damage.",132221,6,0,681,0
 1960,Twilight Meteorite,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
 Call forth a twilight meteor onto your enemies, dealing [StandardDamage(1,1)] [School()] damage, split evenly amongst them.",425959,1,5,0,0
@@ -2290,3 +2294,6 @@ While Hibernating you cannot swap pets.",132156,7,5,0,2
 Controls the power of life itself to deal [StandardDamage(1,1)] [School()] damage.
 
 The user is healed for [points(1,2)]% of the damage dealt.",136233,1,0,0,0
+2540,Hammer,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Deals [StandardDamage(1,1)] [School()] damage and forces an opponent's pet to swap into battle.",133040,9,4,0,0

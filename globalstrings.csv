@@ -10589,7 +10589,7 @@ ID,BaseTag,TagText_lang,Flags
 22185,COMPACT_UNIT_FRAME_PROFILE_DISPLAYNONBOSSDEBUFFS,Show Debuffs,1
 22186,COMPACT_UNIT_FRAME_PROFILE_HORIZONTALGROUPS,Horizontal Groups,1
 22187,WARGAME_MINIMUM,Minimum %dv%d,1
-22188,NEWBIE_TOOLTIP_ENCOUNTER_JOURNAL,"View information about Cataclysm dungeon and raid bosses, including their abilities and treasure.",1
+22188,NEWBIE_TOOLTIP_ENCOUNTER_JOURNAL,"View information about dungeon and raid bosses, including their abilities and treasure.",1
 22189,PVP_CURRENCY_CAP_ARENA,You may only receive a certain number of %s from queueing for arena battles each week. You have currently received:,1
 22190,PVP_CURRENCY_CAP_RATEDBG,You may only receive a certain number of %s from queueing for rated battlegrounds each week. You have currently received:,1
 22191,FROM_ARENA,Arena Battles:,1
@@ -11670,7 +11670,7 @@ ID,BaseTag,TagText_lang,Flags
 23322,POWER_TYPE_FOOD,Food,1
 23323,PRIEST_HOLY_CORE_ABILITY_1,Use when available.,1
 23324,ERR_PVP_BLACKLIST_CAP,You have already blacklisted the maximum number of maps.,1
-23326,TOOLTIP_BATTLE_PET,Battle Pet,1
+23326,TOOLTIP_BATTLE_PET,Battle Pet,3
 23327,DUNGEON_FLOOR_PROVINGGROUNDS1,Arena of Annihilation,1
 23328,ITEM_UPGRADE_MISSING_ITEM,Drag an item here to Upgrade it.,1
 23329,QUEUED_STATUS_PROPOSAL,Ready To Enter,1
@@ -13918,7 +13918,7 @@ ID,BaseTag,TagText_lang,Flags
 25752,INSTANCE_UNAVAILABLE_OTHER_NO_SPEC,%s must choose a class specialization before entering this dungeon,1
 25753,INSTANCE_UNAVAILABLE_SELF_NO_SPEC,You must choose a class specialization before entering this dungeon,1
 25754,VRN_NEEDS_5_0_DX11,Requires DirectX 11 and a shader model 5 capable graphics card,3
-25755,TOKEN_CURRENT_AUCTION_VALUE,Current Auction Value: |cffffffff%s|r|n(subject to change),1
+25755,TOKEN_CURRENT_AUCTION_VALUE,Current Auction Value: |cffffffff%s|r|n(subject to change),7
 25757,TOKEN_REDEEM_GAME_TIME_BUTTON_LABEL_MINUTES,2700 Minutes of Game Time,1
 25759,TOKEN_CONFIRM_GAME_TIME_DESCRIPTION_MINUTES,2700 minutes of game time will be added to your World of Warcraft account.  This game time is nonrefundable.,1
 25760,TOKEN_COMPLETE_GAME_TIME_DESCRIPTION_MINUTES,2700 minutes of game time will be added to your World of Warcraft account.  You will receive a confirmation email shortly.,1
@@ -13934,7 +13934,7 @@ ID,BaseTag,TagText_lang,Flags
 25770,GARRISON_SHIPYARD_DANGEROUS_MISSION_LABEL,Dangerous Mission,1
 25771,GARRISON_SHIPYARD_DANGEROUS_MISSION_TOOLTIP_TITLE,Ship Safety,1
 25772,GARRISON_SHIPYARD_DANGEROUS_MISSION_TOOLTIP_TEXT,"If this mission fails, each deployed ship has a chance to be permanently destroyed.",1
-25773,TOKEN_MARKET_PRICE_NOT_AVAILABLE,|cffff2020Not Available|r,1
+25773,TOKEN_MARKET_PRICE_NOT_AVAILABLE,|cffff2020Not Available|r,7
 25774,TOKEN_AUCTIONS_UNAVAILABLE,|cffff2020WoW Token auctions are currently unavailable.|r,1
 25775,TOKEN_NONE_FOR_SALE,There are currently no WoW Tokens for sale. Please check back later.,3
 25776,TOKEN_TRY_AGAIN_LATER,Please wait %s before trying again.,1
@@ -18354,6 +18354,7 @@ ID,BaseTag,TagText_lang,Flags
 48888,REPORTING_COMMENT_INSTRUCTIONS,More details about your report (optional),1
 48903,ITEM_MOD_CRAFTING_SPEED_SHORT,Crafting Speed,1
 48904,ITEM_MOD_MULTICRAFT_SHORT,Multicraft,1
+48911,HUD_EDIT_MODE_CHARACTER_LAYOUTS_HEADER,%s Specific,1
 48914,BLIZZARD_STORE_CURRENCY_FORMAT_GEL,GEL %s,3
 48915,BLIZZARD_STORE_CURRENCY_FORMAT_TRY,TRY %s,3
 48916,BLIZZARD_STORE_CURRENCY_FORMAT_KZT,KZT %s,3
@@ -18477,6 +18478,7 @@ ID,BaseTag,TagText_lang,Flags
 49389,CLASS_INFO_DEATHKNIGHT5,- Uses runes and runic power as resources.,2
 49390,CLASS_INFO_WARLOCK5,- Uses mana as a resource.,2
 49391,CLASS_INFO_PALADIN5,- Uses mana and holy power as resources.,2
+49403,HUD_EDIT_MODE_ERROR_COPY_MAX_LAYOUTS,|cnNORMAL_FONT_COLOR:Copy Layout|r|nA max of %d character layouts and %d account layouts are allowed,1
 49421,NEWBIE_TOOLTIP_LFG_LIST_EDIT,Edit your current group listing.,1
 49422,CLASS_ROLE_NOT_RECOMMENDED,This role is not recommended for your character's class.,1
 49426,LFG_LIST_NEW_PLAYER_FRIENDLY_TOOLTIP,Indicates that you welcome new players into your group and are willing to act as a guide for them.,1
@@ -18710,6 +18712,7 @@ You can learn more Specializations as you increase your skill level.",1
 51646,SELF_HIGHLIGHT_UNIT_FRAME,Self Highlight,1
 51647,SELF_HIGHLIGHT_CIRCLE,Circle,1
 51649,SELF_HIGHLIGHT_ICON,Icon,1
+51688,CHAR_CREATE_FACTION_BALANCE,This faction is currently unavailable on this realm due to population imbalance.,3
 51708,CHARACTER_SELECT_NAV_BAR_REALMS,REALMS,2
 51728,SHOW_DYNAMIC_BUFF_SIZE,Dynamic Buff and Debuff Size,1
 51729,OPTION_TOOLTIP_SHOW_DYNAMIC_BUFF_SIZE,Makes your buffs and debuffs appear larger than other effects on your target.,1
@@ -18852,9 +18855,13 @@ They will be deleted and remade with the current customized character.",2
 54721,REPORT_RESULT_REQUIRES_CHAT_OR_VOICE,Report failed. Report type only valid on chat lines or when in voice chat,1
 54865,CREDITS_EXPANSION_NAME_4_0,Mists of Pandaria (2012),2
 54866,CREDITS_EXPANSION_NAME_4_1,Mists of Pandaria Classic (2025),2
+54898,CATALOG_SHOP_NO_SEARCH_RESULTS,No results found,7
 55117,UNIT_FRAMES_DISPLAY_INCOMING_HEALS,Incoming Heals for Unit Frames,1
 55118,OPTION_TOOLTIP_UNIT_FRAMES_DISPLAY_INCOMING_HEALS,"Display incoming heals on unit frames, such as yourself and your target.",1
 55485,LFG_LIST_REPORT_PLAYER,Report Player,1
+55616,CATALOG_SHOP_DETAILS,Details,3
+55617,CATALOG_SHOP_BACK,Back,3
+55618,CATALOG_SHOP_RACE,Race,3
 55627,CATALOG_SHOP_PRODUCT_OWNED,Owned,3
 55634,CATALOG_SHOP_TYPE_SERVICE,Service,3
 55635,MOVE_PAD_LOCKED,Lock Window,1
@@ -18865,14 +18872,107 @@ They will be deleted and remade with the current customized character.",2
 55641,CATALOG_SHOP_MISSING_LICENSE_ITEM,This item is only available on %s,3
 55642,CATALOG_SHOP_WOW_FLAVOR_MODERN,World of Warcraft: %s,3
 55643,CATALOG_SHOP_WOW_FLAVOR_CLASSIC,%s Classic,3
+55675,CATALOG_SHOP_TYPE_MOUNT_FLYING,Flying Mount,3
+55676,CATALOG_SHOP_TYPE_MOUNT_GROUND,Ground Mount,3
+55698,CATALOG_SHOP_CAROUSEL_INDEX,%s / %s,3
 55715,CATALOG_SHOP_DISCLAIMER_ALL_PRODUCTS,|Hcodelink|hCertain restrictions apply. Visit the |c82c5ffffproduct page|r on shop.battle.net for more information.|h,3
 55719,VISITABLE_URL62,https://shop.battle.net/family/world-of-warcraft/items/%s/,3
 55720,VISITABLE_URL63,https://shop.battle.net/gametime-purchase,3
 55737,CATALOG_SHOP_TOKEN_IN_GAME_ONLY,You must be logged in with a character to purchase a WoW Token.,3
+55741,CATALOG_SHOP_DISCOUNT_FORMAT,-%s%%,3
 55742,CATALOG_SHOP_TYPE_MOUNT_FLYING_AQUATIC,Flying Aquatic Mount,3
+55771,CATALOG_SHOP_NOT_AVAILABLE,Shop Unavailable,3
+55772,CATALOG_SHOP_TRY_AGAIN_LATER,Please check back later.,3
+55918,CATALOG_SHOP_PENDING_PURCHASES,Purchase(s) Pending,3
 56113,CHALLENGE_MODE_MEDAL4,Platinum,1
 56114,CHALLENGE_MODE_MEDALNAME4,Platinum Medal,1
-56160,TRANSMOG_SET_GRANTS_PRECEDING_VARIANTS,Completing this appearance set unlocks all preceding set variants.,1
 56164,CHALLENGE_MODE_NEW_RECORD_ANNOUNCEMENT,%s has been beaten in record time: %.2d:%.2d by %s!,1
 56165,CHALLENGE_MODE_NEW_RECORD_ANNOUNCEMENT_GUILD,%s has been beaten in record time: %.2d:%.2d by %s from the guild <%s>!,1
 56201,GUILD_BANK_LOG_TIME_CLASSIC, ( %s ago ),1
+56578,ACCESSIBILITY_AUDIO_LABEL,Audio Assist,1
+56669,CHAT_TTS_LABEL,Chat Text to Speech,1
+56670,CAA_COMBAT_AUDIO_ALERTS_LABEL,Combat Audio Alerts,1
+56672,CAA_ENABLE_COMBAT_AUDIO_ALERTS,Enable Combat Audio Alerts,1
+56673,CAA_COMBAT_AUDIO_ALERTS_TOOLTIP,[DNT] Combat Audio Alerts Tooltip,1
+56674,CAA_ENABLE_COMBAT_AUDIO_ALERTS_TOOLTIP,Enables the use of combat audio alerts. This can be toggled using the chat command /ttscombat.,1
+56675,CAA_SAY_PLAYER_HEALTH_LABEL,Say Your Health,1
+56676,EVERY_X_PERCENT,Every %d%%,1
+56677,CAA_SAY_PLAYER_HEALTH_TOOLTIP,Says your health when it crosses certain percentages,1
+56678,CAA_SAY_TARGET_HEALTH_LABEL,Say Target Health,1
+56679,CAA_SAY_TARGET_HEALTH_TOOLTIP,Says your target's health when it crosses certain percentages,1
+56721,TEXT_TO_SPEECH_SHORT,TTS,1
+56722,CAA_SAY_HEALTH_FORMAT_FULL,Health %d percent,1
+56723,CAA_SAY_HEALTH_FORMAT_NO_PERCENT,Health %d,1
+56724,CAA_SAY_HEALTH_FORMAT_NO_HEALTH,%d percent,1
+56725,CAA_SAY_PLAYER_HEALTH_FORMAT_LABEL,Format,1
+56726,CAA_SAY_PLAYER_HEALTH_FORMAT_TOOLTIP,"Choose the wording it will use to say your health, using 20% as an example",1
+56730,CAA_SAY_HEALTH_FORMAT_NUM_ONLY,%d,1
+56731,CAA_SAY_TARGET_HEALTH_FORMAT_FULL,Target %d percent,1
+56732,CAA_SAY_TARGET_HEALTH_FORMAT_NO_PERCENT,Target %d,1
+56755,CAA_SPEAKER_VOICE_LABEL,Combat Speaker Voice,1
+56756,CAA_SPEAKER_VOICE_TOOLTIP,Choose the primary voice for combat audio alerts,1
+56757,CAA_SPEAKER_SPEED_LABEL,Combat Speaker Speed,1
+56758,CAA_SPEAKER_SPEED_TOOLTIP,Adjust the rate of speech for combat audio alerts,1
+56759,CAA_SPEAKER_VOLUME_LABEL,Combat Speaker Volume,1
+56760,CAA_SPEAKER_VOLUME_TOOLTIP,Choose the primary volume for combat audio alerts,1
+56761,CAA_SAMPLE_TEXT,Sample Text,1
+56762,CAA_SAY_PLAYER_HEALTH_THROTTLE_LABEL,Throttle,1
+56763,CAA_SAY_PLAYER_HEALTH_THROTTLE_TOOLTIP,Limits the time between health callouts to reduce noise,1
+56764,CAA_SAY_TARGET_HEALTH_THROTTLE_LABEL,Throttle,1
+56765,CAA_SAY_TARGET_HEALTH_THROTTLE_TOOLTIP,Limits the time between target health callouts to reduce noise,1
+56766,SECONDS_FLOAT_ABBR,%.1f |4Sec:Sec;,1
+56781,CAA_SEARCH_TAG_SHORT,CAA,1
+56851,CAA_SAY_TARGET_NAME_LABEL,Say Target Name,1
+56853,CAA_SAY_TARGET_NAME_TOOLTIP,Says the name of the target when you select it,1
+56854,CAA_SAY_COMBAT_START_LABEL,Say Combat Start,1
+56855,CAA_SAY_COMBAT_START_TOOLTIP,Choose a phrase or sound to indicate combat has started,1
+56856,CAA_SAY_COMBAT_END_LABEL,Say Combat End,1
+56857,CAA_SAY_COMBAT_END_TOOLTIP,Choose a phrase or sound to indicate combat has ended,1
+56858,CAA_SAY_COMBAT_START_TEXT,"Voice: ""Combat Start""",1
+56859,CAA_SAY_COMBAT_END_TEXT,"Voice: ""Combat End""",1
+56860,CAA_WHEN_TARGET_DIES_LABEL,When Target Dies,1
+56861,CAA_WHEN_TARGET_DIES_TOOLTIP,Choose a phrase or sound to indicate the target has died,1
+56862,CAA_WHEN_TARGET_DIES_USE_FORMAT,Use Target Health Format,1
+56864,CAA_WHEN_TARGET_DIES_VOICE_TARGET_DEAD,"Voice: ""Target Dead""",1
+56866,CAA_TARGET_DEAD,Target Dead,1
+56867,CAA_COMBAT_START_TEXT,Combat Start,1
+56873,CAA_COMBAT_END_TEXT,Combat End,1
+56929,CAA_SAY_PLAYER_CASTS_LABEL,Say Your Casts,1
+56930,CAA_SAY_PLAYER_CASTS_TOOLTIP,Says when you cast an ability,1
+56931,CAA_SAY_PLAYER_CASTS_FORMAT_LABEL,Format,1
+56932,CAA_SAY_PLAYER_CASTS_FORMAT_TOOLTIP,Choose the wording it will use to say your cast,1
+56933,CAA_SAY_PLAYER_CASTS_MIN_CAST_TIME_LABEL,Minimum Cast Time,1
+56934,CAA_SAY_PLAYER_CASTS_MIN_CAST_TIME_TOOLTIP,Sets the minimum cast time of abilities to be announced. Set this to zero to include instant cast abilities.,1
+56935,CAA_SAY_PLAYER_CASTS_THROTTLE_LABEL,Throttle,1
+56936,CAA_SAY_PLAYER_CASTS_THROTTLE_TOOLTIP,Limits the time between cast callouts to reduce noise,1
+56937,CAA_SAY_TARGET_CASTS_LABEL,Say Target Casts,1
+56938,CAA_SAY_TARGET_CASTS_TOOLTIP,Says when your target casts an ability,1
+56939,CAA_SAY_TARGET_CASTS_FORMAT_LABEL,Format,1
+56940,CAA_SAY_TARGET_CASTS_FORMAT_TOOLTIP,Choose the wording it will use to say your target's cast,1
+56941,CAA_SAY_TARGET_CASTS_MIN_CAST_TIME_LABEL,Minimum Cast Time,1
+56942,CAA_SAY_TARGET_CASTS_MIN_CAST_TIME_TOOLTIP,Sets the minimum cast time of abilities to be announced. Set this to zero to include instant cast abilities.,1
+56943,CAA_SAY_TARGET_CASTS_THROTTLE_LABEL,Throttle,1
+56944,CAA_SAY_TARGET_CASTS_THROTTLE_TOOLTIP,Limits the time between target cast callouts to reduce noise,1
+56945,CAA_SAY_TARGET_CASTS_INTERRUPT_LABEL,Interruptible Cast Alert,1
+56946,CAA_SAY_TARGET_CASTS_INTERRUPT_TOOLTIP,Announces when the target starts casting something that you can interrupt with an ability,1
+56947,CAA_SAY_TARGET_CASTS_INTERRUPT_SUCCESS_LABEL,Successful Interrupt Alert,1
+56948,CAA_SAY_TARGET_CASTS_INTERRUPT_SUCCESS_TOOLTIP,Announces when your target's cast is successfully interrupted by you or someone else,1
+56949,CAA_SAY_TARGET_CASTS_INTERRUPT_TEXT,"Voice: ""Interruptible Cast""",1
+56950,CAA_SAY_TARGET_CAST_INTERRUPT_SUCCESS_TEXT,"Voice: ""Target interrupted""",1
+56960,CAA_SAY_CASTS_FORMAT_FULL,Casting %s,1
+56961,CAA_SAY_CASTS_FORMAT_SHORT,Cast %s,1
+56962,CAA_SAY_CASTS_FORMAT_NO_SPELLNAME,Casting,1
+56963,CAA_SAY_CASTS_FORMAT_SHORT_NO_SPELLNAME,Cast,1
+56965,CAA_SAY_CASTS_FORMAT_SPELLNAME_ONLY,%s,1
+56966,CAA_SAY_TARGET_CASTS_FORMAT_FULL,Target casting %s,1
+56967,CAA_SAY_TARGET_CASTS_FORMAT_SHORT,Target cast %s,1
+56968,CAA_SAY_TARGET_CASTS_FORMAT_NO_SPELLNAME,Target Casting,1
+56969,CAA_SAY_TARGET_CASTS_FORMAT_SHORT_NO_SPELLNAME,Target Cast,1
+56970,CAA_SAY_CASTS_START_OF_CAST,Start of cast,1
+56971,CAA_SAY_CASTS_END_OF_CAST,End of cast,1
+57010,CAA_SAMPLE_SPELLNAME,Fireball,1
+57033,CAA_SAY_TARGET_HEALTH_FORMAT_LABEL,Format,1
+57034,CAA_SAY_TARGET_HEALTH_FORMAT_TOOLTIP,"Choose the wording it will use to say your target's health, using 20% as an example",1
+57070,CATALOG_SHOP_WOW_FLAVOR_TRR,Titan Reforged Realm,3
+57088,CAA_INTERRUPTIBLE_CAST_TEXT,Interruptible Cast,1
+57089,CAA_INTERRUPTED_CAST_TEXT,Target interrupted,1
