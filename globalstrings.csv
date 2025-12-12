@@ -23091,7 +23091,7 @@ And spread his flame to all Azeroth.",1
 53111,ERR_HOUSING_RESULT_NOT_IN_DECOR_EDIT_MODE,You are not currently in the House Editor,1
 53112,ERR_HOUSING_RESULT_NOT_INSIDE_HOUSE,Not inside House,1
 53113,ERR_HOUSING_RESULT_SERVICE_NOT_AVAILABLE,Service not available,1
-53114,ERR_HOUSING_RESULT_ROOM_NOT_FOUND,Room not found,1
+53114,ERR_HOUSING_RESULT_ROOM_NOT_FOUND,Out of bounds,1
 53115,ERR_HOUSING_RESULT_ROOM_UPDATE_FAILED,Room update failed,1
 53116,ERR_HOUSING_RESULT_NOT_IN_LAYOUT_EDIT_MODE,You are not currently in the Floorplan Editor,1
 53119,ERR_HOUSING_RESULT_PLOT_NOT_FOUND,Plot not found,1
@@ -23150,9 +23150,9 @@ And spread his flame to all Azeroth.",1
 53173,HOUSING_CREATENEIGHBORHOOD_GUILD_OPENDESCRIPTION,"|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t For the first 24 hours, only guild members may buy a Plot |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t After 24 hours, any player may buy a Plot |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t New Subdivisions will not be created when the Neighborhood is full |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Can't be converted into a Private Neighborhood",1
 53174,HOUSING_CREATENEIGHBORHOOD_CHARTER_PRIVATEDESCRIPTION,|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Every player on the Charter will be able to buy a Plot |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Neighborhood Managers can add other players to the Neighborhood |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Can be converted into an Open Neighborhood,1
 53175,HOUSING_CREATENEIGHBORHOOD_CHARTER_OPENDESCRIPTION,"|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Every player on the Charter will be able to buy a Plot |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t For the first 24 hours, only Charter players may purchase a Plot |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t After 24 hours, any player may purchase a Plot |n|TInterface/QuestFrame/UI-Quest-BulletPoint.blp:0|t Can't be converted into a Private Neighborhood",1
-53176,HOUSING_CREATENEIGHBORHOOD_ERROR_NOTENOUGHGUILDMEMBERS,You do not meet the minimum guild member requirement,1
+53176,HOUSING_CREATENEIGHBORHOOD_ERROR_NOTENOUGHGUILDMEMBERS,You do not meet the minimum active guild member requirement ,1
 53177,HOUSING_CREATENEIGHBORHOOD_ERROR_BADNAME,Please choose a different Neighborhood name,1
-53178,HOUSING_CREATENEIGHBORHOOD_ERROR_UNDERSIZED_GUILD,You do not meet the minimum guild member requirement,1
+53178,HOUSING_CREATENEIGHBORHOOD_ERROR_UNDERSIZED_GUILD,You do not meet the minimum active guild member requirement,1
 53179,HOUSING_CREATENEIGHBORHOOD_ERROR_OVERSIZED_GUILD,You exceed the maximum guild member limit. Please create a Private Neighborhood.,1
 53180,HOUSING_CREATENEIGHBORHOOD_GUILD_CONFIRMBUTTON,Create Neighborhood,1
 53181,HOUSING_CREATENEIGHBORHOOD_CHARTER_CONFIRMBUTTON,Confirm and Purchase,1
@@ -23340,7 +23340,7 @@ And spread his flame to all Azeroth.",1
 53739,PREFACE_HOUSING_EXPERTDECOR_BINDINGS,Advanced Mode only bindings,1
 53742,BINDING_NAME_DRIFT,Drift,1
 53744,CONFIRM_REMOVE_WOW_FRIEND,Are you sure you want to remove this friend from your list? This action cannot be undone.,1
-53746,CONFIRM_RELIC_CHOICE,Are you sure you wish to reawaken this relic? It will be some time before you can awaken another.,1
+53746,CONFIRM_RELIC_CHOICE,Are you sure you wish to choose this relic? You won't be able to change relics until after the next weekly reset.,1
 53760,SPELL_FAILED_CUSTOM_ERROR_1090,Requires Unbreakable Bond.,1
 53762,ADVANCED_OPTIONS_LABEL,Gameplay Enhancements,1
 53764,ENABLE_COOLDOWN_VIEWER,Enable Cooldown Manager,1
@@ -23816,8 +23816,8 @@ And spread his flame to all Azeroth.",1
 55104,UNIT_NAMEPLATES_STYLE_DEFAULT,Default,1
 55105,UNIT_NAMEPLATES_STYLE_LEGACY,Legacy Red,1
 55106,UNIT_NAMEPLATES_STYLE_THIN,Thin Bars,1
-55107,UNIT_NAMEPLATES_STYLE_BLOCK,Blocky Cast,1
-55108,UNIT_NAMEPLATES_STYLE_CAST_FOCUS,Blocky and Clean,1
+55107,UNIT_NAMEPLATES_STYLE_BLOCK,Blocky Bars,1
+55108,UNIT_NAMEPLATES_STYLE_CAST_FOCUS,Blocky Cast,1
 55109,TRANSMOG_SLOT_DISPLAY_TYPE_EQUIPPED_TOOLTIP,"When this outfit is applied, items in this slot will use their native appearance.",1
 55110,TRANSMOG_SLOT_DISPLAY_TYPE_UNASSIGNED_TOOLTIP,"When this outfit is applied, items in this slot will not have their appearance changed.",1
 55123,HOUSING_CATALOG_FILTERS_NONE,None,1
@@ -24058,7 +24058,7 @@ And spread his flame to all Azeroth.",1
 55497,HOUSING_DASHBOARD_REWARD_FIXTURE_TOOLTIP,Increase your Exterior Fixture Budget,1
 55499,TALENT_BUTTON_TOOLTIP_QUICK_ASSIGN_INSTRUCTIONS,Ctrl-Click to Quick Assign,1
 55501,SPELL_FAILED_CUSTOM_ERROR_2502,Requires at least 3 stacks of Torment.,1
-55504,SPELL_FAILED_CUSTOM_ERROR_2503,Requires the Small Net upgrade.,1
+55504,SPELL_FAILED_CUSTOM_ERROR_2503,Requires the Shallows Net upgrade.,1
 55508,SPELL_FAILED_CUSTOM_ERROR_652,You have already collected this Decor.,1
 55509,HOUSING_MICROBUTTON_NPE_RESTRICTED_TOOLTIP,This feature becomes available after completing Exile's Reach.,1
 55510,VOTE_TO_ABANDON_ON_COOLDOWN,Vote to Abandon is currently on cooldown: |cnWHITE_FONT_COLOR:%s remaining|r,1
@@ -24297,7 +24297,7 @@ And spread his flame to all Azeroth.",1
 55951,SPELL_DIMINISH_PVP_ENABLE_SETTING_LABEL,Diminishing Returns Tracking,1
 55952,SPELL_DIMINISH_PVP_ENABLE_SETTING_TOOLTIP,Activates tracking of diminishing returns for crowd control effects in enemy group unit frames.,1
 55953,SPELL_DIMINISH_PVP_ONLY_CAST_BY_ME_LABEL,Only Castable by Me,1
-55954,SPELL_DIMINISH_PVP_ONLY_CAST_BY_ME_TOOLTIP,Limits displayed diminishing returns icons to those associated with spells you are able to track.,1
+55954,SPELL_DIMINISH_PVP_ONLY_CAST_BY_ME_TOOLTIP,Limits displayed diminishing returns icons to only those associated with spells you are able to cast.,1
 55955,HOUSING_LAYOUT_STAIRS_UP,Up,1
 55956,HOUSING_LAYOUT_STAIRS_CONFIRMATION,Select a direction for your new Stairwell:,1
 55957,HOUSING_LAYOUT_STAIRS_DOWN,Down,1
@@ -24523,8 +24523,10 @@ And spread his flame to all Azeroth.",1
 56601,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_BLUE,Ocean,1
 56603,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_YELLOW,Mustard,1
 56604,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_BROWN,Nutmeg,1
+56626,UNIT_NAMEPLATES_SHOW_CAST_BARS,Nameplate Cast Bars,1
+56627,OPTION_TOOLTIP_UNIT_NAMEPLATES_SHOW_CAST_BARS,Turn this on to display spell cast bars on unit nameplates.,1
 56628,HOUSING_DECOR_PLACEMENT_COST_TOOLTIP,Decor Placement Cost |cnNORMAL_FONT_COLOR:|nHow much of the Decor Placement Budget this Decor costs to place|r,1
-56641,PLAYER_CHOICE_SALTHERILSHAVEN_CONFIRMATION,This choice will affect all characters in your Warband. |n|n|cffffd200Continue?|r,1
+56641,PLAYER_CHOICE_SALTHERILSHAVEN_CONFIRMATION,You will be able to complete a special task on behalf of the invited faction. Your Warband can only select one invitation per week. |n|n|cffffd200Continue?|r,1
 56643,HOUSING_PLACEMENT_PREVIEW_LIMIT_REACHED,"You are at your Preview limit. To add more Decor, please remove one or more existing items.",1
 56644,ERROR_SCRIPT_EXECUTION_HALT,Error reporting is now paused and will resume after reloading the UI.,3
 56645,ERROR_SCRIPT_EXECUTION_LIMIT,"Script from ""%s"" has exceeded its execution time limit.",3
@@ -24683,11 +24685,11 @@ And spread his flame to all Azeroth.",1
 56891,HOUSING_BUNDLE_CLICK_TO_PLACE_DECOR,Click or drag to preview in your house,1
 56892,DAMAGE_METER_SPELL_ENTRY_CREATURE,%s (%s),1
 56893,SPELL_FAILED_CUSTOM_ERROR_2515,That item can't be used by players of your class!,1
-56894,HOUSING_BUNDLE_BUNDLE_ITEM_PLACED,[DNT] All items of this type from this bundle have been placed.,1
+56894,HOUSING_BUNDLE_BUNDLE_ITEM_PLACED,All bundle Decor of this type have been placed.,1
 56898,HUD_EDIT_MODE_SETTING_UNIT_FRAME_AURA_ORGANIZATION,Template,1
 56899,HUD_EDIT_MODE_SETTING_UNIT_FRAME_AURA_ORGANIZATION_LEGACY,Legacy,1
-56900,HUD_EDIT_MODE_SETTING_UNIT_FRAME_AURA_ORGANIZATION_BUFFS_TOP,[PH] Buffs On Top,1
-56901,HUD_EDIT_MODE_SETTING_UNIT_FRAME_AURA_ORGANIZATION_BUFFS_RIGHT,[PH] Buffs On Right,1
+56900,HUD_EDIT_MODE_SETTING_UNIT_FRAME_AURA_ORGANIZATION_BUFFS_TOP,Buff Focused,1
+56901,HUD_EDIT_MODE_SETTING_UNIT_FRAME_AURA_ORGANIZATION_BUFFS_RIGHT,Debuff Focused,1
 56902,HUD_EDIT_MODE_SETTING_UNIT_FRAME_CONTAINER_OPACITY,Opacity,1
 56903,HUD_EDIT_MODE_SETTING_UNIT_FRAME_AURA_ICON_SIZE,Icon Size,1
 56905,DAMAGE_METER_TYPE_ABSORBS,Absorbs,1
@@ -24851,7 +24853,6 @@ And spread his flame to all Azeroth.",1
 57289,HOUSING_MARKET_VIEW_IN_SHOP,View in Shop,1
 57290,HOUSING_DECOR_REFUND_RIGHT_CLICK_INSTRUCTION,Right click to refund,1
 57291,HOUSING_BUNDLE_CLICK_TO_VIEW_IN_SHOP,Click to view in shop,1
-57293,CAA_SAY_PLAYER_RESOURCE_TIME_LABEL,Say %s Time Left,1
 57294,ERR_HOUSING_RESULT_EXTERIOR_TYPE_NOT_FOUND,House Type not found,1
 57295,SPELL_FAILED_CUSTOM_ERROR_2517,You are not the party leader.,1
 57296,SPELL_FAILED_TRANSMOG_OUTFIT_ALREADY_KNOWN,Transmog Outfit is already in your collection,1
@@ -24865,3 +24866,251 @@ And spread his flame to all Azeroth.",1
 57307,HOUSING_EXTERIOR_CUSTOMIZATION_SIZE_MEDIUM,Medium,1
 57308,HOUSING_EXTERIOR_CUSTOMIZATION_SIZE_LARGE,Large,1
 57309,HOUSING_DASHBOARD_INITIATIVE_NO_ACTIVITY,No Activity Yet,1
+57310,CAA_SAY_PARTY_HEALTH_LABEL,Say Party Health,1
+57311,CAA_SAY_PARTY_HEALTH_TOOLTIP,"When in a party, calls out party members that need healing by their party number. You are ""1"" while your party members are 2-5 based on their order. Frequency of callouts are based on how low their health is.",1
+57312,CAA_SAY_PARTY_HEALTH_FREQUENCY_LABEL,Frequency,1
+57313,CAA_SAY_PARTY_HEALTH_FREQUENCY_TOOLTIP,Adjust the relative frequency of party health callouts,1
+57314,UNDER_X_PERCENT,Under %d%%,1
+57315,HOUSING_EXTERIOR_CUSTOMIZATION_TYPE_SIZES_LOCKED_TOOLTIP,House Level too low for this Type's size,1
+57317,PUNCH_LIST_ITEM_CACHE_TOOLTIP,This contains one of these items:,1
+57318,CDMSND_ANIMALS_CAT,Cat,1
+57319,CDMSND_ANIMALS_CHICKEN,Chicken,1
+57320,CDMSND_ANIMALS_COW,Cow,1
+57321,CDMSND_ANIMALS_GNOLL,Gnoll,1
+57322,CDMSND_ANIMALS_GOAT,Goat,1
+57323,CDMSND_ANIMALS_LION,Lion,1
+57324,CDMSND_ANIMALS_PANTHER,Panther,1
+57325,CDMSND_ANIMALS_RATTLESNAKE,Rattlesnake,1
+57326,CDMSND_ANIMALS_SHEEP,Sheep,1
+57327,CDMSND_ANIMALS_WOLF,Wolf,1
+57328,CDMSND_DEVICES_BOAT_HORN,BoatHorn,1
+57329,CDMSND_DEVICES_AIR_HORN,AirHorn,1
+57330,CDMSND_DEVICES_BIKE_HORN,BikeHorn,1
+57331,CDMSND_DEVICES_CASH_REGISTER,CashRegister,1
+57332,CDMSND_DEVICES_JACKPOT_BELL,JackpotBell,1
+57333,CDMSND_DEVICES_JACKPOT_COINS,JackpotCoins,1
+57334,CDMSND_DEVICES_JACKPOT_FAIL,JackpotFail,1
+57335,CDMSND_DEVICES_ROTARY_PHONE_DIAL,RotaryPhoneDial,1
+57336,CDMSND_DEVICES_ROTARY_PHONE_RING,RotaryPhoneRing,1
+57337,CDMSND_DEVICES_STOVE_PIPE,StovePipe,1
+57338,CDMSND_DEVICES_TRASHCAN_LID,TrashcanLid,1
+57339,CDMSND_IMPACTS_ANVIL_STRIKE,AnvilStrike,1
+57340,CDMSND_IMPACTS_BUBBLE_SMASH,BubbleSmash,1
+57341,CDMSND_IMPACTS_LOW_THUD,LowThud,1
+57342,CDMSND_IMPACTS_METAL_CLANKS,MetalClanks,1
+57343,CDMSND_IMPACTS_METAL_RATTLE,MetalRattle,1
+57344,CDMSND_IMPACTS_METAL_SCRAPE,MetalScrape,1
+57345,CDMSND_IMPACTS_METAL_WARBLE,MetalWarble,1
+57346,CDMSND_IMPACTS_POP_CLICK,PopClick,1
+57347,CDMSND_IMPACTS_STRANGE_CLANG,StrangeClang,1
+57348,CDMSND_IMPACTS_SWORD_SCRAPE,SwordScrape,1
+57349,CDMSND_INSTRUMENTS_BELL_RING,BellRing,1
+57350,CDMSND_INSTRUMENTS_BELL_TRILL,BellTrill,1
+57351,CDMSND_INSTRUMENTS_BRASS,Brass,1
+57352,CDMSND_INSTRUMENTS_CHIME_ASCENDING,ChimeAscending,1
+57353,CDMSND_INSTRUMENTS_GUITAR_CHUG,GuitarChug,1
+57354,CDMSND_INSTRUMENTS_GUITAR_PINCH,GuitarPinch,1
+57355,CDMSND_INSTRUMENTS_PITCH_PIPE_DISTRESSED,PitchPipeDistressed,1
+57356,CDMSND_INSTRUMENTS_PITCH_PIPE_NOTE,PitchPipeNote,1
+57357,CDMSND_INSTRUMENTS_SYNTH_BIG,SynthBig,1
+57358,CDMSND_INSTRUMENTS_SYNTH_BUZZ,SynthBuzz,1
+57359,CDMSND_INSTRUMENTS_SYNTH_HIGH,SynthHigh,1
+57360,CDMSND_INSTRUMENTS_WARHORN,Warhorn,1
+57361,CDMSND_WAR2_ABSTRACT_WHOOSH,AbstractWhoosh,1
+57362,CDMSND_WAR2_CHOIR,Choir,1
+57363,CDMSND_WAR2_CONSTRUCTION,Construction,1
+57364,CDMSND_WAR2_MAGIC_CHIMES,MagicChimes,1
+57365,CDMSND_WAR2_PIG_SQUEAL,PigSqueal,1
+57366,CDMSND_WAR2_SAWS,Saws,1
+57367,CDMSND_WAR2_SEAL,Seal,1
+57368,CDMSND_WAR2_SLOW,Slow,1
+57369,CDMSND_WAR2_SMITH,Smith,1
+57370,CDMSND_WAR2_SYNTH_STINGER,SynthStinger,1
+57371,CDMSND_WAR2_TRUMPET_RALLY,TrumpetRally,1
+57372,CDMSND_WAR2_ZIPPY_MAGIC,ZippyMagic,1
+57373,CDMSND_WAR3_BELL,Bell,1
+57374,CDMSND_WAR3_CRUNCHY_BELL,CrunchyBell,1
+57375,CDMSND_WAR3_DRUM_SPLASH,DrumSplash,1
+57376,CDMSND_WAR3_ERROR,Error,1
+57377,CDMSND_WAR3_FANFARE,Fanfare,1
+57378,CDMSND_WAR3_GATE_OPEN,GateOpen,1
+57379,CDMSND_WAR3_GOLD,Gold,1
+57380,CDMSND_WAR3_MAGIC_SHIMMER,MagicShimmer,1
+57381,CDMSND_WAR3_RINGOUT,Ringout,1
+57382,CDMSND_WAR3_ROOSTER,Rooster,1
+57383,CDMSND_WAR3_SHIMMER_BELL,ShimmerBell,1
+57384,CDMSND_WAR3_WOLF_HOWL,WolfHowl,1
+57446,UNIT_NAMEPLATES_TUTORIAL_TOOLTIP,About Nameplates,1
+57447,CAA_SAY_IF_TARGETED_LABEL,Say If Targeted,1
+57448,UNIT_NAMEPLATES_TUTORIAL_STYLE_OPTIONS,"There are |cnTUTORIAL_BLUE_FONT_COLOR:six style options|r for nameplates, and they can be |cnTUTORIAL_BLUE_FONT_COLOR:resized.|r",1
+57449,UNIT_NAMEPLATES_TUTORIAL_AGGRO,|cnTUTORIAL_BLUE_FONT_COLOR:Aggro|r comes with its own visual effect and a |cnTUTORIAL_BLUE_FONT_COLOR:sense of progression.|r,1
+57450,UNIT_NAMEPLATES_TUTORIAL_BUFFS_DEBUFFS,"Buffs and debuffs can be shown if you |cnTUTORIAL_BLUE_FONT_COLOR:choose|r, and they're also resizable.",1
+57451,UNIT_NAMEPLATES_TUTORIAL_ENEMY_FRIENDLY,Enemy player nameplates can be set up |cnTUTORIAL_BLUE_FONT_COLOR:differently|r from friendly ones.,1
+57452,CAA_SAY_IF_TARGETED_TOOLTIP,Choose a phrase or sound to indicate that you are targeted by an enemy. This setting is saved per talent specialization.,1
+57454,CAA_SAY_IF_TARGETED_FORMAT_AGGRO,"Voice: ""Aggro""",1
+57456,CAA_SAY_IF_TARGETED_FORMAT_TARGETED_NO_NAME,"Voice: ""You're targeted""",1
+57458,CAA_SAY_IF_TARGETED_FORMAT_TARGETED,"Voice: ""Targeted by Kobold""",1
+57462,CAA_AGGRO_TEXT,Aggro,1
+57463,CAA_YOURE_TARGETED_TEXT,You're targeted,1
+57464,CAA_TARGETED_BY_TEXT,Targeted by %s,1
+57465,VISITABLE_URL64,https://support.blizzard.com/article/42673,3
+57466,ONLINE_SAFETY_NOTICE,"Remember to act responsibly, protect your personal information, and report anything offensive. View our In-Game Code of Conduct on |HurlIndex:64|h|cnVISITABLE_URL_DEFAULT_CHAT_LINK_COLOR:https://support.blizzard.com/article/42673|r|h for more information.",1
+57470,HOUSING_MARKET_PURCHASE_PARTIAL_SUCCESS,Some items in your cart failed to be purchased. Please try again later.,1
+57478,CATALOG_SHOP_REFUND,Refund,3
+57479,CATALOG_SHOP_REFUND_TIME_LEFT,Time remaining to refund recent items: %s,3
+57483,CATALOG_SHOP_TOPUPFLOW_CURRENT_BALANCE,Current Balance: %s,3
+57486,TALENT_BUTTON_TOOLTIP_CAPSTONE_TRACK_TITLE_FORMAT,%s (%d/%d),1
+57489,ERR_COSMETIC_OWNER_NOT_IN_GUILD,The character that owns this House is not in the guild,1
+57491,UNIT_NAMEPLATES_PREVIEW_FRIENDLY_PLAYER,Previewing - Friendly Player,1
+57492,UNIT_NAMEPLATES_PREVIEW_FRIENDLY_NPC,Previewing - Friendly NPC,1
+57493,UNIT_NAMEPLATES_PREVIEW_ENEMY_PLAYER,Previewing - Enemy Player,1
+57494,UNIT_NAMEPLATES_PREVIEW_ENEMY_NPC,Previewing - Enemy NPC,1
+57496,SLASH_CAA1,/ttscombat,1
+57498,COMBAT_AUDIO_ALERTS,Combat Audio Alerts,1
+57500,CAA_COMMAND_SYNTAX_ERROR,"Invalid Combat Audio Alert command. Type ""/ttscombat help"" to see a list of commands.",1
+57503,SLASH_CAA_HELP,help,1
+57504,SLASH_CAA_HELP_HELP,Show the help menu that lists all commands,1
+57505,SLASH_CAA_VOICE,voice,1
+57506,SLASH_CAA_HELP_VOICE,[%d - %d] - Choose the primary voice for combat audio alerts,1
+57507,SLASH_CAA_VOICE_CHANGED_CONFIRMATION,Combat Audio Alert Voice set to %s,1
+57508,CAA_HELP_OVERVIEW,Combat Audio Alert Commands: |nType /ttscombat to enable Combat Audio Alerts or set an option by typing /ttscombat followed by one of the commands below:,1
+57511,SLASH_CAA_CONFIRMATION_ENABLED_WITH_HELP,"%s set to Enabled. For options, type /ttscombat help.",1
+57512,SLASH_CAA_CONFIRMATION_ENABLED,%s set to Enabled,1
+57513,SLASH_CAA_CONFIRMATION_DISABLED,%s set to Disabled,1
+57514,CAA_HELP_OVERVIEW_NARRATED,Combat Audio Alert Commands: |nType /<spell>tts</spell>combat to enable Combat Audio Alerts or set an option by typing /<spell>tts</spell>combat followed by one of the commands below:,1
+57516,SLASH_CAA_CONFIRMATION_ENABLED_WITH_HELP_NARRATED,"%s set to Enabled. For options, type /<spell>tts</spell>combat help.",1
+57537,SLASH_CAA_SPEED,speed,1
+57538,SLASH_CAA_HELP_SPEED,[%s - %d] - Adjust the rate of speech for combat audio aids,1
+57541,SLASH_CAA_CONFIRMATION,%s set to %s,1
+57542,CAA_COMMAND_SYNTAX_ERROR_NARRATED,"Invalid Combat Audio Alert command. Type ""/<spell>tts</spell>combat help"" to see a list of commands.",1
+57543,SLASH_CAA_VOLUME,volume,1
+57544,SLASH_CAA_HELP_VOLUME,[%d - %d] - Choose the primary volume for combat audio aids,1
+57545,SLASH_CAA_SAY_TARGET_NAME,saytargetname,1
+57547,SLASH_CAA_HELP_SAY_TARGET_NAME,Says the name of the target when you select it,1
+57548,SLASH_CAA_SAY_COMBAT_START,saycombatstart,1
+57549,SLASH_CAA_HELP_SAY_COMBAT_START,Choose a phrase or sound to indicate combat has started,1
+57550,SLASH_CAA_SAY_COMBAT_END,saycombatend,1
+57551,SLASH_CAA_HELP_SAY_COMBAT_END,Choose a phrase or sound to indicate combat has ended,1
+57552,SLASH_CAA_SAY_TARGET_CASTS_INTERRUPT,interruptalert,1
+57553,SLASH_CAA_HELP_SAY_TARGET_CASTS_INTERRUPT,Announces when the target starts casting something that you can interrupt with an ability,1
+57554,SLASH_CAA_SAY_TARGET_CASTS_INTERRUPT_SUCCESS,interruptsuccess,1
+57555,SLASH_CAA_HELP_SAY_TARGET_CASTS_INTERRUPT_SUCCESS,Announces when the target is successfully interrupted,1
+57556,SLASH_CAA_SAY_YOUR_HEALTH,sayyourhealth,1
+57557,SLASH_CAA_HELP_SAY_YOUR_HEALTH,[%d - %d] - Says your health when it crosses certain percentages,1
+57558,SLASH_CAA_HELP_SUBOPTION_INVALID,Type the previous command and the option number:,1
+57560,SLASH_CAA_HELP_SUBOPTION_FORMAT,%d : %s,1
+57561,CDMVIS_MARCHING_ANTS,Marching Ants,1
+57562,CDMVIS_MARCHING_ANTS_CYAN,Marching Ants (Cyan),1
+57563,CDMVIS_MARCHING_ANTS_RED,Marching Ants (Red),1
+57564,CDMVIS_MARCHING_ANTS_GREEN,Marching Ants (Green),1
+57565,CDMVIS_MARCHING_ANTS_BLUE,Marching Ants (Blue),1
+57566,CDMVIS_FLASH,Flash,1
+57567,CDMVIS_FLASH_CYAN,Flash (Cyan),1
+57568,CDMVIS_FLASH_RED,Flash (Red),1
+57569,CDMVIS_FLASH_GREEN,Flash (Green),1
+57570,CDMVIS_FLASH_BLUE,Flash (Blue),1
+57573,SPELL_FAILED_CUSTOM_ERROR_2518,Requires the Triple-Thread Net upgrade.,1
+57576,EVENTTRACE_SECRET_FMT,|cnEVENTTRACE_SECRET_COLOR:<secret>|r %s,1
+57577,EVENTTRACE_SHOW_SECRET_VALUES,Show Secret Values,1
+57578,DAMAGE_METER_TYPE_DEATHS,Deaths,1
+57583,SLASH_CAA_SAY_COMBAT_START_NARRATED,say combat start,1
+57584,SLASH_CAA_SAY_COMBAT_END_NARRATED,say combat end,1
+57585,SLASH_CAA_SAY_TARGET_NAME_NARRATED,say target name,1
+57588,SLASH_CAA_SAY_TARGET_CASTS_INTERRUPT_NARRATED,interrupt alert,1
+57589,SLASH_CAA_SAY_TARGET_CASTS_INTERRUPT_SUCCESS_NARRATED,interrupt success,1
+57590,SLASH_CAA_SAY_YOUR_HEALTH_NARRATED,say your health,1
+57597,CAA_SAY_PLAYER_HEALTH_FORMAT,Say Your Health Format,1
+57599,SLASH_CAA_SAY_YOUR_HEALTH_FORMAT,sayyourhealthformat,1
+57600,SLASH_CAA_SAY_YOUR_HEALTH_FORMAT_NARRATED,say your health format,1
+57604,SLASH_CAA_HELP_SAY_YOUR_HEALTH_FORMAT,[%d - %d] - Choose the format to use when saying your health,1
+57605,HOUSING_MARKET_CART_FULL_ERROR,Your cart is full. Please checkout before adding more Decor.,1
+57606,HOUSING_MARKET_PREVIEW_LIMIT_ERROR,You are at your Preview limit. Please remove one or more items.,1
+57607,SPELL_FAILED_CUSTOM_ERROR_2521,You do not have enough Remnants of Anguish.,1
+57614,JOURNEYS_FRAME_TUTORIAL,"Explore Renown, Delves, and Prey Journeys in the Adventure Guide.",1
+57615,SLASH_CAA_SAY_YOUR_HEALTH_THROTTLE,sayyourhealththrottle,1
+57616,SLASH_CAA_SAY_YOUR_HEALTH_THROTTLE_NARRATED,say your health throttle,1
+57617,SLASH_CAA_HELP_SAY_YOUR_HEALTH_THROTTLE,[%d - %d] - Choose the seconds of throttle to use when saying your health,1
+57618,CAA_SAY_PLAYER_HEALTH_THROTTLE,Say Your Health Throttle,1
+57621,SECONDS_FLOAT,%.1f |4Second:Seconds;,1
+57622,SLASH_CAA_SAY_TARGET_HEALTH,saytargethealth,1
+57623,SLASH_CAA_HELP_SAY_TARGET_HEALTH,[%d - %d] - Says your target's health when it crosses certain percentages,1
+57624,SLASH_CAA_SAY_TARGET_HEALTH_NARRATED,say target health,1
+57625,SLASH_CAA_SAY_TARGET_HEALTH_FORMAT,saytargethealthformat,1
+57626,SLASH_CAA_SAY_TARGET_HEALTH_FORMAT_NARRATED,say target health format,1
+57627,SLASH_CAA_HELP_SAY_TARGET_HEALTH_FORMAT,[%d - %d] - Choose the format to use when saying your target's health,1
+57628,CAA_SAY_TARGET_HEALTH_FORMAT,Say Target Health Format,1
+57629,SLASH_CAA_SAY_TARGET_HEALTH_THROTTLE,saytargethealththrottle,1
+57630,SLASH_CAA_SAY_TARGET_HEALTH_THROTTLE_NARRATED,say target health throttle,1
+57631,SLASH_CAA_HELP_SAY_TARGET_HEALTH_THROTTLE,[%d - %d] - Choose the seconds of throttle to use when saying your target's health,1
+57632,CAA_SAY_TARGET_HEALTH_THROTTLE,Say Target Health Throttle,1
+57633,ERR_HOUSING_RESULT_BOUNDS_FAILURE_ROOM,Decor is out of bounds,1
+57634,ERR_HOUSING_RESULT_BOUNDS_FAILURE_PLOT,Outside plot boundary,1
+57635,ERR_HOUSING_RESULT_BOUNDS_FAILURE_ATTACHMENT,An attached object is out of bounds,1
+57636,POWER_TYPE_IMMORTAL_FLAME,Immortal Flame,1
+57638,SLASH_CAA_SAY_IF_TARGETED,sayiftargeted,1
+57639,SLASH_CAA_SAY_IF_TARGETED_NARRATED,say if targeted,1
+57640,SLASH_CAA_HELP_SAY_IF_TARGETED,[%d - %d] - Choose a phrase or sound to indicate that you are targeted by an enemy,1
+57641,HOUSING_MARKET_VC_PURCHASE_CONFIRMATION,Are you sure you want to purchase %d Hearthsteel? Your current cart requires more than this to complete purchase.,1
+57642,SPELL_FAILED_CUSTOM_ERROR_2600,Must have a melee weapon in your off-hand,1
+57647,SLASH_CAA_SAY_PARTY_HEALTH,saypartyhealth,1
+57648,SLASH_CAA_SAY_PARTY_HEALTH_NARRATED,say party health,1
+57649,SLASH_CAA_HELP_SAY_PARTY_HEALTH,"[%d - %d] - When in a party, calls out party members that need healing by their party number",1
+57650,SLASH_CAA_SAY_PARTY_HEALTH_FREQUENCY,saypartyhealthfrequency,1
+57651,SLASH_CAA_HELP_SAY_PARTY_HEALTH_FREQUENCY,[%s - %d] - Adjust the relative frequency of party health callouts,1
+57652,SLASH_CAA_SAY_PARTY_HEALTH_FREQUENCY_NARRATED,say party health frequency,1
+57653,CAA_SAY_PARTY_HEALTH_FREQUENCY,Say Party Health Frequency,1
+57654,SLASH_CAA_SAY_YOUR_CASTS,sayyourcasts,1
+57655,SLASH_CAA_SAY_YOUR_CASTS_NARRATED,say your casts,1
+57656,SLASH_CAA_HELP_SAY_YOUR_CASTS,[%d - %d] - Select what to say when you cast an ability,1
+57657,SLASH_CAA_SAY_YOUR_CASTS_FORMAT,sayyourcastsformat,1
+57658,SLASH_CAA_SAY_YOUR_CASTS_FORMAT_NARRATED,say your casts format,1
+57659,SLASH_CAA_HELP_SAY_YOUR_CASTS_FORMAT,[%d - %d] - Choose the wording to use to say your cast,1
+57660,CAA_SAY_YOUR_CASTS_FORMAT,Say Your Casts Format,1
+57662,SLASH_CAA_SAY_YOUR_CASTS_MIN_CAST_TIME,sayyourcastsmin,1
+57663,SLASH_CAA_SAY_YOUR_CASTS_MIN_CAST_TIME_NARRATED,say your casts min,1
+57664,SLASH_CAA_HELP_SAY_YOUR_CASTS_MIN_CAST_TIME,[%d - %d] - Sets the minimum cast time of abilities to be announced,1
+57665,CAA_SAY_YOUR_CASTS_MIN_CAST_TIME,Say Your Casts Min Cast Time,1
+57666,SLASH_CAA_SAY_YOUR_CASTS_THROTTLE,sayyourcaststhrottle,1
+57667,SLASH_CAA_SAY_YOUR_CASTS_THROTTLE_NARRATED,say your casts throttle,1
+57668,SLASH_CAA_HELP_SAY_YOUR_CASTS_THROTTLE,[%d - %d] - Choose the seconds of throttle to use when saying your casts,1
+57669,CAA_SAY_YOUR_CASTS_THROTTLE,Say Your Casts Throttle,1
+57670,SLASH_CAA_SAY_TARGET_CASTS,saytargetcasts,1
+57671,SLASH_CAA_SAY_TARGET_CASTS_NARRATED,say target casts,1
+57673,SLASH_CAA_HELP_SAY_TARGET_CASTS,[%d - %d] - Select what to say when your target casts an ability,1
+57674,CAA_SAY_TARGET_CASTS_FORMAT,Say Target Casts Format,1
+57675,SLASH_CAA_SAY_TARGET_CASTS_FORMAT,saytargetcastsformat,1
+57676,SLASH_CAA_SAY_TARGET_CASTS_FORMAT_NARRATED,say target casts format,1
+57677,SLASH_CAA_HELP_SAY_TARGET_CASTS_FORMAT,[%d - %d] - Choose the wording to use to say your target's casts,1
+57678,SLASH_CAA_SAY_TARGET_CASTS_MIN_CAST_TIME,saytargetcastsmin,1
+57679,SLASH_CAA_SAY_TARGET_CASTS_MIN_CAST_TIME_NARRATED,say target casts min,1
+57680,SLASH_CAA_HELP_SAY_TARGET_CASTS_MIN_CAST_TIME,[%d - %d] - Sets the minimum cast time of target abilities to be announced,1
+57681,CAA_SAY_TARGET_CASTS_MIN_CAST_TIME,Say Target Casts Min Cast Time,1
+57682,SLASH_CAA_SAY_TARGET_CASTS_THROTTLE,saytargetcaststhrottle,1
+57683,SLASH_CAA_SAY_TARGET_CASTS_THROTTLE_NARRATED,say target casts throttle,1
+57684,SLASH_CAA_HELP_SAY_TARGET_CASTS_THROTTLE,[%d - %d] - Choose the seconds of throttle to use when saying your target's casts,1
+57685,CAA_SAY_TARGET_CASTS_THROTTLE,Say Target Casts Throttle,1
+57686,SLASH_CAA_SAY_RESOURCE_1,sayresource1,1
+57687,SLASH_CAA_SAY_RESOURCE_1_NARRATED,say resource 1,1
+57688,SLASH_CAA_HELP_SAY_RESOURCE_1,[%d - %d] - Says your first combat resource when it crosses certain percentages,1
+57691,CAA_SAY_RESOURCE_1,Say Resource 1,1
+57692,SLASH_CAA_SAY_RESOURCE_1_FORMAT,sayresource1format,1
+57693,SLASH_CAA_SAY_RESOURCE_1_FORMAT_NARRATED,say resource 1 format,1
+57694,SLASH_CAA_HELP_SAY_RESOURCE_1_FORMAT,[%d - %d] - Choose the format to use when saying your first combat resource,1
+57695,CAA_SAY_RESOURCE_1_FORMAT,Say Resource 1 Format,1
+57696,SLASH_CAA_SAY_RESOURCE_1_THROTTLE,sayresource1throttle,1
+57697,SLASH_CAA_SAY_RESOURCE_1_THROTTLE_NARRATED,say resource 1 throttle,1
+57698,SLASH_CAA_HELP_SAY_RESOURCE_1_THROTTLE,[%d - %d] - Choose the seconds of throttle to use when saying your first combat resource,1
+57699,CAA_SAY_RESOURCE_1_THROTTLE,Say Resource 1 Throttle,1
+57700,SLASH_CAA_SAY_RESOURCE_2,sayresource2,1
+57701,CAA_SAMPLE_RESOURCENAME,Power,1
+57702,SLASH_CAA_SAY_RESOURCE_2_NARRATED,say resource 2,1
+57703,SLASH_CAA_HELP_SAY_RESOURCE_2,[%d - %d] - Says your second combat resource when it crosses certain percentages,1
+57704,CAA_SAY_RESOURCE_2,Say Resource 2,1
+57705,SLASH_CAA_SAY_RESOURCE_2_FORMAT,sayresource2format,1
+57706,SLASH_CAA_SAY_RESOURCE_2_FORMAT_NARRATED,say resource 2 format,1
+57707,SLASH_CAA_HELP_SAY_RESOURCE_2_FORMAT,[%d - %d] - Choose the format to use when saying your second combat resource,1
+57708,CAA_SAY_RESOURCE_2_FORMAT,Say Resource 2 Format,1
+57709,SLASH_CAA_SAY_RESOURCE_2_THROTTLE,sayresource2throttle,1
+57710,SLASH_CAA_SAY_RESOURCE_2_THROTTLE_NARRATED,say resource 2 throttle,1
+57711,SLASH_CAA_HELP_SAY_RESOURCE_2_THROTTLE,[%d - %d] - Choose the seconds of throttle to use when saying your second combat resource,1
+57712,CAA_SAY_RESOURCE_2_THROTTLE,Say Resource 2 Throttle,1

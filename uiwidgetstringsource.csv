@@ -10248,29 +10248,29 @@ ID,Value_lang,ReqID,ParentWidgetID
 18855,,495,6865
 18856,Earned by harvesting materials.,477,6866
 18857,Materials Harvested:,480,6866
-18858,%101pdc,485,6866
+18858,,485,6866
 18859,+%77pdc,490,6866
 18860,,495,6866
 18861, ,52,6867
 18862,,394,6867
-18863,Earned by depositing materials.,477,6868
-18864,|cnHIGHLIGHT_FONT_COLOR:%78pdc|r Materials Deposited:,480,6868
-18865,%78pdc,485,6868
+18863,Earned by depositing materials at Altars of Abudance.,477,6868
+18864,|cnHIGHLIGHT_FONT_COLOR:%78pdc|r Materials Contributed:,480,6868
+18865,,485,6868
 18866,+%105pdc,490,6868
 18867,,495,6868
 18868,Earned by harvesting from Profession-gated nodes.,477,6869
 18869,|cnHIGHLIGHT_FONT_COLOR:%81pdc|r Artisan Nodes:,480,6869
-18870,%81pdc,485,6869
+18870,,485,6869
 18871,+%107pdc,490,6869
 18872,,495,6869
 18873,Earned by harvesting basic gathering nodes.,477,6870
 18874,|cnHIGHLIGHT_FONT_COLOR:%79pdc|r Basic Nodes:,480,6870
-18875,%79pdc,485,6870
+18875,,485,6870
 18876,+%106pdc,490,6870
 18877,,495,6870
 18878,Earned by collecting Large Materials.,477,6871
 18879,|cnHIGHLIGHT_FONT_COLOR:%80pdc|r Large Orbs:,480,6871
-18880,%80pdc,485,6871
+18880,,485,6871
 18881,+%109pdc,490,6871
 18882,,495,6871
 18885,Total of all above points received.,477,6873
@@ -10278,9 +10278,9 @@ ID,Value_lang,ReqID,ParentWidgetID
 18887,,485,6873
 18888,%82pdc,490,6873
 18889,,495,6873
-18890,Tier of Abundance Buff reached.,477,6874
-18891,Buff Bonus:,480,6874
-18892,Tier %84pdc,485,6874
+18890,Tier of Abundance Blessing reached during the event.,477,6874
+18891,|cnHIGHLIGHT_FONT_COLOR:Tier %84pdc|r Blessing Bonus:,480,6874
+18892,,485,6874
 18893,x%84pdc,490,6874
 18894,,495,6874
 18895,,744,6860
@@ -10312,9 +10312,9 @@ ID,Value_lang,ReqID,ParentWidgetID
 18921,Item Level Last Match,52,6885
 18922,Your highest Item Level last match,394,6885
 18923,Earned by triggering Abundant Bonus events.,477,6886
-18924,|cnHIGHLIGHT_FONT_COLOR:%103pdc|r Bonus Triggered:,480,6886
-18925,%103pdc,485,6886
-18926,+%110pdc,490,6886
+18924,|cnHIGHLIGHT_FONT_COLOR:%110pdc|r Bonus Events:,480,6886
+18925,,485,6886
+18926,+%103pdc,490,6886
 18927,,495,6886
 18928,,477,6887
 18929,GRAND TOTAL,480,6887
@@ -11174,17 +11174,17 @@ ID,Value_lang,ReqID,ParentWidgetID
 20234,|TInterface/ICONS/INV_1125_Remix_HardMode.blp:50|t,52,7190
 20235,"You are in Heroic World Tier|n|nOutdoor difficulty is significantly increased.|n|nTo exit Heroic World Tier, cast Temporal Retreat from your General Spellbook.",394,7190
 20236,Public Altar Contribution,19,7314
-20237,Abundance Collected_Over,273,7314
-20238,Deposit Materials at an Altar to fill.,208,7314
+20237,,273,7314
+20238,Deposit materials at any Altar to fill and trigger bonus events!,208,7314
 20239,Public Altar Contribution,19,7315
-20240,Abundance Collected_Over,273,7315
-20241,Deposit Materials at an Altar to fill.,208,7315
+20240,,273,7315
+20241,Deposit materials at any Altar to fill and trigger bonus events!,208,7315
 20242,Public Altar Contribution,19,7316
-20243,Abundance Collected_Over,273,7316
-20244,Deposit Materials at an Altar to fill.,208,7316
+20243,,273,7316
+20244,Deposit materials at any Altar to fill and trigger bonus events!,208,7316
 20245,Public Altar Contribution,19,7317
-20246,Abundance Collected_Over,273,7317
-20247,Deposit Materials at an Altar to fill.,208,7317
+20246,,273,7317
+20247,Deposit materials at any Altar to fill and trigger bonus events!,208,7317
 20251,Defeat the Wallbreaker!,52,7319
 20252,,394,7319
 20253,Defeat Miasmawrath!,52,7320
@@ -11301,12 +11301,12 @@ ID,Value_lang,ReqID,ParentWidgetID
 20401,,394,7364
 20402,- Renown Rank: |cFFFFFFFF%3128c|r,52,7365
 20403,,394,7365
-20404,Materials Harvested,19,7366
+20404,Abundance Held,19,7366
 20405,,273,7366
-20406,Materials Harvested,208,7366
-20407,Abundance Collected,19,7367
-20408,Abundance Collected_Over,273,7367
-20409,Deposit Materials at an Altar to fill.,208,7367
+20406,The amount of Abundance you currently hold. Deliver to Dundun at any nearby altar.,208,7366
+20407,Public Altar Contribution,19,7367
+20408,,273,7367
+20409,Deposit materials at any Altar to fill and trigger bonus events!,208,7367
 20412,Used to construct defenses at Stormarion Citadel,212,7369
 20413,Selune's Stormarion Core required,277,7369
 20414,,212,7370
@@ -11371,9 +11371,9 @@ ID,Value_lang,ReqID,ParentWidgetID
 20499,,394,7399
 20500,|nThis delve contains a bonus treasure chest that can be opened with a Restored Coffer Key.|nTime Left: %28931ha|n|n%453315sd,52,7401
 20501,,394,7401
-20502,Catch Capacity,19,7402
+20502,Catch Cargo,19,7402
 20503,,273,7402
-20504,,208,7402
+20504,The amount of fish meat currently held. |n|nYour max cargo capacity is %412pdc.,208,7402
 20505,|nThis delve contains a bonus treasure chest that can be opened with a Restored Coffer Key.|nTime Left: %28932ha|n|n%453315sd,52,7404
 20506,,394,7404
 20507,|nThis delve contains a bonus treasure chest that can be opened with a Restored Coffer Key.|nTime Left: %28937ha|n|n%453315sd,52,7406
@@ -11384,7 +11384,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 20512,,394,7410
 20513,Story Variant: |cnWHITE_FONT_COLOR:Holding the Line,52,7411
 20514,,394,7411
-20515,Story Variant: |cnWHITE_FONT_COLOR:Better with Ballistae,52,7412
+20515,Story Variant: |cnWHITE_FONT_COLOR:March of the Arcane Brigade,52,7412
 20516,,394,7412
 20517,Story Variant: |cnWHITE_FONT_COLOR:Bombing Run,52,7413
 20518,,394,7413
@@ -11437,27 +11437,27 @@ ID,Value_lang,ReqID,ParentWidgetID
 20565,Story Variant: |cnWHITE_FONT_COLOR:Ogre Powered,52,7437
 20566,,394,7437
 20567,,257,7438
-20568,Displays the current quality of your Catch Rating.,258,7438
-20569,Displays the current quality of your Catch Rating.,262,7438
+20568,The total Catch Rating quality of all fish meat currently in your Catch Cargo.,258,7438
+20569,The total Catch Rating quality of all fish meat currently in your Catch Cargo.,262,7438
 20570,,261,7438
 20571,,264,7438
-20572,Displays the current quality of your Catch Rating.,265,7438
+20572,The total Catch Rating quality of all fish meat currently in your Catch Cargo.,265,7438
 20573,,267,7438
-20574,Displays the current quality of your Catch Rating.,268,7438
+20574,The total Catch Rating quality of all fish meat currently in your Catch Cargo.,268,7438
 20575,,270,7438
-20576,Displays the current quality of your Catch Rating.,271,7438
+20576,The total Catch Rating quality of all fish meat currently in your Catch Cargo.,271,7438
 20577,,570,7438
 20578,,571,7438
 20579,,257,7439
-20580,Displays the current quality of your Catch Rating.,258,7439
-20581,Displays the current quality of your Catch Rating.,262,7439
+20580,The total Catch Rating quality of all fish meat currently in your Catch Cargo.,258,7439
+20581,The total Catch Rating quality of all fish meat currently in your Catch Cargo.,262,7439
 20582,,261,7439
 20583,,264,7439
-20584,Displays the current quality of your Catch Rating.,265,7439
+20584,The total Catch Rating quality of all fish meat currently in your Catch Cargo.,265,7439
 20585,,267,7439
-20586,Displays the current quality of your Catch Rating.,268,7439
+20586,The total Catch Rating quality of all fish meat currently in your Catch Cargo.,268,7439
 20587,,270,7439
-20588,Displays the current quality of your Catch Rating.,271,7439
+20588,The total Catch Rating quality of all fish meat currently in your Catch Cargo.,271,7439
 20589,,570,7439
 20590,,571,7439
 20595,,212,7442
@@ -11497,7 +11497,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 20693,,204,7472
 20694,,205,7472
 20695,Adventure Mode Unlocked,584,7475
-20696,Your future characters can complete zones in any order and access World Quests immediately.,585,7475
+20696,Your future characters can complete zones in any order and access faction events and World Quests immediately.,585,7475
 20697,,598,7475
 20698,,204,7476
 20699,,205,7476
@@ -11509,7 +11509,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 20705,,204,7481
 20706,,205,7481
 20707,World Quests And Events Unlocked,584,7484
-20708,Midnight has come! Check your map for a range of new activities.,585,7484
+20708,"New adventures await on your map! Explore each Midnight faction by joining in their featured events: Saltheril's Soiree, Abundance, Legend of the Haranir, Stormarian Assault and Abyss Anglers.",585,7484
 20709,,598,7484
 20727,Test 2,2,7486
 20728,,3,7486
@@ -11550,7 +11550,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 20775,,394,7497
 20776,Based on the how fast your dive was.,477,7498
 20777,Time Bonus:,480,7498
-20778,00:00,485,7498
+20778,%441pdct,485,7498
 20779,%276pdc,490,7498
 20780,,495,7498
 20781,,477,7499
@@ -11620,7 +11620,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 20869,,19,7519
 20870,Hunt in Progress,273,7519
 20871,Complete or abandon your current Hunt before accepting another.,208,7519
-20872,Quarry Camps Liberated: %29876w/5,52,7520
+20872,Quarry Camps Liberated: %29876w/6,52,7520
 20873,Save captive soldiers before confronting Scourgelord Tyrannus.,394,7520
 20879,,19,7492
 20880,,273,7492
@@ -11870,13 +11870,13 @@ ID,Value_lang,ReqID,ParentWidgetID
 21457,,394,7673
 21458,Time Left: %29306ht,52,7674
 21459,,394,7674
-21460,Complete %50745e |4world quest:world quests; in Zul'Aman to unlock,52,7675
+21460,Complete %50754e |4world quest:world quests; in Zul'Aman to unlock,52,7675
 21461,,394,7675
 21466,Next Assault: %29190xa,52,7676
 21467,,394,7676
 21470,Time Left: %28699xa,52,7679
 21471,,394,7679
-21472,"|nWeekly Quest Reward from ""Disrupt the Call"":",52,7680
+21472,"|n""Disrupt the Call"":",52,7680
 21473,,394,7680
 21474,|cFFFFFFFFTwilight's Blade Insignia|r,56,7681
 21475,,57,7681
@@ -11942,7 +11942,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 21556,,73,7705
 21557,,74,7705
 21558,,75,7705
-21559,"|nWeekly Quest Reward from ""Twilight's Dawn"":",52,7706
+21559,"|n""Twilight's Dawn"":",52,7706
 21560,,394,7706
 21566,Current Tokens: ,72,7709
 21567,%3376c / %3376m,56,7709
@@ -11985,7 +11985,7 @@ ID,Value_lang,ReqID,ParentWidgetID
 21632,,394,7735
 21633,Abundant Tokens: ,72,7736
 21634,%3376c / %3376m,56,7736
-21635,currency:3376|h,57,7736
+21635,|Hcurrency:3376|h,57,7736
 21636,,72,7736
 21637,,59,7736
 21638,,60,7736
@@ -12028,3 +12028,33 @@ ID,Value_lang,ReqID,ParentWidgetID
 21704,Season 1 will begin in:,19,7765
 21705,,273,7765
 21706,"Season 1 of delves will begin soon, bringing with it it new challenges, curios, and higher item level rewards!",208,7765
+21707,,621,7766
+21708,,622,7766
+21709,,627,7766
+21710,,621,7767
+21711,,622,7767
+21712,,627,7767
+21713,,621,7768
+21714,,622,7768
+21715,,627,7768
+21716,,621,7769
+21717,,622,7769
+21718,,627,7769
+21719,,621,7770
+21720,,622,7770
+21721,,627,7770
+21722,,621,7771
+21723,,622,7771
+21724,,627,7771
+21725,,621,7772
+21726,,622,7772
+21727,,627,7772
+21732,|nReward:,52,7775
+21733,,394,7775
+21734,,621,7776
+21735,,622,7776
+21736,,627,7776
+21742,,212,7779
+21743,,277,7779
+21759,|nWeekly Quest Rewards:,52,7786
+21760,,394,7786
