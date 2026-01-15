@@ -37130,18 +37130,18 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 48891,Unlock 100 hand slot appearances,0,0,4,0,0,0
 48892,,48891,100,0,30579,0,1
 48893,Fashionista,0,0,4,0,0,0
-48894,,48893,0,0,30580,0,0
-48895,,48893,0,0,30581,1,0
-48896,,48893,0,0,30582,2,0
-48897,,48893,0,0,30583,3,0
-48898,,48893,0,0,30584,4,0
-48899,,48893,0,0,30585,5,0
-48900,,48893,0,0,30586,6,0
-48901,,48893,0,0,30587,7,0
-48902,,48893,0,0,30588,8,0
-48903,,48893,0,0,30589,9,0
-48904,,48893,0,0,30590,10,0
-48905,,48893,0,0,30591,11,0
+48894,Fashionista: Hand,48893,0,0,30580,0,0
+48895,Fashionista: Shoulder,48893,0,0,30581,1,0
+48896,Fashionista: Shirt,48893,0,0,30582,2,0
+48897,Fashionista: Tabard,48893,0,0,30583,3,0
+48898,Fashionista: Weapon & Off-Hand,48893,0,0,30584,4,0
+48899,Fashionista: Wrist,48893,0,0,30585,5,0
+48900,Fashionista: Back,48893,0,0,30586,6,0
+48901,Fashionista: Waist,48893,0,0,30587,7,0
+48902,Fashionista: Feet,48893,0,0,30588,8,0
+48903,Fashionista: Legs,48893,0,0,30589,9,0
+48904,Fashionista: Chest,48893,0,0,30590,10,0
+48905,Fashionista: Head,48893,0,0,30591,11,0
 48906,7.0 DH-OHC - Rune Ruination (ELM) - 1,0,0,4,0,0,4096
 48907,7.0 DH-OHC - All Rune Ruination sub-quests completed (ELM),48906,0,4,0,0,0
 48908,Use Heller's Rune to deactivate his runestone,48907,1,0,30592,0,0
@@ -102894,7 +102894,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 208373,,208372,3,0,103974,0,32
 208374,,208372,5,0,103975,1,32
 208375,Central Zone Runestone - Lightbloom - Boss Kill,0,0,4,0,0,0
-208376,,208375,1,0,103976,0,0
+208376,Defeat Sapmaw the Infestor,208375,1,0,103976,0,0
 208380,[DNT] Arrive in Mount Hyjal,0,0,4,0,0,12290
 208381,,208380,0,0,103977,0,0
 208386,Complete Wey'nan's Ward - Tale 04,0,0,4,0,0,4096
@@ -104228,7 +104228,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 209982,Knows a Barbershop compatible Pet,0,1,8,0,0,0
 209983,,209982,1,0,104975,0,0
 209984,,209766,2,0,104976,1,0
-209985,,209768,1,0,104985,0,0
+209985,Defeat Commander Viskaj,209768,1,0,104985,0,0
 209986,Vexie and the Geargrinders,205997,1,0,71696,0,0
 209987,11.0 Delves - Kobolds01 - V04 - Intro Room Cleared (Hufton),0,0,4,0,0,0
 209988,Funny Candle acquired,209987,1,0,104986,0,32
@@ -104237,7 +104237,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 209991,Drink Pearl Milk Tea,209990,3,0,104988,0,1
 209992,,209769,2,0,104989,1,0
 209993,Defeat the Warlord,0,0,4,0,0,0
-209994,,209993,1,0,104990,0,0
+209994,Defeat Hal'ok the Trampler,209993,1,0,104990,0,0
 209995,"Defeat Mug'Zee, Heads of Security in the Liberation of Undermine raid on Mythic difficulty.",0,0,4,0,0,4096
 209996,,209995,1,0,104992,0,0
 209997,"Defeat Mug'Zee, Heads of Security in the Liberation of Undermine raid on Heroic difficulty or higher.",0,0,4,0,0,4096
@@ -104322,7 +104322,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 210095,,210094,0,0,105053,0,0
 210096,,210094,0,0,105054,1,0
 210103,Deploy defenses for the upcoming attack.,0,1,8,0,0,0
-210104,Preperation Timer Expired,216141,1,0,105059,1,0
+210104,Preparation Timer Expired,210103,1,0,105059,2,0
 210105,Defenses Positions activated for the upcoming attack.,210106,1,0,105060,0,1
 210106,Defenses Positions activated.,216141,11,9,0,0,0
 210107,Prevent the Singuarity Anchor from reaching zero.,0,0,4,0,0,0
@@ -104642,7 +104642,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 210445,,210444,5,0,105279,0,0
 210446,,210444,2,0,105280,1,0
 210447,Defeat the Void Boss,0,0,4,0,0,0
-210448,,210447,1,0,105281,0,0
+210448,Defeat the Claw of the Void,210447,1,0,105281,0,0
 210449,Complete Cauldron of Echoes,0,0,4,0,0,4096
 210450,,210449,0,0,105282,0,0
 210452,Max Renown with Manaforge Vandals,0,0,4,0,0,0
@@ -104763,7 +104763,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 210575,,210574,5,0,105348,0,0
 210576,,210574,2,0,105349,1,0
 210577,Defeat the Twilight's Blade Leader,0,0,4,0,0,0
-210578,,210577,1,0,105350,0,0
+210578,Defeat Commander Gravok,210577,1,0,105350,0,0
 210581,,163813,3,0,105352,2,0
 210582,,207400,0,0,105353,2,0
 210583,11.2 Delves - Ethereals01 - V04 - Waygate Constructed (Hufton),0,0,4,0,0,0
@@ -105642,7 +105642,6 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 211548,12.0 Delves - DevouringHost01 - V03 - Speak to Intro NPC (Hufton),0,0,4,0,0,0
 211549,Speak with Grand Artificer Romuul,211548,0,0,105376,0,32
 211550,"12.0 Delves - DevouringHost01 - V03 - Learn: Bomb, Portal, Stone (Hufton)",0,0,4,0,0,0
-211551,Improvised Arcane Device acquired,211550,0,0,106310,0,32
 211552,12.0 Delves - DevouringHost01 - V03 - Main: Bombs and  Portals (Hufton),0,0,4,0,0,0
 211554,12.0 Delves - DevouringHost01 - V03 - Kill Boss (Hufton),0,0,4,0,0,0
 211555,Gladius Slaurna slain,211554,1,0,60399,0,32
@@ -105993,7 +105992,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 211909,,211908,1,0,106075,0,2
 211910,11.2.5 Remix - Legion - Journey - Dungeon - Darkheart Thicket,0,0,4,0,0,0
 211911,,211910,1,0,106076,0,2
-211912,Await the recover of forces at Stormarion Keep.,0,1,8,0,0,0
+211912,Await the recovery of forces at Stormarion Keep.,0,1,8,0,0,0
 211913,Riftblade Maella and forces regroup at Stormarion Keep,211912,1,0,106085,0,0
 211914,11.2.5 Remix - Legion - Journey - Dungeon - Black Rook Hold,0,0,4,0,0,0
 211915,,211914,1,0,106077,0,2
@@ -106244,8 +106243,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 212223,,212222,1,0,106307,0,0
 212224,,212222,0,0,106308,1,0
 212225,,212222,0,0,106309,2,0
-212226,Portal entered,211550,0,0,106311,1,32
-212227,Portal Stone destroyed,211550,0,0,106359,2,32
+212226,Portal entered,211550,0,0,106311,0,32
+212227,Portal Stone destroyed,211550,0,0,106359,1,32
 212228,Southeast Portal closed,211552,1,0,106363,1,32
 212229,12.0 Delves - DevouringHost01 - V03 - Rewards Cutoff (Hufton),0,2,8,0,0,0
 212230,,212229,1,0,106363,0,0
@@ -107980,9 +107979,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 214170,11.2 Delves - Horde Vs Alliance Race - Horde Finish - Comlete X Delves,0,1,8,0,0,0
 214171,,214170,0,0,107547,0,0
 214172,Defenses Positions activated.,214006,5,9,0,1,0
-214173,Defenses Positions activated for the upcoming attack.,214172,1,0,105060,0,1
+214173,Defense Positions activated for the upcoming attack.,214172,1,0,105060,0,1
 214174,Defenses Positions activated.,214167,5,9,0,1,0
-214175,Defenses Positions activated for the upcoming attack.,214174,1,0,105060,0,1
+214175,Defense Positions activated for the upcoming attack.,214174,1,0,105060,0,1
 214176,,214170,0,0,107549,1,0
 214177,11.2.7 Catch Up - TWW - Visions of Azeroth (wrapper 7) - PT1 (KRB),0,0,4,0,0,4096
 214178,,214177,1,0,107550,0,0
@@ -108303,7 +108302,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 214510,12.0 Delves - Hextroll - V2 - Defeat the Boss (LQM),0,0,4,0,0,0
 214511,boss defeated,214510,1,0,107752,0,0
 214512,12.0 Delves - Hextroll - V3 - Defeat the Boss (LQM),0,0,4,0,0,0
-214513,Spiritflayer Jin'Ma slain,214512,1,0,109272,0,0
+214513,Spiritflayer Jin'Ma slain,214512,1,0,111692,0,0
 214514,Achievement - Midnight - Defeat 3.0 trainers with Mechanical,0,5,8,0,0,0
 214515,Beegle Blastfuse,214514,1,0,107751,0,0
 214516,Okrut Dragonwaste,214514,1,0,107753,1,0
@@ -109587,27 +109586,27 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 215903,Completed Trial of Valor on Mythic Difficulty without dying.,215902,1,0,108674,0,0
 215907,Shadowguard forces slain,214553,100,9,0,1,0
 215908,Catch Midnight Pets,0,0,4,0,0,0
-215909,Akil Fledgling,215908,0,0,108678,0,0
-215910,Amber Treeflitter,215908,0,0,108679,1,0
-215911,Azure Sporebat,215908,0,0,108680,2,0
-215912,Blistercreepling,215908,0,0,108681,3,0
-215913,Devouring Runt,215908,0,0,108682,4,0
-215914,Dragonhawk Mosswing,215908,0,0,108683,5,0
-215915,Ebon Snapling,215908,0,0,108684,6,0
-215916,Pangolil,215908,0,0,108685,7,0
-215917,Gloom Toad,215908,0,0,108686,8,0
-215918,Mud Potadpole,215908,0,0,108687,9,0
-215919,Nether Familiar,215908,0,0,108688,10,0
-215920,Riftblade Familiar,215908,0,0,108689,11,0
-215921,Rootling Nester,215908,0,0,108690,12,0
-215922,Silkcrawler,215908,0,0,108691,13,0
-215923,Striped Snakebiter,215908,0,0,108698,14,0
-215924,Swamp Biter,215908,0,0,108692,15,0
-215925,Vibrant Manaling,215908,0,0,108693,16,0
-215926,Violet Chick,215908,0,0,108694,17,0
-215927,Voidcrawler,215908,0,0,108695,18,0
-215928,Waddles,215908,0,0,108696,19,0
-215929,Wrathful Wyrm,215908,0,0,108697,20,0
+215909,Akil Fledgling,215908,0,0,112790,0,0
+215910,Amber Treeflitter,215908,0,0,112791,1,0
+215911,Azure Sporebat,215908,0,0,112792,2,0
+215912,Blistercreepling,215908,0,0,112793,3,0
+215913,Devouring Runt,215908,0,0,112794,4,0
+215914,Dragonhawk Mosswing,215908,0,0,112795,5,0
+215915,Ebon Snapling,215908,0,0,112796,6,0
+215916,Pangolil,215908,0,0,112797,7,0
+215917,Gloom Toad,215908,0,0,112798,8,0
+215918,Mud Potadpole,215908,0,0,112799,9,0
+215919,Nether Familiar,215908,0,0,112800,10,0
+215920,Riftblade Familiar,215908,0,0,112801,11,0
+215921,Rootling Nester,215908,0,0,112802,12,0
+215922,Silkcrawler,215908,0,0,112803,13,0
+215923,Striped Snakebiter,215908,0,0,112804,14,0
+215924,Swamp Biter,215908,0,0,112805,15,0
+215925,Vibrant Manaling,215908,0,0,112806,16,0
+215926,Violet Chick,215908,0,0,112807,17,0
+215927,Voidcrawler,215908,0,0,112808,18,0
+215928,Waddles,215908,0,0,112809,19,0
+215929,Wrathful Wyrm,215908,0,0,112810,20,0
 215930,"Tazavesh, the Veiled Market Hard Mode TWW Season 3",0,0,4,0,0,0
 215931,So'leah Defeated.,215930,1,0,108699,0,0
 215932,"Tazavesh, Hard Mode Deathless Run Completed",0,0,4,0,0,0
@@ -109616,7 +109615,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 215935,Family Battler of Eastern Kingdoms (Alliance),215934,1,0,108702,0,0
 215936,Family Battler of Kalimdor (Horde),215934,1,0,108701,1,0
 215937,12.0 Delves - Rutaani01 - V1 - Progress Bar Kill Old Gods (DTM),0,100,4,0,0,1
-215938,Remembered horrors defeated,215937,100,9,0,0,32
+215938,Remembered horrors defeated,215937,50,9,0,0,32
 215939,,215938,4,0,108708,0,1
 215940,,215938,10,0,108711,3,1
 215941,,215938,8,0,108712,4,1
@@ -109625,9 +109624,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 215944,Mul'tha'ul defeated,215943,1,0,60399,0,2080
 215958,12.0 Delves - Rutani01 - V1 - Kobold Treasure,0,0,4,0,0,0
 215959,Gather Junk,215958,10,4,0,0,0
-215960,Unusual Treasure acquired,215959,10,0,108706,1,0
+215960,Unusual Treasure acquired,215959,8,0,108706,1,0
 215961,12.0 Delves - Rutaani01 - V1 - Free Webbed Haranir,0,0,4,0,0,0
-215963,Haranir freed,215961,8,0,108707,0,0
+215963,Haranir freed,215961,4,0,108707,0,0
 215964,,215938,4,0,108709,1,0
 215965,,215938,4,0,108710,2,0
 215966,,215938,8,0,108713,5,0
@@ -109775,7 +109774,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 216139,,216137,1,0,106012,1,32
 216140,,216137,1,0,106013,2,32
 216141,Unnamed Branch,210103,0,4,0,0,0
-216142,Preperation Timer Expired,210103,1,0,105059,1,2
+216142,Preparation Timer Expired,210103,1,0,105059,1,2
 216143,[DNT] Enemies - Nature,0,100,5,0,0,4097
 216144,,216143,1,0,108775,0,1
 216145,[DNT] Enemies - Nature,0,100,5,0,0,4097
@@ -109900,12 +109899,12 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 216270,Statistic - Degentrius (Mythic),0,0,4,0,0,0
 216271,,216270,0,0,108816,0,2
 216272,12.0 Delves - TwilightsBlade03 - V1 - Enter the Rotunda,0,0,4,0,0,0
-216273,Sabotaged Leylines discovered,216272,0,4,0,0,0
-216274,Sabotaged Leylines examined,216273,1,0,108818,0,0
+216273,Sabotaged Ley Lines discovered,216272,0,4,0,0,0
+216274,Sabotaged Ley Lines examined,216273,1,0,108818,0,0
 216275,12.0 Delves - TwilightsBlade03 - V1 - Leyline Conduits,0,0,4,0,0,0
 216276,Find Leyline Focusers and Repair Conduits,216275,1,8,0,0,0
-216277,Leyline Focusers collected (Optional),222824,10,0,111466,1,0
-216278,Leyline Focusers installed in Leyline Conduits,222824,6,0,108820,0,0
+216277,Ley Line Focusers collected,222824,6,0,111466,1,0
+216278,Ley Line Focusers installed in Ley Line Conduits,222824,6,0,108820,0,0
 216279,12.0 Delves - TwilightsBlade03 - V1 - Kill Miniboss,0,0,4,0,0,0
 216280,Kill Miniboss,216279,0,4,0,0,0
 216281,Voidbreaker Oglok slain,216280,1,0,108822,0,0
@@ -109928,7 +109927,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 216299,Energy Signature investigated,216298,1,0,108826,0,0
 216300,12.0 Delves - TwilightsBlade03 - V2 - Leyline Anomalies Slain,0,0,4,0,0,0
 216301,Leylines realigned,216300,0,4,0,0,0
-216302,Leyline Anomalies slain,216301,10,0,108827,0,0
+216302,Ley Line Anomalies slain,216301,10,0,108827,0,0
 216303,12.0 Delves - TwilightsBlade03 - V2 - Boss Defeated,0,0,4,0,0,0
 216304,Defeat Boss,216303,0,4,0,0,0
 216305,Infiltrator Gulkat slain,216304,1,0,60399,0,0
@@ -109989,14 +109988,14 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 216366,,216365,1,0,108852,0,0
 216367,3.0 Dungeon - Pit of Saron (Challenge),0,0,4,0,0,0
 216368,Scourgelord Tyrannus defeated,216367,1,0,109136,3,0
-216369,Enemy Forces,216367,611,9,0,4,0
-216370,,216369,5,0,108853,3,0
+216369,Enemy Forces,216367,635,9,0,4,0
+216370,,216369,15,0,108853,3,0
 216371,12.0 Dungeon - Windrunner Spire (Challenge),0,0,4,0,0,0
 216372,Emberdawn defeated,216371,1,0,70007,0,0
 216373,Derelict Duo defeated,216371,1,0,70008,1,0
 216374,Commander Kroluk defeated,216371,1,0,70009,2,0
 216375,Restless Heart defeated,216371,1,0,70010,3,0
-216376,Enemy Forces,216371,603,9,0,4,0
+216376,Enemy Forces,216371,591,9,0,4,0
 216377,,216376,15,0,108854,5,0
 216378,12.0 Dungeon - Magisters' Terrace (Challenge),0,0,4,0,0,0
 216379,Arcanotron Custos Defeated,216378,1,0,70056,0,0
@@ -110009,7 +110008,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 216386,Chief Corewright Kasreth defeated,216385,1,0,106479,0,0
 216387,Corewarden Nysarra defeated,216385,1,0,106480,1,0
 216388,Lothraxion defeated,216385,1,0,106481,2,0
-216389,Enemy Forces,216385,525,9,0,3,0
+216389,Enemy Forces,216385,572,9,0,3,0
 216390,,216389,3,0,108856,6,0
 216391,12.0 Dungeon - Maisara Caverns (Challenge),0,0,4,0,0,0
 216392,Muro'jin and Nekraxx defeated,216391,1,0,106472,0,0
@@ -110037,9 +110036,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 216414,Envisioned Mastery,216409,1,0,108865,4,0
 216415,Undercover Hunt,216409,1,0,108866,5,0
 216416,Overcoming the Unknown,216409,1,0,108867,6,0
-216417,,216383,6,0,50191,15,0
-216418,,216383,58,0,50192,16,0
-216419,,216383,9999,0,48468,17,0
+216417,,216383,6,0,50191,16,0
+216418,,216383,58,0,50192,17,0
+216419,,216383,9999,0,48468,18,0
 216420,Complete each of the following World PVP World Quests 10 times in Midnight.,0,0,4,0,0,0
 216421,Mysterious Entity,216420,10,0,108861,0,2048
 216422,Encapsulated Void,216420,10,0,108862,1,2048
@@ -110323,7 +110322,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 216704,Statistic - 12.0 Raid - Voidspire - Imperator Averzian - Mythic,0,0,4,0,0,0
 216705,,216704,0,0,109072,0,2
 216706,Statistic - 12.0 Raid - Voidspire - Vorasius - LFR,0,0,4,0,0,0
-216707,,216706,0,0,109073,0,2
+216707,,216706,0,0,112812,0,2
 216708,Statistic - 12.0 Raid - Voidspire - Vorasius - Normal,0,0,4,0,0,0
 216709,,216708,0,0,109074,0,2
 216710,Statistic - 12.0 Raid - Voidspire - Vorasius - Heroic,0,0,4,0,0,0
@@ -111371,12 +111370,12 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 218399,Remains in the Rise,218394,0,0,109645,4,0
 218400,11.0 Z1 - Delves - Delver's Call - Fungal Folly - (STM),0,0,4,0,0,4096
 218401,,218400,0,0,109646,0,0
-218402,Win a Horde versus Alliance Slayer's Rise Event.,0,0,4,0,0,0
-218403,,218402,1,0,109647,0,0
-218404,Win 10 Horde versus Alliance Slayer's Rise Events.,0,0,4,0,0,0
-218405,,218404,10,0,109647,0,1
-218406,Win 25 Horde versus Alliance Slayer's Rise Events.,0,0,4,0,0,0
-218407,,218406,25,0,109647,0,1
+218402,Win a Horde versus Alliance Slayer's Rise Event.,0,1,5,0,0,0
+218403,,218402,0,0,109647,0,0
+218404,Win 10 Horde versus Alliance Slayer's Rise Events.,0,10,5,0,0,8193
+218405,,218404,0,0,109647,0,0
+218406,Win 25 Horde versus Alliance Slayer's Rise Events.,0,25,5,0,0,8193
+218407,,218406,1,0,109647,1,0
 218408,Customary Rise,218394,0,0,109648,5,0
 218409,12.0 - Delves - Delver's Call - TwilighsBlade01,0,0,4,0,0,4096
 218410,,218409,0,0,109649,0,0
@@ -111465,13 +111464,12 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 218505,Bitter Honor,218492,0,0,109731,10,16
 218506,The Sound of Her Voice,218492,0,0,109732,11,16
 218507,A Venomous History,218492,0,0,109733,12,16
-218508,Beyond the Walls,218492,0,0,109734,13,16
+218508,Beyond the Walls,218492,0,0,112811,13,16
 218509,Something Vile This Way Comes,218492,0,0,109735,14,16
 218510,River-Walkers of the Prowl,218492,0,0,109736,15,16
 218511,Return to the Darkway - Exit Credit,0,0,4,0,0,4096
 218512,,218511,0,0,109737,0,0
 218513,12.0 Z2 Meta Achievement (ZCS),0,0,4,0,0,0
-218514,,218513,0,0,112085,4,32
 218515,,218513,0,0,112585,3,32
 218520,New Criteria Tree,0,2,5,0,0,4096
 218521,,218520,1,0,109741,0,0
@@ -111789,7 +111787,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 219267,Speak with Intro NPC,219266,10,4,0,0,0
 219268,Speak with Ashayo,219267,0,0,110159,0,0
 219269,"12.0 Delves - Rutaani01 - V2 - Run Over Hazards, Kill Enemies",0,0,4,0,0,0
-219270,Sprouting Lightbloom growths eaten,219269,175,0,110160,0,0
+219270,Sprouting Lightbloom growths eaten,219269,100,0,110160,0,0
 219271,Lightbloom invaders slain,219269,400,9,0,1,32
 219272,,219271,8,0,62703,0,1
 219273,,219271,2,0,62701,1,1
@@ -111803,7 +111801,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 219291,Speak with Intro NPC,219290,10,4,0,0,0
 219292,Speak with Ashayo,219291,0,0,110159,0,0
 219293,"12.0 Delves - Rutaani01 - V3 - Spore Bombs, Kill Enemies",0,0,4,0,0,0
-219294,Lightbloom Sporasaur slain,219293,4,0,110329,0,0
+219294,Lightbloom Sporasaur slain,219293,3,0,110329,0,0
 219295,Lightbloom invaders slain,219293,200,9,0,1,32
 219296,,219295,8,0,62703,0,1
 219297,,219295,2,0,62701,1,1
@@ -111863,7 +111861,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 219368,12.0 Professions - Tailoring - Complete Crafting Orders Weekly,0,3,5,0,0,4096
 219369,,219368,3,0,110203,0,2048
 219370,,217671,0,0,110204,3,32
-219371,Oversized Candle lit,215959,5,0,110205,0,0
+219371,Oversized Candle lit,215959,4,0,110205,0,0
 219374,Radiant Singer,0,0,4,0,0,0
 219375,,219374,0,0,110207,0,0
 219376,Complete a Midnight Season 1 4-set bonus on any class.,0,1,8,0,0,2
@@ -111908,7 +111906,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 219415,,219376,0,0,110246,38,2
 219416,,219376,0,0,110247,39,2
 219429,Gift of the Cycle,216639,1,0,110254,5,0
-219430,Impenatrably Sealed Gourd,216639,1,0,110255,6,0
+219430,Impenetrably Sealed Gourd,216639,1,0,110255,6,0
 219431,Sporespawned Cache,216639,1,0,110256,7,0
 219432,Peculiar Cauldron,216639,1,0,110257,8,0
 219433,12.0 Achievement - Explore Harandar - (LWB),0,0,4,0,0,0
@@ -112168,17 +112166,17 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 219731,The Restless Heart defeated (Mythic) (Guild),0,0,4,0,0,0
 219732,,219731,1,0,110479,0,2
 219733,Achievement - Hall of Fame: Crown of the Cosmos,0,0,4,0,0,0
-219734,,219733,1,0,110480,0,32
+219734,,219733,1,0,112721,0,32
 219735,Achievement - Hall of Fame: Midnight Falls,0,0,4,0,0,0
-219736,,219735,1,0,110481,0,32
+219736,,219735,1,0,112720,1,32
 219737,Achievement - Ahead of the Curve: Crown of the Cosmos,0,0,4,0,0,0
-219738,,219737,1,0,110480,0,2
+219738,,219737,1,0,112715,0,2
 219739,Achievement - Cutting Edge: Crown of the Cosmos,0,0,4,0,0,0
-219740,,219739,1,0,110480,0,2
+219740,,219739,1,0,112716,0,2
 219741,Achievement - Ahead of the Curve: Midnight Falls,0,0,4,0,0,0
-219742,,219741,1,0,110481,0,2
+219742,,219741,1,0,112718,0,2
 219743,Achievement - Cutting Edge: Midnight Falls,0,0,4,0,0,0
-219744,,219743,1,0,110481,0,2
+219744,,219743,1,0,112717,0,2
 219745,Pet battle won,0,0,4,0,0,8193
 219746,,219745,0,0,110482,0,0
 219749,Snowball thrown,0,0,4,0,0,8193
@@ -112387,13 +112385,13 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 219990,,219980,0,0,110626,9,0
 219991,,219980,0,0,110627,10,0
 219992,,219980,0,0,110628,11,0
-219993,,219980,0,0,110629,12,0
-219994,,219980,0,0,110630,13,0
-219995,,219980,0,0,110631,14,0
-219996,,219980,0,0,110632,15,0
-219997,,219980,0,0,110633,16,0
-219998,,219980,0,0,110634,17,0
-219999,,219980,0,0,110635,18,0
+219993,,219980,0,0,110629,13,0
+219994,,219980,0,0,110630,14,0
+219995,,219980,0,0,110631,16,0
+219996,,219980,0,0,110632,17,0
+219997,,219980,0,0,110633,19,0
+219998,,219980,0,0,110634,22,0
+219999,,219980,0,0,110635,23,0
 220000,Defeat any Raid Boss in Midnight,0,2,5,0,0,4096
 220001,,220000,0,0,110636,0,0
 220002,,220000,0,0,110637,1,0
@@ -112988,11 +112986,11 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 220756,,220755,237,0,106382,0,0
 220757,,220755,237,0,106383,1,0
 220758,,220755,237,0,106384,2,0
-220765,Midnight Delves: Tier 1,0,0,4,0,0,0
+220765,Midnight Delves: Tier 1,0,1,8,0,0,0
 220766,,220765,0,0,111054,0,0
-220767,Midnight Delves: Tier 2,0,0,4,0,0,0
+220767,Midnight Delves: Tier 2,0,1,8,0,0,0
 220768,,220767,0,0,111055,0,0
-220769,Midnight Delves: Tier 3,0,0,4,0,0,0
+220769,Midnight Delves: Tier 3,0,1,8,0,0,0
 220770,,220769,0,0,111056,0,0
 220771,Midnight Pathfinder,0,0,4,0,0,0
 220772,,220771,1,0,104578,1,32
@@ -113113,7 +113111,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 220889,"A Gift, Given Freely",220881,0,0,111159,7,16
 220890,Breaking the Triad,220881,0,0,111160,8,16
 220891,"Go Low, Go Loud",220881,0,0,111161,9,16
-220892,Written by the Winners,220881,0,0,111162,10,16
+220892,Secrets in the Dark,220881,0,0,111162,10,16
 220893,Oaths to Family,220881,0,0,111163,11,16
 220894,To Be Changed,220881,0,0,111164,12,16
 220895,A Dance with the Devil,220881,0,0,111165,13,16
@@ -113175,7 +113173,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 220995,,220994,3,0,111234,0,0
 220996,Complete 3 World Quests in Harandar,0,3,5,0,0,4096
 220997,,220996,3,0,111235,0,0
-221000,Discover a legend of the Haranir,0,0,4,0,0,4096
+221000,Discover a legend of the Haranir,0,1,5,0,0,4096
 221001,,221000,0,0,111237,0,0
 221019,Reenter Neighborhood,0,1,8,0,0,4096
 221020,Reenter Neighborhood,221019,1,0,111251,0,0
@@ -113449,7 +113447,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 221374,Gilded Armillary Sphere,221369,0,0,111475,4,16
 221375,Antique Nobleman's Signet Ring,221369,0,0,111476,5,16
 221376,Farstrider's Lost Quiver,221369,0,0,111477,6,16
-221377,Stone Vat of Wine,221369,0,0,111478,7,16
+221377,Stone Vat,221369,0,0,111478,7,16
 221378,Burbling Paint Pot,221369,0,0,111479,8,16
 221379,12.0 Z1 - Achievement - Runestone Rush,0,0,4,0,0,0
 221380,Elrendar River Runestone,221379,0,0,111480,0,0
@@ -113573,8 +113571,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 221860,,7256,1,0,111722,4,2
 221861,,7174,1,0,46608,3,2
 221862,,7178,1,0,111723,4,2
-221863,,216369,2,0,111724,4,0
-221864,,216369,5,0,111725,5,0
+221863,,216369,0,0,111724,4,0
+221864,,216369,0,0,111725,5,0
 221865,,216369,7,0,111726,6,0
 221866,,216369,5,0,111727,7,0
 221867,,216369,15,0,111728,8,0
@@ -113709,7 +113707,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 222003,Take 50 flags in Arathi Basin,222002,50,0,111820,0,1
 222004,Take 50 flags in the Battle for Gilneas Training Grounds.,0,0,4,0,0,0
 222005,Take 30 flags in the Battle for Gilneas Training Grounds.,222004,30,0,111821,0,1
-222006,Capture 100 mine carts in Silvershard Mines Training Grounds.,0,0,4,0,0,0
+222006,Take control of 100 mine carts in Silvershard Mines Training Grounds.,0,0,4,0,0,0
 222007,Carts Capped,222006,100,0,111822,0,1
 222008,Tarnished Mural,221922,0,0,111823,13,0
 222009,Ancient Runestone,221922,0,0,111824,14,0
@@ -113742,7 +113740,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 222036,Elder Oaktalon,222024,1,0,111850,11,0
 222037,Depthborn Eelamental,222024,1,0,111851,12,0
 222038,The Decaying Diamondback,222024,1,0,111852,13,0
-222039,Asha the Empowered,222024,1,0,111853,14,0
+222039,Ash'an the Empowered,222024,1,0,111853,14,0
 222040,12.0 Delve - Atune,0,0,4,0,0,0
 222041,12.0 Z2 - Zul'Aman Treasures Achievement,0,0,4,0,0,0
 222042,Abandoned Ritual Skull,222041,0,0,111854,0,16
@@ -113809,6 +113807,15 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 222104,,222103,1,0,111893,0,2
 222105,12.0 Delve - Torment's Rise - Defeat Boss,0,0,4,0,0,0
 222106,Nullaeus defeated,222105,1,0,111894,0,2080
+222107,The Deadliest of Prey (NJS)(KNF),0,0,4,0,0,0
+222109,I'm Good At What I Do (NJS)(KNF),0,0,4,0,0,0
+222110,I'm Not Trapped In Here With You (NJS)(KNF),0,0,4,0,0,0
+222111,You're Trapped In Here With Me (NJS)(KNF),0,0,4,0,0,0
+222112,Midnight Hunter (NJS)(KNF),0,0,4,0,0,0
+222113,Kitchen Nightmare (NJS)(KNF),0,0,4,0,0,0
+222114,"Look, I'm Just Trying To Fish Here (NJS)(KNF)",0,0,4,0,0,0
+222115,I Didn't Hear No Bell (NJS)(KNF),0,0,4,0,0,0
+222116,Trapped In The Middle With You (NJS)(KNF),0,0,4,0,0,0
 222117,Defeat Magister Sunbreaker or Magistrix Emberlash (Hard Mode),0,1,8,0,0,0
 222118,Magister Sunbreaker,222117,0,0,105942,0,0
 222119,Magistrix Emberlash,222117,0,0,105943,1,0
@@ -113868,7 +113875,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 222174,,222170,0,0,111931,3,0
 222175,,222170,0,0,111932,4,0
 222176,Complete 3 World Quests in Voidstorm - Research Console,0,3,5,0,0,4096
-222177,,222176,1,0,111940,0,0
+222177,,222176,0,0,111940,0,0
 222178,Defeat Senior Tinker Ozwold or L-N-0R the Recycler (Hard Mode),0,1,8,0,0,0
 222179,Senior Tinker Ozwold,222178,0,0,105944,0,0
 222180,L-N-0R the Recycler,222178,0,0,105945,1,0
@@ -113877,11 +113884,11 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 222183,Deliah Gloomsong,222181,0,0,105947,1,0
 222184,Defeat Phaseblade Talasha or Nexus-Edge Hadim (Hard Mode),0,1,8,0,0,0
 222185,Phaseblade Talasha,222184,0,0,105948,0,0
-222186,Nexus-Edge Hadim,222184,0,0,105948,1,0
+222186,Nexus-Edge Hadim,222184,0,0,105949,1,0
 222187,"Defeat Jo'zolo the Breaker or Zadu, Fist of Nalorakk (Hard Mode)",0,1,8,0,0,0
 222188,Jo'zolo the Breaker,222187,0,0,105950,0,0
 222189,"Zadu, Fist of Nalorakk",222187,0,0,105951,1,0
-222190,Defeat The Talon of Janali or The Wing of Akil'zon (Hard Mode),0,1,8,0,0,0
+222190,Defeat The Talon of Jan'alai or The Wing of Akil'zon (Hard Mode),0,1,8,0,0,0
 222191,The Talon of Janali,222190,0,0,105952,0,0
 222192,The Wing of Akil'zon,222190,0,0,105953,1,0
 222193,Defeat Ranger Swiftglade or Lieutenant Blazewing (Hard Mode),0,1,8,0,0,0
@@ -113926,7 +113933,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 222232,"Defeat Jo'zolo the Breaker or Zadu, Fist of Nalorakk (Nightmare Mode)",0,1,8,0,0,0
 222233,Jo'zolo the Breaker,222232,0,0,105980,0,0
 222234,"Zadu, Fist of Nalorakk",222232,0,0,105981,1,0
-222235,Defeat The Talon of Janali or The Wing of Akil'zon (Nightmare Mode),0,1,8,0,0,0
+222235,Defeat The Talon of Jan'alai or The Wing of Akil'zon (Nightmare Mode),0,1,8,0,0,0
 222236,The Talon of Janali,222235,0,0,105982,0,0
 222237,The Wing of Akil'zon,222235,0,0,105983,1,0
 222238,Defeat Ranger Swiftglade or Lieutenant Blazewing (Nightmare Mode),0,1,8,0,0,0
@@ -113983,10 +113990,10 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 222306,Farstriders,222304,1,4,0,1,8192
 222307,Magisters,222304,1,4,0,2,8192
 222308,Shades of the Row,222304,1,4,0,3,8192
-222309,,222305,10000,0,111969,0,0
-222310,,222306,10000,0,111971,0,0
-222311,,222307,10000,0,111970,0,0
-222312,,222308,10000,0,111972,0,0
+222309,,222305,2500,0,111969,0,0
+222310,,222306,2500,0,111971,0,0
+222311,,222307,2500,0,111970,0,0
+222312,,222308,2500,0,111972,0,0
 222313,"Complete ""The Light's Summons"" questline.",0,0,4,0,0,0
 222314,Midnight,222313,1,0,111973,0,0
 222315,A Voice from the Light,222313,1,0,111974,1,0
@@ -114068,7 +114075,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 222398,12.0 z2 - Achievement - Dolly - Collector (ZCS),0,0,4,0,0,0
 222399,Chu'ke found,222398,0,0,112038,0,0
 222400,12.0 z2 - Achievement - Gnome - Collector (ZCS),0,0,4,0,0,0
-222401,Diary Page found,222400,0,0,112039,0,0
+222401,Diary Page found,222400,0,0,112844,3,0
 222402,12.0 z2 - Achievement - Frogs - Collector (ZCS),0,0,4,0,0,0
 222403,Princess Fita,222402,0,0,112041,0,0
 222404,12.0 z2 - Achievement - Spiritpaw - Collector (ZCS),0,0,4,0,0,0
@@ -114204,19 +114211,19 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 222550,,222542,0,0,112156,7,0
 222551,PvP world quest completed,0,1,8,0,0,8193
 222552,PvP world quest completed,222551,0,0,112158,0,1
-222553,Slayer's Rise Event won,0,1,8,0,0,8193
-222554,,222553,0,0,112159,0,0
+222553,Slayer's Rise Event won,0,0,4,0,0,8193
+222554,,222553,1,0,112159,0,0
 222557,12.0 Max Campaign - Ch 4 - The Quel'dorei - Portal to Silverglade Refuge used,0,0,4,0,0,4096
 222558,,222557,0,0,112161,0,0
 222559,World Boss defeated.,0,1,8,0,0,1
 222560,Lu'ashal,222559,1,0,112162,0,0
 222561,Cragpine,222559,1,0,112163,1,0
-222562,Fungal Strider,222559,1,0,112164,2,0
+222562,Thorm'belan,222559,1,0,112164,2,0
 222563,Predaxas,222559,1,0,112165,3,0
 222564,World Boss defeated.,0,4,8,0,0,1
 222565,Lu'ashal,222564,1,0,112162,0,0
 222566,Cragpine,222564,1,0,112163,1,0
-222567,Fungal Strider,222564,1,0,112164,2,0
+222567,Thorm'belan,222564,1,0,112164,2,0
 222568,Predaxas,222564,1,0,112165,3,0
 222569,Boss defeated,0,5,5,0,0,8193
 222570,,222569,0,0,112166,0,0
@@ -114266,7 +114273,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 222661,,216383,1,0,112206,6,0
 222662,Bounty looted,0,0,4,0,0,8193
 222663,War Mode Bounty,222662,1,0,112207,0,1
-222664,War Supply Chest looted,0,0,4,0,0,8193
+222664,War Supply Chest looted,0,1,8,0,0,8193
 222665,,222664,1,0,112208,0,1
 222666,Quest completed,0,0,4,0,0,8193
 222667,,222666,0,0,112209,0,0
@@ -114277,8 +114284,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 222683,,222681,0,0,112217,1,0
 222684,,222681,0,0,112218,2,0
 222685,,222681,0,0,112219,3,0
-222686,Latent Arcana obtained,0,3,4,0,0,1
-222687,Latent Arcana obtained,222686,50,0,112510,0,1
+222686,Latent Arcana obtained,0,50,5,0,0,8193
+222687,Latent Arcana obtained,222686,0,0,112510,0,1
 222688,Lord Saltheril bowed at,0,1,5,0,0,8193
 222689,,222688,0,0,112221,0,0
 222690,Unalloyed Abundance obtained,0,3,4,0,0,1
@@ -114340,8 +114347,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 222746,Twilight's Blade slain,222743,10,0,62704,2,1
 222747,Twilight's Blade slain,222743,1,0,62794,3,1
 222748,Twilight's Blade slain,222743,2,0,62701,4,1
-222749,Stormarion Core collected,0,0,4,0,0,1
-222750,Stormarion Core collected,222749,100,0,112262,0,1
+222749,Stormarion Core collected,0,100,5,0,0,8193
+222750,Stormarion Core collected,222749,0,0,112262,0,1
 222751,Quest completed,0,1,5,0,0,1
 222752,A Generational Moment,222751,0,0,112236,0,0
 222753,Hidey-Hole,222751,0,0,112263,1,0
@@ -114367,7 +114374,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 222818,Abundance acquired,0,0,4,0,0,1
 222819,Abundance acquired,222818,50000,0,106326,0,1
 222824,Unnamed Branch,216276,0,4,0,0,2
-222826,Leyline Focusers installed in Leyline Conduits,216276,6,0,108820,1,2
+222826,Ley Line Focusers installed in Ley Line Conduits,216276,6,0,108820,1,2
 222831,Kill Credit: Accept Breadcrumb from Map,0,0,8,0,0,4096
 222832,,222831,1,0,112306,0,0
 222833,Kill Credit: Accept Breadcrumb from Scouting Map,0,1,8,0,0,4096
@@ -114520,7 +114527,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 223029,,223020,1,0,112425,7,32
 223030,Teleport to Jin'Ma with Mojo's help (Optional),214512,1,8,0,1,0
 223031,Teleport to Jin'Ma with Mojo's help (Optional),223030,1,0,112426,0,0
-223032,,223030,1,0,109272,1,8194
+223032,,223030,1,0,111692,1,8194
 223033,,217671,0,0,112624,0,32
 223034,,217671,0,0,112428,2,32
 223035,,217671,0,0,112429,5,32
@@ -114561,7 +114568,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 223086,,218513,0,0,111098,2,32
 223087,The Party Must Go On,223044,0,0,112454,4,0
 223088,Ever Painting,223044,0,0,112455,5,0
-223089,,218513,0,0,112456,5,32
+223089,,218513,0,0,112456,4,32
 223094,12.0 Delves - TwilightsBlade01 - V01 - Ritual 01 stopped (DTM),0,0,4,0,0,0
 223095,,223094,1,0,111401,0,32
 223096,12.0 Delves - TwilightsBlade01 - V01 - Ritual 02 stopped (DTM),0,0,4,0,0,0
@@ -114614,30 +114621,30 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 223152,,223151,0,0,112485,0,0
 223153,Echoes of Midnight - Completed,0,0,4,0,0,0
 223154,,223153,0,0,112485,0,0
-223171,12.0 Eversong Woods Peak Surveys - Highest Peaks (AAO),0,10,4,0,0,17
-223172,Telescope Placed,223171,1,0,111573,0,1
-223173,Telescope Placed,223171,1,0,111574,1,1
-223174,Telescope Placed,223171,1,0,111575,2,1
-223175,Telescope Placed,223171,1,0,111576,3,1
-223176,Telescope Placed,223171,1,0,111577,4,1
-223177,12.0 Zul'Aman Peak Surveys - Highest Peaks (AAO),0,10,4,0,0,17
-223178,Telescope Placed,223177,1,0,111578,0,1
-223179,Telescope Placed,223177,1,0,111579,1,1
-223180,Telescope Placed,223177,1,0,111580,2,1
-223181,Telescope Placed,223177,1,0,111581,3,1
-223182,Telescope Placed,223177,1,0,111582,4,1
-223183,12.0 Harandar Peak Surveys - Highest Peaks (AAO),0,10,4,0,0,17
-223184,Telescope Placed,223183,1,0,111583,0,1
-223185,Telescope Placed,223183,1,0,111584,1,1
-223186,Telescope Placed,223183,1,0,111585,2,1
-223187,Telescope Placed,223183,1,0,111586,3,1
-223188,Telescope Placed,223183,1,0,111587,4,1
-223189,12.0 Voidstorm Peak Surveys - Highest Peaks (AAO),0,10,4,0,0,17
-223190,Telescope Placed,223189,1,0,111588,0,1
-223191,Telescope Placed,223189,1,0,111589,1,1
-223192,Telescope Placed,223189,1,0,111590,2,1
-223193,Telescope Placed,223189,1,0,111591,3,1
-223194,Telescope Placed,223189,1,0,111592,4,1
+223171,12.0 Eversong Woods Peak Surveys - Highest Peaks (AAO),0,5,4,0,0,8193
+223172,Telescope Placed,223171,1,0,111573,4,0
+223173,Telescope Placed,223171,1,0,111574,0,0
+223174,Telescope Placed,223171,1,0,111575,1,0
+223175,Telescope Placed,223171,1,0,111576,2,0
+223176,Telescope Placed,223171,1,0,111577,3,0
+223177,12.0 Zul'Aman Peak Surveys - Highest Peaks (AAO),0,5,4,0,0,8193
+223178,Telescope Placed,223177,1,0,111578,0,0
+223179,Telescope Placed,223177,1,0,111579,1,0
+223180,Telescope Placed,223177,1,0,111580,2,0
+223181,Telescope Placed,223177,1,0,111581,3,0
+223182,Telescope Placed,223177,1,0,111582,4,0
+223183,12.0 Harandar Peak Surveys - Highest Peaks (AAO),0,5,4,0,0,8193
+223184,Telescope Placed,223183,1,0,111583,0,0
+223185,Telescope Placed,223183,1,0,111584,1,0
+223186,Telescope Placed,223183,1,0,111585,2,0
+223187,Telescope Placed,223183,1,0,111586,3,0
+223188,Telescope Placed,223183,1,0,111587,4,0
+223189,12.0 Voidstorm Peak Surveys - Highest Peaks (AAO),0,5,4,0,0,8193
+223190,Telescope Placed,223189,1,0,111588,0,0
+223191,Telescope Placed,223189,1,0,111589,1,0
+223192,Telescope Placed,223189,1,0,111590,2,0
+223193,Telescope Placed,223189,1,0,111591,3,0
+223194,Telescope Placed,223189,1,0,111592,4,0
 223201,Statistic: Adventurer Dawncrests earned,0,0,4,0,0,0
 223202,,223201,0,0,112503,0,0
 223203,Statistic: Veteran Dawncrests earned,0,0,4,0,0,0
@@ -114662,7 +114669,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 223222,Defend Parhelion Plaza,223217,2,0,62701,4,1
 223223,,223217,4,0,105522,5,32
 223236,Void Pylons destroyed,218152,3,8,0,0,2
-223239,Void Pylons destroyed,221609,3,8,0,1,8192
+223239,Void Pylons destroyed using Quel'Danas Sentinels,221609,3,8,0,1,8192
 223240,,223239,1,0,110263,0,2
 223241,,223239,1,0,110259,1,2
 223242,,223239,1,0,110264,2,2
@@ -114842,7 +114849,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 223561,,223560,0,0,105921,0,0
 223562,,223560,0,0,105951,1,0
 223563,,223560,0,0,105981,2,0
-223564,The Talon of Janali,223523,1,8,0,10,8192
+223564,The Talon of Jan'alai,223523,1,8,0,10,8192
 223565,,223564,0,0,105922,0,0
 223566,,223564,0,0,105952,1,0
 223567,,223564,0,0,105982,2,0
@@ -114927,3 +114934,104 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 223646,,223645,1,0,112050,0,0
 223649,,216395,5,0,112689,22,0
 223650,,216395,5,0,112690,21,0
+223653,12.0 Z4 - Level Up Campaign - Ch 3 - Q11 - Enter Silvermoon,0,0,4,0,0,4096
+223654,,223653,1,0,112692,0,0
+223655,Reach level 90,0,0,4,0,0,4096
+223656,Reach level 90,223655,0,0,112693,0,0
+223657,12.0 Max Level - Feature Tour - Supper Wrapper - Z1 (NJS),0,1,8,0,0,4096
+223658,,223657,0,0,112694,0,0
+223659,,223657,0,0,112695,1,0
+223660,,223657,0,0,112696,2,0
+223661,,223657,0,0,112697,3,0
+223662,12.0 Max Level - Feature Tour - Super Wrapper - Z3 (NJS),0,1,8,0,0,4096
+223663,,223662,0,0,112698,0,0
+223664,12.0 Max Level - Feature Tour - Super Wrapper - Z4 (NJS),0,1,8,0,0,4096
+223665,,223664,0,0,112699,0,0
+223666,,223664,0,0,112700,1,0
+223667,12.0 Delves - DevouringHost01 - V03 - Collect Bomb (Hufton),0,0,4,0,0,0
+223668,Improvised Arcane Device acquired,223667,0,0,106310,0,32
+223672,A More Potent Foe,220881,0,0,112703,15,0
+223673,11.2.7 Lorewalking - Bug Fix - Player Has the Tome of Silvermoon Intrigue (MPK),0,1,8,0,0,0
+223674,,223673,0,0,112704,0,0
+223675,,223673,0,0,112705,1,0
+223676,Void Pylon Destroyed by Quel'Danas Sentinels,218152,3,0,112706,2,2
+223692,,219735,1,0,112719,0,32
+223693,,219733,1,0,112722,1,32
+223695,,219733,1,0,112724,3,32
+223696,,219733,1,0,112725,4,32
+223697,,219733,1,0,112726,5,32
+223700,,218402,0,0,112728,1,0
+223701,,218404,0,0,112728,1,0
+223702,,218406,1,0,112728,0,0
+223714,,222176,0,0,112733,1,0
+223715,,222176,0,0,112734,2,0
+223720,Fel Secrets Quest Kill Credit,0,0,4,0,0,4096
+223721,,223720,1,0,112736,0,0
+223722,Chimaerus defeated,0,0,4,0,0,4096
+223723,Chimaerus defeated,223722,1,0,112737,0,0
+223724,,217914,1,0,112738,5,0
+223725,,217920,1,0,112738,5,0
+223726,,217932,1,0,112738,5,0
+223727,,212125,1,0,112739,8,0
+223728,,212112,1,0,112739,8,0
+223729,,219980,0,0,112759,12,0
+223730,,219980,0,0,112760,15,0
+223731,,219980,0,0,112761,18,0
+223732,,219980,0,0,112758,20,0
+223733,,219980,0,0,112762,21,0
+223734,,219980,0,0,112742,24,0
+223735,,219980,0,0,112743,25,0
+223736,,219980,0,0,112744,26,0
+223737,,219980,0,0,112745,27,0
+223738,,219980,0,0,112754,28,0
+223739,,219980,0,0,112755,29,0
+223740,,219980,0,0,112756,30,0
+223741,,219980,0,0,112757,31,0
+223742,,219980,0,0,112746,32,0
+223743,,219980,0,0,112747,33,0
+223744,,219980,0,0,112748,34,0
+223745,,219980,0,0,112749,35,0
+223746,,219980,0,0,112750,36,0
+223747,,219980,0,0,112751,37,0
+223748,,219980,0,0,112752,38,0
+223749,,219980,0,0,112753,39,0
+223750,New Criteria Tree,0,0,4,0,0,1
+223751,gained reputation with Niffen,223750,1000,0,112763,0,1
+223753,,222664,1,0,112765,1,1
+223754,,222749,0,0,112766,1,0
+223757,,215938,10,0,112768,8,0
+223768,Eversong Woods,222112,0,0,112779,0,0
+223769,Zul'Aman,222112,0,0,112780,1,0
+223770,Harandar,222112,0,0,112781,2,0
+223771,Voidstorm,222112,0,0,112782,3,0
+223772,,222107,5,0,112783,0,1
+223773,,222109,50,0,112784,0,1
+223774,,222114,100,0,112785,0,1
+223775,,222116,100,0,112786,0,1
+223776,,222115,50,0,112787,0,1
+223777,,222113,100,0,112788,0,1
+223778,,222110,10,0,112789,0,1
+223779,,222111,100,0,112789,0,1
+223780,,220765,0,0,112813,1,0
+223781,,220767,0,0,112814,1,0
+223786,,220769,0,0,112815,1,0
+223793,,223307,0,0,112838,6,32
+223794,,223307,0,0,112839,7,32
+223795,Light Up the Night,0,0,4,0,0,0
+223796,,223795,0,0,112840,0,0
+223797,,223795,0,0,112841,1,0
+223798,,223795,0,0,112842,2,0
+223799,,223795,0,0,112843,3,0
+223800,Message in a Bottle,222400,0,0,112039,0,0
+223801,Hastily-Scribbled Note,222400,0,0,112845,1,0
+223802,Scrap of Singed Paper,222400,0,0,112846,2,0
+223803,Discarded Scroll,222400,0,0,112847,4,0
+223804,Parting Note,222400,0,0,112848,5,0
+223807,Midnight Pre-Launch Window Active,0,0,4,0,0,2
+223808,,223807,1,0,112850,0,2
+223810,Five Star Review,0,0,4,0,0,0
+223811,,223810,0,0,112852,0,0
+223812,,222686,0,0,112853,1,0
+223813,30888: 12.0 - Housing - Weekly Quest - Rotational - Buy from Endeavor Vendor - (POC),0,1,5,0,0,6144
+223814,,223813,2,0,112854,0,2048
+223818,,216383,1,0,112857,15,0

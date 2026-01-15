@@ -24287,9 +24287,9 @@ And spread his flame to all Azeroth.",1
 55940,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_SHOW_SPELL_NAME,Show Spell Name,1
 55941,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_SHOW_TOOLTIPS,Show Tooltips,1
 55942,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_SHOW_TIMER,Show Timer,1
-55943,HUD_EDIT_MODE_SYSTEM_ENCOUNTER_TIMELINE,Boss Timeline,1
+55943,HUD_EDIT_MODE_SYSTEM_ENCOUNTER_TIMELINE,Boss Abilities,1
 55944,COMBAT_WARNINGS_LABEL,Boss Warnings,1
-55945,COMBAT_WARNINGS_ENABLE_ENCOUNTER_TIMELINE_LABEL,Enable Boss Timeline,1
+55945,COMBAT_WARNINGS_ENABLE_ENCOUNTER_TIMELINE_LABEL,Enable Boss Abilities,1
 55946,COMBAT_WARNINGS_ENABLE_ENCOUNTER_TIMELINE_TOOLTIP,Toggle on to view important Boss Abilities in a separate HUD element.,1
 55947,HUD_EDIT_MODE_SYSTEM_ENCOUNTER_CRITICAL_WARNINGS,Boss Warning - Critical,1
 55948,HUD_EDIT_MODE_SYSTEM_ENCOUNTER_MEDIUM_WARNINGS,Boss Warning - Medium,1
@@ -24835,7 +24835,7 @@ And spread his flame to all Azeroth.",1
 57237,ERR_CHARTER_SIGNATURE_REMOVED,%s has removed their signature from your Neighborhood Charter.,1
 57238,ERR_HOUSING_DECOR_REPORT_PLOT_OUT_OF_RANGE,The plot is too far away!,1
 57239,ERR_HOUSING_DECOR_REPORT_BAD_FACING,Not facing the target plot!,1
-57240,ERR_CHARTER_NEIGHBORHOOD_RENAME_NOTIFICATION,Your Charter Neighborhood has been renamed to %s,1
+57240,ERR_CHARTER_NEIGHBORHOOD_RENAME_NOTIFICATION_S,Your Charter Neighborhood has been renamed to %s,1
 57242,HOUSING_ENDEAVOR_REPEATABLE_TASK,|A:UI-RefreshButton:18:18:0:0|a Repeatable Task,1
 57243,HOUSING_MAX_PLAYERS_IN_HOUSE_TO_OWNER,You have reached the limit of visitors to your house. One or more players must exit the house before anyone new can visit.,1
 57246,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_PLUM,Plum,1
@@ -24960,7 +24960,7 @@ And spread his flame to all Azeroth.",1
 57479,CATALOG_SHOP_REFUND_TIME_LEFT,Time remaining to refund recent items: %s,3
 57483,CATALOG_SHOP_TOPUPFLOW_CURRENT_BALANCE,Current Balance: %s,3
 57486,TALENT_BUTTON_TOOLTIP_CAPSTONE_TRACK_TITLE_FORMAT,%s (%d/%d),1
-57489,ERR_COSMETIC_OWNER_NOT_IN_GUILD,The character that owns this House is not in the guild,1
+57489,ERR_HOUSING_RESULT_COSMETIC_OWNER_NOT_IN_GUILD,The character that owns this House is not in the guild,1
 57491,UNIT_NAMEPLATES_PREVIEW_FRIENDLY_PLAYER,Previewing - Friendly Player,1
 57492,UNIT_NAMEPLATES_PREVIEW_FRIENDLY_NPC,Previewing - Friendly NPC,1
 57493,UNIT_NAMEPLATES_PREVIEW_ENEMY_PLAYER,Previewing - Enemy Player,1
@@ -24980,11 +24980,11 @@ And spread his flame to all Azeroth.",1
 57514,CAA_HELP_OVERVIEW_NARRATED,Combat Audio Alert Commands: |nType /<spell>tts</spell>combat to enable Combat Audio Alerts or set an option by typing /<spell>tts</spell>combat followed by one of the commands below:,1
 57516,SLASH_CAA_CONFIRMATION_ENABLED_WITH_HELP_NARRATED,"%s set to Enabled. For options, type /<spell>tts</spell>combat help.",1
 57537,SLASH_CAA_SPEED,speed,1
-57538,SLASH_CAA_HELP_SPEED,[%s - %d] - Adjust the rate of speech for combat audio aids,1
+57538,SLASH_CAA_HELP_SPEED,[%s - %d] - Adjust the rate of speech for combat audio alerts,1
 57541,SLASH_CAA_CONFIRMATION,%s set to %s,1
 57542,CAA_COMMAND_SYNTAX_ERROR_NARRATED,"Invalid Combat Audio Alert command. Type ""/<spell>tts</spell>combat help"" to see a list of commands.",1
 57543,SLASH_CAA_VOLUME,volume,1
-57544,SLASH_CAA_HELP_VOLUME,[%d - %d] - Choose the primary volume for combat audio aids,1
+57544,SLASH_CAA_HELP_VOLUME,[%d - %d] - Choose the primary volume for combat audio alerts,1
 57545,SLASH_CAA_SAY_TARGET_NAME,saytargetname,1
 57547,SLASH_CAA_HELP_SAY_TARGET_NAME,Says the name of the target when you select it,1
 57548,SLASH_CAA_SAY_COMBAT_START,saycombatstart,1
@@ -25116,3 +25116,103 @@ And spread his flame to all Azeroth.",1
 57712,CAA_SAY_RESOURCE_2_THROTTLE,Say Resource 2 Throttle,1
 57713,HOUSING_DASHBOARD_REPEATABLE_TASK_TITLE_TOOLTIP_FORMAT,%s (x%d),1
 57724,ERR_ENDEAVOR_REWARD_AVAILABLE,You have rewards waiting for you in the endeavor coffer.,1
+57729,HOUSING_PREVIEW_DECOR_WARNING_AR_ONLY,Any previewed Decor that you have placed will be removed. Are you sure?,1
+57731,HOUSING_MARKET_PREVIEW_DECOR_ADDED_TO_CHEST,%s has been added to your House Chest.,1
+57732,HOUSING_MARKET_PREVIEW_DECOR_ADDED_TO_WORLD,%s has been placed in your house.,1
+57736,ERR_CHARTER_NEIGHBORHOOD_OWNERSHIP_TRANSFER_SUCCESS,You are now the Neighborhood Owner,1
+57737,BLIZZARD_STORE_VAS_ERROR_HOUSE_NEIGHBORHOOD_OWNER,This service cannot be used on a character that owns a House or a Neighborhood,3
+57738,ENDEAVOR_TASK_COMPLETED,Endeavor Task Completed,1
+57743,ENDEAVOR_COMPLETED,Endeavor Completed,1
+57747,DAMAGE_METER_ENTRY_FORMAT_MINIMAL,%s,1
+57748,DAMAGE_METER_ENTRY_FORMAT_COMPACT,%s (%s),1
+57749,DAMAGE_METER_ENTRY_FORMAT_COMPLETE,%s (%s) %d%%,1
+57751,DAMAGE_METER_MAKE_UNINTERACTABLE,Make Noninteractive,1
+57752,DAMAGE_METER_MAKE_INTERACTABLE,Make Interactive,1
+57753,SLASH_CAA_DISABLED_WARNING,"Combat Audio Alerts are currently disabled. To enable them, type /ttscombat.",1
+57754,SLASH_CAA_DISABLED_WARNING_NARRATED,"Combat Audio Alerts are currently disabled. To enable them, type  /<spell>tts</spell>combat",1
+57755,COOLDOWN_VIEWER_SETTINGS_ALERT_WHEN_AURA_APPLIED,On Aura Applied,1
+57756,COOLDOWN_VIEWER_SETTINGS_ALERT_WHEN_AURA_REMOVED,On Aura Removed,1
+57757,VOICE_GENERIC_FORMAT_MASCULINE,English Voice %d (Masculine),1
+57758,VOICE_GENERIC_FORMAT_FEMININE,English Voice %d (Feminine),1
+57763,CAA_VOICE_LABEL,Voice,1
+57764,CAA_VOLUME_LABEL,Volume,1
+57765,CAA_SAY_PLAYER_HEALTH_VOICE_TOOLTIP,Choose the voice that says your health,1
+57766,CAA_SAY_PLAYER_HEALTH_VOLUME_TOOLTIP,Adjusts the volume for health callouts,1
+57767,CAA_SAY_TARGET_HEALTH_VOICE_TOOLTIP,Choose the voice that says your target's health,1
+57768,CAA_SAY_TARGET_HEALTH_VOLUME_TOOLTIP,Adjusts the volume for target health callouts,1
+57769,CAA_SAY_PARTY_HEALTH_VOICE_TOOLTIP,Choose the voice for party health callouts,1
+57770,CAA_SAY_PARTY_HEALTH_VOLUME_TOOLTIP,Adjusts the volume for party health callouts,1
+57771,CAA_SAY_PLAYER_RESOURCE_VOICE_TOOLTIP,Choose the voice that says your %s. This setting is saved per talent specialization.,1
+57772,CAA_SAY_PLAYER_RESOURCE_VOLUME_TOOLTIP,Adjusts the volume for %s callouts. This setting is saved per talent specialization.,1
+57773,CAA_SAY_PLAYER_CASTS_VOICE_TOOLTIP,Choose the voice that says your casts,1
+57774,CAA_SAY_PLAYER_CASTS_VOLUME_TOOLTIP,Adjusts the volume for your cast callouts,1
+57775,CAA_SAY_TARGET_CASTS_VOICE_TOOLTIP,Choose the voice that says your target's casts,1
+57776,CAA_SAY_TARGET_CASTS_VOLUME_TOOLTIP,Adjusts the volume for your target's cast callouts,1
+57777,SLASH_CAA_SAY_YOUR_HEALTH_VOICE,sayyourhealthvoice,1
+57778,SLASH_CAA_SAY_YOUR_HEALTH_VOICE_NARRATED,say your health voice,1
+57779,SLASH_CAA_HELP_SAY_YOUR_HEALTH_VOICE,[%d - %d] - Choose the voice to use when saying your health,1
+57780,SLASH_CAA_SAY_YOUR_HEALTH_VOICE_CHANGED_CONFIRMATION,Combat Audio Alert Say Your Health Voice set to %s,1
+57781,SLASH_CAA_SAY_TARGET_HEALTH_VOICE,saytargethealthvoice,1
+57782,SLASH_CAA_SAY_TARGET_HEALTH_VOICE_NARRATED,say target health voice,1
+57783,SLASH_CAA_HELP_SAY_TARGET_HEALTH_VOICE,[%d - %d] - Choose the voice to use when saying your target's health,1
+57784,SLASH_CAA_SAY_TARGET_HEALTH_VOICE_CHANGED_CONFIRMATION,Combat Audio Alert Say Target Health Voice set to %s,1
+57785,SLASH_CAA_SAY_PARTY_HEALTH_VOICE,saypartyhealthvoice,1
+57786,SLASH_CAA_SAY_PARTY_HEALTH_VOICE_NARRATED,say party health voice,1
+57787,SLASH_CAA_HELP_SAY_PARTY_HEALTH_VOICE,[%d - %d] - Choose the voice to use when saying party health,1
+57788,SLASH_CAA_SAY_PARTY_HEALTH_VOICE_CHANGED_CONFIRMATION,Combat Audio Alert Say Party Health Voice set to %s,1
+57789,SLASH_CAA_SAY_RESOURCE_1_VOICE,sayresource1voice,1
+57790,SLASH_CAA_SAY_RESOURCE_1_VOICE_NARRATED,say resource 1 voice,1
+57791,SLASH_CAA_HELP_SAY_RESOURCE_1_VOICE,[%d - %d] - Choose the voice to use when saying your first combat resource,1
+57792,SLASH_CAA_SAY_RESOURCE_1_VOICE_CHANGED_CONFIRMATION,Combat Audio Alert Say Resource 1 Voice set to %s,1
+57793,SLASH_CAA_SAY_RESOURCE_2_VOICE,sayresource2voice,1
+57794,SLASH_CAA_SAY_RESOURCE_2_VOICE_NARRATED,say resource 2 voice,1
+57795,SLASH_CAA_HELP_SAY_RESOURCE_2_VOICE,[%d - %d] - Choose the voice to use when saying your second combat resource,1
+57796,SLASH_CAA_SAY_RESOURCE_2_VOICE_CHANGED_CONFIRMATION,Combat Audio Alert Say Resource 2 Voice set to %s,1
+57797,SLASH_CAA_SAY_YOUR_CASTS_VOICE,sayyourcastsvoice,1
+57798,SLASH_CAA_SAY_YOUR_CASTS_VOICE_NARRATED,say your casts voice,1
+57799,SLASH_CAA_HELP_SAY_YOUR_CASTS_VOICE,[%d - %d] - Choose the voice to use to say your casts,1
+57800,SLASH_CAA_SAY_YOUR_CASTS_VOICE_CHANGED_CONFIRMATION,Combat Audio Alert Say Your Casts Voice set to %s,1
+57801,SLASH_CAA_SAY_TARGET_CASTS_VOICE,saytargetcastsvoice,1
+57802,SLASH_CAA_SAY_TARGET_CASTS_VOICE_NARRATED,say target casts voice,1
+57803,SLASH_CAA_HELP_SAY_TARGET_CASTS_VOICE,[%d - %d] - Choose the voice to use to say your target's casts,1
+57804,SLASH_CAA_SAY_TARGET_CASTS_VOICE_CHANGED_CONFIRMATION,Combat Audio Alert Say Targets Casts Voice set to %s,1
+57812,ERR_TRANSMOG_INVALID_ACTION_TRIAL_OF_STYLE,You can't do that while the Trial of Style Scenario is in progress,1
+57813,TRANSMOG_TRIAL_OF_STYLE_HELPTIP,Dress to impress with this special Trial of Style outfit.\n\nUpdating this outfit is free during the Trial of Style event.,1
+57814,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_TOOLTIPS,Tooltips,1
+57815,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_TOOLTIPS_HUD,HUD Tooltip,1
+57816,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_TOOLTIPS_CURSOR,Cursor Tooltip,1
+57817,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_PADDING,Padding,1
+57818,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_BAR_WIDTH,Bar Width,1
+57819,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_TYPE,Type,1
+57820,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_TYPE_TIMELINE,Timeline,1
+57821,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_TYPE_BARS,Bars,1
+57822,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_FLIP_HORIZONTAL,Flip Horizontal,1
+57830,TRANSMOG_SAVE_OUTFIT_CANNOT_AFFORD_TOOLTIP,You can't afford to save outfit changes,1
+57831,TALENT_BUTTON_TOOLTIP_CAPSTONE_RANK_STAGE_FORMAT,(%d): %s,1
+57835,SLASH_CAA_SAY_YOUR_HEALTH_VOLUME,sayyourhealthvolume,1
+57836,SLASH_CAA_SAY_YOUR_HEALTH_VOLUME_NARRATED,Say Your Health Volume,1
+57837,SLASH_CAA_HELP_SAY_YOUR_HEALTH_VOLUME,[%d - %d] - Choose the volume to use when saying your health,1
+57843,SLASH_CAA_SAY_TARGET_HEALTH_VOLUME,saytargethealthvolume,1
+57844,SLASH_CAA_SAY_TARGET_HEALTH_VOLUME_NARRATED,Say Target Health Volume,1
+57845,SLASH_CAA_HELP_SAY_TARGET_HEALTH_VOLUME,[%d - %d] - Choose the volume to use when saying your target's health,1
+57846,SLASH_CAA_SAY_PARTY_HEALTH_VOLUME,saypartyhealthvolume,1
+57847,SLASH_CAA_SAY_PARTY_HEALTH_VOLUME_NARRATED,Say Party Health Volume,1
+57848,SLASH_CAA_HELP_SAY_PARTY_HEALTH_VOLUME,[%d - %d] - Choose the volume to use when saying party health,1
+57849,SLASH_CAA_SAY_RESOURCE_1_VOLUME,sayresource1volume,1
+57850,SLASH_CAA_SAY_RESOURCE_1_VOLUME_NARRATED,Say Resource 1 Volume,1
+57851,SLASH_CAA_HELP_SAY_RESOURCE_1_VOLUME,[%d - %d] - Choose the volume to use when saying your first combat resource,1
+57852,SLASH_CAA_SAY_RESOURCE_2_VOLUME,sayresource2volume,1
+57853,SLASH_CAA_SAY_RESOURCE_2_VOLUME_NARRATED,Say Resource 2 Volume,1
+57854,SLASH_CAA_HELP_SAY_RESOURCE_2_VOLUME,[%d - %d] - Choose the volume to use when saying your second combat resource,1
+57855,SLASH_CAA_SAY_YOUR_CASTS_VOLUME,sayyourcastsvolume,1
+57856,SLASH_CAA_SAY_YOUR_CASTS_VOLUME_NARRATED,Say Your Casts Volume,1
+57857,SLASH_CAA_HELP_SAY_YOUR_CASTS_VOLUME,[%d - %d] - Choose the volume to use to say your casts,1
+57858,SLASH_CAA_SAY_TARGET_CASTS_VOLUME,saytargetcastsvolume,1
+57859,SLASH_CAA_SAY_TARGET_CASTS_VOLUME_NARRATED,Say Target Casts Volume,1
+57860,SLASH_CAA_HELP_SAY_TARGET_CASTS_VOLUME,[%d - %d] - Choose the volume to use to say your target's casts,1
+57871,CAMPAIGN_PROGRESS_CHAPTERS_PERCENT_TOOLTIP,|cffffd200Campaign Progress (%d%%)|r|n|n,1
+57872,CAMPAIGN_PROGRESS_CHAPTERS_PERCENT,Campaign: |cffffd200%d%%|r,1
+57874,VISITABLE_URL65,https://account.battle.net/privacy,3
+57875,DEATH_RECAP_DEADLY_SPELL,Deadly,1
+57876,DEATH_RECAP_AVOIDABLE_SPELL,Avoidable,1
+57877,CATALOG_SHOP_PERSONALIZE_OPT_OUT_TOOLTIP,"If you want to opt out of personalized recommendation, please go to BattleNet Account Settings > Privacy > Personalized Recommendation.",3

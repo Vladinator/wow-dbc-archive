@@ -1175,7 +1175,7 @@ ID,Name,Param[0],Param[1],Param[2],Param[3],Effect,FullScreenEffectID,LightParam
 2202,Test - Ken - Radiant Light,0,0,0,0,8,217,0,0,0,0,0,-1,1,0
 2203,11.0 Endgame - Radiant Chords - Master Phase Aura (MDE),-1170089986,5,0,0,3,0,4978,2000,2000,2823,0,720,13,0
 2204,11.0 Z2 - WQ - Capstone - Boss Room - Color Grading - (HCR),1324578,100,100,1,6,0,4162,3,3,0,0,-1,3,0
-2206,11.0 - Generic - Cosmic Void - JWA,0,0,0,0,8,218,0,0,0,0,0,-1,1,0
+2206,11.0 - Generic - Cosmic Void - JWA (USE 11GFX_VoidCosmic_ScreenEffect_Particles ATTACHED TO CAMERA WITH THIS IN SEPARATE SVK),0,0,0,0,8,218,0,0,0,0,0,-1,1,0
 2207,11.0 Delves - Nerubians - T3 - Fervid Swarm - Screen Effect - KRY,0,0,0,0,8,219,0,0,0,0,0,-1,1,0
 2208,11.0 Dungeon - Airship - Zone - RP Encroaching Shadows (Dark Screen Color Grading),4693144,3000,500,0,6,0,5504,1000,1000,0,0,-1,1,0
 2209,11.0 Dungeon - Airship - Zone - RP Encroaching Shadows (Fullscreen Shadow FX),0,0,0,0,8,118,5504,1000,1000,0,0,-1,1,0
@@ -1221,7 +1221,7 @@ ID,Name,Param[0],Param[1],Param[2],Param[3],Effect,FullScreenEffectID,LightParam
 2264,World - Area Denial - Generic - Sonic,0,0,0,0,8,233,0,0,0,0,0,-1,1,0
 2266,11.0.5 Raid - Blackrock Depths - BOSS 02 - Bael'Gar - Molten Furnace 3. Screen Effect - Molten Furnace Safety,0,0,0,0,8,149,0,100,100,0,0,-1,1,0
 2267,11.2 K'aresh - Treasure - Complex 01 - Flickering Lantern (HCR),7842,5,1,0,3,0,3990,3000,3000,0,0,-1,2,0
-2268,Test - Generic - Test - Screen Effect,0,0,0,4,8,217,0,0,0,0,0,-1,3,0
+2268,Test - Generic - Test - Screen Effect,0,0,0,4,8,217,3518,0,0,0,0,-1,2,0
 2269,11.2 K'aresh - Treasure - Complex 01 - Flickering Lantern - Fog (HCR),-15823944,5,0,1,3,0,1616,3,3,0,0,-1,1,0
 2270,11.0.7 [OWV] Vignette No Ambient Light - IGC,-184549376,8,0,0,3,0,1989,0,0,0,0,-1,-1,0
 2271,11.0.7 [OHG] Cinematic Hallowfall Light - IGC,-184549376,8,0,0,3,0,6575,0,500,0,0,-1,14,0
@@ -1345,3 +1345,17 @@ ID,Name,Param[0],Param[1],Param[2],Param[3],Effect,FullScreenEffectID,LightParam
 2448,12.0 Dungeon - Maisara Caverns - Boss 3 - Door Denial 04 DOT - TJA - Soul,0,0,0,0,8,163,0,0,0,3339,0,-1,5,0
 2449,12.0.0 [DWL] Dawnwell Light Param - IGC,0,0,0,0,0,0,6725,0,0,0,0,-1,2,0
 2451,12.0 Prey - Ambush Alert - Aura (NJS),0,0,0,0,8,180,0,0,0,0,0,-1,1,0
+2452,12.0.0 [SHT] Vignette & Blur Fullscreen - IGC,0,0,0,0,8,259,5567,0,0,0,0,60,1,0
+2453,12.0.0 [SHT] Blackrock Flashback vignette - SJD - IGC,0,0,0,0,8,260,5567,0,0,0,0,60,1,0
+2454,12.0 - Housing - Hearthlight Armillary - Natural Light,0,0,0,0,0,0,7146,1000,1000,0,0,-1,2,0
+2455,12.0 Dungeon - Maisara Caverns - Trash - Basic Caster - Hex 01 Cast - TJA,-178272162,4,0,0,3,0,0,0,0,3363,0,-1,-1,0
+2456,12.0 - Housing - Hearthlight Armillary - Unnatural Dark,1412466,40000,40000,0,6,0,7147,1000,1000,0,0,-1,2,0
+2457,12.0 - Housing - Hearthlight Armillary - Evening Calm,0,0,0,0,0,0,7148,1000,1000,0,0,1110,10,0
+2458,12.0 - Housing - Hearthlight Armillary - Midnight,0,0,0,0,0,0,7149,1000,1000,0,0,-1,2,0
+2459,12.0 Delves - TwilightsBlade01 - V03 - Holy Screen FX,-654776232,5,10,0,3,0,508,2000,1000,3364,0,-1,5,0
+2460,12.0 Dungeon - Maisara Caverns - Trash - Gnarldin - Crush 02 Aura - TJA,0,0,0,0,8,132,0,0,0,3366,0,-1,5,0
+2461,12.0 Dungeon - Maisara Caverns - Trash - Ritualist - Whirlwind 04 Screen Effect - TJA,0,0,0,0,8,118,0,0,0,3367,0,-1,5,0
+2462,12.0 Delves - TwilightsBlade01 - V03 - Shadow Belcher - Standing In Effect,0,0,0,0,8,118,0,0,0,3368,0,-1,5,0
+2465,12.0.0 [SHT] Sepia Color Grading - IGC,7678311,0,0,0,6,0,0,0,0,0,0,-1,1,0
+2466,12.0 Raid - Darkwell - Boss - Naaru - Music - Phase - AD,5708241,200,50,0,2,0,8,500,500,0,0,-1,3,0
+2467,7.0 Legion Invasion - Legion Invasion Skybox - Murder Row,0,0,100,0,3,0,2675,5000,8000,1495,0,-1,6,1
