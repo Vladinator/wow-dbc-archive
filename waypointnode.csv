@@ -1,8 +1,8 @@
 ID,Name_lang,SafeLocID,PlayerConditionID,Flags,Field_8_2_0_30080_005,Field_8_2_0_30080_006,WaypointMapVolumeID
 6,Take the portal from Wizard's Sanctum to Jade Forest,7262,67395,68,1,10,0
 7,"Wizard's Sanctum, Portal to Jade Forest",7263,123820,0,2,0,0
-8,Exit the Wizard's Sanctum,7264,20068,100,0,30,0
-9,Enter the Wizard's Sanctum,7266,924,0,0,0,0
+8,Exit the Wizard's Sanctum,7264,20068,84,0,30,0
+9,Enter the Wizard's Sanctum,7266,924,16,0,0,0
 10,Take the portal from Eastern Earthshrine to Uldum,7267,37426,0,1,0,0
 11,Take the portal from Eastern Earthshrine to Mount Hyjal,7268,37427,0,1,0,0
 12,Take the portal from Eastern Earthshrine to Twilight Highlands,7269,37428,0,1,0,0
@@ -106,7 +106,7 @@ ID,Name_lang,SafeLocID,PlayerConditionID,Flags,Field_8_2_0_30080_005,Field_8_2_0
 112,Take the portal from Western Earthshrine to Tol Barad,7399,123821,0,1,0,0
 113,Tol Barad,7400,123821,0,2,0,0
 114,Take the portal from Hellscream's Grasp to Orgrimmar,7401,123821,0,1,0,0
-115,Take the portal from Pathfinder's Den to Silvermoon City,7402,123821,0,1,0,0
+115,Take the portal from Pathfinder's Den to Silvermoon (Burning Crusade),7402,123821,0,1,0,0
 116,Silvermoon City,7403,123821,0,2,0,0
 117,Take the portal from Sunfury Spire to Orgrimmar,7404,123821,0,1,0,0
 118,Use the Orb of Translocation in Inner Sanctum to travel to Undercity,7405,123821,0,1,0,0
@@ -125,7 +125,7 @@ ID,Name_lang,SafeLocID,PlayerConditionID,Flags,Field_8_2_0_30080_005,Field_8_2_0
 131,Azsuna,7417,20069,0,2,0,0
 132,Take the portal from Pathfinder's Den to Zuldazar,7418,67389,0,1,0,0
 133,"Zuldazar, Hall of Ancient Paths",7419,123821,0,2,0,0
-134,Take the portal from Hall of Ancient Paths to Silvermoon City,7420,123821,0,1,0,0
+134,Take the portal from Hall of Ancient Paths to Silvermoon (Burning Crusade),7420,123821,0,1,0,0
 135,Take the portal from Hall of Ancient Paths to Orgrimmar,7421,74271,0,1,0,0
 136,Take the portal from Hall of Ancient Paths to Thunder Bluff,7422,123821,0,1,0,0
 137,"Thunder Bluff, The Pools of Vision",7423,123821,0,2,0,0
@@ -218,7 +218,7 @@ ID,Name_lang,SafeLocID,PlayerConditionID,Flags,Field_8_2_0_30080_005,Field_8_2_0
 227,Create a portal to Orgrimmar,0,81259,8,1,0,0
 228,Create a portal to Undercity,0,81260,8,1,0,0
 229,Create a portal to Thunder Bluff,0,81261,8,1,0,0
-230,Create a portal to Silvermoon,0,81262,8,1,0,0
+230,Create a portal to Silvermoon (Burning Crusade),0,81262,8,1,0,0
 231,Create a portal to Stonard,0,81263,8,1,0,0
 232,Create a portal to Shattrath,0,81264,8,1,0,0
 233,Create a portal to Shattrath,0,81265,8,1,0,0
@@ -472,6 +472,10 @@ ID,Name_lang,SafeLocID,PlayerConditionID,Flags,Field_8_2_0_30080_005,Field_8_2_0
 491,Exit to Maldraxxus,10539,0,0,2,0,0
 492,Take the portal to K'aresh,10573,0,0,1,0,0
 493,Exitl to Stormsong Valley,10507,0,0,2,0,0
+494,Take the portal from Silvermoon to Voidstorm,10608,138662,0,1,0,0
+495,Exit to Voidstorm,10609,138662,0,2,0,0
+496,Take the portal from Silvermoon to Orgrimmar,10661,147610,0,1,0,0
+497,Take the portal from Silvermoon to Stormwind,10662,147614,0,1,0,0
 498,Ride Mishi to Vol'dun,10680,140637,0,1,0,0
 499,Ride Mishi to Vol'dun,10423,140637,0,1,0,0
 500,Ride Mishi to Drustvar,10681,140637,0,1,0,0
@@ -497,6 +501,12 @@ ID,Name_lang,SafeLocID,PlayerConditionID,Flags,Field_8_2_0_30080_005,Field_8_2_0
 522,Deepholm,10972,40074,16,2,0,0
 523,Take the portal from Dalaran to the Heart of Azeroth,10973,40923,16,1,0,0
 524,Take the portal from the Heart of Azeroth to Dalaran,10974,40074,16,1,0,0
+525,Take the portal from Orgrimmar to Silvermoon,10976,147610,0,1,0,0
+526,Portal to Silvermoon City,10977,147610,0,2,0,0
+527,Portal to Orgrimmar,10978,147610,0,2,0,0
+528,Take the portal from Wizard's Sanctum to Silvermoon,10979,147614,86,1,0,8
+529,Portal to Silvermoon City,10980,147614,20,2,0,9
+530,Portal to Stormwind,10981,147614,0,2,0,0
 531,Take the portal to Dalaran,10984,40847,0,1,0,0
 532,Dalaran,10985,40847,0,2,0,0
 533,Take the portal from Stormwind to Founder's Point,8018,49081,68,1,10,0
@@ -512,3 +522,13 @@ ID,Name_lang,SafeLocID,PlayerConditionID,Flags,Field_8_2_0_30080_005,Field_8_2_0
 544,Skyhold,11008,40922,16,2,0,0
 545,Speak with Aerylia to leap down to Dalaran from Skyhold,11009,37177,16,1,0,0
 546,Dalaran,11010,37177,16,2,0,0
+547,Take the portal from Silvermoon to Harandar,11011,148339,0,1,0,0
+548,Exit to Harandar,11012,148339,0,2,0,0
+549,Take the portal from Harandar to Silvermoon,11038,148339,0,1,0,0
+550,Portal to Silvermoon,11039,148339,0,2,0,0
+551,Take the portal from Voidstorm to Silvermoon,11040,138662,0,1,0,0
+552,Portal to Silvermoon,11041,138662,0,2,0,0
+554,Take the Thalassian Pass portal to Ghostlands,11097,0,0,1,0,0
+555,Exit to Ghostlands,11098,0,0,2,0,0
+556,Take the Thalassian Pass portal to Eastern Plaguelands,11099,0,0,1,0,0
+557,Exit to Eastern Plaguelands,11100,0,0,2,0,0

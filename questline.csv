@@ -1180,7 +1180,7 @@ ID,Name_lang,Description_lang,CompletionPlayerConditionID,Flags,QuestID,PlayerCo
 5569,The Ohn'ahran Plains,,122661,24,0,0,0
 5570,Thaldraszus,,122662,24,0,0,0
 5571,Brotherhood in the Skolzgal Wood,,0,0,0,0,0
-5572,Khaz Algar Emissary,,0,8,0,0,0
+5572,Khaz Algar Emissary,,0,8,0,152383,0
 5573,The Severed Threads,,0,0,0,0,0
 5574,Apart for Purpose,,0,72,0,0,0
 5575,Hallowfall - World Quests/Repeatables,,0,0,0,0,0
@@ -1244,7 +1244,7 @@ ID,Name_lang,Description_lang,CompletionPlayerConditionID,Flags,QuestID,PlayerCo
 5636,Housing NPC Prototype,,0,0,0,0,0
 5637,Hallowfall Fishing Derby,,0,0,0,0,0
 5638,Dalaran Intro,,0,0,0,0,0
-5639,(DNT) Campaign,,0,0,0,0,0
+5639,(DNT) Campaign,,0,8,0,0,0
 5640,(DNT) Legendary,,0,0,0,0,0
 5641,Hard Ways at the Gallagio,,0,72,0,136064,0
 5642,The Perfect Wedding,,0,72,0,136064,0
@@ -1318,6 +1318,18 @@ ID,Name_lang,Description_lang,CompletionPlayerConditionID,Flags,QuestID,PlayerCo
 5716,To Kill a Queen,,0,88,0,0,0
 5717,Desert Power,,0,8,0,0,0
 5718,Lorewalking: Arthas,,0,192,0,0,0
+5719,Whispers in the Twilight,,0,8,0,0,0
+5720,Shadowfall,,0,8,0,0,0
+5721,Ripple Effects,,0,8,0,0,0
+5722,Dis Was Our Land,,0,8,0,0,0
+5723,Path of de Hash'ey,,0,8,0,0,0
+5724,De Amani Never Die,,0,8,0,0,0
+5725,Of Caves and Cradles,,0,8,0,0,0
+5726,Call of the Goddess,Hagar believes that the solution lies in the Rift of Aln... the one place that is forbidden to Haranir.,0,8,0,0,0
+5727,Emergence,,0,8,0,0,0
+5728,Into the Abyss,,144790,8,0,0,0
+5729,The Night's Veil,,0,8,0,0,0
+5730,Dawn of Reckoning,,0,8,0,0,0
 5731,11.1 Delves - Systems,,0,8,0,0,0
 5732,A Song of Secrets,,0,8,0,0,0
 5733,Void Alliance,,0,8,0,0,0
@@ -1334,6 +1346,8 @@ ID,Name_lang,Description_lang,CompletionPlayerConditionID,Flags,QuestID,PlayerCo
 5747,Behind Legion Lines,,32517,8,0,139398,0
 5748,Defending Azurewing Repose,,132566,8,0,0,0
 5749,Azsuna versus Azshara,,132567,8,0,0,0
+5750,The Path of Light,,0,0,0,0,0
+5751,Regrets of the Past,,0,0,0,0,0
 5752,Kirin Tor Reconnaissance,,0,72,0,0,0
 5753,A Rather Long Walk,,0,72,0,0,0
 5754,Against the Giants,,132574,8,0,0,0
@@ -1356,15 +1370,30 @@ ID,Name_lang,Description_lang,CompletionPlayerConditionID,Flags,QuestID,PlayerCo
 5772,Shipping? Handled.,,0,24,0,136064,0
 5775,C.H.E.T.T. Tasks,,0,0,0,0,0
 5776,Trashy Business,,0,24,0,136064,0
+5777,12.0 Prelaunch - WQs,,0,0,0,0,0
+5778,Healing the Spirit,,0,72,0,0,0
 5779,Lil' Lapbugs,,0,24,0,0,0
 5780,The Oasis,,0,24,0,0,0
+5781,Aspiring Academic,,0,72,0,0,0
 5782,Hard Kalroc,,0,24,0,0,0
+5784,The Drinking Debt,,0,72,0,0,0
 5791,Sneks for K'aresh,,0,24,0,0,0
+5792,Foothold,The Vanguard of the Light Musters at the Voidspire,0,8,0,0,0
+5793,The Voidspire,Launch the assault on the Voidspire!,0,8,0,0,0
+5794,Arcantina Reminders,Return to the Arcantina,0,64,0,0,0
+5797,March on Quel'Danas,Drive back the Void from the Darkwell.,0,8,0,0,0
+5798,Dawn of a New Well,Combine the power of the elves to heal the Darkwell.,0,8,0,0,0
 5799,11.0 Upgrade System Tutorial,,0,16,0,0,0
 5803,A Thriving Eco-System,,0,24,0,0,0
+5804,Theft Tracking,,0,72,0,0,0
+5805,Port Detective,,0,72,0,0,0
 5806,Chronicles of Skyhold II,,143524,8,0,0,0
 5807,Chronicles of Skyhold III,,0,8,0,0,0
 5808,Chronicles of Skyhold IV,,0,8,0,0,0
+5809,Diver,,0,0,0,0,0
+5810,Abundance,"Tutorial, Weeklies, and Events",0,0,0,0,0
+5811,The Light's Summons,,0,24,0,0,0
+5812,Lesser Evil,,0,72,0,0,0
 5813,Brandolf,,0,72,0,0,0
 5814,Brytag,,0,72,0,0,0
 5815,Mglrgrs Of Our Grmlgrlr,,0,72,0,0,0
@@ -1392,6 +1421,7 @@ ID,Name_lang,Description_lang,CompletionPlayerConditionID,Flags,QuestID,PlayerCo
 5838,Weapons of Legend,,0,8,0,0,0
 5839,Weapons of Legend,,137037,8,0,0,0
 5840,Weapons of Legend,,0,8,0,0,0
+5841,Saltheril's Haven,,0,0,0,0,0
 5847,The Unseen Path,,0,8,0,0,0
 5848,Watchers in the Wild I,,143665,8,0,0,0
 5849,Watchers in the Wild II,,137174,8,0,0,0
@@ -1443,11 +1473,18 @@ ID,Name_lang,Description_lang,CompletionPlayerConditionID,Flags,QuestID,PlayerCo
 5895,The Four Horsemen III,,0,8,0,0,0
 5896,The Four Horsemen IV,,0,8,0,0,0
 5897,11.0 Delves - AI Companion - Season 3,,0,8,0,0,0
+5898,One Adventurous Hatchling,,0,72,0,0,0
 5899,Legion: Infinitely Different,The intro questline to teach players about Legion Remix,0,8,0,0,0
 5900,Undermine Repeatables,,0,24,0,136064,0
+5901,Sorrowing Kin,,0,72,0,0,0
 5902,Infinite Research,,0,8,0,0,0
 5903,Diving Into Phase Diving,Phase Diving tutorial quests,0,8,0,0,0
+5905,Unlikely Friends,,0,72,0,0,0
 5906,Avoiding the Void,,0,72,0,0,0
+5907,A Goblin in Harandar,,0,72,0,0,0
+5908,Paladin Rescue,,0,72,0,0,0
+5909,Legend of Aln'sharan,,0,8,0,0,0
+5910,The Grudge Pit,,0,72,0,0,0
 5911,Lostlight Grotto,,0,72,0,0,0
 5912,Lunarwing Shallows,,0,72,0,0,0
 5913,Grizzleweald,,0,72,0,0,0
@@ -1466,36 +1503,135 @@ ID,Name_lang,Description_lang,CompletionPlayerConditionID,Flags,QuestID,PlayerCo
 5926,The Blackfeather Ravenbears,,0,72,0,0,0
 5927,"Lock, Stock, and Two Smoking Goblins",,0,72,0,0,0
 5928,Experiments of the Royal Apothecary Society,,0,72,0,0,0
+5929,The Empty Cradle,,0,72,0,0,0
+5930,The Cult Within,,0,24,0,0,0
+5931,Fear and Fel,,0,72,0,0,0
+5932,Trials of the Shul'ka,,0,72,0,0,0
+5933,The Nethersent,The domanaar capture mortals from countless realms for their amusement. Help them return home.,0,72,0,143725,0
 5934,Siege of Arathi Highlands,,0,136,0,0,0
+5935,Late Bloomers,,0,72,0,0,0
+5936,Dance with the Devil,,0,72,0,0,0
+5937,How to Train Your Protegee,,0,72,0,0,0
+5938,Where War Slumbers,,0,8,0,0,0
+5939,Vengeance for Tolbani,,0,72,0,0,0
+5940,Return to the Scouting Map,,0,8,0,0,0
 5941,Ba'eth's Request,Help Ba'eth recover some stolen merchandise.,0,0,0,0,0
 5942,The Legacy of T'uure,A questline encapsulating the connection between Dimensius and T'uure,0,0,0,0,0
+5943,Shadow Puppets,,0,72,0,0,0
+5944,Peril Among Petals,,0,72,0,0,0
+5945,Prey,,0,0,0,0,0
 5947,Rise of the Red Dawn,,0,0,0,0,0
 5948,Rise of the Red Dawn,,0,0,0,0,0
+5949,"Sunbath, Take Me Away",,0,72,0,0,0
+5950,A Venomous History,,0,72,0,0,0
+5951,What Remains of Broken Throne,,0,8,0,141979,0
+5952,The Greenspeaker's Vigil,,0,72,0,0,0
 5953,Untethered Potential,Local story for Phase Diving,0,72,0,0,0
+5954,Prey WQs,,0,0,0,0,0
 5955,The Blue Dragons,,0,24,0,0,0
 5956,The Green Dragons,,0,24,0,0,0
 5957,Zaralek Caverns,,0,0,0,0,0
+5958,Daggerspine Landing,,0,72,0,0,0
 5959,Infinite Epilogues,,142297,72,0,0,0
+5960,Haranir Never Say Die,,0,72,0,0,0
+5961,To Be Changed,,0,72,0,147207,0
+5962,The Nightbreaker,"For those that dwell in darkness, the Voidstorm is a playground.",0,72,0,0,0
+5964,Breaking the Triad,,0,72,0,0,0
 5965,The Emerald Dream,,0,0,0,0,0
+5966,Harandar's Kitchen,,0,72,0,0,0
+5967,Saltheril's Haven,,0,0,0,0,0
 5968,Infinite Power Hypothesis,,0,8,0,0,0
+5969,Far Striding,,0,72,0,0,0
 5970,Priest of the Old Ways,,0,0,0,0,0
+5971,The Voice of Nalorakk,,0,72,0,0,0
 5972,Last Goodbyes,Gossips and Stay Awhiles with the Infinite during the Final Surge/Closing Ceremonies of Remix Legion.,0,72,0,0,0
 5973,Delves - Season 3,,0,0,0,0,0
+5974,The Crimson Rogue,,0,72,0,0,0
+5975,Something Vile This Way Comes,,0,72,0,0,0
 5976,Catch Up: The War Within,,0,136,0,0,0
+5977,Cultivating Hope,,0,72,0,0,0
+5978,Zul'Aman - World Quests/Repeatables,,0,0,0,0,0
+5979,The Darkening Sky,,0,0,0,0,0
+5981,Between Two Trolls,,0,72,0,0,0
+5982,The Arcantina,Questline for the Arcantina Visitors,0,72,0,0,0
+5983,Harandar - World Quests / Repeatables,,0,0,0,0,0
 5984,Decor Tutorials,,0,0,0,0,0
 5985,Siege of Arathi Highlands - Side Quests,,0,128,0,0,0
+5986,Eversong Woods - World Quests/Repeatables,,0,0,0,0,0
+5987,Shadowguard's Shadow,,0,72,0,0,0
+5988,The Loa of Murlocs,,0,72,0,0,0
+5989,Tailor Troubles,,0,72,0,0,0
+5990,12.0 Z3 - Moth Hunt - Group A,,0,0,0,0,0
+5991,12.0 Z3 - Moth Hunt - Group B,,0,0,0,0,0
+5992,12.0 Z3 - Moth Hunt - Group C,,0,0,0,0,0
+5993,Runestone Rumbles,,0,72,0,0,0
+5994,Arcantina Potions,,0,0,0,0,0
+5995,Arcantina Decorations,,0,0,0,0,0
+5996,Rooted In Traditions,Haranir allied race questline.,0,0,0,0,0
+5997,12.0 - Housing - Endeavors - Forbidden Reach - (POC),,0,0,0,0,0
+5998,Moth Hunt,,0,0,0,0,0
+5999,No Fear,This is the container for Local Story 11,0,72,0,0,0
 6000,House Purchase Tutorial,,0,0,0,0,0
+6001,A More Potent Foe,This Questline contains the story of Leona Darkstrider becoming the first Devourer Demon Hunter,0,72,0,0,0
+6004,12.0 Testing - RPE - Delete Me - (STM),,0,0,0,0,0
 6006,Catch Up: War Within: Wrapper 3,,0,128,0,0,0
 6007,Catch Up: War Within: Wrapper 1,,0,128,0,0,0
 6008,Catch Up: War Within: Wrapper 2,,0,128,0,0,0
 6009,Catch Up: War Within: Wrapper 4,,0,128,0,0,0
+6010,The Void Peers Back,Two locus researchers investigate the relationship between the Void and the wildlife that inhabit the Voidstorm.,0,72,0,145553,0
+6011,Reclaiming De Honor,The player accompanies Lilaju to the overrun Revantusk Village in order to recover keepsakes belonging to her dear mentor.,0,72,0,140165,0
+6012,A Domanaar's Best Friend,A Domanaar seeks assistance raising the most fearsome beast in the Voidstorm.,0,72,0,0,0
+6013,A Voice Inside,An unusually passive voidwalker claims to hear voices of missing Void Elves and seeks to help locate them.,0,72,0,0,0
+6014,Oaths to Family,"An ethereal has tracked his missing sister to the Voidstorm. He believes her lost to the shadow, but wishes to recover a family heirloom in her posession.",0,72,0,0,0
+6015,Legends Relics,,0,0,0,0,0
+6017,Written by the Winners,,0,64,0,0,0
+6018,Blinding Sun,,0,72,0,0,0
+6019,"A Gift, Given Freely",,0,72,0,0,0
+6020,Flowers for Amalthea,,0,72,0,0,0
 6021,Dragon Isles City Intro Quests,Used for NPE / RPE completion,0,24,0,0,0
+6022,"Go Low, Go Loud",,0,72,0,0,0
 6024,Welcome to the Waking Shore,,0,8,0,0,0
 6025,Welcome to the Waking Shore,,0,8,0,0,0
 6027,The War Within,,0,0,0,0,0
+6028,Pathogenic Problem,,0,72,0,0,0
+6029,[PH],,0,72,0,0,0
+6030,Scootin' Through Silvermoon,,0,72,0,0,0
+6032,Spot Light,,0,72,0,0,0
+6035,Prey,,0,0,0,0,0
+6036,The Silence at Fungara Village,,0,72,0,0,0
+6038,A Palette of Feelings,,0,72,0,0,0
+6039,Hunter's Rite,,0,72,0,0,0
+6040,Predator Reintroduction,,0,72,0,0,0
+6041,Astalor's Temptations,Astalor performs arcane experiments using anguish. He hopes to accumulate power by claiming this new-found energy source for himself.,0,8,0,0,0
+6042,Bitter Honor,,0,72,0,0,0
+6043,Rage of the Ren'dorei,,0,8,0,0,0
+6044,Beyond the Walls,,0,64,0,0,0
+6045,River-Walkers of the Prowl,,0,72,0,0,0
+6046,12.0 Delves - Systems,,0,0,0,0,0
+6048,Sawdust to Sawdust,,0,72,0,0,0
+6051,Delver's Call - Midnight,,0,0,0,0,0
+6052,Bloodstains,,0,64,0,0,0
 6053,Housing - Player Reactions,,0,0,0,0,0
+6054,Voidstorm - World Quests/Repeatables,,0,0,0,0,0
+6055,The Sound of Her Voice,,0,72,0,0,0
 6057,Allied Race Display,,0,8,0,148525,0
 6058,Allied Race Display,,0,8,0,148527,0
+6059,Void Elf Demon Hunter Quests,,0,0,0,0,0
+6060,Mechagon Intro,,0,0,0,0,0
+6061,Mechagon Intro,,0,0,0,0,0
+6062,Mechagon Intro - On Island,,0,0,0,0,0
 6063,House Purchase Tutorial - Just First,,0,0,0,0,0
+6115,Renown of Midnight,,0,24,0,0,0
+6116,Winterfin Retreat,,0,0,0,0,0
 6117,House Purchase Tutorial - Just Last,,0,0,0,0,0
+6119,Item Upgrade Tutorial,,0,0,0,0,0
+6120,Pet Wranglin',,0,72,0,0,0
+6122,12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Founders Point - (POC),Holds founders Point Snail Mail Lists,0,0,0,0,0
+6124,12.0 - Endeavor - Niffen - Deliver Mail - Cleanup - Razorwind - (POC),Holds founders Point Snail Mail Lists,0,0,0,0,0
 6125,Welcome to the Waking Shore,,0,8,0,0,0
+6128,A Fiery Blast from the Past,,0,0,0,0,0
+6130,Eversong Intro,,0,0,0,0,0
+6131,Midnight Scouting Map,,0,0,0,0,0
+6179,TEST - Testing Criteria Tree Quest Clear,,0,0,0,0,0
+6213,Welcome to the Waking Shore,,0,0,0,0,0
+6214,Welcome to the Waking Shore,,0,0,0,0,0
