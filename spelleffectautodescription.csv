@@ -109,7 +109,7 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 129,Inflicts Fire damage to all enemies in front of the caster.,,31,0,1,9,4,50,50
 130,Causes the caster to inflict $s@effectindex% increased damage.,Damage done increased by $s@effectindex%.,6,79,1,1,127,30,30
 131,Reduces an enemy's armor by $s@effectindex% for $d.,Armor reduced by $s@effectindex%.,6,101,2,3,1,0,0
-132,Inflicts Physical damage to all enemies within $A@effectindex yards.,,165,0,1,7,1,50,50
+132,Inflicts $s@effectindex% of maximum health as Physical damage to enemies within $A@effectindex yards.,,165,0,1,7,1,50,50
 136,Inflicts $s@effectindex Shadow damage to all enemies in front of the caster.,,2,0,1,9,32,50,50
 137,Inflicts $s@effectindex Physical damage to all enemies in front of the caster.,,2,0,1,9,1,50,50
 138,Inflicts $s@effectindex Fire damage to all enemies in front of the caster.,,2,0,1,9,4,50,50
@@ -150,8 +150,8 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 175,Causes an enemy to inflict $s@effectindex% reduced damage for $d.,Damage done reduced by $s@effectindex%.,6,79,2,3,127,20,20
 176,"Drains health from the target every $t@effectindex sec, trasferring it to the caster.",Drains health every $t@effectindex sec.,6,53,1,3,0,0,0
 177,Reduces the healing received of all enemies in a cone in front of the caster by $s@effectindex% for $d.,Healing received reduced by $s@effectindex%.,6,118,2,9,127,0,0
-178,Inflicts Shadow damage to all enemies in a cone in front of the caster.,,165,0,1,9,32,50,50
-179,Inflicts Nature damage to all enemies within $A@effectindex yards.,,165,0,1,7,8,50,50
+178,Inflicts $s@effectindex% of maximum health as Shadow damage to all enemies in a cone in front of the caster.,,165,0,1,9,32,50,50
+179,Inflicts $s@effectindex% of maximum health as Nature damage to enemies within $A@effectindex yards.,,165,0,1,7,8,50,50
 180,"Silences all enemies within $A@effectindex yards, preventing them from casting spells for $d.",Unable to cast spells.,6,27,0,7,0,0,0
 181,Causes the caster to take $s@effectindex% reduced damage for $d.,Damage taken reduced by $s@effectindex%.,6,87,2,1,127,0,0
 182,Teleports to a location.,,252,0,0,1,0,0,0
@@ -174,7 +174,7 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 299,Causes all enemies within $A@effectindex yards to inflict $s@effectindex% increased damage for $d.,Damage done increased by $s@effectindex%.,6,79,1,7,127,30,30
 300,Causes an enemy to inflict $s@effectindex% increased damage for $d.,Damage done increased by $s@effectindex%.,6,79,1,3,127,30,30
 301,Inflicts Spellstrike damage to an enemy.,,31,0,1,3,65,50,50
-302,Inflicts Fire damage to enemies within $A@effectindex yards of the impact.,,165,0,1,5,4,50,50
+302,Inflicts $s@effectindex% of maximum health as Fire damage to enemies within $A@effectindex yards of the impact.,,165,0,1,5,4,50,50
 303,Causes all enemies within $A@effectindex yards of the impact to take Fire damage every $t@effectindex sec for $d.,Fire damage inflicted every $t@effectindex sec.,6,70,1,5,4,50,50
 304,Reduces the movement speed of the target by $s@effectindex% for $d.,Movement speed reduced by $s@effectindex%.,6,33,2,3,0,0,0
 305,Heals the caster and all allies within $A@effectindex yards for $s@effectindex% of maximum health every $t@effectindex sec for $d.,Heals $s@effectindex% of maximum health every $t@effectindex sec.,6,20,1,4,0,0,0
@@ -280,12 +280,12 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 424,Reduces the attack speed of all enemies within $A@effectindex yards of the caster by $s@effectindex% for $d.,Attack speed reduced by $s@effectindex%.,6,138,2,7,0,0,0
 425,Reduces the attack speed of all enemies in front of the caster by $s@effectindex% for $d.,Attack speed reduced by $s@effectindex%.,6,138,2,9,0,0,0
 426,Reduces the attack speed of the target by $s@effectindex% for $d.,Attack speed reduced by $s@effectindex%.,6,138,2,3,0,0,0
-427,Inflicts Arcane damage to all enemies in a cone in front of the caster.,,165,0,1,9,64,50,50
-428,Inflicts Frost damage to all enemies in a cone in front of the caster.,,165,0,1,9,16,50,50
-429,Inflicts Nature damage to all enemies in a cone in front of the caster.,,165,0,1,9,8,50,50
-430,Inflicts Fire damage to all enemies in a cone in front of the caster.,,165,0,1,9,4,50,50
-431,Inflicts Holy damage to all enemies in a cone in front of the caster.,,165,0,1,9,2,50,50
-432,Inflicts Physical damage to all enemies in a cone in front of the caster.,,165,0,1,9,1,50,50
+427,Inflicts $s@effectindex% of maximum health as Arcane damage to all enemies in a cone in front of the caster.,,165,0,1,9,64,50,50
+428,Inflicts $s@effectindex% of maximum health as Frost damage to all enemies in a cone in front of the caster.,,165,0,1,9,16,50,50
+429,Inflicts $s@effectindex% of maximum health as Nature damage to all enemies in a cone in front of the caster.,,165,0,1,9,8,50,50
+430,Inflicts $s@effectindex% of maximum health as Fire damage to all enemies in a cone in front of the caster.,,165,0,1,9,4,50,50
+431,Inflicts $s@effectindex% of maximum health as Holy damage to all enemies in a cone in front of the caster.,,165,0,1,9,2,50,50
+432,Inflicts $s@effectindex% of maximum health as Physical damage to all enemies in a cone in front of the caster.,,165,0,1,9,1,50,50
 435,Inflicts $s@effectindex Shadowflame damage to enemies within $A@effectindex yards.,,2,0,1,7,36,50,50
 436,Inflicts $s@effectindex Shadowflame damage to enemies within $A@effectindex yards of the impact.,,2,0,1,5,36,50,50
 437,Inflicts $s@effectindex Shadowflame damage to an enemy.,,2,0,1,3,36,50,50
@@ -399,8 +399,8 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 555,Pacifies an enemy preventing attacks for $d.,Unable to attack.,6,25,0,1,0,30,0
 556,Silences and pacifies an enemy preventing attacking and spellcasting for $d.,Unable to attack or cast spells.,6,60,0,1,0,30,0
 557,Inflicts $s@effectindex Shadowflame damage to an enemy.,,2,0,1,1,36,50,50
-558,Inflicts Shadowflame damage to all enemies in a cone in front of the caster.,,165,0,1,9,36,50,50
-559,Inflicts Shadowflame damage to enemies within $A@effectindex yards of the impact.,,165,0,1,5,36,50,50
+558,Inflicts $s@effectindex% of maximum health as Shadowflame damage to all enemies in a cone in front of the caster.,,165,0,1,9,36,50,50
+559,Inflicts $s@effectindex% of maximum health as Shadowflame damage to enemies within $A@effectindex yards of the impact.,,165,0,1,5,36,50,50
 560,Inflicts Shadowflame damage to all enemies in front of the caster.,,31,0,1,9,36,50,50
 561,Inflicts Shadowflame damage to all enemies within $A@effectindex yards.,,31,0,1,7,36,50,50
 562,Inflicts Shadowflame damage to all enemies within $A@effectindex yards of the impact.,,31,0,1,5,36,50,50
@@ -419,14 +419,14 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 575,Inflicts Shadowflame damage to an enemy every $t@effectindex sec for $d.,Shadowflame damage inflicted every $t@effectindex sec.,6,70,1,1,36,50,50
 576,Surrounds the target with a shield that lasts $d and can absorb up to $s@effectindex Shadowflame damage.,Absorbs $s@effectindex Shadowflame damage.,6,69,1,3,36,0,0
 577,Surrounds the caster with a shield that lasts $d and can absorb up to $s@effectindex Shadowflame damage.,Absorbs $s@effectindex Shadowflame damage.,6,69,1,1,36,0,0
-578,Inflicts Frost damage to enemies within $A@effectindex yards of the impact.,,165,0,1,5,16,50,50
+578,Inflicts $s@effectindex% of maximum health as Frost damage to enemies within $A@effectindex yards of the impact.,,165,0,1,5,16,50,50
 579,Inflicts $s@effectindex Cosmic damage to all enemies in front of the caster.,,2,0,1,9,106,50,50
 580,Inflicts $s@effectindex Cosmic damage to enemies within $A@effectindex yards.,,2,0,1,7,106,50,50
 581,Inflicts $s@effectindex Cosmic damage to enemies within $A@effectindex yards of the impact.,,2,0,1,5,106,50,50
 582,Inflicts $s@effectindex Cosmic damage to an enemy.,,2,0,1,3,106,50,50
 583,Inflicts $s@effectindex Cosmic damage to an enemy.,,2,0,1,1,106,50,50
-584,Inflicts Cosmic damage to all enemies in a cone in front of the caster.,,165,0,1,9,106,50,50
-585,Inflicts Cosmic damage to enemies within $A@effectindex yards of the impact.,,165,0,1,5,106,50,50
+584,Inflicts $s@effectindex% of maximum health as Cosmic damage to all enemies in a cone in front of the caster.,,165,0,1,9,106,50,50
+585,Inflicts $s@effectindex% of maximum health as Cosmic damage to enemies within $A@effectindex yards of the impact.,,165,0,1,5,106,50,50
 586,Inflicts Cosmic damage to all enemies in front of the caster.,,31,0,1,9,106,50,50
 587,Inflicts Cosmic damage to all enemies within $A@effectindex yards.,,31,0,1,7,106,50,50
 588,Inflicts Cosmic damage to all enemies within $A@effectindex yards of the impact.,,31,0,1,5,106,50,50
@@ -445,7 +445,7 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 601,Inflicts Cosmic damage to an enemy every $t@effectindex sec for $d.,Cosmic damage inflicted every $t@effectindex sec.,6,70,1,1,106,50,50
 602,Surrounds the target with a shield that lasts $d and can absorb up to $s@effectindex Cosmic damage.,Absorbs $s@effectindex Cosmic damage.,6,69,1,3,106,0,0
 603,Surrounds the caster with a shield that lasts $d and can absorb up to $s@effectindex Cosmic damage.,Absorbs $s@effectindex Cosmic damage.,6,69,1,1,106,0,0
-604,Inflicts Shadow damage to enemies within $A@effectindex yards of the impact.,,165,0,1,5,32,50,50
+604,Inflicts $s@effectindex% of maximum health as Shadow damage to enemies within $A@effectindex yards of the impact.,,165,0,1,5,32,50,50
 605,Inflicts Shadow damage to an enemy every $t@effectindex sec for $d.,Shadow damage inflicted every $t@effectindex sec.,6,70,1,1,32,50,50
 609,Causes all allies within $A@effectindex yards to inflict $s@effectindex% increased Physical damage.,Physical damage done increased by $s@effectindex%.,6,79,1,6,1,30,30
 610,Causes all allies within $A@effectindex yards to inflict $s@effectindex% increased Holy damage.,Holy damage done increased by $s@effectindex%.,6,79,1,6,2,30,30
@@ -456,3 +456,14 @@ ID,EffectDescription_lang,AuraDescription_lang,SpellEffectType,AuraEffectType,Po
 615,Causes all allies within $A@effectindex yards to inflict $s@effectindex% increased Arcane damage.,Arcane damage done increased by $s@effectindex%.,6,79,1,6,64,30,30
 616,Interrupts spellcasting of an enemy for $d.,,68,0,1,3,8,30,0
 618,Interrupts spellcasting of an enemy for $d.,,68,0,0,3,0,30,0
+619,Inflicts $s@effectindex% of maximum health as Spellshadow damage to enemies within $A@effectindex yards.,,165,0,1,7,96,50,50
+621,Inflicts $s@effectindex% of maximum health as Holy damage to enemies within $A@effectindex yards.,,165,0,1,7,2,50,50
+622,Inflicts $s@effectindex% of maximum health as Fire damage to enemies within $A@effectindex yards.,,165,0,1,7,4,50,50
+623,Inflicts $s@effectindex% of maximum health as Frost damage to enemies within $A@effectindex yards.,,165,0,1,7,16,50,50
+624,Inflicts $s@effectindex% of maximum health as Shadow damage to enemies within $A@effectindex yards.,,165,0,1,7,32,50,50
+625,Inflicts $s@effectindex% of maximum health as Arcane damage to enemies within $A@effectindex yards.,,165,0,1,7,64,50,50
+626,Inflicts $s@effectindex% of maximum health as Cosmic damage to enemies within $A@effectindex yards.,,165,0,1,7,106,50,50
+627,Inflicts $s@effectindex% of maximum health as Holy damage to enemies within $A@effectindex yards of the impact.,,165,0,1,5,2,50,50
+628,Inflicts $s@effectindex% of maximum health as Nature damage to enemies within $A@effectindex yards of the impact.,,165,0,1,5,8,50,50
+629,Inflicts $s@effectindex% of maximum health as Physical damage to enemies within $A@effectindex yards of the impact.,,165,0,1,5,1,50,50
+630,Inflicts $s@effectindex% of maximum health as Arcane damage to enemies within $A@effectindex yards of the impact.,,165,0,1,5,64,50,50

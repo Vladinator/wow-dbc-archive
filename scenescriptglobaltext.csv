@@ -719,6 +719,10 @@ function MovePoint:Default()
 		yaw = 0.0;
 		pitch = 0.0;
 		roll = 0.0;
+		easeInFunction = 0;
+		easeInCurveID = 0;
+		easeOutFunction = 0;
+		easeOutCurveID = 0;
 	}
 	setmetatable(p, self.__meta)
 	return p
@@ -764,12 +768,7 @@ function Actor:HoldYawPitchRoll(yaw, pitch, roll, holdTime, blendInTime, blendOu
 		holdYawPitchRollMoveData.posControl = MovePosControl.PointTime
 		holdYawPitchRollMoveData.yawControl = MoveRotControl.Angle
 		holdYawPitchRollMoveData.pitchControl = MoveRotControl.Angle
-		holdYawPitchRollMoveData.rollControl = MoveRotControl.Angle
-		holdYawPitchRollMoveData.noDefaultAnimation = true
-	end
-
-	-- defaults
-	yaw "
+		holdYawPitchRollMoveData.rollControl = "
 62,Global Functions - Actor Animation,"--
 -- Actor Anim Kit Data
 -- These Scripts have been added to SVN, if you make a change here, update it
@@ -1999,7 +1998,12 @@ RightClickListenerCoroutine = function(listenerID)
 		scene:Wait(timer)
 	end
 end"
-10388,[1] Global Functions - Actor Movement,"= yaw or 0
+10388,[1] Global Functions - Actor Movement,"MoveRotControl.Angle
+		holdYawPitchRollMoveData.noDefaultAnimation = true
+	end
+
+	-- defaults
+	yaw = yaw or 0
 	pitch = pitch or 0
 	roll = roll or 0
 	blendInTime = blendInTime or 0
@@ -2036,8 +2040,7 @@ end"
 	end
 
 	self:Move(holdYawPitchRollMoveData)
-end
-"
+end"
 10435,Global Constants - Attachments,"--
 -- Attachments
 -- These Scripts have been added to SVN, if you make a change here, update it
@@ -2541,6 +2544,7 @@ end"
 		timelineHandleName = """",
 		fadeRegionSettings = ActorFadeRegionSettings:Default(),
 		alwaysAnimating = false,
+		showItemVisual = false,
 	}
 	setmetatable(c, self.__meta)
 	return c
