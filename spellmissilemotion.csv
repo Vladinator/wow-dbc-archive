@@ -29696,3 +29696,23 @@ colorG = 0.6
 colorB = 1.0
 colorA = 1.0
 ",0,1
+5057,"Parabola (Fixed Height - 40-45 yards, Pitch Spin)","local function parabola(m,a,b) return (4*(m or 1)*((1-progress)*(a or 1))*((progress)*(b or 1))) end
+
+local height = 40
+local variance = 5
+height = height + (rand1 * variance)
+local degreesPerSec = 45
+
+transUp = parabola(height)
+modelPitch = time * degreesPerSec",0,1
+5059,"Parabola (Fixed Height - 1-2 yards, Fast Out) - KRY","local function parabola(a,b,m) return (4*m*((1-progress)*a)*((progress)*b)) end
+
+local height = 1
+local variance = 2
+height = height + (rand1 * variance)
+
+transUp = parabola(1,1,height)
+
+local factor = 2
+transFront = math.pow(progress,factor) * distanceToFirePos
+transFront = transFront - distanceToFirePos",0,1

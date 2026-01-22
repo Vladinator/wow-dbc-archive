@@ -27072,7 +27072,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 37077,,37076,1,0,24990,0,2
 37078,Kill Teron'gor - Auchindoun,0,0,4,0,0,0
 37079,,37078,1,0,26166,0,2
-37080,Kill Teron'gor - Heroic Auchindoun,0,0,4,0,0,0
+37080,Kill Teron'gor - Heroic Auchindoun,0,1,8,0,0,0
 37081,,37080,1,0,26592,0,2
 37082,Kill Thunderlord General - Train Dungeon,0,0,4,0,0,0
 37083,,37082,1,0,24993,0,2
@@ -109988,7 +109988,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 216366,,216365,1,0,108852,0,0
 216367,3.0 Dungeon - Pit of Saron (Challenge),0,0,4,0,0,0
 216368,Scourgelord Tyrannus defeated,216367,1,0,109136,3,0
-216369,Enemy Forces,216367,635,9,0,4,0
+216369,Enemy Forces,216367,627,9,0,4,0
 216370,,216369,15,0,108853,3,0
 216371,12.0 Dungeon - Windrunner Spire (Challenge),0,0,4,0,0,0
 216372,Emberdawn defeated,216371,1,0,70007,0,0
@@ -110106,7 +110106,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 216484,Magisters' Terrace,216478,1,0,108904,5,0
 216485,Nexus-Point Xenas,216478,1,0,108905,6,0
 216486,Maisara Caverns,216478,1,0,108906,7,0
-216487,Loot 20 bounties from slain players in Midnight while in Warmode.,0,0,4,0,0,0
+216487,Loot 20 bounties from slain players in Midnight while in Warmode.,0,20,5,0,0,1
 216488,Bounties looted in Midnight,216487,20,0,108907,0,1
 216489,Midnight Season 1 Resilient Keystone 16,0,0,4,0,0,0
 216490,Seat of the Triumvirate,216489,1,0,108908,0,0
@@ -110463,7 +110463,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 216868,12.0 Delves - DevouringHost02 - V01 - Kill Stuff (MDE),0,0,4,0,0,0
 216869,Devouring Host slain,216870,5,0,62703,0,1
 216870,Devouring Host slain,216868,180,9,0,0,0
-216871,Energized Cores collected,219221,50,0,109157,1,0
+216871,Energized Cores collected,219221,50,0,109157,0,0
 216872,Neighborhood Quests completed,0,6,4,0,0,0
 216873,Neighborhood Quests completed,216872,4,0,109148,0,1
 216874,12.0 Delves - DevouringHost02 - V01 - Kill Boss (MDE),0,0,4,0,0,0
@@ -111747,7 +111747,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 219219,Unnamed Branch,216868,1,8,0,1,0
 219220,Unnamed Branch,219219,0,4,0,0,0
 219221,Unnamed Branch,219219,0,4,0,1,0
-219222,Energized Cores collected,219221,50,0,109157,0,2
+219222,Energized Cores collected,219220,50,0,109157,2,2
 219223,12.0 Z4 - WQ - Simple 12 - Fallow Altars Empowered (HCR),0,0,4,0,0,4096
 219224,,219223,1,0,110124,0,0
 219225,,219060,0,0,110125,12,0
@@ -111774,8 +111774,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 219249,,219060,0,0,110147,14,0
 219251,,219060,0,0,110148,15,0
 219252,,219060,0,0,110149,16,0
-219253,,219060,0,0,110150,17,0
-219254,,219060,0,0,110151,18,0
+219253,,219060,0,0,110150,18,0
+219254,,219060,0,0,110151,19,0
 219259,12.0 Delve - DecouringHost02 - V02 (MDE) - Use Grapple,0,0,4,0,0,0
 219260,Singularity Coils Recovered,219259,5,0,109251,0,0
 219261,Gravitational Pull to a Micro Singularity,219259,1,0,110154,1,0
@@ -111785,7 +111785,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 219265,,219264,25,0,111349,0,0
 219266,12.0 Delves - Rutani01 - V2 - Talk with Intro NPC,0,0,4,0,0,0
 219267,Speak with Intro NPC,219266,10,4,0,0,0
-219268,Speak with Ashayo,219267,0,0,110159,0,0
+219268,Speak with Ashayo,219267,0,0,111078,0,0
 219269,"12.0 Delves - Rutaani01 - V2 - Run Over Hazards, Kill Enemies",0,0,4,0,0,0
 219270,Sprouting Lightbloom growths eaten,219269,100,0,110160,0,0
 219271,Lightbloom invaders slain,219269,400,9,0,1,32
@@ -111799,7 +111799,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 219289,Complete the Harandar Campaign,219288,0,0,103889,0,16
 219290,12.0 Delves - Rutani01 - V3 - Talk with Intro NPC,0,0,4,0,0,0
 219291,Speak with Intro NPC,219290,10,4,0,0,0
-219292,Speak with Ashayo,219291,0,0,110159,0,0
+219292,Speak with Ashayo,219291,0,0,111078,0,0
 219293,"12.0 Delves - Rutaani01 - V3 - Spore Bombs, Kill Enemies",0,0,4,0,0,0
 219294,Lightbloom Sporasaur slain,219293,3,0,110329,0,0
 219295,Lightbloom invaders slain,219293,200,9,0,1,32
@@ -112034,8 +112034,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 219568,"Ethereum Refinery, Voidstorm",219561,0,0,110378,6,16
 219569,"Master's Perch, Voidstorm",219561,0,0,110379,7,16
 219570,"Obscurion Citadel, Voidstorm",219561,0,0,110380,8,16
-219571,"Shadowguard Point, Voidstorm",219561,0,0,110381,9,0
-219572,"The Gorging Pit, Voidstorm",219561,0,0,110382,10,0
+219571,"Shadowguard Point, Voidstorm",219561,0,0,110381,9,16
+219572,"The Gorging Pit, Voidstorm",219561,0,0,110382,10,16
 219573,Achievement - Midnight Glyph Hunter,0,0,4,0,0,0
 219574,Eversong Woods,219573,0,0,110383,0,0
 219575,Zul'aman,219573,0,0,110384,1,0
@@ -113034,7 +113034,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 220812,"Silverglade Refuge, Eversong Woods",220809,0,0,111117,2,0
 220813,"Tranquillen, Eversong Woods",220809,0,0,111118,3,0
 220814,"Terrace of the Sun, Isle of Quel'Danas",220809,0,0,111119,4,0
-220815,"Aman'Zar Village, Zul'Aman",220809,0,0,111120,5,0
+220815,"Amani'Zar Village, Zul'Aman",220809,0,0,111120,5,0
 220816,"Atal'Aman, Zul'Aman",220809,0,0,111121,6,0
 220817,"Shadebasin Watch, Zul'Aman",220809,0,0,111122,7,0
 220818,"Torntusk Overlook, Zul'Aman",220809,0,0,111123,8,0
@@ -113300,7 +113300,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 221164,Pet Battle World Quest defeated with at least 1 elemental pet,0,1,8,0,0,8193
 221165,To a Land Down Under,221164,1,0,111345,0,0
 221170,12.0 K'aresh - Void Elf DH - Q03 - Completed Questline (JCS),0,0,4,0,0,0
-221171,Void Elf Demon Hunter Unlocked,221170,1,0,111347,0,2
+221171,Complete the Rage of the Ren'dorei storyline,221170,1,0,111347,0,2
 221174,Loamm Niffen reputation earned,0,1500,5,0,0,8193
 221175,,221174,1,0,111351,0,0
 221176,,221174,1,0,111352,1,0
@@ -113324,6 +113324,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 221202,Lithiel Cinderfury defeated,0,0,4,0,0,4096
 221203,Lithiel Cinderfury defeated,221202,0,0,111366,0,0
 221204,Degentrius defeated,0,0,4,0,0,4096
+221205,,221204,0,0,112951,0,0
 221206,,217671,0,0,111368,4,32
 221207,"Rak'tul, Vessel of Souls defeated",0,0,4,0,0,4096
 221208,,221207,0,0,111369,0,0
@@ -113808,6 +113809,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 222105,12.0 Delve - Torment's Rise - Defeat Boss,0,0,4,0,0,0
 222106,Nullaeus defeated,222105,1,0,111894,0,2080
 222107,The Deadliest of Prey (NJS)(KNF),0,0,4,0,0,0
+222108,Now It's A Party (NJS)(KNF),0,0,4,0,0,1
 222109,I'm Good At What I Do (NJS)(KNF),0,0,4,0,0,0
 222110,I'm Not Trapped In Here With You (NJS)(KNF),0,0,4,0,0,0
 222111,You're Trapped In Here With Me (NJS)(KNF),0,0,4,0,0,0
@@ -114018,14 +114020,14 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 222334,12.0 Delves - TwilightsBlade03 - Technician's Spectacles Acquired,0,0,4,0,0,0
 222335,,222334,0,0,111862,0,0
 222339,Sway of Red and Gold,222267,1,0,111993,0,0
-222340,Participate in 3 Battlegrounds,0,0,4,0,0,4096
-222341,,222340,3,0,111994,0,0
-222342,Participate in 3 Battlegrounds,0,0,4,0,0,4096
-222343,,222342,3,0,111995,0,0
-222344,Participate in 3 Battlegrounds,0,0,4,0,0,4096
-222345,,222344,3,0,111996,0,0
-222346,Participate in 3 Battlegrounds,0,0,4,0,0,4096
-222347,,222346,3,0,111997,0,0
+222340,Participate in 3 Battlegrounds,0,3,5,0,0,6144
+222341,,222340,1,0,111994,0,0
+222342,Participate in 3 Battlegrounds,0,3,5,0,0,6144
+222343,,222342,1,0,111995,0,0
+222344,Participate in 3 Battlegrounds,0,3,5,0,0,6144
+222345,,222344,1,0,111996,0,0
+222346,Participate in 3 Battlegrounds,0,3,5,0,0,6144
+222347,,222346,1,0,111997,0,0
 222348,Midnight Diplomat,0,0,4,0,0,0
 222349,renown with Silvermoon Court,222348,20,0,111998,0,2048
 222350,renown with Amani Tribe,222348,20,0,111999,1,2048
@@ -114075,11 +114077,11 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 222398,12.0 z2 - Achievement - Dolly - Collector (ZCS),0,0,4,0,0,0
 222399,Chu'ke found,222398,0,0,112038,0,0
 222400,12.0 z2 - Achievement - Gnome - Collector (ZCS),0,0,4,0,0,0
-222401,Diary Page found,222400,0,0,112844,3,0
+222401,Moldy Diary Found,222400,0,0,112844,3,0
 222402,12.0 z2 - Achievement - Frogs - Collector (ZCS),0,0,4,0,0,0
 222403,Princess Fita,222402,0,0,112041,0,0
 222404,12.0 z2 - Achievement - Spiritpaw - Collector (ZCS),0,0,4,0,0,0
-222405,,222404,0,0,112042,0,0
+222405,Spiritpaw Runner found,222404,0,0,112042,0,0
 222406,"Defeat every Midnight delve in on Tier 11 or higher with lives remaining as a Damage Dealer, Healer, and Tank.",0,0,4,0,0,0
 222407,,222406,0,0,112043,0,32
 222408,,222406,0,0,112044,1,32
@@ -114156,13 +114158,12 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 222483,Altar of Blessings: The Penitent Troll,0,0,4,0,0,0
 222484,"Kulzi, Loa of Medicine",222483,1,0,112097,0,0
 222485,"Filo, Loa of Childhood",222483,1,0,112098,1,0
-222486,"Mot'amra, Loa of Pestilence",222483,1,0,112100,3,0
-222487,"Wila'ma, Loa of Travelers",222483,1,0,112101,4,0
-222488,"Shadra, Loa of Subterfuge",222483,1,0,112102,5,0
-222489,"Dundun, Loa of Abundance",222483,1,0,112103,6,0
-222490,"Puul, Loa of Peril",222483,1,0,112104,7,0
-222491,"Oe, Loa of Growth",222483,1,0,112105,8,0
-222492,"Pahk, Loa of the Depths",222483,1,0,112099,2,0
+222486,"Mot'amra, Loa of Pestilence",222483,1,0,112100,2,0
+222487,"Wila'ma, Loa of Travelers",222483,1,0,112101,3,0
+222488,"Shadra, Loa of Subterfuge",222483,1,0,112102,4,0
+222489,"Dundun, Loa of Abundance",222483,1,0,112103,5,0
+222490,"Puul, Loa of Peril",222483,1,0,112104,6,0
+222491,"Oe, Loa of Growth",222483,1,0,112105,7,0
 222493,Altar of Blessings: Sacred Buffet Devotee,0,0,4,0,0,0
 222494,,222493,1,0,112106,0,48
 222496,,222493,1,0,112108,1,48
@@ -114367,7 +114368,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 222779,Complete Nexus-Point Xenas Dungeon,0,1,8,0,0,4096
 222780,,222779,1,0,112279,0,0
 222808,12.0 Delves - Die in a Delve,0,0,4,0,0,0
-222809,Requires Delve,222808,0,0,69351,0,0
+222809,Requires Delve,222808,0,0,112901,0,0
 222810,,216314,1,0,112292,0,0
 222814,Kill Sheep,0,1,5,0,0,4096
 222815,Kill Sheep,222814,1,0,112295,0,0
@@ -114582,13 +114583,12 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 223107,Altar of Blessings: Amani Curious,0,1,8,0,0,0
 223108,"Kulzi, Loa of Medicine",223107,1,0,112097,0,0
 223109,"Filo, Loa of Childhood",223107,1,0,112098,1,0
-223110,"Pahk, Loa of the Depths",223107,1,0,112099,2,0
-223111,"Mot'amra, Loa of Pestilence",223107,1,0,112100,3,0
-223112,"Wila'ma, Loa of Travelers",223107,1,0,112101,4,0
-223113,"Shadra, Loa of Subterfuge",223107,1,0,112102,5,0
-223114,"Dundun, Loa of Abundance",223107,1,0,112103,6,0
-223115,"Puul, Loa of Peril",223107,1,0,112104,7,0
-223116,"Oe, Loa of Growth",223107,1,0,112105,8,0
+223111,"Mot'amra, Loa of Pestilence",223107,1,0,112100,2,0
+223112,"Wila'ma, Loa of Travelers",223107,1,0,112101,3,0
+223113,"Shadra, Loa of Subterfuge",223107,1,0,112102,4,0
+223114,"Dundun, Loa of Abundance",223107,1,0,112103,5,0
+223115,"Puul, Loa of Peril",223107,1,0,112104,6,0
+223116,"Oe, Loa of Growth",223107,1,0,112105,7,0
 223117,Altar of Blessings: One For Altar,0,1,4,0,0,0
 223118,,223117,1,0,112461,0,0
 223119,Abyss Anglers: Trench Berserker,0,0,4,0,0,0
@@ -114932,7 +114932,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 223644,,223405,1,0,112688,0,32
 223645,Abyss Anglers: Boarhide Catch Sack,0,0,4,0,0,0
 223646,,223645,1,0,112050,0,0
-223649,,216395,5,0,112689,22,0
+223649,,216395,7,0,112689,22,0
 223650,,216395,5,0,112690,21,0
 223653,12.0 Z4 - Level Up Campaign - Ch 3 - Q11 - Enter Silvermoon,0,0,4,0,0,4096
 223654,,223653,1,0,112692,0,0
@@ -115033,5 +115033,47 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 223811,,223810,0,0,112852,0,0
 223812,,222686,0,0,112853,1,0
 223813,30888: 12.0 - Housing - Weekly Quest - Rotational - Buy from Endeavor Vendor - (POC),0,1,5,0,0,6144
-223814,,223813,2,0,112854,0,2048
+223814,,223813,1,0,112854,0,2048
 223818,,216383,1,0,112857,15,0
+223819,30888: 12.0 - Housing - Weekly Quest - Rotational - Buy from Endeavor Vendor - (POC),0,1,5,0,0,6144
+223820,,223819,2,0,112858,0,2048
+223821,30888: 12.0 - Housing - Weekly Quest - Rotational - Buy from Endeavor Vendor - (POC),0,1,5,0,0,6144
+223822,,223821,2,0,112859,0,2048
+223823,,222108,0,0,112860,0,0
+223824,12.0 Z1 - WQ - Complex 02 - Goldenmist - CAPSTONE - UNLOCK (SH),0,3,5,0,0,4096
+223825,,223824,3,0,112861,0,0
+223826,,223824,3,0,112862,1,0
+223857,,220159,1,0,112882,2,0
+223858,,220159,1,0,112883,3,0
+223859,,220159,1,0,112884,4,0
+223860,30888: 12.0 - Housing - Weekly Quest - Rotational - Buy from Endeavor Vendor - (POC),0,1,5,0,0,6144
+223861,,223860,2,0,112885,0,2048
+223862,30888: 12.0 - Housing - Weekly Quest - Rotational - Buy from Endeavor Vendor - (POC),0,1,5,0,0,6144
+223863,,223862,2,0,112886,0,2048
+223881,,37080,1,0,26446,1,2
+223882,,210294,0,0,52191,1,2
+223883,Run completed,222404,0,0,112895,1,0
+223884,Proud owner of the Pin-o-Matic Camera,0,1,8,0,0,8192
+223885,,223884,1,0,112896,0,2
+223886,,223884,1,0,112897,1,2
+223887,[DNT] Complete a quest while you have a house of level 6+,0,0,4,0,0,0
+223888,,223887,1,0,112898,0,0
+223892,Player has completed This Old Hearth (last quest of housing tutorial),0,0,4,0,0,0
+223893,,223892,1,0,112900,0,0
+223930,"Complete World Quests, Dungeons, and Delves in Midnight zones",0,10,5,0,0,4097
+223931,,223930,0,0,112942,1,0
+223932,,223930,0,0,112943,2,0
+223933,,223930,0,0,112941,0,0
+223934,,223930,0,0,112944,3,0
+223935,,223930,0,0,112945,4,0
+223936,Lothraxion defeated,223930,0,0,112946,5,0
+223937,,223930,0,0,112947,6,0
+223938,,223930,0,0,112948,7,0
+223939,,223930,0,0,112949,8,0
+223940,,223930,0,0,112950,9,0
+223941,,223930,0,0,112952,10,0
+223942,Lithiel Cinderfury defeated,223930,0,0,112953,11,0
+223943,,223930,0,0,112954,12,0
+223963,12.0 Midnight - Rewards - Reach Level 90 (MPK),0,0,4,0,0,0
+223964,,223963,0,0,112971,0,0
+223967,,219060,0,0,112973,17,0
