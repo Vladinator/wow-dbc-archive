@@ -20454,7 +20454,7 @@ $bullet;|cFF2959D3|Hspell:389762|h[Deep Freeze]|h|r inflicts heavy damage to all
 25907,Section 14,,2502,19,25903,0,0,2,0,0,385812,0,0,1,-1
 25910,Section 16,,2502,17,25903,0,25906,2,0,0,387943,0,0,64,-1
 25913,Section 15,,2487,10,24988,0,0,2,0,0,369674,0,0,64,-1
-25915,Section 12,,2509,7,25604,0,0,2,0,0,391977,0,2,4224,0
+25915,Section 12,,2509,7,25604,0,0,2,0,0,391977,0,2,4096,0
 25916,Section 76,,2499,20,25683,0,25813,2,0,0,385182,0,1,32,-1
 25917,Section 77,,2499,40,25312,0,25707,2,0,0,385182,0,1,0,-1
 25918,Section 78,,2499,73,25816,0,0,2,0,0,392086,0,2,40,0
@@ -24161,7 +24161,7 @@ $bullet;|cFF2959D3|Hspell:1224903|h[Suppression Zone]|h|r and |cFF2959D3|Hspell:
 30546,Healers,"$bullet;|cFF2959D3|Hspell:1225193|h[Wave of Silence]|h|r inflicts heavy damage and silences players outside of |cFF2959D3|Hspell:1224903|h[Suppression Zones]|h|r.
 $bullet;|cFF2959D3|Hspell:1224801|h[Runic Mark]|h|r inflicts moderate damage to nearby players.
 $bullet;|cFF2959D3|Hspell:1224903|h[Suppression Zone]|h|r and |cFF2959D3|Hspell:1225135|h[Feedback]|h|r silences and pacifies players.",2661,3,30544,0,30547,3,0,0,0,0,0,4,-1
-30547,Tanks,"$bullet;|cFF2959D3|Hspell:1225193|h[Hastening Ward]|h|r increases Seranel's attack speed and causes his melee attacks to inflict additional Arcane damage.
+30547,Tanks,"$bullet;|cFF2959D3|Hspell:1248689|h[Hastening Ward]|h|r increases Seranel's attack speed and causes his melee attacks to inflict additional Arcane damage.
 $bullet;|cFF2959D3|Hspell:1225193|h[Wave of Silence]|h|r inflicts heavy damage and silences players outside of |cFF2959D3|Hspell:1224903|h[Suppression Zones]|h|r.
 $bullet;|cFF2959D3|Hspell:1224801|h[Runic Mark]|h|r inflicts moderate damage to nearby players.",2661,4,30544,0,0,3,0,0,0,0,0,1,-1
 30548,Overview,"Degentrius leads the assault from atop Magisters' Terrace, commanding the platform with overwhelming Void magic. |cFF2959D3|Hspell:1214714|h[Void Torrent]|h|r streams carve across the arena as they flow into Degentrius, while |cFF2959D3|Hspell:1215087|h[Unstable Void Essence]|h|rs ricochet around the platform.",2662,1,0,30549,31276,3,0,0,0,0,0,0,-1
@@ -25415,20 +25415,17 @@ $bullet; Failing to hit a player with |cFF2959D3|Hspell:1260763|h[Guardian's Edi
 32160,Stage Two: Ashen Shell,As Belo'ren falls he retreats into an ashen egg and kindles the fire of rebirth.,2739,39,0,33005,0,1,130080,1284,0,7636699,1,0,-1
 32161,Section 31,,2690,82,32034,0,0,2,0,0,1226417,0,0,1,-1
 32162,Section 32,,2690,86,32150,0,0,2,0,0,1226417,0,0,1,-1
-32163,Overview,"The Dark Naaru counts down the minutes with each harrowing toll of |cFF2959D3|Hspell:1244412|h[Death's Dirge]|h|r that echoes off the sacred walls. |cFF2959D3|Hspell:1253915|h[Heaven's Glaives]|h|r rip and tear through armies of light as L'ura conducts the infinite power held within |cFF2959D3|Hspell:1254646|h[The Darkwell]|h|r to extinguish all that is holy.
+32163,Overview,"The Dark Naaru counts down the minutes with each harrowing toll of |cFF2959D3|Hspell:1244412|h[Death's Dirge]|h|r that echoes off the sacred walls. |cFF2959D3|Hspell:1253915|h[Heaven's Glaives]|h|r rip and tear through the armies of light as L'ura conducts the infinite power held within |cFF2959D3|Hspell:1282027|h[The Darkwell]|h|r to extinguish all that is holy.
 
 When |cFF2959D3|Hspell:1266622|h[Midnight]|h|r falls and Azeroth descends into darkness, brave |cFF2959D3|Hspell:1266627|h[Torchbearers]|h|r emerge from the shadows to face |cFF2959D3|Hspell:1250898|h[The Dark Archangel]|h|r and fight to see another sunrise.",2740,1,0,32164,32197,3,0,0,0,0,0,0,-1
-32164,Damage Dealers,"$bullet;|cFF2959D3|Hspell:1251650|h[Midnight Crystals]|h|r detonate with |cFF2959D3|Hspell:1251807|h[Cosmic Fracture]|h|r if not destroyed.
+32164,Damage Dealers,"$bullet;Midnight Crystals undergo |cFF2959D3|Hspell:1251807|h[Cosmic Fracture]|h|r if not destroyed in time.
 $bullet;|cFF2959D3|Hspell:1244412|h[Death's Dirge]|h|r displays |cFF2959D3|Hspell:1249609|h[Dark Runes]|h|r that correspond to the melody's notes.
-$bullet;|cFF2959D3|Hspell:1282246|h[Void Cores]|h|r activate |cFF2959D3|Hspell:1282249|h[Cosmic Fission]|h|r when struck by |cFF2959D3|Hspell:1284528|h[Galvanize]|h|r.
 $bullet;|cFF2959D3|Hspell:1266627|h[Torchbearers]|h|r emit light to protect nearby allies from |cFF2959D3|Hspell:1266622|h[Midnight]|h|r.",2740,2,32163,0,32165,3,0,0,0,0,0,2,-1
-32165,Healers,"$bullet;|cFF2959D3|Hspell:1251653|h[Dusk Crystals]|h|r transform into |cFF2959D3|Hspell:1266628|h[Dawn Crystals]|h|r upon reaching full health.
+32165,Healers,"$bullet;|cFF2959D3|Hspell:1252974|h[Dimming]|h|r Dusk Crystals transform into Dawn Crystals upon reaching full health.
 $bullet;|cFF2959D3|Hspell:1244412|h[Death's Dirge]|h|r displays |cFF2959D3|Hspell:1249609|h[Dark Runes]|h|r that correspond to the melody's notes.
-$bullet;|cFF2959D3|Hspell:1282246|h[Void Cores]|h|r activate |cFF2959D3|Hspell:1282249|h[Cosmic Fission]|h|r when struck by |cFF2959D3|Hspell:1284528|h[Galvanize]|h|r.
 $bullet;|cFF2959D3|Hspell:1266627|h[Torchbearers]|h|r emit light to protect nearby allies from |cFF2959D3|Hspell:1266622|h[Midnight]|h|r.",2740,3,32163,0,32166,3,0,0,0,0,0,4,-1
 32166,Tanks,"$bullet;|cFF2959D3|Hspell:1263970|h[Heaven's Lance]|h|r inflicts massive damage as the target is |cFF2959D3|Hspell:1265842|h[Impaled]|h|r.
 $bullet;|cFF2959D3|Hspell:1244412|h[Death's Dirge]|h|r displays |cFF2959D3|Hspell:1249609|h[Dark Runes]|h|r that correspond to the melody's notes.
-$bullet;|cFF2959D3|Hspell:1282246|h[Void Cores]|h|r activate |cFF2959D3|Hspell:1282249|h[Cosmic Fission]|h|r when struck by |cFF2959D3|Hspell:1284528|h[Galvanize]|h|r.
 $bullet;|cFF2959D3|Hspell:1266627|h[Torchbearers]|h|r emit light to protect nearby allies from |cFF2959D3|Hspell:1266622|h[Midnight]|h|r.",2740,4,32163,0,0,3,0,0,0,0,0,1,-1
 32167,Overview,"Averzian uses |cFF2959D3|Hspell:1251361|h[Shadow's Advance]|h|r to claim territory on the battlefield. Once a space is |cFF2959D3|Hspell:1253918|h[Void Claimed]|h|r it cannot be retaken, and if Averzian claims three adjacent territories in a row he unleashes the |cFF2959D3|Hspell:1251583|h[March of the Endless]|h|r.
 
@@ -25512,7 +25509,7 @@ $bullet;|cFF2959D3|Hspell:1239080|h[Aspect of the End]|h|r reduces healing recei
 On Mythic difficulty, Averzian summons the Abyssal Malus to join his army.",2733,24,0,33962,33966,2,0,0,1251361,0,2,4128,0
 32195,General Amias Bellamy,,2737,28,0,33682,33681,1,131501,0,0,0,0,0,-1
 32196,Stage One: The Voidspire,,2738,6,0,32457,32454,0,0,0,0,0,3,0,0
-32197,Stage One: Final Tolls,The clock ticks. The sun sets. The candle burns.,2740,5,0,35321,35036,0,0,0,0,0,0,0,-1
+32197,Stage One: Final Tolls,The clock ticks. The sun sets. The candle burns.,2740,5,0,33998,35036,0,0,0,0,0,1,0,-1
 32198,Overview,"Reshanor's throat surges with dark, twisted energy, unleashing |cFF2959D3|Hspell:1237893|h[Veilshatter Roars]|h|r and |cFF2959D3|Hspell:1237905|h[Twilight Breaths]|h|r. His unstable presence conjures a raging |cFF2959D3|Hspell:1226380|h[Voidstorm]|h|r.
 
 When his energy wanes, Reshanor retreats into Untethered Space to feed on arcane forces - tearing open reality and allowing void creatures to spill forth.",2762,1,0,32199,32941,3,0,0,0,0,0,0,-1
@@ -25661,9 +25658,9 @@ On Mythic difficulty, if $@spellname1219611 fails to hit at least 5 players, it 
 32424,Section 9,,2679,7,34458,0,32427,2,0,0,1217989,0,0,0,-1
 32426,Section 14,,2679,9,34458,0,32442,2,0,0,1223906,0,2,0,2
 32427,Section 13,,2679,8,34458,0,32426,2,0,0,1230298,0,0,0,-1
-32428,Nibbles,,2679,13,0,32429,0,1,126199,0,0,0,1,0,-1
-32429,Section 11,,2679,14,32428,0,32430,2,0,0,1253811,0,0,16,-1
-32430,Section 12,,2679,15,32428,0,34460,2,0,0,1228198,0,0,128,-1
+32428,Nibbles,,2679,12,0,32429,0,1,126199,0,0,0,1,0,-1
+32429,Section 11,,2679,13,32428,0,32430,2,0,0,1253811,0,0,16,-1
+32430,Section 12,,2679,14,32428,0,34460,2,0,0,1228198,0,0,128,-1
 32442,Section 22,,2679,10,34458,34335,0,2,0,0,1264095,0,0,0,-1
 32447,Section 19,,2691,22,32292,0,33414,2,0,0,1230979,0,2,4,0
 32451,Section 23,,2691,25,32292,33149,33675,2,0,0,1243690,0,0,4,-1
@@ -25991,7 +25988,7 @@ $bullet;|cFF2959D3|Hspell:1263982|h[Gravitic Orbs]|h|r continually seek out play
 $bullet;|cFF2959D3|Hspell:1263982|h[Gravitic Orbs]|h|r continually seek out players until collapsed by an |cFF2959D3|Hspell:1248112|h[Unstable Singularity]|h|r.",2793,3,32982,0,32985,3,0,0,0,0,0,4,-1
 32985,Tanks,"$bullet;|cFF2959D3|Hspell:1248112|h[Unstable Singularity]|h|r inflicts Shadow damage and reduces the movement speed of players caught within it.
 
-$bullet;|cFF2959D3|Hspell:1263982|h[Gaivitic Orbs]|h|r continually seek out players until collapsed by an |cFF2959D3|Hspell:1248112|h[Unstable Singularity]|h|r.",2793,4,32982,0,0,3,0,0,0,0,0,1,-1
+$bullet;|cFF2959D3|Hspell:1263982|h[Gravitic Orbs]|h|r continually seek out players until collapsed by an |cFF2959D3|Hspell:1248112|h[Unstable Singularity]|h|r.",2793,4,32982,0,0,3,0,0,0,0,0,1,-1
 32987,Section 7,,2793,7,0,0,32990,2,0,0,1248130,0,1,0,-1
 32989,Section 8,,2793,9,0,0,0,2,0,0,1227197,0,0,0,-1
 32990,Section 5,,2793,8,0,0,32989,2,0,0,1222755,0,2,4096,0
@@ -26238,7 +26235,7 @@ As Muro'jin scatters |cFF2959D3|Hspell:1260731|h[Freezing Traps]|h|r across the 
 33349,Damage Dealers,"$bullet;Muro'jin attempts to |cFF2959D3|Hspell:1249789|h[Revive Pet]|h|r upon Nekraxx's defeat, and Nekraxx enters |cFF2959D3|Hspell:1249948|h[Bestial Wrath]|h|r upon Muro'jin's defeat.
 $bullet;Muro'jin's |cFF2959D3|Hspell:1260731|h[Freezing Traps]|h|r encase players in ice upon contact. Players encased in ice can intercept Nekraxx's |cFF2959D3|Hspell:1249479|h[Carrion Swoop]|h|r.
 $bullet;Muro'jin's |cFF2959D3|Hspell:1260643|h[Barrage]|h|r follows the targeted player and affects all players in a frontal cone.",2810,2,33348,0,33350,3,0,0,0,0,0,2,-1
-33350,Healers,"$bullet;Nekraxx's |cFF2959D3|Hspell:1246666|h[Necrotic Pinions]|h|r inflicts significant damage to all players.
+33350,Healers,"$bullet;Nekraxx's |cFF2959D3|Hspell:1246666|h[Infected Pinions]|h|r inflicts significant damage to all players.
 $bullet;Muro'jin's |cFF2959D3|Hspell:1260731|h[Freezing Traps]|h|r encase players in ice upon contact. Players encased in ice can intercept Nekraxx's |cFF2959D3|Hspell:1249479|h[Carrion Swoop]|h|r.
 $bullet;Muro'jin's |cFF2959D3|Hspell:1260643|h[Barrage]|h|r follows the targeted player and affects all players in a frontal cone.",2810,3,33348,0,33351,3,0,0,0,0,0,4,-1
 33351,Tank,"$bullet;Muro'jin's |cFF2959D3|Hspell:1266480|h[Flanking Spear]|h|r both repositions behind his current target and applies |cFF2959D3|Hspell:1266488|h[Open Wound]|h|r.
@@ -26295,9 +26292,9 @@ $bullet;|cFF2959D3|Hspell:1247976|h[Lightscar Flare]|h|r stuns as the Fractured 
 $bullet;|cFF2959D3|Hspell:1249014|h[Eclipsing Step]|h|r carves into nearby players in addition to the targeted victim.
 $bullet;|cFF2959D3|Hspell:1247976|h[Lightscar Flare]|h|r stuns as the Fractured Image strikes its target and the resulting wound surges with Holy energy, providing power to those standing within it.",2814,3,33399,0,33402,3,0,0,0,0,0,4,-1
 33402,Tanks,"$bullet; Corewarden Nysarra calls to her subordinates to assist during battle.
-$bullet;The power of |cFF2959D3|Hspell:1247937|h[Umbral Lash]|h|r cleaves nearby players and applies |cFF2959D3|Hspell:1252828|h[Void Scar]|h|r.
+$bullet;The power of |cFF2959D3|Hspell:1247937|h[Umbral Lash]|h|r cleaves nearby players and applies |cFF2959D3|Hspell:1252828|h[Void Gash]|h|r.
 $bullet;|cFF2959D3|Hspell:1247976|h[Lightscar Flare]|h|r stuns as the Fractured Image strikes its target and the resulting wound surges with Holy energy, providing power to those standing within it.",2814,4,33399,0,0,3,0,0,0,0,0,1,-1
-33403,Overview,"Fractured Images of Lothraxion linger with every |cFF2959D3|Hspell:1247976|h[Brilliant Dispersion]|h|r, haunting the battlefield. These images |cFF2959D3|Hspell:1255531|h[Flicker]|h|r and slice at nearby enemies with |cFF2959D3|Hspell:1266713|h[Mirrored Rend]|h|r. When he reaches full power, Lothraxion flickers into hiding amongst his images and attempts to overload the core with |cFF2959D3|Hspell:1257613|h[Divine Guile]|h|r.",2815,1,0,33404,34712,3,0,0,0,0,0,0,-1
+33403,Overview,"Fractured Images of Lothraxion linger with every |cFF2959D3|Hspell:1253848|h[Brilliant Dispersion]|h|r, haunting the battlefield. These images |cFF2959D3|Hspell:1255531|h[Flicker]|h|r and slice at nearby enemies with |cFF2959D3|Hspell:1266713|h[Mirrored Rend]|h|r. When he reaches full power, Lothraxion flickers into hiding amongst his images and attempts to overload the core with |cFF2959D3|Hspell:1257613|h[Divine Guile]|h|r.",2815,1,0,33404,34712,3,0,0,0,0,0,0,-1
 33404,Damage Dealers,"$bullet; |cFF2959D3|Hspell:1253848|h[Brilliant Dispersion]|h|r inflicts damage to all nearby players.
 $bullet; Fractured Images unleash |cFF2959D3|Hspell:1266713|h[Mirrored Rend]|h|r when standing too close.
 $bullet; Lothraxion hides among his distorted images during |cFF2959D3|Hspell:1257613|h[Divine Guile]|h|r until he is interrupted.",2815,2,33403,0,33405,3,0,0,0,0,0,2,-1
@@ -26432,14 +26429,12 @@ In Heroic and Mythic difficulty, |cFF2959D3|Hspell:1237694|h[Mass Ejection]|h|r 
 33591,Section 71,,2691,83,33389,0,0,2,0,0,1237696,0,3,8,0
 33592,Section 132,,2691,84,32745,33593,33578,2,0,0,1249454,0,2,4096,0
 33593,Section 134,,2691,85,33592,33986,33390,2,0,0,1254385,0,1,0,-1
-33634,Section 8,,2740,97,33639,33635,34497,2,0,0,1273158,0,2,4096,0
-33635,Section 9,,2740,98,33634,0,34555,2,0,0,1249609,0,0,0,-1
-33637,Section 11,,2740,100,33634,0,0,2,0,0,1249584,0,0,16,-1
-33638,Stage Two: The Dark Reactor,Venture into the engine of desolation.,2740,68,0,35067,33639,0,0,0,0,0,0,0,-1
-33639,Stage Three: Midnight Falls,Time is up. Can you end the ending itself?,2740,87,0,34900,0,0,0,0,0,0,0,0,-1
-33640,Section 12,,2740,60,32197,0,33998,2,0,0,1249796,0,0,4,-1
-33642,Section 13,"$[!15,16
-On Heroic difficulty, this effect stacks.$]",2740,95,33639,34301,33634,2,0,0,1266622,0,2,8,0
+33634,Section 8,,2740,128,33639,33635,34497,2,0,0,1273158,0,2,4096,0
+33635,Section 9,,2740,129,33634,34555,0,2,0,0,1249609,0,0,0,-1
+33637,Section 11,,2740,131,33635,0,0,2,0,0,1249584,0,0,16,-1
+33638,Stage Two: The Dark Reactor,Venture into the engine of desolation.,2740,79,0,35067,33639,0,0,0,0,0,0,0,-1
+33639,Stage Three: Midnight Falls,Time is up. Can you end the ending itself?,2740,118,0,34000,0,0,0,0,0,0,0,0,-1
+33640,Section 12,,2740,56,32197,0,0,2,0,0,1249796,0,0,4,-1
 33644,Section 10,,2810,13,33932,0,0,2,0,0,1249789,0,0,2,-1
 33646,Section 12,,2810,18,33935,0,33514,2,0,0,1243900,0,0,0,-1
 33650,Section 7,"$[!23
@@ -26525,10 +26520,10 @@ $bullet;|cFF2959D3|Hspell: 472081|h[Reckless Leap]|h|r inflicts damage to player
 $bullet;|cFF2959D3|Hspell: 1253026|h[Intimidating Shout]|h|r fears players standing alone.",2657,6,30464,0,30467,3,0,0,0,0,2,4,0
 33733,Section 7,,2811,8,0,33734,33894,0,0,0,1251204,0,1,32,-1
 33734,Unstable Phantom,,2811,9,33733,33887,0,1,136272,0,0,0,0,0,-1
-33737,Section 16,,2740,39,32197,33738,33988,2,0,0,1284931,0,2,4096,0
-33738,Termination Matrix,,2740,40,33737,33739,33741,1,142715,0,0,0,1,4096,-1
-33739,Section 18,,2740,41,33738,0,0,2,0,0,1284934,0,0,4160,-1
-33740,Section 15,,2740,91,33639,34474,35131,2,0,0,1250898,0,0,16,-1
+33737,Section 16,,2740,39,32197,33738,33989,2,0,0,1284931,0,2,4096,0
+33738,Termination Matrix,,2740,40,33737,33739,33741,1,142715,0,0,0,1,0,-1
+33739,Section 18,,2740,41,33738,0,0,2,0,0,1284934,0,0,80,-1
+33740,Section 15,,2740,121,33639,34474,35131,2,0,0,1250898,0,0,16,-1
 33741,Section 19,,2740,42,33737,33742,0,2,0,0,1251649,0,1,0,-1
 33742,Midnight Crystal,A dark Naaru fragment beyond saving.,2740,43,33741,33924,33981,1,136356,0,0,0,0,2,-1
 33886,Section 7,,2813,10,0,0,34333,2,0,0,1251767,0,0,32,-1
@@ -26557,7 +26552,7 @@ $bullet;|cFF2959D3|Hspell: 1253026|h[Intimidating Shout]|h|r fears players stand
 33921,Spinning Blade,,965,6,0,0,8837,2,0,0,1252691,459044,2,0,3
 33922,Swiling Gust,,965,8,8837,0,0,2,0,0,1258140,1029595,2,4096,0
 33923,Section 32,,2795,24,32998,33959,34515,2,0,0,1252863,0,0,0,-1
-33924,Section 24,,2740,44,33742,0,0,2,0,0,1251789,0,0,0,-1
+33924,Section 24,,2740,44,33742,0,0,2,0,0,1251789,0,0,16,-1
 33927,Section 16,,2769,6,0,0,32514,2,0,0,1253028,0,1,0,-1
 33928,Section 9,,966,6,11056,0,35065,2,0,0,1252877,0,2,4128,0
 33930,Section 11,,966,9,8842,0,35064,2,0,0,154150,0,2,32,3
@@ -26598,14 +26593,14 @@ $bullet; |cFF2959D3|Hspell:1253542|h[Scorching Ray]|h|r inflicts moderate damage
 33972,Section 15,,2733,50,0,0,34411,2,0,0,1249251,0,0,4,-1
 33973,Section 5,,2815,7,0,34047,33974,2,0,0,1253848,0,0,0,-1
 33974,Section 6,,2815,12,0,34049,0,2,0,0,1253950,0,0,1,-1
-33975,Section 25,,2740,103,33639,0,35069,2,0,0,1266388,0,0,16,-1
-33981,Dusk Crystal,A dimming Naaru fragment that may be restored.,2740,45,33741,33982,34422,1,136357,0,0,0,0,4,-1
-33982,Section 22,,2740,46,33981,0,33983,2,0,0,1252974,0,0,0,-1
-33983,Section 23,,2740,47,33981,0,0,2,0,0,1251807,0,0,0,-1
+33975,Section 25,,2740,124,33639,0,34900,2,0,0,1266388,0,0,16,-1
+33981,Dusk Crystal,A dimming Naaru fragment that may be restored.,2740,45,33741,33982,35444,1,136357,0,0,0,0,4,-1
+33982,Section 22,,2740,46,33981,33983,0,2,0,0,1252974,0,0,0,-1
+33983,Section 23,,2740,47,33982,0,0,2,0,0,1251807,0,0,16,-1
 33986,Section 139,,2691,86,33593,0,0,2,0,0,1254384,0,1,16,-1
-33988,Section 25,,2740,56,32197,0,35404,2,0,0,1253915,0,0,16,-1
-33989,Section 32,,2740,58,32197,34450,33640,2,0,0,1263970,0,0,1,-1
-33990,Section 32,,2740,84,33638,34456,35068,2,0,0,1263970,0,0,1,-1
+33988,Section 25,,2740,8,32197,0,35321,2,0,0,1253915,0,0,16,-1
+33989,Section 32,,2740,54,32197,34450,33640,2,0,0,1263970,0,0,1,-1
+33990,Section 32,,2740,115,33638,34456,35438,2,0,0,1263970,0,0,1,-1
 33991,Restless Masses,,2812,14,33961,33993,33992,0,0,0,0,0,0,0,-1
 33992,Section 15,,2812,20,33961,0,34476,2,0,0,1253844,0,0,0,-1
 33993,Lost Soul,,2812,15,33991,33994,33995,1,136272,0,0,0,1,0,-1
@@ -26613,9 +26608,9 @@ $bullet; |cFF2959D3|Hspell:1253542|h[Scorching Ray]|h|r inflicts moderate damage
 33995,Malignant Soul,,2812,17,33991,33996,0,1,137163,0,0,0,1,0,-1
 33996,Section 18,,2812,18,33995,34010,0,2,0,0,1254010,0,1,0,-1
 33997,Section 24,,2736,34,34734,0,34851,2,0,0,1254088,0,1,64,-1
-33998,Section 35,,2740,61,32197,0,0,2,0,0,1282027,0,0,16,-1
-34000,Section 35,,2740,107,33639,34001,0,2,0,0,1282027,0,0,16,-1
-34001,Section 38,,2740,108,34000,0,0,2,0,0,1254642,0,0,4,-1
+33998,Section 35,,2740,6,32197,0,35404,2,0,0,1282027,0,0,16,-1
+34000,Section 35,,2740,119,33639,34001,33740,2,0,0,1282027,0,0,16,-1
+34001,Section 38,,2740,120,34000,0,0,2,0,0,1254642,0,0,4,-1
 34005,Section 48,"$[!15,16
 
 In Heroic and Mythic difficulty, Void Expulsion also targets additional players.$]",2738,47,32455,34006,32466,2,0,0,1255368,0,0,0,-1
@@ -26736,8 +26731,8 @@ On Mythic difficulty, Lekshi casts Fan Of Thorns immediately after impaling thei
 34239,Section 41,,2795,22,33303,0,0,2,0,0,1261997,0,0,64,-1
 34240,Section 42,,2795,51,33520,0,0,2,0,0,1262020,0,0,0,-1
 34241,Section 43,,2795,19,33521,0,0,2,0,0,1262020,0,0,0,-1
-34242,Section 14,,2740,70,35067,0,0,2,0,0,1279463,0,0,16,-1
-34243,Section 14,,2740,83,33638,0,33990,2,0,0,1281194,0,0,0,-1
+34242,Section 14,,2740,81,35067,0,35068,2,0,0,1279463,0,0,16,-1
+34243,Section 14,,2740,99,35273,35309,0,2,0,0,1281194,0,0,32,-1
 34245,Section 35,,2795,15,33304,35359,33521,2,0,0,1245727,0,0,0,-1
 34246,Overview,"Forgemaster Garfrost |cFF2959D3|Hspell:1261299|h[Throws Saronite]|h|r at players, then follows up with |cFF2959D3|Hspell:1261546|h[Orebreaker]|h|r. Occasionally, he lets loose a mighty |cFF2959D3|Hspell:1261847|h[Cryostomp]|h|r, increasing |cFF2959D3|Hspell:1261806|h[Siphoning Chill's]|h|r danger.
 
@@ -26767,7 +26762,6 @@ $bullet;Saronite ore offers protection from |cFF2959D3|Hspell:1262029|h[Glacial 
 34296,Section 36,,2739,17,33205,0,0,2,0,0,1263412,0,0,0,-1
 34297,Section 37,,2739,23,33206,0,0,2,0,0,1263412,0,0,0,-1
 34298,Section 15,,1979,9,0,15880,15868,2,0,0,1263399,0,2,4096,0
-34301,Section 44,,2740,96,33642,0,0,2,0,0,1266113,0,0,0,-1
 34302,Section 12,,1981,5,0,34388,34390,2,0,0,1263529,0,3,32,3
 34303,Section 17,,1981,16,0,0,15924,2,0,0,1263542,0,2,4,0
 34304,Section 5,,2777,5,0,34305,32694,2,0,0,1235783,0,2,32,3
@@ -26806,8 +26800,7 @@ On Mythic difficulty, this ability transforms some |cFF2959D3|Hspell:1276357|h[B
 34332,Section 20,,610,28,34330,0,0,2,0,0,1263716,0,0,0,-1
 34333,Section 9,,2813,11,0,34334,33730,2,0,0,1264040,0,0,0,-1
 34334,Section 10,,2813,12,34333,0,0,2,0,0,1264042,0,0,0,-1
-34335,Section 22,,2679,11,32442,0,34336,2,0,0,1264106,0,0,64,-1
-34336,Section 23,,2679,12,32442,0,0,2,0,0,1264114,0,2,4096,0
+34335,Section 22,,2679,11,32442,0,0,2,0,0,1264106,0,0,64,-1
 34337,Section 10,,2791,7,0,34339,32969,2,0,0,1263593,0,1,0,-1
 34339,Ethereal Shade,,2791,8,34337,32968,0,1,124083,0,0,0,0,0,-1
 34340,Section 11,,2792,14,0,0,32976,2,0,0,1262497,0,0,0,-1
@@ -26883,15 +26876,13 @@ On Heroic difficulty, Averzian and his soldiers gain |cFF2959D3|Hspell:1253918 |
 34418,Section 24,,2736,18,35213,0,35222,2,0,0,1250991,0,0,0,-1
 34420,Section 14,The star also bounces to several other players upon impact.,2736,27,0,34421,34848,2,0,0,1253032,0,2,0,0
 34421,Section 16,,2736,28,34420,0,0,2,0,0,1251213,0,0,0,-1
-34422,Dawn Crystal,"A purified Naaru fragment that can be carried.
+34422,Dawn Crystal,"A purified Naaru fragment that can be held by players.
 $[!16
-On Mythic difficulty, Dawn Crystals are at risk of Light's End.$]",2740,48,33741,34423,0,1,137188,0,0,0,0,4128,-1
-34423,Section 31,,2740,49,34422,0,34426,2,0,0,1284699,0,0,4112,-1
-34424,Section 22,,2740,53,34422,0,34425,2,0,0,1254398,0,0,0,-1
-34425,Section 23,,2740,54,34422,0,35312,2,0,0,1253104,0,0,0,-1
-34426,Section 29,,2740,50,34422,34427,34424,2,0,0,1254262,0,0,8,-1
-34427,Section 30,,2740,51,34426,0,34428,2,0,0,1254256,0,2,0,0
-34428,Section 30,,2740,52,34426,0,0,2,0,0,1254256,0,2,16,0
+On Mythic difficulty, Dawn Crystals are at risk of Light's End.$]",2740,146,33639,35132,35069,1,137188,0,0,0,2,4096,0
+34423,Section 31,,2740,149,34422,0,34426,2,0,0,1284699,0,0,4112,-1
+34424,Section 22,,2740,153,34422,0,0,2,0,0,1254398,0,0,0,-1
+34426,Section 29,,2740,150,34422,34428,35312,2,0,0,1254262,0,0,8,-1
+34428,Section 30,,2740,151,34426,0,0,2,0,0,1254256,0,0,16,-1
 34436,Section 18,,2657,10,31014,0,31015,2,0,0,1250851,0,0,0,-1
 34443,Damage Dealers,"$bullet;|cFF2959D3|Hspell:468070|h[Rallying Bellow]|h|r summons a warparty to fight alongside Commander Kroluk.
 $bullet;|cFF2959D3|Hspell: 470963|h[Bladestorm]|h|r inflicts damage to all players within Commander Kroluk's path.",2657,2,30464,0,34444,3,0,0,0,0,2,2,3
@@ -26901,15 +26892,15 @@ $bullet;|cFF2959D3|Hspell: 472081|h[Reckless Leap]|h|r inflicts damage to player
 $bullet;|cFF2959D3|Hspell: 467620|h[Rampage]|h|r inflicts sustained damage to Commander Kroluk's current target.",2657,4,30464,0,30465,3,0,0,0,0,2,1,3
 34448,Section 14,,2736,23,0,34449,35235,2,0,0,1253032,0,2,0,0
 34449,Section 16,,2736,24,34448,0,0,2,0,0,1251213,0,0,0,-1
-34450,Section 46,,2740,59,33989,0,0,2,0,0,1265842,0,0,0,-1
+34450,Section 46,,2740,55,33989,0,0,2,0,0,1265842,0,0,0,-1
 34451,Section 8,,2736,21,33440,0,34294,2,0,0,1245592,0,0,1,-1
 34453,Section 22,,2736,36,0,34454,33444,2,0,0,1248697,0,0,4,-1
 34454,Section 23,,2736,37,34453,0,34455,2,0,0,1248709,0,0,0,-1
 34455,Section 8,,2736,38,34453,0,0,2,0,0,1245592,0,0,0,-1
-34456,Section 45,,2740,85,33990,0,0,2,0,0,1265842,0,0,0,-1
+34456,Section 45,,2740,116,33990,0,0,2,0,0,1265842,0,0,0,-1
 34458,Kystia Manaheart,,2679,5,0,32423,32428,1,124578,0,0,0,1,0,-1
-34460,Section 22,,2679,16,32428,34461,0,2,0,0,1230304,0,0,32,-1
-34461,Section 23,,2679,17,34460,0,0,2,0,0,1265412,0,0,0,-1
+34460,Section 22,,2679,15,32428,34461,0,2,0,0,1230304,0,0,32,-1
+34461,Section 23,,2679,16,34460,0,0,2,0,0,1265412,0,0,0,-1
 34462,Section 13,,1982,14,34463,0,0,2,0,0,1266003,0,0,16,-1
 34463,Section 7,,1982,10,16000,34465,34464,2,0,0,1265419,0,2,4128,0
 34464,Section 9,,1982,15,16000,0,34467,2,0,0,1265464,0,0,0,-1
@@ -26921,7 +26912,7 @@ $bullet;|cFF2959D3|Hspell: 467620|h[Rampage]|h|r inflicts sustained damage to Co
 34471,Section 44,,2795,61,33000,0,34472,2,0,0,1246621,0,0,4,-1
 34472,Section 45,,2795,62,33000,34473,33320,2,0,0,1257085,0,2,136,0
 34473,Section 46,,2795,63,34472,0,0,2,0,0,1257093,0,0,0,-1
-34474,Section 44,,2740,92,33740,0,0,2,0,0,1263253,0,0,16,-1
+34474,Section 44,,2740,122,33740,0,0,2,0,0,1263253,0,0,16,-1
 34475,Section 13,,2680,8,31527,0,31528,2,0,0,1266241,0,2,8,2
 34476,Section 22,,2812,21,33961,0,34199,2,0,0,1253909,0,0,0,-1
 34479,Section 42,,2739,33,34228,0,34480,2,0,0,1244348,0,0,4,-1
@@ -26935,9 +26926,9 @@ $bullet;|cFF2959D3|Hspell: 467620|h[Rampage]|h|r inflicts sustained damage to Co
 34492,Section 18,,2811,11,33887,0,0,2,0,0,1266706,0,0,0,-1
 34493,Section 11,,2815,9,34047,35245,34048,2,0,0,1266713,0,0,0,-1
 34494,Section 5,,2814,6,34346,0,33460,2,0,0,1247976,0,2,32,3
-34496,Section 13,,2740,106,33639,0,34000,2,0,0,1249796,0,0,4,-1
-34497,Section 49,,2740,101,33639,34498,33975,2,0,0,1266897,0,2,8,0
-34498,Section 50,,2740,102,34497,0,0,2,0,0,1266898,0,0,16,-1
+34496,Section 13,,2740,156,33639,0,0,2,0,0,1249796,0,0,4,-1
+34497,Section 49,,2740,132,33639,34498,35367,2,0,0,1266897,0,2,8,0
+34498,Section 50,,2740,133,34497,0,0,2,0,0,1266898,0,0,16,-1
 34501,Section 22,,2735,9,33244,0,33898,2,0,0,1244413,0,3,0,0
 34502,Section 22,,2735,11,33244,0,33899,2,0,0,1252157,0,3,0,0
 34503,Section 33,,2735,13,33244,0,0,2,0,0,1266570,0,2,4096,0
@@ -26970,7 +26961,7 @@ On Mythic difficulty, Chimaerus casts Alndust Upheaval before retreating to the 
 34546,Voidmaw,"$[!16 On Mythic difficulty, at 35% health remaining the Voidmaw rushes towards the nearest void-claimed space to restore its health.",2733,30,32191,34547,35114,1,137402,0,0,0,0,4096,-1
 34547,Section 16,,2733,31,34546,0,34548,2,0,0,1255683,0,0,0,-1
 34548,Section 24,,2733,32,34546,0,0,2,0,0,1264164,0,0,0,-1
-34555,Section 10,,2740,99,33634,0,33637,2,0,0,1249582,0,0,0,-1
+34555,Section 10,,2740,130,33635,0,33637,2,0,0,1249582,0,0,0,-1
 34556,Section 14,,2662,13,0,0,0,2,0,0,1271066,0,0,1,-1
 34557,Section 14,,2662,9,31292,0,0,2,0,0,1269631,0,0,0,-1
 34559,Section 39,"$[!14
@@ -27044,10 +27035,10 @@ $bullet;A Resilient Keystone does not drop below its Resilient Level when a dung
 34751,Section 17,,2870,10,34729,0,34722,2,140396,0,1272893,0,0,0,-1
 34752,Section 5,,2813,5,0,0,34895,2,0,0,1251579,0,1,0,-1
 34753,Section 61,,2795,31,32998,35018,0,2,0,0,1245396,0,0,0,-1
-34844,Section 8,,2740,15,35357,34845,0,2,0,0,1244412,0,0,0,-1
-34845,Section 9,,2740,16,34844,0,34846,2,0,0,1249609,0,0,0,-1
-34846,Section 10,,2740,17,34844,0,34847,2,0,0,1249582,0,0,0,-1
-34847,Section 11,,2740,18,34844,0,0,2,0,0,1249584,0,0,16,-1
+34844,Section 8,,2740,18,35357,34845,0,2,0,0,1244412,0,0,0,-1
+34845,Section 9,,2740,19,34844,34846,0,2,0,0,1249609,0,0,0,-1
+34846,Section 10,,2740,20,34845,0,34847,2,0,0,1249582,0,0,0,-1
+34847,Section 11,,2740,21,34845,0,0,2,0,0,1249584,0,0,16,-1
 34848,Section 10,,2736,29,0,34849,33446,2,0,0,1254081,0,2,0,0
 34849,Fractured Image,,2736,30,34848,34850,0,1,137185,0,0,0,1,0,-1
 34850,Section 24,,2736,31,34849,0,0,2,0,0,1254088,0,1,64,-1
@@ -27077,9 +27068,9 @@ $bullet; |cFF2959D3|Hspell:1258427|h[Radiant Flare]|h|r inflicts substantial dam
 34897,Section 38,,2737,6,34866,0,34898,2,0,0,1272471,0,2,4096,0
 34898,Section 40,,2737,7,34866,0,34899,2,0,0,1272700,0,2,4096,0
 34899,Section 39,,2737,8,34866,0,0,2,0,0,1272699,0,2,4096,0
-34900,Section 56,,2740,88,33639,34901,33740,2,0,0,1274455,0,2,4096,0
-34901,Section 57,,2740,89,34900,0,34902,2,0,0,1276529,0,2,4112,0
-34902,Section 57,,2740,90,34900,0,0,2,0,0,1276062,0,2,4096,0
+34900,Section 56,,2740,125,33639,34901,33634,2,0,0,1274455,0,2,4096,0
+34901,Section 57,,2740,126,34900,0,34902,2,0,0,1276529,0,2,16,0
+34902,Section 57,,2740,127,34900,0,0,2,0,0,1276062,0,2,0,0
 34903,Bedrock Slam,,2769,8,32514,34904,32515,2,0,0,1234753,0,2,1,3
 34904,Fertile Loam,,2769,9,34903,0,0,2,0,0,1234782,0,0,0,-1
 34905,Section 24,,2769,12,32515,0,0,2,0,0,1276586,0,0,4100,-1
@@ -27145,23 +27136,23 @@ In Mythic difficulty, Abyssal Voidshapers gain multiple applications of |cFF2959
 35018,Section 61,,2795,32,34753,0,0,2,0,0,1245844,0,0,16,-1
 35034,Section 26,,2769,16,32683,0,35035,2,0,0,1235729,0,0,0,-1
 35035,Section 27,,2769,17,32683,0,0,2,0,0,1235751,0,1,16,-1
-35036,Intermission: Total Eclipse,Witness the light fade and fracture.,2740,62,0,35037,33638,0,0,0,0,0,0,0,-1
-35037,Section 14,,2740,63,35036,0,35040,2,0,0,1260261,0,0,4,-1
-35038,Section 14,,2740,65,35036,0,35418,2,0,0,1282441,0,0,0,-1
-35040,Section 51,,2740,64,35036,0,35038,2,0,0,1285561,0,0,16,-1
-35041,Section 35,,2740,67,35036,0,0,2,0,0,1282027,0,0,16,-1
+35036,Intermission: Total Eclipse,Witness the light fade and fracture.,2740,57,0,35041,33638,0,0,0,0,0,0,0,-1
+35037,Section 14,,2740,60,35036,35434,35038,2,0,0,1260261,0,0,32,-1
+35038,Section 14,,2740,63,35036,0,35450,2,0,0,1282441,0,0,0,-1
+35040,Section 51,,2740,59,35036,0,35037,2,0,0,1285561,0,0,16,-1
+35041,Section 35,,2740,58,35036,0,35040,2,0,0,1282027,0,0,16,-1
 35064,Section 13,,966,10,8842,0,0,2,0,0,1281874,0,0,0,-1
 35065,Section 13,,966,7,11056,0,0,2,0,0,1281874,0,0,0,-1
-35067,Section 63,,2740,69,33638,34242,35273,2,0,0,1282034,0,0,0,-1
-35068,Section 64,,2740,86,33638,0,0,2,0,0,1282008,0,0,4,-1
-35069,Section 32,,2740,104,33639,35070,34496,2,0,0,1263970,0,0,1,-1
-35070,Section 45,,2740,105,35069,0,0,2,0,0,1265842,0,0,0,-1
+35067,Section 63,,2740,80,33638,34242,35273,2,0,0,1282034,0,0,32,-1
+35068,Section 64,,2740,82,35067,0,0,2,0,0,1282008,0,0,0,-1
+35069,Section 32,,2740,154,33639,35070,34496,2,0,0,1263970,0,0,1,-1
+35070,Section 45,,2740,155,35069,0,0,2,0,0,1265842,0,0,0,-1
 35071,Section 62,,2795,7,32998,35072,32999,2,0,0,1282001,0,3,32,0
 35072,Section 63,,2795,8,35071,0,0,2,0,0,1245698,0,0,0,-1
 35094,Section 17,,2514,11,0,0,29859,2,0,0,1282251,0,0,1,-1
 35104,Section 21,,609,11,34373,0,0,2,0,0,1264299,0,0,0,-1
 35105,Section 22,,609,21,34369,0,0,2,0,0,1264299,0,0,0,-1
-35106,Section 67,,2740,80,35273,35275,35309,2,0,0,1282412,0,0,0,-1
+35106,Section 67,,2740,96,35273,35440,34243,2,0,0,1282412,0,0,4,-1
 35110,Voidbound Annihilator,,2733,21,34566,35135,0,1,137387,0,0,0,0,0,-1
 35111,Section 72,,2733,23,35110,0,0,2,0,0,1274846,0,0,0,-1
 35114,Shadowguard Stalwart,,2733,33,32191,35115,35116,1,129818,0,0,0,0,0,-1
@@ -27181,8 +27172,8 @@ In Mythic difficulty, Abyssal Voidshapers gain multiple applications of |cFF2959
 35128,Section 17,,1979,12,15884,0,0,2,0,0,244588,0,0,4096,-1
 35129,Section 10,,2814,11,33910,0,33912,2,0,0,1282679,0,0,0,-1
 35130,Section 11,,2814,14,33909,0,33911,2,0,0,1282722,0,0,64,-1
-35131,Section 13,,2740,93,33639,35132,33642,2,0,0,1266622,0,2,32,0
-35132,Section 44,,2740,94,35131,0,0,2,0,0,1266113,0,0,0,-1
+35131,Section 13,,2740,123,33639,0,33975,2,0,0,1266622,0,0,16,-1
+35132,Section 44,,2740,147,34422,0,35485,2,0,0,1266113,0,0,32,-1
 35135,Section 71,,2733,22,35110,0,35111,2,0,0,1255702,0,0,64,-1
 35136,Section 19,,2656,17,31248,0,31262,2,0,0,1282272,0,0,0,-1
 35137,Section 10,,2778,5,0,35138,33171,2,0,0,1243002,0,3,32,3
@@ -27261,48 +27252,47 @@ $bullet;|cFF2959D3|Hspell:1284954|h[Cosmic Sting]|h|r inflicts heavy damage and 
 $bullet;|cFF2959D3|Hspell:1224299|h[Astral Grasp]|h|r pulls players towards their respective Gemellus.",2660,6,30540,0,30542,3,0,0,0,0,0,4,-1
 35245,Section 7,,2815,10,34493,0,0,2,0,0,1255389,0,0,0,-1
 35249,Section 20,,967,13,33940,0,10580,2,0,0,1253424,0,0,0,-1
-35272,Section 67,,2740,72,35273,0,35314,2,0,0,1284525,0,2,0,0
-35273,Section 69,,2740,71,33638,35272,34243,2,0,0,1282246,0,0,32,-1
+35272,Section 67,,2740,84,35273,35316,35488,2,0,0,1284525,0,2,0,0
+35273,Section 69,,2740,83,33638,35272,35464,2,0,0,1282246,0,1,0,-1
 35274,Section 70,"$[!16
-On Mythic difficulty, Cosmic Fission reaches Criticality.$]",2740,77,35273,35319,35106,2,0,0,1282249,0,2,4096,0
-35275,Section 69,,2740,81,35106,0,0,2,0,0,1282373,0,0,0,-1
+On Mythic difficulty, Cosmic Fission reaches Criticality.$]",2740,93,35314,35319,0,2,0,0,1282249,0,0,4096,-1
 35278,Section 26,"$[!15 
 
 On Heroic difficulty, Averzian and his soldiers gain |cFF2959D3|Hspell:1253918 |h[Imperator's Glory]|h|r while within 10 yards of each other.",2733,54,0,0,34412,2,0,0,1253918,0,2,8,0
 35306,Section 14,,2662,11,31278,35307,0,2,0,0,1284627,0,0,4224,-1
 35307,Section 15,,2662,12,35306,0,0,2,0,0,1284628,0,0,0,-1
-35309,Section 74,,2740,82,35273,0,0,2,0,0,1284638,0,0,0,-1
-35311,Section 69,,2740,79,35274,0,0,2,0,0,1282373,0,0,0,-1
-35312,Section 31,,2740,55,34422,0,0,2,0,0,1282458,0,0,0,-1
+35309,Section 74,,2740,100,34243,0,0,2,0,0,1284638,0,0,16,-1
+35311,Section 69,,2740,95,35274,0,0,2,0,0,1282373,0,0,16,-1
+35312,Section 31,,2740,152,34422,0,34424,2,0,0,1282458,0,0,16,-1
 35314,Section 67,"$[!15,16
-On Heroic difficulty, Galvanize discharges an Overkill Current.$]",2740,73,35273,35315,35316,2,0,0,1284525,0,2,8,0
-35315,Section 76,,2740,74,35314,0,0,2,0,0,1285827,0,2,8,0
-35316,Section 70,,2740,75,35273,35317,35274,2,0,0,1282249,0,2,0,0
-35317,Section 69,,2740,76,35316,0,0,2,0,0,1282373,0,0,0,-1
-35319,Section 80,,2740,78,35274,0,35311,2,0,0,1281184,0,2,4096,0
+On Heroic difficulty and above, Galvanize discharges an Overkill Current.$]",2740,91,35273,35315,35106,2,0,0,1284525,0,2,4096,0
+35315,Section 76,,2740,92,35314,0,35274,2,0,0,1285827,0,0,8,-1
+35316,Section 70,,2740,85,35272,35317,0,2,0,0,1282249,0,0,0,-1
+35317,Section 69,,2740,86,35316,0,0,2,0,0,1282373,0,0,0,-1
+35319,Section 80,,2740,94,35274,0,35311,2,0,0,1281184,0,0,4096,-1
 35320,Section 10,,2735,14,33241,0,33242,2,0,0,1244221,0,2,128,0
-35321,Section 8,,2740,6,32197,35322,35325,2,0,0,1244412,0,2,32,0
-35322,Section 9,,2740,7,35321,0,35323,2,0,0,1249609,0,0,0,-1
-35323,Section 10,,2740,8,35321,0,35324,2,0,0,1249582,0,0,0,-1
-35324,Section 11,,2740,9,35321,0,0,2,0,0,1249584,0,0,16,-1
+35321,Section 8,,2740,9,32197,35322,35325,2,0,0,1244412,0,2,32,0
+35322,Section 9,,2740,10,35321,35323,0,2,0,0,1249609,0,0,0,-1
+35323,Section 10,,2740,11,35322,0,35324,2,0,0,1249582,0,0,0,-1
+35324,Section 11,,2740,12,35322,0,0,2,0,0,1249584,0,0,16,-1
 35325,Section 8,"$[!15
-On Heroic difficulty, the number of notes increases with each melody.$]",2740,10,32197,35326,35357,2,0,0,1244412,0,2,8,0
-35326,Section 9,,2740,11,35325,0,35327,2,0,0,1249609,0,0,0,-1
-35327,Section 10,,2740,12,35325,0,35328,2,0,0,1249582,0,0,0,-1
-35328,Section 11,,2740,13,35325,0,0,2,0,0,1249584,0,0,16,-1
+On Heroic difficulty, the number of notes increases with each melody.$]",2740,13,32197,35326,35357,2,0,0,1244412,0,2,8,0
+35326,Section 9,,2740,14,35325,35327,0,2,0,0,1249609,0,0,0,-1
+35327,Section 10,,2740,15,35326,0,35328,2,0,0,1249582,0,0,0,-1
+35328,Section 11,,2740,16,35326,0,0,2,0,0,1249584,0,0,16,-1
 35329,Voidorb,,2735,24,33245,33262,0,1,142710,0,0,0,1,2,-1
 35330,Section 55,,2733,48,0,0,33965,2,0,0,1284786,0,0,0,-1
 35334,Mythic Level 5,$bullet;One of |cFF2959D3|Hspell:461870|h[Xal'atath's Bargains]|h|r becomes active. Rotates weekly.,2870,2,34716,0,34718,3,0,0,0,0,0,0,-1
 35335,Mythic Level 2,$bullet;|cFF2959D3|Hspell:1284818|h[Lindormi's Guidance]|h|r becomes active.,2870,4,34716,0,34717,3,0,0,0,0,0,0,-1
-35336,Section 16,,2740,19,32197,35337,33737,2,0,0,1251386,0,2,32,0
-35337,Safeguard Matrix,,2740,20,35336,35338,35339,1,136326,0,0,0,1,0,-1
-35338,Section 18,,2740,21,35337,0,0,2,0,0,1251392,0,0,192,-1
-35339,Section 19,,2740,22,35336,35340,0,2,0,0,1251649,0,1,0,-1
-35340,Midnight Crystal,A dark Naaru fragment beyond saving.,2740,23,35339,35341,35342,1,136356,0,0,0,0,2,-1
-35341,Section 24,,2740,24,35340,0,0,2,0,0,1251789,0,0,0,-1
-35342,Dusk Crystal,A dimming Naaru fragment that may be restored.,2740,25,35339,35343,35367,1,136357,0,0,0,0,4,-1
-35343,Section 22,,2740,26,35342,0,35344,2,0,0,1252974,0,0,0,-1
-35344,Section 23,,2740,27,35342,0,0,2,0,0,1251807,0,0,0,-1
+35336,Section 16,,2740,22,32197,35337,33737,2,0,0,1251386,0,2,32,0
+35337,Safeguard Matrix,,2740,23,35336,35338,35339,1,136326,0,0,0,1,0,-1
+35338,Section 18,,2740,24,35337,0,0,2,0,0,1251392,0,0,192,-1
+35339,Section 19,,2740,25,35336,35340,0,2,0,0,1251649,0,1,0,-1
+35340,Midnight Crystal,A dark Naaru fragment beyond saving.,2740,26,35339,35341,35342,1,136356,0,0,0,0,2,-1
+35341,Section 24,,2740,27,35340,0,0,2,0,0,1251789,0,0,16,-1
+35342,Dusk Crystal,A dimming Naaru fragment that may be restored.,2740,28,35339,35343,35441,1,136357,0,0,0,0,4,-1
+35343,Section 22,,2740,29,35342,35344,0,2,0,0,1252974,0,0,0,-1
+35344,Section 23,,2740,30,35343,0,0,2,0,0,1251807,0,0,16,-1
 35353,Section 17,,2870,8,0,0,34729,2,0,0,1284818,0,0,0,-1
 35354,Damage Dealers,"$[23$bullet; Gemellus maintains a damage absorb shield until its |cFF2959D3|Hspell:1253707|h[Neural Link]|h|r is broken.$]
 $bullet;|cFF2959D3|Hspell:1224299|h[Astral Grasp]|h|r pulls players towards their respective Gemellus.
@@ -27313,23 +27303,89 @@ $bullet;|cFF2959D3|Hspell:1224299|h[Astral Grasp]|h|r pulls players towards thei
 35356,Tanks,"$[23$bullet; Gemellus maintains a damage absorb shield until its |cFF2959D3|Hspell:1253707|h[Neural Link]|h|r is broken.$]
 $bullet;|cFF2959D3|Hspell:1224299|h[Astral Grasp]|h|r pulls players towards their respective Gemellus.
 $bullet;|cFF2959D3|Hspell:1283904|h[Cosmic Sting]|h|r inflicts heavy damage and creates |cFF2959D3|Hspell:1224100|h[Void Secretions]|h|r.",2660,8,30540,0,35242,3,0,0,0,0,2,1,0
-35357,Section 106,,2740,14,32197,34844,35336,2,0,0,1284980,0,2,4096,0
+35357,Section 106,,2740,17,32197,34844,35336,2,0,0,1284980,0,2,4096,0
 35359,Section 64,,2795,16,34245,0,0,2,0,0,1245919,0,2,0,0
-35360,Dawn Crystal,"A purified Naaru fragment that can be carried.
+35360,Dawn Crystal,"A purified Naaru fragment that can be held by players.
 $[!15
-On Heroic difficulty, Dawn Crystals erupt Tears of L'ura when hit directly by Cosmic damage.$]",2740,32,35339,35371,0,1,137188,0,0,0,2,40,0
-35361,Section 22,,2740,36,35360,0,35362,2,0,0,1254398,0,0,0,-1
-35362,Section 23,,2740,37,35360,0,35366,2,0,0,1253104,0,0,0,-1
-35366,Section 31,,2740,38,35360,0,0,2,0,0,1282458,0,0,0,-1
-35367,Dawn Crystal,A purified Naaru fragment that can be carried.,2740,28,35339,35368,35360,1,137188,0,0,0,2,32,0
-35368,Section 22,,2740,29,35367,0,35369,2,0,0,1254398,0,0,0,-1
-35369,Section 23,,2740,30,35367,0,35370,2,0,0,1253104,0,0,0,-1
-35370,Section 31,,2740,31,35367,0,0,2,0,0,1282458,0,0,0,-1
-35371,Section 29,,2740,33,35360,35372,35361,2,0,0,1254262,0,0,8,-1
-35372,Section 30,,2740,34,35371,0,35373,2,0,0,1254256,0,2,0,0
-35373,Section 30,,2740,35,35371,0,0,2,0,0,1254256,0,2,16,0
-35404,Section 108,,2740,57,32197,0,33989,2,0,0,1279420,0,0,16,-1
+On Heroic difficulty, Dawn Crystals may shed Tears of L'ura.$]",2740,34,35339,35371,0,1,137188,0,0,0,2,8,0
+35361,Section 22,,2740,38,35360,0,0,2,0,0,1254398,0,0,0,-1
+35366,Section 31,,2740,37,35360,0,35361,2,0,0,1282458,0,0,16,-1
+35367,Dawn Crystal,A purified Naaru fragment that can be held by players.,2740,134,33639,35486,35479,1,137188,0,0,0,2,32,0
+35368,Section 22,,2740,138,35367,0,0,2,0,0,1254398,0,0,0,-1
+35370,Section 31,,2740,137,35367,0,35368,2,0,0,1282458,0,0,16,-1
+35371,Section 29,,2740,35,35360,35373,35366,2,0,0,1254262,0,0,8,-1
+35373,Section 30,,2740,36,35371,0,0,2,0,0,1254256,0,0,16,-1
+35404,Section 108,,2740,7,32197,0,33988,2,0,0,1279420,0,0,16,-1
 35408,Section 22,,2747,16,33677,0,0,2,0,0,1241137,0,0,0,-1
 35411,Section 16,,2495,8,25214,0,0,2,0,0,1285508,0,0,0,-1
 35412,Section 20,,2734,6,33252,0,0,2,0,0,1280101,0,1,16,-1
-35418,Section 108,,2740,66,35036,0,35041,2,0,0,1249796,0,0,4,-1
+35418,Section 108,,2740,78,35036,0,0,2,0,0,1249796,0,0,4,-1
+35434,Section 104,,2740,61,35037,0,35435,2,0,0,1262055,0,0,4,-1
+35435,Section 105,,2740,62,35037,0,0,2,0,0,1285685,0,0,0,-1
+35438,Section 107,,2740,117,33638,0,0,2,0,0,1249796,0,0,4,-1
+35439,Section 108,,2740,98,35106,0,0,2,0,0,1282373,0,2,16,0
+35440,Section 108,,2740,97,35106,0,35439,2,0,0,1282373,0,2,0,0
+35441,Dawn Crystal,A purified Naaru fragment that can be held by players.,2740,31,35339,35442,35360,1,137188,0,0,0,2,32,0
+35442,Section 31,,2740,32,35441,0,35443,2,0,0,1282458,0,0,16,-1
+35443,Section 22,,2740,33,35441,0,0,2,0,0,1254398,0,0,0,-1
+35444,Dawn Crystal,"A purified Naaru fragment that can be held by players.
+$[!16
+On Mythic difficulty, Dawn Crystals are at risk of Light's End.$]",2740,48,33741,35445,0,1,137188,0,0,0,0,4096,-1
+35445,Section 31,,2740,49,35444,0,35446,2,0,0,1284699,0,0,4112,-1
+35446,Section 29,,2740,50,35444,35447,35448,2,0,0,1254262,0,0,8,-1
+35447,Section 30,,2740,51,35446,0,0,2,0,0,1254256,0,0,16,-1
+35448,Section 31,,2740,52,35444,0,35449,2,0,0,1282458,0,0,16,-1
+35449,Section 22,,2740,53,35444,0,0,2,0,0,1254398,0,0,0,-1
+35450,Dawn Crystal,A purified Naaru fragment that can be held by players.,2740,64,35036,35451,35453,1,137188,0,0,0,2,0,0
+35451,Section 31,,2740,65,35450,0,35452,2,0,0,1282458,0,0,16,-1
+35452,Section 22,,2740,66,35450,0,0,2,0,0,1254398,0,0,0,-1
+35453,Dawn Crystal,"A purified Naaru fragment that can be held by players.
+$[!15
+On Heroic difficulty, Dawn Crystals may shed Tears of L'ura.$]",2740,67,35036,35454,35458,1,137188,0,0,0,2,8,0
+35454,Section 29,,2740,68,35453,35455,35456,2,0,0,1254262,0,0,8,-1
+35455,Section 30,,2740,69,35454,0,0,2,0,0,1254256,0,0,16,-1
+35456,Section 31,,2740,70,35453,0,35457,2,0,0,1282458,0,0,16,-1
+35457,Section 22,,2740,71,35453,0,0,2,0,0,1254398,0,0,0,-1
+35458,Dawn Crystal,"A purified Naaru fragment that can be held by players.
+$[!16
+On Mythic difficulty, Dawn Crystals are at risk of Light's End.$]",2740,72,35036,35459,35418,1,137188,0,0,0,2,4096,0
+35459,Section 31,,2740,73,35458,0,35460,2,0,0,1284699,0,0,4112,-1
+35460,Section 29,,2740,74,35458,35461,35462,2,0,0,1254262,0,0,8,-1
+35461,Section 30,,2740,75,35460,0,0,2,0,0,1254256,0,0,16,-1
+35462,Section 31,,2740,76,35458,0,35463,2,0,0,1282458,0,0,16,-1
+35463,Section 22,,2740,77,35458,0,0,2,0,0,1254398,0,0,0,-1
+35464,Dawn Crystal,A purified Naaru fragment that can be held by players.,2740,101,33638,35465,35467,1,137188,0,0,0,2,32,0
+35465,Section 31,,2740,102,35464,0,35466,2,0,0,1282458,0,0,16,-1
+35466,Section 22,,2740,103,35464,0,0,2,0,0,1254398,0,0,0,-1
+35467,Dawn Crystal,"A purified Naaru fragment that can be held by players.
+$[!15
+On Heroic difficulty, Dawn Crystals may shed Tears of L'ura.$]",2740,104,33638,35468,35472,1,137188,0,0,0,2,8,0
+35468,Section 29,,2740,105,35467,35469,35470,2,0,0,1254262,0,0,8,-1
+35469,Section 30,,2740,106,35468,0,0,2,0,0,1254256,0,0,16,-1
+35470,Section 31,,2740,107,35467,0,35471,2,0,0,1282458,0,0,16,-1
+35471,Section 22,,2740,108,35467,0,0,2,0,0,1254398,0,0,0,-1
+35472,Dawn Crystal,"A purified Naaru fragment that can be held by players.
+$[!16
+On Mythic difficulty, Dawn Crystals are at risk of Light's End.$]",2740,109,33638,35473,33990,1,137188,0,0,0,2,4096,0
+35473,Section 31,,2740,110,35472,0,35474,2,0,0,1284699,0,0,4112,-1
+35474,Section 29,,2740,111,35472,35475,35476,2,0,0,1254262,0,0,8,-1
+35475,Section 30,,2740,112,35474,0,0,2,0,0,1254256,0,0,16,-1
+35476,Section 31,,2740,113,35472,0,35477,2,0,0,1282458,0,0,16,-1
+35477,Section 22,,2740,114,35472,0,0,2,0,0,1254398,0,0,0,-1
+35478,Section 152,,2740,136,35367,0,35370,2,0,0,1253104,0,0,0,-1
+35479,Dawn Crystal,"A purified Naaru fragment that can be held by players.
+$[!15
+On Heroic difficulty, Dawn Crystals may shed Tears of L'ura.$]",2740,139,33639,35487,34422,1,137188,0,0,0,2,8,0
+35480,Section 152,,2740,141,35479,0,35481,2,0,0,1253104,0,0,32,-1
+35481,Section 29,,2740,142,35479,35482,35483,2,0,0,1254262,0,0,8,-1
+35482,Section 30,,2740,143,35481,0,0,2,0,0,1254256,0,0,16,-1
+35483,Section 31,,2740,144,35479,0,35484,2,0,0,1282458,0,0,16,-1
+35484,Section 22,,2740,145,35479,0,0,2,0,0,1254398,0,0,0,-1
+35485,Section 152,,2740,148,34422,0,34423,2,0,0,1253104,0,0,32,-1
+35486,Section 44,,2740,135,35367,0,35478,2,0,0,1266113,0,0,32,-1
+35487,Section 44,,2740,140,35479,0,35480,2,0,0,1266113,0,0,32,-1
+35488,Section 67,"$[!15,16
+On Heroic difficulty and above, Galvanize discharges an Overkill Current.$]",2740,87,35273,35489,35314,2,0,0,1284525,0,2,8,0
+35489,Section 76,,2740,88,35488,0,35490,2,0,0,1285827,0,0,8,-1
+35490,Section 70,,2740,89,35488,35491,0,2,0,0,1282249,0,0,0,-1
+35491,Section 69,,2740,90,35490,0,0,2,0,0,1282373,0,0,16,-1

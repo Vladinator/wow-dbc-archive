@@ -1,4 +1,4 @@
-ID,Name_lang,Description_lang,CategoryID,InventoryIconFileID,SpellWeight,SpellCategory,MaxQty,MaxEarnablePerWeek,Quality,FactionID,ItemGroupSoundsID,XpQuestDifficulty,AwardConditionID,MaxQtyWorldStateID,RechargingAmountPerCycle,RechargingCycleDurationMS,WarbondTransferPercentage,OrderIndex,Field_12_0_0_64124_018,Field_12_0_0_64124_019,MCRCurrencyID,Flags[0],Flags[1]
+ID,Name_lang,Description_lang,CategoryID,InventoryIconFileID,SpellWeight,SpellCategory,MaxQty,MaxEarnablePerWeek,Quality,FactionID,ItemGroupSoundsID,XpQuestDifficulty,AwardConditionID,MaxQtyWorldStateID,RechargingAmountPerCycle,RechargingCycleDurationMS,WarbondTransferPercentage,OrderIndex,RecraftReagentCountPercentage,OrderSource,MCRCurrencyID,Flags[0],Flags[1]
 42,Badge of Justice,,1,135884,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 61,Dalaran Jewelcrafter's Token,Tiffany Cartier's shop in Dalaran will gladly accept these tokens for unique jewelcrafting recipes.,21,134138,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 81,Epicurean's Award,"Visit special cooking vendors in capital cities and Northrend Dalaran to purchase unusual cooking recipes, spices, and even a fine hat!",1,134411,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -1578,7 +1578,7 @@ If you fall behind on Fractured Sparks of Radiance, completing max-level content
 Used at Renown Quartermasters and other vendors across Midnight zones.",264,7137586,0,0,0,0,1,0,240,0,0,0,0,0,100,0,0,0,0,134217730,0
 3317,Renown - Season 1 Delves,[DNT],142,0,0,0,10,0,6,0,0,0,0,0,0,0,0,0,0,0,0,85721088,0
 3318,Delver's Journey,Grants Delver's Journey progress.,142,4635200,0,0,0,0,1,2742,0,0,150245,0,0,0,0,0,0,0,0,4194314,0
-3319,Twilight's Blade Insignia,Given to members of the Twilight's Blade cult as part of their initiation. Vendors at the Ascension Basecamp in the Twilight Highlands will accept this as evidence of your efforts to thwart the cultist activity.,260,7195171,0,0,0,0,2,0,24,0,0,0,0,0,100,0,0,0,0,1048576,32
+3319,Twilight's Blade Insignia,Given to members of the Twilight's Blade cult as part of their initiation. Vendors at the Ascension Basecamp in the Twilight Highlands will accept this as evidence of your efforts to thwart the cultist activity.,264,7195171,0,0,0,0,2,0,24,0,0,0,0,0,100,0,0,0,0,1048576,32
 3341,Veteran Dawncrest,"Used to upgrade Veteran equipment in Midnight Season 1 up to item levels 237-250.  
 
 When used for crafting, sets the item level of the resulting item to 233-246 based on Quality.
@@ -1645,21 +1645,21 @@ Earned from the following activities:
 3351,Social Meter,,21,237554,0,0,100,0,0,0,0,0,0,0,1,3456,0,0,0,0,0,1572864,0
 3352,Party Favor,,264,669449,0,0,0,0,3,0,21,0,0,0,0,0,100,0,0,0,0,2,32
 3354,The Amani Tribe,Grants Reputation with the Amani Tribe.,142,7505698,0,0,0,0,1,2696,238,0,0,0,0,0,0,0,0,0,0,10,0
-3355,Renown - The Amani Tribe,[DNT],142,7505698,0,0,20,0,6,0,238,0,0,0,0,0,0,0,0,0,0,85721088,0
+3355,Renown - The Amani Tribe,[DNT],142,7505698,0,0,20,0,6,0,238,0,0,31021,0,0,0,0,0,0,0,85721088,0
 3356,Untainted Mana-Crystals,Can be earned after reaching rank 9 of the Delver's Journey. May be obtained from opening Bountiful Coffers with Restored Coffer Keys inside of bountiful delves at Tier 11. Can be traded with Zah'ran for powerful equipment.,265,132849,0,0,1000,250,4,0,0,0,0,0,0,0,0,0,0,0,0,100671490,0
 3360,[DNT] 11.1.5 Midseason - Turbo-Boost Quest Turn-In Tracker,,142,0,0,0,9,0,0,0,0,0,0,29245,0,0,0,0,0,0,0,102236160,1
 3363,Community Coupons,Earned from completing Endeavor tasks to support your neighborhood and its friends. Used to purchase items from Endeavor Traders.,1,134495,0,0,500,0,2,0,0,0,0,0,0,0,100,0,0,0,0,0,0
 3364,[DNT] 11.2.5 Midseason - Turbo-Boost Quest Turn-In Tracker,,142,0,0,0,9,0,0,0,0,0,0,29600,0,0,0,0,0,0,0,102236160,1
 3365,Silvermoon Court,Grants Reputation with the Silvermoon Court.,142,7505700,0,0,0,0,1,2710,238,0,0,0,0,0,0,0,0,0,0,10,0
-3369,Renown - The Hara'ti,[DNT],142,7505704,0,0,20,0,6,0,238,0,0,0,0,0,0,0,0,0,0,85721088,0
+3369,Renown - The Hara'ti,[DNT],142,7505704,0,0,20,0,6,0,238,0,0,31023,0,0,0,0,0,0,0,85721088,0
 3370,The Hara'ti,Grants Reputation with the Hara'ti.,142,7505704,0,0,0,0,1,2704,238,0,0,0,0,0,0,0,0,0,0,10,0
-3371,Renown - Silvermoon Court,[DNT],142,7505700,0,0,20,0,6,0,238,0,0,0,0,0,0,0,0,0,0,85721088,0
+3371,Renown - Silvermoon Court,[DNT],142,7505700,0,0,20,0,6,0,238,0,0,31024,0,0,0,0,0,0,0,85721088,0
 3372,Bronze,A mote of time compressed into a bronze coin. The infinite dragonflight will trade this for cosmetic rewards.,142,4638724,0,0,9999999,0,1,0,237,0,0,0,0,0,0,0,0,0,0,72892418,256
 3373,Angler Pearls,Primarily found in the Zul'Aman Depths and used exclusively in trade with Depthdiver Jeju and Depthdiver Tu'nakit.,264,348545,0,0,0,0,2,0,238,0,5793,0,0,0,100,0,0,0,0,2,0
 3375,[DNT] Moth Hunt Tracking Currency,[DNT] Tracks number of moths gathered across account,142,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,89653248,0
 3376,Shard of Dundun,Offer at an Abundant location to be rewarded with Unalloyed Abundance after the harvest.,264,134569,0,0,8,8,3,0,24,0,0,0,0,0,0,0,0,0,0,2097282,0
 3377,Unalloyed Abundance,"Pure bounty of the land, stirred by the Loa of Abundance and claimed through Abundant Harvests. Used to purchase goods from Chel the Chip.",264,5041790,0,0,0,0,2,0,22,0,0,0,0,0,0,0,0,0,0,0,0
-3378,Dawnlight Manaflux,Dawnlight Manaflux charges the Catalyst and allow it to imbue armor with incredible power. Slowly accumulates every two weeks.,142,4622294,0,0,8,0,4,0,24,0,0,0,1,1209600000,0,0,0,0,0,2,0
+3378,Dawnlight Manaflux,Dawnlight Manaflux charges the Catalyst and allows it to imbue armor with incredible power. Slowly accumulates every two weeks.,142,4622294,0,0,8,0,4,0,24,0,0,0,1,1209600000,0,0,0,0,0,2,0
 3379,Brimming Arcana,Vendors at Saltheril's Haven might be interested in this.,264,132849,0,0,0,0,4,0,21,0,0,0,0,0,100,0,0,0,0,2,0
 3383,Adventurer Dawncrest,"Used to upgrade Adventurer equipment in Midnight Season 1 up to item levels 224-237. 
 
@@ -1672,7 +1672,7 @@ Earned from the following activities:
 3385,Luminous Dust,A fine dust collected from moths found only in Harandar. This can be traded to Mothkeeper Wew'tam.,264,133852,0,0,0,0,2,0,24,0,0,0,0,0,100,0,0,0,0,2,0
 3386,Renown - Prey,Progress in your Prey Journey.,142,7493985,0,0,10,0,6,0,0,0,0,0,0,0,0,0,0,0,0,85721088,0
 3387,Preyseeker's Journey,Progress in your Preyseeker's Journey.,142,7493985,0,0,0,0,3,2764,0,0,150246,0,0,0,0,0,0,0,0,10,0
-3388,Renown - The Singularity,[DNT],142,7505702,0,0,20,0,6,0,238,0,0,0,0,0,0,0,0,0,0,85721088,0
+3388,Renown - The Singularity,[DNT],142,7505702,0,0,20,0,6,0,238,0,0,28538,0,0,0,0,0,0,0,85721088,0
 3389,The Singularity,Grants Reputation with the Singularity.,142,7505702,0,0,0,0,1,2699,238,0,0,0,0,0,0,0,0,0,0,10,0
 3390,Farstriders,Grants Reputation with the Farstriders.,142,450907,0,0,0,0,1,2713,238,0,0,0,0,0,0,0,0,0,0,10,0
 3391,Adventurer Dawncrest,"Used to upgrade Adventurer equipment in Midnight Season 1 up to item levels 224-237. Earned from the following activities:
