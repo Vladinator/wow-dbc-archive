@@ -24063,14 +24063,14 @@ $bullet;|cFF2959D3|Hspell: 1253026|h[Intimidating Shout]|h|r fears players stand
 30469,Overview,"The Restless Heart assails players with |cFF2959D3|Hspell:472556|h[Arrow Rain]|h|r before focusing its fury on a player with |cFF2959D3|Hspell:474528|h[Bolt Gale]|h|r.
 
 Upon reaching 100 energy, the Restless Heart fires a wind-infused arrow that creates an expanding ring of |cFF2959D3|Hspell:468442|h[Billowing Wind]|h|r.",2658,1,0,35168,31265,3,0,0,0,0,0,0,-1
-30470,Damage Dealers,"$bullet;|cFF2959D3|Hspell:1253977|h[Turbulent Arrows]|h|r knock players into the air when touched.
+30470,Damage Dealers,"$bullet;|cFF2959D3|Hspell:1253977|h[Turbulent Arrows]|h|r knock players into the air when touched, removing |cFF2959D3|Hspell:1216042|h[Squall Leap]|h|r.
 $bullet;|cFF2959D3|Hspell:468429|h[Bullseye Windblast]|h|r creates an expanding ring of |cFF2959D3|Hspell:468442|h[Billowing Wind]|h|r.
 $bullet;|cFF2959D3|Hspell:474528|h[Bolt Gale]|h|r launches a continuous volley of arrows towards a player.",2658,3,30469,0,35169,3,0,0,0,0,2,2,3
 30471,Healer,"$bullet;|cFF2959D3|Hspell:474528|h[Bolt Gale]|h|r inflicts heavy damage to the targeted player.
-$bullet;|cFF2959D3|Hspell:1253977|h[Turbulent Arrows]|h|r knock players into the air when touched.
+$bullet;|cFF2959D3|Hspell:1253977|h[Turbulent Arrows]|h|r knock players into the air when touched, removing |cFF2959D3|Hspell:1216042|h[Squall Leap]|h|r.
 $bullet;|cFF2959D3|Hspell:468429|h[Bullseye Windblast]|h|r creates an expanding ring of |cFF2959D3|Hspell:468442|h[Billowing Wind]|h|r.",2658,5,30469,0,35170,3,0,0,0,0,2,4,3
 30472,Tank,"$bullet;|cFF2959D3|Hspell:472662|h[Tempest Slash]|h|r knocks The Restless Heart's primary target away and briefly increases their Physical damage taken.
-$bullet;|cFF2959D3|Hspell:1253977|h[Turbulent Arrows]|h|r knock players into the air when touched.
+$bullet;|cFF2959D3|Hspell:1253977|h[Turbulent Arrows]|h|r knock players into the air when touched, removing |cFF2959D3|Hspell:1216042|h[Squall Leap]|h|r.
 $bullet;|cFF2959D3|Hspell:468429|h[Bullseye Windblast]|h|r creates an expanding ring of |cFF2959D3|Hspell:468442|h[Billowing Wind]|h|r.",2658,7,30469,0,0,3,0,0,0,0,2,1,3
 30473,[PH],,2658,17,31270,0,0,2,0,0,1253986,0,0,0,-1
 30474,Section 24,,2639,27,30779,30162,30116,2,0,0,460603,0,0,0,-1
@@ -24749,7 +24749,7 @@ In Mythic difficulty, Sound Cannon damage is split evenly among players in its p
 31270,Section 9,,2658,16,0,30473,31271,2,0,0,472662,0,0,1,-1
 31271,Section 12,,2658,18,0,0,0,2,0,0,1216042,0,0,0,-1
 31274,Section 7,,2662,6,0,31275,31292,2,0,0,1215087,0,1,32,-1
-31275,Section 8,,2662,7,31274,0,0,2,0,0,1215161,0,0,16,-1
+31275,Section 8,,2662,7,31274,0,0,2,0,0,1215161,0,0,32,-1
 31276,Section 10,,2662,5,0,0,31274,2,0,0,1214714,0,0,32,-1
 31278,Section 11,"$[!23
 
@@ -24777,13 +24777,13 @@ $bullet; Zaen inflicts heavy damage to his current target with |cFF2959D3|Hspell
 31293,Overview,Xathuux the Annihilator's rage increases until he erupts with |cFF2959D3|Hspell:474197|h[Demonic Rage]|h|r and gains |cFF2959D3|Hspell:474231|h[Burning Steps]|h|r.,2681,1,0,31294,31298,3,0,0,0,0,0,0,-1
 31294,Damage Dealers,"$bullet;|cFF2959D3|Hspell:474231|h[Burning Steps]|h|r leaves damaging pools of fel magic on the ground for a long duration.
 
-$bullet;|cFF2959D3|Hspell:1214637|h[Axe Toss]|h|r targets a random player and applies |cFF2959D3|Hspell:1214650  |h[Fel Light]|h|r to all players until the axe is destroyed.",2681,2,31293,0,31296,3,0,0,0,0,0,0,-1
+$bullet;|cFF2959D3|Hspell:1214637|h[Axe Toss]|h|r targets a random player and applies |cFF2959D3|Hspell:1214650  |h[Fel Light]|h|r to all players until the axe is destroyed.",2681,2,31293,0,31296,3,0,0,0,0,0,2,-1
 31295,Tanks,"$bullet;|cFF2959D3|Hspell:473898|h[Legion Strike]|h|r inflicts heavy Physical damage and reduces incoming healing.
 
-$bullet;|cFF2959D3|Hspell:474231|h[Burning Steps]|h|r creates damaging pools of fel magic that expand from Xathuux the Annihilator's location and remain on the ground for a long duration.",2681,4,31293,0,0,3,0,0,0,0,0,0,-1
+$bullet;|cFF2959D3|Hspell:474231|h[Burning Steps]|h|r creates damaging pools of fel magic that expand from Xathuux the Annihilator's location and remain on the ground for a long duration.",2681,4,31293,0,0,3,0,0,0,0,0,1,-1
 31296,Healers,"$bullet;|cFF2959D3|Hspell:473898|h[Legion Strike]|h|r inflicts heavy Physical damage and reduces incoming healing.
 
-$bullet;|cFF2959D3|Hspell:1214637|h[Axe Toss]|h|r targets a random player and applies |cFF2959D3|Hspell:1214650  |h[Fel Light]|h|r to all players until the axe is destroyed.",2681,3,31293,0,31295,3,0,0,0,0,0,0,-1
+$bullet;|cFF2959D3|Hspell:1214637|h[Axe Toss]|h|r targets a random player and applies |cFF2959D3|Hspell:1214650  |h[Fel Light]|h|r to all players until the axe is destroyed.",2681,3,31293,0,31295,3,0,0,0,0,0,4,-1
 31297,Axe Toss,,2681,7,0,32026,31521,2,0,0,1214663,0,1,0,-1
 31298,Section 6,,2681,5,0,31301,31297,2,0,0,474197,0,1,0,-1
 31301,Section 9,,2681,6,31298,0,0,2,0,0,474234,0,0,32,-1
@@ -24796,13 +24796,13 @@ After casting |cFF2959D3|Hspell:474462|h[Fingers of Gul'dan]|h|r Lithiel Cinderf
 Players traveling through Lithiel's |cFF2959D3|Hspell:1214675|h[Demonic Gateway]|h|r are immune to the initial impact and lingering Fire vulnerability from passing through |cFF2959D3|Hspell:1217345|h[Malefic Wave]|h|r.",2682,1,0,31304,31441,3,0,0,0,0,0,0,-1
 31304,Damage Dealers,"$bullet; |cFF2959D3|Hspell:1217345|h[Malefic Wave]|h|r grants |cFF2959D3|Hspell:1226469|h[Malefic Empowerment]|h|r to any summoned demons still alive when it passes over them.
 
-$bullet; |cFF2959D3|Hspell:474375|h[Chaos Bolt]|h|r inflicts high damage to a random target if not interrupted.",2682,2,31303,0,31305,3,0,0,0,0,0,0,-1
+$bullet; |cFF2959D3|Hspell:474375|h[Chaos Bolt]|h|r inflicts high damage to a random target if not interrupted.",2682,2,31303,0,31305,3,0,0,0,0,0,2,-1
 31305,Tanks,"$bullet; |cFF2959D3|Hspell:474375|h[Chaos Bolt]|h|r inflicts high damage to a random target if not interrupted.
 
-$bullet;Furious Vilefiend inflicts heavy damage.",2682,3,31303,0,31306,3,0,0,0,0,0,0,-1
+$bullet;Furious Vilefiend inflicts heavy damage.",2682,3,31303,0,31306,3,0,0,0,0,0,1,-1
 31306,Healers,"$bullet; |cFF2959D3|Hspell:1217345|h[Malefic Wave]|h|r  applies lingering damage over time when players using Lithiel's |cFF2959D3|Hspell:1214675|h[Demonic Gateway]|h|r pass through |cFF2959D3|Hspell:1217345|h[Malefic Wave]|h|r.
 
-$bullet;Furious Vilefiend inflicts heavy damage.",2682,4,31303,0,0,3,0,0,0,0,0,0,-1
+$bullet;Furious Vilefiend inflicts heavy damage.",2682,4,31303,0,0,3,0,0,0,0,0,4,-1
 31307,Section 5,,2682,10,0,31309,34413,2,0,0,474457,0,0,0,-1
 31309,Wild Imp,,2682,11,31307,31310,0,1,77407,0,0,0,0,2,-1
 31310,Section 23,,2682,12,31309,0,0,2,0,0,1223204,0,0,0,-1
@@ -25282,7 +25282,7 @@ In Mythic difficulty, Gemellus Triplicates an additional time.$]",2660,14,0,3199
 31993,Section 9,,2660,16,0,31994,31996,2,0,0,1224299,0,0,0,-1
 31994,Section 10,,2660,17,31993,0,0,2,0,0,1224401,0,0,0,-1
 31995,Section 7,,2660,19,31996,0,0,2,0,0,1224100,0,0,0,-1
-31996,Section 8,,2660,18,0,31995,0,2,0,0,1223957,0,0,4,-1
+31996,Section 8,,2660,18,0,31995,0,2,0,0,1284958,0,0,4,-1
 32007,Section 29,,2641,9,31087,0,31379,2,0,0,1217120,0,2,0,0
 32008,Section 9,"$[!15,16
 On Heroic difficulty, attacks that would otherwise kill the player instead convert them into King's Thrall.$]",2690,11,32227,32009,32273,2,0,0,1224731,0,2,40,0
@@ -25657,9 +25657,9 @@ On Mythic difficulty, if $@spellname1219611 fails to hit at least 5 players, it 
 32423,Section 7,,2679,6,34458,0,32424,2,0,0,1230289,0,1,0,-1
 32424,Section 9,,2679,7,34458,0,32427,2,0,0,1217989,0,0,0,-1
 32426,Section 14,,2679,9,34458,0,32442,2,0,0,1223906,0,2,0,2
-32427,Section 13,,2679,8,34458,0,32426,2,0,0,1230298,0,0,0,-1
+32427,Section 13,,2679,8,34458,0,32426,2,0,0,1230298,0,0,1,-1
 32428,Nibbles,,2679,12,0,32429,0,1,126199,0,0,0,1,0,-1
-32429,Section 11,,2679,13,32428,0,32430,2,0,0,1253811,0,0,16,-1
+32429,Section 11,,2679,13,32428,0,32430,2,0,0,1253811,0,0,0,-1
 32430,Section 12,,2679,14,32428,0,34460,2,0,0,1228198,0,0,128,-1
 32442,Section 22,,2679,10,34458,34335,0,2,0,0,1264095,0,0,0,-1
 32447,Section 19,,2691,22,32292,0,33414,2,0,0,1230979,0,2,4,0
@@ -25713,12 +25713,12 @@ On Mythic difficulty, Bedrock Slam causes a Bedrock Surge.$]",2769,10,32514,3251
 32516,Fertile Loam,,2769,11,32515,0,34905,2,0,0,1234782,0,0,0,-1
 32517,Lekshi,,2769,13,0,32518,32520,1,127942,0,0,0,1,0,-1
 32518,Lightsower Dash,,2769,14,32517,32683,32519,2,0,0,1234850,0,0,0,-1
-32519,Thornblade,,2769,18,32517,0,34221,2,0,0,1235640,0,2,8192,3
-32520,Kezkitt,,2769,21,0,32521,0,1,127945,0,0,0,1,0,-1
-32521,Lightblossom Beam,,2769,22,32520,32684,32524,2,0,0,1235564,0,0,32,-1
-32522,Lightblossom Overgrowth,,2769,25,32684,32523,0,2,0,0,1235751,0,1,0,-1
-32523,Light-Charred Earth,,2769,26,32522,0,0,2,0,0,1235814,0,0,0,-1
-32524,Light Bolt,,2769,27,32520,0,0,2,0,0,1235616,0,0,64,-1
+32519,Thornblade,,2769,19,32517,0,34221,2,0,0,1235640,0,2,8192,3
+32520,Kezkitt,,2769,22,0,32521,0,1,127945,0,0,0,1,0,-1
+32521,Lightblossom Beam,,2769,23,32520,32684,32524,2,0,0,1235564,0,0,32,-1
+32522,Lightblossom Overgrowth,,2769,26,32684,32523,0,2,0,0,1235751,0,1,0,-1
+32523,Light-Charred Earth,,2769,27,32522,0,0,2,0,0,1235814,0,0,0,-1
+32524,Light Bolt,,2769,28,32520,0,0,2,0,0,1235616,0,0,64,-1
 32526,Section 31,,2691,139,32479,0,0,2,0,0,1232894,0,0,0,-1
 32527,Section 32,,2691,130,32479,33508,33666,2,0,0,1232973,0,2,0,0
 32528,Section 33,,2691,115,33502,32529,0,2,0,0,1232987,0,0,16,-1
@@ -25843,8 +25843,8 @@ $bullet; |cFF2959D3|Hspell:1234681|h[Ravenous Bellow]|h|r and |cFF2959D3|Hspell:
 32681,Section 25,,2684,27,32680,0,0,2,0,0,1235816,0,3,0,0
 32682,Section 26,,2684,24,31635,0,31637,2,0,0,1233110,0,0,4,-1
 32683,Lightblossom,,2769,15,32518,35034,0,1,129261,0,0,0,0,32,-1
-32684,Lightblossom,,2769,23,32521,32685,0,1,129261,0,0,0,0,0,-1
-32685,Section 15,,2769,24,32684,0,32522,2,0,0,1235729,0,0,0,-1
+32684,Lightblossom,,2769,24,32521,32685,0,1,129261,0,0,0,0,0,-1
+32685,Section 15,,2769,25,32684,0,32522,2,0,0,1235729,0,0,0,-1
 32687,Section 29,,2690,76,32035,0,32207,2,0,0,1226384,0,2,8,0
 32688,Stage One: <PH>,,2675,5,0,32689,31224,2,0,0,1217232,0,3,32,3
 32689,Section 6,,2675,6,32688,0,0,2,0,0,1217241,0,0,16,-1
@@ -25989,9 +25989,9 @@ $bullet;|cFF2959D3|Hspell:1263982|h[Gravitic Orbs]|h|r continually seek out play
 32985,Tanks,"$bullet;|cFF2959D3|Hspell:1248112|h[Unstable Singularity]|h|r inflicts Shadow damage and reduces the movement speed of players caught within it.
 
 $bullet;|cFF2959D3|Hspell:1263982|h[Gravitic Orbs]|h|r continually seek out players until collapsed by an |cFF2959D3|Hspell:1248112|h[Unstable Singularity]|h|r.",2793,4,32982,0,0,3,0,0,0,0,0,1,-1
-32987,Section 7,,2793,7,0,0,32990,2,0,0,1248130,0,1,0,-1
-32989,Section 8,,2793,9,0,0,0,2,0,0,1227197,0,0,0,-1
-32990,Section 5,,2793,8,0,0,32989,2,0,0,1222755,0,2,4096,0
+32987,Section 7,,2793,8,0,0,32990,2,0,0,1248130,0,1,0,-1
+32989,Section 8,,2793,10,0,0,0,2,0,0,1227197,0,0,0,-1
+32990,Section 5,,2793,9,0,0,32989,2,0,0,1222755,0,2,4096,0
 32991,Section 70,,2691,40,32735,0,32713,2,0,0,1241188,0,0,16,-1
 32993,Section 50,,2688,12,32504,32958,0,2,0,0,1227685,0,0,0,-1
 32994,Overview,"Chimaerus wrenches its enemies into the Rift during |cFF2959D3|Hspell:1262305|h[Alndust Upheaval]|h|r where they must contend with aberrant Manifestations shielded by |cFF2959D3|Hspell:1245727|h[Alnshroud]|h|r. Manifestations that lose their shroud emerge into Reality and move towards the |cFF2959D3|Hspell:1252863|h[Insatiable]|h|r Chimaerus.
@@ -26427,9 +26427,9 @@ In Heroic and Mythic difficulty, |cFF2959D3|Hspell:1237694|h[Mass Ejection]|h|r 
 33591,Section 71,,2691,83,33389,0,0,2,0,0,1237696,0,3,8,0
 33592,Section 132,,2691,84,32745,33593,33578,2,0,0,1249454,0,2,4096,0
 33593,Section 134,,2691,85,33592,33986,33390,2,0,0,1254385,0,1,0,-1
-33634,Section 8,,2740,128,33639,33635,34497,2,0,0,1273158,0,2,4096,0
-33635,Section 9,,2740,129,33634,34555,0,2,0,0,1249609,0,0,0,-1
-33637,Section 11,,2740,131,33635,0,0,2,0,0,1249584,0,0,16,-1
+33634,Section 8,,2740,129,33639,33635,34497,2,0,0,1273158,0,2,4096,0
+33635,Section 9,,2740,130,33634,34555,0,2,0,0,1249609,0,0,0,-1
+33637,Section 11,,2740,132,33635,0,0,2,0,0,1249584,0,0,16,-1
 33638,Stage Two: The Dark Reactor,Venture into the engine of desolation.,2740,79,0,35067,33639,0,0,0,0,0,0,0,-1
 33639,Stage Three: Midnight Falls,Time is up. Can you end the ending itself?,2740,118,0,34000,0,0,0,0,0,0,0,0,-1
 33640,Section 12,,2740,56,32197,0,0,2,0,0,1249796,0,0,4,-1
@@ -26450,7 +26450,7 @@ On Mythic difficulty, Soul-Scribe casts Splinters of Fate prior to casting Etern
 33667,Section 15,,2735,28,34394,0,34559,2,0,0,1249748,0,0,48,-1
 33669,Section 17,,2735,26,33255,34395,0,2,0,0,1245645,0,0,1,-1
 33671,Section 26,,2686,9,33458,0,33697,2,0,0,1247029,0,2,4096,0
-33672,Section 11,,2793,6,33511,0,0,2,0,0,1263983,0,0,4,-1
+33672,Section 11,,2793,6,33511,0,35525,2,0,0,1263983,0,0,0,-1
 33673,Section 15,,2690,10,33463,0,0,2,0,0,1224906,0,0,0,-1
 33674,Section 136,,2691,32,33147,0,0,2,0,0,1250614,0,1,4096,-1
 33675,Section 66,,2691,28,32292,33676,33147,2,0,0,1243577,0,2,32,0
@@ -26717,8 +26717,8 @@ $[!15 On Heroic difficulty, Void Crystals can withstand an additional blast.$]$[
 34218,Section 100,,2738,40,32469,0,33407,2,0,0,1261165,0,2,32,0
 34221,Section 17,"$[!8,23,
 
-On Mythic difficulty, Lekshi casts Fan Of Thorns immediately after impaling their target.$]",2769,19,32517,34222,0,2,0,0,1235640,0,2,12288,0
-34222,Section 18,,2769,20,34221,0,0,2,0,0,1261011,0,2,4096,0
+On Mythic difficulty, Lekshi casts Fan Of Thorns immediately after impaling their target.$]",2769,20,32517,34222,0,2,0,0,1235640,0,2,12288,0
+34222,Section 18,,2769,21,34221,0,0,2,0,0,1261011,0,2,4096,0
 34224,Section 34,,2739,29,34209,0,34225,2,0,0,1261217,0,0,1,-1
 34225,Section 35,,2739,30,34209,0,34236,2,0,0,1261218,0,0,1,-1
 34227,Section 35,,2739,10,35154,0,0,2,0,0,1283067,0,0,0,-1
@@ -26876,11 +26876,11 @@ On Heroic difficulty, Averzian and his soldiers gain |cFF2959D3|Hspell:1253918 |
 34421,Section 16,,2736,28,34420,0,0,2,0,0,1251213,0,0,0,-1
 34422,Dawn Crystal,"A purified Naaru fragment that can be held by players.
 $[!16
-On Mythic difficulty, Dawn Crystals are at risk of Light's End.$]",2740,146,33639,35132,35069,1,137188,0,0,0,2,4096,0
-34423,Section 31,,2740,149,34422,0,34426,2,0,0,1284699,0,0,4112,-1
-34424,Section 22,,2740,153,34422,0,0,2,0,0,1254398,0,0,0,-1
-34426,Section 29,,2740,150,34422,34428,35312,2,0,0,1254262,0,0,8,-1
-34428,Section 30,,2740,151,34426,0,0,2,0,0,1254256,0,0,16,-1
+On Mythic difficulty, Dawn Crystals are at risk of Light's End.$]",2740,147,33639,35132,35069,1,137188,0,0,0,2,4096,0
+34423,Section 31,,2740,150,34422,0,34426,2,0,0,1284699,0,0,4112,-1
+34424,Section 22,,2740,154,34422,0,0,2,0,0,1254398,0,0,0,-1
+34426,Section 29,,2740,151,34422,34428,35312,2,0,0,1254262,0,0,8,-1
+34428,Section 30,,2740,152,34426,0,0,2,0,0,1254256,0,0,16,-1
 34436,Section 18,,2657,10,31014,0,31015,2,0,0,1250851,0,0,0,-1
 34443,Damage Dealers,"$bullet;|cFF2959D3|Hspell:468070|h[Rallying Bellow]|h|r summons a warparty to fight alongside Commander Kroluk.
 $bullet;|cFF2959D3|Hspell: 470963|h[Bladestorm]|h|r inflicts damage to all players within Commander Kroluk's path.",2657,2,30464,0,34444,3,0,0,0,0,2,2,3
@@ -26924,9 +26924,9 @@ $bullet;|cFF2959D3|Hspell: 467620|h[Rampage]|h|r inflicts sustained damage to Co
 34492,Section 18,,2811,11,33887,0,0,2,0,0,1266706,0,0,0,-1
 34493,Section 11,,2815,9,34047,35245,34048,2,0,0,1266713,0,0,0,-1
 34494,Section 5,,2814,6,34346,0,33460,2,0,0,1247976,0,2,32,3
-34496,Section 13,,2740,156,33639,0,0,2,0,0,1249796,0,0,4,-1
-34497,Section 49,,2740,132,33639,34498,35367,2,0,0,1266897,0,2,8,0
-34498,Section 50,,2740,133,34497,0,0,2,0,0,1266898,0,0,16,-1
+34496,Section 13,,2740,157,33639,0,0,2,0,0,1249796,0,0,4,-1
+34497,Section 49,,2740,133,33639,34498,35367,2,0,0,1266897,0,2,8,0
+34498,Section 50,,2740,134,34497,0,0,2,0,0,1266898,0,0,16,-1
 34501,Section 22,,2735,9,33244,0,33898,2,0,0,1244413,0,3,0,0
 34502,Section 22,,2735,11,33244,0,33899,2,0,0,1252157,0,3,0,0
 34503,Section 33,,2735,13,33244,0,0,2,0,0,1266570,0,2,4096,0
@@ -26959,7 +26959,7 @@ On Mythic difficulty, Chimaerus casts Alndust Upheaval before retreating to the 
 34546,Voidmaw,"$[!16 On Mythic difficulty, at 35% health remaining the Voidmaw rushes towards the nearest void-claimed space to restore its health.",2733,30,32191,34547,35114,1,137402,0,0,0,0,4096,-1
 34547,Section 16,,2733,31,34546,0,34548,2,0,0,1255683,0,0,0,-1
 34548,Section 24,,2733,32,34546,0,0,2,0,0,1264164,0,0,0,-1
-34555,Section 10,,2740,130,33635,0,33637,2,0,0,1249582,0,0,0,-1
+34555,Section 10,,2740,131,33635,0,33637,2,0,0,1249582,0,0,0,-1
 34556,Section 14,,2662,13,0,0,0,2,0,0,1271066,0,0,1,-1
 34557,Section 14,,2662,9,31292,0,0,2,0,0,1269631,0,0,0,-1
 34559,Section 39,"$[!14
@@ -26995,7 +26995,7 @@ $bullet;Completing another player's Mythic Keystone dungeon grants a Mythic Keys
 $bullet;After the weekly reset, opening the Great Vault grants a Mythic Keystone if a Mythic Keystone dungeon was completed in the prior week.",2869,3,34737,0,34708,0,0,0,0,0,0,0,-1
 34708,Downgrading a Mythic Keystone,"$bullet;Failing to complete the dungeon within the time limit lowers that Keystone's Mythic Level by 1.
 $bullet;Resetting the dungeon instance after the Keystone has been used lowers that Keystone's Mythic Level by 1.
-$bullet;Lindormi in Dornogal can lower a Keystone by 1 Mythic Level on request.",2869,4,34737,0,34709,0,0,0,0,0,0,0,-1
+$bullet;Lindormi in major cities can lower a Keystone by 1 Mythic Level on request.",2869,4,34737,0,34709,0,0,0,0,0,0,0,-1
 34709,Starting a Mythic Keystone,"$bullet;Enter the dungeon the Mythic Keystone is attuned to on Mythic difficulty.
 $bullet;At the entrance, insert the Mythic Keystone into the Font of Power and activate it to start the dungeon.",2869,5,34737,0,34710,0,0,0,0,0,0,0,-1
 34710,Replacing a Mythic Keystone,"$bullet;When a Mythic Keystone dungeon is completed within the time limit, Lindormi can exchange a character's Keystone for one attuned to a different dungeon. To be eligible for exchange, the completed dungeon's Mythic Level must be equal to or higher than the Keystone being exchanged.",2869,6,34737,0,34711,0,0,0,0,0,0,0,-1
@@ -27015,7 +27015,7 @@ In Mythic difficulty, interrupting an incorrect Fractured Image causes Core Expo
 34722,Xal'atath's Bargain: Pulsar,,2870,11,34729,0,34725,2,141206,0,1272894,4914667,0,0,-1
 34725,Xal'atath's Bargain: Voidbound,,2870,12,34729,0,34727,2,141116,0,1272895,4913234,0,0,-1
 34727,Xal'atath's Bargain: Devour,,2870,13,34729,0,0,2,140398,0,1272896,7137506,0,0,-1
-34729,Xal'atath's Bargains,"Starting at Mythic Level 4, Xal'atath periodically offers bargains during a Mythic Keystone dungeon that empower enemies. Players can intercept these effects and harness the power for themselves. These affixes rotate weekly.",2870,9,0,34751,34730,2,0,0,0,1728724,1,0,-1
+34729,Xal'atath's Bargains,"Starting at Mythic Level 5, Xal'atath periodically offers bargains during a Mythic Keystone dungeon that empower enemies. Players can intercept these effects and harness the power for themselves. These affixes rotate weekly.",2870,9,0,34751,34730,2,0,0,0,1728724,1,0,-1
 34730,Tyrannical and Fortified,"These affixes further empower enemies in Mythic Keystone dungeons. One becomes active at Mythic Level 7 and the other at Mythic Level 10, rotating each week.",2870,14,0,34731,34733,2,0,0,0,135901,1,0,-1
 34731,Tyrannical,Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.,2870,15,34730,0,34732,2,0,0,0,236401,0,0,-1
 34732,Fortified,Non-boss enemies have 20% more health and inflict up to 20% increased damage.,2870,16,34730,0,0,2,0,0,0,463829,0,0,-1
@@ -27066,9 +27066,9 @@ $bullet; |cFF2959D3|Hspell:1258427|h[Radiant Flare]|h|r inflicts substantial dam
 34897,Section 38,,2737,6,34866,0,34898,2,0,0,1272471,0,2,4096,0
 34898,Section 40,,2737,7,34866,0,34899,2,0,0,1272700,0,2,4096,0
 34899,Section 39,,2737,8,34866,0,0,2,0,0,1272699,0,2,4096,0
-34900,Section 56,,2740,125,33639,34901,33634,2,0,0,1274455,0,2,4096,0
-34901,Section 57,,2740,126,34900,0,34902,2,0,0,1276529,0,2,16,0
-34902,Section 57,,2740,127,34900,0,0,2,0,0,1276062,0,2,0,0
+34900,Section 56,,2740,125,33639,35537,33634,2,0,0,1274455,0,2,4096,0
+34901,Section 57,,2740,127,34900,0,34902,2,0,0,1276529,0,2,16,0
+34902,Section 57,,2740,128,34900,0,0,2,0,0,1276062,0,2,0,0
 34903,Bedrock Slam,,2769,8,32514,34904,32515,2,0,0,1234753,0,2,1,3
 34904,Fertile Loam,,2769,9,34903,0,0,2,0,0,1234782,0,0,0,-1
 34905,Section 24,,2769,12,32515,0,0,2,0,0,1276586,0,0,4100,-1
@@ -27133,7 +27133,7 @@ In Mythic difficulty, Abyssal Voidshapers gain multiple applications of |cFF2959
 35017,Section 20,,609,8,34362,34372,0,2,0,0,1264453,0,0,16,-1
 35018,Section 61,,2795,32,34753,0,0,2,0,0,1245844,0,0,16,-1
 35034,Section 26,,2769,16,32683,0,35035,2,0,0,1235729,0,0,0,-1
-35035,Section 27,,2769,17,32683,0,0,2,0,0,1235751,0,1,16,-1
+35035,Section 27,,2769,17,32683,35526,0,2,0,0,1235751,0,1,16,-1
 35036,Intermission: Total Eclipse,Witness the light fade and fracture.,2740,57,0,35041,33638,0,0,0,0,0,0,0,-1
 35037,Section 14,,2740,60,35036,35434,35038,2,0,0,1260261,0,0,32,-1
 35038,Section 14,,2740,63,35036,0,35450,2,0,0,1282441,0,0,0,-1
@@ -27143,8 +27143,8 @@ In Mythic difficulty, Abyssal Voidshapers gain multiple applications of |cFF2959
 35065,Section 13,,966,7,11056,0,0,2,0,0,1281874,0,0,0,-1
 35067,Section 63,,2740,80,33638,34242,35273,2,0,0,1282034,0,0,32,-1
 35068,Section 64,,2740,82,35067,0,0,2,0,0,1282008,0,0,0,-1
-35069,Section 32,,2740,154,33639,35070,34496,2,0,0,1263970,0,0,1,-1
-35070,Section 45,,2740,155,35069,0,0,2,0,0,1265842,0,0,0,-1
+35069,Section 32,,2740,155,33639,35070,34496,2,0,0,1263970,0,0,1,-1
+35070,Section 45,,2740,156,35069,0,0,2,0,0,1265842,0,0,0,-1
 35071,Section 62,,2795,7,32998,35072,32999,2,0,0,1282001,0,3,32,0
 35072,Section 63,,2795,8,35071,0,0,2,0,0,1245698,0,0,0,-1
 35094,Section 17,,2514,11,0,0,29859,2,0,0,1282251,0,0,1,-1
@@ -27171,7 +27171,7 @@ In Mythic difficulty, Abyssal Voidshapers gain multiple applications of |cFF2959
 35129,Section 10,,2814,11,33910,0,33912,2,0,0,1282679,0,0,0,-1
 35130,Section 11,,2814,14,33909,0,33911,2,0,0,1282722,0,0,64,-1
 35131,Section 13,,2740,123,33639,0,33975,2,0,0,1266622,0,0,16,-1
-35132,Section 44,,2740,147,34422,0,35485,2,0,0,1266113,0,0,32,-1
+35132,Section 44,,2740,148,34422,0,35485,2,0,0,1266113,0,0,32,-1
 35135,Section 71,,2733,22,35110,0,35111,2,0,0,1255702,0,0,64,-1
 35136,Section 19,,2656,17,31248,0,31262,2,0,0,1282272,0,0,0,-1
 35137,Section 10,,2778,5,0,35138,33171,2,0,0,1243002,0,3,32,3
@@ -27193,14 +27193,14 @@ In Mythic difficulty, Abyssal Voidshapers gain multiple applications of |cFF2959
 35163,Section 38,,2736,7,35214,0,34417,2,0,0,1250828,0,0,0,-1
 35165,Section 15,,2792,7,33906,0,33907,2,0,0,1283506,0,0,0,-1
 35166,Section 20,,2656,11,31261,0,0,2,0,0,1215813,0,1,0,-1
-35168,Damage Dealers,"$bullet;|cFF2959D3|Hspell:1253977|h[Turbulent Arrows]|h|r knock players into the air when touched.
+35168,Damage Dealers,"$bullet;|cFF2959D3|Hspell:1253977|h[Turbulent Arrows]|h|r knock players into the air when touched, removing |cFF2959D3|Hspell:1216042|h[Squall Leap]|h|r.
 $bullet;|cFF2959D3|Hspell:468429|h[Bullseye Windblast]|h|r creates an expanding ring of |cFF2959D3|Hspell:468442|h[Billowing Wind]|h|r.
 $bullet;|cFF2959D3|Hspell:1253986|h[Gust Shot]|h|r destroys any |cFF2959D3|Hspell:1282932|h[Storming Soulfonts]|h|r struck.",2658,2,30469,0,30470,3,0,0,0,0,2,2,0
 35169,Healer,"$bullet;|cFF2959D3|Hspell:474528|h[Bolt Gale]|h|r inflicts heavy damage to the targeted player.
-$bullet;|cFF2959D3|Hspell:1253977|h[Turbulent Arrows]|h|r knock players into the air when touched.
+$bullet;|cFF2959D3|Hspell:1253977|h[Turbulent Arrows]|h|r knock players into the air when touched, removing |cFF2959D3|Hspell:1216042|h[Squall Leap]|h|r.
 $bullet;|cFF2959D3|Hspell:1253986|h[Gust Shot]|h|r destroys any |cFF2959D3|Hspell:1282932|h[Storming Soulfonts]|h|r struck.",2658,4,30469,0,30471,3,0,0,0,0,2,4,0
 35170,Tank,"$bullet;|cFF2959D3|Hspell:472662|h[Tempest Slash]|h|r knocks The Restless Heart's primary target away and briefly increases their Physical damage taken.
-$bullet;|cFF2959D3|Hspell:1253977|h[Turbulent Arrows]|h|r knock players into the air when touched.
+$bullet;|cFF2959D3|Hspell:1253977|h[Turbulent Arrows]|h|r knock players into the air when touched, removing |cFF2959D3|Hspell:1216042|h[Squall Leap]|h|r.
 $bullet;|cFF2959D3|Hspell:1253986|h[Gust Shot]|h|r destroys any |cFF2959D3|Hspell:1282932|h[Storming Soulfonts]|h|r struck.",2658,6,30469,0,30472,3,0,0,0,0,2,1,0
 35178,Section 15,,966,13,0,0,34996,2,0,0,1283770,0,0,0,-1
 35179,Section 23,,609,5,0,0,34361,2,0,0,1264192,0,1,0,-1
@@ -27261,7 +27261,7 @@ On Heroic difficulty, Averzian and his soldiers gain |cFF2959D3|Hspell:1253918 |
 35307,Section 15,,2662,12,35306,0,0,2,0,0,1284628,0,0,0,-1
 35309,Section 74,,2740,100,34243,0,0,2,0,0,1284638,0,0,16,-1
 35311,Section 69,,2740,95,35274,0,0,2,0,0,1282373,0,0,16,-1
-35312,Section 31,,2740,152,34422,0,34424,2,0,0,1282458,0,0,16,-1
+35312,Section 31,,2740,153,34422,0,34424,2,0,0,1282458,0,0,16,-1
 35314,Section 67,"$[!15,16
 On Heroic difficulty and above, Galvanize discharges an Overkill Current.$]",2740,91,35273,35315,35106,2,0,0,1284525,0,2,4096,0
 35315,Section 76,,2740,92,35314,0,35274,2,0,0,1285827,0,0,8,-1
@@ -27308,9 +27308,9 @@ $[!15
 On Heroic difficulty, Dawn Crystals may shed Tears of L'ura.$]",2740,34,35339,35371,0,1,137188,0,0,0,2,8,0
 35361,Section 22,,2740,38,35360,0,0,2,0,0,1254398,0,0,0,-1
 35366,Section 31,,2740,37,35360,0,35361,2,0,0,1282458,0,0,16,-1
-35367,Dawn Crystal,A purified Naaru fragment that can be held by players.,2740,134,33639,35486,35479,1,137188,0,0,0,2,32,0
-35368,Section 22,,2740,138,35367,0,0,2,0,0,1254398,0,0,0,-1
-35370,Section 31,,2740,137,35367,0,35368,2,0,0,1282458,0,0,16,-1
+35367,Dawn Crystal,A purified Naaru fragment that can be held by players.,2740,135,33639,35486,35479,1,137188,0,0,0,2,32,0
+35368,Section 22,,2740,139,35367,0,0,2,0,0,1254398,0,0,0,-1
+35370,Section 31,,2740,138,35367,0,35368,2,0,0,1282458,0,0,16,-1
 35371,Section 29,,2740,35,35360,35373,35366,2,0,0,1254262,0,0,8,-1
 35373,Section 30,,2740,36,35371,0,0,2,0,0,1254256,0,0,16,-1
 35404,Section 108,,2740,7,32197,0,33988,2,0,0,1279420,0,0,16,-1
@@ -27370,20 +27370,23 @@ On Mythic difficulty, Dawn Crystals are at risk of Light's End.$]",2740,109,3363
 35475,Section 30,,2740,112,35474,0,0,2,0,0,1254256,0,0,16,-1
 35476,Section 31,,2740,113,35472,0,35477,2,0,0,1282458,0,0,16,-1
 35477,Section 22,,2740,114,35472,0,0,2,0,0,1254398,0,0,0,-1
-35478,Section 152,,2740,136,35367,0,35370,2,0,0,1253104,0,0,0,-1
+35478,Section 152,,2740,137,35367,0,35370,2,0,0,1253104,0,0,0,-1
 35479,Dawn Crystal,"A purified Naaru fragment that can be held by players.
 $[!15
-On Heroic difficulty, Dawn Crystals may shed Tears of L'ura.$]",2740,139,33639,35487,34422,1,137188,0,0,0,2,8,0
-35480,Section 152,,2740,141,35479,0,35481,2,0,0,1253104,0,0,32,-1
-35481,Section 29,,2740,142,35479,35482,35483,2,0,0,1254262,0,0,8,-1
-35482,Section 30,,2740,143,35481,0,0,2,0,0,1254256,0,0,16,-1
-35483,Section 31,,2740,144,35479,0,35484,2,0,0,1282458,0,0,16,-1
-35484,Section 22,,2740,145,35479,0,0,2,0,0,1254398,0,0,0,-1
-35485,Section 152,,2740,148,34422,0,34423,2,0,0,1253104,0,0,32,-1
-35486,Section 44,,2740,135,35367,0,35478,2,0,0,1266113,0,0,32,-1
-35487,Section 44,,2740,140,35479,0,35480,2,0,0,1266113,0,0,32,-1
+On Heroic difficulty, Dawn Crystals may shed Tears of L'ura.$]",2740,140,33639,35487,34422,1,137188,0,0,0,2,8,0
+35480,Section 152,,2740,142,35479,0,35481,2,0,0,1253104,0,0,32,-1
+35481,Section 29,,2740,143,35479,35482,35483,2,0,0,1254262,0,0,8,-1
+35482,Section 30,,2740,144,35481,0,0,2,0,0,1254256,0,0,16,-1
+35483,Section 31,,2740,145,35479,0,35484,2,0,0,1282458,0,0,16,-1
+35484,Section 22,,2740,146,35479,0,0,2,0,0,1254398,0,0,0,-1
+35485,Section 152,,2740,149,34422,0,34423,2,0,0,1253104,0,0,32,-1
+35486,Section 44,,2740,136,35367,0,35478,2,0,0,1266113,0,0,32,-1
+35487,Section 44,,2740,141,35479,0,35480,2,0,0,1266113,0,0,32,-1
 35488,Section 67,"$[!15,16
 On Heroic difficulty and above, Galvanize discharges an Overkill Current.$]",2740,87,35273,35489,35314,2,0,0,1284525,0,2,8,0
 35489,Section 76,,2740,88,35488,0,35490,2,0,0,1285827,0,0,8,-1
 35490,Section 70,,2740,89,35488,35491,0,2,0,0,1282249,0,0,0,-1
 35491,Section 69,,2740,90,35490,0,0,2,0,0,1282373,0,0,16,-1
+35525,Section 10,,2793,7,33511,0,0,2,0,0,1287452,0,0,0,-1
+35526,Section 28,,2769,18,35035,0,0,2,0,0,1235814,0,1,16,-1
+35537,Section 157,,2740,126,34900,0,34901,2,0,0,1287702,0,2,16,0
