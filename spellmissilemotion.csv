@@ -29618,3 +29618,101 @@ modelPitch=-90
 transUp = magnitude * ( 1 - progress )
 transFront = distanceToImpactPos
 ",0,1
+5043,12.0 Dungeon - Windrunner Spire - Boss 3 - Debris Rain (Missile) - SRC,"local magnitude = 90
+
+transUp = magnitude * ( 1 - progress )
+transFront=distanceToImpactPos
+",0,1
+5046,12.0 Raid - Voidspire - Trash - Domanaar - Channel - 2. Missile - ADT,"
+local function sinapprox(v)
+     local t1 = 1.1*v/360
+     local t2 = (t1*0.5 - math.floor(t1*0.5))*2-1
+     return -4*(t2 - t2 * math.abs(t2))
+     --return sin(v)
+end
+
+local spinRate = 120
+modelRoll = time * spinRate
+speedScalar = 0.2 + 3 * progress * progress
+
+local progressMult = math.min(0.6,sin(progress*180))*(1-progress)
+
+local t1 = (time+rand1*4)*50
+local noise1 = sinapprox(t1)*sinapprox(t1*3)*sinapprox(t1*.54)*sinapprox(t1*7)*sinapprox(t1*12)*sinapprox(t1*.5)
+
+local t2 = (time+rand2*4)*50
+local noise2 = sinapprox(t2)*sinapprox(t2*3)*sinapprox(t2*.54)*sinapprox(t2*7)*sinapprox(t2*10)*sinapprox(t2*.5)
+
+local t3 = (time+rand3*4)*50
+local noise3 = sinapprox(t3)*sinapprox(t3*3)*sinapprox(t3*.54)*sinapprox(t3*7)*sinapprox(t3*10)*sinapprox(t3*.5)
+
+local factor = 2
+transRight = progressMult*noise1*14*factor
+transUp = progressMult*noise2*4*factor + (progress*(1-progress))*40
+transFront = progressMult*noise3*14*factor 
+
+",0,1
+5048,Test - TJS,"-- Missile script: dramatically larger looping arc back to caster
+
+-- Scale factor for the loop size (10x bigger than before)
+local loopRadius = startDistance * .75    -- was 0.75, now 7.5
+local loopHeight = startDistance * .5   -- was 0.5, now 5.0
+
+-- Ensure missile is visible long enough
+scale = 1 + (0.25 * progress)
+
+-- Forward translation: out and back in a huge loop
+transFront = math.sin(progress * math.pi) * loopRadius
+
+-- Upward translation: arcs way higher before returning
+transUp = math.sin(progress * math.pi) * loopHeight
+
+-- Right translation: none (vertical loop)
+transRight = 0
+
+-- Angle/magnitude representation
+transAngle = 90   -- straight up
+transMag   = transUp
+
+-- Model rotations for dramatic flair
+modelYaw   = (missileIndex / missileCount) * 45
+modelPitch = math.sin(progress * math.pi) * 30
+modelRoll  = math.cos(progress * math.pi) * 15
+
+-- Speed scaling (keep constant speed)
+out_speedScale = 1.0
+
+-- Face back toward caster at impact
+faceImpactPos = 1
+
+-- Rotation order
+yawOrder   = 1
+pitchOrder = 2
+rollOrder  = 3
+
+-- Color (optional: glowing blue arc)
+colorR = 0.4
+colorG = 0.6
+colorB = 1.0
+colorA = 1.0
+",0,1
+5057,"Parabola (Fixed Height - 40-45 yards, Pitch Spin)","local function parabola(m,a,b) return (4*(m or 1)*((1-progress)*(a or 1))*((progress)*(b or 1))) end
+
+local height = 40
+local variance = 5
+height = height + (rand1 * variance)
+local degreesPerSec = 45
+
+transUp = parabola(height)
+modelPitch = time * degreesPerSec",0,1
+5059,"Parabola (Fixed Height - 1-2 yards, Fast Out) - KRY","local function parabola(a,b,m) return (4*m*((1-progress)*a)*((progress)*b)) end
+
+local height = 1
+local variance = 2
+height = height + (rand1 * variance)
+
+transUp = parabola(1,1,height)
+
+local factor = 2
+transFront = math.pow(progress,factor) * distanceToFirePos
+transFront = transFront - distanceToFirePos",0,1
