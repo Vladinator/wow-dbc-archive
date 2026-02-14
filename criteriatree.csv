@@ -87666,7 +87666,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 151276,Keen-eyed Cian,151261,1,0,62943,14,0
 151277,Somnambulant Ori,151261,1,0,62944,15,0
 151278,Bloodstripe Great Ray,151261,1,0,62945,16,0
-151279,Matriarch Keevah,151261,1,0,62944,17,0
+151279,Matriarch Keevah,151261,1,0,62946,17,0
 151280,Moltenbinder's Disciple,151261,1,0,62947,18,0
 151281,Molten Leadspike,151261,1,0,62948,19,0
 151282,Mosa Umbramane,151261,1,0,62949,20,0
@@ -105736,11 +105736,11 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 211648,Obtain the Delver's Mana-Skimmer.,0,0,4,0,0,0
 211649,,211648,0,0,105898,0,0
 211650,Collect the following cosmetic unlocks for the Delver's Mana-Skimmer.,0,0,4,0,0,0
-211651,Energy Thrusters,211650,1,0,111435,0,16
-211652,Void,211650,1,0,105899,1,16
-211653,Phaser,211650,1,0,105900,2,16
-211654,Quad Glider,211650,1,0,105901,3,16
-211655,Canister,211650,1,0,105902,4,16
+211651,Energy Thrusters,224472,1,0,111435,0,16
+211652,Void,224474,1,0,105899,0,16
+211653,Phaser,224476,1,0,105900,0,16
+211654,Quad Glider,224478,1,0,105901,0,16
+211655,Canister,224480,1,0,105902,0,16
 211656,Find and open all Sturdy Chests hidden in Archival Assault.,0,4,7,0,0,1
 211657,,211656,1,0,109146,0,2
 211658,,211656,1,0,105903,1,2
@@ -115093,6 +115093,16 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 224084,Remix mixed up,0,1,8,0,0,8193
 224085,,224084,0,0,113031,0,0
 224296,,217671,0,0,113120,9,32
+224472,Energy Thrusters,211650,1,8,0,0,0
+224473,,224472,0,0,113252,1,0
+224474,Void,211650,1,8,0,1,0
+224475,,224474,0,0,113253,1,0
+224476,Phaser,211650,1,8,0,2,0
+224477,,224476,0,0,113254,1,0
+224478,Quad Glider,211650,1,8,0,3,0
+224479,,224478,0,0,113255,1,0
+224480,Canister,211650,1,8,0,4,0
+224481,,224480,0,0,113256,1,0
 224708,New Criteria Tree,0,1,4,0,0,0
 224709,,224708,0,0,113403,0,0
 224710,Player Logs in between 12.0.1 patch launch and Midnight Release.,0,0,4,0,0,0
@@ -115102,3 +115112,4 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 224791,,224789,0,0,113435,1,0
 224792,,224789,0,0,113436,2,0
 224793,,224789,0,0,113437,3,0
+223694,,219733,1,0,112723,2,32
