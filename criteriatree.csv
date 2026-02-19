@@ -45739,15 +45739,15 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 59328,"7.2.5 Chromie Scenario - Step 02 (WoE, Hyj, Strat, And)",0,0,4,0,0,0
 59329,Stop all attacks on Chromie,59328,8,0,37056,0,0
 59414,Argus Dungeon - Dungeon Scenario Heroic - Defeat Bosses,0,0,4,0,0,0
-59415,Zuraal the Ascended defeated,59414,1,0,36824,0,0
-59416,Saprish defeated,59414,1,0,36825,1,0
-59417,Viceroy Nezhar defeated,59414,1,0,36826,2,0
-59418,L'ura defeated,59414,1,0,36827,3,0
+59415,Zuraal the Ascended defeated,59414,1,0,37393,0,0
+59416,Saprish defeated,59414,1,0,37394,1,0
+59417,Viceroy Nezhar defeated,59414,1,0,37395,2,0
+59418,L'ura defeated,59414,1,0,37396,3,0
 59419,Argus Dungeon - Dungeon Scenario Mythic - Defeat Bosses,0,0,4,0,0,0
-59420,Zuraal the Ascended defeated,59419,1,0,36824,0,0
-59421,Saprish defeated,59419,1,0,36825,1,0
-59422,Viceroy Nezhar defeated,59419,1,0,36826,2,0
-59423,L'ura defeated,59419,1,0,36827,3,0
+59420,Zuraal the Ascended defeated,59419,1,0,37393,0,0
+59421,Saprish defeated,59419,1,0,37394,1,0
+59422,Viceroy Nezhar defeated,59419,1,0,37395,2,0
+59423,L'ura defeated,59419,1,0,37396,3,0
 59430,,10561,1,0,36829,11,2
 59431,,10561,1,0,36830,12,2
 59432,,14311,1,0,36831,9,2
@@ -45990,8 +45990,6 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 59899,,59896,1,0,37015,2,2
 59900,,59896,1,0,37016,3,2
 59901,,59896,1,0,37018,4,2
-59906,Void Tear,59414,3,0,37020,4,2
-59907,Void Tear,59419,3,0,37020,4,2
 59908,7.3 Argus Raid - Aggramar Achievement Credit - MRN,0,0,4,0,0,0
 59909,Manifestation of Taeshalach defeated,59908,1,0,37021,0,0
 59925,"Hey, You're a Rockstar!",0,0,4,0,0,2
@@ -96432,7 +96430,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 164048,,164047,0,0,68724,0,0
 164049,War Within Delves: Tier 10 (Season 1),0,0,4,0,0,0
 164050,,164049,0,0,68725,0,0
-164053,Defeat the Seasonal Nemesis,163437,1,8,0,5,0
+164053,Defeat the current Seasonal Nemesis or any The War Within Nemesis once Midnight has launched,163437,1,8,0,5,8192
 164054,Grottoscale Hatchling,163892,1,0,68731,6,0
 164055,Crackcreeper,163892,1,0,68729,7,0
 164056,Lava Slug,163892,1,0,68730,8,0
@@ -101488,8 +101486,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 206455,,206454,10,0,102782,0,0
 206456,11.1 Delve - Demolition Dome - Defeat Boss,0,0,4,0,0,0
 206457,The Underpin defeated,206456,1,0,102783,0,2080
-206458,,164053,0,0,68728,0,32
-206459,,164053,0,0,102784,1,32
+206458,,164053,0,0,68728,0,0
+206459,,164053,0,0,102784,1,0
 206461,Obtain the Delver's Gob-Trotter.,0,0,4,0,0,0
 206462,,206461,0,0,102787,0,0
 206463,12.0 Prelaunch 01,0,100,4,0,0,0
@@ -105751,7 +105749,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 211663,Archival Assault,163454,1,0,105908,14,0
 211664,Archival Assault,163467,1,0,105909,14,0
 211665,Archival Assault,163480,1,0,105910,14,0
-211666,,164053,0,0,105911,2,32
+211666,,164053,0,0,105911,2,0
 211667,Archival Assault clears,0,0,4,0,0,0
 211668,,211667,0,0,105907,0,0
 211669,Prey: Normal Mode - Kill All (KNF),0,0,4,0,0,0
@@ -111400,7 +111398,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 218433,,218431,1,0,109661,1,0
 218434,,218431,1,0,109662,2,0
 218435,Pathaleon the Calculator slain,0,1,5,0,0,8193
-218436,Pathaleon the Calculator slain,218435,0,0,109663,0,0
+218436,Pathaleon the Calculator slain,218435,0,0,113519,0,0
 218437,Warp Splinter slain,0,1,5,0,0,8193
 218438,Warp Splinter slain,218437,0,0,109664,0,0
 218439,Harbinger Skyriss slain,0,1,5,0,0,8193
@@ -111602,7 +111600,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 218884,,218881,1600,0,108728,4,2
 218885,,218881,1600,0,108727,3,2
 218887,,218881,1600,0,108729,1,2
-218888,Defeated Dimensius on Heroic or Mythic difficulty,218880,1,0,109881,1,0
+218888,Defeated Midnight Falls in March on Quel'Danas on Heroic or Mythic difficulty,218880,1,0,109881,1,0
 218889,Attained 2000+ Mythic Plus rating,218880,2000,0,109029,2,0
 218916,Slay Horde Players,0,25,5,0,0,4096
 218917,,218916,25,0,109904,0,0
@@ -113625,9 +113623,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 221924,Tablet of Halazzi,221922,0,0,111773,7,0
 221925,Tablet of Jan'alai,221922,0,0,111774,8,0
 221926,Tablet of Nalorakk,221922,0,0,111775,9,0
-221927,Tablet of the Ruling Family,221922,0,0,111776,10,0
-221928,Tablet of Kulzi,221922,0,0,111777,11,0
-221929,Tablet of Filo,221922,0,0,111778,12,0
+221928,Tablet of Kulzi,221922,0,0,111777,10,0
+221929,Tablet of Filo,221922,0,0,111778,11,0
 221930,Sky Gazebo reached,0,1,5,0,0,8193
 221931,Sky Gazebo reached,221930,0,0,111779,0,0
 221932,Set of phase-lost objects returned,0,1,5,0,0,8193
@@ -113705,22 +113702,22 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 222005,Take 30 flags in the Battle for Gilneas Training Grounds.,222004,30,0,111821,0,1
 222006,Take control of 100 mine carts in Silvershard Mines Training Grounds.,0,0,4,0,0,0
 222007,Carts Capped,222006,100,0,111822,0,1
-222008,Tarnished Mural,221922,0,0,111823,13,0
-222009,Ancient Runestone,221922,0,0,111824,14,0
-222010,Derelict Mural,221922,0,0,111825,15,0
-222011,Forgotten Mural,221922,0,0,111826,16,0
-222012,A Frayed Scroll,221922,0,0,111827,17,0
+222008,Tarnished Mural,221922,0,0,111823,12,0
+222009,Ancient Runestone,221922,0,0,111824,13,0
+222010,Derelict Mural,221922,0,0,111825,14,0
+222011,Forgotten Mural,221922,0,0,111826,15,0
+222012,A Frayed Scroll,221922,0,0,111827,16,0
 222013,Memorial Plaque,221922,0,0,111828,0,0
 222014,Shrine of Dath'remar,221922,0,0,111829,1,0
 222015,Mirveda's Notes,221922,0,0,111830,2,0
 222016,Profane Research,221922,0,0,111831,3,0
 222017,Hawkstrider Husbandry: Unabridged Edition,221922,0,0,111832,4,0
 222018,Unfinished Sheet Music,221922,0,0,111833,5,0
-222019,Void Armor,221922,0,0,111834,18,0
-222020,Ancient Tablet,221922,0,0,111835,19,0
-222021,Abandoned Telescope,221922,0,0,111836,20,0
-222022,Tattered Page,221922,0,0,111837,21,0
-222023,Shadowgraft Harness,221922,0,0,111838,22,0
+222019,Void Armor,221922,0,0,111834,17,0
+222020,Ancient Tablet,221922,0,0,111835,18,0
+222021,Abandoned Telescope,221922,0,0,111836,19,0
+222022,Tattered Page,221922,0,0,111837,20,0
+222023,Shadowgraft Harness,221922,0,0,111838,21,0
 222024,Defeat all of the rare creatures found in Zul'Aman.,0,0,4,0,0,0
 222025,Necrohexxer Raz'ka,222024,1,0,111839,0,0
 222026,The Snapping Scourge,222024,1,0,111840,1,0
@@ -114952,6 +114949,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 223676,Void Pylon Destroyed by Quel'Danas Sentinels,218152,3,0,112706,2,2
 223692,,219735,1,0,112719,0,32
 223693,,219733,1,0,112722,1,32
+223694,,219733,1,0,112723,2,32
 223695,,219733,1,0,112724,3,32
 223696,,219733,1,0,112725,4,32
 223697,,219733,1,0,112726,5,32
@@ -115112,4 +115110,3 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 224791,,224789,0,0,113435,1,0
 224792,,224789,0,0,113436,2,0
 224793,,224789,0,0,113437,3,0
-223694,,219733,1,0,112723,2,32
