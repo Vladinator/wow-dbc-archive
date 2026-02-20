@@ -82,7 +82,9 @@ Detecting Invisibility."
 136,,"Heals your pet for $?s56833[${$<total>+$56833m4}][$<total>]% of its total health over $d.$?s19573[  Each time Mend Pet heals your pet, it has a $19573s1% chance to cleanse $24406s1 Curse, Disease, Magic, or Poison effect.][]",Heals $w1% of the pets health every $t1 sec.
 139,,Heals the target for $m1 every $t1 sec for $d.,Healing $w1 health every $t1 sec.
 142,,,
-172,,"Corrupts the target, causing $146739o1 Shadow damage over $146739d.$?a104315[
+172,,"Corrupts the target, causing $146739o1 Shadow damage over $146739d.$?(a104315&a138134)[
+
+Generates ${$m2*1.1}.1 Demonic Fury each time it deals damage.]?a104315[
 
 Generates $m2 Demonic Fury each time it deals damage.][]",
 184,,Surrounds an ally with a shield of flame that inflicts Fire damage to nearby enemies every $t1 sec.  Lasts $d.,Inflicting Fire damage to nearby enemies every $t1 sec.
@@ -216,7 +218,9 @@ Cannot be used on a target with Forbearance.  Causes Forbearance for $25771d.","
 673,,Increases your armor by $m1 for $d.  Guardian Elixir.,Armor increased by $w1.  Guardian Elixir.
 674,Passive,Allows one-hand and off-hand weapons to be equipped in the off-hand.,
 676,,Disarm the enemy's weapons and shield for $d. Disarmed creatures deal significantly reduced damage.,Disarmed!
-686,,"Sends a shadowy bolt at the enemy, causing $s3 Shadow damage.$?a104315[
+686,,"Sends a shadowy bolt at the enemy, causing $s3 Shadow damage.$?(a104315&a138134)[
+
+Generates ${$m2*1.1}.1 Demonic Fury.]?a104315[
 
 Generates $m2 Demonic Fury.][]",
 688,Summon,"Summons an Imp under the command of the Warlock. 
@@ -26965,7 +26969,7 @@ Spell damage increased by $s2."
 47957,,,
 47958,,"Summons a series of crystal spikes that radiate out in all directions from the caster. After a short time, they will erupt from the ground, dealing $47944s1 damage to all nearby enemies and knocking them into the air.",
 47959,,"Hurls a magical bolt at an enemy, inflicting Arcane damage.",
-47960,,Reduces movement speed by $47960s2% and deals $47960o1 Shadowflame damage over $47960d. Generates 2 Demonic Fury every time it deals damage.,"Deals $w1 Shadowflame damage every $t1 sec.
+47960,,Reduces movement speed by $47960s2% and deals $47960o1 Shadowflame damage over $47960d. Generates $?a138134[${$s3*1.1}.1][$s3] Demonic Fury every time it deals damage.,"Deals $w1 Shadowflame damage every $t1 sec.
 Movement speed reduced by $w2%."
 47961,,,
 47962,,Grab an injured Warsong soldier and pull them inside.,
@@ -51050,7 +51054,9 @@ Damage increases when other damage is taken."
 77792,,,
 77799,,"Deals $s1 Shadowflame damage to an enemy.$?s29722[
 
-Generates Burning Embers. Critical strikes double this effect.][]$?a104315[
+Generates Burning Embers. Critical strikes double this effect.]?(a104315&a138134)[
+
+Generates ${$m2*1.1}.1 Demonic Fury.]?a104315[
 
 Generates $m2 Demonic Fury.][]",
 77801,,Grants a powerful effect based upon your specialization for $113860d.,
@@ -75949,9 +75955,11 @@ Activating this ability consumes all Lunar and Solar Energy and prevents gaining
 112089,,"While using Metamorphosis, your Shadow Bolt spell transforms into Touch of Chaos. 
 $@spelltooltip103964",
 112090,,,
-112092,Glyphed,"Sends three shadowy bolts at the enemy, causing $686s3 Shadow damage.$?a104315[
+112092,Glyphed,"Sends three shadowy bolts at the enemy, causing $686s3 Shadow damage.$?(a104315&a138134)[
 
-Generates 25 Demonic Fury.][]",
+Generates ${$686m2*1.1}.1 Demonic Fury.]?a104315[
+
+Generates $686m2 Demonic Fury.][]",
 112093,,,
 112094,,,
 112095,,,
@@ -105188,6 +105196,7 @@ Party members may use the post to transform their mounts into Warforged Nightmar
 186403,,Honor gains increased by $s1%.,"|cFF00AA99Bonus Event: Honor|r
 
 Honor gains increased by $s1%."
+216900,,,
 219003,,Your teammates have reported you for laziness!  Enter PvP combat or you will be marked Inactive and unable to receive Honor Points.,Your teammates have reported you for laziness!  Enter PvP combat or you will be marked Inactive and unable to receive Honor Points.
 219004,,"Cannot receive Honor Points until you enter PvP combat.
 You will be kicked from the battleground if you remain Inactive.","Cannot receive Honor Points until you enter PvP combat.
@@ -105203,13 +105212,16 @@ You will be kicked from the battleground if you remain Inactive."
 281627,VideoProduction Spell,,
 285224,,,"Chromie is only able to keep you anchored in the past for a limited time. Once exhausted, you will need to wait until she has regained enough energy before attempting to come back."
 285340,VideoProduction Spell,,
+290215,,Summons an Ethereal Transmorpher that can change your appearance for $d.,
 291276,VideoProduction Spell,,
+294433,,,
 296559,VideoProduction Spell,Turns your current targets invisible.,You are invisible.
 296565,VideoProduction Spell,Remove all non-passive auras.,
 296573,VideoProduction Spell,Turns creatures in a selectable AoE of 20 yards invisible.,You are invisible.
 296626,VideoProduction Spell,,
 296629,VideoProduction Spell,,
 296636,VideoProduction Spell,Turns your current target into the invisible man.,You are the invisible man.
+297571,,Summons an Ethereal Transmorpher that can change your appearance for $d.,
 300903,VideoProduction Spell,,You are visible as an ally of the Raptors...
 300904,VideoProduction Spell,,
 301089,,Carrying the Horde flag. Take it back to your home base to capture it.,Carrying the Horde flag. Take it back to your home base to capture it.
@@ -105527,7 +105539,7 @@ Health increased by $s2%."
 387319,,Summons and dismisses a rideable Big Battle Bear. This is a very fast mount.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
 387320,,Summons and dismisses a rideable Blazing Hippogryph.  This mount changes depending on your Riding skill.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
 387321,,Summons and dismisses a rideable Wooly White Rhino.  This is a very fast mount.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
-387323,,A riding rocket!  This can only be summoned in Outland or Northrend.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
+387323,,Summons and dismisses a rideable rocket. This is a flying mount.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
 387325,,Right Click to summon and dismiss your kite.,
 387326,,Right Click to summon and dismiss your spectral tiger cub.,
 387328,,Right Click to summon and dismiss your chicken.,
@@ -105960,6 +105972,7 @@ Spectators look to be more fired up than usual."
 425777,Rank 1,"Launch a fire trap to a nearby location where it will explode when an enemy approaches, causing ${$RAP*0.1+$49065m1} to ${$RAP*0.1+$49065M1} Fire damage and burning all enemies for ${$49065m2*10+$RAP} additional Fire damage over $49065d to all within $49065a1 yards.  Trap will exist for $d.  Only one trap can be active at a time.
 
 Not usable in Arenas or Battlegrounds.",
+425841,,,
 426091,,,
 426096,,,
 427217,,,
@@ -106505,6 +106518,7 @@ $?a1279073[While in combat you generate 1 Celestial Influence per second. At 100
 1244217,,,"Your Stamina is increased by $s1%.
 Your Strength, Agility, and Intellect is increased by $s2%."
 1244218,,,Your Intellect is increased by $s1% and Stamina by $s2%.
+1244268,,Summons a Jade Monument that you and others can jump on.,
 1244317,,,
 1244343,,,
 1244374,,,"Stamina increased by $s1%. Strength, Agility, and Intellect increased by $s2%. Your size reflects your might."
@@ -106635,13 +106649,17 @@ Generate $/10;s4 additional Rage for every yard traveled up to $s4 yards.",
 1250904,,,
 1251365,,,
 1251700,,You're a Level 85 Monk.  Grats!,
+1252638,,Shoots a firework into the air that bursts into the form of the Jade Serpent.,
 1253673,,,
 1254079,,,
 1254094,,,
 1254951,,$@spelldesc113724,
+1256380,,Right Click to summon and dismiss your pet.,
 1256744,,,
 1256843,,,
 1256844,,,
+1257516,,"Summons and dismisses a rideable Lana'thel's Sanguine Cascade Mount.
+This is a flying mount.",$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
 1257681,,Unlocks 100% bonus reputation gain with The Black Prince for all characters on this account.,
 1257682,,Permanently enchants a weapon to increase your PvP Power by $s1 and reduces the duration of Disarm effects by $43588s1%. Disarm duration reduction does not stack with other similar effects.,
 1258214,Summon,"Summons an Incubus who attacks the target for $108501s1 sec.
@@ -106654,6 +106672,11 @@ Archincubi are dangerous, close-range spellcasters. They$?s103140[ turn invisibl
 |cFFFFFFFFSoulburn:|r
 |cFF8282FFInstant cast.|r][]",
 1258539,,"When one of your characters reaches maximum Conquest Points for the week, all of your characters on the same realm earn $s1% additional Conquest Points.",All of your characters on this realm earn $s1% additional Conquest Points.
+1259687,,"Bounce gently atop this springy toy horse, or raise your weapon and call forth fire for a rollicking ride.",
+1259692,,Fly at a casual pace.,Fluttering through the wind.
+1259709,,Rock back and forth at the speed of sound.,Soaring through the sky!
+1259712,,Call forth fire!,
+1259787,,,
 1259852,,Inflicts $s1 Nature damage to target.,
 1259853,,"Right Click to summon the Black Brewmaiden, who will smite your foes with your empty tankards. Wave at her for Brewfest Brew!",
 1259859,,Increases spell haste rating by $s1 for $d.,Increases spell haste rating by $s1.
@@ -106665,29 +106688,49 @@ Archincubi are dangerous, close-range spellcasters. They$?s103140[ turn invisibl
 1259910,,Increases attack power by $s1 for $d.,Increases attack power by $s1.
 1259911,,Chance on melee and ranged critical strike to increase your attack power by $1259910s1 for $1259910ds.,
 1259913,,Increases dodge rating by $s1 for $d1.,Increases dodge rating by $s1.
+1259999,,Summon Fortune's Waving Cat to travel alongside you.,Good fortune and luck are sure to follow as well.
+1260009,,,
 1260478,,Grant yourself ${$s1/100} Honor.,
 1260495,,Grant yourself ${$s1/100} Justice Points.,
 1260497,,Grant yourself ${$s1/100} Conquest.,
 1260498,,Grant yourself ${$s1/100} Valor.,
 1260818,,Awards yourself ${$m1/100} Justice points,
 1260886,,Awards yourself ${$m1/100} Honor points,
+1261676,,Right Click to summon and dismiss this companion.,
 1262327,,"Right Click to summon the Black Brewmaiden, who will smite your foes with your empty tankards. Wave at her for Brewfest Brew!",
 1262332,,Inflicts $s1 Nature damage to target.,
 1262345,,"Right Click to summon the Brewmaiden, whose very presence bolsters a party's vigor. Wave at her for Brewfest Brew!",
 1262352,Rank 7,Heals $s1 every $t1 seconds.,Heals $s1 every $t1 seconds.
+1262837,,Summons a Gilded Coil Spire that you and others can jump on.,
+1262850,,Summons a Azure Thunder Coil Pillar that you and others can jump on.,
+1264097,,Toss a huge bag of gold that will explode into smaller piles of gold that can be looted.,
+1264100,,Summons a magic fountain that accepts a gold offering.,
+1264117,,,
+1264133,,,
+1264141,,,
+1264143,,,
+1264145,,,
+1264152,,,
+1264154,,,
 1264279,,,
 1264794,,Open the package and receive your loot! Requires $s2 empty inventory slots.,
 1265013,,,
+1265025,,Toss a huge bag of gold that will explode into smaller piles of gold that can be looted.,
+1265026,,,
+1265027,,Toss a huge bag of gold that will explode into smaller piles of gold that can be looted.,
+1265028,,,
 1265709,,"Returns you to $z. Speak to an Innkeeper in a different place to change your home location.
 ",
 1266325,,Right Click to summon and dismiss your Starshard Whelpling.,
-1266345,,Summons and dismisses a rideable Cerulean Phase-Hunter. $?s33391[This is a very fast mount.][],Increases speed by $w2%.
+1266345,,Summons and dismisses a rideable Cerulean Phase-Hunter. $?s33391[This is a very fast mount.][],$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
 1266373,,,
 1266738,,Summon a replica of the Exodar to travel alongside you.,A replica of the Exodar travels alongside you.
 1266866,,Summons and dismisses a rideable Starshard Netherdrake mount. This is a very fast mount.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
 1268742,,,
 1268941,,,
 1268974,,,
+1270972,,,
+1271207,,,
 1271806,,,
 1271807,,,
 1272162,,,"Damage increased by $s1%.
@@ -106816,14 +106859,15 @@ Does not function in Arenas or Battlegrounds.",
 1280050,,Summons an avatar of the celestial Yu'lon to your location.,
 1280052,,,
 1280057,,,
-1280068,,"Summons and dismisses a rideable [PH] Lunar Horse mount.
+1280068,,"Summons and dismisses a rideable Scorching Courage mount.
 This is a flying mount.",$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
+1280069,,Right Click to summon and dismiss this companion.,
 1280071,,,
 1280073,,"Shoots a firework into the air that bursts into the form of the Jade Serpent.
 ",
 1280074,,Right Click to summon and dismiss this companion.,
 1280083,,,
-1280184,,Inflicts $144530s1 Fire damage to enemies within a $144530a1 yard cone.,
+1280184,,Inflicts $144530s1 Fire damage to enemies within a $144530a1 yard cone.,Increases magic damage taken by $s2%.
 1280193,,Targets in a cone in front of the caster take Fire damage over $d.,Inflicts Fire damage every second.
 1280198,,,
 1280201,,"Deals $s1 damage to all enemies within $r1 yards, stunning them and reducing their armor by $s3% for $d.",Stunned. Armor reduced by $s3%.
@@ -106832,3 +106876,25 @@ This is a flying mount.",$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increas
 1280306,,,Your movement speed is increased by $1280306s3%. Every $t1 sec you are healed for $12803091s1 and you deal $12803101s1 damage to nearby enemies.
 1280309,,,
 1280310,,,
+1281361,,,
+1281694,,,
+1281695,,,
+1282218,,Inflicts $s1 Nature damage to enemies within $A1 yards and an additional Lei $135153s1 Nature damage every $135153t1 sec for $135150d.,
+1282345,,,
+1282346,,,
+1282781,,,
+1282956,,,
+1283044,,,
+1283162,,,
+1283163,,,
+1283288,,Inflicts $s1 Fire damage every $t1 sec.,Inflicts $s1 Fire damage every $t1 sec.
+1283471,,Summons and dismisses a rideable Golden Ashened Cataclysm. This is a very fast mount.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
+1283570,,,
+1283572,,,Direct attacks unleash an echo of Xuen's ferocity. A bolt of lightning is hurled at the enemy dealing $1244317s1 Nature damage and then jumps to nearby enemies. This can occur once every $proccooldown sec.
+1283573,,,
+1284044,,Summons and dismisses a Scorching Imperial Quilen. This mount changes depending on your Riding skill and location.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
+1285574,,,
+1285612,,,
+1285724,,Summons and dismisses a rideable Stormgilded Celestial mount. This is a very fast mount.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
+1285725,,Summons and dismisses a rideable Thunderhoof Celestial mount. This is a very fast mount.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
+1285726,,Open the bag to see what's inside!,
