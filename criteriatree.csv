@@ -104315,9 +104315,9 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 210095,,210094,0,0,105053,0,0
 210096,,210094,0,0,105054,1,0
 210103,Deploy defenses for the upcoming attack.,0,1,8,0,0,0
-210104,Preparation Timer Expired,210103,1,0,105059,2,0
+210104,Preparation Timer Expired,210103,1,0,105059,1,0
 210105,Defenses Positions activated for the upcoming attack.,210106,1,0,105060,0,1
-210106,Defenses Positions activated.,216141,11,9,0,0,0
+210106,Defenses Positions activated.,216141,11,9,0,1,0
 210107,Prevent the Singuarity Anchor from reaching zero.,0,0,4,0,0,0
 210108,Prevent the Singuarity Anchor from reaching zero.,210107,1,0,105764,0,0
 210112,11.2 - K'aresh - Cloak - Tutorial - Aura 2 - TEST (YGR),0,0,4,0,0,4096
@@ -109767,7 +109767,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 216139,,216137,1,0,106012,1,32
 216140,,216137,1,0,106013,2,32
 216141,Unnamed Branch,210103,0,4,0,0,0
-216142,Preparation Timer Expired,210103,1,0,105059,1,2
+216142,Preparation Timer Expired,216141,1,0,105059,0,2
 216143,[DNT] Enemies - Nature,0,100,5,0,0,4097
 216144,,216143,1,0,108775,0,1
 216145,[DNT] Enemies - Nature,0,100,5,0,0,4097
@@ -109995,7 +109995,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 216380,Seranel Sunlash Defeated,216378,1,0,70057,1,0
 216381,Gemellus Defeated,216378,1,0,70058,2,0
 216382,Degentrius Defeated,216378,1,0,70059,3,0
-216383,Enemy Forces,216378,597,9,0,4,0
+216383,Enemy Forces,216378,585,9,0,4,0
 216384,,216383,12,0,108855,7,0
 216385,12.0 Dungeon - Nexus Point (Challenge),0,0,4,0,0,0
 216386,Chief Corewright Kasreth defeated,216385,1,0,106479,0,0
@@ -113705,18 +113705,17 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 222009,Ancient Runestone,221922,0,0,111824,13,0
 222010,Derelict Mural,221922,0,0,111825,14,0
 222011,Forgotten Mural,221922,0,0,111826,15,0
-222012,A Frayed Scroll,221922,0,0,111827,16,0
 222013,Memorial Plaque,221922,0,0,111828,0,0
 222014,Shrine of Dath'remar,221922,0,0,111829,1,0
 222015,Mirveda's Notes,221922,0,0,111830,2,0
 222016,Profane Research,221922,0,0,111831,3,0
 222017,Hawkstrider Husbandry: Unabridged Edition,221922,0,0,111832,4,0
 222018,Unfinished Sheet Music,221922,0,0,111833,5,0
-222019,Void Armor,221922,0,0,111834,17,0
-222020,Ancient Tablet,221922,0,0,111835,18,0
-222021,Abandoned Telescope,221922,0,0,111836,19,0
-222022,Tattered Page,221922,0,0,111837,20,0
-222023,Shadowgraft Harness,221922,0,0,111838,21,0
+222019,Void Armor,221922,0,0,111834,16,0
+222020,Ancient Tablet,221922,0,0,111835,17,0
+222021,Abandoned Telescope,221922,0,0,111836,18,0
+222022,Tattered Page,221922,0,0,111837,19,0
+222023,Shadowgraft Harness,221922,0,0,111838,20,0
 222024,Defeat all of the rare creatures found in Zul'Aman.,0,0,4,0,0,0
 222025,Necrohexxer Raz'ka,222024,1,0,111839,0,0
 222026,The Snapping Scourge,222024,1,0,111840,1,0
@@ -113735,14 +113734,13 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 222039,Ash'an the Empowered,222024,1,0,111853,14,0
 222040,12.0 Delve - Atune,0,0,4,0,0,0
 222041,12.0 Z2 - Zul'Aman Treasures Achievement,0,0,4,0,0,0
-222042,Abandoned Ritual Skull,222041,0,0,111854,0,16
-222043,Honored Warrior's Cache,222041,0,0,111855,1,16
-222044,Sealed Twilight Blade Bounty,222041,0,0,111856,2,16
-222045,Bait and Tackle,222041,0,0,111857,3,16
-222046,Burrow Bounty,222041,0,0,111858,4,16
-222047,Mrruk's Mangy Trove,222041,0,0,111859,5,16
-222048,Secret Formula,222041,0,0,111860,6,16
-222049,Abandoned Nest,222041,0,0,111861,7,16
+222043,Honored Warrior's Cache,222041,0,0,111855,0,16
+222044,Sealed Twilight Blade Bounty,222041,0,0,111856,1,16
+222045,Bait and Tackle,222041,0,0,111857,2,16
+222046,Burrow Bounty,222041,0,0,111858,3,16
+222047,Mrruk's Mangy Trove,222041,0,0,111859,4,16
+222048,Secret Formula,222041,0,0,111860,5,16
+222049,Abandoned Nest,222041,0,0,111861,6,16
 222050,Leyline Conduit aligned,222040,1,0,111862,1,0
 222051,Bloodstains,218492,1,0,111865,16,16
 222052,12.0 Z4 - Voidstorm Treasures Achievement,0,0,4,0,0,0
@@ -114612,25 +114610,25 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 223152,,223151,0,0,112485,0,0
 223153,Echoes of Midnight - Completed,0,0,4,0,0,0
 223154,,223153,0,0,112485,0,0
-223171,12.0 Eversong Woods Peak Surveys - Highest Peaks (AAO),0,5,4,0,0,8193
+223171,12.0 Eversong Woods Peak Surveys - Highest Peaks (AAO),0,5,8,0,0,8193
 223172,Telescope Placed,223171,1,0,111573,4,0
 223173,Telescope Placed,223171,1,0,111574,0,0
 223174,Telescope Placed,223171,1,0,111575,1,0
 223175,Telescope Placed,223171,1,0,111576,2,0
 223176,Telescope Placed,223171,1,0,111577,3,0
-223177,12.0 Zul'Aman Peak Surveys - Highest Peaks (AAO),0,5,4,0,0,8193
+223177,12.0 Zul'Aman Peak Surveys - Highest Peaks (AAO),0,5,8,0,0,8193
 223178,Telescope Placed,223177,1,0,111578,0,0
 223179,Telescope Placed,223177,1,0,111579,1,0
 223180,Telescope Placed,223177,1,0,111580,2,0
 223181,Telescope Placed,223177,1,0,111581,3,0
 223182,Telescope Placed,223177,1,0,111582,4,0
-223183,12.0 Harandar Peak Surveys - Highest Peaks (AAO),0,5,4,0,0,8193
+223183,12.0 Harandar Peak Surveys - Highest Peaks (AAO),0,5,8,0,0,8193
 223184,Telescope Placed,223183,1,0,111583,0,0
 223185,Telescope Placed,223183,1,0,111584,1,0
 223186,Telescope Placed,223183,1,0,111585,2,0
 223187,Telescope Placed,223183,1,0,111586,3,0
 223188,Telescope Placed,223183,1,0,111587,4,0
-223189,12.0 Voidstorm Peak Surveys - Highest Peaks (AAO),0,5,4,0,0,8193
+223189,12.0 Voidstorm Peak Surveys - Highest Peaks (AAO),0,5,8,0,0,8193
 223190,Telescope Placed,223189,1,0,111588,0,0
 223191,Telescope Placed,223189,1,0,111589,1,0
 223192,Telescope Placed,223189,1,0,111590,2,0
@@ -115131,3 +115129,24 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 225239,,225238,0,0,113640,0,0
 225240,,225238,0,0,113641,1,0
 225241,,225238,0,0,113642,2,0
+225353,12.0 Delves - Treasure Room opened,0,0,4,0,0,0
+225354,Treasure found,225353,0,0,64984,0,0
+225355,"12.0 Delves - Delve Complete, Great Work",0,0,4,0,0,0
+225356,(Optional) Exit Delve with Leave-O-Bot after collecting rewards,225355,0,0,67376,0,0
+225357,"12.0 Delves - Delve Complete, No LeaveOBot",0,0,4,0,0,0
+225358,(Optional) Exit Delve after collecting rewards,225357,0,0,69831,0,0
+225359,12.0 Z1 - Achievement - Saltheril's Haven - Max Rank on All (NEW),0,0,4,0,0,0
+225360,Blood Knights,225359,0,4,0,0,8192
+225361,,225360,2500,0,111969,0,0
+225362,Farstriders,225359,0,4,0,1,8192
+225363,,225362,2500,0,111971,0,0
+225364,Magisters,225359,0,4,0,2,8192
+225365,,225364,2500,0,111970,0,0
+225366,Shades of the Row,225359,0,4,0,3,8192
+225367,,225366,2500,0,111972,0,0
+225325,"[DNT] <Hidden> Mythic+ Rating > 0 (The War Within, any season)",0,0,4,0,0,0
+225326,,225325,1,0,113678,0,0
+225376,Haranir Unlockable,0,1,4,0,0,0
+225377,Complete the Harandar Campaign,225376,0,0,103889,0,16
+225378,12.0 Delves - TwilightsBlade02 - V02 - Step 2: Key (Hufton),0,0,4,0,0,0
+225379,Key acquired,225378,0,0,106442,0,32
