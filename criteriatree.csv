@@ -107970,20 +107970,18 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 214168,Deploy final wave defenses,214167,1,0,107545,0,0
 214169,Reshanor,165620,1,0,107546,5,0
 214170,11.2 Delves - Horde Vs Alliance Race - Horde Finish - Comlete X Delves,0,1,8,0,0,0
-214171,,214170,0,0,107547,0,0
 214172,Defenses Positions activated.,214006,5,9,0,1,0
 214173,Defense Positions activated for the upcoming attack.,214172,1,0,105060,0,1
 214174,Defenses Positions activated.,214167,5,9,0,1,0
 214175,Defense Positions activated for the upcoming attack.,214174,1,0,105060,0,1
-214176,,214170,0,0,107549,1,0
+214176,,214170,0,0,107549,0,0
 214177,11.2.7 Catch Up - TWW - Visions of Azeroth (wrapper 7) - PT1 (KRB),0,0,4,0,0,4096
 214178,,214177,1,0,107550,0,0
 214180,11.2.7 Catch Up - TWW - Visions of Azeroth (wrapper 7) - PT2 (KRB),0,0,4,0,0,4096
 214181,,214180,1,0,107552,0,0
 214182,,214180,1,0,107553,1,0
 214183,11.2 Delves - Horde Vs Alliance Race - Alliance Finish - Comlete X Delves,0,1,8,0,0,0
-214184,,214183,0,0,107554,0,0
-214185,,214183,0,0,107555,1,0
+214185,,214183,0,0,107555,0,0
 214186,11.2.7 Catch Up - TWW - Visions of Azeroth (wrapper 8) - PT1 (KRB),0,0,4,0,0,4096
 214187,,214186,1,0,107556,0,0
 214188,,214186,1,0,107557,1,0
@@ -110574,8 +110572,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 217028,12.0 Delves - DevouringHost02 - V03 - Kill Boss (MDE),0,0,4,0,0,0
 217029,Corrupted Umbraroots destroyed,217028,3,0,110184,0,0
 217030,Quarry camps liberated,216367,6,0,109242,2,0
-217031,Wounded Artists healed,0,0,4,0,0,0
-217032,Wounded Artists healed,217031,20,0,109243,0,1
+217031,Wounded Artists healed,0,0,4,0,0,1
+217032,Wounded Artists healed,217031,5,0,109243,0,1
 217033,Light and Void threats eliminated.,217024,160,9,0,0,0
 217034,Lightbloom slain,217033,5,0,62703,0,1
 217035,Lightbloom slain,217033,10,0,62704,1,1
@@ -111329,7 +111327,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 218313,Engineering,218309,100,0,106452,3,2
 218314,Herbalism,218309,100,0,103371,4,2
 218315,Inscription,218309,100,0,106434,5,2
-218316,Jewelcrafting,218309,100,0,63288,6,2
+218316,Jewelcrafting,218309,100,0,104405,6,2
 218317,Leatherworking,218309,100,0,105195,7,2
 218318,Mining,218309,100,0,103732,8,2
 218319,Skinning,218309,100,0,103872,9,2
@@ -115155,8 +115153,16 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 225408,,223930,0,0,113719,13,0
 225409,,223930,0,0,113720,14,0
 225410,,223930,0,0,113721,15,0
+225520,Echoes of Midnight - Completed,0,0,4,0,0,0
+225521,,225520,0,0,112485,0,0
 225526,,58604,1,0,113785,72,0
 225527,Corrupted Lantern,0,0,4,0,0,4096
 225528,,225527,0,0,113786,0,0
-225520,Echoes of Midnight - Completed,0,0,4,0,0,0
-225521,,225520,0,0,112485,0,0
+225549,Battlegrounds won,0,2,5,0,0,4096
+225550,,225549,2,0,113791,0,2
+225552,Battlegrounds won,0,2,5,0,0,4096
+225553,,225552,2,0,113793,0,2
+225554,Battlegrounds won,0,2,5,0,0,4096
+225555,,225554,2,0,113794,0,2
+225556,Battlegrounds won,0,2,5,0,0,4096
+225557,,225556,2,0,113795,0,2
