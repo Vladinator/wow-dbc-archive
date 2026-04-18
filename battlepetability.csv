@@ -2261,6 +2261,18 @@ Lasts [duration(1,1)] |4round:rounds;.",132221,6,5,0,0
 1960,Twilight Meteorite,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
 Call forth a twilight meteor onto your enemies, dealing [StandardDamage(1,1)] [School()] damage, split evenly amongst them.",425959,1,5,0,0
+2060,Dodge,"Increases your chance to dodge attacks by [abs(abilityStateMod( 73, 2060 ))]%.",136205,-1,0,974,2
+2228,Sonic Blast,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Release a blast of sonic energy at your target, dealing [StandardDamage(1,1)] [School()] damage.",252188,9,0,0,0
+2239,Smoke Cloud,"Increases your chance to dodge an attack by [abs(abilityStateMod( 73, 2060 ))]%.
+
+Lasts [duration(1,1)] |4round:rounds;.",463521,9,4,0,2
+2400,Furious Flapping,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Flap your wings furiously, dealing [StandardDamage(1,1)] [School()] damage. 
+
+Damage increases by [FormatDamage(10*AttackBonus())] each time it is used. Max [FormatDamage(30*AttackBonus())] [School()] damage.",2103903,2,1,0,0
 2510,Hubris,"Your damage taken has been increased by [abs(abilityStateMod( 24, 185 ))]%.",1390945,5,0,530,3
 2511,Hubris,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 

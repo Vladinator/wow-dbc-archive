@@ -105229,7 +105229,6 @@ You will be kicked from the battleground if you remain Inactive."
 301100,,Unable to pick up dropped flags.,Unable to pick up dropped flags.
 301101,,Unable to pick up dropped flags.,Unable to pick up dropped flags.
 308395,,,
-308853,,,
 324270,,,"Deals $s3 damage every $t3 sec.
 Spreads to nearby allies."
 324271,,,"Deals $s1 damage every $t1 sec.
@@ -105237,6 +105236,7 @@ Spreads to nearby allies."
 330659,,Right Click to summon and dismiss your panda cub.,
 335924,,Experience gains increased by $s1%.,"(CN Only)
 Experience gains increased by $s1%."
+340710,,Right Click to summon and dismiss this companion.,
 341722,,,
 345918,,,
 345919,,,You are where you should not be...
@@ -106453,7 +106453,7 @@ Healing spells and abilities recite a blazing song around your ally that increas
 
 This can occur once every $proccooldown seconds.
 
-$?a1279050[While in combat you generate 3 Celestial Influence per second. At 100 Influence you may call upon an avatar of Chi-Ji to assist you in combat.][]"
+$?a1279050[While in combat you generate 2 Celestial Influence per second. At 100 Influence you may call upon an avatar of Chi-Ji to assist you in combat.][]"
 1243288,,,
 1243289,,,
 1243290,,,
@@ -106607,9 +106607,21 @@ Only usable outside of Arenas and Battlegrounds.",Melee and ranged attack speed 
 1247596,,Summons and dismisses a rideable Celestial Riding Serpent.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
 1247597,,Summons and dismisses a rideable Celestial Riding Ox.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
 1247598,,Summons and dismisses a rideable Celestial Riding Tiger.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
+1247613,,"|cnNORMAL_FONT_COLOR:Transmogrify the appearance of your weapons and armor|r
+
+Lock Appearance:
+|cnNORMAL_FONT_COLOR:Prevent this appearance from being replaced by a Situation|r
+
+|cnGREEN_FONT_COLOR:<Right Click to toggle lock appearance>|r",
 1247617,,Restores $s1 mana per 5 sec.,Increased mana regeneration by $s1 mana per 5 sec.
 1247618,,Each spell cast within 20 seconds will grant a stacking bonus of $1247617s1 mana regen per 5 sec. Expires after 20 seconds.  Abilities with no mana cost will not trigger this trinket.,Chance to gain increased mana regeneration.
 1247619,,Increases dodge rating by $s1 for $d1.,Increases dodge rating by $s1.
+1247917,,"|cnNORMAL_FONT_COLOR:Resets all equipped gear to their original appearance|r
+
+|cnWHITE_FONT_COLOR:Lock Appearance:|r
+|cnNORMAL_FONT_COLOR:Prevent this appearance from being replaced by a Situation|r
+
+|cnGREEN_FONT_COLOR:<Right Click to toggle lock appearance>|r",
 1248255,,"Emanate waves of Amber energy, dealing $122349s1 Nature damage every $122349t1 sec to all enemies.",Dealing $122349s1 Nature damage every $122349t1 sec to all enemies.
 1248256,,$@spelldesc122349,
 1248663,,$@spelldesc20165,
@@ -106660,6 +106672,14 @@ Generate $/10;s4 additional Rage for every yard traveled up to $s4 yards.",
 1256844,,,
 1257516,,"Summons and dismisses a rideable Lana'thel's Sanguine Cascade Mount.
 This is a flying mount.",$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
+1257673,,"Summons and dismisses a rideable Snowfall Groveglider mount.
+This is a flying mount.",$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
+1257674,,"Summons and dismisses a rideable Embertuft Groveglider mount.
+This is a flying mount.",$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
+1257676,,"Summons and dismisses a rideable Petalbranch Groveglider mount.
+This is a flying mount.",$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
+1257677,,"Summons and dismisses a rideable Shadowbough Groveglider mount.
+This is a flying mount.",$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
 1257681,,Unlocks 100% bonus reputation gain with The Black Prince for all characters on this account.,
 1257682,,Permanently enchants a weapon to increase your PvP Power by $s1 and reduces the duration of Disarm effects by $43588s1%. Disarm duration reduction does not stack with other similar effects.,
 1258214,Summon,"Summons an Incubus who attacks the target for $108501s1 sec.
@@ -106703,6 +106723,7 @@ Archincubi are dangerous, close-range spellcasters. They$?s103140[ turn invisibl
 1262352,Rank 7,Heals $s1 every $t1 seconds.,Heals $s1 every $t1 seconds.
 1262837,,Summons a Gilded Coil Spire that you and others can jump on.,
 1262850,,Summons a Azure Thunder Coil Pillar that you and others can jump on.,
+1263886,,,
 1264097,,Toss a huge bag of gold that will explode into smaller piles of gold that can be looted.,
 1264100,,Summons a magic fountain that accepts a gold offering.,
 1264117,,,
@@ -106755,6 +106776,7 @@ Rooted."
 1272534,,"Inflicts $1272534s1 Nature damage split among enemies within $1272534A1 yards. If the Bouncing Bolt does not impact with an enemy, an Unharnessed Power is formed, and the Bouncing Bolt will bounce again!",
 1272535,,"The Bouncing Bolt struck the ground, summoning an Unharnessed Power!",
 1272536,,,
+1272615,,,
 1272988,,Summons and dismisses Inarius' Charger.  This mount changes depending on your Riding skill and location.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
 1276520,,,
 1276522,,,
@@ -106888,6 +106910,8 @@ This is a flying mount.",$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increas
 1283162,,,
 1283163,,,
 1283288,,Inflicts $s1 Fire damage every $t1 sec.,Inflicts $s1 Fire damage every $t1 sec.
+1283375,,,
+1283376,,,
 1283471,,Summons and dismisses a rideable Golden Ashened Cataclysm. This is a very fast mount.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
 1283570,,,
 1283572,,,Direct attacks unleash an echo of Xuen's ferocity. A bolt of lightning is hurled at the enemy dealing $1244317s1 Nature damage and then jumps to nearby enemies. This can occur once every $proccooldown sec.
@@ -106909,3 +106933,4 @@ Grants the Mage a charge of Fingers of Frost for each target successfully hit by
 1290754,,,Sanguinated.
 1291540,,,
 1291553,,,
+1292756,,,
