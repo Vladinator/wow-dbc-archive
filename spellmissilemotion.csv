@@ -20255,7 +20255,8 @@ if (missileIndex == 1) then
 	transUp = -waveHeight * (1-progress) * sin(wavesPerSec * progress * 360)
 end
 ",0,2
-4244,GBerger Test Missile Script,,0,0
+4244,GBerger Test Missile Script,"modelPitch = time * 720
+--transFront=((startDistance-distanceToFirePos)*(math.log(progress)+3)/5)",0,0
 4245,"Cone of 3 Missiles, 30deg","if missileIndex==1 then
 	transAngle=-90
 	transMag=sin(15)*totalDistance*progress
@@ -29623,6 +29624,17 @@ transFront = distanceToImpactPos
 transUp = magnitude * ( 1 - progress )
 transFront=distanceToImpactPos
 ",0,1
+5044,12.0.5 Holidays - Troll Run - Test - Rainbow Jump Plague - Parabola Rotated,"local function parabola(a,b,m) return (4*m*((1-progress)*a)*((progress)*b)) end
+
+local height = 8
+local variance = 0
+
+transUp = parabola(1,1,height)
+
+modelRoll = progress * 720 * 5
+modelYaw = progress * 720 * 5
+modelPitch = 180
+",0,1
 5046,12.0 Raid - Voidspire - Trash - Domanaar - Channel - 2. Missile - ADT,"
 local function sinapprox(v)
      local t1 = 1.1*v/360
@@ -29716,3 +29728,31 @@ transUp = parabola(1,1,height)
 local factor = 2
 transFront = math.pow(progress,factor) * distanceToFirePos
 transFront = transFront - distanceToFirePos",0,1
+5068,12.0.5 Sites - ZA - Boss Visuals - Circle Caster,"local startAngle =  (360 / missileCount) * missileIndex 
+local radius = 55
+
+
+--modelPitch = time * 720
+modelRoll = 90
+modelYaw = time
+
+
+local curAngle = (progress * 1100) + startAngle
+--[[
+if progress < 0.3 then
+	radius = radius * progress/0.3
+elseif progress > 0.7 then
+	radius = radius * (1-progress)/0.3
+end
+]]--
+transFront = (sin(curAngle) * radius) - distanceToFirePos
+transRight = (cos(curAngle) * radius)
+",0,25
+5071,Evoker - Devastation - Annihilate - Missile B,"modelPitch = 0
+modelRoll = 90
+modelYaw = 90
+scale = 0.8",0,0
+5072,"Fast In, Slow down - Straight Missile","
+--transFront=((startDistance-distanceToFirePos)*(math.log(progress)+3)/4)
+--transFront = 0-distanceToFirePos+(math.pow(progress,3)*startDistance)
+transFront=((startDistance-distanceToFirePos)*(math.log(progress)+3)/3.5)",0,1

@@ -2545,6 +2545,7 @@ end"
 		fadeRegionSettings = ActorFadeRegionSettings:Default(),
 		alwaysAnimating = false,
 		showItemVisual = false,
+		sheatheState = SheatheState.ShowWeapon,
 	}
 	setmetatable(c, self.__meta)
 	return c

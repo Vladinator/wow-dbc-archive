@@ -967,7 +967,7 @@ ID,BaseTag,TagText_lang,Flags
 10755,BINDING_NAME_MOVEBACKWARD,Move Backward,1
 10756,BINDING_NAME_JUMP,Jump,1
 10757,BINDING_NAME_SITORSTAND,Sit/Move Down,1
-10758,BINDING_NAME_TOGGLESHEATH,Sheath/Unsheath Weapon,1
+10758,BINDING_NAME_TOGGLESHEATH,Sheathe/Unsheathe Weapon,1
 10759,BINDING_NAME_PITCHUP,Pitch Up,1
 10760,BINDING_NAME_PITCHDOWN,Pitch Down,1
 10761,BINDING_NAME_OPENCHAT,Open Chat,1
@@ -9353,7 +9353,7 @@ ID,BaseTag,TagText_lang,Flags
 21252,COMBATLOG_GUILD_XPGAIN,You gain %d guild experience.,1
 21253,ACHIEVEMENTS_GUILD_TAB,Guild,1
 21254,GUILD_ACHIEVEMENTS_TITLE,Guild Achievements,1
-21255,CONFIRM_CLOSE_CINEMATIC,Are you sure you want to cancel this cinematic?,1
+21255,CONFIRM_CLOSE_CINEMATIC,Are you sure you want to skip this cinematic?,1
 21258,ERR_GUILD_BANK_WRONG_TAB,Incorrect bank tab,1
 21259,GUILD_ACHIEVEMENT_UNLOCKED,Guild Achievement Earned,1
 21260,SPELL_FAILED_CUSTOM_ERROR_121,Your target must be below 35% health.,1
@@ -22594,7 +22594,7 @@ And spread his flame to all Azeroth.",1
 52265,CHARACTER_CREATE_REALM,%s Realm,2
 52266,CHARACTER_SELECT_REALM_TOOLTIP,%s Realm,2
 52267,REPORTING_MINOR_CATEGORY_HARMFUL_TO_MINORS,Harmful To Minors,1
-52268,ACCOUNT_COMPLETED_QUESTS_FILTER_DESCRIPTION,Toggle map and quest indicators in the world for quests you've previously completed with another character.|n|nCurrently supported for Dragonflight and The War Within.,1
+52268,ACCOUNT_COMPLETED_QUESTS_FILTER_DESCRIPTION,"Toggle map and quest indicators in the world for quests you've previously completed with another character.|n|nCurrently supported for Dragonflight, The War Within, and Midnight.",1
 52269,DELVES_NEW_CURIO,NEW,1
 52271,STOP_SUPER_TRACK_QUEST,Remove Focus,1
 52272,HERO_TALENTS_COLLAPSE,Minimize,1
@@ -23115,7 +23115,7 @@ And spread his flame to all Azeroth.",1
 53137,HOUSING_CORNERSTONE_NOT_IN_GUILD,You must be a guild member to purchase this House,1
 53138,HOUSING_CORNERSTONE_CANCELMOVE,Cancel Move,1
 53139,HOUSING_PURCHASE_PLOT_CONFIRMATION,Purchase Confirmation,1
-53140,HOUSING_PURCHASE_PLOT_CONFIRMATION_TEXT,Are you sure you want to buy this Plot?,1
+53140,HOUSING_PURCHASE_PLOT_CONFIRMATION_TEXT,Are you sure you want to buy %s in %s for %s?,1
 53141,HOUSING_PURCHASE_PLOT_BUY,Buy,1
 53142,HOUSING_PURCHASE_PLOT_CANCEL,Cancel,1
 53143,HOUSING_PURCHASE_PLOT_ERROR,"There was a problem with buying the Plot, please try again later",1
@@ -23493,7 +23493,7 @@ And spread his flame to all Azeroth.",1
 54188,HOUSING_DASHBOARD_INITIATIVE_TASKS_LABEL,Endeavor Tasks,1
 54189,HOUSING_DASHBOARD_INITIATIVE_ACTIVITY_LABEL,Activity,1
 54190,HOUSING_DASHBOARD_ACTIVITY_LOG_ENTRY,"|cFFFFFFFF%s|r's Warband completed ""%s""",1
-54191,HOUSING_DASHBOARD_NO_ACTIVE_INITIATIVE,Your neighborhood currently has no active Endeavor. |n|n Neighborhood Managers can start an Endeavor by talking to the Steward.,1
+54191,HOUSING_DASHBOARD_NO_ACTIVE_INITIATIVE,Your Neighborhood currently has no active Endeavor. |n|n Neighborhood Managers can start an Endeavor by talking to the Steward.,1
 54192,HOUSING_DASHBOARD_ADDITIONAL_REWARDS_LABEL,Additional Rewards:,1
 54193,HOUSING_DASHBOARD_REWARD_ESTATE_XP,House XP,1
 54194,HOUSING_DASHBOARD_REWARD_CURRENCY,Currency,1
@@ -23587,8 +23587,8 @@ And spread his flame to all Azeroth.",1
 54384,SPELL_FAILED_CUSTOM_ERROR_666,You can't do that.,1
 54385,SPELL_FAILED_CUSTOM_ERROR_651,There is no loot.,1
 54401,CHAT_SETTINGS_ADDITIONAL_COLORS,Additional Colors:,1
-54409,HOUSING_CORNERSTONE_MOVE_DIALOG,Are you sure you want to move this House? \n\n The cost from the old House will apply towards the cost of the new one,1
-54410,HOUSING_CORNERSTONE_IMPORT_DIALOG,Are you sure you want to buy this House? \n\n The layout from your previous House will be applied upon purchase,1
+54409,HOUSING_CORNERSTONE_MOVE_DIALOG,Are you sure you want to move to %s in %s? \n\n The cost from the old House will apply towards the cost of the new one.,1
+54410,HOUSING_CORNERSTONE_IMPORT_DIALOG,Are you sure you want to buy %s in %s for %s? \n\n The layout from your previous House will be applied upon purchase.,1
 54613,HOUSING_CORNERSTONE_MOVE_BUTTON,Move House,1
 54614,HOUSING_CORNERSTONE_MOVE_TOOLTIP,You've recently moved. Please try again later.,1
 54615,HOUSING_CORNERSTONE_MOVE_TOOLTIP_TIME,Time remaining: %s,1
@@ -23771,7 +23771,7 @@ And spread his flame to all Azeroth.",1
 55027,WOWHACK_SPELLS_FRAME_ACTIVE_ABILITIES_HEADER,[PH],1
 55028,WOW_HACK_SPELLS_FRAME_ABILITY_HINT,[PH],1
 55029,REMIX_EARLY_CHARACTER_CONVERSION_NOTICE,Your Timerunner character has been transported to the main timeline.|n|nRemix event items have been removed.,1
-55032,CONVERT_TIMERUNNER_EARLY_DIALOG_TEXT,"Do you want to convert this Timerunner character to a Standard character?|n|nThe character will gain full access to the main game, but will lose access to Legion Remix content. Timerunners converted above level 70 require The War Within to play.|n|n|cffff2020You cannot undo this action|r",2
+55032,CONVERT_TIMERUNNER_EARLY_DIALOG_TEXT,"Do you want to convert this Timerunner character to a Standard character?|n|nThe character will gain full access to the main game, but will lose access to Remix content. Timerunners converted above level 70 require The War Within to play.|n|n|cffff2020You cannot undo this action|r",2
 55033,TIMERUNNING_CONVERSION_ENABLED_TOOLTIP,Convert Timerunner to Standard,2
 55034,GXAPI_MTL4,Metal 4,3
 55036,VRN_NEEDS_MACOS_14_0,Requires macOS 14 or above,3
@@ -23857,7 +23857,7 @@ And spread his flame to all Azeroth.",1
 55173,TRANSMOG_SET_OPEN_COLLECTION,Open Appearances (Exits Transmogrify),1
 55174,ERR_HOUSE_MOVED,The House you were in has moved to a new location.,1
 55176,JOURNEYS_RENOWN_LABEL,Renowns,1
-55177,JOURNEYS_LEVEL_LABEL,Level %d,1
+55177,JOURNEYS_LEVEL_LABEL,Level %d/%d,1
 55183,BINDING_NAME_WOWHACKITEM1,[PH],1
 55184,BINDING_NAME_WOWHACKITEM2,[PH],1
 55185,BINDING_NAME_WOWHACKITEM3,[PH],1
@@ -24214,7 +24214,7 @@ And spread his flame to all Azeroth.",1
 55793,COOLDOWN_VIEWER_SETTINGS_ERROR_INVALID_LAYOUT_NAME,"You cannot create a layout named [%s], please select a different name",1
 55795,HOUSING_EXTERIOR_CUSTOMIZATION_SIZE_SMALL,Small,1
 55797,HOUSING_EXTERIOR_CUSTOMIZATION_LOCKED_TOOLTIP,Not Collected,1
-55798,HOUSING_EXTERIOR_CUSTOMIZATION_CANT_REMOVE,"Doors can't be removed, they can only be moved to a different location",1
+55798,HOUSING_EXTERIOR_CUSTOMIZATION_CANT_REMOVE,"Entryways cannot be removed, they can only be moved to a different location.",1
 55799,HOUSING_EXTERIOR_CUSTOMIZATION_DROPDOWN_COMING_SOON_TOOLTIP,Additional options coming soon,1
 55800,HOUSING_DASHBOARD_MICRO_BUTTON_TUTORIAL_TEXT,View information about your House here,1
 55801,HOUSING_DASHBOARD_TELEPORT_TO_HOUSE_TUTORIAL_TEXT,You can teleport to your House using this button,1
@@ -24256,7 +24256,7 @@ And spread his flame to all Azeroth.",1
 55865,HOUSING_PREVIEW_DECOR_UNSUPPORTED_MODE,Not available while previewing Decor.,1
 55872,RACE_INFO_HARRONIR,"The Goddess Aln'hara was stolen from her cradle long before the haranir came to guard her lands. They kept the world unaware of its existence until the young prophet, Orweyna. was called to aid Azeroth's people, and exposed the savage, subterranean land of Harandar. Now some young haranir have taken up the hunt to find their goddess, witness all of her creations, and bring their unrestrained fury to all who threaten her. ",3
 55874,RACE_INFO_HARRONIR_FEMALE,"The Goddess Aln'hara was stolen from her cradle long before the haranir came to guard her lands. They kept the world unaware of its existence until the young prophet, Orweyna. was called to aid Azeroth's people, and exposed the savage, subterranean land of Harandar. Now some young haranir have taken up the hunt to find their goddess, witness all of her creations, and bring their unrestrained fury to all who threaten her. ",3
-55876,HOUSING_DECOR_OWNED_COUNT_FORMAT,"Owned: |cnHIGHLIGHT_FONT_COLOR:%d (Placed: %d, Storage: %d)|r",1
+55876,HOUSING_DECOR_OWNED_COUNT_FORMAT,"Total Owned: |cnHIGHLIGHT_FONT_COLOR:%d (Placed: %d, Storage: %d)|r",1
 55881,HOUSING_DECOR_CUSTOMIZATION_WALL_WARNING,Decor placed on Walls may be affected by changing the Wall Style,1
 55886,GENERIC_TRAIT_FRAME_CONFIRM_PURCHASE,Are you sure you want to unlock this talent?,1
 55892,MONSTER_BOSS_WARNING,Boss Warning,1
@@ -24381,7 +24381,7 @@ And spread his flame to all Azeroth.",1
 56181,TRANSFER_ABORT_HOUSING_MAX_PLAYERS_IN_HOUSE,The House you are trying to visit has reached the maximum number of visitors. One or more players must exit the House before anyone new can visit.,1
 56183,RPE_NO_INTERRUPT_ACTION,Add an interrupt ability to your action bar from your Spellbook,1
 56187,PROFESSIONS_TRACKER_REAGENT_RANGE_FORMAT,(%d-%d),1
-56190,ERR_HOUSING_RESULT_FIXTURE_CANT_DELETE_DOOR,House Exteriors must always have exactly one door,1
+56190,ERR_HOUSING_RESULT_FIXTURE_CANT_DELETE_DOOR,House Exteriors must always have exactly one entry.,1
 56191,ERR_HOUSING_RESULT_FIXTURE_HOOK_EMPTY,Fixture node is already empty,1
 56192,ERR_HOUSING_RESULT_FIXTURE_HOOK_OCCUPIED,A Fixture is already attached to this node,1
 56193,ERR_HOUSING_RESULT_FIXTURE_HOUSE_TYPE_MISMATCH,Fixture doesn't match the current House Style,1
@@ -24531,7 +24531,7 @@ And spread his flame to all Azeroth.",1
 56644,ERROR_SCRIPT_EXECUTION_HALT,Error reporting is now paused and will resume after reloading the UI.,3
 56645,ERROR_SCRIPT_EXECUTION_LIMIT,"Script from ""%s"" has exceeded its execution time limit.",3
 56653,HOUSING_DECOR_OWNED_ICON_FMT,|A:house-chest-icon:16:16|a %d,1
-56654,HOUSING_DECOR_OWNED_ICON_TOOLTIP,"Placed: %d, Storage: %d",1
+56654,HOUSING_DECOR_PLACED_TOOLTIP,Placed: %d,1
 56660,TRANSMOG_OUTFITS_HELPTIP,"Create outfits to change the appearance of your equipped weapons and armor.\n\nAdd outfits to your action bars for manual control, or setup situations where outfits automatically swap.",1
 56662,TRANSMOG_SETS_HELPTIP,Create outfits from Set appearances you've collected.,1
 56663,TRANSMOG_CUSTOM_SETS_HELPTIP,Create outfits from scratch with your Custom Sets.,1
@@ -24745,7 +24745,7 @@ And spread his flame to all Azeroth.",1
 56981,DEBUFF_SYMBOL_BLEED,Bl,1
 56982,HUD_EDIT_MODE_DAMAGE_METER_DISABLED_TOOLTIP,The Damage Meter is currently disabled. Enable it in the Game Menu in Options > Gameplay Enhancements > Damage Meter.,1
 56984,OPTION_TOOLTIP_PARTY_CHAT_BUBBLES,Shows chat bubbles for party chat.,1
-56986,OPTION_TOOLTIP_RAID_CHAT_BUBBLES,Shows chat bubbles for raid chat.,1
+56986,OPTION_TOOLTIP_RAID_CHAT_BUBBLES,Shows chat bubbles for instance and raid chat.,1
 56987,DAMAGE_METER_LOCK_WINDOW,Lock Window,1
 56988,DAMAGE_METER_UNLOCK_WINDOW,Unlock Window,1
 56989,HOUSING_DECOR_DYE_REFUND_CONFIRMATION_TEXT,"Dyeing this Decor will make it non-refundable, are you sure you want to dye it?",1
@@ -24791,12 +24791,12 @@ And spread his flame to all Azeroth.",1
 57064,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPELLABLE_INDICATOR_TYPE_ALL,Show all dispel indicator types even if I can't dispel it,1
 57066,COMPACT_UNIT_FRAME_PROFILE_DISPLAY_DISPEL_OVERLAY,Dispellable Debuff Color,1
 57067,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPLAY_DISPEL_OVERLAY,Highlight the group frame with a colored overlay if the group member has a dispellable debuff on them.,1
-57068,HOUSING_MARKET_PURCHASE_CONFIRMATION,Purchase all items for %s,3
+57068,HOUSING_MARKET_PURCHASE_CONFIRMATION,Purchase all (%s) items for %s?,3
 57069,UNIT_NAMEPLATES_SEARCH_TAG,Nameplates,1
 57070,CATALOG_SHOP_WOW_FLAVOR_TRR,Titan Reforged Realm,3
 57077,UNIT_NAMEPLATES_THREAT_DISPLAY_HEALTHBAR_COLOR,Health Bar Color,1
 57078,UNIT_NAMEPLATES_THREAT_DISPLAY_HEALTHBAR_COLOR_TOOLTIP,The Nameplate Health Bar will change color to reflect the current state of Threat on a unit.,1
-57084,RAID_CHAT_BUBBLES_TEXT,Raid Chat Bubbles,1
+57084,RAID_CHAT_BUBBLES_TEXT,Instance and Raid Chat Bubbles,1
 57088,CAA_INTERRUPTIBLE_CAST_TEXT,Interruptible Cast,1
 57089,CAA_INTERRUPTED_CAST_TEXT,Target interrupted,1
 57091,HOUSING_MARKET_PURCHASE_FAILURE,"Purchase has failed, please try again later",3
@@ -24805,13 +24805,13 @@ And spread his flame to all Azeroth.",1
 57094,HOUSING_ENDEAVORS_MIN_LEVEL,Endeavors unlock at Level %d,5
 57098,SPELL_FAILED_CUSTOM_ERROR_2516,You can't hold any more hens.,1
 57100,DAMAGE_METER_AVOIDABLE_DAMAGE_NOT_ACTIVE,Avoidable damage tracking is only active in current season instances,1
-57119,ERR_HOUSING_RESULT_GUILD_MORE_ACCOUNTS_NEEDED,Your guild must have at least 10 unique Battle.net accounts to create a guild neighborhood.,1
-57120,ERR_HOUSING_RESULT_GUILD_MORE_ACTIVE_PLAYERS_NEEDED,Your guild must have at least 10 active Battle.net accounts to create a guild neighborhood.,1
+57119,ERR_HOUSING_RESULT_GUILD_MORE_ACCOUNTS_NEEDED,Your guild must have at least 10 unique Battle.net accounts to create a guild Neighborhood.,1
+57120,ERR_HOUSING_RESULT_GUILD_MORE_ACTIVE_PLAYERS_NEEDED,Your guild must have at least 10 active Battle.net accounts to create a guild Neighborhood.,1
 57121,ENDEAVOR_INITIATIVES_PROGRESS_TEXT,%0.2f%%,1
 57122,ENDEAVOR_FAVOR,Endeavor Progress,1
 57124,TRANSMOG_PENDING_CHANGES,This outfit has pending changes. Continuing will cause your pending changes to be lost.,1
-57125,BONUS_FAVOR_NOT_IN_NEIGHBORHOOD_PARTY,Earn bonus endeavor progress by completing tasks in a neighborhood group.,1
-57126,BONUS_FAVOR_IN_NEIGHBORHOOD_PARTY,You're in a neighborhood group. Earn bonus endeavor progress by completing tasks.,1
+57125,BONUS_FAVOR_NOT_IN_NEIGHBORHOOD_PARTY,Earn bonus Endeavor progress by completing tasks in a Neighborhood group.,1
+57126,BONUS_FAVOR_IN_NEIGHBORHOOD_PARTY,You're in a Neighborhood group. Earn bonus Endeavor progress by completing tasks.,1
 57127,SPELL_INTERRUPTED_BY,Interrupted: %s,1
 57128,DAMAGE_METER_COMBAT_NUMBER,Combat %d,1
 57129,COMPACT_UNIT_FRAME_PROFILE_SHOW_BIG_DEFENSIVES,Center Big Defensives,1
@@ -24835,7 +24835,7 @@ And spread his flame to all Azeroth.",1
 57237,ERR_CHARTER_SIGNATURE_REMOVED,%s has removed their signature from your Neighborhood Charter.,1
 57238,ERR_HOUSING_DECOR_REPORT_PLOT_OUT_OF_RANGE,The plot is too far away!,1
 57239,ERR_HOUSING_DECOR_REPORT_BAD_FACING,Not facing the target plot!,1
-57240,ERR_CHARTER_NEIGHBORHOOD_RENAME_NOTIFICATION_S,Your Charter Neighborhood has been renamed to %s,1
+57240,ERR_CHARTER_NEIGHBORHOOD_RENAME_NOTIFICATION_SS,Your %s Neighborhood has been renamed to %s,1
 57242,HOUSING_ENDEAVOR_REPEATABLE_TASK,|A:UI-RefreshButton:18:18:0:0|a Repeatable Task,1
 57243,HOUSING_MAX_PLAYERS_IN_HOUSE_TO_OWNER,You have reached the limit of visitors to your house. One or more players must exit the house before anyone new can visit.,1
 57246,HOUSING_EXTERIOR_CUSTOMIZATION_COLOR_PLUM,Plum,1
@@ -24872,7 +24872,7 @@ And spread his flame to all Azeroth.",1
 57313,CAA_SAY_PARTY_HEALTH_FREQUENCY_TOOLTIP,Adjust the relative frequency of party health callouts,1
 57314,UNDER_X_PERCENT,Under %d%%,1
 57315,HOUSING_EXTERIOR_CUSTOMIZATION_TYPE_SIZES_LOCKED_TOOLTIP,House Level too low for this Type's size,1
-57317,PUNCH_LIST_ITEM_CACHE_TOOLTIP,This contains one of these items:,1
+57317,PUNCH_LIST_ITEM_CACHE_TOOLTIP,Contains one of the following items:,1
 57318,CDMSND_ANIMALS_CAT,Cat,1
 57319,CDMSND_ANIMALS_CHICKEN,Chicken,1
 57320,CDMSND_ANIMALS_COW,Cow,1
@@ -25013,6 +25013,8 @@ And spread his flame to all Azeroth.",1
 57576,EVENTTRACE_SECRET_FMT,|cnEVENTTRACE_SECRET_COLOR:<secret>|r %s,1
 57577,EVENTTRACE_SHOW_SECRET_VALUES,Show Secret Values,1
 57578,DAMAGE_METER_TYPE_DEATHS,Deaths,1
+57579,SPELL_FAILED_CUSTOM_ERROR_2519,Only usable on Midnight Season 1 weapons and trinkets.,1
+57580,SPELL_FAILED_CUSTOM_ERROR_2520,Midnight Season 1 Weapons and trinkets must be fully upgraded before voidforging.,1
 57583,SLASH_CAA_SAY_COMBAT_START_NARRATED,say combat start,1
 57584,SLASH_CAA_SAY_COMBAT_END_NARRATED,say combat end,1
 57585,SLASH_CAA_SAY_TARGET_NAME_NARRATED,say target name,1
@@ -25026,6 +25028,7 @@ And spread his flame to all Azeroth.",1
 57605,HOUSING_MARKET_CART_FULL_ERROR,Your cart is full. Please checkout before adding more Decor.,1
 57606,HOUSING_MARKET_PREVIEW_LIMIT_ERROR,You are at your Preview limit. Please remove one or more items.,1
 57607,SPELL_FAILED_CUSTOM_ERROR_2521,You do not have enough Remnants of Anguish.,1
+57608,SPELL_FAILED_CUSTOM_ERROR_2522,You must be near the Voidforge to channel the Voidcore's power.,1
 57614,JOURNEYS_FRAME_TUTORIAL,"Explore Renown, Delves, and Prey Journeys in the Adventure Guide.",1
 57615,SLASH_CAA_SAY_YOUR_HEALTH_THROTTLE,sayyourhealththrottle,1
 57616,SLASH_CAA_SAY_YOUR_HEALTH_THROTTLE_NARRATED,say your health throttle,1
@@ -25115,12 +25118,12 @@ And spread his flame to all Azeroth.",1
 57711,SLASH_CAA_HELP_SAY_RESOURCE_2_THROTTLE,[%d - %d] - Choose the seconds of throttle to use when saying your second combat resource,1
 57712,CAA_SAY_RESOURCE_2_THROTTLE,Say Resource 2 Throttle,1
 57713,HOUSING_DASHBOARD_REPEATABLE_TASK_TITLE_TOOLTIP_FORMAT,%s (x%d),1
-57724,ERR_ENDEAVOR_REWARD_AVAILABLE,You have rewards waiting for you in the endeavor coffer.,1
+57724,ERR_ENDEAVOR_REWARD_AVAILABLE,You have rewards waiting for you in the Endeavor Coffer.,1
 57729,HOUSING_PREVIEW_DECOR_WARNING_AR_ONLY,Any previewed Decor that you have placed will be removed. Are you sure?,1
 57731,HOUSING_MARKET_PREVIEW_DECOR_ADDED_TO_CHEST,%s has been added to your House Chest.,1
 57732,HOUSING_MARKET_PREVIEW_DECOR_ADDED_TO_WORLD,%s has been placed in your house.,1
 57736,ERR_CHARTER_NEIGHBORHOOD_OWNERSHIP_TRANSFER_SUCCESS,You are now the Neighborhood Owner,1
-57737,BLIZZARD_STORE_VAS_ERROR_HOUSE_NEIGHBORHOOD_OWNER,This service cannot be used on a character that owns a House or a Neighborhood,3
+57737,BLIZZARD_STORE_VAS_ERROR_HOUSE_NEIGHBORHOOD_OWNER,- This service cannot be used on a character that owns a House or a Neighborhood,3
 57738,ENDEAVOR_TASK_COMPLETED,Endeavor Task Completed,1
 57743,ENDEAVOR_COMPLETED,Endeavor Completed,1
 57747,DAMAGE_METER_ENTRY_FORMAT_MINIMAL,%s,1
@@ -25216,6 +25219,7 @@ And spread his flame to all Azeroth.",1
 57875,DEATH_RECAP_DEADLY_SPELL,Deadly,1
 57876,DEATH_RECAP_AVOIDABLE_SPELL,Avoidable,1
 57877,CATALOG_SHOP_PERSONALIZE_OPT_OUT_TOOLTIP,"If you want to opt out of personalized recommendation, please go to BattleNet Account Settings > Privacy > Personalized Recommendation.",3
+57878,HOUSING_CUSTOMIZE_DECOR_SELECTED_TOOLTIP,Currently Selected,1
 57879,COMPACT_UNIT_FRAME_PROFILE_HEALTH_BAR_COLOR,Health Bar Color,1
 57880,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_HEALTH_BAR_COLOR,Defines the default health bar color applied to all raid frames when class colors are disabled.,1
 57881,COMPACT_UNIT_FRAME_PROFILE_HEALTH_BAR_COLOR_BG,Background Color,1
@@ -25223,8 +25227,9 @@ And spread his flame to all Azeroth.",1
 57883,TALENT_BUTTON_TOOLTIP_CAPSTONE_RANK_STAGE_FORMAT_NORMAL,|cnHIGHLIGHT_FONT_COLOR:(%d/%d):|r %s,1
 57884,TALENT_BUTTON_TOOLTIP_CAPSTONE_RANK_STAGE_FORMAT_PREVIEW,|cnDISABLED_FONT_COLOR:(%d/%d):|r %s,1
 57885,TALENT_BUTTON_TOOLTIP_CAPSTONE_RANK_NEXT_STAGE_PREVIEW_TITLE,Next:,1
+57886,HOUSING_HOUSE_DECOR_XP_ADDED_FORMAT,%s has been added to your House Chest. Your houses each earn %d House XP as a first-time collection bonus.,1
 57887,PHOTO_SHARING_SETTINGS_LABEL,Connect to Pinterest,3
-57888,PHOTO_SHARING_SETTINGS_LABEL_TOOLTIP,Check to enable integration of World of Warcraft with Pinterest. Use |cnGREEN_FONT_COLOR:Camera|r to create and share Pins.,3
+57888,PHOTO_SHARING_SETTINGS_LABEL_TOOLTIP,Check to enable integration of World of Warcraft with Pinterest. Use |cnGREEN_FONT_COLOR:Pin-o-Matic Camera|r to create and share Pins.,3
 57889,PHOTO_SHARING_BROWSER_TITLE,Connect to Pinterest,3
 57890,PHOTO_SHARING_PREVIEW_PUBLISH,Publish,3
 57891,PHOTO_SHARING_PREVIEW_TITLE,Create Pin,3
@@ -25233,14 +25238,21 @@ And spread his flame to all Azeroth.",1
 57894,PHOTO_SHARING_PREVIEW_EDITBOX_DESCRIPTION_LABEL,Description,3
 57895,PHOTO_SHARING_PREVIEW_EDITBOX_DESCRIPTION_PLACEHOLDER,Add a detailed description (optional),3
 57896,PHOTO_SHARING_PREVIEW_CONNECT_NOTIFICATION,You must be connected to Pinterest to publish,3
-57897,PHOTO_SHARING_PUBLISHED,Pin published to Pinterest,3
+57897,PHOTO_SHARING_PUBLISHED,Pin published to Board,3
 57899,AUTO_RESET_DAMAGE_METER,Auto Reset Damage Meter,1
 57900,AUTO_RESET_DAMAGE_METER_TOOLTIP,Toggle on to have the damage meter reset all values every time you enter a new instance.,1
+57902,HOUSING_DASHBOARD_ETC_LEVEL,..,1
+57903,HOUSING_CATALOG_SORT_LABEL,Sort By,1
+57904,HOUSING_CATALOG_FILTERS_LOCATION_LABEL,Placeable,1
+57905,HOUSING_CATALOG_FILTERS_LOCATION_BOTH,All,1
+57906,HOUSING_CATALOG_FILTERS_COLLECTION_LABEL,Collection,1
+57907,HOUSING_CATALOG_FILTERS_COLLECTION_BOTH,All,1
 57909,CATALOG_SHOP_REFUND_FLOW_TITLE,Refund Item,3
 57911,CATALOG_SHOP_REFUND_FLOW_DESCRIPTION,Select items to refund,3
 57912,CATALOG_SHOP_REFUND_FLOW_TOTAL_REFUND,Total Refund,3
 57915,CATALOG_SHOP_REFUND_FLOW_SELECT_ALL,Select All,3
 57916,CATALOG_SHOP_REFUND_FLOW_SELECT_NONE,Select None,3
+57923,SCENARIO_CHALLENGES_BUTTON,Challenges |cffffd200(%d)|r,1
 57924,CAA_SAY_YOUR_DEBUFFS_LABEL,Say Your Debuffs,1
 57925,CAA_SAY_YOUR_DEBUFFS_TOOLTIP,Says when a debuff is applied on you,1
 57926,CAA_SAY_YOUR_DEBUFFS_FORMAT_FULL,Debuff %s,1
@@ -25286,9 +25298,10 @@ And spread his flame to all Azeroth.",1
 57971,COOLDOWN_VIEWER_SETTINGS_ALERT_TYPE_VISUAL,Visual,1
 57972,COOLDOWN_VIEWER_SETTINGS_ALERT_DIALOG_LABEL_VISUAL_TYPE,Visual Alert,1
 57973,PHOTO_SHARING_PREPOP_DESCRIPTION,#CraftYourWorld,3
-57976,PHOTO_SHARING_PREVIEW_HEADER,Published Pins will be saved to your |cnWHITE_FONT_COLOR:%s|r Board,3
+57976,PHOTO_SHARING_PREVIEW_HEADER,Published Pin will be saved to your |cnWHITE_FONT_COLOR:%s|r Board,3
 57977,PHOTO_SHARING_PAGE_NAME,World of Warcraft: Craft Your World,3
 57982,JOURNEY_UNLOCKED_TOAST,Journey Unlocked,1
+57984,HOUSING_NEIGHBORHOOD_INVITE_ERR_ALREADY_IN_NEIGHBORHOOD,This player's Warband already owns a house in this Neighborhood,1
 57985,TRANSMOG_SLOT_DISPLAY_TYPE_UNASSIGNED_ARTIFACT,Ignore Override,1
 57986,TRANSMOG_SLOT_DISPLAY_TYPE_UNASSIGNED_ARTIFACT_TOOLTIP,"When this outfit is applied, items in this slot will not have their appearance overridden.",1
 57989,PHOTO_SHARING_SIGN_IN,Sign in,3
@@ -25296,21 +25309,122 @@ And spread his flame to all Azeroth.",1
 57996,PHOTO_SHARING_PAGE_NAME_SHORT,Craft Your World,3
 57997,PHOTO_SHARING_SIGN_IN_NOTIFICATION,Successfully connected to Pinterest,3
 57998,PHOTO_SHARING_DISCONNECT_NOTIFICATION,,3
+58001,CATALOG_SHOP_LOADING,Loading...,3
+58002,BONUS_BUTTON_RANDOM_TRAINING_GROUND_DESC,Compete against the enemy faction in a random battleground.,1
 58003,DAMAGE_METER_TYPE_ENEMY_DAMAGE_TAKEN,Enemy Damage Taken,1
 58004,TRANSMOG_USABLE_DISCOUNT,Free Transmog outfit update available,1
 58005,TRANSMOG_USABLE_DISCOUNT_CONFIRM,You have a free Transmog outfit update. This offer is limited to a single use per character.,1
 58006,TRANSMOG_USABLE_DISCOUNT_CLAIM,Claim Free,1
 58007,TRANSMOG_USABLE_DISCOUNT_USE_GOLD,Use Gold,1
 58010,TRANSMOG_CUSTOM_SETS_MIGRATION_HELPTIP,Your previously applied Transmog and legacy outfits are available in Custom Sets.,1
+58011,HOUSING_INSPECT_MODE_NO_DECOR_TOOLTIP,Mouse over Decor to Inspect,1
+58012,HOUSING_INSPECT_MODE_DYE_TOOLTIP_HEADER,Dyes:,1
+58013,HOUSING_INSPECT_MODE_DYE_TOOLTIP_ENTRY_FORMAT, - %s,1
+58014,HOUSING_INSPECT_MODE_TOOLTIP_INSTRUCTION_TEXT,<Click to view in Decor Catalog>,1
+58015,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_TOOLTIPS_NONE,None,1
+58016,COMBAT_WARNINGS_SPELL_WITH_SEQUENCE_COUNT,%1$s (%2$d),1
+58019,TRANSMOG_SHEATHE_CATEGORY_BACK,Sheathe On Back,1
+58020,TRANSMOG_SHEATHE_CATEGORY_SIDE,Sheathe On Side,1
+58021,TRANSMOG_SHEATHE_CATEGORY_HIDE,Hide While Sheathed,1
+58022,TRANSMOG_SHEATHE_CATEGORY_DEFAULT_BACK,Default Sheathing (Back),1
+58023,TRANSMOG_SHEATHE_CATEGORY_DEFAULT_SIDE,Default Sheathing (Side),1
+58024,TRANSMOG_SHEATHE_CATEGORY_DEFAULT_HIDE,Default Sheathing (Hide),1
+58026,HUD_EDIT_MODE_AUTO_ENABLE_CVAR_TOOLTIP,<Shift-Click to Automatically Enable This Setting>,1
 58040,LFG_MAXLEVEL_DESCRIPTION_BOX,You can't edit this field until you are max level,1
 58041,LFG_AUTHENTICATOR_AND_MAXLEVEL_DESCRIPTION_BOX,Reach max level and attach an Authenticator and Phone Notifications to your account to unlock this field,1
 58043,LFG_MAXLEVEL_BUTTON_TOOLTIP,|cffff0000You can't edit this field until you are max level,1
 58044,LFG_AUTHENTICATOR_AND_MAXLEVEL_BUTTON_TOOLTIP,|cffff0000You can't edit this field until you are max level and secure your account with the Battle.net Authenticator and Phone Notifications|r|n|cff1eff00<Click for more info>|r,1
+58046,DAMAGE_METER_ENTRY_FORMAT_COMPLETE_NO_PARENTHESIS,%s %d%%,1
+58047,TRANSMOG_SHEATHE_WEAPON,Sheathe Weapon,1
+58048,TRANSMOG_SHEATHE_WEAPON_TOOLTIP,Sheathe/Unsheathe Weapon,1
 58052,INTEGER_LARGER_THAN,%d+,1
+58053,TRANSMOG_PREVIEWED_WEAPON_TOGGLE,View Ranged Weapon,1
 58054,CATALOG_SHOP_DECOR_INDIVIDUAL_OWNED,Owned: %d,3
 58055,CATALOG_SHOP_DECOR_INDIVIDUAL_OWNED_TOOLTIP,"Placed: %d, Storage: %d",3
 58056,CATALOG_SHOP_DECOR_BUNDLE_OWNED,Some Items Owned,3
 58057,CATALOG_SHOP_DECOR_BUNDLE_OWNED_TOOLTIP,Some items in this bundle are already owned. Check details for more information.,3
+58080,SLASH_TRANSMOG_OUTFIT2,/outfit,1
 58094,CATALOG_SHOP_HOUSING_WARNING,Midnight Expansion required to use Housing items.,3
+58095,OBJECTIVES_VIEW_IN_TRAVELERS_LOG,Open Activity Details,1
+58096,OBJECTIVES_VIEW_IN_ENDEAVORS_TAB,Open Task Details,1
+58099,PHOTO_SHARING_UNAVAILABLE,This feature is currently unavailable,3
+58100,PROFESSIONS_PLAYER_ORDER_REAGENT_PROVIDED,You are providing this reagent.,1
 58113,UNITNAME_SUMMON_TITLE61,%s's Edict,1
+58114,ENDEAVOR_SINGLE_CONTRIBUTION_LABEL,You can only contribute to one Endeavor at a time.,1
+58115,ENDEAVOR_SWITCHING_HELPTIP,Switch between different Endeavors by selecting your house in the Neighborhood!\n\nYou can only contribute to one Endeavor at a time.,1
+58116,TRANSMOG_SET_COMPLETION_FORMAT,(%s/%s),1
+58151,SPELL_FAILED_CUSTOM_ERROR_2523,Only usable on Galactic Gladiator weapons and trinkets.,1
+58152,SPELL_FAILED_CUSTOM_ERROR_2524,Item must be a Galactic Gladiator weapon or trinket to upgrade.,1
+58162,HOUSING_FIXTURE_ATTACHED_DECOR_CONFIRMATION,This change will affect Decor currently attached to your house.\n\nWould you prefer to put the attached Decor into storage or leave it detached?,1
+58163,HOUSING_FIXTURE_ATTACHED_DECOR_CONFIRMATION_STORE,Store,1
+58164,HOUSING_FIXTURE_ATTACHED_DECOR_CONFIRMATION_DETACH,Detach,1
+58166,TRANSMOG_COST_MODIFIER_TOOLTIP_AURA,Bonus discount applied,1
+58167,TRANSMOG_COST_MODIFIER_TOOLTIP_VOID_ELF,Void Elf discount applied,1
+58168,TRANSMOG_COST_MODIFIER_TOOLTIP_AURA_VOID_ELF,Bonus and Void Elf discount applied,1
+58170,TRANSMOG_COST_MODIFIER_TOOLTIP_OUTFIT,Outfit discount applied,1
+58183,SLASH_COOLDOWNMANAGER1,/cdm,1
+58184,SLASH_COOLDOWNMANAGER3,/cooldownmanager,1
+58185,TRANSMOG_COST_MODIFIER_TOOLTIP_AURA_OUTFIT,Bonus and Outfit discount applied,1
+58186,TRANSMOG_COST_MODIFIER_TOOLTIP_OUTFIT_VOID_ELF,Outfit and Void Elf discount applied,1
+58187,TRANSMOG_COST_MODIFIER_TOOLTIP_FREE,Updates to this outfit are free,1
+58188,HOUSING_MARKET_PURCHASE_CONFIRMATION_SINGLE_ITEM,Purchase item for %s?,3
+58189,TIERED_ENTRANCE_CHALLENGES,Choose Your Challenges,1
+58190,TIERED_ENTRANCE_AFFIXES,Map Properties,1
+58197,HOUSING_EXTERIOR_CUSTOMIZATION_HIDE_DECOR_LABEL,Hide Decor,1
+58199,HOUSING_PURCHASE_FAILURE_INSUFFICIENT_FUNDS,"Purchase has failed, Insufficient funds.",3
+58201,TIERED_ENTRANCE_FRAME_CONFIG_OPERATION_TOO_FAST,Processing selection. Please wait.,1
+58204,ENDEAVOR_TOOLTIP_CURRENCY_TOTAL,Total: %s/%s,1
+58205,HOUSING_EXTERIOR_CUSTOMIZATION_CANT_REPLACE_DOOR,Cannot replace entry. Move the entry before placing another fixture here.,1
+58208,ERR_NO_SALVAGED_ITEMS_IN_ACCOUNT_BANK,You cannot place that in the Warband Bank.,1
+58210,RITUAL_SITE_LABEL,Ritual Site,1
+58211,ENDEAVOR_FINAL_MILESTONE_TOOLTIP_CURRENCY,|T%1$s:16:16|t %2$s %3$s,1
+58217,HOUSING_PLACEMENT_LIGHT_OVERLAP_ERROR_TITLE,Too close to another light.,1
+58218,TIERED_ENTRANCE_PARTY_LEADER_ONLY,Only the party leader can make changes,1
+58219,HOUSING_CONTROLS_INSPECT_TOOLTIP,Inspect Decor,1
+58220,JOURNEYS_UNCLAIMED_ITEM,This reward is available to claim,1
+58222,HOUSING_DECOR_STORAGE_TOOLTIP,Storage: %d,1
+58223,HOUSING_DECOR_VARIANT_CYCLE_TOOLTIP,See variations,1
+58224,HOUSING_DECOR_VARIANT_DYED_COUNT_TOOLTIP,Current Dye Scheme: %d,1
+58225,HOUSING_DECOR_VARIANT_TOTAL_OWNED_TOOLTIP,Total Owned: %d,1
+58226,HOUSING_DECOR_DYES_LABEL,Dyes:,1
+58229,PHOTO_SHARING_SETTINGS_LABEL_TOOLTIP_RESTRICTED,|cnERROR_COLOR:Connecting to Pinterest is disabled by Parental Controls.|r,3
+58233,JOURNEYS_KNOWN_ITEM,Already Known,1
+58236,SLASH_EDITMODE2,/emode,1
+58237,SLASH_EDITMODE3,/edit,1
+58238,SLASH_CLICKCASTING1,/clickcasting,1
+58239,SLASH_CLICKCASTING3,/cc,1
+58258,SLASH_COOLDOWNMANAGER2,/cdm,1
+58259,SLASH_COOLDOWNMANAGER4,/cooldownmanager,1
+58261,SLASH_CLICKCASTING2,/clickcasting,1
+58262,SLASH_CLICKCASTING4,/cc,1
+58398,TRANSMOG_SETS_NONE,You don't have any Set appearances,1
+58399,TRANSMOG_CUSTOM_SETS_NONE,You don't have any Custom Sets,1
+58401,SPELL_FAILED_CUSTOM_ERROR_2525,You have no secondary stats.,1
+58406,SPELL_FAILED_CUSTOM_ERROR_1109,You have queued too many times. Please wait.,1
+58409,DECOR_LIGHT_RADIUS_INDICATOR_TYPE_ALWAYS,Always,1
+58410,DECOR_LIGHT_RADIUS_INDICATOR_TYPE_OVERLAP,Overlap,1
+58411,DECOR_LIGHT_RADIUS_INDICATOR_TYPE_NEVER,Never,1
+58412,OPTION_TOOLTIP_DECOR_LIGHT_RADIUS_INDICATOR_TYPE_ALWAYS,The Indicator is always visible while moving a light.,1
+58413,OPTION_TOOLTIP_DECOR_LIGHT_RADIUS_INDICATOR_TYPE_OVERLAP,When two lights are overlapping the indicator will appear.,1
+58414,OPTION_TOOLTIP_DECOR_LIGHT_RADIUS_INDICATOR_TYPE_NEVER,No indicator will show.,1
+58415,SELECTED_DECOR_LIGHT_RADIUS_INDICATOR_TYPE,Selected Decor,1
+58416,OTHER_DECOR_LIGHT_RADIUS_INDICATOR_TYPE,Other Decor,1
+58417,OPTION_TOOLTIP_OTHER_DECOR_LIGHT_RADIUS_INDICATOR_TYPE,Controls how the Light Radius Indicator is displayed on non-selected Decor while decorating.,1
+58418,OPTION_TOOLTIP_SELECTED_DECOR_LIGHT_RADIUS_INDICATOR_TYPE,Controls how the Light Radius Indicator is displayed on selected Decor while decorating.,1
+58419,DECOR_LIGHT_RADIUS_INDICATOR_ENABLED,Light Radius Indicators,1
+58420,OPTION_TOOLTIP_DECOR_LIGHT_RADIUS_INDICATOR_ENABLED,Enables Light Radius Indicators to show when placing Decor,1
+58423,HOUSING_SETTINGS_LABEL,Housing,1
+58424,SPELL_FAILED_CUSTOM_ERROR_2526,You must be near a major Loa temple in Zul'Aman to sound this drum.,1
+58583,QUEST_HEADER_MISSING_UNSORTED,Unsorted,1
+58584,HOUSING_CORNERSTONE_GAMETIME_PERMISSION,You must have active Game Time to make this purchase.,1
+58585,TRADE_WARNING_CHANGED_OFFER,%s has changed their trade offer. Verify you are receiving the correct items and gold.,1
+58586,DECOR_LIGHT_RADIUS_INDICATOR_HELPTIP,Exterior lights cannot overlap.|n|nThe indicator will turn red when multiple lights overlap.,1
+58668,HUD_EDIT_MODE_SETTING_STATUS_TACKING_BAR_SIZE,Size,1
+58689,ENDEAVOR_XP_TOOLTIP_TITLE,House XP Available,1
+58690,ENDEAVOR_XP_TOOLTIP_DESCRIPTION,You can earn House XP from completing Endeavor tasks.,1
+58691,ENDEAVOR_XP_TOOLTIP_AVAILABLE,Available: %s,1
+58700,HUD_EDIT_MODE_TOTEM_ACTION_BAR_LABEL,Totem Bar,1
+58701,QUEST_HUB_TOOLTIP_TRAVEL_HEADER,Travel,1
+58706,HUD_EDIT_MODE_SETTING_UNIT_FRAME_BIGDEFENSIVE_AURA_ICON_SIZE,Big Defensive Size,1
 58711,SPELL_FAILED_CUSTOM_ERROR_2666,Your quest log is full.,1
+58731,BLIZZARD_STORE_VAS_ERROR_BOOST_THROTTLE,Maximum number of character boosts reached for the day. Please try again tomorrow.,3
