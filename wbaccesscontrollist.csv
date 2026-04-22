@@ -103,8 +103,10 @@ ID,URL,GrantFlags,RevokeFlags,WowEditInternal,RegionID
 266,https://accounts.google.com/*,234,0,0,0
 267,https://www.recaptcha.net/recaptcha/*,102,0,0,0
 269,https://photosharing.social.wow.blizzard.net//,8192,0,0,0
-270,https://ct.pinterest.com/*,166,0,0,0
-271,https://www.pinterest.com/*,166,0,0,0
+275,https://www.pinterest.com/login/*,102,0,0,0
+276,https://ct.pinterest.com/*,102,0,0,0
+277,https://www.pinterest.com/*,100,0,0,0
+278,https://www.pinterest.com/oauth/*,102,0,0,0
 279,https://ch.pinterest.com/*,100,0,0,0
 280,https://cl.pinterest.com/*,100,0,0,0
 281,https://kr.pinterest.com/*,100,0,0,0
@@ -141,4 +143,5 @@ ID,URL,GrantFlags,RevokeFlags,WowEditInternal,RegionID
 312,https://in.pinterest.com/*,100,0,0,0
 313,https://be.pinterest.com/*,100,0,0,0
 314,https://ar.pinterest.com/*,100,0,0,0
+315,^https://*.pinterest.com/*,226,0,0,0
 316,^https://*.pinterest.com/*,102,0,0,0
