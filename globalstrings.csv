@@ -17972,7 +17972,9 @@ ID,BaseTag,TagText_lang,Flags
 42763,MOTION_SICKNESS_CHECKBOX,Motion Sickness,1
 42764,ADJUST_MOTION_SICKNESS_SHAKE,Camera Shake,1
 42771,RENOWN_REWARD_TRANSMOG_NAME_FORMAT,%s,1
+42772,RENOWN_REWARD_TRANSMOGSET_NAME_FORMAT,%s,1
 42779,RENOWN_REWARD_TRANSMOG_DESCRIPTION,This appearance will become available for purchase from the Renown Quartermaster.,1
+42780,RENOWN_REWARD_TRANSMOGSET_DESCRIPTION,These appearances will become available for purchase from the Renown Quartermaster.,1
 42786,SHAKE_INTENSITY_NONE,None,1
 42787,SHAKE_INTENSITY_REDUCED,Reduced,1
 42788,SHAKE_INTENSITY_FULL,Full,1
@@ -18931,6 +18933,9 @@ You can learn more Specializations as you increase your skill level.",1
 50568,AUDIO_CACHE_SIZE_SMALL,Small (%dMB),3
 50569,AUDIO_CACHE_SIZE_LARGE,Large (%dMB),3
 50571,AUDIO_LABEL,Audio,3
+50583,TRANSMOGRIFICATION,Transmogrification,1
+50584,LOOT_ROLL_YOU_WON_NO_SPAM_TRANSMOG,|HlootHistory:%d|h[Loot]|h: You (Transmogrification - %d) Won: %s,1
+50585,LOOT_ROLL_WON_NO_SPAM_TRANSMOGRIFICATION,|HlootHistory:%d|h[Loot]|h: %s (Transmogrification - %d) Won: %s,1
 51103,AUCTION_HOUSE_BUYOUT_COLON,Buyout:,4
 51104,AUCTION_HOUSE_LABEL_HIGH_TO_LOW,High to Low,4
 51105,AUCTION_HOUSE_LABEL_LOW_TO_HIGH,Low to High,4
@@ -19268,6 +19273,7 @@ They will be deleted and remade with the current customized character.",2
 55742,CATALOG_SHOP_TYPE_MOUNT_FLYING_AQUATIC,Flying Aquatic Mount,3
 55771,CATALOG_SHOP_NOT_AVAILABLE,Shop Unavailable,3
 55772,CATALOG_SHOP_TRY_AGAIN_LATER,Please check back later.,3
+55803,BUFF_TOOLTIP_TRANSMOG,The appearance of your weapons and armor are transmogrified.,1
 55808,TRANSMOG_CUSTOM_SET_CONFIRM_DELETE,Are you sure you want to delete the custom set %s?,1
 55809,TRANSMOG_CUSTOM_SET_NONE,No Custom Set,1
 55810,TRANSMOG_CUSTOM_SET_EDIT,Rename/Delete,1
@@ -19610,6 +19616,9 @@ They will be deleted and remade with the current customized character.",2
 57802,SLASH_CAA_SAY_TARGET_CASTS_VOICE_NARRATED,say target casts voice,1
 57803,SLASH_CAA_HELP_SAY_TARGET_CASTS_VOICE,[%d - %d] - Choose the voice to use to say your target's casts,1
 57804,SLASH_CAA_SAY_TARGET_CASTS_VOICE_CHANGED_CONFIRMATION,Combat Audio Alert Say Targets Casts Voice set to %s,1
+57812,ERR_TRANSMOG_INVALID_ACTION_TRIAL_OF_STYLE,You can't do that while the Trial of Style Scenario is in progress,1
+57813,TRANSMOG_TRIAL_OF_STYLE_HELPTIP,Dress to impress with this special Trial of Style outfit.\n\nUpdating this outfit is free during the Trial of Style event.,1
+57830,TRANSMOG_SAVE_OUTFIT_CANNOT_AFFORD_TOOLTIP,You can't afford to save outfit changes,1
 57835,SLASH_CAA_SAY_YOUR_HEALTH_VOLUME,sayyourhealthvolume,1
 57836,SLASH_CAA_SAY_YOUR_HEALTH_VOLUME_NARRATED,Say Your Health Volume,1
 57837,SLASH_CAA_HELP_SAY_YOUR_HEALTH_VOLUME,[%d - %d] - Choose the volume to use when saying your health,1
@@ -19643,6 +19652,7 @@ They will be deleted and remade with the current customized character.",2
 57932,CAA_SAY_YOUR_DEBUFFS_MIN_DURATION_TOOLTIP,Sets the minimum duration of debuffs to be announced,1
 57933,CAA_DEBUFF_SELF_ALERT_LABEL,Debuff Self Alert,1
 57934,CAA_DEBUFF_SELF_ALERT_TOOLTIP,Announces when you can dispel a debuff on yourself,1
+57935,TRANSMOG_CUSTOM_SET_NEW_TOOLTIP_DISABLED_MAX_COUNT,You have reached the maximum number of Custom Sets,1
 57936,CAA_DEBUFF_SELF_ALERT_FORMAT_DEBUFF_TYPE,"Voice: ""%s debuff""",1
 57940,SLASH_CAA_SAY_YOUR_DEBUFFS,sayyourdebuffs,1
 57941,SLASH_CAA_SAY_YOUR_DEBUFFS_NARRATED,say your debuffs,1
@@ -19670,19 +19680,36 @@ They will be deleted and remade with the current customized character.",2
 57964,SLASH_CAA_SAY_YOUR_DEBUFFS_VOLUME_NARRATED,Say Your Debuffs Volume,1
 57965,SLASH_CAA_HELP_SAY_YOUR_DEBUFFS_VOLUME,[%d - %d] - Choose the volume to use when saying your debuffs,1
 57966,SLASH_CAA_SAY_YOUR_DEBUFFS_VOICE_CHANGED_CONFIRMATION,Combat Audio Alert Say Your Debuffs Voice set to %s,1
+57985,TRANSMOG_SLOT_DISPLAY_TYPE_UNASSIGNED_ARTIFACT,Ignore Override,1
+57986,TRANSMOG_SLOT_DISPLAY_TYPE_UNASSIGNED_ARTIFACT_TOOLTIP,"When this outfit is applied, items in this slot will not have their appearance overridden.",1
 58001,CATALOG_SHOP_LOADING,Loading...,3
 58004,TRANSMOG_USABLE_DISCOUNT,Free Transmog outfit update available,1
 58005,TRANSMOG_USABLE_DISCOUNT_CONFIRM,You have a free Transmog outfit update. This offer is limited to a single use per character.,1
 58006,TRANSMOG_USABLE_DISCOUNT_CLAIM,Claim Free,1
 58007,TRANSMOG_USABLE_DISCOUNT_USE_GOLD,Use Gold,1
 58010,TRANSMOG_CUSTOM_SETS_MIGRATION_HELPTIP,Your previously applied Transmog and legacy outfits are available in Custom Sets.,1
+58019,TRANSMOG_SHEATHE_CATEGORY_BACK,Sheathe On Back,1
+58020,TRANSMOG_SHEATHE_CATEGORY_SIDE,Sheathe On Side,1
+58021,TRANSMOG_SHEATHE_CATEGORY_HIDE,Hide While Sheathed,1
+58022,TRANSMOG_SHEATHE_CATEGORY_DEFAULT_BACK,Default Sheathing (Back),1
+58023,TRANSMOG_SHEATHE_CATEGORY_DEFAULT_SIDE,Default Sheathing (Side),1
+58024,TRANSMOG_SHEATHE_CATEGORY_DEFAULT_HIDE,Default Sheathing (Hide),1
 58037,LFG_LIST_CATEGORY_SOLO_PLAYERS,Players,1
 58038,LFG_LIST_CATEGORY_GROUPS,Groups,1
 58047,TRANSMOG_SHEATHE_WEAPON,Sheathe Weapon,1
 58048,TRANSMOG_SHEATHE_WEAPON_TOOLTIP,Sheathe/Unsheathe Weapon,1
 58053,TRANSMOG_PREVIEWED_WEAPON_TOGGLE,View Ranged Weapon,1
+58080,SLASH_TRANSMOG_OUTFIT2,/outfit,1
 58113,UNITNAME_SUMMON_TITLE61,%s's Edict,1
 58116,TRANSMOG_SET_COMPLETION_FORMAT,(%s/%s),1
+58166,TRANSMOG_COST_MODIFIER_TOOLTIP_AURA,Bonus discount applied,1
+58167,TRANSMOG_COST_MODIFIER_TOOLTIP_VOID_ELF,Void Elf discount applied,1
+58168,TRANSMOG_COST_MODIFIER_TOOLTIP_AURA_VOID_ELF,Bonus and Void Elf discount applied,1
+58170,TRANSMOG_COST_MODIFIER_TOOLTIP_OUTFIT,Outfit discount applied,1
+58185,TRANSMOG_COST_MODIFIER_TOOLTIP_AURA_OUTFIT,Bonus and Outfit discount applied,1
+58186,TRANSMOG_COST_MODIFIER_TOOLTIP_OUTFIT_VOID_ELF,Outfit and Void Elf discount applied,1
+58187,TRANSMOG_COST_MODIFIER_TOOLTIP_FREE,Updates to this outfit are free,1
+58398,TRANSMOG_SETS_NONE,You don't have any Set appearances,1
 58399,TRANSMOG_CUSTOM_SETS_NONE,You don't have any Custom Sets,1
 58585,TRADE_WARNING_CHANGED_OFFER,%s has changed their trade offer. Please ensure you are receiving the correct items and gold.,1
 58653,HUD_EDIT_MODE_RAID_WARNING_LABEL,Raid Warnings,1
@@ -19765,3 +19792,5 @@ They will be deleted and remade with the current customized character.",2
 59110,HUD_EDIT_MODE_SETTING_END_CAP_HIDDEN,Hidden,1
 59111,HUD_EDIT_MODE_END_CAP_LEFT_LABEL,End Cap (Left),1
 59112,HUD_EDIT_MODE_END_CAP_RIGHT_LABEL,End Cap (Right),1
+59142,CHALLENGE_MODE_MEDAL5,Diamond,1
+59143,CHALLENGE_MODE_MEDALNAME5,Diamond Medal,1

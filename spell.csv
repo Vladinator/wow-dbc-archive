@@ -93549,7 +93549,7 @@ Guessing incorrectly will remove your streak.  You will receive your reward from
 134729,,Leaps at the current target.,
 134730,,,
 134731,,"Combine the Kor'kron Helmet, Kor'kron Armor, and Kor'kron Boots into a Kor'kron Disguise.",
-134732,,Dealing damage to another player in battle causes them to receive $134735m1% less healing.,
+134732,,Dealing damage to another player in battle causes them to receive $<bf>% less healing.,
 134733,,Apply an orc costume.,You are disguised as a Kor'kron soldier.
 134734,,Disguise yourself as a Kor'kron soldier.,
 134735,,$@spelldesc134732,Reduces healing recieved by $w1%.
@@ -106453,7 +106453,9 @@ Healing spells and abilities recite a blazing song around your ally that increas
 
 This can occur once every $proccooldown seconds.
 
-$?a1279050[While in combat you generate 2 Celestial Influence per second. At 100 Influence you may call upon an avatar of Chi-Ji to assist you in combat.][]"
+$?a1279050[While in combat you generate 2 Celestial Influence per second. At 100 Influence you may call upon an avatar of Chi-Ji to assist you in combat.][]
+
+Witnessing the conflux of August Celestials blesses you with a rare boon."
 1243288,,,
 1243289,,,
 1243290,,,
@@ -106475,7 +106477,9 @@ $?a1279050[While in combat you generate 2 Celestial Influence per second. At 100
 
 Direct attacks unleash an echo of Xuen's ferocity. A bolt of lightning is hurled at the enemy dealing $1244317s1 Nature damage and then jumps to nearby enemies. This can occur once every $proccooldown sec.
 
-$?a1279075[While in combat you generate 1 Celestial Influence per second. At 100 Influence you may call upon an avatar of Xuen to assist you in combat.][]"
+$?a1279075[While in combat you generate 1 Celestial Influence per second. At 100 Influence you may call upon an avatar of Xuen to assist you in combat.][]
+
+Witnessing the conflux of August Celestials blesses you with a rare boon."
 1243316,,,"Your Strength, and Agility are increased by $s1% and your Stamina is increased by $s2%."
 1243374,,,Your gift of Celestial Influence has been halted.
 1243779,,,
@@ -106506,7 +106510,9 @@ Your Strength, Agility and Intellect are increased by $1244217s2%.
 
 Dodge, Parry, and Blocks increase your Stamina by $1244374s1% and your Strength, Agility, and Intellect by $1244374s2%. This effect lasts $1244374d and can stack $1244374U times.
 
-$?a1279074[While in combat you generate 3 Celestial Influence per second. At 100 Influence you may call upon an avatar of Niuzao to assist you in combat.][]"
+$?a1279074[While in combat you generate 3 Celestial Influence per second. At 100 Influence you may call upon an avatar of Niuzao to assist you in combat.][]
+
+Witnessing the conflux of August Celestials blesses you with a rare boon."
 1244204,,,"Your Intellect is increased by $1244218s1%.
 Your Stamina is increased by $1244218s2%.
 
@@ -106514,7 +106520,9 @@ Damaging spells and abilities inflict Jadefire, burning the target for $1244376o
 
 This can occur once every $proccooldown sec and can stack $1244376u times.
 
-$?a1279073[While in combat you generate 1 Celestial Influence per second. At 100 Influence you may call upon an avatar of Yu'lon to assist you in combat.][]"
+$?a1279073[While in combat you generate 1 Celestial Influence per second. At 100 Influence you may call upon an avatar of Yu'lon to assist you in combat.][]
+
+Witnessing the conflux of August Celestials blesses you with a rare boon."
 1244217,,,"Your Stamina is increased by $s1%.
 Your Strength, Agility, and Intellect is increased by $s2%."
 1244218,,,Your Intellect is increased by $s1% and Stamina by $s2%.
@@ -106949,3 +106957,48 @@ Grants the Mage a charge of Fingers of Frost for each target successfully hit by
 1298113,,,
 1298119,,,
 1298121,,,
+1298271,,,
+1298279,,"Ambush the target, causing $m2% weapon damage plus $m1 to the target (${$m2*1.447}% plus ${$m1*1.447} if a dagger is equipped).  Must be stealthed and behind the target.  Awards $s3 combo $lpoint:points;$?s138106[ and causes you to appear behind the target][].",
+1298348,,,"Damage increased by $s1%.
+Health increased by $s2%.
+
+Boss attacks have a chance to call the might of the Warsong."
+1298398,,,
+1298405,,,
+1298411,,Place a banner that causes allies' attacks to be faster.,Rallying cry of the Warsong. Allies within 45 yards have their Haste increased by $1298412s1%.
+1298412,,,Successful attacks generate rage for General Nazgrim.
+1298458,,"Heals a friendly target for $144583s1% of their max health, chaining to nearby friendly targets.","Heals a friendly target for $144583s1% of their max health, chaining to nearby friendly targets."
+1298459,,"Inflicts $144584s1 Nature damage, chaining to nearby enemies.","Inflicts $s1 Nature damage, chaining to nearby enemies."
+1298461,,"Calls down a burst of Arcane energy, inflicting $143431s1 Arcane damage instantly and $143431s2 Arcane damage every $143431t2 sec. for $143431d to enemies within $143431A1 yards.",$s2 Arcane damage taken every $t2 sec.
+1298463,,"Shock a target, inflicting $143432s1 Arcane damage and increasing Arcane damage dealt by the caster by $143432s2% for $143432d. Stacks up to $143432u times.",Arcane damage dealt increased by $s2%.
+1298464,,"Whirl around in a storm of iron, inflicting $1298465s1 Physical damage to enemies within $1298465A1 yards every $t1 sec. for $d.",Inflicts $1298465s1 Physical damage to nearby enemies every $t1 sec.
+1298465,,$@spelldesc1298464,
+1298467,,Petrifies enemies with dread within 20 yards of the caster for $d.,Petrified with dread.
+1298468,,Inflicts Physical damage to an enemy every $t1 sec. for $d.,Suffering $s1 Physical damage every $t1 sec.
+1298469,,,
+1298471,,"Inflicts $s1 Fire damage, interrupting casts for $d.","Inflicts $s1 Fire damage, interrupting casts for $d."
+1298472,,Inflicts $s1 Fire damage.,Inflicts $s1 Fire damage.
+1298473,,,
+1298475,,,
+1298476,,,
+1298477,,,
+1298479,,"Throw a whirling blade, inflicting  $143873s1 Physical damage to enemies within $143873A1 yards every $143874t1 sec.",
+1298480,,"Throw a whirling blade, inflicting  $143873s1 Physical damage to enemies within $143873A1 yards every $143874t1 sec.",
+1298482,,"Throw a whirling blade, inflicting  $143873s1 Physical damage to enemies within $143873A1 yards every $143874t1 sec. and granting General Nazgrim $143877s1 rage for each enemy struck.",
+1298485,,,
+1298486,,$@spelldesc143639,
+1298487,,$@spelldesc143639,
+1298488,,$@spelldesc143639,
+1298491,,Summons a core of smouldering ash that will fall over $143986s1 sec.  Deals $143987s1 Fire damage to enemies within $143987A1 yards and $143987s2 Fire damage to all enemies on impact.,
+1298492,,Summons a core of smouldering ash that will fall over $143986s1 sec.  Deals $143987s1 Fire damage to enemies within $143987A1 yards and $143987s2 Fire damage to all enemies on impact.,
+1298510,,Summons and dismisses a rideable Black Kor'kron Proto-drake.  This is a flying mount.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
+1298512,,Summons and dismisses a Stormcrow.  This mount changes depending on your Riding skill and location.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
+1298515,,Summons and dismisses a rideable Spectral Gryphon mount.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
+1298516,,Summons and dismisses a rideable Spectral Wind Rider mount.  This is a flying mount.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
+1298531,,,
+1298534,,,
+1298554,,,Witnessed the conflux of August Celestials. Your damage and healing are increased by $s2% and damage taken is reduced by $s2%.
+1298555,,,Witness to the arrival of an August Celestial.
+1298556,,,Witness to the arrival of an August Celestial.
+1298557,,,Witness to the arrival of an August Celestial.
+1298558,,,Witness to the arrival of an August Celestial.
