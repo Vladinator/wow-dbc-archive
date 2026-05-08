@@ -19195,12 +19195,21 @@ They will be deleted and remade with the current customized character.",2
 54075,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_SHOW_TOOLTIPS,Show Tooltips,1
 54202,SLASH_TRANSMOG_CUSTOM_SET1,/customset,1
 54230,EMPTY_SOCKET_FIBER,Fiber Socket,5
+54232,UNIT_NAMEPLATES_ENABLE_STACKING,Stack Nameplates,1
+54233,UNIT_NAMEPLATES_ENABLE_STACKING_TOOLTIP,Prevents Nameplates from overlapping each other.,1
+54237,UNIT_NAMEPLATES_GLOBAL_SCALE,Size,1
+54238,UNIT_NAMEPLATES_GLOBAL_SCALE_TOOLTIP,Controls the size that Nameplates are displayed on the screen.,1
 54246,CENSORED_MESSAGE_SENDER,%s |cffffff00Message to %s flagged as potentially inappropriate.|Hcensoredmessagerewrite:%d:%d:%s|h |W[Rewrite Message]|w|h or |Hcensoredmessageconfirmsend:%d:%d:%s|h|W[Send Anyways]|w|h|r,1
 54272,CENSORED_MESSAGE_SENT,%s |cffffff00Message flagged as potentially inappropriate.|r,1
 54399,TRANSMOG_ITEM_SET_FAVORITE,Set Favorite,3
 54400,TRANSMOG_ITEM_UNSET_FAVORITE,Remove Favorite,3
 54423,CHARACTER_UPGRADE_MAX_LEVEL_POPUP_TEXT,This character is already level %s. Are you sure you want to use this boost on this character?,3
 54653,SPELL_FAILED_CUSTOM_ERROR_361,You already have the maximum number of professions.,1
+54702,UNIT_NAMEPLATES_THREAT_DISPLAY,Aggro Display,1
+54703,UNIT_NAMEPLATES_THREAT_DISPLAY_NONE,None,1
+54704,UNIT_NAMEPLATES_THREAT_DISPLAY_PROGRESSIVE,Progressive,1
+54705,UNIT_NAMEPLATES_THREAT_DISPLAY_FLASH,Flash,1
+54707,UNIT_NAMEPLATES_THREAT_DISPLAY_TOOLTIP,Visibility options for how Threat level with an Enemy is displayed. ,1
 54719,REPORT_RESULT_TOO_MANY_REPORTS,Report failed. Too many report attempts. Please try again in a few minutes.,1
 54720,REPORT_RESULT_REQUIRES_CHAT,Report failed. Report type only valid on chat lines.,1
 54721,REPORT_RESULT_REQUIRES_CHAT_OR_VOICE,Report failed. Report type only valid on chat lines or when in voice chat,1
@@ -19211,6 +19220,7 @@ They will be deleted and remade with the current customized character.",2
 54863,TRANSMOG_OUTFIT_SLOT_POPUP_TEXT,Enter Outfit Name (Max 16 Characters):,1
 54865,CREDITS_EXPANSION_NAME_4_0,Mists of Pandaria (2012),2
 54866,CREDITS_EXPANSION_NAME_4_1,Mists of Pandaria Classic (2025),2
+54876,CONFIRM_BUY_OUTFIT_SLOT,Each outfit slot lets you store a full customization of your equipment's appearance. You can freely swap between outfits.\n\nDo you wish to purchase an outfit slot for:,1
 54896,TRANSMOG_SAVE_OUTFIT_TOOLTIP,Save and apply outfit changes,1
 54898,CATALOG_SHOP_NO_SEARCH_RESULTS,No results found,7
 54901,TRANSMOG_PURCHASE_OUTFIT_SLOT_TOOLTIP_DISABLED,Max %d |4outfit slot:outfit slots; reached.,1
@@ -19222,6 +19232,13 @@ They will be deleted and remade with the current customized character.",2
 55074,TRANSMOG_TAB_SITUATIONS,Situations,1
 55100,TRANSMOG_SLOT_DISPLAY_TYPE_UNASSIGNED,Ignore Slot,1
 55101,TRANSMOG_SLOT_DISPLAY_TYPE_EQUIPPED,Show Equipped Gear,1
+55102,UNIT_NAMEPLATES_STYLE,Style,1
+55103,UNIT_NAMEPLATES_STYLE_TOOLTIP,Select from a list of styles that change how Nameplates are displayed.,1
+55104,UNIT_NAMEPLATES_STYLE_DEFAULT,Default,1
+55105,UNIT_NAMEPLATES_STYLE_LEGACY,Legacy Red,1
+55106,UNIT_NAMEPLATES_STYLE_THIN,Thin Bars,1
+55107,UNIT_NAMEPLATES_STYLE_BLOCK,Blocky Bars,1
+55108,UNIT_NAMEPLATES_STYLE_CAST_FOCUS,Blocky Cast,1
 55109,TRANSMOG_SLOT_DISPLAY_TYPE_EQUIPPED_TOOLTIP,"When this outfit is applied, items in this slot will use their native appearance.",1
 55110,TRANSMOG_SLOT_DISPLAY_TYPE_UNASSIGNED_TOOLTIP,"When this outfit is applied, items in this slot will not have their appearance changed.",1
 55117,UNIT_FRAMES_DISPLAY_INCOMING_HEALS,Incoming Heals for Unit Frames,1
@@ -19229,22 +19246,87 @@ They will be deleted and remade with the current customized character.",2
 55124,TRANSMOG_SITUATIONS_DESCRIPTION,"Choose specific Situations options below to automatically change into this outfit. You must meet all conditions listed for the change to occur.\n\nIf multiple outfits are equally valid, one will be chosen randomly.",1
 55125,TRANSMOG_SITUATIONS_ENABLED,Situations Enabled,1
 55127,TRANSMOG_SITUATIONS_DEFAULTS,Defaults,1
+55128,UNIT_NAMEPLATES_SHOW_OFFSCREEN,Show Offscreen Nameplates,1
+55129,UNIT_NAMEPLATES_SHOW_OFFSCREEN_TOOLTIP,Controls whether Nameplates for offscreen units are displayed.,1
 55130,TRANSMOG_SITUATIONS_NO_VALID_OPTIONS,No valid options selected,1
+55156,UNIT_NAMEPLATES_SIMPLIFIED,Simplify Nameplates,1
+55157,UNIT_NAMEPLATES_SIMPLIFIED_MINIONS,Minions,1
+55158,UNIT_NAMEPLATES_SIMPLIFIED_MINUS_MOBS,Minor,1
+55159,UNIT_NAMEPLATES_SIMPLIFIED_FRIENDLY_PLAYERS,Friendly Players,1
+55160,UNIT_NAMEPLATES_SIMPLIFIED_TOOLTIP,Controls whether the Nameplates of certain units are displayed in a more streamlined way.,1
+55161,UNIT_NAMEPLATES_SIMPLIFIED_NONE,None,1
+55162,UNIT_NAMEPLATES_SIMPLIFIED_MINIONS_TOOLTIP,"Units that belong to another player, such as pets, totems, or guardians.",1
+55163,UNIT_NAMEPLATES_SIMPLIFIED_MINUS_MOBS_TOOLTIP,Units that are weaker than normal.,1
+55164,UNIT_NAMEPLATES_SIMPLIFIED_FRIENDLY_PLAYERS_TOOLTIP,Players that belong to the same Faction as you.,1
 55173,TRANSMOG_SET_OPEN_COLLECTION,Open Appearances (Exits Transmogrify),1
 55199,TRANSMOG_SITUATIONS_APPLY,Apply Changes,1
 55204,TRANSMOG_SITUATIONS_UNDO,Undo Pending Changes,1
 55211,TRANSMOG_SITUATIONS_APPLY_DISABLED_TOOLTIP,You must select a valid option to apply changes,1
+55264,UNIT_NAMEPLATES_ENEMY_NPC_AURA_DISPLAY,Enemy NPC Buffs/Debuffs,1
+55265,UNIT_NAMEPLATES_ENEMY_NPC_AURA_DISPLAY_TOOLTIP,Controls how your Buffs and Debuffs are displayed on the Nameplates of Enemy NPCs.,1
+55266,UNIT_NAMEPLATES_ENEMY_NPC_AURA_DISPLAY_NONE,None,1
+55267,UNIT_NAMEPLATES_ENEMY_NPC_AURA_DISPLAY_BUFFS,Mob Buffs,1
+55268,UNIT_NAMEPLATES_ENEMY_NPC_AURA_DISPLAY_BUFFS_TOOLTIP,Show the temporary Beneficial effects applied to the unit.,1
+55269,UNIT_NAMEPLATES_ENEMY_NPC_AURA_DISPLAY_DEBUFFS,Personal Debuffs,1
+55270,UNIT_NAMEPLATES_ENEMY_NPC_AURA_DISPLAY_DEBUFFS_TOOLTIP,Show the temporary Negative effects you have applied to the unit.,1
+55271,UNIT_NAMEPLATES_ENEMY_NPC_AURA_DISPLAY_CROWD_CONTROL,Shared CC,1
+55272,UNIT_NAMEPLATES_ENEMY_NPC_AURA_DISPLAY_CROWD_CONTROL_TOOLTIP,Show the temporary Crowd Control effects you or your Allies have applied to the unit.,1
+55276,UNIT_NAMEPLATES_ENEMY_PLAYER_AURA_DISPLAY,Enemy Player Buffs/Debuffs,1
+55277,UNIT_NAMEPLATES_ENEMY_PLAYER_AURA_DISPLAY_TOOLTIP,Controls how your Buffs and Debuffs are displayed on the Nameplates of Enemy players.,1
+55278,UNIT_NAMEPLATES_ENEMY_PLAYER_AURA_DISPLAY_NONE,None,1
+55279,UNIT_NAMEPLATES_ENEMY_PLAYER_AURA_DISPLAY_BUFFS,Enemy Buffs,1
+55280,UNIT_NAMEPLATES_ENEMY_PLAYER_AURA_DISPLAY_BUFFS_TOOLTIP,Show the temporary Beneficial effects applied to the player.,1
+55281,UNIT_NAMEPLATES_ENEMY_PLAYER_AURA_DISPLAY_DEBUFFS,Personal Debuffs,1
+55283,UNIT_NAMEPLATES_ENEMY_PLAYER_AURA_DISPLAY_DEBUFFS_TOOLTIP,Show the temporary Negative effects you have applied to the player.,1
+55284,UNIT_NAMEPLATES_ENEMY_PLAYER_AURA_DISPLAY_BIG_DEBUFF,Big Debuff,1
+55286,UNIT_NAMEPLATES_ENEMY_PLAYER_AURA_DISPLAY_BIG_DEBUFF_TOOLTIP,Show the temporary Crowd Control effects you or your Allies have applied to the player.,1
+55288,UNIT_NAMEPLATES_FRIENDLY_PLAYER_AURA_DISPLAY,Friendly Player Buffs/Debuffs,1
+55289,UNIT_NAMEPLATES_FRIENDLY_PLAYER_AURA_DISPLAY_TOOLTIP,Controls how your Buffs and Debuffs are displayed on the Nameplates of Friendly players.,1
+55290,UNIT_NAMEPLATES_FRIENDLY_PLAYER_AURA_DISPLAY_NONE,None,1
+55291,UNIT_NAMEPLATES_FRIENDLY_PLAYER_AURA_DISPLAY_BUFFS,Personal Buffs,1
+55292,UNIT_NAMEPLATES_FRIENDLY_PLAYER_AURA_DISPLAY_BUFFS_TOOLTIP,Show the temporary Beneficial effects you have applied to the player.,1
+55294,UNIT_NAMEPLATES_FRIENDLY_PLAYER_AURA_DISPLAY_DEBUFFS,Enemy Debuffs,1
+55295,UNIT_NAMEPLATES_FRIENDLY_PLAYER_AURA_DISPLAY_DEBUFFS_TOOLTIP,Show the temporary Negative effects that Enemies have applied to the player.,1
+55296,UNIT_NAMEPLATES_FRIENDLY_PLAYER_AURA_DISPLAY_BIG_DEBUFF,Big Debuff,1
+55297,UNIT_NAMEPLATES_FRIENDLY_PLAYER_AURA_DISPLAY_BIG_DEBUFF_TOOLTIP,Show the temporary Crowd Control effects that Enemies have applied to the player.,1
 55311,TRANSMOG_SLOT_WARNING_NOTHING_EQUIPPED,There is no equipped item in this slot that can be transmogrified.,1
 55312,TRANSMOG_SLOT_WARNING_WRONG_WEAPON_CATEGORY_EQUIPPED,This weapon type is not currently equipped.,1
 55313,TRANSMOG_SLOT_WARNING_INVALID_EQUIPPED_DESTINATION_ITEM,The equipped item in this slot cannot be transmogrified.,1
+55314,UNIT_NAMEPLATES_THREAT_DISPLAY_PROGRESSIVE_TOOLTIP,Add an effect to the Nameplate that progresses as Threat is lost by the Tank or gained by a Damage or Healing player.,1
+55315,UNIT_NAMEPLATES_THREAT_DISPLAY_FLASH_TOOLTIP,The Nameplate will flash if Threat is lost by the Tank or gained by a Damage or Healing player.,1
+55320,UNIT_NAMEPLATES_INFO_DISPLAY,Nameplate Information,1
+55321,UNIT_NAMEPLATES_INFO_DISPLAY_TOOLTIP,Controls what information is displayed on Nameplates.,1
+55322,UNIT_NAMEPLATES_INFO_DISPLAY_NONE,None,1
+55323,UNIT_NAMEPLATES_INFO_DISPLAY_CURRENT_HEALTH_PERCENT,Health Percentage,1
+55324,UNIT_NAMEPLATES_INFO_DISPLAY_CURRENT_HEALTH_PERCENT_TOOLTIP,Displays the unit's current health as a percentage of total health.,1
+55325,UNIT_NAMEPLATES_INFO_DISPLAY_CURRENT_HEALTH_VALUE,Health Value,1
+55326,UNIT_NAMEPLATES_INFO_DISPLAY_CURRENT_HEALTH_VALUE_TOOLTIP,Displays the unit's current health.,1
+55327,UNIT_NAMEPLATES_INFO_DISPLAY_RARITY_ICON,Rarity Icon,1
+55328,UNIT_NAMEPLATES_INFO_DISPLAY_RARITY_ICON_TOOLTIP,Displays an icon for Elite units.,1
 55331,TRANSMOG_RANDOMIZE_APPEARANCE,Randomize appearance,1
+55361,UNIT_NAMEPLATES_CAST_BAR_DISPLAY,Cast Bar Information,1
+55362,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_TOOLTIP,Controls what information is displayed on Cast Bars.,1
+55364,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_NONE,None,1
+55365,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_SPELL_NAME,Spell Name,1
+55366,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_SPELL_NAME_TOOLTIP,Displays the name of the spell on the Cast Bar.,1
+55367,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_SPELL_ICON,Spell Icon,1
+55368,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_SPELL_ICON_TOOLTIP,Displays the icon of the spell on the Cast Bar.,1
+55369,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_SPELL_TARGET,Spell Target,1
+55370,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_SPELL_TARGET_TOOLTIP,Displays the name of the unit being targeted by the spell on the Cast Bar.,1
+55388,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_HIGHLIGHT_IMPORTANT_CASTS,Highlight Important Casts,1
+55389,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_HIGHLIGHT_IMPORTANT_CASTS_TOOLTIP,Controls whether Cast Bars on Nameplates display in a more noticeable way for Important Casts.,1
+55390,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_HIGHLIGHT_WHEN_CAST_TARGET,Highlight When Targeted By Enemy,1
+55391,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_HIGHLIGHT_WHEN_CAST_TARGET_TOOLTIP,Controls whether Cast Bars on Nameplates display in a more noticeable way when your character is the target of the spell.,1
 55411,TRANSMOG_SLOT_WARNING_PENDING_WEAPON_CHANGES,This item slot has pending changes in other equipment types.,1
 55414,TRANSMOG_OUTFIT_NAME_DEFAULT,Outfit,3
 55415,TRANSMOG_CUSTOM_SET_NAME_DEFAULT,Custom Set,1
+55433,UNIT_NAMEPLATES_TARGET_NAME_PREVIEW,Target Name,1
+55434,UNIT_NAMEPLATES_SPELL_NAME_PREVIEW,Spell Name,1
 55485,LFG_LIST_REPORT_PLAYER,Report Player,1
 55616,CATALOG_SHOP_DETAILS,Details,3
 55617,CATALOG_SHOP_BACK,Back,3
 55618,CATALOG_SHOP_RACE,Race,3
+55619,NAMEPLATE_OPTIONS_LABEL,Nameplates,1
 55627,CATALOG_SHOP_PRODUCT_OWNED,Owned,3
 55634,CATALOG_SHOP_TYPE_SERVICE,Service,3
 55635,MOVE_PAD_LOCKED,Lock Window,1
@@ -19259,6 +19341,8 @@ They will be deleted and remade with the current customized character.",2
 55676,CATALOG_SHOP_TYPE_MOUNT_GROUND,Ground Mount,3
 55690,PARTY_PLAYER_DIFFERENT_WORLD_TIER,You can't see this player because they are in a different World Tier. You can change World Tiers at the Console of Infinite Chaos in the Infinite Bazaar near Dalaran.,1
 55698,CATALOG_SHOP_CAROUSEL_INDEX,%s / %s,3
+55707,UNIT_NAMEPLATES_SIMPLIFIED_FRIENDLY_NPCS,Friendly NPCs,1
+55708,UNIT_NAMEPLATES_SIMPLIFIED_FRIENDLY_NPCS_TOOLTIP,NPCs that belong to the same Faction as you.,1
 55715,CATALOG_SHOP_DISCLAIMER_ALL_PRODUCTS,|Hcodelink|hCertain restrictions apply. Visit the |c82c5ffffproduct page|r on shop.battle.net for more information.|h,3
 55719,VISITABLE_URL62,https://shop.battle.net/family/world-of-warcraft/items/%s/,3
 55720,VISITABLE_URL63,https://shop.battle.net/gametime-purchase,3
@@ -19269,6 +19353,8 @@ They will be deleted and remade with the current customized character.",2
 55732,TRANSMOG_CUSTOM_SET_REPLACE,Replace With Current Appearance,1
 55733,TRANSMOG_CUSTOM_SET_DELETE,Delete,1
 55737,CATALOG_SHOP_TOKEN_IN_GAME_ONLY,You must be logged in with a character to purchase a WoW Token.,3
+55739,UNIT_NAMEPLATES_DEBUFF_SCALE,Buff/Debuff Scale,1
+55740,UNIT_NAMEPLATES_DEBUFF_SCALE_TOOLTIP,Controls the size that Nameplate Buffs and Debuffs are displayed on the screen.,1
 55741,CATALOG_SHOP_DISCOUNT_FORMAT,-%s%%,3
 55742,CATALOG_SHOP_TYPE_MOUNT_FLYING_AQUATIC,Flying Aquatic Mount,3
 55771,CATALOG_SHOP_NOT_AVAILABLE,Shop Unavailable,3
@@ -19292,8 +19378,17 @@ They will be deleted and remade with the current customized character.",2
 55823,TRANSMOG_CUSTOM_SET_ALL_INVALID_APPEARANCES,You can't save this custom set because none of the item appearances can be transmogrified by your character.,1
 55824,TRANSMOG_CUSTOM_SET_SOME_INVALID_APPEARANCES,One or more item appearances won't be saved in this custom set because they can't be transmogrified by your character.,1
 55825,TRANSMOG_CUSTOM_SET_HYPERLINK_TEXT,|T1598183:13:13:-1:0|tCustom Set,1
+55835,UNIT_NAMEPLATES_DEBUFF_PADDING,Debuff Padding,1
+55836,UNIT_NAMEPLATES_DEBUFF_PADDING_TOOLTIP,Controls the vertical space between Debuffs and the Health Bar.,1
 55918,CATALOG_SHOP_PENDING_PURCHASES,Purchase(s) Pending,3
 55921,HUD_EDIT_MODE_SETTING_BAGS_BAG_SLOT_PADDING,Bag Padding,1
+55966,UNIT_NAMEPLATES_SHOW_FRIENDLY_NPCS,Friendly NPC Nameplates,1
+55967,UNIT_NAMEPLATES_SHOW_FRIENDLY_NPCS_TOOLTIP,Show Nameplates for Friendly NPCs.,1
+55977,UNIT_NAMEPLATES_STACK_ENEMY_UNITS,Enemy Units,1
+55978,UNIT_NAMEPLATES_STACK_ENEMY_UNITS_TOOLTIP,Stack Nameplates for Enemy units.,1
+55979,UNIT_NAMEPLATES_STACK_FRIENDLY_UNITS,Friendly Units,1
+55980,UNIT_NAMEPLATES_STACK_FRIENDLY_UNITS_TOOLTIP,Stack Nameplates for Friendly units.,1
+55981,UNIT_NAMEPLATES_STACK_NONE,None,1
 56001,ERR_TRANSMOG_OUTFIT_SLOT_CANNOT_AFFORD,You can't afford that.,1
 56068,TRANSMOG_SET_COMPLETE,Complete,1
 56069,TRANSMOG_SET_INCOMPLETE,Incomplete,1
@@ -19327,6 +19422,7 @@ They will be deleted and remade with the current customized character.",2
 56677,CAA_SAY_PLAYER_HEALTH_TOOLTIP,Says your health when it crosses certain percentages,1
 56678,CAA_SAY_TARGET_HEALTH_LABEL,Say Target Health,1
 56679,CAA_SAY_TARGET_HEALTH_TOOLTIP,Says your target's health when it crosses certain percentages,1
+56689,UNIT_NAMEPLATES_STYLE_MODERN,Modern,1
 56702,TRANSMOG_HELP_1,Begin by selecting an |cnBRIGHTBLUE_FONT_COLOR:Outfit|r to customize.\n\nAdditional outfits can be purchased with gold.,1
 56703,TRANSMOG_HELP_2,"Assign appearances to any gear slot in an outfit to override the look of the equipment in that slot.\n\nAssigning or updating appearances costs gold, but once saved, you can switch to that outfit anytime for free.",1
 56704,TRANSMOG_HELP_3,Select appearances or sets to customize your outfit.\n\nYou can configure outfits to swap automatically by assigning specific rules in the |cnBRIGHTBLUE_FONT_COLOR:Situations|r tab.,1
@@ -19405,12 +19501,16 @@ They will be deleted and remade with the current customized character.",2
 56971,CAA_SAY_CASTS_END_OF_CAST,End of cast,1
 56984,OPTION_TOOLTIP_PARTY_CHAT_BUBBLES,Shows chat bubbles for party chat.,1
 56986,OPTION_TOOLTIP_RAID_CHAT_BUBBLES,Shows chat bubbles for raid chat.,1
+57009,UNIT_NAMEPLATES_STYLE_HEALTH_FOCUS,Clean Health,1
 57010,CAA_SAMPLE_SPELLNAME,Fireball,1
 57033,CAA_SAY_TARGET_HEALTH_FORMAT_LABEL,Format,1
 57034,CAA_SAY_TARGET_HEALTH_FORMAT_TOOLTIP,"Choose the wording it will use to say your target's health, using 20% as an example",1
 57044,SLASH_TRANSMOG_CUSTOM_SET2,/customset,1
 57045,SLASH_TRANSMOG_CUSTOM_SET3,/customset,1
+57069,UNIT_NAMEPLATES_SEARCH_TAG,Nameplates,1
 57070,CATALOG_SHOP_WOW_FLAVOR_TRR,Titan Reforged Realm,3
+57077,UNIT_NAMEPLATES_THREAT_DISPLAY_HEALTHBAR_COLOR,Health Bar Color,1
+57078,UNIT_NAMEPLATES_THREAT_DISPLAY_HEALTHBAR_COLOR_TOOLTIP,The Nameplate Health Bar will change color to reflect the current state of Threat on a unit.,1
 57084,RAID_CHAT_BUBBLES_TEXT,Raid Chat Bubbles,1
 57088,CAA_INTERRUPTIBLE_CAST_TEXT,Interruptible Cast,1
 57089,CAA_INTERRUPTED_CAST_TEXT,Target interrupted,1
@@ -19433,7 +19533,12 @@ They will be deleted and remade with the current customized character.",2
 57312,CAA_SAY_PARTY_HEALTH_FREQUENCY_LABEL,Frequency,1
 57313,CAA_SAY_PARTY_HEALTH_FREQUENCY_TOOLTIP,Adjust the relative frequency of party health callouts,1
 57314,UNDER_X_PERCENT,Under %d%%,1
+57446,UNIT_NAMEPLATES_TUTORIAL_TOOLTIP,About Nameplates,1
 57447,CAA_SAY_IF_TARGETED_LABEL,Say If Targeted,1
+57448,UNIT_NAMEPLATES_TUTORIAL_STYLE_OPTIONS,"There are |cnTUTORIAL_BLUE_FONT_COLOR:six style options|r for nameplates, and they can be |cnTUTORIAL_BLUE_FONT_COLOR:resized.|r",1
+57449,UNIT_NAMEPLATES_TUTORIAL_AGGRO,|cnTUTORIAL_BLUE_FONT_COLOR:Aggro|r comes with its own visual effect and a |cnTUTORIAL_BLUE_FONT_COLOR:sense of progression.|r,1
+57450,UNIT_NAMEPLATES_TUTORIAL_BUFFS_DEBUFFS,"Buffs and debuffs can be shown if you |cnTUTORIAL_BLUE_FONT_COLOR:choose|r, and they're also resizable.",1
+57451,UNIT_NAMEPLATES_TUTORIAL_ENEMY_FRIENDLY,Enemy player nameplates can be set up |cnTUTORIAL_BLUE_FONT_COLOR:differently|r from friendly ones.,1
 57452,CAA_SAY_IF_TARGETED_TOOLTIP,Choose a phrase or sound to indicate that you are targeted by an enemy. This setting is saved per talent specialization.,1
 57454,CAA_SAY_IF_TARGETED_FORMAT_AGGRO,"Voice: ""Aggro""",1
 57456,CAA_SAY_IF_TARGETED_FORMAT_TARGETED_NO_NAME,"Voice: ""You're targeted""",1
@@ -19443,6 +19548,10 @@ They will be deleted and remade with the current customized character.",2
 57464,CAA_TARGETED_BY_TEXT,Targeted by %s,1
 57465,VISITABLE_URL64,https://support.blizzard.com/article/42673,3
 57466,ONLINE_SAFETY_NOTICE,"Remember to act responsibly, protect your personal information, and report anything offensive. View our In-Game Code of Conduct on |HurlIndex:64|h|cnVISITABLE_URL_DEFAULT_CHAT_LINK_COLOR:https://support.blizzard.com/article/42673|r|h for more information.",1
+57491,UNIT_NAMEPLATES_PREVIEW_FRIENDLY_PLAYER,Previewing - Friendly Player,1
+57492,UNIT_NAMEPLATES_PREVIEW_FRIENDLY_NPC,Previewing - Friendly NPC,1
+57493,UNIT_NAMEPLATES_PREVIEW_ENEMY_PLAYER,Previewing - Enemy Player,1
+57494,UNIT_NAMEPLATES_PREVIEW_ENEMY_NPC,Previewing - Enemy NPC,1
 57496,SLASH_CAA1,/ttscombat,1
 57498,COMBAT_AUDIO_ALERTS,Combat Audio Alerts,1
 57500,CAA_COMMAND_SYNTAX_ERROR,"Invalid Combat Audio Alert command. Type ""/ttscombat help"" to see a list of commands.",1
