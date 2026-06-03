@@ -39638,7 +39638,11 @@ function SpawnModelActorsAtPoints( modelFileName, pointsPathID, snapToGround )
 	end
 
 	local createData = ActorCreateData:Default()
-	createData.model = modelFileName
+	if type(modelFileName) == ""number"" then
+		createData.modelFileID = modelFileName
+	else
+		createData.model = modelFileName
+	end
 	createData.groundSnap = (snapToGround ~= false)
 	createData.interactible = false
 
@@ -39658,7 +39662,11 @@ function SpawnModelActorAtPoint( modelFileName, pointsPathID, snapToGround, scal
 	end
 
 	local createData = ActorCreateData:Default()
-	createData.model = modelFileName
+	if type(modelFileName) == ""number"" then
+		createData.modelFileID = modelFileName
+	else
+		createData.model = modelFileName
+	end
 	createData.scale = scale
 	createData.groundSnap = (snapToGround ~= false)
 	createData.interactible = false
@@ -39710,12 +39718,7 @@ function SpawnFadedActorsAtPoints( creatureID, pointsPathID, snapToGround )
 
 	local createData = ActorCreateData:Default()
 	createData.creatureID =  creatureID
-	createData.groundSnap = (snapToGround ~= false)
-	createData.interactible = false
-
-	local actors = scene:SpawnActorsAtPoints( createData, pointsPathID )
-	for i = 1, (#actors) do
-		FadeOut(actors[i], 0)"
+	"
 1666,Weather - Arcane Storm,"function Weather_Arcanestorm(ROID, isAura, aura, auraInstanceID, turnsRemaining)
 
 	if (isObserved ~= true) then
@@ -71651,8 +71654,8 @@ trash4:FollowRelativePathAtSpeed ( 6471, 24, true, 4514)
 		table.insert(raid, SpawnPlayerCloneActorByToken( ""raid""..(k), v.pos.x, v.pos.y, v.pos.z, v.rot.z, 1, true ))
 	end
 
-	door1 = SpawnModelActorAtPoint( ""DOODADS\\MOGU\\Mogu_Ancient_Doorway03.M2"", 6665, false, 1.5569)
-	door2 = SpawnModelActorAtPoint( ""DOODADS\\MOGU\\Mogu_TitanVault_Door_01.M2"", 6655, false, .391)
+	door1 = SpawnModelActorAtPoint( 603767, 6665, false, 1.5569)
+	door2 = SpawnModelActorAtPoint( 874378, 6655, false, .391)
 	Wait(2)
 	scene:ClearScreenEffect(827)
 	MoveCameraToPathStart( genericFOV90, 0, 6667, 6669)
@@ -71666,7 +71669,7 @@ trash4:FollowRelativePathAtSpeed ( 6471, 24, true, 4514)
 	Wait(16)
 	door2:PlayLoopingAnimKit(2452)
 	Wait(6.5)
-	shabreath = SpawnModelActorAtPoint(""SPELLS\\Sha_Breath_02.M2"", 6656, false, 2)
+	shabreath = SpawnModelActorAtPoint(612486, 6656, false, 2)
 	Wait(1)
 	scene:ApplyScreenEffect(1010)
 	Wait(1)
@@ -71724,7 +71727,12 @@ shredder:PlaySpellStateVisual(33282)"
 
 	scene:SetCamera(0,1,nil,nil)
 	Wait(1)"
-10824,[3] Cinematic Framework - Spawning,"
+10824,[3] Cinematic Framework - Spawning,"createData.groundSnap = (snapToGround ~= false)
+	createData.interactible = false
+
+	local actors = scene:SpawnActorsAtPoints( createData, pointsPathID )
+	for i = 1, (#actors) do
+		FadeOut(actors[i], 0)
 	end
 	
 	return actors

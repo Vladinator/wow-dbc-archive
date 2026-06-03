@@ -17437,6 +17437,7 @@ ID,BaseTag,TagText_lang,Flags
 40823,COMMUNITIES_CREATE_DIALOG_SHORT_NAME_ERROR,Short Name|n%s,1
 40824,COMMUNITY_MESSAGE_DROP_DOWN_DELETE,Delete Message,1
 40826,GUILD_EXPERIENCE_LABEL,%s / %s,1
+40828,TRANSMOG_REQUIRED_SPEC,Requires specialization: %s,1
 40837,VOICE_CHAT_CHANNEL_MANAGEMENT_TIP,%1$s Press %2$s to manage and join voice chat.,1
 40839,VOICE_CHAT_CHANNEL_ANNOUNCE_MEMBER_ACTIVE,%s has joined the voice channel.,1
 40840,VOICE_CHAT_CHANNEL_ANNOUNCE_PLAYER_ACTIVE,You have joined the voice channel.,1
@@ -17483,6 +17484,8 @@ ID,BaseTag,TagText_lang,Flags
 40948,COMMUNITIES_CALENDAR_EVENT_FORMAT,%s at %s,1
 40952,VISITABLE_URL44,https://support.blizzard.com/article/32543,2
 40958,COMPACT_UNIT_FRAME_PROFILE_AUTOACTIVATE20PLAYERS,20 Player Group,1
+40979,PARTY_PLAYER_WARMODE_ENABLED,This player has War Mode enabled. You can't see them in the world unless you also enable War Mode in your Talents pane.,1
+40980,PARTY_PLAYER_WARMODE_DISABLED,This player has War Mode disabled. You can't see them in the world unless you also disable War Mode in your Talents pane.,1
 40988,VAS_TRANSFER_REALM_TOOLTIP,Choose the Realm you would like to transfer to.,2
 40994,RUSSIAN_DECLENSION_PET_EXAMPLE_1,I always travel with %s.,3
 40995,RUSSIAN_DECLENSION_PET_EXAMPLE_2,First thing yesterday I bonked %s on the head.,3
@@ -17490,8 +17493,12 @@ ID,BaseTag,TagText_lang,Flags
 40997,RUSSIAN_DECLENSION_PET_EXAMPLE_4,Now I am friends with %s.,3
 40998,RUSSIAN_DECLENSION_PET_EXAMPLE_5,Although I know nothing about %s.,3
 41008,WOW_ERROR_333,This realm's login queue is full and cannot accept more players. Please choose another realm.,2
+41011,TRANSMOG_SET_PARTIALLY_KNOWN_CLASS,Contains %d uncollected |4appearance:appearances;.,1
+41012,TRANSMOG_SET_PARTIALLY_KNOWN_MIX,Contains %1$d uncollected |4appearance:appearances; for your class and %2$d uncollected |4appearance:appearances; for other classes.,1
 41019,VISITABLE_URL45,https://us.shop.battle.net/product/world-of-warcraft-game-time,3
 41020,VISITABLE_URL46,https://support.blizzard.com/article/76459,3
+41053,TRANSMOG_SET_LIMITED_TIME_SET,Limited Time Set,1
+41055,TRANSMOG_SET_LIMITED_TIME_SET_TOOLTIP,This set can be collected during the current season only.,1
 41099,INVITE_COMMUNITY_MEMBER_POPUP_INVITE_EDITBOX_INSTRUCTIONS,Real ID or BattleTag,1
 41100,CRITERIA_TREE_OPERATOR_COMPLETE,Complete,0
 41101,CRITERIA_TREE_OPERATOR_INCOMPLETE,Not Complete,0
@@ -17548,6 +17555,8 @@ ID,BaseTag,TagText_lang,Flags
 41206,CLUB_FINDER_RECRUITING_NOTE,Optional note to the leader.,1
 41211,VISITABLE_URL47,https://support.blizzard.com/article/15977,3
 41212,VISITABLE_URL48,https://account.battle.net/transactions,3
+41219,SYMBOLIC_NEGATIVE_NUMBER,-%s,5
+41220,SYMBOLIC_POSITIVE_NUMBER,+%s,5
 41230,VOICE_CHAT_ERROR_CODE_FORMATTER,(VoiceError: %d),1
 41240,CLUB_FINDER_NO_OPTIONS_SELECTED_GUILD_MESSAGE,"A guild is a tight-knit group of players who want to enjoy the game together. By joining a guild, you'll gain access to many benefits, including a shared guild bank and a guild chat channel.\n\nUse this tool to find a guild that fits your playstyle.",1
 41244,CLUB_FINDER_PENDING_REQUESTS,Pending (%d),1
@@ -17818,6 +17827,7 @@ ID,BaseTag,TagText_lang,Flags
 42063,AUCTION_HOUSE_FAVORITES_MAXED_TOOLTIP,Your favorites list is full. Unfavorite an item to add this one.,5
 42066,AUCTION_POSTING_ERROR_TEXT,Items can't be posted right now.|n|nThe auction house is about to undergo a major update.,1
 42067,CONFIRM_AUCTION_POSTING_TEXT,"The auction house will undergo major updates during the scheduled weekly maintenance.|n|nIf your auction hasn't sold by then, your item will be returned early and you will lose your deposit.",1
+42069,TRANSMOGRIFY_INVALID_SLOT_FOR_RACE,Transmogrification incompatible with superior engineering.,1
 42098,AUCTION_HOUSE_TOOLTIP_TITLE_NONE_AVAILABLE,No auctions available,5
 42110,CLUB_FINDER_INVITED,Invited,1
 42116,CLUB_FINDER_DISABLE_REASON_VETERAN_TRIAL,Access to this feature requires an account with an active subscription or game time.,1
@@ -17827,6 +17837,8 @@ ID,BaseTag,TagText_lang,Flags
 42120,OPTION_TARGETFPS_CHECK,Enable this option to dynamically reduce graphics quality if you fall below a specific framerate.,3
 42121,OPTION_TARGETFPS,"Framerate you ideally want to play at. If your framerate is below this number, dynamic systems will reduce graphics quality to attempt to hit this framerate.",3
 42131,EXPANSION_NAME8,Shadowlands,7
+42133,LEFTSHOULDERSLOT,Left Shoulder,1
+42134,RIGHTSHOULDERSLOT,Right Shoulder,1
 42136,ERR_BATTLEGROUND_NOT_ENABLED,This feature is not enabled.,1
 42140,AUCTION_HOUSE_TOOLTIP_OVERFLOW_SELLERS_FORMAT,"Sellers: |cffffffff%s, and %s more|r",1
 42159,CLUB_FINDER_TUTORIAL_LANGUAGE_FILTER,The Guild and Community Finder has added a language filter.,1
@@ -17903,8 +17915,10 @@ ID,BaseTag,TagText_lang,Flags
 42270,VIDEO_OPTIONS_SPELL_DENSITY_HALF,Reduce non-essential spells shown by around 50%.,3
 42272,GENERAL_SUBHEADER,General,3
 42288,BLIZZARD_STORE_VAS_ERROR_PVE_TO_PVP_TRANSFER_NOT_ALLOWED,- You cannot transfer between a PvE server and a PvP server,3
+42327,TRANSMOG_AND_MOUNT_DRESSUP_FRAME_SHOW_MOUNT,Show Mount,1
 42359,CHINA,China,2
 42380,BLIZZARD_STORE_VAS_ERROR_INELIGIBLE_TARGET_REALM,- The selected realm is not accepting character transfers at this time.,3
+42385,TRANSMOG_AND_MOUNT_DRESSUP_FRAME_SHOW_TRANSMOG,Show Transmog,1
 42447,RT_SHADOW_QUALITY,Ray Traced Shadows,3
 42448,VIDEO_OPTIONS_RT_SHADOW_QUALITY_FAIR,Ray Traced Shadows at reduced resolution.,3
 42449,VIDEO_OPTIONS_RT_SHADOW_QUALITY_MEDIUM,Ray Traced Shadows at reduced resolution.,3
@@ -17914,6 +17928,7 @@ ID,BaseTag,TagText_lang,Flags
 42464,AUCTION_HOUSE_HIGH_BIDDER_FORMAT,High Bidder: |cffffffff%s|r,1
 42465,AUCTION_HOUSE_BUCKET_VARIATION_EQUIPMENT_TOOLTIP,Items in this group may vary in stats and appearance. Check the auction's tooltip before buying.,5
 42466,AUCTION_HOUSE_BUCKET_VARIATION_PET_TOOLTIP,"Pets in this group may vary in stats, level, and quality. Check the auction's tooltip before buying.",5
+42486,TRANSMOGRIFY_RIGHT_SHOULDER,Transmog Each Shoulder Separately,1
 42490,COMMENTATOR_TEAM_NAME_1,Team 1,1
 42491,COMMENTATOR_TEAM_NAME_2,Team 2,1
 42496,GROUP_FINDER_DELIST_WARNING_SUBTEXT,|n%s until automatic delist,1
@@ -17932,7 +17947,22 @@ ID,BaseTag,TagText_lang,Flags
 42624,SPELL_FAILED_INELIGIBLE_WEAPON_APPEARANCE,That spell is incompatible with your weapon appearance,1
 42645,BNET_ERROR_40011,(CN Only) Secondary Parental Control,2
 42646,BNET_ERROR_40012,(CN Only) Secondary Parental Control (2),2
+42656,QUICK_KEYBIND_MODE,Quick Keybind Mode,1
+42658,CONFIRM_LOSE_BINDING_CHANGES_QUICK_KEYBIND,You will lose any unsaved changes if you switch to Quick Keybind Mode.,1
 42662,GXAPI_MTL_LEGACY,Metal Legacy,3
+42671,QUICK_KEYBIND_DESCRIPTION,You are in Quick Keybind Mode. Mouse over a button and press the desired key to set the binding for that button.,1
+42672,QUICK_KEYBIND_CANCEL_DESCRIPTION,Canceling will remove you from Quick Keybind Mode.,1
+42689,PARTY_PLAYER_CHROMIE_TIME_OTHER_LOCATION,Currently in |cffffffffTimewalking Campaigns: %s|r,1
+42690,PARTY_PLAYER_CHROMIE_TIME_OTHER_HORDE,You can't see them until they leave Timewalking or you enter it. Talk to Chromie near the Embassy in Orgrimmar.,1
+42691,PARTY_PLAYER_CHROMIE_TIME_OTHER_ALLIANCE,You can't see them until they leave Timewalking or you enter it. Talk to Chromie near the Embassy in Stormwind.,1
+42692,PARTY_PLAYER_CHROMIE_TIME_SELF_HORDE,You can't see them until you leave Timewalking or they enter it. Talk to Chromie near the Embassy in Orgrimmar.,1
+42693,PARTY_PLAYER_CHROMIE_TIME_SELF_ALLIANCE,You can't see them until you leave Timewalking or they enter it. Talk to Chromie near the Embassy in Stormwind.,1
+42694,PARTY_PLAYER_CHROMIE_TIME_INELIGIBLE,You can't see them until they leave Timewalking Campaigns.,1
+42695,PARTY_PLAYER_CHROMIE_TIME_SELF_LOCATION,You are currently in |cffffffffTimewalking Campaigns: %s|r,1
+42696,PARTY_PLAYER_CHROMIE_TIME_FMT,%s\n\n\%s,1
+42706,PARTY_PLAYER_SHARDED_TARGET_NOT_IN_PARTY_PHASE,"You can't see this player because they are in a different phase. They can join your phase by visiting a sanctuary such as Valdrakken, Oribos, or Dalaran.",1
+42707,PARTY_PLAYER_SHARDED_NOT_IN_PARTY_SHARD,"You can't see this player because they are in a different phase. You can join their phase by visiting a sanctuary such as Valdrakken, Oribos, or Dalaran.",1
+42708,PARTY_PLAYER_SHARDED_NEITHER_IN_PARTY_SHARD,"You can't see this player because they are in a different phase. To appear in the same phase, you must both visit a sanctuary such as Valdrakken, Oribos, or Dalaran.",1
 42743,BLIZZARD_STORE_VAS_ERROR_PENDING_ITEM_AUDIT,- This character's inventory contains items that cannot be transferred.,3
 42748,GAMEMENU_SUPPORT,Support,1
 42752,MOTION_SICKNESS_CHARACTER_CENTERED,Keep Character Centered,1
@@ -17941,6 +17971,10 @@ ID,BaseTag,TagText_lang,Flags
 42762,MOTION_SICKNESS_BOTH,Keep Character Centered and Reduce Camera Motion,1
 42763,MOTION_SICKNESS_CHECKBOX,Motion Sickness,1
 42764,ADJUST_MOTION_SICKNESS_SHAKE,Camera Shake,1
+42771,RENOWN_REWARD_TRANSMOG_NAME_FORMAT,%s,1
+42772,RENOWN_REWARD_TRANSMOGSET_NAME_FORMAT,%s,1
+42779,RENOWN_REWARD_TRANSMOG_DESCRIPTION,This appearance will become available for purchase from the Renown Quartermaster.,1
+42780,RENOWN_REWARD_TRANSMOGSET_DESCRIPTION,These appearances will become available for purchase from the Renown Quartermaster.,1
 42786,SHAKE_INTENSITY_NONE,None,1
 42787,SHAKE_INTENSITY_REDUCED,Reduced,1
 42788,SHAKE_INTENSITY_FULL,Full,1
@@ -18020,6 +18054,7 @@ ID,BaseTag,TagText_lang,Flags
 43275,SHOW_UNACTIVATED_CHARACTERS,Show Available Clones,2
 43277,BURNING_CRUSADE_TRANSITION_ACTIVATECHARACTER_CONFIRM,You are activating a version of %1$s that was saved on %2$s. This clone will be playable on the Burning Crusade Classic realm.|n|nAny progress made on this character in WoW Classic Era since %2$s will not be present in the clone.,2
 43279,BURNING_CRUSADE_TRANSITION_ACTIVATECHARACTER_CHARACTERLABEL,Clone Available,2
+43284,WILL_TRANSMOGRIFY_BOTH_SHOULDERS,Transmogrify shoulders together,1
 43285,CHAR_CREATE_UNACTIVATED_CHARACTER_LIMIT,"You have the maximum number of characters allowed on this realm. Select ""Show Available Clones"" to view all existing characters.",2
 43288,ENABLE_TEXT_TO_SPEECH,|TInterface\\OptionsFrame\\UI-OptionsFrame-NewFeatureIcon:0:0:0:-1|tRead Chat Text out loud,1
 43289,TEXT_TO_SPEECH_CONFIG,Text To Speech Config,1
@@ -18225,6 +18260,8 @@ ID,BaseTag,TagText_lang,Flags
 44316,CURSOR_SIZE_DEFAULT,Default,3
 44317,CURSOR_SIZE,Cursor Size,3
 44318,CURSOR_SIZE_TOOLTIP,Adjusts the size of the cursor,3
+44328,TRANSMOG_OUTFIT_HYPERLINK_TEXT,|T1598183:13:13:-1:0|tOutfit,1
+44337,LINK_TRANSMOG_OUTFIT,Link Outfit,1
 44339,REGIONAL_RESTRICT_CHAT_DIALOG_TITLE,Chat has been turned off,1
 44340,REGIONAL_RESTRICT_CHAT_DIALOG_MESSAGE,"There are regional regulations that affect this account. Chat features have been disabled by default. You can re-enable those features now, or enable them later in Options -> Social.\n\nIf you decide to enable them, please be mindful of our community interaction policies and report any abusive behavior, chat, or other conduct intended to undermine or disrupt the game experience using our in-game reporting options; we'll review chat records and take appropriate action.",1
 44341,REGIONAL_RESTRICT_CHAT_DIALOG_ENABLE,Turn Chat On,1
@@ -18238,10 +18275,13 @@ ID,BaseTag,TagText_lang,Flags
 44350,RESTRICT_CHAT_COMMUNITIES_TOOLTIP_INSTRUCTION,<Shift Click to View Chat Settings>,1
 44351,RESTRICT_CHAT_CONFIG_DIALOG_DISABLE,Disable Chat,1
 44352,RESTRICT_CHAT_CONFIG_DIALOG_CANCEL,Cancel,1
+44364,TRANSMOG_EMPTY_SLOT_FORMAT,(%s),1
+44402,TRANSMOGRIFY_TOOLTIP_APPEARANCE_UNUSABLE,This appearance can't be used by your character,1
 44403,RESTRICT_CHAT_TOOLTIP_FORMAT,%s\n%s,1
 44404,RESTRICT_CHAT_CHATFRAME_FORMAT,%s %s,1
 44405,GROUP_FINDER_DELIST,Delist,1
 44406,GROUP_FINDER_BROWSE,Browse Groups,1
+44407,MOUSEOVER_CAST_KEY,Mouseover Cast Key,1
 44408,ENABLE_MOUSEOVER_CAST,Mouseover Cast,1
 44421,GROUP_FINDER_BACK_TO_GROUP,Back to Group,1
 44422,PCT_FLOW_TITLE,Character Transfer,2
@@ -18256,11 +18296,17 @@ ID,BaseTag,TagText_lang,Flags
 44450,LFG_LIST_TOOLTIP_ILVL_PVP,PvP Item Level Required: |cffffffff%d|r,1
 44451,LFG_LIST_ITEM_LEVEL_PVP,Min. PvP Item Level,1
 44452,LFG_LIST_ITEM_LEVEL_PVP_INSTR_SHORT,PvP Item Level,1
+44457,OPTION_TOOLTIP_ENABLE_MOUSEOVER_CAST_KEY_TEXT,When held this key will enable mouseover casting.,1
+44461,SLASH_TRANSMOG_OUTFIT1,/outfit,1
+44462,TRANSMOG_OUTFIT_POST_IN_CHAT,Post in Chat,1
+44463,TRANSMOG_OUTFIT_COPY_TO_CLIPBOARD,Copy to Clipboard |cffffd100(to share online)|r,1
 44464,PCT_DESTINATION_REALM_LABEL_COMPLETE,|cffffd200Realm:|r %s,2
 44465,PCT_TOKEN_TOOLTIP_TITLE,Character Transfer,2
+44466,LINK_TRANSMOG_OUTFIT_HELPTIP,Share this outfit by linking it in chat or online,1
 44467,PCT_TOKEN_TOOLTIP_TEXT,Transfer your character to another realm or account,2
 44470,VAS_TOKEN_TOOLTIP_STATUS_NO_CHARACTERS,You don't have any eligible characters on this realm.,2
 44483,CHAT_CHANNEL_SEND_NO_ID,[%s]:\32,1
+44484,TRANSMOGRIFY_TOOLTIP_APPEARANCE_UNCOLLECTABLE,"This item can't be used for transmogrification, but may be worn as equipment",1
 44494,PCT_FLOW_CANCEL_LABEL,Cancel,2
 44495,PCT_FLOW_FINISH_BODY_TEXT,Are you sure? You can't change your selection after this step.,2
 44501,MONSTER_YELL,Creature Yell,1
@@ -18278,6 +18324,9 @@ ID,BaseTag,TagText_lang,Flags
 48616,SLASH_TEXTTOSPEECH_HELP_CREATURE_WHISPER,Enable or disable creature whispers,1
 48617,SLASH_TEXTTOSPEECH_HELP_BOSS_WHISPER,Enable or disable boss whispers,1
 48618,SLASH_TEXTTOSPEECH_HELP_BOSS_EMOTE,Enable or disable boss emotes,1
+48626,TRANSMOG_OUTFIT_COPY_TO_CLIPBOARD_NOTICE,Outfit link copied to clipboard.,1
+48634,TRANSMOG_REQUIRES_FORGE,Artifact weapons can only be transmogrified to Artifact appearances at the Artifact Forge in your Class Hall.,1
+48651,TRANSMOG_OUTFIT_LINK_INVALID,Invalid outfit link.,1
 48695,ERR_ARENA_TEAM_DISQUALIFIED,Your team is disqualified from ranked play in this bracket.,1
 48696,LFGBROWSE_ACTIVITY_HEADER,%d |4activity:activities; selected,1
 48698,EMPTY_SOCKET_CYPHER,Crystallic Socket,1
@@ -18304,7 +18353,10 @@ ID,BaseTag,TagText_lang,Flags
 48787,ITEM_MOD_FINESSE_SHORT,Finesse,1
 48788,ITEM_MOD_DEFTNESS_SHORT,Deftness,1
 48789,ITEM_MOD_PERCEPTION_SHORT,Perception,1
+48792,ANTIALIASING_CMAA2,CMAA 2,3
 48794,PURCHASE_UNIQUE_AUCTION_CONFIRMATION,"|cffffd200This item is ""%s""|n|nYou can only equip one item with this label at a time.|r",1
+48810,LAYOUT_STYLE_CLASSIC,Classic,1
+48811,LAYOUT_STYLE_MODERN,Modern,1
 48812,ERR_QUEST_REWARD_MONEY_MOD_S,Received %s (+%s).,1
 48821,REPORTING_MAJOR_CATEGORY_INAPPROPRIATE_COMMUNICATION,Inappropriate Communication,1
 48822,REPORTING_MAJOR_CATEGORY_GAMEPLAY_SABOTAGE,Gameplay Sabotage,1
@@ -18344,17 +18396,31 @@ ID,BaseTag,TagText_lang,Flags
 48858,REPORTING_MINOR_CATEGORY_NAME,Name,1
 48861,ERR_MAIL_RECEPIENT_CANT_RECEIVE_MAIL,Recipient can't receive mail at this time.,1
 48863,CLUB_FINDER_REPORT_APPLICANT,Report Applicant,1
+48864,HUD_EDIT_MODE_TITLE,HUD Edit Mode,1
+48865,HUD_EDIT_MODE_LAYOUT,Layout:,1
+48867,HUD_EDIT_MODE_MENU,Edit Mode,1
 48869,PERKS_VENDOR_CATEGORY_TRANSMOG,Transmog,3
 48874,PERKS_VENDOR_CATEGORY_TRANSMOG_SET,Transmog Set,3
+48875,HUD_EDIT_MODE_COPY_LAYOUT,Copy Layout,1
+48876,HUD_EDIT_MODE_DELETE_LAYOUT,Delete Layout,1
+48877,HUD_EDIT_MODE_RENAME_OR_COPY_LAYOUT,Rename/Copy Layout,1
 48878,PFC_FLOW_WILL_BE_CHANGED_TO,Will be changed to:,2
 48879,PFC_FLOW_CUSTOMIZE_CHARACTER_STEP,You'll customize your character in the next step.,2
 48880,PFC_CUSTOMIZE_DIALOG_TEXT,You will now choose your new race and customize your character. Your faction change will be permanently applied once you finish this process.,2
+48881,HUD_EDIT_MODE_RENAME_LAYOUT,Change Name,1
+48882,HUD_EDIT_MODE_NAME_LAYOUT_DIALOG_TITLE,Name the New Layout,1
 48883,PFC_FLOW_FINISH_LABEL,Accept,2
+48884,HUD_EDIT_MODE_DELETE_LAYOUT_DIALOG_TITLE,Are you sure you want to delete the layout|n%s?,1
 48887,REPORT_CALENDAR,Report Player,1
 48888,REPORTING_COMMENT_INSTRUCTIONS,More details about your report (optional),1
+48892,HUD_EDIT_MODE_NEW_LAYOUT,%s |cnPURE_GREEN_COLOR:New Layout|r,1
 48903,ITEM_MOD_CRAFTING_SPEED_SHORT,Crafting Speed,1
 48904,ITEM_MOD_MULTICRAFT_SHORT,Multicraft,1
+48908,HUD_EDIT_MODE_ERROR_ENTER_NAME,Enter a name for the layout,1
+48909,HUD_EDIT_MODE_CHARACTER_SPECIFIC_LAYOUT,Character Specific Layout,1
 48911,HUD_EDIT_MODE_CHARACTER_LAYOUTS_HEADER,%s Specific,1
+48912,HUD_EDIT_MODE_PRESET_LAYOUT,%s (Preset),1
+48913,HUD_EDIT_MODE_RENAME_LAYOUT_DIALOG_TITLE,Enter New Name for Layout %s,1
 48914,BLIZZARD_STORE_CURRENCY_FORMAT_GEL,GEL %s,3
 48915,BLIZZARD_STORE_CURRENCY_FORMAT_TRY,TRY %s,3
 48916,BLIZZARD_STORE_CURRENCY_FORMAT_KZT,KZT %s,3
@@ -18379,8 +18445,17 @@ ID,BaseTag,TagText_lang,Flags
 48971,USE_COMBINED_BAGS_TEXT,Combine Bags into a Single Bag,1
 48972,OPTION_TOOLTIP_USE_COMBINED_BAGS,When checked your inventory will display as a single bag window,1
 48977,REPORT_PVP_SCOREBOARD,Report Player,1
+48980,HUD_EDIT_MODE_ACTION_BAR_LABEL,Action Bar %d,1
 48988,DISPLAY_AGGRO_WARNING,Display Aggro Warning,1
 48989,SHOW_AGGRO_PERCENTAGES,Show Aggro Percentages,1
+48990,HUD_EDIT_MODE_SAVE_LAYOUT,Save,1
+48992,HUD_EDIT_MODE_REVERT_CHANGES,Revert Changes,1
+48995,HUD_EDIT_MODE_ERROR_RENAME_OR_COPY,|cnNORMAL_FONT_COLOR:Rename/Copy Layout|r|nActive changes must be saved or reverted,1
+48996,HUD_EDIT_MODE_ERROR_COPY,|cnNORMAL_FONT_COLOR:Copy Layout|r|nActive changes must be saved or reverted,1
+48997,HUD_EDIT_MODE_UNSAVED_CHANGES_DIALOG_TITLE,"All unsaved changes will be lost, are you sure you want to continue?",1
+49010,HUD_EDIT_MODE_SETTING_ACTION_BAR_ORIENTATION,Orientation,1
+49011,HUD_EDIT_MODE_SETTING_ACTION_BAR_NUM_ROWS,# of Rows,1
+49012,HUD_EDIT_MODE_SETTING_ACTION_BAR_NUM_COLUMNS,# of Columns,1
 49014,DESCRIPTION_OF_YOUR_GROUP_MANDATORY,Details about your group and goals,1
 49018,LFG_LIST_ONLY_LEADER_CREATE,Only the group leader can create a listing for your group.,1
 49019,LFG_LIST_ONLY_LEADER_UPDATE,Only the group leader can modify your group's listing.,1
@@ -18388,6 +18463,7 @@ ID,BaseTag,TagText_lang,Flags
 49021,LFG_LIST_UNLIST,Delist,1
 49022,LFG_LIST_TAB_1,Create Listing,1
 49023,LFG_LIST_TAB_2,Group Browser,1
+49025,HUD_EDIT_MODE_LAYOUT_APPLIED,Edit Mode layout '%s' applied,1
 49026,ERR_LFG_ROLE_CHECK_ONLY_LEADER,Only your group leader can initiate a Role Check.,1
 49027,SETTINGS_TAB_GAME,Game,3
 49028,SETTINGS_TAB_ADDONS,AddOns,3
@@ -18404,6 +18480,7 @@ ID,BaseTag,TagText_lang,Flags
 49039,SETTINGS_CANCEL_TIMEOUT_BUTTON,Cancel,3
 49040,SETTINGS_KEYBINDINGS_LABEL,Keybindings,3
 49041,SETTINGS_BIND_KEY_TO_COMMAND_OR_CANCEL,"Assign Binding for \""%s\"" or Press %s to Cancel",3
+49042,SETTINGS_QUICK_KEYBIND_BUTTON,Quick Keybind Mode,3
 49045,SETTINGS_RAID_GRAPHICS_QUALITY,Raid Graphics Quality,3
 49046,SETTINGS_FMT_FPS,%d FPS,3
 49047,CAMERA_CTM_FOLLOWING_STYLE,Camera Following Style,3
@@ -18411,15 +18488,40 @@ ID,BaseTag,TagText_lang,Flags
 49054,CHAR_CREATE_DEATHKNIGHT_LEVEL_REQUIREMENT,You must have an existing character of at least level 55 on this realm to create a Death Knight.,2
 49056,REPORT_GROUP_FINDER_ADVERTISEMENT,Report Advertisement,1
 49066,LFGBROWSE_ACTIVITY_COUNT,%d |4activity:activities;,1
+49077,HUD_EDIT_MODE_SETTING_ACTION_BAR_ICON_SIZE,Icon Size,1
+49078,HUD_EDIT_MODE_SETTING_ACTION_BAR_ICON_PADDING,Icon Padding,1
+49079,HUD_EDIT_MODE_SETTING_ACTION_BAR_VISIBLE_SETTING,Bar Visible,1
+49081,HUD_EDIT_MODE_SETTING_ACTION_BAR_SNAP_TO_RIGHT_SIDE,Snap to Right Side,1
+49082,HUD_EDIT_MODE_SETTING_ACTION_BAR_ORIENTATION_HORIZONTAL,Horizontal,1
+49083,HUD_EDIT_MODE_SETTING_ACTION_BAR_ORIENTATION_VERTICAL,Vertical,1
+49084,HUD_EDIT_MODE_SETTING_ACTION_BAR_NUM_ICONS,# of Icons,1
 49085,NEWBIE_TOOLTIP_LFGPARENT,A tool for finding other players to group with.,1
+49086,HUD_EDIT_MODE_SETTING_ACTION_BAR_VISIBLE_SETTING_ALWAYS,Always Visible,1
+49087,HUD_EDIT_MODE_SETTING_ACTION_BAR_VISIBLE_SETTING_IN_COMBAT,In Combat,1
+49088,HUD_EDIT_MODE_SETTING_ACTION_BAR_VISIBLE_SETTING_OUT_OF_COMBAT,Out of Combat,1
+49089,HUD_EDIT_MODE_SETTING_ACTION_BAR_HIDE_BAR_ART,Hide Bar Art,1
 49091,SET_ROLE_TOOLTIP,Click here to set a role for this talent set. This determines your default role when you join a group.,1
 49109,LFGBROWSE_ACTIVITY_HEADER_DEFAULT,Filter by activity,1
 49110,LFG_LIST_EDIT,Edit Listing,1
 49111,ERR_AUCTION_DOUBLE_BID,You are already the highest bidder,5
+49112,HUD_EDIT_MODE_SETTING_MINIMAP_HEADER_UNDERNEATH,Header Underneath,1
+49113,HUD_EDIT_MODE_REVERT_ALL_CHANGES,Revert All Changes,1
+49114,HUD_EDIT_MODE_SETTING_ACTION_BAR_HIDE_BAR_SCROLLING,Hide Bar Scrolling,1
 49116,LFG_LIST_INDENT,    %s,1
 49120,LFGBROWSE_ACTIVITY_MATCHING_COUNT,%d matching |4activity:activities;,1
 49121,BARBERS_CHOICE_CONFIRM,Are you sure you want to let the barber choose your shave for a discounted price?,1
+49127,HUD_EDIT_MODE_ACTION_BAR_SETTINGS,Action Bar Settings,1
 49128,INVITE_CONFIRMATION_REQUEST_GROUPFINDER,%s has requested to join your group through the Group Finder.,1
+49129,HUD_EDIT_MODE_IMPORT_LAYOUT,Import,1
+49130,HUD_EDIT_MODE_SHARE_LAYOUT,Share,1
+49131,HUD_EDIT_MODE_COPY_TO_CLIPBOARD,Copy To Clipboard |cffffd100(to share online)|r,1
+49132,HUD_EDIT_MODE_POST_IN_CHAT,Post in Chat,1
+49133,HUD_EDIT_MODE_COPY_TO_CLIPBOARD_NOTICE,"Edit Mode layout ""%s"" copied to clipboard.",1
+49134,HUD_EDIT_MODE_IMPORT_LAYOUT_DIALOG_TITLE,Import Layout,1
+49135,HUD_EDIT_MODE_ERROR_ENTER_IMPORT_STRING_AND_NAME,Enter valid import text and layout name above,1
+49136,HUD_EDIT_MODE_IMPORT_LAYOUT_INSTRUCTIONS,Paste layout code here,1
+49137,HUD_EDIT_MODE_IMPORT_LAYOUT_DIALOG_EDIT_BOX_LABEL,Import Text:,1
+49140,HUD_EDIT_MODE_IMPORT_LAYOUT_LINK_DIALOG_EDIT_BOX_LABEL,New Layout Name:,1
 49141,ERR_DECLINE_GROUP_REQUEST_S,%s declines your group invitation request.,1
 49167,PROFESSIONS_CRAFTING_FORM_ORDER_RECIPIENT_GUILD,Guild Order,1
 49206,PROFESSIONS_SPECIALIZATION_CONFIRM_PURCHASE_TAB_TITLE,Learn %s?,1
@@ -18440,24 +18542,44 @@ ID,BaseTag,TagText_lang,Flags
 49259,ERR_SUGGEST_INVITE_PLAYER_S,You have suggested that %s join your group.,1
 49260,ERR_REQUEST_JOIN_PLAYER_S,You have requested to join %s's group.,1
 49261,CAMERA_FOV,Camera FOV,3
+49264,HUD_EDIT_MODE_SETTING_ACTION_BAR_ALWAYS_SHOW_BUTTONS,Always Show Buttons,1
 49267,OPTION_TOOLTIP_CAMERA_FOV,Field of View.,1
 49292,LFG_SELF_LISTING,Your Listing,1
 49293,CHAR_CREATE_NO_BOOST_CLASS,You cannot boost this class,2
 49295,UNITNAME_SUMMON_TITLE36,%s's Fishing Guide,1
 49298,PROFESSIONS_SPECS_OUT_OF_KNOWLEDGE,You do not have any %s to spend.,1
+49300,HUD_EDIT_MODE_SHOW_GRID,Show Grid,1
+49304,HUD_EDIT_MODE_GRID_SPACING,Grid Spacing,1
+49305,HUD_EDIT_MODE_SETTING_UNIT_FRAME_FRAME_SIZE,Frame Size,1
+49306,HUD_EDIT_MODE_SETTING_UNIT_FRAME_CAST_BAR_UNDERNEATH,Cast Bar Underneath,1
+49307,HUD_EDIT_MODE_SETTING_UNIT_FRAME_BUFFS_ON_TOP,Buffs On Top,1
+49308,HUD_EDIT_MODE_SETTING_UNIT_FRAME_USE_LARGER_FRAME,Use Larger Frame,1
+49309,HUD_EDIT_MODE_PLAYER_FRAME_LABEL,Player Frame,1
+49310,HUD_EDIT_MODE_TARGET_FRAME_LABEL,Target Frame,1
+49311,HUD_EDIT_MODE_FOCUS_FRAME_LABEL,Focus Frame,1
 49312,UNLEARN_SKILL_CONFIRMATION,UNLEARN,1
 49315,PROFESSIONS_SPECIALIZATION_CONFIRM_CLOSE,Do you want to apply your changes before exiting?,1
 49317,BODY_TYPE,Body Type,3
 49318,ERR_INFORM_SUGGEST_INVITE_S,%s suggested that their group invites you.,1
 49319,ERR_INFORM_SUGGEST_INVITE_SS,%1$s suggested that %2$s invite you to their group.,1
 49324,BOOST_REALM_RESTRICTED,Boosts cannot be used on this realm.,2
+49325,HUD_EDIT_MODE_STANCE_BAR_LABEL,Stance Bar,1
 49326,ICON_SELECTION_DRAG,Drag an icon here to use it as your display,1
 49332,CREDITS_EXPANSION_NAME_2_0,Wrath of the Lich King (2008),2
 49333,CREDITS_EXPANSION_NAME_2_1,Wrath of the Lich King Classic (2022),2
 49334,ERR_INVITE_PARTY_BUSY_PENDING_REQUEST,You already have a pending invite request,1
 49335,ERR_INVITE_PARTY_BUSY_PENDING_SUGGEST,You already have a pending group referral,1
+49338,HUD_EDIT_MODE_PET_ACTION_BAR_LABEL,Pet Bar,1
 49340,CHARACTER_UPGRADE_CONFIRMATION_TEXT,Name:  %s \nRealm:  %s \nClass:  |c%s%s|r \nCurrent Level:  %s \nBoosted Level:  %s,2
+49343,HUD_EDIT_MODE_COLLAPSE_OPTIONS,Collapse options |A:editmode-up-arrow:16:11:0:3|a,1
+49344,HUD_EDIT_MODE_EXPAND_OPTIONS,Expand options |A:editmode-down-arrow:16:11:0:-7|a,1
+49345,HUD_EDIT_MODE_TARGET_AND_FOCUS,Target and Focus,1
+49350,HUD_EDIT_MODE_CAST_BAR_LABEL,Cast Bar,1
+49351,HUD_EDIT_MODE_SETTING_CAST_BAR_SIZE,Bar Size,1
+49352,HUD_EDIT_MODE_SETTING_CAST_BAR_LOCK_TO_PLAYER_FRAME,Lock To Player Frame,1
 49353,PROFESSIONS_CRAFTING_FORM_RECRAFTING_HEADER,Recrafting: %s,1
+49362,HUD_EDIT_MODE_POSSESS_ACTION_BAR_LABEL,Possess Bar,1
+49364,HUD_EDIT_MODE_MINIMAP_LABEL,Minimap,1
 49371,WORLD_PVP_AUTO_QUEUE_EJECT,The battle for %s is about to begin. You may return once it has ended.,1
 49373,ABILITY_INFO_TROLL5,- Reduced duration of movement impairing effects.,2
 49374,ABILITY_INFO_HUMAN5,,2
@@ -18478,16 +18600,80 @@ ID,BaseTag,TagText_lang,Flags
 49389,CLASS_INFO_DEATHKNIGHT5,- Uses runes and runic power as resources.,2
 49390,CLASS_INFO_WARLOCK5,- Uses mana as a resource.,2
 49391,CLASS_INFO_PALADIN5,- Uses mana and holy power as resources.,2
+49393,HUD_EDIT_MODE_RESET_POSITION,Reset To Default Position,1
+49394,HUD_EDIT_MODE_ENCOUNTER_BAR_LABEL,Encounter Bar,1
+49398,HUD_EDIT_MODE_ERROR_MAX_LAYOUTS,A max of %d character layouts and %d account layouts are allowed,1
+49401,HUD_EDIT_MODE_ERROR_MAX_ACCOUNT_LAYOUTS,Only %d account wide layouts are allowed. Check the box to save a character specific layout,1
+49402,HUD_EDIT_MODE_ERROR_MAX_CHAR_LAYOUTS,Only %d character specific layouts are allowed. Uncheck the box to save an account wide layout,1
 49403,HUD_EDIT_MODE_ERROR_COPY_MAX_LAYOUTS,|cnNORMAL_FONT_COLOR:Copy Layout|r|nA max of %d character layouts and %d account layouts are allowed,1
+49404,HUD_EDIT_MODE_NEW_LAYOUT_DISABLED,%s New Layout,1
+49420,HUD_EDIT_MODE_EXTRA_ABILITIES_LABEL,Extra Abilities,1
 49421,NEWBIE_TOOLTIP_LFG_LIST_EDIT,Edit your current group listing.,1
 49422,CLASS_ROLE_NOT_RECOMMENDED,This role is not recommended for your character's class.,1
+49423,HUD_EDIT_MODE_UNSAVED_CHANGES,You have unsaved changes,1
+49424,HUD_EDIT_MODE_BUFF_FRAME_LABEL,Buff Frame,1
+49425,HUD_EDIT_MODE_DEBUFF_FRAME_LABEL,Debuff Frame,1
 49426,LFG_LIST_NEW_PLAYER_FRIENDLY_TOOLTIP,Indicates that you welcome new players into your group and are willing to act as a guide for them.,1
 49427,LFG_LIST_NEW_PLAYER_FRIENDLY_HEADER,New Players Welcome,1
+49428,HUD_EDIT_MODE_UNSAVED_CHANGES_EXIT_DIALOG_TITLE,If you exit now you will lose any unsaved changes.|nHow would you like to proceed?,1
+49429,HUD_EDIT_MODE_UNSAVED_CHANGES_LAYOUT_CHANGE_DIALOG_TITLE,If you switch layouts you will lose any unsaved changes.|nHow would you like to proceed?,1
 49430,READY_CHECK_RATED_ARENA,Your group leader has queued you for a rated arena.  Are you ready?,1
+49433,HUD_EDIT_MODE_SAVE_AND_EXIT,Save and Exit,1
+49434,HUD_EDIT_MODE_EXIT,Exit,1
+49435,HUD_EDIT_MODE_SAVE_AND_SWITCH,Save and Switch,1
+49436,HUD_EDIT_MODE_SWITCH,Switch,1
 49453,UNDELETE_DEATHKNIGHT_LEVEL_REQUIREMENT,You no longer meet the requirements to restore that character. You must have an active character of at least level 55 on this realm to restore them.,2
+49454,HUD_EDIT_MODE_SETTING_AURA_FRAME_ORIENTATION,Orientation,1
+49455,HUD_EDIT_MODE_SETTING_AURA_FRAME_ORIENTATION_HORIZONTAL,Horizontal,1
+49456,HUD_EDIT_MODE_SETTING_AURA_FRAME_ORIENTATION_VERTICAL,Vertical,1
+49473,HUD_EDIT_MODE_SETTING_AURA_FRAME_ICON_WRAP,Icon Wrap,1
+49474,HUD_EDIT_MODE_SETTING_AURA_FRAME_ICON_WRAP_DOWN,Down,1
+49475,HUD_EDIT_MODE_SETTING_AURA_FRAME_ICON_WRAP_UP,Up,1
+49476,HUD_EDIT_MODE_SETTING_AURA_FRAME_ICON_WRAP_LEFT,Left,1
+49477,HUD_EDIT_MODE_SETTING_AURA_FRAME_ICON_WRAP_RIGHT,Right,1
+49478,HUD_EDIT_MODE_SETTING_AURA_FRAME_ICON_DIRECTION,Icon Direction,1
+49479,HUD_EDIT_MODE_SETTING_AURA_FRAME_ICON_DIRECTION_DOWN,Down,1
+49480,HUD_EDIT_MODE_SETTING_AURA_FRAME_ICON_DIRECTION_UP,Up,1
+49481,HUD_EDIT_MODE_SETTING_AURA_FRAME_ICON_DIRECTION_LEFT,Left,1
+49482,HUD_EDIT_MODE_SETTING_AURA_FRAME_ICON_DIRECTION_RIGHT,Right,1
+49483,HUD_EDIT_MODE_SETTING_AURA_FRAME_ICON_LIMIT,Icon Limit,1
+49484,HUD_EDIT_MODE_SETTING_AURA_FRAME_ICON_SIZE,Icon Size,1
+49485,HUD_EDIT_MODE_SETTING_AURA_FRAME_ICON_PADDING,Icon Padding,1
+49489,HUD_EDIT_MODE_RAID_FRAMES_LABEL,Raid Frames,1
+49490,HUD_EDIT_MODE_PARTY_FRAMES_LABEL,Party Frames,1
+49491,HUD_EDIT_MODE_SETTING_UNIT_FRAME_RAID_STYLE_PARTY_FRAMES,Use Raid-Style Party Frames,1
+49492,HUD_EDIT_MODE_SETTING_ACTION_BAR_VISIBLE_SETTING_HIDDEN,Hidden,1
+49499,HUD_EDIT_MODE_SETTING_UNIT_FRAME_SHOW_PARTY_FRAME_BACKGROUND,Show Background,1
+49500,HUD_EDIT_MODE_SETTING_UNIT_FRAME_USE_HORIZONTAL_GROUPS,Use Horizontal Layout,1
+49501,HUD_EDIT_MODE_CHAT_FRAME_LABEL,Chat Frame,1
+49506,HUD_EDIT_MODE_SETTING_AURA_FRAME_SHOW_FULL,Show Full,1
+49507,HUD_EDIT_MODE_GROUP_MANAGER,Edit,1
+49526,HUD_EDIT_MODE_TALKING_HEAD_FRAME_LABEL,Talking Head,1
+49528,HUD_EDIT_MODE_VEHICLE_LEAVE_BUTTON_LABEL,Vehicle Exit Button,1
 49540,CLASSIC_PRESENCE_PREFIX,Mists of Pandaria Classic,0
+49544,HUD_EDIT_MODE_BOSS_FRAMES_LABEL,Boss Frames,1
+49546,HUD_EDIT_MODE_SETTING_UNIT_FRAME_CAST_BAR_ON_SIDE,Cast Bar on Side,1
+49547,HUD_EDIT_MODE_SETTING_UNIT_FRAME_SHOW_CAST_TIME,Show Cast Time,1
+49565,HUD_EDIT_MODE_SETTING_UNIT_FRAME_RAID_SIZE,Raid Size,1
+49566,HUD_EDIT_MODE_SETTING_UNIT_FRAME_WIDTH,Frame Width,1
+49567,HUD_EDIT_MODE_SETTING_UNIT_FRAME_HEIGHT,Frame Height,1
+49568,HUD_EDIT_MODE_SETTING_UNIT_FRAME_DISPLAY_BORDER,Display Border,1
+49571,HUD_EDIT_MODE_ARENA_FRAMES_LABEL,Arena Frames,1
+49584,TRANSMOGRIFY_INVALID_SLOT_FOR_FORM,This item slot cannot be transmogrified in this form.,1
+49585,HUD_EDIT_MODE_SETTING_UNIT_FRAME_KEEP_GROUPS_TOGETHER,Keep Groups Together,1
+49586,HUD_EDIT_MODE_SETTING_UNIT_FRAME_SORT_BY,Sort By,1
+49587,HUD_EDIT_MODE_SETTING_UNIT_FRAME_SORT_BY_SETTING_ROLE,Role,1
+49588,HUD_EDIT_MODE_SETTING_UNIT_FRAME_SORT_BY_SETTING_GROUP,Group,1
+49589,HUD_EDIT_MODE_SETTING_UNIT_FRAME_SORT_BY_SETTING_ALPHABETICAL,Alphabetical,1
 49611,PROFESSIONS_SPECIALIZATIONS_PAGE_NAME,%s Specializations,1
+49613,HUD_EDIT_MODE_SETTING_UNIT_FRAME_ROW_SIZE,Row Size,1
 49619,PROFESSIONS_CRAFTER_ORDER_TAB_GUILD,Guild,1
+49629,HUD_EDIT_MODE_LOOT_FRAME_LABEL,Loot Window,1
+49630,HUD_EDIT_MODE_LOOT_FRAME_DISABLED_TOOLTIP,"To customize the loot window layout, disable the ""Open Loot Window at Mouse"" option under Gameplay > Controls",1
+49635,EDIT_MODE_HELPTIPS_LAYOUTS,Select from a preset or create a custom layout using this dropdown.,1
+49636,EDIT_MODE_HELPTIPS_SHOW_HIDDEN_FRAMES,Use the checkboxes to customize UI elements that are not normally visible.,1
+49637,EDIT_MODE_HELPTIPS_SELECT_FRAMES,Click on any highlighted UI element on the HUD to get started.,1
+49648,HUD_EDIT_MODE_HUD_TOOLTIP_LABEL,HUD Tooltip,1
 49703,ENABLE_INTERACT_TEXT,Enable Interact Key,1
 49704,OPTION_TOOLTIP_ENABLE_INTERACT,Allows you to interact with NPCs and objects using a keypress,1
 49706,ACTION_TARGETING_OPTION,Enable Action Targeting,1
@@ -18550,15 +18736,63 @@ ID,BaseTag,TagText_lang,Flags
 49796,VRN_NEEDS_INTEL_GPU,Requires an Intel graphics card,3
 49797,VRN_NEEDS_NVIDIA_GPU,Requires an NVIDIA graphics card,3
 49798,VRN_NEEDS_QUALCOMM_GPU,Requires a Qualcomm graphics card,3
+49799,HUD_EDIT_MODE_SETTING_UNIT_FRAME_GROUPS,Groups,1
+49800,HUD_EDIT_MODE_SETTING_UNIT_FRAME_GROUPS_SEPARATE_GROUPS_HORIZONTAL,Separate Groups (Horizontal),1
+49801,HUD_EDIT_MODE_SETTING_UNIT_FRAME_GROUPS_SEPARATE_GROUPS_VERTICAL,Separate Groups (Vertical),1
+49802,HUD_EDIT_MODE_SETTING_UNIT_FRAME_GROUPS_COMBINE_GROUPS_HORIZONTAL,Combine Groups (Horizontal),1
+49803,HUD_EDIT_MODE_SETTING_UNIT_FRAME_GROUPS_COMBINE_GROUPS_VERTICAL,Combine Groups (Vertical),1
+49804,HUD_EDIT_MODE_SETTING_UNIT_FRAME_COLUMN_SIZE,Column Size,1
+49805,HUD_EDIT_MODE_ENABLE_SNAP,Snap to Elements,1
+49811,HUD_EDIT_MODE_SETTING_MINIMAP_ROTATE_MINIMAP,Rotate Minimap,1
+49812,HUD_EDIT_MODE_OBJECTIVE_TRACKER_LABEL,Objective Tracker,1
+49816,HUD_EDIT_MODE_SETTING_OBJECTIVE_TRACKER_HEIGHT,Height,1
 49818,EMPTY_SOCKET_TINKER,Tinker Socket,1
 49831,PROFESSION_EQUIPMENT_NEWITEM_TOOL_HELPTIP,You have a Profession Tool that can be equipped into a Profession Equipment slot.,1
 49832,PROFESSION_EQUIPMENT_NEWITEM_ACCESSORY_HELPTIP,You have a Profession Accessory that can be equipped into a Profession Equipment slot.,1
 49833,PROFESSION_EQUIPMENT_NEWITEM_TAB_HELPTIP,Left Click on your recipes tab to view your profession equipment,1
+49880,HUD_EDIT_MODE_ERROR_DUPLICATE_NAME,This name is already in use.,1
 49881,VRN_REMOTE_DESKTOP_UNSUPPORTED,Unsupported while using Remote Desktop,3
 49883,VIDEO_OPTIONS_NVIDIA_REFLEX_BOOST,NVIDIA Reflex + Boost,3
+49889,BINDING_NAME_MULTIACTIONBAR5BUTTON1,Action Bar 6 Button 1,1
+49890,BINDING_NAME_MULTIACTIONBAR5BUTTON2,Action Bar 6 Button 2,1
+49891,BINDING_NAME_MULTIACTIONBAR5BUTTON3,Action Bar 6 Button 3,1
+49892,BINDING_NAME_MULTIACTIONBAR5BUTTON4,Action Bar 6 Button 4,1
+49893,BINDING_NAME_MULTIACTIONBAR5BUTTON5,Action Bar 6 Button 5,1
+49894,BINDING_NAME_MULTIACTIONBAR5BUTTON6,Action Bar 6 Button 6,1
+49895,BINDING_NAME_MULTIACTIONBAR5BUTTON7,Action Bar 6 Button 7,1
+49896,BINDING_NAME_MULTIACTIONBAR5BUTTON8,Action Bar 6 Button 8,1
+49897,BINDING_NAME_MULTIACTIONBAR5BUTTON9,Action Bar 6 Button 9,1
+49898,BINDING_NAME_MULTIACTIONBAR5BUTTON10,Action Bar 6 Button 10,1
+49899,BINDING_NAME_MULTIACTIONBAR5BUTTON11,Action Bar 6 Button 11,1
+49900,BINDING_NAME_MULTIACTIONBAR5BUTTON12,Action Bar 6 Button 12,1
+49901,BINDING_NAME_MULTIACTIONBAR6BUTTON1,Action Bar 7 Button 1,1
+49902,BINDING_NAME_MULTIACTIONBAR6BUTTON2,Action Bar 7 Button 2,1
+49903,BINDING_NAME_MULTIACTIONBAR6BUTTON3,Action Bar 7 Button 3,1
+49904,BINDING_NAME_MULTIACTIONBAR6BUTTON4,Action Bar 7 Button 4,1
+49905,BINDING_NAME_MULTIACTIONBAR6BUTTON5,Action Bar 7 Button 5,1
+49906,BINDING_NAME_MULTIACTIONBAR6BUTTON6,Action Bar 7 Button 6,1
+49907,BINDING_NAME_MULTIACTIONBAR6BUTTON7,Action Bar 7 Button 7,1
+49908,BINDING_NAME_MULTIACTIONBAR6BUTTON8,Action Bar 7 Button 8,1
+49909,BINDING_NAME_MULTIACTIONBAR6BUTTON9,Action Bar 7 Button 9,1
+49910,BINDING_NAME_MULTIACTIONBAR6BUTTON10,Action Bar 7 Button 10,1
+49911,BINDING_NAME_MULTIACTIONBAR6BUTTON11,Action Bar 7 Button 11,1
+49912,BINDING_NAME_MULTIACTIONBAR6BUTTON12,Action Bar 7 Button 12,1
+49913,BINDING_NAME_MULTIACTIONBAR7BUTTON1,Action Bar 8 Button 1,1
+49914,BINDING_NAME_MULTIACTIONBAR7BUTTON2,Action Bar 8 Button 2,1
+49915,BINDING_NAME_MULTIACTIONBAR7BUTTON3,Action Bar 8 Button 3,1
+49916,BINDING_NAME_MULTIACTIONBAR7BUTTON4,Action Bar 8 Button 4,1
+49917,BINDING_NAME_MULTIACTIONBAR7BUTTON5,Action Bar 8 Button 5,1
+49918,BINDING_NAME_MULTIACTIONBAR7BUTTON6,Action Bar 8 Button 6,1
+49919,BINDING_NAME_MULTIACTIONBAR7BUTTON7,Action Bar 8 Button 7,1
+49920,BINDING_NAME_MULTIACTIONBAR7BUTTON8,Action Bar 8 Button 8,1
+49921,BINDING_NAME_MULTIACTIONBAR7BUTTON9,Action Bar 8 Button 9,1
+49922,BINDING_NAME_MULTIACTIONBAR7BUTTON10,Action Bar 8 Button 10,1
+49923,BINDING_NAME_MULTIACTIONBAR7BUTTON11,Action Bar 8 Button 11,1
+49924,BINDING_NAME_MULTIACTIONBAR7BUTTON12,Action Bar 8 Button 12,1
 49925,ENABLE_INTERACT_SOUND_OPTION,Interact Key Sound Cue,3
 49930,ENABLE_INTERACT_SOUND_OPTION_TOOLTIP,Plays a sound cue when you become able or unable to interact with a target.,3
 49943,PROFESSION_EQUIPMENT_NEWITEM_EQUIP_HELPTIP,Shift Right Click to open your Professions pane.|n|nDrag this into the Profession Equipment slot to equip it.,1
+49962,TRANSMOG_DRACTHYR_APPEARANCE_INVISIBLE,This appearance isn't visible in Dracthyr form,1
 49965,PROFESSIONS_UNSPENT_SPEC_POINTS_REMINDER,You have unspent Profession Specialization Knowledge.,1
 49966,EXPANSION_NAME10,The War Within,3
 49970,AUCTION_HOUSE_CRAFTING_REAGANT_QUALITY_FORMAT,%s %s,1
@@ -18572,6 +18806,14 @@ You can also drag this icon to an action bar for easy access.",1
 
 You can learn more Specializations as you increase your skill level.",1
 50067,CHAR_FACTION_CHANGE_ARENA_TEAM,You may not change faction while still on an arena team.,2
+50138,HUD_EDIT_MODE_MICRO_MENU_LABEL,Menu,1
+50139,HUD_EDIT_MODE_SETTING_MICRO_MENU_ORIENTATION,Orientation,1
+50140,HUD_EDIT_MODE_SETTING_MICRO_MENU_ORIENTATION_HORIZONTAL,Horizontal,1
+50141,HUD_EDIT_MODE_SETTING_MICRO_MENU_ORIENTATION_VERTICAL,Vertical,1
+50142,HUD_EDIT_MODE_SETTING_MICRO_MENU_ORDER,Order,5
+50143,HUD_EDIT_MODE_SETTING_MICRO_MENU_ORDER_DEFAULT,Default,1
+50144,HUD_EDIT_MODE_SETTING_MICRO_MENU_ORDER_REVERSE,Reverse,1
+50145,HUD_EDIT_MODE_SETTING_MICRO_MENU_SIZE,Menu Size,1
 50147,AUCTION_SORT_OPTIONS_TOOLTIP_TITLE,Price Sorting Options,1
 50148,AUCTION_SORT_OPTIONS_PROMPT,Sort Prices By:,1
 50149,AUCTION_SORT_OPTION_BID_PRICE,Current Bid,1
@@ -18586,6 +18828,19 @@ You can learn more Specializations as you increase your skill level.",1
 50158,AUCTION_SORT_HEADER_UNIT_BUYOUT_PRICE,Buyout (Per Unit),1
 50159,AUCTION_TOOLTIP_TOTAL_BID_PREFIX,Total bid:,1
 50160,AUCTION_TOOLTIP_TOTAL_BUYOUT_PREFIX,Total buyout:,1
+50161,HUD_EDIT_MODE_SETTING_BAGS_ORIENTATION,Orientation,1
+50162,HUD_EDIT_MODE_SETTING_BAGS_ORIENTATION_HORIZONTAL,Horizontal,1
+50163,HUD_EDIT_MODE_SETTING_BAGS_ORIENTATION_VERTICAL,Vertical,1
+50164,HUD_EDIT_MODE_SETTING_BAGS_DIRECTION,Direction,1
+50165,HUD_EDIT_MODE_SETTING_BAGS_DIRECTION_LEFT,Left,1
+50166,HUD_EDIT_MODE_SETTING_BAGS_DIRECTION_RIGHT,Right,1
+50167,HUD_EDIT_MODE_SETTING_BAGS_SIZE,Size,1
+50168,HUD_EDIT_MODE_BAGS_LABEL,Bags,1
+50179,HUD_EDIT_MODE_SETTING_BAGS_DIRECTION_UP,Up,1
+50180,HUD_EDIT_MODE_SETTING_BAGS_DIRECTION_DOWN,Down,1
+50185,HUD_EDIT_MODE_EXPERIENCE_BAR_LABEL,Experience Bar,1
+50197,HUD_EDIT_MODE_DURABILITY_FRAME_LABEL,Equipment Durability,1
+50198,HUD_EDIT_MODE_SETTING_DURABILITY_FRAME_SIZE,Size,1
 50233,CHARACTER_SELECT_ACCOUNT_LOCKED,Your account is locked,2
 50234,ACCOUNT_SAVE_CONFIRM_STRING,LOCK ACCOUNT,2
 50235,ACCOUNT_SAVE_IN_PROGRESS,Progression archive download in progress|nPlease do not close your client,2
@@ -18622,14 +18877,25 @@ You can learn more Specializations as you increase your skill level.",1
 50349,AUCTION_TOOLTIP_BROWSE_BY_NAME_BODY,Enter text to search for item names that include that text. Enclose the text in quotes to search for an exact item name.,1
 50351,OPTION_TOOLTIP_VRS_STANDARD,Almost no loss to visual quality,3
 50352,OPTION_TOOLTIP_VRS_AGGRESSIVE,Minor loss to fine detail,3
+50375,HUD_EDIT_MODE_SETTING_CAST_BAR_SHOW_CAST_TIME,Show Cast Time,1
 50381,PRC_FLOW_FINISH_LABEL,Accept,2
 50383,PRC_FLOW_CUSTOMIZE_CHARACTER_STEP,You'll customize your character in the next step.,2
+50387,HUD_EDIT_MODE_STATUS_TRACKING_BAR_LABEL,Status Bar %d,1
+50390,HUD_EDIT_MODE_SETTING_MINIMAP_SIZE,Size,1
 50394,BASE_SETTINGS_TAB,Base,3
+50400,HUD_EDIT_MODE_SETTING_MICRO_MENU_EYE_SIZE,Eye Size,1
 50408,TITLE_WARNING,Warning!,2
 50415,VISITABLE_URL58,https://www.battlenet.com.cn/support/zh/help/home,2
 50416,VISITABLE_URL59,https://www.battlenet.com.cn/support/zh/ticket/status?loc,2
 50417,VISITABLE_URL60,https://www.battlenet.com.cn/support/zh/ticket/submit?loc,2
+50422,HUD_EDIT_MODE_ENABLE_ADVANCED_OPTIONS,Advanced Options,1
 50423,AGREE,I agree,2
+50425,HUD_EDIT_MODE_SETTINGS_CATEGORY_TITLE_FRAMES,Frames,1
+50426,HUD_EDIT_MODE_SETTINGS_CATEGORY_TITLE_COMBAT,Combat,1
+50427,HUD_EDIT_MODE_SETTINGS_CATEGORY_TITLE_MISC,Misc,1
+50429,EDIT_MODE_HELPTIPS_ADVANCED_OPTIONS,Use the advanced options to see more UI elements,1
+50430,HUD_EDIT_MODE_BUFFS_AND_DEBUFFS_LABEL,Buffs and Debuffs,1
+50435,HUD_EDIT_MODE_PET_FRAME_LABEL,Pet Frame,1
 50436,SELF_CAST,Self Cast,1
 50437,SELF_CAST_AUTO,Auto,1
 50438,SELF_CAST_KEY_PRESS,Key Press,1
@@ -18641,10 +18907,21 @@ You can learn more Specializations as you increase your skill level.",1
 50445,BINDING_HEADER_ACTIONBAR3,Action Bar 3,1
 50446,BINDING_HEADER_ACTIONBAR4,Action Bar 4,1
 50447,BINDING_HEADER_ACTIONBAR5,Action Bar 5,1
+50448,BINDING_HEADER_ACTIONBAR6,Action Bar 6,1
+50449,BINDING_HEADER_ACTIONBAR7,Action Bar 7,1
+50450,BINDING_HEADER_ACTIONBAR8,Action Bar 8,1
 50453,VAS_TOKEN_TOOLTIP_STATUS_DISABLED_ON_REALM,Character service not available in this realm.,2
 50459,LFG_LIST_TOO_MANY_ACTIVITIES_SELECTED,You've selected too many activities.,1
+50464,HUD_EDIT_MODE_RAID_FRAME_SETTINGS,Raid Frame Settings,1
 50476,SEARCH_RESULTS_SHOW_COUNT,Show All %d Results,1
+50484,HUD_EDIT_MODE_SETTING_OBJECTIVE_TRACKER_OPACITY,Opacity,1
+50488,COMPACT_UNIT_FRAME_PROFILE_DISPLAYONLYHEALERPOWERBARS,Display Only Healer Power Bars,1
 50508,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_HEALTHTEXT,Determines what type of health text to show in raid frames.,1
+50510,HUD_EDIT_MODE_SETTING_UNIT_FRAME_VIEW_ARENA_SIZE,Arena Size,1
+50511,HUD_EDIT_MODE_SETTING_UNIT_FRAME_VIEW_ARENA_SIZE_TWO,2v2,1
+50512,HUD_EDIT_MODE_SETTING_UNIT_FRAME_VIEW_ARENA_SIZE_THREE,3v3,1
+50513,HUD_EDIT_MODE_SETTING_UNIT_FRAME_VIEW_ARENA_SIZE_FIVE,5v5,1
+50527,HUD_EDIT_MODE_PVP_FRAME_SETTINGS,Arena Enemy Frames Settings,1
 50560,AUDIO_OUTPUT_DEVICE,Output Device,3
 50561,OPTION_TOOLTIP_AUDIO_OUTPUT,Selects where you would like to hear your game audio.,3
 50562,OPTION_TOOLTIP_FX_VOLUME,Adjusts the sound effect volume.,3
@@ -18656,6 +18933,9 @@ You can learn more Specializations as you increase your skill level.",1
 50568,AUDIO_CACHE_SIZE_SMALL,Small (%dMB),3
 50569,AUDIO_CACHE_SIZE_LARGE,Large (%dMB),3
 50571,AUDIO_LABEL,Audio,3
+50583,TRANSMOGRIFICATION,Transmogrification,1
+50584,LOOT_ROLL_YOU_WON_NO_SPAM_TRANSMOG,|HlootHistory:%d|h[Loot]|h: You (Transmogrification - %d) Won: %s,1
+50585,LOOT_ROLL_WON_NO_SPAM_TRANSMOGRIFICATION,|HlootHistory:%d|h[Loot]|h: %s (Transmogrification - %d) Won: %s,1
 51103,AUCTION_HOUSE_BUYOUT_COLON,Buyout:,4
 51104,AUCTION_HOUSE_LABEL_HIGH_TO_LOW,High to Low,4
 51105,AUCTION_HOUSE_LABEL_LOW_TO_HIGH,Low to High,4
@@ -18679,6 +18959,7 @@ You can learn more Specializations as you increase your skill level.",1
 51176,PVE_AND_PVP,PvE and PvP,1
 51181,COMPACT_UNIT_FRAME_PROFILE_LABEL,Raid Profile,1
 51193,ERR_MOUNT_NO_MOUNTS,You have no valid mounts.,0
+51195,TRANSMOG_SLOT_APPEARANCE_INVISIBLE,This appearance isn't visible on your character,1
 51197,ICON_FILTER_ALL,All Icons,1
 51198,ICON_FILTER_SPELL,Spells,1
 51199,ICON_FILTER_ITEM,Items,1
@@ -18689,9 +18970,20 @@ You can learn more Specializations as you increase your skill level.",1
 51222,SLASH_TEXTTOSPEECH_LOOT,itemloot,1
 51223,SLASH_TEXTTOSPEECH_CURRENCY,currency,1
 51224,SLASH_TEXTTOSPEECH_MONEY,moneyloot,1
+51273,HUD_EDIT_MODE_TIMER_BARS_LABEL,Duration Bars,1
+51274,HUD_EDIT_MODE_SETTING_TIMER_BARS_SIZE,Size,1
+51276,HUD_EDIT_MODE_VEHICLE_SEAT_INDICATOR_LABEL,Vehicle Seats,1
+51277,HUD_EDIT_MODE_SETTING_VEHICLE_SEAT_INDICATOR_SIZE,Size,1
+51278,HUD_EDIT_MODE_SETTING_CHAT_FRAME_WIDTH,Width,1
+51279,HUD_EDIT_MODE_SETTING_CHAT_FRAME_HEIGHT,Height,1
+51298,HUD_EDIT_MODE_SETTING_ARCHAEOLOGY_BAR_SIZE,Size,1
+51299,HUD_EDIT_MODE_ARCHAEOLOGY_BAR_LABEL,Archaeology Bar,1
 51308,ERR_CHAR_TOO_NEW_FOR_DUNGEONS,This character may not enter dungeons yet.,1
 51309,ERR_CHAR_TOO_NEW_FOR_RAIDS,This character may not enter raids yet.,1
+51310,REPLACE_OTHER_PLAYER_PORTRAITS,Replace Player Frame Portraits,1
+51312,REPLACE_MY_PLAYER_PORTRAIT,Replace My Frame Portrait,1
 51330,BATTLE_PET_NAME_11,Non-Combat,0
+51362,PAGE_NUMBER_WITH_MAX,Page %d/%d,3
 51385,BLIZZARD_STORE_VAS_INVALID_NAME,- This name is invalid; please choose another name.,2
 51392,SLASH_TEXTTOSPEECH_PING,ping,1
 51393,SLASH_TEXTTOSPEECH_HELP_PING,Enable or disable ping messages,1
@@ -18708,6 +19000,8 @@ You can learn more Specializations as you increase your skill level.",1
 51489,PNC_CUSTOMIZE_DIALOG_TEXT,Your name change will be permanently applied once you accept.,2
 51533,LFG_LIST_CHOOSE_YOUR_ROLE,Choose your Role,1
 51567,AUCTION_HOUSE_ITEM_QUANTITY_FORMAT,|cff808080x%s|r,1
+51586,SHOW_ENEMY_CASTBARS,Show Enemy Cast Bar,1
+51593,ALWAYS_SHOW_RUNE_ICONS,Always Show Rune Icons,1
 51604,OPTION_TOOLTIP_MOTION_SICKNESS_CHECKBOX,Enabling the Motion Sickness setting will reduce camera movement and keep your character centered.,1
 51646,SELF_HIGHLIGHT_UNIT_FRAME,Self Highlight,1
 51647,SELF_HIGHLIGHT_CIRCLE,Circle,1
@@ -18718,6 +19012,7 @@ You can learn more Specializations as you increase your skill level.",1
 51729,OPTION_TOOLTIP_SHOW_DYNAMIC_BUFF_SIZE,Makes your buffs and debuffs appear larger than other effects on your target.,1
 51731,REINCARNATE_CHARACTER,Reincarnate Selected Character,2
 51732,DEATH_REINCARNATE_CHARACTER,Reincarnate!,3
+51744,TRANSMOG_SOURCE_7,Trading Post,1
 51750,SELF_HIGHLIGHT_MODE_CIRCLE_AND_ICON,Circle and Icon,1
 51753,SELF_HIGHLIGHT_MODE_ICON,Icon,1
 51756,ADDON_DEP_NOT_AVAILABLE,Dependency not available,3
@@ -18738,12 +19033,19 @@ You can learn more Specializations as you increase your skill level.",1
 51803,REINCARNATE_CHARACTER_CONFIRMATION,"Are you sure you want to reincarnate \n
 |cffffffff%s   Level %d   %s|r?
 They will be deleted and remade with the current customized character.",2
+51818,ERR_TRANSMOGRIFY_INVALID_RACE,This appearance can't be used by your race.,1
+51819,ERR_TRANSMOGRIFY_INVALID_FACTION,This appearance can't be used by your faction.,1
+51820,ERR_TRANSMOGRIFY_INVALID_CLASS,This appearance can't be used by your class.,1
+51821,TRANSMOG_SHOW_ALL_RACES,All Races,1
+51822,TRANSMOG_SHOW_ALL_FACTIONS,All Factions,1
 51860,UPREZ_TEXTURES,NEW!  Uprezzed Textures,3
 51861,OPTION_TOOLTIP_UPREZ_TEXTURES,uprez tooltip placeholder,3
 51869,ICON_SELECTION_TITLE_CURRENT,Currently Selected,1
 51919,AUCTION_HOUSE_FILTER_CURRENTEXPANSION_ONLY,Current Expansion Only,1
 51958,TIMERUNNING_AUCTION_HOUSE_DISABLED,The Auction House is not available to Timerunners.,5
 51959,EMPTY_SOCKET_FRAGRANCE,Fragrance Socket,1
+51970,OPTION_TOOLTIP_ANTIALIASING_CMAA,Conservative Morphological Anti-Aliasing: Even more precise calculations for a variety of edge-detection techniques to blur edges.,3
+51971,OPTION_TOOLTIP_ANTIALIASING_CMAA2,"Conservative Morphological Anti-Aliasing 2: More advanced version of CMAA (preferred method if also using ""Multisample Techniques"").",3
 51978,ERR_PARTY_LFG_BOOT_DISALLOWED_BY_MAP,Players can't be kicked from this instance,1
 52002,COUNTDOWN_SET,|Hplayer:%s|h[%s]|h started a countdown timer.,1
 52003,COUNTDOWN_CLEAR,|Hplayer:%s|h[%s]|h canceled the countdown timer.,1
@@ -18763,8 +19065,17 @@ They will be deleted and remade with the current customized character.",2
 52051,HD_TEXTURES_DLG_ACCEPT_MAC,Exit Game,3
 52052,HD_TEXTURES_DLG_TEXT_MAC,Clicking the Exit Game button will exit the game and open a webpage with instructions on how to download the textures through the Battle.net desktop app.,3
 52053,HIGH_RES_TEXTURE_INSTALL_URL,http://www.blizzard.com/,3
+52054,HUD_EDIT_MODE_SETTING_OBJECTIVE_TRACKER_TEXT_SIZE,Text Size,1
 52122,CREDITS_EXPANSION_NAME_3_0,Cataclysm (2010),2
 52123,CREDITS_EXPANSION_NAME_3_1,Cataclysm Classic (2024),2
+52124,CRF_EDIT_MODE,Edit Mode,1
+52125,CRF_SETTINGS,Settings,1
+52126,CRF_HIDE_GROUPS,Hide Groups,1
+52127,CRF_DIFFICULTY,Difficulty,1
+52128,CRF_READY_CHECK,Ready Check,1
+52129,CRF_ROLE_POLL,Role Poll,1
+52130,CRF_COUNTDOWN,Countdown,1
+52131,CRF_ALL_ASSIST,Everyone Is Assist,1
 52132,CHINA_RELEASE_BUILD,China Release,2
 52133,REPORTING_MAJOR_CATEGORY_CHINA_HARMFUL_MINORS,Harmful to Minors,3
 52137,CHINA_GM_BUILD,China GM,2
@@ -18801,6 +19112,7 @@ They will be deleted and remade with the current customized character.",2
 52485,TOGGLE_VISIBILITY_TOOLTIP,Toggle User Interface Visibility,2
 52522,OPTION_TOOLTIP_DISABLE_CHAT,Disables chat. You will not be able to send or receive messages.,1
 52523,OPTION_TOOLTIP_DISABLE_CHAT_ACCOUNT_MUTE,"To change this, you must first go to your Battle.net Account settings and make sure that: \n- Privacy & Communication -> Text Chat is enabled \n- Parental Controls -> Account Mute is disabled",1
+52528,CLASSIC_GUILD_UI_TEXT,Classic Guild UI,1
 52644,PVP_REALM_WARNING,"Hold, adventurer. You are attempting to join a |cffffffffPvP (Player vs Player) |cffffd200realm. You will face a constant threat from players of the opposing faction.|n|nIf you are not comfortable with a high level of conflict, we recommend you choose a |cffffffffNormal (non-PvP) |cffffd200realm.|n|n|cffffffffGame Masters do not intervene in PvP conflicts, and it is not possible to transfer your characters from a PvP realm to a Normal realm.",2
 52668,WOWLABS_MODE_NAV_BUTTON,MODE,2
 52672,PVP_CHARACTER_CREATION_WARNING,"Welcome to the |cffffffffWorld of Warcraft! |cffffd200As you prepare to enter this realm, please be aware that you are joining a |cffffffffPvP (Player vs Player) |cffffd200realm. This means, in addition to the challenges of the world itself, you will also face the constant threat of combat with other players.|n|n|cffffffffPvP combat |cffffd200is a core part of this realm, and players from opposing factions may attack you without warning and with no sense of honor in contested areas. Be prepared for skirmishes and potentially lopsided battles as you explore the world, whether during quests, gathering resources, or traveling between locations. For example, the player you killed in Un'Goro while fighting over Devilsaur might hold a grudge, and now their guild is waiting for yours on the path through Blackrock Mountain for raid night in Molten Core.",2
@@ -18829,6 +19141,25 @@ They will be deleted and remade with the current customized character.",2
 53343,CHAR_CREATE_GAME_TIME_REQUIRED,Active game time is required in order to create a character.,2
 53372,CHAR_ENTER_WORLD_GAME_TIME_REQUIRED,Active game time is required in order to enter the world.,2
 53404,CHARSELECT_CHAR_SUB_LIMITED_TOOLTIP,You must have an active subscription to play.,2
+53410,HUD_EDIT_MODE_SYSTEM_ESSENTIAL_COOLDOWNS,Essential Cooldowns,1
+53411,HUD_EDIT_MODE_SYSTEM_UTILITY_COOLDOWNS,Utility Cooldowns,1
+53412,HUD_EDIT_MODE_SYSTEM_TRACKED_BUFFS,Tracked Buffs,1
+53413,HUD_EDIT_MODE_SYSTEM_TRACKED_BUFF_BARS,Tracked Bars,1
+53414,HUD_EDIT_MODE_COOLDOWN_VIEWER_LABEL,Cooldown Manager,1
+53415,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_SHOW_TIMER,Show Timer,1
+53416,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_HIDE_WHEN_INACTIVE,Hide When Inactive,1
+53417,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_BAR_CONTENT,Display Mode,1
+53418,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_BAR_CONTENT_TYPE_ICON_AND_NAME,Icon And Name,1
+53419,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_BAR_CONTENT_TYPE_ICON_ONLY,Icon Only,1
+53420,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_BAR_CONTENT_TYPE_NAME_ONLY,Name Only,1
+53421,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING,Visibility,1
+53422,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION,Orientation,1
+53423,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_HORIZONTAL_LEFT,Horizontal - Left,1
+53424,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_HORIZONTAL_CENTER,Horizontal - Center,1
+53425,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_HORIZONTAL_RIGHT,Horizontal - Right,1
+53426,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_VERTICAL_TOP,Vertical - Top,1
+53427,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_VERTICAL_CENTER,Vertical - Center,1
+53428,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_VERTICAL_BOTTOM,Vertical - Bottom,1
 53465,CINEMATIC_SUBTITLES_OPTIONS_HEADER,Subtitles,3
 53466,CINEMATIC_SUBTITLES_PREVIEW_LABEL,Subtitles Preview,3
 53467,CINEMATIC_SUBTITLES_DISPLAY_SUBHEADER,Display,3
@@ -18838,30 +19169,165 @@ They will be deleted and remade with the current customized character.",2
 53472,CINEMATIC_SUBTITLES_BACKGROUND_COLOR_OPTION_LABEL,Subtitles Background,3
 53473,CINEMATIC_SUBTITLES_BACKGROUND_OPACITY_OPTION_LABEL,Background Opacity,3
 53512,VIDEO_OPTIONS_INTEL_XELL,Intel XeLL,3
+53513,GUILDCONTROL_DISCORD_SETTINGS,%s Discord Settings,1
 53734,COLORS_LABEL,Colors,3
 53744,CONFIRM_REMOVE_WOW_FRIEND,Are you sure you want to remove this friend from your list? This action cannot be undone.,1
+53767,HUD_EDIT_MODE_COOLDOWN_VIEWER_DISABLED_TOOLTIP,"Essential Cooldowns, Utilities, Tracked Buffs, and Tracked Bars for each spec. The Cooldown Manager is currently disabled. Enable it in: Advanced Options>Cooldown Manager.",1
 53900,EMPTY_SOCKET_SINGING_THUNDER,Singing Thunder Socket,1
 53901,EMPTY_SOCKET_SINGING_SEA,Singing Sea Socket,1
 53902,EMPTY_SOCKET_SINGING_WIND,Singing Wind Socket,1
+53932,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_HORIZONTAL,Horizontal,1
+53933,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ORIENTATION_VERTICAL,Vertical,1
+53934,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_LIMIT,# Rows,1
+53935,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_LIMIT_ALT,# Columns,1
+53936,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_DIRECTION,Icon Direction,1
+53937,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_DIRECTION_LEFT,Left,1
+53938,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_DIRECTION_RIGHT,Right,1
+53939,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_DIRECTION_UP,Up,1
+53940,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_DIRECTION_DOWN,Down,1
+53941,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_SIZE,Icon Size,1
+53942,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_ICON_PADDING,Icon Padding,1
+53943,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_OPACITY,Opacity,1
+53962,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING_ALWAYS,Always Visible,1
+53963,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING_IN_COMBAT,In Combat,1
+53964,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING_HIDDEN,Hidden,1
+54013,HUD_EDIT_MODE_COOLDOWN_VIEWER_NO_ITEMS_TOOLTIP,This tool is currently not used for this class or specialization,1
+54014,HUD_EDIT_MODE_COOLDOWN_VIEWER_EXAMPLE_BUFF_NAME,Example Buff Name,1
+54075,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_SHOW_TOOLTIPS,Show Tooltips,1
+54202,SLASH_TRANSMOG_CUSTOM_SET1,/customset,1
 54230,EMPTY_SOCKET_FIBER,Fiber Socket,5
+54232,UNIT_NAMEPLATES_ENABLE_STACKING,Stack Nameplates,1
+54233,UNIT_NAMEPLATES_ENABLE_STACKING_TOOLTIP,Prevents Nameplates from overlapping each other.,1
+54237,UNIT_NAMEPLATES_GLOBAL_SCALE,Size,1
+54238,UNIT_NAMEPLATES_GLOBAL_SCALE_TOOLTIP,Controls the size that Nameplates are displayed on the screen.,1
 54246,CENSORED_MESSAGE_SENDER,%s |cffffff00Message to %s flagged as potentially inappropriate.|Hcensoredmessagerewrite:%d:%d:%s|h |W[Rewrite Message]|w|h or |Hcensoredmessageconfirmsend:%d:%d:%s|h|W[Send Anyways]|w|h|r,1
 54272,CENSORED_MESSAGE_SENT,%s |cffffff00Message flagged as potentially inappropriate.|r,1
 54399,TRANSMOG_ITEM_SET_FAVORITE,Set Favorite,3
 54400,TRANSMOG_ITEM_UNSET_FAVORITE,Remove Favorite,3
 54423,CHARACTER_UPGRADE_MAX_LEVEL_POPUP_TEXT,This character is already level %s. Are you sure you want to use this boost on this character?,3
 54653,SPELL_FAILED_CUSTOM_ERROR_361,You already have the maximum number of professions.,1
+54702,UNIT_NAMEPLATES_THREAT_DISPLAY,Aggro Display,1
+54703,UNIT_NAMEPLATES_THREAT_DISPLAY_NONE,None,1
+54704,UNIT_NAMEPLATES_THREAT_DISPLAY_PROGRESSIVE,Progressive,1
+54705,UNIT_NAMEPLATES_THREAT_DISPLAY_FLASH,Flash,1
+54707,UNIT_NAMEPLATES_THREAT_DISPLAY_TOOLTIP,Visibility options for how Threat level with an Enemy is displayed. ,1
 54719,REPORT_RESULT_TOO_MANY_REPORTS,Report failed. Too many report attempts. Please try again in a few minutes.,1
 54720,REPORT_RESULT_REQUIRES_CHAT,Report failed. Report type only valid on chat lines.,1
 54721,REPORT_RESULT_REQUIRES_CHAT_OR_VOICE,Report failed. Report type only valid on chat lines or when in voice chat,1
+54729,TRANSMOGRIFY_TOOLTIP_HIDDEN,Hidden,1
+54732,TRANSMOG_SAVE_OUTFIT,Save Outfit,1
+54789,TRANSMOG_PURCHASE_OUTFIT_SLOT,Purchase Outfit Slot,1
+54843,TRANSMOG_EDIT_OUTFIT_SLOT,Change Name/Icon,1
+54863,TRANSMOG_OUTFIT_SLOT_POPUP_TEXT,Enter Outfit Name (Max 16 Characters):,1
 54865,CREDITS_EXPANSION_NAME_4_0,Mists of Pandaria (2012),2
 54866,CREDITS_EXPANSION_NAME_4_1,Mists of Pandaria Classic (2025),2
+54876,CONFIRM_BUY_OUTFIT_SLOT,Each outfit slot lets you store a full customization of your equipment's appearance. You can freely swap between outfits.\n\nDo you wish to purchase an outfit slot for:,1
+54896,TRANSMOG_SAVE_OUTFIT_TOOLTIP,Save and apply outfit changes,1
 54898,CATALOG_SHOP_NO_SEARCH_RESULTS,No results found,7
+54901,TRANSMOG_PURCHASE_OUTFIT_SLOT_TOOLTIP_DISABLED,Max %d |4outfit slot:outfit slots; reached.,1
+54925,TRANSMOG_SITUATION_CATEGORY_LIST_SEPARATOR,", ",1
+55022,TRANSMOG_SHOW_EQUIPPED_GEAR,Clear Current Transmogrifications,1
+55071,TRANSMOG_TAB_ITEMS,Items,1
+55072,TRANSMOG_TAB_SETS,Sets,1
+55073,TRANSMOG_TAB_CUSTOM_SETS,Custom Sets,1
+55074,TRANSMOG_TAB_SITUATIONS,Situations,1
+55100,TRANSMOG_SLOT_DISPLAY_TYPE_UNASSIGNED,Ignore Slot,1
+55101,TRANSMOG_SLOT_DISPLAY_TYPE_EQUIPPED,Show Equipped Gear,1
+55102,UNIT_NAMEPLATES_STYLE,Style,1
+55103,UNIT_NAMEPLATES_STYLE_TOOLTIP,Select from a list of styles that change how Nameplates are displayed.,1
+55104,UNIT_NAMEPLATES_STYLE_DEFAULT,Default,1
+55105,UNIT_NAMEPLATES_STYLE_LEGACY,Legacy Red,1
+55106,UNIT_NAMEPLATES_STYLE_THIN,Thin Bars,1
+55107,UNIT_NAMEPLATES_STYLE_BLOCK,Blocky Bars,1
+55108,UNIT_NAMEPLATES_STYLE_CAST_FOCUS,Blocky Cast,1
+55109,TRANSMOG_SLOT_DISPLAY_TYPE_EQUIPPED_TOOLTIP,"When this outfit is applied, items in this slot will use their native appearance.",1
+55110,TRANSMOG_SLOT_DISPLAY_TYPE_UNASSIGNED_TOOLTIP,"When this outfit is applied, items in this slot will not have their appearance changed.",1
 55117,UNIT_FRAMES_DISPLAY_INCOMING_HEALS,Incoming Heals for Unit Frames,1
 55118,OPTION_TOOLTIP_UNIT_FRAMES_DISPLAY_INCOMING_HEALS,"Display incoming heals on unit frames, such as yourself and your target.",1
+55124,TRANSMOG_SITUATIONS_DESCRIPTION,"Choose specific Situations options below to automatically change into this outfit. You must meet all conditions listed for the change to occur.\n\nIf multiple outfits are equally valid, one will be chosen randomly.",1
+55125,TRANSMOG_SITUATIONS_ENABLED,Situations Enabled,1
+55127,TRANSMOG_SITUATIONS_DEFAULTS,Defaults,1
+55128,UNIT_NAMEPLATES_SHOW_OFFSCREEN,Show Offscreen Nameplates,1
+55129,UNIT_NAMEPLATES_SHOW_OFFSCREEN_TOOLTIP,Controls whether Nameplates for offscreen units are displayed.,1
+55130,TRANSMOG_SITUATIONS_NO_VALID_OPTIONS,No valid options selected,1
+55156,UNIT_NAMEPLATES_SIMPLIFIED,Simplify Nameplates,1
+55157,UNIT_NAMEPLATES_SIMPLIFIED_MINIONS,Minions,1
+55158,UNIT_NAMEPLATES_SIMPLIFIED_MINUS_MOBS,Minor,1
+55159,UNIT_NAMEPLATES_SIMPLIFIED_FRIENDLY_PLAYERS,Friendly Players,1
+55160,UNIT_NAMEPLATES_SIMPLIFIED_TOOLTIP,Controls whether the Nameplates of certain units are displayed in a more streamlined way.,1
+55161,UNIT_NAMEPLATES_SIMPLIFIED_NONE,None,1
+55162,UNIT_NAMEPLATES_SIMPLIFIED_MINIONS_TOOLTIP,"Units that belong to another player, such as pets, totems, or guardians.",1
+55163,UNIT_NAMEPLATES_SIMPLIFIED_MINUS_MOBS_TOOLTIP,Units that are weaker than normal.,1
+55164,UNIT_NAMEPLATES_SIMPLIFIED_FRIENDLY_PLAYERS_TOOLTIP,Players that belong to the same Faction as you.,1
+55173,TRANSMOG_SET_OPEN_COLLECTION,Open Appearances (Exits Transmogrify),1
+55199,TRANSMOG_SITUATIONS_APPLY,Apply Changes,1
+55204,TRANSMOG_SITUATIONS_UNDO,Undo Pending Changes,1
+55211,TRANSMOG_SITUATIONS_APPLY_DISABLED_TOOLTIP,You must select a valid option to apply changes,1
+55264,UNIT_NAMEPLATES_ENEMY_NPC_AURA_DISPLAY,Enemy NPC Buffs/Debuffs,1
+55265,UNIT_NAMEPLATES_ENEMY_NPC_AURA_DISPLAY_TOOLTIP,Controls how your Buffs and Debuffs are displayed on the Nameplates of Enemy NPCs.,1
+55266,UNIT_NAMEPLATES_ENEMY_NPC_AURA_DISPLAY_NONE,None,1
+55267,UNIT_NAMEPLATES_ENEMY_NPC_AURA_DISPLAY_BUFFS,Mob Buffs,1
+55268,UNIT_NAMEPLATES_ENEMY_NPC_AURA_DISPLAY_BUFFS_TOOLTIP,Show the temporary Beneficial effects applied to the unit.,1
+55269,UNIT_NAMEPLATES_ENEMY_NPC_AURA_DISPLAY_DEBUFFS,Personal Debuffs,1
+55270,UNIT_NAMEPLATES_ENEMY_NPC_AURA_DISPLAY_DEBUFFS_TOOLTIP,Show the temporary Negative effects you have applied to the unit.,1
+55271,UNIT_NAMEPLATES_ENEMY_NPC_AURA_DISPLAY_CROWD_CONTROL,Shared CC,1
+55272,UNIT_NAMEPLATES_ENEMY_NPC_AURA_DISPLAY_CROWD_CONTROL_TOOLTIP,Show the temporary Crowd Control effects you or your Allies have applied to the unit.,1
+55276,UNIT_NAMEPLATES_ENEMY_PLAYER_AURA_DISPLAY,Enemy Player Buffs/Debuffs,1
+55277,UNIT_NAMEPLATES_ENEMY_PLAYER_AURA_DISPLAY_TOOLTIP,Controls how your Buffs and Debuffs are displayed on the Nameplates of Enemy players.,1
+55278,UNIT_NAMEPLATES_ENEMY_PLAYER_AURA_DISPLAY_NONE,None,1
+55279,UNIT_NAMEPLATES_ENEMY_PLAYER_AURA_DISPLAY_BUFFS,Enemy Buffs,1
+55280,UNIT_NAMEPLATES_ENEMY_PLAYER_AURA_DISPLAY_BUFFS_TOOLTIP,Show the temporary Beneficial effects applied to the player.,1
+55281,UNIT_NAMEPLATES_ENEMY_PLAYER_AURA_DISPLAY_DEBUFFS,Personal Debuffs,1
+55283,UNIT_NAMEPLATES_ENEMY_PLAYER_AURA_DISPLAY_DEBUFFS_TOOLTIP,Show the temporary Negative effects you have applied to the player.,1
+55284,UNIT_NAMEPLATES_ENEMY_PLAYER_AURA_DISPLAY_BIG_DEBUFF,Big Debuff,1
+55286,UNIT_NAMEPLATES_ENEMY_PLAYER_AURA_DISPLAY_BIG_DEBUFF_TOOLTIP,Show the temporary Crowd Control effects you or your Allies have applied to the player.,1
+55288,UNIT_NAMEPLATES_FRIENDLY_PLAYER_AURA_DISPLAY,Friendly Player Buffs/Debuffs,1
+55289,UNIT_NAMEPLATES_FRIENDLY_PLAYER_AURA_DISPLAY_TOOLTIP,Controls how your Buffs and Debuffs are displayed on the Nameplates of Friendly players.,1
+55290,UNIT_NAMEPLATES_FRIENDLY_PLAYER_AURA_DISPLAY_NONE,None,1
+55291,UNIT_NAMEPLATES_FRIENDLY_PLAYER_AURA_DISPLAY_BUFFS,Personal Buffs,1
+55292,UNIT_NAMEPLATES_FRIENDLY_PLAYER_AURA_DISPLAY_BUFFS_TOOLTIP,Show the temporary Beneficial effects you have applied to the player.,1
+55294,UNIT_NAMEPLATES_FRIENDLY_PLAYER_AURA_DISPLAY_DEBUFFS,Enemy Debuffs,1
+55295,UNIT_NAMEPLATES_FRIENDLY_PLAYER_AURA_DISPLAY_DEBUFFS_TOOLTIP,Show the temporary Negative effects that Enemies have applied to the player.,1
+55296,UNIT_NAMEPLATES_FRIENDLY_PLAYER_AURA_DISPLAY_BIG_DEBUFF,Big Debuff,1
+55297,UNIT_NAMEPLATES_FRIENDLY_PLAYER_AURA_DISPLAY_BIG_DEBUFF_TOOLTIP,Show the temporary Crowd Control effects that Enemies have applied to the player.,1
+55311,TRANSMOG_SLOT_WARNING_NOTHING_EQUIPPED,There is no equipped item in this slot that can be transmogrified.,1
+55312,TRANSMOG_SLOT_WARNING_WRONG_WEAPON_CATEGORY_EQUIPPED,This weapon type is not currently equipped.,1
+55313,TRANSMOG_SLOT_WARNING_INVALID_EQUIPPED_DESTINATION_ITEM,The equipped item in this slot cannot be transmogrified.,1
+55314,UNIT_NAMEPLATES_THREAT_DISPLAY_PROGRESSIVE_TOOLTIP,Add an effect to the Nameplate that progresses as Threat is lost by the Tank or gained by a Damage or Healing player.,1
+55315,UNIT_NAMEPLATES_THREAT_DISPLAY_FLASH_TOOLTIP,The Nameplate will flash if Threat is lost by the Tank or gained by a Damage or Healing player.,1
+55320,UNIT_NAMEPLATES_INFO_DISPLAY,Nameplate Information,1
+55321,UNIT_NAMEPLATES_INFO_DISPLAY_TOOLTIP,Controls what information is displayed on Nameplates.,1
+55322,UNIT_NAMEPLATES_INFO_DISPLAY_NONE,None,1
+55323,UNIT_NAMEPLATES_INFO_DISPLAY_CURRENT_HEALTH_PERCENT,Health Percentage,1
+55324,UNIT_NAMEPLATES_INFO_DISPLAY_CURRENT_HEALTH_PERCENT_TOOLTIP,Displays the unit's current health as a percentage of total health.,1
+55325,UNIT_NAMEPLATES_INFO_DISPLAY_CURRENT_HEALTH_VALUE,Health Value,1
+55326,UNIT_NAMEPLATES_INFO_DISPLAY_CURRENT_HEALTH_VALUE_TOOLTIP,Displays the unit's current health.,1
+55327,UNIT_NAMEPLATES_INFO_DISPLAY_RARITY_ICON,Rarity Icon,1
+55328,UNIT_NAMEPLATES_INFO_DISPLAY_RARITY_ICON_TOOLTIP,Displays an icon for Elite units.,1
+55331,TRANSMOG_RANDOMIZE_APPEARANCE,Randomize appearance,1
+55361,UNIT_NAMEPLATES_CAST_BAR_DISPLAY,Cast Bar Information,1
+55362,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_TOOLTIP,Controls what information is displayed on Cast Bars.,1
+55364,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_NONE,None,1
+55365,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_SPELL_NAME,Spell Name,1
+55366,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_SPELL_NAME_TOOLTIP,Displays the name of the spell on the Cast Bar.,1
+55367,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_SPELL_ICON,Spell Icon,1
+55368,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_SPELL_ICON_TOOLTIP,Displays the icon of the spell on the Cast Bar.,1
+55369,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_SPELL_TARGET,Spell Target,1
+55370,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_SPELL_TARGET_TOOLTIP,Displays the name of the unit being targeted by the spell on the Cast Bar.,1
+55388,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_HIGHLIGHT_IMPORTANT_CASTS,Highlight Important Casts,1
+55389,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_HIGHLIGHT_IMPORTANT_CASTS_TOOLTIP,Controls whether Cast Bars on Nameplates display in a more noticeable way for Important Casts.,1
+55390,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_HIGHLIGHT_WHEN_CAST_TARGET,Highlight When Targeted By Enemy,1
+55391,UNIT_NAMEPLATES_CAST_BAR_DISPLAY_HIGHLIGHT_WHEN_CAST_TARGET_TOOLTIP,Controls whether Cast Bars on Nameplates display in a more noticeable way when your character is the target of the spell.,1
+55411,TRANSMOG_SLOT_WARNING_PENDING_WEAPON_CHANGES,This item slot has pending changes in other equipment types.,1
+55414,TRANSMOG_OUTFIT_NAME_DEFAULT,Outfit,3
+55415,TRANSMOG_CUSTOM_SET_NAME_DEFAULT,Custom Set,1
+55433,UNIT_NAMEPLATES_TARGET_NAME_PREVIEW,Target Name,1
+55434,UNIT_NAMEPLATES_SPELL_NAME_PREVIEW,Spell Name,1
 55485,LFG_LIST_REPORT_PLAYER,Report Player,1
 55616,CATALOG_SHOP_DETAILS,Details,3
 55617,CATALOG_SHOP_BACK,Back,3
 55618,CATALOG_SHOP_RACE,Race,3
+55619,NAMEPLATE_OPTIONS_LABEL,Nameplates,1
 55627,CATALOG_SHOP_PRODUCT_OWNED,Owned,3
 55634,CATALOG_SHOP_TYPE_SERVICE,Service,3
 55635,MOVE_PAD_LOCKED,Lock Window,1
@@ -18874,22 +19340,79 @@ They will be deleted and remade with the current customized character.",2
 55643,CATALOG_SHOP_WOW_FLAVOR_CLASSIC,%s Classic,3
 55675,CATALOG_SHOP_TYPE_MOUNT_FLYING,Flying Mount,3
 55676,CATALOG_SHOP_TYPE_MOUNT_GROUND,Ground Mount,3
+55690,PARTY_PLAYER_DIFFERENT_WORLD_TIER,You can't see this player because they are in a different World Tier. You can change World Tiers at the Console of Infinite Chaos in the Infinite Bazaar near Dalaran.,1
 55698,CATALOG_SHOP_CAROUSEL_INDEX,%s / %s,3
+55707,UNIT_NAMEPLATES_SIMPLIFIED_FRIENDLY_NPCS,Friendly NPCs,1
+55708,UNIT_NAMEPLATES_SIMPLIFIED_FRIENDLY_NPCS_TOOLTIP,NPCs that belong to the same Faction as you.,1
 55715,CATALOG_SHOP_DISCLAIMER_ALL_PRODUCTS,|Hcodelink|hCertain restrictions apply. Visit the |c82c5ffffproduct page|r on shop.battle.net for more information.|h,3
 55719,VISITABLE_URL62,https://shop.battle.net/family/world-of-warcraft/items/%s/,3
 55720,VISITABLE_URL63,https://shop.battle.net/gametime-purchase,3
+55726,TRANSMOG_CUSTOM_SET_COMPLETE,Complete,1
+55727,TRANSMOG_CUSTOM_SET_INCOMPLETE,Incomplete,1
+55729,TRANSMOG_CUSTOM_SET_DRESSING_ROOM,View in Dressing Room (Exits Transmogrify),1
+55730,TRANSMOG_CUSTOM_SET_RENAME,Rename,1
+55732,TRANSMOG_CUSTOM_SET_REPLACE,Replace With Current Appearance,1
+55733,TRANSMOG_CUSTOM_SET_DELETE,Delete,1
 55737,CATALOG_SHOP_TOKEN_IN_GAME_ONLY,You must be logged in with a character to purchase a WoW Token.,3
+55739,UNIT_NAMEPLATES_DEBUFF_SCALE,Buff/Debuff Scale,1
+55740,UNIT_NAMEPLATES_DEBUFF_SCALE_TOOLTIP,Controls the size that Nameplate Buffs and Debuffs are displayed on the screen.,1
 55741,CATALOG_SHOP_DISCOUNT_FORMAT,-%s%%,3
 55742,CATALOG_SHOP_TYPE_MOUNT_FLYING_AQUATIC,Flying Aquatic Mount,3
 55771,CATALOG_SHOP_NOT_AVAILABLE,Shop Unavailable,3
 55772,CATALOG_SHOP_TRY_AGAIN_LATER,Please check back later.,3
+55803,BUFF_TOOLTIP_TRANSMOG,The appearance of your weapons and armor are transmogrified.,1
+55808,TRANSMOG_CUSTOM_SET_CONFIRM_DELETE,Are you sure you want to delete the custom set %s?,1
+55809,TRANSMOG_CUSTOM_SET_NONE,No Custom Set,1
+55810,TRANSMOG_CUSTOM_SET_EDIT,Rename/Delete,1
+55811,TRANSMOG_CUSTOM_SET_NEW,New Custom Set,1
+55812,TRANSMOG_CUSTOM_SET_NAME,Enter Custom Set Name:,1
+55813,TRANSMOG_CUSTOM_SET_EDIT_DELETE,Delete Custom Set,1
+55814,TRANSMOG_CUSTOM_SET_ALREADY_EXISTS,A custom set with that name already exists.,1
+55815,TRANSMOG_CUSTOM_SET_CONFIRM_OVERWRITE,You already have a custom set named %s. Would you like to overwrite it?,1
+55816,LINK_TRANSMOG_CUSTOM_SET,Link Custom Set,1
+55817,TRANSMOG_CUSTOM_SET_POST_IN_CHAT,Post in Chat,1
+55818,TRANSMOG_CUSTOM_SET_COPY_TO_CLIPBOARD,Copy to Clipboard |cffffd100(to share online)|r,1
+55819,TRANSMOG_CUSTOM_SET_COPY_TO_CLIPBOARD_NOTICE,Custom Set link copied to clipboard,1
+55820,LINK_TRANSMOG_CUSTOM_SET_HELPTIP,Share this custom set by linking it in chat or online,1
+55821,TRANSMOG_CUSTOM_SET_LINK_INVALID,Invalid custom set link.,1
+55822,TRANSMOG_CUSTOM_SET_CHECKING_APPEARANCES,Checking appearances...,1
+55823,TRANSMOG_CUSTOM_SET_ALL_INVALID_APPEARANCES,You can't save this custom set because none of the item appearances can be transmogrified by your character.,1
+55824,TRANSMOG_CUSTOM_SET_SOME_INVALID_APPEARANCES,One or more item appearances won't be saved in this custom set because they can't be transmogrified by your character.,1
+55825,TRANSMOG_CUSTOM_SET_HYPERLINK_TEXT,|T1598183:13:13:-1:0|tCustom Set,1
+55835,UNIT_NAMEPLATES_DEBUFF_PADDING,Debuff Padding,1
+55836,UNIT_NAMEPLATES_DEBUFF_PADDING_TOOLTIP,Controls the vertical space between Debuffs and the Health Bar.,1
 55918,CATALOG_SHOP_PENDING_PURCHASES,Purchase(s) Pending,3
+55921,HUD_EDIT_MODE_SETTING_BAGS_BAG_SLOT_PADDING,Bag Padding,1
+55966,UNIT_NAMEPLATES_SHOW_FRIENDLY_NPCS,Friendly NPC Nameplates,1
+55967,UNIT_NAMEPLATES_SHOW_FRIENDLY_NPCS_TOOLTIP,Show Nameplates for Friendly NPCs.,1
+55977,UNIT_NAMEPLATES_STACK_ENEMY_UNITS,Enemy Units,1
+55978,UNIT_NAMEPLATES_STACK_ENEMY_UNITS_TOOLTIP,Stack Nameplates for Enemy units.,1
+55979,UNIT_NAMEPLATES_STACK_FRIENDLY_UNITS,Friendly Units,1
+55980,UNIT_NAMEPLATES_STACK_FRIENDLY_UNITS_TOOLTIP,Stack Nameplates for Friendly units.,1
+55981,UNIT_NAMEPLATES_STACK_NONE,None,1
+56001,ERR_TRANSMOG_OUTFIT_SLOT_CANNOT_AFFORD,You can't afford that.,1
+56068,TRANSMOG_SET_COMPLETE,Complete,1
+56069,TRANSMOG_SET_INCOMPLETE,Incomplete,1
 56113,CHALLENGE_MODE_MEDAL4,Platinum,1
 56114,CHALLENGE_MODE_MEDALNAME4,Platinum Medal,1
+56160,TRANSMOG_SET_GRANTS_PRECEDING_VARIANTS,Completing this appearance set unlocks all preceding set variants.,1
 56164,CHALLENGE_MODE_NEW_RECORD_ANNOUNCEMENT,%s has been beaten in record time: %.2d:%.2d by %s!,1
 56165,CHALLENGE_MODE_NEW_RECORD_ANNOUNCEMENT_GUILD,%s has been beaten in record time: %.2d:%.2d by %s from the guild <%s>!,1
 56201,GUILD_BANK_LOG_TIME_CLASSIC, ( %s ago ),1
+56283,HUD_EDIT_MODE_SETTING_AURA_FRAME_OPACITY,Opacity,1
+56284,HUD_EDIT_MODE_SETTING_AURA_FRAME_VISIBLE_SETTING,Visibility,1
+56285,HUD_EDIT_MODE_SETTING_AURA_FRAME_VISIBLE_SETTING_ALWAYS,Always Visible,1
+56286,HUD_EDIT_MODE_SETTING_AURA_FRAME_VISIBLE_SETTING_IN_COMBAT,In Combat,1
+56287,HUD_EDIT_MODE_SETTING_AURA_FRAME_VISIBLE_SETTING_HIDDEN,Hidden,1
+56365,TRANSMOG_ARTIFACT_OPTIONS_HEADER,Legion Artifact Override,1
 56578,ACCESSIBILITY_AUDIO_LABEL,Audio Assist,1
+56626,UNIT_NAMEPLATES_SHOW_CAST_BARS,Nameplate Cast Bars,1
+56627,OPTION_TOOLTIP_UNIT_NAMEPLATES_SHOW_CAST_BARS,Turn this on to display spell cast bars on unit nameplates.,1
+56660,TRANSMOG_OUTFITS_HELPTIP,"Create outfits to change the appearance of your equipped weapons and armor.\n\nAdd outfits to your action bars for manual control, or setup situations where outfits automatically swap.",1
+56662,TRANSMOG_SETS_HELPTIP,Create outfits from Set appearances you've collected.,1
+56663,TRANSMOG_CUSTOM_SETS_HELPTIP,Create outfits from scratch with your Custom Sets.,1
+56665,TRANSMOG_SITUATIONS_HELPTIP,Configure options for when you automatically swap to the selected outfit.,1
+56666,TRANSMOG_WEAPON_OPTIONS_HELPTIP,Different appearances can be assigned for different weapon types you equip.,1
 56669,CHAT_TTS_LABEL,Chat Text to Speech,1
 56670,CAA_COMBAT_AUDIO_ALERTS_LABEL,Combat Audio Alerts,1
 56672,CAA_ENABLE_COMBAT_AUDIO_ALERTS,Enable Combat Audio Alerts,1
@@ -18900,6 +19423,10 @@ They will be deleted and remade with the current customized character.",2
 56677,CAA_SAY_PLAYER_HEALTH_TOOLTIP,Says your health when it crosses certain percentages,1
 56678,CAA_SAY_TARGET_HEALTH_LABEL,Say Target Health,1
 56679,CAA_SAY_TARGET_HEALTH_TOOLTIP,Says your target's health when it crosses certain percentages,1
+56689,UNIT_NAMEPLATES_STYLE_MODERN,Modern,1
+56702,TRANSMOG_HELP_1,Begin by selecting an |cnBRIGHTBLUE_FONT_COLOR:Outfit|r to customize.\n\nAdditional outfits can be purchased with gold.,1
+56703,TRANSMOG_HELP_2,"Assign appearances to any gear slot in an outfit to override the look of the equipment in that slot.\n\nAssigning or updating appearances costs gold, but once saved, you can switch to that outfit anytime for free.",1
+56704,TRANSMOG_HELP_3,Select appearances or sets to customize your outfit.\n\nYou can configure outfits to swap automatically by assigning specific rules in the |cnBRIGHTBLUE_FONT_COLOR:Situations|r tab.,1
 56721,TEXT_TO_SPEECH_SHORT,TTS,1
 56722,CAA_SAY_HEALTH_FORMAT_FULL,Health %d percent,1
 56723,CAA_SAY_HEALTH_FORMAT_NO_PERCENT,Health %d,1
@@ -18923,6 +19450,7 @@ They will be deleted and remade with the current customized character.",2
 56765,CAA_SAY_TARGET_HEALTH_THROTTLE_TOOLTIP,Limits the time between target health callouts to reduce noise,1
 56766,SECONDS_FLOAT_ABBR,%.1f |4Sec:Sec;,1
 56781,CAA_SEARCH_TAG_SHORT,CAA,1
+56820,TRANSMOG_OUTFIT_INVALID_NAME,That name is unavailable. Please choose a different name and try again.,1
 56851,CAA_SAY_TARGET_NAME_LABEL,Say Target Name,1
 56853,CAA_SAY_TARGET_NAME_TOOLTIP,Says the name of the target when you select it,1
 56854,CAA_SAY_COMBAT_START_LABEL,Say Combat Start,1
@@ -18938,6 +19466,7 @@ They will be deleted and remade with the current customized character.",2
 56866,CAA_TARGET_DEAD,Target Dead,1
 56867,CAA_COMBAT_START_TEXT,Combat Start,1
 56873,CAA_COMBAT_END_TEXT,Combat End,1
+56878,TRANSMOG_HIDE_UNASSIGNED_SLOTS,Hide Ignored Slots,1
 56929,CAA_SAY_PLAYER_CASTS_LABEL,Say Your Casts,1
 56930,CAA_SAY_PLAYER_CASTS_TOOLTIP,Says when you cast an ability,1
 56931,CAA_SAY_PLAYER_CASTS_FORMAT_LABEL,Format,1
@@ -18971,12 +19500,408 @@ They will be deleted and remade with the current customized character.",2
 56969,CAA_SAY_TARGET_CASTS_FORMAT_SHORT_NO_SPELLNAME,Target Cast,1
 56970,CAA_SAY_CASTS_START_OF_CAST,Start of cast,1
 56971,CAA_SAY_CASTS_END_OF_CAST,End of cast,1
+56984,OPTION_TOOLTIP_PARTY_CHAT_BUBBLES,Shows chat bubbles for party chat.,1
+56986,OPTION_TOOLTIP_RAID_CHAT_BUBBLES,Shows chat bubbles for raid chat.,1
+57009,UNIT_NAMEPLATES_STYLE_HEALTH_FOCUS,Clean Health,1
 57010,CAA_SAMPLE_SPELLNAME,Fireball,1
 57033,CAA_SAY_TARGET_HEALTH_FORMAT_LABEL,Format,1
 57034,CAA_SAY_TARGET_HEALTH_FORMAT_TOOLTIP,"Choose the wording it will use to say your target's health, using 20% as an example",1
+57044,SLASH_TRANSMOG_CUSTOM_SET2,/customset,1
+57045,SLASH_TRANSMOG_CUSTOM_SET3,/customset,1
+57069,UNIT_NAMEPLATES_SEARCH_TAG,Nameplates,1
 57070,CATALOG_SHOP_WOW_FLAVOR_TRR,Titan Reforged Realm,3
+57077,UNIT_NAMEPLATES_THREAT_DISPLAY_HEALTHBAR_COLOR,Health Bar Color,1
+57078,UNIT_NAMEPLATES_THREAT_DISPLAY_HEALTHBAR_COLOR_TOOLTIP,The Nameplate Health Bar will change color to reflect the current state of Threat on a unit.,1
+57084,RAID_CHAT_BUBBLES_TEXT,Raid Chat Bubbles,1
 57088,CAA_INTERRUPTIBLE_CAST_TEXT,Interruptible Cast,1
 57089,CAA_INTERRUPTED_CAST_TEXT,Target interrupted,1
+57093,TRANSMOG_CUSTOM_SET_NEW_TOOLTIP_DISABLED,Add an appearance to create a Custom Set,1
+57124,TRANSMOG_PENDING_CHANGES,This outfit has pending changes. Continuing will cause your pending changes to be lost.,1
+57141,CAA_SAY_PLAYER_RESOURCE_LABEL,Say Your %s,1
+57142,CAA_SAY_PLAYER_RESOURCE_TOOLTIP,Says your %s when it crosses certain percentages. This setting is saved per talent specialization.,1
+57144,CAA_SAY_PLAYER_RESOURCE_FORMAT_LABEL,Format,1
+57148,CAA_SAY_PLAYER_RESOURCE_FORMAT_TOOLTIP,"Choose the wording it will use to say your %s, using 20%% as an example. This setting is saved per talent specialization.",1
+57149,CAA_SAY_PLAYER_RESOURCE_THROTTLE_LABEL,Throttle,1
+57150,CAA_SAY_PLAYER_RESOURCE_THROTTLE_TOOLTIP,Limits the time between %s callouts to reduce noise,1
+57151,CAA_SAY_RESOURCE_FORMAT_FULL,%s %d percent,1
+57152,CAA_SAY_RESOURCE_FORMAT_NO_PERCENT,%s %d,1
+57153,CAA_SAY_RESOURCE_FORMAT_NO_RESOURCE,%d percent,1
+57154,CAA_SAY_RESOURCE_FORMAT_NUM_ONLY,%d,1
+57219,ERR_TRANSMOG_PURCHASE_FAILURE,"Purchase has failed, please try again later",1
+57296,SPELL_FAILED_TRANSMOG_OUTFIT_ALREADY_KNOWN,Transmog Outfit is already in your collection,1
+57310,CAA_SAY_PARTY_HEALTH_LABEL,Say Party Health,1
+57311,CAA_SAY_PARTY_HEALTH_TOOLTIP,"When in a party, calls out party members that need healing by their party number. You are ""1"" while your party members are 2-5 based on their order. Frequency of callouts are based on how low their health is.",1
+57312,CAA_SAY_PARTY_HEALTH_FREQUENCY_LABEL,Frequency,1
+57313,CAA_SAY_PARTY_HEALTH_FREQUENCY_TOOLTIP,Adjust the relative frequency of party health callouts,1
+57314,UNDER_X_PERCENT,Under %d%%,1
+57446,UNIT_NAMEPLATES_TUTORIAL_TOOLTIP,About Nameplates,1
+57447,CAA_SAY_IF_TARGETED_LABEL,Say If Targeted,1
+57448,UNIT_NAMEPLATES_TUTORIAL_STYLE_OPTIONS,"There are |cnTUTORIAL_BLUE_FONT_COLOR:six style options|r for nameplates, and they can be |cnTUTORIAL_BLUE_FONT_COLOR:resized.|r",1
+57449,UNIT_NAMEPLATES_TUTORIAL_AGGRO,|cnTUTORIAL_BLUE_FONT_COLOR:Aggro|r comes with its own visual effect and a |cnTUTORIAL_BLUE_FONT_COLOR:sense of progression.|r,1
+57450,UNIT_NAMEPLATES_TUTORIAL_BUFFS_DEBUFFS,"Buffs and debuffs can be shown if you |cnTUTORIAL_BLUE_FONT_COLOR:choose|r, and they're also resizable.",1
+57451,UNIT_NAMEPLATES_TUTORIAL_ENEMY_FRIENDLY,Enemy player nameplates can be set up |cnTUTORIAL_BLUE_FONT_COLOR:differently|r from friendly ones.,1
+57452,CAA_SAY_IF_TARGETED_TOOLTIP,Choose a phrase or sound to indicate that you are targeted by an enemy. This setting is saved per talent specialization.,1
+57454,CAA_SAY_IF_TARGETED_FORMAT_AGGRO,"Voice: ""Aggro""",1
+57456,CAA_SAY_IF_TARGETED_FORMAT_TARGETED_NO_NAME,"Voice: ""You're targeted""",1
+57458,CAA_SAY_IF_TARGETED_FORMAT_TARGETED,"Voice: ""Targeted by Kobold""",1
+57462,CAA_AGGRO_TEXT,Aggro,1
+57463,CAA_YOURE_TARGETED_TEXT,You're targeted,1
+57464,CAA_TARGETED_BY_TEXT,Targeted by %s,1
+57465,VISITABLE_URL64,https://support.blizzard.com/article/42673,3
+57466,ONLINE_SAFETY_NOTICE,"Remember to act responsibly, protect your personal information, and report anything offensive. View our In-Game Code of Conduct on |HurlIndex:64|h|cnVISITABLE_URL_DEFAULT_CHAT_LINK_COLOR:https://support.blizzard.com/article/42673|r|h for more information.",1
+57491,UNIT_NAMEPLATES_PREVIEW_FRIENDLY_PLAYER,Previewing - Friendly Player,1
+57492,UNIT_NAMEPLATES_PREVIEW_FRIENDLY_NPC,Previewing - Friendly NPC,1
+57493,UNIT_NAMEPLATES_PREVIEW_ENEMY_PLAYER,Previewing - Enemy Player,1
+57494,UNIT_NAMEPLATES_PREVIEW_ENEMY_NPC,Previewing - Enemy NPC,1
+57496,SLASH_CAA1,/ttscombat,1
+57498,COMBAT_AUDIO_ALERTS,Combat Audio Alerts,1
+57500,CAA_COMMAND_SYNTAX_ERROR,"Invalid Combat Audio Alert command. Type ""/ttscombat help"" to see a list of commands.",1
+57503,SLASH_CAA_HELP,help,1
+57504,SLASH_CAA_HELP_HELP,Show the help menu that lists all commands,1
+57505,SLASH_CAA_VOICE,voice,1
+57506,SLASH_CAA_HELP_VOICE,[%d - %d] - Choose the primary voice for combat audio alerts,1
+57507,SLASH_CAA_VOICE_CHANGED_CONFIRMATION,Combat Audio Alert Voice set to %s,1
+57508,CAA_HELP_OVERVIEW,Combat Audio Alert Commands: |nType /ttscombat to enable Combat Audio Alerts or set an option by typing /ttscombat followed by one of the commands below:,1
+57511,SLASH_CAA_CONFIRMATION_ENABLED_WITH_HELP,"%s set to Enabled. For options, type /ttscombat help.",1
+57512,SLASH_CAA_CONFIRMATION_ENABLED,%s set to Enabled,1
+57513,SLASH_CAA_CONFIRMATION_DISABLED,%s set to Disabled,1
+57514,CAA_HELP_OVERVIEW_NARRATED,Combat Audio Alert Commands: |nType /<spell>tts</spell>combat to enable Combat Audio Alerts or set an option by typing /<spell>tts</spell>combat followed by one of the commands below:,1
+57516,SLASH_CAA_CONFIRMATION_ENABLED_WITH_HELP_NARRATED,"%s set to Enabled. For options, type /<spell>tts</spell>combat help.",1
+57537,SLASH_CAA_SPEED,speed,1
+57538,SLASH_CAA_HELP_SPEED,[%s - %d] - Adjust the rate of speech for combat audio alerts,1
+57541,SLASH_CAA_CONFIRMATION,%s set to %s,1
+57542,CAA_COMMAND_SYNTAX_ERROR_NARRATED,"Invalid Combat Audio Alert command. Type ""/<spell>tts</spell>combat help"" to see a list of commands.",1
+57543,SLASH_CAA_VOLUME,volume,1
+57544,SLASH_CAA_HELP_VOLUME,[%d - %d] - Choose the primary volume for combat audio alerts,1
+57545,SLASH_CAA_SAY_TARGET_NAME,saytargetname,1
+57547,SLASH_CAA_HELP_SAY_TARGET_NAME,Says the name of the target when you select it,1
+57548,SLASH_CAA_SAY_COMBAT_START,saycombatstart,1
+57549,SLASH_CAA_HELP_SAY_COMBAT_START,Choose a phrase or sound to indicate combat has started,1
+57550,SLASH_CAA_SAY_COMBAT_END,saycombatend,1
+57551,SLASH_CAA_HELP_SAY_COMBAT_END,Choose a phrase or sound to indicate combat has ended,1
+57552,SLASH_CAA_SAY_TARGET_CASTS_INTERRUPT,interruptalert,1
+57553,SLASH_CAA_HELP_SAY_TARGET_CASTS_INTERRUPT,Announces when the target starts casting something that you can interrupt with an ability,1
+57554,SLASH_CAA_SAY_TARGET_CASTS_INTERRUPT_SUCCESS,interruptsuccess,1
+57555,SLASH_CAA_HELP_SAY_TARGET_CASTS_INTERRUPT_SUCCESS,Announces when the target is successfully interrupted,1
+57556,SLASH_CAA_SAY_YOUR_HEALTH,sayyourhealth,1
+57557,SLASH_CAA_HELP_SAY_YOUR_HEALTH,[%d - %d] - Says your health when it crosses certain percentages,1
+57558,SLASH_CAA_HELP_SUBOPTION_INVALID,Type the previous command and the option number:,1
+57560,SLASH_CAA_HELP_SUBOPTION_FORMAT,%d : %s,1
+57576,EVENTTRACE_SECRET_FMT,|cnEVENTTRACE_SECRET_COLOR:<secret>|r %s,1
+57577,EVENTTRACE_SHOW_SECRET_VALUES,Show Secret Values,1
+57583,SLASH_CAA_SAY_COMBAT_START_NARRATED,say combat start,1
+57584,SLASH_CAA_SAY_COMBAT_END_NARRATED,say combat end,1
+57585,SLASH_CAA_SAY_TARGET_NAME_NARRATED,say target name,1
+57588,SLASH_CAA_SAY_TARGET_CASTS_INTERRUPT_NARRATED,interrupt alert,1
+57589,SLASH_CAA_SAY_TARGET_CASTS_INTERRUPT_SUCCESS_NARRATED,interrupt success,1
+57590,SLASH_CAA_SAY_YOUR_HEALTH_NARRATED,say your health,1
+57597,CAA_SAY_PLAYER_HEALTH_FORMAT,Say Your Health Format,1
+57599,SLASH_CAA_SAY_YOUR_HEALTH_FORMAT,sayyourhealthformat,1
+57600,SLASH_CAA_SAY_YOUR_HEALTH_FORMAT_NARRATED,say your health format,1
+57604,SLASH_CAA_HELP_SAY_YOUR_HEALTH_FORMAT,[%d - %d] - Choose the format to use when saying your health,1
+57615,SLASH_CAA_SAY_YOUR_HEALTH_THROTTLE,sayyourhealththrottle,1
+57616,SLASH_CAA_SAY_YOUR_HEALTH_THROTTLE_NARRATED,say your health throttle,1
+57617,SLASH_CAA_HELP_SAY_YOUR_HEALTH_THROTTLE,[%d - %d] - Choose the seconds of throttle to use when saying your health,1
+57618,CAA_SAY_PLAYER_HEALTH_THROTTLE,Say Your Health Throttle,1
+57621,SECONDS_FLOAT,%.1f |4Second:Seconds;,1
+57622,SLASH_CAA_SAY_TARGET_HEALTH,saytargethealth,1
+57623,SLASH_CAA_HELP_SAY_TARGET_HEALTH,[%d - %d] - Says your target's health when it crosses certain percentages,1
+57624,SLASH_CAA_SAY_TARGET_HEALTH_NARRATED,say target health,1
+57625,SLASH_CAA_SAY_TARGET_HEALTH_FORMAT,saytargethealthformat,1
+57626,SLASH_CAA_SAY_TARGET_HEALTH_FORMAT_NARRATED,say target health format,1
+57627,SLASH_CAA_HELP_SAY_TARGET_HEALTH_FORMAT,[%d - %d] - Choose the format to use when saying your target's health,1
+57628,CAA_SAY_TARGET_HEALTH_FORMAT,Say Target Health Format,1
+57629,SLASH_CAA_SAY_TARGET_HEALTH_THROTTLE,saytargethealththrottle,1
+57630,SLASH_CAA_SAY_TARGET_HEALTH_THROTTLE_NARRATED,say target health throttle,1
+57631,SLASH_CAA_HELP_SAY_TARGET_HEALTH_THROTTLE,[%d - %d] - Choose the seconds of throttle to use when saying your target's health,1
+57632,CAA_SAY_TARGET_HEALTH_THROTTLE,Say Target Health Throttle,1
+57638,SLASH_CAA_SAY_IF_TARGETED,sayiftargeted,1
+57639,SLASH_CAA_SAY_IF_TARGETED_NARRATED,say if targeted,1
+57640,SLASH_CAA_HELP_SAY_IF_TARGETED,[%d - %d] - Choose a phrase or sound to indicate that you are targeted by an enemy,1
+57647,SLASH_CAA_SAY_PARTY_HEALTH,saypartyhealth,1
+57648,SLASH_CAA_SAY_PARTY_HEALTH_NARRATED,say party health,1
+57649,SLASH_CAA_HELP_SAY_PARTY_HEALTH,"[%d - %d] - When in a party, calls out party members that need healing by their party number",1
+57650,SLASH_CAA_SAY_PARTY_HEALTH_FREQUENCY,saypartyhealthfrequency,1
+57651,SLASH_CAA_HELP_SAY_PARTY_HEALTH_FREQUENCY,[%s - %d] - Adjust the relative frequency of party health callouts,1
+57652,SLASH_CAA_SAY_PARTY_HEALTH_FREQUENCY_NARRATED,say party health frequency,1
+57653,CAA_SAY_PARTY_HEALTH_FREQUENCY,Say Party Health Frequency,1
+57654,SLASH_CAA_SAY_YOUR_CASTS,sayyourcasts,1
+57655,SLASH_CAA_SAY_YOUR_CASTS_NARRATED,say your casts,1
+57656,SLASH_CAA_HELP_SAY_YOUR_CASTS,[%d - %d] - Select what to say when you cast an ability,1
+57657,SLASH_CAA_SAY_YOUR_CASTS_FORMAT,sayyourcastsformat,1
+57658,SLASH_CAA_SAY_YOUR_CASTS_FORMAT_NARRATED,say your casts format,1
+57659,SLASH_CAA_HELP_SAY_YOUR_CASTS_FORMAT,[%d - %d] - Choose the wording to use to say your cast,1
+57660,CAA_SAY_YOUR_CASTS_FORMAT,Say Your Casts Format,1
+57662,SLASH_CAA_SAY_YOUR_CASTS_MIN_CAST_TIME,sayyourcastsmin,1
+57663,SLASH_CAA_SAY_YOUR_CASTS_MIN_CAST_TIME_NARRATED,say your casts min,1
+57664,SLASH_CAA_HELP_SAY_YOUR_CASTS_MIN_CAST_TIME,[%d - %d] - Sets the minimum cast time of abilities to be announced,1
+57665,CAA_SAY_YOUR_CASTS_MIN_CAST_TIME,Say Your Casts Min Cast Time,1
+57666,SLASH_CAA_SAY_YOUR_CASTS_THROTTLE,sayyourcaststhrottle,1
+57667,SLASH_CAA_SAY_YOUR_CASTS_THROTTLE_NARRATED,say your casts throttle,1
+57668,SLASH_CAA_HELP_SAY_YOUR_CASTS_THROTTLE,[%d - %d] - Choose the seconds of throttle to use when saying your casts,1
+57669,CAA_SAY_YOUR_CASTS_THROTTLE,Say Your Casts Throttle,1
+57670,SLASH_CAA_SAY_TARGET_CASTS,saytargetcasts,1
+57671,SLASH_CAA_SAY_TARGET_CASTS_NARRATED,say target casts,1
+57673,SLASH_CAA_HELP_SAY_TARGET_CASTS,[%d - %d] - Select what to say when your target casts an ability,1
+57674,CAA_SAY_TARGET_CASTS_FORMAT,Say Target Casts Format,1
+57675,SLASH_CAA_SAY_TARGET_CASTS_FORMAT,saytargetcastsformat,1
+57676,SLASH_CAA_SAY_TARGET_CASTS_FORMAT_NARRATED,say target casts format,1
+57677,SLASH_CAA_HELP_SAY_TARGET_CASTS_FORMAT,[%d - %d] - Choose the wording to use to say your target's casts,1
+57678,SLASH_CAA_SAY_TARGET_CASTS_MIN_CAST_TIME,saytargetcastsmin,1
+57679,SLASH_CAA_SAY_TARGET_CASTS_MIN_CAST_TIME_NARRATED,say target casts min,1
+57680,SLASH_CAA_HELP_SAY_TARGET_CASTS_MIN_CAST_TIME,[%d - %d] - Sets the minimum cast time of target abilities to be announced,1
+57681,CAA_SAY_TARGET_CASTS_MIN_CAST_TIME,Say Target Casts Min Cast Time,1
+57682,SLASH_CAA_SAY_TARGET_CASTS_THROTTLE,saytargetcaststhrottle,1
+57683,SLASH_CAA_SAY_TARGET_CASTS_THROTTLE_NARRATED,say target casts throttle,1
+57684,SLASH_CAA_HELP_SAY_TARGET_CASTS_THROTTLE,[%d - %d] - Choose the seconds of throttle to use when saying your target's casts,1
+57685,CAA_SAY_TARGET_CASTS_THROTTLE,Say Target Casts Throttle,1
+57686,SLASH_CAA_SAY_RESOURCE_1,sayresource1,1
+57687,SLASH_CAA_SAY_RESOURCE_1_NARRATED,say resource 1,1
+57688,SLASH_CAA_HELP_SAY_RESOURCE_1,[%d - %d] - Says your first combat resource when it crosses certain percentages,1
+57691,CAA_SAY_RESOURCE_1,Say Resource 1,1
+57692,SLASH_CAA_SAY_RESOURCE_1_FORMAT,sayresource1format,1
+57693,SLASH_CAA_SAY_RESOURCE_1_FORMAT_NARRATED,say resource 1 format,1
+57694,SLASH_CAA_HELP_SAY_RESOURCE_1_FORMAT,[%d - %d] - Choose the format to use when saying your first combat resource,1
+57695,CAA_SAY_RESOURCE_1_FORMAT,Say Resource 1 Format,1
+57696,SLASH_CAA_SAY_RESOURCE_1_THROTTLE,sayresource1throttle,1
+57697,SLASH_CAA_SAY_RESOURCE_1_THROTTLE_NARRATED,say resource 1 throttle,1
+57698,SLASH_CAA_HELP_SAY_RESOURCE_1_THROTTLE,[%d - %d] - Choose the seconds of throttle to use when saying your first combat resource,1
+57699,CAA_SAY_RESOURCE_1_THROTTLE,Say Resource 1 Throttle,1
+57700,SLASH_CAA_SAY_RESOURCE_2,sayresource2,1
+57701,CAA_SAMPLE_RESOURCENAME,Power,1
+57702,SLASH_CAA_SAY_RESOURCE_2_NARRATED,say resource 2,1
+57703,SLASH_CAA_HELP_SAY_RESOURCE_2,[%d - %d] - Says your second combat resource when it crosses certain percentages,1
+57704,CAA_SAY_RESOURCE_2,Say Resource 2,1
+57705,SLASH_CAA_SAY_RESOURCE_2_FORMAT,sayresource2format,1
+57706,SLASH_CAA_SAY_RESOURCE_2_FORMAT_NARRATED,say resource 2 format,1
+57707,SLASH_CAA_HELP_SAY_RESOURCE_2_FORMAT,[%d - %d] - Choose the format to use when saying your second combat resource,1
+57708,CAA_SAY_RESOURCE_2_FORMAT,Say Resource 2 Format,1
+57709,SLASH_CAA_SAY_RESOURCE_2_THROTTLE,sayresource2throttle,1
+57710,SLASH_CAA_SAY_RESOURCE_2_THROTTLE_NARRATED,say resource 2 throttle,1
+57711,SLASH_CAA_HELP_SAY_RESOURCE_2_THROTTLE,[%d - %d] - Choose the seconds of throttle to use when saying your second combat resource,1
+57712,CAA_SAY_RESOURCE_2_THROTTLE,Say Resource 2 Throttle,1
+57753,SLASH_CAA_DISABLED_WARNING,"Combat Audio Alerts are currently disabled. To enable them, type /ttscombat.",1
+57754,SLASH_CAA_DISABLED_WARNING_NARRATED,"Combat Audio Alerts are currently disabled. To enable them, type  /<spell>tts</spell>combat",1
+57757,VOICE_GENERIC_FORMAT_MASCULINE,English Voice %d (Masculine),1
+57758,VOICE_GENERIC_FORMAT_FEMININE,English Voice %d (Feminine),1
+57763,CAA_VOICE_LABEL,Voice,1
+57764,CAA_VOLUME_LABEL,Volume,1
+57765,CAA_SAY_PLAYER_HEALTH_VOICE_TOOLTIP,Choose the voice that says your health,1
+57766,CAA_SAY_PLAYER_HEALTH_VOLUME_TOOLTIP,Adjusts the volume for health callouts,1
+57767,CAA_SAY_TARGET_HEALTH_VOICE_TOOLTIP,Choose the voice that says your target's health,1
+57768,CAA_SAY_TARGET_HEALTH_VOLUME_TOOLTIP,Adjusts the volume for target health callouts,1
+57769,CAA_SAY_PARTY_HEALTH_VOICE_TOOLTIP,Choose the voice for party health callouts,1
+57770,CAA_SAY_PARTY_HEALTH_VOLUME_TOOLTIP,Adjusts the volume for party health callouts,1
+57771,CAA_SAY_PLAYER_RESOURCE_VOICE_TOOLTIP,Choose the voice that says your %s. This setting is saved per talent specialization.,1
+57772,CAA_SAY_PLAYER_RESOURCE_VOLUME_TOOLTIP,Adjusts the volume for %s callouts. This setting is saved per talent specialization.,1
+57773,CAA_SAY_PLAYER_CASTS_VOICE_TOOLTIP,Choose the voice that says your casts,1
+57774,CAA_SAY_PLAYER_CASTS_VOLUME_TOOLTIP,Adjusts the volume for your cast callouts,1
+57775,CAA_SAY_TARGET_CASTS_VOICE_TOOLTIP,Choose the voice that says your target's casts,1
+57776,CAA_SAY_TARGET_CASTS_VOLUME_TOOLTIP,Adjusts the volume for your target's cast callouts,1
+57777,SLASH_CAA_SAY_YOUR_HEALTH_VOICE,sayyourhealthvoice,1
+57778,SLASH_CAA_SAY_YOUR_HEALTH_VOICE_NARRATED,say your health voice,1
+57779,SLASH_CAA_HELP_SAY_YOUR_HEALTH_VOICE,[%d - %d] - Choose the voice to use when saying your health,1
+57780,SLASH_CAA_SAY_YOUR_HEALTH_VOICE_CHANGED_CONFIRMATION,Combat Audio Alert Say Your Health Voice set to %s,1
+57781,SLASH_CAA_SAY_TARGET_HEALTH_VOICE,saytargethealthvoice,1
+57782,SLASH_CAA_SAY_TARGET_HEALTH_VOICE_NARRATED,say target health voice,1
+57783,SLASH_CAA_HELP_SAY_TARGET_HEALTH_VOICE,[%d - %d] - Choose the voice to use when saying your target's health,1
+57784,SLASH_CAA_SAY_TARGET_HEALTH_VOICE_CHANGED_CONFIRMATION,Combat Audio Alert Say Target Health Voice set to %s,1
+57785,SLASH_CAA_SAY_PARTY_HEALTH_VOICE,saypartyhealthvoice,1
+57786,SLASH_CAA_SAY_PARTY_HEALTH_VOICE_NARRATED,say party health voice,1
+57787,SLASH_CAA_HELP_SAY_PARTY_HEALTH_VOICE,[%d - %d] - Choose the voice to use when saying party health,1
+57788,SLASH_CAA_SAY_PARTY_HEALTH_VOICE_CHANGED_CONFIRMATION,Combat Audio Alert Say Party Health Voice set to %s,1
+57789,SLASH_CAA_SAY_RESOURCE_1_VOICE,sayresource1voice,1
+57790,SLASH_CAA_SAY_RESOURCE_1_VOICE_NARRATED,say resource 1 voice,1
+57791,SLASH_CAA_HELP_SAY_RESOURCE_1_VOICE,[%d - %d] - Choose the voice to use when saying your first combat resource,1
+57792,SLASH_CAA_SAY_RESOURCE_1_VOICE_CHANGED_CONFIRMATION,Combat Audio Alert Say Resource 1 Voice set to %s,1
+57793,SLASH_CAA_SAY_RESOURCE_2_VOICE,sayresource2voice,1
+57794,SLASH_CAA_SAY_RESOURCE_2_VOICE_NARRATED,say resource 2 voice,1
+57795,SLASH_CAA_HELP_SAY_RESOURCE_2_VOICE,[%d - %d] - Choose the voice to use when saying your second combat resource,1
+57796,SLASH_CAA_SAY_RESOURCE_2_VOICE_CHANGED_CONFIRMATION,Combat Audio Alert Say Resource 2 Voice set to %s,1
+57797,SLASH_CAA_SAY_YOUR_CASTS_VOICE,sayyourcastsvoice,1
+57798,SLASH_CAA_SAY_YOUR_CASTS_VOICE_NARRATED,say your casts voice,1
+57799,SLASH_CAA_HELP_SAY_YOUR_CASTS_VOICE,[%d - %d] - Choose the voice to use to say your casts,1
+57800,SLASH_CAA_SAY_YOUR_CASTS_VOICE_CHANGED_CONFIRMATION,Combat Audio Alert Say Your Casts Voice set to %s,1
+57801,SLASH_CAA_SAY_TARGET_CASTS_VOICE,saytargetcastsvoice,1
+57802,SLASH_CAA_SAY_TARGET_CASTS_VOICE_NARRATED,say target casts voice,1
+57803,SLASH_CAA_HELP_SAY_TARGET_CASTS_VOICE,[%d - %d] - Choose the voice to use to say your target's casts,1
+57804,SLASH_CAA_SAY_TARGET_CASTS_VOICE_CHANGED_CONFIRMATION,Combat Audio Alert Say Targets Casts Voice set to %s,1
+57812,ERR_TRANSMOG_INVALID_ACTION_TRIAL_OF_STYLE,You can't do that while the Trial of Style Scenario is in progress,1
+57813,TRANSMOG_TRIAL_OF_STYLE_HELPTIP,Dress to impress with this special Trial of Style outfit.\n\nUpdating this outfit is free during the Trial of Style event.,1
+57830,TRANSMOG_SAVE_OUTFIT_CANNOT_AFFORD_TOOLTIP,You can't afford to save outfit changes,1
+57835,SLASH_CAA_SAY_YOUR_HEALTH_VOLUME,sayyourhealthvolume,1
+57836,SLASH_CAA_SAY_YOUR_HEALTH_VOLUME_NARRATED,Say Your Health Volume,1
+57837,SLASH_CAA_HELP_SAY_YOUR_HEALTH_VOLUME,[%d - %d] - Choose the volume to use when saying your health,1
+57843,SLASH_CAA_SAY_TARGET_HEALTH_VOLUME,saytargethealthvolume,1
+57844,SLASH_CAA_SAY_TARGET_HEALTH_VOLUME_NARRATED,Say Target Health Volume,1
+57845,SLASH_CAA_HELP_SAY_TARGET_HEALTH_VOLUME,[%d - %d] - Choose the volume to use when saying your target's health,1
+57846,SLASH_CAA_SAY_PARTY_HEALTH_VOLUME,saypartyhealthvolume,1
+57847,SLASH_CAA_SAY_PARTY_HEALTH_VOLUME_NARRATED,Say Party Health Volume,1
+57848,SLASH_CAA_HELP_SAY_PARTY_HEALTH_VOLUME,[%d - %d] - Choose the volume to use when saying party health,1
+57849,SLASH_CAA_SAY_RESOURCE_1_VOLUME,sayresource1volume,1
+57850,SLASH_CAA_SAY_RESOURCE_1_VOLUME_NARRATED,Say Resource 1 Volume,1
+57851,SLASH_CAA_HELP_SAY_RESOURCE_1_VOLUME,[%d - %d] - Choose the volume to use when saying your first combat resource,1
+57852,SLASH_CAA_SAY_RESOURCE_2_VOLUME,sayresource2volume,1
+57853,SLASH_CAA_SAY_RESOURCE_2_VOLUME_NARRATED,Say Resource 2 Volume,1
+57854,SLASH_CAA_HELP_SAY_RESOURCE_2_VOLUME,[%d - %d] - Choose the volume to use when saying your second combat resource,1
+57855,SLASH_CAA_SAY_YOUR_CASTS_VOLUME,sayyourcastsvolume,1
+57856,SLASH_CAA_SAY_YOUR_CASTS_VOLUME_NARRATED,Say Your Casts Volume,1
+57857,SLASH_CAA_HELP_SAY_YOUR_CASTS_VOLUME,[%d - %d] - Choose the volume to use to say your casts,1
+57858,SLASH_CAA_SAY_TARGET_CASTS_VOLUME,saytargetcastsvolume,1
+57859,SLASH_CAA_SAY_TARGET_CASTS_VOLUME_NARRATED,Say Target Casts Volume,1
+57860,SLASH_CAA_HELP_SAY_TARGET_CASTS_VOLUME,[%d - %d] - Choose the volume to use to say your target's casts,1
+57874,VISITABLE_URL65,https://account.battle.net/privacy,3
+57877,CATALOG_SHOP_PERSONALIZE_OPT_OUT_TOOLTIP,"If you want to opt out of personalized recommendation, please go to BattleNet Account Settings > Privacy > Personalized Recommendation.",3
+57924,CAA_SAY_YOUR_DEBUFFS_LABEL,Say Your Debuffs,1
+57925,CAA_SAY_YOUR_DEBUFFS_TOOLTIP,Says when a debuff is applied on you,1
+57926,CAA_SAY_YOUR_DEBUFFS_FORMAT_FULL,Debuff %s,1
+57927,CAA_SAY_YOUR_DEBUFFS_FORMAT_NO_SPELLNAME,Debuff,1
+57929,CAA_SAY_YOUR_DEBUFFS_MIN_DURATION_LABEL,Minimum Duration,1
+57930,CAA_SAY_YOUR_DEBUFFS_FORMAT_LABEL,Format,1
+57931,CAA_SAY_YOUR_DEBUFFS_FORMAT_TOOLTIP,Choose the wording it will use to say your debuff,1
+57932,CAA_SAY_YOUR_DEBUFFS_MIN_DURATION_TOOLTIP,Sets the minimum duration of debuffs to be announced,1
+57933,CAA_DEBUFF_SELF_ALERT_LABEL,Debuff Self Alert,1
+57934,CAA_DEBUFF_SELF_ALERT_TOOLTIP,Announces when you can dispel a debuff on yourself,1
+57935,TRANSMOG_CUSTOM_SET_NEW_TOOLTIP_DISABLED_MAX_COUNT,You have reached the maximum number of Custom Sets,1
+57936,CAA_DEBUFF_SELF_ALERT_FORMAT_DEBUFF_TYPE,"Voice: ""%s debuff""",1
+57940,SLASH_CAA_SAY_YOUR_DEBUFFS,sayyourdebuffs,1
+57941,SLASH_CAA_SAY_YOUR_DEBUFFS_NARRATED,say your debuffs,1
+57942,SLASH_CAA_HELP_SAY_YOUR_DEBUFFS,Says when a debuff is applied on you,1
+57943,SLASH_CAA_SAY_YOUR_DEBUFFS_FORMAT,sayyourdebuffsformat,1
+57944,SLASH_CAA_SAY_YOUR_DEBUFFS_FORMAT_NARRATED,Say Your Debuffs Format,1
+57946,SLASH_CAA_HELP_SAY_YOUR_DEBUFFS_FORMAT,[%d - %d] - Choose the format to use when saying your debuff,1
+57947,SLASH_CAA_SAY_YOUR_DEBUFFS_MIN_DURATION,sayyourdebuffsmin,1
+57948,SLASH_CAA_SAY_YOUR_DEBUFFS_MIN_DURATION_NARRATED,Say Your Debuffs Min,1
+57949,SLASH_CAA_HELP_SAY_YOUR_DEBUFFS_MIN_DURATION,[%d - %d] - Choose the minimum duration of a debuff for it to be announced,1
+57950,SLASH_CAA_DEBUFF_SELF_ALERT,debuffselfalert,1
+57951,SLASH_CAA_DEBUFF_SELF_ALERT_NARRATED,Debuff Self Alert,1
+57952,SLASH_CAA_HELP_DEBUFF_SELF_ALERT,Announces when you can dispel a debuff on yourself,1
+57953,CAA_SAMPLE_DEBUFFNAME,Deadly Sting,1
+57954,CAA_SAMPLE_DISPELTTYPE,Magic,1
+57955,CAA_SAY_YOUR_DEBUFFS_FORMAT,Say Your Debuffs Format,1
+57956,CAA_SAY_YOUR_DEBUFFS_MIN_DURATION,Say Your Debuffs Min Duration,1
+57957,CAA_DEBUFF_SELF_ALERT_FORMAT,%s debuff,1
+57958,CAA_SAY_YOUR_DEBUFFS_VOLUME_TOOLTIP,Adjusts the volume for your debuffs,1
+57959,CAA_SAY_YOUR_DEBUFFS_VOICE_TOOLTIP,Choose the voice that says your debuffs,1
+57960,SLASH_CAA_SAY_YOUR_DEBUFFS_VOICE,sayyourdebuffsvoice,1
+57961,SLASH_CAA_SAY_YOUR_DEBUFFS_VOICE_NARRATED,Say Your Debuffs Voice,1
+57962,SLASH_CAA_HELP_SAY_YOUR_DEBUFFS_VOICE,[%d - %d] - Choose the voice to use when saying your debuffs,1
+57963,SLASH_CAA_SAY_YOUR_DEBUFFS_VOLUME,sayyourdebuffsvolume,1
+57964,SLASH_CAA_SAY_YOUR_DEBUFFS_VOLUME_NARRATED,Say Your Debuffs Volume,1
+57965,SLASH_CAA_HELP_SAY_YOUR_DEBUFFS_VOLUME,[%d - %d] - Choose the volume to use when saying your debuffs,1
+57966,SLASH_CAA_SAY_YOUR_DEBUFFS_VOICE_CHANGED_CONFIRMATION,Combat Audio Alert Say Your Debuffs Voice set to %s,1
+57985,TRANSMOG_SLOT_DISPLAY_TYPE_UNASSIGNED_ARTIFACT,Ignore Override,1
+57986,TRANSMOG_SLOT_DISPLAY_TYPE_UNASSIGNED_ARTIFACT_TOOLTIP,"When this outfit is applied, items in this slot will not have their appearance overridden.",1
+58001,CATALOG_SHOP_LOADING,Loading...,3
+58004,TRANSMOG_USABLE_DISCOUNT,Free Transmog outfit update available,1
+58005,TRANSMOG_USABLE_DISCOUNT_CONFIRM,You have a free Transmog outfit update. This offer is limited to a single use per character.,1
+58006,TRANSMOG_USABLE_DISCOUNT_CLAIM,Claim Free,1
+58007,TRANSMOG_USABLE_DISCOUNT_USE_GOLD,Use Gold,1
+58010,TRANSMOG_CUSTOM_SETS_MIGRATION_HELPTIP,Your previously applied Transmog and legacy outfits are available in Custom Sets.,1
+58019,TRANSMOG_SHEATHE_CATEGORY_BACK,Sheathe On Back,1
+58020,TRANSMOG_SHEATHE_CATEGORY_SIDE,Sheathe On Side,1
+58021,TRANSMOG_SHEATHE_CATEGORY_HIDE,Hide While Sheathed,1
+58022,TRANSMOG_SHEATHE_CATEGORY_DEFAULT_BACK,Default Sheathing (Back),1
+58023,TRANSMOG_SHEATHE_CATEGORY_DEFAULT_SIDE,Default Sheathing (Side),1
+58024,TRANSMOG_SHEATHE_CATEGORY_DEFAULT_HIDE,Default Sheathing (Hide),1
+58037,LFG_LIST_CATEGORY_SOLO_PLAYERS,Players,1
+58038,LFG_LIST_CATEGORY_GROUPS,Groups,1
+58047,TRANSMOG_SHEATHE_WEAPON,Sheathe Weapon,1
+58048,TRANSMOG_SHEATHE_WEAPON_TOOLTIP,Sheathe/Unsheathe Weapon,1
+58053,TRANSMOG_PREVIEWED_WEAPON_TOGGLE,View Ranged Weapon,1
+58080,SLASH_TRANSMOG_OUTFIT2,/outfit,1
 58113,UNITNAME_SUMMON_TITLE61,%s's Edict,1
+58116,TRANSMOG_SET_COMPLETION_FORMAT,(%s/%s),1
+58166,TRANSMOG_COST_MODIFIER_TOOLTIP_AURA,Bonus discount applied,1
+58167,TRANSMOG_COST_MODIFIER_TOOLTIP_VOID_ELF,Void Elf discount applied,1
+58168,TRANSMOG_COST_MODIFIER_TOOLTIP_AURA_VOID_ELF,Bonus and Void Elf discount applied,1
+58170,TRANSMOG_COST_MODIFIER_TOOLTIP_OUTFIT,Outfit discount applied,1
+58185,TRANSMOG_COST_MODIFIER_TOOLTIP_AURA_OUTFIT,Bonus and Outfit discount applied,1
+58186,TRANSMOG_COST_MODIFIER_TOOLTIP_OUTFIT_VOID_ELF,Outfit and Void Elf discount applied,1
+58187,TRANSMOG_COST_MODIFIER_TOOLTIP_FREE,Updates to this outfit are free,1
+58398,TRANSMOG_SETS_NONE,You don't have any Set appearances,1
+58399,TRANSMOG_CUSTOM_SETS_NONE,You don't have any Custom Sets,1
+58585,TRADE_WARNING_CHANGED_OFFER,%s has changed their trade offer. Please ensure you are receiving the correct items and gold.,1
+58653,HUD_EDIT_MODE_RAID_WARNING_LABEL,Raid Warnings,1
+58668,HUD_EDIT_MODE_SETTING_STATUS_TACKING_BAR_SIZE,Size,1
+58696,MAINMENUBAR_COMMUNICATION_PROTOCOL_LABEL,Communication Protocol:\nHome: %s\nWorld: %s,1
+58700,HUD_EDIT_MODE_TOTEM_ACTION_BAR_LABEL,Totem Bar,1
+58731,BLIZZARD_STORE_VAS_ERROR_BOOST_THROTTLE,Maximum number of character boosts reached for the day. Please try again tomorrow.,3
+58793,ITEM_MOD_PHYSICAL_DAMAGE_DONE_SHORT,Physical Damage,1
+58794,ITEM_MOD_PHYSICAL_DAMAGE_DONE,Increases physical damage done by up to %s.,1
+58795,ITEM_MOD_HOLY_DAMAGE_DONE_SHORT,Holy Damage,1
+58796,ITEM_MOD_HOLY_DAMAGE_DONE,Increases holy damage done by up to %s.,1
+58797,ITEM_MOD_FIRE_DAMAGE_DONE_SHORT,Fire Damage,1
+58798,ITEM_MOD_FIRE_DAMAGE_DONE,Increases fire damage done by up to %s.,1
+58799,ITEM_MOD_NATURE_DAMAGE_DONE_SHORT,Nature Damage,1
+58800,ITEM_MOD_NATURE_DAMAGE_DONE,Increases nature damage done by up to %s.,1
+58801,ITEM_MOD_FROST_DAMAGE_DONE_SHORT,Frost Damage,1
+58802,ITEM_MOD_FROST_DAMAGE_DONE,Increases frost damage done by up to %s.,1
+58803,ITEM_MOD_SHADOW_DAMAGE_DONE_SHORT,Shadow Damage,1
+58804,ITEM_MOD_SHADOW_DAMAGE_DONE,Increases shadow damage done by up to %s.,1
+58805,ITEM_MOD_ARCANE_DAMAGE_DONE_SHORT,Arcane Damage,1
+58806,ITEM_MOD_ARCANE_DAMAGE_DONE,Increases arcane damage done by up to %s.,1
+58882,ITEM_MOD_TWOHANDED_AXES_SHORT,Two-Handed Axes Skill,1
+58883,ITEM_MOD_TWOHANDED_AXES,Increases two-handed axes skill by %s.,1
+58884,ITEM_MOD_TWOHANDED_MACES_SHORT,Two-Handed Maces Skill,1
+58885,ITEM_MOD_TWOHANDED_MACES,Increases two-handed maces skill by %s.,1
+58886,ITEM_MOD_TWOHANDED_SWORDS_SHORT,Two-Handed Swords Skill,1
+58887,ITEM_MOD_TWOHANDED_SWORDS,Increases two-handed swords skill by %s.,1
+58888,ITEM_MOD_AXES_SHORT,Axes Skill,1
+58889,ITEM_MOD_AXES,Increases axes skill by %s.,1
+58890,ITEM_MOD_BOWS_SHORT,Bows Skill,1
+58891,ITEM_MOD_BOWS,Increases bows skill by %s.,1
+58892,ITEM_MOD_CROSSBOWS_SHORT,Crossbows Skill,1
+58893,ITEM_MOD_CROSSBOWS,Increases crossbows skill by %s.,1
+58894,ITEM_MOD_DAGGERS_SHORT,Daggers Skill,1
+58895,ITEM_MOD_DAGGERS,Increases daggers skill by %s.,1
+58896,ITEM_MOD_DUAL_WIELD_SHORT,Dual Wield Skill,1
+58897,ITEM_MOD_DUAL_WIELD,Increases dual wield skill by %s.,1
+58898,ITEM_MOD_FIST_WEAPONS_SHORT,Fist Weapons Skill,1
+58899,ITEM_MOD_FIST_WEAPONS,Increases fist weapons skill by %s.,1
+58900,ITEM_MOD_GUNS_SHORT,Guns Skill,1
+58901,ITEM_MOD_GUNS,Increases guns skill by %s.,1
+58902,ITEM_MOD_MACES_SHORT,Maces Skill,1
+58903,ITEM_MOD_MACES,Increases maces skill by %s.,1
+58904,ITEM_MOD_POLEARMS_SHORT,Polearms Skill,1
+58905,ITEM_MOD_POLEARMS,Increases polearms skill by %s.,1
+58906,ITEM_MOD_STAVES_SHORT,Staves Skill,1
+58907,ITEM_MOD_STAVES,Increases staves skill by %s.,1
+58908,ITEM_MOD_SWORDS_SHORT,Swords Skill,1
+58909,ITEM_MOD_SWORDS,Increases swords skill by %s.,1
+58910,ITEM_MOD_THROWN_SHORT,Thrown Skill,1
+58911,ITEM_MOD_THROWN,Increases thrown skill by %s.,1
+58912,ITEM_MOD_WANDS_SHORT,Wands Skill,1
+58913,ITEM_MOD_WANDS,Increases wands skill by %s.,1
+58914,ITEM_MOD_ALCHEMY_SHORT,Alchemy Skill,1
+58915,ITEM_MOD_ALCHEMY,Increases alchemy skill by %s.,1
+58916,ITEM_MOD_BLACKSMITHING_SHORT,Blacksmithing Skill,1
+58917,ITEM_MOD_BLACKSMITHING,Increases blacksmithing skill by %s.,1
+58918,ITEM_MOD_ENCHANTING_SHORT,Enchanting Skill,1
+58919,ITEM_MOD_ENCHANTING,Increases enchanting skill by %s.,1
+58920,ITEM_MOD_ENGINEERING_SHORT,Engineering Skill,1
+58921,ITEM_MOD_ENGINEERING,Increases engineering skill by %s.,1
+58922,ITEM_MOD_JEWELCRAFTING_SHORT,Jewelcrafting Skill,1
+58923,ITEM_MOD_JEWELCRAFTING,Increases jewelcrafting skill by %s.,1
+58924,ITEM_MOD_LEATHERWORKING_SHORT,Leatherworking Skill,1
+58925,ITEM_MOD_LEATHERWORKING,Increases leatherworking skill by %s.,1
+58926,ITEM_MOD_HERBALISM_SHORT,Herbalism Skill,1
+58927,ITEM_MOD_HERBALISM,Increases herbalism skill by %s.,1
+58928,ITEM_MOD_MINING_SHORT,Mining Skill,1
+58929,ITEM_MOD_MINING,Increases mining skill by %s.,1
+58930,ITEM_MOD_SKINNING_SHORT,Skinning Skill,1
+58931,ITEM_MOD_SKINNING,Increases skinning skill by %s.,1
+58932,ITEM_MOD_COOKING_SHORT,Cooking Skill,1
+58933,ITEM_MOD_COOKING,Increases cooking skill by %s.,1
+58934,ITEM_MOD_FIRST_AID_SHORT,First Aid Skill,1
+58935,ITEM_MOD_FIRST_AID,Increases first aid skill by %s.,1
+58936,ITEM_MOD_FISHING_SHORT,Fishing Skill,1
+58937,ITEM_MOD_FISHING,Increases fishing skill by %s.,1
+58938,ITEM_MOD_TAILORING_SHORT,Tailoring Skill,1
+58939,ITEM_MOD_TAILORING,Increases tailoring skill by %s.,1
+59110,HUD_EDIT_MODE_SETTING_END_CAP_HIDDEN,Hidden,1
+59111,HUD_EDIT_MODE_END_CAP_LEFT_LABEL,End Cap (Left),1
+59112,HUD_EDIT_MODE_END_CAP_RIGHT_LABEL,End Cap (Right),1
 59142,CHALLENGE_MODE_MEDAL5,Diamond,1
 59143,CHALLENGE_MODE_MEDALNAME5,Diamond Medal,1
+59462,UNIT_NAMEPLATES_STYLE_CLASSIC,Classic,1

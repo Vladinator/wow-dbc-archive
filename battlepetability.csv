@@ -2262,6 +2262,11 @@ Lasts [duration(1,1)] |4round:rounds;.",132221,6,5,0,0
 
 Call forth a twilight meteor onto your enemies, dealing [StandardDamage(1,1)] [School()] damage, split evenly amongst them.",425959,1,5,0,0
 2060,Dodge,"Increases your chance to dodge attacks by [abs(abilityStateMod( 73, 2060 ))]%.",136205,-1,0,974,2
+2065,Nap Time,"Fall asleep, restoring [StandardHealing(1,1,2066)] health on the first round, [StandardHealing(2,1,2066)] health on the second, then [StandardHealing(3,1,2066)] health on the third.
+
+While napping you cannot swap pets.",132156,7,5,0,2
+2066,Napping,"Napping.
+Restores increasing health every round.",132156,-1,0,45,2
 2228,Sonic Blast,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
 Release a blast of sonic energy at your target, dealing [StandardDamage(1,1)] [School()] damage.",252188,9,0,0,0
@@ -2273,6 +2278,10 @@ Lasts [duration(1,1)] |4round:rounds;.",463521,9,4,0,2
 Flap your wings furiously, dealing [StandardDamage(1,1)] [School()] damage. 
 
 Damage increases by [FormatDamage(10*AttackBonus())] each time it is used. Max [FormatDamage(30*AttackBonus())] [School()] damage.",2103903,2,1,0,0
+2435,Mana Flare,"Deals [StandardDamage(1,1,2436)] [School()] damage each time you take direct damage.
+
+Lasts [duration(1,1)] |4round:rounds;.",136115,5,3,0,0
+2436,Mana Flare,"Deals [FormatDamage(SimpleDamage(1,1),nil,AURAENEMY)] [School()] damage each time you take direct damage.",136115,5,0,0,0
 2510,Hubris,"Your damage taken has been increased by [abs(abilityStateMod( 24, 185 ))]%.",1390945,5,0,530,3
 2511,Hubris,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 

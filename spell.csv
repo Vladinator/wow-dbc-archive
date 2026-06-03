@@ -93549,7 +93549,7 @@ Guessing incorrectly will remove your streak.  You will receive your reward from
 134729,,Leaps at the current target.,
 134730,,,
 134731,,"Combine the Kor'kron Helmet, Kor'kron Armor, and Kor'kron Boots into a Kor'kron Disguise.",
-134732,,Dealing damage to another player in battle causes them to receive $134735m1% less healing.,
+134732,,Dealing damage to another player in battle causes them to receive $<bf>% less healing.,
 134733,,Apply an orc costume.,You are disguised as a Kor'kron soldier.
 134734,,Disguise yourself as a Kor'kron soldier.,
 134735,,$@spelldesc134732,Reduces healing recieved by $w1%.
@@ -101356,6 +101356,7 @@ Damage taken increased by $s2%.
 Rage generated from abilities increased by $s3%."
 143597,,,
 143599,,$@spelldesc143596,$@spellaura143596
+143600,,$@spelldesc143596,$@spellaura143596
 143602,,Fires a bolt of Shadow energy that inflicts $143602s1 damage upon impact to enemies within $143602A1 yards.,Inflicts $143602s1 Shadow damage to enemies within $143602A1 yards.
 143603,,Inflicts $141512s1 Fire damage.,
 143604,,Inflicts $141512s1 Fire damage.,
@@ -101469,6 +101470,7 @@ $143702s1 Physical damage per second."
 143782,,,
 143783,,Inflicts $143783s1 Fire damage to random enemies and leaves a puddle of flame at their location.,
 143784,,Deals $143784s1 Fire damage every $143784t1 second.,Deals $143784s1 Fire damage every $143784t1 second.
+143787,,,
 143791,,"Inflicts $s1 Nature damage initially, and then $s2 Nature damage every $t2 seconds.",Inflicts $s2 Nature damage every $t2 seconds.
 143795,,,
 143797,,,
@@ -101506,6 +101508,7 @@ Rooted."
 143843,,$@spelldesc143559,$@spellaura143559
 143844,,,
 143846,,,
+143847,,,
 143848,,,
 143849,,,
 143850,,,
@@ -101560,6 +101563,7 @@ Movement speed reduced by $s1%."
 These spirits continue their attacks against players until all three are slain.",Meditating.
 143958,,$@spelldesc144018,$@spellaura144018
 143959,,"Smashes the ground with fervor, inflicting $143961s1 Physical damage to her current target, knocking them back. This force burns into the ground, inflicting $144357s1 Shadow damage every second to enemies.",Suffering $144357s1 Shadow damage every second.
+143960,,$@spelldesc143959,$@spellaura143959
 143961,,$@spelldesc143959,$@spellaura143959
 143962,,Embodied Sorrow casts a massive Fire damage spell at his highest threat target. Inferno Blast divides ${$143962m2*$143962m1} Fire damage among all targets within $143962A2 yards.,$@spellaura144007
 143963,,,
@@ -106453,7 +106457,9 @@ Healing spells and abilities recite a blazing song around your ally that increas
 
 This can occur once every $proccooldown seconds.
 
-$?a1279050[While in combat you generate 3 Celestial Influence per second. At 100 Influence you may call upon an avatar of Chi-Ji to assist you in combat.][]"
+$?a1279050[While in combat you generate 2 Celestial Influence per second. At 100 Influence you may call upon an avatar of Chi-Ji to assist you in combat.][]
+
+Witnessing the conflux of August Celestials blesses you with a rare boon."
 1243288,,,
 1243289,,,
 1243290,,,
@@ -106475,7 +106481,9 @@ $?a1279050[While in combat you generate 3 Celestial Influence per second. At 100
 
 Direct attacks unleash an echo of Xuen's ferocity. A bolt of lightning is hurled at the enemy dealing $1244317s1 Nature damage and then jumps to nearby enemies. This can occur once every $proccooldown sec.
 
-$?a1279075[While in combat you generate 1 Celestial Influence per second. At 100 Influence you may call upon an avatar of Xuen to assist you in combat.][]"
+$?a1279075[While in combat you generate 1 Celestial Influence per second. At 100 Influence you may call upon an avatar of Xuen to assist you in combat.][]
+
+Witnessing the conflux of August Celestials blesses you with a rare boon."
 1243316,,,"Your Strength, and Agility are increased by $s1% and your Stamina is increased by $s2%."
 1243374,,,Your gift of Celestial Influence has been halted.
 1243779,,,
@@ -106506,7 +106514,9 @@ Your Strength, Agility and Intellect are increased by $1244217s2%.
 
 Dodge, Parry, and Blocks increase your Stamina by $1244374s1% and your Strength, Agility, and Intellect by $1244374s2%. This effect lasts $1244374d and can stack $1244374U times.
 
-$?a1279074[While in combat you generate 3 Celestial Influence per second. At 100 Influence you may call upon an avatar of Niuzao to assist you in combat.][]"
+$?a1279074[While in combat you generate 3 Celestial Influence per second. At 100 Influence you may call upon an avatar of Niuzao to assist you in combat.][]
+
+Witnessing the conflux of August Celestials blesses you with a rare boon."
 1244204,,,"Your Intellect is increased by $1244218s1%.
 Your Stamina is increased by $1244218s2%.
 
@@ -106514,7 +106524,9 @@ Damaging spells and abilities inflict Jadefire, burning the target for $1244376o
 
 This can occur once every $proccooldown sec and can stack $1244376u times.
 
-$?a1279073[While in combat you generate 1 Celestial Influence per second. At 100 Influence you may call upon an avatar of Yu'lon to assist you in combat.][]"
+$?a1279073[While in combat you generate 1 Celestial Influence per second. At 100 Influence you may call upon an avatar of Yu'lon to assist you in combat.][]
+
+Witnessing the conflux of August Celestials blesses you with a rare boon."
 1244217,,,"Your Stamina is increased by $s1%.
 Your Strength, Agility, and Intellect is increased by $s2%."
 1244218,,,Your Intellect is increased by $s1% and Stamina by $s2%.
@@ -106607,9 +106619,21 @@ Only usable outside of Arenas and Battlegrounds.",Melee and ranged attack speed 
 1247596,,Summons and dismisses a rideable Celestial Riding Serpent.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
 1247597,,Summons and dismisses a rideable Celestial Riding Ox.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
 1247598,,Summons and dismisses a rideable Celestial Riding Tiger.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
+1247613,,"|cnNORMAL_FONT_COLOR:Transmogrify the appearance of your weapons and armor|r
+
+Lock Appearance:
+|cnNORMAL_FONT_COLOR:Prevent this appearance from being replaced by a Situation|r
+
+|cnGREEN_FONT_COLOR:<Right Click to toggle lock appearance>|r",
 1247617,,Restores $s1 mana per 5 sec.,Increased mana regeneration by $s1 mana per 5 sec.
 1247618,,Each spell cast within 20 seconds will grant a stacking bonus of $1247617s1 mana regen per 5 sec. Expires after 20 seconds.  Abilities with no mana cost will not trigger this trinket.,Chance to gain increased mana regeneration.
 1247619,,Increases dodge rating by $s1 for $d1.,Increases dodge rating by $s1.
+1247917,,"|cnNORMAL_FONT_COLOR:Resets all equipped gear to their original appearance|r
+
+|cnWHITE_FONT_COLOR:Lock Appearance:|r
+|cnNORMAL_FONT_COLOR:Prevent this appearance from being replaced by a Situation|r
+
+|cnGREEN_FONT_COLOR:<Right Click to toggle lock appearance>|r",
 1248255,,"Emanate waves of Amber energy, dealing $122349s1 Nature damage every $122349t1 sec to all enemies.",Dealing $122349s1 Nature damage every $122349t1 sec to all enemies.
 1248256,,$@spelldesc122349,
 1248663,,$@spelldesc20165,
@@ -106711,6 +106735,7 @@ Archincubi are dangerous, close-range spellcasters. They$?s103140[ turn invisibl
 1262352,Rank 7,Heals $s1 every $t1 seconds.,Heals $s1 every $t1 seconds.
 1262837,,Summons a Gilded Coil Spire that you and others can jump on.,
 1262850,,Summons a Azure Thunder Coil Pillar that you and others can jump on.,
+1263886,,,
 1264097,,Toss a huge bag of gold that will explode into smaller piles of gold that can be looted.,
 1264100,,Summons a magic fountain that accepts a gold offering.,
 1264117,,,
@@ -106763,6 +106788,7 @@ Rooted."
 1272534,,"Inflicts $1272534s1 Nature damage split among enemies within $1272534A1 yards. If the Bouncing Bolt does not impact with an enemy, an Unharnessed Power is formed, and the Bouncing Bolt will bounce again!",
 1272535,,"The Bouncing Bolt struck the ground, summoning an Unharnessed Power!",
 1272536,,,
+1272615,,,
 1272988,,Summons and dismisses Inarius' Charger.  This mount changes depending on your Riding skill and location.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
 1276520,,,
 1276522,,,
@@ -106896,6 +106922,8 @@ This is a flying mount.",$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increas
 1283162,,,
 1283163,,,
 1283288,,Inflicts $s1 Fire damage every $t1 sec.,Inflicts $s1 Fire damage every $t1 sec.
+1283375,,,
+1283376,,,
 1283471,,Summons and dismisses a rideable Golden Ashened Cataclysm. This is a very fast mount.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
 1283570,,,
 1283572,,,Direct attacks unleash an echo of Xuen's ferocity. A bolt of lightning is hurled at the enemy dealing $1244317s1 Nature damage and then jumps to nearby enemies. This can occur once every $proccooldown sec.
@@ -106918,3 +106946,69 @@ Grants the Mage a charge of Fingers of Frost for each target successfully hit by
 1291540,,,
 1291553,,,
 1292756,,,
+1297823,,Right click to summon and dismiss this companion.,
+1297999,,,
+1298008,,,
+1298026,,,
+1298029,,,
+1298031,,,
+1298032,,,
+1298050,,,
+1298051,,,
+1298056,,,
+1298094,,,
+1298108,,,
+1298110,,,
+1298113,,,
+1298119,,,
+1298121,,,
+1298271,,,
+1298279,,"Ambush the target, causing $m2% weapon damage plus $m1 to the target (${$m2*1.447}% plus ${$m1*1.447} if a dagger is equipped).  Must be stealthed and behind the target.  Awards $s3 combo $lpoint:points;$?s138106[ and causes you to appear behind the target][].",
+1298348,,,"Damage increased by $s1%.
+Health increased by $s2%.
+
+Boss attacks have a chance to call the might of the Warsong."
+1298398,,,
+1298405,,,
+1298411,,Place a banner that causes allies' attacks to be faster.,Rallying cry of the Warsong. Allies within 45 yards have their Haste increased by $1298412s1%.
+1298412,,,Successful attacks generate rage for General Nazgrim.
+1298458,,"Heals a friendly target for $144583s1% of their max health, chaining to nearby friendly targets.","Heals a friendly target for $144583s1% of their max health, chaining to nearby friendly targets."
+1298459,,"Inflicts $144584s1 Nature damage, chaining to nearby enemies.","Inflicts $s1 Nature damage, chaining to nearby enemies."
+1298461,,"Calls down a burst of Arcane energy, inflicting $143431s1 Arcane damage instantly and $143431s2 Arcane damage every $143431t2 sec. for $143431d to enemies within $143431A1 yards.",$s2 Arcane damage taken every $t2 sec.
+1298463,,"Shock a target, inflicting $143432s1 Arcane damage and increasing Arcane damage dealt by the caster by $143432s2% for $143432d. Stacks up to $143432u times.",Arcane damage dealt increased by $s2%.
+1298464,,"Whirl around in a storm of iron, inflicting $1298465s1 Physical damage to enemies within $1298465A1 yards every $t1 sec. for $d.",Inflicts $1298465s1 Physical damage to nearby enemies every $t1 sec.
+1298465,,$@spelldesc1298464,
+1298467,,Petrifies enemies with dread within 20 yards of the caster for $d.,Petrified with dread.
+1298468,,Inflicts Physical damage to an enemy every $t1 sec. for $d.,Suffering $s1 Physical damage every $t1 sec.
+1298469,,,
+1298471,,"Inflicts $s1 Fire damage, interrupting casts for $d.","Inflicts $s1 Fire damage, interrupting casts for $d."
+1298472,,Inflicts $s1 Fire damage.,Inflicts $s1 Fire damage.
+1298473,,,
+1298475,,,
+1298476,,,
+1298477,,,
+1298479,,"Throw a whirling blade, inflicting  $143873s1 Physical damage to enemies within $143873A1 yards every $143874t1 sec.",
+1298480,,"Throw a whirling blade, inflicting  $143873s1 Physical damage to enemies within $143873A1 yards every $143874t1 sec.",
+1298482,,"Throw a whirling blade, inflicting  $143873s1 Physical damage to enemies within $143873A1 yards every $143874t1 sec. and granting General Nazgrim $143877s1 rage for each enemy struck.",
+1298485,,,
+1298486,,$@spelldesc143639,
+1298487,,$@spelldesc143639,
+1298488,,$@spelldesc143639,
+1298491,,Summons a core of smouldering ash that will fall over $143986s1 sec.  Deals $143987s1 Fire damage to enemies within $143987A1 yards and $143987s2 Fire damage to all enemies on impact.,
+1298492,,Summons a core of smouldering ash that will fall over $143986s1 sec.  Deals $143987s1 Fire damage to enemies within $143987A1 yards and $143987s2 Fire damage to all enemies on impact.,
+1298510,,Summons and dismisses a rideable Magma Proto-drake.  This is a flying mount.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
+1298512,,Summons and dismisses a Stormcrow.  This mount changes depending on your Riding skill and location.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
+1298515,,Summons and dismisses a rideable Spectral Gryphon mount.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
+1298516,,Summons and dismisses a rideable Spectral Wind Rider mount.  This is a flying mount.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
+1298531,,,
+1298534,,,
+1298554,,,Witnessed the conflux of August Celestials. Your damage and healing are increased by $s2% and damage taken is reduced by $s2%.
+1298555,,,Witness to the arrival of an August Celestial.
+1298556,,,Witness to the arrival of an August Celestial.
+1298557,,,Witness to the arrival of an August Celestial.
+1298558,,,Witness to the arrival of an August Celestial.
+1302506,,Summons and dismisses a Frostwyrm.  This mount changes depending on your Riding skill and location.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
+1302947,,Summons and dismisses a rideable Shadeborn Drake.  This is a flying mount.,$?j1g[Increases ground speed by $j1g%. ][]$?j1f[Increases flight speed by $j1f%. ][]$?j1s[Increases swim speed by $j1s%. ][]
+1303270,,,
+1305836,,,
+1305847,,,
