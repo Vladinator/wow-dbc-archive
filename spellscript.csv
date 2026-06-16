@@ -1893,3 +1893,82 @@ function remix_legion_terror_from_below(elapsedMs, x, y, z, roll, pitch, yaw)
 
 end
 ",Cameron Rich,0,46
+125408,12.0.7 Power System - Talent Tree - Node 1 - Core Rune - Void Power - 01 Passive,"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@param x number
+---@param y number
+---@param z number
+---@param roll number
+---@param pitch number
+---@param yaw number
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function power_system_talent_tree_node_1_core_rune_void_power_01_passive(elapsedMs, x, y, z, roll, pitch, yaw)
+------------------------------------
+	-- Area Trigger Movement Script:  --
+	------------------------------------
+	-- Inputs: 
+	--    elapsedMs: the amount of milliseconds since the 'm_creationTime' of this AreaTrigger
+	--
+	-- Output:
+	--    x - x offset from the m_center of AreaTrigger
+	--    y - y offset from the m_center of AreaTrigger
+	--    z - z offset from the m_center of AreaTrigger
+	--    roll - rotation around z axis
+	--    pitch - rotation around y axis
+	--    yaw - rotation around x axis - also known as 'facing'
+	--
+	--    return values in this specific order.  If you don't want to change a specific value, return 0
+	--    example: if you want to adjust only 'pitch' you need to 'return 0,0,0,0,pitch'.
+	--
+	--
+
+	--prints(elapsedMs, x, y, z, roll, pitch, yaw)
+
+	-- Constants
+	local totalTime = 10000 -- in milliseconds
+	
+	local startingZOffset = .1
+	local totalMoveHeight = 1
+	local xOffset = 0
+	local yOffset = 0
+	local zOffset = 0
+	
+	
+	local time = elapsedMs % (totalTime)
+	local timePercent = time/totalTime * 6.283
+	
+	local zRotate = .001*time
+	local yRotate = .002*time
+	local startingZRotate = 0
+	
+	--zOffset = startingZOffset + totalMoveHeight + (totalMoveHeight * math.cos(timePercent))
+	
+	--print(time,"" "",timePercent,"" "",z, "" "", zOffset)
+	
+	return xOffset, yOffset, zOffset, zRotate, yRotate, 0
+end
+",Christopher Talbott,0,46
+125415,12.0.7 Power System - Talent Tree - Node 1 - Core Rune - Void Power - areatrigger,"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@param x number
+---@param y number
+---@param z number
+---@param roll number
+---@param pitch number
+---@param yaw number
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function areatrigger_power_system_talent_tree_node_1_core_rune_void_power_01_passive(elapsedMs, x, y, z, roll, pitch, yaw)
+	
+	print(""Test"")
+	print(x,y,z)
+	return x, y, z, roll, pitch, yaw
+end
+",Christopher Talbott,0,46

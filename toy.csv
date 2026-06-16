@@ -87,7 +87,7 @@ SourceText_lang,ID,ItemID,Flags,SourceTypeEnum
 |cFFFFD200Vendor: |rDame Evniki Kapsalis|n|cFFFFD200Zone: |rIcecrown,189,46843,0,2
 |cFFFFD200Drop: |rHuggalon the Heart Watcher|n|cFFFFD200Zone: |rTownlong Steppes,190,90067,0,0
 "|cFFFFD200Vendor: |rLenny ""Fingers"" McCoy|n|cFFFFD200Zone: |rStormwind City|n|cFFFFD200Cost: |r200|TINTERFACE\MONEYFRAME\UI-GOLDICON.BLP:0|t",191,97921,0,2
-|cFFFFD200Vendor: |rMidsummer Merchant|n|cFFFFD200Zone: |rCapital Cities|n|cFFFFD200Cost: |r350|TINTERFACE\ICONS\INV_SUMMERFEST_FIREFLOWER.BLP:0|t|n|n,192,34686,0,6
+|cFFFFD200Vendor: |rMidsummer Merchant|n|cFFFFD200Zone: |rCapital Cities|n|cFFFFD200Cost: |r300|TINTERFACE\ICONS\INV_SUMMERFEST_FIREFLOWER.BLP:0|t|n|n,192,34686,0,6
 |cFFFFD200Vendor: |rBrewfest Vendors|n|cFFFFD200Cost: |r100|TINTERFACE\ICONS\INV_MISC_COIN_01.BLP:0|t,193,33927,0,6
 |cFFFFD200Vendor: |rSan Redscale|n|cFFFFD200Zone: |rThe Jade Forest|n|cFFFFD200Faction: |rOrder of the Cloud Serpent - Revered|n|cFFFFD200Cost: |r1000|TINTERFACE\MONEYFRAME\UI-GOLDICON.BLP:0|t,194,89222,4,2
 |cFFFFD200World Event: |rFeast of Winter Veil,195,37710,0,6
@@ -214,8 +214,8 @@ It's a Mystery!,278,118191,2,0
 |cFFFFD200Garrison Building: |rInn,341,119039,0,0
 |cFFFFD200Garrison Building: |rInn,342,119083,0,0
 |cFFFFD200Garrison Building: |rInn,343,72232,2,-1
-|cFFFFD200Vendor: |rMidsummer Merchant|n|cFFFFD200Cost: |r500|TINTERFACE\ICONS\INV_SUMMERFEST_FIREFLOWER.BLP:0|t|n,344,116440,0,2
-|cFFFFD200Vendor: |rMidsummer Merchant|n|cFFFFD200Cost: |r350|TINTERFACE\ICONS\INV_SUMMERFEST_FIREFLOWER.BLP:0|t,345,116435,0,6
+|cFFFFD200Vendor: |rMidsummer Merchant|n|cFFFFD200Zone: |rCapital Cities|n|cFFFFD200Cost: |r300|TINTERFACE\ICONS\INV_SUMMERFEST_FIREFLOWER.BLP:0|t|n,344,116440,0,2
+|cFFFFD200Vendor: |rMidsummer Merchant|n|cFFFFD200Zone: |rCapital Cities|n|cFFFFD200Cost: |r300|TINTERFACE\ICONS\INV_SUMMERFEST_FIREFLOWER.BLP:0|t|n,345,116435,0,6
 |cFFFFD200World Event: |rBrewfest|n|cFFFFD200Cost: |r200|TINTERFACE\ICONS\INV_MISC_COIN_01.BLP:0|t,346,116757,0,6
 |cFFFFD200World Event: |rFeast of Winter Veil,347,116689,0,6
 |cFFFFD200World Event: |rFeast of Winter Veil,348,116690,0,6
@@ -427,7 +427,7 @@ It's a Mystery!,278,118191,2,0
 |cFFFFD200Drop:|r Endgineer Omegaplugg|n,582,141331,2,0
 |cFFFFD200Quest: |rWolf Pack Attack|n|cFFFFD200Zone: |rHighmountain,584,131933,0,1
 |cFFFFD200Drop: |rMajestic Elderhorn|n|cFFFFD200Zone: |rHighmountain,585,131900,0,0
-|cFFFFD200Vendor: |rMidsummer Merchant|n|cFFFFD200Cost: |r500|TINTERFACE\ICONS\INV_SUMMERFEST_FIREFLOWER.BLP:0|t,586,141649,0,6
+|cFFFFD200Vendor: |rMidsummer Merchant|n|cFFFFD200Zone: |rCapital Cities|n|cFFFFD200Cost: |r300|TINTERFACE\ICONS\INV_SUMMERFEST_FIREFLOWER.BLP:0|t|n,586,141649,0,6
 |cFFFFD200Quest: |rMglrgrs of Our Grmlgrlr|n|cFFFFD200Zone: |rSuramar,587,141879,0,1
 |cFFFFD200Drop: |rPinchshank|n|cFFFFD200Zone: |rSuramar,588,140314,0,0
 |cFFFFD200Drop: |rDoctor Weavil|n|cFFFFD200Zone: |rDustwallow Marsh,589,142265,0,0
@@ -702,8 +702,8 @@ It's a Mystery!,278,118191,2,0
 ,1105,184487,0,-1
 ,1106,184489,0,-1
 ,1107,184490,0,-1
-,1108,184410,4,-1
-,1109,184404,0,-1
+|cFFFFD200Vendor: |rAdjutant Mikaros|n|cFFFFD200Zone: |rOribos|n|cFFFFD200Faction: |rThe Ascended - Revered|n|cFFFFD200Cost: |r1765|TINTERFACE\MONEYFRAME\UI-GOLDICON.BLP:0|t|n|n|cFFFFD200Vendor: |rAdjutant Nikos|n|cFFFFD200Zone: |rBastion|n|cFFFFD200Faction: |rThe Ascended - Revered|n|cFFFFD200Cost: |r1765|TINTERFACE\MONEYFRAME\UI-GOLDICON.BLP:0|t|n|n,1108,184410,4,2
+|cFFFFD200Drop: |rEnforcer Aegeon|n|cFFFFD200Zone: |rBastion|n|n,1109,184404,0,0
 ,1110,184415,0,-1
 ,1111,184418,0,-1
 ,1112,184413,0,-1
@@ -711,7 +711,7 @@ It's a Mystery!,278,118191,2,0
 |cFFFFD200Drop: |rDoomwalker|n|cFFFFD200Zone: |rTanaris|n|cFFFFD200Event: |rWoW 17th Anniversary,1114,186501,2,-1
 |cFFFFD200Profession: |rLeatherworking(50),1115,186686,0,3
 |cFFFFD200Profession: |rLeatherworking(75),1116,186702,0,3
-,1117,186973,0,-1
+|cFFFFD200Profession:|r Shadowlands Enchanting,1117,186973,0,3
 ,1118,186985,0,-1
 "|cFFFFD200Vendor: |rLayers 9-12 Brokers|n|cFFFFD200Zone: |rTorghast, Tower of the Damned|n|cFFFFD200Cost: |r300|Hcurrency:1728|h|TInterface\ICONS\INV_Phantasma.BLP:0|t|h",1119,186974,0,-1
 "|cFFFFD200Drop: |rLayers 9-12 Bosses|n|cFFFFD200Zone: |rTorghast, Tower of the Damned",1120,187075,0,-1
@@ -903,7 +903,7 @@ Niffen Renown,1316,205255,4,-1
 |cFFFFD200Achievement:|r Cavern Clawbbering|n|cFFFFD200Category:|r Dragonflight,1325,205904,0,-1
 |cFFFFD200Vendor: |rHarlowe Marl|n|cFFFFD200Zone: |rZaralek Cavern|n|cFFFFD200Cost: |r200|Hcurrency:2003|h|TInterface\ICONS\INV_Faction_WarResources.BLP:0|t|h,1326,205963,0,2
 |cFFFFD200Drop: |rDisciples of Fyrakk,1327,206043,0,-1
-|cFFFFD200Vendor: |rMidsummer Merchant|n|cFFFFD200Zone: |rTirisfal Glades|n|cFFFFD200Zone: |rOrgrimmar|n|cFFFFD200Zone: |rThunder Bluff|n|cFFFFD200Zone: |rSilvermoon City (Burning Crusade)|n|cFFFFD200Cost: |r500|Hitem:23247|h|TInterface\ICONS\INV_SummerFest_FireFlower.blp:0|t|h|n|n|cFFFFD200Vendor: |rMidsummer Supplier|n|cFFFFD200Zone: |rDun Morogh|n|cFFFFD200Zone: |rTeldrassil|n|cFFFFD200Zone: |rStormwind City|n|cFFFFD200Zone: |rThe Exodar|n|cFFFFD200Cost: |r500|Hitem:23247|h|TInterface\ICONS\INV_SummerFest_FireFlower.blp:0|t|h,1328,206038,4,2
+|cFFFFD200Vendor: |rMidsummer Merchant|n|cFFFFD200Zone: |rCapital Cities|n|cFFFFD200Cost: |r300|TINTERFACE\ICONS\INV_SUMMERFEST_FIREFLOWER.BLP:0|t|n|n,1328,206038,4,-1
 |cFFFFD200Vendor: |rGaal|n|cFFFFD200Zone: |rKrokuun|n|cFFFFD200Cost: |r90|Hitem:151567|h|TInterface\ICONS\INV_Tailoring_LightweaveCloth.BLP:0|t|h 90|Hitem:151564|h|TInterface\ICONS\INV_Misc_Starmetal.BLP:0|t|h 900|Hcurrency:1508|h|TInterface\ICONS\Oshugun_CrystalFragments.BLP:0|t|h,1329,206195,2,2
 |cFFFFD200Achievement: |rLegend: Dragonflight Season 2|n|cFFFFD200Category: |rArena,1330,206267,2,5
 |cFFFFD200Event: |rA Greedy Emissary,1331,206008,2,6
@@ -1116,6 +1116,9 @@ Where do you think potatoad eggs come from?|n,1614,251903,4,10
 |cFFFFD200Vendor: |rCollector Ta'steld|n|cFFFFD200Zone: |rOribos|n|cFFFFD200Cost: |r750|Hcurrency:1166|h|TInterface\ICONS\PVECurrency-Justice.blp:0|t|h,1628,256893,0,2
 |cFFFFD200Treasure: |rFailed Shroom Jumper's Satchel|n|cFFFFD200Zone: |rHarandar,1629,258963,0,0
 |cFFFFD200Vendor: |rCaeris Fairdawn|n|cFFFFD200Zone: |rEversong Woods|n|cFFFFD200Cost: |r4000|Hcurrency:3316|h|TInterface\ICONS\INV_112_RaidTrinkets_VoidPrism.BLP:0|t|h,1632,259240,0,2
+|cFFFFD200Vendor: |rXydan|n|cFFFFD200Zone: |rValdrakken|n|cFFFFD200Cost: |r1000|Hcurrency:1166|h|TInterface\ICONS\PVECurrency-Justice.blp:0|t|h,1633,259335,0,2
+|cFFFFD200Vendor: |rXydan|n|cFFFFD200Zone: |rValdrakken|n|cFFFFD200Cost: |r750|Hcurrency:1166|h|TInterface\ICONS\PVECurrency-Justice.blp:0|t|h,1634,259899,0,2
+|cFFFFD200Vendor: |rXydan|n|cFFFFD200Zone: |rValdrakken|n|cFFFFD200Cost: |r500|Hcurrency:1166|h|TInterface\ICONS\PVECurrency-Justice.blp:0|t|h,1635,260170,0,2
 |cFFFFD200In-Game Shop|r|n,1636,258840,2,9
 "|cFFFFD200Treasure: |rGift of the Cycle
 |cFFFFD200Zone: |rHarandar",1637,259084,0,0
@@ -1126,6 +1129,9 @@ Where do you think potatoad eggs come from?|n,1614,251903,4,10
 ,1645,263871,0,-1
 |cFFFFD200Vendor: |rConstruct V'anore|n|cFFFFD200Zone: |rSilvermoon City|n|cFFFFD200Cost: |r1000|Hcurrency:3392|h|TInterface\ICONS\INV_10_ElementalCombinedFoozles_Blood.BLP:0|t|h,1646,263933,0,2
 |cFFFFD200Achievement: |rIllicit Rain: Five Stars|n|cFFFFD200Category: |rDungeons,1647,263975,2,5
+|cFFFFD200Drop:|r Sporefall|n,1648,264313,0,0
+|cFFFFD200Drop:|r Sporefall|n,1649,264367,0,0
+|cFFFFD200Drop:|r Sporefall|n,1650,264368,0,0
 |cFFFFD200Quest: |rNulling Nullaeus|n|cFFFFD200Zone: |rSilvermoon City,1651,264413,4,1
 |cFFFFD200Vendor: |rTelemancer Astrandis|n|cFFFFD200Zone: |rSilvermoon City|n|cFFFFD200Cost: |r10|Hcurrency:3316|h|TInterface\ICONS\INV_112_RaidTrinkets_VoidPrism.BLP:0|t|h,1652,264414,4,2
 |cFFFFD200Vendor: |rThraxadar|n|cFFFFD200Zone: |rMasters' Perch|n|cFFFFD200Faction: |rSlayer's Duellum - Honored|n|cFFFFD200Cost: |r4000|Hcurrency:3316|h|TInterface\ICONS\INV_112_RaidTrinkets_VoidPrism.BLP:0|t|h,1653,264517,4,2
@@ -1149,3 +1155,5 @@ Where do you think potatoad eggs come from?|n,1614,251903,4,10
 |cFFFFD200Profession: |rKhaz Algar Engineering,1713,248485,2,-1
 |cFFFFD200World Event: |rChildren's Week|n|cFFFFD200Vendor: |rLeial Knitterton / Brundia Braidhammer|n|cFFFFD200Zone: |rOrgrimmar / Stormwind City|n|cFFFFD200Cost: |r1|TINTERFACE\ICONS\INV_Misc_Primitive_toy18.BLP:0|t,1715,272287,0,2
 |cFFFFD200WoW Esports:|r Midnight Season 1,1717,272339,2,7
+|cFFFFD200Vendor:|n|cFFFFD200Zone: |n|cFFFFD200Cost: ,1736,276370,2,2
+|cFFFFD200Vendor:|n|cFFFFD200Zone: |n|cFFFFD200Cost: ,1737,276371,2,1

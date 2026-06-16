@@ -256,7 +256,7 @@ In Heroic Difficulty the crack erupts after 3 seconds and the lava pool lasts 30
 2402,Sand Blast,"Slabhide breathes out a blast of sand, inflicting $80807s1 Nature damage to all enemies within $80807a1 yards in a forward facing 60 degree cone.",111,2,0,0,2403,2,0,0,0,136018,0,0,-1
 2403,Stalactite,"Periodically during the encounter, Slabhide will run to the center of the cavern and lift off into the air. While hovering above the ground, a large number of stalactites then rain down from the ceiling in random locations around the cavern. If a player is underneath a stalactite when it lands, they take $80647s2 Physical damage and are knocked back.
 
-The stalactites last $80647d., and also block movement and line of sight for spells.",111,3,0,0,2404,2,0,0,0,134461,0,0,-1
+The stalactites last $80647d, and also block movement and line of sight for spells.",111,3,0,0,2404,2,0,0,0,134461,0,0,-1
 2404,Crystal Storm,"After Slabhide lifts off and finishes creating stalactites, he then lands. Before the stalactites disappear, he begins to channel Crystal Storm for $92265d. Every $92301t1 second Slabhide inflicts $92300s1 Nature damage to all enemies.
 
 Slabhide must have line of sight to an enemy to deal damage with Crystal Storm.",111,4,0,0,0,2,0,0,0,132774,2,40,14
@@ -19924,11 +19924,11 @@ On Mythic difficulty, this ability inflicts damage to all players.$]",2500,8,0,2
 25327,Section 13,,2473,14,25302,0,0,2,0,0,381770,0,0,64,-1
 25328,Section 8,,2471,8,24732,0,25329,2,0,0,381419,0,0,17,-1
 25329,Section 9,,2471,9,24732,0,25330,2,0,0,377827,0,0,0,-1
-25330,Section 10,,2471,10,24732,0,0,2,0,0,377807,0,2,0,2
+25330,Section 10,,2471,10,24732,0,0,2,0,0,377807,0,2,8,2
 25331,Section 11,,2471,12,24733,0,29865,2,0,0,381379,0,2,160,2
 25332,Section 12,,2471,14,24733,0,29866,2,0,0,378020,0,2,8196,2
 25333,Section 13,,2471,16,24733,0,0,2,0,0,378229,0,2,4100,0
-25334,Section 14,,2471,18,24734,25335,25336,2,0,0,381470,0,2,0,2
+25334,Section 14,,2471,18,24734,25335,25336,2,0,0,381470,0,2,8,2
 25335,Section 15,,2471,19,25334,0,0,2,0,0,381466,0,0,0,-1
 25336,Section 16,,2471,20,24734,0,25337,2,0,0,377950,0,0,64,-1
 25337,Section 17,,2471,21,24734,0,25338,2,0,0,377965,0,0,32,-1
@@ -25218,10 +25218,36 @@ $bullet;Adarus will |cFF2959D3|Hspell:1227355|h[Voidstep]|h|r to new locations, 
 
 In Mythic difficulty, |cFF2959D3|Hspell:1221490|h[Fel-Singed]|h|r also increases the damage taken from |cFF2959D3|Hspell:1225127|h[Felblade]|h|r.$]",2688,24,31792,31794,33418,2,0,0,1218103,0,2,4097,0
 31794,Section 9,,2688,25,31793,0,32361,2,0,0,1221490,0,2,4096,0
+31795,Overview,"Rotmire catalyzes the growth of new fungal minions with |cFF2959D3|Hspell:1221622|h[Awaken Fungi]|h|r. 
+
+Upon reaching 100 energy, Rotmire creates a |cFF2959D3|Hspell:1221637|h[Fungal Bloom]|h|r that grows |cFF2959D3|Hspell:1221965|h[Bursting Shrooms]|h|r from minions' corpses.",2711,1,0,31796,31838,3,0,0,0,0,0,0,-1
+31796,Tanks,"$bullet; Rotmire inflicts heavy damage to his current target with |cFF2959D3|Hspell:1221781|h[Putrid Fist]|h|r.
+$bullet; |cFF2959D3|Hspell:1221637|h[Fungal Bloom]|h|r grows deadly |cFF2959D3|Hspell:1221965|h[Bursting Shrooms]|h|r from minions' corpses.",2711,2,31795,0,31797,3,0,0,0,0,0,1,-1
+31797,Damage Dealers,"$bullet; |cFF2959D3|Hspell:1221622|h[Awaken Fungi]|h|r grows fungal minions from the earth.
+$bullet; |cFF2959D3|Hspell:1221637|h[Fungal Bloom]|h|r grows deadly |cFF2959D3|Hspell:1221965|h[Bursting Shrooms]|h|r from minions' corpses.",2711,3,31795,0,31798,3,0,0,0,0,0,2,-1
+31798,Healers,"$bullet; Rotmire inflicts massive damage to all players with |cFF2959D3|Hspell:1221637|h[Fungal Bloom]|h|r.
+$bullet; |cFF2959D3|Hspell:1222088|h[Festering Vines]|h|r inflict heavy damage to several players.
+$bullet; The |cFF2959D3|Hspell:1222176|h[Rotting Pustules]|h|r leftover from |cFF2959D3|Hspell:1221787|h[Bursting Pustules]|h|r inflict steadily increasing damage over time.",2711,4,31795,0,0,3,0,0,0,0,0,4,-1
+31799,Section 5,,2711,20,0,0,0,2,0,0,1221781,0,0,1,-1
+31812,Section 5,,2711,6,31838,0,0,2,0,0,1222495,0,1,16,-1
+31814,Section 5,,2711,19,31848,0,0,2,0,0,1222176,0,1,4,-1
 31822,Section 27,,2640,14,31188,31823,0,2,0,0,1214039,0,2,0,0
 31823,Section 22,,2640,15,31822,0,0,2,0,0,465446,0,2,0,0
+31838,Section 5,,2711,5,0,31812,31913,2,0,0,1222684,0,2,4096,0
+31848,Section 5,,2711,18,0,31814,31799,2,0,0,1221787,0,0,4,-1
+31913,Section 5,,2711,7,0,31914,31923,2,0,0,1221622,0,1,32,-1
+31914,Shroomling,The fungarian pursues its target relentlessly.,2711,8,31913,0,31919,1,115227,0,0,0,0,0,-1
+31916,Sporecap,,2711,10,31913,31917,0,1,131466,0,0,0,3,8,0
+31917,Section 9,,2711,11,31916,0,31918,2,0,0,1221714,0,0,64,-1
+31918,Section 9,,2711,12,31916,0,0,2,0,0,1221717,0,0,0,-1
+31919,Fungling,The fungarian pursues its target relentlessly.,2711,9,31913,0,31916,1,139448,0,0,0,2,4096,0
+31923,Section 5,,2711,13,0,31924,31939,2,0,0,1221637,0,0,0,-1
+31924,Section 5,,2711,14,31923,0,31925,2,0,0,1221965,0,0,2,-1
+31925,Section 5,,2711,15,31923,0,0,2,0,0,1221644,0,0,16,-1
 31927,Section 10,,2688,29,31791,32205,31928,2,0,0,1241833,0,0,33,-1
 31928,Section 11,,2688,32,31791,33095,32959,2,0,0,1242259,0,0,0,-1
+31939,Section 5,,2711,16,0,31940,31848,2,0,0,1222088,0,0,0,-1
+31940,Section 5,,2711,17,31939,0,0,2,0,0,1222129,0,1,0,-1
 31955,Tanks,"$bullet;|cFF2959D3|Hspell:466190|h[Thunder Punch]|h|r inflicts massive damage and knocks the target back.
 $bullet;|cFF2959D3|Hspell:465279|h[Dam Water]|h|r electrifies upon contact with Geezle's lightning abilities.
 $bullet;|cFF2959D3|Hspell:468846|h[Leaping Sparks]|h|r pursue players and stun them upon contact.",2651,2,30480,0,31956,3,0,0,0,0,0,1,-1
@@ -26682,7 +26708,7 @@ In Heroic and Mythic difficulty, Void Expulsion also targets additional players.
 34085,Section 83,,2738,79,34077,0,34086,2,0,0,1233865,0,0,132,-1
 34086,Undying Sentinels,"Undying Sentinels are inexorably linked to their void portals, teleporting back if they are more than $1243863s1 yards away from them.",2738,80,34077,34089,34087,0,0,0,0,0,0,0,-1
 34087,Void Droplet,,2738,93,34077,34088,0,1,94300,0,0,0,0,0,-1
-34088,Section 86,,2738,94,34087,0,0,2,0,0,1261531,0,0,0,-1
+34088,Section 86,,2738,94,34087,0,0,2,0,0,1261531,0,0,128,-1
 34089,Morium,,2738,81,34086,34090,34093,1,92689,0,0,0,0,0,-1
 34090,Section 90,,2738,82,34089,0,34091,2,0,0,1233778,0,0,0,-1
 34091,Section 93,,2738,83,34089,0,34092,2,0,0,1233787,0,0,1,-1

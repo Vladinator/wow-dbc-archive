@@ -999,6 +999,12 @@ $damage=${0.85*($AP*0.2)*(1+$@versadmg)*$<mastery>}"
 $colossusMult=$?s429644[${1.20}][${1.00}]
 $absorb=${($AP*16)*(1+$@versadmg)*$<baselineMult>*$<colossusMult>}"
 963,$ffe=${$431176s2}
+971,"$basePoints=$?a1288183[${((1/100*$1288183w1))}][${((1/100*$1288183s1))}]
+$voidDmg=${$<basePoints>*$1286716s2}
+$voidHealing=${$<basePoints>*$1286721s2}
+$fireDmg=${$<basePoints>*$1286970s2}
+$fireHealing=${$<basePoints>*$1263002s2}
+$statsvalue=$?a1288183[${((1/100*$1288183w3))}][${((1/100*$1288183s3))}]"
 976,$ti
 977,"$critMult=$?s370845[${2.3}][${2}]
 $dmg=${$1291984s1*$<critMult>}"
