@@ -29756,3 +29756,134 @@ scale = 0.8",0,0
 --transFront=((startDistance-distanceToFirePos)*(math.log(progress)+3)/4)
 --transFront = 0-distanceToFirePos+(math.pow(progress,3)*startDistance)
 transFront=((startDistance-distanceToFirePos)*(math.log(progress)+3)/3.5)",0,1
+5076,12.0.7 Showdowns - Void Forces - Domanaar - Overseer T3 - Helix - SAHM,"local function remap(value, min1, max1, min2, max2)
+	if ((value == nil) or (min1 == nil) or (max1 == nil) or (min2 == nil) or (max2 == nil)) then return nil; end
+	return min2 + (value - min1) * (max2 - min2) / (max1 - min1)
+end
+local ActualProgress=progress
+if ActualProgress <=.5 then
+	progress=remap(progress,0,.5,0,1)
+	transRight = (startDistance*.25)*(1-(progress))
+	transUp = (startDistance*.05)*(1-(progress))
+	transFront = distanceToFirePos+progress*totalDistance
+elseif ActualProgress >.4 and ActualProgress <=.6 and false then
+	transRight = (.5*(startDistance*9))*(startDistance*.25)*(.5)
+	transUp = (.5*(startDistance*13.5))*(startDistance*.05)*(.5)
+	transFront = 0-distanceToFirePos+.5*totalDistance
+else	
+	progress=remap(progress,.5,1,1,0)
+	transRight = -((1-(progress))*(startDistance*9))*(startDistance*.25)*progress
+	transUp = ((1-(progress))*(startDistance*13.5))*(startDistance*.05)*progress
+	transFront = 0-distanceToFirePos+totalDistance-(remap(progress,1,0,0,.5))*totalDistance*2
+end",0,1
+5079,"Falls Straight Down (Actually does!), Pitch=-90, Mag=15","local magnitude = 15
+
+transUp = magnitude * ( 1 - progress )
+transFront=distanceToImpactPos
+
+modelPitch = -90",0,1
+5092,12.0.7 Showdowns - Val - Rival - Domanaar Ranged T3 - Bomb - Missile - SAHM,"local factor = 3
+local height = startDistance / 5
+
+transFront = math.pow(progress,factor) * distanceToFirePos
+transFront = transFront - distanceToFirePos
+transUp = 4 * progress * (1-progress) * height
+
+scale = 1 + (2 * progress)
+--[[
+local factor = 3
+local height = -5
+
+transFront = math.pow(progress,factor) * distanceToFirePos
+transFront = transFront - distanceToFirePos
+transUp = 4 * progress * (1-progress) * height
+--]]
+--[[
+	local ArcHeight=2
+	transFront=((startDistance-distanceToFirePos)*(math.log(progress)+3)/4)
+	transUp=sin(progress*180)*ArcHeight
+	--]]
+--[[
+local function parabola(a,b,m) return (4*m*((1-progress)*a)*((progress)*b)) end
+
+local height = 1
+local variance = 2
+height = height + (rand1 * variance)
+
+transUp = parabola(1,5,height)
+
+local factor = 2
+transFront = math.pow(progress,factor) * distanceToFirePos
+transFront = transFront - distanceToFirePos
+--]]
+--[[
+local function HorizontalSCurve(progress, exponent)
+	local returnValue = 0
+    if (exponent >= 2 or progress >= .5) then
+       returnValue = math.pow((2 * progress - 1), exponent)
+   	    returnValue = (returnValue + 1)/2
+        if (exponent%2 == 0) then
+            if progress < .5 then
+               returnValue = 1 - returnValue 
+		    end
+        end
+    elseif (exponent < 2) then
+        if progress < .5 then
+          returnValue = math.pow((-2 * progress + 1), exponent)
+          returnValue = 1 - ((returnValue + 1)/2)
+        end
+	end
+
+	return returnValue
+end
+
+local parabolicFactor = 4*distanceToFirePos
+frontP = HorizontalSCurve(progress,1.2)
+upP    = HorizontalSCurve(progress,1.5)
+transFront = (frontP * distanceToFirePos) - distanceToFirePos
+transUp    = (-1 *(parabolicFactor * (upP * upP))) + (upP * parabolicFactor)
+
+--]]",0,1
+5098,"Parabola (Corkscrew Up Shorter, Roller Coaster Down)","local function remap(value, min1, max1, min2, max2)
+	if ((value == nil) or (min1 == nil) or (max1 == nil) or (min2 == nil) or (max2 == nil)) then return nil; end
+	return min2 + (value - min1) * (max2 - min2) / (max1 - min1)
+end
+
+local MaxMagnitude=remap(rand1,0,1,5,10)
+local TippingPoint_Up=0.75
+local TippingPoint_Down=0.5
+local CorkscrewRadius=3
+local StartingRotation=remap(rand2,0,1,0,359)
+transAngle = 0
+if progress<TippingPoint_Up then
+	transUp=sin(90*remap(progress,0,TippingPoint_Up,0,1))*remap(progress,0,TippingPoint_Up,0,MaxMagnitude)
+	transRight=cos(remap(progress,0,TippingPoint_Up,StartingRotation,StartingRotation+1080))*sin(remap(progress,0,TippingPoint_Up,0,180))*CorkscrewRadius
+	transFront=sin(remap(progress,0,TippingPoint_Up,StartingRotation,StartingRotation+1080))*sin(remap(progress,0,TippingPoint_Up,0,180))*CorkscrewRadius
+else
+	transUp=MaxMagnitude*remap(progress,TippingPoint_Up,1,1,0)
+	transFront=remap(progress,TippingPoint_Up,1,0,startDistance)
+end
+
+
+
+transFront=transFront-distanceToFirePos
+
+
+
+
+
+",0,1
+5102,"Arcane Missiles (New, 1 Missiles)","local factor = 1.25
+local maxWidth = 1
+
+local function parabola(m) m=m or 1 return (m*4*progress*(1-progress)) end
+
+local percent = (missileIndex / missileCount)
+local totalAngle = 180
+transAngle = (percent * totalAngle) + ((totalAngle/2)/missileCount)
+transAngle = transAngle - 90
+transMag = parabola(maxWidth)
+transFront = math.pow(progress,factor) * distanceToFirePos
+transFront = transFront - distanceToFirePos
+
+--scale = math.max(math.pow(progress,factor*2),progress)",0,1

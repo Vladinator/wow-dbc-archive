@@ -812,7 +812,7 @@ ID,BaseTag,TagText_lang,Flags
 10556,TALENTS_BUTTON,Specialization & Talents,1
 10557,EMOTE27_CMD1,/unused,1
 10558,ERR_CANT_WRAP_WRAPPED,Wrapped items can't be wrapped.,1
-10559,NONEQUIPSLOT,Created Items,1
+10559,NONEQUIPSLOT,Other,1
 10563,UNIT_LEVEL_DEAD_TEMPLATE,Level %d Corpse,1
 10567,UKNOWNBEING,Unknown Being,1
 10574,GUILD_ONLINE_LABEL,Online,5
@@ -15045,7 +15045,7 @@ You can find trainers for them in some settlements and cities.",1
 34498,REALMLIST_NOT_CONNECTED_TO_BATTLENET,You have been disconnected from Blizzard services. You need to log in again to change realms.,2
 34499,REALMLIST_NUMCHARACTERS_TOOLTIP,"All characters are displayed in your\ncharacter list, regardless of their realm.",2
 34500,REALMLIST_POPULATION_TOOLTIP,"""New Players"" realms will give you the best play experience.\n""Full"" realms are the most crowded, and you will often\nexperience a wait time to play.",2
-34501,REALMLIST_REALMNAME_TOOLTIP,The realm you choose affects some features\nlike Professions work order.,2
+34501,REALMLIST_REALMNAME_TOOLTIP,The realm you choose affects some features\nlike Professions work orders.,2
 34502,REALMLIST_TYPE_TOOLTIP,Normal = No special rules on this realm.\nRP = Roleplaying realm.,2
 34503,REALM_CHARACTERS,Characters,6
 34504,REALM_DESCRIPTION,Choosing a Realm,2
@@ -16136,8 +16136,8 @@ You can find trainers for them in some settlements and cities.",1
 35710,HOLIDAY_TRANSMOG_THEME_09,Theme: Profession Expression,1
 35711,HOLIDAY_TRANSMOG_THEME_10,Theme: Supernatural Flair,1
 35712,HOLIDAY_TRANSMOG_THEME_11,Theme: Make Me Laugh,1
-35713,HOLIDAY_TRANSMOG_THEME_12,Theme: Outfits of the Underworld,1
-35714,HOLIDAY_TRANSMOG_THEME_13,Theme: Light and Shadow,1
+35713,HOLIDAY_TRANSMOG_THEME_12,Theme: Pride of Silvermoon,1
+35714,HOLIDAY_TRANSMOG_THEME_13,Theme: Homeward Bound,1
 35715,HOLIDAY_TRANSMOG_THEME_14,Theme: Mechanical Menace,1
 35716,HOLIDAY_TRANSMOG_THEME_15,Theme: Jungle Jam,1
 35717,HOLIDAY_TRANSMOG_THEME_16,Theme: Freestyle!,1
@@ -19177,10 +19177,10 @@ You can find trainers for them in some settlements and cities.",1
 42986,GARDENWEALD_STATUS_DORMANT,The conservatory is dormant.,1
 42987,COVENANT_RENOWN_TOAST_REWARD_COMBINER,%s and %s,1
 42988,WEEKLY_REWARDS_COMPLETE_PVP_MAX,Reach the %1$s rating (%2$d).,1
-42989,MAW_BUFF_QUALITY_STRING_COMMON,|cffffffffCommon|r,1
-42990,MAW_BUFF_QUALITY_STRING_UNCOMMON,|cff1eff00Uncommon|r,1
-42991,MAW_BUFF_QUALITY_STRING_RARE,|cff0070ddRare|r,1
-42992,MAW_BUFF_QUALITY_STRING_EPIC,|cffa335eeEpic|r,1
+42989,MAW_BUFF_QUALITY_STRING_COMMON,Common,1
+42990,MAW_BUFF_QUALITY_STRING_UNCOMMON,Uncommon,1
+42991,MAW_BUFF_QUALITY_STRING_RARE,Rare,1
+42992,MAW_BUFF_QUALITY_STRING_EPIC,Epic,1
 42993,SPELL_FAILED_CUSTOM_ERROR_511,Your mount ignores your call within The Maw.,1
 42994,COVENANT_SANCTUM_DEPOSIT_TOOLTIP,Deposits all stored Anima from your bags directly into the Reservoir.,1
 42995,COVENANT_SANCTUM_DEPOSIT_ANIMA,Deposit,1
@@ -19965,10 +19965,10 @@ You can find trainers for them in some settlements and cities.",1
 44423,PCT_FLOW_FINISH_LABEL,Accept,2
 44424,PCT_FLOW_SLECT_CHARACTER_ACTIVE,Choose your character,2
 44425,PCT_FLOW_SLECT_CHARACTER_RESULTS,Character,2
-44426,PCT_FLOW_SLECT_DESTINATION_ACTIVE,Transfer Destination,2
+44426,PCT_FLOW_SLECT_DESTINATION_ACTIVE,Transfer Destination|n|cFF7F7F7FChoose at least one option|r,2
 44427,PCT_FLOW_SLECT_DESTINATION_RESULTS,Transfer Destination,2
-44428,PCT_FLOW_DESTINATION_REALM_LABEL,Destination Realm |cFF7F7F7F(optional)|r,2
-44429,PCT_FLOW_DESTINATION_ACCOUNT_LABEL_DROPDOWN,Destination Account |cFF7F7F7F(optional)|r,2
+44428,PCT_FLOW_DESTINATION_REALM_LABEL,Destination Realm,2
+44429,PCT_FLOW_DESTINATION_ACCOUNT_LABEL_DROPDOWN,Destination Account,2
 44430,PCT_FLOW_DESTINATION_ACCOUNT_LABEL_EDIT,Destination Blizzard Account,2
 44431,CLICK_BIND_MODE,Click Casting,1
 44432,THRALL_NAME,Thrall,1
@@ -21425,7 +21425,7 @@ to complete activities and earn rewards at the Trading Post",1
 50197,HUD_EDIT_MODE_DURABILITY_FRAME_LABEL,Equipment Durability,1
 50198,HUD_EDIT_MODE_SETTING_DURABILITY_FRAME_SIZE,Size,1
 50199,MONTHLY_ACTIVITIES_PROGRESSED,Traveler's Log Progress,1
-50200,MONTHLY_ACTIVITIES_UNAVAILABLE_TOOLTIP,Visit the Trading Post in %s or Dornogal to access the Traveler's Log.,1
+50200,MONTHLY_ACTIVITIES_UNAVAILABLE_TOOLTIP,"Visit the Trading Post in %s, Silvermoon or Dornogal to access the Traveler's Log.",1
 50201,BATTLEGROUND_MATCHMAKING_VALUE,Starting|nMMV,1
 50202,MONTHLY_ACTIVITIES_HELP_1,"Complete your Traveler's Activities each month to earn tender and a special reward in your Collector's Cache.
 
@@ -22827,7 +22827,7 @@ And spread his flame to all Azeroth.",1
 52604,CHAR_CREATE_NEW_PLAYER_RESTRICTED_RACE,Reach Level 10 to unlock this race,2
 52605,PLAYER_DIFFICULTY_STORY_RAID,Raid Story,1
 52606,PLUNDERSTORM_INTERACT_UPGRADE_REMINDER_TEXT,Upgrade,1
-52607,GREAT_VAULT_REWARDS_RAID_INCOMPLETE,Defeat %d Midnight |4Season 1 Boss:Season 1 Bosses; this week to unlock this reward.|n|nThe item level of this reward will be based on the difficulty of the raid.,1
+52607,GREAT_VAULT_REWARDS_RAID_INCOMPLETE,Defeat %d |4Boss:Bosses; this week to unlock this reward.|n|nThe item level of this reward will be based on the difficulty of the raid.,1
 52608,GREAT_VAULT_REWARDS_RAID_INPROGRESS,Defeat %d more |4Boss:Bosses; this week to unlock this reward.|n|nThe item level of this reward will be based on the difficulty of the raid.,1
 52609,CURRENCY_FILTER_TYPE_CHARACTER,%s Only,1
 52610,CURRENCY_FILTER_TYPE_TRANSFERABLE,All Warband Transferable,1
@@ -23298,7 +23298,7 @@ And spread his flame to all Azeroth.",1
 53526,HOUSING_EXPERT_DECOR_SUBMODE_ROTATE_FMT,Rotate |cnNORMAL_FONT_COLOR:(%s)|r,1
 53527,HOUSING_EXPERT_DECOR_SUBMODE_SCALE_FMT,Scale |cnNORMAL_FONT_COLOR:(%s)|r,1
 53532,ERR_MARKSMANSHIP_NOPET_EAGLE,Your Marksmanship Eagle prevents this.,5
-53537,ERR_PLACED_DECOR_LIMIT_REACHED,You have reached the maximum placed Decor. Delete Decor to add more.,1
+53537,ERR_PLACED_DECOR_LIMIT_REACHED,You have reached the maximum placed Decor limit. Remove some Decor to add more.,1
 53541,HOUSING_BASIC_DECOR_NUDGE_INSTRUCTION_ACTIVATE,Enable Clipping,1
 53542,HOUSING_BASIC_DECOR_NUDGE_INSTRUCTION_DEACTIVATE,Disable Clipping,1
 53544,BINDING_NAME_HOUSING_TOGGLEDECORNUDGEMODE,Toggle Decor Clipping,1
@@ -23663,10 +23663,6 @@ And spread his flame to all Azeroth.",1
 54782,VIDEO_OPTIONS_SFX_DENSITY_REDUCED_TOOLTIP,Reduces the non-essential spells shown.,3
 54783,VIDEO_OPTIONS_SFX_DENSITY_FULL_TOOLTIP,Always show all spells.,3
 54789,TRANSMOG_PURCHASE_OUTFIT_SLOT,Purchase Outfit Slot,1
-54790,OUTFITTER_ARMOR_HEADER,[PH],1
-54791,OUTFITTER_GEM_HEADER,[PH],1
-54792,OUTFITTER_FRAME_TITLE,[PH],1
-54793,OUTFITTER_EQUIP_ARMOR,[PH],1
 54794,BCSHORTDATENOYEAR,%B %d,1
 54795,HOUSING_DECOR_CUSTOMIZATION_DOOR_TYPE_LABEL,Doorway Type,1
 54797,HOUSING_DECOR_CUSTOMIZATION_WALLPAPER_LABEL_WALL,Wall Material,1
@@ -23729,8 +23725,6 @@ And spread his flame to all Azeroth.",1
 54915,TEXT_SCALE_PREVIEW_TITLE,Example,3
 54916,TEXT_SCALE_PREVIEW_BODY,"This is a preview of the text size. Adjust this setting to change text size in most dialogs, some social menus, and Text-to-Speech options.",3
 54925,TRANSMOG_SITUATION_CATEGORY_LIST_SEPARATOR,", ",1
-54944,GENERIC_TRAIT_FRAME_WOWHACK_ALCHEMIST_TITLE,[PH],1
-54945,GENERIC_TRAIT_FRAME_WOWHACK_JEWELER_TITLE,[PH],1
 54949,ACCESSIBILITY_INTERFACE_LABEL,Interface,3
 54950,ACCESSIBILITY_FONT_SIZE_LABEL,Text Scale,3
 54951,OPTION_TOOLTIP_ACCESSIBILITY_FONT_SIZE,"Adjust the display size of text for most dialogs, some social menus like Who, Quick Join, and Add Friend as well as the Text-to-Speech options",3
@@ -23765,11 +23759,6 @@ And spread his flame to all Azeroth.",1
 55018,HOUSING_CATALOG_FILTERS_INDOORS,Indoors,1
 55019,HOUSING_CATALOG_FILTERS_OUTDOORS,Outdoors,1
 55022,TRANSMOG_SHOW_EQUIPPED_GEAR,Clear Current Transmogrifications,1
-55024,WOWHACK_SPELLS_FRAME_TITLE,[PH],1
-55025,WOWHACK_SPELLS_FRAME_CLASS_HEADER,[PH],1
-55026,WOWHACK_SPELLS_FRAME_ABILITIES_HEADER,[PH],1
-55027,WOWHACK_SPELLS_FRAME_ACTIVE_ABILITIES_HEADER,[PH],1
-55028,WOW_HACK_SPELLS_FRAME_ABILITY_HINT,[PH],1
 55029,REMIX_EARLY_CHARACTER_CONVERSION_NOTICE,Your Timerunner character has been transported to the main timeline.|n|nRemix event items have been removed.,1
 55032,CONVERT_TIMERUNNER_EARLY_DIALOG_TEXT,"Do you want to convert this Timerunner character to a Standard character?|n|nThe character will gain full access to the main game, but will lose access to Remix content. Timerunners converted above level 70 require The War Within to play.|n|n|cffff2020You cannot undo this action|r",2
 55033,TIMERUNNING_CONVERSION_ENABLED_TOOLTIP,Convert Timerunner to Standard,2
@@ -23828,17 +23817,9 @@ And spread his flame to all Azeroth.",1
 55129,UNIT_NAMEPLATES_SHOW_OFFSCREEN_TOOLTIP,Controls whether Nameplates for offscreen units are displayed.,1
 55130,TRANSMOG_SITUATIONS_NO_VALID_OPTIONS,No valid options selected,1
 55132,SPELL_FAILED_CUSTOM_ERROR_2002,Only one Ethereal Scroll Power can be used at a time.,1
-55134,WOWHACK_ARMOR_EFFECT_HEADER_TITLE,[PH],1
 55135,JOURNEYS_GREAT_VAULT_TOOLTIP,Complete Journeys challenges to earn Rewards.,1
-55137,WOWHACK_STAT_LINE_HEALTH,[PH],1
-55138,WOWHACK_STAT_LINE_ENERGY,[PH],1
-55139,WOWHACK_STAT_LINE_MANA,[PH],1
-55140,WOWHACK_STAT_LINE_ABILITY_POWER,[PH],1
-55141,WOWHACK_STAT_LINE_SPELL_POWER,[PH],1
 55142,ERR_HOUSING_LAYOUT_ROTATE_RESTRICTION_SINGLE_DOOR,This Room cannot be rotated,1
 55143,ERR_HOUSING_LAYOUT_RESTRICTION_SINGLE_DOOR,You cannot change which door is used if the Room has only one.,1
-55144,WOWHACK_WEAPON_ABILITIES_HEADER_TITLE,[PH],1
-55145,WOWHACK_SLOT_EFFECTS_HEADER_TITLE,[PH],1
 55146,KIOSK_HOUSING_RESET_IN_PROGRESS,The House is being reset. Please wait.,1
 55147,KIOSK_HOUSING_RESET_FAILED,The House reset failed. Please notify an attendant.,1
 55151,HOUSEFINDER_SEARCH_DEFAULT_TEXT,Search Battle.net Friends,1
@@ -23858,11 +23839,6 @@ And spread his flame to all Azeroth.",1
 55174,ERR_HOUSE_MOVED,The House you were in has moved to a new location.,1
 55176,JOURNEYS_RENOWN_LABEL,Renowns,1
 55177,JOURNEYS_LEVEL_LABEL,Level %d/%d,1
-55183,BINDING_NAME_WOWHACKITEM1,[PH],1
-55184,BINDING_NAME_WOWHACKITEM2,[PH],1
-55185,BINDING_NAME_WOWHACKITEM3,[PH],1
-55186,BINDING_NAME_WOWHACKITEM4,[PH],1
-55195,OUTFITTER_EQUIPPED_ARMOR,[PH],1
 55197,ACCOUNT_STORE_INCOMPLETE_TRANSACTION,The transaction could not be completed.,3
 55198,SPELL_FAILED_CUSTOM_ERROR_2431,This mount cannot enter Untethered Space.,1
 55199,TRANSMOG_SITUATIONS_APPLY,Apply Changes,1
@@ -23877,9 +23853,6 @@ And spread his flame to all Azeroth.",1
 55209,COOLDOWN_VIEWER_SETTINGS_SHOW_OPTIONS,Options,1
 55210,BINDING_NAME_TOGGLECOOLDOWNVIEWERSETTINGS,Toggle Cooldown Settings,1
 55211,TRANSMOG_SITUATIONS_APPLY_DISABLED_TOOLTIP,You must select a valid option to apply changes,1
-55212,OUTFITTER_UPGRADE_BUTTON_TEXT_FORMAT,[PH],1
-55213,OUTFITTER_UPGRADE_INDICATOR_TEXT_FORMAT,|A:plunderstorm-icon-upgrade:16:14:2|a|cnGREEN_FONT_COLOR:+%d|r,1
-55215,OUTFITTER_UPGRADE_TOOLTIP_SUBTEXT,[PH],1
 55218,HOUSING_DASHBOARD_ENDEAVOR,Endeavors,1
 55219,JOURNEYS_TOOLTIP_VIEW_JOURNEY,<Click to view Journey>,1
 55220,HOUSING_DASHBOARD_TELEPORT_TO_PLOT,Teleport to Plot,1
@@ -24027,10 +24000,6 @@ And spread his flame to all Azeroth.",1
 55423,RECENT_ALLY_RAID_NAME_STRING_FORMAT,%s (%s),1
 55424,RECENT_ALLY_DELVE_NAME_STRING_FORMAT,%s (%s),1
 55425,RECENT_ALLY_MYTHIC_PLUS_DUNGEON_NAME_STRING_FORMAT,%s (%s),1
-55429,QUEUE_STATUS_WOWHACK_TITLE,[PH],1
-55430,QUEUE_STATUS_WOWHACK_TELEPORT_OUT,[PH],1
-55431,QUEUE_STATUS_WOWHACK_TELEPORT_IN,[PH],1
-55432,QUEUE_STATUS_WOWHACK_LEAVE,[PH],1
 55433,UNIT_NAMEPLATES_TARGET_NAME_PREVIEW,Target Name,1
 55434,UNIT_NAMEPLATES_SPELL_NAME_PREVIEW,Spell Name,1
 55435,JOURNEYS_MAX_LEVEL_LABEL,Maximum Renown,1
@@ -24261,6 +24230,7 @@ And spread his flame to all Azeroth.",1
 55886,GENERIC_TRAIT_FRAME_CONFIRM_PURCHASE,Are you sure you want to unlock this talent?,1
 55892,MONSTER_BOSS_WARNING,Boss Warning,1
 55893,ENCOUNTER_EVENT,Boss Warning,1
+55894,SPELL_FAILED_CUSTOM_ERROR_2507,This spell can be only be cast in raid instances.,1
 55911,UNITNAME_SUMMON_TITLE60,%s's Husk,1
 55916,PET_FILTER_BATTLE_PETS,Battle Pets,1
 55917,PET_FILTER_NON_COMBAT_PETS,Peaceful Pets,1
@@ -25310,7 +25280,7 @@ And spread his flame to all Azeroth.",1
 57997,PHOTO_SHARING_SIGN_IN_NOTIFICATION,Successfully connected to Pinterest,3
 57998,PHOTO_SHARING_DISCONNECT_NOTIFICATION,,3
 58001,CATALOG_SHOP_LOADING,Loading...,3
-58002,BONUS_BUTTON_RANDOM_TRAINING_GROUND_DESC,Compete against the enemy faction in a random battleground.,1
+58002,BONUS_BUTTON_RANDOM_TRAINING_GROUND_DESC,Train against game-controlled opponents in a random battleground.,1
 58003,DAMAGE_METER_TYPE_ENEMY_DAMAGE_TAKEN,Enemy Damage Taken,1
 58004,TRANSMOG_USABLE_DISCOUNT,Free Transmog outfit update available,1
 58005,TRANSMOG_USABLE_DISCOUNT_CONFIRM,You have a free Transmog outfit update. This offer is limited to a single use per character.,1
@@ -25388,11 +25358,24 @@ And spread his flame to all Azeroth.",1
 58225,HOUSING_DECOR_VARIANT_TOTAL_OWNED_TOOLTIP,Total Owned: %d,1
 58226,HOUSING_DECOR_DYES_LABEL,Dyes:,1
 58229,PHOTO_SHARING_SETTINGS_LABEL_TOOLTIP_RESTRICTED,|cnERROR_COLOR:Connecting to Pinterest is disabled by Parental Controls.|r,3
+58231,HUD_EDIT_MODE_SETTING_PERSONAL_RESOURCE_DISPLAY_HIDE_HEALTH_BAR,Hide Health Bar,1
+58232,HUD_EDIT_MODE_SETTING_PERSONAL_RESOURCE_DISPLAY_HIDE_POWER_BAR,Hide Power Bar,1
 58233,JOURNEYS_KNOWN_ITEM,Already Known,1
+58234,HUD_EDIT_MODE_SETTING_PERSONAL_RESOURCE_DISPLAY_HIDE_CLASS_INFO,Hide Class Resources,1
 58236,SLASH_EDITMODE2,/emode,1
 58237,SLASH_EDITMODE3,/edit,1
 58238,SLASH_CLICKCASTING1,/clickcasting,1
 58239,SLASH_CLICKCASTING3,/cc,1
+58242,HUD_EDIT_MODE_SETTING_PERSONAL_RESOURCE_DISPLAY_HEALTH_BAR_HEIGHT,Health Bar Height,1
+58243,HUD_EDIT_MODE_SETTING_PERSONAL_RESOURCE_DISPLAY_POWER_BAR_HEIGHT,Power Bar Height,1
+58244,HUD_EDIT_MODE_SETTING_PERSONAL_RESOURCE_DISPLAY_PADDING,Padding,1
+58245,HUD_EDIT_MODE_SETTING_PERSONAL_RESOURCE_DISPLAY_OPACITY,Opacity,1
+58246,HUD_EDIT_MODE_SETTING_PERSONAL_RESOURCE_DISPLAY_VISIBLE_SETTING,Visibility,1
+58247,HUD_EDIT_MODE_SETTING_PERSONAL_RESOURCE_DISPLAY_VISIBLE_SETTING_ALWAYS,Always,1
+58250,HUD_EDIT_MODE_SETTING_PERSONAL_RESOURCE_DISPLAY_VISIBLE_SETTING_IN_COMBAT,In Combat,1
+58251,HUD_EDIT_MODE_SETTING_PERSONAL_RESOURCE_DISPLAY_VISIBLE_SETTING_HIDDEN,Hidden,1
+58252,HUD_EDIT_MODE_SETTING_PERSONAL_RESOURCE_DISPLAY_SIZE,Size,1
+58253,HUD_EDIT_MODE_SETTING_PERSONAL_RESOURCE_DISPLAY_HIDE_CLASS_INFO_ON_PLAYER_FRAME,Hide Class Resources On Player Frame,1
 58258,SLASH_COOLDOWNMANAGER2,/cdm,1
 58259,SLASH_COOLDOWNMANAGER4,/cooldownmanager,1
 58261,SLASH_CLICKCASTING2,/clickcasting,1
@@ -25400,7 +25383,10 @@ And spread his flame to all Azeroth.",1
 58398,TRANSMOG_SETS_NONE,You don't have any Set appearances,1
 58399,TRANSMOG_CUSTOM_SETS_NONE,You don't have any Custom Sets,1
 58401,SPELL_FAILED_CUSTOM_ERROR_2525,You have no secondary stats.,1
+58402,HUD_EDIT_MODE_SETTING_PERSONAL_RESOURCE_DISPLAY_SHOW_CLASS_COLOR,Show Class Color,1
+58403,HUD_EDIT_MODE_SETTING_PERSONAL_RESOURCE_DISPLAY_BAR_WIDTH,Bar Width,1
 58406,SPELL_FAILED_CUSTOM_ERROR_1109,You have queued too many times. Please wait.,1
+58408,HUD_EDIT_MODE_SETTING_PERSONAL_RESOURCE_DISPLAY_SHOW_BAR_TEXT,Show Bar Text,1
 58409,DECOR_LIGHT_RADIUS_INDICATOR_TYPE_ALWAYS,Always,1
 58410,DECOR_LIGHT_RADIUS_INDICATOR_TYPE_OVERLAP,Overlap,1
 58411,DECOR_LIGHT_RADIUS_INDICATOR_TYPE_NEVER,Never,1
@@ -25419,12 +25405,130 @@ And spread his flame to all Azeroth.",1
 58584,HOUSING_CORNERSTONE_GAMETIME_PERMISSION,You must have active Game Time to make this purchase.,1
 58585,TRADE_WARNING_CHANGED_OFFER,%s has changed their trade offer. Verify you are receiving the correct items and gold.,1
 58586,DECOR_LIGHT_RADIUS_INDICATOR_HELPTIP,Exterior lights cannot overlap.|n|nThe indicator will turn red when multiple lights overlap.,1
+58590,ASSISTED_COMBAT_ROTATION_REDUCE_HIGHLIGHTS,Reduce Highlights on Abilities,1
+58591,OPTION_TOOLTIP_ASSISTED_COMBAT_ROTATION_REDUCE_HIGHLIGHTS,"When enabled, highlight effects are shown strongly on the Single-Button icon and normal spell highlights are reduced. When disabled, spells show their full highlights.",1
 58668,HUD_EDIT_MODE_SETTING_STATUS_TACKING_BAR_SIZE,Size,1
 58689,ENDEAVOR_XP_TOOLTIP_TITLE,House XP Available,1
 58690,ENDEAVOR_XP_TOOLTIP_DESCRIPTION,You can earn House XP from completing Endeavor tasks.,1
 58691,ENDEAVOR_XP_TOOLTIP_AVAILABLE,Available: %s,1
+58696,MAINMENUBAR_COMMUNICATION_PROTOCOL_LABEL,Communication Protocol:\nHome: %s\nWorld: %s,1
 58700,HUD_EDIT_MODE_TOTEM_ACTION_BAR_LABEL,Totem Bar,1
 58701,QUEST_HUB_TOOLTIP_TRAVEL_HEADER,Travel,1
+58702,MIDNIGHT_LANDING_PAGE_TITLE,Omnium Folio,1
+58703,MIDNIGHT_LANDING_PAGE_TOOLTIP,Contains important information on Midnight features and powers.,1
+58704,RUNES_OF_POWER,Omnium Folio,1
 58706,HUD_EDIT_MODE_SETTING_UNIT_FRAME_BIGDEFENSIVE_AURA_ICON_SIZE,Big Defensive Size,1
 58711,SPELL_FAILED_CUSTOM_ERROR_2666,Your quest log is full.,1
+58716,HOUSING_DECOR_CATEGORIES_TOOLTIP,%s - %s,1
+58721,HUD_EDIT_MODE_SETTING_DAMAGE_METER_VISIBILITY_IN_GROUP,In Group,1
 58731,BLIZZARD_STORE_VAS_ERROR_BOOST_THROTTLE,Maximum number of character boosts reached for the day. Please try again tomorrow.,3
+58793,ITEM_MOD_PHYSICAL_DAMAGE_DONE_SHORT,Physical Damage,1
+58794,ITEM_MOD_PHYSICAL_DAMAGE_DONE,Increases physical damage done by up to %s.,1
+58795,ITEM_MOD_HOLY_DAMAGE_DONE_SHORT,Holy Damage,1
+58796,ITEM_MOD_HOLY_DAMAGE_DONE,Increases holy damage done by up to %s.,1
+58797,ITEM_MOD_FIRE_DAMAGE_DONE_SHORT,Fire Damage,1
+58798,ITEM_MOD_FIRE_DAMAGE_DONE,Increases fire damage done by up to %s.,1
+58799,ITEM_MOD_NATURE_DAMAGE_DONE_SHORT,Nature Damage,1
+58800,ITEM_MOD_NATURE_DAMAGE_DONE,Increases nature damage done by up to %s.,1
+58801,ITEM_MOD_FROST_DAMAGE_DONE_SHORT,Frost Damage,1
+58802,ITEM_MOD_FROST_DAMAGE_DONE,Increases frost damage done by up to %s.,1
+58803,ITEM_MOD_SHADOW_DAMAGE_DONE_SHORT,Shadow Damage,1
+58804,ITEM_MOD_SHADOW_DAMAGE_DONE,Increases shadow damage done by up to %s.,1
+58805,ITEM_MOD_ARCANE_DAMAGE_DONE_SHORT,Arcane Damage,1
+58806,ITEM_MOD_ARCANE_DAMAGE_DONE,Increases arcane damage done by up to %s.,1
+58849,OMNIUM_FOLIO_UNLOCKED,Omnium Folio unlocked,1
+58850,RUNES_OF_POWER_HELPTIP,Select a Core Rune.,1
+58854,CATALOG_SHOP_ALSO_INCLUDES,Also Includes:,3
+58882,ITEM_MOD_TWOHANDED_AXES_SHORT,Two-Handed Axes Skill,1
+58883,ITEM_MOD_TWOHANDED_AXES,Increases two-handed axes skill by %s.,1
+58884,ITEM_MOD_TWOHANDED_MACES_SHORT,Two-Handed Maces Skill,1
+58885,ITEM_MOD_TWOHANDED_MACES,Increases two-handed maces skill by %s.,1
+58886,ITEM_MOD_TWOHANDED_SWORDS_SHORT,Two-Handed Swords Skill,1
+58887,ITEM_MOD_TWOHANDED_SWORDS,Increases two-handed swords skill by %s.,1
+58888,ITEM_MOD_AXES_SHORT,Axes Skill,1
+58889,ITEM_MOD_AXES,Increases axes skill by %s.,1
+58890,ITEM_MOD_BOWS_SHORT,Bows Skill,1
+58891,ITEM_MOD_BOWS,Increases bows skill by %s.,1
+58892,ITEM_MOD_CROSSBOWS_SHORT,Crossbows Skill,1
+58893,ITEM_MOD_CROSSBOWS,Increases crossbows skill by %s.,1
+58894,ITEM_MOD_DAGGERS_SHORT,Daggers Skill,1
+58895,ITEM_MOD_DAGGERS,Increases daggers skill by %s.,1
+58896,ITEM_MOD_DUAL_WIELD_SHORT,Dual Wield Skill,1
+58897,ITEM_MOD_DUAL_WIELD,Increases dual wield skill by %s.,1
+58898,ITEM_MOD_FIST_WEAPONS_SHORT,Fist Weapons Skill,1
+58899,ITEM_MOD_FIST_WEAPONS,Increases fist weapons skill by %s.,1
+58900,ITEM_MOD_GUNS_SHORT,Guns Skill,1
+58901,ITEM_MOD_GUNS,Increases guns skill by %s.,1
+58902,ITEM_MOD_MACES_SHORT,Maces Skill,1
+58903,ITEM_MOD_MACES,Increases maces skill by %s.,1
+58904,ITEM_MOD_POLEARMS_SHORT,Polearms Skill,1
+58905,ITEM_MOD_POLEARMS,Increases polearms skill by %s.,1
+58906,ITEM_MOD_STAVES_SHORT,Staves Skill,1
+58907,ITEM_MOD_STAVES,Increases staves skill by %s.,1
+58908,ITEM_MOD_SWORDS_SHORT,Swords Skill,1
+58909,ITEM_MOD_SWORDS,Increases swords skill by %s.,1
+58910,ITEM_MOD_THROWN_SHORT,Thrown Skill,1
+58911,ITEM_MOD_THROWN,Increases thrown skill by %s.,1
+58912,ITEM_MOD_WANDS_SHORT,Wands Skill,1
+58913,ITEM_MOD_WANDS,Increases wands skill by %s.,1
+58914,ITEM_MOD_ALCHEMY_SHORT,Alchemy Skill,1
+58915,ITEM_MOD_ALCHEMY,Increases alchemy skill by %s.,1
+58916,ITEM_MOD_BLACKSMITHING_SHORT,Blacksmithing Skill,1
+58917,ITEM_MOD_BLACKSMITHING,Increases blacksmithing skill by %s.,1
+58918,ITEM_MOD_ENCHANTING_SHORT,Enchanting Skill,1
+58919,ITEM_MOD_ENCHANTING,Increases enchanting skill by %s.,1
+58920,ITEM_MOD_ENGINEERING_SHORT,Engineering Skill,1
+58921,ITEM_MOD_ENGINEERING,Increases engineering skill by %s.,1
+58922,ITEM_MOD_JEWELCRAFTING_SHORT,Jewelcrafting Skill,1
+58923,ITEM_MOD_JEWELCRAFTING,Increases jewelcrafting skill by %s.,1
+58924,ITEM_MOD_LEATHERWORKING_SHORT,Leatherworking Skill,1
+58925,ITEM_MOD_LEATHERWORKING,Increases leatherworking skill by %s.,1
+58926,ITEM_MOD_HERBALISM_SHORT,Herbalism Skill,1
+58927,ITEM_MOD_HERBALISM,Increases herbalism skill by %s.,1
+58928,ITEM_MOD_MINING_SHORT,Mining Skill,1
+58929,ITEM_MOD_MINING,Increases mining skill by %s.,1
+58930,ITEM_MOD_SKINNING_SHORT,Skinning Skill,1
+58931,ITEM_MOD_SKINNING,Increases skinning skill by %s.,1
+58932,ITEM_MOD_COOKING_SHORT,Cooking Skill,1
+58933,ITEM_MOD_COOKING,Increases cooking skill by %s.,1
+58934,ITEM_MOD_FIRST_AID_SHORT,First Aid Skill,1
+58935,ITEM_MOD_FIRST_AID,Increases first aid skill by %s.,1
+58936,ITEM_MOD_FISHING_SHORT,Fishing Skill,1
+58937,ITEM_MOD_FISHING,Increases fishing skill by %s.,1
+58938,ITEM_MOD_TAILORING_SHORT,Tailoring Skill,1
+58939,ITEM_MOD_TAILORING,Increases tailoring skill by %s.,1
+58941,WORLD_TIER_HEROIC,Heroic,1
+58942,WORLD_TIER_MYTHIC,Mythic,1
+58969,PLAYER_DIFFICULTY_MYTHIC_FLEXIBLE,Mythic (Flexible Raiding),1
+59027,GROUP_BUFF_FILTER_SECTION_SHOWN,Group Frame Buffs,1
+59028,GROUP_BUFF_FILTER_SECTION_HIDDEN,Not Displayed,1
+59029,GROUP_BUFF_FILTER_MOVE_TO_SHOWN,Move to Group Frame Buffs,1
+59030,GROUP_BUFF_FILTER_MOVE_TO_HIDDEN,Move to Not Displayed,1
+59031,GROUP_BUFF_FILTER_NEW_VISUAL_ALERT,New Visual Alert,1
+59032,GROUP_BUFF_FILTER_REMOVE_VISUAL_ALERT,Remove Visual Alert,1
+59040,HUD_EDIT_MODE_PERSONAL_RESOURCE_DISPLAY_NO_CLASS_RESOURCES_TOOLTIP,The Personal Resource Display doesn't show any Class Resources for your Class and current Specialization.,1
+59041,HUD_EDIT_MODE_PERSONAL_RESOURCE_DISPLAY_DISABLED_TOOLTIP,"Displays health, power, and class resources. The Personal Resource Display is currently disabled. Enable it in: Combat>Personal Resource Display",1
+59048,PLAYER_CHOICE_GRID_HEADER,What story would you like to hear?,1
+59049,PLAYER_CHOICE_GRID_DESC,Stay a while and listen to stories of the past from Azeroth and beyond.,1
+59068,TOOLTIP_ITEM_STAT_PERCENTAGE_FORMAT,%1$c%2$.1f%% %3$s,1
+59070,TOOLTIP_ITEM_STAT_PERCENTAGE_RANGE_FORMAT,%1$c%2$.1f-%3$.1f%% %4$s,1
+59130,ITEM_MOD_FIRE_PENETRATION_SHORT,Fire Penetration,1
+59132,ITEM_MOD_NATURE_PENETRATION_SHORT,Nature Penetration,1
+59134,ITEM_MOD_FROST_PENETRATION_SHORT,Frost Penetration,1
+59136,ITEM_MOD_SHADOW_PENETRATION_SHORT,Shadow Penetration,1
+59138,ITEM_MOD_ARCANE_PENETRATION_SHORT,Arcane Penetration,1
+59154,NAME_DELIMITER,-,3
+59156,HUD_EDIT_MODE_SETTING_PERSONAL_RESOURCE_DISPLAY_HIDE_ALT_POWER_BAR,Hide Alternate Power Bar,1
+59157,HUD_EDIT_MODE_PERSONAL_RESOURCE_DISPLAY_NO_ALT_POWER_BAR_TOOLTIP,The Personal Resource Display doesn't show an Alternate Power Bar for your Class and current Specialization.,1
+59225,UNIT_CRITERIA_PROGRESS_PERCENT_GAINED,(+%s%%),1
+59226,ERR_FOLLOWER_DUNGEON_INVALID_TRANSFER_REQUEST,You aren't allowed to go there from a follower dungeon,1
+59356,FULL_PLAYER_NAME_WITH_SEPARATOR,%s%s%s,1
+59449,VISITABLE_URL67,https://support.blizzard.com/help/article/000384713,3
+59450,GAMEMENU_EXTERNALEVENT_FAILURE,"Something went wrong. Try restarting the game from the Battle.net Desktop App. If the problem persists, please see our support article: |HurlIndex:67|h|cnVISITABLE_URL_DEFAULT_CHAT_LINK_COLOR:https://support.blizzard.com/help/article/000384713|r|h.",1
+59462,UNIT_NAMEPLATES_STYLE_CLASSIC,Classic,1
+59468,UNIT_SCENARIO_PROGRESS_PERCENT,%s: %d%%,1
+59469,UNIT_SCENARIO_PROGRESS_FRACTION,%s: %d/%d,1
+59476,WEEKLY_REWARDS_WORLD_TOP_ACTIVITIES,Top %d Activities This Week,1
+59477,UNIT_NAMEPLATES_SHOW_FRIENDLY_REALM_NAME,Realm Name,1
+59478,OPTION_TOOLTIP_UNIT_NAMEPLATES_SHOW_FRIENDLY_REALM_NAME,Show friendly players' realm name in their nameplates,1
+59538,OMNIUM_FOLIO_UNSPENT_POINTS,You have unspent points in your Omnium Folio.,1
