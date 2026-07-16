@@ -2251,6 +2251,10 @@ Recklessly attack your enemies, dealing [StandardDamage(1,1)] [School()] damage,
 1353,Arcane Slash,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
 Rushes the enemy, dealing [StandardDamage(1,2)] [School()] damage, or [StandardDamage(1,1)] [School()] damage if the user strikes first.",236205,5,0,0,0
+1545,Preen,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Restores [StandardDamage(1,1)] health and increases your damage dealt by [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 613 ))]% for [duration(1,2)] |4round:rounds;.",642580,2,3,0,2
+1546,Preen,"Damage increased by [abs(abilityStateMod( STATE_Mod_DamageDealtPercent, 613 ))]%.",648206,2,0,320,2
 1738,Chaos Nova,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
 Deals [StandardDamage(1,1)] [School()] damage to the enemy's active pet and [StandardDamage(1,2)] [School()] damage to the enemy's backline pets.",135799,6,3,0,0
@@ -2261,6 +2265,9 @@ Lasts [duration(1,1)] |4round:rounds;.",132221,6,5,0,0
 1960,Twilight Meteorite,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
 Call forth a twilight meteor onto your enemies, dealing [StandardDamage(1,1)] [School()] damage, split evenly amongst them.",425959,1,5,0,0
+1963,Wind Buffet,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
+
+Deals [StandardDamage(1,1)] [School()] damage and forces the opponent's lowest health pet to swap into battle.",511543,2,4,0,0
 2060,Dodge,"Increases your chance to dodge attacks by [abs(abilityStateMod( 73, 2060 ))]%.",136205,-1,0,974,2
 2065,Nap Time,"Fall asleep, restoring [StandardHealing(1,1,2066)] health on the first round, [StandardHealing(2,1,2066)] health on the second, then [StandardHealing(3,1,2066)] health on the third.
 
