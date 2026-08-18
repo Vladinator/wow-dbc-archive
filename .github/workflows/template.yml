@@ -40,14 +40,8 @@ jobs:
           latest_commit_build="0.0.0.00000"
           latest_commit_build_number=0
         elif [[ "${http_status}" == "200" ]]; then
-          raw_message=$(grep -oP '(?<="message": ")[^"]*' "${response_file}" | head -n 1)
-          if [[ "${raw_message}" =~ ${product}[[:space:]]([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+) ]]; then
-            latest_commit_build="${BASH_REMATCH[1]}"
-            latest_commit_build_number=$(echo "${latest_commit_build}" | awk -F '.' '{print $NF}')
-          else
-            latest_commit_build="0.0.0.00000"
-            latest_commit_build_number=0
-          fi
+          latest_commit_build=$(grep -oP '(?<="message": ")[^"]*' "${response_file}" | sed -E "s/${product} ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)/\1/")
+          latest_commit_build_number=$(echo "${latest_commit_build}" | awk -F '.' '{print $NF}')
         else
           latest_commit_build=""
           latest_commit_build_number=""
