@@ -269,6 +269,24 @@ jobs:
             echo "Error restoring: $gitexistingfile"
           fi
         done < "$tmpcsvlist"
+        echo "Updating LFS file list..."
+        LFS_THRESHOLD=94371840
+        rm -f .gitattributes
+        touch .gitattributes
+        ALL_CURRENT_CSVS=$(find . -maxdepth 1 -type f -name "*.csv")
+        for file in $ALL_CURRENT_CSVS; do
+          clean_path="${file#./}"
+          if [ -f "$clean_path" ]; then
+            FILESIZE=$(wc -c <"$clean_path")
+            if [ "$FILESIZE" -gt "$LFS_THRESHOLD" ]; then
+              git lfs track "$clean_path"
+            else
+              echo "$clean_path !filter !diff !merge text" >> .gitattributes
+            fi
+          fi
+        done
+        git add .gitattributes
+        git add --renormalize .
         git add -v .
         echo "Checking if there are changes to be commited and pushed..."
         if [[ -n $(git status --porcelain) ]] || ! git diff --quiet; then
