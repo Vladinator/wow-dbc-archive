@@ -1,25 +1,42 @@
-ID,Name_lang,Field_12_0_0_63967_001,Flags,Field_12_0_0_63724_002,RoomWmoDataID,UiTextureAtlasElementID,WeightCost,ItemID
-1,Square Room (Small),1,4,0,5,31139,5,0
-2,Hallway,1,4,0,7,31132,3,0
-3,Closet,1,4,0,4,31130,1,0
-6,T-Shaped Room,1,4,0,162,31143,3,0
-7,Square Room (Tiny),1,4,0,3,31140,2,0
-8,L-Shaped Room,1,4,0,163,31133,3,0
-9,Octagon Room (Medium),1,4,0,165,31135,8,0
-10,Stairwell (Left),1,6,0,8,31142,7,0
-11,Square Room (Medium),1,0,0,160,31138,12,0
-12,Square Room (Large),1,0,0,6,31137,20,0
-13,Cross-Shaped Room,1,4,0,161,31131,4,0
-14,Octagon Room (Small),1,4,0,164,31136,4,0
-15,Octagon Room (Large),1,0,0,166,31134,16,0
-18,Base Plot Medium,1,1,0,172,0,0,0
-46,Entry,1,1,0,177,0,0,0
-48,Stairwell Room (Empty),1,6,0,179,31144,6,0
-50,Stairwell (Right),1,6,0,180,31141,7,0
-113,Full_Layout_Prefab_S,1,8,0,187,0,0,0
-132,Full_Layout_Rugged_Prefab_L01,1,8,0,202,0,0,0
-151,Full_Layout_Rugged_Prefab_S01,1,8,0,219,0,0,0
-223,Daylight Circle Room,3,8,0,233,32639,8,272045
-233,Evening Circle Room,3,8,0,255,32640,8,0
-296,Full_Layout_Summer_Prefab_L01,0,8,0,0,0,1,274677
-297,Full_Layout_Summer_Prefab_L02,0,8,0,0,0,1,274678
+Name_lang,ID,Field_12_0_0_63967_001,Flags,Field_12_0_0_63724_002,RoomWmoDataID,UiTextureAtlasElementID,WeightCost,ItemID,SortPriority
+Square Room (Small),1,1,4,0,5,31139,5,0,120
+Hallway,2,1,4,0,7,31132,3,0,150
+Closet,3,1,4,0,4,31130,1,0,145
+T-Shaped Room,6,1,4,0,162,31143,3,0,320
+Square Room (Tiny),7,1,4,0,3,31140,2,0,110
+L-Shaped Room,8,1,4,0,163,31133,3,0,310
+Octagon Room (Medium),9,1,4,0,165,31135,8,0,220
+Stairwell (Left),10,1,6,0,8,31142,7,0,420
+Square Room (Medium),11,1,0,0,160,31138,12,0,130
+Square Room (Large),12,1,0,0,6,31137,20,0,140
+Cross-Shaped Room,13,1,4,0,161,31131,4,0,330
+Octagon Room (Small),14,1,4,0,164,31136,4,0,210
+Octagon Room (Large),15,1,0,0,166,31134,16,0,230
+Base Plot Medium,18,1,5,0,172,0,0,0,0
+Entry,46,1,5,0,177,0,0,0,0
+Stairwell Room (Empty),48,1,6,0,179,31144,6,0,430
+Stairwell (Right),50,1,6,0,180,31141,7,0,410
+Full_Layout_Prefab_S,113,0,8,0,187,0,100,274672,6000
+Orgrimmar Council Room,132,3,8,0,202,35463,20,274673,840
+Orgrimmar Stone Pit Room,151,3,8,0,219,35465,5,274675,820
+Daylight Circle Room,223,3,8,0,233,32639,8,272045,710
+Evening Circle Room,233,3,8,0,255,32640,8,0,720
+Stormwind Armory,273,3,8,0,305,35471,12,272997,930
+Stormwind Kitchen,277,3,8,0,326,35474,5,274667,920
+Stormwind Display Room,281,3,8,0,328,35472,5,274666,910
+Stormwind Grand Hall,282,3,8,0,336,35473,20,274665,940
+Silvermoon Armory,283,3,8,0,337,35467,12,274663,1030
+Silvermoon Lofty Study,285,3,8,0,345,35469,20,274664,1040
+Silvermoon Display Room,286,3,8,0,346,35468,5,274661,1010
+Bel'ameth Temple Room,287,3,8,0,347,35461,20,274670,1140
+Bel'ameth Meeting Room,288,3,8,0,348,35460,12,274668,1130
+Bel'ameth Theater,289,3,8,0,349,35462,5,274669,1120
+Bel'ameth Nestled Bedroom,290,3,8,0,350,35459,5,274671,1110
+Full_Layout_Rugged_Prn,291,0,8,0,351,0,100,274656,0
+Orgrimmar Theater,292,3,8,0,352,35466,12,274674,830
+Orgrimmar Display Room,294,3,8,0,353,35464,5,274676,810
+Sky Blue Riverside Room,296,3,8,0,0,0,20,274677,730
+Verdant Riverside Room,297,3,8,0,0,0,20,274678,740
+Silvermoon Small Study,307,3,8,0,371,35470,5,274662,1020
+Autumnal Westfall Barn,400,3,8,0,378,36094,18,276243,750
+Springtime Westfall Barn,401,3,8,0,379,36095,18,276244,760

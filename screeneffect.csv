@@ -1210,7 +1210,7 @@ ID,Name,Param[0],Param[1],Param[2],Param[3],Effect,FullScreenEffectID,LightParam
 2250,11.1.7 Lorewalking (LAS),0,0,0,0,8,231,0,0,0,0,0,-1,1,0
 2251,11.0.5 20th Anniversary+ - Exterior Space - 20th Anniversary Fog/Lighting,0,0,0,0,0,0,6541,3000,3000,0,0,-1,2,0
 2252,Brennan - Test - ScreenEffect - v2,0,0,0,0,8,232,0,0,0,0,0,-1,1,0
-2253,12.0.1 Sharing Camera - 02a - Screen Overlay - VV,0,0,0,0,8,263,0,0,0,0,0,-1,1,0
+2253,12.0.1 Sharing Camera - 02a - Screen Overlay - Vertical Rectangle - VV,0,0,0,0,8,263,0,0,0,0,0,-1,1,0
 2254,11.1 Raid - Undermine - Boss - Arena - Both Bosses - Ultimate,0,0,0,0,0,0,6637,5000,5000,0,0,300,10,0
 2255,11.0.2 Hallowfall - Itchy Water - Swarm- -ScreenEffect-,0,0,0,0,8,234,0,0,0,0,0,-1,1,0
 2256,11.1 Raid - Undermine - Boss - Casino - BOSS - Rip Fumes - 02 Effect - KLH,4723324,500,500,0,6,0,3528,1000,1000,0,0,-1,3,1
@@ -1310,6 +1310,7 @@ ID,Name,Param[0],Param[1],Param[2],Param[3],Effect,FullScreenEffectID,LightParam
 2402,12.0 Z2 - Level Up Campaign - Ch 1 - Q01 - Knockback + stun (ZCS),0,0,0,0,0,0,6724,1000,1000,3195,0,-1,6,0
 2403,"12.0 Z2 [TVL] Lynx Temple Fog - Cinematic - Heavy, Dark - IGC",4575028,0,2300,0,6,0,4335,500,2300,0,0,-1,3,0
 2405,12.0 Raid - Dreamrift - Boss - Malformed Manifestation - Alnsight - ARB,458793,0,35,0,3,0,4322,3,2,3358,0,0,-1,0
+2406,12.1 Ulatek - Campaign - Ch 3 - Q09-Q11 Flashback Realm (TJH),0,0,0,0,0,0,7281,0,0,3477,0,0,14,0
 2407,12.0 Z2 - Isle of Fangs - No Man's Land - Boundary Warning - Screen Effect (JSS,-11842741,4,0,0,3,0,0,0,0,0,0,-1,-1,0
 2408,Generic - Fade to White - 1/0.5 sec,-1,500,1000,0,4,0,0,0,0,0,0,-1,1,0
 2409,12.0 Z2 - Level Up Campaign - Ch 2 - Q13 - COMBAT PHASE - 0. Screen Effect (KEF),0,0,0,0,5,0,2261,4000,2000,3206,0,-1,6,0
@@ -1328,6 +1329,7 @@ ID,Name,Param[0],Param[1],Param[2],Param[3],Effect,FullScreenEffectID,LightParam
 2424,Desaturate - Slow Fade (DTM),1308654,1000,1000,6,6,0,5554,1000,1000,462,36,0,3,0
 2425,11.2.7 Secret - Puzzle 12 - Darkness,-16777216,30,0,0,2,0,0,0,0,0,0,-1,1,0
 2427,12.0 [PTA] Arcane - Fullscreen Transition - IGC,0,0,0,0,8,258,164,0,0,0,0,-1,1,0
+2428,12.1 Skybridge - Campaign - Ch 1 - Q07 Skybox Change (RRN),9211020,800,10,0,2,0,4322,0,0,2188,2339,0,8,0
 2430,12.0.5 Void Assaults - Void Assault Skybox - Default,0,0,100,0,3,0,2675,5000,8000,1495,1704,-1,0,1
 2431,12.0 Dungeon - Windrunner Spire - Acidic Demise - Screen Effect,0,0,0,0,8,122,0,0,0,0,0,-1,1,0
 2432,12.0 Dungeon - Windrunner Spire - Trash - Boss 2 - Forsaken Support - Vial Toss - Screen Effect,0,0,0,0,8,213,0,0,0,0,0,-1,1,0
@@ -1363,12 +1365,19 @@ ID,Name,Param[0],Param[1],Param[2],Param[3],Effect,FullScreenEffectID,LightParam
 2466,12.0 Raid - Darkwell - Boss - Naaru - Music - Phase 2 - AD,5871946,0,0,0,6,0,8,500,500,0,0,-1,3,0
 2467,7.0 Legion Invasion - Legion Invasion Skybox - Murder Row,0,0,100,0,3,0,2675,5000,8000,1495,0,-1,6,1
 2468,7.1.5 Brawler's Guild - Mushroom - Screen Effect Yellow No Music - DQV,1308668,0,0,0,6,0,8,0,0,0,0,540,13,0
-2470,12.0.1 Sharing Camera - 2a - Screen Overlay - Square - VV,0,0,0,0,8,264,0,0,0,0,0,-1,1,0
+2470,12.0.1 Sharing Camera - 02a - Screen Overlay - Square - VV,0,0,0,0,8,264,0,0,0,0,0,-1,1,0
+2471,12.1 Ulatek - World Quest - Complex 03 - Player off Course - Pt 01 - Fade to Black (HCR),-1728053248,12000,1000,0,4,0,6107,7500,0,0,0,-1,1,0
 2473,12.0 Dungeon - Domanaar Arena - Boss 2 - Monster - Summon 2a. Effect - Area Denial - Poison,0,0,0,0,8,122,0,0,0,3378,0,-1,5,0
 2474,12.0 Raid - Darkwell - Boss - Naaru - Music - Phase 3 - AD,7499890,0,0,0,6,0,8,500,500,0,0,-1,3,0
+2476,12.1 - Housing - Neighborhood State - Time of Day - Midnight (RPS),0,0,0,0,0,0,3742,1000,1000,1712,0,0,8,0
 2479,12.0.5 Void Assaults - Strikes - Suffocating Void,0,0,0,0,8,117,6775,1000,8000,3409,3524,0,7,0
 2480,97.0 Raid - Fungarian - Boss - Giant - Vines - TJS (Copy for SFX),0,0,0,0,8,122,0,0,0,3411,0,-1,5,0
 2481,12.0.5 Event - Prop Hunt - Tagged - Ghost Mode,7209268,2000,2000,0,6,0,0,0,0,462,36,-1,-1,0
+2482,12.1.0 [PSU] Ulatek Flashback Realm - IGC,0,0,0,0,0,0,7281,0,0,2188,2339,0,14,0
+2483,12.1 - Housing - Neighborhood State - Time of Day - Sunset (RPS),0,0,0,0,0,0,3742,1000,1000,1712,0,1080,8,0
+2484,12.1 - Housing - Neighborhood State - Time of Day - Sunrise (RPS),0,0,0,0,0,0,3742,1000,1000,1712,0,360,8,0
+2485,12.1 - Housing - Neighborhood State - Time of Day - Noon (RPS),0,0,0,0,0,0,3742,1000,1000,1712,0,720,8,0
+2486,12.1 - Housing - Neighborhood State - Time of Day - Revert (RPS),0,0,0,0,0,0,3742,1000,1000,1712,0,-1,8,0
 2487,"Generic - Brown Out (0.5 fade in, 0.5 sec fade out)",-16741889,500,500,0,4,0,0,0,0,0,0,-1,1,0
 2489,12.0.7 Showdowns - Val - World Quest - Grand Theft Kaiju - Vehicle Ride - Screen Effect (OJF),0,0,0,1,8,265,0,0,0,0,0,-1,1,0
 2490,12.0.5 Void Assaults - Strikes - Sound Only,0,0,0,0,8,117,6775,1000,8000,3409,3524,0,4,0
@@ -1378,4 +1387,39 @@ ID,Name,Param[0],Param[1],Param[2],Param[3],Effect,FullScreenEffectID,LightParam
 2495,12.0.5 Void Assaults - Suffocating Void Major Attack Music,0,0,0,0,8,117,6775,1000,8000,3409,3530,0,7,0
 2496,12.0.5 Void Assaults - Incursion - Suffocating Void,0,0,0,0,8,117,6775,1000,8000,3409,3530,0,7,0
 2497,12.0.5 Void Assaults - Incursion- Sound Only,0,0,0,0,8,117,6775,1000,8000,3409,3530,0,4,0
+2498,12.1 ScreenEffect - Ula'Tek - Poison Loop,0,0,0,0,8,213,0,0,0,3465,0,-1,5,0
+2499,12.1 - Slight Green,-2137134779,4,5,1,3,0,1616,3,3,0,0,-1,1,0
 2500,12.0.7 Showdowns - Weather - Miasma,16777215,0,2000,1,4,0,7309,3000,1500,0,0,1080,2,1
+2504,12.1 - Housing - Cursed Curios - Legion (RPS),32768,0,0,4,3,0,2420,1000,1000,3543,3650,0,-1,0
+2505,12.1 - Housing - Cursed Curios - Scourge (RPS),16777215,0,0,4,3,0,779,1000,1000,3546,3654,0,-1,0
+2506,12.1 - Housing - Cursed Curios - Void (RPS),7078073,0,0,4,3,0,5546,1000,1000,1717,3655,0,-1,0
+2507,12.1 - Housing - Cursed Curios - War (RPS),12129536,0,0,4,3,0,4490,1000,1000,2564,0,0,-1,0
+2508,12.1 - Housing - Cursed Curios - Old Gods (RPS),0,0,0,4,3,0,4419,1000,1000,3544,3653,0,-1,0
+2509,12.1 - Housing - Cursed Curios - Dragon Stormy (RPS),8421504,0,0,4,3,0,799,1000,1000,3545,3651,0,-1,0
+2512,Kings' Rest - Boss 2 Trash - King Timalji - Bladestorm 3. Screen Effect,0,0,0,0,8,159,0,0,0,2936,0,-1,5,0
+2516,12.1 Raid - Ulatek - Boss - Tortollansv2 - Mage - Fire Volley - 06 Area Damage - World - Area Denial - Fire,0,0,0,0,8,10,0,0,0,3490,0,-1,5,0
+2517,12.1 Raid - Ulatek - Boss - Tortollansv2 - Mage - Frost Volley - 06 Area Damage - World - Area Denial - Generic Frost,0,0,0,0,8,175,0,0,0,3491,0,-1,5,0
+2518,12.1 Raid - Ulatek - Boss - Tortollansv2 - Trader - Bomb - 02 Area - World - Area Denial - Fire,0,0,0,0,8,10,0,0,0,3493,0,-1,5,0
+2521,12.1 Raid - Ulatek - Boss - Golems - Mythic - Shadows - Screen Effect Darkness - KLH,4075501,2000,500,0,6,0,4351,2000,500,0,0,0,3,0
+2523,12.1 Raid - Ulatek - Boss 04 - Venomancer - Grate AT Damage - 01. Periodic Trigger - World - Area Denial - Poison,0,0,0,0,8,122,0,0,0,3499,0,-1,5,0
+2524,12.1 Ravenous Swarm - Nature - Fullscreen,0,0,0,0,8,206,3280,0,0,3507,0,-1,5,0
+2527,12.1 Dungeon - Altar of Fangs - Boss 3 - Zul'jan - Blades - AD,0,0,0,0,8,159,0,0,0,0,0,-1,1,0
+2528,12.1.0 [ANS] Fullscreen - SpectralSight - Void - IGC,0,0,0,0,8,267,3280,0,0,3291,0,-1,1,0
+2529,12.1 ScreenEffect - Raid - Ula'Tek - Boss 7 - Zul'jan - Axegrinder,0,0,0,0,8,143,0,0,0,3518,0,-1,5,0
+2535,12.1 ScreenEffect - Raid - Ula'Tek - Boss 7 - Zul'jan - Defiled Ground,0,0,0,0,8,118,0,0,0,3521,0,-1,5,0
+2563,12.1 Prey - Torment - Coiled Isle - PermaNightmare - Screen Effect,1412466,40000,40000,0,6,0,7483,3000,3000,3529,0,240,14,0
+2565,12.1 Toy - Storytime Filter,1308667,1000,1000,0,6,0,0,0,0,0,0,-1,1,0
+2569,12.1 Ula'tek - World Quest - Complex 12 - Capstone - Riding Ghost Vehicle Aura - Screen Effect,-16179405,4,40,0,3,0,0,0,0,3531,0,-1,5,0
+2570,Generic - Fade to Black - 7/0 sec,-16777216,0,7000,0,4,0,0,0,0,0,0,-1,-1,0
+2573,12.1 Ulatek - Bestiary - Elemental - Sea Giant - T3 - Tide Wave - 02 Effect - Screen Effect,0,0,0,0,8,123,0,0,0,3536,0,-1,5,0
+2576,12.1 Dungeon - Domanaar Arena - Boss 1 - Trash - Melee Miniboss - PBAOE + Area Denial - 02 Area Denial Damage - Screen Effect,0,0,0,0,8,156,0,0,0,3539,0,-1,5,0
+2579,12.1 Dungeon - Voidscar Arena - Boss 1 - PBAOE - 03 Mythic Area Denial Damage - Screen Effect,0,0,0,0,8,189,0,0,0,3540,0,-1,5,0
+2580,12.1 - Housing - Cursed Curios - Nerubian Dark (RPS),1412466,40000,40000,0,6,0,6393,3000,3000,0,3652,-1,6,0
+2581,Generic - Fade to Black (Half Alpha) TEST - 3/1 sec,0,0,0,2,4,0,0,0,0,0,0,-1,-1,0
+2583,12.1 Dungeon - Domanaar Arena - Boss 3 - Domanaar - Blackhole - 07 Player Effect - Screen Effect,0,0,0,0,8,117,6775,1000,8000,3551,0,0,7,0
+2584,12.1 Dungeon - Domanaar Arena - Boss 3 - Domanaar - Orb Area Denial - 02 Area Trigger Debuff - Screen Effect,0,0,0,0,8,248,0,0,0,3552,0,-1,5,0
+2585,12.1 Raid - Ulatek - Zul'jan - Noxious Ground - 02 Effect [D] - MSN,0,0,0,0,8,213,0,0,0,3520,0,-1,5,0
+2586,Generic - Fade to Black - 1 sec/0.5 sec,-16777216,500,1000,0,4,0,0,0,0,0,0,-1,1,0
+2588,12.1 Raid - Ulatek - Boss - Tortollansv2 - Fighter - Soak - 08 Area Damage - Screen Effect - Area Denial - Generic Earth,0,0,0,0,8,156,0,0,0,3553,0,-1,5,0
+2590,12.1 Raid - Ulat'ek - Boss - Ula'tek - Darken the Room 1. Weather [DNT],0,0,0,0,0,0,7305,6000,2000,0,0,-1,2,0
+2594,12.1 Dungeon - Domanaar Arena - Arena Boss - Mantid Tank - AoE 3. Effect - Screen Effect,0,0,0,0,8,212,0,0,0,3564,0,-1,5,0

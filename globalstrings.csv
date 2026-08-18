@@ -4236,7 +4236,7 @@ ID,BaseTag,TagText_lang,Flags
 14722,TUTORIAL45,"You cannot fire bows and guns without ammunition. To purchase ammunition, visit a gun or bow merchant in a city. To equip ammunition, |cffffd200Right Click|r it.",1
 14723,SHOW_IGNORE_LIST,Show Ignore List,1
 14724,SHOW_FRIENDS_LIST,Show Friends List,3
-14737,FILTER,Filter,1
+14737,FILTER,Filter,3
 14738,DUEL_COUNTDOWN,Duel starting: %d,1
 14739,TUTORIAL46,"You have joined a raid group: a group with an increased limit of 40 members, though usually 10 or 25. Raid groups are necessary to enter the most challenging dungeons or to defeat the most powerful enemies, typically at high level.|n|n|cffff2020While in a raid group, you will not earn credit towards most quests. To leave a raid group, Right Click on your character portrait and select Leave party.|r",1
 14740,TUTORIAL_TITLE46,Raid Groups,1
@@ -8964,20 +8964,20 @@ ID,BaseTag,TagText_lang,Flags
 20823,CANNOT_COOPERATE_LABEL,*,3
 20824,POWER_TYPE_ENERGY,Energy,1
 20825,BATTLENET_OPTIONS_LABEL,Blizzard Services,3
-20826,BATTLENET_OPTIONS_SUBTEXT,These options allow you to change the types of Blizzard messages you receive.,3
+20826,BATTLENET_OPTIONS_SUBTEXT,These options allow you to change the types of Battle.net messages you receive.,3
 20827,SHOW_TOAST_ONLINE_TEXT,Online Friends,1
 20828,SHOW_TOAST_OFFLINE_TEXT,Offline Friends,1
-20829,SHOW_TOAST_FRIEND_REQUEST_TEXT,Real ID and BattleTag Friend Requests,3
+20829,SHOW_TOAST_FRIEND_REQUEST_TEXT,Battle.net Friend Requests,3
 20830,SHOW_TOAST_BROADCAST_TEXT,Broadcast Updates,1
 20831,SHOW_TOAST_CONVERSATION_TEXT,Conversation Notifications,1
 20832,SHOW_TOAST_WINDOW_TEXT,Show Toast Window,1
 20833,TOAST_DURATION_TEXT,Toast Duration,1
-20834,OPTION_TOOLTIP_SHOW_TOAST_ONLINE,Displays a Blizzard message when a Real ID or BattleTag friend comes online.,1
-20835,OPTION_TOOLTIP_SHOW_TOAST_OFFLINE,Displays a Blizzard message when a Real ID or BattleTag friend goes offline.,1
-20836,OPTION_TOOLTIP_SHOW_TOAST_FRIEND_REQUEST,Displays a Blizzard message when you receive Real ID or BattleTag friend requests.,3
-20837,OPTION_TOOLTIP_SHOW_TOAST_BROADCAST,Displays a Blizzard message when a Real ID or BattleTag friend updates their broadcast.,1
-20838,OPTION_TOOLTIP_SHOW_TOAST_CONVERSATION,Displays a Blizzard message when you join a conversation with Real ID or BattleTag friends.,1
-20839,OPTION_TOOLTIP_SHOW_TOAST_WINDOW,Enabling this option will also display Blizzard messages in a toast window.,1
+20834,OPTION_TOOLTIP_SHOW_TOAST_ONLINE,Displays a Battle.net message when a Battle.net friend comes online.,1
+20835,OPTION_TOOLTIP_SHOW_TOAST_OFFLINE,Displays a Battle.net message when a Battle.net friend goes offline.,1
+20836,OPTION_TOOLTIP_SHOW_TOAST_FRIEND_REQUEST,Displays a Battle.net message when you receive Battle.net friend requests.,3
+20837,OPTION_TOOLTIP_SHOW_TOAST_BROADCAST,Displays a Battle.net message when a Battle.net friend updates their broadcast.,1
+20838,OPTION_TOOLTIP_SHOW_TOAST_CONVERSATION,Displays a Battle.net message when you join a conversation with Battle.net friends.,1
+20839,OPTION_TOOLTIP_SHOW_TOAST_WINDOW,Enabling this option will also display Battle.net messages in a toast window.,1
 20840,OPTION_TOOLTIP_TOAST_DURATION,Adjust the duration of the toast window.,1
 20841,BN_INLINE_TOAST_CONVERSATION,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:66:95:2:29|tYou are now in a conversation with %s.,3
 20842,SPELL_FAILED_NO_LIQUID,Requires water surface,1
@@ -9014,7 +9014,7 @@ ID,BaseTag,TagText_lang,Flags
 20875,RID_FRIEND_REQUEST_INFO,This should be a person you know and trust in real life. You will be able to chat with them no matter which Blizzard game you are playing. If you accept their friend request your real name will be displayed to all of their friends.,3
 20877,SPELL_FAILED_WEIGHT_NOT_ENOUGH,You have not provided enough items to cast this spell,1
 20878,SPELL_FAILED_WEIGHT_TOO_MUCH,You have provided too many items to cast this spell,1
-20879,BN_BROADCAST_TOOLTIP,Send a Broadcast message to your Real ID and BattleTag friends.,3
+20879,BN_BROADCAST_TOOLTIP,Send a Broadcast message to your Battle.net friends.,3
 20880,ERR_REQUIRES_EXPANSION_S,Requires expansion: %s,1
 20881,EXPANSION_NAME3,Cataclysm,7
 20882,BLOCK_COMMUNICATION,Block Communication,1
@@ -9057,7 +9057,7 @@ ID,BaseTag,TagText_lang,Flags
 20930,BN_INLINE_TOAST_FRIEND_REMOVED,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t%s is no longer a Real ID friend.,3
 20931,REMOVE_FRIEND_CONFIRMATION,Are you sure you want to remove %s as a Real ID friend?,3
 20932,OPTION_TOOLTIP_PROFANITY_FILTER_WITH_WARNING,"Enable mature language filtering.\n\n|cffff0000Warning:|r Blizzard services are unavailable, so this setting may not be saved.",1
-20933,ERR_CANNOT_IGNORE_BN_FRIEND,You cannot ignore Real ID or BattleTag friends.,3
+20933,ERR_CANNOT_IGNORE_BN_FRIEND,You cannot ignore Battle.net friends.,3
 20934,CHAT_BN_CONVERSATION_LIST,%s %s,3
 20935,CHAT_OVERFLOW_LABEL,List All Tabs,1
 20936,NEWBIE_TOOLTIP_CHAT_OVERFLOW,Not all chat tabs can be displayed. Left-click to see all chat tabs.,1
@@ -9889,7 +9889,7 @@ ID,BaseTag,TagText_lang,Flags
 21837,PVP_NO_QUEUE_GROUP,You are not in a valid group to join the queue.,1
 21838,ERR_LEARN_MOUNT_S,You have added the mount %s to your collection.,1
 21839,PVP_REWARD_FAILURE,You must be in a valid group and at the maximum level to earn Conquest points.,1
-21840,BN_BLOCK_FAILED_TOO_MANY_RID,You have already blocked the maximum number of Real ID and BattleTag players.,3
+21840,BN_BLOCK_FAILED_TOO_MANY_RID,You have already blocked the maximum number of Battle.net players.,3
 21841,BN_BLOCK_FAILED_TOO_MANY_CID,You've already blocked the maximum number of characters through Blizzard services.,3
 21842,ITEM_HEROIC_QUALITY0_DESC,Heroic Poor,1
 21843,ITEM_HEROIC_QUALITY1_DESC,Heroic Common,1
@@ -11295,9 +11295,9 @@ You can find trainers for them in some settlements and cities.",1
 23378,CHI_POWER,Chi,1
 23379,CHI_TOOLTIP,Used by Monks to power specific abilities.,1
 23380,ERR_BATTLETAG_FRIEND_NOT_FOUND,Could not find target player.,1
-23381,ERR_BATTLETAG_FRIEND_NOT_VALID,Cannot send BattleTag friend requests to that player.,1
-23382,ERR_BATTLETAG_FRIEND_NOT_ALLOWED,You cannot send BattleTag friend requests.,1
-23383,ERR_BATTLETAG_FRIEND_THROTTLED,Cannot send BattleTag friend requests right now.,1
+23381,ERR_BATTLETAG_FRIEND_NOT_VALID,Cannot send Battle.net friend requests to that player.,1
+23382,ERR_BATTLETAG_FRIEND_NOT_ALLOWED,You cannot send Battle.net friend requests.,1
+23383,ERR_BATTLETAG_FRIEND_THROTTLED,Cannot send Battle.net friend requests right now.,1
 23384,ERR_BATTLETAG_FRIEND_SUCCESS,BattleTag friend request has been sent.,1
 23385,STAT_CHI_TOOLTIP,Maximum energy.  Energy is consumed when using abilities and is restored automatically over time.,1
 23386,MONK_BREW_CORE_ABILITY_1,Basic melee attack that reduces the cooldown on your Brew abilities.,1
@@ -11501,9 +11501,9 @@ You can find trainers for them in some settlements and cities.",1
 23607,DUNGEON_FLOOR_THEHIDDENPASS5,The Ancient Passage,1
 23608,BATTLE_PET_COMBAT_LOG_CAPTURE_LOST,Your trapped pet was lost. You must win the battle to claim your trapped pet.,1
 23609,BATTLETAG,BattleTag,1
-23610,REALID_BATTLETAG_FRIEND_LABEL,Enter email address\n(or BattleTag),1
+23610,REALID_BATTLETAG_FRIEND_LABEL,Enter BattleTag or email,1
 23611,BATTLETAG_FRIEND_LABEL,Enter BattleTag,1
-23612,ENTER_NAME_OR_BATTLETAG_OR_EMAIL,"Enter: Email, BattleTag, Character Name",1
+23612,ENTER_NAME_OR_BATTLETAG_OR_EMAIL,Enter character name or email or BattleTag,1
 23613,ENTER_NAME_OR_BATTLETAG,"Enter: BattleTag, Character Name",1
 23614,PET_BATTLE_TRAP_ERR_7,Can't trap an NPC's pets,1
 23615,PET_BATTLE_TRAP_ERR_8,Can't trap twice in same battle,1
@@ -11820,7 +11820,7 @@ You can find trainers for them in some settlements and cities.",1
 23980,ITEM_CHARGEUP_TOTAL_MIN,(Requires %d Min),1
 23981,ITEM_CHARGEUP_TOTAL_SEC,(Requires %d Sec),1
 23982,SPELL_FAILED_CUSTOM_ERROR_189,You must be near the Bloodied Court gate.,1
-23984,ERR_BN_FRIEND_LIST_FULL,You don't have room for any more Blizzard friends.,3
+23984,ERR_BN_FRIEND_LIST_FULL,You don't have room for any more Battle.net friends.,3
 23985,GMSS_CHAT_DEFAULT_RESPONSE,This GM is currently unavailable for chat.,1
 23986,MAP_BAR_TOOLTIP_TITLE,%s - %d%% Complete,1
 23988,BONUS_REPUTATION_TITLE,Bonus Reputation,1
@@ -11969,7 +11969,7 @@ You can find trainers for them in some settlements and cities.",1
 24144,UNITNAME_SUMMON_TITLE22,%s's Pride,1
 24145,SPELL_FAILED_NO_DUNGEON_ENCOUNTER,Requires engaging %s,1
 24146,POWER_TYPE_OLD_GOD_ENERGY,Y'Shaarj Energy,1
-24150,FULL_PLAYER_NAME,%s-%s,1
+24150,FULL_PLAYER_NAME,%s-%s,3
 24152,OPTION_TOOLTIP_SHOW_COMBAT_HEALING_ABSORB_TARGET,Display amount of shield you added to the target.,1
 24153,ERR_GUILD_INVITE_SELF,You can't invite yourself to a guild.,1
 24154,COMBAT_TEXT_ABSORB_ADDED,+%s (Absorb),1
@@ -13664,17 +13664,17 @@ You can find trainers for them in some settlements and cities.",1
 25969,GARRISON_SHIP_CANNOT_DECOMMISSION_UNTIL_FULL,You cannot decommission a ship until you have the maximum number of ships.,1
 25970,BLIZZARD_STORE_CONFIRMATION_VAS_NAME_CHANGE,This service will automatically be applied when processing has been completed.,3
 25971,BLIZZARD_STORE_CONFIRMATION_VAS_NAME_CHANGE_EUR,This service will automatically be applied when processing has been completed. |HurlIndex:21|h|cff006995Change your payment method|r|h,3
-25972,LFG_LIST_LANGUAGE_ENUS,English,5
-25973,LFG_LIST_LANGUAGE_KOKR,Korean,1
-25974,LFG_LIST_LANGUAGE_FRFR,French,1
-25975,LFG_LIST_LANGUAGE_DEDE,German,1
-25976,LFG_LIST_LANGUAGE_ZHCN,Chinese,1
-25977,LFG_LIST_LANGUAGE_ZHTW,Chinese,1
-25978,LFG_LIST_LANGUAGE_ESES,Spanish,1
-25979,LFG_LIST_LANGUAGE_ESMX,Spanish,1
-25980,LFG_LIST_LANGUAGE_RURU,Russian,1
-25981,LFG_LIST_LANGUAGE_PTBR,Portuguese,5
-25982,LFG_LIST_LANGUAGE_ITIT,Italian,5
+25972,LFG_LIST_LANGUAGE_ENUS,English,7
+25973,LFG_LIST_LANGUAGE_KOKR,Korean,3
+25974,LFG_LIST_LANGUAGE_FRFR,French,3
+25975,LFG_LIST_LANGUAGE_DEDE,German,3
+25976,LFG_LIST_LANGUAGE_ZHCN,Chinese,3
+25977,LFG_LIST_LANGUAGE_ZHTW,Chinese,3
+25978,LFG_LIST_LANGUAGE_ESES,Spanish,3
+25979,LFG_LIST_LANGUAGE_ESMX,Spanish,3
+25980,LFG_LIST_LANGUAGE_RURU,Russian,3
+25981,LFG_LIST_LANGUAGE_PTBR,Portuguese,7
+25982,LFG_LIST_LANGUAGE_ITIT,Italian,7
 25983,BLIZZARD_STORE_PRODUCT_IS_READY,Your %s is Ready!,1
 25984,BLIZZARD_STORE_VAS_SERVICE_READY_DESCRIPTION,Log out to customize your character. You can do this at any time.,1
 25985,BLIZZARD_STORE_NAME_CHANGE_READY_DESCRIPTION,Your name will be changed when you log out. You can do this at any time.,1
@@ -16775,7 +16775,7 @@ You can find trainers for them in some settlements and cities.",1
 36402,PLAYER_V_PLAYER_SEASON_PRESTIGE,Player vs. Player (Legion Season %d) %s,1
 36405,SPELL_FAILED_CUSTOM_ERROR_364,You have no available Wild Imps.,1
 36406,COMMUNITIES_INVIVATION_FRAME_DESCRIPTION_FORMAT,"\""%s\""",1
-36407,COMMUNITIES_INVITATION_FRAME_TYPE,Blizzard Group,1
+36407,COMMUNITIES_INVITATION_FRAME_TYPE,Battle.net Group,1
 36408,COMMUNITIES_INVITATION_FRAME_TYPE_CHARACTER,World of Warcraft Community,5
 36409,COMMUNITIES_INVIVATION_FRAME_LEADER_FORMAT,Leader: |cffffffff%s|r,1
 36410,COMMUNITIES_INVITATION_FRAME_MEMBER_COUNT,Members: |cffffffff%d|r,1
@@ -16855,17 +16855,17 @@ You can find trainers for them in some settlements and cities.",1
 36489,COMMUNITIES_CREATE_DIALOG_AVATAR_PICKER_INSTRUCTIONS,Select an Icon,1
 36490,COMMUNITIES_CREATE_DIALOG_ICON_SELECTION_BUTTON,Change,1
 36491,COMMUNITIES_ADD_DIALOG_WOW_LABEL,Create %s Community,1
-36492,COMMUNITIES_ADD_DIALOG_BATTLE_NET_LABEL,Create Blizzard Group,1
+36492,COMMUNITIES_ADD_DIALOG_BATTLE_NET_LABEL,Create Battle.net Group,1
 36493,COMMUNITIES_ADD_DIALOG_INVITE_LINK_JOIN,Join,1
 36494,COMMUNITIES_ADD_DIALOG_INVITE_LINK_DESCRIPTION,Enter a community's invitation link or code:,1
 36495,COMMUNITIES_ADD_DIALOG_INVITE_LINK_LABEL,Join Community,1
 36496,COMMUNITIES_ADD_DIALOG_CREATE_BNET_DESCRIPTION,- Great for cross-game friends|n- Invite any player (members join as their BattleTag),1
-36497,COMMUNITIES_ADD_DIALOG_CREATE_BNET_LABEL,Create Blizzard Group,1
+36497,COMMUNITIES_ADD_DIALOG_CREATE_BNET_LABEL,Create Battle.net Group,1
 36498,COMMUNITIES_ADD_DIALOG_CREATE_WOW_DESCRIPTION_NO_FACTION,- Great for in-game friends|n- Invite characters from any realm|n- Calendar and Quick Join support,1
 36499,COMMUNITIES_ADD_DIALOG_CREATE_WOW_LABEL,Create World of Warcraft Community (%s or Cross-Faction),1
 36500,COMMUNITIES_ADD_DIALOG_LABEL,Add Community,1
 36501,COMMUNITIES_CREATE_DIALOG_WOW_LABEL,Create World of Warcraft Community,1
-36502,COMMUNITIES_CREATE_DIALOG_BATTLE_NET_LABEL,Create Blizzard Group,1
+36502,COMMUNITIES_CREATE_DIALOG_BATTLE_NET_LABEL,Create Battle.net Group,1
 36503,AZERITE_ISLAND_POWER_GAIN_SHORT,+%s Azerite Collected,1
 36504,AZERITE_ISLANDS_XP_GAIN,+%d Azerite Collected |cffe6cc80from %s|r,1
 36506,COMMUNITIES_ADD_DIALOG_CREATE_WOW_LABEL_NO_FACTION,Create World of Warcraft Community,1
@@ -17011,15 +17011,15 @@ You can find trainers for them in some settlements and cities.",1
 36742,UNLOCKS_AT_LEVEL,Unlocks at level %d,1
 36743,SPELL_FAILED_CUSTOM_ERROR_373,You cannot read the soldier's dog tag without your headlamp on.,1
 36744,MYTHIC_PLUS_CURR_WEEK_REWARD,Current Reward for Level %d is %d.  Reward for Level %d is %d.,1
-36745,ERROR_CLUB_ACTION_SUBSCRIBE,Couldn't subscribe to Blizzard group. %s,1
+36745,ERROR_CLUB_ACTION_SUBSCRIBE,Couldn't subscribe to Battle.net group. %s,1
 36746,ERROR_CLUB_ACTION_SUBSCRIBE_COMMUNITY,Couldn't subscribe to community. %s,1
-36747,ERROR_CLUB_ACTION_CREATE,Couldn't create Blizzard group. %s,1
+36747,ERROR_CLUB_ACTION_CREATE,Couldn't create Battle.net group. %s,1
 36748,ERROR_CLUB_ACTION_CREATE_COMMUNITY,Couldn't create community. %s,1
-36749,ERROR_CLUB_ACTION_EDIT,Couldn't edit Blizzard group. %s,1
+36749,ERROR_CLUB_ACTION_EDIT,Couldn't edit Battle.net group. %s,1
 36750,ERROR_CLUB_ACTION_EDIT_COMMUNITY,Couldn't edit community. %s,1
-36751,ERROR_CLUB_ACTION_DESTROY,Couldn't destroy Blizzard group. %s,1
+36751,ERROR_CLUB_ACTION_DESTROY,Couldn't destroy Battle.net group. %s,1
 36752,ERROR_CLUB_ACTION_DESTROY_COMMUNITY,Couldn't destroy community. %s,1
-36753,ERROR_CLUB_ACTION_LEAVE,Couldn't leave BLizzard group. %s,1
+36753,ERROR_CLUB_ACTION_LEAVE,Couldn't leave Battle.net group. %s,1
 36754,ERROR_CLUB_ACTION_LEAVE_COMMUNITY,Couldn't leave community. %s,1
 36755,ERROR_CLUB_ACTION_CREATE_TICKET,Couldn't create invite link. %s,1
 36756,ERROR_CLUB_ACTION_DESTROY_TICKET,Couldn't destroy invite link. %s,1
@@ -17053,9 +17053,9 @@ You can find trainers for them in some settlements and cities.",1
 36784,ERROR_COMMUNITIES_WRONG_REGION,Link is for the wrong region.,1
 36785,ERROR_COMMUNITIES_UNKNOWN_TICKET,Invite link can't be found.,1
 36786,ERROR_COMMUNITIES_MISSING_SHORT_NAME,Short name is missing.,1
-36787,ERROR_CLUB_FULL,The Blizzard group is full.,1
+36787,ERROR_CLUB_FULL,The Battle.net group is full.,1
 36788,ERROR_CLUB_FULL_COMMUNITY,The community is full.,1
-36789,ERROR_CLUB_NO_CLUB,The Blizzard group doesn't exist.,1
+36789,ERROR_CLUB_NO_CLUB,The Battle.net group doesn't exist.,1
 36790,ERROR_CLUB_NO_CLUB_COMMUNITY,The community doesn't exist.,1
 36791,ERROR_CLUB_NOT_MEMBER,The player is not a member.,1
 36792,ERROR_CLUB_ALREADY_MEMBER,The player is already a member.,5
@@ -17065,7 +17065,7 @@ You can find trainers for them in some settlements and cities.",1
 36796,ERROR_CLUB_INVALID_ROLE_ID,The player has invalid role.,1
 36797,ERROR_CLUB_INSUFFICIENT_PRIVILEGES,You have insufficient privileges.,1
 36798,COMMUNITIES_CHANNEL_REMOVED_FROM_CHAT_WINDOW,[%d. %s] has been removed from this chat window.,1
-36799,ERROR_CLUB_TOO_MANY_CLUBS_JOINED,Can't join any more Blizzard groups.,1
+36799,ERROR_CLUB_TOO_MANY_CLUBS_JOINED,Can't join any more Battle.net groups.,1
 36800,COMMUNITIES_CHANNEL_ADDED_TO_CHAT_WINDOW,[%d. %s] has been added to this chat window.,1
 36801,ERROR_CLUB_TOO_MANY_CLUBS_JOINED_COMMUNITY,Can't join any more communities.,1
 36802,ERROR_CLUB_VOICE_FULL,Voice channel is full.,1
@@ -17074,14 +17074,14 @@ You can find trainers for them in some settlements and cities.",1
 36805,ERROR_CLUB_STREAM_COUNT_AT_MIN,Can't remove any more channels.,1
 36806,ERROR_CLUB_STREAM_COUNT_AT_MAX,Can't create any more channels.,1
 36807,ERROR_CLUB_MEMBER_HAS_REQUIRED_ROLE,Must transfer ownership first.,1
-36808,ERROR_CLUB_SENT_INVITATION_COUNT_AT_MAX,Can't send any more inviations for this Blizzard group.,1
+36808,ERROR_CLUB_SENT_INVITATION_COUNT_AT_MAX,Can't send any more inviations for this Battle.net group.,1
 36809,ERROR_CLUB_SENT_INVITATION_COUNT_AT_MAX_COMMUNITY,Can't send any more invitations for this community.,1
 36810,ERROR_CLUB_RECEIVED_INVITATION_COUNT_AT_MAX,The player can't receive any more invitations.,1
 36811,ERROR_CLUB_TARGET_IS_BANNED,Player is banned.,1
 36812,ERROR_CLUB_BAN_ALREADY_EXISTS,Player is already banned.,1
-36813,ERROR_CLUB_BAN_COUNT_AT_MAX,Can't ban any more players for this Blizzard group.,1
+36813,ERROR_CLUB_BAN_COUNT_AT_MAX,Can't ban any more players for this Battle.net group.,1
 36814,ERROR_CLUB_BAN_COUNT_AT_MAX_COMMUNITY,Can't ban any more players for this community.,1
-36815,ERROR_CLUB_TICKET_COUNT_AT_MAX,Can't create any more invite links for this Blizzard group.,1
+36815,ERROR_CLUB_TICKET_COUNT_AT_MAX,Can't create any more invite links for this Battle.net group.,1
 36816,ERROR_CLUB_TICKET_COUNT_AT_MAX_COMMUNITY,Can't create any more invite links for this community.,1
 36817,ERROR_CLUB_TICKET_NO_SUCH_TICKET,It has expired.,5
 36818,ERROR_CLUB_TICKET_HAS_CONSUMED_ALLOWED_REDEEM_COUNT,It has expired.,1
@@ -17968,7 +17968,7 @@ You can find trainers for them in some settlements and cities.",1
 41606,AUCTION_HOUSE_ITEM_SOLD_FORMAT,%s - |cff00ff00Sold|r,1
 41607,AUCTION_HOUSE_ITEM_WITH_QUANTITY_FORMAT,%s  |cff808080x%s|r,1
 41608,ERR_BATTLEGROUND_JOIN_DISQUALIFIED_NO_NAME,A player has been disqualified from ranked play in this bracket.,1
-41609,RAF_NO_RECRUITS_DESC,|cffffd200Recruit friends to begin earning rewards for each month they subscribe.|n|nPlay together to unlock additional rewards!|r|n|nFor more info:|n|HurlIndex:49|h|cff82c5ffVisit our Recruit A Friend Website|r|h,1
+41609,RAF_NO_RECRUITS_DESC,|cffffd200Recruit friends to begin earning rewards for each month they subscribe.|n|nPlay together to unlock additional rewards!|r|n|nFor more info:|n|HurlIndex:49|h|cff82c5ffVisit our Recruit A Friend Website|r|h,3
 41611,AUCTION_HOUSE_HIGHEST_BIDDER,High Bidder,1
 41612,AUCTION_HOUSE_OUTBID,Outbid,1
 41613,AUCTION_HOUSE_HEADER_CURRENT_BID,Current Bid,1
@@ -18573,7 +18573,7 @@ You can find trainers for them in some settlements and cities.",1
 42351,NPEV2_RESOURCE_CALLOUT_HUNTER,"Some abilities use |cFFFF8040Focus|r, which recharges over time",1
 42353,NPEV2_APPROACH_INJURED_CREWMEMBER,Get close to the |cFFFFD200Injured Crewmember|r,1
 42354,MAP_PIN_SHARING,Map Pin Sharing,1
-42355,MAP_PIN_SHARING_TOOLTIP,You can share this location with other players by inserting a link into chat.|n|n|cff20ff20<Shift click to share pin in chat>|r,1
+42355,MAP_PIN_SHARING_TOOLTIP,You can share this location with other players by inserting a link into chat.|n|n|cff20ff20<Shift click to share pin in chat and copy coordinates>|r,1
 42356,MAP_PIN,Map Pin,1
 42357,MAP_PIN_TOOLTIP,Place a locational pin on the map that can be tracked and shared with other players.,1
 42358,MAP_PIN_TOOLTIP_INSTRUCTIONS,Click this button and then the map to drop a pin or <Ctrl click directly on the map>,1
@@ -19228,7 +19228,7 @@ You can find trainers for them in some settlements and cities.",1
 43037,COVENANT_SANCTUM_RESERVOIR_INACTIVE,The Sanctum Reservoir is currently inactive,1
 43038,TRANSFER_ABORT_UNIQUE_MESSAGE5,You must solve the mystery of Exile's Reach before you can leave.,1
 43039,SSAO_TYPE_LABEL,Ambient Occlusion Type,3
-43040,ERR_BN_INVITER_FRIEND_LIST_FULL,They don't have room for any more Blizzard friends.,3
+43040,ERR_BN_INVITER_FRIEND_LIST_FULL,They don't have room for any more Battle.net friends.,3
 43041,SSAO_TYPE_ASSAO,ASSAO,3
 43042,SSAO_TYPE_CACAO,FidelityFX CACAO,3
 43043,ERR_AUCTION_COMMODITY_WON_S,You won an auction for %s (x%d),1
@@ -20313,9 +20313,9 @@ You can find trainers for them in some settlements and cities.",1
 48948,SOCIAL_CONTRACT_TITLE_BAR,Social Contract,2
 48949,SOCIAL_CONTRACT_ACCEPT_BUTTON,Accept,2
 48950,SOCIAL_CONTRACT_DECLINE_BUTTON,Exit Game,2
-48952,SOCIAL_CONTRACT_TEXT1,"|cffff2020Read and scroll all the way down to accept the Social Contract.|r|n|n|n|cffffffffHail, traveler, and welcome to the World of Warcraft!|r|n|n|cffffd200Azeroth is a living world full of people like you - other players with different backgrounds, cultures, experiences, and histories who have all come together to play World of Warcraft. Every player deserves to have a world that they feel safe in, so please take a minute to read our Social Contract.|r|n|n|n|cffffffffWhile in Azeroth, do your best to:|r|n|n",2
-48953,SOCIAL_CONTRACT_TEXT2,"|cffffd200- Connect with other players and make friends! Being courteous in group content can help you and your teammates have the best time possible. Sending a friendly hello message can help set your group up for success.|n|n- Play as a team with your fellow players - whether in dungeons, raids, battlegrounds, arenas, or out questing in the world. Do your best to support your team through your communication and behaviors so that you can all celebrate your success together.|n|n- Assist other players that you encounter in the world. Maybe they need some help defeating a tough monster, or maybe they could use a little healing!|n|n- Help answer questions others have in chat channels like General or Trade. We were all newbies once - one person offering some help can go a long way!|n|n",2
-48954,SOCIAL_CONTRACT_TEXT3,"|n|n|cffffffffWe recognize that the Internet is not always a safe haven. With that in mind, please note that the following behaviors are not accepted in Azeroth:|r|n|n|cffffd200- Hate speech, including negative comments that target another player's identity, including aspects like race, gender, or ability|n|n- Harassment, threats, or abusive / derogatory language and behaviors|n|n- Spamming, advertising, or other disruptive behaviors|r|n|n|n|n|cffffffffIf you harm your fellow adventurers with any of the above behaviors, you are subject to punishment up to and including suspension of your account.|r|n|n|cffffd200It's a big world out there, with all sorts of people in it. So please try to be respectful of each other, and if you ever feel like somebody is acting against this code, please report those behaviors so that our team can look into it. Together, you can help us make the World of Warcraft a safe home away from home for everyone.|r",2
+48952,SOCIAL_CONTRACT_TEXT1,"|cffff2020Read and scroll all the way down to accept the Social Contract. |r|n|n|n|cffffffffHail, traveler, and welcome to the World of Warcraft! |r|n|n|cffffd200Azeroth is a living world full of people like you - other players with different backgrounds, cultures, experiences, and histories who have all come together to play World of Warcraft. Every player deserves to have a world that they feel safe in, so please take a minute to read our Social Contract. |r|n|n|n|cffffffffWhile in Azeroth, do your best to: |r|n|n",2
+48953,SOCIAL_CONTRACT_TEXT2,"|cffffd200- Connect with other players and make friends! Being courteous in group content can help you and your teammates have the best time possible. Sending a friendly hello message can help set your group up for success. |n|n- Play as a team with your fellow players - whether in dungeons, raids, battlegrounds, arenas, or out questing in the world. Do your best to support your team through your communication and behaviors so that you can all celebrate your success together. |n|n- Assist other players that you encounter in the world. Maybe they need some help defeating a tough monster, or maybe they could use a little healing! |n|n- Help answer questions others have in chat channels like General or Trade. We were all newbies once - one person offering some help can go a long way! |n|n",2
+48954,SOCIAL_CONTRACT_TEXT3,"|n|n|cffffffffWe recognize that the Internet is not always a safe haven. With that in mind, please note that the following behaviors are not accepted in Azeroth: |r|n|n|cffffd200- Hate speech, including negative comments that target another player's identity, including aspects like race, gender, or ability|n|n- Harassment, threats, or abusive / derogatory language and behaviors|n|n- Spamming, advertising, or other disruptive behaviors|r|n|n|n|n|cffffffffIf you harm your fellow adventurers with any of the above behaviors, you are subject to punishment up to and including suspension of your account. |r|n|n|cffffd200It's a big world out there, with all sorts of people in it. So please try to be respectful of each other, and if you ever feel like somebody is acting against this code, please report those behaviors so that our team can look into it. Together, you can help us make the World of Warcraft a safe home away from home for everyone. |r",2
 48955,COMBINED_BAG_TITLE,Combined Backpack,1
 48956,LIMITED_CURRENCY_PURCHASE,"This item costs %s. After this, you'll only be able to spend %d more %s.|n|n Are you sure you want to exchange %s for this item?",1
 48957,LIMITED_CURRENCY_PURCHASE_FINAL,"This is your final %s to spend. After this, the %s merchants will leave.|n|n Are you sure you want to exchange %s for this item?",1
@@ -21822,12 +21822,12 @@ Are you sure you want to proceed?",1
 51311,OPTION_TOOLTIP_REPLACE_OTHER_PLAYER_PORTRAITS,Replace other player unit frame portraits with class icons,1
 51312,REPLACE_MY_PLAYER_PORTRAIT,Replace My Frame Portrait,1
 51313,OPTION_TOOLTIP_REPLACE_MY_PLAYER_PORTRAIT,Replace your player unit frame portrait with your class icon,1
-51314,PING_SUBJECT_TYPE_ON_MY_WAY_UNIT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_onmyway:0:0:0:0|aOn my way to: %s,1
-51315,PING_SUBJECT_TYPE_ATTACK_UNIT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_attack:0:0:0:0|aAttack: %s,1
-51316,PING_SUBJECT_TYPE_ASSIST_UNIT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_assist:0:0:0:0|aAssist: %s,1
-51317,PING_SUBJECT_TYPE_WARNING_UNIT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_warning:0:0:0:0|aWarning: %s,1
-51318,PING_SUBJECT_TYPE_ALERT_THREAT_UNIT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_threat:0:0:0:0|aThreatening alert: %s,1
-51319,PING_SUBJECT_TYPE_ALERT_NOT_THREAT_UNIT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_nonthreat:0:0:0:0|a%s,1
+51314,PING_SUBJECT_TYPE_ON_MY_WAY_UNIT,|A:ping_chat_onmyway:0:0:0:0|aOn my way to: %s,1
+51315,PING_SUBJECT_TYPE_ATTACK_UNIT,|A:ping_chat_attack:0:0:0:0|aAttack: %s,1
+51316,PING_SUBJECT_TYPE_ASSIST_UNIT,|A:ping_chat_assist:0:0:0:0|aAssist: %s,1
+51317,PING_SUBJECT_TYPE_WARNING_UNIT,|A:ping_chat_warning:0:0:0:0|aWarning: %s,1
+51318,PING_SUBJECT_TYPE_ALERT_THREAT_UNIT,|A:ping_chat_threat:0:0:0:0|aThreatening alert: %s,1
+51319,PING_SUBJECT_TYPE_ALERT_NOT_THREAT_UNIT,|A:ping_chat_nonthreat:0:0:0:0|a%s,1
 51320,DRAGONFLIGHT_LANDING_PAGE_UNSPENT_GLYPHS,You have unspent Skyriding Proficiency points.,1
 51321,SPELL_FAILED_CUSTOM_ERROR_857,Only the Forsaken can display this honor.,1
 51322,RPE_UPGRADE_QUEST_CLEAR_CONFIRMATION,|cnHIGHLIGHT_FONT_COLOR:Would you like to clear your |rQuest Log|cnHIGHLIGHT_FONT_COLOR: \nfor a fresh start?|r,3
@@ -21862,12 +21862,12 @@ Are you sure you want to proceed?",1
 51360,PNC_FLOW_SLECT_NAME_RESULTS,New name:,2
 51361,PNC_NEW_NAME_LABEL_COMPLETE,|cffffd200Name: %s,2
 51362,PAGE_NUMBER_WITH_MAX,Page %d/%d,3
-51363,PING_SUBJECT_TYPE_ALERT_NOT_THREAT_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_nonthreat:0:0:0:0|aLook here,1
-51364,PING_SUBJECT_TYPE_ALERT_THREAT_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_threat:0:0:0:0|aThreatening alert,1
-51365,PING_SUBJECT_TYPE_WARNING_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_warning:0:0:0:0|aWarning,1
-51366,PING_SUBJECT_TYPE_ASSIST_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_assist:0:0:0:0|aAssist,1
-51367,PING_SUBJECT_TYPE_ATTACK_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_attack:0:0:0:0|aAttack,1
-51368,PING_SUBJECT_TYPE_ON_MY_WAY_POINT,%s|Hplayer:%s|h[%s]: |h|A:ping_chat_onmyway:0:0:0:0|aOn my way,1
+51363,PING_SUBJECT_TYPE_ALERT_NOT_THREAT_POINT,|A:ping_chat_nonthreat:0:0:0:0|aLook here,1
+51364,PING_SUBJECT_TYPE_ALERT_THREAT_POINT,|A:ping_chat_threat:0:0:0:0|aThreatening alert,1
+51365,PING_SUBJECT_TYPE_WARNING_POINT,|A:ping_chat_warning:0:0:0:0|aWarning,1
+51366,PING_SUBJECT_TYPE_ASSIST_POINT,|A:ping_chat_assist:0:0:0:0|aAssist,1
+51367,PING_SUBJECT_TYPE_ATTACK_POINT,|A:ping_chat_attack:0:0:0:0|aAttack,1
+51368,PING_SUBJECT_TYPE_ON_MY_WAY_POINT,|A:ping_chat_onmyway:0:0:0:0|aOn my way,1
 51369,CURRENCY_BUTTON_TOOLTIP_CLICK_INSTRUCTION,<Click to view options>,1
 51373,SPELL_FAILED_CUSTOM_ERROR_1010,You don't know how to gather this.,1
 51374,ENABLE_PING_SOUNDS,Ping Sounds,1
@@ -21916,7 +21916,7 @@ Are you sure you want to proceed?",1
 51433,PING_FAILED_SQUELCHED,Could not send ping: chat is temporarily suspended.,1
 51434,PING_SYSTEM_TUTORIAL_CONTEXTUAL,|cnTUTORIAL_BLUE_FONT_COLOR:Press|r the Ping key to drop quick pings in the world.,1
 51435,PING_SYSTEM_TUTORIAL_RADIAL,|cnTUTORIAL_BLUE_FONT_COLOR:Press and Hold|r your ping key to select a specific ping.,1
-51436,PING_SYSTEM_TUTORIAL_TARGETS,|cnTUTORIAL_BLUE_FONT_COLOR:Ping directly|r onto a creature or character.,1
+51436,PING_SYSTEM_TUTORIAL_TARGETS,"|cnTUTORIAL_BLUE_FONT_COLOR:Ping directly|r onto creatures, characters, Cooldown Manager, and action bars.",1
 51437,PING_SYSTEM_TUTORIAL_MACRO_1,|cnTUTORIAL_BLUE_FONT_COLOR:Set up macros|r using Pings.,1
 51438,PING_SYSTEM_TUTORIAL_MACRO_2,Type |cnNORMAL_FONT_COLOR:/macro|r in chat,1
 51439,PING_SYSTEM_TUTORIAL_MACRO_3,Macro command:,1
@@ -22524,9 +22524,9 @@ And spread his flame to all Azeroth.",1
 52192,ACCOUNT_PREVIOUSLY_COMPLETED_QUEST_REP_BONUS_TOOLTIP,This is a Warband bonus for previously completing this quest (%d|cnGREEN_FONT_COLOR:+%d|r reputation),1
 52193,ACCOUNT_PREVIOUSLY_COMPLETED_QUEST_CURRENCY_BONUS_TOOLTIP,This is a Warband bonus for previously completing this quest (%d|cnGREEN_FONT_COLOR:+%d|r currency),1
 52194,RACE_INFO_EARTHENDWARF_FEMALE,"The earthen of Khaz Algar, newly freed of their edicts, venture forth into Azeroth. They bring with them boundless curiosity, and a wish to return all their experiences back to the archive.",3
-52195,GREAT_VAULT_REWARDS_WORLD_INCOMPLETE,"Complete %1$d more |4activity:activities; this week to unlock a Great Vault reward.|n- Delves (Tier 1-11)|n- World Activities (Tier 1)|n- Prey (Tier 1, 5, or 8 based on difficulty)|n- Ritual Sites (Tier 5, 6, 7, 12, or 13 based on difficulty)|n|nThe item level of your reward will be based on the lowest of your top 2 activities this week.",1
-52196,GREAT_VAULT_REWARDS_WORLD_COMPLETED_FIRST,"Complete %1$d more |4activity:activities; this week to unlock a second Great Vault reward.|n- Delves (Tier 1-11)|n- World Activities (Tier 1)|n- Prey (Tier 1, 5, or 8 based on difficulty)|n- Ritual Sites (Tier 5, 6, 7, 12, or 13 based on difficulty)|n|nThe item level of your reward will be based on the lowest of your top 4 activities this week.",1
-52197,GREAT_VAULT_REWARDS_WORLD_COMPLETED_SECOND,"Complete %1$d more |4activity:activities; this week to unlock a third Great Vault reward.|n- Delves (Tier 1-11)|n- World Activities (Tier 1)|n- Prey (Tier 1, 5, or 8 based on difficulty)|n- Ritual Sites (Tier 5, 6, 7, 12, or 13 based on difficulty)|n|nThe item level of your reward will be based on the lowest of your top 8 activities this week.",1
+52195,GREAT_VAULT_REWARDS_WORLD_INCOMPLETE,"Complete %1$d more |4activity:activities; this week to unlock a Great Vault reward.|n- Delves (Tier 1-11)|n- World Activities (Tier 1)|n- Prey (Tier 1, 5, or 8 based on difficulty)|n- Ritual Sites (Tier 1-6)|n|nThe item level of your reward will be based on the lowest of your top 2 activities this week.",1
+52196,GREAT_VAULT_REWARDS_WORLD_COMPLETED_FIRST,"Complete %1$d more |4activity:activities; this week to unlock a second Great Vault reward.|n- Delves (Tier 1-11)|n- World Activities (Tier 1)|n- Prey (Tier 1, 5, or 8 based on difficulty)|n- Ritual Sites (Tier 1-6)|n|nThe item level of your reward will be based on the lowest of your top 4 activities this week.",1
+52197,GREAT_VAULT_REWARDS_WORLD_COMPLETED_SECOND,"Complete %1$d more |4activity:activities; this week to unlock a third Great Vault reward.|n- Delves (Tier 1-11)|n- World Activities (Tier 1)|n- Prey (Tier 1, 5, or 8 based on difficulty)|n- Ritual Sites (Tier 1-6)|nThe item level of your reward will be based on the lowest of your top 8 activities this week.",1
 52198,WEEKLY_REWARDS_THRESHOLD_WORLD,Complete %d |4World Activity:World Activities;,1
 52200,ACCOUNT_WIDE_REPUTATION_TUTORIAL,|cnHIGHLIGHT_FONT_COLOR:This is a|r |cnNORMAL_FONT_COLOR:Warband|r |cnHIGHLIGHT_FONT_COLOR:faction. Reputation gained with this faction is shared across all of your characters.|r,1
 52201,ACCOUNT_TRANSFERABLE_CURRENCIES_TUTORIAL,|cnHIGHLIGHT_FONT_COLOR:Some currencies are|r|n|cnNORMAL_FONT_COLOR:Warband Transferable.|r|n|cnHIGHLIGHT_FONT_COLOR:Click a currency to initiate a transfer from another character.|r,1
@@ -22534,7 +22534,7 @@ And spread his flame to all Azeroth.",1
 52203,ACCOUNT_COMPLETED_QUESTS_FILTER_TUTORIAL,|cnHIGHLIGHT_FONT_COLOR:Quests you have already completed with another character are hidden from the map and their NPC quest indicators are faded in the world.|n|nYou can change this setting here.|r,1
 52204,GREAT_VAULT_WORLD_TIER,Tier %s,1
 52205,WEEKLY_REWARDS_ITEM_LEVEL_WORLD,Item Level %1$d - (Tier %2$d),1
-52206,WEEKLY_REWARDS_COMPLETE_WORLD,"Complete activities Tier %1$d or higher to increase this reward's item level.|n- Delves (Tier 1-11)|n- World Activities (Tier 1)|n- Prey (Tier 1, 5, or 8 based on difficulty)|n- Ritual Sites (Tier 5, 6, 7, 12, or 13 based on difficulty)",1
+52206,WEEKLY_REWARDS_COMPLETE_WORLD,"Complete activities Tier %1$d or higher to increase this reward's item level.|n- Delves (Tier 1-11)|n- World Activities (Tier 1)|n- Prey (Tier 1, 5, or 8 based on difficulty)|n- Ritual Sites (Tier 1-6)",1
 52207,SPELL_FAILED_CUSTOM_ERROR_1042,You already have this curio in your collection.,1
 52208,20th_ANNIVERSARY_THEME_01_01,Theme: Cataclysmic Costume,1
 52209,20th_ANNIVERSARY_THEME_01_02,Theme: Humble Beginnings,1
@@ -23091,7 +23091,7 @@ And spread his flame to all Azeroth.",1
 53111,ERR_HOUSING_RESULT_NOT_IN_DECOR_EDIT_MODE,You are not currently in the House Editor,1
 53112,ERR_HOUSING_RESULT_NOT_INSIDE_HOUSE,Not inside House,1
 53113,ERR_HOUSING_RESULT_SERVICE_NOT_AVAILABLE,Service not available,1
-53114,ERR_HOUSING_RESULT_ROOM_NOT_FOUND,Out of bounds,1
+53114,ERR_HOUSING_RESULT_ROOM_NOT_FOUND,Room not found,1
 53115,ERR_HOUSING_RESULT_ROOM_UPDATE_FAILED,Room update failed,1
 53116,ERR_HOUSING_RESULT_NOT_IN_LAYOUT_EDIT_MODE,You are not currently in the Floorplan Editor,1
 53119,ERR_HOUSING_RESULT_PLOT_NOT_FOUND,Plot not found,1
@@ -23271,6 +23271,16 @@ And spread his flame to all Azeroth.",1
 53444,SPELL_FAILED_CUSTOM_ERROR_1071,"Must target an eligible head, chest, or leg class set item.",1
 53445,SPELL_FAILED_CUSTOM_ERROR_1072,Must target an eligible shoulder or hand class set item.,1
 53448,SPELL_FAILED_CUSTOM_ERROR_1073,You do not know how to tame Florafaun.,1
+53449,SOCIAL_DISCORD_CONNECT_SUCCESS_MESSAGE,Discord Account Connected,1
+53450,SOCIAL_DISCORD_CONNECT_FAIL_MESSAGE,Discord Connection Failed,1
+53453,SOCIAL_ENABLE_DISCORD_FUNCTIONALITY,Enable Discord %s Functionality,1
+53454,OPTION_TOOLTIP_SOCIAL_ENABLE_DISCORD_FUNCTIONALITY,Link your Discord account to allow sharing of guild chat and status sharing.,1
+53455,SOCIAL_DISCORD_DISCONNECT,Disconnect,1
+53456,SOCIAL_DISCORD_SIGN_IN,Sign In,1
+53457,SOCIAL_DISCORD_STATUS_CONNECTED,Connected,1
+53458,SOCIAL_DISCORD_STATUS_NOT_CONNECTED,Not Connected,1
+53460,DISCORD_CHANNEL_LIST_LABEL,Discord Channels:,1
+53461,DISCORD_COPY_CHANNEL_LINK,Copy Channel Link,1
 53463,SPELL_FAILED_CUSTOM_ERROR_1074,Cannot mount while disguised.,1
 53465,CINEMATIC_SUBTITLES_OPTIONS_HEADER,Subtitles,3
 53466,CINEMATIC_SUBTITLES_PREVIEW_LABEL,Subtitles Preview,3
@@ -23283,6 +23293,7 @@ And spread his flame to all Azeroth.",1
 53476,POWER_TYPE_FEL_INFUSION,Fel Infusion,1
 53511,UNIT_VIEW_HOUSES,View Houses,1
 53512,VIDEO_OPTIONS_INTEL_XELL,Intel XeLL,3
+53513,GUILDCONTROL_DISCORD_SETTINGS,%s Discord Settings,1
 53514,HOUSE_EDITOR_MODE_BASIC_DECOR_BUTTON,Decorate Mode,1
 53515,HOUSE_EDITOR_MODE_BASIC_DECOR_BUTTON_FMT,Decorate Mode |cnNORMAL_FONT_COLOR:(%s)|r,1
 53516,HOUSE_EDITOR_MODE_LAYOUT_BUTTON,Edit Floorplan,1
@@ -23297,9 +23308,16 @@ And spread his flame to all Azeroth.",1
 53525,HOUSING_EXPERT_DECOR_SUBMODE_TRANSLATE_VERTICAL_FMT,Height |cnNORMAL_FONT_COLOR:(%s)|r,1
 53526,HOUSING_EXPERT_DECOR_SUBMODE_ROTATE_FMT,Rotate |cnNORMAL_FONT_COLOR:(%s)|r,1
 53527,HOUSING_EXPERT_DECOR_SUBMODE_SCALE_FMT,Scale |cnNORMAL_FONT_COLOR:(%s)|r,1
-53528,PHD1,,1
+53528,CONFIRM_LINK_DISCORD,Do you want to link Discord channel,1
+53529,DISCORD_SERVER_NAME,%s,1
+53531,DISCORD_SETUP_OAUTH,Setup OAuth,1
 53532,ERR_MARKSMANSHIP_NOPET_EAGLE,Your Marksmanship Eagle prevents this.,5
+53533,DISCORD_GUILD_SERVER_CHANNEL_LINKED,Discord Linked,1
+53534,DISCORD_SERVER_UNLINK_PROMPT,Unlink,1
+53535,DISCORD_GUILD_LINKED_SERVER,Server: %s,1
+53536,DISCORD_GUILD_LINKED_CHANNEL,Channel: %s,1
 53537,ERR_PLACED_DECOR_LIMIT_REACHED,You have reached the maximum placed Decor limit. Remove some Decor to add more.,1
+53538,DISCORD_GUILD_NEED_TO_OAUTH,In order to link this guild to Discord you need to authenticate with your character,1
 53541,HOUSING_BASIC_DECOR_NUDGE_INSTRUCTION_ACTIVATE,Enable Clipping,1
 53542,HOUSING_BASIC_DECOR_NUDGE_INSTRUCTION_DEACTIVATE,Disable Clipping,1
 53544,BINDING_NAME_HOUSING_TOGGLEDECORNUDGEMODE,Toggle Decor Clipping,1
@@ -23309,8 +23327,14 @@ And spread his flame to all Azeroth.",1
 53557,HOUSING_BASIC_DECOR_SNAP_INSTRUCTION_DEACTIVATE_FMT,Snap to Grid |cnNORMAL_FONT_COLOR:(%s)|nTurn off to ignore the grid while placing. |r,1
 53558,HOUSING_BASIC_DECOR_NUDGE_INSTRUCTION_ACTIVATE_FMT,Enable Clipping |cnNORMAL_FONT_COLOR:(%s)|nTurn on to ignore Decor collision while placing. |r,1
 53559,HOUSING_BASIC_DECOR_NUDGE_INSTRUCTION_DEACTIVATE_FMT,Enable Clipping |cnNORMAL_FONT_COLOR:(%s)|nTurn off for full Decor collision while placing. |r,1
+53560,ERR_DISCORD_LINK_FAILED,Failed to link account to Discord,1
+53562,DISCORD_CHANNEL_LINK_PROMPT,Link,1
+53563,DISCORD_SELECT_SERVER,Discord Server:,1
+53564,DISCORD_SELECT_CHANNEL,Discord Channel:,1
+53565,DISCORD_VALID_SERVER_CHANNEL_LIST,Channels for server %s:,1
 53566,HOUSING_CLEANUP_SELECT_INSTRUCTION,Remove Decor,1
 53567,SPELL_FAILED_CUSTOM_ERROR_1105,You must gather your party before you begin.,1
+53648,DISCORD_SERVER_GET_LIST,Update Server List,1
 53649,PERKS_PROGRAM_CART_ADD,Add to Cart,1
 53650,PERKS_PROGRAM_CART_REMOVE,Remove from Cart,1
 53651,PERKS_PROGRAM_CART_VIEW_TOOLTIP,View Cart,1
@@ -23320,15 +23344,25 @@ And spread his flame to all Azeroth.",1
 53655,PERKS_PROGRAM_CART_CLEAR_TOOLTIP,Clear Cart,1
 53656,PERKS_PROGRAM_CART_TITLE_TEXT,Cart Preview (%d),1
 53658,SPELL_FAILED_CUSTOM_ERROR_2427,A barrier protects the amplifier from losing power.,1
+53659,SOCIAL_DISCORD_STATUS_USERNAME_TITLE,%s,1
 53661,SPELL_FAILED_CUSTOM_ERROR_880,You already have mulch prepared.,1
+53662,SOCIAL_DISCORD_USER_GUILD_LINK_TO_CHANNEL_PROMPT,Register Character to Guild Channel,1
+53663,SOCIAL_DISCORD_USER_GUILD_UNLINK_TO_CHANNEL_PROMPT,Unregister from Guild Channel,1
+53664,SOCIAL_DISCORD_USER_GUILD_LINK_STATUS,User linked to Guild at channel %s,1
+53665,SOCIAL_DISCORD_GUILD_LINK_STATUS,Guild linked at channel %s,1
 53666,RESILIENT_KEY_LEVEL,Resilient Level %d,1
 53668,PERKS_PROGRAM_CART_PURCHASE_POPUP_TEXT,Are you sure you want to exchange %s for %d |4item:items;?,1
-53672,PHD2,,1
+53670,CHAT_GUILD_DISCORD_GET,|Hchannel:GUILD_DISCORD|h[Guild Discord]|h %s:\32,1
+53671,GUILD_DISCORD_CHAT,Guild Discord Chat,1
+53672,CHAT_MSG_GUILD_DISCORD,Guild Discord,1
+53675,COMMUNITIES_GUILD_DISCORD_CHANNEL_NAME,Discord,1
 53679,PERKS_PROGRAM_CART_PURCHASE_TOOLTIP,Purchase Cart,1
 53689,UNITNAME_SUMMON_TITLE58,%s's Body,1
 53698,DROP_CHANCE_ITEMS_ONLY,Chance to receive:,1
-53703,PHD3,/phd,1
-53713,PHD4,,1
+53703,SLASH_GUILD_DISCORD1,/discord,1
+53705,CHAT_GUILD_DISCORD_SEND,Guild Discord:\32,1
+53713,GUILD_DISCORD,Guild Discord,1
+53718,CHAT_GUILD_DISCORD_GET_FROM_DISCORD,|Hchannel:GUILD_DISCORD|h[Guild Discord]|h:\32,1
 53726,SPELL_FAILED_CUSTOM_ERROR_1075,Your target is already protected by a Darkfuse Medichopper.,1
 53728,BINDING_NAME_HOUSING_LAYOUTCAMERA_UP,Move Camera Up,1
 53729,BINDING_NAME_HOUSING_LAYOUTCAMERA_DOWN,Move Camera Down,1
@@ -23345,6 +23379,7 @@ And spread his flame to all Azeroth.",1
 53742,BINDING_NAME_DRIFT,Drift,1
 53744,CONFIRM_REMOVE_WOW_FRIEND,Are you sure you want to remove this friend from your list? This action cannot be undone.,1
 53746,CONFIRM_RELIC_CHOICE,Are you sure you wish to choose this relic? You won't be able to change relics until after the next weekly reset.,1
+53753,DISCORD_GUILD_OAUTH_EXPIRED,OAuth expired please refresh token,1
 53760,SPELL_FAILED_CUSTOM_ERROR_1090,Requires Unbreakable Bond.,1
 53762,ADVANCED_OPTIONS_LABEL,Gameplay Enhancements,1
 53764,ENABLE_COOLDOWN_VIEWER,Enable Cooldown Manager,1
@@ -23419,7 +23454,6 @@ And spread his flame to all Azeroth.",1
 53963,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING_IN_COMBAT,In Combat,1
 53964,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_VISIBLE_SETTING_HIDDEN,Hidden,1
 53967,BANK_CONFIRM_CLEANUP_PROMPT,Are you sure you want to automatically sort your items?|nThis will affect all tabs.,1
-53968,PHD5,,1
 53970,VIEW_HOUSES_NO_HOUSES,No Houses available,1
 53973,HOUSING_CORNERSTONE_NEIGHBORHOOD_TYPE,Type:,1
 53974,HOUSING_CORNERSTONE_OWNED_BY,Owned by:,1
@@ -23432,6 +23466,7 @@ And spread his flame to all Azeroth.",1
 53982,HOUSING_CORNERSTONE_NEIGHBORHOOD_OPEN_GUILD,Open Guild,1
 53983,HOUSING_CORNERSTONE_NEIGHBORHOOD_OPEN_CHARTER,Open Charter,1
 53984,HOUSING_LAYOUT_CANT_PLACE_ROOM_TOOLTIP,This Room type can't be placed in the current location.,1
+53991,DISCORD_GUILD_SERVER_VALIDATE_SERVER_ERROR,Discord Server failed to validate.  Try again.,1
 54001,NEIGHBORHOOD_ROSTER_COLUMN_TITLE_NAME,Name,1
 54002,NEIGHBORHOOD_ROSTER_COLUMN_TITLE_STATUS,Status,1
 54003,NEIGHBORHOOD_ROSTER_COLUMN_TITLE_PLOT,Plot,1
@@ -23451,7 +23486,6 @@ And spread his flame to all Azeroth.",1
 54056,ASSISTED_COMBAT_ROTATION_SPELL_INCLUDED,Included in Single-Button Assistant.,1
 54058,ERR_CURRENCY_TRANSFER_DISABLED,Currency transfers are currently disabled.,1
 54059,CURRENCY_TRANSFER_IN_PROGRESS,Transfer in progress,1
-54061,PHD6,,1
 54062,GUILD_RENAME_ERROR_MUST_BE_IN_A_GUILD,You must be the Guildmaster of a guild in order to use the guild rename feature.,1
 54066,GUILD_RENAME_COSTS_LABEL,This cost will be deducted from your guild bank funds:,1
 54067,HOUSING_DECOR_CUSTOMIZATION_DYES,%s Dyes,1
@@ -23459,7 +23493,7 @@ And spread his flame to all Azeroth.",1
 54069,HOUSING_DECOR_CUSTOMIZATION_THEME,%s Theme,1
 54070,PERSONAL_RESOURCE_DISPLAY_ONLY_SHOW_IN_COMBAT,Only Show While in Combat,1
 54071,HOUSING_DECOR_CUSTOMIZATION_DEFAULT_COLOR,Default (undyed),1
-54072,HOUSING_DECOR_CUSTOMIZATION_DYE_SPEND_WARNING,%d Dye will be removed.,1
+54072,HOUSING_DECOR_CUSTOMIZATION_DYE_SPEND_WARNING,%d |4Dye:Dyes; will be removed.,1
 54074,GUILD_RENAME_COSTS_TOOLTIP,The costs will be deducted from your guild bank,1
 54075,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_SHOW_TOOLTIPS,Show Tooltips,1
 54077,GUILD_RENAME_GUILD_BANK_MONEY_TOOLTIP,Available guild bank funds,1
@@ -23472,7 +23506,7 @@ And spread his flame to all Azeroth.",1
 54106,SPELL_FAILED_CUSTOM_ERROR_1046,You already have this relic in your collection.,1
 54107,HOUSING_DECOR_CUSTOMIZATION_DYE_NUM_OWNED,Available: %d,1
 54108,HOUSING_DECOR_CUSTOMIZATION_SHOW_ONLY_OWNED,Hide Unavailable,1
-54109,HOUSING_DECOR_CUSTOMIZATION_REMOVE_DYE_WARNING,%d Dye will be removed.,1
+54109,HOUSING_DECOR_CUSTOMIZATION_REMOVE_DYE_WARNING,%d |4Dye:Dyes; will be removed.,1
 54112,LOGIN_STATE_WAITFORNETWORK,Waiting for network,2
 54113,ERR_SOCKETING_REQUIRES_FIBER_GEM,That slot requires a Fiber gem.,1
 54114,ERR_SOCKETING_FIBER_GEM_ONLY_IN_FIBERSLOT,Fiber gems can only be placed in Fiber sockets.,1
@@ -23511,6 +23545,7 @@ And spread his flame to all Azeroth.",1
 54210,CONTACTS_LIST_TITLE,Contacts,3
 54211,OPTION_TOOLTIP_BLOCK_NEIGHBORHOOD_INVITES,Block all incoming Neighborhood Invites.,1
 54212,BLOCK_NEIGHBORHOOD_INVITES,Block Neighborhood Invites,1
+54213,DISCORD_PLAYER_NAME,Discord Player Name,1
 54214,12_0_LEGENDS_PAINTING_MINIGAME_02_CONNECT_DOTS,Click adjacent cells to move the paintbrush and connect the dots!,1
 54219,SPELL_FAILED_CUSTOM_ERROR_1078,You cannot Lorewalk while in Party Sync.,1
 54226,HOUSING_HOUSE_SETTINGS_ANYONE,Anyone,1
@@ -23573,7 +23608,6 @@ And spread his flame to all Azeroth.",1
 54348,BANK_LOCKED_REASON_NO_ACCOUNT_INVENTORY_LOCK,The bank is being used by another member of your Warband.,1
 54349,BANK_LOCKED_REASON_BANK_DISABLED,This bank is currently unavailable.,1
 54350,BANK_LOCKED_REASON_BANK_CONVERSION_FAILED,Bank conversion failed. Please relog to try again.,1
-54360,PHD7,,1
 54361,HOUSING_DECOR_CUSTOMIZATION_THEME_LABEL_CEILING,Ceiling Style,1
 54362,BINDING_NAME_HOUSING_EXPERTDECORTRANSLATESUBMODE,Advanced Move Submode,1
 54363,HOUSING_EXPERT_DECOR_SUBMODE_TRANSLATE,Move,1
@@ -23594,8 +23628,18 @@ And spread his flame to all Azeroth.",1
 54384,SPELL_FAILED_CUSTOM_ERROR_666,You can't do that.,1
 54385,SPELL_FAILED_CUSTOM_ERROR_651,There is no loot.,1
 54401,CHAT_SETTINGS_ADDITIONAL_COLORS,Additional Colors:,1
+54402,SOCIAL_DISCORD_DISPLAY_NAME,Display Name,1
+54403,OPTION_TOOLTIP_SOCIAL_DISCORD_DISPLAY_NAME,Name to be displayed for incoming chat from Discord for this user,1
+54406,SOCIAL_DISCORD_DISPLAY_NAME_OPTION_LAST_ONLINE,Last Online Character Name,1
+54407,SOCIAL_DISCORD_DISPLAY_NAME_OPTION_GLOBAL_NAME,Discord Name,1
 54409,HOUSING_CORNERSTONE_MOVE_DIALOG,Are you sure you want to move to %s in %s? \n\n The cost from the old House will apply towards the cost of the new one.,1
 54410,HOUSING_CORNERSTONE_IMPORT_DIALOG,Are you sure you want to buy %s in %s for %s? \n\n The layout from your previous House will be applied upon purchase.,1
+54411,OPTION_TOOLTIP_SOCIAL_DISCORD_DISPLAY_NAME_OPTION_LAST_ONLINE,Use the last online character for your Battle.net account in this guild,1
+54412,OPTION_TOOLTIP_SOCIAL_DISCORD_DISPLAY_NAME_OPTION_GLOBAL_NAME,Use your name from Discord,1
+54414,DISCORD_UNKNOWN_USER,Unknown,1
+54415,SOCIAL_DISCORD_DISPLAY_NAME_OPTION_DEFAULT,Default,1
+54416,OPTION_TOOLTIP_SOCIAL_DISCORD_DISPLAY_NAME_OPTION_DEFAULT,"Use game-defined default, currently Last Online Character",1
+54422,DISCORD_USER_WITH_ID,Discord User %s,1
 54613,HOUSING_CORNERSTONE_MOVE_BUTTON,Move House,1
 54614,HOUSING_CORNERSTONE_MOVE_TOOLTIP,You've recently moved. Please try again later.,1
 54615,HOUSING_CORNERSTONE_MOVE_TOOLTIP_TIME,Time remaining: %s,1
@@ -23656,6 +23700,7 @@ And spread his flame to all Azeroth.",1
 54719,REPORT_RESULT_TOO_MANY_REPORTS,Report failed. Too many report attempts. Please try again in a few minutes.,1
 54720,REPORT_RESULT_REQUIRES_CHAT,Report failed. Report type only valid on chat lines.,1
 54721,REPORT_RESULT_REQUIRES_CHAT_OR_VOICE,Report failed. Report type only valid on chat lines or when in voice chat.,1
+54727,DISCORD_GUILD_SETTING_SEPARATE_STREAM,Separate Discord chat from Guild chat,1
 54728,ERR_NEIGHBORHOOD_OWNER_TRANSFERRED_S,%s has accepted the Neighborhood Owner transfer,1
 54729,TRANSMOGRIFY_TOOLTIP_HIDDEN,Hidden,1
 54731,UNITNAME_SUMMON_TITLE59,%s's Oathbound Minion,1
@@ -23778,7 +23823,7 @@ And spread his flame to all Azeroth.",1
 55046,VRN_GPUMEM_4GB,Requires a graphics card with at least 4GB of video memory,3
 55047,VRN_GPUMEM_8GB,Requires a graphics card with at least 8GB of video memory,3
 55048,VRN_GPUMEM_16GB,Requires a graphics card with at least 16GB of video memory,3
-55049,PHD8,,1
+55049,GUILD_OFFICER_PERMISSION_SET_DISCORD,- Link Guild Chat to Discord,1
 55056,KIOSK_SESSION_EXPIRED_TITLE_2,Player Housing,3
 55057,SPELLBOOK_SEARCH_ASSISTED_COMBAT,Assisted Combat spells,1
 55058,12_0_MINIGAME_CHOOSE_ELEMENT,Find the cog moving in a different direction than others,1
@@ -24013,10 +24058,18 @@ And spread his flame to all Azeroth.",1
 55435,JOURNEYS_MAX_LEVEL_LABEL,Maximum Renown,1
 55436,PVP_TAB_TRAINING_GROUNDS,Training Grounds,1
 55437,SPELL_FAILED_CUSTOM_ERROR_2501,Requires Engineering.,1
+55438,DISCORD_MESSAGE_ATTACHMENT,Sent an attachment,1
+55439,DISCORD_MESSAGE_STICKER,Sent a sticker,1
+55440,DISCORD_MESSAGE_POLL,Sent a poll,1
+55442,DISCORD_MESSAGE_EMBED,Sent an embed,1
+55443,DISCORD_MESSAGE_FORWARD,Forwarded ,1
 55447,CHAT_MSG_RECENT_ALLY_NAME_FORMAT,[%s] %s,1
+55448,DISCORD_MESSAGE_EMOJI,Sent an emoji,1
 55450,JOURNEYS_MAX_RENOWN_LABEL,Maximum Renown,1
 55454,ERR_TRAVEL_PASS_GAME_MODE,This friend is playing a different version of World of Warcraft.,3
 55455,HOUSING_DECOR_MISSING_DYE_ERROR_TEXT,Missing Dye,1
+55456,DISCORD_DEFAULT_GUILD_NAME,Guild Member,1
+55457,DISCORD_DEFAULT_GUILD_MESSAGE,Sent a message to guild chat but has not yet linked their Discord account.,1
 55466,SOCIAL_LOCATION_VISIBILITY_SETTING,Location Visibility,1
 55467,SOCIAL_LOCATION_VISIBILITY_SETTING_TOOLTIP,Choose who can see your current in-game location in the Social menu,1
 55468,SOCIAL_LOCATION_VISIBILITY_FRIEND_GUILD,Friends and Guildmates,1
@@ -24035,6 +24088,7 @@ And spread his flame to all Azeroth.",1
 55497,HOUSING_DASHBOARD_REWARD_FIXTURE_TOOLTIP,Increase your Exterior Fixture Budget,1
 55499,TALENT_BUTTON_TOOLTIP_QUICK_ASSIGN_INSTRUCTIONS,Ctrl-Click to Quick Assign,1
 55501,SPELL_FAILED_CUSTOM_ERROR_2502,Requires at least 3 stacks of Torment.,1
+55502,DISCORD_CHAT_MESSAGE_CLICK_DELETE,Delete,1
 55504,SPELL_FAILED_CUSTOM_ERROR_2503,Requires the Shallows Net upgrade.,1
 55508,SPELL_FAILED_CUSTOM_ERROR_652,You have already collected this Decor.,1
 55509,HOUSING_MICROBUTTON_NPE_RESTRICTED_TOOLTIP,This feature becomes available after completing Exile's Reach.,1
@@ -24163,7 +24217,7 @@ And spread his flame to all Azeroth.",1
 55730,TRANSMOG_CUSTOM_SET_RENAME,Rename,1
 55732,TRANSMOG_CUSTOM_SET_REPLACE,Replace With Current Appearance,1
 55733,TRANSMOG_CUSTOM_SET_DELETE,Delete,1
-55736,PHD9,,1
+55736,OPTION_TOOLTIP_SOCIAL_DISCONNECT_DISCORD,To unlink Discord visit Battle.net,1
 55737,CATALOG_SHOP_TOKEN_IN_GAME_ONLY,You must be logged in with a character to purchase a WoW Token.,3
 55739,UNIT_NAMEPLATES_DEBUFF_SCALE,Buff/Debuff Scale,1
 55740,UNIT_NAMEPLATES_DEBUFF_SCALE_TOOLTIP,Controls the size that Nameplate Buffs and Debuffs are displayed on the screen.,1
@@ -24302,6 +24356,7 @@ And spread his flame to all Azeroth.",1
 56001,ERR_TRANSMOG_OUTFIT_SLOT_CANNOT_AFFORD,You can't afford that.,1
 56028,HOUSING_DASHBOARD_TRACK_ENDEAVOR_LABEL,Track,1
 56029,HOUSING_DASHBOARD_UNTRACK_ENDEAVOR_LABEL,Untrack,1
+56031,POWER_TYPE_NECROTIC,Soul Power,1
 56036,SPELL_FAILED_CUSTOM_ERROR_1108,Requires the Fungal Mallet,1
 56041,HOUSING_DASHBOARD_HOUSEINFO_FRAMETITLE,Housing Dashboard,1
 56043,HOUSING_DASHBOARD_CATALOG_TOOLTIP,Decor Catalog,1
@@ -24320,6 +24375,7 @@ And spread his flame to all Azeroth.",1
 56068,TRANSMOG_SET_COMPLETE,Complete,1
 56069,TRANSMOG_SET_INCOMPLETE,Incomplete,1
 56072,RPE_SPELL_INTERRUPT,|cnNORMAL_FONT_COLOR:Shielded cast bars cannot be interrupted|r,1
+56073,SPELL_FAILED_CUSTOM_ERROR_2509,Your Blessing is not strong enough.,1
 56076,COMBAT_WARNINGS_ENABLE_ENCOUNTER_TIMELINE_NOT_AVAILABLE,|cnRED_FONT_COLOR:This feature is not currently available.|r,1
 56077,COMBAT_WARNINGS_ENABLE_ENCOUNTER_WARNINGS_LABEL,Enable Text Warnings,1
 56078,COMBAT_WARNINGS_ENABLE_ENCOUNTER_WARNINGS_NOT_AVAILABLE,|cnRED_FONT_COLOR:This feature is not currently available.|r,1
@@ -24461,8 +24517,8 @@ And spread his flame to all Azeroth.",1
 56337,HOUSING_CATALOG_STORAGE_LIMIT_FMT,%d/%d,1
 56338,HOUSING_CATALOG_STORAGE_LIMIT_TOOLTIP_TITLE_OVER_LIMIT,Storage: |cnRED_FONT_COLOR:%d|r/%d,1
 56339,HOUSING_CATALOG_STORAGE_LIMIT_FMT_OVER_LIMIT,|cnRED_FONT_COLOR:%d|r/%d,1
-56340,HOUSING_DECOR_BUDGET_TOOLTIP_INDOOR,Placed Decor: %d/%d |cnNORMAL_FONT_COLOR:|nLevel up your House to increase your Placement Budget.|r,1
-56341,HOUSING_DECOR_BUDGET_TOOLTIP_OUTDOOR,Placed Decor: %d/%d,1
+56340,HOUSING_DECOR_BUDGET_TOOLTIP_INDOOR,Total Decor Limit: %d/%d \nPet Bed Limit: %d/%d \n |cnNORMAL_FONT_COLOR:|nLevel up your House to increase your Placement Budget.|r,1
+56341,HOUSING_DECOR_BUDGET_TOOLTIP_OUTDOOR,Total Decor Limit: %d/%d \nPet Bed Limit: %d/%d,1
 56343,HOUSING_DECOR_CUSTOMIZATION_DYE_SLOT_TOOLTIP,|cnGREEN_FONT_COLOR:Click to select or remove a Dye|r,1
 56344,HOUSING_DECOR_CUSTOMIZATION_THEME_APPLY_ALL_TOOLTIP,Apply style to all walls in current room.,1
 56345,HOUSING_DECOR_CUSTOMIZATION_WALLPAPER_APPLY_ALL_TOOLTIP,Apply material to all walls in current room.,1
@@ -24483,7 +24539,7 @@ And spread his flame to all Azeroth.",1
 56360,RACE_CLASS_UNLOCK_TEXT,To unlock this class for the selected race:,3
 56365,TRANSMOG_ARTIFACT_OPTIONS_HEADER,Legion Artifact Override,1
 56366,BLIZZARD_STORE_VAS_ERROR_TIMERUNNER_NOT_ALLOWED,- Currently not available for timerunner characters.,3
-56578,ACCESSIBILITY_AUDIO_LABEL,Audio Assist,1
+56578,ACCESSIBILITY_AUDIO_LABEL,Audio Assist,3
 56580,COMBAT_WARNINGS_HIDE_LONG_COUNTDOWNS_LABEL,Hide Long Countdowns,1
 56581,COMBAT_WARNINGS_HIDE_LONG_COUNTDOWNS_TOOLTIP,Only show countdowns on the timeline that will expire in the next few seconds.,1
 56582,HOUSING_MARKET_TAB_UNAVAILABLE_TEXT,Catalog Preview Mode is not currently available.,1
@@ -24507,7 +24563,7 @@ And spread his flame to all Azeroth.",1
 56628,HOUSING_DECOR_PLACEMENT_COST_TOOLTIP,Decor Placement Cost |cnNORMAL_FONT_COLOR:|nHow much of the Decor Placement Budget this Decor costs to place|r,1
 56641,PLAYER_CHOICE_SALTHERILSHAVEN_CONFIRMATION,You will be able to complete a special task on behalf of the invited faction. Your Warband can only select one invitation per week. |n|n|cffffd200Continue?|r,1
 56643,HOUSING_PLACEMENT_PREVIEW_LIMIT_REACHED,"You are at your Preview limit. To add more Decor, please remove one or more existing items.",1
-56644,ERROR_SCRIPT_EXECUTION_HALT,Error reporting is now paused and will resume after reloading the UI.,3
+56644,ERROR_SCRIPT_EXECUTION_HALT,Error reporting is paused because flooding was detected. Reporting will resume after the UI is reloaded.,3
 56645,ERROR_SCRIPT_EXECUTION_LIMIT,"Script from ""%s"" has exceeded its execution time limit.",3
 56653,HOUSING_DECOR_OWNED_ICON_FMT,|A:house-chest-icon:16:16|a %d,1
 56654,HOUSING_DECOR_PLACED_TOOLTIP,Placed: %d,1
@@ -24670,7 +24726,7 @@ And spread his flame to all Azeroth.",1
 56900,HUD_EDIT_MODE_SETTING_UNIT_FRAME_AURA_ORGANIZATION_BUFFS_TOP,Buff Focused,1
 56901,HUD_EDIT_MODE_SETTING_UNIT_FRAME_AURA_ORGANIZATION_BUFFS_RIGHT,Debuff Focused,1
 56902,HUD_EDIT_MODE_SETTING_UNIT_FRAME_CONTAINER_OPACITY,Opacity,1
-56903,HUD_EDIT_MODE_SETTING_UNIT_FRAME_AURA_ICON_SIZE,Icon Size,1
+56903,HUD_EDIT_MODE_SETTING_UNIT_FRAME_AURA_ICON_SIZE,Debuff Size,1
 56905,DAMAGE_METER_TYPE_ABSORBS,Absorbs,1
 56906,12_0_Z4_FEED_THE_VOID_MINIGAME_SCORE,Score,1
 56907,12_0_Z4_FEED_THE_VOID_MINIGAME_LIVES,Lives,1
@@ -24768,8 +24824,8 @@ And spread his flame to all Azeroth.",1
 57062,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPELLABLE_INDICATOR_TYPE_ME,Only show dispel indicators for things I can dispel,1
 57063,COMPACT_UNIT_FRAME_PROFILE_DISPELLABLE_INDICATOR_TYPE_ALL,Show All,1
 57064,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPELLABLE_INDICATOR_TYPE_ALL,Show all dispel indicator types even if I can't dispel it,1
-57066,COMPACT_UNIT_FRAME_PROFILE_DISPLAY_DISPEL_OVERLAY,Dispellable Debuff Color,1
-57067,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPLAY_DISPEL_OVERLAY,Highlight the group frame with a colored overlay if the group member has a dispellable debuff on them.,1
+57066,COMPACT_UNIT_FRAME_PROFILE_DISPLAY_DISPEL_OVERLAY,Color,1
+57067,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPLAY_DISPEL_OVERLAY,Show or hide a graphical overlay if the group member has a dispellable debuff on them.,1
 57068,HOUSING_MARKET_PURCHASE_CONFIRMATION,Purchase all (%s) items for %s?,3
 57069,UNIT_NAMEPLATES_SEARCH_TAG,Nameplates,1
 57070,CATALOG_SHOP_WOW_FLAVOR_TRR,Titan Reforged Realm,3
@@ -24783,7 +24839,7 @@ And spread his flame to all Azeroth.",1
 57093,TRANSMOG_CUSTOM_SET_NEW_TOOLTIP_DISABLED,Add an appearance to create a Custom Set,1
 57094,HOUSING_ENDEAVORS_MIN_LEVEL,Endeavors unlock at Level %d,5
 57098,SPELL_FAILED_CUSTOM_ERROR_2516,You can't hold any more hens.,1
-57100,DAMAGE_METER_AVOIDABLE_DAMAGE_NOT_ACTIVE,Avoidable damage tracking is only active in current season instances,1
+57100,DAMAGE_METER_AVOIDABLE_DAMAGE_NOT_ACTIVE,No avoidable damage has been dealt. Avoidable damage tracking may not be available in legacy content.,1
 57119,ERR_HOUSING_RESULT_GUILD_MORE_ACCOUNTS_NEEDED,Your guild must have at least 10 unique Battle.net accounts to create a guild Neighborhood.,1
 57120,ERR_HOUSING_RESULT_GUILD_MORE_ACTIVE_PLAYERS_NEEDED,Your guild must have at least 10 active Battle.net accounts to create a guild Neighborhood.,1
 57121,ENDEAVOR_INITIATIVES_PROGRESS_TEXT,%0.2f%%,1
@@ -24921,7 +24977,7 @@ And spread his flame to all Azeroth.",1
 57384,CDMSND_WAR3_WOLF_HOWL,WolfHowl,1
 57446,UNIT_NAMEPLATES_TUTORIAL_TOOLTIP,About Nameplates,1
 57447,CAA_SAY_IF_TARGETED_LABEL,Say If Targeted,1
-57448,UNIT_NAMEPLATES_TUTORIAL_STYLE_OPTIONS,"There are |cnTUTORIAL_BLUE_FONT_COLOR:six style options|r for nameplates, and they can be |cnTUTORIAL_BLUE_FONT_COLOR:resized.|r",1
+57448,UNIT_NAMEPLATES_TUTORIAL_STYLE_OPTIONS,"There are |cnTUTORIAL_BLUE_FONT_COLOR:multiple style options|r for nameplates, and they can be |cnTUTORIAL_BLUE_FONT_COLOR:resized.|r",1
 57449,UNIT_NAMEPLATES_TUTORIAL_AGGRO,|cnTUTORIAL_BLUE_FONT_COLOR:Aggro|r comes with its own visual effect and a |cnTUTORIAL_BLUE_FONT_COLOR:sense of progression.|r,1
 57450,UNIT_NAMEPLATES_TUTORIAL_BUFFS_DEBUFFS,"Buffs and debuffs can be shown if you |cnTUTORIAL_BLUE_FONT_COLOR:choose|r, and they're also resizable.",1
 57451,UNIT_NAMEPLATES_TUTORIAL_ENEMY_FRIENDLY,Enemy player nameplates can be set up |cnTUTORIAL_BLUE_FONT_COLOR:differently|r from friendly ones.,1
@@ -24967,13 +25023,13 @@ And spread his flame to all Azeroth.",1
 57545,SLASH_CAA_SAY_TARGET_NAME,saytargetname,1
 57547,SLASH_CAA_HELP_SAY_TARGET_NAME,Says the name of the target when you select it,1
 57548,SLASH_CAA_SAY_COMBAT_START,saycombatstart,1
-57549,SLASH_CAA_HELP_SAY_COMBAT_START,Choose a phrase or sound to indicate combat has started,1
+57549,SLASH_CAA_HELP_SAY_COMBAT_START,[%d - %d] - Choose a phrase to indicate combat has started,1
 57550,SLASH_CAA_SAY_COMBAT_END,saycombatend,1
-57551,SLASH_CAA_HELP_SAY_COMBAT_END,Choose a phrase or sound to indicate combat has ended,1
+57551,SLASH_CAA_HELP_SAY_COMBAT_END,[%d - %d] - Choose a phrase to indicate combat has ended,1
 57552,SLASH_CAA_SAY_TARGET_CASTS_INTERRUPT,interruptalert,1
-57553,SLASH_CAA_HELP_SAY_TARGET_CASTS_INTERRUPT,Announces when the target starts casting something that you can interrupt with an ability,1
+57553,SLASH_CAA_HELP_SAY_TARGET_CASTS_INTERRUPT,[%d - %d] - Choose a phrase to indicate when the target starts casting something that you can interrupt with an ability,1
 57554,SLASH_CAA_SAY_TARGET_CASTS_INTERRUPT_SUCCESS,interruptsuccess,1
-57555,SLASH_CAA_HELP_SAY_TARGET_CASTS_INTERRUPT_SUCCESS,Announces when the target is successfully interrupted,1
+57555,SLASH_CAA_HELP_SAY_TARGET_CASTS_INTERRUPT_SUCCESS,[%d - %d] - Choose a phrase to indicate when the target is successfully interrupted,1
 57556,SLASH_CAA_SAY_YOUR_HEALTH,sayyourhealth,1
 57557,SLASH_CAA_HELP_SAY_YOUR_HEALTH,[%d - %d] - Says your health when it crosses certain percentages,1
 57558,SLASH_CAA_HELP_SUBOPTION_INVALID,Type the previous command and the option number:,1
@@ -25031,7 +25087,7 @@ And spread his flame to all Azeroth.",1
 57636,POWER_TYPE_IMMORTAL_FLAME,Immortal Flame,1
 57638,SLASH_CAA_SAY_IF_TARGETED,sayiftargeted,1
 57639,SLASH_CAA_SAY_IF_TARGETED_NARRATED,say if targeted,1
-57640,SLASH_CAA_HELP_SAY_IF_TARGETED,[%d - %d] - Choose a phrase or sound to indicate that you are targeted by an enemy,1
+57640,SLASH_CAA_HELP_SAY_IF_TARGETED,[%d - %d] - Choose a phrase to indicate that you are targeted by an enemy,1
 57641,HOUSING_MARKET_VC_PURCHASE_CONFIRMATION,Are you sure you want to purchase %d Hearthsteel? Your current cart requires more than this to complete purchase.,3
 57642,SPELL_FAILED_CUSTOM_ERROR_2600,Must have a melee weapon in your off-hand,1
 57647,SLASH_CAA_SAY_PARTY_HEALTH,saypartyhealth,1
@@ -25256,7 +25312,7 @@ And spread his flame to all Azeroth.",1
 57949,SLASH_CAA_HELP_SAY_YOUR_DEBUFFS_MIN_DURATION,[%d - %d] - Choose the minimum duration of a debuff for it to be announced,1
 57950,SLASH_CAA_DEBUFF_SELF_ALERT,debuffselfalert,1
 57951,SLASH_CAA_DEBUFF_SELF_ALERT_NARRATED,Debuff Self Alert,1
-57952,SLASH_CAA_HELP_DEBUFF_SELF_ALERT,Announces when you can dispel a debuff on yourself,1
+57952,SLASH_CAA_HELP_DEBUFF_SELF_ALERT,[%d - %d] - Choose a phrase to indicate when you can dispel a debuff on yourself,1
 57953,CAA_SAMPLE_DEBUFFNAME,Deadly Sting,1
 57954,CAA_SAMPLE_DISPELTTYPE,Magic,1
 57955,CAA_SAY_YOUR_DEBUFFS_FORMAT,Say Your Debuffs Format,1
@@ -25285,11 +25341,14 @@ And spread his flame to all Azeroth.",1
 57986,TRANSMOG_SLOT_DISPLAY_TYPE_UNASSIGNED_ARTIFACT_TOOLTIP,"When this outfit is applied, items in this slot will not have their appearance overridden.",1
 57989,PHOTO_SHARING_SIGN_IN,Sign in,3
 57990,PHOTO_SHARING_DISCONNECT,Disconnect,3
+57991,HOUSING_HOUSEFINDER_IGNORE_NEIGHBORHOOD,Are you sure you want to remove and ignore this Neighborhood?,1
+57992,HOUSING_HOUSEFINDER_IGNORE_NEIGHBORHOOD_CONFIRM,Ignore,1
+57993,HOUSING_HOUSEFINDER_IGNORE_NEIGHBORHOOD_CANCEL,Cancel,1
 57996,PHOTO_SHARING_PAGE_NAME_SHORT,Craft Your World,3
 57997,PHOTO_SHARING_SIGN_IN_NOTIFICATION,Successfully connected to Pinterest,3
 57998,PHOTO_SHARING_DISCONNECT_NOTIFICATION,,3
 58001,CATALOG_SHOP_LOADING,Loading...,3
-58002,BONUS_BUTTON_RANDOM_TRAINING_GROUND_DESC,Train against game-controlled opponents in a random battleground.,1
+58002,BONUS_BUTTON_RANDOM_TRAINING_GROUND_DESC,Practice in a large-team battleground against game-controlled opponents.,1
 58003,DAMAGE_METER_TYPE_ENEMY_DAMAGE_TAKEN,Enemy Damage Taken,1
 58004,TRANSMOG_USABLE_DISCOUNT,Free Transmog outfit update available,1
 58005,TRANSMOG_USABLE_DISCOUNT_CONFIRM,You have a free Transmog outfit update. This offer is limited to a single use per character.,1
@@ -25322,6 +25381,7 @@ And spread his flame to all Azeroth.",1
 58055,CATALOG_SHOP_DECOR_INDIVIDUAL_OWNED_TOOLTIP,"Placed: %d, Storage: %d",3
 58056,CATALOG_SHOP_DECOR_BUNDLE_OWNED,Some Items Owned,3
 58057,CATALOG_SHOP_DECOR_BUNDLE_OWNED_TOOLTIP,Some items in this bundle are already owned. Check details for more information.,3
+58067,HOUSING_HOUSEFINDER_OLD_NEIGHBORHOOD,You have recently relinquished a House in this Neighborhood.,1
 58080,SLASH_TRANSMOG_OUTFIT2,/outfit,1
 58094,CATALOG_SHOP_HOUSING_WARNING,Midnight Expansion required to use Housing items.,3
 58095,OBJECTIVES_VIEW_IN_TRAVELERS_LOG,Open Activity Details,1
@@ -25332,6 +25392,7 @@ And spread his flame to all Azeroth.",1
 58114,ENDEAVOR_SINGLE_CONTRIBUTION_LABEL,You can only contribute to one Endeavor at a time.,1
 58115,ENDEAVOR_SWITCHING_HELPTIP,Switch between different Endeavors by selecting your house in the Neighborhood!\n\nYou can only contribute to one Endeavor at a time.,1
 58116,TRANSMOG_SET_COMPLETION_FORMAT,(%s/%s),1
+58150,SPELL_FAILED_CUSTOM_ERROR_2601,You do not have enough Home-Grown Wax.,1
 58151,SPELL_FAILED_CUSTOM_ERROR_2523,Only usable on Galactic Gladiator weapons and trinkets.,1
 58152,SPELL_FAILED_CUSTOM_ERROR_2524,Item must be a Galactic Gladiator weapon or trinket to upgrade.,1
 58162,HOUSING_FIXTURE_ATTACHED_DECOR_CONFIRMATION,This change will affect Decor currently attached to your house.\n\nWould you prefer to put the attached Decor into storage or leave it detached?,1
@@ -25349,7 +25410,12 @@ And spread his flame to all Azeroth.",1
 58188,HOUSING_MARKET_PURCHASE_CONFIRMATION_SINGLE_ITEM,Purchase item for %s?,3
 58189,TIERED_ENTRANCE_CHALLENGES,Choose Your Challenges,1
 58190,TIERED_ENTRANCE_AFFIXES,Map Properties,1
+58193,SPELL_FAILED_CUSTOM_ERROR_2602,This wax statue can't get any bigger!,1
+58194,SPELL_FAILED_CUSTOM_ERROR_2603,There isn't enough community wax available!,1
+58195,SPELL_FAILED_CUSTOM_ERROR_2604,You have received community wax too recently. Come back later to donate.,1
+58196,SPELL_FAILED_CUSTOM_ERROR_2605,You have donated community wax too recently. Come back later to retrieve.,1
 58197,HOUSING_EXTERIOR_CUSTOMIZATION_HIDE_DECOR_LABEL,Hide Decor,1
+58198,SPELL_FAILED_CUSTOM_ERROR_2606,This statue can't get any shinier!,1
 58199,HOUSING_PURCHASE_FAILURE_INSUFFICIENT_FUNDS,"Purchase has failed, Insufficient funds.",3
 58201,TIERED_ENTRANCE_FRAME_CONFIG_OPERATION_TOO_FAST,Processing selection. Please wait.,1
 58204,ENDEAVOR_TOOLTIP_CURRENCY_TOTAL,Total: %s/%s,1
@@ -25366,11 +25432,13 @@ And spread his flame to all Azeroth.",1
 58224,HOUSING_DECOR_VARIANT_DYED_COUNT_TOOLTIP,Current Dye Scheme: %d,1
 58225,HOUSING_DECOR_VARIANT_TOTAL_OWNED_TOOLTIP,Total Owned: %d,1
 58226,HOUSING_DECOR_DYES_LABEL,Dyes:,1
+58228,SPELL_FAILED_CUSTOM_ERROR_2607,"Pup treats, sponge, and water bucket required.",1
 58229,PHOTO_SHARING_SETTINGS_LABEL_TOOLTIP_RESTRICTED,|cnERROR_COLOR:Connecting to Pinterest is disabled by Parental Controls.|r,3
 58231,HUD_EDIT_MODE_SETTING_PERSONAL_RESOURCE_DISPLAY_HIDE_HEALTH_BAR,Hide Health Bar,1
 58232,HUD_EDIT_MODE_SETTING_PERSONAL_RESOURCE_DISPLAY_HIDE_POWER_BAR,Hide Power Bar,1
 58233,JOURNEYS_KNOWN_ITEM,Already Known,1
 58234,HUD_EDIT_MODE_SETTING_PERSONAL_RESOURCE_DISPLAY_HIDE_CLASS_INFO,Hide Class Resources,1
+58235,SPELL_FAILED_CUSTOM_ERROR_2608,Too many pots! Finish existing candles before starting more.,1
 58236,SLASH_EDITMODE2,/emode,1
 58237,SLASH_EDITMODE3,/edit,1
 58238,SLASH_CLICKCASTING1,/clickcasting,1
@@ -25416,10 +25484,21 @@ And spread his flame to all Azeroth.",1
 58586,DECOR_LIGHT_RADIUS_INDICATOR_HELPTIP,Exterior lights cannot overlap.|n|nThe indicator will turn red when multiple lights overlap.,1
 58590,ASSISTED_COMBAT_ROTATION_REDUCE_HIGHLIGHTS,Reduce Highlights on Abilities,1
 58591,OPTION_TOOLTIP_ASSISTED_COMBAT_ROTATION_REDUCE_HIGHLIGHTS,"When enabled, highlight effects are shown strongly on the Single-Button icon and normal spell highlights are reduced. When disabled, spells show their full highlights.",1
+58592,CENSORED_LFG_GROUP_NAME,Flagged Group,1
+58593,CENSORED_LFG_GROUP_SHOW,[Show Group],1
+58594,CENSORED_LFG_COMMENT,"This group's title or description was flagged as potentially inappropriate. Press ""Show Group"" to view the full title and description.",1
+58595,CENSORED_LFG_CREATE_GROUP,Your group listing may contain inappropriate content.\n\n|cffffd200The title or description has been flagged as potentially inappropriate. Do you want to edit it?|h,1
+58597,CENSORED_LFG_CREATE_GROUP_EDIT,Edit,1
+58598,CENSORED_LFG_EDIT_GROUP,Your listing may still contain inappropriate content.\n\n|cffffd200The updated title or description has been flagged as potentially inappropriate. Do you want to edit it?|h,1
+58599,CENSORED_LFG_GROUP_HEADER_WARNNG,Title or description flagged as inappropriate,1
+58653,HUD_EDIT_MODE_RAID_WARNING_LABEL,Raid Warnings,1
 58668,HUD_EDIT_MODE_SETTING_STATUS_TACKING_BAR_SIZE,Size,1
+58679,CENSORED_LFG_CREATE_GROUP_DECLINE_EDIT,No,1
+58688,CENSORED_LFG_EDIT_UNCHANGED,Potentially inappropriate title and description have not been changed.,1
 58689,ENDEAVOR_XP_TOOLTIP_TITLE,House XP Available,1
 58690,ENDEAVOR_XP_TOOLTIP_DESCRIPTION,You can earn House XP from completing Endeavor tasks.,1
 58691,ENDEAVOR_XP_TOOLTIP_AVAILABLE,Available: %s,1
+58695,SPELL_FAILED_CUSTOM_ERROR_2609,Requires a full candlepot!,1
 58696,MAINMENUBAR_COMMUNICATION_PROTOCOL_LABEL,Communication Protocol:\nHome: %s\nWorld: %s,1
 58700,HUD_EDIT_MODE_TOTEM_ACTION_BAR_LABEL,Totem Bar,1
 58701,QUEST_HUB_TOOLTIP_TRAVEL_HEADER,Travel,1
@@ -25428,9 +25507,45 @@ And spread his flame to all Azeroth.",1
 58704,RUNES_OF_POWER,Omnium Folio,1
 58706,HUD_EDIT_MODE_SETTING_UNIT_FRAME_BIGDEFENSIVE_AURA_ICON_SIZE,Big Defensive Size,1
 58711,SPELL_FAILED_CUSTOM_ERROR_2666,Your quest log is full.,1
+58715,ALTERED_FORMS_COUNT_FORMAT,(%d),1
 58716,HOUSING_DECOR_CATEGORIES_TOOLTIP,%s - %s,1
 58721,HUD_EDIT_MODE_SETTING_DAMAGE_METER_VISIBILITY_IN_GROUP,In Group,1
 58731,BLIZZARD_STORE_VAS_ERROR_BOOST_THROTTLE,Maximum number of character boosts reached for the day. Please try again tomorrow.,3
+58736,HUD_EDIT_MODE_GROUP_AURA_SETTINGS,Buff Settings,1
+58737,COOLDOWN_VIEWER_SETTINGS_TAB_GROUP_AURAS,Group Buffs,1
+58738,HUD_EDIT_MODE_SETTING_UNIT_FRAME_BUFF_AURA_ICON_SIZE,Buff Size,1
+58740,ERR_HOUSING_RESULT_BLUEPRINT_CODE_INVALID,Invalid Share Code,1
+58741,ERR_HOUSING_RESULT_BLUEPRINT_GENERIC_EXPORT_ERROR,Failed to save Blueprint.,1
+58742,ERR_HOUSING_RESULT_BLUEPRINT_GENERIC_IMPORT_ERROR,Failed to import Blueprint.,1
+58743,ERR_HOUSING_RESULT_BLUEPRINT_LOCATION_INVALID,You can't save or import Blueprints from this location.,1
+58744,ERR_HOUSING_RESULT_BLUEPRINT_NAME_INVALID,Invalid Blueprint name,1
+58745,ERR_HOUSING_RESULT_BLUEPRINT_TYPE_INVALID,Invalid Blueprint type,1
+58746,ERR_HOUSING_RESULT_BLUEPRINT_REQUIREMENTS_UNMET,You are missing one or more items required to import this Blueprint.,1
+58747,ERR_HOUSING_RESULT_BLUEPRINT_VALIDATION_FAILED,Failed to validate whether the Blueprint's requirements have been met.,1
+58748,ERR_HOUSING_RESULT_BLUEPRINT_VERSION_INVALID,Invalid Blueprint version,1
+58749,ERR_HOUSING_RESULT_INVALID_EXTERIOR_DOCUMENT,Failed to read House Exterior data,1
+58750,ERR_HOUSING_RESULT_INVALID_INTERIOR_DOCUMENT,Failed to read House Interior data,1
+58751,HOUSING_BLUEPRINT_TYPE_HOUSE,Full Layout Blueprint,1
+58752,HOUSING_BLUEPRINT_TYPE_ROOM,Room Blueprint,1
+58753,HOUSING_BLUEPRINT_TYPE_INTERIOR,Interior Blueprint,1
+58754,HOUSING_BLUEPRINT_TYPE_EXTERIOR,Exterior Blueprint,1
+58756,HOUSING_CONTROLS_BLUEPRINT_IMPORT,Import Blueprint,1
+58757,HOUSING_CONTROLS_BLUEPRINT_EXPORT,Save Blueprint,1
+58758,HOUSING_CONTROLS_BLUEPRINT_TOOLTIP,Blueprints,1
+58759,HOUSING_BLUEPRINT_EXPORT_HEADER,Save Blueprint,1
+58760,HOUSING_BLUEPRINT_EXPORT_TYPE_PLACEHOLDER,Select option,1
+58761,HOUSING_BLUEPRINT_EXPORT_NAME_PLACEHOLDER,Name,1
+58762,HOUSING_BLUEPRINT_EXPORT_SAVE_BUTTON,Save,1
+58764,HOUSING_BLUEPRINT_EXPORT_SAVE_TOOLTIP_TYPE_AND_NAME,Select a Blueprint Type and enter a name for the Blueprint.,1
+58765,HOUSING_BLUEPRINT_EXPORT_SAVE_TOOLTIP_TYPE,Select a Blueprint Type.,1
+58766,HOUSING_BLUEPRINT_EXPORT_SAVE_TOOLTIP_NAME,Enter a Blueprint Name.,1
+58767,HOUSING_BLUEPRINT_EXPORT_NAME_SAVED_FMT,%s Saved!,1
+58768,HOUSING_BLUEPRINT_EXPORT_SHARECODE_LABEL,Blueprint Code:,1
+58769,HOUSING_BLUEPRINT_EXPORT_CHAT_LINK_BUTTON,Share in Chat,1
+58770,HOUSING_BLUEPRINT_EXPORT_CLIPBOARD_BUTTON,Copy to Clipboard,1
+58771,HOUSING_BLUEPRINT_EXPORT_CLIPBOARD_CONFIRMATION,Blueprint code copied to clipboard.,1
+58772,HOUSING_BLUEPRINT_EXPORT_BLUEPRINTS_COLLECTION_BUTTON,Go to Saved Blueprints,1
+58773,HOUSING_BLUEPRINT_EXPORT_ERROR_FMT,Error: %s,1
 58793,ITEM_MOD_PHYSICAL_DAMAGE_DONE_SHORT,Physical Damage,1
 58794,ITEM_MOD_PHYSICAL_DAMAGE_DONE,Increases physical damage done by up to %s.,1
 58795,ITEM_MOD_HOLY_DAMAGE_DONE_SHORT,Holy Damage,1
@@ -25445,9 +25560,52 @@ And spread his flame to all Azeroth.",1
 58804,ITEM_MOD_SHADOW_DAMAGE_DONE,Increases shadow damage done by up to %s.,1
 58805,ITEM_MOD_ARCANE_DAMAGE_DONE_SHORT,Arcane Damage,1
 58806,ITEM_MOD_ARCANE_DAMAGE_DONE,Increases arcane damage done by up to %s.,1
+58807,RAF_NO_RECRUITS_DESC_PREAMBLE,|cffffd200Recruit friends to begin earning rewards for each month they subscribe.|n|nPlay together to unlock additional rewards!|r|n|nFor more info:|n,3
+58808,RAF_NO_RECRUITS_DESC_HYPERLINK,|HurlIndex:49|h|cff82c5ffVisit our Recruit A Friend Website|r|h,3
+58811,SOCIAL_UI_FRIENDS_TAB_NAME,Friends,3
+58812,SOCIAL_UI_RECENT_ALLIES_TAB_NAME,Recent Allies,3
+58814,SOCIAL_UI_QUICK_JOIN_TAB_NAME,Quick Join,3
+58815,SOCIAL_UI_FRIEND_REQUESTS_TAB_NAME,Friend Requests,3
+58816,SOCIAL_UI_RECRUIT_A_FRIEND_TAB_NAME,Recruit A Friend,3
+58817,SOCIAL_UI_RAID_TAB_NAME,Raid,3
+58818,SOCIAL_UI_PRESENCE_TYPE_LABEL_ONLINE,Online,3
+58819,SOCIAL_UI_PRESENCE_TYPE_LABEL_OFFLINE,Offline,3
+58820,SOCIAL_UI_PRESENCE_TYPE_LABEL_AWAY,Away,3
+58821,SOCIAL_UI_PRESENCE_TYPE_LABEL_BUSY,Busy,3
+58822,SOCIAL_UI_PRESENCE_TYPE_LABEL_UNKNOWN,Unknown,3
+58823,SOCIAL_UI_PRESENCE_TYPE_DROPDOWN_FORMAT,%s%s,3
+58824,SOCIAL_UI_PRESENCE_TYPE_DROPDOWN_TOOLTIP_FORMAT,Status: %s,3
+58825,SOCIAL_UI_BATTLE_NET_BAR_MENU_BUTTON_LABEL,Menu,3
+58826,SOCIAL_UI_MENU_BROADCAST_BUTTON_LABEL,Broadcast,3
+58827,SOCIAL_UI_MENU_IGNORE_LIST_BUTTON_LABEL,Ignore List,3
+58828,SOCIAL_UI_BATTLE_TAG_COPY_BUTTON_LABEL,Copy BattleTag,3
+58829,SOCIAL_UI_PERSONAL_BATTLE_TAG_COPIED_NOTICE,BattleTag copied to clipboard.,3
+58830,SOCIAL_UI_BATTLE_NET_UNAVAILABLE_NOTICE,Blizzard services are unavailable.,3
+58831,SOCIAL_UI_BATTLENET_UNAVAILABLE_ALERT,Blizzard services are currently unavailable.|n|nYour Battle.net friends will not show up. You will also not be able to send or receive new Battle.net friend requests. A game restart may be required to re-enable functionality.,3
+58832,SOCIAL_UI_BATTLENET_BROADCAST_FRAME_HEADER,Broadcast,3
+58833,SOCIAL_UI_BATTLENET_BROADCAST_FRAME_PROMPT,Tell your friends what you're doing,3
+58834,SOCIAL_UI_BATTLENET_BROADCAST_UPDATE_BUTTON_LABEL,Update,3
+58835,SOCIAL_UI_BATTLENET_BROADCAST_CANCEL_BUTTON_LABEL,Cancel,3
+58836,SOCIAL_UI_IGNORE_LIST_TITLE,Ignore List,3
+58837,SOCIAL_UI_IGNORE_LIST_IGNORE_HEADER,Ignored,3
+58838,SOCIAL_UI_IGNORE_LIST_BATTLE_NET_BLOCK_HEADER,Blocked,3
+58839,SOCIAL_UI_IGNORE_LIST_REMOVE_BUTTON_LABEL,Remove from list,3
+58840,SOCIAL_UI_IGNORE_LIST_BLOCK_BUTTON_LABEL,Ignore Player,3
+58841,SOCIAL_UI_SEARCH_BOX_INSTRUCTIONS,Search for keywords,3
+58842,SOCIAL_UI_SEARCH_FILTER_DROPDOWN_LABEL,Show All,3
+58843,SOCIAL_UI_RECENT_ALLIES_VIEW_HEADER_PINNED,Pinned %d/%d,3
+58844,SOCIAL_UI_RECENT_ALLIES_VIEW_HEADER_UNPINNED,Recent Allies %d/%d,3
+58845,SOCIAL_UI_RECENT_ALLIES_LEVEL_DISPLAY_FORMAT,Level %d,3
 58849,OMNIUM_FOLIO_UNLOCKED,Omnium Folio unlocked,1
 58850,RUNES_OF_POWER_HELPTIP,Select a Core Rune.,1
 58854,CATALOG_SHOP_ALSO_INCLUDES,Also Includes:,3
+58857,PING_SUBJECT_TYPE_ACTION_READY_SPELL,%s is ready!,1
+58858,PING_SUBJECT_TYPE_ACTION_READY_ITEM,%s is ready!,1
+58859,PING_SUBJECT_TYPE_ACTION_ON_COOLDOWN_SPELL,%s will be ready in %d:%02d!,1
+58860,PING_SUBJECT_TYPE_ACTION_ON_COOLDOWN_ITEM,%s will be ready in %d:%02d!,1
+58861,PING_SUBJECT_TYPE_ACTION_UNAVAILABLE_SPELL,Can't cast %s!,1
+58862,PING_SUBJECT_TYPE_ACTION_UNAVAILABLE_ITEM,Can't use %s!,1
+58871,RAF_TRIAL_ACCOUNT_ERROR,[DNT] Your account is a trial account.,3
 58882,ITEM_MOD_TWOHANDED_AXES_SHORT,Two-Handed Axes Skill,1
 58883,ITEM_MOD_TWOHANDED_AXES,Increases two-handed axes skill by %s.,1
 58884,ITEM_MOD_TWOHANDED_MACES_SHORT,Two-Handed Maces Skill,1
@@ -25506,38 +25664,476 @@ And spread his flame to all Azeroth.",1
 58937,ITEM_MOD_FISHING,Increases fishing skill by %s.,1
 58938,ITEM_MOD_TAILORING_SHORT,Tailoring Skill,1
 58939,ITEM_MOD_TAILORING,Increases tailoring skill by %s.,1
+58940,SPELL_FAILED_CUSTOM_ERROR_2610,This wick is still souldbound to its finder. Try again in a moment.,1
 58941,WORLD_TIER_HEROIC,Heroic,1
 58942,WORLD_TIER_MYTHIC,Mythic,1
+58957,PING_TARGET_OPTION,Ping Target,1
+58959,PING_TARGET_OPTION_ENVIRONMENT,Environment,1
+58960,OPTION_TOOLTIP_PING_TARGET_ENVIRONMENT,"Pings will only hit environmental objects or locations in the world, ignoring all units.",1
+58961,PING_TARGET_OPTION_UNITS,Units,1
+58962,OPTION_TOOLTIP_PING_TARGET_UNITS,"Pings will only hit units in the world, ignoring all environmental objects or locations.",1
+58963,PING_TARGET_OPTION_ALL,Show All,1
+58964,OPTION_TOOLTIP_PING_TARGET_ALL,Pings will hit both Environmental and Units in the world.,1
+58965,OPTION_TOOLTIP_PING_TARGET_KEYBIND,"Set a keybind to toggle between ""Show All"" and ""Environment"" states in Options > Keybindings > Ping System.",1
+58966,OPTION_TOOLTIP_PING_TARGET,Determines what can be targeted by a ping.,1
+58967,BINDING_NAME_TOGGLEPINGTARGET,Toggle Ping Target,1
 58969,PLAYER_DIFFICULTY_MYTHIC_FLEXIBLE,Mythic (Flexible Raiding),1
+58970,HOUSING_BLUEPRINT_IMPORT_HEADER,Import Blueprint,1
+58971,HOUSING_BLUEPRINT_IMPORT_INPUT_NEXT_BUTTON,Next,1
+58972,HOUSING_BLUEPRINT_IMPORT_SHARECODE_LABEL,Enter Import Code:,1
+58973,HOUSING_BLUEPRINT_IMPORT_SHARECODE_INVALID,Not a valid code.,1
+58974,HOUSING_BLUEPRINT_IMPORT_NOTICE,The content you are about to import is made by another player. Are you sure you want to continue?,1
+58975,HOUSING_BLUEPRINT_IMPORT_CONFIRMATION_TITLE_FULL_LAYOUT,This Blueprint will replace your entire house interior and exterior.,1
+58976,HOUSING_BLUEPRINT_IMPORT_CONFIRMATION_TITLE_INTERIOR,This Blueprint will replace your entire house interior.,1
+58977,HOUSING_BLUEPRINT_IMPORT_CONFIRMATION_TITLE_EXTERIOR,This Blueprint will replace your entire house exterior.,1
+58978,HOUSING_BLUEPRINT_IMPORT_CONFIRMATION_TITLE_LAWN,This Blueprint will replace all Decor on your Plot.,1
+58979,HOUSING_BLUEPRINT_IMPORT_CONFIRMATION_TEXT,Are you sure you want to import this Blueprint? A backup of your current Layout will be added to your saved Blueprints.,1
+58980,HOUSING_BLUEPRINT_IMPORT_CONFIRMATION_CONFIRM,Import,1
+58981,HOUSING_BLUEPRINT_IMPORT_CONFIRMATION_CANCEL,Cancel,1
+58982,HOUSING_BLUEPRINT_IMPORT_ERROR_FMT,Error: %s,1
+58983,HOUSING_BLUEPRINT_IMPORT_SUCCESS_MESSAGE,Blueprint import successful!,1
 59027,GROUP_BUFF_FILTER_SECTION_SHOWN,Group Frame Buffs,1
 59028,GROUP_BUFF_FILTER_SECTION_HIDDEN,Not Displayed,1
 59029,GROUP_BUFF_FILTER_MOVE_TO_SHOWN,Move to Group Frame Buffs,1
 59030,GROUP_BUFF_FILTER_MOVE_TO_HIDDEN,Move to Not Displayed,1
 59031,GROUP_BUFF_FILTER_NEW_VISUAL_ALERT,New Visual Alert,1
-59032,GROUP_BUFF_FILTER_REMOVE_VISUAL_ALERT,Remove Visual Alert,1
 59040,HUD_EDIT_MODE_PERSONAL_RESOURCE_DISPLAY_NO_CLASS_RESOURCES_TOOLTIP,The Personal Resource Display doesn't show any Class Resources for your Class and current Specialization.,1
 59041,HUD_EDIT_MODE_PERSONAL_RESOURCE_DISPLAY_DISABLED_TOOLTIP,"Displays health, power, and class resources. The Personal Resource Display is currently disabled. Enable it in: Combat>Personal Resource Display",1
+59042,SLASH_PING_SPELL1,/pingspell,1
+59043,SLASH_PING_SPELL2,/pingspell,1
+59044,SLASH_PING_ITEM1,/pingitem,1
+59045,SLASH_PING_ITEM2,/pingitem,1
+59046,PING_TARGET_TOGGLED_ALL,Ping Target: Show All Enabled,1
+59047,PING_TARGET_TOGGLED_ENVIRONMENT,Ping Target: Environment Enabled,1
 59048,PLAYER_CHOICE_GRID_HEADER,What story would you like to hear?,1
 59049,PLAYER_CHOICE_GRID_DESC,Stay a while and listen to stories of the past from Azeroth and beyond.,1
+59057,SPELL_FAILED_CUSTOM_ERROR_2612,You have no idea how to use this thing.,1
+59058,GROUP_BUFF_FILTER_VISUAL_ALERT_DIALOG_LABEL_VISUAL_TYPE,Visual Type,1
+59059,UNIT_NAMEPLATES_FRIENDLY_PLAYER_SHOW_ONLY_NAME,Only Show Names,1
+59060,UNIT_NAMEPLATES_FRIENDLY_PLAYER_NAME_USE_CLASS_COLOR,Use Class Color for Names,1
+59061,OPTION_TOOLTIP_UNIT_NAMEPLATES_FRIENDLY_PLAYER_SHOW_ONLY_NAME,Hides all the parts of friendly player nameplates except for their name.,1
+59062,OPTION_TOOLTIP_UNIT_NAMEPLATES_FRIENDLY_PLAYER_NAME_USE_CLASS_COLOR,Changes the color of the names of friendly player nameplates to use their class color.,1
 59068,TOOLTIP_ITEM_STAT_PERCENTAGE_FORMAT,%1$c%2$.1f%% %3$s,1
 59070,TOOLTIP_ITEM_STAT_PERCENTAGE_RANGE_FORMAT,%1$c%2$.1f-%3$.1f%% %4$s,1
+59084,HOUSING_DECOR_CUSTOMIZATION_PET_ASSIGN,Assign Pet,1
+59085,HOUSING_DECOR_CUSTOMIZATION_PET_BEHAVIOR,Behavior,1
+59089,CHAT_PING_GET,%s:\32,1
+59113,ERR_HOUSING_BLUEPRINT_REQUIREMENT_LOCATION,You must be at your House to import a Blueprint,1
+59114,ERR_HOUSING_BLUEPRINT_REQUIREMENT_BUDGETS,You do not have enough placement budgets to import this Blueprint.,1
+59115,ERR_HOUSING_BLUEPRINT_REQUIREMENT_BUDGET_DECOR,You do not have enough Decor placement budget to import this Blueprint.,1
+59116,ERR_HOUSING_BLUEPRINT_REQUIREMENT_BUDGET_ROOM,You do not have enough Room placement budget to import this Blueprint.,1
+59117,ERR_HOUSING_BLUEPRINT_REQUIREMENT_ROOM,One or more of the Rooms in this Blueprint have not been unlocked.,1
+59118,ERR_HOUSING_BLUEPRINT_REQUIREMENT_FIXTURE,One or more of the Exterior Fixtures in this Blueprint have not been unlocked.,1
+59119,ERR_HOUSING_BLUEPRINT_REQUIREMENT_DECOR,You're missing one or more of the Decor in this Blueprint.,1
+59120,ERR_HOUSING_BLUEPRINT_REQUIREMENT_DYE,You're missing one or more of the Dyes in this Blueprint.,1
+59121,ERR_HOUSING_BLUEPRINT_REQUIREMENT_EXTERIOR_FACTION,This house type cannot be used in your neighborhood.,1
+59122,ERR_HOUSING_BLUEPRINT_REQUIREMENT_HOUSE_TYPE,You have not unlocked this House type.,1
+59123,ERR_HOUSING_BLUEPRINT_REQUIREMENT_HOUSE_SIZE,You have not unlocked this House size.,1
+59124,HOUSING_BLUEPRINT_IMPORT_VALIDATION_BUDGET_FMT,%d,1
+59125,HOUSING_BLUEPRINT_IMPORT_VALIDATION_BUDGET_COMPARE_FMT,%d/%d,1
+59126,HOUSING_BLUEPRINT_IMPORT_VALIDATION_CONTENTS_COUNT_FMT,Items: %d,1
+59127,HOUSING_BLUEPRINT_IMPORT_VALIDATION_CONTENTS_COUNT_COMPARE_FMT,Available Items: %d/%d,1
+59128,HOUSING_BLUEPRINT_IMPORT_VALIDATION_LIST_BUTTON,View List,1
+59129,HOUSING_BLUEPRINT_IMPORT_VALIDATION_IMPORT_BUTTON,Import,1
 59130,ITEM_MOD_FIRE_PENETRATION_SHORT,Fire Penetration,1
 59132,ITEM_MOD_NATURE_PENETRATION_SHORT,Nature Penetration,1
 59134,ITEM_MOD_FROST_PENETRATION_SHORT,Frost Penetration,1
 59136,ITEM_MOD_SHADOW_PENETRATION_SHORT,Shadow Penetration,1
 59138,ITEM_MOD_ARCANE_PENETRATION_SHORT,Arcane Penetration,1
+59140,SHOW_PINGS_ON_RAID_FRAMES,Show Pings on Raid Frames,1
+59141,OPTION_TOOLTIP_SHOW_PINGS_ON_RAID_FRAMES,Display ping indicators on raid frames when a player receives a ping.,1
 59154,NAME_DELIMITER,-,3
 59156,HUD_EDIT_MODE_SETTING_PERSONAL_RESOURCE_DISPLAY_HIDE_ALT_POWER_BAR,Hide Alternate Power Bar,1
 59157,HUD_EDIT_MODE_PERSONAL_RESOURCE_DISPLAY_NO_ALT_POWER_BAR_TOOLTIP,The Personal Resource Display doesn't show an Alternate Power Bar for your Class and current Specialization.,1
+59177,COOLDOWN_VIEWER_SETTINGS_CATEGORY_EQUIP_ACTIVE,Not Displayed: Items,1
+59178,COOLDOWN_VIEWER_SETTINGS_CATEGORY_EQUIP_PASSIVE,Not Displayed: Items,1
 59225,UNIT_CRITERIA_PROGRESS_PERCENT_GAINED,(+%s%%),1
 59226,ERR_FOLLOWER_DUNGEON_INVALID_TRANSFER_REQUEST,You aren't allowed to go there from a follower dungeon,1
+59233,HOUSING_BLUEPRINT_AUTO_SAVE_NAME,Automatic Save,1
+59351,PING_TARGET,Ping Target,1
+59352,PING_TARGET_ALL,Show All,1
+59353,PING_TARGET_ENVIRONMENT,Environment,1
+59354,PING_TARGET_UNITS,Units,1
 59356,FULL_PLAYER_NAME_WITH_SEPARATOR,%s%s%s,1
+59417,CDMSND_SHORT_BELL_TREE,BellTree,1
+59418,CDMSND_SHORT_BIG_POT,BigPot,1
+59419,CDMSND_SHORT_BLADES,Blades,1
+59420,CDMSND_SHORT_BELL_STRIKE,BellStrike,1
+59421,CDMSND_SHORT_COW_BELL,CowBell,1
+59422,CDMSND_SHORT_FINGER_SNAP,FingerSnap,1
+59423,CDMSND_SHORT_SYNTH_ERROR,SynthError,1
+59424,CDMSND_SHORT_SYNTH_HIGH,SynthHigh,1
+59425,CDMSND_SHORT_SYNTH_BLURP,SynthBlurp,1
+59426,CDMSND_SHORT_SYNTH_BLEEP,SynthBleep,1
+59427,CDMSND_SHORT_GUITAR,Guitar,1
+59428,CDMSND_SHORT_KALIMBA,Kalimba,1
+59429,CDMSND_SHORT_METAL_BLADE_DROP,MetalBladeDrop,1
+59430,CDMSND_SHORT_METAL_BLADE_ON_ROD,MetalBladeOnRod,1
+59431,CDMSND_SHORT_METAL_IMPACT,MetalImpact,1
+59432,CDMSND_SHORT_MINI_WOOD_XYLOPHONE,MiniWoodXylophone,1
+59433,CDMSND_SHORT_SHEET_METAL,SheetMetal,1
+59434,CDMSND_SHORT_STOVE_PIPE,StovePipe,1
+59435,CDMSND_SHORT_STOVE_PIPE_BLADE,StovePipeBlade,1
+59436,CDMSND_SHORT_SWORD_SHING,SwordShing,1
+59437,CDMSND_SHORT_TRIANGLE,Triangle,1
+59438,CDMSND_SHORT_COFFEE_MUG,CoffeeMug,1
+59439,CDMSND_SHORT_PAPER_CUP,PaperCup,1
+59440,CDMSND_SHORT_WATER_DROP,WaterDrop,1
+59441,CDMSND_SHORT_WINE_BOTTLE,WineBottle,1
+59442,CDMSND_SHORT_WOOD_XYLOPHONE,WoodXylophone,1
+59443,COOLDOWN_VIEWER_SETTINGS_SOUND_ALERT_CATEGORY_SHORT,Short,1
+59445,ERR_RESTRICTED_ACCOUNT_LFG_LIST_CLASS_TRIAL,Class Trials cannot use this feature.,1
+59447,HOUSING_BLUEPRINT_IMPORT_VALIDATION_IMPORT_WITH_MISSING,"You can still import this Blueprint, but missing items will not be used.|n|nDo you still want to import this Blueprint?",1
+59448,SOCIAL_TAB_UNAVAILABLE,The %s feature is unavailable due to your account's privacy settings. Some social features are restricted.,3
 59449,VISITABLE_URL67,https://support.blizzard.com/help/article/000384713,3
 59450,GAMEMENU_EXTERNALEVENT_FAILURE,"Something went wrong. Try restarting the game from the Battle.net Desktop App. If the problem persists, please see our support article: |HurlIndex:67|h|cnVISITABLE_URL_DEFAULT_CHAT_LINK_COLOR:https://support.blizzard.com/help/article/000384713|r|h.",1
+59455,ERR_HOUSING_BLUEPRINT_REQUIREMENT_ROOM_UNCOLLECTED,You have not unlocked this Room.,1
+59456,SPELL_FAILED_CUSTOM_ERROR_2669,You must be afflicted by Hex Lord's Doom to use this item.,1
+59457,ADDING_FRIENDS_DISABLED,Adding friends is disabled by your privacy settings.,3
+59458,RECRUITING_FRIENDS_DISABLED,Recruit A Friend is unavailable due to your privacy settings. ,1
+59459,COOLDOWN_VIEWER_TRINKET_AURA_TOOLTIP_LABEL,Trinket Buff %d,1
+59460,HOUSING_DECOR_CUSTOMIZATION_PET_STATIONARY,Stationary,1
+59461,HOUSING_DECOR_CUSTOMIZATION_PET_ROAMING,Roaming,1
 59462,UNIT_NAMEPLATES_STYLE_CLASSIC,Classic,1
+59465,CHAR_CREATE_NEED_ENTITLEMENT,Ownership of a qualifying license is required,3
 59468,UNIT_SCENARIO_PROGRESS_PERCENT,%s: %d%%,1
 59469,UNIT_SCENARIO_PROGRESS_FRACTION,%s: %d/%d,1
+59470,HOUSING_DECOR_PREVIEW_TOOLTIP,<Ctrl click to preview>,1
+59471,HOUSING_DYE_ITEM_COLOR_LIST_ENTRY,- %s,1
+59472,ERR_HOUSING_BLUEPRINT_CONTENT_ENTRY_INVALID,Item unavailable.,1
+59473,HOUSING_DECOR_CUSTOMIZATION_PET_NONE,No pet,1
 59476,WEEKLY_REWARDS_WORLD_TOP_ACTIVITIES,Top %d Activities This Week,1
 59477,UNIT_NAMEPLATES_SHOW_FRIENDLY_REALM_NAME,Realm Name,1
 59478,OPTION_TOOLTIP_UNIT_NAMEPLATES_SHOW_FRIENDLY_REALM_NAME,Show friendly players' realm name in their nameplates,1
+59479,CHAR_CREATE_NO_AVAILABLE_CLASSES,This race has no available classes,3
+59483,SLASH_CAA_PLAY_SOUND,playsound,1
+59484,SLASH_CAA_HELP_PLAY_SOUND,[%d - %d] - Plays a combat audio alert sound,1
+59485,SLASH_CAA_PLAY_SOUND_NARRATED,play sound,1
+59486,CAA_PLAY_SOUND,Playing Sound: %d %s,1
+59487,HOUSING_BLUEPRINT_CONTENT_LIST_HEADER,Blueprint List,1
+59488,HOUSING_BLUEPRINT_CONTENT_LIST_CLOSE_BUTTON,Close,1
+59489,HOUSING_BLUEPRINT_CONTENT_TYPE_HOUSE_TYPE,House Type,1
+59490,HOUSING_BLUEPRINT_CONTENT_TYPE_ROOM,Rooms,1
+59491,HOUSING_BLUEPRINT_CONTENT_TYPE_DECOR,Decor,1
+59492,HOUSING_BLUEPRINT_CONTENT_TYPE_DYE,Dyes,1
+59493,HOUSING_BLUEPRINT_CONTENT_TYPE_FIXTURE,Exterior Fixtures,1
+59494,HOUSING_BLUEPRINT_CONTENT_TYPE_OTHER,Other,1
+59495,HOUSING_BLUEPRINT_CONTENT_TYPE_HEADER_FMT,%s: %d,1
+59496,HOUSING_BLUEPRINT_CONTENT_TYPE_HEADER_COMPARE_FMT,%s: %d/%d,1
+59497,HOUSING_BLUEPRINT_CONTENT_ENTRY_COUNT_FMT, (%d),1
+59498,HOUSING_BLUEPRINT_CONTENT_ENTRY_COUNT_COMPARE_FMT, (%d/%d),1
+59499,HOUSING_BLUEPRINT_CONTENT_HOUSE_TYPE_SIZE_FMT,%s %s,1
+59500,HOUSING_BLUEPRINT_CONTENT_DECOR_OWNED_FMT,Owned: %d,1
+59501,HOUSING_BLUEPRINT_CONTENT_DECOR_OWNED_PLACED_FMT,Owned: %d (Placed: %d),1
+59502,HOUSING_BLUEPRINT_CONTENT_DECOR_OWNED_DYED_FMT,Owned: %d (Dyed: %d),1
+59503,HOUSING_BLUEPRINT_CONTENT_DECOR_OWNED_PLACED_DYED_FMT,"Owned: %d (Placed: %d, Dyed: %d)",1
+59504,HOUSING_BLUEPRINT_CONTENT_DECOR_DYED_NOTICE,Dyed Decor may not be usable for import.,1
+59505,HOUSING_BLUEPRINT_ROOM_BUDGET_TOOLTIP,Room Placement Budget,1
+59506,HOUSING_BLUEPRINT_DECOR_INTERIOR_BUDGET_TOOLTIP,Interior Decor Placement Budget,1
+59507,HOUSING_BLUEPRINT_DECOR_EXTERIOR_BUDGET_TOOLTIP,Exterior Decor Placement Budget,1
+59509,SLASH_CAA_SOUND,sound,1
+59511,HOUSING_BLUEPRINT_CONTENT_MISSING_ONLY,Missing Only,1
+59512,HOUSING_BLUEPRINT_CONTENT_COUNT_FMT,Items: %d,1
+59513,HOUSING_BLUEPRINT_CONTENT_COUNT_COMPARE_FMT,Available: %d/%d,1
+59514,SLASH_CAA_HELP_SAY_COMBAT_START_SOUND,sound:[%d - %d] - Choose a sound to indicate combat has started,1
+59516,HOUSING_HOUSE_SETTINGS_BLUEPRINTEXPORT,Export:,1
+59517,SLASH_CAA_HELP_SOUND,"To use a specific sound (not listed here), type ""%s sound:"" and a number",1
+59518,SLASH_CAA_HELP_SAY_COMBAT_END_SOUND,sound:[%d - %d] - Choose a sound to indicate combat has ended,1
+59519,SLASH_CAA_HELP_SAY_TARGET_CASTS_INTERRUPT_SOUND,sound:[%d - %d] - Choose a sound to indicate when the target starts casting something that you can interrupt with an ability,1
+59520,SLASH_CAA_HELP_SAY_TARGET_CASTS_INTERRUPT_SUCCESS_SOUND,sound:[%d - %d] - Choose a sound to indicate when the target is successfully interrupted,1
+59521,SLASH_CAA_HELP_DEBUFF_SELF_ALERT_SOUND,sound:[%d - %d] - Choose a sound to indicate when you can dispel a debuff on yourself,1
+59522,SLASH_CAA_HELP_SAY_IF_TARGETED_SOUND,sound:[%d - %d] - Choose a sound to indicate that you are targeted by an enemy,1
+59523,SLASH_CAA_WHEN_TARGET_DIES,whentargetdies,1
+59524,SLASH_CAA_WHEN_TARGET_DIES_NARRATED,when target dies,1
+59525,SLASH_CAA_HELP_WHEN_TARGET_DIES,[%d - %d] - Choose a phrase to indicate your target has died,1
+59526,SLASH_CAA_HELP_WHEN_TARGET_DIES_SOUND,sound:[%d - %d] - Choose a sound to indicate your target has died,1
+59527,HOUSING_CONTROLS_INSPECT_UNAVAILABLE_EDITOR_ACTIVE,Inspect unavailable while House Editor is active,1
+59528,HOUSING_CONTROLS_BLUEPRINT_UNAVAILABLE_EDITOR,Blueprint actions unavailable while House Editor is active,1
+59529,HOUSING_CONTROLS_BLUEPRINT_UNAVAILABLE_PERMISSION,Blueprint actions unavailable,1
 59538,OMNIUM_FOLIO_UNSPENT_POINTS,You have unspent points in your Omnium Folio.,1
+59539,PLACED_PET_DECOR_LIMIT_REACHED,Pet Bed limit reached,1
+59545,HOUSING_HOUSE_EXPERIENCE_FORMAT,%d House XP,1
+59557,ERR_SOCKETING_ITEM_TOO_HIGH_LEVEL,The item is too high level to accept that gem,1
+59565,SCREEN_NARRATOR,Screen Narrator,3
+59566,ENABLE_SCREEN_NARRATOR,Enable Screen Narrator,3
+59567,OPTION_TOOLTIP_ENABLE_SCREEN_NARRATOR,"Enable to read UI elements aloud on hover. Available on the login, realm selection, and character creation screens",3
+59568,HOUSING_BLUEPRINT_EXPORT_ROOM_NAME_LABEL,Room Blueprint Name:,1
+59569,HOUSING_LAYOUT_EXPORT_ROOM_TOOLTIP,Save Room Blueprint,1
+59570,SCREEN_NARRATOR_VOICE,Screen Narrator Voice,3
+59571,OPTION_TOOLTIP_SCREEN_NARRATOR_VOICE,Chose the voice for the screen narrator,3
+59572,HOUSE_EDITOR_CATALOG_BLUEPRINTS_TAB,Blueprints,1
+59574,SCREEN_NARRATOR_SPEECH_RATE,Screen Narrator Speed,3
+59575,OPTION_TOOLTIP_SCREEN_NARRATOR_SPEECH_RATE,Adjust the rate of speech for the screen narrator,3
+59576,SCREEN_NARRATOR_SPEECH_VOLUME,Screen Narrator Volume,3
+59577,OPTION_TOOLTIP_SCREEN_NARRATOR_SPEECH_VOLUME,Adjust the volume of the screen narrator,3
+59578,HOUSING_BLUEPRINT_TYPE_OPTION_ROOM,Current Room,1
+59579,HOUSING_BLUEPRINT_TYPE_OPTION_HOUSE,Full Layout,1
+59580,HOUSING_BLUEPRINT_TYPE_OPTION_INTERIOR,Interior only,1
+59581,HOUSING_BLUEPRINT_TYPE_OPTION_EXTERIOR,Exterior only,1
+59582,SOCIAL_UI_PRESENCE_TYPE_LABEL_APPEAR_OFFLINE,Appear Offline,3
+59583,SOCIAL_UI_RECENT_ALLIES_ADD_FRIEND_BUTTON_LABEL,Add New Friend,3
+59585,SOCIAL_UI_RECENT_ALLIES_CARD_LEVEL_DISPLAY_FORMAT,Lvl %d,3
+59586,SOCIAL_UI_RECENT_ALLIES_FRIEND_REQUEST_SENT_TOOLTIP,Friend request sent,3
+59587,SOCIAL_UI_RECENT_ALLIES_NOTE_FORMAT,|TInterface\\FriendsFrame\\UI-FriendsFrame-Note:0:0:0:0:1:1:0:1:0:1:255:209:0|t %s,3
+59588,SOCIAL_UI_RECENT_ALLIES_NOTE_OFFLINE_FORMAT,|TInterface\\FriendsFrame\\UI-FriendsFrame-Note:0:0:0:0:1:1:0:1:0:1:124:132:138|t %s,3
+59589,SOCIAL_UI_RECENT_ALLIES_TOOLTIP_LEVEL_CLASS_FORMAT,Level %d %s,3
+59590,SOCIAL_UI_FRIENDS_LIST_ADD_FRIEND_BUTTON_LABEL,Add New Friend,3
+59591,SOCIAL_UI_FAVORITE_FRIENDS_LIST_HEADER,Favorites %d/%d,3
+59592,SOCIAL_UI_FRIENDS_LIST_HEADER,Friends List %d/%d,3
+59593,SOCIAL_UI_FRIENDS_LIST_FAVORITE_TOOLTIP,Favorite,3
+59594,SOCIAL_UI_RAF_SUMMON_BUTTON_COOLDOWN_FORMAT,Cooldown remaining: %s,3
+59595,SOCIAL_UI_FRIENDS_LIST_BATTLE_NET_FRIEND_NOTE_FORMAT,|TInterface\\FriendsFrame\\UI-FriendsFrame-Note:0:0:0:0:1:1:0:1:0:1:255:209:0|t %s,3
+59596,SOCIAL_UI_FRIENDS_LIST_BATTLE_NET_FRIEND_NOTE_OFFLINE_FORMAT,|TInterface\\FriendsFrame\\UI-FriendsFrame-Note:0:0:0:0:1:1:0:1:0:1:124:132:138|t %s,3
+59597,SOCIAL_UI_FRIENDS_LIST_BATTLE_NET_FRIEND_BROADCAST_FORMAT,|TInterface\\FriendsFrame\\BroadcastIcon:0:0:0:0:16:16:0:16:0:16|t %s,3
+59598,SOCIAL_UI_FRIENDS_LIST_BATTLE_NET_FRIEND_BROADCAST_AND_DATE_FORMAT,|TInterface\\FriendsFrame\\BroadcastIcon:0:0:0:0:16:16:0:16:0:16|t %s|n(%s ago),3
+59599,SOCIAL_UI_FRIENDS_LIST_BATTLE_NET_FRIEND_TAGS_FORMAT,|cnNORMAL_FONT_COLOR:Tags: %s|r,3
+59600,SOCIAL_UI_FRIENDS_LIST_BATTLE_NET_FRIEND_TAGS_OFFLINE_FORMAT,|cnFRIENDS_GRAY_COLOR:Tags: %s|r,3
+59601,SOCIAL_UI_FRIENDS_LIST_FRIEND_IN_GROUP_TOOLTIP,%s In a Group,3
+59602,SOCIAL_UI_FRIENDS_LIST_CHARACTER_TOOLTIP_FORMAT,|cnNORMAL_FONT_COLOR:%s|r |cnHIGHLIGHT_FONT_COLOR:(%s)|r,3
+59603,SOCIAL_UI_FRIENDS_LIST_FACTION_LABEL_FORMAT,%s %s,3
+59604,SOCIAL_QUEUE_QUEUED_FOR_STANDALONE,Queued for,3
+59605,SOCIAL_UI_FRIENDS_LIST_PARTY_BUTTON_OFFLINE_TOOLTIP,Player Offline,3
+59606,SOCIAL_UI_FRIENDS_LIST_PARTY_DROPDOWN_ICON_NAME_FORMAT,%s %s,3
+59607,SOCIAL_UI_BATTLE_NET_FRIEND_TAGS_LABEL,Add Tags [%d],3
+59608,SOCIAL_UI_BATTLE_NET_FRIEND_TAG_LABEL_PROFESSIONS,Professions,3
+59609,SOCIAL_UI_BATTLE_NET_FRIEND_TAG_LABEL_PVP,PvP,3
+59610,SOCIAL_UI_BATTLE_NET_FRIEND_TAG_LABEL_RAIDING,Raiding,3
+59611,SOCIAL_UI_BATTLE_NET_FRIEND_TAG_LABEL_DUNGEONS,Dungeons,3
+59612,SOCIAL_UI_BATTLE_NET_FRIEND_TAG_LABEL_DELVE,Delves,3
+59613,SOCIAL_UI_BATTLE_NET_FRIEND_TAG_LABEL_QUESTING,Questing,3
+59614,SOCIAL_UI_BATTLE_NET_FRIEND_TAG_LABEL_ROLEPLAYING,Role Playing,3
+59615,SOCIAL_UI_BATTLE_NET_FRIEND_TAG_LABEL_DPS,DPS,3
+59616,SOCIAL_UI_BATTLE_NET_FRIEND_TAG_LABEL_HEALER,Healer,3
+59617,SOCIAL_UI_BATTLE_NET_FRIEND_TAG_LABEL_TANK,Tank,3
+59618,SOCIAL_UI_BATTLE_NET_FRIEND_TAG_LABEL_INTERESTS,Interests,3
+59619,SOCIAL_UI_BATTLE_NET_FRIEND_TAG_ROLES_LABEL,Roles,3
+59620,SCREEN_NARRATOR_DIALOG_TEXT, |cnWHITE_FONT_COLOR:Screen Narrator|r\nThis game includes text narration for selected menu screens. You can change its settings at any time in Accessibility Options. Would you like to keep it enabled or disable it?,3
+59621,SCREEN_NARRATOR_DIALOG_ENABLE,Enable,3
+59622,SCREEN_NARRATOR_DIALOG_DISABLE,Disable,3
+59623,SOCIAL_UI_FRIEND_REQUESTS_ADD_FRIEND_BUTTON_LABEL,Add New Friend,3
+59624,SOCIAL_UI_FRIEND_REQUESTS_RECEIVED_HEADER,Received (%d),3
+59625,SOCIAL_UI_FRIEND_REQUESTS_CARD_TIMESTAMP_FORMAT,%s ago,3
+59626,SOCIAL_UI_FRIEND_REQUESTS_CARD_BATTLE_NET_LABEL,Wants to be your BattleTag friend,3
+59627,SOCIAL_UI_FRIEND_REQUESTS_CARD_TITLE_LABEL,Wants to be your WoW friend,3
+59628,SOCIAL_UI_FRIEND_REQUESTS_CARD_REAL_ID_LABEL,Wants to be your Real ID friend,3
+59629,SOCIAL_UI_FRIEND_REQUESTS_REAL_ID_WARNING,|cnNORMAL_FONT_COLOR:You have received a Real ID friend request|r|n|n|cnHIGHLIGHT_FONT_COLOR:This should be a person you know and trust in real life. You will be able to chat with them no matter which Blizzard game you are playing. If you accept their friend request your real name will be displayed to all of their friends.|r,3
+59641,ERR_HOUSING_RESULT_BLUEPRINT_STORAGE_LIMIT,Saved Blueprints limit reached,1
+59642,ERR_HOUSING_RESULT_BLUEPRINT_NOT_FOUND,Blueprint not found,1
+59643,HOUSING_BLUEPRINT_COLLECTION_RESET,Reset,1
+59644,HOUSING_BLUEPRINT_COLLECTION_RESET_TOOLTIP,Reset House,1
+59645,HOUSING_BLUEPRINT_COLLECTION_RESET_ALL,All,1
+59646,HOUSING_BLUEPRINT_COLLECTION_RESET_INTERIOR,Interior,1
+59647,HOUSING_BLUEPRINT_COLLECTION_RESET_EXTERIOR,Exterior,1
+59648,HOUSING_BLUEPRINT_COLLECTION_RESET_CONFIRMATION_TITLE_ALL,You are about to reset the interior and exterior of your house.,1
+59649,HOUSING_BLUEPRINT_COLLECTION_RESET_CONFIRMATION_TITLE_INTERIOR,You are about to reset the interior of your house.,1
+59650,HOUSING_BLUEPRINT_COLLECTION_RESET_CONFIRMATION_TITLE_EXTERIOR,You are about to reset the exterior of your house.,1
+59651,HOUSING_BLUEPRINT_COLLECTION_RESET_CONFIRMATION_SUBTEXT_ALL,Your House Exterior and any Fixtures on it will be reset to default.|n|nAll placed Decor will be returned to storage.|n|nAll rooms will be removed.,1
+59652,HOUSING_BLUEPRINT_COLLECTION_RESET_CONFIRMATION_SUBTEXT_INTERIOR,All Decor placed inside will be returned to storage.|n|nAll rooms will be removed.,1
+59653,HOUSING_BLUEPRINT_COLLECTION_RESET_CONFIRMATION_SUBTEXT_EXTERIOR,Your House Exterior and any Fixtures on it will be reset to default.|n|nAll Decor placed outside will be returned to storage.,1
+59654,HOUSING_BLUEPRINT_COLLECTION_RESET_CONFIRMATION_SUBTEXT_FINAL,|n|nAre you sure you wish to proceed? This cannot be undone.|n|nType %s to confirm.,1
+59655,HOUSING_BLUEPRINT_COLLECTION_RESET_CONFIRMATION_STRING,RESET,1
+59656,HOUSING_BLUEPRINT_COLLECTION_GROUP_HOUSE,Full Layouts,1
+59657,HOUSING_BLUEPRINT_COLLECTION_GROUP_PARTIAL,Partial Layouts,1
+59658,HOUSING_BLUEPRINT_COLLECTION_GROUP_ROOM,Rooms,1
+59659,HOUSING_BLUEPRINT_COLLECTION_GROUP_BACKUP,Backups,1
+59660,HOUSING_BLUEPRINT_COLLECTION_COUNT_FMT,Blueprint slots: %d/%d,1
+59661,HOUSING_BLUEPRINT_COLLECTION_ERROR,Error retrieving Blueprints,1
+59662,HOUSING_BLUEPRINT_COLLECTION_ERROR_FMT,Error retrieving Blueprints: %s,1
+59663,HOUSING_BLUEPRINT_COLLECTION_READONLY_BACKUP,Can't be renamed or deleted.,1
+59664,HOUSING_BLUEPRINT_COLLECTION_TIMESTAMP_FMT,Created: %s,1
+59665,HOUSING_BLUEPRINT_COLLECTION_COPY,Copy Share Code,1
+59666,HOUSING_BLUEPRINT_COLLECTION_RENAME,Rename,1
+59667,HOUSING_BLUEPRINT_COLLECTION_DELETE,Delete,1
+59668,HOUSING_BLUEPRINT_DELETE_CONFIRMATION_TEXT,"Are you sure you want to delete this Blueprint?|n|nThis cannot be undone.|n|nType \""%s\"" to confirm.",1
+59669,HOUSING_BLUEPRINT_DELETE_CONFIRMATION_STRING,DELETE,1
+59670,HOUSING_BLUEPRINT_RENAME_HEADER,Rename Blueprint,1
+59671,HOUSING_BLUEPRINT_RENAME_SAVE_BUTTON,Save,1
+59672,HOUSING_BLUEPRINT_RENAME_NAME_PLACEHOLDER,Name,1
+59673,ERR_HOUSING_BLUEPRINT_RENAME_FAILED,Failed to rename Blueprint,1
+59674,ERR_HOUSING_BLUEPRINT_RENAME_FAILED_FMT,Error: %s,1
+59675,ERR_HOUSING_BLUEPRINT_DELETE_FAILED,Failed to delete Blueprint,1
+59676,ERR_HOUSING_BLUEPRINT_DELETE_FAILED_FMT,Error on attempting to delete Blueprint: %s,1
+59677,ERR_HOUSE_RESET_FAILED,Failed to reset House,1
+59678,ERR_HOUSE_RESET_FAILED_FMT,Failed to reset House: %s,1
+59679,HUD_EDIT_MODE_SETTING_MINIMAP_ICON_SCALE,Icon Scale,1
+59680,NARRATION_CONTEXT_LOGIN,Login Screen,3
+59681,NARRATION_CONTEXT_REALM_LIST,Realm Selection,3
+59682,NARRATION_CONTEXT_CHAR_SELECT,Character Select,3
+59683,ADD_WOW_FRIEND,Add WoW Friend,3
+59684,NARRATION_CONTEXT_CHAR_CREATE,Character Create,3
+59685,NARRATION_CONTEXT_GAME_MENU,Game Menu,3
+59686,NARRATION_OBJECT_BUTTON,Button,3
+59687,NARRATION_OBJECT_CHECK_BUTTON,Check Button,3
+59688,NARRATION_OBJECT_SLIDER,Slider,3
+59689,NARRATION_OBJECT_CHECKBOX,Checkbox,3
+59690,NARRATION_OBJECT_EDIT_FIELD,Edit Field,3
+59691,NARRATION_STATUS_REQUIRED,Required,3
+59692,NARRATION_STATUS_HIDDEN,Hidden,3
+59693,NARRATION_OBJECT_SCROLL_UP_BUTTON,Up,3
+59694,NARRATION_OBJECT_SCROLL_DOWN_BUTTON,Down,3
+59695,NARRATION_ACCOUNT_DROPDOWN_NAME,Account,3
+59696,NARRATION_OBJECT_CLOSE_BUTTON,Close,3
+59697,NARRATION_OBJECT_CLEAR_BUTTON,Clear,3
+59698,NARRATION_STATUS_DISABLED_FORMAT,"%s, Disabled",3
+59699,NARRATION_STATUS_CHECKED_FORMAT,"%s, Checked",3
+59700,NARRATION_STATUS_UNCHECKED_FORMAT,"%s, Unchecked",3
+59701,NARRATION_STATUS_SELECTED_FORMAT,"%s, Selected",3
+59702,NARRATION_STATUS_DISABLED,Disabled,3
+59703,NARRATION_STATUS_SELECTED,Selected,3
+59704,NARRATION_OBJECT_RADIO_BUTTON,Button,3
+59705,NARRATION_OBJECT_SUBMENU,Submenu,3
+59706,NARRATION_INDEX_INFO_FORMAT,%d of %d,3
+59707,NARRATION_OBJECT_DROPDOWN,Dropdown,3
+59708,NARRATION_REGION_TYPE_DIALOG,Dialog,3
+59709,NARRATION_OBJECT_TAB,Tab,3
+59710,NARRATION_OBJECT_COLUMN_HEADER,Column Header,3
+59711,NARRATION_SORTED_ASCENDING,"%s, Sorted Ascending",3
+59712,NARRATION_SORTED_DESCENDING,"%s, Sorted Descending",3
+59713,NARRATION_NOT_SORTED,"%s, Not Sorted",3
+59714,NARRATION_REALM_LIST_CHARACTERS_FORMAT,%d |4character:characters;,3
+59715,NARRATION_GAME_MENU_BUTTON,Game Menu,3
+59716,NARRATION_HIDE_INTERFACE_BUTTON,Hide Interface,3
+59717,NARRATION_HIDE_INTERFACE_DESCRIPTION,Toggle User Interface Visibility,3
+59718,NARRATION_HIDE_INTERFACE_ENABLED,"Hide Interface enabled, Press Escape to exit mode",3
+59719,NARRATION_ROTATE_LEFT_BUTTON,Rotate Left,3
+59720,NARRATION_ROTATE_RIGHT_BUTTON,Rotate Right,3
+59721,NARRATION_WARBAND_CHARACTER_LIST,Warband Character List,3
+59722,NARRATION_EXPAND_BUTTON_EXPANDED,"Expand Button, Expanded",3
+59723,NARRATION_EXPAND_BUTTON_COLLAPSED,"Expand Button, Collapsed",3
+59724,NARRATION_DELETE_CHARACTER_BUTTON,Delete Character,3
+59725,NARRATION_RESTORE_CHARACTER_BUTTON,Restore Deleted Character,3
+59726,NARRATION_ADD_NEW_CAMP_BUTTON,Add New Camp,3
+59727,NARRATION_GROUP_EXPANDED,"Group, Expanded",3
+59728,NARRATION_GROUP_COLLAPSED,"Group, Collapsed",3
+59729,NARRATION_SERVER_ALERT_NAME,Breaking News,3
+59730,NARRATION_SERVER_ALERT_CONTEXT,Expandable Notification,3
+59731,NARRATION_EXPANDED,Expanded,3
+59732,NARRATION_COLLAPSED,Collapsed,3
+59733,NARRATION_LEVEL_FORMAT,Level %d,3
+59734,NARRATION_CAMP_NAME,Camp Name,3
+59735,NARRATION_MOVE_UP_IN_LIST,Move %s Up In List,3
+59736,NARRATION_MOVE_DOWN_IN_LIST,Move %s Down In List,3
+59737,NARRATION_FULL_MONEY_FORMAT,"%d Gold, %d Silver, %d Copper",3
+59738,NARRATION_SILVER_MONEY_FORMAT,"%d Silver, %d Copper",3
+59739,NARRATION_COPPER_MONEY_FORMAT,%d Copper,3
+59740,NARRATION_SLIDER_DECREASE,Decrease,3
+59741,NARRATION_SLIDER_INCREASE,Increase,3
+59742,NARRATION_DROPDOWN_PREVIOUS_OPTION,Previous Option,3
+59743,NARRATION_DROPDOWN_NEXT_OPTION,Next Option,3
+59744,NARRATION_SEPARATOR,", ",3
+59745,TITLE_FRIEND_REQUEST,Send a |cnNORMAL_FONT_COLOR:WoW|r Friend Request to:,3
+59746,HOUSING_BLUEPRINT_COLLECTION_GROUP_INTERIOR,Interiors,1
+59747,HOUSING_BLUEPRINT_COLLECTION_GROUP_EXTERIOR,Exteriors,1
+59748,HOUSING_BLUEPRINT_COLLECTION_COUNT_TOOLTIP,Blueprints Total |cnNORMAL_FONT_COLOR:|nAutomatic backups do not count towards this limit|r,1
+59749,HOUSING_BLUEPRINT_COLLECTION_RESET_CONFIRM,Confirm,1
+59750,HOUSING_BLUEPRINT_DELETE_CONFIRM,Confirm,1
+59751,HOUSING_PET_BEDS_TUTORIAL_TEXT,You can assign a pet to a Pet Bed using Customize mode.,1
+59752,RANDOM_TRAINING_GROUNDS_BATTLEGROUNDS_LABEL,Random Battlegrounds,1
+59753,DECOR_INSTANCE_TOOLTIP_PET_BED,Current Pet: %s,1
+59754,DECOR_INSTANCE_TOOLTIP_PET_BED_UNASSIGNED,Unassigned,1
+59756,HOUSING_DECOR_CUSTOMIZATION_PET_UNAVAILABLE_OUTSIDE,Unavailable outside,1
+59757,RANDOM_TRAINING_GROUNDS_ARENAS_LABEL,Random Arenas,1
+59758,RANDOM_TRAINING_GROUNDS_ARENA_DESC,Practice in a 3v3 arena against game-controlled opponents.,1
+59759,BONUS_TRAINING_GROUNDS,Bonus Battlegrounds,1
+59760,SPECIFIC_TRAINING_GROUNDS,Specific Battlegrounds,1
+59761,HOUSING_BLUEPRINT_HYPERLINK_TEXT,Housing Blueprint,1
+59770,REPORTING_MAJOR_CATEGORY_INAPPROPRIATE_BLUEPRINT,Inappropriate Blueprint,1
+59771,REPORTING_MINOR_CATEGORY_HOUSING_BLUEPRINT,Housing Blueprint,5
+59772,HOUSING_BLUEPRINT_REPORT,Report Blueprint,1
+59773,HOUSING_DECOR_CUSTOMIZATION_PET_APPEAR,Pets will appear upon exiting the House Editor.,1
+59774,HOUSING_BLUEPRINT_IMPORT_SUCCESS_WITH_BACKUP_MESSAGE,Blueprint import successful! A backup of your previous Layout has been added to your saved Blueprints temporarily.,1
+59775,ERR_HOUSING_RESULT_BLUEPRINT_ROOM_PLACEMENT_REQUIRED,You must select a valid door to attach the imported Room to.,1
+59776,COOLDOWN_VIEWER_SETTINGS_TAB_GROUP_AURAS_DISABLED_TOOLTIP,This feature is not available for your current specialization.,1
+59777,COOLDOWN_VIEWER_TOOLTIP_POTION_HEALTH_TITLE,Health Potion,1
+59778,COOLDOWN_VIEWER_TOOLTIP_POTION_HEALTH_DESCRIPTION,Displays the shared cooldown when a Healing potion is used.,1
+59779,COOLDOWN_VIEWER_TOOLTIP_POTION_COMBAT_TITLE,Combat Potion,1
+59780,COOLDOWN_VIEWER_TOOLTIP_POTION_COMBAT_DESCRIPTION,"Displays the shared cooldown when a Utility, Combat, or Mana potion is used.",1
+59781,SET_CUSTOM_TITLE_FRIEND_NAME,Enter a custom name for this friend.|nThis name is only visible to you.,3
+59782,SOCIAL_UI_BATTLE_NET_TITLE_FRIEND_EDIT_NAME_BUTTON_LABEL,Edit Name,3
+59784,COOLDOWN_VIEWER_TOOLTIP_POTION_HEALTHSTONE_TITLE,Healthstone,1
+59785,HOUSING_BLUEPRINT_EXPORT_BLUEPRINTS_COLLECTION_BUTTON_DISABLED,Open the Floorplan Editor inside your House to view your Saved Blueprints,1
+59787,HUD_EDIT_MODE_LOSS_OF_CONTROL_LABEL,Loss of Control,1
+59788,HUD_EDIT_MODE_SETTING_LOSS_OF_CONTROL_SIZE,Size,1
+59789,JOURNEYS_HIGHLIGHT_LEVEL_LABEL,Level %d,1
+59791,TIERED_ENTRANCE_LOCKED_DEFAULT_TOOLTIP_LAIRS,Lair is locked.,1
+59792,LAIRS_PARTY_MEMBER_INELIGIBLE_FOR_TIER_TOOLTIP,%s has not unlocked this tier,1
+59793,HOUSE_RESET_SUCCESS_MESSAGE,House has been successfully reset!,1
+59794,LAIRS_WORLD_TIER_TOOLTIP,You will be entered into a group with other players.,1
+59795,LAIRS_DEFAULT_TIER_TOOLTIP,A challenging difficulty that requires a raid group,1
+59796,HOUSING_DASHBOARD_COLLECTION_FRAMETITLE,Housing Dashboard,1
+59797,HOUSING_DASHBOARD_COLLECTION_TOOLTIP,Blueprints,1
+59798,HOUSING_BLUEPRINT_COLLECTION_HEADER,Blueprints,1
+59799,COMPACT_UNIT_FRAME_PROFILE_DISPELLABLE_OVERLAY_TYPE_DISABLED,Disabled,1
+59800,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPELLABLE_OVERLAY_TYPE_DISABLED,No dispel overlay will be shown,1
+59801,COMPACT_UNIT_FRAME_PROFILE_DISPELLABLE_OVERLAY_TYPE_DEBUFF_COLOR,Use Debuff Color,1
+59802,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPELLABLE_OVERLAY_TYPE_DEBUFF_COLOR,Applies a gradient using the dispellable debuff's color,1
+59803,COMPACT_UNIT_FRAME_PROFILE_DISPELLABLE_OVERLAY_TYPE_BLACK,Use Black,1
+59804,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPELLABLE_OVERLAY_TYPE_BLACK,Applies a black gradient to indicate a dispellable debuff,1
+59806,PLAYER_DIFFICULTY_WORLD_RAID,World,1
+59807,LOCALE_DISPLAY_NAME_ZHTW,Chinese (Traditional),3
+59808,LOCALE_DISPLAY_NAME_ZHCN,Chinese (Simplified),3
+59811,HOUSING_BLUEPRINT_COLLECTION_COUNT_SIMPLE_FMT,%d/%d,1
+59818,COMPACT_UNIT_FRAME_PROFILE_DISPLAY_DISPEL_OVERLAY_FLASHING_ANIMATION,Flashing Animation,1
+59819,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_DISPLAY_DISPEL_OVERLAY_FLASHING_ANIMATION,Animate the displayed graphical dispel overlay if the group member has a dispellable debuff on them.,1
+59827,DISCORD_GUILD_SETTING_CHANNEL_LIST_EMPTY,No valid channels to link.  Make sure your user has Manage Channels permission on the Discord server.,1
+59828,NARRATION_VAS_AVAILABLE_COUNT,%d available,3
+59829,ERR_HOUSING_RESULT_MAX_STORAGE_DECOR_REACHED,Your Decor storage has reached the maximum number of decor allowed,1
+59832,SOCIAL_DISCORD_DISPLAY_NAME_OPTION_PREFERRED_PLAYER,Preferred Player,1
+59833,OPTION_TOOLTIP_SOCIAL_DISCORD_DISPLAY_NAME_OPTION_PREFERRED_PLAYER,Use this character for incoming chat from Discord for your Battle.net account,1
+59834,SOCIAL_FILTER_DROPDOWN_STATUS,Status,1
+59835,SOCIAL_FILTER_DROPDOWN_TAGS,Tags,1
+59836,HOUSING_BLUEPRINT_COLLECTION_IMPORT,Import,1
+59837,SOCIAL_DISCORD_PREFERRED_PLAYER,Use This Character's Name For Discord,1
+59838,OPTION_TOOLTIP_SOCIAL_DISCORD_PREFERRED_PLAYER,Use this character's name for incoming text from Discord,1
+59840,PING_SPELL_CATEGORY_HEALTH_TITLE,Health Potion,1
+59841,PING_SPELL_CATEGORY_COMBAT_TITLE,Combat Potion,1
+59842,PING_SPELL_CATEGORY_HEALTHSTONE_TITLE,Healthstone,1
+59843,BN_INLINE_TOAST_TITLE_FRIEND_ADDED,|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:98:127:2:29|t%s is now a WoW friend.,3
+59844,REMOVE_TITLE_FRIEND_CONFIRMATION,Are you sure you want to remove %s as a WoW friend?,3
+59845,ERR_HOUSING_RESULT_BLUEPRINT_GENERIC_CONTENT_ERROR,Failed to get Blueprint contents.,1
+59846,HOUSING_BLUEPRINT_CONTENT_ERROR_FMT,Error: %s,1
+59847,SPELL_FAILED_CUSTOM_ERROR_2700,You do not have enough Corrosive Coin.,1
+59848,UNKNOWN_WOW_FRIEND,Unknown WoW Friend,3
+59851,ADD_NEW_FRIEND,Add New Friend,3
+59852,BATTLETAG_OR_REAL_ID_LABEL,BattleTag | Real ID,3
+59854,BATTLETAG_AND_REAL_ID_DESCRIPTION,"Send an invite by entering their BattleTag to chat with them in game and across all Blizzard titles. If they use Real ID, you can invite them with their email address. The recipient must accept the request to become friends.",3
+59855,WOW_FRIEND_DESCRIPTION,"Send an invite by entering their character name. If the character is on a different realm, you must include the realm name: 'character-realm'. These friends are restricted by character and game. The recipient must accept the request to become friends.",3
+59857,SOCIAL_UI_RECENT_ALLIES_VIEW_HEADER_LEGACY_FRIENDS,Legacy Friends %d/%d,3
+59859,CORNERSTONE_NEIGHBORHOOD_SUBDIVISION_LABEL,Subdivision:,1
+59860,HOUSING_BLUEPRINT_DECOR_PET_BUDGET_TOOLTIP,Pet Bed Budget,1
+59861,LAIRS_GROUP_DIFFICULTY_DISABLED_TOOLTIP,Only the party leader can change the difficulty,1
+59865,ERR_HOUSING_BLUEPRINT_REQUIREMENT_BUDGET_PET_DECOR,Your available Pet Decor budget isn't high enough to import this Blueprint.,1
+59866,HOUSING_BLUEPRINT_BUDGET_SECTION_EXTERIOR,Exterior Budgets:,1
+59867,HOUSING_BLUEPRINT_BUDGET_SECTION_INTERIOR,Interior Budgets:,1
+59868,LAIRS_DIFFICULTY_CHANGED_WARNING,Group members still in the instance on another difficulty will need to leave and re-enter to join you,1
+59869,LAIRS_CANT_ENTER_BEFORE_LEADER,You can't enter before the leader,1
+59882,SOCIAL_UI_FRIENDS_LIST_IN_QUEUE_FILTER_LABEL,In Queue,1
+59883,SOCIAL_UI_FRIENDS_LIST_AVAILABLE_FOR_QUEUE_FILTER_LABEL,Available For Queue,1
+59885,PING_SUBJECT_TYPE_ACTION_NOT_READY_ITEM,%s is not ready!,1
+59886,PING_SUBJECT_TYPE_ACTION_NOT_READY_SPELL,%s is not ready!,1
+59899,ALL_ASSIST_LABEL_SHORT,All,1
+59915,UNIT_NAMEPLATES_CLASS_COLOR_FRIENDLY,Friendly Players,1
+59916,UNIT_NAMEPLATES_CLASS_COLOR_FRIENDLY_TOOLTIP,Color friendly player nameplates using class colors.,1
+59917,UNIT_NAMEPLATES_CLASS_COLOR_ENEMY,Enemy Players,1
+59918,UNIT_NAMEPLATES_CLASS_COLOR_ENEMY_TOOLTIP,Color enemy player nameplates using class colors.,1
+59919,UNIT_NAMEPLATES_CLASS_COLOR,Nameplate Class Color,1
+59920,UNIT_NAMEPLATES_CLASS_COLOR_TOOLTIP,"For player units, the Nameplate Health Bar will be colored based on that player's class.",1
+59921,UNIT_NAMEPLATES_CLASS_COLOR_NONE,None,1
+59923,GREAT_VAULT_REWARDS_CONCESSION_THRESHOLD,"Unlock %d or more Raid, Dungeon, or World rewards in the Great Vault to unlock the %s reward.",1
+59931,WORLD_MAP_PLAYER_COORDS,"Player: %.1f, %.1f",1
+59932,WORLD_MAP_CURSOR_COORDS,"Cursor: %.1f, %.1f",1
+59933,SETTINGS_MAP_COORDS_SECTION,Map Coordinates,1
+59934,SETTINGS_PLAYER_MAP_COORDS,Player Map Coordinates,1
+59935,SETTINGS_CURSOR_MAP_COORDS,Cursor Map Coordinates,1
+59936,SETTINGS_PLAYER_MAP_COORDS_TOOLTIP,Display your current coordinates on the map,1
+59937,SETTINGS_CURSOR_MAP_COORDS_TOOLTIP,Display your cursor's coordinates on the map,1
+59938,SLASH_MAPPIN1,/mappin,1
+59944,DISCORD_MESSAGE_FAILED_TO_SEND,Message delivery error. View message on Discord.,1
+59945,WORLD_MAP_PLAYER_COORDS_MAP_NAME,"Player: %.1f, %.1f (%s)",1
+59953,LAIRS_CAN_ENTER,The group leader has selected %s difficulty. You may now enter.,1
+59954,ERR_HOUSING_RESULT_BLUEPRINT_TYPE_LOCATION_INVALID,You can't save or import Blueprints of that type from this location.,1
+59955,COOLDOWN_VIEWER_TRINKET_NO_AURA_TOOLTIP_LABEL,No buff to track | Trinket Buff %d,1
+59961,COOLDOWN_VIEWER_TRINKET_EMPTY_AURA_TOOLTIP_LABEL,Empty Trinket Slot %d | No buff to track,1
+59963,COOLDOWN_VIEWER_TOOLTIP_POTION_DEMONIC_HEALTHSTONE_TITLE,Demonic Healthstone,1
+59996,HOUSING_BLUEPRINT_EXPORT_STAIRWELL_WARNING,Warning: You are about to save a stairwell room. This will only save the current layer of the stairwell.,1
+60076,LAIR,Lair,1

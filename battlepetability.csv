@@ -1718,7 +1718,7 @@ Unattackable.",133151,-1,0,461,0
 835,Eggnog,Removes all buffs and debuffs from the user.,132803,0,2,0,18
 836,Baneling Burst,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
-Instantly kills the caster, dealing damage equal to [FormatDamage(points(1,1))]% of the user's total health to the current enemy. This damage cannot be dodged, blocked, or avoided.",656595,5,0,0,0
+Instantly kills the caster, dealing damage equal to [FormatDamage(points(1,1))]% of the user's total health to the current enemy. This damage cannot be dodged, blocked, or avoided.",656595,5,0,0,2
 837,Centrifugal Hooks,"Speed has been increased by [abs(abilityStateMod( 25, 837 ))]%.",648208,-1,0,26,2
 838,Centrifugal Hooks,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
@@ -3835,3 +3835,20 @@ While recharging, you cannot perform any other actions.",6238556,5,0,0,0
 2539,Fel Nova,"[StandardAccuracy(1,1)] |cffffffffHit Chance|r
 
 Calls forth a wave of fel power, dealing [StandardDamage(1,1)] [School()] damage to all enemy pets.",135795,6,3,0,0
+2541,Too Big!,"After too many turns, your pets are at risk of serious injury, and you need to pull them out.",133036,3,0,240,3
+2542,Too Big!,"After too many turns, your pets are at risk of serious injury, and you need to pull them out.",535592,4,20,0,2
+2543,Too Big!,"After too many turns, your pets are at risk of serious injury, and you need to pull them out.",133036,3,0,0,10
+2544,Phase Controller,"Phase Controller for boss fight. Set as an INIT: Friendly Team Aura on the boss.
+
+Each phase needs it's own controller aura that cancels the previous phases controller auras. This is to stop race conditions where the wrong phases aura gets applied. Trying to do it all in one aura results in said race conditions.",535592,4,0,0,10
+2545,Phase 1,"Phase 1, ability changes.",535592,4,0,0,10
+2546,Phase 2,Phase 2,535592,4,0,0,10
+2547,Claw Crunch,"[StandardAccuracy(1,2)] |cffffffffHit Chance|r
+
+Deals [StandardDamage(1,2)*4] [School()] damage to the enemy pet.
+
+Claw Crunch shatters any flat damage reduction effects on the enemy target.",1278390,9,0,0,0
+2548,Phase 3,Phase 3,535592,4,0,0,10
+2549,Phase 1 Controller,Controls Phase 1 ability Change,535592,4,0,0,10
+2550,Phase 2 Controller,Controls Phase 2 ability Change,535592,4,0,0,10
+2551,Phase 3 Controller,Controls Phase 3 ability Change,535592,4,0,0,10
