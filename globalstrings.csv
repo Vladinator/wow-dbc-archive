@@ -17143,6 +17143,7 @@ ID,BaseTag,TagText_lang,Flags
 36341,COMMUNITIES_CREATE_COMMUNITY,Create Group,1
 36344,COMMUNITY_MEMBER_LIST_DROP_DOWN_REMOVE,Remove from Group,1
 36348,COMMUNITIES_CHAT_MESSAGE_FORMAT,[%s]: %s,1
+36351,ERR_VOICE_CHAT_SERVICE_LOST,Lost connection to the voice chat service.,1
 36352,COMMUNITY_MEMBER_NOTE_FORMAT,|TInterface\\FriendsFrame\\UI-FriendsFrame-Note:0:0:0:0:1:1:0:1:0:1:255:209:0|t%s,1
 36353,COMMUNITY_MEMBER_LIST_DROP_DOWN_SET_NOTE,Set Member Note,1
 36354,COMMUNITY_MEMBER_LIST_DROP_DOWN_ROLES,Roles,1
@@ -17150,6 +17151,10 @@ ID,BaseTag,TagText_lang,Flags
 36356,COMMUNITY_MEMBER_ROLE_NAME_LEADER,Leader,1
 36357,COMMUNITY_MEMBER_ROLE_NAME_MODERATOR,Moderator,1
 36358,COMMUNITY_MEMBER_ROLE_NAME_MEMBER,Member,1
+36359,ERR_VOICE_CHAT_CHANNEL_NAME_TOO_SHORT,You must provide a name for the channel.,1
+36360,ERR_VOICE_CHAT_CHANNEL_NAME_TOO_LONG,Maximum channel name length is 30 characters.,1
+36362,ERR_VOICE_CHAT_CHANNEL_ALREADY_EXISTS,You're already a member of a channel with that name.,1
+36366,ERR_VOICE_CHAT_TARGET_NOT_FOUND,Could not find the player to invite to to the voice chat channel.,1
 36372,ERR_VOICE_CHAT_TOO_MANY_REQUESTS,Waiting to hear back from the voice chat server. Please try again in a minute.,1
 36373,COMMUNITIES_LIST_TRANSFER_OWNERSHIP_FIRST,You must transfer ownership before leaving,1
 36374,CONFIRM_LEAVE_AND_DESTROY_COMMUNITY,Leave and Delete Group?,1
@@ -17198,6 +17203,7 @@ ID,BaseTag,TagText_lang,Flags
 36482,COMMUNITIES_ADD_COMMUNITY,Add Group,1
 36485,BINDING_NAME_TOGGLE_VOICE_SELF_DEAFEN,Voice Chat: Toggle Deafen Self,1
 36486,VOICE_CHAT_SERVICE_CONNECTION_RESTORED,Restored connection to the voice chat service.,1
+36487,ERR_VOICE_CHAT_SERVICE_UNABLE_TO_CONNECT,Cannot connect to voice chat service.,1
 36488,COMMUNITIES_CREATE_DIALOG_NAME_INSTRUCTIONS,The name of your group,1
 36489,COMMUNITIES_CREATE_DIALOG_AVATAR_PICKER_INSTRUCTIONS,Select an Icon,1
 36490,COMMUNITIES_CREATE_DIALOG_ICON_SELECTION_BUTTON,Change,1
@@ -17413,6 +17419,7 @@ ID,BaseTag,TagText_lang,Flags
 36934,REPORT_PLAYER_BUTTON_SHORT,Report Player,1
 36939,FULLDATE_NO_YEAR,"%1$s, %2$s %3$d",1
 40748,PLAYER_V_PLAYER_OFF_SEASON,Player vs. Player (Off Season),1
+40756,ERR_VOICE_CHAT_PLAYER_SILENCED,"|cffff2020We have silenced your account following multiple reports of abusive chat from other players. While you are silenced, you can only use voice chat in private channels.|r",1
 40757,COMMUNITIES_CHAT_FRAME_UNREAD_MESSAGES_NOTIFICATION,Unread Messages,1
 40758,VOICE_TOOLTIP_SILENCED_MUTE_MIC,"Mute|n|n|cffff2020We have silenced your account following multiple reports of abusive chat from other players.|nWhile you are silenced, you can only use voice chat in private channels.|r",1
 40759,VOICE_TOOLTIP_SILENCED_UNMUTE_MIC,"Unmute|n|n|cffff2020We have silenced your account following multiple reports of abusive chat from other players.|nWhile you are silenced, you can only use voice chat in private channels.|r",1
@@ -17456,6 +17463,8 @@ ID,BaseTag,TagText_lang,Flags
 40858,COMMUNITIES_CREATE_GROUP,Create Group,1
 40859,VOICE_CHAT_NOTIFICATION_CHANNEL_ACTIVATED_CUSTOM_NAME,Joined |c%%s%s|r voice chat.,1
 40868,COMMUNITIES_STREAM0_CHAT_SHORTCUT_FORMAT,(/%s),1
+40869,ERR_VOICE_CHAT_PLAYER_NO_VOICE_PARENTAL_CONTROLS,Your account is not allowed to use voice chat due to parental controls.,1
+40872,ERR_VOICE_CHAT_DISABLED,Voice Chat has been temporarily disabled.,1
 40874,VOICE_TOOLTIP_PARENTAL_MUTE_MIC,Mute|n|nYour account has been marked as voice-chat listen-only in Parental Controls.,1
 40875,VOICE_TOOLTIP_PARENTAL_UNMUTE_MIC,Unmute|n|nYour account has been marked as voice-chat listen-only in Parental Controls.,1
 40888,VISITABLE_URL43,https://support.blizzard.com,3
@@ -19909,12 +19918,3 @@ They will be deleted and remade with the current customized character.",2
 59142,CHALLENGE_MODE_MEDAL5,Diamond,1
 59143,CHALLENGE_MODE_MEDALNAME5,Diamond Medal,1
 59462,UNIT_NAMEPLATES_STYLE_CLASSIC,Classic,1
-36351,ERR_VOICE_CHAT_SERVICE_LOST,Lost connection to the voice chat service.,1
-36359,ERR_VOICE_CHAT_CHANNEL_NAME_TOO_SHORT,You must provide a name for the channel.,1
-36360,ERR_VOICE_CHAT_CHANNEL_NAME_TOO_LONG,Maximum channel name length is 30 characters.,1
-36362,ERR_VOICE_CHAT_CHANNEL_ALREADY_EXISTS,You're already a member of a channel with that name.,1
-36366,ERR_VOICE_CHAT_TARGET_NOT_FOUND,Could not find the player to invite to to the voice chat channel.,1
-36487,ERR_VOICE_CHAT_SERVICE_UNABLE_TO_CONNECT,Cannot connect to voice chat service.,1
-40756,ERR_VOICE_CHAT_PLAYER_SILENCED,"|cffff2020We have silenced your account following multiple reports of abusive chat from other players. While you are silenced, you can only use voice chat in private channels.|r",1
-40869,ERR_VOICE_CHAT_PLAYER_NO_VOICE_PARENTAL_CONTROLS,Your account is not allowed to use voice chat due to parental controls.,1
-40872,ERR_VOICE_CHAT_DISABLED,Voice Chat has been temporarily disabled.,1
