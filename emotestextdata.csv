@@ -221,9 +221,9 @@ ID,Text_lang,RelationshipFlags,EmotesTextID
 220,You gasp at %s.,2,43
 221,%s gasps.,4,43
 222,You gasp.,6,43
-223,%s gazes longingly at %s.,0,44
-224,%s gazes longingly at you.,1,44
-225,You gaze longingly at %s.,2,44
+223,%s gazes eagerly at %s.,0,44
+224,%s gazes eagerly at you.,1,44
+225,You gaze eagerly at %s.,2,44
 226,%s gazes off into the distance.,4,44
 227,You gaze off into the distance.,6,44
 228,%s giggles at %s.,0,45
@@ -784,7 +784,7 @@ ID,Text_lang,RelationshipFlags,EmotesTextID
 807,You growl menacingly.,6,204
 808,%s barks at %s.,0,205
 809,%s barks at you.,1,205
-810,You bark at %s.,2,205
+810,You bark at %s,2,205
 811,%s barks. Woof woof!,4,205
 812,You bark. Woof woof!,6,205
 817,%s is scared of %s.,0,223
@@ -817,11 +817,11 @@ ID,Text_lang,RelationshipFlags,EmotesTextID
 864,,2,303
 865,%s cries out for help!,4,303
 866,You cry out for help!,6,303
-867,"%s points out the incoming enemy, %s!",0,304
-868,%s points you out as an incoming enemy!,1,304
-869,You point out %s as an incoming enemy!,2,304
-870,%s warns everyone of incoming enemies!,4,304
-871,You warn everyone of incoming enemies!,6,304
+867,,0,304
+868,,1,304
+869,,2,304
+870,%s yells incoming enemies!,4,304
+871,You yell incoming enemies!,6,304
 872,,0,305
 873,,1,305
 874,,2,305
@@ -866,8 +866,8 @@ ID,Text_lang,RelationshipFlags,EmotesTextID
 913,"%s claps for %s, clearly unimpressed.",0,343
 914,"%s claps for you, clearly unimpressed.",1,343
 915,"You clap for %s, clearly unimpressed.",2,343
-916,"%s claps half-heartedly, clearly unimpressed.",4,343
-917,"You clap half-heartedly, clearly unimpressed.",6,343
+916,"%s claps half heartedly, clearly unimpressed.",4,343
+917,"You clap half heartedly, clearly unimpressed.",6,343
 918,%s winks slyly at %s.,0,363
 919,%s winks slyly at you.,1,363
 920,You wink slyly at %s.,2,363
@@ -891,15 +891,15 @@ ID,Text_lang,RelationshipFlags,EmotesTextID
 938,%s blames %s for everything.,0,368
 939,%s blames you for everything.,1,368
 940,You blame %s for everything.,2,368
-941,%s blames himself for what happened.,4,368
-942,You blame yourself for what happened.,6,368
-943,%s blames herself for what happened.,12,368
+941,%s blames everyone but himself.,4,368
+942,You blame everyone but yourself.,6,368
+943,%s blames everyone but herself.,12,368
 944,%s stares blankly at %s.,0,369
 945,%s stares blankly at you.,1,369
 946,You stare blankly at %s.,2,369
-947,%s stares blankly at his surroundings.,4,369
+947,"%s stares blankly at his surroundings,",4,369
 948,You stare blankly at your surroundings.,6,369
-949,%s stares blankly at her surroundings.,12,369
+949,"%s stares blankly at her surroundings,",12,369
 950,%s brandishes his weapon fiercely at %s.,0,370
 951,%s brandishes his weapon fiercely at you.,1,370
 952,You brandish your weapon fiercely at %s.,2,370
@@ -921,19 +921,19 @@ ID,Text_lang,RelationshipFlags,EmotesTextID
 968,%s doubts %s.,0,373
 969,%s doubts you.,1,373
 970,You doubt %s.,2,373
-971,%s doubts the situation will end in his favor.,4,373
-972,You doubt the situation will end in your favor.,6,373
-973,%s doubts the situation will end in her favor.,12,373
+971,%s highly doubts the situation will end in his favor.,4,373
+972,You highly doubt the situation will end in your favor.,6,373
+973,%s highly doubts the situation will end in her favor.,12,373
 974,%s is embarrassed by %s.,0,374
 975,%s is embarrassed by you.,1,374
 976,You are embarrassed by %s.,2,374
 977,%s flushes with embarrassment.,4,374
 978,You flush with embarrassment.,6,374
-979,%s encourages %s.,0,375
+979,%s encourages %s. You can do it!,0,375
 980,%s encourages you. You can do it!,1,375
-981,You encourage %s.,2,375
+981,You encourage %s. You can do it!,2,375
 982,%s encourages everyone around him. You can do it!,4,375
-983,You encourage everyone around you.,6,375
+983,You encourage everyone around you. You can do it!,6,375
 984,%s encourages everyone around her. You can do it!,12,375
 985,%s warns %s that an enemy is near.,0,376
 986,%s warns you that an enemy is near.,1,376

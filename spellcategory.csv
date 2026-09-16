@@ -1,7 +1,7 @@
 ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 1,Default,0,0,0,0,0
 2,Direct Damage - Spell,0,0,0,0,0
-4,Item - Combat Cons. (Potion),4,0,0,0,0
+4,Item - Combat Consumable (Potion),0,0,0,0,0
 11,Item - Food,0,0,0,0,0
 12,Healing - Spell,0,0,0,0,0
 17,Quick Buff (Resist) - Spell,0,0,0,0,0
@@ -11,7 +11,7 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 21,Quick Buff - Spell,0,0,0,0,0
 22,Quick Debuff - Spell,0,0,0,0,0
 23,Summoning,0,0,0,0,0
-24,Item - Combat Cons. (Aggressive),0,0,0,0,0
+24,Item - Combat Consumable (Aggressive),0,0,0,0,0
 25,Quick Heal - Spell,0,0,0,0,0
 26,Resurrection (Full),0,0,0,0,0
 27,Item - Scroll,0,0,0,0,0
@@ -40,7 +40,7 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 51,Quick Debuff (DPS) - Spell,0,0,0,0,0
 52,Quick Debuff (DR) - Spell,0,0,0,0,0
 54,Quick Buff (DR) - Spell,0,0,0,0,0
-55,Quick Buff (DPS) - Spell,32,0,0,0,0
+55,Quick Buff (DPS) - Spell,0,0,0,0,0
 56,Instant Heal - Spell,0,0,0,0,0
 57,Quick Heal (Group) - Spell,0,0,0,0,0
 58,Instant Heal (Group) - Spell,0,0,0,0,0
@@ -74,7 +74,7 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 94,Item - Summoning,0,0,0,0,0
 95,Racial Ability,0,0,0,0,0
 96,Racial Ability 2,0,0,0,0,0
-97,Secondary - Survival,0,0,0,0,0
+97,Camping Feature,0,0,0,0,0
 98,Big Direct Damage - Spell (2),0,0,0,0,0
 99,Instant Spell,0,0,0,0,0
 100,Item - Mana Gem,0,0,0,0,0
@@ -95,14 +95,14 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 230,Totem (Grounding),0,0,0,0,0
 250,Blast Wave,0,0,0,0,0
 270,Kidney Shot,0,0,0,0,0
-290,Pyroblast,0,0,0,0,0
-310,Transmute - Alchemy,8,0,0,0,0
+290,Pyroblast (REUSE),0,0,0,0,0
+310,Transmute - Alchemy,0,0,0,0,0
 330,Mount,0,0,0,0,0
 350,Inner Rage,0,0,0,0,0
 351,Ranged Weapon,2,0,0,0,0
 371,Lightning Shield,0,0,0,0,0
 391,Quest - Felcurse,0,0,0,0,0
-411,Trap (Frost),0,0,0,0,0
+411,Fire Traps,0,0,0,0,0
 431,Holy Nova,0,0,0,0,0
 451,Holy Fire,0,0,0,0,0
 471,Ice Barrier,0,0,0,0,0
@@ -117,15 +117,16 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 634,Howl of Terror,0,0,0,0,0
 651,Shadowburn,0,0,0,0,0
 671,Desperate Prayer,0,0,0,0,0
-672,Conflagrate,0,0,2,12000,0
+672,Conflagrate,0,0,0,0,0
 691,Devouring Plague,0,0,0,0,0
-731,Warlock - Summon Guardian,32,0,0,0,0
+731,Summon Infernal,0,0,0,0,0
 751,Tree Form,0,0,0,0,0
 791,Item - Salt Shaker,0,0,0,0,0
 811,Divine Intervention,0,0,0,0,0
 831,Soulstone,0,0,0,0,0
 851,Restoration,0,0,0,0,0
 871,Shadowmeld,0,0,0,0,0
+872,Intercept,0,0,0,0,0
 891,Whirlwind,0,0,0,0,0
 892,Holy Shock,0,0,0,0,0
 911,Distracting Shot,0,0,0,0,0
@@ -133,7 +134,7 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 932,Consecration,0,0,0,0,0
 951,PvP Battlefield Item - LONG (30 mins),0,0,0,0,0
 971,Mortal Strike,0,0,0,0,0
-991,Item - SnowMaster,0,0,0,0,0
+991,Item - Snowmaster,0,0,0,0,0
 1011,Frenzied Healing,0,0,0,0,0
 1031,Item - Half Hour,0,0,0,0,0
 1051,Item - Jumper Cables,0,0,0,0,0
@@ -142,7 +143,7 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 1111,Wyvern Sting,0,0,0,0,0
 1131,Hammer of Vengeance,0,0,0,0,0
 1132,Intimidation,0,0,0,0,0
-1133,Faerie Fire (Feral),0,0,0,0,0
+1133,Faerie Fire,0,0,0,0,0
 1134,Riposte,0,0,0,0,0
 1135,Counterattack,0,0,0,0,0
 1136,Holiday - Firework Rockets,0,0,0,0,0
@@ -151,271 +152,111 @@ ID,Name_lang,Flags,UsesPerWeek,MaxCharges,ChargeRecoveryTime,TypeMask
 1139,Item - Quest (10 minutes),0,0,0,0,0
 1140,Item - Quest (1 min),0,0,0,0,0
 1141,Item - Burst Trinket,0,0,0,0,0
-1142,Holiday - Valentine,0,0,0,0,0
+1142,Holiday - Valentine Perfume/Cologne,0,0,0,0,0
 1143,Item - Target Dummy,0,0,0,0,0
 1144,Priest Racial,0,0,0,0,0
-1145,Lightwell,32,0,0,0,0
-1146,Item - Enchanting Rod,0,0,0,0,0
-1147,Revive Champion,0,0,0,0,0
-1148,Spellstone,0,0,0,0,0
+1145,Lightwell,0,0,0,0,0
 1149,Quest - 1 Hour,0,0,0,0,0
 1150,ShadowThunderstrike,0,0,0,0,0
 1151,Talent - DPS,0,0,0,0,0
-1152,Creature Special 1,0,0,0,0,0
-1153,Item - Combat Cons. (Non-Aggressive),0,0,0,0,0
-1154,Jewelcrafting - Cut Jewel,0,0,0,0,0
+1152,Creature Special,0,0,0,0,0
+1153,Item - Combat Consumable (Non-Aggressive),0,0,0,0,0
 1155,Arathi Basin Trinket,0,0,0,0,0
-1156,Reincarnation,0,0,0,0,0
-1157,Item - Quest (10 sec),0,0,0,0,0
 1158,Intercept,0,0,0,0,0
 1159,Creature Special 2,0,0,0,0,0
 1160,Item - Priest Epic Staff,0,0,0,0,0
 1161,Reincarnation,0,0,0,0,0
-1162,Invisibility,48,0,0,0,0
-1163,"Chess Cooldown, Move",0,0,0,0,0
-1164,Quest - Azuremyst Mount,0,0,0,0,0
-1165,Pain Spike,0,0,0,0,0
-1166,PvP Trinket/WOTF,48,0,0,0,0
-1167,Quest - Throw Boulder,0,0,0,0,0
-1168,Smoke Flare,0,0,0,0,0
 1169,Shadow Word: Death,0,0,0,0,0
-1170,Quest - Aerial Assault,0,0,0,0,0
-1171,Kill Command,0,0,0,0,0
-1172,Swift Shot,0,0,0,0,0
 1173,Arcane Shot,0,0,0,0,0
-1174,Enchanting,0,0,0,0,0
-1175,Viper Sting,0,0,0,0,0
-1176,Hearthstone,0,0,0,0,0
-1177,Ritual of Souls/Refreshment,0,0,0,0,0
-1178,Stealth Start,0,0,0,0,0
-1179,Curse of Doom,0,0,0,0,0
-1180,Goblin Rocket Helm,0,0,0,0,0
 1181,Prayer of Mending,0,0,0,0,0
-1182,PvP Class Trinkets,0,0,0,0,0
-1183,Item - Netherwing Whelp,0,0,0,0,0
-1184,Zone Flask - Blade's Edge,0,0,0,0,0
-1185,Zone Flask - Shattrath,0,0,0,0,0
-1186,Hand of Sacrifice,48,0,0,120000,0
-1187,Blind,16,0,0,0,0
-1188,Chastise,0,0,0,0,0
 1189,Arcane Barrage,0,0,0,0,0
-1190,Item - PvP Health Increase,0,0,0,0,0
-1191,Shatter Shield,0,0,0,0,0
-1192,Starshards,0,0,0,0,0
-1193,Item - Repair Bot,1,0,0,0,0
-1194,Zone Buff - Sunwell,0,0,0,0,0
 1195,Earth Shield,0,0,0,0,0
-1196,Death Strike,0,0,0,0,0
-1197,Holiday - Snowball,0,0,0,0,0
-1198,Transmute - Alchemy (Metals),0,0,0,0,0
-1199,Transmute - Alchemy (Unused),0,0,0,0,0
-1200,Transmute - Alchemy (Gems),0,0,0,0,0
 1201,Shockwave,0,0,0,0,0
-1202,Nature's Swiftness (Shaman),0,0,0,0,0
-1203,Item - Speed,0,0,0,0,0
 1204,Circle of Healing,0,0,0,0,0
-1205,Feral Charge,0,0,0,0,0
-1206,Shadowstep,0,0,0,0,0
-1207,Blood Strike,0,0,0,0,0
-1208,Berserk,16,0,0,0,0
+1208,Berserk,0,0,0,0,0
 1209,Shield Slam,0,0,0,0,0
-1210,Judgement,0,0,0,0,0
-1211,Heroic Leap,0,0,0,0,0
-1212,Teleport Dalaran - Epic Ring,0,0,0,0,0
-1213,Item - Tracking,0,0,0,0,0
-1214,Living Bomb,0,0,0,0,0
-1215,Dragon's Breath,0,0,0,0,0
-1216,Item - Engineering Enchant,0,0,0,0,0
 1217,Typhoon,0,0,0,0,0
 1218,Starfall,0,0,0,0,0
-1219,Charge,0,0,0,20000,0
 1221,Deep Freeze,0,0,0,0,0
 1222,Haunt,0,0,0,0,0
 1223,Thunderstorm,0,0,0,0,0
 1224,Lava Burst,0,0,0,0,0
 1225,Warlock - Gul'dan Spells,0,0,2,15000,0
-1226,Kill Shot,0,0,0,0,0
-1227,Bomber - Damage Control,0,0,0,0,0
 1228,Riptide,0,0,0,0,0
-1229,Item - Scroll of Recall,0,0,0,0,0
-1230,Penance,0,0,0,0,0
-1231,Concussive Shot,0,0,0,0,0
-1232,Item - Darkmoon Tarot Cards,0,0,0,0,0
-1233,Windfury Weapon,0,0,0,0,0
-1234,Holiday - Thanksgiving Table,0,0,0,0,0
-1235,Icecrown Bomber - Switch Seats,0,0,0,0,0
-1236,Darkmoon - Ride Items,0,0,0,0,0
 1237,Wild Growth,0,0,0,0,0
 1238,Tracking,0,0,0,0,0
-1239,Tracking,0,0,0,0,0
-1240,Corpse Explosion,0,0,0,0,0
-1241,Cower,0,0,0,0,0
-1242,AP/POM,0,0,0,0,0
-1243,Power Word: Barrier,48,0,0,0,0
-1244,Tournament - Mounted Melee,0,0,0,0,0
-1245,Raise Dead,32,0,0,0,0
-1246,Tournament - Banner,0,0,0,0,0
-1247,Froststorm Breath,0,0,0,0,0
+1243,Power Word: Barrier,0,0,0,0,0
 1248,Howling Blast,0,0,0,0,0
-1249,Trap (Nature),0,0,0,0,0
-1250,Trap (Fire),0,0,0,0,0
-1251,Temporary Health,0,0,0,0,0
-1252,Goblin Rocket Belt,0,0,0,0,0
 1253,Horn of Winter,0,0,0,0,0
-1254,Stormstrike,0,0,0,0,0
-1255,Quest - Vehicle,0,0,0,0,0
-1256,Test - Ron's test,8,7,5,10000,0
-1257,Stampeding Roar,0,0,0,0,0
-1258,Tree Climbing,0,0,0,0,0
-1259,Lava Lash/Fire Nova,0,0,0,0,0
-1260,Skull Bash,0,0,0,0,0
-1261,Warrior Shout Buffs,0,0,0,0,0
-1262,Ardent Defender,0,0,0,0,0
-1263,Inscription - Create Recipe,8,0,0,0,0
-1264,Crusader Strike,0,0,0,0,0
-1265,Heroic Strike,0,0,0,0,0
-1266,Fear (Warlock),0,0,0,0,0
-1267,Forged Documents,8,0,0,0,0
-1268,Priest - Archangel,0,0,0,0,0
-1269,Flame Orb,0,0,0,0,0
-1271,Soul Swap,0,0,0,0,0
-1272,Entangling Roots,0,0,0,0,0
-1273,Inscription - Forged Documents,8,0,0,0,0
-1274,Alchemy Research - Northrend,8,0,0,0,0
-1275,Inscription Research - Minor,8,0,0,0,0
-1276,Inscription Research - Northrend,8,0,0,0,0
-1277,Guild Page/Herald,0,0,0,0,0
-1278,Tailoring - Dreamcloth (Air),8,0,0,0,0
-1279,Tailoring - Dreamcloth (Water),8,0,0,0,0
-1280,Tailoring - Dreamcloth (Fire),8,0,0,0,0
-1281,Tailoring - Dreamcloth (Earth),8,0,0,0,0
-1282,Tailoring - Dreamcloth (Life),8,0,0,0,0
-1283,Engineering - Belt Enchantment,0,0,0,0,0
-1284,Cosmetic - Summon,0,0,0,0,0
-1285,Tailoring - Glacial Bag,8,0,0,0,0
-1286,Archaeology Survey,0,0,0,0,0
-1287,Blade Flurry,0,0,0,0,0
-1288,Centering Move,0,0,0,0,0
-1289,Last Stand,0,0,0,0,0
-1290,Bird Attacks,0,0,0,0,0
-1291,Jewelcrafting - Prism,8,0,0,0,0
-1298,Shield Wall,0,0,0,0,0
-1328,Tailoring - Dreamcloth (ALL),0,5,0,0,0
-1329,Rogue - Survival,0,0,0,0,0
-1330,Deadly Calm,48,0,0,0,0
-1331,Quest - Monastery Training,0,0,0,0,0
-1332,Enchantment - Windsong,0,0,0,0,0
-1333,Incarnation,32,0,0,0,0
-1334,Guardian,0,0,0,0,0
-1335,Dragon Soul Legendary,0,0,0,0,0
-1336,Warlock - Grimoire of Service,48,0,0,0,0
-1339,Inscription - Scroll of Wisdom - 5.0 Daily Cooldown,8,0,0,0,0
-1345,War Banner,48,0,0,0,0
-1347,Guild Banner,0,0,0,0,0
-1348,Warlock - Demonic Circle,0,0,0,0,0
-1349,Player Farm - Plot 1 Harvest Cooldown VFW: (DLA),8,0,0,0,0
-1350,Player Farm - Plot 2 Harvest Cooldown VFW: (DLA),8,0,0,0,0
-1351,Player Farm - Plot 3 Harvest Cooldown VFW: (DLA),8,0,0,0,0
-1352,Player Farm - Plot 4 Harvest Cooldown VFW: (DLA),8,0,0,0,0
-1353,Player Farm - Plot 5 Harvest Cooldown VFW: (DLA),8,0,0,0,0
-1354,Player Farm - Plot 6 Harvest Cooldown VFW: (DLA),8,0,0,0,0
-1355,Player Farm - Plot 7 Harvest Cooldown VFW: (DLA),8,0,0,0,0
-1356,Shaman Elemental Totems,48,0,0,0,0
-1357,Enchanting - Crystal Transformation,8,0,0,0,0
-1358,Demonic Slash,0,0,3,4500,0
-1359,Barkskin,0,0,0,0,0
-1360,Chakra,0,0,0,0,0
-1361,Scenario - Item - Damage,0,0,0,0,0
-1362,Scenario - Item - Stun,0,0,0,0,0
-1363,Warlock - Summon Demon,0,0,0,0,0
-1364,Scenario - Item - Heal,0,0,0,0,0
-1365,Monk - Roll,0,0,2,20000,0
-1366,Priest - Halo,0,0,0,0,0
-1367,Monk - Serpent Statue,0,0,2,180000,0
-1372,Wild Mushroom,0,0,0,0,0
-1373,Feathers From Heaven,0,0,3,10000,0
-1374,Monk - Roll <Celerity>,0,0,3,15000,0
-1376,Druid - Savage Defense,0,0,3,9000,0
-1377,Monk - Healing Sphere,0,0,3,6,0
-1378,Dire Beast,0,0,0,0,0
-1380,Divine Star,0,0,0,0,0
-1383,Heart of the Wild,16,0,0,0,0
-1384,Priest - Psyfiend,0,0,0,0,0
-1385,Shield Block,0,0,2,9000,0
-1386,Warrior - Charge,0,0,2,2000,0
-1387,Engineering - Blingtron,8,0,0,0,0
-1388,Alter Time,0,0,0,0,0
-1389,Cascade,0,0,0,0,0
-1390,Hand of Freedom,0,0,0,25000,0
-1391,Hand of Salvation,48,0,0,120000,0
-1392,Hand of Protection,48,0,0,300000,0
-1393,Player Farm - Plot 8 Harvest Cooldown VFW: (DLA),8,0,0,0,0
-1394,Player Farm - Plot 9 Harvest Cooldown VFW: (DLA),8,0,0,0,0
-1395,Player Farm - Plot 10 Harvest Cooldown VFW: (DLA),8,0,0,0,0
-1396,Player Farm - Plot 11 Harvest Cooldown VFW: (DLA),8,0,0,0,0
-1397,Player Farm - Plot 12 Harvest Cooldown VFW: (DLA),8,0,0,0,0
-1398,Player Farm - Plot 13 Harvest Cooldown VFW: (DLA),8,0,0,0,0
-1399,Player Farm - Plot 14 Harvest Cooldown VFW: (DLA),8,0,0,0,0
-1400,Player Farm - Plot 15 Harvest Cooldown VFW: (DLA),8,0,0,0,0
-1401,Player Farm - Plot 16 Harvest Cooldown VFW: (DLA),8,0,0,0,0
-1402,Tailoring - Imperial Silk,8,0,0,0,0
-1407,Challenger's Path,0,0,0,0,0
-1409,Pandaria - Jewelcrafting - Research,8,0,0,0,0
-1415,Warrior Stances,0,0,0,0,0
-1416,Item - The Pigskin,0,0,0,0,0
-1417,Priest - Shadowfiend,32,0,0,0,0
-1418,Xuen,16,0,0,0,0
-1419,Fury Ward,0,0,2,10000,0
-1420,Solar Beam,0,0,0,0,0
-1421,Default (Bug 336222),0,0,0,0,0
-1422,Brawl - Playing Dirty,0,0,0,0,0
-1423,Scenario - Fort - Activated Ability,0,0,0,0,0
-1424,Scenario - Fort - Shotgun,0,0,3,5000,0
-1425,Unstable Explosion,0,0,0,0,0
-1426,Vol'jin Scenario - Land Mines,0,0,5,10000,0
-1427,Summon Krasarang Presence,0,0,0,0,0
-1428,Death Grip,0,0,0,0,0
-1429,Symbiosis,4,0,0,0,0
-1430,Item - Combat Cons. (Landshark),4,0,0,0,0
-1431,Incomplete Drakkari Colossus Abilities,0,0,0,0,0
-1432,Zandalari Council - Soul Fragment,0,0,0,0,0
-1433,Blacksmithing - Lightning Steel Ingot - 5.2 Daily Cooldown,8,0,0,0,0
-1434,Leatherworking - Magnificent Hide - 5.2 Daily Cooldown,8,0,0,0,0
-1435,Leatherworking - Magnificent Hide - 5.2 Daily Cooldown - spare,8,0,0,0,0
-1436,Jewelcrafting - Serpent's Heart - 5.2 Daily Cooldown,8,0,0,0,0
-1437,Ring of Frost,0,0,0,0,0
-1438,Engineering - Stabilized Lightning Source - 5.2 Daily Cooldown,8,0,0,0,0
-1439,Scenario - Shimmer - Sniper,4,0,0,0,0
-1440,Force of Nature,0,0,3,20000,0
-1441,Leatherworking - Hardened Magnificent Hide - 5.4 Daily Cooldown,8,0,0,0,0
-1442,Tailoring - Grand Imperial Silk,8,0,0,0,0
-1443,Blacksmithing - Improved Lightning Steel Ingot - 5.4 Daily Cooldown,8,0,0,0,0
-1444,Item - Push Loot,0,0,0,0,0
-1445,Hamstring,0,0,0,0,0
-1446,Mage - Blink,0,0,0,15000,0
-1447,Warlock - Dark Soul,48,0,0,120000,0
-1448,Hunter - Deterrence Base,48,0,2,180000,0
-1449,Hunter - Disengage,0,0,2,25000,0
-1451,Chi Brew,48,0,2,45000,0
-1452,Ice Floes,0,0,3,20000,0
-1453,Hunter - Deterrence Talented,48,0,2,120000,0
-1454,Leap Charge Protection,0,0,0,0,0
-1456,Sacred Shield,0,0,3,10000,0
-1457,Trade - Cooking,0,0,0,0,0
-1458,Wild Mushroom (Resto),0,0,0,0,0
-1472,Warrior - Interrupt,0,0,0,0,0
-1476,Item - On Use - Helm Visual,0,0,0,0,0
 1516,Toy Use Charges,0,0,30,0,0
 1928,Item - World Buffs Saver,1,0,0,0,0
-1939,Badge of Justice Grant,0,0,0,0,0
-1952,Enchanting,0,0,0,0,0
-2093,Item - Engineering Enchant - Gloves,0,0,0,0,0
-2094,Item - Engineering Enchant - Helm,0,0,0,0,0
-2095,Item - Engineering Enchant - Cloak,0,0,0,0,0
-2096,Item - Engineering Enchant - Belt,0,0,0,0,0
-2097,Item - Engineering Enchant - Boots,0,0,0,0,0
-2305,World Marker,0,0,0,0,0
-2420,Arc Left,0,0,0,0,0
-2421,Arc Right,0,0,0,0,0
-2422,Arc Center,0,0,0,0,0
-2425,Icy Veins,48,0,0,0,0
+1951,Enchanting,0,0,0,0,0
+1997,Soul of Iron,0,0,0,0,0
+2008,Death Absorber,0,0,0,0,0
+2117,Inner Light and Shadow,0,0,0,0,0
+2127,Drain Life (Master Channeler),0,0,0,0,0
+2129,S03 - Shadow Cleave,0,0,0,0,0
+2131,Demonic Circle,0,0,0,0,0
+2171,S03 - Earth Shock - Way of Earth,0,0,0,0,0
+2175,S03 - Priest - Corpse Explosion,0,0,0,0,0
+2182,S03 - Wild Charge,0,0,0,0,0
+2183,Frost Traps,0,0,0,0,0
+2245,S03 - GNO Raid - Grubbis,0,0,0,0,0
+2247,Void-Touched Armaments,0,0,0,0,0
+2251,S03 - GNO Raid - Crowd Pummeler,0,0,0,0,0
+2260,S03 - Gnomeregan Helms,0,0,0,0,0
+2267,S03 - Chicken Trinket Shared Cooldown,0,0,0,0,0
+2269,PvP CC Removal Trinket,0,0,0,0,0
+2286,S03 - Void-Powered Vambraces cooldown,0,0,0,0,0
+2288,S03 - Emerald Ring CD,0,0,0,0,0
+2301,S03 - Tower Boss Combo,2,0,1,1950,0
+2310,S03 - P4 - Demon Fall - Hellscream's Phantom - Mortal Combo,0,0,0,0,0
+2312,S03 - Rain of Fire,0,0,0,0,0
+2319,DMC Torment,0,0,0,0,0
+2320,DMC Decay,0,0,0,0,0
+2321,DMC Sandstorm,0,0,0,0,0
+2323,S03 - Mage Epic Staff,0,0,0,0,0
+2330,S03 - Paladin Epic Sword,0,0,0,0,0
+2331,S03 - Shaman Epic Shield,0,0,0,0,0
+2332,S03 - Druid Epic Weapon,0,0,0,0,0
+2334,S03 - Halberd of Smiting,0,0,0,0,0
+2360,Stopwatch,0,0,0,0,0
+2368,Flare,0,0,0,0,0
+2380,S03 - Seal of the Dawn,0,0,0,0,0
+2385,Professions - Engineering - Tinkers,0,0,0,0,0
+2395,S03 - Recklessness,0,0,0,0,0
+2396,S03 - Retaliation,0,0,0,0,0
+2397,S03 - Shield Wall,0,0,0,0,0
+2399,Hearthstone of the Dawn,0,0,0,0,0
+2400,Druid - Maul,0,0,0,0,0
+2403,REUSEME,0,0,0,0,0
+2404,Crusader Strike,0,0,0,0,0
+2405,Divine Steed,0,0,0,0,0
+2410,Avenger's Shield,0,0,0,0,0
+2412,Slam,0,0,0,0,0
+2413,S03 - Scarlet Enclave Ret Set,0,0,0,0,0
+2414,Penance,0,0,0,0,0
+2417,Explosive Shot,0,0,0,0,0
+2465,Item - Combat Consumable (Cloaking),0,0,0,0,0
+2466,Item - Combat Consumable (Parachute),0,0,0,0,0
+2467,Item - Combat Consumable (Transporter),0,0,0,0,0
+2491,1.60.0 - Chastise,0,0,0,0,0
+2492,Priest - Contingency Plan,0,0,0,0,0
+2506,Flamestrike,0,0,0,0,0
+2511,Camping Fire,0,0,0,0,0
+2515,Item - Quest (5 minutes),0,0,0,0,0
+2518,Blizzard,0,0,0,0,0
+2520,Rain of Fire,0,0,0,0,0
+2521,Volley,0,0,0,0,0
+2522,Starshards,0,0,0,0,0
+2533,Item - 30 Minute - Immune Root,0,0,0,0,0
+2537,1.60.0 - Raid - Hyjal - Reputation - Specialization Selection - Exploit Prevention,0,0,0,0,0
+2541,1.60.0 - Steamwheedle Cartel - Rep Trinkets,0,0,0,0,0
+2548,Feather Fall - Item,0,0,0,0,0
+2554,Item - Defensive Trinket,0,0,0,0,0
+2567,Shaman - Totemic Call Spells,0,0,0,0,1
+2576,Light's Vigil,0,0,0,0,0
+2578,Cultivation,0,0,0,0,0
+2579,Accuse,0,0,0,0,0
+2584,Tidal Charm Trinket,0,0,0,0,0
+2585,Slammed Trinket,0,0,0,0,0
