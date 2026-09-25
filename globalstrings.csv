@@ -2448,7 +2448,7 @@ ID,BaseTag,TagText_lang,Flags
 12411,SUBMIT,Submit,1
 12412,KEY_NUMPADDECIMAL,Num Pad .,1
 12413,VOICEMACRO_1_Tr_0,There be danger!,1
-12414,UNLEARN_SKILL,"Do you want to unlearn %s and lose all associated recipes? Your specialization knowledge will remain should you choose to return to this profession.|n|nType \""UNLEARN\"" into the field to confirm.",1
+12414,UNLEARN_SKILL,"Do you want to unlearn %s and lose all associated recipes? |n|nType \""UNLEARN\"" into the field to confirm.",1
 12415,SIGN_CHARTER,Sign Charter,1
 12416,CREATE_AUCTION,Create Auction,1
 12417,ERR_AUCTION_EXPIRED_S,Your auction of %s has expired.,1
@@ -3069,7 +3069,7 @@ ID,BaseTag,TagText_lang,Flags
 13191,AUCTION_TIME_LEFT3_DETAIL,Between 2 hrs and 12 hrs,1
 13192,AUCTION_TIME_LEFT4_DETAIL,Greater than 12 hrs,1
 13193,STABLE_SLOT_TEXT,Do you wish to purchase another stable slot?,1
-13194,CURRENT_PET,Current Pet:,1
+13194,CURRENT_PET,Current Pet,1
 13195,LOOKING,Looking,1
 13196,TUTORIAL30,"You are now resting, indicated by your portrait glowing yellow. Time spent resting or logged out gives you a temporary bonus to experience from killing monsters.|n|nYou can quickly return to inns to rest by using your hearthstone.",1
 13197,TAKE_ATTACHMENTS,Take Attachments:,1
@@ -3088,7 +3088,7 @@ ID,BaseTag,TagText_lang,Flags
 13216,STABLES,Stables,1
 13217,SPELL_SCHOOL6_CAP,Arcane,1
 13218,SPELL_SCHOOL6_NAME,arcane,1
-13219,STABLED_PETS,Stabled Pets:,1
+13219,STABLED_PETS,Stabled Pets,1
 13220,ERR_QUEST_PUSH_SUCCESS_S,Sharing quest with %s...,1
 13221,ERR_QUEST_PUSH_INVALID_S,%s is not eligible for that quest.,1
 13223,PETTAME_DEAD,Your pet is dead. Use Revive Pet,1
@@ -7517,7 +7517,7 @@ ID,BaseTag,TagText_lang,Flags
 19259,COPPER_AMOUNT_TEXTURE,%d|TInterface\\MoneyFrame\\UI-CopperIcon:%d:%d:2:0|t,3
 19260,GOLD_AMOUNT_TEXTURE,%d|TInterface\\MoneyFrame\\UI-GoldIcon:%d:%d:2:0|t,3
 19261,SILVER_AMOUNT_TEXTURE,%d|TInterface\\MoneyFrame\\UI-SilverIcon:%d:%d:2:0|t,3
-19262,SHOW_ALL_SPELL_RANKS,Show all spell ranks,1
+19262,SHOW_ALL_SPELL_RANKS,Show All Spell Ranks,1
 19263,CALENDAR_INVITE_CONFIRMED,Invite Confirmed/Accepted,1
 19264,CALENDAR_INVITE_ALL,Invite All,1
 19265,CALENDAR_EVENTNAME_FORMAT_RAID_RESET,%s Resets,1
@@ -8080,7 +8080,7 @@ ID,BaseTag,TagText_lang,Flags
 19874,ITEM_MOD_RANGED_ATTACK_POWER_SHORT,Ranged Attack Power,1
 19875,ITEM_MOD_SPELL_HEALING_DONE_SHORT,Spell Healing,1
 19876,ITEM_MOD_SPELL_DAMAGE_DONE_SHORT,Spell Damage,1
-19877,ITEM_MOD_MANA_REGENERATION_SHORT,Mana Regeneration,1
+19877,ITEM_MOD_MANA_REGENERATION_SHORT,Mana Regeneration per 5 sec,1
 19878,ITEM_MOD_ARMOR_PENETRATION_RATING_SHORT,Armor Piercing,1
 19879,ITEM_MOD_SPELL_POWER_SHORT,Spell Power,1
 19880,ITEM_MOD_BLOCK_VALUE_SHORT,Block Value,1
@@ -14846,7 +14846,7 @@ You can find trainers for them in some settlements and cities.",1
 34294,DOWNLOADING_UPDATE,Downloading Update,2
 34295,DOWNLOAD_SUCCESSFUL,Patch Required,2
 34296,DOWNLOAD_SUCCESSFUL_TEXT,Press the restart button below to exit World of\nWarcraft and download the patch.,2
-34297,DPS,DPS,2
+34297,DPS,DPS,3
 34298,DRAENEI_DISABLED,Requires The Burning Crusade,2
 34299,DRIVER_BLACKLISTED,"<html><body><p align=""CENTER"">Your device driver is not compatible. Please see <a href=""https://support.blizzard.com/article/updating-your-drivers-and-operating-system"">https://support.blizzard.com/article/updating-your-drivers-and-operating-system</a> for more information.</p></body></html>",2
 34300,DRIVER_OUTOFDATE,"<html><body><p align=""CENTER"">Your device driver is out of date. Please see <a href=""https://support.blizzard.com/article/updating-your-drivers-and-operating-system"">https://support.blizzard.com/article/updating-your-drivers-and-operating-system</a> for more information.</p></body></html>",2
@@ -17310,7 +17310,7 @@ You can find trainers for them in some settlements and cities.",1
 40862,ISLANDS_QUEUE_CANNOT_QUEUE_ERROR,Islands requires a party size of %d,1
 40863,CLUB_REMOVED_REASON_BANNED,You have been banned from %s.,1
 40864,CLUB_REMOVED_REASON_REMOVED,You have been removed from %s.,1
-40865,CLUB_REMOVED_REASON_CLUB_DESTROYED,You have been removed from %s because it was destroyed.,1
+40865,CLUB_REMOVED_REASON_CLUB_DESTROYED,You have been removed from %s because it was disbanded.,1
 40866,POWER_LEVEL_ABBR,pLvl,1
 40867,BATTLE_FOR_AZEROTH_MASTER,Battle for Azeroth Master,1
 40868,COMMUNITIES_STREAM0_CHAT_SHORTCUT_FORMAT,(/%s),1
@@ -23350,7 +23350,7 @@ Items from the event have been removed.
 53411,HUD_EDIT_MODE_SYSTEM_UTILITY_COOLDOWNS,Utility Cooldowns,1
 53412,HUD_EDIT_MODE_SYSTEM_TRACKED_BUFFS,Tracked Buffs,1
 53413,HUD_EDIT_MODE_SYSTEM_TRACKED_BUFF_BARS,Tracked Bars,1
-53414,HUD_EDIT_MODE_COOLDOWN_VIEWER_LABEL,Cooldown Viewer,1
+53414,HUD_EDIT_MODE_COOLDOWN_VIEWER_LABEL,Cooldown Manager,1
 53415,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_SHOW_TIMER,Show Timer,1
 53416,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_HIDE_WHEN_INACTIVE,Hide When Inactive,1
 53417,HUD_EDIT_MODE_SETTING_COOLDOWN_VIEWER_BAR_CONTENT,Display Mode,1
@@ -23496,7 +23496,7 @@ Items from the event have been removed.
 53824,CHAR_NAME_CONSECUTIVE_SPACES,Names can't have consecutive spaces,3
 53833,HOUSING_LAYOUT_ZOOM_IN_INSTRUCTION,Zoom In,1
 53834,HOUSING_LAYOUT_ZOOM_OUT_INSTRUCTION,Zoom Out,1
-53835,WHO_LIST_SEARCH_INSTRUCTIONS,"Search Zones, Guilds, Classes, Races, Levels",1
+53835,WHO_LIST_SEARCH_INSTRUCTIONS,"Search Name, Guilds, Levels",1
 53836,HOUSING_LAYOUT_CANCEL_INSTRUCTION,Cancel,1
 53847,GUILD_RENAME_DESCRIPTION,Please tell me the desired name for your guild and I'll check if it's unique. There is a waiting period to change the guild name again if you change your mind.,1
 53848,GUILD_RENAME_EDITBOX_INSTRUCTIONS,Enter New Guild Name,1
@@ -26795,7 +26795,7 @@ Items from the event have been removed.
 59604,SOCIAL_QUEUE_QUEUED_FOR_STANDALONE,Queued for,3
 59605,SOCIAL_UI_FRIENDS_LIST_PARTY_BUTTON_OFFLINE_TOOLTIP,Player Offline,3
 59606,SOCIAL_UI_FRIENDS_LIST_PARTY_DROPDOWN_ICON_NAME_FORMAT,%s %s,3
-59607,SOCIAL_UI_BATTLE_NET_FRIEND_TAGS_LABEL,Add Tags [%d],3
+59607,SOCIAL_UI_BATTLE_NET_FRIEND_TAGS_LABEL,Add Tags,3
 59608,SOCIAL_UI_BATTLE_NET_FRIEND_TAG_LABEL_PROFESSIONS,Professions,3
 59609,SOCIAL_UI_BATTLE_NET_FRIEND_TAG_LABEL_PVP,PvP,3
 59610,SOCIAL_UI_BATTLE_NET_FRIEND_TAG_LABEL_RAIDING,Raiding,3
@@ -27049,8 +27049,8 @@ Items from the event have been removed.
 59874,WEAPON_SKILL_RANK_TOOLTIP,You have %s skill in %s.,1
 59875,WEAPON_SKILL_HIT,Hit Chance,1
 59876,SUPER_DISTRICT_SELECT,Select,2
-59877,SUPER_DISTRICT_TITLE,Choose Your Gameplay Style,2
-59878,SUPER_DISTRICT_DESCRIPTION,Select a ruleset to play with.,2
+59877,SUPER_DISTRICT_TITLE,Choose Your Gameplay Ruleset,2
+59878,SUPER_DISTRICT_DESCRIPTION,You will only be able to interact with players who choose the same ruleset.,2
 59880,FRAME_ACTION_EDIT_ACTION_BAR,Edit Action Bar,1
 59881,FRAME_ACTION_UNBIND,Unbind,1
 59882,SOCIAL_UI_FRIENDS_LIST_IN_QUEUE_FILTER_LABEL,In Queue,1
@@ -27122,7 +27122,7 @@ Items from the event have been removed.
 59965,CONTEXT_ACTION_LABEL_MOVE_CHARACTERS,Move Characters,2
 59966,CONTEXT_ACTION_LABEL_RESTORE_CHARACTERS,Restore Deleted Characters,2
 59967,CONTEXT_ACTION_LABEL_RESTORE,Restore,2
-59968,CONTEXT_ACTION_LABEL_PLACE,Place,2
+59968,CONTEXT_ACTION_LABEL_PLACE,Place,3
 59969,TRANSMOGRIFY_INVALID_ITEM_LOW_LEVEL,The item currently equipped in this slot is too low level for this appearance.,1
 59970,SETTINGS_MINIMAP_PLAYER_COORDS,Player Minimap Coordinates,1
 59971,SETTINGS_MINIMAP_PLAYER_COORDS_TOOLTIP,Display your current coordinates on the minimap.,1
@@ -27186,8 +27186,8 @@ Items from the event have been removed.
 60067,STAT_ARMOR_PENETRATION,Armor Piercing,1
 60075,NEWBIE_TOOLTIP_LFG_LIST_TAB_3,Who Listing,0
 60076,LAIR,Lair,1
-60077,SHARD_TRANSFER_NOW_BUTTON,Transfer Now,1
-60078,SHARD_TRANSFER_COUNTDOWN_MESSAGE,Your character will be transferred to another shard in %s %s.,1
+60077,SHARD_TRANSFER_NOW_BUTTON,Refresh Now,1
+60078,SHARD_TRANSFER_COUNTDOWN_MESSAGE,"The world around you will refresh in %s %s. Make sure you are out of combat and in a safe area, or select refresh now.",1
 60079,SHARD_TRANSFER_REFRESH_MESSAGE,The world around you will refresh in %s %s,1
 60080,SHARD_TRANSFER_ANYTIME,Refreshing your world at any time. Characters and creatures around you may change.,1
 60081,SPELL_FAILED_CUSTOM_ERROR_2714,You have not been deemed worthy to challenge Kindo'jan. All chambers must be completed.,1
@@ -27257,8 +27257,8 @@ Items from the event have been removed.
 60166,HOUSING_BLUEPRINT_COLLECTION_CONTENT_PLACEHOLDER,Select a House and Blueprint to see import info,1
 60167,PREFERRED_PLAY_LOCALE_FALLBACK,Locale,3
 60168,PREFERRED_PLAY_DATACENTER_LOCALITY_FALLBACK,Location,3
-60174,UNLEARN_SKILL_GAMEPAD,Do you want to unlearn %s and lose all associated recipes? Your specialization knowledge will remain should you choose to return to this profession.|n|nPress the button sequence to confirm.,1
-60175,SHARD_TRANSFER_NOW,Transfer to a new shard now.,1
+60174,UNLEARN_SKILL_GAMEPAD,Do you want to unlearn %s and lose all associated recipes? |n|nPress the button sequence to confirm.,1
+60175,SHARD_TRANSFER_NOW,Refresh the world now.,1
 60176,HCT_FLOW_SLECT_DESTINATION_ACTIVE,Transfer Destination|n|cFF7F7F7FChoose one option|r,2
 60188,ARMOR_MAX_EFFECTIVENESS_TOOLTIP,|cffBCBCBCDamage reduction from Armor cannot exceed 75.00%%|r,1
 60189,ARMOR_PENETRATION_TOOLTIP,Your |cFFFFFFFFAttacks|r ignore %d of your enemies |cFFFFFFFFArmor|r when attacking. Reducing an enemies armor below 0 will increase your damage against them.,1
@@ -27340,3 +27340,75 @@ Items from the event have been removed.
 60284,EXPERIENCE_PRESET_CLASSIC_UI_LAYOUT,Classic screen UI layout,3
 60285,EXPERIENCE_PRESET_ENHANCED_UI_LAYOUT,Centralized screen UI layout,3
 60289,RECENT_ALLIES_CATEGORIES_FILTER_LABEL,Categories,1
+60290,UNDELETE_NAME_TAKEN_REGIONAL,There is already an active character with that name. You can't restore this character at this time.,2
+60293,FRAME_ACTION_PAN,Pan,1
+60294,WHO_PARTY_BUTTON_TOOLTIP,Invite to Group,1
+60295,SPELL_FAILED_CUSTOM_ERROR_2725,One may only enter De Empire's Rest and challenge Kindo'jan on Tiers 8 or above.,1
+60296,CATALOG_SHOP_WOW_FLAVOR_FOREVER,WoW: Forever,3
+60298,SPELL_FAILED_CUSTOM_ERROR_6014,Not enough items.,1
+60302,HUD_EDIT_MODE_SETTING_PERSONAL_RESOURCE_DISPLAY_ALLOW_MOUSEOVER_THROUGH,Allow Mouseover Through,1
+60304,CATEGORIZE,Categorize,1
+60315,TOOLTIP_COMPARISON_STAT_CRIT_PERCENT,Critical Strike Chance,1
+60317,TOOLTIP_COMPARISON_STAT_HIT_PERCENT,Hit Chance,1
+60319,TOOLTIP_COMPARISON_STAT_BLOCK_CHANCE,Block Chance,1
+60321,TOOLTIP_COMPARISON_STAT_EXPERTISE_PCT,Chance to be Dodged or Parried,1
+60323,TOOLTIP_COMPARISON_STAT_HASTE_PCT,Casting and Attack Speed,1
+60325,TOOLTIP_COMPARISON_STAT_DODGE_PCT,Chance to Dodge,1
+60327,TOOLTIP_COMPARISON_STAT_PARRY_PCT,Chance to Parry,1
+60329,FRAME_ACTION_AMOUNT,Amount,1
+60330,FRAME_ACTION_STACK,Stack,1
+60331,TOOLTIP_ITEM_COMPARE_FORMAT_PERCENTAGE,|c%1$s%2$c%3$s%%|r %4$s,1
+60333,GAMEPAD_TOGGLE_COMPACT_ACTION_BAR,Use Compact Action Bar,1
+60334,GAMEPAD_TOGGLE_COMPACT_ACTION_BAR_TOOLTIP,Enables a more compact action bar layout that only displays the currently active bar.,1
+60335,GAMEPAD_SWAP_TARGET_MODIFIERS,Swap Target Modifier Sides,1
+60336,GAMEPAD_SWAP_TARGET_MODIFIERS_TOOLTIP,"Switch sides of the two targeting modifiers, putting friendly targeting on the right side, and hostile targeting on the left side.",1
+60337,GAMEPAD_SWAP_FRIENDLY_TARGET_ACTIONS,Swap Friendly Targeting Action Sides,1
+60338,GAMEPAD_SWAP_FRIENDLY_TARGET_ACTIONS_TOOLTIP,Swaps the directional pad and face button actions when holding the friendly target modifier.,1
+60339,GAMEPAD_SWAP_HOSTILE_TARGET_ACTIONS,Swap Hostile Targeting Action Sides,1
+60340,GAMEPAD_SWAP_HOSTILE_TARGET_ACTIONS_TOOLTIP,Swaps the directional pad and face button actions when holding the hostile target modifier.,1
+60341,GAMEPAD_PARTY_TARGETING_TOGGLE_TOOLTIP,"While in a party, target specific party members with the directional pad rather than using it for directional targeting. One button becomes dedicated to party member 1, another for party member 2, and so on.",1
+60342,GAMEPAD_PARTY_TARGETING_TOGGLE,Fixed Party Targeting,1
+60343,WHO_SORT_LABEL,Sort By,1
+60345,WHO_SORT_LEVEL_DESCENDING_LABEL,Level Descending,1
+60346,WHO_SORT_LEVEL_ASCENDING_LABEL,Level Ascending,1
+60347,VOICE_CHAT_SERVICE,Preferred Voice Chat Service,1
+60348,VOICE_CHAT_SERVICE_DISCORD,Discord,1
+60349,VOICE_CHAT_SERVICE_LEGACY,Legacy,1
+60350,OPTION_TOOLTIP_VOICE_CHAT_SERVICE,,1
+60351,OPTION_TOOLTIP_VOICE_CHAT_SERVICE_DISCORD,"In-Game Voice (Discord)\n\nUses World of Warcraft's built-in voice chat powered by Discord when you are the group leader.\n\nYou can link your Discord account to inherit Discord keybind and volume settings (optional, under Social settings).\n\nOther players do not require a Discord account to join.\n\nDoes not support Text-to-Speech or Speech-to-Text.",1
+60352,OPTION_TOOLTIP_VOICE_CHAT_SERVICE_LEGACY,In-Game Voice (Legacy)\n\nUses World of Warcraft's older voice chat service when you are the group leader.\n\nUse this option if you require Text-to-Speech or Speech-to-Text.,1
+60353,VOICE_CHAT_MODE_FORMAT,Voice Chat: |cnHIGHLIGHT_FONT_COLOR:%s|r,1
+60354,VOICE_CHAT_MODE_NONE,None,1
+60355,VOICE_CHAT_MODE_LEGACY,In-Game Voice (Legacy),1
+60356,VOICE_CHAT_MODE_DISCORD,In-Game Voice (Discord),1
+60357,VOICE_CHAT_MODE_CUSTOM,Other,1
+60358,VOICE_CHAT_JOIN_GROUP_TEXT,This group is using voice chat for easier communication.,1
+60359,VOICE_CHAT_JOIN_GROUP_DISCORD_TEXT,"Text-to-Speech and Speech-to-Text are not supported in this channel because it uses the Discord service. If you need these features, ask the party leader to switch voice chat to the Legacy service.",1
+60360,VOICE_CHAT_JOIN_GROUP_BUTTON,Join Voice Chat,1
+60361,DISCORD_VOICE_TTS_STT_UNSUPPORTED,"Text-to-Speech and Speech-to-Text are not supported in this channel because it uses the Discord service. If you need these features, ask the party leader to switch voice chat to the Legacy service.",1
+60362,WHO_SORT_DESCENDING_LABEL,Descending,1
+60363,WHO_SORT_ASCENDING_LABEL,Ascending,1
+60364,SOCIAL_FEATURES_UNAVAILABLE,Social Features Unavailable,3
+60365,SOCIAL_FEATURES_UNAVAILABLE_DESCRIPTION,"World of Warcraft includes social features that allow players to communicate and interact with one another.|n|nThis account belongs to a minor. Chat, voice chat, and other player communication features are unavailable until the account holder reaches the required age.",3
+60366,SD_SEARCH_TAG,SD,3
+60367,HD_SEARCH_TAG,HD,3
+60368,AGE_RESTRICTED_CHAT_MINOR,You can't send or receive chat messages because social features are unavailable on accounts belonging to minors.,1
+60369,AGE_RESTRICTED_CHAT_UNVERIFIED,You can't send or receive chat messages until age verification is completed. Visit Battle.net Account Settings to verify your age.,1
+60370,OPTION_TOOLTIP_DISABLE_CHAT_AGE_RESTRICTED_MINOR,Chat and other social features are unavailable on accounts belonging to minors,1
+60371,OPTION_TOOLTIP_DISABLE_CHAT_AGE_RESTRICTED_UNVERIFIED,Verify your age in Battle.net Account Settings to enable chat and other social features,1
+60372,AGE_RESTRICTED_CHAT_MINOR_TOOLTIP,Chat and other social features are unavailable on accounts belonging to minors.,1
+60373,AGE_RESTRICTED_CHAT_UNVERIFIED_TOOLTIP,Verify your age in Battle.net Account Settings to enable chat and other social features,1
+60374,ERR_AGE_RESTRICTED_MAIL_MINOR,Mail is disabled because social features are unavailable on accounts belonging to minors,1
+60375,ERR_AGE_RESTRICTED_MAIL_UNVERIFIED,Mail is disabled until your age has been verified through your Battle.net Account Settings,1
+60378,AGE_VERIFICATION_REQUIRED,Age Verification Required,3
+60379,AGE_VERIFICATION_REQUIRED_DESCRIPTION,"World of Warcraft includes social features that allow players to communicate and interact with one another. Age verification is required before this account can access chat, voice chat, and other player communication features.|n|nVisit Battle.net Account Settings to verify your age and restore access to social features.",3
+60381,AGE_RESTRICTED_VOICE_CHAT_UNVERIFIED_TOOLTIP,Verify your age in Battle.net Account Settings to enable voice chat and other social features,1
+60382,AGE_RESTRICTED_VOICE_CHAT_MINOR_TOOLTIP,Voice chat and other social features are unavailable on accounts belonging to minors.,1
+60384,NPEV2_INTRO_QUESTGIVER_INTERACT_ORC,|cFFFFD200Talk|r to Kaltunk,1
+60385,NPEV2_INTRO_QUESTGIVER_INTERACT_SKYBORNE,|cFFFFD200Talk|r to Ailee Farheart,1
+60386,NPEV2_INTRO_QUESTGIVER_INTERACT_SCOURGE,|cFFFFD200Talk|r to Undertaker Mordo,1
+60387,NPEV2_INTRO_QUESTGIVER_INTERACT_TAUREN,|cFFFFD200Talk|r to Grull Hawkwind,1
+60388,NPEV2_INTRO_QUESTGIVER_INTERACT_DWARF,|cFFFFD200Talk|r to Sten Stoutarm,1
+60389,NPEV2_INTRO_QUESTGIVER_INTERACT_HUMAN,|cFFFFD200Talk|r to Deputy Willem,1
+60390,NPEV2_INTRO_QUESTGIVER_INTERACT_NIGHTELF,|cFFFFD200Talk|r to Conservator Ilthalaine,1
+60392,VISITABLE_URL68,https://account.battle.net/overview,3
