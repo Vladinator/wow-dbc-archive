@@ -9121,7 +9121,7 @@ ID,BaseTag,TagText_lang,Flags
 21008,QUEST_SPELL_NEEDED,Learn Spell: %s,1
 21009,MANA_COMBAT_REGEN_TOOLTIP,%s mana regenerated every 5 seconds while in combat.,1
 21010,STAT_SPELLPOWER,Spell Damage,1
-21011,STAT_SPELLPOWER_TOOLTIP,Increases the damage of your |cFFFFFFFFSpells|r by up to %d\n\nIncreased by |cFFFFFFFFSpell Damage|r and |cFFFFFFFFSpell Power|r\n\n|cffBCBCBCLonger cast times typically benefit more from Spell Damage|r,1
+21011,STAT_SPELLPOWER_TOOLTIP,Increases the damage of your |cFFFFFFFFSpells|r by up to %d\n\nIncreased by |cFFFFFFFFSpell Damage|r and |cFFFFFFFFSpell Power|r\n\n|cffBCBCBCLonger cast times typically benefit more from Spell Damage\n\nSpell ranks far below your current level benefit less from Spell Damage and trigger class abilities less often|r,1
 21012,STATS_EXPAND_TOOLTIP,Show Character Information,1
 21013,STATS_COLLAPSE_TOOLTIP,Hide Character Information,1
 21014,PET_BONUS_TOOLTIP_WARLOCK_SPELLDMG,|cFFBCBCBC\nIncreases your pet's Attack Power by %d and Spell Damage by %d|r,1
@@ -9748,7 +9748,7 @@ ID,BaseTag,TagText_lang,Flags
 21682,STAT_SPELLDAMAGE,Spell Damage,1
 21683,STAT_SPELLDAMAGE_TOOLTIP,Increases the power of damaging spells.,1
 21684,STAT_SPELLHEALING,Spell Healing,1
-21685,STAT_SPELLHEALING_TOOLTIP,Increases the healing of your |cFFFFFFFFSpells|r by up to %d\n\nIncreased by |cFFFFFFFFSpell Healing|r and |cFFFFFFFFSpell Power|r\n\n|cffBCBCBCLonger cast times typically benefit more from Spell Healing|r,1
+21685,STAT_SPELLHEALING_TOOLTIP,Increases the healing of your |cFFFFFFFFSpells|r by up to %d\n\nIncreased by |cFFFFFFFFSpell Healing|r and |cFFFFFFFFSpell Power|r\n\n|cffBCBCBCLonger cast times typically benefit more from Spell Healing\n\nSpell ranks far below your current level benefit less from Spell Healing and trigger class abilities less often|r,1
 21686,PET_LEVEL_UP,%s has reached |cffFF4E00|Hlevelup:%d:LEVEL_UP_TYPE_PET:%s|h[Level %d]|h|r!,1
 21687,PET_LEVEL_UP_REACHED,%s Has Reached,1
 21688,PET_LEVEL_UP_TALENTPOINT_LINK,New |cffFF4E00|Hpettalentpane:|h[Pet Talent]|h|r Available!,1
@@ -11968,7 +11968,7 @@ You can find trainers for them in some settlements and cities.",1
 24144,UNITNAME_SUMMON_TITLE22,%s's Pride,1
 24145,SPELL_FAILED_NO_DUNGEON_ENCOUNTER,Requires engaging %s,1
 24146,POWER_TYPE_OLD_GOD_ENERGY,Y'Shaarj Energy,1
-24150,FULL_PLAYER_NAME,%s-%s,1
+24150,FULL_PLAYER_NAME,%s %s,1
 24152,OPTION_TOOLTIP_SHOW_COMBAT_HEALING_ABSORB_TARGET,Display amount of shield you added to the target.,1
 24153,ERR_GUILD_INVITE_SELF,You can't invite yourself to a guild.,1
 24154,COMBAT_TEXT_ABSORB_ADDED,+%s (Absorb),1
@@ -20109,7 +20109,7 @@ You can find trainers for them in some settlements and cities.",1
 48699,ERR_SOCKETING_CYPHER_GEM_ONLY_IN_CYPHERSLOT,Crystallic Spheroids can only be placed in Crystallic sockets.,1
 48700,ERR_SOCKETING_REQUIRES_CYPHER_GEM,That slot requires a Crystallic Spheroid.,1
 48703,PVP_SCOREBOARD_MATCH_COMPLETE,Match Complete,1
-48704,TRAVEL_PASS_INVITE_CROSS_FACTION,Invite to Instance Group,1
+48704,TRAVEL_PASS_INVITE_CROSS_FACTION,Invite to Group,1
 48705,SUGGEST_INVITE_CROSS_FACTION,Suggest Invite to Instance Group,1
 48706,REQUEST_INVITE_CROSS_FACTION,Request Invite to Instance Group,1
 48707,CROSS_FACTION_INVITE_TOOLTIP,You can group with this %s player and do many instanced activities together.\n\n|cffffffffCan do:|r\n- Dungeons (premade groups)\n- Raids (non-queued)\n- Unrated and Rated PvP\n- Torghast\n\n|cffffffffCan't do:|r\n- Outdoor content,1
@@ -21609,8 +21609,8 @@ Failed to load, next attempt on restart.",3
 50403,EXPANSION_TRIAL_GAINED_LEVEL_TEXT,Level %d,1
 50404,EXPANSION_TRIAL_THANKS_TEXT_GAINED_BANKED_LEVEL,"You can't level past 60 during this trial, but any experience you earn will be banked.|n|nBuy Dragonflight to apply your banked XP and continue leveling to 70!",1
 50405,SPELL_FAILED_CUSTOM_ERROR_831,Requires a Djaradin Pillar Shard.,1
-50406,HARDCORE_WARNING,"|cffffffffDeath is permanent|r|n|n|cffffd200Hold, adventurer. The realm you are selecting is a HARDCORE realm. If you choose to play on this realm, character death is permanent.|r|n|n|cffffffffCustomer Support will not restore fallen hardcore characters for any reason",2
-50407,HARDCORE_CHARACTER_CREATE_WARNING,"Welcome to WoW Classic Hardcore Realms. Any character that dies on a Hardcore realm can never resurrect on that realm for ANY reason. Customer Support cannot resurrect a dead Hardcore character.|n|nBy agreeing to play on these realms, you accept that your character's death is permanent for whatever the reason. This includes disconnections, lag, server outages, gameplay bugs, or any other reason. Dying due to consensual PvP activity-- such as a Duel to the Death or deliberately PvP flagging-- is part of the game.|n|n",2
+50406,HARDCORE_WARNING,"|cffffffffDeath is permanent|r|n|n|cffffd200Hold, adventurer. The realm you are selecting is a HARDCORE realm. If you choose to play on this realm, character death is permanent.|r|n|n|cffffffffCustomer Support will not restore fallen hardcore characters for any reason.",2
+50407,HARDCORE_CHARACTER_CREATE_WARNING,"Welcome to WoW Classic Hardcore Realms. Any character that dies on a Hardcore realm can never resurrect on that realm for ANY reason. Customer Support cannot resurrect a dead Hardcore character.|n|nBy agreeing to play on these realms, you accept that your character's death is permanent for whatever reason. This includes disconnections, lag, server outages, gameplay bugs, or any other reason. Dying due to consensual PvP activity--such as a Duel to the Death or deliberately PvP flagging--is part of the game.|n|n",2
 50408,TITLE_WARNING,Warning!,2
 50409,VISITABLE_URL58,https://support-api.battlenet.com.cn/auth/home/index,2
 50410,VISITABLE_URL59,https://support-api.battlenet.com.cn/auth/home/service,2
@@ -22011,7 +22011,7 @@ Are you sure you want to proceed?",1
 51480,PERSONALTABARDVENDORGREETING,Greetings! Choose the symbol and colors for your personal tabard.,1
 51481,HARDCORE_CAUSEOFDEATH_CREATURE,|Hplayer:%s|h[%s]|h has been slain by a %s in %s! They were level %d,1
 51482,HARDCORE_CAUSEOFDEATH_DROWNING,|Hplayer:%s|h[%s]|h drowned to death in %s! They were level %d,1
-51483,HARDCORE_CAUSEOFDEATH_DUEL,|Hplayer:%s|h[%s]|h has been slain in a duel by %s in $s! They were level %d,1
+51483,HARDCORE_CAUSEOFDEATH_DUEL,|Hplayer:%s|h[%s]|h has been slain in a duel by %s in %s! They were level %d,1
 51484,RAID_MANAGER_RESTRICT_PINGS_PARTY,Restrict Pings to Lead,1
 51490,REPUTATION_SORT_TYPE_SHOW_ALL,All,1
 51491,REPUTATION_SORT_TYPE_ACCOUNT,Account,1
@@ -22147,8 +22147,8 @@ And spread his flame to all Azeroth.",1
 51641,SELF_FOUND_TOOLTIP_INFO,"A self-found character cannot do the following:
 - Trade with other players
 - Send mail to other players, or receive player mail
-- Buy or sell from the auction house\n
-These restrictions can be removed at any time by talking to an in-game character, but it can never be applied outside of character creation.\",2
+- Buy or sell from the auction house
+These restrictions can be removed at any time by talking to an in-game character, but it can never be applied outside of character creation.",2
 51642,MONTHLY_ACTIVITIES_EVENT_DURATION,(%s - %s),1
 51643,TRANSMOG_ITEM_SET_FAVORITE,Set Favorite,3
 51644,TRANSMOG_ITEM_UNSET_FAVORITE,Remove Favorite,3
@@ -22358,7 +22358,7 @@ These restrictions can be removed at any time by talking to an in-game character
 51873,OPTION_TOOLTIP_HARDCORE_ANNOUNCE_DEATH_DISPLAY2,Announce all deaths on the realm,1
 51874,HARDCORE_ANNOUNCE_DEATH_ALERT,Hardcore death alerts,1
 51875,OPTION_TOOLTIP_HARDCORE_ANNOUNCE_DEATH_ALERT_DISPLAY1,Never show a raid-style warning for any deaths,1
-51876,OPTION_TOOLTIP_HARDCORE_ANNOUNCE_DEATH_ALERT_DISPLAY2,Only show raid-style warnings for guilds member deaths,1
+51876,OPTION_TOOLTIP_HARDCORE_ANNOUNCE_DEATH_ALERT_DISPLAY2,Only show raid-style warnings for guild member deaths,1
 51877,OPTION_TOOLTIP_HARDCORE_ANNOUNCE_DEATH_ALERT_DISPLAY3,Show raid-style warnings for all deaths on the realm,1
 51878,SPELL_FAILED_CUSTOM_ERROR_1026,You cannot swap spells on cooldown while in combat.,1
 51880,TRACKER_ALL_OBJECTIVES,All Objectives,1
@@ -24120,7 +24120,7 @@ Items from the event have been removed.
 55252,ERR_HOUSING_RESULT_NOT_IN_TUTORIAL,Mode not available while in the tutorial,1
 55261,HOUSING_DASHBOARD_NO_EXPANSION_TEXT,Please purchase Midnight to access housing,1
 55262,HOUSING_CORNERSTONE_MIDNIGHT_PERMISSION,Please purchase Midnight to access housing,1
-55263,RACE_INFO_SKYBORNE,"For thousands of years, a band of high elven exiles has remained safe and hidden upon their flying sanctuary of Zephras Isle. These 'Skyborne', as they call themselves, shared a bond with air elementals who kept their island aloft in the realm of skywall. But in recent years, the elementals vanished without a trace - disrupting the delicate magic that kept them safe in their haven amongst the clouds. Now, a new generation of Skyborne elves face a time of unprecedented change and must seek new allies and sources of magic - to protect their hidden home and secure their future...",3
+55263,RACE_INFO_SKYBORNE,"For thousands of years, a band of high elven exiles has remained safe and hidden upon their flying sanctuary of Zephras Isle. These 'Skyborne', as they call themselves, shared a bond with air elementals who kept their island aloft in the realm of Skywall. But in recent years, the elementals vanished without a trace - disrupting the delicate magic that kept them safe in their haven amongst the clouds. Now, a new generation of Skyborne elves face a time of unprecedented change and must seek new allies and sources of magic - to protect their hidden home and secure their future...",3
 55264,UNIT_NAMEPLATES_ENEMY_NPC_AURA_DISPLAY,Enemy NPC Buffs/Debuffs,1
 55265,UNIT_NAMEPLATES_ENEMY_NPC_AURA_DISPLAY_TOOLTIP,"Controls how your buffs, debuffs, and forms of crowd control are displayed on the nameplates of enemy NPCs.",1
 55266,UNIT_NAMEPLATES_ENEMY_NPC_AURA_DISPLAY_NONE,None,1
@@ -24492,7 +24492,7 @@ Items from the event have been removed.
 55886,GENERIC_TRAIT_FRAME_CONFIRM_PURCHASE,Are you sure you want to unlock this talent?,1
 55892,MONSTER_BOSS_WARNING,Boss Warning,1
 55893,ENCOUNTER_EVENT,Boss Warning,1
-55894,SPELL_FAILED_CUSTOM_ERROR_2507,This spell can be only be cast in raid instances.,1
+55894,SPELL_FAILED_CUSTOM_ERROR_2507,This spell can only be cast in raid instances.,1
 55911,UNITNAME_SUMMON_TITLE60,%s's Husk,1
 55916,PET_FILTER_BATTLE_PETS,Battle Pets,1
 55917,PET_FILTER_NON_COMBAT_PETS,Peaceful Pets,1
@@ -24797,7 +24797,7 @@ Items from the event have been removed.
 56689,UNIT_NAMEPLATES_STYLE_MODERN,Large,1
 56690,SPELL_FAILED_CUSTOM_ERROR_2512,The potatoad does not recognize you as one of its own.,1
 56691,HOUSING_MARKET_BUNDLE_PREVIEW_DETAILS,Previewing any Decor will add this bundle to your cart.,1
-56694,TRAINING_POINTS_TUTORIAL,Increase your pets loyalty and level to gain Training Points.,1
+56694,TRAINING_POINTS_TUTORIAL,Increase your pet's loyalty and level to gain Training Points.,1
 56695,COOLDOWN_VIEWER_SETTINGS_ADD_ALERT_TOOLTIP_DISABLED_NO_VALID,This item doesn't support any alert types,1
 56697,HUD_EDIT_MODE_SETTING_DAMAGE_METER_BAR_HEIGHT,Bar Height,1
 56698,CONFIRM_TALENT_WIPE,Do you want to unlearn all of your talents?,1
@@ -25057,7 +25057,7 @@ Items from the event have been removed.
 57093,TRANSMOG_CUSTOM_SET_NEW_TOOLTIP_DISABLED,Add an appearance to create a Custom Set,1
 57094,HOUSING_ENDEAVORS_MIN_LEVEL,Endeavors unlock at Level %d,5
 57098,SPELL_FAILED_CUSTOM_ERROR_2516,You can't hold any more hens.,1
-57100,DAMAGE_METER_AVOIDABLE_DAMAGE_NOT_ACTIVE,Avoidable damage tracking is only active in current season instances,1
+57100,DAMAGE_METER_AVOIDABLE_DAMAGE_NOT_ACTIVE,No avoidable damage has been dealt. Avoidable damage tracking may not be available in all content.,1
 57119,ERR_HOUSING_RESULT_GUILD_MORE_ACCOUNTS_NEEDED,Your guild must have at least 10 unique Battle.net accounts to create a guild neighborhood.,1
 57120,ERR_HOUSING_RESULT_GUILD_MORE_ACTIVE_PLAYERS_NEEDED,Your guild must have at least 10 active Battle.net accounts to create a guild neighborhood.,1
 57121,ENDEAVOR_INITIATIVES_PROGRESS_TEXT,%d / %d,1
@@ -25395,7 +25395,7 @@ Items from the event have been removed.
 57751,DAMAGE_METER_MAKE_UNINTERACTABLE,Make Noninteractive,1
 57752,DAMAGE_METER_MAKE_INTERACTABLE,Make Interactive,1
 57753,SLASH_CAA_DISABLED_WARNING,"Combat Audio Alerts are currently disabled. To enable them, type /ttscombat.",1
-57754,SLASH_CAA_DISABLED_WARNING_NARRATED,"Combat Audio Alerts are currently disabled. To enable them, type  /<spell>tts</spell>combat",1
+57754,SLASH_CAA_DISABLED_WARNING_NARRATED,"Combat Audio Alerts are currently disabled. To enable them, type /<spell>tts</spell>combat",1
 57755,COOLDOWN_VIEWER_SETTINGS_ALERT_WHEN_AURA_APPLIED,On Aura Applied,1
 57756,COOLDOWN_VIEWER_SETTINGS_ALERT_WHEN_AURA_REMOVED,On Aura Removed,1
 57757,VOICE_GENERIC_FORMAT_MASCULINE,English Voice %d (Masculine),1
@@ -25441,7 +25441,7 @@ Items from the event have been removed.
 57801,SLASH_CAA_SAY_TARGET_CASTS_VOICE,saytargetcastsvoice,1
 57802,SLASH_CAA_SAY_TARGET_CASTS_VOICE_NARRATED,say target casts voice,1
 57803,SLASH_CAA_HELP_SAY_TARGET_CASTS_VOICE,[%d - %d] - Choose the voice to use to say your target's casts,1
-57804,SLASH_CAA_SAY_TARGET_CASTS_VOICE_CHANGED_CONFIRMATION,Combat Audio Alert Say Targets Casts Voice set to %s,1
+57804,SLASH_CAA_SAY_TARGET_CASTS_VOICE_CHANGED_CONFIRMATION,Combat Audio Alert Say Target's Casts Voice set to %s,1
 57812,ERR_TRANSMOG_INVALID_ACTION_TRIAL_OF_STYLE,You can't do that while the Trial of Style Scenario is in progress,1
 57813,TRANSMOG_TRIAL_OF_STYLE_HELPTIP,Dress to impress with this special Trial of Style outfit.\n\nUpdating this outfit is free during the Trial of Style event.,1
 57814,HUD_EDIT_MODE_SETTING_ENCOUNTER_EVENTS_TOOLTIPS,Tooltips,1
@@ -25519,7 +25519,7 @@ Items from the event have been removed.
 57916,CATALOG_SHOP_REFUND_FLOW_SELECT_NONE,Select None,3
 57923,SCENARIO_CHALLENGES_BUTTON,Challenges |cffffd200(%d)|r,1
 57924,CAA_SAY_YOUR_DEBUFFS_LABEL,Say Your Debuffs,1
-57925,CAA_SAY_YOUR_DEBUFFS_TOOLTIP,Says when a debuff is applied on you,1
+57925,CAA_SAY_YOUR_DEBUFFS_TOOLTIP,Says when a debuff is applied to you,1
 57926,CAA_SAY_YOUR_DEBUFFS_FORMAT_FULL,Debuff %s,1
 57927,CAA_SAY_YOUR_DEBUFFS_FORMAT_NO_SPELLNAME,Debuff,1
 57929,CAA_SAY_YOUR_DEBUFFS_MIN_DURATION_LABEL,Minimum Duration,1
@@ -25532,7 +25532,7 @@ Items from the event have been removed.
 57936,CAA_DEBUFF_SELF_ALERT_FORMAT_DEBUFF_TYPE,"Voice: ""%s debuff""",1
 57940,SLASH_CAA_SAY_YOUR_DEBUFFS,sayyourdebuffs,1
 57941,SLASH_CAA_SAY_YOUR_DEBUFFS_NARRATED,say your debuffs,1
-57942,SLASH_CAA_HELP_SAY_YOUR_DEBUFFS,Says when a debuff is applied on you,1
+57942,SLASH_CAA_HELP_SAY_YOUR_DEBUFFS,Says when a debuff is applied to you,1
 57943,SLASH_CAA_SAY_YOUR_DEBUFFS_FORMAT,sayyourdebuffsformat,1
 57944,SLASH_CAA_SAY_YOUR_DEBUFFS_FORMAT_NARRATED,Say Your Debuffs Format,1
 57945,SPELL_DIMINISH_SECTION_HEADER_TOOLTIP,Displays the current reduction to crowd control duration on Arena frames.,1
@@ -25656,7 +25656,7 @@ Items from the event have been removed.
 58196,SPELL_FAILED_CUSTOM_ERROR_2605,You have donated community wax too recently. Come back later to retrieve.,1
 58197,HOUSING_EXTERIOR_CUSTOMIZATION_HIDE_DECOR_LABEL,Hide Decor,1
 58198,SPELL_FAILED_CUSTOM_ERROR_2606,This statue can't get any shinier!,1
-58199,HOUSING_PURCHASE_FAILURE_INSUFFICIENT_FUNDS,"Purchase has failed, Insufficient funds.",3
+58199,HOUSING_PURCHASE_FAILURE_INSUFFICIENT_FUNDS,Purchase has failed: insufficient funds.,3
 58200,SPELL_FAILED_CUSTOM_ERROR_6010,This pylon has already been repaired.,1
 58201,TIERED_ENTRANCE_FRAME_CONFIG_OPERATION_TOO_FAST,Processing selection. Please wait.,1
 58204,ENDEAVOR_TOOLTIP_CURRENCY_TOTAL,Total: %s/%s,1
@@ -25745,7 +25745,7 @@ Items from the event have been removed.
 58304,ACTION_LABEL_ADJUST_COLOR,Adjust Color,3
 58305,ACTION_LABEL_ADJUST_BRIGHTNESS,Adjust Brightness,3
 58306,ENABLE_GAMEPAD_UI,Enable Gamepad UI (Alpha),3
-58307,OPTION_TOOLTIP_ENABLE_GAMEPAD_UI,When this is true the gamepad UI will be enabled,3
+58307,OPTION_TOOLTIP_ENABLE_GAMEPAD_UI,"When this is true, the gamepad UI will be enabled",3
 58308,CONFIRM_CHAR_DELETE_INSTRUCTIONS_GAMEPAD,Press the button sequence to confirm.,3
 58310,FRAME_ACTION_TOGGLE_ITEM_COMPARE,Toggle Item Compare,1
 58311,FRAME_ACTION_HIDE_QUESTS,Hide Quests,1
@@ -25849,7 +25849,7 @@ Items from the event have been removed.
 58410,DECOR_LIGHT_RADIUS_INDICATOR_TYPE_OVERLAP,Overlap,1
 58411,DECOR_LIGHT_RADIUS_INDICATOR_TYPE_NEVER,Never,1
 58412,OPTION_TOOLTIP_DECOR_LIGHT_RADIUS_INDICATOR_TYPE_ALWAYS,The Indicator is always visible while moving a light.,1
-58413,OPTION_TOOLTIP_DECOR_LIGHT_RADIUS_INDICATOR_TYPE_OVERLAP,When two lights are overlapping the indicator will appear.,1
+58413,OPTION_TOOLTIP_DECOR_LIGHT_RADIUS_INDICATOR_TYPE_OVERLAP,"When two lights are overlapping, the indicator will appear.",1
 58414,OPTION_TOOLTIP_DECOR_LIGHT_RADIUS_INDICATOR_TYPE_NEVER,No indicator will show.,1
 58415,SELECTED_DECOR_LIGHT_RADIUS_INDICATOR_TYPE,Selected Decor,1
 58416,OTHER_DECOR_LIGHT_RADIUS_INDICATOR_TYPE,Other Decor,1
@@ -25868,7 +25868,7 @@ Items from the event have been removed.
 58431,PHRASES_SECONDARY,Secondary,1
 58432,PHRASES_DUNGEON_EVERY_ONE_READY,Everyone ready?,1
 58433,PHRASES_DUNGEON_READY,I'm ready,1
-58434,PHRASES_DUNGEON_NOT_READY,"Wait, dont pull",1
+58434,PHRASES_DUNGEON_NOT_READY,"Wait, don't pull",1
 58435,PHRASES_DUNGEON_THIS_WAY,This way,1
 58436,PHRASES_DUNGEON_WIPE,Run or wipe!,1
 58437,PHRASES_DUNGEON_ON_MY_WAY,On my way!,1
@@ -26043,7 +26043,7 @@ Items from the event have been removed.
 58610,GAMEPAD_MODIFIER_TOGGLE,Press to Toggle,1
 58611,OPTIONS_TOOLTIP_GAMEPAD_MODIFIER_TOGGLE,Toggle the HUD Modifier by tapping instead of holding and releasing the button.,1
 58612,TARGETING_MODE,Targeting Mode,1
-58613,TARGETING_MODE_DESCRIPTION,"Reticle Aiming: While the Targeting Modifier is active, move the HUD reticle in the center of the screen over a unit to target it.\n\nAnalog Stick Aiming: While the Targeting Modifer is active, tilt the Right Stick toward a unit to target it.",1
+58613,TARGETING_MODE_DESCRIPTION,"Reticle Aiming: While the Targeting Modifier is active, move the HUD reticle in the center of the screen over a unit to target it.\n\nAnalog Stick Aiming: While the Targeting Modifier is active, tilt the Right Stick toward a unit to target it.",1
 58614,TARGETING_MODE_RETICLE,Reticle Aiming,1
 58615,TARGETING_MODE_ANALOG,Analog Stick Aiming,1
 58616,FOCUS_MODIFICATIONS_HEADER,Frame Focus Style,1
@@ -26062,9 +26062,9 @@ Items from the event have been removed.
 58629,RAID_TARGETING_OPTIONS_RIGHT_STICK,Use Right Stick,1
 58630,OPTIONS_TOOLTIP_RAID_TARGETING_OPTIONS_RIGHT_STICK,"While raid targeting, the Right Stick will be used to move the cursor instead of the DPad.",1
 58631,GAMEPAD_POSSESS_BAR_OVERRIDE,Possess Bar Override,1
-58632,OPTIONS_TOOLTIP_GAMEPAD_POSSESS_BAR_OVERRIDE,"When the possess action bar is displayed, the selected action bar will be temporarily be replaced with it.",1
+58632,OPTIONS_TOOLTIP_GAMEPAD_POSSESS_BAR_OVERRIDE,"When the possess action bar is displayed, the selected action bar will be temporarily replaced with it.",1
 58633,GAMEPAD_STANCE_BAR_OVERRIDE,Stance Bar Override,1
-58634,OPTIONS_TOOLTIP_GAMEPAD_STANCE_BAR_OVERRIDE,"When the stance action bar is displayed, the selected action bar will be temporarily be replaced with it.",1
+58634,OPTIONS_TOOLTIP_GAMEPAD_STANCE_BAR_OVERRIDE,"When the stance action bar is displayed, the selected action bar will be temporarily replaced with it.",1
 58635,GAMEPAD_POSSESS_BAR_SPECIAL_PAGE,Special Page,1
 58636,GAMEPAD_STANCE_BAR_NONE,None,1
 58637,GAMEPAD_BAR_PAGE1_LEFT,Page 1 Left Bar,1
@@ -26093,7 +26093,7 @@ Items from the event have been removed.
 58666,LEGACY_CHALLENGE_FRAME_TITLE,Legacy Challenges,1
 58667,LEGACY_TRACK_FRAME_TITLE,Progress Track,1
 58668,HUD_EDIT_MODE_SETTING_STATUS_TACKING_BAR_SIZE,Width,1
-58672,VIDEO_OPTIONS_ADVANCEDLIGHT_DISABLED,Secondary lighting effect are disabled.,3
+58672,VIDEO_OPTIONS_ADVANCEDLIGHT_DISABLED,Secondary lighting effects are disabled.,3
 58673,VIDEO_OPTIONS_ADVANCEDLIGHT_LOW,Low number of samples used from environment lights.,3
 58674,VIDEO_OPTIONS_ADVANCEDLIGHT_MEDIUM,Moderate number of samples used from environment lights.,3
 58676,VIDEO_OPTIONS_ADVANCEDLIGHT_HIGH,High number of samples used from environment lights.,3
@@ -26164,7 +26164,7 @@ Items from the event have been removed.
 58775,PVP_RANK_NUMBER,Rank %d,1
 58777,PVP_RANK_NEXT_REWARD,|cFFFFFFFFNext Rewards at Rank %d|r,1
 58781,TRANSMOG_OPT_OUT,Disable Transmog System,1
-58782,OPTION_TOOLTIP_TRANSMOG_OPT_OUT,"Disables the Transmog System, you will not see other Players' Transmogs and they will not see yours.",1
+58782,OPTION_TOOLTIP_TRANSMOG_OPT_OUT,Disables the Transmog System. You will not see other Players' Transmogs and they will not see yours.,1
 58793,ITEM_MOD_PHYSICAL_DAMAGE_DONE_SHORT,Physical Damage,1
 58794,ITEM_MOD_PHYSICAL_DAMAGE_DONE,Increases physical damage done by up to %s.,1
 58795,ITEM_MOD_HOLY_DAMAGE_DONE_SHORT,Holy Damage,1
@@ -26284,7 +26284,7 @@ Items from the event have been removed.
 58937,ITEM_MOD_FISHING,Increases fishing skill by %s.,1
 58938,ITEM_MOD_TAILORING_SHORT,Tailoring Skill,1
 58939,ITEM_MOD_TAILORING,Increases tailoring skill by %s.,1
-58940,SPELL_FAILED_CUSTOM_ERROR_2610,This wick is still souldbound to its finder. Try again in a moment.,1
+58940,SPELL_FAILED_CUSTOM_ERROR_2610,This wick is still soulbound to its finder. Try again in a moment.,1
 58941,WORLD_TIER_HEROIC,Heroic,1
 58942,WORLD_TIER_MYTHIC,Mythic,1
 58945,UNSPENT_POINTS,Unspent Talents,1
@@ -26322,7 +26322,7 @@ Items from the event have been removed.
 59037,DRUID_AGILITY_TOOLTIP,Increases |cFFFFFFFFCritical Strike|r chance by %.1f%%\nIncreases |cFFFFFFFFAttack Power|r in Cat Form by %d\nIncreases |cFFFFFFFFArmor|r by %d\nIncreases |cFFFFFFFFDodge|r chance by %.1f%%,1
 59038,WARRIOR_AGILITY_TOOLTIP,Increases |cFFFFFFFFCritical Strike|r chance by %.1f%%\nIncreases |cFFFFFFFFRanged Attack Power|r by %d\nIncreases |cFFFFFFFFArmor|r by %d\nIncreases |cFFFFFFFFDodge|r chance by %.1f%%,1
 59040,HUD_EDIT_MODE_PERSONAL_RESOURCE_DISPLAY_NO_CLASS_RESOURCES_TOOLTIP,The Personal Resource Display doesn't show any Class Resources for your Class and current Specialization.,1
-59041,HUD_EDIT_MODE_PERSONAL_RESOURCE_DISPLAY_DISABLED_TOOLTIP,"Displays health, power, and class resources. The Personal Resource Display is currently disabled. Enable it in: Combat>Personal Resource Display",1
+59041,HUD_EDIT_MODE_PERSONAL_RESOURCE_DISPLAY_DISABLED_TOOLTIP,"Displays health, power, and class resources. The Personal Resource Display is currently disabled. Enable it in: Combat > Personal Resource Display",1
 59042,SLASH_PING_SPELL1,/pingspell,1
 59043,SLASH_PING_SPELL2,/pingspell,1
 59044,SLASH_PING_ITEM1,/pingitem,1
@@ -26760,7 +26760,7 @@ Items from the event have been removed.
 59568,HOUSING_BLUEPRINT_EXPORT_ROOM_NAME_LABEL,Room Blueprint Name:,1
 59569,HOUSING_LAYOUT_EXPORT_ROOM_TOOLTIP,Save Room Blueprint,1
 59570,SCREEN_NARRATOR_VOICE,Screen Narrator Voice,3
-59571,OPTION_TOOLTIP_SCREEN_NARRATOR_VOICE,Chose the style of voice used by the screen narrator,3
+59571,OPTION_TOOLTIP_SCREEN_NARRATOR_VOICE,Choose the style of voice used by the screen narrator,3
 59572,HOUSE_EDITOR_CATALOG_BLUEPRINTS_TAB,Blueprints,1
 59573,PCT_DESTINATION_SUPER_DISTRICT_LABEL_COMPLETE,|cffffd200Ruleset:|r %s,3
 59574,SCREEN_NARRATOR_SPEECH_RATE,Screen Narrator Speed,3
@@ -26817,7 +26817,7 @@ Items from the event have been removed.
 59626,SOCIAL_UI_FRIEND_REQUESTS_CARD_BATTLE_NET_LABEL,Wants to be your BattleTag friend,3
 59627,SOCIAL_UI_FRIEND_REQUESTS_CARD_TITLE_LABEL,Wants to be your WoW friend,3
 59628,SOCIAL_UI_FRIEND_REQUESTS_CARD_REAL_ID_LABEL,Wants to be your Real ID friend,3
-59629,SOCIAL_UI_FRIEND_REQUESTS_REAL_ID_WARNING,|cnNORMAL_FONT_COLOR:You have received a Real ID friend request|r|n|n|cnHIGHLIGHT_FONT_COLOR:This should be a person you know and trust in real life. You will be able to chat with them no matter which Blizzard game you are playing. If you accept their friend request your real name will be displayed to all of their friends.|r,3
+59629,SOCIAL_UI_FRIEND_REQUESTS_REAL_ID_WARNING,"|cnNORMAL_FONT_COLOR:You have received a Real ID friend request|r|n|n|cnHIGHLIGHT_FONT_COLOR:This should be a person you know and trust in real life. You will be able to chat with them no matter which Blizzard game you are playing. If you accept their friend request, your real name will be displayed to all of their friends.|r",3
 59631,RADIAL_LABEL_CALENDAR,Calendar,1
 59633,RADIAL_LABEL_BUFFS,View Buffs,1
 59634,RADIAL_LABEL_CHAT,Chat,1
@@ -26904,7 +26904,7 @@ Items from the event have been removed.
 59715,NARRATION_GAME_MENU_BUTTON,Game Menu,3
 59716,NARRATION_HIDE_INTERFACE_BUTTON,Hide Interface,3
 59717,NARRATION_HIDE_INTERFACE_DESCRIPTION,Toggle User Interface Visibility,3
-59718,NARRATION_HIDE_INTERFACE_ENABLED,"Hide Interface enabled, Press Escape to exit mode",3
+59718,NARRATION_HIDE_INTERFACE_ENABLED,Hide Interface enabled. Press Escape to exit mode,3
 59719,NARRATION_ROTATE_LEFT_BUTTON,Rotate Left,3
 59720,NARRATION_ROTATE_RIGHT_BUTTON,Rotate Right,3
 59721,NARRATION_WARBAND_CHARACTER_LIST,Warband Character List,3
@@ -27002,7 +27002,7 @@ Items from the event have been removed.
 59824,RADIAL_LABEL_TOGGLE_SIT,Sit / Stand,1
 59825,RADIAL_LABEL_LFD_CONTEXT_MENU,Open Context Menu,1
 59826,PARTY_PLAYER_SHARDED_INCOMPATIBLE_RULESET,You can only see this player inside instances because they are playing with a different ruleset.,1
-59827,DISCORD_GUILD_SETTING_CHANNEL_LIST_EMPTY,No valid channels to link.  Make sure you have Manage Channels permission on the server.,1
+59827,DISCORD_GUILD_SETTING_CHANNEL_LIST_EMPTY,No valid channels to link. Make sure you have Manage Channels permission on the server.,1
 59828,NARRATION_VAS_AVAILABLE_COUNT,%d available,3
 59829,ERR_HOUSING_RESULT_MAX_STORAGE_DECOR_REACHED,Your Decor storage has reached the maximum number of decor allowed,1
 59830,CLASS_TALENT_SEARCH_OPTION_HIDE_PASSIVES,Hide Passives,1
@@ -27143,7 +27143,7 @@ Items from the event have been removed.
 59989,OPTION_TOOLTIP_PBR_LIQUID_DETAIL,"Controls the rendering quality of new, Physically Based, liquids.",3
 59990,VIDEO_OPTIONS_PBR_LIQUID_DETAIL_LOW,Low resolution reflections and Bilinear filtering.,3
 59991,VIDEO_OPTIONS_PBR_LIQUID_DETAIL_HIGH,"High resolution reflections, Bicubic filtering, and flow calculations.",3
-59992,VIDEO_OPTIONS_PBR_LIQUID_DETAIL_ULTRA,"Very-High resolution reflections, Bicubic filtering, and flow calculations.",3
+59992,VIDEO_OPTIONS_PBR_LIQUID_DETAIL_ULTRA,"Very high resolution reflections, Bicubic filtering, and flow calculations.",3
 59993,TRANSMOG_SLOT_WARNING_ITEM_LOW_LEVEL,The item currently equipped in this slot is too low level for this appearance.,1
 59996,HOUSING_BLUEPRINT_EXPORT_STAIRWELL_WARNING,Warning: You are about to save a stairwell room. This will only save the current layer of the stairwell.,1
 60003,SHOW_LEARNED_RECIPE_TOASTS,Show Recipe Toasts,1
@@ -27158,7 +27158,7 @@ Items from the event have been removed.
 60020,WHO_COOLDOWN_SHORT,You must wait a moment longer before using /who again.,1
 60021,LEGACY_MICRO_BUTTON_LOCKED_TOOLTIP,This feature becomes available when your first character reaches level 25.,1
 60022,WHO_NOT_AVAILABLE,/who is currently unavailable. Please try again later.,1
-60023,ERR_FULL_NAME_REQUIRED,Please enter full character name.,1
+60023,ERR_FULL_NAME_REQUIRED,Please enter a full character name.,1
 60024,LEGACY_REWARD_TRACK_POINTS,Legacy Points,1
 60029,LFG_LIST_TAB_3,Who List,1
 60030,FRAME_ACTION_NAVIGATE,Navigate,3
@@ -27187,8 +27187,8 @@ Items from the event have been removed.
 60075,NEWBIE_TOOLTIP_LFG_LIST_TAB_3,Who Listing,0
 60076,LAIR,Lair,1
 60077,SHARD_TRANSFER_NOW_BUTTON,Refresh Now,1
-60078,SHARD_TRANSFER_COUNTDOWN_MESSAGE,"The world around you will refresh in %s %s. Make sure you are out of combat and in a safe area, or select refresh now.",1
-60079,SHARD_TRANSFER_REFRESH_MESSAGE,The world around you will refresh in %s %s,1
+60078,SHARD_TRANSFER_COUNTDOWN_MESSAGE,"The world around you will refresh in %s %s. Make sure you are out of combat and in a safe area, or click here to refresh now.",1
+60079,SHARD_TRANSFER_REFRESH_MESSAGE,World refresh in %s %s,1
 60080,SHARD_TRANSFER_ANYTIME,Refreshing your world at any time. Characters and creatures around you may change.,1
 60081,SPELL_FAILED_CUSTOM_ERROR_2714,You have not been deemed worthy to challenge Kindo'jan. All chambers must be completed.,1
 60082,SPELL_FAILED_CUSTOM_ERROR_2715,On or more party members have not been deemed worthy to challenge Kindo'jan. All chambers must be completed.,1
@@ -27208,7 +27208,7 @@ Items from the event have been removed.
 60106,PREFERRED_DATACENTER_LOCALITY_TOOLTIP,Select your default account location for this region. This applies to all characters on your account.\n\nChanges subject to a %d day cooldown.,3
 60107,PREFERRED_PLAY_SETTINGS_UNAVAILABLE_REASON,Available after account preferences are loaded.,3
 60109,GAMEPAD_FOLLOW_CAMERA,Follow Camera,1
-60110,OPTION_TOOLTIP_GAMEPAD_FOLLOW_CAMERA,Camera follows centered behind the player.,1
+60110,OPTION_TOOLTIP_GAMEPAD_FOLLOW_CAMERA,Camera follows the player while remaining centered behind them.,1
 60111,GAMEPAD_FOLLOW_CAMERA_PITCH_OFFSET,Follow Camera Pitch Offset,1
 60112,OPTION_TOOLTIP_GAMEPAD_FOLLOW_CAMERA_PITCH_OFFSET,Offset in degrees from character center that the follower camera will maintain.,1
 60113,GAMEPAD_TURN_WITH_CAMERA,Turn Player with Camera,1
@@ -27228,8 +27228,8 @@ Items from the event have been removed.
 60127,OPTION_TOOLTIP_GAMEPAD_FACE_MOVEMENT_GLIDING,Always face the stick movement direction while gliding and not in combat.,1
 60128,GAMEPAD_MOVEMENT_FACE_ANGLE,Movement Face Angle,1
 60129,GAMEPAD_MOVEMENT_FACE_ANGLE_COMBAT,Movement Face Angle Combat,1
-60130,OPTION_TOOLTIP_GAMEPAD_MOVEMENT_FACE_ANGLE,Stick angle past the set value will make the player face the stick movement otherwise the player strafes while facing the camera direction. Angle of 0 makes the player always face the stick movement direction. Angle of 180 makes the player always face the camera direction. Only applies when not in combat.,1
-60131,OPTION_TOOLTIP_GAMEPAD_MOVEMENT_FACE_ANGLE_COMBAT,Stick angle past the set value will make the player face the stick movement otherwise the player strafes while facing the camera direction. Angle of 0 makes the player always face the stick movement direction. Angle of 180 makes the player always face the camera direction. Only applies when in combat.,1
+60130,OPTION_TOOLTIP_GAMEPAD_MOVEMENT_FACE_ANGLE,"Stick angle past the set value will make the player face the stick movement; otherwise, the player strafes while facing the camera direction. Angle of 0 makes the player always face the stick movement direction. Angle of 180 makes the player always face the camera direction. Only applies when not in combat.",1
+60131,OPTION_TOOLTIP_GAMEPAD_MOVEMENT_FACE_ANGLE_COMBAT,"Stick angle past the set value will make the player face the stick movement; otherwise, the player strafes while facing the camera direction. Angle of 0 makes the player always face the stick movement direction. Angle of 180 makes the player always face the camera direction. Only applies when in combat.",1
 60132,ERR_HOUSING_RESULT_BLUEPRINT_BASE_ROOM,The Entry Room can't be exported or imported,1
 60133,HOUSING_BLUEPRINT_CHATLINK_INSTRUCTION,<Shift Click to Link to Chat>,1
 60134,CHARACTER_FRAME_TAB_CHARACTER,Character,1
@@ -27261,12 +27261,12 @@ Items from the event have been removed.
 60175,SHARD_TRANSFER_NOW,Refresh the world now.,1
 60176,HCT_FLOW_SLECT_DESTINATION_ACTIVE,Transfer Destination|n|cFF7F7F7FChoose one option|r,2
 60188,ARMOR_MAX_EFFECTIVENESS_TOOLTIP,|cffBCBCBCDamage reduction from Armor cannot exceed 75.00%%|r,1
-60189,ARMOR_PENETRATION_TOOLTIP,Your |cFFFFFFFFAttacks|r ignore %d of your enemies |cFFFFFFFFArmor|r when attacking. Reducing an enemies armor below 0 will increase your damage against them.,1
+60189,ARMOR_PENETRATION_TOOLTIP,Your |cFFFFFFFFAttacks|r ignore %d of your enemies' |cFFFFFFFFArmor|r when attacking. Reducing an enemy's armor below 0 will increase your damage against them.,1
 60190,WEAPON_SKILL_PAPERDOLLFRAME_FORMAT,%s:,1
 60191,REPUTATION_DETAIL_SELECT_PROMPT,Select a faction to view its details.,1
 60192,SKILL_DETAIL_SELECT_PROMPT,Select a skill to view its details.,1
 60193,TOKEN_DETAIL_SELECT_PROMPT,Select a currency to view its details.,1
-60194,PVP_RANK_DETAIL_UNAVAILABLE,PvP Rank's are currently unavailable.,1
+60194,PVP_RANK_DETAIL_UNAVAILABLE,PvP Ranks are currently unavailable.,1
 60195,CURRENCY_DETAIL_TOTAL_CAP_LABEL,Maximum,1
 60196,CURRENCY_DETAIL_WEEKLY_CAP_LABEL,This Week,1
 60197,WEAPON_SKILL_DETAIL_SAME_LEVEL,"Chance to |cFFFFFFFFHit|r, and to avoid being |cFFFFFFFFDodged|r or |cFFFFFFFFParried|r: %s\n\nChance to |cFFFFFFFFCritically Hit|r: %s",1
@@ -27404,6 +27404,7 @@ Items from the event have been removed.
 60379,AGE_VERIFICATION_REQUIRED_DESCRIPTION,"World of Warcraft includes social features that allow players to communicate and interact with one another. Age verification is required before this account can access chat, voice chat, and other player communication features.|n|nVisit Battle.net Account Settings to verify your age and restore access to social features.",3
 60381,AGE_RESTRICTED_VOICE_CHAT_UNVERIFIED_TOOLTIP,Verify your age in Battle.net Account Settings to enable voice chat and other social features,1
 60382,AGE_RESTRICTED_VOICE_CHAT_MINOR_TOOLTIP,Voice chat and other social features are unavailable on accounts belonging to minors.,1
+60383,SPELL_FAILED_CUSTOM_ERROR_667,You are currently in a Timewalking Campaign. Speak to Chromie to exit.,1
 60384,NPEV2_INTRO_QUESTGIVER_INTERACT_ORC,|cFFFFD200Talk|r to Kaltunk,1
 60385,NPEV2_INTRO_QUESTGIVER_INTERACT_SKYBORNE,|cFFFFD200Talk|r to Ailee Farheart,1
 60386,NPEV2_INTRO_QUESTGIVER_INTERACT_SCOURGE,|cFFFFD200Talk|r to Undertaker Mordo,1
@@ -27412,3 +27413,16 @@ Items from the event have been removed.
 60389,NPEV2_INTRO_QUESTGIVER_INTERACT_HUMAN,|cFFFFD200Talk|r to Deputy Willem,1
 60390,NPEV2_INTRO_QUESTGIVER_INTERACT_NIGHTELF,|cFFFFD200Talk|r to Conservator Ilthalaine,1
 60392,VISITABLE_URL68,https://account.battle.net/overview,3
+60405,THREAT_TAG,Threat,3
+60421,SHARD_TRANSFER_COUNTDOWN_STATIC_POPUP_MESSAGE,"The world around you will refresh in %s %s. Make sure you are out of combat and in a safe area, or select refresh now.",1
+60424,STABLE_SLOT_COST_TEXT,Stable Slot Cost:,1
+60428,NPEV2_PRESS_KEY_TO_USE_ABILITY,Press|cFF00FFFF %s|r to %s,1
+60429,NPEV2_START_ATTACKING,Right-click an enemy to |cFFFFD200target|r it.,1
+60430,NPEV2_CHATFRAME3,"Use |cFF00FFFFchat|r to ask questions. Find players to join you on quests, and get help from the community.",1
+60433,NPEV2_PLACE_ABILITY_BACK_ON_ACTION_BAR,Place %s back on your Action Bar to use it again.,1
+60434,HUD_EDIT_MODE_GAMEPAD_MAIN_ACTION_BAR_LABEL,Gamepad Action Bar,1
+60435,NPEV2_SKIP_TUTORIAL_BUTTON,Skip Tutorial,1
+60436,NPEV2_SKIP_TUTORIAL_PROMPT,Played World of Warcraft before?,1
+60438,VOICE_CHAT_USE_DISCORD_SETTINGS,Use Your Discord Client Settings,1
+60439,FRAME_ACTION_BATTLE_NET,Battle.net,1
+60440,OPTION_TOOLTIP_VOICE_CHAT_USE_DISCORD_SETTINGS,Uses settings from your Discord account to control volume and the push-to-talk keybinding. Disable this to control these settings in World of Warcraft.,1
