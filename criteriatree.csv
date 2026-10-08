@@ -4872,8 +4872,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 132282,Maexxna,132281,1,0,6405,0,0
 132283,,0,0,4,0,0,0
 132284,Gluth,132283,1,0,6416,0,0
-132285,,0,0,4,0,0,0
-132286,5 man instances,132285,0,0,6847,0,0
+132285,1.60.1 Die in a 5-man instance,0,0,4,0,0,0
+132286,5-man instances,132285,0,0,6847,0,0
 132289,,0,0,4,0,0,0
 132290,Aeonus,132289,1,0,3247,0,0
 132293,Win Battleground,0,0,6,0,0,0
@@ -5009,8 +5009,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 132862,Strand of the Ancients,132858,0,0,5511,0,0
 132863,Warsong Gulch,132858,0,0,5509,0,0
 132864,Isle of Conquest,132858,0,0,13260,0,0
-132865,,0,0,4,0,0,0
-132866,5 man heroic instances,132865,0,0,7849,0,0
+132865,1.60.1 Die in a 5-man heroic instance,0,0,4,0,0,0
+132866,5-man heroic instances,132865,0,0,7849,0,0
 132867,,0,0,4,0,0,0
 132868,Kael'thas Sunstrider,132867,1,0,3253,0,0
 132873,,0,0,6,0,0,0
@@ -5284,8 +5284,8 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 133652,Rotface,133651,1,0,13337,0,0
 133653,,0,0,4,0,0,0
 133654,Defeat the Blood Prince Council,133653,1,0,13339,0,0
-133655,,0,0,4,0,0,0
-133656,Rescue Valithiria Dreamwalker,133655,1,0,13335,0,0
+133655,Rescue Valithria Dreamwalker,0,0,4,0,0,0
+133656,Rescue Valithria Dreamwalker,133655,1,0,13335,0,0
 133657,,0,0,4,0,0,0
 133658,Professor Putricide,133657,1,0,13338,0,0
 133659,,0,0,4,0,0,0
@@ -5334,12 +5334,12 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 133702,Defeat the Blood Prince Council,133701,1,0,13359,0,0
 133703,,0,0,4,0,0,0
 133704,Defeat the Blood Prince Council,133703,1,0,13123,0,0
-133705,,0,0,4,0,0,0
-133706,Rescue Valithiria Dreamwalker,133705,1,0,13125,0,0
-133707,,0,0,4,0,0,0
-133708,Rescue Valithiria Dreamwalker,133707,1,0,13355,0,0
-133709,,0,0,4,0,0,0
-133710,Rescue Valithiria Dreamwalker,133709,1,0,13126,0,0
+133705,Rescue Valithria Dreamwalker,0,0,4,0,0,0
+133706,Rescue Valithria Dreamwalker,133705,1,0,13125,0,0
+133707,Rescue Valithria Dreamwalker,0,0,4,0,0,0
+133708,Rescue Valithria Dreamwalker,133707,1,0,13355,0,0
+133709,Rescue Valithria Dreamwalker,0,0,4,0,0,0
+133710,Rescue Valithria Dreamwalker,133709,1,0,13126,0,0
 133711,,0,0,4,0,0,0
 133712,Professor Putricide,133711,1,0,13128,0,0
 133713,,0,0,4,0,0,0
@@ -5815,7 +5815,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 223475,Explore Eastern Kingdoms and Kalimdor,0,0,4,0,0,0
 223476,Eastern Kingdoms,223475,1,0,117287,0,0
 223477,Kalimdor,223475,1,0,112672,1,0
-223519,Exploer Azeroth - Account Wide,0,0,4,0,0,0
+223519,Explore Azeroth - Account Wide,0,0,4,0,0,0
 223520,Explorer,223519,1,0,112686,0,0
 223703,Take Dalaran Portal (Skyborne),0,0,4,0,0,4096
 223704,,223703,1,0,112730,0,0
@@ -6585,38 +6585,159 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 234977,Player Learns or Knows Journeyman Riding [Dwarf],0,0,4,0,0,4096
 234978,Player Learns or Knows Journeyman Riding,234977,0,0,118170,0,0
 235075,Darkspear Islands victories,0,0,4,0,0,0
-235076,Darkspear Island victories,235075,0,0,118228,0,0
+235076,Darkspear Islands victories,235075,0,0,118228,0,0
 235077,Darkspear Islands,0,0,4,0,0,0
 235078,Darkspear Islands,235077,0,0,118229,0,0
-235079,New Criteria Tree,0,0,4,0,0,0
+235079,Darkspear Islands Participation,0,0,4,0,0,0
 235080,,235079,0,0,118229,0,0
-235081,New Criteria Tree,0,0,4,0,0,0
+235081,Darkspear Islands Honorable Kills,0,0,4,0,0,0
 235082,Darkspear Islands Honorable Kills,235081,0,0,118230,0,0
-235083,New Criteria Tree,0,0,4,0,0,0
-235084,Darkspear Island Killing Blows,235083,0,0,118231,0,0
-235085,New Criteria Tree,0,0,4,0,0,0
+235083,Darkspear Islands Killing Blows,0,0,4,0,0,0
+235084,Darkspear Islands Killing Blows,235083,0,0,118231,0,0
+235085,Deaths in Darkspear Islands,0,0,4,0,0,0
 235086,Deaths in Darkspear Islands,235085,0,0,118232,0,0
-235087,New Criteria Tree,0,0,5,0,0,0
-235088,20 man raids,235087,0,0,8919,0,0
+235087,20-man raids,0,0,5,0,0,0
+235088,20-man raids,235087,0,0,8919,0,0
 235097,40-man raids run,0,0,4,0,0,0
 235098,40-man raids run,235097,0,0,118238,0,0
-235099,40 man raids,0,0,5,0,0,0
+235099,40-man raids,0,0,5,0,0,0
 235100,,235099,0,0,8838,0,0
-235217,"[DNT] Learn Flight Path - A - Westfall, Sentinel Hill",0,0,4,0,0,0
+235217,[DNT] Learn Flight Path - EK - Westfall,0,0,4,0,0,0
 235218,,235217,1,0,118305,0,2
-235219,"[DNT] Learn Flight Path - A - Stormwind, Elwynn",0,0,4,0,0,0
+235219,[DNT] Learn Flight Path - EK - Stormwind,0,0,4,0,0,0
 235220,,235219,1,0,118306,0,2
-235221,"[DNT] Learn Flight Path - A - Refuge Pointe, Arathi",0,0,4,0,0,0
+235221,[DNT] Learn Flight Path - EK - Arathi,0,1,8,0,0,0
 235222,,235221,1,0,118307,0,2
-235223,"[DNT] Learn Flight Path - A - Menethil Harbor, Wetlands",0,0,4,0,0,0
+235223,[DNT] Learn Flight Path - EK - Wetlands,0,0,4,0,0,0
 235224,,235223,1,0,118308,0,2
-235225,"[DNT] Learn Flight Path - A - Powderfuse Port, Riverglades",0,0,4,0,0,0
-235226,,235225,1,0,118309,0,2
-235227,"[DNT] Learn Flight Path - A - Farholde Keep, Riverglades",0,0,4,0,0,0
+235225,[DNT] Learn Flight Path - EK - Badlands,0,0,4,0,0,0
+235226,,235225,1,0,118349,0,2
+235227,[DNT] Learn Flight Path - EK - Riverglades,0,1,8,0,0,0
 235228,,235227,1,0,118310,0,2
-235229,"[DNT] Learn Flight Path - A - Lakeshire, Redridge",0,0,4,0,0,0
+235229,[DNT] Learn Flight Path - EK - Redridge,0,0,4,0,0,0
 235230,,235229,1,0,118311,0,2
-235231,"[DNT] Learn Flight Path - A - Southshore, Hillsbrad",0,0,4,0,0,0
+235231,[DNT] Learn Flight Path - EK - Hillsbrad,0,1,8,0,0,0
 235232,,235231,1,0,118312,0,2
-235233,"[DNT] Learn Flight Path - A - Darkshire, Duskwood",0,0,4,0,0,0
+235233,[DNT] Learn Flight Path - EK - Duskwood,0,0,4,0,0,0
 235234,,235233,1,0,118313,0,2
+235859,Gain Camp Buff,0,0,4,0,0,0
+235860,Gain Aura,235859,1,0,118723,0,0
+235900,,235221,1,0,118341,1,2
+235901,,235231,1,0,118369,1,2
+235902,,235227,1,0,118344,1,2
+235903,[DNT] Learn Flight Path - EK - Westfall,0,0,4,0,0,0
+235904,,235903,1,0,118305,0,2
+235905,[DNT] Learn Flight Path - EK - Blasted Lands,0,0,4,0,0,0
+235906,,235905,1,0,118314,0,2
+235907,[DNT] Learn Flight Path - EK - Burning Steppes,0,1,8,0,0,0
+235908,,235907,1,0,118320,0,2
+235909,,235907,1,0,118351,1,2
+235910,[DNT] Learn Flight Path - EK - Eastern Plaguelands,0,1,8,0,0,0
+235911,,235910,1,0,118323,0,2
+235912,,235910,1,0,118368,1,2
+235913,[DNT] Learn Flight Path - EK - Ironforge,0,1,4,0,0,0
+235914,,235913,1,0,118318,0,2
+235915,[DNT] Learn Flight Path - EK - Loch Modan,0,1,4,0,0,0
+235916,,235915,1,0,118317,0,2
+235917,[DNT] Learn Flight Path - EK - Searing Gorge,0,1,8,0,0,0
+235918,,235917,1,0,118322,0,2
+235919,,235917,1,0,118345,1,2
+235920,[DNT] Learn Flight Path - EK - Silverpine Forest,0,1,4,0,0,0
+235921,,235920,1,0,118371,0,2
+235922,[DNT] Learn Flight Path - EK - Stranglethorn (H),0,1,8,0,0,0
+235924,,235922,1,0,118352,0,2
+235925,,235922,1,0,118346,1,2
+235926,[DNT] Learn Flight Path - EK - Swamp of Sorrows,0,1,8,0,0,0
+235927,,235926,1,0,118358,0,2
+235928,[DNT] Learn Flight Path - EK - The Hinterlands,0,1,8,0,0,0
+235929,,235928,1,0,118319,0,2
+235930,,235928,1,0,118354,1,2
+235931,[DNT] Learn Flight Path - EK - Undercity,0,1,8,0,0,0
+235932,,235931,1,0,118374,0,2
+235933,[DNT] Learn Flight Path - EK - Western Plaguelands,0,1,8,0,0,0
+235934,,235933,1,0,118324,0,2
+235935,Hidden: Flight Path Tracker - K - Ashenvale (A),0,1,8,0,0,0
+235936,,235935,1,0,118325,0,2
+235939,[DNT] Learn Flight Path - K - Azshara,0,1,8,0,0,0
+235940,,235939,1,0,118331,0,2
+235941,,235939,1,0,118348,1,2
+235942,[DNT] Learn Flight Path - K - Darkshore,0,1,8,0,0,0
+235943,,235942,1,0,118326,0,2
+235944,[DNT] Learn Flight Path - K - Desolace,0,1,8,0,0,0
+235945,,235944,1,0,118333,0,2
+235946,,235944,1,0,118363,1,2
+235947,[DNT] Learn Flight Path - K - Dustwallow Marsh,0,1,8,0,0,0
+235948,,235947,1,0,118315,0,2
+235949,,235947,1,0,118343,1,2
+235950,[DNT] Learn Flight Path - K - Felwood,0,1,8,0,0,0
+235951,,235950,1,0,118327,0,2
+235952,,235950,1,0,118353,1,2
+235953,Hidden: Flight Path Tracker - K - Feralas (A),0,1,8,0,0,0
+235954,,235953,1,0,118334,0,2
+235956,,235953,1,0,118328,1,2
+235957,[DNT] Learn Flight Path - K - Moonglade,0,1,8,0,0,0
+235958,,235957,1,0,118329,0,2
+235959,,235957,1,0,118355,1,2
+235960,[DNT] Learn Flight Path - K - Mount Hyjal,0,1,8,0,0,0
+235961,,235960,1,0,118338,0,2
+235962,,235960,1,0,118335,1,2
+235963,[DNT] Learn Flight Path - K - Orgrimmar,0,1,8,0,0,0
+235964,,235963,1,0,118356,0,2
+235965,[DNT] Learn Flight Path - K - Silithus,0,1,8,0,0,0
+235966,,235965,1,0,118336,0,2
+235967,,235965,1,0,118364,1,2
+235968,[DNT] Learn Flight Path - K - Stonetalon Mountains,0,1,8,0,0,0
+235969,,235968,1,0,118337,0,2
+235970,,235968,1,0,118365,1,2
+235971,[DNT] Learn Flight Path - K - Tanaris,0,1,8,0,0,0
+235972,,235971,1,0,118321,0,2
+235973,,235971,1,0,118359,1,2
+235974,[DNT] Learn Flight Path - K - Teldrassil,0,1,8,0,0,0
+235975,,235974,1,0,118332,0,2
+235976,Hidden: Flight Path Tracker - K - The Barrens (A),0,1,8,0,0,0
+235977,,235976,1,0,118339,0,2
+235980,[DNT] Learn Flight Path - K - Thousand Needles,0,1,8,0,0,0
+235981,,235980,1,0,118362,0,2
+235982,[DNT] Learn Flight Path - K - Thunder Bluff,0,1,8,0,0,0
+235983,,235982,1,0,118367,0,2
+235984,[DNT] Learn Flight Path - K - Un'Goro Crater,0,1,8,0,0,0
+235985,,235984,1,0,118340,0,2
+235986,[DNT] Learn Flight Path - K - Winterspring,0,1,8,0,0,0
+235987,,235986,1,0,118330,0,2
+235988,,235986,1,0,118360,1,2
+235989,"[DNT] Learn Flight Path - K - Feralas, Feathermoon",0,1,8,0,0,0
+235990,,235989,1,0,118334,0,2
+235991,"[DNT] Learn Flight Path - K - Feralas, Thalanaar",0,1,8,0,0,0
+235992,,235991,1,0,118328,0,2
+235993,"[DNT] Learn Flight Path - K - Mount Hyjal, Tainted Foothills",0,1,8,0,0,0
+235994,,235993,1,0,118338,0,2
+235995,"[DNT] Learn Flight Path - K - Mount Hyjal, Summit of Eternity",0,1,8,0,0,0
+235996,,235995,1,0,118335,0,2
+235997,"[DNT] Learn Flight Path - EK - Stranglethorn, Booty Bay",0,1,8,0,0,0
+235998,,235997,1,0,118316,0,2
+235999,,235997,1,0,118352,1,2
+236000,"[DNT] Learn Flight Path - EK - Stranglethorn, Grom'gol",0,1,8,0,0,0
+236001,,236000,1,0,118346,0,2
+236002,"[DNT] Learn Flight Path - K - The Barrens, Crossroads",0,1,8,0,0,0
+236003,,236002,1,0,118350,0,2
+236004,"[DNT] Learn Flight Path - K - The Barrens, Ratchet",0,1,8,0,0,0
+236005,,236004,1,0,118339,0,2
+236006,"[DNT] Learn Flight Path - K - The Barrens, Camp Taurajo",0,1,8,0,0,0
+236007,,236006,1,0,118366,0,2
+236008,"[DNT] Learn Flight Path - K - Ashenvale, Splintertree Post",0,1,8,0,0,0
+236009,,236008,1,0,118342,0,2
+236010,"[DNT] Learn Flight Path - K - Ashenvale, Zoram'gar Outpost",0,1,8,0,0,0
+236011,,236010,1,0,118347,0,2
+236012,"[DNT] Learn Flight Path - EK - Stranglethorn, Booty Bay (A)",0,1,8,0,0,0
+236013,,236012,1,0,118316,0,2
+236018,Hidden: Flight Path Tracker - K - Feralas (H),0,1,8,0,0,0
+236019,,236018,1,0,118361,0,2
+236020,Hidden: Flight Path Tracker - K - Ashenvale (H),0,1,8,0,0,0
+236021,,236020,1,0,118347,0,2
+236022,,236020,1,0,118342,1,2
+236023,Hidden: Flight Path Tracker - K - The Barrens (H),0,1,8,0,0,0
+236024,,236023,1,0,118339,0,2
+236025,,236023,1,0,118350,1,2
+236026,,236023,1,0,118366,2,2
+236079,Played in Beta,0,0,4,0,0,0
+236080,Played in the World of Warcraft: Forever Beta,236079,1,0,118798,0,0

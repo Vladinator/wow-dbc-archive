@@ -690,7 +690,7 @@ Movement speed increased by $s2%"
 1669,,,
 1671,Rank 2,Bashes the target with your shield for $s2 damage.  It also interrupts spellcasting and prevents any spell in that school from being cast for $d.,
 1672,Rank 3,Bashes the target with your shield for $s2 damage.  It also interrupts spellcasting and prevents any spell in that school from being cast for $d.,
-1680,,"In a whirlwind of steel you attack up to $i enemies within $a1 yards, causing weapon damage to each enemy.",
+1680,,"In a whirlwind of steel you attack up to $i enemies within $a1 yards, causing weapon damage from both melee weapons to each enemy.",
 1698,Rank 1,A rapid-fire attack that hits all nearby enemies in a cone in front of the warrior for weapon damage plus $s1 damage.,
 1706,,"Allows the caster to levitate, floating a few feet above the ground. While levitating, you will fall at a reduced speed and travel over water-like surfaces. Mounting or any damage taken will cancel the effect. Lasts $d.",Levitating.
 1708,,,
@@ -1180,7 +1180,7 @@ Each strike has a $2824h% chance of poisoning the enemy for $2819o1 Nature damag
 2928,,,
 2929,,,
 2941,Rank 4,Burns the enemy for ${$m2*$<mult>} Fire damage and then an additional $o1 Fire damage over $d.,$s1 Fire damage every $t1 seconds.
-2943,Rank 1,,Melee attack power reduced by $s2.
+2943,Rank 1,$@spelldesc2652,Melee attack power reduced by $s2.
 2944,Rank 1,Afflicts the target with a disease that causes $o1 Shadow damage over $d.  Damage caused by the Devouring Plague heals the caster.,"Causes $s1 damage every $t1 seconds, healing the caster."
 2946,Rank 1,,
 2947,Rank 1,Surrounds the target in a shield of fire.  Every strike against the target causes $s1 Fire damage to the attacker.  Lasts $d.  Your pet cannot cast Fire Shield on itself.,Does $w1 Fire damage to attacker when struck.
@@ -1392,7 +1392,7 @@ Armor reduced by $s2."
 3338,,Adds a chance to deal damage in an area around the caster when successfully hit.,
 3339,,,
 3348,,,
-3355,Rank 1,,Frozen.
+3355,Rank 1,Freeze your target for $d.,Frozen.
 3356,,Burns an enemy for $s1 damage and reduces its Fire resistance by $s2 for $d.,Fire resistance reduced by $s2.
 3358,,"Drains $s1 health from an enemy every $t1 sec. over $d., transferring it to the caster.",$s1 health leeched every $t1 sec.
 3359,,Uses a Holy elixir to heal the caster for $s1.,
@@ -2594,7 +2594,7 @@ $s1 health leeched every $t1 sec."
 5241,Rank 2,,
 5242,Rank 2,"The warrior shouts, increasing the melee attack power of all party members within $a1 yards by $s1.  Lasts $d.",Increases your melee attack power by $w1.
 5244,,,
-5246,,"The warrior shouts, causing the targeted enemy to cower in fear.  Up to $i total nearby enemies will flee in fear.  Lasts $d.",Intimidated.
+5246,,"The warrior shouts, causing the targeted enemy to cower in fear.  Up to $i enemies within $a2 yds will flee in fear.  Lasts $d.",Intimidated.
 5248,Rank 1,,
 5249,,,
 5250,,,
@@ -3054,7 +3054,7 @@ Conjured items disappear if logged out for more than 15 minutes.",
 
 Conjured items disappear if logged out for more than 15 minutes.",
 6131,Rank 3,Blasts enemies near the caster for ${$m1*$<frostdamage>} to ${$M1*$<frostdamage>} Frost damage and freezes them in place for up to $d.  Damage caused may interrupt the effect.,Frozen in place.
-6136,Rank 1,,Movement slowed by $w1% and time between attacks increased by $w2%.
+6136,Rank 1,Movement slowed by $s1% and time between attacks increased by $s2%.,Movement slowed by $w1% and time between attacks increased by $w2%.
 6141,Rank 2,Ice shards pelt the target area doing ${$1279977m1*$d*$<frostdamage>} Frost damage over $d.,$1279977s1 Frost damage every $t3 $lsecond:seconds;.
 6143,Rank 1,Absorbs $s1 Frost damage$?s11189[ and grants a $s2% chance to reflect Frost spells and effects][].  Lasts $d.,Absorbs $w1 Frost damage.$?s11189[ $w2% chance to reflect Frost spells and effects.][]
 6145,,,
@@ -3464,7 +3464,7 @@ Pet Level 22+",
 6783,Rank 2,"Allows the Druid to prowl around, but reduces your movement speed by $s2%.  Lasts until cancelled.",Stealthed.  Movement speed slowed by $s2%.
 6785,Rank 1,"Ravage the target, causing $s2% damage plus 147 to the target.  Must be prowling and behind the target.  Awards $s3 combo $lpoint:points;.",
 6787,Rank 2,"Ravage the target, causing $s2% damage plus 217 to the target.  Must be prowling and behind the target.  Awards $s3 combo $lpoint:points;.",
-6788,,,Cannot be Power Word: Shielded.
+6788,,Cannot benefit from Power Word: Shield.,Cannot benefit from Power Word: Shield.
 6789,Rank 1,Causes the enemy target to run in horror for $d and causes $s1 Shadow damage.  The caster gains 100% of the damage caused in health.,Horrified.
 6795,,"Taunts the target to attack you, but has no effect if the target is already attacking you.",
 6798,Rank 2,Stuns the target for $d.,Stunned.
@@ -6585,9 +6585,9 @@ Time between attacks increased by $s2%."
 12318,Rank 1,Increases the melee attack power bonus of your Battle Shout by $s1%.,
 12319,,Increases your melee attack speed by $m1% for your next $12966n swings after dealing a melee critical strike.,
 12320,,Improves your chance to get a critical strike with melee attacks by $s1%.,
-12321,,Increases the radius of your Battle Shout and Demoralizing Shout abilities by $s1%.,
-12322,,Gives you a $m1% chance to generate ${$12964m1/10} additional Rage when you deal melee damage with a weapon. This effect is increased to ${($12964m1/10)*2} Rage for two-handed weapons.,
-12323,,"Causes all nearby enemies to be Dazed, reducing movement speed by $s1% for $d.",Movement speed reduced by $s1%.
+12321,,Increases the area of effect of your Shouts by $s1% and reduces their Rage cost by $s2%.,
+12322,,Gives you a $m1% chance to generate ${$12964m1/10} additional Rage when you deal melee damage with a weapon.,
+12323,,"Causes all enemies within $a2 yds to be Dazed, reducing movement speed by $s1% for $d.",Movement speed reduced by $s1%.
 12324,Rank 1,Increases the melee attack power reduction of your Demoralizing Shout by $s1%.,
 12325,Rank 1,Reduces the cooldown of your Inner Rage ability by $/1000;s1 secs.,
 12327,Rank 1,Reduces the cooldown of your Challenging Shout ability by $/60000;s1 mins.,
@@ -7224,7 +7224,7 @@ Increased health regeneration."
 13794,,Permanently enchant a cloak to give 3 to all resistances.,
 13795,Rank 1,Place a Fire trap that will burn the first enemy to approach for $13797o1 Fire damage over $13797d. Trap will exist for $d. Only one Fire trap can be active at a time.,
 13796,,,
-13797,Rank 1,,$s1 Fire damage every $t1 seconds.
+13797,Rank 1,Inflict $s1 Fire damage every $t1 seconds.,$s1 Fire damage every $t1 seconds.
 13808,,Inflicts $s1 Fire damage and stuns targets in a 10 yard radius for $d.  Any damage will break the effect.,Stunned.  Any damage will break the effect.
 13809,,Place a Frost trap that creates an ice slick around itself for $13810d when the first enemy approaches it. All enemies within $13810a1 yards will be slowed by $14207s1% while in the area of effect. Trap will exist for $d. Only one Frost trap can be active at a time.,
 13810,,,Movement speed slowed by $s1%.
@@ -7474,17 +7474,17 @@ Armor reduced by $s2."
 14295,Rank 3,"Continuously fires a volley of ammo at the target area, causing $1279715s1 Arcane damage to enemy targets within $a1 yards every $t3 sec for $d.",
 14296,Rank 2,"Fires a Black Arrow into the target, slowing the target's movement speed by $s1%, causing $o2 Shadow damage and draining $o3 mana over $d.",Movement speed reduced by $s1%.  Causes $s2 Shadow damage every $t2 seconds.  Drains $s3 mana every $t3 seconds.
 14297,,Throws shadowbolts at any enemies between 25 and 45 feet,
-14298,Rank 2,,$s1 Fire damage every $t1 seconds.
-14299,Rank 3,,$s1 Fire damage every $t1 seconds.
-14300,Rank 4,,$s1 Fire damage every $t1 seconds.
-14301,Rank 5,,$s1 Fire damage every $t1 seconds.
+14298,Rank 2,Inflict $s1 Fire damage every $t1 seconds.,$s1 Fire damage every $t1 seconds.
+14299,Rank 3,Inflict $s1 Fire damage every $t1 seconds.,$s1 Fire damage every $t1 seconds.
+14300,Rank 4,Inflict $s1 Fire damage every $t1 seconds.,$s1 Fire damage every $t1 seconds.
+14301,Rank 5,Inflict $s1 Fire damage every $t1 seconds.,$s1 Fire damage every $t1 seconds.
 14302,Rank 2,Place a Fire trap that will burn the first enemy to approach for $14298o1 Fire damage over $14298d. Trap will exist for $d. Only one Fire trap can be active at a time.,
 14303,Rank 3,Place a Fire trap that will burn the first enemy to approach for $14299o1 Fire damage over $14299d. Trap will exist for $d. Only one Fire trap can be active at a time.,
 14304,Rank 4,Place a Fire trap that will burn the first enemy to approach for $14300o1 Fire damage over $14300d. Trap will exist for $d. Only one Fire trap can be active at a time.,
 14305,Rank 5,Place a Fire trap that will burn the first enemy to approach for $14301o1 Fire damage over $14301d. Trap will exist for $d. Only one Fire trap can be active at a time.,
 14307,,,
-14308,Rank 2,,Frozen.
-14309,Rank 3,,Frozen.
+14308,Rank 2,Freeze your target for $d.,Frozen.
+14309,Rank 3,Freeze your target for $d.,Frozen.
 14310,Rank 2,"Place a Frost trap that freezes the first enemy that approaches, preventing all action for up to $14308d. Any damage caused will break the ice. Trap will exist for $d. Only one Frost trap can be active at a time.",
 14311,Rank 3,"Place a Frost trap that freezes the first enemy that approaches, preventing all action for up to $14309d. Any damage caused will break the ice. Trap will exist for $d. Only one Frost trap can be active at a time.",
 14313,,,
@@ -8713,7 +8713,7 @@ Health regeneration rate reduced by $s2%."
 16172,,Reduces an enemy's Stamina by $s1 for $d.,Stamina reduced by $s1.
 16173,,Reduces the Mana cost of your totems and any spells that summon or move them by $m1%.,
 16176,,Increases your target's armor value by $m1% for $16177d after getting a critical effect from one of your healing spells.,
-16177,,,Increases your armor value from items by $w1%.
+16177,,Increases your armor value from items by $s1%.,Increases your armor value from items by $w1%.
 16178,,Increases the effectiveness of your healing spells by $m1%.,
 16179,,Reduces the Mana cost of your healing spells by $m1% and improves your chance to hit by $m2%.,
 16180,Rank 1,Improves your chance to hit by $s1%.,
@@ -8737,7 +8737,7 @@ Ignoring fear effects."
 16243,,Inflicts $s1 Shadow damage to an enemy.,
 16244,,Reduces the melee attack power of nearby enemies by $s1 for $d.,Melee attack power reduced by $s1.
 16245,,,
-16246,,,Your next elemental damage spell has its mana cost reduced by $s1%.
+16246,,Your next elemental damage spell has its mana cost reduced by $s1%.,Your next elemental damage spell has its mana cost reduced by $s1%.
 16247,,"Curses an enemy for $d., giving it $h% chance to take $16248s1 damage on attack.",$h% chance to take $16248s1 damage on attack.
 16248,,,
 16249,,Inflicts Frost damage to an enemy and reduces its movement speed for $d.,Reduced movement speed.
@@ -8888,7 +8888,7 @@ Spell critical-hit chance reduced by $s2%."
 16472,,Cures $s1 poison $leffect:effects; on the target.,
 16473,,,
 16474,,,
-16487,,"Regenerates $m1% of your total Health over $16488d after being the victim of a critical strike, dealing damage with Bloodthirst, or suffering more than $m2% of your maximum Health from a single attack.",
+16487,,Regenerates $m1% of your total Health over $16488d after being the victim of a critical strike or suffering more than $m2% of your maximum Health from a single attack.,
 16488,,,Regenerates $w1 Health every $t sec.
 16493,,Increases the critical strike damage bonus of your abilities by $s1%.,
 16495,,"Drains $s1 health from an enemy, healing the caster for up to twice that amount.",
@@ -9250,7 +9250,9 @@ Attack speed increased by $s2%."
 17053,Rank 3,Increases the effects of your Mark of the Wild and Gift of the Wild spells by $s1%.,
 17054,Rank 4,Increases the effects of your Mark of the Wild and Gift of the Wild spells by $s1%.,
 17055,Rank 5,Increases the effects of your Mark of the Wild and Gift of the Wild spells by $s1%.,
-17056,,"Gives you a $m1% chance to gain $/10;17057s1 Rage when you shapeshift into Bear Form or Dire Bear Form. When you shift into Cat Form, you will regain ${100*($m2/100)}% of the Energy you had when you were last in Cat Form, plus ${10*($m2/100)} Energy for each second you spent not in Bear Form, Cat Form, or Dire Bear Form, up to a maximum of ${100*($m2/100)} Energy.",
+17056,,"Gives you a $m1% chance to gain $/10;17057s1 Rage when shapeshifting into Bear Form or Dire Bear Form. Shapeshifting into Cat Form restores ${100*($m2/100)}% of the Energy you had when last in Cat Form, plus ${10*($m2/100)} Energy per sec spent outside Cat Form, up to ${100*($m2/100)} Energy.
+
+Bear Form and Dire Bear Form forfeit this Energy and halt its restoration while active.",
 17057,,,
 17063,,Gives you a $m1% chance to avoid interruption caused by damage while casting Arcane and Nature spells.,
 17064,,,
@@ -11167,7 +11169,7 @@ Conjured items disappear if logged out for more than 15 minutes.",
 20116,Rank 2,"Consecrates the land beneath the Paladin, doing ${$1280346m1*8} Holy damage over $d to enemies who enter the area. The first $s3 enemies who enter the area will take an additional ${$1280346m2*8} damage over $d.",
 20117,,Improves your chance to get a critical strike with melee attacks by $s1%.,
 20127,,Damaging melee attacks against you have a $h% chance to increase your chance to block by $m1%.  Lasts $20128d or $20128n blocks.,
-20128,,,Block chance increased by $w1%.  Lasts maximum of $n  blocks.
+20128,,Block chance increased by $s1%. Lasts maximum of $n blocks.,Block chance increased by $w1%. Lasts maximum of $n blocks.
 20138,,"Increases the armor bonus of your Devotion Aura by $s1%, and increases all healing received by party members affected by your Auras by $m2%.",
 20143,,Increases your armor value from items by $s1%.,
 20148,Rank 1,Increases the amount of damage absorbed by your shield by $s1%.,
@@ -11197,14 +11199,14 @@ Unleashing this Seal's energy will judge an enemy for $20186d, granting attacks 
 20172,,,
 20173,,,
 20174,,Reduces the cooldown of your Blessing of Protection by $/60000;s1 min and increases the duration of your Blessing of Freedom by $/1000;s2 sec.,
-20177,,Gives you a $m1% chance to gain an extra attack after Blocking a melee attack and a ${$m1*2.5}% chance to gain an extra attack after being the victim of a non-periodic critical strike.,
+20177,,Gives you a $m1% chance to gain an extra attack after Blocking a melee attack and a ${$m1*2.5}% chance to gain an extra attack after being the victim of a non-periodic critical strike. Cannot occur more often than once every 1.5 sec.,
 20178,,Grants extra attacks after blocking.,
 20183,Rank 3,"Judge the target, dealing Holy damage.",
-20184,Rank 1,,Cannot flee.
-20185,Rank 1,,Melee attacks made against you have a chance of causing the attacker to be healed for $20267s1.
-20186,Rank 1,,Attacks and spells used against you have a chance of restoring $20268s1 of the attacker's mana.
+20184,Rank 1,Prevents the target from fleeing.,Cannot flee.
+20185,Rank 1,Melee attacks made against you have a chance of causing the attacker to be healed for $20267s1.,Melee attacks made against you have a chance of causing the attacker to be healed for $20267s1.
+20186,Rank 1,Attacks and spells used against the target have a chance of restoring $20268s1 of the attacker's mana.,Attacks and spells used against you have a chance of restoring $20268s1 of the attacker's mana.
 20187,Rank 1,,
-20188,Rank 2,,Increases Holy damage taken by up to $s1.
+20188,Rank 2,Increases Holy damage taken by up to $s1.,Increases Holy damage taken by up to $s1.
 20189,Rank 1,Improves your chance to hit by $s1%.,
 20190,Rank 2,"The hunter and all party and raid members within $a1 yards take on the aspect of the wild, increasing Nature resistance by $s1.  Only one Aspect can be active at a time.",Nature resistance increased by $s1.
 20194,Rank 1,Increases the duration of your Blessing of Salvation by $/60000;s1 min.,
@@ -11288,10 +11290,10 @@ Unleashing this Seal's energy will cause $20286s1 Holy damage to an enemy.",Mele
 20297,,Inflicts Frost damage to an enemy and reduces its movement speed for $d.,Reduced movement speed.
 20298,,"Hurls a bolt of dark magic at an enemy, inflicting Shadow damage.",
 20299,,Inflicts Nature damage to enemies in a cone in front of the caster.,
-20300,Rank 3,,Increases Holy damage taken by up to $s1.
-20301,Rank 4,,Increases Holy damage taken by up to $s1.
-20302,Rank 5,,Increases Holy damage taken by up to $s1.
-20303,Rank 6,,Increases Holy damage taken by up to $s1.
+20300,Rank 3,Increases Holy damage taken by up to $s1.,Increases Holy damage taken by up to $s1.
+20301,Rank 4,Increases Holy damage taken by up to $s1.,Increases Holy damage taken by up to $s1.
+20302,Rank 5,Increases Holy damage taken by up to $s1.,Increases Holy damage taken by up to $s1.
+20303,Rank 6,Increases Holy damage taken by up to $s1.,Increases Holy damage taken by up to $s1.
 20305,Rank 3,"Fills the Paladin with the spirit of a crusader for $d, granting $s1 melee attack power.  The Paladin also attacks $s2% faster, but deals less damage with each attack.  Only one Seal can be active on the Paladin at any one time.
 
 Unleashing this Seal's energy will judge an enemy for $20300d, increasing Holy damage taken by up to $20300s1.  Your melee strikes will refresh the spell's duration.  Only one Judgement per Paladin can be active at any one time.","Melee attack power increased by $s1.  Melee attacks are $s2% faster, but deal less damage."
@@ -11331,9 +11333,9 @@ Unleashing this Seal's energy will judge an enemy for $20303d, increasing Holy d
 20341,Rank 2,,
 20342,Rank 3,,
 20343,Rank 4,,
-20344,Rank 2,,Melee attacks made against you have a chance of causing the attacker to be healed for $20341s1.
-20345,Rank 3,,Melee attacks made against you have a chance of causing the attacker to be healed for $20342s1.
-20346,Rank 4,,Melee attacks made against you have a chance of causing the attacker to be healed for $20343s1.
+20344,Rank 2,Melee attacks made against you have a chance of causing the attacker to be healed for $20341s1.,Melee attacks made against you have a chance of causing the attacker to be healed for $20341s1.
+20345,Rank 3,Melee attacks made against you have a chance of causing the attacker to be healed for $20342s1.,Melee attacks made against you have a chance of causing the attacker to be healed for $20342s1.
+20346,Rank 4,Melee attacks made against you have a chance of causing the attacker to be healed for $20343s1.,Melee attacks made against you have a chance of causing the attacker to be healed for $20343s1.
 20347,Rank 2,"Fills the Paladin with divine light for $d, giving each melee attack a chance to heal the Paladin for $20333s1.  Only one Seal can be active on the Paladin at any one time.
 
 Unleashing this Seal's energy will judge an enemy for $20344d, granting melee attacks made against the judged enemy a chance of healing the attacker for $20341s1.  Your melee strikes will refresh the spell's duration.  Only one Judgement per Paladin can be active at any one time.",Melee attacks have a chance to heal you for $20333s1.
@@ -11347,8 +11349,8 @@ Unleashing this Seal's energy will judge an enemy for $20346d, granting melee at
 20351,Rank 3,,
 20352,Rank 2,,
 20353,Rank 3,,
-20354,Rank 2,,Attacks and spells used against you have a chance of restoring $20352s1 of the attacker's mana.
-20355,Rank 3,,Attacks and spells used against you have a chance of restoring $20353s1 of the attacker's mana.
+20354,Rank 2,Attacks and spells used against the target have a chance of restoring $20352s1 of the attacker's mana.,Attacks and spells used against you have a chance of restoring $20352s1 of the attacker's mana.
+20355,Rank 3,Attacks and spells used against the target have a chance of restoring $20353s1 of the attacker's mana.,Attacks and spells used against you have a chance of restoring $20353s1 of the attacker's mana.
 20356,Rank 2,"Fills the Paladin with divine wisdom for $d, giving each melee attack a chance to restore $20350s1 of the Paladin's mana.  Only one Seal can be active on the Paladin at any one time.
 
 Unleashing this Seal's energy will judge an enemy for $20354d, granting attacks and spells used against the judged enemy a chance to restore $20352s1 mana to the attacker.  Your melee strikes will refresh the spell's duration.  Only one Judgement per Paladin can be active at any one time.",Melee attacks have a chance to restore $20350s1 mana.
@@ -11950,7 +11952,7 @@ Movement speed reduced by $s3%."
 21179,,Blasts up to 3 targets for $s1 Nature damage. Each target after the first takes less damage.,
 21180,,Transforms Shadowstrike into Thunderstrike.,
 21181,,Transforms Thunderstrike into Shadowstrike.,
-21183,Rank 1,,Increases Holy damage taken by up to $s1.
+21183,Rank 1,Increases Holy damage taken by up to $s1.,Increases Holy damage taken by up to $s1.
 21184,,Decreases threat generated by $s1%.,
 21185,,Restores $21186s1 mana or 20 rage when you kill a target that gives experience; this effect cannot occur more than once every 10 seconds.,
 21186,Rank 1,,
@@ -13491,7 +13493,7 @@ Attack speed increased by $s2%."
 ",
 23582,,Heals the rogue for $23583s1 when Vanish is performed.,
 23583,,,
-23584,,Increases your off-hand weapon damage by $m1% and chance to hit with off-hand attacks by $m2%.,
+23584,,Increases the damage done by your off-hand weapon by $m1% and the Rage generated by your off-hand attacks by $m2%.,
 23589,,,
 23590,,,
 23591,,Inflicts $23590s1 additional Holy damage on the target of a Paladin's Judgement.,
@@ -17561,6 +17563,7 @@ $@spellname1285849][]",
 37214,,,
 37655,,,
 38334,,,
+39104,,"Returns your totems to the earth, giving you $36936s1% of the mana required to cast each totem destroyed by Totemic Recall.",Regenerating $s1 mana every $t1 sec.
 39440,,,
 41637,,,
 42596,,,
@@ -19062,7 +19065,7 @@ In addition, you regenerate $417051s2 rage every time you dodge while in Bear Fo
 408507,,"You charge your off-hand weapon with lava, instantly dealing $s1% off-hand Weapon damage. Damage is increased by $s2% if your off-hand weapon is enchanted with Flametongue.",
 408510,,"The caster is surrounded by $n globes of water. When a spell, melee, or ranged attack hits the caster or when one of the caster's healing spells gets a critical result, $408511s1% of maximum mana is restored to the caster, expending one water globe. Only one globe will activate every few seconds.  Lasts $d.
 
-Only one Elemental Shield can be active on the Shaman at any one time.",Attacks and spells used against you and your critical heals restore ${$408511m1/$n}% of your maximum mana. $n charges.
+Only one Elemental Shield can be active on the Shaman at any one time.",Attacks and spells used against you and your critical heals restore ${$408511m1/$s2}% of your maximum mana. $s2 charges.
 408511,,Gaining mana when hit while Water Shield is active.,
 408514,,"Protects the target with an earthen shield, reducing casting or channeling time lost when damaged by $s2%  and causing attacks to heal the shielded target for ${$m1*$<healpower>/100}.  This effect can only occur once every few seconds.  $n charges. Lasts $d.  Earth Shield can only be placed on one target at a time.
 ",Reduces casting or channeling time lost when damaged by $s2% and attacks heal the shielded target for $w1.
@@ -22515,7 +22518,7 @@ $@spelldesc412096",
 437054,,Honor the archivists.,
 437055,,Honor the archivists.,
 437059,,Reduces the mana cost of your Seal spells by $s1.,
-437063,,,Reduces the cast time of your next Holy Light spell by ${$w/1000}.1 sec.
+437063,,Reduces the cast time of your next Holy Light spell by 1 sec.,Reduces the cast time of your next Holy Light spell by ${$w/1000}.1 sec.
 437123,,A steady shot that causes $s2% ranged weapon damage.,
 437132,,,Increases Arcane and Nature damage taken by $s1%.
 437138,Rank 1,Brings a dead player back to life with $s1 health and $q1 mana. Cannot be cast when in combat.,
@@ -23027,8 +23030,8 @@ $@spelldesc440569",
 440658,,"Slam the target with your shield, causing Holy damage based on your block value plus an additional ${$m1*$<damagepower>/100}.",
 440664,,,
 440666,,"When your Vindication talent is triggered, it also decreases the target's Attack Power by ${$440667m1/-3} per talent point and increases your Strength, Agility, and Attack Power by ${$440668m1/3}% per talent point. Vindication duration increased to $s1 sec.",
-440667,,,Attack Power reduced by $w1.
-440668,,,Attack Power increased by $w1%.
+440667,,Reduces the target's attack Power reduced by $s1.,Attack Power reduced by $w1.
+440668,,Attack Power increased by $s1%.,Attack Power increased by $w1%.
 440672,,"When your Judgement or Crusader Strike deals a critical strike, your target will take $s1% additional damage over $61840d.",
 440675,,,Deals Holy damage every $t1 sec.
 440677,,,
@@ -28829,7 +28832,7 @@ Cannot be cast in combat.",
 1223082,,Increases your critical strike chance with spells and melee attacks by $s1%.,
 1223083,,"Increases the duration of your Moonfire and Rejuvenation spells by ${$m1/1000} sec, your Regrowth spell by ${$m2/1000} sec, and your Insect Swarm spell by ${$m3/1000} sec.",
 1223095,,,
-1223242,,Increases the critical strike damage bonus of your melee abilities by $m1%.,
+1223242,,Increases the critical strike damage bonus of your melee abilities by $m1% and increases your spell healing by $s2% of your Intellect.,
 1223246,,Increases damage done by your melee abilities on Bleeding targets by $m1%.,
 1223262,,Improves your chance to get a critical strike by ${$s1}.1%.,
 1223263,,Increased Polearms +$s1.,
@@ -30897,7 +30900,7 @@ $s2 Nature damage inflicted every $t2 sec."
 1243108,,,
 1243120,,,Spell damage increased by up to $w1.
 1243170,,,Stunned.
-1243229,,Inflicts $S1 Shadow damage to the current enemy target.,
+1243229,,Inflicts $S1 Shadow damage to the current enemy target and slows their movement speed by $S2%.,Movement speed slowed by $S2%.
 1243264,,,
 1243265,,,
 1243268,,,Massively reduces any incoming damage while Imps still live.
@@ -30976,7 +30979,7 @@ The symptoms of this effect can manifest as either a $1231579d poison or a $1231
 1245113,,,
 1245114,,,
 1245119,,"Reduces damage dealt by $s1% for $d.
-",Damage reduced by $s1% for $d.
+",Damage dealt reduced by $s1% for $d.
 1245130,,Deals Fire damage every $p for $d to all players within $rad# yds.,Dealing Fire damage every $p for $d.
 1245154,,"Delivers a powerful roar, stunning all players within $R1 for $d. ",Stunned for $d.
 1245158,,Attempt to fetch info about the target item. DNT,
@@ -31274,7 +31277,7 @@ Lock Appearance:
 1249006,,Creates a libram of invocation.,
 1249011,,Reduces the cooldown of Grounding Totem by ${$s1/-1000} sec.,
 1249012,,Increases all damage and healing by $s1%.,All damage and healing increased by $s1%.
-1249015,,Creates an ancestral totem of torment.,
+1249015,,,
 1249019,,Permanently enchant a necklace to increase Strength by 5.,
 1249033,,Lowers Strength and Stamina for the duration of the disease.,Diseased and weakened.
 1249057,,Permanently enchant a necklace to increase spell damage and healing by up to 6.,
@@ -31401,7 +31404,7 @@ Lock Appearance:
 Attack speed increased by $s2%
 Damage done increased by $s3%"
 1250425,,,
-1250426,,"Increases the time between an enemy's attacks by $s2% and its movement by $s1%, in addition to reducing its Strength by $s3%. Lasts $d.","Movement speed reduced by $s1%.
+1250426,,"Increases the time between an enemy's attacks by $s2% and reduces its movement by $s1%, in addition to reducing its Strength by $s3%. Lasts $d.","Movement speed reduced by $s1%.
 Time between attacks increased by $s2%.
 Strength reduced by $s3%."
 1250535,,,
@@ -31478,7 +31481,7 @@ This effect persists through death.","While standing still, your stealth detecti
 1251364,,,Something popped open!
 1251380,,Increases damage done by Fire spells and effects by up to $s1.,
 1251381,,,
-1251394,,Protects the caster from falling damage.,Falling...
+1251394,,Protects you from falling damage.,Falling...
 1251474,,Causing nearby critters to follow you for $d.,Entranced.
 1251535,,,
 1251536,,,
@@ -31487,7 +31490,7 @@ This effect persists through death.","While standing still, your stealth detecti
 1251684,,,
 1251688,,,Something is watching you closely.
 1251691,,Boosts effect of $@spellname1269958 for $d.,Spirit increased by an additional $w1 for $d from drying off from the rain.
-1251692,,Boosts effect of $@spellname1269966 for $d.,Intellect increased by $w1 for $d while carrying the $@spellicon1270060 $@spellname1270060.
+1251692,,Boosts the effect of $@spellname1269966 for $d.,Intellect increased by $w1 for $d while carrying the $@spellicon1270060 $@spellname1270060.
 1251693,,Boosts the effect of $@spellname1269962 for $d.,Damage and healing done by magical spells and effects increased by $w1% for $d from cooling off from the sun.
 1251705,,,Something is watching you closely.
 1251729,,,
@@ -32060,7 +32063,7 @@ When this effect expires, you will suffer $w1 Nature damage."
 1256867,Rank 1,"Stealthed.  
 ",Stealthed.
 1256875,,,
-1256991,Rank 1,"Puts the caster in stealth mode, but slows its movement by $s2%. Lasts until cancelled.","Stealthed.
+1256991,Rank 1,"Puts you in stealth mode, but slows its movement by $s2%. Lasts until cancelled.","Stealthed.
 Movement speed reduced by $s2%."
 1257010,,Recently smacked!,Recently smacked!
 1257013,,,
@@ -32251,11 +32254,11 @@ Taking hostile action will end this effect."
 1259336,Rank 2,Target is cured of bleeds up to level 45. Not usable in combat.,
 1259337,Rank 3,Target is cured of bleeds up to level 65. Not usable in combat.,
 1259338,,"Entangles an enemy in roots, immobilizing it for up to $d.",Immobilized.
-1259341,,Creates a Vial of Potent Anti-Venom.,
-1259342,,Creates a Simple Poultice.,
-1259343,,Creates a Clever Poultice.,
-1259344,,Creates a Superior Poultice.,
-1259345,,Creates a Powerful Poultice.,
+1259341,,,
+1259342,,,
+1259343,,,
+1259344,,,
+1259345,,,
 1259347,,Creates a Woolen Tourniquet.,
 1259348,,Creates a Leather Tourniquet.,
 1259349,,Creates a Surgical Tourniquet.,
@@ -32377,7 +32380,7 @@ This title can only be displayed while you are Exalted or higher with the Gelkis
 1262528,,Lets you walk on water for $d.,"Rathiril has cast a spell on you, allowing you to walk on water for a short time."
 1262542,,Size corrected.,"|cnPURE_RED_COLOR:Notice from Management:
 |cnITEM_STANDARD_COLOR:
-Incase you forgot, this place is from the second war and is in NO SHAPE to be retrofitted to accommodate the more ""husky"" contributors to our alliance. Until further notice, all visitors will be magically improved to ensure they STOP BUMPING INTO THINGS!
+In case you forgot, this place is from the second war and is in NO SHAPE to be retrofitted to accommodate the more ""husky"" contributors to our alliance. Until further notice, all visitors will be magically improved to ensure they STOP BUMPING INTO THINGS!
 
 |cnIQ2:Size corrected."
 1262574,,,
@@ -32851,13 +32854,14 @@ Movement speed slowed by $s3%."
 1270633,,,
 1270635,,,
 1270643,,"The power of the Emerald Dream seeps out of Nythus, reducing his mana regeneration by 100% for $d.",Mana regeneration reduced by 100% for $d.
-1270648,,"Nythus has awakened from the dream, and is unable to maintain his connection to the waking world. Stunned, and all incoming damage is increased by $S2%.",Stunned. Incoming damage increased by $S2%.
+1270648,,"Nythus has awakened from the dream, and is unable to maintain his connection to the waking world. He is stunned, and all incoming damage is increased by $S2%.",Stunned. Incoming damage increased by $S2%.
 1270650,,"Inflicts $s2 Arcane damage to an enemy, then an additional $1271100s1 damage every $1271100t1 sec.
 Upon expiration, inflicts $1270830s1 Arcane damage to players within $1270830A1 yds.","$1271100s1 Arcane damage inflicted every $t1 sec.
 Upon expiration, inflicts $1270830s1 Arcane damage to players within $1270830A1 yds."
 1270651,,"Inflicts $s2 Shadow damage to an enemy, then an additional $1271100s1 Shadow damage every $1271100t1 sec.
 Upon expiration, inflicts $1270830s1 Shadow damage to players within $1270830A1 yds.
-",$s1 Shadow damage inflicted every $t1 sec.
+","$1271047s1 Shadow damage inflicted every $t1 sec.
+Upon expiration, inflicts $1271008s1 Shadow damage to players within $1271008A1 yds."
 1270781,Rank 1,Increases the Spirit of nearby party members by $M1.,
 1270782,Rank 2,,
 1270784,,,
@@ -33042,7 +33046,7 @@ $s2 Arcane damage inflicted every $t2 sec."
 1272941,,"Shoots at an enemy, inflicting Physical damage.",
 1272959,,$@spelldesc1272962,
 1272962,,"Leaps to a target, dealing $s1 nature damage and slowing the target and all units within $a1 yards by $S2% for $d.",Slowed by $S2% for $d.
-1272973,,"Applies a powerful curse to the target, dealing $s1 shadow damage after $d.",Deals $s1 shadow damage after $d.
+1272973,,"Applies a powerful curse to the target, dealing $s1 Shadow damage after $d.",Deals $s1 Shadow damage after $d.
 1272982,,"Ruptures the target, causing them to bleed for $s1% damage every $T2 sec for $d.",Suffering $S2 damage every $T2 sec.
 1273006,,,
 1273007,,,
@@ -33113,30 +33117,30 @@ $s2 Arcane damage inflicted every $t2 sec."
 1277430,,,
 1277431,,$@spelldesc1277364,$@spellaura1277364
 1277455,,Confuses up to $i enemies within $a1 yds for $d. Any damage taken will break the effect.,Confused.
-1277456,Rank 1,,Healing $s1 damage every $t1 seconds.
-1277457,Rank 2,,Healing $s1 damage every $t1 seconds.
-1277458,Rank 3,,Healing $s1 damage every $t1 seconds.
-1277459,Rank 4,,Healing $s1 damage every $t1 seconds.
-1277460,Rank 5,,Healing $s1 damage every $t1 seconds.
+1277456,Rank 1,,Healing $s1 damage every $t1 sec.
+1277457,Rank 2,,Healing $s1 damage every $t1 sec.
+1277458,Rank 3,,Healing $s1 damage every $t1 sec.
+1277459,Rank 4,,Healing $s1 damage every $t1 sec.
+1277460,Rank 5,,Healing $s1 damage every $t1 sec.
 1277462,Rank 1,"Place a Holy ward on an ally for $d. The next time this ally takes damage dropping their Health below $s1%, they will gain a shield absorbing $1277463s2 damage and begin healing for $1277456o2 Health over $1277456d. A target may be affected by only one Contingency Plan.",Warded against damage taking Health below $s1%.
 1277463,Rank 1,,Absorbing $w1 damage.
 1277464,Rank 2,,Absorbing $w1 damage.
 1277465,Rank 3,,Absorbing $w1 damage.
 1277466,Rank 5,,Absorbing $w1 damage.
 1277467,Rank 4,,Absorbing $w1 damage.
-1277634,Rank 2,"Place a Holy ward on an ally for $d. The next time this ally takes damage dropping their Health below $s1%, they will gain a shield absorbing $1277464s2 damage and begin healing for $1277457o2 Health over $1277457d. A target may be affected by only one Contingency Plan.",Warded against damage taking Health below $s1%.
+1277634,Rank 2,"Place a Holy ward on an ally for $d. The next time this ally takes damage that drops their Health below $s1%, they will gain a shield absorbing $1277464s2 damage and begin healing for $1277457o2 Health over $1277457d. A target may be affected by only one Contingency Plan.",Warded against damage that would take Health below $s1%.
 1277636,,,
-1277638,Rank 3,"Place a Holy ward on an ally for $d. The next time this ally takes damage dropping their Health below $s1%, they will gain a shield absorbing $1277465s2 damage and begin healing for $1277458o2 Health over $1277458d. A target may be affected by only one Contingency Plan.",Warded against damage taking Health below $s1%.
-1277639,Rank 4,"Place a Holy ward on an ally for $d. The next time this ally takes damage dropping their Health below $s1%, they will gain a shield absorbing $1277467s2 damage and begin healing for $1277459o2 Health over $1277459d. A target may be affected by only one Contingency Plan.",Warded against damage taking Health below $s1%.
-1277640,Rank 5,"Place a Holy ward on an ally for $d. The next time this ally takes damage dropping their Health below $s1%, they will gain a shield absorbing $1277466s2 damage and begin healing for $1277460o2 Health over $1277460d. A target may be affected by only one Contingency Plan.",Warded against damage taking Health below $s1%.
+1277638,Rank 3,"Place a Holy ward on an ally for $d. The next time this ally takes damage that drops their Health below $s1%, they will gain a shield absorbing $1277465s2 damage and begin healing for $1277458o2 Health over $1277458d. A target may be affected by only one Contingency Plan.",Warded against damage that would take Health below $s1%.
+1277639,Rank 4,"Place a Holy ward on an ally for $d. The next time this ally takes damage that drops their Health below $s1%, they will gain a shield absorbing $1277467s2 damage and begin healing for $1277459o2 Health over $1277459d. A target may be affected by only one Contingency Plan.",Warded against damage taking Health below $s1%.
+1277640,Rank 5,"Place a Holy ward on an ally for $d. The next time this ally takes damage dropping their Health below $s1%, they will gain a shield absorbing $1277466s2 damage and begin healing for $1277460o2 Health over $1277460d. A target may be affected by only one Contingency Plan.",Warded against damage that would take Health below $s1%.
 1277662,Rank 1,,
 1277663,,,
-1277794,,"Begins taming a Rockhide Boar to be your companion for 10 minutes.  If you lose the beast's attention for any reason, the taming process will fail.",Taming Boar
+1277794,,"Begins taming a Rockhide Boar to be your companion for 10 min. If you lose the beast's attention for any reason, the taming process will fail.",Taming Boar
 1277808,,Plant a seedling.,
 1277851,,,Tamed.
 1277874,,,
-1278028,,"Begins taming a Gray Forest Wolf to be your companion for 10 minutes.  If you lose the beast's attention for any reason, the taming process will fail.",Taming Wolf
-1278029,,"Begins taming a Young Forest Bear to be your companion for 10 minutes.  If you lose the beast's attention for any reason, the taming process will fail.",Taming Bear
+1278028,,"Begins taming a Gray Forest Wolf to be your companion for 10 min. If you lose the beast's attention for any reason, the taming process will fail.",Taming Wolf
+1278029,,"Begins taming a Young Forest Bear to be your companion for 10 min. If you lose the beast's attention for any reason, the taming process will fail.",Taming Bear
 1278060,,,Tamed.
 1278061,,,Tamed.
 1278062,,Allows the herbalist to add features to a wilderness camp.,
@@ -33207,10 +33211,10 @@ For testing purposes only, of course."
 1279988,Rank 4,$s1 Fire damage dealt to all enemies in target area.,
 1279989,Rank 5,$s1 Fire damage dealt to all enemies in target area.,
 1279990,Rank 6,$s1 Fire damage dealt to all enemies in target area.,
-1280003,,"Begins taming a Windsong Crawler to be your companion for 10 minutes.  If you lose the beast's attention for any reason, the taming process will fail.",Taming Crawler
+1280003,,"Begins taming a Windsong Crawler to be your companion for 10 min. If you lose the beast's attention for any reason, the taming process will fail.",Taming Crawler
 1280004,,,Tamed.
 1280044,,,Tamed.
-1280046,,"Begins taming an Ornery Galestrider to be your companion for 10 minutes. If you lose the beast's attention for any reason, the taming process will fail.",Taming Ornery Galestrider
+1280046,,"Begins taming an Ornery Galestrider to be your companion for 10 min. If you lose the beast's attention for any reason, the taming process will fail.",Taming Ornery Galestrider
 1280322,,,
 1280341,,,Fishing boosted from time spent near Fishing Rack. Additional rewards while fishing for $d.
 1280342,,,Fishing boosted from time spent near Fishing Hut. Greater additional rewards while fishing for $d.
@@ -33233,9 +33237,9 @@ For testing purposes only, of course."
 1280533,,,Marked.
 1280540,,Do damage divided evenly among all affected targets,
 1280553,,,
-1280564,,Heals an ally every $t1 sec. for $d.,Restoring $s1 Health every $t1 sec.
+1280564,,Heals an ally every $t1 sec for $d.,Restoring $s1 Health every $t1 sec.
 1280586,,,
-1280634,,Regenerates all nearby group members for $?$p456322[${$m1*2}][$s1] every $t1 seconds for $d.  Druid must channel to maintain the spell.,Heals nearby party members for $w1 every $t1 seconds.
+1280634,,Regenerates all nearby group members for $?$p456322[${$m1*2}][$s1] every $t1 sec for $d. You must channel to maintain the spell.,Heals nearby party members for $w1 every $t1 sec.
 1280662,,"Great sustenance fills the caster, increasing Physical damage dealt by $s1% and size by $s2%.",Damage increased by $s1%.
 1280669,,Causes $s1 Fire damage to the target.,
 1280856,,,
@@ -33247,7 +33251,7 @@ For testing purposes only, of course."
 1281438,,,
 1281439,,,
 1281440,,,
-1281530,,Allows you to rent a mount for 2 minutes.,$?j1g[Increases ground speed by $j1g%. ][]
+1281530,,Allows you to rent a mount for 2 min.,$?j1g[Increases ground speed by $j1g%. ][]
 1281639,,,
 1281640,,,
 1281641,,Right Click to summon and dismiss your musical froggy friend.,
@@ -33255,7 +33259,7 @@ For testing purposes only, of course."
 1281744,,Improves your chance to hit by $s1%.,
 1281765,,Places a magical seed that blooms after 5 sec. Treants are created every $1281782t1 sec.,
 1281778,,,
-1281781,,"Entangles an enemy in roots, inflicting Nature damage every $t2 sec. and immobilizing it for up to $d.","Immobilized.
+1281781,,"Entangles an enemy in roots, inflicting Nature damage every $t2 sec and immobilizing it for up to $d.","Immobilized.
 Nature damage inflicted every $t2 sec."
 1281782,,Periodically summons Treants who attack nearby enemies.,
 1281887,,Recently Entangled.,
@@ -33276,7 +33280,7 @@ Nature damage inflicted every $t2 sec."
 1282429,,Take a swatch of velvet from Kala'th's horns.,
 1282430,,Take a whisker from Shalla'kal.,
 1282448,,,
-1282482,,Sear certain enchanted targets with blazing light causing it to take additional damage from holy attacks and spells,Damage taken from holy attacks and spells increased by $s1%.
+1282482,,Sear certain enchanted targets with blazing light causing them to take additional damage from Holy attacks and spells.,Damage taken from Holy attacks and spells increased by $s1%.
 1282495,,,Nearly impervious to incoming damage.
 1282503,,"Sear the target with a vortex of blazing wind, dealing $s1 Holystorm damage. Deals $s2 times as much damage to Wolves and Worgen.",
 1282510,,,
@@ -33384,7 +33388,7 @@ Nature damage inflicted every $t2 sec."
 1284194,,,
 1284195,,,
 1284376,,,
-1284377,,Deals $s1 frost damage a second.,Deals $s1 frost damage a second.
+1284377,,Deals $s1 Frost damage per sec.,Deals $s1 Frost damage per sec.
 1284381,,"Inflicts normal damage plus $s3 to nearby enemies, knocking them back and stunning them for $d.",Stunned.
 1284382,,,
 1284384,,The subject dies,
@@ -33392,7 +33396,7 @@ Nature damage inflicted every $t2 sec."
 1284435,,,"Physical damage dealt is increased by $s1.
 Attack speed increased by $s2%."
 1284450,,,
-1284536,,,Your next Holy Nova costs no Mana.
+1284536,,Your next Holy Nova costs no Mana.,Your next Holy Nova costs no Mana.
 1284560,,"You are holding the Darkspear Flag.
 Take this flag to any controlled point to gain Victory Points.
 ","You are holding the Darkspear Flag.
@@ -33401,7 +33405,7 @@ Take this flag to any controlled point to gain Victory Points."
 1284701,,Use the Concoction of Cleansing on animals that have been experimented on with fel ash.,
 1284734,,Increases running and swimming speed by $s1%.,Running and swimming speed increased by $s1%.
 1284783,,Increase your reputation permanently with the furbolg of Barkskin Burrow.,
-1285372,Rank 3,"Allows the rogue to vanish from sight, entering an improved stealth mode for $11329d.  Also breaks movement impairing effects. More effective than Vanish (Rank 2).",Improved stealth.
+1285372,Rank 3,"Allows the rogue to vanish from sight, entering an improved stealth mode for $11329d. Also breaks movement impairing effects. More effective than Vanish (Rank 2).",Improved stealth.
 1285699,,,
 1285700,,,
 1285701,,,
@@ -33445,23 +33449,23 @@ Take this flag to any controlled point to gain Victory Points."
 1286238,,Skinning +$s1.,
 1286240,,,
 1286242,,,
-1286251,,"Places a Blessing on the party member, reducing the amount of all threat generated by $s1% for $d.  Players may only have one Blessing on them per Paladin at any one time.",Reduces threat generated by $s1%.
-1286252,Rank 5,"Places a Blessing on the friendly target, restoring $s1 mana every $t1 seconds for $d.  Players may only have one Blessing on them per Paladin at any one time.",Restores $s1 mana every $t1 seconds.
-1286253,Rank 6,"Places a Blessing on the friendly target, increasing melee attack power by $s1 for $d.  Players may only have one Blessing on them per Paladin at any one time.",Increases melee attack power by $s1.
-1286254,,"Places a Blessing on the friendly target, increasing total stats by $s1% for $d.  Players may only have one Blessing on them per Paladin at any one time.",Increases stats by $s1%.
+1286251,,"Places a Blessing on the party member, reducing the amount of all threat generated by $s1% for $d. Players may only have one Blessing on them per Paladin at any one time.",Reduces threat generated by $s1%.
+1286252,Rank 5,"Places a Blessing on the friendly target, restoring $s1 mana every $t1 sec for $d. Players may only have one Blessing on them per Paladin at any one time.",Restores $s1 mana every $t1 sec.
+1286253,Rank 6,"Places a Blessing on the friendly target, increasing melee attack power by $s1 for $d. Players may only have one Blessing on them per Paladin at any one time.",Increases melee attack power by $s1.
+1286254,,"Places a Blessing on the friendly target, increasing total stats by $s1% for $d. Players may only have one Blessing on them per Paladin at any one time.",Increases stats by $s1%.
 1286257,Rank 1,"Power infuses all party and raid members, increasing their Spirit by $s1 for $d.",Increases Spirit by $s1.
-1286298,,Attempts to sunder the soul of a nearby enemy. When the Phantasm is dispelled it will cause damage to the dispeller and summon a Phantasm at the targets location that travels toward the caster.,Your soul is beginning to fracture.
-1286299,,Attempts to sunder the soul of a nearby enemy. When the Phantasm is dispelled it will cause damage to the dispeller and summon a Phantasm at the targets location that travels toward the caster.,Your soul is beginning to fracture.
+1286298,,Attempts to sunder the soul of a nearby enemy. When the Phantasm is dispelled it will cause damage to the dispeller and summon a Phantasm at the target's location that travels toward the caster.,Your soul is beginning to fracture.
+1286299,,Attempts to sunder the soul of a nearby enemy. When the Phantasm is dispelled it will cause damage to the dispeller and summon a Phantasm at the target's location that travels toward the caster.,Your soul is beginning to fracture.
 1286301,,,Periodically taking $s1 damage.
 1286303,,,
 1286304,,,Increases all damage caused by $s1% and all damage taken by $s2%.
 1286338,,,
 1286342,,,
 1286343,,,
-1286344,,,"Restores Health, Mana and Pet Happiness."
+1286344,,,"Restores Health, Mana, and Pet Happiness."
 1286345,,,Movement speed increased by $s1%.
 1286358,,,
-1286462,,Puts the caster in stealth mode for $d.,Stealthed.
+1286462,,Puts you in stealth mode for $d.,Stealthed.
 1286504,,,
 1286513,,Teleports the target mortal to a secluded area.,
 1286514,,Teleports the target mortal to a secluded area.,
@@ -33772,7 +33776,7 @@ Physical damage taken is increased by $s2."
 1290800,,"Improves hand agility and flexibility, increasing crafting speed by $w1%.",Crafting speed increased by $w1%.
 1290859,,Restores $26474o1 health and $26475o2 mana over $26474d. Must remain seated while eating. Usable only inside Darkspear Islands.,
 1290860,,Restores $26472o1 health and $26473o2 mana over $26472d. Must remain seated while eating. Usable only inside Darkspear Islands.,
-1290861,,Restores $25695o1 health and $25696o2 mana over $25695d. Must remain seated while eating. Usable only inside Darkspear Islands.,Restores $/5;s1 health and $/5;s2 mana per second.
+1290861,,Restores $25695o1 health and $25696o2 mana over $25695d. Must remain seated while eating. Usable only inside Darkspear Islands.,Restores $/5;s1 health and $/5;s2 mana per sec.
 1290863,Rank 8,Heals $o1 damage over $d. Usable only inside Darkspear Islands.,Healing $s1 damage every $t1 sec.
 1290865,Rank 10,Heals $o1 damage over $d. Usable only inside Darkspear Islands.,Healing $s1 damage every $t1 sec.
 1290867,Rank 6,Heals $o1 damage over $d. Usable only inside Darkspear Islands.,Healing $s1 damage every $t1 sec.
@@ -33893,7 +33897,7 @@ Immune to Poisons and Bleed effects."
 1292652,,Reduces the hit chance of Sleep effects against you by $s1%.,
 1292657,,"Inflict $1292738m1 Fire and $1292739m2 Frost damage, slow the target by $1292739m1% for $1292739d, reduce armor by $m2, and inflict $m1 Nature damage every $t1 sec for $d.",Armor lowered by $s2 and inflicting $s1 Nature damage every $t1 sec.
 1292670,,"When struck in combat, inflicts $s1 Nature damage to the attacker.",
-1292674,,Spells and attacks against Murlocs deal $1292675s1 Shadow damage.,
+1292674,,Spells and attacks deal $1292675s1 Shadow damage. Deals $s1 times as much damage to Murlocs.,
 1292675,,Spells and attacks against Murlocs deal $s1 Shadow damage.,Deal $s1 Shadow damage to Murlocs.
 1292679,,Blasts a target for $s1 Nature damage.,
 1292683,,Increases all threat generated by $s1%.,
@@ -34091,7 +34095,7 @@ $@spellname462134][]",
 1293689,,,
 1293693,Rank 2,"Send a ghostly soul to assault your current target, dealing $s1 damage, and increasing all Shadow damage over time you deal to that target by $s2% for $d. When Haunt expires for any reason you will be healed for $s3% of the damage it dealt to your target.",Damage taken from Shadow damage over time effects from the caster increased by $s2%.
 1293694,Rank 3,"Send a ghostly soul to assault your current target, dealing $s1 damage, and increasing all Shadow damage over time you deal to that target by $s2% for $d. When Haunt expires for any reason you will be healed for $s3% of the damage it dealt to your target.",Damage taken from Shadow damage over time effects from the caster increased by $s2%.
-1293695,,Your Searing Pain generates $s1% less threat and brands the target for $1293696d. Your pet's next $m2 attacks against the target generate high threat and deal $<minDam> to $<maxDam> Fire or Shadow damage based on the pet.,
+1293695,,"Your Searing Pain generates $s1% less threat and brands the target for $1293696d. Your pet's next $m2 attacks against the target deal $<minDam> to $<maxDam> Fire or Shadow damage based on the pet. If Shadow damage is dealt, it has high threat.",
 1293696,,,The caster's pet deals an additional ${$<minDam>*$<mult>} to ${$<maxDam>*$<mult>} damage with its next $m2 $Lattack:attacks;.
 1293697,,Consuming a brand deals $<minDam> to $<maxDam> Shadow damage.,
 1293698,,Consuming a brand deals $<minDam> to $<maxDam> Fire damage.,
@@ -34641,9 +34645,9 @@ Honor gains increased by $s1%."
 1299440,,Fear all Demons within $r yds for $d.,Feared.
 1299443,,"Harness the power of lightning to strike the target, stunning them for $d. Stuns players in water for $s1 times as long.",Stunned.
 1299444,,Can't hold your breath.,Can't hold your breath.
-1299445,Rank 2,"The hunter takes on the aspects of a beast, becoming untrackable and increasing Melee Attack Power by $s2. Only one Aspect can be active at a time.",Untrackable. Melee Attack Power increased by $s2.
-1299446,Rank 3,"The hunter takes on the aspects of a beast, becoming untrackable and increasing Melee Attack Power by $s2. Only one Aspect can be active at a time.",Untrackable. Melee Attack Power increased by $s2.
-1299447,Rank 4,"The hunter takes on the aspects of a beast, becoming untrackable and increasing Melee Attack Power by $s2. Only one Aspect can be active at a time.",Untrackable. Melee Attack Power increased by $s2.
+1299445,Rank 2,"You take on the aspects of a beast, becoming untrackable and increasing Melee Attack Power by $s2. Only one Aspect can be active at a time.",Untrackable. Melee Attack Power increased by $s2.
+1299446,Rank 3,"You take on the aspects of a beast, becoming untrackable and increasing Melee Attack Power by $s2. Only one Aspect can be active at a time.",Untrackable. Melee Attack Power increased by $s2.
+1299447,Rank 4,"You take on the aspects of a beast, becoming untrackable and increasing Melee Attack Power by $s2. Only one Aspect can be active at a time.",Untrackable. Melee Attack Power increased by $s2.
 1299448,,,Melee attack speed increased by $s1%.
 1299449,,,You are playing a game! Hurry up and find what Aana has hidden if you don't want to lose...
 1299525,,,
@@ -36088,14 +36092,12 @@ Targets that die while Devouring Plague is active spreads it, jumping to a nearb
 1310198,Rank 3,"Slams the opponent, causing weapon damage plus $s1.",
 1310199,Rank 4,"Slams the opponent, causing weapon damage plus $s1.",
 1310200,Rank 5,"Slams the opponent, causing weapon damage plus $s1.",
-1310222,,"A brutal attack that deals $s2% weapon damage, plus an additional ${$s2*$s3}% weapon damage against Giants, Dragonkin, and mounted targets.",
-1310236,,Increases your maximum Rage by ${$m1/10}.,
+1310222,,"A brutal attack that deals $s2% weapon damage. Deals an additional ${$s2*$s3}% weapon damage against Giants, Dragonkin, and mounted targets. Mounted targets are dismounted.",
 1310243,,Inflicts Physical damage to an enemy every $t1 sec. for $d.,Physical damage inflicted every $t1 sec.
-1310285,,"Transforms a random enemy within $R1 yards into a satyr for $D sec. They're forced to speak demonic, and their casting speed is reduced by $S4%.","Transformed into a satyr. Speaking demonic, and casting speed is reduced by $S4%."
+1310285,,"Transforms a random enemy within $R1 yds into a satyr for $D sec. They're forced to speak demonic, and their casting speed is reduced by $S4%.","Transformed into a satyr. Speaking demonic, and casting speed is reduced by $S4%."
 1310296,,Walk on water for $d.,Allows walking over water and water-like surfaces.
 1310308,,Improves your chance to get a critical strike with ranged weapons by ${$s1}.1%.,
-1310315,,"Causes your Whirlwind to also strike with your Off Hand weapon, and reduces the Rage cost of your Cleave ability by ${$m2/-10}.
-",
+1310315,,Reduces the Rage cost of your Cleave and Whirlwind abilities by ${$m2/-10}.,
 1310316,,Grants you a $m1% chance to generate ${$23602m1/10} Rage when you Dodge or Parry while a shield is equipped.,
 1310317,,Your Charge ability is now usable while in Defensive Stance.,
 1310318,,Generate ${$1310318m1/10} Rage when you Block.,Generate ${$1310318m1/10} Rage.
@@ -36118,7 +36120,7 @@ Targets that die while Devouring Plague is active spreads it, jumping to a nearb
 1310499,,Heals an ally every $t1 sec. for $d.,Damage healed every $t1 sec.
 1310502,,Heals an ally every $t1 sec. for $d.,Damage healed every $t1 sec.
 1310503,Rank 7,"Increases the friendly target's armor by $s1, all attributes by $s2 and all resistances by $s3 for $d.","Armor increased by $s1, all attributes by $s2 and all resistances by $s3."
-1310532,,Your attacks against targets with Hunter's Mark have a $s1% chance to activate your Mongoose Bite for $5302d.,
+1310532,,Your attacks against targets with Hunter's Mark have a $s1% chance to activate your Mongoose Bite for $1310726d.,
 1310533,,Your Mongoose Bite also causes the target to Bleed for damage equal to $s1% of the damage done by Mongoose Bite over $1310536d,
 1310536,,Wounds the target causing them to bleed for $o1 damage over $d.,Bleeding for $w1 damage every $t1 sec.
 1310594,,Collects a plains water sample.,
@@ -36315,7 +36317,7 @@ Ensure you have ample inventory space before opening. Excess items can be retrie
 1315237,,"Breathes putrid rot and decay, inflicting $S1 Nature damage to all players within $r yds.",
 1315267,,Right Click to summon and dismiss your Tallstrider Hatchling.,
 1315283,,,
-1315286,,,Stunned. Fire damage taken increased by $s2%.
+1315286,,,Stunned. Increases Fire damage taken by $s2%.
 1315307,,Summons a Mist-Forgotten Horror at a random location.,
 1315330,,Increases Intellect by $s1 at night.,
 1315339,,Increases intellect by $s1 at night.,
@@ -36367,7 +36369,7 @@ Ensure you have ample inventory space before opening. Excess items can be retrie
 1316480,,"Entangles nearby enemies in roots, inflicting $s2 Nature damage every $t2 sec and immobilizing them for up to $d.","Immobilized.
 $s2 Nature damage inflicted every $t2 sec."
 1316489,,"Reduces the movement speed of an enemy by $s1%, and reduces all physical and magical damage it deals by $s2.","Movement speed reduced by $s1%.
-Physical and magical damage dealt is reduced by $s2."
+Physical and magical damage dealt is reduced by $s2%."
 1316555,,"Slams the opponent, causing Physical damage.",
 1316579,,"Shoots at an enemy, inflicting Physical damage.",
 1316591,,$@spelldesc1247428,
@@ -36676,7 +36678,7 @@ $s2 Nature damage inflicted every $t2 sec."
 1320269,,"Bash the target, causing $s1 Physical damage. Deals $s2 times as much damage if the target is facing you.",
 1320330,,Increases healing done by up to $s1 and damage done by up to $s2 for all magical spells and effects. This effect is doubled in Strongholds and Cities.,
 1320332,,,"In a Stronghold or City, healing done increased by up to $w1 and spell damage done increased by up to $w2."
-1320379,,$@spelldesc12826,$@auradesc12826
+1320379,,$@spelldesc12826,$@spellaura12826
 1320446,,,
 1320496,,,
 1320498,,"Thunderstomp nearby enemies, inflicting $s1 Nature damage.",
@@ -36760,3 +36762,215 @@ Being bitten will cause you to take damage equal to $1286850s1% of your health e
 1323418,,,Critical Strike chance of your next non-periodic spell increased by $s1%.
 1323419,,,Critical Strike chance of your next non-periodic spell increased by $s1%.
 1323420,,"Returns your totems to the earth, giving you $s1% of the mana required to cast each totem destroyed by Totemic Recall.",
+1323433,,,
+1323500,,,Stunned.
+1323522,,"Fill the Paladin with various divine enhancements. 
+
+You currently have access to:
+$?pc166120[$@spellicon21082 $@spellname21082][]
+$?pc166138[$@spellicon25742 $@spellname20287][]
+$?pc166134[$@spellicon20165 $@spellname20165][]
+$?pc166146[$@spellicon20166 $@spellname20166][]
+$?pc166126[$@spellicon1311649 $@spellname1311649][]
+$?pc166133[$@spellicon20164 $@spellname20164][]
+$?pc166115[$@spellicon20424 $@spellname20424][]",
+1323526,,,
+1323548,,,
+1323651,,Burns the enemy for Arcane damage and inflicts additional damage over $d.,$S1 Arcane damage inflicted every $t1 sec.
+1323656,,"Inflicts normal damage plus $s2 to an enemy, then an additional $s1 Nature damage every $t1 sec. for $d.",$s1 Nature damage inflicted every $t1 sec.
+1323657,,,
+1323676,,"Slams an enemy to the ground, inflicting Physical damage and stunning it for $d.",Stunned.
+1323731,,,
+1323764,,,
+1323772,,"Provide the Shaman with earth enchanted totems. 
+
+You currently have access to:
+$?pc166190
+[$@spellicon8075$@spellname8075][]
+$?pc166245
+[$@spellicon2484 $@spellname2484][]
+$?pc166248
+[$@spellicon5730 $@spellname5730][]
+$?pc166247
+[$@spellicon8071 $@spellname8071][]
+
+",
+1323802,,"Strikes fear in an enemy, causing it to flee in terror for $d. Only 1 target can be feared at a time.",Fleeing in fear.
+1323823,,"Provide the Shaman with earth enchanted totems. 
+
+You currently have access to:
+
+$?pc166245
+[$@spellicon2484 $@spellname2484][]
+$?pc166248
+[$@spellicon5730 $@spellname5730][]
+",
+1323825,,"Provide the Shaman with air enchanted totems. 
+
+You currently have access to:
+$?pc166249
+[$@spellicon6495$@spellname6495][]
+$?pc166250
+[$@spellicon15107 $@spellname15107][]
+$?pc166251
+[$@spellicon10595 $@spellname10595][]
+$?pc166252
+[$@spellicon8835 $@spellname8835][]
+$?pc166254
+[$@spellicon8177 $@spellname8177][]
+$?pc166255
+[$@spellicon8512 $@spellname8512][]
+",
+1323828,,,
+1323844,,"Provide the Shaman with fire enchanted totems.
+
+You currently have access to:
+$?pc166257
+[$@spellicon8190$@spellname8190][]
+$?pc166257
+[$@spellicon3599 $@spellname3599][]
+",
+1323849,,"Provide the Shaman with fire enchanted totems. 
+
+You currently have access to:
+$?pc166258
+[$@spellicon8277$@spellname8277][]
+$?pc166260
+[$@spellicon8184 $@spellname8184][]
+",
+1323858,,"Provide the Shaman with water enchanted totems. 
+
+You currently have access to:
+
+$?pc166263
+[$@spellicon8166 $@spellname8166][]
+$?pc166264
+[$@spellicon8170 $@spellname8170][]",
+1323859,,"Provide the Shaman with water enchanted totems. 
+
+You currently have access to:
+
+$?pc166265
+[$@spellicon5394 
+$@spellname5394][]
+$?pc166266
+[$@spellicon8181 $@spellname8181][]
+$?pc166267
+[$@spellicon5675 $@spellname5675][]
+$?pc166268
+[$@spellicon16190 $@spellname16190][]
+",
+1323958,,,
+1323959,,,
+1323963,,Increases your chance to hit with off-hand attacks by $m1%.,
+1323964,,Increases the time before your Rage begins to decay after leaving combat by ${$s1/1000} sec.,
+1323965,,Increases the time before your Rage begins to decay after leaving combat by $d.,
+1323966,,,
+1323967,,"Your Enrage, Berserker Rage, Bloodrage, Death Wish, and Bloodthirst abilities cause your next $m1 melee attacks to restore ${$s2}.1% of your maximum Health.",
+1323968,,Healing from melee attacks.,
+1323969,,Successful melee attacks restore $w1 Health.,Successful melee attacks restore $w1 Health.
+1323994,,,
+1323995,,,
+1324056,,"Take on the aspect of various creatures, enhancing your combat abilities in different ways.
+
+You currently have access to:
+
+$?pc166319[$@spellicon5118 $@spellname5118][]
+$?pc166320[$@spellicon13165 $@spellname13165][]
+$?pc166318[$@spellicon13161 $@spellname13161][]
+$?pc166321[$@spellicon13163 $@spellname13163][]
+$?pc166323[$@spellicon20043 $@spellname20043][]
+$?pc166322[$@spellicon13159 $@spellname13159][]",
+1324106,,,Stunned.
+1324187,,$@spelldesc12825,$@spellaura12825
+1324188,,$@spelldesc12824,$@spellaura12824
+1324189,,$@spelldesc118,$@spellaura118
+1324196,,,
+1324200,,,
+1324222,,,
+1324229,,,
+1324282,,,
+1324287,,+$s1 Armor.,
+1324288,,Increased Defense +$s1.,
+1324296,,Heals the target for $s1.,Heals the target for $w1.
+1324298,,Chance on block to heal for $1324296s1. Healing is doubled in Strongholds and Cities.,
+1324299,,Teleports the caster to an enemy target. Also frees the caster from any bonds.,Blinking...
+1324301,,Teleports the caster 20 yd. forward unless something is in the way. Also frees the caster from any bonds.,Blinking...
+1324306,,"Sends out a blast wave of magic, inflicting $s1 Arcane damage to nearby enemies and silencing them for $d.",Silenced.
+1324308,,Stamina increased by $1.,Stamina increased by $s1.
+1324309,,"Taking damage has a high chance to increase your Stamina by $1324308s for $1324308d, stacking up to 20 times.",
+1324311,,+$s1 Arcane Resistance.,
+1324312,,+$s1 Spirit.,
+1324315,,Allows $s1% of your Mana regeneration to continue while casting.,Allows $w1% of your Mana regeneration to continue while casting.
+1324318,,Chance on damaging spell to allow $1324315s1% of your Mana regeneration to continue while casting for $1324315d. Mana regen amount is doubled in Strongholds and Cities.,
+1324322,,Summon Arcane Elemenetal.,
+1324323,,Chance on damaging spell to summon an Arcane elemental to aid you in combat.,
+1324401,,,Silenced.
+1324415,,$@spelldesc9484,$@spellaura9484
+1324420,,$@spelldesc9485,$@spellaura9485
+1324422,,$@spelldesc10955,$@spellaura10955
+1324427,,$@spelldesc15487,$@spellaura15487
+1324448,,$@spelldesc5782,$@spellaura5782
+1324451,,$@spelldesc6213,$@spellaura6213
+1324453,,$@spelldesc6215,$@spellaura6215
+1324459,,$@spelldesc6789,$@spellaura6789
+1324462,,$@spelldesc710,$@spellaura710
+1324463,,$@spelldesc18647,$@spellaura18647
+1324468,,$@spelldesc1098,$@spellaura1098
+1324473,,$@spelldesc1225228,$@spellaura1225228
+1324474,,$@spelldesc408,$@spellaura408
+1324475,,$@spelldesc8643,$@spellaura8643
+1324477,,$@spelldesc2094,$@spellaura2094
+1324481,,$@spelldesc1776,$@spellaura1776
+1324482,,$@spelldesc6770,$@spellaura6770
+1324483,,$@spelldesc2070,$@spellaura2070
+1324484,,$@spelldesc11297,$@spellaura11297
+1324485,,$@spelldesc18425,$@spellaura18425
+1324487,,$@spelldesc5211,$@spellaura5211
+1324488,,$@spelldesc6798,$@spellaura6798
+1324490,,$@spelldesc8983,$@spellaura8983
+1324494,,$@spelldesc24394,$@spellaura24394
+1324499,,$@spelldesc19503,$@spellaura19503
+1324500,,$@spelldesc3355,$@spellaura3355
+1324501,,$@spelldesc14308,$@spellaura14308
+1324502,,$@spelldesc14309,$@spellaura14309
+1324506,,$@spelldesc1513,$@spellaura1513
+1324507,,$@spelldesc14326,$@spellaura14326
+1324510,,$@spelldesc14327,$@spellaura14327
+1324511,,$@spelldesc19410,$@spellaura19410
+1324513,,$@spelldesc853,$@spellaura853
+1324515,,$@spelldesc5588,$@spellaura5588
+1324516,,$@spelldesc5589,$@spellaura5589
+1324517,,$@spelldesc10308,$@spellaura10308
+1324538,,$@spelldesc20066,$@spellaura20066
+1324542,,Regenerates all nearby group members for $s1 every $t1 sec for $d. Druid must channel to maintain the spell.,Heals self and nearby creatures for $s1 every $t1 sec.
+1324543,,$@spelldesc2878,$@spellaura2878
+1324545,,$@spelldesc5627,$@spellaura5627
+1324546,,$@spelldesc10326,$@spellaura10326
+1324551,,$@spelldesc18498,$@spellaura18498
+1324556,,$@spelldesc12809,$@spellaura12809
+1324558,,$@spelldesc676,$@spellaura676
+1324578,,Reduces the hit chance of Fear effects against you by $s1%.,
+1324618,,Causes nearby enemies to flee in fear for $d.,Fleeing in fear.
+1324661,,Unfolds into a Portable Repair Bot that can repair damaged items and purchase unwanted goods. After 5 minutes its internal motor fails.,
+1324673,,+$s1 Fire Resistance.,
+1324674,,+$s1 Stamina.,
+1324675,,Increased Swords +$s1.,
+1324682,,,
+1324683,,,Critical Strike chance increased by $signw1%.
+1324684,,Melee attacks have a chance to increase your Critical Strike chance by $1324683s1% for $1324683d. This effect is doubled in swamps.,
+1324685,,,
+1324686,,Deals $17496s1 Nature damage every time you block. Damage is doubled in swamps.,
+1324687,,"Dismember the target, inflicting $s1 Physical damage.",
+1324688,,,
+1324722,,"Increases your Legacy reputation by $s1.
+",
+1324752,,Underwater Breath lasts $s1% longer than normal.,Waterbreathing.
+1324889,,"Overrides the NPC's interact radius. Works for questgivers as well, not just creature's you have to use an interact spell on.",
+1324891,,"Overrides the NPC's interact radius. Works for questgivers as well, not just creature's you have to use an interact spell on.",
+1324895,,"Overrides the NPC's interact radius. Works for questgivers as well, not just creature's you have to use an interact spell on.",
+1324903,,"Overrides the NPC's interact radius. Works for questgivers as well, not just creature's you have to use an interact spell on.",
+1324906,,"Overrides the NPC's interact radius. Works for questgivers as well, not just creature's you have to use an interact spell on.",
+1324940,,,
+1324981,,Reduces the cast time of Disenchant by $s1%.,
+1324985,,,

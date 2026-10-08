@@ -1907,7 +1907,7 @@ ID,BaseTag,TagText_lang,Flags
 11787,SLASH_GUILD_MOTD3,/gmotd,1
 11788,SLASH_GUILD_LEAVE3,/gquit,1
 11789,ITEM_SUFFIX_TEMPLATE,%s %s,5
-11790,CONFIRM_XP_LOSS,"If you find your corpse, you can resurrect for no penalty.  If I resurrect you all of your items will take 50%% durability damage (equipped and inventory) and you will be afflicted by %s of |cff71d5ff|Hspell:15007|h[Resurrection Sickness]|h|r.",1
+11790,CONFIRM_XP_LOSS,"If you find your corpse, you can resurrect for no penalty.  If I resurrect you all of your items will take 25%% durability damage (equipped and inventory) and you will be afflicted by %s of |cff71d5ff|Hspell:15007|h[Resurrection Sickness]|h|r.",1
 11791,LOCK,Lock,1
 11792,RECOVER_CORPSE,Resurrect now?,1
 11795,WHO_LIST,Who List,1
@@ -3949,7 +3949,7 @@ ID,BaseTag,TagText_lang,Flags
 14240,NO_MANA_SPIRIT_TOOLTIP,Increases health regeneration rates.\n\nHealth Regen: %d per 5 sec.\nCombat Health Regen: %d per 5 sec.,1
 14241,DEFAULT_STAMINA_TOOLTIP,Increases |cFFFFFFFFHealth|r by %s,1
 14242,DEFAULT_INTELLECT_TOOLTIP,Increases |cFFFFFFFFMana|r by %d\nIncreases |cFFFFFFFFSpell Critical Strike|r chance by %.1f%%\nIncreases |cFFFFFFFFWeapon Skill|r improvement rate,1
-14243,HUNTER_AGILITY_TOOLTIP,Increases |cFFFFFFFFDodge|r chance by %.1f%%\nIncreases |cFFFFFFFFArmor|r by %d\nIncreases |cFFFFFFFFCritical Strike|r chance by %.1f%%\nIncreases |cFFFFFFFFAttack Power|r by %d\nIncreases |cFFFFFFFFRanged Attack Power|r by %d,1
+14243,HUNTER_AGILITY_TOOLTIP,Increases |cFFFFFFFFCritical Strike|r chance by %.1f%%\nIncreases |cFFFFFFFFAttack Power|r by %d\nIncreases |cFFFFFFFFRanged Attack Power|r by %d\nIncreases |cFFFFFFFFArmor|r by %d\nIncreases |cFFFFFFFFDodge|r chance by %.1f%%,1
 14257,ROGUE_AGILITY_TOOLTIP,Increases |cFFFFFFFFCritical Strike|r chance by %.1f%%\nIncreases |cFFFFFFFFAttack Power|r by %d\nIncreases |cFFFFFFFFRanged Attack Power|r by %d\nIncreases |cFFFFFFFFArmor|r by %d\nIncreases |cFFFFFFFFDodge|r chance by %.1f%%,1
 14265,SHAMAN_STRENGTH_TOOLTIP,Increases |cFFFFFFFFAttack Power|r by %d\nIncreases |cFFFFFFFFBlock Value|r by %d,1
 14266,PALADIN_STRENGTH_TOOLTIP,Increases |cFFFFFFFFAttack Power|r by %d\nIncreases |cFFFFFFFFBlock Value|r by %d,1
@@ -6940,7 +6940,7 @@ ID,BaseTag,TagText_lang,Flags
 18644,SPELL_FAILED_CUSTOM_ERROR_16,You must target a Fjord Hawk.,1
 18645,SPELL_FAILED_CANT_DO_THAT_RIGHT_NOW,You can't do that right now.,1
 18646,SPELL_FAILED_CUSTOM_ERROR_17,You are too far from the bouy.,1
-18647,ACHIEVEMENT_UNLOCKED,Achievement Earned,1
+18647,ACHIEVEMENT_UNLOCKED,Legacy Challenge Earned,1
 18648,ERR_TRADE_SELF,You can't trade with yourself.,1
 18649,SPELL_FAILED_CUSTOM_ERROR_18,Must be used near an oil slick.,1
 18650,SPELL_FAILED_CUSTOM_ERROR_19,You must be closer to the buoy!,1
@@ -8605,7 +8605,7 @@ ID,BaseTag,TagText_lang,Flags
 20433,ERR_DIFFICULTY_CHANGE_ALREADY_STARTED,A raid difficulty change is currently in progress.,1
 20434,CONFIRM_XP_LOSS_NO_DURABILITY,"If you find your corpse, you can resurrect for no penalty.  Otherwise you will be afflicted by %s of Resurrection Sickness.",1
 20435,CONFIRM_XP_LOSS_NO_SICKNESS_NO_DURABILITY,You can find your corpse and resurrect at that location. Players that are below level 10 can resurrect here with no penalty.,1
-20436,CONFIRM_XP_LOSS_AGAIN,"Remember, if you find your corpse there is no penalty.  Are you sure you want to take 50%% durability damage (equipped and inventory) and incur %s of Resurrection Sickness?",1
+20436,CONFIRM_XP_LOSS_AGAIN,"Remember, if you find your corpse there is no penalty.  Are you sure you want to take 25%% durability damage (equipped and inventory) and incur %s of Resurrection Sickness?",1
 20437,NEED_NEWBIE,You really want the item.,1
 20438,GREED_NEWBIE,"You'll take the item, but only if nobody else really wants it.",1
 20439,ROLL_DISENCHANT_NEWBIE,"You want to Greed the item, but you want it disenchanted if you win the roll.",1
@@ -15010,9 +15010,9 @@ You can find trainers for them in some settlements and cities.",1
 34464,QUEUE_NAME_TIME_LEFT,%s is Full\nPosition in queue: %d\nEstimated time: %d min,2
 34465,QUEUE_NAME_TIME_LEFT_SECONDS,%s is Full\nPosition in queue: %d\nEstimated time: < 1 minute,2
 34466,QUEUE_NAME_TIME_LEFT_UNKNOWN,%s is Full\nPosition in queue: %d\nEstimated time: Calculating...,2
-34467,QUEUE_TIME_LEFT,Realm is Full\nPosition in queue: %d\nEstimated time: %d min,2
-34468,QUEUE_TIME_LEFT_SECONDS,Realm is Full\nPosition in queue: %d\nEstimated time: < 1 minute,2
-34469,QUEUE_TIME_LEFT_UNKNOWN,Realm is Full\nPosition in queue: %d\nEstimated time: Calculating...,2
+34467,QUEUE_TIME_LEFT,World is Full\nPosition in queue: %d\nEstimated time: %d min,2
+34468,QUEUE_TIME_LEFT_SECONDS,World is Full\nPosition in queue: %d\nEstimated time: < 1 minute,2
+34469,QUEUE_TIME_LEFT_UNKNOWN,World is Full\nPosition in queue: %d\nEstimated time: Calculating...,2
 34470,RACE_CHANGE_IN_PROGRESS,Updating Race...,2
 34471,RACE_DISABLED_KIOSK_MODE,You must choose a different race.,2
 34472,RACE_INFO_BLOODELF,"Long ago the majestic high elves created the splendid golden city of Quel'Thalas, built around a magical fount of energy known as the Sunwell. When the Lich King destroyed their capital in the Third War, the survivors turned to the Horde for help.\n\nNow known as the blood elves, these refugees are all that remains of their glorious civilization. They strive to rebuild Quel'Thalas while struggling against a crippling addiction to the very magical energies that once built their empire.",3
@@ -20083,7 +20083,7 @@ You can find trainers for them in some settlements and cities.",1
 48669,GROUP_FINDER_PVE_MYTHICZERO_PLAYSTYLE3,Quick Clear,1
 48670,LFG_PLAYSTYLE_LABEL_PVE_RAID,Playstyle,1
 48671,LFG_PLAYSTYLE_LABEL_PVE_MYTHICZERO,Playstyle,1
-48673,CHAR_CREATE_NAME_RESERVATION_FULL,This realm is full and new character creation is disabled. Please try a different realm.,2
+48673,CHAR_CREATE_NAME_RESERVATION_FULL,This world is full and new character creation is disabled. Please try a different realm.,2
 48674,ESSENCE_TOOLTIP,Used by evokers to power certain abilities. One essence recharges at a time.,1
 48675,LEGACY_LOOT_RULES_NOT_IN_EFFECT,Legacy loot rules are no longer in effect.,1
 48676,ORDER_HALL_TALENT_SELECT,Click to Select,1
@@ -25483,7 +25483,7 @@ Items from the event have been removed.
 57874,VISITABLE_URL65,https://account.battle.net/privacy,3
 57875,DEATH_RECAP_DEADLY_SPELL,Deadly,1
 57876,DEATH_RECAP_AVOIDABLE_SPELL,Avoidable,1
-57877,CATALOG_SHOP_PERSONALIZE_OPT_OUT_TOOLTIP,"If you want to opt out of personalized recommendation, please go to BattleNet Account Settings > Privacy > Personalized Recommendation.",3
+57877,CATALOG_SHOP_PERSONALIZE_OPT_OUT_TOOLTIP,"If you want to opt out of personalized recommendation, please go to Battle.net Account Settings > Privacy > Personalized Recommendation.",3
 57878,HOUSING_CUSTOMIZE_DECOR_SELECTED_TOOLTIP,Currently Selected,1
 57879,COMPACT_UNIT_FRAME_PROFILE_HEALTH_BAR_COLOR,Health Bar Color,1
 57880,OPTION_TOOLTIP_COMPACT_UNIT_FRAME_PROFILE_HEALTH_BAR_COLOR,Defines the default health bar color applied to all raid frames when class colors are disabled.,1
@@ -26081,7 +26081,7 @@ Items from the event have been removed.
 58648,GAMEPAD_ACTION_BAR_INPUT_PROMPT_TOGGLE,Show Input Prompts,1
 58649,OPTIONS_TOOLTIP_GAMEPAD_ACTION_BAR_INPUT_PROMPT_TOGGLE,Displays input prompts on the active gamepad action bar's buttons.,1
 58650,MAP_USE_SOFT_CURSOR_LABEL,Use Soft Cursor,1
-58651,MAP_USE_SOFT_CURSOR_TOOLTIP,If the map should use a soft cursor that moves around or has a centered point that map moves around,1
+58651,MAP_USE_SOFT_CURSOR_TOOLTIP,Determines whether the map should use a soft cursor that moves around or has a centered point that map moves around.,1
 58652,LAYOUT_STYLE_GAMEPAD,Gamepad,1
 58653,HUD_EDIT_MODE_RAID_WARNING_LABEL,Raid Warnings,1
 58654,PET_FOOD_DELIMIT,", ",1
@@ -26097,7 +26097,7 @@ Items from the event have been removed.
 58673,VIDEO_OPTIONS_ADVANCEDLIGHT_LOW,Low number of samples used from environment lights.,3
 58674,VIDEO_OPTIONS_ADVANCEDLIGHT_MEDIUM,Moderate number of samples used from environment lights.,3
 58676,VIDEO_OPTIONS_ADVANCEDLIGHT_HIGH,High number of samples used from environment lights.,3
-58678,VIDEO_OPTIONS_ADVANCEDLIGHT_ULTRA,"Very high number of samples used from environment lights, point and spot lights are also included.",3
+58678,VIDEO_OPTIONS_ADVANCEDLIGHT_ULTRA,Very high number of samples used from environment lights.,3
 58679,CENSORED_LFG_CREATE_GROUP_DECLINE_EDIT,No,1
 58688,CENSORED_LFG_EDIT_UNCHANGED,Potentially inappropriate title and description have not been changed.,1
 58689,ENDEAVOR_XP_TOOLTIP_TITLE,House XP Available,1
@@ -26682,7 +26682,7 @@ Items from the event have been removed.
 59465,CHAR_CREATE_NEED_ENTITLEMENT,Ownership of a qualifying license is required,3
 59468,UNIT_SCENARIO_PROGRESS_PERCENT,%s: %d%%,1
 59469,UNIT_SCENARIO_PROGRESS_FRACTION,%s: %d/%d,1
-59470,HOUSING_DECOR_PREVIEW_TOOLTIP,<Ctrl click to preview>,1
+59470,HOUSING_DECOR_PREVIEW_TOOLTIP,<Ctrl-click to preview>,1
 59471,HOUSING_DYE_ITEM_COLOR_LIST_ENTRY,- %s,1
 59472,ERR_HOUSING_BLUEPRINT_CONTENT_ENTRY_INVALID,Item unavailable.,1
 59473,HOUSING_DECOR_CUSTOMIZATION_PET_NONE,No pet,1
@@ -26956,7 +26956,7 @@ Items from the event have been removed.
 59773,HOUSING_DECOR_CUSTOMIZATION_PET_APPEAR,Pets will appear upon exiting the House Editor.,1
 59774,HOUSING_BLUEPRINT_IMPORT_SUCCESS_WITH_BACKUP_MESSAGE,Blueprint import successful! A backup of your previous Layout has been added to your saved Blueprints temporarily.,1
 59775,ERR_HOUSING_RESULT_BLUEPRINT_ROOM_PLACEMENT_REQUIRED,You must select a valid door to attach the imported Room to.,1
-59776,COOLDOWN_VIEWER_SETTINGS_TAB_GROUP_AURAS_DISABLED_TOOLTIP,This feature is not available for your current specialization.,1
+59776,COOLDOWN_VIEWER_SETTINGS_TAB_GROUP_AURAS_DISABLED_TOOLTIP,This feature is for tracking helpful auras on your raid frames. You currently do not know any spells that can be tracked.,1
 59777,COOLDOWN_VIEWER_TOOLTIP_POTION_HEALTH_TITLE,Health Potion,1
 59778,COOLDOWN_VIEWER_TOOLTIP_POTION_HEALTH_DESCRIPTION,Displays the shared cooldown when a Healing potion is used.,1
 59779,COOLDOWN_VIEWER_TOOLTIP_POTION_COMBAT_TITLE,Combat Potion,1
@@ -27004,7 +27004,7 @@ Items from the event have been removed.
 59826,PARTY_PLAYER_SHARDED_INCOMPATIBLE_RULESET,You can only see this player inside instances because they are playing with a different ruleset.,1
 59827,DISCORD_GUILD_SETTING_CHANNEL_LIST_EMPTY,No valid channels to link. Make sure you have Manage Channels permission on the server.,1
 59828,NARRATION_VAS_AVAILABLE_COUNT,%d available,3
-59829,ERR_HOUSING_RESULT_MAX_STORAGE_DECOR_REACHED,Your Decor storage has reached the maximum number of decor allowed,1
+59829,ERR_HOUSING_RESULT_MAX_STORAGE_DECOR_REACHED,Your Decor storage has reached the maximum number of decor items allowed,1
 59830,CLASS_TALENT_SEARCH_OPTION_HIDE_PASSIVES,Hide Passives,1
 59831,CLASS_TALENT_SEARCH_OPTION_SHOW_RANKS,Show Ranks,1
 59832,SOCIAL_DISCORD_DISPLAY_NAME_OPTION_PREFERRED_PLAYER,Preferred Player,1
@@ -27162,10 +27162,10 @@ Items from the event have been removed.
 60024,LEGACY_REWARD_TRACK_POINTS,Legacy Points,1
 60029,LFG_LIST_TAB_3,Who List,1
 60030,FRAME_ACTION_NAVIGATE,Navigate,3
-60031,SPELL_FAILED_CUSTOM_ERROR_2710,"Nalorakk does not grant you passage, you must first earn their favor by progressing The Labyrinth of Kindo'jan Journey.",1
-60032,SPELL_FAILED_CUSTOM_ERROR_2713,"Akil'zon does not grant you passage, you must first earn their favor by progressing The Labyrinth of Kindo'jan Journey.",1
-60033,SPELL_FAILED_CUSTOM_ERROR_2712,"Jan'alai does not grant you passage, you must first earn their favor by progressing The Labyrinth of Kindo'jan Journey.",1
-60034,SPELL_FAILED_CUSTOM_ERROR_2711,"Halazzi does not grant you passage, you must first earn their favor by progressing The Labyrinth of Kindo'jan Journey.",1
+60031,SPELL_FAILED_CUSTOM_ERROR_2710,Nalorakk does not grant you passage. You must first earn their favor by progressing The Labyrinth of Kindo'jan Journey.,1
+60032,SPELL_FAILED_CUSTOM_ERROR_2713,Akil'zon does not grant you passage. You must first earn their favor by progressing The Labyrinth of Kindo'jan Journey.,1
+60033,SPELL_FAILED_CUSTOM_ERROR_2712,Jan'alai does not grant you passage. You must first earn their favor by progressing The Labyrinth of Kindo'jan Journey.,1
+60034,SPELL_FAILED_CUSTOM_ERROR_2711,Halazzi does not grant you passage. You must first earn their favor by progressing The Labyrinth of Kindo'jan Journey.,1
 60044,ROGUE_MELEE_ATTACK_POWER_TOOLTIP,Increases |cFFFFFFFFMelee Weapon|r damage per second by %s\n\nIncreased by |cFFFFFFFFStrength|r and |cFFFFFFFFAgility|r\n\n|cffBCBCBCEvery 14 Attack Power adds 1 damage per second|r,1
 60046,HUNTER_MELEE_ATTACK_POWER_TOOLTIP,Increases |cFFFFFFFFMelee Weapon|r damage per second by %s\n\nIncreased by |cFFFFFFFFStrength|r and |cFFFFFFFFAgility|r\n\n|cffBCBCBCEvery 14 Attack Power adds 1 damage per second|r,1
 60047,DRUID_MELEE_ATTACK_POWER_TOOLTIP,Increases |cFFFFFFFFMelee Weapon|r damage per second by %s\n\nIncreased by |cFFFFFFFFStrength|r\nIncreased by |cFFFFFFFFStrength|r and |cFFFFFFFFAgility|r in Cat Form\n\n|cffBCBCBCEvery 14 Attack Power adds 1 damage per second|r,1
@@ -27191,7 +27191,7 @@ Items from the event have been removed.
 60079,SHARD_TRANSFER_REFRESH_MESSAGE,World refresh in %s %s,1
 60080,SHARD_TRANSFER_ANYTIME,Refreshing your world at any time. Characters and creatures around you may change.,1
 60081,SPELL_FAILED_CUSTOM_ERROR_2714,You have not been deemed worthy to challenge Kindo'jan. All chambers must be completed.,1
-60082,SPELL_FAILED_CUSTOM_ERROR_2715,On or more party members have not been deemed worthy to challenge Kindo'jan. All chambers must be completed.,1
+60082,SPELL_FAILED_CUSTOM_ERROR_2715,One or more party members have not been deemed worthy to challenge Kindo'jan. All chambers must be completed.,1
 60089,AURA_CAST_BY,Cast by %s,1
 60090,ACCOUNT_BANK_PAGE_NUMBER,Account Bank Page %d,3
 60091,SWING_TIMER_LABEL,Swing Timer,1
@@ -27212,14 +27212,14 @@ Items from the event have been removed.
 60111,GAMEPAD_FOLLOW_CAMERA_PITCH_OFFSET,Follow Camera Pitch Offset,1
 60112,OPTION_TOOLTIP_GAMEPAD_FOLLOW_CAMERA_PITCH_OFFSET,Offset in degrees from character center that the follower camera will maintain.,1
 60113,GAMEPAD_TURN_WITH_CAMERA,Turn Player with Camera,1
-60114,GAMEPAD_BACK_PEDAL_THRESHOLD,Back Pedal Stick Threshold,1
+60114,GAMEPAD_BACK_PEDAL_THRESHOLD,Backpedal Stick Threshold,1
 60115,GAMEPAD_RUN_THRESHOLD,Stick Run Threshold,1
 60116,GAMEPAD_TURN_WITH_CAMERA_OPTION_ALWAYS,Player always turns with camera,1
 60117,GAMEPAD_TURN_WITH_CAMERA_OPTION_MOVING,Player turns with camera when moving,1
 60118,GAMEPAD_TURN_WITH_CAMERA_OPTION_MOVING_COMBAT,Player turns with camera when moving or in combat,1
 60119,GAMEPAD_TURN_WITH_CAMERA_OPTION_MOVING_COMBAT_CASTING,"Player turns with camera when moving, in combat or casting",1
 60120,OPTION_TOOLTIP_GAMEPAD_RUN_THRESHOLD,The stick magnitude must be greater than this value to run.,1
-60121,OPTION_TOOLTIP_GAMEPAD_BACK_PEDAL_THRESHOLD,The stick magnitude must be greater than or equal to this value to face the direction of movement rather than back pedaling. A value of 0 is disabled.,1
+60121,OPTION_TOOLTIP_GAMEPAD_BACK_PEDAL_THRESHOLD,The stick magnitude must be greater than or equal to this value to face the direction of movement rather than backpedaling. A value of 0 is disabled.,1
 60122,GAMEPAD_FACE_MOVEMENT_MOUNTED,Face Movement while Mounted,1
 60123,GAMEPAD_FACE_MOVEMENT_SWIMMING,Face Movement while Swimming,1
 60124,GAMEPAD_FACE_MOVEMENT_GLIDING,Face Movement while Gliding,1
@@ -27423,6 +27423,30 @@ Items from the event have been removed.
 60434,HUD_EDIT_MODE_GAMEPAD_MAIN_ACTION_BAR_LABEL,Gamepad Action Bar,1
 60435,NPEV2_SKIP_TUTORIAL_BUTTON,Skip Tutorial,1
 60436,NPEV2_SKIP_TUTORIAL_PROMPT,Played World of Warcraft before?,1
-60438,VOICE_CHAT_USE_DISCORD_SETTINGS,Use Your Discord Client Settings,1
+60438,VOICE_CHAT_USE_DISCORD_SETTINGS,Use Your Discord Settings,1
 60439,FRAME_ACTION_BATTLE_NET,Battle.net,1
 60440,OPTION_TOOLTIP_VOICE_CHAT_USE_DISCORD_SETTINGS,Uses settings from your Discord account to control volume and the push-to-talk keybinding. Disable this to control these settings in World of Warcraft.,1
+60441,NPEV2_RETURN_TO_CORPSE,Follow your corpse back to where you died to resurrect.,1
+60445,VISITABLE_URL69,https://support.blizzard.com/help/article/379634,3
+60446,TRADE_RMT_WARNING,"<html><body><p align=""CENTER"">Warning: Be wary of accepting gold from unknown or suspicious sources. If the provider is engaged in Real Money Transactions, you could put your account at risk of closure. Please see the following support article for more information:<br/><a href=""urlIndex:69"">https://support.blizzard.com/help/article/379634</a></p></body></html>",1
+60447,VOICE_CHAT_SERVICE_SWITCHING,Switching to voice chat service: %s,1
+60448,VOICE_CHAT_TTS_STT_ENABLED,Text-to-Speech and Speech-to-Text enabled,1
+60449,VOICE_CHAT_TTS_STT_DISABLED,Text-to-Speech and Speech-to-Text disabled,1
+60454,BAG_NAME_BAG_REAGENT,Reagent Bag,1
+60455,CONTEXT_ACTION_LABEL_COLLAPSE,Collapse,3
+60456,PET_LOYALTY_TEMPLATE,%s (Loyalty: %d),1
+60457,DESCRIPTION_OF_YOUR_GROUP_MANDATORY,More details about your group,1
+60458,BATTLETAG_DESCRIPTION,Send an invite by entering their BattleTag to chat with them in game and across all Blizzard titles. The recipient must accept the request to become friends.,3
+60459,BATTLETAG_LABEL,BattleTag,3
+60460,ENTER_CHARACTER_NAME_OR_BATTLETAG,Enter character name or BattleTag,3
+60461,ERR_REAL_ID_FRIEND_REQUESTS_DISABLED,Requests are only valid with BattleTag or character name.,3
+60462,TAKE_MONEY_FROM_STRANGER_WARNING,This character might be someone you don't know. |n|n Really take from %s the following amount?,1
+60464,FLOATING_COMBAT_TEXT_ON_ME_DROPDOWN_LABEL,Text on Me,3
+60465,INSPECT_TALENTS,View Talents,1
+60467,WORLD_MAP_FILTER_TITLE_SHOW_MAP,Show on Map:,1
+60468,WORLD_MAP_FILTER_TITLE_SHOW_QUEST_LOG,Show in Quest Log:,1
+60472,NPEV2_REPAIR_ALL_GEAR,|cFF00FFFFLeft Click|r an to repair all gear,1
+60473,NPEV2_OPENCHARACTER_TO_REPAIR,"To repair individual gear, press |cFF00FFFF%s|r to open your |cFF00FFFFcharacter pane|r",1
+60474,FLOATING_COMBAT_TEXT_ON_TARGET_DROPDOWN_LABEL,Text on Target,3
+60475,TEXT_ON_TARGET_ON_LABEL,On,3
+60476,TEXT_ON_TARGET_OFF_LABEL,Off,3
