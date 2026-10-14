@@ -33,6 +33,7 @@ ID,Name,Field_12_0_0_64499_001,Field_9_1_5_39977_001
 164,PetBattle - Unique Spells - Beast,0,344
 166,PetBattle (3.0) - Pad Effects,0,595
 168,PetBattle - Unique Spells - Flying,0,552
+171,PetBattle(2.0->3.0 Conversion),0,0
 173,PetBattle 5.2.0,0,420
 174,Vale of Eternal Blossoms - Lorewalker Story - S13: Ballad of Liu Lang - ZTO,0,190
 176,Vale of Eternal Blossoms - Lorewalker Story - S3: Hozen in the Mist - ZTO,0,151
@@ -1280,7 +1281,7 @@ ID,Name,Field_12_0_0_64499_001,Field_9_1_5_39977_001
 1831,7.2 Class Mount - Shaman - OHM - IGC,0,3072
 1832,7.2 Broken Shore: zto - Skyhorn Strafing Run (Low),0,52
 1833,7.2 Class Mounts - Hunter - Intro Camera Main,0,682
-1834,7.2 Class Mount - Warrior - OHM - IGC,0,3119
+1834,7.2 Class Mount - Warrior - OHM - IGC,1,3120
 1836,7.2 Scenario - Stormheim - Finale Scene - JSB,0,553
 1838,7.2 Class Mount - Monk - OHM - IGC ,0,1296
 1840,"7.2 Broken Shore - ""A Flare In The Dark"" - ZTO",0,29
@@ -3395,7 +3396,7 @@ ID,Name,Field_12_0_0_64499_001,Field_9_1_5_39977_001
 4780,11.2.7_[HPM]_HousePurchaseMoment_IGC,0,17
 4781,12.0 Z4 - Local 09 - Q03 - Ritual Circle Drawing 02 (HCR),0,166
 4782,12.0 Z4 - Local 09 - Q03 - Ritual Circle Drawing 03 (HCR),0,166
-4783,12.1.0_[PSU]_RTC_Priestess_Summons_Ula'tek_IGC,0,14
+4783,12.1.0_[PSU]_RTC_Priestess_Summons_Ula'tek_IGC,0,16
 4784,12.0 Z4 - WQ - Simple 14 - Wire Uncrossing Mini-Game - Pt 02 - Play Scene 02 (HCR),0,751
 4785,12.0 Z4 - WQ - Simple 14 - Wire Uncrossing Mini-Game - Pt 02 - Play Scene 03 (HCR),0,751
 4786,12.0.7 Test Race 5,0,807
@@ -3487,17 +3488,23 @@ ID,Name,Field_12_0_0_64499_001,Field_9_1_5_39977_001
 4897,12.1 Ulatek - WQ - Complex 03 - Race - Client Scene (HCR),0,808
 4898,11.1.7_LW_Xal_Legion_LAS_Plus_Delay,0,20
 4899,11.1.7_Cho_Ethereals_Intro_DELAY_AS_LAS,0,25
+4900,12.1.5 Kithix Campaign - RTC [TMP] PLACEHOLDER SCENE - The Amani Impasse - Scrolling Text (v3),0,7
 4901,11.1.7__LOREWALKING_ARTHAS_START_NJS_DELAYED,0,5
 4903,11.1.7___LOREWALKING_ARTHAS_START_DELAYEDTWO,0,7
 4904,11.1.7_Cho_Lorewalking_ElvesIntro_AS_DELAYED,0,57
 4905,12.1 Ulatek - World Quest - Complex 03 - Course Boundary Scene 01 (HCR),0,1
 4906,12.1 Ulatek - World Quest - Complex 03 - Course Boundary Scene 01 - Test (HCR),0,1
+4909,12.1.5_Kithix_Scenario_Finale_STM,0,6
 4913,12.1.0_Ulatek_Witherbark_Bluffs_DGK_RRN,0,10
+4915,12.1.5 - Kithix Campaign - Ch 0 - First Aqir - Combatants - (STM),0,2585
+4916,12.1.5 - Kithix Campaign - Ch 0 - Second Aqir - Combatants - (STM) ,0,2586
+4917,12.1.5 - Kithix Campaign - Crowd Outside of House - (STM),0,2583
 4918,12.1.0_Arator_Campaign_RDD_RMV,0,7
 4919,12.1.0_Arator_Campaign_PNS_RMV,0,8
 4920,12.1.0_Arator_Campaign_PAQ_RMV,0,4
 4922,Missile_Suite,0,1
 4925,Housing - Endeavor - Kobolds - Wire Uncrossing/Circuit Minigame - Candle Wick Untangling (REM) 12.1,0,1
+4926,12.1.5 - Kithix Campaign - Scarab Pile On - (STM),0,2583
 4930,Game Mode - Template - Character Control - Camera Test (OJF),0,1
 4931,TestScene_Vista,0,2
 4933,12.0.7_Harandar_TheDen_ZuljanERP_JKP,0,14
@@ -3514,18 +3521,34 @@ ID,Name,Field_12_0_0_64499_001,Field_9_1_5_39977_001
 4954,12.0.7_VoidEscalation_Val_Outpost_PertinaxDefeat_(JKP),0,12
 4955,12.0.7_RTC_[TOA]_TheOmniumActivates_IGC,0,26
 4959,12.0.7_Naigtal_Outpost_Leth'ir_Defeat_(JKP),0,11
+4960,12.1.5 Kithix Campaign - Client Scene - Aqir Swarm (AOC),0,1
 4961,12.1.0_Atalutek_Ulatek_LZZ_AS,0,16
+4963,12.1.5_Smooth_Phase_Test_STM,0,2
 4965,12.0.7 Showdowns - Naigtal - Ethereal/Lightforge Console - Cross Wire Game - Vertical (JBO),0,751
 4972,12.0.7 Zul'jan - Q13 - Play Cutscene EKK ZAK - Atal'Aman - Warlord's Stair - Placeholder Text (IGC),0,11
 4973,12.1. Delves - Ulatek02 - Crowd Timeline Scene (DTM),0,3
 4975,12.1.0_Ulatek02__Crowd_DTM,0,3
 4980,12.0.7_[TOA]_SmoothPhaseActors_IGC,0,9
 4981,12.0.7 Showdowns - Naigtal - Ethereal/Lightforge Console - Cross Wire Game 1,0,1
+4988,12.1.5_[KRF]_ARTC_Kith'ix_Raid_Finale_IGC ,0,9
+4994,12.1.5_Silvermoon_Harbor_XAK_AS,0,24
 4995,12.0.7 - General Teleport - Hide UI Scene - 3 Seconds - PRK,0,3
+4998,12.1.5 IGC [OAU] Orweyna and Ula'tek - What The World Sees - Placeholder Scrolling Text IGC (AS),0,10
+4999,12.1.5_Silvermoon_City_Gardens_of_Remembrance_WYG_AS,0,16
 5024,12.1.0_Arcantina__ChenandFlynn_DRM,0,16
 5026,12.1 Ulatek - Local 10 - Living Legend - 01 Play Scene: Follow the Trail 01 (AS),0,23
-5046,12.1.0_TLS_[FTA]_Fly_To_Atal'Utek_IGC,0,2
+5046,12.1.0_TLS_[FTA]_Fly_To_Atal'Utek_IGC,0,4
 5047,Test_Platform_Break,0,1
+5061,12.1.5_Silvermoon_The_Bazaar_LZC_AS,0,17
 5062,12.1.0_Arcantina__GaronaandVanessa_DRM,0,6
 5064,12.1.0_ARTC_[STB]_Zul'jan_Stabs_Zul'jarra_IGC,0,1
+5065,12.1.5_TLS_[FCS]_Faithful_Crowd_Scene_IGC,0,15
 5076,12.1.0_ARTC_[STB]_ZuljanHider_IGC,0,1
+5123,12.1.5_TLS_[ASU]_Aqir_Swarm_in_the_Temple_of_Ula'tek_WEST_IGC,0,1
+5124,12.1.5_TLS_[ASU]_Aqir_Swarm_in_the_Temple_of_Ula'tek_EAST_IGC,0,1
+5125,12.1.5_TLS_[ASU]_Aqir_Swarm_in_the_Temple_of_Ula'tek_NORTH_IGC,0,1
+5126,12.1.5_TLS_[ASU]_Aqir_Swarm_in_the_Temple_of_Ula'tek_CENTER_IGC,0,1
+5128,12.1.5_[TAI]_TLS_The_Amani_Impasse_IGC,0,4
+5129,12.1.5 [ASU] Aqir Swarm in the Temple of Ula'tek - Scripted - CENTER - IGC,0,109
+5132,12.1.5_KithixCampaign_Guards_Recover_STM,0,1
+5160,12.1.5_CoiledIsle_Underbelly_LAZ_AOC,0,3
