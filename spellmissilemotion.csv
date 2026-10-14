@@ -1,0 +1,545 @@
+ID,Name,ScriptBody,Flags,MissileCount
+13,Parabola,"local angle = 0
+local maxMagnitude = startDistance * .15
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude",0,1
+38,Forward Spin + Parabola,"local angle = 0
+local maxMagnitude = startDistance * .15
+local spinRate = 360
+
+modelPitch = time * spinRate
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude",0,1
+101,Roll (Clockwise),"local spinRate = 720
+
+modelRoll = time * spinRate",0,1
+341,Forward Spin + Parabola (High),"local angle = 0
+local maxMagnitude = startDistance * .30
+local spinRate = 360
+
+modelPitch = time * spinRate
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude",0,1
+2204,Isle of Conquest - Glaive,"local spinRate = 1080
+
+modelYaw = time * spinRate",0,1
+4508,Meteor Strike,"local function parabola(a,b,m) return (4*m*((1-progress)*a)*((progress)*b)) end
+
+local height = 7
+
+transUp = parabola(1,1,height)",0,0
+4519,Dragondog Missile,"local angle = 0
+local maxMagnitude = startDistance * .40
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+modelRoll = progress * 6000",0,0
+4521,Razorgore Missile,"local angle = 0
+local maxMagnitude = startDistance * .20
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+modelRoll = progress * 6000",0,0
+4525,S02: AQ40 - Bonus Difficulty - Player Buff - Missile,"local angle = 0
+local maxMagnitude = startDistance * .40
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+modelRoll = progress * 1",0,0
+4588,S03 - BFD Raid - Boss 1 - Baron Aquanis - Periodic Water Missile 02,"local angle = 0
+local maxMagnitude = startDistance * .1
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+modelRoll = progress * 1",0,0
+4595,Spiral Vortex,"local startAngle = 0
+local degreesPerSec = 180
+local maxMagnitude = 3
+local maxKickBack = 10
+
+transAngle = startAngle + ((missileIndex / missileCount) * 360) + (time * degreesPerSec)
+transMag = 1 - progress
+transMag = (transMag * transMag * 2) - 1
+transMag = (1 - (transMag * transMag))
+transFront = transMag * -maxKickBack
+transMag = transMag * maxMagnitude
+",0,0
+4596,S03 - BFD Raid - Baron Aquanis - Bubble Beam - Drunken Missiles,"local maxMagnitude = 1
+local minSpeedScalar = 1
+local maxSpeedScalar = 1.0
+
+local magnitude = .5
+magnitude = 1 - (magnitude * magnitude * magnitude * magnitude)
+
+transRight = (sin((rand1 * 500) + (time * 500)) + cos((rand2 * 500) + (time * 100))) * magnitude
+transUp = (sin((rand2 * 500) + (time * 350)) + cos((rand1 * 500) + (time * 150))) * magnitude
+speedScalar = minSpeedScalar + ((maxSpeedScalar - minSpeedScalar) * 1)
+",0,0
+4603,S03 - BFD Raid - Ghamoo-ra - Aqua Shell - Missile,"local angle = 0
+local maxMagnitude = startDistance * .40
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+modelRoll = progress * 1",0,0
+4608,S03 - BFD Raid - Lady Sarevess - Freezing Arrow - Missile,"local angle = 0
+local maxMagnitude = startDistance * .20
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+modelRoll = progress * 6000",0,0
+4623,S03 - BFD Raid - Gelihast - Shadow Crash - 2. Missile,"local angle = 0
+local maxMagnitude = startDistance * .20
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+modelRoll = progress * 2000",0,0
+4659,Accelerated Missile,speedScalar = 0.2 + 2 * progress,0,1
+4699,Shuriken Forward Spin,"local modelRoll = 0
+local modelPitch = 90
+
+modelRoll = (time * 800) * -1",0,1
+4700,Poisoned Knife Spin,"local modelRoll = 0
+
+modelRoll = time * 1000",0,1
+4704,Spellfrost Bolt spin,"local modelRoll = 0
+
+
+modelRoll = time * 200",0,1
+4705,Spellfrost Bolt bottom spin,"local modelRoll = 0
+local modelPitch = 180
+local modelYaw = 180
+
+
+modelRoll = (time * 200)",0,1
+4708,High Arc Parabola,"local angle = 0
+local maxMagnitude = startDistance * .30
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude",0,1
+4709,Incinerate v2,"local waveHeight = 1.2
+local wavesPerSec = 1.6
+
+
+
+transRight = waveHeight * (1-progress) * sin(time * wavesPerSec * 360)
+
+if rand2>0.5 then transRight = -1*transRight end
+
+scale = 0.3 + (progress)
+
+--speedAbs = rand1*10-5
+local randomSpeedAmount = 0.25
+out_speedScale = (1 - randomSpeedAmount) + (rand1 * randomSpeedAmount)",0,0
+4710,S03 - GNO Raid - Crowd Pummeler - Gnomeregan Smash - Bleacher Missile,"local angle = 0
+local maxMagnitude = startDistance * .15
+local spinRate = 1080
+
+modelPitch = time * spinRate
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude",0,1
+4712,S03 - GNO Raid - Thermaplugg - Sprocketfire Punch - Missile,"local angle = 0
+local maxMagnitude = startDistance * .40
+
+transAngle = -angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+modelRoll = progress * 1",0,0
+4713,Poisoned Knife Forward Spin,"local modelPitch = 0
+
+modelPitch = time * 1000",0,1
+4715,Tim's Test Spin,"local modelPitch = 0
+local modelYaw = 0
+local modelRoll = 0
+
+--modelPitch = time * 100
+--modelYaw = time * 100
+modelRoll = time * 1000",0,0
+4722,S03 - GNO Raid - Crowd Pummeler - Gear Toss - 0. Missile,"local modelPitch = 0
+local modelYaw = 0
+local modelRoll = 90
+local angle = 0
+local maxMagnitude = startDistance * .40
+
+--transAngle = angle
+--transMag = (progress * 2) - 1
+--transMag = (1 - (transMag * transMag)) * maxMagnitude
+modelPitch = progress * 1000",0,0
+4730,Drunken Fountain (3 Missiles),"local angle = 0
+local maxMagnitude = startDistance * .5
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+
+transFront = -distanceToFirePos * (1 - progress)
+
+local magnitude = transMag * .15
+
+transRight = (sin((rand1 * 1000) + (time * 400)) + cos((rand3 * 1000) + (time * 60))) * magnitude
+transUp = (sin((rand2 * 1000) + (time * 300)) + cos((rand1 * 1000) + (time * 100))) * magnitude
+transFront = transFront +
+	(sin((rand3 * 1000) + (time * 300)) + cos((rand2 * 1000) + (time * 100))) * magnitude
+",0,3
+4734,Drunken Fountain (1 Missiles),"local angle = 0
+local maxMagnitude = startDistance * .5
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+
+transFront = -distanceToFirePos * (1 - progress)
+
+local magnitude = transMag * .15
+
+transRight = (sin((rand1 * 1000) + (time * 400)) + cos((rand3 * 1000) + (time * 60))) * magnitude
+transUp = (sin((rand2 * 1000) + (time * 300)) + cos((rand1 * 1000) + (time * 100))) * magnitude
+transFront = transFront +
+	(sin((rand3 * 1000) + (time * 300)) + cos((rand2 * 1000) + (time * 100))) * magnitude
+",0,1
+4735,"Drunken Fountain (1 Missiles, Higher)","local angle = 0
+local maxMagnitude = startDistance * 1
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+
+transFront = -distanceToFirePos * (1 - progress)
+
+local magnitude = transMag * .15
+
+transRight = (sin((rand1 * 1000) + (time * 400)) + cos((rand3 * 1000) + (time * 60))) * magnitude
+transUp = (sin((rand2 * 1000) + (time * 300)) + cos((rand1 * 1000) + (time * 100))) * magnitude
+transFront = transFront +
+	(sin((rand3 * 1000) + (time * 300)) + cos((rand2 * 1000) + (time * 100))) * magnitude
+",0,1
+4736,Meteor Strike (30 Yards) Falls Straight Down,"local magnitude = 30
+
+transUp = magnitude * ( 1 - progress )
+transFront = distanceToImpactPos",0,0
+4737,Meteor Strike (20 Yards) Falls Straight Down,"local magnitude = 20
+
+transUp = magnitude * ( 1 - progress )
+transFront = distanceToImpactPos",0,0
+4740,Spin (Roll) - 1080 (Unstable Cask),"--[[
+speed = 50
+launchDelay = .15
+
+travelTime = totalDistance / speed
+totalTime = launchDelay + travelTime
+actualProgress = (launchProgress*launchDelay + progress*travelTime) / (totalTime)
+
+transFrontExpected =  totalDistance * actualProgress 
+transFrontTravelled = totalDistance * progress
+transFront = transFrontExpected - transFrontTravelled
+--]]
+
+transRight = -(sin(progress*180))*math.pow(startDistance,.3)
+
+modelYaw  = 60",0,0
+4752,BaleFire Bolt Animation correction,"local modelRoll = 90
+local modelPitch = 0
+
+modelPitch = (time * 200)",0,0
+4799,S03 - DFC Dungeon - Grimroot - Corrupted Tears - 2. Missile,"local angle = 0
+local maxMagnitude = startDistance * .20
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+modelRoll = progress * 2000",0,0
+4832,S03 - Shadowflame Missile Orientation,"local modelPitch = 0
+local modelYaw = 0
+local modelRoll = 0
+
+ modelPitch = 90
+ modelYaw = 90
+ modelRoll = 90",0,0
+4847,S03 - Forward Spin + Parabola (High) Torch,"local angle = 0
+local maxMagnitude = startDistance * .30
+local spinRate = 360
+
+modelRoll = 275
+transUp = 0.1
+
+modelPitch = time * spinRate + 90
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude",0,1
+4855,Parabola (Very High),"local angle = 0
+local maxMagnitude = startDistance * 60
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+",0,0
+4860,S03 - Enchanted Flare,"local angle = 0
+local maxMagnitude = startDistance * .15
+
+transAngle = angle
+transMag = ((progress * 2) - 1)
+transMag = ((1 - (transMag * transMag)) * maxMagnitude)",0,1
+4863,S03 - Karazhan Crypts - Creeping Malison - Cursed Webbing - Missile,"local angle = 0
+local maxMagnitude = startDistance * .20
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+modelPitch = progress * 1000
+modelRoll = 90
+modelYaw = 90",0,0
+4872,S03 - New Avalon - Scarlet Trainees - Shoot Arrow,"local angle = 0
+local maxMagnitude = startDistance * .15
+
+faceImpactPos = 1
+modelPitch = 270
+--modelYaw = 270
+--modelRoll = 270
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+
+-- I really need to fix this",0,1
+4874,S03 - Scarlet Enclave - Boss - Beatrix - Scarlet Artillery - Explosive Shell - 2. Missile,"local angle = 0
+local maxMagnitude = startDistance * .01
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+modelPitch = progress * 1000",0,0
+4881,Forward Spin,"local spinRate = 720
+
+modelPitch = time * spinRate",0,1
+4897,Coin Toss,"local angle = 0
+local maxMagnitude = startDistance * .60
+local spinRate = 1080
+
+modelPitch = time * spinRate
+--transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude",0,1
+4900,S03 - Scarlet Enclave - Beatrix - Post Encounter - Bomb - 3. Missile,"local angle = 0
+local maxMagnitude = startDistance * .2
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+modelRoll = progress * 200",0,0
+4907,Start slightly lower,"local down=-0.5
+
+transUp=down",0,0
+4908,Lower Start High Arc Parabola,"local angle = 0
+local maxMagnitude = startDistance * .30
+local down=-0.5
+
+transUp=down
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude",0,1
+4983,Glaive Spin,"local modelRoll = 0
+local modelPitch = 0
+
+modelRoll = (time * 800) * -1",0,1
+5063,NPC - Glaive (No Parabola),"local spinRate = 1080
+
+modelYaw = time * spinRate
+",0,0
+5065,1.60 Raid - Hyjal Summit - MultiShot,"local maxSpread = 6
+if missileIndex ~= 1 then
+	transAngle = 90 * math.pow(-1, missileIndex)
+	transMag = progress * rand2 * maxSpread
+end
+progress = math.pow(progress, 1.25)
+
+transFront = (progress * startDistance) - distanceToFirePos",0,0
+5069,1.60 - Hyjal Raid - Time-Lost Battalion - Faerie Dragon - Prismatic Aegis - 4a. Missile,"local angle = 0
+local maxMagnitude = startDistance * .2
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+modelRoll = progress * 200",0,0
+5080,Boomerang,"local angle = 90
+local maxMagnitude = startDistance * .2
+local spinRate = 720
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+modelYaw = time * spinRate",0,1
+5082,RockSkip,"local angle = 0
+local maxMagnitude = startDistance * -.05
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude",0,1
+5084,Tim's Test Missile,"out_speedScale = .4 + 7 * progress * progress
+local angle = 90
+local maxMagnitude = startDistance * .2
+local yawSpin = 1080
+
+transAngle = angle
+--transMag = (progress * 2) - 1
+--transMag = (1 - (transMag * transMag)) * maxMagnitude
+--modelYaw = time * yawSpin
+--modelRoll = progress * 90
+modelRoll = time * 500",0,1
+5091,Nether Tempest,"local angle = 0
+local maxMagnitude = startDistance * 2
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+
+transFront = -distanceToFirePos * (1 - progress)
+
+local magnitude = transMag * .15
+
+transRight = (sin((rand1 * 1000) + (time * 400)) + cos((rand3 * 1000) + (time * 60))) * magnitude
+transUp = (sin((rand2 * 1000) + (time * 300)) + cos((rand1 * 1000) + (time * 100))) * magnitude
+transFront = transFront +
+	(sin((rand3 * 1000) + (time * 300)) + cos((rand2 * 1000) + (time * 100))) * magnitude
+
+speedScalar = 1 - (progress * .5)",0,0
+5135,Forward Spin (90 Degree adjustment),"local spinRate = 720
+
+modelPitch = time * spinRate
+
+modelRoll = 90",0,1
+5137,Tim's Test Spin 2,"local modelPitch = 90
+local modelYaw = 0
+local modelRoll = 0
+
+modelPitch = time * 100
+modelYaw = time * 100
+modelRoll = time * 100
+
+out_speedScale = 0.1 + 35 * progress * progress
+transUp  = (1.4 - 2 * rand1) * (1 - progress)",0,1
+5139,1.60 Raid - Barrow Deeps - Crystal Giant - Amethyst Expulsion -  2. Missile Visual,"local modelPitch = 90
+local modelYaw = 0
+local modelRoll = 0
+
+modelPitch = time * 100
+modelYaw = time * 100
+modelRoll = time * 100
+
+out_speedScale = 0.1 + 35 * progress * progress
+--transUp  = (1.4 - 2 * rand1) * (1 - progress)",0,1
+5146,1.60.0 Darnassus - Place Huntress Owls - GJC,"local revolutions = 360*3
+local radius = 2
+local rotationtime = 18  -- amount of time you spend after the ""sweep in"" phase
+
+local sweepIn 
+local sweepCenter
+if (time>1.2) then
+	sweepIn = 0
+	--sweepCenter = 1
+else 
+	sweepIn = -math.pow(1.2-time,2)*startDistance
+	--sweepCenter = sin(time*110)
+end	
+
+transUp = 5
+transFront = (startDistance-(startDistance*progress))+sin(time*revolutions/rotationtime)*radius+sweepIn
+transRight = -cos(time/rotationtime*revolutions)*radius--*sweepCenter
+
+modelRoll = -30
+
+",0,0
+5159,Roll (90),"
+	modelRoll = 90",0,0
+5161,1.60 Raid - Barrow Deeps - Crystal Giant - Amethyst Cleave - Missile,"local angle = 0
+local maxMagnitude = startDistance * .4
+
+transAngle = -angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+modelRoll = progress * 2
+modelPitch = progress * 1000",0,0
+5162,Barrow Deeps - Crystal Giant - Phase Transition - Missile Visual,"local modelPitch = 90
+local modelYaw = 0
+local modelRoll = 0
+
+modelPitch = time * 100
+modelYaw = time * 100
+modelRoll = time * 100
+
+out_speedScale = 0.1 + 35 * progress * progress
+transUp  = (1.4 - 2 * rand1) * (1 - progress)",0,1
+5163,Yaw (180),"
+	modelYaw = 180
+	transFront = 0.5",0,0
+5164,Roll (90) Yaw (90) Spin,"
+	
+	local spinRate = -720
+	
+	modelPitch = time * spinRate
+	modelRoll = 90
+	modelYaw = 90
+",0,0
+5170,Up Then Towards,"	local angle        = math.rad(90) -- 90 degrees = straight up (transverse offset)
+	local upDuration    = 2.0  -- seconds spent climbing before leveling off
+	local minRise       = 6    -- floor: keeps short-range spells from having a barely-there climb
+	local maxRise       = 12   -- ceiling: caps how high long-range spells are allowed to climb
+	local riseHeight    = math.min(math.max(startDistance * 0.4, minRise), maxRise)
+	local holdFrac      = 0.6  -- fraction of upDuration spent rising; remainder is held at peak
+	local spinRate      = 0
+
+	local finalHeight   = 0    -- 0 = fully descends to ground level at the target
+	local descendStart  = 0.85 -- once travel is this % complete, begin the straight-down drop
+
+	local riseEnd = upDuration * holdFrac
+
+	if time < riseEnd then
+		-- Phase 1: climb straight up
+		local riseProgress = time / math.max(riseEnd, 0.0001)
+		local eased = riseProgress * riseProgress * (3 - 2 * riseProgress)
+		transAngle = angle
+		transMag = riseHeight * eased
+
+	elseif progress < descendStart then
+		-- Phase 2: travel to the target at a steady height (no fading yet)
+		transAngle = angle
+		transMag = riseHeight
+
+	else
+		-- Phase 3: arrived � drop straight down onto the target
+		local descendProgress = (progress - descendStart) / (1 - descendStart)
+		descendProgress = math.min(math.max(descendProgress, 0), 1)
+		local eased = descendProgress * descendProgress * (3 - 2 * descendProgress)
+		transAngle = angle
+		transMag = riseHeight * (1 - eased) + finalHeight * eased
+	end
+
+	modelYaw = time * spinRate
+	",0,0
+5177,Emerald Stasis,"local angle = 0
+local maxMagnitude = startDistance * 1
+
+transAngle = angle
+transMag = (progress * 2) - 1
+transMag = (1 - (transMag * transMag)) * maxMagnitude
+
+transFront = -distanceToFirePos * (1 - progress)
+
+local magnitude = transMag * .25
+
+transRight = (sin((rand1 * 1000) + (time * 400)) + cos((rand3 * 1000) + (time * 60))) * magnitude
+transUp = (sin((rand2 * 1000) + (time * 300)) + cos((rand1 * 1000) + (time * 100))) * magnitude
+transFront = transFront +
+	(sin((rand3 * 1000) + (time * 300)) + cos((rand2 * 1000) + (time * 100))) * magnitude
+
+speedScalar = 1 - (progress * .5)",0,0
