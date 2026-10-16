@@ -5582,7 +5582,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 169198,,169197,1,0,70631,0,0
 169199,Rune Learned - Shared Acquisition - Wild Gods (50),0,0,4,0,0,0
 169200,,169199,1,0,70632,0,0
-169201,Rune Learned - Shared Acquisition - Ley Lines (50),0,0,4,0,0,0
+169201,Rune Learned - Shared Acquisition - Leylines (50),0,0,4,0,0,0
 169202,,169201,1,0,70633,0,0
 169203,Get Shadow Flame Breath Debuff for Warrior Epic Quest,0,0,4,0,0,4096
 169204,,169203,1,0,70635,0,0
@@ -5629,7 +5629,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 216881,,216878,1,0,109152,2,0
 218074,1.60.0 - Hyjal - Survivor Village to Summit of Eternity - Quest Completion (JLH),0,0,4,0,0,4096
 218075,,218074,1,0,109521,0,0
-218373,Read Ley Line,0,0,4,0,0,4096
+218373,Read Leyline,0,0,4,0,0,4096
 218374,,218373,1,0,109629,0,0
 219228,Level 25 Warrior (unused),0,0,4,0,0,4096
 219229,,219228,25,0,110127,0,0
@@ -5658,7 +5658,7 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 220774,,220773,1,0,111093,0,0
 221086,Use Skysight,0,0,4,0,0,4096
 221087,,221086,1,0,111298,0,0
-221092,Read Ley Line,0,0,4,0,0,4096
+221092,Read Leyline,0,0,4,0,0,4096
 221093,,221092,1,0,111302,0,0
 221135,Used Halaan's Skysight,0,0,4,0,0,4096
 221136,,221135,1,0,111328,0,0
@@ -5847,12 +5847,12 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 225126,,225125,0,0,113594,0,0
 225132,1.60.0 - Camp Training - Raise Tailoring to 20+ (A),0,0,4,0,0,4096
 225133,,225132,1,0,113598,0,0
-225134,Gain Boosted Rest,0,0,4,0,0,4096
+225134,Gain Boosted Rest,0,1,8,0,0,4096
 225135,Gain Boosted Rest Debuff,225134,1,0,113599,0,0
 225212,Use sit in Camp Tutorial Area Trigger,0,1,8,0,0,4096
 225213,,225212,1,0,116671,0,0
 225214,,225212,1,0,113624,1,0
-225215,Gain Boosted Rest,0,0,4,0,0,4096
+225215,Gain Boosted Rest,0,1,8,0,0,4096
 225216,Gain Boosted Rest Debuff,225215,1,0,113625,0,0
 225217,Raise Tailoring to Journeyman,0,0,4,0,0,4096
 225218,,225217,1,0,113626,0,0
@@ -5877,27 +5877,27 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 227678,Use sit in Camp Tutorial Area Trigger,0,1,8,0,0,4096
 227679,,227678,1,0,116666,0,0
 227680,,227678,1,0,114065,1,0
-227681,Gain Boosted Rest,0,0,4,0,0,4096
+227681,Gain Boosted Rest,0,1,8,0,0,4096
 227682,Gain Boosted Rest Debuff,227681,1,0,114066,0,0
 227683,Use sit in Camp Tutorial Area Trigger,0,1,8,0,0,4096
 227684,,227683,1,0,116668,0,0
 227685,,227683,1,0,114071,1,0
-227686,Gain Boosted Rest,0,0,4,0,0,4096
+227686,Gain Boosted Rest,0,1,8,0,0,4096
 227687,Gain Boosted Rest Debuff,227686,1,0,114072,0,0
 227688,Use sit in Camp Tutorial Area Trigger,0,1,8,0,0,4096
 227689,,227688,1,0,116669,0,0
 227690,,227688,1,0,114077,1,0
-227691,Gain Boosted Rest,0,0,4,0,0,4096
+227691,Gain Boosted Rest,0,1,8,0,0,4096
 227692,Gain Boosted Rest Debuff,227691,1,0,114078,0,0
 227693,Use sit in Camp Tutorial Area Trigger,0,1,8,0,0,4096
 227694,,227693,1,0,116670,0,0
 227695,,227693,1,0,114083,1,0
-227696,Gain Boosted Rest,0,0,4,0,0,4096
+227696,Gain Boosted Rest,0,1,8,0,0,4096
 227697,Gain Boosted Rest Debuff,227696,1,0,114084,0,0
 227698,Use sit in Camp Tutorial Area Trigger,0,1,8,0,0,4096
 227699,,227698,1,0,116661,0,0
 227700,,227698,1,0,113621,1,0
-227701,Gain Boosted Rest,0,0,4,0,0,4096
+227701,Gain Boosted Rest,0,1,8,0,0,4096
 227702,Gain Boosted Rest Debuff,227701,1,0,114090,0,0
 227798,1.60.0 - Camp Training - Raise Alchemy to 20+,0,0,4,0,0,4096
 227799,,227798,1,0,114177,0,0
@@ -6741,3 +6741,32 @@ ID,Description_lang,Parent,Amount,Operator,CriteriaID,OrderIndex,Flags
 236026,,236023,1,0,118366,2,2
 236079,Played in Beta,0,0,4,0,0,0
 236080,Played in the World of Warcraft: Forever Beta,236079,1,0,118798,0,0
+236282,,227701,1,0,118960,1,0
+236283,,227681,1,0,118961,1,0
+236284,,225134,1,0,118962,1,0
+236285,,227686,1,0,118963,1,0
+236286,,227691,1,0,118965,1,0
+236287,,227696,1,0,118967,1,0
+236288,,225215,1,0,118969,1,0
+236482,Arathi Basin bases assaulted,0,0,4,0,0,0
+236483,Arathi Basin bases assaulted,236482,0,0,119100,0,0
+236484,Arathi Basin bases defended,0,0,4,0,0,0
+236485,Arathi Basin bases defended,236484,0,0,119101,0,0
+236486,Darkspear Islands bases assaulted,0,0,4,0,0,0
+236487,Darkspear Islands bases assaulted,236486,0,0,119102,0,0
+236488,Darkspear Islands bases defended,0,0,4,0,0,0
+236489,Darkspear Islands bases defended,236488,0,0,119103,0,0
+236490,Darkspear Islands flags captured,0,0,4,0,0,0
+236491,Darkspear Islands flags captured,236490,0,0,119104,0,0
+236501,1.60.1 - Paying Back the Pact,0,10,5,0,0,4096
+236502,1.60.1 - Remove Blackthorne's Ward x10,236501,1,0,119111,0,0
+236503,1.60.0 - Southern Peaks Complete,0,0,4,0,0,4096
+236504,,236503,1,0,119112,0,0
+236505,1.60.1 - Undergrove Complete,0,0,4,0,0,4096
+236506,,236505,1,0,119113,0,0
+236507,1.60.1 - Verdant Labyrinth Explored,0,0,4,0,0,4096
+236508,,236507,1,0,119114,0,0
+236509,1.60.1 - Explore the Rootspire,0,0,4,0,0,4096
+236510,,236509,1,0,119115,0,0
+236511,1.60.1 - Wild King Defeated,0,0,4,0,0,4096
+236512,,236511,1,0,119116,0,0

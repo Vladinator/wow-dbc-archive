@@ -153,6 +153,7 @@ ID,BaseTag,TagText_lang,Flags
 9770,INVENTORY_FULL,Inventory is full.,1
 9771,ITEM_WRONG_CLASS,That item can't be used by players of your class!,1
 9772,LEVEL_TOO_LOW,You must reach level %d to equip this item.,1
+9773,LEVEL_UP_CHAR_POINTS,You have gained %d talent point.,1
 9775,LEVEL_UP_SKILL_POINTS,You now have %d free |4profession:professions;.,1
 9777,LOCKED_WITH_ITEM,Requires %s,1
 9778,LOCKED_WITH_SPELL,Requires %s,1
@@ -14357,7 +14358,7 @@ You can find trainers for them in some settlements and cities.",1
 33804,ACCOUNT_REACTIVATE_OPTION_UNAVAILABLE,This game time option is not available at this time.,2
 33805,ACCOUNT_REACTIVATE_SUBSCRIPTION,Reactivate Subscription,2
 33806,ACCOUNT_REACTIVATE_SUCCESS,Account Reactivated!,2
-33807,ACCOUNT_REACTIVATE_TEXT,You must have an active subscription to play characters above level 20.\n\nCheck your other realms to see if you have a Game Time token available.\n\nWould you like to reactivate now and continue where you left off?,2
+33807,ACCOUNT_REACTIVATE_TEXT,You must have an active subscription to play characters above level 10. \n\nWould you like to reactivate now and continue where you left off?,2
 33808,ACCOUNT_REACTIVATE_TOKEN_ACCEPT,Use WoW Token,2
 33809,ACCOUNT_REACTIVATE_TOKEN_DESC,You have an unused WoW Token. You can use it now to add 30 days of game time.,2
 33811,ACCOUNT_REACTIVATE_TOKEN_TITLE,Reactivate Now with WoW Token,2
@@ -14522,7 +14523,7 @@ You can find trainers for them in some settlements and cities.",1
 33970,CHARACTER_UPGRADE_WOD_TOKEN_TITLE,Warlords of Draenor Character Boost,2
 33971,CHARACTER_UPGRADE_WOD_TOKEN_TITLE_ASIA,Free Character Boost!,2
 33972,CHARSELECT_CHAR_INACTIVE_CHAR, |cffff2020(Inactive)|r,2
-33973,CHARSELECT_CHAR_LIMITED_TOOLTIP,You must have an active subscription to play characters above level 20.,2
+33973,CHARSELECT_CHAR_LIMITED_TOOLTIP,You must have an active subscription to play characters above level 10.,2
 33974,CHAR_CREATE_ACCOUNT_LIMIT,You already have the maximum number of characters allowed on this account.,2
 33975,CHAR_CREATE_CHARACTER_IN_GUILD,"Faction change failed, character in guild.",2
 33976,CHAR_CREATE_DISABLED,Character creation on this realm is currently disabled. Please try again at a later date or create a character on a different realm.,2
@@ -16861,15 +16862,15 @@ You can find trainers for them in some settlements and cities.",1
 36495,COMMUNITIES_ADD_DIALOG_INVITE_LINK_LABEL,Join Community,1
 36496,COMMUNITIES_ADD_DIALOG_CREATE_BNET_DESCRIPTION,- Great for cross-game friends|n- Invite any player (members join as their BattleTag),1
 36497,COMMUNITIES_ADD_DIALOG_CREATE_BNET_LABEL,Create Blizzard Group,1
-36498,COMMUNITIES_ADD_DIALOG_CREATE_WOW_DESCRIPTION_NO_FACTION,- Great for in-game friends|n- Invite characters from any realm|n- Calendar and Quick Join support,1
-36499,COMMUNITIES_ADD_DIALOG_CREATE_WOW_LABEL,Create World of Warcraft Community (%s or Cross-Faction),1
+36498,COMMUNITIES_ADD_DIALOG_CREATE_WOW_DESCRIPTION_NO_FACTION,- Great for in-game friends|n- Calendar and Quick Join support,1
+36499,COMMUNITIES_ADD_DIALOG_CREATE_WOW_LABEL,Create World of Warcraft Community (%s),1
 36500,COMMUNITIES_ADD_DIALOG_LABEL,Add Community,1
 36501,COMMUNITIES_CREATE_DIALOG_WOW_LABEL,Create World of Warcraft Community,1
 36502,COMMUNITIES_CREATE_DIALOG_BATTLE_NET_LABEL,Create Blizzard Group,1
 36503,AZERITE_ISLAND_POWER_GAIN_SHORT,+%s Azerite Collected,1
 36504,AZERITE_ISLANDS_XP_GAIN,+%d Azerite Collected |cffe6cc80from %s|r,1
 36506,COMMUNITIES_ADD_DIALOG_CREATE_WOW_LABEL_NO_FACTION,Create World of Warcraft Community,1
-36507,COMMUNITIES_ADD_DIALOG_CREATE_WOW_DESCRIPTION,- Great for in-game friends|n- Invite characters from any realm|n- Calendar and Quick Join support,1
+36507,COMMUNITIES_ADD_DIALOG_CREATE_WOW_DESCRIPTION,- Great for in-game friends|n- Calendar and Quick Join support,1
 36508,CAMPAIGN_AVAILABLE_QUESTLINE,"Continue the campaign by accepting the quest ""%s"" in %s.",1
 36509,POWER_TYPE_ELDER_BLOOD,Elder Blood,1
 36510,COMMUNITIES_STREAM_FORMAT_LEADERS_AND_MODERATORS_ONLY,%s |A:communities-icon-lock:19:15|a,1
@@ -19015,11 +19016,11 @@ You can find trainers for them in some settlements and cities.",1
 42817,SUBSCRIPTION_INTERSTITIAL_SUBSCRIBE_SECOND_LINE,YOUR,1
 42818,SUBSCRIPTION_INTERSTITIAL_SUBSCRIBE_THIRD_LINE,ADVENTURE,1
 42819,SUBSCRIPTION_INTERSTITIAL_SUBSCRIBE_BUTTON,SUBSCRIBE NOW,1
-42820,SUBSCRIPTION_INTERSTITIAL_UPGRADE_TITLE,UPGRADE NOW,1
+42820,SUBSCRIPTION_INTERSTITIAL_UPGRADE_TITLE,SUBSCRIBE NOW,1
 42821,SUBSCRIPTION_INTERSTITIAL_UPGRADE_TITLE_SUBTEXT,Subscribe to continue your epic journey,1
-42822,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET1,PLAY TO LEVEL 70,1
+42822,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET1,PLAY TO LEVEL 60,1
 42823,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET2,EMBARK ON DARING ADVENTURES ACROSS AZEROTH AND BEYOND,1
-42824,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET3,GET ACCESS TO WOW CLASSIC,1
+42824,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET3,"GET ACCESS TO WORLD OF WARCRAFT, INCLUDING WOW: FOREVER AND CLASSIC",1
 42825,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET4,AND MORE!,1
 42826,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BULLET5,,1
 42827,SUBSCRIPTION_INTERSTITIAL_UPGRADE_BUTTON,SUBSCRIBE NOW,1
@@ -20009,7 +20010,7 @@ You can find trainers for them in some settlements and cities.",1
 44467,PCT_TOKEN_TOOLTIP_TEXT,Transfer your character to another realm or account,2
 44468,GROUP_FINDER_TITLE_WITH_PLAYSTYLE_WITHOUT_GROUPNAME,%s - %s,1
 44469,VAS_TOKEN_TOOLTIP_STATUS_REVIEW,Your order is being processed. Please check back later.,2
-44470,VAS_TOKEN_TOOLTIP_STATUS_NO_CHARACTERS,You don't have any eligible characters on this realm.,2
+44470,VAS_TOKEN_TOOLTIP_STATUS_NO_CHARACTERS,You don't have any eligible characters on this ruleset.,2
 44472,CLICK_CAST_UNSAVED,You have unsaved Click Cast Bindings. You will lose any changes if you close now.,1
 44473,CLICK_CAST_RESET,Do you want to reset all click bindings to their defaults?,1
 44481,POWER_TYPE_EPHEMERA,Ephemera,1
@@ -25768,7 +25769,7 @@ Items from the event have been removed.
 58328,CONTEXT_ACTION_LABEL_CLOSE_BAG,Close Bag,1
 58329,CONTEXT_ACTION_LABEL_MOVE_RAID_UNIT,Move,1
 58330,CONTEXT_ACTION_LABEL_MANAGE_BAG,Manage Bag,1
-58331,CONTEXT_ACTION_LABEL_BUY,Buy,1
+58331,CONTEXT_ACTION_LABEL_BUY,Buy,3
 58332,CONTEXT_ACTION_LABEL_MULTI_BUY,Multi-Buy,1
 58333,CONTEXT_ACTION_LABEL_INSPECT,Inspect,1
 58334,CONTEXT_ACTION_LABEL_PLACE_RAID_UNIT,Place,1
@@ -26664,7 +26665,7 @@ Items from the event have been removed.
 59445,ERR_RESTRICTED_ACCOUNT_LFG_LIST_CLASS_TRIAL,Class Trials cannot use this feature.,1
 59446,ERR_MAIL_CANT_SEND_SUPERDISTRICT,You can't send mail to that ruleset.,1
 59447,HOUSING_BLUEPRINT_IMPORT_VALIDATION_IMPORT_WITH_MISSING,"You can still import this Blueprint, but missing items will not be used.|n|nDo you still want to import this Blueprint?",1
-59448,AADC_SOCIAL_TAB_UNAVAILABLE,The %s feature is unavailable due to your account's privacy settings. Some social features are restricted.,1
+59448,SOCIAL_TAB_UNAVAILABLE,The %s feature is unavailable due to your account's privacy settings. Some social features are restricted.,3
 59449,VISITABLE_URL67,https://support.blizzard.com/help/article/000384713,3
 59450,GAMEMENU_EXTERNALEVENT_FAILURE,"Something went wrong. Try restarting the game from the Battle.net Desktop App. If the problem persists, please see our support article: |HurlIndex:67|h|cnVISITABLE_URL_DEFAULT_CHAT_LINK_COLOR:https://support.blizzard.com/help/article/000384713|r|h.",1
 59451,TOOLTIP_ITEM_STAT_SPELL_HEALING_INCREASE_DAMAGE_INCREASE,Equip: Increases healing done by up to %1$d and damage done by up to %2$d for all magical spells and effects.,1
@@ -27424,7 +27425,7 @@ Items from the event have been removed.
 60435,NPEV2_SKIP_TUTORIAL_BUTTON,Skip Tutorial,1
 60436,NPEV2_SKIP_TUTORIAL_PROMPT,Played World of Warcraft before?,1
 60438,VOICE_CHAT_USE_DISCORD_SETTINGS,Use Your Discord Settings,1
-60439,FRAME_ACTION_BATTLE_NET,Battle.net,1
+60439,FRAME_ACTION_BATTLE_NET,Battle.net,3
 60440,OPTION_TOOLTIP_VOICE_CHAT_USE_DISCORD_SETTINGS,Uses settings from your Discord account to control volume and the push-to-talk keybinding. Disable this to control these settings in World of Warcraft.,1
 60441,NPEV2_RETURN_TO_CORPSE,Follow your corpse back to where you died to resurrect.,1
 60445,VISITABLE_URL69,https://support.blizzard.com/help/article/379634,3
@@ -27450,3 +27451,18 @@ Items from the event have been removed.
 60474,FLOATING_COMBAT_TEXT_ON_TARGET_DROPDOWN_LABEL,Text on Target,3
 60475,TEXT_ON_TARGET_ON_LABEL,On,3
 60476,TEXT_ON_TARGET_OFF_LABEL,Off,3
+60478,STAT_WARLOCK_PET_MANA_TOOLTIP,Resource used to cast |cFFFFFFFFSpells|r and |cFFFFFFFFAbilities|r\n\n|cFFBCBCBCReplenishes automatically after not spending Mana for 5 sec|r,1
+60479,STAT_PET_HIT_TOOLTIP,Increases |cFFFFFFFFMelee|r and |cFFFFFFFFSpell|r hit chance\n\nIncreased by 100% of |cFFFFFFFFMaster's Hit Chance|r\n\n|cffBCBCBCTo never miss|r |cFFFF5A5ARaid Bosses|r|cffBCBCBC:\n  8.00%% Melee\n17.00%% Spells\n\nTo never miss|r |cFF52E31EEqual-Level Targets|r|cffBCBCBC:\n  5.00%% Melee\n  4.00%% Spells|r,1
+60480,CR_PET_EXPERTISE_TOOLTIP,Increase the chance |cFFFFFFFFMelee|r attacks are not |cFFFFFFFFDodged|r or |cFFFFFFFFParried|r\n\nIncreased by 100% of |cFFFFFFFFMaster's Expertise|r\n\n|cFFFF5A5ARaid Boss|r|cffBCBCBC chance to:\n  6.50%% Dodge\n16.50%% Parry\n\n|r|cFF52E31EEqual-Level Creature|r|cffBCBCBC chance to:\n  5.00%% Dodge\n  5.00%% Parry|r,1
+60481,CR_PET_DODGE_BASE_STAT_TOOLTIP,"Increases chance to |cFFFFFFFFDodge|r by %.2f%%\n\n|cFFBCBCBCDodging nullifies the attack|r\n\n|cFFBCBCBCFor Players, only Melee attacks from the front may be Dodged\n\nFor Creatures, Melee attacks may be Dodged from any direction|r",1
+60482,WOW_ERROR_331_HTML,"<html><body><p align=""CENTER"">Active game time is required in order to play World of Warcraft Forever. <a href=""https://support.blizzard.com/help/article/386682"">https://support.blizzard.com/help/article/386682</a></p></body></html>",1
+60485,STAT_CATEGORY_COMBAT,Combat,1
+60486,STAT_WARLOCK_PET_MANA_REGEN_TOOLTIP,The amount of |cFFFFFFFFMana|r regenerated every 5 sec\n\nIncreased by %d%% of |cFFFFFFFFMaster's Intellect|r\n\n|cFFBCBCBCImps benefit more from their Master's Intellect than other demons|r,1
+60488,CR_HIT_OFFHAND_TOOLTIP,Increases |cFFFFFFFFOff-Hand Melee|r hit chance by %.2f%%,1
+60493,DIALOG_CONFIRMATION_PROMPT_MKB,"Type \""%s\"" into the field to confirm.",1
+60494,DIALOG_CONFIRMATION_PROMPT_GAMEPAD,Press the button sequence to confirm.,1
+60495,CONFIRM_DESTROY_COMMUNITY_UNPROMPTED,"Are you sure you want to delete the group \""%s\""? This can't be undone.",1
+60496,CONFIRM_DESTROY_CHARACTER_COMMUNITY_UNPROMPTED,"Are you sure you want to delete the community \""%s\""? This can't be undone.",1
+60497,COMMUNITIES_INVITE_MANAGER_REVOKE_INVITE,Revoke,1
+60499,EXPANSION_NAME_FOREVER0,Forever,3
+60500,SHARD_TRANSFER_COMBAT,You can't refresh the world while in combat.,1
