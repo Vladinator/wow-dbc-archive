@@ -31,7 +31,7 @@ jobs:
       run: |
         product=${{ inputs.NAME }}
         latest_branch="release/${product}_latest"
-        latest_build=$(curl -s "http://us.patch.battle.net:1119/${{ inputs.PRODUCT }}/versions" | awk -F '|' '$1 == "us" {print $6}')
+        latest_build=$(curl -sf --retry 3 "https://us.version.battle.net/v2/products/${{ inputs.PRODUCT }}/versions" | awk -F '|' '$1 == "us" {print $6}')
         latest_build_number=$(echo ${latest_build} | awk -F '.' '{print $NF}')
         echo "CDN -> ${latest_build} (${latest_build_number})"
         response_file=$(mktemp)
@@ -86,6 +86,24 @@ jobs:
         else
           echo "Patching: $luafile"
           sed -i 's|https://raw.githubusercontent.com/wowdev/wow-listfile/master/community-listfile.csv|https://github.com/wowdev/wow-listfile/releases/latest/download/community-listfile.csv|' "$luafile"
+        fi
+
+    - name: Apply hotfix to wowcig
+      if: ${{ steps.check.outputs.skip != 'true' }}
+      run: |
+        luafiles=$(grep -rlF ":choices({" $HOME --include='wowcig*' 2>/dev/null || true)
+        if [ -z "$luafiles" ]; then
+          echo "Unable to find the relevant file."
+        else
+          for luafile in $luafiles; do
+            echo "Patching: $luafile"
+            if grep -qF "'${{ inputs.PRODUCT }}'," "$luafile"; then
+              echo "Product already supported."
+            else
+              sed -i "s|:choices({\$|&\n    '${{ inputs.PRODUCT }}',|" "$luafile"
+            fi
+            grep -n -B3 -A3 "'${{ inputs.PRODUCT }}'," "$luafile" || true
+          done
         fi
 
     - name: Run wowcig on ${{ inputs.NAME }}
