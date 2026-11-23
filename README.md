@@ -6,12 +6,15 @@ A daily workflow ensures that the archive is up-to-date and includes new files, 
 
 ## Shortcuts
 
-**Live**
+**Standard**
 - [wow_latest](https://github.com/Vladinator/wow-dbc-archive/tree/release/wow_latest)
 - [wow_ptr_latest](https://github.com/Vladinator/wow-dbc-archive/tree/release/wow_ptr_latest)
 - [wow_beta_latest](https://github.com/Vladinator/wow-dbc-archive/tree/release/wow_beta_latest)
 - _[live vs ptr](https://github.com/Vladinator/wow-dbc-archive/compare/release/wow_latest..release/wow_ptr_latest)_
 - _[live vs beta](https://github.com/Vladinator/wow-dbc-archive/compare/release/wow_latest..release/wow_beta_latest)_
+
+**Forever**
+- [wow_forever_latest](https://github.com/Vladinator/wow-dbc-archive/tree/release/wow_forever_latest)
 
 **Classic**
 - [wow_classic_latest](https://github.com/Vladinator/wow-dbc-archive/tree/release/wow_classic_latest)
