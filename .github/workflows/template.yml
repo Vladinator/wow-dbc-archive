@@ -18,7 +18,7 @@ jobs:
     steps:
 
     - name: Checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
       with:
         lfs: true
 
@@ -61,6 +61,8 @@ jobs:
     - name: Setup Lua and LuaRocks
       if: ${{ steps.check.outputs.skip != 'true' }}
       uses: ljmf00/setup-lua@v1.0.0
+      env:
+        CMAKE_POLICY_VERSION_MINIMUM: '3.5'
       with:
         lua-version: '5.1.5'
         install-luarocks: true
@@ -114,7 +116,7 @@ jobs:
 
     - name: Checkout latest WoWDBDefs
       if: ${{ steps.check.outputs.skip != 'true' }}
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
       with:
         repository: wowdev/WoWDBDefs
         path: ./WoWDBDefs
