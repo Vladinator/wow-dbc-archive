@@ -1,0 +1,38 @@
+ID,Name,Script,LastEditUser,Field_9_0_1_33978_004,Arguments
+71606,Area Trigger - Orbit Caster,"---@param elapsedMs integer # the amount of milliseconds since the `m_creationTime` of this AreaTrigger
+---@param x number
+---@param y number
+---@param z number
+---@param roll number
+---@param pitch number
+---@param yaw number
+---@return number | nil xOffset x offset from the m_center of AreaTrigger
+---@return number | nil yOffset y offset from the m_center of AreaTrigger
+---@return number | nil zOffset z offset from the m_center of AreaTrigger
+---@return number | nil roll rotation around z axis
+---@return number | nil pitch rotation around y axis
+---@return number | nil yaw rotation around x axis
+function AreaTrigger_OrbitCaster(elapsedMs, x, y, z, roll, pitch, yaw)
+	local DebugSwitch=0
+	local AuraCaster=caster
+	if caster:GetNearestUnitByStringID(52098,true) then
+		AuraCaster=caster:GetNearestUnitByStringID(52098,true)
+	end
+	local BaseSpeed=8--Random(11,13)
+	if spell==227217 then
+		BaseSpeed=5.25
+	end
+	if not caster.SpeedFactor then 
+		caster.SpeedFactor=1
+		Broadcast(""Set SpeedFactor to: ""..caster.SpeedFactor)
+	end
+	Debug(""Difficulty: ""..GetCurrentDifficultyID(),DebugSwitch)
+	Debug(""BaseSpeed: ""..BaseSpeed,DebugSwitch)
+	Debug(""SpeedFactor: ""..caster.SpeedFactor,DebugSwitch)
+	--Changes in time rate were messing with the bullet hell pattern too much, trying to make more consistent
+	--pathContainer:set_speed(BaseSpeed*caster.SpeedFactor)
+	pathContainer:set_speed(BaseSpeed)
+	pathContainer:add(caster:GetPosition())
+	pathContainer:add(position)
+end
+",Anthony Trejo,0,46
