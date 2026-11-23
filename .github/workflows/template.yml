@@ -91,19 +91,12 @@ jobs:
     - name: Apply hotfix to wowcig
       if: ${{ steps.check.outputs.skip != 'true' }}
       run: |
-        luafiles=$(grep -rlF ":choices({" $HOME --include='wowcig*' 2>/dev/null || true)
-        if [ -z "$luafiles" ]; then
+        luafile=$(find $HOME -type f -path '*/rocks-5.1/wowcig/*/bin/wowcig')
+        if [ -z "$luafile" ]; then
           echo "Unable to find the relevant file."
         else
-          for luafile in $luafiles; do
-            echo "Patching: $luafile"
-            if grep -qF "'${{ inputs.PRODUCT }}'," "$luafile"; then
-              echo "Product already supported."
-            else
-              sed -i "s|:choices({\$|&\n    '${{ inputs.PRODUCT }}',|" "$luafile"
-            fi
-            grep -n -B3 -A3 "'${{ inputs.PRODUCT }}'," "$luafile" || true
-          done
+          echo "Patching: $luafile"
+          sed -i "s|:choices({\$|&\n    '${{ inputs.PRODUCT }}',|" "$luafile"
         fi
 
     - name: Run wowcig on ${{ inputs.NAME }}
